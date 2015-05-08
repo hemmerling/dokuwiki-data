@@ -8,4 +8,4 @@ Installation:
   - Benennen Sie das Hauptverzeichnis "dokuwiki-data-master" um in "data"
   - Kopieren Sie die Inhalte von "data" in das gleichnamige, im Haupt-Ordner von DokuWiki befindliche Verzeichnis in Ihrem Dateisystem, z.B. durch Verschieben mit Überschreiben des alten Dateisystem-Verzeichnisses.
 
-Die Bilder und Photos sind unter der "Creative Commons Attribution-ShareAlike 4.0 International License" veröffentlicht. 
+Die einzelnen Texte, Bilder, Photos, DokuWiki-Textdateien und die Datenbank-ähnliche Linksammlung als Ganzes sind unter der "Creative Commons Attribution-ShareAlike 4.0 International License" veröffentlicht. 
