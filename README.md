@@ -8,6 +8,6 @@ Installation:
   - Dearchivieren Sie es mit einem Unzip.
   - Benennen Sie das Hauptverzeichnis "dokuwiki-data-master" um in "data".
   - Kopieren Sie die Inhalte von "data" in das gleichnamige, im Haupt-Ordner von DokuWiki befindliche Verzeichnis in Ihrem Dateisystem, z.B. durch Verschieben mit Überschreiben des alten Dateisystem-Verzeichnisses.
-  - Sofern Sie meine Linksammlung oder Teile davon online im Internet verfügbar machen wollen, müssen Sie natürlich alle in den Daten befindlichen Hinweise auf mich als Online-Anbieter entfernen und durch Ihre eigene Anbieter-Kennung ersetzen!!!!! Also bitte keinen 1:1 Upload "irgendwohin" auf einen öffentlichen Server, auch nicht als Schatten-Kopie !!!!
+  - Bitte verzichten Sie darauf, meine Linksammlung oder Teile davon unmodifziert online im Internet verfügbar zu machen wollen. Also bitte keinen 1:1 Upload "irgendwohin" auf einen öffentlichen Server, auch nicht als Schatten-Kopie !!!! Sofern Sie Teile der Daten in der Öffentlichkeit verwenden wollen, müssen Sie natürlich alle in den Daten befindlichen Hinweise auf mich - Rolf Hemmerling - als Online-Anbieter entfernen und durch Ihre eigene Anbieter-Kennung ersetzen!!!!! 
 
 Die einzelnen Texte, Bilder, Photos, DokuWiki-Textdateien und die Datenbank-ähnliche Linksammlung als Ganzes sind unter der "Creative Commons Attribution-ShareAlike 4.0 International License" veröffentlicht. 
