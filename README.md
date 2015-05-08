@@ -2,8 +2,8 @@
 Der Inhalt meiner Website http://hemmerling.free.fr, eine Datenbank-ähnliche Linksammlung, verwaltet mit dem Wiki-System "DokuWiki" ( http://www.dokuwiki.org ). Dieses Archiv enhält die eigentlichen Inhalte als Textdateien im DokWiki-Format, abgelegt in DokuWiki innerhalb des Dateisystems als Ordner "data".
 
 Installation: 
-  - Installieren und konfigurieren Sie DokuWiki im Dateisystem Ihres Servers. 
-  - Installieren und konfigurieren Sie ein geeignetes DokuWiki-Template. Ich empfehle "roundbox" ( http://www.dokuwiki.org/template:roundbox ) für den Offline-Betrieb.
+  - Installieren und konfigurieren Sie DokuWiki im Dateisystem Ihres Redaktionssystem-Servers. 
+  - Installieren und konfigurieren Sie ein geeignetes DokuWiki-Template. Ich empfehle das DokuWiki-Template "roundbox" ( http://www.dokuwiki.org/template:roundbox ) für Redaktionssysteme. Meine Online-Version läuft mit dem DokuWiki-Template  ”incognitek” ( http://www.dokuwiki.org/template:incognitek )
   - Downloaden Sie dieses Archiv als "dokuwiki-data-master.zip".
   - Dearchivieren Sie es mit einem Unzip.
   - Benennen Sie das Hauptverzeichnis "dokuwiki-data-master" um in "data".
