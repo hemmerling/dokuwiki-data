@@ -1,7 +1,8 @@
 # dokuwiki-data
-Der Inhalt meiner Website http://hemmerling.free.fr, eine Datenbank-ähnliche Linksammlung, verwaltet mit dem Wiki-System "DokuWiki". Dieses Archiv enhält die eigentlichen Inhalte als Textdateien im DokWiki-Format, abgelegt in DokuWiki innerhalb des Dateisystems als Ordner "data".
+Der Inhalt meiner Website http://hemmerling.free.fr, eine Datenbank-ähnliche Linksammlung, verwaltet mit dem Wiki-System "DokuWiki" ( http://www.dokuwiki.org ). Dieses Archiv enhält die eigentlichen Inhalte als Textdateien im DokWiki-Format, abgelegt in DokuWiki innerhalb des Dateisystems als Ordner "data".
 
 Installation: 
+  - Installieren und konfigurieren Sie DokuWiki im Dateisystem Ihres Servers
   - Downloaden Sie dieses Archiv als "dokuwiki-data-master.zip"
   - Dearchivieren Sie es mit einem Unzip 
   - Benennen Sie das Hauptverzeichnis "dokuwiki-data-master" um in "data"
