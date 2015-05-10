@@ -8,6 +8,6 @@ Installation:
   - Dearchiviere it by an Unzip tool.
   - Rename the main folder "dokuwiki-data-master" to "data".
   - Copy the folder "data" to the root folder of your Dokuwiki installation, e.g. by moving with overwriting.
-  - Please don´t publish my link collection, or parts of it, online in Internet, without prior modification. So please no 1:1 upload "to somewhere" on a public server, even notas shadow copy !!!! If you want to use parts of the data in the public, of course you must delete all references to me, Rolf Hemmerling, the online provider, from the data and replace it by your own online provider data !!!!! 
+  - Please don´t publish my link collection, or parts of it, online in Internet, without prior modification. So please no 1:1 upload "to somewhere" on a public server, even not as shadow copy !!!! If you want to use parts of the data in the public, of course you must delete all references to me, Rolf Hemmerling, the online provider, from the data and replace it by your own online provider data !!!!! 
 
 The individual text, imagages, photos, DokuWiki textfiles and the database-alike link collection as ensemble are published by license "Creative Commons Attribution-ShareAlike 4.0 International License". 
