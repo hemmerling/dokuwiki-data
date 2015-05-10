@@ -1,0 +1,239 @@
+====== [hemmerling] Instrumentation ======
+Related Pages:
+  *[[carnetworks.html|Distributed Computing on Automotive Networks, Car Electronics and Automotive Data Formats]].
+  *[[mathengineering.html|Mathematical Engineering]].
+  *[[mathworks.html|MathWorks ( MATLAB / Simulink )]].
+  *[[ni.html|National Instruments ( Labview, DIAdem )]].
+  *[[mathcad.html|PTC Mathcad]].
+  *[[simulate.html|Simulation]].
+===== Instrumentation Hardware =====
+==== General ====
+  *[[http://www.aglilent.com/|Agilent Technologies]].    
+    *[[http://www.home.agilent.com/en/pc-1742042/fieldfox-handheld-rf-and-microwave-analyzers|Agilent Technologies "FieldFox Handheld RF and Microwave Analyzers"]].
+  *[[http://www.brainchild.com.tw/|BrainChild - BRAINCHILD ELECTRONICS Co., LTD]] - "Largest controller maker in Taiwan".
+    *Software "Data Acquisition Studio" for Windows - "PC based data logging software to be used with [[http://en.wikipedia.org/wiki/Modbus|Modbus]] based devices like I/O Modules".
+    *"Data Acquisition Modules - Distributed IO Modules".
+  *[[http://www.de.endress.com/|Endress+Hauser Messtechnik GmbH+Co. KG]] - "Messtechnik (Füllstand, Grenzstand, Durchfluss, Druck, Temperatur, messen)".
+  *Distance meters.
+    *[[http://www.checkline-europe.de/disto_laser_abstandsmessgeraete/Disto%20A8|Checkline Europe "Leica Disto A8 Laser Distance Meter"]].
+  *[[http://www.lecroy.com/|LeCroy]] - affordable "WaveAce" oscilloscopes.
+  *[[http://www.micro-epsilon.de/|MICRO-EPSILON MESSTECHNIK GmbH & Co. KG]] - "Hochpräzise Sensoren, Messgeräte und Systeme / Anlagen".
+  *[[http://www.mtssensor.de/|MTS Sensor Technologie GmbH & Co. KG]], Lüdenscheid.
+    *[[http://www.mtssensor.de/UEber-MTS.13.0.html?&L=0s|Über MTS]] - "Anfang 1970 hat MTS Sensors - ein Unternehmensbereich der MTS Systems Corporation - das magnetostriktive Messprinzip erfunden und machte es als Erster im Markt industriell in Form von linearen Positionssensoren und Füllstandsonden nutzbar".
+    *[[http://en.wikipedia.org/wiki/MTS_Systems_Corporation|EN.Wikipedia "MTS Systems Corporation"]], [[http://de.wikipedia.org/wiki/MTS_Systems_Corporation|DE.Wikipedia "MTS Systems Corporation"]].
+    *[[http://en.wikipedia.org/wiki/Magnetostriction|EN.Wikipedia "Magnetostriction"]], [[http://de.wikipedia.org/wiki/Magnetostriktion|DE.Wikipedia "Magnetostriktion"]].  
+    *[[http://www.kem.de/home/-/article/16537493/26146621/|KEM - Informationsvorsprung für Konstrukteure "Wegmessung mit Köpfchen - Aufbau, Messprinzip und Anwendungen magnetostriktiver Positionssensoren"]].
+  *[[http://www.phoenixcontact.de/signalanpassung/|PHOENIX CONTACT "Signalkonverter INTERFACE"]].
+  *[[http://www.prosensor.com/|Prosensor]], France.
+  *The OpenSource instrumentation hardware "Red Pitaya" -> See [[xilinx.html|Xilinx "System on Chip" ( SoC )]].
+  *[[http://www.rtechelectronics.com/|R TECH ELECTRONICS]].
+    *The "RT USB 3000" device, with LabVIEW driver. A compact 8-channel ADC with USB 2.0 interface".
+  *[[http://www.sensorexpert.com/|SensorExpert]] - "The force in surface contact pressure".
+  *[[http://www.tektronix.com/|Tektronix, Inc.]].
+    *[[http://www.tektronix.com/newmdo|Tektronix, Inc. "MDO4000 Series - The first instrument for time-correlated anaogue, digital and RF signals"]] -  Whitepaper  -> You need an access code, for example "username547".
+      *[[http://www.tektronix-resources.com/1108mdo400/48W_26923_0_MR_Letter.pdf|Tektronix, Inc. "Fundamentals of the MDO4000 Series. Mixed Domain Oscilloscope. Application Note"]] ( PDF ) ->  Fundamentals guide to Mixed-Domain-Oscilloscopes.
+  *[[http://www.yokogawa.com/de/|Yokogawa Deutschland GmbH]].
+==== Low-Buget Oscilloscopes ====
+=== Low-Buget standalone Oscilloscopes ===
+  *[[http://www.messgeraete-chemnitz.de/|Präzitronic ( messgeraete-chemnitz.de )]].
+    *[[http://www.messgeraete-chemnitz.de/tisch-oszilloskope/|Präzitronic "OWON Oszilloskope"]].
+  *[[http://www.batronix.com/versand/oszilloskope/|Batronix Elektronik - Führende Programmier- und Messlösungen "Oszilloskope"]].
+    *[[http://www.batronix.com/versand/oszilloskope/low-cost-oscilloscope.html|Batronix Elektronik "Low-cost Oscilloscope"]].
+      *[[http://www.batronix.com/versand/oszilloskope/Rigol-DS1052E.html|Batronix Elektronik "Rigol DS1052E"]].
+=== Low-Buget PC-based Oscilloscopes ===
+  *[[http://www.picotech.com/oscilloscope.html|PicoScope USB Oscilloscope]].
+    *The commercial oscilloscope software [[http://www.picotech.com/picoscope-oscilloscope-software.html|PicoScope]] for Windows.
+    *[[http://www.reichelt.de/USB-Oszilloskope/0/16/index.html?GROUPID=4055&MANUFACTURER=pico|reichelt elektronik GmbH & Co. KG "USB-Oszilloskope"]] - "pico".
+=== Sophisticated PC-based Oscilloscopes ===
+  *[[http://www.ni.com/virtualbench/|National Instruments "NI VirtualBench All-in-One Instrument"]], [[http://www.ni.com/virtualbench/d/?cid=Advertising-Measurements-Central_Germanic-metc=mt5584-none|National Instruments "Universalmessgerät NI VirtualBench"]].
+    *"NI VirtualBench" uses proprietary drivers, not a DAQM driver. I.e. it is not integrated into National Instruments' "Measurement & Automation Explorer" :-(. This means that you just can access the device by special virtual instruments from within LabVIEW, and by the supplied Windows desktop application. You can´t access it neither by other National Instrument software tools ( e.g. National Instruments "Measurement Studio" ), nor by self-created Windows applications written in C#, C/C++,...
+    *Indeed there some other sophisticated devices of National Instrument without DAQM driver :-(, more than you imagine at first thinking :-(.
+    *It uses a Ethernet-over-USB protocol ( [[http://en.wikipedia.org/wiki/Ethernet_over_USB|EN.Wikipedia "Ethernet over USB"]] ).
+
+==== Low-Buget Logic Analysers ====
+  *[[http://www.dangerousprototypes.com/open-logic-sniffer/|Dangerous Prototypes. A new open source hardware project every month "Logic Sniffer"]].
+    *Vendor [[http://www.watterott.com/|Watterott electronic GmbH]].
+  *[[http://www.usbee.com/|CWAV, Inc.]] - "USBee QX - The Ultimate Electronic Test Pod".
+  *[[http://www.ikalogic.com/|IKALOGIC S.A.S.]] - 4/8 channel logic analysers.
+    *ScanaStudio Logic Analyzer Software.
+    *SCANALOGIC-2 Educational KIT.
+    *Scanalogic-2 20 MHz Logic Analyzer.
+    *Vendor [[http://www.watterott.com/|Watterott electronic GmbH]].
+  *[[http://www.saleae.com/|Saleae LLC.]] - 8/16 channel logic analysers.
+    *Vendors [[http://www.zeitech.de/|ZEITECH, M.Eng. Oleg Zeiter]] and [[http://www.elmicro.com/|Elektronikladen / ELMICRO]].
+  *eBay -> Logic Analyser "Clones" with  Cypress Chips :-).
+    *[[http://www.ebay.de/sch/i.html?_nkw=Core-Develope-Board-Logic-Analyze-Module|eBay.de "Core-Develope-Board-Logic-Analyze-Module"]].
+    *[[http://www.ebay.com/sch/i.html?_nkw=Core-Develope-Board-Logic-Analyze-Module|eBay.com "Core-Develope-Board-Logic-Analyze-Module"]].
+
+==== Communications ====
+  *[[http://www.lxistandard.org/|LAN eXtensions for instrumentation]] - "LXI is the power of Ethernet and the Web applied to Test & Measurement (T&M) offering you new possibilities in test systems – local, remote, distributed, time-aware".
+  *[[http://en.wikipedia.org/wiki/LAN_eXtensions_for_Instrumentation|EN.Wikipedia "LAN eXtensions for Instrumentation"]], [[http://de.wikipedia.org/wiki/LAN_eXtensions_for_Instrumentation|DE.Wikipedia "LAN eXtensions for Instrumentation"]].
+==== Direct Digital Synthesis ( DDS ) ====
+=== Hardware ===
+  *[[http://www.elv.de/DDS-Funktionsgenerator-DDS-110,-10-MHz,-Komplettbausatz-inkl-Software/x.aspx/cid_74/detail_10/detail2_16755|ELV "DDS-Funktionsgenerator DDS 110, 10 MHz, Komplettbausatz inkl. Software. Artikel-Nr.: 68-07 37 56"]].
+  *[[http://www.ibe-hau.de/produkte/produkte_02_dds_10_g.htm|IBE-HAU, Ing.-Büro für Elektronik "Komplettgerät DDS 10 G"]].
+=== Software ===
+=== Resources ===
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3772352065/hemmerling-21|Ernst Schmid: "DDS-Signalgeneratoren praktisch aufbauen und anwenden"]].
+  *Google Book [[http://books.google.com/books?id=EaS9f-kjookC|Ernst Schmid: "DDS-Signalgeneratoren praktisch aufbauen und anwenden"]].
+  *[[http://www.elv.de/output/controller.aspx?cid=726&detail=32084|ELV "10-MHz-DDS-Funktionsgenerator DDS 110 Teil 1/2"]], [[http://www.elv.de/output/controller.aspx?cid=726&detail=31871|10-MHz-DDS-Funktionsgenerator DDS 110 Teil 2/2]].
+  *[[http://en.wikipedia.org/wiki/Direct_digital_synthesizer|EN.Wikipedia "Direct digital synthesizer"]], [[http://de.wikipedia.org/wiki/Direct_Digital_Synthesis|DE.Wikipedia "Direct Digital Synthesis"]] ( DDS ).
+
+===== Instrumentation Software + Hardware, Data Logging and Visualisation =====
+==== Free ====
+  *[[http://www.comedi.org/|Comedi - Linux Control and Measurement Device Interface]].
+  *The OpenSource [[http://oss.oetiker.ch/rrdtool/|OETIKER+PARTNER AG "RRDtool"]] for Windows and Linux.
+    *[[http://www.cacti.net/|CATI]], [[http://cacti.sourceforge.net/|Sourceforge "Cacti"]], [[http://www.sourceforge.net/projects/cacti/|Sourceforge "Cacti"]] - "The complete rrd-tool based graphing solution".
+  *The OpenSource [[http://www.openscada.org/|openSCADA]] for Linux, Windows, MacOSX.
+  *[[http://www.vimms.org/|Visual Module Management System ( Vimms )]] - "The free OpenSource development system for measurement and automation with Linux", "Automation, Evaluation, Fitting, Report Generation".
+  *The Opensource [[http://pvbrowser.de/|ProcessViewBrowser]] for Linux - "Process Visualization, HMI and SCADA as simple as browsing the internet".
+==== Commercial ====
+  *[[http://www.avl.com/puma-open|AVL "PUMA Open Test System Automation"]].
+    *PUMA runs on Windows, using the realtime kernel "AVL Realtime Environment" ( ARTE ).
+  *[[http://www.aglilent.com/|Agilent Technologies]].
+    *[[http://www.agilent.com/find/vee|Agilent VEE Pro]] ( formerly: Hewlett Packard VEE Pro, HP VEE Pro ).
+      *[[http://www.agilent.com/find/adn|Agilent Developer Network]].
+      *The german Agilent distributor [[http://www.datatec.de/|dataTec GmbH]].
+      *The german Agilent distributor [[http://www.meilhaus.de/|Meilhaus Electronic GmbH]].
+    *[[http://www.agilent.com/chem/openlab/|Agilent OpenLAB]].
+  *Carl Zeiss "Calypso".
+      *[[http://www.zeiss.com/industrial-metrology/en_us/products/software/calypso.html|ZEISS United States "CALYPSO"]].
+      *[[http://www.inspectionengineering.com/Zeiss_Software.htm|Inspection Engineering "Calypso Software from Carl Zeiss"]].
+  *[[http://www.datatranslation.com/|Data Translation - PC-Based Test and Measurement Solutions]].
+  *[[http://www.imc-berlin.de/|imc FAMOS]].
+    *[[http://en.wikipedia.org/wiki/Imc_FAMOS|EN.Wikipedia "imc FAMOS"]], [[http://de.wikipedia.org/wiki/Imc_FAMOS|DE.Wikipedia "Imc FAMOS"]].
+  *[[http://www.dasylab.com/|measX GmbH & Co.KG "DASYLab - Data Acquisition System Laboratory"]].
+    *[[http://www.premega.de/de-02/software_dasylab_labjack_de.php|PREMEGA Systemmeßtechnik GmbH - Messeinrichtungen/Software "DASYLab LabJack-Treiber"]] - commercial driver for the USB device "LabJack U12" by [[http://www.labjack.com/|LabJack Corporation]].
+    *[[http://www.mccdaq.com/|Measurement Computing - The Value Leader in Data Acquisition]] (formerly: IOtech, Inc ).
+      *[[http://www.mccdaq.com/products/dasylab.htm|Measurement Computing "DASYLab"]].
+  *<WRAP tip>[[ni.html|National Instruments ( Labview, DIAdem )]].</WRAP>
+  *[[http://www.htbasic.com/|TransEra Corporation "HTBasic"]].
+    *[[http://www.techsoft.de/documents/htbasic.html|Tech Soft GmbH "HTBasic"]].
+      *[[http://www.techsoft.de/htbasic/german/daqlistm.shtml?daqlist.shtml|Tech Soft "Support: DAQ Interfaces"]].
+        *[[http://www.techsoft.de/german/documents/daqmx.html|Tech Soft GmbH "DAQmx Library for HTBasic"]].
+    *[[http://en.wikipedia.org/wiki/Rocky_Mountain_BASIC|EN.Wikipedia "Rocky Mountain BASIC"]] - "Rocky Mountain BASIC (also RMB or RM-BASIC) is a dialect of the BASIC programming language created by Hewlett-Packard. It was especially popular for control of automatic test equipment using GPIB".
+  *[[http://www.micro-epsilon.de/products/iconnect_7/|MICRO-EPSILON MESSTECHNIK GmbH & Co. KG "ICONNECT 7"]] - "Development environment for the rapid visual programming of industrial applications. Measurement modules can be programmed independently with their own functions".
+  *[[http://www.ipemotion.com/|IPEmotion]] by [[http://www.ipetronik.de/|IPETRONIK GmbH & Co. KG]].
+    *[[http://www.elektor.de/elektronik-news/komfortable-messsoftware-kommuniziert-mit-geraten.1737130.lynkx|Elektor "Komfortable Messsoftware kommuniziert mit Geräten vieler Hersteller"]], 2011.
+  *Some other products or technologies: GPIB. DAQ. VXI. HIQ (R). LabWindows (R) /CVI. Measure (R). Component Works (R). Virtual Bench (R). Motion (Contrôle d'axes). BridgeVIEW (R). IMAQ (R). LabWindows. Lookout (R). PXI (R).
+===== Test Execution Engine / Test Sequencers =====
+==== EXAM ====
+=== The Tool ===
+  *The free [[http://www.exam-ta.de/| EXtended Automation Method ( EXAM ) ]], an Eclipxe-based Python 2.x application by [[http://www.micronova.de/|MicroNova AG]] for Windows.
+    *[[http://www.micronova.de/de/testautomation.html|MicroNova AG]].
+      *[[http://www.exam-ta.de/de/about-exam/exam-3-0.html|MicroNova AG "About EXAM / EXAM 3.0. EXAM wird mehrspurig – EXAM 3.0 geht 2010 an den Start"]].
+    *[[http://de.wikipedia.org/wiki/EXAM|DE.Wikipedia "EXAM"]].
+    *Based on the test automation process EXAM ( EXtended Automation Method ).
+    *"Als weltweit exklusiver EXAM-Distributor des Volkswagen Konzerns bieten wir Automobilherstellern und Zulieferern den kostenfreien Download von EXAM an".
+    *Features.
+      *"Reporting with [[http://www.eclipse.org/birt|BIRT]]".
+      *"[[http://www.ibm.com/software/awdtools/doors/|Doors]] Synchronizer".
+      *"EXAM Scripting".
+      *Interfaces / Scripting:
+        *Python ( see [[python.html|Python]] )
+        *[[http://groovy.codehaus.org/|Codehaus "Groovy"]], [[http://en.wikipedia.org/wiki/Groovy_%28programming_language%29|EN.Wikipedia "Groovy (programming language)"]], [[http://de.wikipedia.org/wiki/Groovy|DE.Wikipedia "Groovy"]].
+      *A database is needed for operation, but is not shipped even with the EXAM EA package. Supported databases:
+        *The OpenSource SQL database [[http://www.postgresql.org/|PostgreSQL]]. At the installation, you are asked to confirm the installation path ( e.g. "C:\Program Files\Postgre" ) and the database installation path ( e.g. "C:\Program Files\Postgre" ).
+        *The OpenSource SQL database [[http://www.mysql.com/|MySQL]].
+        *The SQL database [[http://www.oracle.com/us/products/database/|Oracle Database]] 10g - Free or commercial edition.
+      *Messaging: JBoss Application Server 4.2.X.
+        *[[http://www.jboss.org/jbossas/downloads/|JBOSS - Downloads]].
+          *[[http://www.sourceforge.net/projects/jboss/files/JBoss/JBoss-4.2.3.GA/|SourceForge "JBoss-4.2.3.GA"]].
+      *EXAM EA -> [[http://www.oracle.com/technetwork/java/|Java Platform Standard Edition]] 6, [[http://www.python.org/|Python]] 2.x runtime.
+      *EXAM Codegenerator -> [[http://www.oracle.com/technetwork/java/|Java Platform Standard Edition]] 6.
+    *[[http://www.exam-ta.de/de/exam-user-days.html|EXAM User Days]] 2006, 2007, 2008, 2009.
+=== Concept ===
+  *EXAM as supervisory control application is used for triggering communications with the target device-under-test, only, usually by communicating with software interfaces to CAN-Bus, e.g.
+      *of a USB_2_CAN-Bus device.
+      *or another software application like "Vector Informatics CANalyzer" which may communicate by CAN-Bus with the device under test.
+  *EXAM is not used for simulation of the environment of the device-under-test.
+  *EXAM is both used for development, software-test on module level and especially also for black-box tests.
+  *The rest of the car and its control devices is simulated by a MATLAB/Simulink application.
+  *In opposite, "Vector Informatics CANalyzer" might also be used for simulation of the environment of the device-under-test ?!
+=== Installation ===
+  *Just if you select these options during the installation process, the necessary database schemes are created in the selected databases :-):
+    *[x] Database.
+      *[x]PostgreSQL 8.4 - A Postgres database. It will be automatically installed and configured to be usable with EXAM.
+      *[ ] Oracle - Configure a Oracle Database to be usable with EXAM -> Missing functionality / software bug of EXAM 3.1: EXAM does not generate the necessary database schemes. So you can´t use EXAM with Oracle, and this option is quiet useless :-(.
+      *[ ] MySQL - Configure a MySQL Database to be usable with EXAM -> Missing functionality / software bug of EXAM 3.1: EXAM does not generate the necessary database schemes. So you can´t use EXAM with MySQL, and this option is quiet useless :-(.
+  *[[http://www.exam-ta.de/en/forum/topic/69.html|EXAM Forum "EXAM und MySQL"]], 2011-07-20 - "Die Installationsroutine von EXAM (basierend auf meinen Erfahrungen) kann selbständig keine User oder Tabellen anlegen, weder in MySQL noch in Oracle" :-(.
+  *Configuration: If you execute the menu option "Update / Model" by right-click on a project in administration mode, be shure to import both "_1_core.zip" and "EXAMples.zip", as there is no second chance to do so.
+
+^ ^ ^ ^^^ ^^^
+^ Database ^ Password from user "root" ^ Schema-Model ^^^ Schema-Report ^^^ 
+^ :::      ^ ^ Schema ^ User name ^ Password ^ Schema ^ User name ^ Password ^
+^ PostgreSQL 8.4 ^ | core | core | exam | exam_rmdb | exam_rmdb | exam |
+^ MySQL | <enter password> | core | core |exam | exam_rmdb | exam_rmdb | exam |
+^ | | | | | | | |
+=== Education ===
+  *[[http://www.exam-ta.de/exam-services/exam-schulungen.html|MicroNova AG "EXAM-Schulungen"]].
+
+==== Some other Test Execution Engines / Test Sequencers ====
+  *[[http://www.ni.com/teststand/|National Instruments "TestStand"]] - Testing of hardware in testbed / teststand, for use with LabVIEW. This isn't a software testing framework for testing of LabVIEW applications!
+  *[[http://www.home.agilent.com/agilent/product.jspx?nid=-34035.536883655.00|Agilent Technologies "TestExec SL Software"]].
+    *[[http://www.lxinstruments.com/de/diensleistungen/schulung.htm|LXinstruments GmbH "Schulungen, Seminare, Trainings, Workshops"]] - "TestExec SL Application Developer Training", "TestExec SL Hardware Handler Training".
+  *The discontinued [[http://www.home.agilent.com/agilent/product.jspx?nid=-536900526.536910699.00|Agilent Technologies "T&M Toolkit 2.1 with Test Automation"]].
+  *A similar testing approach is "Interpretation of and reaction to ( Automotive ) field bus messages by test scripts running on a host computer" -> See [[carnetworks.html|Distributed Computing on Automotive Networks, Car Electronics and Automotive Data Formats]].
+==== Resources ====
+  *[[http://en.wikipedia.org/wiki/Test_execution_engine|EN.Wikipedia "Test execution engine"]].
+===== Condition Monitoring =====
+==== Conferences ====
+  *[[http://www.ifm-consulting.com/ifmcon/web/rtm_forum_2010.htm|5. Real-Time-Maintenance (RTM)-Forum]] in Stuttgart, 2010-09-28.
+  *[[http://www.ifm-consulting.com/ifmcon/web/sap_infotag_2009.htm|SAP Infotag 2009: Aktuelle Instandhaltungsstrategien und ihre Umsetzung in SAP]], 2009-04-02.
+  *[[http://www.ifm-consulting.com/ifmcon/web/rtm_forum_2009.htm|4. Real-Time-Maintenance (RTM)-Forum]] in Stuttgart, 2009-05-06.
+  *[[http://www.ifm-consulting.com/ifmcon/web/rtm_forum_2008.htm|3. Real-Time-Maintenance (RTM)-Forum]] in Stuttgart, 2008-04-15.
+  *[[http://www.ifm-consulting.com/ifmcon/web/rtm_forum_2007.htm|2. Real-Time-Maintenance (RTM)-Forum]] in Donaueschingen , 2007-03-20.
+==== Resources ====
+  *[[http://en.wikipedia.org/wiki/Condition_Monitoring|EN.Wikipedia "Condition Monitoring"]], [[http://de.wikipedia.org/wiki/Condition-Monitoring|DE.Wikipedia "Condition-Monitoring"]].
+  *[[http://en.wikipedia.org/wiki/Data_stream_management_system|EN.Wikipedia "Data stream management system"]], [[http://de.wikipedia.org/wiki/Data_Stream_Management_System|DE.Wikipedia "Data Stream Management System"]].
+  *[[http://www.ifm-consulting.com/|ifm consulting gmbh]].
+    *[[http://www.ifm-consulting.com/ifmcon/web/workshops-seminare.htm|ifm consulting gmbh "Workshops / Seminare"]].
+  *[[http://i-for-t.de/ifmiftde/|i-for-T GmbH]] - The condition monitoring software "CMSpro Software" for Java on W2k, WinXP, Win7. 
+    *[[http://i-for-t.de/ifmiftde/web/cmspro-software-download.htm|i-for-T GmbH "Fordern Sie den Download-Link für die CMSpro Software an"]].
+  *[[http://www.inat.de/|Softing Industrial Networks GmbH]].
+
+===== Rental Services =====
+  *[[http://www.livingston.com/|Livingston, The Leading Test &amp; Measurement Equipment Rental Company]].
+
+===== Resources =====
+  *[[http://krahmer.freepage.de/msr.html|Peter Krahmer "MM-Physik: Messen Steuern Regeln (MSR)"]].
+  *[[http://www.prismsound.com/test_measure/webinars.php|Prism Sound Limite "Wednesday Webinars"]] - Audio Test and Measurement Webinars.
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/Automatic_test_equipment|EN.Wikipedia "Automatic test equipment"]], [[http://de.wikipedia.org/wiki/Automatic_Test_Equipment|DE.Wikipedia "Automatic Test Equipment"]] ( ATE ).
+    *[[http://en.wikipedia.org/wiki/SCADA|EN.Wikipedia "SCADA"]], [[http://de.wikipedia.org/wiki/SCADA|DE.Wikipedia "SCADA"]] - "Supervisory Control and Data Acquisition".
+      *SCADA expertness is a "horizontal industry" skill -> ( [[http://en.wikipedia.org/wiki/Horizontal_market|EN.Wikipedia "Horizontal market"]], [[http://de.wikipedia.org/wiki/Horizontaler_Markt|DE.Wikipedia "Horizontaler Markt"]] ).
+    *[[http://de.wikipedia.org/wiki/MSR|DE.Wikipedia "MSR"]] -> "Messen-Steuern-Regeln in der Automatisierungstechnik".
+    *[[http://en.wikipedia.org/wiki/Measuring_Instruments_Directive|EN.Wikipedia "Measuring Instruments Directive"]], [[http://de.wikipedia.org/wiki/Richtlinie_2004/22/EG_%C3%BCber_Messger%C3%A4te|DE.Wikipedia "Richtlinie 2004/22/EG über Messgeräte"]].
+    *[[http://de.wikipedia.org/wiki/Temperaturmessung|DE.Wikipedia "Temperaturmessung"]], [[http://de.wikipedia.org/wiki/Druckmessger%C3%A4t|DE.Wikipedia "Druckmessgerät"]], [[http://de.wikipedia.org/wiki/Durchflussmesser|DE.Wikipedia "Durchflussmesser"]], [[http://de.wikipedia.org/wiki/Messumformer|DE.Wikipedia "Messumformer"]].
+  *[[http://www.boku.ac.at/homepage/h9540152/|Sabine Riedler, Florian Hackel, Walter Stepanek "Testversionen zum Thema Druckmessung
+(VO Mess- und Regelungstechnik für LMBT / Prof. Zaussinger)"]] - "Das ist ein Versuch ein Online-Skriptum zum Thema Druckmessung auf 4 verschiedene Arten darzustellen".
+===== Literature, Books =====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0070126186/hemmerling-21|Clyde F. Jr. Coombs "Electronic Instrument Handbook"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/013096005/hemmerling-21|Robert Helsel "Visual Programming with HP-Vee with CDROM"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3446407502/hemmerling-21|Jörg Hoffmann "Handbuch der Messtechnik"]].
+  *Free Book [[http://www.tcgmbh.de/|TC GmbH Temperaturmessung und -Regelung "Handbuch zur Temperaturmessung mit Thermoelementen und Widerstandsthermometern"]].
+  *Free PDF book [[http://www.pentek.com/rechandbook/rechandbook.cfm?GC=11286|Pentek, Inc. "High-Speed Real-Time Recording Systems Handbook"]].
+===== Magazines =====
+  *[[http://www.ident.de/|ident - Das führende Fachmagazin für Automatische Datenerfassung & Identifikation]].
+===== Forums, Newsgroups =====
+  *[[http://dangerousprototypes.com/forum/|Dangerous Prototypes. A new open source hardware project every month - Forum]].
+  *[[http://www.ikalogic.com/forums/|IKALOGIC Forums]].
+  *[[http://www.ipemotion.com/forum/|IPEmotion - Measurement Simplified Forums]].
+  *[[http://forums.labjack.com/|LabJack Forum]].
+  *LinkedIn.
+    *[[http://www.linkedin.com/groups?home=&gid=4025022|LinkedIn "Our Instrumentation Group"]].
+  *[[http://www.exam-ta.de/de/forum/|MicroNova AG - EXtended Automation Method ( EXAM ) Forum]].
+    *[[http://www.exam-ta.de/de/forum/topic/69.html|MicroNova AG - EXtended Automation Method ( EXAM ) Forum, Subforum "Häufig gestellte Fragen", Thread "EXAM und MySQL"]] - Tips about first-time installation.
+
+
+
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Business/Electronics_and_Electrical/Instrumentation/|OpenDirectory "Top: Business: Electronics and Electrical: Instrumentation"]].
+    *[[http://www.dmoz.org/Business/Electronics_and_Electrical/Instrumentation/Data_Acquisition_and_Control/|OpenDirectory "Top: Business: Electronics and Electrical: Instrumentation: Data Acquisition and Control"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wirtschaft/Industrieg%C3%BCter_und_-dienstleistungen/Messtechnik_und_Kalibrierung/|OpenDirectory "Top: World: Deutsch: Wirtschaft: Industriegüter und -dienstleistungen: Messtechnik und Kalibrierung"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wirtschaft/Elektrotechnik_und_Elektronik/Mess-_und_Pr%C3%BCftechnik/|OpenDirectory "Top: World: Deutsch: Wirtschaft: Elektrotechnik und Elektronik: Mess- und Prüftechnik"]].
+{{tag>instrumentation measurement"}}
+<footnote_navi_en>
+
+
+

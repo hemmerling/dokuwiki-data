@@ -1,0 +1,218 @@
+====== [hvdemmerling] Safety 2/2 - Design of safe Automation Systems & safe Embedded Systems ======
+Related page:
+  *[[safety01.html|Safety 1/2]].
+===== EC Directives =====
+  *EC EMC Directive.
+  *EC ATEX Directive.
+  *EC Low Voltage Directive.
+  *EC Machinery Directive.
+  *R & TTE Directive.
+  *[[http://ec.europa.eu/enterprise/policies/single-market-goods/documents/blue-guide/index_en.htm|European Commission, Enterprise and Industry - "Guide to the implementation of directives based on the New Approach and the Global Approach" ( "Blue Guide" )]].
+===== Software Tools for Design of safe Automation Systems & safe Embedded Systems =====
+==== Safety Calculation Tools for IEC 61508, IEC 26262 ====
+  *The commercial "RiskCAT - Requirements Derivation from Risk Classes" for Windows.
+    *[[http://www.cats-tools.de/|CATS Software Tools GmbH "The Code Analyzer Tool Set"]].
+    *[[http://www.phaedsys.org/principals/riskcats/|Phaedrus Systems Ltd "RiskCAT"]] - demo version download.
+      *[[http://www.phaedsys.org/principals/riskcats/riskdata/RiskCAT61508Productspec.pdf|RiskCAT 61508 V5, Normal Version Product Description]] (PDF).
+    *[[http://www.hitex.com/index.php?id=riskcat|hitex Development Tools "RiskCAT"]] - evaluation version download.
+  *[[http://www.apis.de/|APIS Informationstechnologien GmbH]].
+    *[[http://www.apis.de/de/produkte|APIS IQ-Software - Produkte]].
+      *The commercial "APIS IQ-RM".
+        *[[http://www.heise.de/software/download/apis_iq_rm/24450|heise Software-Verzeichnis "APIS IQ-RM 6"]] - Download of a demo version.
+        *"APIS IQ-RM Pro: Qualitätssicherung, Risikoanalyse und Anforderungsmanagement; erstellt Fehlermöglichkeits- und Einflussanalysen (FMEA) sowie Prozessablauf-Diagramme; methodenkonform nach VDA, DRBFM, AIAG und SAE".
+        *The graphics FMEA editor of the IQ tools looks like a Mindmap ( tree ) software :-).
+        *Why use "APIS IQ-RM Pro", and not a self-made spreadsheet RM / FMEA solution for Excel, OpenOffice Calc? 
+          *If you want to deal with functional safety, You need the "RM Pro" edition ( not RM, not FMEA, not "FMEA Pro" ).
+          *The varianz of possible faults can just be achieved with a tool, which makes use of the VDA ( VDA "Band 4" ) approach.
+          *With self-made spreadsheet FMEAs, the experts just name faults, which they already know.
+          *With self-made spreadsheet solutions you have technical problems, if in an analysis tree / analysis chain, the human analyist detects that an analyis structure used at another point of the analyis tree / analysis chain might be used as duplicate.
+==== Safety Calculation Tools for DIN EN ISO 13849 ====
+  *[[http://www.dguv.de/ifa/Praxishilfen/Maschinensteuerungen/|Deutsche Gesetzliche Unfallversicherung e.V. (DGUV), IFA - Institut für Arbeitsschutz der Deutschen Gesetzlichen Unfallversicherung "Praktische Hilfen: Sicherheit von Maschinensteuerungen"]].
+    *The free software [[http://www.dguv.de/ifa/de/pra/softwa/sistema/|IFA - Institut für Arbeitsschutz der Deutschen Gesetzlichen Unfallversicherung  "Software-Assistent SISTEMA. Bewertung von sicherheitsbezogenen Maschinensteuerungen nach DIN EN ISO 13849"]] for Windows.
+    *[[http://www.dguv.de/ifa/Praxishilfen/Software/SISTEMA/SISTEMA-Kochb%C3%BCcher/|IFA - Institut für Arbeitsschutz der Deutschen Gesetzlichen Unfallversicherung "SISTEMA-Kochbücher"]].
+    *[[http://www.dguv.de/ifa/Praxishilfen/Software/SISTEMA/SISTEMA-Bibliotheken/|IFA - Institut für Arbeitsschutz der Deutschen Gesetzlichen Unfallversicherung "SISTEMA-Bibliotheken"]].
+    *[[http://www.dguv.de/ifa/Praxishilfen/Performance-Level-Calculator/|IFA - Institut für Arbeitsschutz der Deutschen Gesetzlichen Unfallversicherung "Ermittlung von Performance Levels für Steuerungen mit der PLC-Drehscheibe"]].
+  *The commercial software [[http://www.sick.com/group/DE/home/products/product_portfolio/safexpert/Seiten/safexpert.aspx|SICK Sensor Intelligence "Sicherheits-Software Safexpert"]] for Windows, for safety engineering compliant to "Maschinenrichtlinie 2006/42/EG".
+  *The free PHOENIX CONTACT app for IPhone/IPad [[http://itunes.apple.com/en/app/phoenix-contact-safety/id428764084?mt=8|Apple iTunes "PHOENIX CONTACT Safety"]].
+==== Safety Calculation Tools for DIN EN ISO 13849 & IEC 61508 ====
+  *The free online tool [[http://www.automation.siemens.com/mcms/safety-integrated/de/maschinensicherheit/safety-evaluation-tool/Seiten/Default.aspx|Siemens "Safety Evaluation Tool"]].
+==== Safety Calculation Tools for DIN 50191, VDI 0104, Machinery Directive 2006/42/EG ====
+  *[[http://www.atx-hardware.de/|ATX Hardware GmbH]] - Paper "Gefährdungsanalyse - Typenbestimmung - zur Minimierung der elektrischen Gefährdung nach DIN 50191, VDI 0104, Maschinenrichtlinie 2006/42/EG. Version 1.4 vom 24.01.12.01.12 JE".
+==== Commercial Software Development Tools for Safety Applications ====
+  *[[http://www.esterel-technologies.com/products/scade-suite/|Esterel Technologies, Inc. "SCADE Suite"]].
+===== Development of Applications with Safety relevant Functions =====
+  *In a process to develop an application with safety relevant functions for the automotive industry, these stakeholder must be integrated:
+    -TÜV.
+    -The customer ( e.g. ZF, Bosch ).
+    -The MCU manufacturer ( e.g. Renesas Interactive ).
+    -The software developers of the application.
+    -Maybe japanese Designers of the MCU manufacturer..
+  *The design and development process both of hardware ( MCU, board,.. ) and software ( compiler, application code ) must be  of superior quality and must be verifiable, according to IE 61508 ( [[http://en.wikipedia.org/wiki/IEC_61508|EN.Wikipedia "IEC 61508"]], [[http://de.wikipedia.org/wiki/IEC_61508|DE.Wikipedia "IEC 61508"]] ).
+===== Safety Norms =====
+==== IEC 61508 / IEC 26262 ====
+=== Calculation Methods & Results ===
+  *Safety Integrity Level ( SIL ).
+=== Norms ===
+  *26262.
+    *Norm [[http://www.beuth.de/langanzeige/ISO-FDIS-26262-9/de/142441258.html|Beuth Verlag "ISO/FDIS 26262-9:2011-04 - Straßenfahrzeuge - Funktionale Sicherheit - Teil 9: ASIL-orientierte und sicherheitsorientierte Analyse"]].
+  *61508.
+    *Norm [[http://www.beuth.de/langanzeige/DIN-EN-61508-1-VDE-0803-1-2011-02/de/135302584.html|Beuth Verlag "DIN EN 61508-1; VDE 0803-1:2011-02:2011-02 - Funktionale Sicherheit sicherheitsbezogener elektrischer/elektronischer/programmierbarer elektronischer Systeme - Teil 1: Allgemeine Anforderungen (IEC 61508-1:2010); Deutsche Fassung EN 61508-1:2010"]].
+=== Semiconductor Manufacturers's Programs for Functional Safety ===
+== Locksteping ==
+  *[[http://en.wikipedia.org/wiki/Lockstep_%28computing%29|EN.Wikipedia "Lockstep (computing)"]].
+  *[[renesas.html|Renesas Interactive]] offers lockstep as safety function, for automotive MCUs only ( just 8000h lifetime guaranteed ).
+  *Texas Instruments ( -> see [[arm.html|ARM Embedded Systems ( ARM7, ARM8, ARM9, ARM11, Cortex )]] offers locstep as safety function both for industry automation ( 24x7x... 10 or 20 years) and for automotive ( just 8000h lifetime guaranteed ) use.
+== Resources ==
+  *[[http://www.altera.com/end-markets/industrial/functional-safety/ind-functional-safety.html|Altera Corporation "TÜV-Qualified FPGAs for Functional Safety Designs"]].
+  *[[http://www.atmel.com/|Atmel Corporation]].
+    *[[http://www.atmel.com/products/microcontrollers/avr/32-bitavruc3.aspx|Atmel Corporation "32-bit AVR UC3"]].
+    *[[http://www.atmel.com/products/microcontrollers/arm/|Atmel Corporation "ARM-based Solutions"]].
+  *[[http://www.freescale.com/SafeAssure|Freescale, Inc. "SafeAssure Functional Safety Program"]].
+  *[[http://en.wikipedia.org/wiki/Infineon_TriCore|EN.Wikipedia "Infineon TriCore"]], [[http://de.wikipedia.org/wiki/Infineon_TriCore|DE.Wikipedia "Infineon TriCore"]].
+  *[[http://focus.ti.com/mcu/docs/mcuprodoverview.tsp?sectionId=95&tabId=2835&familyId=1931|Texas Instruments Incorporated "Microcontrollers (MCU) / Hercules ARM Safety MCUs"]], [[http://www.ti.com/ww/de/prod_mcu_hercules.html|Texas Instruments Incorporated "Mikrocontroller (MCU) / Hercules ARM Sicherheits-Mikrocontroller"]].
+  *[[http://www.toshiba-components.com/automotive/micro.html|TOSHIBA Semiconductor & Storage Products Company "Microcontrollers for Automotive"]], [[http://www.semicon.toshiba.co.jp/eng/product/assp/selection/automotive/micro/|TOSHIBA Semiconductor & Storage Products Company "Microcontrollers for Automotive"]].
+=== Safety Patterns ===
+  *[[http://www.google.de/search?q=Homogeneous+Redundancy|Google Search for "Homogeneous Redundancy"]] - Same devices, same model, same software, but "more safe" due to high-quality development and production processes. By this, the parallel operation of devices is suitable to achieve SIL3 :-).
+  *[[http://www.google.de/search?q=diversity+redundancy|Google Search for "Diversity Redundancy"]].
+=== Literature ===
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3895783668/hemmerling-21|Patrick Gehlen "Funktionale Sicherheit von Maschinen und Anlagen: Umsetzung der Europäischen Maschinenrichtlinie in der Praxis"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3898647889/hemmerling-21|Vera Gebhardt, Gerhard M. Rieger, Jürgen Mottok, Christian Gießelbach "Funktionale Sicherheit nach ISO 26262: Ein Praxisleitfaden zur Umsetzung"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3898645703/hemmerling-21|Peter Löw, Roland Pabst, Erwin Petry "Funktionale Sicherheit in der Praxis: Anwendung von DIN EN 61508 und ISO/DIS 26262 bei der Entwicklung von Serienprodukten"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3446212353/hemmerling-21|Sergio Montenegro "Sichere und fehlertolerante Steuerungen: Entwicklung sicherheitsrelevanter Systeme"]].
+  *[[http://www.esterel-technologies.com/industries/iec-61508/|Esterel Technologies SA "Industrial SCADE – IEC 61508 Certified up to SIL 3"]] offers the free PDF book "Handbook - IEC 61508 Objectives Using SCADE Suite".
+  *Webshop of [[http://www.vda-qmc.de/|VDA QMC Qualitäts Mangement Center im Verband der Automobilindustrie]].
+    *[[http://webshop.vda.de/QMC/product_info.php?cPath=23_25&products_id=185|VDA "Band 4 Ringbuch 2. Auflage, ergänzt 2011"]].
+    *[[http://webshop.vda.de/QMC/product_info.php?cPath=23_25&products_id=189|VDA "Band 4 Kapitel: Produkt- und Prozess-FMEA"]] -> It is industry-standard to do software-supported FMEA analyis according to this document!
+=== Resources ===
+  *[[http://www.61508.org/|The 61508 Association]].
+  *[[http://www.mathworks.de/automotive/standards/iec-61508.html|MathWorks Deutschland "Automotive Industry Standards" - "IEC 61508 Support in MATLAB and Simulink"]].
+  *National Instruments.
+    *[[http://zone.ni.com/devzone/cda/tut/p/id/13647|National Instruments "What is the ISO 26262 Functional Safety Standard?"]].
+    *[[http://zone.ni.com/wv/app/doc/p/id/wv-3077|National Instruments "Getting Started With ISO 26262 Qualification"]].
+    *[[http://zone.ni.com/devzone/cda/tut/p/id/13671|National Instruments "Best Practices for Testing Safety Compliant Systems"]].
+  *[[http://www.siemens.com/safety-integrated|Siemens Saftely Integrated]].
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/IEC_61508|EN.Wikipedia "IEC 61508"]], [[http://de.wikipedia.org/wiki/IEC_61508|DE.Wikipedia "IEC 61508"]].
+    *[[http://de.wikipedia.org/wiki/ISO_26262|DE.Wikipedia "ISO 26262"]].
+    *[[http://de.wikipedia.org/wiki/Sicherheitssystem|DE.Wikipedia "Sicherheitssystem"]].
+    *[[http://en.wikipedia.org/wiki/Safety_Integrity_Level|EN.Wikipedia "Safety Integrity Level"]].
+    *[[http://en.wikipedia.org/wiki/Reliability_engineering|DE.Wikipedia "Reliability engineering"]], [[http://de.wikipedia.org/wiki/Zuverl%C3%A4ssigkeit_%28Technik%29|DE.Wikipedia "Zuverlässigkeit (Technik)"]].  
+  *[[http://www.springerlink.com/content/vpx8vpcfqcl3kb8c/|Erwin M. Thurner, Mario Dal Cin, Winfrid G. Schneeweiß "Verläßlichkeitsbewertung komplexer Systeme"]].
+  *[[http://devel-rok.informatik.hu-berlin.de/svn/srsem2007/web/spitzner.pdf|Ralf Spitzner: "Verlässlichkeitsbewertung komplexer Systeme"]] ( PDF ).
+  *[[http://www.mikrocontroller.net/topic/131296|mikrocontroller.net, Thread "woher bekomme ich die sn29500 Norm?"]], 2009-12-08.
+=== Reliability of Electronic Devices ( FIT Values ) and Facilities ===
+  -[[http://www.everyspec.com/MIL-HDBK/MIL-HDBK+(0200+-+0299)/MIL-HDBK-217F_14591/|EverySpec - Free specifications, standards, handbooks, documents, and publications "MIL-HDBK-217 F"]].
+  -Book [[http://www.amazon.de/exec/obidos/ASIN/3642149510/hemmerling-21|Alessandro Birolini: "Reliability Engineering: Theory and Practice"]].
+    *Google Books [[http://books.google.com/books/about/Reliability_engineering.html?id=xPIW3AI9tdAC|Alessandro Birolini: "Reliability Engineering: Theory and Practice"]].
+  -Book & PDF document [[http://doris.bfs.de/jspui/handle/urn:nbn:de:0221-201011243838|DORIS - Digitales Online Repositorium und Informations-System "Bundesamt für Strahlenschutz (BfS), Facharbeitskreis Probabilistische Sicherheitsanalyse für Kernkraftwerke: Daten zur probabilistischen Sicherheitsanalyse für Kernkraftwerke"]].
+  -Book & PDF document [[http://doris.bfs.de/jspui/handle/urn:nbn:de:0221-201011243824|DORIS - Digitales Online Repositorium und Informations-System "Bundesamt für Strahlenschutz (BfS), Facharbeitskreis Probabilistische Sicherheitsanalyse für Kernkraftwerke: Methoden zur probabilistischen Sicherheitsanalyse für Kernkraftwerke"]].
+  -Norm "Siemens SN29500". 
+    *Publisher & order address, as of 2012-01-01:<code>Siemens AG
+Corporate Technology
+Corporate Intellectual Property and Functions
+CT IP IR LIS
+Anton Oliv
+Otto-Hahn-Ring 6
+D-81739 München
+Deutschland
+Tel.: +49 89 636-40682 
+Fax: +49 89 636-40688 
+E-Mail: anton.oliv ( AT ) siemens.com</code>
+    *Issues, names and purchase prices of the norm, published as physical book just by request of customers: about 660.90 EUR + VAT as of 2012-01-01. 
+
+^ ^ ^ ^ ^
+^SN_xxxxx-xxxx ^ Name ^ Issue ^ Price in EUR, plus VAT^
+^ SN 29500-1 | Ausfallraten Bauelemente; Erwartungswerte, Allgemeines | 01.2004 | 51.90 | 
+^ SN 29500-1 H1 | Ausfallraten Bauelemente; Hinweis 1 zu Teil 1; Erwartungswerte, Allgemeines, Ausgabestand | 07.2011 | 0.00 |
+^ SN 29500-2 | Ausfallraten Bauelemente; Teil 2: Erwartungswerte von integrierten Schaltkreisen | 09:2010 | 55.90 |
+^ SN 29500-3 | Ausfallraten Bauelemente; Teil 3: Erwartungswerte von Diskreten Halbleitern | 06.2009 | 53.30 | 
+^ SN 29500-4 | Ausfallraten Bauelemente; Teil 4: Erwartungswerte für Passive Bauelemente | 03.2004 | 53.30 | 
+^ SN 29500-4 | Ausfallraten Bauelemente; Teil 4: Erwartungswerte für Passive Bauelemente | 03.2004 | 53.30 | 
+^ SN 29500-5 | Ausfallraten Bauelemente; Teil 5: Erwartungswerte von elektrischen Verbindungsstellen, elektrischen Steckverbindern und Steckfassungen | 06.2004 | 45.00 | 
+^ SN 29500-7 | Ausfallraten Bauelemente; Teil 7: Erwartungswerte von Relais | 11.2005 | 51.90 | 
+^ SN 29500-9 | Ausfallraten Bauelemente; Teil9: Erwartungswerte von Schaltern und Tasten | 11.2005 | 45.00 | 
+^ SN 29500-10 | Ausfallraten Bauelemente; Teil 10: Erwartungswerte von Melde- und Signallampen | 12.2005 | 41.90 | 
+^ SN 29500-11 | Ausfallraten Bauelemente; Erwartungswerte von Schützen | 07.2011 | 51.90 | 
+^ SN 29500-12 | Ausfallraten Bauelemente; Erwartungswerte für Optische Halbleiter Signalempfänger | 02.2008 | 53.30 | 
+^ SN 29500-15 | Ausfallraten Bauelemente; Teil 15: Erwartungswerte für elektromechanische Schutzgeräte in Niederspannungsnetzen | 07.2009 | 54.50 | 
+^ SN 29500-16 | Ausfallraten Bauelemente; Teil 16; Erwartungswerte für elektromechanische Befehls- und Meldegeräte und Positionsschalter in Niederspannungsnetzen | 08.2010 | 49.70 | 
+^ | | | | 
+
+==== Maschinenrichtlinie 2006/42/EG, DIN EN ISO 13849, ( DIN EN 954-1 ) ====
+=== Calculation Methods & Results ===
+  *Performance Level ( PL ).
+=== Norms ===
+  *Machinery Directive 2006/42/EG.
+    *Norm [[http://www.maschinenrichtlinie.de/|Maschinenrichtlinie 2006/42/EG]].
+    *[[http://de.wikipedia.org/wiki/Richtlinie_2006/42/EG_%28Maschinenrichtlinie%29|DE.Wikipedia "Richtlinie 2006/42/EG (Maschinenrichtlinie)"]].
+  *954.
+    *DIN EN 954-1, withdrawn.
+  *13849.
+    *Norm [[http://www.beuth.de/langanzeige/DIN-EN-ISO-13849-1/de/109391382.html|Beuth Verlag "DIN EN ISO 13849-1:2008-12 - Sicherheit von Maschinen - Sicherheitsbezogene Teile von Steuerungen - Teil 1: Allgemeine Gestaltungsleitsätze (ISO 13849-1:2006); Deutsche Fassung EN ISO 13849-1:2008"]].
+=== Related Norms ===
+  *1050.
+    *Norm [[http://www.beuth.de/langanzeige/DIN-EN-1050/de/2913684.html|Beuth Verlag "DIN EN 1050:1997-01 - Sicherheit von Maschinen - Leitsätze zur Risikobeurteilung; Deutsche Fassung EN 1050:1996"]], withdrawn.
+  *1088.
+    *Norm [[http://www.beuth.de/langanzeige/DIN-EN-1088/de/110104322.html|Beuth Verlag "DIN EN 1088:2008-10 - Sicherheit von Maschinen - Verriegelungseinrichtungen in Verbindung mit trennenden Schutzeinrichtungen - Leitsätze für Gestaltung und Auswahl; Deutsche Fassung EN 1088:1995+A2:2008"]].
+  *12100.
+    *Norm [[http://www.beuth.de/langanzeige/DIN-EN-ISO-12100/de/128264334.html|Beuth Verlag "DIN EN ISO 12100:2011-03 - Sicherheit von Maschinen - Allgemeine Gestaltungsleitsätze - Risikobeurteilung und Risikominderung (ISO 12100:2010); Deutsche Fassung EN ISO 12100:2010"]].
+      *By this norm, the design of safe machines is demanded.
+      *The norm demands "clearness" / "	facility of inspection" / "clear arrangement". To implement this, with SIEMENS PLC design software, safety functions are just available in FUP ( Funktionsplan ), while AWL is disabled. 
+  *14119.
+    *Norm [[http://www.nasg.din.de/projekte/DIN+EN+ISO+14119/de/126975488.html|DIN NA 095 Normenausschuss Sicherheitstechnische Grundsätze (NASG) "Sicherheit von Maschinen - Verriegelungseinrichtungen in Verbindung mit trennenden Schutzeinrichtungen - Leitsätze für Gestaltung und Auswahl (ISO/DIS 14119:2011); Deutsche Fassung prEN ISO 14119:2011"]].
+  *14121.
+    *Norm [[http://www.beuth.de/langanzeige/DIN-EN-ISO-14121-1/de/94405328.html|Beuth Verlag "DIN EN ISO 14121-1:2007-12 - Sicherheit von Maschinen - Risikobeurteilung - Teil 1: Leitsätze (ISO 14121-1:2007); Deutsche Fassung EN ISO 14121-1:2007"]], withdrawn.
+  *13850.
+    *Norm [[http://www.beuth.de/langanzeige/DIN-EN-ISO-13850/de/109770170.html|Beuth Verlag "DIN EN ISO 13850:2008-09 - Sicherheit von Maschinen - Not-Halt - Gestaltungsleitsätze (ISO 13850:2006); Deutsche Fassung EN ISO 13850:2008"]].
+  *13857.
+    *Norm [[http://www.beuth.de/langanzeige/DIN-EN-ISO-13857/de/102236549.html|Beuth Verlag "DIN EN ISO 13857:2008-06 - Sicherheit von Maschinen - Sicherheitsabstände gegen das Erreichen von Gefährdungsbereichen mit den oberen und unteren Gliedmaßen (ISO 13857:2008); Deutsche Fassung EN ISO 13857:2008"]].
+  *60204.
+    *Norm [[http://www.beuth.de/langanzeige/DIN-EN-60204-1-VDE-0113-1-2011-01/de/137932436.html|Beuth Verlag "DIN EN 60204-1; VDE 0113-1:2011-01:2011-01 - Sicherheit von Maschinen - Elektrische Ausrüstung von Maschinen - Teil 1: Allgemeine Anforderungen (IEC 44/617/CD:2010)"]].
+  *62061.
+    *Norm [[http://www.beuth.de/langanzeige/DIN-EN-62061-VDE-0113-50-2005-10/de/83367784.html|Beuth Verlag "DIN EN 62061; VDE 0113-50:2005-10:2005-10 - Sicherheit von Maschinen - Funktionale Sicherheit sicherheitsbezogener elektrischer, elektronischer und programmierbarer elektronischer Steuerungssysteme (IEC 62061:2005); Deutsche Fassung EN 62061:2005"]].
+  *[[http://en.wikipedia.org/wiki/Kill_switch|EN.Wikipedia "Kill switch"]], [[http://de.wikipedia.org/wiki/Notausschalter|DE.Wikipedia "Notausschalter"]].
+=== Resources ===
+  *[[http://www.dguv.de/ifa/Publikationen/Reports-Download/BGIA-Reports-2007-bis-2008/BGIA-Report-2-2008/|IFA Institut für Arbeitsschutz der Deutschen Gesetzlichen Unfallversicherung "Funktionale Sicherheit von Maschinensteuerungen - Anwendung der DIN EN ISO 13849 (BGIA-Report 2/2008)"]] - free PDF report + PDF errata #.
+  *[[http://safety.wieland-electric.de/public/|Wieland Electric GmbH "Wieland safety Spezial: Infos und Lösungen zu EU-Maschinenrichtlinie"]].
+  *[[http://www.schmersal.com/|Schmersal Holding KG]].
+    *[[http://www.ce-netzwerk.de/|Schmersal Safety Consulting "CE-Netzwerk"]].
+    *Paper document "EN ISO 13849-1:2006 (2008)*: Zur Frage des Diagnosedeckungsgrades bei einfachen Reihenschaltungen von elektro-mechanischen Sicherheitssensoren und Sicherheitsschlaltern**".
+    *Paper document "Verzicht auf einen zusätzlichen Überwachungsschalter bei Verriegelungseinrichtungen (physische Redundanz vs. elektrische Redundanz für SK >=3 bzw. PL >='d')".
+    *Paper document "Neues Interpretationspapier: Gesamtheit von Maschinen. Auszug aus MRL-News - Ausgabe 32/06/11 - EG-Maschinen-Richtlinie. Neues zum Thema 'Sicherheit von Maschinen und Maschinensteuerungen'".
+    *Paper document "Einige spezifische Hintergrundinformationen zu EN ISO 13849-1:2006* für Schmersal-/Elan-Vertriebsmitarbeiter sowie interessierte Kunden".
+    *The paper book [[http://www.schmersal.com/cms1/opencms/html/de/service/literature.html?id=95|Friedrich Adams, Frank Schmidt: "Best of MRL-News. Und anderer Schmersal-/Elan-Veröffentlichungen. Die wichtigsten Neuerungen auf dem Gebiet der funktionalen Maschinensicherheit in einem Buch"]].
+==== DIN 50128 ====
+  *[[http://de.wikipedia.org/wiki/EN_50128|DE.Wikipedia "EN 50128"]].
+==== DO 254 ====
+==== DIN IEC 60730 & VDE 0631 ====
+  *[[http://www.dke.din.de/projekte/DIN+IEC+60730-1/de/111656407.html|NA 022 DKE Deutsche Kommission Elektrotechnik Elektronik Informationstechnik im DIN und VDE "DIN IEC 60730-1; VDE 0631-1. Automatische elektrische Regel- und Steuergeräte für den Hausgebrauch und ähnliche Anwendungen - Teil 1: Allgemeine Anforderungen"]].
+  *[[http://www.atmel.com/applications/home_appliances/|Atmel Corporation "Home Appliances"]].
+    *"Refrigeration - Documents", "[[http://www.atmel.com/applications/appnotes_app.asp?AppID=1040&SubAppID=5025|Cooking - Documents]]". "Washing - Documents" -> [[http://atmel.com/dyn/resources/prod_documents/doc7715.pdf|AVR998: Guide to IEC60730 Class B compliance with AVR microcontrollers]] ( PDF ).
+    *[[http://www.electronicspecifier.com/Micros/AT42QT1244-AT42QT1245-AT42QT2640-AT42QT1481-QTouch-Atmel-Launches-Home-Appliance-Certified-QTouch-Capacitive-Touch-Controllers.asp|Autronic Specifier "Atmel Launches Home Appliance-Certified QTouch Capacitive Touch Controllers"]] - "Atmel® Corporation have announced the new family of QTouch capacitive touch controllers is International Electrotechnical Commission and European Standards 60730 ready for the rapidly growing home appliance market".
+==== MIL-STD-882D ====
+  *[[http://www.everyspec.com/MIL-STD/MIL-STD+%280800+-+0899%29/MIL_STD_882D_934/|EverySpec - Your free source for specifications, standards and handbooks "MIL-STD-882D, DEPARTMENT OF DEFENSE STANDARD PRACTICE: SYSTEM SAFETY (10 FEB 2000)"]].
+==== RTCA / DO-128 B 92 ====
+===== Design Packages for Functional Safety  ( Embedded Microcontroller ) Applications =====
+  *[[http://www.ti.com/safeti|Texas Instruments, Inc. "SafeTI Design Packages for Functional Safety Applications"]].
+===== Safety Lifecycle Engineering For Automation =====
+==== Resources ====
+  *[[http://www.siemens.com/safety-integrated/|SIEMENS Safety Integrated]].
+  *[[http://www.automation.siemens.com/mcms/safety-integrated/de/Seiten/funktionale-sicherheit.aspx|SIEMENS Safety Integrated - Funktionale Sicherheit]].
+==== Software Tools ====
+  *The commercial "Safety Matrix" for Windows.
+    *[[http://www.automation.siemens.com/mcms/simatic-controller-software/de/optionen-programmierung/s7-f-fh-systems/safety-matrix/|SIEMENS "Automatisierungstechnik / Automatisierungssysteme / Industrie-Automatisierungssysteme SIMATIC / Software für SIMATIC Controller / Optionen für Programmierung und Design / S7 F/FH Systems  S7-F SystemeSafety Matrix / Safety Matrix"]] - "Safety Lifecycle Tool".
+    *[[http://www.automation.siemens.com/microsite/safety/process_safety/html-de/index.htm|SIEMENS "SIMATIC Safety Matrix"]] ( MSIE only ).
+==== Resources ====
+  *[[http://www.asresearch.com/|Associated Research, Inc.]].
+    *[[http://www.clonica.net/usuario/img_usuario/wavecontrol-emc.com/Noticias_Doc_1/120.Associated_Research_catalog2012_wavecontrol.pdf|Associated Research, Inc. "Instruments for Electrical Safety Compliance Testing"]] - "Common Safety Standard Reference Chart" #.
+===== Functional Safety Experts =====
+  *[[http://www.pilz.com/|Pilz GmbH & Co. KG]].
+  *[[http://www.sick.com/|SICK AG]].
+    *[[http://www.sick.com/group/DE/home/service/safemachinery/safety_know_how/Seiten/safety_know_how.aspx|SICK AG "In 6 Schritten zur sicheren Maschine!"]].
+===== Resources =====
+  *[[http://www.vde.com/de/Technik/fs/|VDE "Funktionale Sicherheit"]].
+    *[[http://www.vde.com/de/Technik/fs/Seiten/2AusgabeIEC61511.aspx|VDE "Überarbeitung der IEC 61511/DIN EN 61511 (VDE 0810)"]], 2013-04-19.
+===== Forums, Newsgroups =====
+  *[[http://www.facebook.com/funktionalesicherheit|Facebook "Phoenix Contact - Funktionale Sicherheit"]].
+{{tag>design safe "automation systems" "embedded systems" safety IEC65108 "IEC 61508" 61508 IEC61850 "IEC 61850" 61850}}
+<footnote_navi_en>

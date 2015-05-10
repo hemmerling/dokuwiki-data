@@ -1,0 +1,67 @@
+====== [hemmerling] Embedded System Anwendung "Hemmerling (TM) Beleuchtungsstärke-Kennlinienschreiber" in C/C++ ======
+===== Projekt-Auftrag =====
+Entwicklung der Embedded System Anwendung "LiBeleuchtungsstärke-Kennlinienschreiber" in C/C++ für das mit [[http://www.atmel.com/dyn/products/product_card.asp?part_id=17333|ATxmega256A3BU]] CPU ausgestattetem Mikrocontroller-Board "Atmel AVR XMEGA-A3BU Xplained kit" ( 2011-09-16 – 2011-09-30 ). 
+
+Der Auftrag wurde auf der Veranstaltung "Atmel Technology on Tour 2011. Rapid Development with Atmel AVR XMEGA and Atmel AVR Studio 5: Hands-on Training" am 2011-09-16 in Bochum, Deutschland als Assessment vergeben.
+===== Projekt-Auftraggeber =====
+Halbleiterhersteller [[http://www.atmel.com/|Atmel Corporation]].
+===== Projekt-Sponsor =====
+Halbleiterhersteller [[http://www.atmel.com/|Atmel Corporation]].
+
+Das Angebot von [[http://www.atmel.com/|Atmel Corporation]], zum Vorzugspreis von $99:
+  -Teilnahme am Workshop "Atmel Technology on Tour 2011. Rapid Development with Atmel AVR XMEGA and Atmel AVR Studio 5: Hands-on Training", 2011-09-16 in Bochum, Deutschland.
+  -Grumdausstattung mit der notwendigen Entwicklungs-Hardware und Software:
+    *Hardware-Debugger [[http://www.atmel.com/dyn/products/tools_card.asp?tool_id=17213&category_id=163&family_id=682&subfamily_id=2138|JTAGICE 3]], Wert $199.
+    *Evaluation Board "Atmel AVR XMEGA-A3BU Xplained kit" mit LCD ( 128x32 Pixels ), Licht- und Temperatursensor, [[http://www.atmel.com/dyn/products/product_card.asp?part_id=17333|ATxmega256A3BU]] CPU, Wert $39.
+    *Vollversion der Visual Studio Shell basierten Entwicklungsumgebung [[http://www.atmel.com/avrstudio|Atmel AVR Studio 5]]
+    *[[http://www.atmel.com/dyn/products/tools_card.asp?tool_id=4118|Atmel AVR Toolchain for Windows]], mit Atmel AVR GNU C/C++ Compiler.
+  -Einkaufsgutschein über $99 für den Online-Shop [[http://store.atmel.com/|Atmel Store]], bei fristgerechter Ablieferung einer gemäß dem auf dem Workshop ausgegebenen Assessment zu erstellenden Software.
+===== Projekt-Rolle / Eigene Aufgabe im Projekt =====
+Projektleiter, Embedded Software Entwickler, Embedded Software Tester, Embedded Software Integrator.
+===== Projekt-Aufgaben =====
+Display live light sensor profile on the XMEGA-A3BU Xplainedgraphics display
+  *Task1: Use the ADC to read the light sensor and then draw a live graph of the light intensity on the display. Time on x-axis, light intensity on y-axis.
+  *Task2: Write a short feedback on how the development process using ASF.
+  *Hint: Combining tasks you have done in the hands-on training today will help you on your way.
+  *Optional: Do something interesting using the XMEGA-A3BU Xplained
+Deadline is two weeks after the seminar. Receive a $99 voucher for Atmel development tools upon submission.
+  *To: [[mcutraining@atmel.com]].
+  *What:A .zip of your AVR Studio 5 training project solution.
+  *Include project description:In your email, as well as in comments in main.c, a clear description of what your project does. We will build and verify.
+  *Include ASF workflow:We like to know how you use ASF, what is your design flow.
+  *Where did you find key information needed?
+  *What would make your ASF design process easier?
+  *What key feature you would like to see added to ASF?
+  *Any general comments on ASF…
+===== Eigene Tätigkeiten im Projekt =====
+  *Markt- und Technologierecherche.
+  *Einarbeitung in die Besonderheiten des Mikrocontrollers, des [[http://asf.atmel.com/|AVR Software Framework]] ( ASF ) sowie der Entwicklungsumgebung "Atmel AVR Studio 5". 
+  *Konzeption der Messdaten-Aufnahme und -Visualsierung mit einem Mikrocontroller.
+  *Einbindung von Software-Treiber des [[http://asf.atmel.com/|AVR Software Framework]] ( ASF ) für Temperatursensor, LCD-Display und serielle Kommunikation mit dem PC in das eigene Projekt. 
+  *Softwareentwurf für "Lichtstärke-Kennlinienschreibers" unter Verwendung des [[http://asf.atmel.com/|AVR Software Framework]] ( ASF ), bestehend aus den Software-Modulen:
+    *Ermittelung der Beleuchtungsstärke durch einen Onboard-Lichtsensor.
+    *Darstellung der Beleuchtungsstärke auf dem Onboard-LDC Display als Zahlenwert.
+    *Darstellung der Beleuchtungsstärke als grapische Darstellung über der Zeit.
+    *Ausgabe von Testdaten über die USB-Schnittstelle auf einem Windows-PC mit Hilfe des Kommunikationsprotokolls [[http://en.wikipedia.org/wiki/Communications_Device_Class|EN.Wikipedia "USB communications device class"]] ( CDC ).
+  *Testen der Software-Anwendung.
+  *Integration der Software-Anwendung in das Gesamtsystem.
+  *Testen des Gesamtsystems.
+===== Im Projekt eingesetzte Tools =====
+  *Evaluation Board "Atmel AVR XMEGA-A3BU Xplained kit" mit LCD ( 128x32 Pixels ), Licht- und Temperatursensor, [[http://www.atmel.com/dyn/products/product_card.asp?part_id=17333|ATxmega256A3BU]] CPU, Wert $39.
+  *Windows-XP PC als Host- und Entwicklungs-Computer.
+  *Die Visual Studio Shell basierten Entwicklungsumgebung [[http://www.atmel.com/avrstudio|Atmel AVR Studio 5]] für Windows.
+  *[[http://www.atmel.com/dyn/products/tools_card.asp?tool_id=4118|Atmel AVR Toolchain for Windows]], mit Atmel AVR GNU C/C++ Compiler.
+  *Hardware-Debugger [[http://www.atmel.com/dyn/products/tools_card.asp?tool_id=17213&category_id=163&family_id=682&subfamily_id=2138|JTAGICE 3]].
+===== Projekt-Ergebnis =====
+  *Die Software "Hemmerling (TM) Beleuchtungsstärke-Kennlinienschreibers" zur Anzeige der von einem Onboard-Lichtsensor ermittelten Beleuchtungsstärke auf dem Onboard-LDC Display als Zahlenwert und als grapische Darstellung über der Zeit.
+  *3 Web-Seiten Markt- und Technologierecherche.
+    *[[en:atmel.html|The Atmel AVR Family with Focus on ATxmega, ATmega, ATtiny, AT90 and the Arduino / Freeduino Platform]].
+    *[[en:atmega.html|Atmel ATmega, ATtiny, AT90 and the Arduino / Freeduino Platform]].
+    *[[en:atxmega.html|Atmel ATxmega ( "XMEGA" )]].
+===== Projekt-Erfolg ===== 
+  *Ich reichte die von mir aufgrund des Assessments erstellte Software fristgerecht bei Atmel Corporation ein.
+  *Ich erhielt einen $99 Einkaufsgutschein für den Online-Shop [[http://store.atmel.com/|Atmel Store]].
+
+{{tag>Arbeitserfahrung}}
+
+<footnote_navi_de>

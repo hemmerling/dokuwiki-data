@@ -1,0 +1,91 @@
+====== [hemmerling] Computer Aided Engineering ( CAE ) ======
+Related Topics:
+  *[[eda01.html|Electronic Design Automation ( EDA ) 1/5 - Installation Engineering]].
+  *[[eda02.html|Electronic Design Automation ( EDA ) 2/5 - Schematics Capture, Schematics Simulation and PCB Design]].
+  *[[eda03.html|Electronic Design Automation ( EDA ) 3/5 - Design for Application-Specific Integrated Circuits ( ASIC ) - Design of digital Chips]].
+  *[[eda04.html|Electronic Design Automation ( EDA ) 4/5 - Design for Application-Specific Integrated Circuits ( ASIC ) - Design of analog Chips]].
+  *[[simulate.html|Simulation]].
+  *[[enterprise.html|Standard Software for Enterprises]].
+  *[[vrml.html|Virtual Reality & Graphics]].
+
+===== Finite Element Method ( FEM ) / Finite Element Analysis ( FEA ) and FEM for Design of Electric Engines - Software =====
+==== Free Tools ====
+  *[[http://www.calculix.de/|CALCULIX: A Three-Dimensional Structural Finite Elemente Program]], [[http://www.dhondt.de/|CALCULIX: A Three-Dimensional Structural Finite Elemente Program]], [[http://www.bconverged.com/products.php|bConverged "bConverged CalculiX for Windows"]].
+  *The OpenSource FEM / FEA tool "Computer Aided Learning of the Finite Element Method" ( [[http://calfem.sourceforge.net/|SourceForge "CALFEM"]], [[http://www.sourceforge.net/projects/calfem/|SourceForge "CALFEM"]] ) - "An interactive computer program for teaching the finite element method (FEM)".
+  *The OpenSource tool [[http://www.DAEdalon.org/|Prof. Dr.-Ing. Herbert Baaser, Solid Mechanics, TUD "DAEdalon"]] for use with [[http://www.matlab.de/|MATLAB]] 5 and 6.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3642131522/hemmerling-21|Herbert Baaser "Development and Application of the Finite Element Method based on MatLab"]].
+    *Accompanying website for the book [[http://www.springer.com/materials/mechanics/book/978-3-642-13152-3|Springer Verlag "Development and Application of the Finite Element Method based on MatLab. Development"]].
+  *The OpenSource C++ library [[http://www.dune-project.org/|DUNE, the Distributed and Unified Numerics Environment]].
+    *[[http://en.wikipedia.org/wiki/http://en.wikipedia.org/wiki/Dune_%28software%29|EN.Wikipedia "Dune (software)"]], [[http://de.wikipedia.org/wiki/Dune_%28Software%29|DE.Wikipedia "Dune (Software)"]].
+  *The OpenSource FEM / FEA tool [[http://www.csc.fi/english/pages/elmer|CSC — IT Center for Science Ltd. "Elmer - Open Source Finite Element Software for Multiphysical Problems"]].
+    *[[http://en.wikipedia.org/wiki/Elmer_FEM_solver|EN.Wikipedia "Elmer FEM solver"]], [[http://de.wikipedia.org/wiki/Elmer_%28Software%29|DE.Wikipedia "Elmer (Software)"]].
+  *FEAP, FEAPpv.
+    *The free FEM / FEA tool [[http://www.ce.berkeley.edu/projects/feap/feappv/|Civil and Environmental Engineering. University of California, Berkeley "FEAPpv A Finite Element Analysis Program: Personal Version"]].
+    *[[http://www.ce.berkeley.edu/projects/feap/|Civil and Environmental Engineering. University of California, Berkeley "FEAP - A Finite Element Analysis Program "]].
+  *The free FEM / FEA tool [[http://people.ee.ethz.ch/~femag/|Prof. Dr. K. Reichert "FEMAG"]] for Windows.
+    *"Das FE-Programm für  die Analyse  und Simulation elektrischer Maschinen und Geräte".
+    *The free demo version can handle 25.000 elements and expires after 2 years.
+  *The OpenSource FEM / FEA tool [[http://felt.sourceforge.net/|SourceForge "FElt"]], [[http://www.sourceforge.net/projects/felt|SourceForge "FElt"]].
+  *The free FEM / FEA tool "FEPC".
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0072922362/hemmerling-21|David V. Hutton, David Hutton: "Fundamentals of Finite Element Analysis"]].
+    *Accompanying website [[http://highered.mcgraw-hill.com/sites/0072520361/|Mechanical Engineering Design, 7/e - Information Center]], [[http://highered.mcgraw-hill.com/sites/0072520361/student_view0/|Mechanical Engineering Design, 7/e - Student View]].
+    *[[http://highered.mcgraw-hill.com/sites/0072520361/student_view0/fepc_program.html|Download of the student edition of FEPC]].
+  *The OpenSource FEM / FEA tools of the [[http://www.freefem.org/|freeFEM]] family of software.
+    -freeFEM++.
+    -freeFEM3D.
+    *[[http://kfem.sourceforge.net/|SourceForge "KFEM"]], [[http://www.sourceforge.net/projects/kfem|SourceForge "K Finite Element Method"]] for KDE with OpenGL.
+  *The OpenSource FEM / FEA tool [[http://support.sdtools.com/gf/project/openfem/|SDToolsGForge "OpenFEM"]], [[http://gforge.inria.fr/projects/openfem/|INRIAGForge "OpenFEM"]].
+  *The OpenSource FEM / FEA tool [[http://pdnmesh.sourceforge.net/|SourceForge "pdnMesh"]], [[http://www.sourceforge.net/projects/pdnmesh|SourceForge "pdnmesh Finite Element program"]].
+  *The free [[http://members.rediff.com/srk007/html/fea/main.html|Archive.org "A. Sankararamasubramanian, S. Sivaramakrishnan, S. Srinivasan K. Sriram: S4 Finite Element Analysis Software"]] ( - 2007-07-05 ).
+    *[[http://wayback.archive.org/web/*/http://members.rediff.com/srk007/html/fea/download.html|Archive.org "A. Sankararamasubramanian, S. Sivaramakrishnan, S. Srinivasan K. Sriram: S4 Finite Element Analysis Software - Download"]] - Download refers to invalid server. I don´t know any current donwload site.
+  *The free FEM / FEA tool [[http://z88.uni-bayreuth.de/|University of Bayreuth "Z88 Aurora"]].
+==== Commercial Tools ====
+  *The commercial [[http://www.ansys.com/|ANSYS, Inc. "ANSYS"]].
+    *[[http://www.ansys.com/Ansys/de_de|ANSYS Germany GmbH]], [[http://www.cfx-germany.com/|ANSYS Germany GmbH]].
+    *[[http://www.cadfem.de/produkte/ansys/academic/ansys-educational.html|CADFEM GmbH "ANSYS Educational (ED) Version]] - "Verwendet einen 'Klick wrap' Lizenzvertrag ohne die Notwendigkeit für einen separaten Lizenzschlüssel. Die aktuelle Version von ANSYS ED ist 10.0".
+    *Free text editors which support syntax highlighting of ANSYS commands: See [[sohosoftware.html|Small Office & Home Office ( SOHO ) Software]].
+  *[[http://www.comsol.com/products/multiphysics/|COMSOL Multiphysics]].
+    *[[http://en.wikipedia.org/wiki/COMSOL_Script|EN.Wikipedia "COMSOL Script"]] - "In Version 3.5a of COMSOL Multiphysics, Comsol Script was removed :-(. Interfacing COMSOL Multiphysics 3.5a from a script based environment now requires MATLAB from The MathWorks, Inc".
+  *[[http://www.fedem.com/|Fedem Technology AS]].
+    *Once there was a limited "Fedem Free Edition 4.2.1". However, the "Finite element part" was not supported by the free edition. 
+  *[[http://www.simulia.com/|Dassault Simulia]].
+    *[[http://www.simulia.com/academics/learning-community.html|SIMULIA Learning Community]].
+    *The commercial affordable [[http://www.simulia.com/academics/student.html|Abaqus Student Edition]], limited to a mmaxium of 1000 nodes.
+===== Computational Fluid Dynamics ( CF ) =====
+  *The OpenSource CF tool [[http://www.openfoam.com/|OpenCFD Ltd. "OpenFOAM".]]
+===== Computerized Numeric Control ( CNC ), Numerical Control ( NC ) =====
+  *[[http://en.wikipedia.org/wiki/ISO_10303|EN.Wikipedia "ISO 10303"]], [[http://de.wikipedia.org/wiki/Standard_for_the_exchange_of_product_model_data|DE.Wikipedia "Standard for the exchange of product model data"]].
+  *[[http://en.wikipedia.org/wiki/STEP-NC|EN.Wikipedia "STEP-NC"]].
+  *[[http://en.wikipedia.org/wiki/Numerical_control|EN.Wikipedia "Numerical control"]], [[http://de.wikipedia.org/wiki/Numerische_Steuerung|DE.Wikipedia "Numerische Steuerung"]].
+  *[[http://de.wikipedia.org/wiki/Computerized_Numerical_Control|DE.Wikipedia "Computerized Numerical Control"]].
+
+
+
+===== Events =====
+  *[[http://cae-forum.de/content/das-norddeutsche-simulationsforum|Norddeutsches Simulationsforum]], Hamburg.
+  *[[http://cae-forum.de/content/simulations-stammtisch|Simulations-Stammtisch]], Hamburg.
+===== Resources =====
+==== General ====
+  *[[http://www.eng-tips.com/threadforum.cfm?lev3=70|Eng-Tips Forums "General Engineering Programs Category"]].
+  *[[http://www.mekanik.net/|mekanik.net]].
+    *[[http://www.mekanik.net/cae.htm|mekanik.net "CAE & FEA LINKS"]].
+  *[[http://homepage.usask.ca/~ijm451/finite/fe_resources/fe_resources.html|Roger Young "Internet Finite Element Resources"]].
+  *[[http://fem.eprbiomed.org/|Medical College of Wisconsin, National Biomedical EPR Center User Groups: "Finite-Element Modeling User Group"]].
+  *Wiki [[http://www.femm.info/|Finite Element Method Magnetics]].
+    *[[http://www.femm.info/wiki/ComputationalMagneticsLinks|Finite Element Method Magnetics "ComputationalMagneticsLinks"]].
+  *[[http://en.wikipedia.org/wiki/Finite_element_method|EN.Wikipedia "Finite element method"]], [[http://de.wikipedia.org/wiki/Finite-Elemente-Methode|DE.Wikipedia "Finite-Elemente-Methode"]].
+  *[[http://en.wikipedia.org/wiki/Computational_fluid_dynamics|EN.Wikipedia "Computational fluid dynamics"]], [[http://de.wikipedia.org/wiki/Numerische_Str%C3%B6mungsmechanik|DE.Wikipedia "Numerische Strömungsmechanik"]].
+==== ANSYS ====
+  *[[http://www.ansys.net/|ansys.net - a resource for ansys users]].
+  *[[http://wayback.archive.org/web/*/http://www3.sympatico.ca/peter_budgell/home.html|Archive.org "Peter Budgell: Finite Element Analysis with ANSYS: Information and Tips"]].
+  *[[http://instruct1.cit.cornell.edu/courses/ansys/|Cornell University: "ANSYS Short course"]].
+  *[[https://confluence.cornell.edu/display/SIMULATION/ANSYS+Learning+Modules/|Cornell University, SimCafe "ANSYS Learning Modules "]].
+===== Forums, Newsgroups =====
+  *[[http://www.cae-forum.de/|CAE-Forum FEM/MKS/..]].
+    *[[http://cae-forum.de/forum/19/|DAEdalon Forum]].
+  *[[http://groups.yahoo.com/group/calculix/|Yahoo Groups "calculix · A exchange forum for experiences made with the finite element program CalculiX"]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Science/Technology/Software_for_Engineering/Finite_Element_Analysis/|OpenDirectory "Top: Science: Technology: Software for Engineering: Finite Element Analysis]].
+  *[[http://www.dmoz.org/World/Deutsch/Wirtschaft/Industrieg%C3%BCter_und_-dienstleistungen/Ingenieurwesen/Numerische_Simulation/|OpenDirectory "Top: World: Deutsch: Wirtschaft: Industriegüter und -dienstleistungen: Ingenieurwesen: Numerische Simulation"]].
+{{tag>"computer aided engineering" cae "digital factory"}}
+<footnote_navi_en>

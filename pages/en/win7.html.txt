@@ -1,0 +1,108 @@
+====== [hemmerling] Windows Vista, Windows 7, Windows Server 2008 and 2012, Windows 8 ======
+Related pages:
+  *[[windows.html|Microsoft Windows]].
+  *[[metro.html|Flat Design]].  
+===== Windows Vista =====
+===== Windows 7 ( Win7 ) =====
+==== Activation of the Account "Administrator" on Win7 Home Premium, Vista Business ====
+  *[[http://www.askvg.com/how-to-enable-activate-hidden-administrator-account-in-windows-vista/|AskVG.com - Tweaking with Vishal "How to Enable / Activate Hidden Administrator Account in Windows Vista and 7"]].
+    -Click on "Start button -> All Programs -> Accessories". 
+    -Run Command.com.
+      *Right-click on “Command Prompt” and select “Run As Administrator“. If you are prompted to enter password, enter the password and continue. 
+      *You can also open Command Prompt in Administrator mode by typing “cmd” in Startmenu Search box and press "Ctrl+Shift+Enter".
+    -Now provide following command: //net user administrator /active:yes//
+==== Hardware Drivers ====
+=== Gameport ===
+  *[[http://www.computerbase.de/forum/showthread.php?t=316915|ComputerBase "Nicht unterstützter Standardgameport"]] - "Ich hab den Standardgameport-Treiber für WinXP extrahiert , dieser lässt sich im Vista 32bit Gerätemanager manuell installieren über die Auswahl -> Auf dem Computer nach Treibersoftware suchen -> Aus einer Liste von Gerätetreibern auf dem Computer auswählen -> Durchsuchen -> den Ordner meiner entpackten ZIP angeben. Den Standardgameport auswählen und Treiberinstallation mit Ja ich will den Treiber installieren fortsetzen" :-).
+=== Soundcard ===
+  *[[http://www.cmedia.com.tw/en/DownloadCenter_Detail2.aspx|C-Media Electronics, Inc. - Support / Download Center / Product Download - Driver"]] -> CMI8768, CMI8768-MX hardware. Drivers for W2, WinXP, Vista, Win7 and Win 8.
+==== Microsoft ====
+  *[[http://www.microsoft.com/download/en/details.aspx?id=20|Microsoft Download Center "Windows 7 Upgrade Advisor"]].
+  *[[http://windows.microsoft.com/systemrequirements|Microsoft Windows "Windows 7 system requirements"]] -> 16 GB harddisk.
+  *[[http://www.windows7.de/|Microsoft "windows7.de"]].
+  *[[http://technet.microsoft.com/en-gb/windowsserver/|Microsoft Technet "Windows Server"]], [[http://technet.microsoft.com/de-de/windowsserver/|Microsoft Technet, Germany "Windows Server"]] 2008.
+==== Tools ====
+  *The commercial[[http://www.dualbootpro.org/|DualBootPRO]] for Windows - "allows you to control, manage, and edit your boot system files".
+    *The latest free edition of the predecessor [[http://www.computerbase.de/downloads/system/vistabootpro/|ComputerBase "Vistaboot Pro 3.3"]] for Windows with .NET 2.0.
+  *The free software [[http://www.microsoftstore.com/store/msstore/html/pbPage.Help_Win7_usbdvd_dwnTool|Microsoft Store "USB/DVD-Downloadtool für Windows 7"]] enables you to install Win7 from an ISO image on a USB stick of 4 GB size.
+    *[[http://www.microsoft.com/de-de/download/details.aspx?id=17073|Microsoft Download "Windows Image Mastering API v2.0 (IMAPIv2.0) für Windows XP (KB932716)"]].
+    *Problems.
+      *[[http://www.weyland.be/wrdprss/index.php/2011/02/15/windows-7-usb-download-tool-says-the-selected-file-is-not-a-valid-iso-file/|Weyland.be "Windows 7 USB Download tool says “the selected file is not a valid iso file”]] - "Select 'UDF' and save your ISO" #.
+      *[[http://blog.sbsfaq.de/post/2011/08/29/Fehlermeldung-des-Windows-7-USBDVD-Download-Tool-e2809cunable-to-copy-your-files-e280a6e2809d-beheben.aspx|blog.sbsfaq.de "Fehlermeldung des Windows 7 USB/DVD Download Tool 'unable to copy your files. …' beheben"]].
+  *[[http://www.unawave.de/windows-7/downloads.html|Unawave "Downloads von Windows 7 ISO-Image-Dateien"]].
+==== Budget Offers ====
+  *[[http://www.pcfritz.de/software/betriebssystem/windows-7-professional|PC-Fritz "Windows 7 Professional"]] for 29.90 EUR/license.
+==== Resources ====
+  *[[http://www.helpdeskgeek.com/windows-7/windows-7-how-to-delete-files-protected-by-trustedinstaller/|Help Desk Geek "Windows 7 – How to Delete Files Protected by TrustedInstaller"]].
+  *[[http://www.howtohaven.com/system/change-disk-signature.shtml|howtohaven.com "How to Change the Disk Signature of a Drive Without Losing Existing Data or Reformatting"]].
+  *[[http://www.drwindows.de/|Dr. Windows. Windows-Hilfe mit Rezept]].
+    *[[http://www.drwindows.de/vista-sicherheit/125-besitz-von-dateien-verzeichnissen-uebernehmen-berechtigungen-aendern.html|Besitz von Dateien und Verzeichnissen übernehmen / Berechtigungen ändern]].
+    *[[http://www.drwindows.de/vista-bedienen-und-einrichten/52-administrator-konto-aktivieren.html|Administrator-Konto aktivieren]].
+  *[[http://kb.roxio.com/search.aspx?URL=/content/kb/RecordNow/000131CR|Roxio RecordNow "Drive Letter Access driver blocked on Vista launch"]].
+  *[[http://www.blitzbasic.com/Community/posts.php?topic=63506| Blitz Research Homepage "Dual boot Vista and Windows 9x / ME on one drive"]], 2006-09-20.
+  *[[http://www.sevenforums.com/graphic-cards/185732-windows-7-old-er-video-cards.htmlhttp://www.sevenforums.com/graphic-cards/185732-windows-7-old-er-video-cards.html|Windows SevenForums "Windows 7 and Old(er) Video Cards"]].
+===== Windows 2008 Server ( Win2008 ) =====
+===== Windows 8 ( Win8 ) =====
+==== Microsoft ====
+  *[[http://windows.microsoft.com/en-US/windows-8/install-a-printer|Microsoft Windows Help "Install a printer"]].
+  *German support hotline, new number in 2014: "+49 1806 - 67 22 55".
+==== Resources ====
+  *[[http://superuser.com/questions/486753/how-to-set-start-screen-tiles-language-in-windows-8|Superuser "How to set start screen tiles' language in Windows 8]] - "On the Region window, select the Administrative tab. Click the **Copy Settings** button. If you are satisfied with the settings for Current User, select the check box next to Welcome screen and system accounts, which will apply your language choices to more areas of the interface".
+  *[[http://www.craftedge.com/tutorials/driver_install_windows8/driver_install_win8.html|Craft Edge "Install Driver for Sizzix eclips on Windows 8"]].
+  *[[http://www.trickday.com/2012/09/how-to-install-unsigned-drivers-in-windows-8/|TrickDay "How to install unsigned drivers in Windows 8"]] 
+    *Win8 silently ignores unsigned drivers :-(.
+    *"Windows / Settings / Power", keeping key pressed when clicking "Power"  -> Advanced start menu configuratio :-).
+  *[[http://www.deskmodder.de/wiki/index.php/Windows_8_reparieren_-_wiederherstellen|Deskmodder "Windows 8 reparieren - wiederherstellen"]].
+  *[[http://www.google.de/search?q=windows+8+black+screen+cursor|Google Search "windows 8 black screen cursor"]].
+  *[[http://www.wintotal.de/das-neue-verhalten-des-boot-managers-von-windows-8/|WINTotal - Das Windows-Portal "Das neue Verhalten des Boot-Managers von Windows 8"]].
+==== Windows 8 Upgrade ====
+=== Budget offers  ===
+  *[[http://windows.microsoft.com/de-DE/windows/buy|Microsoft Germany "Windows 8 Pro für 29,99 EUR (UVP) herunterladen"]] ( 2012-10-26 - 2013-01-31 ), up to 5 licenses per customer, for 29.99 EUR each.
+  *[[http://www.windowsupgradeoffer.com/de-DE|Windows Upgrade Offer - Germany]] - "Aktionscode" -> 14.99 EUR.
+  *[[http://www.saturn.de/|Saturn-Hansa]], Germany, 2013-01-02 - 2013-01-05, special offer "3 kaufen - 2 bezahlen". This offer was also valid for the "Windows 8 Pro Upgrade":-).
+  *[[http://windows.microsoft.com/de-DE/windows-8/feature-packs|Microsoft "Holen Sie sich Windows Media Center für Windows 8 Pro"]] - Windows Media Center for free ( - 2013-01-31 ).
+  *[[http://windows.microsoft.com/de-DE/windows-8/feature-packs|Microsoft "Steigen Sie von Windows 8 auf Windows 8 Pro um"]] - "Für kurze Zeit gibt es das Windows 8 Pro Pack für 59,99EUR".
+  *Affordable WinXp licenses -> [[http://www.ebay.de/itm/ws/eBayISAPI.dll?ViewItem&item=300773173291&clk_rvr_id=435091189217|eBay "Windows XP Home SP2 oder SP3 Restposten Alles muss raus"]].
+=== Windows 8 Release Candidate ===
+  *You are entitled to upgrade from Windows 8 RC to Windows 8 Pro, by the budget upgrade offer :-).
+  *Windows 8 RC is enabled to run until 2013-01-31, so for upgrade, please adjust the time in the computer BIOS to be prior 2013-01-31.
+  *[[http://www.urtech.ca/2012/05/windows-8-release-candidate-available-now-windows-2012-server-too/|Up & Running Technologies Calgary "Windows 8 Release Candidate Available Now, Windows 2012 Server Too!"]] - "The CD key for this is TK8TP-9JN6P-7X7WW-RFFTV-B7QPF".
+  *[[http://arifpowerpc.blogspot.de/2012/11/windows-8-rc-product-key-free-download.html|software for PC - "Windows 8 RC Product Key Free Download"]] - "TK8TP-9JN6P-7X7WW-RFFTV-B7QPF".
+=== Upgrades ===
+  *[[http://ask.adaptec.com/app/answers/detail/a_id/17243/~/what-adaptec-products-are-supported-in-windows-8-and-server-2012%3F|Adaptec "What Adaptec products are supported in Windows 8 and Server 2012?"]].
+    *There are no Win8 drivers for Adaptec AH294x / AIC-78XX PCI SCSI controllers :-(.
+  *[[http://www.pcworld.com/article/2010064/upgrading-an-impossibly-old-system-to-windows-8.html|PC World "Upgrading an impossibly old system to Windows 8"]], 2012-09-20.
+  *[[http://www.microsoft.com/en-us/download/details.aspx?id=35648|Microsoft Download Center "Update for Windows 8 (KB2770917)"]].
+  *Helpfun articles.
+    *[[http://support.microsoft.com/kb/971058|Microsoft Support "How do I reset Windows Update components?"]] - Download offer of the free Tool "Microsoft FixIt".
+    *[[http://windows.microsoft.com/is-IS/windows-vista/Windows-Update-error-800b0101|Microsoft "Windows Update error 800b0101"]].
+    *[[http://support.microsoft.com/?kbid=947821|Microsoft Support "System Update Readiness Tool fixes Windows Update errors in Windows 8, Windows 7, Windows Vista, Windows Server 2008 R2, and Windows Server 2008"]].<code>
+DISM.exe /Online /Cleanup-image /Scanhealth
+DISM.exe /Online /Cleanup-image /Restorehealth
+</code>
+  *[[http://www.computerbase.de/forum/showthread.php?t=1127971|ComputerBase Forum "Nach Win 8 Upgrade -> "windows.old löschen?"]].
+    *"Systemsteuerung / Leistungsinformationen -und tools / Datenträgerbereinigung", "[x] Systemdateien bereinigen".
+==== Windows 8.1 Upgrade ====
+  *[[http://windows.microsoft.com/en-us/windows-8/upgrade-product-key-only|Microsoft Windows Help "Upgrade Windows with only a product key"]].
+  *[[http://winsupersite.com/windows-8/windows-81-tip-download-windows-81-iso-windows-8-product-key|Paul Thurrott's SuperSite for Windows "Windows 8.1 Tip: Download a Windows 8.1 ISO with a Windows 8 Product Key"]].
+==== Windows 8.1 Update of 2014-04-08 ====
+  *[[http://pcsupport.about.com/od/windows-8/fl/windows-8-1-update-1.htm|About Tech "Windows 8.1 Update Download/Upgrade Instructions, Changes, & More"]].
+  *[[http://www.microsoft.com/en-us/download/details.aspx?id=42335|Microsoft Download "Windows 8.1 Update (KB2919355) for 64-bit Windows 8.1"]].
+  *[[http://www.microsoft.com/en-us/download/details.aspx?id=42327|Microsoft Download "Windows 8.1 Update (KB2919355) for 32-bit Windows 8.1"]].
+==== Windows 8 Resources ====
+  *Geographic Location.
+    *[[http://www.superuser.com/questions/418951/windows-8-geolocation-change-at-the-os-level|Super User "Windows 8 geolocation change at the OS level"]].
+    *[[http://www.mintywhite.com/windows-7/7customization/windows-seven-7-set-default-geographic-location-how-to/|Windows Guides "Windows 7: Set Default Geographic Location [How To]"]] - "But, unlike Windows 7, I can't manually enter a street address and city. In Windows 8, you are basically limited to 'United States'".
+  *[[http://www.makeuseof.com/|makeuseof]].
+    *The free PDF document [[http://technewsletters-whitepapers.tradepub.com/free/w_make100/|makeuseof "The Ultimate Windows 8 Kit"]] - "[[http://cmcawley.co.uk/|Christian Cawley]]: 'Getting Started: your guide to Windows 8'" ( PDF ).
+
+===== Resources =====
+  *With "Windows 8" and "Windows 8 Pro", you may add and change languages. With the prior generation of Windows editions, just "Windows 7 Ultimate" had this feature.
+  *Win7Pro-32bit and Win8Pro-32bit are able to execute 16-bit Windows applications, while Win7Pro-64bit and Win8Pro-64bit can´t. For Win7Pro-64bit you may run WinXP on the built-in VirtualPC, as for Win7Pro Microsoft provides a free license of WinXP. Proof: Type "edit" in a COMMAND.COM window. Just on Win7-32bit and Win8-32bit, DOS-EDIT is executed.
+  *[[http://www.computerbild.de/artikel/cb-Tipps-Software-Windows-Geheimer-Bildschirmschoner-11222130.html|ComputerBILD "Windows 7 und 8: Geheimen Bildschirmschoner freischalten"]].
+  *[[http://www.daniel-mitchell.com/blog/reset-windows-7-rearm-count/|Daniel Mitchell's Blog - Things I fixed this week "Reset Windows 7 Rearm Count"]] - "c:\windows\system32\slmgr /rearm", "c:\windows\system32\slmgr /dlv".
+  *[[http://social.technet.microsoft.com/Forums/windows/en-US/3bdc0d84-fbc9-40a8-91a2-cbfd85888458/|Microsoft TechNet, Thread "Change Windows 8 Product Key to activate"]] - "Start 'run' and type SLUI 3, and then you get the activation screen".
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Microsoft_Windows/|OpenDirectory "Top: Computers: Software: Operating Systems: Microsoft Windows"]].
+{{tag>Windows "Windows Vista" Vista "Windows 7" Win7 "Windows 2008 Server" "Windows 2008" Win2008 2008 "Windows 8" Win8}}
+<footnote_navi_en>

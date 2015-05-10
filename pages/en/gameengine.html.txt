@@ -1,0 +1,307 @@
+====== [hemmerling] Game Engines ======
+Related page:
+  *[[3dframeworks.html|3D Graphics Frameworks]].
+  *[[diagrams.html|Diagrams & Graph Visualization]].
+  *[[dotnet.html|Microsoft .NET Framework 1/2]].
+  *[[dotnet02.html|Microsoft .NET Framework 2/2]].
+  *[[python.html|Python]].
+  *[[virtualworld.html|The Virtual World]].
+  *[[vrml.html|Virtual Reality & Graphics]].
+  *[[webtech.html|Web Technologies ( HTML5, HTML, XML & Javascript )]].
+===== Unity =====
+==== The Company, the Tool, the official Community ====
+  *[[http://www.unity3d.com/|Unity]].
+  *[[https://www.github.com/Unity-Technologies|Github "Unity-Technologies (Unity Technologies)"]].
+  *The Script & Tips Wiki [[http://wiki.unity3d.com/|Unify Community Wiki]].
+  *[[http://unity3d.com/learn/documentation|Unity Documentation - User Manual, Component Reference, Scripting Reference]].
+  *[[http://docs.unity3d.com/|Unity Manual]].
+    *[[http://docs.unity3d.com/Documentation/ScriptReference/|Unify "Unity Scripting Reference"]] - for C#, UnityScript / JavaScript and Boo.
+    *[[http://docs.unity3d.com/410/Documentation/Manual/Scripting.html|Unity "Unity Manual 4.1 / User Guide / Asset Import and Creation / Using Scripts"]].
+    *[[http://docs.unity3d.com/Documentation/Manual/Scripting42.html|Unity "Unity Manual 4.2 / User Guide / Asset Import and Creation / Scripting"]].
+    *Command line arguments:
+      *[[http://docs.unity3d.com/Documentation/Manual/CommandLineArguments.html|Unity "Unity Manual / Advanced / Command line arguments"]].
+      *[[http://docs.unity3d.com/Documentation/Manual/windowsstore-commandlinearguments.html|Unity "Unity Manual / Windows Store: Getting Started / Windows Store / Command line arguments"]].
+      *[[http://msdn.microsoft.com/en-us/library/windows/desktop/ff476876%28v=vs.85%29.aspx|Microsoft MSDN "Direct3D feature levels"]].
+      *<del>[[http://docs.unity3d.ru/Manual/Command%20Line%20Arguments.html|Unity Russia "Unity Manual > Advanced > Command line arguments"]]</del>.
+  *[[http://wiki.unity3d.com/|UnifyWiki / Unify Community Wiki]].
+      *[[http://wiki.unity3d.com/index.php?title=Beginner%27s_Scripting_Guide|UnifyWiki "Beginner's Scripting Guide"]].
+      *[[http://wiki.unity3d.com/index.php?title=Programming|UnifyWiki "Programming"]].
+      *[[http://wiki.unity3d.com/index.php/UnityScript_versus_JavaScript|UnifyWiki "UnityScript versus JavaScript"]].
+      *[[http://wiki.unity3d.com/index.php?title=Common_Scripting_Pitfalls|UnifyWiki "Common Scripting Pitfalls"]].
+      *[[http://wiki.unity3d.com/index.php?title=JavaScript_Quirks|UnifyWiki "JavaScript Quirks"]].
+  *[[http://answers.unity3d.com/|Unity Answers]].
+    *[[http://answers.unity3d.com/questions/topics/boo.html|Unity Answers "Questions in topic: boo"]].
+      *[[http://answers.unity3d.com/questions/220984/why-script-in-boo.html|Unity Answers "Why Script in Boo?"]].
+      *[[http://answers.unity3d.com/questions/19866/how-to-get-started-programing-in-boo.html|Unity Answers "How to get started programing in Boo"]].
+      *[[http://answers.unity3d.com/questions/224910/what-are-some-simple-tutorials-to-learn-boo-script.html|Unity Answers "what are some simple tutorials to learn Boo script???"]].
+      *
+    *[[http://answers.unity3d.com/questions/topics/csharp.html|Unity Answers "Questions in topic: csharp"]].
+    *[[http://answers.unity3d.com/questions/topics/javascript.html|Unity Answers "Questions in topic: javascript"]].
+    *[[http://answers.unity3d.com/questions/topics/unityscript.html|Unity Answers "Questions in topic: unityscript"]].
+  *[[http://www.assetstore.unity3d.com/#/category/1|Unity Assetstore - Category "Complete Projects"]].
+  *[[http://unity3d.com/gallery/demos/demo-projects|Unity Gallery - Demos by Unity]].
+  *Blog [[http://blogs.unity3d.com/|Unity Technologies Blog. A glimpse inside Unity Technologies]].
+==== The Tool ====
+  *[[http://unity3d.com/unity/download/|Unity - Download]] of current version.
+  *[[http://unity3d.com/unity/download/archive|Unity download archive]] for legacy versions of Unity 3.0 and newer.
+    *Installers.
+    *Built-in shaders.
+  *[[http://unity3d.com/webplayer|Unity Web Player]] - Unity Web Player for WinXP, Win7 with Internet Explorer, Firefox, Chrome, Safari, Opera.
+  *[[http://answers.unity3d.com/questions/8531/download-link-for-previous-versions-of-unity3d.html|Unity Answers "Download link for previous versions of unity3d"]] -> Download URLs to the legacy version of Unity 2.6.1f3.
+    *[[http://download.unity3d.com/download_unity/UnitySetup-2.6.1.exe|UnitySetup-2.6.1.exe]].
+    *[[http://download.unity3d.com/download_unity/unity-2.6.1.dmg|unity-2.6.1.dmg]].
+  *[[http://forum.unity3d.com/threads/73388-Unity3D-all-versions-of-the-download-link|Unity Forum "Unity3D all versions of the download link."]] -> Download URLs to the legacy version of Unity 2.6.1f3.
+  *[[http://license.unity3d.com/|Unity "Manual Activation"]].
+
+==== Services ====
+  *The free online service [[http://codeconverter.sharpdevelop.net/SnippetConverter.aspx|SharpDevelop "Snippet Converter for .NET 4.0"]] - "C# to VB.NET, C# to Boo, C# to Python, C# to Ruby, VB.NET to C#, VB.NET to Boo, VB.NET to Python, VB.NET to Ruby".
+==== Experts, Trainers and Users ====
+  *Christoph Becher.
+    *[[http://www.cupworks.net/|Cupworks]].
+      *[[http://www.cupworks.net/first-lecture-at-sae-hamburg/|Cupworks "First lecture at SAE Hamburg"]] -> Slides "Unity 3D your team".
+      *[[http://cupworks.net/downloads/|Cupworks - Downloads]] - PDF "Unity 3D your team".
+    *[[http://www.twitter.com/CupWorks|Twitter "Cupworks"]].
+    *[[http://www.xing.com/profiles/Christoph_Becher4|XING "Christoph Becher"]], [[http://de.linkedin.com/pub/christoph-becher/57/454/5a1|LinkedIn "Christoph Becher"]].
+    *[[http://www.facebook.com/Cupworks|Facebook "CupWorks"]].
+    *[[http://www.slideshare.net/chbecher|SlideShare "Christoph Becher"]].
+  *[[http://www.bigpoint.com/|Bigpoint S.à.r.l. and Co, SCS]], [[http://www.bigpoint.net/|Bigpoint S.à.r.l. and Co, SCS]].
+    *[[http://www.facebook.com/BigpointGames|Facebook "Bigpoint Games"]].
+    *[[http://www.mercelite.com/|Merc Elite]], [[http://www.bigpoint.com/mercelite/|Bigpoint "Merc Elite"]] - A Bigpoint game developed with "Unity" :-).
+  *Linus Meng.
+    *[[http://www.linusmeng.de/|Linus Meng]].
+    *[[http://www.facebook.com/linus.meng|Facebook "Linus Meng"]].
+    *[[http://www.maximilian-siekmann.de/author/linus/|Linus Meng "Student Blog - Game Programming & Design"]].
+  *[[http://hamburg.sae.edu/de/|SAE Institute Hamburg]], [[http://www.facebook.com/SAEInstituteHamburg|Facebook "SAE Hamburg"]].
+  *[[http://www.unityworkshop.com/courses.htm|Unityworkshop - Courses]].
+==== Events ====
+  *The free workshop "[[http://de.wikipedia.org/wiki/Unity_%28Spielengine%29|Unity 3D]] your team" ( "[[http://en.wikipedia.org/wiki/Unity_%28game_engine%29|Unity 3D]] your team" ) by [[http://www.xing.com/profiles/Christoph_Becher4|XING "Christoph Becher"]] and [[http://hamburg.sae.edu/de/|SAE Institute Hamburg]] in Hamburg, Germany ( 2013-08-16 ).
+    *[[http://www.cupworks.net/first-lecture-at-sae-hamburg/|Cupworks "First lecture at SAE Hamburg"]] -> Slides "Unity 3D your team".
+  *The free workshop "Einführung in [[http://de.wikipedia.org/wiki/Unity_%28Spielengine%29|Unity 3D (Game Engine)]]" ( "Introduction in [[http://en.wikipedia.org/wiki/Unity_%28game_engine%29|Unity 3D (Game Engine)]]" ) by [[http://www.linusmeng.de/|Linus Meng]], [[http://hamburg.sae.edu/de/|SAE Institute Hamburg]] in Hamburg, Germany ( 2013-08-18 ).
+==== Contests ====
+  *[[http://wiki.unity3d.com/index.php/Contests|Unify Community Wiki "Contests"]].
+  *[[http://www.unity3d.com/contest/windows|Unity "Windows and Windows Phone contest"]] ( -2013-09-30 ).
+==== Tips, Tricks, Errors ====
+  *[[http://forum.unity3d.com/threads/83620-Asset-store-download-folder|Unity Community Forums "Asset store download folder? "]].
+    *"If you choose to 'Download and Import' rather than just 'Download' it will place a copy in your project folder. Otherwise, the files are not tied to any particular project, so they are placed int he shared data folder on your local machine". 
+    *Just some examples of the download path for complete projects: 
+      *"C:\Users\<username>\AppData\Roaming\Unity\AssetStore\".
+        *"C:\Users\<username>\AppData\Roaming\Unity\AssetStore\Unity Technologies\Complete ProjectsTutorials".
+        *"C:\Users\<username>\AppData\Roaming\Unity\AssetStore\Allegorithmic\Complete ProjectsUnity Tech Demos".
+        *"C:\Users\<username>\AppData\Roaming\Unity\AssetStore\bisaniyehocam\Complete ProjectPacks".
+        *"C:\Users\<username>\AppData\Roaming\Unity\AssetStore\Exit Games\Complete Projects".
+        *"C:\Users\<username>\AppData\Roaming\Unity\AssetStore\Exit Games\Complete ProjectsTemplates".
+  *On Win8, during software installation, Unity stores a demo project at "C:\Users\Public\Documents\Unity Projects".
+==== Hardware and Software Requirements ====
+=== Graphics Requirements ===
+  *In case of an unsupported graphics card, or forcing unsupported graphics option ( in my case by calling Unity with command line parameter "-force-opengl" ), Unity displays the message "Unsupported graphics card. Unity Editor requires DX9 level graphics card (shader model 2.0). All graphics cards made since 2004 should be ok" and "Your graphics card is: GDI Generic".
+=== Graphics Card Driver / Lack of Memory,.. ===
+  *On my Win8 computer with [[asus_t101mt.html|ASUS Eee PC T101MT]], "Intel Atom CPU N455" CPU, "Intel Graphics Media Accelerator 3150" graphics card ( Unity regards it as "GDI Generic" ), Unity 4.2.0f4 crashes, when I load a 3D object into the scene, e.g. "GameObject / Create Other" / Cube". It does not crash if I load the Terrain object by "GameObject / Create Other" / Terrain" into the scene.
+    *[[http://forum.unity3d.com/threads/192437-Unity-4-2-Crashes-when-importing-Asset|Unity Forum "Unity 4.2 Crashes when importing Asset"]], 2013-07 -> 100% relevant, that's my case.
+    *[[http://forum.unity3d.com/threads/161496-Unity-crashing-on-asset-import|Unity forum "Unity crashing on asset import"]], 2012-06 - 2013-07.
+    *[[http://forum.unity3d.com/threads/166396-Unity-4-crashing-ALLLL-THE-time-on-mtn-lion-mac-pro|Unity Forum " Unity 4 crashing ALLLL THE time on mtn lion mac pro"]], 2013-01-15 - "crashes all the time.... When I try to import some assets from the asset store".
+    *[[http://forum.unity3d.com/threads/195577-Unity-4-2-Crash-on-Startup|Unity Forum "Unity 4.2 Crash on Startup"]].
+  *On my Win8 computer with [[asus_t101mt.html|ASUS Eee PC T101MT]], "Intel Atom CPU N455" CPU, "Intel Graphics Media Accelerator 3150" graphics card ( Unity regards it as "GDI Generic" ), Unity 4.1.5f1 and Unity 4.3.44f1 work fine.
+  *On my Win8 computer "Dell Vostro 1000", with "AMD Sempron" CPU, "ATI Xpress 1150" graphics card, both Unity 4.1.5f1, Unity 4.2.0f4 and Unity 4.3.44f1 works fine. 
+=== Legacy Hardware ===
+  *On my legacy Win7 computer with "Athlon XP2400" CPU, 3 GB RAM, "NVIDIA GeForce 6800 GS/XT" graphics card with 512 MBytes RAM:
+    *Unity 3D version 2.6.1f3 works fine. 
+      *After installation, Unity shows the snag screen "Unity v2.x. This version of Unity requires authorisation for use of it. Please press the 'Register' button to begin the authorization process. A <del>one time 30-days</del> free trial is available for everyone</del>".
+      *Indeed, free operation of Unity is offered by registration anyhow ( "[x] Activate the free version of Unity" ).
+    *Unity 3D versions 4.2, 4.15,..3.0 install, but the Unity editor crashes immediately when called, by the error message published below:  :-(.
+  *[[http://forum.unity3d.com/threads/185981-Can-t-Install-Unity|Unity Community Forums "Can't Install Unity"]].
+  *[[http://answers.unity3d.com/questions/29805/why-does-unity-30-fail-to-start-on-windows.html|Unity Answers "Why does Unity 3.x fail to start on Windows?"]].
+
+^ ^ ^
+^ Problem signature: ^^
+^ Problem Event Name: | APPCRASH |
+^ Application Name: | Unity.exe |
+^ Application Version: | 4.2.0.11237 |
+^ Application Timestamp: | 51eaa01a |
+^ Fault Module Name: | Unity.exe |
+^ Fault Module Version: | 4.2.0.11237 |
+^ Fault Module Timestamp: | 51eaa01a |
+^ Exception Code: | c000001d |
+^ Exception Offset: | 00006201 |
+^ OS Version: | 6.1.7601.2.1.0.256.1 |
+^ Locale ID: | 1031 |
+^ Additional Information 1: | 0a9e |
+^ Additional Information 2: | 0a9e372d3b4ad19135b953a78882e789 |
+^ Additional Information 3: | 0a9e |
+^ Additional Information 4: | 0a9e372d3b4ad19135b953a78882e789 |
+^ | |
+
+==== Boo ====
+=== The Language ===
+  *[[http://boo.codehaus.org/|Codehaus "Boo - A wrist friendly language for the CLI"]].
+  *[[http://boo.codehaus.org/Boo+Primer|Codehaus "Boo Primer"]].
+  *[[http://boo.codehaus.org/Language+Guide|Codehaus "Boo Language Guide"]].
+  *[[http://boo.codehaus.org/Gotchas+for+Python+Users|Codehaus "Boo - Gotchas for Python Users"]] - "Learning boo if you are familiar with Python".
+  *[[http://docs.codehaus.org/display/BOO/Tutorials|Codehaus "Boo Tutorials"]].
+  *[[http://www.github.com/bamboo/boo/|Github "Rodrigo B. de Oliveira bamboo"]].
+    *[[http://www.github.com/bamboo/boo/|Github "bamboo/boo"]].
+      *[[http://www.github.com/bamboo/boo/wiki/|Github "bamboo/boo Wiki"]].
+        *[[http://www.github.com/bamboo/boo/wiki/Tutorials|Github "bamboo/boo Wiki - Tutorials"]].
+=== Literature ===
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1933988606/hemmerling-21|Oren Eini, Ayende Rahien "DSLs in Boo: Domain-Specific Languages in .NET"]].
+    *Accompanying website [[http://www.manning.com/rahien/|Manning Publications Co., Oren Eini writing as Ayende Rahien "DSLs in Boo: Domain-Specific Languages in .NET"]].
+  *[[http://jbryankelly.wordpress.com/|Eureka. The public thoughts of jbryankelly]].
+    *[[http://jbryankelly.wordpress.com/2012/07/21/learning-to-program-with-boo/|Eureka. The public thoughts of jbryankelly "Learning to Program with Boo"]]. 
+      *The free PDF book [[http://jbryankelly.files.wordpress.com/2012/07/thinksciboorev2_hb.pdf|J. Bryan Kelly "How to Think Like a Computer Scientist: Learning to Program with Boo"]] ( PDF ).
+  *Rolly Noel.
+    *[[http://www.linkedin.com/pub/rolly-noel/50/5a/134|LinkedIn "Rolly Noel"]].
+    *[[http://docs.codehaus.org/display/~rolly|Codehaus "Rolly Noel"]].
+    *The free GoogleDocs PDF document [[http://docs.google.com/file/d/0B8oSXKT4_sy7ZERmYnozaFlTY2M/|Rolly Noel "Boo Succinctly Revealed"]].
+=== Tools ===
+  *[[http://www.icsharpcode.net/OpenSource/SD/|#develop]] (short for SharpDevelop) - "A free IDE for C#, VB.NET and Boo projects".
+  *[[http://visualstudiogallery.msdn.microsoft.com/8d15c62f-de0d-42f0-863a-daa8330d977a|Microsoft MSDN, Visual Studio Gallery "Visual Boo. Allows using Visual Studio as an IDE for programming in Boo"]].
+  *The free VisualStudio plugin [[http://boolangstudio.codeplex.com/|CodePlex "BooLangStudio"]].
+  *The free [[http://vs2010boo.codeplex.com/|CodePlex "Boo syntax highlighting for Visual Studio 2010"]].
+  *The free Unity Asset [[http://www.u3d.as/content/freakow/boo-inspector/|Unity "Freakow: Boo Inspector"]].
+=== Resources ===
+  *[[http://booslack.blogspot.de/|A Boopository.. At the cutting-edge of irony and duck typing]]
+    *[[http://booslack.blogspot.de/2011/03/getting-started-with-boo-using-unity-3d.html|A Boopository.. At the cutting-edge of irony and duck typing "Getting started with Boo, using Unity 3D"]].
+    *[[http://booslack.blogspot.de/2011/03/quick-unityboo-tip.html|A Boopository.. At the cutting-edge of irony and duck typing "A quick Unity/Boo tip"]].
+  *[[http://spin.atomicobject.com/2012/12/29/game-programming-boo-unity-engine-part-1/|Atomic Spin "Game Programming in Boo with the Unity Engine, Part 1: Not All Who Wander Are Lost"]].
+  *[[http://web.archive.org/web/*/http://anothervenue.com/2011/01/06/bootorial-1-intro-to-boo-scripting-in-unity-3d/|Archive.org "Lucas K Allmon: 'Bootorial 1: Intro to Boo Scripting in Unity 3D'"]] ( - 2011-08-03 ).
+  *[[http://pyratesarecool.appspot.com/Unity_with_Boo|Pyrates are cool "Unity with Boo"]].
+  *[[http://protoman.net/index.php?p=bootorial/index|Protoman.NET "BOOTORIAL"]].
+  *[[http://www.reddit.com/r/gamedev/comments/1e7f1h/why_is_boo_in_unity/|Reddit "Why is boo in Unity?"]].
+  *[[http://www.roguelikeeducation.org/articles/boo-in-unity.html|Roguelike Education "Boo! Surprises in Unity"]].
+  *[[http://en.wikipedia.org/wiki/Boo_%28programming_language%29|EN.Wikipedia "Boo (programming language)"]], [[http://de.wikipedia.org/wiki/Boo_%28Programmiersprache%29|DE.Wikipedia "Boo (Programmiersprache)"]].
+==== Videos ====
+  *[[http://www.youtube.com/results?search_query=unity+3d|YouTube - Search for "unity 3d"]]
+  *[[http://www.youtube.com/results?search_query=unity|YouTube - Search for "unity"]]
+  *[[http://www.youtube.com/watch?v=vGkdNlpYgzs|YouTube "Import Google Sketchup Models Properly into Unity 3D"]].
+  *[[http://www.youtube.com/user/mikbetk|YouTube "Mike Bethany"]] - Series of videos "Asteroids in Unity3D/Boo".
+  *[[http://www.youtube.com/playlist?list=PLC967910E41BCEF93|YouTube Channel "totex1979"]] - "Unity boo scripting".
+==== Resources ====
+  *[[http://www.hummelwalker.de/2011/01/05/unity3d-ki-ai-tutorial-serie/|Carsten Seifert, Hummelwalker "
+Unity3D KI / AI – Tutorial Serie"]], using C#.
+  *[[http://www.virtualgamelab.com/unity-resources.html|Game Engine Unity Learning Resources - Virtual Game Lab "Unity Resources, The Basics, Unity Books"]] #.
+  *[[http://rockonflash.wordpress.com/2010/10/20/unity3d-development-actionscriptunityscript-to-c-tips/|John Grden "Coming from ActionScript / UnityScript to c#"]].
+  *[[http://www.unityscript.com/|Terry Norton "UnityScript Lessons for Unity3D"]].
+  *[[http://www.unitygems.com/|Unity Gems]] - "This web site is written and maintained by regular contributors to Unity Answers and the Unity Forums".
+    *[[http://www.twitter.com/unitygems|Twitter "Unity Gems"]].
+  *[[http://en.wikipedia.org/wiki/Unity_%28game_engine%29|EN.Wikipedia "Unity (game engine)"]], [[http://de.wikipedia.org/wiki/Unity_%28Spielengine%29|DE.Wikipedia "Unity (Spielengine)"]].
+===== Delta Engine =====
+==== The Company ====
+  *[[http://www.deltaengine.net/|Delta Engine GmbH]] - "Delta Engine - Open Source Multiplatform Game Development", "The Delta Engine allows to write games or apps in C#. It is free to use on the PC. Convert your apps to other platforms (Html5, Android, etc) via our cloud services.".
+      *[[http://www.deltaengine.net/learn/|Delta Engine - Learn]].
+        *[[http://www.deltaengine.net/learn/firststeps|Delta Engine - First Steps]].
+        *[[http://www.deltaengine.net/learn/tutorials|Delta Engine - Tutorials]].
+    *[[http://www.xing.com/profile/Benjamin_Nitschke|XING "Benjamin Nitschke"]], [[http://de.linkedin.com/in/benjaminnitschke|LinkedIn "Benjamin Nitschke"]].
+    *Blog [[http://blog.deltaengine.net/|Delta Engine Blog]].
+    *[[http://www.github.com/DeltaEngine|GitHub "Delta Engine"]].
+    *[[http://deltaengine.codeplex.com/|CodePlex "Delta Engine"]].
+    *[[http://www.facebook.com/DeltaEngine|Facebook "Delta Engine"]].
+    *[[http://plus.google.com/111406109896842033009/|Google+ "Delta Engine"]].
+    *[[http://www.twitter.com/DeltaEngine|Twitter "Delta Engine"]].
+    *[[http://www.youtube.com/exdreamduck|YouTube "Benjamin Nitschke"]].
+
+==== The SDK Platforms ====
+  *See [[3dframeworks.html|3D Graphics Frameworks]].
+  *You may install the SDKs using [[http://www.nuget.org/|NuGet]].
+    *[[http://nuget.codeplex.com/|CodePlex "NuGet"]].
+     *[[http://www.twitter.com/nuget|Twitter "NuGet Team"]].
+    *[[http://en.wikipedia.org/wiki/NuGet|EN.Wikipedia "NuGet"]], [[http://de.wikipedia.org/wiki/NuGet|DE.Wikipedia "NuGet"]] -  "Distributed as a Visual Studio extension, integrated with SharpDevelop.
+    *[[http://www.icsharpcode.net/|ic#code "#develop (SharpDevelop)"]].
+    *[[http://sharpdevelop.codeplex.com/|CodePlex "SharpDevelop - The Open Source IDE for .NET"]].
+    *[[http://sharpdevelop.sourceforge.net/|SourceForge "SharpDevelop"]], [[http://www.sourceforge.net/projects/sharpdevelop/|SourceForge "SharpDevelop"]].
+    *[[http://en.wikipedia.org/wiki/SharpDevelop|EN.Wikipedia "SharpDevelop"]], [[http://de.wikipedia.org/wiki/SharpDevelop|DE.Wikipedia "SharpDevelop"]].
+
+
+===== 3D GameStudio ( formerly: "Game Studio 3D" ) =====
+==== The Tool ====
+  *[[http://www.3dgamestudio.net/|3D Gamestudio]].
+==== Literature ====
+  *I got the book [[http://www.amazon.de/exec/obidos/ASIN/3893624384/hemmerling-21|Johann Lotter, Reinhard Wissdorf: "Game- Studio 3D"]]. It features the only shareware version of the VGT ( Virtual Game Toolkit ) by CONITEC Datensysteme ( today: [[http://www.conitec.com/|Conitec GmbH]] ), which is available on the accompanying CD.  
+  *The book deals with the destiny of the "SKAPEHANDER" game by [[http://web.archive.org/web/*/http://www.op-group.com/|Archive.org "oP-Group"]] ( - 1999-04-30 ).
+  *For the current release of this product, now called 3D GameStudio, there is a full version as german book ( in german language ) and a trial version.
+    *[[http://www.amazon.de/exec/obidos/ASIN/3815567904/hemmerling-21|Apollo Medien GmbH "3D Game Studio 7.0"]].
+    *[[http://www.amazon.de/exec/obidos/ASIN/3446431195/hemmerling-21|Jonas Freiknecht "Spiele entwickeln mit Gamestudio: Virtuelle 3D-Welten mit Gamestudio A8 und Lite-C"]].
+==== Comparison of the Shareware version of "Gamestudio 3D" ( 1996 ) and the Trial Edition of "3D Gamestudio" ( 2000 ) ====
+
+^ ^ ^ ^
+^ ^ Shareware version ^ Trial version ^
+^ Release date | 1996-01-30 | 2000 |
+^ WED editor | conitec WEDS restricted world editor Vers. 2.9 1996 | WED demo/trial version 4.3 |
+^ 3D engine runtime | conitec ACKNEX virtual game engine V3.302 - NONREGISTERED VERSION | A4 engine V4.181 |
+^ Level editor | yes | yes |
+^ Modell editor | no | yes |
+^ Number of levels | 1 | unlimited ? |
+^ Maximum number of vertics ( walls + things + actors ) per level | 1000 | unlimited ? |
+^ Maximum resolution | 320x400 | 640x480 ^
+^ Colors | 256 | 64K |
+^ Light sources | ? | white |
+^ Transparency | ? | fixed 50% |
+^ Particles | ? | yes |
+^ Actors, weapons | Sprites | Sprites, modells |
+^ Maps | no | yes |
+^ FLIC player | no | no |
+^ AVI scene player | no | no |
+^ CD audio support | no | no |
+^ Operating system | MSDOS ( protected mode ), DOS box of WIN95/98 | WIN95/98, W2K |
+^ Sound card support | Soundblaster, Adlib, Roland MPU | Windows audio devices |
+^ ::: | ( but not Gravis Ultrasound, Microsoft SoundSystem ) | ::: |
+^ 2 player mode | no | yes ( split screen ) |
+^ Several windows | no | no |
+^ Client/Server mode | no | no |
+^ Controlling of external devices | no | no |
+^ Resource compiler | no | no |
+^ File packer | no | no |
+^ Watermark in frame at runtime | no | yes |
+^ Technical support (by E-Mail) | no | no |
+^ Publication | no | no |
+^ Expiration of the runtime engine | never | 30 days |
+^ Expiration of the runtime engine | never | some minutes |
+^ | | |
+
+==== Resources ====
+  *[[http://www.firoball.de/|Robert Jäger]] - A3 Tools, AckWii Plugin...
+  *The shareware version of 3D GameStudio does not make use of models ( .mdl files ), but the current 3D GameStudio version does, indeed !
+===== Some other Game Engines =====
+  *[[http://www.mycryengine.com/|CryENGINE 3]].
+    *[[http://www.mycryengine.com/index.php?conid=70|CryENGINE 3 "CryENGINE Free Use"]].
+    *[[http://en.wikipedia.org/wiki/CryEngine|EN.Wikipedia "CryEngine"]], [[http://de.wikipedia.org/wiki/CryEngine|DE.Wikipedia "CryEngine"]].
+  *[[http://www.clickteam.com/multimedia-fusion-2|Clickteam "Clickteam - Multimedia Fusion 2"]] - "Minimum System Requirements: Windows 8, 7, Vista, XP, **2000 or 98 operating system, 200 Mhz Pentium processor or higher, 32 Mb RAM** (256 Mb for XP, Vista and 7)".
+    *[[http://community.clickteam.com/|Clickteam Community]].
+    *[[http://en.wikipedia.org/wiki/Clickteam|EN.Wikipedia "Clickteam"]], [[http://de.wikipedia.org/wiki/Multimedia_Fusion|DE.Wikipedia "Multimedia Fusion"]].
+===== Physical Engines =====
+  *[[http://www.box2d.org/|Box2D]], [[http://code.google.com/p/box2d/|Google Code "box2d. A 2D Physics Engine for Games"]].
+    *[[http://en.wikipedia.org/wiki/Box2D|EN.Wikipedia "Box2D"]].
+  *[[http://box2d-js.sourceforge.net|SourceForge "Box2DJS - Physics Engine for JavaScript"]], [[http://www.sourceforge.net/projects/box2d-js/|SourceForge "Box2DJS - Physics Engine for JavaScript"]].
+  *[[http://github.com/DJCordhose/games|GitHub "DJCordhose/games"]] - "Games Sandbox" in Javascript, using [[http://en.wikipedia.org/wiki/Canvas_element|EN.Wikipedia "Canvas element"]], [[http://de.wikipedia.org/wiki/Canvas_%28HTML-Element%29|DE.Wikipedia "Canvas (HTML-Element)"]].
+    *Slides [[http://djcordhose.github.io/games/slides/jsunconf.html/|Oliver Zeigermann, Nils Hartmann "80s Game Programming"]] with Javascript.
+===== Game Research / Game Theory =====
+  *The free online magazine [[http://www.gamestudies.org/|Game Studies. The international journal of computer game research]].
+  *The magazine [[http://www.intellectbooks.co.uk/journals/view-Journal,id=164/|Intellect Ltd. "Journal of Gaming & Virtual Worlds"]].
+===== Resources =====
+  *[[http://en.wikipedia.org/wiki/List_of_game_engines|EN.Wikipedia "List of game engines"]], [[http://de.wikipedia.org/wiki/Liste_von_Spiel-Engines|DE.Wikipedia "Liste von Spiel-Engines"]].
+  *[[http://en.wikipedia.org/wiki/List_of_games_using_SDL|EN.Wikipedia "List of games using SDL"]].
+  *[[http://en.wikipedia.org/wiki/Simple_DirectMedia_Layer|EN.Wikipedia "Simple DirectMedia Layer"]], [[http://de.wikipedia.org/wiki/Simple_DirectMedia_Layer|DE.Wikipedia "Simple DirectMedia Layer"]].
+===== Forums, Newsgroups =====
+  *[[http://community.clickteam.com/forum.php|Clickteam Community Forum]].
+  *[[http://forum.deltaengine.net/|Delta Engine Forum]].
+  *[[http://www.gamedev.net/|GameDev.net Forums]].
+  *Google.
+    *[[http://groups.google.com/group/unity3d-developers|Google Groups "Unity3D Developers"]].
+    *[[http://groups.google.com/group/boolang|Google Groups "Boo Programming Language"]].
+  *[[http://www.facebook.com/Unity3d.Gems|Facebook "UnityGems"]].
+  *[[http://www.opserver.de/ubb7/|lite-C Forums]].
+    *[[http://www.opserver.de/ubb7/ubbthreads.php?ubb=cfrm&c=2|lite-C Forums, Subforum "Gamestudio"]].
+  *[[http://www.polycount.com/forum/forumdisplay.php?f=69|Polycount Forum, Subforum "Unity"]].
+  *Stack Overflow.
+    *[[http://www.stackoverflow.com/questions/tagged/boo|Stack Overflow - Tagged Questions "[boo]"]].
+    *[[http://www.stackoverflow.com/questions/tagged/unity3d|Stack Overflow - Tagged Questions "[unity3d]"]].
+    *[[http://www.stackoverflow.com/questions/tagged/unityscript|Stack Overflow - Tagged Questions "[unityscript]"]].
+    *[[http://www.stackoverflow.com/questions/3993930/optimal-language-to-develop-with-unity|Stack Overflow "Optimal language to develop with Unity?"]].
+  *[[http://forum.gpwiki.org/|The Game Programming Wiki Forum]].
+  *[[http://forum.unity3d.com/|Unity Community Forums]].
+    *[[http://forum.unity3d.com/forums/12-Scripting|Unity Community Forums, Subforum "Scripting"]].
+    *[[http://forum.unity3d.com/forums/23-Teaching|Unity Community Forums, Subforum "Teaching"]].
+    *[[http://forum.unity3d.com/threads/72458-Official-Boo-Scripting-Resource-Thread|Unity Community Forums "Official Boo Scripting Resource Thread"]] - "Boo takes advantage of the features and debugging in MonoDevelop that UnityScript doesn't. Boo is statically typed".
+    *[[http://forum.unity3d.com/threads/83620-Asset-store-download-folder|Unity Community Forums "Asset store download folder?"]].
+    *[[http://forum.unity3d.com/threads/18507-Boo-C-and-JavaScript-in-Unity-Experiences-and-Opinions|Unity Community Forums "     Boo, C# and JavaScript in Unity - Experiences and Opinions"]] with poll "Which Unity languages are you currently using?".
+  *[[http://www.xing.com/net/unity-3d|XING "Unity3D"]].
+{{tag>vrml "game engine", "game engines", game, engine, engines, "virtual reality" virtual reality "3d graphics" 3d graphics}}
+<footnote_navi_en>

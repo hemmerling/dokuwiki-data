@@ -1,0 +1,231 @@
+====== [hemmerling] Content Management Systems ( CMS ) ======
+Related pages:
+  *[[elearning.html|e-Learning & Blended Learning Tools]].
+  *[[internet01.html|Internet Services 1/2]] - "Document Hubs ( Document Hub Online Services, Data Sync Online Services )".
+  *[[moodle.html|Moodle]].
+  *[[workflow.html|Workflow Engines]].
+
+===== Conferences & Fairs =====
+  *The double-feature fairs [[http://www.messestuttgart.de/cms/index.php?id=121266|IT & Business]] und [[http://www.messestuttgart.de/cms/index.php?id=121023|DMS EXPO]]" at [[http://www.messe-stuttgart.de/|Messe Stuttgart]].
+  *The "Moodle Moot" conferences -> See [[moodle.html|Moodle]].
+  *[[http://www.cms-garden.org/|CMS Garden - The Open Source CMS Garden Festival at CeBIT 2013]].
+    *[[http://support.cms-garden.org/|CMS Garden - Support]].
+===== Archive Software =====
+  *The OpenSource [[http://www.7-zip.org/|7-Zip]], [[http://sevenzip.sourceforge.net/|Sourceforge "7-Zip"]], [[http://www.sourceforge.net/projects/sevenzip/|Sourceforge "7-Zip"]].
+  *The Shareware [[http://www.winzip.de/|WinZip]] for Windows.
+  *The Shareware [[http://www.rarlab.com/|Alexander Roshal, RARLAB "WinRAR"]] for Windows ( and the Shareware "RAR" for MSDOS ).
+    *RAR 3.93 is the latest version for MSDOS with 386 DOS extender.
+    *WinRAR 3.93 and 4.10 are the latest versions for W2k.
+    *There is the switch option "-ai" only in the command line mode, to prevent the setting of the "Readonly" attribute of archived files.
+  *The Shareware [[http://www.pkware.com/|PKWARE, Inc. "PKZIP for Windows"]] for Windows, legacy PKZIP versions for MSDOS.
+  *The Shareware [[http://www.arjsoftware.com/|ARJ Software, Inc. "ARJ", "ARJ32" "JAR"]] for Windows and MSDOS.
+  *The OpenSource [[http://www2m.biglobe.ne.jp/~dolphin/lha/lha.htm|Yooichi Tagawa "LHa"]] for Unix.
+  *The free "LHArc" for MSDOS.
+  *The free [[http://www.hjsplit.org/|Henk Hagedoorn "HJ-Split"]] for Windows, Linux, MSDOS.
+  *The [[http://en.wikipedia.org/wiki/Web_ARChive|EN.Wikipedia "Web ARChive"]]  ( WARC ) format.
+===== Backup Software =====
+  *The free [[http://personal-backup.rathlev-home.de/|J. Rathlev "Personal Backup"]] for Windows.
+===== WAMPs =====
+    *[[http://www.apache.org/|Apache]].
+       *[[http://httpd.apache.org/|Apache Server]].
+       *[[http://www.apachefriends.org/en/xampp.html|Apache friends "xampp"]].
+       *[[http://xampp.sourceforge.net/projects/|SourceForge "XAMPP"]], [[http://www.sourceforge.net/projects/xampp/|SourceForge "XAMPP"]].
+         *Built-in MySQL administration: 
+           *[[http://localhost/phpmyadmin/|localhost/phpmyadmin/]] for port 80.
+           *[[http://localhost:8502/phpmyadmin/|localhost:8502/phpmyadmin/]] for port 8502.
+         *To start MySQL as service, please run "C:\Program Files\MySQL\xampp\mysql_installservice.bat" ( using the "MySQL Console Panel" does not really work, somehow ).
+         *XAMPP 1.7.3 is the latest version for W2k.
+         *XAMPP 1.7.4 ( ( "VC6" is part of the names of archives and installer ) and XAMP 1.7.5 and newer ( "VC9" ist is part of the names of archives and installer ) are shipped with a version of MySQL which is compiled so that it just runs on WinXP, but not on W2k anymore :-(.
+         *XAMPP 1.8.0 is shipped with PHP6. By default, it causes much warning messages with "standard" PHP5 code running bravefully on PHP5, e.g. old editions of [[dokuwiki.html|DokuWiki]] :-(.
+         *Warning: 
+           *Apache server of XAMPP is using both port 443 and a configurable port ( by default, port 80 ). 
+           *The Skype phone application is using the ports 80 and 443:-(.
+         *[[http://www.microsoft.com/en-us/download/confirmation.aspx?id=5582|Micosoft Download Center "Microsoft Visual C++ 2008 SP1 Redistributable Package (x86)"]].
+         *[[http://forum.dokuwiki.org/post/21325|DokuWiki Forum "fatal errors: maximum execution time of 30 seconds exceeded"]].
+           *The maximum execution time is defined by the setting "php_value max_execution_time 30" in the file "C:\Program Files\xampp\php\php.ini".
+      *[[http://i.justrealized.com/2009/how-to-run-xampps-php-cli-and-cakephp-console/|i.justrealized "How to run XAMPP’s PHP CLI and CakePHP console"]] -> With PHP acccounts with commandline access, called "CLI binary" with XAMPP, there is no restriction to 30 seconds runtime of PHP commands.
+    *[[http://www.easyphp.org/|EasyPHP]].
+    *[[http://www.lighttpd.net/|lighttpd]] ( spoken "lighty" ) - Suitable and recommended for embedded systems on Linux :-).
+    *[[http://www.nginx.org/|nginx]] - Suitable and recommended for embedded systems on Linux :-).
+      *Book [[http://www.amazon.de/exec/obidos/ASIN/1782162321/hemmerling-21|Clément Nedelcu: "Nginx HTTP Server - Second Edition"]].
+      *[[http://en.wikipedia.org/wiki/Nginx|EN.Wikipedia "Nginx"]], [[http://de.wikipedia.org/wiki/Nginx|DN.Wikipedia "Nginx"]].
+    *[[http://typo3winstaller.sourceforge.net/|TYPO3Installer]] - "Apache 2.0.63, PHP 5.2.6, MySQL 4.1.22" -> still Apache 2.0 based :-(, but still works with W2k :-).
+===== Wiki =====
+==== Classical Wikis ====
+  *[[dokuwiki.html|DokuWiki]].
+  *The OpenSource [[http://trac.edgewall.org/|Edgewall "trac - Integrated SCM & Project Management"]] - "An enhanced wiki and issue tracking system for software development projects".
+  *The commercial [[http://www.atlassian.com/software/confluence/|Atlassian Confluence]] Wiki.
+    *[[http://www.wikimatrix.org/forum/|Wikimatrix Forum]]: [[http://www.wikimatrix.org/forum/f26-confluence|Confluence]].
+  *[[http://www.mindtouch.com/|MindTouch Core]] for Windows and Linux.
+    *[[http://en.wikipedia.org/wiki/MindTouch,_Inc.|EN.Wikipedia "MindTouch, Inc."]].
+  *[[http://www.wikicreole.org/|WikiCreole]] - the "Creole" syntax for Wikis.
+  *[[http://www.wiki4enterprise.org/|wiki4enterprise]] - "Einführung und Nutzung von MediaWiki im Unternehmen".
+==== Microsoft Sharepoint as Wiki ====
+  *[[http://blog.seibert-media.net/2008/11/19/ms-sharepoint-als-wiki-wenig-funktionen-nicht-kompatibel/|Martin Seibert, SEIBERT/MEDIA Weblog "MS SharePoint als Wiki: Wenig Funktionen, nicht kompatibel"]].
+  *[[http://www.tschlotfeldt.de/elearning-blog/1203-microsoft-office-sharepoint-server-als-wiki-und-social-networking-plattform|Tim Schlotfeldt - E-Learning. Online-Zusammenarbeit: Social Software. Beratung. Entwicklung. Projektmanagement "Microsoft Office Sharepoint Server als Wiki und Social Networking-Plattform?"]].
+  *[[http://www.sharepointsocial.de/solutions/wiki-extensions/|SharePoint Social "Wiki-Extensions"]].
+
+=== reStructuredText ( reST ) ===
+  *See [[python04.html|Python 4/7 - Pro & Contra]], section "Pythonic Documentation Tools".
+==== Wiki Services ====
+  *[[http://sourceforge.net/|SourceForge]].
+    *Example: [[http://sourceforge.net/p/brickfirmware/wiki/|SourceForge Wiki "Brick Firmware"]].
+    *[[http://sourceforge.net/p/brickfirmware/wiki/markdown_syntax/|SourceForge "Markdown Syntax Guide"]].
+  *[[http://www.wikia.com/|Wikia]].
+  *[[http://www.wikidot.com/|Wikidot]].
+    *[[http://irongiant.wikidot.com/|Iron Giant "Free Wikidot Apps"]].
+
+===== Web-based Content Management Systems =====
+==== CMS Products ====
+  *The OpenSource [[http://www.dotnetnuke.com/|DotNetNuke]] in VB.NET - The Leading Open Source Web Content Management Platform for ASP.NET".
+  *The OpenSource CMS [[http://www.drupal.org/|Drupal]] in PHP.
+    *[[http://en.wikipedia.org/wiki/Drupal|EN.Wikipedia "Drupal"]], [[http://de.wikipedia.org/wiki/Drupal|DE.Wikipedia "Drupal"]].
+    *According to experts, Drupal 5, 6, 7, 8 are totally incompatible :-(. These experts suggest to setup a new project with empty codebase, when moving from one version ( 5, 6, 7... ) to the next ( 6, 7, 8,.. ) :-(.
+  *The free [[http://www.eforia.de/|eforia web manager]] - "Systemvoraussetzungen. Server: WebServer unter Windows oder Linux Server mit CGI-Schnittstelle. Ausführung freier CGI-Binaries (Linux) muss erlaubt sein oder Installation tdbengine. Empfohlen wird der Betrieb mit Apache, dafür werden passene Konfigurationsdateien (.htaccess) mitgeliefert".
+  *The OpenSource [[http://www.i-doit.org/|i-doit open]] in PHP by [[http://www.i-doit.com/|synetics GmbH]] - "OpenSource CMDB", "IT-Dokumentation mit System", "Die Erfassung und technische Dokumentation aller eingesetzten IT-Komponenten steht bei einer Lösung für die IT-Dokumentation natürlich im Vordergrund. 
+  *The OpenSource [[http://www.opencms.org/|OpenCms]], based on Tomcat und MySQL.
+  *The OpenSource [[http://www.phpcms.de/|phpCMS]], [[http://phpcms.sourceforge.net/|SourceForge "phpCMS Content Management System"]], [[http://www.sourceforge.net/projects/phpcms/|SourceForge "phpCMS Content Management System"]].
+  *The OpenSource [[http://www.typo3.org|TYPO3.org]] in PHP.
+  *The OpenSource [[http://www.wordpress.org|Wordpress]], [[http://www.wordpress-deutschland.org|Wordpress, Germany]] in PHP.
+    *WordPress is known as working low-budget solution:
+      *"Weil es in den Augen eines Fachkundigen Users und auch in den Augen anderer Firmen ein Armutszeugnis ist WP als Webseite zu haben. Eine Firma welche WP als Webseite hat kämpft in meinen Augen mit dem Existenzminimum", "also 80% aller Firmen kämpfen um die Existenz. Weil so circa 80% aller Webseiten auf WP basieren".
+      *"Wenn man die richtigen Verkaufsargumente und ein wenig Know-how hat, kann man einem Kunden sehr schnell klar machen warum man auf WP verzichten und durchaus bereit sein sollte etwas in seinen Webauftrit zu investieren".
+      *"Eine Webseite ist nunmal der first point of contact, der Eindruck muss passen. Dabei gehts weder ums Geld der Entwickler oder sonst was. Es ist und bleibt ein Aushängeschild... Beauftragst du einen Grafiker/Webdesigner der als eigene Homepage ein Werk von Frontpage 1.0 vorzuweisen hat? Wohl kaum". 
+  *The OpenSource [[http://www.zope.org/|ZOPE]] in Python - "An open source web application server primarily written in the Python programming language. It features a transactional object database which can store not only content and custom data, but also dynamic HTML templates, scripts, a search engine, and relational database (RDBMS) connections and code".
+  *Coldfusion Express 4.5.
+    *[[http://comenius.eun.org/eun.org2/eun/html/memory/CFDOCS/main.htm|ComeniusSpace "Coldfusion Express 4.5"]] - online documentation of "Coldfusion Express 4.5".
+    *[[http://www.cielen.com/blog/index.cfm?lng=1&mode=entry&entry=235|Philipp Cielen's Blog on ColdFusion, Flash - "ColdFusion Express - kostenloser Download"]] ( 2005-04-21 ).
+    *coldfusion-451-win-express-us.exe -> <del>[[http://download.allaire.com/cfexpress45/coldfusion-451-win-express-us.exe|"Coldfusion Express 4.5", Windows edition]]</del> :-( -> ? Please [[imprint.html|contact me]] if you know where to download this free software.
+    *coldfusion-451-linux-express-us.tar.gz -> [[http://www.whodah.com/Misc/coldfusion-451-linux-express-us.tar|"Coldfusion Express 4.5", Linux edition]].
+==== Enterprise Portal & CMS ====
+  *[[http://portals.apache.org/jetspeed-2/|Apache "Jetspeed-2"]] - "Open Portal Platform and Enterprise Information Portal".
+  *The OpenSource [[http://www.liferay.com/|LIFERAY]].
+    *[[http://www.liferay.com/de/products/liferay-portal/features/cms|Liferay CMS]].
+    *[[http://en.wikipedia.org/wiki/Liferay_Portal|EN.Wikipedia "Liferay Portal"]], [[http://de.wikipedia.org/wiki/Liferay_Portal|DE.Wikipedia "Liferay Portal"]].
+    *[[http://www.tencompetence.org/web/guest/liferay-portlets|TENCompetence Foundation "Liferay Portlets"]] - "Test Portlet. The Test Portlet allows users to take tests in order to self assess aspects that are relevant in setting realistic goals, like aptitude, motivation, personality, learning style, etc.. These tests are created using the QTI Editor Portlet".
+    *It might be interesting to develop a Moodle Portlet :-). Be aware that you then you need to develop an additional single-signin solution.
+  *[[http://www.plone.org/|Plone CMS]] - "Open Source Content Management".
+    *[[http://www.plone.de/|plone.de - Deutschsprachige Plone Community]].
+    *[[http://en.wikipedia.org/wiki/Plone_%28software%29|EN.Wikipedia "Plone (software)"]], [[http://de.wikipedia.org/wiki/Plone|DE.Wikipedia "Plone"]].
+==== Online Enterprise Operating Manual & CMS ====
+  *[[http://www.hallowelt.biz/|Hallo Welt! - Medienwerkstatt GmbH]].
+    *The OpenSource BlueSpice for MediaWiki ( [[http://www.sourceforge.net/projects/bluespice/|SourceForge "BlueSpice"]], [[http://bluespice.sourceforge.net/|SourceForge "BlueSpice"]] )
+    *The commercial "BlueCraft. Das Online-Betriebshandbuch für Industrie, Service und IT".
+==== Online Communities ====
+  *[[https://www.joindiaspora.com/|DIASPORA]].
+    *[[http://www.github.com/diaspora/|Github "diaspora"]].
+    *[[http://en.wikipedia.org/wiki/Diaspora_%28software%29|EN.Wikipedia "Diaspora (software)"]].
+  *[[http://www.friendica.com/|Friendica]].
+    *[[http://www.github.com/friendica/|GitHub "friendica"]].
+    *[[http://dir.friendica.com/siteinfo|Friendica Public Portals]] - "Sites running Friendica that you can join".
+    *[[http://en.wikipedia.org/wiki/Friendica|EN.Wikipedia "Friendica"]].
+==== Corporate Online Communities ====
+  *The commercial [[http://www.jivesoftware.com/|Jive]] - "Social Business Software".
+    *[[http://en.wikipedia.org/wiki/Jive_Software|EN.Wikipedia "Jive Software"]], [[http://de.wikipedia.org/wiki/Jive_Software|DE.Wikipedia "Jive Software"]].
+===== Document Management Systems ( DMS ) =====
+==== Written Concepts ====
+  *The free PDF document [[http://www.di-i.org/ecm-regelwerk-anfordern/|IQ Professionals Institute GmbH - "Framework ECM Intelligence - Workflow-orientiertes Enterprise Content Management mit ECM-Performance-Index zur Qualitätssteuerung"]]".
+==== Products ====
+  *The OpenSource [[http://www.agorum.com/open|agorum Software GmbH "agorum core Open Source"]].
+  *The free "Altium Personal Vault".
+    *[[http://www.altium.com/en/products/altium-vaults/|Altium Vaults]] - "Store & Manage Electronics Design Data".
+    *[[http://www.altium.com/en/products/downloads|Altium "Download"]] - Download of the free "Altium Personal Vault 1.2" with a free single-user license. 
+    *I was told by Altium staff members, that now legacy versions of "Altium Personal Vault" were shipped with a free 3-users license.
+  *The commercial [[http://www.caminova.net/en/downloads/download.aspx?id=1|Caminova, Inc. "Document Express]].
+    *[[http://www.caminova.net/en/products/?src=technology_djvu.aspx|Caminova, Inc. "DjVu Technology"]].
+    *The free [[http://www.caminova.net/en/downloads/download.aspx?id=1|Caminova, Inc. - The Document Professionals "DjVu Browser Plug-in"]] for DVD / BlueRay drives.
+  *The free [[http://www.oasys-software.com/products/document_management/|Columbus Personal Edition]] for Windows.
+  *The commercial [[http://www.dokuwork.com/|DokuWork]] for WinXP, shipped with a "Microsoft Access" runtime.
+    *[[http://www.dokuwork.com/download/download-ct.htm|DokuWork "Download DokuWork (kostenlose Version für Einzelplatz-Nutzung)"]] - Download offer for the free single-user version of DokuWork. It can just be installed on drives C: and D:. 
+    *[[http://www.dokuwork.com/Videos.htm|DokuWork "Videos zu DokuWork"]].
+    *[[http://www.dokuwork.com/online-handbuch-dokuwork/dokuwork.htm|DokuWork Handbuch]] - German online manual.
+    *DokuWork Version 1.070, with "Microsoft Access 2003" runtime, is the latest edition for W2k.
+  *The OpenSource [[http://www.knowledgetree.com/products/community/download|KnowledgeTree "KnowledgeTree Community Edition"]], [[http://kt-dms.sourceforge.net/|SourceForge "KnowledgeTree Document Management"]], [[http://www.sourceforge.net/projects/kt-dms/|SourceForge "KnowledgeTree Document Management"]].
+    *[[http://sourceforge.net/search/?q=KnowledgeTree+Document+Management&q=KnowledgeTree|Sourceforge - Search for "KnowledgeTree"]] - list of additional projects.
+    *The commercial online service [[http://www.knowledgetree.com/|KnowledgeTree]].
+    *Blog [[http://www.knowledgetree.com/blog|KnowledgeTree Blog]].
+  *Microsoft Sharepoint -> See [[workflow.html|Workflow Engines]].
+  *The OpenSource [[http://www.nuxeo.com/en/products/document-management|nuxeo Open Source Document Management]].
+  *The OpenSource [[http://www.opendocman.com/|OpenDocMan]], [[http://opendocman.sourceforge.net/|SourceForge "OpenDocMan"]], [[http://www.sourceforge.net/projects/opendocman/|SourceForge "OpenDocMan"]].
+  *The OpenSource [[http://owl.anytimecomm.com/|Owl Intranet Engine]], [[http://owl.sourceforge.net/|SourceForge "Owl Intranet Knowledgebase"]], [[http://www.sourceforge.net/projects/owl/|SourceForge "Owl Intranet Knowledgebase"]].
+==== APIs ====
+  *[[http://www.odma.info/|The Open Document Management API]] ( ODMA ).
+    *[[http://www.odma.info/faq/Q000902.htm|ODMA AIIM "FAQtip Q000902: Free/Open ODMA-Compliant Components"]].
+  *[[http://www.dmware.info/|DMware Interoperability Exchange "AIIM's Document Management Interoperability Exchange"]].
+===== Document Hubs ( Document Hub Online Services, Data Sync Online Services ) =====
+  *See [[internet01.html|Internet Services 1/2]].
+
+===== Learning Systems, Learning Management Systems ( LMS ), Course Management Systems for Blended Learning =====
+  *See [[elearning.html|e-Learning & Blended Learning]].
+===== Paper Magazines =====
+  *[[http://www.dokmagazin.de/|DOK - Technologien, Strategien & Services für das digitale Dokument]], Germany.
+  *[[http://www.t3n.de/|t3n]] - "Open. Web. Business".
+===== Resources =====
+  *[[http://www.cmswire.com/|CMS Wire]] - "Content Management System CMS Reviews, CMS News, CMS Analysis".
+  *[[http://www.document-management.com/|Document Management. Document Management Products]] - "Here you'll find Document Management Products and links that are freely available for download".
+  *IBM
+    *Blog [[http://www.ibm.com/connections/blogs/ECM/|IBM "IBM Enterprise Content Management Blog - IBM ECM in Motion"]].
+    *[[https://www.ibm.com/wikis/home/wiki/W8b2e89ea2d93_458f_a606_71eaa3093ec2|IBM Wiki "The Worldwide IBM ECM Community Wiki Pages"]].
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/Comparison_of_WAMPs|EN.Wikipedia "Comparison of WAMPs"]].
+    *[[http://de.wikipedia.org/wiki/ISO_15489|DE.Wikipedia "ISO 15489"]].
+    *[[http://en.wikipedia.org/wiki/LAMP_%28software_bundle%29|EN.Wikipedia "LAMP (software bundle)"]], [[http://de.wikipedia.org/wiki/LAMP|DE.Wikipedia "LAMP"]].
+      -Linux.
+      -Apache.
+      -MySQL.
+      -PHP / Perl / Python.
+  *[[http://www.youtube.com/watch?v=m4lzHeeIucM&index=1&list=PLe17ieRa266v9kQrcAIU2SqR9buyq2KHY|YouTube "Interaktive Managementsysteme auf Basis von Social Media Technologien ISO9001:2015"]] by [[http://www.modell-aachen.de/|Modell Aachen GmbH]]. It's wiki [[http://www.modell-aachen.de/de/qwiki|Q Wiki]] has the special wiki-untypical function "release" to release a wiki page as available document.
+===== Forums, Newsgroups, Communities =====
+  *[[http://www.agorum.com/cms/index.php?option=com_fireboard|agorum Software GmbH "Foren - agorum core"]].
+  *[[http://www.apachefriends.org/f/|Apache Friends Support Forum]].
+  *[[http://atutor.ca/forums/|ATutor Forums]].
+  *[[http://community.elgg.org/|Elgg Community]].
+  *[[http://www.fernstudium-forum.de/|Fernstudium-Forum]].
+  *Google.
+    *[[http://groups.google.com/group/ankisrs|Google Groups "Anki Help"]], [[https://groups.google.com/forum/?fromgroups#!forum/ankisrs|Google Groups Forum "Anki Help"]].
+    *[[http://groups.google.com/group/bigbluebutton-setup/|Google Groups "BigBlueButton-Setup"]].
+    *[[http://plus.google.com/112456861177827156549/posts|Google+ "Mnemosyne - Free, fast, flexible flash-card tool"]].
+  *[[https://www-304.ibm.com/communities/service/html/communityview?communityUuid=74a4ee4e-2fe4-40b4-9f77-9c5b9661a472|IBM Communities "The Worldwide IBM ECM Community"]].
+  *[[http://www.i-doit.org/forum|i-doit Forum]].
+  *[[http://www.ilias.de/docu/goto_docu_cat_1860.html|ILIAS-Foren]].
+  *[[http://www.lamscommunity.org/|LAMS Community]].
+  *Liferay.
+    *[[http://www.liferay.com/de/community/forums|Liferay Forums]].
+    *[[http://www.liferay.com/de/community/wiki|Liferay Wiki]].
+  *[[http://redmine.lighttpd.net/projects/lighttpd/boards|Lighttpd Forums]].
+  *[[http://developer.mindtouch.com/|MindTouch Community Portal]]. 
+    *Default template <HTML>"{{ wiki.template("Template:MindTouch/Views/User_Welcome") }}"</HTML>
+    *[[http://forums.developer.mindtouch.com/|MindTouch Community Portal, Forum]].
+  *[[http://www.modxcms.de/forum/|MODx Deutschland - Forum]].
+  *[[http://www.moodlemeet.de/|moodlemeet.de]] / [[http://www.facebook.com/pages/Moodle-Stammtisch-NRW/156867954330890|Facebook "Moodle Stammtisch NRW"]].
+  *Moodle.org.
+    *[[http://moodle.org/forums/|moodle.org Forums]].
+    *[[http://moodle.org/course/|moodle.org - List of all forums]].
+  *[[http://moodlemoot.moodle.de/mod/forum/view.php?id=1771|MoodleMoot an der WWU- Münster 2012 - Austauschforum]].
+  *[[http://www.nibis.de/|Niedersächsischer Bildungsserver]].
+    *[[http://niff.nibis.de/|Niedersächsisches Fernlern-Forum]].
+  *[[http://forum.nginx.org/|nginx Forum]].
+  *[[http://www.nuxeo.com/en/resources/social-communities|Nuxeo - Social Communities]].
+    *[[http://forum.nuxeo.com/|The Nuxeo Community forum]].
+  *OLAT.
+    *[[http://www.facebook.com/group.php?gid=43551410823|Facebook "OLAT"]].
+    *[[http://www.linkedin.com/groups?gid=1473557|LinkedIn "OLAT"]].
+    *[[http://www.xing.com/net/olat|XING "OLAT - Online Learning And Training"]].
+  *[[http://www.opencast.org/|Opencast Community]] - "A collaboration of individuals, higher education institutions and organizations working together to explore, develop, define and document best practices and technologies for management of audiovisual content in academia".
+  *[[http://owl.anytimecomm.com/forum|Owl Intranet Engine Forums]].
+  *[[http://archives.seul.org/schoolforge/discuss/|schoolforge-discuss Archives]].
+  *[[http://www.studip.de/forum/|Stud.IP Forum]].
+  *Twitter.
+    *Ralf Hilgenstock, [[http://eledia.de/|eLeDia - eLearning im Dialog]], [[http://twitter.com/ralfh|Twitter "ralfh"]]. 
+  *Viadeo.
+    *[[http://gb.viadeo.com/groups/?containerId=00295qbwosbpn1z|Viadeo "Elearning and Collaborative Work and Training"]].
+    *[[http://gb.viadeo.com/groups/?containerId=0021xp59pi0mq2q8|Viadeo "Elearning and Collaborative Work and Training"]].
+    *[[http://gb.viadeo.com/groups/?containerId=00282pi9c84wbs3|Viadeo "E-learning & Instructional Design"]].
+    *[[http://gb.viadeo.com/groups/?containerId=002109fb3rj5ed87|Viadeo "Elearning in Berlin"]].
+    *[[http://gb.viadeo.com/hub/accueil/?containerId=00214ov1jtrkv1qb|Viadeo "Courseware Development"]].
+  *[[http://www.univie.ac.at/ZID/forum/board.php?boardid=34|Universität Wien, Zentraler Informatik Dienst - Forum, Subforum "E-Learning"]] - Read-only for non-students of University of Vienna.
+  *[[http://community.wikidot.com/|Wikidot Community]].
+  *[[http://forum.wordpress-deutschland.org/|WordPress Deutschland Forum]], forum for administrators of self-installed Wordpress software.
+  *[[http://de.forums.wordpress.com/|de.WordPress.com Forums]], forum for users of the Wordpress service on [[http://wordpress.com/|wordpress.com]].
+{{tag>"Content Management Systems" CMS Wiki "authoring software" "authorware" "learning system" "course management system" e-Learning eLearning "Blended Learning" ECM "Enterprise Content Management"}}
+<footnote_navi_en>

@@ -1,0 +1,298 @@
+====== [hemmerling] Texas Instruments "MSP430" & "eZ430-Chronos" ======
+Related pages:
+  *[[electronics02.html|Electric Units & Electronics 2/3 - Actors, Sensors, Embedded Systems Electronics and suitable Control Systems]].
+  *[[embedded.html|Realtime Operating Systems & Software for Embedded Systems]].
+  *[[ti68k.html|Texas Instruments 68K powered Calculators "TI-89 Titanium", "TI Voyage 200"]].
+===== MSP430 =====
+==== MSP430 LaunchPad ====
+  *[[http://e2e.ti.com/group/msp430launchpad/w/default.aspx|Texas Instruments, TI E2E Community  "MSP430 LaunchPad"]].
+  *[[http://www.ti.com/launchpadwiki-prde|Texas Instruments Wiki "MSP430 LaunchPad (MSP-EXP430G2)"]].
+  *[[http://www.ti.com/tool/msp-exp430g2|Texas Instruments "MSP430 LaunchPad Value Line Development kit"]].
+  *Board equipment.
+    *Old board revisions ( 1.4 and prior ) are assembled with pullup resitors for I/O.
+    *New board revisions ( 1.5 and newer ) are shipped without pullup resitors for I/O. You have to activate the inner pullup resistor, by software. So software applications designed for "old" board revisions might not work on "new" board revisions, without software modifications.
+  *CPUs.
+    *Shipped with board: 
+      *[[http://www.ti.com/product/msp430g2211|Texas Instruments "MSP430G2211"]].
+      *[[http://www.ti.com/product/msp430g2231|Texas Instruments "MSP430G2231"]].
+    *Best choice:
+      *[[http://www.ti.com/product/msp430g2452|Texas Instruments "MSP430G2452"]].
+  *[[http://www.elektor.de/elektronik-news/komplettes-msp430-entwicklungskit-fur-4-30-us.1400602.lynkx|Elektor "Komplettes MSP430-Entwicklungskit für 4,30 US-Dollar. LaunchPad für die MSP430 Value Line MCUs von TI"]] ( 2010-06-23 ).
+  *[[http://www.mikrocontroller.net/topic/182025|mikrocontroller.net "MSP430-Board für $4,30"]] - "Der Versand nach Deutschland ist kostenlos. UPDATE: Durch Eingabe des Codes “HALFMSPTOOL” lässt sich der Preis noch zusätzlich halbieren".
+  *[[http://elmicro.com/de/msp430hb.html|Elektronikladen "MSP430 Header Boards. Adapterplatinen für die Entwicklung mit MSP430 Controllern"]].
+  *CPU sales: [[http://de.mouser.com/ProductDetail/Texas-Instruments/MSP430G2553IN20/?qs=cBe3DO7yhR504R2xWlwYvFSB3l2b2%2fOpTnocU5geirw%3d|Mouser Electronics, Inc. "MSP430G2553IN20"]].
+==== Wolverine MSP430 Launch Pad ====
+  *Texas Instrunments "Wolverine MSP430 FR 58xx" Chip, while XX = 64 -> 64 Kbytes FRAM, 128 -> 128 Kbytes FRAM.
+  *With FRAM, suitable for data logging ( with the restriction of memory of 64KBytes FRAM or 128KBytes FRAM ( for such porposes ).
+  *Hardware:
+    *Wolverine MSP430 Launchpad ( expected in 2013/Q2 )
+    *Wolverine Experimental Kit ( available in 2012-12. An external JTAG emulator is necessay for debugging ).
+==== MSP430 Solar Energy Harvesting Development Tool ====
+  *[[http://www.ti.com/tool/ez430-rf2500-seh|Texas Instrunments "MSP430 Solar Energy Harvesting Development Tool"]].
+==== Texas Instruments - MSP430 Resources ====
+  *[[http://www.ti.com/msp430|Texas Instruments MSP430]].
+  *[[http://focus.ti.com/mcu/docs/mcuprodtoolsw.tsp?familyId=342&sectionId=95&tabId=1203&toolTypeId=1|Texas Instruments "MCU Products / MCU Design Support / Getting Started / MCU Selection Tool / Training / MCU University / MSP430™16-bit Ultra-Low Power MCUs /", "Tools and Software"]].
+  *[[http://focus.ti.com/mcu/docs/mcutechdocs.tsp?sectionId=96&tabId=1502&viewType=mostuseful&rootFamilyId=4&familyId=4|Texas Instruments "Search Technical Documents" for "Microcontrollers"]].
+    *"MSP430x2xx Family User's Guide" ( PDF ) -> LaunchPad.
+    *"CC430 Family User's Guide (Rev. B)" ( PDF ) -> eZ480.
+  *[[http://www.ti.com/ww/de/msp430.htm|Texas Instruments "MCU Produkte / MCU Design Support / Erste Schritte / Mikrocontroller Auswahltool / Training / MSP430 16-Bit Ultra-Low Power Mikrocontroller / Übersicht"]].
+  *[[http://processors.wiki.ti.com/index.php/EZ430-Chronos|Texas Instruments Embedded Processors Wiki]].
+    *[[http://processors.wiki.ti.com/index.php/Hands-On_Training_for_TI_Embedded_Processors|Texas Instruments Embedded Processors Wiki "Hands-On Training for TI Embedded Processors"]] - "MSP430 16-bit Ultra-Low Power MCU Training" #.
+  *[[http://www.designmsp430.com/|Design MSP430 Ultra-Low Power Challenge]], sponsored by [[http://www.avnet.com/|Avnet Electronics Marketing]] ( 2010 ).
+  *[[http://focus.ti.com/docs/apps/catalog/resources/appnoteabstract.jhtml?abstractName=slaa137a|Texas Instruments, Application Note "MSP430 Internet Connectivity (Rev. A)"]].
+  *[[http://www.youtube.com/|YouTube]].
+    *[[http://www.youtube.com/user/texasinstrumentsVlog|YouTube "Texas Instrument Vlog"]].
+    *[[http://www.youtube.com/watch?v=LDJIBydJvoM|YouTube "Introducing the eZ430-Chronos Wireless Watch Development Tool"]].
+==== OpenSource Arduino-based IDE with unlimited GNU-C Compiler for Texas Instruments Launchpads ====
+  *The OpenSource IDE [[http://www.energia.nu/|Energia]].
+  *Arduino IDE alike IDE.
+  *Target hardware: [[http://www.energia.nu/store/|Texas Instruments Launchpads]] ( MSP430, ARM,.. ).
+==== Free IDE, with limited TI Compiler & unlimited GNU Compiler for MSP430 ====
+  *[[http://focus.ti.com/docs/toolsw/folders/print/ccstudio.html|Texas Instruments Code Composer Studio (CCStudio) Integrated Development Environment (IDE)]] - "Use CCS for free - By default when you install Code Composer Studio a free license..., MSP430 with 16KB code size limit when using the TI compiler and MSP430 with no limit when using GCC" 
+    *The free but codesize-limited TI MSP430 compiler.
+      *It can handle traditional  Kernighan & Ritchie C ( K&R C ) code :-).
+      *It is shipped with a free MISRA-C 2004 checker :-).
+    *The free unlimited GCC compiler for MSP430.
+      *Neither the installation wizzard of "CCStudio 5" nor of "CCStudio 6" offers the installation of the unlimited C/C++ compiler "GCC" for MSP430. 
+      *"CCStudio 6": 
+        *[[http://processors.wiki.ti.com/index.php/CCSv6_Changes|Texas Instruments Wiki "CCSv6 Changes"]] - "The App Center is a major change in CCSv6. The purpose of the CCS App Center is to make customers aware of additional software that is available and then help them obtain it. The reality is that customers need far more than just CCS to start meaningful development. Packages such as MSP430Ware, controlSUITE and TivaWare are essential to starting development and are all available via the App Center. Other packages like TI-RTOS, GCC for MSP430, Linux Development Tools and GUI Composer are also available".
+        *[[http://e2e.ti.com/support/development_tools/code_composer_studio/f/81/p/372143/1308735.aspx|TI e2e Community "Advertising of CCStudio "MSP430 with 16KB code size limit when using the TI compiler and MSP430 with no limit when using GCC" - But there is no GCC included in the distribution"]] - "MSP430 GCC is not installed by default. <del>You have to specify it in the installation wizard with first installing CCS or</del> you can simply install it from the CCS App Center ( View -> CCS App Center )".
+      *"CCStudio 5" - There is no "CCS App Center" :-(.
+   *[[http://processors.wiki.ti.com/index.php/Projects_and_Build_Handbook_for_CCS|Texas Instruments Wiki "Projects and Build Handbook for CCS"]].
+  *[[http://processors.wiki.ti.com/index.php/Download_CCS|Texas Instruments Embedded Processors Wiki "Download CCS"]] - Download of the free CCS editions.
+  *[[http://processors.wiki.ti.com/index.php/Device_support_files|Texas Instruments Embedded Processors Wiki "Device support files"]].
+  *"CCStudio 5.5.0" ist the latest IDE for host computers with Pentium III 80x86 CPU.
+  *"CCStudio 6.0.1" and newer is just for host computers with 80x86 CPU which supports the SSE2 instruction set. The installation of "CCStudio 6.0.1" hangs on computers with CPUs whico don´t support the SSE2 instruction set :-(:
+    *[[http://e2e.ti.com/support/development_tools/code_composer_studio/f/81/p/356283/1254627.aspx|TI e2e Community "CCSv6 freezes during installation"]] - "AMD Athlon XP 2600+". "The processor you are using does not support the SSE2 instruction set. Unfortunately, there is no workaround for this issue other than to use a newer computer".
+    *I got the same issue with my Athlon XP2800 computer, it hangs after this installation message:<code>
+Installing com.ti.ccstudio.targetdb.props.default.win32...
+Unzipping <installation directory>/ccsv6/eclipse/downloads/targetdb_default_props_6.0.0.20131206.zip
+com.ti.ccstudio.targetdb.props.default.win32 installed
+Registering new target content products
+</code>
+
+==== Some other free MSP430 Software Development Systems, Compilers ====
+  *[[http://www.github.com/|github]].
+    *[[http://www.github.com/poelzi/OpenChronos/|github "OpenChronos"]].
+    *[[http://github.com/psehorne/eZChronos|github "eZChronos"]].
+  *[[http://www.sourceforge.net/|Sourceforge]].
+    *[[http://mspgcc.sourceforge.net/|Sourceforge "mspgcc - The GCC toolchain for the Texas Instruments MSP430 MCUs"]], [[http://www.sourceforge.net/projects/mspgcc/|Sourceforge "mspgcc"]].
+      *[[http://www.develissimo.net/|Reumayr Raphael, develissimo.net - "FREE msp430 development using free software in a comfortable and professional way"]] - installation tutorial.
+      *[[http://www.linuxjournal.com/article/8682|LINUX Journal "MSP430 Development with Linux"]] ( 2006-01-02 ).
+    *[[http://ez430chronosnet.sourceforge.net/|Sourceforge "ez430chronosnet"]], [[http://sourceforge.net/projects/ez430chronosnet/|Sourceforge "ez430chronosnet"]] - "This project comprises a .Net library written in C# to communicate with an eZ430 Chronos access point and therefore the ez430 Chronos watch itself".
+    *The free [[http://www.ti.com/tool/grace|Texas Instruments "Grace – Graphical Peripheral Configuration Tool"]].
+    *The free ULP (Ultra-Low Power) Advisor.
+      *[[http://www.ti.com/tool/ulpadvisor|Texas Instruments "ULP (Ultra-Low Power) Advisor"]].
+      *[[http://processors.wiki.ti.com/index.php/ULP_Advisor?DCMP=MSP430|Texas Instruments Embedded Processors Wiki "ULP Advisor"]] - "Pre-installed with Code Composer Studio version 5".
+    *[[http://processors.wiki.ti.com/index.php/MSP430Software#Upgrading_MSP430ware_in_CCS_5.1|Texas Instruments Embedded Processors Wiki "MSP430Software"]] - "A collection of code examples, datasheets and other design resources".
+    *[[http://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSP430ware/latest/index_FDS.html|Texas Instruments "MSP430ware Product Download Page"]].
+    *Code Composer Studio V5 Setup: "Subset of the Microcontroller Edition supporting MSP430. A 16KB object code size limit is in place".
+    *[[http://processors.wiki.ti.com/index.php/Open_Source_Projects_-_MSP430?sp_rid_pod4=OTI2MzYxNzg0MQS2&sp_mid_pod4=39502111|Texas Instruments Embedded Processors Wiki "Open Source Projects - MSP430]].
+      *[[http://processors.wiki.ti.com/index.php/Open_Source_Projects_-_MSP430?sp_rid_pod4=OTI2MzYxNzg0MQS2&sp_mid_pod4=39502111#MSP430_Open_Source_Tool_Chain|Texas Instruments Embedded Processors Wiki "Open Source Projects - MSP430. MSP430 Open Source Tool Chain"]].
+    *[[http://www.ti.com/lit/ug/swru268a/swru268a.pdf|Texas Instruments "CC2530ZNP Mini Kit Quick Start Guide"]] ( PDF ): "16 Kbyte for MSP430F2274 when using the --ks_version linker option".
+==== Commercial MSP430 Software Development Systems, Compilers ====
+  *[[http://www.iar.com/|IAR Systems]] - "IAR Embedded Workbench IDE".
+    *[[http://www.iar.com/en/products/iar-embedded-workbench/ti-msp430/|IAR Embedded Workbench for TI MSP430]].
+    *[[http://supp.iar.com/FilesPublic/UPDINFO/005473/infocenter/index.ENU.html|IAR Information Center for MSP430]].
+    *[[http://www.ti.com/iarkickstart|Texas Instruments "IAR Embedded Workbench Kickstart - Free 4KB IDE"]].
+    *Kickstart Development Tools for the ULTRA LOW-POWER MICROCONTROLLER MSP430 - This edition is limited to 4KB object ccde.
+  *[[http://www.imagecraft.com/|ImageCraft]].
+    *[[http://www.imagecraft.com/devtools_MSP430.html|ImageCraft "TI MSP430 and MSP430X  development tools"]] - 45 days trial version available.
+  *[[http://www.noicedebugger.com/|NoICE Debugger]].
+    *[[http://www.noicedebugger.com/msp430.html|NoICE Debugger for MSP430]].
+  *[[http://www.quadravox.com/|Quadravox, Inc.]].
+    *The commercial [[http://www.quadravox.com/AQ430.htm|Quadravox, Inc. "AQ430 Development Tools"]].
+      *"Quadravox now offers a special edition ("SE") of Pumpkin, Inc.'s Salvo RTOS for MSP430, bundled with AQ430".
+      *[[http://www.pumpkininc.com/salvo/lite/msp430/]] - free version of Salvo for MSP430 ("Lite").
+  *[[http://www.rowley.co.uk/msp430/index.htm|Rowley Associates - CrossWorks for MSP430]] - "- C Compiler for MSP430 Microcontrollers".
+  *[[http://www.softbaugh.com/OuterSoftware.cfm|SoftBaugh, Inc. - MSP430 Software Tools]].
+==== Free Operating Systems ====
+  *The OpenSource realtime operating system [[http://www.ti.com/tool/sysbios&DCMP=sysbios&HQS=Other+OT+sysbios|Texas Instruments "SYS/BIOS Real-Time Kernel"]] for MSP430.
+    *[[http://www.ti.com/lsds/ti/tools-software/rtos.page|Texas Instruments "RTOS including TI-RTOS & SYS/BIOS"]].
+    *[[http://en.wikipedia.org/wiki/SYS/BIOS|EN.Wikipedia "SYS/BIOS"]].
+
+==== Third-Party MSP430 Resources ====
+  *The MSP430 provides the basic functions "run/stop", "flash", but not the debug function "trace".
+  *The most important code instruction at the start of a MSP430 program ( in "C" programs of course hidden in the C start code ) is to disable the hardware watchdog timer :-).
+  *[[http://events.ccc.de/congress/2008/Fahrplan/events/2839.en.html|25th Chaos Communication Congress "Cracking the MSP430 BSL"]].
+  *[[http://www.43oh.com/|43oh.com - Four-Three-Oh! - MSP430 News, Projects and Forums]].
+  *[[http://cnx.org/lenses/TexasInstruments/MSP430|Connexions - Texas Instruments MSP430]].
+  *[[http://www.drdobbs.com/blog/|Dr.Dobbs Journal]].
+    *[[http://www.drdobbs.com/blog/archives/2010/05/7_development_k.html|Dr.Dobbs Journal, Al Williams "$7 Development Kit"]] - "STMicroelectronics has the STM8S Discovery kit".
+    *[[http://www.drdobbs.com/blog/archives/2010/06/yacdb_yet_anoth.html|Dr.Dobbs Journal, Al Williams "YACDB (Yet Another Cheap Development Board)"]].
+  *[[http://www.eg3.com/|EG3]].
+    *[[http://www.eg3.com/msp430.htm|EG3 "embedded mcu's & mpu's / msp430"]].
+    *[[http://www.eg3.com/WebID/embedded/msp430/blank/newsgroup/a-z.htm|EG3 "embedded mcu's & mpu's / msp430 / newsgroups, evals, projects"]].
+    *[[http://www.eg3.com/WebID/embedded/msp430/blank/overview/a-z.htm|EG3 "embedded mcu's & mpu's / msp430 / overviews, resources"]].
+    *[[http://www.eg3.com/WebID/embedded/msp430/blank/seminar/a-z.htm|EG3 "embedded mcu's & mpu's / msp430 / seminars, blogs, portals..."]].
+    *[[http://www.eg3.com/WebID/embedded/msp430/blank/rtos/a-z.htm|EG3 "embedded mcu's & mpu's / msp430 / rtos, tutorials, contests"]].
+    *[[http://www.eg3.com/WebID/embedded/msp430/blank/book/a-z.htm|EG3 "embedded mcu's & mpu's / msp430 / books, personal pages"]].
+    *[[http://www.eg3.com/WebID/embedded/msp430/blank/free-stuff/a-z.htm|EG3 "embedded mcu's & mpu's / msp430 / free-stuff"]].
+    *[[http://www.eg3eclips.com/msp430/best-of-web.html|E-Clips "MSP430 - 'design guide' best of the web...", "MSP430 - best of the web ('top sites')", "MSP430 - books", "MSP430 - conferences, seminars, webinars", "MSP430 - featured products and messages"]] - "Best websites for msp430".
+  *[[http://elmicro.com/|Elektronikladen]].
+    *[[http://elmicro.com/de/msp430easyweb.html|Elektronikladen "MSP430 easyWeb III. Embedded Webserver Projekt"]] - "Die Software zum Projekt (Download s.o.) wurde ursprünglich mit dem IAR Compiler entwickelt. Eine Version für [[http://www.imagecraft.com/devtools_MSP430.html|Imagecrafts ICC430]] ist im Examples-Verzeichnis des Compilers zu finden!".
+    *[[http://www.elmicro.com/files/robotik/e_multi.pdf|Jens Altenburg: "Multitasking mit dem MSP430"]] ( PDF ).
+  *[[http://www.elv.de/|ELV Elektronik]].
+    *[[http://www.elv-downloads.de/service/manuals/MSP430/MSP430_KM_G_020718.pdf|ELV Elektronik "MSP430 - Intelligenter Stromsparer"]], 2002 (PDF).
+  *[[http://www.43oh.com/|Four-Three-Oh! - MSP430 News, Projects and Hacks]].
+  *[[http://travisgoodspeed.blogspot.com/2009/10/msp430-info-flash.html|Travis Goodspeed's Blog: MSP430 Info Flash]].
+  *[[http://hackaday.com/|Hack A Day]].
+    *[[http://hackaday.com/2010/06/22/ti-makes-a-big-bid-for-the-hobby-market/|Hack A Day "TI makes a big bid for the hobby market"]].
+    *[[http://hackaday.com/tag/msp430/|Hack a Day - Tag "msp430"]].
+      *[[http://hackaday.com/2010/08/11/msp430-based-single-led-clock/|Hack A Day "MSP430 based single LED clock"]] - TI Launchpad.
+  *[[http://www.instructables.com/|instructables]].
+    *[[http://www.instructables.com/id/MSP430-Based-Chronulator-using-Launchpad-chip/|instructables "Doug Paradis: MSP430 Based Chronulator (using Launchpad chip)"]].
+  *[[http://www.mtb-news.de/forum/showthread.php?t=441095|Internet Bike Community, Mountainbike Forum: "Wir basteln einen Wifi-Rad-Computer...EZ430-Chronus"]].
+  *[[http://www.ece.uah.edu/~jovanov/msp430/msp430.html|Dr. Emil Jovanov "MSP 430 Material and Links"]].
+  *[[http://kennethfinnegan.blogspot.com/2010/08/msp430-bicolor-led-clock.html|The Life of Kenneth "MSP430 Bicolor LED Clock"]].
+  *[[http://www.mathar.com/|Sebastian Mathar "Tutorials zum MSP430F149, dem 16-Bit-Mikrocontroller von Texas Instruments"]].
+  *[[http://www.mikrocontroller.net/|mikrocontroller.net]].
+    *[[http://www.mikrocontroller.net/articles/MSP430|mikrocontroller.net "MSP430"]].
+  *[[http://www.mymsp430.de/|MSP430 Domino]] - "MSP430 Domino ist die Anlaufstelle für alle, die sich mit der Controller- Familie MSP430 von Texas Instruments beschäftigen".
+  *[[http://passworld.co.jp/index.php?lang=GB&lieu=Liens|PassWorld - Microcontroller & DSP Technologies]].
+    *[[http://passworld.co.jp/index.php?lang=GB&lieu=Liens|PassWorld - Microcontroller & DSP Technologies - "Some useful resources ...for MSP430 afficionados"]].
+  *[[http://www.sander-electronic.de/be00003.html|Sander Elektronik "MSP430 Controller"]].
+  *[[http://www.thomas-wedemeyer.de/elektronik/msp430.html|Thomas Wedemeyer "MSP430"]].
+  *[[http://www.et.hs-mannheim.de/|Hochschule Mannheim]].
+    *[[http://www.et.hs-mannheim.de/fa/Daten/pdf/MSP_Start.pdf|Zenon Schymiczek "Einführung in den Umgang mit Meßsignalprozessor MSP430"]] ( PDF ).
+  *[[http://en.wikibooks.org/wiki/Embedded_Systems/Texas_Instruments_MSP430_microcontrollers|Wikibooks "Embedded Systems/Texas Instruments MSP430 microcontrollers"]].
+  *[[http://en.wikipedia.org/wiki/TI_MSP430|EN.Wikipedia "TI MSP430"]], [[http://de.wikipedia.org/wiki/TI_MSP430|DE.Wikipedia "TI MSP430"]].
+==== MSP430 Reference Application ====
+  *[[http://www.ti.com/tool/msp-nrgwtchdg|Texas Instruments "MSP430 Energy Watchdog Tool"]].
+===== eZ430-Chronos =====
+==== ez430 Chronos Hardware ====
+  *[[http://focus.ti.com/docs/toolsw/folders/print/ez430-chronos.html?DCMP=Chronos&HQS=Other+OT+chronos|Texas Instruments "eZ430-Chronos Wireless Watch Development Tool"]].
+    *[[http://www.slickdeals.net/forums/showthread.php?t=1713701|slickdeals "eZ430-Chronos Wireless Watch Development Tool: $25 + shipping"]].
+      *"Use coupon code MCU2009-06 when checking out to bring it down to $25 + shipping".
+      *"EDIT: There is a new code now. I think the above one is expired. the code is "HALFMSPTOOL". it takes 50% off the order for the watch! Enjoy!".
+    *[[http://groups.google.com/group/hive76-discussion/browse_thread/thread/a36eba879cd212f9/6841559b2e3e5007?lnk=gst&q=coupon|Hive76 Discussion" "$25 with coupon -- eZ430-Chronos Wireless Watch Development Tool (915 MHz US Version)"]].
+      *"Use coupon code MCU2009-06 when checking out ..."
+  *[[http://www.bm-innovations.com/index.php/ez430-chronos|BM innovations GmbH - eZ430-Chronos]].
+    *Firmware update tool for eZ430-Chronos watches.
+    *[[http://www.bm-innovations.com/index.php/shop_products.html|BM innovations GmbH "BM-CS5SR"]] - heart rate monitoring, 868MHz.
+    *[[http://bm-innovations.com/index.php/produkte_brustgurte.html|BM innovations GmbH "Brustgurt BM-CS5SR"]] - heart rate monitoring, 868MHz.
+
+==== Texas Instruments - eZ430-Chronos Resources ====
+  *[[http://www.ti.com/chronoswiki-pr|Texas Instruments Embedded Processors Wiki "EZ430-Chronos"]].
+    *[[http://www.ti.com/product/cc430f6137|Texas Instruments Inc. "CC430F6137"]].
+  *[[http://focus.ti.com/docs/toolsw/folders/print/simpliciti.html|Texas Instruments "SimpliciTI Compliant Protocol Stack"]].
+  *[[http://www.bmwireless.com/|BM Wireless/BM Innovations]] - "Bluerobin protocol".
+==== eZ430-Chronos Installation ====
+  -eZ430-Chronos Installer √.
+    *"We have detected that you have User Access Control enabled in your Windows environment. User Access Control imposes restrictions that may result in unpredicatable results during the installation of this product. It is recommended that you turn User Access Control off before proceeding. You can turn User Access Control on after installation is complete".
+    *[[http://www.drwindows.de/windows-anleitungen-und-faq/70-benutzerkontensteuerung-user-access-control-uac-deaktivieren.html|Dr.Windows " Benutzerkontensteuerung/User Access Control (UAC) deaktivieren"]].
+  -[[http://focus.ti.com/docs/toolsw/folders/print/ccstudio.html|Code Composer Studio (CCStudio) Integrated Development Environment (IDE) v4.x]] √.
+    *Code Composer Studiu V4 Setup: "Subset of the Microcontroller Edition supporting MSP430. A 16KB object code size limit is in place".
+  -[[http://www.iar.com/|IAR Systems]] - "IAR Embedded Workbench IDE" √.
+    *Kickstart Development Tools for the ULTRA LOW-POWER MICROCONTROLLER MSP430. This edition is limited to 4KB object ccde.
+  -Test of the device and the communication with the PC.
+    -Manual operation of the device, i.e. pressing the "*" and "#" keys so that the display changes according to the selected modes and functions √.
+    -Manual configuration of the device, i.e. setting the time √.
+    -Remote communication between the device and a Windows computer, i.e. reading from the device, setting data on the device.
+==== Third-Party eZ430-Chronos Resources ====
+  *[[http://chemicaloliver.net/blog/|chemicaloliver]].
+    *[[http://chemicaloliver.net/arduino/graphing-ti-ez430-chronos-watch-data-in-linux/|chemicaloliver "Graphing ti ez430 Chronos watch data in Linux"]], 2010-01-31.
+    *[[http://chemicaloliver.net/hardware/graphing-ti-ez430-chronos-watch-data-in-processing/|chemicaloliver "Graphing ti ez430 Chronos watch data in Processing"]], 2010-02-05.
+    *[[http://chemicaloliver.net/hardware/receiving-ti-ez430-chronos-button-presses-in-processing-and-python/|chemicaloliver "Receiving TI ez430 Chronos Button Presses in Processing (and Python)"]], 2010-02-06.
+    *[[http://chemicaloliver.net/arduino/controlling-lights-with-ti-ez430-chronos-home-easy-arduino-and-processing/|chemicaloliver "Controlling lights with TI ez430 chronos, home easy, arduino and processing"]], 2010-02-07.
+    *[[http://chemicaloliver.net/electronics/how-the-ti-ez430-chronos-watch-could-be-better/|How the TI ez430 Chronos watch could be better (Updated)]], 2010-02-08.
+  *[[http://www.drdobbs.com/blog/|Dr.Dobbs Journal]].
+    *[[http://www.drdobbs.com/blog/archives/2010/07/ez430chronos_an.html|Dr.Dobbs Journal, Al Williams "eZ430-Chronos and Linux"]].
+    *[[http://www.drdobbs.com/blog/archives/2010/07/quick_ti_msp430.html|Dr.Dobbs Journal, Al Williams "Quick TI MSP-430 Chronos Project"]].
+  *[[http://www.43oh.com/|Four-Three-Oh! - MSP430 News, Projects and Hacks]].
+    *[[http://www.43oh.com/2010/09/interfacing-the-ez430-chronos-with-labview/|Four-Three-Oh! "Interfacing the ez430 Chronos with Labview"]].
+  *[[http://www.golem.de/|Golem]].
+    *[[http://www.golem.de/0911/71424.html|Golem "TI EZ430-Chronos - Sportuhr als Entwicklungsumgebung"]].
+    *[[http://video.golem.de/pc-hardware/2602/ez430-chronos-armbanduhr-zerlegung-und-zusammenbau.html|Golem "Video: eZ430-Chronos - Zerlegung und Zusammenbau der Armbanduhr"]].
+  *[[http://hackaday.com/|Hack A Day]].
+    *[[http://hackaday.com/2010/01/21/coded-entry-using-your-wristwatch/|Hack A Day "Coded entry using your wristwatch"]].
+  *[[http://www.heise.de/kiosk/archiv/ct/2010/9/64|Heise Publishing, computer magazine "C't", issue 2010-09, page 65 "Gadgets zum Selbermachen"]] - "Ein Tachometer für Fahrräder ist in Vorbereitung".
+  *[[http://www.iar.com/website1/1.0.1.0/1867/1/|IAR "Design your eZ430-Chronos watch with IAR visualSTATE"]].
+    *[[hhttp://www.iar.com/website1/1.0.1.0/2162/1|IAR "TI Chronos Watch Application Example"]].
+    *[[http://www.iar.com/website1/1.0.1.0/2163/1/|IAR "TI Chronos Watch Application Example 2"]].
+    *[[http://www.iar.com/website1/1.0.1.0/473/1/|IAR "Resources / Developer's Toolbox"]].
+      *[[http://www.iar.com/website1/1.0.1.0/2083/1/|IAR "Resources / Developer's Toolbox", "IAR visualSTATE and TI eZ430-Chronos"]].
+  *[[http://blog.lieberlieber.com/2010/02/17/software-entwickler-und-ihre-gadgets-folge1-ti-ez430-chronos-media-player-steuerung/|LieberLieber Software TeamBlog "Software-Entwickler und Ihre Gadgets (Folge1) TI EZ430-Chronos & Media Player Steuerung"]] ( 2010-02-17 ).
+  *[[http://blog.makezine.com/archive/2010/01/ti_ez430_-_chronos_development_kit.html|Make: Technology on your time - "Alt.CES: Ti eZ430 - Chronos Development kit unboxing"]].
+    *[[http://www.flickr.com/photos/wurx/sets/72157623037013971/|flickr "Marc de Vinck: Ti eZ430 -Chronos"]].
+  *[[http://decibel.ni.com/content/docs/DOC-13030|National Instruments "ez430-Chronos graphing and Theremin"]] - LabVIEW & ez430.
+  *[[http://www.reddit.com/r/ChronosHacks/|Reddit "ChronosHacks"]].
+  *[[https://ziyan.info/2010/01/secure-wireless-door-lock/|Ziyan Zhou  "Secure Wireless Door Lock"]].
+  *[[http://www.youtube.com/|YouTube]].
+    *[[http://www.youtube.com/results?search_query=eZ430&aq=f|YouTube - Search result for "eZ430"]].
+      *[[http://www.youtube.com/watch?v=LDJIBydJvoM|YouTube "Introducing the eZ430-Chronos Wireless Watch Development Tool"]].
+      *[[http://www.youtube.com/watch?v=CwIbWsb1z24|YouTube "Texas Instruments TI eZ430-Chronos Wireless Watch received today"]].
+      *[[http://www.youtube.com/watch?v=WDL3awjhLpw|YouTube "eZ430-Chronos Watch Disassembly and Assembly"]].
+      *[[http://www.youtube.com/watch?v=Eqe9ASW-TQE|YouTube "eZ430-Chronos"]].
+      *[[http://www.youtube.com/watch?v=wSlBt5oxBss&feature=related|YouTube "eZ430-Chronos Wireless Watch Development Tool Preview"]].
+      *[[http://www.youtube.com/watch?v=m_XDI1TkpbM&NR=1|YouTube "Accelerometer and Mouse control with eZ430 watch"]].
+      *[[http://www.youtube.com/watch?v=VYWhJO4h_80&NR=1|YouTube "z430 Chronos REM Sleep Detector Demo 1 (University of Delaware ELEG 366 winter 09-10)"]].
+      *[[http://www.youtube.com/watch?v=es-LjgiXN1Q&NR=1|YouTube "ez430 Chronos REM Sleep Detector Demo 2 (University of Delaware ELEG 366 winter 09-10)"]].
+      *[[http://www.youtube.com/watch?v=1i5MLJf3eMM&feature=player_embedded|YouTube "ez430 Chronos REM Sleep Detector Demo 3 (University of Delaware ELEG 366 winter 09-10)"]].]]
+  *Bidding for project budgets.
+    *[[http://www.freelancer.com/projects/CPlusPlus-Programming/chronos-watch-extension.html|freelancer "eZ430 chronos watch extension"]].
+    *[[http://www.workingbase.com/project/eZ430-chronos-watch-extension.743419.html|WorkingBase "eZ430 chronos watch extension"]].
+
+===== MSP430 Tips =====
+==== How to move a project with Code Composer Studio v5 ? ====
+  *How to proceed:
+    -Open **Code Composer Studio**.
+    -Copy the project to a different name, by selecting a project with the mouse ( so that it becomes the "active" project ) and then executing the menu options "Edit / Copy" and "Edit / Paste" ( Instead, with **Code Composer Studio 4**, the menu option "Edit / Paste" is disabled after executing a "Edit / Copy" menu option with a project :-( ).
+    -Rename the copied project to the wanted name, by selecting the project name in the explorer, do a mouse-rightclick so that a menu opens. Select the menu option "Rename".
+    -Close **Code Composer Studio**.
+    -Copy the directory to the target Windows computer, into the future workspace directory.
+    -Call Code Composer Studio on this computer.
+    -Execute the menu option "Project / Import Existing CCS/CCE Eclipse Project".
+    -Let point the "Select search-directory" browser to your workspace directory, in which the project directory was placed.
+    -See that the project directory is displayed in the window section "Discovered projects:".
+    -Select the project(s).
+    -Press the "Finish" button.
+  *In opposite, renaming the project directory on Windows Desktop causes trouble:
+    *Projects of such copied project directories are invisible to the user of **Code Composer Studio**.    
+    *If you try to import such projects by the menu option "Project / Import Existing CCS/CCE Eclipse Project", **Code Composer Studio** often refuses to import, by creating error messages.
+
+===== Books =====
+  *Book [[http://www.amazon.com/MSP430-State-Machine-Programming-ES2274/dp/0975475924|Tom Baugh "MSP430 State Machine Programming: with the ES2274"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/377234299X/hemmerling-21|Lutz Bierl: "Das große MSP430 Praxisbuch"]].
+    *eBook [[http://www.ciando.com/ebook/bid-3204-das-grosse-msp430-praxisbuch/|Lutz Bierl: "Das große MSP430 Praxisbuch"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0750682760/hemmerling-21|John H. Davies: "Msp430 Microcontroller Basics"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/075067623X/hemmerling-21|Chris, Inc. Nagy, Fred Eady, Chris, Inc. Nagy Itron: "Embedded Systems Design Using the Ti Msp430 Series"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3446218009/hemmerling-21|Matthias Sturm: "Mikrocontrollertechnik: Am Beispiel der MSP430-Familie "]].
+    *[[http://www.htwk-leipzig.de/|Hochschule für Technik, Wirtschaft und Kultur Leipzig]] ( HTWK Leipzig ).
+      *[[http://www.ifas.htwk-leipzig.de/msp430-buch.de/|Hochschule für Technik, Wirtschaft und Kultur Leipzig "Das MSP430-Buch"]].
+      *[[http://www.easytoweb.net/|easyToWeb. Die embedded Webserver-Applikation]].
+===== Forums, Newsgroups =====
+  *[[http://www.designmsp430.com/forums.aspx|Design MSP430 Ultra-Low Power Challenge - Forums]].
+  *[[http://www.ifas.htwk-leipzig.de/easytoweb/forum/|Hochschule für Technik, Wirtschaft und Kultur Leipzig - EasyToWeb Forum]] - Subforum "MSP430 Education System".
+  *[[http://www.elektor.de/forum/foren-ubersicht/elektor-foren-der-treffpunkt-fur-elektroniker/elektor-c-experten-forum.167775.lynkx|ELEKTOR Forum "ELEKTOR-µC-EXPERTEN-Forum"]].
+  *[[http://www.element-14.com/community/message/12890|element14 Forum "Review : Texas Instruments eZ430-Chronos"]].
+  *[[http://www.embeddedrelated.com/|EmbeddedRelated.com]].
+    *[[http://ti.embeddedrelated.com/|EmbeddedRelated.com "TI MCU Resource Center"]].
+    *[[http://www.embeddedrelated.com/groups/msp430/1.php|MSP430 Discussion Group/Forum on EmbeddedRelated.com]].
+  *[[http://groups.google.com/|Google Groups]].
+    *[[http://groups.google.com/group/ti-chronos-development-|Google Groups "TI Chronos Development"]].
+    *[[http://groups.google.com/group/embeddednewbies|Google Groups "embeddednewbies"]].
+    *<del>[[http://groups.google.com/group/crashspace|Google Groups "crashspace"]]</del>.
+    *[[http://groups.google.com/group/fetproxy-devel|Google Groups "fetproxy-devel"]].
+  *H13 uC-Gruppe ( [[http://www.steganografie.eu/h13/|Microcontroller-Workshop. Hier ist Platz für Diskussionen rund um unsere Microcontroller]], [[http://www.binary-universe.net/h13/|Microcontroller-Workshop. Hier ist Platz für Diskussionen rund um unsere Microcontroller]] ).
+  *[[http://www.ifas.htwk-leipzig.de/easytoweb/forum/|Hochschule für Technik, Wirtschaft und Kultur Leipzig "easyToWeb", Forum]] - Subforums "MSP430 Education System".
+  *[[http://www.motherboardpoint.com/|Motherboard Foint. Motherboard and Hardware Technical Discussion Forums]].
+    *[[http://www.motherboardpoint.com/embedded-f30.html|Motherboard Foint "Embedded"]] -> "msp430", "ez430".
+  *[[http://forum.gp2x.de/|OpenHandhelds Forum]] - "Das deutsche Board zu OpenSource-Handhelds".
+    *[[http://forum.gp2x.de/viewtopic.php?t=9413|OpenHandhelds Forum - "Sonstiges / Andere Konsolen" / "TI eZ430-Chronos Wireless Watch Development Tool"]].
+  *[[http://passworld.co.jp/ForumMSP430/|PassWorld "ForumMSP430"]] - "Microcontroller Hard & Soft discussions".
+  *[[http://www.stackexchange.com/|Stack Exchange]] - "Free, Community-Powered Q&A".
+    *[[http://electronics.stackexchange.com/|Stack Exchange, Electronics and Robotics]].
+      *[[http://electronics.stackexchange.com/questions/1420/ez430-chronos-development-on-nix|Stack Exchange, Electronics and Robotics "eZ430-Chronos Development on *nix?"]].
+  *[[http://e2e.ti.com/|TI EZE Community]].
+    *[[http://e2e.ti.com/support/microcontrollers/msp43016-bit_ultra-low_power_mcus/f/166/p/51107/181346.aspx|TI EZE Community "Need help on getting the original source of EZ430 Chronos"]].
+  *[[http://uhrforum.de/|Uhrforum"]].
+    *[[http://uhrforum.de/texas-instruments-ez430-chronos-t50738|Uhrforum "Texas Instruments ez430-Chronos"]].
+  *Yahoo Groups.
+    *[[http://tech.groups.yahoo.com/group/aq430/|Yahoo Groups "aq430"]].
+    *[[http://tech.groups.yahoo.com/group/msp430/|Yahoo Groups "msp430"]] - "TI MSP430 microcontroller users group".
+    *[[http://tech.groups.yahoo.com/group/TI-Chronos/|Yahoo Groups "TI-Chronos"]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Hardware/Mikrocontroller/|OpenDirectory "Top: World: Deutsch: Computer: Hardware: Mikrocontroller"]].
+{{tag>"Texas Instruments" MSP430 "eZ430-Chronos" eZ430 Chronos}}
+<footnote_navi_en>

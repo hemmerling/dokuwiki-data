@@ -1,0 +1,95 @@
+====== [hemmerling] Web Real-Time Communication ( WebRTC ) ======
+This page is about direct communications between Internet computers, without the need for a dedicated central server.
+===== WebRTC - Browser2Browser Communications =====
+==== Conferences ====
+  *[[http://www.webrtcworld.com/conference/|WebRTC Conference & Expo]], 2013-06-25 - 2013-06-27.
+==== Tools ====
+  *The OpenSource telephone server [[http://www.asterisk.org/|Asterisk]].
+    *[[http://blogs.digium.com/2012/10/31/asterisk-11-now-available/|Digium Blog "Asterisk 11, Now Available"]] - "WebRTC Support".
+  *The browser [[http://www.mozilla.org/|Mozilla Firefox]].
+    *[[https://wiki.mozilla.org/Platform/Features/WebRTC|MozillaWiki "Platform/Features/WebRTC"]].
+    *[[http://blog.mozilla.org/futurereleases/tag/webrtc/|Mozilla Blog "Future Releases" - News tagged with "WebRTC"]].
+    *[[http://www.tech-lounge.de/firefox-18-webrtc-aktivieren/|tech-lounge Blog "Firefox 18: WebRTC aktivieren"]].
+    *[[http://www.soeren-hentzschel.at/mozilla/firefox/2012/12/01/demo-zeigt-webrtc-im-zusammenspiel-mit-socialapi-in-firefox/|Sören Hentschel "Demo zeigt WebRTC im Zusammenspiel mit SocialAPI in Firefox"]].
+    *[[http://www.thenextweb.com/apps/2012/12/01/webrtc-plus-social-api-mozilla-demoes-browser-sharing-in-firefox-like-youve-never-seen-it-before/|TheNextWeb "WebRTC plus Social API: Mozilla demoes browser sharing in Firefox like you’ve never seen it before"]].
+  *The browser [[http://www.google.de/intl/de/chrome/browser/|Google Chrome]].
+    *[[http://magpcss.org/ceforum/viewtopic.php?f=6&t=636|Chromium Embedded Framework Forum "How to Enable Media Stream (WebRTC)"]].
+  *The browser plugin [[http://code.google.com/p/webrtc4all/|Google Code "webrtc4all. WebRTC for Safari, Opera, Firefox and IE"]].
+  *[[http://www.palava.tv/|Palava]], [[http://www.github.com/palavatv|GitHub "palavatv"]] - "Browser-to-browser video".
+    *[[http://www.signaling.io/|signaling.io]] - "WebRTC for Web Developers".
+    *Slides [[http://palavatv.github.io/talk-jsunconf-webrtc/|GitHub "WebRTC Simple P2P Communication for the Web"]], JSUnconf EU 2014.
+
+==== SIP Clients ====
+  *[[sip.html|Telephony by the "Session Initiation Protocol" ( SIP )]].
+==== Frameworks ====
+  *Github.
+    *[[http://github.com/webRTC|Github "webRTC"]].
+    *[[http://www.github.com/kdomagal/Web-RTC|Github "kdomagal / Web-RTC"]] - "Real time communication with PeerConnection API, websockets and node.js".
+  *Google Code.
+    *[[http://code.google.com/p/webrtc/|Google Code "webrtc. Web-based real-time communication"]].
+    *[[http://code.google.com/p/libjingle/|Google Code "libjingle. Google Talk Voice and P2P Interoperability Library"]].
+  *[[http://www.phono.com/webrtc|Phono "PhonoSDK WebRTC Preview!"]].
+    *[[http://voxeolabs.com/prism/|PRISM]].
+    *[[http://www.tropo.com/|Tropo]].
+    *[[http://www.github.com/rayo/|Github "Rayo"]].
+      *Wiki [[http://www.github.com/rayo/rayo-server/wiki|Github "Rayo Wiki"]].
+==== Python ====
+  *[[http://comments.gmane.org/gmane.comp.python.django.user/146241|Gmane "gmane.comp.python.django.user", Message "webRTC videoconference demo"]], 2012-09-21.
+  *[[https://groups.google.com/forum/#!msg/django-users/XlNcaVycruo/zwAQbhT13b0J|Google Groups "Django Users", Message "webRTC videoconference demo"]], 2012-09-21.
+
+==== The Online Platform "Solaborate" using WebRTC for Browser-2-Server Communications ====
+=== The Service ===
+  *[[http://www.solaborate.com/|Solaborate - Be where Tech really matters]].
+  *[[http://www.webrtcworld.com/videos.aspx?vid=8586|WebRTC World "WebRTC Demo: Solaborate"]].
+=== Resources ===
+  *Server-side technologies used in 2013, according to the developers "Node.js , MongoDB , Hana , Memcache , rabbitmq ...".
+==== Literature ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0985978805/hemmerling-21|Alan B. Johnston, Daniel C. Burnett: "WebRTC: APIs and RTCWEB Protocols of the HTML5 Real-Time Web"]].
+    *The acompanying website [[http://www.webrtcbook.com/|WebRTC Book]].
+==== Resources ====
+  *WebRTC - All what you could do with [[cuseeme.html|CU-Seeme]] in 1995 already :-)?!
+  *[[http://blog.appfog.com/new-horizons-in-node-js-app-js-and-webrtc/|Appfog Blog, Luc Perkins "New horizons in Node.js: App.js and WebRTC"]], 2012-10-15.    
+  *[[http://labs.ericsson.com/blog/a-web-rtc-tutorial|Ericsson Labs "A Web RTC Tutorial"]].
+    *[[http://www.youtube.com/watch?v=AjQ7ZtCtUJ4|YouTube Channel "ericssonmultimedia", Video "Tech Talk: Web RTC"]].
+    *[[http://www.youtube.com/watch?v=C6OGJ1cu_8Y&list=PL7D73E2DF458708CC|YouTube Channel "ericsson", Video "Tech Talk: Web RTC"]].
+  *[[http://www.html5rocks.com/|HTML5 Rocks]].
+    *[[http://www.html5rocks.com/en/tutorials/webrtc/basics/?redirect_from_locale=de|HTML5 Rocks Tutorials "Getting Started with WebRTC"]].
+    *[[http://updates.html5rocks.com/2012/12/WebRTC-hits-Firefox-Android-and-iOS|HTML5 Rocks "WebRTC hits Firefox, Android and iOS"]], 2012-12-10.
+  *Microsoft.
+    *[[http://blogs.msdn.com/b/interoperability/archive/2012/07/28/customizable-ubiquitous-real-time-communication-over-the-web-cu-rtc-web.aspx|Microsoft MSDN Blog "Interoperability @ Microsoft", Article "Customizable, Ubiquitous Real Time Communication over the Web (CU-RTC-Web)"]].
+    *[[http://blogs.msdn.com/b/interoperability/archive/2013/01/17/ms-open-tech-publishes-html5-labs-prototype-of-a-customizable-ubiquitous-real-time-communication-over-the-web-api-proposal.aspx|Microsoft MSDN Blog "Interoperability @ Microsoft", Article "MS Open Tech publishes HTML5 Labs prototype of a Customizable, Ubiquitous Real Time Communication over the Web API proposal"]].
+  *[[http://rtc-web.alvestrand.com/|Alvestrand Data "rtc-web"]], [[https://sites.google.com/a/alvestrand.com/rtc-web/|Alvestrand Data "rtc-web"]].
+  *[[http://tools.ietf.org/wg/rtcweb/|Rtcweb Status Pages. Real-Time Communication in WEB-browsers (Active WG)]].
+    *[[http://tools.ietf.org/wg/rtcweb/charters?item=charter-rtcweb-2011-05-03.txt|Rtcweb Status Pages. Real-Time Communication in WEB-browsers (Active WG) "2011-05-03 charter. Real-Time Communication in WEB-browsers (rtcweb)"]].
+  *[[http://www.venturebeat.com/2012/08/13/webrtc-is-almost-here-and-it-will-change-the-web/|Venturebeat "WebRTC is almost here, and it will change the web"]] - 2012-08-13.
+  *[[http://www.webrtc.org/|WebRTC]] #.
+    *[[http://twitter.com/webrtc|Twitter "WebRTC project"]].
+  *[[http://www.webrtcworld.com/|WebRTC World]].
+  *[[http://www.w3.org/2011/04/webrtc/|W3C "Web Real-Time Communications Working Group"]].
+  *[[http://en.wikipedia.org/wiki/WebRTC|EN.Wikipedia "WebRTC"]], [[http://de.wikipedia.org/wiki/WebRTC|DE..Wikipedia "WebRTC"]].
+===== Other Peer 2 Peer Networks ( P2P ) =====
+==== Messengers - Video and Audio Communications ====
+  *See [[cuseeme.html|CU-SeeMe]].
+  *Jabber.
+    *[[http://de.wikipedia.org/wiki/Jabber_Instant_Messenger|DE.Wikipedia "Jabber Instant Messenger"]].
+    *[[http://en.wikipedia.org/wiki/XMPP|EN.Wikipedia "XMPP"]], [[http://de.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol|DE.Wikipedia "Extensible Messaging and Presence Protocol"]].
+    *[[http://www.jabber.org/|jabber.org - the original XMPP instant messaging service]].
+    *There must be no central server, with some clients you may video and audio chat.
+==== Local Area Networks ====
+  *[[http://www.pos-ware.de/produkte/kirschb.htm|Kirschbaum-Netz]].
+  *"Novell Lite" network.
+  *"Windows for Workgroups 3.11 ( WfW 3.11 )" network.
+==== File Transfer ====
+  *[[http://en.wikipedia.org/wiki/Napster|EN.Wikipedia "Napster"]], [[http://de.wikipedia.org/wiki/Napster|DE.Wikipedia "Napster"]] - P2P, but with central server :-(, in opposite to its third-party successors.
+  *[[http://en.wikipedia.org/wiki/Peer-to-peer|EN.Wikipedia "Peer-to-peer"]], [[http://de.wikipedia.org/wiki/Peer-to-Peer|DE.Wikipedia "Peer-to-Peer"]].
+
+
+===== Resources =====
+  *[[iphones.html|Internet Messenger, IP Telephony, Video Conferencing, Voice Over IP, Unified Messaging, Unified Communications]].
+  *[[http://www.webrtchacks.com/|webrtcHacks - Guides and information for WebRTC developers]] ( webrtcH4cKS ).
+  *The Chrome browser has a screensahre function ?!
+===== Forums, Newsgroups =====
+  *[[https://groups.werkstatt.tw/category/29/webrtc-working-group|ThoughtWorks "Werkstatt Groups" (https) - "WebRTC Working Group"]].
+  *[[http://lists.w3.org/Archives/Public/public-webrtc/|public-webrtc@w3.org Mail Archives]].
+{{tag>"CU-Seeme" CU seeme reflector "Cornell university" cornell university CU-RTC-Web}}
+<footnote_navi_en>

@@ -1,0 +1,259 @@
+====== [hemmerling] Linux 5/8 - SUSE 7.1 Linux on Clevo 2700c Notebooks with SIS630S Chipset ======
+Related pages:
+  *[[booting.html|Booting from Devices]].
+  *[[android.html|Google Android]].
+  *[[linux01.html|Linux 1/8]].
+  *[[linux02.html|Linux 2/8 - Linux Distributions]].
+  *[[linux03.html|Linux 3/8 - Linux Boot Loaders, Linux Build Systems, Linux Installers and Linux Implementors]].
+  *[[linux04.html|Linux 4/8 - Linux Applications, Linux Tools and Linux Drivers]].
+  *[[linux06.html|Linux 6/8 - Linux with X-Terminals and Terminals]].
+  *[[linux07.html|Linux 7/8 - Linux on X86, X64 and ARM Computers]].
+  *[[linux08.html|Linux 8/8 - Useful Linux Commands & Linux Tricks]].
+===== Installation of SUSE Linux 7.1 on Computers with SIS630 / SIS630S / SIS630ST Chipset =====
+  *Get the Linux distribution SUSE Linux 7.1 or newer and download the latest Linux kernel ( i.e. 2.4.18 at the time of writing of these instructions ) as tar.gz archive at [[http://www.kernel.org/|Kernel.org]].
+  *Prepare your system for Linux installation
+    *1 - Switch on your notebook, go to the BIOS setup ( e.g. by pressing <CTRL>,<ALT> and <S> together at the same time when prompted ).
+    *2 - Set the video memory by the menu option "Memory / VGA Shared Memory" to 8 MByte ( best choise if Linux is the only operating system ) or 16 MByte ( best choice if you want to play DVDs with Windows, too )
+    *3 - Do a harddisk partitioning so that some space on the harddisk is available for a LINUX installation. Make MSDOS boot from harddisk so that Windows is not loaded at boot time of MSDOS, enable access to the CDROM drive for MSDOS:
+      *Do it any way you like, e.g. follow the instructions in the SUSE manual or ask a friend.
+      *My way deletes all data on the harddisk !
+
+  *Step 1: Boot MSDOS from a floppy disk and repartition the harddisk with the MSDOS command FDISK.EXE. Here is the FDISK.EXE partition table for my 15 GB harddisk = 14402 MByte, which lefts 8998 MByte for Linux:
+
+^ ^ ^ ^ ^ ^ ^ ^ 
+^ Partition ^ Status ^ Typ ^ Bezeichnung ^ MB ^ System ^ Belegung ^
+^ C: 1 | A | PRI DOS | HD1 | 4401 | FAT32 | 1% |
+^ 2 | | EXT DOS | | 1004 | | 1% |
+^ | | | | | | |
+
+  *Step 2: Boot MSDOS from a floppy disk and use the command "FORMAT C: /S/U/V" to format the MSDOS boot partition !
+  *Step 3: If you decide to install Windows 95/98/98SE now, you must modify the file "C:\MSDOS.SYS" with a DOS text editor after the installation of Windows: The line "BootGui=1" must be changed to "BootGui=0".
+  *Step 4: Please install CDROM drivers for MSDOS and "MSCDEX.EXE", so that you have access to the CDROM drive at "DOS prompt" of COMMAND.COM.
+    *4 - Boot MSDOS from harddisk and run the setup tool of the SUSE CD #1, e.g. "Z:\SETUP.EXE", if "Z" is your CDROM drive. Select Loadlin as booting method and set up the correct amount of memory for Linux, e.g. enter 240 ( 248 ) MByte for a system with 256 MByte main memory and 16 ( 8 ) MByte video memory.
+    *5 - Select the textmode installation tool "Yast1" and not the graphical installation tool "Yast2.0" in the menu. This is a must, as the graphics card of the notebook is not VGA hardware compatible !
+    *6 - Create a Linux native partition and a Linux swap partition with the Linux tool Fdisk. A good choice for the size of the swap partition is the either single or double size of the main memory ( e.g. I entered "+512M" for my notebook with 256 MByte main memory ). Here is the Fdisk partition table for my 15 GB harddisk:
+
+^ Device name ^ From ^ To ^ Blocks ^ Partition ^ type ^
+^ /dev/hda1 | 562 | 689 | 1028160 | 5 | Extended |
+^ /dev/hda2 | 690 | 755 | 530145 | 82 | Linux swap |
+^ /dev/hda3 | 756 | 1836 | 8683132 | 83 | Linux native |
+^ /dev/hda4 | 1 | 561 | 4506201 | b | Win95 FAT32 |
+^ /dev/hda5 | 562 | 689 | 1028128 | b | Win95 FAT32 |
+
+=====  Installation of a new Linux Kernel for Computers with SIS630 / SIS630S / SIS630ST Chipset =====
+  *Install the Linux kernel 2.4.18 sources or newer. Follow the instructions in the SUSE 7.1 manual, chapter 13 "The Kernel", to install the kernel sources, to compile and install a new Linux kernel:
+    *Option 1, for owners of SUSE 7.3 or newer : Let "Yast1" install the packages d/linux and d/lininclude
+    *Option 2, if you downloaded the kernel separately: Execute the commands:<code>
+cd /usr/src
+tar xvfz /path_of_the_downloaded_kernel_archive/linux-2.4.18.tar.gz</code>
+    *To let the symblic link "/usr/src/linux" point to this installation directory, e.g. "/usr/src/linux-2.4.18" or "/usr/src/linux-2.4.18.SuSE", please execute the commands:<code>
+cd /usr/src
+ls
+rm linux
+ln -s linux-2.4.18 linux</code>
+  *Go to the Linux installation directory and call the menu configuration:<code>
+cd /usr/src/linux
+make menuconfig</code>
+  *Some useful special configuration options for my computer ( i.e. this does not show all relevant configuration options ), as available by "menuconfig". Please tell me, if you find out other useful SIS630 / SIS630S / SIS630ST specific configuration options.
+    *Code maturity level options --->
+      *[*] Prompt for development and/or incomplete code/drivers
+    *General setup --->
+      *[*] Networking Support
+      *[*] Support for hot-pluggable devices
+      *PCMCIA/CardBus support --->
+        *<M> PCMCIA/CardBus support
+        *[*] CardBus support
+        *[ ] i82365 compatible bridge support
+        *[ ] Databook TCIC host bridge support
+      *[*] Power Management support
+      *[*] ACPI support
+      *<*> APCI Bus Manager
+      *<M> System
+      *<M> Processor
+      *<M> Button
+      *<M> AC Adapter
+      *<M> Embedded Controller
+      *<M> Control Method Battery
+      *<M> Thermal
+      *<M> Advanced Power Management BIOS support
+      *[*] Enable PM at boot time
+      *[*] Make CPU Idle calls when idle
+      *[*] Enable console blanking using APM
+      *[ ] RTC stores time in GMT
+      *[*] Allow interrupts during APM BIOS calls
+      *[*] Use real mode APM BIOS call to power off
+    *Parallel port support --->
+      *<M> Parallel Port support
+      *<M> PC-style hardware
+      *<M> Multi-IO cards (parallel and serial)
+      *[*] Use FIFO/DMA if available
+    *Networking options --->
+      *<*> Packet socket
+      *<*> Unix domain sockets
+      *[*] TCP/IP networking
+    *ATA/IDE/MFM/RLL support --->
+      *<*> ADA/IDE/MFM/RLL support --->
+      *IDE, ATA and ATAPI Block devices --->
+        *<*> Enhanced IDE/MFM/RLL disk/cdrom/tape/floppy support
+        *<*> Include IDE/ATA-2 DISK support
+        *[*] Use multi-mode by default
+        *<*> Include IDE/ATAPI CDROM support
+        *[*] Generic PCI IDE chipset support
+        *[*] Sharing PCI IDE interrupts support
+        *[*] Generic PCI bus-master DMA support
+        *[*] Use PCI DMA by default when available
+        *[*] SiS5513 chipset support
+    *SCSI Support --->
+      *< > SCSI Support
+    *IEE 1394 (Firewire) support ---> ( just for Clevo 2700c / 2200c )
+      *<M> IEE 1394 (Firewire) support
+      *<M> OHCI-1394 support
+      *<M> OHCI-1394 Video support
+    *Network device support --->
+      *[*] Network device support
+      *<M> Dummy net driver support
+      *Ethernet (10 or 100Mbit) --->
+        *[*] Ethernet (10 or 100Mbit)
+        *[*] EISA, VLB, PCI or on board controllers
+        *< > RealTek RTL-8139 PCI Fast Ethernet Adapter support ( use the command "lspci -v" to check whether your SIS630 computer is equipped with this device, like the Tidalpower Mininote 200X )
+        *<M> SiS 900/7016 PCI Fast Ethernet Adapter support ( use the command "lspci -v" to check whether your SIS630 computer is equipped with this device, like the Clevo 2700c / 2200c, 2700s / 2200s, 2700t / 2200t notebooks )
+    *PCMCIA network device support --->
+      *[*] PCMCIA network device support
+      *<M> NE 2000 compatible PCMCIA support ( for my NE2000 compatible PCMCIA network card )
+    *IrDA (infrared) support --->
+      *<M> IrDA subsystem support
+      *<M> IrLAN protocol
+      *<M> IrCOMM protocol
+      *<*> Ultra (connectionless) protocol
+      *<*> IrDA protocol options
+      *<*> Cache last LSAP
+      *<*> Fast RRs
+      *Infrared-port device drivers --->
+        *--- SIR device drivers
+        *<M> IrTTY (uses Linux serial driver)
+        *<M> IrPORT (IrDA serial driver)
+        *--- FIR device drivers ( There are no FIR drivers for my notebook hardware )
+    *Multimedia devices --->
+      *<*> Video For Linux
+      *Video For Linux --->
+        *[*] V4L information in proc filesystem
+        *<M> Quickcam BW Video For Linux ( for my Quickcam BW )
+    *File systems --->
+      *<*> Kernel automounter version 4 support (also supports v3)
+      *<M> DOS FAT fs support
+      *<M> VFAT (Windows-95) fs support
+      *[*] Virtual memory file system support (former shm fs)
+      *<*> ISO 96660VFAT (Windows-95) fs support
+      *[*] Microsoft Joliet CDROM extensions
+      *<*> Minix fs support
+      *[*] /proc file system support
+      *[*] /dev/pts file system for Unix98 PTYs
+      *<*> Second extended fs support
+      *Network File Systems --->
+        *<*> NFS file system support
+        *<*> NFS server support system support
+        *[*] Provide NFSv3 server support
+        *<*> SMB file system support (to mount Windows shares ect.)
+        *[*] Use a default NLS
+        *Default Remote NLS Option: "cp437"
+      *Native Language Support --->
+        *Default NLS Option: "iso8859-1"
+        *<M> Codepage 437 (United States, Canada)
+        *<M> ISO 8859-1 (Latin 1; Western European Languages)
+    *Console drivers --->
+      *[*] VGA text console
+      *[*] Video mode selection support
+      *Frame-buffer support --->
+        *[*] Support for frame buffer devices
+        *<M> SiS accelleration
+        *[ ] VGA 16-color graphics console
+        *[*] SIS 630/540/730 support
+    *Sound --->
+      *<M> Sound card support
+      *<M> Trident 4DWave DX/NX, SiS 7018 or ALi 5451 PCI Audio Core
+    *USB support --->
+      *<M> Support for USB
+      *<M> OHCI (Compaq, iMacs, OPTi, SiS, ALi, ...) support
+  *Linux drivers for the built-in HAMR 5600 modem, once available for download at the ftp site of the manufacturer SmartLink, are now mirrored by Gabor Takacs !
+    *[[http://web.archive.org/web/*/http://afavant.elte.hu/~takacs/webboy.html|Gabor Takacs "Hibernation and winmodem under Linux on Gericom Webboy TFT 13.3/14.1"]] ( - 2005-02-13 ).
+  *Now compile and install a new Linux kernel and its modules. Follow the instructions in the SUSE 7.1 manual, chapter 13 "The Kernel". Especially you must copy the new kernel to the "C:\LOADLIN" directory of your MSDOS partition. In this example I assume that the MSDOS partition "C:" is mounted in "/dos_c". Execute the commands:<code>
+make dep clean bzImage
+make modules
+make modules_install
+cp /usr/src/linux/arch/i386/boot/bzImage /dos_c/loadlin/zImage</code>
+  *Finally, you must set the environment variable "PCMCIA" to "yenta_socket", manually, by "Yast1" ( "System Administration / Change configuration file / PCMCIA" ). Do not set the value to "tcic" or "i82365", as advised by SUSE.
+===== User Reports: Installation of X-Window on Computers with SIS630 / SIS630S / SIS630ST Chipset =====
+  *[[http://www.winischhofer.net/linuxsisvga.shtml|Thomas Winischhofer "SiS/XGI graphics chipsets and X.org/XFree86/Linux"]].
+  *[[http://web.archive.org/web/*/http://www.segfault.info/actions_sis630.php|Archive.org "Christoph Pittracher, segfault.info - SiS 630 Single Chipset under Linux"]].
+  *[[http://klaus.e175.net/|Klaus Brunner]].
+    *[[http://web.archive.org/web/20031011160530/http://winf.at/~klaus/sis630/|Archive.org "Klaus Brunner: XFree86, FreeBSD and the dreaded SiS630]] ( - 2003-10-11 ).
+  *[[https://www.csc.kth.se/~gkreitz/sis630/|Gunnar Kreitz "FreeBSD 4.4 on a BEST Apache C"]].
+===== Installation of X-Window and the Framebuffer Device, for Computers with SIS630 / SIS630S / SIS630ST Chipset =====
+==== Basics =====
+  *In the past, computers with SIS630 / SIS630S / SIS630ST chipset must setup the framebuffer device to make X-Window run ! Read the SUSE 7.1 manual, chapter 8, "The X Window System", subchapter 8.3.3, "Troubleshooting - The graphics card is not supported" and check the "SUSE Support knowledgebase" for the keyword FRAMEBUFFER, but follow the instructions provided here.
+  *[[https://web.archive.org/web/*/http://sdb.suse.de/en/sdb/html/keylist.FRAMEBUFFER.html|Archive.org "SUSE Keywords.FRAMEBUFFER|FRAME BUFFER"]] ( - 2003-10-04 ).
+  *Now, compile and install a new Linux kernel with activated framebuffer support ( see above ).
+  *Modify the Loadlin configuration file "C:\LOADLIN\LINUX.PAR" and the LILO configuration file "/etc/lilo.conf": Include the line "vga=791" to use the framebuffer with 1024x768 resolution, 16-bit color depth. 8-, 15-, and 16-bit color depths work, the 24-bit color depth is not available.
+  *Use Loadlin or LILO for rebooting Linux, which now makes use of the framebuffer. You see the Linux penguin during the boot process at the left upper corner of your screen.
+  *If you want to use a bootdisk for rebooting Linux, you must modify the bootdisk before, so that the proper VESA video mode "791" is activated at boottime, automatically:<code>
+make bzdisk
+mount /floppy
+vidmode /dev/fd0 791</code>
+==== X-Windows Installation =====
+You may either run XFree86 4.x ( best choice ) or XFree 3.3.x as X-Window server !
+=== XFree86 4.x ====
+    *To configure XFree86 4.x, don't follow the SUSE instruction ! Especially don't run the command "sax2" ! Instead, execute the command "xf86cfg -textmode" for a comfortable menu based configuration ( best choice ) or the command "xf86config" for the classical console configuration! The name of the framebuffer device is "fbdev". The modified configuration file is written to "/etc/X11/XF86Config". To setup Linux for use with XFree86 4.x, finally, please execute the commands, if necessary:<code>
+cd /var/X11R6/bin
+dir
+rm X
+ln -s /usr/X11R6/bin/XFree86 X</code>
+    *Start X-Window by the command "startx"
+=== XFree86 3.3.x ====
+  *I failed to configure XFree86 3.3.x of SUSE 7.1. 
+    *If you want to try so anyhow, please execute the command xf86config3x". This command is the one named "xf86config" in the SUSE 7.1 manual, by mistake. Don't try to run the commands "sax" and "XF86Setup", as advised by SUSE ! The modified configuration file is written to "/etc/XF86Config". To setup Linux for use with XFree86 3.3.x, finally, please execute the commands, if necessary:<code>
+cd /var/X11R6/bin
+dir
+rm X
+ln -s /usr/X11R6/bin/XF86_FBDev X</code>
+    *Start X-Window by the command "startx -- -bpp 16"
+    *If you succeed to configure XFree86 3.3.x properly, then please tell me !
+    *Note: The XFree86 3.0 server "XFCom_SiS" of 17. March 1999, as supplied with SUSE 7.1, is not suitable for graphics cards with SIS630 / SIS630S / SIS630ST chipset. Especially, the configuration command "xf86config3x" just mentions the predecessor chipset SIS620.
+==== LCD + CRT Output Device =====
+  *The Clevo 2700c BIOS offers the menu option "Startup / Display" to activate display devices:
+    *[ ] CRT
+    *[ ] LCD
+    *[*] LCD+CRT
+  *In fact, with either setting, both LCD and CRT display devices are activated: If you connect a VGA monitor to the notebook and if the VESA BIOS is active, there is always a display on the VGA monitor. Both devices are always addressed in 1024x768 resolution, so that the display quality of the display resolutions 640x480 and 800x600 is reduced the same for LCD and CRT.
+
+^ ^ ^ ^ ^ ^ 
+^ Graphics screen resolution ^ VESA video mode ^ Effective monitor screen width ^ Horizontal sync frequency ^ Vertical sync frequency ^
+^ textmode | - | 1024x768 | 49 KHz | 60 Hz, non-interlaced |
+^ 648x480 | vga=785 | 1024x768 | 49 KHz | 60 Hz, non-interlaced |
+^ 800x600 | vga=788 | 1024x768 | 49 KHz | 60.5 Hz, non-interlaced |
+^ 1024x768 | vga=791 | 1024x768 | 49 KHz | 60 Hz, non-interlaced |
+^ | | | | |
+
+  *So while a Linux text console is displayed, or if X-Window uses the VESA framebuffer driver, the VESA BIOS is active and controls the horizontal and vertical sync frequencies. Just if a X-Window server is running, using a special SIS 630S driver and while the X-Window console is displayed, the horizontal and vertical sync frequencies are taken from the file "/etc/X11/XF86Config" !
+  *So be aware, VGA monitors with a maximum horizontal frequency of less than 49 KHz, as usual in the early 1990th, don't work with this notebook !
+  *In opposite to MSDOS and Linux, Win98SE and W2K always override the VESA BIOS by its special graphics drivers.
+===== Linux Network Installation Tips =====
+  *In addition to the built-in network adapter, my notebook is equipped with an NE2000 compatible "10M Ethernet COMBO FL-4680" PC Card of Fiberline Technology Corp., once sold by [[http://www.atelco.de/|Atelco]] and [[http://www.pearl.de/|PEARL Agency]]. I found a confirmation of inofficial Linux support for this PC Card.
+    *[[http://tuxmobil.org/pcmcia_linux_status.html|TuxMobil "Linux PCMCIA/CF/CardBus Card Survey (sorted by Linux Support Status)"]].
+      *[[http://tuxmobil.org/pcmcia_ci10109.html|TuxMobil "PCMCIA/CardBus/CF-Card Linux Survey: Fiberline 10M Ethernet COMBO FL-4680"]].
+  *After each run of the script SuSEconfig, you must modify the file "/etc/hosts" if you like to assign the host name to several IPs, or to assign a different host name for each IP. Note that "Yast1" runs this script mostly, automatically.
+  *Please use "Yast1" ( "System Administration / Network configuration / Network base configuration" ) to mark all network devices as "Active". Especially, network devices of PC Cards must be marked to be of "PCMCIA" type.
+  *Currently, I may not use both the SIS 900/7016 network adapter and the PC Card network adapter with Linux, concurrently, if both network adapters are configured to be in the same subnet ( e.g. 192.168.1.* ). You may list all active network adapters by the command ifconfig.
+    *If the PC Card is not activated ( i.e. the PC Card with the media coupler is not plugged into the PC Card slot ), I may access the local network connected to the SIS 900/7016 network adapter.
+    *If the PC Card is activated ( i.e. the PC Card with the media coupler is plugged into the PC card slot ), access to the local network connected to the SIS 900/7016 network adapter is disabled: A ping to an IP of that local network "hangs". Access to the local network connected to the PC Card is granted.
+     *In opposite, I may use both network adapters with Windows, concurrently.
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Linux/|OpenDirectory "Top: Computers: Software: Operating Systems: Linux"]].
+    *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Linux/Embedded/|OpenDirectory "Top: Computers: Software: Operating Systems: Linux: Embedded"]].
+    *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Linux/Platforms/|OpenDirectory "Top: Computers: Software: Operating Systems: Linux: Platforms"]].
+  *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Embedded/|OpenDirectory "Top: Computers: Software: Operating Systems: Embedded"]].
+  *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Realtime/|OpenDirectory "Top: Computers: Software: Operating Systems: Realtime"]].
+    *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Realtime/Open_Source/|OpenDirectory "Top: Computers: Software: Operating Systems: Realtime: Open Source"]].
+    *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Realtime/Linux/|OpenDirectory "Top: Computers: Software: Operating Systems: Realtime: Linux"]].
+{{tag>Linux}}
+<footnote_navi_en>
+

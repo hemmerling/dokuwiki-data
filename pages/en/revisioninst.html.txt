@@ -1,0 +1,80 @@
+====== [hemmerling] Installation of Revision Control Systems ======
+===== Subversion with Tortoise, on Windows =====
+==== Installation of Subversion as Apache 2.2 module, with Tortoise, on Windows ====
+=== 1 Download and Installation ====
+  *Download and install an Apache server or WAMP package, e.g.
+    *[[http://httpd.apache.org/|Apache Server]] V2.2.
+    *[[http://www.easyphp.org/|EasyPHP]].
+  *Download and install [[http://win32svn.sourceforge.net/|Sourceforge "Subversion for Windows"]].
+  *Copy "bin/mod_dav_svn.so" and "bin/mod_authz_svn.so" to the Apache "modules" directory.
+  *Add the "bin" subdirectory to the SYSTEM PATH so all the Subversion support dll's are visible to the Apache service.
+=== 2 Apache Configuration ====
+Edit the Apache configuration file "conf\httpd.conf" in the Apache directory ( which might be a subdirectory in some WAMP packages ) and make the following changes:
+  *Uncomment the following two lines:
+//#LoadModule dav_fs_module modules/mod_dav_fs.so\\
+#LoadModule dav_module modules/mod_dav.so//
+  *Add the following two lines to the end of the LoadModule section:
+//LoadModule dav_svn_module modules/mod_dav_svn.so\\
+LoadModule authz_svn_module modules/mod_authz_svn.so//
+  *Add the following to end of the file. The "SVNParentPath" instruction names the directory, where you want to store Subversion repositories as sub-directories. 
+//<Location /svn>\\
+DAV svn\\
+SVNParentPath C:\repositories\\
+</Location>//    
+  *Alternatively, you might use the instruction "SVNPPath", which points to a single Subversion repository. I don´t suggest to do so, as my system did not work with this option, see "tip" below.
+<Location /svn>\\
+//DAV svn\\
+SVNPath C:\repository\\
+</Location>//
+=== 3 Tips ====
+  *Installation on Apache 2.0 as supplied with [[http://typo3winstaller.sourceforge.net/|TYPO3Installer]] fails, with the error message
+//Syntax error on line ??? of httpd.conf:\\
+[Apache]   -  API module structure 'dav_svn_module' in file D:/int/n32/TYPO3/Apache/modules/mod_dav_svn.so is garbled - expected signature 41503230 but saw 41503232 - perhaps this is not an Apache module DSO, or was compiled for a different Apache version?//
+  *If Apache is running as a different user to the one you use, you can´t use network drives with mapped local drive letters ( e.g. "V:" ) for SVNParentPath. Drives are mapped on a per-user basis !
+  *If I configure Subversion 1.6.13 with the "SVNPPath" instruction and though I use Tortoise to create a repository in the named directory, the installation failed, with the error message, 
+//"Internal error: Can't open file 'c:\\repository\\format': The system cannot find the file specified"//
+=== 4 Tortoise Installation ====
+  *Before installation of TortoiseSVN on W2K, the file "gdiplus.dll" of [[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=6a63ab9c-df12-4d41-933c-be590feaa05a&displaylang=en|Platform SDK Redistributable: GDI+]] must be copied in the Windows system directory "C:\winnt\system32".
+  *Download and install [[http://tortoisesvn.net/|TortoiseSVN]].
+  *Reboot your Windows computer.
+==== Installation of WANdisco Subversion with Tortoise, on Windows ====
+  -Before installation of Tortoise on W2K, the file "gdiplus.dll" of [[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=6a63ab9c-df12-4d41-933c-be590feaa05a&displaylang=en|Platform SDK Redistributable: GDI+]] must be copied in the Windows system directory "C:\winnt\system32".
+  -Download and install [[http://www.wandisco.com/subversion/os/downloads|WANdisco "Subversion for Microsoft Windows"]].
+  - Configuration during installation process{{images:subversion01.png?320|The configuration screen of WANdisco Subversion}}, {{images:subversion02.png?320|The configuration screen of WANdisco Subversion}}.
+  - Restart the Windows computer.
+==== First Steps with Subversion and Tortoise ====
+=== Workplace Preparation ===
+This teaching assumes, that you configured your system with the "SVNParentsPath" option during installation. WANdisco does this automatically for you.
+  -I open that directory with your Windows Explorer ( e.g. "C:\repositories" ) and create a sub-directory ( e.g. "project01" ). Open that directory with your Windows Explorer.
+  -Do a mouse-rightclick in the empty directory, select the menu item "TortoiseSVN / Create Repository here", and execute by mouse-doubleclick. Tortoise now puts some data in that directory.
+  -Create a working directory for your project at another location ( e.g. "V:\users\public\myproject01", and open it with your Windows Explorer. For demonstration purpuses, let's assume that you created test file "test.txt" in that directory.
+  -Do a mouse-rightclick in the directory, select the menu item "TortoiseSVN / Repro-browser".
+  -Tortoise askes for the the URL of the directory, enter "http://localhost/svn/project01". "/svn" is the shortcut to address Subversion from within Apache. "project01" is the repository. {{images:subversion03.png?320|Tortoise repository browser}}.
+  -Pick and draw a file ( e.g. "test.txt" ) in your working directory to the right side of the Tortoise repository browser.  Tortoise asks whether it should "Copy items to here" or "Move items to here". Please select "Move items to here".
+  -Tortise asks you to give some comment about the file. {{images:subversion04.png?320|Dialog window of the Tortoise repository browser}}.
+  -Now you added the file "test.txt" to the repository {{images:subversion05.png?320|Tortoise repository browser}}. 
+=== Export ===
+  *Do a mouse-rightclick in the (empty) directory, select the menu item "TortoiseSVN / Export...", and execute by mouse-doubleclick. Tortoise asks for export details in a window {{images:subversion06.png?320|Dialog window of the Tortoise repository browser}}. Please acknlowlege the export parameters. Now Tortise dccuments its action in a modal window. {{images:subversion07.png?320|Export action window of the Tortoise repository browser}}. 
+  *Look at your working directory: The file icon looks "as usual". 
+  *Please delete this demonstration file. Don´t be afraid, its still safe in the repository.
+=== SVN Checkout ===
+  *Do a mouse-rightclick in the (empty) directory, select the menu item "SVN Checkout", and execute by mouse-doubleclick. Tortoise asks for checkout details in a window {{images:subversion08.png?320|Dialog window of the Tortoise repository browser}}. Please acknlowlege the export parameters. Now Tortise dccuments its action in a modal window. {{images:subversion09.png?320|Export action window of the Tortoise repository browser}}. 
+  *Now look at your working directory: The new file has a special icon, with a green button with white checker symbol. This indicates that the file is under control of Subversion {{images:subversion10.png?320|File icon of of a file under control of Subversion}}.
+  *Do a mouse-rightclick on the file and on the directory, and see that there are three menu options, one more than before:
+    -"SVN Update".
+    -"SVN Commit...".
+    -"TortoiseSVN" - with many more menu options than before the checkout. Please check that there are different menu options if you do a mouse-rightclick on a file or in the directory.
+  *Now go to the directory which contains the repository as subdirectory and look at the directory icon of the repository subdirectory. It has a special icon, with a green button with a white checker symbol.  This indicates that the whole directory is under control of Subversion {{images:subversion11.png?320|File icon of a directory under control of Subversion}}.
+  *Have a look at your repository with your browser, enter the URL "http://localhost/svn/project01/". You can "read" any data, i.e. you have full download access to any file in your repository. With some type of files, you can even display with your browser ( e.g. a plain text file "test.txt" ). {{images:subversion12.png?320|Bowsser view to the repository}}.
+=== The next Steps ===
+  *Please read the free Subversion book from [[http://svnbook.red-bean.com/|Website for the book "Ben Collins-Sussman, Brian W. Fitzpatrick, C. Michael Pilato: Version Control with Subversion"]].
+  *Please read the (online) manual [[http://www.tortoisesvn.net/docs/nightly/TortoiseSVN_en/|TortoiseSVN "TortoiseSVN. A Subversion client for Windows. Version 1.6.99"]].
+  *Get some practice with the system, before you use it with real valuable data and files. If you work with a team, also practice collaboration.
+  *Think about a backup strategy for the repository, especially if it is on the same phyiscal or logical drive, or the same computer, as your development system.
+  *Think about the security of your data.
+===== Resources =====
+  *[[revision.html|Revision Control Systems]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Programmieren/Werkzeuge/Versionskontrolle/|OpenDirectory "Top: World : Deutsch : Computer : Programmieren : Werkzeuge : Versionskontrolle"]].
+  *[[http://www.dmoz.org/Computers/Software/Configuration_Management/Tools/|OpenDirectory "Top: Computers: Software : Configuration Management : Tools"]].
+{{tag>Installation "revision control system" "software code version control" RCS SCVCS VCS CVS}}

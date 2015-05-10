@@ -1,0 +1,30 @@
+====== [hemmerling] Webcam - Live Video-Übertragung ======
+<HTML><SCRIPT type="text/javascript" language="Javascript">
+<!--
+  function reloadImg()
+   {
+     // the webcam.jpg is the 0..10th image on the
+     // german-speaking WEB site if Javascript is activated !
+     status = "Reloading image ...";
+     uniq = new Date();
+     uniq = "?"+uniq.getTime();
+     newImage = document.images[0].src;
+     index = newImage.indexOf("?", 0);
+     if (index > 0)
+      {
+        newImage = newImage.substr(0, index);
+      }
+     status = document.images[0].src;
+     document.images[0].src= newImage+uniq;
+   }
+  // -->
+</SCRIPT></HTML>
+<PHP>
+echo '<IMG src="'.wl($ID,'',true).'../wikidata/media/webcam/webcam.jpg" width="320" height="240" id="imgToLoad" onload="setTimeout(\'reloadImg()\', 3000)" alt="Die Hemmerling (R) Webcam">';
+</PHP>
+Ich bin nur nach besonderer Verabredung hier online zu sehen. Wenn das Webcam-Bild sich nicht ändert, bin ich wahrscheinlich nicht online.
+
+===== =====
+<footnote_navi_de>
+
+Dieses Dokument ist auch auf [[en:dwebcam.html|{{flags:uk.png|British englisch}}]][[en:dwebcam.html|{{flags:us.png|US englisch}}]] verfügbar ! 

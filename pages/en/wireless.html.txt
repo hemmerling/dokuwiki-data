@@ -1,0 +1,166 @@
+====== [hemmerling] Wireless Networks ======
+Related pages: 
+  *[[automation.html|Automation & Process Logic Control]].
+  *[[bautomation.html|Building Automation & Home Automation]].
+  *[[fieldbus.html|Fieldbuses and Automation Networks]].
+  *[[network.html|Network Tools 1/2]].
+  *[[network02.html|Network Tools 2/2 - Communications Hardware, Communication Applications & Drivers]].
+  *[[rfid.html|Radio-Frequency Identification ( RFID )]].
+===== Frequencies =====
+  *2.4 Ghz -> Mostly normed wireless communications :-). Good range in US style ( "wooden" ) houses :-), weak range in European ( "stone & armored concrete" ) houses.
+  *868 Mhz -> Wireless M-Bus :-), KNX PLC  = KNX RF :-), but mostly proprietary wireless communications :-(, often due to "all inclusive service" service models of service providers. Acceptable range in European ( "stone & armored concrete" ) houses, higher range than with 2.4 Ghz.
+  *433 Mhz is "the future" from point of view of some technology experts.
+===== Protocols =====
+==== IEEE 802.11 ====
+=== Tools ===
+  *InSSIDer for Windows XP with .NET Framework 4.0.
+    *The commercial [[http://www.inssider.com/|InSSIDer]].
+    *The free [[http://www.chip.de/downloads/inSSIDer-Home-letzte-Freeware-Version_41273737.html|CHIP "inSSIDer Home (letzte Freeware-Version)"]].
+=== Resources ===
+  *[[http://en.wikipedia.org/wiki/Wi-Fi|EN.Wikipedia "IEEE 802.11"]], [[http://de.wikipedia.org/wiki/IEEE_802.11|DE.Wikipedia "IEEE 802.11"]].
+  *[[http://en.wikipedia.org/wiki/Wi-Fi|EN.Wikipedia "Wi-Fi"]], [[http://de.wikipedia.org/wiki/Wi-Fi|DE.Wikipedia "Wi-Fi"]].
+==== 6LoWPAN - IPv6 over Low Power Wireless Personal Area Network ====
+  *[[http://datatracker.ietf.org/wg/6lowpan/charter/|IETF "IPv6 over Low power WPAN (6lowpan)"]].
+  *[[http://www.6lowpan.net/|6LoWPAN - The Wireless Embedded Internet]].
+  *[[http://en.wikipedia.org/wiki/6LoWPAN|EN.Wikipedia "6LoWPAN"]], [[http://de.wikipedia.org/wiki/6LoWPAN|DE.Wikipedia "6LoWPAN"]].
+
+==== Bluetooth, Bluetooth Low Energy, Bluetooth Smart Ready ====
+=== Applie iBeacon ===
+== Events ==
+  *[[http://www.meetup.com/Hamburg-Titanium/events/197909352/|Meetup "Hamburg Titanium", Event "All about iBeacons"]], 2014-08-08.
+  *[[http://www.meetup.com/sokahh/events/198150892/|Meetup "Softwerkskammer Hamburg", Event "Code & Coffee - All about iBeacons"]], 2014-08-08.
+== Hardware ==
+  *Texas Instruments.
+    *[[http://processors.wiki.ti.com/index.php/Simplelink_SensorTag|Texas Instruments Processors Wiki "Simplelink SensorTag"]] - "The SensorTag now supports iBeacon technology!".
+    *[[http://www.ti.com/ww/en/wireless_connectivity/sensortag/index.shtml?INTC=SensorTag&HQS=sensortag|Texas Instruments "Connect your Bluetooth Smart product to an Android or iOS device"]] - "TI SensorTag now supports iBeacon technology".
+    *[[http://www.ti.com/tool/sensortag-sw|Texas Instruments "CC2541 SensorTag Software"]] -> "SENSORTAG-BEACON-FW: SensorTag source code for iBeacon -> REQUEST".
+      *"IMPORTANT - ONLY iBeacon license holders will be approved. NOTE: This is NOT the same as Apple MFI or Apple iOS developer program licenses. CONFIRM: Do you have an iBeacon license from Apple?"
+      *"Provide the ACCOUNT NUMBER for the COMPANY requesting access to the software. NOTE: Find this in the Company Info section under the License Info links in the iBeacon Portal at [[http://mfi.apple.com/|mfi.apple.com]]".
+  *[[http://www.beaconinside.com/|BEACONinside GmbH "BEACONinside - iBeacon Hardware & Software Solutions 'Made in Germany'"]].
+== Hardware Resources ==
+  *[[http://www.nodesagency.com/list-9-biggest-beacon-manufacturers/|Nodes "List of the 9 biggest Beacon manufacturers"]].
+== Applications ==
+  *[[http://play.google.com/store/apps/details?id=sample.ble.sensortag|Google Play "BLE SensorTag" by "Steven Rudenko"]].
+  *[[http://www.github.com/AppWerft/iBeacontest|GitHub "AppWerft/iBeacontest"]].
+== Resources ==
+  *iBeacons transmit a UID ( identical for all iBeacon items of  a project ), a major and minor number ( 64 values ), and an ( computed ) estimated range of the iBeacon from the interacting Smartphone. Just that. Its a helper service to supply "location based services".
+    *[[http://en.wikipedia.org/wiki/Location-based_service|EN.Wikipedia "Location-based service"]], [[http://de.wikipedia.org/wiki/Standortbezogene_Dienste|DE.Wikipedia "Standortbezogene Dienste"]].
+=== Cypress ===
+  *"CY8CKIT-042-BLE Bluetooth Low Energy Pioneer Development Kit" -> See [[arm.html|ARM Embedded Systems ( ARM7, ARM8, ARM9, ARM11, Cortex )]].
+=== Texas Instruments ===
+== Low Energy ==
+  *[[http://www.ti.com/ble|TI Bluetooth low energy Solutions]].
+  *[[http://www.ti.com/ble-wiki|TI Bluetooth low energy Wiki]].
+  *[[http://www.ti.com/ble-forum|TI Bluetooth low energy E2E Forum]].
+  *[[http://www.ti.com/sensortag|TI Bluetooth low energy SensorTag]].
+== Low Energy Tools ==
+  *[[http://www.ti.com/tool/ble-stack|Texas Instruments "Bluetooth low energy software stack and tools"]].
+== My CC2541 SensorTag Development Kit ==
+  *[[http://www.ti.com/sensortag|TI Bluetooth low energy SensorTag]].
+  *[[http://newscenter.ti.com/2013-07-29-TIs-SensorTag-app-for-Android-4-3-makes-Bluetooth-Smart-app-development-easy|Texas Instruments "TI's SensorTag app for Android™ 4.3 makes Bluetooth® Smart app development easy"]].
+  *[[http://www.ti.com/lsds/ti/wireless_connectivity/overview.page|Texas Instruments "Wireless Connectivity"]].
+    *[[http://www.ti.com/tool/cc2541dk-sensor|Texas Instruments "CC2541 SensorTag Development Kit"]].
+    *[[http://www.ti.com/ww/en/wireless_connectivity/sensortag/|Texas Instruments "Sensortag"]] - "Connect your Bluetooth low energy product to an Android or iOS smartphone".
+    *[[http://www.ti.com/ww/de/wireless_connectivity/sensortag/|Texas Instruments "Sensortag"]] - "Verbinden Sie Ihr Bluetooth Low Energy-Produkt mit einem Android- oder iOS-Smartphone".
+    *[[http://www.ti.com/tool/sensortag-sw|Texas Instruments "CC2541 SensorTag Software"]].
+      *Videos "Introduction to TI Bluetooth Low Energy for the IoT" and "SensorTag Introduction".
+    *[[http://processors.wiki.ti.com/index.php/Bluetooth_SensorTag|Texas Instruments Wiki "Bluetooth SensorTag"]].
+    *[[http://processors.wiki.ti.com/index.php/Category:BluetoothLE|Texas Instruments Wiki "Category:BluetoothLE"]].
+=== Linux ===
+  *[[http://www.bluez.org/|BlueZ]] - "Official Linux Bluetooth protocol stack".
+=== Events ===
+  *[[http://www.nordicsemi.com/|Nordic Semiconductor ASA]].
+    *[[http://www.nordicsemi.com/eng/News/News-releases/Product-Related-News/Nordic-Semiconductor-Global-Tech-Tour-to-help-embedded-systems-developers-build-connectable-wireless-Bluetooth-Smart-and-ANT-appcessories-in-a-day|Nordic Semiconductor Global Tech Tour]], 2013.
+=== Resources ===
+  *[[http://www.bluetooth.org/|Bluetooth]].
+    *[[http://developer.bluetooth.org/|Bluetooth Development Portal]].
+      *[[http://developer.bluetooth.org/gatt/|Bluetooth - GATT Specifications]].
+  *[[http://www.bluetooth.com/|Bluetooth Technology Website]].
+  *Bluetooth LE enabled devices and operating systems:
+    *Android 4.3 -> See [[android.html|Google Android]]. With earlier releases of Android, the hardware was Bluetooth LE ready, but not software-enabled.
+    *iPhone 4S, iPad2.
+    *Windows 8, but just if there is hardware support, which is not standard with notebooks or even desktop PCs -> See [[win7.html|Windows Vista, Windows 7, Windows Server 2008 and 2012, Windows 8]], [[windowsphone.html|Windows Phone]].
+  *[[http://en.wikipedia.org/wiki/Bluetooth|EN.Wikipedia "Bluetooth"]], [[http://de.wikipedia.org/wiki/Bluetooth|DE.Wikipedia "Bluetooth"]], [[metro.html|Flat Design]].
+
+==== EnOcean ====
+=== The EnOcean Allicance ===
+  *[[http://www.enocean.com/|EnOcean GmbH]].
+  *[[http://www.enocean-alliance.org/|EnOcean Alliance Inc.]].
+  *[[http://www.enocean-alliance.org/en/our_members/|EnOcean Alliance Inc. - Our Members]] - Promoters, Participants, Associate Members.  
+  *[[http://www.enocean-alliance.org/de/enocean_standard/|EnOcean-Funkstandard]] -> "Enocean Equipment Profile".
+=== Partners ===
+  *[[http://www.wago.com/|WAGO Kontakttechnik GmbH & Co. KG]].
+  *[[http://www.osram.de/|OSRAM GmbH]].
+  *[[http://www.peha.de|PEHA Paul Hochköpper GmbH & Co.KG]].
+  *[[http://www.steute.de/|.steute Schaltgeräte GmbH & Co. KG]].
+  *[[http://www.thermokon.de/|Thermokon Sensortechnik GmbH]].
+=== Associates ===
+  *At the "Funk-Roadshow 2011" on 2011-11-15 in Hamburg, all participants were invited to become sponsored "EnOcean Associate" for 2 years. To apply for this sponsored membership at [[http://www.enocean-alliance.org/application_form/|EnOcean Alliance Application Form]], select "Application as = 'Associate'" and at "Sponsored by:", please enter "Roadshow 2011".
+    *Regularly, the membership fee as "Associate" is $500 ( USD) for 2 years. 
+    *So if your business partnership should not result in a monetary benefit :-), be shure to cancel the free membership in time.
+    *Remember "Fees apply ... from date of registration". If you do not cancel the membership, you wll pay $500 for the 3rd. and 4th. year, and furtheron.
+    *The contract documents in German language do not contain:
+      *A return address of the organization. It is just printed on the website ( postal address, FAX telephone number, E-Mail ).
+      *A "period of cancellation" ( "Kündigungsfrist" ).
+      *The required form of a membership cancellation ( e.g. just cancellation by a paper letter and FAX letter, or even by E-Mail ? ) :-(. 
+    *However, the German contract documents contain severe typing mistakes ( "Einschräkungen" ), and part of the German contract text is written in captalized letters, which makes it hard to read even for German natives :-(.
+=== Events ===
+  *[[http://wago.de/de/wago/beratungundsupport/veranstaltungen/informationstage__roadshows/tab_uebersicht_112/informationstage___roadshows.jsp|WAGO Kontakttechnik "Messen und Veranstaltungen"]] - Event "Funk-Roadshow 2011", 2011-11-15 in Hamburg, Germany.
+=== Supervisory Home Control of EnOcean-enabled Buildings ===
+  *The commercial software [[http://myhomecontrol.ch/|BootUp GmbH  "myHomeControl"]] for Windows with .NET 2.0 - "A building/home automation system with build in visualisation and control capabilities designed for the use of EnOcean based devices".
+=== Resources ===
+  *[[http://www.arroweurope.com/de/maerkte-loesungen/loesungen/energy-harvesting.html|Arrow Europe "Märkte & Lösungen / Lösungen / Energy Harvesting"]].
+  *[[http://en.wikipedia.org/wiki/Energy_Harvesting|EN.Wikipedia "Energy Harvesting"]], [[http://de.wikipedia.org/wiki/Energy_Harvesting|DE.Wikipedia "Energy Harvesting"]].
+  *[[http://en.wikipedia.org/wiki/Ecodesign|EN.Wikipedia "Ecodesign"]], [[http://de.wikipedia.org/wiki/Ecodesign|DE.Wikipedia "Ecodesign"]].
+==== KNX-RF ====
+  *[[http://www.knx.org/|KNX Association]].
+    *[[http://en.wikipedia.org/wiki/European_Installation_Bus|EN.Wikipedia "KNX (standard)"]], [[http://en.wikipedia.org/wiki/Instabus|EN.Wikipedia "Instabus"]] = "European Installation Bus" (EIB).
+  *[[http://bugs.freebus.org/projects/fup/wiki/Technische_Einzelheiten_zu_KNX-RF|Freebus-RF "Technische Einzelheiten zu KNX-RF"]].
+  *[[http://www.weinzierl.de/de/development/knx_stack_rf.html|Weinzierl Engineering GmbH "KNX Stack Funk (KNX-RF)"]] - "Atmel ATmega, Atmel ATxmega, Atmel ARM7 (z.B. SAM7), Silicon Labs Si100x single-chip (8051 & Transceiver), Texas Instruments MSP430".
+=== LoRa ===
+  *[[http://www.semtech.com/|Semtech Corporation]].
+    *[[http://www.semtech.com/wireless-rf/iot.html|Semtech Internet of Things (IoT)]].
+  *[[http://en.wikipedia.org/wiki/Semtech|EN.Wikipedia "Semtech"]].
+==== Qi ====
+  *[[http://en.wikipedia.org/wiki/Qi_%28inductive_power_standard%29|EN.Wikipedia "Qi (inductive power standard)"]], [[http://de.wikipedia.org/wiki/Qi_%28induktive_Energie%C3%BCbertragung%29|DE.Wikipedia "Qi (induktive Energieübertragung)"]].
+==== Wireless M-Bus ====
+  *[[http://www.m-bus.com/|M-Bus]].
+  *The OpenSource Java library [[http://www.openmuc.org/index.php?id=19|openMUC "jMBus"]].
+  *[[http://en.wikipedia.org/wiki/Meter-Bus|EN.Wikipedia "Meter-Bus"]], [[http://de.wikipedia.org/wiki/M-Bus_%28Feldbus%29|DE.Wikipedia "M-Bus (Feldbus)"]].
+  *[[http://www.elektroniknet.de/kommunikation/technik-know-how/kommunikations-module-u-systeme/article/1530/0/Wireless-M-Bus__der_neue_Smart-Metering-Standard/|elektroniknet.de "Wireless-M-Bus – der neue Smart-Metering-Standard?"]], 2009-09-29.
+  *Texas Instruments.
+    *[[http:///www.ti.com/wirelessconnectivity|Texas Instruments "Wireless Connectivity"]], [[http:///www.ti.com/lprf|Texas Instruments "Wireless Connectivity"]].
+    *The affordable [[http://www.ti.com/tool/cc1120dk|Texas Instruments "Performance Line Development Kit"]] is shipped with 2 "SmartRF Transceiver" modules for 868 Mhz #.
+    *[[http://www.ti.com/tool/wmbus|Texas Instruments "Wireless M-Bus protocol software"]].
+      *"The physical layer and the data link layer of KNX-RF were defined jointly with the wireless MBUS standard, and S-mode complies with the KNX-RF standard".
+    *TI already may provide a Wireless M-Bus stack for some of its hardware products, by special request.
+==== ZigBee ====
+  *[[http://de.wikipedia.org/wiki/ZigBee|EN.Wikipedia "ZigBee"]], [[http://de.wikipedia.org/wiki/ZigBee|DE.Wikipedia "ZigBee"]].
+  *The ZigBee V1.0 specifications do not define an IP-based protocol, in favour of little bandwidth.
+  *The ZigBee Smart Energy V2.0 specifications define an IP-based protocol.
+==== Z-Wave ====
+  *[[http://www.z-wavealliance.org/|Z-Wave Alliance]].
+    *[[http://www.z-wave.com/|Z-Wave.com - ZwaveStart]].
+    *[[http://en.wikipedia.org/wiki/Z-Wave|EN.Wikipedia "Z-Wave"]], [[http://de.wikipedia.org/wiki/Z-Wave|DE.Wikipedia "Z-Wave"]].
+===== Experts and Expert Publications =====
+  *[[http://www.imst.com/|IMST GmbH]] - Wireless, WiFi, Zigbee & Bluetooth experts.
+  *Publication [[http://www.mdpi.com/2224-2708/2/3/589|Konstantin Mikhaylov, Nikolaos Plevritakis, Jouni Tervonen "Performance Analysis and Comparison of Bluetooth Low Energy with IEEE 802.15.4 and SimpliciTI"]].
+
+===== Books =====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1596937181/hemmerling-21|Stephen Beeby, Neil White: "Energy Harvesting for Autonomous Systems (Smart Materials, Structures, and Systems)"]].
+  *The commercial book [[http://www.steute.com/de/news/wireless/article/das-funkbuch-wissenswertes-zu-funktechnologien.html|.steute, Wolfgang Gebhardt, Jörg F. Wollert "Das Funkbuch: Wissenswertes zu Funktechnologien"]]. As participant of the "Funk-Roadshow 2011", I got an item for free :-).
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/013288836X/hemmerling-21|Robin Heydon: "Bluetooth Low Energy: The Developer's Handbook"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0521760690/hemmerling-21|Nick Hunn: "Essentials of Short-Range Wireless (The Cambridge Wireless Essentials Series)"]].
+
+===== Resources =====
+  *[[http://en.wikipedia.org/wiki/Comparison_of_wireless_data_standards|EN.Wikipedia "Comparison of wireless data standards"]].
+===== Forums, Newsgroups =====
+  *[[http://developer.bluetooth.org/Community/SitePages/Community%20Home.aspx|Bluetooth Community Forum]].
+
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Data_Communications/Wireless/|OpenDirectory "Top: Computers: Data Communications: Wireless"]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Netzwerk/Wireless/|OpenDirectory "Top: World: Deutsch: Computer: Netzwerk: Wireless"]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Internet/Zugang/Wireless/|OpenDirectory "Top: World: Deutsch: Computer: : Internet
+: Zugang: Wireless"]].
+{{tag>wireless network}}
+<footnote_navi_en>

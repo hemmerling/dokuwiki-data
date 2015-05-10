@@ -1,0 +1,81 @@
+====== [hemmerling] Booting from Devices ======
+Related page:
+  *[[ddl.html|Device Description Languages and Device Parameterization]].
+===== Remote Boot of Think Clients ( with OS or Thin Client Firmware ) ====
+==== Remote Boot of Think Clients ( with Linux or Thin Client Firmware ) ====
+  *[[http://web.archive.org/web/*/http://www.freebsd.org/doc/en_US.ISO8859-1/articles/diskless-x/|FreeBSD, Jerry Kendall "Diskless X Server: a how to guide"]].
+  *Wiki [[http://www.etherboot.org/|Etherboot/gPXE Wiki]] - "gPXE is an open source (GPL) network bootloader".
+  *[[http://www.linuxdoc.org/HOWTO/Network-boot-HOWTO/|linuxDoc.org HowTo "Network-boot-HOWTO"]].
+  *[[http://netboot.sourceforge.net/|SourceForge "Netboot"]], [[http://www.sourceforge.net/projects/netboot|SourceForge "Netboot"]] - "It allows to remote boot a computer over an IP network without access to a hard disk or a diskette. It is therefore ideally suited for diskless or thin clients using an x86 processor".
+  *[[http://web.archive.org/web/*/http://www.luv.asn.au/overheads/netboot/|Archive.org "Victoria Compilation: Net Boot and Diskless Workstations. Using Netboot, Linux and X window system"]] ( - 2003-12-05 ).
+  *[[http://web.archive.org/web/*/http://www.linuxfocus.org/English/September1998/article63.html|Archive.org "Ken Yap: An Introduction to Network Booting and Etherboot"]] ( - 2002-02-08 ).
+==== Remote Boot of Think Clients ( with Windows ) ====
+  *[[https://web.archive.org/web/20070912203408/http://www.appdeploy.com/articles/bootfloppy1.asp|Archive.org "AppDeploy.com -  Step-by-Step: Creating a Network Boot Disk Using Windows NT's Network Client Administrator"]] ( - 2007-09-12 ).
+  *[[http://web.archive.org/web/*/http://www.appdeploy.com/comparisons/networkbootdiskutil/|Archive.org "AppDeploy.com - Network Boot Disks"]].
+  *[[http://home.earthlink.net/~jdbryan/directboot.html|J. David Bryan "Direct Boot Into WinNT/Win95/DOS"]].
+  *[[http://home.earthlink.net/~jdbryan/ntfs-dual-boot.html|J. David Bryan "Dual-booting Windows NT and DOS/Win95. When C: Is NTFS"]].
+  *[[http://www.winimage.com/bootpart.htm|BootPart 2.60: Boot Partitions for WinNT]].
+
+===== Linux Boot Loaders, Boot CDs, Boot Disks Tools =====
+  *[[http://www.barebox.org/|Barebox]] - "Formerly known as U-Boot 2".
+  *[[http://en.wikipedia.org/wiki/Coreboot|EN.Wikipedia "coreboot"]], [[http://de.wikipedia.org/wiki/Coreboot|DE.Wikipedia "coreboot"]] - X86 BIOS replacement.
+  *[[http://en.wikipedia.org/wiki/GRUB|EN.Wikipedia "GNU GRUB"]], [[http://de.wikipedia.org/wiki/GRUB|DE.Wikipedia "GNU GRUB"]].
+  *OpenFirmware:
+    *[[http://en.wikipedia.org/wiki/Open_Firmware|EN.Wikipedia "Open Firmware"]], [[http://de.wikipedia.org/wiki/Open_Firmware|DE.Wikipedia "Open Firmware"]] -  "Forth language shell interface".
+    *Linux Device Tree / Flattened Device Tree ( FDT ) -> See [[ddl.html|Device Description Languages and Device Parameterization]].
+  *[[https://www.sourceware.org/redboot/|RedBoot]].
+  *[[http://www.ultimatebootcd.com/|Ultimate Boot CD]].
+  *U-Boot.
+    *Due to copyright issues, never forget the "-" in "U-Boot" :-).
+    *[[http://u-boot.sourceforge.net/|SourceForge "Das U-Boot - Universal Bootloader"]], [[http://www.sourceforge.net/projects/u-boot/|SourceForge "Das U-Boot - Universal Bootloader"]].
+    *[[http://www.denx.de/|DENX Software Engineering]].
+      *[[http://git.denx.de/|Git repository of DENX Software Engineering]].
+      *Wiki [[http://www.denx.de/wiki/|The DENX U-Boot and Linux Guide (DULG)]].
+        *[[http://www.denx.de/wiki/U-Boot|The DENX U-Boot and Linux Guide (DULG) "Das U-Boot -- the Universal Boot Loader"]].
+    *[[http://en.wikipedia.org/wiki/Das_U-Boot|EN.Wikipedia "Das U-Boot"]], [[http://de.wikipedia.org/wiki/Das_U-Boot|DE.Wikipedia "Das U-Boot"]].
+    *The U-Boot shell is based on [[http://en.wikipedia.org/wiki/Almquist_shell|EN.Wikipedia "Almquist shell"]].
+    *The file systems EXT2 and FAT are supported by U-Boot, natively.
+
+===== Windows =====
+==== (Windows)ISO-2-USB Installers ===
+  *Hewlett Packard ROMPaq.
+    *[[http://h20000.www2.hp.com/bizsupport/TechSupport/SoftwareDescription.jsp?swItem=ob-67085-1|Hewlett-Packard "ROMPaq für HP Notebook System-BIOS (68YTT) - FreeDOS Bootable Media]].
+    *The free [[http://www.chip.de/downloads/HP-USB-Disk-Storage-Format-Tool_23418669.html|CHIP Online "HP USB Disk Storage Format Tool"]].
+      *The free [[http://www.chip.de/downloads/USB-DOS_36233249.html|CHIP Online "USB-DOS"]] -> MSDOS of WinME.
+  *The free software [[http://www.microsoftstore.com/store/msstore/html/pbPage.Help_Win7_usbdvd_dwnTool|Microsoft Store "USB/DVD-Downloadtool für Windows 7"]] enables you to install Win7 from an ISO image on a USB stick of 4 GB size.
+    *[[http://www.microsoft.com/de-de/download/details.aspx?id=17073|Microsoft Download "Windows Image Mastering API v2.0 (IMAPIv2.0) für Windows XP (KB932716)"]].
+  *The OpenSource [[http://win32diskimager.sourceforge.net/|SourceForge "Win32DiskImager"]], [[http://www.sourceforge.net/projects/win32diskimager/|SourceForge "Win32DiskImager. This tool is used for writing images to USB sticks or SD/CF cards"]].
+==== (Linux)ISO-2-USB Installers ===
+  *The free software [[http://www.linuxliveusb.com/|LinuxLive USB Creator]] for Windows.
+  *[[http://www.pendrivelinux.com/|Pendrivelinux.com - Easily run Linux from a portable USB Device]], [[http://pendrivelinux.sourceforge.net/|SourceForge "Pendrivelinux"]], [[http://www.sourceforge.net/projects/pendrivelinux/|SourceForge "Pendrivelinux"]].
+    *The free [[http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/|Pendrivelinux "Universal USB Installer (UUI)"]] for Windows - "A Live Linux USB Creator that allows you to choose from a selection of Linux Distributions to put on your USB Flash Drive".
+      *WUBI is installed on the USB stick for booting Linux.
+    *[[http://www.dedoimedo.com/computers/pendrivelinux.html|Dedoimedo - A place to learn a about a lot! "Pendrivelinux - Be cool anywhere you go"]], 2008-04-05.
+  *The OpenSource [[http://unetbootin.sourceforge.net/|SourceForge "UNetbootin"]], [[http://www.sourceforge.net/projects/unetbootin/|SourceForge "UNetbootin, Universal Netboot Installer. Bootable Live USB Creator"]] for Windows and Linux.
+=== Some other Software Tools ===
+  *[[http://www.alex-is.de/PHP/fusion/downloads.php|Alex Intelligent Software "AS SSD Benchmark"]] - "Ermittelt die Performance von Solid State Drives (SSD)".
+  *[[http://www.nirsoft.net/|Nirsoft]] by Nir Sofer.
+    *[[http://www.nirsoft.net/utils/usb_devices_view.html|Nirsoft "USBDeview"]] - View all installed/connected USB devices on your system.
+===== Resources =====
+==== Boot Loaders ====
+  *[[http://www.bootdisk.info/|bootdisk.info]], [[http://www.bootcd.info/|bootcd.info]] - "The web resource for bootable Media".
+  *[[http://buildroot.uclibc.org/|Buildroot]] - "Making Embedded Linux Easy. Buildroot is a simple, efficient and easy-to-use tool to generate embedded Linux systems through cross-compilation".
+  *"Device Tree".
+    *On the ARM target, the most important change from Linux 3.0 ( 2011 ) to Linux 3.10 ( 2013 ) was the implementation of a "Device Tree" for standardisation of SOC / ARM hardware drivers.
+    *[[http://www.devicetree.org/|FDTWiki]].
+      *"Flattened Device Tree ( FDT )"
+      *"Device Tree".
+    *[[http://en.wikipedia.org/wiki/Device_tree|EN.Wikipedia "Device tree"]].
+    *[[http://en.wikipedia.org/wiki/Open_Firmware|EN.Wikipedia "Open Firmware"]], [[http://de.wikipedia.org/wiki/Open_Firmware|DE.Wikipedia "Open Firmware"]].
+  *[[http://en.wikipedia.org/wiki/Comparison_of_boot_loaders|EN.Wikipedia "Comparison of boot loaders"]], [[http://de.wikipedia.org/wiki/Bootloader|DE.Wikipedia "Bootloader"]].
+  *[[http://en.wikipedia.org/wiki/Booting|EN.Wikipedia "Booting"]], [[http://de.wikipedia.org/wiki/Booten|EN.Wikipedia "Booten"]].
+==== (Linux)ISO-2-USB ====
+  *During installation of Linux to boot from USB, please set "Persistence = 0 to x Mbytes" for successful operation on computers with SDD disks, e.g. ASUS Eee PC 901.
+  *You must enable the "Autorun" function ( in the settings of security and antivirus software like [[http://www.avira.com/de/avira-free-antivirus|Avira Free Antivirus]] ) for proper operation of this software. Or you must disable the security and antivirus software totally for operation of ISO-2-USB transfers.
+  *[[http://www.lidux.de/|Lidux - Das Linux-Infoportal]].
+    *[[http://www.lidux.de/ubuntu-usb-stick-installieren-creator/|Lidux - Das Linux-Infoportal "Ubuntu auf USB-Stick installieren (unter Windows mit Live Linux USB Creator)"]].
+    *[[http://www.lidux.de/ubuntu-1210-auf-usb-stick-installieren/|Lidux - Das Linux-Infoportal "Ubuntu 12.10 auf USB-Stick installieren (unter Ubuntu)"]].
+==== (Windows)ISO-2-USB ====
+  *You must enable the "Autorun" function ( in the settings of security and antivirus software like [[http://www.avira.com/de/avira-free-antivirus|Avira Free Antivirus]] ) for proper operation of this software. Or you must disable the security and antivirus software totally for operation of ISO-2-USB transfers.
+{{tag>booting boot usb linux windows}}
+<footnote_navi_en>

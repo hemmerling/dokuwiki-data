@@ -1,0 +1,15 @@
+====== [hemmerling] Webcam - Live Video Broadcasting ( Java ) ======
+<PHP>
+echo '<APPLET codebase="'.wl($ID,'',true).'../wikidata/media/java/webcam32/" code="JavaCam.class" width="320" height="240"><PARAM name="url" value="'.wl($ID,'',true).'../wikidata/media/webcam/webcam.jpg"><PARAM name="interval" value="1">Please enable JAVA !</APPLET>';
+</PHP>
+This page is dedicated to display live broadcastings from events, fairs and congresses, e.g. from a webcam mounted on a fair booth. Events and the time of day of live webcam broadcasting will always be published here. If the webcam image does not change, (probably) there is no event with live broadcasting.
+
+{{tag>webcam}}
+
+<footnote_navi_en>
+
+This document is available in [[de:jwebcam.html|{{flags:de.png|german}}]] language, too ! 
+
+
+
+

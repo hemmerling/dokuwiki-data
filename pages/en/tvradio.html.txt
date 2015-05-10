@@ -1,0 +1,85 @@
+====== [hemmerling] TV & Radio ======
+===== Software for Windows PCs with TV Card =====
+==== TC Unterhaltungselektronik AG "Tvoon Media Center" ====
+  *TC Unterhaltungselektronik AG -> See [[iptv.html|IPTV ( Internet Protocol Television ) and ITV ( Interactive TV )]].
+  *The free [[http://www.tvoon.org/|Tvoon Media Center]], [[http://www.tvoon.de/|Tvoon Media Center]] for WinXP.
+    *[[http://portal.tvoon.org/|Tvoon Portal]], [[http://www.software-manager.com/|SOftware TAnkstelle]], [[http://www.tvoon.de/support/|Tvoon Media Center - Support TVOON]].
+    *[[http://download.tvoon.de/|Tvoon Media Center - Download]].
+    *[[http://wayback.archive.org/web/*/http://www.tvoon.org/|Archive.org "tvoon.org"]],[[http://wayback.archive.org/web/*/http://www.tvoon.de/|Archive.org "tvoon.de"]], [[http://wayback.archive.org/web/*/http://download.tvoon.de/|Archive.org "Tvoon Media Center - Download"]], [[http://wayback.archive.org/web/*/http://www.werbesignal.dyndns.org/Werbesignal_client.php|Archive.Org "werbesignal.dyndns.org - Der Test-Server der Werbesignale von TC Unterhaltungselektronik AG"]].
+  *Necessary extra downloads: 
+    *[[http://www.microsoft.com/download/en/details.aspx?DisplayLang=en&id=18909|Microsoft Download Center "Platform SDK Redistributable: GDI+"]].
+    *DirectX -> see [[3dframeworks.html|3D Graphics Frameworks]].
+  *References.
+    *[[http://www.freewareseek.com/publishers/7501/|FreewareSeek.com - The Place for Software #1 in the Net "TC Unterhaltungselektronik AG"]].
+==== Some other free TV Software for Windows PCs with TV Card ====
+  *[[http://onlinetv.flatserv.de/|concept/design "onlineTV"]] for Windows.
+==== Some other commercial TV Software for Windows PCs with TV Card ====
+  *[[http://www.sage.tv/|Sage "SageTV"]].
+    *The commercial SageTV Client and SageRecorder, a Java software for TV cards with WDM drivers.
+    *SageTV has been acquired by Google, in 2011 ( 2011-06-20 ).
+===== Multi-Platform Home Theatre Software  =====
+  *[[http://www.xbmc.org/|XBMC]] for Windows, Linux.
+    *[[http://en.wikipedia.org/wiki/XBMC|EN.Wikipedia "XBMC"]], [[http://de.wikipedia.org/wiki/XBMC|DE.Wikipedia "XBMC"]].
+===== Settop Boxes for TV, TV Services & Multimedia Integration into a Home Network =====
+==== Wireless TV Broadcasting Devices ====
+  *[[http://www.pctvsystems.com/|PCTV Broadway 2T]] -Wireless Streaming of DVB-T TV in a WLAN.
+  *[[http://www.slingmedia.com/go/hardware|Sling Media "Slingbox"]].
+    *"With the Slingbox SOLO, your customers never need to miss their home TV shows, regardless of where they are. The Slingbox SOLO easily connects to practically any A/V source and delivers standard-definition (SD) content to a PC, Mac, tablet or smartphone, from anywhere in the world".
+    *"The Slingbox 700U enables television service providers to quickly make an IP-enabled set-top box SlingLoaded. With SlingLoaded technology viewers can watch their video content in high-definition (HD) on a laptop or desktop computer, anywhere in the world".
+==== SAT & Cable-TV Receivers ====
+  *[[http://www.humax-digital.de/products/product_stb_satellite_hd-foxplus.asp|HUMAX HD-FOX+]] - "vorbereitet für externe TV-Aufnahmen über USB Ausgang".
+  *The digital SAT recording receivers [[http://www.humax-digital.de/products/product_stb_satellite_icordhd.asp|HUMAX iCord HD]].   
+  *The digital SAT & Cable TV recording receivers [[http://www.dream-multimedia-tv.de/|Dream Multimedia GmbH "Dreambox"]].
+  *The digital SAT & Cable TV recording receivers  [[http://www.vantage-digital.com/|VANTAGE Digital GmbH]].
+==== TV Sets ====
+  *[[http://www.samsung.com/us/video/tvs/LN32C450E1DXZA|SAMSUNG "32" Class (31.5" Diag.) 450 Series 720p LCD HDTV (2010 model)"]].
+    *[[http://www.hifi-forum.de/viewthread-151-1143.html|HIFI-Forum "Samsung LE R71B: Kompletter Reset auf Werkseinstellungen?"]].
+    *[[http://www.gutefrage.net/frage/samsung-fernseher-pin-zuruecksetzten|Gute Frage "Samsung Fernseher Pin zurücksetzten"]].
+
+^ ^ ^ ^^ ^
+^ # ^ Action ^ Sequeence of Commands on the Remote Control^^ Comments ^
+^ A ^ Factory Reset | 1 | Press "Power on" | TV must be running. TV must not be in Standby Mode |
+^ ::: ^ | 2 | Press "Exit" for 20 seconds | Message "Resets all settings to default values", with options "ok" and "cancel" |
+^ ::: ^ | 3 | Select "ok" by pressing "<" or ">" of the selection wheel | Warning, It might be risky to do so with a TV set which might be specially prepared for a commercial environment ( hotel, shop,.. ) |
+^ ::: ^ | 4 | Press "Return" | |
+^ ::: ^ | 5 | Press "Power on" | Enter Standby Mode |
+^ B ^ Enter the Service Menu  | 1 | Standby Mode | |
+^ ::: ^ | 2 | Press "info" | |
+^ ::: ^ | 3 | Press "menu" | |
+^ ::: ^ | 4 | Press "mute" | |
+^ ::: ^ | 5 | Press "Power on"  | You are now in the Service Menu |
+^ ::: ^ | 6 | | Edit Service Menu settings. In many cases, changes have to be acknowledged by pressing "Return" after the change |
+^ ::: ^ | 7 | Press "Power on" | Leave Service Menu |
+^ C ^ Disable/enable Hotel Option | 1 | Do a "Factory Reset"  | See (A) |
+^ ::: ^ | 2 | Enter the Service Menu | See (B) |
+^ ::: ^ |   | <del>Select "option", "Factory Reset"</del> | You might do a Factory Reset from here |
+^ ::: ^ | 3 | Select "Control" | |
+^ ::: ^ | 4 | Select "Hotel Option" | |
+^ ::: ^ | 5 | Press "<" or ">" of the selector wheel to select an option | Select Hotel Option "on" or "off"  |
+^ ::: ^ | 6 | Press "Return" | Important: Just by pressing "Return", the change is acknowledged |
+^ ::: ^ | 7 | Press "Power on" | Enter Standby Mode |
+^ D ^ Set TV channels | 1 | Factory Reset and disable Hotel Option | See (C) |
+^ ::: ^ | 2 | Press "menu" | |
+^ ::: ^ | 2 | Press "menu" | |
+^ ::: ^ | 3 | Select "Plug & Play" | Message "If you enter PIN, 'Plug & Play' will be started' |
+^ ::: ^ | 4 | Enter PIN | The PIN after Factory Rest is 0, 0, 0, 0 |
+^ ::: ^ | 5 | Press "Enter" | |
+^ ::: ^ | 6 | Press "Power on" | Enter Standby Mode |
+^ ::: ^ | 7 |  | if you are editing a public TV set like in a hotel: Be shure to enable Hotel Option if it was originally enabled :-). See (C) |
+^ | | || |
+
+
+===== Some other TV Ad-Breakers =====
+  *[[http://www.adkiller.de/|cy.control GmbH "TVsweeper"]].
+  *"TV-Switch" by "Art On CD GmbH".
+    *[[http://www.digitalfernsehen.de/news_4644.html|DIGITALfernsehen ""TV-Sender wehren sich gegen Werbeausblendung"]], 2004-01-15.
+    *[[http://www.urheberrecht.org/news/?id=1666|Institut für Urheber- und Medienrecht "LG Berlin untersagt Ausblendung und inhaltliche Neubelegung von Werbeblöcken"]], 2004-01-15.
+    *[[http://www.quotenmeter.de/cms/?p1=n&p2=4320&p3=|Quotenmeter.de "Einstweilige Verfügung gegen Art on CD"]], 2004-01-15.
+  *[[http://www.aiwa.com/|AIWA]], VHS video recorder "HV-FX5950" and VHS video recorder "HV-FX7950": Feature "cm-skip" ( jump to the end of TV advertising spots, during playback ).
+===== Resources =====
+
+===== Forums, Newsgroups =====
+  *[[http://www.dvbshop24.com/|DVBShop24: User4User - User helfen Usern, DVB Support Forum. Support Forum for Anysee, TechnoTrend, TeVii, Mystique and many others ..]].
+
+{{tag>TV radio tv-card}}
+<footnote_navi_en>

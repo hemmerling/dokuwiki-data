@@ -1,0 +1,211 @@
+====== [hemmerling] National Instruments ( Labview, DIAdem )======
+Related Pages:
+  *[[infographics.html|Data Visualisation with Infographics]].
+  *[[instrumentation.html|Instrumentation]].
+  *[[mathengineering.html|Mathematical Engineering]].
+  *[[mathworks.html|MathWorks ( MATLAB / Simulink )]].
+  *[[mathcad.html|PTC Mathcad]].
+  *[[simulate.html|Simulation]].
+===== National Instruments =====
+==== General Informations ====
+  *[[http://www.ni.com/|National Instruments]], [[http://www.ni.com/germany/|National Instruments Germany]].
+  *[[http://zone.ni.com/|National Instruments - Developer Zone]].
+  *[[http://digital.ni.com/worldwide/germany.nsf/web/all/B37CF0803C2BE86B80256CD90035A238|National Instruments Germany, Seminarunterlagen]]. 
+  *[[http://www.nxtbook.com/nxtbooks/ni/catalog2007/|National Instruments - Measurement and Automation Catalog 2007]] - outdated interactive FLASH catalog, of 2007.
+  *[[http://www.ni.com/devzone/idnet/|National Instruments - Instrument Driver Network]] - database for downloadable drivers of more than 8000 instrumentation devices.
+  *[[http://www.ni.com/webcasts|National Instruments - Webcasts]].
+  *[[http://www.ni.com/german/webcasts|National Instruments, Germany - Webcasts]].
+  *[[http://www.learnni.com/|LearnNI - NI Getting Started Microsite]] - "Automated Test", "Data Acquisition", "RF and Wireless", "Embedded Systems" "Academic" "LabVIEW".
+==== LabVIEW ====
+  *[[http://www.ni.com/labview/|National Instruments Labview]], [[http://www.ni.com/labview/d|National Instruments Labview, Germany]].
+  *[[http://www.ni.com/largeapps/|National Instruments "Advanced Application Development with LabVIEW"]].
+  *[[http://zone.ni.com/|National Instruments - Developer Zone]].
+    *[[http://www.ni.com/labview/community|National Instruments Labview - LabVIEW Zone Community]].
+  *[[http://decibel.ni.com/content/docs/DOC-1341|National Instruments Community - LabVIEW Student Edition Textbook]] - "Download the complete 'LabVIEW 8 Learning Directory' here".
+  *[[http://digital.ni.com/demo.nsf/websearch/CE34B1339DE04F2086256E930074129F?OpenDocument&node=1381_US|National Instruments "LabVIEW Evaluation"]] - "Download LabVIEW", "Request a LabVIEW Evaluation DVD".
+  *[[http://www.ni.com/labviewtools/|National Instruments "LabVIEW Tools Network"]] - The "NI Appstore" :-), "The Store for the VI Package Manager" :-).
+  *The free [[http://sine.ni.com/nips/cds/view/p/lang/de/nid/211922|National Instruments "LabVIEW Instrument Driver Development Studio"]] - "Entwickeln plug-and-play-fähiger Messgerätetreiber für LabVIEW".
+    *[[http://decibel.ni.com/content/message/44721|National Instruments Community "NI LabVIEW Instrument Driver Development Studio 1.1 Discussion Thread"]].
+  *[[http://www.ni.com/downloads/instrument-drivers/d/|National Instruments "Gerätetreiber von Drittanbietern"]].
+  *[[http://www.ni.com/academic/students/learn/|National Instruments "Self-Paced Video Training for Students"]].
+==== DIAdem ====
+  *[[http://www.ni.com/diadem/|National Instruments "DIAdem"]].
+==== Data plugins & TDM  ====
+  *[[http://www.ni.com/dataplugins|National Instruments - NI Developer Zone "DataPlugins: Supported Data Formats (ni.com/dataplugins)"]], [[http://zone.ni.com/devzone/cda/tut/p/id/4065|National Instruments - NI Developer Zone "DataPlugins: Supported Data Formats (ni.com/dataplugins)"]].
+  *[[http://zone.ni.com/devzone/cda/tut/p/id/4906|National Instruments - NI Developer Zone "TDM Excel Add-In Tool for Microsoft Excel User Guide"]].
+  *[[http://zone.ni.com/devzone/cda/epd/p/id/2944|National Instruments - NI Developer Zone "TDM Excel Add-In for Microsoft Excel Download"]].
+  *[[http://zone.ni.com/devzone/cda/tut/p/id/3727|National Instruments - NI Developer Zone "The NI TDMS File Format"]].
+  *[[http://zone.ni.com/devzone/cda/epd/p/id/4181|National Instruments - NI Developer Zone "Loading Data with a DataPlugin Within LabVIEW"]].
+==== NI-DAQ & NI-DAQmx ====
+  *[[http://joule.ni.com/nidu/cds/fn/p/sn/n23:3478/lang/en|National Instruments "NI Drivers and Updates"]] - free measurement services software, just for current NI hardware, with the option to emulate NI hardware.
+  *[[http://www.ni.com/dataacquisition/d/nidaqmx.htm|National Instruments "NI-DAQmx"]].
+    *[[http://joule.ni.com/nidu/cds/view/p/id/950/|National Instruments "NI-DAQmx 8.6.1 - Windows 2000/XP/Vista x86/Vista x64"]].
+    *Windows98SE was supported by NI-DAQmx 7.1 and earlier.
+  *[[http://sine.ni.com/nips/cds/view/p/nid/14914|National Instruments "Traditional NI-DAQ (Legacy)"]] 7.4.4 - free measurement services software, just for legacy NI hardware.
+  *[[http://sine.ni.com/nips/cds/view/p/nid/14480|National Instruments "NI-DAQmx Base"]] - free measurement services software, just for USB und PCMCIA NI hardware.
+  *[[http://zone.ni.com/devzone/cda/tut/p/id/3698|National Instruments, NI Developer Zone "NI-DAQmx Simulated Devices"]].
+==== National Instruments on Linux ====
+=== NI Linux Real-Time ===
+  *[[http://www.ni.com/linux/|National Instruments "National Instruments und Linux"]].
+  *[[http://www.ni.com/compactriodevguide/|National Instruments "NI LabVIEW for CompactRIO Developer's Guide"]] - "It provides an overview of recommended architectures and development practices when programming NI CompactRIO controllers. Intended as complementary material to standard LabVIEW Real-Time Module and LabVIEW FPGA Module training, this guide features documentation and examples as a framework for designing industrial control and monitoring applications".
+=== Linux on 80x86 Desktop PCs ===
+  *[[http://www.comedi.org/|Comedi - Linux Control and Measurement Device Interface]].
+  *[[http://digital.ni.com/public.nsf/allkb/B799ECFA57266A2986256974005482C6|National Instruments "What are the Edaq, COMEDI, DAQmx, and DAQmx Base Data Acquisition Drivers for Linux?"]].
+  *[[http://zone.ni.com/devzone/cda/tut/p/id/3695|National Instruments, NI Developer Zone "NI-DAQmx for Linux Frequently Asked Questions"]].
+==== Teststand ====
+  *[[http://www.ni.com/teststand/|National Instruments "TestStand"]] - Testing of hardware in testbed / teststand, for use with LabVIEW. This isn't a software testing framework for testing of LabVIEW applications!
+==== National Instruments Toolkits ====
+=== MATLAB Toolkit ===
+  *[[http://web.archive.org/web/*/http://zone.ni.com/devzone/cda/tut/p/id/2839|Archive.org "National Instruments, NI Developer Zone "Math Interface Toolkit Video Demonstration"]].
+    *[[http://www.komerca.tv/review.php?sid=398|Komerca.tv "demonstration of Math Interface Toolkit"]] -> Deeplink to the NI video "[[http://trog.ni.com/ni/productdemos/labview/toolkits/mit_slow.wmv|Math Interface Toolkit Video Demonstration]]" ( WMV ).
+  *[[http://web.archive.org/web/*/http://zone.ni.com/devzone/cda/tut/p/id/2716|Archive.org "National Instruments, NI Developer Zone "Calling LabVIEW VIs from The MathWorks Inc. MATLAB software environment"]].
+  *[[http://forums.ni.com/t5/LabVIEW/NI-LabVIEW-Math-Interface-Toolkit-can-you-tell-me-about-this/m-p/448519|National Instruments, NI Discussion Forums "NI LabVIEW Math Interface Toolkit - can you tell me about this ?"]], 2006-12-04.
+=== Unit Test Frameworks ===
+== National Instruments "LabVIEW Unit Test Framework Toolkit" ==
+  *[[http://sine.ni.com/nips/cds/view/p/lang/de/nid/209043|National Instruments "NI LabVIEW Unit Test Framework Toolkit. Durchführung anforderungsbasierter Validierung und Teileüberprüfung"]].
+  *[[http://sine.ni.com/psp/app/doc/p/id/psp-844/lang/de|National Instruments "LabVIEW Unit Test Framework Toolkit"]].
+  *[[http://www.ni.com/white-paper/8082/de/|National Instruments "Einsatz des Unit Test Framework Toolkits für die Softwareüberprüfung und -validierung"]].
+== JKI Labs "VI Tester" ==
+  *[[http://jki.net/labs|JKI Labs "VI Tester"]] - "A unit testing framework for LabVIEW, built on the software engineering industry's proven xUnit architecture".
+== Resources ==
+  *[[http://lavag.org/topic/11139-unit-test-frameworks-ni-vs-jki/|LAVA Forums "Unit Test Frameworks: NI vs JKI?"]].
+===== Education / Literature / Books / Certification =====
+==== Certified LabVIEW Associate Developer (CLAD) ====
+  *[[http://sine.ni.com/nips/cds/view/p/lang/de/nid/14438|National Instruments Germany "Certified LabVIEW Associate Developer (CLAD)"]].
+  *[[http://digital.ni.com/worldwide/germany.nsf/sb/Events?OpenDocument&node=163200_d|National Instruments Germany "Veranstaltungen"]] - at the events "LabVIEW-Anwendertreffen" in Spring and "Labview-Tag" in Autumn, there might be a free CLAD test.
+  *[[http://zone.ni.com/wv/app/doc/p/id/wv-1950|National Instruments "Understand the Most Missed Concepts within the Certified LabVIEW Associate Developer Exam"]] :-(.
+  *<del>[[http://www.ni.com/training/labview_exam.htm|LabVIEW Fundamentals Exam]], [[http://www.ni.com/training/d/labview_exam.htm|Prüfung über LabVIEW Grundlagen]] - "FREE online assessment", an easy preliminary stage test for CLAD. The test can be repeated all 48 hours. The questions are selected from a large catalog of questions, so the test is not fixed but is varied</del>.
+  *[[http://zone.ni.com/wv/app/doc/p/id/wv-566|National Instruments "Certified LabVIEW Associate Developer (CLAD) Exam Preparation"]], [[http://zone.ni.com/wv/app/doc/p/id/wv-179|National Instruments "CLD Exam Preparation Course"]] - free webcasts ( CLD, not CLAD !).
+  *[[http://lumen.ni.com/nicif/d/ekitcldexmprp/content.xhtml|National Instruments "NI Certified LabVIEW Developer Exam Preparation E-Kit"]] - 3 free files.
+  *[[http://www.ni.com/academic/lv_training/how_learn_lv.htm|National Instruments "How Can I Learn LabVIEW?"]] - table with links to NI online tutorials.
+  *[[http://zone.ni.com/devzone/cda/tut/p/id/4261|National Instruments "How Can I Prepare for the Certified LabVIEW Associate Developer (CLAD) Exam?"]], [[http://zone.ni.com/devzone/cda/tut/p/id/10253|National Instruments "Wie kann ich mich auf die Prüfung zum Certified LabVIEW Associate Developer (CLAD) vorbereiten?"]] #.
+  *[[http://zone.ni.com/wv/app/doc/p/id/wv-1950|National Instruments "Understand the Most Missed Concepts within the Certified LabVIEW Associate Developer Exam"]] #.
+  *[[http://sine.ni.com/tacs/app/certprep|National Instruments "Vorbereitung zur Zertifizierung.Lassen Sie sich Ihren individuellen Vorbereitungsplan anzeigen"]].
+  *[[ftp://ftp.ni.com/pub/devzone/epd/clad_sample_exam.pdf|National Instruments "Sample CLAD Exam"]] ( PDF ) #.
+  *[[http://zone.ni.com/wv/app/doc/p/id/wv-179|National Instruments "CLD Exam Preparation Course"]] - CLD, not CLAD!.
+  *[[http://www.ni.com/training/nicp.htm|National Instruments "National Instruments Certification Program"]], [[http://www.ni.com/training/d/|National Instruments Germany "Training und Zertifizierung "]].
+  *[[http://sine.ni.com/manuals/main/p/sn/n18:c|National Instruments Germany - Search for "Handbücher"]].
+  *[[http://digital.ni.com/manuals.nsf/websearch/5FBA64AD223A76A786256D2C00561F2D?OpenDocument&node=132090_US|National Instruments "LabVIEW Development Guidelines"]].
+  *Free online tutorials.
+    -[[http://cnx.org/content/col10241/latest/|Rice University "Connexions"]], state of the art
+    -[[http://zone.ni.com/devzone/cda/tut/p/id/5243|National Instruments "LabVIEW Introduction Course - Three Hours"]], [[http://zone.ni.com/devzone/cda/tut/p/id/5241|National Instruments "LabVIEW Introduction Course - Six Hours"]], state of the art.
+    -[[http://www.eelab.usyd.edu.au/labview/main.html|University of Sydney "LabVIEW Tutorial"]], outdated.
+    -[[http://www-ee.eng.buffalo.edu/faculty/paololiu/edtech/roaldi/tutorials/labview.htm|University of Buffalo "LabVIEW Tutorial"]], outdated.
+    -[[http://school.mech.uwa.edu.au/~jamest/tutorial/ieindex.html|University of Western Australia "LabVIEW Tutorials"]].
+  *[[http://www.ni.com/labviewse/d/|National Instruments Germany "LabVIEW Student Edition"]].
+  *[[http://sine.ni.com/tacs/app/certprep/p/tn/14932/tp/14931/|National Instruments "Vorbereitung zur Zertifizierung"]], 2014.
+    *[[http://www.ni.com/gate/gb/GB_EKITCLADEXMPRP/D|National Instruments "Download des Vorbereitungs-E-Kit für die Prüfung zum NI Certified LabVIEW Associate Developer (CLAD)"]], 2014.
+      *"CLAD Sample Exam-1" 
+        *in English language, of 2012-02-09.
+        *in German language, of 2012-01-30.
+      *"CLAD Sample Exam-2" 
+        *in English language, of 2013-07-22.
+        *in German language, of 2011-07-15.
+    *[[http://zone.ni.com/wv/app/doc/p/id/wv-566|National Instruments "Certified LabVIEW Associate Developer (CLAD) Exam Preparation"]] - "20 min Webcast".
+==== Important Books ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0131458353/hemmerling-21|Peter Blume "The LabVIEW Style Book (National Instruments Virtual Instrumentation)"]].
+    *[[http://www.informit.com/store/product.aspx?isbn=0131458353|InformIT "The LabVIEW Style Book (National Instruments Virtual Instrumentation)"]] - Companion Web Site.
+    *[[http://www.bloomy.com/lvstyle/|Bloomy Controls, Inc - The LabVIEW Style Book]].
+    *<del>[[http://www.scribd.com/doc/12447063/Labview-Style-Book|Scribd "The LabVIEW Style Book"]]</del>.
+    *[[http://my.safaribooksonline.com/0131458353|Safari Books Online "The LabVIEW Style Book"]].
+==== Books bundled with the Student Edition of Labview ====
+  *The DVD accompanying the computer magazine [[http://www.heise.de/ct/|c't]], issue 11/2007 contains a full version of "Labview 6.1", for personal non-commercial use only.
+  *Labview 7.1 was the last version of Labview without need for software activation :-). In opposite, the "LabVIEW 7.1 Student Edition Software Suite" already contained some additional tools with need for activation :-(.
+  *[[http://www.ni.com/labviewse/select.htm|National Instruments "NI LabVIEW Student Edition Product Selection"]] - Currently ( 2014-04 ) included software version: "LabVIEW 2013 Student Edition".
+  *The latest LabVIEW edition shipped with freely available books is LabVIEW 2009 :-(, in 2014.
+  *Robert Bishop.
+    *Current books & software:
+      *[[http://decibel.ni.com/content/docs/DOC-39874|National Instruments "LabVIEW Student Edition Textbook"]] - "The content in this textbook is available under two different titles. The LabVIEW Student Edition textbook includes an activation code for the NI LabVIEW 2013 Student Edition software. The Learning with LabVIEW textbook does not include the software".
+      *Do NOT buy [[http://www.amazon.de/exec/obidos/ASIN/0134022122/hemmerling-21|Robert Bishop "Learning With Labview (Englisch) Taschenbuch – 25. August 2014"]], BUT [[http://www.amazon.de/exec/obidos/ASIN/0134011333/hemmerling-21|Robert Bishop "LabVIEW Student Edition (Englisch) Taschenbuch – 28. August 2014"]] ( Amazon.de ).
+    *Legacy books & software:
+      *[[http://decibel.ni.com/content/docs/DOC-1341|National Instruments "NI Community" - "LabVIEW Student Edition Textbook - 2009 & Prior Versions"]] -> Download of the free archives "LabVIEW 2009 Student Edition Learning Directory", "LabVIEW 8 Learning Directory", "LabVIEW 7 Learning Directory".
+      *Book [[http://www.amazon.de/exec/obidos/ASIN/0131880543/hemmerling-21|Robert Bishop "Labview 7 Express Student Edition with 7.1 Update"]], Amazon.de.
+      *Book [[http://www.amazon.com/Labview-7-0-Express-Student-Update/dp/0131880543/hemmerling-21||Robert Bishop "Labview 7 Express Student Edition with 7.1 Update"]], Amazon.com.
+      *Do NOT buy [[http://www.amazon.de/exec/obidos/ASIN/0132390256/hemmerling-21|Robert Bishop "Learning with LabVIEW 8. Student Edition (Taschenbuch)"]], BUT [[http://www.amazon.de/exec/obidos/ASIN/0131999184/hemmerling-21|Robert Bishop "Learning with LabVIEW 8. Student Edition (Taschenbuch)"]] ( Amazon.de ).
+      *Do NOT buy [[http://www.amazon.com/LabVIEW-8-Student-book-only/dp/0132390256/hemmerling-21|Robert Bishop "LabVIEW 8 Student Edition (book only)"]], BUT  [[http://www.amazon.com/LabVIEW-Student-Inc-National-Instruments/dp/0131999184/hemmerling-21|Robert Bishop "LabVIEW 8 Student Edition (Paperback)"]]( Amazon.com ).
+      *Do NOT buy [[http://www.amazon.de/Learning-LabVIEW-2009-Robert-Bishop/dp/0132141310/hemmerling-21|Robert Bishop "Learning with LabVIEW 2009"]] or [[http://www.amazon.de/exec/obidos/ASIN/0132141310/hemmerling-21|Robert Bishop "Learning with LabVIEW 2009"]], BUT double-check if [[http://www.amazon.com/LabVIEW-Student-Edition-Robert-Bishop/dp/0132141299/hemmerling-21|Robert Bishop "LabVIEW 2009 Student Edition (Paperback)"]]( Amazon.com ) is really shipped with a LabVIEW student edition.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3827423376/hemmerling-21|Bernward Mütterlein "Handbuch für die Programmierung mit LabVIEW. Mit Bestellformular für Studentenversion LabVIEW 2009"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3446423869/hemmerling-21|Wolfgang Georgi, Ergun Metin "Einführung in LabVIEW"]], 5th edition of 2012-01-12, with //unnamed// "latest" version of LabVIEW student edition.
+    *[[http://portal.hs-weingarten.de/web/oeffentlichkeitsarbeit-intranet/aktuelles/-/asset_publisher/1qvH/content/neue-auflage:-einfuhrung-in-labview?_101_INSTANCE_1qvH_viewMode=full&_101_INSTANCE_1qvH_destinationGroupId=41063800&redirect=%2Fweb%2Foeffentlichkeitsarbeit-intranet%2Faktuelles|Hochschule Ravensburg-Weingarten "Aktuelles, 24.02.12. 'Einführung in LabView': spielend leicht programmieren. Wolfgang Georgi und Ergun Metin bringen 5. Auflage heraus"]] - "Professor Dipl.-Math. Wolfgang Georgi und Dipl.-Ing. Ergun Metin haben kürzlich die 5. Auflage ihrer „Einführung in LabVIEW“ auf den Markt gebracht, dieses Mal in einer Auflage von 5.900 Stück. Professor Georgi ist seit 1999 eigentlich im wohlverdienten Ruhestand, gibt aber an der Hochschule Ravensburg-Weingarten noch immer Vorlesungen".
+    *[[http://www.geme-labview.de/|GeMe-Labview.De]].
+==== Some other Teaching Books ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3827320518/hemmerling-21|Rahman Jamal, Andre Hagestedt "LabVIEW. Das Grundlagenbuch. Bis Version LabVIEW 7.1"]].
+
+==== Academic ====
+  *[[http://www.ni.com/academic/|National Instruments Academic Program]].
+==== MINT ====
+  *[[http://www.mint-lfz.de/|MINT LehrerFortbildungsZentrum]].
+===== Third Party Tools =====
+  *[[http://forums.ni.com/attachments/ni/250/12684/1/Msiblast.zip|National Instruments - NI Discussion Forums "MSIblast"]] - tool to clean the Windows registry from broken / unused registry entries.
+  *[[http://www.iconag.de/|ICONAG-Leittechnik GmbH "B-CON"]] - "herstellerneutrale Leittechnik-Software für größere Gebäude und Liegenschaften". B-CON is one of the largest commercial LabVIEW applications ever built and distributed.
+===== Experts =====
+  *Dr.-Ing. Bernd Proff -> [[http://www.uni-due.de/bauwissenschaften/computerpool/mitarbeiter|Universität Duisburg-Essen
+Fakultät für Ingenieurwissenschaften, Abteilung Bauwissenschaften, V13 S03 C53 "Mitarbeiter"]].
+===== Resources =====
+==== National Instruments ====
+  *[[http://digital.ni.com/express.nsf/bycode/cez5g7|National Instruments "Mechatronik – Integrierter Entwurf von mechanischen Bauteilen, Elektrik, Steuerung, Regelung und Embedded-Software"]], [[https://lumen.ni.com/nicif/us/ekitmechatronics/content.xhtml|National Instruments "Getting Started with NI Tools for Mechatronics Applications"]].
+  *[[http://www.ni.com/automatedtest/guides.htm|National Instruments "Technische Fachbibliothek für Prüfingenieure"]].
+  *Webcasts [[http://webcasts.de.ni.com/|National Instruments, Germany - Webcasts]].
+==== National Instruments - NI Developer Zone ====
+  *[[http://zone.ni.com/devzone/cda/tut/p/id/3238|National Instruments, NI Developer Zone "Designing Next Generation Test Systems - An In-Depth User Guide"]].
+  *[[http://www.ni.com/labview/applications/test/d/|National Instruments, NI Developer Zone "NI LabVIEW für automatisierte Prüf- und Validierungssysteme"]].
+  *[[http://zone.ni.com/devzone/cda/tut/p/id/6655|National Instruments, NI Developer Zone, Dr. Julio R. Garcia "National Instruments University Resources: Control Systems with NI Multisim and NI LabVIEW"]].
+  *[[http://zone.ni.com/reference/en-XX/help/371361B-01/lvconcepts/cond_diagram_disable/|National Instruments, NI Developer Zone "Conditional Disable and Diagram Disable Structures"]] - A feature of the "Labview Application Builder".
+==== National Instruments - Source Code Control & Version Comparison ====
+  *[[http://digital.ni.com/public.nsf/allkb/3493C58EA0E842FA86256F86006142C0|National Instruments, KnowledgeBase "Comparing Two VIs in LabVIEW"]].
+  *[[http://zone.ni.com/reference/en-XX/help/371361G-01/lvhowto/configlvcomp_thirdparty/|National Instruments "Configuring Source Control with LVCompare.exe"]].
+==== National Instruments - User Interface Design for LabVIEW ====
+  *[[http://zone.ni.com/reference/en-XX/help/371361L-01/lvconcepts/designing_user_interfaces/|National Instruments Developer Zone "Designing User Interfaces"]] - "Using Splitter Bars and Panes".
+  *[[http://digital.ni.com/public.nsf/allkb/D587067E18E0E70186256D44007B91FE|What is a Subpanel Control and How Can I Implement One in My LabVIEW VI?"]].
+==== National Instruments - Object Oriented Design with LabVIEW ====
+  *[[http://www.ni.com/white-paper/3574/en/|National Instruments "LabVIEW Object-Oriented Programming: The Decisions Behind the Design"]], 2014-05-21.
+  *[[http://www.ni.com/white-paper/3573/en/|National Instruments WhitePaper "LabVIEW Object-Oriented Programming FAQ"]] - "dynamic dispatching".
+  *[[http://zone.ni.com/reference/en-XX/help/371361J-01/lvconcepts/creating_classes/|National Instruments "Creating LabVIEW Classes"]].
+==== National Instruments - Multi-Language Support for LabVIEW ====
+  *Captions are the base for multi-language support for LabVIEW!
+  *[[http://digital.ni.com/public.nsf/allkb/5E818ABBFFC71925862565BC0070390A|National Instruments "How Is a Caption in LabVIEW Different From a Label?"]].
+==== Third Parties ====
+  *[[http://labviewwiki.org/|LabVIEW Wiki]].
+    *[[http://labviewwiki.org/Functional_global_variable|LabVIEW Wiki "Functional global variable"]].
+  *[[http://www.rrzn.uni-hannover.de/buch.html?&no_cache=1&titel=labview|Leibniz Universität
+IT Services, RRZN-Handbücher "Labview"]] -> Download of sample projects "Übungsdateien".
+  *[[http://www.innovative-dsp.com/products.php?product=VPXI%20ePC|Innovative Integration - A subsidiary of ISI "VPXI ePC"]].
+===== Forums, Newsgroups, Communities =====
+  *[[http://groups.google.com/group/comedi_list|Google Groups "Comedi: Linux Control and Measurement Device Interface"]].
+  *[[http://forums.jki.net/|JKI Discussion Forums]].
+  *[[http://lavag.org/index.php?app=portal|Labview Advanced Virtual Architects ( LAVA )]].
+    *[[http://lavag.org/|Labview Advanced Virtual Architects ( LAVA ), Forum]].
+  *[[http://www.labviewforum.de/|LabVIEWForum]], Germany.
+  *[[http://www.labviewportal.eu|LabVIEW Portal]], Germany.
+  *LinkedIn.
+    *[[http://www.linkedin.com/groups?gid=123850|LinkedIn "LabVIEW"]].
+    *[[http://www.linkedin.com/groups?gid=83475|LinkedIn "LabVIEW Linked"]].
+    *[[http://www.linkedin.com/groups?gid=66949|LinkedIn "LabVIEW Users"]].
+    *[[http://www.linkedin.com/groups?gid=89402|LinkedIn "LAVA (LabVIEW Advanced Virtual Architects)"]].
+  *[[http://forums.openg.org/|OpenG.org]] - "Home of the LabVIEW open source community".
+  *National Instruments.
+    *[[http://forums.ni.com/|National Instruments - NI Discussion Forums]].
+    *[[http://decibel.ni.com/|National Instruments Community"]].
+      *[[http://decibel.ni.com/content/groups/|National Instruments Community Groups"]].
+        *[[http://decibel.ni.com/content/groups/ui|National Instruments Community "UI Interest Group"]].
+    *[[http://www.ni.com/ideas|National Instruments - LabVIEW Idea Exchange]].
+  *[[http://www.stackoverflow.com/questions/tagged/labview|Stack Overflow - Tagged Questions "[labview]"]].
+
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Business/Electronics_and_Electrical/Instrumentation/|OpenDirectory "Top: Business: Electronics and Electrical: Instrumentation"]].
+    *[[http://www.dmoz.org/Business/Electronics_and_Electrical/Instrumentation/Data_Acquisition_and_Control/|OpenDirectory "Top: Business: Electronics and Electrical: Instrumentation: Data Acquisition and Control"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wirtschaft/Industrieg%C3%BCter_und_-dienstleistungen/Messtechnik_und_Kalibrierung/|OpenDirectory "Top: World: Deutsch: Wirtschaft: Industriegüter und -dienstleistungen: Messtechnik und Kalibrierung"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wirtschaft/Elektrotechnik_und_Elektronik/Mess-_und_Pr%C3%BCftechnik/|OpenDirectory "Top: World: Deutsch: Wirtschaft: Elektrotechnik und Elektronik: Mess- und Prüftechnik"]].
+  *[[http://www.dmoz.org/Computers/Programming/Languages/LabVIEW/|OpenDirectory "Top: Computers: Programming: Languages: LabVIEW"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wirtschaft/Elektrotechnik_und_Elektronik/Mess-_und_Pr%C3%BCftechnik/Computerbasierend/|OpenDirectory "Top: World: Deutsch: Wirtschaft: Elektrotechnik und Elektronik: Mess- und Prüftechnik: Computerbasierend"]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Programmieren/Werkzeuge/Entwicklungsumgebungen/|OpenDirectory "Top: World: Deutsch: Computer: Programmieren: Werkzeuge: Entwicklungsumgebungen"]].
+  *[[http://www.dmoz.org/World/Deutsch/Regional/Europa/Deutschland/Niedersachsen/St%C3%A4dte_und_Gemeinden/O/Oldenburg/Wirtschaft/Computer_und_Internet/|OpenDirectory "Top: World: Deutsch: Regional: Europa: Deutschland: Niedersachsen: Städte und Gemeinden: O: Oldenburg: Wirtschaft: Computer und Internet"]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Software/Treiber/|OpenDirectory "Top: World: Deutsch: Computer: Software: Treiber"]].
+ 
+{{tag>"National Instruments" NI Labviw DIAdem}}
+
+<footnote_navi_en>
+
+
+
+

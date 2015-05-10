@@ -1,0 +1,288 @@
+====== [hemmerling] Manufacturing Execution Systems ( MES ) 3/5 - Norms & Design ======
+Related pages:
+  *[[mes.html|Manufacturing Execution Systems ( MES )]].
+  *[[mes02.html|Manufacturing Execution Systems ( MES ) 2/5 - Software Systems]].
+  *[[mes04.html|Manufacturing Execution Systems ( MES ) 4/5 - Literature]].
+  *[[mes05.html|Manufacturing Execution Systems ( MES ) 5/5 - User Requirements Template for MES]].
+===== Important Documents for Sales & Marketing of a MES =====
+  -Document "User Requirements Specification ( URS )", created by the customer 
+    *Theory: [[requirements.html|Requirements & Requirements Engineering]].
+    *Sample document: [[mes05.html|Manufacturing Execution Systems ( MES ) 5/5 - User Requirements Template for MES]].
+  -Document "Questionaire", created by the customer.
+    *The commercial document [[http://services.mesa.org/ResourceLibrary/ShowResource/e1734dd2-2f28-432b-a646-3f75384770cb|MESA International "MESA White Paper #04: MES Software-Evaluation/Selection"]].
+  -Slides "Vendor presentation", created by the MES vendor.
+  -Document "Proof of Concept", created by the MES vendor by special customer request.
+  -Concept for a "multi-site MES template".
+===== Norms =====
+==== CFR - Code of Federal Regulations Title 21 ====
+  *[[http://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm?CFRPart=11|U.S. Department of Health & Human Services, FDA, U.S. Food and Drug Administration "CFR - Code of Federal Regulations Title 21 - "PART 11. ELECTRONIC RECORDS; ELECTRONIC SIGNATURES"]].
+  *[[http://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm?CFRPart=110|U.S. Department of Health & Human Services, FDA, U.S. Food and Drug Administration "CFR - Code of Federal Regulations Title 21 - PART 110. CURRENT GOOD MANUFACTURING PRACTICE IN MANUFACTURING, PACKING, OR HOLDING HUMAN FOOD"]].
+  *[[http://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm?CFRPart=210|U.S. Department of Health & Human Services, FDA, U.S. Food and Drug Administration "CFR - Code of Federal Regulations Title 21 - PART 210. CURRENT GOOD MANUFACTURING PRACTICE IN MANUFACTURING, PROCESSING, PACKING, OR HOLDING OF DRUGS; GENERAL"]].
+  *[[http://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm?CFRPart=211/|U.S. Department of Health & Human Services, FDA, U.S. Food and Drug Administration "CFR - Code of Federal Regulations Title 21 - PART 211. CURRENT GOOD MANUFACTURING PRACTICE FOR FINISHED PHARMACEUTICALS"]].
+  *[[http://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm?CFRPart=820|U.S. Department of Health & Human Services, FDA, U.S. Food and Drug Administration "CFR - Code of Federal Regulations Title 21 - PART 820. QUALITY SYSTEM REGULATION"]].
+==== EEMUA Publications ====
+  *[[http://www.eemua.co.uk/|EEMUA - The Engineering Equipment and Materials Users’ Association]].
+    *EEMUA Recommendation "191 Alarm Systems - A Guide to Design, Management and Procurement - Edition 3", ISBN 0 85931 192 2.
+  *[[http://de.wikipedia.org/wiki/Engineering_Equipment_and_Materials_Users_Association|DE.Wikipedia "Engineering Equipment and Materials Users Association"]].
+  *[[http://en.wikipedia.org/wiki/Alarm_management|EN.Wikipedia "Alarm management"]].
+==== Energy Management ====
+=== DIN EN ISO 50001 ( formerly: DIN EN 16001 ) - Energy Management ===
+  *The free PDF document [[http://www.umweltbundesamt.de/uba-info-medien/3959.html|Das Umweltbundesamt "und Organisationen"]] ( formerly: "DIN EN 16001: Energiemanagementsysteme in der Praxis – Ein Leitfaden für Unternehmen und Organisationen".
+  *[[http://en.wikipedia.org/wiki/ISO_50001|DE.Wikipedia "ISO 50001"]], [[http://de.wikipedia.org/wiki/Energiemanagement|DE.Wikipedia "Energiemanagement"]].
+=== European Eco-Management and Audit Scheme ( EMAS ) ===
+  *[[http://ec.europa.eu/environment/emas/|European Commission - The European Eco-Management and Audit Scheme]] ( EMAS ).
+  *This scheme might be taken in addition to DIN EN 50001 for implementation and operation of an energy management system.
+==== EU Regulation EC/178/2002 ====
+  *[[http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32002R0178:EN:NOT|EUR-Lex. Access to European Union law "32002R0178"]] - "Regulation (EC) No 178/2002 of the European Parliament and of the Council of 28 January 2002 laying down the general principles and requirements of food law, establishing the European Food Safety Authority and laying down procedures in matters of food safety".
+  *[[http://ec.europa.eu/food/food/foodlaw/traceability/index_en.htm|European Commission "EUROPA - Food Safety - General Food Law - Traceability"]].
+==== Good Automated Manufacturing Practice ( GAMP ) / Good Manufacturing Practice ( GMP ) / Current Good Manufacturing Practices ( cGMP ) ==== 
+  *Versions: GAMP4 / GAMP 4, GAMP5 / GAMP 5.
+  *[[http://www.ispe.org/cs/gamp_publications_section/gamp_publications_overview|International Society for Pharmaceutical Engineering ( ISPE ) "GAMP Good Practice Guides"]].
+  *[[http://en.wikipedia.org/wiki/Good_Automated_Manufacturing_Practice|EN.Wikipedia "Good Automated Manufacturing Practice"]], [[http://de.wikipedia.org/wiki/Good_Automated_Manufacturing_Practice|DE.Wikipedia "Good Automated Manufacturing Practice"]] ( GAMP ).
+  *[[http://en.wikipedia.org/wiki/Good_Manufacturing_Practice|EN.Wikipedia "Good Manufacturing Practice"]], [[http://de.wikipedia.org/wiki/Good_Manufacturing_Practice|DE.Wikipedia "Good Manufacturing Practice"]] ( GMP ).
+==== ISA  ==== 
+=== IEC 62264 & ANSI/ISA-95 / ISA-95 / SP95 / S95 & ANSI/ISA-88 / ISA-88 ====
+  *[[http://www.batchcontrol.com/|batchcontrol.com - Now this is batch control excitement!]].
+    *Tutorial [[http://www.batchcontrol.com/s88/01_tutorial/|batchcontrol.com - Now this is batch control excitement! "S88.01 Tutorial"]].
+  *[[http://www.isa-95.com/|ISA, European Office 2010 "ISA-95.com"]], [[http://www.ninety-five.com/|About ANSI/ISA-95 "ninety-five.com"]].
+    *ISA is the founding sponsor of [[http://www.automationfederation.org/|Automation Federation - The Voice of Automation]].
+    *[[http://www.isa.org/InTechTemplate.cfm|ISA-95 - InTech]].
+      *[[http://www.isa.org/InTechTemplate.cfm?Section=NewHome&template=/ContentManagement/ContentDisplay.cfm&ContentID=44471|ISA-95 - InTech "SA-SP95 Drafts"]] - Free draft editions of ISA95 part 3, 4, 5 :-).
+    *[[http://www.isa.org/Template.cfm?Section=Standards2&Template=/customsource/isa/Standards/AutomationStandards.cfm|ISA - Automation Standards]].
+      *[[http://www.isa.org/Template.cfm?Section=Standards2&template=/Ecommerce/ProductDisplay.cfm&ProductID=11366|ISA95 Manufacturing Enterprise Systems Standards and User Resources, 3rd Edition]] - ISA95, part 4 is still missing on the CDROM.
+      *[[http://www.isa.org/Template.cfm?Section=Standards2&template=/Ecommerce/ProductDisplay.cfm&ProductID=11225|ANSI/ISA-95.00.01-2010 (IEC 62264-1 Mod) Enterprise-Control System Integration - Part 1: Models and Terminology]].
+      *[[http://www.isa.org/Template.cfm?Section=Standards2&template=/Ecommerce/ProductDisplay.cfm&ProductID=11226|ANSI/ISA-95.00.02-2010 (IEC 62264-2 Mod) Enterprise-Control System Integration - Part 2: Object Model Attributes]].
+      *[[http://www.isa.org/Template.cfm?Section=Standards8&Template=/Ecommerce/ProductDisplay.cfm&ProductID=7905|ANSI/ISA-95.00.03-2005 Enterprise-Control System Integration, Part 3: Models of Manufacturing Operations Management]].
+      *[[http://www.isa.org/Template.cfm?Section=Standards2&template=/Ecommerce/ProductDisplay.cfm&ProductID=12611|ANSI/ISA-95.00.04-2012 Enterprise-Control System Integration - Part 4: Objects and attributes for manufacturing operations management integration]].
+        *[[http://wenku.baidu.com/view/80fa007b168884868762d6e3.html|Baidu "ISA 95.00.04(Update WD01-dok)"]].
+      *[[http://www.isa.org/Template.cfm?Section=standards2&template=/Ecommerce/ProductDisplay.cfm&ProductID=9004|ANSI/ISA-95.00.05-2007 Enterprise-Control System Integration, Part 5: Business-to-Manufacturing Transactions]].
+  *"Purdue Reference Model for CIM".
+    *[[http://www.pera.net/|PERA Enterprise Integration Web Site]] ->  Purdue Enterprise Reference Architecture ( PERA ).
+    *[[http://www.pera.net/Williams.html|PERA Enterprise Integration Web Site "Theodore J. Williams"]].
+    *ISA-95 Part 1 discusses the interface content between manufacturing-control functions and other enterprise functions, based upon the Purdue Reference Model for CIM (hierarchical form).
+  *[[http://www.s95.nl/|S95: the international standard for the integration of enterprise and control systems]], [[http://www.s88.nl/|S88: de internationale standaard voor flexibele productie]]
+  *Slides about IEC/ISO 62264 ( = S95 ).
+    *[[http://isotc.iso.org/livelink/livelink/fetch/2000/2489/Ittf_Home/MoU-MG/Moumg159.pdf|Charlotta Johnsson, Siemens A&D AS MES, Genoa, Italy "An introduction to IEC/ISO 62264"]].
+  *Slides about ISA-88 & ISA-95.
+    *[[http://www.lomag-man.org/normes/normes_isa/documents/2001-04-IEC.ppt|Practical Enterprise Modelling: ISA 88 and ISA 95 standards]] ( PPT ) #.
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/IEC_62264|EN.Wikipedia "IEC 62264"]], [[http://de.wikipedia.org/wiki/IEC_62264|DE.Wikipedia "IEC 62264"]].
+    *[[http://en.wikipedia.org/wiki/ISA-95|EN.Wikipedia "ISA-95"]], [[http://de.wikipedia.org/wiki/ISA-95|DE.Wikipedia "ISA-95"]] ( = IEC/ISO 62264 ).
+    *[[http://en.wikipedia.org/wiki/ISA-88|EN.Wikipedia "ISA-88"]], [[http://de.wikipedia.org/wiki/ISA-88|DE.Wikipedia "ISA-88"]] ( = IEC/ISO 61512 ).
+=== Special Norms for Discrete Processes ( with Focus on Machines in a Packing Line ) ===
+== Make2Pack ==
+  *[[http://www.make2pack.org/|make2pack.org]] - "Part 5 of the ISA-88 series of standards adds measurable business value by integrating manufacturing, packaging and enterprise information systems through international standards instead of custom programmiing".
+== PackML, PackTags ==
+  *[[http://en.wikipedia.org/wiki/Packml|EN.Wikipedia "Packml"]] -> PackML, PackTags.
+  *[[http://www.omac.org/news/packmlpacktags-technical-report-approved|OMAC - The Organisation for Machine Automation and Control "PackML/PackTags Technical Report Approved"]], 2008-08-05.
+== PackConnect, PackSoft, PackAdvantage, PackLearn ==
+==== Key Performance Indicators ==== 
+=== ISO/DIS 22400 ====
+  *[[http://www.iso.org/iso/home/store/catalogue_ics/catalogue_detail_ics.htm?ics1=25&ics2=040&ics3=01&csnumber=56847|ISO "ISO/DIS 22400-1. Manufacturing operations management - Key performance indicators -- Part 1: Overview, concepts and terminology"]].
+  *[[http://www.iso.org/iso/home/store/catalogue_ics/catalogue_detail_ics.htm?ics1=25&ics2=040&ics3=01&csnumber=54497|ISO/DIS 22400-2. Automation systems and integration -- Key performance indicators for manufacturing operations management -- Part 2: Definitions and descriptions]].
+=== VDMA-Einheitsblatt 66412 ====
+  *[[http://www.vdma.org/wps/portal/Home/de/VDMAThemen/Technik_und_Umwelt/VDMA_Einheitsblaetter/NAM_Muellers_DB_20090908_VDMA_66412-1?WCM_GLOBAL_CONTEXT=/vdma/Home/de/VDMAThemen/Technik_und_Umwelt/VDMA_Einheitsblaetter/NAM_Muellers_DB_20090908_VDMA_66412-1|Verband Deutscher Maschinen- und Anlagenbau e.V. ( VDMA ) "VDMA 66412-1 + Änderung 1. Manufacturing Execution Systems (MES) - Kennzahlen"]] → Available in FHH.
+  *[[http://de.wikipedia.org/wiki/VDMA-Einheitsblatt_66412|DE.Wikipedia "VDMA-Einheitsblatt 66412"]].
+=== Resources ===
+  *[[http://en.wikipedia.org/wiki/Performance_indicator|EN.Wikipedia "Performance indicator"]], [[http://de.wikipedia.org/wiki/Key_Performance_Indicator|EN.Wikipedia "Key Performance Indicator"]].
+==== MESA Models ====
+=== The MESA Model, 1997 ===
+  *MESA White Paper #06 "MES Explained: A High Level Vision for Executives", 1997.
+== The MESA Guidelines ==
+  -Resource management.
+  -Detailed production planning and job disposition.
+  -Materials management.
+  -Document management.
+  -Data acquisition.
+  -Job management.
+  -Quality management.
+  -Process management.
+  -Maintenance management.
+  -Product tracking.
+  -Performance analysis.
+== Resources ==
+  *[[http://www.proleit.com/|ProLeiT AG]].
+    *[[http://www.proleit.com/fileadmin/basis/mes_solutions/MES_FA_Hybrid_Ansatz_ProLeiT_DE.pdf|Thomas Nowotka, Computer&AUTOMATION 4/07 "Der Hybrid-Ansatz"]]( PDF ).
+    *[[http://www.proleit.com/fileadmin/basis/mes_solutions/MES_CS_hybrid_aproach_ProLeiT_EN.pdf|ProLeiT AG "The hybrid approach"]] ( PDF ).
+=== Collaborative MES ( c-MES ), 2004 ===
+  *MESA Whilte Paper #08 "MESA's Next Generation Collaborative MES Mdoel", 2004.
+=== MESA KPI Metrics & MESA Framework ===
+  *Book "MESA Metrics that Matter Guidebook and Framework - First Edition", 2006.
+  *Book "Metrics Guidebook and Framework - Second Edition", 2011.
+  *"MESA White Paper #24: ISA-95-Based Operations and KPI Metrics Assessment and Analysis", 2007.
+    *[[http://global.wonderware.com/EN/PDF%20Library/MESA%20Whitepaper_ISA-95-Based%20Operations%20and%20KPI%20Metrics%20Assessment%20and%20Analysis.pdf
+|ISA-95-Based Operations and KPI Metrics Assessment and Analysis. White Paper 24. A Mesa International, ISA and Invensys Wonderware co-branded white paper]] ( PDF ).
+=== The new MESA Model, 2008 ===
+  *[[http://www.mesa.org/en/modelstrategicinitiatives/MESAModel.asp|MESA ( Manufacturing Enterprise Solutions Association ) International "MESA Model"]].
+=== Free White Paper ===
+  *Search.
+    *[[http://services.mesa.org/ResourceLibrary|MESA ResourceLibrary]] - Search for "MESA White Paper".
+    *[[http://www.ebookbrowse.com/me/mesa-whitepaper|eBookBrowse - Search for "mesa whitepaper"]].
+    *[[http://www.google.com/search?q=MESA+Whitepaper+co-branded|Google - Search for "MESA Whitepaper co-branded"]].
+  *White Paper #1.
+    *[[http://www.isa.org/mnfginterop/files/minutes/MIG_WG_Item_9_ref_ISA95-Ch2_Charlie_Gifford.doc|ISA "Chapter 2. Standards for Manufacturing Systems Integration ISA-95 and OAGIS. White Paper Series. White Paper #1: An Overview and Comparison"]] ( DOC ).
+  *White Paper #2.
+    *[[http://www.isa.org/mnfginterop/files/minutes/MIG_WG_Item_9_ref_ISA95-Ch3_Charlie_Gifford.doc|ISA "Chapter 3. Standards for Manufacturing Systems Integration. ISA-95 and OAGIS. White Paper Series. White Paper #2: OAGIS, ISA-95 and Related Manufacturing Integration Standards. A Survey"]] ( DOC ).
+  *White Paper #18 "When Quality Demands - Can MES Measure Up? White Paper 18. A Mesa International and Lighthouse System co-branded white paper".
+    *The online document [[http://wenku.baidu.com/view/0b3f892c2af90242a895e536.html|Baidu "When Quality Demands - Can MES Measure Up"]].
+  *White Paper #19 "Applying a Phased Approach for a Successful Manufacturing Execution System (MES) Project. White Paper 19. A Mesa International and Citect co-branded white paper".
+    *The online document [[http://wenku.baidu.com/view/e627c369a98271fe910ef92a.html|Baidu "19-Applying a Phased Approach for a Successful MES Project"]].
+  *White Paper #23 "ISA-95 As-Is / To-Be Study. MESA White Paper #23".
+    *The online document [[http://wenku.baidu.com/view/6d2ecd2bcfc789eb172dc835.html|Baidu: "23-As-Is To-Be Study"]].
+  *White Paper #24.
+    *[[http://global.wonderware.com/EN/PDF%20Library/MESA%20Whitepaper_ISA-95-Based%20Operations%20and%20KPI%20Metrics%20Assessment%20and%20Analysis.pdf
+|ISA-95-Based Operations and KPI Metrics Assessment and Analysis. White Paper 24. A Mesa International, ISA and Invensys Wonderware co-branded white paper]] ( PDF ).
+  *White Paper #27.
+    *[[ftp://public.dhe.ibm.com/software/plm/pdif/MESA_SOAinManufacturingGuidebook.pdf|IBM "SOA in Manufacturing Guidebook. WHITE PAPER 27. A MESA International, IBM Corporation and Capgemini co-branded white paper"]] ( PDF ).
+  *White Paper #27.
+    *[[http://www.atos.net/NR/rdonlyres/8339886C-5C1D-4F0D-B092-0E4947F5C156/0/wp_mesa.pdf|Atos "MES Harmonization in a Multi-Site, Multi-Country and Multi-Cultural Environment. Case Study of a Plant to Enterprise Solution. WHITE PAPER 27. A MESA International, Atos Origin co-branded white paper"]] ( PDF ).
+  *White Paper #29.
+    *[[https://docs.google.com/gview?embedded=true&url=http://dufortconsultant.com/uploads/2/9/2/7/2927951/mesa_whitepaper_29_-_integration_of_manufacturing_intelligence_w_mom_june_08_10.pdf|Google Docs "Integration of Manufacturing Intelligence with MOM. WHITE PAPER 29. A MESA International and Invensys Operations Management co-branded white paper"]] ( PDF ).
+    *[[http://www.dufortconsultant.com/uploads/2/9/2/7/2927951/mesa_whitepaper_29_-_integration_of_manufacturing_intelligence_w_mom_june_08_10.pdf|? "Integration of Manufacturing Intelligence with MOM. White Paper 29. A MESA International and Invensys Operations Management co-branded white paper"]] ( PDF ).
+=== Resources ===
+  *[[http://services.mesa.org/ResourceLibrary/ViewType/8f42ea06-cf37-4707-aa1d-59e3e24d04a6|MESA ( Manufacturing Enterprise Solutions Association ) International  - Resource Library "Resources By Type: White Paper"]].
+  *[[http://services.mesa.org/ResourceLibrary/ViewType/ef635fde-1f99-425a-b6f4-a3a7db729696|MESA ( Manufacturing Enterprise Solutions Association ) International  - Resource Library "Resources By Type: Books & Guidebooks"]].
+==== Microsoft "Reference Architecture Framework for Discrete Manufacturing" ( DiRA ) ====
+  *[[http://www.microsoft.com/enterprise/industries/discrete-manufacturing/solutions/discrete-reference-architecture.aspx#fbid=sjaMr9IyfY4|Microsoft "Reference Architecture Framework for Discrete Manufacturing" ( DiRA )]].
+  *Blog article: James [[http://www.apriso.com/blog/2011/05/why-so-many-standards-isa-95-scor-mesa%E2%80%A6-and-now-dira/|Mok "Why So Many Standards? ISA-95, SCOR, MESA… and now DiRA"]], 2011-05-05
+==== NAMUR Recommendation NA 33, NA 46, NA 94, NA 110, NE 141 ====
+=== NAMUR ====
+  *[[http://www.nena.namur.de/|NAMUR "NAMUR-Empfehlungen ( NE ) und NAMUR-Arbeitsblätter ( NA )"]] - No free access.
+=== NAMUR Recommendation NE 033 - Requirements to be met by Systems for Recipe-Based Operations ====
+=== NAMUR Recommendation NA 046 - Examples of Recipe-Based Operations to NE 33 ====
+=== NAMUR Recommendation NA 094 - Functions and Examples of Operations Control Level Solutions ====
+  *[[http://www.advenco.de/namur-arbeitsblatt-na-94-_175.html|advenco Consulting GmbH "NAMUR-Arbeitsblatt NA 94. MES: Funktionen und Lösungsbeispiele der Betriebsleitebene]] - "Im Arbeitsblatt NA94 findet eine eingehende Betrachtung zur Nutzung von MES-Systemen und der Norm ISA S95 sowie eine Abgrenzung zu anderen Normen wie ISA S88 statt".
+=== NAMUR Recommendation NA 110 - Benefits, Design and Application of MES ====
+=== NAMUR Recommendation NE 141 - Interface between Batch and MES Systems ====
+==== Supply-chain Operations Reference ( SCOR Model ) ====
+  *[[http://en.wikipedia.org/wiki/Supply-chain_operations_reference|EN.Wikipedia "Supply-chain operations reference"]], [[http://de.wikipedia.org/wiki/SCOR-Modell|DE.Wikipedia "SCOR-Modell"]].
+==== Verband der Automobilindustrie e. V. ( VDA ) ====
+  *[[http://www.vda-qmc.de/publikationen/|Verband der Automobilindustrie e. V. ( VDA ) - Quality Center "Publikationen"]].
+==== VDI 5600 - Manufacturing Execution Systems MES ====
+  *[[http://www.vdi.de/401.0.html?&no_cache=1&tx_vdirili_pi2[showUID]=92645|VDI-Richtlinie: VDI 5600 Blatt 1]].
+  *[[http://www.vdi.de/401.0.html?&no_cache=1&tx_vdirili_pi2[showUID]=93595|VDI-Richtlinie: VDI 5600 Blatt 2]].
+  *[[http://www.vdi.de/401.0.html?&no_cache=1&tx_vdirili_pi2[showUID]=93381|VDI-Richtlinie: VDI 5600 Blatt 3]].
+  *[[http://www.vdi.de/401.0.html?&no_cache=1&tx_vdirili_pi2[showUID]=93774|VDI-Richtlinie: VDI 5600 Blatt 4]].
+==== Zentralverband Elektrotechnik- und Elektronikindustrie e.V. ( ZVEI ) ====
+  *The free PDF document [[http://www.zvei.org/Verband/Publikationen/Seiten/Manufacturing-Execution-Systems-MES.aspx|Zentralverband Elektrotechnik- und Elektronikindustrie e.V. ( ZVEI ) "Manufacturing Execution Systems (MES) - Industry specific Requirements and Solutions"]].
+==== Some ( other ) Norms about Industrial Data & Industrial Data Exchange ====
+  *See [[industrialdata.html|Industrial Data & Industrial Data Exchange]].
+==== Resources ====
+  *[[http://www.osisoft.com/software-support/what-is-pi/PI_System_Standards.aspx|OSIsoft "PI System Standards"]].
+===== Design =====
+==== Costs of a MES system ====
+  -Costs for consulting prior a roll-out.
+  -Purchase costs, costs of licenses.
+  -Implementation costs
+  -Roll-out costs.
+  -Operational costs.
+==== Customer Benefits of a MES system ====
+  -Integrated data transparency.
+  -Reduction of required time.
+  -Reduction of required administration.
+  -Improvement of the customer services.
+  -Quality improvement.
+  -Early warning system, real time cost control.
+  -Increase of the staff productivity.
+  -Legal compliance.
+==== Software Design Approaches ====
+  -Application centric systems.
+  -Database centric systems.
+    *Prefer systems which have no interfaces between  the MES components, but which have a single data base ( pool, German "Datenbasis" ).
+==== Manufacturing Model, to be designed within a MES software ====
+  *You can either create one of the models, or both, within your MES software ( Be shure to ask the MES vendor how to do this with the MES tool, or what other model you can design! ):
+    -Physical model.
+    -Model according to ISA.
+==== Manufacturing Processes to be handled by a MES software ====
+  -Manufacturing Flow Design.
+  -Manufacturing Flow Planning.
+  -Manufacturing Flow Execution.
+==== The functional Structure of a MES ====
+  *According to the book [[http://www.amazon.de/exec/obidos/ASIN/3540343091/hemmerling-21|Jürgen Kletti: "Konzeption und Einführung von MES-Systemen: Zielorientierte Einführungsstrategie mit Wirtschaftlichkeitsbetrachtungen, Fallbeispielen und Checklisten"]], page 61, a MES consist of the components:
+    -Production.
+    -Quality.
+    -Human Resources.
+    -Escalation Management.
+  *The "Escalation Management" is the linking platform for all other functional modules of a MES. There you can define 	"action control limits" and alarms, by which you can act rapidly in case of violation of limits. By this, the persistance of faulty states can be avoided and so the operating efficiency can be increased.
+    *[[http://en.wikipedia.org/wiki/Escalation|EN.Wikipedia "Escalation"]], [[http://de.wikipedia.org/wiki/Eskalation|DE.Wikipedia "Eskalation"]].
+==== Mathematical Technologies ====
+  *[[http://en.wikipedia.org/wiki/Category:Multivariate_statistics|EN.Wikipedia "Category:Multivariate statistics"]], [[http://de.wikipedia.org/wiki/Kategorie:Multivariate_Statistik|DE.Wikipedia "Kategorie:Multivariate Statistik"]].
+  *[[http://en.wikipedia.org/wiki/Activity-based_costing|EN.Wikipedia "Activity-based costing"]], [[http://de.wikipedia.org/wiki/Prozesskostenrechnung|DE.Wikipedia "Prozesskostenrechnung"]].
+===== Software Design Languages =====
+==== Business To Manufacturing Markup Language ( B2MML ) & Batch Markup Language ( BatchML ) ====
+  *[[http://wbforg.affiniscape.com/|WBF, The Organization for Production Technology]].
+    *[[http://wbforg.affiniscape.com/displaycommon.cfm?an=1&subarticlenbr=97|WBF, The Organization for Production Technology "B2MML-BatchML V0500 is available for download"]].
+    *[[http://wbforg.affiniscape.com/displaycommon.cfm?an=1&subarticlenbr=99|WBF, The Organization for Production Technology "Business To Manufacturing Markup Language (B2MML)"]].
+    *[[http://wbforg.affiniscape.com/displaycommon.cfm?an=1&subarticlenbr=94|WBF, The Organization for Production Technology "B2MML FAQ"]].
+    *[[http://wbforg.affiniscape.com/displaycommon.cfm?an=1&subarticlenbr=95|WBF, The Organization for Production Technology "Batch Markup Language (BatchML)"]].
+  *[[http://www.isa.org/Content/NavigationMenu/General_Information/Partners_and_Affiliates/WBF/Working_Groups2/XML_Working_Group/B2MML/B2MML.htm|ISA - The International Society of Automation "Business To Manufacturing Markup Language (B2MML)"]].
+  *[[http://en.wikipedia.org/wiki/B2MML|EN.Wikipedia "B2MML"]].
+==== Chemical Industry Data Exchange ( CIDX ) ====  
+  *[[http://www.cidx.org/|CIDX]] - Download of eStandards and XML files.
+  *[[http://de.wikipedia.org/wiki/CIDX|DE.Wikipedia "CIDX"]].
+  *Successors of CIDX: 
+    *[[http://www.oagi.org/dnn2/DownloadsandResources/ChemeStandards.aspx|OAGi]]  - Download of eStandards and XML files.
+    *[[http://chemitc.americanchemistry.com/|CHemITC]].
+==== Spezi-MES / MES-Modeling Language ( MES-ML ) - A domain-specific graphical Description Language ====
+=== 3-Model Structure of a MES Specification ===
+  -Functional Model.
+  -Production Process Model.
+  -Technical System Model.
+=== People ===
+  *[[http://www.ais.mw.tum.de/index.php?id=32|Prof. Dr.-Ing. Birgit Vogel-Heuser, Technische Universität München. Lehrstuhl für Automatisierung und Informationssysteme]].
+  *[[http://www.xing.com/profile/Maria_Witsch|XING "Maria Witsch"]].
+  *[[http://www.xing.com/profile/Konstantin_Kernschmidt|XING "Konstantin Kernschmidt"]].
+  *Steffen Himstedt.
+    *[[http://www.linkedin.com/pub/steffen-himstedt/8/83/95b|LinkedIn "Steffen Himstedt"]].
+    *[[http://www.twitter.com/steffenhimstedt|Twitter "Steffen Himstedt"]].
+=== Resources ===
+  *Technische Universität München.
+    *[[http://www.ais.mw.tum.de/index.php?id=131|Lehrstuhl für Automatisierung und Informationssysteme, Technische Universität München "Spezi-MES. Entwicklung eines graphischen Beschreibungsmittels für die Modellierung und Spezifikation von MES im Spannungsfeld zwischen IT und Produktion"]].
+    *[[http://bicc-net.de/aktivitaeten/aktivitaet/bicc-open-labs/|BICCnet - Bavarian Information and Communication Technology Cluster, Technische Universität München BICC-Clusterbüro I&K "ICC Open Labs"]].
+      *[[http://bicc-net.de/workspace/uploads/subfeatures/downloads/prof-birgit-vogel-heuser-ais-tum-1310570157.pdf|Lehrstuhl für Automatisierung und Informationssysteme (AIS). BICC Open Labs. Univ.-Prof. Dr.-Ing. Birgit Vogel-Heuser]] ( PDF ).
+        *"Herausforderung – vertikale Datenmodelle, Datenintegration".
+          *"Interdisziplinäres Engineering der produktionsnahen IT-Systeme".
+          *"3 Sichten der MES-Modeling Language für die Spezifikation von MES".
+    *The commercial article[[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6145656|IEEE Xplore "Maria Witsch, Birgit Vogel-Heuser: Towards a Formal Specification Framework for Manufacturing Execution Systems"]], 2012.
+        *[[http://www.ais.mw.tum.de/index.php?id=32|Prof. Dr.-Ing. Birgit Vogel-Heuser, Technische Universität München. Lehrstuhl für Automatisierung und Informationssysteme]].
+    *[[http://www.nt.ntnu.no/users/skoge/prost/proceedings/ifac11-proceedings/|18th IFAC World Congress]].
+      *[[http://www.nt.ntnu.no/users/skoge/prost/proceedings/ifac11-proceedings/data/html/papers/2206.pdf|Maria Witsch, Birgit Vogel-Heuser "Formal MES Modeling Framework –Integration of Different Views"]] ( PDF ).
+  *[[http://www.bn-automation.com/|BN Automation AG]].
+  *[[http://www.t-h.de/|Trebing & Himstedt Prozessautomation GmbH]].
+    *[[http://www.xing.com/companies/trebing&himstedtprozessautomationgmbh&co.kg|XING Company "Trebing & Himstedt Prozessautomation GmbH & Co. KG"]].
+    *[[http://www.youtube.com/user/TrebingHimstedt|YouTube Channel "Trebing + Himstedt"]].
+      *[[http://www.youtube.com/watch?v=-F1C8PYGdmI|YouTube Channel "Trebing + Himstedt": "MES im SAP-Umfeld (Steffen Himstedt im Web-TV) Teil 1"]].
+      *[[http://www.youtube.com/watch?v=hMQdbRucVfw|YouTube Channel "Trebing + Himstedt": "MES im SAP-Umfeld (Steffen Himstedt im Web-TV) Teil 2"]].
+    *[[http://im.studio-mittelstand.de/deDE/Presenter-178-Trebing_Himstedt-Steffen_Himstedt.html|Studio Mittelstand - Thementag: Steffen Himstedt]].
+    *[[http://www.youtube.com/watch?v=yKn8TLgkMLg|YouTube Channel "publish-industry": "5 Thesen zu: MES - Datengrab oder der Weg zur optimierten Produktion?"]].
+    *[[http://www.youtube.com/watch?v=tI-dyGJEfUU|YouTube Channel "publish-industry": "MES - Datengrab oder der Weg zur optimierten Produktion?"]].
+  *[[http://www.pt-it.pt-dlr.de/de/1914.php|Projektträger für das Bundesministerium für Bildung und Forschung "KMU-innovativ: IKT"]] - "Spezi-MES - Entwicklung eines graphischen Beschreibungsmittels für die Modellierung und Spezifikation von MES im Spannungsfeld zwischen IT und Produktion".
+  *[[http://www.uni-kassel.de/hrz/db4/extern/dbupress/publik/abstract.php?978-3-86219-178-9|Universität Kassel "Erhöhte Verfügbarkeit und transparente Produktion"]].
+    *Article "Maria Witsch: MES-Modeling Language - Eine Beschreibungssprache für die interdisziplinäre Anforderungserhebung und Spezifikation von MES".
+    *Article "Dendorfer, Jürgen: Spezifikation eines generischen MES-Clients mit der MES-ML".
+==== Open Application Group Integration Specification ( OAGIS ) ====
+  *[[http://www.oagi.org/|OAGi - Open Application Group]] ( OAGi, OAG ).
+  *[[http://www.isa.org/Content/ContentGroups/MultiUse/Manufacturing_Interoperability_Guideline_Working_Group.htm|ISA "Manufacturing Interoperability Guideline Working Group. A Collaborative Venture of OAGI, WBF, ISA, MIMOSA, and OPC"]].
+  *[[http://www.isa.org/mnfginterop/files/minutes/MIG_WG_Item_9_ref_ISA95-Ch2_Charlie_Gifford.doc|ISA "Chapter 2. Standards for Manufacturing Systems Integration ISA-95 and OAGIS. White Paper Series. White Paper #1: An Overview and Comparison"]] ( DOC ).
+  *[[http://www.isa.org/mnfginterop/files/minutes/MIG_WG_Item_9_ref_ISA95-Ch3_Charlie_Gifford.doc|ISA "Chapter 3. Standards for Manufacturing Systems Integration. ISA-95 and OAGIS. White Paper Series. White Paper #2: OAGIS, ISA-95 and Related Manufacturing Integration Standards. A Survey"]] ( DOC ).
+  *[[http://de.wikipedia.org/wiki/Open_Application_Group_Integration_Specification|DE.Wikipedia "Open Application Group Integration Specification"]] ( OAGIS ).
+  *[[http://en.wikipedia.org/wiki/Invoice|EN.Wikipedia "Invoice"]].
+==== Organization for the Advancement of Structured Information Standards ( OASIS ) ====
+  *[[http://www.oasis-open.org/|Organization for the Advancement of Structured Information Standards ]] ( OASIS ) - Advanced open standards for the information society.
+
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Software/Manufacturing/|OpenDirectory "Top: Computers: Software: Manufacturing"]].
+  *[[http://www.dmoz.org/Computers/Software/Manufacturing/Automation/|OpenDirectory "Top: Computers: Software: Manufacturing: Automation"]].
+  *[[http://www.dmoz.org/Business/Industrial_Goods_and_Services/Factory_Automation/|OpenDirectory "Top: Business
+: Industrial Goods and Services: Factory Automation"]].
+  *[[http://www.dmoz.org/Business/Electronics_and_Electrical/Control_Systems/Industrial/|OpenDirectory "Top: Business
+: Electronics and Electrical: Control Systems: Industrial"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wirtschaft/Industrieg%C3%BCter_und_-dienstleistungen/Automatisierungstechnik/|OpenDirectory "Top: World: Deutsch: Wirtschaft: Industriegüter und -dienstleistungen: Automatisierungstechnik"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wirtschaft/Industrieg%C3%BCter_und_-dienstleistungen/Software/|OpenDirectory "Top: World: Deutsch: Wirtschaft: Industriegüter und -dienstleistungen
+: Software"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wirtschaft/Industrieg%C3%BCter_und_-dienstleistungen/Software/Automatisierungstechnik/|OpenDirectory "Top: World: Deutsch: Wirtschaft: Industriegüter und -dienstleistungen
+: Software: Automatisierungstechnik"]].
+  *[[http://dir.yahoo.com/Business_and_Economy/Business_to_Business/Manufacturing/Factory_Automation/|Yahoo Directory "Business and Economy > Business to Business > Manufacturing > Factory Automation"]].
+{{tag>"manufacturing execution system" "manufacturing enterprise systems" "shop floor control system" mes openmes open "mes provider" manufacturing execution system "manufacturing operations management" mom shop floor control solution sfc "computer integrated manufacturing" computer integrated "digital factory" "adaptive manufacturing" "quality information system" "quality information systems" qis quality "statistical quality control" sqc "statistical process control" spc "plant information system" "plant information systems" "pi systems" "pi system" pi "plant information management systems" "plant information management system" "plantwide information management systems" "plantwide information management system" pims "production management system" "production management systems" pms plant plantwide production "information systems" "information system" "management system" "management systems" "information management systems" "information management system" "computer integrated manufacturing" cim simsalabim "product lifecycle management" plm "engineering data management" edm "product data management" pdm "manufacturing operating system" mom "collaborative production management" cpm "enterprise production management" "enterprise product management" epm "unified manufacturing" unified manufacturing  "computer aided manufacturing" cam computer aided "meter data unification and synchronization" meter data unification synchronization mdus "meter data management systems" management systems mdms}}
+<footnote_navi_en>
+

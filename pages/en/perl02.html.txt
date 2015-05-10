@@ -1,0 +1,76 @@
+====== [hemmerling] Perl 2/2 ======
+Related page:
+  *[[perl.html|Perl 1/2]].
+
+===== Tips & Tricks =====
+==== Testing ====
+  *You may just write XUnit-alike testcases for moudles ( "myclass.pm" ), not for applications ( "myclass pl" ).
+==== Checking Input Values if it is a Number ====
+<code>
+die "Error - Program is terminated" if $result = ~/\D/;
+</code>
+===== Perl - The Language =====
+==== Object-oriented Perl ====
+=== Moose ===
+  *[[http://moose.iinteractive.com/|Moose - A Postmodern Object System for Per]].
+  *The documentation [[http://search.cpan.org/~ether/Moose-2.1005/lib/Moose.pm|CPAN "Moose"]].
+  *[[http://search.cpan.org/search?query=MooseX|CPAN - Search for "Moose"]].
+  *The Perl module [[http://search.cpan.org/~doy/Task-Moose-0.03/lib/Task/Moose.pm|CPAN "Task::Moose"]].
+  *[[http://en.wikipedia.org/wiki/Moose_%28Perl%29|EN.Wikipedia "Moose (Perl)"]].
+=== Mouse ===
+  *The documentation [[http://search.cpan.org/~gfuji/Mouse-1.11/lib/Mouse.pm|CPAN "Mouse"]].
+=== Any::Moose ===
+  *[[http://www.metacpan.org/module/Any::Moose|meta::cpan "Any::Moose"]] - "*deprecated* - use Moo instead!".
+  *"Any::Moose" is a a deprecated implementation of the "Moose" syntax.
+=== Moo ===
+  *[[http://search.cpan.org/~mstrout/Moo-1.003001/lib/Moo.pm|CPAN "Moo"]].
+  *"Moo" is an implementation of the "Moose" syntax.
+  *Perl experts suggest to use Moo, in 2013 :-).
+  *Perl experts suggest to learn Perl with Moo, instead of traditional Perl documented in books of the 1990ths and early 2000ths, in 2013 :-).
+=== bless ===
+  *[[http://perldoc.perl.org/functions/bless.html|perldoc.perl.org - Perl Programming Documentation "PERL bless Function"]].
+=== bless Resources ===
+  *[[http://www.cs.cf.ac.uk/Dave/PERL/node124.html|A. D. Marshall "Practical Perl Programming": "Bless the Hash and Pass the Reference"]].
+  *[[http://www.perl.com/pub/1999/09/refererents.html|Perl.com. news and views of the Perl programming language "Damian Conway: Bless My Referents"]], 1999-09-16.
+  *[[http://www.perlmonks.org/?node_id=127079|Perl Monks - The Monastery Gates "Is reference blessed?"]].
+  *[[http://www.stackoverflow.com/questions/392135/what-exactly-does-perls-bless-do|Stack Overflow "What exactly does Perl's 'bless' do?"]].
+  *[[http://www.tutorialspoint.com/perl/perl_bless.htm|tutorialspoint (TP) "PERL bless Function"]] - with code example.
+=== Moose, Mouse, Any::Moose, Moo Resources ===
+  *[[http://blog.afoolishmanifesto.com/archives/1454|A Foolish Manifesto fREWdiculous! "Moo: woohoo!"]], 2010-11-15.
+  *[[http://cjuan.wordpress.com/2012/09/03/moo-an-small-oo-perl-module/|Carlos - "Programming notes. It's code … not magic!!": "Moo, an small OO perl module"]].
+  *[[http://blog.jdpfu.com/2011/12/02/of-moose-mouse-moo-and-mo-for-oo-perl|JDPFu.com 2013. Open Source Technologist "Of Moose, Mouse, Moo, and Mo for OO Perl"]].
+  *[[http://www.petekeen.net/moose-vs-mouse|Peter Keen "Moose vs Mouse and OOP in Perl"]].
+  *[[http://www.pal-blog.de/entwicklung/perl/perl-vs-moose-vs-mouse.html|PAL-Blog "Perl vs. Moose vs. Mouse"]].
+  *[[http://blogs.perl.org/|Perl Blogs]].
+    *[[http://blogs.perl.org/users/toby_inkster/2012/12/moo-how-do-you-annoy-me-let-me-count-the-ways.html|Toby Inkster "Moo, how do you annoy me? Let me count the ways..."]].
+    *[[http://blogs.perl.org/users/diab_jerius/2013/02/exploring-pluggable-backends-in-moo.html|Diab Jerius "Building pluggable backends with Moo"]].
+    *[[http://blogs.perl.org/users/sawyer_x/2012/07/anymoose-is-out-moo-is-in.html|Sawyer X "Any::Moose is out, Moo is in!"]], 2012-07-21.
+  *The commercial online service [[http://www.perlmaven.com/|Perl Maven]].
+    *[[http://www.perlmaven.com/moo|Perl Maven "Moo - Minimalist Object Orientation for Perl"]].
+    *[[http://www.perlmaven.com/videos/oop-with-moo|Perl Maven, Videos "OOP with Moo"]].
+  *[[http://www.shadow.cat/blog/matt-s-trout/moo-versus-any-moose/|Shadowcat Systems Limited - CPAN Support "Moo versus Any::Moose"]].
+  *[[http://www.stackoverflow.com/questions/9746544/moo-lazy-attributes-and-default-coerce-invocation|Stack Overflow "Moo, lazy attributes, and default/coerce invocation"]].
+=== Resources ===
+  *There is no "new()" for modules with Perl, You have to write the code by yourself if you need such. "bless" is the only function given to you with native Perl.
+  *[[http://de.selfhtml.org/perl/index.htm|SelfHTML "Perl"]].
+    *[[http://de.selfhtml.org/perl/sprache/objekte.htm|SelfHTML "Perl / Perl-Sprachelemente / Objektorientiertes Programmieren"]].
+  *[[http://world.std.com/~swmcd/steven/|Steven McDougall]].
+    *[[http://world.std.com/~swmcd/steven/perl/|Steven McDougall "Perl Module Mechanics & Related Phenomena"]].
+      *[[http://world.std.com/~swmcd/steven/perl/objects.html|Steven McDougall "Object-oriented programming in Perl"]].
+  *[[http://www.perlunity.de/perl/tutorial/objects.shtml|perlUNITY "Roland Dietlicher: Einstieg in die Perl-Programmierung. Einführung in Perl 5 Objekte"]].
+==== Error Handling and Signals ====
+  *[[http://www.cs.cf.ac.uk/Dave/PERL/node107.html|A. D. Marshall "Practical Perl Programming": "Handling Errors and Signals"]].
+  *[[http://perldoc.perl.org/functions/die.html|perldoc.perl.org - Perl Programming Documentation "die"]].
+  *[[http://www.perlmonks.org/?node_id=51097|Perlmonks "Perl's Warn and Die Signals"]].
+  *[[http://www.tutorialspoint.com/perl/perl_error_handeling.htm|tutorialspoint (TP) "Error Handling in PERL"]].
+  *Stack Overflow.
+    *[[http://www.stackoverflow.com/questions/3896060/how-can-i-make-perl-die-if-a-warning-is-generated|Stack Overflow "How can I make Perl die if a warning is generated?"]].
+    *[[http://www.stackoverflow.com/questions/17306466/does-die-have-to-be-used-if-opening-a-file-fails|Stack Overflow "Does die have to be used if opening a file fails?"]].
+
+
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Programming/Languages/Perl/|OpenDirectory "Top: Computers: Programming: Languages: Perl]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Programmieren/Sprachen/Perl/|OpenDirectory "Top: World: Deutsch: Computer: Programmieren: Sprachen: Perl"]].
+ {{tag>"Unix script language" "script language" Perl}}
+<footnote_navi_en>
+

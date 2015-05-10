@@ -1,0 +1,314 @@
+====== [hemmerling] Telephony APIs and Telephony API Services (TAPI) ======
+
+===== Telephone Provider API Services =====
+  *[[http://www.google.com/voice/|Google Voice]].
+  *[[http://www.live.sipgate.de/faq/article/434/Was_ist_die_sipgate_API_und_welche_Funktionen_bietet_sie|sipgate API]] - via remote procedure calls (RPC), with [[http://de.wikipedia.org/wiki/XML-RPC|XML-RPC]] messages. Sample code for .NET and Perl is available.
+  *Telekom [[http://www.developergarden.com/user/|Developergarden]].
+    *[[http://www.developergarden.com/openapi/sdk|Developer Garden Software Development Kits (SDKs)]].
+
+===== Microsoft Telephony Application Programming Interface ( TAPI ) =====
+==== Telephones with TAPI Support ====
+  -Analog Telephones with TAPI support.
+    *[[http://www.tiptel.de|Tiptel AG]].
+      *tiptel 175 clip, tiptel 274, tiptel 275 ( [[http://www.tiptel-online.ch/support/techinfo/technik.asp?produkthgrp_id=1&produktgrp_id=1&lang_id=1&page_id=1|Tiptel  - TAPI drivers download]] ).
+  -ISDN Telephones and ISDN cards with TAPI support.
+     *[[http://www.dialogic.com|Dialogic Deutschland GmbH]]
+       *Diva ISDN USB, Diva Pro PC Card, Diva PCI, Diva Pro PCI, Diva ISDN+CT v2 - [[http://www.dialogic.com/products/tdm_boards/diva_client/Diva_Client_for_Windows.htm|Dialogic® Diva® Client Software Suite for Windows]] is shipped with a TAPI driver.
+    *Funkwerk
+      *Funkwerk [[http://www.funkwerk-ec.com/prod_elmeg_cs410_main_de,90941,194.html|elmeg CS410, CS410-U]].
+      *Funkwerk [[http://www.funkwerk-ec.com/prod_elmeg_t444_main_de,90921,194.html|elmeg T444]].
+      *Funkwerk [[http://www.funkwerk-ec.com/prod_elmeg_t484_main_de,90922,194.html|elmeg T484]].
+    *[[http://www.gigaset.com/|Gigaset Communications GmbH]] ( formerly: Siemens Gigaset ).
+       *Gigaset SX255 isdn, SX303 isdn, SX353 isdn - A TAPI driver is provided by the free "Gigaset talk&surf" software.
+    *[[http://content.nec-philips.com/hq/productrange/12?f=904|NEC PHILIPS UNIFIED SOLUTIONS "ErgoLine"]].
+      *ErgoLine D330, ErgoLine D340 are shipped with a TAPI driver.
+    *Swissvoice Eurit ( Eurit - formerly by ASCOM )
+      *[[http://www.swissvoice.net/chde/htm_chde/07_products/ds_eurit_4000.html|Eurit 4000]].
+      *[[http://www.swissvoice.net/chde/htm_chde/07_products/ds_officetool.html|Eurit Office Tool]] ( today:     [[http://www.estos.de/unified-communications-amp-klassische-cti/euritelpro.html|ESTOS GmbH "EuritelPro"]] ) is shipped with a free "Euritel TAPI driver".
+    *[[http://www.telekom.de/|Telekom]].
+      *T-Comfort, T-Eumex , Europa, Teledat, T-Concept - free TAPI drivers ( Download [[http://www.tapicall.de/index.htm?tapi-treiber/index.htm~mainFrame|TAPI drivers for T-Comfort, T-Eumex , Europa, Teledat, T-Concept]] ).
+    *[[http://www.tiptel.de|Tiptel AG]].
+      *tiptel 192, tiptel 192 plus, tiptel 193, tiptel 193 plus, tiptel 195, tiptel 292 ISDN/CTI, tiptel 293 ISDN/CTI/Mailbox ( [[http://www.tiptel.de/support/techinfo/technik.asp?produkthgrp_id=2&produktgrp_id=1&lang_id=1&page_id=1| Tiptel  - TAPI drivers download]] ).
+  -Softphones with TAPI support.
+    *Nero SIPPS - discontinued free softphone for Windows, with TAPI support. Please visit my web page "[[sip.html|SIP Telephony]]" for further details.
+    *T-Online Internet-Telefon - discontinued free softphone for WinXP, with TAPI support. Please visit my web page "[[sip.html|SIP Telephony]]" for further details.
+    *[[http://www.globaliptel.com/|Global IP Telecommunications Ltd.]].
+      *[[http://www.globaliptel.com/eng/content/Content/Ninja/pro.html|"Ninja Pro"]], commercial softphone for Windows.
+    *The commercial edition of the softphone "3CX VOIP Client" is shipped with TAPI support. Please visit my web page "[[sip.html|SIP Telephony]]" for further details.
+    *The free softphone "Phoner" is shipped with TAPI support. Please visit my web page "[[sip.html|SIP Telephony]]" for further details.
+  -VoIP hardware phones and DSL routers ( with/without ISDN or Analog ) with TAPI support.
+    *[[http://www.aastra-detewe.de|Aastra DeTeWe]]. 
+      *Aastra 50i SIP phones - Aastra suggests to use SIPTAPI.
+    *Fritz!Box with free AVM "TAPI Services for FRITZ!Box". Please visit my web page "[[sip.html|SIP Telephony]]" for further details.
+    *[[http://www.auerswald.de/|Auerswald GmbH & Co. KG]].
+      *Auerswald COMpact 2104-2 USB, 2204 USB, 2206, 3000, 4410, 5010, 5020, are shipped with a TAPI driver.
+    *snom 870, snom 820, snom 370 snom 360, snom 320, snom 300, snom m3 - a commercial TAPI driver is avialable. Please visit my web page "[[sip.html|SIP Telephony]]" for further details.
+  -System telephones with TAPI support.
+    *[[http://www.alcatel-lucent.com/|Alcatel-Lucent]].
+      *Alcatel 4034, Alcatel 4035 advanced  are shipped with a TAPI driver.( [[http://www.tapicall.de/tapi-treiber/|TAPI driver download )]].
+    *[[http://www.auerswald.de/|Auerswald GmbH & Co. KG]].
+      *Auerswald COMfortel 2500, 2500 AB are shipped with a TAPI driver.
+    *[[http://www.aphona.com/|Funkwerk Aphona Communications GmbH]].
+      *Aphona M37 is shipped with a TAPI driver.
+    *[[http://www.enterprise-communications.siemens.com/|Siemens Enterprise Communications GmbH & Co. KG]].
+      *optiset E, optiPoint 410, optiPoint 500, optiPoint 600 - can operate with the free CallBridge TAPI driver software.
+    *Telekom
+      *Octophon, Octopus - free TAPI drivers ( Download [[http://www.tapicall.de/index.htm?tapi-treiber/index.htm~mainFrame|TAPI drivers for Octophon, Octopus]] ).
+      *[[http://hilfe.telekom.de/hsp/cms/content/HSP/de/3388|Telekom Hilfe & Service - Downloads]] / Geräte & Zubehör / Telefonanlagen / Octopus Serie / [[http://hilfe.telekom.de/hsp/cms/content/HSP/de/3388/theme-71990825/theme-2001020/theme-2000563/theme-2000486|Octopus E10/20/30/300/800/5000]].
+        *"Octopus E10/20/30/300/800/5000 - Entwicklerdokumentation zu Octopus E Tapi-Link (engl.). Die Dokumentation ist nur für Applikations-Programmierer erforderlich" = "TAPI-Link zur Anschaltung von TAPI-Applikationen unter Windows 95, 98 und NT 4.x. CallBridge TA, CorNet TS/WP TAPI Service Provider. Supplement to the Microsoft Windows Telephony Application Programmer's Guide Version 1.5".
+
+==== Tools ====
+  *SIP TAPI, SIPTAPI
+    *[[http://www.ipcom.at/index.php?id=561|ipcom "SIPTAPI"]], [[http://www.enum.at/SIP-TAPI.479.0.html|enum.at "SIP TAPI"]].
+    *[[http://www.sourceforge.net/projects/siptapi/|Sourceforge "siptapi"]], [[http://siptapi.sourceforge.net/|Sourceforge "siptapi"]]
+    *[[http://sipx-wiki.calivia.com/index.php/|SIP Foundry]]: [[http://sipx-wiki.calivia.com/index.php/Click-to-Dial_for_Outlook%2C_CardScan%2C_ACT!_using_SIP_TAPI|Click-to-Dial for Outlook, CardScan, ACT! using SIP TAPI]].
+  *Asterisk TAPI Service Provider (TSP)
+    *[[http://activa.sourceforge.net/|Sourceforge "Activa for Asterisk, by activa"]]., [[http://sourceforge.net/projects/activa/|Sourceforge "Activa for Asterisk, by activa"]].
+    *Blog [[http://voip-buzz.com/2007/10/16/asterisk-with-your-tapi-application/|VoIP Buzz: "Asterisk with your TAPI application"]].
+  *The commercial [[http://www.terasens.com/products/terasip/|TERASIP TSP. TAPI Service Provider for SIP]] - "A single-line version is free for personal use".
+  *[[http://www.phonesuite.de/|PhoneSuite]] "TAPI for Asterisk", "TAPI for snom" - commercial TAPI driver.
+  *[[http://www.estos.com/|ESTOS GmbH]].
+    *[[http://www.estos.de/unified-communications-amp-klassische-cti/euritelpro.html|ESTOS GmbH "EuritelPro"]], is shipped with a free "Euritel TAPI driver".
+    *[[http://www.estos.com/produkte/ecstasnom/index.html|ESTOS ECSTA for snom]] - TAPI driver for Snom phones.
+    *[[http://www.estos.com/produkte/tapiserver/|ESTOS Tapiserver]].
+    *[[http://www.estos.de/service-amp-support/unterstuetzte-tk-systeme.html|TAPI-Treiber. Auswahl der unterstützten Telekommunikations - Systeme]] - names the supported TAPI versions ( TAPI 1.4, TAPI 2.0, TAPI 3.0 ) of the TAPI drivers of many telephones.
+    *[[http://www.exceletel.com/products/telescope/trial.htm|ExceleTel TeleScope]] - "After installation, the Telescope trial version will run for 10 minutes, then shut down for 2 minutes. You may evaluate the trial version for 30 days."  
+  *The commercial [[http://www.ilink.de/|ilink Kommunikationssysteme GmbH "ilink TAPI-Testsuite"]].
+   
+
+==== TAPI Enabled Software and Hardware ====
+  *The commercial [[http://www.microsoft.com/outlook/|Microsoft Outlook]].
+  *The commercial [[http://www.crmaddon.com/|CRMADDON Factory GmbH "ACT!"]].
+  *The commercial software [[http://www.tapicall.de/|TAPICall]].
+    *[[http://www.tapicall.de/index.htm?tapi-treiber/index.htm~mainFrame|TAPI-Treiber Download Bereich]] - list of TAPI enabled hardware phones, communication servers and soft phones.
+  *[[http://outlookinfodesk.de/Produkte/InfodeskPhone/tabid/79/Default.aspx| Fischer Software - Berlin "Infodesk Phone (CTI)"]] for WinXP with .NET 3.5 - the freeware version works just with Fritz.Box.
+  *[[http://www.cardscan.com|CardScan]].
+  *The commercial [[http://www.kaed.com/kdtele/|KDTele Tools]].
+  *The commercial [[http://www.othello-consultants.co.uk/|GoldMine CRM]].
+  *[[http://www.tapimaster.de/|TAPIMaster]] by Tino Kasubke.
+    *The free "TAPIMaster Line Watcher".
+    *The free "TAPIMaster", limited to be used with up to 4 clients.
+  *The commercial [[http://www.scendix.com/|Scendix Software, Inc. "TapiRex"]].
+  *Ralf Steinrücken, ITecSoft.
+    *The free ( [[http://www.phonesuite.de/|PhoneSuite CIT]], [[http://www.xtelsio.com/|xtelsio CTI]] ) Client light.
+    *The commercial ( [[http://www.phonesuite.de/|PhoneSuite CIT]], [[http://www.xtelsio.com/|xtelsio CTI]] ) Client Standard / Professional.
+  *The discontinued commercial "TalkWorks PRO - 3.0".
+    *[[http://en.wikipedia.org/wiki/TalkWorks|EN.Wikipedia: "TalkWorks"]].
+  *[[http://web.archive.org/web/*/http://www.ozemail.com.au/~katalina/cvidx.htm|CIDview]] by [[http://katalinatech.com/|Katalina Technologies]] - discontinued free TAPI-compliant Caller ID monitor for Windows and Microsoft's Unimodem V driver ( - Apr 27, 1999 ). 
+    *[[http://voiceguide.com/forums/index.php?showtopic=6482|Forum Thread "I Am Interested In A Copy Of The Discontinued 'cidview 1.2'. Discontinued Caller ID monitor with TAPI support"]].
+    *Download [[http://www.voiceguide.com/release/CIDview12.exe|CIDview12.exe]].
+
+==== TAPI SDKs, TAPI Frameworks, TAPI Controls ====
+  *[[ftp://ftp.microsoft.com/developr/TAPI/]].
+  *[[http://en.wikipedia.org/wiki/Microsoft_Windows_SDK|EN.Wikipedia: "Microsoft Windows SDK"]].
+    *[[http://www.microsoft.com/downloads/details.aspx?FamilyId=484269E2-3B89-47E3-8EB7-1F2BE6D7123A&displaylang=en|Windows® Server 2003 R2 Platform SDK Full Download]], for W2k.
+    *[[http://www.microsoft.com/downloads/details.aspx?FamilyId=F26B1AA4-741A-433A-9BE5-FA919850BDBF&displaylang=en|Windows SDK for Windows Server 2008 and .NET Framework 3.5]].
+    *The directory ".\Samples\NetDS\Tapi" contains the samples
+      *".\Samples\NetDS\Tapi\Tapi2".
+      *".\Samples\NetDS\Tapi\Tapi3".
+      *".\Samples\NetDS\Tapi\Tapi3\VBScript\calldemo.Htm".
+  *[[http://en.wikipedia.org/wiki/Windows_Driver_Kit|Windows Driver Kit (WDK)]].
+    *[[http://www.microsoft.com/whdc/devtools/ddk|Windows Server 2003 DDK]], for W2k.
+    *[[http://www.microsoft.com/whdc/devtools/WDK/|Windows Driver Kit (WDK)]] for WinXP ).
+  *The commercial framework [[http://www.traysoft.com/addtapi_overview.htm|AddTapi.NET 1.2]] for .NET 2.0. AddTapi.NET supports TAPI 1.3 - 2.2. Fully functional demo version available, which displays a demo message.
+  *The commercial [[http://www.activetapi.de/|activeTAPI]] for .NET 2.0 - "free for private purpose up to two users".
+  *The commercial [[http://www.exceletel.com/|ExceleTel TeleTools]] - "A collection of ActiveX and VCL controls you call from your telephony application".
+  *The commercial [[http://www.deepsoftware.com/nrcomm/|nrComm Lib]] for Embarcadero Delphi and Embarcadero C++ Builder - "includes TnrCommTAPI component for work with TAPI devices" - trial version with nag screen is available.
+  *The commercial [[http://www.vaxvoip.com/|VaxVoIP SIP (Session Initiation Protocol) SDK]] ( file formats: ACTIVEX(.OCX) for .NET, CABINET (.CAB), LIBRARY (.LIB) for C++ ). A trial version with 30 days evaluation time is available.
+  *The commercial [[http://www.research-lab.com/Dialgo1read.htm/|Research-Lab Inc. "Dialgo Wave Modem ActiveX v3.0"]].
+  *The commercial [[http://www.toptapi.de/|topTapi]] ( file formats: ActiveX and DLL ) - "topTapi ist ein Tool für Entwickler unter Visual Basic, ACCESS, EXCEL, Delphi, .NET und anderen Entwicklungsumgebungen, die ActiveX unterstützen". 
+    *[[http://www.topsolutions.de/englisch/pages/topTapi/faq.html|topTapi FAQ]].
+
+==== Windows Server ====
+  *Windows Help "tapi"
+    *tcmsetup.exe
+    *rasdial.exe
+    *"Phone And Modem Options"
+      *"Microsoft H323 TAPI Service Provider".
+      *"SIPPS TAPI Provider"
+      *"TAPI Kernel-Mode Service Provider"
+      *"Unimodem 5 Service Provider".
+==== Resources ====
+  *[[http://en.wikipedia.org/wiki/Computer_telephony_integration|EN.Wikipedia: "Computer telephony integration"]] (CTI).
+  *[[http://en.wikipedia.org/wiki/Telephony_Application_Programming_Interface|EN.Wikipedia: "Telephony Application Programming Interface"]], [[http://de.wikipedia.org/wiki/TAPI|DE.Wikipedia: "TAPI"]].
+  *[[http://en.wikipedia.org/wiki/Telephony_Service_Provider|EN.Wikipedia: "Telephony Service Provider"]].
+  *[[http://en.wikipedia.org/wiki/Dialer|EN.Wikipedia: "Dialer"]], [[http://de.wikipedia.org/wiki/Dialer|DE.Wikipedia: "Dialer"]] - "Der Begriff Dialer ... erstreckt sich im üblichen Sprachgebrauch nur auf die Premium-Rate-Dialer, also Dialer zur Anwahl von teuren 0900-9-Datenmehrwertdiensten" :-).
+  *[[http://en.wikipedia.org/wiki/Least_cost_routing|EN.Wikipedia: Least-cost routing]], [[http://de.wikipedia.org/wiki/Software_Least_Cost_Router|DE.Wikipedia: Least Cost Router]]. 
+  *[[http://msdn.microsoft.com/en-us/library/ms950407.aspx|MSDN: "Telephony Application Programming Interfaces (TAPI, TSPI, MSPI)"]].
+    *[[http://msdn.microsoft.com/en-us/library/ms734273%28VS.85%29.aspx|Telephony Application Programming Interfaces]].
+  *[[http://msdn.microsoft.com/en-us/library/aa920523.aspx|MSDN Windows Embedded Development Center: "TAPI Application Development"]].
+    *Code Samples for Windows Mobile.
+      *[[http://msdn.microsoft.com/en-us/library/bb158716.aspx|Synchronous TAPI]].
+      *[[http://msdn.microsoft.com/en-us/library/bb158771.aspx|Asynchronous TAPI]].
+      *[[http://msdn.microsoft.com/en-us/library/ms737210%28VS.85%29.aspx|tapiRequestMakeCall Function]] - important for simple TAPI applications which make use of the MS Phone Dialer, which is shipped with Windows ( W2k, WinXP,..).
+  *[[http://support.microsoft.com/kb/841712|Microsoft Article 841712: "Telephony Application Programming Interface (TAPI) functionality is not supported from managed code"]].
+    *TAPI 3.x: 
+      *[[http://en.wikipedia.org/wiki/Component_Object_Model|EN.Wikipedia: "Component Object Model"]].
+  *[[http://support.microsoft.com/kb/299456|Microsoft Article 299456 "OL2000: Clicking "Line Properties" Generates Error Message About an Internal Error in the Automatic Phone Dialer]]".
+  *[[http://msdn.microsoft.com/en-us/library/ms725167%28VS.85%29.aspx|MSDN Network Development Center: "About the Telephony Service Provider (TSP)"]].
+    *"The H323 and IPConf TSPs are not available for use in Windows Vista.. The RTC Client API provides similar functionality".
+  *[[http://www.codeproject.com/KB/vbscript/tapi.aspx|The Code Project: "Creating your first TAPI application"]].
+  *[[http://www.vbsedit.com/|VbsEdit]], [[http://www.vbsedit.com/scripts/network/|VbsEdit Sample scripts]]. Free sample VBS scripts:
+    *[[http://www.vbsedit.com/scripts/network/monitor/scr_909.asp|Monitor TAPI Server Telephony Performance , WMI]].
+    *[[http://www.vbsedit.com/scripts/apps/server/fax/scr_188.asp| List Fax Server Device Providers]].
+  *[[http://www.scriptinternals.com/|ScriptInternals]] by Tobias Weltner. Free sample VBS scripts:
+    *[[http://www.scriptinternals.com/new/us/default.asp?41001|WMI Namespace "root\cimv2"]]
+      *[[http://www.scriptinternals.com/new/us/Support/Internal/WMI_Win32_PerfFormattedData_TapiSrv_Telephony.htm|Win32_PerfFormattedData_TapiSrv_Telephony]].
+      *[[http://www.scriptinternals.com/new/us/Support/Internal/WMI_Win32_PerfRawData_TapiSrv_Telephony.htm|Win32_PerfRawData_TapiSrv_Telephony]].
+  *[[http://www.exceletel.com/|ExceleTel]]
+    *[[http://www.exceletel.com/products/TeleTools/SamplePrograms/|TAPI Sample Programs for Telephony]], with source code.
+  *[[http://voip-sip.info|Siemens Enterprise Communications - Experts Wiki]] - "about Siemens Enterprise Communications VoIP/SIP products, applications and solutions!"
+    *[[http://more.voip-sip.info/index.php/HiPath_OpenOffice_EE_open_interfaces|HiPath OpenOffice EE open interfaces]].
+      *"TAPI Application Developer´s Guide HiPath TAPI 170 V2.0".
+    *[[http://more.voip-sip.info/index.php/HiPath_OpenOffice_ME_open_interfaces|HiPath_OpenOffice_ME_open_interfaces]].
+    *[[http://more.voip-sip.info/index.php/CallBridge_Collection|CallBridge Collection]] - TAPI driver.
+    *[[http://more.voip-sip.info/index.php/HiPath_TAPI_170_TSP|HiPath TAPI 170 TSP]] - TAPI driver.
+  *[[http://tapi.safe-install.com/|Safe-Install: "TAPI"]].
+  *[[http://www.ddj.com/cpp/184403563?pgno=10|Dr.Dobbs Journal - John Petz: "A C++ Telephony Interface"]].
+  *[[http://slime.pe.kr/tc/120|"Controlling Modems with Win32::SerialPort"]].
+  *[[http://web.archive.org/web/*/http://www.microsoft.com/msj/code1993to1997/MSJAUG96.ZIP|Microsoft Journal (MSJ), August 1996]] - "MSJ Voicemail sample application" ( Alternative download: [[http://ftp.monash.edu.au/pub/msj/newfiles/MSJAug96.zip]] ).
+  *[[http://web.archive.org/web/*/http://www.microsoft.com/MSJ/0498/code/MSJapr98.zip|MSJ April 1998]] - "Microsoft Journal (MSJ), SimpleTAPI sample application" ( Alternative download: [[http://www.decuslib.com/decus/vmslt98a/nt/msjapr98.zip]] ).
+  *"ExactTime" by Charles Petzold. ( Download: [[ftp://ftp.chatnfiles.com/Simtel-CDroms/Simtel-for-Ms-Dos-Jan-2001/simtel/pcmag/v16n20.zip|v16n20.zip]] ).
+  *[[http://www.sholl.com.au/Second_hand_phones/Second_hand_phones.html|sholl communications]] - "Refurbished Phones".
+  *[[http://www.sharewareconnection.com/titles/sip-device-line-tapi.htm|Software Download: Sip Device Line Tapi]].
+  *[[http://blog.vyvojar.cz/tom/archive/2004/08/18/1561.aspx|Tom's miniBlog "Example: How to Establish Data Call Using TAPI 3 in C#"]].
+  *[[http://www.programmersheaven.com/download/2412/download.aspx|Programmersheaven "EnumTAPI is a sample console app that enumerates all the"]] .. "devices made available by TAPI and prints relavent information on each one. (C src)"
+
+==== Forum Resources ====
+  *[[http://en.pudn.com/|Programmers United Develop Net]] ( PUDN ).
+    *[[http://en.pudn.com/search_db.asp?keyword=tapi|PUDN Search for "tapi"]].
+    *[[http://en.pudn.com/search_db.asp?keyword=tapi+vbscript|PUDN Search for "tapi vbscript"]].
+  *[[http://www.codeguru.com/forum/|Codeguru Forum]].
+    *"[[http://www.codeguru.com/forum/showthread.php?t=119608|TAPI Programming]]".
+      *[[http://www.bersoft.com/webpacker/help/html-en/window_external.htm| Window.external methods]] of the Internet Explorer Document Object Model.
+  *[[http://www.vbforums.com/|VBWire VBForums]].
+    *"[[http://www.vbforums.com/showthread.php?t=398578|dial using modem fax]]".
+  *[[http://www.eggheadcafe.com/|EggHeadCafe]].
+    *"[[http://www.eggheadcafe.com/community/aspnet/8/10066818/using-tapi-in-vbscript-fo.aspx|Using Tapi in Vbscript for dialing]]".
+    *"[[http://www.eggheadcafe.com/software/aspnet/29956685/vbscript-tapi-not-html.aspx|vbscript Tapi not HTML]]" - "I'd rather suggest creating a COM object (with VB6 or C++) and consume this COM object from VBScript. This gives you the advantage of type safety and much better debugging".
+  *[[http://www.bigresource.com/|BigResource ]].
+    *"[[http://www.bigresource.com/VB-How-Can-I-run-a-VBScript-with-Asynch-Call-from-a-vbp-project--3lYEsKJB7.html|How Can I Run A VBScript With Asynch Call From A Vbp Project ?]]".
+      *"CAll Monitoring Project Using TAPI3.0 W/Source Code &amp; Sample Program".
+  *[[http://www.ureader.com/|Ureader.com - Microsoft software help and Community]].
+    *"[[http://www.ureader.com/msg/1481427.aspx|Tapi Dialer VB.NET / ASP.NET]]".
+      *With TAPI3 very basically (without events) it is:
+        - ITTAPI::Initialize()
+        - ITTAPI::get_Addresses()
+        - ITCollection::get_Item ()
+        - ITAddress::CreateCall()
+        - ITBasicCallControl::Connect()
+        - ITBasicCallControl::Disconnect()
+        - ITTAPI::Shutdown()
+        - .Release all objects
+  *[[http://forum.snom.com/|snom Forum]].
+    *[[http://forum.snom.com/index.php?showtopic=2184|How to dial with a computer, by making use of a SNOM telephone ?]].
+  *[[http://www.c-plusplus.de/forum/|C/C++ Forum]].
+    *[[http://www.c-plusplus.de/forum/viewtopic-var-p-is-96670.html|TAPI 2 : TSPI_lineGetCallInfo - callerID]].
+    *[[http://www.c-plusplus.de/forum/viewtopic-var-p-is-84906.html|ITBasicCallControl - Problem]].
+
+==== Experts ====
+  *Andreas Marschall.
+    *[[http://www.i-b-a-m.de/Andreas_Marschall%27s_TAPI_and_TSPI_FAQ.htm|Andreas Marschall’s TAPI and TSPI FAQ]].
+    *[[http://www.i-b-a-m.de/Andreas_Marschall%27s_Toto_Tools.htm|Andreas Marschall’s Toto Tools]].
+  *[[http://tapifaq.pennypacker.org/tapifaq1.html|Bruce Pennypacker "My unofficial TAPI FAQ"]].
+    *[[http://tapifaq.pennypacker.org/tapifaq5.html|TAPI Books and References]].
+  *[[http://grantschenck.tripod.com/|Grant Schenck Software]] - "TAPI course notes".
+  *[[http://www.rainyjay.com/tapi/tapi.htm|Michael Dunn's TAPI Site]].
+  *[[http://www.julmar.com/tapi/|Mark Smith, JulMar Technology]] - free TAPI tools, TAPI SDKs and .NET / C++ sourcecode for TAPI libraries. Btw, the E-Mail address of Mark is a little bit "hidden" on the page, but it's there :-) !
+  *Matthias Moetje
+    *[[http://www.tapi.info/|tapi.info - Microsoft Telephony API Wiki]].
+    *[[http://www.terasens.com|TERASENS GmbH]].
+  *[[http://www.huebler.org/|Michael Hübler]].
+    *[[http://www.huebler.org/mh/ctdhard.html|c'tDialer, Hardware]].
+    *[[http://www.huebler.org/mh/ctdsoft.html|c'tDialer, Software]] - a TAPI Service Provider.
+    *[[http://www.huebler.org/mh/euritver.html|Versionen der Eurit Serie]] - "Bekannte Firmware-Versionen und ihre Bedeutung für den c'tDialer".
+    *[[http://www.heise.de/kiosk/archiv/ct/1997/8/282|Michael Hübler: "Wahllokal. c't-Dialer: Wählautomat für das ISDN-Telefon Ascom Eurit"]].
+  *[[http://www.delphiclub.de/|Jörg Friebel]].
+    *[[http://tapi.delphiclub.de/|Delphi Club "TAPI Projekt"]] (1999 - 2006 ).
+      *[[http://tapi.delphiclub.de/HTML/TreiberHerstell.htm|TAPI Treiber - Nach Hersteller. TAPI Treiber was sie leisten...]] - "Diese Seite möchte alle bekannten Treiberprobleme, Treibereinschränkungen im Zusammenhang mit TAPI auflisten. "
+      *[[http://tapi.delphiclub.de/Praxis/praxis.htm|TAPI Praxis]] - "Jede TAPI Anwendung durchläuft mehr oder weniger die folgenden Punkte...".
+      *[[http://cc.embarcadero.com/Author/86305| Embarcadero Developer Network, CodeCentral. Submissions by Joerg Friebel "TAPI Components for Delphi"]].
+
+
+==== Books ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0201634503/hemmerling-21|Chris Sells: "Windows Telephony Programming: A Developer's Guide to Tapi"]].
+    *[[http://www.sellsbrothers.com/|Chris Sells, Program Manager in the Distributed Systems Group at Microsoft]].
+      *[[http://www.sellsbrothers.com/writing/telprog/|=>writing. The Book]].
+    *[[http://mysite.verizon.net/robert.bamberg/csells.htm|Source Code for "Windows Telephony Programming - A Developer's Guide to TAPI", by Chris Sells, officially maintained by Robert Bamberg]].
+    *The book covers TAPI 2.0 in detail, but there is just an advance preview of TAPI 3.0 :-(.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1556156685/hemmerling-21|Charles A. Mirho, Andre Terrisse: "Communications Programming for Windows 95"]] - "A book/disk package explaining two important communications components in Windows: the Telephony API (TAPI) and the Messaging API (MAPI)".
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0672309289/hemmerling-21|Michael C. Amundsen: "Mapi, Sapi, and Tapi: Developer's Guide"]].
+    *[[http://www.amundsen.com/|Michael C. Amundsen]], [[http://www.amundsen.com/mstdg/|MAPI, SAPI, TAPI Developer's Guide]] ( Download of source code ).
+    *[[http://www.ssuet.edu.pk/taimoor/books/0-672-30928-9/|"Mapi, Sapi, and Tapi: Developer's Guide", HTML Online Version]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1571690115/hemmerling-21|Tony Davis, John Eaton, R. Murray Goertz: "Windows 95 Multimedia & Odbc Api Bible: Multimedia and Networking Bible"]] - "This book contains a complete section on TAPI programming, including chapters on TAPI phone & line devices, and assisted telephony".
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3827245001/hemmerling-21|Richard J. Simon: "Windows 95 / Windows NT AP Bible III. Multimedia, ODBC und Telefonie"]].
+    *Part II Telefonie, Chapter 9 - 12.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3877918867/hemmerling-21|David Hamilton, Mickey Williams: "Windows NT 4. Programmierung für Insider"]].
+    *Chapter 28 "TAPI".
+
+===== Common ISDN Application Programming Interface ( CAPI ) =====
+  *[[http://de.wikipedia.org/wiki/Capi|DE.Wikipedia: "Common ISDN Application Programming Interface"]] (CAPI).
+  *[[http://www.capi.org/|CAPI Association]].
+  *The free opensource CapiSuite - "ISDN telecommunication suite, ...which can be controlled from Python scripts".
+    *[[http://www.capisuite.de/|Old Homepage of CapiSuite]] by Gernot Hillier.
+    *[[http://capisuite.frankedata.de/|CapiSuite]] by FrankeData, Siegfried Franke e.K..
+
+===== Papers, Thesis Papers =====
+  *Thesis paper [[http://dspace.mit.edu/bitstream/handle/1721.1/42601/36982227.pdf?sequence=1|Greg A. Torluemke: "Versit Tmap - Bridging Two Call-Models in Computer Telephony Integration"]].
+===== Computer Supported Telecommunications Applications (CSTA) =====
+  *[[http://www.ecma-international.org/publications/standards/Ecma-269.htm|Standard ECMA-269
+Services for Computer Supported Telecommunications Applications (CSTA) Phase II]] - CSTA.
+===== Java Telephony API (JTAPI) =====
+  *[[http://en.wikipedia.org/wiki/Java_Telephony_API|EN.Wikipedia: "Java Telephony API"]].
+  *[[http://java.sun.com/products/jtapi/|SUN Developer Network: "Java ME. Java Telephony API (JTAPI)"]].
+  *JTAPI implementations.
+    *Generic JTAPI, JAIN Jcc and JAIN Jcat ( [[http://gjtapi.sourceforge.net/|Sourceforge "gjtapi"]], [[http://www.sourceforge.net/projects/gjtapi|Sourceforge "gjtapi"]] ).
+    *[[http://xtapi.sourceforge.net/|Sourceforge "xtapi"]], [[http://www.sourceforge.net/projects/xtapi/|Sourceforge "xtapi"]].
+      *[[http://d4j.sourceforge.net/|Dialogic for Java]], [[http://www.sourceforge.net/projects/d4j|Dialogic for Java]].
+  *[[http://blog.devrealm.org/2009/03/26/jtapi-overview/|devRealm.org - The developer's realm for Java and telecom applications]].
+    *[[http://blog.devrealm.org/2009/04/05/jtapi-hands-on-part-i/|JTapi hands-on, part I]].
+    *[[http://blog.devrealm.org/2009/05/22/jtapi-hands-on-part-ii/|JTapi hands-on, part II]].
+
+===== Simple Telephony Interface (STLI) =====
+ *[[http://www.ilink.de/de/products/teamcall/|ilink Kommunikationssysteme GmbH "STLI"]] - "STLI was developed to offer basic CTI functionality in an uncomplicated way. With STLI it is possible to furnish any TCP/IP compliant application with telephony functions. For this, script languages like Perl or Python can be used".
+===== Some other Telephony APIs =====
+  *[[http://wiki.3cx.com/api|3CX APIs (Application Programming Interface)]].
+    *[[http://wiki.3cx.com/api/http-api|HTTP API]] - "The Web API requires a licensed 3CX Phone System. It will not work on the free edition".
+  *[[http://www.ifd.net/pman.html|IFD - Ing.-Büro für Datentechnik: "PMAN -- PhoneManager (UNIX) für SCO OpenServer 5.0 und LINUX"]] - free telephone application for Linux.
+  *[[http://en.wikipedia.org/wiki/TSAPI|EN.Wikipedia: "Telephony Server Application Programming Interface"]].
+===== Telephone User Interfaces =====
+  *[[http://en.wikipedia.org/wiki/T9_%28predictive_text%29|EN.Wikipedia "T9 (predictive text)"]], [[http://de.wikipedia.org/wiki/Text_on_9_keys|DE.Wikipedia "Text on 9 keys"]].
+  *[[http://en.wikipedia.org/wiki/Swype|EN.Wikipedia "Swype"]], [[http://de.wikipedia.org/wiki/Swype|EN.Wikipedia "Swype"]].
+
+
+
+===== Hardware =====
+  *[[http://www.telefon.de/kaufen/Retrostar/Voip-Telefonhoerer-fuer-die-Soundkarte.html|Retrostar Voip Telefonhörer für die Soundkarte]].
+  *[[http://www.sipgate.de/voipshop/sipgate/usb_hoerer|Sipgate HS100b USB-Hörer]].
+  *[[http://www.steffensiebert.de/headset/index_d.html|Steffen Siebert: "Ascom Eurit Headset - selbstgebaut"]].
+  *[[http://hlembke.de/e40/|Holger Lembke: "ascom  Eurit 40"]].
+  *Headsets for Elmeg CS410, with U10PS connecting cord ( "Anschlussschnur" ):
+    *[[http://www.plantronics.com/|Plantronics]], e.g. *Plantronics "Firefly F142 N".
+    *[[http://www.jabra.com/|Jabra]] / GN Netcom.
+
+===== Forums, Newsgroups =====
+  *Newsgroup:
+    *[[http://groups.google.com/group/microsoft.public.win32.programmer.tapi|microsoft.public.win32.programmer.tapi]].
+    *[[http://www.microsoft.com/communities/newsgroups/en-us/default.aspx?dg=microsoft.public.win32.programmer.tapi|microsoft.public.win32.programmer.tapi]].
+    *[[http://www.tech-archive.net/Archive/Development/microsoft.public.win32.programmer.tapi/|microsoft.public.win32.programmer.tapi]].
+    *[[http://groups.google.com/group/microsoft.public.win32.programmer.tapi/feed/topics.xml|Atom feed 100 New topics "microsoft.public.win32.programmer.tapi"]].
+    *[[http://groups.google.com/group/microsoft.public.win32.programmer.tapi/feed/msgs.xml|Atom feed 100 New messages "microsoft.public.win32.programmer.tapi"]]
+  *Ancient Newsgroups: [[http://groups.google.com/group/microsoft.public.win95.commtelephony|microsoft.public.win95.commtelephony]], [[http://groups.google.com/group//microsoft.public.win32.programmer.tapi.beta|microsoft.public.win32.programmer.tapi.beta]], [[http://groups.google.com/group/microsoft.public.platformsdk.telephony.tapi_2|microsoft.public.platformsdk.telephony.tapi_2]], [[http://groups.google.com/group/microsoft.public.platformsdk.telephony.tapi_3|microsoft.public.platformsdk.telephony.tapi_3]], [[http://groups.google.com/group/microsoft.public.platformsdk.telephony.tsp|microsoft.public.platformsdk.telephony.tsp]], [[http://groups.google.com/group/microsoft.public.platformsdk.telephony.wte|microsoft.public.platformsdk.telephony.wte]].
+  *Microsoft Discussion Groups
+    *[[http://www.microsoft.com/communities/newsgroups/en-us/default.aspx?dg=microsoft.public.win32.programmer.tapi&cat=en_US_e2e5a0e6-d265-4e98-9e5f-6b077f9e138b&lang=en&cr=US|Discussions in TAPI Programming]].
+    *[[http://www.microsoft.com/communities/newsgroups/en-us/default.aspx?dg=microsoft.public.win32.programmer.wmi&cat=en_US_53370577-e09d-4532-b3ab-cc7cc38ebc4b&lang=en&cr=US|Discussions in WMI Programming]].
+  *[[http://www.terasens.com/support/newsgroups/|TERASENS GmbH Support Forums]].
+  *[[http://www.generation-nt.com/us/win32-programmer-tapi-3231-forums.html|GTN - A Generation of New Technology: "Win32 Programmer > TAPI"]].
+
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Data_Communications/Telephony/Voice_Response_Systems/|OpenDirectory "Top: Computers: Data Communications: Telephony: Voice Response Systems"]].
+  *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Microsoft_Windows/Windows_2000/Programming/|OpenDirectory "Top: Computers: Software: Operating Systems: Microsoft Windows: Windows 2000: Programming"]].
+
+{{tag>TAPI "Microsoft Telephony Application Programming Interface" "Telephony APIs" "Telephony API Services"}}
+
+<footnote_navi_en>

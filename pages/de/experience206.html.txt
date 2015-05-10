@@ -1,0 +1,29 @@
+====== [hemmerling] Compilierung der OpenSource Software "AMBULANT Open SMIL Player" ======
+===== Projekt-Auftrag =====
+Compilierung der OpenSource Software "AMBULANT Open SMIL Player" ( 2011-06-06 - 2011-06-14 ).
+===== Projekt-Auftraggeber =====
+Ein Unternehmen aus Hannover, das den SMIL-Player, angepasst und optimiert für das Abspielen von Digital Signage ( DS ) am Point of Sale ( POS ) seiner Kunden, gern kostenlos zum Download seinen Kunden anbieten möchte.
+===== Projekt-Aufgaben =====
+Compilieren der OpenSource Quelltexte von "AMBULANT Open SMIL Player", Erstellung einer unter Windows lauffähigen Anwendung sowie eines Installationsarchivs.
+===== Eigene Tätigkeiten im Projekt =====
+  *Internet-Recherche.
+    *Welche SMIL-Player gibt es als OpenSource, bzw. kostenlos ?
+    *Digital Signage.
+  *Ermittelung der verwendeten Software-Werkzeuge, durch Durchsuchen der Quelltexte, Skripte und mitgelieferten Dokumentation.
+  *Einarbeitung in die Verwendung der Software-Werkzeuge für das Projekt.
+  *Einarbeiten in die von den Autoren vorgesehenen Methoden und Wege, um aus den OpenSource Quelltexten eine ausführbare Anwendung ( Build ) bzw. ein Installationsarchiv ( Installable ) zu erzeugen.
+  *Nutzung der Software-Werkzeuge, um aus den vorliegenden Konfigurationsdateien aus den Quelltexten eine ausführbare Anwendung bzw. ein Installationsarchiv zu erzeugen.
+  *Modifizieren der Quelltexte, Skripte und Konfigurationsdateien, auch unter Zuhilfenahme einer Internet-Recherche, so daß sie sich fehlerfrei zu einer Anwendung compilieren und linken lassen.
+  *Erstellung der Software-Anwendung und eines Installations-Archivs.
+===== Im Projekt eingesetzte Tools =====
+  *[[http://de.wikipedia.org/wiki/Microsoft_Visual_Studio|Microsoft Visual Studio]].
+  *[[http://de.wikipedia.org/wiki/Doxygen|Doxygen]].
+  *[[http://de.wikipedia.org/wiki/Nullsoft_Scriptable_Install_System|Nullsoft Scriptable Install System]] ( NSIS ). 
+  *[[http://de.wikipedia.org/wiki/OpenOffice.org|OpenOffice]] / [[http://de.wikipedia.org/wiki/Microsoft_Office|Microsoft Office]].
+===== Projekt-Ergebnis =====
+  *Es wurde ein Installationsarchiv erstellt, das eine ausführbare Anwendung installiert. Die Anwendung kann SMIL-Skripte abspielen und JPEG Bilder anzeigen.
+  *Website-Seiten mit den Ergebnissen der Internet-Recherche und der Erfahrung aus dem Prozess des Compilierens der Quelltexte:
+    *[[:en:dsignage.html|Digital Signage with Synchronized Multimedia Integration Language ( SMIL )]].
+    *[[:en:ambulant.html|How to compile, link, build and customize the AMBULANT Open SMIL Player 2.0.2 for Windows]].
+{{tag>Arbeitserfahrung Software}}
+<footnote_navi_de>

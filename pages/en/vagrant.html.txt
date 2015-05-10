@@ -1,0 +1,314 @@
+====== [Hemmerling] Software Development with Vagrant & Chef on VirtualBox ======
+Related pages:
+  *[[ci.html|Continuous Integration ( CI ) & Continous Delivery ( CD )]].
+  *[[devops.html|Development and Operations ( DevOps )]].
+  *[[virtualization.html|Virtual PCs, Virtual Servers, Virtualization, Virtual Computers, Computer Hardware Simulation]].
+  *[[webtech.html|Web Technologies ( HTML5, HTML, XML & Javascript )]].
+===== Oracle VirtualBox & Vagrant =====
+==== Oracle VirtualBox ====
+  *[[http://www.virtualbox.org/|Oracle VirtualBox]] - free OpenSource software, for Linux, WinXP, Vista, Win7. 
+  *License:
+    *[[https://www.virtualbox.org/wiki/VirtualBox_PUEL|VirtualBox Personal Use and Evaluation License (PUEL)]] - "This license applies if you download the full VirtualBox binaries from the Downloads page. It does not apply to the VirtualBox Open Source Edition (OSE), which falls under the GPL instead;", "In summary, the VirtualBox PUEL allows you to use VirtualBox free of charge 1. for personal use or, alternatively, 2. for product evaluation" -> The commercial use of VirtualBox ( without VirtualBox Extension Pack ! ) is just free if you use and compile the OSE edition by yourself.
+    *[[http://www.virtualbox.org/wiki/Editions|VirtualBox and open source]] - "Before version 4.0, there were two editions of VirtualBox: a full binary containing all features and an 'Open Source Edition' (OSE) with source code. With version 4.0, there is only one version any more, which is open source, and the closed-source components have been moved to a separate extension pack" -> The commercial use of the "VirtualBox Extension Pack" requires a commercial license.
+  *"VirtualBox 4.0.6 Oracle VM VirtualBox Extension Pack" - "Support for USB 2.0 devices...".
+    *If your virtual computer supports USB, you may access a USB-2-Ethernet adapter connected to your physical computer, and so you may access a totally different ( sub- ) network by your virtual computer, than that of your physical computer.
+    *[[https://www.virtualbox.org/wiki/Guest_OSes|Oracle VirtualBox "Status: Guest OSes"]].
+  *Virtual Box Guest Additions.
+    *"Insert Guest Additios CD" -> There is a file in the VirtualBox download offer.
+    *Shares: Use "net use x: \\vboxsvr\share" to access a shared folder named share from a DOS-like OS, or "mount -t vboxsf share mount_point" to access it from a Linux OS. This feature requires Guest Additions.
+  *W2k host support.
+    *Virtualbox 1.5.6.1 is one the latest versions for W2k. 
+    *[[virtualbox.html|How to configure Oracle VirtualBox for W2k hosts]], for Oracle VirtualBox 1.6.6.
+  *[[http://virtualboximages.com/|VirtualBoxImages]].
+    *[[http://virtualboximages.com/passwords|VirtualBoxImages "Passwords"]].
+      *"Ubuntu/Debian based distributions - Most of the Ubuntu/Debian distributions do not have the "root" user enabled. It is the "sudo" command that will allow you to perform most functions you would do as root. Another option is to execute the "sudo su" command followed by the password: adminuser".
+  *[[http://en.wikipedia.org/wiki/VirtualBox|EN.Wikipedia "VirtualBox"]], [[http://de.wikipedia.org/wiki/VirtualBox|DE.Wikipedia "VirtualBox"]].
+==== Vagrant ====
+  *[[http://www.vagrantup.com/|Vagrant - Virtualized development for the masses]].
+  *[[http://www.github.com/mitchellh/vagrant|Github "mitchellh / vagrant"]].
+  *[[http://en.wikipedia.org/wiki/Vagrant_%28software%29|EN.Wikipedia "Vagrant (software)"]].
+  *[[http://www.vagrantbox.es/|Vagrantbox.es]] - "A list of base boxes for Vagrant".
+  *[[http://www.vagrantcloud.com/|Vagrant Cloud]].
+    *[[http://vagrantcloud.com/search?utf8=%E2%9C%93&sort=downloads&provider=virtualbox&q=chef%2Fubuntu+13.10|Vagrant Cloud "chef/ubuntu 13.10"]]
+      *chef/ubuntu-13.10-i386 ( A standard Ubuntu 13.10 x32 base install ), 384 MB memory.
+      *chef/ubuntu-13.10 ( A standard Ubuntu 13.10 x64 base install ).
+      *Tip to improve the system performance: 
+        *When installing chef/ubuntu-13.10-i386, press ctrl-c in the shell window running the "vagrant up" process after the process step "Importing base box" is completed, set the system memory by the "Oracle VM VirtualBox Manager" from 384 MB to 1024 MB or more :-), before you continue the installation process with "vagrant up" again. 
+        *Warning: This might prevent the Vagrant system from mounting the file system ?!
+      *User name: "vagrant", password "vagrant".
+    *[[http://www.vagrantcloud.com/chef/|Vagrant Cloud "chef"]].
+  *[[http://en.wikipedia.org/wiki/Vagrant_%28software%29|EN.Wikipedia "Vagrant (software)"]].
+==== Chef & Puppet ====
+  *Vagrant can be configured by "provisioners" ( i.e. Chef, Puppet ): By an SSH shell command on Linux, Chef or Puppet may be used to do complete installation and configuration  of Linux and of Linux applications.
+  *See [[devops.html|Development and Operations ( DevOps )]].
+==== Vagrant Tools ====
+  *[[http://github.com/jedi4ever/veewee|Github "jedi4ever / veewee"]] - "Easing the building of vagrant boxes".
+  *[[http://github.com/BerlinVagrant/vagrant-dns|Github "BerlinVagrant / vagrant-dns"]] - "A plugin to manage DNS records for vagrant environments" ( just for MacOS ?! ).
+==== Resources ====
+  *Vagrant is intended for remote control of VirtualBox. So it is not intended to install an operating system ( e.g. Linux ) on VirtualBox. Indeed a properly installed operating system is mandatory for operation of Vagrant.
+  *A typical goal of a software team is to setup a common target software environment, for production & execution, which can be used for development by the developers. Vagrant & VirtualBox are suitable achieve this goal. According to the "Bring Your Own Device" principle, however the IDE with the development tools is personal property of each developer and installed on the personal computer of each developer. Especially the IDE settings are under indidvidual and personal control of each developer.
+  *The IDE [[http://www.jetbrains.com/phpstorm/|PhpStorm]] 8 supports remote PHP unittest with Vagrant & VirtualBox.
+    *[[http://dutchweballiance.nl/techblog/the-definitive-remote-debug-and-unittest-with-phpstorm-guide-part-1/|Dutch Web Alliance "The definitive remote debug and unittest with PHPStorm guide: part 1"]].
+  *The IDE [[http://www.eclipse.org/|Eclipse]] can be used for cross-compilation on VirtualBox.
+    *[[http://www.mat-d.com/site/developing-android-apps-with-android-x86-and-virtual-box/|MatD - A blog about tech news,programming and cool stuff "Android Tutorial: Developing Android Apps with Android X86 and Virtual Box"]], 2011-04-22.
+    *[[http://www.stackoverflow.com/questions/9737601/develop-on-windows-and-running-on-linux-machines|Stack Overflow "Develop on Windows and running on linux machines"]], 2012-03-16.
+    *[[http://linuxtortures.blogspot.fr/2012/06/cross-compiling-and-cross-debugging-c.html|Linux, C++ and other Tortures "Cross Compiling and Cross Debugging C++ with Eclipse from Debian Squeeze x64 to Debian Squeeze ARM (Raspberry Pi)"]], 2012-06-22.
+    *[[http://www.raspberrypi.org/forums/viewtopic.php?f=31&t=10739|Raspberry Pi Forum "[Howto] Cross compile using Eclipse"]], 2012-07-09 - "Today, I manage to cross compile a simple "Hello world" from a virtual machine running Ubuntu 12.04 to the RaspberryPi".
+    *[[http://www.hertaville.com/2012/09/28/development-environment-raspberry-pi-cross-compiler/|Hertaville "Development Environment for the Raspberry Pi using a Cross Compiling Toolchain and Eclipse"]], 2012-09-28.
+    *[[http://www.stackoverflow.com/questions/17625421/vagrant-for-a-java-project-should-you-compile-in-the-vm-or-on-the-host|Stack Overflow "Vagrant for a Java project: should you compile in the VM or on the host?"]], 2013-06-12.
+    *[[http://www.michaelhleonard.com/cross-compile-for-beaglebone-black/|Michael Leonard, Maker Corner "Using Eclipse to Cross-Compile for BeagleBone Black"]].
+
+===== Setup of a Development Environment for the SocraMOB Hackergarten, either in a predefined VirtualBox ( automatized by Vagrant ) or with local Windows Tools =====
+==== Tools ====
+  *[[http://msysgit.github.io/|Git for Windows]].
+  *[[http://www.gruntjs.com/|Grunt - The JavaScript Task Runner]].
+  *[[http://www.nodejs.org/|Node.JS]].
+  *[[http://www.npmjs.org/|npm]].
+    *[[http://www.npmjs.org/doc/global.html|npm "npm-folders"]].
+  *[[http://www.mongodb.org/|MongoDB]].
+    *[[http://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/|MongoDB "Install MongoDB on Windows"]].
+  *[[http://www.jetbrains.com/webstorm/|Jetbrains Webstorm]] - Commercial IDE with 30 days trial.
+    *[[http://www.codebetter.com/glennblock/2013/01/17/debugging-mocha-unit-tests-with-webstorm-step-by-step/|CodeBetter "Debugging mocha unit tests with WebStorm step by step"]].
+  *[[http://www.visualstudio.com/|Microsoft Visual Studio]].
+    *[[http://msdn.microsoft.com/en-us/library/ms229859.aspx|Microsoft MSDN "Visual Studio Command Prompt"]].
+==== The Project ====
+  *[[http://www.github.com/socramob|GitHub "socramob"]].
+    *[[http://www.github.com/socramob/Agora|GitHub "socramob/Agora"]].
+      *Vagrant / VirtualBox -> chef/ubuntu-13.10-i386 ( A standard Ubuntu 13.04 x32 base install ).
+      *Vagrant / VirtualBox -> chef/ubuntu-13.10 ( A standard Ubuntu 13.04 x64 base install ).
+  *If you boot the virtual machine from VirtualBoxManager, the TTY console "Ubuntu 13.10 vagrant tty1" opens. 
+    *You may login as:
+      *vagrant login: "vagrant".
+      *Password: "vagrant".
+  *On Windows Vista and later, the virtual machines of VirtualBox for the user "Administrator" are stored at "C:\Users\AdministratorVirtualBox\VMs".
+==== Issues specific to the "SocraMOB Hackergarten" Project ====
+=== Vagrant Issues ===
+  *Even with VirtualBox 4.3.8, often the mounting of the file system and so the complete Vagrant installation fails :-(. When I changed the RAM memory from 384 MB to 1024 MB, the mouting failed at least once.
+  *I am not shure if the installation process of Grunt-CLI was successful.
+    *[[http://www.stackoverflow.com/questions/20586164/having-issues-with-grunt-installation|Stack Overflow "Having issues with grunt installation"]].
+    *An expert told me that the "?????????" lines do not indicate an error. Is that true ?
+    *Is this a solution to install Grund-CLI again manually?: 
+      *Login by "vagrant ssh".
+      *Execute "sudo npm install -g grunt-cli".
+    *Message:<code>
+==> default: 200 https://registry.npmjs.org/sigmund/-/sigmund-1.0.0.tgz
+==> default: npm
+==> default:
+==> default: http
+==> default: 200 https://registry.npmjs.org/lru-cache/-/lru-cache-2.5.0.tgz
+==> default: /usr/local/bin/grunt -> /usr/local/lib/node_modules/grunt-cli/bin/grunt
+==> default: grunt-cli@0.1.13 /usr/local/lib/node_modules/grunt-cli
+==> default: ????????? resolve@0.3.1
+==> default: ????????? nopt@1.0.10 (abbrev@1.0.5)
+==> default: ????????? findup-sync@0.1.3 (glob@3.2.11, lodash@2.4.1)</code>
+  *The installation process of "npm install" aborts on the Vagrant system.
+    *Error message:<code>
+> phantomjs@1.9.7-8 install /vagrant/node_modules/karma-phantomjs-launcher/node_modules/phantomjs
+> node install.js
+
+Downloading https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.7-linux-i686.tar.bz2
+Saving to /tmp/phantomjs/phantomjs-1.9.7-linux-i686.tar.bz2
+Receiving...
+Received 13201K total.
+Extracting tar contents (via spawned process)
+Copying extracted folder /tmp/phantomjs/phantomjs-1.9.7-linux-i686.tar.bz2-extract-1401467600229/phant
+686 -> /vagrant/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom
+Writing location.js file
+Done. Phantomjs binary available at /vagrant/node_modules/karma-phantomjs-launcher/node_modules/phanto
+n/phantomjs
+npm WARN prefer global grunt-cli@0.1.13 should be installed with -g
+
+> Agora@1.0.0 prepublish /vagrant
+> sh ./prepublish.sh
+
+fatal: Not a git repository (or any parent up to mount point /vagrant)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+npm ERR! Agora@1.0.0 prepublish: `sh ./prepublish.sh`
+npm ERR! `sh "-c" "sh ./prepublish.sh"` failed with 128
+npm ERR!</code>
+  *When "npm install" aborts on the Vagrant system,
+    *"/vagrant/npm-debug.log" contains the informations:<code>
+2033 silly exec sh "-c" "sh ./prepublish.sh"
+2034 silly sh,-c,sh ./prepublish.sh,/vagrant spawning
+2035 info Agora@1.0.0 Failed to exec prepublish script
+2036 error Agora@1.0.0 prepublish: `sh ./prepublish.sh`
+2036 error `sh "-c" "sh ./prepublish.sh"` failed with 128
+2037 error Failed at the Agora@1.0.0 prepublish script.
+2037 error This is most likely a problem with the Agora package,
+2037 error not with npm itself.
+2037 error Tell the author that this fails on your system:
+2037 error     sh ./prepublish.sh
+2037 error You can get their info via:
+2037 error     npm owner ls Agora
+2037 error There is likely additional logging output above.
+2038 error System Linux 3.11.0-12-generic
+2039 error command "/usr/bin/nodejs" "/usr/bin/npm" "install"
+2040 error cwd /vagrant
+2041 error node -v v0.10.15
+2042 error npm -v 1.2.18
+2043 error code ELIFECYCLE
+2044 verbose exit [ 1, true ]</code>
+=== Issues when using a local Software Installation ===
+  *With local installation of the tool on Windows, one of the tasks for setting up the environment is to install Grunt and its Grunt CLI by "npm install -g grunt-cli"
+    *Error message, if you for example mistyped the installation command by adding a space between "grunt" and "-cli", causing "grunt" to be installed, instead of the required "grunt-cli":<code>
+> Agora@1.0.0 test C:\Users\Public\projects\my_agora
+> grunt
+npm : 'grunt' is not recognized as an internal or external command,
+operable program or batch file.
+npm ERR! Test failed.  See above for more details.
+npm
+</code>
+  *The installation works fine on the local software development system on Windows. But the final test of the local software development system on Windows, by "npm test":
+    *It hangs on my system with local Windows tools. The last message is "Running 'karma:once' (karma) task" :-(.
+    *With the Vagrant system, I never came up to this point :-(.
+===== General Vagrant Issues =====
+==== Vagrant does not run on legacy Hardware :-( ====
+  *On my legacy Win7 computer with "Athlon XP2400" CPU, 3 GB RAM, with Vagrant 1.6.2: Calling "vagrant" ( with or without parameters ) fails by the error message:<code>
+vagrant : Exception 0xc000001d 0x1003f 0x0
+
+PC=
+0x4791be
+time.init
+(
+)
+    
+C:/Users/Mitchell/code/3rdparty/go/src/pkg/time/format.go
+:
+1151
+ +
+0x12e
+os.init
+(
+)
+    
+C:/Users/Mitchell/code/3rdparty/go/src/pkg/os/types_windows.go
+:
+104
+ +
+0x57
+path/filepath.init
+(
+)
+    
+C:/Users/Mitchell/code/3rdparty/go/src/pkg/path/filepath/symlink_windows.go
+:
+69
+ +
+0x52
+github.com/mitchellh/osext.init
+(
+)
+    
+C:/Users/Mitchell/code/go/src/github.com/mitchellh/osext/osext_windows.go
+:
+34
+ +
+0x48
+main.init
+(
+)
+    
+c:/Users/Mitchell/code/mitchellh/vagrant-installers/substrate/launcher/main.go
+:
+134
+ +
+0x3d
+eax     
+0x0
+ebx     
+0x0
+ecx     
+0x0
+edx     
+0x115f3560
+edi     
+0x362110
+esi     
+0x4e1a28
+ebp     
+0x4e1a20
+esp     
+0x362100
+eip     
+0x4791be
+eflags  
+0x10202
+cs      
+0x1b
+fs      
+0x3b
+gs      
+0x0
+</code>
+==== General Issues ====
+  *Issue "Port Forwarding":
+    *[[http://wiki.wireshark.org/Mongo|Wireshark Wiki "Mongo"]] - "The well known TCP port for Mongo traffic is 27017".
+    *Error message during installation:<code>
+vagrant : Vagrant cannot forward the specified ports on this VM, since they
+would collide with some other application that is already listening
+on these ports. The forwarded port to 27017 is already in use
+on the host machine.
+
+To fix this, modify your current projects Vagrantfile to use another
+port. Example, where '1234' would be replaced by a unique host port:
+
+  config.vm.network :forwarded_port, guest: 27017, host: 1234
+  config.vm.network :forwarded_port, guest: 28017, host: 1235
+  config.vm.network :forwarded_port, guest: 17124, host: 1236
+
+Sometimes, Vagrant will attempt to auto-correct this for you. In this
+case, Vagrant was unable to. This is usually because the guest machine
+is in a state which doesn't allow modifying port forwarding.
+</code>
+  *Issue with VirtualBox Guest Additions 4.3.10 and 4.3.12:
+    *[[http://jbisbee.blogspot.de/2014/04/vagrant-cant-mount-shared-folder-in.html|Jeff Bisbee - Change for the Better. Python, Frugal Living, and Wee Bit of Team Fortress 2 "Vagrant can't mount shared folder in VirtualBox 4.3.10 Fix"]], 2014-04-11.
+    *[[http://www.github.com/mitchellh/vagrant/issues/3341|GitHub "mitchellh/vagrant", closed issue " Vagrant can't mount shared folder in VirtualBox 4.3.10 #3341"]].
+    *[[http://www.virtualbox.org/ticket/12879|VirtualBox ticket "Ticket #12879 (closed defect: fixed) - Can't mount shared folders with guest additions 4.3.10 => Fixed in SVN"]].
+    *Solution for VirtualBox 4.3.12 with VirtualBox Guest Additions 4.3.12: 
+      *Either:
+        *Use VirtualBox 4.3.8 with VirtualBox Guest Additions 4.3.8. This works for me!
+      *Or, this did not work for me:
+        *Fix the missing link, either add this line to script "Vagrantfile" or execute the command manually after login as user "vagrant": 
+          *"sudo ln -s /opt/VBoxGuestAdditions-4.3.12/lib/VBoxGuestAdditions /usr/lib/VBoxGuestAdditions" on a 386 system.
+          *"sudo ln -s /opt/VBoxGuestAdditions-4.3.12/lib/VBoxGuestAdditions /usr/lib64/VBoxGuestAdditions" on an x64 system.
+    *Error message with "vagrant up":<code>
+==> default: Machine booted and ready!
+==> default: Checking for guest additions in VM...
+==> default: Mounting shared folders...
+    default: /vagrant => C:/Users/Public/projects/my_agora
+vagrant : Failed to mount folders in Linux guest. This is usually because
+the "vboxsf" file system is not available. Please verify that
+the guest additions are properly installed in the guest and
+can work properly. The command attempted was:
+
+mount -t vboxsf -o uid=`id -u vagrant`,gid=`getent group vagrant | cut -d: -f3` vagrant /vagrant
+mount -t vboxsf -o uid=`id -u vagrant`,gid=`id -g vagrant` vagrant /vagrant
+</code>
+  *Login with "vagrant ssh" fails on Windows without installation of special additional tools. 
+    *Install [[http://msysgit.github.io/|Git]] and add the "bin" folder of the Git installation ( e.g. "C:\Program Files\Git\bin" ) to the system path, to enable Vagrant to use the SSH client of Git.
+    *Error message with "vagrant up" without installed SSH client:<code>
+vagrant : `ssh` executable not found in any directories in the %PATH% variable. Is an
+SSH client installed? Try installing Cygwin, MinGW or Git, all of which
+contain an SSH client. Or use the PuTTY SSH client with the following
+authentication information shown below:
+
+Host: 127.0.0.1
+Port: 2222
+Username: vagrant
+Private key: C:/Users/Administrator/.vagrant.d/insecure_private_key
+</code>
+===== Resources =====
+  *[[http://www.codehenge.net/blog/2013/02/automate-your-development-environment-with-vagrant/|Codehenge "Automate Your Development Environment With Vagrant"]].
+  *[[http://www.jedi.be/blog/2011/03/28/using-vagrant-as-a-team/|Patrick Debois "Using Vagrant as a Team"]].
+  *[[http://wiki.ebabel.eu/index.php/Vagrant-nodejs-angularjs-tutorial|eBabel "Vagrant-nodejs-angularjs-tutorial"]].
+  *[[http://blog.elsleiman.com/post/46502436931/setup-a-node-js-development-environment-with-vagrant|Ray Elsleiman "Setup a Node.js development environment with Vagrant and Salt"]].
+  *[[http://www.jgoodall.me/posts/2013/05/21/vagrant-chef-berkshelf/|John Goodall "Vagrant, Chef, and Berkshelf"]].
+  *[[http://www.opensourceconnections.com/blog/2014/01/06/using-vagrant-with-angularjs/|Opensourceconnections, Scott Stults "Using Vagrant with AngularJS … and NodeJS, and Yeoman, and Compass, and …"]].
+  *Semmy Purewal.
+    *[[http://blog.semmy.me/post/17222183802/node-js-getting-started-with-vagrant|Semmy Purewal "Node.js: Getting Started with Vagrant"]].
+    *[[http://www.github.com/semmypurewal/node-dev-bootstrap|GitHub "semmypurewal/node-dev-bootstrap"]] - "bootstrap a development environment for node.js using Vagrant, includes redis-server and mongodb" #.
+  *[[http://www.github.com/devert/vagrant-nodejs-app-starter|GitHub "devert/vagrant-nodejs-app-starter"]] - "Vagrant Node.js App Starter. A Node.js project starter, utilizing a Vagrant VM (default: Ubuntu 12.04 Precise Pangolin 32-bit) provisioned with Chef Solo".
+  *[[http://stackoverflow.com/questions/20703399/installing-node-npm-and-then-grunt-and-bower-globally-in-vagrant|Stack Overflow "Installing Node, NPM (and then Grunt and Bower globally) in Vagrant"]].
+  *[[http://www.speakerdeck.com/u/felixwahner/p/but-it-worked-on-my-machine|Felix Wahner "But it worked on my machine"]].
+{{tag>virtualization virtualbox vagrant chef node.js}}
+<footnote_navi_en>

@@ -1,0 +1,567 @@
+====== [hemmerling] Java & Java Platform Languages ======
+===== Runtimes, Languages, Compilers, Software Development Kits =====
+==== The Platform ====
+  *[[http://www.oracle.com/technetwork/|Oracle Technology Network]].
+    *[[http://www.oracle.com/us/sun/sun-products-map-075562.html|Oracle "Sun Software Product Map"]].
+    *[[http://www.oracle.com/us/technologies/java/|Oracle "Java Technology"]].
+      *[[http://www.oracle.com/technetwork/indexes/downloads/|Oracle Technology Network - Software Downloads]].
+      *[[http://www.oracle.com/us/sun/sun-products-map-075562.html|Oracle "Sun Software Product Map"]].
+      *[[http://www.oracle.com/technetwork/java/javase/downloads/|Oracle "Java SE Downloads"]] #.
+        *[[http://www.oracle.com/technetwork/java/javafx/downloads/index.html|Oracle "JavaFX"]].
+      *[[http://community.java.net/jdk/|java.net "Open JDK"]].
+        *[[http://www.oracle.com/technetwork/java/javase/community/opensourcejdk-jsp-136417.html|Oracle "Java SE Open-Source JDK"]].
+      *[[http://www.oracle.com/technetwork/java/javase/downloads/previous-jsp-138793.html|Oracle "Java SE Previous Releases Downloads"]].
+      *[[http://www.oracle.com/technetwork/java/embedded/|Java Embedded]].
+      *JDK documentation.
+        *[[http://download.oracle.com/javase/1.4.2/docs/|Oracle "JavaTM 2 SDK, Standard Edition Documentation. Version 1.4.2"]].
+        *[[http://download.oracle.com/javase/1.5.0/docs/|Oracle "JDK 5.0 Documentation"]].
+          *[[http://download.oracle.com/javase/1.5.0/docs/guide/jni/|Oracle "Java Native Interface"]].
+        *[[http://download.oracle.com/javase/6/docs/|Oracle "Java SE 6 Documentation"]].
+        *[[http://download.oracle.com/javase/7/docs/|Oracle "Java SE 7 Documentation"]].
+        *[[http://docs.oracle.com/javase/8/docs/|Oracle "Java Platform Standard Edition 8 Documentation"]].
+          *[[http://www.oracle.com/technetwork/java/javase/documentation/javafx-docs-2159875.html|Oracle "JavaFX Documentation"]].
+      *[[http://download.oracle.com/javase/tutorial/|Oracle "The Java Tutorials"]].
+  *[[http://java.sun.com/|Oracle - Sun Developer Network ( SDN )]].
+    *[[http://java.sun.com/products/jsp/tomcat/|Oracle - Sun Developer Network "JSP. JavaServer Pages - Apache Tomcat"]].
+    *[[http://developers.sun.com/devtools/|Oracle - Sun Developer Network "Development Tools. Sun's Award-Winning Developer Tools — now FREE with SDN Membership!"]].
+    *[[http://java.sun.com/products/plugin/1.3/docs/tags.html|Oracle - Sun Developer Network "Java Plug-in HTML Specification"]].
+  *[[http://www.oracle.com/technetwork/java/javase/tech/index-jsp-136373.html|Java SE HotSpot at a Glance]].
+    *[[http://en.wikipedia.org/wiki/HotSpot|EN.Wikipedia "HotSpot"]], [[http://de.wikipedia.org/wiki/HotSpot|DE.Wikipedia "HotSpot"]].
+==== Java in the Browser ====
+=== Java Webstart ===
+  *I was told that you have to sign your Java applications run by Java Webstart. A [[http://www.cacert.org/|CAcert]] certificate is applicable.
+  *[[http://www.eclipse.org/swt/jws/|Eclipse - SWT "How to deploy SWT Applications using Java Web Start"]].
+  *[[http://en.geopublishing.org/Delete_JWS_cache|geopublishing.org "Delete JavaWebStart cache"]].
+  *[[http://www.webstartfaq.com/|Java(TM) Web Start - FREQUENTLY ASKED QUESTIONS]].
+  *[[http://www.oracle.com/technetwork/java/javase/javawebstart/|Oracle "Java SE Desktop Technologies - Java Web Start Technology"]].
+  *[[http://www.java.com/en/download/faq/java_webstart.xml|Oracle Java.com "What is Java Web Start and how is it launched?"]].
+  *[[http://www.netbeans.org/kb/docs/java/javase-jws.html|NetBeans Docs & Support "Enabling Java Web Start in the NetBeans IDE"]].
+  *[[http://www.stackoverflow.com/tags/java-web-start/info|Stack Overflow "Java Web Start"]].
+  *[[http://www.math.uni-hamburg.de/doc/java/tutorial/information/javawebstart.html|Universität Hamburg, Fachbereich Mathematik "Installing and Using JavaTM Web Start"]].
+  *[[http://en.wikipedia.org/wiki/Java_Web_Start|EN.Wikipedia "Java Web Start"]], [[http://de.wikipedia.org/wiki/Java_Web_Start|DE.Wikipedia "Java Web Start"]].
+=== Java Engines in Javascript ===
+  *Experts told me, that Java engines in Javascript are just suitable to implement [[http://en.wikipedia.org/wiki/Single-page_application|EN.Wikipedia "Single-Page Applications"]].
+  *[[http://wiki.apidesign.org/wiki/Bck2Brwsr|Bck2Brwsr]], [[http://source.apidesign.org/hg/bck2brwsr/|hg/bck2brwsr - Downloads]].
+    *There are two different APIs:
+      -Applications may run in the browser solely, without Java Netbeans.
+      -Applications may run in the browser with installed Java Netbeans.
+  *[[http://www.doppiojvm.org/|Doppio: A JVM in JavaScript]], [[http://int3.github.io/doppio/|GitHub "Doppio. Java on Coffeescript"]], [[https://github.com/int3/doppio|GitHub "int3/doppio - A JVM in TypeScript"]].
+=== Java Plugin ===
+  *Supplied with standard Java runtime, on Windows, MacOSX and Linux.
+==== Some other Platforms ====
+  *[[http://harmony.apache.org/|Apache Harmony]] - "Open Source Java SE".
+    *[[http://en.wikipedia.org/wiki/Apache_Harmony|EN.Wikipedia "Apache Harmony"]], [[http://de.wikipedia.org/wiki/Apache_Harmony|DE.Wikipedia "Apache Harmony"]].
+  *Dalvik VM, for Android.
+    *[[http://en.wikipedia.org/wiki/Dalvik_%28software%29|EN.Wikipedia "Dalvik (software)"]], [[http://de.wikipedia.org/wiki/Dalvik_Virtual_Machine|DE.Wikipedia "Dalvik Virtual Machine"]].
+  *[[http://www.ibm.com/developerworks/java/|IBM developerWorks - Java technology]].
+    *[[http://www.ibm.com/developerworks/java/jdk/|IBM developerWorks - Java technology "IBM developer kits"]].
+  *[[http://gcc.gnu.org/java/|Free Software Foundation (FSF) - "GCJ: The GNU Compiler for Java"]].
+    *[[http://www.cygwin.com/|Cygwin]] - "GNU + Cygnus + Windows = cygwin". 
+  *[[http://www.oracle.com/technetwork/middleware/jrockit|Oracle JRockit]].
+    *[[http://en.wikipedia.org/wiki/JRockit|EN.Wikipedia "JRockit"]].
+  *[[http://www.kaffe.org/|kaffe]], [[http://www.github.com/kaffe/kaffe|github "kaffe"]] - "A clean room implementation of the Java virtual machine, plus the associated class libraries needed to provide a Java runtime environment".
+  *[[http://www.harbaum.org/till/nanovm/|NanoVM]], [[http://nanovm.sourceforge.net/|SourceForge "NanoVM"]], [[http://www.sourceforge.net/projects/nanovm/|SourceForge "NanoVM"]] - "Java for the AVR".
+    *[[http://en.wikipedia.org/wiki/NanoVM|EN.Wikipedia "NanoVM"]], [[http://de.wikipedia.org/wiki/NanoVM|DE.Wikipedia "NanoVM"]].
+  *[[http://www.wabasoft.com//|Wabasoft "Waba"]] - "Waba is a programming platform for small devices. Waba defines a language, a virtual machine, a class file format and a set of foundation classes.The syntax of the Waba programming language is a strict subset of the syntax of the Java language. This allows developers who are familiar with Java to quickly start programming in Waba. The Waba class file and bytecode format are strict subsets of the class file and bytecode format supported by Java".
+    *[[http://www.wabasoft.com/download4.shtml|Wabasoft "Developing Waba programsm / Source for the Waba Virtual Machine / Testing Waba programs"]].
+    *[[http://www.wabasoft.com/vms.shtml|Wabasoft "Waba VM ports and VMs"]].
+      *[[http://www.thisiscool.com/doswaba.htm|Mohan Embar - "Waba for DOS!"]].
+    *[[http://www.wabasoft.com/sdks.shtml|Wabasoft "WabaSDK SDK Source, Ports & Utilities"]].
+==== Languages and Interpreters ====
+=== Tools & Runtimes ===
+  *[[http://www.beanshell.org/|BeanShell]] - "A small, free, embeddable Java source interpreter with object scripting language features, written in Java. BeanShell dynamically executes standard Java syntax and extends it with common scripting conveniences such as loose types, commands, and method closures like those in Perl and JavaScript".
+  *The OpenSource [[http://www.clojure.org/|Clojure]].
+  *The OpenSource [[http://groovy.codehaus.org/|Groovy]] - "An agile and dynamic language for the Java Virtual Machine".
+  *The OpenSource [[https://developer.mozilla.org/en-US/docs/Rhino|Mozilla "Rhino"]] - "An open-source implementation of JavaScript written entirely in Java".
+  *The OpenSource [[http://jruby.org/|JRuby]].
+  *The OpenSource [[http://www.jython.org/|Jython: Python for the Java Platform]].
+  *The free, maybe soon OpenSource [[http://www-01.ibm.com/software/awdtools/netrexx/library/netrexxo.html|IBM NetRexx]].
+  *The OpenSource ( process ) visualisation builder [[http://processing.org/|Processing]]. 
+    *[[http://www.processing.org/reference/|Language API]] for the "Processing Language". 
+    *"The Processing Language has been designed to faciliate the creation of sophisticated visual and conceptual structures".
+    *There are some application samples for use with an extra Arduino hardware, see [[atmega.html|The Atmel AVR Family with Focus on ATxmega, ATmega, ATtiny, AT90 and the Arduino / Freeduino Platform]].
+=== Performance Meters ===
+  *[[http://www.azulsystems.com/jHiccup|Azul Systems "jHiccup: Open Source Tool to Measure Variations in Java Performance"]].
+=== Resources ===
+  *[[http://www.is-research.de/info/vmlanguages/|is-research GmbH "Programming languages for the Java Virtual Machine JVM and Javascript"]].
+==== Java on Windows ====
+=== Java on Win98SE ===
+  *Java 1.5 is the latest version with Win98SE support, on a PC with sufficient memory ( Win98SE runs best with 512MB RAM ).
+  *The installers of Java 1.6 SDK and Java 1.6 Runtime, when run on Win98SE, stop and complain about "c:\windows\system\shell32.dll" with the error messages
+
+//Fehler beim Starten des Programms. Die Datei JRE-6U21-WINDOWS-I586.EXE ist verknüpft mit dem fehlenden Export SHELL32.DLL:SHGetFolderPathA.//
+
+//Error Starting Program. The JRE-6U21-WINDOWS-I586.EXE file is linked to missing export SHELL32.DLLHGetFolderPathA.//
+
+  *Newer versions of "shell32.dll", i.e. "c:\winnt\system32\shell32.dll" of W2k, are explicitely refused to run on Win98SE. It is not known if there is any version of "shell32.dll" which lets Java 1.6 install on Win98SE.
+  *There might be the option to install Java 1.6 on W2k or newer and then to transfer the installation to Win98SE....
+=== Java on W2k ===
+  *Java 1.6 Update 31 is the latest version with W2k support. 
+    *[[http://www.oracle.com/technetwork/java/javase/downloads/jdk-6u31-download-1501634.html|Oracle "Java SE Development Kit 6 Update 31"]] is the latest Java SE Development Kit for W2k.
+    *[[http://www.oracle.com/technetwork/java/javase/downloads/jre-6u31-download-1501637.html|Oracle "Java SE Runtime Environment 6 Update 31"]] is the latest Java SE Runtime for W2k.
+  *With newer 1.6 versions, the installation fails:
+
+// Installation Failed.
+The wizard was interrupted before Java(TM) SE Development Kit 6 Update 32 could be completely installed. To complete installations at another time, please run setup again.
+Click Finish to exit the wizard.
+[ ] Open Java Help.
+Finish. //
+
+  *The installers of Java 1.7 SDK and Java 1.7 Runtime, when executed on W2k, deny to run with the error messages
+
+//jdk-7-windows-586.exe is not a valid Win32 application//
+
+//jre-7-windows-586.exe is not a valid Win32 application//
+==== Java on Linux ====
+  *[[http://www.wikihow.com/Install-Oracle-Java-on-Ubuntu-Linux|wikiHow to do anything "How to Install Oracle Java on Ubuntu Linux"]].
+==== Resources ====
+  *[[http://www.is-research.de/info/vmlanguages/|is-research GmbH "Programming languages for the Java Virtual Machine JVM"]].
+  *[[http://www.dwheeler.com/java-imp.html|David K. Friedman, David A. Wheeler - "Java Implementations"]].
+===== Java on Embedded Systems =====
+==== Java CPUs ====
+=== ATMEL + STM ===
+  *[[http://en.wikipedia.org/wiki/Java_processor|EN.Wikipedia "Java processor"]], [[http://de.wikipedia.org/wiki/Java-Prozessor|DE.Wikipedia "Java-Prozessor"]].
+  *[[http://en.wikipedia.org/wiki/Embedded_Java|EN.Wikipedia "Embedded Java"]], [[http://de.wikipedia.org/wiki/Embedded_Java|DE.Wikipedia "Embedded Java"]] - "In January 2013, ST announced full Java support for STM32 F2 and F4-series chips".
+  *[[http://www.is2t.com/en/products-avr32|IS2T]].
+    *[[http://www.is2t.com/products/application-platforms/embedded-device/|IS2T  "A hardware-agnostic Java platform: high performance and ultra low latency"]].
+    *Atmel.
+      *[[http://web.archive.org/web/*/http://www.is2t.com/en/products-avr32|Archive.org "IS2T - COTS Java Platforms for AVR32 Architecture"]].
+      *[[http://www.atmel.com/devices/at32ap7000.aspx?tab=documents|Atmel Corporation "Documents for AT32AP7000"]] - PDF document "AVR32 Java Technical Reference Manual Complete". Obviously Java on AVR32 is "mature", from point of view of Atmel :-(.
+    *ST.
+      *[[http://www.st.com/web/en/press/t3365|STMicroelectronics N.V. "Innovative Development Platform from STMicroelectronics Brings Smartphone Style to Simple Appliances"]], 2013-01-21 - "STM32Java is priced at $2600 per seat per year".
+      *I was told by ST staff members: STM32 MCUs with a final "U" are intended for sampling and development, while the "J" types are for production.
+        *STM32F205VGT6J, STM32F205ZGT6J, STM32F207IGH6J, STM32F207VGT6J, STM32F207ZGT6J.
+        *STM32F405VGT6J, STM32F405ZGT6J, STM32F407IGH6J, STM32F407VGT6J, STM32F407ZGT6J.
+        *STM32F401CBU6, STM32F401CCU6, STM32F401CCU6U, STM32F401CCY6UTR, STM32F401CDU6, STM32F401CEU6, STM32F401RCT6U, STM32F401RET6U, STM32F401VCH6U, STM32F401VCT6U, STM32F401VET6U, STM32F405RGT6U, STM32F407IGH6U, STM32F407IGT6U STM32F407VGT6U, STM32F407ZGT6U, STM32F417IGH6U, STM32F427IIH6U, STM32F429IIH6U, STM32F429IIT6U, STM32F429VIT6U, STM32F429ZIT6U, STM32F437IIH6U, STM32F439IIH6U, STM32F439IIT6U, STM32F439NIH6U, STM32F439VIT6U, STM32F439ZIT6U.
+      *[[http://www.is2t.com/stm32-java-development-environment-for-stm32-microcontrollers/|IS2T "STM32Java development environment for STM32 microcontrollers"]].
+      *[[http://www.is2t.com/is2t-awarded-for-stm32-java-platform/|IS2T "IS2T awarded for STM32-Java platform"]].
+      *[[http://www.futurlec.com/News/ST/Java.shtml|Futurlec "New Java Design Platform for STM32 Microcontrollers"]].
+    *MicroEJ.
+      *[[http://micrium.com/rtos/microej/|Micrium "MicroEJ - Embedded Java for uc/OS]].
+      *[[http://www.is2t.com/products/|S2T "Embedded software development"]] - "MicroEJ Embedded Device edition".
+    *ST Evaluation kits.
+      *[[http://www.stm32java.com/|STM32Java - STM32 Embedded Java Website]] - "**3 months time limited evaluation version. No production rights**".
+      *[[http://www.st.com/web/en/catalog/tools/FM147/CL1794/SC961/SS1533/PF255416|STMicroelectronics N.V. "STM32-JAVA. STM32Java development environment for STM32"]].
+      *[[http://www.st.com/web/en/catalog/tools/FM147/CL1794/SC961/SS1533/PF252535|STMicroelectronics N.V. "STM3220G-JAVA. STM32 F2 series Java evaluation kit"]] with STM32F207IGH6 MCU.
+      *[[http://www.st.com/web/catalog/tools/FM147/CL1794/SC961/SS1533/PF252537|STMicroelectronics N.V. "STM3240G-JAVA. STM32 F4 series Java evaluation kit - with STM32F407IG MCU"]].
+      *[[http://de.mouser.com/new/stmicroelectronics/stm-stm32java/|Mauser "STMicroelectronics STM32 Series Java Evaluation Kits"]] - "The kit is composed of the STM3220G-EVAL evaluation board and a DVD ROM which contains an evaluation version of the STM32Java software development kit based on MicroEJ. MicroEJ is based on the Eclipse IDE and provides extended features for using Java in embedded systems to design and deploy embedded Java applications, simulate embedded Java applications on PCs and perform automated tests. **The main limitations of the evaluation version are 3 months of use from the first launch and 1 hour of runtime**".
+=== Oracle ===
+== Oracle Platform ==
+  *[[http://www.oracle.com/technetwork/java/embedded/javame/embed-me/downloads/java-embedded-java-me-download-2162242.html|Oracle "Oracle JAVA ME Embedded Downloads"]].
+== Officially supported Boards ==
+  *Raspberry Pi Model B.
+  *Freescale FRDM-K64F.
+    *[[http://www.freescale.com/webapp/sps/site/prod_summary.jsp?code=FRDM-K64F|Freescale "FRDM-K64F: Freescale Freedom Development Platform for Kinetis K64, K63, and K24 MCUs"]].
+    *[[http://www.conrad.de/ce/de/product/1272029/|CONRAD.de "Schnellstart mit dem Freescale Freedom Board FRDM-K64F Conrad FRDM-K64F"]] - "Buch und Entwicklungsboard als Set".
+  *QUALCOMM "Internet of Everything (IoE) Development Platform".
+    *[[http://developer.qualcomm.com/mobile-development/development-devices/internet-everything-ioe-development-platform|QUALCOMM Developer Network "Internet of Everything (IoE) Development Platform"]].
+    *[[http://www.etherios.com/products/devicecloud/toolkits|ETHERIOS -  A Division of Digi International "Internet of Everything Kit by Etherios"]].
+  *KEIL "MCBSTM32F200".
+    *[[http://www.keil.com/mcbstm32f200/|KEIL "MCBSTM32F200"]].
+    *[[http://www.element14.com/community/docs/DOC-67811|Element14 "Evaluation Board based on STMicroelectronics STM32F2xx Family"]].
+  *There is a "Java ME 8 JVM" by Orcacle for the ST32F4 Discovery board. Unfortunately there is no official download of the JVM anymore :-(.
+    *[[http://terrencebarr.wordpress.com/2013/09/21/java-me-8-early-access-released-try-it-out/|Terrence Barr - Across the Universe "Java ME 8 Early Access release: Try it out!"]], 2013-09-21 - "Java ME 8 Early Access is available now for the following developer boards: Raspberry Pi Model B (ARM11/Linux), ST Microelectronics STM32F4DISCOVERY (ARM Cortex-M4)".
+    *[[http://www.eetimes.com/document.asp?doc_id=1319569|EE Times "Oracle Brews Java for the Internet of Things. Freescale Pours Java Into IoT Gateways"]], 2013-09-23.
+    *[[http://community.oracle.com/message/11203156|Oracle Community "Java ME 8 Early Access release: Try it out!"]], 2013-09-23.
+    *[[http://www.mkroll.mobi/?p=1535| Dr. Michael Kroll Researcher, Innovator, Hobbyist... GEEK! "Running a Java ME8 MIDlet on a STM32f4Discovery board…. I tried it…"]], 2014-02-06.
+    *[[http://community.oracle.com/thread/2609946|Oracle Community "STM32F4DISCOVERY Board"]].
+== Some other Boards ==
+  *BubbleBoard, based on Cinterion base by Gemalto, supported by Java ME 3, equipped with Arduino compatible IO's as well as a modem.
+    *[[http://www.gemalto.com/m2m|Gemalto NV]].
+      *"Pre-Register for your Gemalto M2M BubbleBoard at [[http://www.gemalto.com/bubbleboard|http://www.gemalto.com/bubbleboard]]", 2013.
+      *Blog [[http://blog.gemalto.com/blog/tag/m2m/|Gemalto NV "Posts Tagged "M2M"]].
+    *[[http://www.twitter.com/gemalto|Twitter "Gemalto, @Gemalto"]].
+    *[[http://plus.google.com/114497004846049473353/posts/SCFHDqYMydE|Google+ "Gemalto M2M"]].
+    *[[http://www.youtube.com/watch?v=iXgSM3sVOaY|YouTube, Gerrit Grunwald "Java ME embedded on Gemalto BubbleBoard"]].
+== Resources ==
+  *[[http://community.arm.com/community/arm-partner-directory/partner-oracle-corporation/blog/2014/05/07/an-ideal-platform-for-the-iot--java-me-8-is-now-generally-available|ARM Community "An ideal platform for the IoT - Java ME 8 is now Generally Available"]], 2014-07-14.
+==== Java Frameworks and IDEs for Embedded Systems ====
+  *[[http://www.jcontrol.org/|jControl! - The Java-based Middleware for Measurement, Control and Automation]].
+==== Java Native Interface ( JNI ) ====
+=== The Interface ===
+  *Oracle / SUN.
+    *[[http://docs.oracle.com/javase/7/docs/technotes/guides/jni/|Oracle "Java Native Interface"]] of JDK 7.
+    *[[http://docs.oracle.com/javase/7/docs/technotes/guides/jni/spec/jniTOC.html|Oracle "Java Native Interface Specification - Contents]] for JDK 7.
+    *[[http://java.sun.com/products/jdk/faq/jnifaq.html|Oracle "Java Native Interface Tips"]] ( "JNI FAQ" ). 
+    *[[http://java.sun.com/products/jdk/faq/jni-j2sdk-faq.html|Oracle "Frequently Asked Questions. JavaTM 2 SDK v1.2 and JNI"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0136798950/hemmerling-21|Rob Gordon: "Essential Jni: Java Native Interface (Essential Java)]].
+  *Book [[http://java.sun.com/docs/books/jni/|Sheng Liang "Java Native Interface: Programmer's Guide and Specification"]] - free PDF & HTML download #.
+  *[[http://www.javaworld.com/javaworld/jw-07-1997/jw-07-javadev.html|JavaWorld, Rinaldo Di Giorgio "Use native methods to expand the Java environment. Learn how to interact with libraries and applications written in other languages"]].
+  *[[http://en.wikipedia.org/wiki/Java_Native_Interface|EN.Wikipedia "Java Native Interface"]], [[http://de.wikipedia.org/wiki/Java_Native_Interface|DE.Wikipedia "Java Native Interface"]].
+=== A special Suggestion how to debug JNI Applications ===
+== How to debug JNI Applications ==
+  *If you want to develop JNI applications with Windows DLLs, on Linux: 
+    *The Java classloader takes notice, that the DLLs are not available and so won´t load the application.
+  *If you mock the DLLs by ASM / BLC, by overwriting the Java Interfaces from "native public" to "public", an empty body is kept, which the Java classloader may load :-).
+== Resources ==
+  *[[http://asm.ow2.org/|ASM]] - "An all purpose Java bytecode manipulation and analysis framework".
+  *[[http://commons.apache.org/proper/commons-bcel|Apache Commons BCEL]] ( "The Byte Code Engineering Library" ).
+  *[[http://en.wikipedia.org/wiki/ObjectWeb_ASM|EN.Wikipedia "ObjectWeb ASM"]].
+  *[[http://en.wikipedia.org/wiki/Byte_Code_Engineering_Library|EN.Wikipedia "Byte Code Engineering Library"]].
+==== LeJOS - Java for Lego Mindstorms ====
+  *[[http://lejos.sourceforge.net/|Sourceforge "LeJOS"]], [[http://www.sourceforge.net/projects/lejos|Sourceforge "LeJOS"]].
+  *[[http://en.wikipedia.org/wiki/leJOS|EN.Wikipedia "leJOS"]], [[http://de.wikipedia.org/wiki/LeJOS|DE.Wikipedia "LeJOS"]].
+==== "Sun SPOT" Hardware ====
+  *[[http://www.sunspotworld.com/|Sun SPOT World]].
+  *[[http://en.wikipedia.org/wiki/Sunspot|EN.Wikipedia "Sunspot"]].
+  *[[http://en.wikipedia.org/wiki/Bluetooth|EN.Wikipedia "Bluetooth"]], [[http://de.wikipedia.org/wiki/Bluetooth|DE.Wikipedia "Bluetooth"]].
+===== Java Frameworks =====
+==== Java Data Persistence ====
+=== Tools ===
+  *[[http://www.oracle.com/technetwork/java/index-jsp-135919.html|Oracle "Java Data Objects (JDO)"]].
+  *[[http://db.apache.org/jdo/javadoc.html|The Apache DB Project - Apache JDO]].
+  *[[http://www.datanucleus.org/|DataNucleus]], [[http://datanucleus.sourceforge.net/|SourceForge "DataNucleus"]], [[http://www.sourceforge.net/projects/datanucleus/|SourceForge "DataNucleus"]] - "The home for the development of the Reference Implementation of the JDO specification".
+=== Resources ===
+  *[[http://db.apache.org/ojb/docu/tutorials/jdo-tutorial.html|The Apache DB Project "JDO Tutorial"]].
+  *[[http://www.datanucleus.org/products/accessplatform/guides/jdo/tutorial.html|DataNucleus Community "DataNucleus - Tutorial for JDO"]].
+  *[[http://www.javangelist.de/space/JDO-Mini-Tutorial|Javangelist "JDO-Mini-Tutorial"]].
+  *JDO Central.
+    *[[http://db.apache.org/jdo/jdocentral.html|JDOCentral at Apache JDO]].
+    *[[http://wayback.archive.org/web/*/http://www.jdocentral.com/|Archive.org "JDOCentral"]] ( - 2007-03-29 ).
+  *[[http://download.oracle.com/docs/cd/E19581-01/816-1411/816-1411.pdf|SUN "Programming Persistence. Forte for Java Programming Series"]] ( PDF ).
+  *[[http://www.tutorial-omondo.com/jdo/index.html|Omondo "Step-by-Step Guide to create a class diagram within Eclipse 2.1. Deploy a persistent Java application using EclipseJDO and Versant JDO"]].
+  *[[http://www.roseindia.net/jdotutorials/|Rose India Technologies PVT, LTD. "JDO - Java Data Objects Tutorials"]].
+==== J2EE & Spring ====
+=== J2EE ===
+  *[[http://www.glassfish.org/|Glassfisch]], the Java EE 7 sample implementation.
+  *[[http://javaee-spec.java.net/|Java.net "Java EE Platform Specification"]].
+  *Blog [[http://blogs.oracle.com/theaquarium|The Aquarium. News from the GlassFish Community]].
+  *[[http://wiki.netbeans.org/JavaEE7|Netbeans Wiki "JavaEE7"]].
+  *[[http://www.twitter.com/glassfish|Twitter "GlassFish, @glassfish"]].
+  *[[http://www.twitter.com/java_ee|Twitter "Java EE Platform, @Java_EE"]].
+  *[[http://en.wikipedia.org/wiki/Java_Platform,_Enterprise_Edition|EN.Wikipedia "Java Platform, Enterprise Edition"]], [[http://de.wikipedia.org/wiki/Java_Platform,_Enterprise_Edition|DE.Wikipedia "Java Platform, Enterprise Edition"]].
+=== Spring ===
+  *[[http://www.springsource.org/|SpringSource Community]], [[http://www.github.com/SpringSource/|Github "SpringSource"]].
+    *[[http://www.github.com/SpringSource/rest-shell|Github "SpringSource / rest-shell"]].
+  *[[http://en.wikipedia.org/wiki/Spring_Framework|EN.Wikipedia "Spring Framework"]], [[http://de.wikipedia.org/wiki/Spring_%28Framework%29|DE.Wikipedia "Spring (Framework)"]].
+==== J2ME ====
+  *[[http://en.wikipedia.org/wiki/Java_Platform,_Micro_Edition|EN.Wikipedia "Java Platform, Micro Edition"]], [[http://de.wikipedia.org/wiki/Java_Platform,_Micro_Edition|DE.Wikipedia "Java Platform, Micro Edition"]].
+  *[[http://www.enough.de/products/j2me-polish/|Enough Software GmbH & Co.KG "J2ME Polish"]].
+==== Graphical User Interface Frameworks ====
+=== Abstract Window Toolkit ===
+  *[[http://en.wikipedia.org/wiki/Abstract_Window_Toolkit|EN.Wikipedia "Abstract Window Toolkit"]], [[http://de.wikipedia.org/wiki/Abstract_Window_Toolkit|DE.Wikipedia "Abstract Window Toolkit"]].
+=== Java Swing ===
+  *[[http://en.wikipedia.org/wiki/Swing_%28Java%29|EN.Wikipedia "Swing (Java)"]], [[http://de.wikipedia.org/wiki/Swing_%28Java%29|DE.Wikipedia "Swing (Java)"]].
+=== Standard Widget Toolkit ===
+  *[[http://en.wikipedia.org/wiki/Standard_Widget_Toolkit|EN.Wikipedia "Standard Widget Toolkit"]], [[http://de.wikipedia.org/wiki/Standard_Widget_Toolkit|DE.Wikipedia "Standard Widget Toolkit"]].
+=== JavaFX ===
+== Resources ==
+== Experts ==
+  *[[http://www.harmonic-code.org/|Gerrit Grunwald "harmonic-code.org"]], [[http://harmoniccode.blogspot.de/|Blogspot, Gerrit Grunwald - "Harmonic Code. The life of a geek that loves to code JavaFX, Swing and HTML5..."]], [[http://www.xing.com/profile/Gerrit_Grunwald|XING "Gerrit Grunwald"]], [[http://de.linkedin.com/in/harmoniccode|LinkedIn "Gerrit Grunwald"]], [[http://www.twitter.com/hansolo_|Twitter "Gerrit Grunwald, @hansolo"]].
+=== GUIs according to the Naked Objects Pattern ===
+== Naked Objects ==
+  *The OpenSource [[http://www.nakedobjects.org/|Naked Objects]].
+    *The OpenSource [[http://isis.apache.org/|Apache Isis]] - "A framework for rapidly developing domain-driven apps in Java]]" for Java.
+    *[[http://nakedobjects.codeplex.com/|CodePlex "Naked Objects"]] for .NET by [[http://www.nakedobjects.net/|Naked Objects Group]].
+  *The OpenSource [[http://www.nakedobjects.org/|Naked Objects]].
+== GenGui ==
+  *The OpenSource "GenGui" by Arvato ( [[http://gengui.sourceforge.net/|SourceForge "gengui"]], [[http://www.sourceforge.net/projects/gengui/|SourceForge "gengui. Java UI framework for Naked Objects"]] ).
+    *"GenGui for Swing".
+    *"GenGui for HTML5".
+  *[[http://de.linkedin.com/pub/jan-leßner/18/573/75b|LinkedIn "Jan Leßner"]], [[http://www.facebook.com/jan.lessner.1|Jan Lessner]] - Promoter and contact person for "Gen Gui".
+  *The commercial but affordable GUI designer [[http://www.formdev.com/|FormDev "JFormDesigner"]] is needed to generate forms to be used with the "GenGui" framework.
+== Resources ==
+  *[[http://www.stackoverflow.com/questions/167517/naked-objects-good-or-bad|Stack Overflow "Naked Objects. Good or Bad"]].
+  *[[http://en.wikipedia.org/wiki/Naked_Objects|EN.Wikipedia "Naked Objects"]], [[http://de.wikipedia.org/wiki/Naked_Objects|DE.Wikipedia "Naked Objects"]].
+  *[[http://en.wikipedia.org/wiki/Plain_Old_Java_Object|EN.Wikipedia "Plain Old Java Object"]], [[http://de.wikipedia.org/wiki/Plain_Old_Java_Object|DE.Wikipedia "Plain Old Java Object"]].
+  *[[http://en.wikipedia.org/wiki/Bean_Validation|EN.Wikipedia "Bean Validation"]].
+
+==== Some other Frameworks ====
+  *[[http://www.jhotdraw.org/|JHotDraw]], [[http://jhotdraw.sourceforge.net/|SourceForge "JHotDraw"]], [[http://www.sourceforge.net/projects/jhotdraw|SourceForge "JHotDraw"]].
+  *SPARK.
+    *[[http://www.sparkjava.com/|SPARK Micro Web Framework]], [[http://code.google.com/p/spark-java/|Google Code "spark-java. A sinatra inspired framework for java"]], [[http://www.github.com/perwendel/spark|Github "perwendel/spark"]] - "A Sinatra inspired micro web framework for quickly creating web applications in Java with minimal effort".
+    *[[http://freemarker.sourceforge.net/|SourceForge "FreeMarker"]], [[http://www.sourceforge.net/projects/freemarker|SourceForge "FreeMarker"]] - "Java Template Engine Library".
+  *OBRi.
+    *[[http://en.wikipedia.org/wiki/OSGi|EN.Wikipedia "OSGi"]], [[http://de.wikipedia.org/wiki/OSGi|DE.Wikipedia "OSGi"]].
+  *[[http://www.vaadin.com/|Vaadin]].
+    *[[http://en.wikipedia.org/wiki/Vaadin|EN.Wikipedia "Vaadin"]], [[http://de.wikipedia.org/wiki/Vaadin|DE.Wikipedia "Vaadin"]] - "thinking of U and I. Vaadin is a Java framework for building modern web applications that look great, perform well and make you and your users happy".
+  *[[http://wicket.apache.org/|Apache Wicket]] - "Lightweight component-based web application framework".
+    *[[http://en.wikipedia.org/wiki/Apache_Wicket|EN.Wikipedia "Apache Wicket"]], [[http://de.wikipedia.org/wiki/Apache_Wicket|DE.Wikipedia "Apache Wicket"]].
+==== Resources ====
+  *[[http://en.wikipedia.org/wiki/Category:Java_APIs|EN.Wikipedia "Category:Java APIs"]], [[http://de.wikipedia.org/wiki/Kategorie:Java-Programmierschnittstelle|DE.Wikipedia "Kategorie:Java-Programmierschnittstelle"]].
+===== Free IDEs, GUI Builders & Development Tools =====
+==== IDEs ====
+  -[[http://www.bluej.org/|BlueJ]] - "The interactive Java environment".
+  -[[http://www.eclipse.org/|Eclipse]].
+    *[[http://eclipse-plugins.info/|EclipsePlugins]] - "Find your plugin for Eclipse here."
+    *[[http://easystruts.sourceforge.net/|Sourceforge "Easy Struts"]], [[http://www.sourceforge.net/projects/easystruts/|Sourceforge "Easy Struts"]] - "Plug-ins for the Eclipse 2.0 development environments to enable you to develop web applications based on the [[http://de.wikipedia.org/wiki/Model_View_Controller|MVC design pattern]] provided by the [[http://struts.apache.org/|Jakarta Struts framework]]".
+  -"JBuilder Foundation" & "JBuilder Personal" & "Turbo JBuilder" by Borland / Inprise Corporation / Borland / CodeGear / Embarcadero Technologies - free legacy Java IDEs.
+    *[[http://en.wikipedia.org/wiki/JBuilder|EN.Wikipedia "JBuilder"]], [[http://de.wikipedia.org/wiki/JBuilder|DE.Wikipedia "JBuilder"]].
+    *[[http://www.embarcadero.com/products/jbuilder|Embarcadero JBuilder]] - no free editions anymore.
+    *JBuilder2005 Foundation.
+      *is the latest free traditional JBuilder edition. 
+        *JBuilder2006 Foundation was just available as timeout version of JBuilder2006 Enterprise.
+        *JBuilder2007 and JBuilder2008 are based on Eclipse and doesn't include the traditional GUI editor.
+      *does not require a serial number ( in opposite to earlier and later releases )
+      *can be installed on Windows 7 with W2k compatibility settings, but does not execute even with W2k compatibility settings.
+      *doesn't install on Windows 8, even with WinXPSP2 compatibility settings. 
+    *[[http://edn.embarcadero.com/article/27638|Embarcadero Technologies Forums "How can I change the compiler that JBuilder uses to compile Java files?"]] - "Regardless of the target JDK in use, JBuilder always uses Borland's own Java compiler", "JBuilder's JDK switching feature controls the runtime environment for your project and provides the dependent JDK libraries for compilation but does not change the compiler in use" :-(.
+  -[[http://www.jcreator.com/|Xinox Software "JCreator Lite"]].
+  -[[http://www.jetbrains.com/idea/|JetBrains "IntelliJ IDEA"]], [[http://www.jetbrains.com/idea/free_java_ide.html|JetBrains "IntelliJ IDEA Community Edition"]].
+    *[[http://en.wikipedia.org/wiki/IntelliJ_IDEA|EN.Wikipedia "IntelliJ IDEA"]], [[http://de.wikipedia.org/wiki/IntelliJ_IDEA|DE.Wikipedia "IntelliJ IDEA"]].
+  -[[http://www.eng.auburn.edu/department/cse/research/grasp/|Department of Computer Science and Software Engineering in the Samuel Ginn College of Engineering at Auburn University "jGRASP"]] - "An Integrated Development Environment with Visualizations for Improving Software Comprehensibility".
+  -[[http://netbeans.org/|NetBeans]] - OpenSource IDE for Java & C/C++ development.
+    *[[http://www.netbeans.info/downloads/dev.php|NetBeans "Release Archives & Development Downloads"]] - Download of old editions.
+  -Oracle.
+    *[[http://www.oracle.com/technetwork/developer-tools/jdev|Oracle JDeveloper]] - "a free integrated development environment that simplifies the development of Java-based SOA applications and user guiinterfaces with support for the full development life cycle".
+      *[[http://www.oracle.com/technetwork/developer-tools/jdev/index-099997.html|Oracle JDeveloper Extensions]].
+        *[[http://www.oracle.com/ocom/groups/public/@otn/documents/webcontent/156082.xml|Oracle Fusion Middleware Products Update Center]].
+        *[[http://www.oracle.com/ocom/groups/public/@otn/documents/webcontent/131167.xml|Oracle Extensions for Oracle JDeveloper Update Center]].
+        *[[http://www.oracle.com/ocom/groups/public/@otn/documents/webcontent/130355.xml|Oracle JDeveloper Third Party Extension Exchange]].
+    *[[http://www.oracle.com/technetwork/developer-tools/tpc/|Oracle Team Productivity Center]] ( Oracle TPC, OTPC ) for Java.
+      *[[http://www.atlassian.com/software/jira/|JIRA]] connector, [[http://en.wikipedia.org/wiki/Microsoft_Project|MS Project Server]] connector, [[http://en.wikipedia.org/wiki/Bugzilla|Bugzilla]] connector, Task connector ( TPC's own Task list ).
+      *[[http://download.oracle.com/docs/cd/E14571_01/doc.1111/e14156/toc.htm|Installation Guide for Oracle Team Productivity Center Server]].
+  -[[http://bean-builder.dev.java.net/|java.net "The Bean Builder"]].
+  *[[http://www.xdev-software.de/|XDEV Software Corp "XDEV 3 for Java. Rapid Java Development"]] for Windows, Linux.
+    *[[http://de.wikipedia.org/wiki/XDEV_3|DE.Wikipedia "XDEV 3"]].
+    *There might be a future special version of "XDEV 3" with [[http://www.vaadin.com/|Vaadin]] support.
+      *[[http://en.wikipedia.org/wiki/Ajax_%28programming%29|EN.Wikipedia "Ajax (programming)"]], [[http://de.wikipedia.org/wiki/Ajax_%28Programmierung%29|DE.Wikipedia "Ajax (Programmierung)"]].
+    *Data binding: Target audiences / alternatives / a replacement for:
+      *[[http://www.microsoft.com/visualstudio/en-us/lightswitch|Microsoft Visual Studio LightSwitch]].
+      *[[http://en.wikipedia.org/wiki/Microsoft_Access|EN.Wikipedia "Microsoft Access"]].
+      *[[http://en.wikipedia.org/wiki/Oracle_Forms|EN.Wikipedia "Oracle Forms"]].
+      *[[http://en.wikipedia.org/wiki/Visual_FoxPro|EN.Wikipedia "Visual FoxPro"]].
+      *[[http://en.wikipedia.org/wiki/Visual_Basic|EN.Wikipedia "Visual Basic"]].
+==== GUI Builders ====
+  *Eclipse.
+    *[[http://v4all.sourceforge.net/|SourceForge "assisiplugins V4ALL - Visual Swing Designer for Eclipse"]], [[http://www.sourceforge.net/projects/v4all|SourceForge "V4ALL Eclipse Swing & SWT GUI Designer"]] for Eclipse 2.1, GEF 2.1 runtime.
+  *[[http://code.google.com/intl/de/javadevtools/|Google Java Developer Tools]] "WindowBuilder Pro" - Free GUI builder for Swing, SWT, RCP, XWT and GWT.
+    *[[http://wayback.archive.org/web/*/http://www.swt-designer.com|Archive.org "swt-designer.com"]].
+    *[[http://wayback.archive.org/web/*/http://www.instantiations.com/windowbuilder/swtdesigner/|Archive.org "Instantiations - SWT Designer"]].
+  *The free GUI designer [[http://www.oracle.com/technetwork/java/javase/downloads/javafxscenebuilder-info-2157684.html|Oracle "JavaFX Scene Builder. A Visual Layout Tool for JavaFX Applications"]] for JavaFX.
+  *"JBuilder Foundation" & "JBuilder Personal" ( but not the Eclipse-based "Turbo JBuilder" ) by Borland / Inprise Corporation / Borland / CodeGear / Embarcadero Technologies - Free legacy Java IDEs with GUI builders for AWT + Swing.
+  *The free [[http://www.cloudgarden.com/jigloo/|Cloud Garden "Jigloo GUI Builder (SWT and Swing) for Eclipse"]].
+  *[[http://netbeans.org/|NetBeans]] - OpenSource Java IDEs with GUI builder for AWT, Swing and JavaFX.
+  *[[http://www.xdev-software.de/|XDEV Software Corp "XDEV 3 for Java. Rapid Java Development"]] for Windows, Linux -  Free Java IDE with GUI builder for Swing.
+==== Development Tools ====
+  *The free [[http://www.basic4ppc.com/android/b4j.html|Anywhere Software "B4J"]] - "The simple way to develop cross platform, desktop and web applications!"]].
+  *[[http://code.google.com/intl/de/javadevtools/|Google Java Developer Tools]].
+    *"WindowBuilder Pro".
+    *"WindowTester Pro".
+    *"CodePro AnalytiX".
+    *"[[http://code.google.com/intl/de/webtoolkit/|Google Web Toolkit]]" (GWT).
+  *Oracle "Bean Builder" / "BeanBox".
+    *[[http://java.sun.com/products/jfc/tsc/articles/persistence2/|Philip Milne "Long-Term Persistence: An Update"]].
+    *Download: [[http://java.sun.com/products/jfc/tsc/articles/persistence2/beanbox.zip|beanbox.zip]].
+  *Degraph.
+    *[[http://www.github.com/schauder/degraph|GitHub "schauder/degraph"]] - "Test and Visualize and Manage Dependencies of classes and packages in JVM Byte Code (think Scala and Java)".
+    *[[http://blog.schauderhaft.de/2014/07/27/test-your-dependencies-with-degraph/|Schauderhaft "Test your Dependencies with Degraph"]].
+    *[[http://java.dzone.com/articles/introducing-degraph|DZone, JavaLobby "Introducing Degraph for Visualizing Package Dependencies"]].
+  *[[http://xdoclet.sourceforge.net|Sourceforge "XDoclet"]], [[http://www.sourceforge.net/projects/xdoclet/|Sourceforge "XDoclet"]] - "An extended Javadoc Doclet engine. It's a generic Java tool that lets you create custom Javadoc @tags and based on those @tags generate source code or other files (such as xml-ish deployment descriptors) using a template engine it provides".
+  *The OpenSource [[http://bandera.projects.cis.ksu.edu/|Bandera]] for Java - "Designed to be an extensible framework for performing verification/validation of Java applications".
+    *[[http://projects.cis.ksu.edu/gf/project/bandera/|MyGForge "bandera"]].
+==== APIs ====
+=== Serial Communications ( RS-232, COM1: ) ===
+== JavaComm 2.0 for Windows ==
+  *[[http://wind.lcs.mit.edu/download/|Networks and Mobile Systems ( NMS ) group at MIT's Computer Science and Artificial Intelligence Laboratory "Software Download and Install. Intentional Naming System (INS)"]] - "JavaComm 2.0 for Windows ( [[http://wind.lcs.mit.edu/download/java/javacomm20-win32.zip|javacomm20-win32.zip]] ).
+== JavaComm 3.0 for Linux, but not for Windows ==
+  *[[http://www.oracle.com/technetwork/java/index-jsp-141752.html|Oracle "Java CommunicationsAPI"]] - "Java Communications 3.0 API... available for Solaris SPARC, Solaris x86, and Linux x86". I.e. the API is not available for Windows.
+== RXTX ==
+  *[[http://rxtx.qbang.org/|RXTX wiki]].
+    *[[http://rxtx.qbang.org/wiki/index.php/Download|RXTX wiki "Download"]].
+  *Cloudhopper Opensource Lab / Mfizz Inc.
+    *[[http://www.cloudhopper.com/opensource/index.html|Cloudhopper Opensource Lab "RXTX"]].
+    *[[http://mfizz.com/oss|Mfizz Inc. - Open source software]].
+      *[[http://mfizz.com/oss/rxtx-for-java|Mfizz Inc. - Open source software "RXTX for Java"]].
+== jperipheral for Windows ==
+  *[[http://code.google.com/p/jperipheral/|Google Code "jperipheral. A Java library for communicating with serial ports"]] - "Supported platforms: RS-232 under Windows".
+== v5t11 - Java EE Application using RXTX ==
+  *[[http://www.github.com/dirkweil/v5t11|Github "dirkweil / v5t11"]].
+  *Speech "Java on Tracks – die Kind-im-Manne-Session" ( "Java on Tracks – the child-in-man session" ).
+    *Speech "Java on Tracks – die Kind-im-Manne-Session" ( "Java on Tracks – the child-in-man session" ) by [[http://javaeeblog.wordpress.com/|Dirk Weil, GEDOPLAN - Unternehmensberatung und EDV-Organisation GmbH]] at the regional meeting of [[http://www.jug-ostfalen.de/|Java User Group Ostfalen]] in Braunschweig, Germany ( 2013-11-28 ).
+    *[[http://www.gedoplan.de/jm_v5t11|GEDOPLAN GmbH "Dirk Weil im Java Magazin 8.2013: Modellbahn powered by Java EE"]], 2013-07-16.
+    *[[http://www.slideshare.net/Javatim/java-ontracks|SlideShare "Dirk Weil: Java on Tracks – Die Kind-im-Manne-Session auf der JAX 2012"]], 2012-05-07.
+  *With v5t11, the java communication library RXTX is directly included in the core Java application, i.e. a DLL is loaded by the Java application. 
+    *A crash or failure in serial communication library, in the native driver for the operating system or in the DLL respectively, might cause immediate freezing or crash of the whole single-task application or even the whole operating system.
+    *By the special design ( JBOSS; JBOSS adapter for a JBOSS module which inherits RXTX ), RXTX's DLL is not loaded each time the communications API is call. With standard design, RXTX's DLL would be loaded each time the communications API is called.
+  *In another project, a commercial project, the serial communication was therefore outsourced to another component, so that there was just loose coupling between the serial communciations and the application.
+== Resources ==
+  *I was told that the implementation of "JavaComm 2.0 for Windows" is buggy & instable and might cause crashes of the Windows operating system.
+  *[[http://www.agaveblue.org/howtos/Comm_How-To.shtml|Agaveblue "Java Comm Serial API How-To for Linux"]].
+  *[[http://www.java.net//node/646169|Java.net Forum "Comm-API: Windows download missing"]], 2006 -> JavaComm 2.0 for Windows: "The license prohibits redistribution of the implementation. So even if you have that old release, you can't legally redistribute it".
+  *[[http://www.coderanch.com/t/277786//java/happened-Windows-Comm-API|JavaRanch "What happened to the Windows Comm API?"]], 2006 - "Javax.comm for Windows have been EOLed".
+  *[[http://www.vorlesungen.uni-osnabrueck.de/informatik/robot00/html/skript-18.html|Universität Osnabrück "4.1 Java Communications API"]].
+  *[[http://www.serialio.com/support/jspCommAPI.php|SerialIO - Your mobile solution provider on thousands of device models "javax.comm API"]].
+  *[[http://stackoverflow.com/questions/3959743/problem-of-using-the-javax-comm-api-on-windows-7|Stack Overflow "Problem of using the javax.comm API on windows 7"]], 2010.
+=== Regular Expressions ===
+  *[[http://jrexxlab.karneim.com/|jrexx - automaton based regluar expression API for Java]] ( [[http://wayback.archive.org/web/*/http://jrexxlab.karneim.com/|Archive.org "jrexx - automaton based regluar expression API for Java"]] ), [[http://jrexx.sourceforge.net/|SourceForge "jrexx - automaton based regluar expression API for Java"]], [[http://www.sourceforge.net/projects/jrexx|SourceForge "rexx: automat. based regex api for Java"]].
+==== Servers ====
+  *[[http://www.jwebsocket.org/|jWebSocket]] - "The Open Source Java WebSocket Server".
+  *[[http://tomcat.apache.org/|Apache Tomcat]].
+    *If Apache Tomcat does not start by the error message "The specified module could not be found", "Das angegebene Modul wurde nicht gefunden", found in "C:\Program Files\Apache Software Foundation\Tomcat 6.0\logs/jakarta_service_20101109.log" ( 20101109 is a coding of the date 2010-11-09 ), please fix the problem with the following instructions:
+      *[[http://www.trackplus.com/forum/posts/list/800.page|track+ forum, subforum "Traps and Pitfalls", threat "missing dll"]] - "msvcr71.dll must be installed either in windows\system32 or within the Tomcat bin directory (latter preferred). This seems to be not a Tomcat problem, but a Sun installer problem".
+      *[[http://www.mkyong.com/tomcat/tomcat-error-prunsrvc-failed-creating-java-jvmdll/|Mkyong "Tomcat Error – prunsrv.c Failed creating java (jvm.dll)"]] - "Copy msvcr71.dll from java’s bin directory to tomcat’s bin folder", "Copy msvcr71.dll from java’s bin directory to windows\system32 folder".
+      *[[http://cse.csusb.edu/turner/java_web_programming/tomcat/|David Turner "Java Web Programming with Eclipse" / "The Apache Tomcat Web Container"]].
+===== Java Books and Java Booksites =====
+==== Just-Commercial Books ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3827263131/hemmerling-21|Carl Albing, Michael Schwarz: "Java Application Development on Linux (Bruce Perens' Open Source)"]]. 
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3827263131/hemmerling-21|Deepak Alur: "Core J2EE Patterns"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0321127420/hemmerling-21|Martin Fowlser: "Patterns of Enterprise Application Architecture"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3939084190/hemmerling-21|Dirk Frischalowski, Ulrike Böttcher: "Java 6. Professionell einsteigen"]] #. 
+    *buecherbillig.de 100% ( [[http://www.buecherbillig.de/java-einstieg-professioneller-einsatz-p-54515.html|Dirk Frischalowski, Ulrike Böttcher: "Java 6. Professionell einsteigen"]] ).
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3827324823/hemmerling-21|Sharon Zakhour, Scott Hommel, Jacob Royal: "Das Java Tutorial. Eine Einführung in die Grundlagen, aktuell zur Version 6"]], Book [[http://www.amazon.de/exec/obidos/ASIN/3827326656/hemmerling-21|Sharon Zakhour, Scott Hommel, Jacob Royal: "Das Java Tutorial. Eine Einführung in die Grundlagen, aktuell zur Version 6"]] #.
+    *buecherbillig.de ( [[http://www.buecherbillig.de/java-tutorial-aktuell-version-p-42337.html|Sharon Zakhour, Scott Hommel, Jacob Royal: "Das Java Tutorial. Eine Einführung in die Grundlagen, aktuell zur Version 6"]] ).
+==== Free and Formerly-Commercial PDF / HTML Books ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/013143697X/hemmerling-21|Carl Albing, Michael Schwarz "Java Application Development on Linux (Bruce Perens' Open Source)"]].
+    *Free PDF book [[http://technewsletters-whitepapers.tradepub.com/free/w_infk04/prgm.cgi|InformIT "Carl Albing, Michael Schwarz: Java Application Development on Linux"]].
+  *The free PDF book [[http://homepage.uni-trier.de/en/baltes/veroeffentlichung/|Bernhard Baltes-Götz "Einführung in das Programmieren mit Java 7"]].
+  *Website [[http://workbench.cadenhead.org/book/java21/|Rogers Cadenhead - Teach Yourself Java 2 in 21 Days]] for the book by Laura Lemay and Rogers Cadenhead.
+  *[[http://www.mindview.net/Books/TIJ/|Bruce Eckel's MindView, Inc - Thinking in Java, 3rd Edition]] - "Free Electronic Book".
+  *[[http://www.coreservlets.com/|${coreservlets}]].
+    *[[http://pdf.coreservlets.com/|Marty Hall, Larry Brown "Core Servlets and JavaServer Pages"]].
+  *[[http://chortle.ccsu.edu/java5/|Bradley Kjell "Introduction to Computer Science using Java"]] -> Java 1.5.
+    *[[http://www.gailer-net.de/|Heinrich Gailer]].
+      *[[http://www.gailer-net.de/tutorials/java/|Bradley Kjell,, Heinrich Gailer "Java Tutorial interaktiv"]] -> Java 1.3.
+      *[[http://www.gailer-net.de/tutorials/java5/|Bradley Kjell,, Heinrich Gailer "Java Tutorial interaktiv"]] -> Java 1.5.
+  *[[http://www.javabuch.de/|www.javabuch.de - Das Handbuch der Java-Programmierung]] by [[http://www.gkrueger.com/|Guido Krüger]] - Free download of the HTML version of the book.
+  *[[http://www.codingbat.com/|Nick Parlante "CodingBat - code practic"]].
+  *The free online HTML book [[http://www.brpreiss.com/books/opus5/|Bruno R. Preiss "Data Structures and Algorithms with Object-Oriented Design Patterns in Java"]].
+  *The free HTML and online HTML books [[http://www.highscore.de/|Boris Schäling "Programmieren in Java: Einführung"]] and [[http://www.highscore.de/|Boris Schäling "Programmieren in Java: Aufbau"]]. 
+  *[[http://cse.csusb.edu/turner/java_web_programming/|David Turner "Java Web Programming with Eclipse"]].
+  *[[http://www.tutego.de/|Christian Ullenboom (tutego)]].
+    *[[http://www.tutego.de/javabuch/|Christian Ullenboom "Java ist auch / mehr als eine Insel"]] - "Band 1 online lesen, Band 2 online lesen, Band 1 runterladen".
+    *[[http://www.tutego.de/docs/|Christian Ullenboom (tutego) - "Schulungsunterlagen und weiterführende Veröffentlichungen"]].
+    *The free HTML and online HTML book [[http://openbook.galileocomputing.de/javainsel/|Galileo Computing, Christian Ullenboom "Java ist auch eine Insel"]].
+    *The free HTML and online HTML book [[http://openbook.galileocomputing.de/java7/|Galileo Computing, Christian Ullenboom "Java 7 - Mehr als eine Insel"]].
+===== Reflection and Obsfusication =====
+==== Reflection ====
+  *Rafael Winterhalter ( [[http://www.linkedin.com/in/rafaelwth|LinkedIn "Rafael Winterhalter"]], [[http://www.github.com/raphw|GitHub "raphw"]], [[http://www.bytebuddy.net/|Byte Buddy]] ) - "Reflections are neither type safety, nor a notion of failfast" :-).
+  *[[http://en.wikipedia.org/wiki/Reflection_%28computer_programming%29|EN.Wikipedia "Reflection (computer programming)"]], [[http://de.wikipedia.org/wiki/Reflexion_%28Programmierung%29|DE.Wikipedia "Reflexion (Programmierung)]].
+==== Obsfusication for Java and .NET ====
+  *[[http://en.wikipedia.org/wiki/Obfuscation_%28software%29|EN.Wikipedia "Obfuscation (software)"]] - "In Java it also limits the use of the [[http://en.wikipedia.org/wiki/Reflection_%28computer_programming%29|Reflection application programming interface]] on the obfuscated code".
+  *[[http://de.wikipedia.org/wiki/Obfuscator|DE.Wikipedia "Obfuscator"]].
+  *[[http://javaguard.sourceforge.net/|Sourceforge "JavaGuard"]], [[http://www.sourceforge.net/projects/javaguard/|Sourceforge "JavaGuard"]] - "A general purpose bytecode obfuscator".
+  *[[http://www.retrologic.com/|Retrologic Systems. "RetroGuard for Java Obfuscator"]] - "RetroGuard Lite is made available for academic and not-for-profit use under a non-commercial license".
+  *[[http://www.preemptive.com/|PreEmptive Solutions]].
+    *The commercial [[http://www.preemptive.com/products/dasho/|PreEmptive Solutions dashO]] for Java.
+    *The commercial [[http://www.preemptive.com/products/dotfuscator|PreEmptive Solutions dotfuscator]] for .NET.
+  *The commercial [[http://www.zelix.com/|Zelix Pty Ltd "Java Bytecode Obfuscator"]].
+
+===== Java Decompiler =====
+==== Tools ====
+  *The free JAD.
+    *[[http://www.varaneckas.com/jad|Tomas Varaneckas "JAD Java Decompiler Download Mirror"]].
+    *[[http://en.wikipedia.org/wiki/JAD_%28JAva_Decompiler%29|DE.Wikipedia "JAD (JAva Decompiler)"]].
+    *[[http://jadclipse.sourceforge.net/|Sourceforge "JadClipse - Eclipse plugin"]], [[http://www.sourceforge.net/projects/jadclipse/|Sourceforge "JadClipse - Eclipse plugin"]].
+    *The free GUI [[http://www.sureshotsoftware.com/cavaj/|Sureshot Software "Cavaj Java Decompiler V1.11"]] - "JCavaj Java decompiler uses Jode as its Java decompiling engine".
+      *[[http://www.sureshotsoftware.com/jcavaj/manual.html|Sureshot Software "Cavaj Java Decompiler V1.00 Manual"]].
+      *[[http://www.sureshotsoftware.com/jcavaj/faq.html|Sureshot Software "Cavaj Java Decompiler V1.00 FAQ"]].
+      *Download: [[http://download.cnet.com/Cavaj-Java-Decompiler/3000-2213_4-10071619.html|CNET "Cavaj Java Decompiler 1.11"]].
+  *[[http://www.java-decompiler.com/|Michael Jentsch "Java Decompiler"]] - free online and offline Java decompilers.
+  *The free [[http://java.decompiler.free.fr/|Emmanuel Dupuy "Java Decompiler. Yet another fast Java decompiler"]] - JD-Core, JD-GUI and JD-Eclipse.
+  *[[http://members.fortunecity.com/neshkov/dj.html|DJ Java Decompiler]], [[http://dj.navexpress.com/|[DJ Java Decompiler]] - the current version is commercial.
+    *"DJ Java Decompiler - 3.7.7.81" - this legacy version is freeware.
+      *[[http://www.programsaati.com/DJ_Java_Decompiler-2910.html|Programsaati "DJ Java Decompiler - 3.7.7.81"]].
+      *[[http://ftp.ctex.org/pub/software/windows/developers/DJdec/djdec377/|ctex DJ Java Decompiler - 3.7.7.81"]].
+      *[[http://download.softobzor.net/download/win/2612/Debuggers/Decompilers/Dissasemblers/Programming/DJ-Java-Decompiler-37781.html|Softobzor "Windows / Programming / Debuggers/Decompilers/Dissasemblers / DJ Java Decompiler 3.7.7.81"]].
+  *[[http://jode.sourceforge.net/|Sourceforge "Jode"]], [[http://www.sourceforge.net/projects/jode/|Sourceforge "Jode"]] - "Java Optimize and Decompile Environment". Freeware.
+  *[[http://www.brouhaha.com/~eric/software/mocha/|Eric Smith "Mocha, the Java Decompiler"]] - freeware.
+==== Resources ====
+  *[[http://www.program-transformation.org/Transform/JavaDecompilers|Program Transformation Wiki "Java Decompilers"]].
+  *[[http://www.faqs.org/docs/Linux-HOWTO/Java-Decompiler-HOWTO.html|faqs.org "Alavoor Vasudevan: Java Decompiler HOW-TO"]].
+===== The Java Language and the JDK =====
+==== The Java Language ====
+  *Hash Map.
+    *[[http://openbook.galileodesign.de/javainsel5/javainsel11_005.htm|Galileo OpenBook "Java ist auch eine Insel"]] - "11.6 Assoziative Speicher HashMap und TreeMap".
+    *[[http://schabby.de/hashmap/|Schabby's Blog "Java HashMap"]].
+  *[[http://www.technofundo.com/tech/java/equalhash.html|Technofundo "Equals and Hash Code"]] -> If you override the "equals()" and "hashcode()" functions of a class, you can manage that the comparison of 2 objects of the same class, though different objects, becomes "true".
+==== The JDK ====
+  *Selection of the active Java runtime / JDK for Windows, by the registry entry: key = "HKEY_LOCAL_MACHINE/SOFTWARE/JavaSoft/Java Development Kit/Current Version", value="1.3".
+==== Communications with Java ====
+  *[[http://en.wikipedia.org/wiki/Java_Message_Service|EN.Wikipedia "Java Message Service"]], [[http://de.wikipedia.org/wiki/Java_Message_Service|DE.Wikipedia "Java Message Service"]] ( JMS ).
+  *[[http://www.torsten-horn.de/|Torsten Horn]].
+    *[[http://www.torsten-horn.de/techdocs/|Torsten Horn - TechDocs]].
+      *[[http://www.torsten-horn.de/techdocs/jee-jms.htm|Torsten Horn "JMS (Java Message Service)"]].
+  *[[http://en.wikipedia.org/wiki/Java_remote_method_invocation|EN.Wikipedia "Java remote method invocation"]], [[http://de.wikipedia.org/wiki/Remote_Method_Invocation|DE.Wikipedia "Remote Method Invocation"]] ( Java RMI ).
+==== Contexts and Dependency Injection ( CDI ) ====
+  *[[http://www.cdi-spec.org/|Contexts and Dependency Injection ( cdi-spec.org )]].
+  *[[http://java.dzone.com/articles/cdi-di-p1|DZONE Javalobby "Rick Hightower: CDI Dependency Injection - An Introductory Tutorial Part 1 - Java EE"]].
+  *[[http://www.jaxenter.com/tutorial-introduction-to-cdi-contexts-and-dependency-injection-for-java-ee-jsr-299-42877.html|Jaxenter "The Hollywood Principle. Tutorial - Introduction to CDI - Contexts and Dependency Injection for Java EE (JSR 299)"]].
+  *[[http://www.heise.de/ix/artikel/Direkteinspritzer-958569.html|Heise iX "Markus Eisele: Dependency Injection in Java EE 6. Direkteinspritzer"]].
+  *[[http://blog.namics.com/2011/01/cdi-leichtgewic.html|Namics Weblog "CDI: Leichtgewichtige Injection in Java EE 6"]].
+  *[[http://docs.oracle.com/javaee/6/tutorial/doc/giwhl.html|Oracle "The Java EE 6 Tutorial - Overview of CDI"]].
+  *[[http://openbook.galileocomputing.de/java7/1507_17_002.html|Christian Ullenboom "Java 7 - Mehr als eine Insel", Chapter "17.2 Wie eine Implementierung an die richtige Stelle kommt"]].
+  *[[http://de.wikipedia.org/wiki/Contexts_and_Dependency_Injection|DE.Wikipedia "Contexts and Dependency Injection"]].
+==== Execution of "System.console()" in IDEs ====
+  *[[http://illegalargumentexception.blogspot.de/2010/09/java-systemconsole-ides-and-testing.html|Illegal Argument Exception. Miscellaneous Computer Code "Java: System.console(), IDEs and testing"]] #.
+    *"The method System.console() can return null if there is no console device present. This comes as a surprise to people when they run their code in an IDE".
+    *"People managed to get data to and from the console before Java 6 came along", but obviously now with Java 6, 7, 8... not anymore :-(.
+===== Resources =====
+  *Experts told me, that Java doesn't have an efficient built-in BCD arithmetics :-(:
+  *[[http://www.javatux.de/|Oliver Böhm "Java-Tux"]] - ""Java unter Linux".
+  *[[http://www.developer.com/|Developer.com]] - "Your Home for Java and Open Source Development Knowledge".
+    *[[http://www.gamelan.com/|Developer.com's Gamelan.com]] - "Your Source for Java Information".
+  *[[http://embedded.soe.ucsc.edu/|University of California, Jack Baskin School of Engineering - "banana slug Embedded Systems and Java at UCSC banana slug"]].
+  *[[http://www.javangelist.de/|Javangelist]] - "A website with help for professional Java developers".
+  *[[http://www.learnjavaonline.org/|Learn Java]] - "Interactive Java Tutorial".
+  *[[http://www.oio.de/|Orientation in Objects]].
+    *[[http://www.oio.de/public/java/java-web-frameworks-vergleich/jsf-vs-gwt-studie.htm?nl114|Orientation in Objects "OIO Kompass: Java Web-Frameworks"]] - "Vergleich von Java Web-Frameworks wie GWT vs. JSF. Auswertung einer Umfrage zu den Hintergründen der Auswahl von Java Web-Frameworks - speziell GWT und JSF" #.
+  *[[http://www.overapi.com/java/|OverAPI.com "Java Cheat Sheet"]] #.
+  *[[http://seniorjava.wordpress.com/2013/09/01/java-objects-memory-size-reference/|Soroosh Sarabadani, "Just another java blog. My experiences about software engineering": "JAVA Objects Memory Size Reference"]] #.
+  *[[http://www4.ncsu.edu/~kaltofen/courses/Languages/JavaExamples/cpp_vs_java/|Erich Kaltofen "Erich's Java cheat sheet for C++ programmers"]].
+  *[[http://www.linuxjournal.com/article/4860|Linux Journal "Compiling Java with GCJ"]] #.
+  *[[http://java.seite.net/|Kaffee & Kuchen]] - "Die führende deutsche Java-Seite".
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/Java_Virtual_Machine|EN.Wikipedia "Java Virtual Machine"]], [[http://de.wikipedia.org/wiki/Java_Virtual_Machine|DE.Wikipedia "Java Virtual Machine"]].
+    *[[http://en.wikipedia.org/wiki/Java_Native_Interface|EN.Wikipedia "Java Native Interface]], [[http://de.wikipedia.org/wiki/Java_Native_Interface|DE.Wikipedia "Java Native Interface"]].
+  *[[http://en.wikipedia.org/wiki/List_of_compilers|EN.Wikipedia "List of compilers"]].
+  *[[http://www.zetcode.com/|ZetCode Tutorial]].
+    *E-books: "Java Swing layout management".
+    *GUI: "Java Swing tutorial", "Jython Swing tutorial", "JRuby Swing tutorial", "Java SWT tutorial", "Java Gnome tutorial".
+    *Graphics: "Java 2D games tutorial", "Java 2D tutorial".
+    *Languages: "Java tutorial".
+    *Other: "Java EE 5 tutorials".
+    *Databases: "MySQL Java tutorial", "PostgreSQL Java tutorial".
+
+
+===== Titles, Organisations & Conferences =====
+==== Germany =====
+  *[[http://www.java.de/|Java User Group Deutschland e. V.]] ( JUG ).
+    *[[http://www.java.de/ziele-und-satzung-verein-27|Java User Group Deutschland e. V. - Satzung]] - "3.4. Die Austrittserklärung ist schriftlich mit einer Frist von einem Monat zum Ende eins Kalenderjahres gegenüber dem Vorstand abzugeben. Der Austritt ist jeweils zum Ende eines Vereinsjahres möglich".
+    *Event "Java Forum Nord / Source Talk Tage".
+      *Ticket fee: "Freier Eintritt für Mitglieder der [[http://www.java.de/|JUG Deutschland]] ( while the annual membership fee for JUG is just 46 EUR for single members :-) ).
+      *[[http://www.javaforumnord.de/|Java Forum Nord]], 2015-10-06 in Hannover, Germany - "Die eintägige Java-Konferenz mit 21 Vorträgen in 3 parallelen Tracks findet am 06. Oktober 2015 in Hannover (Hotel Plaza, direkt am Hauptbahnhof) statt".
+      *[[http://www.twitter.com/javaforumnord|Twitter "Java Forum Nord, @JavaForumNord"]].
+    *[[http://www.sourcetalk.de/|Source Talk Tage]], 2014-08-26 - 2014-08-27 in Göttingen, Germany.
+      *Ticket fee: "Freier Eintritt für Mitglieder der [[http://www.java.de/|JUG Deutschland]] ( while the annual membership fee for JUG is just 46 EUR for single members :-) ).
+      *I got a invitiation to visit the conference on 2014-08-27 for free.
+  *[[http://java.sun.com/community/usergroups/|Oracle Sun Developer Network (SDN) - Java User Groups]].
+    *[[http://www.ijug.de/|iJUG - Interessenverbund der Java User Groups e.V.]].
+  *[[http://java-champions.java.net/|The Java Champions Project]] - Title "Java Champion".
+  *[[http://www.javaland.eu/|Javaland]] in the theme park [[http://en.wikipedia.org/wiki/Phantasialand|Phantasialand]], [[http://en.wikipedia.org/wiki/Br%C3%BChl_%28Rhineland%29|Brühl (Rhineland)]] next to Köln, 2014-03-25 - 2014-03-26.
+  *[[http://www.jayday.de/|JayDay]] in München, 2013-07-01.
+==== Greece, Crete =====
+  *[[http://www.jcrete.org/|Java Specialists Symposium]], 2014-08-25 - 2014-08-29 - "An Open Spaces Conference on an Island in the Mediterranean Sea".
+
+===== Forums, Communities, Newsgroups =====
+  *[[http://www.basic4ppc.com/android/forum/|Anywhere Software "Basic4android Community"]] - "B4J" subforums.
+  *[[http://www.bytes.com/topic/java/|Bytes IT Community "Java Forum"]].
+  *[[http://groups.google.com/group/comp.lang.java.advocacy|Google Groups "comp.lang.java.advocacy"]], [[http://groups.google.com/group/comp.lang.java.api|Google Groups "comp.lang.java.api"]], [[http://groups.google.com/group/comp.lang.java.programmer|Google Groups "comp.lang.java.programmer"]], [[http://groups.google.com/group/comp.lang.java.security|Google Groups "comp.lang.java.security"]], [[http://groups.google.com/group/comp.lang.java.setup|Google Groups "comp.lang.java.setup"]], [[http://groups.google.com/group/comp.lang.java.softwaretools|Google Groups "comp.lang.java.softwaretools"]], [[http://groups.google.com/group/comp.lang.java.tech|Google Groups "comp.lang.java.tech"]], [[http://groups.google.com/group/de.comp.lang.java|Google Groups "de.comp.lang.java"]].
+  *[[http://groups.google.com/group/borland.public.install.jbuilder|Google Groups "borland.public.install.jbuilder"]], [[http://groups.google.com/group/borland.public.jbuilder.announce|Google Groups "borland.public.jbuilder.announce"]], [[http://groups.google.com/group/borland.public.jbuilder.applet-issues|Google Groups "borland.public.jbuilder.applet-issues"]], [[http://groups.google.com/group/borland.public.jbuilder.compiler|Google Groups "borland.public.jbuilder.compiler"]], [[http://groups.google.com/group/borland.public.jbuilder.corba-rmi|Google Groups "borland.public.jbuilder.corba-rmi"]], [[http://groups.google.com/group/borland.public.jbuilder.database|Google Groups "borland.public.jbuilder.database"]], [[http://groups.google.com/group/borland.public.jbuilder.debugger|Google Groups "borland.public.jbuilder.debugger"]], [[http://groups.google.com/group/borland.public.jbuilder.deployment|Google Groups "borland.public.jbuilder.deployment"]], [[http://groups.google.com/group/borland.public.jbuilder.documentation|Google Groups "borland.public.jbuilder.documentation"]], [[http://groups.google.com/group/borland.public.jbuilder.ide|Google Groups "borland.public.jbuilder.ide"]], [[http://groups.google.com/group/borland.public.jbuilder.java.language|Google Groups "borland.public.jbuilder.java.language"]], [[http://groups.google.com/group/borland.public.jbuilder.java.swing|Google Groups "borland.public.jbuilder.java.swing"]], [[http://groups.google.com/group/borland.public.jbuilder.javabeans.using|Google Groups "borland.public.jbuilder.javabeans.using"]], [[http://groups.google.com/group/borland.public.jbuilder.javabeans.writing|Google Groups "borland.public.jbuilder.javabeans.writing"]], [[http://groups.google.com/group/borland.public.jbuilder.jbcl|Google Groups "borland.public.jbuilder.jbcl"]], [[http://groups.google.com/group/borland.public.jbuilder.jobs|Google Groups "borland.public.jbuilder.jobs"]], [[http://groups.google.com/group/borland.public.jbuilder.multi-lingual-apps|Google Groups "borland.public.jbuilder.multi-lingual-apps"]], [[http://groups.google.com/group/borland.public.jbuilder.non-technical|Google Groups "borland.public.jbuilder.non-technical"]], [[http://groups.google.com/group/borland.public.jbuilder.thirdpartytools|Google Groups "borland.public.jbuilder.thirdpartytools"]].
+  *[[http://groups.google.com/group/microsoft.public.inetexplorer.scripting|Google Groups "microsoft.public.inetexplorer.scripting"]], [[http://groups.google.com/group/microsoft.public.inetexplorer.scripting|Google Groups "microsoft.public.inetexplorer.scripting"]], [[http://groups.google.com/group/microsoft.public.internetexplorer.java|Google Groups "microsoft.public.internetexplorer.java"]],  [[http://groups.google.com/group/microsoft.public.inetsdk.programming.scripting.jscript|Google Groups "microsoft.public.inetsdk.programming.scripting.jscript"]],  [[http://groups.google.com/group/microsoft.public.inetexplorer.ie4.java_applets|Google Groups "microsoft.public.inetexplorer.ie4.java_applets]], [[http://groups.google.com/groups/dir?sel=usenet%3Dmicrosoft.public.java|Google Groups "microsoft.public.java"]].
+  *[[http://www.javaranch.com/|Java Ranch - a friendly place for Java greenhorns!]].
+    *[[http://www.coderanch.com/|Java Ranch - Java Forums at the Big Moose Saloon ( coderanch.com )]].
+  *[[http://www.jcreator.com/|Xinox Software "JCreator Forum Board"]].
+  *[[http://www.jetbrains.com/devnet/|JetBrains "Developer Community"]].
+    *[[http://devnet.jetbrains.net/community/idea|JetBrains "Developer Community / IntelliJ IDEA"]].
+      *[[http://devnet.jetbrains.net/community/idea/ideacommunity|JetBrains "Developer Community / IntelliJ IDEA / IntelliJ IDEA / IntelliJ IDEA Users"]] Forum.
+  *[[http://www.java.net/people/590910-hemmerling|java.net - The Source for Java Technology Collaboration]].
+  *[[http://www.java-forum.org/|Java-Forum.org]].
+    *In 2013-07-28, there was a change of owner in the forum. There is a dataloss of messages in the period 2013-02-11 - 2013-08-28. Nowadays the forum is online again.
+    *[[http://web.archive.org/web/*/java-forum.org|Archive.org "java-forum.org"]] ( - 2013-06-17 ).
+    *[[http://forum.byte-welt.net/showthread.php?t=4659|Byte-Welt - Die Welt des Programmierens " Informationen zu java-forum.org"]].
+    *[[http://forum.byte-welt.net/|Byte-Welt Forum]].
+    *[[http://java-forum.byte-welt.de/forumdisplay.php?f=6|Byte-Welt Java Forum]].
+  *[[http://forums.netbeans.org/|NetBeans Forums]].
+    *[[http://forums.netbeans.org/viewtopic.php?p=160449#160449|NetBeans Forums "If I create a new project and try to select a project type with Netbeans ( on freshly installed Win 8.1 ), a dreadful little window "Search:" appears next and prevents me from selecting a project...Any help ?!"]].
+  *[[http://forum.springsource.org/|Spring Community Forums]].
+  *[[http://www.stackoverflow.com/questions/tagged/java|Stack Overflow - Tagged Questions "[javal]"]].
+  *XDEV.
+    *[[http://cms.xdev-software.de/forum.php/|XDEV Forum]].
+    *[[http://www.xing.com/net/xdev|XING "XDEV"]].
+    *[[http://www.facebook.com/pages/XDEV-Software/146296578714402|Facebook "XDEV Software"]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Programming/Languages/|OpenDirectory "Top: Computers: Programming: Languages"]].
+  *[[http://www.dmoz.org/Computers/Programming/Languages/Java/|OpenDirectory "Top: Computers: Programming: Languages: Java"]].
+{{tag>Java}}
+<footnote_navi_en>

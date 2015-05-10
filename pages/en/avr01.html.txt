@@ -1,0 +1,64 @@
+====== [hemmerling] AVR Microcontrollers Expertness 1/4 - Typcial Error Messages of the Atmel AVR Toolchain ======
+Related pages:
+  *[[atmel.html|The Atmel AVR Family with Focus on ATxmega, ATmega, ATtiny and the Arduino / Freeduino Platform]].
+  *[[arduino.html|The Arduino / Freeduino Platform with Atmel ATmega, Microchip PIC, ARM, Freescale Coldfire]].
+  *[[atmega.html|Atmel ATmega, ATtiny, AT90 & ATmega on the Arduino / Freeduino Platform]].
+  *[[atxmega.html|Atmel ATxmega ( "XMEGA" )]] - This page deals with software tools which are suitable both for ATxmega and for ATmega, ATtiny.
+===== 1 "New Hardware Found" =====
+  *Issue: Each time when booting of a host PC with ( german ) Vista operating system and “Atmel AVR XMEGA-A3BU Xplained kit” and the hardware debugger [[http://www.atmel.com/dyn/products/tools_card.asp?tool_id=17213&category_id=163&family_id=682&subfamily_id=2138|JTAGICE 3]] attached, there is the ( german ) message "Neue Hardware gefunden", and two new devices are named ( in german language ) in the Windows device manager "Basiseingabegerät" and "Netzwerkcontroller", though all necessary drivers are properly installed.
+  *Suggestion: Deinstall the two new devices from the Windows device manager, after each booting of Vista.
+===== 2 "No Source  Available" =====
+  *Issue: With Atmel Studio 5, when debugging with JTAGICE3, after the the debugger start, there is a window in Atmel Studio 5 with the message "**No Source  Available**. There is no source code for the current location".
+  *Advice: Ignore the message, switch back to your source file and continue debugging.
+  *Guilty: The compiler optimization.
+  *Solution to avoid the message: Atmel Studio 5, "Project / Properties / Toolchain / AVR/GNU C Compiler / Optimization" - Set the "Optimization Level" to "None (-O0)".
+  *Reference [[http://www.avrfreaks.net/index.php?name=PNphpBB2&file=viewtopic&theme=print&p=869044|AVR Freaks Forum "Debug-No Source Available "]], 2011-09-06.
+===== 3 "The breakpoint will currently not be hit. Unable to set the requested breakpoint on target" =====
+  *Issue: When debugging a program with Atmel Studio 5, some breakpoints are irgnored, by the cloud message "**The breakpoint will currently not be hit. Unable to set the requested breakpoint on target**. Note: The currently selected device is unable to set breakpoints during runtime". Before the debugging starts, all set breakpoints cause a red filled bullet to appear at the beginning of the editor line. This visualisation changes during debugging: Irgnored breakpoints are visualized by a yellow non-filled bullet.
+  *Guilty: The compiler optimization.
+  *Solution to avoid the message: Atmel Studio 5, "Project / Properties / Toolchain / AVR/GNU C Compiler / Optimization" - Set the "Optimization Level" to "None (-O0)" and disable all other compiler and linker optons too.
+  *Reference: [[http://8515.avrfreaks.net/index.php?name=PNphpBB2&file=viewtopic&t=109250&sid=540faf8435074cd387113ecdbe706e91|AVR Freaks Forum "The breakpoint will not currently be hit"]], 2011-07-08.
+  *Recommended reading: [[http://www.avrfreaks.net/index.php?name=PNphpBB2&file=viewtopic&t=97382|AVR Freaks Forum "[TUT][C]Optimization and the importance of volatile in GCC"]].
+===== 4 "R_AVR_13_PCREL against symbol `__mulsf3'" =====
+  *Issue: Linker error.<html><BR><I>
+Invoking:AVR/GNU C/C++ Linker.<BR>
+/home/tools/hudson/workspace/avr8-gnu-toolchain/src/avr-libc/libm/fplib/fp_powsodd.S(59,1): R_AVR_13_PCREL against symbol `__mulsf3' defined in .text section in c:/program files/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avrxmega6\libgcc.a(_mul_sf.o)<BR>
+/home/tools/hudson/workspace/avr8-gnu-toolchain/src/avr-libc/libm/fplib/fp_powsodd.S(69,1): R_AVR_13_PCREL against symbol `__mulsf3' defined in .text section in c:/program files/atmel/avr studio 5.0/avr toolchain/bin/../lib/gcc/avr/4.5.1/avrxmega6\libgcc.a(_mul_sf.o)</I></html>
+  *Solution: Atmel Studio 5, "Project / Properties / Toolchain / AVR/GNU C Linker / Libraries", Button "Add Libraries (-Wl, -l )" - Enter "m" ( for the library "libm.a" ).
+  *Reference: [[http://www.mikrocontroller.net/topic/223273|mikrocontroller.net "Forum GCC", Thread "Error 2 R_AVR_13_PCREL against symbol `__mulsf3' defined in .text section in"]].
+===== 5 Arduino IDE "stk500v2_command(): unknown status 0xc8" =====
+  *Issue: Arduino IDE 1.0, error message during upload of the "File / Examples / 1Basics / Blink" program by USB without programmer: "stk500v2_command(): unknown status 0xc8".
+  *Solution: 
+    -Plug in the Ardunio, e.g. the Arduino Mega ADK.
+    -Right-click on 'My Computer' and select properties.
+    -Select "Device Manager".
+    -Scroll down to ports to "Ports ( COM & LPT )".
+    -Find the port the Arduino is connected on ( e.g. "Aurduino Mega ADK ( COM23" ).
+    -With the Arduino IDE, select the right serial port or virtual serial port , at "Tools / Serial Port". Be shure to set the proper serial port for the Arduino IDE at "Tools / Serial Port", each time you plugin the Arduino!
+  *Default port settings: 9600 bps, 8 data bits, parity: none, 1 stop bit, flow control: none.
+  *How to reinstall the serial driver on Windows:
+    -Download the Arduino IDE and unpackage it, e.g. at "C:\Program Files\Arduino".
+    -Plug in the Ardunio, e.g. the Arduino Mega ADK.
+    -Right-click on 'My Computer' and select properties.
+    -Select "Device Manager".
+    -Scroll down to ports.
+    -Find the port the Arduino is connected on and right-click and select properties.
+    -Select "Update driver".
+    -Select "Browse my computer for driver software".
+    -Browse to the folder where you unpackaged Arduino IDE and select the driver folder. In case of Vista and Win7, this task might be done by the operating system.
+    -Press Next 
+  *Recommended reading: [[http://forums.adafruit.com/viewtopic.php?f=25&t=17769|adafruit Forums "New Mega 2560 - failed to leave programming mode"]].
+===== 6 Arduino IDE - Some general Tips =====
+  *Issue:
+    *Though the Arduinio IDE allows to divide a project into several "sketches" ( i.e. files ), it just compiles all sketches in a single compiler run. This may increase compilation times, with huge projects.
+  *Issue:
+    *It was reported that this single compilation of all project sketches might cause easily unexpected compiler errors due to muliple inclusion of include files.
+  *Information:
+    *Though the Arduino softare framework amd its documentation is intended to look and fee like the Wiring Platform and its crippled programming language ( see [[atmega.html|Atmel ATmega, ATtiny, AT90 & ATmega on the Arduino / Freeduino Platform]], section "The Wireing Platform" ), the genuine Atmel C/C++ is used for compilation. So you can use many true C/C++ features ( and C/C++ "tricks" ) with the Arduino software framework.
+===== 6 Interpretation of Fritzing Displays of Breadboards - Some general Tips =====
+  *Information:
+    *If you buy a Fritzing kit, you get a "double breadboard", while the FritzIng videos & Fritzing graphics display just show a "single breadboard". In the middle of the "double breadboard", at the position labled "W", there is no connection between the outer 2 lines of interface jacks, both at the upper and lower side of the board. You need to wire connections there, to get power and ground signals available on the other half of the board :-).
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Hardware/Components/Processors/AVR/|OpenDirectory "Top: Computers: Hardware: Components: Processors: AVR]].
+{{tag>Atmel AVR AVR32 ATxmega128A1 ATxmega256A3BU ATmega ATtiny AT90 Arduino Freeduino ATxmega "ATX Mega" XMEGA XMEGA-A1 XMEGA-A3BU Xplained "AVR Studio" "8-bit" "32-bit" 8bit 32bit CPU "embedded system" "embedded systems"}}
+<footnote_navi_en>

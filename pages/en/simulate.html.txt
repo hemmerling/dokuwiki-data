@@ -1,0 +1,283 @@
+====== [hemmerling] Simulation & Model Based Development ======
+Related Pages:
+  *[[instrumentation.html|Instrumentation]].
+  *[[mathengineering.html|Mathematical Engineering]].
+  *[[mathworks.html|MathWorks ( MATLAB / Simulink )]].
+  *[[ni.html|National Instruments ( Labview, DIAdem )]].
+  *[[mathcad.html|PTC Mathcad]].
+  *[[cae.html|Computer Aided Engineering ( CAE )]].
+===== Organizations =====
+  *[[http://www.asim-gi.org/|Arbeitsgemeinschaft Simulation ( ASIM )]].
+===== Simulation Tools =====
+==== Tools for Continuous and Discrete Simulation ====
+=== Free unlimited Tools ===
+  *[[http://www.bengt-martensson.de/software/gnans/|Bengt Mårtensson "Gnans"]] - "A program (and language) for the numerical study of deterministic and stochastic dynamical systems. The dynamical systems may evolve in continuous or discrete time".
+==== Continuous Simulation Tools ====
+=== Free unlimited Tools ===
+  *See [[mathengineering.html|Mathematical Engineering]].
+=== Commercial Tools, sometimes with free limited Editions ===
+  -[[http://www.concurrent-dynamics.com/|Concurrent Dynamics International]].
+    *[[http://www.concurrent-dynamics.com/xmr/|Concurrent Dynamics International "Dynawiz XMR"]] - "Multibody Dynamics Simulation" (MDS).
+    *Once there was a free demo version with some reduced model editing privileges.
+  -[[http://www.iti.de/|ITI GmbH "SimulationX"]].
+    *[[http://www.iti.de/simulationx/download/testversion/simulationx-fuer-studenten.html|ITI GmbH "SimulationX / Download / Testversion / Studentenversion]] - Free student edition, just for students.
+  -[[http://www.umlab.ru/|Universal Mechanism]].
+    *Simulation of kinematics and dynamics of planar and spatial mechanical system. 
+    *There is a free demo version with the limits: No more than five bodies, five joints and five forces of each type are supported. With registration, the demo version expires after 3 months.
+  *See [[mathengineering.html|Mathematical Engineering]].
+  *See [[mathworks.html|MathWorks ( MATLAB / Simulink )]].
+=== Commercial and Academic Tools for Control Theory ===
+  -"WinDORA" / "DORA für Windows".
+    *[[http://www.rst.e-technik.tu-dortmund.de/cms/de/Lehrstuhl/Chronik/|Technische Universität Dortmund "Elektrotechnik und Informationstechnik / Regelungssystemtechnik / Lehrstuhl / Chronik"]].
+    *[[http://www.nutechsolutions.com/|NuTech Solutions]] was once the vendor of the commercial edition of "DORA für Windows".
+    *[[http://wayback.archive.org/web/*/http://esr.e-technik.uni-dortmund.de/Software.htm|Archive.org "	Lehrstuhl für Elektrische Steuerung und Regelung, Fakultät für Elektrotechnik und Informationstechnik, Universität Dortmund: Software des Lehrstuhls"]] -> "WINROSA", "DORA für Windows".
+    *[[http://wayback.archive.org/web/*/http://www.fbe.fh-darmstadt.de/lze/LernProgs/WinDora.htm|Archive.org "Fachhochschule Darmstadt: Einleitung zu DORA für Windows"]].
+    *[[http://wayback.archive.org/web/*/http://www.fh-sw.de/sw/rz/hochschu/archiv/dora.html|Archive.org "Hochschule für angewandte Wissenschaften Würzburg-Schweinfurt: DORA - Skript Dr. Lambert"]].
+  -[[http://www.vissim.com/products/vissim.html|Visual Solutions Corporation "VisSim"]] for Windows.
+    *A special "VisSim Comm LE 4.5a" edition is shipped with Mathcad 2001 Professional and Mathcad 2001i Professional. The maximum number of blocks is 25.
+    *A special "VisSim Comm PE" edition is shipped with Mathcad 2001i Premium. The maximum number of blocks is 100.
+    *The free [[http://www.vissim.com/content/free_vissim_viewer_download_request_form||Visual Solutions Corporation "VisSim Viewer"]] for Windows.
+    *[[http://www.adeptscience.co.uk/kb/category/Mathematics%20and%20Simulation/VisSim/product=%28VisSim%29/1,1,10|Adept Scientific Knowledge Base "VisSim"]].
+  -[[http://www.kahlert.com/|Ingenieurbüro Dr. Kahlert "WinFACT"]] for Windows.
+
+==== Discrete Simulation ====
+=== Free unlimited Tools ===
+  -The OpenSource [[http://www.tik.ee.ethz.ch/~moses/|The Moses Project - Modeling, Simulation, and Evaluation of Systems]], [[http://mosestoolsuite.sourceforge.net/|SourceForge "The Moses Project - Modeling, Simulation, and Evaluation of Systems"]], [[http://www.sourceforge.net/projects/mosestoolsuite/|SourceForge "Moses Tool Suite"]].
+    *[[http://wayback.archive.org/web/*/http://wwwhome.cs.utwente.nl/~dulman/codesign/|Archive.org "Featherlight Project"]] ( "Codesign Project" ).
+  -The free [[http://pcl.cs.ucla.edu/projects/parsec/|UCLA Parallel Computing Laboratory "Parallel Simulation Environment for Complex Systems ( PARSEC )"]] - "A C-based simulation language, developed by the Parallel Computing Laboratory at UCLA, for sequential and parallel execution of discrete-event simulation models. It can also be used as a parallel programming language".
+  -The free "SimWiz" by [[http://il.linkedin.com/pub/moshe-cohen/5/88/80b|LinkedIn "Moshe Cohen"]].
+    *Even the LinkedIn page has an invalid link to his unavailable personal homepage <del>[[http://my.jce.ac.il/bani/]]</del>.
+    *Download of the latest edition: [[http://www.softpedia.com/get/Science-CAD/SimWiz.shtml|Softpedia "SimWiz 5.03"]].
+=== Commercial Tools, sometimes with free limited Editions ===
+  -[[http://www.arenasimulation.com/|Rockwell Automation "Arena"]].
+    *A software for process modeling and simulation.
+    *A special academic version of "Arena", which can just handle 100 atoms ( Arena 3, Arena 5 ) or 150 atoms ( Arena 7 ), is shipped with the books:
+      *Book [[http://www.amazon.de/exec/obidos/ASIN/0071131248/hemmerling-21|W. D. Kelton, Randall P. Sadowski, Deborah A. Sadowski: "Simulation with Arena, w. CD-ROM, International Student Edition"]], (c) 2001, 2.edition. Includes a limited edition of  "Arena 5.0". //A bargain offer !//
+      *Book [[http://www.amazon.de/exec/obidos/ASIN/0072919817/hemmerling-21|David W. Kelton: "Simulation with Arena W/ CD-ROM with CDROM"]], (c) 2003, 3.edition. Includes a limited edition of  "Arena 7.01".
+      *Book [[http://www.amazon.de/exec/obidos/ASIN/0073259896/hemmerling-21|David W. Kelton: "Simulation with Arena, w. CD-ROM"]], (c) 2006, 4.edition. Includes a limited edition of "Arena".
+      *Book [[http://www.amazon.de/exec/obidos/ASIN/0073376280/hemmerling-21|David W. Kelton: "Simulation with Arena"]], (c) 2009, 5.edition. There is no version of this book shipped with a CD, i.e. this book is not a source for a current limited edition of "Arena".
+    *In opposite to the student version, in the past the full version were activated by an "activation disk", i.e. an activation was impossible on computers without built-in floppydisk drives :-(. 
+  -[[http://www.appliedmaterials.com/services-software/automation-software|Applied Materials - Automation Software]].
+    *The commercial simulation software [[http://www.appliedmaterials.com/services-software/library/applied-automod|Applied Materials "AutoMod"]] ( formerly: "Brooks Automation, Inc 'Automod'" ).
+      *[[http://www.appliedmaterials.com/services-software/automation-software/automod-academic-program|Applied Materials - AutoMod Academic Program]].
+      *Simulation of Material Handling, Continuous Process Modeling. 
+      *The special student version is limited to 200 named enities !
+  -[[http://www.3ds.com/products/delmia|Dassault Systèmes "Delmia Quest"]].
+    *[[http://www.3ds.com/communities/|Dassault Systèmes - Communities]].
+    *[[http://academy.3ds.com/|Dassault Systèmes - 3DS Academy]].
+  -[[http://www.sdz.de/|SimulationsDienstleistungsZentrum GmbH ( SDS GmbH )]].
+    *[[http://www.sdz.de/produkte/dosimis-3/|SimulationsDienstleistungsZentrum GmbH "DOSIMIS-3"]] for Windows with DirectX-9.
+    *For simulation of material flow, production logistics, distribution logistics, warehouse logistics, transport logistics.
+  -[[http://members.iinet.net.au/~clark/|Erlang Software "Erlang-G"]] for Windows.
+    *"Traffic and Queuing Software".
+    *"The Erlang-G program is a utility of use in the Voice, Call Center, or Packetized Data Network industries, to help model traffic blockage (loss), and/or delays".
+  -"Extend" and "Extend LT".
+    *[[http://www.extendsim.com/|Imagine That, Inc.]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0131554441/hemmerling-21|Jay Heizer, Barry Render: Operations Management]] with student CD, 8th edition.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0131406396/hemmerling-21|Jay Heizer, Barry Render: Principles of Operations Management]], 5th edition.
+    *Some special editions of these books are shipped with a limited version of the simulation software "Extend LT" by [[http://www.extendsim.com/|Imagine That, Inc.]], on CD, I got version 4.03a, (c) 1987-1998. You are limited to 75 blocks on a model. If you open a model with more than 75 blocks, you can run the model but you cannot edit it or save it.
+  -General Purpose Simulation System ( GPSS ) based software - discrete simulation software.
+    *Software.
+      *[[http://www.minutemansoftware.com/|Minuteman Software "GPSS World"]].
+        *The free student version "GPSS World 4.3.5" is limited to 150 blocks.
+      *[[http://www.wolverinesoftware.com/|Wolverine]].
+        *The free limited simulation tools "Student SLX", "Student GPSS/H" and Student Proof ( "Student P5", Student P3D" ).
+    *Documentation.
+      *[[http://www.minutemansoftware.com/reference/reference_manual.htm|GPSS World Reference Manual]].
+      *[[http://www.minutemansoftware.com/tutorial/tutorial_manual.htm|GPSS World Tutorial Manual]].
+      *[[http://www.wolverinesoftware.com/books.htm|Wolverine "Books - Learning is easy with our book-plus-software packages"]].
+  -"Global Mobile Information Systems Simulation Library" ( "GloMoSim" ) / "QualNet".
+    *[[http://pcl.cs.ucla.edu/projects/glomosim/|Mobile Systems Laboratory, University of California, Los Angeles "GloMoSim"]].
+    *[[http://pcl.cs.ucla.edu/projects/glomosim/obtaining_glomosim.html|Mobile Systems Laboratory, University of California, Los Angeles "Obtaining GloMoSim"]].
+    *The free [[http://pcl.cs.ucla.edu/projects/parsec/|UCLA Parallel Computing Laboratory "Parallel Simulation Environment for Complex Systems ( PARSEC )"]] - "A C-based simulation language, developed by the Parallel Computing Laboratory at UCLA, for sequential and parallel execution of discrete-event simulation models. It can also be used as a parallel programming language".
+    *The commercial [[http://www.scalable-networks.com/products/qualnet/|Scalable Network Technologies, Inc. "QualNet"]].
+  -"Plant Simulation" ( formerly "eM-Plant" ).
+    *[[http://www.emplant.de/|Siemens Industry Software GmbH & Co. KG "TECNOMATIX - Tranforming the Process of Manufacturing"]].
+      *For graphical modelling, visualisation, simulation and optimization of systems and business processes.
+      *With the free student edition of "Plant Simulation", just for students, you can create modells with up to 80 objects! The student license allows to run the software on a single Windows computer with a certain "Volume Serial Number" ( VSN ) of the OS partition, which must be notified when ordering the product. 
+      *"GetVolumeInformation" and "SetVolumeInformation" are official Win32 API functions.
+      *[[http://technet.microsoft.com/sysinternals/bb897436|Windows Sysinternals "VolumeID"]].
+      *[[http://delphi.about.com/od/windowsshellapi/a/volumeserial.htm|About.com, Delphi Programming "Retrieving volume's (disk / drive) serial number. Here's a handy piece of Delphi code to read the serial number of a (disk) drive"]].
+    *[[http://www.plm.automation.siemens.com/|Siemens PLM Software]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3446414908/hemmerling-21|Steffen Bangsow: "Fertigungssimulation mit Plant Simulation und SimTalk: Anwendung und Programmierung mit Beispielen und Lösungen"]].
+    *[[http://en.wikipedia.org/wiki/Plant_Simulation|EN.Wikipedia "Plant Simulation"]], [[http://de.wikipedia.org/wiki/Plant_Simulation|DE.Wikipedia "Plant Simulation"]].
+    *You might import 3D data created with the commercial CAD tool [[http://en.wikipedia.org/wiki/NX_%28Unigraphics%29|EN.Wikipedia "NX (Unigraphics)"]], [[http://de.wikipedia.org/wiki/NX_%28Siemens%29|DE.Wikipedia "NX (Siemens)"]].
+
+  -[[http://www.promodel.com/|ProModel Corporation "ProModel"]].
+    *Discrete-event simulation tool that also allows modeling of continuous processes. 
+    *A special affordable, but not free limited student version is available on CD ! -> [[http://www.promodel.com/academic/|ProModel Corporation - Academic]].
+  -[[http://www.codework.it/schedula/|CODEWORK Italia "SCHEDULA "]] - "A general purpose package for the discrete simulation of cascaded activities (as in shop floor simulation)".
+  -[[http://www.caciasl.com/|CACI]].
+    *[[http://www.simprocess.net/|CACI SIMPROCESS]] - "Business Process Management Software", "Modeling & Simulation".
+    *[[http://www.simscript.com/|CACI SIMSCRIPT]] - "Modeling & Simulation Software".
+      *"32-bit SIMSCRIPT III trial version contains all the features as 32-bit SIMSCRIPT III Release 2 Standard version, except for the number of processes and process methods that can be activated. It is suitable for learning the product".
+  -[[http://www.simul8.com/|SIMUL8 Corporation "SIMUL8"]].
+    *[[http://www.simul8.com/education/|SIMUL8 Corporation "SIMUL8 Software Student Licenses"]] - "The license is only valid for 6 months, but you can get it extended by special application".
+  -The "Taylor" simulation family, based on the work of "F&H Simulations": Simulation of manufacturing, logistics, material handling and administration. 
+    *[[http://www.flexsim.com/|Flexsim Software Products, Inc. "Flexsim"]], [[http://www.flexsim.de/|Flexsim Deutschland - Ingenieurbüro für Simulationsleistung Ralf Gruber]], [[http://www.simulation-beratung.de/|Ingenieurbüro für Simulationsleistung Ralf Gruber]].
+      *"Taylor II" was developed by the US company that was originally set up by "F&H". It eventually became "Enterprise Dynamics Inc." Some staff in this company started development of Flexsim and released the product after the company split. 
+      *With the free demo version, you can create & store up to 30 atoms ! 
+    *[[http://www.showflow.com/|ShowFlow Simulation Software]].
+      *Un updated version of "Taylor II". You can load "Taylor II" models !
+      *Commercial versions, which can store models:
+        *The full version of Showflow can build models of up to 1000 elements.
+        *For some markets, they offer a "light" version with a limit of 64 elements per model.
+        *The affordable but not free student edition is limited to 16 elements per model.
+      *Evaluation versions which can't store models:
+        *The evaluation version of Showflow can build models with up to 16 elements.
+        *The outdated demo version of "Taylor II 4.2" can build models with up to 20 elements.
+    *[[http://www.incontrolsim.com/|INCONTROL Simulation Solutions "Enterprise Dynamics"]].
+      *The sucessor of "Taylor Enterprise Dynamics" = Taylor ED". "Taylor ED" was originally the successor of "Taylor II", in the means of a "big brother". 
+      *[[http://www.incontrolsim.com/academy/|INCONTROL Simulation Solutions "ED Academy - The Educational and Research Portal"]].
+        *With the special student version, you can create & store small modells with up to 30 atoms !
+      *[[http://www.incontrolsim.com/en/ed-showflow/ed-showflow.html|INCONTROL Simulation Solutions "ED ShowFlow"]].
+  -[[http://www.lanner.com/|Lanner]], [[http://www.lannersimtech.de/|Lanner Simulation Technology GmbH]].
+    *The commercial simulation software [[http://www.lanner.com/en/media/witness/witness-pwe.cfm|Lanner "WITNESS"]] - Business simulation system.
+    *[[http://www.lanner.com/en/academic.cfm|Lanner - Academic]].
+    *Once, there was a free limited "WITNESS 2006 Educational" alias "Witness XA, WIN Release". By special personal request, it was distributed to students on CD, for free. Nowadays, please ask for a current release !
+=== Free Libraries, no GUI, you must write C++ or Java Code ===
+  *The OpenSource [[http://www.dcs.ed.ac.uk/home/hase/simjava/|University of Edinburgh "Simjava"]] for Java.
+  *The OpenSource [[http://diana.nps.edu/Simkit/|Simkit]] by Arnold Buss, for Java - Discrete event simulation ( DES ).
+=== Commercial Libraries, no GUI, you must write C++ or Java Code ===
+  *[[http://www.mesquite.com/|Mesquite CSIM20]] for Java and C/C++.
+    *[[http://www.mesquite.com/order/StudentVersionLimitations.htm|Mesquite "Student Version Limitations"]] - A special affordable, but not free student version is available for download.
+    *A process-oriented, general purpose simulation toolkit written with general C/C++ language functions, for Windows, Linux, MacOSX. 
+  *[[http://www.omnetpp.org/|OMNeT++]].
+    *Wiki [[http://www.omnetpp.org/pmwiki/|OMNeT++ User Community Wiki]].
+    *"An extensible, modular, component-based C++ simulation library and framework, primarily for building network simulators".
+    *"Package for Windows contains the MinGW C++ compiler".
+    *[[http://en.wikipedia.org/wiki/OMNeT%2B%2B|EN.Wikipedia "OMNeT++"]], [[http://de.wikipedia.org/wiki/OMNeT%2B%2B|DE.Wikipedia "OMNeT++"]] - "The software is licensed under the its own Academic Public License, which allows GNU Public License-like freedom but only in noncommercial settings".
+  *[[http://www.gpc.de/|Gesellschaft für Prozeßautomation & Consulting mbH "Poses++"]].
+    *"Poses++ is free available software containing a licence threshold of 500 modelling elements. In case you want to handle larger models and you want to purchase licence entries, we would like to submit you an offer".
+=== Resources ===
+  *Note that everything is an atom or enity - resources, products, datalinks, graphs etc, even the model itself. In opposite, elements are just that - machines, buffers, conveyors. So don't compare apples with oranges !
+  *University of Applied Sciences and Arts "Fachhochschule Hannover".
+    *University laboratory [[http://www.fakultaet2.fh-hannover.de/organisation/labore/fhlm/|Fachhochschule Hannover, Fachgebiete/Labore /  Förder- u. Handhabungstechnik, Logistik und Materialfluss]] - Once the laboratory was using "Taylor II" ( -2007 ), now "Flexsim".
+    *University laboratory [[http://www.fakultaet2.fh-hannover.de/organisation/labore/fertigungsautomatisierung-digitale-fabrik/|Fachhochschule Hannover, Fachgebiete/Labore /  Fertigungsautomatisierung, Digitale Fabrik]] - Using "Delmia Quest" ( 2007 ).
+  *[[http://wayback.archive.org/web/*/http://www.tbm.tudelft.nl/webstaf/edwinv/SimulationSoftware/|Archive.org "Edwin Valentin, TU Delft: Discrete event simulation software packages"]] by [[http://www.linkedin.com/in/edwinvalentin|Edwin Valentin]].
+
+==== Modelica ====
+=== Resources ===
+  *[[http://www.modelica.org/|Modelica]].
+  *[[http://en.wikipedia.org/wiki/Modelica|EN.Wikipedia "Modelica"]], [[http://de.wikipedia.org/wiki/Modelica|DE.Wikipedia "Modelica"]].
+=== Tools ===
+  *The free limited [[http://www.simulationx.com/|ITI "Simulation X, Student Edition "]] for students only.
+  *The commercial [[http://www.dymola.com/|Dassault Systèmes "Dymola"]].
+    *Past events [[http://www.bausch-gall.de/dyinftag.htm|BAUSCH-GALL GmbH "Informationstage zu Dymola und Modelica"]], 2004-2008.
+    *[[http://en.wikipedia.org/wiki/Dymola|EN.Wikipedia "Dymola"]].
+    *You might import 3D data created with the commercial CAD tool [[http://en.wikipedia.org/wiki/CATIA|EN.Wikipedia "CATIA"]], [[http://de.wikipedia.org/wiki/CATIA|DE.Wikipedia "CATIA"]].
+    *You can request a CD which contains the demo versions "Dymola 4.6a" and "Dymola 5.3a" which expire 60 days after installation. A current demo version with a "near expiration date" is available for download, too. 
+===== State Diagrams =====
+==== Free State Diagrams Tools ====
+  *The free [[http://www2.research.att.com/~fsmtools/fsm/|AT&T FSM Library - Finite-State Machine Library]].
+  *The OpenSource [[http://autogen.sourceforge.net/|SourceForge "AutoFSM - Automated Finite State Machine"]], [[http://www.sourceforge.net/projects/autogen|SourceForge "AutoGen: The Automated Program Generator"]].
+  *The OpenSource [[http://fskc.sourceforge.net/|SourceForge "Finite State Kernel Creator - A CASE Tool for Developing Finite State Machines"]], [[http://www.sourceforge.net/projects/fskc|SourceForge "Finite State Kernel Creator"]].
+  *The OpenSource [[http://fsme.sourceforge.net/|SourceForge "Finite State Machine Editor"]], [[http://www.sourceforge.net/projects/fsme|SourceForge "Finite State Machine Editor"]].
+  *The OpenSource [[http://odur.let.rug.nl/~vannoord/Fsa/|FSA6.2xx: Finite State Automata Utilities]].
+  *The OpenSource [[http://fsmgenerator.sourceforge.net/|SourceForge "FSMGenerator - Finite State Machine generating software"]], [[http://www.sourceforge.net/projects/fsmgenerator|SourceForge "FSMGenerator (Finite State Machine)"]].
+  *The free [[http://www.swisseduc.ch/informatik/karatojava/|SwissEduc - Informatik - Programmieren lernen mit Kara]] - "Kara basiert auf dem Konzept endlicher Automaten".
+  *The OpenSource [[http://www.nunnisoft.ch/nunnifsmgen/en/|Nunni FSM Generator]], [[http://nunnifsmgen.sourceforge.net/|SourceForge "Nunni FSM Generator"]], [[http://www.sourceforge.net/projects/nunnifsmgen|SourceForge "Nunni FSM Generator"]].
+  *The free [[http://www.lsi.upc.edu/~jordicf/petrify/|Universitat Politècnica de Catalunya, Barcelona, Spain. "Petrify: a tool for synthesis of Petri Nets and asynchronous circuits]].
+  *The OpenSource [[http://qfsm.sourceforge.net/|SourceForge "Qfsm - A graphical tool for designing finite state machines"]], [[http://www.sourceforge.net/projects/qfsm|SourceForge "Qfsm"]].
+  *The OpenSource [[http://www.complang.org/ragel/|Ragel State Machine Compiler]].
+  *The free [[http://www.state-method.net/|[state] method steed.net]], a Visual Studio 2008 plugin.
+  *The OpenSource [[http://www.statestep.com/|Statestep]] - "Can be used to model finite state machine behaviour and ensures that undesirable states are not reachable".
+  *The OpenSource  [[http://www.sticlete.com/whatos/|WhatOS]] for Python - "A framework for creating applications consisting of communicating state machines".
+  *[[http://www.itemis.de/|itemis AG]] - "YAKINDU".
+    *The OpenSource [[http://www.itemis.de/itemis-ag/produkte/language=de/42118/yakindu-open-source|itemis AG "YAKINDU Open Source"]].
+    *The OpenSource [[http://www.yakindu.org/|Yakindu.org]] - "Currently, the focus is on modeling reactive and data flow-oriented systems using the Statechart Tools (SCT) and Damos".
+      *[[http://code.google.com/a/eclipselabs.org/hosting/|Google Code, Eclipse Labs]].
+        *[[http://code.google.com/a/eclipselabs.org/p/yakindu/|Google Code, Eclipse Labs "yakindu. model-driven development toolkit for embedded systems"]].
+==== State Diagrams Tools with commercial and OpenSource License ====
+  *[[http://www.state-machine.com/licensing/|Quantum LeaPs]].
+    *[[http://www.state-machine.com/qp/|Quantum LeaPs "QP"]], [[http://qpc.sourceforge.net/|SourceForge "QP State Machine Frameworks"]], [[http://www.sourceforge.net/projects/qpc/|SourceForge "QP State Machine Frameworks"]] - "lightweight, open source, state machine frameworks".
+      *[[http://www.state-machine.com/licensing/|Quantum LeaPs "The Licensing Model"]] - commercial & OpenSource licenses.
+    *The free [[http://www.state-machine.com/qm|Quantum LeaPs "QP Modeler"]] - "Cross-platform, graphical UML modeling tool for designing and implementing real-time embedded applications based on the QP state machine frameworks"
+==== PackML, PackTags ====
+  *See [[mes03.html|Manufacturing Execution Systems ( MES ) 3/5 - Norms & Design]].
+
+==== Model Checkers, State Model Checkers, Verification ====
+  *[[http://www.spinroot.com/|Spin]].
+    *[[http://en.wikipedia.org/wiki/SPIN_model_checker|EN.Wikipedia "SPIN model checker"]], [[http://de.wikipedia.org/wiki/SPIN|DE.Wikipedia "SPIN"]] - "Eines der bekanntesten Werkzeuge zur Modellprüfung (engl. Model Checking). SPIN prüft endliche Zustandsautomaten (engl. Finite State Machines) mit der temporalen Logik [[http://de.wikipedia.org/wiki/Lineare_temporale_Logik|LTL]]".
+  *[[http://www.uppaal.com/|UPP4ALL]], [[http://www.uppaal.org/|Uppaal]].
+    *"Am integrated tool environment for modeling, validation and verification of real-time systems modeled as networks of timed automata, extended with data types (bounded integers, arrays, etc.)".
+    *Commercial and academic licenses.
+
+==== Some other free Tools ====
+  *[[http://www.webdesktop.co.nr/|Dynamic modification of algorithms]], [[http://dmabco.sourceforge.net/|SourceForge "Dynamic modification of algorithms"]], [[http://www.sourceforge.net/projects/dmabco/|SourceForge "Dynamic modification of algorithms"]] - "based on Dynamic Attachment Finite State Machine (DAFSM), a finite state machine theory".
+==== Commercial State Diagrams Tools ====
+  *[[http://www.easycode.de/|EASYCODE GmbH "EasyCODE"]].
+    *[[http://de.wikipedia.org/wiki/EasyCODE|DE.Wikipedia "EasyCODE"]].
+  *[[http://www.etas.com/en/products/ascet_software_products.php|ETAS "ASCET"]].
+    *[[http://de.wikipedia.org/wiki/ASCET|DE.Wikipedia "ASCET"]].
+  *[[http://www.ibm.com/software/awdtools/statemate/|IBM Rational Statemate]].
+    *[[http://www.ibm.com/developerworks/rational/products/statemate/|IBM developerworks "IBM Rational Statemate"]].
+  *[[http://www.mathworks.de/products/stateflow|The MathWorks Stateflow]].
+  *[[http://www.microtool.de/case40/|microTOOL GmbH "Case/4/0"]].
+    *[[http://de.wikipedia.org/wiki/Case/4/0|DE.Wikipedia "Case/4/0"]].
+  *[[http://www.ni.com/matrixx/|National Instruments Corporation "NI MATRIXx"]].
+  *[[http://www.state-machine.com/|Quantum Leaps]] - "State machines and graphical tools for embedded system".
+  *[[http://www.stateworks.com/|StateWORKS]].
+  *[[http://www.iar.com/website1/1.0.1.0/371/1/|IAR visualSTATE]] for Windows ( W2k, WinXP, Vista, Win7 ) - There is a free "20-state evaluation edition".
+==== Books ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0750687061/hemmerling-21|Miro Samek: "Practical UML Statecharts in C/C++: Event-Driven Programming for Embedded Systems"]].
+
+==== Resources ====
+  *[[http://en.wikipedia.org/wiki/Finite-state_machine|EN.Wikipedia "Finite-state machine"]], [[http://de.wikipedia.org/wiki/Endlicher_Automat|EN.Wikipedia "Endlicher Automat"]], [[http://de.wikipedia.org/wiki/Abstrakte_Zustandsmaschine|DE.Wikipedia "Abstrakte Zustandsmaschine"]].
+  *[[http://en.wikipedia.org/wiki/State_diagram|EN.Wikipedia "State diagram"]], [[http://de.wikipedia.org/wiki/Zustands%C3%BCbergangsdiagramm|DE.Wikipedia "Zustandsübergangsdiagramm"]].
+  *[[http://en.wikipedia.org/wiki/Schlaer-Mellor|EN.Wikipedia "Shlaer–Mellor method"]] - System development method which makes use of state machines ( state diagrams ).
+  *[[http://en.wikipedia.org/wiki/Model_checking|EN.Wikipedia "Model checking"]], [[http://de.wikipedia.org/wiki/Model_Checking|DE.Wikipedia "Model Checking"]].
+  *[[http://en.wikipedia.org/wiki/Linear_temporal_logic|EN.Wikipedia "Linear temporal logic"]], [[http://de.wikipedia.org/wiki/Lineare_temporale_Logik|DE.Wikipedia "Lineare temporale Logik"]] ( LTL ).
+===== Some other Simulation Tools =====
+  *The OpenSource [[http://www.sci.utah.edu/cibc/software/106-scirun.html|SCIRun]] for Windows and Linux - "A Problem Solving Environment (PSE), for modeling, simulation and visualization of scientific problems".
+  *The commercial [[http://www.goldsim.com/|GoldSim]] "Monte Carlo Simulation Software for Decision and Risk Analysis". 
+    *[[http://www.goldsim.com/Wiki/|GoldSim Wiki]].
+===== Theory & Education =====
+  *[[http://wayback.archive.org/web/*/http://www.dmem.strath.ac.uk/~pball/simulation/simulate.html|Archive.org "Peter Ball: Introduction to Discrete Event Simulation]] - "Building a model using WITNESS".
+  *[[http://www.clexchange.org/curriculum/roadmaps.asp|Creative Learning Exchange "	
+Road Maps"]] - "System Dynamics & Systems Thinking in K-12 Education", "A self-study guide to learning system dynamics".
+  *Algorithms for model based identificaton processes.
+    *Monte Carlo.
+    *Evolution.
+    *Simulated Anealing.
+===== Books =====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0750687061/hemmerling-21|Miro Samek: "Practical UML Statecharts in C/C++: Event-Driven Programming for Embedded Systems"]].
+    *Accompanying webpage for the book [[http://www.state-machine.com/psicc2/|Quantum LeaPs. "Miro Samek: Practical UML Statecharts in C/C++, Second Edition: Event-Driven Programming for Embedded Systems"]] ( PSiCC2 ).
+===== Resources =====
+  *[[http://www.directindustry.com/|Direct Industry]].
+    *[[http://www.directindustry.com/cat/computing-software-and-communications-H.html|Direct Industry "Computing, Software and Communications"]].
+    *[[http://www.directindustry.com/cat/computing-software-and-communications/calculation-simulation-modeling-software-H-235.html|Direct Industry "Calculation, Simulation, Modeling software"]].
+  *[[http://www.eng-tips.com/threadforum.cfm?lev3=70|Eng-Tips Forums "General Engineering Programs Category"]].
+  *[[http://www.metalpass.com/software/|MeTAL PASS Resource, Solution, E-Biz "Metal Industry Software Directory"]].
+    *[[http://www.metalpass.com/software/sw.aspx?CatID=37|MeTAL PASS Resource, Solution, E-Biz "Finite Element Analysis"]].
+    *[[http://www.metalpass.com/software/sw.aspx?CatID=39|MeTAL PASS Resource, Solution, E-Biz "Simulation"]]
+  *[[http://www.ecst.csuchico.edu/~mcleod/resource.html|Markus Roskothen, The McLeod Institute of Simulation Sciences: Simulation software]].
+  *[[http://www.idsia.ch/~andrea/sim/simindex.html|Andrea Emilio Rizzoli - "A Collection of Modelling and Simulation Resources on the Internet"]] #.
+    *[[http://www.idsia.ch/~andrea/sim/simtools.html|Andrea Emilio Rizzoli "Simulation tools."]].
+    *[[http://www.idsia.ch/~andrea/sim/simlinks.html|Andrea Emilio Rizzoli "Simulation links"]].
+  *[[http://www.simul8.com/support/simulation_links/|SIMUL8 Corporation "Simulation Links"]].
+  *[[http://wayback.archive.org/web/*/http://www.sosresearch.org/simulationeducation/|Archive.org "The Simulation Education Homepage"]].
+  *[[http://www.softguide.de/software/simulation.htm|SoftGuide "Aktuelle Marktübersicht - Software für Simulation"]].
+  *[[http://en.wikipedia.org/wiki/Run-Time_Infrastructure_%28simulation%29|EN.Wikipedia "Run-Time Infrastructure (simulation)"]].
+===== Forums, Newsgroups =====
+  *[[http://community.incontrolsim.com/|INCONTROL Simulation Solutions "ED Community - The Enterprise Dynamics Community"]].
+  *[[http://www.extendsim.com/user_forum.html|Imagine That, Inc. - ExtendSim User Forums]].
+    *[[http://www.extendsim.com/forums/|Imagine That, Inc. "extendsim eXchange - Virtual Meeting Romm for Simulationists"]].
+  *[[http://www.flexsim.com/community/forum/|Flexsim Community Forum]].
+  *[[http://groups.google.com/group/comp.simulation/|Google Groups "comp.simulation"]].
+  *[[http://www.linkedin.com/groups?gid=1880791|LinkedIn Groups "Simulation Language with eXtensibility Users Group"]].
+  *[[http://www.scalable-networks.com/boards/|Scalable Network Technologies, Inc. "QualNet/Exata Community Forums"]].
+  *[[http://www.forum.simprocess.com/|SIMPROCESS Forums]].
+  *[[http://www.simul8.com/cafe/|SIMUL8 Corporation "SIMUL8 Cafe - Online Discussion Forum"]].
+  *[[http://sourceforge.net/projects/qpc/forums|SourceForge Forum "QP State Machine Frameworks"]].
+  *[[http://tech.groups.yahoo.com/group/erlang-software/|Yahoo Groups "erlang-software · Erlang Software Discussion"]].
+
+===== Referers to this URL =====
+  *[[http://www.simul8.com/support/simulation_links/|Simul8 Corporation - Simulation Links]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Science/Software/Simulation/|OpenDirectory "Top: Science: Software: Simulation"]].
+  *[[http://www.dmoz.org/Computers/Robotics/Software/Simulation/|OpenDirectory "Top: Computers: Robotics: Software: Simulation"]].
+  *[[http://www.dmoz.org/Science/Technology/Chemical_Engineering/Software/Process_Simulation/|OpenDirectory "Top: Science: Technology: Chemical Engineering: Software: Process Simulation"]].
+{{tag>simulation}}
+<footnote_navi_en>
+

@@ -1,0 +1,232 @@
+====== [hemmerling] PHP ======
+Related pages:
+  *[[uscripting.html|Scripting Programming Languages for Unix / Linux and Windows]].
+===== Conferences =====
+  *[[http://www.phpuceu.org/|2nd PHP Unconference]] (  #PHPucEU ) in Berlin, 2013-05-04 - 2013-05-05.
+  *The affordable unconference [[http://www.php-unconference.de/|PHP Unconference Hamburg]] by by [[http://www.bootev.org/|BOOT - Best of Open Technologies e.V.]].
+    *[[http://www.github.com/bootev|GitHub "bootev"]].
+    *[[http://www.php-unconference.de/php-unconference-2013/|PHP Unconference Hamburg 2013]] in Hamburg, 2013-09-21 - 2013-09-22.
+    *[[http://www.php-unconference.de/php-unconference-2013/|PHP Unconference Hamburg 2014]] in Hamburg, 2014-09-20 - 2014-09-21.
+    *[[http://www.php-unconference.org/voteyourtalk/index.php/default/index/|PHP Unconference Hamburg - Themenliste, Interessen und Vortrags-Angebote (Vorschläge)]].
+    *[[http://www.php-unconference.de/anfahrt-unterkunft/|PHP Unconference Hamburg - Anfahrt]].
+    *<del>[[http://www.php-unconference.de/2010/09/15/hinweise-f%C3%BCr-teilnehmer/|PHP Unconference Hamburg 2010 "Hinweise für Teilnehmer"]]</del>, as of 2010.
+    *Twitter.
+      *[[http://www.twitter.com/phpunconference/|Twitter "OrgaTeam PHP Unconf @phpunconference"]].
+      *[[http://www.twitter.com/search?q=%23phpunconf|Twitter - Search for messages tagged with "#phpunconf"]].
+      *Twitter hashtag "#phpunconf".
+    *2013.
+      *bread rolls in the morning, warm lunch, cake in the afternoon. Free soft drinks, coffee & tea.
+      *Saturday, 2013-09-21.
+        *[[http://goo.gl/0W6Mec|PHP Unconference Hamburg "Session Plan Saturday 2013]].
+        *09:30 Entry open.
+        *10:30 Official opening of the unconference.
+        *12:00 First session starts.
+        *18:30 Last session ends.
+        *19:00 Walk to the evening event "PHProst"
+      *Sunday, 2013-09-22.
+        *[[http://goo.gl/tv2XVt|PHP Unconference Hamburg "Session Plan Sunday 2013]].
+        *10:00 Opening of the second day of the unconference.
+        *11:00 First session starts.
+        *17:30 Unconference ends.
+  
+===== Runtime =====
+  *[[http://www.php.net/| The PHP Group "php.net"]].
+    *"PHP 5.2 Windows Binaries" are the latest version with W2k support, compiled with legacy Visual Studio 6 compiler.
+    *"PHP 5.3 Windows Binaries" run on WinXP, Win2003, Vista, Win2008, Win7..., compiled with Visual Studio 2008 compiler.
+    *[[http://www.php.net/manual/|PHP Manual]].
+      *[[http://www.php.net/manual/en/class.pdo.php|PHP Manual - The PDO class]] - "Represents a connection between PHP and a database server".
+      *[[http://php.net/manual/en/ref.pdo-dblib.php|PHP Manual - PDO Drivers "Microsoft SQL Server and Sybase Functions (PDO_DBLIB)"]] - "PDO_DBLIB is a driver that implements the PHP Data Objects (PDO) interface to enable access from PHP to Microsoft SQL Server and Sybase databases through the FreeTDS libary".
+  *Experts claim that "PHP 6" is - similar to "Perl 6" and "Typo3 6" - of academic interest, but probably will never get in focus of application designers.
+===== Free PHP IDEs =====
+  -[[http://www.eclipse.org|Eclipse]] - "Eclipse for PHP Developers".
+  -[[http://www.jetbrains.com/idea/|JetBrains "IntelliJ IDEA"]], [[http://www.jetbrains.com/idea/free_java_ide.html|JetBrains "IntelliJ IDEA Community Edition"]].
+    *[[http://en.wikipedia.org/wiki/IntelliJ_IDEA|EN.Wikipedia "IntelliJ IDEA"]], [[http://de.wikipedia.org/wiki/IntelliJ_IDEA|DE.Wikipedia "IntelliJ IDEA"]].
+  -[[http://www.netbeans.org/features/php/|NetBeans IDE - PHP Development]].
+  -[[http://www.phpide.com/phpcoder.htm|phpIDE "PHP Coder"]] - "A free IDE developed for PHP programmers. Through tight integration of the PHP interpreter and the PHP documentation, PHP Coder gives you a time-saving Development Interface".
+    *For W2k, you might have to install the DLL "[[http://www.dll-files.com/dllindex/dll-files.shtml?libmysql|libmysql.dll]]" in "C:\winnt\system32".
+    *PHP documentation -> [[http://www.php.net/download-docs.php|php.net "PHP Documentation Download"]].
+    *MySQL documentation -> [[http://dev.mysql.com/doc/|MySQL Documentation: MySQL Reference Manuals]]. You have to copy the file "index.html" to "manual_toc.html".
+    *HTML documentation -> [[http://www.htmlhelp.com/|Web Design Group's Help file Distribution Page]]. You have to copy the file "index.html" to "manual_toc.html".
+    *PHP runtime -> [[http://windows.php.net/download/|php.net "PHP For Windows: Binaries and sources Releases"]].
+  -[[http://devphp.sourceforge.net/|Sourceforge "Dev-PHP"]], [[http://www.sourceforge.net/projects/devphp/|Sourceforge "Dev-PHP"]] - "A well-featured integrated development environment (IDE)".
+  -[[http://padre.perlide.org/|Padre]] - the Perl IDE".
+      *[[http://www.phpbar.de/w/Padre_%2B_PHP-Plugin|php::bar "Padre + PHP-Plugin"]].
+  -[[http://download.kappa.ro/action__file/id__174|PhpEd 2.96.1.2]] - latest freeware edtion of the commercial PHP editor [[http://www.nusphere.com/|NuSphere PhpEd]] for Windows, which was shipped at that time with Apache and MySQL servers.
+  -"Software Studio" - discontinued free IDE for C#, Java, VB.Net, Aspx, C++, Html, Xml, Php, JavaScript, TeX.
+    *[[http://www.shareup.com/Software_Studio-download-19103.html|ShareUp "Software Studio 0.4.BF1"]], 2004-01-22.
+    *[[http://www.topshareware.com/Software-Studio-download-12244.htm|TopShareware "Software Studio"]], 2004-02-20.
+    *latest version 2004-05-28.
+===== Free PHP Debuggers =====
+  -[[http://gubed.mccabe.nu/|Gubed PHP Debugger]].
+  -[[http://www.php-debug.com/|PHP_Debug]], [[http://phpdebug.sourceforge.net/|Sourceforge "PHP_Debug"]], [[http://www.sourceforge.net/projects/phpdebug/|Sourceforge "PHP_Debug"]], [[http://pear.php.net/package/PHP_Debug|PEAR "PHP_Debug"]].
+  -[[http://www.php-debugger.com/|DBG - PHP Debugger and Profiler]], [[http://dbg2.sourceforge.net/|PHP debugger DBG]], [[http://www.sourceforge.net/projects/dbg2/|PHP debugger DBG]].
+  -[[http://php-dyn.sourceforge.net/|Sourceforge "PHP_Dyn - PHP Dynamic Script Tracer"]], [[http://www.sourceforge.net/projects/php-dyn/|Sourceforge "PHP_Dyn - PHP Dynamic Script Tracer"]].
+  -[[http://xdebug.org/|Xdebug - Debugger and Profiler Tool for PHP]].
+  -[[http://code.google.com/p/webgrind/|Google Code "Webgrind"]] - "An Xdebug profiling web frontend in PHP5".
+  -[[http://pecl.php.net/package/apd|George Schlossnagle "PECL" / "apd"]] - "A full-featured engine-level profiler/debugger".
+===== Free PHP Tools =====
+  *[[http://www.sharewareconnection.com/php-cleaner.htm|PHP Cleaner]] - "This little script removes the PHP line brakes you find in a lot of PHP source codes".
+===== Application Execution in Taint Mode =====
+  *[[http://pecl.php.net/package/taint|php PECL - Package "taint"]].
+  *[[http://www.php.net/manual/en/book.taint.php|php Documentation "Taint"]] - "Taint is an extension, which is used for detecting XSS codes(tainted string). And also can be used to spot sql injection vulnerabilities, and shell inject, etc".
+  *[[http://en.wikipedia.org/wiki/Taint_checking|EN.Wikipedia "Taint checking"]].
+===== Testing =====
+  *See [[testing.html|Testing]].
+===== Free PHP Frameworks / PHP Extensions =====
+  *[[http://www.kohanaframework.org/|Kohana: The Swift PHP Framework]] - "An elegant HMVC PHP5 framework that provides a rich set of components for building web applications".
+  *[[http://www.lamplighterphp.org/|LampLighter]] - "OpenSource rapid application development framework for PHP based on a Model-View-Controller (MVC) architecture.
+    *The predecessor [[http://www.phpfuse.net/|FUSE]] - "A Model View Controller framework for PHP".
+  *[[http://pecl.php.net/|George Schlossnagle "PECL"]] - "A repository for PHP Extensions, providing a directory of all known extensions and hosting facilities for downloading and development of PHP extensions".
+  *[[http://pear.php.net/|PEAR - PHP Extension and Application Repository]] - "A framework and distribution system for reusable PHP components".
+  *The OpenSource PHP Web Framework [[http://www.phpforfb.com/|PHPforFB]] - "welches das Entwickeln und Betreiben von Facebook Anwendungen und Page-Apps vereinfacht".
+  *The Open-Source PHP Web Framework "Symfony".
+    *The outdated [[http://www.symfony-project.org/|Symfony]].
+    *The current [[http://symfony.com/|Symfony]] 2.
+    *Wiki [[http://trac.symfony-project.org/wiki/|Symfony Wiki]].
+    *[[http://en.wikipedia.org/wiki/Symfony|EN.Wikipedia "Symfony"]], [[http://de.wikipedia.org/wiki/Symfony|DE.Wikipedia "Symfony"]].
+  *[[http://www.zend.com/en/products/server-ce/|Zend Server Community Edition]] - "A fast and reliable free PHP application stack".
+    *[[http://www.zend.com/de/community/|Zend Community]].
+    *[[http://devzone.zend.com/|Zend Developer Zone (DevZone)]].
+    *Once there was a [[http://web.archive.org/web/*/http://de.zend.com/store/products/zend-studio-personal.php|Archive.Org "Zend Studio Personal Edition, version 3.5"]], free for non-commercial use, in 2005.
+===== Embedded Software Projects with PHP =====
+  *"Building A Sensor Phalanx on Arduino, controlled by PHP on a client host" - See [[fieldbus.html|Fieldbuses and Automation Networks]].
+
+===== Commercial Development Tools =====
+  *The commercial IDE [[http://www.jetbrains.com/phpstorm/|JetBrains "PhpStorm"]] for Windows.
+===== Cronjob Services =====
+==== Free Cronjob Services ====
+  *The free Cronjob service [[http://www.cronjob.de/|CRONJOB.DE - Europas führender Cronjob-Service!]].
+  *The free Cronjob service [[http://www.cronless.com/|Cronless - Online Cron Job Replacement Service]].
+  *The free Cronjob service [[http://www.easycron.com/|easycron.com]].
+  *The free Cronjob service [[http://www.free-cronjob24.de/|free-cronjob24.de]].
+  *The free Cronjob service [[http://www.mywebcron.com/|My Free Web Cron Scheduler Service]]. 
+  *The free Cronjob service [[http://www.onlinecronjobs.com/|OnlineCronJobs - Free cronjobs on demand]].
+  *The free Cronjob service [[http://www.setcronjob.com/|SetCronJob - Reliable Cron Jobs Service with simple WebCron interface]].
+
+==== Affordable Webspace & Webhosting with Cronjob Services ====
+==== Resources ====
+  *[[http://en.wikipedia.org/wiki/Cron|EN.Wikipedia "cron"]], [[http://de.wikipedia.org/wiki/Cron|DE.Wikipedia "Cron"]].
+  *[[http://en.wikipedia.org/wiki/Daemon_%28computing%29|EN.Wikipedia "Daemon (computing)"]], [[http://de.wikipedia.org/wiki/Daemon|DE.Wikipedia "Daemon"]].
+
+
+===== Design Tips for Secure Web Applications =====
+  *[[http://www.owasp.org/|OWASP - The free and open software security community]].
+    *[[http://www.owasp.org/index.php/Category:OWASP_Top_Ten_2013_Project|Category:OWASP Top Ten 2013 Project]].
+  *[[http://www.twitter.com/airbone42|Twitter "Tobias Zander, @airbone42"]].
+    *[[http://www.github.com/airbone42/nsa-anti-patterns|Github " airbone42/nsa-anti-patterns"]] - "Talk about security at PHP Unconference 2013 in Hamburg".
+      -"';" - SQL injection -> "prepare".
+      -Broken authenification and session management 
+        -Don‘t expose session IDs.
+        -Reduce session lifetime.
+        -Regenerate session IDs.
+      -"<" - XSS -> "htmlspecialchars".
+        -Validate input.
+        -Escape output.
+        -X-content security policy.
+        -X-frame options.
+        -Template engine.
+      -Insecure direct object reference ->  "require".
+        -Validate user input.
+        -Use indirect object references.
+        -Check access permissions.
+      -Security misconfiguration.
+        -Keep your system up-to-date.
+        -Remove setup/deployment routines.
+        -Disable exposure of sensitive data.
+        -Review server settings.
+      -Sensitive data exposure passwords.
+        -Add a salt.
+        -Use different salts.
+        -Use a strong algorithm (NOT md5).
+        -Store data and keys separated.
+      -Sensitive data exposure - PHP
+        -"expose_phpOff".
+        -Remove "phpinfo();".
+      -Sensitive data exposure - Secure URLs.
+        -Use TLS for all pages.
+        -Use secure cookie flag.
+        -Keep sensitive data out of the URL.
+      -Missing function level access control.
+        -Standard should disallow all access.
+        -Use roles to keep ACL simple.
+        -ACL model should be very flexible.
+        -Check privileges on each step.
+      -Cross-site request forgery.
+        -Use one-time-token and secure it.
+        -Authenticate user.
+          -Credentials.
+          -Captcha.
+      -Unvalidated redirects and forwards.
+      -Using components with known vulnerabilities.
+        -Keep libraries up-to-date ( [[http://www.versioneye.com/|versioneye.com]] ).
+        -Review third party libraries.
+        -Check mailing lists, boards, news- and vendor-sites.
+      -Mail header injection.
+      -Security by obscurity "The neighbours have better stuff".
+===== Literature =====
+==== Paper Magazines ====
+  *[[http://www.phpmagazin.de/|PHP Magazin]] - "PHP, JavaScript, Open Web Technologies".
+    *[[http://www.github.com/PHPMagazin|GitHub "PHPMagazin"]].
+    *[[http://www.facebook.com/pages/PHP-Magazin/239886639433387|Facebook "PHP Magazin"]].
+    *[[http://www.twitter.com/phpmagazin|Twitter "PHP Magazin, @phpmagazin"]].
+==== Books ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3898642291/hemmerling-21|Sebastian Bergmann "Professionelle Softwareentwicklung mit PHP 5: Objektorientierung, Entwurfsmuster, Modellierung und fortgeschrittene Datenbankprogrammierung"]].
+    *The free HTML online book [[http://professionelle-softwareentwicklung-mit-php5.de/|Sebastian Bergmann "Professionelle Softwareentwicklung mit PHP 5: Objektorientierung, Entwurfsmuster, Modellierung und fortgeschrittene Datenbankprogrammierung"]], as of 2013-01-15.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3826614828/hemmerling-21|Hannes Gassert, Manfred Gildemeister, Mathias Lehn: "PHP de Luxe"]] - "PHP 5 Edition" #.
+    *buecherbillig.de 100% ( [[http://www.buecherbillig.de/luxe-edition-seiten-p-44299.html|Hannes Gassert, Manfred Gildemeister, Mathias Lehn: "PHP de Luxe"]] ).
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/382661318X/hemmerling-21|Jay Greenspan, Brad Bulger, David Wall: "MySQL/PHP-Datenbankanwendungen"]].
+    *buecherbillig.de 100% ( [[http://www.buecherbillig.de/mysql-datenbankanwendungen-p-43371.html|Jay Greenspan, Brad Bulger, David Wall: "MySQL/PHP-Datenbankanwendungen"]] ).
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3827323908/hemmerling-21|Andi Gutmans, Stig S. Bakken, Derick Rethans: "PHP 5 aus erster Hand. Das Entwicklerhandbuch für Profis"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3826616804/hemmerling-21|Philipp Rieber: "PHP 5 & MySQL 5 Kochbuch: Rezepte, Lösungen, Best Practices"]].
+    *Accompanying website [[http://www.php-mysql-kochbuch.de/|PHP 5 und MySQL 5 - Das Kochbuch]].
+  *The free online HTML book [[http://www.brpreiss.com/books/opus11/|Bruno R. Preiss "Data Structures and Algorithms with Object-Oriented Design Patterns in PHP"]].
+
+===== Resources =====
+  *[[http://code.activestate.com/recipes/|ActiveState Recipes]].
+    *[[http://code.activestate.com/recipes/langs/|ActiveState Code / Recipes "Recipe languages"]].
+      *[[http://code.activestate.com/recipes/langs/php/|ActiveState Code / Recipes "Popular PHP recipes"]].
+  *[[http://www.artmedic.de/|artmedic webdesign]] - free PHP scripts which do not need a MySQL database.
+  *[[http://www.dynamic-webpages.de/|Dynamic Web Pages]] - "Deutscher Knotenpunkt für PHP seit 1999 - PHP Scripts, PHP Tutorials, PHP News und PHP-Training / Zertifizierung".
+  *[[http://www.devshed.com/c/b/PHP/|Dev Shed "PHP Tutorials"]].
+  *[[http://www.overapi.com/php/|OverAPI.com "PHP Cheat Sheet"]] #.
+  *[[http://www.php-archiv.de/|PHP Archiv Blog]].
+  *[[http://www.phpbar.de/|php::bar]] - "Wissen für Einsteiger & Profis".
+    *[[http://www.phpbar.de/w/PHP_IDE_Software%C3%BCbersicht|php::bar "PHP IDE Softwareübersicht"]].
+  *[[http://www.phpide.com/|phpIDE]] - "PHP News and Tutorials".
+  *[[http://www.phpframeworks.com/|PHP Frameworks]] - Directory and comparison of PHP frameworks #.
+  *[[http://pelfusion.com/tools/how-to-debug-php-code-and-useful-php-debugging-tools/|Pelfusion - pixels that make your life easy "How To Debug PHP Code And Useful PHP Debugging Tools"]] #.
+  *[[http://it-republik.de/php/|it republik "PHPmagazin"]].
+  *[[http://www.php-resource.de/|php RESOURCE]] - "PHP Forum, PHP-Scripte, PHP-Tutorials Jobs und vieles mehr zu PHP".
+  *[[http://www.selfphp.info/|SELFPHP - Befehlsreferenz, Tutorial, Kochbuch, Forum zum Thema PHP]].
+  *[[http://www.sitepoint.com/|SitePoint - Web Design, Web Development, Freelancing, Tech News and more]].
+    *[[http://blogs.sitepoint.com/2010/11/19/mysql-mistakes-php-developers/|SitePoint "Top 10 MySQL Mistakes Made By PHP Developers"]].
+  *[[http://www.w3schools.com/php/|w3schools - the world's largest web development site. educate yourself! beginners and experts "PHP Tutorial"]].
+
+===== Forums, Newsgroups =====
+  *[[http://www.bytes.com/topic/php/|Bytes IT Community "PHP Forum"]].
+  *Facebook.
+    *[[http://www.facebook.com/groups/pietchepi/|Facebook "PHP"]] - many fresh PHP newbies from India are flooding this group, frequently.
+    *[[http://www.facebook.com/groups/5267995887/|Facebook "PHP"]].
+    *[[http://www.facebook.com/group.php?gid=255189559000&ref=ts|Facebook "PHP_Debug"]].
+    *[[http://www.facebook.com/group.php?gid=133593673518416|Facebook "PHP.de Community"]] #.
+  *[[http://groups.google.com/group/symfony-users|Google Groups "Symfony users"]], [[http://groups.google.com/group/symfony2/|Google Groups "Symfony2"]], [[http://groups.google.com/group/symfony-devs|Google Groups "Symfony developers"]].
+  *Meetup.
+    *[[http://www.meetup.com/phpughh/|PHP-Usergroup Hamburg (PHPUGHH)]] / [[http://www.phpug-hamburg.de/|PHP-Usergroup Hamburg (PHPUGHH)]].
+    *[[http://www.meetup.com/PHP-Usergroup-Duesseldorf/|Meetup "PHP Usergroup Duesseldorf"]].
+    *[[http://www.meetup.com/sfughh/|Symfony User Group Hamburg]].
+  *[[http://forum.nusphere.com/|NuSphere Forums]].
+  *[[http://www.php.de/|PHP.DE - das Deutsche PHP-Forum]].
+  *[[http://www.phpedit.net/|PHPEdit.net Community]] - community for the commercial PHP editor [[http://www.phpedit.com/|PHPEdit]].
+  *[[http://www.phpforum.de/forum/|PHP Forum - phpforum.de]].
+  *[[http://www.php-resource.de/forum/|php RESOURCE "PHP Forum"]].
+  *[[http://php-gtk.eu/|PHP-GTK Community : a community site for PHP-GTK]].
+  *[[http://www.selfphp.info/forum/index.php?styleid=7|SELFPHP Forum]].
+  *[[http://forum.symfony-project.org/|Symfony Framework Forum]].
+  *[[https://www.xing.com/net/phpgroupd/|XING "PHP Usergroup D/DU/KR"]].
+
+
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Programming/Languages/PHP/|OpenDirectory "Top: Computers: Programming: Languages: PHP]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Programmieren/Sprachen/PHP/|OpenDirectory "Top: World: Deutsch: Computer: Programmieren: Sprachen: PHP"]].
+ {{tag>"Unix script language" "script language" Python"}}
+<footnote_navi_en>

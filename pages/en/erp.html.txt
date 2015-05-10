@@ -1,0 +1,168 @@
+====== [hemmerling] ERP 1/2 - Enterprise Resource Planning ( ERP ) / "Produktionsplanung und Steuerung" ( PPS ) ======
+Related pages:
+  *[[crm.html|Customer Relationship Management ( CRM )]].
+  *[[enterprise.html|Enterprise Operation]].
+  *[[erp02.html|ERP 2/2 - The OpenSource ERP Systems "TinyERP" / "OpenERP" / "Odoo" and the Fork "Tryton"]].
+  *[[mes.html|Manufacturing Execution System ( MES )]].
+
+===== Commercial ERP Software =====
+==== Microsoft Dynamix NAV & Microsoft Dynamix AX ====
+  *[[http://www.microsoft.com/dynamics/|Microsoft Dynamix]], [[http://www.microsoft.com/de-de/dynamics/|Microsoft Dynamix Deutschland]].
+  *Limits of the demo version of the legacy "Microsoft Navision" 3.70 and 4.0:
+    *You can only enter dates in November, December, January and February.
+    *The size of the database can be a maximum of 100 MB.
+    *You are only allowed to make 4000 write transactions in a database.
+    *In addition you can modify the following objects in the Object Designer:
+      *Table 18 can be modified. Fields 99,990 - 99,999 can be inserted.
+      *Forms 21 - 22 can be modified. Form 99,999 can be inserted.
+      *Report 101 can be modified. Report 99,999 can be inserted.
+  *[[http://en.wikipedia.org/wiki/Microsoft_Dynamics|EN.Wikipedia "Microsoft Dynamics"]], [[http://de.wikipedia.org/wiki/Microsoft_Dynamics|DE.Wikipedia "Microsoft Dynamics"]].
+  *[[http://en.wikipedia.org/wiki/Microsoft_Dynamics_NAV|EN.Wikipedia "Microsoft Dynamics NAV"]], [[http://de.wikipedia.org/wiki/Microsoft_Dynamics_NAV|DE.Wikipedia "Microsoft Dynamics NAV"]] ( formerly: Microsoft Navision ).
+  *[[http://en.wikipedia.org/wiki/Microsoft_Dynamics_AX|EN.Wikipedia "Microsoft Dynamics AX"]], [[http://de.wikipedia.org/wiki/Microsoft_Dynamics_AX|DE.Wikipedia "Microsoft Dynamics AX"]] ( formerly: Microsoft Axapta ).
+==== PSIPENTA Software Systems GmbH ====
+  *[[http://www.psipenta.de/de/loesungen/erp-mes/|PSIPENTA Software Systems GmbH "Standardsoftware für ERP & MES"]].
+  *[[http://www.erp-demo.de/|PSIPENTA Software Systems GmbH "ERP-Demo"]].
+  *[[http://www.youtube.com/psipentatv|YouTube Channel "PSIPENTATV"]].
+  *[[http://twitter.com/psipenta|Twitter "PSIPENTA. Systemlieferant weltweit führender Industriebetriebe - ERP, MES und mehr aus einer Hand"]].
+  *[[http://www.slideshare.net/psipenta|SlideShare "PSIPENTA Software Systems GmbH"]].
+  *Blog [[http://www.psipenta-blog.de/|PSIPENTA Blog - ERP, MES und mehr]].
+  *[[http://www.psi.de/de/psi-pressevents/releases-archive/artikel/article/psi-buendelt-erp-und-mes-kompetenz-unter-einem-dach/|PSI AG "PSI bündelt ERP- und MES-Kompetenz unter einem Dach. ERP-Spezialist integriert Geschäftsbereich Manufacturing Execution Systems"]], 2011-01-12.
+  *[[http://www.erp-demo.de/ERP-Demo]].
+==== SAP ====
+=== The Company ===
+  *[[http://www.sap.com/|SAP AG]], [[http://www.sap.de/|SAP AG - Germany]].
+  *[[http://help.sap.com/|SAP Help Portal]].
+  *[[http://www.sap.com/corporate-en/our-company/sap-merchandise.epx|SAP Shop]].
+=== SAP ERP ( formerly: SAP R/3, mySAP ) ===
+  *[[http://www.sap.com/germany/solutions/business-suite/erp/|SAP Deutschland "SAP-ERP-Anwendungen"]].
+  *[[http://en.wikipedia.org/wiki/SAP_ERP|EN.Wikipedia "SAP ERP"]], [[http://de.wikipedia.org/wiki/SAP_ERP|DE.Wikipedia "SAP ERP"]] - "SAP ERP unterscheidet sich von R/3 vor allem dadurch, dass es auf SAP NetWeaver aufbaut".
+  *[[http://en.wikipedia.org/wiki/SAP_R/3|EN.Wikipedia "SAP R/3"]].
+=== SAP NetWeaver ===
+== General ==
+  *[[http://en.wikipedia.org/wiki/SAP_NetWeaver|EN.Wikipedia "SAP NetWeaver"]], [[http://de.wikipedia.org/wiki/SAP_NetWeaver|DE.Wikipedia "SAP NetWeaver"]].
+  *[[http://www.saptraininghouse.com/2010/overview-of-sap-netweaver/|SAP Training House. Nourishing SAP Ecosystem "Overview of SAP NetWeaver"]].
+== SAP NetWeaver Process Integration" ( SAP PI ) ( formerly: SAP Exchange Infrastructure ( SAP XI ) ) ==
+  *[[http://en.wikipedia.org/wiki/SAP_NetWeaver_Process_Integration|EN.Wikipedia "SAP NetWeaver Process Integration"]], [[http://de.wikipedia.org/wiki/SAP_Process_Integration|DE.Wikipedia "SAP Process Integration"]] ( SAP PI ).
+=== Academic ===
+  *[[http://portal.ucc.uni-magdeburg.de/|Otto-von-Guericke-Universität Magdeburg "SAP University Alliances EMEA Portal"]].
+    *[[http://141.71.4.11/scripts/wgate/webgui/!|Otto-von-Guericke-Universität Magdeburg - SAP R/3 Login]] - The portal to SAP R/3 during my SAP R/3 university education.
+  *[[http://www.wip.wiwi.uni-due.de/|Universität Duisburg-Essen "ERP-Zusatzkurse mit Zertifikat der Universität Duisburg-Essen"]].
+=== GUI Tool ===
+  *[[http://www.uni-marburg.de/projekte/sap/downloadarea|Philipps-Universität Marburg - SAP R/3 Download Area]] - "SAPGUI 7.20" for Windows.
+=== Interface Technologies ( e.g. for MES Applications ) ===
+== 1 Intermedia Document ( IDOC ) ==
+== 2 Remote Function Calls ( RFC ) ==
+=== Interfaces to SAP NetWeaver Applications ( e.g. for MES Applications ) ===
+== 1 Plant Data Collection ( PP-PDC ) ==
+== 2 Production-Optimizing-Interface ( PP-POI ) ==
+== 3 Inspection Data Interface ( QM-IDI ) ==
+== 4 Process-Control-System ( PI-PCS ) ==
+== 5 Business Application Programming Interface ( BAPI ) ==
+=== Integration of MES Functions by the SAP Portal ===
+== 1 Manufacturing Intelligence Dashbords ==
+== 2 Business Packages ==
+=== Resources ===
+  *[[http://scn.sap.com/thread/807278|SAP Community Network "difference between RFC and Idoc"]].
+  *[[http://www.saptechies.com/when-and-why-we-use-bapi-rfc-and-idoc-in-xi/|SAP Techies. SAP Support Portal "When and Why we use BAPI, RFC and IDOC.. in XI "]].
+
+==== Alternatives to a classical ERP Solution ====
+  *[[http://www.dacore-dbs.com/|dacore Datenbanksysteme AG]].
+    *[[http://www.dacore-dbs.com/de/loesungen/labormanagement-systeme/|dacore Datenbanksysteme AG - Labormanagement Systeme]] "TestLab Plus" - Suitable commercial software to manage a test lab, e.g. [[http://www.phoenix-testlab.de/|PHOENIX TESTLAB GmbH]], instead of using a classical ERP system.
+===== OpenSource ERP Software =====
+  -The OpenSource ERP "ADempiere".
+    *[[http://www.adempiere.org/|ADempiere.org]], 
+    *Wiki [[http://www.adempiere.com/|ADempiere.com]].
+      *[[http://www.adempiere.com/A_Step_by_Step_Guide_to_Libero_Manufacturing|ADempiere.com "A Step by Step Guide to Libero Manufacturing"]].
+    *[[http://adempiere.sourceforge.net/|SourceForge "ADempiere ERP"]], [[http://www.sourceforge.net/projects/adempiere/|SourceForge "ADempiere ERP Business Suite"]].
+  -The OpenSource "Allgemeine Individuelle Betriebliche Anwendungs-Software" ( AIBAS ).
+    *[[http://aibaspps.sourceforge.net/|SourceForge "AIBAS-PPS"]], [[http://www.sourceforge.net/projects/aibaspps/|SourceForge "AIBAS-PPS"]].
+    *[[http://aibastutor.sourceforge.net/|SourceForge "AIBAS-Tutor"]], [[http://www.sourceforge.net/projects/aibastutor/|SourceForge "AIBAS-Tutor"]].
+    *[[http://www.gortzewitz.de/projekte/pps.html|Dipl-Ing. Sascha Gortzewitz "Entwicklung einer PPS-Software in Bausteintechnik"]].
+    *[[http://www.uni-kassel.de/maschinenbau/index.php?id=36675|Institut für Produktionstechnik und Logistik, Universität Kassel]].
+    *[[http://wayback.archive.org/web/*/http://pps-ws1.pps.maschinenbau.uni-kassel.de|Archive.org "Institut für Produktionstechnik und Logistik, Universität Kassel - Labor für Produktionsorganisation. AIBAS"]].
+    *[[http://www.uni-kassel.de/presse/pm/archiv/okt99_09.ghk|Universität Gesamthochschule Kassel, Pressemittelung "Benutzerfreundliche betriebliche Anwendungssoftware"]], 1999-10-14.
+  -The OpenSource [[http://open.mitija.com/blueerp/|Blue Erp]], [[http://blueerp.sourceforge.net/|SourceForge "BlueERP"]], [[http://www.sourceforge.net/projects/blueerp/|SourceForge "BlueERP"]].
+  -The OpenSource [[http://www.compiere.com/|Compiere Open Source ERP]], [[http://compiere.sourceforge.net/|SourceForge "Compiere Open Source ERP"]], [[http://www.sourceforge.net/projects/compiere/|SourceForge "Compiere ERP + CRM Business Solution"]]. - "A Modern, Low-cost ERP Software Solution".
+    *Wiki [[http://wiki.compiere.com/|Compiere Dashboard]].
+  -The OpenSource [[http://www.dolibarr.org/|Dolibarr ERP/CRM"]], [[http://dolibarr.sourceforge.net/|SourceForge "Dolibarr ERP/CRM"]], [[http://www.sourceforge.net/projects/dolibarr/|SourceForge "Dolibarr ERP - CRM"]].
+  -The OpenSource [[http://faves-erp.sourceforge.net/|SourceForge "faves-ERP Manufacturing"]], [[http://www.sourceforge.net/projects/faves-erp/|SourceForge "faves-ERP Manufacturing"]] - "ERP CRM MRP & More for Manufacturing industries".
+  -The Brazilian-only OpenSource [[http://sites.google.com/a/stpinf.com/freedom-erp/|Freedom-ERP]], [[http://freedom-erp.sourceforge.net/|SourceForge "Freedom ERP"]], [[http://www.sourceforge.net/projects/freedom-erp/|SourceForge "Freedom ERP"]].
+  -The OpenSource [[http://governerp.sourceforge.net/|SourceForge "GovernERP"]], [[http://www.sourceforge.net/projects/governerp/|SourceForge "GovernERP"]].
+  -The OpenSource [[http://www.gnucash.org/|GnuCash]] - "Free Accounting Software".
+    *Wiki [[http://wiki.gnucash.org/wiki/|GnuCash Wiki]].
+  -The OpenSource [[http://www.gnuenterprise.org/|GNU Enterprise]].
+    *[[http://en.wikipedia.org/wiki/GNU_Enterprise|EN.Wikipedia "GNU Enterprise"]].
+  -The OpenSource "Industrial Machinery Automation Software" (iMAS) ( [[http://imaserp.sourceforge.net/|SourceForge "iMAS ERP"]], [[http://www.sourceforge.net/projects/imaserp/|SourceForge "iMAS ERP"]] ).
+  -The OpenSource [[http://www.jfire.net/|JFire]], [[http://jfire.sourceforge.net/|SourceForge "JFire"]], [[http://www.sourceforge.net/projects/jfire/|SourceForge "JFire - Free ERP & Trading Platform"]].
+    *[[http://www.jfire.org/modules/content/|JFire Community]].
+  -The Spanish-only OpenSource [[http://www.adempiere.com/|Libertya ERP]], [[http://libertya.sourceforge.net/|SourceForge "Libertya ERP"]], [[http://www.sourceforge.net/projects/libertya/|SourceForge "Libertya ERP"]].
+  -The OpenSource [[http://mysoft-erp.sourceforge.net/|SourceForge "mysoft-erp"]], [[http://www.sourceforge.net/projects/mysoft-erp/|SourceForge "mysoft-erp"]] - "ERP for Footware Manufacture".
+  -The OpenSource [[http://www.openbravo.com/|Openbravo, S.L.U. "Openbravo"]], [[http://openbravo.sourceforge.net/|SourceForge "Openbravo"]], [[http://www.sourceforge.net/projects/openbravo/|SourceForge "Openbravo ERP"]] - "The leading professional web-based Open Source ERP!".
+    *Wiki [[http://wiki.openbravo.com/|Openbravo Wiki]].
+    *[[http://forge.openbravo.com/|Openbravo Forge]].
+  -"OpenERP" is a widely used name for different free and OpenSource ERP software.
+    *The famous one: 
+      *[[erp02.html|ERP 2/2 - The OpenSource ERP Systems "TinyERP" / "OpenERP" / "Odoo" and the Fork "Tryton"]].
+    *The legacy and/or unimportant ones:
+      *The OpenSource [[http://open-erp.sourceforge.net/|SourceForge "Open ERP - Software Solution for all"]], [[http://www.sourceforge.net/projects/open-erp/|SourceForge "Open ERP - Software Solution for all"]].
+      *The OpenSource [[http://openerp.sourceforge.net/|SourceForge "Insignis OpenERP"]], [[http://www.sourceforge.net/projects/openerp/|SourceForge "Insignis OpenERP"]].
+      *The OpenSource [[http://theopenerp.sourceforge.net/|SourceForge "Persapiens OpenERP"]], [[http://www.sourceforge.net/projects/theopenerp/|SourceForge "Persapiens OpenERP"]] by [[http://web.archive.org/web/*/http://www.persapiens.org/|Archive.org "Persapiens.org"]] ( - 2007-09-29 project "OpenERP", - 2008-03-02 project "Basegen" ).
+  -The French-only OpenSource [[http://www.openinfo3w.com/|OpenInfo3W - Performance d'ouve à vous]], [[http://openinfo3w.sourceforge.net/|SourceForge "OpenInfo3W ERP CRM GPAO PGI"]], [[http://www.sourceforge.net/projects/openinfo3w/|SourceForge "OpenInfo3W ERP CRM GPAO PGI"]] - "Un ERP CRM GPAO PGI libre, sans restriction, sachant allier simplicité et flexibilité".
+  -OpenPro.
+    *The OpenSource [[http://www.openpro.org/|OpenPro]] - "The ERP software solution using open source technology".
+      *[[http://www.openpro.org/index.php?option=com_content&task=view&id=16&Itemid=42|OpenPro "Manufacturing ERP Software"]].
+    *[[http://www.openpro.com/|OpenPro, Inc.]].
+      *[[http://www.openpro.com/Open-Source-ERP.html|OpenPro, Inc. "Architecture and Technology Foundation"]].
+      *[[http://www.openpro.com/products_modules_manufacturing.html|OpenPro, Inc., MES Software - ERP Module "Manufacturing"]].
+  -The OpenSource "Opentaps" ( [[http://www.opentaps.org/|Opentaps]], [[http://www.sequoiaerp.org/|Sequoia RP]], [[http://opentaps.sourceforge.net/|SourceForge "Sequoia ERP"]], [[http://www.sourceforge.net/projects/opentaps/|SourceForge "opentaps open source ERP+CRM"]] ) - "The most advanced Open Source ERP + CRM solution".
+  -The OpenSource [[http://orangegears.sourceforge.net/|SourceForge "OrangeGears ERP/CRM"]], [[http://www.sourceforge.net/projects/orangegears/|SourceForge "OrangeGears ERP/CRM"]] - "Based on [[http://ofbiz.apache.org/|Apache OFBiz]]".
+  -The OpenSource [[http://www.phreesoft.com/|PhreeSoft - Small business solutions built with PHP!]], [[http://phreedom.sourceforge.net/|SourceForge "PhreeSoft - Small business solutions built with PHP!"]], [[http://www.sourceforge.net/projects/phreedom/|SourceForge "Phreedom ERP - Open Source Accounting"]].
+  -The OpenSource [[http://www.sql-ledger.com/|SQL-Ledger ERP]], in Perl - "double entry accounting/ERP system".
+  -TUDO / QTTUDO.
+    *[[http://www.bemme.de/|Jörg Bemmé Datensysteme "Tudo"]].
+    *[[http://web.archive.org/web/*/http://www.bemme.de|Archive.Org "Jörg Bemmé Datensysteme"]] - "Tudo ist die Lösung für Warenwirtschaft und Finanzbuchhaltung am Arbeitsplatz. Durch das OpenSource-Konzept erhalten Sie den vollständigen Quellcode".
+  -webERP.
+    -The OpenSource [[http://www.weberp.org/|webERP]], [[http://web-erp.sourceforge.net/|SourceForge "webERP"]], [[http://www.sourceforge.net/projects/web-erp/|SourceForge "webERP Accounting & Business Management"]].
+    -The OpenSource [[http://www.web-erp.org/|webERP]], [[http://weberp.sourceforge.net/|SourceForge "Web-based Business Accounting and ERP"]], [[http://www.sourceforge.net/projects/weberp/|SourceForge "Web-based Business Accounting and ERP"]].
+  -The OpenSource [[http://welcomesoft.sourceforge.net/|SourceForge "welcomesoft ERP for Joomla, Drupal and L"]], [[http://www.sourceforge.net/projects/welcomesoft/|SourceForge "welcomesoft ERP for Joomla, Drupal and L"]].
+  -The Swedisch-only OpenSource [[http://wermerp.wordpress.com/|Werm ERP]], [[http://wermerp.sourceforge.net/|SourceForge "Werm ERP"]], [[http://www.sourceforge.net/projects/wermerp/|SourceForge "Werm ERP"]].
+  -The OpenSource [[http://www.xtuple.org/|xTuple ERP]], [[http://www.xtuple.com/|xTuple ERP]], [[http://postbooks.sourceforge.net/projects/|SourceForge "PostBooks ERP, accounting, CRM by xTuple"]], [[http://www.sourceforge.net/projects/postbooks/|SourceForge "PostBooks ERP, accounting, CRM by xTuple"]]. 
+    *[[http://www.xtuple.org/node/2897|xTuple Forums, Thread "Manufacturing Execution System (MES) software add-on to xTuple?"]] - "xTuple does include a good deal of MES functionality including serial or lot control, labor time input, posting operations as completed, push or pull methods of materials usage, scrap as incurred, standard materials by operation within the traveler, variance reporting, and the like".
+  -The Brazilian-only OpenSource [[http://ynnovation.net/|Ynnovation]], [[http://ynnovationerp.sourceforge.net/|SourceForge "Ynnovation ERP"]], [[http://www.sourceforge.net/projects/ynnovationerp/|SourceForge "Ynnovation ERP"]].
+===== OpenSource eCommerce Software =====
+  *[[http://www.magentocommerce.com/download|Magento Community Edition]] - "eCommerce Software and Platform".
+    *[[http://www.commerce-plus.com/|Commerce Plus GmbH]], Hamburg - Magento experts.
+    *I was told in 2015, that 30% of all ( just German ? ) online shops in the Internet are built with Magento!
+
+===== Literature =====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3898642690/hemmerling-21|Nico Manicone "Workshop SAP Query"]].
+    *Accompanying Website [[http://www.query-ohne-namen.de/|Nico Manicone "Workshop SAP Query" ( query-ohne-namen.de )]].
+===== Resources =====
+  *[[http://www.e3cms.de/|E-3]] - "Das unabhängige SAP-Magazin für die deutschsprachige SAP-Szene".
+  *[[http://www.erptips.com/|ERPTips - SAP Knowledge. Transferred. Sustained]].
+    *[[http://www.erptips.com/Learn-SAP/|ERPTips - SAP Knowledge. Transferred. Sustained "Learn SAP"]].
+  *[[http://www.saptraininghouse.com/|SAP Training House]] - "SAP ABAP Certification Course".
+  *[[http://www.sourceforge.net/search/?q=MRP|SourceForge - Search for "MRP"]], [[http://www.sourceforge.net/search/?q=ERP|SourceForge - Search for "ERP"]].
+  *[[http://en.wikipedia.org/wiki/Computer-aided_process_planning|EN.Wikipedia "Computer-aided process planning"]], [[http://de.wikipedia.org/wiki/Arbeitsvorbereitung|DE.Wikipedia "Arbeitsvorbereitung"]], [[http://de.wikipedia.org/wiki/Produktionsplanung_und_-steuerung|DE.Wikipedia "Produktionsplanung und -steuerung"]].
+===== Forums, Newsgroups =====
+  *[[http://www.compiere.com/support/forums.php|Compiere Forums]], [[http://www.sourceforge.net/forum/forum.php?forum_id=108148|SourceForge "Compiere Forum"]].
+  *[[http://www.dolibarr.org/forum|Dolibarr ERP/CRM Forum]].
+  *[[http://it.toolbox.com/topics|ITtoolbox - Topics]] - Discussion groups ( "Groups" ) are hierarchically situated below each subject.
+  *The read-only [[http://www.jfire.org/modules/newbb/|JFire Forum]] - "Could not register new user".
+  *[[http://forge.openbravo.com/projects/openbravoforgesupport/forum/|Openbravo Forge - Forum]].
+  *[[http://www.openerp.com/forum/|OpenERP Forum]].
+  *[[http://www.opentaps.org/forum|Opentaps Forum]].
+  *[[http://www.phreesoft.com/forum/|Phreesoft Support Forum]].
+  *[[http://scn.sap.com/|SAP Community Network ( SCN )]].
+  -[[http://www.xing.com/net/erp-netzwerk|XING "ERP-Netzwerk"]].
+  *[[http://www.xing.com/net/ipa-psi|XING "IPA - Intessengemeinschaft der PSIpenta Anwender"]], [[http://www.xing.com/net/pri73969fx/top3erpcompanies|XING "EPR Platforms & Enterprise Software and also All ERP Platforms. Focused ERP Platforms: SAP_Oracle_Microsoft_IBM"]].
+  *[[http://www.xtuple.org/forum|xTuple Forums]].
+
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Software/Business/|OpenDirectory "Top: Computers: Software: Business"]].
+  *[[http://www.dmoz.org/Computers/Software/ERP/|OpenDirectory "Top: Computers: Software: ERP]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Software/Unternehmenssoftware/|OpenDirectory "Top: World: Deutsch: Computer: Software: Unternehmenssoftware"]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Software/Unternehmenssoftware/ERP_-_Enterprise_Resource_Planning/|OpenDirectory "Top: World: Deutsch: Computer: Software: Unternehmenssoftware: ERP - Enterprise Resource Planning"]].
+{{tag>"enterprise resource planning" ERP MRP "MRP II" "MRP 2" "Produktionsplanung und Steuerung" PPS}}
+<footnote_navi_en>
+

@@ -1,0 +1,77 @@
+====== [hemmerling] Making the Transition from VirtualPC to VirtualBox ======
+===== Motivation =====
+  *VirtualPC and VirtualServer are the standard free virtualisation technologies for W2k, WinXP, Vista and Win 7 hosts. I am using VirtualPC since 2004, creating many VirtualPC machines :-).
+  *Now with Win8:
+    *VirtualPC can't be installed on a Win8 host ( while it was an integreated product on Win7 hosts ).
+    *The successor Hyper-V is just available for 64-bit Windows.
+  *So on 32-bit Win8 systems, if you want to use virtualisation, you have to turn to another solution.
+  *I decided to turn to VirtualBox, as it may load VirtualPC machines with dynamic file space allocation ( VirtualPC New Virtual Machine Wizard: "Virtual hard disk size" < "Maximum virtual hard disk size" ) without transformation :-). With VMware, you need to transform the VirtualPC file system, by the free "VMware vCenter Converter" :-(.
+===== Definitions =====
+  *Guest operating system - The operating system which is running on the virtualisation system ( i.e. in the simulator ).
+  *Host operating system - The operating system which is running the virtualisation system ( i.e. the simulator ). This is the native operating system of the computer, when you turn it on.
+===== Prerequisites =====
+  *Remember, any other virtualisation will crash, if "Virtual Machine Additions" ( or "Extension Pack" ) of a different virtualisation are installed on the guest operating system.
+    -On a Windows host running VirtualPC, run the VirtualPC machine, login.
+    -After login, deinstall the "Virtual Machine Additions" by  "Action / Install or Update Virtual Maschine Additions".
+    -Reboot the VirtualPC and check, that no "Virtual Machine Additions" are installed: The mouse cursor is captured inside the VirtualPC windows. By pressing the "ALT-GR", you may leave the window.
+
+===== Installation =====
+  -Install the OpenSource [[http://www.virtualbox.org/|Oracle VirtualBox]] and the OpenSource "Oracle VM VirtualBox Extension Pack".
+  -Call the Oracle VM VirtualBox manager "Oracle VM VirtualBox".
+    *Create a new VirtualBox by pressing the "New" button.
+    *Name the new virtual machine, e.g. "vbx5_w2ks".
+    *Select the memory size, e.g. 1024 MB.
+    *Select "Do not add a virtual hard drive", press the button "continue" on the modal warning window.
+    *Now at "C:\users\<username>\VirtualBox VMs", there is a directory "vbx5_w2ks".
+  -Copy your VirtualPC *vhd file into that directory, e.g. "vpc5_w2ks Hard Disk.vhd".
+  -Call the Oracle VM VirtualBox manager "Oracle VM VirtualBox".
+    *Select "Settings / Storage".
+    *Mouse-rightclick at "Controller: IDE".
+    *Select "Add Hard Disk", press the button "Coose existing disk", select the VirtualPC *vhd file, e.g. "vpc5_w2ks Hard Disk.vhd".
+    *Press the button "Ok".
+  -Installation and de-installation of devices:
+    *Add a shared folder by "Settings / Shared Folders", e.g. "C:\" -> "C_DRIVE" with the option "[x] Auto-mount", for Windows guests.
+    *For Win98SE guests, you must deselect USB by "Settings / USB", "[ ] Enable USB Controller" :-(.
+
+===== Configuration for W2k Guests =====
+  *Start a VirtualBox by "Start".
+  *After login at the guest operating system, you are captured in the VirtualBox window. 
+  *If "Found new hardware wizards" windows appears, always select "Cancel".
+  *If the window "System Settings Change. Do you want to restart your computer now?" appears, select "No".
+  *Use "Ctrl" to leave the VirtualBox window.
+  *Execute "Devices / Install GuestAdditions..." to install the VirtualBox guest additions.
+  *Change number of colors of the graphics card to "True Color (32 bit)", by mouse-rightclick, "Properties / Setting / Colors".
+  *Change the drive letter of the CDROM drive to "Z:", by "Start / Control Panel / Administrative Tools / Computer Management / Disk Management", "CDRom 0" -> "Change Drive Letter and Paths".
+  *Reboot the VirtualBox guest operating system.
+===== Drawbacks =====
+==== Location of VirtualBox Machines ====
+  *With VirtualPC, you have the freedom to create VirtualPC machines at any place :-).
+  *You just can install VirtualBox machines at "/users/public/<username>/VirtualBox VMs/" :-(.
+
+==== Creation of virtual Floppy-Disks ====
+  *The "Virtual Disk Wizard" of VirtualPC may not just create harddisk images, but also Floppy-Disk images ( *.vfd, *.img, *ima, *.dsk ).
+  *Problem: With VirtualBox, you can´t create Floppy-Disk images.
+  *Solution:
+    *On Windows ( W2k Server, WinXP..., Win8, but not W2k-Pro ): "fsutil file createnew myimage.vfd 1474560".
+    *On Linux: "fallocate -l 1474560 myimage.vfd".
+    *On Linux & other Unix-like systems: "head -c 1474560 /dev/zero > myimage.vfd".
+  *Source: [[http://superuser.com/questions/342433/how-to-create-empty-floppy-image-with-virtual-box-windows-guest|Superuser "How to create empty floppy image with Virtual Box Windows guest?"]]. 
+==== No Network Access ====
+  *A VirtualPC is part of the Windows network, i.e. "Entire Network / Microsoft Windows Network / Workgroup / <VirtualPC>". On that base, you may create shares, e.g. "Entire Network / Microsoft Windows Network / Workgroup / <Windows Host> / <Shared Host Folder>".
+  *A VirtualBox isn't part of the Windows network. You may create shares of folders of your local computer, e.g. "Entire Network / VirtualBox Shared Folders / <Shared Host Folder>".
+==== Concurrent Use of cloned File Systems is prevented ====
+  *With VirtualPC, you can use copies of the VirtualPC filesystem *.vhd ( i.e. filesystems with the same UUID ) to serve with different VirtualPC accounts *.vmc on the same computer.
+  *Problem: With VirtualBox, VirtualBox filesystems are registered. If you try to link a copy of a VirtualBox *.vhd filesystem with more than one VirtualBox account, you get an error message<code>
+Failed to open the hard disk "C:\\..." {uuid..}\\
+Cannot register the hard disk "C:\\..." {uuid...} \\
+because a hard disk "C:\\..." with UUID {uuid...} \\
+already exists".</code>
+  *The only solution: Move the VirtualBox folder to another location and carefully **remove** the harddisk and the account which is not needed at once :-(.
+
+==== Limited Support of Windows 9.x ====
+  *There are no "Oracle VirtualBox Guest Additions" for Windows98SE as guest operation system.
+  *As VirtualPC is not available for Win8 :-(, an integrated operation of Win98SE ( with network file access to the Windows host,.. ) is just possible on W2k, WinXP, Vista and Win7 hosts, using VirtualPC :-).
+  *[[http://www.linuxforen.de/forums/showpost.php?p=1534900&postcount=5|linuxforen.de -- User helfen Usern, stefan.becker "4) Probleme und Lösungen / FAQ"]] - "4.2) Win 9x / ME / 3.11 als Gast", "4.2.3) Windows 9x+ME / höhere Bildschirmauflösungen" #.
+  *See [[win9x.html|Windows 3.x , Windows 9.x, Windows ME ( WinME )]].
+{{tag>VirtualBox SUN Oracle "Virtual PC" "Virtual PC 2007" "Virtual PC 2004"}}
+<footnote_navi_en>

@@ -1,0 +1,130 @@
+====== [hemmerling] The Notebook "ASUS Eee PC T101MT" ======
+Related pages:
+  *[[notebook.html|Notebooks]].
+  *[[asus_k95vb.html|The Notebook "ASUS K95VB"]].
+
+===== Hardware =====
+  *[[http://www.asus.de/AllProducts.aspx?PG_ID=7dDelmkESu9DXgVB|ASUStek Computer Inc. - Eee PC]] - product family overview.
+  *[[http://support.asus.com/Download.aspx?m=Eee%20PC%20T101MT&p=30|ASUStek Support "Eee PC T101MT"]] # - Software drivers for "WinXP" and "Windows 7".
+  *[[http://www.xxl-sale.de/suche/?q=eee%20pc%20t101mt|XXL-Sale "eee pc t101mt"]].
+  *The harddisk [[http://www.amazon.de/exec/obidos/ASIN/B009XDM5BC/hemmerling-21|Amazon.DE "ASUS Eee PC T101MT, Notebook-Festplatte 640GB, 5400rpm, 8MB"]].
+===== Boot Options =====
+  *BIOS message "Press F2 to run setup" -> BIOS Setup Untility.
+  *BIOS message "Press ESC for BBS POPUP -> Select the boot device.
+  *BIOS message "Press F9 for image recovery" ( ASUS manual "F9-Recovery" in the ASUS manual ) -> Windows textmode menu "Windows Boot Manager", select "Windows Setup [EMS Enabled]" .
+    *Menu options "Recovery" ( to start the system recovery ), "Backup" ( the factory default system files ).
+  *Pressing F8 at startup of Windows -> Windows textmode menu "Advanced Boot Options".
+     *Menu item "Repair your computer".
+  *Pressing the special button calls the "ASUS Express Gate Cloud" ( with games, photo album, Internet browser,.. )
+===== How to upgrade from "Windows 7 Home Premium" to "Windows 8 Pro" =====
+==== 1 Get the "Windows 8 Pro" Upgrade ====
+  *See [[win7.html|Windows Vista, Windows 7, Windows 2008 Server, Windows 8]].
+==== 2 Get the ASUS T101MT Windows Drivers ====
+  *Download all Windows 7 software driver for ASUS T101MT.
+    *[[http://www.asus.de/product.aspx?P_ID=xK9O0XZhFswxrTrn|ASUStek Computer Inc. "ASUS Eee PC T101MT"]] - Download of BIOS, drivers, utilities, manuals.
+      *[[http://support.asus.com/download/download_item_mkt.aspx?slanguage=de-de&model=Eee+PC+T101MT|Asus Support "ASUS Eee PC T101MT"]] - Download of BIOS, drivers, utilities, manuals.
+  *You might buy the backup media DVD "Eee Recovery DVD Rev 1.0" at [[http://serviceshop.asus.com|ASUS Service Shop]].
+  *I did not need any of the Windows 7 drivers for Windows 8 installation :-).
+
+==== 3 Get a Windows7 Home Premium ====
+  *You might buy the backup media DVD "Eee Recovery DVD Rev 1.0" at [[http://serviceshop.asus.com|ASUS Service Shop]].
+  *Download a "Windows 7 Home Premium" ISO image file.
+    *[[http://www.unawave.de/windows-7/downloads.html|Unawave "Downloads von Windows 7 ISO-Image-Dateien"]].
+    *[[http://msft-dnl.digitalrivercontent.net/msvista/pub/X15-65740/X15-65740.iso|Windows 7 Home Premium 32Bit ( X15-65740/X15-65740.iso )]] -> This version belongs to a stable release, where the installation error "A required CD/DVD device driver is missing" might not appear on 64-bit systems by fault.
+==== 4 Install a fresh "Windows 7 Home Premium" ====
+=== Option 4.1: Use a "Windows 7 Home Premium" ISO Image ===
+  *Plugin a USB memory stick with at least about 4 GB filesize. My "4 GB" USB memory stick has a reported 3.66 GB filesize.
+  *Use the free software [[http://www.microsoftstore.com/store/msstore/html/pbPage.Help_Win7_usbdvd_dwnTool|Microsoft Store "USB/DVD-Downloadtool für Windows 7"]] to store the downloaded "Windows 7 Home Premium" ISO image file on the USB memory stick.
+  *Switch on the notebook with plugged-in USB memory stick, press "ESC" and select "USB" as boot device.
+  *Install "Windows 7 Home Premium":
+    *Delete all paritions, so that all software installations are deleted.
+    *Create a new single partition.
+=== Option 4.2: Use a "Eee Recovery DVD Rev 1.0" DVD ===
+== Option 4.2.1: Use the "USB/DVD-Downloadtool für Windows 7" - I failed ==
+  *Though I successfully created an ISO image in UDF format, with the contents of the DVD “Eee Recovery DVD Rev 1.0”, the free software [[http://www.microsoftstore.com/store/msstore/html/pbPage.Help_Win7_usbdvd_dwnTool|Microsoft Store "USB/DVD-Downloadtool für Windows 7"]] aborted the copying of the ISO image on the USB memory stick :-(.
+  *I was able to boot by USB memory stick with the corrupt data. But when I tried to do a data restore according to the instructions given by the booted backup/restore software, I was asked to enter the CD/DVD media into a drive - instead of restoring the data from the USB memory stick. So I failed to restore! 
+== Option 4.2.2: Copy the DVD files manually to the USB Memory Stick ( untested ) ==
+  *You might try to create a partion manually and to copy the files from DVD manually to the USB memory stick, with the help of these instructions [[http://blog.sbsfaq.de/post/2011/08/29/Fehlermeldung-des-Windows-7-USBDVD-Download-Tool-e2809cunable-to-copy-your-files-e280a6e2809d-beheben.aspx|blog.sbsfaq.de "Fehlermeldung des Windows 7 USB/DVD Download Tool 'unable to copy your files. …' beheben"]].
+    -diskpart
+    -list disk
+    -select disk #
+    -clean
+    -create partition primary
+    -select partition 1
+    -active
+    -format quick fs=fat32
+    -assign
+    -exit
+  *The instructions [[http://blog.sbsfaq.de/post/2011/08/29/Fehlermeldung-des-Windows-7-USBDVD-Download-Tool-e2809cunable-to-copy-your-files-e280a6e2809d-beheben.aspx|blog.sbsfaq.de "Fehlermeldung des Windows 7 USB/DVD Download Tool 'unable to copy your files. …' beheben"]] ask to run the [[http://www.microsoftstore.com/store/msstore/html/pbPage.Help_Win7_usbdvd_dwnTool|Microsoft Store "USB/DVD-Downloadtool für Windows 7"]] tool afterwards. This did not help me to fix the failure. So I suggest to do a manual copy of the files!
+== Option 4.2.3: Use a DVD Player ( untested ) ==
+  *Attach a DVD player by USB to the notebook and put a "Eee Recovery DVD Rev 1.0" DVD or a "Windows 7 Home Premium" DVD into the player.
+  *Switch on the notebook, press ESC and select USB as boot desvice.
+  *Boot the "Eee Recovery DVD Rev 1.0" DVD or a "Windows 7 Home Premium" DVD.
+==== 5 Install the contents of a Windows8 Pro Upgrade ====
+=== Option 5.1: Use "Windows Upgrade Assistant" ISO Images ===
+  *If you downloaded the Windows upgrade by the "Windows Upgrade Assistant", just use the free software [[http://www.microsoftstore.com/store/msstore/html/pbPage.Help_Win7_usbdvd_dwnTool|Microsoft Store "USB/DVD-Downloadtool für Windows 7"]] to store the "Windows 8 Pro Upgrade" ISO image file on the USB memory stick.
+=== Option 5.2: Use DVD Media ===
+  *If you bought a DVD media, you must first create an ISO image in UDF format of the DVD. 
+    *With DVD recording software, if you select "DVD copy", the ISO image might be not in UDF format 
+      *This is true with the commercial [[http://www.nero.com/|NERO Express]] and [[http://www.nero.com/|NERO Burning ROM]].
+      *The free tool "USB/DVD-Downloadtool für Windows 7" refuses to copy ISO images which are not in UDF format.
+        *[[http://www.weyland.be/wrdprss/index.php/2011/02/15/windows-7-usb-download-tool-says-the-selected-file-is-not-a-valid-iso-file/|Weyland.be "Windows 7 USB Download tool says “the selected file is not a valid iso file”]].
+    *So to be shure that you create a ISO image in UDF format: Create a new ISO image by copying all files from the DVD.
+  *Use the free software [[http://www.microsoftstore.com/store/msstore/html/pbPage.Help_Win7_usbdvd_dwnTool|Microsoft Store "USB/DVD-Downloadtool für Windows 7"]] to store the "Windows 8 Pro Upgrade" ISO image file on the USB memory stick.
+==== 6 Do the "Windows 8 Pro Upgrade" ====
+=== Instructions ===
+  *Switch on the notebook with plugged-in USB memory stick, press "ESC" and select "USB" as boot device.
+  *Install "Windows 8 Pro Upgrade":
+  *Select the option "Custom: Install Windows only ( advanced )", so that the contents of the harddisk is moved to a folder "Windows.old".
+  *When the installation is finished, delete the "Windows.old" folder.
+=== Resources ===
+  *[[http://www.eightforums.com/tutorials/2527-windows-old-folder-delete-windows-8-a.html|Windows Eight Forums "Windows.old Folder - Delete in Windows 8"]].
+==== 7 Do the "Windows 8.1 Pro Update" ====
+  *Windows 8 users may download and install the Windows 8.1 update in the "Windows App Store", for free.
+==== 8 Hardware DownScaling ====
+=== Instructions ===
+  *Run "Regedit" as Administrator.
+  *Search for all items “Display1_DownScalingSupported” ( I found just 1 "key" item ). 
+  *Change the value of all items “Display1_DownScalingSupported” from "0" to "1".
+  *Reboot the computer.
+  *Mouse-rightclick on the Windows desktop, select the menu item "Screen resolution".
+  *Change the screen resolution from 1024x600 to 1024x768.
+  *Now you can execute Windows 8 Apps!
+=== Resources ===
+  *[[http://www.early-adopter.info/2012/10/windows-8-apps-bei-1024x600-netbook-aufloesung-ausfuehren-so-gehts/|Early Adopter "Windows 8 Apps bei 1024x600 Netbook-Auflösung ausführen – so geht’s"]].
+  *[[http://www.borncity.com/blog/2012/03/17/windows-8-metro-apps-beim-msi-wind-u-100-anzeigen-teil-ii/|Borns IT- & Windows-Blog "Windows 8: Metro-Apps beim MSI Wind U 100 anzeigen – Teil II"]].
+
+===== Backup & Recovery =====
+  *[[http://support.asus.com/Troubleshooting/detail.aspx?SLanguage=en&m=Eee%20PC%20T101MT&os=&no=1718|ASUStek Computer Inc. "Troubleshooting: System Recovery on Eee PC products"]].
+  *[[http://www.android-hilfe.de/sonstige-android-tablets/35918-hat-das-asus-eee-pc-t101mt-bitte-melde-dich-d-2.html|Android Hilfe - Thread "Hat wer das Asus eee PC T101MT? Bitte melde Dich :D"]] - Tips for backup & recovery of Windows on the notebook "ASUS T101 MT".
+    *"Um die Wiederherstellung in den Auslieferungszustand durchzuführen muss man im Bios, denn BootBooster auf 'disable' stellen".
+    *"Der Bildschirm-Dreh-Button neben dem Power-Schalter, der geht z.B. nur wenn du TouchSuite 2DoorWay installierst".
+  *[[http://vip.asus.com/forum/view.aspx?id=20100520175556093&board_id=20&model=Eee+PC+T101MT|ASUS Support - Forum, Thread "[Problem]System recover dvd for T101MT?"]] -> Backup & recovery tips.
+    *Backup:
+      -Disable Boot Booster in BIOS setup before you perform system recovery from USB flash disk, external optical drive or hidden partition.
+      -Ensure to connect your Eee PC to the AC power adapter before using F9 recovery to avoid recovery failure.
+      -Press <F9> during bootup.
+      -Select the language you use and click to continue.
+      -Connect a USB storage device to your Eee PC and click Backup in the Recovery System dialog box to start the recovery files backup. 
+        *The size of the connected USB storage device should be larger than 16GB. 
+        *Memory cards are not supported for this function.
+        *A dialog box appears as a reminder if you have not connected the USB storage device for system recovery backup to your Eee PC.
+      -Select a desired USB storage device if more than one USB storage device is connected to your Eee PC and click Continue.
+      -All the data on the selected USB storage device will be cleared. Click Continue to start the backup or click Back to backup your important data. You will lose all your data on the selected USB storage device. Ensure to back up your important data beforehand.
+      -The system backup starts and click OK when done.
+    *Using the USB storage device:
+      -Connect the USB storage device that you backup the system recovery files.
+      -Press <ESC> on bootup and the Please select boot device screen appears. Select USB:XXXXXX to boot from the connected USB storage device.
+      -Select the language you use and click Image:Icon03.JPG to continue.
+      -Click Recovery to start system recovery.
+      -Select a partition option and click Continue. Partition options:
+        *Recover system to a partition - This option deletes all data on the system partition “C” and keeps the partition “D” unchanged.
+        *Recover system to entire HD - This option deletes all partitions from your hard disk drive and creates a new system partition as drive “C” and a data partition as drive “D“.
+      -Follow the onscreen instructions to complete the recovery process.
+    *It's not a good idea to create a partition in the USB flash drive. You will lose all your data on the selected USB storage device upon creating a bootable disk . Future reference, if you are going to store files/documents on the USB device, the image of the OS wont work and is no longer usable. The USB flash drive that you will use to store the imageo f the OS will be intended for single use only..
+===== Resources =====
+  *Graphics screen hardware resolution: 1024x600. By hardware downscaling, 1024x768 or 1152x864.
+  *My item is shipped with the wireless module "NE785H".
+  *[[http://www.debacher.de/wiki/Asus_T101MT|Uwe Debacher "Asus T101MT"]].
+{{tag>notebook, webbook, computer "asus t101mt" asus t101mt "windows 8" windows win8}}
+<footnote_navi_en>

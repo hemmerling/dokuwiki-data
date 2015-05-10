@@ -1,0 +1,41 @@
+====== [hemmerling] How to configure Oracle VirtualBox for W2k hosts ======
+
+===== How to patch Oracle VirtualBox 1.6.6 for W2k hosts =====
+  -VirtualBox 1.5.x, the latest version with official W2k support, is not distributed as installable binary software by Oracle anymore.
+  -Get VirtualBox 1.6.6 from [[http://www.virtualbox.org/wiki/Download_Old_Builds_1_6|Download VirtualBox (Old Builds): VirtualBox 1.6]].
+  -Get the [[http://dlc.sun.com.edgesuite.net/virtualbox/1.6.6/UserManual.pdf|UserManual "Sun xVM VirtualBox
+Version 1.6.6"]], please take a look at the [[http://www.virtualbox.org/wiki/Changelog-1.6|VirtualBox 1.6.x Changelog]].
+  -Download Orca 4.0.6001.0  from [[http://xldennis.wordpress.com/2007/02/17/the-orca-tool-a-msi-creator-and-package-viewer/|The Orca Tool – A MSI Creator and Package Viewer]].
+  -Install Orca.
+  -Open a copy of "VirtualBox-1.6.6-Win_x86.msi" with Orca. 
+  -On the left-hand side of the screen go to "LaunchCondition".
+  -On the right-hand side of the screen choose "NOT VersionNT=500 AND NOT Version9X AND NOT VersionNT64"
+  -Modify "NOT VersionNT=500" to "NOT VersionNT=400".
+  -Go to File and then Save. Not Save As.
+  -Install the modified installer.
+
+Thanks to "opieant" for this advice :-).
+===== Hot to convert VirtualPC images for use with Oracle VirtualBox 1.6.6 =====
+How to proceed:
+  -Run the "Microsoft VirtualPC" application.
+  -Open "Settings / HardDisk1", Button "Virtual Disk Wizard". 
+    -set "Select an option" to "Edit an existing virtual disk".
+    -set "Select an option for this virtual hard disk" to "convert it to a fixed-size virtual hard disk".
+    -select "Convert this dynamically expanding virtual hard disk to fixed-size one by" to "Save the file as", and enter a filename.
+    -The conversion extends the dynamic file to a file with file size defined during the creation process of the VirtualPC file. 
+      -The Windows file system supplied by "Windows XP Mode" is set to a maximum size of 130.048 MB. Consequently, the conversion may just succeed on file systems with sufficient free filespace ( i.e. more than 130 Gbytes free filespace ). Else there is the error message "The virtual hard disk is unable to be converted because there is not enough available space on the physical hard disk"
+      -If you install W2k or WinXp on VirtualPC by yourself, you might set a maximum size of 16.384 MB for the Windows file system, as example.
+   -Use the VirtualBox command line tool "vboxmanage.exe" ( situated in the root installation directory of Virtualbox 1.6.6 ) to convert the image file, by 
+     -"vboxmanage convertdd the_disk.vhd the_disk.vdi" to create a static file system.
+     -"vboxmanage modifyvdi the_disk.vdi compact" to convert the static file system into a dynamic file system, again.
+Benefit: 
+  *The latest editions of VMware and Virtual PC running on W2k ( VMware 2.55 and VirtualPC 2007 ) don´t provide USB support.
+  *However, Oracle VirtualBox 1.6.6 provides USB 1.1 and USB 2.0 support. 
+Suggested reading: 
+  *[[http://www.virtualbox.org/manual/ch08.html|VirtualBox manual, chapter "Chapter 8. VBoxManage"]].
+  *[[http://forums.virtualbox.org/viewtopic.php?t=687|End user forums for VirtualBox, thread "Moving from VirtualPC to VirtualBox"]], 2007-07-29.
+===== Resources =====
+  *[[http://www.virtualbox.org/ticket/1474|VirtualBox "Ticket #1474 (closed defect: wontfix) - Windows 2000 host lacking"]].
+
+{{tag>"VirtualBox 1.6.6" VirtualBox SUN Oracle  W2k "Windows 2000" Patch}}
+<footnote_navi_en>

@@ -1,0 +1,239 @@
+====== [hemmerling] Coding Dojo / Coding Kata: How to play Kata FizzBuzz with JUnit ======
+===== 1 Installation and preparation =====
+  -Please download and install a current [[http://www.oracle.com/technetwork/java/javase/downloads|Java SDK]] ( SDK 1.7 ).
+  -Please download and install a current [[http://www.eclipse.org/downloads/|Eclipse IDE for Java Developers]] ( Eclipse Kepler 4.3 ).
+  -Please download the current JUnit libary ( junit-4.11.jar ) from [[http://www.junit.org|Junit.org]] / [[http://junit.org|Junit.org]]. Store it in the "<jdk-dir>/lib" directory of your Java SDK.
+  -With Eclipse, create a Java project.
+  -In Eclipse, right-click with the mouse on the project file to open the property window for the project. At the menu item "Java Build Path", click on the button "Add External JARs" and add the JUnit libary to the project. Else you get the error message "The import org.junit cannot be resolved" by Eclipse, in the text editor.
+===== 2 Create a Class =====
+  *With Eclipse, create a class "FizzBuzz", which causes the creation of the file "FizzBuzz.java". Please replace "com.hemmerling.javatest." by your own domain and hierarchical tree.
+<code>
+package com.hemmerling.javatest.fizzbuzz;
+import static org.junit.Assert.*;
+import org.junit.Test;
+public class FizzBuzz {
+  public static void main(String[] args) { 
+      System.out.println("FizzBuzz");   
+  }
+}
+</code>
+===== 3 Create a Test Class =====
+  -In Eclipse, right-click with the mouse on the file "FizzBuzz.java" respectively the class "FizzBuzz" in the Package Explorer.   
+  -Select the menu item "New / JUnit Test Case" to open the windows "New JUnit Test Case". There activate the options.
+    *Version number of the testing framwork.
+      -( ) New Junit 3 test.
+      -(x) New Junit 4 test.
+    *Controlling the generated code.
+      -[ ] setUpBeforeClass().
+      -[ ] tearDownAfterClass().
+      -[ ] setUp().
+      -[ ] tearDown().
+      -[ ] Generate Comments.
+  -The file "FizzBuzzTest.java" respecitvely the class "FizzBuzzTest" is created automatially.<code>
+package com.hemmerling.javatest.fizzbuzz;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class FizzBuzzTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}</code>
+  -To run the JUnit test, open the file "FizzBuzzTest.java" with Eclipse ( or make the Eclipse window with this loaded file the active window ). 
+  -Press then the green "Run" button to compile and run the JUnit test. It stops with the error message "java.lang.AssertionError: Not yet implemented".
+===== 4 Testing and Coding, 2011-06-30 =====
+==== 4.1 The final Test Class ====
+The functions "test01", "test02",.. are previous versions of the function "fizzBuzz", which document the development of the testing and coding process. 
+<code>/**
+  * Kata FizzBuzz, using JUnit 4.9. The test class.
+  * @author Rolf Hemmerling
+  * @date 2011-06-30
+  */
+
+package com.hemmerling.javatest.fizzbuzz;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+public class FizzBuzzTest {
+
+	private FizzBuzz test;
+    
+	// @Before
+	public void setUp() throws Exception {
+		FizzBuzz test = new FizzBuzz();
+	}
+	
+	@Test
+	public void test01() {
+		//fail("Not yet implemented");
+		FizzBuzz test = new FizzBuzz();
+		assertEquals("1", test.fizzBuzz(1),"1");
+	}
+
+	@Test
+	public void test02() {
+		FizzBuzz test = new FizzBuzz();
+		assertEquals("3", test.fizzBuzz(3),"Fizz");
+	}
+
+	@Test
+	public void test03() {
+		FizzBuzz test = new FizzBuzz();
+		assertEquals("5", test.fizzBuzz(5),"Buzz");
+	}
+
+	@Test
+	public void test04() {
+		FizzBuzz test = new FizzBuzz();
+		assertEquals("6", test.fizzBuzz(6),"Fizz");
+	}
+
+	@Test
+	public void test05() {
+		FizzBuzz test = new FizzBuzz();
+		assertEquals("10", test.fizzBuzz(10),"Buzz");
+	}
+
+	@Test
+	public void test06() {
+		FizzBuzz test = new FizzBuzz();
+		assertEquals("15", test.fizzBuzz(15),"FizzBuzz");
+	}
+
+	@Test
+	public void test07() {
+		FizzBuzz test = new FizzBuzz();
+		String aListe[] = { 
+	    		"1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz",
+	    		"11", "Fizz", "13", "14", "FizzBuzz", "16", "17", "Fizz", "19", "Buzz",
+	    		"Fizz", "22", "23", "Fizz", "Buzz", "26", "Fizz", "28", "29", "FizzBuzz",
+	    		"31", "32", "Fizz", "34", "Buzz", "Fizz", "37", "38", "Fizz", "Buzz",
+	    		"41", "Fizz", "43", "44", "FizzBuzz", "46", "47", "Fizz", "49", "Buzz",
+	    		"Fizz", "52", "53", "Fizz", "Buzz", "56", "Fizz", "58", "59", "FizzBuzz",
+	    		"61", "62", "Fizz", "64", "Buzz", "Fizz", "67", "68", "Fizz", "Buzz",
+	    		"71", "Fizz", "73", "74", "FizzBuzz", "76", "77", "Fizz", "79", "Buzz",
+	    		"Fizz", "82", "83", "Fizz", "Buzz", "86", "Fizz", "88", "89", "FizzBuzz",
+	    		"91", "92", "Fizz", "94", "Buzz", "Fizz", "97", "98", "Fizz", "Buzz" };
+		assertArrayEquals("Liste", test.fizzBuzzListe(),aListe);
+}</code>	
+==== 4.1 The final Class to be tested ====
+The functions "fizzBuzz01", "fizzBuzz02",.. are previous versions of the function "fizzBuzz", which document the development of the testing and coding process.
+<code>/**
+  * Kata FizzBuzz, using JUnit 4.9. The class to be tested.
+  * @author Rolf Hemmerling
+  * @date 2011-06-28
+  */
+
+package com.hemmerling.javatest.fizzbuzz;
+
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+public class FizzBuzz {
+   
+  public static void main(String[] args) {
+	  System.out.println("FizzBuzz"); 
+  }
+ 
+  public String fizzBuzz01( int anInputValue ) {
+	  String aReturnValue;
+   	  aReturnValue = "" + 1;	
+	  return ( aReturnValue );
+   }
+  
+  public String fizzBuzz02( int anInputValue ) {
+	  String aReturnValue;
+	  if ( anInputValue == 3 ) {
+		   aReturnValue = "Fizz";		
+		}
+		else {
+ 		   aReturnValue = "" + 1;	
+		};
+	  return ( aReturnValue );
+    }
+ 
+  public String fizzBuzz03( int anInputValue ) {
+	  String aReturnValue;
+	  if ( anInputValue == 3 ) {
+		   aReturnValue = "Fizz";		
+		}
+		else {
+			if ( anInputValue == 5 ) {
+				aReturnValue = "Buzz";
+			}
+			else {
+				aReturnValue = "" + 1;	
+			}
+		};
+	  return ( aReturnValue );
+    }
+ 
+  public String fizzBuzz04( int anInputValue ) {
+	  String aReturnValue;
+	  if ( ( anInputValue % 3 ) == 0 ) {
+		   aReturnValue = "Fizz";		
+		}
+		else {
+			if ( anInputValue == 5 ) {
+				aReturnValue = "Buzz";
+			}
+			else {
+				aReturnValue = "" + 1;	
+			}
+		};
+	  return ( aReturnValue );
+    }
+  
+  public String fizzBuzz05( int anInputValue ) {
+	  String aReturnValue;
+	  if ( ( anInputValue % 3 ) == 0 ) {
+		   aReturnValue = "Fizz";		
+		}
+		else {
+			if ( ( anInputValue % 5 ) == 0 ) {
+				aReturnValue = "Buzz";
+			}
+			else {
+				aReturnValue = "" + 1;	
+			}
+		};
+	  return ( aReturnValue );
+    }
+ 
+  public String fizzBuzz( int anInputValue ) {
+	  String aReturnValue = "";
+	  if ( ( ( anInputValue % 3 ) == 0 ) || ( ( anInputValue % 5 ) == 0 ) ) {
+		  if ( ( anInputValue % 3 ) == 0 ) {
+			  aReturnValue = "Fizz";		
+		  };
+		  if ( ( anInputValue % 5 ) == 0 ) {
+			  aReturnValue = aReturnValue + "Buzz";
+		  };
+	  }	  
+	  else {
+		   aReturnValue = "" + anInputValue;	
+	  };
+	  return ( aReturnValue );
+    }
+  
+  public String[] fizzBuzzListe() {
+	  String aListe[] = new String[100];
+	  for (int aCounter=0; aCounter<100; aCounter++ ) {
+		  aListe[aCounter] = fizzBuzz(aCounter+1);
+		  System.out.print(aCounter+1);
+		  System.out.print(" - "+aListe[aCounter]+"\n");
+	  };
+	  return ( aListe );
+  }
+}</code>
+{{tag>JUnit Kata FizzBuzz}}
+<footnote_navi_en>

@@ -1,0 +1,249 @@
+====== [hemmerling] Revision Control & Revision Control Systems (RCS), Source Code Version Control Systems ( SCVCS, VCS, CVS ), Software Configuration Management ( SCM ) ======
+Related page:
+  *[[revisioninst.html|Installation of Revision Control Systems]].
+  *[[saas02.html|Software As A Service ( SAAS ) 2/2]].
+===== The Theory of Revision Control =====
+==== Release-insensibility ( "Releasefähigkeit" ), Ability for quick and smart Rollout, Upgradability, Maintainability, Release Readiness, Strong Version Control ====
+=== Release-insensibility ===
+  *[[http://www.nissen-velten.de/erp-glossar/glossary-detail/releasefaehigkeit.html?type=0&cHash=5ffc81a766|ERP für den Mittelstand - ERP-Glossar "Releasefähigkeit"]]
+    *"Releasefähigkeit bedeutet, dass auch alte individuelle Anpassungen nach dem Einspielen des nächsten Programmreleases (Release = Ausgabe, Version, Veröffentlichung, Freigabe einer Software) automatisch wieder verfügbar sind".
+=== Ability for quick and smart Rollout ===
+  *Arne Svendsen "Concerning the rollout of enhancements and new versions of the template, there is wone point of concern: Not many of the MES tools have strong version control for software development, so it's very difficult and manually driven process. **It counts on human discipline to keep the implementation up to date. We may have a new version ready, but it can take many months to roll out at the sites**. And also: expect your MES suppieer to come out with an upgrate every two years!".
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3835631837/hemmerling-21|Klaus Thiel, Heiko Meyer, Franz Fuchs: "MES - Grundlagen der Produktion von morgen: Effektive Wertschöpfung durch die Einführung von Manufacturing Execution Systems"]] - Page 16 "Update and release managment. A system must be able to be upgraded, in general. It may not depend on customer or project specific elements ( however, this is a contradiction to the demand for highely flexible and tailored systems ). The customer must be enabled to roll out the updates within an acceptable space of time and without manual adoption of existing applications. New releases should be delivered 1-2 times a year. It must be possible to skip updates ( i.e. to avoid updates )".
+  *[[http://www.investopedia.com/terms/r/rollout.asp|Investopedia "Rollout"]] - "A slang term for the introduction of a new product or service to the market. A rollout often refers to a significant product release, often accompanied by a strong marketing campaign to generate a large amount of consumer hype".
+  *[[http://de.wikipedia.org/wiki/Rollout|DE.Wikipedia "Rollout"]].
+  *[[http://de.wikipedia.org/wiki/Softwareeinf%C3%BChrung|DE.Wikipedia "Softwareeinführung"]].
+=== Release Readiness ===
+  *[[http://technet.microsoft.com/en-us/library/cc535141.aspx|Microsoft TechNet "Release Readiness Review Process and Activities"]].
+  *[[http://www.eclipse.org/project-slides/JSF_Tools_Project_Release_review.pdf|The JSF Tools Project – 0.5 Release
+review]] ( PDF ) -> "Release Readiness".
+==== Release Management Literature ====
+  *Book [[http://www.amazon.com/gp/product/0978739213/hemmerling-21|Michael T. Nygard: "Release It!: Design and Deploy Production-Ready Software"]].
+=== Resources ===
+  *[[http://www.proz.com/kudoz/german_to_english/it_information_technology/2073833-releasef%C3%A4higkeit.html|ProZ "Releasefähigkeit"]].
+  *[[http://dict.leo.org/forum/viewUnsolvedquery.php?idThread=320009|Leo.org - Forum discussion "Releasefähigkeit"]].
+  *[[http://www.computerwoche.de/software/erp/1874362/index4.html|Computerwoche "ERP-Zufriedenheitsstudie 2008
+Anwender von Business-Software erwarten Kontinuität"]], 2008-10-06 - "ERP-Nutzer sehen Upgrade- und Release-Fähigkeit kritischer".
+  *[[http://www.semver.org/|Semantic Versioning]].
+===== Revision Control Software =====
+==== Subversion ====
+=== Subversion Server ===
+  *[[http://subversion.apache.org/|Apache Subversion]], [[http://subversion.tigris.org/|Tigris "Subversion"]].
+    *[[http://subversion.apache.org/docs/community-guide/|Apache Subversion Documentation]].
+    *[[http://subversion.apache.org/docs/community-guide/|Apache Subversion Community Guide (aka "HACKING")]].
+    *[[http://www.tortoisesvn.net/docs/nightly/TortoiseSVN_en/|TortoiseSVN "TortoiseSVN. A Subversion client for Windows. Version 1.6.99"]], "3. The Repository", "Apache Based Server" - installation of Subversion how-to.
+  *Windows implementations.
+    *[[http://win32svn.sourceforge.net/|Sourceforge "Subversion for Windows"]], [[http://www.sourceforge.net/projects/win32svn/|Sourceforge "Subversion for Windows"]] - Apache module, for installation on an Apache server.
+    *The server [[http://www.visualsvn.com/server/|VisualSVN Server]] for WinXP - "Subversion Server for Windows".
+      *[[http://www.visualsvn.com/support/svnbook/|VisualSVN Server - SVN Book]] - Online documentation "Ben Collins-Sussman, Brian W. Fitzpatrick, C. Michael Pilato: Version Control with Subversion".
+    *The server [[http://www.sliksvn.com/en/download|Silk SVN]] - "silk subversion". "A standalone command line Subversion package for Windows. The installer contains all command line tools (svn, svnadmin, svnsync, svnserve, svnmucc, etc.) but no application bindings nor Apache modules".
+    *The server [[http://www.wandisco.com/subversion/os/downloads|WANdisco "Subversion for Microsoft Windows"]] with TortoiseSVN.
+      *TortoiseSVN requires the installation of [[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=6a63ab9c-df12-4d41-933c-be590feaa05a&displaylang=en|Platform SDK Redistributable: GDI+]], on W2k.
+    *The server [[http://www.collab.net/downloads/subversion/|CollabNet Subversion Edge]] for WinXP and Linux.
+  *[[http://svnbook.red-bean.com/|Website for the book "Ben Collins-Sussman, Brian W. Fitzpatrick, C. Michael Pilato: Version Control with Subversion"]] - free PDF and HTML download, free HTML online version.
+===  Subversion Hosting ===
+    *[[http://www.sliksvn.com/en/download|Silk SVN]] - commercial ( and limited single-user free ) Subversion hosting !
+===  Subversion Clients ===
+== TortoiseSVN ==
+  *[[http://tortoisesvn.net/|TortoiseSVN]] - "The coolest Interface to (Sub)Version Control".
+  *[[http://tortoisesvn.sourceforge.net/|Sourceforge "TortoiseSVN"]], [[http://www.sourceforge.net/projects/tortoisesvn/|Sourceforge "TortoiseSVN"]],[[http://tortoisesvn.tigris.org/|Tigris "TortoiseSVN"]].
+  *TortoiseSVN requires the installation of [[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=6a63ab9c-df12-4d41-933c-be590feaa05a&displaylang=en|Platform SDK Redistributable: GDI+]], on W2k.
+== Subclipse ==
+  *[[http://subclipse.tigris.org/|Subclipse]] for Eclipse.
+== AnkhSVN ==
+   *The OpenSource [[http://ankhsvn.open.collab.net/|CollabNet, Inc. "AnkhSVN"]].
+      *"Subversion support for AVR Studio 5".
+      *"Subversion Support for Visual Studioand Visual Studio".
+      *[[http://www.open.collab.net/support/|CollabNet, Inc. "Support"]].
+        *[[http://blogs.collab.net/|CollabNet, Inc. "Blogs - Community Mindshare & News"]].
+        *[[http://www.open.collab.net/community/|CollabNet, Inc. "CollabNet Community"]].
+      *[[http://help.collab.net/|CollabNet, Inc. "CollabNet User Information Center"]].
+== CollabNet Desktop, CollabNet Subversion Command-Line Client ==
+  *[[http://www.open.collab.net/downloads/integrations/|CollabNet Certified Integration]] - "CollabNet Desktop" for Eclipse, Visual Studio, Windows.
+  *[[http://www.collab.net/downloads/subversion/|CollabNet Subversion Command-Line Client]] for Windows.
+==== GIT ====
+=== The Tool ===
+  *msysgit.
+    *The official Git for Windows homepage [[http://msysgit.github.io/|Github "Git for Windows"]].
+    *[[http://code.google.com/p/msysgit/|Google Code "msysgit. Git for Windows"]] -> Installer for Windows.
+    *[[http://www.git-scm.com/downloads|Git SCM - Downloads]] -> Installer for Windows.
+    *Git GUI for WinXP, Vista, Win7, Win8.
+    *Git Bash for W2k, WinXP, Vista, Win7, Win8.
+=== Git & Git Extensions - Configuration ===
+  *Git configuration:
+    *( ) Checkout Windows-style, commit Unit-style line endings.
+    *( ) Checkout as-is,commit Unit-style endings.
+    *( ) Checkout as-is, commit as-is.
+    *(x) Not set.
+  *Git Extenions configuration:
+    *( ) use OpenSSH.
+    *(x) Use PuTTY.
+=== Server Tools ===
+  *The OpenSource "Gitolite".
+    *[[http://www.github.com/sitaramc/gitolite/|GitHub "sitaramc / gitolite"]].
+    *Wiki [[http://github.com/sitaramc/gitolite/wiki/|GitHub "Gitolite Wiki"]].
+  *The OpenSource [[http://www.gitlab.org/|GitLab]] - "open source software to collaborate on code. Create projects and repositories, manage access and do code reviews".
+=== Git Clients and Tools ===
+  *Gerrit, a software code review tool with GIT support -> See [[goodcoding.html|Good Coding ! - Software Coding, Coding Rules, Static Code Analysis, Code Reviews]].
+  *The OpenSource Git GUI application [[http://git-cola.github.io/|git-cola]], written in Python.
+  *The free [[http://www.collab.net/giteyeapp|CollabNet "GitEye"]] for Windows.
+  *[[http://gitextensions.sourceforge.net/|SourceForge "Git Extensions"]], [[http://www.sourceforge.net/projects/gitextensions/|SourceForge "Git Extensions"]], ( [[http://code.google.com/p/gitextensions/|Google Code "gitextensions"]] - outdated downloads ).
+    *"Git Extensions is the only graphical user interface for Git that allows you control Git without using the commandline. It comes with a manual and video tutorials to get you started quickly".
+    *There is a bundle with the OpenSource diff tool [[http://kdiff3.sourceforge.net/|SourceForge "KDiff3"]], [[http://www.sourceforge.net/projects/kdiff3/|SourceForge "KDiff3"]].
+  *The free-for-noncommercial-use [[http://www.syntevo.com/smartgithg/|SmartGit/Hg]] for Windows.
+  *The free Mercurial and Git Client for Windows [[http://www.sourcetreeapp.com/|Atlassian "SourceTree"]].
+  *[[http://code.google.com/p/tortoisegit/|Google Code "TortoiseGit - The coolest Interface to Git Version Control"]] - "msysgit... is also required for TortoiseGit (recommended order: install TortoiseGit first)".
+=== Clients and Tools for Github ===
+  *[[http://windows.github.com/|GitHub Windows "GitHub for Windows"]]. 
+    *You must use a special download installer, which downloads and installs the real GitHub application from [[http://github-windows.s3.amazonaws.com|github-windows.s3.amazonaws.com]]. No offline installation?!
+    *While the "GitHub" application installs on my Athlon XP2800 computer properly, it crashes with APPCRASH when executed.
+=== Github Gist ===
+== Markdown Language ==
+  *[[http://www.mkdocs.org/|MkDocs]].
+  *[[http://de.wikipedia.org/wiki/Markdown|DE.Wikipedia "Markdown"]], [[http://en.wikipedia.org/wiki/Markdown|EN.Wikipedia "Markdown"]].
+== Gist ==
+  *[[http://gist.github.com/|Github Gist]].
+=== Free Online Courses ===
+  *[[http://www.opentechschool.org/|OpenTechSchool]].
+    *[[http://www.github.com/OpenTechSchool|Github "OpenTechSchool"]].
+      *"Github from Scratch". 2013-11-30 in Hamburg.
+        *[[http://opentechschool.github.io/github-from-scratch/|Github.io "OpenTechSchool - Github from Scratch]].
+        *[[http://www.github.com/OpenTechSchool/github-from-scratch|Github "OpenTechSchool/github-from-scratch"]].
+      *"Social Coding with GitHub"
+        *[[http://opentechschool.github.io/social-coding/|Github.io "OpenTechSchool - Social Coding with GitHub]].
+        *[[http://www.github.com/OpenTechSchool/social-coding|Github "OpenTechSchool/social-coding"]].
+=== Literature ===
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1430218339/hemmerling-21|Scott Chacon "Pro Git"]].
+    *The acompanying website [[http://www.git-scm.com/|Scott Chacon "Pro Git" ( git-scm.com )]].
+    *The free online HTML edition [[http://www.git-scm.com/book|Scott Chacon "Pro Git"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3864901308/hemmerling-21|René Preißel, Bjørn Stachmann: "Workflows mit Git: Dezentrale Versionsverwaltung in der Praxis"]].
+=== Resources ===
+== Git ==
+  *Slides [[http://www.slides.com/cburgdorf/the-secrets-of-the-git-ninjas/|Christoph Burgdorf "The secrets of the Git ninjas"]].
+    *Tips on slides:
+      *"The HEAD ist just a pointer to where your working directory should be currently on".
+      *"If you aren't using "git rebase - i" you are either a die hard super coder or you history is likely to be a mess".
+      *"'Ill fix that later'as a workflow. 4 commands: WIP, AP, ADD -P, REBASE -I".
+    *Aural tips: 
+      *If you use GitHub as repository for the Master, You may do Master branches on GitHub.
+      *But: Don´t rewrite history ( by REBASE -I ) on GitHub, if your team is doing Master branches on GitHub.
+    *[[http://www.twitter.com/cburgdorf|Twitter "Christoph Burgdorf"]].
+  *[[http://www.oli.jp/2012/git-powerup/|Oli.jp "Git config powerup with aliases, diff & log"]].
+  *The free online [[http://www.ndpsoftware.com/git-cheatsheet.html|NDP Software "Git Cheatsheet"]] :-).
+  *[[http://www.git-scm.com/download/gui/win|Scott Chacon ( git-scm.com ) "GUI Clients"]].
+  *[[http://www.theint.ro/|The Intro: Workshops and community events about the web]].
+    *[[http://www.theint.ro/blogs/outro/4649682-git-for-busy-people-see-what-youre-doing|The Intro: Git for busy people: see what you're doing]].
+  *Wiki [[http://git.wiki.kernel.org/|Git Wiki]].
+    *[[http://git.wiki.kernel.org/index.php/InterfacesFrontendsAndTools|Git Wiki "Interfaces, frontends, and tools"]].
+  *[[http://en.wikipedia.org/wiki/Git_%28software%29|EN.Wikipedia "Git (software)"]], [[http://de.wikipedia.org/wiki/Git|DE.Wikipedia "Git"]].
+== GitHub ==
+  *[[http://help.github.com/articles/generating-ssh-keys|GitHub Help "Generating SSH Keys"]] - On Windows, the directory "c:\users\<user>.\.ssh" is used to store the rsa files "github_rsa" and "github_rsa.pub".
+== Gist ==
+  *Markdown is standard at Github for documentation of software applications. In opposite, JavaDoc and JSDoc are used for documentation of functions.
+  *To create a Gist, you need to enter (1) a Gist name, (2) and some text in the contents field. (3) You should also enter a filename to be able to set the filetype ( e.g. "test.md" to set the language to "MD" ), but that's not mandatory from point of view of the service.
+  *[[http://help.github.com/categories/88/articles|GitHub Help "Writing on GitHub"]].
+    *[[http://help.github.com/articles/markdown-basics|GitHub Help "Markdown Basics"]].
+    *[[http://help.github.com/articles/github-flavored-markdown|GitHub Help "GitHub Flavored Markdown"]].
+    *[[http://help.github.com/articles/writing-on-github#task-lists|GitHub Help "Writing on GitHub"]] -> Task lists,...
+  *[[http://help.github.com/articles/creating-gists|GitHub Help "Creating gists"]].
+  *The free service [[http://www.rawgit.com/|RawGit]] - "RawGit serves raw files directly from GitHub with proper Content-Type headers".
+  *[[http://www.stackoverflow.com/questions/8717740/git-gist-markdown-does-not-work|StackOverflow "Git gist - Markdown does not work"]] - "Github uses file extension to recognize file type. In order to use Markdown in your gist it should have appropriate .markdown (or .md) extension".
+  *[[http://www.github.com/blog/|GutHub Blog]].
+    *[[http://www.github.com/blog/1395-relative-links-in-markup-files|GutHub Blog "Relative links in markup files"]].
+  *[[http://www.stackoverflow.com/questions/16425770/how-do-you-upload-images-to-a-gist|Stack Overflow "How do you upload images to a gist?"]].
+    *"You can clone your gist as a git repository and add your picture, then push to origin".
+  *[[http://webapps.stackexchange.com/questions/29602/markdown-to-insert-and-display-an-image-on-github-repo|StackExchange "Markdown to insert and display an image on GitHub repo"]].
+    *"As of January 30th, 2013, GitHub now allow relative links. Make sure that you append ?raw=true to the end of the URL, though. Here is an example: ![Image](../blob/master/public_html/img/nokia.png?raw=true). Due to the way GitHub handles URL's, if you do not append ?raw=true to the source URL your browser will attempt to load the page which displays the image".
+    *[[http://help.github.com/articles/generating-ssh-keys/|GitHub Help "Generating SSH keys"]].
+    *[[http://www.d3noob.org/2012/12/loading-thumbnail-into-gist-for.html|D3.js Tips and Tricks: Loading a thumbnail into Gist for bl.ocks.org d3 graphs "Loading a thumbnail into Gist for bl.ocks.org d3 graphs"]].
+    *[[http://www.github.com/hecticjeff/gist-img|GitHub "hecticjeff/gist-img"]] - "gist-img.sh is a tiny shell script that encodes the given image in base64 and uploads it to gist using the gist(1) commands line utility".
+==== CVSNT ====
+=== CVSNT Server ===
+  *[[http://en.wikipedia.org/wiki/CVSNT|EN.Wikipedia "CVSNT"]].
+  *The commercial OpenSource [[http://www.evscm.org/|March Hare Pty Ltd "EVS Versioning System"]], [[http://march-hare.com/cvspro/|March Hare Pty Ltd "CVSNT 2.8.01 only available in CVS Suite 2009"]].
+    *[[http://www.march-hare.com/cvsnt/|March Hare Pty Ltd "All Downloads"]] - list of the filenames of the latest community editon "cvsnt-server-2.5.05.3744.msi", "cvsnt-client-2.5.05.3744.msi", "cvsnt-2.5.05.3744-bin.zip", "cvsnt-local-2.5.05.3744.msi", name of latest community source file "cvsnt-2.5.05.3744.tar.gz".
+    *[[http://www.cvsnt.org/manual/|March Hare Pty Ltd "The CVSNT Manual"]] for "Concurrent Versions System (cvsnt) 2.5.05.3744" - online HTML manual, download of a tar.gz archive with PDF, PS, HTML documents.
+    *[[http://www.cvsnt.org/archive/|March Hare Pty Ltd "CVSNT Archive"]].
+    *"The public CVS server for source code is not guarenteed to be available 24x7, is provided by a volunteer and may be withdrawn at any time: cvs -d :pserver:cvs:@cvs.cvsnt.org:/cvsnt co -r CVSNT_2_0_x cvsnt".
+  *Free downloads of legacy editions.
+    *I am still looking for contact to people, who once downloaded the files of the once freely available OpenSource 2.5.05 edition for Windows, source code and binaries! So I am looking for "cvsnt 2.5.05 for Windows free download". Please [[imprint.html|contact me]], if you did !
+    *Windows -> [[http://cid-2adda2d44910cde2.office.live.com/self.aspx/WIN32%5E_X86/cvsnt-server-2.5.04.3510.msi|Michael Shih "cvsnt-server-2.5.04.3510.msi"]], "cvsnt-server-2.5.04.3510.msi".
+    *Windows -> [[http://hem.bredband.net/bb4702/cvsntinstaller.html|Bredbandsbolaget "CVSNT InnoSetup Installer download. Installer built by: Bo Berglund. Code created by: Tony Hoyle"]], "cvsnt-2.5.3.2382.exe", "CvsntClient-2.5.3.2382.exe".
+    *Linux -> [[http://www.mirrorservice.org/search?q=cvsnt|University of Kent, UK Mirror Service - "cvsnt"]].
+    *Linux -> [[http://packages.ubuntu.com/en/hardy/cvsnt|Ubuntu.Com "Package: cvsnt (2.5.03.2382-3build1) [universe]"]].
+    *Linux -> [[ftp://ftp.heanet.ie/mirrors/pld-linux/dists/3.0/PLD/SRPMS/RPMS/cvsnt-2.5.05.3744-2.src.rpm|cvsnt-2.5.05.3744-2.src.rpm|cvsnt-2.5.05.3744-2.src.rpm]], [[ftp://ftp.heanet.ie/mirrors/pld-linux/dists/3.0/PLD/SRPMS/RPMS/cvsnt-2.5.05.3744-3.src.rpm}}, [[ftp://ftp.heanet.ie/mirrors/pld-linux/dists/3.0/PLD/SRPMS/RPMS/cvsnt-2.5.05.3744-4.src.rpm|cvsnt-2.5.05.3744-4.src.rpm]].
+    *MacOSX -> [[http://mac.softpedia.com/get/Developer-Tools/CVSNT.shtml|SoftPedia "CVSNT 2.5.04.3510"]], "cvsnt-2.5.04.3510.dmg".
+=== CVSNT Client ===
+  *[[http://www.tortoisecvs.org/|TortoiseCVS]] - Client for CVSNT.
+    *[[http://tortoisecvs.sourceforge.net/|Sourceforge "TortoiseCVS"]], [[http://www.sourceforge.net/projects/tortoisecvs/|Sourceforge "TortoiseCVS"]].
+    *[[http://tcvswix.sourceforge.net/|Sourceforge "TortoiseCVS Windows Installer"]], [[http://www.sourceforge.net/projects/tcvswix/|Sourceforge "TortoiseCVS Windows Installer"]].
+    *[[http://cvssccplugin.sourceforge.net/projects/|Sourceforge "SCC plugin for TortoiseCVS"]], [[http://sourceforge.net/projects/cvssccplugin/|"SCC plugin for TortoiseCVS"]] - "This plugin allows you to access CVS directly from within Visual Studio and other IDEs/editors".
+    *[[http://sourceforge.net/projects/tortoisedarcs/|Sourceforge "TortoiseDarcs"]], [[http://sourceforge.net/projects/tortoisedarcs/|Sourceforge "TortoiseDarcs"]] - "A version of TortoiseCVS which includes support for [[http://www.darcs.net/|Darcs]]".
+==== Mercurial ====
+=== The Tool ===
+  *The OpenSource [[http://mercurial.selenic.com/|selenic consulting "Mercurial"]] for Python - "A free, distributed source control management tool".
+  *Wiki [[http://mercurial.selenic.com/wiki/|selenic consulting "Mercurial Wiki"]].
+  *[[http://www.selenic.com/mercurial/hgrc.5.html|selenic consulting "hgrc. configuration files for Mercurial"]].
+=== Addons ===
+  *[[http://mercurial.selenic.com/wiki/HgNestedExtension|selenic consulting "HgNested Extension"]], [[http://code.google.com/p/hgnested/|Google Code "hgnested. Mercurial extension to work with nested repositories"]] - This tool is mandatory for the development process of the OpenSource software "Tryton".
+=== Resources ===
+  *Mercurial implements the concepts of "patches", so you can create a directory "patches" where you may store several consequente versions of your software on you local file system, e.g. to show the progress of a software development ( as tutorial ).
+  *[[http://ddnet.wordpress.com/2010/04/01/mercurial-hgrc-file/|Any fool can make things bigger and more complex "Mercurial .hgrc file"]].
+  *[[http://flydillonfly.wordpress.com/2011/05/18/mercurial-hg-configuration-file-location-on-windows-7/|Fly Dillon Fly "Mercurial hg configuration file location on Windows 7"]].
+  *[[http://www.hgtip.com/|hg tip. Learn Mercurial one bite-sized tip at a time]].
+    *[[http://www.hgtip.com/tips/beginner/2009-09-30-configuring-mercurial/|hg tip. Learn Mercurial one bite-sized tip at a time "Configuring Mercurial"]].
+  *[[http://man.cat-v.org/9front/8/hgrc|man(1) Manual page archive "hgrc - configuration files for Mercurial"]].
+  *[[http://www.stackoverflow.com/questions/3859762/mercurial-hgrc-file|StackOverflow "Mercurial .hgrc file"]].
+  *[[http://en.wikipedia.org/wiki/Mercurial|EN.Wikipedia "Mercurial"]], [[http://de.wikipedia.org/wiki/Mercurial|DE.Wikipedia "Mercurial"]].
+==== Some other free Tools for Software Version Management ====
+  *The OpenSource [[http://www.darcs.net/|Darcs]] - "A free, open source source code management system".
+  *[[http://www.perforce.com/|Perforce SCM System]].
+    *The free 2-user SCM tool [[http://www.perforce.com/perforce/download_eval.html|Perforce Essentials]].
+      *The Perforce Visual Client (P4V).
+      *The Perforce Server (P4D). 
+==== Some other just-commercial Tools for Software Version Management ====
+  *[[http://www.sourcegear.com/vault/|SourceGear, LLC. "Vault"]].
+==== Just-commercial Tools for Software Configuration Management ( SCM ) ====
+  *IBM.
+    *[[http://www-01.ibm.com/software/awdtools/clearcase/|IBM Rational ClearCase]].
+    *[[http://www-01.ibm.com/software/awdtools/synergy/|IBM Rational Synergy]].
+      *[[http://www.ibm.com/developerworks/rational/products/synergy/|IBM DeveloperWorks "Synergy"]].
+      *Synergy user group [[http://content.synergy-anwender.de/|SYNERGY-Anwender.de]].
+      *[[http://en.wikipedia.org/wiki/Rational_Synergy|EN.Wikipedia "Rational Synergy"]], [[http://de.wikipedia.org/wiki/Rational_Synergy|DE.Wikipedia "Rational Synergy"]].
+    *[[http://www.ibm.com/developerworks/downloads/product.html|IBM developerworks "Downloads, trials, and cloud. Evaluation software for developers"]].
+  *[[http://www.serena.com/products/dimensions/|Serena Dimensions]].
+===== Resources =====
+  *[[http://durak.org/sean/pubs/|Sean Dreilinger "Writing & Reference"]].
+    *[[http://durak.org/sean/pubs/software/producingoss/a3139.html|Sean Dreilinger "Producing Open Source Software: How to Run a Successful Free Software Project - Appendix A. Free Version Control Systems"]].
+  *[[http://www.intevation.de/~thomas/mercurial-lt2006|Thomas Arendsen Hein "Mercurial Distributed SCM - Die verteilte Alternative zu CVS"]].
+  *[[http://www.it-republik.de/jaxenter/artikel/Innovative-Tools-0681.html|it-republik, Rene Preissel and Björn Stachmann  "Subversiv entwickeln? Software Configuration Management mit Subversion"]] #.
+  *[[http://eclipse-tutorial.dev.java.net/eclipse-tutorial/part2.html|java.net, Martin Pllu - "Developing open source Java applications with java.net and Eclipse. Part 2: Team development with Eclipse and CVS"]].
+  *[[http://mo.morsi.org/blog/node/225|Morsi dot Org "Creating a SVN Repository"]].
+  *[[http://svnbook.red-bean.com/|Website for the book "Ben Collins-Sussman, Brian W. Fitzpatrick, C. Michael Pilato: Version Control with Subversion"]] - free PDF and HTML download, free HTML online version.
+  *[[http://www.polarion.com/products/svn/subtrain.php|Polarion Software "SubTrain – Open Source Subversion Training Course"]] - Free course material to teach the use of Subversion #.
+  *[[http://www.software-pointers.com/en-configuration-tools.html|Software-Pointers.com, Directory for Software Development "The most useful links to Configuration Management Tools, 44 Hand-picked Configuration Management Tools"]] #.
+  *[[http://www.tortoisesvn.net/docs/nightly/TortoiseSVN_en/|TortoiseSVN "TortoiseSVN. A Subversion client for Windows. Version 1.6.99"]].
+  *[[http://mo.morsi.org/blog/node/225|SVNForum.org "(20014)Internal error: Can't open remote repository"]].
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/Comparison_of_WAMPs|EN.Wikipedia "Comparison of WAMPs"]].
+    *[[http://en.wikipedia.org/wiki/Revision_control|EN.Wikipedia "Revision control"]], [[http://de.wikipedia.org/wiki/Versionsverwaltung|DE.Wikipedia "Versionsverwaltung"]].
+    *[[http://en.wikipedia.org/wiki/Concurrent_Versions_System|EN.Wikipedia "Concurrent Versions System"]],[[http://de.wikipedia.org/wiki/Concurrent_Versions_System|DE.Wikipedia "Concurrent Versions System"]].
+    *[[http://en.wikipedia.org/wiki/CVSNT|EN.Wikipedia "CVSNT"]].
+    *[[http://en.wikipedia.org/wiki/Software_configuration_management|EN.Wikipedia "Software configuration management"]], [[http://en.wikipedia.org/wiki/Configuration_management|EN.Wikipedia "Configuration management"]], [[http://de.wikipedia.org/wiki/Software-Configuration-Management|DE.Wikipedia "Software-Configuration-Management"]], [[http://de.wikipedia.org/wiki/Konfigurationsmanagement|DE.Wikipedia "Konfigurationsmanagement"]] -> "Beispiele für Werkzeuge. Diese Systeme bieten Unterstützung beim Versionieren" :-).
+    *[[http://en.wikipedia.org/wiki/List_of_revision_control_software|EN.Wikipedia "List of revision control software"]].
+===== Forums, Newsgroups, Communities =====
+  *CVSNT.
+    *Mailing list archive [[http://www.cvsnt.org/pipermail/cvsnt/|The cvsnt Archives]].
+    *[[http://www.facebook.com/pages/CVS/302315649701|Facebook "CVS"]].
+  *[[http://ctf.open.collab.net/sf/discussion/do/listForums/projects.giteye/discussion|CollabNet Forum "GitEye"]].
+  *[[http://www.ingenieur.de/networks/groups/CCM/|Ingenieur.de "Synergy"]].
+  *[[http://mercurial.selenic.com/wiki/|Mercurial Wiki]].
+  *[[http://www.open.collab.net/community/|openCollabNet Community]] - "Community Forums, Web-based Training, CollabNet Blogs".
+  *[[http://subclipse.tigris.org/wiki/|Subclipse Wiki]].
+  *[[http://www.svnforum.org/|SVNForum]].
+  *[[http://subversion.wandisco.com/|WANdisco Subversion Community]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Programmieren/Werkzeuge/Versionskontrolle/|OpenDirectory "Top: World : Deutsch : Computer : Programmieren : Werkzeuge : Versionskontrolle"]].
+  *[[http://www.dmoz.org/Computers/Software/Configuration_Management/Tools/|OpenDirectory "Top: Computers: Software : Configuration Management : Tools"]]. 
+{{tag>cvs "revision control system" "software code version control" RCS SCVCS VCS CVS "software configuration management" scm }}
+<footnote_navi_en>

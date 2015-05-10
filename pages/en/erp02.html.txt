@@ -1,0 +1,180 @@
+====== [hemmerling] ERP 2/2 - The OpenSource ERP Systems "TinyERP" / "OpenERP" / "Odoo" and the Fork "Tryton" ======
+Related pages:
+  *[[crm.html|Customer Relationship Management ( CRM )]].
+  *[[erp.html|ERP 1/2 - Enterprise Resource Planning ( ERP ) / "Produktionsplanung und Steuerung" ( PPS )]].
+  *[[enterprise.html|Enterprise Operation]].
+  *[[mes.html|Manufacturing Execution System ( MES )]].
+  *[[python.html|Python]].
+===== Conferences =====
+  -[[http://code.google.com/p/tryton/wiki/Liege2011|Google Code "Tryton Unconference Liège 2011"]] ( 2011-11-11 - 2011-11-12 ).
+  -[[http://code.google.com/p/tryton/wiki/Liege2012|Google Code "Tryton Unconference Liège 2012"]] ( 2012-11-09 - 2012-11-10 ).
+  -[[http://tub2013.tryton.org/|Tryton Unconference Barcelona]] ( 2013-11-07 - 2013-11-10 ).
+    *[[http://code.google.com/p/tryton/wiki/Barcelona2013|Google Code "Tryton Unconference Barcelona 2013"]]
+    *[[http://www.lanyrd.com/2013/tub-technical-seminar/|Lanyrd "TUB 2013 - Tryton Unconference Barcelona"]].
+  -I participated in the [[http://tul2014.tryton.org/|Tryton Unconference Leipzig]] in Leipzig, Germany ( 2014-11-14 - 2014-11-16 ).
+    *[[http://www.lanyrd.com/2014/tryton-unconference-leipzig/|Lanyrd "Tryton Unconference Leipzig 2014"]].
+===== TinyERP / OpenERP / Odoo =====
+==== The Tool ====
+  *[[http://www.odoo.com/| OpenERP S.A. "Odoo"]].
+  *[[http://www.odoo-community.org/|Odoo Community Association]] ( OCA ) - "A nonprofit organization whose mission is to support the collaborative development of Odoo features and promote its widespread use".
+  *[[http://www.github.com/odoo|GitHub "Odoo - Open Source Business Apps"]].
+  *The legacy [[http://tinyerp.sourceforge.net/|SourceForge "TinyERP"]], [[http://www.sourceforge.net/projects/tinyerp/|SourceForge "TinyERP (Old Project, see OpenERP.COM)"]].
+  *[[http://www.greenodoo.com/|GreenOdoo - Portable Odoo (formerly OpenERP)]].
+    *[[http://greenopenerp.sourceforge.net/|SourceForge "GreenOdoo"]], [[http://www.sourceforge.net/projects/greenopenerp/|SourceForge "GreenOdoo. Portable Odoo (formerly OpenERP) for windows and linux x64"]].
+  *The business model, as explained by experts: 
+    *Patches provided by the community are just merged into the current development version, which is not intended to be used in production.
+    *Patches provided by the community aren't merged into the latest stable community edition.
+    *Patches provided by the community are merged into the stable commercial edition ( i.e. a special stable patched version just available if you subscribe for a commercial maintainance service ).
+==== Commercial Providers ====
+  *[[http://www.myodoo.de/|Equitania Software GmbH "myodoo - Das neue OpenERP"]], Germany.
+  *[[http://www.ife.de/|IFE Gesellschaft für Forschung und Entwicklung mbH "Odoo OpenERP Gold Partner - Best Partner Europe"]] from Hannover, Germany.
+===== Tryton =====
+==== Tryton Server ====
+  *The OpenSource application server [[http://www.tryton.org/|Tryton Foundation "Tryton"]] for Python 2.7.
+    *[[http://code.google.com/p/tryton/|Google Code "Tryton"]].
+    *[[http://www.github.com/tryton|GitHub "tryton"]].
+    *[[http://www.twitter.com/sebastianmarro|Twitter "Sebastián Marró, @sebastianmarro"]] - "Thymbra Director. Member of GNU Solidario. Board member of Tryton Foundation".
+    *"Three-tier high-level general purpose application platform under the license GPL-3 written in Python and using PostgreSQL as database engine. It is the core base of a complete business solution providing modularity, scalability and security".
+  *The demo server [[http://demo.tryton.org/:8000|demo.tryton.org:8000]].
+  *[[http://www.twitter.com/tryton_erp|Twitter "Tryton ERP, @tryton_erp"]].
+  *I was told by experts, that 
+    *Patches provided by the community are both merged into some stable community editions ( the latest, some older,..) and the current development version.
+    *Extending the Tryton client ( e.g. to support a new widget ) is difficult. As very few Tryton developers provided upgrades to the client in the last few years, and as the status of the client code and documentation is not perfect and especially not easy to understand and to handle, it can be expected that writing a new widget for the client might just be done by a handful of Trycon developers in the world...
+==== Documentation ====
+  *[[http://doc.tryton.org|Tryton Documentation]].
+  *[[http://code.google.com/p/tryton/wiki/TableOfContents?tm=6|Google Code "Tryton" - Wiki]].
+  *[[http://tryton-documentation.readthedocs.org/|ReadTheDocs "Tryton"]].
+    *[[http://www.github.com/tryton/tryton-documentation|GitHub "tryton/tryton-documentation"]].
+  *[[http://openlabs.github.io/trytond-prestashop/|GitHub.io of OpenLabs "Tryton Prestashop Integration’s documentation"]].
+  *[[http://readthedocs.org/projects/tryton-administration-manual/|ReadTheDocs "Tryton Administration Manual"]].
+  *[[http://web.archive.org/web/*/http://www.origo.ethz.ch/|Archive.org "Origo, a project by ETH Zürich"]] ( - 2012-03-31 ).
+    *The former home of the German Tryton developers and users [[http://web.archive.org/web/*/http://tryton.origo.ethz.ch/|Archive.org "Origo 'Tryton"]].
+    *The former Wiki [[http://web.archive.org/web/*/http://tryton.origo.ethz.ch/wiki/doc|Archive.org "Origo 'Tryton - Doc'"]].
+==== Downloads ====
+  *[[http://www.tryton.org/download.html|Tryton - Download]] of packages.
+    *"Client 3.4 exe" - GTK client for Windows, ...
+    *"Neso 3.4 exe" for Windows - "A standalone version including client and server".
+  *The Web client SAO.
+    *[[http://wiki.tryton-erp.es/SAO|Tryton Spain - TrytonERP "Instalación del cliente web (SAO)"]].
+    *[[http://hg.tryton.org/sandbox/sao/|Tryton - Mercurial Repository "sao"]].
+    *[[https://www.github.com/tryton/sao|GitHub "tryton/sao"]].
+  *There is no server package for Windows, some packages for Linux distributions ( e.g. Ubuntu ) are outdated.
+  *[[http://hg.tryton.org/|Tryton - Mercurial Repository]].
+    *Mercurial -> see [[revision.html|Revision Control & Revision Control Systems (RCS), Source Code Version Control Systems ( SCVCS, VCS, CVS ), Software Configuration Management ( SCM )]].
+    *You may download the current release, e.g. "trytond 3.5" by:
+      *"hg clone http://hg.tryton.org/trytond/".
+      *"hg clone http://hg.tryton.org/tryton/".
+  *To downgrade to "trytond 3.4", execute "hg up 3.4" in the download directory.
+  *[[http://pypi.python.org/pypi/trytond|Python Package Index "trytond"]] - "trytond 3.4.0".
+    *"pip install trytond".
+    *"pip install 'trytond =>3.4<3.5'".
+    *"pip install -U trytond" / "pip install --upgrade trytond". Upgrade all packages to the newest available version. 
+==== Mandatory and optional Prerequisites ====
+  *Mandatory prerequisites:
+    *[[http://www.labix.org/python-dateutil|Gustavo Niemeyer, Labix "python-dateutil"]].
+  *Additional mandatory prerequisites according to "installation.rst":
+    *[[http://www.pygtk.org/|PyGTK]] - "PyGTK lets you to easily create programs with a graphical user interface using the Python programming language. The underlying GTK+ library provides all kind of visual elements and utilities for it and, if needed, you can develop full featured applications for the GNOME Desktop".
+      *[[http://en.wikipedia.org/wiki/PyGTK|EN.Wikipedia "PyGTK"]], [[http://de.wikipedia.org/wiki/PyGTK|DE.Wikipedia "PyGTK"]].
+    *[[http://live.gnome.org/LibRsvg.|Gnome Project "LibRsvg"]], [[https://wiki.gnome.org/action/show/Projects/LibRsvg|Gnome Project "libRSVG"]], [[https://git.gnome.org/browse/librsvg|Gnome Git "librsvg - A SVG viewing library"]], [[http://librsvg.sourceforge.net/|SourceForge "LibRSVG"]], [[http://www.sourceforge.net/projects/librsvg|SourceForge "LibRSVG"]].
+  *Additional mandatory prerequisites according to [[http://doc.tryton.org/3.4/trytond/doc/topics/install.html|Tryton Documentation "How to install Tryton"]]:
+    *[[http://www.lxml.de/|lxml - XML and HTML with Python]], [[http://www.github.com/lxml/|GitHub "lxml"]], [[https://pypi.python.org/pypi/lxml|Python Package Index "lxml"]] - "The most feature-rich and easy-to-use library for processing XML and HTML in the Python language".
+    *[[http://code.google.com/p/python-relatorio/|Google Code "python-relatorio"]] - "A templating library able to output odt and pdf files".
+    *[[http://www.bitbucket.org/izi/polib|Bitbucket "izi/polib"]], [[http://pypi.python.org/pypi/polib/|Python Package Index "polib"]] - "polib allows you to manipulate, create, modify gettext files (pot, po and mo files)".
+  *Additional optional prerequisites:
+    *[[http://www.github.com/simplejson|GitHub "simplejson"]], [[http://simplejson.readthedocs.org/|ReadTheDocs "simplejson"]], ( [[http://www.undefined.org/python/|"Python Stuff"]] - "simplejson" ) - a simple, fast, extensible JSON encoder/decoder for Python" ).
+    *"cdecimal" / "m3-cdecimal".
+      *[[http://pypi.python.org/pypi/cdecimal|Python Package Index "cdecimal"]] - No download. "cdecimal has been integrated into CPython 3.3, where it supersedes the pure Python version".
+      *[[http://pypi.python.org/pypi/m3-cdecimal|Python Package Index "m3-cdecimal 2.3"]] - Download!
+      *[[http://docs.python.org/library/decimal.html|Python documentation "9.4. decimal — Decimal fixed point and floating point arithmetic"]].
+      *[[http://web.archive.org/web/*/http://www.bytereef.org/mpdecimal/|Archive.org "bytereef.org/mpdecimal/"]].
+  *Additional optional prerequisites according to "installation.rst":
+    *[[http://code.google.com/p/goocalendar/|Google Code "goocalendar"]], [[http://pypi.python.org/pypi/GooCalendar|Python Package Index "goocalendar"]], [[http://goocalendar.readthedocs.org/|ReadTheDocs "goocalendar"]] - "Calendar widget using GooCanvas".
+  *Additional optional prerequisites according to [[http://doc.tryton.org/3.4/trytond/doc/topics/install.html|Tryton Documentation "How to install Tryton"]]:
+    *[[http://code.google.com/p/python-sql/|Google Code "python-sql"]] - "Python library to write SQL queries".
+    *[[http://initd.org/psycopg/|Daniele Varrazzo, initd.org "psycopg"]] ( no "www" in URL ) - "The most popular PostgreSQL adapter for the Python programming language".
+      *[[http://initd.org/psycopg/docs/install.html| Psycopg 2.5.5.dev0 documentation]] ( no "www" in URL ).
+      *[[http://pdb.finkproject.org/pdb/package.php/psycopg2-py27|Fink Project "psycopg2-py27"]].
+      *Windows ports:
+        *[[http://www.stickpeople.com/projects/python/win-psycopg/| Jason Erickson, Stickpeople Project "win-psycopg"]] - "A Windows port of the psycopg python-postgresql database interface", "This windows version of psycopg2 is built using static libraries of the following packages: PostgreSQL libpq 9.3.5, OpenSSL 1.0.1i, zlib 1.2.8 ).
+        *[[http://www.github.com/nwcell/psycopg2-windows|GitHub, Travis Krause "nwcell/psycopg2-windows"]] - "Pip & virtualenv friendly version of psycopg2 for Windows".
+    *[[http://mysql-python.sourceforge.net/|SourceForge "MySQL for Python"]], [[http://www.sourceforge.net/projects/mysql-python/|SourceForge "MySQL for Python"]] - "MySQL database connector for Python programming".
+    *[[http://code.google.com/p/pywebdav/|Google Code "pywebdav"]] - "PyWebDAV is a standards compliant WebDAV server and library written in Python".
+    *[[http://code.google.com/p/pydot/|Google Code "pydot"]] - "Python interface to Graphviz's Dot language".
+    *[[http://dag.wiee.rs/home-made/unoconv/|Dag Wieers "unoconv"]], [[http://www.github.com/dagwieers/unoconv|GitHub "dagwieers/unoconv"]] - "Universal Office Converter - Convert between any document format supported by LibreOffice/OpenOffice". 
+    *"SPHINX - Python Documentation Generator" -> See [[python04.html|Python 4/6 - Pro & Contra]].
+    *[[http://www.github.com/miohtama/python-Levenshtein|GitHub "miohtama/python-Levenshtein"]] - "The Levenshtein Python C extension module contains functions for fast computation of Levenshtein distance and string similarity".
+      *[[http://en.wikipedia.org/wiki/Levenshtein_distance|EN.Wikipedia "Levenshtein distance"]], [[http://de.wikipedia.org/wiki/Levenshtein-Distanz|EN.Wikipedia "Levenshtein-Distanz"]].
+==== Installation ====
+  *[[http://wiki.gentoo.org/wiki/Tryton|Gentoo Wiki "Tryton"]] - "Installation".
+==== Write your first Tryton Module ====
+  *[[http://code.google.com/p/tryton/wiki/HelloWorld|Google Code Wiki of "tryton", article "HelloWorld. Creating a new Module"]].
+  *[[http://www.twitter.com/nicoe|Twitter "Nicolas Évrard, @nicoe"]].
+    *[[http://www.lanyrd.com/2014/tryton-unconference-leipzig/sddwcm/|Lanyrd "Nicolas Évrard: 'Writing your first module for tryton'. A session at Tryton Unconference Leipzig 2014"]].
+    *"hg clone [[http://hg.tryton.org/trytond/modules/training|http://hg.tryton.org/trytond/modules/training]]".
+  *[[http://tryton-documentation.readthedocs.org/en/latest/developer_guide/getting_started.html|ReadTheDocs "Tryton / Developer Guide" article "Getting Started"]] - "Hello World (in progress)".
+  *[[http://wiki.tryton-erp.es/HelloworldModule|Tryton Spain Wiki "Helloworld Module"]].
+  *[[http://www.github.com/vishesh/helloworld-tryton|GitHub "vishesh/helloworld-tryton"]] - "Helloworld Tryton example from wiki".
+  *Sample process to create your first Tryton module:
+    -Virtualenv.
+    -vobject.
+    -mercurial.ini.
+    -SQL database -> .trytond.conf. -> "export TRYTONDCONFIG = $home/.trytond.conf"
+    -Module ( "trytond -u mymodule othermodule -d mydatabase" ).
+    -Moduleview.
+    -Add a Workflow ( -> Add a button on the user interface ).
+    -...
+==== Tryton Developers, Implementors of Tryton Application and Tryton Adaptors ====
+  *OpenLabs.
+    *[[http://www.openlabs.co.in/|Openlabs Technologies & Consulting (P) LTD]].
+    *[[http://www.linkedin.com/company/453921|LinkedIn "Openlabs Technologies & Consulting (P) LTD"]].
+      *[[http://www.github.com/openlabs|GitHub "Openlabs Technologies & Consulting (P) Limited"]].
+        *[[http://www.github.com/openlabs/tryton|GitHub "openlabs/tryton"]] - "Tryton Dockerfile. This Dockerfile will run the steps required to build a working image of Tryton".
+      *[[http://www.twitter.com/openlabsindia/|Twitter "OpenLabs, @openlabsindia"]].
+      *[[http://www.twitter.com/varkmr|Twitter "Varun Kumar, @varkmr"]].
+      *[[http://www.twitter.com/sharoonthomas|Twitter "Sharoon Thomas, @sharoonthomas"]].
+      *[[http://www.twitter.com/rituparna02|Twitter "Rituparna, @rituparna02"]].
+  *[[http://www.tryton-erp.es/|Tryton Spain - TrytonERP]].
+    *[[http://apps.tryton-erp.es/|es/|Tryton Spain - TrytonERP "Apps Tryton"]] - List of Tryton apps = single Tryton application modules.
+    *[[http://www.bitbucket.org/trytonspain|BitBucket "Tryton Spain (trytonspain)"]].
+  *[[http://www.nan-tic.com/|NaN-tic]].
+    *[[http://www.bitbucket.org/nantic|BitBucket "NaN·tic (nantic)"]].
+==== Applications based on Tryton ====
+  *[[http://health.gnu.org/|GNU Health]].
+    *[[http://en.wikibooks.org/wiki/GNU_Health|WikiBooks "GNU Health"]].
+    *[[http://www.twitter.com/meanmicio|Twitter "Luis Falcon, @meanmicio"]] - "Medical Doctor & Computer Scientist. President of GNU Solidario #Vegan . Author of #GNUHealth".
+    *[[http://www.twitter.com/gnuhealth|Twitter "GNU Health, @gnuhealth"]].
+  *[[http://lims.gnu.org/| Occhiolino - The GNU LIMS]] by [[http://www.gnusolidario.org/|GNU Solidario]].
+    *[[http://www.twitter.com/gnulims|Occhiolino, @gnulims]].
+==== Reference Customers ====
+  *[[http://www.lie-nielsen.com/|Lie-Nielsen Toolworks]].
+==== Tips & Tricks ====
+  *I experienced: A Tryton 3.4 client may just communicate with a Trytond 3.4 server, communications with a Trytond 3.5 server is refused :-(. 
+  *Trytond uses the database, but the view and the models are defined in the file system. Each "object view"  is a Trython object. A Tryton client is used to display a view. Trytond is parsing the XML files and stores the infos in its database.
+  *"Trytond - u mymodule anothermodule athirdmodule - d mydatabase", "Trytond - u all - d mydatabase" 
+    *checks the module directory/directories for Python .py files, checks all XML files for changes and updates the database with the changes in XML files. Trytond parses all .py Python files to detect if there are new fields ( = global class variables ) in the .py Python files.
+    *It makes use of the introspective Features of Python, to get variables from global classes.
+      *[[http://www.ibm.com/developerworks/library/l-pyint/|IBM Developerworks "Guide to Python introspection. How to spy on your Python objects"]].
+      *[[http://www.stackoverflow.com/questions/1006169/how-do-i-look-inside-a-python-object|StackOverflow "introspection - How do I look inside a Python object?"]].
+      *[[http://en.wikipedia.org/wiki/Type_introspection|EN.Wikipedia "Type introspection"]] -> Python.
+===== Resources =====
+  *The developers of "TinyERP" and its successors think of their software to be a framework, not a product to be used by b2b end users. They expect that other developers download from CVS system and do not ask for packages.
+  *[[http://www.youtube.com/watch?v=9bJuEy2fHwQ|YouTube "What Is Tryton Platform and Tryton ERP?"]].
+  *Google Groups.
+    *[[http://groups.google.com/forum/#!topic/tryton-dev/Sq-zyE31LW0|Google Groups "tryton-dev", article "Tryton 3.4 windows 7 x64 Error"]].
+      *"The solution to the linked message is to run trytond using the UTC timezone".
+      *"The client use the timezone of the host it is running on for displaying. So if it is the same machine, you are in trouble".
+    *[[http://groups.google.com/forum/#!topic/tryton-de/sFYV4Dom8N4|Google Groups "tryton-de", article "Tryton nach Installation zum Laufen bringen"]].
+      *"Wenn du Tryton (den Client) und Neso (das kleine All-in-One-Paket) installiert hast, hast du auch automatisch den Server mitinstalliert". 
+      *"Es gibt 3 Passwörter":
+        -"der admin für den Tryton server, der wird in der trytond.conf festgelegt und ist sozusagen der Superuser und Datenbanken etc. in Tryton anzulegen oder zu löschen".
+        -"ebenfalls in tryton.conf wird eine Benutzer angelegt, mit dem sich der Tryton-Server mit der Datenbank verbindet. Also ein Datenbank-Nutzer".
+        -"beim Anlegen der Datenbank ein Admin für das Unternehmen/Datenbank, der administrative Rechte über das Frontend hat".
+  *[[http://en.wikipedia.org/wiki/Tryton|EN.Wikipedia "Tryton"]], [[http://de.wikipedia.org/wiki/Tryton|DE.Wikipedia "Tryton"]].
+  *[[http://en.wikipedia.org/wiki/Odoo|EN.Wikipedia "Odoo"]].
+  *[[http://en.wikipedia.org/wiki/Comparison_of_Tryton_and_Odoo|EN.Wikipedia "Comparison of Tryton and Odoo"]].
+  *[[http://en.wikipedia.org/wiki/GNU_Health|EN.Wikipedia "GNU Health"]], [[http://de.wikipedia.org/wiki/GNU_Health|DE.Wikipedia "GNU Health"]].
+===== Forums, Newsgroups =====
+  *[[http://groups.google.com/group/tryton|Google Groups "tryton"]], [[http://groups.google.com/group/tryton-de|Google Groups "tryton-de"]], [[http://groups.google.com/group/tryton-dev|Google Groups "tryton-dev"]], [[http://groups.google.com/group/tryton-announce|Google Groups "tryton-announce"]], [[http://groups.google.com/group/tryton-commit|Google Groups "tryton-commit"]], [[http://groups.google.com/group/tryton-contrib|Google Groups "tryton-contrib"]].
+  *[[http://www.odoo.com/forum/|Odoo Forum]].
+{{tag>"enterprise resource planning" erp tinyerp tiny openerp open odoo tryton}}
+<footnote_navi_en>

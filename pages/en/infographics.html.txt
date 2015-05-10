@@ -1,0 +1,172 @@
+====== [hemmerling] Data Visualisation with Infographics ======
+Related pages:
+  *[[arts.html|Arts and Design]].
+  *[[bíntelligence.html|Business Intelligence]].
+  *[[diagrams.html|Diagrams & Graph Visualization]].
+  *[[metro.html|Flat Design]].
+  *[[geodata.html|Geographical Data / Spatial Data for Geographical Information Systems ( GIS )]].
+  *[[instrumentation.html|Instrumentation]].
+  *[[imageprocess.html|Image Processing]].
+  *[[mathengineering.html|Mathematical Engineering]].
+  *[[mathworks.html|MathWorks ( MATLAB / Simulink )]].
+  *[[ni.html|National Instruments ( Labview, DIAdem )]].
+  *[[mathcad.html|PTC Mathcad]].
+  *[[sohosoftware.html|Small Office & Home Office ( SOHO ) Software]].
+  *[[usability.html|Usability]].
+===== Events =====
+  *"TDWI Roundtable Hannover", with the topic "Visualisierung von Daten" ( "Data visualisation" ) by  [[http://www.blueforte.com/|BLUEFORTE GmbH]], [[http://www.bissantz.de/|Bissantz & Company GmbH]], [[http://www.tdwi.eu/|TDWI Germany e.V.]] and [[http://www.fh-hannover.de/|Fachhochschule Hannover, University of Applied Sciences and Arts]] on 2013-09-05 in Hannover, Germany. 
+===== Design Rules for Data Interpretation =====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3570101037/hemmerling-21|Gerd Gigerenzer: "Risiko: Wie man die richtigen Entscheidungen trifft"]], [[http://www.amazon.de/exec/obidos/ASIN/0670025658/hemmerling-21|Gerd Gigerenzer: "Risk Savvy: How to Make Good Decisions"]].
+    *I listended to the speech "Risiko: Wie man die richtigen Entscheidungen trifft" of Gerd Gigerenzer at the conference [[http://www.volkswagenstiftung.de/nc/veranstaltungen/veranstdet/ttback/41/article/couragiert-risikobereit-fehlertolerant-wie-kreativ-und-innovativ-ist-europa.html|Volkswagenstiftung "Couragiert – Risikobereit – Fehlertolerant: Wie kreativ und innovativ ist Europa?"]], 2014-09-19 - 2014-09-20.
+    *Basic rules: 
+      -Use "relative frequencies" instead of "likelihood". 
+        *Example: If you are accused to have committed a crime, as your DNA looks like the one found at the crime scene in Berlin, Germany,
+          *With likelihood "The error chance that the DNA is not yours, is 1/100000", so obviously you claim that the error chance is quite little.
+          *With relative frequencies "In Berlin are 3.4 million residents, so from point of view of statistics, there are 34 people with your DNA, you are just one of them, and one of the 33 others might be the wanted criminal" :-).
+      -Do not practice neither "defencive decision making" nor "safeguard culture" ( German: "Absicherungskultur" ).
+
+===== Design Rules for Data Visualisation =====
+
+==== Rules ====
+  -Show percentaged changes and not just absolut values.
+  -Percentaged changes may often best visualized by logarithm scales ( as known from ancient "logarithm paper", used by engineers in control theory )
+  -Avoid traffic light, where red, yellow, green is automatically assigned to a status according to levels / thresholds.
+  -For visualisation of a graduation of values, do not use colors, but tonal values, as the human viewer can't properly figure out the order of enumeration of colors.
+  -For treemaps, use red-green or yellow-blue as colors.
+  -Avoid tachometers.
+==== Design Experts and Design Rule Collections in Literature =====
+  *[[http://www.bissantz.de/|Bissantz & Company GmbH]].
+    *[[http://www.butterwegge.de/|Gerald Butterwegge]], [[http://www.xing.com/profiles/Gerald_Butterwegge|XING "Gerald Butterwegge"]].
+    *Blog [[http://blog.bissantz.de/|Nicolas Bissantz "'Me, myself und BI' Bissantz denkt nach"]].
+      *[[http://blog.bissantz.de/tod-der-businessgrafik|Nicolas Bissantz "'Me, myself und BI' Bissantz denkt nach" - "Tod der Businessgrafik"]].
+    *Blog [[http://www.bella-beraet.de/|Bella berät - Bemerkungen des Bürohunds von Bissantz. Die meisten Diagramme sind für die Katz]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3000303022/hemmerling-21|Nicolas Bissantz "Bella berät: 75 Regeln für bessere Visualisierung"]].
+      *The acompanying website [[http://www.bella-buch.de/|Bella berät. 75 Regeln für bessere Visualisierung. Das Buch zum Blog von Nicolas Bissantz und Bella]].
+    *Article "Dr. Nicolas Bissantz: "Tod dem Diagramm?" in [[http://www.wirtschaftsinformatik-archiv.de/|Wirtschaftsinformatik & Management]], issue 05/2011, pages 54-65.
+      *[[http://www.springerprofessional.de/tod-dem-diagramm/2847106.html|Springer Professional "Dr. Nicolas Bissantz: Tod dem Diagramm?. Zeitschriftenartikel: Wirtschaftsinformatik & Management, Ausgabe 05/2011, Seite 54-65"]].
+  *Stephen Few.
+    *[[http://www.perceptualedge.com/|Perceptual Edge]].
+    *Blog [[http://www.perceptualedge.com/blog/|Stephen Few "Visual Business Intelligence"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1938377001/hemmerling-21|Stephen Few "Information Dashboard Design: Displaying Data for At-A-Glance Monitoring"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0970601972/hemmerling-21|Stephen Few "Show Me the Numbers: Designing Tables and Graphs to Enlighten"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0970601980/hemmerling-21|Stephen Few "Now You See It: Simple Visualization Techniques for Quantitative Analysis"]].
+  *"International Business Communication Standard (IBCS)" ( formerly: "Hichert Notation" ).
+    *The organisation [[http://www.i-bcs.org/|International Business Communication Standards]].
+    *[[http://www.hichert.com/en/|HICHERT+PARTNER AG]] -  Prof. Dr. Rolf Hichert.
+      *[[http://www.hichert.com/en/success|HICHERT+PARTNER AG "SUCCESS RULES"]].
+      *The free PDF poster [[http://www.hichert.com/en/shop/posters/203|HICHERT+PARTNER AG "SUCCESS RULES Poster"]].
+      *[[http://www.youtube.com/user/HICHERT?feature=watch|YouTube Channel "HICHERT+PARTNER AG"]].
+      *[[http://www.go-with-us.de/tag/international-business-communication-standards/|go-with-us.de – kostenloses Presseportal. Der Presseverteiler für Public Relations und Pressemitteilungen "HICHERT+PARTNER AG: Eine einheitliche Sprache für die Geschäftskommunikation?"]].
+      *[[http://www.nachrichten.net/details/159854/Eine_einheitliche_Sprache_f%C3%BCr_die_Gesch%C3%A4ftskommunikation_.html|Nachrichten.net - Informationen rund um die Uhr "HICHERT+PARTNER AG: Eine einheitliche Sprache für die Geschäftskommunikation?"]].
+    *[[http://www.controller-institut.at/bildungsprogramm/hichertR-success-erfolgreiche-berichte-und-praesentationen-575bb8/|Contrast Management-Consulting GmbH "HICHERT SUCCESS: erfolgreiche Berichte und Präsentationen"]].
+    *[[http://www.ixto.de/|ixto GmbH - einfach entscheiden]].
+      *[[http://www.ixto.de/de/leistungen/visualisierung-nach-prof-hichert/|ixto GmbH "Visualisierung nach Prof. Hichert"]].
+      *Blog [[http://www.ixto.de/blog/|ixto Blog]].
+    *[[http://www.jedox.com/de/unternehmen/news/interview-mit-prof-dr-hichert-die-success-charts.html|Jedox AG "Interview mit Prof. Dr. Hichert"]].
+    *[[http://www.plus-it.ch/dienstleistungen/consulting-portfolio/ibcs-hichert/|plus-IT AG "International Business Communication Standard (IBCS)"]] - "IBCS, früher Hichert Notation...".
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3864900441/hemmerling-21|Jörn Kohlhammer, Dirk U. Proff, Andreas Wiener "Visual Business Analytics: Effektiver Zugang zu Daten und Informationen"]].
+    *Blog [[http://www.informieren-statt-dekorieren.de/|VISUAL BUSINESS ANALYTICS BLOG]].
+    *[[http://www.blueforte.com/|BLUEFORTE GmbH]].
+    *[[http://www.xing.com/profiles/Andreas_Wiener5|XING "Andreas Wiener"]].
+  *"Visual Analytics".
+    *[[http://www.vis.uni-konstanz.de/|Universität Konstanz,Informatik und Informationswissenschaft, Arbeitsgruppe Datenanalyse und Visualisierung]].
+    *[[http://www.visual-analytics.eu/|visual-analytics.eu — The Visual Analytics Portal]].
+      *The free PDF book [[http://www.visual-analytics.eu/book/aboutbook/|Daniel Keim, Jörn Kohlhammer, Geoffrey Ellis and Florian Mansmann "Mastering the Information Age. Solving Problems with Visual Analytics"]].
+    *[[http://www.vismaster.eu/book/|VisMaster. Visual Analytics - Mastering the Information Age]].
+      *The free PDF book [[http://www.vismaster.eu/book/|Daniel Keim, Jörn Kohlhammer, Geoffrey Ellis and Florian Mansmann "Mastering the Information Age. Solving Problems with Visual Analytics"]].
+==== Graphical Design Rules for Data Visualisation ====
+  *See [[arts.html|Arts and Design]].
+==== Design of Human Machine Interfaces for Process Control and Automation ====
+=== Literature ===
+  *[[http://www.asmconsortium.net/|ASM Consortium]].
+    *[[http://www.asmconsortium.net/deployment/guidelines|ASM Consortium "ASM Guidelines Documents"]].
+      *Book [[http://www.amazon.com/gp/product/1492875635/hemmerling-21|ASM Consortium, Peter Bullemer, Dal Vernon Reising "Effective Console Operator HMI Design: Second Edition 2013"]].
+      *Book [[http://www.amazon.com/gp/product/1440431647/hemmerling-21|ASM Consortium, Peter Bullemer, Dal Vernon Reising, Catherine Burns, John Hajdukiewicz, Jakub Andrzejewski "Effective Operator Display Design"]], 2008.
+      *PDF Slides [[http://www.asmconsortium.net/Documents/2009%20ASM%20Displays%20GL%20Webinar%20v014.pdf|Dal Vernon Reising, Peter Bullemer: "An Introduction to the ASM Guidelines Effective Operator Display Design"]], 2009.
+  *Bill Hollifield, Eddie Habibi:
+    *Book [[http://www.amazon.com/gp/product/0977896919/hemmerling-21|Bill Hollifield, Dana Oliver, Ian Nimmo, Eddie Habibi "The High Performance HMI Handbook"]].
+    *Book [[http://www.amazon.com/gp/product/0977896927/hemmerling-21|Bill Hollifield, Eddie Habibi "The Alarm Management Handbook"]].
+      *[[http://www.processautomation.mwgroup.net/de/alarmmanagement-handbuch.html|M+W Process Automation GmbH - Handbücher]] - German edition "Alarmmanagement-Handbuch".
+    *Book [[http://www.amazon.com/gp/product/193600755X/hemmerling-21|Bill Hollifield, Eddie Habibi "Alarm Management: A Comprehensive Guide"]].
+  *Book [[http://www.amazon.com/gp/product/1606500031/hemmerling-21|Douglas Rothenberg "Alarm Management for Process Control"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1938377001/hemmerling-21|Stephen Few "Information Dashboard Design: Displaying Data for At-A-Glance Monitoring"]].
+=== Special Design Aspect "Situation Awareness" / "Situational Awareness" ===
+  *[[http://www.youtube.com/user/wonderwarehmi|YouTube Channel "Wonderware HMI SCADA"]].
+    *[[http://www.youtube.com/playlist?list=PLJq4rR8tWINxnM7UtKnlNjN-eg7P48UPv|YouTube Playlist "Situational Awareness"]].
+    *[[http://www.youtube.com/watch?v=aSBSLYx3rwA&list=PLJq4rR8tWINxnM7UtKnlNjN-eg7P48UPv|YouTube "InTouch 2014 Situational Awareness Design Elements"]].
+  *[[http://en.wikipedia.org/wiki/Situation_awareness|EN.Wikipedia "Situation awareness"]], [[http://de.wikipedia.org/wiki/Situationsbewusstsein|DE.Wikipedia "Situationsbewusstsein"]].
+=== Resources ===
+  *[[http://www.eemua.co.uk/|EEMUA - The Engineering Equipment and Materials Users’ Association]].
+    *EEMUA Recommendation "191 Alarm Systems - A Guide to Design, Management and Procurement - Edition 3", ISBN 0 85931 192 2.
+    *[[http://de.wikipedia.org/wiki/Engineering_Equipment_and_Materials_Users_Association|DE.Wikipedia "Engineering Equipment and Materials Users Association"]].
+  *[[http://en.wikipedia.org/wiki/Alarm_management|EN.Wikipedia "Alarm management"]].
+===== Design Elements for Data Visualisation =====
+==== Standard Elements ====
+  *Standard Graphics of office, business intelligence and mathematical engineering software -> See "Related pages".
+==== Bode Diagram ====
+  *[[http://en.wikipedia.org/wiki/Bode_plot|DE.Wikipedia "Bode plot"]],  [[http://de.wikipedia.org/wiki/Bode-Diagramm|DE.Wikipedia "Bode-Diagramm"]].
+==== Conditional Formatting of Microsoft Excel 2013 ====
+  *[[http://www.contextures.com/xlCondFormat03.html|Contextures "Excel Conditional Formatting -- Examples"]].
+  *[[http://excelsemipro.com/2011/04/excel-tables-styles-conditional-formatting-and-data-validation/| "Excel Tables – Styles, Conditional Formatting and Data Validation"]].
+  *[[http://www.techrepublic.com/blog/10-things/10-cool-ways-to-use-excels-conditional-formatting-feature/|Techrepublic "10 cool ways to use Excel's conditional formatting feature"]].
+  *[[http://www.wikihow.com/Apply-Conditional-Formatting-in-Excel|wikiHow to do anything "How to Apply Conditional Formatting in Excel"]].
+==== Graphical Table ====
+  *[[http://blog.bissantz.com/graphic-tables|Nicolas Bissantz "'Me, myself und BI' Bissantz denkt nach" - "Graphic tables … simply breathtaking!"]].
+  *[[http://www.jpgraph.net/|JpGraph - Most powerful PHP-driven charts]].
+    *[[http://www.jpgraph.net/download/manuals/chunkhtml/ch19.html|JpGraph - Most powerful PHP-driven charts "Chapter 19. Graphical tables"]].
+  *TIBCO Spotfire.
+    *[[http://spotfirecommunity.tibco.com/community/blogs/tips/archive/2011/12/10/information-at-a-glance-with-graphics-tables.aspx|TIBCO Spotfire Community "Tip of the Week: Information At a Glance with Graphics Tables"]].
+    *[[http://spotfirecommunity.tibco.com/community/Themes/Blogs/leanandgreen/postiphone.aspx?PostID=14132|TIBCO Spotfire Community Blog  "Lean and Green" - "Adding Bullet Graphs to Graphical Tables and Text Areas in TIBCO Spotfire"]]
+    *[[http://stn.spotfire.com/spotfire_client_help/gt/gt_what_is_a_graphical_table.htm|TIBCO Spotfire "What is a Graphical Table?"]].
+==== Geography ====
+  *[[http://edge.org/memberbio/kai_krause|Kai Krause]].
+    *[[http://edge.org/documents/Edge-Serpentine-MapsGallery/large-4.html|Edge - Serpentine Maps Marathon "The True Size of Africa – Kai Krause"]]
+    *[[http://en.wikipedia.org/wiki/Kai_Krause|EN.Wikipedia "Kai Krause"]], [[http://de.wikipedia.org/wiki/Kai_Krause|DE.Wikipedia "Kai Krause"]].
+  *[[http://www.calabarboy.com/2010/10/11/the-true-size-of-africa-kai-krause/|Reginald Efiom Bassey "The True Size of Africa – Kai Krause"]], 2010-10-11.
+  *[[http://www.economist.com/blogs/dailychart/2010/11/cartography|The Economist "Cartography. The true true size of Africa"]], 2010-11-10.
+
+==== Micro Charts, Microcharting ====
+  *[[http://chandoo.org/wp/2008/09/05/microcharting-excel-howto/|Chandoo.org - Become awsome in Excel "Microcharting in Excel – 7 Alternatives Reviewed"]].
+  *[[http://www.inovista.com/overview/MicroCharts.html|Innovista Components "Micro Charts Suite"]].
+==== Semantical Zoom of Windows 8 UI ====
+  *[[http://msdn.microsoft.com/de-de/library/windows/apps/hh465319.aspx|Microsoft MSDN "Richtlinien für semantischen Zoom"]].
+  *[[http://msdn.microsoft.com/de-de/library/windows/apps/hh465492.aspx|Microsoft MSDN "Schnellstart: Hinzufügen von SemanticZoom-Steuerelementen (Windows Store-Apps mit JavaScript und HTML)"]].
+==== Sparklines of Microsoft Excel 2010 ====
+  *How to work with Sparklines: 
+    *Get a clue about the stream of data by internalizing the visual patter.
+    *Compare the Sparkline patterns of different streams of data, visually!
+  *[[http://www.edwardtufte.com/|Edward Tufte]] - The creator of Sparklines.
+    *[[http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0001OR|Edward Tufte "Sparkline theory and practice"]].
+  *[[http://www.bissantz.com/sparklines/|Bissantz & Company GmbH "Sparklines. Another masterpiece of Edward Tufte"]].
+  *[[http://en.wikipedia.org/wiki/Sparkline|EN.Wikipedia "Edward Tufte"]], [[http://de.wikipedia.org/wiki/Edward_Tufte|DE.Wikipedia "Edward Tufte"]].
+  *[[http://en.wikipedia.org/wiki/Edward_Tufte|EN.Wikipedia "Sparkline"]], [[http://de.wikipedia.org/wiki/Sparkline|DE.Wikipedia "Edward Tufte"]].
+==== Tree Map / Treemap ====
+  *[[http://en.wikipedia.org/wiki/Treemapping|EN.Wikipedia "Treemapping"]], [[http://de.wikipedia.org/wiki/Tree_Map|DE.Wikipedia "Tree Map"]].
+  *[[http://www.cs.umd.edu/hcil/treemap-history/|University of Michigan, Ben Shneiderman "Treemaps for space-constrained visualization of hierarchies"]].
+===== Infographics Software =====
+==== Free Software ====
+  *The free tool [[http://www.cs.umd.edu/hcil/treemap/|Univeristy of Maryland, Human-Computer Interaction Lab "Treemap"]] for Java.
+==== Frameworks ====
+  *[[http://docs.oracle.com/javase/7/docs/api/java/util/TreeMap.html|Java SE 7 "java.util - Class TreeMap<K,V>]].
+  *[[http://developers.google.com/chart/interactive/docs/gallery/treemap|Google Charts "Visualization: Treemap"]].
+===== Visual Management =====
+  *[[http://www.targetprocess.com/|Targetprocess Inc.]].
+    *Speech [[http://www.agilewh.de/visual-management/|Agile Wednesday "Visual Management"]], 2014-02-18.
+    *Blog [[http://www.targetprocess.com/blog/|Targetprocess Inc. "Edge of Chaos. Agile Development Blog. Scrum, Lean, Kanban, Visualization, User Experience, IT Lifestyle]].
+      *Blog [[http://www.targetprocess.com/blog/category/visualization|Targetprocess Inc. "Edge of Chaos. Agile Development Blog. Scrum, Lean, Kanban, Visualization, User Experience, IT Lifestyle - Category "visualization"]].
+      *[[http://www.targetprocess.com/articles/information-visualization/|Targetprocess Inc. "Patterns for Information Visualization"]].
+      *[[http://www.targetprocess.com/articles/visual-encoding.html|Targetprocess Inc. "Visual Encoding"]].
+      *[[http://www.targetprocess.com/articles/visual-specifications.html|Targetprocess Inc. "(Un)Visual Specifications "]] - "Visual Specifications (Bonus)". 
+===== Resources =====
+  *[[http://www.ragan.com/Main/Articles/45501.aspx|ragan.com - news and ideas for communications "7 common problems with infographics. Infographics are booming, but heed these tips before you jump on the bandwagon and create one of your own"]].
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/Charles_Joseph_Minard|EN.Wikipedia "Charles Joseph Minard"]], [[http://de.wikipedia.org/wiki/Charles_Joseph_Minard|DE.Wikipedia "Charles Joseph Minard"]].
+    *[[http://en.wikipedia.org/wiki/William_Playfair|EN.Wikipedia "William Playfair"]], [[http://de.wikipedia.org/wiki/William_Playfair|DE.Wikipedia "William Playfair"]].
+    *[[http://en.wikipedia.org/wiki/John_Snow_%28physician%29|EN.Wikipedia "John Snow (physician)"]], [[http://de.wikipedia.org/wiki/John_Snow_%28Arzt%29|DE.Wikipedia "John Snow (Arzt)"]].
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/Infographic|EN.Wikipedia "Infographic"]], [[http://de.wikipedia.org/wiki/Informationsgrafik|DE.Wikipedia "Informationsgrafik"]].
+===== Forums, Newsgroups =====
+  *[[http://www.hichert.com/en/community|HICHERT+PARTNER Community]].
+  *[[http://www.perceptualedge.com/discussion.htm|Perceptual Edge - Discussion]].
+{{tag>"data visualisation" data visualisation infographics infographic}}
+<footnote_navi_en>

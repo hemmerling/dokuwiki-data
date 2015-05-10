@@ -1,0 +1,15 @@
+====== [hemmerling] Visualisierung eines Frequenzgangs mit LabVIEW ======
+===== Projekt-Auftrag =====
+Visualisierung eines Frequenzgangs mit LabVIEW ( 2004-09-20 - 2005-02-25 ).
+===== Projekt-Aufgabe =====
+  -Inbetriebnahme der etwas älteren, nicht mehr vertriebenen Digitalmultimeter mit serieller Schnittstelle an einem Intel-PC mit Win98SE / WinNT / W2k / WinXP Betriebssystem.
+    *Voltcraft M-3610D  ( Conrad # 10 66 40 ).
+    *Voltcraft ME-42 ( Conrad # 12 01 30 ).
+  -Inbetriebnahme eines Signalgenerators „Agilent Technologies / Hewlett-Packard 33120A“ über IEC-Bus am selben Intel-PC
+  -Anpassung der Software „Labview 7“, so daß Daten von einem der Digitalmultimeter gelesen werden können. Treibersuche im Internet und / oder. Modifikation eines virtuellen Labview-Treibers, z.B. von „serialComunication.vi“
+  -Installation des Labview-Treibers für den Signalgenerator und Ansprechen des  Signalgenerator aus Labview heraus.
+  -Darstellung eines Spannungs-Frequenzgangs. Entwicklung einer Labview-Anwendung durch Modifikation vorhandener Beispiel-Anwendungen, mit der sich mit Hilfe der oben genannten Geräte ein Spannungs-Frequenzgang aufnehmen und darstellen läßt.
+===== Projekt-Ergebnis =====
+  *LabVIEW-Projekt "Frequenzgang" für die Messdatenerfassungs-Software LabVIEW.
+{{tag>Arbeitserfahrung Software}}
+<footnote_navi_de>

@@ -1,0 +1,226 @@
+====== [hemmerling] Project Management Software & Software to be used in Projects ======
+Related Topics:
+  *[[pmanagement.html|Project Management]].
+  *[[groupware.html|Team Software, Collaboration Software, Groupware & Application Lifecycle Management]].
+  *[[sdevtools.html|Software Development Tools]].
+===== Classical Project Management Software =====
+  -The free Eclipse-based [[http://www.avenqo.com/|Avenqo PEP Community Edition]] for Java - "Avenqo PEP, the Project Engineering Platform". You have to apply for a free licence. You are asked to do so, by the application. 
+    *Support of the complete development by various integrated functionalities:
+      ***Requirements Management**.
+      *Test Management.
+      *Collaboration Management.
+    *Sample Project "Funny Car" -  user: "Admin", password: "admin".
+  -The free feature-limited [[http://www.braintool.com/a_plan/downloads.html|braintool software GmbH "A-Plan Free"]] for Windows.
+  -[[http://www.advancedtimereports.com/|Advanced Time Reports]] for Windows - "An intuitive time tracking & project management solution that will help you increase your billable hours by better managing all your projects, clients and working hours".
+    *ATR Personal.
+      *[[http://www.advancedtimereports.com/atr_personal.asp|Advanced Time Reports: Personal Edition]] - "<del>ATR Personal has been discontinued as of version 8. Please use ATR Professional or ATR Premier for your time tracking needs</del>", "Download free Advanced Time Reports Personal Edition today and start enjoying your work even more!" -> ATR Personal (FREE) v9.3.8 Setup.
+      *[[http://www.finaldownload.com/project_management_tools_advanced_time_reports_personal-14456-download.html|Finaldownload "Download of Advanced Time Reports Personal 9.7.8"]] - "fully functional free version of Advanced Time Reports Personal Edition" -> ATR Personal (FREE) v9.3.8 Setup, not v9.7.8.
+    *ATR Web Personal.
+      *Once there was a free "ATR Web Personal" edition.
+      *The free service [[http://www.getatr.com/|getATR]] - "A FREE ONLINE Service which helps you to manage your projects, receive updates, create reports and view your schedules - all remotely from any place in the world. GetATR is based on Advanced Time Reports Web - web-application with advanced functionality, reports, calendar, rounding rules, comparing clients and projects to each other".
+  -The free "Cando Free" / "Can Do Free" by [[http://de.candoprojects.de/|Can Do GmbH]].
+    *[[http://de.candoprojects.de/projektmanagement-software-fur-den-unternehmensweiten-einsatz/442|Can Do "Projektmanagement-Software für den unternehmensweiten Einsatz"]] - "Cando bietet darüber hinaus eine kostenlose, eingeschränkt nutzbare „Freeware“ für kleine Unternehmen an. Über 5.000 Interessenten haben die „Freeware“ bereits von der Can Do Webseite downgeloadet und installiert", 2008-01-24.
+    *[[http://www.brothersoft.com/cando-project-intelligence-52251.html|Brothersoft "Cando Free 3.1"]], for 2 users, can handle up to 2 projects. If you want to start a third project, you either need another ( virtual ) PC with a fresh installation of cando, or you must delete one of the two projects. "cando free" 3.1 is a Java 1.4.2 application for W2k, WinXP only. Minimum screen resolution: 1024x768. 
+    *Unique selling proposition ( USP ): With CanDo, you can do diffuse planning :-)
+  -The free [[http://codegrid.tripod.com/|CodeGrid Software "Quick2Do"]] for Windows - "Offers you a fast and simpler method of recording your to do list".
+  -The OpenSource [[http://www.ganttproject.biz/|GanttProject]], [[http://ganttproject.sourceforge.net/|Sourceforge "GanttProject"]], [[http://www.sourceforge.net/projects/ganttproject/|Sourceforge "GanttProject"]].
+  -The free 10-users [[http://www.journyx.com/gendl3.html|Journyx Timesheet]] for Windows.
+  -The OpenSource [[http://pmanage.sourceforge.net/|Sourceforge "Manage-XPS"]],  [[http://www.sourceforge.net/projects/pmanage/|Sourceforge "Manage-XPS"]].
+  -The free organizer [[http://www.secureaction.com/memoirslite/|Memoirs2000 Lite]] for Windows.
+  -The free ( 1-user edition ) [[http://www.microtool.de/instep/|MicroTOOL in-Step Personal Edition]] for Windows #.
+    *in-Step can be used to collect and handle **requirements** !
+    *[[http://www.microtool.de/instep/de/editionen.asp|MicroTOOL "Welche Edition des Projektmanagement-Systems in-Step ist für Sie die Richtige?"]].
+    *[[http://www.microtool.de/instep/de/prod_pm_edition.asp|in-Step CoreProcess Edition]].
+      *[[http://www.microtool.de/instep/de/prod_scrum_edition.asp|in-Step Scrum Edition]] for WinXP. It's the only edition with a special "Task Board".
+        *in-Step Scrum Edition V4.6 is the latest edition for W2k. 
+        *Instructions how to install in-Step Scrum Edition V4.7 on W2k:
+          *Please ask the [[http://www.microtool.de/company/de/impressum.asp|Microtool support]] to send you the "Scrum Project Template" ( scrum.zip ).
+          *Install the [[http://www.microtool.de/instep/de/prod_pm_edition.asp|in-Step CoreProcess Edition]].
+          *Copy the contents of the "Scrum Project Template" archive into the subdirectory "Templates/Project".
+          *With the so-generated in-Step Scrum Edition V4.7 without .NET 3.5, you don´t have the functionality of the "Task Board".
+          *With in-Step Scrum Edition V4.6, the "Task Board" did not make use of .NET 3.5.
+      *[[http://www.microtool.de/instep/de/prod_vxt_edition.asp|in-Step V-Modell XT Edition]].
+      *[[http://www.microtool.de/instep/de/instep_prince.asp|in-Step PRINCE2 Edition]].
+      *[[http://www.microtool.de/instep/de/prod_spice_edition.asp|in-Step SPICE Edition for Automotive]].
+      *[[http://www.microtool.de/instep/de/instep_hermes_edition.asp|in-Step HERMES Edition]].
+      *[[http://www.microtool.de/instep/de/instep_actif_edition.asp|in-Step actiF Edition]].
+      *in-Step V-Modell 97 Edition (discontinued).
+    *Blog [[http://www.microtool.de/blog/|microTOOL Blog]].
+      *Video [[http://microtool.de/blog/post/Ein-Tool-unterschiedliche-Prozesse-e28093-maximale-Unterstutzung-fur-alle-Projekte-mit-in-Step.aspx|microTOOL Blog "Videomitschnitt vom Workshop "Erfolgreiches Projektmanagement mit in-Step"]], 2012-10-09.
+    *[[http://www.microtool.de/service/in-Step/47/29/AdministratorHandbuch.pdf|in-Step AdministratorHandbuch]] ( PDF ).
+  -The OpenSource [[http://www.openproj.org/|OpenProj]], [[http://openproj.sourceforge.net/|Sourceforge "OpenProj"]],  [[http://www.sourceforge.net/projects/openproj/|Sourceforge "OpenProj"]], [[http://www.serena.com/products/openproj/|SERENA Software, Inc. "OpenProj"]].
+  -The OpenSource [[http://www.openworkbench.org/|Open Workbench]] - "Open Source Project Scheduling for Java on Windows. Powered by [[http://www.ca.com|CA]]" #. 
+    *The offline help of "Open Workbench" is at "<path_to_install directory>\help\index.htm".
+  -The free [[http://www.wischnewski-online.de/proab.htm|Erik Wischnewski "ProjectManager PROAB"]] for Windows.
+  -The free [[http://www.gila-tools.de/free1.htm|Gino Langhans, gila-tools Software und Automation "ProMa FREEWARE"]] for Windows.
+  -The OpenSource [[http://www.project-open.com/|]project-open[]] - "Open Source Solution for Project Management".
+  -[[http://www.senomix.com/index.php?page=downloads|Senomix Timesheets]] for Windows.
+    *A fully functional Evaluation Version is provided free of charge for 2 users and up to 10 timesheets. 
+    *Legacy free versions work with up to 3 or even up to 5 users.
+  -The affordable commercial [[http://www.smartworks.us/|SmartWorks Enterprise Edition]] for Windows - Project Planner, Smart Tracker, Meeting Manager.
+    *The free legacy [[http://www.download3000.com/download_878.html|Project Planner-PE 2.0]] - "Personal Edition".
+    *The free legacy [[http://www.download3000.com/download_877.html|Smartworks-PE 2.0]] - "Personal Edition".
+  -The Opensource [[http://www.syntap.com/downloads.htm|Syntap Software "Time Stamp"]] for Windows - Time tracking software, "donationware" business model.
+  -The free software & free online service [[http://www.6wunderkinder.com/wunderlist/|6 Wunderkinder "Wunderlist - your free and easy-to-use task manager"]] for Windows, Linux, Android.
+===== Project Management Software for Scrum & Agile Development & eXtreme Programming (XP) =====
+  -The free [[http://www.open.collab.net/products/scrumworks/|CollabNet ScrumWorks Basic]].
+  -The OpenSource [[http://www.rubyforge.org/projects/explainpmt/|Rubyforge "eXPlain Project Management Tool"]] in Ruby & Ruby on Rails - "A web-based application built using the Ruby on Rails framework that supports the eXtreme Programming development methodology".
+  -The free ( 3-users edition ) [[http://www.scrumspec.com/|Goda Software, Inc. "SCRUM Spec"]] for Windows with .NET 2.0 - "Simple, Affordable, Agile Enterprise Project Management Software", "**Manage Requirements**, User Stories and Features backlogs".
+    *How to start a project: 
+      -Call the client, it asks for username and password.
+      -"To create a new project, enter 'new' in the User Name field. A password is not required. Click Ok".  
+      -By the project definition, you grant a user name and a password für the project manager of the project ( for subsequent logins ).
+  -The OpenSource [[http://www.icescrum.org/|IceScrum]] - "An J2EE application for using Scrum while keeping the spirit of a collaborative workspace. It also offers virtual boards with post-its for sprint backlog, product backlog and others".
+  -The OpenSource [[http://mase.sourceforge.net/|Sourceforge "MASE: Agile Software Engineering"]], [[http://www.sourceforge.net/projects/mase/|Sourceforge "MASE: Agile Software Engineering"]] - "The MASE project investigates methods to support the coordination and executable acceptance testing of software projects".
+    *Book [[http://www.amazon.de/gp/product/3540440240/hemmerling-21|Don Wells, Lauris Williams: "Extreme Programming and Agile Methods - XP/Agile Universe 2002"]] - Article "Supporting Distributed Extreme Programming" by Frank Maurer.
+  -The free [[http://www.scrumforteamsystem.com/|EMC Consulting "Scrum for Team System"]] - "Agile Software Development Methodology add-in" for [[http://www.microsoft.com/visualstudio/|Visual Studio Team System]] on Windows.
+  -Eclipse.
+    *The OpenSource [[http://www.eclipse.org/mylyn/|Eclipse Plugin "Mylyn"]] - "The task and application lifecycle management (ALM) framework for Eclipse".
+      *[[http://en.wikipedia.org/wiki/Mylyn|EN.Wikipedia "Mylyn"]], [[http://de.wikipedia.org/wiki/Mylyn|DE.Wikipedia "Mylyn"]].
+      *[[http://www.tasktop.com/|Tasktop - Task-focused productivity software built on Eclipse Mylyn]].
+      *[[http://www.tasktop.com/blog/|Tasktop Blog]].
+      *[[http://www.xing.com/profile/Benjamin_Muskalla|XING "Benjamin Muskalla"]].
+    *The OpenSource [[http://www.eclipse.org/epf/tool_component/tool_index.php|Eclipse "EPF Composer"]].
+      *[[http://www.eclipse.org/epf/downloads/praclib/praclib_downloads.php|Eclipse "EPF Practices Libraries"]].
+        *Sample Libraries for "OpenUP", "Scrum", "XP".
+      *Blog [[http://blog.eisele.net/2009/01/eclipse-process-framework-search-with.html|Markus Eisele "Enterprise Software Development with Java" - "Eclipse Process Framework - Search with published war file"]].
+      *[[http://www.c-lab.de/|C-Lab]].
+        *[[http://www.c-lab.de/|C-Lab "C-LAB Report 2009-12-11 - Prozessmodellierung mit dem Eclipse Process Framework"]].
+          *[[http://www.c-lab.de/fileadmin/redactors/data/Services_Downloads/C-LAB_Reports/C-LAB-TR-2009-6_Prozessmodellierung_mit_dem_Eclipse_Process_Framework.pdf|Elke Löschner "Prozessmodellierung mit dem Eclipse Process Framework"]] ( PDF ).
+          *[[http://www.timmo.org/|TIMMO – Timing Model]] - "TIMMO develops a common, standardised infrastructure for the handling of timing information during the design of embedded real-time systems in the automotive industry. This shortens the development cycle and increases its predictability".
+  -The free [[http://www.projectcards.com/|ProjectCards Free]] for Windows & Linux - "The free version of ProjectCards can be used by a team of two users and is limited to servers hosting 4 projects with a maximum of 200 cards per project. It is also not possible to edit definition of the custom fields".
+  -The OpenSource [[http://www.redmine.org/|Redmine]], written in Ruby on Rails.
+    *The online demo website [[http://demo.redmine.org/|Redmine Demo]].
+    *[[http://en.wikipedia.org/wiki/Redmine|EN.Wikipedia "Redmine"]], [[http://de.wikipedia.org/wiki/Redmine|DE.Wikipedia "Redmine"]].
+  -The OpenSource [[http://scrum.minty.org/|ScrumWiki]] in Perl for Linux & Windows.
+  -The free [[http://danube.com/scrumworks/|ScrumWorks Basic]] for Windows and Linux.
+    *[[http://danube.com/scrumworks/basic/contact|ScrumWorks Basic Free License Request Form]].
+    *[[http://danube.com/docs/scrumworks/latest/quickstart.html|ScrumWorks Basic - Documentation - Quick Start Guide]].
+    *[[http://www.danube.com/docs/scrumworks/latest/windowsinstall.html|ScrumWorks Basic - Documentation - Windows Installation]].
+    *[[http://danube.com/scrumworks/pro/support/best-practice|ScrumWorks Tutorials]].
+  -The OpenSource [[http://trac.edgewall.org/|Trac]] in Python for Linux & Windows - "An enhanced wiki and issue tracking system for software development projects", "Integrated SCM & Project Management".
+    *[[http://trac-hacks.org/wiki/ScrumBurndownPlugin|Track Hacks "Scrum Burndown in Trac"]].
+    *The online documentation [[http://trac.edgewall.org/wiki/TracGuide|TracGuide]].
+  -The OpenSource [[http://xpcgi.sourceforge.net/|Sourceforge "XPCGI"]], [[http://www.sourceforge.net/projects/xpcgi/|Sourceforge "XPCGI"]].
+    *Book [[http://www.amazon.com/gp/product/0201616416/hemmerling-21|Kent Beck: "Extreme Programming Explained: Embrace Change"]].
+  -The OpenSource [[http://www.xplanner.org/|XPlanner]], [[http://xplanner.codehaus.org/|Codehaus Foundation "XPlanner"]], [[http://xplanner.sourceforge.net/|Sourceforge "XPlanner"]], [[http://www.sourceforge.net/projects/xplanner/|Sourceforge "XPlanner"]] - "Planning and tracking tool for agile teams following XP or Scrum".
+  -The OpenSource [[http://xpweb.sourceforge.net/|Sourceforge "XPWeb"]], [[http://www.sourceforge.net/projects/xpweb/|Sourceforge "XPWeb"]] in PHP - "A web-based tool to manage eXtreme Programming projects".
+===== Just-Commercial Project Management Software =====
+  *The commercial [[http://www.microsoft.com/office/project/|Microsoft Project]].
+  *The commercial [[http://www.actano.com/|ACTANO RPlan]] can handle multi-level project dependancies. In opposite to Microsoft Project, if you accept a delay of a date, the other dates are not delayed too !
+  *The commercial server application [[http://www.projektron.de/|Projektron GmbH "Projektron BCS"]] written in Java - strong points: time estimation & time tracking, financial project effort estimation, bugtracking.
+    *[[http://www.projektron.de/bcs/editionen|Projektron GmbH "Funktionsvergleich"]].
+    *Since 2012-05-01, there is an affordable "Projektron BCS.start" entry-edition, as online service ( software-as-a-service ). Unfortunately, it does not support SCRUM :-(.
+
+===== On-Demand Online Services =====
+
+==== General Team Collaboration & Team Project Services ====
+  *See [[groupware.html|Team Software, Collaboration Software, Groupware & Application Lifecycle Management]], section "Online Collaboration Services".
+
+==== Commercial Portal Servers for Schools ====
+  *See [[cms.html|Content Management Systems ( CMS )]].
+
+==== Task and Time Management ====
+  *The free software & free online service [[http://www.6wunderkinder.com/wunderlist/|6 Wunderkinder "Wunderlist - your free and easy-to-use task manager"]] for Windows, Linux, Android.
+  *[[http://www.rememberthemilk.com/|Remember The Milk]] ( RTM ).
+    *[[http://de.wikipedia.org/wiki/Remember_The_Milk|EN.Wikipedia "Remember the Milk"]], [[http://de.wikipedia.org/wiki/Remember_the_Milk|DE.Wikipedia "Remember the Milk"]].
+  *[[http://www.producteev.com/|Producteev]] - "Online Task Management".
+  *"Google Docs" -> see [[internet02.html|Internet Services 2/2]].
+==== Project Management, Release Management, Test Management ====
+  *[[http://www.jetbrains.com/youtrack/de/agile_project_management.html|JetBRAINS YouTRACK]] - "Agiles Projekt-Management".
+    *The free software with a free 10-user pack.
+    *The commercial online service, with trial period offer.
+  *Scrumy.
+    *The free and commercial service [[http://scrumy.com/Scrumy|Scrumy]] 
+      *"The original version of Scrumy is and will always be available for free. However, we did take some time to add a few extra features which you can get by clicking the upgrade link on your project. You can upgrade for $7/month, or $5/month if you prepay for a year".
+      *With the free version, there is unlimited read/write access for anybody who knows or can "guess" the project name, i.e. the URL... :-(.
+    *The just-commercial online service [[http://www.scrumwise.com/|Scrumwise - Better Scrum]].   
+  *[[http://www.thoughtworks-studios.com/|Thoughtworks Studios]]. 
+    *The free software "Go (Agile Continuous Delivery)".
+    *The free software "Twist: Agile Software Testing".
+    *The commercial online service & commercial software "Mingle: Agile Project Management".
+==== Event Management ( of Barcamps, OpenSpaces, Conferences,.. ) ====
+  *The online service [[http://www.barcamptools.eu/|Camper - Das Barcamp-Tool]].
+
+===== Issue Trackers, Bugtrackers =====
+==== Commercial Issue Trackers, Bugtrackers ====
+  *[[http://www.omnitracker.biz/|Omnitracker]].
+==== Free Issue Trackers, Bugtrackers ====
+  *The free (1-user edition ) and commercial [[http://www.axosoft.com/|axosoft OnTime]] for WinXP with .NET 3.5 and SQL Server Express - bug tracking software with integrated help desk & project management.
+    *[[http://www.axosoft.com/ontime/legacy|axosoft OnTime Legacy Downloads]].
+      *"axosoft OnTime 2009 V9.1.4" ist the latest edition for W2k.
+    *[[http://www.microsoft.com/downloads/en/details.aspx?familyid=6C050FE3-C795-4B7D-B037-185D0506396C&displaylang=en|Microsoft Download Center "Microsoft Data Access Components (MDAC) 2.8"]].
+  *The OpenSource [[http://www.bugzilla.org/|Bugzilla]], [[http://www.freshmeat.net/projects/bugzilla/|freshmeat "Bugzilla"]] in Perl for Linux - "Proven under fire as Mozilla's bug tracking system" #.
+    *[[http://landfill.bugzilla.org/|Landfill: The Bugzilla Test Server]] - "Landfill is the home of test installations for Bugzilla. These are demo installations that you can use to 'try out' Bugzilla".
+  *The OpenSource [[http://dcl.sourceforge.net/|Sourceforge "Double Choco Latte"]], [[http://www.sourceforge.net/projects/dcl/|Sourceforge "Double Choco Latte"]] in JavaScript, PHP - "A solution for managing some IT departments including software development and call center activity", "A system for tracking bugs, changes and enhancements to software, and requests for software".
+  *The OpenSource [[http://www.gnu.org/software/gnats/|GNU GNATS]] for Linux - "The GNU bug tracking system".
+    *The OpenSource [[http://savannah.gnu.org/projects/gnatsweb|Gnatsweb]] in Perl - "The Web interface for Gnats".
+  *The OpenSource "javafreedom-bugtracker" ( [[http://bugtracker.sourceforge.net/|Bugtracker]], [[http://www.sourceforge.net/projects/bugtracker|Bugtracker]] ).
+    *Blog [[http://www.javafreedom.org/|javafreedom.org]].
+  *The OpenSource [[http://jitterbug.samba.org/|JitterBug]] - "The JitterBug project is no longer being actively maintained".
+  *The OpenSource [[http://www.mantisbt.org/|Mantis Bug Tracker ( MantisBT )]] in PHP with MySQL - "A web based bug tracking tool with integrated Wiki, chat, RSS Feeds, time tracking & much more" #.
+  *The OpenSource [[http://www.otrs.org/|OTRS - Open Source Help Desk and IT Service Management Solution]] for Windows and Linux #.
+    *OTRS ITSM modules.
+    *FAQ module.
+  *The commercial [[http://www.blume-hamann.de/phylaxnet.php|Blume % Hamann "Phylax.net"]] for Windows.
+    *The free legacy 3-users edition [[http://phylax-zeiterfassung.soft-ware.net/download.asp|soft-ware.net "Phylax Zeiterfassung 1.1.5"]].
+    *The free legacy 3-users edition [[http://www.winload.de/download/48448/Office,Business/Adressverwaltung/Phylax.1.0.0.html|winload.de "Phylax 1.0.0"]].
+  *The OpenSource [[http://scarab.tigris.org/|Scarab]], a Java Servlet - "Artifact tracking system".
+  *The free [[http://tackle.codeplex.com/|CodePlex "Tackle"]] for Windows by the "Tackle Development Team, Microsoft Game Studios – Tools and Technology Team" - "A web-based scrum tracking site the provides a rich set of features to help manage small and large teams through their cycle of scrum-based sprints. It is built using ASP.Net and SQL Server".
+  *The OpenSource [[http://trac.edgewall.org/|Edgewall "trac - Integrated SCM & Project Management"]] - "An enhanced wiki and issue tracking system for software development projects" #.
+  *The free track+, in Java - "For commercial use with more than 5 users you need to buy the full version license. There is no functional difference between the free version and the commercial Enterprise version".
+    *Track+ is built on [[http://tomcat.apache.org/|Apache Tomcat]].
+    *[[http://www.trackplus.de/|track+]] - current binary version 3.7.4.
+    *[[http://trackplus.sourceforge.net/|Sourceforge "Track + Issue Tracker"]], [[http://www.sourceforge.net/projects/trackplus/|Sourceforge "Track + Issue Tracker"]] - latest legacy binary version 3.5.9, latest legacy source code for version 3.1.1.
+  *The OpenSource [[http://www.twiki.org/|TWiki]] in Perl - "The Open Source Enterprise Wiki and Web 2.0 Application Platform".
+    *[[http://twiki.org/cgi-bin/view/Plugins/XpTrackerPlugin|XP Tracker Plugin]] for TWiki.
+===== Team Software =====
+  *See [[groupware.html|Team Software, Collaboration Software, Groupware & Application Lifecycle Management]].
+  *See [[sdevtools.html|Software Development Tools]].
+===== Mindmanagement =====
+==== Tools ====
+  *The commercial [[http://www.mindmanager.de/|Mindmanager]].
+  *The OpenSource software [[https://www.github.com/mindmup/|Github "mindmup"]] in Javascript for browsers, and the free online service [[http://www.mindmup.com/|MindMup]].
+    *Blog [[http://blog.mindmup.com/|MindMup Blog]].
+    *[[http://www.facebook.com/mindmupapp|Facebook "Mindmup"]].
+    *[[http://twitter.com/MindMup|Twitter "MindMup"]].
+==== Resources ====
+  *[[http://www.contentmarketinginstitute.com/2012/09/top-10-mind-mapping-productivity-tips-for-content-marketing-success/|Content Management Institute "Top 10 Mind Mapping Productivity Tips for Content Marketing Success"]].
+===== Timebox Software =====
+==== iPhone ====
+  *The free iPhone app [[http://www.appszoom.com/iphone-developer/itagile-gmbh_dmmvz.html|AppsZoom "it-agile GmbH"]] - The free timebox app "TimeboxHD" - "TimeBox-App visualizes TimeBoxes for meetings, discussions or focussed work. It shows both the selected and the remaining time. At the end you here the sound of a gong".
+==== Android ====
+  *The free Android app [[http://www.appszoom.com/android_applications/productivity/scrum-timebox_fyhll.html|AppsZoom "SCRUM TimeBox"]].
+  *The free Android app [[http://www.appszoom.com/android_applications/productivity/agilely-timer_ocln.html|AppsZoom "_agilely Timer"]] - just for "daily standup" meetings.
+===== How to select a Project Management Software =====
+  *[[http://www.pm-software-report.com/mmodell.html|Project Management Software Report "M-Modell"]].
+  *Concept: For every level of maturity ( of the organisation, of the individual people ), there is a corresponding suitable project management software. E.g. for the lowest level of maturity, standalone project management softwaretools ( spreadsheets, Microsoft Project, some standalone OpenSource project management software.. ) used by individuals are the right choice :-)
+
+===== Resources =====
+  *[[http://www.extremeplanner.com/resources.html|extremeplanner - "How-To Guides, Aticles"]].
+  *Blog [[http://www.extremeplanner.com/blog/|extremeplanner - "Agile Project Planning"]].
+  *Blog [[http://www.targetprocess.com/Blogs.aspx|TargetProcess "Blogs - Agile Blog"]].
+  *Blog [[http://weblogs.asp.net/bsimser/archive/2006/10/21/Scrum-Tools-Roundup.aspx|Bil Simser, Fear and Loathing - "Scrum Tools Roundup"]] - list of free Scrum tools.
+  *[[http://www.brothersoft.com/project_management_freeware_download_1.html|BrotherSoft "Project Management Freeware Software Download For Windows"]] - list of free and shareware project management tools.
+  *[[http://www.pm-software.info/|GPM - Deutsche Gesellschaft für Projektmanagement e.V., Fachgruppe 'Software für PM-Aufgaben' - "PM-Software.info"]] - "Eine unabhängige Plattform zum Thema Projektmanagement-Software".
+  *[[http://www.testingfaqs.org/t-track.html|Software Testing FAQ "Defect Tracking Tools"]].
+  *[[http://groups.yahoo.com/group/scrumdevelopment/message/2116|Yahoo Groups "scrumdevelopment - Scrum Users", Thread "Tools, Tools, Scrum Tools!"]].
+===== Forums, Newsgroups =====
+  *[[http://www.braintool.com/a-plan-forum/|braintool software GmbH - Forum]].
+  *[[http://community.danube.com/|Community-powered support for Danube COLLABNET]] - forum for the software "ScrumWorks".
+  *[[http://www.mantisbt.org/support.php|Mantis Bug Tracker - Community-Support / Mantis Bug Tracker Forums]].
+  *[[http://wiki.mozilla.org/|Mozilla Wiki]].
+    *[[http://wiki.mozilla.org/Bugzilla|Mozilla Wiki Bugzilla]].
+  *[[http://www.omninet.biz/forum/|Omnitracker Forum]] - Just for "registered OMNITRACKER customers" :-(.
+  *[[http://www.openworkbench.org/index.php?option=com_fireboard&Itemid=46|Open Workbench]] Forum.
+  *[[http://www.projectcards.com/forums/|ProjectCards Forum]].
+  *[[http://community.thoughtworks.com/|ThoughtWorks studios, community website]].
+  *[[http://www.trackplus.com/forum/forums/list.page|Track+ Support Forum]].
+  *[[http://tech.groups.yahoo.com/group/scrumwikidev/|Yahoo Groups "scrumwikidev - ScrumWiki Development"]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Business/Management/Project_and_Program_Management/|OpenDirectory "Top: Business: Management: Project and Program Management"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wirtschaft/Management/Projektmanagement/|OpenDirectory "Top: World: Deutsch: Wirtschaft: Management: Projektmanagement"]].
+  *[[http://www.dmoz.org/Computers/Software/Project_Management/|OpenDirectory "Top: Computers: Software: Projectmanagement"]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Software/Projektmanagement/|OpenDirectory "Top: World: Deutsch: Computer: Software: Projektmanagement"]].
+{{tag>"project management" "project management software" software}}
+<footnote_navi_en>

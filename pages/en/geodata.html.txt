@@ -1,0 +1,121 @@
+====== [hemmerling] Geographical Data / Spatial Data for Geographical Information Systems ( GIS ) ======
+Related pages:
+  *[[databases.html|Databases, Webserver, Webservices, SQL, XML]].
+  *[[imageprocess.html|Image Processing]].
+  *[[maps.html|Maps & Route Planners]].
+===== Data Formats =====
+  *[[http://en.wikipedia.org/wiki/Category:GIS_file_formats|EN.Wikipedia "Category:GIS file formats"]], [[http://de.wikipedia.org/wiki/Kategorie:GIS-Datenformat|DE.Wikipedia "Kategorie:GIS-Datenformat"]].
+  *[[http://en.wikipedia.org/wiki/Esri_grid|EN.Wikipedia "Esri grid"]].
+===== Free Tools & Free Data =====
+  *The free data [[http://www.arcgis.com/home/item.html?id=ae25571c60d94ce5b7fcbf74e27c00e0|ArcGIS Online "Verwaltungsgrenzen Deutschland (De, Länder, Rgbz, Kreise)"]] by [[http://www.esri.com/|ESRI]].
+  *The free data [[http://www.arnulf.us/PLZ|Arnulf Christl "PLZ"]], [[http://web.archive.org/web/*/http://www.arnulf.us/PLZ|Archive.org "Arnulf Christl: PLZ"]], [[http://sourceforge.net/projects/mapbender/files/Data/PLZ/|Mapbender - Download "plz.zip"]].
+  *The free data of [[http://www.bundesnetzagentur.de/cln_1931/DE/Sachgebiete/Telekommunikation/RegulierungTelekommunikation/Nummernverwaltung/OrtsnetzVerzeichnisse/ONBGrenzen/ONBGrenzen_node.html|Bundesnetzagentur "Sachgebiete / Telekommunikation / Regulierung Telekommunikation / Nummernverwaltung / Verzeichnisse zu Ortsnetzen / ONB-Grenzen"]].
+  *The free data of [[http://www.citypopulation.de/|City Population - Einwohnerzahlen & Karten der größten Städte, Agglomerationen & Verwaltungsgebiete für alle Staaten & Länder der Welt]].
+  *The free data of [[http://downloads.cloudmade.com/|Cloudmade - Downloads]].
+  *[[http://www.maproom.psu.edu/dcw/|Digital Chart of the World Server]] ( DCW ).
+  *The free data of [[http://www.diva-gis.org/gdata|DIVA-GIS]] - "Download data by country. Select and download free geographic (GIS) data for any country in the world" -> Germany.
+  *The free data of [[http://www.gadm.org/|GADM database of Global Administrative Areas]].
+  *The free data of [[http://www.geodan.nl/producten/geografische-data/producten/achtergrondinfo-dataproducten/download/|Geodan "Download gratis datasamples"]].
+  *The free data of [[http://www.geofabrik.de/data/download.html|Geofabrik GmbH - Downloads]].
+  *The free data of [[http://earth-info.nga.mil/gns/html/cntry_files.html|National Geospacial-Intellicence Agency "Country Files (GNS)"]].
+  *The free data of [[http://www.census.gov/geo/www/tiger/|US Cenus Bureau "TIGER Products. Topologically Integrated Geographic Encoding and Referencing system"]].
+  *The free data [[http://www.mapcruzin.com/free-germany-arcgis-maps-shapefiles.htm|MapCruzin "Download Free Germany ArcGIS Shapefile Map Layers"]].
+  *[[http://www.naturalearthdata.com/|Natural Earth - Free vector and raster map data at 1:10m, 1:50m, and 1:110m scales]].
+  *The free data and free tools of [[http://www.vdstech.com/map-data.aspx|VDS Technologies "Map Data, GIS Tools"]].
+===== Free APIs =====
+  *[[http://developers.google.com/maps/documentation/geocoding/|Google Developers "The Google Geocoding API"]].
+  *[[http://msdn.microsoft.com/en-us/library/ff701713.aspx|MSDN "Bing Maps REST Services"]].
+    *[[http://msdn.microsoft.com/en-us/library/ff701710.aspx|MSDN "Find a Location by Point"]].
+===== Free Tools =====
+==== Databases & Database Extensions ====
+  *[[http://postgis.refractions.net/|PostGIS]] - Adds support for geographic objects to the [[http://www.postgresql.org/|PostgreSQL]].
+  *[[http://dev.mysql.com/doc/refman/5.0/en/spatial-extensions.html|MySQL 5.0 Reference Manual "Spatial Extensions"]].
+==== Frameworks, Libraries ====
+  *The OpenSource Mapping library [[http://sharpmap.codeplex.com/|SharpMap]] for Windows, .NET with WinForms, ASP.NET.
+  *The OpenSource GIS library [[http://dotspatial.codeplex.com/|DotSpatial]] for Windows, .NET with WinForms, ASP.NET.
+  *The OpenSource .NET control [[http://greatmaps.codeplex.com/|GMap.NET]] for Windows, .NET - Integration of many Web Mapping Services.
+  *The OpenSource geometry library [[http://code.google.com/p/nettopologysuite/|NetTopologySuite]] for Windows, .NET.
+  *The OpenSource Spatial Reference and Projection Engine [[http://projnet.codeplex.com/|Proj.NET]] for Windows, .NET.
+  *The OpenSource framework [[http://geoapi.codeplex.com/|GeoAPI.NET]] for Windows, .NET - Common framework to improve interoperability.
+  *[[http://www.osgeo.org/|OSGeo - Your Open Source Compass]] - "The Open Source Geospatial Foundation...".
+    *The OpenSource library [[http://www.gdal.org/|GDAL - Geospatial Data Abstraction Library]].
+  *The OpenSource framework [[http://sqlspatialtools.codeplex.com/|SQL Server Spatial Tools]] - Scripts, Functions, Types, Aggregates for SQL Server.
+==== Standalone Tools ====
+  *The OpenSource [[http://grass.osgeo.org//|GRASS GIS]] for Linux and Windows - "The World Leading Free Software GIS".
+    *[[http://en.wikipedia.org/wiki/GRASS_GIS|EN.Wikipedia "GRASS GIS"]], [[http://de.wikipedia.org/wiki/GRASS_GIS|DE.Wikipedia "GRASS GIS"]].
+  *The OpenSource [[http://www.qgis.org/|Quantum GIS Desktop ( QGIS )]] for Windows and Linux.
+    *[[http://en.wikipedia.org/wiki/Quantum_GIS|EN.Wikipedia "Quantum GIS"]], [[http://de.wikipedia.org/wiki/Quantum_GIS|DE.Wikipedia "Quantum GIS"]].
+  *The free [[http://sqlspatialtools.codeplex.com/|CodePlex "SQL Server Spatial Tools"]] for Windows.
+  *The free [[http://mapgallery.codeplex.com/|CodePlex "MapGallery of Reporting Services in SQL Server 2008 R2"]].
+  *The free [[http://www.microimages.com/products/tntmipsfree/|TNTmips Free]] - "No cost installation of TNTmips designed for students and professionals who wish to learn about geospatial analysis. TNTmips Free is not a demo, but a large, full-featured geospatial analysis software package".
+  *[[http://www.sharpgis.net/|SharpGIS - GIS from a .NET and JavaScript developer's perspective]].
+    *The free [[http://www.sharpgis.net/page/SQL-Server-2008-Spatial-Tools.aspx|SharpGIS "SQL Server 2008 Spatial Tools"]].
+      *The free [[http://www.sharpgis.net/page/shape2sql.aspx|SharpGIS "Shape2SQL"]] for Windows - "Allows you to easily upload data contained in shapefiles to Microsoft's SQL Server 2008".
+      *The free [[http://www.sharpgis.net/page/SqlSpatial-Query-Tool.aspx|SharpGIS "SqlSpatial Query Tool"]] for Windows.
+==== Online Services ====
+  *The free service [[http://www.satsig.net/maps/lat-long-finder.htm|Satellite Signals "Lat - Long Finder"]].
+
+===== Commercial Tools =====
+==== Databases & Database Extensions ====
+  *[[http://www.oracle.com/de/products/database/options/spatial/|Oracle - "Oracle Database, Enterprise Options - Oracle Spatial"]].
+  *[[http://www.microsoft.com/sqlserver/|Microsoft SQL Server]].
+    *[[http://www.microsoft.com/en-us/download/details.aspx?id=29065|Microsoft Download Center "Microsoft SQL Server 2012 Feature Pack"]] - "A collection of stand-alone packages which provide additional value for Microsoft SQL Server 2012" -> "Microsoft® SQL Server 2012 CLR Types".
+==== Standalone Tools ====
+  *The commercial [[http://www.autodesk.com/products/autodesk-autocad-map-3d/overview|Autodesk Inc. "AutoCAD Map 3D - GIS and Mapping Software"]].
+  *The commercial [[http://esri.de/products/arcgis/|Esri Deutschland GmbH "ArcGIS: Das umfassende GeoInformationssystem"]].
+  *The commercial [[http://geospatial.intergraph.com/products.aspx|3 Intergraph Corporation "GeoMedia"]].
+===== Literature ===== 
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3879074720/hemmerling-21|Thomas Brinkhoff: "Geodatenbanksysteme in Theorie und Praxis: Einführung in objektrelationale Geodatenbanken unter besonderer Berücksichtigung von Oracle Spatial"]].
+    *The accompanying website [[http://www.geodbs.de/|Thomas Brinkhoff "Geodatenbanksysteme in Theorie und Praxis"]].
+    *The free [[http://www.geodbs.de/viewer4postgresql.html|Thomas Brinkhoff "Spatial Database Viewer für PostgreSQL/PostGIS"]].
+===== Organisations, Experts and Events =====
+==== Organisations and Events ====
+  *[[http://www.fossgis.de/|Verein für Freie und Open Source Software für Geoinformationssysteme (FOSSGIS e.V.)]].
+    *[[http://www.fossgis.de/wiki/Kategorie:2014|FOSSGIS 2014]] in Berlin, 21.3.2014-03-19 - 2014-03-21.
+==== Experts ====
+  *[[http://www.fakultaet2.fh-hannover.de/personen/lehrende/kreutzfeldt-reinhard-prof-dipl-ing-prof/index.html|Prof. Dipl.-Ing. Reinhard Kreutzfeldt]].
+  *Markus Wöhling.
+    *Speech "[[http://www.dotnet-braunschweig.de/termindetails.aspx?id=92|Geografische Informationssysteme – wie kommt das Runde ins Eckige?]]" on the regional event of [[http://www.dotnet-braunschweig.de/|.NET Developers Group Braunschweig]], 2013-04-25.
+    *[[http://www.dotnet-braunschweig.de/download.aspx?id=21|Markus Wöhling "Geografische Informationssysteme – wie kommt das Runde ins Eckige?"]] ( PDF ).
+===== GPS Devices =====
+  *[[http://www.garmin.com/|Garmin Ltd.]].
+  *[[http://www.lowrance.de/|Lowrance]].
+  *[[http://www.magellangps.com/|MiTAC International Corporation "Magellan"]].
+
+===== Resources =====
+  *If you should think about buying maps, be shure that selected maps feature the "UTM Grid" ( German: "UTM Gitter" ) - Universal Transversal Mercator Projection!
+  *In the field of data mining, it might be interesting to do a visualisation of geodata, by the zip codes of the town in which the subjects ( people, companies...) are situated.
+  *[[http://www.beginningspatial.com/|Beginning Spatial]].
+  *[[http://www.bundeswahlleiter.de/|Der Bundeswahlleiter]] - ( once ?) a source for free geograpical data for Germany, in ESRI format.
+  *[[http://www.epsg.org/|European Petroleum Survey Group]].
+  *[[http://www.gis-news.de/|gis-news. Neues und Wissenswertes zu GIS-Technologie, Interoperabilität, IT, Standards]].
+    *[[http://www.gis-news.de/links/daten|gis-news. Neues und Wissenswertes zu GIS-Technologie, Interoperabilität, IT, Standards "Links"]].
+  *[[http://www.tracklog.de/|GPS und Mopped]] - "".
+  *Hannover ( Longitude: 9.725, Latitude: 52.34633 ).
+  *Microsoft.
+    *[[http://msdn.microsoft.com/en-us/library/ee210581(SQL.105).aspx|Microsoft MSDN Library "Working with Map Report Items"]].
+    *[[http://msdn.microsoft.com/en-us/library/bb259689.aspx|Microsoft MSDN Library "Bing Maps Tile System"]].
+  *[[http://www.opengeospatial.org/|Open GIS Consortium]].
+  *[[http://blog.oraylis.de/?s=spatial+data|ORAYLIS GmbH - Search result for "spatial data"]].
+  *[[http://en.wikibooks.org/wiki/Geospatial_Data_in_SQL_Server|WikiBooks "Geospatial Data in SQL Server"]].
+  *Wikipedia.
+    *[[http://de.wikipedia.org/wiki/Landesvermessungsamt|DE.Wikipedia: "Landesvermessungsamt"]].
+    *[[http://en.wikipedia.org/wiki/Shapefile|EN.Wikipedia: "Shapefile"]], [[http://de.wikipedia.org/wiki/Shapefile|DE.Wikipedia: "Shapefile"]].
+    *[[http://en.wikipedia.org/wiki/ESRI|EN.Wikipedia: "ESRI"]], [[http://de.wikipedia.org/wiki/ESRI|DE.Wikipedia: "ESRI"]].
+    *[[http://en.wikipedia.org/wiki/Spatial_database|EN.Wikipedia "Spatial database"]].
+    *[[http://en.wikipedia.org/wiki/Spatial_data_infrastructure|EN.Wikipedia "Spatial data infrastructure"]].
+    *[[http://en.wikipedia.org/wiki/Geographic_data|EN.Wikipedia "Geographic data"]].
+===== Literature =====
+  *The paper magazine [[http://www.gis-biz.de/|Wichmann Verlag]].
+    *The paper magazine "gis.BUSINESS - Das Magazin für Geoinformation".
+    *The paper magazine "gis.SCIENCE - Die Zeitschrift für Geoinformatik".
+===== Forums, Newsgroups =====
+  *[[http://www.gps-forum.de/|GPS Forum]].
+  *[[http://www.studivz.net/Groups/Overview/8af52f3a949f0e4b|StudiVZ "Prof. R. Kreutzfeldt Fanclub, oder "5en sind nur temporär...""]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/CAD_and_CAM/Mapping_and_GIS/|OpenDirectory "Top: Computers: CAD and CAM: Mapping and GIS"]].
+  *[[http://www.dmoz.org/Science/Social_Sciences/Archaeology/Topics/Archaeological_Computing/GIS_and_Remote_Sensing/|OpenDirectory "Top: Science: Social Sciences: Archaeology: Topics: Archaeological Computing: GIS and Remote Sensing"]].
+  *[[http://www.dmoz.org/Science/Biology/Ecology/Landscape_Ecology_and_Spatial_Analysis/|OpenDirectory "Top: Science: Biology: Ecology: Landscape Ecology and Spatial Analysis"]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/CAD_und_CAM/Kartographie_und_GIS/|OpenDirectory "Top: World: Deutsch: Computer: CAD und CAM: Kartographie und GIS"]].
+{{tag>"geodata "geographical data" "spatial data" geospacial geo data spatial "geographical information system" "geographical information systems" gis geographical information systems system geodesy geodetics geo-focus geofocus}}
+<footnote_navi_en>

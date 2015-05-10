@@ -1,0 +1,98 @@
+====== [hemmerling] Functional Programming ======
+===== True Functional Programming Languages =====
+  *Experts told me their subjective order of easyness to learn: 
+    -[[http://en.wikipedia.org/wiki/Ocaml|EN.Wikipedia "Objective Caml"]], [[http://de.wikipedia.org/wiki/Ocaml|DE.Wikipedia "Objective CAML"]].
+    -[[http://en.wikipedia.org/wiki/Clojure|EN.Wikipedia "Clojure"]], [[http://de.wikipedia.org/wiki/Clojure|DE.Wikipedia "Clojure"]].
+    -[[http://en.wikipedia.org/wiki/Haskell_%28programming_language%29|EN.Wikipedia "Haskell (programming language)"]], [[http://de.wikipedia.org/wiki/Haskell_%28Programmiersprache%29|DE.Wikipedia "Haskell (Programmiersprache)"]].
+===== Some other Programming Languages with Functional Aspects =====
+==== Microsoft .NET Platform ====
+=== F# ===
+  *[[http://en.wikipedia.org/wiki/F_Sharp_%28programming_language%29|EN.Wikipedia "F Sharp (programming language)"]], [[http://de.wikipedia.org/wiki/F-Sharp|DE.Wikipedia "F-Sharp"]].
+    *[[http://research.microsoft.com/en-us/um/cambridge/projects/fsharp/release.aspx|Microsoft Research "F# Downloads"]].
+=== C# 4.0 on .NET 4.0 ===
+  *[[https://www.google.de/search?q=functional+programming+c%23|Google - Search for "functional programming c#"]].
+==== Java Runtime Platform ====
+=== Lambdas & Streams with Java 8 ===
+== The Project ==
+  *[[http://openjdk.java.net/projects/lambda/|OpenJDK: Project Lambda]].
+  *[[http://www.slideshare.net/InfoQ/project-lambda-in-java-se-8|SlideShare "Daniel Smth, Java Language Designer: Project Lambda in Java SE 8"]].
+  *[[http://docs.oracle.com/javase/8/docs/|Oracle "Java Platform Standard Edition 8 Documentation"]].
+  *[[http://docs.oracle.com/javase/8/javafx/api/|Oracle Documentation "JavaFX8"]].
+== Tools ==
+  *Eclipse.
+    *[[http://wiki.eclipse.org/JDT/Eclipse_Java_8_Support_%28BETA%29|Eclipsepedia "JDT/Eclipse Java 8 Support (BETA)"]].
+    *[[http://wiki.eclipse.org/JDT_Core/Java8|Eclipsepedia "JDT Core/Java8"]].
+  *[[http://www.netbeans.org/|NetBeans IDE]] 8.
+  *[[http://www.jetbrains.com/idea/download/|IntelliJ IDEA 13 Community Edition FREE]].
+    *[[http://confluence.jetbrains.com/display/IDEADEV/IDEA+13+EAP| IDEA 13 Community Edition EAP]] with Java8 support.
+== Training Events ==
+  *[[http://www.jaxenter.de/news/Java-Magazin-veranstaltet-Lambda-Tour-Java-8-Hackathons-in-Muenchen-Hamburg-Frankfurt-Duisburg-165736|JAXenter.de "Java Magazin veranstaltet Lambda Tour: Java-8-Hackathons in München, Hamburg, Frankfurt und Duisburg"]].
+    *[[http://www.angelikalanger.com/|Angelika Langer - Training & Consulting]].
+      *[[http://www.angelikalanger.com/Conferences/Abstracts/LambdasHackSession.htm|Angelika Langer - Training & Consulting "Programming with Lambdas & Streams in Java 8"]].
+      *[[http://www.angelikalanger.com/Lambdas/Lambdas.html|Angelika Langer - Training & Consulting "Lambda Expressions and Streams in Java - Tutorial & Reference"]].
+      *[[http://www.angelikalanger.com/Conferences/Slides/jf12_LambdasInJava8-1.pdf|Angelika Langer - Training & Consulting, Slides "Java 8 Lambda Expressions"]] ( PDF ).
+      *[[http://www.youtube.com/watch?v=gkIgo892N_w|YouTube "Funktionale Programmierung für Java-Entwickler"]].
+      *[[http://www.vimeo.com/49385450|Vimeo "Lambdas in Java 8"]].
+      *[[http://www.twitter.com/AngelikaLanger|Twitter "Angelika Langer"]].
+    *[[http://www.jaxenter.de/Klaus-Kreft|Klaus Kreft]].
+  *[[http://www.nighthacking.com/|NightHacking]].
+    *[[http://www.meetup.com/nighthackingworldwide/|Meetup "NightHacking Worldwide"]] - "Lambdas Hacking with Brian Goetz", 2014-01-16.
+    *[[http://www.facebook.com/nighthacking|Facebook "NightHacking"]].
+    *[[http://www.briangoetz.com/|Brian Goetz]].
+    *[[http://www.linkedin.com/in/briangoetz|LinkedIn "Brian Goetz"]].
+    *[[http://www.twitter.com/BrianGoetz|Twitter "Brian Goetz"]].
+== Resources ==
+  *Language features:
+    *Functional interfaces.
+      *[[http://java.dzone.com/articles/introduction-functional-1|DZone Javalobby "Mohamed Sanaulla: Introduction to Functional Interfaces – A concept recreated in Java 8"]].
+      *An interface with one ( and just one ) implemented method.
+    *Executive pattern - Execution of actions in a defined order.
+    *Null pattern.
+      *[[http://en.wikipedia.org/wiki/Null_Object_pattern|EN.Wikipedia "Null Object pattern"]], [[http://de.wikipedia.org/wiki/Nullobjekt_%28Entwurfsmuster%29|EN.Wikipedia "Nullobjekt (Entwurfsmuster)"]].
+  *[[http://cr.openjdk.java.net/~briangoetz/lambda/lambda-state-final.html|Brian Goetz "State of the Lambda"]], 2013-09.
+  *[[http://de.slideshare.net/GuenterJantzen/|Slideshare - Günter Jantzen]].
+    *[[http://de.slideshare.net/GuenterJantzen/aots|Slideshare - Günter Jantzen "Art of the state - Funktionale Softwarearchitektur mit Plain Old Java"]].
+  *[[http://www.xing.com/profiles/Sven_Ruppert2|XING "Sven Ruppert"]], [[http://de.linkedin.com/in/svenruppert/|LinkedIn "Sven Ruppert"]].
+    *[[http://www.jaxenter.de/Sven-Ruppert-168244|JAXenter.de "Sven Ruppert"]].
+    *[[http://www.twitter.com/SvenRuppert|Twitter "Sven Ruppert, @SvenRuppert"]].
+    *The e-book [[http://www.amazon.de/exec/obidos/ASIN/B00HALCBMC/hemmerling-21|Sven Ruppert: Java 8 Streams (shortcuts)]].
+    *[[http://www.rapidpm.org/|RapidPM]].
+    *[[http://github.com/svenruppert|GitHub "svenruppert"]].
+    *The commercial course [[http://eppleton.de/java-8-kickstart|Eppleton IT Consulting "Java 8 Kickstart"]].
+  *[[http://blogs.oracle.com/thejavatutorials/entry/javaone_2013_lambda_expressions|The Java Tutorials' Weblog
+Blog for thejavatutorials "JavaOne 2013: Lambda Expressions"]].
+    *[[http://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=7942|Paul Sandoz "Java 8 Streams: Lambda in Top Gear"]].
+    *[[http://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=7962|Mike Duigou "Java 8 Collections and Concurrency"]].
+    *[[http://www.oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=7504|Maurice Naftalin "Navigating the Streams API"]] #.
+    *[[http://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=10173|Alexander Belokrylov "Retro Gaming with Lambdas"]].
+    *[[http://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=3877|Stuart Marks "Jump-starting Lambda Programming"]].
+  *[[http://www.oracle.com/technetwork/articles/java/lambda-1984522.html|Oracle, Deepak Vohra "Trying Out Lambda Expressions in the Eclipse IDE"]].
+  *[[http://www.jugbremen.de/2013/09/aktueller-stand-java-8.html|JUG Bremen "Aktueller Stand Java 8"]], 2013-09-17.
+=== Scala ===
+== The Language & Runtime ==
+  *[[http://www.scala-lang.org/|Scala]] - "The Scala Programming Language".
+    *[[http://en.wikipedia.org/wiki/Scala_%28programming_language%29|EN.Wikipedia "Scala (programming language)"]].
+== Testing ==
+  *See [[testing.html|Testing]].
+== E-Learning ==
+  *[[http://www.coursera.org/course/progfun|Coursera "Martin Odersky: Functional Programming Principles in Scala"]].
+===== Software Tools =====
+<WRAP tip>[[mathengineering.html#Mathcad|Mathematical Engineering]] - PTC Mathcad</WRAP>
+===== Literature =====
+==== Java 8 ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1937785467/hemmerling-21|Venkat Subramaniam "Functional Programming in Java: Harnessing the Power of Java 8 Lambda Expressions"]] #.
+    *[[http://pragprog.com/book/vsjava8/functional-programming-in-java|The Pragmatic Bookshelf "Functional Programming in Java"]].
+    *[[http://pragprog.com/titles/vsjava8/source_code|The Pragmatic Bookshelf "Functional Programming in Java" - Source code]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1449370772/hemmerling-21|Richard Warburton "Java 8 Lambdas: Pragmatic Functional Programming"]].
+==== Scala ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0981531644/hemmerling-21|Martin Odersky, Lex Spoon, Bill Venners "Programming In Scala"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3446423990/hemmerling-21|Oliver Braun "Scala: Objektfunktionale Programmierung"]].
+===== Resources =====
+  *[[http://www.heise.de/developer/artikel/F-funktionales-Pendant-zu-C-1140553.html|heise Developer, Golo Roden "F# - funktionales Pendant zu C#"]].
+  *[[http://research.microsoft.com/en-us/um/cambridge/projects/fsharp/|Microsoft Research "F# at Microsoft Research"]].
+  *[[http://en.wikipedia.org/wiki/Anonymous_function|EN.Wikipedia "Anonymous function"]], [[http://de.wikipedia.org/wiki/Anonyme_Funktion|DE.Wikipedia "Anonyme Funktion"]].
+
+===== Forums, Newsgroups =====
+  *[[http://devnet.jetbrains.net/community/idea/scala|JetBrains "Developer Community / IntelliJ IDEA / Scala"]] Forum.
+<footnote_navi_en>
+{{tag>"functional programming"}}.

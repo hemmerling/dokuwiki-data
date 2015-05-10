@@ -1,0 +1,397 @@
+====== [hemmerling] Digital Selective Calling ( DSC ) ======
+===== DSC Norms =====
+  *Norm **[[http://webstore.iec.ch/webstore/webstore.nsf/artnum/000220|IEC 61097-3 Global maritime distress and safety system (GMDSS) - Part 3: Digital selective calling (DSC) equipment - Operational and performance requirements, methods of testing and required testing results]].**
+  *[[http://www.gmdss.com.au/|GMDSS Information by Densham and Associates]] - "The Global Maritime Distress and Safety System (GMDSS) has revolutionised marine radio communications".
+    *[[http://www.gmdss.com.au/dsc.htm|Digital Selective Calling (DSC)]].
+    *Norm **[[http://www.gmdss.com.au/DSC%20tech%20spec.pdf|ITU-R. Radiocommunication Sector of ITU. Recommendation ITU-R M.493-13 ( 10/2009 ). Digital selective-calling system for use in the maritime mobile service. M Series. Mobile, radiodetection, amateur and related satellite services]]** ( PDF ).
+  *Norm "**7.Rec. ITU-R M.541-9 1. RECOMMENDATION ITU-R M.541-9*. Operational procedures for the use of digital selective-calling equipment in the maritime mobile service. (1978-1982-1986-1990-1992-1994-1995-1996-1997-2004)**" ( PDF ).
+  *Norm "ITU-R M.689-2  International maritime VHF radiotelephone system with automatic facilities based on DSC signalling format" ( PDF ). 
+  *Norm "ITU-R M.1082-1 International maritime MF/HF radiotelephone system with automatic facilities based on DSC signalling format" ( PDF ).
+  *ITU-R Radio Regulations.
+    *[[http://en.wikipedia.org/wiki/Radio_Regulations|EN.Wikipedia: "Radio Regulations"]].
+    *[[http://www.ntc.or.th/uploadfiles/1118295601_tfa_1999.pdf|POST AND TELEGRAPH DEPARTMENT Thailand: "National Table of Frequency Allocations... based on the provisions of the Radio Regulations (Edition of 1998) of the International Telecommunication Union (ITU)"]] ( PDF ) - Radio Regulations of 1998.
+    *[[http://www.crk.cz/FILES/IARU_R1_HF_MANAGERS_HANDBOOK.PDF|International Amateur Radio Union]] - Chapter 10.1, The Radio Regulations.
+    *[[http://yb1zdx.arc.itb.ac.id/data/orari-diklat/pemula/peraturan/RR%2003%20-%202%20VOLUME-I.pdf|INTERNATIONAL TELECOMUNICATION UNION. Radio Regulation. Edition 2003. dengan terjemahan dalam Bahasa Indonesia]] ( PDF ).
+  *[[http://www.tra.gov.ae/download.php?filename=spectrum_affairs/Maritime%20Radio%20Service%20Regulations%20v1.0_En.pdf|Regulations.
+Maritime Radio Service]] ( PDF ).
+  *ITU.
+     *[[http://www.itu.int/publications/template.aspx?media=download&target=/publications/EBookshop.html|ITU Electronic Bookshop]] - " With regard to Recommendations only, if you have already registered and received a Special ID and password for access to 3 Free  ITU-R Recommendations".
+     *[[http://www.itu.int/rec/R-REC-M/e|ITU Recommendations "Mobile, radiodetermination, amateur and related satellite services"]].
+    *[[http://www.itu.int/opb/sector.aspx?sector=1|ITU, Radiocommunication Sector (ITU-R), ITU-R Key and Recent Publications: Radio Regulations]].
+===== DSC Basics and DSC Resources =====
+  *Wikipedia
+    *[[http://en.wikipedia.org/wiki/Selective_calling|EN.Wikipedia: "Selective calling"]].
+    *[[http://de.wikipedia.org/wiki/Digital_Selective_Calling|DE.Wikipedia: "Digital Selective Calling"]].
+    *[[http://en.wikipedia.org/wiki/Selcall|EN.Wikipedia: "Selcall"]].
+    *[[http://de.wikipedia.org/wiki/Global_Maritime_Distress_Safety_System|DE.Wikipedia: "Global Maritime Distress Safety System"]].
+    *[[http://en.wikipedia.org/wiki/Global_Maritime_Distress_Safety_System|EN.Wikipedia: "Global Maritime Distress Safety System"]] ( Digital Selective Calling ).
+    *[[http://en.wikipedia.org/wiki/MMSI|EN.Wikipedia: "Maritime Mobile Service Identity"]], [[http://de.wikipedia.org/wiki/MMSI|DE.Wikipedia: "Maritime Mobile Service Identity"]].
+    *[[http://en.wikipedia.org/wiki/International_Maritime_Organization|EN.Wikipedia: "International Maritime Organization"]], [[http://de.wikipedia.org/wiki/International_Maritime_Organization|DE.Wikipedia: "International Maritime Organization"]].
+    *[[http://en.wikipedia.org/wiki/Marine_VHF_radio|EN.Wikipedia: "Marine VHF radio"]].
+    *[[http://de.wikipedia.org/wiki/Frequenzband|DE.Wikipedia: "Frequenzband"]].
+    *[[http://en.wikipedia.org/wiki/Dual-tone_multi-frequency|DE.Wikipedia: "Dual-tone multi-frequency"]]  (DTMF).
+    *[[http://en.wikipedia.org/wiki/Public_switched_telephone_network|EN.Wikipedia: "Public switched telephone network"]] ( PSTN ).
+    *[[http://de.wikipedia.org/wiki/Rufnummer|DE.Wikipedia: "Rufnummer"]] "Länge von Rufnummern".
+    *[[http://de.wikipedia.org/wiki/Verkehrsausscheidungsziffer|DE.Wikipedia: "Verkehrsausscheidungsziffer"]].
+    *[[http://de.wikipedia.org/wiki/Opferanode|DE.Wikipedia: "Opferanode"]].
+    *[[http://en.wikipedia.org/wiki/OSI_Model|EN.Wikipedia: "OSI Model"]], [[http://de.wikipedia.org/wiki/OSI-Modell|DE.Wikipedia: "OSI-Modell"]].
+    *[[http://en.wikipedia.org/wiki/Simplex_communication|EN.Wikipedia: "Simplex communication"]].
+    *[http://en.wikipedia.org/wiki/Duplex_%28telecommunications%29|EN.Wikipedia: "Duplex (telecommunications)"]].
+    *[[http://de.wikipedia.org/wiki/Funkbetriebszeugnis_%28Schifffahrt%29|DE.Wikipedia: "Funkbetriebszeugnis (Schifffahrt)"]].
+  *[[http://www.bsh.de/|Bundesamt für Seeschifffahrt und Hydrographie]].
+    *[[http://de.wikipedia.org/wiki/Bundesamt_f%C3%BCr_Seeschifffahrt_und_Hydrographie|DE.Wikipedia: "Bundesamt für Seeschifffahrt und Hydrographie]].
+    *[[http://www.bsh.de/de/Schifffahrt/Hersteller/Baumusterpruefungen/index.jsp|Bundesamt für Seeschifffahrt und Hydrographie: "Baumusterprüfungen"]].
+      *UKW-Funkanlage zur Abwicklung von DSC und Sprechfunk
+      *UKW-DSC-Wachempfänger
+      *GW-Funkanlage zur Abwicklung von DSC und Sprechfunk
+      *GW-Funk-DSC-Wachempfänger
+      *GW-KW-Funkanlagen zur Abwicklung von DSC, NBDP und Sprechfunk
+      *GW-KW-DSC-Wachempfänger
+  *[[http://www.imo.org/|International Maritime Organization]] ( IMO ).
+    *[[http://www.mcga.gov.uk/c4mca/qms-msn1734-5.pdf|qms-msn1734-5.pdf]] .
+      *VHF DSC watchkeeping receiver are tested according to IEC 61097-3.
+  *[[http://www.navcen.uscg.gov/MARCOMMS/gmdss/dsc.htm|US Coast Guard Navigation Center - Digital Selective Calling]].
+    *Class A,B,C,D,E and SC101.
+    *"The DSC protocol is defined by ITU-R Recommendation M.493 (series), available from the International Telecommunications Union in Geneva, Switzerland.  DSC operation is defined by ITU-R Recommendation M.541 (series)."
+  *[[http://www.youtube.com/results?search_type=search_playlists&search_query=icom+dsc&uni=1|YouTube Playlist Results for icom dsc]].
+  *[[http://reviews.ebay.com/VHF-DSC-Marine-Radio-Buying-Guide_W0QQugidZ10000000000016280|eBay, happy_iguana_inc: "VHF DSC Marine Radio Buying Guide"]].
+  *[[http://www.elsinghorst.org/|Rainer Elsinghorst]]: [[http://www.elsinghorst.org/downloads/komplettesumfangreichesseglerlexikon.pdf|Rainer Elsinghorst: "Komplettes Segellexikon"]].
+    *"DSC = Digital Selective Calling (Digitales Selektivrufsystem ). Dabei wird mittels eines DSC-Controllers aus einer vorgefertigten Menüstruktur eine Meldung zusammengestelt, weldhe digital ( UKW: 1200 Baud, also eine gute halbe Sekunde, GW/KW: 100 Baud, also etwa 6-7 Sekunden Übertragungsdauer ) übertragen wird. Dabei ist es möglich, über eine Art Telphonnummer ( die MMSI ) eine Gegenstelle selektiv anzuwählen. Der DSC-Anruf dient dabei i.d.R. nur der Verbindungsaufnahme, die eigentliche Meldung erfolgt dann auf einem Arbeitskanal per Sprechfunk"
+  *[[http://www.vfo-magazin.de/index.pl/gmdss_-_was_bedeutet_die_kurzwelle_noch_fr_den_seefunk__01/2000|VFDO - Magazin für Empfangsamateure: "GMDSS - Was bedeutet die Kurzwelle noch für den Seefunk"]].
+    *"GMDSS ... ist ..geeignet, sich in Telefon-Landnetze einzuwählen".
+  *[[http://www.tcpipguide.com/free/t_SimplexFullDuplexandHalfDuplexOperation.htm|The TCP/IP Guide: "Simplex, Full-Duplex and Half-Duplex Operation"]].
+  *[[http://www.mcga.gov.uk/|Marine and Coastguard Agency]], UK.
+    *[[http://www.mcga.gov.uk/c4mca/gmdss_sea_areas.pdf|GMDSS Sea Areas]] (PDF).
+  *[[http://de.wikipedia.org/wiki/Bruttoraumzahl|DE.Wikipedia: "Bruttoraumzahl"]].
+    *[[http://arildmeyer.wordpress.com/2009/07/30/forschungsschiff-senckenberg-bei-der-arbeit/|Forschungsschiff "Senckenberg"]] - 165 BRZ.
+    *[[http://de.wikipedia.org/wiki/Seute_Deern_%281961%29|DE.Wikipedia "Seute Deern (1961)"]], [[http://www.faktaomfartyg.se/seute_deern_1961.htm|"M/S Seute Deern (1961)"]], [[http://www.marinefunker.de/deu/mfrs/2003/mfrs1503.txt|MF-Rundspruch (MFRs)  15/2003 o. 1293/77]] - 769 BRZ.
+
+===== DSC Signal Decoder Software, DSC Simulators, DSC String Examples =====
+==== DSC Audio Decoder, DSC Audio Encoder, Audio Tools ====
+  *[[http://www.coaa.co.uk/dscdecoder.htm|DSCdecoder]] for Windows, 21 days trial expiration time.
+  *[[http://www.wavecom.ch/|WAVECOM ELEKTRONIK AG]].
+    *W61PC  Decoder SOFTWARE.
+    *[[http://www.klingenfuss.org/wavecom.htm|Klingenfuss "Wavecom Digital Data Decoders"]] - DCS Selective Calling, DSC HF, DSC DSC UHF/VHF.
+  *[[http://transoceana.com/|TransOceana. A global leader in GMDSS Shore Station Software]].
+    *[[http://transoceana.com/dsc_mfhfvhf_decoder|TransOceana "DSC MF/HF/VHF Decoder"]].
+    *[[http://transoceana.com/dsc_decoder_ii|TransOceana "DSC Decoder II"]].
+    *[[http://transoceana.com/dsc_mfhfvhf_encoder|TransOceana "DSC MF/HF/VHF ENCODER"]].
+  *[[http://pagesperso-orange.fr/radioraft/main_en.htm|RadioRaft 3.21. Multimode Radio Data Decoder Software for decoding]].
+    *"Modes of radio data transmissions that RadioRaft decodes are: GMDSS-DSC,..".
+  *[[http://www.chace-ortiz.org/umc/software.html|Chace-Ortiz: "Utility Monitoring Central. Listening to non-broadcast digital radio communications from 10kHz to 1GHz"]].
+  *Excursion: DTMF.
+    *[[http://en.wikipedia.org/wiki/DTMF|EN.Wikipedia: "DTMF"]].
+    *The free [[http://www.g6lvb.com/Articles/SSETI%20Express%20DTMF%20Telemetry/|SSETI Express S Band DTMF Telemetry Decoder]] by Howard G6LVB, with Visual C++ sourcecode.
+      *"It takes the DTMF tones transmitted every couple of minutes from the S Band tranmitter at 2401.840MHz in  narrow band FM and decodes them. It performs an FFT in realtime on soundcard input. It's compiled in Microsoft Visual Studio 6".
+    *The free [[http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=67331&lngWid=1|DTMF DECODER UPDATED V2.0]] by Sagar Devkota, with VisualBasic6 sourcecode.
+    *[[http://www.infidigm.net/projects/dtmf2/|DTMF Decoder 2 by Infidigm]], using AVR-GCC C compiler.
+    *[[http://www.soft-switch.org/|Soft-Switch.org]] - "Smart call processing for dumb telephony hardware".
+      *"Spandsp is a library of many DSP functions for telephony. These range from simple modules, such as DTMF detection, to a complete software FAX machine".
+
+
+
+==== DSC Non-Audio Simulators ====
+  *[[http://hb9rxc.tripod.com/|HB9RXC Home Page]] by Pietro Bossi.
+    *The free [[http://hb9rxc.tripod.com/simulator.htm|VHF SRC Simulator]].
+    *[[http://home.zhaw.ch/~brpi/|Pietro Bossi, Zurich University of Applied Sciences]].
+  *DSCSim ( [[http://dscsim.sourceforge.net/|SourceForge: DSCSim]], [[http://www.sourceforge.net/projects/dscsim|SourceForge: DSCSim]] ) - GMDSS VHF DSC Simulator, opensource network based simulation of maritime radio communication.
+  *[[http://www.lightmaster.co.uk/VHF_DSC_Radio|LightMaster Software: "VHF DSC Radio Software Overview"]].
+    *"VHF DSC TutorPlus" - DSC simulator.
+  *[[http://www.prescom.net/|PRESCOM Group]].
+    *[[http://www.prescom.net/pdf/multi_simulator_ang.pdf|PRESCOM Group / SECMAT NT: "Digital Selective Calling (DSC) Simulator"]].
+  *[[http://www.mercator-publishing.com/|Mercator Publishing]].
+    *[[http://www.mercator-publishing.com/vhfsimulatoren.html|Mercator Marine VHF Radio Simulator]].
+  *[[http://www.misimulators.co.uk/|MI Simulators]].
+    *[[http://www.misimulators.co.uk/visualsimulator.php|MI Simulators. The shop of virtual electronics]] - free download of trial versions of radio simulators.
+      *Radio simulator based on Standard Horizon® GX1500S radio and DSC class D controller.
+      *Radio simulator based on MF/HF Marine Transceiver IC-M801E.
+      *Radio simulator based on SIMRAD® RT64 VHF radio and SIMRAD® DSC1400 DSC class D controller.
+      *[[http://www.misimulators.co.uk/radiosimulatorray.htm|Radio Simulator based on Raymarine® RAY54E VHF DSC radio]].
+        *[[http://www.misimulators.co.uk/cstation00.htm|Radio instructor (simulator of DSC messages)]].
+
+==== Protocol Output from DSC Marine Transceivers and an Example for a SITOR Message ====
+  *[[http://www.sighthound.demon.co.uk/gm4slv/dscformal090124.log|DSC String example #1]].
+  *[[http://www.hard-core-dx.com/archive/2006/msg03288.html|[HCDX] DSC TIPS]].
+  *[[http://bclnews.blogspot.com/2008/12/log-dsc-hf.html|Bclnews: Log DSC HF]].
+  *[[http://www.reevans.net/reevans/images/Listener37.pdf|The RTTY Listener #37]] (PDF) - SITOR.
+
+===== Marine Transceivers, HF / VHF Transceivers, HF / VHF Radio Telephones, HF / VHF Fixed Radios with DSC =====
+  *Devices which are named "Marine Transceiver", "HF Transceiver", "HF Radio Telephone", "Fixed Radio" are expected to support DSC.
+  *[[http://www.sailor.dk/|Thrane & Thrane A/S]], Denmark - "Sailor" marine tranceivers with DSC and direct call support.
+    *[[http://www.sailor.dk/Maritime/Products/VHF.aspx|Thrane & Thrane A/S: "Maritime > Products > VHF/UHF: VHF/UHF Radio Communication"]].
+    *[[http://extranet.thrane.com/|Thrane & Thrane A/S: "Extranet"]] - website mentioned in the paper manuals as source for download of manuals, but just offered for business partners.
+    *[[http://www.sailor.dk/Maritime/Products/VHF/SAILOR%20RT5022%20VHF%20DSC.aspx|SAILOR RT5022 VHF DSC]].
+    *[[http://www.sailor.dk/Maritime/Products/VHF/SAILOR%20RT5020%20VHF%20DSC%20Duplex.aspx|SAILOR RT5020 VHF DSC Duplex]].
+    *[[http://www.sailor.dk/Maritime/Products/VHF/SAILOR%20RT4801%20VHF%20DSC.aspx|SAILOR RT4801 VHF DSC]].
+    *[[http://www.sailor.dk/Maritime/Products/VHF/SAILOR%206200%20VHF%20Series.aspx|"SAILOR 6200 VHF Series"]].
+      *SAILOR 6215 VHF DSC Class D.
+      *SAILOR 6216 VHF DSC Class D.
+  *[[http://www.e-goc.com/|e-GOC]] - communication system for education, with DSC. By DSC, you can transmit a "Payphone" identifier.
+  *[[http://www.uniden.com|UNIDEN]]. 
+    *[[http://www.uniden.com/index/manuals_results.cfm?cat=7|Home / Products / Owner's Manuals / Marine Electronics]].
+    *Products.
+      *"Uniden Oceanus DSC White VHF Marine Boat Radio".
+      *"Uniden UM425 Black VHF Marine Boat Radio".
+      *"Uniden SOLARA DSC".
+  *[[http://www.icomamerica.com/|ICOM America]], [[http://www.icomuk.co.uk|ICOM UK]], [[http://www.icomcanada.com/|ICOM Canada]], [[http://www.icom.co.jp/world/|ICOM Global]], [[http://www.icomeurope.com/|ICOM Germany]].
+    *[[http://www.icom.co.jp/world/support/|ICOM Firmware Updates, Software Downloads]].
+    *ICOM Products with DSC do not allow the transmission of a "Payphone" identifier.
+    *Products
+      *"ICOM M304 Waterproof DSC VHF Radio".
+      *"ICOM IC-M802 - Digital Marine SSB Radio" - DSC, NMEA 01803.
+    *[[http://www.icomuk.co.uk/categoryRender.asp?categoryID=3813|ICOM: "DSC/GPS Wiring Information"]].
+    *[[http://www.youtube.com/user/IcomUK|YouTube - IcomUK's Channel]].
+      *[[http://www.youtube.com/watch?v=95meT0nKSKo|YouTube: "Icom - What is DSC?]].
+      *[[http://www.youtube.com/watch?v=ga6WdGkaeNM|YouTube: "Icom - How Digital Selective Calling (DCS) works"]].
+      *[[http://www.youtube.com/watch?v=b3UhzETSTsQ|YouTube: "Icom DSC Position Request"]].
+      *[[http://www.youtube.com/watch?v=8VXYIE4KGEQ|YouTube: "Icom DSC Group Call"]].
+      *[[http://www.youtube.com/watch?v=hp4eBcJU79w|YouTube: "Icom - VHF/DSC Marine transcievers"]].
+    *[[http://www.ybw.com/expert-advice/vhf|ybw.com - Yacht & Boating World / Expert Advice / Radios - "VHF users guide powered by ICOM / ICOM's marine radio guide"]].
+      *[[http://www.ybw.com/expert-advice/vhf/dsc|DSC - Digital Selective Calling]].
+  *[[http://www.simrad-yachting.com/|SIMRAD]].
+    *[[http://www.simrad-yachting.com/en/Products/Professional/Communication-Systems/VHF-Radio-Systems/RD68-dVHF-Fixed-VHF/|Simrad RD68 dVHF Fixed VHF]], with DSC support.
+  *[[http://www.raymarine.com/|Raymarine]].
+    *[[http://www.raymarine.com/ProductDetail.aspx?SITE=1&SECTION=2&PAGE=832&PRODUCT=4111|Ray218E VHF Radio]] - DSC, NMEA 01803.
+  *[[http://www.garmin.com/|Garmin Deutschland GmbH]].
+    *[[http://www8.garmin.com/support/userManual.jsp|Garmin Manuals]].
+    *[[http://buy.garmin.com/shop/shop.do?pID=28725&ra=true|VHF 300i AIS]] - "The Garmin VHF 300i AIS provides Class D Digital Selective Calling (DSC) capability via NMEA 0183 or NMEA 2000 connectivity".
+  *[[http://en.wikipedia.org/wiki/Yaesu_%28brand%29|EN.Wikipedia: "Yaesu (brand)"]].
+    *[[http://www.vxstd.com/en/products/marine_transceiver.html|Vertex Standard Co., Ltd - Marine Transceiver]].
+    *[[http://www.standardhorizon.com/?cmd=DisplayProducts&DivisionID=3&ProdCatID=83|StandardHorizon - Fixed Mound VHF]], with DSC support.
+      *QUANTUM GX5500S.
+      *QUANTUM GX5000S.
+      *MATRIX GX3000S.
+      *MATRIX GX2000.
+      *MATRIX GX2100.
+      *QUEST-X GX1500S.
+      *ECLIPSE DSC+ GX1100S.
+      *ECLIPSE DSC GX1000S.
+  *[[http://www.stabo.de/|stabo Elektronik GmbH]] - Ein Unternehmen der  [[http://www.president-electronics.com/|Groupe President Electronics S.A.]], Balaruc/France und exklusiver Lieferant von President-Produkten in Deutschland.
+    *[[http://www.president-electronics.com/boutique_us/fiche_produit.cfm?ref=vhf-5&type=12&code_lg=lg_us&num=0|President Electronics Marine VHF MC-8000 DSC ]].
+  *[[http://www.northstarnav.com/|Northstar]].
+    *[[http://www.northstarnav.com/Products/Communications/Explorer-725-VHF-Radio/|Northstar Explorer 725 VHF Radio]].
+     *DSC (Digital Select Calling) capability that meets SC101 standards (721/725US only).
+     *DSC (Digital Select Calling) capability that meets EC Class D standards (721/725EU only).
+     *"NMEA output sentences: DSC ( for DSC call), DSE (for enhanced position)."
+  *[[http://www.lowrance.com/|Lowrance]].
+    *[[http://www.lowrance.com/Products/Marine/DSC-VHF-Marine-Radios/LVR-880/|Lowrance LVR-880 DSC - VHF+FM Fixed Mount Marine Radio]].
+  *[[http://www.barrettcommunications.com.au/2050.html|Barrett Communications Pty Ltd]].
+    *"Barrett 980 GMDSS", "Barrett 2050 HF".
+    *"Barrett 960 HF Telephone Interconnect", "Barrett 2060 ALE".
+  *[[http://www.furuno.com/|Furuno]].
+    *[[http://www.furunodeepsea.com/|Furuno: DeepSea World]].
+    *[[http://www.furuno.jp/en/product/marine/details/fm_8800s.html|Furuno.JP > Home > Products > Marine Equipment > Communication > Radiotelephone > VHF RADIOTELEPHONE FM-8800S]].
+    *[[http://www.furuno.jp/en/product/marine/details/fm_8800d.html|Furuno.JP > Home > Products > Marine Equipment > Communication > Radiotelephone > VHF RADIOTELEPHONE FM-8800D]] - suitable printer is "Furuno PP-510"
+  *[[http://www.jrc.co.jp|Japan Radio Corporation ( JRC )]].
+    *[[http://www.jrc.co.jp/eng/product/marine/product/jhs770s-780d/jhs770s-780d_outline.html|JRC Marine VHF RADIOTELEPHONE JHS-770S/780D]].
+    *[[http://www.jrcamerica.com/img/products/jhs770sjhs780d/brochure/JHS-770S,780D.pdf|JHS-770S/JHS-780D VHF radiotelephone]] ( PDF ) - suitable printers are NKG-91, DPU-414.
+      *[[http://sii-thermalprinters.com/thermal-printers/portable-desktop-printers-DPU-414.aspx|Seiko Instruments DPU-414 Direct Thermal Portable Desktop Printer]].
+
+===== Marine Transceivers, HF / VHF Transceivers, HF / VHF Radio Telephones, HF / VHF Fixed Radios without DSC but with "Direct Dial" =====
+  *[[http://www.codan.com.au/|Codan Limited]], Australia.
+    *[[http://www.codan.com.au/HFRadio/Products/Transceivers/NGTARv/Features/tabid/232/Default.aspx|NGT AR Voice Transceiver]].
+    *[[http://www.codan.com.au/HFRadio/Products/Transceivers/NGTSRx/Features/tabid/236/Default.aspx|NGT SRx Transceiver]].
+    *[[http://www.codan.com.au/HFRadio/Products/TelephoneInterconnect/Features/tabid/417/Default.aspx|3033 Telephone Interconnect]].
+  *RTU-292.
+    *[[http://www.codan.ru/en/hf_ssb_rtu292.html|Codan, Russia: "CODAN RTU-292 HF SSB Radio/Telephone Interface Unit"]].
+      *"The RTU-292 offers a standard four-wire audio connection to the radios with balanced/unbalanced 600 Ohm or high impedance interfaces".
+      *"The Radio Remote Control Option uses the RTU-292’s serial port to remotely control radios over telephone lines, permitting a user to change internal radio parameters such as mode, channel, or frequency of distant unmanned radios. Optional software is available for many kinds of radio remote control and different operational scenarios".
+    *[[http://www.antennasystems.com/JPSRadio/RTU292.html|"Raytheon JPS Communications RTU-292"]].
+    *[[http://www.mwsatcom.ru/codan/hf%20radio/data/solutions/19-80028-EN1_7.pdf|MWSatcom: "NGT SR telephone system"]].
+    *[[http://www.wbc-technologies.com/Products_Raytheon.html|WBC Technologies: "Raytheon"]] - "Raytheon JPS Communications RTU-292".
+    *[[http://www.raytheon.com/businesses/ncs/civilcomms/|Raytheon Company: Civil Communications Solutions]] ( formerly: [[http://www.jps.com/|JPS Communications, Inc.]] ).
+      *[[http://www.raytheon.com/businesses/ncs/civilcomms/radio/|Raytheon: "Proven Radio Solutions "]].
+        *[[http://www.raytheon.com/capabilities/products/rtu292/|Raytheon: "RTU-292 Radio/Telephone Interface Unit"]].
+    *[[http://www.rockwellcollins.com/ecat/gs/RTU-292.html|RockwellCollins: RTU-292]].
+  *[[http://www.gme.net.au|GME]], Australia.
+    *[[http://www.gme-germany.de/|GME Germany]] - "EPIRBS & PLBs Only", i.e. there is no distributor of marine tranceivers for Germany.
+    *[[http://www2.gme.net.au/vhf_marine.php|GME: "VHF Marine Instruction Manuals"]].
+    *GX558A VHF Marine Transceiver with Seaphone ( discontinued ).
+    *GX558 VHF Marine Transceiver with Seaphone ( discontinued ).
+    *"Your GX558, as supplied, is suitable for marine use in and around Australia and New Zealand. However, as OTC Auto Seaphone Direct Dialing is not currently available in New Zealand, radios distributed in New Zealand have been fitted with the international weather channels INSTEAD of the Audo Dialing feature. If a comparable Auto Dialing System becomes available in New Zealand, your GX558 can be retrofitted with this feature, if required".
+    *"To operate the OTC AUTOMATIC DIALING feature, you must register this number with OTC MARITIME.... If you do not register this number, you will still be able to make SEAPHONE calls through the OPERATOR, but you will not be able to dial directly using the TELEPHONE feature".
+    *[[http://coastradio.info/history.html|Australian Maritime Communications Stations. History of the Australian Coastal Radio Service]].
+      *"In 1947 The Overseas Telecommunications Commission (Australia)- OTC(A) was formed and took over responsibility for the network".
+      *"In 1992 OTC(A) was merged with Telecom and became Telstra.".
+      *[[http://www.telstra.com.au/|Telstra]], Australien.
+  *[[http://www.c4i.com/default.asp?id=8|C4i Pty Ltd.: "c4i switchplusip RIU"]].
+  *[[http://www.selexcom.de/|SELEX Communications GmbH]].
+    *[[http://www.selexcom.de/deutsch/produkte/it-systeme-fuer-taktische-nutzung/sentinel-all-ip-communications.html|SELEX Communications GmbH: "SENTINEL ALL-IP COMMUNICATIONS"]].
+    *[[http://www.selexcom.de/fileadmin/user_upload/grafiken/produkte/IT-Systeme/SENTINEL/RIU__web_.pdf|SELEX Communications GmbH: "Sentinel Radio Interface Unit (RIU)"]].
+
+===== Vendors of Marine Transceivers, HF / VHF Transceivers, HF / VHF Radio Telephones, HF / VHF Fixed Radios=====
+==== Hardware ====
+  *[[http://www.pertec.co.za/|Pertec International]].
+    *[[http://www.pertec.co.za/products_marine?mode=cats&setref=4784|Pertec International: "Products : Marine Products : Communications "]].
+      *[[http://www.pertec.co.za/products_marine?mode=content&id=23570&refto=2723|Pertec International: "Products : Marine Products : Communications: VHF communications : Sailor Products "]] - "Sailor RT4822 VHF DSC".
+      *[[http://www.pertec.co.za/products_marine?mode=content&id=24904&refto=2723|Pertec International: "SAILOR RT5022 VHF DSC"]].
+  *[[http://www.polaris-as.dk/|Polaris Electronics A/S]].
+    *[[http://www.polaris-as.dk/Default.asp?Action=Details&Item=538|Polaris Electronics A/S: "Downloads / User Manuals / Sailor by Thrane & Thrane"]].
+    *[[http://www.polaris-as.dk/default.asp?Action=Details&Item=332|Polaris Electronics A/S: "SAILOR RT5020 VHF DSC"]].
+    *[[http://www.polaris-as.dk/default.asp?Action=Details&Item=329|Polaris Electronics A/S: "SAILOR RT5022 VHF DSC"]].
+    *[[http://www.polaris-as.dk/default.asp?Action=Details&Item=331|Polaris Electronics A/S: "SAILOR  6215 VHF DSC Klasse-D"]].
+  *[[http://www.busse-yachtshop.de/|Busse Yachtshop]].
+    *[[http://www.busse-yachtshop.de/altes/dae_sailor-rt4822.html|Busse Yachtshop: "Marine Radio receiver: Sailor RT4822 Marine Transceiver with DSC and ATIS Controller"]] - "Out of production in 2005, no more available".
+    *[[http://www.busse-yachtshop.de/shop/wbc.php?pid=2275&tpl=produktdetail.html|Busse Yachtshop: "Simrad UKW Funkanlage RS-87 See-/Binnen mit DSC-D"]].
+    *[[http://www.busse-yachtshop.de/shop/wbc.php?&tpl=produktdetail.html&pid=5529&rid=16&recno=11|Busse Yachtshop: "Stabo President MC8000 DSC und ATIS"]] - 169 EUR on 2010-02-02.
+    *[[http://www.busse-yachtshop.de/shop/wbc.php?tpl=produktdetail.html&pid=4521&rid=16&recno=4|Busse Yachtshop: "Radio Northstar Explorer 725 UKW mit DSC und ATIS "]].
+    *[[http://www.busse-yachtshop.de/shop/wbc.php?&tpl=produktdetail.html&pid=2654&rid=16&recno=2|Busse Yachtshop: "Lowrance LVR-880 DSC-UKW"]].
+    *[[http://www.busse-yachtshop.de/pl_simrad-funk.html|Busse-Yachtshop: Simrad Funk - Seefunk und Atis. RD64, RD68, RS86 und RS87]].
+  *[[http://www.eissing.com/|Eissing GmbH]].
+    *[[http://www.eissing.com/produkte/raymarine/kommunikation.html|Eissing GmbH - "Kommunikation"]].
+  *[[http://www.rowlandsmarine.co.uk/|Rowlands Marine Electronics Ltd]].
+    *[[http://www.rowlandsmarine.co.uk/acatalog/vhf-2.html|Fixed VHF Radios]].
+  *[[http://www.westmarine.com/|West Marine, America's Favorite Boating Supply Source]].
+    *[[http://www.youtube.com/user/WestMarineInc|YouTube - WestMarineInc's Channel]].
+      *[[http://www.youtube.com/watch?v=HRNQRaB70JU|YouTube: "ICOM M304 Waterproof DSC VHF Radio"]]
+    *[[http://www.westmarine.com/webapp/wcs/stores/servlet/producte/10001/-1/10001/74553/|ICOM IC-M802 - Digital Marine SSB Radio]]: "Interface Inputs/Outputs: RS-232C port (Modem, GPS, NMEA input), DSC and headphone jack".
+    *[[http://www.westmarine.com/webapp/wcs/stores/servlet/producte/10001/-1/10001/355519/377|ICOM RC25 Remote Head unit M802]]
+      *"The IC-M802 can be set to memorize your HF e-mail access frequency, mode and bandwidth settings. At sea e-mail has never been easier. Please consult with an HF e-mail provider for details".
+      *"When set up with the IC-M502 VHF radio, Icom offers you a complete communications station".
+    *[[http://www.westmarine.com/webapp/wcs/stores/servlet/producte/10001/-1/10001/400989/|GARMIN GPSMAP 421s (with dual-frequency transducer)]]
+      *"Supports DSC (displays position data from DSC capable VHF radio): yes".
+      *"NMEA input/output: NMEA 0183 compatible and NMEA 2000 certified".
+  *[[http://www.mesltd.co.uk/communications-vhf-c-116_28.html|Marine Electronic Service Ltd - VHF]].
+  *[[http://www.amcom.nl/marine/icom_ic_ds100.htm|Amcom "ICOM IC-DS100. DSC Controller And watchkeeping receiver"]].
+  *[[http://www.lakecomm.com.au/hfmarine.html|Lake Macquarie Communications]].
+    *[[http://www.lakecomm.com.au/hfmarine.html|Lake Macquarie Communications: "HF Radio - Marine"]].
+      *NON DSC: Non DSC radios are fully equipped with all Australian and International frequencies and usually contain features such as Selcall and Telcall. **These** two features are essential if you are intending to use Australian networks i.e., Radtel Network (Maritime Safety Network) for your Safety Logging and **also making Radio Telephone calls**.
+      *DSC: Please note that DSC equipped units do NOT have normal Selcall / Telcall (as discussed above) fitted as standard. It can however be fitted as an option if preferred.
+      *Codan NGT-ARV_Mar, NGT-SRX_Mar.
+        *"The Codan NGT is the world's smallest and most automated HF Radio. If you don't require DSC - this is the radio for you! 
+          *Selcall, Telcall, SMS Message Service all inc.
+          *Multi-Functional Selcall ID's for ease of use.
+          *SMS Facility standard feature.
+          *SailMail & Data Compatible - SRX Model only.
+          *Radtel **Direct Dial** Telephone Call compatible.
+  *[[http://hf-ssb-transceiver.at-communication.com/en/codan/codan_3033_telephone_interface.html|AT Electronic and Communication International Ltd: "Codan Telephone Interconnect"]].
+  *[[http://www.fieldmaster.de/products/hfssb/transceivers/980-transceiver-1.html|Wenzl Hruby KG: "Barrett 980 GMDSS and Non GMDSS Marine HF Transceivers"]].
+  *[[http://www.and-group.net/animatedship-15-vhf100.htm|AND Group: "Raytheon GMDSS Radio Telephone VHF 1000"]] - "The two Raytheon Radiotelephones versions VHF 1000 DSC (simplex) and VHF 1100 DSC (duplex) are the new VHF radios for merchant vessels, and professional users."
+==== Resources ====
+  *[[http://www.cs.columbia.edu/~hgs/rtp/telephone.html|Henning Schulzrinne: "Telephone interfaces"]].
+===== Hardware/Software Interfaces of Marine Transceivers, HF / VHF Transceivers, HF / VHF Radio Telephones, HF / VHF Fixed Radios with DSC =====
+==== Resources ====
+  *[[http://www.nmea.org/|National Marine Electronics Association (NMEA)]]
+    *[[http://en.wikipedia.org/wiki/NMEA_0183|EN.WIkipedia: "NMEA 0183"]], [[http://de.wikipedia.org/wiki/NMEA_0183|DE.WIkipedia: "NMEA 0183"]]
+      *"The NMEA standard is proprietary and sells for at least US$ 270 as of August 2007.[2] However, much of it has been reverse-engineered from public sources and is available in references like [[http://en.wikipedia.org/wiki/Gpsd|gpsd]] and [[http://www.gpsinformation.org/dale/nmea.htm|Dale DePriest's]]".
+    *[[http://en.wikipedia.org/wiki/NMEA_2000|NMEA 2000]].
+  *[[http://www.gpsinformation.org/dale/nmea.htm|Dale DePriest: "NMEA data"]].
+  *[[http://www.nmea.de/|NMEA.de - Infos zur NMEA Schnittstelle an Bord ]].
+    *[[http://www.nmea.de/nmea0183datensaetze.html|NMEA 0183 Datensätze]].
+  *[[http://www.kowoma.de/gps/zusatzerklaerungen/NMEA.htm|Kowoma: "NMEA-0183 Daten"]].
+  *[[http://www.kh-gps.de/|Die GPS-Homepage von Klaus H. Hirschelmann]].
+  *[[http://www.tronico.fi/OH6NT/docs/|Amateur radio station OH6NT, Thomas Anderssén]], menu entry "Tech Notes".
+    *[[http://www.tronico.fi/OH6NT/docs/NMEA0183.pdf|The NMEA 0183 Protocol]] ( PDF ).
+    *[[http://www.kh-gps.de/nmea.faq|The NMEA FAQ, Version 6.1  Sept. 15, 1997]].
+  *[[http://brookhouseonline.com/|Brookhouse NMEA multiplexers]].
+    *[[http://brookhouseonline.com/dsc_conversion.htm|Brookhouse NMEA multiplexers: "DSC conversion to waypoints"]].
+  *[[http://gpsd.berlios.de/|gpsd — a GPS service daemon]].
+    *[[http://gpsd.berlios.de/NMEA.txt|Description of popular NMEA commands]], including the NMEA command "FSI" which is important for controlling of the marine transceiver by a modem.
+  *[[http://de.wikipedia.org/wiki/EIA-422|EN.Wikipedia: "RS-422"]], [[http://de.wikipedia.org/wiki/EIA-422|DE.Wikipedia: "RS-422"]].
+  *[[http://en.wikipedia.org/wiki/RS-232|EN.Wikipedia: "RS-232"]], [[http://de.wikipedia.org/wiki/RS-232|DE.Wikipedia: "RS-232"]].
+  *[[http://en.wikipedia.org/wiki/CAN_bus|EN.Wikipedia: "Controller area network"]], [[http://de.wikipedia.org/wiki/Can-bus|DE.Wikipedia: "Controller Area Network"]].
+  *[[http://www.thomasknauf.de/seatalk.htm|Thomas Knauf: "SeaTalk Technical Reference"]] - "SeaTalk is a simple interface for networking Raymarine/Autohelm marine equipment so that all devices of a ship can exchange and share their data. SeaTalk is a proprietary solution of Autohelm and not compatible with NMEA or CAN".
+  *[[http://de.wikipedia.org/wiki/Galvanische_Trennung|DE.Wikipedia: "Galvanische Trennung"]].
+  *LonWorks.
+    *[[http://en.wikipedia.org/wiki/LonWorks|EN.Wikipedia: "LonWorks"]].
+    *[[http://de.wikipedia.org/wiki/LonWorks|DE.Wikipedia: "Local Operating Network"]] - "LonWorks".
+  *[[http://www.quatech.com/catalog/rs232_pci.php|Quatech: "Serial PCI Boards by Quatech"]].
+    *"Quatech RS-232 PCI boards utilize a single PCI slot to provide two, four, or eight independent asynchronous serial ports that share a single interrupt..... The RS-422/485 serial boards are available with either two or four ports".
+    *[[http://sed.inrialpes.fr/twiki/pub/Cycabs/HardwareCycab/dsc200.pdf|Quatech DSC-200/300 Two Channel RS-422/485 Asynchronous Communications Adapter for PCI bus. User's Manual]] ( PDF ).
+
+==== Software ====
+  *NMEA Library( [[http://nmea.sourceforge.net/|Sourceforge: "NMEA"]], [[http://www.sourceforge.net/projects/nmea|Sourceforge: "NMEA"]] ) for Microsoft Visual C++ with Microsoft Visual Studio 2005, Unix GCC.
+  *[[http://www.erikburrows.com/|Erik Burrows]] - Java library "AISlib".
+===== HF E-Mail, HF SITOR, HF E-Mail Service Providers =====
+==== Resources ====
+  *[[http://www.klingenfuss.org/wavecom.htm|Klingenfuss Publications. Klingenfuss Radio Monitoring]].
+    *"**HF is the only worldwide communications medium that is totally free of transmission time charges** - an important factor today in the era of bankrupt economies, tight budgets and heavy cost control. It saves companies and organizations a major portion of their communications budget every year to use on more important things, because - once the equipment is installed - there are virtually no on-going costs".
+  *[[http://www.nws.noaa.gov/om/marine/commar.htm|NOAA - National Oceanic and Atmospheric Administration: "NATIONAL WEATHER SERVICE PRODUCTS VIA COMMERCIAL MARITIME COAST STATIONS and WEATHER NETS"]] - list of global HF radio networks and its HF data services.
+  *SITOR (Simplex Teletype Over Radio).
+    *"ITU-R M.476-5 Direct-Printing Telegraph Equipment in the Maritime Mobile Service".
+    *[[http://en.wikipedia.org/wiki/SITOR|EN.Wikipedia: "SITOR"]].
+    *[[http://mt-utility.blogspot.com/2008/04/digital-mode-of-week-sitor.html|MT Utility World: "Digital Mode of the Week: SITOR"]].
+    *[[http://www.youtube.com/watch?v=c-QdnqR6IMs&feature=related|YouTube: "SITOR A - Sample 1"]].
+    *[[http://www.shipcom.com/|ShipCom LLC]] - "ShipCom provides radio email service via HF SSB radio. The ShipCom system supports SITOR, AMTOR, PACTOR and PACTOR II".
+  *"Emailservice".
+    *[[http://www.gln-network.net/|Global Link Network]] - "GLN-Mail Program".
+    *[[http://www.kiel-radio.de/|Kielradio]].
+      *[[http://www.kiel-radio.de/DE/Start_DE.htm|Voraussetzungen an Board]].
+  *"SailMail & Data".
+    *[[http://www.sailmail.com/|SailMail]].
+    *[[http://en.wikipedia.org/wiki/Sailmail|EN.Wikipedia: "Sailmail"]].
+  *[[http://www.scs-ptc.com/|SCS. Special Communications Systems GmbH & Co. KG]].
+  *[[http://en.wikipedia.org/wiki/PACTOR|EN.Wikipedia: "PACTOR"]].
+  *[[http://www.arrl.org/FandES/field/regulations/techchar/PACTOR-III.html|PACTOR-III Technical Description]].
+  *[[http://www.nsrc.org/wireless/HF-radio.html|E-mail over HF radio]] - "In ranges of less than 50km, VHF radio is an option and is probably cheaper and faster".
+
+==== Software ====
+  *[[http://www.kloth.net/|Ralf D. Kloth]].
+    *[[http://www.kloth.net/radio/selcall.php|SELCALL 1.6, a SITOR SelCall translator]].
+
+
+===== Coastal Radios with "Direct Dial" services =====
+  *[[http://www.maritimradio.no/|Telenor Maritim Radio]], Norway.
+    *[[http://www.maritimradio.no/?pid=311|Telenor Maritim Radio - English]].
+    *[[http://www.maritimradio.no//?pid=315|Telenor Maritim Radio: "Automatic public calls to shore telephone subscribers"]].
+  *[[http://www.radtelnetwork.com.au/|Radtel Network Pty. Ltd.]], Australia.
+    *[[http://www.radtelnetwork.com.au/rad_directdial.html|Radtel TELEPHONE - Direct Dial]].
+  *[[http://tdc.dk/lyngbyradio/|Lyngby Radio]], Denmark - discontinued "Direct Dial" services on 2010-01-01.
+    *[[http://en.wikipedia.org/wiki/Lyngby_Radio|EN.Wikipedia: "Lyngby Radio"]].
+      *[[http://tdc.dk/lyngbyradio/publish.php?dogtag=f5_ms_lr_kur|Lyngby Radio: "Kurser - VHF/DSC"]].
+      *[[http://tdc.dk/lyngbyradio/publish.php?dogtag=f5_ms_lr_kur|Lyngby Radio: "DSC"]].
+      *[[http://tdc.dk/lyngbyradio/publish.php?id=6729|Lyngby Radio: "DSC MMSI 002191000"]].
+    *[[http://www.dma.dk/news/Sider/LyngbyRadiodiscontinuesshortwaveservices.aspx|Danish Maritime Authority: "Lyngby Radio discontinues shortwave services"]] ( 2009-10-01 ).
+  *"OTC MARITIME" ( [[http://en.wikipedia.org/wiki/Overseas_Telecommunications_Commission|EN.Wikipedia: "Overseas Telecommunications Commission"]] Australia, today: [[http://www.telstra.com.au/|Telstra]] ) - provider of non-DSC based "Direct Dial" services in the 1980th.
+  *[[http://www.tepng.com/Communications/Coastal_HF_Outstations.html|PNG Coastal Radio service]], from [[http://en.wikipedia.org/wiki/Papua_New_Guinea|Papua New Guinea]].
+===== Resources =====
+  *[[http://www.radiopics.com/|The RadioPics Database]].
+  *[[http://www.eham.net/|eHam.net]] - "Amateur Radio (Ham Radio) Community Site".
+    *[[http://www.eham.net/reviews/|eHam.net Reviews]].
+      *[[http://www.eham.net/reviews/products/38|Transceivers: VHF/UHF+ Amateur Base/Mobile (non hand-held)]].
+      *[[http://www.eham.net/reviews/products/81|Transmitters: Commercial/Military/Marine adaptable to ham use]].
+  *[[http://www.ohitelecom.com/businessradio.asp|OHI Telecommunications Company LLC - Businessradio]] - Links to manufacturers of HF / VHF equipment.
+  *[[http://www.seefunker.de/|Seefunker.De]]: [[http://www.seefunker.de/homepage/seefunk.htm|Seefunker.De: "Küstenfunkstellen und ihre Rufzeichen. Coast-Stations and their callsigns"]].
+  *[[http://www.coastalradio.org.uk/|Coastal Radio Communications]] - "Covering the world of M.F. / V.H.F. Coastal Radio.
+  *[[http://www.wesselhoeft.net/|Thomas Wesselhöft]]: [[http://www.wesselhoeft.net/Seefunk/SeeFunkFreq.htm|Internationaler UKW-Seefunkdienst]].
+  *[[http://www.skipperguide.de/wiki/Hilfe_im_Seenotfall|SkipperGuide: "Hilfe im Seenotfall"]].
+  *Thrane & Thrane A/S "Sailor" manuals.
+    *[[http://www.up.gov.si/fileadmin/up.gov.si/pageuploads/Izpiti/Sailor_RT4822.pdf|SAILOR RT4822 VHF DSC. Operating Instructions]] ( PDF ).
+    *[[http://esupport.thrane.com/index.php?_m=downloads&_a=downloadfile&downloaditemid=485|Thrane & Thrane A/S: "SAILOR RT4822 VHF-DSC Installation Manual"]] ( PDF ).
+    *[[http://www.polaris-as.dk/files/pdf/manualer/sailor/vhf/rt5022_operation_manual.pdf|SAILOR RT5022 VHF DSC. SAILOR RT5020 VHF DSC Duplex. OPERATION MANUAL]] ( PDF ).
+  *[[http://www.mods.dk/|mods.dk - Modifications for radioamateur]].
+    *[[http://www.mods.dk/manual.php?brand=barrett|mods.dk - "Barrett" manuals]].
+      *"Barrett 980 GMDSS".
+      *"Barrett 960 HF Telephone Interconnect".
+  *[[http://www.hfradioclub.com.au/barrett.htm|HF Radio Club Inc.: "barrett communications.BARRETT HF RADIOS"]].
+  *[[http://www.dxzone.com/|The DXZone: ham-radio, shortwave and cb-radio guide]].
+  *[[http://www.marine-electronics-reviews.com/marine-vhf.html|Marine Electronics Reviews and Installations Tips: "Fixed Mount Marine VHF Radios Reviewed"]].
+  *[[http://www.retrevo.com/|retrevo]].
+    *[[http://www.retrevo.com/samples/Furuno-manuals.html|Retrevo: "Furuno User Manuals]] - "FM-8800S/FM-8800D".
+    *[[http://www.retrevo.com/s/Furuno-PP-510-Fax-Machines-review-manual/id/534bh647/t/1-2/|Retrevo "Furuno PP-510 fax machine"]].
+  *[[http://phone.manualsonline.com|ManualsOnline]].
+    *[[http://phone.manualsonline.com/manuals/mfg/nortel_networks/rtu292.html|ManualsOnline: "JPS Communications, Inc. RTU-292 RADIO / TELEPHONE INTERFACE UNIT Installation and Operation Manual for Nortel Networks RTU-292 Telephone"]].
+    *[[http://phone.manualsonline.com/manuals/mfg/furuno_usa/fm8800d8800s.html|NSTALLATION MANUAL FURUNO VHF RADIOTELEPHONE FM-8800D/8800S]].
+  *[[http://www.infosat.com/files/PDF/Radio/RC1800Brochure.pdf|ABLE INFOSAT COMMUNICATIONS INC.: "GMDSS Radio Station Models RC1815 & RC1825"]] - "GMDSS Compliant Dot Matrix Printer. PP-510. The PP-510 is a GMDSS compliant dot matrix printer capable of printing transmitted and received messages from the RC-1800 console. The PP-510 can print 88 characters per line and uses 8.5" x 60 meter single-ply paper."
+
+===== Marine Radio Courses =====
+  *[[http://www.funk-schule.eu/|FunkSchuleRasmus Hannover]].
+  *[[http://funk-an-bord.de/src-ukw-funkkurs-in-hannover.html|Dipl. Ing. Wilhelm Alm "Kurs zur SRC UBI LRC Prüfung"]].
+===== Forums, Newsgroups =====
+  *[[http://www.razyboard.com/system/user_hvs.html|Bluewater Forum]] / [[http://www.razyboard.com/system/forum-hvs-kommunikation-869470.html|Bluewater Forum - Kommunikation]].
+  *[[http://continuouswave.com/cgi-bin/Ultimate.cgi|continuousWave Forum]].
+  *[[http://www.cruisersforum.com/forums/f13/|Cruisers & Sailing Forums: "Engineering & Systems / Communications & Audio Visual"]].
+  *[[http://www.eham.net/forums/|eHam.net Forum]].
+  *[[http://www.thehulltruth.com/|The Hull Truth]].
+  *[[http://www.gmdssforum.net/|The Global Maritime Distress and Safety System (GMDSS) forum]].
+  *[[http://www.macsailing.net/|MacSailing.net]].
+  *[[http://www.ybw.com/forums/|Yachting and Boating World Forums]].
+  *[[http://www.dsprelated.com/|DSPRelated]].
+
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Recreation/Boating/Marine_Communication/GMDSS/|OpenDirectory "Top: Recreation: Boating: Marine Communication: GMDSS"]].
+  *[[http://www.dmoz.org/Regional/Oceania/Australia/Queensland/Localities/C/Cairns/Business_and_Economy/Marine_Sales_and_Services/|OpenDirectory "Regional: Oceania: Australia: Queensland: Business and Economy: Marine Sales and Services "]].
+
+{{tag>DSC "Digital Selective Calling" "marine transceivers", "HF transceivers", "VHF transceivers", "HF radio telephones", "VHF radio telephones"  "fixed radios" "with DSC", "IEC 61097-3" "ITU-R" "Radiocommunication Sector of ITU" "ITU-R M.493-13" "ITU-R M.541-9" "ITU-R M.689-2" "ITU-R M.1082-1" VHF HF UKW KW}}
+
+<footnote_navi_en>

@@ -1,0 +1,201 @@
+====== [hemmerling] Radio-Frequency Identification ( RFID ) and Near Field Communication ( NFC ) ======
+===== RFID Organizations =====
+==== RFID Organizations ====
+  *[[http://www.aimglobal.org/|AIM - Association for Automatic Identification and Mobility]].
+  *[[http://www.aim-d.de/|AIM-D e.V. - Verband für Automatische Identifikation, Datenerfassung und Mobile Datenkommunikation]].
+  *"Efficient Consumer Response" (ECR).
+    *[[http://www.ecr-all.org/|ECR Community]].
+      *[[http://www.gs1-germany.de/|GS1 Germany GmbH]].
+        *[[http://www.gs1-germany.de/service/4_schritte_zum_barcode/index_ger.html|GS1 Germany GmbH "4 Schritte zum Barcode
+So erhalten Sie Ihre GLN, GTIN-Artikelnummern und EAN-Strichcodes"]].
+        *[[http://www.gs1-complete.de/|GS1 Complete-Portal]].
+      *[[http://www.ecr-austria.at/|ECR-Austria]].
+    *[[http://en.wikipedia.org/wiki/Efficient_Consumer-Response|EN.Wikipedia "Efficient Consumer-Response"]], [[http://de.wikipedia.org/wiki/Efficient_Consumer-Response|DE.Wikipedia "Efficient Consumer-Response"]].
+    *[[http://wirtschaftslexikon.gabler.de/Definition/efficient-consumer-response-ecr.html|Gabler Wirtschaftslexikon "Efficient Consumer Response (ECR)"]].
+  *[[http://www.info-rfid.de/|Informationsforum RFID e.V.]].
+  *[[http://www.rfidba.org/|International RFID Business Association]].
+==== Logistics Organizations with Interest in RFID ====
+  *See  [[enterprise.html|Enterprise Operation]], "Logistics".
+
+===== RFID Events, Fairs, Conferences =====
+  *Fair [[http://www.cebit.de/|CeBIT]], 2011-03-06 - 2011-03-10.
+    *[[http://www.cebit-forum.rfid-im-blick.de/|CeBIT Forum AutoID/RFID 2011]].
+  *Fair [[http://www.cemat.de/|CeMAT Hannover]], 2014-05-19 - 2014-05-23.
+  *[[http://www.gs1-germany.de/events/index_ger.html|GS1 Germany GmbH - Events]].
+    *Conference / Symposium [[http://www.ecrtag.gs1-germany.de/|GS1 Germany GmbH "ECR-Tag"]], 2011-09-21 - 2011-09-22 in Berlin. 
+  *[[http://www.tag-der-logistik.de/|Tag der Logistik - eine Initiative der Bundesvereinigung Logistik (BVL)]], 2012-04-19.
+  *[[http://www.tacook.de/tagungen_kongresse_progr.php?id=00135&sub_id=381|T.A.Cook "7. FVI-Jahresforum RFID Mobile Instandhaltung 2.0 18.-19. Oktober 2011, Köln]], 2011-10-17 - 2011-10-19 in Cologne.
+    *"Zustandserfassung mit RFID", "Optimierung von Wartungsprozessen durch RFID", "Papierlose und rechtssichere Freischaltung durch RFID".
+  *[[http://www.transponder-roadshow.de/|Transponder Roadshow - Plattform für RFID-Anwendungen]], 2009 & 2010 in Hannover.
+===== RFID Technology ===== 
+==== Classification of RFID Technologies ====
+^ ^ ^ ^ ^
+^ # ^ Active / Passive ^ Frequency ^ With/without battery ^
+^ 1 | Aktive | | Battery powered |
+^ 2 | Aktive | 2,4 GHz | |
+^ 3 | Semi-Passiv | UHF ( 868 - 956 MHz ) | Battery powered |
+^ 4 | Passive | UHF ( 868 - 956 MHz ) | |
+^ 5 | Passive | HF ( 13.56 MHz ) | |
+^ 6 | Passive  | LF (124 - 128 KHz) | |
+^ 7 | Cableless sensors | | |
+^ | | | |
+
+===== RFID Products, Tools =====
+==== OpenSource ====
+  *[[http://www.openpcd.org/|OpenPCD]] - "Passive RFID Project".
+==== Manufacturers ====
+  *[[http://www.bluhmsysteme.com/produkte/rfid.html|Bluhm Systeme GmbH "RFID"]].
+  *[[http://www.brooks-rfid.com/|Brooks Automation (Germany) GmbH "Brooks RFID Division"]].
+  *[[http://www.deister.com/|deister electronic GmbH]].
+    *[[http://www.deisterrfidportal.de/|deister RFID portal - RFID Forum für Handel und Industrie, LF, HF, UHF, Mikrowelle]].
+    *"deBus protocol" / "Deister-Protocol" / "Deister-Protokoll".
+      *[[http://www.transpeed.de/de/produkte/konverter/|tranSpeed by deister electronic "tranSpeed - RFID Konverter"]] - "Das deBus Protokoll ist in den meistens deister electronic Produkten integriert".
+  *[[http://www.harting.de/|HARTING Gruppe / HARTING KGaA]].
+    *[[http://www.harting-rfid.com/|HARTING RFID]].
+      *[[http://www.harting-rfid.com/produkte/reader/|Ha-VIS RFID Reader]] -> HF & UHF.
+      *[[http://www.harting-rfid.com/produkte/transponder/|Ha-VIS RFID Transponder]] -> UHF ( 860 – 960 MHz ).
+      *"RFID Netzwerksystem HARfid".
+    *The PDF and paper magazine [[http://www.harting.com/aktuelles/kundenzeitschrift-tec-news/|tec.News]].
+    *[[http://de.wikipedia.org/wiki/Harting_Technologiegruppe|DE.Wikipedia "Harting Technologiegruppe"]].
+  *[[http://www.schreiner-logidata.de/|Schreiner Group GmbH & Co. KG, Schreiner LogiData]].
+  *[[http://www.automation.siemens.com/rfid/de/competence-in-rfid.html|SIEMENS AG "RFID-Lösungen aus einer Hand"]].
+  *[[http://www.smart-tec.com/|smart-TEC GmbH & Co. KG]] - "Focused on the development and production of highly durable, custom-made Radio Frequency IDentification (RFID) tags and smart-Labels for industrial applications".
+  *Texas Instruments.
+    *[[http://www.ti.com/rfid/|Texas Instruments, Texas Instruments Radio Frequency Identification Systems "RFID"]] ( english ).
+    *[[http://www.ti.com/ww/de/prod_rfid.html|Texas Instruments "RFID"]] ( german ).
+    *[[http://focus.ti.com/wireless/docs/wirelessoverview.tsp?sectionId=646&tabId=2735|Texas Instruments "Wireless Connectivity"]].
+  *[[http://www.youcard.de/rfid-karten.htm|YouCard Germany "RFID Chipkarten"]].
+==== RFID Vendors ====
+  *[[http://www.rfid-webshop.com/|RFID & NFC TAGnology Webshop]] - "günstig RFID & NFC online kaufen".
+==== RFID Starter Kits ====
+  *[[http://rfid-informationen.de/testberichte/schreiner-starterkit/|RFID-Informationen.de "RFID Starterkit von Schreiner Logidata"]], 2005-06-14.
+  *[[http://www.initpro.de/|initPRO GmbH]] - "BI - Business Intelligence, RFID - Radio Frequency Identification, SRM - Service & Repair Management".
+    *[[http://www.initpro.de/Artikel/RFID-Artikel/RFID.html|initPRO GmbH "RFID"]].
+    *[[http://www.initpro.de/Produkte/Produkte/RFID-StarterKIT.html|initPRO GmbH  "RFID StarterKIT"]].
+    *[[http://www.rfidentificator.de/|initPRO GmbH - RFIDentificator]] - "Die Software zur Integration verschiedener RFID Hardware Komponenten"
+    *[[http://www.rfidentificator.de/index.php/RFID/rfid-starter-kit.html|initPRO GmbH - RFIDentificator "RFID StarterKIT"]].
+===== Near Field Communication ( NFC ) =====
+    *[[http://www.mifare.net/|NXP Semiconductors Austria GmbH Styria "MIFARE]].
+      *[[http://www.mifare.net/en/products/mifare-smartticket-ics/mifare_ultralight/|NXP Semiconductors Austria GmbH Styria "MIFARE Ultralight"]].
+      *"How to build a safe NFC validating system" / "Building a safe NFC ticketing system".
+        *[[http://www.youtube.com/watch?v=Czvn4L1r6f4|YouTube "Matteo Collura( Eagle1753 ), Matteo Beccaro ( bugyhardy ): Building a safe NFC ticketing system [30c3]"]].
+        *[[http://events.ccc.de/congress/2013/Fahrplan/events/5479.html|30c3 "lecture: Building a safe NFC ticketing system"]].
+        *[[http://wifiattack.wordpress.com/2013/12/31/30c3-experience/|WiFi Attack News and updates from WiFi world "bughardy: 30C3 experience"]].
+        *The conference slides contain a logo of [[http://www.securenetwork.it/|Secure Network S.r.l.]].
+        *Matteo Collura, [[eagle1753@onenetbeyond.org]].
+        *Matteo Beccaro, [[bughardy@cryptolab.net]].
+      *[[http://en.wikipedia.org/wiki/MIFARE|EN.Wikipedia "MIFARE"]], [[http://de.wikipedia.org/wiki/Mifare|EN.Wikipedia "Mifare"]].
+  *[[http://en.wikipedia.org/wiki/Near_field_communication|EN.Wikipedia "Near field communication"]], [[http://de.wikipedia.org/wiki/Near_Field_Communication|DE.Wikipedia "Near Field Communication"]].
+===== eBusiness =====
+==== Software ====
+=== Microsoft BizTalk ===
+  *[[http://www.microsoft.com/biztalk/|Microsoft BizTalk Server]] ( english ), [[http://www.microsoft.com/germany/biztalk/|Microsoft BizTalk Server]] ( german ).
+  *[[http://www.microsoft.com/biztalk/en/us/editions.aspx|Microsoft BizTalk Server "Editions"]].
+  *[[http://www.microsoft.com/biztalk/en/us/rfid.aspx|Microsoft BizTalk Server "BizTalk RFID"]].
+  *[[http://msdn.microsoft.com/en-us/biztalk/dd409102|Microsoft MSDN, BizTalk Server Developer Center "Microsoft BizTalk RFID"]].
+  *[[http://msdn.microsoft.com/de-de/library/dd352559%28v=BTS.70%29.aspx|Microsoft MSDN "Hilfe zu Microsoft BizTalk Server RFID 2010"]].
+==== Resources ====
+  *[[http://www.prozeus.de/|PROZEUS - PROZESSEundSTANDARDS, eBusiness Praxis für den Mittelstand]].
+    *[[http://www.prozeus.de/prozeus/netzwerke/index.htm|PROZEUS - "Netzwerke"]].
+    *[[http://www.prozeus.de/cgi-bin/fts_search.pl?search=rfid|PROZEUS - "RFID"]].
+===== Logistics & RFID =====
+  *See  [[enterprise.html|Enterprise Operation]], "Logistics".
+===== Criticism =====
+  *Be Aware:
+    *It is most important to find the right transponder, than anything else ( frequency, reader,... ).
+    *In general, manufacturers of readers are not experts for transponders.
+    *Developers of suitable transponders for your project / application are hard to find, so search worldwide!
+  *[[http://www.agb-antigenozidbewegung.de/|AGB-Antigenozidbewegung]] - "Stop RFID".
+  *[[http://www.foebud.org/rfid/was-ist-rfid|FoeBuD e.V. "Was ist RFID?"]].
+  *[[http://www.freiheitskampagne.ch/|FREIHEITSKAMPAGNE.CH]] - "Überparteiliches Komitee gegen biometrische Pässe und Identitätskarten".
+  *[[http://de-de.facebook.com/pages/Nein-zu-RFID-CHiPs/130136307052139|Facebook "Nein! zu "RFID-CHiP's!"]].
+  *[[http://www.stoppt-die-e-card.de/|Aktion: Stoppt die e-Card! e-Card - Nein Danke!]].
+  *Blog [[http://therealstories.wordpress.com/rfid/|The Real Stories, Article "RFID"]].
+===== Resources =====
+  *[[http://electronics.howstuffworks.com/gadgets/high-tech-gadgets/rfid.htm|Kevin Bonsor, Candace Keener and Wesley Fenlon "How RFID Works"]].
+  *[[http://www.rfidatlas.de/|Bundesministerium für Wirtschaft und Technologie "RFID Atlas - Netzwerk Elektronischer Geschäftsverkehr"]]
+  *[[http://www.bibliotheksportal.de/themen/rfid.html|Deutscher Bibliotheksverband, knb - Kompetenznetzwerk für Bibliotheken, Bibliotheksportal - "RFID -Einführung"]].
+  *golem.de.
+    *[[http://www.golem.de/specials/rfid/|golem.de - IT-News für Profis "RfID"]].
+    *[[http://www.golem.de/0609/48096.html|golem.de - "RFID-Lesegerät mit offenem Hardware-Design. Fertiges Gerät auch zum Kauf verfügbar"]], 2006-09-28.
+  *IHK Arbeitskreise Logistik / RFID.
+    *[[http://www.ihk-oldenburg.de/standortpolitik/verkehr_haefen/gueterkraft-_und_strassenpersonenverkehr/ihk-arbeitskreis_logistik.php|Oldenburgische Industrie- und Handelskammer "IHK-Arbeitskreis Logistik"]].
+  *[[http://www.ipih.de/|IPIH - Die Wissensplattform der Instandhalter]].
+    *[[http://www.ipih.de/sonstige-rollen/rfid-forum|IPIH - Die Wissensplattform der Instandhalter "RFID-Forum. RFID-Fachkonferenz des FVI"]].
+  *Blog [[http://blogs.msdn.com/b/kalyanaj/|Microsoft MSDN Blogs, "Microsoft BizTalk RFID with KalyanaJ"]] - "The Ins and outs of what you can do with BizTalk RFID...".
+  *[[http://www.morerfid.com/i|MoreRFID]] - "Knowledgebase, Features, News, Industry News,  Events, Vendors, Products, FAQ, Jobs".
+  *[[http://www.palowireless.com/|palowireless Wireless Resource Center]] - "The definitive internet guide to wireless technologies".
+  *[[http://www.rfid.org/|RFID.org]] - "RFID (Radio Frequency Identification) Technology News & Insights".
+  *[[http://www.rfidexchange.com/|RFID Exchange]] - "A unique source of objective information and advice about the rapidly changing global world of RFIDs".
+  *[[http://www.rfid-im-blick.de/|RFID im Blick]] - "Das Medium für kontaktlosen Datentransfer".
+    *[[http://www.presseportal-rfid-im-blick.de/|RFID im Blick, AutoID / RFID - Marktplatz und Presseportal]].
+  *[[http://www.rfid-handbook.de/|Klaus Finkenzeller "RFID-Handbook.de"]] - "Radio-Frequency-IDentific@tion - Heute Technologie von morgen beherrschen".
+  *[[http://rfid-informationen.de/|RFID-Informationen.de]].
+  *[[http://www.rfidjournal.com/|RFID Journal]].
+  *[[http://www.rfid-konsortium.de/|RFID Konsortium]].
+  *[[http://www.rfid.net/|RFID.net - The RFID Network. Stay Tuned]] - "News. RFID Research Product & Vendor Selection. Buy RFID Equipment Benchmarks & Best-in-class. Best Practices & How-To Guides. Basics - What is RFID".
+  *[[http://www.rfid-ready.de/|rfid ready - Informationsportal für RFID-Technologie]].
+  *[[http://www.rfid-support-center.de/|RFID Support Center]].
+  *[[http://www.rfidsysteme.de/|Markus Mueller internetmarketing "rfidsysteme.de"]].
+    *[[http://www.rfidsysteme.de/rfid-openpcd/index|rfidsysteme.de "RFID OPENPCD"]].
+  *[[http://www.usingrfid.com/|Using RFID]].
+  *[[http://rfid.wikia.com/|Wikia "RFID Wiki"]].
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/Radio-frequency_identification|EN.Wikipedia "Radio-frequency identification"]], [[http://de.wikipedia.org/wiki/RFID|DE.Wikipedia "RFID"]].
+    *[[http://en.wikipedia.org/wiki/Internet_of_Things|EN.Wikipedia "Internet of Things"]], [[http://de.wikipedia.org/wiki/Internet_der_Dinge|DE.Wikipedia "Internet der Dinge"]].
+  *[[http://wsn.oversigma.com/|Wireless Sensor Network (WSN) Wiki]].
+
+===== Literature =====
+==== Paper Magazines ====
+  *The paper magazine [[http://www.rfid-im-blick.de/|RFID im Blick]].
+==== Books ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/344641200X/hemmerling-21|Klaus Finkenzeller: "RFID-Handbuch: Grundlagen und praktische Anwendungen von Transpondern, kontaktlosen Chipkarten und NFC"]] #.
+    *[[http://www.rfid-handbook.de/|The autors homepage of the RFID Handbook]].
+    *[[http://rfid-handbook.de/forum/|Klaus Finkenzeller, RFID-Handbook.de "RFID-Forum"]].
+    *[[http://books.google.com/books?id=49HTBDrfqFUC|Google Books "Klaus Finkenzeller: RFID-Handbuch: Grundlagen und praktische Anwendungen von Transpondern, kontaktlosen Chipkarten und NFC"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN//3836452995/hemmerling-21|Tim Götzen: "RFID auf Produkten ('item level'): Anforderungen und Lösungsansätze für das Informationsmanagement"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1596931949/hemmerling-21|Harvey Lehpamer: "RFID Design Principles (Artech House Microwave Library)"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN//0072263660/hemmerling-21|Sanjiv Dua, Michael Meyers: "Mike Meyers' Comptia RFID+ Certification Passport (Mike Meyers' Certification Passport"]] #.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1607839814/hemmerling-21|Amin Rida, Li Yang, Manos Tentzeris: "RFID-Enabled Sensor Design and Applications (Artech House Integrated Microsystems)"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3642114598/hemmerling-21|Gerrit Tamm, Christoph Tribowski: "RFID (Informatik Im Fokus)"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN//383226616X/hemmerling-21|Günter Wohlers, Michael H Breitner: "RFID-Anwendungen: Einführung, Fallbeispiele und Szenarien in der Praxis"]].
+===== Courses & Certification =====
+  *[[http://www.rfid4u.com/services/freeelearning.asp|RFID4u]] - free online courses "RFID Basics Course", "RFID and DoD/UID Compliance", "RFID+ Certification Practice Exam: Test Drive".
+  *[[http://certification.comptia.org/getCertified/certifications/rfid.aspx|CompTIA RFID+]] - "CompTIA Radio Frequency Identification (RFID+) certification measures a technician's ability to install, maintain, repair, and troubleshoot the hardware and software functionality of RFID products".
+  *[[http://www.usingrfid.com/news/read.asp?lc=y74384lx1037zc|Using RFID "RFID certification: Everything you need to know"]].
+
+===== Forums, Newsgroups, Communities =====  
+  *[[http://www.cargoforum.de/|Cargoforum - logistics, knowledge & networking]] - "Das deutsche Forum für Transport, Logistik und Spedition".
+    *[[http://www.cargoforum.de/Forums/file=viewforum/f=58.html|Cargoforum - logistics, knowledge & networking "RFID & Co. Themen rund um RFID"]].
+    *[[http://www.facebook.com/Cargoforum|Facebook "Cargoforum"]].
+  *[[http://forum.chip.de/drahtlos-netzwerke/|CHIP Online Forum "Hardware (Praxis) / Drahtlos-Netzwerke"]].
+  *[[http://groups.google.com/groups/dir?q=RFID|Google Groups - Gruppenverzeichnis "RFID"]].
+  *[[http://community.psion.com/|IngenuityWorking.com - Psion's Community]] - "Modularity, Customization, Open Innovation".
+    *[[http://community.psion.com/discussions/f/38.aspx|IngenuityWorking.com - Psion's Community, Discussions "RFID"]].
+  *[[http://www.rfidba.org/groups|International RFID Business Association "Social networking groups on LinkedIn, Plaxo and XING"]].
+  *Microsoft.
+    *[[http://social.msdn.microsoft.com/forums/en-US/biztalkrfid/|Microsoft MSDN, BizTalk Server Forums "BizTalk Server RFID"]], [[http://social.technet.microsoft.com/Forums/en/biztalkrfid/|Microsoft TechNet, BizTalk Server Forums "BizTalk Server RFID"]] - "All questions related to new RFID features of BizTalk Server".
+    *[[http://msdn.microsoft.com/de-de/library/dd351612%28v=bts.70%29.aspx|Microsoft MSDN "BizTalk RFID-Community-Ressourcen"]].
+  *[[http://www.barcode-forum.com/|OPAL BARCODE & AUTO-ID FORUM]] - "Alles rund ums Thema Barcode, Barcodescanner, Etikettendrucker, Mobile Datenerfassung, Barcodesoftware, PDA, TabletPC und vieles mehr..."
+  *[[http://www.palowireless.com/rfid/forums.asp|palowireless Wireless Resource Center "RFID Forums, Groups and Mailing Lists"]].
+  *[[http://forum.reiner-sct.com/|REINER SCT Forum]] - Subforums "cyberJack RFID basis. Der Chipkartenleser für den neuen Personalausweis", "cyberJack RFID standard. Sichere PIN-Eingabe für eID und mehr", "cyberJack RFID komfort. Der Komfortleser für volle nPA Unterstützung", "loginCard (RFID-Karte). Die loginCard ist das zentrale Sicherungsmedium".
+  *[[http://www.rfid-dialogue.com/|RFID Dialog / SMART Community]] by [[http://www.rfid-ready.de/|rfid ready - Informationsportal für RFID-Technologie]] - "Die Community für AutoID-/RFID-Technologie".
+  *[[http://wwww.rfidglobal.eu/|CASAGRAS, an EU Framework 7 Project "RFID Global Forum and The Internet of Things"]].
+    *[[http://forum.rfidglobal.eu/|CASAGRAS, an EU Framework 7 Project "RFID Global Forum"]].
+  *[[http://rfid-handbook.de/forum/|Klaus Finkenzeller, RFID-Handbook.de "RFID-Forum"]].
+  *"RFID Journal".
+    *[[http://www.rfidjournal.com/forum/|RFID Journal - Community Discussions]].
+    *[[http://www.rfidconnect.com/|RFID Journal LIVE!]].
+  *[[http://www.rfid-asia.info/|FID Asia]] - "RFID Community in Asia".
+    *[[http://www.facebook.com/rfid.community|Facebook "RFID ASIA"]] - "The largest RFID Community in Asia Pacific".
+    *[[http://www.twitter.com/rfidasia|Twitter "RFID ASIA"]].
+    *Blog [[http://blog.rfid-asia.info/|RFID ASIA BLOG]].
+  *[[http://www.rfidtribe.com/|RFID Tribe]].
+  *[[http://www.xing.com/net/RFID/|XING "RFID"]].
+  *[[http://tech.groups.yahoo.com/group/SV_RFID/|Yahoo Groups "SV_RFID · Silicon Valley RFID SIG"]], [[http://finance.groups.yahoo.com/group/rfidtribe/|Yahoo Groups "rfidtribe · RFID Tribe - Collaborate w/ RFID Experts"]], [[http://tech.groups.yahoo.com/group/rfid/|Yahoo Groups "rfid · Open Discussion Forum on RFID"]], [[http://tech.groups.yahoo.com/group/RFID_Tech/|Yahoo Groups "RFID_Tech"]], [[http://finance.groups.yahoo.com/group/WCA-RFID/|Yahoo Groups "WCA-RFID · WCA-RFID Focus Group"]], [[http://finance.groups.yahoo.com/group/Underground_Economy/|Yahoo Groups "Underground_Economy · Underground Economy"]], [[http://finance.groups.yahoo.com/group/RFID_CHINA/|Yahoo Groups "RFID_CHINA"]], [[http://tech.groups.yahoo.com/group/indusrfid/|Yahoo Groups "indusrfid · Indus RFID"]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Society/Issues/Science_and_Technology/RFID/|OpenDirectory "Top: Society: Issues: Science and Technology: RFID"]].
+  *[[http://www.dmoz.org/Society/Issues/Science_and_Technology/RFID/|OpenDirectory "Top: Business: Business Services: Physical Asset Management: Asset Tracking: RFID"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wirtschaft/Verkehr_und_Logistik/Logistik/Tracking_und_Tracing/RFID/|OpenDirectory "Top: World: Deutsch: Wirtschaft: Verkehr und Logistik: Logistik: Tracking und Tracing: RFID"]].
+{{tag>RFID "radio-frequency identification" NFC "near field communication"}}
+<footnote_navi_en>

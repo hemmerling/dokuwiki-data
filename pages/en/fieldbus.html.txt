@@ -1,0 +1,418 @@
+====== [hemmerling] Fieldbuses and Automation Networks ======
+Related pages:
+  *[[automation.html|Automation & Process Logic Control]].
+  *[[bautomation.html|Building Automation & Home Automation]].
+  *[[ddl.html|Device Description Languages and Device Parameterization]].
+  *[[carnetworks.html|Distributed Computing on Automotive Networks, Car Electronics and Automotive Data Formats]].
+  *[[industrialdata.html|Industrial Data & Industrial Data Exchange]].
+  *[[industry40.html|"Industry 4.0" & "Internet of Things" ( IOT ) & "Cyber-physical Systems"]].
+  *[[network.html|Network Tools]].
+  *[[wireless.html|Wireless Networks]].
+===== Automotive Networks and Data Formats ===== 
+  *See [[carnetworks.html|Automotive Networks, Car Electronics and Automotive Data Formats]].
+===== Automation Networks and Protocols =====
+  *<WRAP tip>[[asi.html|AS-Interface ( Actuator Sensor Interface, AS-i, AS-i Safety, ASI, ASI-Bus )]]</WRAP>
+  *The OpenSource [[http://www.biss-interface.com/|BiSS Interface]] by [[http://www.ichaus.de/|iC-Haus GmbH]].
+    *[[http://de.wikipedia.org/wiki/BiSS_Interface|DE.Wikipedia "BiSS Interface"]].
+  *Common Industrial Protocol (CIP).
+    *[[http://en.wikipedia.org/wiki/Common_Industrial_Protocol|EN.Wikipedia "Common Industrial Protocol"]] - "The Common Industrial Protocol (CIP) is used in EtherNet/IP, DeviceNet, CompoNet and ControlNet".
+    *DeviceNet.
+      *[[http://www.odva.org/|Open DeviceNet Vendors Association ( ODVA )]].
+      *[[http://www.odva.org/default.aspx?tabid=54|ODVA "The CIP Advantage"]].
+      *[[http://en.wikipedia.org/wiki/Open_DeviceNet_Vendors_Association|EN.Wikipedia "Open DeviceNet Vendors Association"]].
+    *EtherNet/IP.
+      *[[http://ab.rockwellautomation.com/networks-and-communications/ethernet-ip-network|Rockwell Automation "EtherNet/IP Network"]].
+      *[[http://en.wikipedia.org/wiki/EtherNet/IP|EN.Wikipedia "EtherNet/IP"]], [[http://de.wikipedia.org/wiki/EtherNet/IP|DE.Wikipedia "EtherNet/IP"]].
+      *As of 2014, both SIEMENS and PHOENIX CONTACT start to support "EtherNet/IP" in addition to "PROFINET" on their latest devices... more and more.
+  *[[http://www.dnp.org/|Distributed Network Protocol]].
+    *[[http://en.wikipedia.org/wiki/DNP3|EN.Wikipdia "DNP3"]], [[http://de.wikipedia.org/wiki/DNP3|DE.Wikipdia "DNP3"]].
+  *[[http://en.wikipedia.org/wiki/EtherCAT|EN.Wikipedia "EtherCAT"]], [[http://de.wikipedia.org/wiki/EtherCAT|DE.Wikipedia "EtherCAT"]].
+    *[[http://www.ethercat.org/|EtherCAT Technology Group]].
+  *The "Geysitech (Bayern-Hessen) Protocol" ( "Geysitech Protokoll" / "Bayern-Hessen Datenprotokoll" ) for climate telemetry systems, used by the IT infrastructure of the german trade and industrial inspectorates ( "Gewerbeaufsichtsamt" ) in Germany.
+    *Data processing systems of [[http://www.thermoscientific.com/|Thermo Scientific]] are known to support this protocol!
+  *[[http://www.io-link.com/|IO-Link]].
+    *No bus, but a P2P network. You can change an IO-Link sensor device easily, as the configuration parameters are not stored on the device, but on the IO-Link controller.
+    *[[http://www.phoenixcontact.de/automatisierung/187_25048.htm|PHOENIX CONTACT "I/O-Systeme – IO-Link"]].
+    *[[http://www.balluff.com/|Balluff GmbH - sensors worldwide]].
+      *[[http://www.balluff.com/Balluff/de/ProductsChannel/Overview/de/Networking+System-%C3%9Cbersicht.htm|Balluff GmbH "Networking System-Übersicht"]].
+      *[[http://www.pressebox.com/pressemeldungen/balluff-gmbh/boxid/102015|Pressebox "Balluff introduces IO-Link laser sensors at the Hanover Exhibition"]], 2007-04-16.
+  *PROFIBUS / PROFINET.
+    *[[http://www.profibus.com/|PROFIBUS Nutzerorganisation e.V.]] - PROFIBUS, PROFINET.
+    *"PROFIBUS DP", "PROFIBUS PA".
+      *[[http://en.wikipedia.org/wiki/Profibus|EN.Wikipedia "Profibus"]], [[http://de.wikipedia.org/wiki/Profibus|DE.Wikipedia "Profibus"]].
+      *Profibus PA - network topologies "ring", "star", "line", "bus". Power supply of devices by the network cable. It is quiet [[http://en.wikipedia.org/wiki/Electromagnetic_compatibility|EMC]] / [[http://de.wikipedia.org/wiki/Elektromagnetische_Vertr%C3%A4glichkeit|EMV]] safe. Option "ProfiSAFE" ( [[http://en.wikipedia.org/wiki/PROFIsafe|EN.Wikipedia  "PROFIsafe"]], [[http://de.wikipedia.org/wiki/PROFIsafe|DE.Wikipedia "PROFIsafe"]] ) for use with safety controls.
+      *Profibus DP - just bus topology "line", no power over line.
+    *PROFINET.
+      *[[http://en.wikipedia.org/wiki/Profinet|EN.Wikipedia "Profinet"]], [[http://de.wikipedia.org/wiki/Profinet|DE.Wikipedia "Profinet"]]
+      *[[http://www.automation.siemens.com/mcms/automation/en/industrial-communications/profinet/Documents/articles/de/profienergy-tia.html|SIEMENS AG "Energie sparen mit PROFINET: PROFIenergy für Totally Integrated Automation"]].
+      *PROFINET technologies.
+        *[[http://www.wireshark.org/|Wireshark]] decodiert in der aktuellen Version auch die Profinet-Telegramme" :-).
+        * Media redundancy.
+          *Ethernet - [[http://en.wikipedia.org/wiki/Rapid_Spanning_Tree_Protocol|EN.Wikipedia "Rapid Spanning Tree Protocol"]], [[http://de.wikipedia.org/wiki/Rapid_Spanning_Tree_Protocol|DE.Wikipedia "Rapid Spanning Tree Protocol"]].
+          *PROFINET - Media Redundancy Protocol ( MRP ).
+        *[[http://en.wikipedia.org/wiki/Link_Layer_Discovery_Protocol|EN.Wikipedia "Link Layer Discovery Protocol"]], [[http://de.wikipedia.org/wiki/LLDP|DE.Wikipedia "LLDP"]].
+        *[[http://en.wikipedia.org/wiki/Simple_Network_Management_Protocol|EN.Wikipedia "Simple Network Management Protocol"]], [[http://de.wikipedia.org/wiki/Simple_Network_Management_Protocol|DE.Wikipedia "Simple Network Management Protocol"]] ( SNMP ).
+        *[[http://www.ge-ip.com/blog/profinet-network-geeks-want/|GE Intelligent Platforms Blog "PROFINET for Network Geeks (and Those Who Want to Be)"]].
+        *Routing of PROFINETl.
+          *[[http://us.profinet.com/is-profinet-routable-report-from-vancouver/|PROFINET-PROFIBUS North America "Is PROFINET routable? (Report from Vancouver)"]].
+            *"Hubs work at layer 1 of the ISO/OSI seven layer model.  Hubs are not recommended for industrial networks because they send an incoming message on any port out of every other port.  This creates too much traffic to maintain deterministic behavior on the network.  Switches operate at layer 2.  In the Ethernet world this uses the physical address of the device – the MAC address.  Layers 3 (IP) and 4 (TCP or UDP) are not involved.  Routers use layer 3 and communicate using the IP address.  Routers are necessary when communicating from one subnet to another".
+            *"PROFINET RT uses layers 1, 2, and 7 of the ISO stack just like PROFIBUS and other fieldbuses do.  We do this to reduce jitter.  But since it does not use IP, it can’t pass through a router.  Fortunately, PROFINET CBA (Component Based Automation, our peer-to-peer communications) allows us to use TCP/IP for communications, too… and that is routable.  So the short answer after the long background: Yes, PROFINET is routable using PROFINET CBA.  (Caveat: using TCP/IP and going through a router will introduce some modest delays compared to PROFINET RT.)".
+          *PROFINET requires "protocol transparent Layer 2 communications". In opposite, TCP/IP just requires "protocol transparent Layer 3 communications" and by this ( the use of an IP address ), it is routable by a network routers.
+      *The free online course [[http://www.phoenixcontact.de/profinet|PHOENIX CONTACT "PROFINET E-Learning"]].
+        *Modules "PROFINET Basics", "PROFINET Practice 1", "PROFINET Practice 2", "PROFINET Practice 3", "PROFINET Practice 4".
+        *[[http://www.phoenixcontact.de/ilearningde/deu/profinet/online/profinet_feedback_de.jsp|PHOENIX CONTACT "PROFINET-Schulung", "Feedback Formular"]].
+        *FLASH must be enabled. Please switch off any "FLASH blockers".
+        *Starting with module "PROFINET Practice 2", access is just granted by passing the previous modules, else the modules are invisible.
+  *[[http://en.wikipedia.org/wiki/Safety_Network_International_e.V.|EN.Wikipedia "Safety Network International e.V."]], [[http://de.wikipedia.org/wiki/SafetyNET_p|DE.Wikipedia "SafetyNET p"]].
+    *[[http://www.safety-network.de/|Safety Network International e.V.]].
+  *[[http://en.wikipedia.org/wiki/SERCOS_interface|EN.Wikipedia "SERCOS interface"]], [[http://de.wikipedia.org/wiki/SERCOS_interface|DE.Wikipedia "SERCOS interface"]], [[http://de.wikipedia.org/wiki/SERCOS_III|DE.Wikipedia "SERCOS III"]].
+    *[[http://www.sercos.org/|SERCOS International e.V. - SERCOS interface]].
+   *"USS Protokoll", "USS-Antriebsprotokoll" - "Universelles-serielles-Schnittstellen-Protokoll".
+     *[[http://de.wikipedia.org/wiki/USS|DE.Wikipedia "USS"]].
+     *[[https://www.siemens.de/suche/Pages/Suchergebnisse.aspx?scsconfig=SIEMENSDE-RDINTERNET&q=uss|SIEMENS AG, Suchergebnisse "USS"]].
+     *[[http://www.siemens.de/industry/automation/mitte/downloads/Documents/Positionieren_S7-1200_CS.pdf|SIEMENS AG ""Tipps & Tricks S7 1200. Positionierung SIMATIC S7 1200 + SINAMICS S110"]] ( PDF ), section "USS Protokoll: Grundlagen".
+     *[[http://cache.automation.siemens.com/dnl/DU0MjczAAAA_24178253_HB/uss_24178253_spec_76.pdf|SIEMENS Universal Serial Interface Protocol - USS Protocol. Specification]] ( PDF ).
+     *[[http://www.siemens.de/industry/automation/mitte/downloads/Documents/Forum_2010_M%C3%A4rz_RM.pdf|SIEMENS AG "Automatisierungsforum März 2010. S7 1200 aktuell"]].
+     *[[http://support.automation.siemens.com/WW/view/de/37604154|SIEMENS AG, Application & Tools "Einfache Vernetzung und Kaskadierung von Antrieben (CE-X8)"]].
+===== Internet 4.0 M2M Networks and Protocols =====
+==== <AutomationML> ====
+  *See [[ddl.html|Device Description Languages and Device Parameterization]].
+==== Constrained Application Protocol ( CoAP ) ====
+  *[[http://tools.ietf.org/html/draft-ietf-core-coap-18|The Internet Engineering Task Force (IETF), CoRE Working Group "Constrained Application Protocol (CoAP)"]].
+  *REST may work by HTTP and CoAP, but the CoAP protocol is much less "slimmer" and therefore ideal for IoT.
+==== IoT Middleware ====
+=== Data Distribution Services ( DDS ) ===
+  *[[http://www.fortiss.org/|fortiss GmbH]].
+    *The OpenSource project [[http://www.fortiss.org/forschung/projekte/chromosome/|fortiss GmbH Projekte "CHROMOSOME. Eine modulare Middlewarearchitektur für Cyber-Physical Systems"]] - a DDS implementation / based on DDS.
+    *[[http://www.xing.com/profile/Josef_Viehhauser3|XING "Josef Viehhauser"]], marketing research specialist.
+  *[[http://en.wikipedia.org/wiki/Data_Distribution_Service|EN.Wikipedia "Data Distribution Service"]], [[http://de.wikipedia.org/wiki/Data_Distribution_Service|DE.Wikipedia "Data Distribution Service"]].
+=== Some other important IoT Middleware, according to VDC Research in 2014 ===
+  *AllJoyn.
+  *CORBA.		
+  *DeviceHive.
+  *Eclipse Kura.
+  *Eclipse Mihini.
+  *Eclipse Ponte.		
+  *Eclipse SCADA.		
+  *Eclipse SmartHome.
+  *Eurotech Everywhere Software Framework (ESF).
+  *Intel Common Connectivity Framework (CCF).
+  *IPSO Alliance Web Objects.
+  *Java ME Embedded.
+  *Java SE Embedded.
+  *OneM2M.
+  *OSGi.
+  *Open Mobile Alliance (OMA) Device Management (DM).
+  *OMA Lightweight Device Management (LWM2M).
+  *Oracle Event Processing Embedded.
+  *Samsung SAMI framework.
+=== Some other important IoT/M2M Protocols, according to VDC Research in 2014 ===
+  *AllJoyn.
+  *AMQP ( Advanced Message Queuing Protocol ).
+  *CoAP ( Constrained Application Protocol ).
+  *DDS ( Data Distribution Service ).
+  *ETSI.
+  *IFTTT.
+  *MQTT.
+  *OMA LWM2M ( Lightweight M2M ).
+  *UDP/TCP ( User Datagram Protocol/Transmission Control Protocol ).
+  *XDMF.
+  *XMPP/REST ( Extensible Messaging and Presence Protocol/Representational State Transfer ).
+=== Some other "Libraries" for Embbbed Systems, according to VDC Research in 2014 ===
+== Linux Distributions for Embedded Systems ==
+  *[[http://www.linaro.org/|Linaro]] - "Work with the industry leaders, building the future of Open Source Software on ARM"
+    *Wiki [[http://wiki.linaro.org/|Linaro Wiki]].
+    *[[http://en.wikipedia.org/wiki/Linaro|EN.Wikipedia "Linaro"]].
+  *[[http://www.yoctoproject.org/|Yocto Project]].
+    *[[http://en.wikipedia.org/wiki/Yocto_Project|EN.Wikipedia "Yocto Project"]].
+== Cloud Computing Platform ==
+  *OpenStack -> See [[python.html|Python]].
+==== MQ Telemetry Transport ( MQTT  ) ====
+=== Technology & Tools ===
+  *Eclipse.
+    *[[http://iot.eclipse.org/|Eclipse Working Group "iot.eclipse.org - IoT development made simple"]] - "This portal is where you can learn about the technologies developed at Eclipse to make Internet of Things (IoT) development simpler. Our technologies aim at establishing an open IoT/M2M platform to be used by anyone".
+    *[[http://www.eclipse.org/paho/|Eclipse "Paho - Open Source messaging for M2M"]] - "The Paho project provides scalable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine‑to‑Machine (M2M) and Internet of Things (IoT)".
+      *The MQTT client [[http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.python.git/|Eclipse Git "org.eclipse.paho.mqtt.python.git"]] in Python.
+  *IBM.
+    *[[http://www.ibm.com/developerworks/library/ws-mqtt/|IBM DeveloperWorks "MQ Telemetry Transport (MQTT) V3.1 Protocol Specification"]].
+    *[[http://www.ibm.com/software/products/en/wmq-telemetry|IBM "WebSphere MQ Telemetry"]].
+    *[[http://www.ibm.com/developerworks/websphere/zones/businessintegration/wmq.html|IBM DeveloperWorks "WebSphere MQ"]].
+    *[[http://www.ibmdw.net/messaging/|IBM "IBM Messaging"]].
+    *[[http://pic.dhe.ibm.com/infocenter/ism/v1r0m0/index.jsp?topic=/com.ibm.ism.doc/welcome_page/ic-homepage.html|IBM "IBM MessageSight Information Center"]] - The commercial "IBM MessageSight".
+  *[[http://www.mqtt.org/|MQ Telemetry Transport ( MQTT )]].
+    *[[http://mqtt.org/wiki/doku.php/brokers|MQ Telemetry Transport "brokers"]].
+    *[[http://mqtt.org/wiki/doku.php/server_support|MQ Telemetry Transport "server_support"]].
+    *[[https://www.youtube.com/user/IBMmessagingMedia|YouTube Channel "IBM MessageSight"]].
+      *[[http://www.youtube.com/watch?v=Hge421-w_iA|YouTube "IBM MessageSight Demo!"]].
+  *[[http://www.oasis-open.org/committees/mqtt/charter.php|OASIS - Advanced open standards for the information society "OASIS Message Queuing Telemetry Transport (MQTT) TC"]].
+=== Online Services ===
+  *IBM Bluemix - See [[saas.html|Software As A Service ( SAAS ) 1/2]].
+==== NetDACS ====
+  *The legendary but discontinued "NetDACS" Java-based M2M protocol, by [[http://web.archive.org/web/*/http://www.gyro-net.de/|Gyro Informatec GmbH]], Hannover ( - 2004-03-29 ).
+    *[[http://web.archive.org/web/*/http://www.gyro-net.de/index_1.html|Gyro Informatec GmbH "Historie / Unternehmensentwicklung"]], [[http://web.archive.org/web/*/http://www.gyro-net.de/content/01_b_story.html|Gyro Informatec GmbH "Historie / Unternehmensentwicklung"]] - History of company 1997 - 2003.
+  *[[http://www.xing.com/profile/Jens_Hoerner|XING "Jens Hoerner"]].
+  *[[http://www.xing.com/profile/Fritjof_Flechsig|XING "Fritjof Flechsig"]].
+==== OData ====
+  *See [[rest.html|Representational State Transfer ( REST )]].
+==== SIGFOX ====
+  *[[http://www.sigfox.com/|SIGFOX]].
+    *[[http://www.sigfox.com/en/#!/technology|SIGFOX "SIGFOX Technology"]].
+  *[[http://www.ft.com/cms/s/0/e4ac0174-4af0-11e4-b1be-00144feab7de.html#axzz3HGtVTXfw|Financial Times "Sigfox seeks funding to form global ‘internet of things’ network"]], 2014-10-05.
+  *868MHz global network, currently in France and UK, starting in 2015 in Germany ( pilot project in München ). You can send a maximum of 140 messages/day by a device, which are repeated three times. The estimated costs per device are about 5$/y or 5 EUR/y.
+==== Time-Sensitive Networking ====
+  *[[http://www.ieee802.org/1/pages/tsn.html|IEEE "Time-Sensitive Networking Task Group"]].
+  *Experts told me that they consider it as an alternative to MQTT and OPC-UA.
+  *[[http://en.wikipedia.org/wiki/Time-Sensitive_Networking|EN.Wikipedia "Time-Sensitive Networking"]], [[http://de.wikipedia.org/wiki/Time-Sensitive_Networking|DE.Wikipedia "Time-Sensitive Networking"]].
+==== Thread ====
+  *[[http://www.threadgroup.org/|Thread Group "Thread"]].
+  *[[http://www.theregister.co.uk/2014/07/15/google_nest_thread_protocol/|The Register "Google Nest, ARM, Samsung pull out Thread to strangle ZigBee"]], 2014-07-14 - "But there's a flaw in Google's IP-based IoT system".
+  *[[http://www.techtimes.com/articles/10492/20140718/nest-samsung-arm-form-thread-a-networking-protocol-for-your-smart-home.htm|Tech Times "Nest, Samsung, ARM form Thread, a networking protocol for your smart home"]], 2014-07-18.
+==== XMPP/REST ( Extensible Messaging and Presence Protocol/Representational State Transfer ) ====
+  *[[http://www.xmpp.org/|The XMPP Standards Foundation]].
+    *[[http://xmpp.org/xmpp-software/clients/|The XMPP Standards Foundation "Clients"]] - "An XMPP client is any software or application that enables you to connect to an XMPP for instant messaging with other people over the Internet".
+    *You may "chat" with connected IOT devices in almost human-alike language :-)
+  *[[http://en.wikipedia.org/wiki/XMPP|EN.Wikipedia "XMPP"]], [[http://de.wikipedia.org/wiki/XMPP|DE.Wikipedia "XMPP"]].
+==== Resources ====
+  *[[http://www.heise.de/ix/meldung/M2M-Protokoll-MQTT-soll-Internet-Standard-werden-1852990.html|Heise "M2M-Protokoll MQTT soll Internet-Standard werden"]], 2013-04-30.
+  *[[http://www.ietf.org/|The Internet Engineering Task Force (IETF)]].
+    *[[http://datatracker.ietf.org/doc/rfc6272/|IETF DataTracker "Internet Protocols for the Smart Grid. RFC 6272"]].
+  *IBM.
+    *Blog [[http://www.ibm.com/developerworks/community/blogs/messaging/|IBM DeveloperWorks MQdev Community - MQdev Blog]].
+      *[[http://www.ibm.com/developerworks/community/blogs/messaging/entry/using_mq_telemetry_transport_protocol_in_ibm_worklight_mobile_applications1|IBM DeveloperWorks MQdev Community  "Using MQ Telemetry Transport Protocol in IBM Worklight Mobile Applications"]], 2012-11-05.
+    *[[https://www.ibm.com/developerworks/community/blogs/aimsupport/entry/what_is_mqtt_and_how_does_it_work_with_websphere_mq|IBM DeveloperWorks, WebSphere and CICS Support Blog "What is MQTT and how does it work with WebSphere MQ?"]], 2012-03-16.
+  *[[http://www.infoq.com/articles/practical-mqtt-with-paho|InfoQ "Practical MQTT with Paho"]], 2013-11-08.
+  *[[http://www.dennisseidel.de/mqtt-eine-einfuhrung/|Dennis Seidel "MQTT – Eine Einführung"]].
+  *[[http://blogs.vmware.com/vfabric/2013/02/choosing-your-messaging-protocol-amqp-mqtt-or-stomp.html|VMware Blogs "Choosing Your Messaging Protocol: AMQP, MQTT, or STOMP"]], 2013-02-19.
+  *[[http://en.wikipedia.org/wiki/MQ_Telemetry_Transport|EN.Wikipedia "MQ Telemetry Transport"]], [[http://de.wikipedia.org/wiki/MQ_Telemetry_Transport|DE.Wikipedia "MQ Telemetry Transport"]].
+  *[[http://en.wikipedia.org/wiki/Telemetry|EN.Wikipedia "Telemetry"]], [[http://de.wikipedia.org/wiki/Telemetrie|DE.Wikipedia "Telemetrie"]].
+  *[[http://wiki.xmpp.org/web/InternetOfThings|XMPP Wiki "InternetOfThings"]].
+
+===== Networks for Building Automation =====
+==== Field Busses for Building Automation ====
+  *[[http://www.bacnet.org/|BACnet]] #.
+    *According to experts, BACnet is the #1 as top-level building automation network, in Europe. In opposite, KNC is just standard for sub-bussystems.
+    *[[http://www.zacharias-gruppe.de/|Zacharias Unternehmensgruppe Hameln]], Hameln.
+  *[[http://www.lcn.de/|Issendorf KG "Local Control Network" ( LCN )]], [[http://www.issendorff.com/|Issendorf KG "Local Control Network" ( LCN )]] #.
+    *"LCN-MNO Musterkoffer / Schulungskoffer".
+    *[[http://www.bus-profi.de/|Der Bus-Profi]] - "Deutschlands größte Knowledgebase für LCN-Gebäudeleittechnik und Handel für Komponenten zum LCN-System".
+  *[[http://www.knx.org/|KNX Association]] #.
+    *[[http://en.wikipedia.org/wiki/European_Installation_Bus|EN.Wikipedia "KNX (standard)"]], [[http://en.wikipedia.org/wiki/Instabus|EN.Wikipedia "Instabus"]] = "European Installation Bus" (EIB).
+  *[[http://www.echelon.com/|Echelon Corporation]].
+    *[[http://en.wikipedia.org/wiki/LonWorks|EN.Wikipedia "LonWorks"]].
+  *Freebus.
+    *[[http://www.freebus.org/|Freebus - the open bus system]].
+    *[[http://bugs.freebus.org/|Freebus Projects]].
+  *"Modbus" #.
+    *[[http://www.modbus.org/|Modbus Organization, Inc]].
+    *Modbus TCP is a standard instrumentation interface bus, while it is not a standard for SIEMENS PLCs ( with Profibus as interface bus standard ).
+    *Modbus is considered by experts to be "simple", "outdated" and "weak", especially as there is no time-stamp transfered with the data, automatically.
+    *The OpenSource [[http://www.plcsimulator.org/|Modbus PLC Simulator]], [[http://modrssim.sourceforge.net/|SourceForge "Modbus simulator"]], [[http://www.sourceforge.net/projects/modrssim/|SourceForge "Modbus simulator"]] for Windows.
+      *[[http://www.codeguru.com/Cpp/I-N/network/serialcommunications/article.php/c5401|CodeGuru "MODBUS Serial RTU + TCP/IP Simulator"]].
+    *[[http://www.codeproject.com/KB/trace/modbuscs.aspx|CodeGuru, distantcity "Simple Modbus Protocol in C# / .NET 2.0"]].
+    *[[http://www.feldbusse.de/ModbusTCP/modbustcp.shtml|Feldbusse.de "Modbus-TCP"]].
+    *[[http://www.fieldserver.com/products/drivers/Modbus.php|FieldServer Technologies "Modbus Solutions from FieldServer Technologies"]].
+      *The discontinued offer [[http://wayback.archive.org/web/*/http://www.protocessor.com/tech_support/Free_Modbus_RTU_Source_Code.html|Archive.org "ProtoCessor - Free Modbus Source Code"]].
+    *[[http://mbserver.tripod.com/|Ricardo Saat "Free Windows Modbus Master"]].
+    *[[http://www.wut.de/e-57637-w4-dade-000.php|Wiesemann & Theis GmbH "Modbus meets Web-IO. Das W&T Web-IO schafft den Brückenschlag zwischen Modbus-TCP und den wichtigsten Web-Techniken"]].
+    *[[http://en.wikipedia.org/wiki/Modbus|EN.Wikipedia "Modbus"]], [[http://de.wikipedia.org/wiki/Modbus|DE.Wikipedia "Modbus"]].
+  *[[http://www.peha.de/cms/front_content.php?client=1&lang=1&idcat=547|PEHA by Honeywell "PHC House-Control-System"]].
+  *"Profibus DP".
+  *Power Line Communication ( PLC ).
+    *[[http://en.wikipedia.org/wiki/Power_line_communication|EN.Wikipedia "Power line communication"]], [[http://de.wikipedia.org/wiki/Tr%C3%A4gerfrequenzanlage|DE.Wikipedia "Trägerfrequenzanlage"]].
+    *[[http://de.wikipedia.org/wiki/PLC-BUS|DE.Wikipedia "PLC-BUS"]].
+    *[[http://de.wikipedia.org/wiki/PowerLAN|DE.Wikipedia "PowerLAN"]].
+  *RS-485.
+    *[[http://en.wikipedia.org/wiki/RS-485|EN.Wikipedia "RS-485"]], [[http://de.wikipedia.org/wiki/EIA-485|DE.Wikipedia "EIA-485"]].
+    *[[http://www.wiki.elektronik-projekt.de/mikrocontroller/rs485_bus|Elektronik-Projekt Wiki "Der RS485 Bus"]].
+      *Section "RS485 vs. CAN" :-).
+==== Wireless Field Busses for Building Automation ====
+  *See [[wireless.html|Wireless Networks]].
+==== Multimedia Systems and Busses for Building Automation ====
+  *[[http://www.amx.com/|AMX]] - media control systems, for buildings.
+  *[[http://www.crestron.com/|Crestron Electronics, Inc.]] - media control systems, for buildings.
+    *[[http://www.medienwerft.de/|Medien Werft - Agentur für digitale Medien und Kommunikation mbH]], Hamburg.
+==== Sub Busses for Building Automation ====
+  *[[http://en.wikipedia.org/wiki/AS-interface|EN.Wikipedia "AS-Interface"]], [[http://de.wikipedia.org/wiki/AS-interface|DE.Wikipedia "AS-Interface"]].
+  *[[http://en.wikipedia.org/wiki/Digital_Addressable_Lighting_Interface|EN.Wikipedia "Digital Addressable Lighting Interface"]], [[http://de.wikipedia.org/wiki/Digital_Addressable_Lighting_Interface|DE.Wikipedia "Digital Addressable Lighting Interface"]] (DALI).
+  *DMX - Bus system for use with commercial displays driven by color LEDs.
+    *[[http://en.wikipedia.org/wiki/DMX512|DE.Wikipedia "DMX512"]], [[http://de.wikipedia.org/wiki/DMX_%28Lichttechnik%29|DMX (Lichttechnik)"]].
+  *SMI.
+    *[[http://de.wikipedia.org/wiki/Standard_Motor_Interface|DE.Wikipedia "Standard Motor Interface"]] (SMI).
+  *[[http://www.belimo.ch/|BELIMO Automation AG]] - "MP-Bus" for damper actuators ( "Stellantriebe", "HLK-Aktoren und Sensoren" ).
+    *[[http://www.belimo.ch/CH/DE/PDF/index.cfm?DocPage=Doc_bus_05|BELIMO Automation AG "Dokumentation / Bus- und System-Integration"]].
+==== Electric Metering ====
+=== Field Buses für Eletric Metering ===
+  *"M-Bus".
+    *[[http://www.m-bus.com/|M-Bus]].
+    *The OpenSource Java library [[http://www.openmuc.org/index.php?id=19|openMUC "jMBus"]].
+    *[[http://www.relay.de/|RELAY GmbH]].
+    *[[http://en.wikipedia.org/wiki/Meter-Bus|EN.Wikipedia "Meter-Bus"]], [[http://de.wikipedia.org/wiki/M-Bus_%28Feldbus%29|DE.Wikipedia "M-Bus (Feldbus)"]].
+  *"Wireless M-Bus" -> see [[wireless.html|Wireless Networks]].
+  *"S0" pulse counter interface / protocol.
+    *[[http://www.hw-group.com/products/HWg-PWR/hwg-pwr_en.html|HW group "HWg-PWR: M-Bus IP energy meter (SNMP, WEB)"]] - "M-Bus or S0 pulse counter? The M-Bus is a standard in energy metering. **As opposed to pulse counters (S0)**, it works with absolute values (acquired data can be used as an argument against the utility bill). At the same time allows working with additional values (quantities), such as voltage, current, flow, drift, etc.". 
+    *[[http://www.saia-pcd.com/en/products/energymeter/Pages/cc.aspx|Saia-Burgess Controls AG "Energy management
+S-Energy – capture, display and log consumption values"]] - "Bus-compatible electricity meters.. The product range includes AC power meters and three-phase meters with measuring ranges up to 6000 A, each with **S0 output or serial bus interface (S-Bus, M-Bus and Modbus)**.
+=== Data Formats & Data Protocols for Electric Meters ===
+  *[[http://www.metersandmore.eu/|Meters and More]].
+  *[[http://en.wikipedia.org/wiki/IEC_62056|EN.Wikipedia "IEC 62056"]] - "DLMS/COSEM" electric meter data format.
+  *[[http://www.erdfdistribution.fr/EN_Linky|ERDF "Linky, the communicating meter"]] - Electric meter data format.
+  *PRIME ( PoweRline Intelligent Metering Evolution ).
+    *[[http://www.iberdrola.es/|Iberdrola, S.A.]], Spain.
+    *[[http://www.prime-alliance.org/|PRIME Alliance]].
+
+==== Protocols for Building Automation ====
+  *[[http://www.eebus.de|EEBus]].
+    *[[http://www.kellendonk.de/eebus/|	Kellendonk Elektronik GmbH]].
+    *Media:
+      *Powerline (OFDM, narrow band, Cenelec B).
+      *RF (886 MHz., meshed 2,4 GHz.).
+      *Cable (Ethernet).
+===== Process Automation Networks and Protocols =====
+==== IEC 61850, IEC 61850 MMS, IEC 61400-25 ====
+=== Resources === 
+  *[[http://iec61850.ucaiug.org|IEC 61850 Users Group]].
+  *Blog [[http://blog.iec61850.com/|News on IEC 61850 and related Standards]].
+  *[[http://www.control.com/thread/1026226776#1026226805|nerd in control - Forum, Thread "IEC 61850 source code"]].
+  *[[http://en.wikipedia.org/wiki/IEC_61850|EN.Wikipedia "IEC 61850"]], [[http://de.wikipedia.org/wiki/IEC_61850|DE.Wikipedia "IEC 61850"]], relevant for process industry.
+  *[[http://en.wikipedia.org/wiki/IEC_61400-25|EN.Wikipedia "IEC 61400-25"]], relevant for wind energy industry.
+  *IEC 61850 MMS - simplified IEC 61850 protocol.
+=== Tools and Servers ====
+  *[[http://www.ase-systems.com/iec-61850/visual-scl.asp|Applied Systems Engineering, Inc "Visual SCL for IEC 61850-6"]].
+  *Software-Tool [[http://www.beck-ipc.com/en/products/sc1x3/iec61850.asp|"Beck IPC GmbH "IPC@CHIP&reg"]] - single chip embedded webserver.
+  *[[http://garrettcom.com/iec61850_ieee1613.htm|GarrettCom "Environmental Standards for Networking Devices
+Installed in Electric Power Substations. IEC 61850 and IEEE 1613"]].
+  *[[http://www.infotech.pl/|'INFO TECH' Dr Wojciech E. Kozlowski sp.j.]] - "IEC61850 Client & Server Toolset".
+  *[[http://kalkitech.com/offerings/services-integration_services-protocol_implementation/|Kalki Communication Technologies Limited "Protocol Implementation"]] - IEC 61850, IEC 60870-5-101/103/104.
+  *[[http://www.nettedautomation.com/|NettedAutomation GmbH]] - "The Net is the Automation. We bring people, systems and devices together" - "IEC61850Li® - Lite implementations. The free evaluation DLL for an IEC 61850 (IEC 61400-25) as a Starter Kit for Client/Server and Publisher/Subscriber is now available".
+  *[[http://www.omicron.at/de/products/pro/communication-protocols/|OMICRON electronics Deutschland GmbH / OMICRON electronics GmbH "Prüfen mit Kommunikationsprotokollen"]].
+    *"Prüfgeräte für IEC 61850".
+    *"Module und Werkzeuge für IEC 61850".
+    *"Werkzeuge für IEC 60870-5-103".
+  *[[http://www.sisconet.com/|SISCO, Inc "MMS-EASE Lite"]] -  "A source code product for embedding the IEC 61850 protocols in Intelligent Electronic Devices (IEDs) such as RTUs, reclosers, PLCs, meters and other resource constrained systems".
+==== IEC 60870 ====
+  *[[http://en.wikipedia.org/wiki/IEC_60870|EN.Wikipedia "IEC 60870"]], [[http://de.wikipedia.org/wiki/IEC_60870|DE.Wikipedia "IEC 60870"]] for electrical engineering and power system automation.
+  *[[http://en.wikipedia.org/wiki/IEC_60870-5|EN.Wikipedia "IEC 60870-5"]] -> "IEC 60870-5-104" = "IEC104".
+
+==== Some other Process Automation Networks and Protocols ====
+  *[[http://en.wikipedia.org/wiki/DNP3|EN.Wikipedia "DNP3"]], [[http://de.wikipedia.org/wiki/DNP3|DE.Wikipedia "DNP3"]] ( Distributed Network Protocol ) - "A set of communications protocols used between components in process automation systems. It was developed for communications between various types of data acquisition and control equipment. It plays a crucial role in SCADA systems, where it is used by SCADA Master Stations (aka Control Centers), Remote Terminal Units (RTUs), and Intelligent Electronic Devices (IEDs)".
+  *[[http://de.wikipedia.org/wiki/FDT/DTM|DE.Wikipedia "FDT/DTM"]].
+    *[[http://www.fdtgroup.org/|FDT Group]].
+  *FOUNDATION Fieldbus ( [[http://en.wikipedia.org/wiki/Fieldbus_Foundation|EN.Wikipedia "Fieldbus Foundation"]], [[http://de.wikipedia.org/wiki/Fieldbus_Foundation|DE.Wikipedia "Fieldbus Foundation"]] ).
+    *[[http://www.fieldbus.org/|Fieldbus Foundation]].
+  *[[http://en.wikipedia.org/wiki/HART_Protocol|EN.Wikipedia "HART Protocol"]], [[http://de.wikipedia.org/wiki/Highway_Addressable_Remote_Transducer|DE.Wikipedia "Highway Addressable Remote Transducer"]].
+    *[[http://www.hartcomm.org/|HART Communication Foundation]].
+  *[[http://www.vhpready.de/|Industrieforum VHPready e.V.]], [[http://de.wikipedia.org/wiki/VHPready|DE.Wikipedia "VHPready"]] - "Industriestandard VHPready zur Vernetzung dezentraler Energieanlagen".
+
+===== Electronic Busses for Embedded Systems =====
+==== Electronic Busses in Devices ====
+  *[[http://en.wikipedia.org/wiki/I2c|EN.Wikipedia "I2c"]], [[http://de.wikipedia.org/wiki/I2c|DE.Wikipedia "I2c"]] - slow.
+  *[[http://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus|EN.Wikipedia "Serial Peripheral Interface Bus"]], [[http://de.wikipedia.org/wiki/Serial_Peripheral_Interface|DE.Wikipedia "Serial Peripheral Interface Bus"]] - fast.
+==== Protocols for Communication with Embedded Systems ====
+=== CAN-Bus ===
+  *See [[carnetworks.html|Distributed Computing on Automotive Networks, Car Electronics and Automotive Data Formats]].
+=== Firmata ===
+== The Framework ==
+  *[[http://www.firmata.org/|Firmata]].
+    *[[http://web.archive.org/web/*/http://www.firmata.org/|Archive.org "Firmata"]].
+    *[[http://firmata.sourceforge.net/|SourceForge "Firmata"]], [[http://www.sourceforge.net/projects/firmata/|SourceForge "Firmata"]].
+    *[[http://www.github.com/firmata|GitHub "firmata"]].
+    *Firmata is a Midi-based protocol by serial port or TCP/IP.
+== Firmata Application "Jonny Five" ==
+    *[[http://www.github.com/rwaldron/johnny-five|GitHub "rwaldron/johnny-five"]].
+    *[[http://www.voodootikigod.com/nodebots-the-rise-of-js-robotics/|Voodoo Tiki God "NodeBots - The Rise of JS Robotics"]].
+== Firmata Applications by Thomas Weinert==
+  *Thomas Weinert. [[http://www.weinert.info/|Thomas Weinert]], [[http://www.xing.com/profiles/Thomas_Weinert|XING "Thomas Weinert"]], [[http://www.linkedin.com/in/thomasweinert|LinkedIn "Thomas Weinert"]], [[http://plus.google.com/109131159981705873928/|Google+ "Thomas Weinert"]], [[http://www.twitter.com/ThomasWeinert|Twitter "Thomas Weinert"]].
+    *[[http://www.php-unconference.de/php-unconference-2013/|PHP Unconference Hamburg 2013]] in Hamburg, 2013-09-21 - 2013-09-22.
+      *Speech [[http://www.slideshare.net/subjective/controlling-arduino-with-php|SlideShare "Controlling Arduino With PHP"]] by Thomas Weinert, 2013-09-22.
+    *Blog [[http://www.a-basketful-of-papayas.net/|Thomas Weinert "A Basketful Of Papayas"]].
+      *[[http://www.a-basketful-of-papayas.net/2013/06/basics-of-using-arduino-from-php.html|Thomas Weinert "A Basketful Of Papayas", Article "Basics: Using Arduino From PHP"]].
+      *[[http://www.a-basketful-of-papayas.net/2013/11/carica-chip-101-controlling-led-with-php.html|Thomas Weinert - A Basketful Of Papayas "Carica Chip 101 - Controlling An LED With PHP"]].
+      *[[http://www.a-basketful-of-papayas.net/2013/11/building-sensor-phalanx-with-php.html|Thomas Weinert - A Basketful Of Papayas "Building A Sensor Phalanx With PHP"]].
+    *[[http://www.papaya-cms.com/thomas-weinert-interview.195.de.html|papaya Software GmbH "Was hat sich der Entwickler dabei gedacht?"]].
+    *Source Code:
+    *[[http://bitbucket.org/ThomasWeinert/|BitBucket "ThomasWeinert"]].
+      *[[http://www.bitbucket.org/ThomasWeinert/carica-sensor-phalanx|BitBucket "ThomasWeinert / Carica Sensor Phalanx"]].
+    *[[http://www.github.com/ThomasWeinert/|GitHub "ThomasWeinert"]].
+      *[[http://www.github.com/ThomasWeinert/carica-firmata|GitHub "ThomasWeinert/carica-firmata"]].
+      *[[http://www.github.com/ThomasWeinert/carica-io|GitHub "ThomasWeinert / carica-io"]].
+      *[[http://www.github.com/ThomasWeinert/carica-chip|GitHub "ThomasWeinert/carica-chip"]].
+    *[[http://www.reactphp.org/|React]].
+      *"Event-driven, non-blocking I/O with PHP".
+      *The event loop architecture is similar to that of Node.JS.
+      *The API is designed to be familar to those who know Node.JS ( "how" is programmed, not "what.. when" ).
+      *React makes use of [[http://www.socketo.me/|Ratchet]] - "WebSockets for PHP".
+    *[[http://www.smoothiecharts.org/|Smoothie Charts: A JavaScript Charting Library for Streaming Data]].
+    *The support of SPI is in the Arduino implementation of the [[http://www.firmata.org/|Firmata]] protocol, not in the PHP code :-)
+    *There is no webserver on the Arduino / Teensy.
+    *Warning: As soon as you open a serial connection on an original "Arduino" board, a **Reset** is processed. There are implementations of Arduino boards, where you can prevent that by cutting a physical wire on the printed circuit board.
+    *Problem: With a standard programming approach, a webserver on the Arduino would open a serial connection at each HTTP request and close the serial connection afterwards, causing the unwanted **Reset**. 
+      *There are some ugly Ardunio project which depend on this behaviour and don´t overcome it.
+      *Thats why this "Carica" project opens a **permanent** serial connection.
+==== Implementation of Electronic Busses with Microcontrollers ====
+  *Standad UARTs of microcontrollers are not suitable for implementation of PROFIBUS, MODBUS or other high-speed serial communication ( as a standard UART can't be configured to run with 12 Mhz bus clock speed ). You need specially designed devices ( on the microcontroller chip ) for such.
+===== Interfaces =====
+  *M8, M12 ( IEC 61076-2-101 circular connectors ), "M12 X-coded".
+    *[[http://www.erni.com/de/rundsteckverbinder-m8-m12-ethernet-gigabit?gclid=COfVq7mO7L0CFabLtAodcQwA7g|Rundsteckverbinder M8 M12 von ERNI Electronics "Steckverbinder"]].
+      *"Rundsteckverbinder M8 M12 von ERNI Electronics".
+      *"M12-Gigabit-Ethernet-Steckverbinder mit bis zu 10 Gbit/s".
+    *[[http://www.metz-connect.com/en/connecting-cables-m12/x-coded|METZ CONNECT GmbH "Cables & wires / X-coded"]] - "Connection cable M12 8-pole X-coded".
+===== Events & Conferences =====
+  *[[http://web.archive.org/web/*/http://www.ethernet-industry.info/|Archive.org "ethernet@industry"]], 2001-2011.
+  *[[http://www.metering-europe.com/|Metering Billing/CRM Europe]] 2011 in Amsterdam, Netherlands.
+===== Resources =====
+  *[[http://www.feldbusse.de/|Feldbusse.de - Ihr Wegweiser für industrielle Netzwerke]].
+  *[[http://www.automationmag.com/columnbus/the-black-channel-using-fieldbus-in-safety-systems.html|Manufacturing AUTOMATION "The black channel: Using fieldbus in safety systems"]], 2005.
+  *Wikipedia.
+    *[[http://de.wikipedia.org/wiki/HLKK-Anlage|DE.Wikipedia "HLKK-Anlage"]] - "Anlage der **H**eizungs-, **L**üftungs-, **K**lima- und/oder Kältetechnik".
+    *[[http://en.wikipedia.org/wiki/Building_automation|EN.Wikipedia  "Building automation"]], [[http://de.wikipedia.org/wiki/Geb%C3%A4udeautomatisierung|DE.Wikipedia "Gebäudeautomatisierung"]].
+  *[[http://www.lanline.de/|LANline. IT - Netze - Infrastruktur]].
+===== Forums, Newsgroups, Communities ======
+  *[[http://as-interface.co.uk/index.php/forums/|The AS-Interface Expert Alliance "UK AS-i Expert Alliance - Tech Forums"]].
+  *[[http://forum.auto-intern.de/module-pnForum.html|Auto-Intern GmbH - Forum]].
+  *[[http://www.bus-profi.de/index.php/forum.html|Das Bus-Profi Forum]].
+  *[[http://www.canhack.de/|CANhack.de - CAN Hardware, CAN Software, CAN Protokolle - Das CAN Forum]].
+    *[[http://www.canhack.de/viewforum.php?f=26|CANhack.de - CAN Hardware, CAN Software, CAN Protokolle - Das CAN Forum "CANUSB Adapter"]].
+  *[[http://forums.fluxmedia.net/|Centrafuse Forums. Centrafuse Auto - Connected Car Apps User Community]].
+    *[[http://forums.fluxmedia.net/obd-ii-auto-diagnostics/|Centrafuse Forums. Centrafuse Auto - Connected Car Apps User Community "OBD-II - Auto Diagnostics"]].
+  *[[http://www.facebook.com/ethernet.at.industry|Facebook "ethernet@industry"]].
+  *[[http://freebus.org/phpBB3/|Freebus Forum]].
+  *Google.
+    *[[http://groups.google.com/group/modbus_developers|Google Groups "Modbus Developers"]].
+    *[[http://tech.groups.yahoo.com/group/CANbus/|Google Groups "CANbus"]] -> "[CANLIST]" of Vector Informatics.
+  *[[http://knx-user-forum.de/|KNX userforum]].
+  *[[http://www.eib-userclub.de/forum/|KNX-Professionals Deutschland e.V. Forum]].
+  *[[http://www.linkedin.com/groups?gid=3827591|LinkedIn "ethernet@industry"]].
+  *[[http://www.motor-talk.de/|MOTOR-TALK - Europas größte Auto- und Motor-Community]].
+    *[[http://www.motor-talk.de/forum/on-board-diagnose-b295.html|MOTOR-TALK - Europas größte Auto- und Motor-Community "On-Board-Diagnose Forum  - Elektronische Fahrzeugdiagnose und -konfiguration"]].
+  *[[http://www.mp3car.com/|mp3car.com]].
+    *[[http://www.mp3car.com/road-runner/|mp3car.com "Forum / Mp3Car Technical Software / Front Ends / Road Runner"]].
+      *[[http://www.mp3car.com/rr-plugins/|mp3car.com "Forum / Mp3Car Technical Software / Front Ends / Road Runner / RR Plugins"]].
+    *[[http://www.mp3car.com/mp3car-technical-hardware/|mp3car.com "Forum / Mp3Car Technical Hardware / Engine Management"]].
+      *[[http://www.mp3car.com/engine-management-obd-ii-engine-diagnostics-etc/|mp3car.com "Forum / Mp3Car Technical Hardware / Engine Management, OBD-II, Engine Diagnostics, etc."]].
+        *[[http://www.mp3car.com/engine-management-obd-ii-engine-diagnostics-etc/134831-more-obd-ii-software-free-and-open-source-for-elm-compatible.html|mp3car.com "Forum / Mp3Car Technical Hardware / Engine Management, OBD-II, Engine Diagnostics, etc." - "More OBD-II Software - free and open source for elm compatible"]].
+  *[[http://www.obdii.com/forums/ubbthreads.php|OBDII Forums]].
+  *[[http://www.palmerperformance.com/forum/|Palmer Performance Engineering User Forum]].
+  *[[http://www.peak-system.com/forum/|PEAK-System Technik GmbH "PEAK-System Forum. Support, Knowledge Base, and FAQ"]].
+  *[[http://www.profibus.com/community/forum/discussion-board/|PROFIBUS Nutzerorganisation e.V. - PI's Discussion Forums]].
+    *[[http://www.profibus.com/community/forum/discussion-board/?tx_mmforum_pi1%5Baction%5D=list_topic&tx_mmforum_pi1%5Bfid%5D=2|PROFIBUS Nutzerorganisation e.V., Forum "PROFIBUS"]].
+    *[[http://www.profibus.com/community/forum/discussion-board/?tx_mmforum_pi1%5Baction%5D=list_topic&tx_mmforum_pi1%5Bfid%5D=3|PROFIBUS Nutzerorganisation e.V., Forum "PROFINET"]].
+  *[[http://www.realtimeatwork.com/forum/|RealTime-at-Work (RTaW) - Support forum for RTaW software]] - read-only.
+  *[[http://www.automation.siemens.com/WW/forum/guests/Conference.aspx?ForumID=46|SIEMENS Forum "Communication / Networks"]] - "SIMATIC NET - Industrial ethernet, PROFINET, Industrial Mobile Communication, PROFIBUS, AS-Interface, SINAUT ST7, System ECOFAST".
+  *[[http://www.sps-forum.de/forumdisplay.php?s=6016f57548a1c45e44cf0944c6bf6667&f=12|SPS-Forum "Automatisierung / Feldbusse"]].
+  *[[http://lists.sourceforge.net/lists/listinfo/firmata-devel|SourceForge Mailing-List "firmata-devel"]].
+  *[[http://www.techniker-forum.de/|Techniker Forum]]: [[http://www.techniker-forum.de/technik-53/as-interface-netzteil-13840.html|Techniker Forum "diverses / Technik", Thread "AS-Interface Netzteil"]].
+  *[[http://www.vagcomforum.de/|Das deutsche VCDS Forum]].
+  *Vector CAN mailing list.
+    *[[http://www.canlist.org/|Vector CAN Mailing List]].
+    *[[http://blog.gmane.org/gmane.comp.hardware.bus.can|canlist@vector-informatik.de -  Controller Area Network (CAN) discussion forum]].
+  *Yahoo.
+    *[[http://tech.groups.yahoo.com/group/modbus_developers/|Yahoo Groups "modbus_developers · Modbus Developer Forum"]].
+    *[[http://tech.groups.yahoo.com/group/CANbus/|Yahoo Groups "CANbus"]].
+
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Business/Industrial_Goods_and_Services/Factory_Automation/Communications_Devices_and_Networking/|OpenDirectory "Top: Business: Industrial Goods and Services: Factory Automation: Communications Devices and Networking"]].
+  *[[http://www.dmoz.org/Computers/Data_Communications/|OpenDirectory "Top: Computers: Data Communications"]].
+  *[[http://www.dmoz.org/Computers/Hardware/Systems/Industrial/|OpenDirectory "Top: Computers: Hardware: Systems: Industrial"]].
+  *[[http://www.dmoz.org/Computers/Software/Manufacturing/Automation/|OpenDirectory "Top: Computers: Software: Manufacturing: Automation"]].
+{{tag>fieldbus network automation HLK HLKK-Anlage Heizungstechnik Lüftungstechnik Klimatechnik Kältetechnik "digital factory"}}
+<footnote_navi_en>

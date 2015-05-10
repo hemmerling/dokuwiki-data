@@ -1,0 +1,165 @@
+====== [hemmerling] Continuous Integration ( CI ) & Continous Delivery ( CD ) ======
+Related pages:
+  *[[devops.html|Development and Operations ( DevOps )]].
+  *[[revision.html|Revision Control & Revision Control Systems (RCS), Source Code Version Control Systems ( SCVCS, VCS, CVS ), Software Configuration Management ( SCM )]].
+  *[[saas02.html|Software As A Service ( SAAS ) 2/2]].
+  *[[groupware.html|Team Software, Collaboration Software, Groupware & Application Lifecycle Management]].
+  *[[testing.html|Testing]].
+=====  Continuous Integration ( CI ) & Continous Delivery ( CD ) Tools  =====
+==== Anthill OS ( in Java ) ====
+  *The OpenSource "Anthill OS". 
+    *[[http://web.archive.org/web/*/http://www.urbancode.com/projects/anthill/default.jsp|Archive.org "urban{code} Anthill Build Server"]] ( - 2006-09-01 ) - "Anthill OS Download".
+    *[[http://web.archive.org/web/*/http://www.urbancode.com/projects/anthill/download.jsp|urban{code} "Anthill Open Source Download"]] ( - 2006-07-18 ).
+    *[[http://www.c2.com/cgi/wiki?AntHill|C2 "AntHill"]].
+    *Latest archive file "anthill-1.8.1.303.tar.gz", "anthill-1.8.1.303-src.tar.gz".
+  *The commercial [[http://www.urbancode.com/html/products/anthillpro/|urban{code} AnthillPro]].
+  *[[http://en.wikipedia.org/wiki/AnthillPro|EN.wikipedia "AnthillPro"]].
+==== Apache Continuum ( in Java ) ====
+  *The OpenSource [[http://continuum.apache.org/|Apache Continuum]].
+==== Apache Gump ( in Python ) ====
+  *The OpenSource [[http://gump.apache.org/|Apache Gump]].
+==== Buildbot ( in Python ) ====
+  *The OpenSource Python application [[http://www.buildbot.net/|Buildbot]] - "A continuous integration system designed to automate the build/test cycle".
+==== Cabie ( in Perl ) ====
+  *The OpenSource [[http://cabie.tigris.org/|Tigris "Cabie"]].
+  *[[http://www.yolinux.com/TUTORIALS/CabieBuildSystem.html|YoLinux "Cabie Automated Build System"]].
+  *[[http://en.wikipedia.org/wiki/CABIE|EN.Wikipedia "CABIE"]].
+==== CI Factory ( in C# ) ====
+  *The OpenSource [[http://code.google.com/p/ci-factory/|Google Code "ci-factory. An Extensible Continuous Integration Server"]].
+==== CruiseControl / CC.NET ( in Java, C#, Ruby ) ====
+  *[[http://www.thoughtworks.com/|ThoughtWorks]].
+    *The OpenSource [[http://www.cruisecontrolnet.org/|CruiseControl.NET]], [[http://cruisecontrol.sourceforge.net/|SourceForge "CruiseControl"]], [[http://www.sourceforge.net/projects/cruisecontrol|SourceForge "CruiseControl"]], [[http://www.github.com/ccnet|Github "ccnet"]], [[http://cruisecontrolrb.thoughtworks.com/|CruiseControl.rb]].
+    *Wiki [[http://confluence.public.thoughtworks.org/|CruiseControlDocs]].
+    *[[http://en.wikipedia.org/wiki/CruiseControl|EN.Wikipedia "CruiseControl"]], [[http://de.wikipedia.org/wiki/CruiseControl|DE.Wikipedia "CruiseControl"]], [[http://en.wikipedia.org/wiki/CruiseControl.rb|EN.Wikipedia "CruiseControl.rb"]].
+  *Experts told me in 2014-11, that the software development was discontinued ( since 2010...) and that this was the reason for many users of the tool, to migrate to other tools which are still under active development ( e.g. Jenkins ).
+==== Draco.NET ( in C# ) ====
+  *The OpenSource [[http://draconet.sourceforge.net/|SourceForge "Draco.NET"]], [[http://www.sourceforge.net/projects/draconet|SourceForge "Draco.NET"]].
+  *[[http://devlicio.us/blogs/christopher_bennage/archive/2007/08/12/continuous-integration-with-draco-net.aspx|Christopher Bennag "Continuous Integration with Draco.NET"]].
+==== Drumbeat CI ( in C# ) ====
+  *The free personal edition of [[http://www.buildbeat.com/|Timpani Software, Inc. "Drumbeat CI"]] - "BuildBeat is available in a free, 2-user, 5-project personal edition, which you may use subject to the personal edition use conditions".
+==== easyCIS ( for/in C# ) ====
+  *The free [[http://easycis.aspone.cz/|easyCIS - User-friendly continuous integration
+User-friendly continuous integration]].
+==== Hudson / Jenkins ( in Java ) ====
+  *The OpenSource [[http://www.eclipse.org/hudson/|Eclipse "Hudson"]].
+  *The OpenSource [[http://www.jenkins-ci.org/|Jenkins]].
+  *Plugins:
+    *[[http://www.github.com/jenkinsci/copyartifact-plugin|GitHub "jenkinsci / copyartifact-plugin"]].
+    *[[http://www.github.com/jenkinsci/promoted-builds-plugin|GitHub "jenkinsci / promoted-builds-plugin"]].
+    *[[http://www.github.com/jenkinsci/s3-plugin|GitHub "jenkinsci / s3-plugin"]].
+  *[[http://www.jenkins-php.org/|Template for Jenkins Jobs for PHP Projects]] - "The goal of this project is to provide a standard template for Jenkins jobs for PHP projects".
+  *[[http://en.wikipedia.org/wiki/Jenkins_%28software%29|EN.Wikipedia "Jenkins (software)"]], [[http://de.wikipedia.org/wiki/Jenkins_%28Software%29|DE.Wikipedia "Jenkins (Software)"]].
+==== Luntbuild ( in Java ) ====
+  *The OpenSource [[http://luntbuild.javaforge.com/|JavaForge "Luntbuild"]], [[http://www.javaforge.com/project/luntbuild|JavaForge "Luntbuild"]].
+==== OpenMake Mojo ( for/in Java, C++, C, C#, JSP ) ====
+  *The free [[http://www.openmakesoftware.com/openmake-mojo-for-continuous-integration/|OpenMake Mojo]].
+==== Pulse ( in Java ) ====
+  *The free edition "Small Team" of [[http://www.zutubi.com/|Zutubi "Pulse"]] - 10 projects, 5 users, 1 agent.
+==== RedJack ( in Python ) ====
+  *[[http://bitbucket.org/godfryd/redjack/|RedJack]] - "Continuous integration system ... written in Python".
+==== TeamCity Professional ( in Java ) ====
+  *The free IDE [[http://www.jetbrains.com/teamcity/|JetBrains TeamCity Professional]] for Windows, Linux, MacOS - "Distributed Build Management and Continuous Integration Server".
+    *TeamCity is built on [[http://tomcat.apache.org/|Apache Tomcat]]. You can select the server port ( default: 80 ) at the end of the installation.
+    *[[http://confluence.jetbrains.net/|JetBrains TeamCity: Dashboard - Confluence]].
+    *[[http://confluence.jetbrains.net/display/TW/Documentation|JetBrains TeamCity - Documentation]].
+    *Blog [[http://blogs.jetbrains.com/teamcity/|JetBrains TeamCity Blog]].
+    *[[http://twitter.com/teamcity|Twitter "TeamCity"]].
+==== Tinderbox, Tinderbox2, Tinderbox3 ( in Perl ) ====
+  *[[http://developer.mozilla.org/en-US/docs/Tinderbox|Mozilla Developer Network "Tinderbox"]].
+  *[[http://www-archive.mozilla.org/projects/tinderbox/|Mozilla "Tinderbox 2.0
+Development Monitoring System, rewrite by Ken Estes"]].
+  *[[http://www.johnkeiser.com/mozilla/tbox3.html|John Keiser "Tinderbox 3"]].
+  *[[http://en.wikipedia.org/wiki/Tinderbox_%28software%29|EN.Wikipedia "Tinderbox (software)"]].
+==== Sin ( in C# ) ====
+  *The OpenSource [[http://sin.tigris.org/|Tigris "Sin"]] - "A framework for implementing Continuous Integration on top of the Subversion version control system".
+  *Download -> "File sharing area".
+==== Visual Studio Team Foundation Server Express ( for .NET Languages ) ====
+  *[[http://www.microsoft.com/visualstudio/deu/products/visual-studio-team-foundation-server-2012|Microsoft "Visual Studio Team Foundation Server 2012"]].
+  *[[http://msdn.microsoft.com/de-de/vstudio/ff637362.aspx|Microsoft MSDN "Team Foundation Server"]].
+  *[[http://en.wikipedia.org/wiki/Team_Foundation_Server|EN.Wikipedia "Team Foundation Server"]].
+==== Zed Community Edition ( for/in Java ) ====
+  *The free [[http://www.zedbuildsandbugs.com/trial.html|Zed Community Edition]] - "Free For Small Teams, up to 5 Users".
+  *[[http://qooxdoo.678.n2.nabble.com/Zed-Builds-And-Bugs-Management-Community-Edition-td2093080.html|qooxdoo-devel@lists.sourceforge.net "Zed Builds And Bugs Management Community Edition"]], 2008-12-30.
+==== Services ====
+  *The commercial online CI service [[http://www.drone.io/|drone.io]], with free account offer.
+===== Build Tools / Build Automation Tools =====
+  *[[http://en.wikipedia.org/wiki/Make_%28software%29|EN.Wikipedia "make (software)"]], [[http://de.wikipedia.org/wiki/make|DE.Wikipedia "make"]].
+  *[[http://ant.apache.org/|The Apache ANT Project]].
+    *[[http://en.wikipedia.org/wiki/Apache_Ant|EN.Wikipedia "Apache_Ant"]], [[http://de.wikipedia.org/wiki/Apache_Ant|DE.Wikipedia "Apache_Ant"]].
+    *[[http://abc.tools.qafoo.com/|Ant Build Commons]] ( ABC ) - "It aims to provide standard build tasks for web based projects. It started by supporting various different PHP related tools, but by now also support JavaScript and CSS related tools".
+  *[[http://maven.apache.org/|Apache Maven Project]] - "A tool that can now be used for building and managing any Java-based project".
+    *[[http://maven.apache.org/guides/getting-started/windows-prerequisites.html|Apache Maven Project "Maven on Windows"]].
+    *Installation on Windows:
+      *Set the environment variable "M2_HOME" to the root directory of the Maven installation, e.g. "C:\Program Files\Apache Software Foundation\apache-maven-3.0.5".
+      *Set the environment variable "M2" to "%M2_HOME%\bin;"
+      *Add "%M2%" to the path.
+      *Check that the environment variable "JAVA_HOME" exists and is set to the location of your JDK, e.g. "C:\Program Files\Java\jdk" and that "%JAVA_HOME%\bin" is in your Path environment variable. With Java7 on Windows, this is not true by default.
+    *[[http://maven.apache.org/eclipse-plugin.html|Apache Maven "Eclipse plugins for Maven"]].
+      -m2e.
+        *[[http://www.eclipse.org/m2e/|Eclipse "Maven Integration (m2e)"]].
+        *[[http://blog.sonatype.com/people/2011/06/where-is-m2eclipse/|Sonatype Blog "Where is m2eclipse?"]].
+        *[[http://www.torsten-horn.de/techdocs/maven.htm|Torsten Horn "Maven 3.0"]].
+        *[[http://www.itcuties.com/tools/maven-3-eclipse-plugin-setup/|icuties "Maven 3 Eclipse plugin setup"]] #.
+        *[[http://blogs.sourceallies.com/2011/06/maven-3-tutorial-project-setup/3/|Source Allies, Inc., Source Allies Blog "Maven 3 Tutorial – Project Setup"]].
+      -IAM.
+        *[[http://wiki.eclipse.org/IAM|Eclipse Wiki "IAM - Integration for Apache Maven"]].
+        *[[http://code.google.com/p/q4e/|Google Code " q4e. Q for Eclipse is an Apache Maven plugin for the Eclipse IDE"]].
+    *[[http://www.gradle.org/|Gradle]].
+      *[[http://en.wikipedia.org/wiki/Gradle|EN.Wikipedia "Gradle"]], [[http://de.wikipedia.org/wiki/Gradle|DE.Wikipedia "Gradle"]].
+    *[[http://maven.apache.org/|Apache Maven]].
+      *[[http://en.wikipedia.org/wiki/Apache_Maven|EN.Wikipedia "Apache Maven"]], [[http://de.wikipedia.org/wiki/Apache_Maven|DE.Wikipedia "Apache Maven"]].
+  *The OpenSource [[http://www.cmake.org/|CMake]] by [[http://www.kitware.com/|Kitware, Inc.]].
+    *[[http://www.cmake.org/cmake/resources/software.html|CMake - Get the Software]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1930934262/hemmerling-21|Bill Hoffman, Ken Martin: " Mastering CMake: A Cross-Platform Build System Version 6"]].
+    *[[http://www.cmake.org/Wiki/|KitWare Public Wiki]].
+      *[[http://www.cmake.org/Wiki/CMake/|KitWare Public Wiki "CMake"]].
+        *[[http://www.cmake.org/Wiki/CMake/Testing_With_CTest|KitWare Public Wiki "CMake/Testing With CTest"]].
+        *[[http://www.cmake.org/Wiki/CMake_Scripting_Of_CTest|KitWare Public Wiki "CMake Scripting Of CTest"]].
+  *The OpenSource GNU Make toolchain.
+    -The developer writes a text file "Makefile.am".
+    -GNU Automake reads "Makefile.am" and generates "Makefile.in".
+      *[[http://www.gnu.org/software/automake/|GNU Automake]].
+      *[[http://sources.redhat.com/automake/|RedHat "GNU Automake"]].
+      *[[http://www.gnu.org/software/autoconf/|GNU Autoconf]].
+      *[[http://www.gnu.org/software/m4/m4.html|GNU M4]].
+    -[[http://www.gnu.org/software/make/|GNU Make]] executes "Makefile.in".
+  *Makefile generators.
+    *[[http://www.robertnz.net/genmake.htm|Robert Davies "Automatic make file generator"]].
+    *[[http://www.cs.duke.edu/~chase/genmake.html|Jeffrey S. Chase "Genmake"]].
+    *[[http://www.muquit.com/muquit/software/genmake/genmake.html|Muhammad A Muquit "genmake.pl. A Perl script to generate simple Makefile"]].
+    *[[http://code.google.com/p/genmake/|Google Code "genmake. Makefile Generator"]].
+  *[[http://nant.sourceforge.net/|Sourceforge "NAnt - A .NET Build Tool"]], [[http://www.sourceforge.net/projects/nant|Sourceforge "NAnt - A .NET Build Tool"]].
+===== Continuous Integration ( CI ) Online Services =====
+  *[[http://www.travis-ci.org/|Travis CI - Hosted Continuous Integration for the Open Source Community]].
+===== Resources =====
+==== Continuous Integration ( CI ) & Continous Delivery ( CD ) Resources ====
+  *Slides [[http://www.slideshare.net/jallspaw/10-deploys-per-day-dev-and-ops-cooperation-at-flickr|John Allspaw, Paul Hammond "10 deploys per day. Dev & Ops cooperation at Flickr]].
+  *Amarinda.
+    *[[http://www.amarinda.com/articles/34_signs_continuous_integration_isnt_working|Amarinda "34 signs that continuous integration isn't working"]].
+    *[[http://amarinda.com/articles/Continuous_integration|Amarinda "Continuous integration"]].
+  *[[http://www.continuousdelivery.com/|Continuous Delivery]] #.
+  *[[http://code.flickr.net/2009/12/02/flipping-out/|code.flickr.net "Flipping Out"]].
+  *[[http://www.martinfowler.com/articles/continuousIntegration.html|Martin Fowler "Continuous Integration"]] #.
+  *InfoQ.
+    *[[http://www.infoq.com/presentations/Adopting-Continuous-Delivery|InfoQ - Jez Humble "Adopting Continuous Delivery"]].
+    *[[http://www.infoq.com/presentations/Etsy-Deployment|InfoQ - Frank Harris, Nellwyn Thomas "Etsy’s Product Development with Continuous Experimentation"]].
+    *[[http://www.infoq.com/presentations/Facebook-Release-Process|InfoQ - Chuck Rossi "The Facebook Release Process"]].
+    *[[http://www.infoq.com/presentations/Continuous-Integration-Songkick|InfoQ - Amy Phillips "Testing the Way to Faster Releases"]].
+    *[[http://www.infoq.com/articles/Continuous-Delivery-Maturity-Model|InfoQ - Andreas Rehn, Tobias Palmborg, Patrik Boström "The Continuous Delivery Maturity Model"]].
+  *[[http://www.javaworld.com/javaworld/jw-11-2006/jw-1101-ci.html|Info World - Java World "Which open source CI tool is best suited for your application's environment?"]], 2006-11-01.
+  *[[http://www.opensourcecontinuousintegration.com/|Open Source Continuous Integration List ( opensourcecontinuousintegration.com )]].
+  *Thoughtwork.
+    *[[http://confluence.public.thoughtworks.org/display/CC/CI+Feature+Matrix|Thoughtwork's CI Feature Matrix]].
+    *Slides [[http://www.slideshare.net/jezhumble/continuous-delivery-5359386|Jez Humble "Continuous Delivery"]].
+  *[[http://en.wikipedia.org/wiki/Continuous_integration|EN.Wikipedia "Continuous integration"]], [[http://de.wikipedia.org/wiki/Kontinuierliche_Integration|DE.Wikipedia "Kontinuierliche Integration"]], [[http://en.wikipedia.org/wiki/Comparison_of_continuous_integration_software|EN.Wikipedia "Comparison of continuous integration software"]].
+==== Build Automation Resources ====
+  *[[http://dotnet.sys-con.com/node/86231|Timothy Stall, .NET Developer's Journal "Automating Your Processes - an NAnt Case Study"]].
+  *[[http://de.slideshare.net/denderello/the-dog-ate-my-deployment-php-uncoference-september-2013|SlideShare "Dennis Benkert: The Dog Ate My Deployment - PHP Unconference September 2013"]].
+===== Forums, Newsgroups =====
+  *Anthill -- Anthill OS User List.
+    *[[http://lists.urbancode.com/pipermail/anthill/|The Anthill Archives ]] ( - 2008-08 ).
+    *[[http://dir.gmane.org/gmane.comp.java.anthill|Gmane.org "gmane.comp.java.anthill"]] ( 2008 - 2011 ).
+  *[[http://www.cruisecontrolnet.org/projects/ccnet/boards|CruiseControl.NET Forums]].
+  *[[http://devnet.jetbrains.net/community/teamcity|JetBrains Developer Community]].
+{{tag>"continuous integration" continuous integration ci}}
+<footnote_navi_en>

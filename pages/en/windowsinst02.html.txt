@@ -1,0 +1,33 @@
+===== [hemmerling] Windows Installations by USB Stick =====
+===== Installation of "Windows 2000, SP4" on the Notebook "Asus 901", by USB Stick =====
+  -Create a bootable USB stick.
+    -On a host computer, please install "HP USB Disk Storage Format Tool".
+    -Please provide a directory or floppy disk with the MSDOS system files, of Win98SE.
+    -Format a 1 GB flash disk in FAT format ( = FAT16 Format ), by the "HP USB Disk Storage Format Tool", with crossed  option "(x) Create a DOS startup disk". 
+    -Copy the contents of a W2K,SP4 installation CD on the USB stick.
+  -Prepare the notebook for the installation.
+    -Insert the USB stick in the notebook.
+    -Switch the notebook on.
+    -Press F2 to enter the BIOS setup.
+    -Set the USB drive ( e.g. "USB:CBM" ) as first harddisk.
+    -Set the USB drive ( e.g. "USB:CBM" ) as first bootable device.
+    -Save the BIOS settings, leave the BIOS setup.
+    -Boot the notebook, the USB stick is booted, you see the MSDOS prompt. No national ( e.g. german ) keyboard driver is loaded. The USB stick is C:.
+    -Enter "CD i386" to enter Windows installation directory.
+    -Enter "winnt" to start the installation. 
+    -The installation software asks for the windows installation directory, and suggests "C:\i386". Confirm this.
+    -Windows now copies data from the source installation directory to a destination installation directory of the USB stick, as at that moment no other drive is available. After some time, the first stage of the installation is finished.
+    -Reboot the notebook, select "Windows 2000 Installation/Upgrade".
+    -Windows setup boots from the USB stick, again. Select "To set up Windows 2000 now, press ENTER" by pressing ENTER, agree to the license agreement by pressing F8.
+    - You are now in the "Windows 2000 Professional Setup". All available drives and partitions are displayed. Take notice that on a 1 GB USB stick, there are just 384 MB free. The internal flash drives are C: and D:. 
+  - Installation of Windows on the bigger 2nd. flash drive ( not the 1st. original flash drive with 4 GB size ).
+  - Reboot the notebook, enter the BIOS and set the bigger internal flash drive as first harddisk and bootdisk. Remember that in the menus, the original 1st. small and the original bigger 2nd. flash drive have the same name.
+  - Konfigure the operating system for maximal performance.
+    *Use the small 1st. flash drive for.
+      -the temp directory, by setting the Windows system environment variables TEMP and TMP.
+      -the Windows swap space ( at least 512 MB, better 1 GB ).
+      -limited personal data.
+{{tag>Windows installation "USB stick", "flash drive" "USB drive"}}
+
+<footnote_navi_en>
+

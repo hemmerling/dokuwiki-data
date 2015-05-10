@@ -1,0 +1,212 @@
+====== [hemmerling] C, C++ for Windows & MSDOS ======
+===== Borland C++, Turbo C++, Turbo C =====
+==== Conferences, Organisations ====
+  *The commercial conference [[http://cppnow.org/|C++Now]], USA.
+  *[[http://www.meetingcpp.com/|Meeting C++]].
+    *Conference [[http://www.meetingcpp.com/index.php/mcpp2013.html|Meeting C++ 2013]] in Düsseldorf, 2013-11-08 - 2013-11-09.
+    *Conference [[http://www.meetingcpp.com/index.php/mcpp2014.html|Meeting C++ 2014]] in Berlin.
+  *C++ User Groups.
+    *[[http://www.meetingcpp.com/index.php/MeetingCpp.html|Meeting C++ - Kommende C++ Events & Treffen]] -> C++ User Gruppe Hamburg.
+    *[[http://www.xing.com/net/moderncpp|XING "Modern C++"]] -> C++ User Gruppe Hamburg.
+    *[[https://wiki.attraktor.org/C%2B%2BUserGroup|Attraktor e.V. "C++UserGroup"]].
+==== Compilers ====
+  *Borland C++ Builder.
+    *[[http://www.amazon.de/exec/obidos/ASIN/382668642X/hemmerling-21|Hans-Georg Schumann: "C++ für Kids. Objektorientierte Programmierung für Einsteiger"]] ( expensive book ) - is shipped with a full version of "Borland C++ Builder 1" for Windows on CD.
+  *[[http://www.embarcadero.com/|Embarcadero Technologies, Inc]].
+    *[[http://edn.embarcadero.com/|Embarcadero Developer Network]].
+      *[[http://edn.embarcadero.com/museum/antiquesoftware|Embarcadero "Antique Software"]] - Turbo C++ 1.01 for MSDOS, Turbo C 2.01 for MSDOS.
+      *[[http://edn.embarcadero.com/article/20633|Embarcadero "Borland C++ Compiler version 5.5 Free Download Is Here !!!"]] -  *The free commandline tools of Borland C++ 5.5, for Windows.
+  *Some other download offers.
+    *[[http://www.borlandc.org/|BorlandC.org]].
+      *[[http://www.borlandc.org/download-borland-c-3-1/|BorlandC.org "Download Borland C++ 3.1"]].
+    *[[http://www.mediafire.com/download/9nzwhehavt6x3wg/Borland+Turbo+C%2B%2B+4.5+.zip|MediaFire "Borland Turbo C++ 4.5 .zip"]].
+    *[[http://www.datafilehost.com/d/aa1ada86|Data File Host "Borland Turbo C++ 4.5 Portable"]].
+==== Tools ====
+  *[[http://www.codecutter.net/tools/bcc55tools/Makegen.htm|Codecutter.net "Makegen
+ Building multi-file projects with Bcc55"]].
+  *MemProof - heap memory and resource "leaks" debugger for Borland C/C++ 5.5 ( and Delphi ), by Atanas Stoyanov, [[http://www.automatedqa.com/|AutomatedQA]].
+    *[[http://wayback.archive.org/web/*/http://www.automatedqa.com/downloads/memproof/|Archive.org "AutomatedQA - MemProof by Atanas Stoyanov"]] - Download of "memp0950.zip"  ( - 2007-07-12 ).
+    *[[http://www.scip.be/index.php?Page=ArticlesDelphi07&Lang=EN|Stefan Cruysberghs, SCIP.be "Memproof - Find memory and resource leaks"]] - "MemProof, written by Atanas Stoyanov".
+    *The successor of MemProof: The free [[http://smartbear.com/products/free-tools/aqtime-standard/|SmartBear Software "AutomatedQA AQtime Standard"]] - "Free Performance Profiling. Discovers and eleminate bugs and bottlenegs in your software".
+  *[[http://tippach.business.t-online.de/wdosx/|Michael Tippach "WDOSX - Wuschel's DOS eXtender"]].
+==== Resources ====
+  *[[http://www.borlandforum.com/|BorlandForum]], China.
+  *[[http://www.codeproject.com/KB/recipes/usingbcc.aspx|The Code Project, Leon Matthews "Getting started with Borland C++ 5.5"]].
+  *[[http://www.webnotes.org/bcc55eng.htm|Pascal Coudert "Borland C++ 5.5 tutorial"]].
+  *[[http://www.ratiosoft.com/tcl/borland/|Helmut Giese, Rationelle Software-Entwicklung "Good news: Tcl again supports Borland compilers"]] - "Tcl 8.3.3 supports Borland".
+  *[[http://wayback.archive.org/web/*/http://www.bcbdev.com/|Archive.org "Harold Howe - BCBDEV.COM"]] ( - 2004-12-16 ).
+  *[[http://personal.sirma.bg/Jogy/bcc55.html|Jogy "Borland C++ 5.5"]].
+  *[[http://edmulroy.portbridge.com/borland.htm|Edward Mulroy "Borland Related Links"]].
+  *[[http://wayback.archive.org/web/*/http://www.pharo.onlinehome.de/Bcc55.html|Archive.org "Helmut Pharo - Get started with Borland's free C/C++ commandline tools"]].
+  *[[http://wayback.archive.org/web/*/http://www.objectcentral.com/vide/help/videdoc/bcc32.html|Archive.org "VIDE - The Borland C++ Compiler 5.5"]].
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/Borland|EN.Wikipedia "Borland"]], [[http://de.wikipedia.org/wiki/Borland|DE.Wikipedia "Borland"]].
+    *[[http://en.wikipedia.org/wiki/CodeGear|EN.Wikipedia "CodeGear"]], [[http://de.wikipedia.org/wiki/CodeGear|DE.Wikipedia "CodeGear"]].
+    *[[http://en.wikipedia.org/wiki/Embarcadero_Technologies|EN.Wikipedia "Embarcadero Technologies"]], [[http://de.wikipedia.org/wiki/Embarcadero_Technologies|DE.Wikipedia "Embarcadero Technologies"]].
+===== Clang for LLVM =====
+  *[[http://www.llvm.org/|LLVM]].
+  *[[http://clang.llvm.org/|Clang]].
+  *[[http://en.wikipedia.org/wiki/Clang|EN.Wikipedia "Clang"]], [[http://de.wikipedia.org/wiki/Clang|DE.Wikipedia "Clang"]].
+  *[[http://en.wikipedia.org/wiki/LLVM|EN.Wikipedia "LLVM"]], [[http://de.wikipedia.org/wiki/LLVM|DE.Wikipedia "LLVM"]].
+===== Digital Mars =====
+==== C/C++ ====
+  *[[http://www.digitalmars.com/|Digital Mars]] C/C++ compiler ( formerly: Datalight C / Zorland C / Zortech C and Zortech C++ / Symantec C++ ) for Win32, Win16, DOS32 and DOS, by [[http://www.walterbright.com/|Walter Bright]].
+  *[[ftp://ftp.digitalmars.com/|ftp.digitalmars.com]].
+  *[[http://www.digitalmars.com/ctg/ctg.html|Digital Mars "Compiler & Tools Guide - Overview"]] - online documentation.
+  *[[http://en.wikipedia.org/wiki/Digital_Mars|EN.Wikipedia "Digital Mars"]].
+==== D ====
+  *[[http://en.wikipedia.org/wiki/D_%28programming_language%29|DE.Wikipedia "D (programming language)"]] - "The D programming language is an object-oriented, imperative, multi-paradigm system programming language created by Walter Bright of Digital Mars".  
+  *[[http://de.wikipedia.org/wiki/D_%28Programmiersprache%29|DE.Wikipedia "D (Programmiersprache)"]] - "D ist eine Programmiersprache, die sich äußerlich stark an C++ anlehnt"
+
+===== GNU-C/C++ =====
+==== Development Organisations ====
+  *[[http://www.gnu.org/|The GNU Project]], [[http://gcc.gnu.org/|GCC, the GNU Compiler Collection]].
+    *[[http://www.gnu.org/software/gcc/releases.html|GCC Releases]].
+  *[[http://www.sourceware.org/|sourceware.org]].
+==== Compilers for DOS, DOS32, Windows ====
+  -[[http://www.cygwin.com/|Cygwin]] - "GNU + Cygnus + Windows = cygwin". 
+    *[[http://www.cygwin.com/faq.html|Cygwin FAQ]].
+    *[[http://www.cygwin.com/ml/cygwin/2003-01/msg01441.html|Cygwin mailing list "Takayoshi Shimizu: Re: undefined reference to '__getreent'"]].
+    *[[ftp://ftp.inf.tu-dresden.de/pub/cygwin/|Cygwin ftp mirror]].
+  -[[http://www.delorie.com/djgpp/|DJ Delorie "DJGPP"]] for DOS32.
+    *[[http://www.delorie.com/gnu/docs/|DJ Delorie "GNU Documentation"]].
+    *[[http://en.wikipedia.org/wiki/DJGPP|EN.Wikipedia "DJGPP"]].
+    *The OpenSource IDE [[http://www.rhide.com/|RHIDE]], [[http://rhide.sourceforge.net/|SourceForge "RHIDE"]], [[http://www.sourceforge.net/projects/rhide/|SourceForge "RHIDE"]] for MSDOS and Linux - "An IDE for DJGPP and other GNU based systems".
+  -EMX for DOS32.
+    *[[http://en.wikipedia.org/wiki/EMX_%28programming_environment%29|EN.Wikipedia "EMX (programming environment)"]].
+    *[[http://www.os2site.com/sw/dev/emx/|Dev - EMX.OS/2 Site - OS/2 Warp software and information]] - EMX 0.9d download.
+    *[[http://hobbes.nmsu.edu/h-browse.php?dir=/pub/os2/dev/emx/|Hobbes]] - EMX 0.9d download.
+  -MinGW.
+    *Compiler.
+      -[[http://www.mingw.org/|MinGW]], [[http://mingw.sourceforge.net/|Sourceforge "MinGW - Minimalist GNU for Windows"]], [[http://www.sourceforge.net/projects/mingw/|Sourceforge "MinGW - Minimalist GNU for Windows"]] - "Minimalist GNU for Windows"-.
+      -[[http://tdm-gcc.tdragon.net/|tdm-gcc - A compiler suite for 32- and 64-bit Windows based on the GNU toolchain]], [[http://tdm-gcc.sourceforge.net/|Sourceforge "TDM-GCC MinGW Compiler"]], [[http://www.sourceforge.net/projects/tdm-gcc/|Sourceforge "TDM-GCC MinGW Compiler"]] - "GCC for 32-bit and 64-bit Windows with a real installer & updater".
+    *IDE projects, which use [[http://www.mingw.org/|MinGW]] port of GCC (GNU Compiler Collection) as it's compiler.
+      *Legacy IDE project [[http://www.bloodshed.net/devcpp.html|Bloodshed Dev-C++]], [[http://dev-cpp.sourceforge.net/|Sourceforge "Dev-C++"]], [[http://www.sourceforge.net/projects/dev-cpp/|Sourceforge "Dev-C++"]] for Windows.
+        *Latest stable versions with GCC 3.x: Dev-C++ 4.9.8.0 with MinGW GCC 3.2, Dev-C++ 4.9.9.1 with MinGW GCC 3.3.1.
+        *The help for this program was created in Windows Help format, which depends on a feature that isn't included in Windows 8.1 :-(.
+      *Current IDE project [[http://orwelldevcpp.blogspot.de/|Orwell Dev-C++. The main site of the 2011 Dev-C++ fork]], [[http://orwelldevcpp.sourceforge.net/|Sourceforge "Dev-C++"]], [[http://www.sourceforge.net/projects/orwelldevcpp/|Sourceforge "Orwell Dev-C++. A portable C/C++/C++11 IDE"]] for Windows.
+        *Stable versions with GCC 4.x: Dev-C++ 5.7.1 with MinGW GCC 4.8.1.
+      *Another current IDE project [[http://wxdsgn.sourceforge.net/|Sourceforge "Dev-C++"]], [[http://www.sourceforge.net/projects/wxdsgn/|Sourceforge " wxWidgets Dialog Designer. Dev-C++ with wxWidgets designer"]] for Windows.
+      *[[http://www.bloodshed.net/dev/doc/|The Dev-C++ Resource Site - Documentation]].
+      *[[http://www.ultimatepp.org/|Ultimate++]], [[http://www.sourceforge.net/projects/upp/|Sourceforge "U++"]],  [[http://upp.sourceforge.net/|Sourceforge "U++"]], [[http://code.google.com/p/upp-mirror/|Google Code "upp-mirror"]] - "A C++ cross-platform rapid application development framework".
+      *[[http://www.codecutter.net/tools/quincy/|Quincy 2005. A Simple IDE for C/C++]] for Windows - "Quincy 2005 makes it easy to use the [[http://www.mingw.org/|MinGW]] C/C++ compiler, and the GDB debugger".
+      *"MinGW Developer Studio"  for Windows and Linux, by Parinya Thipchart.
+        *[[http://koti.mbnet.fi/vaultec/mingwstudio.php|VaulTec "MinGW Developer Studio"]] - "As an effort to keep MinGW Developer Studio alive, I  have created updated installers for MinGW Developer Studio 2.05 for Windows with a newer version of the MinGW compiler system and ResEd resource editor".
+        *[[http://koti.mbnet.fi/vaultec/files/miscellaneous/mingwstudio|File index "MinGW Developer Studio"]] - "MinGW Developer Studio 2.06" for Linux.
+    *Resources.
+      *[[http://en.wikipedia.org/wiki/Dev-C%2B%2B|EN.Wikipedia "Dev-C++"]], [[http://de.wikipedia.org/wiki/Orwell_Dev-C%2B%2B|DE.Wikipedia "Orwell Dev-C++"]].
+      *[[http://en.wikipedia.org/wiki/WxDev-C%2B%2B|EN.Wikipedia "wxDev-C++"]].
+      *[[http://en.wikipedia.org/wiki/WxWidgets|EN.Wikipedia "WxWidgets"]], [[http://de.wikipedia.org/wiki/WxWidgets|DE.Wikipedia "WxWidgets"]].
+
+==== Debugger ====
+  *[[http://www.gnu.org/s/gdb/|GDB: The GNU Project Debugger]].
+  *The OpenSource [[http://www.gnu.org/software/ddd/|DDD - Data Display Debugger]].
+  *The OpenSource [[http://sources.redhat.com/insight/|RedHat Insight - The GDB GUI]].
+
+
+==== Resources ====
+  *[[http://kegel.com/crosstool/|Dan Kegel "Building and Testing gcc/glibc cross toolchains"]].
+===== Microsoft Visual C++ =====
+==== Microsoft Tools ====
+  *[[http://en.wikipedia.org/wiki/Microsoft_Visual_Studio|EN.Wikipedia "Microsoft Visual Studio"]], [[http://de.wikipedia.org/wiki/Microsoft_Visual_Studio|EN.Wikipedia "Microsoft Visual Studio"]].
+    *"Microsoft Visual C++ Toolkit 2003" - a free C/C++ compiler for Windows.
+      *[[http://www.heise.de/newsticker/meldung/Microsoft-gibt-C-Compiler-frei-97149.html|Heise "Microsoft gibt C++-Compiler frei"]] ( 2004-04-08 ) - Explanations and details about the license agreement. A must read !.
+      *"Visual C++ 2005 Express".
+    *[[http://www.microsoft.com/express/Downloads/|Microsoft Express Downloads - Visual Studio Express and SQL Server Express]].
+      *"All - Offline Install ISO image file" - This download contains an offline installer for "Visual C++ 2008 Express".
+      *"All - Offline Install ISO image file" - This download contains an offline installer for "Visual C++ 2010 Express".
+     *Remote debugging with Visual Studio -> See [[sdevtools.html|Software Development Tools]].
+==== Third-Party Tools ====
+==== Visual C++ 2008 Resources ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3540238697/hemmerling-21|Richard Kaiser: "C++ mit Microsoft Visual C++ 2008"]].
+    *SpringerLink [[http://www.springerlink.com/content/t53184/|Richard Kaiser: "C++ mit Microsoft Visual C++ 2008"]].
+    *[[http://www.rkaiser.de/|Richard Kaiser's Website]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/386645208X/hemmerling-21|Walter Saumweber: "Richtig einsteigen: Programmieren lernen mit Visual C++ 2008"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0136151574/hemmerling-21|P. J. Deitel, H. M. Deitel, D. T. Quirk: "Visual C++ 2008 How to Program"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3836211939/hemmerling-21|André Willms: "Einstieg in Visual C++ 2008"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3827243238/hemmerling-21|Dirk Louis: "Visual C++ 2008 Kompendium: Das umfassende Handbuch für Programmierer"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3935042884/hemmerling-21|Dirk Louis: "Windows Forms mit Visual C++ Einstieg und professioneller Einsatz: Einstieg und professioneller Einsatz mit den Versionen 2005 und 2008"]].
+==== Visual C++ 2005 Resources ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/159200816X/hemmerling-21|Aaron Miller: "Microsoft Visual C++ 2005: Express Edition. Programming for the Absolute Beginner"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0764571974/hemmerling-21|Ivor Horton: "Ivor Horton's Beginning Visual C++ 2005"]].
+==== Visual C++ 2003  Resources ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3860637851/hemmerling-21|Julian Templeman, Andy Olsen: "Microsoft Visual C++ . NET. Schritt für Schritt"]], for VS2003.
+==== C++/CLI  Resources ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1590597567/hemmerling-21|Marcus Heege: "Expert C++/CLI: .Net for Visual C++ Programmers"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1590597052/hemmerling-21|Gordon Hogenson: "C++/CLI Primer: The Visual C++ Language for .NET: The Visual C++ Language of .NET"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1430210230/hemmerling-21|Gordon Hogenson: "Foundations of C++/CLI: The Visual C++ Language for .Net 3.5"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1430210532/hemmerling-21|Stephen R. G. Fraser: "Pro Visual C++/CLI and the .NET 3.5 Platform"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1590596080/hemmerling-21|Dean C. Wills: "Pro Visual C++ 2005 for C# Developers. Featuring C++/CLI"]].
+==== General Microsoft Resources ====
+  *[[http://support.microsoft.com/default.aspx?scid=kb;en-us;q138400|Microsoft Help and Support, Article ID: 138400 "Troubleshooting LNK2001 or L2029 Unresolved External Errors"]] -> Microsoft Linker.
+  *[[http://msdn.microsoft.com/en-us/library/aa367091%28v=VS.85%29.aspx|MSDN "Microsoft Interface Definition Language"]] (MIDL) - "The Microsoft Interface Definition Language (MIDL) defines interfaces between client and server programs. Microsoft includes the MIDL compiler with the Platform Software Development Kit (SDK)".
+    *[[http://msdn.microsoft.com/en-us/library/aa367300%28v=VS.85%29.aspx|MSDN "Using the MIDL Compiler"]].
+
+===== Open Watcom C/C++ =====
+  *[[http://www.openwatcom.org|Open Watcom]] for Windows, OS/2, DOS32, DOS.
+  *[[http://howlingmad.gmxhome.de/watcom_tip_de.html|Markus Neifer "MN Watcom Tip Seite"]].
+  *[[http://www.azillionmonkeys.com/qed/watcom.html|Paul Hsieh "WATCOM C/C++ Links"]].
+    *[[http://www.azillionmonkeys.com/qed/watfaq.shtml|Paul Hsieh "The WATCOM C/C++ Programmer's FAQ"]] for WATCOM 4.11a.
+    *[[http://web.archive.org/web/*/http:///www.strangecreations.com/library/c/watfaq.txt|Archive.org "Paul Hsieh: The WATCOM C/C++ Programmer's FAQ"]] for WATCOM 3.95.
+  *[[http://pages.prodigy.net/michaln/|Michal Necasek "Michal's Homepage - Open Watcom"]].
+===== Some other C/C++ Compilers / Interpreters =====
+  *[[http://www.softintegration.com/|SoftIntegration, Inc. "Ch"]].
+    *"An embeddable C/C++ interpreter for cross-platform scripting, shell programming, 2D/3D plotting, numerical computing, quick animation, and embedded scripting".
+    *"Ch Standard Edition is FREEWARE for both commercial and non-commercial uses".
+  *[[http://www.cs.virginia.edu/~lcc-win32/|Jacob Navia: "lcc-win32"]] for Windows - C compiler, free for non-commercial use.
+  *[[http://developer.apple.com/tools/mpw-tools/|Macintosh Programmer's Workshop]] - free C/C++ development system for MacOS Classic.
+  *[[http://www.pellesc.de/|Pelles C]] - Free C compiler ( not C/C++! ) for Windows.
+===== C / C++ Language Resources =====
+==== C Language Resources ====
+  *The free HTML and online HTML book [[http://openbook.galileocomputing.de/c_von_a_bis_z/|Jürgen Wolf "C von A bis Z"]].
+  *[[http://www.stackoverflow.com/questions/8949382/is-it-possible-to-compile-pre-ansi-kr-style-c-code-with-visual-c|StackOverflow "Is it possible to compile pre-ANSI (K&R-style) C code with Visual C++?"]] - "In order to get this to compile put the code in a .c file vs. a .cpp. This instructs Visual Studio to compile the code as C instead of C++".
+==== C++ Language Resources ====
+  *[[http://www.parashift.com/c++-faq-lite/|Marshall Cline "C++ FAQ — Frequently Asked Questions"]].
+    *[[http://www.parashift.com/c++-faq-lite/mixing-c-and-cpp.html|Marshall Cline "How to mix C and C++]].
+  *[[http://www.semantics.org/|Semantics Consulting, Inc./Steve Dewhurst]].
+    *[[http://www.semantics.org/localarchive.html|Semantics Consulting, Inc./Steve Dewhurst "Local Article Archive"]] - C/C++ articles.
+  *Bruce Eckel.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0139798099/hemmerling-21|Bruce Eckel "Thinking in C++. Volume 1: Introduction to Standard C++"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0130353132/hemmerling-21|Bruce Eckel, Chuck Allison "Thinking in C++. Volume 2: Practical Programming"]].
+    *[[http://www.mindviewinc.com/|Bruce Eckel's MindView, Inc]].
+  *The free online HTML book [[http://www.brpreiss.com/books/opus4/|Bruno R. Preiss "Data Structures and Algorithms with Object-Oriented Design Patterns in C++"]].
+  *[[http://uw714doc.sco.com/en/SDK_cprog/CONTENTS.html|SCO UnixWare 7 Documentation "Programming in standard C and C++"]].
+  *[[http://www.gotw.ca/|GotW.ca: Herb Sutter]] - "Herb Sutter is a leading authority on software development. He is the best selling author of 'Exceptional C++' and three other books".
+  *The free HTML and online HTML books [[http://www.highscore.de/|Boris Schäling "Programmieren in C++: Einführung"]], [[http://www.highscore.de/|Boris Schäling "Programmieren in C++: Aufbau"]] and [[http://www.highscore.de/|Boris Schäling "Die Boost C++ Bibliotheken"]]. 
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/Compatibility_of_C_and_C%2B%2B|EN.Wikipedia "Compatibility of C and C++"]].
+===== Questionnaires, Quizzes =====
+  *[[http://www.cppquiz.org/quiz/about/|Anders Schau Knatten "C++ Quiz"]].
+===== Resources =====
+  *[[http://javatux.de/C/|Oliver Böhm "Oli's C/C++-Links"]].
+  *[[http://www.fz-juelich.de/jsc/cv/lang/cplusplus/cplusplus_ext|Jülich Supercomputing Centre ( JSC) "WWW C++ Information"]] - link directory.
+  *Comeau.
+    *[[http://www.comeaucomputing.com/resources/|Comeau's Resource Page]] - "Comeau is proud to provide you with a repository of C++ links and resources".
+    *[[http://www.comeaucomputing.com/4.0/docs/userman/export.html|Comeau C++ Export Overview]].
+  *[[http://www.willus.com/ccomp.shtml|Willus.com's Win32/64 C/C++ Compilers Page. Information about x86/AMD64/EM64T compilers)]].
+  *[[http://www.mpdvc.de/|Dieter Smode "Visual C++ FAQ"]].
+    *[[http://www.mpdvc.de/artikel/msdn-howto.html|Carsten Witte "HOWTO: Suchen und Finden im MSDN"]].
+  *[[http://www.isocpp.org/|Standard C++]] # - "The home of Standard C++ on the web — news, status and discussion about the C++ standard on all compilers and platforms".
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/List_of_compilers|EN.Wikipedia "List of compilers"]].
+===== Forums, Newsgroups =====
+  *[[http://www.bytes.com/topic/c/|Bytes IT Community "C/C++ Forum"]].
+  *[[http://www.c-plusplus.de/forum/|C/C++ Forum]].
+  *[[http://cboard.cprogramming.com/|Cprogramming.com CBoard]] - Your Resource for C and C++.
+  *[[http://sources.redhat.com/ml/cygwin/|RedHat "The Cygwin Project mailing list archives"]].
+  *[[http://www.digitalmars.com/NewsGroup.html|Digital Mars - News Groups]].
+  *[[http://community.embarcadero.com/|Embarcadero Community]].
+  *[[http://groups.google.com/group/borland.public.cppbuilder.commandlinetools|Google Groups "borland.public.cppbuilder.commandlinetools"]], [[http://groups.google.com/group/borland.public.cppbuilder.graphics|Google Groups "borland.public.cppbuilder.graphics"]], [[http://groups.google.com/group/borland.public.cppbuilder.language.cpp|Google Groups "borland.public.cppbuilder.language.cpp"]], [[http://groups.google.com/group/borland.public.cppbuilder.nativeapi|Google Groups "borland.public.cppbuilder.nativeapi"]], [[http://groups.google.com/group/borland.public.cppbuilder.non-technical|Google Groups "borland.public.cppbuilder.non-technical"]], [[http://groups.google.com/group/borland.public.cppbuilder.oodesign|Google Groups "borland.public.cppbuilder.oodesign"]], [[http://groups.google.com/group/borland.public.cppbuilder.oodesign|Google Groups "borland.public.cppbuilder.oodesign"]], [[http://groups.google.com/group/borland.public.cppbuilder.students|Google Groups "borland.public.cppbuilder.students"]], [[http://groups.google.com/group/borland.public.cppbuilder.thirdpartytools|Google Groups "borland.public.cppbuilder.thirdpartytools"]], [[http://groups.google.com/group/borland.public.cppbuilder.vcl.components.using|Google Groups "borland.public.cppbuilder.vcl.components.using"]], [[http://groups.google.com/group/borland.public.cppbuilder.vcl.components.writing|Google Groups "borland.public.cppbuilder.vcl.components.writing"]].
+  *[[http://groups.google.com/group/comp.lang.c++|Google Groups "comp.lang.c++"]], [[http://groups.google.com/group/comp.lang.c++.moderated|Google Groups "comp.lang.c++.moderated"]], [[http://groups.google.com/group/comp.lang.c++.leda|Google Groups "comp.lang.c++.leda"]], [[http://groups.google.com/group/de.comp.lang.c++|Google Groups "de.comp.lang.c++"]], [[http://groups.google.com/group/de.comp.lang.iso-c++|Google Groups "de.comp.lang.iso-c++"]].
+  *[[http://groups.google.com/group/openwatcom.users.c_cpp|Google Groups "openwatcom.users.c_cpp"]]. [[http://groups.google.com/group/openwatcom.users.fortran|Google Groups "openwatcom.users.fortran"]], [[http://groups.google.com/group/openwatcom.contributors|Google Groups "openwatcom.contributors"]], [[http://groups.google.com/group/openwatcom.bugzilla|Google Groups "openwatcom.bugzilla"]], [[http://groups.google.com/group/powersoft.public.watcom_c_c++.general|Google Groups "powersoft.public.watcom_c_c++.general"]].
+  *[[http://groups.google.com/group/comp.os.msdos.djgpp|Google Groups "comp.os.msdos.djgpp"]].
+  *[[http://www.stackoverflow.com/questions/tagged/c|Stack Overflow - Tagged Questions "[c]"]], [[http://www.stackoverflow.com/questions/tagged/c++|Stack Overflow - Tagged Questions "[c++]"]].
+  *[[http://www.xing.com/net/moderncpp|XING "Modern C++"]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Programming/Languages/|OpenDirectory "Top: Computers: Programming: Languages"]].
+  *[[http://www.dmoz.org/Computers/Programming/Languages/C/|OpenDirectory "Top: Computers: Programming: Languages: C"]].
+  *[[http://www.dmoz.org/Computers/Programming/Languages/C%2B%2B/|OpenDirectory "Top: Computers: Programming: Languages: C++"]].
+  *[[http://www.dmoz.org/Computers/Programming/Languages/C%2b%2b/Class_Libraries/MFC/|Computers: Programming: Languages: C++: Class Libraries: MFC]].
+
+{{tag>C++ CPP C MFC "Microsoft Foundation Classes"}}
+<footnote_navi_en>

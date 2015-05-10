@@ -1,0 +1,27 @@
+====== [hemmerling] PySide - Develop System GUI ======
+===== Training =====
+  *Titel der Training-Session: [[http://ep2014.europython.eu/en/schedule/sessions/17/|PySide - Develop System GUI]].
+  *Spontane Leiter der Training-Session: Rolf Hemmerling und Armin Stross-Radschinski ( [[http://www.xing.com/profile/Armin_StrossRadschinski|XING "Armin Stross-Radschinski"]], [[http://de.linkedin.com/in/arminstrossradschinski|LinkedIn "Armin Stroß-Radschinski"]] ).
+  *Dauer der Training-Session: 180 Minuten.
+  *Sprache der Training-Session: Englisch.
+===== Vortrags-Orte, -Datum und -Publikum =====
+  *Veranstaltungsort: [[http://www.bcc-berlin.de/|Berlin Conference Center]], Alexanderstrasse 11, D-10178 Berlin, Deutschland.
+    *Datum: 2014-07-23.
+    *Publikum: Teilnehmer der Konferenz [[http://ep2014.europython.eu/|EuroPython]] 2014.
+    *Veranstalter: [[http://www.python-verband.org/|Python Software Verband e.V.]].
+===== Thema der Trainings =====
+  *Praktisches Hands-On Training zur Entwicklung von GUI-Anwendungen in Python mittels des QT Frameworks und des Python Bindings "PySide".
+===== Wie kam es zur spontanen Trainings-Durchführung durch Rolf Hemmerling und Armin Stross-Radschinski? =====
+  *Venkateshwaran Loganathan ( [[http://www.venkateshwaranloganathan.com/|Venkateshwaran Loganathan]], [[http://www.facebook.com/venkateshwaran.loganathan/|Facebook "Venkateshwaran Loganathan"]], [[http://ep2014.europython.eu/en/accounts/profile/271/|EuroPython 2014 "Venkateshwaran Loganathan"]], [[http://in.linkedin.com/in/venkat4|LinkedIn "Venkateshwaran Loganathan"]], [[http://www.twitter.com/anandvenkat4|Twitter "Venkateshwaran L, @anandvenkat4"]], [[anandvenkat4@gmail.com]] ), Autor des Buchs [[http://www.amazon.de/exec/obidos/ASIN/1849699593/hemmerling-21|PySide GUI Application Development]], hatte sich erfolgreich um die Durchführung des Trainings als Trainer beworben.
+  *Seine Crowdsourcing-Kampagne [[http://www.trevolta.com/travels/EuroPython-2014-Berlin-24280|Trevolta "EuroPython 2014 - Berlin"]] blieb erfolglos, es wurden bis zum 2014-07-07 $0 von den gewünschten $2500 gespendet.
+  *Venkateshwaran Loganathan besuchte daraufhin die Konferenz nicht - in einem kurzen Facebook-Chat erwähnte er, daß er wohl zusätzlich auch das VISA zu spät beantragt hätte, oder es sonstige VISA-Probleme gegeben hätte - :-(, ohne dies dem Veranstalter mitzuteilen bzw. ohne daß dies der Veranstalter bemerkte.
+  *Es saßen also am 2014-07-23 um 10:00 im Seminarraum A3 / A4 ca. 50 angemeldete Interessenten für das im Konferenzpreis enthaltene und in allen Konferenz-Agendas ausgewiesene Training im Seminarraum, aber es kam kein Trainer, die informierte Veranstaltungsleitung zeigte sich überrascht.
+===== Durchführung =====
+  *Nach kurzer Wartezeit übernahmen Rolf Hemmerling und Armin Stross-Radschinski spontan das Training und führten es auf englisch im vorgesehenen Zeitrahmen von 180 Minuten durch.
+    *Rolf Hemmerling erläuterte die Unterschiede zwischen den OpenSource-Lizenzen für die Python-Bindings "PySide" und "PyQT", mit denen man gleichermaßen Python-Programme mit graphischer Benutzeroberfläche ( GUI ) entwickeln kann.
+    *Armin Stross-Radschinski stellte mit den Teilnehmern zunächst sicher, daß PySide und QT auf ihren mitgebrachten Notebook-Computern richtig installiert waren. Dann erläuterte das typische Grundgerüst von QT-Programmen anhand einiger PySide-Beispielprogramme des [[http://qt-project.org/wiki/PySide_Tutorials|PySide Tutorials]] und führte diese PySide-Beispielprogramme gemeinsam mit den Teilnehmern, jeder auf seinem eigenen Computer, erfolgreich aus.
+    *Rolf Hemmerling stellte den GUI-Designer "QT Designer" anhand einer von ihm erstellten graphischen Python-Anwendung "Codebreaker" vor, erläuterte die Konzepte von modellbasiertem Entwickeln mit QT ( Ableiten von mit dem "QT Designer" generierten Klassen statt Modifikation von erzeugtem Code ) und zeigte exemplarisch, wie man den mit dem "QT Designer" generierten Code zu einer funktionstüchtigen Anwendung ausbaut.
+===== Ergebnis =====
+  *Die Teilnehmern des Hands-On Trainings sind nun damit vertraut, wie man GUI-Anwendungen in Python mittels des QT Frameworks und des Python Bindings "PySide" entwickelt.
+{{tag>BarCamp}}
+<footnote_navi_de>

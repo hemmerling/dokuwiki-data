@@ -1,0 +1,159 @@
+====== [hemmerling] Virtual PCs, Virtual Servers, Virtualization, Virtual Computers, Computer Hardware Simulation ======
+Related pages:
+  *[[virtualbox.html|How to configure Oracle VirtualBox for W2k hosts]]
+  *[[virtualpc.html|How to install and run Windows Virtual PC / Microsoft Virtual PC]] ).
+  *[[vpc2vbx.html|Making the Transition from VirtualPC to VirtualBox]].
+  *[[vagrant.html|Software Development with Vagrant & Chef on VirtualBox]].
+===== 80x86 target =====
+==== Citrix Xen  ====
+  *[[http://www.xen.org/|Xen.Org]].
+  *[[http://www.citrix.com/xenclient|Citrix Xen Client]].
+    *You need PCs with[[http://www.intel.com/technology/vpro/|Intel vPro]] chipset and CPU technology.
+      *[[http://en.wikipedia.org/wiki/Intel_vPro|EN.Wikipedia "Intel vPro"]].
+    *Video [[http://www.youtube.com/watch?v=msyvpFqFl0I|Citrix Xen Based Client Hypervisor - Local Desktop Virtualization]].
+==== Linux ====
+=== Docker ===
+== The Tool ==
+  *[[http://www.docker.com/|Docker]] - "An open platform for distributed applications for developers and sysadmins", "Build, Ship and Run Any App, Anywhere".
+  *[[http://github.com/docker|GitHub "docker"]] - "The open-source application container engine".
+  *[[http://www.twitter.com/docker|Twitter "Docker, @docker. The Linux container engine"]].
+  *Documentation:
+    *[[http://docker.readthedocs.org/en/v0.7.3/installation/kernel/|Read The Docs "Docker" - "Kernel Requirements"]] - "Linux version 3.8 or above".
+    *[[http://docs.docker.com/reference/run/|Docker Documentation "Docker Run Reference"]].
+  *[[http://registry.hub.docker.com/|Docker Hub Registry]] - "Repositories of Docker Images".
+  *[[http://www.coreos.com/docs/launching-containers/building/getting-started-with-docker/|Core OS "Getting Started with docker"]].
+  *[[http://en.wikipedia.org/wiki/Docker_%28software%29|EN.Wikipedia "Docker (software)"]], [[http://de.wikipedia.org/wiki/Docker_%28Software%29|DE.Wikipedia "Docker (Software)"]].
+== Fig ==
+  *[[http://www.orchardup.com/blog/fig|Orchard Blog "Fig: Fast, isolated development environments using Docker"]].
+  *[[https://www.github.com/docker/fig|GitHub "docker/fig"]].
+=== Kernel-based Virtual Machine ( KVM ) ===
+  *[[http://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine|EN.Wikipedia "Kernel-based Virtual Machine"]].
+  *[[http://en.wikipedia.org/wiki/Libvirt|EN.Wikipedia "Libvirt"]] - "An open source API, daemon and management tool for managing platform virtualization".
+=== OpenVZ ===
+  *[[http://en.wikipedia.org/wiki/OpenVZ|EN.Wikipedia "OpenVZ"]], [[http://de.wikipedia.org/wiki/OpenVZ|DE.Wikipedia "OpenVZ"]].
+  *[[http://www.parallels.com/|OpenVZ Linux Containers]] - "OpenVZ is the basis of Parallels Cloud Server".
+==== Oracle VirtualBox & Vagrant ====
+  *See [[vagrant.html|Software Development with Vagrant & Chef on VirtualBox]].
+==== VMware ====
+  *[[http://www.vmware.com/|VMWare]].
+  *[[http://www.vmware.com/vmwarestore/academicstore.html|VMware academic store]].
+=== ESXi ===
+  *The free [[http://www.vmware.com/de/products/datacenter-virtualization/vsphere-hypervisor/|VMware vSphere Hypervisor™ (ESXi)]].
+=== VMware Server & VMware Player ===
+  *You can either install VMware Server or VMware Player on a host operating system, not both ( see [[http://www.ubuntuforums.org/showthread.php?t=386988|Ubuntu Forums]] ) !
+  *[[http://www.vmware.com/|VMWare]] for Linux, Windows.
+  *[[http://www.vmware.com/download/server/|VMware Server]], free edition.
+    *Anomaly with VMware Server V2.01: On a host ( with little 512 MB Ram, W2k-Pro ), it is necessary to start the service "VMware Server Host Agent", manually.
+    *Anomaly with VMware Server V2.01: On a host ( W2k-Server ), after first reboot , after Windows Login, W2k-Server crashes with bluescreen...
+  *[[http://www.vmware.com/download/player/|VMware Player]], free edition.
+    *Be aware: For commercial use of the "free" edition of VMware Player, you need a commercial license :-(.
+  *[[http://www.vmware.com/products/converter/|VMware Converter]], free edition.
+  *[[http://pubs.vmware.com/vsp40/webaccess/wwhelp/wwhimpl/common/html/wwhelp.htm#href=c_about_vmware_remote_console.html&single=true|About VMware Remote Console]] by VMware.
+  *[[http://pubs.vmware.com/esx254/admin/wwhelp/wwhimpl/common/html/wwhelp.htm?context=admin&file=esx25admin_remote-console.14.1.html|Using the VMware Remote Console]] by VMware.
+  *[[http://www.vmware.com/support/esx21/doc/esx21admin_mime_running.html|Setting a MIME Type to Launch the VMware Remote Console]].
+  *[[http://www.vmware.com/resources/compatibility|VMware Compatibility Guide]].
+  *Support.
+    *VMware 2.5.5 Player has no USB support.
+    *[[http://www.vmware.com/support/ws55/doc/ws_devices_usb.html|VMware, Inc. "VMware Workstation 5.5. Using USB Devices in a Virtual Machine"]].
+    *If your virtual computer supports USB, you may access a USB-2-Ethernet adapter connected to your physical computer, and so you may access a totally different ( sub- ) network by your virtual computer, than that of your physical computer.
+=== Resources ===
+  *[[http://communities.vmware.com/docs/DOC-17631|VMware Communities "Problem importing Windows XP - Mode on VMWare - Player 4.0"]].
+    *Error message, when trying to import the "Windows XP - Mode VM" into VMWare Player: "This feature of VMware Player requires the VMware vCenter Converter Standalone product":-(.
+    *Solution You must install the "VMware vCenter Converter Standalone" V5.01. An expert suggested to select "Client-Server Installation (advanced)".
+==== VMLite ====
+  *The free virtual machine [[http://www.vmlite.com/|VMLite Corporation "VMLite"]] for WinXP.
+==== Windows 8, Win2008 & Hyper-V ====
+  *[[http://technet.microsoft.com/en-us/library/hh857623.aspx|Microsoft TechNet "Client Hyper-V"]].
+  *[[http://www.winsupersite.com/article/windows8/windows-8-tip-virtualize-hyperv-143521|Paul Thurrott's Supersite for WINDOWS "Windows 8 Tip: Virtualize with Hyper-V"]], 2012-06-24.
+  *[[http://blogs.msdn.com/b/b8/archive/2011/09/07/bringing-hyper-v-to-windows-8.aspx|Microsoft MSDN, Blog "Building Windows", Article "Bringing Hyper-V to “Windows 8”"]], 2011-09-07.
+==== Windows Virtual PC / Microsoft VirtualPC ====
+=== Windows 7 Native Boot of VHD - The "Shift F10" Experience ===
+  *[[http://blogs.msdn.com/b/knom/archive/2009/04/07/windows-7-vhd-boot-setup-guideline.aspx|MSDN Blogs, knom's developer corner "Windows 7 – VHD Boot – Setup Guideline"]].
+    *"The .VHD booted OS needs to be Windows 7, Windows Server 2008 R2 or later".
+  *[[http://www.windowsblog.at/post/2009/01/12/34765.aspx|WindowsBlog.at, Ein Blog rund um Microsoft Windows, WIndows Live und was sonst noch anfällt "Windows 7: Natives Booten von VHD"]].
+  *[[http://www.buit.org/2009/02/09/native-vhd-in-windows-7/|Innovative Technology Weblog, Innovative Technology presented by Innovative People "Native VHD in Windows 7"]].
+=== Windows Virtual PC ===
+  *The free [[http://www.microsoft.com/windows/virtual-pc/|Windows Virtual PC]].
+  *[[http://www.microsoft.com/windows/virtual-pc/support/virtual-pc-2007.aspx|Windows VirtualPC 2007]].
+  * Microsoft Download Center: [[http://www.microsoft.com/downloads/details.aspx?FamilyId=28C97D22-6EB8-4A09-A7F7-F6C7A1F000B5&displaylang=en|Microsoft VirtualPC 2007 SP1]] for WinXP, Vista. Inofficial patch for W2k is available.
+  *[[http://www.microsoft.com/downloads/en/details.aspx?displaylang=en&FamilyID=bc49c7c8-4840-4e67-8dc4-1e6e218acce4|Microsoft Virtual Server 2005 R2 SP1 - Enterprise Edition]] for WinXP, Vista.
+  *[[http://www.microsoft.com/windows/virtual-pc/download.aspx|Download Windows XP Mode with Virtual PC]] - Download just works on computers running Win7 only.
+  *[[http://www.microsoft.com/hyper-v-server/|Microsoft® Hyper-V Server 2008 R2]] for Win2008.
+=== Windows Virtual PC - Product Details & Product Requirements ===
+  *Simulation target: PIII CPU, BX motherboard, Trio 32/64 graphics card.
+  *Windows Virtual PC 2007 just runs on WinXP, Vista ( and on [[virtualpc.html|W2k after patching]] ).
+  *Windows Virtual PC 2009 once just run exclusively on systems running Win7 and which provide hardware-assisted virtualisation by the CPU. This is now obsolete by a fix. Without the fix, there might be the error message 
+
+//"Windows Virtual PC. Cannot start Windows Virtual PC Host Process. Check the System event log for more details. Windows Virtual PC requires hardware-assisted virtualization. There is no hardware-assisted virtualization support in the system"//
+
+  *Supported Windows guests:
+    *Windows Virtual PC 2007 on W2k and WinXP supplies "Virtual PC Integration Components" for Win98SE, W2k, WinXP, Vista, Win7.
+    *Windows Virtual PC Mode on Win7 supplies "Virtual PC Integration Components" for WinXP-SP3, Vista, Win7.
+=== Resources ===
+  *[[http://www.netzwelt.de/forum/fragen-antworten/106182-windows-virtual-pc-2009-bringt-software-betriebssystem-laufen.html|Netzwelt "Windows Virtual PC 2009 - Bringt die Software jedes Betriebssystem unter Windows zum Laufen?"]], 2010-09-14 - "**Wird Virtual PC 2009 unter Windows 7 installiert, werden nun auch USB Schnittstellen erkannt**. Wie man also durchaus feststellen kann".
+  *Microsoft.
+    *[[http://blogs.technet.com/b/windows_vpc/archive/2009/11/04/tip-using-the-keyboard-to-access-useful-functionality-in-windows-virtual-pc.aspx|Microsoft TechNet Blogs - Windows Virtual PC "Tip: Using the keyboard to access useful functionality in Windows Virtual PC"]] - List of keyboard shortcuts :-). "CTRL+ALT+Left Arrow - Release the mouse from the virtual machine’s (VM) window (required only when the integration features are not installed or are disabled)".
+    *[[http://technet.microsoft.com/virtualization|Microsoft Virtual Server TechNet - Virtualisierungs-Szenarien "Microsoft Virtualisierung – die wichtigsten Szenarien"]].
+    *[[http://technet.microsoft.com/en-us/virtualization/|Microsoft TechNet - Virtualization Scenario Hub "Getting Business Done With Virtualization"]].
+      *[[http://technet.microsoft.com/virtualization/bb545897.aspx|Microsoft Virtual Server TechCenter "Microsoft Virtual Server. Featured Resources"]].
+  *Blog [[http://blogs.msdn.com/virtual_pc_guy/archive/2004/10/21/246136.aspx|Tuning DOS inside of Virtual PC]] by Virtual PC Guy.
+  *[[http://www.tomshardware.com/news/windows-xp-mode-windows-7-win7,10213.html|Tom's Hardware "How To: Setup XP-Mode on Win 7 Basic, Premium"]], 2010-04-19.
+  *[[http://en.wikipedia.org/wiki/Windows_Virtual_PC|EN.Wikipedia "Windows Virtual PC"]], [[http://de.wikipedia.org/wiki/Windows_Virtual_PC|DE.Wikipedia "Windows Virtual PC"]].
+==== Windows Interface for Non-Windows OS ====
+  *Wine - See [[3dframeworks.html#Wine|3D Graphics Frameworks]].
+==== Other 80x86 Virtual Machines ====
+  *[[http://bochs.sourceforge.net/|Bochs IA-32 Emulator Project]], [[http://www.sourceforge.net/projects/bochs/|Bochs IA-32 Emulator Project]] - free open source x86 virtual machine.
+  *[[http://www.proxmox.com/|Promox VE]] - "Liberate your servers and move to an Open Virtualization Platform - Go Open Source!".
+  *[[http://www.dosbox.com/|DOSBox]].
+    *[[http://en.wikipedia.org/wiki/DOSBox|EN.Wikipedia "DOSBox"]].
+  *[[http://www.dosemu.org/|DOSEMU]], [[http://dosemu.sourceforge.net/|Sourceforge "DOSEMU for Linux"]], [[http://www.sourceforge.net/projects/dosemu/|Sourceforge "DOSEMU for Linux"]].
+    *[[http://en.wikipedia.org/wiki/DOSEMU|EN.Wikipedia "DOSEMU"]].
+===== Virtualisation Technologies =====
+==== Backup & Restore ====
+  *The free backup tool [[http://www.veeam.com/virtual-machine-backup-solution-free.html|Veeam Backup Free Edition for VMware and Hyper-V]].
+==== Hardware Support for Virtualisation ====
+  *Single-root IOV (SR-IOV).
+    *[[http://www.intel.com/support/network/adapter/pro100/sb/CS-031492.htm|Intel Corporation - Network Connectivity "FAQs: Using SR-IOV with Intel Ethernet Server Adapters"]].
+==== Application Virtualization ====
+  *[[http://en.wikipedia.org/wiki/Microsoft_App-V|EN.wikipedia.org "Microsoft App-V"]], [[http://de.wikipedia.org/wiki/Microsoft_Application_Virtualization|DE.wikipedia.org "Microsoft Application Virtualization"]].
+  *[[http://technet.microsoft.com/de-de/library/cc843848.aspx|Microsoft TechNet "Application Virtualization"]].
+==== Sandbox ( no Virtualisation but similar Benefits for Development & Testing ) ====
+  *[[http://www.sandboxie.com/|Sandboxie]].
+    *[[http://en.wikipedia.org/wiki/Sandboxie|EN.Wikipedia "Sandboxie"]], [[http://de.wikipedia.org/wiki/Sandboxie|DE.Wikipedia "Sandboxie"]].
+==== Virtualisation Selection Criteria: Need for extra 64 Bit Drivers on the Host?! ====
+  *VMWare vs. VirtualPC:
+    *With VMWare, on 64bit Windows host computers and 32bit Windows targets running in the emulator using special 32-bit drivers, the host operating system doesn't need special 64 bit drivers for some special devices, e.g. for USB communications. A generic driver is sufficient on the 64-bit host. The communication flow is simply passed from the target to the host :-).
+    *With VirtualPC, on 64bit Windows host computers and 32bit Windows targets running in the emulator using special 32-bit drivers, the host operating system needs extra 64 bit drivers, e.g. for USB communications just works if you have both an equivalent special driver on the target and the host :-(.
+==== Resources ====
+  *[[virtualpc.html|[Hemmerling] How to install and run Windows Virtual PC / Microsoft Virtual PC]].
+  *[[virtualbox.html|[Hemmerling] How to patch Oracle VirtualBox for W2k hosts]].
+  *[[http://www.howtogeek.com/125640/how-to-convert-virtual-machines-between-virtualbox-and-vmware/|HowToGeek "How To Convert Virtual Machines Between VirtualBox and VMware"]].
+  *[[http://forum.chip.de/windows-7/xp-mode-windows-7-professional-zb-home-premium-geht-1352464.html|CHIP Forum - CHIP Online / Betriebssysteme / Windows 7 / [GELÖST] XP Mode unter Windows 7 Professional (zB Home Premium) - ES GEHT!"]].
+  *[[http://www.hyper-v-community.de/?p=333|Hyper-V Community - Hyper-V was denn sonst?]].
+    *[[http://www.hyper-v-community.de/?p=333|Hyper-V Community - Hyper-V was denn sonst? "Hyper-V Community Treffen am 16.07.2014 in Hannover"]], 2014-07-16.
+  *[[http://homepage3.nifty.com/takeda-toshiya/qemu/|QEMU on Windows]] - free third-party tool for VMware.
+  *[[http://www.aaronrogers.com/vmware/|VMware Player Guide]] by Aaron Rogers.
+  *[[http://www.easyvmx.com/|EasyVMX]]  - "Create virtual machines for VMware Player".
+  *Blog [[http://www.blindhog.net/how-install-vmware-tools-with-vmware-player/|How install VMware tools with VMware player]].
+  *Blog [[http://www.tipandtrick.net/2008/whats-the-login-user-name-and-password-for-vmware-server-20/|What’s the Login User Name and Password for VMWare Server 2.0?]] by "Tip and Trick".
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/AMD_Pacifica#AMD_virtualization_.28AMD-V.29|EN.Wikipedia "x86 virtualization"]] - list of CPUs which support virtualization.
+    *[[http://en.wikipedia.org/wiki/Virtual_machine|EN.Wikipedia "Virtual machine"]], [[http://de.wikipedia.org/wiki/Virtuelle_Maschine|DE.Wikipedia "Virtuelle Maschine"]].
+    *[[http://de.wikipedia.org/wiki/Intel_Virtualization_Technology|DE.Wikipedia "Intel Virtualization Technology"]].
+    *[[http://de.wikipedia.org/wiki/http://de.wikipedia.org/wiki/AMD_Virtualization|DE.Wikipedia "AMD Virtualization"]].
+  *[[http://www.winimage.com/|Gilles Vollant Software "WinImage"]] for Windows.
+    *[[http://en.wikipedia.org/wiki/WinImage|EN.Wikipedia "WinImage"]] - "creating, reading and editing disk images and also opening VMware and Microsoft Virtual PC hard disk images".
+  *The "Windows Task Manager" may be called by the key combination "CTRL"+"ALT"+"ENDE" ( on German keyboard ).
+===== Forums, Newsgroups =====
+  *[[http://groups.google.de/group/comp.emulators.ms-windows.wine/|Google Groups "comp.emulators.ms-windows.wine"]].
+  *[[http://groups.google.com/forum/#!forum/microsoft.public.virtualpc|Google Groups "microsoft.public.virtualpc"]], [[http://groups.google.com/forum/#!forum/microsoft.public.de.virtualpc|Google Groups "microsoft.public.de.virtualpc"]].
+  *[[http://www.vmlite.com/index.php/forums/|VMLite Forums]].
+  *[[http://communities.vmware.com/|VMware Communities]] - forum.
+  *[[http://www.vmware-forum.de/|VMware Forum — Inoffizielles, unabhängiges deutsches VMware-Forum]].
+  *[[http://forums.virtualbox.org/|End user forums for VirtualBox]] - forum.
+  *[[http://www.edugeek.net/forums/thin-client-virtual-machines/|Thin Client and Virtual Machines]] on EduGeek - forum.
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Emulators/|Top: Computers: Emulators]].
+  *[[http://www.dmoz.org/Computers/Emulators/Intel_x86_Architecture/|Top: Computers: Emulators: Intel x86 Architecture]].
+{{tag>virtualization}}
+<footnote_navi_en>

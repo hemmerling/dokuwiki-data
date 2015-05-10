@@ -1,0 +1,190 @@
+====== [hemmerling] Linux 2/8 - Linux Distributions ======
+Related pages:
+  *[[booting.html|Booting from Devices]].
+  *[[android.html|Google Android]].
+  *[[linux01.html|Linux 1/8]].
+  *[[linux03.html|Linux 3/8 - Linux Boot Loaders, Linux Build Systems, Linux Installers and Linux Implementors]].
+  *[[linux04.html|Linux 4/8 - Linux Applications, Linux Tools and Linux Drivers]].
+  *[[linux05.html|Linux 5/8 - SUSE 7.1 Linux on Clevo 2700c Notebooks with SIS630S Chipset]].
+  *[[linux06.html|Linux 6/8 - Linux with X-Terminals and Terminals]].
+  *[[linux07.html|Linux 7/8 - Linux on X86, X64 and ARM Computers]].
+  *[[linux08.html|Linux 8/8 - Useful Linux Commands & Linux Tricks]].
+===== Major Linux Distributions =====
+  *[[http://www.kernel.org/|The Linux Kernel Archives]] #.
+  *[[http://www.linaro.org/|Linaro]].
+    *Wiki [[http://wiki.linaro.org/|Linaro Wiki]].
+    *[[http://www.launchpad.net/|Launchpad]] Login for Linaro & Ubuntu Wiki.
+    *[[http://login.ubuntu.com/|Ubuntu Single Signon]] ( OpenID ).
+    *Supporters / supports.
+      -[[android.html|Google Android]].
+      -[[http://www.meego.com/|MeeGo]].
+      -[[http://www.ubuntu.com/|Ubuntu]].
+        *[[http://www.ubuntuupdates.org/|UbuntuUpdates]].
+        *[[http://releases.ubuntu.com/|Ubuntu Releases]]:
+          *[[http://releases.ubuntu.com/14.04/|Ubuntu 14.04 LTS (Trusty Tahr)]].
+            *Requirements: 6.3 Gbyte disk space, 1000 MB CD-Rom or DVD boot media.
+          *Ubuntu 13.10 (Saucy Salamander) is the latest release with an "Ubuntu Server" edition for x86 computer!
+          *[[http://releases.ubuntu.com/12.04/|Ubuntu 12.04.4 LTS (Precise Pangolin)]].
+            *Requirements: 4.5 Gbyte disk space, 740 MB CD-Rom or DVD boot media.
+        *[[http://www.lubuntu.net/|LUbuntu]] 14.04.4 LTS.
+          *Requirements: 4.4 Gbyte disk space, 700 MB CD-Rom or DVD boot media.
+          *Since Ubuntu 12.04, the standard kernel requires an 80x86 CPU with [[http://de.wikipedia.org/wiki/Physical_Address_Extension|EN.Wikipedia "Physical Address Extension"]]. For systems with CPU without such features, [[http://wwww.lubuntu.net/|LUbuntu]] might be an alternative.
+          *[[http://wiki.ubuntu.com/Lubuntu|Lubuntu Team Wiki]].
+            *"We have done many tests and we've found out that Lubuntu can be installed on a Pentium II or Celeron system with 128 MB of RAM, but such a system would not perform well enough for daily use".
+            *"With 256MB - 384MB of RAM, the performance will be better and the system will be more usable".
+            *"With 512MB of RAM, you don't need to worry much".
+            *However, I failed to install Lubuntu 14.4 on VirtualBox, with 512 MBytes RAM for Linux. It crashed at the end.. during wrap-up.
+        *[[http://en.wikipedia.org/wiki/Ubuntu|EN.Wikipedia "Ubuntu"]], [[http://de.wikipedia.org/wiki/Ubuntu|DE.Wikipedia "Ubuntu"]].
+        *Wiki [[http://wiki.ubuntu.com/|Ubuntu Wiki]]
+        *Ubuntu Netbook Remix - a Linux for Asus901.
+        *Ubuntu Linux supports "Lenovo ThinkPad".
+        *Eeebuntu 2.0 ( Ubuntu 8.10 for the Asus Eee PC ).
+        *[[http://www.geteasypeasy.com/|Easy Peasy]] - a Ubuntu-based Linux for Asus901.
+        *[[http://www.teale.de/|Geoffrey Teale]], [[http://www.xing.com/profile/Geoffrey_Teale|XING "Geoffrey Teale"]], [[http://de.linkedin.com/in/geoffteale|LinkedIn "Geoffrey Teale"]], [[http://www.twitter.com/tealeg|Twitter "Geoffrey J. Teale, @tealeg"]] - Ubuntu team member & "Golang" expert.
+  *[[http://www.debian.org/|Debian]].
+    *[[http://cdimage.debian.org/cdimage/archive/|Debian CDs/DVDs archive]] -> Download of legacy distribution.
+    *[[http://cdimage.debian.org/cdimage/archive/|Debian CDs/DVDs]] -> Download of the current distribution.
+    *[[http://www.debian-interix.net/|Debian Interix Port]] - "This is a port of the Debian distribution to Interix, aka Microsoft Services for UNIX (SfU) or Subsystem for UNIX based applications (SUA)".
+    *Debian Linux is suitable to be installed on legacy hardware ( 80x386 / 80x486,..) :-).
+    *Advice: Take "Debian Stable" for servers and "Debian Testing" for desktop computers :-).
+    *Debian 7.5, with Kernel 3.2.57.
+      *[[http://www.linuxg.net/the-fifth-maintenance-release-debian-wheezy-is-out-debian-7-5/|LinuxG.net "The Fifth Maintenance Release Debian Wheezy Is Out (Debian 7.5)"]], 2014-04-27 - "Kernel 3.2.57". 
+    *[[http://en.wikipedia.org/wiki/Debian|EN.Wikipedia "Debian"]], [[http://de.wikipedia.org/wiki/Debian|DE.Wikipedia "Debian"]].
+===== Some other Linux Distributions =====
+  *[[http://www.backtrack-linux.org/|BackTrack Linux]].
+  *[[http://en.wikipedia.org/wiki/Canaima_%28operating_system%29|EN.Wikipedia "Canaima (operating system)"]], [[http://de.wikipedia.org/wiki/Canaima_GNU/Linux|EN.Wikipedia "Canaima GNU/Linux"]] - "The default operating system for the Venezuelan public administration".
+  *Education on and with Linux.
+    *[[http://www.edubuntu.org/|edubuntu]] - "The free education oriented operating system for kids of all ages".
+    *[[http://www.qimo4kids.com/|Qimo for Kids]].
+  *[[http://en.wikipedia.org/wiki/Caldera_OpenLinux|En.Wikipedia "Caldera OpenLinux"]] - OpenDos,..
+  *[[http://www.caelinux.com/|CAELinux.com]] - "The computer aided engineering Linux distribution".
+    *[[http://www.caelinux.org/|CAELinux Wiki]] .
+  *[[http://www.centos.org/|CentOS - The Community ENTerprise Operating System]] - enterprise-grade Linux.
+    *Wiki [[http://wiki.centos.org/|CentOS Wiki]].
+    *[[http://en.wikipedia.org/wiki/CentOS|EN.Wikipedia "CentOS"]], [[http://de.wikipedia.org/wiki/CentOS|DE.Wikipedia "CentOS"]].
+  *[[http://www.coreos.com/|CoreOS - Linux for Massive Server Deployments]].
+    *[[http://www.coreos.com/using-coreos/containers/|CoreOS "Using docker with CoreOS"]].
+  *[[http://www.damnsmalllinux.org/|Damn Small Linux]].
+    *[[http://en.wikipedia.org/wiki/Damn_Small_Linux|EN.Wikipedia "Damn Small Linux"]], [[http://de.wikipedia.org/wiki/Damn_Small_Linux|DE.Wikipedia "Damn Small Linux"]].
+  *[[http://www.myelux.com/|UniCon Software GmbH "eLux"]] - embedded Linux.
+  *[[http://www.gentoo.org/|Gentoo Linux]].
+  *gOS ( [[http://en.wikipedia.org/wiki/GOS_%28operating_system%29|EN.Wikipedia "gOS (operating system)"]], [[http://de.wikipedia.org/wiki/GOS_%28Betriebssystem%29|DE.Wikipedia "gOS (Betriebssystem)"]] ).
+  *[[http://www.linpus.com/|LINPUS TECHNOLOGIES, INC. "Linpus Lite Download Version"]].
+  *[[http://www.linuxmint.com/|Linux Mint. From freedom came elegance]] - "LMDE. The best of Linux with Cinnamon and MATE on top of Debian".
+  *[[http://www.opensuse.org/|Novell openSUSE]].
+  *[[http://www.puppylinux.org/|Puppy Linux]] - A "Live System" which does not require installation on a harddisk, suitable for legacy hardware :-).
+  *[[http://www.redhat.com/|Red Hat]], [[http://www.de.redhat.com/|Red Hat Germany]].
+    *[[http://fedoraproject.org/|Fedora-Projekt]].
+  *[[http://www.tizen.org/|Tizen]].
+    *[[http://en.wikipedia.org/wiki/Tizen|EN.Wikipedia "Tizen"]], [[http://de.wikipedia.org/wiki/Tizen|DE.Wikipedia "Tizen"]].
+  *[[http://www.uclinux.org/|uClinux]] - "Embedded Linux/Microcontroller Project", "The Linux/Microcontroller project is a port of Linux to systems without a Memory Management Unit (MMU)".
+    *uClinux might be used on ARM platforms without MMU, e.g. ARM Cortex M3, ARM Cortex M4.
+    *[[http://www.uclinux.org/ports/coldfire/|uClinux/ColdFire Project]].
+    *[[http://en.wikipedia.org/wiki/%CE%9CClinux|EN.Wikipedia "μClinux"]], [[http://de.wikipedia.org/wiki/%CE%9CClinux|EN.Wikipedia "μClinux"]].
+  *[[http://www.xos.nl/resources/xoslinux/|X/OS Linux]] - enterprise-grade Linux.
+  *[[http://www.xandros.com/|Xandros]] - a Linux for Asus901.
+===== Special Linux Distributions =====
+  *[[http://www.coyotelinux.com/|Coyote Linux Internet Security Software]].
+    *[[http://en.wikipedia.org/wiki/Coyote_Linux|EN.Wikipedia "Coyote Linux"]].
+  *[[http://www.endian.com/|Endian]].
+    *[[http://de.wikipedia.org/wiki/Endian_Firewall|EN.Wikipedia "Endian Firewall"]], [[http://de.wikipedia.org/wiki/Endian_Firewall|DE.Wikipedia "Endian Firewall"]].
+  *[[http://www.fli4l.de/|fli4L]] - 1-disk Linux router.
+    *[[http://en.wikipedia.org/wiki/Fli4l|EN.Wikipedia "fli4l"]], [[http://de.wikipedia.org/wiki/Fli4l|DE.Wikipedia "fli4l"]].
+  *[[http://www.kali.org/|Kali Linux]] - "Penetration Testing, Redefined".
+    *[[http://www.metasploit.com/|Metasploit]] - "World's most used penetration testing software. Put your network's defenses to the test".
+    *[[http://www.offensive-security.com/kali-linux-vmware-arm-image-download/|Offensive Security "Kali Linux Downloads - Kali Linux Custom ARM and VMware Image Downloads"]] - "These images have a default password of 'toor' and may have pre-generated SSH host keys".
+    *Tutorial [[http://www.offensive-security.com/metasploit-unleashed/Main_Page|Offensive Security "Metasploit Unleashed"]].
+    *Settings of a virtual machine for Kali Linux:
+      *If you use a LAN connection to connect to the Internet by the host, please disable all other network interfaces listed in the configuration settings of the virtual machine.
+      *In the configuration settings of the virtual machine., please select as virtual network adapter configuration = "Bridged" instead of the default "NAT".
+    *Metasploit - The developer of an exploid also implements the payloads and so define all selectable payloads.
+    *For the Metasploit community edition, the command line interface is best choice, as all other choices are outdated or will be outdated soon ( for the community edition at least ).
+    *[[http://en.wikipedia.org/wiki/Kali_Linux|EN.Wikipedia "Kali Linux"]], [[http://de.wikipedia.org/wiki/Kali_Linux|DE.Wikipedia "Kali Linux"]].
+    *[[http://en.wikipedia.org/wiki/Metasploit_Project|EN.Wikipedia "Metasploit Project"]], [[http://de.wikipedia.org/wiki/Metasploit|DE.Wikipedia "Metasploit"]].
+  *[[http://pigtail.net/LRP/|Dave Cinege "Linux Router Project (LRP)"]].
+    *[[http://en.wikipedia.org/wiki/The_Linux_Router_Project|EN.Wikipedia "The Linux Router Project"]].
+  *[[http://www.openwrt.org/|OpenWrt - Wireless Freedom]] - "A Linux distribution for embedded devices".
+  *[[http://phlakproject.sourceforge.net/|PHLAK]], [[http://www.sourceforge.net/projects/phlakproject/|PHLAK]] - "A Linux distribution Live CD based on Morphix, that focuses on providing network security tools".
+    *[[http://en.wikipedia.org/wiki/PHLAK|EN.Wikipedia "PHLAK"]], [[http://de.wikipedia.org/wiki/PHLAK|DE.Wikipedia "PHLAK"]].
+  *Trinux / ubuntutrinux.
+    *[[http://trinux.sourceforge.net/legacy/|SourceForge "Trinux Legacy - What is Trinux?"]], [[http://web.archive.org/web/*/http:/www.trinux.org/|Archive.org "Trinux"]] ( - 2006-04-23 ).
+    *[[http://www.linkedin.com/in/mattdfranz|LinkedIn "Matt Franz"]].
+    *[[http://code.google.com/p/ubuntutrinux/|ubuntutrinux]].
+    *[[http://trinux.sourceforge.net/legacy/|Sourceforge "Trinux: A Linux Security Toolkit"]], [[http://www.sourceforge.net/projects/trinux/|Sourceforge "Trinux: A Linux Security Toolkit"]].
+    *[[http://en.wikipedia.org/wiki/Trinux|EN.Wikipedia "Trinux"]].
+    *[[http://www.bernd-roehling.de/trinux/index.shtml|Bernd Röhling "Trinux Learning Page"]].
+===== Lightweight Linux =====
+  *[[http://www.archlinux.org/|Arch Linux]] - "A simple, lightweight distribution".
+  *[[http://www.voidlinux.eu/|Void Linux]], [[https://www.github.com/voidlinux|GitHub "voidlinux"]] - "The spirit of Void is such that we keep things default, necessary, and minimal as possible".
+===== Linux on USB Memory Stick =====
+  *[[http://www.knoppix.org/|KNOPPIX]].
+    *[[http://en.wikipedia.org/wiki/Knoppix|EN.Wikipedia "Knoppix"]], [[http://de.wikipedia.org/wiki/Knoppix|DE.Wikipedia "Knoppix"]].
+    *[[http://en.wikipedia.org/wiki/Klaus_Knopper|EN.Wikipedia "Klaus Knopper"]], [[http://de.wikipedia.org/wiki/Klaus_Knopper|DE.Wikipedia "Klaus Knopper"]].
+    *[[http://www.linuxtracker.org/index.php?page=downloadcheck&id=65d329cd145e23eb3fb12df23672419a621d3f6c|Linuxtracker "Knoppix v7.3.0"]].
+    *Keyboard:
+      *[[http://www.knoppixforum.de/knoppix-forum-deutsch/startprobleme/thread4007/tastaturlayout-von-knoppix-6-0-1-de-%C3%A4ndern.html|Knoppixforum - Linux Live Distribution "Tastaturlayout von Knoppix 6,0,1 DE ändern"]].
+      *[[http://www.linuxwiki.de/KNOPPIX/CheatCodes|Linux Wiki "KNOPPIX/CheatCodes"]].
+      *Instruction that work until the next reboot:
+        *"sudo setxkbmap de".
+      *Instructions that did not work for me :-(:
+        *"sudo leafpad /boot/grub/menu.lst".
+          *There, add the options:
+          *"keyboard=de".
+          *"xkeyboard=de".
+        *Reboot the system.
+===== Realtime Linux, Embedded Linux =====
+==== Operating Systems ====
+  *The commercial [[http://www.embedded-platform.com/|Arrow Electronics Inc "ARROW Embedded Platform Concept"]] ( "Arrow EPC" ).
+  *[[http://elks.sourceforge.net/|Sourceforge "ELKS, The Embeddable Linux Kernel System"]], [[http://www.sourceforge.net/projects/elks/|Sourceforge "ELKS, The Embeddable Linux Kernel System"]] - "16-bit Linux" for 8086, 8088.
+   *[[http://en.wikipedia.org/wiki/LibeRTOS|EN.Wikipedia "LibeRTOS"]], [[http://de.wikipedia.org/wiki/LibeRTOS|DE.Wikipedia "LibeRTOS"]].
+    *[[http://www.ittc.ku.edu/kurt/|KURT Linux (Kansas University Real-Time Linux)]].
+  *[[http://www.open-realtime-linux.de/|Open Real-Time Linux Projekt]].
+  *[[http://www.linaro.org/|Linaro]] - "Work with the industry leaders, building the future of Open Source Software on ARM"
+    *Wiki [[http://wiki.linaro.org/|Linaro Wiki]].
+    *[[http://en.wikipedia.org/wiki/Linaro|EN.Wikipedia "Linaro"]].
+  *[[http://www.osadl.org/|OSADL - Open Source Automation Development Lab]].
+    *[[http://www.osadl.org/Realtime-Preempt.preempt-rt.0.html|OSADL "Download the Realtime-Preempt Kernel Patch"]].
+  *[[http://en.wikipedia.org/wiki/RTLinux|EN.Wikipedia "RTLinux"]], [[http://de.wikipedia.org/wiki/RTLinux|DE.Wikipedia "RTLinux"]].
+  *[[http://www.rtai.org/|RTAI]] - the RealTime Application Interface for Linux from DIAPM.
+    *[[http://en.wikipedia.org/wiki/RTAI|EN.Wikipedia "RTAI"]], [[http://de.wikipedia.org/wiki/RTAI|DE.Wikipedia "RTAI"]].
+    *[[http://en.wikipedia.org/wiki/Adaptive_Domain_Environment_for_Operating_Systems|EN.Wikipedia "Adaptive Domain Environment for Operating Systems"]].
+  *[[http://www.xenomai.org/|Xenomai]] - "A real-time development framework cooperating with the Linux kernel, in order to provide a pervasive, interface-agnostic, hard real-time support to user-space applications, seamlessly integrated into the GNU/Linux environment".
+    *[[http://en.wikipedia.org/wiki/Xenomai|EN.Wikipedia "Xenomai"]].
+==== Operating System Builder, Build Systems ====
+  *[[http://www.yoctoproject.org/|Yocto Project]].
+    *[[http://en.wikipedia.org/wiki/Yocto_Project|EN.Wikipedia "Yocto Project"]].
+    *eCos, CentOS, FreeRTOS, Linux (Angstrom), Linux (Debian), Linux (Fedora), Linux (kernel.org), Linux (LinuxPPC), Linux (uCLinux), Linux (OSADL), Linux (Slackware), Linux (Yocto), RTEMS -> named by VDC Survey.
+==== Resources ====
+  *Wiki [[http://www.elinux.org/|Embedded Linux Wiki]].
+===== Linux in the Cloud =====
+==== Jolicloud ====
+  *[[http://www.jolicloud.com/|Jolicloud]].
+    *Blog [[http://www.jolicloud.com/blog/|Jolicloud Blog]].
+    *[[http://my.jolicloud.com/|My Jolicloud]].
+    *[[http://www.facebook.com/jolicloud|Facebook "Jolicloud"]], [[http://www.facebook.com/apps/application.php?id=43059135403&ref=ts|Facebook "Jolicloud"]].
+    *[[http://twitter.com/jolicloud|Twitter "Jolicloud"]].
+    *[[http://www.youtube.com/results?search_query=Jolicloud|YouTube - Search for "Jolicloud"]].
+    *[[http://www.linkedin.com/company/jolicloud|LinkedIn - Companies "Jolicloud"]].
+==== Resources ====
+  *[[http://stadt-bremerhaven.de/betriebssystem-jolicloud-fuer-alle/|Caschys Blog - Web, Software, Hardware, Mobile Computing & co "Betriebssystem Jolicloud für alle"]], 2010.
+  *[[http://www.micmox.de/blog/2010/01/18/mein-netbook-lebt-wieder-jolicloud-teil-1/|Micmox Die Ansichten des MM "Mein Netbook lebt (wieder) – Jolicloud Teil 1"]], [[http://www.micmox.de/blog/2010/01/20/ich-greife-nach-den-wolken-jolicloud-teil-2/|Micmox Die Ansichten des MM "Ich greife nach den Wolken – Jolicloud Teil 2"]], 2010.
+===== Unix / Linux on Windows Host =====
+==== Wubi ( Ubuntu Installer ) ====
+  *[[http://wiki.ubuntu.com/WubiGuide|Ubuntu Wiki|WubiGuide]].
+    *2014-06: "At this time, Wubi does not work with Windows 8 default boot-loader. Thus at this point Wubi would not work on a new Windows 8 machine".
+  *[[http://en.wikipedia.org/wiki/Wubi_%28Ubuntu_installer%29|EN.Wikipedia "Wubi (Ubuntu installer)"]], [[http://de.wikipedia.org/wiki/Wubi_(Ubuntu)|DE.Wikipedia "Wubi (Ubuntu)"]].
+==== Cooperative Linux ====
+  *[[http://www.colinux.org/|Cooperative Linux]] - "The first working free and open source method for optimally running Linux on Microsoft Windows natively".
+===== Linux on Legacy Hardware =====
+  *Linux Kernel 3.8 does not support 80x386 / 80x486 CPUs anymore :-(. So Linux Kernel 3.7 ist the last kernel for 80x386 / 80x486 CPUs :-).
+  *Ubuntu 12.04 and newer are shipped and installed by default with a kernel wich require a CPU with [[http://de.wikipedia.org/wiki/Physical_Address_Extension|EN.Wikipedia "Physical Address Extension"]] :-(.
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Linux/|OpenDirectory "Top: Computers: Software: Operating Systems: Linux"]].
+    *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Linux/Embedded/|OpenDirectory "Top: Computers: Software: Operating Systems: Linux: Embedded"]].
+    *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Linux/Platforms/|OpenDirectory "Top: Computers: Software: Operating Systems: Linux: Platforms"]].
+  *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Embedded/|OpenDirectory "Top: Computers: Software: Operating Systems: Embedded"]].
+  *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Realtime/|OpenDirectory "Top: Computers: Software: Operating Systems: Realtime"]].
+    *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Realtime/Open_Source/|OpenDirectory "Top: Computers: Software: Operating Systems: Realtime: Open Source"]].
+    *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Realtime/Linux/|OpenDirectory "Top: Computers: Software: Operating Systems: Realtime: Linux"]].
+{{tag>Linux}}
+<footnote_navi_en>

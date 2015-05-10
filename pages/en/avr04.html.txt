@@ -1,0 +1,393 @@
+====== [hemmerling] AVR Microcontrollers Expertness 4/4 - USB Communications Device Class ( USB CDC ) ======
+Related pages:
+  *[[atmel.html|The Atmel AVR Family with Focus on ATxmega, ATmega, ATtiny and the Arduino / Freeduino Platform]].
+  *[[arduino.html|The Arduino / Freeduino Platform with Atmel ATmega, Microchip PIC, ARM, Freescale Coldfire]].
+  *[[atmega.html|Atmel ATmega, ATtiny, AT90 & ATmega on the Arduino / Freeduino Platform]].
+  *[[atxmega.html|Atmel ATxmega ( "XMEGA" )]] - This page deals with software tools which are suitable both for ATxmega and for ATmega, ATtiny.
+==== 1 Objective ====
+  *Demo application for Atmel boards.
+    *Enable CDC communications between an Atmel board with a Windows host computer, by a USB cable. 
+    *Direct Stdin / Stdout communications to that CDC communications.
+    *Prepare Your application to use the ASF unit testing framework "UTILITY - Unit test framework (Driver)".
+==== 2 Hardware and Software Requirements ====
+=== 2.1 Atmel Board ===
+  -[[http://store.atmel.com/PartDetail.aspx?q=p:10500293|Atmel AVR XMEGA-A3BU Xplained kit]], with LCD ( 128x32 pixels ), light sensor, and ntc sensor and with [[http://www.atmel.com/dyn/products/product_card.asp?part_id=17333|ATxmega256A3BU]] 8-bit CPU ( 256 KBytes Flash, 16 Kbytes SRAM, 4 KBytes EEPROM ). 
+    *From point of view of the Atmel CPU, the interface is a built-in USB device.
+  -The [[http://asf.atmel.com/|AVR Software Framework]] ( ASF ).
+    *The ASF software module "USB CDC ( Single Interface Device )" as communication interface.
+    *The optional ASF software module "UTILITY - Unit test framework (Driver)" as unit testing framework. 
+  -An in-circuit debugger ( e.g. [[http://www.atmel.com/dyn/products/tools_card.asp?tool_id=17213&category_id=163&family_id=682&subfamily_id=2138|JTAGICE 3]] ) - just for software development and code upload, not necessary for execution.
+=== 2.2 Windows Host Computer ===
+  -A host computer, running WinXP, Vista, Win7.
+  -A Windows setup information file for a CDC device. 
+    *Get either:
+      *"avr.inf", a "Windows 2000, XP & Vista setup File for AVR CDC Device" -> Supplied by Atmel on the "Atmel Technology on Tour 2011" workshop.
+      *"XPLAINED_Virtual_Com_Port.inf" -> [[http://store.atmel.com/PartDetail.aspx?q=p:10500293|Atmel AVR XMEGA-A3BU Xplained kit]], "Related Document / [[http://store.atmel.com/Download.ashx/9d8c16fc-ea7d-4971-8998-11b917e12f35|download]] Xplained USB CDC driver".
+    *From point of view of the Windows host computer, the interface is a virtual serial port ( e.g. COM21: ). 
+      *A terminal software can be used as Human Machine Interface ( HMI ). 
+      *Alternatively, You can write individual software ( in Python, Perl, C/C++, Java,.. ) to communicate with the Atmel board.
+  -The free IDE [[http://www.atmel.com/avrstudio|Atmel AVR Studio 5]], with GNU-C AVR compiler.
+  -Any Windows terminal software.
+    *The OpenSource [[http://www.chiark.greenend.org.uk/~sgtatham/putty/|PuTTY: A Free Telnet/SSH Client]] for Windows and Linux.
+    *The free [[http://sites.google.com/site/terminalbpp/|Br@y "Terminal com port development tool"]] for Windows with COM1.. COM64.
+    *The commercial [[http://www.hilgraeve.com/|Hilgraeve Inc. "HyperTerminal"]]. A free full version is shipped with W2k, WinXP.
+==== 3 How to implement CDC Communications, in your Atmel C/C++ Application ====
+  -In Atmel Studio 5, create your Visual Studio solution ( a solution may consist of several projects ) and Visual Studio project for your application, plus an extra static library project "avrstdio" for the Stdio redirection functions.
+  -Select "File / New / Example Project... ", "Show Projects = AVR XMEGA, 8-bit" and add the "C" demo project [[http://asf.atmel.com/docs/2.6.1/common/services/usb/class/cdc/device/example/atxmega256a3bu_xmega_a3bu_xplained/doxygen/html/|Atmel Corporation "USB Device CDC Example for XMEGA-A3BU Xplained / ASF USB Device CDC"]] to your solution, to have sample code and to learn which drivers and which initialisation code you need. 
+  -As you can´t transform a "C" project in a "C++" project with Atmel AVR Studio 5, currrently, you must start from scratch to build your own C++ applications, by importing needed ASF drivers to your empty project.
+  -Load the ASF drivers into your application project.
+    *"IOPORT - Input/Output Port Controller (Driver)".
+    *"UTILITY - Generic board support (Driver)".
+    *"GFX Monochrome - Monochrome Graphic Library (Service)".
+    *"GFX Monochrome - System Font (Service)".
+    *"GPIO - General purpose Input/Output (Service)".
+    *"USB CDC (Single Interface Device) (Service)".
+  -Load the ASF drivers into your optional "avrstdio" library project.
+    *"IOPORT - Input/Output Port Controller (Driver)".
+    *"UTILITY - Generic board support (Driver)".
+    *"GPIO - General purpose Input/Output (Service)".
+    *"USB CDC (Single Interface Device) (Service)".
+  -In Atmel Studio 5, modify the project files "src / config / conf_clock.h", by including the USB configuration definitions next to "CONFIGURATION WITH USB", both of the application project and the "avrstdio" project<code>
+// ***************************************************************
+// **                  CONFIGURATION WITH USB                   **
+// ***************************************************************
+//! The following clock configuraiton can be used for USB operation
+//! It allows to operate USB using On-Chip RC oscillator at 48MHz
+//! The RC oscillator is calibrated via USB Start Of Frame
+//! Clk USB     = 48MHz (used by USB)
+//! Clk sys     = 48MHz
+//! Clk cpu/per = 24MHz
+#define CONFIG_USBCLK_SOURCE     USBCLK_SRC_RCOSC
+#define CONFIG_OSC_RC32_CAL      48000000UL
+#define CONFIG_OSC_AUTOCAL          OSC_ID_RC32MHZ
+#define CONFIG_OSC_AUTOCAL_REF_OSC  OSC_ID_USBSOF
+#define CONFIG_SYSCLK_SOURCE     SYSCLK_SRC_RC32MHZ
+#define CONFIG_SYSCLK_PSADIV     SYSCLK_PSADIV_2
+#define CONFIG_SYSCLK_PSBCDIV    SYSCLK_PSBCDIV_1_1</code>
+  -In Atmel Studio 5, modify the project files "src / config / conf_usb.h", by including the USB configuration definitions next to "Device definition (mandatory)", both of the application project and the "avrstdio" project<code>
+//! Device definition (mandatory)
+#define  USB_DEVICE_VENDOR_ID             0x03EB
+#define  USB_DEVICE_PRODUCT_ID            0x2404</code>
+==== 4 How to direct Stdin / Stdout Communications to CDC, in your Atmel C/C++ Application ====
+=== 4.1 Description ===
+  *You can either keep the Stdio routines within your application code, or deposit it in an external library. Of course for separate compilation, you need to load the ASF in the library project too. 
+  *Be careful not to do double initialisation, and with deinitalisation ! For experimental purposes, I included deinitialisation code in the function "avrstdio_stop()", as comments.
+  *The files "avrstdio.h", "avrstdio.c" for the external library are not printed here. It is the same code, just with different function names.
+  *So with this sample code, just calling "udc_start()" and "udc_attach()" is ok even if the files "avrstdio.h", "avrstdio.c" are kept in an external library.
+  *As output of the ASF software module "Unit test framework" is directed to Stdout, you get all output of your testing framework on your Windows host terminal, as additional benefit :-)
+=== 4.2 stdio_demo.h ===
+<code>
+/**
+ * \file stdio_demo.h
+ * \date 2011-11-13
+ * \brief Stdin / Stdout Demo
+ * \author Rolf Hemmerling, http://www.hemmerling.com
+ */  
+#ifndef STDIO_DEMO_H_
+#define STDIO_DEMO_H_
+
+// #define USE_EXTERNAL_STDIOLIB
+#undef USE_EXTERNAL_STDIOLIB
+
+#include <asf.h>
+#include <stdio.h>
+#include <sleepmgr.h>
+#include <sysclk.h>
+
+void system_init(void);
+void graphics_welcome(void);
+void graphics_print(uint32_t aValue);
+void communication_welcome(void);
+int communication_start(void);
+void avrstdio_demo(void);
+int main(void);
+
+#endif /* STDIO_DEMO_H_ */
+</code>
+=== 4.3 stdio_demo.c ===
+<code>
+/**
+ * \file stdio_demo.h
+ * \date 2011-11-13
+ * \brief Stdin / Stdout Demo
+ * \author Rolf Hemmerling, http://www.hemmerling.com
+ */
+
+#include "avrstdio.h"
+#include "stdio_demo.h"
+
+FILE uart_str = FDEV_SETUP_STREAM(uart_putchar, uart_getchar, _FDEV_SETUP_RW);
+FILE uart_str_external = FDEV_SETUP_STREAM(uart_putchar_external, uart_getchar_external, _FDEV_SETUP_RW);
+
+/**
+ * \brief General system initialization
+ */
+void system_init(void)
+{
+	/* Initialize the microcontroller board */
+	board_init();
+        /* Initialize and enable the ITs routine */
+	irq_initialize_vectors();
+	cpu_irq_enable();
+	/* Initialize the sleep manager service */
+	sleepmgr_init();
+	/* Initialize the clock service */
+	sysclk_init(); 
+}
+
+/**
+ * \brief Print a welcome message on the graphics system of XMEGA-A3BU
+ */
+void graphics_welcome(void)
+{
+	/**
+	 * After initialization the example will write the "Stdin / Stdout Demo"
+	 * to position 0, 0 on the display.
+	 * Use the system font sysfont. 
+	 */
+	gfx_mono_init();
+        ioport_set_pin_high(NHD_C12832A1Z_BACKLIGHT);
+	st7565r_set_contrast ( ST7565R_DISPLAY_CONTRAST_MIN );
+	gfx_mono_draw_string("Stdin / Stdout Demo", 0, 0, &sysfont);
+}
+
+/**
+ * \brief Print a number on the graphics system of XMEGA-A3BU
+ */
+void graphics_print(uint32_t aValue)
+{
+        char aStringBuf[15];
+        snprintf(aStringBuf, sizeof(aStringBuf), "%12lu", aValue);
+        gfx_mono_draw_string(aStringBuf, 8, 8, &sysfont);
+}
+
+/**
+ * \brief Print a welcome message by Stdout
+ */
+void communication_welcome(void)
+{
+	printf("Stdin / Stdout Demo\n");	
+}	
+	
+/**
+ * \brief Start of the Stdin / Stdout communication 
+ */
+int communication_start(void)	
+{
+	int aKeyboardInput = 0;
+	/* Wait for a single "blindly typed" keyboard input */
+        while (aKeyboardInput == 0)
+	{
+	   aKeyboardInput = getchar();
+	};
+	return (aKeyboardInput);
+}	
+
+/**
+ * \brief Demo of communication by Stdin / Stdout
+ */
+void avrstdio_demo(void)
+{
+        int aStartCommand;
+	graphics_welcome();
+#ifdef USE_EXTERNAL_STDIOLIB
+	avrstdio_start_external();
+	stdout = &uart_str_external; 
+        stdin = &uart_str_external; 
+#else
+	avrstdio_start();
+	stdout = &uart_str; 
+        stdin = &uart_str; 
+#endif
+	aStartCommand = communication_start();
+	communication_welcome();
+	uint32_t aCounter = 0u;
+	while (true) {
+		graphics_print(aCounter);
+		printf("-Hello World %12lu-", aCounter);
+		aCounter++;
+	}			
+}
+	
+/**
+ * \brief Main entry of example application
+ */
+int main(void)
+{
+	system_init();
+	avrstdio_demo();
+}
+</code>
+=== 4.4 avrstdio.h ===
+<code>
+/**
+ * \file avrstdio.h
+ * \date 2011-11-13
+ * \brief Stdin / Stdout for Atmel AVR XMEGA-A3BU Xplained kit", by CDC protocol via USB
+ * \author Rolf Hemmerling, http://www.hemmerling.com
+ *
+ * \details Include these statements in your applicatation 
+ * FILE uart_str = FDEV_SETUP_STREAM(uart_putchar, uart_getchar, _FDEV_SETUP_RW);
+ * stdout = &uart_str; 
+ * stdin = &uart_str; 
+ */  
+
+#ifndef AVRSTDIO_H_
+#define AVRSTDIO_H_
+
+#include <asf.h>
+#include <stdio.h>
+#include <sleepmgr.h>
+#include <sysclk.h>
+#include <udc.h>
+
+int uart_putchar(char c, FILE *stream);
+int uart_getchar(FILE *stream);
+void avrstdio_start(void);
+void avrstdio_stop(void);
+
+int uart_putchar_external(char c, FILE *stream);
+int uart_getchar_external(FILE *stream);
+void avrstdio_start_external(void);
+void avrstdio_stop_external(void);
+
+#endif /* AVRSTDIO_H_ */
+</code>
+=== 4.5 avrstdio.c ===
+<code>
+/**
+ * \file avrstdio.c
+ * \date 2011-11-13
+ * \brief Stdin / Stdout for Atmel AVR XMEGA-A3BU Xplained kit", by CDC protocol via USB
+ * \author Rolf Hemmerling, http://www.hemmerling.com
+ */ 
+
+#include "avrstdio.h"
+
+/**
+  *  \brief Send character c to CDC
+  */
+int uart_putchar(char c, FILE *stream)
+{
+        if (c == '\n')
+          uart_putchar('\r', stream);
+        udi_cdc_putc(c);
+        return 0;
+}
+
+/**
+  *  \brief Receive a character by CDC.
+  */
+int uart_getchar(FILE *stream)
+{
+        uint8_t c;
+        c = udi_cdc_getc();
+        return c;
+}
+
+/**
+  * \brief Initialization of the Stdio communication
+  */
+void avrstdio_start(void)
+ {
+	/* Initialize the microcontroller board */
+	// board_init();
+        /* Initialize and enable the ITs routine */
+	// irq_initialize_vectors();
+	// cpu_irq_enable();
+	/* Initialize the sleep manager service */
+	// sleepmgr_init();
+	/* Initialize the clock service */
+	// sysclk_init();	 
+	/* Enable the USB device stack */
+	udc_start();
+	/* Attach the USB device to the host ( to start communications ) */
+	udc_attach();
+ }
+ 
+ /**
+   * \brief Stop of the Stdio communication
+   */
+void avrstdio_stop(void)
+ {
+	// By stopping USB communications during the application runtime, 
+	// you risk that some previous output is not delivered :-(
+
+	// If you don't delay the stop of the USB connection, there will be no output.
+	// cdc_delay();
+	/* Detach the USB device to the host ( to start communications ) */
+	// udc_detach();
+	/* Disable the USB device stack */
+	// udc_stop();
+	// cpu_irq_disable();
+ }
+</code>
+==== 5 How to configure the Windows Host for CDC Communications ====
+=== 5.1 Install the Windows setup information file for a CDC device ===
+  *Upoad of the application with CDC communications on the Atmel board.
+  *By the USB connection, Windows detects a new hardware. Follow the instructions to install the "Windows setup information file for a CDC device".
+=== 5.2 Confgure PuTTY to convert the CR output of a CDC Application to a CR, LF ===
+  *Issue: With CDC applications and [[http://www.chiark.greenend.org.uk/~sgtatham/putty/|PuTTY]] as terminal application, output of "\n" like with "udi_cdc_write_buf("Hello\n", sizeof("Hello\n"))" should move the cursor to a new line, but it does not.
+  *Solution: "PuTTY Configuration / Terminal", "Options controlling the terminal emulation": Set the option "[x] Implicit CR in every LF".
+=== 5.3 How to start a CDC application on Windows Host with PuTTY & Atmel Target ===
+  *Procedure:
+    -Open the device manager of Windows ( "Start / Settings / Control Panel / System / Hardware / Device Manager".
+    -With AVR Studio 5, load a project and start the debugging process by ALT+F5 ( "Start Debugging and Break" ).
+    -If necessary, press the button "Continue" in With AVR Studio 5.
+    -Wait until you that the COM port ( e.g "COM16:", "COM21:"... ) is listed in the Windows device manager, by an automatic refresh.
+    -Execute PuTTY.
+      *Configure PuTTY to use the proper COM port. Save this configuration.
+      *Load a proper configuration. Best is to configure the default session, which is loaded automatically at start. 
+      *You have to start PuTTY for new, at each run of your CDC application.
+    -Start terminal emulation of PuTTY by pressing the button "Open".
+==== 6 Operation Instructions ====
+  *Start the application from within Atmel Studio 5.
+  *Open the terminal application on the Windows host computer, as described in (5).
+  *Press any key in the terminal window of your Windows host computer.
+  *This causes the application to output data both on the graphics display and the terminal.
+==== 7 Restrictions with CDC Communications ====
+=== 7.1 Please wait for a Keypress to start CDC Communications ===
+  *Problem: If your Atmel application starts with an output of "Hello World!" by CDC, you won´t see that on the Windows host terminal - it is lost. Indeed, about 6400 udi_cdc_getc() keyboard inputs requests ( and the equivalent amount of output messages ) are lost too.
+  *Solution: Let your Atmel software wait for a real keypress ( a non-zero result of udi_cdc_getc() ), 
+    *Like this with an ASF call :<code>
+int aKeyboardInput = 0;
+while (aKeyboardInput == 0) { aKeyboardInput = udi_cdc_getc(); };</code>
+    *Like this with a Stdio call :<code>
+int aKeyboardInput = 0;
+while (aKeyboardInput == 0) { aKeyboardInput = getchar(); };</code>
+=== 7.2 Stopping at a Breakpoint breaks CDC Communications ===
+  *The communciations between the [[http://store.atmel.com/PartDetail.aspx?q=p:10500293|Atmel AVR XMEGA-A3BU Xplained kit]] board and the Windows host computer is handled by the [[http://www.atmel.com/dyn/products/product_card.asp?part_id=17333|ATxmega256A3BU]] CPU.
+  *Issue: If you stop the application in a breakpoint, the microcontroller can't execute the USB communication stack. This breaks the communication with the Windows host computer.
+=== 7.3 No CDC Communications with a Windows host if Breakpoints are set ===
+  *Issue: If I execute the application with Atmel AVR Studio 5 on Windows, there is a difference if I have breakpoints set ( in the application loop after setting up the CDC communication ), or not:
+    *If I execute the application without setting breakpoints, the COM: port is created and communiction works fine.
+    *If I execute the same application with breakpoints set, the COM: port is not created.
+  *Commments by Atmel experts ( [[imprint.html|Feedback]] is welcomed warmly, especially if you have a different view ): 
+    *This is a restriction in the CDC communication with windows. Note that You are using the built in Windows CDC driver and the .inf file you are installing tells Windows to use that driver when connected to this specific application.
+    *When an application ( e.g. a terminal software ) opens a COM port with Windows, this COM port is hold open during the whole session to avoid that another application accesses this COM port. Probably due to avoid conflicts between applications. Since this port is virtual, it does not have a physical address ( such as classical COM ports ). Therefore when You stop the debug program, the virtual COM port will also go away.
+    *But the terminal will still hold it anyway. This is something either on the Windows API side or the Terminal program implementation.
+    *When you restart the debug program, the virtual COM port cannot be mounted anymore since it is still held by the terminal. Probably Atmel can`t do anything about it. This is due either to the CDC driver ( of Windows ), or the terminal program itself.
+  *Recommended reading: 
+    *[[http://www.atmel.com/dyn/resources/prod_documents/doc4322.pdf|Atmel "Migrating from RS-232 to USB Bridge Specification"]] ( PDF ).
+=== 7.4 You can´t reopen CDC communications ===
+  *Issues: By my C/C++ code running on the Atmel board, 
+    *I am just able to open the CDC connection once. 
+    *I may open and close a CDC connection. If I don´t deleay the closing of the CDC conection, some or even all output from the ATxmega target to the CDC connection might be lost and is never delivered to the CDC terminal computer.
+    *I am not able to open a CDC connection successfully, after a previous open and close.
+==== Resources ====
+  *[[http://www.nongnu.org/avr-libc/|AVR Libc Home Page]].
+    *[[http://www.nongnu.org/avr-libc/user-manual/group__avr__stdio.html|AVR Libc Home Page "<stdio.h>: Standard IO facilities"]].
+    *[[http://www.nongnu.org/avr-libc/user-manual/group__stdiodemo.html|AVR Libc Home Page "Using the standard IO facilities"]].
+  *CDC drivers.
+    *[[http://www.atmel.com/dyn/products/tools_card.asp?tool_id=17226&category_id=172&family_id=705&subfamily_id=2267|Atmel "Virtual Com Port Driver .inf File"]] ( file [[http://www.atmel.com/dyn/resources/prod_documents/XPLAINED_Virtual_Com_Port.inf]] ) - "This INF file instructs the Windows operating system to see the temperature sensor Xplained or the Atmel AT30TK175STK kit as a serial port. It should be inserted in the Windows\INF folder on your operating system. Note: This installs only instructions for Windows; no executable software is installed".
+    *[[http://www.obdev.at/products/vusb/|Objective Development Software GmbH "V-USB - Virtual USB port for AVR microcontrollers"]] with OpenSource and commercial licenses.
+    *The OpenSource [[http://www.recursion.jp/avrcdc/|Osamu Tamura @ Recursion Co., Ltd. "AVR-CDC"]] for Windows - "Converts USB and RS-232C signals using the AVR micro- controller which has no on-chip USB interface".
+  *Serial Port Communications on Windows hosts.
+    *[[http://www.dreamincode.net/forums/topic/35775-serial-port-communication-in-c%23/|</dream.in.code> "Serial Port Communication in C#"]].
+    *[[http://www.simpleserial.com/|Simple Serial Communication]].
+      *[[http://csharp.simpleserial.com/| "Simple Serial Communication with Microsoft Visual C# Express"]].
+  *[[http://en.wikipedia.org/wiki/USB_communications_device_class|EN.Wikipedia "USB communications device class"]] ( USB CDC ).
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Hardware/Components/Processors/AVR/|OpenDirectory "Top: Computers: Hardware: Components: Processors: AVR]].
+{{tag>"USB Communications Device Class" "USB CDC" USB CDC Atmel AVR ATxmega128A1 ATxmega256A3BU XMEGA XMEGA-A1 XMEGA-A3BU Xplained "AVR Studio" "8-bit" 8bit CPU "embedded system" "embedded systems"}}
+<footnote_navi_en>

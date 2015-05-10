@@ -1,0 +1,87 @@
+====== [hemmerling] Electronic Design Automation ( EDA ) 5/5 - Design for Application-Specific Integrated Circuits ( ASIC ) - A simple Frequency Divider ======
+Related pages:
+  *[[eda01.html|Electronic Design Automation ( EDA ) 1/5 - Installation Engineering]].
+  *[[eda02.html|Electronic Design Automation ( EDA ) 2/5 - Schematics Capture, Schematics Simulation and PCB Design]].
+  *[[eda03.html|Electronic Design Automation ( EDA ) 3/5 - Design for Application-Specific Integrated Circuits ( ASIC ) - Design of digital Chips]].
+  *[[eda04.html|Electronic Design Automation ( EDA ) 4/5 - Design for Application-Specific Integrated Circuits ( ASIC ) - Design of analog Chips]].
+
+
+===== Concept for the Development of a simple ASIC =====
+  *Specification:
+    *Purpose: Frequency divider.
+    *Application: Cell of a frequency divider chain.
+      *Technology.
+        *Circuit technology: CMOS integrated circuit. 0.8 µm CMOS Process CXQ ( CX08AI ) with poly capacitor module and high resistive poly module ( 13 mask layers ), by [[http://www.xfab.com/|X-FAB Semiconductor Foundries AG]].
+          *Software design technology:
+            *LTSpice, using special "CXQ" library files.
+            *Tanner L-Edit 7.15, using the CMOS technology file "CXQ_DIG.TB"
+    *Power source VDD: 1.2 Volts.
+    *Input V(in): 500 KHz digital signal, low = 0 Volts, high = 1.2 Volts ( Pulses with 0.1 µs delay, 10 ns rise, 10 ns fall, 1 µs pulse width ).
+    *Process: Frequency division by 2.
+    *Output V(out): 250 KHz digital signal, low = 0 Volts, high = 1.2 Volts.
+  *Proceeding:
+    -Literature and Internet research into frequency dividers.
+    -Design of a frequency divider by 2, on CMOS cell technology level.
+    -Circuit schematics design and simulation with LTSpice.
+    -Physical design of the CMOS integrated circuit with Tanner L-EDIT.
+    -Simulation of a schematics model imported from Tanner L-EDIT back to LTSpice.
+===== Frequency Dividers, Frequency Division ( as of 2006-01-01 ) =====
+==== Online Databases and Ressources ====
+  *[[http://www.defenseelectronicsmag.com/|Defense Electronics Magazine]] ( formerly: [[http://rfdesign.com/|RFDESIGN]] ).
+    *[[http://rfdesign.com/mag/radio_frequency_divider_design/|RFDESIGN, Louis Fan Fei "Frequency divider design strategies"]].
+  *[[http://www.research.ibm.com/journal/rd/|The IBM Journal of Research and Development]].
+    *[[http://www.research.ibm.com/journal/rd/472/dunn.html|The IBM Journal of Research and Development "Frequeny dividers for 'Microwave/WLAN (5+ GHz)' applications"]].
+  *[[http://www.cl.cam.ac.uk/Teaching/ECAD/|University Of Cambridge Computer Laboratory]]
+    *[[http://www.cl.cam.ac.uk/Teaching/ECAD/workshops.html|University Of Cambridge Computer Laboratory, IB ECAD and ARCHITECTURE Workshop Workprogramme: "Critical Paths. D-type flip-flop set and hold times"]].
+  *[[http://www.ap-asic.org/2000/|AP-ASIC 2000]].
+    *[[http://www.ap-asic.org/2000/proceedings/5-5.pdf|AP-ASIC 2000, Masafumi Nogawa and Yusuke Ohtomo: "A 16.3-GHz 64:1 CMOS FREQUENCY DIVIDER"]] ( PDF ).
+  *[[http://www.imec.be/|Imec]].
+    *[[http://www.imec.be/esscirc/papers-96/18.pdf|Imec "Z. Lao, M. Berroth, M. Rieger-Motzer, A. Thiede, V. Hurm, M. Sedler, W. Bronner, A. Hülsmann, and B. Raynor: 31 GHz Static and 39 GHz Dynamic Frequency Divider ICs Using 0.2 mm-AlGaAs/GaAs-HEMTs"]] ( PDF ).
+  *[[http://infcom.kjist.ac.kr/|School of Information and Communications]], Korea.
+    *[[http://infcom.kjist.ac.kr/jjh/EDHEMT_device_papers/ed_gaas_circuit2.pdf|School of Information and Communications "Zhihao Lao, Wolfgang Bronner, Andreas Thiede, Michael Schlechtweg, Axel Hülsmann, Michaela Rieger-Motzer, Gudrun Kaufel, Brian Raynor, Martin Sedler: 35-GHz Static and 48-GHz Dynamic Frequency Divider IC's Using 0.2- m AlGaAs/GaAs-HEMT's"]] ( PDF ).
+  *[[http://bwrc.eecs.berkeley.edu/|Berkeley Wireless Research Center ( BWRC )]].
+    *[[http://bwrc.eecs.berkeley.edu/Publications/2005/THESES/muh/matthew.muh.masters.pdf|Berkeley Wireless Research Center ( BWRC ), Matthew Muh "Design of a FinFET static frequency divider and a millimeter-wave CMOS push-push VCO"]] ( PDF ).
+  *[[http://ecdl.hut.fi/|Helsinki University of Technology, Electronic Circuit Design Laboratory]].
+    *[[http://www.ecdl.hut.fi/education/4198/pdf/div_mult.pdf|Helsinki University of Technology, Electronic Circuit Design Laboratory, Petri Eloranta: "Millimeter-wave dividers and multipliers"]] ( PDF ).
+  *[[http://www.ee.ucla.edu/|University of California, UCLA Engineering]].
+    *[[http://www.ee.ucla.edu/faculty/papers/razavi_JSSC-apr04.pdf|University of California, UCLA Engineering: "Jri Lee and Behzad Razavi: 'A 40-GHz Frequency Divider in 0.18-vm CMOS Technology', IEEE JOURNAL OF SOLID-STATE CIRCUITS, VOL. 39, NO. 4, APRIL 2004]] ( PDF ).
+  *[[http://www.csics.org/|IEEE Compound Semiconductor IC Symposium]].
+    *[[http://www.csics.org/Archive/2001/2001%20Best%20Paper.pdf|M. Sokolich, C. Fields, B. Shi, Y.K. Brown, M. Montes, R. Martinez, A.R. Kramer, S. Thomas III, M. Madhav: "A Low Power 72.8 GHz Static Frequency Divider implemented in AlInAsAnGaAs HBT IC Technology"]] ( PDF ).
+  *[[http://www.analogzone.com/|analogZONE / technoteZONE]].
+    *[[http://www.analogzone.com/hft_1124.pdf|analogZONE / technoteZONE, Carl Falcon: "Adding a Mixed-Signal PLL to a Prime Digital ASIC"]] ( PDF ).
+  *[[http://www.ece.queensu.ca/|Queens University, Faculty of Engineering and Applied Science, Electrical and Computer Engineering]].
+    *[[http://www.ece.queensu.ca/hpages/faculty/saavedra/FreqDivider.pdf|Queens University, Faculty of Engineering and Applied Science, Electrical and Computer Engineering: "Carlos E. Saavedra: 'A Microwave Frequency Divider Using an Inverter Ring and Transmission Gates', IEEE Microwave and Wireless Components Letters, Vol. 15, No.5, May 2005]] ( PDF ).
+==== Literature ====
+  *Eric Vittoz, Bernard Gerber, Fritz Leuenberger: "Silicon-Gate CMOS Frequency Divider for the Electronic Wrist Watch", published in:
+    *[[http://www.amazon.de/exec/obidos/ASIN/0780334299/hemmerling-21|A. Chandrakasan, Anantha P. Chandrakasan, Robert W. Brodersen: "Low-Power CMOS Design"]].
+    *IEEE Journal of Solid-State Circuits, Vol. SC-7, No. 2, April 1972
+  *Ulrich Tietze, Christoph Schenk:
+    *[[http://www.amazon.de/exec/obidos/ASIN/3540428496/hemmerling-21|Ulrich Tietze, Christoph Schenk "Halbleiter-Schaltungstechnik"]] - In my 7.edition, chapter 10: "Schaltwerke ( Sequentielle Logik )".
+    *[[http://www.amazon.de/exec/obidos/ASIN/354050608X/hemmerling-21|Ulrich Tietze, Christoph Schenk "Electronic Circuits"]].
+==== IEEE Digital Library and IEEE Xplore Publications ====
+  *[[http://ieeexplore.ieee.org/search/freesrchabstract.jsp?arnumber=1487609&isnumber=32000&punumber=4&k2dockey=1487609@ieeejrns|U. Singh and M.M. Green: "High-frequency CML clock dividers in 0.13-/spl mu/m CMOS operating up to 38 GHz", IEEE Journal of Solid-State Circuits, ISSN: 0018-9200]] ( Library TIB Hannover: Place "L elt Z 795", signature "ZB 814" ).
+  *J.F. Jensen, M. Hafizi, W.E. Stanchina, R.A. Metzger, D.B. Rensch: "39.5-GHz static frequency divider implemented in AlInAs/GaInAs HBTtechnology", Gallium Arsenide Integrated Circuit (GaAs IC) Symposium 1992. ISBN: 0-7803-0773-9 ( Library TIB Hannover: Signatur "RO 123(14)" ).
+  *J.-O. Plouchart, J. Kim, H. Recoules, N. Zamdmer, Y. Tan, M. Sherony, A. Ray, and L. Wagner: "A 33 GHZ 2:1 Static Frequency Divider in 0.12-µ SOI CMOS Operable at 2.7mW,". Proceedings of the IEEE Radio Frequency Integrated Circuits (RFIC) Symposium, Digest of Technical Papers, June 2003, pp. 329-332. ( 1, 2, 3, 4, Library TIB Hannover: Signature "RN 9723 (2003)" ).
+  *H.-D. Wohlmuth, D. Kehrer, and W. Simburger: "A High Sensitivity Static 2:1 Frequency Divider Up to 19 GHz in 120 nm CMOS" ( Library TIB Hannover: Signature "RN 9723 (2002)" ).
+==== Other related CMOS Design Literature ====
+  *[[http://newport.eecs.uci.edu/~payam/publications.html|Payam Heydari]]: "Design of Ultra High-Speed Low-Voltage CMOS CML buffers and Latches" ( PDF ).
+  *[[http://www.aghl.ruhr-uni-bochum.de/Publikationen.htm|Ruhr-Universität Bochum, Arbeitsgruppe Halbleiterbauelemente - Publikationen von Prof. Dr.-Ing. Hans-Martin Rein]].
+  *[[http://www.informatik.tu-cottbus.de/|Brandenburgische Technische Universität Cottbus-Senftenberg]].
+    *[[http://www.informatik.tu-cottbus.de/~wwwteci/student/vl/test/|Brandenburgische Technische Universität Cottbus-Senftenberg "Test und testfreundlicher Entwurf digitaler Schaltungen und Systeme"]].
+    *[[http://www.informatik.tu-cottbus.de/~wwwteci/student/vl/test/test2.pdf|Brandenburgische Technische Universität Cottbus-Senftenberg "Test und testfreundlicher Entwurf digitaler Schaltungen und Systeme, Teil 2"]] ( PDF ) > "CMOS-2-NAND in statischer und dynamischer Schaltungstechnik".
+==== 40xx Data Sheet ====
+  *[[http://www.standardics.philips.com/products/hef/|Philips HEF4000 Series]].
+  *[[http://www.standardics.philips.com/products/flipflops/4013/|Philips 4013]] D-Type Flip-Flops; Positive-Edge Trigger.
+  *[[http://www.standardics.philips.com/products/inverters/4007/|Philips 4007]] Complementary Pairs and Inverters.
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Business/Electronics_and_Electrical/|OpenDirectory "Top: Business: Electronics and Electrical"]].
+  *[[http://www.dmoz.org/Science/Technology/Electronics/|OpenDirectory "Top: Science: Technology: Electronics"]].
+  *[[http://www.dmoz.org/Science/Technology/Electronics/CAD/|OpenDirectory "Top: Science: Technology: Electronics: CAD"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wirtschaft/Elektrotechnik_und_Elektronik/|OpenDirectory "Top: World: Deutsch: Wirtschaft: Elektrotechnik und Elektronik"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wissenschaft/Ingenieurwissenschaften/Elektronik/|OpenDirectory "Top: World: Deutsch: Wissenschaft: Ingenieurwissenschaften: Elektronik"]].
+  *[[http://dir.yahoo.com/business_and_economy/business_to_business/computers/software/cad_cam/ic_design/|Yahoo! Directory "B2B: CAD/CAM Software: IC Design"]].
+  *[[http://dir.yahoo.com/business_and_economy/business_to_business/electronics/|Yahoo! Directory "Business and Economy: Business to Business: Electronics"]].
+  *[[http://dir.yahoo.com/science/computer_science/electronic_computer_aided_design__ecad_/|Yahoo! Directory "Science: Computer Science: Electronic Computer Aided Design (ECAD)"]].
+  *[[http://dir.yahoo.com/science/engineering/electrical_engineering/|Yahoo! Directory "Science: Engineering: Electrical Engineering"]].
+{{tag>electronics "electronic design automation" eda electronic design automation for application specific integrated circuits asic simple frequency divider}}
+<footnote_navi_en>

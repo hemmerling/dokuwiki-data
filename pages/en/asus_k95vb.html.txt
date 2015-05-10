@@ -1,0 +1,196 @@
+====== [hemmerling] The Notebook "ASUS K95VB" ======
+Related pages:
+  *[[notebook.html|Notebooks]].
+  *[[asus_t101mt.html|The Notebook "ASUS Eee PC T101MT"]].
+===== Hardware =====
+==== The Notebook "ASUS K95VB-YZ075H" ====
+  *[[http://www.asus.com/Notebooks_Ultrabooks/K95VB/|ASUS Notebooks & Ultrabooks - K95VB]].
+  *Software drivers
+    *[[http://support.asus.com/download.aspx?m=K95VB|ASUS Support "K95VB"]] - Software drivers for "Windows 8" and "Windows 8.1".
+    *[[http://support.asus.com/download.aspx?m=K95VM|ASUS Support "K95VM"]] - Some of the software drivers for "Windows 7" are suitable for the notebook "ASUS K95VB", too :-).
+  *DVD Writer & BlueRay player "Matshita UJ160 SATA Blu-Ray Combo Drive".
+    *[[http://www.netcomdirect.com/pamamaujsabl.html|Netcom Direct "Panasonic / Matsushita / Matshita UJ160 SATA Blu-Ray Combo Drive (UJ-160 / UJ-160A / UJ160A)"]].
+  *Hard disk "ST3000DM001-1CH166".
+  *Hard disk "Hitachi HTS727575A9E364".
+  *My notebook "ASUS K95VB-YZ075H" is shipped with a [[http://ark.intel.com/products/71459/Intel-Core-i7-3630QM-Processor-6M-Cache-up-to-3_40-GHz|Intel Core i7-3630QM Processor]] and 32 GB RAM.
+  *Some vendors in Germany offer ASUS K95VB-YZ075H, a few offer ASUS K95VB-YZ075D - please [[imprint.html|tell me]] if you know the difference!
+  *There is no dedicate battery pack with removal mechanism on the back of the computer. I.e. you can´t remove the battery pack from the computer :-(, as user. There are some offers [[https://www.google.de/search?q=Replacement+battery+for+ASUS+K95VB+K95VJ+K95VM+P45+P45A+P45V+P45VA+notebook|Google - Search for "Replacement battery for ASUS K95VB K95VJ K95VM P45 P45A P45V P45VA notebook"]], but I am unshure if these offers really fit.
+==== The Graphics Card "nVIDIA GeForce GT740M" ====
+  *[[http://www.geforce.com/hardware/notebook-gpus/geforce-gt-740m|Geforce "GeForce GT 740M"]].
+  *[[http://www.nvidia.de/object/geforce-gt-700m-graphics-cards-de.html|Nvidia Deutschland "Grafikkartenserie GeForce GT 700M"]].
+==== The Ethernet Controller "Realtek PCIe GBE" ====
+  *[[http://www.realtek.com.tw/downloads/downloadsView.aspx?Langid=1&PNid=13&PFid=5&Level=5&Conn=4&DownTypeID=3|Realtek Semiconductor Corp " Communications Network ICs > Network Interface Controllers > 10/100/1000M Gigabit Ethernet > PCI Express > Software"]] - "RTL8111B/RTL8168B/RTL8111/RTL8168, RTL8111C/RTL8111CP/RTL8111D(L), RTL8168C/RTL8111DP/RTL8111E, RTL8168E/RTL8111F/RTL8411,, RTL8111G/RTL8111GUS/RTL8411B(N)".
+    *"Win7 and Server 2008 R2 Auto Installation Program", version 7.086 of 2014/6/3.
+    *"Win8, Win8.1 and Server 2012 Auto Installation Program", version 8.032 of 2014/6/3.
+==== The Aptio BIOS, UEFI & CSM ====
+  *[[http://www.ami.com/aptio|American Megatrends Inc. "Aptio"]].
+  *[[http://www.uefi.org/|UEFI Forum]].
+  *[[http://wiki.phoenix.com/wiki/index.php/Compatibility_Support_Module|Phoenix Technologies Ltd. - PhoenixWiki "Compatibility Support Module"]] ( CSM ).
+  *[[http://wiki.ubuntuusers.de/EFI_Grundlagen|Ubuntuusers Wiki "EFI Grundlagen"]].
+  *[[http://en.wikipedia.org/wiki/Preboot_Execution_Environment|EN.Wikipedia "Preboot Execution Environment"]], [[http://de.wikipedia.org/wiki/Preboot_Execution_Environment|DE.Wikipedia "Preboot Execution Environment"]] ( PXE ).
+  *[[http://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface|EN.Wikipedia "Unified Extensible Firmware Interface"]], [[http://de.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface|DE.Wikipedia "Unified Extensible Firmware Interface"]] ( UEFI ).
+==== Backpacks and Messenger Bags ====
+  *The size of the notebook is 44x29 cm.
+  *Some local vendors told me, that once - about 2010 - there were bags for notebooks with 18 inch displays, but now this kind of product disappeared from the local stores.
+  *Bags for 17 inch notebooks might be suitable for the notebook, but you must test it! So you need test every "17 inch bag" if it fits, manually.
+  *I got a free complimentary backpack by [[http://www.apc.com/|APC]] on a Hannover CeBIT fair in the early 2000th, which is suitable to transport the notebook. However, my free backpack is not one of the once commercially available backpacks and messenger bags of APC ( [[https://web.archive.org/web/*/http://www.apc.com/products/family/index.cfm?id=355|Archive.org "APC: Backpacks and Messenger Bags"]] ).
+===== Howtos & Tips =====
+==== Special Keys for Emergency Shutdown and BIOS Entry ====
+  *ASUS K95VB user manual:
+    *"If you need to run the BIOS Setup to set or modify the system configuration, press [F2] upon bootup to enter the BIOS setup". 
+    *"Press [ESC] and you will presented with a boot menu with selections to boot from your available devices" -> Indeed there is no classical startup screen.
+    *"Emergency Shutdown - In case your operating system cannot properly turn OFF or restart, there is an addtional way to shutdown your Notebook PC: Hold the power button over 4 seconds".
+  *I suggest the BIOS setting "Boot / Fast Boot [Disabled]", to extend the boot time and so to have better chances - subjectively :-) - to get into the BIOS setup.
+  *My experience: Usually it is necessary to do an emergency shutdown, before you have the chance to enter the BIOS with the next bootup.
+==== How to boot DVD/CD Media & by Network ====
+=== Suggested BIOS settings ===
+  *"Advanced / Network Stack [Enabled]".
+    *"Ipv4 PXE Support [Enabled]".
+  *"Boot".
+    *"Boot Configuration".
+      *"Launch CSM [Enabled]".
+        *"Lauch PXE OpROM [Disabled]".
+    *Boot Option Priorities".
+      *"Boot Option #1 [Windows Boot Manager (P0: ST3000DM001-1CH166)]" -> The preinstalled "Windows 8".
+      *"Boot Option #2 [UEFI: MATSHITABD-CMB UJ160]" -> just if a media is placed in the BD drive only.
+      *"Boot Option #3 [P2: MATSHITABD-CMB UJ160]" -> just if a media is placed in the BD drive only and CSM is enabled.
+      *"Boot Option #4 [UEFI: IP4 Realtek Ethernet Controller]" -> if "Ipv4 PXE Support [Enabled]".
+      *"Boot Option #5 [ubuntu (P1: Hitachi HTS727575A9E364]" -> 2 entries, for just 1 Ubuntu Linux system.
+=== Instructions how to boot from BD Player ===
+  -Insert the DVD/CD media in the BD player.
+  -Do an emergency shutdown.
+  -Enter the BIOS while rebooting.
+  -Select the BIOS item "Save & Exit / Boot Override / UEFI: MATSHITABD-CMB UJ160" and press enter.
+==== Windows =====
+=== "Windows 7" needs CSM ====
+  *You may install and run any edition of "Windows 7" ( "Windows 7 Pro", "Windows 7 Home Premium", ,.. ). During installation, you are asked for a proper serial number, as usual.
+  *"Windows 7" crashes during installation if CSM is not enabled in the BIOS options:
+    *"Boot / Boot Configuration / Launch CSM [Enabled]".
+  *With some early releases of "Windows 7" installation media, the installation process fails right at the start, before the partitioning, by the error message "A required CD/DVD device driver is missing" -> Get another "newer" installation media where this bug is fixed.
+  *[[http://msdn.microsoft.com/en-us/library/windows/desktop/aa366778%28v=vs.85%29.aspx|Microsoft "Memory Limits for Windows and Windows Server Releases"]] -> "Windows 7 Home Premium X64 = 16 GB, Windows 7 Home Basic X64 = 8 GB", "Windows 8 = 192 GB".
+=== The Ethernet Controller "Realtek PCIe GBE" ====
+  *Please install "Win7 and Server 2008 R2 Auto Installation Program, 7.086, 2014/6/3" for Windows 7, from 
+    *[[http://support.asus.com/download.aspx?m=K95VM|ASUS K95VM]], "Windows 7", "LAN" ->  "Realtek LAN Driver", version  "V7.049.0927.2011".
+    *[[http://www.realtek.com.tw/downloads/downloadsView.aspx?Langid=1&PNid=13&PFid=5&Level=5&Conn=4&DownTypeID=3|Realtek Semiconductor Corp " Communications Network ICs > Network Interface Controllers > 10/100/1000M Gigabit Ethernet > PCI Express > Software"]] - "RTL8111B/RTL8168B/RTL8111/RTL8168, RTL8111C/RTL8111CP/RTL8111D(L), RTL8168C/RTL8111DP/RTL8111E, RTL8168E/RTL8111F/RTL8411,, RTL8111G/RTL8111GUS/RTL8411B(N)".
+  *Drivers for "Windows 8" and "Windows 8.1", as supplied by Realtek and ASUS, are not suitable for "Windows 7". The installation aborts by the error messages:
+    -"FindFile failed".
+    -"The Realtek Network Controller was not found. If Deep Sleep Mode enabled Please Plug the Cable".
+=== The USB 3.0 Controller ====
+  *Please install the USB 3.0 controller drivers from [[http://support.asus.com/download.aspx?m=K95VM|ASUS K95VM]], "Windows 7", "USB" -> "Intel USB3.0 Driver", "AsMedia USB3.0 Driver".
+=== Unsupported Devices with "Windows 7" ====
+  *After all, I did not find any driver for the device "Andere Geräte / Bluetooth - Peripheriegerät" - please [[imprint.html|tell me]] if you know what to install to solve the issue!
+=== The preinstalled "Windows 8" ===
+  *There is a "Windows 8" installed on my machine.
+    *The Windows 8 product IDs, as shown within Windows in the "Systems" settings, look like "00179-60985-xxxxx-AAOEM" while "xxxxx" is a number which is different for different computers.
+    *There is just a printing on the serial number plate "ASUS Windows 8", but no Windows serial number!
+  *I might not buy the backup media DVD at [[http://serviceshop.asus.com|ASUS Service Shop]], as my notebook was shipped with "Windows 8" ( not "Windows 8 Pro" ) - "Recovery Media: This Product is only applicable for the Notebook, EeePC, EeeBOX and All-in-one PC which are preinstalled with Microsoft Windows 7 or Windows 8 PRO series. You can only install the SAME version as the one preinstalled by default (Windows 7 or Windows 8 PRO)".
+  *Instead, an original "Windows 8" or "Windows 8 Pro" installation DVD is suitable for installation. No serial number needed!
+  *It does not matter if no operating system is installed, or a "Windows 7" or "Windows 8" edition:
+    *If you try to install "Windows 8 Pro" with the proper DVD installation media, you are not asked for a serial number and instead of "Windows 8 Pro", another copy of "Windows 8" is installed.
+    *By this, you may install different copies of "Windows 8" on your computer. You are asked at boottime, which item you want to run.
+=== You can upgrade to "Windows 8 Pro", but you can´t add "Windows Media Center" successfully :-( ===
+== Upgrade from "Windows 8" to "Windows 8 Pro" works fine ==
+  *At "Windows Update / Add Features to Windows 8" 
+    *You can enter your "Windows 8 Pro" key to upgrade your "Windows 8" to "Windows 8 Pro". "Windows 8 Pro" is immediately activated, according to the "Control Panel / System" screen.
+    *After a reboot, now the "Windows 8 Pro" installation is still activated.
+  *You may upgrade to "Windows 8.1 Pro".
+== Adding the "Windows Media Center" to "Windows 8" fails ==
+  *At "Windows Update / Add Features to Windows 8":
+    *The once-free **"Windows Media Center" product key**, originally dedicated to "Windows 8 Pro" **is not accepted on "Windows 8"** :-(.
+== Adding the "Windows Media Center" to "Windows 8 Pro" leads to an unactivated unlicensed System :-( ==
+  *At "Windows Update / Add Features to Windows 8 Pro":
+    *The once-free "Windows Media Center" product key, originally dedicated to "Windows 8 Pro" is accepted.
+    ***After a reboot, "Windows 8 Pro with Media Center" is displayed on the desktop canvas, but this "Windows 8 Pro with Media Center" installation is non-activated and unlicensed**, activation error "0xC004C003".
+  *If you try to change the Windows product key with the "SLUI 3" command, the system rejects the ( same once accepted ) "Windows 8 Pro" product key but requests a product key for "Windows 8 Pro with Media Center" :-(.
+  *Resources:
+    -[[http://social.technet.microsoft.com/Forums/en-US/1c1fa49d-dfd9-4ac7-b03c-892b94e78bfc/upgrading-from-windows-8-oem-to-windows-8-pro-works-fine-but-adding-windows-media-center?forum=w8itproinstall|Microsoft TechNet "Upgrading from 'Windows 8 OEM' to 'Windows 8 Pro' works fine, but adding 'Windows Media Center' leads to an unactivated unlicensed System :-("]].
+    -[[http://social.technet.microsoft.com/Forums/en-US/8f504959-05be-4869-9884-3e374aa964e5/downgrade-from-windows-8-pro-with-media-center-to-windows-8-pro?forum=w8itprogeneral|Microsoft TechNet "Downgrade from Windows 8 Pro with Media Center to Windows 8 Pro?"]].
+    -[[http://social.technet.microsoft.com/Forums/en-US/76a64a16-dd23-47f7-8115-07293c861267/rtm-81-pro-wrecks-windows-media-center|Microsoft TechNet "RTM 8.1 Pro wrecks Windows Media Center"]].
+=== German Windows 8 Activation Instructions by the Customer Service Center of ASUSTek Computer Inc. ====
+  *Sie haben darüber informiert, dass Windows 8 nach dem Reparaturservice nicht aktiviert ist. ASUS stellt den Windows 8 Produktschlüssel zum Abruf zur Verfügung, um dieses Problem beheben zu können.
+  *Um die Sicherheit Ihrer Windows 8 Product-Key-Informationen zu gewährleisten, melden Sie sich bitte unter [[http://account.asus.com/|ASUS Member Site]] an, um Ihren Schlüssel abzurufen.
+  *Schritt 1. Wenn Sie noch kein ASUS-Mitglied sind oder Sie haben Ihr Produkt noch nicht registriert, melden Sie sich bitte als ASUS-Mitglied an und registrieren Ihr Produkt zuerst.
+  *Schritt 2. Sobald Sie eingeloggt sind, klicken Sie bitte auf den "Windows 8 Product Key"-Link auf der linken Menüseite.
+  *Schritt 3. Wenn Sie dazu aufgefordert werden, geben Sie bitte den Microsoft-Error-Code ein. (Wie ist der Error-Code zu finden?)
+  *Schritt 4. Nach der Überprüfung erhalten Sie eine E-Mail-Benachrichtigung. Eine Download-Schaltfläche wird neben Ihrem registrierten Produkt erscheinen.
+  *Klicken Sie nun bitte auf "Download", um Ihren Windows 8 Product-Key zu erhalten.
+  *Schritt 5. Wenn Windows 8 nach dem Download noch nicht aktiviert ist, klicken Sie bitte für eine weitere Unterstützung auf "Kontakt ASUS".
+=== "Windows 7 Boot Manager" vs. "Windows 8 Boot Manager" ====
+  *If you install first "Windows 8" and then "Windows 7", you get the classical "Windows 7 Boot Manager" ( in text mode, with black background screen and white letters ) at startup.
+  *If you then update from "Windows 8" to "Windows 8.1" by the Windows appstore, you get the "Windows 8 Boot Manager" ( in graphics mode, with blue background screen and white letters ) at startup.
+==== How I setup my System with ( German ) Windows 8 to boot from Harddisk 1 ====
+=== Preparation ===
+  -Boot a Linux from DVD and delete all partitions ) - Just to be shure to start from scratch.
+  -Boot a "Windows 8" or "Windows 8 Pro" installation DVD.
+  -Delete all partitions  on harddisk 0 ( where Windows 8 was preinstalled, originally ).
+  -Delete all partitions  on harddisk 1.
+  -Create the Windows partition on harddisk 1.
+    *For every fresh drive, where Windows wants to install, it creates the extra partition "MSR ( reserviert )".
+    *On the first drive where you setup a Windows partition, the partitions "System" and "Wiederherstellung" are also created - but just there. So you can´t setup 2 independant Windows installations on a computer with 2 drives where you can´t disconnect the drives easily ( and have the BIOS option to boot from any drive, as known from desktop computer motherboards ).
+=== Windows 8 + Linux Setup ===
+== Windows 8 Setup on Harddisk 1 ==
+    *For a Windows 8 + Linux system, I select 358400 MBytes as partition size for a Windows 8 boot partition ( 715404 / 2 = 357702, I select 350*1024 = 358400 ).
+== Linux Setup on Harddisk 1, second Partition ==
+  *For a Windows 8 + Linux system, I select for the  Linux partition.
+    *"/dev/sdb6/", ext4 filesystem, 374346 Mbytes left, I select 340992 MBytes ( = 333 * 1024 ).
+    *"/dev/sdb7/", swap, the rest, about 32 Gbytes left i.e. 33354 MBytes exactly.
+  *Device for boot loader installation: "/dev/sdb" ( and not "/dev/sda" as it is by default ! ).
+  *The screen where you define a password for the default user, is the only place where Linux accepts a low quality password :-) ( e.g. "node2" ).
+== Windows 8 Setup on Harddisk 0 ==
+  *There are 2861588 Mbytes free on harddisk 0.  
+  *For a Windows 8, I select 358400 MBytes as partition size for a Windows 8 system partition.
+  *Then there are 2503187 Mbytes free on harddisk 0.
+  *I select 823296 Mbytes ( = 804*1024 ) as partition size for partitions 3, 4, 5 ( = 2469888 Mbytes ).
+  *And a Linux swap partition with the rest, about 32 Gbytes left, i.e. 33299 Mbytes exactly.
+=== Windows 8 + Windows 7 + Linux Setup on Harddisk 1 ===
+    *In the Window partition manager, harddisk 1 has a size of 715404 Gigabytes. 
+    *If you install "Windows 8" and "Windows 7" on one drive, the boot menu of "Windows 7" is available. In opposite, if you install just "Windows 8", there is no boot menu available.
+== Windows 8 Setup ==
+    *For a Windows 8 + Windos 7 + Linux system, I select 237568 MBytes as partition size for a Windows 8 boot partition ( 715404 / 3 = 238468, I select 232*1024 = 237568 ).
+== German Windows 7 Setup on the second Partition ==
+    *For a Windows 8 + Windos 7 + Linux system, I select 237568 MBytes as partition size for the Windows 7 partition.
+    *I install the software with deactivated WLAN and without connection of an Ethernet cable.
+    *I select "[ ] Windows automatisch aktivieren, wenn eine Internetverbindung besteht".
+== Linux Setup on the third Partition ==
+  *For a Windows 8 + Windos 7 + Linux system, I select for the  Linux partition.
+    *"/dev/sdb5/", ext4 filesystem, 200000 MBytes.
+    *"/dev/sdb6/", swap, the rest, i.e. about 38468 MBytes.
+  *Device for boot loader installation: "/dev/sdb" ( and not "/dev/sda" as it is by default ! ).
+  *The screen where you define a password for the default user, is the only place where Linux accepts a low quality password :-) ( e.g. "node2" ).
+==== I failed to add BIOS Boot Options, manually :-( ====
+  *I failed to add BIOS Boot Options, manually :-(. If you know how to do it, then please [[imprint.html|tell me]]!
+  *Select the BIOS item "Boot / Add New Boot Option".
+      *"Select Filesystem [MATSHITABD-CMB UJ160]" -> "\CDROM(Entry1)\".
+      *"Path for boot option [<del>\bootmgr.efi</del>]" -> Hint "Enter the path to the boot option in the format fs0:\path\filename.efi".
+      *"Create" -> Is rejected by the error message "Please set Boot Option Name and File Path" :-(.
+    *"Add New Boot Option".
+      *"Select Filesystem [ST3000DM001-1CH166]" -> "\HD( Part1,...)".
+      *"Path for boot option [<del>\bootmgr.efi</del>]" -> Hint "Enter the path to the boot option in the format fs0:\path\filename.efi".
+      *"Create" -> Is rejected by the error message "Please set Boot Option Name and File Path" :-(.
+===== Vendors =====
+  *[[http://www.amazon.de/exec/obidos/ASIN/B00HLKB61O/hemmerling-21|Amazon.de "ASUS K95VB-YZ075H"]].
+  *[[http://www.geizhals.at/de/asus-k95vb-yz075h-90nb0391-m01050-a1055406.html|Geizhals.AT "ASUS K95VB-YZ075H (90NB0391-M01050)"]].
+  *[[http://www.computerbase.de/preisvergleich/asus-k95vb-yz075h-90nb0391-m01050-a1055406.html|ComputerBase "ASUS K95VB-YZ075H (90NB0391-M01050)"]].
+
+===== Resources =====
+==== Reviews ====
+  *[[http://notebookplanet.blogspot.de/2013/08/asus-k95vb-specs.html|Notebookplanet Blog "Asus K95VB Specs"]] - "This big laptop supports dual storage system. Overall, you can get up to 2 TB HDDs, consists of two 2.5'' 1 TB HDD. If you choose this product with i3/i5 processor, the maximum memory is 16 GB. If you go with i7 model, maximum memory increased to 32 GB".
+  *[[http://www.notebookcheck.net/Asus-K95-Series.95574.0.html|Notebookcheck.net "Asus K95 Series"]].
+  *[[http://www.notebookcheck.com/Test-Asus-A95VM-YZ030V-K95V-Notebook.75599.0.html|Notebookcheck.com "Test Asus A95VM-YZ030V (K95V) Notebook"]].
+  *[[http://www.pcwelt.de/produkte/Notebook-Asus-A95VM-YZ030V-K95V-Test-5967247.html|PC Welt "Test - Das meint das Web. Asus A95VM-YZ030V (K95V) Produkteinschätzung"]].
+  *[[http://www.testranking.com/Laptop/ASUS+A95VM-YZ030V+%28K95V%29+Reviews/908/3905/|testranking "ASUS A95VM-YZ030V (K95V) Review"]].
+  *[[http://www.tweakers.net/serie/2591/k95-series/reviews/|Tweakers "Asus K95 Series"]].
+  *YouTube:
+    *[[http://www.youtube.com/watch?v=9URKZloP1uM|YouTube "Asus K95V Unboxing"]], 2012-07-02.
+    *[[http://www.youtube.com/watch?v=990443Awrqg|YouTube "Laptop Asus K95VM Video Review 1080p by digitalmag.net"]], 2012-11-01.
+    *[[http://www.youtube.com/watch?v=wg7V4tID4Lw|YouTube "Asus K95 A95 32Gb Ram Memory upgrade K95VJ K95VM K95V A95VJ A95VM A95V 18.4"]], 2013-09-06 #.
+    *[[http://www.youtube.com/watch?v=LvmzckXnXho|YouTube "ASUS K95VB Windows 7 Boot"]], 2013-11-30.
+
+==== General ====
+  *[[http://rog.asus.com/forum/showthread.php?27177-Only-1-boot-option|ASUS Republic of Gamers [ROG], Thread "Only 1 boot option?"]].
+  *[[http://www.computerforum.de/threads/56738-Windows-7-auf-ASUS-K95VB-Notebook|Computerforum "Windows 7 auf ASUS K95VB Notebook"]] #.
+    *"Interessant wird es wieder bei den Treibern... hier kann man teil ausweichen auf: [[http://support.asus.com/download.aspx?m=K95VM|ASUS K95VM]]".
+  *[[http://www.ubuntuforums.org/showthread.php?t=2147295|ubuntu Forums "UEFI Installing - Tips"]].
+  *[[http://help.ubuntu.com/community/Boot-Repair|ubuntu Help "Boot-Repair"]].
+{{tag>notebook, webbook, computer "asus k95vb-yz075h" "asus k95vb" asus k95vb-yz075h k95vb yz075h "windows 8" 8 windows win8 "windows 8.1" win8.1 "windows media center" media center "windows 8 pro" pro "windows 8.1 pro" review "fan page" fan page }}
+<footnote_navi_en>

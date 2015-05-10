@@ -1,0 +1,436 @@
+====== [hemmerling] The Atmel AVR Family with Focus on AVR32, ATxmega, ATmega, ATtiny, AT90 and the Arduino / Freeduino Platform ======
+Related pages:
+  *[[atmega.html|Atmel ATmega, ATtiny, AT90 & ATmega on the Arduino / Freeduino Platform]].
+  *[[arduino.html|The Arduino / Freeduino Platform with Atmel ATmega, Microchip PIC, ARM, Freescale Coldfire]].
+  *[[atxmega.html|Atmel ATxmega ( "XMEGA" )]].
+  *[[atmelavr32.html|Atmel AVR32]].
+  *[[avrhowto.html|How to develop with Atmel AVR Microcontrollers]].
+===== Atmel =====
+  *[[http://www.atmel.com/|Atmel Corporation]].
+  *[[https://secure.atmel.com/myAtmel/|Atmel Corporation "MyAtmel.com"]] - Login.
+  *[[http://www.atmel.no/beta_ware/|Atmel Norway - Betaware. AVR Tools Beta Site]] -> "AtmelUSB" - Atmel USB installer version 11.3 with Jungo 11.0 and Segger 4.52, 2012-07-04.
+  *Atmel documents.
+    *[[http://www.atmel.no/webdoc/|ATMEL AVR Tools User Guides]].
+    *[[http://www.atmel.com/dyn/general/advanced_search.asp|Atmel Corporation "Database - Advanced Search"]].
+    *[[ftp://efo.ru/pub/atmel/|EFU.ru - FTP Directory]].
+  *Newsletter.
+    *[[http://www.atmel.com/about/enews.aspx|Atmel Corporation - Atmel eNews Archive]], April 2011 - September 2011, now discontinued :-(.
+    *[[http://www.msc-ge.com/de/news/pressroom/newsletter/atmel/nl.html|MSC Vertriebs GmbH "Atmel / MSC Newsletter"]] #.
+  *YouTube.
+    *[[http://www.youtube.com/user/AtmelCorporation|YouTube Channel "Atmel Corporation"]].
+    *[[http://www.youtube.com/results?search_query=atmel|YouTube Search for "Atmel"]].
+  *Webinars.
+    *[[http://www.atmel.com/about/corporate/webinars/|Atmel Corporation - Webinars]].
+    *[[http://www.atmel.com/about/corporate/university/|Atmel Corporation - University Program]]
+    *[[http://presentations.inxpo.com/Shows/Atmel/365/University/Login/Login.html|Atmel University Login]] - Login for webinars & online trainings.
+  *Events.
+    *[[http://www.atmel.com/microsite/tech_tour/|Atmel Corporation "Atmel Technology on Tour"]] 2011, 2012.
+    *[[http://www.msc-ge.com/seminare|MSC Vertriebs GmbH & Gleichmann & Co. Electronics GmbH "Seminare & Workshops"]] -> Atmel, Microsemi (Actel),...
+  *Web 2.0 Communities ( Facebook, LinkedIn, Twitter.. )
+    *[[http://www.facebook.com/pages/Atmel-Corporation/121682197848959|Facebook "Atmel Corporation"]].
+    *[[http://www.facebook.com/pages/Atmel/108225039198048|Facebook "Atmel"]].
+    *[[http://www.facebook.com/pages/Atmel-AVR/139304546088628|Facebook "Atmel AVR"]].
+    *[[http://www.linkedin.com/company/atmel-corporation|LinkedIn - Companies "Atmel Corporation"]].
+    *[[http://twitter.com/Atmel|Twitter "Atmel"]].
+  *Support & bug reporting
+    *[[http://support.atmel.com/|Atmel Corporation - Technical Support]] - The place to request support by opening a support tickets.
+  *[[http://store.atmel.com/|Atmel Store]].
+    -Delivery time: 4-7 days.
+    -Freight forwarder for Germany: DHL Express.
+    -All orders are shipped from Malaysia.
+    -When orders shipped reach the destination country, they may be subject to customs clearance procedures which can cause delays beyond original delivery estimates.
+    -I understand that prices do not include taxes, customs duties, tariffs, and brokerage fees, which are Buyer's responsibility. 
+  *[[http://asf.atmel.com/bugzilla/|AVR Software Framework Bug Tracker]].
+  *[[http://www.circuitcellar.com/AVR2006/|Circuit Cellar "Atmel AVR Design Contest 2006"]].
+===== Debugging with JUNGO and SEGGER Hardware Debugger, by JTAG, aWIRE Protocol =====
+==== Software ====
+  *[[http://www.atmel.no/beta_ware/|Atmel Norway - Betaware. AVR Tools Beta Site]] -> "AtmelUSB" - Atmel USB installer version 11.3 with Jungo 11.0 and Segger 4.52, 2012-07-04.
+==== Resources ====
+  *Blog article [[http://avrstudio5.wordpress.com/2012/03/05/atmel-studio-6-manually-installing-atmel-usb-driver-from-the-installer-executable/|Atmel studio. How-to's, Workarounds, Tricks, Tips, Issues related to the Atmel studio IDE "Atmel Studio 6 : Manually installing Atmel USB driver from the installer executable"]]:
+    *<code>C:\temp\>AStudio61sp1_1net.exe /extract_all:".\aStudio"</code>
+    *With Atmel Studio 6.1 of 2013-07, the directory "C:\temp\aStudio\Disk 1\ISSetupPrerequesites" contains the file "Ateml USB Driver.prq".
+
+===== Atmel ATxmega and it's Platforms =====
+  *See [[atxmega.html|Atmel ATxmega ( "XMEGA" )]].
+===== Atmel ATmega and it's Platforms =====
+  *See [[atmega.html|Atmel ATmega, ATtiny, AT90 & ATmega on the Arduino / Freeduino Platform]].
+===== Atmel AVR32 and it's Platforms =====
+  *See [[atmelavr32.html|Atmel AVR32]].
+===== How to develop with Atmel AVR Microcontrollers =====
+  *See [[avrhowto.html|How to develop with Atmel AVR Microcontrollers]].
+  *See [[avr01.html|AVR Microcontrollers Expertness 1/4 - Typcial Error Messages of the Atmel AVR Toolchain]].
+  *See [[avr02.html|AVR Microcontrollers Expertness 2/4 - Atmel Studio 4 / 5 / 6 HowTo]].
+  *See [[avr03.html|AVR Microcontrollers Expertness 3/4 - Software Design for the Atmel Platform]].
+  *See [[avr04.html|AVR Microcontrollers Expertness 4/4 - USB Communications Device Class ( USB CDC )]].
+===== Books about ATmega, ATtiny and the Arduino / Freeduino Platform =====
+==== German Books ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3897213192/hemmerling-21|Erik Bartmann: "O'Reillys basics : Die elektronische Welt mit Arduino entdecken"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3826656059/hemmerling-21|Thomas Brühlmann: "Arduino Praxiseinstieg"]]. Google Book [[http://books.google.de/books?vid=ISBN3826656059|Thomas Brühlmann: "Arduino Praxiseinstieg"]].
+    *The accompanying website [[http://www.arduino-praxis.ch/das-buch/|Thomas Brühlmann "Arduino Praxis - Das Buch"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3645650601/hemmerling-21|Sven Feldkord: "Einführung in die C-Programmierung mit dem ATmega32: Aufbau und Programmierung"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3839184304/hemmerling-21|Stefan Hoffmann "Einfacher Einstieg in die Elektronik mit AVR-Mikrocontroller und BASCOM: Systematische Einführung und Nachschlagewerk mit vielen Anregungen"]], Google Book [[http://books.google.de/books?vid=ISBN3839184304|Stefan Hoffmann "Einfacher Einstieg in die Elektronik mit AVR-Mikrocontroller und BASCOM: Systematische Einführung und Nachschlagewerk mit vielen Anregungen"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3895762385/hemmerling-21|Burkhard Kainka: "Basiskurs BASCOM-AVR"]].
+  *Claus Kühnel.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3907857143/hemmerling-21|Claus Kühnel: "Programmieren der AVR RISC Microcontroller mit BASCOM-AVR: 3. bearbeitete und erweiterte Auflage"]], Google Book [[http://books.google.de/books?vid=ISBN3907857143|Claus Kühnel: "Programmieren der AVR RISC Microcontroller mit BASCOM-AVR: 3. bearbeitete und erweiterte Auflage"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/390785716X/hemmerling-21|Claus Kühnel: "Arduino: Hard- und Software Open Source Plattform"]], Google Book [[http://books.google.de/books?vid=ISBN390785716X|Claus Kühnel: "Arduino: Hard- und Software Open Source Plattform"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3772341071/hemmerling-21|Roman Mittermayr: "AVR-RISC: Embedded Software selbst entwickeln"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3897219956/hemmerling-21|Manuel Odendahl, Julian Finn, Alex Wenger: "Arduino - Physical Computing für Bastler, Designer und Geeks"]], Google Book [[http://books.google.de/books?vid=ISBN3897219956|Manuel Odendahl, Julian Finn, Alex Wenger: "Arduino - Physical Computing für Bastler, Designer und Geeks"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3866838123/hemmerling-21|Jens Rapp: "Mikrocontroller in Kürze - Experimente mit dem ATtiny25 und C"]].
+  *Book [[http://shop.myavr.de/Software%20und%20Literatur/myAVR%20Lehrbuch%20Mikrocontroller-Programmierung.htm?sp=article.sp.php&artID=3|Dipl. Ing. Toralf Riedel, Dipl.-Ing. Päd. Alexander Huwaldt "myAVR Lehrbuch Mikrocontroller-Programmierung"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3895762008/hemmerling-21|Florian Schäffer: "AVR: Hardware und C-Programmierung in der Praxis"]].
+  *Maik Schmidt.
+    *German book [[http://www.amazon.de/exec/obidos/ASIN/3898647641/hemmerling-21|Maik Schmidt: "Arduino: Ein schneller Einstieg in die Microcontroller-Entwicklung"]].
+    *English book [[http://www.amazon.de/exec/obidos/ASIN/1934356662/hemmerling-21|Maik Schmidt: "Arduino: A Quick-Start Guide"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3486589881/hemmerling-21|Günter Schmitt: "Mikrocomputertechnik mit Controllern der Atmel AVR-RISC-Familie: Programmierung in Assembler und C - Schaltungen und Anwendungen"]], Google Book [[http://books.google.de/books?vid=ISBN3486589881|Günter Schmitt: "Mikrocomputertechnik mit Controllern der Atmel AVR-RISC-Familie: Programmierung in Assembler und C - Schaltungen und Anwendungen"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3772359272/hemmerling-21|Cornelius Schneider, Gert Schönfelder: "Messtechnik mit dem ATmega"]].
+  *[[http://www.schwabl-schmidt.de/|Manfred Schwabl-Schmidt]].
+    *[[http://www.schwabl-schmidt.de/index.php/download|"Programme aus den Büchern zum Herunterladen"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3895762180/hemmerling-21|Manfred Schwabl-Schmidt: "Systemprogrammierung für AVR-Mikrocontroller: Interrupts, Multitasking, Fließkommaarithmetik und Zufallszahlen: BD 1"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3645650199/hemmerling-21|Manfred Schwabl-Schmidt: "Systemprogrammierung für AVR-Mikrocontroller: Systemprogrammierung II für AVR-Mikrocontroller: Callbacks, Fließkommafunktionen und BCD-Arithmetik: BD 2"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3895762296/hemmerling-21|Manfred Schwabl-Schmidt: "AVR-Programmierung 1: Grundlagen und der Aufbau von Programmstrukturen: BD 1"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3645650199/hemmerling-21|Manfred Schwabl-Schmidt: "AVR-Programmierung 2: Statische Datenstrukturen vom Bit zur mehrdimensionalen Tabelle: BD 2"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3645650199/hemmerling-21|Manfred Schwabl-Schmidt: "AVR-Programmierung 3: LCD-Graphik I, verkettete Strukturen I, Zeichenketten, Fädeltechnik I"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3645650199/hemmerling-21|Manfred Schwabl-Schmidt: "Programmiertechniken für AVR-Mikrocontroller: Darstellung und ausführliche Implementierung"]].
+  *Ulli Sommer.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3645650342/hemmerling-21|Ulli Sommer: "Praxisbuch Arduino - Mikrocontroller-Programmierung mit Arduino und Freeduino"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3645650415/hemmerling-21|Ulli Sommer: "Mikrocontroller programmieren in Bascom Basic"]].
+  *Günter Spanner.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3645650199/hemmerling-21|Dr. Günter Spanner: "AVR-Mikrocontroller in C programmieren: Über 30 Selbstbauprojekte mit ATtiny13, ATmega8, ATmega32: Über 30 Selbstbauprojekte mit ATtiny13, ATmega8 und ATmega32"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN//3645650954/hemmerling-21|Dr. Günter Spanner: "C-Programmierung von AVR-Mikrocontrollern"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3981189442/hemmerling-21|Roland Walter: "AVR-Mikrocontroller-Lehrbuch: Einführung in die Welt der AVR-RISC-Mikrocontroller am Beispiel des ATmega8"]], Google Book [[http://books.google.de/books?vid=ISBN3981189442|Roland Walter: "AVR-Mikrocontroller-Lehrbuch: Einführung in die Welt der AVR-RISC-Mikrocontroller am Beispiel des ATmega8"]].
+==== English Books ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0596155514/hemmerling-21|Massimo Banzi: "Getting Started with Arduino (Make: Projects)"]], Google Book [[http://books.google.de/books?vid=ISBN0596155514|Massimo Banzi: "Getting Started with Arduino (Make: Projects)"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1418039594/hemmerling-21|Richard Barnett, Larry O'Cull, Sarah Cox: "Embedded C Programming & the Atmel AVR 2nd Edition Book/CD Package"]], Google Book [[http://books.google.de/books?vid=ISBN1418039594|Richard Barnett, Larry O'Cull, Sarah Cox: "Embedded C Programming & the Atmel AVR 2nd Edition Book/CD Package"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1598295411/hemmerling-21|Steven F. Barrett, Daniel J. Pack: "Atmel AVR Microcontroller Primer: Programming and Interfacing (Synthesis Lectures on Digital Circuits and Systems)"]], Google Book [[http://books.google.de/books?vid=ISBN1598295411|Steven F. Barrett, Daniel J. Pack: "Atmel AVR Microcontroller Primer: Programming and Interfacing (Synthesis Lectures on Digital Circuits and Systems)"]].
+  *[[http://www.zbaird.com/|Chuck Baird "Atmel AVR Programming Books"]].
+    *Book [[http://www.lulu.com/product/paperback/programming-microcontrollers-using-assembly-language/554573|Chuck Baird "Programming Microcontrollers using Assembly Language"]] ( [[http://www.amazon.de/exec/obidos/ASIN/B00262NY26/hemmerling-21|Chuck Baird "Programming Microcontrollers using Assembly Language"]] ) - Target "Atmel AVR Butterfly".
+    *Book [[http://www.lulu.com/product/paperback/arnie-aardvarks-avr-aper%C3%A7u/1923092|Chuck Baird "Arnie Aardvark's AVR Aperçu"]] - Target "Atmel STK500 Starter Kit".
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0905705750/hemmerling-21|Bert van Dam: "Microcontroller Systems Engineering: 45 projects for PIC, AVR and ARM"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/B004S7JERG/hemmerling-21|John Blankenship, Samuel Mishal: "Interfacing The Arduino with a PC Using RobotBASIC's Protocol"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0596807732/hemmerling-21|Robert Faludi: "Building Wireless Sensor Networks: With ZigBee, XBee, Arduino, and Processing"]], Google Book [[http://books.google.de/books?vid=ISBN0596807732|Robert Faludi: "Building Wireless Sensor Networks: With ZigBee, XBee, Arduino, and Processing"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/007134666X/hemmerling-21|Dhananjay V. Gadre: "Programming And Customizing the AVR Microcontroller. (Programming and Customizing Microcontrollers)"]].
+  *Tom Igoe.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0596510519/hemmerling-21|Tom Igoe: "Making Things Talk: Practical Methods for Connecting Physical Objects"]], Google Book [[http://books.google.de/books?vid=ISBN0596510519|Tom Igoe: "Making Things Talk: Practical Methods for Connecting Physical Objects"]]. -> Arduino.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1449392431/hemmerling-21|Tom Igoe: "Making Things Talk: Physical Computing with Sensors, Networks, and Arduino"]] -> Arduino.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/B004JN0XD8/hemmerling-21|Instructables Authors: "Arduino Projects"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1449389716/hemmerling-21|Kimmo Karvinen, Tero Karvinen: "Make: Arduino Bots and Gadgets: Six Embedded Projects with Open Source Hardware and Software (Learning by Discovery)"]], Google Book [[http://books.google.de/books?vid=ISBN1449389716|Kimmo Karvinen, Tero Karvinen: "Make: Arduino Bots and Gadgets: Six Embedded Projects with Open Source Hardware and Software (Learning by Discovery)"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0956728502/hemmerling-21|Chris Leaver: "Introduction to Atmel AVR Microcontroller Development: Using Free Software with Worked Examples"]].
+  *Magazine issue [[http://www.amazon.de/exec/obidos/ASIN/1449393985/hemmerling-21|Make: Technology on Your Time, Volume 25]] - "The Arduino Revolution".
+  *"Arduino Cookbook".
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1449313876/hemmerling-21|Michael Margolis: "Arduino Cookbook"]], 2nd edition. The 2nd. edition covers the Arduino IDE 1.0 :-).
+    *Book <del>[[http://www.amazon.de/exec/obidos/ASIN/0596802471/hemmerling-21|Michael Margolis: "Arduino Cookbook"]]</del>, Google Book <del>[[http://books.google.de/books?vid=ISBN0596802471|Michael Margolis: "Arduino Cookbook"]]</del>.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/007174133X/hemmerling-21|Simon Monk: "30 Arduino Projects for the Evil Genius"]], Google Book [[http://books.google.de/books?vid=ISBN007174133X|Simon Monk: "30 Arduino Projects for the Evil Genius"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0596154143/hemmerling-21|Joshua Noble: "Programming Interactivity: Unlock the Power of Arduino, Processing, and OpenFrameworks"]], Google Book [[http://books.google.de/books?vid=ISBN0596154143|Joshua Noble: "Programming Interactivity: Unlock the Power of Arduino, Processing, and OpenFrameworks"]].
+  *Book [[http://www.sparkfun.com/products/10576|T. Olsson, D. Gaetano, J. Odhner, and S. Wiklund "Open SoftWear"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1430224770/hemmerling-21|Jonathan Oxer, Hugh Blemings: "Practical Arduino: Cool Projects for Open Source Hardware (Technology in Action)"]], Google Book [[http://books.google.de/books?vid=ISBN1430224770|Jonathan Oxer, Hugh Blemings: "Practical Arduino: Cool Projects for Open Source Hardware (Technology in Action)"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0750656352/hemmerling-21|John Morton: "AVR: An Introductory Course"]], Google Book [[http://books.google.de/books?vid=ISBN0750656352|John Morton: "AVR: An Introductory Course"]].
+  *Joe Pardue & [[http://www.smileymicros.com/|Smiley Micros - Atmel Official AVR Consultant]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/007134666X/hemmerling-21|Joe Pardue "An Arduino Workshop"]].
+      *There is a bundle offer for book + "Arduino projects kit" :-), featuring [[http://arduino.cc/en/Main/ArduinoBoardUno|Arduino Uno]] with [[http://www.atmel.com/dyn/products/product_card.asp?part_id=4198|ATmega328P]] ( 32 Kbytes Flash, 2 KBytes SRAM, 1 Kbyte EEPROM ).
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0976682206/hemmerling-21|Joe Pardue "C Programming for Microcontrollers Featuring Atmel's Avr Butterfly and the Free Winavr Compiler"]].
+      *There is a bundle offer for book + "Butterfly++ Mini_Kit" :-).
+    *Blog [[http://smileymicros.com/blog/|Smiley's Workshop Blog]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1902179005/hemmerling-21|Peter Sharpe: "Get Going with...AVR Microcontrollers"]], [[http://www.kanda.com/products/kanda/KB0010.html|Peter Sharpe: "Get Going with...AVR Microcontrollers"]].
+  *[[http://www.amazon.de/exec/obidos/ASIN/1430231831/hemmerling-21|John-David Warren, Josh Adams, Harald Molle: "Arduino Robotics"]], Google Book [[http://books.google.de/books?vid=ISBN1430231831|John-David Warren, Josh Adams, Harald Molle: "Arduino Robotics"]].
+
+==== Resources ====
+  *[[http://www.mcselec.com/index.php?option=com_content&task=category&sectionid=12&id=94&Itemid=67|MCS Electronics "Publications - BASCOM Books. Books about BASCOM"]].
+===== Job Platforms where You can manifest your AVR Skills =====
+  *[[http://www.datos.de/|DATO(S) IT Competence GmbH]].
+    *[[http://online.datos.de/|DATO(S) IT Competence GmbH "Projekte und Stellen"]] - "Das Portal für IT-Spezialisten".
+<code>
+[x]Atmel AVR32
+[x]AVR Studio
+</code>
+===== Resources =====
+  *[[http://www.8051projects.net/microcontroller-tutorials/|Rickey's World - World of Microcontrollers and Microprocessors ( 8051projects ) "Tutorials for Microcontrollers"]].
+  *[[http://www.aquaticus.info/category/article/projects/|Aquaticus ROV - Homebuilt underwater robot "Projects"]]
+  *[[http://avrstudio5.wordpress.com/|Wordpress Blog ""Atmel Studio [5,5.1,6.0]"]] #.
+  *[[http://www.avrbox.com/|AVR Based Projects Collection]] - "Trying to gather all the AVR Projects on the net under a single roof".
+    *Blog [[http://stuff.nekhbet.ro/|Trimbitas Sorin-Iulian "Dedication to DIY and programming. A website containing DIY projects and programming tips & tricks"]].
+  *[[http://www.avrfreaks.net/|AVR Freaks]] #.
+    *[[http://www.avrfreaks.net/index.php?module=Freaks Academy|AVR Freaks "Projects"]] #.
+    *[[http://www.avrfreaks.net/index.php?module=Freaks%20Tools&func=viewTools|AVR Freaks "Tools"]] #.
+      -[[http://www.avrfreaks.net/index.php?module=FreaksTools&func=viewTools&q=&category_id=15|AVR Freaks "Tools / Getting Started Guides"]].
+      -[[http://www.avrfreaks.net/index.php?module=FreaksTools&func=viewTools&q=&category_id=9|AVR Freaks "Tools / Definitions/Macros/Extensions"]].
+      -[[http://www.avrfreaks.net/index.php?module=FreaksTools&func=viewTools&q=&category_id=10|AVR Freaks "Tools / Hardware Setup & Usage Examples"]].
+        *Application [[http://www.avrfreaks.net/index.php?module=Freaks%20Tools&func=viewItem&item_id=638|AVR Freaks "Tools / Hardware Setup & Usage Examples - AVR443: Sensor-based control of three phase Brushless DC motor"]].
+      -[[http://www.avrfreaks.net/index.php?module=FreaksTools&func=viewTools&q=&category_id=12|AVR Freaks "Tools / I/O Applications"]].
+      -[[http://www.avrfreaks.net/index.php?module=FreaksTools&func=viewTools&q=&category_id=11|AVR Freaks "Tools / Math/Processing Applications"]].
+      -[[http://www.avrfreaks.net/index.php?module=FreaksTools&func=viewTools&q=&category_id=13|AVR Freaks "Tools / Control/Measurement Applications"]].
+      -[[http://www.avrfreaks.net/index.php?module=FreaksTools&func=viewTools&q=&category_id=14|AVR Freaks "Tools / Development Applications"]].
+        *[[http://www.avrfreaks.net/index.php?module=Freaks%20Tools&func=viewItem&item_id=592|AVR Freaks "Tools / Control/Measurement Applications - AVR106: C functions for reading and writing to Flash memory"]].
+      -[[http://www.avrfreaks.net/index.php?module=FreaksTools&func=viewTools&q=&category_id=33|AVR Freaks "Tools / Design Note"]].
+      -[[http://www.avrfreaks.net/index.php?module=FreaksTools&func=viewTools&q=&category_id=31|AVR Freaks "Tools / Article"]].
+      -[[http://www.avrfreaks.net/index.php?module=FreaksTools&func=viewTools&q=&category_id=30|AVR Freaks "Tools / White Paper"]].
+  *[[http://www.avr-praxis.de/|AVR-PRAXiS]] #.
+  *[[http://www.arduino-praxis.ch/|Thomas Brühlmann "Arduino Praxis"]].
+  *[[http://www.dertien.dds.nl/content/avrprojects.html|Edwin Dertien "AVR Projects"]].
+  *[[http://bascom-forum.de/|Offizielles Deutsches Bascom Forum]].
+    *[[http://bascom-forum.de/showthread.php?2198-ATXMEGA-kleines-einmaleins-Erste-Schritte-mit-ATxmega&p=12544&viewfull=1#post12544|Offizielles Deutsches Bascom Forum, Thread "Erste Schritte mit ATxmega bzw. XMEGA am Beispiel ATxmega128A1"]].
+  *[[http://www.bausteln.de/anleitungen/arduino/|bausteln "Anleitungen / Arduino"]].
+  *[[http://www.bunbury.de/technik/avr/|Bunbury's AVR-Script]], Germany - AVR microcontroller tutorial.
+  *[[http://www.circuitidea.com/|Circuit Ides Design]].
+    *[[http://www.circuitidea.com/Article/Using-Arduino-shield-BL-TFT240320PLUS.html|Circuit Ides Design "How to use LCD TFT Arduino shield BL-TFT240320PLUS LCD article. Using Arduino with LCD TFT QVGA BL-TFT240320PLUS"]].
+  *[[http://people.ece.cornell.edu/land/courses/ece4760/FinalProjects/|Cornell University, School of Electrical and Computer Engineering "ECE 4760 - Designing with Microcontrollers, Final Projects"]] - "Before 2009, we used the Codevision C compiler, now we use WINAVR/GCC".
+  *[[http://das-labor.org/|Das Labor e.V.]], Bochum.
+    *Wiki [[http://das-labor.org/wiki/Projects|Das Labor e.V. "Projekte"]].
+  *[[http://www.elektronik-projekt.de/|Elektronik-Projekt]].
+    *[[http://www.wiki.elektronik-projekt.de/mikrocontroller/avr/|Elektronik-Projekt "Atmel AVR Mikrocontroller - Artikel, Kategorien"]].
+    *[[http://www.wiki.elektronik-projekt.de/mikrocontroller/avr/avr_tutorials|Elektronik-Projekt "AVR Tutorial Index"]].
+  *[[http://www.elm-chan.org/|Elm Chan "The Electronic Lives Manufacturing - presented by ChaN]].
+    *[[http://elm-chan.org/he_e.html|Elm Chan "Electronics Handicrafts"]].
+      *[[http://elm-chan.org/he_f_e.html|Elm Chan "PC interface"]].
+        *[[http://elm-chan.org/works/avrx/report_e.html|Elm Chan "Simple AVR Programmers"]].
+  *[[http://extremeelectronics.co.in/|eXtreme Electronics]] - Atmel AVR Tutorials #.
+  *[[http://www.imakeprojects.com/Projects/avr-tutorial/|I Make Projects "A Quickstart Tutorial for Starting with AVR Microcontrollers"]].
+  *[[http://www.electronics-diy.com/schematics.php?schematics=pic&circuit=PIC%20/%20ATMEL%20/%20AVR/|Electronics-DIY.com "Electronic Schematics" / "PIC/ ATMEL/ AVR/"]].
+  *[[http://www.embedds.com/|Embedds.com]] - "Embedded projects from around the web. MCU project everyday".
+    *Blog [[http://www.embedds.com/category/avr-projects/|Embedds.com "AVR Projects"]].
+    *[[http://www.embedds.com/tutorials/|Embedds.com "Tutorials"]] - "AVR Tutorial".
+  *[[http://www.freeduino.de/|Freeduino - Arduino Microcontroller]] - "Blog", "Forum", "Wiki", "Tutorials".
+  *[[http://www.fourwalledcubicle.com/AVRArticles.php|Four Walled Cubicle - AVR Articles]]# - "AVR-GCC and the PROGMEM Attribute", "AVR Programming Methods", "Interrupt Driven USART in AVR-GCC", " Modularizing C Code: Managing large projects", "Newbie's Guide to AVR Interrupts", "Newbie's Guide to AVR Timers", "Using the EEPROM in AVR-GCC", "Using the USART in AVR-GCC".
+  *[[http://www.ikalogic.com/cat_microcontrollers.php|IKA Logic - Electronics solutions "Microcontrollers"]].
+    *[[http://www.ikalogic.com/band_gap_avr.php|IKA Logic - Electronics solutions "AVR: Monitor power supply voltage, for free!"]].
+  *[[http://www.kreatives-chaos.com/artikel/winavr-tutorial|kreatives-chaos.com - Elektronik und Roboterbau "WinAVR (Tutorial)"]].
+  *[[http://www.opend.co.za/|OpenD]].
+    *AVR tutorial #.
+    *Stepper motor tutorials.
+  *[[http://halvar.at/elektronik/kleiner_bascom_avr_kurs/|Gerold Panz "Kleiner Bascom AVR Kurs"]].
+  *mikrocontroller.net.
+    *[[http://www.mikrocontroller.net/articles/AVR-GCC-Tutorial|mikrocontroller.net "AVR-GCC-Tutorial"]] #.
+    *[[http://www.mikrocontroller.net/articles/AVR-Tutorial|mikrocontroller.net "AVR-Tutorial"]].
+  *[[http://www.elec.uow.edu.au/avr/|microcontroller web site at School of Electrical, Computer and Telecommunication Engineering, University of Wollogong]] - "AVR Documentation, AVR Tools, AVR Projects, FAQs".
+  *[[http://sbolt.home.xs4all.nl/|Steve Bolt, Pitronics]].
+    *[[http://sbolt.home.xs4all.nl/e-spider_prog.html|Steve Bolt, Pitronics "Embedded Programming. SP12, SP89, AvrMon" / "Programming an AVR uC"]].
+  *[[http://www.ulrichradig.de/home/index.php/avr|Ulrich Radig "AVR Projekte"]].
+    *[[http://www.ulrichradig.de/home/index.php/avr/eth_m32_ex|Ulrich Radig "Ethernet ATmega32/644 Experimentierboard"]].
+  *[[http://retrodan.tripod.com/|RetroDan "AVR ButterFly and Beginner's Site"]].
+  *[[http://www.riccibitti.com/|Alberto Ricci Bitti]] - "Award-winning electronics designs, circuit diagrams, ready-to-go schematics, source code especially for the Atmel's AVR family, Microchip's PIC, Motorola's 68HC09 Microcontrollers".
+  *RoboterNETZ.
+    *[[http://www.rn-wissen.de/index.php/AVR-Einstieg_leicht_gemacht|RoboterNETZ "AVR-Einstieg leicht gemacht"]] - Tutorial.
+    *[[http://www.rn-wissen.de/index.php/Speicherverbrauch_bestimmen_mit_avr-gcc|RoboterNETZ "Speicherverbrauch bestimmen mit avr-gcc"]].
+    *[[http://www.roboternetz.de/community/threads/35694-ATMEGA32-gegen-ATMEGA644-tauschen|RoboterNETZ "ATMEGA32 gegen ATMEGA644 tauschen"]] #.
+  *[[http://www.schlagmueller.de/dlr/avr-gcc/|Michael Schlagmüller "DLR -> avr-gcc: Installation - Howto"]].
+  *[[http://www.avr-asm-tutorial.net/|Gerhard Schmidt "AVR-Assembler-Tutorial"]].
+  *[[http://www.scienceprog.com/|ScienceProg]].
+    *[[http://www.scienceprog.com/freertos-on-avr-with-external-ram/#more-2627|ScienceProg "FreeRTOS on AVR with external RAM"]].
+  *Slides [[http://www.slideshare.net/Globalcode/javaone-automatizando-sua-casa-usando-java-javame-javafx-e-open-source-hardware-vinicius-senger-e-neto-marin-6160096|SLideShare "JavaOne - Automation your house with open source hardware and Java"]] -> Arduino, Program-ME, Beagle-Board, Sun Spot.
+  *[[http://www.linuxfocus.org/English/November2004/article352.shtml|Guido Socher, linuxfocus.org "Programming the AVR microcontroller with GCC, libc 1.0.4"]] #.
+  *[[http://www.stromflo.de/dokuwiki/|Stromflo Wiki]] - "AVR, LED, Elektronik, Programme".
+    *[[http://www.stromflo.de/dokuwiki/doku.php|Stromflo Wiki "XMEGA-C-Tutorial"]] #.
+  *[[http://gandalf.arubi.uni-kl.de/avr_projects/|Martin THOMAS "AVR-Projects"]].
+  *[[http://www.tuxgraphics.org/|tuxgraphics.org]] - "The place for avr microcontroller, DIY electronics and science fun".
+  *[[http://www.attiny.com/|Roy van Arem "attiny.com - AVR Projects & Information"]], [[http://www.atxmega.com/|Roy van Arem "atxmega.com - AVR Projects & Information"]].
+  *[[http://www.webring.org/hub?ring=avr|WebRing "AVR"]].
+    -[[http://www.kreatives-chaos.com/|Fabian Greif "kreatives-chaos.com - Elektronik und Roboterbau"]].
+    -[[http://ficara.altervista.org/atmel_avr.php|Ficara Emilio Pietro Giovanni - Atmel AVR Projects]].
+    -[[http://www.avr-asm-tutorial.net/|Gerhard Schmidt "AVR-Assembler-Tutorial"]].
+    -[[http://www.freertos.org/|FreeRTOS]].
+    -[[http://users.skynet.be/jiwan/Electronique/English/Electronics.htm|Philippe Jiwan "Electronics"]] - "A programmer for microcontroler Atmel AVR".
+    -[[http://members.tripod.com/Stelios_Cellar/|Stelios Cellar]], [[http://come.to/Stelios_Cellar/|Stelios Cellar]] - "AVR Info page".
+      *[[http://members.tripod.com/Stelios_Cellar/AVR/AVR_File_Archieve.html|Stelios Cellar "AVR File Archive"]] #.
+    -[[http://home.arcor.de/wolfganghartl/|Ingenieur Büro Hartl]] - "Wir entwickeln bevorzugt mit AVR Prozessoren von Atmel. Je nach Anforderung programmieren wir dabei in Assembler oder C".
+    -[[http://www.vogelaar-electronics.com/|Vogelaar Electronics]] - "The DelphiController and DelphiStamp are tools to assist in the development of firmware for microcontrollers".
+    -[[http://www.hpinfotech.ro/|HP InfoTech - CodeVisionAVR]].
+    -[[http://www.blitzlogic.com/|BLITZLOGIC Sdn. Bhd. - 8-Bit Micro TooLs]], Malaysia.
+    -[[http://www.opticompo.com/index2_en.html|optiCompo Electronics / Embedded-inet GbR]].
+    -[[http://www.aca-vogel.de/index_en.html|A.C.A.Vogel]].
+      *[[http://www.aca-vogel.de/Main/ATMEL/atmel.html|A.C.A.Vogel "ATMEL's AVR"]].
+    -[[http://www.sywitec.de/|SyWiTec - Systeme für Wissenschaft und Technik, Bamberg & Monsees GbR]], [[http://www.ewetel.net/~bamberg.monsees/|SyWiTec - Systeme für Wissenschaft und Technik, Bamberg & Monsees GbR]].
+    -[[http://www.angelfire.com/clone/plc/|Anglefire "Micro PLC"]].
+    -The free AVR assembler [[http://webspace.webring.com/people/la/avride/|AVRide]] for Windows - "The most powerfull editor/assembler for Atmel's range of AVR microcontrollers".
+    -The OpenSource AVR assembler [[http://www.suprafluid.de/avra/|AVRA - advanced macro assembler for Atmel AVR family]], [[http://avra.sourceforge.net/|SourceForge "avra - Atmel AVR Assembler"]], [[http://www.sourceforge.net/projects/avra/|SourceForge "avra - Atmel AVR Assembler"]].
+    -[[http://www.theiling.de/avr.html|Henrik Theiling "Linux Development Tools for Atmel AVR"]].
+    -[[http://www.embedded.dk/|John Kaasgaard - embedded.dk]].
+      *[[http://embedded.dk/projects/Embedded/AVR_Projects.htm|John Kaasgaard - embedded.dk "AVR Projects ..."]].
+    -[[http://avr.tavir.hu/|Tavir-AVR]] - "Bascom, Arduino, Wiring - Programozás, Fórum, ingyenes mintaalkalmazások, könyvek".
+    -[[http://webspace.webring.com/people/wm/michaelanburaj/AVR/|Michael Anburaj "Embedded Technology. AVR - Single-chip Complete Solution"]].
+    -[[http://www.grantronics.com.au/|Grantronics Pty Ltd. Designers of Microcontroller Electronics]].
+    -[[http://www.ib-halbauer.de/german/embedded/avr.php|Ingenieurbüro Halbauer]] - The commercial "Bootloader für Atmel AVR", "FAT32 für Mikrocontroller für SD- und SDHC-Karten bis 32 GB".
+    -[[http://webspace.webring.com/people/xm/matt6ft9/|Matt Meerian "Latest Electronics Projects"]].
+    -[[http://www.welzel-gbr.de/|Welzel GbR. Innovative Technologie]].
+    -[[http://webspace.webring.com/people/vw/wswbln/|Stefan Wimmer]].
+      *[[http://webspace.webring.com/people/vw/wswbln/avr.html|Stefan Wimmer "Atmel AVR Projects / AVR based"]].
+    -[[http://homepage.hispeed.ch/peterfleury|Peter Fleury]], [[http://jump.to/fleury|Peter Fleury]] - "AVR Microcontroller Projects", "AVR Software", "Development Tools for AVR", "AVR Links".
+      *[[http://homepage.hispeed.ch/peterfleury/avr-software.html|Peter Fleury "AVR-Software"]] - "AVR-GCC Source Examples", "AVR-GCC libraries" #.
+      *No claimed support of the ATxmega CPU, yet !
+    -Brokenmaster.
+      *[[http://www.brokentoaster.com/butterflymp3/|Brokenmaster "AVR Butterfly MP"]].
+      *[[http://www.brokentoaster.com/butterflylogger/|Brokenmaster "AVR Butterfly Logger"]].
+      *Blog [[http://www.brokentoaster.com/blog/|The Brokentoaster Blog. Open-source hardware and custom design from MP3 players to 3D printing]].
+    -[[http://www.cappels.org/dproj/Home.htm|Dick Cappels "Dick Cappels' Project Pages"]].
+    -[[http://webspace.webring.com/people/bj/jasen/|Jasen Betts "Polyphonic Music on the AT90S2313"]].
+    -[[http://www.dontronics-shop.com/links-atmel-avr-devices-and-8051-family.html|Dontronics "ATMEL AVR Devices and 8051 Family"]].
+    -[[http://www.a-netz.de/mcu.en.php|a-netz.de - Microcontroller]].
+    -[[http://dselec.wordpress.com/|AVR Projects By Dim]].
+    -[[http://www.earthcomputer.com/ezLCD_avr/ezlcd_avr.htm|EarthLCD "ezLCD"]] - "Introducing the World's First Color LCD for AVR BASCOM Applications!".
+    -[[http://www.dutchtronix.com/ScopeClock.htm|Dutchtronix "AVR Scope Clock"]] - "Make your X-Y capable analog oscilloscope more useful! Your oscilloscope can do a lot more using the Dutchtronix AVR Oscilloscope Clock".
+    -[[http://mikrokontroler.sekoteng.com/|Komunitas Mikrokontroler Indonesia]].
+    -[[http://www.flyheli.de/|Kurt's HELI Pages]] -> "German flag" -> "R/C Elektronik".
+    -[[http://www.hoevendesign.com/|Paul van der Hoeven "40+ AVR-GCC / Win-AVR Projects"]] #.
+    -[[http://www.taylec.com/|Taylec Ltd - The One-Stop Embedded Java Shop]].
+    -[[http://www.rickeyworld.info/|Rickey's World]] - "Microcontroller Projects ARM AVR 8051 PIC".
+    -[[http://www.botgoodies.com/|Don Carveth "Botgoodies - Robots and Microcontrollers"]].
+    -[[http://kskpages.weebly.com/|KSK's Project Pages]].
+    -[[http://www.infidigm.net/projects/avrdrivers/|Infidigm "AVR peripheral Drivers"]].
+    -[[http://www.rod.info/AVRMicro|Rod (Jr.) Moffitt, rod.info "AVR Microcontroller"]] - "AVR GNU development tools under Linux".
+    -[[http://members.shaw.ca/electroweb/|Scott Mcphee "scottm's electronic project page"]].
+    -[[http://pminmo.com/|PMinMO.com]].
+    -[[http://bribrok.tripod.com/|Fabrizio's tech site]].
+      *[[http://bribrok.tripod.com/uC_projects.html|Fabrizio "Projects with Microcontrollers"]].
+    -[[http://mechatronics.me.wisc.edu/labresources/AtmelAVRResources.htm|Mechatronics Laboratory, University of Wisconsin - Madison "Other Atmel AVR Resources"]].
+    -[[http://www.emsign.nl/|Emsign "AVRCryptoLib for the GNU C compiler"]].
+    -[[http://www.drolez.com/hardware/|drolez.com - Lud's Open Source Corner - Hardware]].
+    -[[http://homepage.ntlworld.com/matthew.rowe/micros/|Matthew Rowe "Beginners' PIC and AVR page"]].
+    -[[http://www.mme-berlin.de/avr/|AVR material by MME]].
+    -[[http://www.jedmicro.com.au/avr.htm|JED Microprocessors "Atmel AVR powered single board computers, modules and peripherals"]].
+      *[[http://www.jedmicro.com.au/SingleBoardComputers.htm|JED Microprocessors "Designers and manufacturers of industrial and audio/visual controllers in Australia"]].
+    -[[http://www.rowalt.de/mc/|Roland Walter "Über AVR-Mikrocontroller"]].
+    -[[http://www.myplace.nu/avr/|Jesper Hansen "Jesper's AVR pages"]].
+    -[[http://electrons.psychogenic.com/modules/arms/sec/1/AVR/|Actinium Consulting GmbH "Electrons / Articles / AVR"]].
+    -[[http://www.superkits.net/|Superkits]].
+    -[[http://www.avrprojects.net/|Actinium Consulting "avrprojects.net - AVR Microcontrollers Projects - The Netherlands"]].
+    -[[http://avr-asm.tripod.com/|RetroDan Moronic "The AVR Assembler Site"]].
+    -[[http://www.lancos.com/|Claudio Lanconelli, Lanconelli Open Systems]].
+    -[[http://www.bellibot.com/|BelliBot design]].
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/Atmel_AVR|EN.Wikipedia "Atmel AVR"]] ( -> "Allgemeine Übersicht über AVR-Compiler und Hersteller" ), [[http://de.wikipedia.org/wiki/Atmel_AVR|DE.Wikipedia "Atmel AVR"]].
+    *[[http://en.wikipedia.org/wiki/Atmel|EN.Wikipedia "Atmel"]], [[http://de.wikipedia.org/wiki/Atmel|DE.Wikipedia "Atmel"]].
+    *[[http://en.wikipedia.org/wiki/Harvard_architecture|EN.Wikipedia "Harvard architecture"]], [[http://de.wikipedia.org/wiki/Harvard-Architektur|DE.Wikipedia "Harvard-Architektur"]].
+    *[[http://en.wikipedia.org/wiki/Modified_Harvard_architecture|EN.Wikipedia "Modified Harvard architecture"]].
+    *[[http://en.wikipedia.org/wiki/Atmel_AVR_instruction_set|EN.Wikipedia "Atmel AVR instruction set"]].
+    *[[http://en.wikipedia.org/wiki/Arduino|EN.Wikipedia "Arduino"]], [[http://de.wikipedia.org/wiki/Arduino-Plattform|DE.Wikipedia "Arduino-Plattform"]].
+  *[[http://www.sax.de/~joerg/|Jörg Wunsch]] - AVR-GCC expert.
+  *[[http://www.hoevendesign.com/|P. van der Hoeven "40+ AVR-GCC / Win-AVR Projects"]].
+  *[[http://www.youritronics.com/tag/avr/|YourITronics - DIY, Electronics, IT, Gadgets "AVR"]].
+  *[[http://www.zipfelmaus.com/blog/tag/arduino/|Sebastian Schuster & Robert Curth, zipfelmaus.com "Alles zum Thema Arduino"]].
+    *[[http://www.zipfelmaus.com/blog/nutzlose-programme-mit-dem-arduino-1-rgb-led-photowiederstand/|Sebastian Schuster & Robert Curth, zipfelmaus.com "Nutzlose Programme mit dem Arduino 1 – RGB LED + Photowiederstand"]].
+===== Communities, Forums, Newsgroups =====
+  *[[http://www.8051projects.net/forum48.html|Rickey's World - World of Microcontrollers and Microprocessors ( 8051projects ) "AVR Discussion Forum"]].
+    *[[http://www.8051projects.net/avr-microcontroller-tutorial.html|Rickey's World - World of Microcontrollers and Microprocessors ( 8051projects ) "AVR Discussion Forum", Thread "Lets Learn AVR - Step by step tutorial"]] - AVR tutorial.
+  *[[http://www.amctools.com/cgi-bin/yabb2/YaBB.pl|Advanced Micro Tools "AMcTools Forum"]].
+  *Arduino.
+    *The old read-only forum [[http://arduino.cc/cgi-bin/yabb2/|Arduino Forum]].
+    *The current forum [[http://arduino.cc/forum/|Arduino Forum]].
+  *[[http://www.at91.com/user-profile/|AT91SAM Community]].
+  *[[http://forum.atmel.com/|Atmel Corporation Forums]].
+  *Forums for support of Atmel Studio 5 extensions.
+    *[[http://www.open.collab.net/community/|openCollabNet Community]] - "Community Forums, Web-based Training, CollabNet Blogs".
+    *[[http://www.wholetomato.com/forum/|Whole Tomato Software, Inc. - Support Forum]].
+  *[[http://www.avrfreaks.net/index.php?name=PNphpBB2|AVR Freaks Forum]] #.
+    *Tutorials.
+      *[[http://www.avrfreaks.net/index.php?name=PNphpBB2&file=viewforum&f=11|AVR Freaks Forum - AVR Tutorials]] #.
+    *Discussion
+      *[[http://www.avrfreaks.net/index.php?name=PNphpBB2&file=viewtopic&t=103269|AVR Freaks Forum, Thread "Why AVRFreaks members do not like XMEGA"]].
+      *[[http://www.avrfreaks.net/index.php?name=PNphpBB2&file=viewtopic&t=104532|AVR Freaks Forum, Thread "AVR Studio 5 & C++ "]] -> configuration of AVR Studio 5 to enable the GCC C++ compiler.
+      *[[http://www.avrfreaks.net/index.php?name=PNphpBB2&file=viewtopic&t=112315&highlight=c|AVR Freaks Forum, Thread "Current state of C++ (build and OCD) in AS5"]], 2011-09-29.
+  *[[http://www.net-io.de/|AVR-Net-IO Entwicklung-Erweiterung]] - Forum.
+    *[[http://www.net-io.de/?path=forumsthread&threadid=1099|AVR-Net-IO Entwicklung-Erweiterung, Thread "Gehäuse für die AVR-NET-IO"]].
+  *[[http://www.avr-praxis.de/forum/forum.php|AVR-PRAXiS Forum]] #.
+    -AVR-PRAXiS Forum allgemein.
+      -[[http://www.avr-praxis.de/forum/forumdisplay.php?73-FAQ|AVR-PRAXiS "FAQ"]] #√.
+        -[[http://www.avr-praxis.de/forum/showthread.php?290-AVR-ATmega-Wie-fange-ich-an-Der-Einstieg|AVR-PRAXiS "AVR ATmega - Wie fange ich an - Der Einstieg"]].
+        -[[http://www.avr-praxis.de/forum/showthread.php?397-Wie-ziehe-ich-ein-Projekt-durch-...-%287-Segment-Multiplexanzeige%29|AVR-PRAXiS "Wie ziehe ich ein Projekt durch ... (7-Segment-Multiplexanzeige)"]].
+        -[[http://www.avr-praxis.de/forum/showthread.php?1183-Fuse-Bits-der-Megas-und-Tinys-%28%DCbersicht-und-Erkl%E4rung%29|AVR-PRAXiS "Fuse-Bits der Megas und Tinys (Übersicht und Erklärung) "]] #.
+          *Warnings about changing the Fuse bits "RSTDISBL", "SPIEN", "DWEN" :-(.
+          *"In den vollständigen Datenblättern unter 'Memory Programming' und dann 'Programm and Data Memory Lock Bits' bzw 'Fuse Bits' ist alles gesammelt zu finden".
+    -AVR-Mikrocontrollerfamilie.
+      -AVR Hardware.
+        -Timer.
+        -Flash + SRAM.
+        -IO-Ports.
+        -EEPROM.
+        -Systemclock + Watchdog.
+        -ADC.
+        -ExtINT.
+        -UART.
+        -SPI.
+        -Power-Management.
+        -TWI.
+        -AnalogComp.
+        -IO-Memory.
+        -ExtMemory.
+      -AVR Programmierung.
+      -AVR Software -Fragen und -Lösungen, welche sich auf Applikationen und nicht auf spezielle AVR-Hardware beziehen.
+          *[[http://www.avr-praxis.de/forum/showthread.php?451-Kani-Coaching-%28C-lernen-mit-Nomis|AVR-PRAXiS "Kani-Coaching (C lernen mit Nomis)"]].
+            -"Schreib mir ein Programm mit dem ich mit 8 Tasten 8 LEDs steuern kann. Wenn eine Taste gedrückt ist soll einfach die dazugehörige LED leuchten".
+        -Betriebssysteme √.
+        -LED + LCD.
+        -Eingabesysteme.
+        -Messen physikalischer Größen.
+        -Steuern und Regeln (PI + PID).
+        -Memory.
+        -RTC + DCF77.
+        -MP3 + AudioDAC.
+        -Wireless.
+        -IrDA + RC5.
+        -USB.
+        -CAN.
+      -Entwicklungsboards und Referenzdesigns.
+        -STK500.
+        -STK600.
+      -Entwicklungsumgebung für AVR (AVR Studio, WinAVR, u.a.) √.
+    -AVR Projekte
+      -[[http://www.avr-praxis.de/forum/forumdisplay.php?93-Programme-und-Tools|AVR-PRAXiS "Programme und Tools"]] - Download of free Windows development tools for AVR √.
+  *[[http://www.edaboard.com/|edaboard.com]].
+    *[[http://www.edaboard.com/thread25778.html|edaboard.com, Thread "RTOS for Atmel ATMega 16"]].
+  *[[http://forum.e-lab.de/|E-LAB Computers Forum]].
+  *The mailing list [[http://lists.egnite.de/mailman/listinfo/en-nut-discussion|En-Nut-Discussion]] - "Public forum to discuss Nut/OS and Ethernut software and hardware".
+  *[[http://www.elektronik-projekt.de/|Elektronik-Projekt]] Forum.
+    *[[http://www.elektronik-projekt.de/board.php?boardid=4|Elektronik-Projekt "Atmel AVR RISC"]] #.
+      *[[http://www.elektronik-projekt.de/thread.php?threadid=5890|Elektronik-Projekt, Thread "Atmel AVR RISC", Thread "Xmega USART Baudrate Calculator in Python"]].
+      *[[http://www.elektronik-projekt.de/thread.php?threadid=5458|Elektronik-Projekt, Thread "Atmel AVR RISC", Thread "Verfusten AVR retten"]].
+      *[[http://www.elektronik-projekt.de/thread.php?threadid=5176|Elektronik-Projekt, Thread "RAM Schwund beim AVR GCC"]] - How to avoid the automatic use of RAM by clever programming.
+  *Facebook.
+    *[[http://www.facebook.com/pages/Atmel-832-bit-programming-for-hobbyists/75276673172|Facebook "Atmel 8/32 bit programming for hobbyists"]].
+    *[[http://www.facebook.com/pages/Atmel-AVR/135779359830882|Facebook "Atmel AVR"]].
+    *[[http://www.facebook.com/pages/Atmel-AVR/139304546088628|Facebook "Atmel AVR"]].
+    *[[http://www.facebook.com/profile.php?id=100002786772945|Facebook "Robbi Atmel"]] - "Autonom fahrender Linienroboter. ATMEL ATMEGA8 Prozessor. Programmierbar in Basic oder C".
+    *[[http://www.facebook.com/atxmegaboard|Facebook "ATxMEGABoard"]].
+  *[[http://www.freeduino.de/forum|Freeduino - Arduino Microcontroller "Forum"]].
+  *[[http://www.sourceforge.net/projects/femtoos/forums|SourceForge "Femto OS" Forum]].
+  *[[http://www.fritzing.org/forum/|Fritzing Forums]].
+  *[[http://gameduino2.proboards.com/|Gameduino2 Community]].
+  *Google Groups.
+    *[[http://groups.google.com/group/elua-on-mizar32-book|Google Groups "eLua on Mizar32 book"]].   
+    *[[http://groups.google.com/group/mizar32|Google Groups "Mizar32"]].
+    *[[http://groups.google.com/group/python-on-a-chip|Google Groups "python-on-a-chip"]].
+    *[[http://groups.google.com/group/bajos_dev|Google Groups "BAJOS - Java for Mikrocontroller"]].
+  *[[http://myavr.info/myForum/|Laser & Co Solutions GmbH. "myAVR Forum"]].
+  *[[http://www.loetstelle.net/forum/|Lötstelle Userforum]].
+    *[[http://www.loetstelle.net/forum/viewforum.php?f=39|Lötstelle Userforum, Subforum "BASCOM"]].
+  *[[http://www.matrixmultimedia.com/mmforums/|Matrix Multimedia 2011 "Matrix Multimedia user forums"]] - Read-only forum, as accounts are not activated ?! :-(.
+  *[[http://www.mcselec.com/index2.php?option=com_forum|MCS Electronics - Forum]] - "You have been banned from this forum. Please contact the webmaster or board administrator for more information" :-(.
+  *MikroElektronika.
+    *[[http://www.mikroe.com/forum/|MikroElektronika - Forum]].
+    *[[http://www.libstock.com/|LibStock - Community website for sharing libraries, projects and source codes]].
+  *[[http://forum.pololu.com/|Pololu Robotics Forum]].
+    *[[http://forum.pololu.com/viewforum.php?f=10|Pololu Robotics Forum, subforum "Orangutan Robot Controllers"]].
+  *[[http://rowley.zendesk.com/forums|Rowley Associates Limited "CrossWorks Support - Community"]].
+  *[[http://www.scienceprog.com/forums/|ScienceProg Forums]] - Read-only forum.
+  *[[http://sourceforge.net/projects/qpc/forums|SourceForge Forum "QP State Machine Frameworks"]].
+  *[[http://forum.sparkfun.com/|SparkFun Electronics "SparkFun Board"]].
+  *[[http://www.forum.stromflo.de/|Stromflo Forum]].
+    *[[http://www.forum.stromflo.de/index.php?page=Board&boardID=6|Stromflo Forum, Subforum "XMEGA"]].
+  *StudiVZ.
+    *[[http://www.studivz.net/Groups/Overview/3ce147e2c2ff233a|StudiVZ "Atmel AVR Developers"]].
+    *[[http://www.studivz.net/Groups/Overview/edde2dd6d1ed96cd|StudiVZ "ATMEL Microcontroller von Tiny bis Mega"]].
+    *[[http://www.studivz.net/Groups/Overview/d201551591060367|StudiVZ "Atmel AVR Entwickler"]].
+    *[[http://www.studivz.net/Groups/Overview/25ee1cc77bfb8afe|StudiVZ "atmel atmega µC für uns alle, back to the Roots"]].
+    *[[http://www.studivz.net/Groups/Overview/680debca7ff09ed4|StudiVZ "ATMega Programmierer"]].
+    *[[http://www.studivz.net/Groups/Overview/09ded7cd38451b07|StudiVZ "AVR Atmega Mikrocontroller Familie"]].
+    *[[http://www.studivz.net/Groups/Overview/f0651f306e999ec3|StudiVZ "Microcontroller (Pic, AVR, Propeller und co.)"]].
+    *[[http://www.studivz.net/Groups/Overview/01bb68cf0d66757a|StudiVZ "AVR Mikrocontroller"]].
+  *[[http://twitter.com/arduinopraxis|Twitter "Arduino Praxis"]].
+  *[[http://www.virtualbreadboard.net/Forum/|James Caska, Infology Pty Ltd "VirtualBreadboard Forum"]].
+  *[[http://www.forum.xbitinc.com/|Xbit Electronic Forum]].
+  *Yahoo.
+    *[[http://finance.groups.yahoo.com/group/avrx/|Yahoo Groups "avrx · Support group for the AvrX RTOS"]].
+    *[[http://tech.groups.yahoo.com/group/avrbutterfly/|Yahoo Groups "AVRButterFly · AVR ButterFly & Beginners Group"]].
+    *[[http://tech.groups.yahoo.com/group/nuttx/|Yahoo Groups "nuttx · NuttX Embedded RTOS"]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Hardware/Components/Processors/AVR/|OpenDirectory "Top: Computers: Hardware: Components: Processors: AVR]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Hardware/Mikrocontroller/|OpenDirectory "Top: World: Deutsch: Computer: Hardware: Mikrocontroller"]].
+{{tag>Atmel AVR AVR32 ATxmega128A1 ATxmega256A3BU ATmega ATtiny AT90 Arduino Freeduino ATxmega "ATX Mega" XMEGA XMEGA-A1 XMEGA-A3BU Xplained "AVR Studio" "8-bit" 8bit 32-bit" 32bit CPU "embedded system" "embedded systems"}}
+<footnote_navi_en>

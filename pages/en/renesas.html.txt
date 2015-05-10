@@ -1,0 +1,126 @@
+====== [Hemmerling] Renesas Interactive ======
+===== The Company =====
+  *[[http://www.renesasinteractive.com/|Renesas Interactive]].
+  *[[http://www.renesas.eu/|Renesas Electronics Corporation, Europe]].
+    *[[http://www.renesas.eu/support/training_and_workshops/index.jsp|Renesas Electronics Corporation, Europe "e-learning"]].
+  *[[http://update.renesas.com/gur/login.do?languageCode=en|My Renesas]].
+  *[[http://en.wikipedia.org/wiki/Renesas_Electronics|EN.Wikipedia "Renesas Electronics"]], [[http://de.wikipedia.org/wiki/Renesas_Electronics|DE.Wikipedia "Renesas Electronics"]].
+===== MPU Family RENESAS RX ( formerly: Mitsubishi ) =====
+==== The CPU Family ====
+  *[[http://am.renesas.com/products/mpumcu/rx/|Renesas "RX Family"]].
+  *The RX family is the successor of both:
+    *Hitachi's H8 ( [[http://www.renesas.com/products/mpumcu/h8/|Renesas "H8"]], [[http://en.wikipedia.org/wiki/H8_Family|EN.Wikipedia "H8 Family"]], [[http://de.wikipedia.org/wiki/Renesas_H8|DE.Wikipedia "Renesas H8"]] ).
+    *Mitsubishi Electric's M16C ( [[http://de.wikipedia.org/wiki/M16C|DE.Wikipedia "M16C"]] ).
+  *The RX111 may be configured to handle little endian and big endian, due to the origin from Hitachi and Mitsubishi.
+  *Due to the Harvard architecture, writing of Flash during normal CPU and board operation is possible and a standard feature.
+  *The RX family is for industry automation ( 24x7x... 10 or 20 years) use only, not for automotive ( just 8000h lifetime guaranteed ) use.
+==== Development Tools ====
+=== Free IDEs, Compilers ===
+  *The free [[http://www.renesas.eu/products/tools/coding_tools/c_compilers_assemblers/rx_compiler/index.jsp|Renesas "C/C++ Compiler Package for RX Family"]] - The free edition of the RX compiler has a code limit of 128KBytes, while the largest RX CPUs of 2013 just have 128KBytes Flash :-).
+  *The free IDE [[http://www.renesas.eu/products/tools/ide/ide_e2studio/downloads.jsp|Renesas "e2 Studio"]] ( formerly: "Carpet Studio" ).
+    *Code generation.
+      *With "e2 Studio" 2.1, there is a new code generator. Result: C source code.
+      *[[http://www.renesas.eu/products/tools/coding_tools/coding_assistance/applilet/|Renesas "Application Leading Tool (Applilet)"]] ( formerly: NEC Applilet ) for RX111. Result: C source code. Since "e2 Studio" 2.1 of 2013-10 this tool is integrated in the IDE "e2 studio".
+      *[[http://www.renesas.eu/products/tools/middleware_and_drivers/c_driver_gen/|Renesas "Peripheral I/O Drivers"]]
+        *For RX600, there is a driver generator. Result: C library.
+          *[[http://tool-support.renesas.com/eng/toolnews/100805/tn4.htm|Renesas "Peripheral Driver Generator V.2.00 Published (for the RX600 Series of MCUs)"]], 2010-08-05.
+          *[[http://www.renesas.com/pdg|Renesas "Peripheral Driver Generator"]].
+    *Support of realtime operating systems:
+      *Codegenerator support for FreeRTOS was announced, in 2013-10 to be implemented soon.
+      *Micrium II, III. 
+      *[[http://www.segger.com/embos.html|SEGGER Microcontroller - embOS]].
+  *The free IDE [[http://www.renesas.com/products/tools/ide/ide_hew/|Renesas "High-performance Embedded Workshop"]] ( HEW ) - Just for RX200 and RX600. Not for RX111.
+  *The free IDE with C/C++ compiler [[http://www.kpitgnutools.com/|KPIT Cummins Infosystems Limited "KPIT GNU Tools"]] for RX targets.
+  *Both RX compilers support full C++ standard :-).
+=== Commercial IDEs ===
+  *[[http://www.iar.com/Products/IAR-Embedded-Workbench/Renesas-RX/|IAR "IAR Embedded Workbench for Renesas RX"]] - The free Kickstart edition is limited to 64KBytes of code.
+=== Free Libraries ===
+  *[[http://www.am.renesas.com/products/tools/middleware_and_drivers/c_driver_gen/driver_gen_rpdl/|Renesas "Renesas Peripheral Driver Library"]].
+=== Flash Programming ===
+  *The free [[http://www.renesas.com/products/tools/flash_prom_programming/fdt/|Renesas "Flash Development Toolkit [Programming software]"]].
+    *There is a full-blown "GUI" version and a "Basic" version for production, which may be used both by GUI and by console ( and which is so scriptable ).
+    *How to flash:
+      -Select "Generic Boot Device":
+        -USB Direct.
+        -E1.
+        -Serial. 
+      -Clockspeed:
+        -"Enter the CPU crystal frequency" = 12.
+        -"Main Clock" = 8.
+        -"Peripheral Clock" = 4.
+  *Debugging is possible even with bootloader installed :-), e.g. in opposite to the Atmel 8-bit hardware.
+==== Free Online Development Tools ====
+  *"Renesas Web Compiler".
+    *[[http://www.sakuraboard.net/|SAKURA BOARD for the Gadget Renesas Project]] - With "Renesas Web Compiler" login.
+==== RX111 ====
+  *[[http://www.renesas.eu/products/mpumcu/rx/rx100/rx111/|Renesas "RX111"]], [[http://am.renesas.com/products/mpumcu/rx/rx100/rx111/|Renesas "RX111"]].
+  *Starter Kits.
+    *[[http://www.renesas.eu/products/tools/introductory_evaluation_tools/renesas_starter_kits/rsk_rx111/|Renesas Starter Kit for RX111]].
+    *Glyn Evaluation Board RPRBRX111.
+==== My RENESAS Promotional Board RPBRX111 with RX111 MPU ====
+  *[[http://www.renesasrulz.com/app_kits_and_demo_boards/rpbrx111/|Renesas Rulz "RPBRX111"]].
+  *[[http://www.renesas.com/products/tools/introductory_evaluation_tools/renesas_promo_board/yrpbrx111/index.jsp|Renesas "YRPBRX111 (For RX111)"]].
+  *[[http://www.glyn.de/RX111-Workshop|Glyn "ENESAS RX111 Workshop"]] - Download of development software "Renesas E2 Studio" for WIndows. A free license key is generated during installation of "Renesas E2 STudio" :-).
+  *My target board: "Rx100 -> Rx111, 64pin, R5F51115AxFM".
+  *"GUI DEMO" is the original firmware for my board.
+  *A host server application to display graphics in a browser, written in Pyton, is part of the workshop material. See "WSRX111 / USB LIBUS / HostPC".
+  *If the bootloader installed on the eval board, should be killed someday somehow, you may ask a distributor ( e.g. Glynn ) to send you a Motorola Hex file with the data...
+==== RENESAS RX63N ====
+=== Functional Safety Solution Kits ===
+  *[[http://www.renesas.eu/applications/industrial_equipment/common_technologies_for_industry/functional_safety_solution_for_industrial_automation/peer/solution-kits.jsp|Functional Safety Evaluation Kit]].
+    *Functional Safety Evaluation Kit (including Evaluation License), Renesas Starter Kit+ for RX63N.
+    *[[http://www2.renesas.eu/support_all/registrations/functional_safety_rx600/|Renesas Electronics Europe "Register for your chance to win a free Certify it! Functional Safety RX631/63N solution kit in our bi-weekly draw"]].
+  *[[http://www.iar.com/Products/IAR-Embedded-Workbench/Certified-tools-for-functional-safety/|IAR "Certified tools for functional safety"]].
+    *[[http://www.iar.com/sv/Products/IAR-Embedded-Workbench/Certified-tools-for-functional-safety/Functional-Safety-for-Renesas-RX/|IAR "Functional Safety tools for Renesas RX"]].
+  *"Safety Support for Industrial Controllers. Compliance to IEC60730".
+    *On-chip Modules:
+      *Independent Watch Dog.
+      *CRC module.
+      *A/D Self-diagnosis.
+      *GPT for clock monitoring.
+      *Registers Write Protection.
+      *Illegal memory access detection.
+    *Software Routines:
+      *ALU/CPU checks.
+      *RAM March tests.
+      *Flash check.
+      *Clock Check.
+      *A/D plausibility check.
+=== The MCU ===
+  *[[http://www.glyn.de/News-Events/Newsletter/Newsletter-2013/Embedded-Highlights-2013/Nur-auf-dem-GLYN-Messestand-5555-Evaboard-Geschenke-RENESAS-RX63N|GLYN "Nur auf dem GLYN Messestand: 5.555 Evaboard Geschenke RENESAS RX63N"]], 2013.
+  *[[http://www.glyn.de/News-Events/Newsletter/Newsletter-2012/September-2012/GLYN-ACADEMY-Mikrocontroller-Workshop-RENESAS-RX63N-Innovativer-Rechensportler-jetzt-auch-unter-Eclipse-|GLYN "GLYN ACADEMY: Mikrocontroller Workshop RENESAS RX63N: Innovativer Rechensportler – jetzt auch unter Eclipse!"]].
+  *[[http://www.glyn.de/News-Events/Newsletter/Newsletter-2013/Juni-2013/Spannende-Raetsel-knacken-Teil-2-Welchen-Musiktitel-spielt-Ihr-RENESAS-RX-|Glyn "Spannende Rätsel knacken – Teil 2: Welchen Musiktitel spielt Ihr RENESAS RX?"]].
+==== SAKURA BOARD for the Gadget Renesas Project ( Ardunio Board Format )====
+  *[[http://www.renesas.com/products/promotion/gr/|Renesas "Gadget Renesas"]].
+  *[[http://sakuraboard.net/|SAKURA BOARD for the Gadget Renesas Project]] - With "Renesas Web Compiler" login.
+===== Renesas V850 Family ( formerly NEC ) =====
+  *[[http://www.renesas.eu/products/mpumcu/v850/|Renesas V850 Family]] -> CAN bus ports which can run in different speeds ?!.
+  *[[http://en.wikipedia.org/wiki/V850|EN.Wikipedia "V850"]].
+  *ucLinux is a operating system with V850 support -> See [[linux.html|Linux]].
+  *The V850 family is dededicated for automotive use only ( just 8000h lifetime guaranteed ) , not for industry automation ( 24x7x... 10 or 20 years).
+===== Some other CPUs and MPUs =====
+  *Renesas SH2 / SH2A,..
+  *[[http://en.wikipedia.org/wiki/H8_Family|EN.Wikipedia "H8 Family"]], [[http://de.wikipedia.org/wiki/Renesas_H8|DE.Wikipedia  "Renesas H8"]].
+  *[[http://am.renesas.com/products/mpumcu/superh/sh7260/sh7262/soft_tools_index.jsp|Renesas "Software & Tools for SH7262, SH7264"]].
+===== Starter Kits =====
+  *[[http://www.renesas.com/products/tools/introductory_evaluation_tools/renesas_starter_kits/rsk_product_mid_level_landing.jsp|Renesas "Renesas Starter Kits"]]
+  *[[http://www.renesas.eu/products/asic/4_system_on_chip/040_soclite_plus/03c_starter_kit_start_it/index.html|Renesas "System-on-Chip Lite+ Starter Kit "Start it!"]].
+===== Free Operating Systems =====
+  *[[http://erika.tuxfamily.org/erikaeducational.html|ERIKA Educational]] for Hitachi H8/3292.
+    *[[http://web.archive.org/web/*/http://erika.sssup.it|Archive.org "erika.sssup.it"]].
+===== Resources =====
+  *[[http://www.glyn.de/|Glyn Jones GmbH und Co. Vertrieb von elektronischen Bauelementen KG]].
+  *Competition "SH-Wettbewerb. Energiesparen mit dem SH/Tiny-Mikrocontroller von RENESAS", with EVBSH7125-Carrier-USB board ( -2008-12-01 ).
+    *[[http://www.glyn.de/content.asp?did4=1536|Glyn "3.000 Carrierboards + Applikationswettbewerb"]].
+    *[[http://www.glyn.de/content.asp?did3=1612|Glyn "SH-Wettbewerb. Energiesparen mit dem SH/Tiny-Mikrocontroller von RENESAS]].
+    *[[http://www.renesas.eu/products/mpumcu/superh/superh_landing.jsp|Renesas "SuperH RISC engine Family"]].
+    *[[http://www.sh2a.de/|sh2a.de]] - "Glyn - Roadmap Renesas SH".
+===== Communities, Forums, Newsgroups =====
+  *[[http://www.kpitgnutools.com/phorum/|KPIT GNU Tools User Forum]].
+  *[[http://www.renesasrulz.com/|Renesas Rulz]] / [[http://renesas-vm.uat3.hosted.jivesoftware.com/|Renesas Rulz]].
+    *[[http://www.renesasrulz.com/community/tools/hewtargetserver/htscontest2008|Renesas Rulz "Renesas 2008 HEW Target Server Design Contest"]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Hardware/Mikrocontroller/|OpenDirectory "Top: World: Deutsch: Computer: Hardware: Mikrocontroller"]].
+{{tag>"Renesas}}
+<footnote_navi_en>
+

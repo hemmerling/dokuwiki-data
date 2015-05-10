@@ -1,0 +1,143 @@
+====== [hemmerling] Data Privacy - Encryption, Passwords, Trust ======
+Related pages:
+  *[[legalmatters.html|Legal Matters]].
+  *[[security.html|Security]].
+===== My personal Involvement =====
+  *My first PGP certificate is of 1998-03-16, created with "PGPfreeware 5.0i" :-).
+===== Anonymous Surfing =====
+==== Services ====
+  *The free service [[http://www.anonymouse.org/|Anonymouse]].
+==== Tools ====
+  *[[http://www.torproject.org/|Tor]] - "A free software and an open network that helps you defend against a form of network surveillance"-
+    *"Tor Browser Bundle" for WinXP, Vista, Win7, Win8.
+    *"Tor Expert Bundle" for Win98SE, W2k, WinXP, Vista, Win7, Win8.
+      *C:\Documents and Settings\Administrator\Application Data\Tor" or C:\Documents and Settings\xxxxxx\Application Data\Tor" ( with "xxxxxx" = username ) respectively is the configuration directory.
+    *[[http://archive.torproject.org/|Tor Archive]].
+    *The discontinued [[http://www.chip.de/downloads/Torbutton_31569593.html|CHIP Online "Torbutton 1.4.6.3"]], just for legacy Firefox browsers :-).
+  *Test video [[http://www.youtube.com/watch?v=VdWEKanVgIc|YouTube "Unfortunately, this SME music-content is not available in Germany because GEMA has not granted the respective music publishing rights"]].
+===== Browser Plugins for Privacy =====
+==== Plugins ====
+  *[[http://www.eff.org/https-everywhere|HTTPS Everywhere]].
+  *[[http://www.getadblock.com/|Adblock]].
+    *[[http://en.wikipedia.org/wiki/AdBlock_%28Chrome%29|EN.Wikipedia "AdBlock (Chrome)"]].
+  *[[http://addons.mozilla.org/de/firefox/addon/adblock-edge/|Mozilla Firefox Addon ""]].
+  *[[http://www.adblockplus.org/de/firefox|Adblock Plus]].
+    *[[http://addons.mozilla.org/de/firefox/addon/adblock-plus/|Mozilla Firefox Addon "Adblock Plus"]], [[http://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb|Google Chrome Webstore "Adblock Plus"]].
+    *[[http://www.facebook.com/adblockplus|Facebook "Adblock Plus"]].
+    *Hypercritical research results by [[http://www.xing.com/profiles/Sascha_Pallenberg|XING "Sascha Pallenberg"]], [[http://www.linkedin.com/pub/sascha-pallenberg/b/154/783|LinkedIn "Sascha Pallenberg"]], [[http://plus.google.com/+SaschaPallenberg/|Google+ "Sascha Pallenberg"]].
+      *[[http://www.mobilegeeks.de/adblock-plus-undercover-einblicke-in-ein-mafioeses-werbenetzwerk/|Sascha Pallenberg, Mobile Geeks "Adblock Plus Undercover – Einblicke in ein mafioeses Werbenetzwerk"]], 2013-06-23.
+      *[[http://www.mobilegeeks.de/adblock-plus-adblockgate-werbenetzwerk/|Sascha Pallenberg, Mobile Geeks "Adblock Plus Reloaded – Fake Community, Intransparenz und Guerilla Marketing"]], 2013-07-01.
+      *[[http://www.mobilegeeks.de/adblock-plus-adblockgate-eyo-gmbh/|Sascha Pallenberg, Mobile Geeks "Adblock Plus Finale – Tacheles, Reaktionen, weitere Ergebnisse"]], 2013-07-08.
+      *Blog article [[http://www.adblockplus.org/blog/pallengate-warum-sascha-pallenberg-bewusst-luegt|"Adblock Plus and (a little) more", Article "#pallengate: Warum Sascha Pallenberg bewusst lügt. 2013-07-01 08:36 by Till Faida"]].
+    *[[http://en.wikipedia.org/wiki/Adblock_Plus|EN.Wikipedia "Adblock Plus"]], [[http://de.wikipedia.org/wiki/Adblock_Plus|DE.Wikipedia "Adblock Plus"]].
+  *The commercial [[http://www.admuncher.com/|AD Muncher]].
+  *[[http://addons.mozilla.org/de/firefox/addon/ghostery/|Mozilla Firefox Addon "Ghostery"]] (Firefox).
+  *[[http://chrome.google.com/webstore/detail/ghostery/mlomiejdfkolichcflejclcbmpeaniij|Google Chrome Webstore "Ghostery"]] (Chrome).
+  *[[http://addons.mozilla.org/de/firefox/addon/betterprivacy/|Mozilla Firefox Addon "Better Privacy"]] (Firefox).
+  *[[http://chrome.google.com/webstore/detail/forget-me-clean-history-c/gekpdemielcmiiiackmeoppdgaggjgda|Google Chrome Webstore  "Forget Me"]] (Chrome).
+  *[[http://addons.mozilla.org/de/firefox/addon/cookie-monster/|Mozilla Firefox Addon "Cookie Monster"]] (Firefox).
+  *[[http://addons.mozilla.org/de/firefox/addon/noscript/|Mozilla Firefox Addon "NoScript"]] (Firefox).
+  *[[http://chrome.google.com/webstore/detail/notscripts/odjhifogjcknibkahlpidmdajjpkkcfn|Google Chrome Webstore "NotScripts"]] (Chrome).
+
+==== Resources ====
+  *[[http://www.leinelab.de/cryptoparty2|LeineLab "LeineLab-CryptoParty 2"]].
+  *[[http://de.wikipedia.org/wiki/HTTP-Cookie|DE.Wikipedia "HTTP-Cookie"]].
+  *[[http://de.wikipedia.org/wiki/Do_Not_Track|DE.Wikipedia "Do Not Track"]].
+===== Encryption =====
+==== Tools ====
+  *[[http://www.enigmail.net/|Enigmail: A simple interface for OpenPGP email security]], a plugin for the [[http://www.mozilla.org/thunderbird/|Mozilla Thunderbird]] E-Mail client.
+    *Enigmail 1.4.2 ( Standard encryption = RSA 2048 Bit. Maxium encryption = RSA 4096 Bits ) is for [[http://www.mozilla.org/thunderbird/|Mozilla Thunderbird]] 12, the latest edition which runs on W2k.
+    *Enigmail: Thunderbird "OpenPGP / Generate OpenPGP Key / Advanced" : Key size = 2048 Bits or 4096 Bits.
+  *The OpenSource [[http://www.gnupg.org/|GnuPG.org - The GNU Privacy Guard]].
+    *The OpenSource [[http://gpg4win.org/|Gpg4Win]] for Windows ( Gpg4Win 2.1.0 -> Standard encryption = RSA 2048 Bit. Maxium encryption = RSA 3072 Bits ).
+  *"PGP Freeware" and successors.
+    *"PGP Freeware (was Pretty Good Privacy)" (PGP) by "PGP Corporation".
+      *The latest version of "PGP Freeware" is "PGP Freeware 8.1" ( [[http://www.download.plustech.pl/security/PGP%208.1/PGP810-PF-W.zip|PGP810-PF-W.zip]] ) for Win98, W2k and WinXP.
+    *[[http://www.pgp.com/|Symantec Corporation - Encryption Family. Powered by PGP Technology]].
+      *[[http://www.symantec.com/desktop-email-encryption/|Symantec Desktop Email Encryption. End-to-End email encryption software for laptops and desktops]].
+        *The commercial trialware software "Symantec Encryption Desktop Corporate 10.3".
+==== Keyservers used by OpenPGP ====
+  -[[http://pool.sks-keyservers.net|pool.sks-keyservers.net]] -> "pool.sks-keyservers.net".
+  -[[http://subkeys.pgp.net|subkeys.pgp.net]] -> "subkeys.pgp.net".
+  -[[http://sks.mit.edu|sks.mit.edu]] -> "sks.mit.edu".
+  -[[http://certserver.pgp.com|certserver.pgp.com]] -> <del>[[ldap://certserver.pgp.com|ldap://certserver.pgp.com]]</del>, [[ldap://certserver.pgp.com|certserver.pgp.com]].
+==== Resources ====
+  *[[http://www.openpgp-schulungen.de/|Crypto für alle – kostenlose OpenPGP-Schulungen]].
+
+===== Passwords =====
+==== Windows Password Recovery Tools ====
+  *The OpenSource [[http://ophcrack.sourceforge.net/|SourceForge "Ophcrack"]], [[http://www.sourceforge.net/projects/ophcrack|SourceForge "Ophcrack"]]. The software is booted from a CD/DVD. 
+    *I run it successfully on a WinXP PC with Pentium-1, 256 MB RAM, IDE harddisk, IDE CD-ROM, by selecting the configuration "Ophcrack Graphics Mode - low RAM" :-).
+    **Operation failed on a WinXP PC with Pentium-1, 128 MB RAM, by the error message: //"Unpacking initramfs. . . <0> Kernel panic - no syncing: Out of memory and no killable processes"//
+  *The OpenSource [[http://www.pcloginnow.com/|PC Login Now]]. The software is booted from a CD/DVD. 
+    *Operation failed on a WinXP PC with Pentium-1, 256 MB RAM, by the error message: //"Kernel panic - no syncing: Attempted to kill init!"//
+  *The commercial [[http://www.piotrbania.com/all/kon-boot/|Kon-Boot]] & the outdated free [[http://www.piotrbania.com/all/kon-boot/index2.html|Kon-Boot V2.0]]. Operation failed on a german WinXP PC with Pentium-1, 256 MB RAM, IDE harddisk, IDE CD-ROM, by the german WinXP error message:
+
+//Windows NT hat nicht genügend Erweiterungsspeicher gefunden. Zur Ausführung von Windows NT werden 7 MB Erweiterungsspeicher benötigt. Sie müssen evtl. Ihren Computer aufrüsten oder ein Konfigurationsprogramm des Herstellers ausführen.\\
+Speichertabelle\\
+00000000 - 0008E00//
+
+  *The OpenSource [[http://pogostick.net/~pnh/ntpasswd/|Offline NT Password & Registry Editor]]. The software is booted from a CD/DVD or a floppy disk. Operation failed on a WinXP PC with Pentium-1, 256 MB RAM, IDE harddisk, IDE CD-ROM by the error message: //"Boot failed: please change disks and press a key to continue"//.
+===== Trust Services =====
+  *[[http://www.cacert.org/|CAcert]] - "FREE digital certificates for everyone".
+    *[[http://wiki.cacert.org/|CAcert Wiki]].
+    *[[https://www.cacert.org/index.php?id=3|CAcert "CACert Root Certifcates"]].
+  *[[http://www.certifi.ca/|certifi.ca]] - "The secure OpenID identity provider".
+    *[[http://certifi.ca/_getcert|certifi.ca "Get a certificate"]] - "Special companies called certificate authorities or CAs give out SSL certificates for browsers, either for free or for a small fee".
+  *[[http://cert.startcom.org/|StartCom Free SSL Certification Authority]].
+===== Literature =====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0684831309/hemmerling-21|David Kahn "The Codebreakers: The Comprehensive History of Secret Communication from Ancient Times to the Internet"]].
+    *[[http://en.wikipedia.org/wiki/The_Codebreakers|EN.Wikipedia "The Codebreakers"]].
+  *The free PDF book [[http://programfiles-whitepapers.tradepub.com/free/w_make107/prgm.cgi|makeuseof.com "The Password Management Guide"]] by [[http://www.facebook.com/almarhoon1|Mohammed Al-Marhoon]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3944622022/hemmerling-21|Markus Beckedahl, Andre Meister: "Überwachtes Netz: Edward Snowden und der größte Überwachungsskandal der Geschichte"]].
+    *A free PDF and e-book edition is available at [[http://www.netzpolitik.org/2014/buch-zu-verschenken-bereits-60-000-downloads-von-ueberwachtes-netz/|netzpolitik.org "Buch zu verschenken: Bereits 60.000 Downloads von 'Überwachtes Netz'"]].
+
+===== Resources =====
+==== Data Privacy ====
+  *[[http://www.nocards.org/|CASPIAN - Consumers Against Supermarket Privacy Invasion and Numbering]].
+  *[[http://www.dataliberation.org/|The Data Liberation Front]] -> "Google watch".
+  *[[http://europe-v-facebook.org/|EUROPE versus FACEBOOK ( europe-v-facebook.org )]].
+    *[[http://www.crowd4privacy.org/|crowd4privacy.org]].
+  *Facebook "I like".
+    *[[http://www.heise.de/security/artikel/Das-verraet-Facebooks-Like-Button-1230906.html|heise Security "Das Like-Problem"]], 2011-04-20.
+    *[[http://www.heise.de/ct/artikel/2-Klicks-fuer-mehr-Datenschutz-1333879.html|heise Online "2 Klicks für mehr Datenschutz"]], 2011-09-01 -> Free HTML/Javascript code to fix Facebook's violation of data privacy.
+    *[[http://www.heise.de/newsticker/meldung/Facebook-beschwert-sich-ueber-datenschutzfreundlichen-2-Klick-Button-2-Update-1335658.html|heise Online "Facebook beschwert sich über datenschutzfreundlichen 2-Klick-Button [2. Update]"]], 2011-09-01.
+  *[[http://www.foebud.org/|FoeBuD e.V.]] / [[http://digitalcourage.de/|digitalcourage e.V.]].
+    *[[http://www.vorratsdatenspeicherung.de/|FoeBuD e.V. - Stoppt die Vorratsdatenspeicherung!]] - "Gegen die totale Protokollierung von Telefon, Handy, E-Mail und Internet".
+    *[[http://wiki.vorratsdatenspeicherung.de/|FoeBuD e.V. - AK Vorrat - Wiki]].
+  *Data privacy with [[http://www.google.com/analytics/|Google Analytics]]:
+    *[[http://static.googleusercontent.com/media/www.google.com/en//analytics/terms/de.pdf|Google "Vertrag zur Auftragsdatenverarbeitung"]] ( PDF ).
+    *[[http://developers.google.com/analytics/devguides/collection/analyticsjs/advanced#anonymizeip|Google Developers "Advanced Configuration - Web Tracking (analytics.js)"]].
+    *[[http://www.datenschutzbeauftragter-info.de/fachbeitraege/google-analytics-datenschutzkonform-einsetzen/|Datenschutzbeauftragter.Info - Informationen zum Datenschutz "Google Analytics datenschutzkonform einsetzen"]].
+  *[[http://www.mrtopf.de/|mrtopf]].
+    *[[http://openetherpad.org/jmstvcamp|EtherPad "jmstvcamp"]].
+  *[[http://www.wenning.org/|Rigo Wenning]].
+  *[[http://www.vdi-nachrichten.com/artikel/Webseitenbetreiber-muessen-Facebook-Dienste-deaktivieren/54621/1|VDI Nachrichten "Webseitenbetreiber müssen Facebook-Dienste deaktivieren"]], 2011-08-26.
+==== Encryption =====
+  *PGP does not crypt the "subject" of an E-Mail message :-(.
+  *With Thunderbird E-Mail client, messages sent as crypted messagen, are just stored encrypted. I.e. you can´t search for contents in the body of such E-Mails. It does not help to enter the passphrase.
+  *[[http://www.spywarewarrior.com/|Eric Howes' Privacy & Security Page. Protecting Your Privacy & Security]].
+  *[[http://www.pgpi.org/|The International PGP Home Page]].
+    *[[http://www.pgpi.org/products/pgp/versions/freeware/|The International PGP Home Page "Freeware PGP versions"]] for Windows, Linux,..
+  *[[http://www.thunderbird-mail.de/wiki/Enigmail_OpenPGP|Thunderbird Mail DE "Enigmail OpenPGP"]].
+  *[[http://www.thunderbird-mail.de/wiki/Add-ons|Thunderbird Mail DE "Add-ons"]].
+  *[[http://en.wikipedia.org/wiki/Off-the-Record_Messaging|EN.Wikipedia "Off-the-Record Messaging"]], [[http://de.wikipedia.org/wiki/Off-the-Record_Messaging|DE.Wikipedia "Off-the-Record Messaging"]].
+  *[[http://en.wikipedia.org/wiki/Pretty_Good_Privacy|EN.Wikipedia "Pretty Good Privacy"]], [[http://de.wikipedia.org/wiki/Pretty_Good_Privacy|DE.Wikipedia "Pretty Good Privacy"]].
+  *[[http://en.wikipedia.org/wiki/TrueCrypt|EN.Wikipedia "TrueCrypt"]], [[http://de.wikipedia.org/wiki/TrueCrypt|DE.Wikipedia "TrueCrypt"]].
+==== Passwords ====
+  *[[http://pcsupport.about.com/od/toolsofthetrade/tp/passrecovery.htm|About.com "7 Free Windows Password Recovery Tools"]].
+  *[[http://www.computerbild.de/artikel/cb-News-Sicherheit-Passwort-Datenschutz-5685973.html|ComputerBILD - COMPUTER BILD-Sicherheits-Center "Jeder Dritte vergisst jährlich ein Passwort"]], 2010-11-02.
+  *[[http://www.bild.de/BILD/digital/computer/2011/01/11/so-bekommen-sie-sichere-passwoerter/moeglichst-kompliziert-einfach-zu-merken.html|BILD "Kompliziert und leicht zu merken  So bekommen Sie bombensichere Passwörter"]], 2011-01-11.
+  *[[http://www.sicherheitstest.bsi.de/|Bundesamt für Sicherheit in der Informationstechnik "BSI-Sicherheitstest"]], 2014 - "Bei der Analyse von Botnetzen wurden 16 Millionen gestohlene digitale Identitäten entdeckt. Online-Kriminelle betreiben Botnetze, den Zusammenschluss unzähliger gekaperter Rechner von Privatanwendern, insbesondere auch mit dem Ziel des Identitätdiebstahls. Bei den digitalen Identitäten handelt es sich jeweils um E-Mail-Adresse und Passwort. E-Mail-Adresse und Passwort werden als Zugangsdaten für Mail-Accounts, oft aber auch für Online-Shops oder andere Internetdienste genutzt. Die zugehörigen E-Mail-Adressen wurden dem Bundesamt für Sicherheit in der Informationstechnik (BSI) übergeben....Hier können Sie überprüfen, ob Sie betroffen sind".
+  *[[http://www.sv-gramberg.de/forum.htm|Marcus Janke, Peter Laackmann "Eurocheque-Karten: Sicherheitsmängel des ec-PIN-Verfahrens"]], Card Forum, 9, 1997, S. 39-47.
+
+===== Forums, Newsgroups =====
+  *[[http://groups.google.com/group/de.org.ccc|Google Groups "de.org.ccc"]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Security/Internet/Privacy/|OpenDirectory "Top: Computers: Security: Internet: Privacy"]].
+  *[[http://www.dmoz.org/Computers/Internet/E-mail/Encryption/|OpenDirectory "Top: Computers: Internet: E-mail: Encryption]].
+  *[[http://www.dmoz.org/Computers/Software/Freeware/Encryption/|OpenDirectory "Top: Computers: Software: Freeware: Encryption]].
+  *[[http://www.dmoz.org/Computers/Security/Products_and_Tools/Cryptography/|OpenDirectory "Top: Computers: Security: Products and Tools: Cryptography"]].
+  *[[http://www.dmoz.org/Computers/Security/Products_and_Tools/Cryptography/PGP/|OpenDirectory "Top: Computers: Security: Products and Tools: Cryptography: PGP"]].
+{{tag>privacy encryption passwords password trust}}
+<footnote_navi_en>

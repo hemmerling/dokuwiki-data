@@ -1,0 +1,200 @@
+====== {hemmerling] Apple Macintosh Performa 5200 ======
+===== History and Motivation of this Page =====
+{{images:perf5200.jpg|Apple Macintosh Performa 5200}} {{images:lc_pds.png|LC-PDS network card "Ethernet A-Series"}} 
+  *In Summer 2003, I got as gift for free an Apple Macintosh Performa 5200 computer with 75 Mhz CPU "603PPC", 40 MByte RAM, Quantum "TRB850A" IDE harddisk, Matshit "ACD-ROM CR-800SA" SCSI CDROM drive ( SCSI-ID: 3 ), "M2980" keyboard and the mouse "Apple Bus Mouse II". I am running the operating system MacOS 7.5.5, which is available for free as official download.
+  *From my point of view, MacOS 7.5.5's equivalent in the Windows world is Wfw 3.11: Internet access with ancient browsers, yes, but .. there is a PPPoE driver for DSL Internet access with MacOS 7.5.5 !
+  *Indeed, if you consider which free software does not run on MacOS 7.5.5, a switch to the commercial MacOS 8.1 is very advisable.
+  *Third Party User Feedback: "The only thing I would ever pay for to put in the Performa is a battery." :-)
+  *In 2003, when I setup this page on a different URL, I included many links to free software. Now in 2013, most links are invalid. I resigned :-( and didn't start a new Internet research ( to find some of the free software again )...
+  *In 2013, I scrapped the computer :-(.
+===== Hardware =====
+  *[[http://www.apple.com/|Apple Inc.]].
+    *[[http://www.apple.com/support/mac/|Apple Inc. Support - Mac]].
+    *[[http://support.apple.com/manuals/|Apple Inc. Support - Manuals]].
+    *[[http://download.info.apple.com/Apple_Support_Area/|Apple Inc. - Apple Support Area]].
+  *My LC-PDS network card "Ethernet A-Series", 10base-T Ethernet, by [[http://www.proxim.com/|Proxim Wireless Corporation]] ( formerly: Proxim Corporation, formerly: Farallon ).
+    *PCB board inscriptions "BD-030 LC StN1c Rev C" and "V C2 0893".
+    *EPROM inscriptions "S SI NB1 28" and "V1.0 00 40 10 - 0 09 26 0"
+    *Chip inscriptions "MX MX98902QC E9323 AC38102.1 TAIWAN".
+    *Once there was a free [[ftp://ftp.netopia.com/pub/software/drivers/FENI2.3.sit.hqx|Farallon Ethernet Installer 2.3]], for MacOS 7.5.5.
+  *The inscription on the system battery of my Performa 5200 is "840", "Rayonac Corp Madison WI 53711 Made in USA", "4.5 Volts".
+===== Mac OS and Windows Keyboard Equivalents, for Dummies =====
+
+^ ^ ^ ^
+^ Function ^ Mac OS ^ Windows ^
+^ Eject removable media at boottime | Mouse down | - |
+^ Close dialog without any action | ESC | ESC |
+^ Contextual Menus | Control + Click | Right Click |
+^ Copy a file | Option + drag icon | Control + drag icon |
+^ Create an alias / shortcut | Command + M | Right Click and choose create shortcut |
+^ Create an alias/shortcut in a specific location | Command + Option and drag | Alt + drag |
+^ Item's Info or Properties | Command + I | Alt + Enter |
+^ Move a file | Drag icon to location | Shift + drag icon |
+^ Select additional items without deselecting previously selected items | Shift + Click on items | Control + Click on items |
+^ Select All | Command + A | Control + A |
+^ Send to Trash/Recycle Bin | Command + Delete | Delete |
+^ Startup with Extensions Off / Safe Mode | Shift | F8 |
+^ Switch to next active application | Command + Tab | Alt + Tab |
+^ | | | |  
+
+  *[[http://www.davespicks.com/writing/programming/mackeys.html|Dave Polasche "Magical Macintosh Key Sequences"]].
+  *[[http://www.aeaclubs.org/macintosh/Macintosh_Key_Sequences.htm|Aerospace Macintosh Users Group (AMUG): "Magical Macintosh Key Sequences"]], Pre OS-X and OS-X.
+===== How to build MacOS 7.5.5 from scratch ! =====
+==== Instructions ====
+  *My strategy, based on the instructions of Marc Hoffman and Michael Hutchison:
+    *Get the ROM images of a 68K Macintosh, install a Macintosh Emulator. On Linux, activate support for the HFS file system. On Windows, please install the "HFVExplorer", too.
+    *Especially, get "Disk Copy 6.33" ( 68k + PPC ), "Stuffit 5.5" ( 68k + PPC ), "Disk Tools 7.5.3" ( 68K -> "Disk Tools 1" , PPC -> " Disk Tools 2" ), the "Joliet Volume Access" extension, Open Transport 1.1.2 and OT/PPP 1.0, Open Transport 1.3 Update, Appearance Manager 1.0.4 and File System Manager 1.2.
+    *The "Disk Tools" disk images are your 68K and PPC bootdisks.
+    *Download the full installation archive of MacOS 7.5.3 and the update to 7.5.5, and install it on the Macintosh emulator, with the help of the 68K bootdisk.
+    *You can do a full installation "Universal System for any Macintosh", but you must exclude the system extension "A/ROSE" for use with some Mac emulators like "Basilisk II". If you forget, the emulator crashes. Remember that by keeping the shift key pressed at startup, all extensions are disabled so that "A/Rose" can be safely moved out of the extensions folder.
+    *Install "Disk Copy" and "Stuffit" in this order.
+    *Modify the PPC bootdisk on a Macintosh emulator, by deleting the two files in the root directory and adding the "Joliet Volume Access" extension to the system folder.
+    *Access to ( some ) non-Apple CDROM / DVD / CD-RW drives is granted by special or modified CDROM drivers ( see below ). On a boot disk, the "Apple CDROM 5.3.1 driver" is best choice, as replacement for the original driver of MacOS 7.5.5.
+    *There is still plenty of space left on the bootdisk to add a driver for an IOMEGA ZIP drive.
+    *All other ( installation ) software is transfered on a standard "ISO9600" or "Joliet" CD.
+    *As a result, the recording of a CD with "hybrid" or "HFS" format is avoided !
+    *When using a non-HFS CDROM for data transfer ( Joliet, ISO9600,.. ), the file attributes get lost. For execution and extraction, You must drag .img files on the "DiskCopy" icon and .bin, .hqx, .smi files on the "Stuffit" icon on you desktop. If you click on the files, you get mostly system crashes, and not just simple error messages !
+  *"Disk Tool" disks images of 1441 KB size did not work for me.
+  *For accessing IS9600 CDROMS with MacOS 7.5.5, either the "Joliet Volume Access" extension or both the system extensions "Foreign File Access" and "ISO9600 File Access" are necessary.
+  *Sometimes, copying big .hqx files to floppyies just works by making a temporary copy on a harddisk, so that the space-consuming conversion from .hqx to .bin is safely done on the harddisk and not on the space-limited floppy !
+==== Resources ====
+  *[[http://web.archive.org/web/*/http://www.os-emulation.net/basiliskii.html|Archive.org "Marc Hoffman 'Basilisk II'"]] ( - 2007-11-04 ). 
+    *[[http://web.archive.org/web/*/http://os-emulation.net/basiliskII/system753_tutorial/index.html|Archive.org "Marc Hoffman 'Installing Mac OS 7.5.3 on Basilisk II for Windows']]" ( - 2007-10-12 ).
+  *[[http://web.archive.org/web/*/http://www.graphixmad.plus.com/mac_troubleshooter/contents.html|Archive.org "Michael Hutchison 'Macintosh TroubleShooter 5'"]] ( 2007-08-1 ) -> PDF download.
+  *[[http://home.earthlink.net/~gamba2/|Archive.org "Gamba"]] - "Where to DOWNLOAD ....".
+===== Drivers =====
+==== Networking ====
+  *The Apple Macintosh Performa 5200 can be upgraded with a Commslot I Ethernet card.
+    *[[http://www.welovemacs.com/nics-commslot.html|We Love Macs "CommSlot Ethernet Cards"]].
+  *The Apple Macintosh Performa 5200 can be upgraded with an Ethernet card for the LC-PDS slot.
+    *Advertising [[http://www.langalaxy.com/showroom/393.cfm|LAN Galaxy "Farallon Computing. EtherMac Network Adapter 10Mbps"]].
+  *Mac TCP configuration, examples:
+
+^ ^ ^ ^ ^ ^ 
+^ IP Address ^ Macintosh Setting "CLASS" ^ Macintosh Setting "NET" ^ Macintosh Setting "SUBNET" ^ Macintosh Setting "NODE" ^
+^ 192.168.1.4 | C | 12625921 | - | 4 |
+^ 192.168.0.5 | C | 12625920 | - | 5 |
+^ | | | | |
+
+==== CD-ROM / DVD, ZIP ====
+=== Drivers ===
+  *[[http://www.macdrivermuseum.com/disk/Apple_CD-ROM_D-5.3.1.sit.hqx|Apple_CD-ROM_D-5.3.1]] - generic SCSI CDROM driver.
+  *[[http://download.info.apple.com/Apple_Support_Area/Apple_Software_Updates/English-North_American/Macintosh/Display-Peripheral/Video/Apple_DVD_Software_Update_1.1/DVD_SW_Update_1.1.smi.bin|DVD_SW_Update_1.1]] - The "Apple CD/DVD Driver 1.2" can be extracted from the file "Apple DVD Software Tome".
+    *The "Apple TomeViewer 1.3.d3" is needed for file extraction from "Tome" archives.
+  *[[http://iomega-na-en.custhelp.com/|iomega Support]] - "ZIP/REV".
+=== How to record a CDROM in "HFS" format, for no extra price ! ===
+  *The CD recording software "Disk Burner" is integrated in MacOS 9.
+  *Use the [[http://cdrecord.berlios.de/private/cdrecord.html|cdrecord]] tools of Jörg Schilling to record a CDROM in "HFS" format, on Linux, W2k / WinXP and MacOS-X.
+=== Resources ===
+  *[[http://web.archive.org/web/20080401000000*/http://www.heise.de/ct/english/98/26/188/|Archive.org "C´t, Andreas Beier 'The MacOS & third-party CD- and DVD-ROM drives'"]] ( -2008-05-11 ).
+    *Note that the driver modification described in the article is not possible with ResEdit 2.13, the latest 68K version.
+  *[[http://www.lowendmac.com/meta/991014.shtml|LowEndMac "Simplicity Is Key"]].
+==== Flatbed Scanners ====
+  *Some [[http://www.mustek.de/|Mustek]] scanners with SCSI interface, like my "Mustek MFS 6000CX", are shipped with MacOS 7.5.5 drivers, on the downloadable "AX Scan Tool Disk":
+    *"TWAIN Data Source" driver, an "Adobe Photoshop" compatible plugin.
+    *"ISIS" ( "Image and Scanner Interface Specification" ) driver.
+==== Printer Drivers for Mac ==== 
+  *Apple printer drivers.
+    *[[http://download.info.apple.com/Apple_Support_Area/Apple_Software_Updates/English-International/Macintosh/Printing/LaserWriter/|International English LaserWriter Software 8.5.1, for MacOS 7.5.5.]].
+    *Apple Printer Utility 2.2, for MacOS 7.5.5.
+    *Apple LaserWriter Software 8.6.1 Update, for MacOS 8.5.
+  *Hewlett-Packard printer drivers.
+    *HP LaserJet Family PostScript Printer Driver 8.6, for MacOS 7.5.5.
+    *[[http://ftp.hp.com/pub/printers/software/lj4mac.hqx|Laserjet 4, Postscript Level 2 driver 8.1.1, for MacOS 7.5.5.]].
+==== Multimedia ====
+  *Quicktime Standalone Installer / Full Installer.
+    *Quicktime 4.03 for MacOS 7.5.5, 68K only.
+    *Quicktime 5.05 for MacOS 7.5.5, PPC only.
+    *Quicktime 6.03 for MacOS 8.6.
+==== System Enabler ====
+  *[[http://support.apple.com/kb/TA28948|Apple Support "Archived - System Enablers: Current Versions & Change History"]].
+  *[[http://web.archive.org/web/*/http://www.graphixmad.plus.com/mac_troubleshooter/system_enablers.html|Archive.org "Michael Hutchison: 'Macintosh TroubleShooter 5, Inside the System Folder: Enablers'"]] ( - 2007-08-12 ).
+  *[[http://de.wikipedia.org/wiki/System_Enabler|DE.Wikipedia "System Enabler"]].
+===== Free Software =====
+==== Free Development Systems ====
+  *[[http://en.wikipedia.org/wiki/Macintosh_Programmer%27s_Workshop|EN.Wikipedia "Macintosh Programmer's Workshop"]] - A free IDE with C/C++ compiler for MacOs 7.x.
+  *[[http://en.wikipedia.org/wiki/AppleScript|EN.Wikipedia "AppleScript"]], [[http://de.wikipedia.org/wiki/AppleScript|DE.Wikipedia "AppleScript"]].
+  *The OpenSource "Tcl/TK 8.4.2".
+    *[[http://wiki.tcl.tk/3851|Tcl/TK Wiki "MacOS"]].
+    *[[http://web.archive.org/web/*/http://www.maths.mq.edu.au/~steffen/tcltk/classic.html|Archive.org "Daniel A. Steffen 'Mac Tcl/Tk - Classic'"]] ( - 2007-12-25 ).
+    *[[http://www.sourceforge.net/projects/tcl/files/Tcl/8.4.2/|SourceForge "Tcl 8.4.2 for MacOS"]].
+  *[[http://en.wikipedia.org/wiki/Mac_OS_Runtime_for_Java|EN.Wikipedia "Mac OS Runtime for Java"]].
+  *Resedit.
+    *[[http://download.info.apple.com/Apple_Support_Area/Apple_Software_Updates/English-North_American/Macintosh/Utilities/ResEdit_2.1.3.sea.bin|Resedit 2.1.3]] ( 68K ).
+    *Resedit 3.0 d3 ( PPC ).
+  *[[http://home.planet.nl/~pulle071/firemac/util.htm|FireMac]] - "Bunchtyper" for Mac OS 7.55, a "Filetype" tool.
+==== Developer Resources ====
+  *[[http://developer.apple.com/library/mac/navigaton/|Mac Developer Library]].
+  *Applescript.
+    *[[http://developer.apple.com/library/mac/#documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html|Mac Developer Library "Introduction to AppleScript Language Guide"]].
+  *Outdated documentation:
+    *Macintosh Human Interface Guidelines. 
+    *Macintosh Toolbox Essentials. 
+    *Electronic Guide to Macintosh Human Interface Design.
+
+
+==== Tools ====
+  *The Shareware [[http://www.sophisticated.com/products/ido/ido_ss.html|:iDo Script Scheduler]], a scheduler for Applescript files, for use with MacOS 7.5.5
+    *The [[http://download.info.apple.com/Apple_Support_Area/Apple_Software_Updates/English-North_American/Macintosh/Utilities/AppleScript/AppleScript_Extras_1.1.smi.bin|:iDo freeware edition]] is limited to handle 3 tasks only.
+
+==== Internet Software for MacOS ====
+  *Please install Open Transport 1.1.2 and Open Transport 1.3 Update. Just the installation of Open Transport 1.1.2 creates the "Network selector" application in the "Apple Extras" folder of the system volume, with which you can switch between MacTCP and OpenTransport. For use of TCP/IP applications with an Ethernet card, OpenTransport must be activated !
+  *Legacy Netscape browsers for MacOS.
+    *"Netscape Communicator 3.04" ( 68k + PPC, MacOS 7.5.5 ).
+    *"Netscape Communicator 4.08" ( 68k, PPC, MacOS 7.5.5 inofficially, MacOS 7.6.1 ).
+    *"Netscape Communicator 4.80" ( PPC, MacOs 7.6.1 inofficially, MacOS 8.1 ).
+  *[[http://download.info.apple.com/Apple_Support_Area/Apple_Software_Updates/English-North_American/Macintosh/System/CFM-68K/|CFM-68K Runtime Enabler 4.0 extension]] - required addition to MacOs 7.1 through 7.6 on 68K machines for Navigator 4.08 and Communicator 4.08. Don't install this on a PPC machine !
+  *[[http://www.opera.com/|Opera]] Browsers, PPC only. Latest version for MacOS 7.5.5 is [[http://arc.opera.com/pub/opera/mac/5.0/english/|Opera 5]]. Current version for MacOs is Opera 6.02.
+  *Microsoft Internet Explorer 4.01 ( 68K, PPC ). 5.1.7 ( PPC, MacOS 8.1 )
+  *[[http://ftp.mozilla.org/pub/mozilla.org/mozilla/releases/mozilla1.2.1/|Mozilla 1.2.1]], PPC only.
+  *[[http://www.quinn.echidna.id.au/Quinn/WWW/SoftwareDevelopment.html|Quinn "The Eskimo!"]]: [[http://mindstory.com/software/internetconfig/|Internet Config]].
+  *"FreePPP" - free PPP protocol for MacOS.
+  *FTP clients for MacOS 7.5.5, 68k + PPC:
+    *Darthmouth / [[http://fetchsoftworks.com/|Fetch Softworks]].
+      *The unlimited Shareware [[http://www.studio-oberlaender.de/support/macintosh/index.php?detail=15|Fetch 3.03]].
+    *[[http://www.panic.com/transmit/|Transmit]].
+      *The freeware [[http://main.system7today.com/software/transmit/transmit.html|Transmit 1.6]].
+  *The commercial X-Window server [[http://www.microimages.com/|MicroImages]] "MI/X".
+    *The free MacOS version for 68k and PPC is discontinued:-(. 
+    *[[http://web.archive.org/web/19980629010950/http://www.microimages.com/freestuf/mix/|Archive.org "MI/X: A Professional, Free, X Server for Windows and Macintosh"]] ( - 1998-12-03 ).
+      *[[http://web.archive.org/web/*/http://www.microimages.com/freestuf/mix/download.htm|Archive.org "MI/X: A Professional, Free, X Server for Windows and Macintosh - Download"]] ( - 1999-04-17 ).
+    *[[http://lists.opensuse.org/opensuse-de/2000-05/msg03958.html|Mailinglist Archive: opensuse-de "Re: Windows - XServer als Freeware"]].
+    *Up to version 2, the Windows version was Freeware, while newer MacOS versions were still freeware.
+    *But today available Windows installers of version 2.0.14 ( "mix_2_0.exe" ) are already Shareware :-(.
+    *Nowadays, in 2013, there is just an affordable commercial version for Windows.
+
+==== Internet Software Resources ====
+  *[[http://www.mac-im-netz.de/|Anton Betzler "Mac im Netz"]].
+  *[[http://browsers.evolt.org/|evolt.org]] - Browser library, including browsers for MacOS.
+  *[[http://home.earthlink.net/~gamba2/browsers.html|Gamba: "Browsers for Macintosh 680x0"]].
+  *[[http://web.archive.org/web/*/http://www.kearney.net/~mhoffman/basiliskII/going_online/|Marc Hoffman: "Getting on the Internet With Basilisk II"]] ( - 2005-03-08 ).
+  *[[http://www.macorchard.com/filetransfer/|The Mac Orchard - Essential Internet Applications for Macintos Users Since 1995]].
+    *[[http://www.macorchard.com/filetransfer/|The Mac Orchard "Mac FTP Applications"]].
+===== Resources =====
+  *[[http://www.atpm.com/|About This Particular Macintosh]] - "An e-zine about the personal computing experience".
+  *[[http://www.xlr8yourmac.com/|AccelerateYourMac]].
+  *[[http://www.info-mac.org/|Info-Mac: The Original Online Mac User Community]].
+    *[[ftp://ftp.rrzn.uni-hannover.de/pub/mirror/info-mac/|FTP Mirror "Info-Mac"]].
+  *Blog [[http://www.apfelwelten.de/|Apfelwelten]].
+  *[[ftp://ftp.funet.fi/pub/mac/|FTP "funet.fi"]].
+  *[[http://www.giantmike.com/old.html|Giantmike's Vintage Shareware Collection]].
+  *[[http://www.knubbelmac.de/|KnubbelMac - Weil weniger manchmal mehr ist]].
+  *[[http://www.lowendmac.com/|LowEndMac]].
+    *[[http://www.lowendmac.com/roadapples/x200.shtml|LowEndMac "Power Mac and Performa 5200-53xx & 6200-6320"]].
+    *[[http://www.lowendmac.com/tech/x200.shtml|LowEndMac "Performa and Power Mac x200 Issues"]].
+    *[[http://www.lowendmac.com/ppc/performa-5200.html|LowEndMac "Performa 5200"]].
+  *[[http://www.academ.com/info/macintosh/|The Macintosh Battery Web Page]].
+  *[[http://www.umich.edu/~archive/mac/|University of Michigan's Macintosh Public Domain and Shareware Archive]].
+  *[[http://www.pure-mac.com/|Pure Mac - All the Software You Really Need]].
+  *[[http://home.earthlink.net/~strahm_s/manuals.html|S Strahm "APPLE MANUALS"]] - "Links to Apple's Legacy User Manuals, User Manuals, and Customer Installable Parts pages" ( most links are invalid, in 2013, though :-( ).
+  *[[http://macfreebees.tripod.com/|Tripod "Macfreewares: Freeware only, for Macintosh and Apple computers"]].
+
+===== Forums, Newsgroups =====
+  *[[http://groups.google.com/group/de.comp.sys.mac.misc|Google Groups "de.comp.sys.mac.misc"]], [[http://groups.google.com/group/de.comp.sys.mac.lokale-netze|Google Groups "de.comp.sys.mac.lokale-netze"]], [[http://groups.google.com/group/de.comp.sys.mac.internet|Google Groups "de.comp.sys.mac.internet"]], [[http://groups.google.com/group/comp.sys.mac.misc|Google Groups "comp.sys.mac.misc"]], [[http://groups.google.com/group/comp.sys.mac.hardware.misc|Google Groups "comp.sys.mac.hardware.misc"]], [[http://groups.google.com/group/maus.computer.mac.allgemeines|Google Groups ""]], [[http://groups.google.com/group/|Google Groups "maus.computer.mac.allgemeines"]], [[http://groups.google.com/group/maus.computer.mac.emulatoren|Google Groups "maus.computer.mac.emulatoren"]], [[http://groups.google.com/group/maus.computer.mac.kommunikation|Google Groups "maus.computer.mac.kommunikation"]], [[http://groups.google.com/group/maus.computer.mac.programmieren|Google Groups "maus.computer.mac.programmieren"]], [[http://groups.google.com/group/maus.computer.mac.nostalgie|Google Groups "maus.computer.mac.nostalgie"]], [[http://groups.google.com/group/maus.computer.mac.software|Google Groups "maus.computer.mac.software"]], [[http://groups.google.com/group/maus.computer.mac.hardware|Google Groups "maus.computer.mac.hardware"]], [[http://groups.google.com/group/maus.computer.linux.m68k|Google Groups "maus.computer.linux.m68k"]], [[http://groups.google.com/group/comp.os.linux.powerpc|Google Groups "comp.os.linux.powerpc"]].
+
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Systems/Apple/Macintosh/|OpenDirectory "Top: Computers: Systems: Apple: Macintosh"]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Plattformen/Macintosh/|OpenDirectory "Top: World: Deutsch: Computer: Plattformen: Macintosh"]].
+
+{{tag>Apple Macintosh "Apple Macintosh" Performa 5200 "Performa 5200"}}
+<footnote_navi_en>

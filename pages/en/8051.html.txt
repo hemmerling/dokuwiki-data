@@ -1,0 +1,98 @@
+======[hemmerling] 8051 Embedded Systems ======
+Related topics:
+  *[[embedded.html|Embedded Systems]].
+  *[[realtime.html|Realtime Operating Systems & Software for Embedded Systems]].
+===== Free Development Tools =====
+==== Compilers and Tools ====
+  -Otmar Feger - "MC-Tools".
+    *[[http://web.archive.org/web/*/http://www.otmar-feger.de|Archive.org "otmar-feger.de"]] ( - 2004-08-02 ).
+      *[[http://web.archive.org/web/*/http:///www.otmar-feger.de/Buecher.htm|Archive.org "otmar-feger.de - Bücher"]].
+      *2004-08-29 - "Die Firma Otmar Feger Hardware + Software Verlag wurde geschlossen. Bei Fragen können Sie sich jederzeit an mich wenden. Otmar Feger".
+      *[[http://www.amazon.de/s/ref=ntt_athr_dp_sr_1?search-alias=books-de&field-author=Otmar%20Feger|Amazon "Otmar Feger"]].
+    *[[http://www.ieap.uni-kiel.de/surface/ag-berndt/down-home.html|Institut für Experimentelle und Angewandte Physik, Universität Kiel, AG Raster-Tummelmikroskopie]] - "MC-Tools Entwicklungsumgebung (Vers. 4.1.6 - 13.12.2010 - Freeware).
+  -The free [[http://plit.de/asem-51/|W.W. Heinz "8051 Macro Assembler ASEM-51"]] for MSDOS, Windows, Linux.
+    *[[http://plit.de/asem-51/download.htm|W.W. Heinz "Third Party Stuff"]] - links to other free 8051 tools.
+    *[[http://plit.de/asem-51/mcs51man.htm|W.W. Heinz  "MCS 51 Microcontroller Family User's Manual"]] - links to download mirrors.
+  -The free 8051 BASIC interpreter [[http://www.elektor.de/jahrgang/2001/februar/mcs-basic-52-1-3.59382.lynkx|Elektor "Intel MCS BASIC-52 1 3"]].
+  -The OpenSource [[http://home.earthlink.net/~davesullins/software/dis51.html|Dave Sullins "Dis51 8051 Hex-file Disassembler"]].
+  -The OpenSource [[http://home.arcor.de/jensaltmann/|Jens Altmann "JSIM]] - "the ultimate 8051 -HLL-Simulator".
+  -[[http://www.rigelcorp.com/8051soft.htm|Rigel Corporation "8051 Software, C Compilers, Basic Editor, and Chip Simulator"]] - "Our online software with all of the help files, examples, and related text files may be used without fee by students, faculty and staff of academic institutions and by individuals for non-commercial use".
+  -The free 8051 Pascal compiler [[http://turbo51.com/|Igor Funa "Turbo51"]] for Windows.
+  -The free 8051 Assembler Editor and Compiler [[http://personales.mundivia.es/hvasquez/wide51/|Hernando Vásquez "WIN-51"]].
+==== IDEs ====
+  -[[http://www.ieap.uni-kiel.de/surface/ag-berndt/lehre/fpmc/|Institut für Experimentelle und Angewandte Physik - Microcontroller Praktikum, "Einführung in die Programmierung von Mikrocontrollern der 8051-Familie"]].
+    *Free 8051 development IDE "MC-51" for Windows, by J. Rathlev.
+  -The OpenSource 8051 development IDE [[http://mcu8051ide.sourceforge.net/|Sourceforge "MCU 8051 IDE"]], [[http://www.sourceforge.net/projects/mcu8051ide/|Sourceforge "MCU 8051 IDE"]] for Windows and Linux.
+  -The free IDE [[http://www.opcube.com/|Worapoht Kornkaewwattanakul, OpCUBE project "MIDE-51 Studio: IDE for MCS-51"]] for Windows, for use with SCC and ASEM-51.
+===== Commercial Development Tools =====
+==== Texas Instruments ====
+  *CPU [[http://www.ti.com/product/cc2533|CC2533]] - "A True System-on-Chip Solution for 2.4-GHz IEEE 802.15.4 and ZigBee Applications"
+  *The free RF stack [[http://www.ti.com/remoti|RF4CE Compliant Protocol Stack ( REMOTI )]].
+  *Affordable kit [[http://www.ti.com/tool/cc2533dk-rf4ce-ba|Texas Instruments "CC2533 RF4CE Development Kit"]], with 2 remote control devices.
+  *Affordable kit [[http://www.ti.com/tool/cc2540dk-mini|Texas Instruments "CC2540 Mini Development Kit"]].
+  *Kit [[http://www.ti.com/tool/cc2533dk|Texas Instruments "CC2533 Development Kit"]].
+  *The commercial IDE & compiler [[http://www.iar.com/en/Products/IAR-Embedded-Workbench/8051/|IAR Embedded Workbench for 8051]] - Free "4 KB KickStart edition".
+==== Some other commercial Development Tools ====
+  *The commercial IDE with C/C++ compiler [[http://www.iar.com/en/Products/IAR-Embedded-Workbench/8051/|IAR Embedded Workbench for 8051]]. 
+    *There is no free kickstart edition :-(.
+    *Check the directory "examples" for 8051 sample projects. 
+  *KEIL.
+    *The commercial C compiler [[http://www.keil.com/c51/|Keil 8051 Development Tools]].
+      *"Numerous example programs are included to help you get started with the most popular embedded 8051 devices".
+      *[[http://www.keil.com/demo/limits.asp|Keil "Limitations"]].
+        *"C51 Evaluation Tool The 8051 compiler, assembler, linker, and debugger are limited to 2 Kbytes of object code. Source code may be of any size".
+        *"No support for in-line assembly using #pragma ASM".
+        *"The following components which are present in the PK51 Full Version are not included in the Evaluation Version: ... RTX51 Tiny Real-time Operating System" -> Even if you installed RTX51-Tiny from the full commercial C51 version, the evaluation compiler refuses to link RTX-51 projects.
+        *RTX51 is expected at "C:\Program Files\Keil\C51\C51\LIB\RTX51.LIB".
+        *[[http://www.keil.com/support/man/docs/tr51/default.htm|Keil "RTX51 Tiny User's Guide"]].
+    *[[http://www.infineon.com/cms/en/product/promopages/Freetools/|Infineon "Free development tools"]].
+      *[[http://www.infineon.com/cms/en/product/promopages/aim-mc/Free_Tools/|GET YOUR FREE PK51 KEIL DEVELOPMENT TOOLS]].
+    *The KEIL compiler generates object files in the [[http://en.wikipedia.org/wiki/ICL_VME#OMF|OMF166]] format.
+  *The commercial [[http://www.mikroe.com/mikroc/8051/|MikroElektronika "mikroC PRO for 8051"]] for Windows - "C compiler for PC microcontroller device development" ( not C/C++ ! ). 
+    *There is a free edition with codesize limited to 4 KBytes.
+    *On Windows Vista and newer, the installation setup wants to install the software by default at "C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for 8051" :-(.
+    *The IDE:
+      *All derived files are always in the same directory as the source files, you can not select another directory :-(. 
+      *The menu function "Project / Clean Project folder" lets you delete ( generated ) project files. The default setting of "Clean Project Folder" does however not remove the following file types: *.mcl, *.ini, *.brk, *.bmk, *.dic, *.hex, *.log. You should check these project files if you want to delete them. Leave other files alone, they are really project files.
+      *So my suggestion: To clean all targets, execute the menu item "Project / Clean Project Folder". Let the IDE delete the following filetypes: *.asm, *.asm.ini, *.brk, *.c.ini, *.cfg, *.cp, *.dbg, *.dct, *.dlt, *.hex, *.log, *.lst, *.mcl, *.mcp51_callertable.txt, *.user.dic. 
+      *Even then, just the calling the IDE and the (automatic) loading a project, causes the generation of files of filetypes *.bmk, *.brk, *.c.ini, *.cfg, *.dct, which must be deleted manually or better by a batch file.
+    *The commandline compiler has the commandline option switches:
+      *- N : "Output files generated to file path specified by filename". Indeed, "-N" defines the name of the project file, e.g. -N"C:\users\8051project\8051project.mcp51".
+      *- B : Save compiled binary files (*.mcl) to 'directory'.
+  *The commercial C compiler [[http://www.wickenhaeuser.de/|Wickenhäuser Elektrotechnik "μC/51 ANSI C-Compiler"]] for Windows - The free "demo" version is limited to 8 Kbytes program size. There is a comparison chart about the limits of free demo versions of competitors :-).
+
+===== Seminconductor Manufacturers =====
+==== Atmel Corporation ====
+  *[[http://www.atmel.com/products/mcu8051/|Atmel Corporation "8051 Architecture"]].
+==== Cypress Semiconductor Corporation - PSoC 3 CPU ====
+  *[[http://www.cypress.com/|Cypress Semiconductor Corporation]].
+    *[[http://www.cypress.com/?id=1353|Cypress Semiconductor Corporation "Programmable System-on-Chip"]].
+  *The free IDE [[http://www.cypress.com/?id=2494|Cypress Semiconductor Corporation "PSoC Creator"]] for Windows. You need to apply for a free 1-year license for an (code-)unlimited edition of the Keil C51 compiler, granted by Cypress.
+==== Future Technology Devices International Limited ( FTDI ) - FT51 ====
+  *[[http://www.ftdichip.com/MCU.html|Future Technology Devices International Limited ( FTDI ) "Micro Controller"]] - "FT51 - 8 bit 8051 Compatible Core".
+==== Silicon Labs ==== 
+  *[[http://www.silabs.com/products/mcu/|Silicon Labs "8-bit and 32-bit Microcontroller and Wireless Products"]].
+  *The free tool [[http://www.silabs.com/products/mcu/Pages/simplicity-studio.aspx/|Silicon Labs "Simplicity"]] for Windows. The current version includes an Eclipse-based IDE and free ARM & 8051 compilers.
+
+===== Books =====
+
+===== Resources =====
+  *[[http://www.8051projects.net/|Rickey's World - World of Microcontrollers and Microprocessors ( 8051projects )]].
+  *[[http://www.8052.com/|8052.com - The Online 8051/8052 Microcontroller Resource]].
+  *[[http://www.nomad.ee/|Madis Kaal, Nomad Holdings "MicroControllers and Electronics"]] - BASIC-52 projects, Atmel AVR projects.
+  *[[http://www.mikroe.com/|Mikroelektronika]] - "Development Tools, Compilers, Books".
+    *The free online HTML book [[http://www.mikroe.com/eng/products/view/267/architecture-and-programming-of-8051-mcu-s/|Mikroelektronika "Milan Verle - Architecture and programming of 8051 MCU's"]].
+  *[[http://www.mytutorialcafe.com/|mytutorialcafe - The toucht of electronics technology]].
+    *"Microcontroller 8051 Tutorial".
+    *[[http://web.archive.org/web/*/http://www.computer-interfacing.mytutorialcafe.com/|mytutorialcafe "Computer Interfacing Tutorial"]].
+  *[[http://www.infineon.com/cms/de/product/channel.html|Infineon "Microcontrollers / Development Tools, Software and Kits"]].
+  *[[http://www.scottmay.org/8051/|Sam's 8051 Page]].
+  *[[http://bit.kuas.edu.tw/~8051/|Chin-Shiuh Shieh "8051 Development Tools"]].
+  *[[http://stevenmerrifield.com/|Steven J. Merrifield]].
+    *[[http://web.archive.org/web/*/http://www.labyrinth.net.au/~steve/8051.html|Archive.org "Steven J. Merrifield - The 8051 Microcontroller"]] ( - 1999-04-29 ).
+  *[[http://www.eeglossary.com/8051.htm|Luis Viterbo - EEGlossary "8051"]].
+  *[[http://en.wikipedia.org/wiki/Intel_MCS-51|EN.Wikipedia "Intel MCS-51"]], [[http://de.wikipedia.org/wiki/Intel_MCS-51|DE.Wikipedia "Intel MCS-51"]], [[http://en.wikipedia.org/wiki/8051_compiler|EN.Wikipedia "8051 compiler"]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Hardware/Mikrocontroller/|OpenDirectory "Top: World: Deutsch: Computer: Hardware: Mikrocontroller"]].
+{{tag>8051 "embedded systems" atmel intel}}
+<footnote_navi_en>

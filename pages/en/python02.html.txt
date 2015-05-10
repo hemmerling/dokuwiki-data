@@ -1,0 +1,230 @@
+====== [hemmerling] Python 2/6 ======
+Related pages:
+  *[[python.html|Python 1/7]].
+  *[[python03.html|Python 3/7 - Literature]].
+  *[[python04.html|Python 4/7 - Pro & Contra]].
+  *[[python05.html|Python 5/7]].
+  *[[python06.html|Python 6/7 - Education in Python]].
+  *[[python07.html|Python 7/7 - Organisations, Conferences, Barcamps & Events]].
+  *[[erp02.html|ERP 2/2 - The OpenSource ERP Systems "TinyERP" / "OpenERP" / "Odoo" and the Fork "Tryton"]].
+  *[[uscripting.html|Scripting Programming Languages for Unix / Linux and Windows]].
+
+===== Python - The Programming Language =====
+==== Abstract methods, @classmethod, @staticmethod ====
+  *[[http://www.stackoverflow.com/questions/12179271/python-classmethod-and-staticmethod-for-beginner|StackOverflow "Python @classmethod and @staticmethod for beginner?"]].
+  *[[http://www.pythoncentral.io/difference-between-staticmethod-and-classmethod-in-python/|PythonCentral "Difference between @staticmethod and @classmethod in Python"]].
+  *[[http://julien.danjou.info/blog/2013/guide-python-static-class-abstract-methods|Julien Danjou "The definitive guide on how to use static, class or abstract methods in Python"]].
+==== Decorators - @ - ====
+  *[[http://jasonmbaker.wordpress.com/2009/04/25/the-magic-of-python-decorators/|Jason in a Nutshell - All about programming and whatever else comes to mind "The magic of python decorators"]].
+==== Duck Typing ====
+  *[[http://en.wikipedia.org/wiki/Duck_typing|EN.Wikipedia "Duck typing"]], [[http://de.wikipedia.org/wiki/Duck-Typing|DE.Wikipedia "Duck-Typing"]].
+==== Anonymous functions ====
+  *See [[functional.html|Functional Programming]].
+  *[[http://www.secnetix.de/olli/Python/lambda_functions.hawk|secnetix GmbH & Co. KG "Python: Lambda Functions"]].
+  *[[http://en.wikipedia.org/wiki/Anonymous_function|EN.Wikipedia "Anonymous function"]], [[http://de.wikipedia.org/wiki/Anonyme_Funktion|DE.Wikipedia "Anonyme Funktion"]] - "Python supports anonymous functions through the lambda syntax, in which you can only use expressions (and not statements)".
+==== Metaclass ====
+  *[[http://eli.thegreenplace.net/2011/08/14/python-metaclasses-by-example|Eli Bendersky's website "Python metaclasses by example"]].
+  *[[http://www.jeffknupp.com/blog/2013/12/28/improve-your-python-metaclasses-and-dynamic-classes-with-type/|Jeff Knupp - Everything I know about Python... "Improve Your Python: Metaclasses and Dynamic Classes With Type"]].
+  *[[https://jakevdp.github.io/blog/2012/12/01/a-primer-on-python-metaclasses/|Pythonic Perambulations. Musings and ramblings through the world of Python and beyond "A Primer on Python Metaclasses"]].
+  *[[http://www.stackoverflow.com/questions/100003/what-is-a-metaclass-in-python|StackOverflow "What is a metaclass in Python?"]].
+  *[[http://lgiordani.com/blog/2014/10/14/decorators-and-metaclasses/|The Digital Cat "Advanced use of Python decorators and metaclasses"]].
+  *[[http://en.wikibooks.org/wiki/Python_Programming/Metaclasses|WikiBooks "Python Programming/Metaclasses"]].
+
+==== *vargs & **kwargs ====
+  *[[http://www.stackoverflow.com/questions/36901/what-does-double-star-and-star-do-for-python-parameters|Stack Overflow "What does ** (double star) and * (star) do for Python parameters?"]].
+  *[[http://www.stackoverflow.com/questions/1098549/proper-way-to-use-kwargs-in-python|Stack Overflow "Proper way to use **kwargs in Python"]].
+  *[[http://www.stackoverflow.com/questions/1769403/understanding-kwargs-in-python|Stack Overflow "Understanding kwargs in Python"]].
+===== Tips & Tricks =====
+==== General ====
+  *If you read the return value of a function which did nothing return, "None" is returned :-).
+  *In opposite of C, Pascal you can return more than one value, e.g. "return a, b, c" :-).
+  *Division:
+    *Python 3.x ( like CodeSculptor ) uses the operator / / for integer division, and / is always division with a floating point number result.
+    *In Python 2.x, , result of / or / / is the same and based on context. If you / with 2 integers, and it assumes integer division. If one of the operands is a float (either explicitly, or converted to a float), then it uses float division.
+  *[[http://en.wikipedia.org/wiki/List_comprehension#Python|EN.Wikipedia "List comprehension"]].
+    *Example: "deck = [Card(s,r) for s in SUITS for r in RANKS]".
+  *Execute functions by name ( you can also provide funtion parameters by name )<code>
+def f():
+   print "hi"
+d = {0:f}
+d[0]()
+</code>
+  *Lambda function.
+    *[[http://www.secnetix.de/olli/Python/|Olli's Homepage at secnetix "Python Information and Examples"]].
+      *[[http://www.secnetix.de/olli/Python/lambda_functions.hawk|Olli's Homepage at secnetix "Python: Lambda Functions"]].
+    *[[http://en.wikipedia.org/wiki/Anonymous_function|EN.Wikipedia "Anonymous function"]], [[http://de.wikipedia.org/wiki/Anonyme_Funktion|EN.Wikipedia "Anonyme Funktion"]].
+  *Value copy and pointer copy
+<code>
+x = [1,2]
+y = x
+z = [x[0],x[1]]
+print x, y, z
+y[0] = 3
+print x, y, z
+</code>
+  *Result of value copy and pointer copy
+<code>
+[1, 2] [1, 2] [1, 2]
+[3, 2] [3, 2] [1, 2]
+</code>
+  *Sets and FrozenSets - Many books about Perl 2.x miss this topic :-(.
+    *[[http://docs.python.org/2/library/stdtypes.html|The Python Standard Library "5. Built-in Types 5.7. Set Types — set, frozenset"]].
+    *[[http://docs.python.org/2/tutorial/datastructures.html|Python Tutorial "5. Data Structures, 5.4. Sets"]].
+==== CodeSculptor ====
+  *[[http://class.coursera.org/interactivepython-2012-001/forum/thread?thread_id=70|Coursera Python Course Forum "Python  questions", Thread "CodeSkulptor: python 2 or python 3"]].
+    *"The statement print 'Hello' works... However, print 7 / 3 gives 2.33333333 in CodeSkulptor, not 2 as in python2".
+    *"This is Python 2. However, it's implemented on top of JavaScript, so there's no integer/float distinction. To get integer division, use <code>7 \\ 3</code>, which would give 2".
+  *math.ceil():
+    *Python 2.7.3: math.ceil() is a float.
+    *CodeSculptor: math.ceil() is an integer.<code>
+import math
+print math.ceil(7.5)
+print int(math.ceil(7.5))
+</code>
+  *type() 
+    *Python 2.7.3: type(2) is "<type 'int'>".
+    *CodeSculptor: type(2) is "<class 'int'>".<code>
+print type(2)
+</code>
+  *Improved input interactivity - How to set the focus on the input.
+    *[[http://class.coursera.org/interactivepython-2012-001/forum/thread?thread_id=1702|Coursera Forum, Thread "Improved input interactivity"]].
+    *[[http://www.codeskulptor.org/#user3-o4IQhpEYYC-0.py|CodeSculptor "Improved input interactivity"]] :-).
+  *CodeSkulptor does not support try and with statements, offically :-(.
+    *Error message "ReferenceError: goog is not defined"
+    *Workaround for try.. except: Avoid references ( e.g. writing class variables or global variables ), but save data in local variables or do a return to next function level:-):
+  *How to run CodeSculptor offline: 
+      *You can also save the page so that it gets everything ( called "Webpage, complete" ). It will save an HTML file and a folder with all the JS files. 
+      *The buttons will work but won't have their icons default; if you really want them, you can make a folder called "images" in the saved folder and drag the "ui-icons_00246a_256x240.png" into it.
+      *This will let CS run completely offline, with images. Just remember to save locally since you are not connected to the cloud.
+  *The random number sequence is different, with<code>
+personal_random_seed = 1
+start = 1
+stop = 100
+step = 1
+random.seed(personal_random_seed) 
+random.randrange(start,end,step)
+</code>
+  *A CodeSculptor program can just run up to 5 seconds "in one block of Code", else the Codesculptor runtime assumes a timeout and aborts operation, by the error message "Line 8: Error: Program exceeded run time limit". See videos "Programming tips -6" and "Blackjack".
+==== Reflection ====
+=== Reflection with Python 2.7.3 - Code Example ===
+<code>
+class Foo:
+    def hello(self):
+        print "Hello World"
+
+# without reflection
+obj = Foo()
+obj.hello()
+
+# with reflection
+class_name = "Foo"
+method = "hello"
+obj = globals()[class_name]()
+getattr(obj, method)()
+</code>
+=== Simulation of a Reflection with CodeSculptor - Code Example ===
+<code>
+global_dict = {}
+def globals():
+    return global_dict
+
+class Foo:
+    def hello(self):
+        print "Hello World"
+
+global_dict['Foo'] = Foo
+
+# without reflection
+obj = Foo()
+obj.hello()
+
+# with reflection
+class_name = "Foo"
+method = "hello"
+obj = globals()[class_name]()
+getattr(obj, method)()
+</code>
+=== Resources ===
+  *[[http://en.wikipedia.org/wiki/Reflection_%28computer_programming%29|EN.Wikipedia "Reflection (computer programming)"]], [[http://de.wikipedia.org/wiki/Reflexion_%28Programmierung%29|DE.Wikipedia "Reflexion (Programmierung)]].
+==== Testing ====
+  *[[http://www.stackoverflow.com/questions/9202772/tests-succeed-still-get-traceback|Stack Overflow "Tests succeed, still get traceback"]].
+==== Text Formatting ====
+=== Indentation Problem ===
+<code>
+Error: Inconsistent indentation detected!
+1) Your indentation is outright incorrect (easy to fix), OR
+2) Your indentation mixes tabs and spaces.
+To fix case 2, change all tabs to spaces by using 
+Edit->Select All followed by Format->Untabify Region 
+and speicfiy the number of columns used by each tab
+</code>
+=== Indentation Problem ===
+<code>
+Syntax error
+There's an error in your program:
+unindent does not match any outer indentation level
+</code>
+==== Windows Platform ====
+=== Python File Extensions with Windows ===
+  *pythonfile.py -> DOS windows, i.e. error messages are printed on the "DOS Console".
+  *pythonfile.pyw -> no DOS window, i.e. error messages are not printed on a "Console".
+=== Modules you should not try to install with "easy_install" on Windows, as Rookie :-( ===
+  *You should not try to install "turtle":
+    *Any installation attempt is obselete, as it is already included in the distributions "Python(x,y)" and "Anaconda".
+    *Installation with "easy_install turtle" aborts with an error message "error: Unable to find vcvarsall.bat" which indicates that there is no proper "C" compiler chain implemented on the Windows computer. Afterwards the module "turtle" can still be imported in Python programs, but any access is denied by the error messages like "AttributeError: 'module' object has no attribute 'Screen'". As rookie, you ruined your Python installation :-(, the only advice I can give you to deinstall and reinstall your Python completely.
+=== Setting up a Compiler Chain to install Modules which need a working "C" Compiler Chain installed ===
+  *[[http://www.falatic.com/index.php/97/howto-getting-started-with-python-development-in-windows-with-msvsgcc-cython-etc|Martin Falatic's Techno Blog "Howto: Getting started with Python development in Windows with MSVS/GCC, Cython, etc."]].
+  *[[http://www.stackoverflow.com/questions/2817869/error-unable-to-find-vcvarsall-bat|Stack Overflow "error: Unable to find vcvarsall.bat"]] - If a module installation is aborted by this error message, you know that you are in trouble, as the module import required a working "C" compiler chain, and you don´t have such :-(.
+==== Calling Pylint from PyScripter on Windows Platform ====
+  *On Win8, 32bit, with Python 2.7.x, loading a file in MSDOS 8+3 style into [[http://code.google.com/p/pyscripter/|PyScripter]] ( e.g."reverseb.py" ), executing [[http://www.pylint.org/|Pylint]] works fine.
+  *But on Win8, 32bit, with Python 2.7.x, loading a file in Windows long filename style into [[http://code.google.com/p/pyscripter/|PyScripter]] ( e.g."reversebinary.py" ), executing [[http://www.pylint.org/|Pylint]]  causes an error message. You see that the call of Pylint is executed in MSDOS 8+3 mode, i.e. "REVERS~1.PY" is called:
+<code>
+Command line: C:\Python27\python.exe C:\Python27\Lib\site-packages\pylint\lint.py 
+C:\Users\Public\projects\SPOTIF~1\REVERS~1.PY -f parseable
+
+C:\Users\Public\projects\SPOTIF~1\REVERS~1.py:1: 
+[C] Invalid name "REVERS~1" for type module
+(should match (([a-z_][a-z0-9_]*)|([A-Z][a-zA-Z0-9]+))$)
+
+Process "Pylint" terminated, ExitCode: 00000010</code>
+  *[[http://groups.google.com/d/topic/pyscripter/YoI4PPUiPpo|Google Groups "PyScripter", Thread "Pylint called from PyScripter, error message '[C] Invalid name 'NAME~1' for type module'"]].
+==== List of all installed Python Modules ====
+  *[[http://www.stackoverflow.com/questions/739993/how-can-i-get-a-list-of-locally-installed-python-modules|StackOverflow "How can I get a list of locally installed Python modules?"]].
+    -"pip freeze" ( works if Python(x,y) is installed ).
+    -A short Python script..
+==== AttributeError: 'module' object has no attribute '__version__' ====
+  *My case:
+    *My problem: My application uses the Tkinter GUI framework [[http://www.github.com/alejandroautalan/pygubu|GitHub "alejandroautalan/pygubu"]] and installs the application by distutils. If I call the application by commandline, there is the error message as "pygubu.py" is both the name of script in the folder "Scripts" ( which I don´t want to import, but which Python tries to import here ) and a name of a module of the application ( which I want to import here ). 
+    *My solution: Rename "Scripts/pygubu.py" to "Scripts/pygubu-script.py" and add a batch file "pygubut.bat" and "pygubu.sh" respectively, which just call "python pygubu-script.py".
+    *The error message:<code>
+File "C:\Python27\lib\site-packages\codebreaker_package\pygubu_codebreaker.py", line 33, in <module>
+    import pygubu
+  File "C:\Python27\Scripts\pygubu.py", line 43, in <module>
+    print("Pygubu: v. %s" % (pygubu.__version__,))
+AttributeError: 'module' object has no attribute '__version__'
+</code>
+  *Other cases:
+    *[[http://www.stackoverflow.com/questions/15649222/redis-py-attributeerror-module-object-has-no-attribute|StackOverflow "redis-py AttributeError: 'module' object has no attribute"]] - "AttributeError: 'module' object has no attribute '__version__'", "You're naming a module you're working on redis.py and Python is importing that instead of the real redis module".
+    *[[http://comments.gmane.org/gmane.comp.emulators.virt-tools/7477|virt-tools-list@redhat.com - Discussion about the virt-manager family of tools () "'module' object has no attribute '__version__'"]] - "My guess is there's two copies of virtinst installed. Edit /usr/share/virt-manager/virtManager/cli.py and do 'print virtinst' right before the virtinst.__version__ failure, and compare that to python -c 'import virtinst; print virtinst'".
+    *[[http://blog.willmer.org/2007/12/attributeerror-module-object-has-no-attribute-blah/|Rachel's Knowledge Base - Technical Stuff I Don't Want To Forget "AttributeError: ‘module’ object has no attribute ‘blah'"]].
+      *A.
+        *"The obvious cause of this is that the settings.py doesn’t have the directory containing blah listed in INSTALLED_APPS".
+        *"A less obvious cause: you’ll also get this error if the directory doesn’t contain a file __init__.py".
+      *B.
+        *"if you use import to include a module, make sure you don’t have a file named just the same as the module you are trying to include in current directory".
+==== Virtualenv on Windows ====
+  *Error message<code>
+File "C:\Python27\lib\site-packages\virtualenv.py", line 1576, in resolve_interpreter
+    python_versions = get_installed_pythons()
+  File "C:\Python27\lib\site-packages\virtualenv.py", line 93, in get_installed_pythons
+    path = winreg.QueryValue(python_core, "%s\\InstallPath" % ver)
+WindowsError: [Error 2] The system cannot find the file specified</code>
+  *The expected Windows registry structure is, according to "virtualenv.py", like this: "HKEY_LOCAL_MACHINE / Software / Python / PythonCore / 2.7 / ...".
+  *On the special machine, a formerly installed Python 3.3 was not properly deinstalled, i.e. there was a Windows registry structure "HKEY_LOCAL_MACHINE / Software / Python / PythonCore / 3.3 / ..." but not all expected subdirectories of "3.3" were implemented, so that the parsing of the Windows registry failed.
+  *Solution: Use the Windows tool "RegEdit" to delete the whole key of "HKEY_LOCAL_MACHINE / Software / Python / PythonCore / 3.3".
+
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Programming/Languages/Python/|OpenDirectory "Top: Computers: Programming: Languages: Python]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Programmieren/Sprachen/Python/|OpenDirectory "Top: World: Deutsch: Computer: Programmieren: Sprachen: Python"]].
+ {{tag>"Unix script language" "script language" Python}}
+<footnote_navi_en>

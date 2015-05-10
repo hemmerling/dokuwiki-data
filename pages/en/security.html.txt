@@ -1,0 +1,240 @@
+====== [Hemmerling] Security ======
+Related page:
+  *[[legalmatters.html|Legal Matters]].
+  *[[dataprivacy.html|Data Privacy - Encryption, Passwords, Trust]].
+===== Security News =====
+  *[[http://www.symantec.com/business/theme.jsp?themeid=threatreport|Symantec Internet Security Threat Report]].
+  *[[http://www.us-cert.gov/|US-CERT - United States Computer Emergency Readiness Team]].
+  *[[http://secunia.com/vulnerability-review/|Secunia Vulnerability Review]].
+===== Information Security Management System ( ISMF )=====
+  *[[http://en.wikipedia.org/wiki/Information_security_management_system|EN.Wikipedia "Information security management system"]], [[http://de.wikipedia.org/wiki/Information_Security_Management_System|DE.Wikipedia "Information Security Management System"]] ( ISMF ).
+  *[[http://de.wikipedia.org/wiki/IT-Grundschutz-Kataloge|DE.Wikipedia "IT-Grundschutz-Kataloge"]].
+===== Security Tools =====
+==== Free Security Online Services ====
+  *[[http://www.exploit-db.com/|Exploits Database by Offensive Security]].
+  *[[http://www.shodanhq.com/|SHODAN - Computer Search Engine]].
+    *[[http://docs.shodanhq.com/|SHODAN - Computer Search Engine "Shodan API’s documentation"]].
+    *[[http://en.wikipedia.org/wiki/Shodan_%28website%29|EN.Wikipedia "Shodan (website)"]].
+  *[[http://www.stopforumspam.com/|Stop Forum Spam]] - "We provide lists of spammers that persist in abusing forums and blogs with their scams, ripoffs, exploits and other annoyances".
+==== Free Security Tools ====
+  *Microsoft.
+    *[[http://technet.microsoft.com/en-gb/security/cc184924.aspx|Microsoft Security TechCenter "Microsoft Baseline Security Analyzer"]] for W2k, WinXP.
+    *[[http://www.microsoft.com/downloads/details.aspx?FamilyID=5534bee1-3cad-4bf0-b92b-a8e545573a3e|Microsoft Security Compliance Manager]] for Win7, Vista.
+      *[[http://technet.microsoft.com/en-us/library/cc677002.aspx|Microsoft TechNet "Microsoft Security Compliance Manager"]].
+    *The free [[http://www.shavlik.com/products/netchk-limited.aspx|Shavlik NetChk Limited]] for legacy Windows systems :-).
+  *[[http://www.bsi.de/|Bundesamt für Sicherheit in der Informationstechnik]] ( BSI ).
+    *[[http://www.bsi.bund.de/cln_183/ContentBSI/Themen/ProdukteTools/BOSS/BSIOSS.html|BSI "BOSS (BSI OSS Security Suite)"]].
+      *[[http://www.heise.de/security/artikel/BOSS-BSI-OSS-Security-Suite-270704.html|heise-online "BOSS (BSI OSS Security Suite)"]] ( 2005-06-16 ).
+      *[[http://www.heise.de/newsticker/meldung/81916|heise online "BSI veröffentlicht Prüfsoftware für Netzwerksicherheit"]] ( 2006-12-02 ).
+  *[[http://www.lavasoft.de/software/adaware/|Lavasoft "Ad-Aware Free"]], a free privacy software - "Echtzeitschutz vor Spyware, Trojanern, Rootkits, Hijackern, Keyloggern und mehr!".
+    *[[http://www.grc.com/optout.htm|Steve Gibson, Gibson Research Corporation "OptOut"]] - discontinued.
+  *[[http://www.safer-networking.org/|Spybot - Search & Destroy]], a free privacy software.
+  *[[http://www.xp-antispy.org/|xp-AntiSpy]], free privacy protection against Microsoft for Windows.
+==== Commercial Security Tools ====
+  *[[http://www.neuber.com/|Neuber Software]] - the commercial "Network Security Taskmanager" / "Security Task Manager" - "Shows detailed information about all running processes: file path, description, security risk rating, start time, icon".
+  *[[http://www.lostpassword.com/|Passware - Password Recovery]].
+===== AntiVirus and Firewall Software =====
+==== Free and comercial AntiVirus software ====
+  *[[http://www.free-av.de/|Avira AntiVir]] - free antivirus software for Windows. The free edition does not work with Windows server editions like W2k-Server #.
+    *[[http://www.avira.com/en/support-download-free-antivirus|Download Avira AntiVir Personal - Free Antivirus]].
+    *The commercial "Avira AntiVir Professional" is for W2k-Server, but not for Win2003, Win2008.
+    *The commercial "Avira AntiVir Server" is for W2k-Server, Win2003, Win2008.
+    *The free "AntiVir Free 10.2.0.703" is the latest release for W2k -> Download [[http://www.avira.com/en/support-download-free-antivirus|Download Avira AntiVir Personal - Free Antivirus]].
+    *The legacy "classical" [[http://www.oldversion.com/download-Avira-AntiVir-9.0.0.418.html|Avira AntiVir 9.0.0.418]] of 2009-12-08.
+    *On Win7, "Avira AntiVir" asks to deinstall "Microsoft Security Essentials" :-(.
+  *[[http://www.avast.com/free-antivirus-download|avast! free]] - free antivirus software for Windows. The free edition does not work with Windows server editions like W2k-Server.
+  *[[http://www.avg.com/de-de/product-avg-anti-virus-free-edition|AVG Anti-Virus Free Edition]] - free antivirus software for Windows. The free edition does not work with Windows server editions like W2k-Server.
+  *[[http://www.bitdefender.de/PRODUCT-14-de--bitdefender-10-free-edition.html|BitDefender Free Edition]] - free antivirus software for Windows. No resident monitoring sentinel. The free edition does not work with Windows 7 (?) and Windows server editions like W2k-Server.
+  *ClamAV / Immunet.
+    *The free [[http://www.clamav.net/|ClamAV]] for Linux and [[http://www.sosdg.org/clamav-win32|ClamAV/SOSDG]] for Windows. It does not provide a real-time guard :-(.
+      *Blog [[http://blog.clamav.net/|ClamAV Blog]].
+        *Blog article [[http://blog.clamav.net/2011/02/immunet-30-powered-by-clamav.htm|ClamAV Blog "Immunet 3.0 - Powered by ClamAV "]], 2011-02-08.
+    *The free [[http://www.immunet.com/|Immunet by Sourcefire]] for Windows.
+      *[[http://support.immunet.com/|Immunet by Sourcefire - Support]].
+      *Blog [[http://blog.immunet.com/|Immunet Blog]].
+  *Microsoft.
+    *[[http://www.microsoft.com/Security_Essentials/|Microsoft Security Essentials]].
+      *[[http://en.wikipedia.org/wiki/Morro_%28software%29|EN.Wikipedia "Microsoft Security Essentials"]].
+    *[[http://www.microsoft.com/windows/products/winfamily/defender|Microsoft Windows Defender]].
+      *[[http://en.wikipedia.org/wiki/Windows_Defender|EN.Wikipedia "Windows Defender"]].
+      *[[http://support.microsoft.com/Default.aspx?kbid=915052|Microsoft Help and Support "Error message when you try to install Windows Defender on a Windows 2000-based computer: 'This software requires GDI+ Please load the Windows 2000 Security Software Prerequisite Pack'"]].
+==== Free Firewall Software ====
+  *[[http://www.ashampoo.com/en/eur/pin/0050/Security_Software/Ashampoo-FireWall-FREE|Ashampoo FireWall FREE]] for Windows.
+  *[[http://www.privacyware.com/personal_firewall.html|PWI, Inc. / Privacyware "Privatefirewall"]] for Windows.
+==== Just-Commercial, Affordable AntiVirus software ====
+  *The commercial "F-PROT Antivirus" by [[http://www.f-prot.com/|F-PROTF]] works with W2k-Server, Win2003, Win2008, too.
+  *[[http://www.rising-global.com/|Rising Antivirus]] - commercial antivirus software.
+==== Resources ====
+  *[[http://www.av-comparatives.org/|AV-Comparatives - Independent Tests of Anti-Virus Software]].
+===== Microsoft Security Technologies =====
+  *[[http://www.microsoft.com/windowsserver2003/technologies/directory/activedirectory/|Microsoft "Windows Server 2003 Active Directory"]] ( ADS ).
+    *[[http://en.wikipedia.org/wiki/Active_Directory|EN.Wikipedia "Active Directory"]], [[http://de.wikipedia.org/wiki/Active_Directory|DE.Wikipedia "Active Directory"]].
+  *[[http://www.microsoft.com/forefront/edgesecurity/isaserver/en/us/|Microsoft "Internet Security and Acceleration Server"]] ( ISA ), [[http://www.microsoft.com/forefront/threat-management-gateway/en/us/|Microsoft "Forefront Threat Management Gateway"]] ( TMG ).
+    *[[http://en.wikipedia.org/wiki/Microsoft_Forefront_Threat_Management_Gateway|EN.Wikipedia "Microsoft Forefront Threat Management Gateway"]], [[http://de.wikipedia.org/wiki/Microsoft_Internet_Security_and_Acceleration_Server|DE.Wikipedia "Microsoft Internet Security and Acceleration Server"]].
+  *[[http://www.microsoft.com/germany/technet/sicherheit/newsletter/nap.mspx|Microsoft TechNet "Network Access Protection (NAP)"]].
+    *[[http://en.wikipedia.org/wiki/Network_Access_Protection|EN.Wikipedia "Network Access Protection"]], [[http://de.wikipedia.org/wiki/Microsoft_Windows_Server_2008|DE.Wikipedia "Microsoft Windows Server 2008"]] ( "Sicherheit / Network Access Protection" ).
+===== Internet and Software Application Security =====
+==== Tools ====
+  *[[http://www.metasploit.com/|Metasploit]] - "World's most used penetration testing software".
+    *[[http://en.wikipedia.org/wiki/Metasploit_Project|EN.Wikipedia "Metasploit Project"]], [[http://de.wikipedia.org/wiki/Metasploit|DE.Wikipedia "Metasploit"]].
+==== Secure Connections ====
+=== Internet Protocol Security (  IPsec ) ===
+  *[[http://en.wikipedia.org/wiki/IPsec|EN.Wikipedia "IPsec"]], [[http://de.wikipedia.org/wiki/IPsec|DE.Wikipedia "IPsec"]].
+=== OpenVPN ===
+  *[[http://www.openvpn.net/|OpenVPN Technologies, Inc. "OpenVPN"]].
+  *[[http://en.wikipedia.org/wiki/OpenVPN|EN.Wikipedia "OpenVPN"]], [[http://de.wikipedia.org/wiki/OpenVPN|DE.Wikipedia "OpenVPN"]].
+  *The OpenSource software [[http://www.openvpn.se/|OpenVPN GUI for Windows]],
+=== Certificates & Certificate Generation ===
+  *[[http://xca.sourceforge.net/|SourceForge "XCA - X Certificate and key management"]], [[http://www.sourceforge.net/projects/xca|SourceForge "xca"]].
+==== Resources ====
+  *I was told by experts, that "OpenVPN" and "IPsec" are alternatives :-).
+  *[[http://www.owasp.org/|OWASP - The free and open software security community]].
+    *[[http://www.owasp.org/index.php/Category:OWASP_Top_Ten_2013_Project|Category:OWASP Top Ten 2013 Project]].
+    *[[http://www.owasp.org/index.php/Germany/Projekte/Top_10_fuer_Entwickler-2013/Inhaltsverzeichnis|OWASP "Germany/Projekte/Top 10 fuer Entwickler-2013/Inhaltsverzeichnis"]]
+    *[[http://www.owasp.org/index.php/OWASP_Mobile_Security_Project#tab=Top_Ten_Mobile_Risks|OWASP Mobile Security Project "Top 10 Mobile Risks"]].
+    *[[http://www.owasp.org/images/8/89/OWASP_Top_10_2007_for_JEE.pdf|OWASP TOP 10 FOR JAVA EE. THE TEN MOST CRITICAL WEB APPLICATION SECURITY VULNERABILITIES FOR JAVA ENTERPRISE APPLICATIONS. OWASP SPRING OF CODE PROJECT 2007]] ( PDF ).
+  *[[http://www.sans.org/|SANS Institute]].
+    *[[http://www.sans.org/critical-security-controls/|SANS Institute "Critical Security Controls"]] - "Top 20 Critical Controls".
+    *[[http://www.sans.org/top25-software-errors/|SANS Institute "CWE/SANS TOP 25 Most Dangerous Software Errors"]].
+  *Troy Hunt.
+    *[[http://www.troyhunt.com/2011/12/free-ebook-owasp-top-10-for-net.html|Troy Hunt "Free eBook: OWASP Top 10 for .NET developers"]] ( 2011-12 ) - Free PDF book.
+    *[[http://www.troyhunt.com/2010/05/owasp-top-10-for-net-developers-part-1.html|Troy Hunt "OWASP Top 10 for .NET developers part 1: Injection"]] ( 2010-05 ) -> Part 1 - part 10.
+    *[[http://www.slideshare.net/johnkary/scared-straight-mitigating-owasp-top-10-with-php|SlideShare "John Kary: Scared Straight: Mitigating OWASP Top 10 with PHP"]].
+  *[[http://en.wikipedia.org/wiki/OWASP|EN.Wikipedia "OWASP"]], [[http://de.wikipedia.org/wiki/OWASP|DE.Wikipedia "OWASP"]].
+===== Security For Automation =====
+  *[[http://www.bsi.bund.de/|Bundesamt für Sicherheit in der Informationstechnik]].
+    *[[http://www.bsi.bund.de/ContentBSI/Themen/Cyber-Sicherheit/Analysen/Statistiken/BSIa004.html|Bundesamt für Sicherheit in der Informationstechnik "Industrial Control System Security - Top 10 Bedrohungen"]].
+    *[[http://www.bsi.bund.de/ICS-Security-Kompendium|Bundesamt für Sicherheit in der Informationstechnik "Industrial Control System (ICS) Security"]].
+      *[[http://www.bsi.bund.de/DE/Themen/weitereThemen/ICS-Security/Empfehlungen/Empfehlungen_node.html|Bundesamt für Sicherheit in der Informationstechnik "In­dus­tri­al Con­trol Sys­tem Se­cu­ri­ty / Emp­feh­lun­gen / Allgemeine Empfehlungen"]].
+        *"ICS Security Kompendium" ( PDF ) #.
+        *"Umgang mit dem Ende des Supports für Windows XP" ( PDF ).
+      *[[http://www.bsi.bund.de/DE/Themen/weitereThemen/ICS-Security/Empfehlungen/Hersteller/Hersteller_node.html|Bundesamt für Sicherheit in der Informationstechnik "In­dus­tri­al Con­trol Sys­tem Se­cu­ri­ty / Emp­feh­lun­gen /  Her­stel­ler und In­te­gra­to­ren / Empfehlungen für Betreiber"]].
+      *"Handhabung von Schwachstellen" ( PDF ).
+      *"Vulnerability Handling" ( PDF ).
+      *"Anforderungen an netzwerkfähige Industriekomponenten" ( PDF ) #.
+    *Event "Industrial Security" by [[http://www.siemens.de/|Siemens AG]] with speech of Holger Junker, [[http://www.bsi.bund.de/|Bundesamt für Sicherheit in der Informationstechnik]] in Bispingen, Germany ( 2014-01-16 ).
+      *[[http://www.xing.com/profile/Holger_Junker|XING "Holger Junker"]].
+      *[[http://de.linkedin.com/pub/holger-junker/4b/b56/5b8|LinkedIn "Holger Junker"]].
+      *[[http://www.twitter.com/HolgerJunker|Twitter "Holger Junker"]].
+      *[[http://www.hpi.uni-potsdam.de/meinel/lehrstuhl/symposia/2nd_soa_security_2010/vortragende/holger_junker.html|Hasso Plattner Institut "Holger Junker. SOA Security heute und morgen]].
+  *ISA-99.
+    *[[http://www.isa.org/MSTemplate.cfm?MicrositeID=988&CommitteeID=6821|ISA - The International Society of Automation "ISA99, Industrial Automation and Control Systems Security"]].
+    *Wiki [[http://isa99.isa.org/|ISA99 Committee on Industrial Automation and Control Systems Security "ISA99 Wiki"]].
+    *[[http://en.wikipedia.org/wiki/Cyber_security_standards|EN.Wikipedia "Cyber security standards"]] -> "ISA-99".
+  *Siemens.
+    *[[http://support.automation.siemens.com/WW/view/de/26462131|Whitepaper "Sicherheitskonzept PCS 7 und WinCC - Basisdokument"]].
+    *[[http://support.automation.siemens.com/WW/view/de/43876783|SIEMENS "SIMATIC WinCC / SIMATIC PCS 7: Information bezüglich Malware / Virus / Trojaner"]].
+      *[[http://en.wikipedia.org/wiki/Stuxnet|EN.Wikipedia "Stuxnet"]], [[http://de.wikipedia.org/wiki/Stuxnet|DE.Wikipedia "Stuxnet"]].
+  *[[http://www.scadasl.org/|SCADA Strange Love]], [[http://scadastrangelove.org/|SCADA Strange Love]].
+    *Blog [[http://scadastrangelove.blogspot.de/|Blogspot "SCADA Strange Love"]].
+    *[[http://www.slideshare.net/qqlan/internet-connected-icsscadaplc|SlideShare "Internet connected ICS/SCADA/PLC Cheat Sheet 2013"]].
+    *[[http://www.youtube.com/watch?v=2-kFllWpCGg|YouTube "repdet, sgordey: SCADA Strangelove 2. We already know"]].
+    *[[http://events.ccc.de/congress/2013/Fahrplan/events/5582.html|Schedule 30C3 "lecture: SCADA StrangeLove 2. We already know"]].
+    *[[http://events.ccc.de/congress/2013/wiki/Session:Hacking_SCADA:_ICS_Penetration_testing_workshop|30C3 - Self-organized Sessions "Hacking SCADA: ICS Penetration testing workshop"]].
+    *Tools:
+      *[[http://www.tcpdump.org/|TCPDUMP & LIBPCAP]].
+      *[[http://www.wireshark.org/|Wireshark]] and  "tshark", a terminal oriented version of Wireshark.
+      *[[http://en.wikipedia.org/wiki/Kali_Linux|EN.Wikipedia "Kali Linux"]], [[http://de.wikipedia.org/wiki/Kali_Linux|DE.Wikipedia "Kali Linux"]].
+      *Scapy - "powerful interactive packet manipulation program".
+        *[[http://www.secdev.org/|Ne dites rien, les mots sont superflus... ( SecDev.org by Phil )]].
+          *[[http://www.secdev.org/projects/scapy/|SecDev.org "Scapy"]].
+          *[[http://www.secdev.org/projects/scapy/doc/installation.html|SecDev.org "Scapy v2.1.1-dev documentation. Download and Installation"]].
+    *[[http://www.ptsecurity.com/|Positive Technologies]] - Provider of some other tools.
+===== Security Protocols and Security Frameworks ( for Software Development ) =====
+  *Pascal Alich.
+    *[[http://www.github.com/pascalalich/eclipse-oauth-demo|GitHub "pascalalich/eclipse-oauth-demo"]].
+    *Speech " Oh Oh OAuth - Eclipse OAuth Integration" at [[http://wiki.eclipse.org/Eclipse_DemoCamps_December_2014/Hannover|Eclipse DemoCamps December 2014/Hannover]].
+  *[[http://en.wikipedia.org/wiki/OAuth|EN.Wikipedia "OAuth"]], [[http://de.wikipedia.org/wiki/OAuth|DE.Wikipedia "OAuth"]].
+===== Trusted Computing =====
+  *[[http://www.zeit.de/digital/datenschutz/2013-08/trusted-computing-microsoft-windows-8-nsa|ZEIT Online "Bundesbehörden sehen Risiken beim Einsatz von Windows 8"]], 2013-08-29.
+  *[[http://en.wikipedia.org/wiki/Trusted_Computing|EN.Wikipedia "Trusted Computing"]], [[http://de.wikipedia.org/wiki/Trusted_Computing|DE.Wikipedia "Trusted Computing"]].
+  *[[http://en.wikipedia.org/wiki/Next-Generation_Secure_Computing_Base|EN.Wikipedia "Next-Generation Secure Computing Base"]], [[http://de.wikipedia.org/wiki/Next-Generation_Secure_Computing_Base|DE.Wikipedia "Next-Generation Secure Computing Base"]] ( formerly: "Palladium" :-( ).
+  *[[http://en.wikipedia.org/wiki/Trusted_computing_base|EN.Wikipedia "Trusted computing base"]].
+  *[[http://en.wikipedia.org/wiki/Trustworthy_Computing|EN.Wikipedia "Trustworthy computing"]].
+
+===== Online Magazines =====
+  *[[http://www.compliancemagazin.de/markt/|Compliance-Magazin.de - Governance, Risk & Compliance. Das GRC Portal]].
+    *[[http://www.compliancemagazin.de/markt/unternehmen/tuev-rheinland301009.html|Complianc-Magazin.de - Governance, Risk & Compliance. Das GRC Portal "Zentrale Aspekte des Datenschutzes"]] - up to 50.000 EUR or 300.000 EUR monetary fine in case of accountability.
+===== Paper Magazines =====
+  *[[http://www.automation-security.de/|a+s - zeitschrift für automation und security]].
+  *[[http://www.kes.info/|<kes> - Die Zeitschrift für Informations-Sicherheit]].
+===== Fairs =====
+  *The fair [[http://www.it-sa.de/|it-sa - Die IT-Security-Messe]], Nürnberg ( 2012-10-16 - 2012-10-18 ).
+===== Experts =====
+  *[[http://www.datenschutzberater.de/|VON ZUR MÜHLEN'SCHE GmbH, BdSI (VZM) - datenschutzberater.de]] -> Externe Datenschutzbeauftragter ( IHK ).
+===== Services =====
+  *[[http://www.stopbadware.org/|StopBadware - This isn't an attack site... or is it?]].
+  *[[http://www.bynamite.com/|Bynamite, Inc]] for Firefox 3.
+    *[[http://www.facebook.com/bynamiteinc|Facebook "Bynamite, Inc"]] - "Find out what advertisers know about you, and change it, with Bynamite".
+    *[[http://www.facebook.com/note.php?note_id=10150111336797049|Facebook "Bynamite, Inc", Note "bynamite is in hobby mode"]], 2010-12-05.
+  *[[http://www.stopforumspam.com/|Stop Forum Spam]].
+    *[[http://www.stopforumspam.com/add|Stop Forum Spam - Add a Spammer]].
+    *[[http://www.stopforumspam.com/removal|Stop Forum Spam - Removal]].
+===== Accountability in IT Business =====
+  * "Cloud Computing" = "Auftragsdatenverarbeitung", according to $11 of "Bundesdatenschutzgesetz" ( BDSG ).
+
+===== Scam =====
+  *[[http://www.anti-scam.de/|Anti-Scam-Forum]], Germany - "TEILE KEINEM SCAMMER MIT, DASS SIE HIER GELISTET SIND. Die, die es tun erhalten sofort Verbannung" :-).
+  *[[http://www.anti-scam-forum.net/|Anti-Scam-Forum-NL]], Germany.
+  *[[http://www.dragonladies.org/|DragonLadies.org BBS]] - "A forum for the collection, and publication of information on female internet romance scammers from Asia".
+  *Blog [[http://scumalert.blogspot.de/|ScumAlert]].
+===== Examples of Devices connected to the public Internet =====
+  *[[http://hp8100-238main-gift.mit.edu/wcd/top.xml|KONICA MINOLTA PageScope Web Connection]].
+===== Resources =====
+  *[[https://www.botfrei.de/|eco - Verband der deutschen Internetwirtschaft e.V. "Anti-Botnet-Beratungszentrum"]].
+  *[[http://www.a-i3.org/|Arbeitsgruppe Identitätsschutz im Internet (a-i3)]].
+  *[[http://www.bsi.de/|Bundesamt für Sicherheit in der Informationstechnik]] ( BSI ).
+    *[[http://www.bsi.de/gshb/|IT-Grundschutzhandbuch]] ( IT-Baseline Protection Manual ).
+    *[[http://www.bsi-fuer-buerger.de/|BSI für Bürger]].
+  *[[http://www.computerbetrug.de/|computerbetrug.de und dialerschutz.de]].
+  *Datenschutz.
+    *[[http://www.datenschutz.de/|Datenschutz.de - Virtuelles Datenschutzbüro]].
+    *[[http://www.baden-wuerttemberg.datenschutz.de/|Landesbeauftragte für den Datenschutz Baden-Württemberg]].
+    *[[http://www.datenschutz-bayern.de/|Bayerische Landesbeauftragte für den Datenschutz]].
+    *[[http://www.datenschutz-berlin.de/|Berliner Beauftragter für Datenschutz und Informationsfreiheit]].
+    *[[http://www.www.lda.brandenburg.de/‎|Landesbeauftragte für den Datenschutz und für das Recht auf Akteneinsicht Brandenburg]].
+    *[[http://www.datenschutz-hamburg.de/|Hamburgischer Beauftragten für Datenschutz und Informationsfreiheit (HmbBfDI)]].
+    *[[http://www.datenschutz.hessen.de/|Hessischen Datenschutzbeauftragter]].
+    *[[http://www.lfd.m-v.de/|Der Landesbeauftragte für Datenschutz und Informationsfreiheit Mecklenburg-Vorpommern]].
+    *[[http://www.lfd.niedersachsen.de|Landesbeauftragter für den Datenschutz Niedersachsen]].
+      *[[http://www.hannover.de/Leben-in-der-Region-Hannover/Verwaltungen-Kommunen/Die-Verwaltung-der-Landeshauptstadt-Hannover/Datenschutzbeauftragter-der-Landeshauptstadt-Hannover|Datenschutzbeauftragter der Landeshauptstadt Hannover]].
+    *[[http://www.ldi.nrw.de/|Landesbeauftragte für Datenschutz und Informationsfreiheit Nordrhein-Westfalen]].
+    *[[http://www.datenschutz.rlp.de/|Der Landesbeauftragte für den Datenschutz und die Informationsfreiheit Rheinland-Pfalz]].
+    *[[http://www.lfdi.saarland.de/|Unabhängiges Datenschutzzentrum Saarland]].
+    *[[http://www.saechsdsb.de/|Sächsischen Datenschutzbeauftragter]].
+    *[[http://www.datenschutzzentrum.de/|Unabhängiges Landeszentrum für Datenschutz Schleswig-Holstein (ULD)]].
+    *[[http://www.tlfdi.de|Thüringer Landesbeauftragter für den Datenschutz und die Informationsfreiheit]].
+  *[[http://www.sicher-im-netz.de/|Deutschland sicher im Netz e.V.]].
+  *[[http://www.foebud.org/|FoeBuD e.V.]].
+  *[[http://www.gnupt.de/|GnuPT - Gnu Privacy Tools]] - "Ihr Portal zur Verschluesselung mit GnuPG".
+  *heise.
+    *[[http://www.heise.de/newsticker/meldung/Microsoft-Schreibt-eure-Passwoerter-auf-163534.html|heise online "Microsoft: Schreibt eure Passwörter auf"]].
+    *[[http://www.heise.de/ct/antivirus/|heise Security - AntiVirus]].
+  *Lower Saxony.
+    *[[http://www.verfassungsschutz.niedersachsen.de/|Niedersächsisches Ministerium für Inneres und Sport - Verfassungsschutz -]], "Wirtschafts- und Geheimschutz / Wirtschaftschutz" -> "MI-Abt-6-Wirtschaftsschutz".
+    *[[http://www.mi.niedersachsen.de/|Niedersächsisches Ministerium für Inneres und Sport]], "Themen > Innere Sicherheit > Verfassungs- & Geheimschutz > Geheim- & Wirtschaftsschutz > Wirtschaftsschutz".
+  *[[http://www.rfc-ignorant.org/|rfc-ignorant.org]] - "The clearinghouse for sites who think that the rules of the internet don't apply to them".
+  *[[http://www.secupedia.info/|SecuPedia]] #.
+  *[[http://www.trojaner.info/|Trojaner.Info - Die Informationsseite über Trojanische Pferde]].
+  *[[http://www.trojan-horse.info/|trojan-horse.info]]  - "Trojan Horses (Trojans), Viruses, Worms, Spyware, Malware – a guide for the perplexed".
+  *[[http://hoax-info.tubit.tu-berlin.de/hoax/|TU-Berlin Hoax-Info Service]].
+  *[[http://www.mintywhite.com/|Windows Guides]].
+      *Free "PC Security Handbook".
+      *Free "PC Maintenance Handbook".
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/Common_Criteria|EN.Wikipedia "Common Criteria"]], [[http://de.wikipedia.org/wiki/Common_Criteria_for_Information_Technology_Security_Evaluation|DE.Wikipedia "Common Criteria for Information Technology Security Evaluation"]].
+    *[[http://en.wikipedia.org/wiki/Cyber_security_standards|EN.Wikipedia "Cyber security standards"]].
+    *[[http://en.wikipedia.org/wiki/Control_system_security|EN.Wikipedia "Control system security"]].
+  *[[http://www.zone-h.org/|Zone-H - Unrestricted information]].
+===== Forums, Newsgroups, Communities =====
+  *[[http://forum.avira.com/|Avira Support Forum]].
+    *[[http://forum.avira.com/wbb/index.php?page=Thread&threadID=157458|Avira Support Forum "How can I stop "Luke Skywalker. Scanning the registry" prevent or schedule operation ?"]].
+  *[[http://forum.emsisoft.com/|Emsi Software - e-squared Support]] ( read-only ) forum, [[http://support.emsisoft.com/|Emsi Software Support]] forum.
+  *[[http://secunia.com/community/forum/|Secunia Forum]].
+  *[[http://www.stopforumspam.com/|Stop Forum Spam - Forum]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Security/|OpenDirectory "Top: Computers: Security"]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Sicherheit/|OpenDirectory "Top: World: Deutsch: Computer: Sicherheit"]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Internet/Missbrauch/|OpenDirectory "Top: World: Deutsch: Computer: Internet: Missbrauch"]].
+{{tag>security anti-virus "anti virus" virus}}
+<footnote_navi_en>

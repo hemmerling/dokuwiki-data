@@ -1,0 +1,194 @@
+====== [hemmerling] Electric Units & Electronics 2/3 - Actors, Sensors, Embedded Systems Electronics and suitable Control Systems ======
+Related pages:
+  *[[electronics01.html|Electric Units & Electronics 1/3 - My Electronics, Electronics Workbench Equipment, Electronics Literature & Resources]].
+  *[[electronics03.html|Electric Units & Electronics 3/3 - Manufacturers, Distributors, Vendors & Datasheets]].
+
+===== Actors & Output Devices =====
+==== FTDI Eve ====
+=== The Graphics Chip ===
+  *[[http://www.ftdichip.com/EVE.htm|Future Technology Devices International Limited ( FTDI ) "FT800 chip / FTDI Eve"]] - "FTDI Chip is redefining the cost and quality paradigm for graphic user interface (GUI) development with the introduction of the FT800, Embedded Video Engine (EVE)".
+    *[[http://www.youtube.com/user/ftdichip|YouTube Channel "FTDI Chip"]].
+=== The USB to SPI Cable - The "PC Starterkit" ===
+  *[[http://www.ftdichip.com/Products/Cables/USBMPSSE.htm|Future Technology Devices International Limited ( FTDI ) "USB Hi-Speed to MPSSE Cables"]] - "Range of USB Hi-Speed cables capable of emulating USB Hi-Speed to UART, SPI, I2C and JTAG protocols".
+    *<del>C232HM-DDHSL-0, MPSSE, 10 single pole receptacles, 30Mbps, 0.5m, Additional Voltage Output Level (If available) = 3.3V</del> - not really recommended.
+    *C232HM-EDHSL-0, MPSSE, 10 single pole receptacles, 30Mbps, 0.5m, Additional Voltage Output Level (If available) = 5V - recommended if you need to supply power by the USB cable from the PC.
+   *[[http://www.ftdichip.com/Drivers/D2XX.htm|Future Technology Devices International Limited ( FTDI ) "D2XX Direct Drivers"]] for Windows.
+   *[[http://www.ftdichip.com/Support/SoftwareExamples/MPSSE.htm|Future Technology Devices International Limited ( FTDI ) "FT2232C MPSSE Projects"]].
+   *[[http://www.ftdichip.com/Support/Documents/ProgramGuides.htm|Future Technology Devices International Limited ( FTDI ) "FTDI Programming Guides"]].
+   *[[http://www.ftdichip.com/Support/Knowledgebase/|Future Technology Devices International Limited ( FTDI ) "FTDI Knowledgebase"]].
+  *Tips:
+    *"If for any reason there is no Voltage label on the cable, then the above pictures show you how to identify them. The plastic inside the connector housing will be black for 3.3 Volts, and white for 5 Volts".
+=== Boards with FTDI Eve ===
+== Glyn ==
+  *[[http://www.glyn.de/EVE|Glyn Jones GmbH und Co. Vertrieb von elektronischen Bauelementen KG "Schneller Start für 'EVE': Ohne Grundkenntnisse – Grafik, Sound und Touch in wenigen Minuten"]]
+  *[[http://www.glyn.de/Produkte/Mikrocontroller/Evaboards|Glyn Jones GmbH und Co. Vertrieb von elektronischen Bauelementen KG "Mikrocontroller / Evaboards - EVE"]].
+  *Glyn "EVBMB9B520EVEVE" board.
+    *With Spansion MB9BF524K, ARM M3 core 256K bytes Flash, 32KByte Working Flash, 32KBytes RAM.
+    *With interface to Glyn "EVBEVEFT800".
+  *Glyn "EVBEVEFT800" board.
+    *With graphics chip FTDI FT800.
+    *With interface to resistive touch controllers.
+  *Resistive touch display by [[http://www.edtc.com/|Emerging Display Technologies]] ( EDT ), WQVGA ( 480 x  272 ).
+    *[[http://www.edtc.com/edt/Products/tft_subsearch.asp?search=4.3%22|Emerging Display Technologies "TFT Products"]] - "ET043008DH6".
+    *[[http://www.glyn.de/Produkte/Displays/Aktive-Displays-%28TFT%29?q=G-ET0430G0DH6|Glyn "G-ET0430G0DH6"]].
+    *[[http://www.reichelt.de/LCD-Module-Touch-Grafik/TFT-DIS-4-3-MT/3//index.html?ACTION=3&GROUPID=3011&ARTICLE=101751&SHOW=1&OFFSET=16&|reichelt elektronik GmbH & Co. KG "TFT-DIS 4,3 MT :: TFT-Display 10,9cm (4,3) mit Touch Panel, 480x272 WQVGA"]].
+  *The graphics chip, board and display are designed to be used in "landscape" mode only ( not in "portrait" mode ). There are just ASCII characters ( 0..127 ) for "landscape" mode available.
+  *Access to pixels:
+    *With traditional graphics controllers, there are 5 - 6 layers, and you may set every pixel of every layer.
+    *With FT800, you can´t easily set a single pixel.
+  *The graphics demo videos look as if the vidoes are not recorded by an external cam, but by transfering images back to a host... True?!
+  *Example code:
+    *The FT800 software examples by FTDI are mostly in C++ ( and not just C ), sometimes just working with Microsoft Visual Studio C/C++ compiler.. true?!
+    *The FT800 software examples by Glyn are in "C" and kept as simple s possible.
+  *Tool support:
+    *iSystems WinIDEA already support "Spansion MB9BF524K" and will make the Glyn "EVBMB9B520EVEVE" board selectable as target option.
+    *The newest version of Spansion's "USB wizzard" application already supports the ARM board, so that the wizzard may create a working USB driver.
+  *Installation tips:
+    *Please install Seggert JLink without "virtual COM port".
+    *The CPU is "MB9BF524K".
+    *You may flash the ARM board directly by USB, without having attachted the TFT display nor the FT800 controller board.
+      *"Project settings / Customize":
+        *Path: "$(CMPDIR)bin\arm-none-eabi-objcopy.exe".
+        *Commandline: "--output-target=srec $(IRFDIR)\Debug\template.elf $(IRFDIR)\Debug\template.srec".
+      *The hex file is in the "Debug" directory, e.g. "template.srec".
+      *You have to set the red jumpber on JP4 on the ARM board.
+      *Connect the ARM board with the USB cable.
+      *The ARM board goes into USB device modus.
+      *A virtual COM port must be installed once, a driver is at the FT800 workshop software directory "Software\Spansion\USBDIRECT-V01L10".
+== Gameduino 2 ==
+  *[[http://www.excamera.com/|James Bowman, excamera]].
+    *<del>[[http://www.excamera.com/sphinx/gameduino/|James Bowman, excamera "Gameduino: a game adapter for microcontrollers"]]</del>.
+      *<del>[[http://www.excamera.com/sphinx/gameduino/samples/|James Bowman, excamera "Sample sketches"]]</del>.
+    *[[http://www.excamera.com/sphinx/gameduino2/|James Bowman, excamera "Gameduino 2: this time it’s personal"]].
+      *[[http://www.excamera.com/sphinx/gameduino2/code.html|James Bowman, excamera "Gameduino 2 code"]].
+      *[[http://www.kickstarter.com/projects/2084212109/gameduino-2-this-time-its-personal|Kickstarter "Gameduino 2: this time it's personal by James Bowman"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1492888621/hemmerling-21|James Bowman "Gameduino 2: Tutorial, Reference, Cookbook"]].
+      *Page 39: "After the LOAD ASSETS() finishes, all the bitmaps are loaded into graphics memory, and all the bitmap handles are set up to use the bitmaps".
+== Resitive Pencils ==
+  *[[http://www.ebay.de/sch/i.html?_nkw=nintendo+3ds+stifte|eBay - Search for "nintendo 3ds stifte"]].
+== Resources ==
+  *[[http://en.wikipedia.org/wiki/Touchscreen|EN.Wikipedia "Touchscreen"]], [[http://de.wikipedia.org/wiki/Touchscreen|DE.Wikipedia "Touchscreen"]].
+  *[[http://en.wikipedia.org/wiki/Resistive_touchscreen|EN.Wikipedia "Resistive touchscreen"]].
+  *[[http://en.wikipedia.org/wiki/Capacitive_sensing|EN.Wikipedia "Capacitive sensing"]], [[http://de.wikipedia.org/wiki/Kapazitiver_Sensor|DE.Wikipedia "Kapazitiver Sensor"]].
+
+==== Some other Displays ====
+  *[[http://www.lcd-module.com/|ELECTRONIC ASSEMBLY]] - "Serial Graphic Displays, with built-in Intelligence!".
+    *Free simulator / editor / compiler for Windows - "Helpful for the development, but also powerful for 1st. steps is the simulator software for the EA eDIP240-7. With that internal EEPROM can be used to define some pre-defined screen layouts".
+    *[[http://www.lcd-module.com/support.html|ELECTRONIC ASSEMBLY - Support]].
+    *[[http://www.reichelt.de/LCD-Module-Touch-Grafik/EA-EDIP-TFT43ATP/3/index.html?&ARTICLE=86676|reichelt elektronik GmbH & Co. KG "EA EDIP-TFT43ATP :: TFT-Grafikdisplay 10,9cm 480x272 mit Intelligenz"]],  4,3", 480x272.
+  *"LCD Display 162C" #MSP430-Workshop.
+    *[[http://de.rs-online.com/web/p/lcd-displays-alphanumerisch/5326414/|RS Components GmbH "LCD Display 162C-BC-BC"]].
+    *[[http://www.displaytech.com.hk/product.php?id=11|Displaytech Ltd ""Monochrome Standard Character Modules"]] - "Model 162C".
+  *[[http://www.conrad.de/ce/de/product/160117/ANZEIGE-SC56-11GWA-ZIHOeHE-14MM|Conrad Electronic SE "7-Segment-Anzeige Kingbright SC56-11GWA"]] #MSP430-Workshop.
+
+===== Motor Control =====
+==== Motors ====
+=== Brushless Motor Devices ( named by TI, for use with their Motor Control Evaluation Boards ) ===
+  *[[http://www.anaheimautomation.com/|Anaheim Automation]] "BLY 172S-2V-4000".
+  *[[http://www.telcointercon.com/|TelcoMotion]] - "DT 4260-24-055-04".
+  *[[http://www.teknic.com/|Teknic, Inc.]] - M-231OP-LN-04K ( 7.1A cont.,6000 rpm ).
+=== Brushless Motor Devices ( named by Spansion Inc., for use with their Motor Control Evaluation Board ) ===
+  *[[http://www.dunkermotoren.com/|Dunkermotoren GmbH]] - "BG42x15", 24 Volts.
+    *[[http://www.dunkermotoren.com/default.asp?id=10&lang=2|Dunkermotoren GmbH - Brushless DC motors ( BG )]].
+==== Motors Control Sytems ====
+=== Motor Control Kits ===
+  *See [[arm.html|ARM Embedded Systems ( ARM7, ARM8, ARM9, ARM11, Cortex )]].
+    *"Spansion Inc." -> "Motor control kit".
+    *"Freescale Semiconductor, Inc. -> Kinetis ARM Cortex-M4 Microcontrollers" -> "Motor Control Applications".
+  *See [[embedded.html|Embedded Systems]].
+    *"Texas Instruments" -> "Motor Drive & Control".
+=== Literature ===
+== Control Theory ==
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3540896120/hemmerling-21|Dierk Schröder: "Elektrische Antriebe - Regelung von Antriebssystemen"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3446414630/hemmerling-21|Daniel von Grünigen: "Digitale Signalverarbeitung: mit einer Einführung in die kontinuierlichen Signale und Systeme. Mit CD-ROM"]].
+== Motor Control  ==
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0071633510/hemmerling-21|Harprit Singh Sandhu: "Running Small Motors with PIC Microcontrollers"]].
+=== Motor Control & Motor Control with Pulse-Width Modulatio ( PWM ) ===
+  *[[http://www.seattlerobotics.org/|Seattle Robotics Society]].
+    *[[http://www.seattlerobotics.org/encoder/200011/pwm.html|Seattle Robotics Society, Benny Peter Jørgensen "Choosing the right PWM frequency"]].
+    *[[http://www.seattlerobotics.org/encoder/sep99/pwmmail.html|Seattle Robotics Society - E-Mails about PWM]].
+  *[[http://www.elektronik-projekt.de/|Elektronik-Projekt]] Forum.
+    *[[http://www.elektronik-projekt.de/thread.php?threadid=1914|Elektronik-Projekt, Thread "PWM in Assembler"]] - Pascal code of a PWM algorithm ( not in Assembler ) without use of hardware timers #.
+    *[[http://www.elektronik-projekt.de/thread.php?threadid=1642|Elektronik-Projekt, Thread "PWM in Bascom 2 Motoren ansteuern"]] - BASIC code of a PWM algorithm, making use of Atmel AVr ATmega hardware timers #.
+    *[[http://www.elektronik-projekt.de/thread.php?threadid=432|Elektronik-Projekt, Thread "Welche PWM Werte für Motoransteuerung?"]].
+  *[[http://en.wikipedia.org/wiki/Pulse-width_modulation|EN.Wikipedia "Pulse-width modulation"]], [[http://de.wikipedia.org/wiki/Pulsweitenmodulation|DE.Wikipedia "Pulsweitenmodulation"]].
+  *[[http://en.wikipedia.org/wiki/H_bridge|EN.Wikipedia "H bridge"]], [[http://de.wikipedia.org/wiki/Vierquadrantensteller|DE.Wikipedia "Vierquadrantensteller"]].
+
+=== Sound / Speaker Devices ====
+  *[[http://www.pollin.de/shop/dt/ODIyOTUzOTk-/HiFi_Car_HiFi_Video_TV/Mikrofone_Schallwandler/Schallwandler/Magnetischer_Schallwandler_AC_1205G.html|Pollin Electronic GmbH "Magnetischer Schallwandler AC-1205G"]] #MSP430-Workshop.
+===== Sensors =====
+==== Gyroscope, Accelerometers, Magnetometer ====
+=== Kalman Software ===
+  *[[http://www.st.com/inemo-engine|ST Microelectronics "iNEMO engine software libraries"]].
+    *[[http://code.google.com/p/9dof-orientation-estimation/|Google Code "9dof-orientation-estimation"]].
+  *[[http://www.freescale.com/isf|Freescale Semiconductor, Inc. "Freescale Intelligent Sensing Framework"]].
+    *"Kinetis - Sensor Fusion included".
+    *[[http://www.freescale.com/webapp/sps/site/overview.jsp?code=XTRSICSNSTLBOX|Freescale Semiconductor, Inc. "Freescale Sensor Fusion"]].
+      *The free "Freescale Sensor Fusion Library for Kinetis MCUs".
+      *The free "Sensor Fusion Toolbox for Windows" for Windows with .NET 4.0.
+      *The free "Sensor Fusion Toolbox for Android".
+      *Blog [[http://community.freescale.com/community/sensors|Freescale Community "Sensors"]].
+      *Blog [[http://community.freescale.com/community/sensors/sensorfusion|Freescale Community "Sensors"]].
+  *[[http://www.memsindustrygroup.org/|MEMS Industry Group]].
+    *[[http://www.memsindustrygroup.org/?page=AIC|MEMS Industry Group "Accelerated Innovation Community (AIC)"]].
+    *[[http://memsindustrygroup.site-ym.com/news/200825/MEMS-Industry-Group-Announces-First-Open-Source-Algorithm-Community.htm|MEMS Industry Group "MEMS Industry Group Announces First Open-Source Algorithm Community"]], 2014-11-06.
+    *[[http://www.github.com/memsindustrygroup/Open-Source-Sensor-Fusion|GitHub "memsindustrygroup/Open-Source-Sensor-Fusion"]].
+    *Wiki [[http://www.github.com/memsindustrygroup/Open-Source-Sensor-Fusion/wiki|GitHub Wiki "memsindustrygroup/Open-Source-Sensor-Fusion"]] - "A subset of the Accelerated Innovation Cooperative effort, sponsored by MIG. AIC champions community development of an open source repository of algorithms and datasets for sensor fusion and analytics".
+=== Resources ===
+  *Gyroscope & accelerometers & magnetometer informations must be processed by a Kalmann filter for proper use.
+  *[[http://en.wikipedia.org/wiki/Kalman_filter|EN.Wikipedia "Kalman filter"]], [[http://de.wikipedia.org/wiki/Kalman-Filter|DE.Wikipedia "Kalman-Filter"]].
+  *[[http://en.wikipedia.org/wiki/Sensor_fusion|EN.Wikipedia "Sensor fusion"]], [[http://de.wikipedia.org/wiki/Informationsfusion|DE.Wikipedia "Informationsfusion"]].
+==== Some other Sensors ====
+  *[[http://www.pollin.de/shop/dt/NjE2OTU3OTk-/Bauelemente_Bauteile/Passive_Bauelemente/Potis_Trimmer_Encoder/Encoder_Noble_RE0124PVB17_7FINB_24.html|Pollin Electronic GmbH "Encoder Noble RE0124PVB17.7FINB-24"]] #MSP430-Workshop.
+  *"DS18B20" #MSP430-Workshop.
+    *[[http://www.fuchs-shop.com/de/shop/5/1/13372095/|Moritz Fuchs Elektronik, Elektronik Fuchs "DS18B20 - 1-Wire Temperatursensor"]].
+    *[[http://www.maxim-ic.com/datasheet/index.mvp/id/2812|Maxim Integrated Products "DS18B20 - Programmable Resolution 1-Wire Digital Thermometer"]].
+  *The NTC Thermistor "Epcos K164, 100 KOhm" #MSP430-Workshop.
+    *[[http://www.conrad.de/ce/de/product/500574/HEISSLEITER-B57164-K164-1K-5|Conrad Electronic SE "Epcos Heißleiter K164 HEISSLEITER"]].
+    *[[http://www.epcos.com/web/generator/Web/Sections/ProductCatalog/Sensors/TemperatureMeasurement/|EPCOS · A Member of TDK-EPC Corporation "Temperature Measurement Sensors"]].
+      *[[http://www.epcos.com/inf/50/db/ntc_09/LeadedDisks__B57164__K164.pdf|EPCOS · A Member of TDK-EPC Corporation "NTC thermistors for temperature measurement"]] ( PDF ) -> K164, 100 KOhm.
+  *[[http://shop.boxtec.ch/product_info.php/products_id/40664|boxtec onlineshop "Ultrasonic Ranging Module HC-SR04"]] #MSP430-Workshop.
+  *[[http://de.farnell.com/vishay/tsop2238/ir-receiver-38khz/dp/4913073|Farnell GmbH, element14 "VISHAY - TSOP2238 - IR RECEIVER 38KHZ"]] #MSP430-Workshop.
+  *[[http://uk.farnell.com/excelitas-tech/vt90n2/ldr-series-vt900/dp/1652637|Farnell GmbH, element14 "XCELITAS TECH - VT90N2 - LDR, SERIES VT900 "]] -> VT91N1 #MSP430-Workshop.
+===== Network Chips =====
+==== USB ====
+=== USB Chips ===
+  *[[http://www.cypress.com/fx3/|Cypress Semiconductor Corporation "EZ-USB FX3 SuperSpeed USB 3.0 peripheral controller"]].
+    *The kit [[http://www.cypress.com/?rID=99916|CYUSB3KIT-003 EZ-USB FX3 SuperSpeed Explorer Kit]].
+=== Resources ===
+  *[[http://en.wikipedia.org/wiki/USB|EN.Wikipedia "USB"]], [[http://de.wikipedia.org/wiki/Universal_Serial_Bus|DE.Wikipedia "Universal Serial Bus"]].
+    *[[http://de.wikipedia.org/wiki/Datei:USB-Steckerformen.jpg|DE.Wikipedia "Datei:USB-Steckerformen.jpg"]].
+==== WiFi ====
+  *[[http://espressif.com/en/products/esp8266/|Espressif Systems "ESP8266"]].
+    *[[http://www.nurdspace.nl/ESP8266|NURDs "ESP8266"]].
+    *[[http://www.mikrocontroller.net/articles/ESP8266|mikrocontroller.net "ESP8266"]].
+
+===== Inductance to Digital Converter =====
+==== The Chip ====
+  *[[http://www.ti.com/product/ldc1000|Texas Instruments Inc. "LDC1000 -  5V, High Resolution, Inductance to Digital Converter "]].
+==== My LDC1000EVM Evaluation Module ====
+  *[[http://www.ti.com/tool/ldc1000evm|Texas Instruments Inc. "LDC1000EVM - Evaluation Module for Inductance to Digital Converter with Sample PCB Coil"]].
+===== Hardware Interfaces =====
+==== Peripheral Modules ( Pmods ) ====
+  *[[http://www.digilentinc.com/Products/Catalog.cfm?NavPath=2,401&Cat=9|Digilent Inc. "Sensors / Interfaces / Peripheral Modules (Pmods)"]].
+    *"Digilent Inc." is a daughter company of "National Instruments".
+  *[[http://wiki.analog.com/resources/alliances/xilinx#pmods|Analog Wiki "Xilinx Reference Designs"]] - "Pmods. ADI products can be found on many boards which use industry standard connectors, such as Pmods and FMC".
+  *[[http://www.maximintegrated.com/en/design/design-technology/fpga-design-resources/pmod-compatible-plug-in-peripheral-modules.html|Maxim Integrated "Pmod-Compatible Plug-In Peripheral Modules"]].
+  *[[http://en.wikipedia.org/wiki/Pmod_Interface|EN.Wikipedia "Pmod Interface"]].
+===== Some other Electronics =====
+  *[[http://www.conrad.de/ce/de/product/155585/?insert=U1&hk=WW2&utm_source=epro&utm_medium=seosite&utm_campaign=link&WT.mc_id=epro|Conrad Electronic SE "Spannungsregler/Schaltregler ST Microelectronics LM 317 LZ Gehäuseart TO 92"]] #MSP430-Workshop.
+===== Application Notes =====
+==== Bidirectional 5V Interfaces for 3.3V Microcontrollers ====
+  *[[http://www.husstechlabs.com/support/tutorials/bi-directional-level-shifter/|HUSSTECH "Bi-Directional Level Shifter"]].
+  *[[http://ics.nxp.com/support/documents/interface/pdf/an97055.pdf|NXP "APPLICATION NOTE. Bi-directional level shifter for
+I²C-bus and other systems. AN97055"]] ( PDF ).
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Business/Electronics_and_Electrical/|OpenDirectory "Top: Business: Electronics and Electrical"]].
+  *[[http://www.dmoz.org/Science/Technology/Electronics/|OpenDirectory "Top: Science: Technology: Electronics"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wirtschaft/Elektrotechnik_und_Elektronik/|OpenDirectory "Top: World: Deutsch: Wirtschaft: Elektrotechnik und Elektronik"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wissenschaft/Ingenieurwissenschaften/Elektronik/|OpenDirectory "Top: World: Deutsch: Wissenschaft: Ingenieurwissenschaften: Elektronik"]].
+  *[[http://dir.yahoo.com/business_and_economy/business_to_business/electronics/|Yahoo! Directory "Business and Economy: Business to Business: Electronics"]].
+  *[[http://dir.yahoo.com/science/engineering/electrical_engineering/|Yahoo! Directory "Science: Engineering: Electrical Engineering"]].
+{{tag>electric units" electric electrical units unit electronic electronics actor actors sensor sensors control hardware software}}
+<footnote_navi_en>
+

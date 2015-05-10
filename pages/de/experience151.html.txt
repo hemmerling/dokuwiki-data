@@ -1,0 +1,35 @@
+====== [hemmerling] Hochschul-Abschlußarbeit "Konzept für Verbindungen zwischen Seefunk und öffentlichem Telefonnetz" ======
+===== Projekt-Auftrag =====
+Überprüfung der Machbarkeit eines Konzepts zum automatischen Verbindungsaufbau von einem Marinefunkgerät in das öffentliche Telephonnetz ( 2009-11-01 - 2010-02-19 )
+===== Projekt-Auftraggeber =====
+[[http://www.fakultaet1.fh-hannover.de/personen/lehrende/wehmeier-joerg-prof-dr-ing-prof/index.html|Prof. Dr.-Ing. Jörg Wehmeier]], [[http://www.fh-hannover.de/|Fachhochschule Hannover]]
+===== Projekt-Sponsoren =====
+[[http://www.funkwerk.com/|Funkwerk AG]] sponsorte ein ISDN-Telephon.
+===== Projekt-Rolle / Eigene Aufgabe im Projekt =====
+Diplomand.
+===== Projekt-Aufgaben =====
+==== Projekt-Beschreibung ====
+An der Fachhochschule Hannover soll die Machbarkeit eines Konzepts zum automatischen Verbindungsaufbau von einem Marinefunkgerät an Bord eines Schiffes in das öffentliche Telephonnetz geprüft werden. Das Konzepts ist für kleine Küstenfunkstellen geeignet, die als Dienstleistung eingehende Seefunk-Gespräche automatisch an eine gewünschte Telephonnummer weiterverbinden lassen möchten. Es soll mittels einer Marktrecherche geprüft werden, ob die Anforderungen der branchenüblichen ITU-R Normen zum Signalisierungsprotokoll "Digital Selective Calling" an eine Küstenfunkstelle
+durch Standard-Marinefunkgeräte und andere Standard-Komponenten erfüllt werden können. Gegebenenfalls soll ein Gerätevorschlag gemacht werden. Als für die Verbindung vom Marinefunkgerät zum öffentlichen Telephonnetz notwendige Radio/Telephon Schnittstellen-Einheit ist im Konzept ein Standard-Computer mit Individual-Software vorgesehen. Es soll mittels einer Marktrecherche ein Standard-Telephonsystem mit geeigneter Software-Schnittstelle ( Telephony Application Programming Interface ) und ein dazu als Quelltext verfügbarer Software-Prototyp ermittelt und praktisch getestet werden,
+mit dem Telephonverbindungen aufgebaut werden können. Es soll beschrieben werden, wie dieser Software-Prototyp zu modifzieren und zu erweitern ist, damit der Computer Telephongespräche für die über Marinefunk eingehende Anrufe vermitteln kann.
+==== Schlagwörter ====
+Seefunk , Marinefunk, Küstenfunkstelle, Radio/Telephon Schnittstellen-Einheit, öffentliches Telephonetz, Dialer, automatische Gesprächsvermittlung, Telephony Application Programming Interface, TAPI, Digital Selective Calling, DSC.
+===== Eigene Tätigkeiten im Projekt =====
+  *Aufstellen und Überprüfen von Anforderungen.
+  *Ausfindigmachen von und Kommunikation mit Fachspezialisten ( Domain Experts ).
+  *Marktrecherche zum Thema "TAPI- und SIP-Telephonsoftware, die als Quelltext zur Verfügung steht".
+  *Inbetriebnahme und Anpassung von in C/C++ geschriebener TAPI-Telephonsoftware.
+===== Im Projekt eingesetzte Tools =====
+  *[[http://de.wikipedia.org/wiki/OpenOffice.org|OpenOffice]] / [[http://de.wikipedia.org/wiki/Microsoft_Office|Microsoft Office]].
+  *[[http://de.wikipedia.org/wiki/Microsoft_Visual_Studio|Microsoft Visual Studio]].
+===== Projekt-Ergebnis =====
+Das zu überprüfende Konzept einer Küstenfunkstelle aus Standard-Komponenten, die einen automatisierten Verbindungsaufbau von Seefunk-Teilnehmern in das Land-Telephonnetz oder umgekehrt mittels des DSC-Protokolls erlaubt, ist leider nach dem
+jetzigen Wissenstand nicht umsetzbar. Es kann daher auch keine Geräte-Empfehlung ausgesprochen werden.
+
+Die Abschlußarbeit wurde bestanden und mit der Note "gut" ( 2.0 ) bewertet. 
+
+Anmerkung: Bei dem verwendeten Bewertungsschema ist "sehr gut" ( 1.0 ) die beste Note und "nicht bestanden" ( 5.0 ) die schlechteste Note.
+
+{{tag>Arbeitserfahrung Seefunk Marinefunk Küstenfunkstelle Radio/Telephon Schnittstellen-Einheit öffentliches Telephonetz Dialer "automatische Gesprächsvermittlung" "Telephony Application Programming Interface" TAPI "Digital Selective Calling" DSC}}
+
+<footnote_navi_de>

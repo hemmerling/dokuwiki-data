@@ -1,0 +1,66 @@
+====== [hemmerling] Operating Systems - Requirements for Installation and Operation ======
+===== Windows XP doesn't install on 486DX CPUs, Windows ME does with a little help ! =====
+{{:images:486wxp.png?200|Screenshot during installation of WinXp on a 486 PC. WinXP doesn't install on 486DX CPUs}}
+{{:images:486wme.png?200|Screenshot during installation of WinME on a 486 PC. WinME doesn't install on 486DX CPUs without special tricks}}
+
+==== Windows XP ====
+The text of the screenshot above appears if you try to install Windows XP on a computer with a 486DX CPU ( e.g. AMD 486DX-133, 64 MB RAM, 3 GB harddisk ):
+
+//Windows erfordert bestimmte Prozessoreigenschaften, über die der Prozessor auf diesem Computer nicht verfügt. Windows erfordert insbesondere die folgenden Anweisungen: \\
+CPUID\\
+CMPXCHG8B\\
+Setup kann nicht fortgesetzt werden. Drücken Sie eine beliebige Taste, um Setup zu beenden.//
+
+==== Windows ME ====
+This text of the screenshot above appears if you try to install Windows ME on a computer with a 486DX CPU ( e.g. AMD 486DX-133, 64 MB RAM, 2 GB harddisk ) or a Pentium 133 CPU:
+
+//Windows Millenium Edition Setup\\
+Windows kann auf diesem Rechner nicht installiert werden, da ein Prozessor mit mindestens 150 MHz benötigt wird.\\
+Klicken Sie auf "OK", um die Installation zu beenden//
+
+If SETUP.EXE is called with the undocumented parameter "/nm" ( i.e. "SETUP /NM" ), the installation might succeed on a system just with 620 MB harddisk capacity only !
+
+With these messages, Windows ME might terminate the installation:
+
+//Setup hat eine beschädigte Installationsdatei ( .CAB ) gefunden und kann nicht fortgesetzt werden"//
+
+//Windows-Setup erfordert 15728640 Bytes freien Speicherplatz auf Laufwerk//
+
+//CAB-Dateifehler.\\ 
+Fehler beim Extrahieren der Windows-Dateien. Sie müssen möglicherweise neu starten, um das Problem zu beheben,\\
+die Notfalldiskette und führen Sie Setup erneut aus.\\
+Falls diese Fehlermeldung weiterhin erscheint, konsultieren Sie bitte den Abschnitt "CAB-Fehler" in der Datei SETUP.TXT, um weitere Informationen zu erhalten//
+
+Please follow the instruction in the [[http://support.microsoft.com/default.aspx?scid=KB;en-us;q140901|Microsoft Knowledge Base Article 140901 "Err Msg: Could Not Decode This Setup (.cab) File..."]] and use the MSDOS program "EXT.EXE", which is also shipped on the Windows ME Start disk, to extract the contents of the CAB files, so that you can execute "SETUP.EXE" from harddisk successfully, afterwards.
+
+With this message, Windows ME might terminate the installation:
+
+//Windows Millenium Edition Setup\\
+Die Installationsdateien können nicht auf ihren Computer installiert werden. Klicken Sie auf "OK", um Setup zu beenden.\\
+Message SU0325//
+
+Please consult the [[http://support.microsoft.com/?kbid=270593|Microsoft Knowledge Base Article - 270593 "'Fehler SU0325' nach 10 Prozent des Windows Me Setup"]], which covers this error message. My advice: When booting with a Windows 98SE bootdisk for installation of Windows ME, please pay attention that "HIMEM.SYS" is included and that "EMM386.EXE" is not included in the file "CONFIG.SYS".
+
+==== Conclusion ====
+So you can't use Microsoft's newest XP technologies on 486DX computers, but you can run the newest Linux technologies, anyhow, e.g. by server operation. Linux doesn't refuse ! Btw, Windows 2000 and Windows 98SE work fine on 486DX CPUs, too ! 
+
+===== Minimum Memory Requirements for Windows and Linux Servers =====
+^ ^ ^ ^ ^
+^ Operating system ^ Minimum CPU, //tested// ^ Minimum RAM for installation, //tested// ^ Minimum RAM for operation ^ Minimum harddisk space on boot drive, for installation and minimal operation ^ Insufficient harddisk space ^
+^Windows 95, 95SE | 386SX | 4 MB | 4 MB | 100 MB | ? |
+^Windows 98 | 486DX | 16 MB | 16 MB | 500 MB | ? |
+^Windows 98SE | 486DX | 24 MB ( 16 MB with special configuration ) | 32 MB ( 16 MB with special configuration ) | 500 MB | ? |
+^Windows ME | Pentium 150 ( 486DX with special configuration ) | 32 MB | 32 MB | 620 MB | 500 MB |
+^Windows 2000 | 486DX | 40 MB | 40 MB | 2 GB | 1 GB |
+^Windows XP | Pentium 60 | 128 MB | 128 MB | 3 GB | 2 GB |
+^SUSE 7.x, Linux kernel 2.4.x, installation by bootdisk, YAST1 | 386DX | 16 MB | 16 MB ( 32 MB with X-Window System) | 200 MB| - |
+^SUSE 8.0, Linux kernel 2.4.x, installation by bootdisk, YAST2/textmode | 386DX | 48 MB | 16 MB ( 32 MB with X-Window System) | 400 MB | - |
+^SUSE 8.1 and newer, Linux kernel 2.4.x, installation by bootdisk, YAST2/textmode | Pentium 60, AMD K6 | 48 MB | 16 MB ( 32 MB with X-Window System) | 400 MB | - |
+^SUSE 8.1 and newer, Linux kernel 2.4.x, installation by bootdisk, YAST2 | Pentium 60, AMD K6 | 64 MB | 64 MB ( 128 MB with KDE 3.0 ) | 400 MB | - |
+^Knoppix 7.1, Linux kernel 2.6.x, installation by USB memory stick | ? | ? | ? ( ? ) | 15 GByte + 1 Gbyte swap space | - |
+^ | | | |
+===== Special Installation Tricks =====
+  *How to install Win98SE on a PC with 16 MB RAM: First install a Win98 system, and then upgrade to Win98SE.
+  *How to install Win95 on a PC with empty harddisk, by using a "Win3.1 to Win95" upgrade: Just copy "winver.exe", "win.com", "wi.ini", "system.ini" of Win3.1 on the harddisk :-)!
+{{tag>"operating systems" "requirements for installation and operation" requirements installation operation}}
+<footnote_navi_en>

@@ -1,0 +1,283 @@
+====== [hemmerling] Atmel ATmega, ATtiny, AT90 & ATmega on the Arduino / Freeduino Platform ======
+Related pages:
+  *[[atmel.html|The Atmel AVR Family with Focus on AVR32, ATxmega, ATmega, ATtiny and the Arduino / Freeduino Platform]].
+  *[[arduino.html|The Arduino / Freeduino Platform with Atmel ATmega, Microchip PIC, ARM, Freescale Coldfire]].
+  *[[atxmega.html|Atmel ATxmega ( "XMEGA" )]] - This page deals with software tools which are suitable both for ATxmega and for ATmega, ATtiny.
+  *[[atmelavr32.html|Atmel AVR32]].
+  *[[avrhowto.html|How to develop with Atmel AVR Microcontrollers]].
+
+===== Hardware - ATmega, ATtiny, AT90 Evaluation boards =====
+==== Boards ====
+  *Amazon.
+    *[[http://www.amazon.co.uk/s/ref=nb_sb_noss?url=search-alias%3Delectronics&field-keywords=arduino|Amazon.co.uk - Search in "Electronics / Photo" for "arduino"]].
+    *[[http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Delectronics&field-keywords=arduino|Amazon.com - Search in "Electronics / Photo" for "arduino"]].
+    *Science kit / experimental lab kit [[http://www.amazon.de/exec/obidos/ASIN/B000EG88AY/hemmerling-21|Amazon.DE "KOSMOS 614515 - Experimentierkasten - electronic microcontroller"]].
+  *Atmel, For development of electrical motor-based embedded applicatons.
+    *[[http://www.atmel.com/dyn/products/tools_card.asp?tool_id=4387|ATAVRMC320]], [[http://store.atmel.com/PartDetail.aspx?q=p:10500172|Atmel ATAVRMC320]] with [[http://www.atmel.com/dyn/products/product_card.asp?part_id=4307|ATmega32M1 Automotive]] ( 32 Kbytes Flash, 2 Kbyte SRAM, 1 KByte EEPROM ) - "The ATAVRMC320 kit is a complete hardware system which demonstrates motor control using ATmega32M1 and **features CAN and LIN connectivity**". A brushless DC motor with Hall sensor (3 phases 8 poles) is included.
+      *[[http://store.atmel.com/PartDetail.aspx?q=p:10500151|Atmel ATAVRMC310]] & [[http://store.atmel.com/PartDetail.aspx?q=p:10500149|Atmel ATAVRMC300]].
+      *[[http://store.atmel.com/PartDetail.aspx?q=p:10500052|Atmel DB101]] - "A display module including a 128x64 pixel graphical LCD with RGB backlight".
+      *The free software [[http://www.atmel.com/dyn/products/tools_card.asp?tool_id=4170|Atmel Motor Control Center (MCC)]].
+      *Document [[http://www.atmel.com/dyn/resources/prod_documents/doc4094.pdf|AVR Motor Control Evaluation Kit ATAVRMC100]] ( PDF ).
+  *[[http://www.c-control.de/die_c-control_familie/die_c-control_familie/die_c-control_familie.html|Conrad Electronic SE "C-Control - Die C-Control Familie"]] - "Das C-Control-PRO-System (CC-PRO) basiert auf RISC-Mikrocontrollern der AVR-Familie von Atmel... Der Typ Mega 32 besteht aus einer 8-Bit-RISC-Recheneinheit".
+  *[[http://www.decibit.com/|Decibit Co., Ltd. "Decibit Tranceiver Modules"]] - "Smallest 2.4 GHz ISM band MCU embedded transceiver modules", with [[http://www.atmel.com/dyn/products/product_card.asp?part_id=3303|ATmega168]] ( 16 KBytes Flash, 1 KByte RAM, 512 Bytes EPROM ).
+  *[[http://www.digisoft.com.pk/products/avr-project-book|DigiSoft Pakistan "AVR Project Book"]] with [[http://www.atmel.com/dyn/products/product_card.asp?part_id=2010|ATmega16]] ( 16 Kbytes Flash, 1 Kbyte SRAM, 512 Bytes EEPROM ).
+  *[[http://www.embedit.de/|Markus Burrer, Embedit Mikrocontrollertechnik]].
+  *Franzis science Kit / experimental lab kits.
+    *Some of the kits are shipped with the DEMO version of BASCOM with 4 Kbytes code limit. No kit is shipped with an unlimited OEM version.
+    *Vendors.
+      *Franzis.
+        *[[http://www.elo-web.de/|ELO - Elektronik und Know-How von FRANZIS-VERLAG. Elektronik erleben und anwenden]].
+        *[[http://www.franzis.de/elektronik/lernpakete-elektronik|Franzis Verlag GmbH "Elektronik / Lernpakete Elektronik"]].
+      *[[http://www.pearl.de/kw-1-lernpaket++franzis.shtml|PEARL Agency - Search for "lernpaket franzis"]].
+      *[[http://www.ebay.de/sch/i.html?_nkw=franzis lernpaket|eBay - Search for "franzis lernpaket"]].
+      *[[http://www.buecherbillig.de/advanced_search_result.php?keywords=lernpaket|buecherbillig.de - Search for "lernpaket"]].
+    *Products.
+      -[[http://www.amazon.de/exec/obidos/ASIN/3645650261/hemmerling-21|Franzis Verlag GmbH: "Lernpaket Roboter selbst bauen: Der leichte Einstieg in die Roboter-Programmierung mit 50 Experimenten"]] with [[http://www.atmel.com/dyn/products/product_card.asp?part_id=3302|ATmega8]] ( 8 Kbytes Flash, 1 Kbyte SRAM, 512 Bytes EEPROM ).
+      -[[http://www.amazon.de/exec/obidos/ASIN/3772346057/hemmerling-21|Franzis Verlag GmbH: "Lernpaket Mikrocontroller-Technik mit Bascom"]] with [[http://www.atmel.com/dyn/products/product_card.asp?part_id=3302|ATmega88]] ( 8 Kbytes Flash, 1 Kbyte SRAM, 512 Bytes EEPROM ).
+      -[[http://www.amazon.de/exec/obidos/ASIN/3772358977/hemmerling-21|Franzis Verlag GmbH: "Lernpaket Mikrocontroller-Programmierung: Der Einstieg in Bascom und C mit ATmega8"]] with [[http://www.atmel.com/dyn/products/product_card.asp?part_id=2004|ATmega8]] ( 8 Kbytes Flash, 1 Kbyte SRAM, 512 Bytes EEPROM ).
+      -[[http://www.amazon.de/exec/obidos/ASIN/3645650180/hemmerling-21|Franzis Verlag GmbH: "Lernpaket Mikrocontroller"]] with "ATtiny 13" ( 1 Kbyte Flash, 64 Bytes SRAM, 64 Bytes EEPROM ).
+      -[[http://www.amazon.de/exec/obidos/ASIN/3772343805/hemmerling-21|Franzis Verlag GmbH: "Lernpaket MSR mit dem PC"]] with "ATtiny 13" ( 1 Kbyte Flash, 64 Bytes SRAM, 64 Bytes EEPROM ).
+  *[[http://shop.myavr.de/|Laser & Co Solutions GmbH "myAVR"]].
+    *[[http://einsteiger.myavr.de/|Laser & Co Solutions GmbH "Mikrocontroller-Programmierung lernen mit myAVR"]].
+    *[[http://projekte.myavr.de/|Laser & Co Solutions GmbH "myAVR Projekte & Anwendungsbeispiele"]].
+  *[[http://www.olimex.com/|OLIMEX Ltd.]], Bulgaria.
+    *[[http://www.olimex.com/dev/|OLIMEX Ltd. "Development boards and Tools"]] -> "AVR".
+      *[[hhttp://www.olimex.com/dev/avr-io-m16.html|AVR-IO-M16 Development board with ATmega16 4 relays outputs 4 optoisolated inputs]].
+      *[[http://www.olimex.com/dev/avr-io.html|AVR-IO development board for 20 pin AVR microcontroller with STKxxx compatible 10 pin ICSP ]].
+      *[[http://www.olimex.com/dev/mod-io.html|MOD-IO input output expandable board with UEXT]] - "A stackable development board which add analog and digital inputs and outputs to any of our development boards with UEXT. If you work with any of our development boards with UEXT connector and you need more digital and analog iniputs and outputs you can add these by connecting MOD-IO to your development board. This board allow easy interfacing to 4 relays, 4 optoisolated digitl inputs, 4 analog inputs. MOD-IO is stackable and addressable, what does this means? these boards can plug together so you can add as many as you want input and outputs! i.e. 8, 12 etc! MOD-IO have ATmega16 microcontroller and the firmware is available for modification."
+  *[[http://www.pollin.de/|Pollin Electronic GmbH]].
+    *[[http://www.pollin.de/shop/suchergebnis.html?S_TEXT=Atmel|Pollin Electronic GmbH "Atmel"]].
+    *[[http://www.pollin.de/shop/suchergebnis.html?S_TEXT=avr|Pollin Electronic GmbH "avr"]].
+    *[[http://www.amazon.de/exec/obidos/ASIN/B004CD5H9K/hemmerling-21|Pollin: "Bausatz AVR-NET-IO"]].
+    *[[http://www.pollin.de/shop/dt/NTI5OTgxOTk-/Bausaetze_Module/Bausaetze/ATMEL_Evaluations_Board_V2_0_1_Fertigmodul.html|Pollin Electronic GmbH "ATMEL Evaluations-Board V2.0.1 - Fertigmodul"]] for ATmega8535, ATmega8, ATmega16, ATmega32, ATmega64, ATtiny2313, ATtiny12 und ATtiny15.
+    *[[http://www.pollin.de/shop/dt/MTY5OTgxOTk-/Bausaetze_Module/Bausaetze/ATMEL_Evaluations_Board_Version_2_0_1_Bausatz.html|Pollin Electronic GmbH "ATMEL Evaluations-Board Version 2.0.1 - Bausatz"]] for ATmega8535, ATmega8, ATmega16, ATmega32, ATmega64, ATtiny2313, ATtiny12 und ATtiny15.
+    *AVR-NET-IO
+      *[[http://www.pollin.de/shop/dt/MTQ5OTgxOTk-/Bausaetze_Module/Bausaetze/Bausatz_AVR_NET_IO.html|Pollin Electronic GmbH "Bausatz AVR-NET-IO"]] with ATmega32 ( 32 Kbytes Flash, 2 KBytes SRAM, 1 Kbyte EEPROM ).
+      *[[http://www.pollin.de/shop/dt/MzAwOTk4OTk-/Bauelemente_Bauteile/Aktive_Bauelemente/Microcontroller/Microcontroller_ATMEL_ATmega644_20PU.html|Pollin Electronic GmbH "Microcontroller ATMEL ATmega644-20PU"]] = [[http://www.atmel.com/dyn/products/product_card.asp?part_id=3694|ATmega644]] ( 64 Kbytes Flash, 4 KBytes SRAM, 2 Kbytes EEPROM ).
+      *[[http://www.pollin.de/shop/dt/Nzg4OTgxOTk-/Bausaetze_Module/Bausaetze/Bausatz_Add_on_fuer_AVR_NET_IO.html|Pollin Electronic GmbH "Bausatz Add-on für AVR-NET-IO"]].
+      *[[http://www.pollin.de/shop/dt/NzcyOTgyOTk-/Bausaetze_Module/Bausaetze/Bausatz_PC_Relaiskarte_K8IO.html|Pollin Electronic GmbH "Bausatz PC-Relaiskarte K8IO"]].
+      *[[http://www.pollin.de/shop/dt/Njc5OTgxOTk-/Bausaetze_Module/Bausaetze/8_Kanal_IR_Fernbedienungs_Bausatz_IRK8.html|Pollin Electronic GmbH "8-Kanal IR-Fernbedienungs-Bausatz IRK8"]].
+      *Suitable box [[http://www.reichelt.de/Kunststoff-Kleingehaeuse/EUROBOX-GE/index.html?;ACTION=3;LA=444;GROUP=C714;%20GROUPID=3355;ARTICLE=50432;START=0;SORT=artnr;OFFSET=16%20;SID=26JOak4KwQARoAAHj@ReIafc17606a39f4d6302ea9563db053a23%29|Pollin Electronic GmbH "EUROBOX GE :: Kunststoff Kleingehäuse gelb"]].
+      *The control software [[http://www.pollin.de/shop/dt/NTk5OTYyOTk-/Computer_und_Zubehoer/Software/Anwendungen_Spiele/ProfiLab_Expert_4_0.html|Pollin Electronic GmbH "ProfiLab-Expert 4.0"]] for Windows - "Diese Software enthält einen Treiber zur einfachen Ansteuerung des AVR-NET-IO Bausatzes".
+  *[[http://uk.rs-online.com/web/generalDisplay.html?id=electronics/wireless&file=zigbee_atmel|RS "Atmel ZigBee Demonstration Kit"]] - "RZ200 demonstration kit", with [[http://www.atmel.com/dyn/products/product_card.asp?part_id=3630|ATmega1281]] ( 128 Kbytes Flash, 8 Kbyes SRAM, 4 KBytes EEPROM ).
+  *Science kit / experimental lab kit [[http://www.mikrokid.de/|Thomas Weinreich "MikroKid - Mikrocontroller für Ein- und Aufsteiger"]], with [[http://www.atmel.com/dyn/products/product_card.asp?part_id=3229|ATtiny2313]] ( 2 Kbytes Flash, 128 Bytes SRAM, 128 Bytes EEPROM ).
+==== Chip Programmers ====
+  *[[http://www.lancos.com/prog.html|Lanconelli Open Systems "PonyProg - serial device programmer"]].
+==== Resources ====
+    *[[http://berlin.ccc.de/wiki/AVR-Board_mit_Ethernet|Chaos Computer Club Berlin e. ( CCCB ) "AVR-Board mit Ethernet"]].
+  *[[http://www.avrfreaks.net/index.php?module=FreaksFiles&func=viewFile&id=1318&showinfo=1|AVR Freaks "Orcad 9.x AVR library"]] by [[http://www.mikrocontroller.net/user/show/wswbln|Stefan Wimmer]] - "avr.olb".
+===== The Arduino / Freeduino Platform =====
+  *See [[arduino.html|The Arduino / Freeduino Platform]].
+===== The Wireing Platform =====
+  *The hardware and software platform [[http://wiring.org.co/|Wiring]] - "The current AVR8 Core supports the Wiring hardware and any hardware based on the AVR atmega processors. AVR Xmega, AVR Tiny, TI MSP430, Microchip PIC24/32 Series and STM M3 ARM Cores will be available soon".
+  *The software project [[http://www.processing.org/|Processing.org]].
+  *[[http://www.lipoly.de/index.php?main_page=product_info&cPath=880_2802&products_id=195540|lipoly.de Daniel Rinninsland "Wiring S development board Rogue Robotics BB-WRS-H"]] with [[http://www.atmel.com/devices/atmega644p.aspx|ATmega644P]].
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/Processing_%28programming_language%29|EN.Wikipedia "Processing (programming language)"]], [[http://de.wikipedia.org/wiki/Processing|DE.Wikipedia "Processing"]].
+    *[[http://en.wikipedia.org/wiki/Wiring_%28development_platform%29|EN.Wikipedia "Wiring (development platform)"]].
+
+===== Operating Systems, Runtimes & Firmware for ATmega, ATtiny & AT90 =====
+==== Free Operating Systems ====
+  -The OpenSource operating system [[http://www.barello.net/avrx/|Larry Barello "AvrX"]] for IAR and GNU-C toolchain.
+    *No claimed support of the ATxmega CPU, yet !
+  -The OpenSource [[http://www.contiki-os.org/|The Contiki OS]], [[http://contiki.sourceforge.net/|SourceForge "The Contiki Operating System"]], [[http://www.sourceforge.net/projects/contiki/|SourceForge "The Contiki Operating System"]].
+    *[[http://en.wikipedia.org/wiki/Contiki|EN.Wikipedia "Contiki"]], [[http://de.wikipedia.org/wiki/Contiki|DE.Wikipedia "Contiki"]].
+    *No claimed support of the ATxmega CPU, yet !
+  -The OpenSource operating system [[http://www.femtoos.org/|Femto OS]], [[http://www.sourceforge.net/projects/femtoos/|SourceForge "Femto OS"]], [[http://femtoos.sourceforge.net/|SourceForge "Femto OS"]] - "RTOS for small MCU's like AVR".
+    *No claimed support of the ATxmega CPU, yet !
+  -The OpenSource operating system [[http://www.freertos.org/|FreeRTOS]].
+    *No claimed successful support of the ATxmega CPU, yet !
+      *[[http://www.avrfreaks.net/index.php?name=PNphpBB2&file=viewtopic&t=87163|AVR Freaks Forum, "AVR GCC Forum", Thread "freeRTOS ATxmega crashes reaching vTaskStartScheduler()"]].
+      *[[http://www.avrfreaks.net/index.php?name=PNphpBB2&file=viewtopic&t=76435|AVR Freaks Forum, "AVR GCC Forum", Thread "FreeRTOS and the XMega == Bad Juju!"]].
+      *[[http://www.avrfreaks.net/index.php?name=PNphpBB2&file=viewtopic&t=68911|VR Freaks Forum, "AVR GCC Forum", Thread "function pointer for atxmega128a1 (or big ATMEGAs)"]].
+        *[[http://www.avrfreaks.net/index.php?name=PNphpBB2&file=profile&mode=viewprofile&u=87219|AVR Freaks community member "ce"]]: "For this FreeRTOS needs a function pointer. As a kind of workaround for the task creation ....But in this case I have to ensure that the task/thread functions are located in the lower 64k.FreeRTOS works now on my XMEGA and I can live with this restriction. But nevertheless I am interested in other (better?) solutions".
+        *[[http://www.avrfreaks.net/index.php?name=PNphpBB2&file=profile&mode=viewprofile&u=104779|AVR Freaks community member "stu_san"]]: "FreeRTOS_Mega2560.zip" - "FreeRTOS modified for ATmega2560".
+    *[[http://www.freertos.org/index.html?http://www.freertos.org/a00098.html|Atmel AVR (MegaAVR) / WinAVR Port]]
+    *[[http://www.freertos.org/index.html?http://www.freertos.org/AVR_IAR.html|Atmel AVR (MegaAVR) / IAR RTOS Port]] - remember the 4 KBytes code size limitation of the free IAR edition :-(.
+  -The OpenSource operating system [[http://helium.sourceforge.net/|SourceForge "Helium Real Time Kernel"]], [[http://www.sourceforge.net/projects/helium|SourceForge "Helium Real Time Kernel"]].
+    *Helium V1 for 68S08, 69HC08, AVR.
+    *Helium V2 for Coldfire 51QE, 68S08.
+    *No claimed support of the ATxmega CPU, yet !
+  -The free operating system [[http://jacos.narod.ru/|Jacos Yandex "jacOS"]] for PIC, AVR, MSP430 and х51 - Support just in russian language, source code just by request from the author.
+  -The OpenSource [[http://www.nilsenelektronikk.no/neproc.html|nilsen elektronikk as "proc Real-Time Kernel"]] - "Supported architectures: x86 / PC, 68HC11 (also banked), H8 (8 and 16 bits), 68k / 6833x, ColdFire, 80C196, C167, AVR, i960Jx, MSP430, Z180".
+    *No claimed support of the ATxmega CPU, yet !
+  -The OpenSource operating system Nut/OS.
+    *[[http://www.ethernut.de/|Ethernut]].
+    *[[http://www.egnite.de/en/software/nutos.html|egnite GmbH "Nut/OS"]].
+    *Targets: ATmega128, ARM7, ARM9.
+    *No claimed support of the ATxmega CPU, yet !
+    *[[http://www.avrfreaks.net/index.php?name=PNphpBB2&file=viewtopic&t=89414|AVR Freaks Forum, Thread "TCP/IP xmega enc28j60"]].
+  -NuttX.
+    *The OpenSource operating system [[http://nuttx.sourceforge.net/|SourceForge "NuttX RTOS"]], [[http://www.sourceforge.net/projects/nuttx/|SourceForge "NuttX RTOS"]] for ARM, Atmel ATmega, Atmel AVR32, PIC32...
+    *No claimed support of the ATxmega CPU, yet !
+  -[[http://www.tinyos.net/|TinyOS]] - "Open source, BSD-licensed operating system designed for low-power wireless devices".
+    *[[http://code.google.com/p/tinyos-main/|Google Code "tinyos-main"]].
+    *[[http://docs.tinyos.net/tinywiki/|TinyOS Wiki]].
+      *[[http://docs.tinyos.net/tinywiki/index.php/ATmega128|TinyOS Wiki "ATmega128"]].
+    *No claimed support of the ATxmega CPU, yet !
+  -The operating system [[http://www.shift-right.com/xmk/|Shift-Right Technologies, LLC "eXtreme Minimal Kernel"]], [[http://xmk.sourceforge.net/|SourceForge "e(X)treme (M)inimal (K)ernel"]], [[http://www.sourceforge.net/projects/xmk/|SourceForge "e(X)treme (M)inimal (K)ernel"]] for Atmel ATmega, Hitachi/Renesas.
+    *No claimed support of the ATxmega CPU, yet !
+  -The OpenSource TCP/IP stack [[http://www.laskater.com/projects/uipAVR.htm|LA Skater "uIP-AVR"]] for ATMega128.
+    *No claimed support of the ATxmega CPU, yet !
+==== Free standard Frameworks and standard Libraries ====
+  *[[http://www.procyonengineering.com/embedded/avr/avrlib/|Pascal Stang "Procyon AVRlib. C-Language Function Library for Atmel AVR Processors"]].
+    *Please read the license agreement -> "[[http://www.mikrocontroller.net/articles/AVR-GCC|Bei der Procyon AVRlib ist die Lizenz zu beachten (in Kurzform: man muss dritten auf Verlangen den gesamten Quellcode der Firmware zur Verfügung stellen, falls Teile der Procyon Bibliothek genutzt werden)]]".
+    *No claimed support of the ATxmega CPU, yet !
+  *[[http://www.embedit.de/|Markus Burrer, Embedit Mikrocontrollertechnik]].
+    *The OpenSource [[http://www.github.com/embedit/avr-gcc-library|github "embedit / avr-gcc-library"]].
+    *[[http://www.elektronik-projekt.de/thread.php?threadid=6877|Elektronik-Projekt Forum, Thread "avr gcc library geht in eine neue Runde"]], 2011-07-18.
+    *No claimed support of the ATxmega CPU, yet !
+==== Free special Frameworks ====
+  *[[http://www.fourwalledcubicle.com/LUFA.php|Four Walled Cubicle "Lightweight USB Framework for AVRs" ( LUFA ) ]] ( formerly: MyUSB" ).
+    *"An open-source complete USB stack for the USB-enabled Atmel AT90USBxxxx and ATMEGAxxUx AVR microcontroller series. The complete line of Atmel USB AVRs and USB AVR boards are supported by the library, as are any custom user boards, via custom board hardware drivers supplied by the user".
+    *[[http://www.fourwalledcubicle.com/files/LUFA/Doc/|Four Walled Cubicle - Online Documentation]].
+    *[[http://www.fourwalledcubicle.com/files/LUFA/Doc/110528/html/|Four Walled Cubicle "LUFA Library 110528" - Online Documentation]].
+    *Blog [[http://fourwalledcubicle.com/blog/|Dean Camera "Memos From the Cube"]].
+    *[[http://www.avrfreaks.net/index.php?name=PNphpBB2&file=profile&mode=viewprofile&u=55749|AVR Freaks "abcminiuser"]].
+    *No claimed support of the ATxmega CPU, yet !
+  *[[http://www.obdev.at/products/vusb/|Objective Development Software GmbH "V-USB - A Firmware-Only USB Driver for Atmel AVR Microcontrollers"]].
+    *[[http://www.obdev.at/products/vusb/automator.html|Objective Development Software GmbH "Automator. V-USB - Utilizing the Windows HID Driver"]].
+    *[[http://www.obdev.at/products/vusb/projects.html|Objective Development Software GmbH "Projects Based on V-USB"]].
+    *Wiki [[http://vusb.wikidot.com/|Wikidot "V-USB. A Firmware-Only USB Driver for the AVR"]].
+    *No claimed support of the ATxmega CPU, yet !
+  *ProGFX - A free Graphics Engine For Embedded Systems.
+    *[[http://www.progfx.org/|ProGFX]].
+    *[[http://www.avrfreaks.net/index.php?module=Freaks%20Academy&func=viewItem&item_id=2723&item_type=project|AVR Freaks "Project - 'ProGFX - Free Graphic Library'"]].
+    *[[http://extremeelectronics.co.in/avr-tutorials/interfacing-ks0108-based-128x64-graphical-lcd-with-avr-mcu//|Extreme Electronics "Interfacing KS0108 based 128×64 Graphical LCD with AVR MCU"]].
+    *[[http://www.extremeelectronics.co.in/avr-tutorials/interfacing-graphical-lcd-with-avr-mcu-part-ii/|Extreme Electronics "Interfacing Graphical LCD with AVR MCU – Part II"]].
+    *[[http://extremeelectronics.co.in/avr-tutorials/interfacing-graphical-lcd-with-avr-mcu-%E2%80%93-part-iii/|Extreme Electronics "Interfacing Graphical LCD with AVR MCU – Part III"]].
+    *[[http://extremeelectronics.co.in/avr-tutorials/handling-text-and-fonts-in-progfx/|Extreme Electronics "Handling Text and Fonts in ProGFX"]] - "Download GLCD Font Creator".
+    *Currently there is just a release of a library for ATmega32 CPU with KS0108B based 128x64 GLCD ( no sourcecode ).
+==== Free special Applications ====
+  *[[http://www.microsyl.com/|Sylvain Bissonnette "MicroSyl - MCU Electronics projects"]], Canada.
+    *The OpenSource bootloaders "MegaLoad" & "MegaLoad U".
+  *[[http://www.tuxgraphics.org/|tuxgraphics.org]] - "The place for avr microcontroller, DIY electronics and science fun".
+    *[[http://www.tuxgraphics.org/electronics/200606/article06061.shtml|tuxgraphics.org "An AVR microcontroller based Ethernet device"]]
+    *[[http://www.tuxgraphics.org/electronics/200611/embedded-webserver.shtml|tuxgraphics.org "HTTP/TCP with an atmega88 microcontroller (AVR web server)"]].
+    *No claimed support of the ATxmega CPU, yet !
+==== CAN-Bus ( Controller Area Network ) ====
+  *See [[carnetworks.html|Distributed Computing on Automotive Networks, Car Electronics and Automotive Data Formats]].
+==== Commercial Operating Systems ====
+  *[[http://www.pumpkininc.com/|Pumpkin, Inc]] - "Salvo - The RTOS that runs in tiny places".
+    *No claimed support of the ATxmega CPU, yet !
+===== The Development Toolchain ( IDEs, Compilers & Utility Tools ) for ATmega, ATtiny & AT90 =====
+==== Free Design Tools with Code Generator ====
+  *The free [[http://www.algrom.net/|Tatiana A Gromova & Gennady Gromov "Algorithm Builder - The Graphics Integrated Development Environment for AVR microcontrollers"]] for Windows - Generation of AVR assembly code.
+    *[[http://www.elektronik-projekt.de/thread.php?threadid=4400|Elektronik-Projekt Forum, Thread "AVR-Assembler Algorithm-Builder (grafisch), wer hat damit Erfahrung?"]], 2007-07-05.
+    *No claimed support of the ATxmega CPU, yet !
+  *[[http://www.forestmoon.com/software/|Forest Moon Productions]] alias [[http://www.avrfreaks.net/index.php?name=PNphpBB2&file=profile&mode=viewprofile&u=90773|fergy]].
+    *The free [[http://www.forestmoon.com/software/AvrIoDesigner/|Forest Moon Productions "AVR IO Designer"]] for W2k with .NET 2.0 - "A tool to generate IO initialization code for Atmel AVR processors".
+      *Support of ATmega8,...ATmega2560.. ATmega8535, ATtiny, AT90. No claimed support of the ATxmega CPU, yet !
+      *[[http://www.avrfreaks.net/index.php?name=PNphpBB2&file=viewtopic&t=47834&|AVR Freaks Forum, Thread "new software tool: AVR IO Designer"]].
+==== Free Compilers, Interpreters ====
+=== ADA ===
+  *The OpenSource ADA compiler [[http://avr-ada.sourceforge.net/|SourceForge "AVR-Ada"]], [[http://www.sourceforge.net/projects/avr-ada|SourceForge "AVR-Ada"]] for Windows and Linux. 
+    *No claimed support of the ATxmega CPU, yet !
+=== Assembler ===
+  *The OpenSource [[http://john.ccac.rwth-aachen.de:8000/as/|Alfred Arnold "The Macroassembler AS"]].
+    *The free [[http://john.ccac.rwth-aachen.de:8000/as/cpulist.html|Alfred Arnold "The Macroassembler AS" - List of Supported Target Processors]].
+    *Latest -current version is of 2006-12-19 -> Support for legacy Atmel AVR CPUs, but due to the ancient release date not for current Atmel AVR CPUs ( ATxmega, and even not for current ATmega, ATtiny ).
+  *The OpenSource AVR macro assembler [[http://www.suprafluid.de/avra/|AVRA - advanced macro assembler for Atmel AVR family]], [[http://avra.sourceforge.net/|SourceForge "avra - Atmel AVR Assembler"]], [[http://www.sourceforge.net/projects/avra/|SourceForge "avra - Atmel AVR Assembler"]]. The assembler is no linking assembler, i.e. the output can´t be linked with object files created by the C compiler or another run of the assembler.
+  *The free AVR assembler [[http://webspace.webring.com/people/la/avride/|AVRide]] for Windows - "The most powerfull editor/assembler for Atmel's range of AVR microcontrollers". The assembler is no linking assembler, i.e. the output can´t be linked with object files created by the C compiler or another run of the assembler.
+=== BASIC ===
+  *The discontinued free [[http://www.nettypes.de/b-control/|nettypes GmbH "B-Control"]] - A BASIC language interpreter "mBASIC" & "B-Control" operating system / runtime.
+    *No claimed support of the ATxmega CPU !
+=== FORTH ===
+  *The OpenSource FORTH system [[http://amforth.sourceforge.net/|SourceForge "amforth"]], [[http://www.sourceforge.net/projects/amforth|SourceForge "amforth"]].
+    *No claimed support of the ATxmega CPU, yet !
+  *The OpenSource FORTH system "SX-FORTH", written in "C".
+    *[[http://www.avrfreaks.net/index.php?module=Freaks%20Academy&func=viewItem&item_id=626&item_type=project|AVR Freaks "Projects - SX-Forth Interpreter for the AVR Butterfly ... but not only"]].
+    *Download[[http://www.avrfreaks.net/index.php?module=Freaks Files&func=viewFile&id=1930&showinfo=1|AVR Freaks "sx-forth"]].
+    *Download [[http://www.avrfreaks.net/index.php?module=Freaks%20Files&func=viewFile&id=1931&showinfo=1|AVR Freaks "Introductory Article on FORTH and SX-Forth Primer"]].
+    *<del>[[http://www.avrfreaks.net/index.php?module=Freaks%20Tools&func=viewItem&item_id=716|AVR Freaks "Tools / Development Applications - SX-Forth for AVR Butterfly ... and others AVR with 8KB Flash"]]</del>.
+    *Author: Valter Foresto, [[http://www.facebook.com/valter.foresto|Facebook "Valter Foresto"]], [[http://www.linkedin.com/in/commsec|LinkedIn "Valter Foresto"]].
+    *No claimed support of the ATxmega CPU, yet !
+=== Java ===
+  *The OpenSource Java runtime [[http://www.harbaum.org/till/nanovm/|NanoVM]], [[http://nanovm.sourceforge.net/|SourceForge "NanoVM"]], [[http://www.sourceforge.net/projects/nanovm/|SourceForge "NanoVM"]] - "Java for the AVR".
+    *[[http://en.wikipedia.org/wiki/NanoVM|EN.Wikipedia "NanoVM"]], [[http://de.wikipedia.org/wiki/NanoVM|DE.Wikipedia "NanoVM"]].
+    *No claimed support of the ATxmega CPU, yet !
+  *The OpenSource Java runtime [[http://code.google.com/p/bajos/|Google Code "Bajos"]].
+    *"Bajos can be adapted to Embedded Systems with/without operating system and has been tested for 8 and 32 bit AVR controllers (atmega128, UC3A, AP7000). Bajos runs now at arduino Mega".
+    *No claimed support of the ATxmega CPU, yet !
+=== Python ===
+  *PyMite / python-on-a-chip ( p14p ).
+    *[[http://code.google.com/p/python-on-a-chip/|Google Code "python-on-a-chip"]].
+    *[[http://wiki.python.org/moin/PyMite|Python.org "PyMite"]].
+    *No claimed support of the ATxmega CPU, yet !
+=== Shells ===
+  *The OpenSource [[http://www.bitlash.net/|Bitlash Online "Bitlash"]] - "Open source interpreted language shell and embedded programming environment. This website documents Bitlash for the popular and useful Arduino".
+    *No claimed support of the ATxmega CPU, yet !
+  *The OpenSource command shell[[http://www.battledroids.net/downloads/avrsh.html|Battledroids "AVR Shell. A UNIX-like command interpreter for Arduino's and AVR's"]].
+    *No claimed support of the ATxmega CPU, yet !
+
+==== Free Unit Test Frameworks ====
+  *[[http://www.ucunit.org/|Sven Stefan Krauß "uCUnit - Unit Testing Framework for Microcontrollers"]] for Atmel AVR, ARM, Intel x86 - "A lightwheight unit testing framework for small microcontrollers programmed in C".
+    *[[http://ucunit.origo.ethz.ch/|Sven Stefan Krauß "uCUnit Development Server"]].
+  *[[http://www.lhexapod.com/|l'Hexapod - Len Holgate's journey into robotics, embedded electronics and the design and creation of a hexapod robot...]].
+    *No claimed support of the ATxmega CPU, yet !
+  *Blog article [[http://www.lhexapod.com/blog/2009/10/repeatable-unit-testing-with-avr-assembler-and-avr-studio.html|l'Hexapod "Repeatable Unit Testing with AVR Assembler and AVR Studio"]].
+    *"The code here has been for an ATTiny2313 and an ATMega168".
+    *Comment of an embedded systems expert on that blog article "In most ways it is the complete opposite of how I would test firmware!" :-).
+==== Free CPU Simulation ====
+  *The OpenSource [[http://compilers.cs.ucla.edu/avrora/|Avrora - The AVR Simulation and Analysis Framework]], [[http://avrora.sourceforge.net/|SourceForge "Avrora"]], [[http://www.sourceforge.net/projects/avrora/|SourceForge "Avrora"]] - "A suite of tools for analyzing and debugging programs for AVR microcontrollers".
+    *[[http://compilers.cs.ucla.edu/avrora/jars/|Downloads]].
+    *[[http://docs.tinyos.net/tinywiki/index.php/Avrora|TinyOS Wiki "Avrora"]].
+    *No claimed support of the ATxmega CPU, yet !
+  *[[http://www.hewgill.com/|Greg Hewgill]].
+    *The OpenSource Arduino simulator [[http://www.github.com/ghewgill/emulino|github, Greg Hewgill "emulino"]].
+    *Blog article [[http://www.hewgill.com/journal/entries/507-emulino-arduino-cpu-emulator|Greg Hewgill "emulino: arduino cpu emulator"]], 2009-05-16.
+    *No claimed support of the ATxmega CPU, yet !
+  *The free [[http://www.helmix.at/hapsim/|HAPSIM - Helmi's AVR Periphery Simulator]] - "LCD (HD44780U), Terminal (USART and TWI), LEDs, Push-Buttons and Keypad Simulator Extension for the AVR Simulator of Atmel's AVR Studio 4".
+  *The once-free, now affordable commercial Arduino simulator [[http://www.virtualbreadboard.net/|James Caska, Infology Pty Ltd "VirtualBreadboard"]] for Windows with .NET 2.0.
+    *[[http://www.youtube.com/user/JamesCaska|YouTube Channel "JamesCaska"]].
+==== Free Tools ====
+  *[[http://www.avr-praxis.de/forum/forumdisplay.php?93-Programme-und-Tools|AVR-PRAXiS "Programme und Tools"]].
+    *The free online tool [[http://www.engbedded.com/fusecalc/|Engbedded Atmel AVR Fuse Calculator]] for ATmega, ATtiny, AT90.
+      *No claimed support of the ATxmega CPU, yet !
+    *The free [[http://www.avr-praxis.de/forum/showthread.php?74-Tool-AVR-Timer-Calculator|AVR-PRAXiS "AVR-Timer-Calculator"]] for Windows.
+      *No claimed support of the ATxmega CPU, yet !
+    *The free tool [[http://www.avr-praxis.de/forum/showthread.php?298-Ein-Monitor-f%FCr-s-Interne|AVR-PRAXiS "Standard Ein Monitor für's Interne "]] for Windows.
+      *No claimed support of the ATxmega CPU, yet !
+    *The free tool [[http://www.avr-praxis.de/forum/showthread.php?208-WinAvrMon-Monitor-f%FCr-das-Mega128-USB-Board|AVR-PRAXiS "Standard Ein Monitor für's Interne"]] for Windows.
+      *"Die Sourcen der Firmware sind beigelegt, so daß der Monitor in eigene Anwendungen integriert werden kann" :-). No claimed support of the ATxmega CPU, yet !
+    *The free tool [[http://www.avr-praxis.de/forum/showthread.php?70-Tool-AVR-USART-Calculator|AVR-PRAXiS "AVR-USART-Calculator"]].
+      *No claimed support of the ATxmega CPU, yet !
+==== Commercial IDEs with Compilers ====
+  -The commercial [[http://www.fored.co.uk/html/avidicy_avr_compiler.HTM|Forest Electronics "AVIDICY AVR Compiler"]] for Windows - FED "C Compiler" ( not C/C++ ! ).
+    *[[http://www.fored.co.uk/html/processors_supported.html|Forest Electronics "AVIDICY AVR Compiler - Processors Supported"]].
+    *[[http://www.fored.co.uk/html/c_compiler_detail.html|Forest Electronics "C Compiler Detail"]] - "FED C Compiler"
+    *No claimed support of the ATxmega CPU, yet !
+  -[[http://www.myavr.de/|Laser & Co Solutions GmbH]].
+    *[[http://shop.myavr.de/index.php?sp=download.sp.php&suchwort=Linux|Laser & Co Solutions GmbH "myAVR Downloadbereich"]] - "DL215: myAVR unter LINUX".
+    *The commercial IDE "SiSy AVR ++ Entwicklungsumgebung".
+      *No claimed support of the ATxmega CPU, yet !
+    *The commercial IDE "myAVR Workpad".
+      *No claimed support of the ATxmega CPU, yet !
+  -[[http://www.forth.com/|FORTH,Inc - FORTH-based software and services since 1973]].
+    *The commercial "SwiftForth" for Windows, Linux.
+    *The commercial "SwiftX for embedded systems development".
+      *[[http://www.forth.com/embedded/swiftx-embedded-systems-15.html|FORTH,Inc "Processors, Boards, and Prices"]] -> ATmega.
+    *No claimed support of the ATxmega CPU, yet !
+  -IAR Assembler.
+    *[[http://www.avrfreaks.net/index.php?module=Freaks%20Tools&func=viewItem&item_id=581|AVR Freaks "wavrasm"]] - "IAR Assembler Version 1.30 for the AVR family of microcontrollers. Fully featured command line assembler. Includes Linker and Librarian. Compatible with AVR Studio. Documentation inlcluded in PDF format".
+    *No support of the ATxmega CPU with this legacy tool version !
+  -[[http://www.labcenter.com/|Labcenter Electronics]].
+    *[[http://www.labcenter.com/products/avr.cfm|Labcenter Electronics "Proteus VSM - SPICE Simulator/Debugger for Atmel AVR"]] - "The Proteus Design Suite is wholly unique in offering the ability to co-simulate both high and low-level micro-controller code in the context of a mixed-mode SPICE circuit simulation".
+    *No claimed support of the ATxmega CPU, yet !
+  -[[http://www.matrixmultimedia.com/|Matrix Multimedia 2011]].
+    *[[http://www.matrixmultimedia.com/support/|Matrix Multimedia 2011 "Support"]].
+      *[[http://www.matrixmultimedia.com/support/viewforum.php?f=22|Matrix Multimedia 2011 "Support", "Flowcode V4"]].
+        *"Flowcode AVR Download".
+        *"Flowcode AVR Examples".
+        *"Flowcode AVR - Verification errors".
+      *[[http://www.matrixmultimedia.com/support/|Matrix Multimedia 2011 Support "Matrix Multimedia Frequently Asked Questions"]].
+    *The commercial flow-control designer tool [[http://www.matrixmultimedia.com/support/viewtopic.php?t=542|Matrix Multimedia 2011 "Flowcode AVR"]].
+    *The free online training course [[http://www.matrixmultimedia.com/lc_index.php?p=19|Matrix Multimedia 2011 "Free Flowcode Course"]].
+    *[[http://www.matrixmultimedia.com/resources/files/misc/ChipList_V4_AVR.txt|Matrix Multimedia 2011 "Flowcode V4 for AVR. The following microcontrollers are supported by Flowcode"]] -> As of 2010-04-01, ATxmega CPUs are not supported.
+  -The Shareware Pascal Compiler [[http://users.iafrica.com/r/ra/rainier/|Embedded Pascal]] for Windows, by Rainier / MGL Software / [[http://www.mglavionics.co.za/|MGL Avionics]].
+    *No debuggers are supported. The development of this compiler has been terminated several years ago. There is a basic simulator included in the download which allows fairly basic debugging but there is no support for any form of hardware debugging via jtag or other interfaces.
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Hardware/Components/Processors/AVR/|OpenDirectory "Top: Computers: Hardware: Components: Processors: AVR]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Hardware/Mikrocontroller/|OpenDirectory "Top: World: Deutsch: Computer: Hardware: Mikrocontroller"]].
+{{tag>Atmel AVR ATmega ATtiny AT90 Arduino Freeduino Xplained "AVR Studio" "8-bit" 8bit CPU "embedded system" "embedded systems"}}
+<footnote_navi_en>

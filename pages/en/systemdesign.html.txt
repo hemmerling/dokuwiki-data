@@ -1,0 +1,292 @@
+====== [hemmerling] System Design ======
+Related pages:
+  *[[metro.html|Flat Design]].
+  *[[requirements.html|Requirements]].
+  *[[specbyex.html|Specification by Example]].
+  *[[sdocumentation.html|Software Documentation]].
+  *[[testing.html|Testing]].
+  *[[usability.html|Usability]].
+===== Organizations =====
+  *[[http://www.gfse.de/|Gesellschaft für Systems Engineering e.V. German Chapter of INCOSE]].
+  *[[http://www.incose.org/|International Council on Systems Engineering ( INCOSE )]].
+  *[[http://www.iasaglobal.org/|International Association of Software Architects]] ( IASA ).
+  *[[http://www.oose.de/|oose Innovative Informatik GmbH]], Hamburg.
+===== Education =====
+  *[[http://www.oose.de/abendvortraege.html|oose Innovative Informatik GmbH]], Hamburg.
+    *[[http://www.oose.de/abendvortraege.html|OOSE Abendvorträge]].
+===== Arc42 =====
+  *"arc42 contains a template for development, documentation and communication of software architectures".
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/B00A9T7758/hemmerling-21|Peter Hruschka, Gernot Starke: "Zertifizierung für Softwarearchitekten - Ihr Weg zur iSAQB-CPSA-F Prüfung [Kindle Edition]"]].
+    *[[http://www.arc42.de/about/page35/sommeraktion.html|arc42 - Resourcen für Software-Architekten "Die Sommer-Aktion"]] - Pree paper book.
+  *[[http://www.arc42.org/|arc42 - Ressources for software architects]].
+  *[[http://www.arc42.de/|arc42 - Resourcen für Software-Architekten]] ( German ).
+    *Wiki [[http://confluence.arc42.org/|arc42 Wiki]] - "arc42 Templates (international...)".
+===== Agile Development - Procedure Models / Process Models =====
+  *[[http://www.agile-development-framework.net/|Agile Development Framework]] by [[http://www.goloroden.de/|Golo Roden]].
+===== Command Query Responsibility Segregation ( CQRS ) & Event Sourcing ( ES ) =====
+==== CQRS and the CAP Theorem / CAP Triangle ====
+  *[[http://en.wikipedia.org/wiki/CAP_theorem|EN.Wikipedia "CAP theorem"]], [[http://de.wikipedia.org/wiki/CAP-Theorem|DE.Wikipedia "CAP-Theorem"]]
+    -Consistency ( all nodes see the same data at the same time )
+    -Availability ( a guarantee that every request receives a response about whether it was successful or failed )
+    -Partition tolerance 
+  *Classical IT design, including relational ( SQL ) databases, covers "Consistency" and "Availability".
+  *CQRS, as often implemented in NoSQL databases, covers "Availability" and "Partition tolerance".
+  *Messages: Commands vs. events:
+    *Commands are imperative, sometimes they are not for every party, there might be exceptions.
+    *Events are past, they happened. Events which happened can´t be changed.
+==== Resources ====
+  *According to experts, CQRS is not intended and useful for:
+    *CRUD applications.
+    *Big data storage ( e.g. massive data acquisition ). 
+  *Blog [[http://cqrs.wordpress.com/|Wordpress "CQRS"]].
+  *[[http://code.google.com/p/nug-ms/|Google Code "nug-ms. NUG Münster - Code Repository of the .Net UserGroup Münster"]].
+    *[[http://code.google.com/p/nug-ms/downloads/detail?name=20110108-CQRS-Einfuehrung.pdf|nug-ms., slides "Folien der CQRS Demo vom 08.01.2011"]].
+  *[[http://www.heise.de/developer/artikel/CQRS-neues-Architekturprinzip-zur-Trennung-von-Befehlen-und-Abfragen-1797489.html|Heise Developer "Marco Heimeshoff, Philip Jander: CQRS – neues Architekturprinzip zur Trennung von Befehlen und Abfragen. Getrennt sind wir stark"]], [[http://www.h-online.com/developer/features/CQRS-an-architecture-precept-based-on-segregation-of-commands-and-queries-1803276.html|The H Developers "Marco Heimeshoff, Philip Jander: CQRS – a new architecture precept based on segregation of commands and queries"]].
+  *[[http://blog.adnanmasood.com/2013/04/19/cloud-computing-and-cqrs-resources-notetoself/|R&D. Adnan on Technology, Research & Development "Cloud Computing and CQRS Resources"]].
+  *Slides [[http://www.slideshare.net/pjvdsande/rethink-your-architecture-with-cqrs|SlideShare, Pieter Joost van de Sande "Rethink your architecture with CQRS"]].
+  *Slides [[http://www.slideshare.net/NeilRobbins/an-intro-to-cqrs-4757317|SlideShare, Neil Robbins, "An Introduction To CQRS"]].
+  *Slides [[http://www.slideshare.net/ndrssmn/eventzentrierte-architekturen|SlideShare, ndrssmn "Eventzentrierte Architekturen"]] -> Advertising of SoCraMOB 2014.3 :-).
+  *Slides [[http://www.slideshare.net/mbild/cqrs-event-sourcing-28292586|SlideShare, mbild, "CQRS + Event Sourcing"]], @Frankfurt 2013.
+  *Video [[http://www.youtube.com/watch?v=BLKcFQnE4vM&list=UUhY1i61YdkwRCST9dDwjiyg|YouTube "DDD Lean Hangout"]], 2013-09-15.
+
+==== Experts ====
+  *CQRS expert [[http://www.udidahan.com/|Udi Dahan – The Software Simplist. Enterprise Development Expert & SOA Specialist]].
+  *CQRS+ES expert [[http://www.codebetter.com/gregyoung/|CodeBetter "Greg Young"]], [[http://www.cqrsinfo.com/|CQRS Info - Command Query Responsibility Segregation]] ( cqrsinfo.com ).
+  *CQRS+ES expert [[http://www.abdullin.com/|Rinat Abdullin - Rinat Abdullin on efficient software development, cloud computing and CQRS]].
+  *CQRS+ES expert [[http://www.distributedpodcast.com/|Distributed Podcast. CQRS, DDD, Cloud computing and much more!]] ( Jonathan Oliver ,.. ).
+  *[[http://www.heimeshoff.de/|Marco Heimeshoff]].
+    *[[http://www.github.com/heimeshoff|GitHub "Marco Heimeshoff"]].
+    *[[http://www.twitter.com/Heimeshoff|Twitter "Marco Heimeshoff, @Heimeshoff"]].
+    *[[http://gist.github.com/heimeshoff|GitHub Gist "Marco Heimeshoff"]].
+      *[[http://gist.github.com/heimeshoff/5540636|Marco Heimeshoff "gist:5540636"]] - "If you have two days to learn the very basics of modelling, Domain-Driven Design, CQRS and Event Sourcing, here's what you should do"....
+  *[[http://www.Jander.IT|Philip Jander]], [[http://twitter.com/ph_j|Twitter "Philip Jander"]].
+    *[[http://www.twitter.com/ph_j|Twitter "Philip Jander, @ph_j"]].
+==== Tools ====
+  *[[http://ncqrs.codeplex.com/|CodePlex "Ncqrs Framework - The CQRS framework for .NET"]], [[http://www.github.com/ncqrs/ncqrs|Github "ncqrs/ncqrs"]].
+  *[[http://www.nservicebus.com/|NServiceBus - The most developer-friendly service bus for SOA on .NET]].
+  *[[http://www.github.com/petrjanda/node-cqrs|Github "petrjanda / node-cqrs"]] - "Node.js implementation of CQRS".
+
+
+===== Database Application Design by Data Flow Diagrams ( DFD ) & Entity Relationship Diagrams ( ER ) =====
+==== Tools for Database Application Design by Data Flow Diagrams ( DFD ) ====
+  *See [[diagrams.html|Diagrams & Graph Visualization]].
+==== Resources ====
+  *[[http://www.teialehrbuch.de/Kostenlose-Kurse/SQL/14650-Datenflussdiagramm.html|(teia) Lehrbuch "2.3 Datenflussdiagramm"]].
+  *[[http://en.wikipedia.org/wiki/Data_flow_diagram|EN.Wikipedia "Data flow diagram"]], [[http://en.wikipedia.org/wiki/Physical_Data_Flow|EN.Wikipedia "Physical Data Flow"]], [[http://de.wikipedia.org/wiki/Datenflussdiagramm|EN.Wikipedia "Datenflussdiagramm"]].
+===== Design by Contract / Contract Programming =====
+==== Codius ====
+  *[[http://www.github.com/codius/|GitHub "codius"]].
+    *[[http://www.github.com/codius/codius/wiki/Smart-Oracles:-A-Simple,-Powerful-Approach-to-Smart-Contracts|GitHub Wiki of "codius/codius" - "Smart Oracles: A Simple, Powerful Approach to Smart Contracts"]].
+  *[[http://www.youtube.com/watch?v=eIjyl_rTZ5U|YouTube "Ripple Labs Tech Talk: Introduction to Codius (Nov 2014)"]].
+  *Hackathon [[http://www.meetup.com/Bitcoin-Startups-Berlin/events/219548044/|Meetup "Bitcoin Startups Berlin", Event "Codius Hackathon"]], 2015-01-14.
+==== D ====
+  *[[http://www.d-programming-language.org/|The D programming language]].
+    *[[http://www.d-programming-language.org/dbc.html|The D programming language "Contract Programming"]].
+==== Resources ====
+  *[[http://en.wikipedia.org/wiki/Design_by_contract|EN.Wikipedia "Design by contract"]], [[http://de.wikipedia.org/wiki/Design_by_contract|DE.Wikipedia "Design by contract"]].
+
+===== Design Patterns =====
+==== Patterns ====
+  *[[http://en.wikipedia.org/wiki/Model_View_ViewModel|EN.Wikipedia "Model View ViewModel"]], [[http://de.wikipedia.org/wiki/Model_View_ViewModel|DE.Wikipedia "Model View ViewModel"]].
+    *The ViewModel is the controller of the traditional Model-View-Controller. The pattern is designed for automatic testing.
+    *Requirements: A software framework which provides "DataBinding". Microsoft .NET 4.5 does!
+    *Microsoft WPF, Microsoft Silverlight, Microsoft Windows 8 Phone and Microsoft Windows 8 Apps are predestined for MVVC, as Databinding is provided.
+  *[[http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller|EN.Wikipedia "Model–view–controller"]], [[http://de.wikipedia.org/wiki/Model_View_Controller|DE.Wikipedia "Model View Controller"]] #.
+    *Microsoft suggeest using MVC with Microsoft ASP.NET, by providing an software framework which support MVC!
+    *[[https://www.youtube.com/user/envyads/videos|YouTube Channel "envyads"]] - The series of videos "MVC Public Service Announcement".
+  *"Code Behind" Paradigma.
+    *With "Windows Forms", "Code Behind" programming is standard, which is in contrast to the objectives of MVC or MVVM to separate behaviour code from view.
+    *Microsoft does not provide an MVC or MVVM framework, for "Windows Forms":-(. 
+  *[[http://en.wikipedia.org/wiki/Multitier_architecture|EN.Wikipedia "Multitier architecture"]], [[http://de.wikipedia.org/wiki/Schichtenarchitektur|DE.Wikipedia "Schichtenarchitektur"]].
+==== Resources ====
+  *[[http://en.wikipedia.org/wiki/Design_Patterns_%28book%29|EN.Wikipedia "Design Pattterns"]], [[http://de.wikipedia.org/wiki/Entwurfsmuster|DE.Wikipedia "Entwurfsmuster"]], [[http://de.wikipedia.org/wiki/Entwurfsmuster_%28Buch%29|DE.Wikipedia "Entwurfsmuster (Buch)"]].
+  *[[http://en.wikipedia.org/wiki/Design_pattern|EN.Wikipedia "Design pattern"]].
+  *[[http://msdn.microsoft.com/en-us/practices/|Microsoft Developer Center - patterns & practices]].
+  *[[http://www.dofactory.com/|dofactory - #1 in design pattern]] - ".NET Design Patterns and Architectures in C# and VB".
+    *[[http://www.dofactory.com/Patterns/Patterns.aspx|dofactory "Design Patterns"]] in C#.
+  *[[http://www.javacamp.org/designPattern/|JavaCamp.org "Java Design Patterns At a Glance"]] - Design patterns, with implementation in Java.
+  *[[http://www.patterndepot.com/put/|Patterndepot]].
+    *[[http://www.patterndepot.com/put/8/JavaPatterns.htm|Patterndepot "James W. Cooper 'The Design Patterns. Java Companion']].
+  *[[http://www.c2.com/|Cunningham & Cunningham, Inc.]].
+    *[[http://www.c2.com/cgi/wiki|Portland Pattern Repository's Wiki]].
+      *[[http://www.c2.com/cgi/wiki?DesignPatternsBook|Portland Pattern Repository's Wiki "Design Patterns Book"]].
+  *[[http://www.24bytes.com/|24bytes.com]].
+    *[[http://www.patterns.24bytes.com/|24bytes.com - Patterns]].
+==== Literature ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0201633612/hemmerling-21|Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides "Design Patterns. Elements of Reusable Object-Oriented Software"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3827321999/hemmerling-21|Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides "Entwurfsmuster: Elemente wiederverwendbarer objektorientierter Software"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3897214210/hemmerling-21|Eric Freeman, Elisabeth Freeman, Kathy Sierra, Bert Bates "Entwurfsmuster von Kopf bis Fuß"]].
+    *The acompanying website [[http://www.oreilly.de/catalog/hfdesignpatger/|O'Reilly "Entwurfsmuster von Kopf bis Fuß"]].
+
+===== Don't repeat yourself ( DRY ) vs. Write Everything Twice ( WET ) & Because What If I Need It Later ( BWIINIL )=====
+  *[[http://paulbarry.com/articles/2009/04/01/write-everything-twice-and-because-what-if-i-need-it-later|Paul Berry "'Write Everything Twice' and 'Because What If I Need It Later'"]].
+  *[[http://www.nofluffjuststuff.com/blog/shawn_hartsock/2012/09/code_samples_and_the_argument_for_wet_versus_dry|No Fluff Just Stuff "Code Samples and the argument for WET versus DRY"]].
+  *[[http://cagan327.blogspot.de/2006/03/dry-or-wet.html|TechnologyNotes, Notes on Software, Technology and stuff... "DRY or WET"]].
+  *[[http://en.wikipedia.org/wiki/Don%27t_repeat_yourself|EN.Wikipedia "Don't repeat yourself"]].
+===== Fundamental Modeling Concepts ( FMC ) =====
+  *[[http://www.fmc-modeling.org/|FMC - Home of Fundamental Modeling Concepts]].
+  *[[http://de.wikipedia.org/wiki/Siegfried_Wendt|DE.Wikipedia "Siegfried Wendt"]].
+  *[[http://en.wikipedia.org/wiki/Fundamental_modeling_concepts|EN.Wikipedia "Fundamental modeling concepts"]], [[http://de.wikipedia.org/wiki/Fundamental_Modeling_Concepts|DE.Wikipedia "Fundamental Modeling Concepts"]].
+===== Fully Communication Oriented Information Modeling ( FCO-IM ) =====
+  *FCO-IM does not model reality, but it models the communications about reality :-).
+  *[[http://www.fco-im.nl/|FCO-IM - Fully Communication Oriented Information Modeling]].
+  *The commercial tool [[http://www.casetalk.com/|CaseTalk]] - "free limited book edition, free student edition, free 30 days evaluation edition".
+  *[[http://en.wikipedia.org/wiki/FCO-IM|EN.Wikipedia "FCO-IM"]], [[http://en.wikipedia.org/wiki/Object-Role_Modeling|EN.Wikipedia "Object-Role Modeling"]].
+===== Functional Flow Block Diagram ( FFBD ), extended Function Flow Block Diagram ( eFFBD ) =====
+  *[[http://en.wikipedia.org/wiki/Functional_flow_block_diagram|EN.Wikipedia "Functional flow block diagram"]].
+  *[[http://www.graffletopia.com/stencils/146|Graffletopia "kustere: Functional Flow Block Diagram (FFBD)"]].
+  *[[http://www.threesl.com/pages/webletter-November06/eFFBD_Reference_Functions.php|3SL Cradle - November 2006 [Cradle 5.4]  "eFFBD Reference Functions"]] - "The symbols provided in  extended Function Flow Block Diagrams (eFFBDs) in the Essential and Implementation domains have been extended to include  reference functions".
+===== "Imperative Programming" vs "Declarative Programming" =====
+==== Old-fashioned "Structured Programming" aka "Imperative Programming" ====
+  *The commercial CASE TOOL [[http://www.easycase.at/|EasyCode]] ( formerly: SIEMENS EasyCase ).
+    *[[http://de.wikipedia.org/wiki/EasyCODE|DE.Wikipedia "EasyCODE"]].
+  *The commercial CASE tool [[http://www.myfriend.de/|GSK Gesellschaft für Konzeption, Entwicklung und Optimierung von Software und Systemen mbH "MyFriend"]].
+==== Resources ====
+  *[[http://en.wikipedia.org/wiki/Imperative_programming|EN.Wikipedia "Imperative programming"]], [[http://de.wikipedia.org/wiki/Imperative_Programmierung|DE.Wikipedia "Imperative Programmierung"]].
+  *[[http://en.wikipedia.org/wiki/Declarative_programming|EN.Wikipedia "Declarative programming"]], [[http://de.wikipedia.org/wiki/Deklarative_Programmierung|DE.Wikipedia "Deklarative Programmierung"]].
+===== Interface Description Language ( IDL ) =====
+  *[[http://www.omg.org/gettingstarted/omg_idl.htm|Object Management Group, Inc. ( OMG ) "OMG IDL: Details"]].
+  *[[http://en.wikipedia.org/wiki/ISO_14750|EN.Wikipedia "ISO 14750"]].
+  *[[http://en.wikipedia.org/wiki/Interface_description_language|EN.Wikipedia "Interface description language"]], [[http://de.wikipedia.org/wiki/Schnittstellenbeschreibungssprache|DE.Wikipedia "Schnittstellenbeschreibungssprache"]].
+  *[[http://en.wikipedia.org/wiki/IDL_specification_language|EN.Wikipedia "IDL specification language"]].
+===== Model Driven Architecture ( MDA ) & Dynamic System Initiative =====
+  *[[http://www.omg.org/mda/|Object Management Group "OMG Model Driven Architecture"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/032119442X/hemmerling-21|Anneke Kleppe, Jos Warmer, Wim Bast: "MDA Explained"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0471202843/hemmerling-21|Jack Greenfield, Wojtek Kozaczynski: "Software Factories"]] - the book about the "Dynamic System Initiative".
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0521537711/hemmerling-21|Chris Raistrick, Paul Francis, John Wright "Model Driven Architecture with Executable UML"]].
+    *The free [[http://www.kc.com/|Kennedy Carter "iUMLLite"]] is shipped on CD with the book. //The "lite" version supports class and use case diagrams, but no sequence diagrams//.
+===== Modelling SA/SD - Structured Analysis ( SA ) and Structured Design ( SD ) =====
+  *[[http://en.wikipedia.org/wiki/Structured_analysis|EN.Wikipedia "Structured analysis"]], [[http://de.wikipedia.org/wiki/Strukturierte_Analyse|DE.Wikipedia "Strukturierte Analyse"]] ( SA ).
+  *[[http://en.wikipedia.org/wiki/Tom_DeMarco|EN.Wikipedia "Tom DeMarco"]], [[http://de.wikipedia.org/wiki/Tom_DeMarco|DE.Wikipedia "Tom DeMarco"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0932633110/hemmerling-21|Derek J. Hatley, Imtiaz A. Pirbhai: "Strategies for Real Time System Specification"]], [[http://www.amazon.de/exec/obidos/ASIN/0932633048/hemmerling-21|Derek J. Hatley, Imtiaz A. Pirbhai: "Strategien für die Echtzeit - Programmierung"]].
+  *[[http://www.dorsethouse.com/authors/pirbhai.html|Dorset House Publishing "Imtiaz A. Pirbhai"]].
+=====  Object Oriented Design, Object Oriented Programming =====
+  *Ports and Adapters.
+    *[[http://alistair.cockburn.us/Hexagonal+architecture|Alistair Cockburn "Hexagonal architecture"]] - "The Pattern: Ports and Adapters ('Object Structural')"#.
+      *Communication between different layers: "Think in slices, not in layers ( Lasagna )"!
+    *Dependency inversion principle.
+      *[[http://en.wikipedia.org/wiki/Dependency_inversion_principle|EN.Wikipedia "Dependency inversion principle"]], [[http://de.wikipedia.org/wiki/Dependency-Inversion-Prinzip|DE.Wikipedia "Dependency-Inversion-Prinzip"]].
+      *[[http://en.wikipedia.org/wiki/Protocol_%28object-oriented_programming%29|EN.Wikipedia "Protocol (object-oriented programming)"]], [[http://en.wikipedia.org/wiki/Interface_%28Java%29|EN.Wikipedia "Interface (Java)"]], [[http://de.wikipedia.org/wiki/Schnittstelle_%28Objektorientierung%29|DE.Wikipedia "Schnittstelle (Objektorientierung)"]].
+      *[[http://en.wikipedia.org/wiki/Inversion_of_control|EN.Wikipedia "Inversion of control"]], [[http://de.wikipedia.org/wiki/Inversion_of_Control|DE.Wikipedia "Inversion of Control"]], [[http://en.wikipedia.org/wiki/Hollywood_principle|EN.Wikipedia "Hollywood principle"]] - "Don't call us, we'll call you"
+      *"Tell, don´t ask".
+        *[[http://www.martinfowler.com/bliki/TellDontAsk.html|Martin Fowler "TellDontAsk"]], 2013-09-15.
+        *[[http://www.pragprog.com/articles/tell-dont-ask|The Pragmatic Bookshelf "Tell, Don't Ask"]].
+        *[[http://gist.github.com/janernsting/913b40698f0e21a808a0|Github "janernsting / game_of_life_test.py"]]
+      *If your favourite object oriented programming language does not have "Interfaces", you may alternatively also use an "Abstract Class".
+  *Concepts of Javascript ( [[http://en.wikipedia.org/wiki/JavaScript|EN.Wikipedia "JavaScript"]], [[http://de.wikipedia.org/wiki/JavaScript|DE.Wikipedia "JavaScript"]] ):
+    *Prototype-based - "JavaScript uses prototypes ( [[http://en.wikipedia.org/wiki/Prototype-based_programming.|EN.Wikipedia "Prototype-based programming"]], [[http://de.wikipedia.org/wiki/http://de.wikipedia.org/wiki/Prototypenbasierte_Programmierung|DE.Wikipedia "Prototypenbasierte Programmierung"]] ) where many other object oriented languages use classes for inheritance":
+      *Prototypes.
+      *Functions as object constructors.
+      *Functions as methods.
+    *Implicit and Explicit Delegation - JavaScript is a Delegation Language ( [[http://en.wikipedia.org/wiki/Delegation_%28programming%29|EN.Wikipedia "Delegation (programming)"]], [[http://de.wikipedia.org/wiki/Delegation_%28Softwareentwicklung%29|DE.Wikipedia "Delegation (Softwareentwicklung)"]] )
+      *Functions as Roles ( Traits and Mixins ).
+        *[[http://gist.github.com/petsel/7677638|GitHub "petsel / The many »Talents« of JavaScript"]].
+      *Type Composition and Inheritance.
+  *[[http://www.holub.com/|Allen I. Holub]].
+    *[[http://www.holub.com/publications/notes_and_slides/|Allen I. Holub "Course Notes and Slides by Allen Holub"]].
+      *[[http://www.holub.com/publications/other/bankofallen.html|Allen I. Holub "The Bank-of-Allen Project: The OO-Design Process from Conception to Modeling"]].
+  *Object Calisthenics.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/193435614X/hemmerling-21|ThoughtWorks Inc.: "The ThoughtWorks Anthology: Essays on Software Technology and Innovation"]].
+    *[[http://www.markhneedham.com/blog/2008/11/06/object-calisthenics-first-thoughts/|Mark Needham - Thoughts on Software Development "Object Calisthenics: First thoughts"]].
+    *Rules.
+      -Use only one level of indentation per method.
+      -Don’t use the else keyword.
+      -Wrap all primitives and strings.
+      -Use only one dot per line.
+      -Don’t abbreviate.
+      -Keep all entities small.
+      -Don’t use any classes with more than two instance variables.
+      -Use first-class collections.
+      -Don’t use any getters/setters/properties.
+===== Resource-oriented Computing =====
+  *[[http://en.wikipedia.org/wiki/Resource-oriented_computing|EN.Wikipedia "Resource-oriented computing"]].
+
+===== Clean Software Installation =====
+==== Sideloading ====
+  *[[http://en.wikipedia.org/wiki/Sideloading|EN.Wikipedia "Sideloading"]].
+==== Installation with Signature ====
+  *[[http://www.geek.com/articles/news/microsoft-signature-an-expensive-way-to-remove-crapware-2010104/|Geek "Microsoft Signature: an expensive way to remove crapware"]].
+  *[[http://www.makeuseof.com/tag/how-to-make-your-pc-a-microsoft-signature-pc-without-paying-99/|MakeUseOf "How To Make Your PC A Microsoft Signature PC Without Paying $99"]].
+  *[[http://www.microsoftstore.com/store/msstore/en_US/pd/ThemeID.27509700/Microsoft-Signature-Premium/productID.235559700|"Meet Microsoft Signature"]] - "PCs with Signature will help ensure you get the best experience with Windows 8. It is the cleanest Windows 8 experience with no junkware is installed – it’s clean and easy!".
+  *[[http://www.techradar.com/news/software/operating-systems/microsoft-signature-is-shameful-1091514|TechRadar "Microsoft Signature is shameful. Signature is Windows 7 as it should be sold anyway"]].
+=====  ITU-T Specification and Description Language (SDL) =====
+<WRAP tip>[[sdl.html|ITU-T Specification and Description Language (SDL)]]</WRAP>
+===== Story Driven Modeling ( SDM ) =====
+==== Example "Mensch-Ärgere-Dich-Nicht" ====
+  -Textual use case description, of [[http://de.wikipedia.org/wiki/Mensch_%C3%A4rgere_Dich_nicht|DE.Wikipedia "Mensch ärgere Dich nicht"]].
+  -**Story Boarding (OOA) ( Test specification ) -> Object diagram.** # That's the new approach!
+  -Class diagram deviation ( OOD ).
+  -Behaviour deviation ( Coding ) -> Activity Diagram. How may I change the object model, to get from one state to the next ? How may I proceed from one object ot the next object ? How do I generate behaviour for the objects ?
+  -Code generation.
+  -Validation ( Testing ).
+==== Resources ====
+  *Albert Zündow.
+    *[[http://seblog.cs.uni-kassel.de/|Software Engineering Research Group Kassel. Department of Computer Science and Electrical Engineering]].
+    *[[http://www.se.eecs.uni-kassel.de/typo3/index.php?albert|Software Engineering Research Group Kassel - Prof. Dr. Albert Zündorf]].
+    *The free Fujaba.
+      *[[http://de.wikipedia.org/wiki/Fujaba|DE.Wikipedia "Fujaba"]].
+      *[[http://www.fujaba.de/|Universität Paderborn "Fujaba Tool Suite"]].
+    *[[http://www.youtube.com/watch?v=nwcsj_Iz4ao|YouTube, GoogleTechTalks, Albert Zündow "Story Driven Modeling with Fujaba: Turning Scenarios into Automated Tests"]].    
+    *The commercial [[http://www.yatta.de/| Yatta Solutions GmbH "UML LAB"]] - "Round-Trip-Engineering. Intuitive class diagram editor. Individual CodeStyles".
+  *[[http://www.ifib.uni-oldenburg.de/35939.html|Prof. Dr. Ira Diethelm]].
+  *Maybe there will be a book about this topic by Albert Zündow and [[http://www.ulno.net/|Ulrich Norbisrath]] in the future ?!
+===== Specification by Example =====
+<WRAP tip>[[specbyex.html|Specification by Example]]</WRAP>
+===== Style Guides =====
+==== Apple ====
+  *[[http://developer.apple.com/resources/|Apple Developer "Resources for Apple Developers"]].
+    *[[http://developer.apple.com/library/mac/navigation/#section=Resource%20Types&topic=Guides|Apple Developer "Mac OS X Reference Library"]] - "Guides. Conceptual and task-oriented information. Guides include overviews, tutorials, programming guides, server administration guides, and, for developer tools, user guides".
+  *Classical Pre-MacOSX ( MacOS9, MacOS8, MacOS7.. ) Style Guides.
+    *"Apple Developer Connection - Apple's Developer Guides".
+    *"Macintosh Human Interface Guidelines".
+    *"Macintosh Toolbox Essentials".
+==== Atlassian ====
+  *[[http://developer.atlassian.com/design/|Atlassian Design Guidelines]] - "Design principles, components, patterns and guidance for building awesome Atlassian products and add-ons"
+==== Microsoft ====
+  *[[http://msdn.microsoft.com/en-us/library/aa511258.aspx|Microsoft MSDN "Windows User Experience Interaction Guidelines"]] for Vista, Win7.
+  *[[http://msdn.microsoft.com/en-us/library/ff637515%28VS.92%29.aspx|Microsoft MSDN "Design Resources for Windows Phone"]].
+
+===== Test Driven Design ( TDD ) =====
+  *See [[testing.html|Testing, Code Reviews]].
+  *[[http://en.wikipedia.org/wiki/Test-driven_development|EN.Wikipedia "Test-driven development"]], [[http://de.wikipedia.org/wiki/Testgetriebene_Entwicklung|DE.Wikipedia "Testgetriebene Entwicklung"]].
+===== Twelve-Factor App =====
+  *[[http://www.12factor.net/|The Twelve-Factor App]] by [[http://www.adamwiggins.com/|Adam Wiggins]].
+  *[[http://www.github.com/adamwiggins/12factor|GitHub "adamwiggins/12factor"]].
+  *[[http://devcenter.heroku.com/articles/architecting-apps|Heroku Devcenter "Architecting Applications for Heroku"]] - "The Twelve Factor app, written by Heroku co-founder Adam Wiggins, is a methodology for building software-as-a-service apps in modern deployment environments".
+
+===== UML, SysML =====
+<WRAP tip>[[uml.html|Unified Modeling Language ( UML ), Systems Modeling Language ( SysML )]]</WRAP>
+===== Unsupported Software Development :-( =====
+==== Big Ball of Mud :-( ====
+  *[[http://www.laputan.org/mud/| Brian Foote and Joseph Yoder "Big Ball of Mud"]].
+==== Rogue Programming :-( ====
+  *[[http://www.graymattersystems.com/6-causes-of-rogue-programming-in-manufacturing-and-5-reasons-you-need-to-avoid-it|Gray Matter Systems "6 Causes of Rogue Programming In Manufacturing — and 5 Reasons You Need to Avoid it"]] - Free PDF.
+    *"I call the disease “rogue” programming, but it has other names. It is also called "**unsupported software development**", "**custom software development**", "**skunkworks**", "**homegrown applications**" and many other names. Rogue development is usually performed in Microsoft Access, Microsoft Excel, or Visual Basic (including VBA) and sits on SQL Server or II S boxes.
+    *"Sometimes shop floor PCs are converted to servers by the addition of IIS. Rogue development typically starts small -- as point solutions such as managing a specific group of people (i.e. Maintenance) or a specific process (i.e. test stands, or test loops)".
+    *"Sometimes the application stays small and isolated, but it can also grow tentacles into other systems/groups and new functionality until it becomes business critical and complex".
+  *<del>[[http://www.immediateannuities.com/references/ia/rules-of-the-road.htm|ImmediateAnnuities.com "Rogue Programming"]] - "'Rogue Programming' is any software or other materials which contain a computer virus, trojan horse, timebomb, worm or other rogue programming"</del>.
+  *<del>Roguelike Development -> see [[codingdojo.html|Coding Dojo / Coding Kata / Randori / Code Retreat - Group-Awareness, Self-Awareness, Self-Training in Software Development as well as Developer Contests & Developer Challenges]]</del>.
+
+===== Usability =====
+  *[[usability.html|Usability]].
+===== Literature =====
+  *[[http://www.redbooks.ibm.com/|IBM Redbooks]].
+  *The free PDF book [[http://www.software.ibm.com/webapp/iwm/web/signup.do?source=swg-rtl-sd-wp&S_PKG=eb_sys-eng-dummies|Cathleen Shamieh "Systems Engineering For Dummies. IBM Limited Edition"]] ( btw, I got a free paper issue, at an IBM event :-) ).
+  *The book [[http://www.amazon.de/exec/obidos/ASIN/3897215675/hemmerling-21|Kathrin Passig, Johannes Jander "Weniger schlecht programmieren"]].
+  *The book [[http://www.amazon.de/exec/obidos/ASIN/3826655486/hemmerling-21|Robert C. Martin "Clean Code - Refactoring, Patterns, Testen und Techniken für sauberen Code"]].
+
+
+===== Resources =====
+  *[[http://www.cetus-links.org/|Cetus Links - Object-Orientation]].
+    *[[http://www.cetus-links.org/oo_ooa_ood_tools.html|Cetus Links "Architecture and Design: Object-Oriented Analysis & Design Tools"]].
+  *[[http://www.case-tools.org/|Index CASE Tools]].
+  *[[http://thedailywtf.com/|The Daily WTF - Curious Perversions in Information Technology]].
+    *[[http://thedailywtf.com/Articles/The_Spider_of_Doom.aspx|The Daily WTF - Curious Perversions in Information Technology "Alex Papadimoulis: The Spider of Doom"]], 2006-03-28.
+===== Forums, Newsgroups, Communities =====
+  *[[http://groups.google.com/group/de.comp.objekt|Google Groups "de.comp.objekt"]].
+  *[[http://groups.google.com/group/dddcqrs|Google Groups "DDD/CQRS"]].
+  *[[http://www.modeldrivensoftware.net/|The Model Driven Software Network]].
+  *[[http://en.pudn.com/|PUDN - Programmers United Develop Art]] -"After registration, you should [upload] more than five source codes or program documents, then your account will be activated after the codes been checked by administrator".
+  *[[http://forums.thedailywtf.com/Forums/|The Daily WTF - Curious Perversions in Information Technology, Forums]].
+{{tag>"system design" UML SysML SDL}}
+<footnote_navi_en>

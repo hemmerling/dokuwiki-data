@@ -1,0 +1,131 @@
+====== [hemmerling] Tinkerforge ======
+Related pages:
+  *[[brickfirmware.html|Brick Firmware]].
+  *[[industry40.html|"Industry 4.0" & "Internet of Things" ( IOT ) & "Cyber-physical Systems"]].
+  *For English only readers, with focus of those of the "Brick Firmware" project: Much of the resources are here in German language. Feel free to use [[http://itools.com/tool/google-translate-web-page-translator|iTools "Google Translate Web"]] to translate linked German articles, by naming the website address ( URL ).
+
+===== The Tinkerforge Project =====
+==== The Company ====
+  *[[http://www.tinkerforge.com/|Tinkerforge GmbH]] by [[http://www.xing.com/profile/Bastian_Nordmeyer|XING "Bastian Nordmeyer"]] et.al. 
+      *[[http://www.tinkerforge.com/en/doc/Downloads.html|Tinkerforge "Downloads"]].
+      *[[http://www.github.com/Tinkerforge|GitHub "Tinkerforge GmbH"]].
+      *Blog [[http://www.tinkerforge.com/en/blog/|Tinkerforge Blog]].
+    *[[http://www.facebook.com/tinkerforge42|Facebook "Tinkerforge"]].
+    *[[http://www.youtube.com/user/tinkerforge42|YouTube Channel "Tinkerforge"]].
+    *[[http://www.twitter.com/TinkerForge|Twitter "TinkerForge"]].
+  *[[http://www.maven-repository.com/|Maven Repository]].
+    *The current repository [[http://maven-repository.com/artifact/com.tinkerforge|Maven Repository "com.tinkerforge"]], [[http://www.mvnrepository.com/artifact/com.tinkerforge|MVNRepository "com.tinkerforge"]].
+    *The legacy repository <del>[[http://www.maven-repository.com/artifact/org.rapidpm.modul/iot-tinkerforge|Maven Repository "org.rapidpm.modul/iot-tinkerforge"]]</del>, <del>[[http://www.mvnrepository.com/artifact/org.rapidpm.modul/iot-tinkerforge|MVNRepository "org.rapidpm.modul/iot-tinkerforge"]]</del>, <del>[[http://bitbucket.org/rapidpm/modules/src/9506c1e35146c5425a047db59981e08eabc2a0f3/iot-tinkerforge/|BitBucket "rapidpm / iot-tinkerforge"]]</del>.
+==== Events ====
+  *Hands-on workshop and LiveHacking [[http://www.meetup.com/jug-hamburg/events/191006292/|Meetup "Java User Group Hamburg: Tinkerforge und IoT"]], 2014-07-14.
+    *By:
+      *[[http://www.xing.com/profile/Bastian_Nordmeyer|XING "Bastian Nordmeyer"]], [[http://www.tinkerforge.com/|Tinkerforge GmbH]].
+      *[[http://www.xing.com/profile/Sven_Ruppert2|XING "Sven Ruppert"]], [[http://de.linkedin.com/in/svenruppert/en|LinkedIn "Sven Ruppert"]], [[http://plus.google.com/+SvenRuppert|Google+ "Sven Ruppert"]], [[http://www.twitter.com/SvenRuppert|Twitter "Sven Ruppert, @SvenRuppert"]], [[http://www.codecentric.de/|codecentric AG]].
+      *[[http://www.jughh.de/|Java User Group Hamburg]], [[http://www.meetup.com/jug-hamburg|Meetup "Java User Group Hamburg"]].
+    *Host:
+      *[[http://www.attraktor.org/|Attraktor e.V. Hamburg]].
+    *Photos:
+      *[[http://www.meetup.com/jug-hamburg/photos/23123342/|Photos "Tinkerforge und IoT"]] -> #1, #7, #10.
+    *Reviews:
+      *[[http://jaxenter.de/news/java-8-tinkerforge-iot-erstes-offizielles-live-hacking-174879|Jaxenter, Sven Ruppert und Diana Kupfer "Java 8 und TinkerForge fürs IoT: Erstes offizielles Live Hacking in Hamburg"]].
+      *[[http://www.tinkerforge.com/en/blog/2014/7/15/first-livehacking-in-hamburg|Tinkerforge Blog "First LiveHacking in Hamburg"]].
+  *The commercial hands-on workshop and LiveHacking "Training: Sven Ruppert: IoT TinkerForge" by [[http://www.xing.com/profile/Bastian_Nordmeyer|Bastian Nordmeyer]], [[http://www.tinkerforge.com/|Tinkerforge GmbH]] and [[http://www.xing.com/profile/Sven_Ruppert2|Sven Ruppert]], [[http://www.codecentric.de/|codecentric AG]] at the regional meeting of [[http://java.de/stammtisch-goettingen|Java Stammtisch Göttingen]] in Göttingen, Germany, 2014-10-16.
+
+==== Hardware ====
+  *[[http://shop.tinkerforge.com/|Tinkerforge Shop]].
+  *The ARM Cortex M3 based CPU [[http://www.atmel.com/devices/sam3s4c.aspx|Atmel "ATSAM3S4C"]], with 256 Kbyte Flash ROM, 48 KBytes SRAM.
+==== Services ====
+  *[[http://www.iot-remote.com/|iot-remote.com]] - "A project from Tinkerforge. It is used as an example implementation of a controlling web site for the [[http://www.tinkerforge.com/en/doc/Kits/InternetOfThings/InternetOfThings.html|Starter Kit: Internet of Things]]".
+===== Software =====
+==== Original Server-side Software =====
+    *"The [[http://www.tinkerforge.com/en/doc/Software/Brickd.html|Brick Daemon]] is a daemon (or service on Windows) that acts as a bridge between the Bricks/Bricklets and the [[http://www.tinkerforge.com/en/doc/Software/API_Bindings.html|API bindings]] for the different programming languages".
+      *[[http://www.tinkerforge.com/en/doc/Software/API_Bindings_Java.html|Tinkerforge "Java - API Bindings"]].
+      *[[http://www.tinkerforge.com/en/doc/Software/API_Bindings_Python.html|Tinkerforge "Python - API Bindings"]] for Python 2.x and 3.x.
+        *On Python(x,y) with Python 2.7.6:
+          *This installation procedure works for me: Execute "python setup.py install" as shell command, from the "source" directory.
+          *The suggested installation procedure "easy_install tinkerforge.egg" did not work for me :-(, though it executes and finishes without any error message. It just copies the "tinkerforge.egg" file to the Python "lib" directory, which is not sufficient.
+    *"The [[http://www.tinkerforge.com/en/doc/Software/Brickv.html|Brick Viewer]] provides a graphical interface for testing Bricks and Bricklets. Each device has its own view that shows the main features and allows to control them".
+==== Third-Party Server-side Software ====
+  *[[http://www.github.com/openhab/openhab/wiki/Tinkerforge-Binding|GitHub "openhab", Wiki - "Tinkerforge Binding"]].
+  *[[http://www.rwblinn.de/142k1t41.htm|Robert W. B. Linn "B4J WebApp rSwitchIt"]] - "B4J Project rswitchit - Remote Switch Devices",
+    *"Idea: To use a B4J Webserver to control TinkerForge Bricklets accessed via Browser (device independent)".
+    *"The solution build is based upon B4J, jQuery Mobile and the TinkerForge JavaScript API".
+  *[[http://www.github.com/Noxer/tinkerforge|GitHub "Noxer/tinkerforge"]] - "A go implementation of the tinkerforge protocol".
+
+==== Firmeware for Third-Party Hardware ====
+  *See [[brickfirmware.html|Brick Firmware]].
+===== Internet Of Things ( ITO ) & Cloud Services =====  
+  *[[http://www.cumulocity.com/|Cumulocity]].
+    *[[http://www.cumulocity.com/tinkerforge/|Cumulocity "SENSE AND CONTROL FROM ANYWHERE. Connect your Tinkerforge kit to Cumulocity. Record data from your bricklets. Build your dashboard in minutes. Control from any web-enabled device. GET THIS LIMITED OFFER Cumulocity + Tinkerforge"]] - "Enter voucher code when signing up to use Cumulocity 60 days for free. Currently supported bricklets: Barometer, humidity, ambient light, moisture, distance, voltage, current, temperature, PTC, LCD display, 4x7 segment display, remote switch, IO16, distance infrared, distance ultrasound, GPS, dual relay. Open source".
+  *[[http://www.tinkerforge.com/en/blog/2014/12/2/iot-with-cumulocity-and-tinkerforge|Tinkerforge Blog "IoT with Cumulocity and Tinkerforge"]], [[http://www.tinkerforge.com/de/blog/2014/12/2/iot-mit-cumulocity-und-tinkerforge|Tinkerforge Blog "IoT mit Cumulocity und Tinkerforge"]], 2014-12-02.
+===== Literature =====
+  *The forthcoming book [[http://www.edv-buchversand.de//product.php?cnt=product&apid=61502&id=ep-21240|Sven Ruppert: "IoT für Java-Entwickler. Eigene Projekte mit Raspberry Pi und Co."]] is announced to be published in 2014/4Q by [[http://www.entwickler.de/|entwickler.press]] - "Schreiben Sie an [[iot-java@entwickler-press.de]] und erhalten Sie Infos zum Buch und dem Erscheinungstermin".
+===== Resources =====
+  *[[http://blog.lastlog.de/posts/tinkerforge_relais_rapspberry_pi/|blog.lastlog.de "tinkerforge relais rapspberry pi"]].
+  *Blog [[http://blog.codecentric.de/|codecentric Blog]].
+    *[[http://blog.codecentric.de/en/author/sven-ruppert/|codecentric Blog, Sven Ruppert]].
+      *[[http://blog.codecentric.de/en/2014/06/iot-java8-tinkerforge-001/|codecentric Blog, Sven Ruppert "codecentric
+IoT with Java8 and TinkerForge – 001"]].
+      *[[https://blog.codecentric.de/en/2014/07/iot-java8-tinkerforge-002/|codecentric Blog, Sven Ruppert "codecentric
+IoT with Java8 and TinkerForge – 002"]].
+      *[[http://blog.codecentric.de/en/2014/07/iot-java8-tinkerforge-003/|codecentric Blog, Sven Ruppert "codecentric
+IoT with Java8 and TinkerForge – 003"]].
+  *[[http://www.die-glocke.de/lokalnachrichten/kreisguetersloh/Tinkerforge-Module-erfuellen-Wuensche-856c691b-6221-420b-af04-4474119f0981-ds|Die Glocke "Lokalnachrichten / Kreis Gütersloh / Tinkerforge-Module erfüllen Wünsche"]].
+  *[[http://netio.davideickhoff.de/es/projects/270|David Eickhoff "NetIO APP"]] - "Tinkerforge uses a binary TCP/IP protocol for the communication between the external program and the hardware".
+  *[[http://www.elv.de/TinkerForge-%E2%80%93-modularer-Digitalbaukasten/x.aspx/cid_855/detail_1377|ELV Journal "TinkerForge – modularer Digitalbaukasten"]] - "Die Tinkerforge API bietet intuitive Funktionen, die die Programmierung vereinfachen. So kann zum Beispiel mittels setVelocity() die Geschwindigkeit eines Motors in Meter pro Sekunde (m/s) eingestellt und mittels getTemperature() die Temperatur in Grad Celsius (°C) ausgelesen werden".
+  *[[http://www.golem.de/news/tinkerforge-linux-anpassen-fuer-ein-neues-prozessorboard-1407-108174.html|Golem "Tinkerforge: Linux anpassen für ein neues Prozessorboard"]].
+  *[[http://www.heise.de/hardware-hacks/|Heise Hacks]].
+    *[[http://www.heise.de/hardware-hacks/suche/?q=tinkerforge&rm=search|Heise Hacks - Search for "tinkerforge"]].
+    *[[http://www.heise.de/hardware-hacks/artikel/Angetestet-TinkerForge-Elektronik-Baukasten-1500925.html|Heise Hacks "Angetestet: TinkerForge Elektronik-Baukasten. Spielend leicht mit dem PC Sensoren auswerten und Motoren steuern"]] - "Die Platinen .. enthalten einen 32-bittigen ARM-Cortex-M3-Prozessor von Atmel ([[http://www.atmel.com/devices/sam3s4c.aspx|ATSAM3S4C]])".
+    *[[http://www.heise.de/hardware-hacks/meldung/Neue-Sensor-Module-fuer-Tinkerforge-2056989.html|Heise Hacks "Neue Sensor-Module für Tinkerforge"]].
+    *[[http://www.heise.de/hardware-hacks/meldung/Tinkerforge-bringt-Einsteigerpaket-fuer-das-Internet-der-Dinge-2185306.html|Heise Hacks "Tinkerforge bringt Einsteigerpaket für das Internet der Dinge"]].
+  *[[http://www.jaxenter.de/|Jaxenter]].
+    *Jaxenter, Diana Kupfer.
+      *[[http://www.jaxenter.de/artikel/Sieben-Zwerge-Tinkerforge-169952|Jaxenter, Diana Kupfer "Cross-Platform trifft Bastelfreude. Sieben Zwerge: Tinkerforge"]].
+    *[[http://www.jaxenter.de/|Jaxenter, Sven Ruppert]].
+      *[[http://www.jaxenter.de/IoT-mit-Java-8-TinkerForge-170519|Jaxenter, Sven Ruppert "IoT mit Java 8 und TinkerForge"]].
+        *[[http://www.jaxenter.de/artikel/Internet-of-Things-mit-Java-8-und-TinkerForge-Teil-1-170511|Jaxenter, Sven Ruppert "Internet of Things mit Java 8 und TinkerForge, Teil 1 - Hello IoT World!"]].
+        *[[http://www.jaxenter.de/InternetofThingsmitJava8undTinkerForge%2CTeil2-170522|Jaxenter, Sven Ruppert "Internet of Things mit Java 8 und TinkerForge, Teil 2 - Anbindung an JavaFX"]].
+        *[[http://jaxenter.de/artikel/Internet-of-Things-mit-Java-8-TinkerForge-Teil-3-170891|Jaxenter, Sven Ruppert "Internet of Things mit Java 8 und TinkerForge, Teil 3 - IoT per Knopfdruck"]].
+        *[[http://www.jaxenter.de/artikel/Internet-of-Things-mit-Java-8-TinkerForge-Teil-4-171054|Jaxenter, Sven Ruppert "Internet of Things mit Java 8 und TinkerForge, Teil 4 - IoT ist immer heiß! Temperaturmessung mit dem PTC-Bricklet"]].
+        *[[http://www.jaxenter.de/Internet-of-Things-mit-Java-8-TinkerForge-Teil-5-171242|Jaxenter, Sven Ruppert "Internet of Things mit Java 8 und TinkerForge, Teil 5 - Whether the weather be cold, or whether the weather be hot"]].
+        *[[http://jaxenter.de/artikel/Internet-of-Things-mit-Java-8-TinkerForge-Teil-6-172940|Jaxenter, Sven Ruppert "Internet of Things mit Java 8 und TinkerForge, Teil 6 - Raspberry Pi, TinkerForge und Java 8 im Terzett"]].
+        *[[http://www.jaxenter.de/artikel/Internet-of-Things-mit-Java-8-TinkerForge-Teil-7-173072|Jaxenter, Sven Ruppert "Internet of Things mit Java 8 und TinkerForge, Teil 7 - TinkerForge goes Maven Central"]].
+        *[[http://jaxenter.de/artikel/Internet-of-Things-mit-Java-8-TinkerForge-Teil-8-173201|Jaxenter, Sven Ruppert "Internet of Things mit Java 8 und TinkerForge, Teil 8 - Mit IoT Tweets immer auf dem aktuellen Stand bleiben"]].
+        *[[http://jaxenter.de/artikel/Internet-of-Things-mit-Java-8-TinkerForge-Teil-9-173666|Jaxenter, Sven Ruppert "Internet of Things mit Java 8 und TinkerForge, Teil 9 - Maschinenkommunikation mit MQTT und Vaadin"]].
+        *[[http://jaxenter.de/artikel/Internet-of-Things-mit-Java-8-TinkerForge-Teil-10-173985|Jaxenter, Sven Ruppert "Internet of Things mit Java 8 und TinkerForge, Teil 10 - Die Raspberry-Pi-Kamera und der Bewegungsmelder von TinkerForge im Zusammenspiel"]].
+      *[[http://jaxenter.de/artikel/IoT-mit-Java-8-TinkerForge-173695|Jaxenter, Sven Ruppert "Der Baukasten für die großen Kinder. IoT mit Java 8 und TinkerForge"]].
+  *[[http://www.sven-lindeboom.net/?p=28|Sven Lindeboom "Wetterstation 2.0 ist in Arbeit"]].
+  *[[http://mrroom112.wordpress.com/2013/01/15/tinkerforge/|mrroom112 Don't stand still, move… " Tinkerforge. Tinkerforge Expedition"]].
+  *[[http://openalia.wordpress.com/2012/04/21/tinkerforge-an-interview-with-the-creators/|Openalia "TinkerForge – An Interview With The Creators"]], 2012-04-21.
+  *[[http://praxisintermedia.wordpress.com/2013/10/16/visual-tinkerforge/|Praxis LIVE. Development blog for Praxis LIVE, an open-source software project by artist & technologist "Live visual development with TinkerForge"]].
+  *[[http://www.rapidpm.org/|RapidPM]].
+    *[[http://www.rapidpm.org/2014/01/iot-with-java8-and-tinkerforge-part-1.html|RapidPM, Sven Ruppert "IoT with Java8 and TinkerForge Part 1"]].
+    *[[http://www.rapidpm.org/2014/01/iot-with-java8-and-tinkerforge-part-2.html|RapidPM, Sven Ruppert "IoT with Java8 and TinkerForge Part 2"]].
+  *[[http://www.rpilab.net/resources/tinkerforge/|Raspberry Pi Lab "Tinkerforge"]] - "The weather station project covered in detail in Raspberry Pi for Beginners uses the USB-based sensors provided by Tinkerforge".
+  *Blog [[http://blog.smartnoob.de/|SmartNOOB Blog. Windows, Linux, iOS & Kafferunde]].
+    *[[http://blog.smartnoob.de/category/tinkerforge/|SmartNOOB Blog. Windows, Linux, iOS & Kafferunde - Category "Tinkerforge"]].
+    *[[http://blog.smartnoob.de/2013/03/22/tinkerforge-der-mindstorms-fur-fortgeschrittene/|SmartNOOB Blog. Windows, Linux, iOS & Kafferunde "Tinkerforge – Der Mindstorms für Fortgeschrittene"]].
+    *[[http://blog.smartnoob.de/2013/03/22/tinkerforge-kritik/|SmartNOOB Blog. Windows, Linux, iOS & Kafferunde "Tinkerforge Kritik"]].
+    *[[http://blog.smartnoob.de/2014/02/19/heimautomatisierung-mit-tinkerforge/|SmartNOOB Blog. Windows, Linux, iOS & Kafferunde "Heimautomatisierung mit TinkerForge"]].
+    *[[http://blog.smartnoob.de/2014/03/08/tinkerforge-bricklets-als-eingabegeraet-fuer-spiele/|SmartNOOB Blog. Windows, Linux, iOS & Kafferunde "TinkerForge Bricklets als Eingabegerät für Spiele"]].
+    *[[http://blog.smartnoob.de/2013/04/08/tinkerforge-master-brick-heilen/|SmartNOOB Blog. Windows, Linux, iOS & Kafferunde "Tinkerforge – Master Brick 'heilen'"]].
+    *[[http://www.youtube.com/user/SmartNOOBs|YouTube "SmartNOOBs"]].
+      *[[http://www.youtube.com/watch?v=qVdJZtypDcc|YouTube "Heimautomatisierung mit TinkerForge"]].
+  *[[http://www.christianspecht.de/|Christian Specht]].
+    *[[http://www.christianspecht.de/2013/06/17/tinkerforge-weather-station-part-1-intro-and-construction/|Christian Specht "Tinkerforge Weather Station, part 1 - Intro and construction"]].
+    *[[http://christianspecht.de/2013/08/15/tinkerforge-weather-station-part-2-connecting-to-a-raspberry-pi/|Christian Specht "Tinkerforge Weather Station, part 2 - Connecting to a Raspberry PI"]].
+  *[[http://blogs.uni-due.de/zim/2014/05/27/integration-einer-garagentorsteuerung-in-openhab-mittels-tinkerforge/|Universität Duisburg-Essen, IT@UDE, ZIM - Wissen schafft IT "Integration einer Garagentorsteuerung in OpenHAB mittels Tinkerforge"]].
+  *[[http://en.wikipedia.org/wiki/Ethernet_over_USB|EN.Wikipedia "Ethernet over USB"]].
+  *[[http://en.wikipedia.org/wiki/Tinkerforge|EN.Wikipedia "Tinkerforge"]], [[http://de.wikipedia.org/wiki/Tinkerforge|DE.Wikipedia "Tinkerforge"]].
+  *[[http://archive.wired.com/geekdad/2012/07/tinkering-around/|Wired "Tinkering Around With TinkerForge"]].
+  *YouTube.
+    *[[http://www.youtube.com/results?search_query=TInkerforge|YouTube - Search for "TinkerForge"]].
+    *[[http://www.google.de/search?q=tinkerforge+-tinkerforge42+site%3Ayoutube.com|Google - Search for "tinkerforge -tinkerforge42 site:youtube.com"]].
+    *[[http://www.youtube.com/watch?v=7NEwMl7HahI|YouTube "28c3 LT Day 2: Tinkerforge Bricks - Open Source hardware building blocks"]].
+===== Forums, Newsgroups =====
+  *[[http://www.tinkerunity.org/forum/|Tinker Unity - The Tinkerforge Community, Forum]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Hardware/Mikrocontroller/|OpenDirectory "Top: World: Deutsch: Computer: Hardware: Mikrocontroller"]].
+{{tag>tinkerforge ARM Embedded Systems ARM Atmel "Cortex M3" Cortex M3}}
+<footnote_navi_en>

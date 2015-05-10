@@ -1,0 +1,213 @@
+====== [hemmerling] Electronic Design Automation ( EDA ) 2/5 - Schematics Capture, Schematics Simulation and PCB Design ======
+Related page:
+  *[[eda01.html|Electronic Design Automation ( EDA ) 1/5 - Installation Engineering]].
+  *[[eda03.html|Electronic Design Automation ( EDA ) 3/5 - Design for Application-Specific Integrated Circuits ( ASIC ) - Design of digital Chips]].
+  *[[eda04.html|Electronic Design Automation ( EDA ) 4/5 - Design for Application-Specific Integrated Circuits ( ASIC ) - Design of analog Chips]].
+  *[[eda05.html|Electronic Design Automation ( EDA ) 5/5 - Design for Application-Specific Integrated Circuits ( ASIC ) - A simple Frequency Divider]].
+  *[[electronics01.html|Electric Units & Electronics 1/3 - My Electronics, Electronics Workbench Equipment, Electronics Literature & Resources]].
+  *[[electronics02.html|Electric Units & Electronics 2/3 - Actors, Sensors, Embedded Systems Electronics and suitable Control Systems]].
+  *[[electronics03.html|Electric Units & Electronics 3/3 - Manufacturers, Distributors, Vendors & Datasheets]].
+
+===== Tools for Electronic Circuits Design & Simulation =====
+==== SPICE ( PSPICE, LTSpice / LT-Spice, Spice OPUS, Ngspice, WinSPICE...) ====
+=== Online SPICE versions ===
+  *[[http://www.ti.com/webench|Texas Instruments Inc. "WEBENCH"]], [[http://www.ti.com/ww/de/analog/webench/|Texas Instruments Inc. "WEBENCH"]].
+    *[[http://www.ti.com/lsds/ti/analog/webench/power.page|Texas Instruments Inc. "WEBENCH Power Designer"]] with online SPICE simulator.
+      *[[http://www.ti.com/lsds/ti/analog/webench/help-elec-sim.page|Texas Instruments Inc. "WEBENCH® Electrical Simulator. On Line SPICE Simulation"]].
+  *Industry experts told me that there is an free offline version of TI WEBENCH, but I can´t find it for download...
+=== SPICE versions, with and without Limits ===
+== PSPICE, based on "Berkeley Spice 2" ==
+  *PSPICE 9.1 - the classical demo version, maximum of 50 elements including 10 transistors.
+  *PSPICE 10 - additionally limit: Just 2 subcircuits can be used :-(.
+  *[[http://www.orcad.com/|Cadence OrCAD Solutions]].
+    *[[http://www.cadence.com/products/orcad/orcad_capture/|Cadence OrCAD Capture and Capture CIS]].
+    *[[http://www.cadence.com/products/orcad/activeparts_portal/|Cadence ActiveParts Portal]].
+    *[[http://www.cadence.com/products/orcad/pages/downloads.aspx|Cadence OrCAD Downloads]].
+      *Once there was free circuit emulation software "PSPICE Schematics 10.3" and and "OrCAD 10.0 Demo" alternatively.
+      *Now there is just "OrCAD 16.3 Demo DVD (Capture & PSpice only)".
+  *[[http://en.wikipedia.org/wiki/Cadence_Design_Systems|EN.Wikipedia "Cadence Design Systems"]], [[http://de.wikipedia.org/wiki/Cadence_Design_Systems|DE.Wikipedia "Cadence Design Systems"]].
+== The free LTSPICE / LT-Spice, based on "Berkeley Spice 3" - no limits ! ==
+  *[[http://www.linear.com/designtools/software/|Linear Technology - Design Simulation and Device Models]].
+    *"LTspice IV" by Mike Engelhardt.
+  *[[http://www.ltwiki.org/|LT Wiki]].
+    *[[http://www.ltwiki.org/?title=SPICE_and_LTspice_Courseware_and_Tutorials|LT Wiki "SPICE and LTspice Courseware and Tutorials"]].
+  *[[http://cmosedu.com/|CMOSedu.com]].
+    *[[http://cmosedu.com/cmos1/LTspice/LTspice.htm|CMOSedu.com "LTspice at CMOSedu.com"]].
+  *[[http://en.wikipedia.org/wiki/LTspice|EN.Wikipedia "LTspice"]], [[http://de.wikipedia.org/wiki/LTspice|DE.Wikipedia "LTspice"]].
+  *Expert [[http://www.fakultaet1.fh-hannover.de/personen/lehrende/cordes-karl-hermann-prof-dr-ing-lb/|Prof. Dr.-Ing. Karl-Hermann Cordes]].
+  *[[http://ltspice.linear.com/LTspiceWorldTour.zip|Linear Technology "Cooking with LTspice. LTspice IV Germany Tour with Mike Engelhardt"]] ( ZIP ).
+  *Three edit modes:
+    -Expert ( click on the text ).
+    -Assist ( click on the symbol ).
+    -Super Expert - ( CTRL + click on the symbol )
+  *Reference designs:
+    *The examples supplied by the software, in the folders "Examples" and "JIT", are not reference design.
+    *[[http://www.linear.com/designtools/software/demo_circuits.php|LTspice Demo Circuit Collection]] are reference designs.
+  *Generation of self-authoring code.
+    *Self-authoring code uses the memory addresses known **after** dynamic memory allocation: It uses direct addressing ( which requires low number of CPU cycles ), instead of indirect addressing which is traditionally required to accesses dynamic allocated memory.
+    *[[http://www.theamphour.com/196-an-interview-with-mike-englehardt-spice-simulator-synteresis/|The Amp Hour Electronics Podcast "An Interview with Mike Engelhardt - SPICE Simulator Synteresis"]], 2014 - "What Mike described as self-autoring code is nowadays known as JIT-compilation and is used by the Java and .NET runtimes".
+== The free Berkley SPICE ==
+  *[[http://bwrc.eecs.berkeley.edu/|The Berkeley Wireless Research Center, EECS Department of the University of California at Berkeley]].
+    *[[http://bwrc.eecs.berkeley.edu/Classes/IcBook/|The accompanying website for the book "Jan M. Rabaey Digital Integrated Circuits. A Design Perspective"]].
+      *[[http://bwrc.eecs.berkeley.edu/Classes/IcBook/SPICE/|Jan Rabaey "The Spice Page"]].
+      *[[http://bwrc.eecs.berkeley.edu/Classes/IcBook/tools.html|Jan Rabaey "Digital Integrated Circuits - Design Tool Corner"]] -> SPICE, MAGIC, IRSIM.
+    *[[http://bwrc.eecs.berkeley.edu/IcBook/|The accompanying website for the book  "Jan M. Rabaey, Anantha Chandrakasan, Borivoje Nikolic: Digital Integrated Circuits.  Second Edition"]].
+== The free XSPICE ==
+  *[[http://users.ece.gatech.edu/~mrichard/Xspice/|Georgia Techs School of Electrical & Computer Engineering, Georgia Institute of Technology "XSPICE"]].
+== The free Spice OPUS, based on "Berkeley Spice 3f4" and "XSPICE" - no limits ! ==
+  *[[http://fides.fe.uni-lj.si/spice/|University of Ljubljana, Slovenia "Spice OPUS"]].
+== The free NGSPICE, based on "Berkeley Spice 3f5" and "Xspice" - no limits ! ==
+  *[[http://ngspice.sourceforge.net/|SourceForge "Ngspice"]], [[http://www.sourceforge.net/projects/ngspice|SourceForge "ngspice"]].
+  *[[http://www.gpleda.org/|gEDA]] - "a full GPL'd suite and toolkit of Electronic Design Automation tools", which includes NGSPICE.
+  *The [[http://www.gnu.org/software/gnucap/|Gnucap]] homepage - "The Gnu Circuit Analysis Package".
+  *[[http://en.wikipedia.org/wiki/Oregano_%28software%29|EN.Wikipedia "Oregano (software)"]] - just for Linux, MacOS, not for Windows.
+    *The discontinued developer website [[http://wayback.archive.org/web/*/http://arrakis.gforge.lug.fi.uba.ar/|Archive.org "Oregano"]].
+    *[[http://www.brothersoft.com/oregano-353417.html|Brothersoft.com "Oregano 0.69.1"]] - Download of the latest release.
+== Windows Simulation Program with IC Emphasis ( WinSpice ), based on "Berkeley Spice 3f4" - Shareware ==
+  *The Shareware [[http://www.winspice.co.uk/|WinSpice - Affordable Circuit Simulation Software]] - Without schematics editor :-(.
+  *The Shareware [[http://www.5spice.com/|5Spice Analysis Software]] - a schematic editor which uses WinSpice for its simulation engine.
+  *[[http://cmosedu.com/|CMOSedu.com]].
+    *[[http://cmosedu.com/cmos1/winSPICE/winSPICE.htm|CMOSedu.com "WinSpice (Windows Simulation Program with IC Emphasis) at CMOSedu.com"]].
+== Intusoft SPICE, based on "Berkeley Spice 3" ==
+  *[[http://www.intusoft.com/|Intusoft ICAP/4]] - Limits of the demo version: Maximum of 20 elements. Subcircuit models with a maximum of 20 elements.
+== Penzar Development TopSPICE ==
+  *[[http://www.penzar.com/topspice/topspice.htm|Penzar Development TopSPICE]] - Limits of the demo version: Number of nodes 64; number of top level transistors and subcircuits 20; number of subcircuit transistors 15; total number of top level components 30; number of subcircuit definitions (macromodels) 5; maximum data memory usage 1 MByte.
+== National Instruments Electronics Workbench "Multisim" ==
+  *The free [[http://www.analog.com/multisim|Analog Devices "NI Multisim Component Evaluator - ADI Edition"]],[[http://lumen.ni.com/nicif/us/evalmultisimadi/content.xhtml|National Instruments "NI Multisim Component Evaluator- Analog Devices Edition"]].
+  *The commercial [[http://www.ni.com/multisim|NI Multisim Professional Edition]].
+  *[[http://www.elektor.de/elektronik-news/kostenlose-spice-simulationssoftware-f%C3%BCr-analog.255289.lynkx|ELEKTOR "Kostenlose SPICE-Simulationssoftware für Analog-ICs von ADI"]].
+== Texas Instruments TINA-TI Simulator ==
+  *[[http://www.ti.com/tool/tina-ti|Texas Instruments TINA-TI Simulator]] - "SPICE-Based Analog Simulation Program".
+== Beige Bag Software "B2 SPICE", based on "Berkeley Spice 3" ==
+  *The commercial [[http://www.beigebag.com/|Beige Bag Software "B2 Spice"]] - 30 days evaluation version.
+== Some other circuit schematics simulators based on Berkley SPICE ==
+  *HSPICE.
+  *SPECTRE.
+  *ELDO.
+  *SABER.
+==== IBIS Tools =====
+  *[[http://www.eda.org/ibis/|IBIS Open Forum]].
+  *SPICE vs. IBIS:
+    *With SPICE, you always simulate the complete circuits.
+    *With IBIS simulatoins, you just simulate some parts of a circuit: You do a signal analysis for the communication line between sender and receiver.
+  *[[http://en.wikipedia.org/wiki/Input/output_Buffer_Information_Specification|EN.Wikipedia "Input/output Buffer Information Specification"]], [[http://de.wikipedia.org/wiki/Input/Output_Buffer_Information_Specification|DE.Wikipedia "Input/Output Buffer Information Specification"]].
+==== Some other free EDA Tools =====
+  *[[http://designtools.analog.com/dtPowerWeb/dtPowerMain.aspx|ADIsimPower]] - "The fastest and most accurate DC-DC Power Management design tool!".
+  *Analog Devices.
+    *[[http://www.analog.com/pr/ADIsimDiffAmp|ADI DiffAmpCalulator]] - "ADIs Differential Amplifier Calculator".
+    *[[http://www.analog.com/visualanalog|ADI VisualAnalog]] - "VisualAnalog", "ADC Analyzer", "Online ADC Analysis".
+  *ANSYS.
+    *The commercial [[http://www.ansoft.com/products/em/simplorer/|ANSYS Simplorer]].
+      *The free [[http://ansys.co.kr/ebu/dow/simplorer.php|ANSYS Simplorer 7 SV]] ( formerly: Ansoft Simplorer SV ) for Windows - Circuit simulation.
+    *The commercial [[http://www.ansoft.com/products/em/maxwell/|ANSYS Maxwell]].
+      *The free [[http://ansys.co.kr/ebu/dow/maxwell.php|ANSYS Maxwell SV]] for Windows - Analysis of electric and magnetic fields.
+    *The commercial [[http://www.ansoft.com/products/hf/ansoft_designer/|ANSYS Ansoft Designer]].
+      *The free [[http://ansys.co.kr/ebu/dow/designer.php|ANSYS Designer SV]] for Windows - Circuit modeling.
+      *[[http://www.arrl.org/arrl-radio-designer|The national association for AMATEUR RADIO "ARRL Radio Designer"]] -> "ARRL Radio Designer News and Articles", "ARRL Radio Designer Tips".
+  *The commercial [[http://web.awrcorp.com/Usa/Products/APLAC/|AWR Corporation "APLAC"]].
+    *[[http://web.awrcorp.com/Usa/Contact/University-Program/|AWR University Program]].
+      *[[http://web.awrcorp.com/graduate/|AWR Graduate Gift Initiative]] -> A license is granted for a certain HostID / MAC Address / Physical Address.
+    *Free legacy APLAC Student Editions.
+      *[[http://aplac-student.software.informer.com/|software.informer "APLAC Student 8.10"]].
+      *[[http://www.rfglobalnet.com/download.mvc/APLAC-800-Student-Version-0001|RF Globalnet "APLAC 8.00 Student Version"]].
+      *[[http://www.wirelessdesignonline.com/article.mvc/Featured-Download-APLAC-800-Student-Version-0001|Wireles Design Online "APLAC 8.00 Student Version"]].
+    *[[http://radio.tkk.fi/en/|Helsinki University of Technology, Department of Radio Science and Engineering]].
+    *[[http://en.wikipedia.org/wiki/Applied_Wave_Research|EN.Wikipedia "Applied Wave Research"]] ( AWR ), [[http://www.tuxfutter.de/wiki/APLAC|DE.Wikipedia "APLAC"]], [[http://fi.wikipedia.org/wiki/APLAC|FI.Wikipedia "APLAC"]].
+    *[[http://www.fairchildsemi.com/support/design-tools/|Fairchild Semiconductor International, Inc. "Design Tools"]] - free online and downloadable EDA tools.
+      *The free online EDA tool [[http://www.fairchildsemi.com/support/design-tools/power-supply-webdesigner/|Fairchild Semiconductor International, Inc. "Power Supply WebDesigner"]].
+  *The OpenSource EDA tool [[http://www.fritzing.org/about/comparison/|Fritzing]] for Windows and Linux.
+    *[[http://www.fritzing.org/about/comparison/|Fritzing "Comparison"]] with OpenSource Suites.
+  *The OpenSource [[http://ozark.hendrix.edu/~burch/logisim/|Logisim]], [[http://circuit.sourceforge.net/|SourceForge "Logisim"]], [[http://www.sourceforge.net/projects/circuit/|SourceForge "Logisim"]] for Java - "A graphical tool for designing and simulating logic circuits".
+  *The platform [[http://www.ti.com/webench|Texas Instruments WEBENCH® Design Center]] ( formerly: [[http://www.national.com/en/webench/|National Semiconductor WEBench]] ) with free online services and free downloads.
+  *The free online tool [[http://www.st.com/edesignstudio|STMicroelectronics "eDesign Studio"]] - "The new, easy power management design tool", "Power Supply, Photovoltaic, LED Driver, Battery charger".
+  *[[http://www.ultracad.com/calc.htm|UltraCAD Design, Inc. "UltraCAD Design, Inc.'s Calculators & Tools"]] - free tools for calculations about electronic design.
+    *[[http://www.ultracad.com/fourier_tool.htm|UltraCAD Design, Inc. "Fourier Simulation Tool"]] for Windows.
+    *[[http://www.ultracad.com/prenticehall/|UltraCAD Design, Inc. Resource Pages - Douglas Brooks "Signal Integrity Issues and Printed Circuit Board Design"]].
+==== Books ====
+  *Roy W. Goody.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0130157961/hemmerling-21|Roy W. Goody: "OrCad PSpice for Windows, Volume 1: DC and AC Circuits"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/013015797X/hemmerling-21|Roy W. Goody: "Orcad PSPICE for Windows Volume II: Devices, Circuits, and Operational Amplifiers"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0130311839/hemmerling-21|Roy W. Goody: "OrCAD PSpice for Windows: Volume III: Digital and Data Communications"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3446415920/hemmerling-21|Robert Heinemann: "PSPICE - Einführung in die Elektroniksimulation"]].
+    *Accompanying website [[http://www.spicelab.de/|Robert Heinemanns PSPICE-Seiten]].
+  *Recommendable books about //design// of SPICE models.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0070021538/hemmerling-21|Paolo Antognetti, Giuseppe Massobrio: "Semiconductor Device Modeling With Spice"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0132279355/hemmerling-21|Daniel P. Foty: "Mosfet Modeling with Spice: Principles and Practice"]].
+==== Resources ====
+  *[[http://www.damhave.com/ElectronicsOptimizer/ElectronicsOptimizer.html|Damhave Systems "Electronics Optimizer"]] - Free electronics design tool for advanced optimization and design of electronic circuits - with Optimizer, Monte Carlo and Worst Case Analysis, written in Java.
+  *[[http://www.ecircuitcenter.com/|eCircuit Center]] - SPICE tutorials.
+  *[[http://www.janson-soft.de/seminare/|Janson-Seminare für die professionelle Elektronikentwicklung]].
+    *[[http://www.janson-soft.de/seminare/links.htm|Janson-Seminare für die professionelle Elektronikentwicklung "Link-Liste, Videos, Tipps und Tricks zur Schaltungssimulation mit PSpice und Capture"]] - Using "Capture", instead of using "Schematics".
+  *[[http://www.mikrocontroller.net/articles/Schaltungssimulation|mikrocontroller.net "Schaltungssimulation"]].
+  *[[http://www.sss-mag.com/spice.html|Spread Spectrum Scene: "SPICE Resources"]].
+  *[[http://www.seas.upenn.edu/~jan/spice/spice.overview.html|Jan Van der Spiegel "SPICE - A Brief Overview"]].
+===== Tools for Printed Circuit Boards Design =====
+==== Free PCB & Schematics Tools =====
+  *"Protel Easytrax".
+    *[[http://wiki.altium.com/display/ADOH/Easy+trax|Altium Wiki "Easy trax"]] - Free download of "Protel Easytrax (DOS) Freeware version 2.06" for MSDOS.
+    *[[http://www.lupinesystems.com/|Spike Tsasmali, Lupine Systems, Ltd.]].
+      *[[http://lupinesystems.com/pcboards/|Lupine Systems, Ltd. "Making Printed Circuits"]].
+        *[[http://www.lupinesystems.com/easytrax/|Lupine Systems, Ltd. "Protel EasyTrax. Installation and Useage Guide"]].
+    *[[http://en.wikipedia.org/wiki/Altium_Designer|EN.Wikipedia "Altium Designer"]], [[http://de.wikipedia.org/wiki/Altium_Designer|DE.Wikipedia "Altium Designer"]].
+  *[[http://www.designspark.com/|DesignSpark]] - "The gateway to online resources and design support for engineers". Free CAD & PCB tools. 
+    *The free [[http://www.designspark.com/pcb|DesignSpark PCB]].
+  *EAGLE.
+    *[[http://www.cadsoft.de/freeware.htm|CadSoft "EAGLE Light Edition"]] - free tool for designing printed circuit boards (PCBs).
+    *[[http://www.element-14.com/eagle-freemium|Element 14 "EAGLE  Freemium edition"]].
+  *The free schematic and PCB design software [[http://www.expresspcb.com/|ExpressPCB]] for Windows.
+  *[[http://www.pad2pad.com/|Pad2Pad - Custom PCBs Online]] - Commercial PCB service, with free PCB design software for Windows.
+  *[[http://www.ibfriedrich.com/|Ing.-Büro FRIEDRICH "Target 3001!"]] - free edition ( "Target 3001! discover" ) and commercial editions.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3772342078/hemmerling-21|Richard Zierl "Platinenentwicklung mit TARGET 3001!"]].
+==== Commercial PCB & Schematics Tools =====
+  *[[http://www.altium.com/|ALTIUM]].
+    *[[http://www.altium.com/products/altium-designer/de/altium-designer_home.cfm|ALTIUM Designer]].
+    *[[http://web.archive.org/web/*/http://www.hoschar.de/|Archive.org "Hoschar AG"]]
+      *"HOSCHAR EDA ist nun Altium Europe GmbH: Der EDA-Geschäftsbereich der HOSCHAR AG gehört seit 17. Juli 2002 zum weltweit operierenden EDA-Hersteller Altium (früher unter dem Namen Protel bekannt) und führt seit dem die Geschäfte der Altium Europe GmbH".
+      *If you were just in need for electronics design and simulation software, notice that in the 1990th and early 2000s [[http://web.archive.org/web/*/http://www.hoschar.de/|Hoschar Systemelektronik GmbH]] was willing to send you a free demo CD with tons of demo versions of such tools, including PC-SPICE. For non-professional operations, many of those demo versions were sufficient.
+    *Altium Designer 14 is a still single-threaded 32-bit Windows application.
+    *For proper 3D graphics operation, graphics cards with "Shader Model 3" support are necessary. 
+      *Intel i3 / i5 / i7 CPUs with "HD4000" graphics are suitable.
+      *"Shader Model 3" was even implemented in some legacy AGP graphics cards like "Nvidia 6800". See [[3dframeworks.html|3D Graphics Frameworks]]!
+    *Altium Designer coomponents:
+      *Platform.
+      *Schematics design.
+      *FPGA design ( with focus to support the prototyping hardware board [[http://nb3000.altium.com/|Altium Nanoboard 3000]]. )
+      *PCB design.
+    *User interface:
+      *"ö" ( German keyboard ) = "~" ( US Keyboard ) = Shows all shortcut options.
+      *F1 = Help.
+        *Altium Designer 13 and earlier: Microsoft Win32 Offline help.
+        *Altium Designer 14: Online Altium tecdocs.
+      *Tab = Setup / configuration of the function just in use.
+  *[[http://www.bartels.de/bae/bae_en.htm|Bartels AutoEngineer]] for Windows and Linux - "A famous EDA/CAE/CAD/CAM software system for schematic capture, printed ciruit board design and IC/ASIC design". 
+    *Editions:
+      *The commercial "Bartels AutoEngineer" for Windows or Linux, with affordable entry edition.
+      *The free, fully functional "BAE Schematic Editor" for Windows or Linux. "The software configuration (BAE Demo or BAE Schematics) can be selected during or after installation". 
+    *[[http://www.mikrocontroller.net/articles/BAE-Tutorial|mikrocontroller.net "BAE-Tutorial"]].
+  *[[http://www.mentor.com/|Mentor Graphics]].
+    *[[http://www.mentor.com/pcb/|Mentor Graphics PCB Design "Xpedition"]].
+==== Commercial Tools for Strip Board Projects ====
+  *[[http://www.abacom-online.de/uk/html/lochmaster.html|ABACOM "Lochmaster"]] for Windows - "A developers tool for strip board projects".
+    *[[http://www.youtube.com/watch?v=1lnp6CFadmA|YouTube "Lochmaster 4.0 [Tutorial]"]].
+===== Resources =====
+  *The German EDA multi-vendor distributor [[http://www.flowcad.de/|FlowCAD]].
+  *[[http://en.wikipedia.org/wiki/Electronic_design_automation|EN.Wikipedia "Electronic design automation"]], [[http://de.wikipedia.org/wiki/Electronic_Design_Automation|DE.Wikipedia "Electronic Design Automation"]].
+===== Forums, Newsgroups =====
+  *[[http://forum.duncanamps.com/|Duncan's Amp Pages - Forum]] - Subforum "SPICE".
+  *[[http://server.ibfriedrich.com/wiki/ibfwikide/index.php?title=Forum|Ing.-Büro FRIEDRICH "Target 3001!" - Forum]] - No forum, but external links to relevant third-party forums.
+  *[[http://groups.yahoo.com/neo/groups/eaglecad/|Yahoo Groups "PCB Design Eagle CadSoft:- User Group"]].
+  *[[http://groups.yahoo.com/neo/groups/LTspice/|Yahoo Groups "LTspice IV"]], [[http://groups.yahoo.com/neo/groups/LTspiceDocs/|Yahoo Groups "LTspiceDocs"]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Business/Electronics_and_Electrical/|OpenDirectory "Top: Business: Electronics and Electrical"]].
+  *[[http://www.dmoz.org/Science/Technology/Electronics/|OpenDirectory "Top: Science: Technology: Electronics"]].
+  *[[http://www.dmoz.org/Science/Technology/Electronics/CAD/|OpenDirectory "Top: Science: Technology: Electronics: CAD"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wirtschaft/Elektrotechnik_und_Elektronik/|OpenDirectory "Top: World: Deutsch: Wirtschaft: Elektrotechnik und Elektronik"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wissenschaft/Ingenieurwissenschaften/Elektronik/|OpenDirectory "Top: World: Deutsch: Wissenschaft: Ingenieurwissenschaften: Elektronik"]].
+  *[[http://dir.yahoo.com/business_and_economy/business_to_business/computers/software/cad_cam/ic_design/|Yahoo! Directory "B2B: CAD/CAM Software: IC Design"]].
+  *[[http://dir.yahoo.com/business_and_economy/business_to_business/electronics/|Yahoo! Directory "Business and Economy: Business to Business: Electronics"]].
+  *[[http://dir.yahoo.com/science/computer_science/electronic_computer_aided_design__ecad_/|Yahoo! Directory "Science: Computer Science: Electronic Computer Aided Design (ECAD)"]].
+  *[[http://dir.yahoo.com/science/engineering/electrical_engineering/|Yahoo! Directory "Science: Engineering: Electrical Engineering"]].
+{{tag>"Electronic Design Automation"  EDA electronics}}
+<footnote_navi_en>
+
+

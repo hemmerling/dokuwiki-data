@@ -1,0 +1,328 @@
+====== [hemmerling] Microchip PIC Microcontrollers & dsPIC Digital Signal Controllers ======
+===== Microchip Technology Inc. =====
+==== Company ====
+  *[[http://www.microchip.com/|Microchip Technology Inc]].
+  *[[http://www.microchip.com/myMicrochip|Microchip Technology Inc. "myMicrochip"]].
+  *[[http://www.microchip.com/support/|Microchip Technology Inc. "Technical Support"]].
+  *[[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=75|Microchip Technology Inc. "16-bit PIC Microcontrollers & dsPIC Digital Signal Controllers"]].
+  *[[http://www.pic32compilers.com/|MikroElektronika - PIC32 Community Page]].
+    *The free [[http://www.mikroe.com/eng/products/view/591/package-manager/|MikroElektronika "Package Manager - Distribute your own libraries and examples created in compilers"]].
+  *[[http://www.projectanalog.com/|project analog, sponsored by Microchip Technology Inc.]].
+  *The online shop [[http://www.microchipdirect.com/|microchipDIRECT]].
+    *The inofficial advisor [[http://www.microchipdeals.com/|Microchip Deals]] - "Microchip Coupon Codes & Discounts" :-).
+      *[[http://microchipdeals.com/2011/11/12/2450-half-day-microchip-training-class/|Microchip Deals "$24.50 Half-day Microchip Training Class"]], 2011.
+      *[[http://microchipdeals.com/2012/01/04/50-off-online-training-from-microchip/|Microchip Deals "50% Off Online Training from Microchip"]] ( - 2012-03-31 ).
+==== Competitions ====
+  *[[http://www.circuitcellar.com/microchip2007/|Circuit Cellar - The Magazine for Computer Applications "Microchip 16-Bit Embedded Control 2007 Design Contest"]], 2007.
+  *Microchip open source USB/TCPIP stack competition, 2011.
+    *[[http://www.microchip.com/stacks/|Microchip Technology Inc. - Contest page "USB/TCPIP stack competition 2011"]].
+    *[[http://www.dangerousprototypes.com/2011/09/12/microchip-open-source-usbtcpip-stack-competition-with-1100-bounty/|Dangerous Prototypes "Microchip open source USB/TCPIP stack competition with $1100+ bounty"]], 2011-09-12.
+===== Hardware =====
+==== Evaluation Kits ====
+  *chipKIT Boards.
+    *[[http://www.digilentinc.com/Products/Catalog.cfm?NavPath=2,892&Cat=18|Digilent, Inc. "32-bit MCU Power for the Arduino™ Community"]] - "chipKIT Boards", "Pin-out compatibility with many existing Arduino shields that can operate at 3.3V".
+  *[[http://www.amazon.de/exec/obidos/ASIN/3645650695/hemmerling-21|Franzis Verlag GmbH: "Lernpaket PIC-Mikrocontroller]] with [[http://www.microchip.com/wwwproducts/Devices.aspx?dDocName=en547750|PIC18F23K22]] ( 8 Kbytes Flash, 512 Bytes SRAM, 256 Bytes EEPROM ).
+  *[[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=81|Microchip Technology Inc. "Development Tools"]].
+    *[[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1406&dDocName=en024858&part=DM240001|Microchip Technology Inc. "Explorer 16 Development Board"]] -> "Explorer 16 100-pin". But is the "Explorer 16 Starter Kit (with MPLAB ICD 3)" shipped with a "Explorer 16 100-pin" or with a "Explorer 16 44-pin" ?.
+    *[[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=2519&param=en530893&page=wwwPICtailDaughtDemo|Microchip Technology Inc. "PICtail Plus Daughter Boards"]].
+    *[[http://www.microchip.com/DevelopmentTools/Listing.aspx?CatID=54|Microchip Technology Inc. "Development Tools - General"]] - "Microstick for 5V PIC24F K-Series",...
+  *[[https://www.olimex.com/Products/PIC/|Olimex "PIC"]].
+  *[[http://www.sure-electronics.com/goods.php?id=1224|Sure Electronics "Advancer Ethernet Development Board Web Server Demo- PIC24FJ256GB106"]].
+==== Programmer & Hardware Debugger ====
+  *[[http://www.microchip.com/pickit3/|Microchip Technology Inc. "PICkit 3 In-Circuit Debugger"]].
+  *[[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1406&dDocName=en537580|Microchip Technology Inc. "MPLAB ICD 3 In-Circuit Debugger"]]. "ICD 3" is more advanced and preferable than "PICkit 3" :-).
+  *[[http://www.mikroe.com/eng/products/view/712/mikroprog-for-pic-dspic-and-pic32/|MikroElektronika "mikroProg"]] - Programmer and In-Circuit Debugger for Microchip PIC10, PIC12, PIC16, PIC18, dsPIC30/33, PIC24 and PIC32.
+==== PIC32 ====
+  *[[http://www.microchip.com/pagehandler/en-us/family/32bit/|Microchip Technology Inc. "Microchip's 32-bit Microcontrollers"]].
+  *[[http://www.imgtec.com/mips/aptiv/microaptiv.asp|Imagination Technologies Limited "microAptiv Processor Core"]].
+  *[[http://en.wikipedia.org/wiki/Imagination_Technologies|EN.Wikipedia "Imagination Technologies"]], [[http://de.wikipedia.org/wiki/Imagination_Technologies|DE.Wikipedia "Imagination Technologies"]].
+  *[[http://en.wikipedia.org/wiki/MIPS_Technologies|EN.Wikipedia "MIPS Technologies"]], [[http://de.wikipedia.org/wiki/MIPS_Technologies|DE.Wikipedia "MIPS Technologies"]].
+  *[[http://en.wikipedia.org/wiki/MIPS_instruction_set|EN.Wikipedia "MIPS instruction set"]], [[http://de.wikipedia.org/wiki/MIPS-Architektur|DE.Wikipedia "MIPS-Architektur"]].
+  *[[http://en.wikipedia.org/wiki/MIPSel|EN.Wikipedia "MIPSel"]], [[http://de.wikipedia.org/wiki/MIPSel|DE.Wikipedia "MIPSel"]].
+  *Microchip's 32-bit PIC32 CPUs are currently based on the "MIPS microAptiv" or "M4K core".
+  *Microchip might decide, in 2015 or later to offer Linux-enabled PIC32 CPUs, based on the "MIPS32 M14Kc core".
+=== PIC32MZ ===
+  *A useful starter kit:
+    *Farnell: [[http://uk.farnell.com/microchip-pic32mz|Farnell element14 "New PIC32MZ Devtools from Microchip"]].
+    *Microchip:
+      *[[http://www.microchip.com/Developmenttools/ProductDetails.aspx?PartNO=Dm320006|Microchip Technology Inc. "PIC32MZ EC STARTER KIT", DM320006]].
+      *[[http://www.microchip.com/DevelopmentTools/ProductDetails.aspx?PartNO=AC320004-3|Microchip Technology Inc. "LAN8720A PHY Daughter Board", AC320004-3]].
+      *The DM320006 can be used with PIC32 Expansion Board by a [[http://www.microchip.com/DevelopmentTools/ProductDetails.aspx?PartNO=ac320006|Microchip Technology Inc. "PIC32MZ EC Adaptor Board", AC320006]].
+      *[[http://www.microchip.com/DevelopmentTools/ProductDetails.aspx?PartNO=DM320002|Microchip Technology Inc. "Starter Kit I/O Expansion Board", DM320002]].
+  *[[http://www.microchip.com/pagehandler/en-us/family/32bit/architecture-pic32mzecfamily.html|Microchip Technology Inc. "PIC32MZ EC Family Architecture Overview"]].
+  *[[http://www.microchip.com/pagehandler/en-us/press-release/microchips-pic32mz-32-bit-mcus.html|Microchip Technology Inc. "Microchip’s PIC32MZ 32-bit MCUs Have Class-Leading Performance of 330 DMIPS and 3.28 CoreMarks™/MHz; 30% Better Code Density. New 24-Member Family Integrates 2 MB Flash, 512 KB RAM, 28 Msps ADC, Crypto Engine, Hi-Speed USB, 10/100 Ethernet, CAN and Many Serial Channels"]], 2013-11-18.
+=== PIC32MX ===
+  *PIC32MX1 and PIC32MX2, with up to 50 Mhz CPU clockspeed, 3.3 Volts technology ( with some input ports which are "5 Volts tolerant", but no 5 Volts output ports ), are the most powerful ( Microchip ) CPUs available in DIL package.
+  *[[http://www.microchip.com/Developmenttools/ProductDetails.aspx?PartNO=DM320013|Microchip Technology Inc. "PIC32MX1/MX2 Starter Kit"]].
+==== RN131 - rfPIC ====
+  *[[http://www.microchip.com/wwwproducts/Devices.aspx?dDocName=en558369|Microchip Technology Inc. "N131 - rfPIC"]].
+  *[[http://www.microchip.com/DevelopmentTools/ProductDetails.aspx?PartNO=RN-131-EK|Microchip Technology Inc "RN-131 Evaluation Kit"]].
+  *[[http://www.my-boardclub.com/application_boards/apply_board.php?ab=1424|Future Electronics "FTM Boards Club" - "Apply for a Board on my-boardclub.com: Microchip RN-131-EK, RN131 Evaluation Kit"]].
+==== GestIC ====
+  *[[http://www.microchip.com/gestic|Microchip Technology Inc. "GestIC Technology"]].
+    *[[http://www.microchip.com/pagehandler/en-us/technology/gestic/gettingstarted.html|Microchip Technology Inc. "Touch & Input Sensing - Getting Started"]] - Download of the free gestic visualisation application "MGC3130 - Software Package - Aurea GUI and GestIC Library" for Windows.
+  *[[http://www.microchip.com/pagehandler/en-us/press-release/microchips-new-gestic-technolo.html|Microchip Technology Inc. "Microchip’s New GestIC Technology Enables Mobile-Friendly 3D Gesture Interfaces"]].
+  *The Microchip GestIC devices are shipped with a 32-bit PIC32 and a 8-bit PIC18 CPU. While you can develop and upload firmware for the PIC18 CPU, the PIC32 has its own proprietary firmware for gestic recognition which you can´t access.
+
+===== Software =====
+==== Software Frameworks and Operating Systems ==== 
+=== Operating Systems ===
+  *FreeRTOS, RetroBSD,... -> See [[realtime.html|Realtime Operating Systems, Operating Systems for Embedded Systems, Distributed Operating Systems]].
+=== MPLAB Harmony Integrated Software Framework ====
+  *[[http://www.microchip.com/pagehandler/en_us/devtools/mplabharmony/|Microchip Technology Inc. "MPLAB Harmony Integrated Software Framework"]].
+    *To keep the code size small, the "MPLAB Harmony Integrated Software Framework" makes use of "inline code".
+    *"MPLAB Harmony Integrated Software Framework" is thread-safe and may be used with integrated ( FreeRTOS, uCOS-III -> see [[realtime.html|Realtime Operating Systems, Operating Systems for Embedded Systems, Distributed Operating Systems]] ) or external realtime operating systems.
+  *You may use PIC32MX with either with "MPLAB Harmony Integrated Software Framework" or "Microchip Library for Applications", for PIC32MZ, "MPLAB Harmony Integrated Software Framework" is the only officially supported framework available.
+=== Microchip Library for Applications ====
+  *The legacy [[http://www.microchip.com/pagehandler/en-us/devtools/mla/|Microchip Technology Inc. "Microchip Library for Applications"]].
+    *"MLA v2013-12-20" - Latest edition for "MPLAB X IDE".
+    *"MLA v2013-06-15" - Latest edition for "MLAP 8".
+  *Support:
+    *"Support for PIC16, PIC18, PIC24 and dsPIC33".
+    *PIC32MX is supported by the "Microchip Library for Applications" - a library is shipped with the compiler. PIC32MZ is unsupported.
+  *"Starting with the 2013-12-20 release, the MLA will only include pre-built projects for MPLAB X IDE. Not all demos have been ported to the new version of the MLA. Please see the Legacy MLA tab below if you need: Pre-built projects for MPLAB 8".
+  *The problems and drawbacks of "Microchip Library for Applications" arise, if you try to combine different code examples. In opposite, with "MPLAB Harmony Integrated Software Framework", such problems are avoided the design.
+=== MPLAB Code Configurator ====
+  *For 8-bit PIC CPUs, Microchip doesn't supply a library or framework, but the code configuration tool [[http://www.microchip.com/pagehandler/en_us/devtools/code_configurator|Microchip Technology Inc. "MPLAB Code Configurator"]].
+=== Some other Software Libraries for Microchip MCUs ====
+  *[[http://www.microchip.com/SoftwareLib.aspx|Microchip Technology Inc. "Software Libraries"]].
+==== Free Development Tools ==== 
+  *The free IDE [[http://www.microchip.com/pagehandler/en-us/family/mplabx/|Microchip Technology Inc "MPLAB X"]] for Linux and Windows, based on [[http://www.netbeans.org/|NetBeans]].
+    *The Netbeans configuration file is at "C:\MPLABX\mplab-ide\mplabide.conf".
+    *The most important plugin for 8-bit PIC CPUs is the [[http://www.microchip.com/pagehandler/en_us/devtools/code_configurator|Microchip Technology Inc. "MPLAB Code Configurator"]], see "Tools / Plugin / Available Plugins".
+    *The installer of "MPLAB X" 2.20 aborts on my Athon XP2400 computer by the error message "APPCRASH" :-(.
+  *The latest free legacy IDE "MPLAB Integrated Development Environment 8.92" is still available for download at
+    *[[http://www.microchip.com/pagehandler/en-us/devtools/dev-tools-parts.html|Microchip Technology Inc "Dev Tools Parts"]] - "MPLAB IDE Archives".
+    *[[http://www.microchip.com/Microchip.WWW.SecureSoftwareList/secsoftwaredownload.aspx?device=en019469|Microchip Technology Inc "secsoftwaredownload"]].
+  *Compilers.
+    *The free "Gnu C/C++ 4.5.2" based compiler [[http://www.microchip.com/pagehandler/en_us/devtools/mplabxc/|MPLAB XC Compilers]] for Linux and Windows.
+      *"MPLAB XC Free Edition: Supports all the devices and commands of the Standard and PRO Editions. No time or memory restrictions. Limited code optimizations. Unrestricted use—ideal for a low-cost academic or commercial solution. Allows for all the code optimization and commands of the PRO Edition for 60 days – you decide when to turn it on. An option to activate the use of the PRO Edition features and optimizations is included. After 60 days, the compiler will revert back to the levels of the Free Edition".
+      *[[http://www.microchip.com/xcdemo/xcpluspromo.aspx|Microchip Technology Inc "Get Your Free MPLAB® XC32++ Compiler Software Today. Microchip is offering a special edition of our C++ compiler software completely free"]].
+        *Get the Media Access Control (MAC) address of your computer. 
+          *Execute the command “xclm –hostinfo” from a command window on the computer on which you installed the MPLAB XC32 compiler, to get your MAC address.
+          *Alternatively, during compiler installation, the MAC address is detected by the installer and displayed as "Host ID" and can be copyied+pasted to the website.
+        *Enter the MAC address into the field, select your operating system and click on "Get free XC32++ License".
+    *MPLAB C Compiler for PIC24 and dsPIC DSCs.
+      *[[http://www.microchip.com/pagehandler/en-us/devtools/dev-tools-parts.html|Microchip Technology Inc "Dev Tools Parts"]] - "MPLAB C Compiler for PIC24 and dsPIC DSCs", "MPLAB ASM30 Assembler".
+      *The free "C" compiler [[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1406&dDocName=en535364|Microchip Technology Inc. "MPLAB C Compiler for PIC24 MCUs"]] Lite Edition" for Windows. No C/C++ compiler! "The Compiler Evaluation Version is free! It is full-featured for the first 60 days. After 60 days only optimization level 1 can be enabled in the compiler. The compiler will continue to function after 60 days, but code size may increase. There are no restrictions on the use of this C compiler".
+    *MPLAB C Compiler for PIC18.
+      *The free "C" compiler [[http://www.microchip.com/Developmenttools/ProductDetails.aspx?PartNO=SW006011|Microchip Technology Inc "MPLAB C Compiler for PIC18 MCUs (C18)"]] for Windows - No C/C++ compiler! "The Standard-Eval Version is free! It has all the features of the full compiler and libraries. After 60 days, the optimizations related to procedural abstraction and to the extended instruction set of the newer PIC18XXXX devices will be disabled. Code compiled after the expiration date will function but may occupy more memory space".
+  *[[http://www.microchip.com/pagehandler/en_us/devtools/code_configurator|MPLAB Code Configurator]] for 8-bit PIC CPUs.
+  *MPIDE is a modified version of the Arduino programming tool that works with the ChipKIT boards as well. 
+    *[[http://github.com/chipKIT32/chipKIT32-MAX/|github "chipKIT32"]].
+    *The free IDE [[http://github.com/chipKIT32/chipKIT32-MAX/|github "chipKIT32 / chipKIT32-MAX"]].
+  *[[http://www.labcenter.com/|Labcenter Electronics Ltd.]]. 
+    *The commercial simulator [[http://www.labcenter.com/products/pic24.cfm|Labcenter Electronics Ltd. "Proteus VSM for PIC 24"]].
+    *The free [[http://www.labcenter.com/support/vdmmplab.cfm|Proteus VSM MPLAB Viewer. The Integrated Solution for PICMicro Development]], provided by Microchip Inc for its classical "MPLAB" IDE ( but not yet for the "MPLAB X" IDE :-(, integration is announced / expected for Autumn 2012 :-). Microchip is going to release a mplabX plugin to intergrate the proteus VSM in MPLAB ). It is based on the free demonstration edition of "Proteus VSM". "You can write your own software programs to run on the existing sample design suite <del>for evaluation</del>", using the virtual hardware "Explorer 16 Virtual Evaluation Board".
+==== Commercial Development Tools ====
+  *The commercial [[http://www.htsoft.com/|HI-Tech C Compilers by Microchip Technology]] for Windows.
+    *[[ftp://ftp.microchip.com/|Index of ftp://Compilers-RO@ftp.microchip.com/]] - Free "HI-TECH PIC-Lite C Compiler" compilers for Windows.
+  *[[http://www.il-online.de/|Ing.Büro Lehmann]] - The commercial PIC-BASIC compiler "iL_BAS16SEV" for Windows.
+  *The commercial [[http://www.pic-basic.de/|Ralf Pagel "PIC-BASIC-II"]] for Windows.
+  *The commercial [[http://store.melabs.com/cat/PBP.html|microEngineering Labs, Inc. "PICBASIC PRO Compiler 3.0" ( PBP3 )]] for Windows.
+  *The commercial [[http://www.mikroe.com/mikroc/pic/|MikroElektronika "mikroC PRO for PIC"]] - "C compiler for PC microcontroller device development", including PC18 ( not C/C++ ! ). 
+    *There is a free edition with codesize limited to 2 KBytes.
+    *On Windows Vista and newer, the installation setup wants to install the software by default at "C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC" :-(.
+    *The IDE:
+      *All derived files are always in the same directory as the source files, you can not select another directory :-(. 
+      *The menu function "Project / Clean Project folder" lets you delete ( generated ) project files. The default setting of "Clean Project Folder" does however not remove the following file types: *.mcl, *.ini, *.brk, *.bmk, *.dic, *.hex, *.log. You should check these project files if you want to delete them. Leave other files alone, they are really project files.
+      *So my suggestion: To clean all targets, execute the menu item "Project / Clean Project Folder". Let the IDE delete the following filetypes: *.asm, *.asm.ini, *.brk, *.c.ini, *.cfg, *.cp, *.dbg, *.dct, *.dlt, *.hex, *.log, *.lst, *.mcl, *.mcppi_callertable.txt, *.user.dic. 
+      *Even then, just the calling the IDE and the (automatic) loading a project, causes the generation of files of filetypes *.bmk, *.brk, *.c.ini, *.cfg, *.dct, which must be deleted manually or better by a batch file.
+    *The commandline compiler has the commandline option switches:
+      *- N : "Output files generated to file path specified by filename". Indeed, "-N" defines the name of the project file, e.g. -N"C:\users\pic18project\pic18project.mcppi".
+      *- B : Save compiled binary files (*.mcl) to 'directory'.
+
+===== Books =====
+==== German Books ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3142310401/hemmerling-21|Karsten Bettray, Stefan Jacobs, Thomas Malburg, Stefan Gemmel, Roland Stolzenburg, Nils Weiß: "Geräte- und Systemtechnik: PIC16-Mikrocontroller"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3836690314/hemmerling-21|Josef Fuhrer: "Entwicklung von Mikrocontroller-Praktikumsversuchen für Hochschulen: PIC 18F458 und PIC-Universal-Board"]].
+  *Anne König, Manfred König.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3772342647/hemmerling-21|Anne König, Manfred König: "Das PICmicro Hochsprachenbuch, m. CD-ROM"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3772342841/hemmerling-21|Anne König, Manfred König: "Das PICmicro Profi-Buch, m. CD-ROM"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3827251680/hemmerling-21|Anne König, Manfred König: "Mit dem PIC- Controller erfolgreich arbeiten"]].
+  *Dieter Kohtz.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3772351271/hemmerling-21|Dieter Kohtz: "Programmieren von PIC-Mikrocontrollern: Der leichte Einstieg mit dem 16F84A"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3772361579/hemmerling-21|Dieter Kohtz: "Messen, Steuern und Regeln mit PIC-Mikrocontrollern: Schaltungen und Programme für Praxis und Hobby. PIC 16C5X-Familie, PIC 16C71, PIC 16C84, ... Einführung in die Programmierung, Anwendungen"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3826617630/hemmerling-21|Stefan Lehmann, Wolfram Harth: "PIC-Microcontroller-Programmierung (mitp Professional)"]].
+  *Michael Rose.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3778525743/hemmerling-21|Michael Rose: "Mikroprozessor PIC16CXX: Architektur und Applikation"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3778521691/hemmerling-21|Michael Rose: "Mikroprozessor PIC16C5X: Architektur und Applikation"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3778521705/hemmerling-21|Michael Rose: "Mikroprozessor PIC17C42: Architektur und Applikation"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/348659706X/hemmerling-21|Günter Schmitt: "PIC-Microcontroller: Programmierung in Assembler und C - Schaltungen und Anwendungsbeispiele für die Familien PIC18, PIC16, PIC12, PIC10"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3928051830/hemmerling-21|Carl-Friedrich Urban: "PIC- Mikrocontroller mit RISC- Struktur. PIC-16C5X- Familie"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3895760307/hemmerling-21|Francesco P. Volpe, Safinaz Volpe: "PIC-MyC-Praxis, m. Diskette (3 1/2 Zoll)"]].
+==== English Books ====
+  *[[http://www.phanderson.com/|Peter Anderson]].
+    *[[http://www.phanderson.com/PIC/|Peter Anderson's PIC Page]].
+      *[[http://www.phanderson.com/PIC/PICC/|Peter Anderson "C Applications in PIC Designs"]].
+      *Book "Peter Anderson: 'PIC C Routines'" ( TIB "T 04 B 4203" ).
+        *Accompanying website [[http://www.phanderson.com/PIC/PICC/pic_c_routines.html|Peter Anderson "PIC C Routines"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0750689609/hemmerling-21|Martin Bates: "Programming 8-bit PIC Microcontrollers in C: With Interactive Hardware Simulation"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0750665564/hemmerling-21|Owen Bishop: "Robot Builder's Cookbook. Build and Design Robots Using the PIC Microcontroller (Merck): Build and Design Your Own Robots"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/9400711182/hemmerling-21|Bohdan Borowik: "Interfacing PIC Microcontrollers to Peripherial Devices (Intelligent Systems, Control and Automation: Science and Engineering)"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/090570584X/hemmerling-21|Richard Grodzik: "PIC Cookbook for Virtual Instrumentation"]].
+  *Chuck Hellebuyck.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1438231598/hemmerling-21|Chuck Hellebuyck: "Beginner's Guide to Embedded C Programming. Using the PIC Microcontroller and the HI-TECH PIC-Lite C Compiler"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1448628148/hemmerling-21|Chuck Hellebuyck: "Beginner's Guide to Embedded C Programming - Volume 2. Timers, Interrupt, Communicatioins, Displays and More. Using the PIC Microcontroller and the HI-TECH PIC-Lite C Compiler"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1461061253/hemmerling-21|Chuck Hellebuyck: "Beginner's Guide to Embedded C Programming - Volume 3. Creating the SimpleC Library of Functions. Using the PIC Microcontroller and the HI-TECH PIC-Lite C Compiler"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1589950011/hemmerling-21|Chuck Hellebuyck: "Programming PIC Microcontrollers with Picbasic. (Embedded Technology Series)"]].
+  *Dogan Ibrahim.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0750686111/hemmerling-21|Dogan Ibrahim: "Advanced PIC Microcontroller Projects in C: From USB to Rtos with the PIC 18f Series: From USB to RTOS with the PIC 18F Series"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/185617719X/hemmerling-21|Dogan Ibrahim: "SD Card Projects Using the PIC Microcontroller"]].
+  *Lucio Di Jasio.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0750682922/hemmerling-21|Lucio Di Jasio: "Programming 16-Bit PIC Microcontrollers in C: Learning to Fly the PIC24 with CDROM"]].
+      *Accompanying website [[http://www.flyingthepic24.com/|Learning to <del>Program</del> Fly the PIC24]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0750687096/hemmerling-21|Lucio Di Jasio: "Programming 32-Bit Microcontrollers in C: Exploring the Pic32: Exploring the PIC32 (Embedded Technology)"]].
+      *Accompanying website [[http://www.exploringpic32.com/|Exploring the PIC32]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0750686154/hemmerling-21|Lucio Di Jasio: "PIC Microcontrollers (Newnes Know It All): Newnes Know it All (S589)"]].
+  *Sid Katzen.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1849962286/hemmerling-21|Sid Katzen: "The Essential PIC18 Microcontroller (Computer Communications and Networks)"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/185233942X/hemmerling-21|Sid Katzen: "The Quintessential PIC Microcontroller"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0071437045/hemmerling-21|John Lovine: "PIC Microcontroller Project Book: For PICBasic and PICBasic Pro Compilers (Tab Robotics)"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0137592590/hemmerling-21|Peatman: "Design with Pic Microcontrollers"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0071408517/hemmerling-21|Myke Predko: "Programming robot controllers"]] - "CD-ROM with PICmicro development tools, MCU data sheets, links, source code, and more!".
+  *Robert B. Reese.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1584505834/hemmerling-21|Robert B. Reese, J. W. Bruce, Bryan A. Jones: "Microcontrollers: From Assembly Language to C Using the PIC24 Family, w. CD-ROM"]].
+      *Accompanying website [[http://www.reesemicro.com/|Reese Micro "Microcontrollers: From Assembly Language to C Using the PIC24 Family"]].
+      *[[http://www.reesemicro.com/Home/pic24-video-tutorials-1|Reese Micro "PIC24 Video Tutorials"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1584503785/hemmerling-21|Robert B. Reese: "Microprocessors. From Assembly Language to C Using the PIC18Fxx2"]].
+      *Accompanying website [[http://www.reesemicro.com/microprocessors--from-assembly-to-c-with-the-pic|Reese Micro "Microprocessors: From Assembly To C with the PIC18FXX2"]].
+    *Accompanying website for a university course [[http://sites.google.com/site/ece3724/|Mississippi State University "ECE 3724 - Microprocessors is an undergraduate course in Electrical and Computer Engineering"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0849371899/hemmerling-21|Julio Sanchez, Maria P. Canton: "Microcontroller Programming: The Microship PIC"]].
+  *Harprit Singh Sandhu.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0071633510/hemmerling-21|Harprit Singh Sandhu: "Running Small Motors with PIC Microcontrollers"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0071606165/hemmerling-21|Harprit Singh Sandhu: "Making PIC Microcontroller Instruments and Controllers"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1856177505/hemmerling-21|Jack R. Smith: "Programming the PIC Microcontroller with MBasic with CDROM (Embedded Technology)"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1420077678/hemmerling-21|Fernando E. Valdes-Perez, Ramon Pallas-Areny: "Microcontrollers: Fundamentals and Applications with PIC"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1856177505/hemmerling-21|Tim Wilmshurst: "Designing Embedded Systems With Pic Microcontrollers: Principles and Applications"]].
+===== PIC Experts =====
+  *[[http://www.abramovbenjamin.net/|Benjamin Abramov "Digital Hardware Design. Training, Design & Support with VHDL/Verilog"]] - At least he read some PDF books about Microchip PIC :-).
+  *[[http://www.reefcafe.lt/|reefcafe.lt]]- PIC expert - At least he read many PDF books about Microchip PIC :-).
+===== Training =====
+==== Commercial Courses =====
+  *[[http://www.microchip.com/training|Microchip Technology Inc. "Technical Training & Education"]].
+  *[[http://www.microchip.com/en_US/events/trainingseminar2012/|Microchip Technology Inc. "Technical Training Seminar 2012"]].
+  *[[http://www.microchip.com/en_us/events/edf/|Microchip Technology Inc. "Embedded Designers Forum - Seminar Series"]].
+    *Reallife seminars: "[[http://www.microchip.com/en_us/events/edf/locate/|Locate]] / Search By Country" -> Germany.
+      *[[http://techtrain.microchip.com/rtcv2/rtcloc.aspx?region=14&geo=3|Microchip Technology Inc. "Classes in: Central Europe"]] - Training in Düsseldorf,Germany and Munich, Germany.
+      *[[http://secure.microchip.com/RTCV2/SearchClasses.aspx|Microchip Regional Training Center - Search engine for courses]] - Trainings might also be in Hamburg, Germany and Dortmund, Germany.
+  *Getting Started Checklist for Microchip Live Online Classes.
+    -Step 1: Install the Microchip development tools offered for download.
+    -Step 2: Install [[http://support.microsoft.com/ph/925|Microsoft’s Live Meeting 2007 client]].
+      *[[http://support.microsoft.com/ph/925|Microsoft Support "Live Meeting Solution Centre"]].
+      *[[http://office.microsoft.com/en-us/help/download-the-microsoft-office-live-meeting-2007-client-HA010173383.aspx|Microsoft Office "Download the Microsoft Office Live Meeting 2007 client"]].
+    -Step 3: Download and install the Microchip auto-install .zip file for each class you are taking,
+    -Step 4: Open, build, and run the “Getting Started” project found at C:\MTT\<classname>. Correctly running this lab verifies the setup of the tools needed for your class. **It will also provide the password that may be needed to log in to your class**.
+==== Free Webinars =====
+    *Webinars [[http://www.microchip.com/en%5Fus/events/edf/online/|Microchip Technology Inc. "Embedded Designers Forum "Virtual Embedded Designers Forum"]].
+==== Suggested On-Site Training Calendar 2012, for Germany =====
+  *At all on-site courses, real embedded hardware boards are provided.
+  *[[http://techtrain.microchip.com/rtcv2/rtcloc.aspx?region=14&geo=3|Microchip Technology Inc. "Classes in: Central Europe"]].
+    -2011-03-20 - 2011-03-22  in [[http://de.wikipedia.org/wiki/Pforzheim|Pforzheim]].
+      -TLS 0101.
+        *[[http://secure.microchip.com/rtcv2/ViewSeminarDetail.aspx?SeminarDetailID=3551|TLS 0101: Einführung in die integrierte Entwicklungsumgebung MPLAB-IDE]], 2012-03-20, 60 EUR.
+          *Hardware: [[http://www.microchip.com/pickit3/|Microchip Technology Inc. "PICkit 3 In-Circuit Debugger"]] or [[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1406&dDocName=en537580|Microchip Technology Inc. "MPLAB ICD 3 In-Circuit Debugger"]].
+        *Alternative commercial online training "TLS 0101: Getting Started with Microchip Development Tools".
+          *Hardware: [[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1406&dDocName=en010072|ICDEM 2 Plus]] with [[http://www.microchip.com/wwwproducts/Devices.aspx?dDocName=en010297|PIC18F4520]] and [[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1406&dDocName=en537580|Microchip Technology Inc. "MPLAB ICD 3 In-Circuit Debugger"]], MPLAB Simulator simulator.
+      -MCU 3101.
+        *[[http://secure.microchip.com/rtcv2/ViewSeminarDetail.aspx?SeminarDetailID=3552|MCU 3101: Einführung in die 16 -Bit MCU Architektur (PIC24 & dsPIC)]], 2012-03-20, 60 EUR.
+          *Hardware: [[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1406&dDocName=en024858&part=DM240001|Microchip Technology Inc. "Explorer 16 Development Board"]] and [[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1406&dDocName=en537580|Microchip Technology Inc. "MPLAB ICD 3 In-Circuit Debugger"]].
+        *Alternative commercial online training "MCU 3101: Getting Started with 16 bit Microcontroller Architecture and Instruction Set" ( 2011-03-13 ).
+          *Hardware which can be purchased at time of registration for the online training: [[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1406&dDocName=en024858&part=DM240001|Microchip Technology Inc. "Explorer 16 Development Board"]] and [[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1406&dDocName=en537580|Microchip Technology Inc. "MPLAB ICD 3 In-Circuit Debugger"]], [[http://www.microchipdirect.com/productsearch.aspx?Keywords=AC162039|Microchip Technology Inc. "AC162039  - 9V Power Supply"]].
+          *Software which can be purchased at time of registration for the online training: [[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1406&dDocName=en535364|Microchip Technology Inc. "MPLAB C Compiler for PIC24 MCUs"]] for Windows.
+      -MCU 3201.
+        *[[http://secure.microchip.com/rtcv2/ViewSeminarDetail.aspx?SeminarDetailID=3553|MCU 3201: Einsatz der DSP-Funktionalität des dsPIC]], 2011-03-21, 60 EUR.
+          *Requirements: TLS0101 =√, MCU3101 =√, Kenntnisse in der Programmiersprache 'C' =√.
+          *Hardware: [[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1406&dDocName=en024858&part=DM240001|Microchip Technology Inc. "Explorer 16 Development Board"]] and [[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1406&dDocName=en537580|Microchip Technology Inc. "MPLAB ICD 3 In-Circuit Debugger"]].
+          *Software:
+            *The free [[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1406&dDocName=en023587|dsPICworks Data Analysis]] for Windows.
+            *The commercial [[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1406&dDocName=en010066|Digital Filter Design tool for the dsPIC 16-bit DigitalSignal Controllers]].
+         *Alternative commercial online training "DSP 0201: Using DSP Features of the dsPIC DSC Architecture" ( "This class is identical to MCU3201" ).
+       -DSP 0202.
+         *[[http://secure.microchip.com/rtcv2/ViewSeminarDetail.aspx?SeminarDetailID=3554|DSP 0201: Entwicklung mit DSP-Bibliotheken und -Tools]], 2012-03-21, 60 EUR.
+         *Requirements: MCU3201 =√, TLS0101 =√.
+      -[[http://secure.microchip.com/rtcv2/ViewSeminarDetail.aspx?SeminarDetailID=3555|MCT 3101: BLDC Motor Control mit dem dsPIC]], **2011-03-22**, 150.00 EUR.
+          *Requirements: TLS0101 =√, MCU3101 =√, Kenntnisse in der Programmiersprache 'C' =√.
+          *Hardware: [[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1406&dDocName=en024213&part=DM183021|Microchip Technology Inc. "PICDEM MC LV Development Board (DSC)"]].
+          *//Additional// commercial online training "MCT 0101: Overview of Intelligent Motor Control Solutions".
+    -2012-04-25- 2012-04-26 in [[http://de.wikipedia.org/wiki/Haan|Haan]].
+      -[[http://secure.microchip.com/rtcv2/ViewSeminarDetail.aspx?SeminarDetailID=3558|PWR 3101: Digital Power Converter Basics using dsPIC33 Digital Signal Controllers (DSC)]], 2012-04-25, 70 EUR -> just lecture :-(.
+      -[[http://secure.microchip.com/rtcv2/ViewSeminarDetail.aspx?SeminarDetailID=3560|PWR 3201: Implementation of Digital Control Techniques for Power Converters using dsPIC SMPS Family]], 2012-04-26, 150 EUR.
+        *Requirements:  Attendees should be familiar with power conversion basic concepts and the basic of architecture of Microchip dsPIC MCUs. Suggested classes: PWR3101 =√ + TLS0101 =√ + MCU3101 =√ + MCU3201 =√
+        *Hardware: ( [[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1406&dDocName=en024858&part=DM240001|Microchip Technology Inc. "Explorer 16 Development Board"]] or [[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1406&dDocName=en529760|Microchip Technology Inc. "16-Bit 28-Pin Starter Board"]] ) with [[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1406&dDocName=en540057|Buck/Boost Converter PICtail Plus Daughter Board]].
+    -2012-07-25 - 2012-07-26 in [[http://de.wikipedia.org/wiki/Haan|Haan]].
+      -TLS 2130.
+        *[[https://secure.microchip.com/RTCV2/ViewSeminarDetail.aspx?SeminarDetailID=3574|Microchip Technology Inc. "TLS 2130: Einführung in den C-Compiler für dsPIC30/33und PIC24"]].
+          *Requirements: TLS0101 =√, 'C'-Programmierkenntnisse (z.B. TLS2101 ) =√.
+        *Alternative commercial online training "LS 2130: Getting Started with MPLAB C for dsPIC DSCs and PIC24 MCUs".
+      -MCU 3121 √.
+        *[[http://secure.microchip.com/rtcv2/ViewSeminarDetail.aspx?SeminarDetailID=3575|MCU 3121: PIC24 und dsPIC30/33 Standard Peripheriemodule und deren Konfiguration in der Programmiersprache C]], 2012-07-26, 120 EUR.
+          *Requirements: TLS0101=√, MCU3101=√, TLS2130=√.
+          *Hardware: [[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1406&dDocName=en024858&part=DM240001|Microchip Technology Inc. "Explorer 16 Development Board"]].
+        *Alternative commercial online training "MCU 3121: Standard PIC24/dsPIC Peripheral Configuration and Usage Using the C30 C Compiler".
+        *//Additional// commercial online training "MCU 3122: Extended PIC24/dsPIC Peripheral Configuration and Usage Using the C30 C Compiler" √.
+    -2012-08-22 - 2012-08-23 in [[http://de.wikipedia.org/wiki/Ismaning|Ismaning]].
+      -[[http://secure.microchip.com/rtcv2/ViewSeminarDetail.aspx?SeminarDetailID=3570|COM 4201: Entwicklung eines Embedded Webservers auf Basis von PIC18, PIC24 oder PIC32 Microcontrollern]], 2012-08-22, 150.00 EUR.
+        *Requirements: TLS0101 =√ <del>oder TLS0103</del>, <del>MCU2101</del> oder MCU3101 =√.
+        *Hardware: ( [[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1406&dDocName=en024858&part=DM240001|Microchip Technology Inc. "Explorer 16 Development Board"]] with [[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1406&dDocName=en025831&part=AC164121|PICtail Ethernet Board]] ) or [[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1406&dDocName=en028217|PICDEM.net 2 Development Board]].
+        *According to a Microchip staff member in 2012-01, the COM 4xxx Ethernet seminars might be available as online seminars, in Summer 2012 :-).
+      -[[http://secure.microchip.com/rtcv2/ViewSeminarDetail.aspx?SeminarDetailID=3571|COM 3202: Entwicklung einer USB embedded Host Applikation]], 2012-08-23, 150.00 EUR.
+        *Requirements: TLS0101 =√ <del>oder TLS0103</del>, Kenntnisse der Programmiersprache C (TLS2101) =√, COM3101 = just as commercial online training, no course offer in 2012.
+        *Hardware: [[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1406&dDocName=en024858&part=DM240001|Microchip Technology Inc. "Explorer 16 Development Board"]] or [[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=2615&dDocName=en535536|PIC32 USB Starter Kit II]].
+==== Suggested Online Training Calendar 2012-01 - 2012-03 =====
+  *All online courses use the virtual hardware “Explorer 16 Virtual Evaluation Board”, if not otherwise mentioned !
+  *[[http://techtrain.microchip.com/rtcv2/rtcloc.aspx?region=14&geo=3|Microchip Technology Inc. "Classes in: Central Europe"]]. [[http://wwp.greenwichmeantime.com/time-zone/usa/eastern-time/|Eastern Daylight Time (EDT)]] + 6 hours = CET. Check for eventually different start and end of "daylight savings" periods!
+    -TLS 0000 √.
+      *Free online training "TLS 0000: Getting Started with Microchip Live Online" ( **[[https://secure.microchip.com/RTCV2/ViewSeminarDetail.aspx?SeminarDetailID=3854|2012-01-09]] =√**, 2012-01-18, 2012-01-23, 2012-01-30, 2012-02-06, 2012-02-13, 2012-02-20, 2012-02-27, 2012-03-05, 2012-03-12, 2012-03-26 ), 16.30 - 18:00 CET.
+    -TLS 0101.
+      *Alternative commercial online training "TLS 0101: Getting Started with Microchip Development Tools" ( 2012-01-09, 2012-01-16, 2012-01-23, 2012-01-30, 2012-02-06, 2012-06-13, 2012-02-20, 2012-02-27, 2012-03-05, 2012-03-12, 2012-03-26 ).
+    -<del>TLS 2101</del>.
+      *Commercial online training <del>"TLS 2101: Introduction to the C Programming Language for Embedded Control Engineers"</del> ( 2012-02-01, 2012-02-29 ).
+    -TLS 2130 √.
+      *Alternative commercial online training "LS 2130: Getting Started with MPLAB C for dsPIC DSCs and PIC24 MCUs" ( 2012-02-03, 2012-03-02 ).
+    -MCU 3101 √.
+      *Alternative commercial online training "MCU 3101: Getting Started with 16 bit Microcontroller Architecture and Instruction Set" ( just on **2011-03-13** ).
+    -MCU 3121 √.
+      *Alternative commercial online training "MCU 3121: Standard PIC24/dsPIC Peripheral Configuration and Usage Using the C30 C Compiler" ( 2012-01-18, 2012-02-15, 2012-03-14 ).
+    -<del>MCU 4101</del>.
+      *Commercial online training <del>"MCU 4101: Introduction to PIC32"</del> ( 2012-01-19, 2012-02-16, 2012-03-15 ).
+        *"The hands-on exercises will use the Explorer16 board (DM240001) with  the 32MX360 PIM ( [[http://www.microchipdirect.com/ProductSearch.aspx?Keywords=MA320001|MA320001]] ) OR the PIC32 Starter Kit (DM320001) and ownership for the tools must be confirmed before the class start".
+        *Hardware which can be purchased at time of registration for the online training: [[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1406&dDocName=en532453|Microchip Technology Inc. "DM320001  - PIC32 STARTER KIT"]].
+    -MCU 3122 √.
+      *//Additional// commercial online training "MCU 3122: Extended PIC24/dsPIC Peripheral Configuration and Usage Using the C30 C Compiler" ( 2012-01-20, 2012-02-17, **2012-03-16** ).
+    -MCU 3201.
+      *Alternative commercial online training "DSP 0201: Using DSP Features of the dsPIC DSC Architecture" ( 2012-01-24, 2012-02-21, **2012-03-20** ).
+    -COM 3101.
+      *//Additional// commercial online training "COM 3101: Introduction to Full-Speed USB", a mandatory prerequisite for COM 3202 ( 2012-01-27, 2012-02-24, **2012-03-23** ).
+        *"This classs requires the additional  purchase or previous ownership of the following development tools for use in the hands-on section of the class: PICDDEM FS USB board, PICKit 3 debugger and adapter".
+        *Hardware which can be purchased at time of registration for the online training: [[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1406&dDocName=en021940&part=DM163025|Microchip Technology Inc. "PICDEM Full Speed USB"]], [[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1406&dDocName=en538340&redirects=pickit3|Microchip Technology Inc. "PICKit 3 In-Circuit Debugger"]], [[http://www.microchipdirect.com/productsearch.aspx?Keywords=AC164110|Microchip Technology Inc. "AC164110 - RJ-11 to ICSP Adapter"]].
+===== Resources =====
+  *[[http://www.chipkit.net/|chipKIT Embedded Platforms]].
+  *Wiki [[http://www.chipkit.cc/wiki/|chipKIT Wiki]].
+    *[[http://www.chipkit.cc/wiki/index.php?title=MPIDE_Installation|chipKIT Wiki "MPIDE Installation"]].
+  *[[http://www.avnet.co.za/Semiconductors/Microchip/microchip_tools1.htm|Avnet Kopp (Pty) Ltd "Demonstration Boards and Evaluation Kits"]].
+  *[[http://www.engscope.com/pic24-tutorial/|Engscope - An Engineer's Life "PIC24 Tutorial"]].
+  *[[http://www.leonheller.com/|Leon Heller]].
+    *[[http://webspace.webring.com/people/jl/leon_heller/|Webring "Leon Heller"]].
+      *[[http://webspace.webring.com/people/jl/leon_heller/dspic.html|Leon Heller, Webring "dsPIC Audio Processor"]].
+  *[[http://www.themakersworkbench.com/node/422|The Makers Workbench "MPIDE: One IDE to rull them all. (For Arduino and its varients anyway)"]].
+  *Microchip Interrupts.
+    *Especially with PIC microcontrollers, it is important to implement the "general exception handlers".
+    *[[http://www.microchip.com/forums/m581953.aspx|Microchip Forums "PIC32 exception handling"]].
+    *[[http://www.stackoverflow.com/questions/7829430/microchip-exception-handling|Stack Overflow "microchip exception handling"]].
+  *[[http://www.moetronix.com/dspic/|MoeTronix "dsPIC Projects"]].
+  *[[http://www.opensource4pic.org/|opensource4pic Community]].
+  *[[http://en.wikipedia.org/wiki/PIC_microcontroller|EN.Wikipedia "PIC microcontroller"]], [[http://de.wikipedia.org/wiki/PICmicro|DE.Wikipedia "PICmicro"]].
+  *[[http://en.wikipedia.org/wiki/MPLAB|EN.Wikipedia "MPLAB"]].
+===== Communities, Forums, Newsgroups =====
+  *[[http://www.chipkit.org/forum/|chipKIT Forum]] - "Antispam: You can't have a profile yet. You need to post a few times first".
+    *[[http://www.chipkit.org/forum/viewtopic.php?f=19&t=473&p=2483|chipKIT Forum, thread "A new and easier way to debug chipKIT sketches in MPLAB"]].
+  *[[http://groups.google.com/group/pic24-assembly-to-c-book|Google Groups "PIC24 Assembly-to-C Book"]].
+  *[[http://www.fernando-heitor.de/|Fernando Heitor "PIC Mikrocontroller Forum" / "PIC Mikrocontroller Seite"]].
+  *[[http://www.microchip.com/forums/|Microchip Technology Inc. "Microchip Forums"]].
+
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Hardware/Mikrocontroller/|OpenDirectory "Top: World: Deutsch: Computer: Hardware: Mikrocontroller"]].
+  *[[http://www.dmoz.org/Science/Technology/Electronics/Signal_Processing/Digital_Signal_Processing_-_DSP/|OpenDirectory "Top: Science: Technology: Electronics: Signal Processing: Digital Signal Processing - DSP"]].
+{{tag>"pic dsPIC "Microchip Technology" microchip Technology}}
+<footnote_navi_en>

@@ -1,0 +1,171 @@
+====== [hemmerling] AVR Microcontrollers Expertness 2/4 - Atmel Studio 4 / 5 / 6 HowTo ======
+Related pages:
+  *[[atmel.html|The Atmel AVR Family with Focus on ATxmega, ATmega, ATtiny and the Arduino / Freeduino Platform]].
+  *[[arduino.html|The Arduino / Freeduino Platform with Atmel ATmega, Microchip PIC, ARM, Freescale Coldfire]].
+  *[[atmega.html|Atmel ATmega, ATtiny, AT90 & ATmega on the Arduino / Freeduino Platform]].
+  *[[atxmega.html|Atmel ATxmega ( "XMEGA" )]] - This page deals with software tools which are suitable both for ATxmega and for ATmega, ATtiny.
+===== 1 Installation of AVR Studio 5 with separate Installation of AVR Jungo USB Driver =====
+  *Issue: On Vista, the installation of AVR Studio 5 hangs during the integrated installation of the AVR Jungo USB Driver.
+  *Solution:
+     -Copy the installer to the temporary directory on your local drive e.g. to "c:\temp".
+     -Call COMMAND.COM, go to the temporary directory. 
+     -Run the installer from commandline ""installername.exe /extract_all:c:\foo" to unpack the contents of the executable installer.
+     -Call the installer. In the temporary directory, at "c:\<A Globally Unique Identifier>\Disk1\ISSetupPrerequisites", it creates 3 directories named with a Globally Unique Identifiers (GUIDs) .
+     -In one of the GUID directories, there is the AVR Jungo USB driver "AVRJUngoUSB.exe".
+     -Copy the file "AVRJUngoUSB.exe" to safe place, e.g. the directory where you store the AVR Studio installer.
+     -Install the AVR Jungo USB driver from that safe place by running "AVRJUngoUSB.exe", as Administrator.
+     -Install AVR Studio 5, as Administrator.
+  *Recommended reading: 
+    *[[http://avrstudio5.wordpress.com/|Wordpress Blog ""Atmel Studio [5,5.1,6.0]"]].
+      *Article [[http://avrstudio5.wordpress.com/2011/12/02/setting-up-the-avr-jungo-usb-driver-manually/|Wordpress Blog ""Atmel Studio [5,5.1,6.0]" - "Setting up the AVR Jungo USB Driver manually"]], 2011-12-02.
+    *[[http://en.wikipedia.org/wiki/Globally_unique_identifier|EN.Wikipedia "Globally unique identifier"]], [[http://de.wikipedia.org/wiki/Globally_Unique_Identifier|DE.Wikipedia "Globally Unique Identifier"]].
+===== 2 Debugging & Programming of Arduino Mega ADR & Arduino ATMega2560 Targets with AVR Studio 5 =====
+==== 2.1 ISP Programming of Arduino Mega ADR & Arduino ATMega2560 Targets with AVR Studio 5 ====
+  *Connect your [[http://www.atmel.com/tools/JTAGICE3.aspx|JTAGICE3]] hardware debugger by the 10-lines interface cable with 10-pin ISP interface with the 10-to-6 adapter supplied with the debugger. The [[http://www.atmel.com/tools/JTAGICE3.aspx|JTAGICE3]] has a triangle mark next to the JTAG interface. The interface connector must be plugged into the debugger, so that the red line 1 of the 10-lines cable is next this mark ( equivalent: to the 3 LEDs on the top of the debugger ).
+  *Identify the proper 6-pin male connector on the photos of [[http://www.arduino.cc/en/Main/ArduinoBoardADK|Arduino ADK]]! It is situated between CPU and reset button, in the mid of the board. The letters ICSP are printed next to the female jack. The 10-to-6 adapter must be plugged onto the female adapter on the Arduino, so that the top side on which the 2 interface jacks of the adapter are physically placed, point to the side of the Arduino with the USP and power interfaces. As you can see, an Arduino Shield must be removed for programming the device, due to the height of the adapter ?! :-(.
+  *Atmel AVR Studio 5, "Tools / AVR Programming".
+    *"Tool = JTAGICE3".
+    *"Device = ATxmega256A3BU" ( as example ).
+    *"Interface = ISP".
+    *Fuses:
+      *"JTAGEN = x" ( if you want to use the JTAG with Arduino ).
+      *"BOOTRST = x".
+==== 2.2 Debugging of Arduino Mega ADR & Arduino ATMega2560 Targets with AVR Studio 5 ====
+  *Configure the debugger for ISP interface.
+    *Check if the "JTAGEN" fuse bit is enabled, by using the ISP interface.
+    *If not, activate the fuse "JTAGEN".
+  *Connect the special interface cable with single cables, female connectors signed with numbers 0-9 of the [[http://www.atmel.com/tools/JTAGICE3.aspx|JTAGICE3]] hardware debugger to the proper female connectors of the Arduino board.
+  *Identify the proper female connectors on the photos of [[http://www.arduino.cc/en/Main/ArduinoBoardADK|Arduino ADK]] and the general [[http://arduino.cc/en/Reference/Board?from=Guide.Board|Arduino Board Diagram]]!
+  *Atmel AVR Studio 5, "Tools / AVR Programming".
+    *"Tool = JTAGICE3".
+    *"Device = ATxmega256A3BU" ( as example ).
+    *"Interface = JTAG".
+    *Fuses:
+      *"BOOTTRST = BOOTLDR".
+  *JTAG Header Pinout:
+
+^Pin #	^ PinName ^ PinName ^ Pin # ^
+^ 1 | TCK ^ GND | 2 | 
+^ 3 | TDO ^ VTref | 4 |
+^ 5 | TMS ^ nSRST | 6 |
+^ 7 | N.C. ^ nTRST | 8 |
+^ 9 | TDI ^ GND | 10 |
+
+  *JTAG Pin Description:
+
+^ Name ^ Pin# ^ JTAGICE3 ^ ATmega2560 ^ Arduino ^
+^ TCK ^ 1 | Test Clock (clock signal from the JTAGICE3 into the target device) |Pin 93 - PF4 ( ADC4/TMK ) | (A4) Analog pin 4 |
+^ TMS ^ 5 | Test Mode Select (control signal from the JTAGICE3 into the target device) | PF5 ( ADC5/TMS ) | (A5) Analog pin 5 |
+^ TDI ^ 9 | Test Data In (data transmitted from the JTAGICE3 into the target device) | PF7 ( ADC7/PCINT15 ) | (A7) Analog pin 7 |
+^ TDO  ^ 3 | Test Data Out (data transmitted from the target device into the JTAGICE3) | PF6 ( ADC6/PCINT14 ) | (A6) Analog pin 6 |
+^ nTRST ^ 8 | Test Reset (optional, only on some AVR devices). Used to reset the JTAG TAP controller | 
+^ nSRST ^ 6 | Source Reset (optional) Used to reset the target device. Connecting this pin is recommended since it allows the JTAGICE3 to hold the target device in a reset state, which can be essential to debugging in certain scenarios. | Pin 30 | RESET | 
+^ VTref ^ 4 | Target voltage reference. The JTAGICE3 samples the target voltage on this pin in order to power the level converters correctly. The JTAGICE3 draws less than 1mA from this in. | Pins 10, 31, 61, or 100 | VCC |
+^ GND ^ 2,10 | Ground. Both must be connected to ensure that the JTAGICE3 and the target device share the same ground reference. | Pins 11,32, 62, 101, or 99 | GND |
+
+  *Recommended reading:
+    *[[http://www.arduino.cc/forum/index.php/topic,96401.0.html|Arduino Forum "Arduino ATmega2560 And AVR ONE!"]], 2012-03-12.
+    *[[http://www.avrfreaks.net/index.php?name=PNphpBB2&file=viewtopic&t=119227|AVRFreaks "May I use Arduino AVR ATMEGA2560 ADK with JTAGICE 3 ?"]] - "As long as PF4/5/6/7 are brought out to header pins (with nothing loading the lines that may interfere) then you should be able to connect up to do JTAG just fine (**you may need to check the fuses to check that JTAGEN is enabled and this could require ISP**)".
+===== 3 Uploading a fresh original Arduino Bootloader with AVR Studio 5 & JTAGICE3=====
+  *Issue: 
+    *How to upload a fresh orginal Arduino Bootloader with AVR Studio 5 and JTAGICE3?
+  *Solution:
+    *Bootloaders for Arduino Mega boards are stored at at "c:\arduino\hardware\arduino\bootloaders\atmega".
+    *Please read [[http://arduino.cc/en/Hacking/Preferences|Arduino - Arduino Preferences]] where the file "preferences.txt" is stored on your computer ( the place is different for in classical Windows ( W2k / WinXp ) and the successors ( Vista / Win7 / Win8 ).
+    *No complete informations found so far :-(.
+  *Recommended reading:
+    *[[http://www.arduino.cc/forum/index.php?topic=53582.0|Arduino Forum "Arduino Bootloader"]], 2011-02-26.
+    *[[http://www.mikrocontroller.net/articles/AVR_Bootloader_in_C_-_eine_einfache_Anleitung|mikrocontroller.net "AVR Bootloader in C - eine einfache Anleitung"]].
+    *[[http://www.arduino.cc/en/Hacking/Bootloader|Arduino - Bootloader Development]].
+===== 4 Hidden Atmel Studio 5 Solution User Options ".avrsuo" =====
+  *Issue: Atmel Studio 5 stores data in the root directory of a workspace ( a directory ), for a project "projectname":
+    -The directory "projectname" which contains the source and binaries.
+    -The Visual Studio.Solution file "projectname.avrsln".
+    -**The hidden Visual Studio User Options file "projectname.avrsuo"**.
+  *Solution: Open a Windows folder, select the menu items "Tools / View" and set "Hidden files and folders" to "(x) Show hidden files and folders".
+  *Recommended reading: 
+    *[[http://msdn.microsoft.com/en-us/library/xhkhh4zs%28v=vs.71%29.aspx|MSDN Library "File Types and File Extensions in Visual Studio .NET"]] -> ".sln", ".suo".
+    *[[http://msdn.microsoft.com/en-us/library/zfzh36t7.aspx|MSDN Library  "How to: Create Solutions and Projects"]] - "The .suo file is a hidden file that is not displayed under default Windows Explorer settings".
+===== 5 Atmel AVR Studio 5 - How to deal with Solutions and Projects =====
+  *Issue:
+    *An Atmel AVR Studio 5 "Solution" can consist of several projects.
+    *You can define a build order of the projects, by defining dependencies. By the configuration manager, you can define for any project in your solution the compilation configuration ( "Debug2, "Release",..).
+    *You have to set a "Startup Project".
+    *But **just the code of one project can be uploaded to the target or can be debugged** ( If you don´t want to debug, you may upload a file into Flash and additionally another file into the EEPROM area with the software programmer integrated in Atmel AVR Studio 5 ).
+  *Suggestion:
+    *But You can use further projects to generate libraries and object files, which are linked with the main project
+  *Recommended reading:
+    *[[http://www.atmel.com/dyn/products/tools_card.asp?tool_id=17212&source=avr_5_studio_overview|Atmel AVR Studio 5]], PDF Document "Atmel AVR32833: Atmel AVR Studio 5 - How to Add a New Project into an Existing Solution".
+    *[[http://msdn.microsoft.com/en-us/library/23x5fk78.aspx|Microsoft MSDN Library "Multi-Project Solutions"]].
+===== 6 Atmel AVR Studio 5 - How to copy Projects =====
+  *Issue:
+    *You can´t easily make copies of projects within a solution. When You press mouse-rightclick, there is no "Copy" menu option :-(.
+  *Suggestion:
+    *On the Windows desktop, make a copy of the project directory and name the copy to the wanted name.
+    *Open Atmel AVR Studio 5.
+    *Open the target solution.
+    *Open "File / Open / Project/Solution". Add the copied project to a solution by by selecting the copied project directory, with the option "[x] Add to Solution". 
+  *Recommended reading:
+    *[[http://www.atmel.com/dyn/products/tools_card.asp?tool_id=17212&source=avr_5_studio_overview|Atmel AVR Studio 5]] - PDF Document "Atmel AVR32833: Atmel AVR Studio 5 - How to Add a New Project into an Existing Solution".
+===== 7 Atmel AVR Studio 5 - Development of Libraries and Object Files in its own Projects =====
+  *Issue:
+    *If you create 2 projects in a solution, while one or more projects are libaries or object files,
+      *Right-click on the project name, select "Project Dependencies" to define the dependencies and by this the build order, for every project.
+      *in the project properties, add the libaries at "AVR/GNU C Linker" ( or "AVR/GNU C++ Linker" respectively ). 
+        *For a library named "libmy-library.a", enter "my-library" as library name.
+        *Enter the library search path.
+          *Absolute path works.
+          *Relative path. While with Atmel Studio 5 suggests "../my-other-project/Debug", just "../../my-other-project/Debug" is right.
+        *You can add additional object files at "Miscellanous", e.g. "../../other_project/Debug/src/myobjectfile.o".
+  *Issue for "C++" projects.
+    *"C" files are not compiled in a "C++" project :-(, though there is a set of "C" compiler settings in the project properties, in addition to the "C++" compiler settings.
+    *However, You can call "C" functions of other "C" projects. Please declare the "C" functions as such, in C++ ( eg. 'extern "C" int myfunction(void)' ).
+  *Issue for "C++" projects:
+    *Due to a known bug of "AVRGCC C++ 1.0", You have mention the linker library settings for a C++ project for Atmel AVR 8-bit targets, at "Project / Properties / Toolchain / Linker / Miscellaneous / Linker Flags" to set the corresponding linker flag ( "-Wl,-lmy-library".
+    *By this, the library is found.
+    *However my experience is that such a library is not used to solve undefined references :-(. In opposite, in a similar "C" project references are found in project libraries.
+      *A working alternative is to add object files instead of libraries. You may enter the path to object files at "Miscellanous". E.g. "../../my-other-project/Debug/src/my-object-file.o".
+    *For "C" projects, everything works fine.
+  *Issue for "C" projects:
+    *You can´t call "C++" functions of "C++" library projects in a "C" project.
+  *Recommended reading:
+    *[[http://support.atmel.no/bin/customer.exe?action=viewKbCategory&id=121|Atmel "Technical Support / Frequently Asked Questions / English / AVR Studio 5"]] -> "C++ (beta) support for AVR Studio 5, Q & A".
+    *[[http://www.avrfreaks.net/index.php?name=PNphpBB2&file=viewtopic&p=884176|AVR Freaks Forum, thread "AVR Studio 5, C++ - Linking of libraries does not work:-("]].
+    *[[http://www.parashift.com/c++-faq-lite/mixing-c-and-cpp.html|Marshall Cline "How to mix C and C++]].
+===== 8 Atmel AVR Studio 5 - Don't start the names of Libraries with "lib" =====
+  *Issue: Naming of libraries.
+  *Suggestion: Don't start the names of libraries with "lib", with Atmel AVR Studio 5: If you enter a library name such as "libtest" at "Project / Properties / Toolchain / AVR/GNU C Linker / Libraries", the linker is called with "-test" by the generated batch file :-(.
+===== 9 Atmel AVR Studio 5 - How to open "C" Files associated with "C" Functions, efficiendly =====
+  *Issue: How to open the "C" file, in which a function is defined.
+  *Solution:
+    *Mark the function name by your mouse ( so that it is highlighted ).
+    *When pressing ALT plus "G" concurrently ( "ALT - G" ), Atmel Studio 5 searches all "C" files and "C" header files of the open solution including the sources of the AVR Software Framework ( ASF ) for the name and presents the result, a list of filenames, in a list. By mouseclick, the selected file is opened in the editor.
+
+===== 10 Tips how to compile C++ Software with Atmel Studio =====
+  *Selected ASF modules, when generating an empty "Board" project for a specific Atmel / Arduiono / User boards:
+    -Generic board support (driver).
+    -System Clock Control (service).
+    -Delay routines (service).
+    -IOPORT - General purpose I/O service (service).
+    -USART - Univ. Syn Async Rec/Trans (driver).
+  *[[http://de.wikipedia.org/wiki/ARM_Cortex-M4|DE.Wikipedia "ARM Cortex-M4"]] - "Der Cortex-M4 ist eine Architektur (**ARMv7-M**) aus der ARM Cortex-M-Familie für Mikroprozessoren von ARM".
+  *[[http://asf.atmel.com/bugzilla/show_bug.cgi?id=2838|ASF Bugzilla "Bug 2838 - It's not possible to use C++ with ASF on Atmel Studio 6.0"]],  2012-08-31 - 2013-07-08.
+    *"My suggestion is to have two projects one can be a ASF C library project and another can be C++ Executable project.
+      -Create an ASF Atmel/User board template from new project dialog.
+      -Change Project properties ->Build ->Artifact Type -> Static Library.
+      -Rename main() function to main_dummy() or something.
+      -Build the project.
+      -Create C++ executable project in the same solution.
+      -In the C++ project select Add Library and add ASF C project as library".
+    *"When you need to call a C function from C++ project make sure you have extern 'C' in the deceleration".
+    *Message from ASF says "ASF modules are not guaranteed to work with C++ project. for best use of ASF modules, Create a C project". - So it is safe to use the above method :-)
+  *Undefined reference to "_close", "_exit", "_fstat", "_getpid", "_isatty", "_kill", "_lseek", "_read", "_sbrk", "_write":
+    *[[http://www.stackoverflow.com/questions/9632595/compiling-basic-c-file-for-the-arm-processor|Stackoverflow "Compiling basic C file for the ARM processor"]] - "undefined reference to '_exit'".
+    *[[http://asf.atmel.com/bugzilla/show_bug.cgi?id=2768|ASF Bugzilla "Bug 2768 - syscalls.c"]] - "In Atmel Studio, launch the ASF wizard and add "Standard I/O (stdio) Interface" module (includes the required read.c, write.c)".
+    *[[http://www.sourceware.org/newlib/libc.html|The Red Hat newlib C Library]] - "12.1 Definitions for OS interface" -> Stubs for the missing functions.
+  *[[http://www.10rem.net/blog/2012/01/15/gnu-cplusplus-blinkenled-part-1-on-the-avr-atmega1284p-with-mikroelektronika-easyavr6-and-atmel-avr-studio-51|Pete Brown "GNU C++ BlinkenLED Part 1 on the AVR (ATmega1284P with MikroElektronika EasyAVR6) and Atmel AVR Studio 5.1"]], 2012-01-15.
+  *[[http://www.avrfreaks.net/index.php?name=PNphpBB2&file=viewtopic&p=1038701|AVR Freaks ""Usage of <iostream> in 'GCC C++ Executable'"]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Hardware/Components/Processors/AVR/|OpenDirectory "Top: Computers: Hardware: Components: Processors: AVR]].
+{{tag>Atmel AVR AVR32 ATxmega128A1 ATxmega256A3BU ATmega ATtiny AT90 Arduino Freeduino ATxmega "ATX Mega" XMEGA XMEGA-A1 XMEGA-A3BU Xplained "AVR Studio" "8-bit" "32-bit" 8bit 32bit CPU "embedded system" "embedded systems"}}
+<footnote_navi_en>

@@ -1,0 +1,111 @@
+====== [hemmerling] "Industry 4.0" & "Internet of Things" ( IOT ) & "Cyber-physical Systems" ======
+Related pages:
+  *[[automation.html|Automation & Process Logic Control]].
+  *[[bautomation.html|Building Automation & Home Automation]].
+  *[[carnetworks.html|Distributed Computing on Automotive Networks, Car Electronics and Automotive Data Formats]].
+  *[[enterprise.html|Standard Software for Enterprises]].
+  *[[fieldbus.html|Fieldbuses and Automation Networks]].
+  *[[industrialdata.html|Industrial Data & Industrial Data Exchange]].
+  *[[instrumentation.html|Instrumentation]].
+  *[[mes.html|Manufacturing Execution System ( MES )]].
+  *[[network.html|Network Tools 1/2]].
+  *[[network02.html|Network Tools 2/2 - Communications Hardware, Communication Applications & Drivers]].
+  *[[rfid.html|Radio-Frequency Identification ( RFID )]].
+  *[[tinkerforge.html|Tinkerforge]], [[brickfirmware.html|Brick Firmware]].
+  *[[wireless.html|Wireless Networks]].
+===== Organizations, Fairs, Events =====
+==== Organizations, Fairs, Events ====
+  *[[http://www.iotday.org/|IoTDay - Internet of Things Day]] - "The Global Internet of Things Day", 2014-04-09.
+    *[[http://plus.google.com/events/c9g6ikkcp9d481b14atbo2d15s4|Google+ Events "IoTLive - #001 - Part 1 - Global Internet of Things Day"]].
+  *[[http://www.thingscon.com/|ThingsCon]], Berlin ( 2014-05-02 - 2014-05-03 ).
+  *[[http://www.iotevents.org/|Internet of Things Events]].
+  *The free conference [[http://www.welt-industrie-4-0.rubach-konferenzen.de/|WELT-Konferenz Industrie 4.0. Eine Revolution für die Zukunft Deutschlands]], 2013-10-11.
+==== Resources ====
+  *[[http://www.iotevents.org/|iotevents.org - A directory of worldwide Internet of Things related events]].
+===== Internet 4.0 M2M Networks and Protocols =====
+  *See [[fieldbus.html|Fieldbuses and Automation Networks]], section "Internet 4.0 M2M Networks and Protocols".
+===== Smart Wireless Devices =====
+  *[[http://www.linemetrics.com/|LineMetrics GmbH]] - coopearates with IBM as cloud provider.
+  *[[http://www.virtenio.com/d|Virtenio GmbH]] - "Smart wireless devices".
+===== Germany & IoT  =====
+==== IoT Projects in Germany ====
+  *[[http://www.youtube.com/watch?v=FoEPlE8Pg7I|YouTube "Cisco: The Internet of Everything Transforms Hamburg into a Smart Connected City"]].
+==== "Brick" Concepts for IoT Applications ====
+  *Arduino Platform -> See [[arduino.html|The Arduino / Freeduino Platform with Atmel ATmega, Microchip PIC, ARM, Freescale Coldfire]].
+  *Bricks / Bricklets.
+    *The German company "Tinkerforge GmbH"  -> See [[tinkerforge.html|Tinkerforge]], [[brickfirmware.html|Brick Firmware]].
+  *"Brick 'R' Knowledge" -> See [[electronics01.html|Electric Units & Electronics 1/3 - My Electronics, Electronics Workbench Equipment, Electronics Literature & Resources]].
+  *Intel Edision -> See [[embedded.html|Embedded Systems]].
+  *Raspberry Pi -> See [[arm.html|ARM Embedded Systems ( ARM7, ARM8, ARM9, ARM11, Cortex )]].
+  *WunderBar.
+    *The German Company [[http://www.relayr.io/|iThings4U GmbH "relayr - bring things to life"]].
+    *[[http://www.relayr.io/wunderbar|iThings4U GmbH - relayr "WunderBar"]].
+    *[[http://developer.relayr.io/|relayr "Get started with Relayr app development"]].
+      *[[http://developer.relayr.io/documents/Python/Introduction|relayr "relayr for Pythonists"]] - "relayr Python Library Documentation".
+      *[[http://www.github.com/relayr/python-sdk|GitHub "relayr/python-sdk"]].
+      *[[http://pypi.python.org/pypi/relayr/|Python Package Index "relayr"]].
+      *The "relayr Python Library" can't be installed on Windows. The installation "pip install relayr" on Python 2.7 aborts by the error message "Pexpect is intened for UNIX-like operating systems" :-(.
+        *[[http://pypi.python.org/pypi/pexpect/|Python Package Index "pexpect"]] for Linux.
+        *[[http://pypi.python.org/pypi/winpexpect/|Python Package Index "winpexpect"]] for Windows.
+    *[[http://www.hackthehouse.io/|relayr Hack The House: With Bosch and Siemens Home Appliances]] by [[http://www.relayr.io/|iThings4U GmbH "relayr - bring things to life"]] and [[http://www.bsh-group.com/|BSH Hausgeräte GmbH]], 2015-02-27 - 2015-03-01.
+      *[[http://www.facebook.com/BoschHomeDeutschland/posts/10152548308606556|Facebook "Bosch Home Deutschland: relayr Hack The House"]].
+      *[[http://www.facebook.com/groups/455546924601515/|Facebook, Closed Group "relayr Hack The House"]].
+==== Some other German IoT Startup Companies ====
+  *The German Company [[http://www.yetu.com/|Yetu]] - "The Smart Home Platform. Your applications on every device and operating system".
+  *The German Company [[http://www.gestigon.de/|gestigon GmbH]] - "Gestigon Gesture Control - Shaping the future of user interfaces".
+===== Resources  ===== 
+==== Internet of Things ( IoT ) ====
+  *Blog [[http://blog.bosch-si.com/|Bosch ConnectedWorld Blog]].
+  *[[http://postscapes.com/|Postscape - Tracking the Internet of Things]].
+  *Blog [[http://blog.profitbricks.com/|ProfitBricks Blog - Cloud Computing and IaaS Blog]].
+    *[[http://blog.profitbricks.com/top-49-tools-internet-of-things/|ProfitBricks Blog "Top 49 Tools For The Internet of Things"]].
+==== Industry 4.0 Resources  ====
+  *[[http://www.allseenalliance.org/| AllSeen Alliance]] - "The Leading Internet of Things Initiative".
+  *Bundesministerium für Bildung und Forschung ( BMBF ).
+    *[[http://www.bmbf.de/de/19955.php|Bundesministerium für Bildung und Forschung ( BMBF ) "Zukunftsprojekt Industrie 4.0"]].
+    *[[http://www.bmbf.de/press/2478.php?hilite=internet+der+dinge|Bundesministerium für Bildung und Forschung ( BMBF ) "Rachel: 'Internet der Dinge bringt uns in die Zukunft'"]], 2009.
+  *[[http://www.bitkom.org/74733.aspx|Bundesverband Informationswirtschaft, Telekommunikation und neue Medien e.V. ( BITKOM ) - Themen "Industrie 4.0"]].
+  *GE.
+    *Conference "GE Developers Conference. Das Internet der Dinge & die Rolle der Embedded Technologie" ( "GE Developers Conference. The Internet of things & the role of embedded technology" )"  by [[http://www.ge-ip.com/|GE Intelligent Platforms GmbH & Co.KG]] at [[http://ge.geglobalresearch.com/locations/munich-germany/|GE Research Center Garching]] in Garching, Germany, 2013-06-13.
+    *[[http://www.koelsch-altmann.de/|Kölsch & Altmann GmbH]].
+      *[[http://www.xing.com/profile/Werner_Altmann|XING "Dr. Werner Altmann"]]
+        *Speech "Industrie 4.0 & Mobile Maintenance: New business opportunities" at GE Developer Conference in Garching, 2013-06-13. Example initiatives to break up "silos":
+          *Open Process Control (OPC).
+          *Industrie 4.0.
+          *[[http://www.comvantage.eu/|Collaborative Manufacturing Network for Competitive Advantage ( ComVantage )]].
+    *[[http://www.rst-automation.de/|RST Industrie Automation GmbH]].
+      *[[http://www.xing.com/profile/Robert_Schachner|XING "Robert Schachner"]].
+  *[[http://www.iosb.fraunhofer.de/|Fraunhofer IOSB]].
+    *[[http://www-klkblog.de/|KLKBlog - ein WebLog des Geschäftsfeldes "Automatisierung" des Fraunhofer IOSB]].
+      *[[http://www.klkblog.de/servlet/is/10324/|KLKBlog "Folien zum Vortrag beim Forum Industrial IT, Hannover Messe Industrie"]] - "Olav Sauer:  MES in Industrie 4.0" ( PDF ).
+    *[[http://www.iosb.fraunhofer.de/servlet/is/21752/|Fraunhofer IOSB "Olav Sauer: Industrie 4.0"]].
+    *[[http://mes.fraunhofer.de/|Fraunhofer IOSB "Olav Sauer: Leittechnik und MES-Systeme"]], [[http://www.iosb.fraunhofer.de/servlet/is/9028/|Fraunhofer IOSB "Olav Sauer: Leittechnik und MES-Systeme"]].
+  *[[http://www.mittelstand-digital.de/|Mittelstand-Digital des Bundesministerium für Wirtschaft und Energie ( BMWi )]].
+  *[[http://www.plattform-i40.de/|Plattform Industrie 4.0]].
+  *[[http://www.telekom.com/m2m|Deutsche Telekom AG "M2M Machine-to-Machine"]], [[http://m2m.telekom.com/|Deutsche Telekom AG "M2M Machine-to-Machine"]].
+    *[[http://m2m.telekom.com/m2m_device-cloud.dtag|Deutsche Telekom AG "M2M Machine-to-Machine: M2M Device Cloud"]] - "Store your data on a cloud-based platform and manage your M2M devices".
+    *[[http://m2m.telekom.com/m2m_device-to-cloud-ready-program.dtag|Deutsche Telekom AG "M2M Machine-to-Machine: M2M Device to Cloud (D2C) Ready Program"]].
+    *[[http://partner.m2m.telekom.com/|Deutsche Telekom AG "M2M Partner Homepage"]].
+    *[[http://marketplace.m2m.telekom.com/|Deutsche Telekom AG "M2M Marketplace Home"]].
+    *Blog [[http://blog.m2m.telekom.com|Deutsche Telekom AG Blog "All about M2M"]].
+      *[[http://blog.m2m.telekom.com/supporting-smart-ideas/|Deutsche Telekom AG Blog "All about M2M", Article "Supporting Smart Ideas"]], 2014-04-11.
+      *[[http://www.hubraum.com/|hub:raum]].
+    *[[http://m2m.telekom.com/our-offers/developers|Deutsche Telekom AG "M2M Machine-to-Machine" - M2M Offers for Developers]].
+    *[[http://developer.m2m.telekom.com/|Deutsche Telekom AG "M2M Developer Community"]] #.
+    *[[http://linkedin.com/company/deutsche-telekom-m2m|LinkedIn "Deutsche Telekom M2M"]].
+    *[[http://www.xing.com/companies/deutschetelekomm2m|XING "Deutsche Telekom M2M"]].
+    *[[http://plus.google.com/109992668904586932009/|Google+ "Deutsche Telekom M2M"]].
+    *[[http://youtube.com/user/deutschetelekomm2m|YouTube "Deutsche Telekom M2M"]].
+    *[[http://www.twitter.com/DT_M2M|Twitter "Deutsche Telekom M2M, @DT_M2M"]].
+  *[[http://www.ti.com/connectmore|Texas Instruments - Connect more]], [[http://www.ti.com/iot|Texas Instruments - Connect more "What is the Internet of Things (IoT)?"]].
+  *[[http://en.wikipedia.org/wiki/Internet_of_Things|EN.Wikipedia "Internet of Things"]], [[http://de.wikipedia.org  /wiki/Internet_der_Dinge|DE.Wikipedia "Internet der Dinge"]].
+  *[[http://de.wikipedia.org/wiki/Industrie_4.0|DE.Wikipedia "Industrie 4.0"]].
+  *[[http://en.wikipedia.org/wiki/Cyber-physical_system|EN.Wikipedia "Cyber-physical system"]], [[http://de.wikipedia.org/wiki/Cyber-physisches_System|DE.Wikipedia "Cyber-physisches System"]].
+===== Forums, Newsgroups ===== 
+  *[[http://www.linkedin.com/groups?gid=73311|LinkedIn "Internet of Things"]], [[http://www.linkedin.com/groups?gid=108418|LinkedIn "M2M and IoT (Internet of Things) Communication"]], [[https://www.linkedin.com/groups?gid=2206279|LinkedIn "Internet of Things"]].
+  *[[http://www.meetup.com/IoTHamburg/|Meetup "Hamburg Internet of Things (IoT) User Group (Hamburg)"]].
+    *[[http://www.slideshare.net/IoTAnalytics/io-t-meetup-1-2015-vslideshare-44352176|SlideShare "IoT Meetup Hamburg 3 February 2015 - Getting Hamburg set-up for the Internet of Things"]].
+  *[[http://forum.relayr.io/top|relayr Forum]].
+    *[[https://forum.relayr.io/t/installing-python-client-for-relayr-api-on-windows-8-1/415|relayr Forum "Installing Python client for Relayr API on Windows 8"]] - "The good one is: pexpect is only used in the (still very experimental) file ble.py, unrelated to the real relayr API. So if that's the only blocker for you, you can grab the source, safely remove pexpect from requirements.txt, build, install and you should be fine (without using ble.py, which should work on Linux only, anyway)".
+{{tag>"industry 4.0" "industrie 4.0" industry 4.0 industrie "internet of things" internet of things iot "cyber-physical systems" cyber-physical systems}}
+<footnote_navi_en>

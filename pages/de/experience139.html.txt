@@ -1,0 +1,170 @@
+====== [hemmerling] Entwicklung eines Prüfstandes zur Bestimmung der thermischen Übergangswiderstände an Gleichstrom-Kommuntatormotoren ======
+===== Projekt-Auftrag =====
+Agiles Projekt "Entwicklung eines Prüfstandes zur Bestimmung der thermischen Übergangswiderstände an Gleichstrom-Kommuntatormotoren": Entwickung eines Temperaturprüfstands für Elektromotoren, Konzeption ohne Realisierung ( 2006-09-26 - 2007-02-12 ).
+===== Projekt-Auftraggeber =====
+  *[[http://www.kag-hannover.de/|KAG Kählig Antriebstechnik GmbH]].
+    *Dipl.-Ing. Marco Adam.
+  *[[http://www.fh-hannover.de/|Fachhochschule Hannover]].
+    *[[http://www.fakultaet2.fh-hannover.de/personen/lehrende/greife-wolfgang-prof-dr-rer-pol-prof/|Prof. Dr. rer. pol. Wolfgang Greife]].
+    *[[http://www.fakultaet1.fh-hannover.de/personen/lehrende/landrath-joachim-prof-dr-ing-prof/|Prof. Dr.-Ing. Joachim Landrath]].
+===== Projekt-Teilnehmer =====
+Anzahl der Projektteilnehmer: 5.
+  *Scrum Master: [[http://www.xing.com/profile/Thomas_Kubiak2|Thomas Kubiak]].
+  *Product Owner: Dipl.-Ing. Marco Adam, [[http://www.kag-hannover.de/|KAG Kählig Antriebstechnik GmbH]].
+  *Weitere Projektteilnehmer: Rolf Hemmerling, [[http://www.xing.com/profile/Matthias_Mohme|Matthias Mohme]], Frederic Blanke.
+===== Projekt-Rolle / Eigene Aufgabe im Projekt =====
+  *Projektteilnehmer, verantwortlich für Elektrik / Elektronik und Software.
+===== Projekt-Aufgaben =====
+  *Entwicklung eines Prüfstandes zur Bestimmung von Übergangstemperaturen an Elektro-Gleichstrommotoren: Mechanischer und elektrischer Aufbau, Auswahl von am Markt verfügbaren auf Fertigkomponenten  ( Drehmomentmeßwelle, Leistungsbremse, Bremscontroller, Netzteil, PC-Meßdatenerfassungssystem, Standard-Messdatensoftware ).
+  *Es soll für einen mittelständischen Antriebshersteller ein Prüfstand mit 1 bis 3 Prüfplätzen entworfen werden. An jedem Prüfplatz sollen mittels einem bis zu 24 Stunden dauernden Prüfvorgang die thermischen Übergangswiderstände von verschiedenen Elektro-Gleichstrommotoren des Antriebsherstellers aufgenommen und dargestellt werden. Der thermische Übergangswiderstand ist die Temperaturdifferenz zwischen 2 Punkten am Motor, z.B. zwischen der Temperatur des Motor-Gehäuses und der Motor-Bürste. Dazu soll an jedem Prüfling an bis zu 3 Stellen die Ortstemperatur und zusätzlich einmal pro Prüfstand die Umgebungstemperatur mit PT100 Widerständen gemessen und von einem Prüfstand-Computer in einer Datei aufgezeichnet werden. Die Temperatur-Aufzeichnung  soll mit einer Abtastfrequenz von 0.1 Hz bis 10 Hz. Es sollen auch Lösungen betrachtet und diskutiert werden, die die 10 Hz Abtastfrequenz nicht bieten. Die gesamte Steuerung und Regelung des Prüfstandes und des Prüfvorgangs soll über einen Prüfstand-Computer automatisch erfolgen. 
+  *Der Wechsel des Prüflings soll manuell durch den geschultes Fachpersonal erfolgen, also durch mechnische Tätigkeiten wie Befestigung des Prüflings in der Prüflingsaufnahme, Austausch weniger Bauteile und Anschließen von elektrischen Kabeln.
+===== Eigene Tätigkeiten im Projekt =====
+  *Entwicklung eines elektrische Konzept und eines Software-Konzept.
+  *Auswahl eletrischer Komponenten und Software-Produkte.
+  *Einholen von Angeboten für elektrische Komponenten und Software.
+  *Aufwandsabschätzung für die Realisierung.
+  *Aufstellen von Anforderungen, Überprüfen der Erfüllung von Anforderungen.
+  *Kommunikation mit Lieferanten.
+===== Im Projekt eingesetzte Tools =====
+  *[[http://de.wikipedia.org/wiki/OpenOffice.org|OpenOffice]] / [[http://de.wikipedia.org/wiki/Microsoft_Office|Microsoft Office]].
+  *[[http://de.wikipedia.org/wiki/Pro/ENGINEER|Pro/ENGINEER]].
+  *[[http://de.wikipedia.org/wiki/Adobe_Acrobat|Adobe Acrobat]] Writer, mit "Adobe Acrobat 3D Toolkit".
+  *[[http://www.ni.com/labview/d/|National Instruments "Labview"]] - nur Produktauswahl, keine Softwareentwicklung.
+===== Für die Verwendung im Prüfstand in Erwägung gezogene Produkte und deren Hersteller =====
+  *[[http://www.aspowertechnologies.com/|Associated Power Technologies, Inc.]].
+
+===== Anwendung Agiler Methoden und Agilen Vorgehens im Projekt =====
+==== 1 Agiles Vorgehen ====
+Bei der Entwicklung des Elektromotor-Prüfstands gab es viele Aspekte, die zu einem agilen Vorgehen führten.
+  -Die Randbedingungen waren etwas anders als bei einem klassischen Scrum-Projekt. Daher wurde nicht ein "Daily Scrum" Treffen, sondern ein "Weekly Scrum" Treffen vereinbart.
+    -Das Projekt war so konzepiert, daß die Arbeitsbelastung für die Projektteilnehmer bei deutlich unter 20% der Gesamtarbeitsleistung lag. Die Arbeitsleitung von einem Personentag ( 8h ) wurde innerhalb einer Woche vollbracht, nicht jeden Tag.
+    -Es gab umfangreiche Kommunikation mit Lieferanten, u.a. zum Überprüfen von Anforderungen. Die daraus automatisch resultierenden Verzögerungen wirkten sich nicht auf das Projekt aus und führten insbesondere nicht zu Verzögerungen bei der Bearbeitung von Projekt-Arbeitspaketen aus, da die angesetzte Arbeitsleistung pro Woche für die Projektmitarbeiter ja gering war.
+  -Es gab einen festen Ansprechpartner im Unternehmen des Auftraggebers ( "Product Owner" ), den den Projektteam regelmäßig persönlich beim wöchentlichen Projekttreffen getroffen hat, um im Projektverlauf auftretende Fach-Fragen zu klären. Natürlich bestand auch die Möglichkeit zur E-Mail Kommunikation.
+  -Das agile Vorgehen im Projekt manifestierte sich im regelmäßigen wöchentlichen Treffen des Projektteams ( "Weekly Scrum" ), wo der Projektleiter die Projektteilnehmer aufforderte anzukündigen, was sie bis zum nächsten Projektsitzung mit dem Product Owner an Arbeitsleistung schaffen können ( Self-Commitment ).
+  -Es gab 4 Projektphasen ( Iterationen / Sprints ).
+==== 2 Sprint Phasen ====
+  -Sprint Phase ( KW39 - KW41 ) - Projektstart, Festlegung der Projekt-Ziele und Projekt-Rahmenbedingungen, Rollen-Verteilung.
+  -Sprint Phase ( KW42 - KW44 ) - Grobe Konzeption - Marktrecherche mit anschließender Auswahl mechanischer und elektrischer Komponenten.
+  -Sprint Phase ( KW45 - KW49 ) - Mechanische Konstruktion mit CAD, Konzeption von Steuerung / Regelung, Software-Auswahl, Messkarten-Auswahl. Überprüfen von Anforderungen.
+  -Sprint Phase ( KW50 - KW07 ) - Verfeinerung der Konzeption bis auf Angebots-Ebene: Einholen von Angeboten für konkrete Hardware- und Software-Produkte, Stücklistenerstellung, Erstellen der Abschlußdokumentation.
+==== 3 Backlog ====
+=== 3.1 Product Backlog / Projektstrukturplan ===
+  -Prüfkonzept.
+    -Projektbericht.
+    -Prüfablauf.
+    -Sensorauswahl.
+    -Auswahl der Belastungsmaschinen
+  -Mechanik.
+    -Prüflingsaufnahme.
+    -Belastungsmaschinen-Aufnahme.
+    -Kupplung.
+    -Prüfstandsgestell.
+    -Mechanische Endmontage und Inbetriebnahme.
+    -CAD Abbildung, Dokumentation.
+  -Elektronik.
+    -Angebote, Dokumentation.
+    -Prüfstand.
+      -Motorsteuerung mit PC.
+      -Motor-Elektronik.
+      -Messdatenaufnahme mit PC.
+      -Sensor Daten / Signal Formate.
+      -Elektrische Endmontage und Inbetriebnahme.
+      -Prüfprogramm.
+        -Motorsteuerungs-Software.
+        -Messdatenaufnahme-Software.
+     -Auswert-Programm.
+=== 3.2 Sprint 1 Backlog ===
+  -Anforderungen aufnehmen, Anforderungen verstehen.
+  -Prüfkonzept.
+  -Prüfablauf.
+  -Rollenverteilung im Projekt.
+  -Projektplanung.
+=== 3.3 Sprint 2 Backlog ===
+  -Mechanisches Konzept.
+  -Elektrisches Konzept.
+  -Sensorauswahl.
+  -Auswahl der Belastungsmaschinen
+  -Kupplung.
+  -Motor-Elektronik.
+  -Messdatenaufnahme mit PC.
+=== 3.4 Sprint 3 Backlog ===
+  -Prüflingsaufnahme.
+  -Prüfstandsgestell.
+  -Belastungsmaschinen-Aufnahme.
+  -Motorsteuerungs-Software.
+  -Messdatenaufnahme-Software.
+=== 3.5 Sprint 4 Backlog ===
+  -CAD Dokumentation.
+  -Elektronik-Angebote, Dokumentation.
+  -Projektbericht.
+  -Projektpräsentation.
+=== 3.6 Backlog für die spätere Implementierung ===
+  -Sensor Daten / Signal Formate.
+  -Auswert-Programm.
+  -Elektrische Endmontage und Inbetriebnahme.
+  -Mechanische Endmontage und Inbetriebnahme.
+==== Weekly Scrum ( statt: Daily Scrum ) ====
+  *KW39, 2006-09-26, Di - Projektmeeting, mit Product Owner: Projekt KickOff -> internes Protokoll.
+  *KW40, 2006-10-02, Mo - Weekly Scrum Meeting -> internes Protokoll.
+  *KW40, 2006-10-05, Do - Projektmeeting, mit Product Owner -> internes Protokoll, Protokoll.
+  *KW41, 2006-10-09, Mo - Weekly Scrum Meeting -> internes Protokoll.
+  *KW41, 2006-10-12, Do - Projektmeeting, mit Product Owner -> Tagesordnung, Antrag, Ergebnis-Protokoll.
+  *KW42, 2006-10-16, Mo - Weekly Scrum Meeting -> internes Protokoll.
+  *KW42, 2006-10-19, Do - Projektmeeting, mit Product Owner -> Protokoll.
+  *KW43, Kein Weekly Scrum Meetings, kein Projektmeeting. Projektpause für einen Projektteilnehmer.
+  *KW44, 2006-10-30, Mo - Weekly Scrum Meeting -> internes Protokoll.
+  *KW44, 2006-11-02, Do - Projektmeeting, mit Product Owner -> Antrag.
+  *KW45, 2006-11-06, Mo - Weekly Scrum Meeting -> internes Protokoll.
+  *KW45, 2006-11-09, Do - Projektmeeting, mit Product Owner.
+  *KW46, 2006-11-13, Mo - Weekly Scrum Meeting.
+  *KW46, Kein Projektmeeting.
+  *KW47, 2006-11-20, Mo - Weekly Scrum Meeting.
+  *KW47, 2006-11-23, Do - Projektmeeting, mit Product Owner -> Protokoll.
+  *KW48, 2006-11-27, Mo - Weekly Scrum Meeting.
+  *KW48, Kein Projektmeeting.
+  *KW49, 2006-12-04, Mo - Weekly Scrum Meeting.
+  *KW49, 2006-12-07, Do - Projektmeeting, mit Product Owner -> Antrag.
+  *KW50, Kein Weekly Scrum Meetings, kein Projektmeeting. 
+  *KW51, Kein Weekly Scrum Meetings, kein Projektmeeting. 
+  *KW52, Kein Weekly Scrum Meetings, kein Projektmeeting. 
+  *KW01, Kein Weekly Scrum Meetings, kein Projektmeeting. 
+  *KW02, Kein Weekly Scrum Meetings, kein Projektmeeting. 
+  *KW03, Kein Weekly Scrum Meetings, kein Projektmeeting. 
+  *KW04, 2007-12-18, Mi - Weekly Scrum Meeting.
+  *KW04, Kein Projektmeeting.
+  *KW05, Kein Weekly Scrum Meetings, kein Projektmeeting. 
+  *KW06, 2007-02-10, Sa - Weekly Scrum Meeting.
+  *KW06, Kein Projektmeeting.
+  *KW07, 2007-02-12, Projektmeeting: Projektpräsentation, Projektende.
+===== Eigene für das Projekt relevante Fachkenntnisse =====
+==== Zertifikate ====
+  *[[http://de.wikipedia.org/wiki/ISTQB_Certified_Tester|ISTQB Certified Tester]], Foundation Level.
+==== Fortbildungen ====
+  *2009-11-11 - Veranstaltung "LabVIEW-Tag" von [[http://www.ni.com/germany/|National Instruments]] in Hamburg, Deutschland. 
+  *2009-05-12 - Seminare "Sound & Vibration-Seminar" und "Sound & Vibration Hands-On" von [[http://www.ni.com/germany/|National Instruments]] in Bielefeld, Deutschland. 
+  *2011-03-30 - Veranstaltung "LabVIEW-Anwendertreffen" von [[http://www.ni.com/germany/|National Instruments]] in Braunschweig, Deutschland. 
+  *2009-05-07 - Veranstaltung "LabVIEW-Anwendertreffen" von [[http://www.ni.com/germany/|National Instruments]] in Braunschweig, Deutschland.
+  *2009-04-07 - Seminar "Embedded-Seminar" von [[http://www.ni.com/germany/|National Instruments]] in Hamburg, Deutschland. 
+  *2008-10-01 - Veranstaltung "Testing Days 2008" von [[http://www.compuware.de/|Compuware GmbH]], [[http://www.diazhilterscheid.de/|Díaz & Hilterscheid Unternehmensberatung GmbH]] und [[http://home.c2i.net/schaefer/|Hans Schaefer]] in Hamburg, Deutschland. 
+  *2008-06-19 - Veranstaltung "LabVIEW Anwendertreffen" von [[http://www.ni.com/germany/|National Instruments]] in Braunschweig, Deutschland. 
+  *2008-05-20 - Seminar “Thementag: Fertigungstest von Funksystemen” von [[http://www.ni.com/germany/|National Instruments]] in Hannover, Deutschland. 
+  *2008-04-29 - Seminar "Vision - Thementag" von [[http://www.ni.com/germany/|National Instruments]], [[http://www.baslerweb.com/|Basler Vision Technologies]], [[http://www.polytec.com/|Polytec GmbH]], [[http://www.ctmv.de/|CTMV Consulting Team Machine Vision]] in Braunschweig, Deutschland. 
+  *2008-04-01 - Seminar "TDM Seminar" von [[http://www.ni.com/germany/|National Instruments]] in Wolfsburg, Deutschland. 
+  *2008-02-19 - Seminar "Praxisseminar Messtechnik: Von der Aufgabenstellung zum Messsystem" von [[http://www.ni.com/germany/|National Instruments]], [[http://www.ams-soft.de/|A.M.S. Software GmbH]] und [[http://www.werum.de/|Werum Software & Systems AG]] in Hamburg, Deutschland. 
+  *2007-11-27 - Online-Konferenz "Automated Test Sumnit 07", veranstaltet von [[http://www.ni.com/germany/|National Instruments]].
+  *2007-09-18 - Seminar "Messen - aber richtig!" von [[http://www.ni.com/germany/|National Instruments]] in Hamburg, Deutschland. 
+  *2007-08-30 - Seminar "TestStand-Schnupperkurs" von [[http://www.ni.com/germany/|National Instruments]] in Braunschweig, Deutschland. 
+  *2007-06-20 - Seminar "Vision - Thementag" von [[http://www.ni.com/germany/|National Instruments]], [[http://www.baslerweb.com/|Basler Vision Technologies]], [[http://www.polytec.com/|Polytec GmbH]], [[http://www.ctmv.de/|CTMV Consulting Team Machine Vision]] in Braunschweig, Deutschland. 
+  *2007-06-14 - Seminare "Hardware-in-the-Loop - Thementag” und “Automotive - Technologietag" von [[http://www.ni.com/germany/|National Instruments]] in Wolfsburg, Deutschland. 
+  *2007-06-05 - Seminar "Strategien und Lösungen für Wireless- und Communication-Prüfsysteme" von [[http://www.ni.com/germany/|National Instruments]] in Hamburg, Deutschland. 
+  *2007-05-09 - Seminar "DIAdem-Schnupperkurs" von [[http://www.ni.com/germany/|National Instruments]] in Braunschweig, Deutschland.
+  *2007-03-14 - Seminar “Messdaten effizient verwalten und verarbeiten mit NI DIAdem” von [[http://www.ni.com/germany/|National Instruments]] in Wolfsburg, Deutschland. 
+  *2007-02-20 - Seminar "Technologie aktuell - Was bringt Windows Vista für die Mess-, Prüf- und Automatisierungstechnik?" von [[http://www.ni.com/germany/|National Instruments]] in Hamburg, Deutschland.
+  *2006-11-16 - Workshop "NI@Education on Tour in Hannover" von [[http://www.ni.com/germany/|National Instruments]] in Hannover, Deutschland. 
+  *2005-02-23 - Seminar "Neue Technologien für Datenerfassungsanwendungen" von [[http://www.ni.com/germany/|National Instruments]] in Bielefeld, Deutschland. 
+
+===== Projekt-Ergebnis =====
+  *Projektbericht, Angebot ( für alle zur Realisierung benötigten Komponenten ).
+  *Das Projekt wurde am 2007-12-20 vor Geschäftsführer [[http://www.xing.com/profile/Matthias_Kaehlig|Matthias Kählig]] und Mitarbeitern der [[http://www.kag-hannover.de/|KAG Kählig Antriebstechnik GmbH]] vorgestellt und positiv aufgenommen.
+{{tag>Arbeitserfahrung}}
+<footnote_navi_de>

@@ -1,0 +1,66 @@
+======[hemmerling] 80166 / 80C166 / 83C166 / C166 / C167 / XC167 / XE166 / ST10  Embedded Systems ======
+Related topics:
+  *[[embedded.html|Embedded Systems]].
+  *[[realtime.html|Realtime Operating Systems & Software for Embedded Systems]].
+===== Free Development Tools =====
+  -[[http://www.compilers.de/vbcc.html|Dr. Volker Barthelmann "vbcc - portable ISO C compiler"]].
+    *"Currently backends (with different degree of maturity) exist for the following architectures: 680x0, Coldfire, PowerPC, 80x86 (386 and above), Alpha, C16x/ST10, 68hc12, z-machine".
+  -The discontinued "GNU C /C++ Compiler Suite for C166", for MSDOS, Windows and Linux hosts, by [[http://www.hightec-rt.com|HighTec EDV-Systeme GmbH]]. The free "demo" version supports the "small" memory model only ( max. 64k code and data in segment 0 ).
+  -[[http://www.kpitcummins.com/|KPIT Cummins]].
+    *[[http://wayback.archive.org/web/*/http://www.kpitcummins.com/ats/semiconductor/development_infineon.htm|Archive.org "KPIT Cummins 'KPIT GNU Tools for INFINEON XC16X', 'KPIT CORONA'"]].
+    *Fill the [[http://intra.kpitcummins.com/live/kpitwebsite/infineon.asp?pagelink=infineon|Contact Form]] to download the KPIT GNU tools for Infineon XC16X, and KPIT Corona.
+  -[[http://www.rigelcorp.com/16bitsoft.htm|Rigel Corporation "16-Bit Software for the C166/ST10"]] - "Our online software with all of the help files, examples, and related text files may be used without fee by students, faculty and staff of academic institutions and by individuals for non-commercial use".
+  -[[http://margo.student.utwente.nl/el/micros/80xx/|WE-MAN! 's Electro Stuff]] by [[http://margo.student.utwente.nl/stefan/|WE-MAN / Stefan]] - "166light.zip - Hitex' simulator for the 80166".
+===== Free Operating Systems =====
+  *See also [[realtime.html|Realtime Operating Systems & Software for Embedded Systems]].
+  *The realtime operating system [[http://c167-rtos.sourceforge.net/|Sourceforge "c167-rtos"]], [[http://www.sourceforge.net/projects/c167-rtos/|Sourceforge "c167-rtos"]]. The OS requires a Linux development host.
+    *[[http://web.archive.org/web/*/http://c167-rtos.sourceforge.net/|Archive.org "Sourceforge - c167-rtos"]].
+  *[[http://erika.tuxfamily.org/erikaeducational.html|ERIKA Educational]].
+    *[[http://erika.tuxfamily.org/old_erika_website/links.html|ERIKA Links]] - "Satish Kumar, and Mitchell L. Neilsen - Kansas State University, USA - A really nice work on the implementation of Monitors for ERIKA (old ST10 version)".
+    *[[http://people.cis.ksu.edu/~sathish/thesis.htm|Satish Kumar, Mitchell L. Neilsen "Thesis on 'Kernel Implementation of Monitors for ERIKA'"]].
+    *[[http://web.archive.org/web/*/http://erika.sssup.it|Archive.org "erika.sssup.it"]] ( - 2003-02-15 ).
+===== Commercial Development Tools =====
+  *[[http://www.cosmic-software.com/c166.php|COSMIC Software GmbH "Cosmic C166 and XC166 Cross Development Tools"]], [[http://www.cosmic-software.com/st10.php|COSMIC Software GmbH "Cosmic ST10/Super10 Cross Development Tools"]].
+    *[[http://www.cosmic-software.com/download.php|COSMIC Software GmbH "Download Software"]].
+  *[[http://www.keil.com/c166/|KEIL - Tools by ARM "C166 Development Tools"]].
+    *[[http://www.keil.com/c166/demo/eval/c166.htm|C166 Evaluation Software. Development Tools for XC16x/C16x/ST10 Microcontrollers]].
+  -[[http://www.infineon.com/cms/en/product/promopages/Freetools/|Infineon "Free development tools"]].
+    *[[http://forms.tasking.com/xe166.php|GET YOUR FREE XE166 TASKING C COMPILER]].
+    *The TASKING compiler generates object files in the [[http://standards.ieee.org/findstds/standard/695-1990.html|IEEE-695]] format.
+    *[[http://www.facebook.com/pages/Debugging-data-format/144419308906412|Facebook "Debugging data format"]] - IEEE-695,....
+  *[[http://www.tasking.com/products/c166/|TASKING - Embedded software development tools from Altium "C/C++ compiler and debugger for C166 and ST10"]], [[http://www.tasking.com/products/c166-classic/|TASKING - Embedded software development tools from Altium "Classic C/C++ compiler and debugger for C166 and ST10"]].
+  *[[http://www.pls-mc.com/|PLS Development Tools/PLS Programmierbare Logik & Systeme GmbH]].
+    *[[http://www.pls-mc.com/content/view/12/123/|Universal Debug Engine - High Level Language Debugger and Emulator Tool]].
+  *[[http://www.absint.com/stackanalyzer/|AbsInt Angewandte Informatik GmbH "StackAnalyzer"]] - "StackAnalyzer for C16x/ST10 supports all 16-bit C16x/XC16x/C16x2 and ST10/Super10 microcontrollers from Infineon and ST. It reads executables in IEEE695 format (.abs) as produced by the TASKING C compiler or executables in OMF166 format as produced by the KEIL compiler".
+===== CPU Resources =====
+  *[[http://de.wikipedia.org/wiki/C166|DE.Wikipedia "C166"]], [[http://de.wikipedia.org/wiki/C167|DE.Wikipedia "C167"]], [[http://de.wikipedia.org/wiki/XC167|DE.Wikipedia "XC167"]].
+  *[[http://en.wikipedia.org/wiki/C166_family|EN.Wikipedia "C166 family"]], [[http://en.wikipedia.org/wiki/C167_family|EN.Wikipedia "C167 family"]].
+  *[[http://www.infineon.com/C166|Infineon C166]], [[http://www.infineon.com/C167|Infineon C167]].
+  *[[http://www.st.com/internet/mcu/subclass/708.jsp|STMicroelectronics "Micros and Memories / Microcontrollers / Legacy MCUs / ST10 16-bit MCUs"]].
+===== Books =====
+  *[[http://www.hitex.com/index.php?id=download-insiders-guides|Hitex Development Tools - Insider's Guides]].
+    *The free PDF "The Insider's Guide To Planning XC2200 Family Designs".
+    *The free PDF "The Insider's Guide To Planning XC16x Family Designs".
+===== Resources =====
+  *[[http://www.c167world.de/|C167 - World]] by [[http://www.tfh-bochum.de|Technische Fachhochschule Georg Agricola]].
+  *[[http://homepage.swissonline.ch/ibhdoran/sft_page.html|i b h doran "Free Software"]] - "BootC166.zip".
+  *[[http://www.eg3.com/c166.htm|eg3 "C166"]].
+  *[[http://homepages.fh-regensburg.de/~fam39454/ie_lab/literature.php|Fachhochschule Regensburg "Industrial Electronics" - literature]].
+  *[[http://www.infineon.com/cms/de/product/channel.html|Infineon "Microcontrollers / Development Tools, Software and Kits"]].
+  *[[http://www.mtm.at/infineonuClink.htm|Mess- und Stromversorgungstechnik e.U. "Infineon uC Links"]].
+  *[[http://web.archive.org/web/*/http://www.c166.nl|Archive.org "Christiaan Simons - c166.nl"]].
+    *[[http://web.archive.org/web/20070928171245/www.c166.nl/moved.html|Archive.org "Christiaan Simons, c166.nl - open source for C166 ST10]], 2008-05-05 - "mission accomplished, the c16x st10 is on the open track".   
+      *[[http://web.archive.org/web/20070107095205/www.c166.nl/snags.html|Archive.org "Christiaan Simons, c166.nl - c166/st10 snag-tracker"]].
+      *[[http://web.archive.org/web/20060715200126/www.c166.nl/c166_intr.html|Archive.org "Christiaan Simons, c166.nl - c166/st10 interrupts"]].
+      *[[http://web.archive.org/web/20070107095146/www.c166.nl/arch.html|Archive.org "Christiaan Simons, c166.nl - c16x architectural overview"]].
+      *[[http://web.archive.org/web/20070107095238/www.c166.nl/compilers.html|Archive.org "Christiaan Simons, c166.nl -     
+c16x st10 c compilers"]] #.
+      *[[http://web.archive.org/web/20070107095245/www.c166.nl/linkorama.html|Archive.org "Christiaan Simons, c166.nl - various nice c16x st10 links"]] - links to C166 resources.
+      *[[http://web.archive.org/web/20070125103023/www.c166.nl/download.html|Archive.org "Christiaan Simons, c166.nl - downloads"]].
+        *Device headers for c16x, st10 and sda600x to be used with the vbcc C compiler. A patch for streamlining the vbcc+vasm+vlink i386 *BSD build is included.
+        *cs8900 lwIP ethernet driver for the Infineon c16x micro-controller family.
+  *[[http://www.eeglossary.com/c166.htm|Luis Viterbo - EEGlossary "c166"]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Hardware/Mikrocontroller/|OpenDirectory "Top: World: Deutsch: Computer: Hardware: Mikrocontroller"]].
+{{tag>80166 80C166 83C166 C166 C167 XC167 XE166 ST10 "embedded systems"}}
+<footnote_navi_en>

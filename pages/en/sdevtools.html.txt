@@ -1,0 +1,350 @@
+====== [hemmerling] Software Development Tools ======
+Related Topics:
+  *[[ci.html|Continuous Integration ( CI ) & Continous Delivery ( CD )]].
+  *[[groupware.html|Team Software, Collaboration Software, Groupware & Application Lifecycle Management]].
+===== Platform Strategies =====
+==== Apple, since 2007 ====
+  *Operating system: MacOS, Apple iOS.
+  *Development IDE: Xcode.
+  *Marketplace: Apple iTunes - App Store.
+==== Google, since 2008 ====
+  *Operating system: [[http://www.android.com/|Android]].
+  *Development IDE: [[http://www.eclipse.org/|Eclipse]], development toolchain: [[http://developer.android.com/|Android SDK]].
+  *Marketplace: [[https://market.android.com/|Android Market]].
+==== Microsoft ====
+  *Operating system: [[http://www.windows.de/|Windows]] 8, first version of Windows with full operating system support of multicore CPUs.
+  *Development tool & development IDE: [[http://www.microsoft.com/lightswitch|Visual Studio LightSwitch]].
+  *Marketplace: [[http://create.msdn.com/|Microsoft "App Hub"]] for Windows 7 Phone & XBOX360, for Windows 8.
+===== Eclipse IDE =====
+==== Tools ====
+  *[[http://www.eclipse.org/|Eclipse]].
+  *[[http://wiki.eclipse.org/|Eclipse Wiki]].
+  *[[http://www.eclipse.org/archived/|Eclipse "Archived Eclipse Projects"]].
+  *[[http://www.eclipse.org/downloads/packages/eclipse-modeling-tools-includes-incubating-components/heliosr|Eclipse "Eclipse Modeling Tools", Feature List]].
+  *[[http://www.eclipse.org/modeling/|Eclipse Modeling Project]].
+  *Modeling.
+    *Modeling[[http://www.eclipse.org/modeling/emf/|Eclipse "Eclipse Modeling Framework Project (EMF)"]].
+    *[[http://www.eclipse.org/graphiti/|Eclipse "Graphiti - a graphical tool development framework"]], suggested by SAP, a competitor of Eclipse GMF.
+      *[[http://www.heise.de/open/meldung/SAP-schlaegt-weiteres-Eclipse-Projekt-vor-903287.html|heise OpenSource "SAP schlägt weiteres Eclipse-Projekt vor"]].
+  *[[http://eclipse-plugins.info/|Eclipse Plugins]] - "hi! Find your plugin for Eclipse here".
+    *[[http://eclipse-plugins.info/eclipse/plugins.jsp?category=UML|Eclipse Plugins "Plugins in UML"]].
+  *[[http://www.improve-technologies.com/|improve-technologies.com]] - "Portail sur Java/J2EE, services web, XML et informatique mobile" -> Eclipse plugins.
+  *"Eclipse 3" -> "Eclipse 4": Warning, all "Eclipse 3" compatible plugins might have to be modified to run with "Eclipse 4".
+  *[[http://wiki.eclipse.org/Eclipse/Installation|Eclipsepedia "Eclipse/Installation"]] -> "Eclipse Kepler 4.3" of 2013-06 is the latest edition for W2k: "A Java 6 JRE/JDK is recommended for Eclipse 4.3". 
+  *[[http://www.eclipse.org/org/workinggroups/|Eclipse Working Groups]].
+    *[[http://wiki.eclipse.org/Auto_IWG|Eclipse Working Group "Auto IWG. Open Source Initiative for Automotive Software Development Tools"]].
+    *[[http://iot.eclipse.org/|Eclipse Working Group "iot.eclipse.org - IoT development made simple"]] - "This portal is where you can learn about the technologies developed at Eclipse to make Internet of Things (IoT) development simpler. Our technologies aim at establishing an open IoT/M2M platform to be used by anyone".
+==== Services ====
+  *[[http://www.eclipsesource.com/en/yoxos/|EclipseSource]].
+    *[[http://www.eclipsesource.com/en/yoxos/|EclipseSource Yoxos]] for Windows and Linux - "Eclipse Management for Professionals".
+    *[[http://market.eclipsesource.com/yoxos/|EclipseSource Yoxos Market]] - "Discover and install plug-ins now".
+  *[[http://profile.yatta.de/|Yatta Solutions GmbH "Eclipse Profiles"]].
+==== Keyboard Shortcuts ====
+  *[[http://eclipse-tools.sourceforge.net/shortcuts.html|SourceForge "Eclipse-Tools" - "Eclipse Keyboard Shortcuts"]].
+  *[[http://www.shortcutworld.com/en/win/Eclipse.html|Shortcutworld - A wiki-style reference database for keyboard shortcuts "Eclipse Shortcuts  "]].
+  *Press "CTRL" and "1" concurrently, to open the refactoring menu :-).
+  *Press "CTRL" and "L" concurrently, to open the command menu :-).
+  *Press "CTRL" and "Space" concurrently, to activate auto-completion :-).
+==== Code Completion for Java in Eclipse =====
+  *[[http://www.codetrails.com/|Codetrails]] - "Crowd Recommendation Tools".
+    *[[http://www.codetrails.com/crowd-recommendation-tools/getting-started|Codetrails "Getting started with Codetrails’ Crowd Recommendation Tools for Eclipse"]].
+    *[[http://www.codetrails.com/products|Codetrails "[ctrl]flow"]].
+==== Installer and Updater for Eclipse Development Environments =====
+  *[[http://wiki.eclipse.org/Eclipse_Oomph_Installer|Eclipse Wiki "Eclipse Oomph Installer"]].
+  *[[http://git.eclipse.org/c/oomph/|Eclipse Git repositories "oomph"]].
+  *[[http://www.github.com/nittka/oomph-playground|GitHub "nittka/oomph-playground"]] - "oomph installer product and project redirect example".
+==== Resources ====
+  *I was told by experts: Eclipse is shipped with an "internal" modified Java Runtime. In opposite legacy Borland JBuilder and legacy Borland Together are in need of an external Java runtime.
+  *I.e. Eclipse does not really require an JDK installed! By this, Eclipse may accomplish the incremental compiling features.
+  *[[http://www.admin-wissen.de/?id=212|admin-wissen.de "Eclipse Workshop - Übersicht"]].
+  *[[http://www.eclipse.org/equinox/p2/|Eclipse "Equinox p2"]], [[http://help.eclipse.org/luna/index.jsp?topic=%2Forg.eclipse.platform.doc.isv%2Fguide%2Fp2_overview.htm|Eclipse Help "Provisioning platform (p2)"]] - I was told by experts that a standard full-blown Eclipse dowload provides a P2 repository, i.e. a directory in the file system, by which you might provide packages for installation, to other slim Eclipse installations.
+  *[[http://www.cs.utexas.edu/~scottm/cs307/handouts/Eclipse%20Help/EclipseIntroduction.html|Computer Science Department The University of Texas at Austin "Basic Eclipse User Guide"]].
+
+===== Microsoft Visual Studio IDE =====
+==== Microsoft Visual Studio IDE, Free Editions ====
+  *[[http://en.wikipedia.org/wiki/Microsoft_Visual_Studio|EN.Wikipedia "Microsoft Visual Studio"]], [[http://de.wikipedia.org/wiki/Microsoft_Visual_Studio|EN.Wikipedia "Microsoft Visual Studio"]].
+    *"Visual Basic 2005 Express", "Visual C# 2005 Express", "Visual C++ 2005 Express", "Visual Web Developer 2005 Express", "Visual J# 2005 Express".
+      *[[http://www.microsoft.com/download/en/details.aspx?displaylang=en&id=23072|Microsoft Download Center "Visual Studio 2005 extensions for .NET Framework 3.0 (Windows Workflow Foundation)"]].
+    *[[http://www.microsoft.com/express/Downloads/|Microsoft Express Downloads - Visual Studio Express and SQL Server Express]].
+      *"All - Offline Install ISO image file" - This download contains an offline installer for "Visual Basic 2008 Express", "Visual C# 2008 Express", "Visual C++ 2008 Express", "Visual Web Developer 2008 Express", "MSDN Express Library".
+      *"All - Offline Install ISO image file" - This download contains an offline installer for "Visual Basic 2010 Express", "Visual C# 2010 Express", "Visual C++ 2010 Express", "Visual Web Developer 2010 Express".
+      *"Visual Studio Express 2012 for Web", "Visual Studio Express 2012 for Windows 8" ( to create Windows Store Apps ), "Visual Studio Express 2012 for Windows Desktop" ( C#, C++, VB.NET for Win32, WinForms, WCF,..), "Visual Studio Team Foundation Server 2012 Express".
+      *"Visual Studio Express 2013 for Web", "Visual Studio Express 2013 for Windows" ( to create Windows Store Apps ), "Visual Studio Express 2013 for Windows Desktop" ( C#, C++, VB.NET for Win32, WinForms, WCF,..), "Visual Studio Team Foundation Server 2013 Express".
+      *[[http://visualstudiogallery.msdn.microsoft.com/d0d33361-18e2-46c0-8ff2-4adea1e34fef/|Microsoft Visual Studio "Productivity Power Tools"]] for Visual Studio 2010.
+  *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=04704acf-a63a-4f97-952c-8b51b34b00ce|Microsoft Download Center "Windows Phone Developer Tools RTW"]] - offline installer.
+  *[[http://www.microsoft.com/express/support/regins/|Visual Studio 2010 Express - Product Registration
+ - Offline Registration]].
+  *XNA Game Studio.
+    *[[http://en.wikipedia.org/wiki/Microsoft_XNA|EN.Wikipedia "Microsoft XNA"]], [[http://de.wikipedia.org/wiki/XNA_%28Microsoft%29|DE.Wikipedia "XNA (Microsoft)"]].
+    *[[http://msdn.microsoft.com/xna/|Microsoft "XNA Developer Center"]].
+    *[[http://create.msdn.com/resources/downloads|AppHub Downloads]] - "XNA Game Studio".
+  *The free [[http://www.microsoft.com/robotics/|Microsoft Robotics Developer Studio]] 2008 R3, for Win XP.
+    *[[http://msdn.microsoft.com/de-de/robotics/|Microsoft Robotics Studio Developer Center]].
+    *[[http://www.microsoft.com/downloads/en/details.aspx?displaylang=en&FamilyID=c185a802-5bbe-4f28-b448-aefe63a7eff7|Microsoft Download Center "Microsoft Robotics Developer Studio 2008 R3"]].
+    *[[http://msdn.microsoft.com/en-us/library/bb881626.aspx|Microsoft MSDN Library "Microsoft Robotics"]].
+==== Visual Studio Code ====
+=== The Tool ===
+  *The free IDE [[http://code.visualstudio.com//|Visual Studio Code]] for Windows, Linux 64-bit, MacOSX.
+  *The Windows edition is for 32-bit too, but the installation crashes on my Athlon XP-2400 with the error message "APPCRASH" :-(.
+=== Resources ===
+  *[[http://www.heise.de/developer/meldung/Build-2015-Microsoft-stellt-Visual-Studio-fuer-OS-X-und-Linux-vor-2629280.html|heise Developer "Build 2015: Microsoft stellt Visual Studio für OS X und Linux vor"]], 2015-04-29.
+==== Visual Studio Shell (Isolated) & Visual Studio Shell (Integrated) ====
+  *[[http://www.microsoft.com/downloads/de-de/details.aspx?displaylang=de&FamilyID=dfba7ac4-5366-456e-abd6-0e3e6ba83b7c|Microsoft Download Center "Microsoft Visual Studio 2010 Shell (isoliert) Redistributable Package"]].
+  *[[http://www.microsoft.com/downloads/de-de/details.aspx?FamilyID=8e5aa7b6-8436-43f0-b778-00c3bca733d3|Microsoft Download Center "Microsoft Visual Studio 2010 Shell (integriert) Redistributable Package"]].
+  *[[http://msdn.microsoft.com/en-us/library/bb166441.aspx|Microsoft MSDN Library "Visual Studio Software Development Kit (SDK)"]].
+    *[[http://msdn.microsoft.com/en-us/library/bb165336.aspx|Microsoft MSDN Library "Visual Studio Integration SDK"]].
+  *[[http://msdn.microsoft.com/en-gb/vstudio/|Microsoft MSDN - Microsoft Visual Studio]].
+    *[[http://msdn.microsoft.com/en-gb/vstudio/ff718165.aspx|Microsoft MSDN - Microsoft Visual Studio "Extending Visual Studio"]] - The "VSX Developer Center".
+  *Blog [[http://blogs.msdn.com/b/visualstudio/|Microsoft MSDN Blog "The Visual Studio Blog"]].
+    *[[http://blogs.msdn.com/b/visualstudio/rss.aspx?Tags=extensibility|Microsoft MSDN Blog "The Visual Studio Blog : extensibility"]].
+  *[[http://en.wikipedia.org/wiki/Visual_Studio_Extensibility|EN.Wikipedia "Visual Studio Extensibility"]].
+==== Microsoft Visual Studio IDE, Commercial Editions ====
+  *The commercial [[http://www.microsoft.com/lightswitch|Microsoft Visual Studio LightSwitch]], [[http://www.microsoft.com/germany/lightswitch/|Microsoft Visual Studio LightSwitch]].
+    *[[http://code.msdn.microsoft.com/lightswitch/|MSDN "Visual Studio LightSwitch Samples"]].
+    *The free [[http://visualstudiogallery.msdn.microsoft.com/0dfaa2eb-3951-49e7-ade7-b9343761e1d2|MSDN - Microsoft Visual Studio "Visual Studio LightSwitch 2011 Extensibility Toolkit"]].
+  *[[http://en.wikipedia.org/wiki/Team_Foundation_Server|EN.Wikipedia "Team Foundation Server"]].
+  *Eclipse plugin "Team Explorer Everywhere".
+    *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=4449babd-1dc8-40e3-9e27-2b743a4a173c&displaylang=en|Microsoft Download Center "Microsoft Visual Studio Team Explorer Everywhere 2010 SP1 Beta 1"]] - "Eclipse plug-in and cross-platform command-line client for Visual Studio 2010 Team Foundation Server".
+    *[[http://blogs.msdn.com/b/vsnewsde/archive/2010/11/03/visual-studio-eclipse-plugin-team-explorer-everywhere-2010-servicepack-als-vorabversion-verf-252-gbar.aspx|MSDN Visual Studio News-Blog "Visual Studio-Eclipse-PlugIn Team Explorer Everywhere 2010 ServicePack als Vorabversion verfügbar"]].
+==== Resources ====
+  *[[http://blogs.msdn.com/b/visualstudio/archive/2012/06/08/visual-studio-express-2012-for-windows-desktop.aspx|Microsoft MSDN -  The Visual Studio Blog "Visual Studio Express 2012 for Windows Desktop"]], 2012-06-08 - "With this new Express edition, developers will be able to use C++, C#, or Visual Basic to create Windows desktop and console applications.  Developers will also get access to new advances available across the Express family in Visual Studio 2012, such as the latest compilers and programming language tools, **integrated unit testing**, and the ability for small development teams to collaborate via Team Explorer and TFS Express".
+  *[[http://msdn.microsoft.com/vstudio/|MSDN "Visual Studio Developer Center"]].
+  *[[http://msdn.microsoft.com/aa570323(en-us).aspx|MSDN Virtual Labs]].
+  *[[http://www.blackwasp.co.uk/TurnOnLineNumbering.aspx|Black Wasp: "Turn On Visual Studio 2005 Line Numbering"]].
+  *Christian Binder.
+    *Blog [[http://blogs.msdn.com/b/cbinder/|Christian Binder, MSDN "Mission ALM = Blindleistung | reduzieren"]].
+==== The Microsoft Development Process - Typical Error Messages, Problems and its Workarounds and Solutions ====
+=== A debugger dll, msdbg2.dll, is not correctly installed ===
+  *After fresh installation of Visual STudio 2005 Professional on W2k, when trying to run a **Visual C/C++ Win32 console application** by "Debug / Start Debugging", the application does not start, but there was the error message
+<HTML><I>Unabable to start program "c:\users\public\test.exe"<BR>
+A debugger dll, msdbg2.dll, is not correctly installed. Plese repair your Visual Studio installation via  "Add or Remove Programs in control panel. If the problem persists, you can manually register msdbg2.dll from commandpromt with 'regsvr32 "%CommonProgramFiles%\Microsoft Shared\VS7Debug\msdbg.dll"'</I></HTML>
+  ***regsvr32 "%CommonProgramFiles%\Microsoft Shared\VS7Debug\msdbg.dll"**
+    *fails, as the directory "VS7Debug\" does not exist, while
+  ***regsvr32 "C:\WINNT\system32\msdbg.dll"**
+    *succeeds, but does not solve the problem. 
+  *"msdbg2.dll" does not exist!
+
+===== Some other IDEs =====
+==== #develop ( SharpDevelop ) ====
+  *The OpenSource [[http://www.icsharpcode.net/|#develop ( SharpDevelop )]], [[http://sharpdevelop.sourceforge.net/|Sourceforge "SharpDevelop"]], [[http://www.sourceforge.net/projects/sharpdevelop/|Sourceforge "SharpDevelop"]].
+    *SharpDevelop 2.2 is the latest edition for W2k with .NET 2.0.
+==== Anjuta DevStudio ====
+  *[[http://anjuta.sourceforge.net/|SourceForge "Anjuta DevStudio"]], [[http://www.sourceforge.net/projects/anjuta|SourceForge "Anjuta DevStudio"]], for GNOME.
+  *[[http://en.wikipedia.org/wiki/Anjuta|EN.Wikipedia "Anjuta DevStudio"]], [[http://de.wikipedia.org/wiki/Anjuta|DE.Wikipedia "Anjuta DevStudio"]].
+==== Aptana Studio 3 ====
+  *The OpenSource IDE [[http://aptana.com/products/studio3|Aptana Studio 3]] for Linux, Windows, MacOSX.
+  *[[http://en.wikipedia.org/wiki/Aptana|EN.Wikipedia "Aptana"]].
+==== Code::Blocks ====
+  *[[http://www.codeblocks.org/|Code::Blocks]] for Windows, Linux and MacOSX - "The open source, cross platform, free C++ IDE".
+==== IDEs specially suitable for Borland C/C++ 5.5 ====
+  *Codecutter.net.
+    *The free IDE [[http://www.codecutter.net/tools/bcc55tools/Bcc55JFE.htm|Codecutter.net "Bcc55-JFE"]] - "A Simple IDE for the Borland C++ 5.5 Free Command Line Tools".
+    *The free IDE [[http://www.codecutter.net/tools/quincy/|Codecutter.net "Quincy 2005. A Simple IDE for C/C++"]].
+  *The free IDE [[http://www.lusa.de/software/smallide.htm|Jörg Hauschild "SmallIDE"]] - "...development tool for beginners. SmallIDE is made to easy use the free Borland C/C++ Compiler".
+  *The free IDE [[http://wayback.archive.org/web/*/http://www.willeboordse.demon.nl/|Archive.org "Okko Willeboordse Software - Mini-Ide 1.3 build 125]] - "GUI Shell for Borland C++ Compiler" ( - 2004-01-31 ).
+  *The free IDE "Spetnik's C++ Compiler Shell".
+    *Download [[http://download.cnet.com/Spetnik-s-C-Compiler-Shell/3000-2069_4-10045052.html|cnet "Spetnik's C++ Compiler Shell"]].
+  *The free IDE [[http://wayback.archive.org/web/*/http://www.objectcentral.com/vide.htm|Archive.org "VIDE - The V IDE for GNU g++ and Java"]] - Also for Borland C++. The software is shipped with a stand-alone version of WeditRes, the Windows Resource Editor.
+==== C# Studio ====
+  *The OpenSource IDE [[http://csharp-studio.sourceforge.net/|SourceForge "C# Studio"]], [[http://www.sourceforge.net/projects/csharp-studio|SourceForge "C# Studio"]] - "An IDE for Mono/C#/Gtk#".
+==== DevAssistant ====
+  *The OpenSource IDE [[http://www.devassistant.org/|DevAssistant]], [[http://www.github.com/devassistant|GitHub "DevAssistant"]].
+    *"DevAssistant supports many popular language choices, including C, C++, Java, Perl, PHP, Python and Ruby on Rails".
+    *"You can add support for other languages or frameworks by adding a YAML-formatted script".
+  *[[http://www.twitter.com/Dev_Assistant|Twitter " DevAssistant @Dev_Assistant"]].
+==== KDevelop ====
+  *[[http://www.kdevelop.org/|KDevelop]] for Linux, Windows.
+  *[[http://en.wikipedia.org/wiki/KDevelop|EN.Wikipedia "KDevelop"]], [[http://de.wikipedia.org/wiki/KDevelop|DE.Wikipedia "KDevelop"]].
+==== Netbeans ====
+  *See [[java.html|Java & Java Platform Languages]].
+==== MyGeneration ====
+  *The OpenSource IDE [[http://www.mygenerationsoftware.com/|MyGeneration]],  [[http://mygeneration.sourceforge.net/|Sourceforge "MyGeneration"]], [[http://www.sourceforge.net/projects/mygeneration/|Sourceforge "MyGeneration"]] for .NET.
+==== RHIDE ====
+    *The OpenSource IDE [[http://www.rhide.com/|RHIDE]], [[http://rhide.sourceforge.net/|SourceForge "RHIDE"]], [[http://www.sourceforge.net/projects/rhide/|SourceForge "RHIDE"]] for MSDOS & Linux - "An IDE for DJGPP and other GNU based systems".
+==== Resources ====
+  *[[http://www.linuxmafia.com/faq/Devtools/ides.html|Rick Moen, Linuxmafia.com "Integrated Development Environments / RAD tools / GUI-builders on Linux"]].
+  *IDE List of [[http://www.vdcresearch.com/|VDC research]], of 2012: µVision (Keil, An ARM Company), Arriba (Viosoft), AVR Studio (Atmel),Blocks (open source), Code Composer Studio (Texas Instruments), CodeWarrior (Freescale), Cosmic IDEA (Cosmic Software), Delphi IDE (CodeGear/Borland/Embarcadero), DevRocket (MontaVista Software), Eclipse Platform SDK (open source), Edge IDE (Mentor Graphics), Embedded Workbench (IAR), GCC/GDB (open source), GNAT/SPARK Pro (AdaCore Technologies), HEW (Renesas), kdevelop (open source), MULTI (Green Hills), Momentics (QNX), MPLAB (Microchip), MIPS ICS/SDE (MIPS),	ObjectAda/PERC (Atego/Aonix), PSOC Designer (Cypress Semiconductor), Quartus (Altera), DS-5/RVDS (ARM), Red Hat Application Developer/JBoss Developer Studio (Red Hat), RIDE (Raisonance), Ruby on Rails (open source), 	Silicon Laboratories/Cygnal IDE (Silicon Laboratories), SourceryG++ GNU Toolchain (CodeSourcery), Tasking (Altium), TimeStorm (TimeSys), TRACE32 (Lauterbach), Visual Studio/Visual C++/Platform Builder/Embedded Studio/Windows SDK (Microsoft), VisualDSP++ (Analog Devices), Workbench (Wind River), Xilinx SDK/EDK (Xilinx), Zilog Developer Studio (Zilog).
+===== Class Browsers =====
+==== Tools ====
+  *The OpenSource [[http://sourcenav.sourceforge.net/|SourceForge "The Source-Navigator IDE"]], [[http://www.sourceforge.net/projects/sourcenav|SourceForge "Source-Navigator"]] - "A source code analysis tool. With it, you canedit your source code, display relationships between classes and functions and members, and display call trees".
+    *[[http://www.redhat.com/about/news/prarchive/2000/press_commitment.html|Red Hat "Red Hat Reinforces Commitment to Open Source, Releases Source Code for Popular Source-Navigator IDE]], 2000-07-20.
+    *[[http://developer.berlios.de/projects/sourcenav|berliOS Developer "Project: Source Navigator NG"]], [[http://sourcenav.berlios.de/|berliS Developer ":: source navigator"]].
+  *The commercial [[http://www.scitools.com/|Scientific Toolworks, Inc. "Understand - Source Code Analysis & Metrics"]] for Windows and Linux - "A static analysis tool for maintaining, measuring, & analyzing critical or large code bases" - "Download includes fully functional two-week evaluation license".
+    *[[http://www.scitools.com/features/supportLanguages.php|Scientific Toolworks, Inc. "Supported Languages"]].
+    *The video [[http://www.scitools.com/videos/gettingStarted/gettingStarted_controller.swf?utm_source=newsletter_scitools_com&utm_medium=email&utm_content=Initial+Check-in+for+Understand+Evaluation&utm_campaign=1st+Checkin&utm_term=Getting+Started+Video|Scientific Toolworks, Inc. "Getting Started Video"]].
+  *The commercial [[http://www.sourceinsight.com/|Source Insight]] for Windows - It can handle C/C++, C# and Java sources. A 30 days trial edition is available.
+==== Resources ====
+  *[[http://en.wikipedia.org/wiki/Class_browser|EN.Wikipedia "Class browser"]], [[http://de.wikipedia.org/wiki/Klassenbrowser|DE.Wikipedia "Klassenbrowser"]].
+===== Debuggers =====
+==== Visual Studio  ====
+=== IntelliTrace of Visual Studio 2010 Ultimate only ( and later )====
+    *[[http://msdn.microsoft.com/de-de/library/dd264915.aspx|Microsoft MSDN Library "Debugging with IntelliTrace"]].
+=== The Remote Debugger of Visual Studio Professional ====
+  *How to get it:
+    *The Visual Studio installation CDs / DVDs / ISO images contain a directory called Remote Debugger, which has two folders ( x64 and x86 ) that contain the setup application for the specific platform.
+    *[[http://www.microsoft.com/en-us/download/details.aspx?id=10647|Microsoft Download Center "Visual Studio 2008 Service Pack 1 Remote Debugger"]].
+    *The Visual Studio Remote Debugger is not available with the free Express and the commercila Standard editions of Visual Studio :-(.
+  *[[http://msdn.microsoft.com/en-us/library/y7f5zaaa|Microsoft MSDN "Remote Debugging Setup"]] for VS2003.. VS2012 #.
+  *[[http://www.codewut.de/content/visual-studio-and-remote-debugging-easy-way|Codewut Because Software Matters
+ "Visual Studio and Remote Debugging: The easy way"]].
+  *[[http://www.codeproject.com/Articles/146838/Remote-debugging-with-Visual-Studio-2010|The Code Project "Sebastian Solnica: Remote debugging with Visual Studio 2010"]].
+  *[[http://www.techrepublic.com/blog/programming-and-development/remote-debugging-with-visual-studio-2008/675|TechRepublic "Tony Patton: Remote debugging with Visual Studio 2008"]].
+==== Free Tools ====
+  *[[http://www.viksoe.dk/code/bvrde.htm|Bjarke Viksoe, viksoe.dk "BVRDE"]] - "A fully integrated development environment for remote cross-platform compiling and debugging of UNIX and LINUX terminal applications".
+  *[[http://www.gnu.org/s/gdb/|GDB: The GNU Project Debugger]].
+    *The OpenSource [[http://www.gnu.org/software/ddd/|DDD - Data Display Debugger]].
+    *The OpenSource [[http://sources.redhat.com/insight/|RedHat Insight - The GDB GUI]].
+
+==== Resources ====
+  *[[http://www.codeguru.com/|Codeguru]] - "The number one developer site!".
+    *[[http://www.codeguru.com/Cpp/V-S/debug/article.php/c1249/|Codeguru "Write debug output to console window"]].
+    *[[http://www.codeguru.com/Cpp/W-D/console/|Codeguru "Console"]].
+    *[[http://www.codeguru.com/Cpp/misc/misc/article.php/c321/|Codeguru "Redirecting Standard Output to a CEdit Control"]].
+    *[[http://www.codeguru.com/Csharp/Csharp/cs_misc/article.php/c4247/|Codeguru "Redirecting Standard Output to a CEdit Control"]].
+    *[[http://www.codeguru.com/Csharp/Csharp/cs_misc/article.php/c4247/|Codeguru "TraceView'-A Debug View Utility"]].
+  *[[http://msdn.microsoft.com/en-us/library/Aa242171|MSDN Library "DbMon: Implements a Debug Monitor"]].
+  *[[http://www.google.com/search?q=compuware+driverstudio|Google: "compuware+driverstudio"]].
+  *[[http://wayback.archive.org/web/*/http://www.compuware.com/pressroom/news/2004/2978_ENG_HTML.htm|Archive.org "Compuware Enhances Device Driver Development Suite"]] ( - 2007-10-17 ).
+  *[[http://www.google.com/search?q=w32dasm|Google "w32dasm"]].
+===== Installers =====
+Attention, many Installer projects are "not under active development anymore" since many years! So please check the date of the last release!
+==== Free Installers for MSDOS ====
+  *The OpenSource [[http://dosconf.sourceforge.net/|Sourceforge "DOSConf"]], [[http://www.sourceforge.net/projects/dosconf/|Sourceforge "DOSConf"]] for MSDOS.
+==== Free and commercial Installers for Windows ====
+  *The free [[http://www.bloodshed.net/quickins.html|Bloodshed Software "QuickInstall"]] for Windows.
+  *The free [[http://www.jeffc.org/projects/oldstuff/|Jeffrey Carlyle "StratoSetup"]] for Windows.
+  *The free [[http://www.clickteam.com/website/world/install-creator|Clickteam "Install Creator, freeware version"]] for Windows - "Each installer will contain an advertisement page for Clickteam when the installation is complete, with a button to connect to our web site".
+  *The free [[http://www.ethalone.com/download.html|Ethalone Solutions "Ghost Installer Free Edition"]] 4.8 of 2009-11-19 for Windows.
+    *[[http://www.ethalone.com/articles/62-the-installers-competition.html|Ethalone Solutions "The Installers competition"]] - comparison of Ghost Installer, Wise and InstallShield.
+    *As of 2015-03, the current free edition is still "Ghost Installer Free Edition 4.8".
+    *You need a free XML editor for editing the Ghost data files.
+  *The commercial [[http://www.flexerasoftware.com/products/installshield.htm|Flexera Software, Inc. "InstallShield"]].
+    *[[http://en.wikipedia.org/wiki/InstallShield|EN.Wikipedia "InstallShield"]], [[http://de.wikipedia.org/wiki/InstallShield|DE.Wikipedia "InstallShield"]].
+  *The free [[http://www.freebyte.com/hjinstall/|HJ-Install]] for Windows.
+  *The free [[http://www.installaware.com/|Installaware Free Edition]] - "The Freeware, .. editions are all contained inside the same free download. You choose the InstallAware edition ( e.g. 'Free Edition' ) to install directly in the setup wizard".
+  *The OpenSource [[http://izfree.sourceforge.net/|Sourceforge "izfree 1.1"]], [[http://www.sourceforge.net/projects/izfree/|Sourceforge "izfree Tools for Windows Installer"]] for Windows.
+  *The OpenSource [[http://www.chimpswithkeyboards.com/|Chimps with Keyboards]], [[http://chimpinstall.sourceforge.net/|Sourceforge "NInstall"]], [[http://www.sourceforge.net/projects/chimpinstall/|Sourceforge "NInstall"]] for Windows.
+  *The free [[http://www.jrsoftware.org/|jrsoftware.org - Jordan Russell's Software "Inno Setup"]] for Windows.
+  *[[http://rubyinstaller.org/|Rubyinstaller]], [[http://rubyinstaller.rubyforge.org/|RubyForge "Rubyinstaller"]] for Windows, making use of 'Ruby' / 'Ruby on Rails'.
+  *The OpenSource [[http://spoon-installer.sourceforge.net/|Sourceforge "Spoon Installer"]], [[http://www.sourceforge.net/projects/spoon-installer/|Sourceforge "Spoon Installer"]] for Windows.
+  *Windows Installer.
+    *The OpenSource [[http://wix.sourceforge.net/|Sourceforge "Windows Installer XML (WiX) toolset"]], [[http://www.sourceforge.net/projects/wix/|Sourceforge "Windows Installer XML (WiX) toolset"]], [[http://wix.codeplex.com/releases/view/60102|CodePlex "WiX Toolset"]] for "Microsoft Installer", on Windows.
+    *[[http://msdn.microsoft.com/en-us/library/Aa367449|MSDN Library "About Windows Installer"]].
+==== Free Installers for Linux ====
+  *The OpenSource [[http://ninstaller.sourceforge.net/|NoodleInstaller]], [[http://www.sourceforge.net/projects/ninstaller/|NoodleInstaller]].
+  *The OpenSource [[http://paco.sourceforge.net/|paco - a source code pacKAGE oRGANIZER for Unix/Linux]], [[http://www.sourceforge.net/projects/paco/|pacKAGE oRGANIZER]].
+==== Free and commercial Installers for Java ====
+  *The commercial [[http://www.ej-technologies.com/products/install4j/overview.html|install4j]] - "A powerful multi-platform Java installer builder that generates native installers and application launchers for Java applications".
+  *The OpenSource [[http://installguru.sourceforge.net/|Sourceforge "InstallGuru"]], [[http://www.sourceforge.net/projects/installguru/|Sourceforge "InstallGuru"]].
+  *The OpenSource [[http://launch4j.sourceforge.net/|Sourceforge "Launch4j - Cross-platform Java executable wrapper"]], [[http://www.sourceforge.net/projects/launch4j/|Sourceforge "Launch4j Executable Wrapper"]] - "Cross-platform Java executable wrapper for creating lightweight Windows native EXEs".
+  *The OpenSource [[http://liftoff.sourceforge.net/|Sourceforge "Lift-Off Java-Installer"]], [[http://www.sourceforge.net/projects/liftoff/|Sourceforge "Lift-Off Java-Installer"]].
+  *The OpenSource [[http://packlet.sourceforge.net/|Sourceforge "Packlet installer tool"]], [[http://www.sourceforge.net/projects/packlet/|Sourceforge "Packlet"]].
+==== Free Multi Platform Installers ====
+  *The OpenSource [[http://nsis.sourceforge.net/|Sourceforge "NSIS (Nullsoft Scriptable Install System)"]], [[http://www.sourceforge.net/projects/nsis/|Sourceforge "NSIS (Nullsoft Scriptable Install System)"]].
+    *[[http://en.wikipedia.org/wiki/Nullsoft_Scriptable_Install_System|EN.Wikipedia "Nullsoft Scriptable Install System"]], [[http://de.wikipedia.org/wiki/Nullsoft_Scriptable_Install_System|DE.Wikipedia "Nullsoft Scriptable Install System"]] ( NSIS ).
+  *The OpenSource [[http://www.installjammer.com/|InstallJammer]]( formerly: [[http://installbase.sourceforge.net/|Sourceforge "InstallBase MPI"]], [[http://www.sourceforge.net/projects/installbase/|Sourceforge "InstallBase"]] ), making use of Tcl/Tk.
+==== RunTime Packer ====
+  *The commercial [[http://www.boxedapp.com/|BoxedApp]].
+  *The commercial [[http://www.file-joiner.com/|File Joiner]].
+  *The commercial [[http://www.adontec.com/index.htm?GO=/runtimepacker_e.htm|Adontec Data Communication Company "RuntimePacker"]].
+
+==== Helper Tools ====
+  *The free Orca Tool – A MSI Creator and Package Viewer, for Windows.
+    *[[http://xldennis.wordpress.com/2007/02/17/the-orca-tool-a-msi-creator-and-package-viewer/|VST & .NET & Excel: "The Orca Tool - A MSI Creator and Package Viewer"]].
+    *[[http://www.xldennis.com/dloads/orca.msi|XL-Dennis "orca.msi"]] ( Orca 4.0.6001.0 ).
+  *[[http://dotnetinstaller.codeplex.com/|dotNetInstaller]] - "A general-purpose setup bootstrapper for Microsoft Windows 95, 98, 2000, XP, 2003, Vista, 2008 and Windows 7".
+==== Resources ====
+  *According to experts, automation of installation, of installer generation and of installation processes works well with "MSI Installer" :-).
+  *[[http://www.sourceforge.net/search/?q=installer|Sourceforge - Software Search for "Installer"]].
+===== Some other Development Tools =====
+  *[[http://www.swig.org/|Simplified Wrapper and Interface Generator (SWIG)]], [[http://swig.sourceforge.net/|Sourceforge "SWIG"]], [[http://www.sourceforge.net/projects/swig/|Sourceforge "SWIG"]] - "A software development tool that reads C/C++ header files and generates wrapper code to make C/C++ code accessible from other languages including Perl, Python, Tcl, Ruby, PHP, Java, Ocaml, Lua, C#, Modula-3, R, Octave and Scheme & Lisp variants".
+===== Webcasts, Webinars =====
+  *[[http://www.mks.com/resources/webinars/on-demand-webinars|MKS "On-Demand Webinars"]].
+===== Resources =====
+==== General ====
+  *The commercial paper magazine [[http://www.visualstudio1.de/|Visual Studio One]].
+  *[[http://en.wikipedia.org/wiki/List_of_rapid_application_development_tools|EN.Wikipedia "List of rapid application development tools"]] #.
+==== OpenSource Development Tools used by Capgemini, as of 2011-07 ====
+  *ANTLR.
+  *Apache Ant.
+  *Apache Camel.
+  *Apache Maven.
+  *Artifactory.
+  *Bugzilla.
+  *Chainsaw.
+  *Checkstyle.
+  *Clover Workstation.
+  *Edition.
+  *CruiseControl.
+  *DBUnit.
+  *DocBook.
+  *Doxygen.
+  *EMMA.
+  *Eclipse.
+  *Eclipse Modelling Framework.
+  *Eclipse Visual Editor Project.
+  *Emacs.
+  *FEST (Fixtures for Easy Software Testing).
+  *FIT.
+  *FindBugs.
+  *Foxtrot.
+  *GNU Compiler Collection.
+  *Hudson.
+  *ITracker.
+  *JFCUnit.
+  *JMeter.
+  *JSTL.
+  *JUnit.
+  *KDevelop.
+  *Linux.
+  *Lomboz.
+  *Mingle.
+  *MyEclipse Blue.
+  *NAnt.
+  *NUnit.
+  *Netbeans.
+  *PMD.
+  *PU-Bausteine.
+  *Proven!.
+  *QuickBuild.
+  *SHORE.
+  *SableCC.
+  *Selenium.
+  *SonarJ.
+  *Spring IDE.
+  *Subversive.
+  *TWIKI.
+  *TestLink.
+  *TestNG.
+  *TortoiseCVS.
+  *TortoiseSVN.
+  *TrueCrypt.
+  *VisualVM.
+  *WinCVS.
+  *XDoclet.
+  *XMLUnit.
+  *cppUnit.
+  *cvsnt.
+  *gcov.
+  *git.
+  *httpUnit.
+  *jWebUnit.
+  *openArchitectureWare.
+  *subversion.
+  *valgrind.
+
+===== Forums, Newsgroups, Communities =====
+  *[[http://community.clickteam.com/forum.php|Clickteam Forum]].
+  *[[http://www.eclipse.org/forums/|Eclipse Community Forums]].
+  *[[http://www.eclipseproject.de/|EclipseProject.de]] - "Fragen und Antworten zu Eclipse Themen auf deutsch".
+  *[[http://forum.ethalone.com/|Ethalone Community Forums]].
+  *[[http://feedback.eclipsesource.com/forums/52669-yoxos|Feedback & Ideas for EclipseSource products and services - Yoxos Forum]].
+    *[[http://feedback.eclipsesource.com/forums/52669-yoxos/suggestions/1577553-import-and-management-of-components-by-folders?ref=title|Yoxos Forum "Import and management of components by folders"]].
+  *[[http://www.installaware.com/forum/|InstallAware Forum]].
+  *[[http://www.installjammer.com/forums/|InstallJammer Community Forums]].
+  *[[http://social.msdn.microsoft.com/forums/en-US/category/robotics/|Microsoft Robotics Forums]].
+  *[[http://forums.winamp.com/forumdisplay.php?s=&forumid=65|Winamp Forums / Developer Center "NSIS Discussion"]].
+{{tag>"software development tools"}}
+<footnote_navi_en>
+
+

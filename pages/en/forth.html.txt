@@ -1,0 +1,150 @@
+====== [hemmerling] FORTH ======
+===== Standards & Guides =====
+  -FORTH79, 1979.
+  -FORTH83, 1983
+  -ANS Forth, ANS94 FORTH, 1994.
+  -( Forth200x ).
+===== Free & OpenSource FORTH Systems =====
+  *The OpenSource "almost ANS94 compatible" FORTH system [[http://amforth.sourceforge.net/|SourceForge "amforth"]], [[http://www.sourceforge.net/projects/amforth|SourceForge "amforth"]] for Atmel ATmega CPUs.
+  *The OpenSource ANS94 FORTH system [[http://bigforth.sourceforge.net/|SourceForge "bigFORTH"]], [[http://www.sourceforge.net/projects/bigforth|SourceForge "bigFORTH"]].
+  *The OpenSource FORTH system CamelFORTH.
+    *[[http://www.camelforth.com/|CamelForth]] - "A Forth implementation for embedded microprocessors (8051, 8086, Z80, and 6809, with more to come)".
+    *[[http://www.seanet.com/~karllunt/camel80.htm|Karl Lunt "Z180 Forth system"]].
+    *[[http://www.hytherion.com/beattidp/comput/z80forth.htm|Douglas Beattie, Jr "Camel_FORTH for the Z80, Z180, Z380/Z382, and eZ80; Z80 hFORTH"]].
+  *The free FORTH system [[http://www.dataman.ro/?page_id=37|Valer BOCAN "Delta Forth .NET"]] for Windows with .NET 2.0.
+  *The OpenSource FORTH system [[http://www.baymoon.com/%7Ebimu/forth/|Bill Muench "eForth"]] - "eForth allows me to make a complete Forth system with about 30 very simple machine code routines".
+  *Fig-Forth.
+    *[[http://home.hccnet.nl/a.w.m.van.der.horst/figforth.html|Albert van der Horst "The Last Fig-Forth Ever"]].
+    *[[http://home.hccnet.nl/a.w.m.van.der.horst/forth32.html|Albert van der Horst "forth32 : a 32 bit MSDOS excerpt of fig-Forth"]].
+  *The OpenSource FORTH systems & FORTH system portations [[http://home.iae.nl/users/mhx/|Marcel Hendrix "iForth, tForth, eForth, mxForth"]].
+  *The OpenSource ANS94 FORTH system [[http://www.bernd-paysan.de/gforth.html||Bernd Paysan "Gforth"]] - "Gforth uses GCC".
+  *The OpenSource FORTH system [[http://wiki.forthfreak.net/index.cgi?jsforth|jsforth]] in Javascript.
+  *The free [[http://www.theforthsource.com/guide.html|Mountain View Press "MVP-FORTH"]] for Windows.
+  *The OpenSource FORTH system "SX-FORTH", written in "C".
+    *[[http://www.avrfreaks.net/index.php?module=Freaks%20Academy&func=viewItem&item_id=626&item_type=project|AVR Freaks "Projects - SX-Forth Interpreter for the AVR Butterfly ... but not only"]].
+    *Download[[http://www.avrfreaks.net/index.php?module=Freaks Files&func=viewFile&id=1930&showinfo=1|AVR Freaks "sx-forth"]].
+    *Download [[http://www.avrfreaks.net/index.php?module=Freaks%20Files&func=viewFile&id=1931&showinfo=1|AVR Freaks "Introductory Article on FORTH and SX-Forth Primer"]].
+    *<del>[[http://www.avrfreaks.net/index.php?module=Freaks%20Tools&func=viewItem&item_id=716|AVR Freaks "Tools / Development Applications - SX-Forth for AVR Butterfly ... and others AVR with 8KB Flash"]]</del>.
+    *Author: Valter Foresto, [[http://www.facebook.com/valter.foresto|Facebook "Valter Foresto"]], [[http://www.linkedin.com/in/commsec|LinkedIn "Valter Foresto"]].
+  *The OpenSource ANS94 FORTH system [[http://win32forth.sourceforge.net/|SourceForge "Win32Forth"]], [[http://www.sourceforge.net/projects/win32forth|SourceForge "Win32Forth"]].
+===== Commercial FORTH Systems =====
+  *[[http://www.forth.com/|FORTH,Inc - FORTH-based software and services since 1973]].
+    *The commercial "SwiftForth" for Windows, Linux.
+    *The commercial "SwiftX for embedded systems development".
+      *[[http://www.forth.com/embedded/swiftx-embedded-systems-15.html|FORTH,Inc "Processors, Boards, and Prices"]].
+
+===== German Books =====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/B003SFDUTC/hemmerling-21|Rainer Aumiller; Denise Luda: "ATARI-ST-32-FORTH-Compiler : professionelles Entwicklungspaket ; vollständieg GEM-Implementation der Programmiersprache FORTH: Multitasking ; Fliesskomma-Arithmethik ; Assembler ; Debugger"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/380230165X/hemmerling-21|Hans-Walter Beilstein: "Wie man in FORTH programmiert. Einstieg in eine faszinierende Computersprache"]].
+  *Book	[[http://www.amazon.de/exec/obidos/ASIN/3921608384/hemmerling-21|Rüdiger Birkemeyer: "FORTH. Programmiersprache der vierten Generation"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3446143343/hemmerling-21|Leo Brodie: "In FORTH denken"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3446140700/hemmerling-21|Leo Brodie: "Programmieren in FORTH"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3890900852/hemmerling-21|Paul M. Chirlian: "Der Einstieg in FORTH"]].
+  *Ekkehard Flögel.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3921682886/hemmerling-21|Ekkehard Flögel: "FORTH Handbuch. Grundlagen, Einführung, Beispiele"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3889632009/hemmerling-21|Ekkehard Flögel: "Forth-Anwendungsbeispiele : Datenverwaltungsprogramme, Geschäftsprogramme, Programmiertechniken, Unterhaltungsprogramme, künstlische Intelligenz]].
+  *Book "Hellwig Geisse: 'FORTH als Brücke zwischen Roboterhardware und Expertensystem'".
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3486202766/hemmerling-21|Paul A. C. Kail: "FORTH. Einführung und vollständiger Programmierkurs in FORTH"]].
+  *Book Paul Kleinrubatscher: "Compilerbau mit Forth" ( not available in TIB :-( ).
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3528043466/hemmerling-21|C. Kevin McCabe: "Programmieren mit FORTH"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/393731279X/hemmerling-21|Albert Nijhof: "Die Programmiersprache Forth"]], 2004.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3442131286/hemmerling-21|Joseph Reymann: "FORTH. Einführung in die höhere Programmiersprache"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/B0060RPJEO/hemmerling-21|Ernst-Dieter Schmitter: "Künstliche Intelligenz - Experimente & Programme ; Experimente in Forth und Pascal ; Algorithmen ; Programmbeispiele"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3772372635/hemmerling-21|Ronald Zech: "Die Programmiersprache FORTH - Eine kompakte Darstellung der Programmiersprache mit vielen Beispielen"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3184010562/hemmerling-21|Horst Zöller, Heiko Loewe: "FORTH in der Automatisierung. Einsatzmöglichkeiten und Anwendung]].
+===== English Books =====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0138430799/hemmerling-21|Leo Brodie: "Starting Forth: Introduction to the FORTH Language and Operating System for Beginners and Professionals"]].
+    *The free online book [[http://www.forth.com/starting-forth/|Leo Brodie: "Starting FORTH"]].
+    *[[http://thinking-forth.sourceforge.net/|SouceForge "Thinking Forth Project"]], [[http://www.sourceforge.net/projects/thinking-forth|SouceForge "Thinking Forth"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1419675494/hemmerling-21|Edward K. Conklin, Elizabeth D. Rather: "Forth Programmer's Handbook"]], 1998.
+    *[[http://www.forth.com/forth/fph.html|Forth, Inc. "Forth Programmer's Handbook"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0914699024/hemmerling-21|M. Derick; L. Baker: "Forth Encyclopedia: The Complete Forth Programmers Manual"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0907563821/hemmerling-21|Martin Fairbanks: "The Amstrad PC users omnibus : the ultimate programming resource, business and personal efficiency programs, artificial intelligence, computer simulations, a complete FORTH implementation and tutor"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0201180502/hemmerling-21|Ron Geere: "Forth: The Next Step"]].
+  *The free online book [[http://www.theforthsource.com/guidec.html|Glen B. Haydon "The FORTH Guide"]].
+  *Paul A.C. Kail.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/185091706X/hemmerling-21|Paul A.C. Kail: "FORTH : a complete course in the forth programming language"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0946705011/hemmerling-21|Paul A.C. Kail: "Introduction to FORTH"]] ( not available in TIB :-( ).
+  *The free online book [[http://www.ece.cmu.edu/~koopman/stack_computers/|Philip J. Koopman, Jr. "Stack Computers: the new wave"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1419685767/hemmerling-21|Elizabeth D. Rather: "Forth Application Techniques"]], 2000.
+    *[[http://www.forth.com/forth/fat.html|Forth, Inc. "Forth Application Techniques"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0125635702/hemmerling-21|Dick Pountain: "Object-Oriented Forth: Implementation of Data Structures"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0070649758/hemmerling-21|David Toppen: "Forth: An Application Approach: Applications Approach"]] ( not available in TIB :-( ).
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0905104226/hemmerling-21|Alan Winfield: "The Complete FORTH"]].
+  *Jack Woehr.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1558512772/hemmerling-21|Jack Woehr: "Forth: The New Model : A Programmer's Handbook/Book and Disk"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0130363286/hemmerling-21|Jack Woehr: "Ans Forth: the New Standard: A Programmer's Handbook"]], 1993 ( not available in TIB :-( ).
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0133270408/hemmerling-21|Ronald Zech: "Forth for Professionals: A Practical Programming Language for Research and Development: A Programming Language for Research and Development"]].
+===== People =====
+  *[[http://www.ultratechnology.com/|Jeff Fox "UltraTechnology"]].
+    *[[http://www.ultratechnology.com/forth0.htm|Jeff Fox "FORTH"]].
+    *Blog [[http://www.ultratechnology.com/blog.htm|Jeff Fox "Jeff's UltraTechnology Blog"]].
+  *[[http://www.colorforth.com/|Charles H. Moore ( Chuck Moore )]].
+    *[[http://en.wikipedia.org/wiki/Charles_H._Moore|EN.Wikipedia "Charles H. Moore"]], [[http://de.wikipedia.org/wiki/Charles_H._Moore|DE.Wikipedia "Charles H. Moore"]].
+  *[[http://www.baymoon.com/%7Ebimu/forth/|Bill Muench "eForth"]].
+===== Applications & Libraries =====
+  *[[http://alexript.tripod.com/|alexript "Java-Like Units Realisation"]].
+  *[[http://code.google.com/p/ffl/|Google Code "ffl - A general purpose Forth library"]].
+  *[[http://www.qsl.net/ok1fou/quartus/|OK1FOU "Morse Trainer in Quartus Forth"]].
+  *[[http://mind.sourceforge.net/mind4th.html|SourceForge "MindForth Free AI Source Code for Robots"]], [[http://mind.sourceforge.net/|SourceForge "Artificial Mind Control Panel"]], <del>[[http://www.sourceforge.net/projects/mind|SourceForge "Mind"]]</del>.
+  *[[http://www.taygeta.com/fsl/sciforth.html|Taygeta Scienific, Skip Carter "The Forth Scientific Library Project"]].
+  *[[http://home.kpn.nl/josv/|Jos v.d.Ven "Using Win32Forth for Graphics and parallel arithmetic"]].
+  *[[http://www.robo-forth.de/|Herbert Weidner "ROBOprogy - der Komplettbaustein für programmierbare Steuerungen"]].
+
+===== FAQs, Help, and Tutorials =====
+  *[[http://www.figuk.plus.com/|FIG UK]].
+    *[[http://www.figuk.plus.com/byof.htm|FIG UK "Build Your Own Forth"]].
+  *[[http://thebeez.home.xs4all.nl/ForthPrimer/|2( FP ) - Free FORTH Primer]] - "An ANS version of the Forth Primer".
+  *[[http://dec.bournemouth.ac.uk/forth/forth.html|Peter Knaggs "Forth: An underview"]].
+  *[[http://hem.passagen.se/tiletech/forth.htm|Edward Patel "Crash Course in FORTH"]].
+  *[[http://www.bradrodriguez.com/papers/|Bradford J. Rodriguez "Publications"]] - "Moving Forth: a series on writing Forth kernels", ...
+  *[[http://www-personal.umich.edu/~williams/archive/forth/forth.html|David N. Williams "DNW's Forth Page"]].
+
+===== Resources =====
+  *comp.lang.forth.
+    *[[http://forth.sourceforge.net/|SourceForge "comp.lang.forth.repository"]], [[http://www.sourceforge.net/projects/forth|SourceForge "comp.lang.forth.repository"]] #.
+    *[[http://www.faqs.org/faqs/computer-lang/forth-faq/|Computer Lang/forth FAQ Index]].
+  *[[http://liinwww.ira.uka.de/bibliography/Compiler/forth.html|The Collection of Computer Science Bibliographies "Forth Bibliography"]].
+  *[[http://c2.com/cgi/wiki?ForthLanguage|Cunningham & Cunningham, Inc. "Forth Language"]] #.
+  *[[http://www.msmisp.com/futuretest/Forth%27s_Dilemma.htm|EE-Logos.org "The Forth's Dilemma, When Great Firms Cause New Technologies to Fail"]].
+  *[[http://www.forth200x.org/|Forth200x]] - "A new Forth standardization".
+  *[[http://www.forthfreak.net/|Lothar Schmidt "ForthFreak"]].
+  *[[http://www.forth-ev.de/|Forth-Gesellschaft e.V.]].
+  *[[http://www.forth.com/resources/evolution/|FORTH,Inc "The Evolution of Forth"]].
+  *[[http://www.forth.org/|Forth Interest Group]] (FIG).
+  *Homebrew Robotics Club.
+    *[[http://www.hbrobotics.org/wiki/index.php?title=Forth_on_Robots|Homebrew Robotics Club "Forth on Robots"]].
+    *[[http://www.hbrobotics.org/wiki/index.php?title=Forth_for_Robotics_and_Programming_at_the_Bare_Metal|Homebrew Robotics Club "Forth for Robotics and Programming at the Bare Metal"]].
+  *[[http://dec.bournemouth.ac.uk/forth/|Dr. Peter Knaggs "The Forth Research Page"]].
+  *[[http://www2.latech.edu/~acm/helloworld/HelloWorld.shtml|Louisiana Tech ACM "Hello World"]].
+    *[[http://www2.latech.edu/~acm/helloworld/forth.html|Louisiana Tech ACM "Hello World in FORTH"]].
+  *[[http://www.theforthsource.com/|Mountain View Press "The FORTH Source"]] #.
+  *[[http://www.angelfire.com/mn2/myyahtzee/forth.html|mw28394 "Forth in Java Programming"]] -> General FORTH linklist #.
+  *[[http://www.zock.com/64er/8407/0011.html|Projekt 64'er, Ausgabe 7/Juli 1984 "Forth - die etwas andere Programmiersprache"]].
+  *[[http://www.bradrodriguez.com/papers/oofs.htm|Bradford J. Rodriguez & W. F. S. Poehlman "A Survey of Object-Oriented Forths"]].
+  *[[http://cis.csuohio.edu/~somos/forth.html|Michael Somos "Forth WWW and FTP Links"]].
+  *[[http://www.taygeta.com/forth.html|Taygeta Scientific Inc. "Forth Information on Taygeta"]] #.
+  *TU Wien, Institut für Computersprachen.
+    *[[http://www.complang.tuwien.ac.at/forth/faq/faq-general-2.html|TU Wien, Institut für Computersprachen "comp.lang.forth Frequently Asked Questions"]].
+    *[[http://www.complang.tuwien.ac.at/anton/euroforth/|TU Wien, Institut für Computersprachen "EuroForth. The European Forth Conference"]], 2006-09-19.
+    *[[http://www.complang.tuwien.ac.at/projects/forth.html|TU Wien, Institut für Computersprachen "Forth Research at Institut für Computersprachen"]] #.
+    *[[http://www.complang.tuwien.ac.at/forth/old-faq/more-books.html|TU Wien, Institut für Computersprachen "Forth Literature Registered in BIBOS"]].
+    *[[http://www.complang.tuwien.ac.at/forth/objects/opinion.html|TU Wien, Institut für Computersprachen "On Standardizing Object-Oriented Forth Extensions"]].
+    *[[http://www.complang.tuwien.ac.at/forth/threaded-code.html|TU Wien, Institut für Computersprachen "Threaded Code"]].
+  *[[http://www.webring.org/hub?ring=forth|Webring.org "Forth Programming"]].
+    *[[http://www.zforth.com/|zFORTH "The Forth Programming Webring"]] 
+  *[[http://en.wikipedia.org/wiki/Forth_%28programming_language%29|EN.Wikipedia "Forth (programming language)"]], [[http://de.wikipedia.org/wiki/Forth_%28Informatik%29|DE.Wikipedia "Forth (Informatik)"]].
+===== Forums, Newsgroups =====
+  *[[http://groups.google.com/group/comp.lang.forth/|Google Groups "comp.lang.forth"]], [[http://groups.google.com/group/de.comp.lang.forth/|Google Groups "de.comp.lang.forth"]], [[http://groups.google.com/group/z-netz.sprachen.forth/|Google Groups "z-netz.sprachen.forth"]].
+  *[[http://plus.google.com/117397092524585190890/|Google+ Communties "Forth"]].
+  *[[http://www.rhinocerus.net/forum/lang-forth/|Rhinocerus Forum "comp.lang.forth"]].
+  *[[http://www.stackoverflow.com/questions/tagged/forth|Stack Overflow - Tagged Questions "[forth]"]].
+  *[[http://groups.yahoo.com/group/camelforth/|Yahoo Groups "camelforth · CamelForth Programming Language"]], [[http://tech.groups.yahoo.com/group/euroforth/|Yahoo Groups "euroforth · EuroForth conference list"]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Programming/Languages/Forth/|OpenDirectory "Top: Computers: Programming: Languages: Forth"]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Programmieren/Sprachen/Forth/|OpenDirectory "Top: World: Deutsch: Computer: Programmieren: Sprachen: Forth"]].
+  *[[http://www.dmoz.org/Computers/Programming/Languages/Forth/Implementations/|OpenDirectory "Top: World: Deutsch: Computer: Programmieren: Sprachen: Forth: Implementations"]].
+  *[[http://www.dmoz.org/Computers/Programming/Languages/Forth/Implementations/CamelForth/|OpenDirectory "Top: World: Deutsch: Computer: Programmieren: Sprachen: Forth: Implementations: CamelForth"]].
+  *[[http://www.dmoz.org/Computers/Programming/Languages/Forth/Implementations/figForth/|OpenDirectory "Top: World: Deutsch: Computer: Programmieren: Sprachen: Forth: Implementations: figForth"]].
+{{tag>"FORTH}}
+<footnote_navi_en>

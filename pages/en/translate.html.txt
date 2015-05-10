@@ -1,0 +1,357 @@
+====== [hemmerling] Translation Services ======
+
+===== Free automatic Online Translation Services =====
+  *[[http://ww.bab.la/|bab.la]] - "Online Wörterbuch für 24 Sprachen. Und viel mehr über Sprachen und Übersetzung: Konjugieren, Tests, Spiele, Forum, usw.".
+  *[[http://dict.tu-chemnitz.de/|TU Chemnitz "BEOLINGUS"]] - German/English, German/Spanish, German/Portuguese.
+  *[[http://www.dict.cc/|dict.cc]] - German/English.
+  *[[http://translate.reference.com/|Dictionary.com "Translator"]].
+  *[[http://www.freetranslation.com/|SDL "FreeTranslation.com"]].
+  *[[http://translate.google.com/|Google Translate]].
+    *[[http://translate.google.com/translate_tools|Google Translate, Translation Tools]]- translation service can be freely integrated on third-party websites.
+    *Tip: Open one browser tab window for each translation direction. So if you want to chat in let's say Spanish but you don´t understand Spanish, open one browser tab window "Your native language -> Spanish" and another browser tab window "Spanish -> Your native language" :-).
+    *[[http://itools.com/tool/google-translate-web-page-translator|iTools "Google Translate Web"]] - Enter a URL to translate the contents :-).
+  *[[http://www.lexilogos.com/|Lexilogos]].
+    *[[http://www.lexilogos.com/allemand_langue_dictionnaires.htm|Lexilogos "Dictionnaire allemand"]] - German/French.
+    *[[http://www.lexilogos.com/english/german_dictionary.htm|Lexilogos "German dictionary"]] - German/English.
+    *[[http://www.lexilogos.com/francais_langue_dictionnaires.htm|Lexilogos "Dictionnaire français"]].
+  *[[http://dict.leo.org/|LEO]] - German/English, German/French, German/Spanish, German/Italian, German/Chinese, German/Russian #.
+  *[[http://de.lingo24.com/kostenlose-Sprach-und-Uebersetzungshilfen.html|Lingo24 - Kostenlose Sprach- und Übersetzungshilfen "ContexTrans"]] - German/English, German/French, English/French.
+    *[[http://de.lingo24.com/useful-phrases.html|Lingo24 "Nützliche Ausdrücke: Deutsch - Englisch"]].
+  *[[http://www.linguatec.de/onlineservices/linguadict|Linguadict]] - German/English, German/French.
+  *[[http://www.linguee.de/|Linguee - Das Web als Wörterbuch]] - "Durchsuchen Sie Millionen von Sätzen, die von anderen Menschen übersetzt wurden", German/English.
+  *[[http://www.pons.eu/|PONS.eu - Das kostenlose Sprachportal]].
+  *[[http://www.promt.de/|PROMT Übersetzungssoftware und Wörterbücher online]].
+    *[[http://www.online-translator.com/|PROMT - Free Online Translator and dictionary]] - English, German, French, Spanish, Italian, Portuguese (Brazilian) and Russian languages.
+  *[[http://dictionaries.travlang.com/|Travlang's Translating Dictionaries]].
+  *[[http://tr.voila.fr/|Voila Traducteur]], France.
+  *[[http://www.voycabulary.com/|VoyCabulary]] - "Online web dictionary & thesaurus word linking lookup reference tool", " VoyCabularytm makes the words on any webpage into links, so you can look them up with just a click--in a dictionary of your choice", English, Spanish.
+  *[[http://www.wissen.de/wde/generator/wissen/ressorts/bildung/woerterbuecher/|wissen.de "Langenscheidt Wörterbücher bei wissen.de, Wörterbücher bei wissen.de"]].
+    *German/English, German/French, German/Spanish, German/Turkish.
+    *WAHRIG Rechtschreibung, BERTELSMANN Wörterbuch.
+  *[[http://www.worldlingo.com/en/products_services/worldlingo_translator.html|WorldLingo, Service "Free Online Language Translation"]].
+  *[[http://babelfish.yahoo.com/|Yahoo! Babelfish]], powered by [[http://www.systran.de/|SYSTRAN S.A.]].
+    *[[http://www.systran.de/|SYSTRAN - Online Translator]] .
+
+===== Free automatic Online Translation Services, with local Formular =====
+  *[[http://www.leo.org/|Leo]] (iso-8859-1).
+<HTML><FORM method="GET" action="http://dict.leo.org/" target="www_hemmerling_com_translat">
+Search term (English or German):<BR>
+<INPUT name="search" value="" size="100" maxlength="100">
+<INPUT type="submit" value="Search">&nbsp; <INPUT type="reset" value="Clear"><BR>
+Direction: <INPUT type="radio" name="searchLoc" value="-1">English -&gt; German 
+<INPUT type="radio" name="searchLoc" checked value="0">German &lt;-&gt; English 
+<INPUT type="radio" name="searchLoc" value="1">German -&gt; English<BR>
+Link Results: <INPUT type="radio" name="relink" value="off">No 
+<INPUT type="radio" name="relink" checked value="on">Yes<BR>
+Spelling Tolerance: <INPUT type="radio" name="spellToler" value="off">Switched off 
+<INPUT type="radio" name="spellToler" value="on">Force 
+<INPUT type="radio" name="spellToler" checked value="standard">Standard<BR>
+Headlines: <INPUT type="radio" name="sectHdr" value="off">Off 
+<INPUT type="radio" name="sectHdr" value="on">On<BR>
+Presentation of Results: <INPUT type="radio" name="tableBorder" checked value="1">With Grid 
+<INPUT type="radio" name="tableBorder" value="0">Without<BR>
+Morphology: <INPUT type="radio" name="deStem" value="none">Switched off 
+<INPUT type="radio" name="deStem" value="forcedAll">Force 
+<INPUT type="radio" name="deStem" checked value="standard">Standard 
+<INPUT type="radio" name="deStem" value="forcedInput">Basic form<BR>
+Special Characters Tolerance: <INPUT type="radio" name="cmpType" value="fuzzy">High 
+<INPUT type="radio" name="cmpType" value="exact">Switched off 
+<INPUT type="radio" name="cmpType" checked value="relaxed">Standard<BR>
+Choose Language: <INPUT type="radio" name="lang" value="de">German 
+<INPUT type="radio" name="lang" checked value="en">English</FORM>
+</HTML>
+
+  *[[http://www.tranexp.com/|InterTran]] (iso-8859-1).
+<HTML><FORM method="get" name="InterTran_form" action="http://www.tranexp.com:2000/InterTran" target="www_hemmerling_com_translat">
+<INPUT type="radio" name="type" value="text" checked>
+TEXT: <TEXTAREA name="text" rows="4" cols="55" value="test">
+</TEXTAREA><BR>
+<INPUT type="radio" name="type" value="url"> URL: <INPUT type="text" name="url" value="http://" size="31">
+Translate from: <SELECT name="from">
+<OPTION value="eng" selected>English</OPTION>
+<OPTION value="pob">Brazilian Portuguese</OPTION>
+<OPTION value="ger">German</OPTION>
+<OPTION value="dut">Dutch</OPTION>
+<OPTION value="spl">Latin American Spanish</OPTION>
+<OPTION value="spa">Spanish</OPTION>
+<OPTION value="spe">European Spanish</OPTION>
+<OPTION value="fre">French</OPTION>
+<OPTION value="jpn">Japanese (Shift JIS)</OPTION>
+<OPTION value="dan">Danish</OPTION>
+<OPTION value="ice">Icelandic</OPTION>
+<OPTION value="fin">Finnish</OPTION>
+<OPTION value="ita">Italian</OPTION>
+<OPTION value="nor">Norwegian</OPTION> 
+<OPTION value="swe">Swedish</OPTION>
+<OPTION value="poe">Portuguese</OPTION>
+<OPTION value="rus">Russian (CP 1251)</OPTION>
+<OPTION value="cro">Croatian (CP 1250)</OPTION>
+<OPTION value="hun">Hungarian (CP 1250)</OPTION>
+<OPTION value="pol">Polish (CP 1250)</OPTION>
+<OPTION value="che">Czech (CP 1250)</OPTION>
+<OPTION value="bul">Bulgarian (CP 1251)</OPTION>
+<OPTION value="rom">Romanian</OPTION>
+<OPTION value="sel">Serbian (Latin)</OPTION>
+<OPTION value="slo">Slovenian (CP 1250)</OPTION>
+<OPTION value="grk">Greek</OPTION>
+<OPTION value="wel">Welsh</OPTION>
+</SELECT> To: <SELECT name="to">
+<OPTION value="eng" selected>English</OPTION>
+<OPTION value="pob">Brazilian Portuguese</OPTION>
+<OPTION value="ger" selected>German</OPTION>
+<OPTION value="dut">Dutch</OPTION>
+<OPTION value="spl">Latin American Spanish</OPTION>
+<OPTION value="spa">Spanish</OPTION>
+<OPTION value="spe">European Spanish</OPTION>
+<OPTION value="fre">French</OPTION>
+<OPTION value="jpn">Japanese (Shift JIS)</OPTION>
+<OPTION value="dan">Danish</OPTION>
+<OPTION value="ice">Icelandic</OPTION>
+<OPTION value="fin">Finnish</OPTION>
+<OPTION value="ita">Italian</OPTION>
+<OPTION value="nor">Norwegian</OPTION> 
+<OPTION value="swe">Swedish</OPTION>
+<OPTION value="poe">Portuguese</OPTION>
+<OPTION value="rus">Russian (CP 1251)</OPTION>
+<OPTION value="cro">Croatian (CP 1250)</OPTION>
+<OPTION value="hun">Hungarian (CP 1250)</OPTION>
+<OPTION value="pol">Polish (CP 1250)</OPTION>
+<OPTION value="che">Czech (CP 1250)</OPTION>
+<OPTION value="bul">Bulgarian (CP 1251)</OPTION>
+<OPTION value="rom">Romanian</OPTION>
+<OPTION value="sel">Serbian (Latin)</OPTION>
+<OPTION value="slo">Slovenian (CP 1250)</OPTION>
+<OPTION value="grk">Greek</OPTION>
+<OPTION value="wel">Welsh</OPTION>
+</SELECT> <INPUT type="submit" name="Submit" value="Process">
+</FORM>
+</HTML>
+
+ *[[http://babelfish.yahoo.com/|Yahoo! Babelfish]] (utf-8).
+<HTML><form action="http://babelfish.yahoo.com/translate_txt" method="POST" target="www_hemmerling_com_translat">
+<input type=hidden name="ei" value="UTF-8">
+<input type=hidden name=doit value="done">
+<input type=hidden name=fr value="bf-res">
+<input type=hidden name=intl value="1">
+<input type=hidden name=tt value="urltext" >
+<textarea rows="6" wrap=virtual cols="20" name="trtext"">
+</textarea><br>
+<select name="lp">
+<option value="zh_en">Chinese-simp to English</option>
+<option value="zh_zt">Chinese-simp to Chinese-trad</option>
+<option value="zt_en">Chinese-trad to English</option>
+<option value="zt_zh">Chinese-trad to Chinese-simp</option>
+<option value="en_zh">English to Chinese-simp</option>
+<option value="en_zt">English to Chinese-trad</option>
+<option value="en_nl">English to Dutch</option>
+<option value="en_fr">English to French</option>
+<option value="en_de" selected>English to German</option>
+<option value="en_el">English to Greek</option>
+<option value="en_it">English to Italian</option>
+<option value="en_ja">English to Japanese</option>
+<option value="en_ko">English to Korean</option>
+<option value="en_pt">English to Portuguese</option>
+<option value="en_ru">English to Russian</option>
+<option value="en_es">English to Spanish</option>
+<option value="nl_en">Dutch to English</option>
+<option value="nl_fr">Dutch to French</option>
+<option value="fr_nl">French to Dutch</option>
+<option value="fr_en">French to English</option>
+<option value="fr_de">French to German</option>
+<option value="fr_el">French to Greek</option>
+<option value="fr_it">French to Italian</option>
+<option value="fr_pt">French to Portuguese</option>
+<option value="fr_es">French to Spanish</option>
+<option value="de_en">German to English</option>
+<option value="de_fr">German to French</option>
+<option value="el_en">Greek to English</option>
+<option value="el_fr">Greek to French</option>
+<option value="it_en">Italian to English</option>
+<option value="it_fr">Italian to French</option>
+<option value="ja_en">Japanese to English</option>
+<option value="ko_en">Korean to English</option>
+<option value="pt_en">Portuguese to English</option>
+<option value="pt_fr">Portuguese to French</option>
+<option value="ru_en">Russian to English</option>
+<option value="es_en">Spanish to English</option>
+<option value="es_fr">Spanish to French</option>
+</select>
+<input type="Submit" value="Translate"></form></HTML>
+
+===== Dictionaries =====
+==== Free Online Services ====
+  *[[http://www.dict.org|dict.org -The DICT Development Group]], English.
+  *[[http://www.duden.de/|Duden online]], German.
+  *[[http://www.oxfordadvancedlearnersdictionary.com/|Oxford Advanced Learner's Dictionary]] #, English.
+  *[[http://www.ozdic.com/|Oxford Collocation Dictionary Online for Advanced English Learners]], English - Collocations.
+  *[[http://www.mediadico.com/dictionnaire/|Mediadico - Dictionnaire de définitions]] - French.
+    *[[http://dictionnaire.tv5.org/|Le dictionnaire gratuit de TV5MONDE avec Mediadico]] - "définitions, orthographe, synonymes, traduction" - French.
+  *[[http://www.thesaurus.com/|Thesaurus.com]], English.
+  *[[http://www.visualthesaurus.com/|Thinkmap Visual Thesaurus]].
+  *[[http://www.wiktionary.org|EN.Wiktionary]], [[http://de.wiktionary.org|DE.Wiktionary]], [[http://fr.wiktionary.org|FR.Wiktionary]].
+  *[[http://www.wordreference.com/|WordReference.com. Online Language Dictionaries]] - "English to French, Italian, German &amp; Spanish Dictionary".
+  *[[http://www.yourdictionary.com/|YourDictionary]] - "Dictionary and Thesaurus", English.
+
+==== Academic Word List ====
+  *[[http://www.nottingham.ac.uk/alzsh3/acvocab/awlhighlighter.htm|ACADEMIC VOCABULARY - The AWL Highlighter]].
+==== Readability Index ====
+=== Tools ====
+  *[[http://www.online-utility.org/english/readability_test_and_improve.jsp|Online-Utility.org - Utilities for Oline Operating System "Readability Calculator. Tests Document Readability"]].
+=== Resources ====
+  *[[http://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests|EN.Wikipedia "Flesch–Kincaid readability tests"]], [[http://de.wikipedia.org/wiki/Lesbarkeitsindex|DE.Wikipedia "Lesbarkeitsindex"]].
+  *[[http://en.wikipedia.org/wiki/Gunning_fog_index|EN.Wikipedia "Gunning fog index"]].
+
+==== Word Frequency Analysis ====
+  *[[http://www.usingenglish.com/resources/text-statistics.php|UsingEnglish.com - English Language ( ESL ) Learning "Text Content Analysis Tool"]].
+==== Resources ====
+  *[[http://math-www.uni-paderborn.de/HTML/Dictionaries_noframes.html|Uni Paderborn "List of Dictionaries"]].
+===== Domain-specific Dictionaries =====
+  *[[http://www.antriebstechnik.fh-stralsund.de/|Fachhochschule Stralsund. Labore Elektrische Maschinen, Leistungselektronik und Elektrische Antriebe]].
+    *[[http://www.antriebstechnik.fh-stralsund.de/1024x768/index2.htm|Fachhochschule Stralsund. Labore Elektrische Maschinen, Leistungselektronik und Elektrische Antriebe "Wörterbücher" / "Fachwörterbücher"]].
+      *"Fachwörterbuch Deutsch-Englisch Leistungselektronik"
+      *"Fachwörterbuch Deutsch-Englisch Energietechnik".
+===== Forums, Newsgroups =====
+  *[[http://forum.pons.eu/en/|PONS.eu Forum]].
+  *[[http://dict.leo.org/forum/|LEO Forum]].
+===== Portals and Websites for Language Courses & Language specific Tools =====
+  *The commercial language course platform [[https://www.antosch-and-lin.com/|Antosch & Lin Languages]], with free basic account - Chinese, Danish, Dutch, French, German, Italian, Japanese, Korean, Portuguese, Russian, Spanish, Swedish.
+  *The free language course platform [[http://www.duolingo.com/|Duolingo]].
+    *EN -> ES, EN -> FR, EN -> IT, EN -> DE, EN -> PO. 
+    *ES -> EN, FR -> EN, IT -> EN, DE -> EN, PO -> EN.
+    *Blog [[http://blog.duolingo.com/|Official Duolingo Blog]].
+    *[[http://www.facebook.com/duolingo|Facebook "Duolingo"]].
+    *[[http://www.youtube.com/watch?v=WyzJ2Qq9Abs|YouTube "Duolingo Intro"]].
+    *[[http://www.twitter.com/Duolingo|Twitter "Duolingo"]].
+    *[[http://en.wikipedia.org/wiki/Duolingo|EN.Wikipedia "Duolingo"]], [[http://de.wikipedia.org/wiki/Luis_von_Ahn|DE.Wikipedia "Duolingo"]].
+    *[[http://en.wikipedia.org/wiki/Luis_von_Ahn|EN.Wikipedia "Luis von Ahn"]], [[http://de.wikipedia.org/wiki/Luis_von_Ahn|DE.Wikipedia "Luis von Ahn"]].
+  *[[http://www.palabea.com/|Palabea]] - "Learn languages chat with native speakers via video".
+    *Blog [[http://blog.palabea.com/|blog.palabea.com - News from the speaking world]].  
+      *[[http://blog.palabea.com/index.php/palabea-blackboard-greetings-and-small-talk-2/|blog.palabea.com - News from the speaking world "Palabea Blackboard: greetings and small talk"]].
+    *[[http://www.facebook.com/palabea|Facebook "Palabea - the speaking world"]].
+  *[[http://translation.trusted-directory.com/|trusted directory "Translation Directory"]].    
+  *[[http://www.vocabulix.com/|Vocabulix]] - "Learn Languages free and online with Vocabulix" - free online English, Spanish, German training.
+
+==== English ====
+  *[[http://english.about.com/|About.com - English Language]].
+  *[[http://www.eleaston.com/|E. L. Easton "English online. Materials for Teaching & Learning"]].
+  *[[http://www.talk-and-learn.com/|Talk and Learn]] - free "English Portal Community".
+  *[[http://www.english-portal.com/?lpid=305|English Portal - The Better Way to English]] - basic free membership.
+  *[[http://www.internationaloffice.berkeley.edu/english_resources|University of California, Berkeley International Office "English Language Resources"]] #.
+==== France ====
+=== General ===
+  *[[http://french.about.com/|About.com - French Language]].
+  *[[http://la-conjugaison.nouvelobs.com/|Le Nouvel Observateur - Conjugaison française]].
+    *[[http://la-conjugaison.nouvelobs.com/du/verbe/ecrire.php|Le Nouvel Observateur - Conjugaison française "Conjugaison du verbe écrire"]].
+  *[[http://www.fplusd.org/|FplusD]] - "Das deutsch-französische Sprachenportal. Le portail de langues franco-allemand".
+  *[[http://www.institut-francais.fr/|Institut Francais]], [[http://www.institut-francais.fr/?lang=de|Institut Francais, Germany]].
+  *Look at your university library if they have CD-based language course products in their library archives!
+  *The commercial but affordable CD-based language course product "First Class Sprachkurs".
+    *[[http://www.edition-firstclass.de/|Edition First Class]].
+    *[[http://shop.kochmedia.com/shop/de_DE/productdetail.html?id=ECD250004D|Kochmedia "First Class Sprachkurs Französisch 12.0"]], [[http://www.amazon.de/exec/obidos/ASIN/3869761970/hemmerling-21|Kochmedia "First Class Sprachkurs Französisch 12.0"]] for W2k, WinXP, Vista, Win7.
+    *[[http://shop.kochmedia.com/shop/de_DE/productdetail.html?id=ECD250046D|Kochmedia "First Class Sprachkurs Französisch 13.0"]], [[http://www.amazon.de/exec/obidos/ASIN/3869762985/hemmerling-21|Digital Publishing "First Class Sprachkurs Französisch 13.0"]] for WinXP, Vista, Win7, Win8. 
+=== Hannover & France ===
+  *[[http://www.institutfrancais.de/hannover/|Institut Francais Hannover]].
+  *[[http://www.frankreich-in-hannover.de/|Hannovers französische Seite. Das Portal rund um Frankreich in der Region Hannover]].
+  *[[http://www.lecarrefour.de/|LE CARREFOUR e. V.]].
+  *[[http://www.kleine-gallier.de/|Die kleinen Gallier e.V.]].
+  *[[http://www.fh-hannover.de/zff/kontakt/|FHH ZfF]].
+    *[[http://www.facebook.com/campus.zff|Facebook "Campus.ZfF"]].
+==== Farsi, Arabian and Kurdish ====
+  *[[http://www.jokestan.com/lettersComplete.htm|Farsi On-Line "A PHONETIC ALPHABET FOR FARSI ON-LINE"]].
+  *[[http://www.radis.org/fonts_installation.htm|Radio Israel "Persian Web Fonts for Windows"]].
+  *[[http://www.isc.com.au/WebFonts/|I.S.C: Web Fonts "Persian Web Font, Arabian Web Font"]].
+==== German ====
+  *[[http://german.about.com/|About.com - German Language]].
+  *[[http://faql.de/|Deutsche Sprache — Fragen und Antworten. FAQ-Liste des Usenet-Forums de.etc.sprache.deutsch]].
+  *[[http://www.ich-will-lernen.de/|ich-will-lernen.de]] - "Sie wollen besser lesen, schreiben und rechnen lernen?".
+  *[[http://www.dw.de/deutsch-lernen/deutschkurse/s-2068|Deutsche Welle "Deutsche Welle - Deutschkurse"]] - Free German language learn courses, dedicated to native speakers of many other languages.
+==== Greek ====
+  *[[http://alis.isoc.org/codage/iso8859/jeuxiso.de.htm| "Die ISO-Normenreihe 8859"]].
+  *[[http://rcel.enl.uoa.gr/kpgeschool/entypo-yliko|European foreign language certification for Greeks]] - Greek -> English, French, German, Italian, Spanish.
+==== Russian ====
+  *[[http://www.uebersetzung.at/de/russisch/|Russisch für Reisende]].
+  *[[http://www.unics.uni-hannover.de/ntr/russisch/umschrifttabelle.html|Leibniz Universität Hannover, "NTR: Russisch im Fachsprachenzentrum" - "Umschrift des russischen Alphabets"]].
+  *[[http://www.translit.ru/|Translit.Ru]] - online editor for text processing of "kyrillian" script with "latin" keyboard.
+==== Spanish ====
+  *[[http://www.super-spanisch.de/|Super-Spanish.de]].
+    *[[http://www.super-spanisch.de/spanischkurs/|Super-Spanish.de "kostenloser Online-Spanischkurs"]].
+===== Commercial / Free Software =====
+  *[[http://www.free-soft.ro/|Everest Dictionary]] - free dictionary software for Windows.
+  *The translation tool [[http://www.cleverlearn.com/de/purchase.jsp|Clicktionary]] for Windows, free and commercial editions.
+  *The commercial translation software [[http://www.babylon.com/|Babylon]] for Windows.
+  *[[http://www.mrhoney.de/|Mr Honey's Dictionary]], Germany - commercial dictionaries on CDROM, by Winfried Honig.
+  *The commercial vocabulary trainer software [[http://www.tmx.de/|*tmx]] for Windows. Trial version is available  - english, french, spanish, italian.
+  *[[http://www.langenscheidt.de/|Langenscheidt]] - commercial dictionaries, as paper books and services.
+    *[[http://www.langenscheidt-uebersetzt.de]/|Langenscheidt Preisrechner Übersetzungen]] - commercial human translation services.
+  *The commercial editor [[http://www.isc.com.au/Products/ParsNegarII/|ParsNegar II]] for Windows - "write Persian/Farsi, Arabic, Urdu, Kurdish and Assyrian under Windows".
+===== Free and Commercial Tools for Professional Translators =====
+==== Translation Memory Managers ( TMM ) ====
+  *The OpenSource [[http://www.opentms.de/|openTMS - Open Source Translation Management System]].
+  *[[http://www.staff.uni-mainz.de/rumpel/TMS-ILS-0503/TMS-PL/tms-de/|Joanna Chmielowska-Rumpel, Uni Mainz "Einführung in elektronische Übersetzungssysteme (Translation Memory Systems)"]].
+  *[[http://www.transcom.de/transcom/de/tipps-tricks/redaktion/2005_uebersetzungswerkzeuge.htm|Transcom. Ingenieurbüro Johannes Graubner "Werkzeuge für die Übersetzung: Translation Memory-Systeme"]] -> List of software tools.
+  *[[http://www.arakanga.de/wie_funktioniert_tms/|ARAKANGA GmbH "Wie funktioniert ein Translation-Memory-System?"]].
+  *[[http://en.wikipedia.org/wiki/Translation_memory|EN.Wikipedia "Translation memory"]], [[http://de.wikipedia.org/wiki/%C3%9Cbersetzungsspeicher|DE.Wikipedia "Übersetzungsspeicher"]].
+==== Linguistic Tools ====
+  *[[http://www.iai-sb.de/iai/index.php/en/CLAT-Qualitaetspruefung-in-der-Technischen-Redaktion.html|IAI Saarbrücken "CLAT"]].
+  *"acrocheck" by [[http://www.acrolinx.de/|acrolinx GmbH]].
+===== Commercial Services =====
+==== Commercial Human Translation Services ====
+  *[[http://www.24translate.de/|24translate]] - commercial human translation service.
+  *[[http://www.anyword.fr/|Anyword - Nous Traduisons Vos Documents Professionnels]].
+  *[[http://www.ensindia.com/|ENS PVT. LTD. - Knowledge. Experience. Ability]].
+  *[[http://www-one-global.com/|One GLobal - businss without barriers]].
+  *[[http://www.papagei.tv/|Papagei - Dolmetscher-Service]], [[http://www.papagei.com/|Papagei - Dolmetscher-Service]], [[http://www.papagei.mobi/|Papagei - Dolmetscher-Service]] - Human interpreter by mobile phone.
+    *[[http://www.facebook.com/papagei.tv|Facebook "papagei.tv"]].
+  *[[http://www.proz.com/profile/932692|Pro Z - The Translation Workplace]] - business platform for translators and translation requests.
+  *[[http://www.translizer.com/|Translizer]] - commercial human translation services.
+  *[[http://www.translatorpub.com/|TranslatorPub]] - "#1 Translation- Portal", "Freelance and Full-Time Translation Job Portal", "Paid Membership Required To Apply for Jobs".
+  *[[http://www.transperfect.com/|TransPerfect Translations International, Inc. / TransPerfect Translations GmbH]].
+  *[[http://www.world-translation.de/|World Translation]], Germany / Denmark  - commercial human translation services.
+==== Commercial Online Language Training Services ====
+  *[[http://www.babbel.com/|Babbel]] - commercial language courses: German, English, French, Italian, Spanish, Portuguese, Swedish.
+  *[[http://www.learnship.de/|Learnship Networks GmbH  "Learnship interactive"]].
+  *[[http://www.openenglish.com/|Open English]].
+  *"Rosetta Stone TOTALe" -> See [[learning.html|Learning, eLearning, Blended Learning & Teaching]].
+==== Commercial Language Training Services ====
+  *[[http://www.berlitz.de/|Berlitz - A Global Education Company]].
+  *[[http://www.feltec.de/|FELTEC Ltd. & Co. KG]] - "Ihr Spezialist für Business Englisch, Technisches Englisch und Technisches Deutsch".
+===== Language Certificates =====
+==== Resources ====
+  *[[http://www.fh-hannover.de/zff/sprachzertifikate/|Fachhochschule Hannover, University of Applied Sciences and Arts "Sprachzertifikate"]].
+==== DELF, Certificats CCIP ====
+  *[[http://www.fh-hannover.de/zff/sprachzertifikate/delfdalf/index.html|Fachhochschule Hannover, University of Applied Sciences and Arts "DELF (Diplôme d'Etudes en Langue Française), DALF (Diplôme Approfondi en Langue Française)"]].
+==== TOEFL, TOEIC ====
+  *The Next Generation TOEFL Test - TOEFL iBT.
+    *[[http://www.toefl.org/|TOEFL]].
+    *[[http://www.ets.org/toefl/|ETS TOEFL]].
+    *[[http://www.ets.org/toefl/ibt/scores/|ETS Scores]].
+    *[[http://ntis12.ets.org/onyx/TOEFLPowerPoints/NewTOEFLOverview.htm|ETS "Overview of the New TOEFL test"]] ( MSIE only ).
+    *[[http://ntis12.ets.org/onyx/TOEFLPowerPoints/UnderstandingNewScores.htm|ETS "Understanding and Setting New Scores"]] ( MSIE only ).
+    *[[http://ntis12.ets.org/onyx/TOEFLPowerPoints/StandardSettingResults.htm|ETS "Panel Recommendations - NOT FINAL SCORES"]] ( MSIE only ).
+    *[[http://toeflpractice.ets.org/|ETS "TOEFL Practice Online"]].
+  *[[http://esl.about.com/|About.Com "English as 2nd Language"]].
+  *[[http://www.e-fellows.net/show/detail.php/3983|e-fellows.net, das Online-Stipendium & Karrierenetzwerk "TOEFL. Womit dein Englisch bewiesen wäre"]].
+  *[[http://usa.fh-hannover.de/toefl.htm|Fachhochschule Hannover, University of Applied Sciences and Arts "Studienberatung USA: TOEFL iBT - Test of English as a Foreign Language"]].
+  *[[http://www.review.de/de/toefl/|Manhattan Review -"TOEFL – Übersicht"]].
+  *[[http://mba-gate.de/de/mba/bewerbung/toefl.html|MBA-Gate, Insiderinformationen zum MBA Studium "TOEFL"]].
+  *[[http://www.mba-net.de/Bewerbungshilfen/TOEFL.htm|MBA-NET, Ihr Partner bei der MBA Bewerbung "OEFL (Test of English as a Foreign Language) und TOEFL Kurse"]].
+  *[[http://www.taube-online.de/USA/usa-faq-9.html|Christian Taube "FAQ: Studieren in den USA. Welche Sprachanforderungen werden gestellt? (TOEFL)"]].
+  *[[http://www.ia.uni-stuttgart.de/asb/faq/sprachtest.html|University of Stuttgart "Informationen zu den Sprachtests"]].
+==== Books ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0838442811/hemmerling-21|Milada Broukal, Kathleen Flynn: "The Heinle & Heinle TOEFL Assistant: Test of Written English (Twe) (College ESL)"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0764123130/hemmerling-21|Lin Lougheed: "Barron's How to Prepare for the TOEFL Essay"]].
+===== Resources =====
+  *[[http://www.fremdsprachenweb.net/|Fremdsprachenweb]].
+  *[[https://www.coursera.org/about/translate|Coursera "Global Translator Community"]] - "Objective: First and foremost, by translating top courses you are helping millions of learners who may otherwise struggle to understand courses taught outside their native language".
+  *[[http://www.transifex.com/accounts/profile/hemmerling/|Transifex - Localization platform]].
+  *[[http://www.languagesoftware.net/|Language Software Reviews]].
+===== Forums, Newsgroups =====
+  *[[http://class.coursera.org/translations-001/forum|Coursera "Global Translator Community Headquarters" Discussion Forums]].
+    *[[http://class.coursera.org/translations-001/forum/list?forum_id=10020|Coursera "Global Translator Community Headquarters" - "Discussion Forums / Language Communities German"]].
+  *[[http://www.facebook.com/groups/antosch/|Facebook "Antosch & Lin Languages"]].
+  *[[http://www.linkedin.com/groups?gid=3811717 |LinkedIn "Täglich Englisch lernen mit World Speaking"]] by [[http://www.worldspeaking.de/|World Speaking]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Business/Business_Services/Communications/Translation/|OpenDirectory "Top: Business: Business Services: Communications: Translation"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wirtschaft/Kommunikation/%C3%9Cbersetzungen/|OpenDirectory "Top: World: Deutsch: Wirtschaft: Kommunikation: Übersetzungen"]].
+{{tag>translations translate "translation service" "translation services"}}
+<footnote_navi_en>

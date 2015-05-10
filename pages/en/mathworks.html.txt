@@ -1,0 +1,133 @@
+====== [hemmerling] MathWorks ( MATLAB / Simulink ) ======
+Related Pages:
+  *[[infographics.html|Data Visualisation with Infographics]].
+  *[[instrumentation.html|Instrumentation]].
+  *[[mathengineering.html|Mathematical Engineering]].
+  *[[ni.html|National Instruments ( Labview, DIAdem )]].
+  *[[mathcad.html|PTC Mathcad]].
+  *[[simulate.html|Simulation]].
+===== MathWorks ===== 
+  *[[http://www.mathworks.com/|MathWorks]], [[http://www.mathworks.de/|MathWorks, Germany]].
+  *The FTP Server [[ftp://ftp.mathworks.com/|ftp.mathworks.com]] - Some free downloads.
+  *[[http://www.mathworks.com/help/|MathWorks "MathWorks Documentation"]].
+    *[[http://www.mathworks.com/help/doc-archives.html|MathWorks "Archived MathWorks Documentation"]].
+      *[[http://www.mathworks.com/help/releases/R14sp2/helpdesk.html|MathWorks "R14SP2 MathWorks Documentation (Release 14 with Service Pack 2)"]].
+  *[[http://www.mathworks.com/matlabcentral|MATLAB Central]].
+    *[[http://www.mathworks.com/matlabcentral/fileexchange/|MATLAB Central - File Exchange]].
+    *[[http://www.mathworks.com/matlabcentral/newsreader/|MATLAB Newsreader]].
+    *[[http://blogs.mathworks.com/|MATLAB Central Blogs]] - directory of blogs.
+    *[[http://www.mathworks.de/matlabcentral/contest/|MATLAB Central - MATLAB Programming Contest]].
+      *Blog [[http://blogs.mathworks.com/contest/|The MathWorks - MATLAB Programming Contest Blog]].
+  *[[http://www.mathworks.de/automotive/|MathWorks Deutschland "Automobilindustrie"]].
+    *[[http://www.mathworks.de/automotive/standards/maab.html|MathWorks Deutschland "Automotive Industry Standards" - The MathWorks Automotive Advisory Board]] - "Control Algorithm Modeling Guidelines using MATLAB, Simulink, and Stateflow" ( DOC+PDF ).
+    *[[http://www.mathworks.de/products/simverification/|MathWorks Deutschland "Automotive Industry Standards" - "Simulink Verification and Validation"]].
+    *[[http://www.mathworks.de/automotive/standards/misra-c.html|MathWorks Deutschland "Automotive Industry Standards"  - "MISRA C Support in MATLAB and Simulink"]].
+    *[[http://www.mathworks.de/company/newsletters/digest/july03/checking_code.html|MathWorks, MATLAB Digest - July 2003 "Checking Code and Models in Production Environments"]].
+  *[[http://www.mathworks.com/moler/|Mathworks.com "Clive Moler"]], [[http://www.mathworks.de/moler/|Mathworks.de "Clive Moler"]].
+  *[[http://www.mathworks.com/products/stateflow/|Mathworks "Stateflow"]].
+    *[[http://en.wikipedia.org/wiki/Stateflow|EN.Wikipedia "Stateflow"]], [[http://de.wikipedia.org/wiki/Stateflow|DE.Wikipedia "Stateflow"]].
+  *With MATLAB 2012-b, the user interface of MATLAB was relaunched, i.e. MATLAB 2012-b and newer are shipped with a more modern GUI :-).
+===== MATLAB / Simulink Student Editions ===== 
+==== Current MATLAB Editions ====
+  *[[http://www.mathworks.de/academia/|MathWorks Academia]].
+  *[[http://www.mathworks.com/academia/student_version/|MathWorks "MATLAB & Simulink Student Version"]].
+    *[[http://www.mathworks.com/academia/student_version/sysreq-r2010a/|MathWorks "MATLAB & Simulink Student Version - Release 2010a"]].
+    *Table which lists add-on product versions for each MathWorks Student Version release.
+      *[[http://www.mathworks.de/academia/student_version/companion.html|MathWorks, MATLAB & Simulink Student Version, Add-On Products]] - Release 2010a & Release 2009a.
+      *[[http://web.archive.org/web/*/http://www.mathworks.de/academia/student_version/companion.html|Archive.org "MathWorks, MATLAB & Simulink Student Version, Companion Products"]] - Unfortunately, there is no explicite list stored for MATLAB 7.0.x ( R14SP2 ).
+  *[[http://www.academic-center.de/cgi-bin/product/P13511|Academic Center "MathWorks Studentenversionen - MATLAB Studenten Version"]], for Germany.
+==== MATLAB 7.0.x ( R14SP1, R14SP2, R14SP3 ) ====
+  *[[http://www.mathworks.com/academia/student_version/doc_r14.html|MathWorks "MATLAB & Simulink Student Version Release 14 with Service Pack 3, Documentation"]].
+  *Book "MATLAB and Simulink Student Version (Paperback)" = MATLAB R14, SP1.
+    *[[http://www.amazon.de/Matlab-Simulink-Student-Version-Release/dp/0975578782/|Amazon.de Marketplace "Matlab and Simulink Student Version Release 14. CD-ROM"]].
+    *[[http://www.amazon.de/MATLAB-Simulink-Student-Version-Release/dp/0975578723|Amazon.de Marketplace "MATLAB and Simulink Student Version: Release 14"]].
+    *[[http://www.amazon.com/Matlab-Simulink-Release-Student-Version/dp/0975578731/|Amazon.com Marketplace "MATLAB and Simulink Student Version Release 14"]].
+  *MATLAB 7.0.x ( R14SP2 ) and older - "CD-ROM must be in CD-ROM drive to launch MATLAB and view online documentation". The full version for Windows has no such copy protection, while the full version for Linux uses a FLEXlm license manager.
+  *MATLAB 7.1, SIMULINK 6.3 (R14SP3) and newer - Mandatory "Software activation" for the student edition. The CD-ROM must not be in the CD-ROM drive to launch MATLAB anymore.
+  *MATLAB R14SP1 release (student version) supports Data Acquisition Toolbox 2.5, and R14SP3 release (student version) supports Data Acquisition Toolbox 2.7. Neither DAQ 2.8 nor 2.9 are supported in these two releases.
+  *The student edition of Simulink is limited to 1000 blocks !
+==== MATLAB 5.0, 5.3 & Simulink 2 Addon ====
+  *Maximum matrix size = 16384 elements.
+  *I got MATLAB 5.3 Student edition, shipped with the book [[http://www.amazon.de/exec/obidos/ASIN/0132725509/hemmerling-21|The Student Edition of MATLAB Version 5 User's Guide]].
+  *I got [[http://www.amazon.de/exec/obidos/ASIN/3827202019/hemmerling-21|SIMULINK 2, Student Edition]], an addon for MATLAB 5.0. At least my version does not work with MATLAB 5.3. Modells are limited to 50 blocks.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0132724774/hemmerling-21|The Student Edition of MATLAB Version 5 User's Guide]] - MATLAB 5.0 ?!
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0136596991/hemmerling-21|The Student Edition of Simulink: Dynamic System Simulation for Matlab : User's Guide]] - for use with MATLAB 5.0 ?!
+===== How to write Matlab drivers ! ===== 
+  *[[http://www.mathworks.com/help/toolbox/daq/daq.html|MathWorks, Data Acquisition Toolbox]].
+    *[[http://www.mathworks.com/help/toolbox/daq/brci3ty-1.html#brci3ty-10|MathWorks, Data Acquisition Toolbox "Hardware Driver Adaptor"]].
+    *"Data Acquisition Toolbox Adaptor Kit 2 User’s Guide" (PDF).
+  *[[http://www.econ.kuleuven.be/public/ndbae76/pdf_doc/daq/|>K.U.Leuven Faculteit Economie en Bedrijfswetenschappen - Directory "daq"]].
+    *[[http://www.econ.kuleuven.be/public/ndbae76/pdf_doc/daq/adaptorkit.pdf|>K.U.Leuven Faculteit Economie en Bedrijfswetenschappen "Data Acquisition Toolbox Adaptor Kit. User's Guide. Version 1"]], 2000-2001.
+  *[[http://www.mathworks.com/help/toolbox/instrument/f11-6010.html|MathWorks, Instrument Control Toolbox "Using Generic Instrument Drivers"]].
+  *[[http://www.mathworks.com/help/techdoc/matlab_external/bp_kqh7.html|MathWorks, MATLAB "External Interfaces"]].
+  *[[http://www.mathworks.com/company/newsletters/news_notes/win03/patterns.html|MathWorks "MATLAB News & Notes - November 2003 - Programming Patterns. Calling Generic DLL Functions From MATLAB"]].
+  *[[http://www.mathworks.com/matlabcentral/fileexchange/2800-generic-dll-front-end|MathWorks MATLAB Central "Generic DLL Front-End"]].
+    *[[http://www.mathworks.com/matlabcentral/fx_files/2800/1/content/GenericDLL/loadlibrarygui.html|MathWorks MATLAB Central "Generic DLL GUI Help"]].
+  *[[http://web.archive.org/web/*/http://www.mathworks.com/access/helpdesk/help/techdoc/matlab_external/f23224dfi7.html|Archive.org "MathWorks - MATLAB Interface to Generic DLLs"]].
+  *[[http://www.codeproject.com/KB/DLL/MatlabGenericDll.aspx|The Code Project "A. Riazi - MATLAB Generic DLL"]].
+  *LabJack.
+    *[[http://labjack.com/support/u12/examples/matlab|LabJack "MATLAB (U12) - LabJack U12 drivers for MATLAB 6.1"]].
+    *[[http://forums.labjack.com/index.php?showtopic=55|LabJack Forum "Direct DLL calls in MATLAB 6.5+"]].
+===== Real-Life Events and Virtual Events ( Webinars, Webcasts ) =====
+  *[[http://www.mathworks.com/company/events/|MathWorks -Events]].
+  *[[http://www.mathworks.com/company/events/webinars/|MathWorks - Recorded Webinars]].
+    *[[http://www.mathworks.com/company/events/webinars/wbnr30762.html|MathWorks "Recorded Webinar: Acquiring Live Data into MATLAB for Analysis, Visualization, and Application Development"]], 2006-05-11.
+  *[[http://mathworksevents.webex.com/|The MathWorks - Live Webinars @ WebEx]].  
+  *[[http://events.unisfair.com/index.jsp?eid=461&seid=991|MATLAB Virtual Conference 2010]].
+===== Additional Tools and Drivers =====
+==== Drivers & Functions ====
+  *[[http://www.agilent.com/find/udf|Agilent Technologies "N8806A User Defined Function for Editing and Execution for Infiniium Oscilloscopes"]].
+==== Tools ====
+  *[[http://www.dspace.com/de/gmb/home/products/sw/pcgs/targetli.cfm|dSPACE Targetlink]].
+  *[[http://www.mtest-classic.com/|MTest classic]] - "Efficient model test management for Simulink and TargetLink models".
+
+==== References ====
+  *[[http://www.tech.plym.ac.uk/spmc/links/matlab/matlab_toolbox.html|MATLAB Toolboxes]] - list of free and commercial third-party toolboxes for MATLAB.
+===== Simulink =====
+  *[[http://www.mathworks.de/help/toolbox/simulink/slref/codereusesubsystem.html|Mathworks "Subsystem, Atomic Subsystem, Nonvirtual Subsystem, CodeReuse Subsystem"]] -> "A subsystem is virtual unless the block is conditionally executed and/or you have selected the **Treat as atomic unit** check box".
+===== Books =====
+  *[[http://www.mathworks.de/programs/academia/mcgrawhill/?s_v1=37971447_1-13B9DY|MathWorks Deutschland - Free for Instructors: Numerical Methods Curriculum Materials "Applied Numerical Methods with MATLAB for Engineers and Scientists, 3rd Edition"]].
+
+
+===== Resources =====
+  *Boston University, Information Services & Technology.
+    *[[http://www.bu.edu/tech/research/training/tutorials/matlab/|Boston University, Information Services & Technology "Introduction to MATLAB"]].
+    *[[http://www.bu.edu/tech/research/training/scv-software-packages/list/|Boston University, Information Services & Technology "SCV Software Packages"]].
+      *[[http://www.bu.edu/tech/research/training/scv-software-packages/matlab/|Boston University, Information Services & Technology "MATLAB Basics"]] ( SCV Help ).
+  *Carnegie Mellon.
+    *[[http://www.engin.umich.edu/group/ctm/|Carnegie Mellon - "Control Tutorials for Matlab"]], old.
+    *[[http://www.engin.umich.edu/class/ctms/|Carnegie Mellon - "Control Tutorials for MATLAB and Simulink"]], newer.
+  *[[http://www.e-guidelines.de/|e-Guidelines. Guidelines for Model Based Development]] by [[http://www.model-engineers.com/|Dr.-Ing. Ingo Stürmer, Model Engineering Solutions]].
+    -"MAAB-2007" / "MAAB - CONTROLLER STYLE GUIDELINES FOR PRODUCTION INTENT USING MATLAB, Simulink and Stateflow Version 2.1" -> [[http://www.mathworks.de/products/simverification/|MathWorks Deutschland "Automotive Industry Standards" - "Simulink Verification and Validation"]].
+    -"TargetLink Known Problems" / "MXAM Checks für TargetLink 2.0 - 3.0 Known-Problems".
+    -"dspace_2_1" / "Modeling Guidelines for MATLAB/Simulink/Stateflow and TargetLink".
+  *[[http://www.eeggs.com/tree/422.html|The Easter Egg Archive - Matlab Easter Eggs]].
+  *[[http://www.mathtools.net/|MathTools.Net - Link Exchange for the Technical Computing Community]] - "hostet by [[http://www.mathworks.com/|Mathworks]]".
+  *MathWorks Paper "Process Integration of Model-Based Design and Production-Code in the Multi-User / Multi-Project Development at Continental Teves".
+    *[[http://www.mathworks.com/company/newsletters/auto_digest/oct04/papers/continental_part1.pdf|Process Integration of Model-Based Design and Production-Code in the Multi-User / Multi-Project Development at Continental Teves - Part 1]] (PDF).
+    *[[http://www.mathworks.com/company/newsletters/auto_digest/oct04/papers/continental_part2.pdf|Process Integration of Model-Based Design and Production-Code in the Multi-User / Multi-Project Development at Continental Teves - Part 2]] (PDF).
+  *[[http://itp.tugraz.at/|TU Graz, Institut für Theoretische Physik]].
+    *[[http://itp.tugraz.at/matlab/begin_here.html|TU Graz, Institut für Theoretische Physik "R2007a: Begin Here"]].
+    *[[http://itp.tugraz.at/matlab/|TU Graz, Institut für Theoretische Physik, Directory "matlab"]].
+    *[[http://itp.tugraz.at/matlab/techdoc/|TU Graz, Institut für Theoretische Physik, Directory "matlab/techdoc"]], [[http://itp.tugraz.at/matlab/techdoc/matlab_product_page.html|TU Graz, Institut für Theoretische Physik "MATLAB Product Page"]].
+    *[[http://itp.tugraz.at/matlab/toolbox/|TU Graz, Institut für Theoretische Physik, Directory "matlab/toolbox"]].
+    *[[http://itp.tugraz.at/matlab/techdoc/ref/|TU Graz, Institut für Theoretische Physik "MATLAB Function Reference"]].
+    *[[http://itp.tugraz.at/matlab/techdoc/matlab_product_page2.html|TU Graz, Institut für Theoretische Physik "MATLAB - Printable (PDF) Documentation on the Web]].
+  *[[http://www.hs-weingarten.de/web/bachelorstudiengang-elektrotechnik-und-informationstechnik/reglungstechnik|Hochschule Ravensburg-Weingarten - Regelungstechnik]] -> "Script zur Matlab-Einführung" (PDF).
+  *[[http://en.wikipedia.org/wiki/Cleve_Moler|EN.Wikipedia "Cleve Moler"]].
+===== Forums, Newsgroups =====
+  *[[http://www.gomatlab.de/|goMatlab - Mein MATLAB Forum]].
+  *[[http://groups.google.com/group/comp.soft-sys.matlab/|Google Groups "comp.soft-sys.matlab"]], [[http://www.mathworks.com/matlabcentral/newsreader/|MATLAB Central - MATLAB Newsgroup]].
+  *[[http://forums.labjack.com/|LabJack Forum]].
+  *LinkedIn.
+    *[[http://www.linkedin.com/groups?gid=68980|LinkedIn "Matlab"]].
+    *[[http://www.linkedin.com/groups?gid=109866|LinkedIn "MATLAB Users"]].
+  *[[http://www.stackoverflow.com/questions/tagged/matlab|Stack Overflow - Tagged Questions "[matlab]"]], [[http://www.stackoverflow.com/questions/tagged/simulink|Stack Overflow - Tagged Questions "[simulink]"]].
+
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Science/Math/Software/MATLAB/|OpenDirectory "Top: Science: Math: Software: MATLAB"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wissenschaft/Mathematik/Software/MATLAB/|OpenDirectory "Top: World: Deutsch: Wissenschaft: Mathematik: Software: MATLAB"]].
+  *[[http://www.dmoz.org/Science/Software/Simulation/|OpenDirectory "Top: Science: Software: Simulation"]].
+  *[[http://www.dmoz.org/Computers/Artificial_Intelligence/Machine_Learning/Software/|OpenDirectory "Top: Computers: Artificial Intelligence: Machine Learning: Software"]].
+{{tag>MATLAB Simulink "MATLAB/Simulink" math"}}
+<footnote_navi_en>

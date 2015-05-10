@@ -1,0 +1,61 @@
+====== [hemmerling] Help Systems ======
+Related page:
+  *[[usability.html|Usability]].
+
+===== Help Systems =====
+==== Local help systems that have to be installed on the client ====
+=== Old Microsoft .HLP help files ===
+=== Browser based .CHM help files ===
+  *Experiences with CHM-Help: Microsoft security rules prevent the utilization of CHM-files from file shares. Therefore a complicated roll-out to each individual client has to be done, which contradicts the "zero rollout"-concept of InfoCarrier.
+=== Browser based .HTML help pages ===
+  *Experiences with HTML-Help: The help system takes a long time to start. Users often are forced to use old browser versions, which do not support the format of the help files. Hence they had problems using the help system. Security settings generally do not allow utilization of software required for the help system such as Flashplayer, Silverlight, Java-Applets, Cookies etc.
+=== Extended Webhelp formats using more advanced components like Flash, Silverlight, Java and others ===
+=== .NET help formats (winhelp 2.0 and 3.0) ===
+=== Document based help systems using .PDF files ===
+=== Detached Help Systems, in General ===
+  *Experiences with detached help systems in general: 
+    *These systems require a manually maintained map-file, which maps help topics to controls in the software. 
+    *There are no automated means for checking the consistency of such links. Missing help topics or broken links can be discovered only by a manual walk-through through the system. This is a constant source for errors. 
+    *At lot of files have to be installed with thousands of hyperlinks. Broken hyperlinks, missing image files, wrong relational paths etc. were constant problems. 
+    *The rollout has to be done manually via file copying as an additional step and was hence often not done.
+    *At every upgrade, the entire system has to be replaced.	
+    *Problems with version control and synchronous rollout of the main software and help system versions.
+==== Server based help systems ====
+=== Public help servers available on the Internet ===
+=== Local help servers installed in the Intranet of the customer ===
+==== Proprietary help systems integrated in the application system (e.g. SAP) ====
+===== Help Authoring Systems =====
+==== Adobe "Robo Help" ====
+  *Experiences with RoboHelp: The RoboHelp-software is overloaded with functionality and difficult to be used. Adobe keeps on adding ever more gimmicks. This makes it hard to be used for the casual user. As a consequence, the help-system was not kept up to date. The help system suffers from many broken links and missing images.
+==== Doc2Help =====
+===== Keywords Handling in Help Systems =====
+  *Keywords are an important and helpful way to find subjects. Standard word processors and help authoring systems support two levels of keywords. A typical keyword section of a document would look as follows:
+    *Keyword Pages:
+      *sample 12, 30, 43.
+        *automatic creation 25, 32.
+        *releasing 60.
+        *un-release 62.
+      *sample type 28, 15.
+        *formula 18.
+        *revisions 47.
+  *In most help authoring systems the handling of keywords is implemented as follows: 
+    *Each topic is associated with a container for keywords.
+    *Keywords are created by copying text strings from the help topic or by entering them manually.
+    *Second level keywords are created by dragging and dropping them underneath a first level keyword.
+    *When the help system is compiled, a distinct string-list list of all first and second level keyword is cre-ated and page numbers are associated.
+  *Keywords of course have to be translated into different languages. The procedure described above has the following disadvantages:
+    *Each keyword has to be translated as many times as it occurs in the text, since the translation has to be done prior to constructing distinct lists. A word like "sample" or "lot" can easily appear dozens of times in the keyword list. This not only entails tedious translation work, but also risks for inconsisten-cies, since usually a lot of synonyms exist in other languages.
+    *Since keywords are handled for each language separately it is very difficult to maintain consistency between languages.
+    *In order to avoid multiple translations of the same keywords again and again, another mechanism must be applied: a keyword master list based on descriptions, which is maintained in several languages and which is then linked to the topics. This implies a higher programming effort and makes maintaining keywords more difficult, since the help author has to make a decision, when to create a new keyword or link to an existing one. But on the other hand the translation effort is reduced drastically and the keyword lists should become much more consistent.
+  *Third-party experiments with help topics in some help system showed, that in fact matching words in help topics with existing literals gives a good suggestion list for key words. This is a valuable help for the help author for making key word lists more coherent and exhaustive.
+  *Unfortunately you can't link literals as keywords, since it must be possible to modify and delete them. The translation can also differ in the context of the help system. Hence unfortunately keyword descriptions have to be copied upon creation.
+===== How to document Screens of Applications =====
+  *[[http://en.wikipedia.org/wiki/Adjacency_matrix|EN.Wikipedia "Adjacency matrix"]], [[http://de.wikipedia.org/wiki/Repräsentation_von_Graphen_im_Computer|DE.Wikipedia "Repräsentation von Graphen im Computer"]].
+===== Definitions =====
+  *Literals = Special common repeatedly used words in the user interface ( e.g. GUI,.. ) of a software, maintained in special lists in the software.
+  *[[http://en.wikipedia.org/wiki/Literal_%28computer_programming%29|DE.Wikipedia "Literal (computer programming)"]], [[http://de.wikipedia.org/wiki/Literal|DE.Wikipedia "Literal"]]
+
+===== Resources =====
+  *Wikipedia alone lists 20+ different help authoring tools :-).
+{{tag>"help systems" "help system" help systems system}}
+<footnote_navi_en>

@@ -1,0 +1,194 @@
+====== [hemmerling] Google Android ======
+===== Phone Liberation Workshops =====
+  *[[http://www.blit.org/2012/zeitplan/events/50.de.html|BLIT 2012 - Brandenburger Linux-Infotag 2012 "FreeYourAndroid"]] - "Phone Liberation Workshop".
+===== Hardware =====
+==== My Android Tablet "I-ONIK TabletPC TP7-1000DC light" ====
+  *[[http://www.i-onik.de/|I-ONIK]].
+    *[[http://www.i-onik.de/tablet_pcs_7_zoll|I-ONIK "Tablet PCs 7''. Entertainment on Tour – Die neue Tablet-Serie von i.onik"]] -> Datasheet & PDF manual.
+    *[[http://service.i-onik.de/a13_source_1.5/|Directory "service.i-onik.de/a13_source_1.5/"]] - "Source Code für TP7-1000, TP7-1000-metal und TP8-1000"
+      *Please  install [[http://www.gnu.org/software/wget/|GNU "Wget"]] and execute "wget -m [[http://service.i-onik.de/a13_source_1.5/|http://service.i-onik.de/a13_source_1.5/]]" for download of the complete directory tree.
+  *[[http://www.amazon.de/I-ONIK-TabletPC-TP7-1000/dp/B009F173V4|Amazon.DE "I-ONIK TabletPC TP7-1000"]].
+  *[[http://www.google.de/search?q=I-ONIK+TabletPC+TP7-1000|Google - Search for "I-ONIK TabletPC TP7-1000"]].
+==== My Android Phone "Alcatel One Touch  Scribe HD 8008D" ====
+=== The Tool ===
+  *[[http://www.alcatelonetouch.com/|Alcatel-Lucent "Alcatel One Touch]].
+    *[[http://www.alcatelonetouch.com/de/produkte/smartphones.html|Alcatel-Lucent - Alcatel One Touch Smartphones]] - 
+      *[[http://www.alcatelonetouch.com/de/produkte/smartphones/one_touch_scribehd.html|Alcatel-Lucent "One Touch Scribe HD Dual SIM]].
+=== Resources ===
+  *[[http://www.fonearena.com/blog/64088/alcatel-one-touch-scribe-hd-hands-on.html|Fonearena "Alcatel One Touch Scribe HD Hands On"]].
+  *[[http://www.versus.com/en/alcatel-one-touch-scribe-hd-8008d-vs-nokia-808-pureview|Versus.com "Alcatel One Touch Scribe HD 8008D vs Nokia 808 Pureview. Top 32 Reasons for the Alcatel One Touch Scribe HD 8008D"]].
+  *[[http://www.androidnext.de/tests/alcatel-one-touch-scribe-hd/|androidnext - Android-News, Apps, Tablets, Smartphones & mehr "Alcatel One Touch Scribe HD im Test: 5-Zoll-Smartphone mit Dual-SIM"]].
+    *"Auf NFC oder gar LTE-Konnektivität muss man hingegen verzichten" :-(.
+    *"Mit Android 4.2.1 in einer ziemlich unmodifizierten Variante erfindet das Alcatel One Touch Scribe HD zwar das Rad nicht neu" -> My device is shipped with Android 4.2.1 indeed.
+  *[[http://en.wikipedia.org/wiki/Alcatel_One_Touch|EN.Wikipedia "Alcatel One Touch"]].
+  *The smartphone does not support external keyboards. In the "Setting" app, section "Language & input", there is no menu entry "External Keyboard" :-(.
+    *[[http://play.google.com/store/apps/details?id=com.medion.android.keyboard|Android Apps on Google Play "External Keyboard"]].
+  *The smartphone does not support the playing of "ringtones", i.e. in case of an incoming telephone call, the telephone can´t be configured to play a user-defined audiofile.
+==== Android Phones which can be operated with dual SIM Cards ====
+=== Alcatel-Lucent ===
+  *[[http://www.alcatelonetouch.com/de/produkte/smartphones.html|Alcatel-Lucent - Alcatel One Touch Smartphones]] - Smartphones with dual SIM card slots: "One Touch Idol DUal SIM", "One Touch Scribe HD Dual SIM", "One Touch Mpop Dual SIM", "One Touch Spop Dual SIM".
+=== Samsung Galaxy S Duos Gt-S7562 ===
+  *[[http://en.wikipedia.org/wiki/Samsung_Galaxy_S|EN.Wikipedia "Samsung Galaxy S"]], [[http://en.wikipedia.org/wiki/Samsung_Galaxy_S_series|EN.Wikipedia "Samsung Galaxy S series"]].
+  *[[http://de.wikipedia.org/wiki/Samsung_Galaxy_S|DE.Wikipedia "Samsung Galaxy S"]] - "Galaxy S DUOS. Im August 2012 wurde das Galaxy S DUOS vorgestellt, das zwei SIM-Karten aufnehmen kann, so dass zwei unterschiedliche Anschlüsse gleichzeitig verwendet werden können".
+=== Simvalley Smartphones ===
+  *[[http://www.pearl.de/kw-1-smartphones.shtml|PEARL Agency - Search for "smartphones"]].
+  *[[http://www.pearl.de/nc-101-smartphones-smart-watches.shtml|PEARL Agency "Smartphones & Smart-Watches"]].
+  *[[http://www.pearl.de/nc-1010-android-smartphone-smartwatch-android-uhr.shtml|PEARL Agency "Simvalley Smartphone & Smartwatches"]].
+==== Android Phones with Blue Tooth Low Energy ( BLE ) Feature ====
+  *[[http://en.wikipedia.org/w/Samsung_Galaxy_S4|Samsung Galaxy S4]], [[http://en.wikipedia.org/w/Samsung_Galaxy_S5|Samsung Galaxy S5]].
+  *Google [[http://en.wikipedia.org/wiki/Nexus_4|Nexus 4]], [[http://en.wikipedia.org/wiki/Nexus_5|Nexus 5]], [[http://en.wikipedia.org/wiki/Nexus_6|Nexus 6]].
+  *Motorola 
+    *[[http://www.motorola.com/us/smartphones/moto-g-1st-gen/moto-g-pdp.html|Motorola "Moto G (1st Gen.)"]].
+    *[[http://www.motorola.com/us/smartphones/moto-g-2nd-gen/moto-g-2nd-gen.html|Motorola "Moto G (2nd Gen.)"]].
+    *[[https://www.motorola.com/us/motomaker?pid=FLEXR2‎|Moto-X]].
+===== Development Software =====
+==== Platform & Software Development Kit ( SDK )====
+=== The Platform ===
+  *[[http://www.android.com/|Google Android]].
+  *[[http://developer.android.com/|Google Android developer]].
+  *Supported Operating Systems for Android SDK: Linux and WinXP / Vista / Win7.
+  *[[http://code.google.com/android/|Google Code: Google Projects for Android]].
+=== Android Studio, based on IntelliJ ===
+  *[[http://developer.android.com/sdk/installing/studio.html|Google Android "Getting Started with Android Studio"]].
+    *Error message "Error launching Android Studio. No JVM installation found. Please install a 32-bit JDK. If you already have a JDK installed, define a JAVA_HOME variable in Computer > System Properties > System Settings > Environment Variables".
+    *[[http://en.wikipedia.org/wiki/Android_Studio|EN.Wikipedia "Android Studio"]], [[http://de.wikipedia.org/wiki/Android_Studio|DE.Wikipedia "Android Studio"]].
+=== Android SDK ===
+  *[[http://developer.android.com/sdk/installing/|Google Android "Installing the SDK"]].
+=== The legacy Android ADK, based on Eclipse ===
+  *[[http://web.archive.org/web/20141202044627/http://developer.android.com/sdk/index.html#download|Archive.org "Get the Android SDK"]], 2014-12-02
+    *"Download the ADT Bundle to quickly start developing apps. It includes the essential Android SDK components and a version of the Eclipse IDE with built-in ADT (Android Developer Tools) to streamline your Android app development".
+    *Click on "VIEW ALL DOWNLOADS AND SIZES" to see all downloads.
+  *Latest and last, now legacy editions:
+    *[[http://dl.google.com/android/adt/adt-bundle-linux-x86_64-20140702.zip|Android Developer Tools ( ADT ) for Linux 64bit]].
+    *[[http://dl.google.com/android/adt/adt-bundle-linux-x86-20140702.zip|Android Developer Tools ( ADT ) for Linux 32bit]].
+    *[[http://dl.google.com/android/adt/adt-bundle-windows-x86-20140702.zip|Android Developer Tools ( ADT ) for Win32]].
+    *[[http://dl.google.com/android/adt/adt-bundle-windows-x86_64-20140702.zip|Android Developer Tools ( ADT ) for Win64]].
+  *[[http://www.stackoverflow.com/questions/27449206/what-is-the-final-version-of-the-adt-bundle|StackOverflow "What is the final version of the ADT Bundle?"]].
+=== Free and commercial Android Emulators ===
+  *"Android Emulator".
+    *[[http://developer.android.com/guide/developing/tools/emulator.html|Android Developers: Android Emulator]].
+    *Video [[http://www.youtube.com/watch?v=JxUQhnRf1oQ|YouTube "How-To: Android SDK Emulator"]].
+    *[[http://www.android.encke.net/android-emulator-tutorial.html|Google Android Emulator Tutorial]].
+    *[[http://developer.android.com/tools/help/emulator.html|Android Developer Help "Android Emulator"]].
+    *Emulation of Android smartphones is ok, emulation of Android tablets is slow ( due to the higher performance level of these devices ).
+  *The Android emulator [[http://www.genymotion.com/|Genymobile "Genymotion"]], a Java application with free limited and full commercial editions.
+  *The generic OpenSource emulator [[http://www.qemu.org/|QEMU]] may emulate Android devices too :-). It is shipped with the Yocto project :-).
+    *[[http://en.wikipedia.org/wiki/QEMU|EN.Wikipedia "QEMU"]], [[http://de.wikipedia.org/wiki/QEMU|DE.Wikipedia "QEMU"]].
+  *The affordable ShareWare Android emulator [[http://www.youwave.com/|YouWave for Android]] for Windows, with 10-day trial - "Runs Android apps and app stores on your PC, no phone required. Download thousands of apps online via app stores within youwave".
+=== Installation ===
+  *[[http://docs.appcelerator.com/titanium/3.0/#!/guide/Installing_the_Android_SDK|Titanium 3.X - Appcelerator Docs "Installing the Android SDK"]].
+    *The following packages, and the respective versions shown, must be installed to be able to develop for Android, as of 2014-08: 
+      -Android SDK 22.
+      -Android SDK 19.
+      -Android SDK 14 ( I was told by experts, to match the largest number of possible customers ).
+      -Android SDK 10.
+    *[[http://en.wikipedia.org/wiki/Android_version_history|EN.Wikipedia "Android version history"]], [[http://de.wikipedia.org/wiki/Liste_von_Android-Versionen|DE.Wikipedia "Liste von Android-Versionen"]].
+==== GUI Designers & IDEs for Android Development ====
+=== IDEs ===
+  *[[http://www.eclipse.org|Eclipse]].
+  *[[http://www.jetbrains.com/idea/|JetBrains "IntelliJ IDEA"]], [[http://www.jetbrains.com/idea/free_java_ide.html|JetBrains "IntelliJ IDEA Community Edition"]].
+    *[[http://en.wikipedia.org/wiki/IntelliJ_IDEA|EN.Wikipedia "IntelliJ IDEA"]], [[http://de.wikipedia.org/wiki/IntelliJ_IDEA|DE.Wikipedia "IntelliJ IDEA"]].
+    *[[http://developer.android.com/sdk/installing/studio.html|Android Developers "Getting Started with Android Studio"]].
+=== GUI Designers ===
+  *[[http://code.google.com/p/andrdev-emf-gui-designer/|Google Code "andrdev-emf-gui-designer"]].
+==== Android Editions ====
+=== The OpenSource Framework "Android 2" for Smartphones ===
+=== The ClosedSource Framework "Android 3" for Tablets ===
+=== The OpenSource Framework "Android 4" for Smartphones & Tablets ===
+=== Third-Party OpenSource Operating Systems and Applications ===
+== AppStore ==
+  *[[http://www.f-droid.org/|F-Droid]].
+== Operating Systems / Firmeware ===
+  *[[http://www.cyanogenmod.org/|CyanogenMod]] - "An aftermarket firmware for a number of cell phones based on the open-source Android operating system".
+  *[[http://www.replicant.us/|Replicant]].
+  *[[https://developer.mozilla.org/en/docs/Mozilla/Firefox_OS|Mozilla Developer "Firefox OS"]].
+=== Resources ==
+  *[[http://www.freeyourandroid.org/|FSFE "Free Your Android!]].
+==== JavaFX ====
+  *[[http://www.bitbucket.org/javafxports/android/|Bitbucket "JavaFX on Android Porting Community"]].
+==== Android Open Accessory Development Kit ( ADK ) ====
+=== The Framework ===
+  *[[http://developer.android.com/guide/topics/usb/adk.html|Android Developers "Android Open Accessory Development Kit"]] ( ADK ).
+    *[[http://developer.android.com/sdk/installing/bundle.html|Android Developers "Setting Up the ADT Bundle"]].
+      *[[http://developer.android.com/training/basics/firstapp/|Android Developers "Building Your First App"]].
+  *The ADK offers just Java6 support, i.e. no Java8 support.
+=== ATMega2560 ADK - Hardware I/O Device for Android ===
+  *See [[arduino.html|The Arduino / Freeduino Platform with Atmel ATmega, Microchip PIC, ARM, Freescale Coldfire]].
+=== IOIO - Hardware I/O Device for Android ===
+  *[[http://www.watterott.com/de/IOIO-for-Android|Watterott electronic GmbH "IOIO für Android"]].
+  *[[http://github.com/ytai/|GitHub "ytai / ioio"]].
+    *[[http://github.com/ytai/ioio/wiki|GitHub "ytai / ioio" - Wiki "IOIO Documentation"]].
+  *[[http://www.sparkfun.com/tutorials/280|SparkFun "OIO for Android Beginners Guide"]].
+  *[[http://ytai-mer.blogspot.de/|Blogspot Blog "Microcontrollers, Electronics & Robotics"]].
+    *[[http://ytai-mer.blogspot.de/2011/06/ioio-over-openaccessory-adk-available.html|Blogspot Blog "Microcontrollers, Electronics & Robotics" - "IOIO over OpenAccessory (ADK) Available"]], 2011-06-05.
+==== Resources ====
+  *Remember, while there is now Java8 for Desktop PCs, Android SDK is on the level of Java6!
+===== Tools =====
+  *[[http://www.droidsheep.de/|Droidsheep]] - "DroidSheep was developed as a tool for testing the security of your accounts and is based on my Bachelor thesis with title “Session Hijacking on Android Devices”".
+===== Tips & Tricks =====
+==== Handling of the Device ====
+  *[[http://www.wikihow.com/Close-Apps-on-Android|wikiHow to do anything "How to Close Apps on Android"]] :-).
+==== Tethering & Portable Hotspot ====
+  *[[http://www.softwareok.com/?seite=faq-Samsung-Galaxy&faq=3|SoftwareOK "AndroidAP Password for Samsung Galaxy (forgot, to change, enter new)?"]].
+  *Default SSID of Samsung smartphones: "AndroidAP".
+  *If you activate the "Tethering & Portable Hotspot", you can´t use another WLAN hotspot for Internet access. So a smartphone is not suitable to extend the range of a given WLAN :-(.
+===== App Software =====
+==== General ====
+  *Labyrinth, Holz-Labyrinth ( German ), Kugel-Labyrinth ( German ), [[http://itunes.apple.com/de/app/wooden-labyrinth-3d-free/id305713066?mt=8|ITunes, Elias Pietilä "Wooden Labyrinth 3D Free"]] -> Good application idea :-).
+  *The free game [[http://play.google.com/store/apps/details?id=com.smarty.no2048tile|Google Play "2048 tile" by "Tran Duy Bien"]].
+  *The free [[http://play.google.com/store/apps/details?id=com.farproc.wifi.analyzer|Google Play "Wifi Analyzer"]].
+  *The free [[http://play.google.com/store/apps/details?id=com.runtastic.android&hl=en|Google Play "Runtastic Running & Fitness"]].
+==== Calendar ====
+=== Tools ===
+  -[[http://play.google.com/store/apps/details?id=com.google.android.calendar|Google Play "Google Calendar"]] - 30 minutes timestep as the original online Google Calendar :-(.
+  -[[http://play.google.com/store/apps/details?id=org.withouthat.acalendar|Google Play "aCalendar - Android Calendar"]].
+  -[[http://play.google.com/store/apps/details?id=jp.co.johospace.jorte|Google Play "Jorte Calendar & Organizer"]].
+  -[[http://play.google.com/store/apps/details?id=netgenius.bizcal|Google Play "Business Calendar"]], [[http://play.google.com/store/apps/details?id=com.appgenix.bizcal|Google Play "Business Calendar 2"]].
+  -[[http://play.google.com/store/apps/details?id=com.digibites.calendar|Google Play "DigiCal Calendar & Widgets"]] - My choice: Loudest ringtone, snooze function, comfortable analog clock UI for time setup #.
+  -<del>[[http://play.google.com/store/apps/details?id=com.greenbeansoft.CheckmarkCalendarLite|Google Play "Checkmark All in One Calendar"]]</del> - Not a true calendar? No own calendar!
+  -[[http://play.google.com/store/apps/details?id=uk.co.olilan.touchcalendar.trial|Google Play "Touch Calendar Free"]].
+  -[[http://play.google.com/store/apps/details?id=com.appxy.calenmobfree|Google Play "CalenMob - Google Calendar"]].
+  -[[http://play.google.com/store/apps/details?id=com.upto.android|Google Play "UpTo - Calendar and Widget"]].
+  -[[http://play.google.com/store/apps/details?id=net.daum.android.solcalendar|Google Play "SolCalendar - Calendar / To do"]] - Integration service, no own calendar.
+  -[[http://play.google.com/store/apps/details?id=am.sunrise.android.calendar|Google Play "Sunrise Calendar"]] - 5 minutes timesteps only :-(.
+=== Resources ===
+  *[[http://thenextweb.com/apps/2013/08/16/12-of-the-best-calendar-apps-available-for-your-android-smartphone-today/|TNW "12 of the best calendar apps available for your Android smartphone today"]].
+  *[[http://www.phonearena.com/news/Best-Android-and-iPhone-calendar-apps-and-widgets-2014-edition_id58097|Phone Arena "Best Android and iPhone calendar apps and widgets (2014 edition)"]].
+
+===== Paper Magazines =====
+  *Paper magazine [[http://www.mobilebusiness.de/|Mobile Business]], Germany.
+  *[[http://www.nmg.de/|Neue Mediengesellschaft Ulm mbH]].
+    *Paper magazine [[http://www.mobile-developer.de/|mobile developer]], Germany.
+    *Paper magazine [[http://www.web-developer.de/|web developer]], Germany.
+===== Literature =====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3836216973/hemmerling-21|Thomas Künneth: "Android 3: Apps entwickeln mit dem Android SDK (Galileo Computing)"]], for Java developers.
+  *The free PDF book [[http://www.enough.de/products/mobile-developers-guide/|Enough Software GmbH & Co.KG  "Mobile Developer's Guide To The Galaxy"]] #.
+===== Resources =====
+  *[[http://www.androidpit.com/|AndroidPIT]], [[http://www.androidpit.de/|AndroidPIT.de]] - "Android Apps, Tests, Blog, News & Forum".
+  *[[http://www.android.com/|Android]].
+    *[[http://developer.android.com/|Android Developer]].
+      *[[http://developer.android.com/google/play-services/index.html|Android Developer "Google Play Services"]].
+        *[[http://developer.android.com/reference/android/hardware/SensorManager.html|Android Developer "SensorManager"]].
+        *[[http://developer.android.com/guide/components/|Android Developer "App Components"]].
+  *[[http://www.iknowdroid.com/2013/01/android-series-part-1-basics.html|Android Tutorials and more "Android Series : Part 1 - The Basics"]].
+  *[[http://www.androidviews.net/|AndroidViews - Custom Android UI Views]].
+  *[[http://www.bild.de/digital/internet/facebook/facebook-so-retten-sie-ihren-handy-datentarif-35503830.bild.html|BILD "Videos starten jetzt automatisch. Vorsicht! So saugt Facebook Ihr Datenvolumen ab"]], 2014-04-14.
+  *[[http://www.developer.com/ws/android/development-tools/intel-tools-for-the-android-developer.html|Developer.com "Intel Tools for the Android Developer"]].
+  *[[http://play.google.com/store/apps/details?id=com.inappsquared.devappsdirect|Googleplay "DevAppsDirect - Demo Market"]]
+  *[[http://www.groovypost.com/howto/mobile/android-how-to-allow-install-apps-unknown-sources/|groovyPost "How To Allow And Install Apps From Unknown Sources On Android"]].
+  *Hardware: The three Android buttons "Back", "Home", "Menu" :-).
+  *[[http://www.heise.de/developer/artikel/Uebersicht-ueber-die-aktuelle-Situation-fuer-Mobile-Entwickler-1579250.html|heise Developer "Kay Glahn: Übersicht über die aktuelle Situation für Mobile-Entwickler"]], 2012-05-18.
+  *[[http://www.openintents.org/en/libraries|OpenIntents "Android Libraries"]].
+  *[[http://www.vdi-nachrichten.com/vdi-nachrichten/aktuelle_ausgabe/akt_ausg_detail.asp?cat=2&id=16180|VDI Nachrichten: "Googles Navi-Software für Handys macht Navigationsspezialisten keine Angst"]] ( 2009-11-06) - "Google hat die Navigationslösung für Europa noch nicht freigegeben".
+  *[[http://www.warp.ly/mobile-marketing/push-notifications|Warply "Push Notifications"]].
+  *[[http://www.welt.de/wirtschaft/webwelt/article118249566/Nur-Apple-profitiert-wirklich-vom-Smartphone-Boom.html|DIE WELT "Nur Apple profitiert wirklich vom Smartphone-Boom"]], 2013-07-22.
+    *"Firmen wie Samsung, die Android einsetzen, müssen dafür Patentgebühren von bis zu zehn Dollar pro Gerät an Microsoft zahlen. Die kann der Konzern direkt als Gewinn verbuchen. Daher verdient Microsoft an jedem verkauften Android-Gerät mehr als Google selbst" :-(.
+    *"Auch Apple verlangt von den Herstellern hohe Lizenzen, so zahlt etwa die taiwanesische HTC seit Anfang des Jahres sechs bis acht Dollar für jedes verkaufte Android-Gerät an Apple" :-(.
+  *[[http://www.xda-developers.com/android/want-to-learn-how-to-program-for-android-start-here/|XDA Developers "Adam Outler: Want to Learn How to Program for Android? Start Here"]].
+===== Forums, Newsgroups =====
+  *[[http://www.androidpit.com/en/android/forum|AndroidPIT Forum]], [[http://www.androidpit.de/de/android/forum|AndroidPIT.de Forum]].
+  *[[http://www.android-hilfe.de/|Android-Hilfe]].
+  *[[http://groups.google.com/group/ioio-users|Google Groups "ioio-users"]].
+{{tag>"Google Android" Android}}
+<footnote_navi_en>
+

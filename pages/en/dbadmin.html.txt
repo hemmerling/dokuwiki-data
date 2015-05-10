@@ -1,0 +1,184 @@
+====== [hemmerling] Database Managment Tools and Database Application Development Tools ======
+Related page:
+  *[[databases.html|Databases, Webserver, Webservices, SQL, XML]].
+===== Database Administration Tools with Support of SQL Databases of a single Vendor =====
+==== Microsoft SQL Server Administration ====
+  *The free [[http://www.db3nf.com/|DB3NF]] - "Rapid Application Development platform (RAD for Web)", for use with Microsoft SQL Server and Microsoft IIS.
+  *The free fabFORCE DBDesigner 4 & free follow-ups.
+    *[[http://www.fabforce.net/dbdesigner4/|fabFORCE DBDesigner 4]] for Windows, Linux. Kylix 3 / Delphi 7 sources.
+      *[[http://en.wikipedia.org/wiki/DBDesigner_4|EN.Wikipedia "DBDesigner 4"]], [[http://de.wikipedia.org/wiki/DBDesigner_4|DE.Wikipedia "DBDesigner 4"]].
+  *The free [[http://www.devart.com/dbforge/sql/sqlcomplete/|devart "dbForge SQL Complete"]] for add-in for SQL Server Management Studio Professional (2012, 2008) and Visual Studio Profesional - "SQL code formatter offer powerful autocompletion and formatting of T-SQL code that replaces native Microsoft T-SQL Intellisense".
+  *Microsoft SQL Server Data Tools ( SSDT ).
+    *[[http://msdn.microsoft.com/en-us/data/tools.aspx|Microsoft Data Developer Center "Microsoft SQL Server Data Tools .."]].
+    *[[http://blogs.msdn.com/b/ssdt/|SQL Server Data Tools Team Blog]] - "Offical team blog for SSDT, a tool for on and off-premise database development".
+      *[[http://blogs.msdn.com/b/ssdt/archive/2014/01/31/ssdt-and-visual-studio-versions.aspx?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+ssdtblog+%28SQL+Server+Developer+Tools+Team+Blog%29|SQL Server Data Tools Team Blog "SSDT and Visual Studio versions"]].
+    *"Microsoft Visual Studio 2013 for Windows Desktop" is shipped with SSDT, -> see [[sdevtools.html|Software Development Tools]].
+      *You may do SQL unit tests with "Microsoft SQL Server Data Tools ( SSDT )" of "Microsoft Visual Studio Professional" and "Microsoft Visual Studio Ultimate".
+      *The free "Microsoft Visual Studio Express 2013" is shipped with an edition of "Microsoft SQL Server Data Tools ( SSDT )" which lacks the unit test feature.
+      *All editions of "Microsoft Visual Studio 2013" are shipped with a "LocalDB" of SQL Server Express. So for development, you are not urged anymore to install "SQL Server Express" ( as a Windows service.. ) anymore on your development machines.
+  *Tools shipped with Microsoft SQL Server:
+    *[[http://msdn.microsoft.com/en-us/library/ms162802.aspx|Microsoft MSDN "bcp Utility"]] - "The bcp utility bulk copies data between an instance of Microsoft SQL Server and a data file in a user-specified format. The bcp utility can be used to import large numbers of new rows into SQL Server tables or to export data out of tables into data files".
+==== Oracle Administration ====
+=== MySQL  Administration ===
+  *[[http://dev.mysql.com/downloads/workbench/|MySQL Workbench, Community (OSS) Edition]] for WinXP and .NET 3.5.
+    *[[http://wb.mysql.com/|MySQL Workbench Developer Central]].
+    *[[http://en.wikipedia.org/wiki/MySQL_Workbench|EN.Wikipedia "MySQL Workbench"]], [[http://de.wikipedia.org/wiki/MySQL_Workbench|DE.Wikipedia "MySQL Workbench"]].
+    *[[http://dev.mysql.com/downloads/workbench/5.0.html|MySQL Workbench, Community (OSS) Edition 5.0.30]] - latest edition which can be patched to run on W2k.
+  *[[http://www.sourceforge.net/projects/dbdesigner-fork/|Sourceforge "DB Designer Fork"]], [[http://dbdesigner-fork.sourceforge.net/|Sourceforge "DB Designer Fork"]] for Windows.
+  *[[http://www.phpmyadmin.net/|phpMyAdmin]] for MySQL administration.
+  *[[http://dev.mysql.com/downloads/gui-tools/5.0.html|MySQL GUI Tools Bundle]] for Windows and Linux.
+=== Oracle Database Administration ===
+  *The free [[http://www.oracle.com/technetwork/developer-tools/datamodeler/|Oracle SQL Developer Data Modeler]], a Java application on Windows and Linux.
+  *The free database development IDE [[http://www.oracle.com/technetwork/developer-tools/sql-developer/overview/|Oracle "Oracle SQL Developer"]], a Java application on Windows and Linux.
+    *Oracle SQL Developer works with Oracle, Access,... databases.
+    *Future versions of Oracle SQL Developer are promised to work with MySQL, too.
+  *The integrated database management tool [[http://www.oracle.com/technetwork/database/manageability/emx-intro-1965965.html|Oracle Database 12c: EM Database Express ]] - "Oracle Enterprise Manager Database Express, also referred to as EM Express, is a web-based tool for managing Oracle Database 12c. Built inside the database server, it offers support for basic administrative tasks such as storage and user management, and provides comprehensive solutions for performance diagnostics and tuning".
+  *Tbe free [[http://apex.oracle.com/pls/otn/wwv_flow_file_mgr.get_file?p_security_group_id=2511912507306709847&p_fname=migrationassessment_2_0_6.zip&p_inline=NO|Oracle Migration Analyse Tool]], a Java application.
+      *The Oracle Migration Analyse Tool can analyse "MS SQL Server", "Sybase", "DB2 (UDB)", but not "Oracle" "MySQL".
+==== PostgeSQL Administration ====
+  *[[http://phppgadmin.sourceforge.net/|SourceForge "phpPgAdmin"]], [[http://www.sourceforge.net/projects/phppgadmin|SourceForge "phpPgAdmin"]] for PostgreSQL administration.
+  *The OpenSource SQL tools [[http://sqlt.sourceforge.net/|SourceForge "SQLTools for Oracle"]], [[http://www.sourceforge.net/projects/sqlt/|SourceForge "SQLTools for Oracle"]].
+==== Server-Side SQLite Administration ====
+  *The OpenSource [[http://web.zone.ee/internetu/php/dbed/|Zone.ee "DBED"]] - SQLite 3 database editor, written in PHP5.
+  *The OpenSource [[http://pear.php.net/package/DB_Sqlite_Tools|PEAR - PHP Extension and Application Repository "DB_Sqlite_Tools"]].
+  *The OpenSource [[http://code.google.com/p/phpliteadmin/|Google Code "phpliteadmin. PHP-based admin tool to manage SQLite databases"]].
+  *The OpenSource [[http://sqlitemanager.sourceforge.net/|SourceForge "SQLiteManager"]], [[http://www.sourceforge.net/projects/sqlitemanager/|SourceForge "SQLiteManager"]] in PHP4 / PHP5.
+  *The OpenSource [[http://phpsqliteadmin.sourceforge.net/|SourceForge "phpSQLiteAdmin - Web-based SQLite administration"]], [[http://www.sourceforge.net/projects/phpsqliteadmin/|SourceForge "phpSQLiteAdmin - Web-based SQLite administration"]] in PHP. 
+  *The OpenSource [[http://sqlitefront.sourceforge.net/|SourceForge "SQLiteFront"]], [[http://www.sourceforge.net/projects/sqlitefront/|SourceForge "SQLiteFront"]] in PHP5.
+  *The OpenSource [[http://sqlitewebadmin.sourceforge.net/|SourceForge "SQLiteWebAdmin"]], [[http://www.sourceforge.net/projects/sqlitewebadmin/|SourceForge "SQLiteWebAdmin"]] in PHP4 / PHP5.
+
+==== SQLite Administration ====
+  -The OpenSource [[http://www.microemacs.de/tcltk_dgsqlite.html|Detlef Groth "dgSQLite"]] - SQLite-Database Clients for SQLite3 and SQlite2 in Tcl/Tk.
+  -The discontinued [[http://www.dehats.com/drupal/?q=node/58|David Deraedt "Lita - SQLite Administration Tool"]], [[http://github.com/davidderaedt/Lita|Github "davidderaedt / Lita"]], an Adobe AIR application for WinXP, Linux, MacOS.
+  -The OpenSource [[http://igorkh.freeshell.org/en/software/liteman.html|Igor Khanin's Homepage "LiteMan"]] in C/C++ for Qt on Windows or Linux.
+  -The OpenSource [[http://iqk.sourceforge.net/|SourceForge "Icequake - SQLite 3 Query Browser"]], [[http://www.sourceforge.net/projects/iqk|SourceForge "Icequake - SQLite 3 Query Browser"]] for Windows.
+    *You may load, save and work with several query windows, concurrently :-).
+  -The free [[http://www.saxmike.com/MySoftware/MySoftware.asp?Menu=MYSOFTWARE|Mike T's SQLite Database Administrator Tool]] for Windows, Linux, MaxOSX.
+    *You may open several query windows concurrently.
+    *You may not load a query to a file, due to a software failure ( a loaded query is parsed, resulting in an empty query window ) :-(. Instead, you must use copy+paste.
+    *You may save and work with several query windows, concurrently :-).
+    *You may not include comments ( /* comment */ ) in your query.
+  -The OpenSource [[http://github.com/slashmili/PySQLiteGUI|Github "slashmili / PySQLiteGUI"]] in Python.
+  -The DonationWare [[http://www.osenxpsuite.net/?xp=3&uid=managementtools|Osen Kusnadi "SQLite2009 Pro Enterprise Manager"]].
+    *Support of the [[lua.html|Lua]] script language.
+    *There is just one single query window :-(.
+    *You may not load a query from or save a query to a file :-(. Instead, you must use copy+paste.
+  -The free [[http://sqliteadmin.orbmu2k.de/|orbmu2k "SQLite Administrator"]] for Windows. 
+    *You may load, save and work with several query windows, concurrently :-). But though You may save queries created within "SQLite Administrator" to files ( by "Save To File" ), there is no "Load From File" option in the query menu :-(. So You may load contents to query windows just by copy+paste.
+    *You may not rename saved queries:-(.
+    *Unexpected & unwanted behaviour of the user interface: CTRL-S does not save anything, but deletes the current query window, including history :-(.
+    *Trigger operations ( Create, Edit, Delete ) :-).
+  -The OpenSource [[http://sqlitebrowser.sourceforge.net/|SourceForge "SQLite Database Browser"]], [[http://www.sourceforge.net/projects/sqlitebrowser/|SourceForge "SQLite Database Browser"]] for Windows with Qt.
+    *There is just one single query window :-(.
+    *You may not load a query from or save a query to a file :-(. Instead, you must use copy+paste.
+  -The OpenSource [[http://sqlitedesigner.sourceforge.net/|SourceForge "SQlite Designer"]], [[http://www.sourceforge.net/projects/sqlitedesigner/|SourceForge "SQlite Designer"]] for WinXP.
+  -The free [[http://www.sqliteexpert.com/|SQLite Expert Personal]] for Windows #.
+    *[[http://www.sqliteexpert.com/features.html|SQLite Expert - Feature comparison]].
+    *You may load, save and work with several query windows, concurrently :-).
+    *Trigger operations ( Edit Trigger Table ) :-).
+    *A query window is not linked with a loaded file. I.e. there is no "Save" function ( expected/ususal keyboard shortcut "CTRL-S" ), but just "Save as" :-(.
+    *In case of unsuccessful queries, the reason for failure is explained in a modal window, but just after an extra click on a "Details" button. However, the native SQLite error message is not displayed.
+    *[[http://www.sqliteexpert.com/tutorials.html|SQLite Expert - Flash tutorials]].
+  -The free [[http://www.singular.gr/sqlite/|Mike Cariotoglou "Sqlite3Explorer"]] for Windows.
+    *You may load, save and work with several query windows, concurrently :-).
+  -The OpenSource [[http://www.sqliteman.com/|Sqliteman - Sqlite Databases Made Easy]], [[http://sqliteman.sourceforge.net/|SourceForge "Sqliteman. Sqlite Databases Made Easy"]], [[http://www.sourceforge.net/projects/sqliteman/|SourceForge "sqliteman: sqlite3 admin and devel tool"]] for Windows and Linux.
+    *[[http://docs.sqliteman.com/user/en/|Petr Vanek "The Sqliteman Handbook"]].
+    *You may load and save queries :-), in one single query window :-(.
+  -The OpenSource browser add-on [[http://code.google.com/p/sqlite-manager/|Google Code "sqlite-manager. Extension for Firefox and other apps to manage any sqlite database"]], [[http://addons.mozilla.org/en-US/firefox/addon/sqlite-manager/|Mozilla Firefox Add-Ons "SQLite Manager"]].
+    *There is just one single query window :-(.
+    *You may not load a query from or save a query to a file :-(. Instead, you must use copy+paste.
+  -The DonationWare [[http://www.yunqa.de/delphi/doku.php/products/sqlitespy/|Ralf Junker, Delphi Inspiration – Delphi Components and Software Applications "SQLiteSpy"]] for Windows #.
+    *You may load, save and work with several query windows, concurrently :-).
+    *A query window is linked with a loaded file, i.e. there is a “Save” function :-).
+    *In case of unsuccessful queries, the reason for failure is explained in a modal window. However, the native SQLite error message is not displayed :-(.
+  -The DonationWare [[http://www.sqlitestudio.pl/|SQLite Studio]] for Windows.
+    *You may load and save queries :-), in one single query window :-(.
+  -The OpenSource [[http://sqlitemanager.codeplex.com/|CodePlex "SQLite Studio Management"]] for Windows with .NET 2.0.
+    *You may open several query windows concurrently, but you may not close it.
+    *You may not load a query from or save a query to a file :-(. Instead, you must use copy+paste.
+    *You may not include comments ( /* comment */ ) in your query.
+  -The DonationWare [[http://sites.google.com/site/sqlitetool/|SQLiteToo]] in compiled Python, for Windows and Linux.
+    *There is just one single query window :-(.
+    *You may not load a query from or save a query to a file :-(. Instead, you must use copy+paste.
+  -The Opensource [[http://www.github.com/nopri/sqliteweb|Github "nopri/sqliteweb"]] ( [[http://web.archive.org/web/*/http://noprianto.com/index.php?mod=modules/sqliteweb/index.php|noprianto "sqliteweb"]] ( - 2010-02-22 ) ) by [[http://www.noprianto.com/|noprianto]] - "Very simple web-based sqlite management ( shell script + coreutils )".
+  -The OpenSource [[http://reddog.s35.xrea.com/wiki/TkSQLite.html|TkSQLite]] - "A GUI database manager for SQLite implemented by Tcl/Tk".
+  -The OpenSource [[http://cfred.free.fr/|Soft In The Box "wxSQLite+"]] for Windows, Linux.
+    *There is just one single query window :-(.
+    *You may not load a query from or save a query to a file :-(. Instead, you must use copy+paste.
+===== Database Administration Tools with Multi SQL Database Support =====
+==== Server-side Database Administration Tools with Multi SQL Database Support ====
+  *The OpenSource [[http://www.adminer.org/|Adminer - Database management in a single PHP file]], [[http://adminer.sourceforge.net/|SourceForge "Adminer - Database management in a single PHP file"]], [[http://www.sourceforge.net/projects/adminer/|SourceForge "Adminer - Database management in a single PHP file"]], for use with MySQL, SQLite, PostgreSQL, MS SQL, Oracle.
+  *The OpenSource [[http://repo.or.cz/w/bazdig.git|bazdig.git]], [[http://www.github.com/slim/bazdig|Github "slim/bazdig"]] - PHP SQL console/editor for PDO_sqlite and PDO_mysql.
+==== Database Administration Tools for Windows with Multi SQL Database Support ====
+  *The free [[http://www.sqlmaestro.com/|AnySQL Maestro Freeware]] for Windows.  
+    *Allows you to administer any database engine accessible via ODBC driver or OLE DB provider (SQLite, MySQL, Oracle, SQL Server, Access, and so on).
+  *The OpenSource Eclipse database manager plugin and standalone Eclipse-based database manager [[http://dbeaver.jkiss.org/|DBeaver]], a Java application #.
+    *From within DBeaver IDE, you may download and install a bunch of JDBC database drivers for the many supported SQL databases ( MySQL, SQLite, PostgreSQL, Microsoft SQL,...), easily and automatically!
+    *You may load, save and work with several query windows, concurrently :-).
+    *A query window is not linked with a loaded file. I.e. there is no "Save" function ( expected/ususal keyboard shortcut "CTRL-S" ), but just "Save as" :-(.
+    *In case of unsuccessful queries, the reason for failure is explained in a modal window, by displaying the native SQLite error message.
+  *The free [[http://www.nucleonsoftware.com/Products/Database-Master/|Nucleon Software "Database Master - Standard Freeware Edition"]] for Windows allows only Table Manager and SQL Query Editor with limited features :-(. 
+    *Support for MongoDB, MySQL, PostgreSQL, FireBird, SQLite, MS SQL Server, SQL Azure, Oracle, IBM DB2, IBM Informix, Netezza, Ingres, EffiProz. 
+    *[[http://www.nucleonsoftware.com/Products/Database-Master/Database-Master-Editions|Nucleon Software - Database Master Editions]].
+  *The free [[http://www.dbtools.com.br/EN/dbmanagerpro/|dbTools Software "DBManager Freeware/Standard"]] for Windows - "Specially designed for personal use, it has a minimun set of features that makes it ideal for new database users to perform basic database management. You can use this edition for FREE for non commercial use".
+    *[[http://www.dbtools.com.br/EN/dbmanagerpro/features.php|DBManager - Features Sheet]].
+    *Support for MySQL (3.x, 4.x, 5.x), PostgreSQL (7,8), Interbase, Firebird, SQLite (2.8, 3.x) and DBF Tables.
+    *DBManager 3.2.4, the current edition in 2013-02, is shipped with SQLite 2.8.16 :-(?! I failed to load a SQLite 3.x database :-(.
+  *The OpenSource [[http://plane-disaster.sourceforge.net/projects/|SourceForge "PlaneDisaster.NET"]], [[http://www.sourceforge.net/projects/plane-disaster/|SourceForge "PlaneDisaster.NET"]] for Windows with .NET 2.0.
+    *Support for JetSQL ( Microsoft Access File Format ) and SQLite.
+    *There is just one single query window :-(.
+    *You may save a query to a file, but You may not load a query from a file :-(. Instead, you must use copy+paste.
+  *[[http://www.quest.com/|Quest Software]].
+    *[[http://www.quest.com/downloads/|Quest "Trial Download and Freeware"]].
+    *The commercial [[http://www.quest.com/spotlight-on-sql-server-enterprise/|Quest Software "Spotlight on SQL Server Enterprise"]] - a test version with 30 days expiration is available.
+    *The free [[http://www.quest.com/spotlight-on-mysql/|Quest Software "Spotlight on MySQL"]] for Windows.
+    *The free [[http://www.quest.com/toad-for-mysql/|Quest Software "Toad for MySQL"]].
+      *Toad 4.5, 4.6, 5.X require WinXP with .NET 3.5 SP1.
+      *The legacy [[http://www.rosoftdownload.com/version/windows/toad-for-mysql-4-1-0-220/|RoSoft Download -> "Toad for MySQL 4.1.0.220"]] is the latest edition for W2k.
+    *The commercial [[http://www.quest.com/toad-for-sql-server/|Quest Software "Toad for SQL Server"]].
+      *Toad 5 requires WinXP with .NET 3.5.
+      *The legacy [[http://www.brothersoft.com/toad-for-sql-server-26105.html|Brothersoft -> "Toad for SQL Server 4.1.0.226"]] is the latest edition for W2k.
+    *[[http://www.toadworld.com/|Toadworld]].
+      *[[http://modeling.inside.quest.com/|The Toad Data Modeler Community]].
+        *[[http://www.toadworld.com/MYSQL/tabid/762/Default.aspx|Toad's World MySQL Community]].
+          *The free "Toad Data Modeler" for Windows.
+          *The free "Toad for MySQL" for Windows.
+      *[[http://www.toadworld.com/Freeware/tabid/680/Default.aspx|Toadworld - Freeware Downloads]].
+    *The free limited [[http://www.casestudio.com/|Quest Software "Toad Data Modeler"]] ( formerly: "CASE Studio 2").
+    *[[http://www.toadsoft.com/|TOADSoft.com - Home of the World's #1 Tool for Database Application Developers and DBAs]].
+    *[[http://www.quest.com/documents/|Quest Software "Document Library"]] - whitepapers.
+  *[[http://www.quest.com/|Quest Software]].
+    *[[http://www.quest.com/downloads/|Quest "Trial Download and Freeware"]].
+    *The commercial [[http://www.quest.com/spotlight-on-sql-server-enterprise/|Quest Software "Spotlight on SQL Server Enterprise"]] - a test version with 30 days expiration is available.
+    *The free [[http://www.quest.com/spotlight-on-mysql/|Quest Software "Spotlight on MySQL"]] for Windows.
+    *[[http://www.quest.com/toad-for-mysql/|Quest Software "Toad for MySQL"]].
+      *Toad 4.5, 4.6, 5.X require WinXP with .NET 3.5 SP1.
+      *The legacy [[http://www.rosoftdownload.com/version/windows/toad-for-mysql-4-1-0-220/|RoSoft Download -> "Toad for MySQL 4.1.0.220"]] is the latest edition for W2k.
+    *[[http://www.quest.com/toad-for-sql-server/|Quest Software "Toad for SQL Server"]].
+      *Toad 5 requires WinXP with .NET 3.5.
+      *The legacy [[http://www.brothersoft.com/toad-for-sql-server-26105.html|Brothersoft -> "Toad for SQL Server 4.1.0.226"]] is the latest edition for W2k.
+    *[[http://www.toadworld.com/|Toadworld]].
+      *[[http://modeling.inside.quest.com/|The Toad Data Modeler Community]].
+      *[[http://www.toadworld.com/Freeware/tabid/680/Default.aspx|Toadworld - Freeware Downloads]].
+    *The free limited [[http://www.casestudio.com/|Quest Software "Toad Data Modeler"]] ( formerly: "CASE Studio 2").
+    *[[http://www.toadsoft.com/|TOADSoft.com - Home of the World's #1 Tool for Database Application Developers and DBAs]].
+    *[[http://www.quest.com/documents/|Quest Software "Document Library"]] - whitepapers.
+==== Database Administration Tools for Linux with Multi SQL Database Support ====
+  *The OpenSource [[http://knoda.sourceforge.net/|SourceForge "knoda - Knorr's Datenbank"]], [[http://www.sourceforge.net/projects/knoda|SourceForge "knoda - Knorr's Datenbank"]] for Linux with KDE.
+    *Support for Dbase/Xbase, Firebird, MS Access/Mdbtools, Mysql , Paradox, Postgresql, SQLite and ODBC.
+
+===== Resources =====
+==== PostgreSQL ====
+  *Wiki [[http://wiki.postgresql.org/|PostgreSQL Wiki]].
+    *[[http://wiki.postgresql.org/wiki/Community_Guide_to_PostgreSQL_GUI_Tools|PostgreSQL Wiki "Community Guide to PostgreSQL GUI Tools"]].
+  *[[http://www.postgresql.de/|PostreSQL.de]].
+    *[[http://www.postgresql.de/pg_gui.whtml|PostreSQL.de "PostgreSQL & Co. - Grafische Benutzerschnittstellen für PostreSQL"]].
+==== SQLite ====
+  *[[http://www.barefeetware.com/sqlite/compare/?so|BareFeedWare "SQLite Applications Comparison"]].  *[[http://www.sb2.info/commercial-and-freeware-sqlite-tools-list-2/|Solutions, better "Commercial and freeware Sqlite tools list"]].
+  *[[http://www.sqlite.org/cvstrac/wiki?p=ManagementTools|SQLite CVSTRAC Wiki "Management Tools"]].
+  *[[http://www.stackoverflow.com/questions/835069/which-sqlite-administration-console-do-you-recommend|Stack Overflow "Which SQLite administration console do you recommend?"]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Software/Databases/|OpenDirectory "Top: Computers: Software: Databases"]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Software/Datenbanken/|OpenDirectory "Top: World: Deutsch: Computer: Software: Datenbanken"]].
+{{tag>sql database databases administration "database administration" "software development"}}
+<footnote_navi_en>

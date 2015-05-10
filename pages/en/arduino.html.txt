@@ -1,0 +1,280 @@
+====== [hemmerling] The Arduino / Freeduino Platform with Atmel ATmega, Microchip PIC, ARM, Freescale Coldfire ======
+Related pages:
+  *[[atmel.html|The Atmel AVR Family with Focus on AVR32, ATxmega, ATmega, ATtiny and the Arduino / Freeduino Platform]].
+  *[[atmega.html|Atmel ATmega, ATtiny, AT90 & ATmega on the Arduino / Freeduino Platform]].
+  *[[atxmega.html|Atmel ATxmega ( "XMEGA" )]] - This page deals with software tools which are suitable both for ATxmega and for ATmega, ATtiny.
+  *[[atmelavr32.html|Atmel AVR32]].
+  *[[avrhowto.html|How to develop with Atmel AVR Microcontrollers]].
+===== The Arduino Platform & the Arduino Project ======
+  *[[http://www.arduino.cc/|Arduino]] - With the Arduino IDE, You can upload code to your target, too. No hardware debugger support within the IDE.
+    *[[http://arduino.cc/en/Tutorial/|Arduino "Examples"]] - Basic sample application with servo motor ( "Servo Library" ), network access with Ethernet shield ( "Ethernet Library" ), communications ( with a PC host computer running a Java application based on [[http://processing.org/|Processing]] ), analog and digital input and output,...
+    *[[http://arduino.cc/en/Reference/Board?from=Guide.Board|Arduino "Introduction to the Arduino Board"]].
+===== Arduino Shields ======
+  *[[http://www.shieldlist.org/|Arduino Shield List]] - List of hardware extensions for Arduino boards.
+  *An important design criteria & buying critera for me is "The shield can operate at 3.3V", so that it might be ready for use with the Arduino boards with [[pic.html|Microchip PIC]] CPU and forthcoming Arduino boards with ATxmega CPU.
+==== Video Shields ====
+  *Gameduino.
+    *[[http://www.excamera.com/sphinx/gameduino/|James Bowman "Gameduino: a game adapter for microcontrollers"]].
+    *[[http://www.watterott.com/de/Gameduino|Watterott electronic GmbH "Gameduino - Arduino Spiele Adapter"]].
+    *[[http://answers.gameduino.com/|Gameduino Answers]] - Questions & answers.
+    *[[http://www.excamera.com/sphinx/gameduino/faq.html|James Bowman "Gameduino FAQ"]].
+==== Ethernet Shields ====
+  -[[http://arduino.cc/en/Main/ArduinoEthernetShield|Official Arduino Ethernet Shield]] - "To use the shield, mount it on top of an Arduino board".
+  -[[http://www.shieldlist.org/adafruit/ethernet|Adafruit Industries Ethernet Shield]].
+  -[[http://www.shieldlist.org/arduino/ethernet|Arduino Ethernet Shield v4.0]].
+  -[[http://www.shieldlist.org/arduino/ethernet-v5|Arduino Ethernet Shield v5.0]].
+    *[[http://www.arduino.cc/en/Reference/Ethernet|Arduino "Ethernet library"]].
+    *[[http://www.arduino.cc/en/Guide/ArduinoEthernetShield|Arduino Guide "Arduino Ethernet Shield"]].
+    *[[http://www.watterott.com/de/Arduino-Ethernet-Shield|Watterott electronic GmbH "Ethernet-Shield (Arduino)"]].
+  -[[http://www.shieldlist.org/dfrobot/ethernet|DFRobot Ethernet Shield]].
+  -[[http://www.shieldlist.org/freetronics/ethernet|Freetronics Ethernet Shield]].
+    *[[http://www.freetronics.com/|Freetronics Pty Ltd]].
+  -[[http://www.shieldlist.org/nkc/ethernet|NKC Electronics Ethernet Shield]].
+  -[[http://www.shieldlist.org/nuelectronics/ethernet|Nu Electronics Ethernet Shield v1.0]].
+  -[[http://www.shieldlist.org/seeedstudio/wiznet|Seeed Studio Wiznet Ethernet Shield]].
+==== Wireless ====
+  *WiFi.
+    -[[http://www.shieldlist.org/asynclabs/wishield-v1|AsyncLabs WiShield v1.0]].
+    -[[http://www.shieldlist.org/asynclabs/wishield-v2|AsyncLabs WiShield v2.0]].
+    -[[http://www.shieldlist.org/ciseco/xbee|CISECO XBee Shield]].
+    -[[http://www.shieldlist.org/dfrobot/xbee|DFRobot Xbee Shield]].
+    -[[http://www.shieldlist.org/libelium/xbee|Libelium Xbee Shield]].
+    -[[http://www.shieldlist.org/seeedstudio/stalker|Seeed Studio Stalker]].
+    -[[http://www.shieldlist.org/seeedstudio/xbee-v1-1|Seeed Studio XBee Shield v1.1]].
+    -[[http://www.shieldlist.org/seg/segmeter|Smart Energy Groups SEGMeter]].
+    -[[http://www.shieldlist.org/sparkfun/wifly|Sparkfun WiFly Shield]].
+    -[[http://www.shieldlist.org/sparkfun/xbee|Sparkfun XBee Wireless Shield]].
+    -[[http://www.shieldlist.org/watterott/redfly|Watterott RedFly Shield]].
+  *ZigBee.
+    -[[http://www.shieldlist.org/bhasha/xbee|Bhasha Technologies Xbee Shield]].
+    -[[http://www.shieldlist.org/dfrobot/xbee|DFRobot Xbee Shield]].
+    -[[http://www.shieldlist.org/libelium/xbee|Libelium Xbee Shield]].
+    -[[http://www.shieldlist.org/seeedstudio/xbee-v1-1|Seeed Studio XBee Shield v1.1]].
+  *433 Mhz.
+    -[[http://www.shieldlist.org/freetronics/433mhzreceiver|Freetronics 433MHz Receiver Shield]].
+  *Technology "WiFi"
+    *[[http://en.wikipedia.org/wiki/IEEE_802.11|EN.Wikipedia "IEEE 802.11"]], [[http://de.wikipedia.org/wiki/IEEE_802.11|DE.Wikipedia "IEEE 802.11"]] ( "Wi-Fi" ).
+==== CAN-Bus Shield =====
+  -[[http://www.shieldlist.org/skpang/canbus|SK Pang Electronics CAN-Bus Shield]].
+  -[[http://www.shieldlist.org/sparkfun/can-bus|Sparkfun CAN-Bus Shield]].
+    *[[http://www.watterott.com/de/CAN-BUS-Shield|Watterott electronic GmbH "CAN-BUS Shield (SparkFun)"]].
+
+==== Black & White LCD Graphics Display Shields =====
+  -[[http://www.shieldlist.org/controlconnection/dogs102|Control Connection DOGS102 LCD Shield]], 102x64.
+  -[[http://www.shieldlist.org/dfrobot/lcd4884|DFRobot Graphic LCD4884 Shield]], 48x48.
+  -[[http://www.shieldlist.org/itead-studio/itdb02-lcd|ITead Studio ITDB02 LCD Shield v1.3]], 320*240.
+  -[[http://www.shieldlist.org/liquidware/touch|Liquidware TouchShield Slide]], 320x240. Storage for 4 full resolution images or 60 128x128 images.
+  -[[http://www.shieldlist.org/liquidware/touch-stealth|Liquidware TouchShield Stealth]], 128x128.
+  -[[http://www.shieldlist.org/nuelectronics/nokia-lcd|Nu Electronics Nokia 3310 LCD Shield With Joystick]], 84x48.
+  -[[http://www.shieldlist.org/schmelle2/dogm128|Schmelle2 DOGM128 Shield]], 128x64.
+  -[[http://www.shieldlist.org/schmelle2/dogm128-v4|Schmelle2 DOGM128-Shield v4]], 128x64.
+  -[[http://www.shieldlist.org/schmelle2/dogm132|Schmelle2 DOGM132 Shield]], 132x32.
+    *Color LCD graphics display shields.
+  -[[http://www.shieldlist.org/4dsystems/4display128|4D Systems 4Display Shield 128]], 128x128.
+  -[[http://www.shieldlist.org/4dsystems/4display144|4D Systems 4Display Shield 144]], 128x128.
+  -[[http://www.shieldlist.org/4dsystems/4display160|4D Systems 4Display Shield 160]], 160x128.
+  -[[http://www.shieldlist.org/4dsystems/4display96|4D Systems 4Display Shield 96]], 96x64.
+  -[[http://www.shieldlist.org/circuitidea/lcd-touchscreen|Circuit Ideas Design 3.2" Touchscreen Shield]], 240x320.
+  -[[http://www.shieldlist.org/nkc/rgblcd|NKC Electronics RGB LCD Shield]], 128x128.
+  -[[http://www.shieldlist.org/nuelectronics/tft-2.8-lcd|Nu Electronics 2.4" TFT Color LCD Touch Screen]], 320x240.
+  -[[http://www.shieldlist.org/nuelectronics/tft-2.8-lcd|Nu Electronics Color LCD & Joystick Shield]], 320x240.
+  -[[http://www.shieldlist.org/sparkfun/colorlcd|Sparkfun Color LCD Shield]], 128x128.
+  -[[http://www.shieldlist.org/watterott/s65|Watterott S65 Shield]], 176x132.
+==== LCD Text Display Shields ====
+  -[[http://www.shieldlist.org/criticalvelocity/lcd|Critical Velocity LCD Shield]], 16x2.
+  -[[http://www.shieldlist.org/cutedigi/smart-outlet|CuteDigi Smart Outlet LCD Shield]], 16x2.
+  -[[http://www.shieldlist.org/dfrobot/lcd|DFRobot LCD Shield]], 16x2.
+  -[[http://www.shieldlist.org/johnliu/phi-1|John Liu Phi-1 Shield]], 16x2.
+  -[[http://www.shieldlist.org/luke-weston/pebble|Luke Weston Pebble Shield]], 20x4.
+  -[[http://www.shieldlist.org/marksproul/lcd|Mark Sproul LCD Shield]] - 2x16 or 4x20 displays.
+  -[[http://www.shieldlist.org/nuelectronics/lcd|Nu Electronics LCD Shield]], 16x2.
+  -[[http://www.shieldlist.org/freetronics/16x2lcd|Freetronics 16x2 LCD Shield]], 16x2 - "Use of pins D4-D9 was selected so that it doesn't interfere with pins required by other popular shields such as the Ethernet Shield, so you can stack this on top of other shields to give you a local display".
+    *[[http://www.freetronics.com/|Freetronics Pty Ltd]].
+  -[[http://www.shieldlist.org/unifiedmicrosystems/ats-1|Unified Microsystems ATS-1 Terminal Shield]].
+==== Storage Shields ====
+  -[[http://www.shieldlist.org/asynclabs/flash|AsyncLabs FlashShield]].
+==== Interface / Relay Shields ====
+  -[[http://www.shieldlist.org/bhasha/7-segment-relay|Bhasha Technologies Seven Segment Relay Shield]].
+  -[[http://www.shieldlist.org/ciseco/relay|CISECO Relay Shield]].
+  -[[http://www.shieldlist.org/robotpower/megamoto|Robot Power MegaMoto Shield]].
+  -[[http://www.shieldlist.org/seeedstudio/brick|Seeed Studio Electronic Brick Shield]].
+  -[[http://www.shieldlist.org/seeedstudio/relay|Seeed Studio Relay Shield]].
+  -[[http://www.shieldlist.org/seg/segmeter|Smart Energy Groups SEGMeter]].
+==== Prototype Shields ====
+  -[[http://www.shieldlist.org/freetronics/protoshield-short|Freetronics ProtoShield Short]].
+==== Shields which provide Options for Integration of Third-Party Components ====
+  -[[http://www.shieldlist.org/argent/radio|Argent Data Systems Radio Shield]] -> LCD display.
+  -[[http://www.shieldlist.org/dfrobot/interface|DFRobot Interface Shield]] -> LCD display, SD card.
+  -[[http://www.shieldlist.org/luke-weston/pebble|Luke Weston Pebble Shield]] -> LCD text display,..#.
+  -[[http://www.shieldlist.org/sparkfun/motoproto|Sparkfun ModKit MotoProto Shield]] -> Sensors, motor, LCD display.
+  -[[http://www.shieldlist.org/watterott/msd|Watterott mSD Shield]] -> LCD display.
+===== The Arduino Platform with "ARM" CPU =====
+  *See [[arm.html|ARM Embedded Systems ( ARM7, ARM8, ARM9, ARM11, Cortex )]].
+
+===== The Arduino Platform with "Atmel ATmega" CPU =====
+==== Software for "Atmel ATmega" CPU ====
+=== IDEs ===
+  *The OpenSource [[http://arduino.cc/en/Main/Software|Arduino Software]] in Java for Windows, Linux, MacOSX.
+  *The OpenSource design & development tool [[http://www.fritzing.org/download/|Fritzing]] for WinXP, Linux, MacOSX.
+  *The commercial(?) [[http://www.modk.it/|Modkit Micro - Programming for anyTHING*]] - Software & hardware design for the Arduino Shield "MotoProto Shield Modkit".
+    *Blog [[http://blog.modk.it/|Modkit Blog]].
+  *[[http://www.catroid.org/|Catroid]] - "Catroid is an on-device visual programming language for Android devices that is inspired by the Scratch programming language".
+    *Blog [[http://blog.catroid.org/|Catroid Blog]].
+    *[[http://scratch.mit.edu/|Scratch]].
+=== Free Tools ===
+  *The OpenSource [[http://www.nongnu.org/avrdude/|AVRDUDE - AVR Downloader/UploaDEr]] for Windows & Linux.
+  *The OpenSource [[http://libusb-win32.sourceforge.net/|SourceForge "libusb-win32"]], [[http://www.sourceforge.net/projects/libusb-win32/|SourceForge "libusb-win32"]] - A port of the USB library [[http://libusb.sourceforge.net/|SourceForge "libusb"]], [[http://www.sourceforge.net/projects/libusb/|SourceForge "libusb"]] to 32/64bit Windows (2k, XP, 2003, Vista, Win7, 2008; 98SE/ME for v0.1.12.2). The library allows user space applications to access many USB device on Windows".
+  *However, the free [[http://atmel.com/dyn/products/tools_card.asp?tool_id=3886|Atmel Corporation "FLIP"]] **does not work** with Arduinos. 
+  *The OpenSource [[http://avarice.sourceforge.net/|SourceForge "AVaRICE"]], [[http://www.sourceforge.net/projects/avarice|SourceForge "AVaRICE"]] - "AVaRICE is a program which interfaces the GNU Debugger GDB with the Atmel AVR JTAG ICE" might work with Arduino too, there is just no integration into the Arduino IDE.
+=== Commercial Tools ===
+  *The commercial IDE [[http://www.visualmicro.com/|Visual Micro - Arduino Ide for Visual Studio and Atmel Studio]].
+=== Target Frameworks ===
+== Ethernet ==
+  *[[http://www.arduino.cc/en/Reference/Ethernet|Arduino "Ethernet library"]].
+    *[[http://www.arduino.cc/en/Guide/ArduinoEthernetShield|Arduino Guide "Arduino Ethernet Shield"]].
+== CAN-Bus ==
+  *[[http://code.google.com/p/sparkfun-arduino-can-shield-code/|Google Code "sparkfun-arduino-can-shield-code. Code for operating the Arduino CAN shield"]].
+    *"This code will provide the user all the code necessary to start up a basic CAN Bus sniffer for various applications using the Arduino CAN bus shield".
+    *"This contains CANInterface, as well as a SPI library, SD card library and a couple others, you will need to have a formatted SD card in your CAN shield for this code to work properly, if you don't have one, you can comment out the appropriate code and it should work w/o it and display the information over the serial port.  Good luck!".
+  *[[http://github.com/franksmicro/Arduino/|GitHub "franksmicro / Arduino"]].
+    *[[http://github.com/franksmicro/Arduino/tree/master/libraries/MCP2515|GitHub "franksmicro / Arduino" - "Arduino / libraries / MCP2515"]].
+== SDCard Slots on Ethernet and CAN-Bus Modules ==
+  *[[http://www.arduino.cc/en/Reference/SDCardNotes|Arduino - Some things to keep in mind when using the SD Library]] - "You’ll need a SD reader and computer to format your card properly. The library supports the FAT16 and FAT32 filesystems" -> SDCards with up to 4 GB size are supported.
+  *[[http://en.wikipedia.org/wiki/File_Allocation_Table|EN.Wikipedia "File Allocation Table"]], [[http://de.wikipedia.org/wiki/File_Allocation_Table|DE.Wikipedia "File Allocation Table"]].
+=== Host Frameworks ===
+  *[[http://developer.android.com/guide/topics/usb/adk.html|Android Developers "Android Open Accessory Development Kit"]] ( ADK ).
+
+==== Hardware with "Atmel ATmega" CPU ====
+  *[[http://www.antrax.de/en/categorie?cat=25|antrax Datentechnik GmbH "Arduino Platform"]].
+  *[[http://www.avr-tools.de/|Bergmann-Electronics - AVR-Tools.de]].
+  *[[http://www.ebg-darmstadt.de/|EBG-Darmstadt. Electronic Business GmbH]] - Search for "Arduino" to get a list of all products!
+  *[[http://www.eeepcssd.com/index.php?cPath=1_37|EEEpcSSD / BEST discount Store "Internal Desktop-Komponenten"]] - Arduino boards.
+  *<del>[[http://www.electrodrome.eu/|ElectroDrome]]</del> ??
+  *[[http://elmicro.com/de/arduino.html|Elektronikladen Mikrocomputer Giesler & Danne GmbH & Co. KG  "Arduino Open Source Physical Computing Platform"]].
+    *[[http://www.elmicro.com/de/sparkfun.html|Elektronikladen Mikrocomputer Giesler & Danne GmbH & Co. KG "SparkFun@ELMICRO. Spark Fun Electronics Vertrieb in Deutschland"]].
+  *[[http://shop.embedded-projects.net/|embedded projects GmbH]].
+    *[[http://shop.embedded-projects.net/index.php?module=artikel&action=artikel&id=818|embedded projects GmbH "Arduino ADK Mega Board"]].
+    *[[http://shop.embedded-projects.net/index.php?module=artikel&action=artikel&id=1347|embedded projects GmbH "Shield für Gold ADK Mega2560 Entwicklungsboard"]] #.
+  *[[http://www.exp-tech.de/|EXP GmbH]].
+    *[[http://www.exp-tech.de/product_info.php?info=p13_seeeduino-adk-main-board-atmega-2560.html|EXP GmbH "Seeeduino ADK Main Board Atmega 2560"]] - "Compared to the Google's ADK Reference design, Seeeduino ADK has many added features like support of both 5V and 3.3V I/O (logic with a switch), smaller form-factor..".
+    *[[http://www.exp-tech.de/product_info.php?info=p425_seeedstudio-electronic-brick---starter-kit.html|EXP GmbH "Seeedstudio Electronic Brick - Starter Kit"]].
+  *The expensive [[http://at.farnell.com/arduino/k000006/entw-adk-mega-sensorkit-tinkerkit/dp/2075355|Farnell element14 "ARDUINO - K000006 - ENTW.,ADK/MEGA SENSORKIT,TINKERKIT"]] with [[http://www.tinkerkit.com/|Tinkerkit]] shield and some modules.
+  *Franzis science Kit / experimental lab kits.
+    *[[http://www.amazon.de/exec/obidos/ASIN/3645650644/hemmerling-21|Franzis Verlag GmbH: "Lernpaket Mikrocontroller-Technik mit Arduino/Freeduino (2. Auflage) mit Platine, Bauteilen und CD-Rom"]] featuring [[http://arduino.cc/en/Main/ArduinoBoardDiecimila|Arduino Diecimila]] with [[http://www.atmel.com/dyn/products/product_card.asp?part_id=3303|ATmega168]] ( 16 Kbytes Flash, 1 Kbyte SRAM, 512 Bytes EEPROM ).
+      *There is a mounted male 6-pin connector with "ICSP" :-).
+    *[[http://www.amazon.de/exec/obidos/ASIN/3645650954/hemmerling-21|Franzis Verlag GmbH: "C-Programmierung von AVR-Mikrocontrollern"]] featuring [[http://arduino.cc/en/Main/ArduinoBoardDiecimila|Arduino Diecimila]] with [[http://www.atmel.com/dyn/products/product_card.asp?part_id=3303|ATmega168]] ( 16 Kbytes Flash, 1 Kbyte SRAM, 512 Bytes EEPROM ).
+  *[[http://www.fritzing.org/|Fritzing]].
+    *[[http://fritzing.org/shop/|Fritzing Shop]].
+      *[[http://www.fritzing.org/shop/starter-kit/|Fritzing Starter Kit]], featuring [[http://arduino.cc/en/Main/ArduinoBoardUno|Arduino Uno]] with [[http://www.atmel.com/dyn/products/product_card.asp?part_id=4198|ATmega328P]] ( 32 Kbytes Flash, 2 KBytes SRAM, 1 Kbyte EEPROM ).
+      *[[http://fritzing.org/shop/starter-kit/#withArduinoMega|Fritzing Starter Kit with Arduino Mega]], featuring [[http://arduino.cc/en/Main/ArduinoBoardMega2560|Arduino Mega 2560]] with [[http://www.atmel.com/devices/atmega2560.aspx|ATmega2560]] ( 256 Kbytes Flash, 8 KBytes SRAM, 4 Kbyte EEPROM ).
+      *[[http://fritzing.org/shop/starter-kit/#withArduinoEthernet|Fritzing Starter Kit with Arduino Ethernet]], featuring [[http://arduino.cc/en/Main/ArduinoBoardEthernet|Arduino Ethernet]] with [[http://www.atmel.com/dyn/products/product_card.asp?part_id=4198|ATmega328P]] ( 32 Kbytes Flash, 2 KBytes SRAM, 1 Kbyte EEPROM ), Ethernet interface, SD-CARD interface. As there is no USB interface, you need a USB2serial adapter ( e.g. [[http://www.watterott.com/de/Arduino-USB-Serial-Adapter|Watterott electronic GmbH  "Arduino USB to Serial Converter"]] ), for communications with a modern host computer - without serial COM1: interface -, which included in the kit.
+      *[[http://fritzing.org/shop/super-upgrade-kit/|Fritzing "Super Upgrade Kit. The perfect kit to move from Starter to Meister"]].
+    *[[http://www.youtube.com/user/fritzingpcb|YouTube Channel "Fritzing Tutorials"]].
+      *[[http://www.youtube.com/playlist?list=PLCBA3EB7225FF750C|YouTube Channel "Fritzing Tutorials", Playlist "Arduino lernen mit dem Fritzing Starter Kit"]].
+      *[[http://www.youtube.com/playlist?list=PL8CD32146ED5CD04E|YouTube Channel "Fritzing Tutorials", Playlist "Learning Arduino with the Fritzing Starter Kit"]].
+    *[[http://twitter.com/FritzingOrg|Twitter "Fritzing"]].
+  *[[http://www.globalcode.com.br/|Globalcode]].
+    *[[http://www.jcranky.com/tag/dojo/|Paulo R. C. Siqueira, JCranky's Blog "dojo"]].
+      *Coding Dojo event "Program-ME Dojo" for Program-ME, [[http://www.globalcode.com.br/|Globalcode]]’s version of [[http://www.arduino.cc/|Arduino]], 2009-12-10.
+    *[[http://www.globalcode.com.br/noticias/EntrevistaSpockArduino|Globalcode "Arduino: Uma plataforma Open Source"]].
+    *[[http://www.eletronlivre.com.br/produtos.jsf|Globalcode, Elétron Livre - Produtos]].
+      *[[http://www.eletronlivre.com.br/produtos/Program-MEv2.jsf|Globalcode, Elétron Livre "Program-ME: O Arduino turbinado da Globalcode!"]] with [[http://www.atmel.com/dyn/products/product_card.asp?part_id=4720|ATMega328]]  ( 32 Kbytes Flash, 2 KBytes SRAM, 1 Kbyte EEPROM ).
+      *It looks as if both boards are not suitable to work with Arduino shields, due to the use of screw-type terminals :-(.
+    *[[http://www.google.de/search?q=%22Program-ME%22+site%3Aavrfreaks.net|Google search for '"Program-ME" site:avrfreaks.net']] ( AVRFreak's own search engine fails to search for "program" :-( ).
+    *[[http://www.google.de/search?q=%22Program-ME%22+globalcode+atmel|Google search for '"Program-ME" globalcode atmel']].
+    *[[http://www.google.de/search?q=%22Program-ME%22+global+code+atmel|Google search for '"Program-ME" global code atmel']].
+  *[[http://microcontrollershop.com/default.php?cPath=110|MicroController Pros Corporation "Atmel AVR Development Tools"]], USA.
+  *[[http://www.pololu.com/|Pololu Corporation - Robots & Electronics]] - Arduino Uno, [[http://www.atmel.com/dyn/products/product_card.asp?part_id=4198|ATmega328P]] ( 32 Kbytes Flash, 2 KBytes SRAM, 1 Kbyte EEPROM ), [[http://www.atmel.com/dyn/products/product_card.asp?part_id=4331|ATmega1284P]] ( 128 Kbytes Flash, 16 KBytes SRAM, 4 Kbyte EEPROM ).
+    *[[http://www.pololu.com/catalog/category/8|Pololu Corporation "Robot Controllers"]] - Arduino Uno, ATmega328P, ATmega1284P.
+  *[[http://www.lipoly.de/index.php?main_page=index&cPath=880_895|Daniel Rinninsland, lipoly.de "Elektronik / Entwicklungstools"]].
+    *[[http://www.lipoly.de/index.php?main_page=index&cPath=880_895_1296|Daniel Rinninsland, lipoly.de "Elektronik / Entwicklungstools / Arduino"]].
+      *[[http://www.lipoly.de/index.php?main_page=index&cPath=880_895_1296_2732|Daniel Rinninsland, lipoly.de  "Elektronik / Entwicklungstools / Arduino / Mainboards"]].
+      *[[http://www.lipoly.de/index.php?main_page=index&cPath=880_895_1296_2733|Daniel Rinninsland, lipoly.de "Elektronik / Entwicklungstools / Arduino / Kits"]] #.
+      *[[http://www.lipoly.de/index.php?main_page=index&cPath=880_895_1296_2725|Daniel Rinninsland, lipoly.de ""Elektronik / Entwicklungstools / Arduino / Shields"]].
+        *[[http://www.lipoly.de/index.php?main_page=product_info&products_id=169881|Daniel Rinninsland, lipoly.de  "Elektronik / Entwicklungstools / Arduino / Shields / GPS / GSM/GPRS/GPS-Shield Kit Mega incl. Arduino Mega 2560"]].
+  *[[http://www.reprapsource.com/shop/list/197|GLI Concept GmbH, Reprap-Source - open source technologies "Arduino"]] - "Arduino MEGA 2560".
+  *[[http://www.roboter-teile.de/|roboter-teile.de Shop]] - Arduino Uno.
+  *[[http://www.sainsmart.com/|SainStore Inc. - SainSmart Online Store]], USA.
+    *[[http://www.amazon.de/gp/product/B006CHEF42|Amazon.DE "SainSmart AVR Entwicklungsbrett Für Arduino Mega 2560 ATMEGA 2560 USB-Kabel enthaltend"]].
+  *[[http://www.seeedstudio.com/|Seeed Studio Bazaar - Open Hardware Factilitator]].
+    *[[http://www.seeedstudio.com/film/seeeduino%20film.htm|Seed Studio Film]] - Ardunio compatible, with [[http://www.atmel.com/dyn/products/product_card.asp?part_id=3303|ATmega168]] ( 16 Kbytes Flash, 1 Kbyte SRAM, 512 Bytes EEPROM ).
+    *[[http://www.watterott.com/de/Electronic-brick-Starter-kit|Watterott electronic GmbH "Electronic brick - Starter kit"]] -> free PDF tutorial "Electronic bricks cookbookVOL.1". 
+    *Unfortunately, the "Electronics Bricks" products have the status "Clearance", at Seed Studio :-(.
+  *[[http://www.segor.de/#/arduino|SEGOR-electronics GmbH "Arduino"]].
+  *Joe Pardue & [[http://www.smileymicros.com/|Smiley Micros - Atmel Official AVR Consultant]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/007134666X/hemmerling-21|Joe Pardue "An Arduino Workshop"]].
+      *There is a bundle offer for book + "Arduino projects kit" :-), featuring [[http://arduino.cc/en/Main/ArduinoBoardUno|Arduino Uno]] with [[http://www.atmel.com/dyn/products/product_card.asp?part_id=4198|ATmega328P]] ( 32 Kbytes Flash, 2 KBytes SRAM, 1 Kbyte EEPROM ).
+  *[[http://www.sparkfun.com/|SparkFun Electronics]].
+    *[[http://www.sparkfun.com/categories/103|SparkFun Electronics "Development Tools / Arduino"]].
+  *[[http://www.steitec.net/AVR-Boards/|Steinert Technologies]], Thailand !!!!!!!!!!!!! 
+    *[[http://www.steitec.net/Versand.html|Steinert Technologies - Versand]] - "Sofort versandfertig. Lieferzeit bei Standard Postversand ca. 2-3 Wochen" !!!!!!!!!!!!!
+    *[[http://www.steitec.net/AVR-Boards/|Steinert Technologies "AVR Boards"]].
+      *[[http://www.steitec.net/AVR-Boards/BASE-AVR-ATMEGA2560-ADK---Android.html|Steinert Technologies "BASE AVR ATMEGA2560 ADK - Android"]].
+  *[[http://www.tinkersoup.de/|TinkerSoup - A business unit of smartparts]].
+    *[[http://www.tinkersoup.de/index.php?cPath=22|TinkerSoup "Arduino"]].
+    *[[http://www.tinkersoup.de/index.php?cPath=67|TinkerSoup "Other Dev Boards"]].
+    *[[http://www.tinkersoup.de/index.php?cPath=55|TinkerSoup "Kits"]].
+    *[[http://store.arduino.cc/ww/index.php?main_page=index&cPath=16|Arduino Store  - TinkerKit]] - Modules.
+  *[[http://www.watterott.com/|Watterott electronic]].
+    *[[http://www.facebook.com/watterott.electronic|Facebook "Watterott electronic"]].
+    *[[http://twitter.com/welectronic|Twitter "Watterott electronic"]].
+    *[[http://www.youtube.com/user/WatterottElectronic|YouTube "Watterott electronic"]].
+    *Products.
+      *[[http://www.watterott.com/de/Boards-Kits/Arduino|Watterott electronic GmbH "Boards, Kits / Arduino"]].
+      *[[http://www.watterott.com/de/Boards-Kits/Arduino/Sets|Watterott electronic GmbH "Arduino Sets"]].
+      *[[http://www.watterott.com/de/Arduino-Mega-ADK|Watterott electronic GmbH "Arduino Mega ADK"]] - Special Arduino Mega2560 board, "Compatible with Android's Accessory Development Kit examples", with [[http://atmel.com/dyn/products/product_card.asp?part_id=3632&category_id=163&family_id=607&subfamily_id=760|ATmega2560]] ( 256 KBytes Flash, 8 KBytes RAM, 4 KBytes SRAM ).
+      *The expensive [[http://www.watterott.com/de/ADK-Kit|Watterott electronic GmbH "Arduino Mega 2560 ADK Kit"]] with [[http://www.tinkerkit.com/|Tinkerkit]] shield and some modules.
+      *[[http://www.watterott.com/de/Arduino-Ethernet-w/o-PoE-module|Watterott electronic GmbH "Arduino Ethernet ohne PoE module"]].
+      *[[http://www.watterott.com/de/CAN-BUS-Shield|Watterott electronic GmbH "CAN-BUS Shield (SparkFun)"]].
+      *[[http://www.watterott.com/de/Arduino-Ethernet-Shield|Watterott electronic GmbH "Ethernet-Shield (Arduino)"]].
+    *Additional tools.
+      *[[http://www.watterott.com/de/Power/Netzteile|Watterott electronic GmbH "Netzteile"]] - "For use with Arduino Boards".
+      *[[http://www.watterott.com/en/Breadboard-Power-Supply-5V/33V|Watterott electronic GmbH "Breadboard Power Supply 5V/3.3V"]].
+      *[[http://www.watterott.com/de/Electronic-brick-Starter-kit|Watterott electronic GmbH "Electronic brick - Starter kit"]] -> free PDF tutorial "Electronic bricks cookbookVOL.1". 
+      *[[http://www.watterott.com/de/Fritzing-Starter-Kit-without-Arduino|Watterott electronic GmbH "Fritzing Starter Kit ohne Arduino"]] #.
+      *[[http://www.watterott.com/de/Fritzing-Super-Upgrade-Kit|Watterott electronic GmbH "Fritzing Super Upgrade Kit"]] #.
+      *[[http://www.watterott.com/de/Arduino-Extended-Workshop-Kit|Watterott electronic GmbH "Arduino Erweitertes Bauteilset"]] #.
+      *[[http://www.watterott.com/de/Arduino-Mega-Proto-Shield|Watterott electronic GmbH "Mega Proto-Shield Bausatz"]] #.
+      *[[http://www.watterott.com/de/Boards-Kits/Zubehoer/Breadboards|Watterott electronic GmbH "Breadboards"]].
+        *[[http://www.watterott.com/de/350-teiliges-Breadboard-Kabelset|Watterott electronic GmbH "350-teiliges Breadboard Kabelset"]].
+      *[[http://www.watterott.com/de/Low-Cost-Jumper-Wires-fuer-Breadboards-70-Stueck|Watterott electronic GmbH "Low Cost Jumper Wires für Breadboards 70 Stück"]].
+      *[[http://www.watterott.com/de/Arduino-Gehaeuse|Watterott electronic GmbH "Arduino Gehäuse"]].
+      *[[http://www.watterott.com/de/Arduino-and-Breadboard-Holder|Watterott electronic GmbH "Arduino & Breadboard Halter"]].
+      *[[http://www.watterott.com/de/Metallgehaeuse-fuer-Arduino-Duemilanove-UNO-Mega|Watterott electronic GmbH "Metallgehäuse für Arduino Duemilanove, UNO, Mega"]].
+    *Motor control electronics.
+      *[[http://www.watterott.com/index.php?page=search&page_action=query&desc=on&sdesc=on&keywords=motor|Watterott electronic GmbH - Search for "motor"]] -> electric circuits for motor control ( "Motor Steuerung" ) with microcontrollers #.
+
+==== Resources ====
+  *Support for hardware debugging: Look for a mounted male 6-pin connector with "ICSP" ( "In Circuit Serial Programming" ) next printed on the board.
+  *Reset.
+    *You may need to do a minor modification to the Arduino before you can use the "debugWire" protocol with Arduino and JTAGICE3. Some designs may already have the necessary jumper to enable/disable the capacitor on the RESET line. 
+    *With some boards, there is a 10K resitor between Reset and VCC. Experts say that this is ok for use with JTAGICE3 debugger.
+  *[[http://www.arduino.cc/forum/index.php/topic,96401.0.html|Arduino Forum "Arduino ATmega2560 And AVR ONE!"]] -> Instructions how to do connect JTAG debugger to Arduino ATmega2560 and how to do JTAG debugging with Atmel Studio 5.1 :-).
+    *"The ICSP header is NOT the JTAG header. You'll have to pick the JTAG signals off of additional pins. The JTAG pins are shared with the a-d converter, so they should be reasonably accessible".
+
+
+===== The Arduino Platform with "Freescale Coldfire" CPU =====
+===== The Arduino Platform with "Microchip PIC" CPU =====
+  *See [[pic.html|Microchip PIC Microcontrollers & dsPIC Digital Signal Controllers]].
+===== The Arduino Platform with "Renesas RX63" CPU =====
+  *See [[renesas.html|Renesas Interactive]].
+===== The Arduino Platform with Atmel AVR8 or Z80ino CPU =====
+  *[[http://www.papilio.cc/|Gadget Factory "Papilio FPGA Platform"]].
+
+===== Events =====
+  *The affordable "Arduino Workshop" workshops by [[http://www.attraktor.org/|Attraktor e.V. Hamburg]].
+    *[[http://wiki.attraktor.org/Termin:Arduino_Workshop|Attraktor e.V. Hamburg "Arduino Workshop"]] in Hamburg, 2011-08-27 - 2011-08-28.
+    *[[http://wiki.attraktor.org/Termin:2._Arduino_Workshop|Attraktor e.V. Hamburg "2. Arduino Workshop"]] in Hamburg, 2012- 04-21 - 2012-04-22.
+      *Discussion [[http://wiki.attraktor.org/Talk:Termin:2._Arduino_Workshop#Programmer_ben.C3.B6tigt.3F|Attraktor e.V. Hamburg "Talk:2. Arduino Workshop"]].
+  *The affordable "Arduino Workshop" workshops by [[http://www.dingfabrik.de/|DingFabrik Köln e.V.]].
+    *[[http://www.freeduino.de/|Freeduino - Arduino Microcontroller]] - "Blog", "Forum", "Wiki", "Tutorials".
+
+===== Resources =====
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/Arduino|EN.Wikipedia "Arduino"]], [[http://de.wikipedia.org/wiki/Arduino-Plattform|DE.Wikipedia "Arduino-Plattform"]].
+    *[[http://en.wikipedia.org/wiki/List_of_Arduino_compatibles|EN.Wikipedia "List of Arduino compatibles"]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Hardware/Components/Processors/AVR/|OpenDirectory "Top: Computers: Hardware: Components: Processors: AVR]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Hardware/Mikrocontroller/|OpenDirectory "Top: World: Deutsch: Computer: Hardware: Mikrocontroller"]].
+{{tag>Arduino Freeduino Atmel ATmega ARM Microchip PIC PC32 Freescale Coldfire CPU "embedded system" "embedded systems"}}
+<footnote_navi_en>

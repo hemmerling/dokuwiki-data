@@ -1,0 +1,485 @@
+rtual
+====== [hemmerling] Distributed Computing on Automotive Networks, Car Electronics and Automotive Data Formats ======
+Related pages:
+  *[[fieldbus.html|Fieldbuses and Automation Networks]].
+  *[[distributed.html|Distributed Computing & Parallel Computing]].
+  *[[realtime.html|Realtime Operating Systems, Operating Systems for Embedded Systems, Distributed Operating Systems]] -> "AUTOSAR ( AUTomotive Open System ARchitecture ).
+
+===== Controller Area Network ( CAN ) =====
+==== My Hardware with CAN Interfaces ====
+=== My BUSMASTER-compatible CAN-Bus Interface :-) ===
+  *[[http://www.peak-system.com/|PEAK-System Technik GmbH]].
+    *Hardware.
+      *[[http://www.peak-system.com/Product-Details.49+M578cbdb898b.0.html?&L=1&tx_commerce_pi1[catUid]=6&tx_commerce_pi1[showUid]=16|PEAK-System Technik GmbH "PCAN-USB. USB to CAN Interface"]] -> Interface for "High-speed CAN bus".
+      *Optional [[http://www.peak-system.com/Produktdetails.49+M566e63b7ef5.0.html?&L=1&tx_commerce_pi1[catUid]=7&tx_commerce_pi1[showUid]=25|PEAK-System Technik GmbH "PCAN-TJA1054 - Bus Converter High-speed CAN to Low-speed CAN"]].
+    *[[http://www.peak-system.com/produktcd/|PEAK-System Technik GmbH  "All files from our Product CD"]] with Drivers.
+      *The latest PCAN-USB drivers V2.49.14.4542 for W2k are still shipped on PEAK-System CD, as of 2012-01-01.
+      *The current PCAN-USB drivers V3.x for WinXP, Vista, Win7.
+    *Software.
+      *[[http://www.peak-system.com/Product-Details.49+M5b06233f15d.0.html?&L=1&tx_commerce_pi1[catUid]=9&tx_commerce_pi1[showUid]=179|PEAK-System Technik GmbH "PCAN-Basic, CAN Software API for Windows"]].
+      *[[http://www.peak-system.com/Produktdetails.49.0.html?&L=1&tx_commerce_pi1[catUid]=10&tx_commerce_pi1[showUid]=32|PEAK-System Technik GmbH "PCAN-View. Windows Compatible Software for Displaying CAN Messages"]]  for Windows ( W2k, WinXP,.. ).
+      *[[http://www.peak-system.com/linux|PEAK-System LINUX Website]].
+      *PEAK-System Technik GmbH "BRCAN - Bus Timing Calculation Tool" for Windows ( W2k, WinXP,.. ).
+      *PEAK-System Technik GmbH "PCAN System Information - Search for all installed PCAN programs and files" for Windows ( W2k, WinXP,.. ).
+=== My Embedded System "Atmel AT32UC3C-EK" with CAN-Bus Interface :-) ===
+  *See [[atmelavr32.html|Atmel AVR32]].
+==== CAN-Bus Interrogation Tools ====
+=== CANHack CANUSB & CANHacker ===
+  *[[http://www.canhack.de/|CANhack.de - CAN Hardware, CAN Software, CAN Protokolle - Das CAN Forum]].
+    *[[http://www.canhack.de/viewforum.php?f=26|CANhack.de - CAN Hardware, CAN Software, CAN Protokolle - Das CAN Forum "CANUSB Adapter"]].
+      *[[http://www.canhack.de/viewtopic.php?t=1856|CANhack.de - Subforum "CANUSB Adapter", Thread "Wichtig: Download CAN Monitor CANHacker V2.00.02"]]. 
+        *Supported CAN Interfaces:
+          -Peak CAN USB.
+          -Lawicel canusb.
+          -Lawicel can232.
+          -canhack canusb.
+          -OBD-DIAG interfaces in Lawicel mode.
+          -mictronic DIY canusb.
+        *Requires the installation of NI LabVIEW Run-Time Engine 7.0 :-(. Especially, you can´t install LabVIEW Run-Time Engine 7.0, even if you have it on CD, if a higher version of Labview ( e.g. Labview 7.1, 8.x, 201x ) is installed :-(.
+     *[[http://www.canhack.de/viewtopic.php?t=24|CANhack.de - Subforum "CANUSB Adapter", Thread "Preisgünstiges CAN Interface inkl. CAN Monitor"]].
+     *[[http://www.canhack.de/viewtopic.php?t=137|CANhack.de - Subforum "CANUSB Adapter", Thread "Features und Doku"]].
+  *[[http://www.car-pc.info/|Car-PC]].
+    *Wiki [[http://www.car-pc.info/wiki/CPOS|Car-PC Wiki "cPOS"]].
+    *[[http://www.cpos-online.de/|cPOS-Online]].
+=== EControls, Inc. ===
+  *[[http://www.cancapture.com/|EControls, Inc. "CANCapture"]] for Windows.
+=== Intrepid Control Systems ===
+  *[[http://intrepidcs.com/VehicleSpy/|Intrepid Control Systems "Vehicle Spy Professional"]] for Windows.
+  *The free [[http://intrepidcs.com/support/cancracker.htm|Intrepid Control Systems "CAN Cracker"]] for Windows - "Controller Area Network Reverse Engineering and Competitive Analysis Tool".
+  *The free [[http://intrepidcs.com/support/mbtime.htm|Intrepid Control Systems "Microchip Controller Area Network (CAN) Bit Timing Calculator"]] for Windows.
+=== ZEROPLUS ===
+  *[[http://www.zeroplus.com.tw/|ZEROPLUS, INSTRUMENT Dep.]].
+    *Hardware.
+      *[[http://www.zeroplus.com.tw/logic-analyzer_en/products.php|ZEROPLUS, INSTRUMENT Dep. "Logic Analyzer"]].
+    *Free software, to be used with the hardware.
+      *[[http://www.zeroplus.com.tw/logic-analyzer_en/products.php?pdn=10&pdnex=list|ZEROPLUS, INSTRUMENT Dep. "Protocol Analyzer"]].
+        *[[http://www.zeroplus.com.tw/logic-analyzer_en/products.php?pdn=10&pdnex=11|ZEROPLUS, INSTRUMENT Dep. "Protocol Analyzer - Automotive"]].
+          *[[http://www.zeroplus.com.tw/logic-analyzer_en/products.php?product_id=28&pdn=10&pdnex=11|ZEROPLUS, INSTRUMENT Dep. "Protocol Analyzer - Automotive / CAN 2.0B"]].
+==== CAN-Bus Development & Interrogation Tools ====
+=== BUSMASTER ===
+  *Github.
+    *[[http://www.github.com/rbei-etas|Github user "rbei-etas (RBEI and ETAS)"]].
+    *The OpenSource [[http://rbei-etas.github.com/busmaster/|Github "BUSMASTER"]], [[http://github.com/rbei-etas/busmaster/|Github "BUSMASTER"]].
+    *Wiki [[http://github.com/rbei-etas/busmaster/wiki|Github "BUSMASTER Wiki"]].
+      *[[http://github.com/rbei-etas/busmaster/wiki/Hardware-support|Github "BUSMASTER Wiki" - "Hardware support"]] #.
+  *[[http://www.etas.com/en/products/applications_open_source.php|ETAS "BUSMASTER"]].
+  *[[http://www.boschindia.com/content/language1/html/14539.htm|Robert Bosch Engineering and Business Solutions "CANvas"]].
+  *[[http://de.wikipedia.org/wiki/BUSMASTER|DE.Wikipedia "BUSMASTER"]].
+  *BUSMASTER works fine with current V3 drivers for [[http://www.peak-system.com/Product-Details.49+M578cbdb898b.0.html?&L=1&tx_commerce_pi1[catUid]=6&tx_commerce_pi1[showUid]=16|PEAK-System Technik GmbH "PCAN-USB. USB to CAN Interface"]], but not with V2 driverss.
+  *With V2.49.14.4542 drivers on W2k, selecting the CAN-Bus adapter by "Configure / Hardware Interface / Peak USB" causers the error message in the "Trace Window" of BUSMASTER: 
+
+//Listing hardware interfaces failed.//
+
+=== CanEasy ===
+  *The commercial CAN-Bus analysis and test tool [[http://www.schleissheimer.de/produkte/caneasy/|Schleißheimer Soft- und Hardwareentwicklung GmbH "CanEasy"]] for Windows. A 30-days evaluation version is available.
+=== OpenCAN ===
+  *The OpenSource [[http://www.codeofintelligence.com/opensource/opencan/|Codeofintelligence "OpenCAN"]].
+=== RealTime-at-Work ===
+  *[[http://www.realtimeatwork.com/|RealTime-at-Work]].
+  *[[http://www.realtimeatwork.com/downloads/|RealTime-at-Work - Downloads]].
+  *The free [[http://www.realtimeatwork.com/software/rtaw-sim/|RealTime-at-Work "RTaW-Sim"]] for Windows and Linux - "A fine grained Controller Area Network simulator with fault-injection capabilities".
+  *The free [[http://www.realtimeatwork.com/software/netcar-analyzer/|RealTime-at-Work "NETCAR-Analyzer"]] for Windows  - "Helps the system designer optimize the scheduling of frames on Controller Area Network (CAN) and check that the requirements on transmission delays are met".
+  *The free [[http://www.realtimeatwork.com/software/rtaw-ecu/|RealTime-at-Work "RTaW-ECU"]] for Windows and Linux - "A task scheduling configuration tool for mono and multicore platforms, aimed at reducing the peaks of CPU load while meeting the timing constraints".
+  *[[http://www.realtimeatwork.com/downloads/|RealTime-at-Work "Minplus-Console: a (Min,+) algebra interpreter for Network Calculus"]] for Windows and Linux, free for educuational use.
+=== Total Phase, Inc. ===
+  *The hardware [[http://www.totalphase.com/products/komodo_canduo/|Total Phase, Inc. "Komodo CAN Duo Interface"]].
+  *The online shop [[http://www.thelabeshop.com/|The LAB equipment Shop]] by the german distributor [[http://evision-systems.de/|eVision Systems GmbH]] - "Instruments, Tools and Accessories for the European Electronics Industry]]".
+  *The free software [[http://www.totalphase.com/products/data_center/|Total Phase, Inc. "Data Center Software"]].
+  *The free software [[http://www.totalphase.com/products/komodo_gui/|Total Phase, Inc. "Komodo GUI Software"]].
+=== VCDS / VAG-COM ===
+  *Manufacturer [[http://www.ross-tech.com/vag-com/|Ross-Tech - Diagnostic Software for European Automobiles]] by Uwe Ross.
+    *The commercial [[http://www.ross-tech.com/vag-com/|Ross-Tech - Diagnostic Software for European Automobiles "VCDS"]] - "Windows-based Diagnostic Software for VW / Audi / Seat / Skoda".
+    *The free (?) [[http://www.ross-tech.com/vcds-lite/download/index.html|Ross-Tech - Diagnostic Software for European Automobiles "VCDS-Lite for all 3rd party and "Dumb" Interfaces]].
+    *Wiki [[http://wiki.ross-tech.com/|Ross-Tech Wiki]].
+  *Vendors.
+    *[[http://www.vcdspro.de/|VCDS pro - Das No.1-Diagnosesystem für VW, Audi, Seat und Skoda]].
+    *[[http://www.diagnosetool.de/|MFT - Milewski Fahrzeugtechnik GmbH "DIAGNOSETOOL > VCDS"]].
+    *[[http://www.vag-diagnose.com/|Fa. Michael Faust Autozubehör & KFZ-Service "Hard- und Software für die OnBoard-Diagnose (VAGCOM)"]].
+  *Interfaces: 
+    -HEX+CAN-USB.
+    -HEX+CAN-COM.
+    -HEX+CAN-COM/U.
+    -HEX-USB.
+    -HEX-COM.
+    -HEX-COM/U.
+    -Micro-CAN.
+    -AI Multiscan COM.
+    -AI Multiscan USB by [[http://www.auto-intern.de/|Auto-Intern GmbH]].
+    -AI Uni-VAG COM.
+    -AI Uni-VAG/CAN USB.
+    -KEY-USB.
+    -KEY-COM.
+    -PCI KKL.
+=== Vector Informatik GmbH ===
+  *[[http://www.vector-informatik.com/|Vector Informatik GmbH]] - CAN tools for Windows.
+    *CANalyzer 5.2 for Windows is ( one of ) the latest edition for W2k, but crashes on Vista, Win7.
+    *CANalyzer 7.6 runs on WinXP, Vista, Win7 only, with .NET 2.0, J#, C#, Microsoft XNA.
+  *[[http://vector.de/vi_supported_standards_en.html|Vector Informatik GmbH "Supported Standards"]].
+  *[[http://www.vector.com/vi_events_en.html|Vector Informatik GmbH "Event Calendar"]].
+  *[[http://www.vector-consulting.de/|Vector Consulting Services GmbH]].
+  *The online Flash catalog [[http://www.vector.com/portal/medien/e_media/en/ecucalibration_catalog/Catalog_ECU_Calibration_EN_opf_files/WebSearch/page0001.html|Vector Informatik GmbH "Product Catalog. ECU Calibration"]].
+    *[[http://www.vector.com/portal/medien/e_media/en/ecucalibration_catalog/Catalog_ECU_Calibration_EN_opf_files/WebSearch/page0012.html|Vector Informatik GmbH "Product Catalog. ECU Calibration - CANape 10.0"]] - "Measuring, calibrating, diagnosing and flashing ECUs in one tool".
+  *[[http://www.vector.com/vi_ecutest_en.html|Vector Informatik GmbH "ECU Testing"]] #.
+    *[[http://www.vector.com/vi_canoe_test_en.html|Vector Informatik GmbH "ECU Testing - Testing with CANoe"]] -> "CANoe Test Feature Set (TFS)".
+  *Free E-Learning, video tutorials & webinars.
+    *[[http://www.youtube.com/user/vectorchannel|YouTube "vectorchannel"]].
+    *[[http://www.vector.com/vi_elearning_de.html|Vector Informatik GmbH "E-Learning, E-Training and Webinars"]] #.
+      *The free [[http://www.vector.com/vl_index_en.html|Vector Informatik GmbH "The virtual VectorAcademy"]].
+      *Free [[http://www.vector.com/vi_webinars_en.html|Vector Informatik GmbH "Webinars"]].
+        *Free recorded webinars [[http://www.vector.com/vi_events_en.html?kategorie=548717| "Event Calendar - Recorded Webinars"]].
+        *[[http://vector-group.webex.com/|Vector Informatik GmbH WebEx Enterprise Site]].
+      *The affordable commercial [[http://www.vector.com/vi_etraining_canoe_en.html|Vector Informatik GmbH 'E-Training “Introduction to CANoe'"]] - just in english.
+
+^ ^ ^ ^ ^ ^ ^
+^ ^ The virtual VectorAcademy ^^^^^
+^ # ^ E-learning module ^ # of units ^ Duration of a unit / minutes ^ Total duration / minutes ^ # of learning objectives tests |
+^ 1 | Serial Bus Systems in the Motor Vehicle | 45 | 10 | 450 | 2 |
+^ 2 | Introduction to CAN | 22 | 10 | 220 | 4 |
+^ 3 | Introduction to LIN | 19 | 10 | 190 | 3 |
+^ 4 | Introduction to FlexRay | 29 | 10 | 290 | 2 |
+^ | Total ||| 1150 | 11 |
+^ | Equivalent to university teaching units | 25 | 45 | ||
+^ | | | | | |
+
+  *[[http://www.vector.com/vi_knowledgebase_en.html|Vector Informatik GmbH "Support Knowledge Base"]] - Documentation ( # = suggested read order ).
+
+^ ^^ ^ ^ ^ 
+^ # ^Search ^^ Path ^ Documents / Downloads of special interest ^
+^::: ^Search ^ Categories ^ ::: ^ ::: ^
+^ | programming ^ -All Categories- | "CANoe / CANalyzer" / "CAPL" / "Documentation" |CAPL Function Reference Manual ( PDF ) |
+^ 06 | ::: ^ ::: | ::: | Manual "Programming with CAPL. CANalyzer, CANoe" ( PDF ) |
+^ | ^ | | |
+
+  *[[http://www.vector.com/vi_downloadcenter_en.html|Vector Informatik "Download-Center"]] - Documentation ( # = suggested read order ).
+
+^ ^ ^ ^ ^ ^
+^ # ^Products ^ Categories ^ Standards ^ Documents / Downloads of special interest ^
+^ 01 ^ ? ^ ? ^ ? | [[http://www.vector.com/portal/datei_mediendatenbank.php?system_id=876113|CANalyzer and CANoe. An Architectural Overview]] ( PDF ) |
+^ 02 ^ CANalyzer ^ Application Notes ^ ALL | "AN-AND-1-110 Quick Introduction to CANalyzer" ( PDF ) - "The aim is to move first time users up the curve rapidly by focusing on the tool architecture and key operational features of CANalyzer" |
+^ 04 ^ ? ^ ? ^ ? | [[http://www.vector.com/portal/medien/vector_cantech/Sponsorship/EcoCar/AN-AND-1-112_Canoe_Tutorial.pdf|AN-AND-1-112 CANoe Tutorial]] - "Since CANalyzer is used as a portion of the foundation for CANoe, it is quite beneficial to learn the basic features and operation of CANalyzer first before learning CANoe" |
+^ 03 ^ All ^ Application Notes ^ CAPL | "AN-AND-1-113 Quick Introduction To CAPL" ( PDF ) - "This application note is a brief introduction to CAPL, the easy-to-use C-based programming language and integrated programming environment inside both CANalyzer and CANoe" |
+^ 05 ^ CANdb++ ^ Application Notes ^ ALL | "AN-AND-1-116 CANdb++ Tutorial" ( PDF ) - "The objective is to provide a basic understanding of how the CANdb database is setup and utilized in a CAN system" |
+^ 08 ^ CANoe ^ Application Notes ^ CAN | "AN-AND-1-118 CANoe Test Feature Set Tutorial" ( PDF ) - "Step-by-step tutorial to introduce the basic process of developing a simple CANoe test application with CANoe’s Test Feature Set. Used as a guide, the focus is to better understand how to use CANoe’s Test Feature Set" |
+^ 07 ^ CANoe ^ Application Notes ^ ALL | "AN-IND-1-002 Testing with CANoe" ( PDF ) - "This application note describes the basic concepts of CANoe's Test Feature Set in detail" |
+^ ^ ^ ^ | |
+
+  *[[http://www.vector.com/vi_downloadcenter_en.html|Vector Informatik "Download-Center"]] - Documentation about external scripting by CANoe's COM server ( # = suggested read order ).
+
+^ ^ ^ ^ ^ ^
+^ # ^Products ^ Categories ^ Standards ^ Documents / Downloads of special interest ^
+^ 09 ^ CANoe ^ Application Notes ^ ALL | "AN-AND-1-117 CANoe/CANalyzer as a COM server" - "This application note is a general introduction to the COM server functionality of CANoe and CANalyzer. It presents the basic technical aspects and possibilities, and explains these using Microsoft Visual Basic examples" |
+^ ^ ^ ^ | |
+
+  *[[http://www.vector.com/vi_downloadcenter_en.html|Vector Informatik "Download-Center"]] - CANopen documentation.
+
+^ ^ ^ ^ ^ ^
+^ # ^Products ^ Categories ^ Standards ^ Documents / Downloads of special interest ^
+^  ^ ALL ^ Application Notes ^ CANopen | "AN-ION-1-0103 Protocol Selection Guide" ( PDF ) |
+^  ^ ALL ^ Application Notes ^ CANopen | "AN-AND-1-160 Introduction to Higher Level Protocols" ( PDF ) |
+^  ^ ALL ^ Application Notes ^ CANopen | "AN-ION-1-1100 Introduction to the CANopen Protocol" ( PDF ) |
+^  ^ ALL ^ Application Notes ^ CANopen | "AN-AON-1-1102 Getting started with CANopen" ( PDF ) |
+^  ^ ALL ^ Application Notes ^ CANopen | "AN-AON-1-1101 Introduction to the CANopen Documentation Family" ( PDF ) |
+^  ^ ALL ^ Application Notes ^ CANopen | "AN-ION-1-1103 Master and Slave in the CANopen World" ( PDF ) |
+^  ^ ALL ^ Application Notes ^ CANopen | "AN-ION-1-1104 Setting Baud Rate and Node IDs in a CANopen System" ( PDF ) |
+^  ^ ALL ^ Application Notes ^ CANopen | "AN-ION-1-1201 Getting started with CANoe.CANopen" ( PDF ) |
+^ ^ ^ ^ | |
+
+  *[[http://www.vector.com/vi_downloadcenter_en.html|Vector Informatik "Download-Center"]] - Demo software.
+
+^ ^ ^ ^ ^
+^Products ^ Categories ^ Standards ^ Documents / Downloads of special interest ^
+^ All ^ Demos ^ ALL | "CANalyzer/CANoe 7.6" for WinXP, Vista, Win7 with .NET and DirectX - Select "CANalyze", "CAN" during the first-time installation |
+^ ::: ^ ::: ^ ::: | "CANape 10.0" for WinXP, Vista, Win7 |
+^ ::: ^ ::: ^ ::: | "CANdela Studio 6.0" for W2k, WinXP, Vista, Win7 |
+^ ^ ^ | |
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/CANalyzer|EN.Wikipedia "CANalyzer"]], [[http://de.wikipedia.org/wiki/CANalyzer|DE.Wikipedia "CANalyzer"]].
+    *[[http://en.wikipedia.org/wiki/CANoe|EN.Wikipedia "CANoe"]], [[http://de.wikipedia.org/wiki/CANoe|DE.Wikipedia "CANoe"]].
+    *[[http://en.wikipedia.org/wiki/CANape|EN.Wikipedia "CANape"]], [[http://de.wikipedia.org/wiki/CANape|DE.Wikipedia "CANape"]].
+==== CAN-Bus Diagnostics by Oscilloscopes ====
+=== Digital Storage Oscilloscopes with CAN / LIN / Flexray Decoding ===
+  *[[http://www.datatec.de/lshop,inline,2004g,d,,,2000+X+-+3000+X-Serie,1154877529-d.html,,.htm|dataTec GmbH "Agilent InfiniiVision 2000 X / 3000 X Oszilloskop-Serie"]] - "Dual Bus Dekodierung von Flexray, I2C, SPI, CAN, LIN, RS232/RS485/UART, I2S Bussen u.w. (mit opt. Modulen 3000 X)".
+    *Option [[http://www.datatec.de/Agilent-DSOX3AUTO.htm|dataTec GmbH "Agilent - DSOX3AUTO - CAN und LIN Bus Dekodierung und Trigger"]].
+    *Option [[http://www.datatec.de/cgi-bin/shop/lshop.cgi?action=showdetail&artnum=dsox3flex&wkid=29701&ls=d&nocache=1331324986-1865&gesamt_zeilen=Tshowdetail----dsox3auto|dataTec GmbH "Agilent - DSOX3FLEX - FlexRay Bus Dekodierung und Trigger"]].
+  *[[http://www.datatec.de/cgi-bin/shop/lshop.cgi?action=showdetail&artnum=dso9064a&wkid=29701&ls=d&nocache=1331324796-1458&gesamt_zeilen=Tshowdetail----n8803b|dataTec GmbH "Agilent - DSO9064A - Digital Speicher Oszilloskop, 600 MHz, 4- Kanäle, 10GSa/s"]] with Windows 7 Embedded Standard.
+    *Option [[http://www.datatec.de/Agilent-N8803B-Software.htm|dataTec GmbH "Agilent - N8803B - Dekodierung und Trigger für CAN, LIN, FlexRay"]].
+  *[[http://www.datatec.de/cgi-bin/shop/lshop.cgi?action=showdetail&artnum=hmo722&wkid=29701&ls=d&nocache=1331323089-31019&gesamt_zeilen=Tshowdetail----hoo12|dataTec GmbH "Hameg - HMO722 - Oszilloskop, 2+8 Kanal 70 MHz, 2 GSa/s"]] - "Serielle Busse triggern und hardwareunterstützt dekodieren: I2C, SPI, UART/RS-232, CAN / LIN (Opt. HOO10, HOO11, HOO12)".
+    *Option [[http://www.datatec.de/cgi-bin/shop/lshop.cgi?action=showdetail&artnum=hoo12&wkid=29701&ls=d&nocache=1331323062-30968&gesamt_zeilen=Tshowdetail----hmo1022|dataTec GmbH "Hameg - HOO12 - CAN und LIN Bus Dekodierung und Trigger"]].
+  *[[http://www.tek.com/bench-oscilloscopes/mso3000-dpo3000|Tektronix, Inc. "MSO/DPO3000 Mixed Signal Oscilloscope Series"]] - "Quickly debug common serial buses with automated trigger, decode and search - I2C, SPI, MIL-STD-1553, **CAN, LIN, FlexRay**, RS-232/422/485/UART and I2S/LJ/RJ/TDM".
+  *[[http://www.tek.com/oscilloscope/mso-dpo2000|Tektronix, Inc. "MSO/DPO2000 Mixed Signal Oscilloscope Series"]] - "Quickly debug common serial buses with automated trigger, decode and search - I2C, SPI, **CAN, LIN**, and RS-232/422/485/UART".
+=== Suitable PC-based Oscilloscopes, but without Decoding :-( ===
+  *[[http://www.softdsp.com/product/sds200a_01.htm|softDSP Co., Ltd. "SDS 200A"]] - "2CH, 200MHz, 5GS/s equiv. sampling PC based Digital Storage Oscilloscope".
+  *[[http://shop.conrad-uk.com/1/2-a3-uk0121666__200mhz-digital-usb-oscilloscope-sds-200a.html|Conrad "200MHz digital USB oscilloscope SDS-200A"]].
+==== Free CANalyser Applications as CAPL Source Code  ====
+  *[[http://www.stackoverflow.com/questions/6592380/capl-program-in-cananalyzer-7-0-tool|Stack Overflow "CAPL program in CANanalyzer 7.0 tool"]].
+==== Free CAN-related Software Frameworks, Stacks, Protocols ====
+=== The OpenSource "SocketCAN" API for Linux ===
+  *[[http://en.wikipedia.org/wiki/SocketCAN|EN.Wikipedia "SocketCAN"]], [[http://de.wikipedia.org/wiki/SocketCAN|DE.Wikipedia "SocketCAN"]].
+=== Some other free Frameworks, Stacks, Protocols ===
+  *The OpenSource [[http://caraca.sourceforge.net/|SourceForge "CARACA - CAN Remote Automation and Control with the AVR"]], [[http://www.sourceforge.net/projects/caraca|SourceForge "CARACA"]] by [[http://www.lancos.com/|Claudio Lanconelli, Lanconelli Open Systems]].
+  *The OpenSource [[http://www.canfestival.org/|CanFestival]] - "An OpenSource CANOpen framework".
+    *[[http://www.rtems.com/wiki/index.php/CanFestival|RTEMSWiki "CanFestival"]].
+  *[[http://www.iuse.org/|Die HCAN Hausautomatisierung]].
+    *Wiki [[http://wiki.iuse.org/wiki/|HCAN Wiki]].
+  *The OpenSource [[http://developer.berlios.de/projects/socketcan/|BerliOS Developer - Open Source Development "Socket-CAN"]] ( formerly "Low Level CAN Framework" ( LLCF ) ).
+    *[[http://en.wikipedia.org/wiki/SocketCAN|EN.Wikipedia "SocketCAN"]].
+  *The OpenSource [[http://www.vscp.org/|vscp - Very Simple Control protocol. The free and open protocol for automation and control]], [[http://can.sourceforge.net/|SourceForge "vscp - Very Simple Control protocol"]], [[http://www.sourceforge.net/projects/can/|SourceForge "CAN bus network drivers and utilities"]].
+
+==== Commercial CAN-related Software Frameworks, Stacks ====
+  *[[http://www.esd.eu/esd2004/german/products/Software/can-j1939_e.htm|esd electronic system design GmbH "J1939 Protocol Stack"]], [[http://www.esd-electronics-usa.com/CAN%20SAE%20J1939%20Protocol%20Stack%20for%20ECU%20communication%20-%20SAE%20J1939%20Stack.html|esd electronic system design, USA "SAE J1939 Protocol Stack"]].
+  *[[http://www.ixxat.com/sae_j1939_stack_en.html|IXXAT Automation GmbH "SAE J1939 Protocol Software"]].
+  *[[http://www.microcontrol.net/en/source-code/sae-j1939.html|MicroControl GmbH und Co. KG "J1939 source code"]].
+  *[[http://www.noregon.com/products/jpro_j1939_protocolstack.asp|Noregon Systems, Inc. "JPRO J1939 Protocol Stack"]]. 
+  *[[http://www.port.de/pages/products/can/canopen/software/lib_atmel.php|port GmbH "CANopen Library for ATMEL Controllers"]].
+  *[[http://www.simmasoftware.com/j1939.html|Simma Software, Inc. "SAE J1939 protocol stack"]].
+==== SECUduino - A CAN-Bus Project ====
+  *[[http://secuduino.blogspot.de/|SECUduino]] - "Connecting Arduino to your car, other Arduinos or existing CAN Bus networks has never been easier thanks to SECUduino!!".
+  *[[http://real2electronics.blogspot.de/2009/09/can-bus-display.html|Blogspot "Real 2 Electronics. Tinkering with Electronics...Physical Computing - Rapid prototyping hardware"]].
+  *Article [[http://real2electronics.blogspot.de/2009/09/can-bus-display.html|Blogspot "Real 2 Electronics. Tinkering with Electronics...Physical Computing - Rapid prototyping hardware" - "CAN BUS DISPLAY"]].
+  *[[http://www.youtube.com/watch?v=CZGxynxNAlM|YouTube "CAN Display"]].
+  *Thread [[http://www.arduino.cc/cgi-bin/yabb2/YaBB.pl?num=1291683813|Arduino Forum "New MCP2515 CAN Library Available"]], 2010-12-07.
+==== Some other Interface Hardware ====
+=== Some other BUSMASTER compatible PC Interfaces ===
+  *[[http://www.kvaser.com/en/products/can/usb.html|Kvaser "Kvaser USB"]] -> "Leaf", [[http://www.kvaser.com/en/products/can/data-logger.html|Kvaser "Kvaser's Data Logger"]] -> "Memorator".
+=== Low-budget USB interfaces ===
+  *[[http://www.lawicel.com/|LAWICEL AB]], [[http://www.lawicel-shop.se/|LAWICEL AB Shop]].
+    *[[http://www.canusb.com/|LAWICEL AB "CANUSB"]].
+    *[[http://www.can232.com/|LAWICEL AB "CAN32"]].
+  *[[http://www.microchipdirect.com/ProductSearch.aspx?Keywords=APGDT002|Microchip Inc. "APGDT002 - CAN BUS Analyzer Tool"]].
+  *OpenSource Hardware & Software Interface Projects.
+    *[[http://www.kreatives-chaos.com/artikel/can-debugger|kreatives-chaos.com - Elektronik und Roboterbau "CAN Debugger"]].
+    *[[http://www.mictronics.de/projects/usb-can-bus/|Mictronics - Michaels Electronic Projects "USB-CAN Bus"]].
+=== PCI, USB & Ethernet Interfaces ===
+  *[[http://www.adfweb.com/Home/products/CAN_BUS_analyzers.asp?frompg=GooCANBUS|ADFweb.com S.r.l "CAN / CANopen Analyzer Software and Hardware"]] - "INCLUDED CAN Analyser Software ! FREE Dll for Customized SW !".
+  *[[http://www.bressner.de/products/communication/icom/serial-cards-icom/can-cards-icom/|BRESSNER Technology GmbH "CAN CARDS"]] -> PCI / ISA cards.
+  *[[http://www.ems-wuensche.de/product/datasheet/html/can-pci-einsteckkarte-mehrkanal-cpcpci.html|EMS Dr. Thomas Wünsche e.K. "CAN-Einsteckkarte CPC-PCI"]].
+  *[[http://www.gridconnect.com/canboandto.html|Grid Connect Inc. "CAN"]].
+    *[[http://www.gridconnect.com/canadapters.html|Grid Connect Inc. "CAN / Adapters"]].
+  *[[http://de.hilscher.com/products_group_pccards.html|Hilscher Gesellschaft für Systemautomation mbH "PC-Karten. Feldbus Integration für PC basierte Systeme"]] - "CIF Karten" -> PCI / ISA cards, drivers for Windows & Linux #.
+  *[[http://www.ixxat.com/usb-to-can-compact-interface_en.html?navigation=28828|IXXAT Automation GmbH "USB-to-CAN Interface"]].
+  *[[http://shop.meilhaus.de/nocache/Schnittstellen/Feldbus-Interfaces/ME-CAN/index,w132423900517068.htm|Meilhaus Electronic GmbH "ME-CAN"]].
+  *[[http://www.ni.com/can/|National Instruments "Controller Area Network (CAN)"]].
+    *[[http://sine.ni.com/nips/cds/view/p/lang/en/nid/203382|National Instruments "NI USB CAN Interfaces"]].
+      *[[http://sine.ni.com/nips/cds/view/p/lang/en/nid/210077|National Instruments "USB-9862 High-Speed CAN"]].
+      *[[http://sine.ni.com/nips/cds/view/p/lang/en/nid/210076|National Instruments "USB-9862 Low-Speed CAN"]]. 
+    *[[http://sine.ni.com/nips/cds/view/p/lang/en/nid/203383|National Instruments "NI USB CAN Interfaces"]].
+      *[[http://sine.ni.com/nips/cds/view/p/lang/en/nid/210078|National Instruments "NI USB-9866. 1-Port NI-XNET USB LIN Interface"]].
+  *[[http://www.peak-system.com/|PEAK-System Technik GmbH]].
+    *[[http://www.peak-system.com/Produktdetails.49+M5d167ae2f58.0.html?&tx_commerce_pi1[catUid]=6&tx_commerce_pi1[showUid]=3|PEAK-System Technik GmbH "PCAN-PCI"]].
+    *[[http://www.computer-solutions.co.uk/gendev/can-pci.htm|COMSOL - Computer Solutions Ltd "PCAN-PCI Card Interfaces"]].
+  *[[http://www.port.de/pages/products/can/canopen/hardware/pcie_cani.php?lang=de|PORT GmbH "CPC-PCI/PCIe CAN-Interface"]].
+  *[[http://www.postulka-datentechnik.de/Vertrieb/Fertigung/Steuerungstechnik/CAN_Bus/CAN_Bus_Shop/body_can_bus_shop.html|Postulka Datentechnik "CAN-PCI-Karte"]].
+  *[[http://www.softing.com/home/en/industrial-automation/products/can-bus/|Softing AG "Softing CAN bus products - Components with a system"]].
+  *[[http://www.trinamic.com/tmc/render.php?sess_pid=216|TRINAMIC Motion Control GmbH & Co. KG. "CANnes"]] - "CAN-Bus PCI-Card with open source Linux driver".
+  *[[http://www.visionsystems.de/news20042009_de.htm|VS Vision Systems GmbH "CAN BUS Adapter im robusten Metallgehäuse"]] - "Weiter unterstützen die CAN Adapter CANFestival, ein Open Source CANopen Framework".
+=== Legacy ISA-BUS Interfaces ===
+  *[[http://www.ccontrols.com/|Contemporary Control Systems, Inc.]].
+    *[[http://www.ccontrols.com/can/can-isa.htm|Contemporary Control Systems, Inc. "CANISA - CANbus Network Interface Module for ISA Bus Computers"]].
+  *[[http://emtrion.de/hicocan_isa_de.php|emtrion GmbH "HiCO.CAN-ISA - CAN Karte mit 32-Bit Intelligenz für ISA bus"]].
+=== CAN Devices ===
+  *"neoRADI/O"  - "Simple, Low Cost CAN I/O" #.
+    *[[http://www.intrepidcs.com/osc_store/product_info.php/products_id/116|Intrepid Control Systems "neoRADI/O"]].
+    *[[http://www.ehitex.de/neoRADI-O_detail_314_49.html|Hitex Development Tools "neoRADI/O"]].
+  *[[http://www.totalphase.com/products/activity_board_pro/|Total Phase, Inc. "CAN/I2C Activity Board Pro"]].
+=== CAN-Bus Chips, CPUs and Boards with CAN Interfaces ===
+  *Atmel.
+    *[[http://www.atmel.com/dyn/products/product_card.asp?part_id=3388|AT90CAN128]] - CAN interface.
+    *[[http://www.atmel.com/dyn/products/product_card.asp?part_id=4307|ATmega32M1 Automotive]] - CAN & LIN interfaces.
+    *[[http://elmicro.com/de/candip.html|Elektronikladen / ELMICRO "CANDIP - DIP28 AVR Rechnermodul mit CAN"]].
+    *[[http://www.atmel.com/uc3c-ek|Atmel UC3C-EK]], [[http://store.atmel.com/PartDetail.aspx?q=p:10500191|Atmel AT32UC3C-EK (AT32UC3C-EK)]] with [[http://www.atmel.com/dyn/products/product_card.asp?PN=AT32UC3C0512C&source=adis|AT32UC3C0512C]] - CAN & LIN interfaces.
+  *Microchip Technology Inc.
+    *[[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1406&dDocName=en024094|Microchip Technology Inc. "MCP2515 CAN Controller PICtail Demo Board"]].
+    *[[http://www.microchip.com/wwwproducts/Devices.aspx?dDocName=en010406|Microchip Technology Inc. "MCP2515"]].
+    *[[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=2615&dDocName=en535536|PIC32 USB Starter Kit II]] - "Users can develop CAN applications using [[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=2615&dDocName=en535444|PIC32 expansion board]]".
+      *It is not stated and therefore not guaranteed that the [[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1406&dDocName=en535527|CAN/LIN PICtail (Plus) Daughter Board]] works with the [[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=2615&dDocName=en535444|PIC32 expansion board]] :-(.
+    *[[http://www.modtronix.com/product_info.php?products_id=196|Modtronix Engineering "SBC68EC"]] with CAN-Bus interface, [[http://www.microchip.com/wwwproducts/Devices.aspx?dDocName=en010314|PIC18F6680]] CPU.
+    *PDF Application note [[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1824&appnote=en011947|Microchip Technology Inc. "Understanding Microchip?s CAN Module Bit Timing"]].
+  *[[http://www.ehitex.de/Evaluation-Board-fuer-ARM-mit-STMicroelectronics-STR710F_detail_15.html|Hitex Development Tools GmbH "Evaluation Board für ARM mit STMicroelectronics STR710F"]], [[http://www.ehitex.de/Evaluation-Board-fuer-ARM-mit-STMicroelectronics-STR730F_detail_74.html|Hitex Development Tools GmbH "Evaluation Board für ARM mit STMicroelectronics STR730F"]], [[http://www.ehitex.de/Evaluation-Board-fuer-ARM-mit-STMicroelectronics-STR750F_detail_90.html|Hitex Development Tools GmbH "Evaluation Board für ARM mit STMicroelectronics STR750F"]].
+  *[[http://www.nxp.com/products/other/controllers/can_protocol_controllers/SJA1000.html|NXP Semiconductors "SJA1000 - Stand-alone CAN controller"]].
+=== CAN-Bus Starter Kits ===
+  *The extremely expensive [[http://www.elwe.com/de/produkte/starterkits/starter-kit-can-bus-d.php|ELWE Technik GmbH "Starter-Kit CAN-Bus"]].
+  *[[http://www.esd.eu/esd2004/german/products/CAN/can-windows-starterkit_e.htm|esd electronic system design GmbH "Windows-CAN-Starterkit"]], [[http://www.esd-electronics-usa.com/PC-CAN-Training-Kit-CAN-Interface-w/IO-Module-Simulation-Block-Wiring-Drivers-Power-CAN-Windows-Starter-Kit.html|esd electronic system design, USA "CAN-Windows Starter Kit"]].
+  *[[http://www.eutech-scientific.de/?id=65|EUtech Scientific Engineering "HiL Starter Kit"]] #.
+  *[[http://www.freitag-elektronik.de/texte/de/canproducts.htm|Dipl. Ing. Jan Freitag Elektronik und Systeme "CAN Entwicklungstools - CAN Starter Kit / CAN Monitor"]] - "The CAN-driver-Software for the HC908AZ60 / 68HC908GZ16/60 could be used as base for own designs. The source is included".
+  *[[http://www.hitex.com/|Hitex Development Tools]].
+    *[[http://www.hitex.com/index.php?id=998|Hitex Development Tools "Starter Kit with Infineon XC800 USCALE"]] with 8051 core - "Application GUI 'Smart View' as XC800 USCALE CAN Spy showing CAN Transmit- and Receive Message Windows".
+    *[[http://www.hitex.com/index.php?id=275|Hitex Development Tools "Starter Kit with NXP LPC2129"]] - "Two CAN interfaces".
+    *The discontinued "CAN-Starterkit".
+      *[[http://www.wirautomatisierer.de/archiv/-/article/32536721/32676484/Laufen-lernen-mit-CAN/art_co_INSTANCE_0000/maximized/|wirautomatisierer.de, Konradin Verlag "Laufen lernen mit CAN. Einstieg in CAN-Bus mit Starterkit"]].
+      *[[http://www.pua24.net/pi/index.php?StoryID=189&articleID=3285|A&D "CAN-Starterkit"]], 2001-07.
+  *[[http://www.lawicel.com/e_canstart01.htm|LAWICEL CAN STARTER KITS]] - "LOW Cost CAN Starter Kits with an 8051 derivative MC".
+  *[[http://am.renesas.com/products/tools/introductory_evaluation_tools/starterkits_evaluation_boards/can_d_kit/can_d_kit_root.jsp|Renesas Electronics Corporation "CAN/LIN Development Kit"]].
+    *[[http://www.mikrocontroller.net/topic/111934|mikrocontroller.net "CAN mit Starterkits M16C29 von Renesas"]] - "can_example.zip", a CAN sample project in "C".
+  *[[http://www.rmcan.com/index.php?id=113|RM Michaelides Software & Elektronik GmbH "RM Starter Kits"]].
+  *[[http://www.systec-electronic.com/html/index.pl/product_canopen_starter_kit|SYS TEC electronic GmbH "CANopen Starter Kit"]].
+  *[[http://www.wachendorff-automation.de/starterkit|Wachendorff Automation GmbH & Co. KG "Starterkit mit Drehgeber WDGA36A absolut CANopen"]].
+  *[[http://www.wilke.de/en/embedded-computer/can-bus.html|Wilke Technology  "CAN-Bus"]] - "BASIC-Tiger CAN-Bus Toolkit" #.
+=== Virtual CAN Interface ( VCI ) ===
+  *[[http://www.ixxat.de/overview_software_support_de.html|IXXAT Automation GmbH]].
+    *[[http://www.ixxat.de/overview_software_support_de.html|IXXAT Automation GmbH "Softwareunterstützung"]] - "Im Lieferumfang jeder IXXAT CAN-Karte befindet sich der universelle Treiber 'Virtual CAN Interface' (VCI) für Windows".
+  *[[http://digital.ni.com/public.nsf/allkb/2CBBB14B60A56DC186256E8E0022D137|National Instruments "Do NI CAN Devices Support the Virtual Can Interface (VCI)?"]] - "The VCI is a driver specifically for IXXAT CAN interfaces. National Instruments CAN interfaces only work with the NI-CAN drivers and not with the VCI drivers" :-(.
+  *[[http://www.pro-sign.de/html/I2005/Produkte/FIX-Treiber/body_vci-treiber.html|ProSign GmbH "FIX-Treiber  - Virtual CAN Interface. Virtual CAN Interface - universelle CAN-Bus-Anbindung"]].
+  *[[http://www.teknewell.com/devices.htm|TekNewell Engineering "CAN Universal Studio currently supports following CAN network interface devices"]] -> List of CAN interfaces for Windows PCs ( USB devices,..) with VCI drivers.
+=== Non-Automotive Industrial CAN-Bus Applications ===
+== Computer Multi Control (CMC) - CMC III ==
+    *[[http://www.rittal.com/de-de/product/list.action;jsessionid=EFC5FC5BFCAEB612F090314451BD45BC?categoryPath=/PG0001/PG0900ZUBEHOER1/PG1538ZUBEHOER1/PGR9560ZUBEHOER1|Rittal GmbH & Co. KG "CMC III - Modulares Überwachungssystem"]].
+    *[[http://www.rittal.de/produkte/ArtikelDatenblatt.asp?ArtNr=7030010&lang=D&ViewAt=|Rittal GmbH & Co. KG "CMC III CMC Compact"]].
+== ICT Gateway ==
+  *[[http://www.ssv-comm.de/en/products/igw900.php|SSV Software Systems GmbH "Remote Access Gateway IGW/900. Remote Access Gateway with CAN, RS232 and RS485"]].
+== Remote Control with CAN-Bus Interface ==
+  *[[http://www.grossfunk.de/|Gross Funk GmbH]].
+  *[[http://www.grossfunk.de/db2/down/index.php?menu=14&page_id=61&lang=de|Gross Funk GmbH "Aktuelle Downloads bei Gross-Funk"]] - "Empfaenger_CAN-CODEC.pdf ( "CAN-Funkfernsteuerung", "SE889/CAN open - CODEC" ).
+  *[[http://www.ectc.de/produkte-ffs-gf-smie-ac30.html|ECTC Steuerungstechnik GmbH "Funkfernsteuerungen für Baukrane"]] - "Gross Funk - Funkfernsteuerung mit CAN-Bus für ABB-System SMIE AC30".
+===== LIN-Bus =====
+  *[[http://www.lin-subbus.org/|LIN Consortium]].
+  *[[http://www.lipowsky.de/|Lipowsky Industrie-Elektronik GmbH]] -  Windows application "LinWorks" for LIN-Bus communication by the LIN interfaces of Lipowsky Industrie-Elektronik.
+    *[[http://www.lipowsky.de/babylin.html|Lipowsky Industrie-Elektronik GmbH "Baby-LIN"]] - "inkl. LinWorks Software".
+    *[[http://www.lipowsky.de/BABYLINRM_E.html|Lipowsky Industrie-Elektronik GmbH "Baby-LIN-RM"]] - Graphics about the workflow of the work with LinWorks and LIN devices. A screenshot of the LinWorks GUI.
+  *[[http://de.wikipedia.org/wiki/Local_Interconnect_Network|DE.Wikipedia "Local Interconnect Network"]],[[http://en.wikipedia.org/wiki/Local_Interconnect_Network|EN.Wikipedia "Local Interconnect Network"]] ( LIN-Bus ).   
+===== ODB II =====
+==== ODB II Chips ====
+  *[[http://www.elmelectronics.com/|Elm Electronics]].
+    *[[http://www.elmelectronics.com/obdic.html|Elm Electronics "OBD Interpreter"]].
+      *"ICs are designed for use with vehicles that use one of the standard OBDII (On Board Diagnostics) protocols. Refer to the help > obd section to see if your car uses one of these protocols".
+      *"ELM327 - OBD to RS232 Interpreter (v1.4b)".
+==== OBDMPG ====
+  *[[http://johnmihalic.com/?p=190|JohnMiHalic.com - A look inside the engineers mind "OBDMPG Progress Continues"]] - "OBDMPG is a plugin for the popular carputer front end RideRunner.  It allows RideRunner to communicate with a vehicle via an ELM compatible OBD-II interface".
+  *[[http://www.mp3car.com/|mp3car.com]].
+    *[[http://www.mp3car.com/road-runner/|mp3car.com "Forum / Mp3Car Technical Software / Front Ends / Road Runner"]].
+      *[[http://www.mp3car.com/rr-plugins/|mp3car.com "Forum / Mp3Car Technical Software / Front Ends / Road Runner / RR Plugins"]].
+        *Forum thread [[http://www.mp3car.com/rr-plugins-no-longer-supported/124590-obdmpg-mpg-obdii-plugin-for-rr-6-12-09-a.html|mp3car.com "Forum / Mp3Car Technical Software / Front Ends / Road Runner / RR Plugins / RR Plugins No Longer Supported" - "OBDMPG - MPG OBDII Plugin for RR 6-12-09or RR 6-12-09"]].
+  *[[http://guino.home.insightbb.com/roadrunner.html|Guino's Corner "Road Runner"]] - "The Road Runner software is now officially called Ride Runner to avoid conflicts with legal trademarks. You can find the newest versions of the software" at [[http://www.nisuautomotive.com/|NISU In-Vehicle Infotainment]].
+==== Commercial ODB II Tools for Car Diagnostics. ====
+  *[[http://www.autoenginuity.com/|AutoEnginuity]] - "OBD2 Scan Tool - Professional PC and PDA Diagnostics".
+  *[[http://www.scangauge.de/|ScanGauge der Bordcomputer]], for cars with an OBDII interface jack.
+  *ScanMaster.
+    *The diagnostic CAN-Bus hardware [[http://www.scantool.net/scan-tools/|ScanTool.net "Scan Tools"]].
+    *The diagnostic CAN-Bus software [[http://www.scantool.net/software/scanmaster.html|ScanTool.net "ScanMaster OBD Software"]] - "ScanMaster ElmScan is simple, easy-to-use, intuitive software for automotive diagnostics, which works exclusively with our scan tools...This software works ONLY with ScanTool.net hardware. It DOES NOT work with ELM327 and other clones".
+  *[[http://www.obd-shop.com/|Stange Distribution]].
+    *[[http://www.obd-shop.com/danila/product_details.php?id=119&lang=de|Stange Distribution "12x Multimodus OBD-DIAG 4000exp"]].
+==== WBH-Diag ====
+  *The OpenSource [[http://www.blafusel.de/obd/obd2_wbhdiag.html|WBH-Diag: Freeware Diagnoseprogramme für VAG]], [[http://wbh-diag.sourceforge.net/|SourceForge "WBH-Diag FrontEnd"]], [[http://www.sourceforge.net/projects/wbh-diag/|SourceForge "WBH-Diag FrontEnd"]].
+==== Resources ====
+  *[[http://www.obdii.com/|The OBD II Home Page, sponsored by AutoTap - ODB II Diagnostics Scanner]].
+  *[[http://en.wikipedia.org/wiki/On-board_diagnostics|EN.Wikipedia "On-board diagnostics"]], [[http://de.wikipedia.org/wiki/On-Board-Diagnose|DE.Wikipedia "On-Board-Diagnose"]].
+  *[[http://de.wikipedia.org/wiki/WWH-OBD|DE.Wikipedia "WWH-OBD"]].
+  *[[http://en.wikipedia.org/wiki/KWP2000|EN.Wikipedia "KWP2000"]], [[http://de.wikipedia.org/wiki/KWP2000|DE.Wikipedia "KWP2000"]].
+  *[[http://de.wikipedia.org/wiki/Unified_Diagnostic_Services|DE.Wikipedia "Unified Diagnostic Services"]].
+===== Some other Automotive Busses =====
+  *[[http://de.wikipedia.org/wiki/MOST-Bus|DE.Wikipedia "MOST-Bus"]].
+  *[[http://en.wikipedia.org/wiki/FlexRay|EN.Wikipedia "FlexRay"]], [[http://de.wikipedia.org/wiki/FlexRay|DE.Wikipedia "FlexRay"]].
+===== AUTOSAR ( AUTomotive Open System ARchitecture ) =====
+  *See [[realtime.html|Realtime Operating Systems, Operating Systems for Embedded Systems, Distributed Operating Systems]].
+
+===== Automotive Data Formats =====
+  *[[http://en.wikipedia.org/wiki/Fibex|EN.Wikipedia "Fibex"]], [[http://de.wikipedia.org/wiki/Field_Bus_Exchange_Format|DE.Wikipedia "Field Bus Exchange Format"]] ( FIBEX ).
+===== Infotainment =====
+  *[[http://www.centrafuse.com/|Centrafuse - Connected Car Applications]].
+    *[[http://www.centrafuse.com/DevTools.aspx|Centrafuse Development Tools]] - "Our Open Interface Architecture allows software engineers working in C++, C#, Delphi, Visual Basic, .NET and ActionScript to rapidly create touch-friendly, voice-enabled applications".
+===== OpenSource Engine Management Software Frameworks & Stacks =====
+==== Software Frameworks & Stacks ====
+    *[[http://freeems.org/|FreeEMS]] - "The open source engine management system!".
+      *[[http://www.facebook.com/FreeEMS|Facebook "FreeEMS"]].
+==== Communications between Car Devices with Databases on Host Computers by JSON over CAN-Bus ====
+  *Andrew Gauger ( [[http://www.andrewgauger.com/|Andrew Gauger]], [[http://www.linkedin.com/in/andrewgauger|LinkedIn "Andrew Gauger"]], [[http://www.facebook.com/DonatoArrighi|Facebook "Andrew Gauger"]], "andg AT andrewgauger.com", Skype: "andrgaug" }.
+    *[[http://forum.diyefi.org/viewtopic.php?f=45&t=2110|DIYEFI.org Forum, "andg": Thread "json, CAN"]].
+==== Resources =====
+    *[[http://www.diyefi.org/|DIYEFI.org]].
+      *[[http://www.facebook.com/DIYEFI.org|Facebook "DIYEFI.org"]].
+===== Books & Papers =====
+==== Automotive Systems & Networks ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3834805483/hemmerling-21|Kai Borgeest "Elektronik in der Fahrzeugtechnik: Hardware, Software, Systeme und Projektmanagement (ATZ/MTZ-Fachbuch)"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1420052217/hemmerling-21|Gilbert Held "Inter- And Intra-Vehicle Communications"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3778529692/hemmerling-21|Christoph Marscholik, Peter Subke ("Datenkommunikation im Automobil: Grundlagen, Bussysteme, Protokolle und Anwendungen"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3834802972/hemmerling-21|Konrad Reif "Automobilelektronik. Eine Einführung für Ingenieure"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3834812749/hemmerling-21|Konrad Reif "Bosch Autoelektrik und Autoelektronik: Bordnetze, Sensoren und elektronische Systeme (Bosch Fachinformation Automobil)"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3935742029/hemmerling-21|Manfred Schleicher "Digitale Schnittstellen und Bussysteme: Grundlagen und praktische Hinweis zur Anbindung von Feldgeräten an Modbus, PROFIBUS-DP, ETHERNET, CANopen und HART"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3834807001/hemmerling-21|Henning Wallentowitz, Konrad Reif "Handbuch Kraftfahrzeugelektronik: Grundlagen - Komponenten - Systeme - Anwendungen (ATZ/MTZ-Fachbuch)"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3834809071/hemmerling-21|Werner Zimmermann, Ralf Schmidgall "Bussysteme in der Fahrzeugtechnik: Protokolle, Standards und Softwarearchitektur (ATZ/MTZ-Fachbuch)"]].
+==== AUTOSAR ( AUTomotive Open System ARchitecture ) ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3898645630/hemmerling-21|Olaf Kindel, Mario Friedrich "Softwareentwicklung mit AUTOSAR: Grundlagen, Engineering, Management in der Praxis"]].
+==== CAN-Bus ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3816923119/hemmerling-21|Gerd Baumann "Werkzeuggestützte Echtzeit-Fahrsimulation mit Einbindung vernetzter Elektronik"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3427044769/hemmerling-21|Klaus Bierschenk, Wilfried Staudt: "Berufsfeld Fahrzeugtechnik - Lernfeld 12 und 13: Prüfen und Instandsetzen von vernetzten Systemen; Diagnostizieren und Instandsetzen von Karosserie-, und Komfort- und Sicherheitssystemen"]] #.
+  *The free PDF paper [[http://www.springerlink.com/content/8n32720737877071/|Robert I. Davis, Alan Burns, Reinder J. Bril, Johan J. Lukkien "Controller Area Network (CAN) schedulability analysis: Refuted, revisited and revised"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3772351468/hemmerling-21|Horst Engels "CAN-Bus"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3446194312/hemmerling-21|Konrad Etschberger "Controller-Area-Network: Grundlagen, Protokolle, Bausteine, Anwendungen"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0863802478/hemmerling-21|Mohammad Farsi, Manuel Bernardo Martin Barbosa, M. Farsi "Canopen: Implementation Made Simple: Applications to Industrial Networks (Industrial Control, Computers, and Communications Series)"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3874411044/hemmerling-21|Martin Frei "Fehlerdiagnose an vernetzten Systemen: Grundlagen, Diagnose, Wartung"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3895762423/hemmerling-21|Ino de Gijsel "CAN und EOBD in der Fahrzeugtechnik"]].
+  *Thesis by Oliver Hartkopp "Programmierschnittstellen für eingebettete Netzwerke in Mehrbenutzerbetriebssystemen am Beispiel des Controller Area Network".
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3800733323/hemmerling-21|Wolfhard Lawrenz, Nils Obermöller "CAN: Controller Area Network: Grundlagen, Design, Anwendungen, Testtechnik"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3980818187/hemmerling-21|Burkhard Narbe "Behandlung von Interruptquellen in einem zeitgesteuerten Kommunikationssystem am Beispiel von Umfeldsensoren mit CAN-Schnittstelle"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/383224641X/hemmerling-21|Lorena Diaz Ortega "Physical Layer Modellierung der Bussysteme CAN und FlexRay im Kraftfahrzeug"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0976511622/hemmerling-21|Olaf Pfeiffer, Andrew Ayre, Christian Keydel "Embedded Networking with Can and Canopen"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3866640854/hemmerling-21|Thomas Rambow "Design and Optimization of Distributed Real-Time Systems"]].
+  *Books [[http://www.amazon.de/exec/obidos/ASIN/3800728451/hemmerling-21|Holger Zeltwanger "CANopen: Das standardisierte, eingebettete Netzwerk"]], [[http://www.amazon.de/exec/obidos/ASIN/3825919110/hemmerling-21|Holger Zeltwanger, Armin Schwarz "CANopen: Standardized application layer for embedded networking"]].
+==== FlexRay ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3836490188/hemmerling-21|Kai Bollue "AUTOSAR-konforme Kommunikation über den FlexRay-Bus: Eine prototypische Implementierung eines AUTOSAR-konformen FlexRay-Kommunikationsstapels mit Fokus auf dem Transportprotokoll"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3639253744/hemmerling-21|Konrad Kandler "AUTOSAR - XCP - FlexRay: Design und Implementierung eines AUTOSAR XCP-Transport-Layers für FlexRay"]].
+==== LIN-Bus ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3772340091/hemmerling-21|Andreas Grzemba, von der Wense "LIN-Bus"]].
+==== MOST ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3772341497/hemmerling-21|Andreas Grzemba "MOST: Das Multimedia-Bussystem für den Einsatz im Automobil"]].
+===== Resources =====
+  *Blog article [[http://www.benzev.co.nz/current/can-bus-sae-j1939-development-tools/795/| BenzEV Electric Vehicle Project "CAN Bus / SAE J1939 Development Tools"]].
+  *[[http://www.cbb-software.com/deu/technischeinformationen/canbustutorial/index.html|cbb software GmbH "CANBUS Tutorial"]].
+  *[[http://www.can-cia.org/|CAN in Automation (CiA)]].
+  *[[http://www.canopen.us/|CANopen USA]].
+  *Wiki [[http://www.canopen-lift.org/|CANopen-Lift]].
+  *[[http://www.elektrocrew.de/doku.php?id=canbus|ElektroCrew.de - canbus]].
+  *[[http://www.wiki.elektronik-projekt.de/mikrocontroller/rs485_bus|Elektronik-Projekt Wiki "Der RS485 Bus"]] -> Section "RS485 vs. CAN" :-).
+  *[[http://www.freescale.com/webapp/sps/site/application.jsp?code=APLCAN|freescale "Controller Area Network (CAN)"]].
+  *[[http://www.hs-augsburg.de/~hhoegl/da/da.html|Hubert.Hoegl - Diplomarbeiten]].
+    *Diploma thesis "Die Kommunikation von Linux Applikationen mit generischer Hardware über das USB-Subsystem, praktisch realisiert am Beispiel einer USB-zu-Mikroprozessor und einer USB-zu-CAN Schnittstelle".
+  *[[http://www.svenherzfeld.de/|Sven Herzfeld]].
+    *[[http://www.svenherzfeld.de/studium.htm|Sven Herzfeld "Mein Studium der Technischen Informatik"]].
+      *Document "CAN-Bus: Fehlererzeugung und Analyse. Diplomarbeit von Stephan Pahlke und Sven Herzfeld. Fachhochschule Hannover, Fachbereich Elektro- und Informationstechnik, Fachgebiet Industrieelektronik und Digitaltechnik. Erstprüfer: Prof. Dr.-Ing. Zeggert. Zweitprüfer: Prof. Dr.-Ing. Brümmer" ( PDF ).
+  *[[http://www.interfacebus.com/|Interfacebus.com]].
+    *[[http://www.interfacebus.com/Interface_Bus_Types.html|Interfacebus.com "Interface Buses"]].
+      *[[http://www.interfacebus.com/Design_Connector_Automotive.html|Interfacebus.com "Interface Buses / Automotive Buses"]].
+        *[[http://www.interfacebus.com/CAN-Bus-Description-Vendors-Canbus-Protocol.html|Interfacebus.com "Interface Buses / Automotive Buses / CAN Bus"]].
+          *[[http://www.interfacebus.com/Can_Bus_Connector_Pinout.html|Interfacebus.com "Interface Buses / Automotive Buses / CAN Bus / CANopen Pinout"]].
+    *Blog [[http://interfacebus.blogspot.com/|Interfacebus Blog. General electronic topics with updates and issues for www.interfacebus.com]].
+  *[[http://www.kfztech.de/|KFZTECH.DE - Die Plattform für die Kfz-Technik]].
+    *[[http://www.kfztech.de/kfztechnik/elo/can/can_grundlagen_1.htm|KFZTECH.DE - Die Plattform für die Kfz-Technik "Der CAN Bus -  Grundlagen"]] - "CAN Klassen" #.
+      *CAN A -> "Kfz mit CAN-Bus verfügen über ein ein Diagnosesystem. Solche Systeme lesen Fehlerspeicher aus und ermöglichen eine Stellglieddiagnose".
+      *CAN B = "Low-Speed-CAN" -> "Beleuchtung, Klimaanlage, Verriegelung und Armaturen".
+      *CAN C = "High-Speed-CAN" -> "Motormanagement, Getriebe, ESP, ASR und ABS".
+  *[[http://www.mikrocontroller.net/articles/CAN|mikrocontroller.net "CAN"]].
+  *Blog article [[http://marco.guardigli.it/2010/10/hacking-your-car.html|Only_Dead_Fish_Go_With_The_Flow - swimming in the stream of global consciousness "Hacking Your Car"]], 2010-10-04.
+  *The market research [[http://adweb.desy.de/mcs/Mst_content/Front-End/FES-CAN.htm|R.Stadtmueller, MCS - Control System, Deutsches Elektronen-Synchrotron DESY "Tips zum CAN-Bus"]], 2003-01-17.
+  *Stack Overflow.
+    *[[http://stackoverflow.com/questions/6592380/capl-program-in-cananalyzer-7-0-tool|Stack Overflow "CAPL program in CANanalyzer 7.0 tool"]] -> simple CAPL script.
+  *[[http://gandalf.arubi.uni-kl.de/avr_projects/|Martin THOMAS "AVR-Projects"]].
+    *[[http://gandalf.arubi.uni-kl.de/avr_projects/can/|Martin THOMAS "AVR-Projects" - "CAN-CAN - Controller Area Network Projects. First Demo-Project: Interfacing AVR with MCP2515"]].
+  *[[http://www.vagcomwiki.de/|Das deutsche VCDS Wiki]].
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/Controller_Area_Network|EN.Wikipedia "Controller Area Network"]], [[http://de.wikipedia.org/wiki/Controller_Area_Network|DE.Wikipedia "Controller Area Network"]] ( CAN ).
+    *[[http://en.wikipedia.org/wiki/ISO_11898|EN.Wikipedia "ISO 11898"]].
+    *[[http://en.wikipedia.org/wiki/CAN_in_Automation|EN.Wikipedia "CAN in Automation"]], [[http://de.wikipedia.org/wiki/CAN_in_Automation|DE.Wikipedia "CAN in Automation"]], [[http://www.can-cia.org/|CAN in Automation]].
+    *Bus protocols based on CAN-Bus.
+      *[[http://en.wikipedia.org/wiki/CANopen|EN.Wikipedia "CANopen"]], [[http://de.wikipedia.org/wiki/CANopen|DE.Wikipedia "CANopen"]].
+      *[[http://en.wikipedia.org/wiki/DeviceNet|EN.Wikipedia "DeviceNet"]], [[http://de.wikipedia.org/wiki/DeviceNet|DE.Wikipedia "DeviceNet"]].
+      *[[http://en.wikipedia.org/wiki/J1939|EN.Wikipedia "J1939"]], [[http://de.wikipedia.org/wiki/SAE_J1939|DE.Wikipedia "SAE J1939"]].
+      *[[http://en.wikipedia.org/wiki/J1587|EN.Wikipedia "J1587"]].
+      *[[http://en.wikipedia.org/wiki/ISO_11783|EN.Wikipedia "ISO 11783"]], [[http://de.wikipedia.org/wiki/ISOBUS|DE.Wikipedia "ISOBUS"]] ( "ISO Bus", "ISOBUS" ).
+      *[[http://en.wikipedia.org/wiki/NMEA_2000|EN.Wikipedia "NMEA 2000"]], [[http://de.wikipedia.org/wiki/NMEA_2000|DE.Wikipedia "NMEA 2000"]].
+    *[[http://en.wikipedia.org/wiki/Safety_Network_International_e.V.|EN.Wikipedia "Safety Network International e.V."]], [[http://de.wikipedia.org/wiki/SafetyNET_p|DE.Wikipedia "SafetyNET p"]], [[http://www.safety-network.de/|Safety Network International e.V.]].
+    *[[http://de.wikipedia.org/wiki/Carrier_Sense_Multiple_Access/Collision_Resolution|DE.Wikipedia "Carrier Sense Multiple Access/Collision Resolution"]].
+    *[[http://en.wikipedia.org/wiki/Arbiter_%28electronics%29|EN.Wikipedia "Arbiter (electronics)"]], [[http://de.wikipedia.org/wiki/Arbiter|DE.Wikipedia "Arbiter"]].
+    *[[http://en.wikipedia.org/wiki/On-board_diagnostics|EN.Wikipedia "On-board diagnostics"]], [[http://de.wikipedia.org/wiki/On-Board-Diagnose|DE.Wikipedia "On-Board-Diagnose"]] -> "European On Board Diagnostics" / "EOBD".
+    *[[http://de.wikipedia.org/wiki/WWH-OBD|DE.Wikipedia "WWH-OBD"]].
+    *Bus signal coding technologies.
+      *[[http://en.wikipedia.org/wiki/Cyclic_redundancy_check|EN.Wikipedia "Cyclic redundancy check"]], [[http://de.wikipedia.org/wiki/Zyklische_Redundanzpr%C3%BCfung|DE.Wikipedia "Zyklische Redundanzprüfung"]].
+      *[[http://en.wikipedia.org/wiki/Parity_bit|EN.Wikipedia "Parity bit"]], [[http://de.wikipedia.org/wiki/Parit%C3%A4tsbit|DE.Wikipedia "Paritätsbit"]].
+      *[[http://en.wikipedia.org/wiki/Hamming_distance|EN.Wikipedia "Hamming distance"]], [[http://de.wikipedia.org/wiki/Hamming-Abstand|DE.Wikipedia "Hamming-Abstand"]].
+      *[[http://en.wikipedia.org/wiki/Error_detection_and_correction|EN.Wikipedia "Error detection and correction"]], [[http://de.wikipedia.org/wiki/Fehlerkorrekturverfahren|DE.Wikipedia "Fehlerkorrekturverfahren"]].
+      *[[http://en.wikipedia.org/wiki/Manchester_code|EN.Wikipedia "Manchester code"]], [[http://de.wikipedia.org/wiki/Manchester-Code|DE.Wikipedia "Manchester-Code"]].
+      *[[http://en.wikipedia.org/wiki/Bit_stuffing|EN.Wikipedia "Bit stuffing"]], [[http://de.wikipedia.org/wiki/Bitstopfen|DE.Wikipedia "Bitstopfen"]].
+      *[[http://en.wikipedia.org/wiki/Multiplexing|EN.Wikipedia "Multiplexing"]], [[http://de.wikipedia.org/wiki/Multiplexverfahren|DE.Wikipedia "Multiplexverfahren"]].
+===== Forums, Newsgroups =====
+  *[[http://forum.diyefi.org/|DIYEFI.org Forum]].
+{{tag>"distributed computing" car automotive network vehicle CAN CANbus CAN-bus LIN LIN-bus MOST MOST-bus traffic}}
+<footnote_navi_en>
+

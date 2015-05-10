@@ -1,0 +1,218 @@
+====== [hemmerling] Realtime Operating Systems, Operating Systems for Embedded Systems, Distributed Operating Systems ======
+Related pages:
+  *[[embedded.html|Embedded Systems]].
+===== Organizations =====
+  *[[http://www.tcrts.org/|IEEE TCRTS Technical Committee on Real-Time Systems]].
+===== Realtime Operating Systems =====
+==== FreeRTOS, OPENRTOS, SAFERTOS ====
+=== FreeRTOS ===
+  *[[http://www.freertos.org/|The FreeRTOS Project]], [[http://freertos.sourceforge.net/|SourceForge "FreeRTOS Real Time Kernel"]], [[http://www.sourceforge.net/projects/freertos/|SourceForge "FreeRTOS Real Time Kernel"]] - "portable, open source, royalty free, mini Real Time Kernel for ARM7, ARM9, Cortex-M3, MSP430, MicroBlaze, AVR, x86, PIC32, PIC24, dsPIC, H8S, HCS12 and 8051".
+    *[[http://www.freertos.org/a00090.html|FreeRTOS Ports]].
+    *[[http://www.freertos.org/portmspcrossworks.html|TI MSP430 (MSP430F449) RTOS Port for the CrossWorks Development Tools]].
+    *[[http://www.freertos.org/ColdFire-RTOS-Port-Using-Eclipse.html|FreeRTOS "ColdFire V2 RTOS Demo, Using Eclipse and GCC]] - The port and demo are preconfigured to use:    
+      *An MCF5282 ColdFire MCU.
+      *The M5282EVB evaluation board.
+    *[[http://www.simplemachines.it/martin/mizar32/1.6.0-AT32UC3/SERVICES/FREERTOS/Demo/AVR32_UC3/DOC/html/index.html|Simplemachines "AVR32 UC3 - FreeRTOS Real Time Kernel Documentation"]].
+    *[[http://en.wikipedia.org/wiki/FreeRTOS|EN.Wikipedia "FreeRTOS"]], [[http://de.wikipedia.org/wiki/FreeRTOS|DE.Wikipedia "FreeRTOS"]].
+  *Book [[http://www.amazon.co.uk/exec/obidos/ASIN/1446169146/hemmerling-21|Richard Barry: "Using The FreeRTOS Real Time Kernel - Standard Edition (FreeRTOS Tutorial Books)"]].
+    *The PDF book [[http://www.61ic.com/code/attachment.php?aid=67131&amp;k=896b5123470cc18bf4381895b377b5cd&amp;t=1347475951|Richard Barry: "Using The FreeRTOS Real Time Kernel - Standard Edition (FreeRTOS Tutorial Books)"]], (c) 2009, V1.0.5 ( PDF ).
+    *The PDF book [[http://depositfiles.com/files/90apfz1tn|Richard Barry: "FreeRTOS User Manual]], (c) 2003 - 2007.
+  *Book [[http://www.amazon.co.uk/exec/obidos/ASIN/1446170306/hemmerling-21|Richard Barry: "Using The FreeRTOS Real Time Kernel - Cortex M3 Edition (FreeRTOS Tutorial Books)"]].
+  *Book [[http://www.amazon.co.uk/exec/obidos/ASIN/1446171086/hemmerling-21|Richard Barry: "Using The FreeRTOS Real Time Kernel - Microchip PIC32 Edition (FreeRTOS Tutorial Books)"]].
+  *Book [[http://www.amazon.co.uk/exec/obidos/ASIN/1446169979/hemmerling-21|Richard Barry: "Using The FreeRTOS Real Time Kernel - NXP LPC17xx Edition (FreeRTOS Tutorial Books)"]].
+    *The free PDF book [[http://ics.nxp.com/literature/books/microcontrollers/pdf/using.freertos.lpc17xx.summary.pdf|Richard Barry: "Using The FreeRTOS Real Time Kernel - NXP LPC17xx Edition (FreeRTOS Tutorial Books) - Summary"]], V.1.3.0, 56 of 197 pages extracted - "This document provides a summary of the full text. It includes the complete table of contents, the preface and the first section of each chapter".
+  *Book [[http://www.amazon.co.uk/exec/obidos/ASIN/1446762742/hemmerling-21|Richard Barry: "Using The FreeRTOS Real Time Kernel - Renesas RX600 Edition (FreeRTOS Tutorial Books)"]].
+=== OPENRTOS & SAFERTOS ===
+  *[[http://www.highintegritysystems.com/|Wittenstein AG / WA&S Ltd - HighintegritySystems]].
+    *[[http://www.highintegritysystems.com/index.php?Itemid=54|Wittenstein AG / WA&S Ltd "OPENRTOS"]] = commercial edition of FreeRTOS + an integrated TCP/IP stack.
+    *[[http://www.highintegritysystems.com/down-loads/manuals-datasheets/openrtos-datasheet-downloads/|Wittenstein AG / WA&S Ltd "OPENRTOS Manuals & Datasheets"]].
+      *[[http://www.highintegritysystems.com/downloads/manuals_and_datasheets/OPENRTOS_Quick_Reference_Guide_10.pdf|Wittenstein AG / WA&S Ltd "Quick Reference Guide"]] ( PDF ).
+      *[[http://www.highintegritysystems.com/downloads/manuals_and_datasheets/openrtos_connect.pdf|Wittenstein AG / WA&S Ltd "OPENRTOS Connect"]] ( PDF ).
+      *[[http://www.highintegritysystems.com/downloads/manuals_and_datasheets/openrtos_overview.pdf|Wittenstein AG / WA&S Ltd "OPENRTOSOverview"]] ( PDF ).
+    *[[http://www.highintegritysystems.com/index.php?Itemid=59|Wittenstein AG / WA&S Ltd "SAFERTOS"]].
+    *"The Texas Instruments [[http://focus.ti.com/docs/prod/folders/print/lm3s9b96.html|LM3S9B96]] is sold with SafeRTOS pre-embedded in ROM. SafeRTOS can be used free of charge on these parts with free support being provided through the HighintegritySystems forum".
+  *Book [[http://www.highintegritysystems.com/openrtos/openrtosbook/|Richard Barry: "Using The OPENRTOS Real Time Kernel"]], [[http://www.lulu.com/product/paperback/using-the-openrtos-real-time-kernel/12292225|Richard Barry: "Using The OPENRTOS Real Time Kernel"]].
+==== Multi-Platform ====
+  *The OpenSource operating system [[http://atomthreads.com/|Atomthreads: Open Source RTOS]].
+    *Targets: AVR, STM8.
+    *No claimed support of the ATxmega CPU, yet !
+  *[[http://www.ckernel.nl/|The C Kernel]] - "Easy portable to other platforms (currently supported: 8051+derivates, Fujitsu F2MC-16, Infineon C166+derivates, x86 and Z80)".
+  *[[http://www.contiki-os.org/|The Contiki OS]], [[http://contiki.sourceforge.net/|SourceForge "The Contiki Operating System"]], [[http://www.sourceforge.net/projects/contiki/|SourceForge "The Contiki Operating System"]].
+    *[[http://en.wikipedia.org/wiki/Contiki|EN.Wikipedia "Contiki"]], [[http://de.wikipedia.org/wiki/Contiki|DE.Wikipedia "Contiki"]].
+    *No claimed support of the ATxmega CPU, yet !
+  *[[http://ecos.sourceware.org/|eCos]] -  "an open source, royalty-free, real-time operating system", Supported Hardware: ARM, CalmRISC, FR-V, FR30, H8, IA32, 68K/ColdFire, Matsushita AM3x, MIPS, NEC V8xx, PowerPC, SPARC, SuperH".
+    *[[http://ecos.sourceware.org/hardware.html|eCos Supported Hardware]] - Coldfire MCF5272 boards.
+    *[[http://www.andreas-buergel.de/documents|Andreas Bürgel]].
+      *"eCos application development manual".
+      *"eCos porting guide - focusing mainly on the ARM architecture".
+    *[[http://www.towergeeks.org/group/ecos-for-tower|TowerGeeks "eCos for tower"]].
+  *The free operating system [[http://jacos.narod.ru/|Jacos Yandex "jacOS"]] for PIC, AVR, MSP430 and х51 - Support just in russian language, source code just by request from the author.
+    *No claimed support of the ATxmega CPU, yet !
+  *The OpenSource operating system [[http://helium.sourceforge.net/|SourceForge "Helium Real Time Kernel"]], [[http://www.sourceforge.net/projects/helium|SourceForge "Helium Real Time Kernel"]].
+    *Helium V1 for 68S08, 69HC08, AVR.
+    *Helium V2 for Coldfire 51QE, 68S08.
+    *No claimed support of the ATxmega CPU, yet !
+  *The OpenSource [[http://www.nilsenelektronikk.no/neproc.html|nilsen elektronikk as "proc Real-Time Kernel"]] - "Supported architectures: x86 / PC, 68HC11 (also banked), H8 (8 and 16 bits), 68k / 6833x, ColdFire, 80C196, C167, AVR, i960Jx, MSP430, Z180".
+  *Nut/OS.
+    *[[http://www.ethernut.de/|Ethernut]].
+    *[[http://www.egnite.de/en/software/nutos.html|egnite GmbH "Nut/OS"]] 
+    *Targets: ATmega128, ARM7, ARM9.
+    *No claimed support of the ATxmega CPU, yet !
+    *[[http://www.avrfreaks.net/index.php?name=PNphpBB2&file=viewtopic&t=89414|AVR Freaks Forum, Thread "TCP/IP xmega enc28j60"]].
+  *NuttX.
+    *The OpenSource [[http://nuttx.sourceforge.net/|SourceForge "NuttX RTOS"]], [[http://www.sourceforge.net/projects/nuttx/|SourceForge "NuttX RTOS"]] for ARM, Atmel ATmega, Atmel AVR32, PIC32...
+    *No claimed support of the ATxmega CPU, yet !
+  *[[http://www.rowebots.com/|RoweBots Research Inc.]].
+    *[[http://en.wikipedia.org/wiki/PSOS|EN.Wikipedia "pSOS"]] - "In August 2007, RoweBots, a former partner of SCG and ISI, open sourced their pSOS+ compatible version called Reliant. It is available to all that wish to upgrade without applications changes".
+    *[[http://planetopensource.com/|Planet Open Source]].
+      *"**DSPnano** is an ultra tiny Linux(tm) and POSIX compatible embedded or real-time operating system (RTOS) for 16 bit processors"
+      *"The **Unison** Operating System is an ultra tiny Linux(tm) and POSIX compatible embedded or real-time operating system (RTOS) for 32 bit processors". 
+  *[[http://www.tinyos.net/|TinyOS]] - "Open source, BSD-licensed operating system designed for low-power wireless devices".
+    *[[http://code.google.com/p/tinyos-main/|Google Code "tinyos-main"]].
+    *[[http://www.tinyos.net/dist-1.1.0/tinyos/windows/|MSP430 TinyOS port]].
+    *[[http://docs.tinyos.net/tinywiki/|TinyOS Wiki]].
+      *[[http://docs.tinyos.net/tinywiki/index.php/ATmega128|TinyOS Wiki "ATmega128"]].
+    *No claimed support of the ATxmega CPU, yet !
+  *[[http://www.rtems.org/|Real-Time Executive for Multiprocessor Systems (RTEMS)]] - "A free open source solution that supports applications with the most stringent real-time requirements".
+    *[[http://www.rtems.org/wiki/|RTEMS Wiki]].
+      *[[http://www.rtems.org/wiki/index.php/SupportedCPUs|RTEMS Wiki "SupportedCPUs"]] - Targets: "ADI Blackfin", "Motorola MC68xxx", "Motorola Coldfire", "Renesas SH including SH1, SH2, SH3 and SH4", ...
+      *[[http://www.rtems.com/wiki/index.php/Open_Projects|RTEMS Wiki "Open Projects"]].
+  *The realtime operating systems "µC/OS-II", "µC/OS-III".
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1578201039/hemmerling-21|Jean J. Labrosse: "MicroC / OS-II: The Real Time Kernel: The Real-Time Kernel. Use this complete portable, ROMable scalable preemptive RTOS in your own product"]].
+    *[[http://www.micrium.com/|Micrium - RTOS and Tools]] - "Although many of the example projects that can be downloaded from Micriµm's site incorporate µC/TCP-IP's full source code, the stack is not open-source software.  Likewise, µC/OS-II is not  an open-source kernel. The example projects are intended for evaluation use only. Developers seeking to use µC/OS-II or µC/TCP-IP commercially must contact Micriµm to obtain the proper license(s)".
+    *<del>[[http://www.ucos-ii.com/|ucos-ii.com ( Gundula Femmer, Softbox "µC/OS-II" )]]</del> - Rotten website, no imprint, no contact formular, nonimplemented functions...
+      *[[http://web.archive.org/web/*/http://www.ucos-ii.com/infineon/index.html|Archive.org "ucos-ii.com - µC/OS-II ports"]] - "Note that only the PORT is provided and it is assumed that you have the rest of the source for µC/OS-II from the book or the upgrade".
+  *The realtime operating system [[http://www.utasker.com/|µTasker]] for ARM, Atmel AVR32, Freescale Coldfire, with non-commercial and commercial licenses.
+  *The realtime operating system [[http://www.shift-right.com/xmk/|Shift-Right Technologies, LLC "eXtreme Minimal Kernel"]], [[http://xmk.sourceforge.net/|SourceForge "e(X)treme (M)inimal (K)ernel"]], [[http://www.sourceforge.net/projects/xmk/|SourceForge "e(X)treme (M)inimal (K)ernel"]] for Atmel ATmega, Hitachi/Renesas.
+    *No claimed support of the ATxmega CPU, yet !
+
+==== TCP/IP Stacks for Embedded Systems & Multi-Platform TCP/IP Stacks ====
+=== Software ===
+  *The OpenSource [[http://www.sics.se/~adam/uip/|uIP]] - "The open-source uIP TCP/IP stack provides TCP/IP connectivity to tiny embedded 8-bit microcontrollers, with maintained interoperability and RFC standards compliance".
+    *[[http://www.rowley.co.uk/msp430/uip.htm|Adam Dunkel's uIP on the Olimex EasyWeb2]] - "Welcome to the project page which contains a port of Adam Dunkel's uIP to the SoftBaugh TCP430 and the Olimex EasyWeb2".
+    *[[http://www.laskater.com/projects/uipAVR.htm|LA Skater "uIP-AVR"]] for ATMega128.
+  *The OpenSource [[http://savannah.nongnu.org/projects/lwip/|lwIP - A Lightweight TCP/IP stack]].
+    *[[http://www.ultimaserial.com/classroom2.html|UltimaSerial "AVR32 lwIP Workshops"]].
+  *The free [[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=2505&param=en535724|Microchip TCP/IP stack]].
+=== Hardware ===
+  *[[http://www.microchip.com/wwwproducts/Devices.aspx?dDocName=en022889|Microchip "ENC28J60"]] - "Stand alone Ethernet Controller with on board MAC & PHY, 8 Kbytes of Buffer RAM and an SPI serial interface".
+    *[[http://berlin.ccc.de/wiki/AVR-Board_mit_Ethernet|Chaos Computer Club Berlin e. ( CCCB ) "AVR-Board mit Ethernet"]].
+==== File Systems ====
+  *[[http://www.elm-chan.org/|Elm Chan "The Electronic Lives Manufacturing - presented by ChaN]].
+    *[[http://elm-chan.org/fsw_e.html|Elm Chan "Softwares"]].
+      *[[http://elm-chan.org/fsw/ff/00index_e.html|Elm Chan "FatFs Generic FAT File System Module"]].
+      *[[http://elm-chan.org/fsw/ff/00index_p.html|Elm Chan "Petit FAT File System Module"]].
+==== Atmel AVR Platform ====
+  *The OpenSource operating system [[http://www.barello.net/avrx/|Larry Barello "AvrX"]] for IAR and GNU-C toolchain.
+    *No claimed support of the ATxmega CPU, yet !
+  *The OpenSource operating system [[http://www.femtoos.org/|Femto OS]], [[http://www.sourceforge.net/projects/femtoos/|SourceForge "Femto OS"]], [[http://femtoos.sourceforge.net/|SourceForge "Femto OS"]] - "RTOS for small MCU's like AVR".
+    *No claimed support of the ATxmega CPU, yet !
+==== Freescale Platform ====
+  *[[http://www.embedded-access.com/|Embedded Access Inc]].
+    *The commercial realtime operating system [[http://www.embedded-access.com/products/mqx_rtos.html|Embedded Access Inc "MQX RTOS"]].
+    *[[http://www.freescale.com/MQX|MQX by Freescale]] - OpenSource but not license-free realtime operating system, for some Freescale platforms ( Coldfire, Kinetis/ARM Cortex M4,.. ). 
+      *Business model: 
+        *In general, you need a commercial edition of the Freescale IDE & Compiler "[[http://www.freescale.com/CodeWarrior|CodeWarrior]]" for compilation and use of MQX. You might succeed with one-time configuration & compilation of MQX using the commercial professional edition of [[http://www.freescale.com/CodeWarrior|CodeWarrior]], and then switch to the free edition for compiling you own application and linking your code with precompiled MQX modules to a working application. 
+        *The commercial professional edition of [[http://www.freescale.com/CodeWarrior|CodeWarrior]] with "Task Awareness" debugging for MQX is enabled to debug MQX applications on task level.
+        *The "Task Awareness" works just with MQX, so no benefit using the commercial professional edition of [[http://www.freescale.com/CodeWarrior|CodeWarrior]] with different operating systems like FreeRTOS or with simple schedulers.
+    *Note on Coldfire support: "By Products: ColdFire Processors.... MCF520X (now available for alpha customers)".
+    *[[http://www.freescale.com/webapp/sps/site/training_information.jsp?code=WBNR_MQXINTROEA&fsrch=1&sr=7#|Freescale Semiconductor, Inc "Introduction to MQX"]].
+    *[[http://www.freescale.com/webapp/sps/site/training_information.jsp?code=WBNR_MQXGETSTARTED&fsrch=1&sr=6#|Freescale Semiconductor, Inc "Getting Started with MQX"]].
+  *[[http://micrium.com/|µMicrium C/OS-II]] - for Freescale platforms without MQX support.
+  *[[http://www.freescale.com/eGUI|Freescale eGUI]] - "Graphical LCD Driver for MCUs and MPUs".
+==== Microchip PIC32 Platform ====
+  *[[http://www.retrobsd.org/|RetroBSD: Unix for microcontrollers]], [[http://code.google.com/p/retrobsd/|Google Code " retrobsd. BSD Unix for microcontrollers"]] - "RetroBSD is a port of 2.11BSD Unix intended for embedded systems with fixed memory mapping. The current target is [[pic.html|Microchip PIC32]] microcontroller with 128 kbytes of RAM and 512 kbytes of Flash. PIC32 processor has MIPS M4K architecture".
+==== Microware OS-9 ====
+  *[[http://www.radisys.com/|RadiSys Corporation]].
+    *[[http://www.radisys.com/Products/Microware/OS-9-RTOS.html|RadiSys "Microware OS-9 Real Time Operating System"]].
+  *[[http://os9archive.rtsi.com/|Real-Time Services Inc. - OS-9 World Wide Archive]].
+    *[[ftp://os9archive.rtsi.com/OS9/OSK/EFFO/|Real-Time Services Inc. "EFFO - European Forum for OS-9. 'Forum' archive"]].
+  *[[http://pages.cs.wisc.edu/~pruyne/os9faq.html|S-9 Frequently Asked Questions List]], 1995-04-27.
+  *[[http://en.wikipedia.org/wiki/OS-9|EN.Wikipedia "OS-9"]], [[http://de.wikipedia.org/wiki/OS-9|DE.Wikipedia "OS-9"]].
+==== OSEK, RTA-OSEK, Virtual Function Bus, AUTOSAR OS and AUTOSAR ====
+=== Distributed Computing ===
+  *See [[carnetworks.html|Distributed Computing on Automotive Networks, Car Electronics and Automotive Data Formats]].
+=== Operating System ===
+  *[[http://www.osek-vdx.org/|OSEK VDX Portal]].
+  *[[http://erika.tuxfamily.org/|Erika Enterprise and RT-Druid]] - "A free of charge, open-source implementation of the ISO 17356 API (derived from the OSEK/VDX API)".
+  *[[http://www.etas.com/en/products/rta_software_products.php|ETAS Deutschland, Entwicklungs- und Applikationswerkzeuge für elektronische Systeme GmbH "RTA-OSEK"]].
+=== Books ===
+  *[[http://www.it-designers.de/|IT-Designers GmbH "Publikationen / Skripte"]].
+    *"Das OSEK-Betriebssystem Ercosek" ( PDF ).
+=== Resources ===
+  *[[http://www.autosar.org/|AUTOSAR Development Cooperation "AUTOSAR.org"]].
+  *[[http://en.wikipedia.org/wiki/OSEK|EN.Wikipedia "OSEK"]], [[http://de.wikipedia.org/wiki/OSEK|DE.Wikipedia "OSEK"]], [[http://de.wikipedia.org/wiki/OSEK-OS|DE.Wikipedia "OSEK-OS"]].
+  *[[http://en.wikipedia.org/wiki/AUTOSAR|EN.Wikipedia "AUTOSAR"]], [[http://de.wikipedia.org/wiki/AUTOSAR|DE.Wikipedia "AUTOSAR"]].
+
+==== QNX ====
+  *[[http://www.qnx.com/products/neutrino-rtos/|QNX Neutrino RTOS]].
+  *[[http://www.qnx.com/products/tools/qnx-momentics.html|QNX Momentics Tool Suite]].
+  *[[http://www.qnx.com/products/evaluation/non-commercial_developer.html|QNX - Non-commercial developers]] - Software Development Platform" ( QNX Neutrino RTOS, QNX Momentics Tool Suite ) for Windows and Linux. Free license for non-commercial use.
+  *[[http://quics.qnx.com/cgi-bin/dir_find.cgi?/usr/free/|QNX - The Free Software area]].
+  *[[http://en.wikipedia.org/wiki/QNX|EN.Wikipedia "QNX"]], [[http://de.wikipedia.org/wiki/QNX|DE.Wikipedia "QNX"]].
+==== Texas Instruments Platform ( MSP430, ARM,.. ) ====
+  *[[http://www.ti.com/lsds/ti/tools-software/rtos.page|Texas Instruments "RTOS including TI-RTOS & SYS/BIOS"]].
+
+==== Some other Realtime Operating Systems ====
+  *[[http://en.wikipedia.org/wiki/Nucleus_RTOS|EN.Wikipedia "Nucleus RTOS"]], [[http://de.wikipedia.org/wiki/Nucleus_%28Betriebssystem%29|EN.Wikipedia "Nucleus (Betriebssystem)"]],
+  *[[http://www.windriver.com/|Wind River]] - Realtime operating system "VxWorks", development tools ( Wind River Workbench OCD, DIAB C/C++ Cross Compiler, SDS SingleStep Debugger, EST visionPROBE, EST visionICE Emulatoren, visionCLICK Debugger, SNiFF+ ).
+    *[[http://en.wikipedia.org/wiki/Wind_River_Systems|EN.Wikipedia "Wind River Systems"]], [[http://de.wikipedia.org/wiki/Wind_River_Systems|DE.Wikipedia "Wind River Systems"]], [[http://en.wikipedia.org/wiki/VxWorks|EN.Wikipedia "VxWorks"]], [[http://de.wikipedia.org/wiki/VxWorks|DE.Wikipedia "VxWorks"]].
+    *[[http://en.wikipedia.org/wiki/PSOS|EN.Wikipedia "pSOS"]] - "No further releases of pSOS itself will be made".
+    *[[http://embedded-tools.de/WindRiver|EEmbedded Tools GmbH "Wind River"]].
+  *[[http://www.pumpkininc.com/|Pumpkin, Inc. - "Salvo - The RTOS that runs in tiny places"]].
+    *The free Salvo Lite is limited to a small number of tasks and events, etc. (typically 3 tasks and 5 events.
+    *[[http://www.pumpkininc.com/salvo/lite/msp430/|pumpkininc.com/salvo/lite/msp430]] - free version of Salvo for MSP430 ("Lite").
+    *[[http://www.pumpkininc.com/salvo/lite/8051/|pumpkininc.com/salvo/lite/8051]] - free version of Salvo for 8051 ("Lite").
+
+===== Realtime Languages with Multi-Platform Runtimes =====
+  *eLua, see [[lua.html|Lua & eLua]].
+  *See [[forth.html|FORTH]].
+===== Operating Systems & Frameworks for Robotics =====
+  *[[http://en.wikipedia.org/wiki/Robot_Operating_System|EN.Wikipedia "Robot Operating System"]], [[http://de.wikipedia.org/wiki/Robot_Operating_System|DE.Wikipedia "Robot Operating System"]] ( ROS ).
+
+===== Distributed Operating Systems =====
+==== Systems ====
+  *[[http://plan9.bell-labs.com/plan9/|Plan 9 from Bell Labs]].
+  *[[http://www.vitanuova.com/|vita nuova "Inferno"]] - "A compact operating system for building cross-platform distributed systems".
+  *[[http://www.vitanuova.com/inferno/limbo.html|vita nuova "Limbo"]] - "The application programming language for Inferno. Syntactically similar to C, it has several features that make it simpler, safer and yet more powerful and better suited to the development of concurrent, distributed systems".
+==== Resources ====
+  *[[http://en.wikipedia.org/wiki/Distributed_operating_system|EN.Wikipedia "Distributed operating system"]].
+  *[[http://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs|EN.Wikipedia "Plan 9 from Bell Labs"]].
+  *[[http://en.wikipedia.org/wiki/Vita_Nuova_Holdings|EN.Wikipedia "Vita Nuova Holdings"]].
+  *[[http://www.heise.de/newsticker/meldung/Betriebssystem-Inferno-4-als-Download-98669.html|Heise "Betriebssystem Inferno 4 als Download"]], 2004-05-17.
+===== Market research "Realtime operating systems", 2005-06-22 =====
+  *[[http://de.wikipedia.org/wiki/Echtzeitsystem|DE.Wikipedia "Echtzeitsystem"]] -> DIN 44300.
+  *[[http://web.archive.org/web/*/http://www.awi.de/leser-services/marktubersicht_gesamt.html|Archive.org "IT- und Elektronikfachverlag AWi Aktuelles Wissen Verlagsgesellschaft mbH - "Marktübersichten AWi Verlag"]], 2004-04-04.
+    *Paper magazine "Electronic Embedded Systeme", issue 07/2002 - "[[http://web.archive.org/web/20030325180413/www.awi.de/leser-services/markt02/07/ees_0702_036.pdf|Marktübersicht: Echtzeitbetriebssysteme]]" ( PDF ).
+    *Paper magazine "Electronic Embedded Systeme", issue 07/2001 - "[[http://web.archive.org/web/20030325031903/www.awi.de/leser-services/markt01/07/ees_0701_032.pdf|Echtzeitbetriebssysteme]]" ( PDF ).
+    *Paper magazine "Electronic Embedded Systeme", issue 01/2000 - "[[http://web.archive.org/web/20030324155816/www.awi.de/leser-services/markt00/01/sys_01_2000_48.pdf|Marktübersicht: Echtzeitbetriebssysteme]]" ( PDF ).
+  *Heise.
+    *[[http://www.heise.de/artikel-archiv/ct/1992/8/52|C´t 8/1992 "Just in Time. Was Echtzeit-Betriebssysteme von gewöhnlichen unterscheidet"]].
+    *[[http://www.heise.de/artikel-archiv/ct/1992/9/202|C´t 9/1992 "Just in Time. Echtzeit-Betriebssysteme, Teil 2: Marktreport"]].
+===== Resources =====
+  *[[http://www.epanorama.net/links/embedded.html|ePanorama.net "Embedded systems links"]].
+  *[[http://www.elmicro.com/|Elektronikladen]].
+    *[[http://www.elmicro.com/files/robotik/e_multi.pdf|Jens Altenburg: "Multitasking mit dem MSP430"]] ( PDF ).
+  *[[http://www.eg3.com/rtos/|eg3 "best of the web - rtos"]].
+  *[[http://www.iar.com/en/Products/RTOS/Integrated-RTOSes|IAR Systems "RTOS Partner Program"]].
+  *[[http://www.real-time.org/|E. Douglas Jensen "Real-Time for the Real World"]] - basics of realtime systems.
+  *[[http://www.rtos-report.org/|rtos-report.org - Selecting an embedded RTOS]].
+  *[[http://en.wikipedia.org/wiki/FlexOS|EN.Wikipedia "FlexOS"]].
+  *[[http://en.wikipedia.org/wiki/Real-time_computing|EN.Wikipedia "Real-time computing"]], [[http://en.wikipedia.org/wiki/Real-time_operating_system|EN.Wikipedia "Real-time operating system"]], [[http://de.wikipedia.org/wiki/Echtzeitsystem|DE.Wikipedia "Echtzeitsystem"]], [[http://en.wikipedia.org/wiki/List_of_operating_systems|EN.Wikipedia "List of operating systems"]].
+===== Forums, Newsgroups, Communities =====
+  *[[http://groups.google.com/group/comp.realtime/|Google Groups "comp.realtime"]], [[http://groups.google.com/group/comp.os.os9/|Google Groups "comp.os.os9"]], [[http://groups.google.com/group/comp.os.vxworks/|Google Groups "comp.os.vxworks"]], [[http://groups.google.com/group/comp.os.qnx/|Google Groups "comp.os.qnx"]], [[http://groups.google.com/group/comp.os.lynx/|Google Groups "comp.os.lynx"]], [[http://groups.google.com/group/comp.sys.m68k/|Google Groups "comp.sys.m68k"]], [[http://groups.google.com/group/comp.os.research/|Google Groups "comp.os.research"]], [[http://groups.google.com/group/hannover.uni.comp.rtos-uh/|Google Groups "hannover.uni.comp.rtos-uh"]].
+  *[[http://groups.google.com/group/comp.terminals/|Google Groups "comp.terminals"]].
+  *[[http://www.openqnx.com/|OpenQNX]].
+  *[[http://www.qnx.com/community/forums.html|QNX "QNX Community Forums"]], [[http://community.qnx.com/|QNX "Foundry27"]] - "The community portal for QNX software developers".
+  *[[http://www.utasker.com/forum/|µTasker Forum]].
+  *[[http://support.highintegritysystems.com/|Wittenstein AG / WA&S Ltd - HighintegritySystems "Forums - Support for OpenRTOS and SafeRTOS"]].
+  *Yahoo.
+    *[[http://finance.groups.yahoo.com/group/avrx/|Yahoo Groups "avrx · Support group for the AvrX RTOS"]].
+    *[[http://tech.groups.yahoo.com/group/nuttx/|Yahoo Groups "nuttx · NuttX Embedded RTOS"]].
+    *[[http://tech.groups.yahoo.com/group/MicriumNewsGroup/|Yahoo Group "MicriumNewsGroup · Micriµm, Inc. - News Group"]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Embedded/|OpenDirectory "Top: Computers: Software: Operating Systems: Embedded"]].
+  *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Realtime/|OpenDirectory "Top: Computers: Software: Operating Systems: Realtime"]].
+    *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Realtime/Open_Source/|OpenDirectory "Top: Computers: Software: Operating Systems: Realtime: Open Source"]].
+{{tag>"realtime operating system" realtime "operating system" "realtime system"}}
+<footnote_navi_en>

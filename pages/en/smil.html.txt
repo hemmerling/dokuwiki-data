@@ -1,0 +1,569 @@
+====== [hemmerling] Synchronized Multimedia Integration Language ( SMIL ) for Digital Signage ======
+Related pages:
+  *[[dsignage.html|Digital Signage]].
+  *[[ambulant.html|How to compile, link, build and customize the AMBULANT Open SMIL Player 2.0.2 for Windows]].
+===== Resources =====
+==== Books ====
+  -Book [[http://www.amazon.de/exec/obidos/ASIN/3540785469/hemmerling-21|Dick C. A. Bulterman, Lloyd Rutledge "SMIL 3.0: Interactive Multimedia for Web, Mobile Devices and Daisy Talking Books"]].
+    *The accompanying website [[http://www.xmediasmil.net/|X.media.publishing - SMIL 3.0.Interactive Multimedia for the Web, Mobile Devices and Daisy Talking Books]].
+    *[[http://www.springer.com/computer/database+management+%26+information+retrieval/book/978-3-540-78546-0|Springer "Dick C. A. Bulterman, Lloyd Rutledge SMIL 3.0: Interactive Multimedia for Web, Mobile Devices and Daisy Talking Books"]].
+    *Preface - [[http://www.springer.com/cda/content/document/cda_downloaddocument/9783540785460-p1.pdf|Dick C. A. Bulterman, Lloyd Rutledge "SMIL 3.0: Interactive Multimedia for Web, Mobile Devices and Daisy Talking Books", Chapter "Preface"]].
+    *Chapter 2 - [[http://www.springer.com/cda/content/document/cda_downloaddocument/9783540785460-c2.pdf|Dick C. A. Bulterman, Lloyd Rutledge "SMIL 3.0: Interactive Multimedia for Web, Mobile Devices and Daisy Talking Books", Chapter "2 Understanding SMIL Code"]].
+    *Chapter 9 - [[http://www.xmediasmil.net/Chapters/SampleChapter.pdf|Dick C. A. Bulterman, Lloyd Rutledge "SMIL 3.0: Interactive Multimedia for Web, Mobile Devices and Daisy Talking Books", Chapter "9 Timed Text in SMIL"]].
+  -Book [[http://www.amazon.de/exec/obidos/ASIN/3827318939/hemmerling-21|Daniel Koch: "Praxisbuch XHTML. CSS, SMIL, WML"]].
+  -Book [[http://www.amazon.de/exec/obidos/ASIN/067232167X/hemmerling-21|Timothy Kennedy, Mary Slowinski "Smil: Adding Multimedia to the Web"]].
+    *The accompanying website [[http://www.smilbook.com/|<SMIL> Book]].
+  -Book [[http://www.amazon.de/exec/obidos/ASIN/3827316456/hemmerling-21|Frank Goetz: "SMIL : Multimedia im Internet mit Realsystem G2"]].
+  -Book [[http://www.amazon.de/exec/obidos/ASIN/3939084344/hemmerling-21|Michael Matzer, Hartwig Lohse: "Dateiformate. ODF, DOCX, PSD, SMIL, WAV & Co., Einsatz und Konvertierung"]].
+  -Book [[http://www.amazon.de/exec/obidos/ASIN/0764507532/hemmerling-21|Heather Williamson: "SMIL For Dummies with CDROM"]].
+  -PDF book [[http://www.amazon.de/exec/obidos/ASIN/B00005OBLD/hemmerling-21|Faulkner Information Services "Synchronized Multimedia Integration Language (SMIL)"]] - Please read the user comments before buying :-(.
+==== Online ====
+  *[[http://www.a-smil.org/|A-SMIL.org]] - "SMIL for Digital Signage".
+    *[[http://www.a-smil.org/index.php/SMIL_systems|A-SMIL.org "SMIL systems"]] -> List of SMIL software and hardware with SMIL support #.
+    *[[http://www.a-smil.org/index.php/Transport|A-SMIL.org "Transport"]] #.
+      *Several ways exist to send a SMIL script to a digital signage media player, including:
+        -[[http://www.a-smil.org/index.php/Loading_via_USB|A-SMIL.org "Loading into the player using USB"]].
+         -[[http://www.a-smil.org/index.php/SOAP_transport|A-SMIL.org "Sending over SOAP transport"]].
+           *[[http://www.a-smil.org/index.php/WSDL|A-SMIL.org "WDSL"]] - "The following WSDL specification describes the Adfotain API (AdAPI) 1.0 interface common to SMIL-compatible digital signage media players".
+           *[[http://www.a-smil.org/index.php/Visual_Studio_Express|A-SMIL.org "Visual Studio Express"]] - "Microsoft Visual Studio Express Editions are the preferred tools for creating digital signage management software over AdAPI SOAP network interface".
+           *[[http://www.a-smil.org/index.php/Project_Hornet|A-SMIL.org "Project Hornet"]].
+         -[[http://www.a-smil.org/index.php/Pull_mode|A-SMIL.org "Pull mode"]] via HTTP.
+           *[[http://www.a-smil.org/index.php/MediaRSS|A-SMIL.org "MediaRSS"]].
+           *[[http://www.a-smil.org/index.php/Checking_for_Updates|A-SMIL.org "Checking for Updates"]].
+    *[[http://www.a-smil.org/index.php/SMIL_Connectivity|A-SMIL.org "SMIL Connectivity"]].
+      *[[http://www.a-smil.org/index.php/Prefetch|A-SMIL.org "Prefetch"]] - "Media files used in SMIL are loaded "on-the-fly" as they are used for the first time. After they are played once, they are kept in the cache storage. Unless storage runs out, media files are played from the cache storage when they are played subsequently".
+      *[[http://www.a-smil.org/index.php/Player_ID|A-SMIL.org "Player ID"]].
+      *[[http://www.a-smil.org/index.php/Reporting|A-SMIL.org "Reporting"]] - "The SMIL script does not support reporting. A-SMIL adds an extension that provides" proprietary "reporting capability to media players".
+  *[[http://www.academictutorials.com/smil/|Academic Tutorials "SMIL Tutorial"]].
+  *[[http://www.xml.com/pub/a/2002/05/29/smil.html|Fabio Arciniegas A., O'Reilly XML.com "A Realist's SMIL Manifesto"]], [[http://www.xml.com/pub/a/2002/07/17/smil.html?page=1|Fabio Arciniegas A., O'Reilly XML.com "A Realist's SMIL Manifesto, Part II"]].
+  *[[http://www.journaldunet.com/developpeur/tutoriel/xml/031128xml_smil1a.shtml|Xavier Borderie, LeJournalDuNet "SMIL : Première approche"]].
+  *[[http://www.daisy.org/daisy-standard|DAISY Consortium "Officially, the ANSI/NISO Z39.86 Specifications for the Digital Talking Book"]].
+    *[[http://www.daisy.org/specifications|DAISY Consortium "The DAISY Standard is officially the ANSI/NISO Z39.86 Specifications for the Digital Talking Book"]].
+      *[[http://www.daisy.org/z3986/2005/Z3986-2005.html|DAISY Consortium "ANSI/NISO Z39.86-2005. Revision of ANSI/NISO Z39.86-2002. ISSN: 1041-5653. Specifications for the Digital Talking Book"]] #.
+  *[[http://www.devx.com/webdev/Article/40111/1954|devX "PHP and SMIL: A Happy Combination"]] - "This article you will see how to use the Synchronized Multimedia Integration language (SMIL) and PHP to add great slideshow presentations to your web sites".
+  *FAQs.
+    *[[http://www.onestopfaqs.com/type.asp?iType=623|OneStopFAQs "SMIL FAQs - Frequently Asked Questions & Answers"]].
+    *[[http://www.coolinterview.com/type.asp?iType=451|CoolInterview "SMIL Interview Questions & Answers"]].
+  *[[http://www.barrierefreies-webdesign.de/spezial/multimediale-inhalte/smil.html|Jan Eric Hellbusch, Barrierefreies Webdesign. Ein behindertengerechtes Internet schaffen "Barrierefreie Gestaltung multimedialer Inhalte mittels SMIL 2.0 in der Theorie und anhand eines Beispiels"]].
+  *[[http://www.ibm.com/developerworks/xml/standards/x-smilspec.html|IBM developerWorks "Synchronized Multimedia Integration Language (SMIL)"]].
+  *Wolfgang von Keitz.
+    *[[http://www.hdm-stuttgart.de/streamingmedia/SMILStart.htm|Wolfgang von Keitz "Das SMIL 1.0 - Textbuch"]], 2000 - "SMIL - Grundlagen und Anwendungsbeispiele".
+    *[[http://www.hdm-stuttgart.de/streamingmedia/smil201skript/SMILStart.htm|Wolfgang von Keitz "Das SMIL 2.0 - Textbuch"]], 2005.
+  *[[http://dbs.schule.de/db/mlesen.html?Id=23257|Deutscher Bildungsserver "Plattformunabhängige und barrierefreie Präsentationstechniken für das Internet"]].
+    *[[http://www.mh-hannover.de/fileadmin/institute/med_informatik/downloads/diplom/Krause.pdf|Christian Krause "Plattformunabhängige und barrierefreie Präsentationstechniken für das Internet. Diplomarbeit im Studiengang Medieninformatik an der Fachhochschule Braunschweig / Wolfenbüttel"]] ( PDF ).
+  *[[http://www.msu.edu/course/tc/848/|Michigan State University, Department Of Telecommunication]].
+    *[[http://www.msu.edu/course/tc/848/webcasting/|Michigan State University, Department Of Telecommunication "TC 848: Introduction to Webcasting"]].
+      *[[http://www.msu.edu/course/tc/848/webcasting/login/resources/|Michigan State University, Department Of Telecommunication "TC 848: Introduction to Webcasting / Resources"]].
+        *[[http://www.msu.edu/course/tc/848/webcasting/login/resources/authoring_smil/|Michigan State University, Department Of Telecommunication "TC 848: Introduction to Webcasting / Resources / What is SMIL?"]].
+  *[[http://www.multimedia4everyone.com/|Multimedia4everyone - Learn SMIL with a SMIL Presentation]] -> SMIL sample files, for Ambulant player #.
+  *[[http://www.developer.nokia.com/|Nokia Developer]].
+    *[[http://www.developer.nokia.com/Community/Wiki/|Nokia Developer Wiki]].
+      *[[http://www.developer.nokia.com/Community/Wiki/SMIL|Nokia Developer Wiki "SMIL"]].
+  *Quicktime.
+    *[[http://developer.apple.com/legacy/mac/library/#documentation/QuickTime/Conceptual/QTScripting_SMIL/|Apple "Mac OS X Developer Library — Legacy  — "SMIL Scripting Guide for QuickTime (Legacy)"]].
+    *[[http://developer.apple.com/legacy/mac/library/documentation/QuickTime/Conceptual/QTScripting_SMIL/QTScripting_SMIL.pdf|Apple "SMIL Scripting Guide for QuickTime (Legacy). 2005-06-04"]] ( PDF ).
+    *[[http://support.apple.com/kb/TA25540|Apple Support "QuickTime Pro: SMIL Extensions"]].
+  *Real / Helix.
+    *[[http://service.real.com/help/library/guides/production8/htmfiles/intro.htm|RealSystem Production Guide. RealSystem Release 8 with RealProducer 8.5]].
+      *[[http://service.real.com/help/library/guides/production8/htmfiles/intro.htm|Real "Introduction; How this Book Is Organized"]].
+      *[[http://service.real.com/help/library/guides/production8/htmfiles/smil.htm|Real "Chapter 6: Assembling a Presentation with SMIL "]].
+      *[[http://service.real.com/help/library/guides/production8/htmfiles/smilext.htm|Real "Chapter 7: Extending SMIL"]].
+      *[[http://service.real.com/help/library/guides/realone/ProductionGuide/HTML/htmfiles/smilintr.htm|Real "Chapter 8: SMIL Basics"]].
+      *[[http://service.real.com/help/library/guides/production8/htmfiles/smilref.htm|Real "Appendix D: SMIL Quick Reference"]].
+      *[[http://service.real.com/help/library/guides/production8/htmfiles/language.htm|Real "Appendix E: SMIL Language Codes"]].
+    *[[http://service.real.com/help/library/encoders.html#productionguide|Real "Content Production and Authoring Documentation]] - "RealNetworks Production Guide. This guide explains how to create content for RealPlayer, covering SMIL 2.0...".
+      *[[http://service.real.com/help/library/guides/ProductionGuide/prodguide/realpgd.htm|RealNetworks Production Guide, With RealPlayer 10]] 
+      *"Chapter 8: SMIL Basics".
+      *"Chapter 19: Prefetching".
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0201379619/hemmerling-21|Jeff Rule "Dynamic HTML: The HTML Developer's Guide"]].
+      *Accompanying Website [[http://www.ruleweb.com/dhtml/|Jeff Rule's Dynamic HTML and SMIL Site]].
+      *[[http://www.ruleweb.com/crosscasting/|Crosscasting.com, home for streaming media demos "Part 1 - SMIL Introduction"]].
+  *[[http://www.renater.fr/|Le Réseau National de télécommunications pour la Technologie l'Enseignement et la Recherche ( RENATER )]].
+    *[[http://www.renater.fr/Video/index.html|Le Réseau National de télécommunications pour la Technologie l'Enseignement et la Recherche ( RENATER ) "La web-télévision de RENATER"]].
+      *[[http://www.renater.fr/Video/ATHENS/index.html|Le Réseau National de télécommunications pour la Technologie l'Enseignement et la Recherche ( RENATER ) "Les conférences ATHENS ENSAM3"]].
+         *[[http://www.renater.fr/Video/ATHENS2007/index.html|Le Réseau National de télécommunications pour la Technologie l'Enseignement et la Recherche ( RENATER ) "ATHENS ENSAM3 : Novembre 2007"]].
+           *[[http://www.renater.fr/Video/ATHENS2007/P/DC-SMIL/IndexASSS.html|Didier Courtaud  "The SMIL standard : multimedia in the Web"]] #.
+           *[[http://www.renater.fr/Video/ATHENS2007/P/JP-WebinarCaseStudy/IndexASSS.html|Jacques Prévost "A Webinar SMILing case study : recording ATHENS, and others"]] #.
+         *[[http://www.renater.fr/Video/ATHENS2006/index.html|Le Réseau National de télécommunications pour la Technologie l'Enseignement et la Recherche ( RENATER ) "ATHENS ENSAM3 : Novembre 2006"]].
+           *[[http://www.renater.fr/Video/ATHENS2006/P/DC-SMIL/IndexASSS.html|Didier Courtaud "The SMIL Language"]].
+         *[[http://www.renater.fr/Video/ATHENS2005/index.html|Le Réseau National de télécommunications pour la Technologie l'Enseignement et la Recherche ( RENATER ) "ATHENS ENSAM3 : Novembre 2005"]].
+           *[[http://www.renater.fr/Video/ATHENS2005/P/Courtaud-SMIL/IndexASSS.html|Didier Courtaud "SMIL (Synchronized Multimedia Integration Language)"]].
+         *[[http://www.renater.fr/Video/ATHENS2004/index.html|Le Réseau National de télécommunications pour la Technologie l'Enseignement et la Recherche ( RENATER ) "ATHENS ENSAM3 : Novembre 2004"]].
+           *[[http://www.renater.fr/Video/ATHENS2004/P/JP-SMILTools/index.html|Jacques Prévost "A few tools for SMIL"]] #.
+         *[[http://www.renater.fr/Video/2003ATHENS/Index.htm|Le Réseau National de télécommunications pour la Technologie l'Enseignement et la Recherche ( RENATER ) "ATHENS ENSAM2 : Novembre 2003"]].
+           *Many speeches are recorded. -> "Replay the presentation (format : SMIL )".
+           *Didier Courtaud "SMIL (part 1)".
+           *Didier Courtaud "SMIL (part 2)".
+         *[[http://www.renater.fr/Video/2002ATHENS/Index.htm|Le Réseau National de télécommunications pour la Technologie l'Enseignement et la Recherche ( RENATER ) "ATHENS ENSAM : Novembre 2002"]].
+           *Didier Courtaud "SMIL V1".
+           *Didier Courtaud "SMIL V1 (continued)".
+           *Didier Courtaud "SMIL V2".
+         *[[http://www.renater.fr/Video/2001ATHENS/Index.htm|Le Réseau National de télécommunications pour la Technologie l'Enseignement et la Recherche ( RENATER ) "ATHENS ENSAM : Novembre 2001"]].
+           *Jacques Prévost "Learning to use SMIL" #.
+      *[[http://www.renater.fr/Video/CIREN/index.html|Le Réseau National de télécommunications pour la Technologie l'Enseignement et la Recherche ( RENATER ) "Les cours des formations CIREN"]].
+        *[[http://www.renater.fr/Video/CIREN/20070319Visiodiffusion/index.html|Le Réseau National de télécommunications pour la Technologie l'Enseignement et la Recherche ( RENATER ) "Visiodiffusion et acquisition multimedia"]].
+          *[[http://www.renater.fr/Video/CIREN/20070319Visiodiffusion/P/JP-ASSS/IndexASSS.html|Jacques Prévost "ASSS : interpréter en SMIL ou en Flash les données OTESA" / "ASSS : Aristote Smil Slide Show"]] #.
+          *[[http://www.renater.fr/Video/CIREN/20070319Visiodiffusion/P/JP-PPTtoOTESA/IndexASSS.html|Jacques Prévost "PPTtoOTESA : de Powerpoint à OTESA (puis SMIL et Flash)" / "PPTtoOTESA : Powerpoint to OTESA"]].
+          *[[http://www.renater.fr/Video/CIREN/20070319Visiodiffusion/P/JP-OIPh/IndexASSS.html|Jacques Prévost "OIPh : cours et diaporamas pour OTESA (puis SMIL et Flash)" / "OIPh : OTESA Index Photos"]].
+          *[[http://www.association-aristote.fr/doku.php/public/archives/archives/smil|Aristote "Réunion du Club SMIL Décembre 2004"]].
+      *[[http://www.renater.fr/Video/Canal-RENATER/SMIL.html|Le Réseau National de télécommunications pour la Technologie l'Enseignement et la Recherche ( RENATER ) "Canal RENATER : ressources de la communauté RENATER. Présentations et documents concernant: SMIL, ou le multimedia dans le Web : initiation, utilisations]].
+  *Lloyd Rutledge, [[http://nl.linkedin.com/in/lloydrutledge|XING "Lloyd Rutledge"]].
+    *[[http://www.heise.de/ix/artikel/Moving-to-the-beat-505728.html|Lloyd Rutledge, iX 10/1999, heise online "Moving to the beat. The Web used to stand still. SMIL gives the Web a sense of timing and adaptation"]], 1999-10.
+    *[[http://www.heise.de/ix/artikel/Tonangebend-505718.html|Lloyd Rutledge, iX 10/1999, heise online "Tonangebend"]], 1999-10.
+  *[[http://dev.ulb.ac.be/info135/i135g4/accueil.html|Aude Staquet, Catherine Meyfroi "LE LANGAGE SMIL"]].
+  *[[http://www.teialehrbuch.de/Kostenlose-Kurse/XML/7716-Synchronized-Multimedia-Integration-Language.html|[TEIA] "Synchronized Multimedia Integration Language (SMIL)"]].
+  *[[http://www.smilmedia.com/smil.htm|Smilmedia "SMIL"]] - "While SMIL1 is a for itselve standing file format, SMIL2 can be integrated also into other file formats such as XHTML and SVG. The namespace mechanism of XML-Formats is used for building up all former named formats".
+  *W3C.
+    *[[http://www.w3.org/AudioVideo/|W3C Interaction Domain "Synchronized Multimedia"]] #.
+    *[[http://www.w3.org/TR/smil/|W3C "Synchronized Multimedia Integration Language (SMIL 3.0). W3C Recommendation 01 December 2008"]].
+    *[[http://www.w3.org/TR/REC-smil/|W3C "Synchronized Multimedia Integration Language (SMIL) 1.0 Specification. W3C Recommendation 15-June-1998"]].
+    *[[http://www.w3.org/TR/XHTMLplusSMIL/|W3C "XHTML+SMIL Profile"]].
+    *[[http://www.w3.org/TR/NOTE-HTMLplusTIME|W3C "Timed Interactive Multimedia Extensions for HTML. (HTML+TIME). Extending SMIL into the Web Browser"]].
+  *w3schools.com.
+    *[[http://www.w3schools.com/smil/default.asp|w3schools.com "SMIL Tutorial"]].
+    *[[http://www.w3schools.com/w3c/w3c_smil.asp| "W3C SMIL Activities"]].
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/Synchronized_Multimedia_Integration_Language|EN.Wikipedia "Synchronized Multimedia Integration Language"]], [[http://de.wikipedia.org/wiki/Synchronized_Multimedia_Integration_Language|EN.Wikipedia "Synchronized Multimedia Integration Language"]] ( SMIL ).
+    *[[http://en.wikipedia.org/wiki/Media_RSS|EN.Wikipedia "Media RSS"]].
+===== Free Digital Signage Platforms & Tools =====
+==== Open API Media Appliances & Open Standard Digital Signage Appliances - Solutions with SMIL Support ====
+=== Xibo ===
+  *The OpenSource [[http://www.xibo.org.uk/|Xibo - Open Source Digital Signage]] - "An open source, multi-display, multi-zone, fully scheduled digital signage solution controlled from a centrally managed web interface".
+    *Wiki [[http://wiki.xibo.org.uk/|Xibo Wiki]].
+    *[[http://www.launchpad.net/xibo|Launchpad "Xibo Open Source Digital Signage"]].
+      *[[http://blueprints.launchpad.net/xibo/|Launchpad "Xibo Blueprints"]].
+        *[[http://blueprints.launchpad.net/xibo/+spec/smil-compatibility|Launchpad "Xibo Blueprints - Using SMIL for server<->client communication"]].
+==== Open API Media Appliances & Open Standard Digital Signage Appliances - SMIL Software Players ====
+=== The Ambulent Player ===
+  *The OpenSource [[http://www.ambulantplayer.org/|AMBULANT Open SMIL Player]], [[http://ambulant.sourceforge.net/|Sourceforge "ambulant"]], [[http://www.sourceforge.net/projects/ambulant/|Sourceforge "ambulant"]] for WinXp, Linux, MacOSX.
+    *[[http://www.ambulantplayer.org/PluginInstall.shtml|Ambulant Browser Plug-ins]] for Firefox, MSIE 6, 7, 8.
+    *Ambulant SMIL Player 2.0.2 is the latest edition for W2k.
+  *[[http://nlnet.nl/project/ambulant/|NLnet FOUNDATION "Ambulant"]].
+    *[[http://nlnet.nl/project/ambulant/how.html|NLnet FOUNDATION "Ambulant; organization and status"]].
+      *[[http://nlnet.nl/project/ambulant/20041011-phase1-final.pdf|NLnet FOUNDATION "AMBULANT. Phase I: A Multi-Profile SMIL Player for Mobile and Desktop Systems. Project Final Report"]] ( PDF ), 2004-11-11.
+  *[[http://www.cwi.nl/|Centrum Wiskunde & Informatica, Amsterdam, Netherlands ( CWI )]].
+    *[[http://repository.cwi.nl/|CWI "The Institutional Digital Repository of CWI"]] -> search for "ambulant".
+    *[[http://homepages.cwi.nl/~media/SMIL/|Centrum Wiskunde & Informatica ( CWI ) "The CWI SMIL Page"]] -> "SMIL Examples".
+  *[[http://www.dinf.ne.jp/doc/english/daisy/smil_web/dick.html|DINF - Disabilty INFormation Resources,
+Daisy Symposium, 9 September 2004 - "SMIL 2.0 and the AMBULANT SMIL Player"]].
+    *[[http://www.dinf.ne.jp/doc/english/daisy/smil_web/SMIL_Ambulant.pdf|Dick Bulterman "SMIL 2.0 and the AMBULANT SMIL Player"]] ( PDF ).
+  *SMIL "<prefetch src=".." />"
+    *[[http://sourceforge.net/tracker/?func=detail&aid=3028604&group_id=91457&atid=597222|SourceForge Tracker "Prefetch with images does not work - ID: 3028604"]], 2010-07-12 - "As reported by Jose Ramirez, prefetch of images leads to an error. As an absolute minimal fix, we should make prefetch work for non-audio/non-video media, and ignore it (with a TRACE warning message). We should also check what things like the brush renderer, smiltext, etc. do. Much better, and not too much work, would be to actually implement it".
+    *[[http://www.ambulantplayer.org/pipermail/ambulant-users/2010-June/000254.html|Jose Ramirez, mailing list "Ambulant-users" - Thread "[Ambulant-users] prefetch bug and working around it, Ambulant 2.2 Win/Wine Ubuntu 10.04 32bit"]], 2010-06-17.
+    *[[http://www.nluug.nl/activiteiten/events/nj09/abstracts/bo-gao.html|Bo Gao, NLUUG "Seamless Playback of Video/Audio in Ambulant: Design and Implementation"]].
+      *[[http://www.nluug.nl/activiteiten/events/nj09/papers/bo-gao.pdf|Bo Gao, Jack Jansen, Pablo Cesar, and Dick C. A. Bulterman "Seamless Playback of Video/Audio in Ambulant: Design and Implementation"]] ( PDF ) - "Furthermore, <prefetch> is also specified in SMIL standard. **However, to the best of our knowledge, prefetch is not well implemented in current SMIL-compliant players. Consequently, noticeable interruptions between successive media clips in the playlists does show up in these players**".
+    *[[http://www.arnetminer.org/viewpub.do?pid=501989|Arnetminer "Ambulant: a fast, multi-platform open source SMIL player"]].
+      *[[http://arnetminer.org/pdf/PDFFiles/--g---g-Index1244113275518/Ambulant%20%20a%20fast,%20multi-platform%20open%20source%20SMIL%20player1244126437564.pdf|Dick C.A. Bulterman, Jack Jansen, Kleanthis Kleanthous, Kees Blom and Daniel Benden "AMBULANT: A Fast, Multi-Platform Open Source SMIL Player"]] ( PDF ) - "Ambulant has managed to implement the entire SMIL 2.0 feature set with two exceptions: first, **we currently do not support the prefetch elements of the content control modules**; second, we provide only single top-level window support in the platform-dependent player interfaces. Prefetch was not supported because of the close association of an implementation with a given streaming architecture", 2004-10.
+=== Ambulant Captioner & smilText - Support for SMIL within HTML ===
+== Author, Initiator ==
+  *[[http://www.rodrigolaiola.com/|Rodrigo Laiola Guimarães]], [[http://rodrigo.laiola.com.br/|Rodrigo Laiola Guimarães]], [[http://lattes.cnpq.br/4894515763733502|Rodrigo Laiola Guimarães]], [[http://www.cwi.nl/people/2158|CWI "R. Laiola Guimaraes"]], [[http://www.facebook.com/rlaiola|Facebook "Rodrigo Laiola"]], [[http://nl.linkedin.com/in/rlaiola|LinkedIn "Rodrigo Laiola"]].
+== smilText ==
+  *[[http://code.google.com/p/smiltext-javascript/|Google Code "smiltext-javascript - The smilText JavaScript project"]].
+    *[[http://smiltext-javascript.googlecode.com/svn/trunk/docs/1.1/index.html|smilText JavaScript API]].
+    *"The purpose of the smilText JavaScript engine is to provide an implementation of SMIL 3.0 smilText functionality within an HTML browser".
+    *"The initial code for the project was developed by Rodrigo Laiola".
+== Ambulant Captioner ==
+  *[[http://www.ambulantplayer.org/Toys.shtml|SMIL Technology Demonstrators]] - "YouTube Captioner. This demonstrator allow you to add captions and subtitles to arbitrary YouTube videos. You select the video, then add captions. The result can be published and shared with friends near and far".
+  *[[http://www.facebook.com/apps/application.php?id=172850461727|Facebook "Ambulant Captioner"]].
+  *[[http://youtube-gallery.appspot.com/about_app?app_id=80602|Google Code "YouTube APIs and Tools / YouTube Project Gallery"]].
+    *[[http://youtube-gallery.appspot.com/about_app?app_id=80602|Google Code, YouTube APIs and Tools - Rodrigo Laiola "Ambulant Captioner"]].
+  *[[http://portal.acm.org/citation.cfm?id=1860567|ACM Digital Library "Rodrigo Laiola Guimarães, Pablo Cesar,	Dick C.A. Bulterman: Creating and sharing personalized time-based annotations of videos on the web"]].
+  *[[http://twitter.com/smadjid|Twitter "Madjid Sadallah, @smadjid"]].
+    *[[http://twitter.com/smadjid/status/3396968072093696|Twitter Tweed "Ambulant Captioner, smilText for enduser. JW and YT players, controlled by JS implement. of SMIL3"]].
+== Online Demonstration of Ambulant Captioner ==
+  *[[http://www.ambulantplayer.org/smilTextWebApp/|Ambulant Captioner: putting your story on the web]] ( = YouTube Captioner ).
+  *[[http://apps.facebook.com/ambulantcaptioner/|Facebook Application "Ambulant Captioner"]].
+=== OpenSplash ===
+  *[[http://www.ayudasystems.com/|Ayuda Media Systems]].
+  *[[http://www.opensplash.net/|OpenSplash]].
+  *[[http://www.launchpad.net/opensplash|Launchpad "opensplash - the open source media player software"]].
+  *[[http://www.github.com/OpenSplash|Github "OpenSplash"]].
+  *[[http://twitter.com/OpenSplash|Twitter "OpenSplash"]] - "A free, multi-platform open source digital signage player that can be driven by any content management and scheduling system".
+  *[[http://www.sixteen-nine.net/?p=5227|Sixteen:Nine "Ayuda's OpenSplash Player SMIL-based, touted as new standard"]], 2011-02-01.
+  *[[http://www.dailydooh.com/archives/43083|DailyDOOH "OpenSplash Timeline"]], 2011-03-03.
+=== Some other standalone Players with SMIL Support ===
+  *The free discontiued [[http://www.adobe.com/products/mediaplayer/|Adobe Media Player]] for AIR 2.7.1 on WinXP, Linux and MacOS ( - 2010-12-15 ).
+    *Download of the latest free edition: [[http://www.free-codecs.com/Adobe_Media_Player_download.htm|Codecs.com "Adobe Media Player 1.8"]].
+  *The free [[http://www.apple.com/quicktime/|Apple Quicktime Player]] ( QT ) for Windows and Linux.
+    *Quicktime 6.5.1 is the latest edition for Win98SE.
+    *Quicktime 7.1.6 and iTune 7.1.5 are the latest editions for W2k.
+  *The discontinued but saved OpenSource [[http://wayback.archive.org/web/*/http://autometa.com/RPXP/|Autometa Corporation "Reciprocal Peer conteXt Projector" ( Autometa RPXP )]] v0.74 for Perl ( - 2008-04-05 ) - "Generates SMIL 1.0 and RealText streaming media presentations". 
+  *The OpenSource [[http://www.flowplayer.org/|Flowplayer free - Flash Video Player for the Web]].
+    *[[http://flowplayer.org/plugins/streaming/smil.html|Flowplayer "Streaming plugin: SMIL Resolves media URL contained in SMIL files"]].
+  *The free "InterObject SMIL Player" for Windows.
+    *[[http://handheld.softpedia.com/get/Video/SMIL-Player-for-InterObject-MPEG4-live-streaming-server-19317.shtml|SoftPedia "SMIL Player for InterObject MPEG4 live streaming server 1.1.1.38"]].
+  *The OpenSource [[http://oxygensmilplayer.codeplex.com/|CodePlex "Oxygen Smil Player"]] for Windows.
+  *The discontinued OpenSource Player "SOJA" ( "SMIL Output in Java Apple" ) by [[http://www.helio.org/|HELIOS]].
+    *The archive "soja-cherbourg2.tar.gz" is included on the accompanying CD of the book [[http://www.amazon.de/exec/obidos/ASIN/382725924X/hemmerling-21|Günter Born "Jetzt lerne ich XML. Der einfache Einstieg in den neuen Dokumenten- und Web-Standard"]].
+    *The online book [[http://www.google.com.au/books?id=jf45nkDnlggC|Google Books  "Günter Born: Jetzt lerne ich XML. Der einfache Einstieg in den neuen Dokumenten- und Web-Standard"]] does not supply the CD and therefore not this file.
+  *Real / Helix.
+    *[[http://www.helixcommunity.org/|Helix Community]].
+      *The OpenSource [[http://helix-client.helixcommunity.org/|Helix DNA Client]].
+      *The OpenSource [[http://player.helixcommunity.org/|Helix Player]].
+      *The OpenSource "Real Player" for Linux.
+      *The OpenSource [[http://xiph.helixcommunity.org/|Xiph Player]] - "This is a workspace for all parties to work on integrating the [[http://www.vorbis.com/|Ogg Vorbis]] format and audio codec with the [[http://helix-client.helixcommunity.org/|Helix DNA Client]], as well as any other work in the collaboration between the[[http://www.xiph.org/|Xiph.org]] Foundation and the Helix community".
+    *The free [[http://www.real.com/|Real Player]] for Windows and Linux.
+      *Real Player 10.5 is the latest edition for W2k.
+  *"Real Alternative".
+    *[[http://www.free-codecs.com/download/real_alternative.htm|codecs.com "Real Alternative Lite 2.0.2"]].
+      *"Supported: .smi and .smil files sometimes only play the first part of a clip. This is a limitation of the current Media Player Classic".
+      *"Limitations : .smi and .smil files only play the first part of a clip. This is only a problem when the clip consists of multiple parts. These files are not very common. These files do play correctly when embedded in a browser". 
+      *[[http://www.chip.de/downloads/Real-Alternative_15759882.html|CHIP Online "Real Alternative"]].
+  *The OpenSource [[http://www.xsmiles.org/|X-SMILES - an open xml-browser for exotic devices "The SMIL player"]] for Java.
+==== Open API Media Appliances & Open Standard Digital Signage Appliances - Browsers with SMIL Support ====
+=== Microsoft MSIE 5.5, 6 only, not MSIE 9 - Support for SMIL within HTML ===
+  *The browser [[http://windows.microsoft.com/ie/|Microsoft Internet Explorer]] 5.5, 6 shipped with W2k.
+    *[[http://msdn.microsoft.com/de-de/library/ms533112%28v=VS.85%29.aspx|Microsoft MSDN Library "HTML+TIME
+"]].
+      *[[http://msdn.microsoft.com/de-de/library/ms533113%28v=VS.85%29.aspx|Microsoft MSDN Library "HTML+TIME Overviews and Tutorials"]] - "This page documents a feature of HTML+TIME 2.0, which is obsolete as of Windows Internet Explorer 9" :-(.
+    *[[http://msdn.microsoft.com/de-de/library/ms533117.aspx|Microsoft MSDN Library "HTML+TIME: a Roadmap"]].
+    *[[http://audio-video-images.indelv.com/smil-standards-and-microsoft-internet-explorer-6-7-and-8.html|Indelv.com "SMIL Standards and Microsoft Internet Explorer 6, 7, and 8"]].
+    *[[http://audio-video-images.indelv.com/smil-30-and-ie8-with-firefox-30.html|Indelv.com "SMIL 3.0 and IE8 with Firefox 3.0"]].
+  *[[http://www.w3schools.com/smil/default.asp|w3schools.com "SMIL Tutorial"]].
+    *[[http://www.w3schools.com/smil/smil_html.asp|w3schools "SMIL in HTML"]] - "SMIL elements can be inserted into HTML files in Internet Explorer 5.5 or later".
+=== Browsers with Support for SMIL within SVG ===
+== Mozilla ==
+  *The OpenSource [[http://www.mozilla.org/|Mozilla Firefox]] 4,5,6..
+    *[[http://brian.sol1.net/svg/|Brian Birtles "SVG SMIL Animation in Mozilla"]].
+      *[[http://brian.sol1.net/svg/status.php|Brian Birtles "SVG SMIL Animation in Mozilla - Status"]].
+    *[[http://wiki.mozilla.org/SMIL|MozillaWiki "SMIL"]].
+      *[[http://wiki.mozilla.org/SMIL:SMIL_Model|MozillaWiki "SMIL:SMIL Model"]].
+    *[[http://developer.mozilla.org/en/SVG|Mozilla Developer Network ( MDN ) "SVG"]].
+      *[[http://developer.mozilla.org/en/svg/svg_animation_with_smil|Mozilla Developer Network ( MDN ) "SVG animation with SMIL"]].
+      *[[http://developer.mozilla.org/en/SVG/Tutorial|Mozilla Developer Network ( MDN ) "SVG / Tutorial - Animations with SMIL in SVG"]].
+      *[[http://developer.mozilla.org/en/Code_snippets/Embedding_SVG|Mozilla Developer Network ( MDN ) "Embedding SVG - Embedding in XHTML"]].
+    *[[http://bugzilla.mozilla.org/show_bug.cgi?id=216462|Bugzilla@Mozilla – Bug 216462 "Implement SVG (SMIL) Animation"]].
+== Opera ==
+  *[[http://www.opera.com/|Opera]].
+== WebKit ==
+  *[[http://www.webkit.org/|WebKit]].
+    *Blog article [[http://www.webkit.org/blog/172/enabling-svg-animation-acid3-99100/|Surfin' Safari "Enabling SVG Animation: Acid3 99/100"]].
+== Resources ==
+  *[[http://srufaculty.sru.edu/david.dailey/|David Dailey]].
+    *[[http://srufaculty.sru.edu/david.dailey/svg/|David Dailey "SVG animation with JavaScript and SMIL"]].
+    *[[http://srufaculty.sru.edu/david.dailey/svg/ovaling.svg|David Dailey "Examples: SVG with SMIL" - "moving ovals"]].
+  *Jeff Schiller, codedread.
+    *[[http://www.codedread.com/svg-support.php|Jeff Schiller, codedread "SVG Support"]] - "IE9 has not yet implemented the following set of features: SVG Animation (SMIL)...".
+    *Blog article [[http://www.codedread.com/blog/archives/tag/smil/|Jeff Schiller, CodeDread Blog "Houston, the SMIL has landed"]].
+  *[[http://en.wikipedia.org/wiki/Scalable_Vector_Graphics|EN.Wikipedia "Scalable Vector Graphics"]], [[http://de.wikipedia.org/wiki/Scalable_Vector_Graphics|DE.Wikipedia "Scalable Vector Graphics"]] - "SVG drawings can be dynamic and interactive. Time-based modifications to the elements can be described in SMIL".  
+  *[[http://en.wikipedia.org/wiki/SVG_animation|EN.Wikipedia "SVG animation"]].
+==== Digital Accessible Information System ( DAISY ) ====
+=== Organization ===
+  *[[http://www.daisy.org/amis|DAISY Consortium]].
+=== Software Players ===
+    *[[http://www.daisy.org/amis|DAISY Consortium "AMIS: DAISY 2.02 & DAISY 3 Playback Software"]].
+    *[[https://www.launchpad.net/daisyextension|Launchpad "AnyDaisy Firefox Extension"]] for Firefox 3 ( not for Firefox 4 :-( ).
+    *[[http://dbr.sourceforge.net/|SourceForge "Daisy Book Reader"]], [[http://www.sourceforge.net/projects/dbr/|SourceForge "Daisy Book Reader"]].
+=== Authoring Tools & SDKs ===
+  *[[http://urakawa.sourceforge.net/|SourceForge "The Urakawa Project. A toolkit for accessible multimedia"]], [[http://www.sourceforge.net/projects/urakawa/|SourceForge "urakawa project"]].
+    *[[http://urakawa.sourceforge.net/sdk/Urakawa_SDK_ReferenceGuide.html|SourceForge "The Urakawa SDK (Software Development Kit). Reference Guide for the Data Model and API (Application Programmer Interface)"]].
+    *[[http://www.daisy.org/forums/383|DAISY Consortium Forums, Thread "Create SMIL file using Daisy SDK"]] - "The Urakawa SDK is used to create an entire DAISY book, not just the SMIL parts... At export time, if you export to DAISY (the only option at this time, I believe) SMIL files are created as part of that fileset; however, the SDK does not have any native provision for authoring generic SMIL".
+=== Resources ===
+    *[[http://en.wikipedia.org/wiki/DAISY_Digital_Talking_Book|EN.Wikipedia "DAISY Digital Talking Book"]], [[http://de.wikipedia.org/wiki/DAISY-H%C3%B6rbuch|DE.Wikipedia "DAISY-Hörbuch"]].
+      *"DAISY 2 was a standard based on XHTML and SMIL. DAISY 3 is also based on XML".
+      *"Software players" -> List of compatible software players.
+==== Adobe Flash Platform - OSMF & SMP with SMIL support ====
+=== Mandatory Tools ===
+  -The OpenSource [[http://osmf.adobe.sourceforge.net/|SourceForge "OSMF"]], [[http://www.sourceforge.net/projects/osmf.adobe/|SourceForge "OSMF"]].
+    *[[http://sourceforge.net/apps/mediawiki/osmf.adobe/|SourceForge MediaWiki "OSMF & SMP"]].
+  -The OpenSource [[http://smp.adobe.sourceforge.net/|SourceForge "Flash Media Playback Setup"]], [[http://www.sourceforge.net/projects/smp.adobe/|SourceForge "Strobe Media Playback"]].
+    *[[http://sourceforge.net/adobe/smp/home/Strobe%20Media%20Playback/|SourceForge "Strobe Media Playback" - Home]].  
+  -"SMIL plug-in" for OSMF.
+  -[[http://www.adobe.com/flashplatform/|Adobe Flash Platform]].
+    -The commercial "Flash Professional".
+    -The commercial "Flash Builder".
+=== Resources ===
+  *[[http://www.adobe.com/support/flash/|Adobe Flash Professional Help center]] -> Search for "SMIL".
+  *[[http://www.adobe.com/devnet/flash/articles/mastering-osmf-pt1.html|Adobe "Mastering OSMF – Part 1: Working with the Flash Platform"]] - "It is also possible to do dynamic streaming using a SMIL file as the source. However, this requires you to load in the SMIL plug-in, which is available from the OSMF SVN repository".
+  *[[http://help.adobe.com/en_US/as3/components/WS5b3ccc516d4fbf351e63e3d118a9c65b32-7f13.html|Adobe Flash Professional CS5 - "Using ActionScript 3.0 Components / Using the FLVPlayback Component / Use a SMIL file"]].
+  *[[http://help.adobe.com/en_US/ActionScript/3.0_UsingComponentsAS3/WS5b3ccc516d4fbf351e63e3d118a9c65b32-7f13.html|Adobe ActionScript 3.0 - "Using the FLVPlayback Component / Use a SMIL file"]].
+  *[[http://forums.adobe.com/message/3401530|Adobe Forums "Help with SMIL Plugin"]].
+==== SMIL Authoring Tools ====
+  *The discontinued SMIL tools by [[http://wayback.archive.org/web/*/http://www.fluition.com/|Archive.Org "Confluent Technologies Inc]] ( - 2006-02-08 ).
+    *The SMIL tools.
+      *"Fluition" - SMIL Authoring Tool.
+      *"FluitionSHOW" - Video with Slideshow Creation System.
+      *"FluitionGRAB" - Screen Image and Color Capture Utility.
+    *[[http://www.brothersoft.com/fluition-91839.html|Brothersoft "Fluition 1.5.2"]] - Download of the latest demo edition. "The Demo Edition of Fluition is Open-Disabled. It is fully functional, but will not open files after they have been closed".
+  *The discontinued "GRiNS".
+    *[[http://www7.scu.edu.au/1939/com1939.htm|Centrum Wiskunde & Informatica ( CWI ) "GRiNS: A GRaphical INterface for creating and playing SMIL documents"]].
+    *[[http://oratrix.oratrix.com/Download/|Oratrix Development B.V. - Downloads]] - Download of the latest trial editions "GRiNS Editor for RealPlayer RealONE" V2.2 and "Oratrix GRiNS Editor for SMIL 2.0" V2.2.
+    *[[http://www.ambulantplayer.org/FAQ.shtml|Aambulantplayer FAQ]] - "What is the difference between the Ambulant Player and the GRiNS SMIL/2 Player? The Ambulant Player is a new SMIL player that is developed using a clean SMIL implementation. The GRiNS Player is a commercial niche market player that is used in speciality commercial applications. Although the development teams for both players are (largely) the same, the code base and licensing restrictions for both players are totally different. As a convenience to GRiNS Editor users, the Ambulant Player accepts .grins files as well as .smil files".
+  *The OpenSource [[http://kinodv.org/|Kino]] for Linux - "A non-linear DV editor for GNU/Linux.. You can load multiple video clips, cut and paste portions of video/audio, and save it to an edit decision list (SMIL XML format)".
+  *The OpenSource "LimSee" for Java.
+    *[[http://limsee3.gforge.inria.fr/|Gforce "LimSee3"]]
+      *"The LimSee3 project aims at developping a new-generation open source template-based multimedia authoring tool relying on the SMIL standard".
+      *"LimSee3 produces presentations in SMIL and in XHTML+Timesheets. Vieweing the former is possible in a SMIL player ([[http://www.real.com/|RealPlayer]], [[http://www.ambulantplayer.org/|Ambulant Player]]), the latter need the [[http://www.mozilla.com/firefox/|Firefox]] or Chrome web browser with the [[http://www.videolan.org/vlc/|VLC]] plug-in".
+    *[[http://limsee2.gforge.inria.fr/|Gforce "LimSee2"]].
+  *The free [[http://ncam.wgbh.org/invent_build/web_multimedia/tools-guidelines/magpie|The Carl and Ruth Shapiro Family National Center for Accessible Media "Media Access Generator (MAGpie)"]].
+  *The OpenSource [[http://smilgen.sourceforge.net/|Sourceforge "SMILGen SMIL Generation Tool"]], [[http://www.sourceforge.net/projects/smilgen/|Sourceforge "SMILGen SMIL Generation Tool"]].
+  *The commercial [[http://www.multimediadocument.com/|TRAN THUONG Multimedia "3TMAN"]] - "An integrated solution of authoring multimedia for multi-platforms including: Html+Time authoring tool, Smil authoring tool, MPEG-4 authoring (XMT-O) tool, MMS authoring tool, Java multimedia application authoring tool, and so on".
+==== Some other SMIL Applications ====
+  *[[http://www.association-aristote.fr/doku.php/public/archives/otesa/accueil|Aristote "Les outils OTESA"]].
+    *ASSS - "Produit des clips SMIL (pour CD ou serveur Web ou streaming) à partir des données de Arts et des données media".
+    *[[http://wayback.archive.org/web/*/http://aristote.asso.fr/files/OTESA-20071126.zip|Archive.org "OTESA-20071126.zip"]].
+    *[[http://www.renater.fr/Video/CIREN/20070319Visiodiffusion/P/JP-ASSS/Slides/Presentation.pdf|Jacques Prevost "ASSS. Aristote Smil Slide Show"]] ( PDF ).
+  *[[http://code.google.com/p/smirk2-1/|Google Code "Simple Media-Integration Resource Creator ( smirk2-1 )"]].
+    *[[http://wayback.archive.org/web/*/http://SMIRK.Herts.ac.uk|Archive.org "SMIRK.Herts.ac.uk"]].
+  *[[http://www.codesynthesis.com/|Code Synthesis]].
+    *Wiki [[http://wiki.codesynthesis.com/Schemas/SMIL|Code Synthesis Wiki "Schemas/SMIL"]].
+  *The commercial [[http://fullscript.cc/|FullScript]].
+    *[[http://fullscript.cc/Sites/FullScriptDemo/site/SupplementaryInfo.aspx|FullScript "Supplementary Information. Background to Rich media, captions and standards"]].
+  *The OpenSource [[http://karaokeconsmil.sourceforge.net/|SourceForge "Karaoke con SMIL"]], [[http://www.sourceforge.net/projects/karaokeconsmil/|SourceForge "Karaoke con SMIL"]] - "A project to synchronize audio, text, and images and export the final result to SMIL. In short, this application synchronizes the multimedia elements in a way similar to karaoke".
+  *The OpenSource [[http://projects.gnome.org/rhythmbox/|Gnome Projects "Rhythmbox"]] - An integrated music management application".
+    *[[http://projects.gnome.org/rhythmbox/developers.html|Gnome Projects "Rhythmbox" - Developer Page]].
+    *[[http://dietmarjanowski.bplaced.net/wordpress/?p=7748|Didis Blogazo, Blog aus Linden...der richtigen Seite der Leine "CDs rippen mit Rhythmbox"]].
+  *The OpenSource [[http://wam.inrialpes.fr/timesheets/|timesheets.js]] - "A declarative approach for HTML Timing using SMIL Timesheets".
+  *The OpenSource [[http://xface.sourceforge.net/|SourceForge "xface"]], [[http://www.sourceforge.net/projects/xface/|SourceForge "xface"]] - "A set of open source tools for creation of MPEG-4 and keyframes based 3D Talking Heads controlled over network with SMIL-Agent scripts".
+==== Not a SMIL Application ====
+  *<del>[[http://smil.codeplex.com/|CodePlex "SharePoint Map Integration Layer - SMIL"]]</del> - Not a SMIL application :-(.
+===== Digital Signage Hardware - Open API Media Appliances & Open Standard Digital Signage Appliances, with SMIL Support =====
+==== IAdea Platform - The Hardware Platform ====
+=== IAdea and its Distributors ===
+  *[[http://www.iadea.com/|IAdea Corporation]] - "Ledership in Digital Signage Media Appliances".
+    *[[http://www.iadea.com/news/tags/smil|IAdea Corporation - "SMIL" News]].
+    *Blog [[http://iadea.blogspot.com/|Blogger "Digital Signage @IAdea"]].
+    *[[http://www.iadea.com/article/digital-signage-media-player-selection-guide|IAdea Corporation "Digital Signage Media Player Selection Guide"]].
+    *[[http://www.iadea.com/products/|IAdea Corporation "Across the board support for SMIL"]].
+      *The IAdea product line supports IPv4. As of 2011-09, there is still no support for IPv6.
+      *According to the experience of industry experts, it is usual in projects that each Digital Signage (DS) site deploys a Wireless NAT router, with all the DS players behind the router and it's firewall. So it is rare that a DS player need to connect. Especially, DS players ( e.g. all IAdea products ) usually do not support PPPoE connection. 
+      *DS players work with most of management software in PULL mode, therefore no need to configure DMZ or port forwarding.
+      *The OEM device [[http://www.iadea.com/product/pio-101-gpio-adapter|IAdea Corporation "PIO-101 GPIO Adapter"]] - "The GPIO module works with multiple IAdea media appliances and integrated displays. External events are sent via the USB port into the player and integrated into the SMIL script to trigger playlists".
+      *As of 2011-09, the GPIO adapter only works with XMP-320, XMP-330, XMP-340 and XDS-195, XDS-245.
+    *[[http://www.iadea.com/support/|IAdea Corporation - Support]] - "FAQ - Guides - Documentation".
+      *[[http://www.iadea.com/support/faq|IAdea Corporation - FAQ]] -  Maximum video file size is 1 GB & 2 GB.
+      *[[http://www.iadea.com/support/content/converting-videos-winmenc|IAdea Corporation - Guides "Converting videos with WinMEnc"]].
+      *[[http://www.iadea.com/support/content/signchannel-setup-guide|IAdea Corporation - Guides "SignChannel Setup Guide"]].
+      *[[http://www.iadea.com/support/content/signagelive-setup-guide|IAdea Corporation - Guides "signagelive Setup Guide"]].
+      *[[http://www.iadea.com/support/content/digital-signwall-construction-guide|IAdea Corporation - Guides "Digital Signwall Construction Guide"]].
+    *[[http://www.youtube.com/IAdeaSignage|YouTube Channel "IAdeaSignage"]].
+    *[[http://www.facebook.com/pages/IAdea/140083849344594|Facebook "IAdea"]].
+      *[[http://www.facebook.com/scala?v=app_4949752878|Facebook "IAdea", Contest "10 inch IAdea Signboard Giveaway!"]] ( 2011-07 - 2011-10 ).
+        *[[http://www.facebook.com/topic.php?uid=181517983170&topic=14528|Facebook "IAdea", thread "OFFICIAL CONTEST ENTRY SCALA/IADEA SIGNBOARD GIVEAWAY"]].
+  *[[http://www.aispro.com/|American Industrial Systems Inc. ( AIS )]].
+    *[[http://aispro.com/digital_signage-Player.asp|American Industrial Systems Inc. ( AIS ) - Digital Signage Player Solutions]].
+      *[[http://www.aispro.com/digital-signage_HDplayer1080P.asp|American Industrial Systems Inc. ( AIS ) "Digital Signage Player SVS-2103 (1080P)"]] - "For advanced users, the SVS-2103 offers industryleading compatibility by supporting the XML-based SMIL (Synchronized Multimedia Integration Language) open standard. Established by the W3C (World Wide Web Consortium) with supporting products from Adobe, Apple, Microsoft, and Real Networks".
+      *[[http://aispro.com/digital-signage_iadeaXMP3X0.asp|American Industrial Systems Inc. ( AIS ) "Digital Signage Player IAdea Series XMP-320/330"]] - "The AIS XMP-320 Open Standard Digital Signage Appliance is a SMIL programmable digital signage device".
+  *[[http://www.smil-player.de/|itworx-pro GmbH "SMIL-Player - Professional Digital Signage Systems"]].
+    *[[http://www.smil-player.de/produkte.html|itworx-pro GmbH - Produkte]].
+    *[[http://www.smil-player.de/software.html|SMIL Creator]] - "kann die erstellte Playliste mit Hilfe der Aufnahmefunktion als Bildsequenz oder als MPEG Video abspeichern".
+    *[[http://www.smil-player.de/partner.html|itworx-pro GmbH - Partners]].
+      *[[http://www.scala.com/|Scala, Inc.]].
+      *[[http://www.smil-e.com/|SMIL-e - Signage with a Smile]].
+      *[[http://www.kommatec-red.de/|komma,tec redaction GmbH]].
+      *[[http://www.kompas-software.de/|kompas by dimedis GmbH]].
+      *[[http://www.stinova.com/|Stinova Ltd. - Digital Signage]].
+      *[[http://www.dooh-media-gmbh.de/|DOOH Media GmbH]].
+      *[[http://www.ds-ccc.de/|DS CCC GmbH]] ( [[http://www.smil-admin.com/|SMIL Control - Signage meets innovative thinking]] ).
+      *[[http://www.adversign-media.de/|Adversign Media - Digital Signage Content and Service Provider]].
+      *[[http://www.neontechnik-leipzig.de/|NEL Neontechnik Elektroanlagen Leipzig GmbH]].
+      *[[http://www.muse-content.com/|MuSe Content GmbH]].
+      *[[http://www.dsc-player.de/|DSC - Your Digital Signage Solution]].
+        *[[http://www.facebook.com/pages/DSC-Your-digital-signage-solution/153187091416308|Facebook "DSC - Your Digital Signage Solution"]].
+  *[[http://www.mitsubishi-presentations.com/|Mitsubishi Electric Visual Solutions America, Inc.]].
+    *[[http://www.mitsubishi-presentations.com/digital-signage-monitor|Mitsubishi Electric Visual Solutions America, Inc. "Monitors - Digital Signage"]].
+      *[[http://www.mitsubishi-presentations.com/product-support/downloads/|Mitsubishi Electric Visual Solutions America, Inc. - Downloads]].
+        *Free download of the "Adfotain Manager Express Software" for Windows.
+        *Mitsubishi Digital Signage Player User Guides.
+          *"Mitsubishi Electric 480P Player" = "IAdea NMP-200U Media Player" ( no SMIL support ).
+          *"Mitsubishi Electric 720P Player" = "IAdea HMP-500S/505S" ( no SMIL support ).
+          *"Mitsubishi Electric 1080P Player" = "IAdea XMP-300/305 Full-HD Open API digital signage media player" ( with SMIL support ).
+          *[[http://www.mitsubishi-presentations.com/wp-content/files_mf/xmp320_xmp340_usermanual12.pdf|Mitsubishi Electric "IAdea XMP-320 User’s Manual"]].
+  *[[http://www.smartsign.se/|Smartsign]].
+    *[[http://www.smartsign.se/stage/en/smartsign-hardware-player.aspx|Smartsign Hardware Player]] with SMIL support.
+  *[[http://www.viewsonic.com/products/digital-signage/|Viewsonic - Digital Signage]].
+    *The player [[http://www.viewsonic.com/products/nmp550.htm|Viewsonic "NMP-550"]].
+      *"Supports a full range of media formats and SMIL-enabled applications".
+      *"IP-enabled and includes Signage Manager Express software so you can remotely control, schedule and manage multiple devices from virtually anywhere".
+    *The software [[http://www.viewsonic.com/products/signage-manager-express.htm|Viewsonic "Signage Manager Express"]] - "Offered on NMP-200, NMP-550 & CD1010 Commercial Display".
+    *[[http://www.zingersigns.com/Viewsonic-Signage-Manager-Express-Download_p_88.html|Zinger Digital Signs "ViewSonic Signage Manger Express"]] - free download.
+=== IAdea XMP-120, XMP-130 - Video Resolutions, selectable by Software ===
+XMP-120 and XMP-130 run the same firmware. The only hardware difference is the extra wireless Network Termination Controller ( NIC ) of the XMP-130.
+
+| |||
+| Video Resolution of XMP120, XMP130 |||
+^ 16:9 ^ 720p@60Hz Default setting | progressive scan ( non interlaced ) |
+^ 16:9 ^ 1360x768@60Hz ||
+^ 4:3 ^ 1024x768@60Hz ||
+^ Composite NTSC ^ ||
+^ Composite PAL  ^ ||
+^ ^ ||
+=== IAdea XMP-310, XMP-320, XMP-340 - Video Resolutions, selectable by Software ===
+| ||
+| Video Resolution of XMP310, XMP320, XMP340 ||
+^ 640x480@60Hz ^ 4:3 ratio |
+^ 800x600@60Hz ^ 4:3 ratio  |
+^ 1024x768@60Hz ^ 4:3 ratio  |
+^ 1280x1024@60Hz | 5:4 ratio  |
+^ 1600x1200@60Hz ^ 4:3 ratio  |
+^ 1440x900@60Hz | 16:10 ratio |
+^ 1360x768@60Hz ^ 16:9 ratio  |
+^ 1366x768@60Hz ^ 16:9 ratio  |
+^ 1680x1050@60Hz| 16:10 ratio  |
+^ 1920x1200@60Hz | 16:10 ratio  |
+^ 720p@50Hz | progressive scan ( non interlaced ) |
+^ 720p@60Hz | progressive scan ( non interlaced ) |
+^ 1080i@50Hz | interlaced |
+^ 1080i@60Hz | interlaced |
+^ 1080p@50Hz | progressive scan ( non interlaced ) |
+^ 1080p@60Hz | progressive scan ( non interlaced ) |
+^ | |
+
+=== Viewsonic NMP-550 - Video Resolutions, selectable by Software ===
+| ||
+| Video Resolution of NMP-550 ||
+^ 640x480@60Hz | 4:3 ratio |
+^ 800x600@60Hz | 4:3 ratio |
+^ 1024x768@60Hz | 4:3 ratio |
+^ 1280x1024@60Hz ^ 5:4 ratio|
+^ 1280x768@60Hz ^ 15:9 ratio |
+^ 1366x768@60Hz | 16:9 ratio |
+^ 1920x1080@60Hz | 16:9 ratio |
+^ SDTV 480i | interlaced |
+^ EDTV 480p | progressive scan ( non interlaced ) |
+^ HDTV 720p | progressive scan ( non interlaced ) |
+^ HDTV 1080i | interlaced |
+^ || 
+
+==== Advantech - The Hardware Platform ====
+=== Advantech  ===
+  *[[http://www.advantech.eu/|Advantech Co., Ltd]].
+    *[[http://www.advantech.nl/products/DSA-2130SA/mod_C9063D77-CAF6-4577-9D77-3EAEB57DC6CE.aspx|Advanced Digital Signage Player DSA-2130SA]].
+    *[[http://support.advantech.com.tw/Support/DownloadSearchByProduct.aspx?keyword=DSA-2130SA|Advanced Support & Download "DSA-2130SA"]].
+    *[[http://www.advantech.eu/applied-computing-systems/digital_signage/news.aspx?doc_id={5BF042D5-D568-460B-9D11-BB80B2B33E9|Advantech Co., Ltd. "Advantech Showcases Full Line-up of Digital Signage Solution at DSE '09"]] - "Advantech will launch a new RISC-based platform, DSA-2130, which uses the W3C defined, XML-based SMIL language".
+=== Advantech DSA-2130E - Video Resolutions, selectable by Software ===
+| ||
+| Video Resolution of Advantech DSA-2130E ||
+^ 4:3 ratio ^ 640x480 |
+^ ^ 800x600 |
+^ ^ 1024x768 |
+^ ^ 1280x1024 |
+^ 16:9 ratio ^ 1280x720 |
+^ ^ 1366x768 |
+^ ^ 1920x1080 |
+^ ^ |
+==== Media Management ====
+  *[[http://www.advantech.com/|Advantech Co., Ltd.]].
+    *The commercial software "Adfotain Manager Express" can be used to schedule and upload PowerPoint slides, music, videos, and images for playback to a Digital Signage player.
+    *[[http://www.advantech.com/products/Digital-Signage/sub_1-2JKFH2.aspx|Advantech Co., Ltd. "Products / Digital Signage & Self-Service / Digital Signage"]].
+    *[[http://www.advantech.com/applied-computing-systems/digital_signage/|Advantech Co., Ltd. "Products / Applied Computing & Embedded Systems / Digital Signage - Driving All Digital Content"]].
+      *[[http://www.advantech.com/applied-computing-systems/digital_signage/news.aspx?doc_id={B4187F6C-5DA7-46BF-93FE-82CFA9A8978|Advantech "The Launch of Advantech-Adfotain Central Digital Signage Management Platform"]], 2007-04-27.
+    *[[http://support.advantech.com/Support/SupportCategoryView.aspx?ID=1-2JKFH2|Advantech "Support Portal / Download / Digital Signage"]].
+    *[[http://www.adfotain.com/advantech/|Advantech Corporation]] - "Adfotain Manager Express" for use with IAdea devices.
+      *"Advantech Corporation and IAdea Corporation jointly announce the availability of the Adfotain Central Management Services on Advantech's reliable industrial digital signage platform".
+==== Vendors ====
+  *[[http://www.digitalsignage24.de/|NetZone Media GmbH -digital signage 24]].
+    *[[http://www.digitalsignage24.de/markenshop/iadea.html|NetZone Media GmbH - digital signage 24 "IAdea"]].
+    *[[http://www.digitalsignage24.de/catalogsearch/result/?q=SMIL|NetZone Media GmbH - digital signage 24 "SMIL"]].
+    *[[http://www.facebook.com/pages/DigitalSignage24de/214094311939241|Facebook "digitalsignage24.de"]].
+    *[[http://twitter.com/DiSi24|Twitter "DiSi24"]].
+  *[[http://www.amazon.com/s/ref=bl_sr_electronics?node=172282&field-brandtextbin=AIS|Amazon.COM "AIS"]], USA. -> "XMP-320", "XMP-330", "XMP-120".
+    *[[http://www.antonline.com/antonline.php?op=inventory&st=XMP-120|ANTOnline (Atlanta Network Technologies, Inc) "AIS XMP-120 IAdea Digital Signage Appliance"]].
+    *[[http://www.jr.com/ais-american-industrial-system/pe/AI2_XMP120/|J&R riders on the storm, since 1971 "AIS (American Industrial System) Digital Signage SaaS Companion. XMP120. XMP-120"]].
+    *[[http://www.jr.com/ais-american-industrial-system/pe/AI2_XMP130/|J&R riders on the storm, since 1971 "AIS (American Industrial System) Digital Signage SaaS Companion. XMP130. XMP-130"]].
+    *[[http://www.pcrush.com/product/Digital-Signage-Systems/675840/American-Industrial-System-XMP-120-Digital-Signage-Appliance|pCRUSH - Deals on Printers, Laptops, Computers & Electronics "American Industrial System XMP-120 Digital Signage Appliance"]], USA.
+  *[[http://www.cdw.com/shop/products/AIS-Digital-Signage-Player-IAdea-XMP-120-digital-signage-player/2238534.aspx|CDW "AIS Digital Signage Player IAdea XMP-120 - digital signage player"]], USA.
+  *[[http://www.costcentral.com/proddetail/AIS_Digital_Signage_Player_IAdea_XMP_120/XMP120/11235681/|CostCentral "AIS Digital Signage Player IAdea XMP-120"]].
+
+===== Digital Sigature Solutions Providers using / providing Open API Media Appliances & Open Standard Digital Signage Appliances, with SMIL Support =====
+  *[[http://www.42mediagroup.com/|42media services GmbH "42media group"]].
+    *[[http://oxygennext.com/|Oxygen.next]] - "Free Digital Signage Service".
+    *[[http://login.oxygennext.com|Oxygen.next - Login]].
+    *[[http://42mediagroup.com/blog/|42media group Blog]].
+      *[[http://42mediagroup.com/blog/?p=481|42media group Blog, article "'The good thing about standards is that there are so many to choose from' – Dr. Tanenbaum"]], 2010-06-08 - "And so we picked SMIL...".
+    *[[http://wiki.oxygennext.com/|Oxygen.next Wiki]].
+      *[[http://wiki.oxygennext.com/index.php/Oxygen_SMIL_Player|Oxygen.next Wiki "Oxygen SMIL Player"]].
+      *[[http://wiki.oxygennext.com/index.php/Compatible_Clients|Oxygen.next Wiki "Compatible Clients"]].
+    *[[http://www.youtube.com/42media|YouTube Channel "42media group Webcasts"]].
+      *[[http://www.youtube.com/watch?v=j3kBoe46-gE&feature=player_embedded|YouTube Channel "How-To: Anbindung des IAdea Digital Signboard an die Oxygen Media Platform"]].
+  *[[http://www.dimedis.de/|dimedis GmbH]] - "Digital Signage Software, Instore TV, Messelösungen, Besuchermanagement mit [[http://www.kompas-software.de/|kompas]] und FairMate".
+    *[[http://www.euroshop.de/cipp/md_euroshop/custom/pub/content,oid,9208/lang,1/ticket,g_u_e_s_t/local_lang,1/~/dimedis_und_Cup_Cino_pr%C3%A4sentieren_den_Digital_Coffee_Shop.html|EuroShop "dimedis und Cup&Cino präsentieren den Digital Coffee Shop"]], 2011-02-14 - "Eine heiße Neuheit sind die kompakten SMIL-Player mit einem 11'' Display, die in dieser Lösung Informationen zu den eingesetzen Kaffeesystemen offerieren".
+  *[[http://www.dynamaxworld.com/|Dynamax Technologies]].
+    *[[http://www.digitalsignage.net/|digitalsignage.NET by dynamax]] - "A subscription based software as a service ( SaaS ) service for all levels of digital signage".
+    *Blog [[http://www.digitalsignage.net/blog/|digitalsignage.NET by dynamax - Buzz / The Blog]].
+    *Blog archive [[http://www.digitalsignage.net/category/digital-signage/|digitalsignage.NET by dynamax - Archive for the 'Digital Signage' Category]].
+    *Blog article [[http://www.digitalsignage.net/2010/06/28/digitalsignage-net-now-supports-smil-devices/|digitalsignage.NET by dynamax - The Blog "digitalsignage.NET now supports SMIL devices"]].
+    *[[http://www.facebook.com/digitalsignage.NET|Facebook "digitalsignage.NET"]].
+  *[[http://www.haivision.com/products/CoolSign_Cool-Sign|Haivision Network Video - CoolSign]].
+    *[[http://www.haivision.com/products/coolsign|Haivision Network Video - CoolSign]].
+    *[[http://www.haivision.com/CoolSign_Promo|CoolSign Makito Promotion]].
+      *[[http://www.haivision.com/products/makito|Haivision Network Video "Makito"]] without SMIL support.
+      *[[http://www.haivision.com/products/furnace|Haivision Network Video "Furnace"]] without SMIL support.
+    *Blog article [[http://iadea.blogspot.com/2010/03/coolsigns-press-release-on-iadea.html|Digital Signage @IAdea "CoolSign's press release on IAdea"]], 2010-03-01.
+  *Hannover.
+    *[[http://www.xing.com/profile/Peter_Dombrowski|XING "Peter Dombrowski"]].
+      *[[http://twitter.com/peterdombrowski|Twitter "Peter Dombrowski"]].
+    *[[http://www.immlounge.de/|IMM Lounge UG haftungsbeschränkt]], [[http://www.smil-e.com/welcome/imprint|IMM Lounge UG haftungsbeschränkt]] ( postal address ), in the "Europahaus", 3.rd floor.
+      *[[http://www.zasumi.de/|Zasumi]].
+    *[[http://www.smil-e.com/|SMIL-e - Signage with a Smile]] - "A web service for SMIL Digital Signage applications. Create an account, activate SMIL-Device, upload content – ready is your Digital Signage project". "If you would like to administer your SMIL devices on SMIL-e, you will have to activate your devices. This costs 50 € per year and device".
+      *Blog [[http://blog.smil-e.com/|SMIL-e Blog]].
+    *[[http://www.dime.de/|D!ME Medientechnik GmbH]].
+  *[[http://www.remotemedia.co.uk/|Remote Media Ltd.]].
+    *[[http://www.signagelive.com/|Remote Media Ltd. - signagelive]].
+      *[[http://www.signagelive.com/index.php/signagelive-players-hardware/|Remote Media Ltd. - signagelive "Recommended Hardware"]].
+        *[[http://www.iadea.com/products/xmp-320.htm|IAdea Digital Signage "XMP-320 Full-HD Media Player Appliance"]] - SMIL support.
+        *[[http://www.advantech.de/products/search.aspx?keyword=ARK-DS303|Advantech Co., Ltd. "ARK-DS303"]] - No SMIL support.
+      *[[http://www.signagelive.com/index.php/2010/04/signagelive-running-on-mac-linux-and-smil-devices/|Remote Media Ltd. - signagelive "signagelive running on Mac, Linux and SMIL devices"]].
+      *[[http://www.youtube.com/user/signagelive|YouTube Channel "signagelive - digital signage"]].
+        *[[http://www.youtube.com/watch?v=qcAZEGmoSGA|YouTube "IAdea XDS-101 Digital Signboard running signagelive Virtual Player"]].
+      *[[http://twitter.com/signagelive|Twitter "signagelive"]].
+  *[[http://www.scala.com/|Scala, Inc.]].
+    *[[http://www.scala-software.de/|Scala, Inc. - Germany "Die Scala Komplettlösung für Connected-Signage-Netzwerke"]].
+    *[[http://www.scala.com/digital-signage-products/player/learn-more-about-player-hardware-options|Scala, Inc. "Scala Digital Signage Player Hardware Options"]] -> "HD Media Applicance" / "IAdea High Definition Appliances" are devices with SMIL support.
+      *The Scala Content Manager 5 does not natively support SMIL. The Scala platform supports SMIL devices by the optional "IAdea Bridge Server".
+      *[[http://www.iadea.com/article/scala-and-iadea-release-updated-platform-ise-2011|IAdea "Scala and IAdea to Release Updated Platform at ISE 2011"]] - "An exciting new feature in Bridge Server 2.5 is the support for interactive shelf-edge applications with IAdea’s latest 10-inch digital signboard XDS-104. Its built-in touch buttons send out event triggers that can be programmed via Scala Content Manager to facilitate simple data collection, as well as complex content navigation. In addition, Bridge Server 2.5 adds support for IAdea’s new 15-inch, 18.5-inch and 24-inch digital signboards — all-in-one integrated systems that combine displays with built-in media players. The highlight of new devices enabled by Bridge Server 2.5 is the XMP-340 media appliance".
+    *[[http://www.signchannel.com/|SignChannel by Scala - Low Cost Digital Signage]].
+      *[[http://www.scala.com/support/signchannel-by-scala/|Scala, Inc. "SignChannel Support"]].
+      *[[http://www.scala.com/digital-signage-products/signchannel|Scala, Inc. "SignChannel"]].
+      *[[http://www.signchannel.com/digital-signage-content|SignChannel by Scala - Low Cost Digital Signage "Rich Signage Content"]] - Contents integration of RSS feeds and by templates.
+    *YouTube.
+      *[[http://www.youtube.com/user/scala|YouTube Channel "Scala Digital Signage"]].
+      *[[http://www.youtube.com/watch?v=eaBjIeIpX-8|YouTube Channel "Scala Digital Signage", video "SignChannel — Low Cost Digital Signage"]].
+    *[[http://www.scala.com/news/2010-press-releases/april-29-2010-2013-scala-acquires-signchannel-from-thinking-screen-media|Scala "Scala Acquires SignChannel from Thinking Screen Media "]], 2010-04-29.
+      *Blog article [[http://www.dailydooh.com/archives/26421|DailyDOOH Blog "SignChannel A Good Deal 4 Scala?"]], 2010-29.
+      *[[http://invidis.mittelstandswiki.de/2010/05/scala-kauft-signchannel-von-thinking-screen-media/|invidis, MittelstandsWiki "Scala kauft SignChannel von Thinking Screen Media"]], 2010-05-03.
+  *[[http://www.smartsign.se/|Smartsign]].
+    *[[http://www.smartsign.se/stage/en/smartsign-display-manager2.aspx|Smartsign "Smartsign Display Manager"]] - Server-side management of SMIL devices.
+  *[[http://www.stinova.com/|Stinova Ltd. - Digital Signage]], [[http://www.digital-signage.cc/|Stinova Ltd. - Digital Signage]].
+    *[[http://www.smil.digital-signage.cc/|Stinova SMIL Software Portal]].
+      *[[http://www.smil.digital-signage.cc/index.php/de/smil-promo-kanal|Stinova SMIL Software Portal "Promo Kanäle für Evotion Live Content"]], [[http://www.evotion.com/index.php/de/promokanaele|Stinova Ltd. "evotion - The fine Art of Video creation", "Promo Kanäle für Evotion Live Content"]] -> SMIL sample files.
+    *The commercial [[http://www.stinova.com/index.php/de/produkte/dmpsw|Stinova Ltd. "DMP Software ( Player )"]].
+    *[[http://www.stinova.com/index.php/de/produkte/hw-plattformunterstuetzung|Stinova Ltd. "Hardwareplattform Unterstützung"]].
+    *The commercial service [[http://www.evotion.com/|Stinova Ltd. "Evotion - Video Content and Rendering Service"]].
+    *[[http://www.euroshop.de/cipp/md_euroshop/custom/pub/content,oid,9953/lang,1/ticket,g_u_e_s_t/~/Stinova_%C3%B6ffnet_neue_Horizonte_f%C3%BCr_SMIL_Digital_Signage_Player.html|EuroShop "Stinova öffnet neue Horizonte für SMIL Digital Signage Player"]], 2011-07-27.
+===== What's the Point to create a SMIL Player for Digital Sigature ? =====
+  *What's the point to create a SMIL player for digital sigature ?
+    -Check all video players.
+      -Video codecs.
+        -Can it play MPEG2 & MPEG4 videos ? Is it shipped with its own video codecs, or does it use system video codecs ?
+          -Linux: May it make use of video codecs by "Dependancies" ? 
+          -Windows: Is the player shipped with its own codecs, or does it make use of the codecs installed in the Windows operating system ? In the latter case, you might have to install a DVD player which allows to use its MPEG2 codec externally by third party applications.
+        -Can it play the MPEG2 & MPEG4 videos indeed that your customers supplied as samples ? Have a test.. 
+      -API.
+        -Source code available ? If so, in which programming languages is the sourcecode written 
+        -Does the player have a application programming interface ( API ) ? 
+        -Which programming languages are supported by the video player and optionally by the browser ( remember Apple disabled the Java interface for Quicktime, on MacOSX... ) ?
+      -Player behaviour.
+        -Can the player be started and started to play at start of operating system ? Windows: Does it start properly if it is stored / linked in the startup folder ?
+        -If there is no network access at start, may it play the last playlist stored on the device ? Alternatively, can it wait for network access ? -> loose coupling.
+        -If there is no network access at startup, but some time later later, can it be instructed to load a new playlist from network, then ? -> loose coupling.
+        -Time scheduling: Playing a contents for X minutes, playing contents at a certain time, for a certain time of day / week / month / year?
+        -Does the player support configuration and start commands by "command line" commands ? Are there sufficient "command line" commands for automatic operation, for the dedicated purposes ? E.g. "Get a playlist from an URL at start and play it".
+        -How to start the player in fullscreen mode ? 
+        -If it is a video player, can it play other contents ( images, text ) in its player window, too ? 
+        -Can you assign a unique user ID to a dedicated player which is passsed as [[http://en.wikipedia.org/wiki/User_agent|User Agent ID]] when accessing a digital signage contents server ?
+        -Can the player share its window with other contents, like in a browser window ? 
+        -Does it support multi-layer dislays, i.e. can a graphics or text cover a video running in the background, and vice versa ?
+  *Creation.
+    -Concentrate on running videos. So running a video ist the first milestone / quality gate, nothing which is kept in the product backlog for the end of the project or even after the project is closed.
+    -Create a minimalistic SMIL interface, in a programming language supported by the API of the player so that the device can play videos in the same player window as all other SMIL media ( graphics / pictures / photos, text ) is played. 
+    -Xtreme programming approach is welcome ( estimte what features cost you what time for implementation,.. ask your customer about priorities of features,.. ).
+    -Do the rest that the customer wants...
+  *Reasons.
+    -Nobody wants to create contents in a contents management system, nor in a player. Contents is created by professionals using their professional tools, and then exported as video or graphics.
+    -The customers does not just wants to play videos, but the customer also wants to have "animated still pictures", as this makes a slideshow much more interesting for the viewer ( the customer of the customer, at the point of sale where digital signage is used ). 
+    -The customer wants the solution very quicky, and does not want to pay for the implementation of features not used in the show at the point of sale, finally.
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Data_Formats/Markup_Languages/SMIL/|OpenDirectory "Computers: Data Formats: Markup Languages: SMIL"]].
+{{tag>"Digital Signage" "Digital Signage Software as a Service" "Digital Signage SaaS" SaaS signage "Public Display" "Synchronized Multimedia Integration Language" SMIL "open API media appliances" "open standard digital signage appliances" "Out-of-Home Advertising" "Out of Home" OOH "Digital Out Of Home" DOOH Out-of-Home-Media "Out of Home Media" vooh "virtual out-of-home" Hannover Bielefeld}}
+<footnote_navi_en>

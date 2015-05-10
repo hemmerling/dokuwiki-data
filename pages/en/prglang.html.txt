@@ -1,0 +1,145 @@
+====== [hemmerling] Programming Languages, Platforms and Runtimes ======
+===== ADA =====
+  *[[http://www.adacore.com/|AdaCore]] - "GNAT" Ada compiler.
+    *Download of the free version of GNAT 3.11p for  Windows, Linux.
+      *[[http://www.mirrorservice.org/sites/ftp.cs.nyu.edu/pub/gnat/README.LAST|README.LAST]] - list of mirrors.
+      *[[ftp://ftp.cs.kuleuven.ac.be/pub/Ada-Belgium/mirrors/gnu-ada/|ftp archive "GNAT 3.11p"]], [[ftp://ftp.informatik.rwth-aachen.de/pub/mirror/cs.nyu.edu/pub/gnat/|ftp archive "GNAT 3.11p"]].
+===== ALGOL 68 =====
+  *[[http://en.wikipedia.org/wiki/Algol_68|EN.Wikipedia "Algol 68"]], [[http://de.wikipedia.org/wiki/Algol_68|DE.Wikipedia "Algol 68"]].
+===== BASIC =====
+  *Xojo ( formerly REAL BASIC ), see section "Commercial Cross-Platform Development Systems".
+===== COBOL =====
+  *[[http://www.freebyte.com/programming/cobol/|Freebyte's Guide to... Free COBOL Programming]].
+  *[[http://www.cobolinfo.de/|Initiative COBOL]].
+  *The free compiler "Fujitsu PowerCOBOL V3.0 L10" for Windows.
+    *[[http://www.netcobol.com/download/v3starter/register.htm|Alchemy Solutions / NetCOBOL - "Fujitsu COBOL V3 Registration"]].
+      *"Fujitsu used to provide an early version (V3) of their COBOL compiler for free. It worked well but didn't have many features that were introduced in later versions so it didn't threaten sales for business use. That version, created in the early '90s, no longer works on today's computers and versions of Windows and is no longer supported. It has not made sense to offer more recent versions in this way".
+   *Staff members of "Klaus Bodenbach Unternehmens- und IS-Beratungs GmbH" hold COBOL courses at Fachhochschule Hannover, University of Applied Sciences and Arts, regularly, in the 1990th and 2000th. I passed such a course in Summer 2005.
+     *[[http://web.archive.org/web/*/http://www.kbu-gmbh.de|Archive.org "kbu-gmbh.de"]] ( - 2006-12-05 ).
+===== FORTRAN =====
+==== Tools ====
+  *The OpenSource FORTRAN compiler [[http://www.g95.org/|G95]] for Linux and Windows.
+  *WATCOM.
+    *[[http://www.openwatcom.org/|Open Watcom]] - The OpenSource "Open Watcom Fortran" for DOS, Windows, OS/2, Linux.
+    *Open Watcom V2 Fork ( [[http://openwatcom.sourceforge.net/|SourceForge "open-watcom"]], [[http://www.sourceforge.net/projects/openwatcom/|SourceForge "open-watcom - Open Watcom C/C++ compilers and tools Fork"]], [[http://www.github.com/open-watcom|GitHub "open-watcom"]], [[http://open-watcom.github.io/open-watcom/|GitHub.io "open-watcom"]] ).
+  *[[http://www.silverfrost.com/32/ftn95/ftn95_personal_edition.aspx|Silverfrost Limited "FTN95 Personal Edition"]] - "Silverfrost FTN95 can now be used free for personal use. It is strictly for personal use or evaluation purposes".
+==== Resources ====
+  *[[http://www.fortranwiki.org/|Fortran Wiki]].
+    *[[http://www,fortranwiki.org/fortran/show/faq|Fortran Wiki "FAQ"]].
+  *[[http://www.thefreecountry.com/compilers/fortran.shtml|thefreecountry.com "Free Fortran Compilers"]].
+===== Go / Golang =====
+==== The Language ====
+  *[[http://www.golang.org/|The Go Programming Language]].
+    *[[http://www.golang.org/doc/effective_go.html|The Go Programming Language "Effective Go"]] - The Go language manual.
+    *The free online IDE and online compiler for Go programming [[http://tour.golang.org/|The Go Programming Language "A Tour of Go"]].
+    *Blog [[http://blog.golang.org/|The Go Blog]].
+  *[[http://www.youtube.com/user/gocoding|YouTube "The Go Programming Language"]].
+  *[[http://www.twitter.com/golang|Twitter "Go"]].
+  *Wiki [[http://code.google.com/p/go-wiki/|Google Code "go-wiki. Go Language Community Wiki"]].
+==== Experts ====
+  *[[http://www.teale.de/|Geoffrey Teale]], [[http://www.xing.com/profile/Geoffrey_Teale|XING "Geoffrey Teale"]], [[http://de.linkedin.com/in/geoffteale|LinkedIn "Geoffrey Teale"]], [[http://www.twitter.com/tealeg|Twitter "Geoffrey J. Teale, @tealeg"]] - Ubuntu team member & "Golang" expert.
+
+==== Resources ====
+  *[[http://stackoverflow.com/questions/tagged/go|Stack Overflow, Tagged Questions "Go"]].
+  *[[http://en.wikipedia.org/wiki/Go_%28programming_language%29|EN.Wikipedia "Go (programming language)"]], [[http://de.wikipedia.org/wiki/Go_%28Programmiersprache%29|DE.Wikipedia "Go (Programmiersprache)"]].
+===== Prolog =====
+  *The free [[http://www.swi-prolog.org/|SWI-Prolog]] for Win, Linux, MacOSX.
+  *[[http://www.openshore.org/|OpenSHORE]], [[http://openshore.sourceforge.net/|SourceForge "OpenSHORE"]], [[http://www,sourceforge.net/projects/openshore/|SourceForge "OpenSHORE"]] - "Semantic Hypertext Object Repository".
+    *"An XML based Semantic Document Repository (SDR) with a free definable meta model that builds up a semantic network from sections and relations in documents".
+    *[[http://freshmeat.net/projects/openshore/|freshmeat "OpenSHORE"]] - "The repository uses PROLOG as its query language".
+===== Rust =====
+  *[[http://www.rust-lang.org/|The Rust Programming Language]] - "A systems programming language that runs blazingly fast, prevents almost all crashes*, and eliminates data races".
+  *[[http://en.wikipedia.org/wiki/Rust_%28programming_language%29|EN.Wikipedia "Rust (programming language)"]].
+
+===== SPARK =====
+  *[[http://www.altran-praxis.com/spark.aspx|Altran Praxis "SPARK"]] - "SPARK is a programming language and a set of software development products for high assurance software. The SPARK programming language is the only language specifically designed to support the development of safety or security critical software. In combination with the SPARK toolset, SPARK prevents, detects and eliminates defects early in the lifecycle as the source code is developed. It is, effectively, the result of applying the principles of Correctness by Construction to the design of a programming language and associated verification tools".
+  *Book [[http://www.amazon.co.uk/exec/obidos/ASIN/0321136160/hemmerling-21|John Barnes: "High Integrity Software: The SPARK Approach"]].
+===== Commercial Cross-Platform Development Systems =====
+  *[[http://www.adobe.com/products/air/|Adobe AIR]], [[http://www.adobe.com/de/products/air/|Adobe AIR]].
+    *[[http://EN.wikipedia.org/wiki/Adobe_Integrated_Runtime|EN.Wikipedia "Adobe Integrated Runtime"]], [[http://de.wikipedia.org/wiki/Adobe_Integrated_Runtime|DE.Wikipedia "Adobe Integrated Runtime"]].
+  *[[http://www.adobe.com/products/flex/|Adobe Flex]] - "A highly productive, free, open source framework for building expressive web applications that deploy consistently on all major browsers, desktops, and operating systems by leveraging the Adobe Flash Player and Adobe AIR runtimes".
+    *[[http://en.wikipedia.org/wiki/Adobe_Flex|EN.Wikipedia "Adobe Flex"]].
+    *[[http://learn.adobe.com/wiki/display/Flex/|Adobe Learning Resources "Adobe Flex Builder 3 - Getting Started"]].
+  *[[http://www.haxe.org/|Haxe - The Cross-platform Toolkit]] - "Haxe is an open source toolkit based on a modern, high level, strictly typed programming language, a cross-compiler, a complete cross-platform standard library and ways to access each platform's native capabilities".
+    *[[http://www.github.com/HaxeFoundation/|GigHub "Haxe Foundation"]].
+    *Blog [[http://www.haxe.io/|Haxe.io — News And Information For Haxe Developers]].
+    *[[http://www.twitter.com/haxelang|Twitter "Haxe, @haxelang. Official Haxe Feed"]], [[http://www.twitter.com/haxe_org|Twitter "Haxe Foundation"]].
+    *[[http://en.wikipedia.org/wiki/Haxe|EN.Wikipedia "Haxe"]], [[http://de.wikipedia.org/wiki/Haxe_%28Programmiersprache%29|DE.Wikipedia "Haxe (Programmiersprache)"]].
+  *[[http://www.runrev.com/|RunRev LiveCode]] cross development system, for Win, Linux, MacOSX, iOS, Android. 
+    *[[http://livecodeshare.runrev.com/|LiveCode Share]] - "Share, teach, learn, experiment, collaborate".
+    *Blog [[http://livecode1001.blogspot.de/|1001 things to do with LiveCode]].
+    *[[http://www.facebook.com/RunRev|Facebook "RunRev"]].
+    *[[http://plus.google.com/101401857653951008507|Google+ "LiveCode on Google +"]].
+    *[[http://www.twitter.com/runrev|Twitter "RunRev"]].
+    *2 editions:
+      *Community Edition Start building apps quickly, easily and FREE!
+      *Commercial Edition. Distribute your apps.
+    *As of 2013-12, LiveCode 6.5 does not install from Windows network drives, by the error message "Could not launch  installer slave" :-(.
+  *Xamarin -> See [[dotnet.html|Microsoft .NET Framework 1/3]].
+  *The commercial [[http://www.realsoftware.com/|Xojo, Inc. "Xojo"]].
+    *[[http://www.facebook.com/goxojo|Facebook "Xojo"]].
+    *[[http://plus.google.com/112353546922917725216|Google+ "Xojo"]].
+    *[[http://www.twitter.com/xojo|Twitter "Xojo"]].
+    *For Win, Linux, MacOSX and soon iOS.
+    *Formerly: IDE "REAL Studio", with programming language "REAL BASIC" :-).
+===== Visual Programming Languages =====
+==== Tools ====
+  *The free [[http://www.sanscript.net/|Northwoods Software "Sanscript"]] - "A visual dataflow programming language and development environment".
+  *The free [[http://www.taylor-design.com/datalink/|Taylor Design "DataLink - The Prograph Pages"]].
+  *The OpenSource [[http://www.dei.brain.riken.jp/~emilia/Collaboration/Tino/TiViPE/|Tino Lourens "TiViPE - Tino's Visual Programming Environment"]].
+==== Resources ====
+  *[[http://www.dmoz.org/Computers/Programming/Languages/Visual/|Open Directory "Top: Computers: Programming: Languages: Visual"]].
+  *[[http://discuss.fogcreek.com/joelonsoftware1/default.asp?cmd=show&ixPost=1993&ixReplies=15|fog creek software "The Old Joel on Software Forum: Part 1 (of 5) - Coding, visually?"]].
+===== Education =====
+  *[[http://www.it-designers.de/|IT-Designers GmbH "Publikationen / Skripte"]].
+      *XML.
+      *LaTeX Grundlagen.
+      *C# Skript und Übungen.
+      *C++ Ferienkurs 2005.
+      *C++ Fortgeschrittenen-Kurs Teil 1.
+      *C++ Fortgeschrittenen-Kurs Teil 2.
+      *System-Architekturen mit .NET - Alle Unterlagen.
+      *System-Architekturen mit .NET - Wesentliche Unterlagen.
+      *e-commerce.
+      *Realzeitsysteme - PEARL POSIX.4 LE/O - LYNXOS EMULATED OSEK.
+      *Einführung in die Programmierung mit Pascal - Skript.
+      *Einführung in die Programmierung mit Pascal - Folien.
+      *Einführung in die Programmierung mit Pascal - Übungen.
+      *Das OSEK-Betriebssystem Ercosek.
+      *Design Patterns.
+      *Einführung in die Windows-Programmierung mit MFC.
+      *Netzmanagement.
+      *Corba.
+      *C++ - Grundkurs.
+      *Smalltalk für Anfänger.
+      *Datenbank-Seminar.
+      *Einführung in die Systemprogrammierung unter UNIX.
+      *Einführung in das ISO/OSI-Schichtenmodell für die Kommunikation in offenen Systemen.
+  *[[http://www.w3schools.com/|w3schools - the world's largest web development site. educate yourself! beginners and experts]].
+===== Resources =====
+  *[[http://www.deitel.com/|Deitel & Associates, Inc.]].
+    *[[http://www.deitel.com/ResourceCenters/ViewCompleteResourceCenterList/tabid/56/Default.aspx|Deitel & Associates, Inc. - Resource Centers]].
+  *[[http://www.ometer.com/desktop-language.html|Havoc Pennington "Java, Mono, or C++?]], 2004-03-16.
+  *[[http://www.stackoverflow.com/questions/194812/list-of-freely-available-programming-books|Stack Overflow "List of freely available programming books"]].
+  *[[http://en.wikipedia.org/wiki/List_of_compilers|EN.Wikipedia "List of compilers"]].
+===== Forums, Newsgroups =====
+  *[[http://www.facebook.com/golang.nuts|Facebook "Go Language"]].
+  *[[http://www.fortranwiki.org/fortran/show/comp.lang.fortran|Fortran Wiki "comp.lang.fortran"]].
+  *Google.
+    *[[http://plus.google.com/communities/109731058120269230218|Google+ Community "LiveCode Developers"]].
+    *[[http://plus.google.com/communities/103302587329918132234|Google+ Community "Haxe. There's a macro for that"]].
+    *[[http://plus.google.com/+golang/videos|Google+ "The Go Programming Language"]].
+    *[[http://groups.google.com/group/haxelang|Google Groups "Haxe"]].
+    *[[http://groups.google.com/group/comp.lang.fortran|Google Groups "comp.lang.fortran"]].
+  *[[http://www.cobolinfo.de/tbb/|Initiative COBOL - Forum]].
+  *[[http://forums.runrev.com/phpBB2/|RunRev Revolution Forums]].
+  *[[http://www.stackoverflow.com/questions/tagged/livecode|Stack Overflow Tagged Questions "livecode"]].
+  *Xoxo:
+    *[[http://forum.xojo.com/|Xoxo Forums]].
+    *<del>[[http://forums.realsoftware.com/|REAL Software Forum]]</del>.
+      -<del>"Our forums are only accessible to our customers. Please create an account on our [[http://www.realsoftware.com/|main website]] first"</del>.
+      -<del>"Our forums are only accessible to our customers. Consider trying a demo of one of our products"</del>.
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Programming/Languages/|OpenDirectory "Top: Computers: Programming: Languages"]].
+{{tag>"Programming Languages" "Programming Language" Platforms Platform Runtimes Runtime}}
+<footnote_navi_en>

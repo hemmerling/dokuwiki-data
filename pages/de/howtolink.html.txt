@@ -1,0 +1,29 @@
+====== [hemmerling] Wie können Sie ganz einfach einen Link auf meine Website setzen ? ======
+===== 1 Reiner Text-Link =====
+==== Code ====
+<code><A href="http://www.hemmerling.com/" target="_blank">hemmerling - Quality Intensification for IT + Automation</A></code>
+==== Beispiel ====
+  -<HTML><A href="http://www.hemmerling.com/" target="_blank">hemmerling - Quality Intensification for IT + Automation</A></HTML>
+  -[[http://www.hemmerling.com/|hemmerling - Quality Intensification for IT + Automation]].
+===== 2 Skalierbarer Banner-Link, ohne Leerraum ( 100x27, 200x54,... 800x216 ) =====
+==== Code ====
+<code><A href="http://www.hemmerling.com/" target="_blank"><IMG src="../../wikidata/media/banners/hemmerling_2logo800x600.png" width="200" height="54" alt="hemmerling - Quality Intensification for IT + Automation"></A></code>
+==== Beispiel ====
+  -<HTML><A href="http://www.hemmerling.com/" target="_blank"><IMG src="../../wikidata/media/banners/hemmerling_logo800x216.png" width="200" height="54" alt="hemmerling - Quality Intensification for IT + Automation"></A></HTML>
+  -{{:banners:hemmerling_logo800x216.png?200|hemmerling - Quality Intensification for IT + Automation}}
+===== 3 Skalierbarer Banner-Link, ohne Leerraum ( 100x75, 200x150,... 800x600 )=====
+==== Code ====
+<code><A href="http://www.hemmerling.com/" target="_blank"><IMG src="../../wikidata/media/banners/hemmerling_logo800x600.png" width="200" height="150" alt="hemmerling - Quality Intensification for IT + Automation"></A></code>
+==== Beispiel ====
+  -<HTML><A href="http://www.hemmerling.com/" target="_blank"><IMG src="../../wikidata/media/banners/hemmerling_logo800x600.png" width="200" height="150" alt="hemmerling - Quality Intensification for IT + Automation"></A></HTML>
+  -{{:banners:hemmerling_logo800x600.png?200|hemmerling - Quality Intensification for IT + Automation}}
+===== 4. Facebook Badge =====
+  *<HTML><a href='http://www.picbadges.com/dipl-ing-fh-rolf-hemmerling/1428305/' class='pbwdgt'></a><script type="text/javascript">var _pbwid=1428305; var _pbwt=2</script>
+<script type="text/javascript" src="http://www.picbadges.com/w/widget.js"></script></HTML>
+
+<footnote_navi_de>
+
+Dieses Dokument ist auch auf [[en:howtolink.html|{{flags:uk.png|British englisch}}]] [[en:howtolink.html|{{flags:us.png|US englisch}}]] verfügbar ! 
+
+{{tag>Referer Banner Link "Text-Link" "Banner-Link" "Wie man einen Link hierher setzt" "Wie man einen Link auf diese Website setzt"}}
+<footnote_navi_en>

@@ -1,0 +1,59 @@
+====== [hemmerling] Software Code & Software Algorithms ======
+
+===== Callback Function, Function Pointers =====
+  *[[http://en.wikipedia.org/wiki/Callback_%28computer_science%29|EN.Wikipedia.org "Callback (computer science)"]], [[http://de.wikipedia.org/wiki/R%C3%BCckruffunktion|DE.Wikipedia.org "Rückruffunktion"]].
+  *[[http://en.wikipedia.org/wiki/Function_object|EN.Wikipedia.org "Function object"]].
+  *[[http://www.newty.de/fpt/functor.html|Lars Haendel "The Function Pointer Tutorial"]].
+  *[[http://www.sgi.com/tech/stl/functors.html|sgi "Function Objects"]].
+  *[[http://www.mbernstein.de/atari/prog/kurse/c-kurs/0a08.htm|Michael Bernstein "Funktionspointer"]].
+===== Callback and Closure =====
+==== Resources ====
+  *[[http://en.wikipedia.org/wiki/Closure_%28computer_science%29|EN.Wikipedia "Closure (computer science)"]], [[http://de.wikipedia.org/wiki/Closure|EN.Wikipedia "Closure"]].
+  *[[http://www.gnu.org/software/guile/manual/html_node/About-Closure.html|Guile Reference Manual "About Closure"]].
+==== Callback and Closure in Javascript ====
+  *[[http://stackoverflow.com/questions/2070275/javascript-closures-and-callbacks|Stack Overflow "Javascript: Closures and Callbacks"]].
+  *[[http://stackoverflow.com/questions/1095707/what-is-the-exact-definition-of-a-closure|Stack Overflow "What is the exact definition of a closure?"]].
+  *[[http://stackoverflow.com/questions/111102/how-do-javascript-closures-work|Stack Overflow "How do JavaScript closures work?"]].
+  *[[http://stackoverflow.com/questions/2055641/can-you-say-this-is-a-right-example-of-javascript-closure-where-the-places-we|Stack Overflow "can you say this is a right example of Javascript Closure.. Where the places we need to consider avoiding the closures?"]].
+  *[[http://stackoverflow.com/questions/631187/javascript-scope-and-closure|Stack Overflow "JavaScript scope and closure"]];
+  *[[http://stackoverflow.com/questions/346015/javascript-closures-and-this-context|Stack Overflow "Javascript Closures and 'this' context"]].
+  *[[http://stackoverflow.com/questions/212401/javascript-how-do-i-learn-about-closures-usage|Stack Overflow "JavaScript - How do I learn about 'closures' usage?"]].
+  *[[http://stackoverflow.com/questions/615907/how-is-a-closure-different-from-a-callback|Stack Overflow "How is a closure different from a callback?"]].
+  *[[http://www.javascriptkit.com/javatutors/closures2.shtml|JavaScript Kit "More closure examples"]].
+  *[[http://www.jibbering.com/faq/notes/closures/|Jibbering "Javascript Closures"]].
+===== Control Theory =====
+  *[[http://en.wikipedia.org/wiki/Vector_control_%28motor%29|EN.Wikipedia "Vector control (motor)"]], [[http://de.wikipedia.org/wiki/Vektorregelung|DE.Wikipedia "Vektorregelung"]] = "Feldorientierte Regelung".
+===== CORDIC ( COordinate Rotation DIgital Computer ) =====
+  *[[http://en.wikipedia.org/wiki/CORDIC|EN.Wikipedia "CORDIC"]], [[http://de.wikipedia.org/wiki/CORDIC|DE.Wikipedia "CORDIC"]].
+===== Dependency Injection =====
+  *[[http://en.wikipedia.org/wiki/Dependency_injection|EN.Wikipedia "Dependency injection"]], [[http://de.wikipedia.org/wiki/Dependency_Injection|DE.Wikipedia "Dependency Injection"]].
+===== Dijkstra's Algorithm =====
+  *[[http://en.wikipedia.org/wiki/Dijkstra%27s_algorithm|EN.Wikipedia "Dijkstra's algorithm"]], [[http://de.wikipedia.org/wiki/Dijkstra-Algorithmus|DE.Wikipedia "Dijkstra-Algorithmus"]] - "Graph search algorithm that solves the single-source shortest path problem for a graph with non-negative edge path costs".
+===== Hash Table / Hash Map =====
+  *[[http://en.wikipedia.org/wiki/Hash_table|EN.Wikipedia "Hash table"]], [[http://de.wikipedia.org/wiki/Hashtabelle|DE.Wikipedia "Hashtabelle"]].
+===== Lambda Expressions =====
+  *[[http://en.wikipedia.org/wiki/Anonymous_function|EN.Wikipedia "Anonymous function"]], [[http://de.wikipedia.org/wiki/Anonyme_Funktion|EN.Wikipedia "Anonyme Funktion"]].
+===== The new Personalausweis (2010 -) =====
+  *[[http://www.ausweisapp.bund.de/|BSI: Der neue Personalausweis - Startseite AusweisApp-Portal]].
+===== Legacy Personalausweis (- 2009) =====
+  *[[http://www.brandtcomputer.de/perso/|brandtcomputer.de "Personalausweis entschlüsselt"]].
+  *[[http://web.archive.org/web/*/http://www.ggrz-hagen.nrw.de/persausw.htm|Archive.org "Gemeinsames Gebietsrechenzentrum Hagen -  Personalausweis auf Gültigkeit prüfen"]].
+  *[[http://web.archive.org/web/*/http://puetsch.de.vu/perso.html|Archive.org "Felix Pütsch - Personalausweis"]].
+===== Volatile Variables =====
+  *[[http://www.avrfreaks.net/index.php?name=PNphpBB2&file=viewtopic&t=97382|AVR Freaks Forum "[TUT][C]Optimization and the importance of volatile in GCC"]].
+===== Literature =====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0073523402/hemmerling-21|Sanjoy Dasgupta, Christos H. Papadimitriou, Umesh Vazirani "Algorithms"]].
+    *[[http://www.cs.berkeley.edu/~vazirani/|Umesh V. Vazirani]].
+      *[[http://www.cs.berkeley.edu/~vazirani/algorithms/all.pdf‎|S. Dasgupta, C. H. Papadimitriou, and U. V. Vazirani "Algorithms"]] ( PDF ).
+  *"Numerical Recipes".
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0521880688/hemmerling-21|William H. Press, Saul A. Teukolsky, William T. Vetterling, Brian P. Flannery: "Numerical Recipes with Source Code CD-ROM 3rd Edition: The Art of Scientific Computing"]] -> C++ code.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/818561816X/hemmerling-21|William H. Press, Saul A. Teukolsky, William T. Vetterling, Brian P. Flannery: "Numerical Recipes in C. Second Edition"]].
+      *CD-ROM [[http://www.amazon.de/exec/obidos/ASIN/0521750377/hemmerling-21|William H. Press, Saul A. Teukolsky, William T. Vetterling, Brian P. Flannery: "Numerical Recipes in C, 1 CD-ROM"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0521375169/hemmerling-21|William H. Press, Saul A. Teukolsky, William T. Vetterling, Brian P. Flannery: "Numerical Recipes in Pascal. First Edition"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/052143064X/hemmerling-21|William H. Press, Saul A. Teukolsky, William T. Vetterling, Brian P. Flannery: "Numerical Recipes in FORTRAN. Second Edition"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0521406897/hemmerling-21|William H. Press, Saul A. Teukolsky, William T. Vetterling, Brian P. Flannery: "Numerical Recipes in BASIC. First Edition"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/2100039229/hemmerling-21|Thomas Cormen, Charles Leiserson, Ronald Rivest, Clifford Stein "INTRODUCTION À L’ALGORITHMIQUE. Cours et exercices"]].
+    *[[http://www.cours-ntic.com/livre-algorithmique/|Cours NTIC "livre Algorithmique"]] - free PDF "Thomas Cormen, Charles Leiserson, Ronald Rivest, Clifford Stein: INTRODUCTION À L’ALGORITHMIQUE. Cours et exercices".
+  *[[http://en.wikibooks.org/wiki/Algorithms|Wikibook "Algorithms"]].
+{{tag>"Software Code" "Software Algorithm" "Software Algorithms" "volatile variables" volatile}}
+<footnote_navi_en>

@@ -1,0 +1,153 @@
+====== [hemmerling] Atmel AVR32 ======
+Related pages:
+  *[[atmel.html|The Atmel AVR Family with Focus on AVR32, ATxmega, ATmega, ATtiny and the Arduino / Freeduino Platform]].
+  *[[atmega.html|Atmel ATmega, ATtiny, AT90 & ATmega on the Arduino / Freeduino Platform]].
+  *[[arduino.html|The Arduino / Freeduino Platform with Atmel ATmega, Microchip PIC, ARM, Freescale Coldfire]].
+  *[[atxmega.html|Atmel ATxmega ( "XMEGA" )]].
+  *[[avrhowto.html|How to develop with Atmel AVR Microcontrollers]].
+===== The Hardware Platform "Atmel AT32UC3C-EK" =====
+  *[[http://www.atmel.com/uc3c-ek|Atmel UC3C-EK]], [[http://store.atmel.com/PartDetail.aspx?q=p:10500191|Atmel AT32UC3C-EK (AT32UC3C-EK)]] with [[http://www.atmel.com/dyn/products/product_card.asp?PN=AT32UC3C0512C&source=adis|AT32UC3C0512C]] ( 512 KBytes Flash, 68 Kbytes SRAM, no EEPROM ).
+    *[[http://www.atmel.com/Images/doc32117.pdf|32-bit AVR Microcontroller AT32UC3C0512C]] ( PDF ).
+      *Features:
+        *"One 2-channel Controller Area Network (CAN). CAN2A and CAN2B protocol compliant, with high-level mailbox system".
+    *The board provides CAN-bus High-Speed interfaces.
+      *According to the [[http://www.atmel.com/Images/at32uc3c_ek_schematics_rev2.pdf|Atmel Corporation "Atmel AT32UC3C-EK Schematics"]] ( PDF ), the board is equipped with 2 items of the [[http://www.atmel.com/Images/doc4582.pdf|High-speed Can Transceiver ATA6660]]. The ATA6600 specification claims that the chip is a "High-speed Can Transceiver" and is "Fully Compatible with ISO 11898".
+  *[[http://store.atmel.com/PartDetail.aspx?q=p:10500149;c:100116|Atmel ATAVRMC300 (ATAVRMC300)]] - "General-purpose power stage board able to drive brushless DC, brushed DC and stepper motors".
+    *The free software [[http://www.atmel.com/dyn/products/tools_card.asp?tool_id=4170|Atmel Motor Control Center (MCC)]].
+  *[[http://store.atmel.com/PartDetail.aspx?q=p:10500252|Atmel EXTBT BLUETOOTH (ATEXTBT)]].
+  *[[http://www.atmel.no/webdoc/|ATMEL AVR Tools User Guides]].
+    *[[http://www.atmel.no/webdoc/uc3cek/uc3cek.html|ATMEL AVR Tools User Guides "UC3C-EK User Guide"]].
+  *Valuable documents, I don´t know any official download at Atmel.
+    *"AVR32 UC3B Hands-on 01: Using Low-Level Drivers of the UC3B Software Framework" ( PDF ).
+    *"AVR32 UC3B Hands-on 02: Building a USB HID Mouse Device with the UC3B Software Framework" ( PDF ).
+    *"AVR32 Studio Hands-on 01: Setting-up an Application" for EVK1100 ( PDF ).
+    *"AVR32 Studio Tutorial. AVR32 UC3 EVK1100 Control Panel Tutorial" ( PDF ).
+    *"AVR8000B: ASF Getting started" ( PDF ).
+    *"AVR8004: AT32UC3C ADC DAC CAN Hands-on" ( PDF ).
+    *"AVR8012: Sensor From Scratch UC3L" ( PDF ).
+  *[[http://www.avrfreaks.net/index.php?module=FreaksArticles&func=viewArticles|AVR Freaks "AVRFreaks's Articles"]].
+    *Document "MIke Blenderman: CAN on the AVR" ( PDF ), 1999-11-30.
+===== The eLua Hardware Platform "Mizar32" =====
+==== Hardware ====
+  *[[http://www.simplemachines.it/|simplemachines.it]].
+  *[[http://code.google.com/p/mizar32/|Google code "mizar32"]] - "An AVR32 based, Stacked Multi Board Computer for embedded applications - [[http://www.simplemachines.it/|www.simplemachines.it]]".
+  *Online shop [[http://www.4star.it/index.php?option=com_virtuemart&page=shop.browse&category_id=28&Itemid=11&TreeId=1|4Star "Mizar32"]].
+  *[[http://wiki.eluaproject.net/Mizar32|eLua Wiki "Mizar32"]].
+  *Blog [[http://mizar32.blogspot.com/|Blogger "Mizar32 - What's New"]].
+==== Software ====
+  *See [[lua.html|Lua & eLua]].
+===== AVR Studio 5 - Sample Projects for AVR32 =====
+  *[[http://asf.atmel.com/docs/latest/|ASF Source Code Documentation - Latest]].
+  *Sample projects for "Atmel AT32UC3C-EK".
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/drivers/acifa/example/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation  "ACIFA Example for UC3C_EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/drivers/adcifa/example1/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation  "ADCIFA Example 1 for UC3C_EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/drivers/ast/example1/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "AST Example 1 for UC3C_EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/drivers/ast/example2/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "AST Example 2 for UC3C_EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/components/touch/at42qt1060/example/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "AT42QT1060 Example for UC3C_EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/components/memory/data_flash/at45dbx/unit_tests/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "AT45DBX DataFlash unit tests for AT32UC3C-EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/services/usb/class/dfu_flip/device/bootloader/avr32/at32uc3c/doxygen/html/|Atmel Corporation "AT32UC3C DFU Bootloader"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/services/network/can/example1/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "CAN Stack Example 1 for UC3C-EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/services/network/can/example2/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "CAN Stack Example 2 for UC3C-EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/services/cpu/reset_cause_example/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "Common AVR API for Chip Reset Cause Access / Example for UC3C-EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/services/clock/example1/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "Common AVR API for Clocks Control / Example 1 for UC3C-EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/services/clock/example2/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "Common AVR API for Clocks Control / Example 2 for UC3C-EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/services/clock/example3/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "Common AVR API for Clocks Control / Example 3 for UC3C-EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/services/sleepmgr/example/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "Common AVR API for Sleep Management / Example for UC3C-EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/components/touch/resistive_touch/example/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "Resitive Touch Example for UC3C_EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/drivers/cpu/cycle_counter/example/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "CPU Cycle Counter Example for UC3C_EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/drivers/cpu/mpu/example1/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "CPU MPU Example 1 for UC3C_EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/drivers/dacifb/example1/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "DACIFB Example 1 for UC3C_EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/components/memory/data_flash/at45dbx/_asf_v1/example/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "DataFlah AT45DBX Example for UC3C_EK (from ASF V1)"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/components/display/et024006dhu/example/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "Display ET024006DHU Example for UC3C_EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/components/display/et024006dhu/example2/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "Display ET024006DHU Example2 for UC3C_EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/components/memory/eeprom/at24cxx/example/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "UC3A Components memory EEPROM AT24Cxx Example for uc3c_ek"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/drivers/eic/example1/at32uc3c0512_uc3c_ek/doxygen/html/|Atmel Corporation "EIC Example1 for UC3C_EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/drivers/eic/example2/at32uc3c0512_uc3c_ek/doxygen/html/|Atmel Corporation "EIC Example2 for UC3C_EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/services/fs/fat/fat_example/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "FAT File System Example 1 for UC3C-EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/services/fs/fat/fsaccess_example/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "FAT File System Example 2 for UC3C-EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/drivers/flashc/flash_example/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "FLASHC Example for uc3c_ek"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/drivers/freqm/example/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "FREQ Example for UC3C_EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/drivers/gpio/local_bus_example/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "GPIO Local BUS Example for UC3C_EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/drivers/gpio/peripheral_bus_example/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "GPIO Peripheral Bus Example for UC3C_EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/drivers/hmatrix/example1/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "HMATRIX Example1 for uc3c_ek"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/drivers/intc/example/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "INTC Example for UC3C_EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/services/network/lin/lin_mngt_example/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "LIN Stack Example for UC3C-EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/thirdparty/lodepng/example/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "LodePNG PNG Decoder Example - UC3C-EK"]] - currently unavailable ( HTTP 404 ).
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/drivers/mdma/example/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "MDMA Example for UC3C_EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/drivers/pdca/example/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "PDCA Example for UC3C-EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/drivers/pevc/example1/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "PEVC Example 1 for uc3c_ek"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/drivers/pevc/example2/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "PEVC Example 2 for uc3c_ek"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/drivers/pevc/example3/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "PEVC Example 3 for uc3c_ek"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/drivers/pwm/example_pwm4/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "PWM4 Example for uc3c_ek"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/drivers/qdec/example/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "QDEC Example for UC3C_EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/components/memory/sd_mmc/sd_mmc_spi/example/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "SD/MMC using SPI Example for UC3C_EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/components/memory/sdram/mt48lc16m16a2tg7e/example/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "SDRAM MT48LC16M16A2TG7E Example for uc3c_ek"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/services/twi/master_example/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "Shared AVR API for Controlling a TWI Module / Master Mode Example for UC3C-EK ( Similar API for Controlling a TWI Module / Master Mode Example for UC3C-EK )"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/services/spi/master_example/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "Shared AVR API for SPI Master Mode / Example for UC3C-EK ( Similar API for SPI Master Mode / Example for UC3C-EK )"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/drivers/tc/example1/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "TC Example 1 for UC3C_EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/drivers/tc/example2/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "TC Example 2 for UC3C_EK]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/drivers/tc/example3/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "TC Example 3 for UC3C_EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/drivers/twim/master_example/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "TWIM Master Example for uc3c_ek"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/drivers/twis/slave_example/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "TWIS Slave Example for uc3c_ek"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/applications/uc3c_ek-can-lin-loopbacks-demo/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "UC3C CAN and LIN Loopbacks Application for uc3c_ek"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/applications/uc3c-scope-meter-and-filtering/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "UC3C Scope Meter And Filtering Application for uc3c_ek"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/components/memory/sdram/mt48lc16m16a2tg7e/unit_tests/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "Unit tests for mt48LC16m16a2tg7 SDRAM component on UC3C_EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/components/memory/sd_mmc/sd_mmc_spi/unit_tests/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "SD/MMC using SPI Unit Tests for AT32UC3C-EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/drivers/usart/usart_example/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "USART Example for UC3C_EK"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/applications/evk11xx-uc3b-virtual-com-port/at32uc3b1256_bootselector_prog2/doxygen/html/|Atmel Corporation "Application Bootselector prog2  ( Virtual COM Port - User Board )"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/applications/evk11xx-uc3b-virtual-com-port/at32uc3b1256/doxygen/html/|Atmel Corporation "UC3B Virtual Com Port Application ( Virtual COM Port - User Board )"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/drivers/wdt/example_wdt4/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "WDT4 Example for UC3C_EK"]].
+  *Sample projects for the Atmel AVR3 Simulator.
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/drivers/gpio/simulator_example/at32uc3a0512_simulator/doxygen/html/|Atmel Corporation "GPIO Peripheral Bus Example for AVR Simulator"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/drivers/cpu/mpu/simulator_example1/at32uc3a0512_simulator/doxygen/html/|Atmel Corporation "MPU Example 1 for AT32UC3A0512 in AVR Simulator"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/drivers/usart/simulator_example1/at32uc3a0512_simulator/doxygen/html/|Atmel Corporation "USART Loopback Example for AT32UC3A0512 in AVR Simulator"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/services/usb/class/cdc/device/example/at32uc3c0512_uc3c_ek/doxygen/html/|Atmel Corporation "USB Device CDC Example for uc3c_ek"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/services/usb/class/hid/device/mouse/example/at32uc3c0512_uc3c_ek/doxygen/html/|Atmel Corporation "USB Device HID Mouse for uc3c_ek"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/services/usb/class/msc/device/example/at32uc3c0512_uc3c_ek/doxygen/html/|Atmel Corporation "USB Device Mass Storage for uc3c_ek"]].
+  *Sample projects for some other UC3 targets.
+    *[[http://asf.atmel.com/docs/2.7.0/thirdparty/dlmalloc/examples/example1/at32uc3a0512_evk1105/doxygen/html/|Atmel Corporation "dmalloc ( dynamic memory allocation functions ) Example 1 for evk1105 "]] - currently unavailable ( HTTP 404 ).
+    *[[http://asf.atmel.com/docs/2.7.0/thirdparty/dlmalloc/examples/example2/at32uc3a0512_evk1105/doxygen/html/|Atmel Corporation "dmalloc ( dynamic memory allocation functions ) Example 2 for evk1105"]] - currently unavailable ( HTTP 404 ).
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/drivers/usart/usart_example2/at32uc3c2512c_uc3_c2_xplained/doxygen/html/|Atmel Corporation "USART example 2 for UC3-C2 Xplained ( Unknown Board )"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/applications/uc3-c2-xplained-webserver-demo/at32uc3c2512c_uc3_c2_xplained/doxygen/html/|Atmel Corporation "Webserver Demo for UC3-C2-XPLAINED ( UC3-C2 Xplained Demo - Unknown Board )"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/services/usb/class/composite/device/example1/at32uc3a0512_evk1100/doxygen/html/|Atmel Corporation "USB Composite Device HID mouse and MSC for evk1100"]].
+    *[[http://asf.atmel.com/docs/2.7.0/thirdparty/hd/example/hd_spb104/at32uc3a0512_evk1100/doxygen/html/|Atmel Corporation "Wi-Fi H&D Stack Example EVK1100"]].
+  *"Sensor Xplained" demonstration projects for Atmel AVR32 Xplained Kits.
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/applications/uc3-inertial-demo/doxygen/html/|Atmel Corporation "UC3-A3 Xplained with Xplained Inertial Board #1"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/applications/uc3-compass-calibration/doxygen/html/|Atmel Corporation "UC3-A3 Xplained with Inertial Board #1 Compass Calibration"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/applications/uc3-inertial-wake/doxygen/html/|Atmel Corporation "C3-A3 Xplained + Inertial Board #1 Wakeup Demo"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/applications/uc3-pressure-demo/doxygen/html/|Atmel Corporation "UC3-A3 Xplained with Xplained Pressure Board #1"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/applications/uc3-inertial-visualizer/doxygen/html/|Atmel Corporation "UC3-A3 Xplained with Xplained Inertial Board #1 Visualizer / Sensor Data Visualizer - UC3-A3 Xplained"]].
+  *Sample projects with FreeRTOS for the Atmel AVR.
+    *[[http://asf.atmel.com/docs/2.7.0/thirdparty/freertos/demo/avr32_uc3_example/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "FreeRTOS Basic Example - UC3C-EK"]] - currently unavailable ( HTTP 404 ).
+    *[[http://asf.atmel.com/docs/2.7.0/thirdparty/freertos/demo/lwip_avr32_uc3_dhcp_example/at32uc3c2512c_uc3_c2_xplained/doxygen/html/|Atmel Corporation "lwIP +DHCP + FreeRTOS Example for UC3-C2 Xplained"]].
+    *[[http://asf.atmel.com/docs/2.7.0/thirdparty/freertos/demo/lwip_avr32_uc3_example/at32uc3c2512c_uc3_c2_xplained/doxygen/html/|Atmel Corporation "lwIP + FreeRTOS Example - Unknown Board ( = Simulator )"]] - currently unavailable ( HTTP 404 ).
+===== Tools =====
+===== Operating Systems =====
+  *[[http://www.simplemachines.it/martin/mizar32/1.6.0-AT32UC3/SERVICES/FREERTOS/Demo/AVR32_UC3/DOC/html/index.html|Simplemachines "AVR32 UC3 - FreeRTOS Real Time Kernel Documentation"]].
+  *The realtime operating system [[http://www.utasker.com/|µTasker]] for ARM, Atmel AVR32, Freescale Coldfire, with non-commercial and commercial licenses.
+    *Additional software.
+      *[[http://www.microsoft.com/express/Downloads/|Microsoft Express Downloads - Visual Studio Express and SQL Server Express]].
+      *[[http://www.winpcap.org/|WinPcap]] - "The industry-standard tool for link-layer network access in Windows environments".
+      *[[http://www.wireshark.org/|Wireshark]].
+    *Hardware.
+      *[[http://store.atmel.com/PartDetail.aspx?q=p:10500153|Atmel Corporation "Atmel EVK1105"]].
+  *The OpenSource Java runtime [[http://code.google.com/p/bajos/|Google Code "Bajos"]].
+    *"Bajos can be adapted to Embedded Systems with/without operating system and has been tested for 8 and 32 bit AVR controllers (atmega128, UC3A, AP7000). Bajos runs now at arduino Mega".
+  *NuttX.
+    *The OpenSource [[http://nuttx.sourceforge.net/|SourceForge "NuttX RTOS"]], [[http://www.sourceforge.net/projects/nuttx/|SourceForge "NuttX RTOS"]] for ARM, Atmel ATmega, Atmel AVR32, PIC32...
+===== Realtime Language Platforms =====
+  *eLua, see [[lua.html|Lua & eLua]].
+
+===== Resources =====
+  *[[http://www.ultimaserial.com/classroom2.html|UltimaSerial "AVR32 lwIP Workshops"]].
+  *[[http://www.youtube.com/user/mjbcswitzerland|YouTube "mjbcswitzerland's channel"]].
+  *CAN-bus High-Speed vs. CAN-bus Low-Speed.
+    *[[http://www.avrfreaks.net/index.php?name=PNphpBB2&file=viewtopic&p=929620#929620|AVRFreaks, thread "AVR32 & "Atmel AT32UC3C-EK" - CAN-bus Low or"]].
+    *[[http://www.mikrocontroller.net/topic/250472#2571706|mikrocontroller.net, thread "AVR32 & "Atmel AT32UC3C-EK" - CAN-bus Low oder CAN-bus High ?"]] - "Wenn Du beim UC3C versucht den einen CAN-Knoten mit 500 kBaud und den anderen mit 125 kBaud zu initialisieren, wird das daran scheitern, weil beide auf den die gleiche Taktgenerierung zugreifen. Das ist eher unvorteilhaft, wenn man Brücken schlagen möchte".
+
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Hardware/Components/Processors/AVR/|OpenDirectory "Top: Computers: Hardware: Components: Processors: AVR]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Hardware/Mikrocontroller/|OpenDirectory "Top: World: Deutsch: Computer: Hardware: Mikrocontroller"]].
+{{tag>Atmel AVR AVR32 "AVR Studio" "32-bit" 32bit CPU CAN CAN-Bus canbus LIN LIN-Bus}}
+<footnote_navi_en>
+

@@ -1,0 +1,477 @@
+====== [hemmerling] Atmel ATxmega ( "XMEGA" ) ======
+Related pages:
+  *[[atmel.html|The Atmel AVR Family with Focus on AVR32, ATxmega, ATmega, ATtiny and the Arduino / Freeduino Platform]].
+  *[[atmega.html|Atmel ATmega, ATtiny, AT90 & ATmega on the Arduino / Freeduino Platform]].
+  *[[arduino.html|The Arduino / Freeduino Platform with Atmel ATmega, Microchip PIC, ARM, Freescale Coldfire]].
+  *[[atmelavr32.html|Atmel AVR32]].
+  *[[avrhowto.html|How to develop with Atmel AVR Microcontrollers]].
+===== ATxmega Starter Tools =====
+  *Event [[http://www.arroweurope.com/de/news-events/arrow-events/detail/article/atmel-praxisorientierte-schulung-atmel-avr-xmega-und-avr-studio-5.html|Atmel: Praxisorientierte Schulung - Atmel AVR XMEGA und AVR Studio 5]], [[http://www.atmel.com/microsite/tech_tour/default.asp|Atmel Technology on Tour 2011 - Rapid Development with Atmel AVR XMEGA and Atmel AVR Studio 5: Hands-on Training]] ( 2011-09-06 - 2011-11-02 ), 2011-09-16 in Bochum, Germany.
+    *Participants in Bochum, Germany.
+      *[[http://www.avrfreaks.net/index.php?name=PNphpBB2&file=profile&mode=viewprofile&u=204002|AVR Freaks community member "DieCore"]].
+      *[[http://www.avrfreaks.net/index.php?name=PNphpBB2&file=profile&mode=viewprofile&u=271687|AVR Freaks community member "hemmerling"]] ( Rolf Hemmerling ).
+    *Participants in Denmark.
+      *[[http://www.avrfreaks.net/index.php?name=PNphpBB2&file=profile&mode=viewprofile&u=210053|AVR Freaks community member "bowmo"]].
+    *You get ( and use in the workshop ):
+      -The in-circuit debugger [[http://www.atmel.com/dyn/products/tools_card.asp?tool_id=17213&category_id=163&family_id=682&subfamily_id=2138|JTAGICE 3]].
+      -[[http://store.atmel.com/PartDetail.aspx?q=p:10500293|Atmel AVR XMEGA-A3BU Xplained kit]], with LCD ( 128x32 pixels ), light sensor, and ntc sensor and with [[http://www.atmel.com/dyn/products/product_card.asp?part_id=17333|ATxmega256A3BU]] 8-bit CPU ( 256 KBytes Flash, 16 Kbytes SRAM, 4 KBytes EEPROM ).
+        *[[http://www.atmel.no/webdoc/|ATMEL AVR Tools User Guides]].
+          *[[http://www.atmel.no/webdoc/xmegaa3buxplained/xmegaa3buxplained.html|ATMEL AVR Tools User Guides "XMEGA-A3BU Xplained Hardware Users Guide"]].
+        *[[http://www.atmel.com/dyn/products/tools_card.asp?tool_id=17168|Atmel "XMEGA-A1 Xplained"]] -> "Documents" -> "Atmel AVR1512: XMEGA-A1 Xplained Training" #.
+        *Useful reading:
+          -[[http://www.atmel.com/dyn/resources/prod_documents/doc8169.pdf|AVR1005: Getting started with XMEGA]] ( PDF ).
+          -[[http://www.atmel.com/dyn/resources/prod_documents/doc8398.pdf|AVR1512: XMEGA-A1 Xplained training -
+XMEGA Basics]].
+          -[[http://www.atmel.com/dyn/resources/prod_documents/doc8075.pdf|AVR1000: Getting Started Writing C-code for XMEGA]].
+        *Board- and CPU specific documentation:
+          -[[http://www.atmel.com/dyn/resources/prod_documents/doc8394.pdf|Atmel AVR1923: XMEGA-A3BU Xplained
+Hardware User Guide]].
+          -[[http://www.atmel.com/dyn/resources/prod_documents/doc8413.pdf|AVR1934: XMEGA-A3BU Xplained Software
+User Guide]].
+          -[[http://www.atmel.com/dyn/resources/prod_documents/doc8324.pdf|Atmel AVR1935: XMEGA-A3BU Xplained Getting Started Guide]].
+        *Coursework on the event:
+          -"AVR8013: Getting Started with UB XMEGA-A3BU".
+          -"AVR8006: ASF Getting Started XMEGA-A3BU".
+        *[[http://support.atmel.com/|Atmel Corporation - Technical Support]] - "Suport & FAQs".
+          *[[http://support.atmel.no/bin/customer.exe?=&action=viewKbCategory&id=73|Atmel Corporation - Technical Support "Frequently Asked Questions"]] - 8051, Xmega, AT91SAM ARM MCU, Studio5,..
+            *[[http://support.atmel.no/bin/customer.exe?=&action=viewKbCategory&id=2|Atmel Corporation - Technical Support "AVR 8-bit RISC"]]
+              *[[http://support.atmel.no/bin/customer.exe?=&action=viewKbEntry&id=683|Atmel Corporation - Technical Support "AVR 8-bit RISC" / "XMEGA" / "PDI on Xmega"]].
+          *[[http://support.atmel.com/knowledgebase/avrstudiohelp/mergedProjects/STK600/stk600_programming_pdi.html|Atmel Support "PDI Programming"]] - "Programming and Debugging Interface" ( PDI ).
+        *[[http://www2.atmel.com/PFResults.aspx#%28data%3A%28category%3A%27163%5B607%5B1965%5D%5D%27%2Ctype%3A!%2816%2C20%2C26%29%29%2Csc%3A3%29|Atmel Corporation - Documents ( Type = Application Note OR Software, By Device = Micrcontrollers / Atmel AVR 8- and 32-bit Microcontrollers / AVR XMEGA"]].
+          *I replaced the special characters ( except the "!" ) with the HTML entities in this URL, to make it compatible for Dokuwiki: "[" -> %5B, "]" -> %5D, "," - %2C, ":" -> %3A ).
+      -The free IDE [[http://www.atmel.com/avrstudio|Atmel AVR Studio]] for WinXP, Vista, Win7 with Visual Studio Shell (Isolated mode) 2010 and .NET 4.0.
+        *[[http://gallery.atmel.com/|Atmel Gallery]] - "With Atmel Gallery, getting the tool or software library you need has never been easier. Download and instantly extend the Atmel Studio environment".
+        *Since 2014-10, you have to install a new(er) "AtmelUSBInstaller" prior to "Atmel Studio 6.2". The shipped "AtmelUSBInstaller" does not install due to certification & date problems.
+          *[[http://www.avrfreaks.net/forum/atmel-usb-driver-package-fails-during-atmel-studio-62-installation-windows-7|AVR Freaks "Atmel USB Driver Package fails during Atmel Studio 6.2 installation, Windows 7"]], 2014-10-14.
+          *[[https://gallery.atmel.com/Products/Details/6873be43-0628-46ac-ba83-286869a3d97a?|Atmel Gallery "AtmelUSBInstaller Version 6.2.342"]].
+      -The free [[http://atmel.com/dyn/products/tools_card.asp?tool_id=3886|Atmel Corporation "FLIP"]], a Java application for Linux and Windows - "Supports in-system programming of flash devices through RS232, USB or CAN".
+      -The setup information file "avr.inf" - A "Windows 2000, XP & Vista setup File for AVR CDC Device".
+        *[[http://www.atmel.com/dyn/products/tools_card.asp?tool_id=17226&category_id=172&family_id=705&subfamily_id=2267|Atmel "Virtual Com Port Driver .inf File"]] ( file [[http://www.atmel.com/dyn/resources/prod_documents/XPLAINED_Virtual_Com_Port.inf]] ) - "This INF file instructs the Windows operating system to see the temperature sensor Xplained or the Atmel AT30TK175STK kit as a serial port. It should be inserted in the Windows\INF folder on your operating system. Note: This installs only instructions for Windows; no executable software is installed".
+      -If you do your homework successfully, you may get a $99 coupon for buying in the [[http://store.atmel.com/|Atmel Store]] :-). The assignment is about making a profiling application for the lightsensor, using the display. 
+
+===== ( Mostly ) ATxmega Hardware - Evaluation Boards and Addons =====
+==== Addon Cards for XMEGA-A3BU Xplained Kit =====
+  *[[http://store.atmel.com/CBC.aspx?q=c:100116|Atmel reference designs]], addons for Atmel AVR Xplained kits.
+    *[[http://store.atmel.com/PartDetail.aspx?q=p:10500250|Atmel Sensors Xplained Inertial One ( ATAVRSBIN1 )]].
+    *[[http://store.atmel.com/PartDetail.aspx?q=p:10500251|Atmel Sensors Xplained Pressure One ( ATAVRSBPR1 )]].
+    *[[http://store.atmel.com/PartDetail.aspx?q=p:10500274|Atmel Sensors Xplained Inertial Two ( ATAVRSBIN2 )]].
+    *[[http://www.atmel.com/dyn/products/tools_card.asp?tool_id=5017&category_id=163&family_id=607&subfamily_id=2138|Sensor Xplained Demonstration Projects]] - The free "Atmel Data Visualizer" for Windows hosts running WinXP, Vista, Win7 with .NET 4.0, to be used with "Sensor Xplained" demonstration projects.
+  *[[http://www.redpinesignals.com/|Redpine Signals, Inc.]].
+    *[[http://www.redpinesignals.com/Atmel/rs-xmega.html|Redpine Signals, Inc. "RS-XMEGA-220x is a 802.11n Wi-Fi card for the XMEGA-A3BU Xplained Kit"]].
+==== Boards =====
+  *Some other ATMEL MCUs, development kits and evaluation boards of Atmel Corporation.
+    *[[http://store.atmel.com/|Atmel Store]].
+    *[[http://www.atmel.com/Xplained|Atmel AVR XMEGA-A1 Xplained kit]], [[http://store.atmel.com/PartDetail.aspx?q=p:10500183|Atmel AVR XMEGA-A1 Xplained kit]], with [[http://www.atmel.com/dyn/products/product_card.asp?part_id=4298|ATxmega128A1]] 8-bit CPU ( 128 KBytes Flash, 8 Kbytes SRAM, 2 KBytes EEPROM ).
+      *[[http://www.atmel.no/webdoc/|ATMEL AVR Tools User Guides]].
+        *[[http://www.atmel.no/webdoc/xmegaa1explained/xmegaa1explained.html|ATMEL AVR Tools User Guides "XMEGA-A1 Xplained User Guide"]].
+    *[[http://store.atmel.com/PartDetail.aspx?q=p:10500295|Atmel XMEGA-B1 Xplained]] ( 160 Segments LCD display, 4 Atmel QTouch buttons ) with [[http://www.atmel.com/dyn/products/product_card.asp?part_id=17375|ATxmega128B1]] ( 128 KBytes Flash, 8 Kbytes SRAM, 2 KBytes EEPROM ).
+      *[[http://www.atmel.no/webdoc/|ATMEL AVR Tools User Guides]].
+        *[[http://www.atmel.no/webdoc/xmegab1xplained/xmegab1xplained.html|ATMEL AVR Tools User Guides "XMEGA-B1 Xplained User Guide"]].
+    *[[http://www.atmel.com/dyn/products/tools.asp?family_id=607#1443|Atmel - Tools & Software]] - evaluation kits.
+    *For development of electrical motor-based embedded applicatons.
+      *[[http://store.atmel.com/PartDetail.aspx?q=p:10500174|Atmel ATAVRMC323]] - "The MC323 kit is a complete hardware system which demonstrates motor control using the high performance ATxmega128A1. The kit includes a MC300 power board and a MC303 processor board. It also includes a Brushless DC motor and a USB cable for PC interface" ( but no CAN and no LIN interface :-( ).
+      *[[http://store.atmel.com/PartDetail.aspx?q=p:10500171|Atmel ATAVRMC303]] & [[http://store.atmel.com/PartDetail.aspx?q=p:10500149|Atmel ATAVRMC300]].
+      *[[http://store.atmel.com/PartDetail.aspx?q=p:10500052|Atmel DB101]] - "A display module including a 128x64 pixel graphical LCD with RGB backlight".
+      *The free software [[http://www.atmel.com/dyn/products/tools_card.asp?tool_id=4170|Atmel Motor Control Center (MCC)]].
+    *[[http://www.msc-ge.com/de/news/pressroom/newsletter/atmel/nl/7105-INT.html|MSC Vertriebs GmbH "Atmel/MSC Newsletter Ausgabe 37, September 2011. Verbesserter Atmel AVR XMEGA mit USB"]] - Photo of the "XMEGA-A3BU Xplained Kit".
+  *[[http://www.avrprojekte.de/|AVRprojekte]].
+    *[[http://xmega.avrprojekte.de/|AVRprojekte "ATxMega Board 3"]].
+    *[[http://www.avrprojekte.de/xmega2|AVRprojekte "ATxMega Board 2"]].
+    *[[http://www.facebook.com/pages/ATxMEGABoard/221073434591018|Facebook "ATxMEGABoard"]].
+  *[[http://www.conrad.de/ce/de/overview/0214040/Entwicklungssysteme-Atmel|Conrad Electronic SE "Entwicklungssysteme (Atmel)"]].
+  *[[http://shop.chip45.com/epages/es10644620.sf/en_US/?ObjectPath=/Shops/es10644620/Categories/AVR-Xmega-Microcontroller-Module-Boards|Chip45 "AVR Xmega Microcontroller Modules and Boards"]].
+  *[[http://www.dev-tools.de/|dev-tools]] - "AVR Xmega Modules".
+  *[[http://shop.embedded-projects.net/index.php?module=artikel&action=gruppe&id=12|embedded projects GmbH "XMEGA (8 Bit)"]].
+    *[[http://student.embedded-projects.net/|embedded projects GmbH "ATMEL Produkte für Studenten bis zu 50% billiger!"]].
+  *[[http://www.gabotronics.com/development-boards/view-all-products.htm|Gabotronics "Development Boards"]], USA - ATxmega boards.
+  *[[http://www.mikroe.com/|mikroElektronika]] - "Accessory Boards".
+    *[[http://www.mikroe.com/eng/products/view/755/ready-for-xmega-board/|mikroElektronika "Ready for XMEGA Board"]] with [[http://www.atmel.com/dyn/products/product_card.asp?part_id=4298|ATxmega128A1]] ( 128 KBytes Flash, 8 Kbytes SRAM, 2 KBytes EEPROM ). 
+      *The place for the JTAG interface on the circuit board is empty, i.e. there is no female JTAG connector mounted.
+      *The extra device box "XMEGA Casing (white)" has no hole for the male JTAG interface connector and the JTAG cable. In fact, with mounted curved female JTAG connector, IMHO the board will not fit into the box.
+        *Vendor [[http://such001.reichelt.de/|Reichelt Elektronik]] -> Search for "2xXXpol. Stiftleiste, gewinkelt" or "2xXXpol. Stiftleiste, gerade", while XX = 10, 13,.. ( you need XX=5 ).
+      *The boxed device is not intended for mobile use, as there is no spare space for a battery.
+      *[[http://www.mikroe.com/forum/viewtopic.php?f=85&t=44557|mikroElektronika Forum "Special Weekend Offer: XMEGA Inventor's kit"]], 2011-09-23.
+      *[[http://www.mikroe.com/eng/news/index/page:55/|mikroElektronika "XMEGA Inventor's kit"]] ( 2011-09-23 - 2011-09-25 ) with [[http://www.atmel.com/dyn/products/product_card.asp?part_id=4298|ATxmega128A1]] ( 128 KBytes Flash, 8 Kbytes SRAM, 2 KBytes EEPROM ).
+    *[[http://www.mikroe.com/eng/categories/view/27/avr-offers/|mikroElektronika "Special Offers / AVR Offers"]].
+    *[[http://www.mikroe.com/eng/products/view/688/mikromedia-for-xmega/|MikroElektronika "MikroMedia for XMEGA"]] - "ATxmega128A1 Development Board for Multimedia Applications".
+  *[[http://www.olimex.com/|OLIMEX Ltd.]], Bulgaria.
+    *[[http://www.olimex.com/dev/|OLIMEX Ltd. "Development boards and Tools"]] -> "AVR".
+    *[[http://www.olimex.com/dev/projects.html|OLIMEX Ltd. "OPEN SOURCE PROJECTS FAN PAGE"]] - "If you have new project idea and you can implement it with some of our boards let us know and if we find your project interesting we will send you the board free of charge".
+    *[[http://twitter.com/Olimex|Twitter "Olimex"]].
+  *[[http://www.xbitinc.com/|Xbit Electronic]].
+    *[[http://www.xbitinc.com/products/Stingray-Xmega-Development-Board.html|Xbit Electronic "Stingray Xmega Development Board"]] - cool multi-functional evaluation board :-).
+      *"**CAN controller and driver** connected by SPI".
+    *Blog article [[http://fourwalledcubicle.com/blog/2011/08/xbit-electronics-stingray-board-review/|Four Walled Cubicle "XBit Electronics Stingray Board Review"]].
+  *Vendor [[http://www.xenon-tech.com/|Xenon Design - Buy ATMEL, Zigbee, RC Hobby Parts, PCB Design Service"]].
+    *[[http://www.xenon-tech.com/index_topic.php?did=19|Xenon Design "ATMEL at your fingertip. ATMEL MCU and Development Kit. Best Price on the Web"]].
+    *[[http://www.xenon-tech.com/index_topic.php?did=6&didpath=/6|Xenon Design "Download and Support"]].
+      -The free "Atmel Emulator and Evaluation Board (all models) setup instruction, schematics, and sample code".
+      -The hardware product "Ethernet to Serial Module XEET01" - "Engineered for bridging serial communication to the Ethernet network. Specifically designed for interfacing with microprocessor as web enabled electronic device via serial interface. I/O pins are TTL and CMOS".
+      -The free "Ethernet to serial configuration utility" for Win98, W2k, WinXP.
+===== Assembly Language ( CPU Opcodes ) Reference =====
+  *[[http://www.atmel.com/dyn/products/product_docs.asp?category_id=163&family_id=607&subfamily_id=1965&part_id=17333|ATxmega256A3BU]] - PDF document "AVR Instruction Set".
+  *[[http://en.wikipedia.org/wiki/Atmel_AVR_instruction_set|EN.Wikipedia "Atmel AVR instruction set"]].
+===== Atmel Studio 5 - Sample projects for Atmel AVR XMEGA =====
+  *[[http://asf.atmel.com/docs/latest/|ASF Source Code Documentation - Latest]].
+  *Sample projects for Atmel AVR XMEGA Xplained Kit, with ATxmega128A1
+    *[[http://asf.atmel.com/docs/2.7.0/xmega/drivers/ac/example/atxmega128a1_xplain/doxygen/html/|Atmel Corporation "AC Example for xplain"]].
+    *[[http://asf.atmel.com/docs/2.7.0/xmega/drivers/adc/example1/atxmega128a1_xplain/doxygen/html/|Atmel Corporation "ADC Example 1 for xplain"]].
+    *[[http://asf.atmel.com/docs/2.7.0/xmega/drivers/adc/example2/atxmega128a1_xplain/doxygen/html/|Atmel Corporation "ADC Example 2 for xplain"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/components/memory/data_flash/at45dbx/example/atxmega128a1_xplain/doxygen/html/|Atmel Corporation "AT45DBX DataFlash example for Xplain"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/components/memory/data_flash/at45dbx/unit_tests/atxmega128a1_xplain/doxygen/html/|Atmel Corporation "AT45DBX DataFlash unit tests for Xplain"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/services/calendar/example1/atxmega128a1_xplain/doxygen/html/|Atmel Corporation "Calendar service example for Xplain"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/services/calendar/example2/atxmega128a1_xplain/doxygen/html/|Atmel Corporation "Calendar service example 2 for Xplain"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/services/cpu/reset_cause_example/atxmega128a1_xplain/doxygen/html/|Atmel Corporation "mon AVR API for Chip Reset Cause Access / Example for XPLAIN"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/services/clock/example1/atxmega128a1_xplain/doxygen/html/|Atmel Corporation "Common AVR API for Clocks Control / Example 1 for XPLAIN"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/services/clock/example2/atxmega128a1_xplain/doxygen/html/|Atmel Corporation "Common AVR API for Clocks Control / Example 2 for XPLAIN"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/services/clock/example3/atxmega128a1_xplain/doxygen/html/|Atmel Corporation "Common AVR API for Clocks Control / Example 3 for XPLAIN"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/services/sleepmgr/example/atxmega128a1_xplain/doxygen/html/||Atmel Corporation "Common AVR API for Sleep Management / Example for XPLAIN"]].
+    *[[http://asf.atmel.com/docs/2.7.0/xmega/drivers/dac/example1/atxmega128a1_xplain/doxygen/html/|Atmel Corporation "DAC Example 1 for xplain"]].
+    *[[http://asf.atmel.com/docs/2.7.0/xmega/drivers/dac/example2/atxmega128a1_xplain/doxygen/html/|Atmel Corporation "DAC Example 2 for xplain"]].
+    *[[http://asf.atmel.com/docs/2.7.0/xmega/drivers/dma/example/atxmega128a1_xplain/doxygen/html/|Atmel Corporation "DMA Example for xplain"]].
+    *[[http://asf.atmel.com/docs/2.7.0/xmega/drivers/ebi/sdram_example/atxmega128a1_xplain/doxygen/html/|Atmel Corporation "EBI SDRAM Example for xplain"]].
+    *[[http://asf.atmel.com/docs/2.7.0/xmega/drivers/ioport/example/atxmega128a1_xplain/doxygen/html/|Atmel Corporation "Drivers I/O port Example for xplain"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/applications/led_chaser/xplain/doxygen/html/|Atmel Corporation "LED Chaser Example for Xplain"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/services/gfx_mono/example_screen_dump/atxmega128a1_xplain/doxygen/html/|Atmel Corporation "Monochrome graphic library example for Xplain"]].
+      *"This simple example shows how to use the gfx_mono_screen_dump for dumping the LCD screen in XPM file format trough the USART".
+      *"All AVR devices with a USART can be used. There is no need for the physical LCD to be present to use this function. As this function will only rely on a framebuffer. If using the [[http://www.sitronix.com.tw/sitronix/product.nsf/Doc/ST7565R?OpenDocument|ST7565R]] LCD in serial mode a local framebuffer will always be created due to that one can not read data back from the LCD".
+    *[[http://www.sitronix.com.tw/sitronix/product.nsf/Doc/ST7565R?OpenDocument|Sitronix "ST7565R 65 x 132 Dot Matrix LCD Controller/Driver"]].
+    *[[http://asf.atmel.com/docs/2.7.0/xmega/drivers/nvm/example1/atxmega128a1_xplain/doxygen/html/|Atmel Corporation "Drivers NVM Example 1"]].
+    *[[http://asf.atmel.com/docs/2.7.0/xmega/drivers/nvm/example2/atxmega128a1_xplain/doxygen/html/|Atmel Corporation "Drivers NVM Example 2 for xplain"]].
+    *[[http://asf.atmel.com/docs/2.7.0/xmega/drivers/nvm/example4/atxmega128a1_xplain/doxygen/html/|Atmel Corporation "Drivers NVM Example 4 for xplain"]].
+    *[[http://asf.atmel.com/docs/2.7.0/xmega/drivers/pmic/example/atxmega128a1_xplain/doxygen/html/|Atmel Corporation "Drivers PMIC Example for xplain"]].
+    *[[http://asf.atmel.com/docs/2.7.0/xmega/drivers/rtc/example/atxmega128a1_xplain/doxygen/html/|Atmel Corporation "Drivers RTC Example for xplain"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/services/twi/master_example/atxmega128a1_xplain/doxygen/html/|Atmel Corporation "Shared AVR API for Controlling a TWI Module / Master Mode Example for XPLAIN"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/services/serial/usart_serial_example/atxmega128a1_xplain/doxygen/html/|Atmel Corporation "Shared AVR API for Serial Interfaces / Example for XPLAIN"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/services/spi/master_example/atxmega128a1_xplain/doxygen/html/|Atmel Corporation "Shared AVR API for SPI Master Mode / Example for XPLAIN"]].
+    *[[http://asf.atmel.com/docs/2.7.0/xmega/drivers/tc/example1/atxmega128a1_xplain/doxygen/html/|Atmel Corporation "TC Example 1 for xplain"]].
+    *[[http://asf.atmel.com/docs/2.7.0/xmega/drivers/tc/example2/atxmega128a1_xplain/doxygen/html/|Atmel Corporation "TC Example 2 for xplain"]].
+    *[[http://asf.atmel.com/docs/2.7.0/xmega/drivers/tc/example3/atxmega128a1_xplain/doxygen/html/|Atmel Corporation "TC Example 3 for xplain"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/services/calendar/unit_tests/atxmega128a1-xplain/doxygen/html/|Atmel Corporation "Calendar service unit tests on Xplain"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/services/gfx_mono/unit_tests_spin_ctrl/atxmega128a1-xplain/doxygen/html/|Atmel Corporation "Unit tests for spinner widget on Xplain"]].
+    *[[http://asf.atmel.com/docs/2.7.0/xmega/drivers/usart/example/atxmega128a1_xplain/doxygen/html/|Atmel Corporation "USART Example for xplain"]].
+    *[[http://asf.atmel.com/docs/2.7.0/xmega/drivers/wdt/example/atxmega128a1_xmega_a1_xplained/doxygen/html/|Atmel Corporation "WDT Example for XMEGA A1 Xplained"]] / [[http://asf.atmel.com/docs/2.6.1/xmega/drivers/wdt/example/atxmega128a1_xplain/doxygen/html/|Atmel Corporation "WDT Example for XPLAIN Documentation"]].
+    *[[http://asf.atmel.com/docs/2.7.0/xmega/drivers/aes/example1/atxmega128a1_xplain/doxygen/html/|Atmel Corporation "XMEGA AES xplain example1"]].
+    *[[http://asf.atmel.com/docs/2.7.0/xmega/drivers/aes/example2/atxmega128a1_xplain/doxygen/html/|Atmel Corporation "XMEGA AES xplain example2"]].
+    *[[http://asf.atmel.com/docs/2.7.0/xmega/drivers/aes/example3/atxmega128a1_xplain/doxygen/html/|Atmel Corporation "XMEGA AES xplain example3"]].
+    *[[http://asf.atmel.com/docs/2.7.0/xmega/drivers/des/example/atxmega128a1_xplain/doxygen/html/|Atmel Corporation "XMEGA DES xplain example"]].
+    *[[http://asf.atmel.com/docs/2.7.0/xmega/applications/xmega_a1_xplained_demo/atxmega128a1_xmega_a1_xplained/doxygen/html/|Atmel Corporation "XMEGA-A1 Xplained demo application"]] / [[http://asf.atmel.com/docs/2.6.1/xmega/applications/xmega_a1_xplained_demo/atxmega128a1_xplain/doxygen/html/|Atmel Corporation "Xplain demo application"]].
+  *Sample projects for Atmel AVR XMEGA-A1 Xplained Kit, with ATxmega128A1.
+    *[[http://asf.atmel.com/docs/2.7.0/common/utils/stdio/stdio_serial/stdio_serial_example/atxmega128a1_xmega_a1_xplained/doxygen/html/|Atmel Corporation "XMEGA-A1 Xplained Serial Standard I/O Example"]].
+    *[[http://asf.atmel.com/docs/2.7.0/xmega/drivers/dma/unit_tests/atxmega128a1_xplained/doxygen/html/|Atmel Corporation "DMA unit tests for Xplained"]].
+  *Sample projects for "Atmel AVR XMEGA-A3BU Xplained kit", with ATxmega256A3BU.
+    *[[http://asf.atmel.com/docs/2.7.0/common/components/memory/data_flash/at45dbx/example/atxmega256a3bu_xmega_a3bu_xplained/doxygen/html/|Atmel Corporation "AT45DBX DataFlash example for atxmega256a3bu on XMEGA-A3BU Xplained"]].
+    *[[http://asf.atmel.com/docs/2.7.0/xmega/applications/xmega_a3bu_xplained_demo/xmega_a3bu_xplained/doxygen/html/|Atmel Corporation "Demo application for XMEGA A3BU-Xplained"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/services/gfx_mono/example_spinctrl/atxmega256a3bu_xmega_a3bu_xplained/doxygen/html/|Atmel Corporation "Example for GFX Monochrome spinner widget on XMEGA-A3BU Xplained"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/services/gfx_mono/example_sysfont/atxmega256a3bu_xmega_a3bu_xplained/doxygen/html/|Atmel Corporation "Example for GFX Monochrome System Font driver on XMEGA-A3BU Xplained"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/services/gfx_mono/example1/atxmega256a3bu_xmega_a3bu_xplained/doxygen/html/|Atmel Corporation "Monochrome graphic library example for XMEGA A3BU-Xplained"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/components/display/st7565r/example/atxmega256a3bu_xplained/doxygen/html/|Atmel Corporation "ST7565R LCD Controller example for A3BU-Xplained"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/services/usb/class/cdc/device/example/atxmega256a3bu_xmega_a3bu_xplained/doxygen/html/|Atmel Corporation "USB Device CDC Example for XMEGA-A3BU Xplained / ASF USB Device CDC"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/services/usb/class/hid/device/kbd/example/atxmega256a3bu_xmega_a3bu_xplained/doxygen/html/|Atmel Corporation "USB Device HID Keyboard for XMEGA-A3BU Xplained / ASF USB Device HID Keyboard"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/services/usb/class/hid/device/mouse/example/atxmega256a3bu_xmega_a3bu_xplained/doxygen/html/|Atmel Corporation "USB Device HID Mouse for XMEGA-A3BU Xplained / ASF USB Device HID Mouse"]].
+    *[[http://asf.atmel.com/docs/2.7.0/common/services/usb/class/msc/device/example/atxmega256a3bu_xmega_a3bu_xplained/doxygen/html/|Atmel Corporation "USB Device Mass Storage for XMEGA-A3BU Xplained / ASF USB Device MSC"]].
+  *Sample projects for the Atmel AVR XMEGA Simulator.
+    *[[http://asf.atmel.com/docs/2.7.0/xmega/drivers/ioport/simulator_example1/xmega_a1_simulator/doxygen/html/|Atmel Corporation "Drivers I/O port Example for simulator xmega_a1"]].
+    *[[http://asf.atmel.com/docs/2.7.0/xmega/drivers/tc/simulator_example1/xmega_a1_simulator/doxygen/html/|Atmel Corporation "Drivers TC Example for Simulator XMEGA A1"]].
+  *"Sensor Xplained" demonstration projects for Atmel AVR32 Xplained Kits.
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/applications/uc3-inertial-demo/doxygen/html/|Atmel Corporation "UC3-A3 Xplained with Xplained Inertial Board #1"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/applications/uc3-compass-calibration/doxygen/html/|Atmel Corporation "UC3-A3 Xplained with Inertial Board #1 Compass Calibration"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/applications/uc3-inertial-wake/doxygen/html/|Atmel Corporation "C3-A3 Xplained + Inertial Board #1 Wakeup Demo"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/applications/uc3-pressure-demo/doxygen/html/|Atmel Corporation "UC3-A3 Xplained with Xplained Pressure Board #1"]].
+    *[[http://asf.atmel.com/docs/2.7.0/avr32/applications/uc3-inertial-visualizer/doxygen/html/|Atmel Corporation "UC3-A3 Xplained with Xplained Inertial Board #1 Visualizer / Sensor Data Visualizer - UC3-A3 Xplained"]].
+  *Sample projects with FreeRTOS for the Atmel AVR.
+    *[[http://asf.atmel.com/docs/2.7.0/thirdparty/freertos/demo/avr32_uc3_example/at32uc3c0512c_uc3c_ek/doxygen/html/|Atmel Corporation "FreeRTOS Basic Example - UC3C-EK"]] - currently unavailable ( HTTP 404 ).
+    *[[http://asf.atmel.com/docs/2.7.0/thirdparty/freertos/demo/lwip_avr32_uc3_dhcp_example/at32uc3c2512c_uc3_c2_xplained/doxygen/html/|Atmel Corporation "lwIP +DHCP + FreeRTOS Example for UC3-C2 Xplained"]].
+    *[[http://asf.atmel.com/docs/2.7.0/thirdparty/freertos/demo/lwip_avr32_uc3_example/at32uc3c2512c_uc3_c2_xplained/doxygen/html/|Atmel Corporation "lwIP + FreeRTOS Example - Unknown Board ( = Simulator )"]] - currently unavailable ( HTTP 404 ).
+===== Operating Systems, Runtimes & Firmware for ATmega & ATxmega =====
+==== Free standard Frameworks and standard Libraries ====
+  *[[http://www.nongnu.org/avr-libc/|AVR Libc]].
+    *[[http://savannah.nongnu.org/projects/avr-libc/|Savannah "AVR C Runtime Library"]].
+    *[[http://www.nongnu.org/avr-libc/user-manual/FAQ.html|AVR Libc - FAQ]] #.
+    *[[http://www.nongnu.org/avr-libc/user-manual/inline_asm.html|AVR Libc - Inline Assembler Cookbook]] - How to use inline assembly code with the GNU-Assembler gas #.
+  *The free [[http://www.atmel.com/asf|AVR Software Framework]], [[http://asf.atmel.com/|AVR Software Framework]] ( ASF ) - "Provides software drivers and libraries to build applications for Atmel AVR XMEGA and AVR UC3 devices... It can easily integrate into an operating system (OS) or run as a stand-alone product. It is included in AVR Studio 5".
+    *[[http://www.youtube.com/watch?v=xpgaTKhUDjU|YouTube "Atmel AVR Studio 5: Getting started with the AVR Software Framework, Part 1"]].
+    *[[http://www.youtube.com/watch?v=CTja2Nuh3A4|YouTube "Atmel AVR Studio 5: Getting started with the AVR Software Framework, Part 2"]].
+    *[[http://www.youtube.com/watch?v=3Koa6oy53Os|YouTube "Atmel AVR Studio 5: Getting started with the AVR Software Framework, Part 3"]].
+    *[[http://asf.atmel.com/bugzilla/|AVR Software Framework Bug Tracker]].
+    *I was told, that just the ASF components "wireless" and "QTouch" make use of compilied libraries. Most other components of ASDF are supplied as source code. 
+  *The OpenSource [[http://www.github.com/nonolith/USB-XMEGA|github "nonolith / USB-XMEGA"]] by [[http://8515.avrfreaks.net/index.php?name=PNphpBB2&file=profile&mode=viewprofile&u=274850|kevinmehall]] - "USB stack for Atmel ATxmega32A4U and related parts".
+==== Free special Applications & Application Notes ====
+  *There is still no submission of the EEMBC Benchmark [[http://www.coremark.org/|CoreMark]], for some XMEGA boards!
+  *Primary Atmel application notes.
+    -[[http://www.atmel.com/dyn/products/tools_docs.asp?category_id=163&family_id=607&subfamily_id=2138&tool_id=17212|Atmel application notes for "Atmel AVR Studio 5.0"]].
+    -[[http://www.atmel.com/dyn/products/tools_docs.asp?category_id=163&family_id=607&subfamily_id=1965&tool_id=17168|Atmel application notes for  "XMEGA-A1 Xplained"]].
+    -[[http://www.atmel.com/dyn/products/product_docs.asp?category_id=163&family_id=607&subfamily_id=1965&part_id=17333|Atmel application notes for "ATxmega256A3BU"]].
+  *Secondary Atmel application notes.
+    -[[http://www.atmel.com/dyn/products/tools_docs.asp?category_id=163&family_id=607&subfamily_id=760&tool_id=3879|Atmel application notes for "AT90USBKEY"]].
+==== Free Firmware ====
+  *[[http://www.fourwalledcubicle.com/XPLAIN.php|Four Walled Cubicle "XPLAIN Bridge (2010)"]].
+==== Commercial Operating Systems ====
+  *[[http://micrium.com/page/downloads/ports/atmel/xmega|Micrium "µC/OS-II" Port for Atmel STK600 Development board, ATXMEGA128A1 CPU]].
+ 
+===== The Development Toolchain ( IDEs, Compilers & Utility Tools ) for ATmega & ATxmega =====
+==== The Difference between ATmega and ATxmega from Developer's Point of View ====
+  *The Special Function Registers (SFRr / bitnames of the onchip peripherals are all different between ATmega and ATxmega.
+    *[[http://en.wikipedia.org/wiki/Processor_register|DE.Wikipedia "Processor register"]], [[http://de.wikipedia.org/wiki/Register_%28Computer%29#Spezialregister|DE.Wikipedia "Register (Computer)"]]  - "Special purpose registers ( SPR )", "Spezialregister".
+  *For each development tool ( e.g. C/C++ compiler ), you need to get proper files ( e.g. C/C++ header files ) that support the ATxmega for the compiler you plan to use.
+  *For each C/C++ application you develop, you have to use the right C/C++ header files, and use the //right// SFrs/bitnames of the //really-existing// onchip peripherals of the //real// target in your source code files.
+  *Additionally, the developer must instruct the compiler to generate code exactly for the specific CPU, by setting the appropriate compiler switch. See [[http://www.nongnu.org/avr-libc/user-manual/using_tools.html|AVR Libc "Using the GNU tools"]].
+  *For example, old AVRs and some AVRtiny don't have a MULtiplication unit. So for these targets,the C compiler has to do shifts+adds to multiply, instead of using the MUL instruction.
+==== In-system Programming ( ISP ) / In Circuit Serial Programming ( ICSP ) & On-chip Debugging ( OSD ) ====
+=== Hardware Tools ===
+  *Atmel.
+    *[[http://store.atmel.com/SearchResult.aspx?q=gsd:c-100112|Atmel Corporation "Debuggers"]] .
+    *The in-circuit debugger [[http://www.atmel.com/dyn/products/tools_card.asp?tool_id=17213&category_id=163&family_id=682&subfamily_id=2138|Atmel JTAGICE 3]].
+      *"Mid-range In-System Debugger for Atmel 8- and 32-bit AVR Microcontrollers".
+      *Currently it just works with [[http://www.atmel.com/avrstudio|Atmel AVR Studio 5]].
+      *It doesn't and will never work with [[http://www.atmel.com/dyn/products/tools_card.asp?tool_id=2725|Atmel AVR Studio 4]].
+      *The device has an ID number, which is printed on a label glued on the device box. An installed Windows driver is dedicated for a single device ID. I.e. you can control several different devices from one Windows host, by connecting several devices to one host and installing a Windows driver for each device. The little drawback: If you have 2 devices and want to connect the one device instead of the other one to the Windows host, you must reinstall the Windows driver.
+      *You don´t need the device for uploading and running a software ( this might be done by the USB connection by FLIP if you install an USBF DFU bootloader ), you just need it for debugging with Atmel Studio 5.
+      *On the other hand, if you debug your software using JTAGICE3, you don´t use FLIP to upload the code, but you overwrite the Flash memory by JTAGICE3 and so an installed bootloader. As an installed bootloader is mandatory for the use of FLIP, serious use of FLIP during the debugging phase of the development of a software is not intended.
+      *Atmel staff members told me inofficially, that a free ( command line ) untility to work with the tool on Windows is under development.
+    *The in-circuit debugger [[http://store.atmel.com/PartDetail.aspx?q=p:10500053|Atmel AVR Dragon]].
+      *[[http://www.aplomb.nl/TechStuff/Dragon/Dragon.html|Nard Awater "My Dragon"]]
+      *[[http://en.wikipedia.org/wiki/Atmel_AVR|EN.Wikipedia "Atmel AVR"]] - "The Dragon also allows debugging of all AVRs via JTAG or DebugWire; a previous limitation to devices with 32 kB or less program memory has been removed in AVRstudio 4.18".
+  *[[http://www.uc-projects.com/|Frank Erdrich "µController-Projects"]] - The OpenSource hardware & software "Projekte / AVR JTAG-Interface" ( last update: 2005-02-12 ).
+  *[[http://www.ecrostech.com/|ECROS Technology]].
+    *[[http://www.ecrostech.com/AtmelAvr/AvrIceCube/|ECROS Technology "AVR 'ICE-Cube' JTAG In-Circuit Emulator Interface"]].
+  *[[http://www.olimex.com/|OLIMEX Ltd.]], Bulgaria.
+    *[[http://www.olimex.com/dev/|OLIMEX Ltd. "Development boards and Tools"]] -> "AVR".
+      *[[http://www.olimex.com/dev/avr-jtag.html|OLIMEX Ltd. "AVR-JTAG-L JTAG DONGLE FOR PROGRAMMING AND EMULATION"]], RS-232 interface - "Note this is not AT-JTAGICE-MK2 and supports only ATmega16, ATmega32, ATMega323, ATmega162, ATmega169, ATmega128 microcontrollers" :-(.
+      *[[http://www.olimex.com/dev/avr-usb-jtag.html|OLIMEX Ltd. "AVR-USB-JTAG OPTOISOLATED USB JTAG DONGLE FOR PROGRAMMING AND EMULATION"]] - "AVR-JTAG-USB is completely analog of ATJTAGICE (AVR Studio thinks it works with original ATJTAGICE). Note this is not AT-JTAGICE-MK2 if you want to work with the newer devices or with debug wire this JTAG will not do the job" :-(.
+=== Software Tools ===
+  *Atmel debugger IDEs.
+    *[[http://www.atmel.com/avrstudio|Atmel AVR Studio 5]]
+    *[[http://www.atmel.com/dyn/products/tools_card.asp?tool_id=2725|Atmel AVR Studio 4]].
+  *GNU Debugger.
+    *[[http://www.gnu.org/s/gdb/|GDB: The GNU Project Debugger]].
+    *The OpenSource [[http://www.gnu.org/software/ddd/|DDD - Data Display Debugger]].
+    *The OpenSource [[http://sources.redhat.com/insight/|RedHat Insight - The GDB GUI]].
+    *The OpenSource [[http://avarice.sourceforge.net/|SourceForge "AVaRICE"]], [[http://www.sourceforge.net/projects/avarice|SourceForge "AVaRICE"]] for Windows and Linux - "AVaRICE is a program which interfaces the GNU Debugger GDB with the Atmel AVR JTAG ICE". 
+      *It provides a link from the Atmel tools to gdb and then on top of gdb you can run all the usual debugging GUIs: [[http://www.eclipse.org/|Eclipse]], [[http://www.netbeans.org/|Netbeans]], [[http://www.codeblocks.org/|Code::Blocks]], [[http://www.gnu.org/software/ddd/|ddd]]...
+  *The free [[http://atmel.com/dyn/products/tools_card.asp?tool_id=3886|Atmel Corporation "FLIP"]] a Java application for Linux and Windows - "Supports in-system programming of flash devices through RS232, USB or CAN".
+=== Resources ===
+  *The base for On-Chip Debug ( OCD ) and In-System-Programming ( ISP ) / In Circuit Serial Programming ( ICSP ) of Atmel CPUs with JTAGICE3 are 3 protocols:
+    *Debugging.
+      *DebugWIRE debugging for ATmega48 / 88 / 168 / 328, ATtiny.
+      *JTAG debugging for all Atmel CPUs with JTAG interface ( of course just if the JTAG interface is made available on the printed ciruit board, so not on [[http://arduino.cc/en/Main/ArduinoBoardMega2560|Arduino Mega2560]] ), like ATxmega, ATmega640/V, ATmega1280/V, ATmega1281/V, ATmega2560/V, ATmega2561/V.
+    *Programming & Debugging.
+      *Program and Debug Interface ( PDI ) for ATxmega, AT90USB1287, Atmel Xplain evaluation boards, all Atmel chips with USART module.
+  *[[http://www.mikrocontroller.net/articles/DebugWIRE|mikrocontroller.net "DebugWIRE"]].
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/In-system_programming|EN.Wikipedia "In-system programming"]], [[http://de.wikipedia.org/wiki/In-System-Programmierung|DE.Wikipedia "In-System-Programmierung"]].
+    *[[http://en.wikipedia.org/wiki/In-circuit_emulator|EN.Wikipedia "In-circuit emulator"]], [[http://de.wikipedia.org/wiki/In-Circuit-Emulator|DE.Wikipedia "In-Circuit-Emulator"]].
+    *[[http://en.wikipedia.org/wiki/Joint_Test_Action_Group|EN.Wikipedia "Joint Test Action Group"]], [[http://de.wikipedia.org/wiki/Joint_Test_Action_Group|DE.Wikipedia "Joint Test Action Group"]] ( JTAG ).
+    *[[http://en.wikipedia.org/wiki/PDI|EN.Wikipedia "PDI"]] -> "Program and Debug Interface, an Atmel proprietary interface for external programming and on-chip debugging of computing devices".
+    *[[http://en.wikipedia.org/wiki/DebugWIRE|EN.Wikipedia "DebugWIRE"]].
+
+==== Free IDEs ====
+=== AVR Studio ===
+  *In opposite to the development tools of other chip manufacturers,  
+    -Atmel's development system "AVR Studio" ( the IDE ) is free.
+    -"AVR Studio" may use the OpenSource compiler [[http://winavr.sourceforge.net/|SourceForge "WinAVR"]] as standard compiler, and not a proprietary own tool.. So with this compiler, there is no artifical "code size limit", neither for 8-bit nor for 32-bit.
+  *Sample projects are in the AVR Studio 4 folder "C:\Program Files\Atmel\AVR_Tools\AVR Toolchain\doc\avr-libc\examples" #.
+  *Sample projects are in the AVR Studio 5 folder "C:\Program Files\Atmel\AVR Studio 5.0\AVR Toolchain\doc\avr-libc\examples" #.
+  *[[http://www.atmel.no/beta_ware/|Atmel Corporation "AVR Tools Beta Site"]].
+  *[[http://www.atmel.com/dyn/resources/prod_documents/novice.pdf|Atmel Corporation "Novice’s Guide to AVR Development"]] ( PDF ).
+  *Both "AVR Studio 4" and "AVR Studio 5" install an AVR [[http://www.jungo.com/|Jungo]] USB driver, as interface for embedded devices.
+== AVR Studio 6 ==
+  *The free [[http://www.atmel.com/tools/atmel_studio6.aspx|Atmel AVR Studio 6]] for WinXP, Vista, Win7 with Visual Studio Shell (Isolated mode) 2010 and .NET 4.0.
+== AVR Studio 5.x ==
+  *The free IDE [[http://www.atmel.com/avrstudio|Atmel AVR Studio 5]], [[http://www.atmel.com/dyn/products/tools_card.asp?tool_id=17212&source=avr_5_studio_overview|Atmel AVR Studio 5]] for WinXP, Vista, Win7 with Visual Studio Shell (Isolated mode) 2010 and .NET 4.0.
+    *You can select the target at the project properties. So for CPU emulation without target hardware, open a project, select "Project" / "<projectname> Properties" at the menu bar. View the menu card "Debugging" and set "Selected debugger" to "AVR Simulator".
+    *Documentation [[http://www.atmel.com/dyn/products/tools_card.asp?tool_id=17212&source=avr_5_studio_overview|Atmel AVR Studio 5]].
+      *PDF Document "Atmel AVR32833: Atmel AVR Studio 5 - How to Add a New Project into an Existing Solution".
+    *[[http://support.atmel.no/bin/customer.exe?action=viewKbCategory&id=121|Atmel "Technical Support / Frequently Asked Questions / English / AVR Studio 5"]].
+    *Sample projects for "Atmel AVR XMEGA Xplained Kit" ( with ATxmega128A1 ) or "Atmel AVR XMEGA-A3BU Xplained kit" ( with ATxmega256A3BU ) -> "File / New / Example Project", "Show Projects = 'AVR XMEGA, 8-bit". The documentation is just available online, not on the local PC on which AVR Studio 5 is installed. The documentation of each project includes a dependency graph ( [[http://en.wikipedia.org/wiki/Dependency_graph|EN.Wikipedia "Dependency graph"]] ) of the source files ( probably made with the OpenSource [[http://www.graphviz.org/|Graphviz]] ).
+== Extensions for AVR Studio 5 ==
+  *At AVR Studio 5, "Tools / Extension Manager / Online Gallery" You can install some additional tools. Online download and offline installation is not possible.
+    -The OpenSource **[[http://ankhsvn.open.collab.net/|CollabNet, Inc. "AnkhSVN"]]**.
+      *"Subversion support for AVR Studio 5".
+      *"Subversion Support for Visual Studioand Visual Studio".
+      *[[http://www.open.collab.net/support/|CollabNet, Inc. "Support"]].
+        *[[http://blogs.collab.net/|CollabNet, Inc. "Blogs - Community Mindshare & News"]].
+        *[[http://www.open.collab.net/community/|CollabNet, Inc. "CollabNet Community"]].
+      *[[http://help.collab.net/|CollabNet, Inc. "CollabNet User Information Center"]].
+    -The free "**AVRGCC C++**" - An extension for creating AVRGCC C++ projects in AVR Studio 5 RTM.
+      *[[http://support.atmel.no/bin/customer.exe?action=viewKbCategory&id=121|Atmel "Technical Support / Frequently Asked Questions / English / AVR Studio 5"]].
+        *"C++ (beta) support for AVR Studio 5, Q & A".
+      *Alternatively, you might configure the AVRGCC C compiler front end to compile C++ code, set "Project / Properties / Toolchain / AVR GNU C Compiler / Miscellaneous / other flags" to "-x c++ -std=gnu++98".
+      *Alternatively, you might use an external makefile, at "Project / Properties / Build /" by setting "[x] Use External Makefile". By this, you might integrate third-party tools like a MISRA-C checker.
+    -The free "**Visual Assist X for AVR Studio**" - Read, write, navigate, and refactor code FAST with more than 50 productivity boosting features.
+      *"Visual Assist X for AVR Studio" is a licensed special edition of the commercial [[http://www.wholetomato.com/|Whole Tomato Software, Inc. "Visual Assist X for Visual Studio"]].
+    -The free [[http://jaxcoder.com/Products.aspx?id=4|JaxCoder "ToDo Manager for AvrStudio 5.0"]].
+    -The OpenSource [[https://github.com/saaadhu/naggy|Github "naggy"]] - "A live compiler diagnostics extension for AVR Studio".
+== AVR Studio 4 ==
+  *The free legacy [[http://www.atmel.com/dyn/products/tools_card.asp?tool_id=2725|Atmel AVR Studio 4]] for W2k.
+    *For CPU emulation without target hardware, select "Debug" / "Select Platform and Device" at the menu bar. Then select "AVR Simulator 2" as target.
+    *The latest editioon for Windows 95 is "AVR Studio 4.12 SP3".
+    *The latest editioon for Windows 98SE is "AVR Studio 4.16 SP1".
+== Extensions for AVR Studio 4 ==
+  *The free [[http://www.helmix.at/hapsim/|HAPSIM - Helmi's AVR Periphery Simulator]] - "LCD (HD44780U), Terminal (USART and TWI), LEDs, Push-Buttons and Keypad Simulator Extension for the AVR Simulator of Atmel's AVR Studio 4".
+==== Arduino IDE ====
+  *See [[arduino.html|The Arduino / Freeduino Platform with Atmel ATmega, Microchip PIC, ARM, Freescale Coldfire]].
+==== avr-project-ide ====
+  *The OpenSource [[http://code.google.com/p/avr-project-ide/|Google Code "avr-project-ide. Development Environment for AVR Microcontroller Projects "]] for WinXP with .NET 3.5.
+=== Eclipse ===
+  *The OpenSource [[http://avr-eclipse.sourceforge.net/|SourceForge "The AVR Eclipse Plugin"]], [[http://www.sourceforge.net/projects/avr-eclipse|SourceForge "AVR Plugin for Eclipse"]].
+    *[[http://www.avrfreaks.net/index.php?module=Freaks%20Tools&func=viewItem&item_id=944|AVR Freaks "AVR Eclipse Plugin"]].
+  *The free Eclipse-based [[http://www.atmel.com/dyn/products/tools_card.asp?tool_id=4116|Atmel AVR Studio32]] - The shipped toolchain is just for Atmel 32-bit CPUs.
+=== KontrollerLab ===
+  *The OpenSource [[http://kontrollerlab.sourceforge.net/|SourceForge "KontrollerLab"]], [[http://www.sourceforge.net/projects/kontrollerlab/|SourceForge "KontrollerLab"]] - "An IDE for developing software for Atmel(r) AVR(c) microcontrollers using the avr-gcc compiler, the uisp and the avrdude upload software".
+=== VMLAB ===
+  *The free IDE [[http://www.amctools.com/|Advanced Micro Tools "VMLAB"]] for Windows - "VMLAB: hardware and software together. It is a new concept in the microcontrollers tools: a virtual prototyping IDE".
+
+==== Free Compilers, Assemblers... ====
+  *GNU C/C++.
+    *General Tips.
+      *[[http://www.nongnu.org/avr-libc/user-manual/using_tools.html|AVR Libc "Using the GNU tools"]] - all about AVR-specific compiler switches !
+      *[[http://gcc.gnu.org/onlinedocs/gcc-3.3.5/gcc/AVR-Options.html|GCC, the GNU Compiler Collection "3.17.26 AVR Options"]].
+    *How to use C++ on Atmel.
+      *[[http://users.rcn.com/rneswold/avr/|Richard M. Neswold, Jr. "A GNU Development Environment for the AVR Microcontroller"]], 2002.
+      *[[http://www.nongnu.org/avr-libc/user-manual/FAQ.html|AVR Libc - FAQ]] #.
+        *"Can I use C++ on the AVR?" :-( #.
+      *[[http://www.avrfreaks.net/index.php?name=PNphpBB2&file=viewtopic&t=59453|AVR Freaks Forum, Thread "avr-c++ micro how-to"]] #.
+    *Platforms.
+      -GNU C/C++ on Windows.
+        *The free [[http://www.atmel.com/dyn/products/tools_card.asp?tool_id=4118|Atmel Corporation "Atmel AVR Toolchain for Windows"]]. Just this latest edition, shipped with Atmel Studio 5, is suitable to work with the Atmel ASF, shipped with Atmel Studio 5.
+          *The binaries for ATxmega are installed in the directory "C:\Program Files\Atmel\AVR_Tools\AVR Toolchain\avr".
+        *The free compiler chain [[http://shop.chip45.com/AVR-Mikrocontroller-Software/PortableWinAVR|chip45 "Portable WinAVR"]] for Windows.
+          *[[http://download.chip45.com/Portable%20WinAVR-20090313%20Quick%20Start%20Guide.html|chip45 "Portable WinAVR Quick Start Guide"]].
+        *The OpenSource [[http://winavr.sourceforge.net/|SourceForge "WinAVR"]], [[http://www.sourceforge.net/projects/winavr/|SourceForge "WinAVR"]] for Windows - "A suite of executable, open source software development tools for the Atmel AVR series of RISC microprocessors hosted on the Windows platform. Includes the GNU GCC compiler for C and C++".    
+        *[[http://www.sourceforge.net/users/arcanum|SourceForge People "Eric Weddington"]], [[http://www.linkedin.com/pub/eric-weddington/4/54a/385|LinkedIn "Eric Weddington"]].
+      -GNU C/C++ on Linux.
+        *The free [[http://www.atmel.com/dyn/products/tools_card.asp?tool_id=17311&category_id=163&family_id=607&subfamily_id=1965|Atmel AVR Toolchain for Linux]].  
+        *Suggestion by experts: Do not use [[http://www.nongnu.org/synaptic/|Synaptic Package Manager]] on [[http://www.ubuntu.com/|Ubuntu]] Linux or similar tools with other Linux distributions, as there you might get outdated packages :-(!
+        *[[http://www.avrfreaks.net/index.php?name=PNphpBB2&file=profile&mode=viewprofile&u=63735|AVR Freaks "Bingo600"]].
+          *[[http://www.avrfreaks.net/index.php?name=PNphpBB2&file=viewtopic&t=42631|AVR Freaks Forum, Thread "Script for building AVR-GCC 4.3.4 on Linux"]] #.
+          *[[http://www.avrfreaks.net/index.php?name=PNphpBB2&file=viewtopic&p=654163|AVR Freaks Forum, Thread "Suggested tools for AVR use under Linux"]].
+        *[[http://www.avrfreaks.net/index.php?name=PNphpBB2&file=profile&mode=viewprofile&u=95206|AVR Freaks "clawson"]].
+          *[[http://www.wrightflyer.co.uk/avr-gcc/|wrightflyer.co.uk "AVR-GCC .deb packages"]].
+        *[[http://www.modularcircuits.com/blog/projects/development-tools/gcc-for-arm-avr-and-blackfin/|Modular Circuits "GCC for ARM, AVR and BlackFin"]].
+        *The Opensource [[http://www.nongnu.org/avrdude/|AVRDUDE - AVR Downloader/UploaDEr]] for Windows & Linux.
+        *The OpenSource [[http://libusb.sourceforge.net/|SourceForge "libusb"]], [[http://www.sourceforge.net/projects/libusb/|SourceForge "libusb"]] for Linux - "Library to enable user space application programs to communicate with USB devices".
+        *The OpenSource [[http://www.sax.de/~joerg/mfile/|Jörg Wunsch "Mfile - A Makefile generator for AVR-GCC"]] for Windows and Linux.
+        *The OpenSource [[http://www.opend.co.za/software/avrmakegen/avrmake.htm|OpenD "AVRMakeGen"]] for Windows - "A GUI based project manager and makefile generator for the AVR version of the GUN C compiler".
+  *Assembler.
+    -The OpenSource AVR macro assembler "GNU assembler" of WinAVR and the Atmel AVR toolchain ( as.exe ). The output are linkable ELF-DWARF2 object files.
+      *[[http://sourceware.org/binutils/docs/|sourceware.org "Documentation for binutils 2.21"]] - "gas".
+        *[[http://www.sourceware.org/binutils/docs/as/|sourceware.org "Using as"]].
+          *[[http://www.sourceware.org/binutils/docs/as/Macro.html|sourceware.org "Using as" / "7.77 .macro"]]
+      *[[http://www.nongnu.org/avr-libc/user-manual/inline_asm.html|AVR Libc - Inline Assembler Cookbook]] - How to use inline assembly code with the GNU-Assembler gas #.
+    -The free macro AVR assembler "AVRASM" by ATMEL Corporation ( avrasm2.exe - the new assembler, avrasm32.exe - the old assembler ), shipped with Atmel Studio 4 & Atmel Studio 5 in addition to the AVR toolchain. These assemblers are no linking assembler, i.e. the output can´t be linked with object files created by the C compiler or another run of the assembler.
+
+==== Free Tools ====
+  *[[http://www.avr-praxis.de/forum/forumdisplay.php?93-Programme-und-Tools|AVR-PRAXiS "Programme und Tools"]].
+    *The free tool [[http://www.avr-praxis.de/forum/showthread.php?1404-Tool-Xmega-Usart-Calculator|AVR-PRAXiS "Xmega Usart Calculator"]] for Windows.
+    *The free tool [[http://www.avr-praxis.de/forum/showthread.php?539-Tool-USB-PID-der-Mikrocontrollermodule-%E4ndern|AVR-PRAXiS "USB-PID der Mikrocontrollermodule ändern"]] for Windows.
+    *The free tool [[http://www.avr-praxis.de/forum/showthread.php?1176-Tool-AVR-HexViewer|AVR-PRAXiS "AVR-HexViewer"]] for Windows.
+    *The free tool [[http://www.avr-praxis.de/forum/showthread.php?76-Tool-AVR-BitmapToCode|AVR-PRAXiS "AVR-BitmapToCode "]] for Windows.
+    *The free tool [[http://www.avr-praxis.de/forum/showthread.php?1367-Tool-Berechnung-eines-Widerstandsnetzwerkes-(ResistorCalc)&p=13465|AVR-PRAXiS "Berechnung eines Widerstandsnetzwerkes (ResistorCalc)"]].
+  *[[http://www.geocities.com/gahelton1/development_tools.html|gahelton1, Microcontroller Development Tools "Binary File converter"]] for Windows, output of CSV, Assembly code and "C" arrays. 
+  *Free LCD font editors and LCD graphics libraries.
+    *The free "FontCreator" for Java, by Ape ( F. Maximilian Thiele ).
+      *Download [[http://www.extremeelectronics.co.in/downloads/ProGFX/GLCDFontCreator2.zip|Extreme Electronics "GLCD Font Creator 2"]].
+    *[[http://www.mikrocontroller.net/topic/99701|mikrocontroller.net, thread "glcd fontcreator aktuell"]].
+      *Download of a free font editor by Hagen Reddmann.
+    *[[http://www.mikrocontroller.net/topic/86442|mikrocontroller.net, thread "Doku zur glcd Library"]].
+
+==== Free Unit Test Frameworks ====
+  *The free [[http://asf.atmel.com/|AVR Software Framework]] ( ASF ) for Atmel AVR microcontrollers is shipped with a "Test Suite" ( "asf / common / utils / unit_test" ) :-). It provides the macros "test_fail", "test_assert_true", "test_assert_false" for use as assertion calls.
+==== Development Tools with commercial and OpenSource License Model ====
+  *[[http://www.state-machine.com/licensing/|Quantum LeaPs]].
+    *[[http://www.state-machine.com/qp/|Quantum LeaPs "QP"]], [[http://qpc.sourceforge.net/|SourceForge "QP State Machine Frameworks"]], [[http://www.sourceforge.net/projects/qpc/|SourceForge "QP State Machine Frameworks"]] - "lightweight, open source, state machine frameworks".
+      *[[http://www.state-machine.com/avr/|Quantum LeaPs "QP frameworks for AVR"]].
+      *[[http://www.state-machine.com/licensing/|Quantum LeaPs "The Licensing Model"]] - commercial & OpenSource licenses.
+    *The free [[http://www.state-machine.com/qm|Quantum LeaPs "QP Modeler"]] - "Cross-platform, graphical UML modeling tool for designing and implementing real-time embedded applications based on the QP state machine frameworks".
+==== Commercial IDEs with Compilers ====
+  -The commercial [[http://www.e-lab.de/AVRco/|E-LAB Computers "AVRco"]] for Windows - "Pascal-scm für Atmel AVR".
+    *The free Standard release of AVRco - Code size limited to 4 kBytes Flash.
+    *The free Mega8/Meg88 release of AVRco - Code size limited to 8 kBytes Flash AND Mega8/88.
+    *In general, there is support for all ATTiny, ATmega and now for all ATxmega, too. The CPU description is based on ".DSC" files, not on ".H" files. The compiler loads the requested file after the instruction "Device = XMegaxxx". At this moment the compiler knows all relevant facts of the CPU. For example, if you try to load an USB driver in your software, though the targeted ATxmega has no USB onboard, a compiler error is generated. So if you should have a brand-new CPU once, look for if there is already a proper ".DSC" file in the directory "C:\Program Files\AVRco\AVRco".
+    *The compiler is bundled with hardware, which works as a dongle: An included InCircuit Programmer + JTAG Debugger [[http://www.e-lab.de/programmer/isp.html|ISP3]]. 
+    *The debugger doesn't and won`t support debugWIRE. It supports:
+      *ATmega CPUs with JTAG and up to 128K Flash.
+      *ATxmega CPUs. 
+    *The next generation of InCircuit Programmers + JTAG Debuggers of this company will support the use of the PDI interface for debugging, with ATxmega CPUs.
+  -The commercial [[http://www.iar.com/website1/1.0.1.0/107/1/|IAR Embedded Workbench for Atmel AVR]] for Windows - "Integrated development environment and optimizing C/C++ compiler for AVR".
+    *[[http://supp.iar.com/FilesPublic/UPDINFO/005008/ew/doc/infocenter/index.ENU.html|IAR Information Center for Atmel AVR]].
+    *The free "KickStart edition of IAR Embedded Workbench".
+      *It has a 4 KBytes code size limitation.
+      *It does (normally) not include source code for runtime libraries.
+      *It does not include support for MISRA C.
+      *An AVR assembler is included :-). There is the rumour, that the size limit of the Kickstart edition is a size limit of the C compiler, not of the assembler ?!
+     *By the C-Spy tool, hardware debugging is supported with many AVR hardware debuggers, including JTAGICE3.
+  -The commercial [[http://www.hpinfotech.ro/|HP Infotech "CodeVisionAVR Compiler"]] for Windows - "C Compiler" ( not C/C++ ! ).
+    *Vendor [[http://shop.chip45.com/epages/es10644620.sf/de_DE/?ObjectPath=/Shops/es10644620/Categories/AVR-Microcontroller-Software/AVR-Microcontroller-Software-CodeVisionAVR-Compiler|chip45 "CodeVisionAVR Compiler von HP Infotech"]].
+    *The compiler supports inline assembly code and calling functions written in assembly.
+    *You can access the C global volatile variables from assembler.
+    *If you want to use a whole module written in assembly, you must create  a .C file that contains all the assembly code enclosed between: #asm .. #endasm.
+    *CodeVisionAVR V2.05.3a ( and newer ) fully supports the ATxmega chips. 
+    *CVAVR creates a .COF object file that can be opened in AVR Studio and source level debugged using JTAGICE or AVRONE.
+    *A built-in CodeWizardAVR Automatic Program Generator allows you to write in a matter of minutes all the code needed for implementing many frequently needed functions.
+  -The Shareware [[http://www.imagecraft.com/|Karisu & ImageCraft Creations Inc "ICCV8 for AVR"]] for Windows - "C Compiler Tools with Windows IDE for Atmel AVR Microcontrollers" ( not C/C++ ! ).
+    *[[http://www.imagecraft.com/demo_AVR.html|Karisu & ImageCraft Creations "AVR Sample Code Files"]] #.
+    *"The Application Builder is part of the IDE that allows you to generate peripheral initialization code via a point and click interface".
+    *[[http://www.imagecraft.com/devtools_AVR.html|Karisu & ImageCraft Creations "Atmel AVR development tools - Supported AVR devices"]].
+      *"Xmega64A1, Xmega128A1, Xmega256A1 - [x] Header File, [x] IDE Device Selection, [ ] Application builder".
+    *For source code debugging with Atmel hardware debuggers by JTAG or debugWIRE, please load the project into Atmel AVR Studio and do it there ( "Support for COFF debugging with AVR Studio" ).
+    *ICCV8 Advanced: "Support for 128K bytes and 256K bytes MegaAVRs", "MISRA safety checks for more robust code" :-).
+  -The commercial [[http://www.mcselec.com/|MCS Electronics "BASCOM"]] for Windows.
+    *[[http://de.wikipedia.org/wiki/BASCOM|DE.Wikipedia "BASCOM"]].
+    *[[http://www.mcselec.com/index.php?option=com_content&task=view&id=14&Itemid=41|MCS Electronics "BASCOM-AVR"]] - Specifications & features. "BASCOM-AVR is the original Windows BASIC COMPILER for the AVR family. It is designed to run on W95/W98/NT/W2000, XP and Vista".
+    *[[http://avrhelp.mcselec.com/|BASCOM-AVR Help]].
+      *[[http://avrhelp.mcselec.com/index.html?atxmega.htm|BASCOM-AVR Help "ATXMEGA"]] - "The power of the AVR is/was the the linear memory architecture. In the Xmega this has been changed : the registers are placed into a separate address space".
+    *[[http://www.mcselec.com/index.php?option=com_content&task=category&sectionid=12&id=93&Itemid=67|MCS Electronics "BASCOM Articles. Articles about BASCOM"]].
+    *The BASCOM-AVR demo version is limited to 4KB of code. As the demo version is older than the current commercial version, it does not support ATxmega ( as of 2011-09-16 ).
+    *Each CPU supported by BASCOM has its own ".DAT" file ( e.g. ATmega88 = m88def.dat, ATmega88P = m88pdef.dat ). In the full version of Bascom AVR there is the file history.txt with a short description of the changes made to the compiler and new supported chips are always listed. 
+    *Even if there is such a definition file, some CPU functions / modules might not be supported by BASCOM ( e.g. the CAN function / module is not supported by BASCOM ). But you can always use the registers yourself direct to use these kind of functions. 
+    *As at this moment ( 2011-09-16 ) there is no explicite "ATxmega256A3BU" support, have a try with "ATxmega256A3B" = xm192D3def.dat for use with the "Atmel AVR XMEGA-A3BU Xplained kit".
+    *Application note [[http://www.mcselec.com/index.php?option=com_content&task=view&id=306&Itemid=57|MCS Electronics  "AN #192 - Getting Started With ATXMEGA and BASCOM-AVR - Part 1"]] - Full article is available as free PDF :-).
+    *The commercial add-on [[http://members.aon.at/voegel/|AVR-DOS]]. 
+      *"An add-on library to BASCOM-AVR, which provides DOS-functionality to your embedded ATMEL AVR-Controller application". 
+      *"BASCOM-AVR comes with the compiled AVR-DOS library. You can use AVR-DOS free for non commercial use or test it. If you want to use AVR-DOS in commercial applications or you are interested in the source code for your personnel use, there are two different licenses available".
+  -[[http://www.mikroe.com/|MikroElektronika]].
+    *The commercial [[http://www.mikroe.com/eng/products/view/228/mikroc-pro-for-avr/|MikroElektronika "mikroC PRO for AVR"]] - "C compiler for AVR microcontroller device development" ( not C/C++ ! ).
+    *The commercial [[http://www.mikroe.com/eng/products/view/227/mikropascal-pro-for-avr/|MikroElektronika "mikroPascal PRO for AVR"]] - "PASCAL compiler for AVR microcontroller device development".
+    *The commercial [[http://www.mikroe.com/eng/products/view/226/mikrobasic-pro-for-avr/|MikroElektronika "mikroBasic PRO for AVR"]] - "BASIC compiler for AVR microcontroller device development".
+    *[[http://www.visualtft.com/|Visual TFT]] - "A standalone application used for rapid development of graphical user interfaces for TFT displays. Software generates code compatible with mikroElektronika compilers: mikroC, mikroBasic and mikroPascal, for all suported MCU architectures: PIC, dsPIC30/33, PIC24, PIC32 and AVR".
+    *[[http://www.mikroe.com/eng/projects/index/|MikroElektronika "User Projects"]] - free sample projects for PIC & AVR.
+    *If you select the card "Specification" in the middle of the product pages, the section "Supported microcontrollers. Choose your MCU" names the supported CPUs ( ATxmega256A3B is supported, as of 2011-09-16 ). 
+    *You can set mikroC/Basic/Pascal compiler for AVR to generate COF file and use this COF file for hardware debugging with AVR Hardware Debugger.
+  *[[http://www.rowley.co.uk/avr/|Rowley Associates Limited]].
+    *The C compiler "CrossWorks for AVR" for Windows and Linux - "C Compiler for AVR Microcontrollers" ( not C/C++ ! ).
+    *The IDE "CrossStudio".
+    *[[http://www.rowleydownload.co.uk/avr/packages/avr.htm|Rowley Associates Limited "CrossWorks for AVR Support Packages"]].
+    *[[http://rowley.zendesk.com/entries/41301-which-jtag-adapters-are-supported-by-crossworks|Rowley Associates Limited "Which JTAG adapters are supported by CrossWorks?"]].
+    *The compiler does not create COFF files.
+==== IDEs ====
+  *The Shareware [[http://www.atmanecl.net/atmanavr/|Atman Electronics "AtmanAvr"]] for Windows -  - "IDE of C/C++ Compiler AVRGCC". 30 days evaluation timeout.
+    *"The Code Wizard is like a programmer's assistant: it makes it easier for you to do certain routine tasks such as 1) creating new modules, 2) adding or deleting interrupt functions, and 3) seeing which modules or interrupt handlers are already defined and jumping to the handler program code".
+  *The free KamAVR IDE.
+    *[[http://www.avrfreaks.net/index.php?module=Freaks%20Tools&func=viewItem&item_id=632|AVR Freaks "Tools / C / KamAVR IDE for avr-gcc"]].
+    *Author: [[http://www.avrfreaks.net/index.php?module=Freaks%20Vendors&func=displayVendor&id=494|KAM Labs LLC]].
+==== Resources ====
+  *[[http://www.mikrocontroller.net/articles/USB|mikrocontroller.net "USB"]].
+  *[[http://www.atmel.com/dyn/products/tools_docs.asp?category_id=163&family_id=607&subfamily_id=760&tool_id=4440|Atmel "AVR USB Series2 Software Packages"]].
+    *Application note "AVR272: USB CDC Demonstration: UART to USB Bridge, on megaAVR with USB".
+  *[[http://www.atmel.com/dyn/products/tools_card.asp?category_id=163&family_id=607&subfamily_id=760&tool_id=3879|Atmel "AT90USBKEY"]].
+    *Application note "AVR280: USB Host CDC Demonstration on megaAVR with USB".
+  *[[http://shop.avr-praxis.de/development-tools/mc-module/xmega-a1-usb.html|AVR-PRAXis "XMEGA-A1-USB"]] - "Das Mikrocontroller-Modul XMEGA-A1-USB nutzt als USB2.0-Interface Silab USB-USART-Bridge CP2102. Das USART-Interface des CP2102 (RXD/TXD) ist mit USART0 ORTF des ATxmega verbunden. Auf der PC-Seite nutzt man entweder den virtuellen COM-Port (VCP, ProductID PID EA60 ist  voreingestellt) oder den direkten USB-Treiber USBxpress (ProductID PID EA61, kann mit einem Tool von Silab eingestellt werden, welches im Development-Kit von Silab enthalten ist, siehe unten Medien/Links). Das Mikrocontroller-Modul lässt sich zum Beispiel sehr gut für eine Übertragungsrate von 250.000bps konfigurieren (USBxpress Treiber genutzt)".
+  *The Setup information files "lowcdc.inf" and "avr.inf" are shipped with [[http://www.recursion.jp/avrcdc/|Osamu Tamura @ Recursion Co., Ltd. "AVR-CDC"]]. The installation of one of these files enables Windows to load Windows's pre-installed driver "usbser.sys", which performs virtual COM ports over the CDC protocol.
+    *[[http://www.recursion.jp/avrcdc/driver.html|Osamu Tamura @ Recursion Co., Ltd. "Driver"]] - "It is necessary to install a device driver on PC to use "USB to RS- 232C" convert device".
+  *AVR Libc Home Page.
+    *[[http://www.nongnu.org/avr-libc/user-manual/group__avr__stdio.html|AVR Libc Home Page "<stdio.h>: Standard IO facilities"]] #.
+    *[[http://www.nongnu.org/avr-libc/user-manual/group__stdiodemo.html|AVR Libc Home Page "Using the standard IO facilities
+[Demo projects]"]]. The article describes the sample project supplied with WinAVR, at "C:\Program Files\Atmel\AVR_Tools\AVR Toolchain\doc\avr-libc\examples\stdiodemo" !
+  *[[http://www.google.de/search?q=FDEV_SETUP_STREAM+site:avrfreaks.net|Google - Search results for "FDEV_SETUP_STREAM site:avrfreaks.net"]].
+    *[[http://www.avrfreaks.net/index.php?name=PNphpBB2&file=viewtopic&p=878812#878812|AVRFreaks Forumm, Thread "How to communicate with a host by USB, with ATxmega/ATmega?"]].
+  *[[http://www.google.de/search?q=FDEV_SETUP_STREAM|Google - Search results for "FDEV_SETUP_STREAM"]].
+    *[[http://linux.die.net/man/3/fdev_setup_stream|die.net "fdev_setup_stream(3) - Linux man page"]].
+    *[[http://en.wikipedia.org/wiki/USB_communications_device_class|EN.Wikipedia "USB communications device class"]].
+  *[[http://en.wikipedia.org/wiki/Communications_Device_Class|EN.Wikipedia "USB communications device class"]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Hardware/Components/Processors/AVR/|OpenDirectory "Top: Computers: Hardware: Components: Processors: AVR]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Hardware/Mikrocontroller/|OpenDirectory "Top: World: Deutsch: Computer: Hardware: Mikrocontroller"]].
+{{tag>Atmel AVR ATxmega128A1 ATxmega256A3BU ATxmega "ATX Mega" XMEGA XMEGA-A1 XMEGA-A3BU Xplained "AVR Studio" "8-bit" 8bit CPU "embedded system" "embedded systems" "in-system programming" ISP  "in circuit serial programming" ICSP "on-chip debugging" OSD "in-circuit emulator" "program and debug interface" PDI DebugWIRE "Joint Test Action Group" JTAG}}
+<footnote_navi_en>

@@ -1,0 +1,66 @@
+====== [hemmerling] Linux 4/8 - Linux Applications, Linux Tools and Linux Drivers ======
+Related pages:
+  *[[booting.html|Booting from Devices]].
+  *[[android.html|Google Android]].
+  *[[linux01.html|Linux 1/8]].
+  *[[linux02.html|Linux 2/8 - Linux Distributions]].
+  *[[linux03.html|Linux 3/8 - Linux Boot Loaders, Linux Build Systems, Linux Installers and Linux Implementors]].
+  *[[linux05.html|Linux 5/8 - SUSE 7.1 Linux on Clevo 2700c Notebooks with SIS630S Chipset]].
+  *[[linux06.html|Linux 6/8 - Linux with X-Terminals and Terminals]].
+  *[[linux07.html|Linux 7/8 - Linux on X86, X64 and ARM Computers]].
+  *[[linux08.html|Linux 8/8 - Useful Linux Commands & Linux Tricks]].
+===== Software Components of Linux =====
+==== Linux Desktops ====
+=== GNOME ===
+  *[[http://www.gnome.org/|GNOME]].
+  *[[http://en.wikipedia.org/wiki/Gnome|EN.Wikipedia "Gnome"]], [[http://de.wikipedia.org/wiki/Gnome|DE.Wikipedia "Gnome"]].
+=== KDE ===
+  *[[http://www.kde.org/|KDE Community]], [[http://www.kde.de/|KDE für deutschsprachige Benutzer]].
+  *[[http://en.wikipedia.org/wiki/KDE|EN.Wikipedia "KDE"]], [[http://de.wikipedia.org/wiki/KDE|DE.Wikipedia "KDE"]].
+=== XFCE ===
+  *[[http://www.xfce.org/|XFCE]].
+  *[[http://www.xubuntu.org/|Xubuntu]].
+  *[[http://en.wikipedia.org/wiki/Xfce|EN.Wikipedia "Xfce"]], [[http://de.wikipedia.org/wiki/Xfce|DE.Wikipedia "Xfce"]].
+==== Printing on Linux ====
+  *[[http://en.wikipedia.org/wiki/CUPS|EN.Wikipedia "CUPS"]], [[http://de.wikipedia.org/wiki/Common_Unix_Printing_System|DE.Wikipedia "Common Unix Printing System"]].
+  *Nowadays, as of 2013-11, Linux systems load a hardware-specific kernel module, to enable general printing support. You need a special kernel module for each different printer( e.g. one module for PCL5, one for EPSON, one for PostScript,..) The printing is then configured by the helpof CUPS.
+==== The POSIX and Unix environment subsystem for Windows ====
+  *The Windows NTFS File System required for the installation drive :-(.
+  *W2k, WinXP Pro, Win2003:
+    *[[http://technet.microsoft.com/de-de/interopmigration/bb380242|Microsoft Interoperabilitäts- und Migrations-TechCenter "Windows Services for UNIX"]] - Windows Services for UNIX ( SFU ) 3.5 is available for free download.
+  *Win2003, Win2008, Win7, Win 8, Win2012:
+    *In Windows Server 2008 and high-end versions of Vista, Win7 ( Enterprise and Ultimate ) and Win8 ( Enterprise ), the recent “Subsystem for UNIX-based Applications” ( SUA ) is included. 
+    *[[http://www.microsoft.com/en-us/download/details.aspx?id=20983|Microsoft Download "Utilities and Software Development Kit (SDK) for Subsystem for UNIX-based Applications" for Win2003]].
+    *[[http://www.microsoft.com/en-us/download/details.aspx?id=23754|Microsoft Download "Windows Utilities and SDK for Subsystem for UNIX-based Applications in Microsoft Windows Vista RTM/Windows Vista SP1 and Windows Server 2008 RTM"]] for Vista, Win2008.
+    *[[http://www.microsoft.com/en-us/download/details.aspx?id=2391|Microsoft Download "Utilities and SDK for Subsystem for UNIX-based Applications in Microsoft Windows 7 and Windows Server 2008 R2"]] for Win7, Win2008R2.
+    *[[http://www.microsoft.com/en-us/download/details.aspx?id=35512|Microsoft Download "Utilities and SDK for Subsystem for UNIX-based Applications in Windows 8 and Windows Server 2012"]] for Win8, Win2012.
+  *[[http://technet.microsoft.com/de-de/interopmigration/bb380242|Microsoft Interoperabilitäts- und Migrations-TechCenter "Windows Services for UNIX"]].
+  *[[http://technet.microsoft.com/de-de/library/bb496474%28en-us%29.aspx|Microsoft TechNet "Interoperability and Migration"]].
+  *[[http://www.debian-interix.net/|Debian Interix Port]].
+  *[[http://forums.gentoo.org/viewtopic-t-319691-postdays-0-postorder-asc-start-0.html|Gentoo Discussion Forums, Thread "GeNToo: Gentoo on Microsoft Services For Unix"]].
+  *[[http://www.interopsystems.com/|Interop Systems Inc]].
+    *[[http://www.suacommunity.com/|Interop Community]].
+      *[[http://www.suacommunity.com/SUA.aspx|SUA Community for SUA / SFU / Interix]].
+  *[[http://www.netbsd.org/docs/pkgsrc/platforms.html#interix|NetBSD "Chapter 3. Using pkgsrc on systems other than NetBSD" / "3.3.3. Interix"]].
+  *[[http://en.wikipedia.org/wiki/Windows_Services_for_UNIX|EN.Wikipedia "Windows Services for UNIX"]], [[http://de.wikipedia.org/wiki/Microsoft_Windows_Services_for_UNIX|DE.Wikipedia "Microsoft Windows Services for UNIX"]].
+  *[[http://en.wikipedia.org/wiki/Interix|EN.Wikipedia "Interix"]].
+==== Tools & Toolsets for Linux ====
+  *[[http://www.busybox.net/|BusyBox: The Swiss Army Knife of Embedded Linux]] - "BusyBox combines tiny versions of many common UNIX utilities into a single small executable. It provides replacements for most of the utilities you usually find in GNU fileutils, shellutils, etc. The utilities in BusyBox generally have fewer options than their full-featured GNU cousins; however, the options that are included provide the expected functionality and behave very much like their GNU counterparts. BusyBox provides a fairly complete environment for any small or embedded system".
+    *[[http://en.wikipedia.org/wiki/BusyBox|EN.Wikipedia "BusyBox"]], [[http://de.wikipedia.org/wiki/BusyBox|DE.Wikipedia "BusyBox"]].
+  *[[http://www.roaringpenguin.com/products/pppoe|Roaring Penguin "RP-PPPoE"]] - "free PPPoE client for Linux".
+==== Drivers for Linux ====
+  *[[http://atrey.karlin.mff.cuni.cz/~vojtech/|Vojta Pavlik]].
+    *[[http://atrey.karlin.mff.cuni.cz/~vojtech/joystick/|The Linux Joystick Driver]].
+    *[[http://atrey.karlin.mff.cuni.cz/~vojtech/input/|Linux Input Driver]].
+
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Linux/|OpenDirectory "Top: Computers: Software: Operating Systems: Linux"]].
+    *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Linux/Embedded/|OpenDirectory "Top: Computers: Software: Operating Systems: Linux: Embedded"]].
+    *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Linux/Platforms/|OpenDirectory "Top: Computers: Software: Operating Systems: Linux: Platforms"]].
+  *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Embedded/|OpenDirectory "Top: Computers: Software: Operating Systems: Embedded"]].
+  *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Realtime/|OpenDirectory "Top: Computers: Software: Operating Systems: Realtime"]].
+    *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Realtime/Open_Source/|OpenDirectory "Top: Computers: Software: Operating Systems: Realtime: Open Source"]].
+    *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Realtime/Linux/|OpenDirectory "Top: Computers: Software: Operating Systems: Realtime: Linux"]].
+{{tag>Linux}}
+<footnote_navi_en>
+

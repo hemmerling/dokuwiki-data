@@ -1,0 +1,197 @@
+====== [hemmerling] Microsoft Windows ======
+Related pages:
+  *[[dos.html|DOS, Microsoft MSDOS, Digital Research DR-DOS, OpenDOS]].
+  *[[win9x.html|Windows 3.x , Windows 9.x, Windows ME]].
+  *[[winxp.html|Windows 2000, Windows XP, Windows 2003 Server]].
+  *[[win7.html|Windows Vista, Windows 7, Windows 2008 Server, Windows 8]].
+  *[[winembedded.html|Windows Embedded, Windows Embedded CE]].
+  *[[windowsphone.html|Windows Phone]].
+  *[[metro.html|Modern UI Design]].
+  *[[windeveloper.html|Software Development for Windows]].
+  *[[dotnet.html|Microsoft .NET Framework 1/2]].
+  *[[dotnet02.html|Microsoft .NET Framework 2/2]].
+  *[[software.html|Software]].
+===== Microsoft - The Company =====
+  *[[http://www.microsoft.com/|Microsoft]].
+  *[[http://www.microsoft.de/|Microsoft Deutschland GmbH]], [[http://www.microsoft.com/de-de/|Microsoft Deutschland GmbH]].
+  *[[http://www.microsoft.com/de-de/smb/KMU-Nachrichten/|Microsoft KMU-Nachrichten]].
+===== Windows Tools for Administration and Development =====
+  *[[http://www.sysinternals.com/|Microsoft Technet: Windows Sysinternals]] ( Formerly: Sysinternals ).
+  *The OpenSource [[http://windirstat.info/|WinDirStat]], [[http://windirstat.sourceforge.net/|Sourceforge "WinDirStat: Windows Directory Statistics"]], [[http://www.sourceforge.net/projects/windirstat/|Sourceforge "WinDirStat: Windows Directory Statistics"]] for Windows  - "A disk usage statistics viewer and cleanup tool for Microsoft Windows". 
+    *Predecessor: The free [[http://w3.win.tue.nl/nl/onderzoek/onderzoek_informatica/visualization/sequoiaview/|Technische Universiteit Eindhoven "SequoiaView"]] for Windows - "Standard treemaps often lead to thin rectangles. We have developed a new method to display files : Squarified treemaps. The screen is subdivided such that rectangles approach squares as closely as possible".
+    *[[http://www.win.tue.nl/cgi-bin/usr/sequoia/download3.cgi|Technische Universiteit Eindhoven "Download SequoiaView. Use the link below to download the freeware version of Sequoiaview"]].
+  *The free [[http://www.fullarmor.com/ADMX-download-options.htm|FullArmour - The Leaders in Enterprice Policy Management "ADMX Migrator"]].
+    *[[http://4sysops.com/archives/fullarmor-admx-migrator-a-free-gui-tool-for-creating-admx-templates-and-converting-adm-files/|4SysOps "FREE: ADMX Migrator – GUI tool for creating ADMX templates and converting ADM files"]].
+  *Microsoft.
+    *[[http://www.microsoft.com/download/en/details.aspx?id=7352|Microsoft Download Center "Microsoft Application Compatibility Toolkit 5.6"]].
+    *[[http://en.wikipedia.org/wiki/Cacls|EN.Wikipedia "cacls"]] - cacl, icacl. "Microsoft Windows native command line utilities capable of displaying and modifying the access control lists (ACLs) on folders and files".
+    *[[http://www.microsoft.com/download/en/details.aspx?id=8572|Microsoft Download Center "WMI Code Creator v1.0"]] - "The WMI Code Creator tool allows you to generate VBScript, C#, and VB .NET code that uses WMI to complete a management task".
+    *[[http://en.wikipedia.org/wiki/User_State_Migration_Tool|EN.Wikipedia "User State Migration Tool"]], [[http://de.wikipedia.org/wiki/User_State_Migration_Tool|DE.Wikipedia "User State Migration Tool"]].
+      *[[http://www.microsoft.com/download/en/details.aspx?id=10837|Microsoft Download Center "Windows User State Migration Tool (USMT) Version 3.0.1"]].
+    *[[http://msdn.microsoft.com/en-us/library/ms669985%28VS.85%29.aspx|Microsoft HTML Help]].
+      *[[http://de.wikipedia.org/wiki/Microsoft_Help|DE.Wikipedia "Microsoft Help"]].
+      *[[http://de.wikipedia.org/wiki/CHM_%28Dateiformat%29|DE.Wikipedia "CHM (Dateiformat)"]].
+      *[[http://www.ec-software.com/products_hhreg.html|HHReg v1.2 - HTML Help Registration Utility]].
+      *Error message "Action Canceled" when viewing .CHM files: Windows is disabled to show HTML Help files opened from a network drive. Suggestion: Put the CHM files onto the local harddrive. Files viewed from local drives are not affected.
+        *[[http://support.microsoft.com/kb/896054/EN-US/|Microsoft Help and Support "You cannot open remote content by using the InfoTech protocol after you install security update 896358, security update 840315, or Windows Server 2003 Service Pack 1]].
+        *[[http://support.microsoft.com/kb/896358/DE/|Microsoft Hilfe und Support "MS05-026: Sicherheitsanfälligkeit in HTML-Hilfe kann Remotecodeausführung ermöglichen"]].
+  *[[http://www.nirsoft.net/|Nirsoft]] by Nir Sofer.
+  *Regshot for Windows.
+    *The OpenSource Windows Registry Management tool [[http://regshot.sourceforge.net/|SourceForge "regshot"]], [[http://www.sourceforge.net/projects/regshot/|SourceForge "regshot"]] 1.8.2.
+    *[[http://wayback.archive.org/web/*/http://regshot.ru/|Archive.org "regshot.ru"]] ( - 2010 ).
+      *[[http://www.mediafire.com/?8r1ikb57217und5||MediaFire "Regshot 2.0.1.70"]].
+      *[[http://www.winpenpack.com/en/download.php?view.1170|winPenPack "X-Regshot-2 2.0.1.70 [rev4]"]].
+  *The free [[http://www.quest.com/spotlight-on-windows/|Quest "Spotlight on Windows"]], for Windows.
+  *The free Windows Registry Management tool [[http://www.vtaskstudio.com/support.php|Vista Software "WhatChanged"]] for Windows.
+  *[[http://technet.microsoft.com/sysinternals/|Windows Systernals]].
+    *[[http://technet.microsoft.com/en-us/sysinternals/bb897434.aspx|Windows Systernals "ZoomIt"]].
+      *ZoomIt requires [[http://www.microsoft.com/download/en/details.aspx?DisplayLang=en&id=18909|GDI+]] ( must be installed separately on W2k, just copy "gdiplus.dll" to "C:\WINNT\system32\gdiplus.dll" ).
+===== Windows Resource Kit =====
+  *[[http://technet.microsoft.com/en-gb/windowsserver/bb643141|Microsoft Technet, US: "Windows 2000 Server"]],[[http://technet.microsoft.com/de-de/windowsserver/bb643141|Microsoft Technet, Germany: "Windows 2000 Server"]].
+  *[[http://www.microsoft.com/windows/reskits/|Windows Server TechCenter "Windows Resource Kits"]].
+  *[[http://www.microsoft.com/mspress/books/1394.aspx|Microsoft Learning "Microsoft Windows 2000 Server Resource Kit"]] - 7 books and 1 companion CD.
+  *[[http://www.amazon.de/exec/obidos/ASIN/073561279X/hemmerling-21|Microsoft Windows 2000 Server Resource Kit, Supplement 1]] - 1 book and 1 companion CD.
+  *[[http://support.microsoft.com/kb/927229/en-us|Microsoft Help and Support "Windows 2000 Resource Kit Tools for administrative tasks"]].
+  *[[http://www.microsoft.com/downloads/details.aspx?FamilyID=681637d5-5dda-4f28-8e6c-ebbf097482b6&DisplayLang=de|Microsoft Download Center "Windows 2000 Service Pack 3-Bereitstellungstools"]].
+  *[[http://www.microsoft.com/downloads/en/details.aspx?familyid=9d467a69-57ff-4ae7-96ee-b18c4790cffd&displaylang=en|Microsoft Download Center "Windows Server 2003 Resource Kit Tools"]].
+  *[[http://technet.microsoft.com/de-de/windowsserver/bb405955.aspx|Microsoft Technet, Windows Server "Windows Server 2003-Tools"]].
+===== Windows Update / Patch Management =====
+  *"Windows Server Update Services" ( WSUS ).
+    *If you operate a Windows server at your home, you may let it load all updates for certain versions of Microsoft Product ( e.g. Windows operating systems ) at this central resource, and then to source updates from it for all other ( Windows ) devices.
+    *[[http://technet.microsoft.com/en-us/windowsserver/bb332157.aspx|Microsoft TechNet "Windows Server Update Services"]].
+    *[[http://technet.microsoft.com/en-us/library/hh852345.aspx|Microsoft TechNet "Windows Server Update Services Overview"]].
+    *[[http://en.wikipedia.org/wiki/Windows_Server_Update_Services|EN.Wikipedia "Windows Server Update Services"]], [[http://de.wikipedia.org/wiki/Windows_Server_Update_Services|DE.Wikipedia "Windows Server Update Services"]].
+===== Windows Deployment Tools =====
+  *The free [[http://technet.microsoft.com/en-us/sysinternals/bb963902.aspx|Microsoft TechNet, Mark Russinovich and Bryce Cogswell: "AutoRuns for Windows v11.34"]] for WinXP.
+  *[[http://www.litepc.com/|LitePC Technologies "XPlite", "2000lite", "98lite"]] - "powerful configuration utilities for Windows creating a modular Windows operating system where YOU are in control".
+  *[[http://www.nliteos.com/|nLite]] - Tool for pre-installation Windows configuration and component removal at your choice. Tyical application: Deployment of W2k or WinXp on webbooks.
+  *How to reinstall WinXP-Home on Flash PCs like "ASUS Eee PC 901".
+    *[[http://wiki.eeeuser.com/|EeeUser Wiki]].
+      *[[http://wiki.eeeuser.com/windows:restorexp_from_usb|EeeUser Wiki: "Restore computers with Pre-installed Windows XP from USB"]].
+      *[[http://forum.eeeuser.com/viewtopic.php?id=56930|EeeUser Forum: "Easy default system recovery from flash drive! (Windows)"]].
+    *[[http://gocoding.com/page.php?al=petousb|PeToUSB - Boot BartPE From USB]].
+  *[[http://www.heise.de/ct/artikel/Entfesselt-290296.html|C´t, Karsten Violka: "Entfesselt. Per Mausklick zur vollwertigen Windows-XP-CD"]].
+    *[[http://www.heise.de/software/download/ct_slipstreamer/39047|c't Slipstreamer 2.01]].
+  *Jens Kaminsky / Rainer Ullrich.
+    *[[http://www.rainerullrich.de/pc/sp3integration/sp3integration|Rainer Ullrich: "Patch/SP3-Integration in (d)eine Windows XP-CD"]].
+    *[[http://jenskaminsky.de/weiter/soft.html|Jens Kaminsky: "Offline Update"]].  
+  *[[http://www.marlow.dk/site.php/tech/usbkeys|Martin List-Petersen: "Bootable USB Keys"]].
+  *[[http://www.pocketec.net/downloads.taf?f=pockey1DosDrivers|duse]] - "Dos drivers for MS/PC-DOS for use with the POCKETEC USB 2.0 portable drive".
+  *[[http://www.bootdisk.com/|Bootdisk.Com - BootDisks - PC Support - Essential Utilities]].
+    *[[http://www.bootdisk.com/pendrive.htm|Bootdisk.Com: "How To Boot From A USB Flash Drive"]].
+    *[[http://www.bootdisk.com/popfiles.htm|Bootdisk.Com: "Support For Hosting Popular Files"]].
+      *HP USB Disk Storage Tool.
+  *[[http://members.ozemail.com.au/~nulifetv/freezip/freeware/|DS File Ops Kit]].
+  *[[http://www.rekenwonder.com/linkmagic.htm|Junction Link Magic]] for W2k, WinXP, Vista, Win7 with NTFS media.
+  *[[http://www.microsoft.com/windowsxp/Downloads/powertoys/Xppowertoys.mspx|Microsoft PowerToys for Windows XP]] - TweakUI,..
+===== Windows Desktop =====
+==== Windows Desktop Utilities ====
+  *The free [[http://www.stardock.com/products/fences/|Stardock Fences - Windows Desktop Organization Software]].
+==== Virtual Windows Desktops ( Desktop Oversizing ) ====
+  *[[http://www.gimespace.com/|GiMeSpace - The best virtual desktop managers in the universe!]].
+    *The free [[http://gimespace.com/free.html|GiMeSpace Free Edition]] - "**Expands your desktop limitless in horizontal direction** while you can scroll by pushing your mouse to the left and right side of your screen".
+    *The commercial [[http://gimespace.com/gms3d.html|GiMeSpace Desktop Extender 3D]] - "Like in the standard edition you can scroll left-right, up-down. But now you can also zoom in and out seamless".
+  *The discontinued free [[http://web.archive.org/web/*/http://www.360desktop.com/|Archive.org "360desktop"]] for WinXP, Win8 - **Horizontal** desktop oversizing.
+    *[[http://www.facebook.com/360desktop|Facebook "360desktop"]].
+    *[[http://twitter.com/360desktop|Twitter "360desktop"]].
+    *[[http://www.youtube.com/360desktop|YouTube "360desktop"]].
+    *[[http://download.chip.eu/de/360desktop_5194782.html|CHIP Download "360desktop 0.8.5.2084"]].
+  *The discontinued free [[http://web.archive.org/web/*/http://www.nearestexit.com/sdesk/|Archive.org "Robert Bresner: Scrollable Desktop (SDesk)"]] by [[http://web.archive.org/web/*/http://www.nearestexit.com/|Robert Bresner, nearestexit studio]] for WinXP ( - 2009-03-17 ).
+    *[[http://download.cnet.com/SDesk/3000-2346_4-10078754.html|CNET "SDesk" - Download]].
+==== Virtual Windows Desktops ( Windows Sizing ) - Helpful for 1024x600 and smaller Displays :-) ====
+  *The commercial [[http://www.dandeware.com/|Dandeware "ScreenSpace"]]. A free "ScreenSpace Lite" with "annoying popups" ect. is available..
+  *The free [[http://www.deskex.com/Altmove/|DeskEx. "AltMove"]].
+  *[[http://kjh.ca/contour_mods/doku.php?id=solution_for_storyteller_on_1024x600%3asolution_for_storyteller_on_1024x600|Solution for StoryTeller on 1024x600]] - The free "NBWinScroll.exe" for Windows.
+  *The free [[http://technet.microsoft.com/en-us/sysinternals/cc817881.aspx|Microsoft Technet, Windows Systernals, Mark Russinovich and Bryce Cogswell: "Desktops v2.0"]].
+==== Hardware DownScaling ( for Intel Mobile Graphics Chips only ) ====
+  *[[http://www.early-adopter.info/2012/10/windows-8-apps-bei-1024x600-netbook-aufloesung-ausfuehren-so-gehts/|Early Adopter "Windows 8 Apps bei 1024x600 Netbook-Auflösung ausführen – so geht’s"]].
+  *[[http://www.borncity.com/blog/2012/03/17/windows-8-metro-apps-beim-msi-wind-u-100-anzeigen-teil-ii/|Borns IT- & Windows-Blog "Windows 8: Metro-Apps beim MSI Wind U 100 anzeigen – Teil II"]].
+
+==== Resources ====
+  *[[http://www.superuser.com/questions/85362/looking-for-an-application-that-scrolls-or-pans-netbook-screens-running-windows|Superuser "Looking for an application that scrolls or pans netbook screens running Windows"]] #.
+  *[[http://en.wikipedia.org/wiki/Virtual_desktop|EN.Wikipedia "Virtual desktop"]], [[http://de.wikipedia.org/wiki/Virtueller_Desktop|DE.Wikipedia "Virtueller Desktop"]].
+  
+===== Updating of Windows =====
+==== Directories for Windows Drivers ====
+  *See [[software.html|Software]].
+==== DLL Libraries =====
+  *See [[software.html|Software]].
+==== Patches and System Updates ====
+  *[[http://www.windowsupdate.com/|Microsoft "windowsupdate.com"]] - for MSIE7 and later only.
+    *[[http://www.update.microsoft.com/windowsupdate/v6/|Microsoft Windows Update with MSIE6]].
+  *[[http://winfuture.de/UpdatePack|WinFuture Update Pack]] - Offline installation of Windows updates.
+  *The DonationWare offline Windowsupdate downloader [[http://www.wsusoffline.net/|WSUS Offline Update]], running on W2k or later - Offline installation of Windows updates.
+    *WSU 6.6.5 of 2010-11-10 is the latest edition for W2k updates. 
+      -Copy "reg.exe" of the Support Tools from "C:\Program Files\Support Tools" to "C:\Program Files\wsuoffline\client\bin". The support tools may be installed from the W2k CD by executing "Z:\SUPPORT\TOOLS\SETUP.EXE". 
+      -Load the file "C:\Program Files\wsuoffline\static\StaticDownloadLink-sigcheck.txt" with an editor, change "Files" to "files".
+      -Load the file "C:\Program Files\wsuoffline\static\StaticDownloadLink-streams.txt" with an editor, change "Files" to "files".
+      -Download and install [[http://www.download.windowsupdate.com/msdownload/update/v3/static/trustedr/en/rootsupd.exe|rootsupd.exe]] and [[http://download.microsoft.com/download/6/5/5/655D2A75-0199-49BF-8BF8-C9ACACF283C3/rvkroots.exe|rvkroots.exe]].
+    *Later WSU versions just provide updates for WinXP, Win2003, Vista, Win7, Win2008, Win8.. 
+    *The installable downloads are stored in the "clients" directory, while the prefered ISO images are stored in the "iso" directory.
+
+===== Microsoft Resources =====
+  *[[http://msdn.microsoft.com/en-us/evalcenter/|MSDN Evaluation Center]].
+  *[[http://www.microsoftvirtualacademy.com/|Microsoft Virtual Academy]] - "Free Microsoft Technologies Training".
+  *[[http://msdn.microsoft.com/aa570323.aspx|Microsoft MSDN Virtual Labs]].
+  *[[http://http//www.microsoft.com/springboard/|Microsoft TechNet "Springboard Series"]].
+  *<del>[[http://www.microsoft.com/betaexperience/|Microsoft Beta Experience]]</del>.
+  *[[http://connect.microsoft.com/|Microsoft Connect - Ihr Feedback zur Verbesserung von Microsoft-Produkten]].
+===== Sales =====
+==== Product Activation =====
+  *[[http://support.microsoft.com/kb/950929/de#|Microsoft GmbH "Aktivieren von Microsoft Windows Hilfe"]].
+  *[[http://www.microsoft.com/de-de/licensing/vertragskunden/activation-center.aspx|Microsoft "Volume Licensing für Unternehmen"]] - Windows activation, also for non-volume licenses, by phone +49 800 284 8283, press then the "1" key for private customers.
+  *[[http://wiki.winboard.org/index.php/Produktaktivierungshotline|WinBoard - Das Windows Portal "Produktaktivierungshotline"]]
+    *"Deutschland: 00800 - 22 84 82 83 oder 0800 - 28 48 283"
+    *"Kunden mit Hör- oder Sprechproblemen haben die Möglichkeit, per Fax oder E-Mail die Microsoft Produktaktivierung zu kontaktieren. Faxnummer: 0044 8705 275 675, E-Mail: activate@msdirectservices.com".
+    *"Technischer Support: Deutschland: <del>0180 - 5672255</del> (kostenpflichtig!)", in 2014-11: "01806 - 672255" -> But this phone nunber just leads to the automatic non-human Windows activation process :-(.
+  *[[http://www.giza-blog.de/MicrosoftHotlineHilfeSupportProblemLoesungKontaktTelefon.aspx|Kay Giza "Microsoft Hotline - Hilfe, Support, Problem-Loesung, Kontakt, Telefon"]], 2009-11-05.
+  *Reinstallation and reactivation on a new computer.
+    *[[http://answers.microsoft.com/de-de/windows/forum/windows_8-windows_install/ich-m%C3%B6chte-eine-windows-8-pro-lizenz-gekauft/b6da91f0-2131-4e12-8e3b-f445008228c6?tm=1414772234864|Microsoft Community - Windows Support "Ich möchte eine 'WIndows 8 Pro' Lizenz, gekauft im Retail-Pappköfferchen ( Kein OEM ) auf einen anderen Computer übertragen - wie mache ich das ?"]] - "Eine normale Retail Version installierst du einfach auf dem neuen PC und wenn sie sich nicht online aktivieren lässt, aktivierst du sie telefonisch. Vermutlich wird dabei gefragt, auf wie vielen PCs sie installiert ist, wobei die Antwort da ja offiziell 'einer' lauten kann".
+    *[[http://answers.microsoft.com/de-de/windows/forum/windows_8-windows_install/habe-ein-upgrade-key-der-nach-neuinstalation-nicht/46e1763f-5c41-43c2-acb7-4f970d692d77|Microsoft Community - Windows Support "habe ein Upgrade-Key der nach Neuinstalation nicht mehr gültig ist"]].
+      *"'HKEY_LOCAL_MACHINE/Software/Microsoft/Windows/CurrentVersion/Setup/OOBE' - 'Setze dort den Wert von MediaBootInstall von 1 auf 0. Starte dann eine Eingabeaufforderung als Admin (Win+X drücken) und führe den Befehl 'slmgr.vbs -rearm' aus und starte dann neu'".
+
+.
+
+==== Large Account Reseller (LAR) for Germany ====
+  *Bechtle, Cancom, COMPAREX, Computacenter, Datalog, Fritz & Macziol, PC-Ware.
+==== Appstores ====
+  *[[http://www.appup.com/|Intel AppUp Center]].
+==== Resources ====
+  *[[http://www.channelpartner.de/unternehmenundmaerkte/systemhaeuser/254409/|ChannelPartner "Zwei neue Large Account Reseller"]].
+===== Windows 10 =====
+  *[[http://insider.windows.com/|Windows Insider]].
+===== Resources =====
+  *[[http://www.it-training-grote.de/nt_faq.php|IT Training-Grothe "Windows NT / 2K / 2K3 / / 2K8 / XP / Vista / 7 / MS-Windows Server System FAQ"]] - free PDF.
+  *[[http://www.gregorybraun.com/MSWinErr.html|Gregory Braun "MS Windows Error Messages"]].
+  *Microsoft.
+    *[[http://support.microsoft.com/kb/258860|Microsoft Help and Support "How to Remove Programs from the 'Open With' List", Article ID: 258860]].  
+    *[[http://support.microsoft.com/kb/301041/|Microsoft Help and Support "How to install NetBEUI on Windows XP", Article ID: 301041]].
+    *[[http://support.microsoft.com/kb/124594/de?wa=wsignin1.0|Microsoft Support "Die maximale Registrierungsgröße (Registry Size Limit = RSL) - Basiswissen und Konfiguration"]].
+      *"HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control", "RegistrySizeLimit" in MBytes. 
+      *Maximum size for W2k: 296 MBytes.
+  *[[http://tlt.its.psu.edu/suggestions/international/|Pennsylvania State University "Tips for Developing Non-English Web Sites"]].
+    *[[http://tlt.its.psu.edu/suggestions/international/bylanguage/german.html|Pennsylvania State University "German Accent Codes"]].
+  *[[http://www.win2008workstation.com/|Windows Server 2008 to Workstation Manual - Convert your Windows Server 2012 to a Workstation!]], [[http://www.win2012workstation.com/|Windows Server 2012 to Workstation Manual - Convert your Windows Server 2012 to a Workstation!]].
+===== Forums, Newsgroups, Communities =====
+  *[[http://www.antitux.de/|Antitux - Das Satireforum rund um das Thema Windows]].
+  *[[http://forums.driverguide.com/|DriverGuide - Forum]].
+  *[[http://www.facebook.com/groups/Windows10.de/|Facebook "Windows 10 - Alles zum neuen System"]].
+  *[[http://www.msfn.org/board/|MSFN - Microsoft Software Forum Network]] Forum.
+    *[[http://www.msfn.org/board/forum/89-nlite/|MSFN - Microsoft Software Forum Network: "nLite"]].
+  *[[http://www.vistax64.com/|Vista Forums]].
+  *[[http://www.winbeta.org/|WinBeta]].
+  *[[http://www.winfuture-forum.de/|WinFuture]].
+  *[[http://www.winhistory-forum.net/|Winhistory-Forum. Das offizielle Forum der WINHISTORY]] , the forum of [[http://www.winhistory.de/|Dirk Makowski "Die Windows History"]].
+  *[[http://forums.windrivers.com/|WinDrivers. The World Resource for Windows Tech Support & Drivers - Forum]].
+  *[[http://windows-7-board.de/|Windows 7 Board]].
+  *[[http://www.eightforums.com/|Windows 8 Forum]], [[http://www.sevenforums.com/|Windows 7 Forum]].
+  *[[http://windows-hilfe-forum.de/|Windows-Hilfe-Forum - Windows Probleme gemeinsam lösen!]].
+  *[[http://forum.sysinternals.com/|Windows Sysinternals Forum]].
+  *[[http://forums.wsusoffline.net/|Forums.WSUoffline.net - Forums for questions, problems and suggestions concerning WSUS Offline Update]].
+    *[[http://forums.wsusoffline.net/viewtopic.php?f=6&t=3520&p=10585&hilit=w2k#p10585|Forums.WSUoffline.net - Forums for questions, problems and suggestions concerning WSUS Offline Update "Windows 2000 workaround?"]].
+    *[[http://forums.wsusoffline.net/viewtopic.php?f=4&t=3683|Forums.WSUoffline.net - Forums for questions, problems and suggestions concerning WSUS Offline Update "Win7: WSUSOU legt Konto an, das aktiv bleibt"]] -> Solution if the temporary user account is not deleted by the update script: Just execute the script "C:\Program Files\wsusoffline\client\cmd\CleanupRecall.cmd" and reboot the computer afterwards :-).
+
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Microsoft_Windows/|OpenDirectory "Top: Computers: Software: Operating Systems: Microsoft Windows"]].
+{{tag>Windows WinXP W2k "Windows 2000" Vista "Windows 7"}}
+<footnote_navi_en>

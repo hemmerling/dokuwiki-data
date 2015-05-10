@@ -1,0 +1,32 @@
+====== [hemmerling] Hardware Debugger and Software Debugger ======
+===== General Hardware Debuggers & Software =====
+  *[[http://www.isystem.com/|iSYSTEM AG für Informatiksysteme]].
+    *[[http://www.isystem.com/products/bluebox|iSYSTEM AG für Informatiksysteme "BlueBox"]].
+  *[[http://www.abatron.ch/products/bdi-family.html|Abatron AG "Abatron BDI Family"]].
+    *[[http://www.abatron.ch/products/debugger-support/gnu-support.html|Abatron AG "GNU Support. High-speed BDM/JTAG Interface for GNU Debugger"]].
+===== Hardware Debuggers & Software just for ARM =====
+  *"CMSIS DAP".
+    *[[http://www.arm.com/products/processors/cortex-m/cortex-microcontroller-software-interface-standard.php|ARM "CMSIS - Cortex Microcontroller Software Interface Standard"]].
+    *[[http://www.keil.com/support/man/docs/dapdebug/dapdebug_introduction.htm|KEIL "About CMSIS-DAP"]].
+    *[[http://mbed.org/handbook/CMSIS-DAP|mbed "CMSIS DAP"]]
+  *"ST-LINK" & "ST-LINK/V2".
+    *[[http://www.st.com/internet/evalboard/product/251168.jsp|STMicroelectronics "ST-LINK/V2"]] - "In-circuit debugger/programmer for STM8 and STM32", "STM32 applications use the USB full speed interface to communicate with ATOLLIC, IAR or KEIL Integrated Development Environments".
+      *[[http://de.farnell.com/stmicroelectronics/st-link-v2/programmierer-icd-f-stm8-stm32/dp/1892523?in_merch=true&MER=i-9b10-00001422|Farnell "STMICROELECTRONICS - ST-LINK/V2 - PROGRAMMIERER,ICD,F. STM8,STM32"]].
+    *The outdated [[http://www.st.com/internet/evalboard/product/219866.jsp|STMicroelectronics "ST-LINK"]] - "In-circuit debugger and programmer for STM8 and STM32 MCUs", "STM32 applications use the USB full speed interface to communicate with ATOLLIC, IAR or KEIL Integrated Development Environments".
+  *"J-Link" & "mIDAS-Link".
+    *[[http://www.segger.com/jlink.html|SEGGER Microcontroller GmbH & Co.KG "J-Link"]].
+    *[[http://www.segger.com/j-link-edu.html|SEGGER Microcontroller GmbH & Co.KG "J-Link EDU"]] - "Inexpensive J-Link for educational purpose".
+    *[[http://www.iar.com/en/Products/Hardware-Debug-probes/IAR-J-Link-Lite/|IAR J-Link Lite for Cortex-M]].
+    *[[http://www.analog.com/en/processors-dsp/analog-microcontrollers/aducrf101/processors/evaluation-boardstools/MicroConverter_Development_Tools/resources/fca.html|Analog Devices, Inc. "Development Tools. MicroConverter Products - Precision Analog Microcontrollers"]] - mIDAS-Link is bundled in the "QuickStart Plus System" edition of "ADuC7xxx Development Kits".
+    *[[http://ez.analog.com/thread/4110|Analog Devices, Inc. "EngineerZone / Analog Microcontrollers / Diskussionen" Thread "mIDAS-Link"]] of 2010-07-22.
+  *KEIL.
+    *[[http://www.keil.com/ulink2/|Keil ULINK2 Debug Adapter]].
+    *[[http://www.keil.com/ulinkme/|Keil ULINK-ME Debug Adapter]].
+      *[[http://elmicro.com/de/cortex-m3-ulink-me.html|Elektronikladen "Cortex-M3 JTAG-Kit. KEIL Starterkit mit MCBTMPM330 und ULINK-ME"]].
+  *[[http://www.code-red-tech.com/red-probe-plus.php|Code Red Technologies Ltd. "Red Probe+"]] - "JTAG/SWD Debug Probe+ for ARM-based Microcontrollers".
+  *The OpenSource [[http://openocd.sourceforge.net/|SourceForge "Open On-Chip Debugger. Free and Open On-Chip Debugging, In-System Programming and Boundary-Scan Testing"]], [[http://www.sourceforge.net/projects/openocd|SourceForge "OpenOCD - Open On-Chip Debugger"]] - "Provides JTAG access from GDB (or directly with TCL scripts) to processors with ARM, MIPS, and other cores".
+===== Software Debugger =====
+  *[[http://www.gnu.org/software/gdb/|GDB: The GNU Project Debugger]].
+===== Resources =====
+{{tag>"hardware debugger" "hardware debuggers" "hardware debugging" "software debugger" "software debuggers" "software debugging" hardware software debugger debuggers debugging}}
+<footnote_navi_en>

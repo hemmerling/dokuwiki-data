@@ -1,0 +1,838 @@
+====== [hemmerling] Python 1/7 ======
+Related pages:
+  *[[fritzbox.html|FRITZ!Box]].
+  *[[python02.html|Python 2/7]].
+  *[[python03.html|Python 3/7 - Literature]].
+  *[[python04.html|Python 4/7 - Pro & Contra]].
+  *[[python05.html|Python 5/7]].
+  *[[python06.html|Python 6/7 - Education in Python]].
+  *[[python07.html|Python 7/7 - Organisations, Conferences, Barcamps & Events]].
+  *[[erp02.html|ERP 2/2 - The OpenSource ERP Systems "TinyERP" / "OpenERP" / "Odoo" and the Fork "Tryton"]].
+  *[[uscripting.html|Scripting Programming Languages for Unix / Linux and Windows]].
+===== Platform Runtimes =====
+==== The original Platform Runtime ====
+  *[[http://www.python.org/|Python.org "Python"]] for Windows, Linux, MacOSX.
+    *Advice: For software development, do not install Python 2.x and 3.x on the same ( Windows ) computer. If you do anyhow, you won´t gain the expected smart user experience of the IDLE / Pythonwin development tools!
+    *[[http://wiki.python.org/moin/UsefulModules|Python.org "UsefulModules"]] #.
+    *[[http://pypi.python.org/pypi|PyPI - the Python Package Index]] - "The Python Package Index is a repository of software for the Python programming language". 
+    *[[http://www.python.org/download/windows/|Python for Windows]].
+    *[[http://www.python.org/ftp/|Python.org/ftp]] - Archive with all Python versions, including Windows installers.
+    *[[http://docs.python.org/|Python v2 documentation]].
+      *Python v2 documentation.
+        *[[http://docs.python.org/download.html|Python v2 documentation - Downloads]].
+        *[[http://docs.python.org/howto/webservers.html|Python v2 documentation "HOWTO Use Python in the web"]].
+    *[[http://docs.python.org/py3k/|Python v3 documentation]].
+      *[[http://docs.python.org/py3k/download.html|Python 3 documentation - Downloads]].
+    *[[http://planet.python.org/|Python.org "Planet Python"]].
+    *[[http://hg.python.org/sandbox/loewis|Python.org Mercurial Repositories]].
+==== Alternative Javascript-based Runtimes ====
+  *[[http://www.brython.info/|Brython]] - "A Python 3 implementation for client-side web programming".
+  *The free online tool [[http://www.codeskulptor.org/|CodeSkulptor]]
+    *"CodeSkulptor was built by [[http://www.cs.rice.edu/~rixner/|Scott Rixner]] and is based upon 
+      -[[http://www.codemirror.net/|CodeMirror]].
+      -[[http://www.skulpt.org/|Skulpt]], [[http://code.google.com/p/skulpt/|Google Code "Sculpt"]] by [[http://www.h4ck3r.net/|Scott Graham]].
+    *[[http://www.rice.edu/|Rice University]].
+    *[[http://en.wikipedia.org/wiki/Rice_University|EN.Wikipedia "Rice University"]], [[http://de.wikipedia.org/wiki/Rice_University|DE.Wikipedia "Rice University"]].
+    *[[http://compsci.rice.edu/|Rice University, Department of Computer Science]].
+      *[[http://news.rice.edu/2012/07/17/rice-to-partner-with-coursera-to-offer-free-online-courses-2/|RICE News "Rice to partner with Coursera to offer free online courses"]], 2012-07-17.
+      *[[http://www.cs.rice.edu/~jwarren/|Joe Warren]].
+      *[[http://www.cs.rice.edu/~rixner/|Scott Rixner]].
+      *[[http://www.bandgap.cs.rice.edu/personal/adrice_swong/public|Stephen Wong]].
+      *[[http://www.cs.rice.edu/~greiner/|John Greiner]].
+    *[[http://www.codeskulptor.org/docs.html|CodeSkulptor Docs]].
+    *[[http://www.codeskulptor.org/demos.html|CodeSkulptor Demos]].
+    *[[http://www.codeskulptor.org/videos.html|CodeSkulptor Videos]].
+      *[[http://www.youtube.com/user/codeskulptor|YouTube "Joe Warren"]].
+      *[[http://www.youtube.com/watch?v=LjCzaz1aEBo|YouTube "Interactive Python with Scott Rixner & Joe Warren"]].
+      *[[http://www.youtube.com/watch?v=mhaiCB8E8pY|YouTube "Using CodeSkulptor"]].
+      *[[http://www.youtube.com/watch?v=K0BXw7VaONg|YouTube "SimpleGUI"]].
+    *[[http://docs.python.org/release/2.6.8/|Python 2.6 Documentation]].
+    *CodeSkulptor runs in Chrome 18+, Firefox 11+, and Safari 6+, but as of 2012-10, not on Microsoft MSIE.
+  *[[http://www.pyjs.org/|pyjs]].
+==== Alternative Platform Runtimes ====
+  *The free online service [[http://www.codepad.org/|Steven Hazel "Codepad"]] - "Online compiler/interpreter ( for C, C++, D, Haskell, Lua, OCaml, PHP, Perl, Plain Text, **Python**, Ruby, Scheme, Tcl ) and a simple collaboration tool. Paste your code below, and codepad will run it and give you a short URL you can use to share it in chat or email".
+  *[[http://www.ironpython.net/|IronPython]], [[http://ironpython.codeplex.com/|CodePlex "IronPython"]], [[http://www.github.com/IronLanguages/main|Github "IronLanguages/main"]] - "An open-source implementation of the Python programming language which is tightly integrated with the .NET Framework", "Implementations of Python and Ruby programming languages for .NET Framework that are built on top of the Dynamic Language Runtime".
+  *[[http://www.jython.org/|Jython: Python for the Java Platform]], [[http://jython.sourceforge.net/|Sourceforge "Jython"]], [[http://www.sourceforge.net/projects/jython/|Sourceforge "Jython"]].
+  *The discontinued OpenSource LLVM project.
+    *[[http://code.google.com/p/unladen-swallow/|Google Code "unladen-swallow. A faster implementation of Python"]].
+    *[[http://en.wikipedia.org/wiki/Unladen_Swallow|EN.Wikipedia "Unladen Swallow"]].
+  *[[http://www.micropython.org/|Micro Python: Python for microcontrollers]].
+    *"Micro Python is a lean and fast implementation of the Python 3 programming language that is optimised to run on a microcontroller".
+    *"The Micro Python board (the pyboard) has been manufactured...".
+    *[[http://www.github.com/micropython/|GitHub "micropython"]].
+    *[[http://www.facebook.com/micropython|Facebook "Micro Python"]].
+    *[[http://www.twitter.com/micropython|Twitter "Micro Python"]].
+    *[[http://www.kickstarter.com/projects/214379695/micro-python-python-for-microcontrollers|Kickstarter "Damien George: Micro Python: Python for microcontrollers"]].
+    *[[http://www.heise.de/hardware-hacks/meldung/Micro-Python-Ein-Python-fuer-Microcontroller-2217095.html|heise online "Micro Python: Ein Python für Microcontroller"]], 2014-06-06 - "Derzeit richtet sich die Sprache an Geräte mit 32-Bit-ARM-Prozessoren, die den Thumb-v2-Befehlssatz verwenden. Der Schöpfer der Sprache... hat mittlerweile ein Board mit STM32F405-Prozessor ( [[http://www.st.com/web/catalog/mmc/FM141/SC1169/SS1577/LN1035|STMicroeletronics "STM32F405/415"]] ) geschaffen".
+  *[[http://www.portablepython.com/|Portable Python]].
+    *[[http://www.portablepython.com/wiki/PortablePython2.7.3.1|Portable Python 2.7.3.1 Package - Supplied applications/libraries]].
+    *[[http://www.portablepython.com/wiki/PortablePython3.2.1.1|Portable Python 3.2.1.1 Package - Supplied applications/libraries]].
+  *[[http://psyco.sourceforge.net/|Sourceforge "Psyco"]], [[http://www.sourceforge.net/projects/psyco/|Sourceforge "Psyco"]] - "A Python extension module which can greatly speed up the execution of any Python code".
+  *PyMite / python-on-a-chip ( p14p ).
+    *[[http://code.google.com/p/python-on-a-chip/|Google Code "python-on-a-chip"]].
+    *[[http://wiki.python.org/moin/PyMite|Python.org "PyMite"]].
+    *No claimed support of the ATxmega CPU, yet !
+  *[[http://www.pypy.org/|PyPy]] - "A fast, compliant alternative implementation of the Python language (2.7.2)".
+    *[[http://en.wikipedia.org/wiki/PyPy|EN.Wikipedia "PyPy"]], [[http://de.wikipedia.org/wiki/PyPy|DE.Wikipedia "PyPy"]].
+  *[[http://www.stackless.com/|Stackless Python]].
+  *Stella.
+    *[[http://de.mcbf.net/david/stella-compiling-a-subset-of-python/|David Mohr "Stella: Compiling a subset of Python"]] / [[http://digamma.cs.unm.edu/~dmohr/stella/|UNM, David Mohr "Stella"]].
+    *[[http://digamma.cs.unm.edu/~dmohr/stella/ep14.html|David Mohr "Stella: Compiling a small subset of Python"]] - EuroPython 2014 lightening talk, 2014-07-25.
+    *[[http://2014.splashcon.org/event/dsldi2014-stella-a-dsl-for-structuring-high-performance-simulations-in-python| SPLASH Portland 2014: "Stella: A DSL for structuring high-performance simulations in Python"]].
+  *The commercial but affordable [[http://www.omz-software.com/pythonista/|Pythonista]] for the Apple iOS / iPhone / iPad  platform.
+    *[[http://twitter.com/olemoritz|Twitter "Ole Zorn, @olemoritz"]].
+    *[[http://omz-software.com/|omz:software]].
+    *[[http://github.com/omz|GitHub "omz"]].
+  *[[http://www.vpython.org/|VPython - 3D Programming for Ordinary Mortals]], [[http://www.github.com/vpython|Github "VPython"]] - "Is the Python programming language plus a 3D graphics module called 'Visual'".
+    *Wiki [[http://vpython.wikidot.com/|VPython Wiki]].
+    *[[http://en.wikipedia.org/wiki/VPython|EN.Wikipedia "VPython"]].
+==== Distributions ====
+=== OpenSource Distributions ===
+  *Google Code "Python(x,y)".
+    *[[http://code.google.com/p/pythonxy/|Google Code "pythonxy. Scientific-oriented Python Distribution based on Qt and Spyder"]] for Windows.
+    *[[http://code.google.com/p/pythonxy-linux/|Google Code "pythonxy-linux. Scientific-oriented Python Distribution for GNU/Linux based on Qt and Eclipse"]] for Linux.
+    *[[http://code.google.com/p/spyderlib/|spyderlib. Spyder is the Scientific PYthon Development EnviRonment]].
+    *As of 2015-03, "Python(x,y)" is just shipped with Python 2.x.
+    *[[http://ftp.ntua.gr/pub/devel/pythonxy/|FTP Archive "Python x,y"]] - Download of legacy versions.
+    *Installation:
+      *On Windows, the installer creates and uses the directories "C:\Python27" and C:\MinGW32-xy", no matter what you select as installation directory.
+      *During installation of the Python(x,y) tools "numpy" and "scipy", the warning "Target CPU does NOT handle SSE2" might be displayed, e.g. on computers with Athlon XP2800 CPU :-(.
+      *The QT designer of Python(x,y) 2.6.0 crashes on a computer with Athlon XP2800 CPU?!
+    *Bugs & repair tips:
+      *[[http://code.google.com/p/pythonxy/issues/detail?id=686#makechanges|Google Code "pythonxy", issue "Issue 686: Both Context menu items remain after uninstall"]].
+      *[[http://code.google.com/p/pythonxy/issues/detail?id=216|Google Code "pythonxy", issue "Issue 216: PyQt4 Qt Designer unable to find uic"]].
+        *"You can generate code by using the pyuic4.bat file located under the PyQt4 install directory, on Win usually 'C:/Python##/Lib/site-packages/PyQt4'. 
+        *Usage from the command line is: **pyuic4.bat inputfile.ui > output.py**.
+=== Commercial & free Distributions ===
+== The Tool ==
+  *The Python distribution [[http://www.continuum.io/downloads|Continuum Analytics "Anaconda"]] with free and commercial licenses - "A free collection of powerful packages for Python that enables large-scale data management, analysis, and visualization for Business Intelligence, Scientific Analysis, Engineering, Machine Learning, and more".
+    *[[http://docs.continuum.io/anaconda/|Continuum Analytics "Anaconda Docs"]].
+      *[[http://docs.continuum.io/anaconda/pkg-docs.html|Continuum Analytics "Package Documentation"]], [[http://repo.continuum.io/archive/|Continuum Analytics Repo - Archive]].
+    *[[http://www.continuum.io/blog/|Continuum Blog]].
+      *[[http://www.continuum.io/blog/anaconda-python-3|Continuum Blog "Python 3 support in Anaconda"]] - "Did you know that Anaconda has been supporting Python 3 for more than half a year?" -> I was told so too on the conference "PyConDE 2013", in 2013-10 :-).
+    *[[http://www.continuum.io/our-team|Continuum Analytics - Our Team. Technical Staff]].
+      *With [[http://ilan.schnell-web.net/|Ilan Schnell]], [[http://continuum.io/author/ilan|Continuum Analytics "Ilan"]], [[http://www.linkedin.com/pub/ilan-schnell/5/9ba/869|LinkedIn "Ilan Schnell"]], [[http://plus.google.com/111480164393314519931/|Google + "Ilan Schnell"]], [[http://www.github.com/ilanschnell|GitHub "Ilan Schnell"]], speaker on the conference PyConDE 2013, an important former distribution builder of [[http://www.enthought.com/|Enthought Python Distribution]] is now responsible for buildering "Anaconda" :-).
+    *[[http://www.facebook.com/ContinuumAnalytics|Facebook "Continuum Analytics"]].
+    *[[http://www.linkedin.com/company/continuum-analytics-inc-|LinkedIn "Continuum Analytics, Inc."]].
+    *[[http://plus.google.com/108011804375544975017/|Google+ "Continuum Analytics"]].
+    *[[http://www.twitter.com/continuumio|Twitter "Continuum Analytics"]].
+    *[[http://www.github.com/DamnWidget/anaconda|GitHub "DamnWidget/anaconda"]].
+    *Use "c:\> conda install package_name" to install packages. 
+      *Conda is fundamentally different from "easy_install" and "pip". Iit is more like the linux package managers ( apt or yum ) - more binary distributions of packages. Conda can't fix known installations problems like with "PyLint", but it can make it easier to install, since it will be more of a simple binary package - The actual work of installing has already been done.
+    *Bugs & repair tips:
+      *"PyLint" is not included in the distribution ( though the shipped IDE "Spyder" has a non-functional menu entry "Source / Run pylint code analysis" ) and can´t be installed by well-known automatic installation processes. An installation attempt by "easy_install pylint" is aborted due to syntax errors in downloaded Python files and other faults :-(.
+      *Thanks to Ilan, since 2014-03-24, you may now use "c:\> conda install pylint" to install PyLint on Anaconda :-).
+  *[[http://www.activestate.com/|ActiveState]].
+    *The commercial [[http://www.activestate.com/activepython|ActiveState "ActivePython"]] for Windows, Linux, MacOSX.
+    *The free [[http://www.activestate.com/activepython/downloads|ActiveState "ActivePython Community Edition"]]  for Windows, Linux, MacOSX.
+    *[[http://docs.activestate.com/activepython/2.7/|ActiveState "ActivePython 2.7 User Guide"]].
+    *[[http://docs.activestate.com/activepython/3.3/|ActiveState "ActivePython 3.3 User Guide"]].
+== Resources ==
+  *[[http://www.askubuntu.com/questions/505919/installing-anaconda-python-on-ubuntu|Ask Ubuntu "Installing Anaconda python on ubuntu"]]
+    *Call a fresh bash from terminal, with anaconda shell sript as parameter: "$ bash Anaconda-2.x.x-Linux-x86[_64].sh".
+    *The export of Anaconda to standard Python in the path is stored in "$home/.bashrc".
+=== Just-commercial Distributions ===
+  *[[http://www.enthought.com/|Enthought, Inc.]].
+    *The discontinued just-commercial [[http://www.enthought.com/products/epd.php|Enthought, Inc. "Enthought Python Distribution"]] ( EPD ) and its just-commercial successor [[http://www.enthought.com/products/canopy/|Enthought, Inc. "Canopy"]].
+
+==== The Raspberry Platform ====
+=== Hardware ===
+  *See [[arm.html|ARM Embedded Systems ( ARM7, ARM8, ARM9, ARM11, Cortex )]].
+=== Python on Raspberry ===
+  *[[http://www.raspberrycenter.de/|RaspberryCenter.de - Die Raspberry Pi Community]].
+    *[[http://www.raspberrycenter.de/handbuch/raspberry-pi-handbuch|RaspberryCenter.de - Die Raspberry Pi Community "Raspberry Pi Handbuch"]].
+      *[[http://www.raspberrycenter.de/handbuch/python-programmierung|RaspberryCenter.de - Die Raspberry Pi Community "Python Programmierung"]].
+  *[[http://www.google.de/search?q=raspberry+pyhton|Google - Search for "raspberry python"]].
+==== Python on MSDOS, Windows ====
+=== The original Python ===
+  *[[http://www.python.org/ftp/python/2.7.9/|Python 2.7.9]] ( [[http://docs.python.org/2.7/|Python 2.7.9 documentation]], [[http://docs.python.org/2.7/download.html|Python 2.7.9 documentation - Download]] ) and [[http://www.python.org/ftp/python/3.3.5/|Python 3.3.5]] ( [[http://docs.python.org/3.3/|Python 3.3.6 documentation]], [[http://docs.python.org/3.3/download.html|Python 3.3.6 documentation - Download]] ) are the latest binary editions for W2k.
+    *The installation of Python 3.4 aborts with the error message "//There is a problem with this Windows Installer Package. A program required for this install to complete could not be run. Contact your support personnel or package vendor//".   
+    *The installation of AciveState Python 3.4.1.0 succeeds, but the installed Python.exe is no valid Win32 application for W2k.
+    *The Python 3 edition of "Anaconda" started with Python 3.4, so there was never a Python 3 edition based on Python 3.3.
+    *The installer of Python 3.5 is no valid Win32 application for W2k.
+  *[[http://www.python.org/ftp/python/2.5.4/|Python 2.5.4]] ist the latest edition for Win98SE and WinME. Python 2.6 aborts installation by the error message "//There is a problem with the Windows Installer package. A DLL required for the install to complete could not be run. Contact your support personel or package vendor//".
+    *What's missing with PythonD 2.5.4 ?
+      *[[http://docs.python.org/whatsnew/2.6.html|Python v2.7.3 documentation "What’s New in Python 2.6"]].
+      *[[http://docs.python.org/whatsnew/2.7.html|Python v2.7.3 documentation "What’s New in Python 2.7"]].
+  *[[http://www.python.org/ftp/python/2.0.1/|Python 2.01]] ist the latest edition for MS-DOS, MS-Windows 3.x.
+=== Binary Packages for Windows ===
+  *[[http://www.lfd.uci.edu/~gohlke/pythonlibs/|Christoph Gohlke, Laboratory for Fluorescence Dynamics, University of California, Irvine "Unofficial Windows Binaries for Python Extension Packages"]] - "32- and 64-bit Windows binaries of many scientific open-source extension packages for the official CPython distribution of the Python programming language".
+=== Python for Metro ===
+  *[[http://apps.microsoft.com/windows/en-us/app/python-3-for-metro/82f0c953-93d4-461c-893f-c298b0d919d2|Windows Store "Python 3 For Metro"]].
+  *How to get the app within Windows 8 ? Go to "Store", search for "Python for Metro".
+  *[[http://wiki.python.org/moin/MartinvonLoewis/|Python.org "Martin von Loewis"]].
+    *[[http://wiki.python.org/moin/MartinvonLoewis/Python%203%20For%20Metro|Python.org "Martin von Loewis - Python 3 For Metro"]].
+  *[[http://www.loewis.de/martin/|Martin von Löwis]], [[http://www.stackoverflow.com/users/33006/martin-v-lowis|Stack Overflow "Martin von Löwis"]], [[http://www.github.com/loewis|Gthub "Martin v. Löwis ( loewis )"]], [[http://hg.python.org/sandbox/loewis|Python.org Mercurial Repositories "sandbox/loewis"]].
+  *[[http://www.pyvideo.org/speaker/768/martin-v-lowis|PyVideo "Martin v. Löwis"]] - Video "Metro-Programmierung mit Python".
+=== Python for 386-DOS ===
+  *[[http://www.caddit.net/pythond/|PythonD 2.4.2 Release 1.0]] - "A 32-bit, multi-threaded, networking- and OpenGL-enabled Python interpreter for DOS and Windows".
+  *What's missing with PythonD 2.4.2 ?
+      *[[http://docs.python.org/2/whatsnew/2.5.html|Python v2.7.3 documentation "What’s New in Python 2.5"]].
+      *[[http://docs.python.org/whatsnew/2.6.html|Python v2.7.3 documentation "What’s New in Python 2.6"]].
+      *[[http://docs.python.org/whatsnew/2.7.html|Python v2.7.3 documentation "What’s New in Python 2.7"]].
+=== Resources ===
+  *[[http://docs.python.org/release/2.6/using/windows.html#installing-python|Python v2.6 documentation "Using Python on Windows"]].
+  *[[http://www.python.org/dev/peps/pep-0011/|Python.org "PEP 11 -- Removing support for little used platforms"]].
+==== Application Execution in Taint Mode ====
+  *Taint mode -> See [[perl.html|Perl 1/2]].
+  *Juanjo Conti.
+    *[[http://www.juanjoconti.com.ar/taint/|Juanjo Conti "Taint Mode"]].
+    *[[http://svn.juanjoconti.com.ar/dyntaint/|Juanjo Conti SVN "dyntaint"]] - Download.
+    *[[http://www.cse.chalmers.se/~russo/juanjo.htm|Juanjo Conti "A Taint Mode for Python via a Library"]] - Download.
+    *Slides [[http://www.juanjoconti.com.ar/2010/07/06/talk-taint-mode-for-python-via-a-library-slides/|Juanjo Conti "Talk: Taint Mode for Python via a Library (slides)"]], 2010-07-06.
+    *Slides [[http://www.juanjoconti.com.ar/2009/09/07/charla-taint-mode-en-python/|Juanjo Conti "Charla: Taint Mode en Python"]], 2009-09-07.
+    *[[http://pythonsecurity.tumblr.com/post/857505579/taint-mode-for-python|Pythonsecurity "Taint Mode For Python"]].
+  *[[http://www.github.com/felixgr/pytaint|GitHub "felixgr/pytaint"]] - "The goal of pytaint project is to provide a taint tracking mechanism for Python by modifying the CPython interpreter and adding a module with convenience functions. Taint tracking is a feature which allows to monitor the flow of untrusted data across the application and preventing from using it in sensitive parts without proper sanitization".
+  *[[http://en.wikipedia.org/wiki/Taint_checking|EN.Wikipedia "Taint checking"]].
+===== IDEs =====
+==== Free and OpenSource IDEs & IDE Plugins & GUI Designers ====
+=== IDEs & IDE Plugins ===
+  *The OpenSource IDE [[http://eric-ide.python-projects.org/|The Eric Python IDE]] for Python makes use of Python, QT, PyQt, QScintilla.
+  *The openSource IDE "IDLE (Python GUI)", shipped with the Python development system.
+    *It may be called by:
+      *C:\Program Files\Python 2.7\pythonw.exe" "C:\Program Files\Python 2.7\Lib\idlelib\idle.pyw" -e "%1"
+    *Call on my computer, with modified path:
+      *D:\int\w32\develop\Python2\pythonw.exe" "D:\int\w32\develop\Python2\Lib\idlelib\idle.pyw" -e "%1"
+    *Look for "Python.File" with RegEdit for fixing the definition!
+  *[[http://www.ipython.org/|IPython]].
+    *Wiki [[http://wiki.ipython.org/|IPython Wiki]].
+    *[[http://en.wikipedia.org/wiki/IPython|EN.Wikipedia "IPython"]].
+  *[[http://www.pydev.org/|PyDev]], [[http://pydev.sourceforge.net/|Sourceforge "Pydev"]], [[http://www.sourceforge.net/projects/pydev|Sourceforge "Pydev"]], [[http://www.github.com/aptana/Pydev|Github "aptana / Pydev"]] - "A Python IDE for Eclipse, which may be used in Python, Jython and IronPython development", "PyDev is now preinstalled in [[http://aptana.com/products/studio3|Aptana Studio 3]]".
+    *[[http://www.pydev.org/manual_101_interpreter.html|PyDev "Configuring the interpreter"]].
+    *"Aptana Studio 3 requires Firefox for JavaScript debugging support".
+  *[[http://code.google.com/p/pyscripter/|Google Code "pyscripter"]] - "An open-source Python Integrated Development Environment (IDE)".
+    *[[http://code.google.com/p/pyscripter/issues/detail?id=772|Google Code "Pyscripter", Ticket #772 "Pyscripter 2.5.3 denies the exit() request of Tkinter programs generated with SpecTCL, on Windows"]].
+    *[[http://code.google.com/p/pyscripter/issues/detail?id=773|Google Code "Pyscripter", Ticket #773 "Pyscriptor gives error 'could not be properly initialized' when run against python 3.4.1"]], [[http://code.google.com/p/pyscripter/issues/detail?id=775|Google Code "Pyscripter", Ticket #775 "Python could not be properly installed. We must quit"]], [[http://code.google.com/p/pyscripter/issues/detail?id=776|Google Code "Pyscripter", Ticket #776 "Pyscripter 2.5.3 does not run on Python 3.4.1 - Suggestion: Please provide an updated version with Python 3.4 support"]].
+    *"This is the 32-bit version of PyScripter. If you are using a 64-bit version of Windows please note that PyScripter will only work if a 32-bit version of Python is installed".
+    *"For compatibility with Python 2.6, 2.7 and 3.x, this PyScripter version requires the latest C++ Redistributable Package.  This is automatically installed by Python 2.6, 2.7 and 3.x.".
+    *"Versions later than 1.8 contain support for remote debugging.  Read [[http://code.google.com/p/pyscripter/wiki/RemoteEngines|Google Code "pyscripter" - "Remote Interpreter and Debugger"]] for details.  
+  *Pythonwin IDE.
+    *The OpenSource Pythonwin IDE is shipped with [[http://starship.python.net/crew/mhammond/win32/|Mark Hammond "Python for Windows Extensions"]], [[http://pywin32.sourceforge.net/|Sourceforge "Python for Windows extensions"]], [[http://www.sourceforge.net/projects/pywin32/|Sourceforge "Python for Windows extensions"]].
+    *It may be called by:
+      *C:\Program Files\Python 2.7\Lib\site-packages\Pythonwin\Pythonwin.exe /edit "%1"
+    *Call on my computer, with modified path:
+      *D:\int\w32\develop\Python2\Lib\site-packages\Pythonwin\Pythonwin.exe /edit "%1"
+    *Look for "Python.File" with RegEdit for fixing the definition!
+    *[[http://www.python.net/crew/skippy/win32/PythonwinPreview.html|Mark Hammond "Pythonwin Version2 Beta"]] - outdated infos.
+  *[[http://code.google.com/p/spyderlib/|Google Code "spyderlib. Spyder is the Scientific PYthon Development EnviRonment"]] ( formerly: [[http://code.google.com/p/pydee/|Google Code "pydee"]] ) - "A powerful interactive development environment for the Python language with advanced editing, interactive testing, debugging and introspection features".
+  *The DonationWare "SPE IDE - Stani's Python Editor".
+    *[[http://pythonide.stani.be/|SPE IDE - Stani's Python Editor. Free python IDE for Windows,Mac & Linux with UML,PyChecker,Debugger,GUI design,Blender & more]].   
+    *Blog [[http://pythonide.blogspot.de/|SPE IDE - Stani's Python Editor. Free python IDE for Windows,Mac & Linux with UML,PyChecker,Debugger,GUI design,Blender & more]].
+    *[[http://developer.berlios.de/projects/python/|BerliOS - BerliOS Developer Open Source Development "Stani's Python Tools"]].
+  *"Visual Studio Python Express" ( "VS Python Express" ) IDE.
+    *Components.
+      -The free "Integrated Shell" or the commercial "Microsoft Visual Studio Professional" 2010 / 2012.
+      -The OpenSource plugin [[http://pytools.codeplex.com/|Codeplex "Python Tools for Visual Studio"]].
+    *[[http://www.windowsazure.com/en-us/develop/python/common-tasks/install-python/|Windows Azure "Installing Python and the SDK"]].
+    *[[http://www.hanselman.com/blog/OneOfMicrosoftsBestKeptSecretsPythonToolsForVisualStudioPTVS.aspx|Scott Hanselman "One of Microsoft's Best-Kept Secrets - Python Tools for Visual Studio (PTVS)"]].
+  *The OpenSource IDE [[http://xrope.sourceforge.net/|SourceForge "xRope: A lightweight IDE for Python"]], [[http://www.sourceforge.net/projects/xrope|SourceForge "xRope"]].
+=== GUI Designers ===
+== Tkinter Tools ==
+  *The OpenSource GUI builder [[http://page.sourceforge.net/|SourceForge "PAGE - Python Automatic GUI Generator"]], [[http://www.sourceforge.net/projects/page|SourceForge "PAGE"]], written in Tcl/TK.
+    *"A drag-and-drop GUI generator for Python and Tkinter aimed at building Python modules which can display a relatively simple GUI constructed from Tk and ttk widget sets using the Place Geometry Manager".
+  *The OpenSource GUI builder [[http://ptkgb.sourceforge.net/|SourceForge "Python Tk Gui Builder"]], [[http://www.sourceforge.net/projects/ptkgb|SourceForge "Python Tk Gui Builder"]] for Python 2. 
+      *Ptkgb requires PIL ( pktgb.py -> "import ImageTK" ).
+        *Linux:
+          *[[http://www.effbot.org/imagingbook/imagetk.htm|The Python Imaging Library Handbook "The ImageTk Module"]] - "If you’re using a prebuilt version of PIL, you might need to install additional packages to be able to use the ImageTk module. For example, on Ubuntu, you need both python-imaging and python-imaging-tk".
+        *Windows:
+          *[[http://www.pythonware.com/products/pil/|Python Imaging Library (PIL)]] - "all platforms", "Windows only".
+      *Ptkgb is shipped with [[http://pmw.sourceforge.net/|SourceForge "Pmw - Python megawidgets"]], [[http://www.sourceforge.net/projects/pmw|SourceForge "Python megawidgets"]].
+  *The OpenSource GUI builder [[http://github.com/alejandroautalan/pygubu|GitHub "alejandroautalan/pygubu"]] - "A simple GUI designer for the python tkinter module".
+    *Wiki [[http://github.com/alejandroautalan/pygubu/wiki|GitHub Wiki "alejandroautalan/pygubu"]] with online handbook.
+    *[[http://www.facebook.com/alejandroautalan.sgo|Facebook "Alejandro Autalan"]].
+    *[[http://www.linkedin.com/in/alejandroautalan|LinkedIn "Alejandro Autalan"]].
+    *[[http://plus.google.com/114071730797296551464/|Google+ "Alejandro Autalan"]].
+    *[[http://www.youtube.com/user/alejandroautalan|YouTube Channel "Alejandro Autalan"]].
+      *[[http://www.youtube.com/watch?v=wuzV9P8geDg|YouTube "Pygubu hello world program"]].
+    *After installation, the GUI builder application is available by the
+      *"pygubu" shell command ( pygubu 0.94.1 and earlier ).
+      *"pygubu-designer" shell command ( since pygubu 0.95 ).
+  *The OpenSource GUI builder [[http://github.com/tmetsch/pytkgen|GitHub "tmetsch/pytkgen
+"]] - "Create Tkinter GUIs from JSON definition files".
+  *The OpenSource GUI builder [[http://www.bitflipper.ca/rapyd/|Rapyd-Tk]] for Python 2.7 with Tkinter.
+    *As of 2014-07-01 with version 1.0.2, the creation of menus does not work for me on Windows.
+  *The OpenSource GUI builder [[http://spectcl.sourceforge.net/|SourceForge "SpecTcl and GUI Builder"]], [[http://www.sourceforge.net/projects/spectcl|SourceForge "SpecTcl"]] ( formerly:  Komodo 3 GUI builder ) by [[http://sau.homeip.net/|Stephen Uhler]].
+    *[[http://spectcl.sourceforge.net/ko3-guib-docs/komodo-doc-guibuilder.html|SpecTcl - GUI Builder (Komodo Pro). Extracted from ActiveState Komodo 3.5 documentation]].
+    *[[http://spectcl.sourceforge.net/ko3-guib-docs/tcltut.html|SpecTcl - Tcl Tutorial. Extracted from ActiveState Komodo 3.5 documentation]].
+    *[[http://wiki.tcl.tk/1414|Tclers Wiki "SpecTcl"]].
+    *[[http://www.python.org/ftp/python/contrib-09-Dec-1999/Graphics/Tkinter/|Python.org "Index of /ftp/python/contrib-09-Dec-1999/Graphics/Tkinter/"]].
+    *[[http://groups.google.com/forum/#!topic/comp.lang.tcl/52KsDicZBCM|Google Groups "comp.lang.tcl", thread "What happened to spectcl?"]] - About the SpecTCL manual: "I think the user manual is pretty useless as a memory aid as it does not contain many working examples".
+    *There is a compiled binary for Windows. The source code archive "SpecTCL.tar.gz" also contains a folder "examples" just with ".ui" files, and a folder "demo" with three complete Java applications made with SpecTCL.
+    *You may select the TK version at start ( TK 8.4, 8.3,..).
+    *SpcTCL uses the "grid" geometry manager.
+    *Don't confuse with <del>[[http://docs.nscl.msu.edu/daq/spectcl/|SpecTcl Home page]]</del> -> This is a different tool :-(.
+  *The free GUI builder [[http://tk-happy.sourceforge.net/|SourceForge "tk_happy"]], [[http://www.sourceforge.net/projects/tk-happy|SourceForge "tk_happy"]].
+    *After installation, the GUI builder application is available by "run_happy" shell command.
+    *"tk_happy" uses the "place" geometry manager.
+    *There is no code generation for the functions:
+      *"Window options / Main Menu".
+      *"Window options / Resizable".
+    *If you activate the the function "Windows Options / Status Bar", and then deactivate it, the python code 'self.statusMessage.set("Welcome to codebreaker")' is kept in the Python source code file and must be disabled - by putting the command in a comment line starting with "#" - or deleted, manually.
+  *The free GUI builder "Visual Python Tkinter IDE" for Windows with .NET framework.
+    *[[http://www.pythontr.org/|Python TR / Pythonium Trade]], [[http://web.archive.org/web/*/http://www.visualpython.org/|Archive.org "visualpython.org"]] ( - 2012-08-01 ).
+    *There is no version of this application which is operable for practical use :-(.
+      *[[http://www.visualtkinter.sourceforge.net/|SourceForge "Visual Tkinter. Visual Python GUI Free Python Editor"]], [[http://www.sourceforge.net/projects/visualtkinter|SourceForge "Visual Tkinter Python IDE"]] - All properly executable editions of "Visual Python 2", especially the latest edition " Visual Python 2v0.12.2554" are not suitable for use, as the mandatory size of GUI elements is not transfered to the generated code :-(. Early editions of version 2, hosted on "Google Code" even crash at startup :-(.
+      *[[http://code.google.com/p/visualtkinter/|Google Code "visualtkinter - Visual Tkinter"]] - "VisualTkinter 1v1.6.zip" is the a working version of "Visual Python IDE". Unfortunately, there is no saving of a "design file" with the GUI designer informations. You can just save Python files. I.e. you must finish your GUI design with one strike, you can´t reload a project into the application :-(.
+    *VP makes use of the OpenSource C++ library [[http://www.scintilla.org/|Scintilla]] and of WinForms.
+    *VP uses the "place" geometry manager. 
+    *Administrative developers:
+      *[[http://sourceforge.net/u/livetogogo/|SourceForge "livetogogo"]], [[http://www.youtube.com/user/livetogogo|YouTube "livetogogo"]], [[http://www.twitter.com/livetogogo|Twitter "livetogogo, @livetogogo"]], <del>[[livetogogo@gmail.com]]</del>.
+        *[[http://www.youtube.com/watch?v=ltxr7VyrudI|YouTube "Visual Tkinter Python GUI"]].
+        *[[http://www.youtube.com/watch?v=y5kFhptGBDY|YouTube "Visual Tkinter"]].
+      *[[http://www.sourceforge.net/u/macrocoders/|SourceForge "macro coders"]].
+      *[[http://sourceforge.net/u/macroasm/|SourceForge "macroasm macroasm"]], [[http://www.youtube.com/user/macroasm|YouTube "macroasm"]].
+        *[[http://www.youtube.com/watch?v=qfwzTyU8_7E|YouTube "Visual Python Tkinter IDE"]].
+      *[[http://web.archive.org/web/*/http://www.blendertr.org|Archive.org "blendertr.org"]].
+    *Developers:
+      *[[http://sourceforge.net/u/electrocoder/|SourceForge "electrocoder"]].
+    *People who tried to use the product:
+      *[[http://www.sourceforge.net/u/jmasse64/|SourceForge "JMasse"]].
+      *[[http://www.youtube.com/user/hacker22052|YouTube "Voddy Kam"]].
+        *[[http://www.youtube.com/watch?v=CldP3Dpt0a4|YouTube "Python Visual IDE Tkinter"]].
+      *[[imprint.html|Me]] :-).
+== Tkinter Resources ==
+  *[[http://resources.arcgis.com/en/help/main/10.2/index.html#//001500000011000000|ArcGIS Resources "Python equivalents to AML functions"]], [[http://resources.arcgis.com/en/help/main/10.2/index.html#//001500000012000000|ArcGIS Resources "Python equivalents to AML directives"]] -> Python & Tkinter example programs.
+  *[[http://code.activestate.com/lists/python-tkinter-discuss/|ActiveState Code - Lists "python-tkinter-discuss"]].
+  *ConnectX.
+    *[[http://ep2014.europython.eu/en/schedule/sessions/157/|Europython 2014, Poster Session "Session: ConnectX: The Serial Emulator Application"]] - "Tkinter + Pserial + Plotting = Disaster? Tkinter has its own loop, ence for a dynamically updated GUI , 'root.after()' method was used. 'try-except' method as used to avoid choking of serial comm while initialising".
+    *[[http://in.pycon.org/funnel/2014/159-connectx-the-serial-emulator-application|PyCon India 2014 — PyCon India Funnel "ConnectX: The Serial Emulator Application"]].
+  *[[http://www.daniweb.com/software-development/python/threads/261629/visual-tkinter|DaniWeb "Software Development > Python >
+Visual Tkinter"]] #.
+  *[[http://code.google.com/p/simplehsm/|Google Code "simplehsm. A Simple Hierarchical State Machine"]], [[http://simplehsm.googlecode.com/svn/trunk/|Google Code "simplehsm" - SVN / Trunk]], [[http://www.daniel.net.nz/simplehsm/|Daniel Newton "simplehsm"]] - Python & Tkinter sample application made with SpecTCL #.
+  *[[http://www.daniweb.com/software-development/python/threads/66698/exit-a-tkinter-gui-program|Daniweb "Exit a Tkinter GUI Program"]] - "root.destroy()" vs "root.quit()".
+  *[[http://www.google.de/?gws_rd=ssl#q=spectcl+%22DO+NOT+EDIT%22+python|Google - Search for 'spectcl "DO NOT EDIT" python']].
+  *Stack Overflow.
+    *[[http://www.stackoverflow.com/questions/20577621/initialization-just-after-tkinters-root-mainloop-has-begun-python|Stack Overflow "Initialization just after tkinter's root.mainloop() has begun (Python)"]] - "root.after(delay, command)".
+    *[[http://www.stackoverflow.com/questions/18716653/multiple-tasks-on-tkinter-canvas|Stack Overflow "multiple tasks on tkinter canvas?"]].
+== wx Tools ==
+  *The OpenSource GUI builder "FarPy" -  This "GUIE (GUI Editor) provides a simple WYSIWYG GUI editor for many dynamic languages. Currently FarPy supports wxPython, wxRuby, wxPerl & IronPython!".
+    *[[http://farpyguie.sourceforge.net/|SourceForge "FarPy GUIE"]], [[http://www.sourceforge.net/projects/farpyguie/|SourceForge "FarPy GUIE"]], [[http://pypi.python.org/pypi/FarPy-GUIE/|Python Package Index "FarPy"]].
+    *[[http://web.archive.org/web/*/http://farpy.holev.com/|Archive.org "farpy.holev.com"]] ( - 2012-05-18 ).
+  *OpenSource GUI builder for "wxWidgets" ( formerly: "wxWindows" ) -> See [[sframeworks.html|Software Frameworks]].
+== QT Tools ==
+  *The free "QT Designer" and the "QT Creator". See [[sframeworks.html|Software Frameworks]].
+== Comparison Chart: The Code generated with GUI Designers for Python ==
+^ | | || ||||| | |
+^ # | **GUI Designer** || **The generated code** ||||| **Comments** | **Recommendation for use** |
+^ ::: | **Tool name** | **Tool platform** | **GUI Framework ** | **Screen Layout** | **Is a class** | **Runtime library** | **Runtime Library License** | ::: | ::: |
+^ 1 | page | Tcl/Tk | Tkinter | Grid | Yes | | | | Yes #1 |
+^ 2 |ptkgb | Python | Tkinter | Grid | Yes | Python megawidgets ( pmw ) | MIT | | Yes |
+^ 3 |ptkgen | Python | Tkinter | Grid | No | tkgen | GPL 2.1 | Consider the runtime license if selecting it for a project | Yes |
+^ 4 |pygubu | Python | Tkinter | Grid | Yes | pygubu | GPL 3 | Consider the runtime license if selecting it for a project | Yes |
+^ 5 |QT Creator | Windows, Linux, MacOSX | PyQT | Grid | Yes | PyQT | GPL 2, GPL 3 | Consider to use the Pyside module with its LGPL license, if the runtime license doesn't fit for your project | Yes |
+^ 6 |rapyd | Python | Tkinter | Grid | Yes | Run-time error handler "rpErrorHandler.py" | Public domain ? | Menu generation does not yet work | Not yet |
+^ 7 |SpecTCL | Python | Tkinter | Grid | Yes | | | | Yes #1 |
+^ 8 |tk_happy | Python | Tkinter | Place | Yes | | | The single GUI builder which offers the "Place" screen layout | Yes #1 for "place" design |
+^ 9 |Visual Python Tkinter IDE 1v1.6 | Windows with .NET | Tkinter | Place | No | | | | No |
+^ | | | | | | | | | |
+== Tool Resources ==
+  *[[http://wiki.tcl.tk/4056|Tcler's Wiki "GUI Building Tools"]].
+  *[[http://www.stackoverflow.com/questions/1693939/need-a-gui-builder-for-tkinter-python|Stack Overflow "Need a GUI Builder for Tkinter / Python"]] - With judgements about the code generation and usabilty of the tools.
+==== Commercial IDEs ====
+  *ActiveState.
+    *The commercial IDE [[http://www.activestate.com/komodo-ide|ActiveState "Komodo IDE"]] for Windows and Linux - "The Professional IDE for Python, PHP, Ruby, JavaScript, Perl and Web Dev".
+    *The free editor [[http://www.activestate.com/komodo-edit|ActiveState "Komodo Edit"]] for Windows and Linux - "A lean editor with a sleek interface. You'll enjoy excellent coding in many web languages, including Python, PHP, Ruby, Perl, HTML, CSS and JavaScript".
+  *[[http://www.vni.com/campaigns/pyimslstudioeval/platform.php|Rogue Wave ( formerly: Visual Numerics) - PyIMSL Studio]] - "The Python component of PyIMSL Studio is available without charge for non-commercial use. PyIMSL Studio is license managed software. A license key valid for three months is included in the download file. To extend your non-commercial trial use of PyIMSL Studio, please visit the license key renewal page".
+  *The commercial IDE [[http://www.wingware.com/|Wingware Python IDE - The Intelligent Development Environment for Python Programmers]], for Windows and Linux.
+  *The IDE [[http://www.jetbrains.com/pycharm/|JetBrains "pyCharm - Powerful Python and Django IDE"]] for Windows and Linux, with free and commercial editions.
+    *[[http://confluence.jetbrains.com/display/PYH/Previous+PyCharm+Releases|JetBrains "pyCharm - Previous PyCharm Releases"]].
+    *[[http://www.jetbrains.com/pycharm/features/editions_comparison_matrix.html|JetBrains "PyCharm Editions Comparison"]].
+    *Tutorial [[http://wiki.opencog.org/w/Installing_PyCharm|OpenCog "Installing PyCharm"]] on Linux.
+    *[[http://www.jetbrains.com/pycharm/download/installation_instructions.jsp?os=linux|JetBrains "Installation Instructions"]] for Linux.
+    *"/usr/local/bin/charm" is the default path to execute PyCharm from Linux commandline.
+    *[[http://en.wikipedia.org/wiki/PyCharm|EN.Wikipedia "PyCharm"]], [[http://de.wikipedia.org/wiki/PyCharm|DE.Wikipedia "PyCharm"]] - "PyCharm Community Edition, the open source version of PyCharm, became available on 22 October 2013".
+==== Editors with some ( highlighting ) Support for Python ====
+  *The OpenSource [[http://www.geany.org/|Geany]] for Linux and Windows.
+    *[[http://en.wikipedia.org/wiki/Geany|EN.Wikipedia "Geany"]], [[http://de.wikipedia.org/wiki/Geany|DE.Wikipedia "Geany"]].
+  *[[http://www.stackoverflow.com/questions/2094105/how-can-i-configure-geany-to-compile-and-run-my-python-programs|Stackoverflow "How can I configure Geany to compile and run my Python programs?"]] - "I don't need to configure anything in geany, I just hit F5 and current module is executed".
+==== Resources ====
+  *[[http://www.informit.com/articles/article.aspx?p=23288&seqNum=4|InformIT "Boudewijn Rempt: The Age of the Commercial Python IDE: BlackAdder and Komodo Compared"]], 2001.
+  *[[http://wiki.python.org/moin/IntegratedDevelopmentEnvironments|Python Wiki "IntegratedDevelopmentEnvironments"]].
+===== Project Setup & Project Distribution =====
+==== Project Setup Tools ====
+  *[[http://ep2014.europython.eu/en/schedule/sessions/36/|Europython 2014 Talks, Session "How to Setup a new Python Project"]].
+    *[[http://www.github.com/blue-yonder|GitHub "Blue Yonder GmbH"]].
+      *[[http://www.github.com/blue-yonder/pyscaffold|GitHub "blue-yonder/pyscaffold"]] - "Python project generator with batteries included".
+        *[[http://pyscaffold.readthedocs.org/|ReadTheDocs "PyScaffold"]].
+          *"PyScaffold assumes that you have Git installed and set up on your PC, meaning at least your name and email configured".
+          *On Windows, with Python 2.7, the setup installation aborts with<code>
+File "c:\temp\easy_install-jy_ycl\sh-1.09\sh.py", line 34, in <module> 
+ImportError: sh 1.09 is currently only supported on linux and osx. 
+please install pbs 0.110 (http://pypi.python.org/pypi/pbs) for windows support.</code>
+          *[[http://pypi.python.org/pypi/pbs|Python Package Index "pbs"]] - "Python subprocess wrapper. PBS has now become sh. PBS will no longer be supported".
+          *[[http://pypi.python.org/pypi/sh|Python Package Index "sh"]] - "Python subprocess interface".
+==== Project Distribution with "Python Distribution Utilities" ("Distutils"), "setup.py", "Easy Install"... ====
+  *[[http://docs.python.org/2/distutils/|Python Documentation "Distributing Python Modules"]].
+    *[[http://docs.python.org/2/distutils/setupscript.html|Python Documentation "Distributing Python Modules. 2. Writing the Setup Script"]].
+    *[[http://docutils.sourceforge.net/|SourceForge "Docutils: Documentation Utilities. Written in Python, for General- and Special-Purpose Use"]], [[http://www.sourceforge.net/projects/docutils|SourceForge "Docutils"]].
+      *[[http://docutils.sourceforge.net/rst.html|SourceForge "reStructuredText. Markup Syntax and Parser Component of Docutils"]].
+    *[[http://www.stackoverflow.com/questions/4840182/setup-py-and-adding-file-to-bin|StackOverflow "setup.py and adding file to /bin/"]] - "setup(name='myproject',author='',author_email='',scripts=['bin/myscript.py'])".
+    *[[http://www.python-forum.de/viewtopic.php?f=9&t=35006|Das deutsche Python-Forum "Feedback erwünscht zu 'meinem ersten GitHub Projekt' :-)"]].
+  *[[http://docs.python-guide.org/en/latest/starting/install/win/|Python Guide "Installing Python on Windows"]].
+    *Installers for installing EZ-Setup and Pip:
+      *"ez_setup.py" -> [[http://www.bitbucket.org/pypa/setuptools/raw/bootstrap/|BitBucket "pypa/setuptools/raw/bootstrap"]].
+      *"get-pip.py" -> [[http://www.github.com/pypa/pip/tree/develop/contrib|GitHub "pypa/pip/tree/develop/contrib"]], [[http://bootstrap.pypa.io/|bootstrap.pypa.io]].
+  *[[http://www.diveintopython3.net/packaging.html|Mark Pilgrim "Dive into Python 3 - Chapter 16 Packaging Python Libraries"]].
+  *[[http://bazaar.launchpad.net/~facundo/encuentro/trunk/view/head:/setup.py|Launchpad.net "~facundo/encuentro/trunk"]].
+  *[[http://matthew-brett.github.io/pydagogue/installing_scripts.html|GitHub.io, Matthew Brett "Installing python scripts"]].
+  *[[http://www.github.com/matthew-brett/myscripter|GitHub "matthew-brett/myscripter"]] - "A trivial repo for playing with python script installation on windows".
+  *[[http://www.pythonhosted.org/setuptools/|PythonHosted "Setuptools documentation"]].
+    *[[http://www.pythonhosted.org/setuptools/easy_install.html|PythonHosted "Setuptools / Easy Install"]].
+==== Packaging / Testing / Release ====
+  *[[http://pypi.python.org/pypi/devpi|Python Package Index "devpi"]]-
+    *[[http://doc.devpi.net/|devpi]] - "PyPI server and packaging/testing/release tool".
+      *[[http://www.devpi.net/|www.devpi.net]].
+        *[[http://www.devpi.net/hpk/devpi12/devpi-server/1.2.3|hpk/devpi12/: devpi-server-1.2.3 metadata and description]].
+        *[[http://www.devpi.net/root/pypi/+simple/|root/pypi: simple list (including inherited indices)]].
+    *[[http://www.testrun.org/tox/|tox automation project]] - "A generic virtualenv management and test command line tool you can use for:
+      *Checking your package installs correctly with different Python versions and interpreters
+      *Running your tests in each of the environments, configuring your test tool of choice
+      *Acting as a frontend to Continuous Integration servers, greatly reducing boilerplate and merging CI and shell-based testing.
+
+==== Generation of executable Applications ====
+  *The OpenSource [[http://cx-freeze.sourceforge.net/|Sourceforge "cx_Freeze"]], [[http://www.sourceforge.net/projects/cx-freeze|Sourceforge "cx_Freeze"]] - "A set of scripts and modules for freezing Python scripts into executables".
+  *The OpenSource [[http://www.nuitka.net/|Nuitka]] - "Python compiler".
+  *The OpenSource [[http://www.py2exe.org/|py2exe]], [[http://py2exe.sourceforge.net/|Sourceforge "py2exe"]], [[http://www.sourceforge.net/projects/py2exe/|Sourceforge "py2exe"]].
+  *The OpenSource [[http://svn.pythonmac.org/py2app/py2app/trunk/doc/index.html|py2app - Create standalone Mac OS X applications with Python]].
+  *The OpenSource [[http://code.google.com/p/shedskin/|Google Code "shedskin. An experimental (restricted) Python-to-C++ compiler"]].
+==== Obfuscation Tools ====
+  *The commercial tool [[http://bitboost.com/|Chris Niswander, BitBoost Systems "Python Obfuscator
+and Code Shrinker"]].
+    *The free online demo [[http://www.pawsense.com/python.obfuscator-0002/|Chris Niswander "Python obfuscator online (as a web form)"]] - "It is based on a limited version of the larger-scale [[http://www.bitboost.com/|BitBoost Python obfuscator]], which obfuscates much more complicated programs or packages".
+  *The OpenSource [[http://www.github.com/astrand/pyobfuscate|Github "astrand / pyobfuscate"]].
+==== Resources ====
+  *Stack Overflow.
+    *[[http://www.stackoverflow.com/questions/576963/python-code-obfuscation|Stack Overflow "Python Code Obfuscation"]].
+    *[[http://www.stackoverflow.com/questions/261638/how-do-i-protect-python-code|Stack Overflow "How do I protect python code?"]].
+  *[[http://en.wikipedia.org/wiki/Obfuscation_%28software%29|EN.Wikipedia "Obfuscation (software)"]] - "It also limits the use of the Reflection application programming interface on the obfuscated code".
+  *[[http://de.wikipedia.org/wiki/Obfuscator|DE.Wikipedia "Obfuscator"]].
+===== Tools =====
+==== Specification by Example Tools for Python ====
+  *See [[specbyex.html|Specification by Example]].
+==== Continuous Integration ( CI ) Tools for Python ====
+  *See [[ci.html|Continuous Integration ( CI )]].
+==== Development and Operations ( DevOps ) Tools for Python ====
+  *See [[devops.html|Development and Operations ( DevOps )]].
+
+==== Python Module Installers ====
+=== Tools ===
+  *The OpenSource [[http://pypi.python.org/pypi/setuptools|Python Package Index "setuptools 0.6c11. Download, build, install, upgrade, and uninstall Python packages -- easily!"]], [[http://www.bitbucket.org/pypa/setuptools|Bitbucket "setuptools"]] for Python 2.7.
+    *After installation of the Setuptools for Windows, go to the Python script directory ( e.g. "C:\Python27\scripts" and execute the module "module" by loading COMMAND.COM and executing "easy_install.exe -U module".
+  *The OpenSource [[http://packages.python.org/distribute/easy_install.html|Python.org "Easy Install"]].
+  *The OpenSource [[http://www.pip-installer.org/|pip - A tool for installing and managing Python packages]], [[http://github.com/pypa/pip|Github "pypa/pip"]], [[http://pypi.python.org/pypi/pip|Python.Org, PyPI - the Python Package Index "pip"]].
+    *You may install Pip by [[http://www.virtualenv.org/en/latest/|virtualenv]] - "A tool to create isolated Python environments".
+      *From Windows COMMAND.COM commandline:
+        *"virtualenv venv --distribute".
+        *"pip install xxxx", where "xxxx" are Python packages.
+=== Resources ===
+  *[[http://www.stackoverflow.com/questions/21265616/python-easy-install-fails-with-ssl-certificate-error-for-all-packages|Stack Overflow "python easy_install fails with SSL certificate error for all packages"]].
+  *[[http://www.stackoverflow.com/questions/16370583/pip-issue-installing-almost-any-library|Stack Overflow "pip issue installing almost any library"]] - "The easiest workaround is to downgrade pip to one that doesn't use SSL: easy_install pip==1.2.1. This loses you the security benefit of using SSL. The real solution is to use a Python distribution linked to a more recent SSL library".
+  *Warning: Once, on Windows, the default DNS server was set to an inproper value ( i.e. not to the IP of the "default gateway" = the local DSL router ). Though it looked as if most network functions worked, by this, "easy_install" failed to install anything, with the error message ( taking the fictive package "test" as example, it does not matter if the package really exists ):
+<code>
+Searching for test
+Reading https://pypi.python.org/simple/test/
+easy_install : Download error on https://pypi.python.org/simple/test/: [Errno 11001] getaddrinfo failed -- Some 
+packages may not be found!
+Couldn't find index page for 'test' (maybe misspelled?)
+
+Scanning index of all packages (this may take a while)
+Reading https://pypi.python.org/simple/
+Download error on https://pypi.python.org/simple/: [Errno 11001] getaddrinfo failed -- Some packages may not be found!
+
+No local packages or download links found for test
+
+error: Could not find suitable distribution for Requirement.parse('test')
+</code>
+  *[[http://www.stackoverflow.com/questions/22819379/windows-8-1-pythonx-y-2-7-6-0-python-easy-install-fails-with-ssl-certifica|Stack Overflow "Windows 8.1, Python(x,y) 2.7.6.0: 'python easy_install' fails with SSL certificate error"]], [[http://groups.google.com/forum/#!topic/pythonxy/TsNczuS414o|Google Groups "python(x,y)", thread "Python pypi download broken on Win8.1, how to fix ? ( typical error message: _ssl.c:507: error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed )"]] by Rolf Hemmerling.
+==== Python Launchers ====
+  *The free Python launcher [[http://bitbucket.org/vinay.sajip/pylauncher/|vinay.sajip "pylauncher" / "PEP 397"]].
+    *[[http://blog-de.python.org/2011/08/ein-python-starter-fur-windows.html|Python Insider DE - Neuigkeiten und Informationen zur Python Kern-Entwicklung "Ein Python-Starter für Windows"]].
+==== Interfacing ====
+  *The OpenSource [[http://www.cython.org/|Cython - C-Extensions for Python]] - "A language that makes writing C extensions for the Python language as easy as Python itself. It is based on the well-known [[http://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/|Pyrex]], but supports more cutting edge functionality and optimizations".
+    *[[http://en.wikipedia.org/wiki/Cython|EN.Wikipedia "Cython"]], [[http://de.wikipedia.org/wiki/Cython|DE.Wikipedia "Cython"]].
+  *The OpenSource [[http://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/|Pyrex]] - "Lets you write code that mixes Python and C data types any way you want, and compiles it into a C extension for Python".
+    *[[http://wiki.python.org/moin/PyrexOnWindows|Python Wiki "PyrexOnWindows"]] - "Step-by-step guide to install Pyrex on Windows and compile your first extension", using the MinGW GNU C/C++ compiler.
+    *[[http://en.wikipedia.org/wiki/Pyrex_%28programming_language%29|EN.Wikipedia "Pyrex (programming language)"]].
+  *[[http://docs.python.org/2/library/ctypes.html|The Python Standard Library "15.17. ctypes — A foreign function library for Python"]].
+    *[[http://python.net/crew/theller/ctypes/|Starship... a Home for Pythonistas ( python.net ), Thomas Heller - "The ctypes package"]].
+      *[[http://www.python.net/|Starship... a Home for Pythonistas ( python.net ), Thomas Heller - "ctypes tutorial"]].
+    *[[http://en.wikipedia.org/wiki/Foreign_function_interface|EN.Wikipedia "Foreign function interface]].
+    *[[http://en.wikipedia.org/wiki/Language_binding|EN.Wikipedia "Language binding"]].
+  *The OpenSource [[http://www.swig.org/exec.html|SWIG]].
+    *[[http://www.swig.org/Doc1.3/Python.html|SWIG "31 SWIG and Python"]] - "An interface compiler that connects programs written in C and C++ with scripting languages such as Perl, Python, Ruby, and Tcl. It works by taking the declarations found in C/C++ header files and using them to generate the wrapper code that scripting languages need to access the underlying C/C++ code".
+    *[[http://en.wikipedia.org/wiki/SWIG|EN.Wikipedia "SWIG"]], [[http://de.wikipedia.org/wiki/SWIG|DE.Wikipedia "SWIG"]].
+==== Python Code Obfuscation ====
+=== Python's On-board Tools ===
+  *[[http://docs.python.org/2/library/compileall.html|Python Documentation "The Python Standard Library / 31. Python Language Services / 31.11. compileall — Byte-compile Python libraries"]].
+  *[[http://docs.python.org/2/faq/programming#is-it-possible-to-write-obfuscated-one-liners-in-python|Python Documentation "Programming FAQ" - "Is it possible to write obfuscated one-liners in Python?"]].
+===== Python Frameworks, Toolkits & Applications =====
+==== Web Servers & Web Frameworks ====
+  *[[http://www.accessgrid.org/|AccessGrid]] - Free "grid" webserver system, based on Python. "An ensemble of resources including multimedia large-format displays, presentation and interactive environments, and interfaces to Grid middleware and to visualization environments".
+  *[[http://www.acmesystems.it/python_httpserver|ACME Systems Italy "Write a simple HTTP server in Python"]].
+  *[[http://www.gunicorn.org/|Gunicorn]] - "Python WSGI HTTP Server for UNIX. It's a pre-fork worker model ported from Ruby's Unicorn project. The Gunicorn server is broadly compatible with various web frameworks, simply implemented, light on server resources, and fairly speedy".
+  *[[http://www.bottlepy.org/|Bottle: Python Web Framework]], [[http://www.github.com/defnull/bottle|Github "defnull / bottle"]].
+    *[[http://www.twitter.com/bottlepy|Twitter "bottle.py"]].
+    *[[http://pypi.python.org/pypi/bottle|Python Packet Index "bottle"]].
+  *The OpenSource [[http://www.cherrypy.org/|CherryPy - A Minimalist Python Web Framework]].
+  *[[http://www.djangoproject.com/|Django Software Foundation "Django"]] - "A high-level Python Web framework that encourages rapid development and clean, pragmatic design".
+    *The framework.
+      *[[http://docs.djangoproject.com/|Django Software Foundation  "Django documentation"]].
+      *Experts told me: Django has 1000s of unactivated features. So almost everyting is already "there", so that you can use with without much own effort.
+      *[[http://www.github.com/django/django/archive/stable/1.7.x.zip|GitHub Archive "django/django/archive/stable/1.7.x.zip"]].
+      *[[http://www.github.com/django-extensions|GitHub "django-extensions"]], [[http://code.google.com/p/django-command-extensions/|Google Code " django-command-extensions. Django Custom Management Command Extensions"]], [[http://pypi.python.org/pypi/django-extensions| Python Package Index "django-extensions"]], [[http://django-extensions.readthedocs.org/|ReadTheDocs "django-extensions documentation"]].
+    *How to proceed.
+      -"django-admin startproject //your_projectname//".
+      -"manage.py syncdb".
+      -"manage.py pystartup //your_application//".
+      -In "//your_projectname///setup.py", disable "Debug = True" and "Template_Debug=True" for production use.
+      -Now there is an admin interface at [[http://localhost:8000/admin|http://localhost:8000/admin]].
+      -"manage.py admin_generator //your_application//".
+    *Resources.
+      *[[http://www.djangogirls.org/|Django Girls]].
+        *[[http://tutorial.djangogirls.org/|Django Girls "Django Girls Tutorial"]].
+      *[[http://django-marcador.keimlink.de/|django-marcador. Basic Django Tutorial]].
+      *[[http://www.godjango.com/|GoDjango.com "Django Screencasts and Tutorials"]].
+      *[[http://www.github.com/fscherf/django_workshop|GitHub "fscherf/django_workshop"]] - "Slides and example project for my Django-Workshop at Hackover2014 (Hannover)".
+      *[[http://www.github.com/gauss1181/IntroDjango|GitHub "gauss1181/IntroDjango"]] - "IntroDjango. Repository for Django workshop".
+      *[[http://www.tangowithdjango.com/|Tango With Django 1.5.4]] - "A beginner's guide to web development with Django 1.5.4]].
+       *[[http://www.github.com/djangogirls/tutorial|GitHub "djangogirls/tutorial"]] - "This is a tutorial we are using for Django Girls workshops".
+      *[[http://en.wikipedia.org/wiki/Django_%28web_framework%29|EN.Wikipedia "Django (web framework)"]], [[http://de.wikipedia.org/wiki/Django_%28Framework%29|DE.Wikipedia "Django (Framework)"]].
+  *[[http://genshi.edgewall.org/|Genshi]] - "Python toolkit for generation of output for the web".
+    *[[http://genshi.edgewall.org/wiki/GenshiTutorial|Genshi Tutorial]] - "A simple Python web application based on [[http://www.cherrypy.org/|CherryPy - A Minimalist Python Web Framework]]".
+  *[[http://code.google.com/p/iix/|Google Code "iix - a simple python webserver"]].
+  *[[http://www.pocoo.org/|Pocoo]].
+    *[[http://flask.pocoo.org/|Pocoo "Flask web development, one drop at a time"]] - "A microframework for Python based on Werkzeug, Jinja 2 and good intentions".
+      *[[http://flask.pocoo.org/docs/|Pocoo "Flask web development - Documentation"]].
+      *Experts told me: Flask has a minimalistic approach, you have to do everything by yourself.
+      *[[http://en.wikipedia.org/wiki/Flask_%28programming%29|EN.Wikipedia "Flask (programming)"]], [[http://de.wikipedia.org/wiki/Flask|DE.Wikipedia "Flask"]].
+  *[[http://www.pylonsproject.org/|Pylons Project]].
+    *[[http://www.pylonsproject.org/projects/pyramid/|Pylons Project "Pyramid"]] - "A very general open source Python web framework. As a framework, its primary job is to make it easier for a developer to create an arbitrary web application. The type of application being created isn’t really important; it could be a spreadsheet, a corporate intranet, or a social networking platform".
+      *[[http://docs.pylonsproject.org/projects/pyramid_tutorials/|Pylons Project "Pyramid Tutorials"]].
+    *[[http://www.pylonsproject.org/projects/pylons-framework/|Pylons Project "Pylons Framework"]] - "A lightweight web framework emphasizing flexibility and rapid development".
+  *The OpenSource [[http://www.pythonpaste.org/|Python Paste]].
+    *[[http://en.wikipedia.org/wiki/Python_Paste|EN.Wikipedia "Python Paste"]] - "A framework for web frameworks", "The Python Paste package contains Python modules that help in implementing WSGI middleware".
+  *The real-time web messaging framework [[http://www.bitbucket.org/terreon/mushroom|BitBucket "terreon/mushroom"]].
+  *The OpenSource web server [[http://www.tornadoweb.org/|Tornado]], [[http://github.com/facebook/tornado|Github "facebook / tornado"]].
+  *[[http://turbogears.org/|TurboGears Web Framework]].
+    *[[http://planet.turbogears.org/|Planet TurboGears]].
+    *[[http://en.wikipedia.org/wiki/TurboGears|EN.Wikipedia "TurboGears"]].
+  *"Twisted".
+   *[[http://www.twistedmatrix.com/trac/|Twisted Matrix Labs - Building the engine of your Internet "Twisted"]] - "An event-driven networking engine written in Python".
+    *[[http://en.wikipedia.org/wiki/Twisted_%28software%29|EN.Wikipedia "Twisted (software)"]].
+    *[[http://www.pymamba.com/|BlackMamba]] ( Mamba ) - "Small and high level asynchronous web applications framework and WSGI web server", "Mamba is built on top of Twisted Web and uses Twisted as WSGI web server as well".
+  *[[http://www.webpy.org/|webpy]] - "A web framework for Python that is as simple as it is powerful".
+  *[[http://www.web2py.com/|web2py]].
+    *[[http://en.wikipedia.org/wiki/Web2py|EN.Wikipedia "Web2py"]], [[http://de.wikipedia.org/wiki/Web2py|DE.Wikipedia "Web2py"]].
+    *Installation on Windows, by executing "web2py.exe": 
+      *Server IP: "(x) Local (IPv4) ( 127.0.0.1 )".
+      *Server port: "8000".
+      *Choose Password: "xxxxxxxx".
+    *[[http://en.wikipedia.org/wiki/Web_Server_[[G]]ateway_Interface|EN.Wikipedia "Web Server Gateway Interface"]], [[http://de.wikipedia.org/wiki/Web_Server_Gateway_Interface|DE.Wikipedia "Web Server Gateway Interface"]].
+==== Web CMS ====
+  *[[http://www.plone.org/|Plone CMS]] - "Open Source Content Management", based on the Zope framework.
+    *[[http://www.plone.de/|plone.de - Deutschsprachige Plone Community]].
+    *[[http://en.wikipedia.org/wiki/Plone_%28software%29|EN.Wikipedia "Plone (software)"]], [[http://de.wikipedia.org/wiki/Plone|DE.Wikipedia "Plone"]].
+  *The OpenSource web application server [[http://www.zope.org/|Zope.ORG]], [[http://www.zope.de/|Zope.DE]].
+    *[[http://en.wikipedia.org/wiki/Zope|EN.Wikipedia "Zope"]], [[http://de.wikipedia.org/wiki/Zope_%28Webanwendungsserver%29|DE.Wikipedia "Zope (Webanwendungsserver)"]].
+    *The OpenSource ZOPE application [[http://book.schooltool.org/|SchoolTool: the Global Student Information System]].
+    *The OpenSource ZOPE application [[http://www.launchpad.net/|Launchpad]].
+      *[[http://www.launchpad.net/capturemock|Launchpad "CaptureMock"]].
+==== Business Applications ( Webshop, ERP,..) ====
+  *[[erp02.html|The OpenSource ERP Systems "TinyERP" / "OpenERP" / "Odoo" and the Fork "Tryton"]].
+  *[[http://www.satchmoproject.com/|Satchmo - The webshop for perfectionists with deadlines]] - "Satchmo's mission is to use Django to create an open source framework for creating unique and robust online stores".
+==== Frameworks & Applications ====
+  *The OpenSource [[http://www.llvmpy.org/|LLVMPY]] - "A Python wrapper around the [[http://en.wikipedia.org/wiki/LLVM|LLVM]] C++ library which allows simple access to compiler tools".
+  *[[http://pysvn.tigris.org/|Tigris.org "Python SVN Extension and WorkBench GUI"]] ( psyvn ) - "The pysvn project's goal is to enable Tools to be written in Python that use Subversion".
+  *The OpenSource [[http://github.com/slashmili/PySQLiteGUI|Github "slashmili / PySQLiteGUI"]], a GUI for the database SQLite.
+  *The OpenSource [[http://www.secdev.org/projects/scapy/|Scapy]] in Python, for Linux - "A powerful interactive packet manipulation program".
+    *[[http://www.secdev.org/projects/UTscapy/|UTScapy: Unit Testing with Scapy]].
+  *The OpenSource HTML parser [[http://www.crummy.com/software/BeautifulSoup/|BeautifulSoup]] - "A Python library designed for quick turnaround projects like screen-scraping".
+    *The OpenSource [[http://www.lxml.de/|lxml - XML and HTML with Python]].
+    *The OpenSource [[http://code.google.com/p/html5lib/|Google Code "html5lib - Library for working with HTML documents"]].
+  *Google Code.
+    *[[http://code.google.com/p/google-api-python-client/|Google Code "google-api-python-client. Google APIs Client Library for Python"]].
+    *[[http://code.google.com/p/gdata-python-client/|Google Code "gdata-python-client. Google Data APIs Python Client Library"]].
+    *[[http://code.google.com/p/python-twitter/|Google Code "python-twitter. A python wrapper around the Twitter API"]], [[http://www.github.com/bear/python-twitter|Github "bear / python-twitter"]].
+    *[[http://code.google.com/p/python-for-android/|Google Code "python-for-android. Py4A"]], [[http://code.google.com/p/android-scripting/|Google Code "android-scripting Scripting. Layer for Android brings scripting languages to Android"]].
+    *[[http://code.google.com/p/pysphere/|Google Code "pysphere. vSphere SDK for python"]].
+    *[[http://code.google.com/p/gaeframework/|Google Code "GAE framework - Python web framework for Google App Engine"]].
+    *[[http://code.google.com/p/h5py/|Google Code "h5py. A Python interface to the HDF5 library"]].
+  *[[http://starship.python.net/crew/mhammond/win32/|Mark Hammond "Python for Windows Extensions"]], [[http://pywin32.sourceforge.net/|Sourceforge "Python for Windows extensions"]], [[http://www.sourceforge.net/projects/pywin32/|Sourceforge "Python for Windows extensions"]] #.
+  *[[http://www.pydata.org/|NumFOCUS - Numpy Foundation for Open Code for Usable Science]].
+    *[[http://www.pydata.org/projects.html|NumFOCUS - Numpy Foundation for Open Code for Usable Science "Projects"]].
+      *[[http://numpy.scipy.org/|NumPy]].
+        *[[http://en.wikipedia.org/wiki/NumPy|EN.Wikipedia "NumPy"]], [[http://de.wikipedia.org/wiki/NumPy|DE.Wikipedia "NumPy"]].
+      *[[http://www.scipy.org/|SciPy]].
+        *[[http://en.wikipedia.org/wiki/SciPy|EN.Wikipedia "SciPy"]], [[http://de.wikipedia.org/wiki/SciPy|DE.Wikipedia "SciPy"]].
+      *[[http://www.matplotlib.org/|Matplotlib]], [[http://matplotlib.sourceforge.net/|SourceForge "Matplotlib"]], [[http://www.sourceforge.net/projects/matplotlib|SourceForge "matplotlib"]]. 
+        *[[http://en.wikipedia.org/wiki/Matplotlib|EN.Wikipedia "Matplotlib"]].
+      *[[http://pandas.pydata.org/|Python Data Analysis Library]] ( pandas ).
+        *[[http://en.wikipedia.org/wiki/Pandas_%28software%29|EN.Wikipedia "pandas (software)"]].
+  *"PIL" / "Pillow".
+    *[[http://www.pythonware.com/|Secret Labs AB - PythonWare]].
+       *The OpenSource [[http://www.pythonware.com/products/pil/|Secret Labs AB - PythonWare: "Python Imaging Library (PIL)"]] for Python 2.7.
+       *[[http://www.effbot.org/imagingbook/|Fredrik Lundh "The Python Imaging Library Handbook"]].
+    *[[http://python-imaging.github.io/|Github "Python-imaging.github.io - Python Imaging"]].
+      *[[http://github.com/python-imaging/Pillow|Github "python-imaging/Pillow"]] - "Pillow is the 'friendly' PIL fork".
+  *[[http://www.pocoo.org/|Pocoo]].
+    *[[http://werkzeug.pocoo.org/|Pocoo "Werkzeug"]] - "The Python WSGI Utility Library".
+    *[[http://jinja.pocoo.org/|Pocoo "Jinja2"]] - "A full featured template engine for Python".
+  *[[http://www.pygame.org/|Pygame]] - "A set of Python modules designed for writing video games".
+    *[[http://en.wikipedia.org/wiki/Pygame|EN.Wikipedia "Pygame"]], [[http://de.wikipedia.org/wiki/Pygame|DE.Wikipedia "Pygame"]].
+  *RPyC.
+    *[[http://www.github.com/tomerfiliba/rpyc/|GitHub "tomerfiliba/rpyc"]].
+    *[[http://rpyc.sourceforge.net/|SourceForge "RPyC (remote python call)"]], [[http://sourceforge.net/projects/rpyc/|SourceForge "RPyC (remote python call)"]].
+    *[[http://pypi.python.org/pypi/rpyc/|Python Package Index "rpyc"]].
+    *[[http://rpyc.readthedocs.org/|ReadTheDocs "RPyC - Transparent, Symmetric Distributed Computing"]].
+    *[[http://en.wikipedia.org/wiki/RPyC|EN.Wikipedia "RPyC"]].
+  *The OpenSource [[http://ww.scrapy.org/|Scrapy]], [[http://www.github.com/scrapy/scrapy|Github "Scrapy"]] - "Fast high-level screen scraping and web crawling framework, used to crawl websites and extract structured data from their pages. It can be used for a wide range of purposes, from data mining to monitoring and automated testing".
+    *Blog [[http://blog.scrapy.org/|Scrapy Blog]].
+    *[[http://www.twitter.com/ScrapyProject|Twitter "Scrapy"]].
+  *SourceForge.
+    *[[http://wwwsearch.sourceforge.net/|SourceForge "mechanize"]], [[http://wwwsearch.sourceforge.net/mechanize/|SourceForge "mechanize"]], [[http://wwwsearch.sourceforge.net/old/|SourceForge "Python bits"]], [[http://www.github.com/jjlee/mechanize|Github "jjlee / mechanize"]] - "Stateful programmatic web browsing in Python, after Andy Lester’s Perl module WWW::Mechanize".
+    *[[http://pmw.sourceforge.net/|Sourceforge "Pmw - Python megawidgets"]], [[http://www.sourceforge.net/projects/pmw/|Sourceforge "Python megawidgets"]].
+    *[[http://pythonnet.sourceforge.net/|Sourceforge "Python for .NET"]], [[http://www.sourceforge.net/projects/pythonnet/|Sourceforge "Python for .NET"]] - "An integration of the C Python engine with the .NET runtime".
+  *The OpenSource "Spring Python".
+    *[[http://springpython.webfactional.com/|Spring Python]] - "Spring Python is an offshoot of the Java-based Spring Framework and Spring Security, targeted for Python".
+    *[[http://www.springsource.org/extensions/se-springpython-py|SpringSource Community "Spring Python"]].
+  *[[http://werkzeug.pocoo.org/|Werkzeug - The Python WSGI Utility Library]].
+    *[[http://www.wsgi.org/|WSGI.org]].
+=== Commercial Application Servers ===
+  *The just-commercial [[http://www.lianja.com/|Liana App Builder - Develop Desktop, Cloud, and Mobile database Apps]].
+    *[[http://www.lianja.com/community/lianja-for-python-developers|Liana App Builder "Lianja for Python Developers"]].
+    *DBase III alike database.
+      *[[http://www.lianja.com/resources/the-lianja-vision|Liana App Builder "The Lianja Vision"]] - "The Visual FoxPro database and scripting language has been developed from the ground up and is at the core of Lianja. Existing Python, PHP and JavaScript engines have been embedded and integrated all together".
+      *[[http://www.lianja.com/community/showthread.php?2287-What-%28-OpenSource-%29-software-is-the-base-for-the-FoxPro-features&p=10668#post10668|Liana Forum "What ( OpenSource ? ) software is the base for the FoxPro features ?"]] - "Lianja (as stated on the website) has it's own built-in cross platform implementation of the Visual FoxPro scripting language and database engine. Yes, Visual FoxPro is Windows only and not supported anymore by Microsoft. Lianja runs on Windows, Linux and Mac. It is not open source. It was written by ourselves".
+    *Blog [[http://www.lianja.com/resources/blog|Lianja Blog]].
+    *[[http://www.twitter.com/LianjaInc|Twitter "The Lianja Team, @LianjaInc"]].
+    *[[http://plus.google.com/117540736390885388946/|Google+ "Barry Mavin"]].
+==== Modules ====
+=== SQL Database Access ===
+  *[[http://www.sqlalchemy.org/|SQLAlchemy - The Python SQL toolkit and Object Relational Mapper]], [[https://bitbucket.org/zzzeek/sqlalchemy|Bitbucket "SQLAlchemy"]].
+=== HTML Parser ===
+  *[[http://docs.python.org/library/htmlparser.html|HTMLParser — Simple HTML and XHTML parser]] for Python.
+=== SimpleHTTPServer ( Python 2.x only ) ===
+  *[[http://docs.python.org/2/library/simplehttpserver.html|Python 2 Documentation "The Python Standard Library / 20. Internet Protocols and Support / 21.19. SimpleHTTPServer — Simple HTTP request handler"]].
+  *"python -m SimpleHTTPServer 8080" -> [[http://localhost:8080|localhost:8080]].
+=== I/O Modules ===
+  *[[http://pyserial.sourceforge.net/|SourceForge "ppySerial"]], [[http://www.sourceforge.net/projects/pyserial|SourceForge "ppySerial"]].
+  *[[http://pyvisa.sourceforge.net/|SourceForge "PyVISA"]], [[http://www.sourceforge.net/projects/pyvisa|SourceForge "PyVISA"]] - "Python GPIB etc. support with PyVISA".
+=== Access to Microsoft Excel documents ===
+== Tools ==
+  *[[http://www.python-excel.org/|Python with Excel- Working with Excel Files in Python]] - Python packages "xlrd", "xlwt", "xlutils" 
+    *[[http://www.github.com/python-excel|Github "python-excel"]].
+    *[[http://www.lexicon.net/sjmachin/|Lingfo Pty Ltd]].
+    *[[http://www.simplistix.co.uk/software|Simplistix Ltd.]].
+      *[[http://www.simplistix.co.uk/software/python/xlutils|Simplistix Ltd. "Software / xlutils"]].
+      *[[http://secure.simplistix.co.uk/svn/xlrd/trunk/xlrd/doc/xlrd.html?p=4966|Simplistix Ltd. "The xlrd Module"]].
+      *[[http://www.simplistix.co.uk/presentations/python-excel.pdf|Simplistix Ltd. "Chris Withers with help from John Machin: Working with Excel files in Python. EuroPython 2009, Birmingham"]] ( PDF ).
+    *[[http://pypi.python.org/pypi/xlrd|Python pypi "xlrd"]].
+    *[[http://pypi.python.org/pypi/xlwt|Python pypi "xlwt"]].
+    *[[http://pypi.python.org/pypi/xlutils|Python pypi "xlutils"]], [[http://www.pythonhosted.org/xlutils/|Pythonhosted "xlutils documentation"]].
+    *[[http://www.npmjs.org/package/xlrd-parser|npmjs "xlrd-parser. High performance Excel file parser based on the xlrd library from www.python-excel.org"]].
+  *Marc Hammond: Python Programming on Win32.
+    *[[http://starship.python.net/~skippy/ppw32/|Python Programming on Win32]].
+    *[[http://sourceforge.net/projects/pywin32/|SourceForge "Python for Windows extensions"]].
+    *With the Python 2.7.6 distributions "Python(x,y)" and "Anaconda 1.91" on Windows, the pywin32-218 installer exits with the error message:
+<code>
+close failed in file object destructor:
+sys.excepthook is missing
+lost sys.stderr
+</code>
+== Resources ==
+  *[[http://artemrudenko.wordpress.com/2013/04/09/reading-excel-using-python-xlrd/|artemrudenko "Python: Reading Excel using xlrd library"]].
+  *[[http://secure.simplistix.co.uk/svn/xlrd/trunk/xlrd/doc/xlrd.html?p=4966|Anthony DeBarros "Get JSON from Excel using Python, xlrd"]].
+  *[[http://www.bytes.com/topic/python/answers/803018-importing-xlrd|Bytes "Importing xlrd"]].
+  *[[http://www1.chapman.edu/~fahy/bioinformatics/xlrd.html|Chapman University - School of Computational Sciences - Bioinformatics "Reading Excel files with Python"]].
+  *[[http://www.codingtutorials.co.uk/python-excel-xlrd-xlwt/|Coding Tutorials Blog "Python & Excel (xlrd & xlwt)"]].
+  *[[http://www.daniweb.com/software-development/python/threads/379289/using-an-excel-spreadsheet-as-an-argument-for-a-python-script|DaniWeb "Using an Excel Spreadsheet as an Argument for a Python"]].
+  *[[http://support1.geomagic.com/link/portal/5605/5668/Article/2129/-How-can-I-interact-with-Microsoft-Excel-with-Python|Geomagic "How can I interact with Microsoft Excel with Python?"]].
+    *"Simple implementation within the GPSE using Qualify, Qualify Probe, Wrap or Studio: PythonExcel.zip".
+  *[[http://thoughtsbyclayg.blogspot.de/2008/12/get-dates-from-excel-with-python-xlrd.html|Clay Gerrard, thoughts by clayg "get dates from excel with python xlrd"]].
+  *[[http://www.herikstad.net/2012/10/installing-xlrd-module-in-portable.html|Herikstad Solutions "Installing xlrd module in Portable Python"]].
+  *[[http://update.hanser-fachbuch.de/2013/08/artikelreihe-python-3-excel-dateien-von-python-lesen/|Hanser Update, Bernd Klein "Artikelreihe Python 3: Excel-Dateien von Python lesen"]].
+  *[[http://www.numbergrinder.com/2008/10/pulling-data-from-excel-using-python-xlrd/|Numbergrinder "Pulling data from Excel using Python, xlrd"]].
+  *[[http://michaelangela.wordpress.com/2008/07/06/python-excel-file-reader/|Ramblings "Python Excel file reader"]].
+    *[[http://www.scienceoss.com/read-excel-files-from-python/|scienceoss.com. Useful tidbits for using open source software in science "Read Excel files from Python"]].
+==== Graphical Frameworks ====
+  *Kivy.
+    *The OpenSource library [[http://www.kivy.org/|Kivy]] - "For rapid development of applications that make use of innovative user interfaces, such as multi-touch apps", "Open source Python library for rapid development of applications that make use of innovative user interfaces, such as multi-touch apps", "Kivy is running on Linux, Windows, MacOSX, Android and IOS. You can run the same code on all supported platforms" #.
+    *[[http://www.kivy.org/docs/|Kivy User's Guide]] - free online HTML book and free PDF book.
+    *[[http://en.wikipedia.org/wiki/Kivy|EN.Wikipedia "Kivy"]], [[http://de.wikipedia.org/wiki/Kivy|DE.Wikipedia "Kivy"]].
+  *TkInter.
+    *[[http://wiki.python.org/moin/TkInter|Python Wiki"Tkinter"]] - "Python's de-facto standard GUI (Graphical User Interface) package. It is a thin object-oriented layer on top of Tcl/Tk.
+    *[[http://tkinter.unpythonic.net/wiki/|Tkinter Wiki]].
+    *[[http://en.wikipedia.org/wiki/Tkinter|EN.Wikipedia "Tkinter"]], [[http://de.wikipedia.org/wiki/Tkinter|DE.Wikipedia "Tkinter"]].
+    *Turtle.
+      *[[http://docs.python.org/2/library/turtle.html|The Python Standard Library > 24. Graphical User Interfaces with Tk > "24.5. turtle — Turtle graphics for Tk"]].
+      *The package "turtle" is usually included in Python distributions. However, it can´t be updated by well-known automatic installation processes. An installation attempt by "easy_install turtle" is aborted due to syntax errors in downloaded Python files and other faults :-(
+  *WxPython.
+    *[[http://en.wikipedia.org/wiki/WxPython|EN.Wikipedia "wxPython"]], [[http://de.wikipedia.org/wiki/WxPython|DE.Wikipedia "wxPython"]].
+    *[[http://www.wxpython.org/|wxPython]] - "A blending of the wxWidgets C++ class library with the Python programming language".
+        *Wiki [[http://wiki.wxpython.org/|wxPython Wiki]].
+        *[[http://wiki.wxpython.org/How%20to%20Learn%20wxPython|wxPython Wiki "How to learn wxPython"]].
+  *PyGTK / PyGObject.
+    *[[http://www.pygtk.org/|PyGTK: GTK+ for Python]].
+      *[[http://www.pygtk.org/docs/pygobject/|PyGObject Reference Manual]].
+    *[[http://live.gnome.org/PyGObject|GNOME Live "PyGObject"]].
+    *[[http://python-gtk-3-tutorial.readthedocs.org/|ReadTheDocs "The Python GTK+ 3 Tutorial"]].
+    *[[http://www.florian-diesch.de/doc/python-und-glade/|Florian Diesch "Python and Glade (German). Programmieren mit Python und Glade"]].
+    *[[http://en.wikipedia.org/wiki/PyGTK|EN.Wikipedia "PyGTK"]], [[http://de.wikipedia.org/wiki/PyGTK|DE.Wikipedia "PyGTK"]].
+  *QT.
+    *The QT project.
+      *See [[sframeworks.html|Software Frameworks]].
+    *PySide -> LGPL.
+      *[[http://www.pyside.org/|PySide]].
+      *[[http://pypi.python.org/pypi/PySide|Python Package Index "PySide"]].
+      *[[https://www.github.com/PySide|GitHub "PySide"]], [[http://pyside.github.io/docs/pyside/|GitHub.io "PySide documentation"]].
+      *[[http://qt.gitorious.org/pyside|Gitorious "Qt by Nokia / PySide"]] - "LGPL Qt bindings for Python and related tools for binding generation".
+      *[[http://download.qt-project.org/official_releases/pyside/|QT Project Download "Pyside"]] for Python 2.x and Python 3.x.
+      *[[http://qt-project.org/wiki/PySide|QT Project Wiki "PySide"]].
+        *[[http://www.qt-project.org/wiki/Building_PySide_on_Windows|Qt Project "Building PySide on Microsoft Windows"]].
+        *[[http://qt-project.org/doc/qt-4.8/install-win.html|Qt Project "Installing Qt for Windows"]].
+      *[[http://www.zetcode.com/gui/pysidetutorial/|ZetCode "PySide tutorial"]].
+    *PyQT -> GPL.
+      *PyQT is included in the Python distribution [[http://code.google.com/p/pythonxy/|Google Code "pythonxy. Scientific-oriented Python Distribution based on Qt and Spyder"]].
+      *[[http://www.riverbankcomputing.com/software/pyqt/|Riverbank Computing Limited "PyQt"]].
+      *Tutorials:
+        *[[http://www.github.com/OldAl/tuts4pyside|GitHub "OldAl/tuts4pyside"]] - "Tuts for PySide".
+        *[[http://www.cs.usfca.edu/~afedosov/qttut/|Alex Fedosov "Tutorial: Creating GUI Applications in Python with QT"]] ( "PyQT Tutorial" ).
+  *PyFLTK.
+      *FLTK -> See [[sframeworks.html|Software Frameworks]].
+
+==== Big Applications built with Python Interface ====
+=== Abaqus Unified FEA ===
+  *[[http://www.3ds.com/products-services/simulia/portfolio/abaqus/|Dassault Systèmes "Abaqus Unified FEA"]].
+  *[[http://usa.autodesk.com/adsk/servlet/index?siteID=123112&id=9469002|Autodesk Maya, Developer Center]] -"The fully integrated Maya Embedded Language (MEL) and Python scripting languages give you high-level access to every aspect of the software so you can create custom windows, reconfigure the user interface, and issue commands from an HTML page".
+=== Blender ===
+  *[[http://www.blender.org/|Blender]].
+    *[[http://en.wikipedia.org/wiki/Blender_%28software%29|EN.Wikipedia "Blender (software)"]], [[http://de.wikipedia.org/wiki/Blender_%28Software%29|DE.Wikipedia "Blender (Software)"]].
+=== OpenStack ===
+  *OpenStack - "Open-source software cloud computing platform. It is primarily deployed as an infrastructure as a service (IaaS) solution".
+    *The OpenSource [[http://www.openstack.org/|Open Stack]], written in Python.
+    *[[http://www.openstack.org/|OpenStack - Open source software for building private and public clouds]].
+    *[[http://www.ubuntu.com/cloud/private-cloud/openstack|Ubuntu "OpenStack with Ubuntu"]].
+    *[[http://www.twitter.com/openstack/|Twitter "OpenStack"]].
+    *[[http://en.wikipedia.org/wiki/OpenStack|EN.Wikipedia "OpenStack"]], [[http://de.wikipedia.org/wiki/OpenStack|DE.Wikipedia "OpenStack"]] - "Projects that control pools of processing, storage, and networking resources throughout a datacenter, all managed through a dashboard that gives administrators control while empowering its users to provision resources through a web interface".
+    *May be used to design "Meter Data Management Systems" systems in the Cloud, for the smart metering industry :-).
+    *IBM uses "OpenStack" for IT infrastructure management, e.g. with the product "IBM The Cloud Manager with Openstack" ( CMwO ).
+      *[[http://www.ibm.com/support/knowledgecenter/SST55W_4.1.0/|IBM Knowledge Center "IBM Cloud Manager with OpenStack welcome page"]] - "IBM Cloud Manager with OpenStack V4.1.0 documentation".
+      *There are 3 interfaces to OpenStack:
+        -Chef based installer.
+        -The OpenStack dashboard "Horizon" for system administrators.
+        -"IBM Smart Cloud Entry Web Interface" for end users ( as simple to use as the interfaces by AWS and Azure ).
+=== OriginPro ===
+  *[[http://www.originlab.com/|OriginLab "Origin", "OriginPro"]] - "Data Analysis and Graphing Software".
+    *[[http://www.originlab.com/doc/LabTalk/guide/work-with-python|OriginLab "LabTalk Programming / Expand LabTalk Programming / LabTalk Scripting Guide / Expand LabTalk Scripting Guide "2.16 Working with Python"]].
+  *[[http://en.wikipedia.org/wiki/Origin_%28software%29|EN.Wikipedia "Origin (software)"]], [[http://de.wikipedia.org/wiki/Origin_%28Software%29|DE.Wikipedia "Origin (Software)"]].
+=== RabbitMQ ===
+  *[[http://www.rabbitmq.com/|RabbitMQ]] for Java, Python,.. - "Messaging that works".
+=== Sublime Text ===
+  *The Shareware text editor [[http://www.sublimetext.com/|Sublime Text]] 2 for Windows, Linux, MacOSX.
+    *[[http://en.wikipedia.org/wiki/Sublime_Text|EN.Wikipedia "Sublime Text"]], [[http://de.wikipedia.org/wiki/Sublime_Text|DE.Wikipedia "Sublime Text"]].
+=== Virtual Box ===
+  *[[http://www.virtualbox.org/|Virtual Box]].
+==== Interfacing the Real World ====
+  *[[http://home.comcast.net/~dplau/nxt_python/|Douglas P Lau "NXT_Python"]].
+  *[[http://code.google.com/p/nxt-python/|Google Code "nxt-python. A pure-python driver/interface/wrapper for the Lego Mindstorms NXT robot"]], a successor of NXT_Python.
+==== Resources ====
+  *[[http://wiki.python.org/moin/WebFrameworks|Python.org Wiki "Web Frameworks for Python"]].
+===== Testing =====
+==== Static Testing - Source Code Checker ====
+  *See [[goodcoding.html|Good Coding ! - Software Coding, Coding Rules, Static Code Analysis]].
+==== Dynamic Testing Tools ====
+  *See [[testing.html|Testing]].
+  *See [[unittest.html|Unit Test / Module Test]].
+  *YAML - YAML Ain't Markup Language -> See [[testing.html|Testing]].
+==== How-To-Do-Testing, Testing Instructions, Testing Training ====
+  *Grig Gheorghiu.
+    *[[http://agiletesting.blogspot.com/2005/01/python-unit-testing-part-1-unittest.html|Grig Gheorghiu, Agile Testing "Python unit testing part 1: the unittest module"]].
+    *[[http://agiletesting.blogspot.com/2005/01/python-unit-testing-part-2-doctest.html|Grig Gheorghiu, Agile Testing "Python unit testing part 2: the doctest module"]].
+    *[[http://agiletesting.blogspot.com/2005/01/python-unit-testing-part-3-pytest-tool.html|Grig Gheorghiu, Agile Testing "Python unit testing part 3: the py.test tool and library"]].
+  *[[http://www.ibm.com/developerworks/aix/library/au-python_test/|IBM developerWorks "Python testing frameworks : Make your life easy with a Python testing framework"]] #.
+    *"zope.testing", "py.test", "nose".
+    *"**The testing revolution**: The py.test framework transformed the world of Python testing by accepting plain Python functions as tests instead of insisting that tests be packaged inside of larger and heavier-weight test classes. Since the nose framework supports the same idiom, these patterns are likely to become more and more popular".
+  *[[http://www.simplistix.co.uk/presentations/testing04/|Chris Withers, Simplistix - Making things simpler... "Presentations"]].
+    *"Python as a Testing Tool" ( PDF ).
+===== Generation of executable Applications =====
+  *The OpenSource [[http://cx-freeze.sourceforge.net/|Sourceforge "cx_Freeze"]], [[http://www.sourceforge.net/projects/cx-freeze|Sourceforge "cx_Freeze"]] - "A set of scripts and modules for freezing Python scripts into executables".
+  *The OpenSource [[http://www.py2exe.org/|py2exe]], [[http://py2exe.sourceforge.net/|Sourceforge "py2exe"]], [[http://www.sourceforge.net/projects/py2exe/|Sourceforge "py2exe"]].
+  *The OpenSource [[http://svn.pythonmac.org/py2app/py2app/trunk/doc/index.html|py2app - Create standalone Mac OS X applications with Python]].
+===== Python Jobs, Trainings, Certifications, Projects =====
+==== Commercial Certification for Python Skills =====
+  *[[http://www.brainbench.com/|Brainbench, Inc.]] -> See [[brainbench.html|Brainbench Certification]].
+==== Zope, Django ====
+  *In the early 2000ths, the only job offers in Germany for Python developers were about building websites & web applications using using Zope. Many/most processed projects were based on Plone, the most successfull application built with Zope. As the years passed by, a kind of "Zope" ecosystem was created, generating successful "Plone service providers".
+  *Since late 2000th / early 2010th, it might be that a similar ecosystem for "Django" is under construction.
+==== Open List for ( unpaid,..) Projects ====
+  *[[http://wiki.python-forum.de/Projektb%C3%B6rse|Python-Forum "pythonwiki - Projektbörse"]].
+==== The Meaning of Python for Testing of ( Automotive ) Industry Applications ====
+  *Job offer analysis ?
+  *Case Studies ?
+  *Popular Frameworks ?
+==== Companies which are Python Specialists ====
+  *[[http://www.veit-schiele.de/|Veit Schiele Communications GmbH]].
+  *[[http://www.zetwork.com/|zetwork GmbH]].
+  *[[http://www.zopyx.de/|ZOPYX/Andreas Jung]].
+    *[[http://www.zopyx.de/aktuelles/news|ZOPYX/Andreas Jung - News]].
+===== Python Hosting =====
+==== Heroku ====
+  *[[http://www.heroku.com/|Heroku]] - "Cloud Application Platform". "Write apps in your language – we support Ruby, Node.js, Clojure, Java, Python and Scala" -> See [[saas.html|Software As A Service ( SAAS )]].
+==== PythonAnywhere ====
+  *Commercial and free Python online services [[http://www.pythonanywhere.com/|PythonAnywhere]] - "A Python development and hosting environment that displays in your web browser and runs on our servers. They're already set up with everything you need. It's easy to use, fast, and powerful. There's even a useful free plan".
+    *Blog [[http://blog.pythonanywhere.com/|PythonAnywhere Blog "PythonAnywhere News"]].
+    *[[http://www.facebook.com/PythonAnywhere|Facebook "PythonAnywhere"]].
+    *[[http://www.youtube.com/results?search_query=pythonanywhere|YouTube - Search for "pythonanywhere"]].
+    *[[http://twitter.com/pythonanywhere/|Twitter "PythonAnywhere"]].
+    *Components:
+      *[[http://www.pythonanywhere.com/batteries_included/|PythonAnywhere "Batteries Included... The following modules are available as standard on PythonAnywhere. Just import them, they're ready to go!"]] #.
+      *Inside the Web tab you can configure a [[http://en.wikipedia.org/wiki/Web_Server_Gateway_Interface|WSGI]] web app which will be served at [[http://hemmerling.pythonanywhere.com/|hemmerling.pythonanywhere.com]]. Try using one of the built in web frameworks like [[http://www.djangoproject.com/|django]] or [[http://www.web2py.com/|web2py]] to get started quickly. 
+      *[[http://www.pypy.org/|PyPy]].
+      *[[http://www.ipython.org/|IPython]].
+==== Some other Service Providers ====
+=== Europe ===
+  *[[http://p5028688.profiseller.de/|1&1]].
+    *[[http://hilfe-center.1und1.de/homepage-entwickeln-c82634/python-c82688|1&1 Hilfe Center - Python]].
+    *[[http://faq.1and1.com/scripting_languages_supported/cgis/3.html|1&1 Webhosting FAQ | What Python modules are installed on the shared hosting servers]].
+    *[[http://martins-kabuff.de/blog/?id=47ee1e40155e5|Martin Prochnow "1&1 - Beworben, nochmal zugesichert aber nicht geliefert"]] - "Python steht erst ab dem Tarif 1&1 Business zur Verfügung" ( 2008 ).
+  *[[http://www.aldryn.com/|Divio Aldryn Ltd. "Aldryn"]] - "The easiest way to build and manage your django CMS projects Get your first website in minutes!".
+    *[[http://control.aldryn.com/demo/get-new/|Divio Aldryn Ltd. "Aldryn demo website"]].
+  *[[http://www.df.eu/de/|domainfactory GmbH]].
+    *[[http://www.df.eu/de/service/df-faq/webhosting/skriptsprachen/python/|domainfactory GmbH "Pyton"]] -> "Python Version 2.6.6".
+  *[[http://www.hetzner.de/|Hetzner Online AG]].
+      *[[http://www.hetzner.de/hosting/produktmatrix/webhosting-produktmatrix|Hetzner Online AG "Produktmatrix Webhosting"]] -> "Perl, Python".
+  *[[http://www.hostsharing.net/|Hostsharing e.G.]].
+    *[[http://www.hostsharing.net/produkte|Hostsharing e.G. "Produkte"]].
+      *[[http://www.hostsharing.net/produkte/web-pakete|Hostsharing e.G. "Web-Pakete"]] - "Webpakete eignen sich hervorragend für den Einsatz von Content-Management-Systemen und Frameworks für große (z.B. Plone, Zope, Typo3) wie auch für kleinere oder mittlere Anwendungen (Django, Wordpress etc.). Ebenfalls sind eine Vielzahl von Programmiersprachen einsetzbar, wie Lua, C++,C, Python, tcl, php und andere".
+    *[[http://www.veit-schiele.de/profil/netzwerk/hostsharing|Veit Schiele Communications GmbH "Hostsharing e.G."]] - "Darüberhinaus betreue ich bei der Hostsharing e.G. die Python- und Zope-Installationen und Sie erhalten daher von mir Support zum Einrichten Ihrer Zope-Instanz und Konfigurieren Ihrer Plone-Site aus erster Hand".
+  *[[http://www.flyingcircus.io/|Flying Circus — Python hosting DevOps style]] -> Python 2.5-3.2.
+  *[[http://www.hosteurope.de/|Host Europe GmbH]].
+    *[[http://faq.hosteurope.de/index.php?cpid=10971|Host Europe GmbH - FAQ "Skripte (cgi, perl, php, Webanwendungen)"]].
+      *[[http://faq.hosteurope.de/index.php?cpid=11005|Host Europe GmbH - FAQ "Ruby und Python"]] - "Aktuell bieten wir Python in den Versionen 2.5.5 und 2.6.6 an".
+      *[[http://faq.hosteurope.de/index.php?cpid=14061|Host Europe GmbH - FAQ "WebPack Pro"]] - "Aktuell bieten wir Python in einer version an: /usr/bin/python --> Version 2.5".
+      *[[http://faq.hosteurope.de/index.php?cpid=18507|Host Europe GmbH - FAQ "Welche Erweiterungen stehen für PHP, Perl, Python und Ruby zur Verfügung?"]].
+  *[[http://www.netclusive.de/|netclusive GmbH]].
+    *[[http://www.netclusive.de/?go=hostingp|netclusive GmbH "Webhosting für Einsteiger und Fortgeschrittene"]] - "User 3.0 -> CGI-Unterstützung (Perl, Python)".
+  *[[http://www.strato-faq.de/|STRATO AG]].
+    *[[http://www.strato-faq.de/artikel.html?id=555|STRATO AG - STRATO FAQ "Wie lauten die Pfade in Ihrem System?"]] - "Der Pfad zu Python /usr/bin/python".
+    *[[http://www.strato-faq.de/artikel.html?id=555|STRATO AG - STRATO FAQ "So installieren Sie eigene CGIs auf unserem Server"]].
+      *"Perl".
+      *"Python (ab Premium/PowerPlus Paket)"
+  *[[http://www.webfaction.com/services/hosting?affiliate=hemmerling|Swarma Limited - WebFaction]].
+  *[[http://www.w3w.de/|3W-SERVICE Internet Solutions - W3W.de - hosting for professionals]] - "Python 2.5.1 (integriertes Servermodul)".
+=== Worldwide / USA ===
+  *[[http://dreamhost.com/web-hosting/|Dreamhost]].
+    *Wiki [[http://wiki.dreamhost.com/Python|Dreamhost Wiki "Python"]].
+==== Forums, Newsgroups ====
+  *[[http://www.facebook.com/LianjaInc|Facebook "Lianja"]].
+    *[[http://www.lianja.com/community/|Lianja Developer Community]].
+  *[[http://www.pythonanywhere.com/forums/|PythonAnywhere Forums]].
+  *WebFaction.
+    *New forum [[http://community.webfaction.com/|WebFaction Community]].
+      *Question [[http://community.webfaction.com/questions/11426/which-python-version-is-supplied-with-the-webhosting|WebFaction Community "Which Python version is supplied with the webhosting ?"]] - "We provide versions 2.4 - 2.7 and 3.0 - 3.1 You invoke the version by the binary name, e.g. python2.7".
+    *Old forum [[http://forum.webfaction.com/|WebFaction Forum]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Programming/Languages/Python/|OpenDirectory "Top: Computers: Programming: Languages: Python]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Programmieren/Sprachen/Python/|OpenDirectory "Top: World: Deutsch: Computer: Programmieren: Sprachen: Python"]].
+ {{tag>"Unix script language" "script language" Python}}
+<footnote_navi_en>

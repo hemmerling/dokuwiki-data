@@ -1,0 +1,304 @@
+====== [hemmerling] Manufacturing Execution Systems ( MES ) ======
+Related pages:
+  *[[automation.html|Automation & Process Logic Control]].
+  *[[bintelligence.html|Business Intelligence, Data Mining]].
+  *[[cae.html|Computer Aided Engineering]].
+  *[[infographics.html|Data Visualisation]].
+  *[[enterprise.html|Enterprise Operation]].
+  *[[erp.html|Enterprise Resource Planning ( ERP ) / "Produktionsplanung und Steuerung" ( PPS )]].
+  *[[iengineering.html|Industrial Engineering]].
+  *[[requirements.html|Requirements & Requirements Engineering]].
+  *[[qmanagement.html|Quality Management]].
+===== Table of Contents of MES Pages on this Site =====
+==== Software Systems ====
+  *[[fieldbus.html|Fieldbuses and Automation Networks]].
+  *[[industrialdata.html|Industrial Data & Industrial Data Exchange]].
+  *[[industry40.html|"Industry 4.0" & "Internet of Things" ( IOT ) & "Cyber-physical Systems"]].
+  *[[mes02.html|Manufacturing Execution Systems ( MES ) 2/5 - Software Systems]].
+==== Norms & Design ====
+  *[[mes03.html|Manufacturing Execution Systems ( MES ) 3/5 - Norms & Design]].
+  *[[mes05.html|Manufacturing Execution Systems ( MES ) 5/5 - User Requirements Template for MES]].
+==== Literature ====
+  *[[mes04.html|Manufacturing Execution Systems ( MES ) 4/5 - Literature]].
+===== Pronunciation =====
+  *[[http://www.linkedin.com/groupAnswers?viewQuestionAndAnswers=&discussionID=142512146&gid=39667|LinkedIn Group "MES EMEA", Thread "A question of a non-native English speaker: How do you pronounce MES in daily work talks ?"]].
+  *[[http://www.linkedin.com/groupAnswers?viewQuestionAndAnswers=&discussionID=142512866&gid=132546|LinkedIn Group "MES AND SCADA", Thread "A question of a non-native English speaker: How do you pronounce MES in daily work talks ?"]].
+  *[[http://www.linkedin.com/groupAnswers?viewQuestionAndAnswers=&discussionID=142504717&gid=67917|LinkedIn Group "MES - Manufacturing Execution Systems ", Thread "A question of a non-native English speaker: How do you pronounce MES in daily work talks ?"]].
+
+===== Statements =====
+  *[[http://www.linkedin.com/groupAnswers?viewQuestionAndAnswers=&discussionID=142504717&gid=67917&commentID=90490770&trk=view_disc&ut=2Yb13P3tXtTlk1|LinkedIn, Mark Colquhoun]]:
+    *"MES systems have one or a combination of the following characteristics:
+      -They send operations to a control system to be executed.
+      -They read data from the control system as feedback on the state of an operation.
+      -They read information from a control system for further analysis by the business. 
+    *MES systems often also integrate with enterprise business systems however this is an optional characteristic compared to those listed above".
+  *Bianca Schelten:
+    *"**MES is a belief**".
+    *"Suppose the MES vendor goes bankrupt, or stops developing and supporting the product: every plant will feel the blow. So be shure you come to an understanding with the vendor on source code availabilty for this kind of emergency. **If you have the source code**, you can adapt and expand the MES yourself as needed".
+  *"By the implementation of a MES, **your Excel and Access hell is past :-)**". 
+  *"MES = production management + quality management", "MES = production intelligence", "MES = integrated industry", "MES = produktionsnahe Software".
+  *"MES is the bse for process optimization".
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3868020020/hemmerling-21|Jens Reimann, Michael Schäfer, Christoph Schmidtbauer, Peter Schoner: "MES: Anforderungen, Architektur und Design mit Java, Spring & Co"]], page 74: "A MES must support all action which help to reduce costs".
+===== Organisations =====
+  *[[http://www.apics.org/|APICS - The Association for Operations Management]].
+    *[[http://en.wikipedia.org/wiki/APICS_The_Association_for_Operations_Management|DE.Wikipedia "APICS The Association for Operations Management"]], [[http://de.wikipedia.org/wiki/APICS|DE.Wikipedia "APICS"]].
+  *[[http://www.nam.din.de/gremien/NA+060-30-05+AA/de/67537981.html|DIN NA 060 Normenauschuss Maschinenbau ( NAM )]] - "DIN NA 060-30-05 AA Architektur und Kommunikation" ( formerly: "DIN NAM 430.5" ).
+  *[[http://www.isa.org/|ISA - The International Society of Automation]], [[http://www.isaeurope.org/|ISA, European Office]].
+    *[[http://en.wikipedia.org/wiki/International_Society_of_Automation|EN.Wikipedia "International Society of Automation"]], [[http://de.wikipedia.org/wiki/International_Society_of_Automation|DE.Wikipedia "International Society of Automation"]].
+  *[[http://www.nibs.org/?page=fmoc|The Facility Maintenance and Operations Committee]] (FMOC).
+  *[[http://www.mes-dach.de/|MES D.A.CH Verband e.V.]].
+  *"MESA ( Manufacturing Enterprise Solutions Association ) International".
+    *[[http://www.mesa.org/|MESA ( Manufacturing Enterprise Solutions Association ) International]].
+      *[[http://www.mesa.org/en/regionalgroups/Austria.asp|Deutschsprachige MESA International Arbeitsgruppe -  MESA D-A-CH]].
+    *[[http://www.wbf.org/|WBF, The Organization for Production Technology]], [[http://wbforg.affiniscape.com/|WBF, The Organization for Production Technology]] ( formerly: World Batch Forum ( WBF ) ).
+  *Microsoft Manufacturing User Group ( MsMUG ).
+    *<del>[[http://www.msmug.org/|Microsoft Manufacturing User Group ( MsMUG )]]</del>.
+    *[[http://wayback.archive.org/web/*/http://www.msmug.org/Pages/Home.aspx|Archiv.org "Microsoft Manufacturing User Group ( MsMUG )"]].
+    *[[http://www.automationfederation.org/|Automation Federation - The Voice of Automation]].
+      *[[http://www.automationfederation.org/AFTemplate.cfm?Template=/Customsource/MSMUG/Join/Index.cfm|Automation Federation - The Voice of Automation "MSMUG Site Registration"]].
+    *[[http://mechatronic-design.com/news/microsoft_user_group_automation_federation_0624/|ecatronic-design - Applied Interdisciplinary Engineering "Microsoft User Group moves to Automation Federation"]], 2008-06-24 - "The Microsoft Manufacturing User Group (MsMUG), Research Triangle Park, N.C., formerly a part of OMAC, is moving to a working group under the Automation Federation".
+  *[[http://www.namur.de/|NAMUR - "Benefits by process automation"]] - "Normenarbeitsgemeinschaft für Meß- und Regeltechnik in der chemischen Industrie".
+    *[[http://www.namur.de/arbeitsfelder-af-und-projektgruppen-pg/arbeitsfeld-2-prozess-und-betriebsfuehrungssysteme/ak-24-manufacturing-execution-systems/|NAMUR Arbeitsfelder ( AF ) und Projektgruppen ( PG ) - Arbeitskreis "AK 2.4 "Manufacturing Execution Systems""]].
+    *[[http://www.nena.namur.de/|NAMUR "NAMUR-Empfehlungen (NE) und NAMUR-Arbeitsblätter (NA)"]] - No free access.
+    *[[http://de.wikipedia.org/wiki/NAMUR|DE.Wikipedia "NAMUR"]].
+    *[[http://de.wikipedia.org/wiki/NAMUR-Sensor|DE.Wikipedia "NAMUR-Sensor"]].
+  *[[http://www.omg.org/mantis/|Object Management Group]].
+    *The legacy site [[http://mfg.omg.org/|Object Management Group "ManTIS. Manufacturing Technology a Industrial Systems Task Force"]], [[http://mantis.omg.org/legacy.htm|Object Management Group "ManTIS. Manufacturing Technology a Industrial Systems Task Force"]].
+    *Wiki [[http://wiki.omg.org/mantis/|Object Management Group "ManTIS Wiki"]].
+    *The legacy site [[http://mantis.omg.org/mfgmesmc.htm|Object Management Group "ManTIS. Manufacturing Technology a Industrial Systems Task Force"]].
+  *[[http://www.oagi.org/|OAGi - Open Application Group]] ( OAGi, OAG ).
+  *[[http://www.oasis-open.org/|Organization for the Advancement of Structured Information Standards ]] ( OASIS ) - Advanced open standards for the information society.
+  *[[http://www.omac.org/|OMAC - The Organization for Machine Automation and Control]].
+    *[[http://www.omac.org/content/packaging-workgroup|OMAC Packaging Workgroup ( OPW )]] - The OMAC Packaging Workgroup ( OPW ) is one of three primary workgroups of OMAC, a users group formed to establish a repository of tools and deliverables and facilitate global standards among manufacturing end-users and equipment builders. OPW focuses on packaging operations and is leveraging S88 to define standards to equipment construction and connection to the enterprise. (Note that ISA and OMAC have agreed to merge with ISA being the parent organization. OMAC still maintains a separate web site at this time.)
+  *[[http://www.openoandm.info/|OpenO&M]].
+    *[[http://www.mimosa.org/|MIMOSA - An Operations and Maintenance Information Open System Alliance]].
+  *[[http://www.vdma.org/|Verband Deutscher Maschinen und Anlagenbau e.V ( VDMA )]].
+    *[[http://de.wikipedia.org/wiki/Verband_Deutscher_Maschinen-_und_Anlagenbau|DE.Wikipedia "Verband Deutscher Maschinen- und Anlagenbau"]].
+  *[[http://www.vda.de/| Verband der Automobilindustrie e. V. ( VDA )]], [[http://www.vda-qmc.de/| Verband der Automobilindustrie e. V. ( VDA ) - Quality Center]].
+  *[[http://www.vdi.de/|Verein Deutscher Ingenieure ( VDI )]].
+    *[[http://www.vdi.de/4584.0.html|VDI-Fachbereich Informationstechnik, Fachausschuss 140: Manufacturing Execution Systems (MES)]].
+    *[[http://www.vdi.de/41993.0.html|VDI-Gesellschaft Produkt- und Prozessgestaltung ( GPP )]].
+      *[[http://de.wikipedia.org/wiki/Kompetenzfeld_Informationstechnik|DE.Wikipedia "Kompetenzfeld Informationstechnik"]] ( KfIT ) - "Mitglieder des Kompetenzfeld Informationstechnik im VDI erhalten die Fachzeitschrift [[http://www.it-production.com/|IT&Production]] im Rahmen ihres Mitgliedsbeitrages".
+      *[[http://www.atzonline.de/Aktuell/Nachrichten/1/10280/Neue-Struktur-im-VDI-Technikbereich-EKV-+-GSP-+-KfIT-=-GPP.html|ATZ Online "Neue Struktur im VDI-Technikbereich: EKV + GSP + KfIT = GPP"]], 2009-08-17.
+  *[[http://www.zvei.org/|Zentralverband Elektrotechnik- und Elektronikindustrie e.V. ( ZVEI )]].
+    *[[http://de.wikipedia.org/wiki/Zentralverband_Elektrotechnik-_und_Elektronikindustrie|DE.Wikipedia "Zentralverband Elektrotechnik- und Elektronikindustrie"]].
+===== Fairs, Conferences, Workshops =====
+==== Automation Symposium 2012 ====
+  *"Automation Symposium 2012 - Höhere Verfügbarkeit und transparentere Produktion durch Information von der Produktionsebene bis zum MES", 2012-02-09.
+    *[[http://www.kompetenznetze.de/service/termine/2012/automation-symposium-2012|Bundesministerium für Wirtschaft und Technologie "Automation Symposium 2012"]].
+    *<del>[[http://www.ais.mw.tum.de/uploads/media/ATS_2012_Flyer_web2.pdf|Lehrstuhl für Automatisierung und Informationssysteme, Technische Universität München "Automation Symposium 2012 - Höhere Verfügbarkeit und transparentere Produktion durch Information von der Produktionsebene bis zum MES"]]</del> ( PDF ).
+    *Organiser: [[http://www.cluster-ma.de/|Cluster Mechatronik & Automation e.V.]].
+==== CBI’s Annual Forum on Manufacturing Execution Systems ( MES ) ====
+  *[[http://www.cbinet.com/conference/pc12144|CBI’s 7th Annual Forum on Manufacturing Execution Systems ( MES )]], USA ( 2012 ).
+==== MES Anwenderworkshop ====
+  *[[http://www.automatisierungstreff.com/|Automatisierungstreff Industrie+Gebäude]], Böblingen - 2013-03-20 - 2013-03-22.
+    *[[http://www.automatisierungstreff.com/?page_id=41|Automatisierungstreff Industrie+Gebäude "Registrierungsformular"]] - "Registrieren Sie sich für einen Besuch auf dem Automatisierungstreff 2013 und Sie erhalten automatisch Ihre kostenlose, persönliche Eintrittskarte".
+    *[[http://www.automatisierungstreff.com/?page_id=6087|Automatisierungstreff Industrie+Gebäude "Anwender-Workshops 2012"]] - "MES Anwenderworkshop. Manufacturing Execution System in der Praxis" by [[http://www.mes-dach.de/|MES D.A.CH Verband e.V.]].
+==== MES im Fokus ====
+  *Conference "MES im Fokus" by [[http://www.mes-dach.de/|MES D.A.CH Verband e.V.]] at [[http://www.beckhoff.de/|Beckhoff Automation GmbH]], 2015-02-05 - 2015-02-16.
+    *[[http://www.mpdv.de/ueber-mpdv/veranstaltungen.html|MPDV Mikrolab GmbH "MES-Veranstaltungen in Ihrer Nähe"]] -> Free application for 2015-02-05.
+==== MES-Tagung ====
+  *Conference [[http://www.hannovermesse.de/veranstaltung/6.-mes-tagung-mes-in-der-praxis-2014-prozessindustrie/TAG/56132|Hannover Messe "6. MES-Tagung - MES in der Praxis 2014. Prozesse effizienter machen - flexibel, schnell, transparent"]] ( "6. MES-Tagung - MES in practice 2014. Increasing the efficiency of processes - flexible, fast, transparent" ), an event of the fair [[http://www.messe.de/|Hannover Messe]] 2014 in Hannover, Germany ( 2014-04-09 - 2014-04-10 ). 
+  *[[http://www.hannovermesse.de/de/ueber-die-messe/programm/veranstaltungen/mes-tagung|Hannover Messe "MES - effiziente Produktion. Fachtagung MES in der Praxis"]] ( 2013-04-10 - 2013-04-11 ).
+    *[[http://www.process.vogel.de/hannover-messe/articles/361710|Vogel Business Media "Process - Chemie, Pharma, Verfahrenstechnik" - "MES-Tagung 2012. Wertschöpfung durch IT-Einsatz"]] - "Die Teilnahme an der MES-Tagung ist in Verbindung mit einer gültigen Eintrittskarte kostenfrei, eine Anmeldung ist jedoch erforderlich".
+
+==== MESA European Conference ====
+  *[[http://euconference.mesa.org/|MESA European Conference]], <del>2012-09-13 - 2012-09-14</del>.
+==== Hannover Fair ====
+  *[[http://www.hannovermesse.de/de/digitalfactory|Hannover Messe "Digital Factory. Internationale Leitmesse für integrierte Prozesse und IT-Lösungen"]].
+  *[[http://www.hannovermesse.de/veranstaltung/forum-industrial-it/FOR/46174|Hannover Messe "Forum Industrial IT"]].
+  *[[http://www.hannovermesse.de/produkt/mes-manufacturing-execution-system/151768/B638106|Hannover Messe "MES (Manufacturing Execution System)"]] -> A simple company page :-).
+  *[[http://m2mzone.com/events/cebit2013/M2M_CeBIT2013_Pavilion.asp|M2M Zone - Pavilion and Conference @ CeBIT]], 2013.
+==== Messe Stuttgart ====
+  *The fair [[http://www.control-messe.de/|Control - Internationale Fachmesse für Qualitätssicherung]] at [[http://www.messe-stuttgart.de/|Messe Stuttgart]].
+  *The double-feature fairs [[http://www.messestuttgart.de/cms/index.php?id=121266|IT & Business]] und [[http://www.messestuttgart.de/cms/index.php?id=121023|DMS EXPO]] at [[http://www.messe-stuttgart.de/|Messe Stuttgart]] ( 2012-10-23 - 2012-10-25 ).
+==== Konferenzzentrum München ====
+  *The conference [[http://www.smart-home-summit.de/|Smart Home & Metering Summit]].
+
+===== Training & Certification =====
+==== ISA's Certified Automation Professional ( CAP ) & ISA Certified Control Systems Technician ( CCST ) ====
+  *[[http://www.isaeurope.org/subpages/training/certification/|ISA, European Office - Certification]].
+    *[[http://www.isa.org/Content/NavigationMenu/Products_and_Services/Certification3/Certified_Automation_Professional1/Certified_Automation_Professional.htm|ISA, European Office "ISA's Certified Automation Professional ( CAP )"]].
+    *[[http://www.isa.org/Content/NavigationMenu/Products_and_Services/Certification3/Certified_Control_Systems_Technician/Certified_Control_Systems_Technician.htm|ISA, European Office "ISA Certified Control Systems Technician ( CCST )"]].
+==== MES Informations-Manager ( MIM ) ====
+  *Seminars "MES Auswahlprozess" & "Schulungskurs MES".
+    *[[http://www.vbm-seminare.de/|Vogel Business Media GmbH & Co. KG "VBM-Seminare"]].
+      *[[http://www.vbm-seminare.de/mes-markt/|Vogel Business Media GmbH & Co. KG "MES für die Produktion. Einzelbeurteilung und Marktübersicht der MES Anbieter. 1-Tages-Praxisseminar"]].
+      *[[http://www.vbm-seminare.de/mes-schulung/|Vogel Business Media GmbH & Co. KG "Schulungskurs MES. 3-Tages-Praxisseminar"]] - "Jeder Teilnehmer erhält ein Teilnahmezertifikat am Seminar. Wer an einer qualifizierten Beurteilung interessiert ist, erhält ein Beispiel zur Simulierung des Lernstoffs. Dieses ist innerhalb von 14 Tagen mittels des mitgelieferten Simulators abzubilden und dem Seminarleiter zuzuschicken. Es erfolgt eine Beurteilung, die zum Zertifikat des MES Informations-Manager (MIM) führt" -> Certification as "MES Informations-Manager ( MIM )".
+    *[[http://mes-consult.de/index12_seminare.html|MES Consult Klaus Thiel - MES Seminare]].
+      *Seminar "MES Auswahlprozess".
+      *Seminar "Schulungskurs MES. 3-Tages-Praxisseminar".
+==== MESA'a CoC and CoA Certificates ====
+  *[[http://www.mesa.org/en/globaleducationprogram/programs.asp|MESA International - Programs]].
+    -"MESA Certificate of Competency (CoC) for MES/MOM* Methodologies Program" ( 4 days ).
+    -"MESA Certificate of Awareness (CoA) for MES/MOM* Business Awareness Program" ( 2 days ).
+===== Frost & Sullivan Global MES Product of the Year =====
+  *[[http://en.wikipedia.org/wiki/Frost_%26_Sullivan|EN.Wikipedia "Frost & Sullivan"]].
+  *[[http://www.awards.frost.com/| Frost & Sullivan Best Practices Awards]].
+  *[[http://www.google.com/search?q=%22Frost+%26+Sullivan+Global+MES+Product+of+the+Year%22|Google - Search for "Frost & Sullivan Global MES Product of the Year"]].
+  *[[http://www.frost.com/sublib/display-press-release.do?searchQuery=Global+MES+Product+&bdata=aHR0cDovL3d3dy5mcm9zdC5jb20vc3JjaC9jYXRhbG9nLXNlYXJjaC5kbz9jb250ZW50VHlwZXM9Q1gwNSZxdWVyeVRleHQ9R2xvYmFsK01FUytQcm9kdWN0K0B%2BQFNlYXJjaCBSZXN1bHRzQH5AMTM0NjA0NDc5NzMxOQ%3D%3D&id=208886388|Frost & Sullivan "Frost & Sullivan awards MPDV for its Outstanding Manufacturing Execution System Product – HYDRA"]].
+  *[[http://www.frost.com/sublib/display-press-release.do?searchQuery=Global+MES+Product+&bdata=aHR0cDovL3d3dy5mcm9zdC5jb20vc3JjaC9jYXRhbG9nLXNlYXJjaC5kbz9jb250ZW50VHlwZXM9Q1gwNSZxdWVyeVRleHQ9R2xvYmFsK01FUytQcm9kdWN0K0B%2BQFNlYXJjaCBSZXN1bHRzQH5AMTM0NjA0NDc5NzMxOQ%3D%3D&id=208886388|Frost & Sullivan - Search for "Global MES Product"]].
+===== The Business Opportunity for an innovative MES =====
+The Business Opportunity for an innovative MES is to fill the "MES Gap" in the "MES Narrow" of the dataflow of traditional IT production systems, with appropriate functionality.
+{{images:mes1.png|ISA-95 Enterprise Domain, ISA-95 Control Domain)}}{{images:mes2.png|The Business Opportunity for an innovative MES)}}
+===== Resources =====
+  *[[http://www.automation.com/|Automation.com - Real-time information for the Automation Professional]] - "ISA and InTech have partnered with Automation.com to publish and provide you with informative automation e-newsletters".
+  *[[http://www.apriso.com/|Apriso Corporation]].
+    *[[http://www.apriso.com/blog/|Apriso Corporation - Manufacturing Transformation Blog]].
+    *[[http://www.apriso.com/library/overview.php|Apriso Corporation - Library]].
+      *[[http://www.apriso.com/library/white_papers.php|Apriso Corporation - Library / White Papers]].
+        *[[http://www.apriso.com/library/white_papers/Apriso_WhitePaper_P2E_Integration_ISA95.pdf|Apriso Corporation "Plant to Enterprise Integration: ISA-95 is a Nice Start"]] -> Visualisation of "Apriso’s Alignment to ISA-95 Production Standard" :-)
+  *[[http://automazine.blogspot.it/2012/08/scada-vs-mes-en.html|Automation Manager - La risorsa online per chi lavora nell'automazione "SCADA Vs MES (en)"]], 2012-08-09.
+  *[[http://www.kai-m-becker.de/|Kai M. Becker]] ( KaEmBe ).
+    *[[http://www.xing.com/profile/Kai_Becker|XING "Kai Becker"]].
+    *Blog [[http://openmes.wordpress.com/|Open MES. Ekklektisch, pragmatisch, persönlich]].
+    *[[http://twitter.com/OpenMES|Twitter "OpenMES. MES: Open Source, ekklektisch, pragmatisch, persönlich"]].
+    *[[http://www.kat.de/|KAT Automationssysteme GmbH]].
+  *[[http://www.competence-site.de/produktions-und-logistik-it|Competence Site "Produktions- und Logistik-IT"]].
+    *[[http://www.competence-site.de/mes-mes-standard|Competence Site "MES / MES-Standard"]].
+    *[[http://www.competence-site.de/mes-standard/MES-Standardisierung-Aktivitaeten-in-DIN-und-ISO|Competence Site "Dr.-Ing. Robert Patzke: MES-Standardisierung - Aktivitäten in DIN und ISO"]].
+  *[[http://community.controlglobal.com/|ControlGlobal Community]].
+    *[[http://community.controlglobal.com/content/participate-isa-95mesa-best-practices-work-group|ControlGlobal Community, Charlie Gifford "Participate in the ISA-95/MESA Best Practices Work Group"]], 2009-05-08.
+  *[[http://www.datamat.com/products/software/edm/edm.htm|Datamat Programming Systems, Inc "Engineering Data Management"]] ( EDM ).
+  *"DNC Server".
+    *[[http://www.i-logic.com/dncserver.htm|i-Logic Software "DNC Server"]] - "Our software for uploading and downloading to CNC machines. Our unique interface puts everything in one screen - the list of files, an edit window, send, receive, print. Can be configured for any number of machines".
+  *[[http://www.e3cms.de/index.php?id=2525&contUid=3092|E-3 Efficient Extended Enterprises, Extra März 09 "Gerd Kanzleiter, GOPA IT: ERP & Shop Floor"]].
+  *[[http://www.ipa.fraunhofer.de/|Fraunhofer Institut für Produktionstechnik und Automatisierung ( Fraunhofer IPA )]].
+    *[[http://www.ipa.fraunhofer.de/index.php?id=309|Fraunhofer Institut für Produktionstechnik und Automatisierung ( Fraunhofer IPA ) "Fertigungsmanagement"]].
+  *[[http://www.ge-ip.com/|GE Intelligent Platforms GmbH & Co.KG]].
+    *[[http://www.ge-ip.com/de/events|GE Intelligent Platforms - Upcoming Events, On Demand Events]].
+      *On-demand webinar [[http://www.ge-ip.com/de/events/taking-the-risk-out-of-mes/21|GE Intelligent Platforms "Taking the risk out of MES"]].
+  *[[http://www.google.de/search?q=manufacturing+operating+system+mom|Google - Search for "manufacturing operating system mom"]].
+  *Oliver Oliver L. Hung.
+    *[[http://cca.yuntech.edu.tw/mci_class_92%E4%B8%8B/download.asp|YunTech - National Yunlin University of Science & Technology, Center for Commercial Automation "Class 1992, Download"]].
+      *[[http://cca.yuntech.edu.tw/mci%5Fclass%5F92%E4%B8%8B/ppt/07MES.ppt|YunTech - National Yunlin University of Science & Technology, Center for Commercial Automation "Oliver L. Hung: Manufacturing Execution System"]] ( PPT ), 2003-11-09.
+      *Online slideshow [[http://wenku.baidu.com/view/18a6c67ea26925c52cc5bf19.html|Baidu "Oliver L. Hung: Manufacturing Execution System"]].
+  *The cancled conference [[http://www.mes-prozessindustrie.de/|Integriertes MES in der Prozessindustrie]], [[http://www.iqpc.com/Event.aspx?id=534056|Integriertes MES in der Prozessindustrie]], Berlin by [[http://www.iqpc.com/|IQPC - International Quality & Productivity Center - Providing Business Leaders with the World's Leading Conferences]] ( 2011-08-30 - 2011-09-01 ) - "Diese Veranstaltung musste leider auf Grund unvorhergesehener Ereignisse abgesagt werden" :-(.
+  *[[http://www.lighthousesystems.com/white_papers.htm|Lighthouse Systems "White Papers from Lighthouse Systems"]]
+    *The free white paper "The Route To A Factory Information System"
+    *The free white paper "How To Build A Business Case For Shopfloor-Online".
+    *The free white paper "How Shopfloor-Online Supports Quality".
+  *[[http://www.mescenter.ru/|MEScenter.ru]], Russian only :-(.
+  *[[http://www.mfp-online.de/|Messtechnik und Fertigungstechnologie GmbH ( MFP )]], Wunstorf.
+    *[[http://www.mfp-online.de/homepage/presse/presse.htm|Messtechnik und Fertigungstechnologie GmbH ( MFP ) "Presse - Veröffentlichungen in Fachzeitschriften]].
+      *Book [[http://books.google.de/books?id=67ksNQAACAAJ|MES in der Praxis. Horizontale und vertikale Integration der Wertschöpfungskette in Unternehmen]], ISBN 3825919463, 2007.
+        *Article "MES – eine Chance".
+        *Article "MES und ISO-Normen. Chancen zur Zusammenarbeit von Herstellern und Anwendern".
+  *[[http://www.lexikon.qmb.info/|Qualität & Lexikon. Lexikon zum Themenbereich Qualität]].
+    *[[http://www.lexikon.qmb.info/abc/q/qualitaetsdatenerfassung_qde.htm|Qualität & Lexikon. Lexikon zum Themenbereich Qualität "Qualitätsdatenerfassung (QDE)"]].
+  *[[http://discover.rockwellautomation.com/IS_EN_Intelligence_Manufacturing_Intelligence.aspx|Rockwell Automation, Inc. "Manufacturing Intelligence"]].
+    *Webcasts [[http://discover.rockwellautomation.com/IS_EN_Webcasts_Discover_Webcast_Series.aspx|Rockwell Automation, Inc. "Discover Webcast Series"]] - "Manufacturing Intelligence in Action-Turning Control System Data into Actionable Information" - "If you ... need assistance please contact [[rasoftware@ra.rockwell.com]]".
+    *Event [[http://discover.rockwellautomation.com/IS_EN_manufacturing_intelligence_in_action.aspx|Rockwell Automation, Inc. "Global Manufacturing Intelligence In Action ( Automation University Special )"]], Hannover ( 2012-06-27 - 2012-06-28 ).
+  *[[http://www.techmatchpro.com/manufacturing-execution-systems|TechMATCH Pro - Manufacturing Execution Systems (MES) Technology Zone]].
+    *[[http://blog.techmatchpro.com/2011/10/a-manufacturing-democracy/|TechMATCH Pro - Manufacturing Execution Systems (MES) Technology Zone "A Manufacturing Democracy"]], 2011-11-31.
+  *[[http://www.wikieducator.org/User:Godfredabledu/StatisticsContent|Wikieducator "Statistical Quality Control]] ( SQC ).
+  *[[http://whitepapers.technologyevaluation.com/index/m/23202/manufacturing-execution-systems.html|Technology Evaluation Centers ( TEC ) - White papers related to "Manufacturing Execution Systems"]].
+  *Wikipedia.
+    *[[http://de.wikipedia.org/wiki/Betriebsdatenerfassung|DE.Wikipedia "Betriebsdatenerfassung"]] ( BDE ).
+    *[[http://en.wikipedia.org/wiki/Computer-integrated_manufacturing|EN.Wikipedia "Computer-integrated manufacturing"]], [[http://de.wikipedia.org/wiki/Computer-integrated_manufacturing|DE.Wikipedia "Computer-integrated manufacturing"]] ( CIM ).
+      -[[http://en.wikipedia.org/wiki/Enterprise_manufacturing_intelligence|EN.Wikipedia "Enterprise manufacturing intelligence"]], [[http://de.wikipedia.org/wiki/Enterprise_Manufacturing_Intelligence|DE.Wikipedia "Enterprise Manufacturing Intelligence"]] ( EMI ) = Manufacturing Integration und Intelligence ( MII ).
+      -[[http://en.wikipedia.org/wiki/Manufacturing_execution_system|EN.Wikipedia "Manufacturing execution system"]], [[http://de.wikipedia.org/wiki/Manufacturing_Execution_System|DE.Wikipedia "Manufacturing Execution System"]] ( MES ) - "Fertigungsmanagementsystem" ( [[http://de.wikipedia.org/wiki/Fertigungstechnik|DE.Wikipedia "Fertigungstechnik"]].
+        *[[http://en.wikipedia.org/wiki/Real-Time_Dispatching|EN.Wikipedia "Real-Time Dispatching"]].
+        *[[http://en.wikipedia.org/wiki/Production_equipment_control|EN.Wikipedia "Production equipment control"]].
+      -[[http://en.wikipedia.org/wiki/Product_lifecycle_management|EN.Wikipedia "Product lifecycle management"]], [[http://de.wikipedia.org/wiki/Product-Lifecycle-Management|DE.Wikipedia "Product-Lifecycle-Management"]] ( PLM ).
+        *[[http://de.wikipedia.org/wiki/Engineering-Data-Management|DE.Wikipedia "Engineering-Data-Management"]] ( EDM ).
+        *[[http://en.wikipedia.org/wiki/Product_data_management|EN.Wikipedia "Product data management"]], [[http://de.wikipedia.org/wiki/Produktdatenmanagement|DE.Wikipedia "Produktdatenmanagement"]] ( PDM ).
+    *[[http://en.wikipedia.org/wiki/Energy_management_system|EN.Wikipedia "Energy management system"]].
+    *[[http://en.wikipedia.org/wiki/Enterprise_service_bus|EN.Wikipedia "Enterprise service bus"]], [[http://de.wikipedia.org/wiki/Enterprise_Service_Bus|DE.Wikipedia "Enterprise Service Bus"]] ( ESB ), [[http://en.wikipedia.org/wiki/SAP_Enterprise_Services_Architecture|EN.Wikipedia "SAP Enterprise Services Architecture"]] ( ESA ).
+    *[[http://en.wikipedia.org/wiki/Lean_manufacturing|EN.Wikipedia "Lean manufacturing"]], [[http://de.wikipedia.org/wiki/Schlanke_Produktion|DE.Wikipedia "Schlanke Produktion"]].
+    *[[http://en.wikipedia.org/wiki/Laboratory_information_management_system|EN.Wikipedia "Laboratory information management system"]], [[http://de.wikipedia.org/wiki/LIMS|DE.Wikipedia "LIMS"]].
+    *[[http://en.wikipedia.org/wiki/Manufacturing_resource_planning|EN.Wikipedia "Manufacturing resource planning"]], [[http://de.wikipedia.org/wiki/Manufacturing_Resources_Planning|DE.Wikipedia "Manufacturing Resources Planning"]], [[http://de.wikipedia.org/wiki/Material_Requirements_Planning|DE.Wikipedia "Material Requirements Planning"]] ( MRP, MRP-II ).
+    *[[http://en.wikipedia.org/wiki/Manufacturing_operations_management|EN.Wikipedia "Manufacturing operations management"]] ( MOM ).
+    *[[http://de.wikipedia.org/wiki/Maschinendatenerfassung|DE.Wikipedia "Maschinendatenerfassung"]] ( MDE ).
+    *[[http://en.wikipedia.org/wiki/Master_data_management|EN.Wikipedia "Master data management"]], [[http://de.wikipedia.org/wiki/Zentrale_Stammdatenverwaltung|DE.Wikipedia "Zentrale Stammdatenverwaltung"]].
+    *[[http://en.wikipedia.org/wiki/Materials_management|EN.Wikipedia "Materials management"]], [[http://de.wikipedia.org/wiki/Materialwirtschaft|DE.Wikipedia "Materialwirtschaft"]].
+    *[[http://en.wikipedia.org/wiki/Online_transaction_processing|EN.Wikipedia "Online transaction processing"]], [[http://de.wikipedia.org/wiki/Online_Transaction_Processing|DE.Wikipedia "Online Transaction Processing"]] ( OLTP ).
+    *[[http://en.wikipedia.org/wiki/Overall_equipment_effectiveness|EN.Wikipedia "Overall equipment effectiveness"]], [[http://de.wikipedia.org/wiki/Gesamtanlageneffektivit%C3%A4t|DE.Wikipedia "Gesamtanlageneffektivität"]].
+    *[[http://en.wikipedia.org/wiki/Quality_control|EN.Wikipedia "Quality control"]], [[http://de.wikipedia.org/wiki/Qualit%C3%A4tslenkung|DE.Wikipedia "Qualitätslenkung"]].
+    *[[http://de.wikipedia.org/wiki/PPS-System|DE.Wikipedia "PPS-System"]].
+    *[[http://en.wikipedia.org/wiki/Statistical_process_control|EN.Wikipedia "Statistical process control"]], [[http://de.wikipedia.org/wiki/Statistische_Prozesslenkung|DE.Wikipedia "Statistische Prozesslenkung"]] ( SPC ).
+    *"Time and attendance".
+      *[[http://de.wikipedia.org/wiki/Zeitmanagement#Zeitwirtschaft|DE.Wikipedia "Zeitmanagement"]] - "Zeitwirtschaft".
+      *[[http://en.wikipedia.org/wiki/Time_and_attendance|EN.Wikipedia "Time and attendance"]], [[http://de.wikipedia.org/wiki/Personalzeiterfassung|DE.Wikipedia "Personalzeiterfassung"]] ( PZE ).
+    *[[http://en.wikipedia.org/wiki/Time_series_database|EN.Wikipedia "Time series database"]], [[http://en.wikipedia.org/wiki/Operational_historian|EN.Wikipedia "Operational historian"]] / "Enterprise Historian".
+    *[[http://en.wikipedia.org/wiki/Track_and_trace|EN.Wikipedia "Track and trace"]], [[http://de.wikipedia.org/wiki/Sendungsverfolgung|DE.Wikipedia "Sendungsverfolgung"]].
+    *[[http://de.wikipedia.org/wiki/Werkstattsteuerung|DE.Wikipedia "Werkstattsteuerung"]] ( "Shop floor control" ).
+    *[[http://de.wikipedia.org/wiki/Automatisierungspyramide|DE.Wikipedia "Automatisierungspyramide"]].
+  *[[http://cca.yuntech.edu.tw/|YunTech - National Yunlin University of Science & Technology, Center for Commercial Automation]].
+===== Forums, Newsgroups =====
+  *[[http://community.controlglobal.com/|ControlGlobal Community]].
+  *[[http://community.emerson.com/|Emerson Communities]] ( -> [[http://www.easydeltav.com/|Emerson Process Management - The DeltaV Digital Automation System]] ).
+    *[[http://community.emerson.com/process/emerson-exchange/|Emerson Exchange 365. The Peer-to-Peer Online Emerson Global Users Exchange Community]].
+    *[[http://www.ridgidforum.com/|RIDGID Plumbing Forum, Woodworking Forum, Power Tool Forum]].
+  *Facebook.
+    *[[http://www.facebook.com/groups/14254862589/|Facebook "MES - Manufacturing Execution Systems"]].
+    *[[http://www.facebook.com/pages/Manufacturing-Execution-Systems/209249965787529|Facebook "Manufacturing Execution Systems"]], [[http://www.facebook.com/manufacturing.execution.systems|Facebook "Manufacturing Execution Systems (MES)"]], [[http://www.facebook.com/pages/Manufacturing-and-Execution-Systems/116256625148029|Facebook "Manufacturing and Execution Systems"]], [[http://www.facebook.com/pages/Manufacturing-execution-system/135279973169993|Facebook "Manufacturing execution system"]], [[http://www.facebook.com/pages/MP-Operations-Manufacturing-Execution-Systems/332726716737513|Facebook "M&P Operations, Manufacturing Execution Systems"]], [[http://www.facebook.com/events/348694898513051/|Facebook "CBI’s 7th Annual Forum on Manufacturing Execution Systems"]].
+    *[[http://www.facebook.com/erpdemo|Facebook "ERP-Demo"]] -> PSI.
+    *[[http://www.facebook.com/pages/CMMS/138929776136490|Facebook "CMMS"]].
+  *[[http://forums.ge-ip.com/|GE Intelligent Platforms e-Forum]] - "Due to an increase in malicious spamming activities, new registrations require a valid company domain email address; eg. email domains such as @gmail.com or @yahoo.com are not accepted. In addition, email domains that cannot be clearly authenticated to be an applicable company; eg. cheapstuff.com, are not accepted" :-(.
+  *[[http://groups.google.com/group/manufacturing-execution-system/|Google Groups "Manufacturing execution system"]].
+  *[[http://it.toolbox.com/topics|ITtoolbox - Topics]] - Discussion groups ( "Groups" ) are hierarchically situated below each subject.
+    *[[http://it.toolbox.com/home/search/?r=MES|ITtoolbox - Search group messages for "MES"]].
+  *[[http://www.inductiveautomation.com/forum/|Inductive Automation - Forum]].
+  *Ingenieur.de.
+    *[[http://www.ingenieur.de/networks/groups/Energiemanagement|Ingenieur.de "Energiemanagement"]].
+    *[[http://www.ingenieur.de/networks/groups/ManufacturingExcellence/index|Ingenieur.de "Manufacturing Excellence"]].
+  *LinkedIn:
+    *[[http://www.linkedin.com/groups?gid=882177|LinkedIn "Automation Engineers with expertise in PLC/SCADA/DCS/Drives/Panels"]].
+    *[[http://www.linkedin.com/groups?gid=3771816|LinkedIn "Business Analytics in Manufacturing"]] by [[http://www.octilliontechnology.com/|Octillion Technology]].
+    *[[http://www.linkedin.com/groups?gid=2816264|LinkedIn "Continuous Improvement - Manufacturing Plant Processes and Data Analysis"]] by [[http://www.profitfinders.net/|Profit Finders]].
+    *[[http://www.linkedin.com/groups?gid=2387068|LinkedIn "Enterprise Manufacturing Intelligence"]].
+    *[[http://www.linkedin.com/groups?gid=3748178|LinkedIn "Factory Analytics"]].
+    *[[http://www.linkedin.com/groups?gid=1617587|LinkedIn "FACTORYworks MES Users"]].
+    *[[http://www.linkedin.com/groups?gid=137598|LinkedIn "ISA – International Society of Automation"]].
+    *[[http://www.linkedin.com/groups?gid=2387046|LinkedIn "Manufacturing Analytics"]].
+    *[[http://www.linkedin.com/groups?gid=1659337|LinkedIn "Manufacturing BI - Business Information Systems"]].
+    *[[http://www.linkedin.com/groups?gid=103807|LinkedIn "Manufacturing Execution System Professionals"]].
+    *[[http://www.linkedin.com/groups?gid=2695835|LinkedIn "Manufacturing Operational Excellence"]].
+    *[[http://www.linkedin.com/groups?gid=67917|LinkedIn "MES - Manufacturing Execution Systems"]].
+    *[[http://www.linkedin.com/groups?gid=39667|LinkedIn "MES EMEA"]].
+    *[[http://www.linkedin.com/groups?gid=132546|LinkedIn "MES AND SCADA"]].
+    *[[http://www.linkedin.com/groups?gid=1883030|LinkedIn "MES - GE Proficy"]].
+    *[[http://www.linkedin.com/groups?gid=2452014|LinkedIn "MES (Manufacturing Execution Systems) a subgroup of SAP PP Professionals - Promoted by ERP Savvy, Inc."]].
+    *[[http://www.oeeforum.com/|OEE Forum]], [[http://www.linkedin.com/groups?gid=1445587|LinkedIn "OEE Forum"]].
+    *[[http://www.linkedin.com/groups?home=&gid=2196046|LinkedIn "PLC / SCADA / MES – World Wide Community"]].
+    *[[http://www.linkedin.com/groups?gid=61779|LinkedIn "SAP MII"]].
+  *[[http://www.mimosa.org/?q=forums/ogi-pilot-participation-team|MIMOSA Forums]].
+  *[[http://www.asutpforum.ru/|MEScenter.ru Forum]], Russian only :-(.
+  *[[http://www.openautomation.de/|open automation.de - Die Comment/Content-Plattform]].
+  *[[http://www.orbitmes.com/ILoveMES/|OrBit "China MES forum"]] in chinese language only :-(.
+  *[[http://community.osisoft.com/|OSIsoft Users Community]].
+  *[[http://vcampus.osisoft.com/|OSIsoft Virtual Campus]].
+  *[[http://piadmin.com/users/hemmerling|PI Admin - OSISoft PI Discussion]].
+  *[[http://pinterest.com/hemmerling/mes-manufacturing-execution-systems/|Pinterest Board "MES - Manufacturing Execution Systems"]].
+  *[[http://plc.myforum.ro/|plc.myforum.ro - PLC users]].
+  *[[http://www.rjksolutionsltd.co.uk/forum/|RJK Solutions: discuss the OSIsoft PI System]].
+  *[[http://www.tek-tips.com/threadminder.cfm?pid=1719|Tek-Tips Forums "OSIsoft solutions Forum"]].
+  *XING.
+    *[[http://www.xing.com/net/pri73969fx/mesconsult|XING "MES Kompetenzcenter"]].
+    *[[http://www.xing.com/net/mes_dach|XING "MES D.A.CH. Verband"]].
+    *[[http://www.xing.com/net/manufacturingexecutionsystem|XING "All arround Manufacturing Execution Systems (MES)"]].
+    *[[http://www.xing.com/net/mesbeverage|XING "MES in der Getränkeindustrie"]].
+    *[[http://www.xing.com/net/produktionsoptimierung|XING "Produktionsoptimierung"]].
+    *[[http://www.xing.com/net/productionintelligence|XING "Production Intelligence - Stepping up productivity by integrationg production, construction and enterprise information"]].
+    *[[http://www.xing.com/net/erfolgmessenundsteuern|Erfolg messen und steuern]].
+    *[[http://www.xing.com/net/pri73969fx/top3erpcompanies|XING "EPR Platforms & Enterprise Software and also All ERP Platforms. Focused ERP Platforms: SAP_Oracle_Microsoft_IBM"]].
+    *[[http://www.xing.com/net/itandbusiness|XING "IT & Business"]] - "Diese Gruppe begleitet als Online-Community die beiden Fachmessen [[http://www.messestuttgart.de/cms/index.php?id=121266|IT & Business]] und [[http://www.messestuttgart.de/cms/index.php?id=121023|DMS EXPO]]".
+    *[[http://www.xing.com/net/ipa-psi|XING "IPA - Intessengemeinschaft der PSIpenta Anwender"]].
+    *[[http://www.xing.com/net/proses|XING "effizient! – das Forum für Kunststoff und Metall"]] -> [[http://www.proses.de/|ProSeS BDE GmbH]], [[http://www.xing.com/net/fertigungsmanagement|XING "Papier, Folien und Verpackungen: IT - Einsatz in der Fertigung"]].
+    *[[http://www.xing.com/net/automatisierungstechnik|XING "Automatisierungstechnik"]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Software/Manufacturing/|OpenDirectory "Top: Computers: Software: Manufacturing"]].
+  *[[http://www.dmoz.org/Computers/Software/Manufacturing/Automation/|OpenDirectory "Top: Computers: Software: Manufacturing: Automation"]].
+  *[[http://www.dmoz.org/Business/Industrial_Goods_and_Services/Factory_Automation/|OpenDirectory "Top: Business
+: Industrial Goods and Services: Factory Automation"]].
+  *[[http://www.dmoz.org/Business/Electronics_and_Electrical/Control_Systems/Industrial/|OpenDirectory "Top: Business
+: Electronics and Electrical: Control Systems: Industrial"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wirtschaft/Industrieg%C3%BCter_und_-dienstleistungen/Automatisierungstechnik/|OpenDirectory "Top: World: Deutsch: Wirtschaft: Industriegüter und -dienstleistungen: Automatisierungstechnik"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wirtschaft/Industrieg%C3%BCter_und_-dienstleistungen/Software/|OpenDirectory "Top: World: Deutsch: Wirtschaft: Industriegüter und -dienstleistungen
+: Software"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wirtschaft/Industrieg%C3%BCter_und_-dienstleistungen/Software/Automatisierungstechnik/|OpenDirectory "Top: World: Deutsch: Wirtschaft: Industriegüter und -dienstleistungen
+: Software: Automatisierungstechnik"]].
+  *[[http://dir.yahoo.com/Business_and_Economy/Business_to_Business/Manufacturing/Factory_Automation/|Yahoo Directory "Business and Economy > Business to Business > Manufacturing > Factory Automation"]].
+{{tag>"manufacturing execution system" "manufacturing enterprise systems" "shop floor control system" mes openmes open "mes provider" manufacturing execution system "manufacturing operations management" mom shop floor control solution sfc "computer integrated manufacturing" computer integrated "digital factory" "adaptive manufacturing" "quality information system" "quality information systems" qis quality "statistical quality control" sqc "statistical process control" spc "plant information system" "plant information systems" "pi systems" "pi system" pi "plant information management systems" "plant information management system" "plantwide information management systems" "plantwide information management system" pims "production management system" "production management systems" pms plant plantwide production "information systems" "information system" "management system" "management systems" "information management systems" "information management system" "computer integrated manufacturing" cim simsalabim "product lifecycle management" plm "engineering data management" edm "product data management" pdm "manufacturing operating system" mom "collaborative production management" cpm "enterprise production management" "enterprise product management" epm "unified manufacturing" unified manufacturing "computer aided manufacturing" cam computer aided "meter data unification and synchronization" meter data unification synchronization mdus "production intelligence" "integrated industry" "massendaten-engineering" "massive data engineering"}}
+<footnote_navi_en>

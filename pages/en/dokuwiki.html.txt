@@ -1,0 +1,374 @@
+====== [hemmerling] DokuWiki ======
+===== DokuWiki.Org =====
+  *[[http://www.dokuwiki.org/|DokuWiki.org]].
+    *[[http://download.dokuwiki.org/archive|DokuWiki - Archive]] #.
+    *[[http://www.github.com/splitbrain|GitHub "splitbrain"]].
+    *[[http://www.dokuwiki.org/acl|DokuWiki Access Controls]].
+    *[[http://www.dokuwiki.org/tips:htmltowiki|Convert HTML to DokuWiki]].
+    *[[http://www.dokuwiki.org/images|DokuWiki Images]].
+    *Configuration.
+      *[[http://www.dokuwiki.org/config:indexdelay|DokuWiki Configuration "indexdelay"]].
+      *[[http://www.dokuwiki.org/config:relnofollow|DokuWiki Configuration "relnofollow"]] -> "rel='nofollow'".
+        *[[http://www.googleblog.blogspot.com/2005/01/preventing-comment-spam.html|The Official Google Blog "Preventing comment spam"]].
+    *[[http://www.dokuwiki.org/sitemap|DokuWiki Sitemap]].
+      *[[http://www.dokuwiki.org/config:sitemap|DokuWiki Configuration Setting: sitemap]].
+    *[[http://www.dokuwiki.org/faq:toolbar|DokuWiki FAQ]].
+      *[[http://www.dokuwiki.org/faq:toolbar|DokuWiki FAQ: toolbar]] - "The editing toolbar is built through JavaScript" -> Javascript must be enabled at the user's Browser with write access, to "see" the editing toolbar, during editing.
+    *[[http://www.dokuwiki.org/config:sneaky_index|DokuWiki config:sneaky_index]].
+    *[[http://www.dokuwiki.org/faq:forgotten_password|DokuWiki Forgotten Password]].
+    *[[http://www.dokuwiki.org/ko:users|DokuWiki Users]].
+    *[[http://www.dokuwiki.org/manual|DokuWiki Manual]].
+    *Commands for Power Users (too).
+      *[[http://www.dokuwiki.org/devel:action_modes|DokuWiki Action Modes aka. do Modes]].
+      *[[http://www.dokuwiki.org/cli|DokuWiki Command Line Tools]].
+    *[[http://www.dokuwiki.org/plugins|DokuWiki Plugins]].
+       *plugin:Cloud, plugin:Tag, plugin:Pagelist.
+         *[[http://www.dokuwiki.org/plugin:cloud|plugin:Cloud]].
+            *[[http://github.com/dokufreaks/plugin-cloud|GitHub / Dokufreaks / Plugin-Cloud]]: [[http://github.com/dokufreaks/plugin-cloud/issues|Bugtracker for plugin:cloud]].
+         *[[http://www.dokuwiki.org/plugin:tag|plugin:Tag]] 
+           *The "Tagindex Manager" in the DokuWiki Administration allows you to rebuild the tag index, not the page index :-) )
+           *Keyword meta commands are generated automatically, but space between word of multi-word keywords is converted to unterscore "_".
+           *[[http://github.com/dokufreaks/plugin-tag|GitHub / Dokufreaks / Plugin-Tag]]: [[http://github.com/dokufreaks/plugin-tag/issues|Bugtracker for plugin:tag]].
+           *[[http://github.com/dokufreaks/plugin-tag/commit/1cb1961257bdc98be7eb82798497b924793669d3|Patch for plugin:tag]].
+         *[[http://www.dokuwiki.org/plugin:pagelist|plugin:Pagelist]]. 
+       *[[http://www.dokuwiki.org/plugin:cacherevisionseraser|plugin:Cache and Revisions Eraser]].
+       *[[http://www.dokuwiki.org/plugin:amazon|plugin:Amazon]].
+       *[[http://www.dokuwiki.org/plugin:backlinks2|plugin:Backlinks2]].
+       *[[http://www.dokuwiki.org/plugin:batchedit|plugin:Batchedit]].
+         *Unfortunately, this admin tool requries the [[http://www.php.net/manual/en/book.pcre.php|PHP PCRE extension: "Regular Expressions (Perl-Compatible)"]].
+       *Blogging
+         *Resources
+           *[[http://www.dokuwiki.org/tips:blogging|DokuWiki Tips: "blogging"]].
+         *[[http://dokuwiki.foosel.org/blogsuite/|DokuWiki Blogsuite BundleHub]].
+           *[[http://www.dokuwiki.org/plugin:blog|plugin:Blog]].
+           *[[http://wiki.splitbrain.org/plugin:include|plugin:Include]].
+           *plugin:Pagelist.
+           *[[http://wiki.splitbrain.org/plugin:discussion|Discussion]].
+           *[[http://wiki.splitbrain.org/plugin:linkback|plugin:Linkback]] - "The plugin will not work without the Akismet API Key".
+             *[[http://foosel.org/snippets/dokuwiki/linkback|Foosel: "Linkback"]].
+           *[[http://www.dokuwiki.org/plugin:bloglinks|plugin:Bloglinks]].
+             *[[http://foosel.org/snippets/dokuwiki/bloglinks|Foosel: "Bloglinks"]].
+           *[[http://www.dokuwiki.org/plugin:feedmod|plugin:Feedmod]].
+             *[[http://github.com/chimeric/dokuwiki-plugin-feedmod|GitHub / Chimeric / Feedmod]]: [[http://github.com/chimeric/dokuwiki-plugin-feedmod/issues|Bugtracker for plugin:feedmod]].
+           *[[http://www.dokuwiki.org/plugin:avatar|plugin:Avatar]].
+           *Tag.
+           *[[http://www.dokuwiki.org/plugin:captcha|plugin:CAPTCHA]] - "Completely Automated Public Turing test to tell Computers and Humans Apart" #.
+         *[[http://www.dokuwiki.org/plugin:blogtng|plugin:BlogTNG]]  - uses a SQL database :-(.
+         *[[http://www.dokuwiki.org/plugin:creole|Creole Plugin]] - plugin to support the "Creole" syntax.
+           *[[http://www.wikicreole.org/|WikiCreole]].
+       *[[http://www.dokuwiki.org/plugin:truetable|Extended Table Syntax TrueTable Plugin]].
+       *Formulas.
+         *[[http://www.dokuwiki.org/plugin:bureaucracy|plugin:Bureaucracy Plugin]].
+         *[[http://www.dokuwiki.org/plugin:data|plugin:Structured Data Plugin]].
+       *[[http://www.dokuwiki.org/plugin:gallery|plugin:Gallery]].
+       *[[http://www.dokuwiki.org/plugin%3Agchart|Google Chart Plugin]] #.
+       *[[http://www.dokuwiki.org/plugin:image_map|plugin:Image Map]].
+         *[[http://en.wikipedia.org/wiki/Image_map|EN.Wikipedia "Image map"]], [[http://de.wikipedia.org/wiki/Verweissensitive_Grafik|DE.Wikipedia "Verweissensitive Grafik"]].
+       *[[http://www.dokuwiki.org/plugin:jquery|plugin:jQuery]].
+       *[[http://www.dokuwiki.org/plugin:keywords|plugin:Keywords]].
+       *[[http://www.dokuwiki.org/plugin:meta|lugin:Meta]], deals with the "data/meta/<pagename>.meta" files. Have a look at the the current [[http://www.dokuwiki.org/devel:metadata|metadata]] structure of DokuWiki.
+       *[[http://www.dokuwiki.org/plugin:metaheaders|plugin:Metaheaders]], deals with metaheaders of the generated HTML page.
+       *[[http://www.dokuwiki.org/plugin:oiddelegate|plugin:OpenID Delegate Plugin]].
+       *[[http://www.dokuwiki.org/plugin:odt|plugin:OpenOffice.org Export]] #.
+         *[[http://aurelien.bompard.org/projects/files/dokuwiki-odt/|Archive for "plugin:OpenOffice.org Export"]].
+       *[[http://www.dokuwiki.org/plugin:orphanswanted|plugin:OrphansWanted]] - admin tool.
+       *Search Index Generators.
+         *[[http://www.dokuwiki.org/plugin:searchindex|plugin:Searchindex Manager]] - admin tool ##.
+           *The "Searchindex" in the DokuWiki Administration allows you to rebuild the page index ( which is used to generate the siteindex file ), but not the tag index :-) ).
+           *It is mandatory that the template is "default", for proper operation of the tool during the indexing process.
+         *[[http://www.dokuwiki.org/cli|DokuWiki Command Line Tools]] - Searchindex Generation by "php-cli /bin/indexer.php".
+       *[[http://www.dokuwiki.org/plugin:swfobject|plugin:swfobject]], [[http://inetsoftware.de/other-products/dokuwiki-plugins/swfobject|plugin:swfobject]].
+       *Synchronization between two DokuWiki sites.
+         *[[http://www.dokuwiki.org/plugin:sync|Synchronization Plugin]].
+         *[[http://www.dokuwiki.org/config:xmlrpc|Configuration Setting: xmlrpc]].
+       *[[http://www.dokuwiki.org/plugin:tablewidth|plugin:Tablewidth]].
+       *[[http://www.dokuwiki.org/plugin:translation|plugin:Translation]].
+       *[[http://www.dokuwiki.org/plugin:translation2|plugin:Translation2]].
+       *[[http://www.dokuwiki.org/plugin:wrap|Wrap]] ( claims to replace many other plugins, including [[http://www.dokuwiki.org/plugin:lang|Lang]], but does not allow to define the language for headlines H1..H5 ).
+    *[[http://www.dokuwiki.org/template|DokuWiki Templates]].
+       *[[http://www.dokuwiki.org/template:incognitek|template:incognitek]].
+       *[[http://www.dokuwiki.org/template:roundbox|template:roundbox]].
+    *[[http://www.dokuwiki.org/development|DokuWiki Development]].
+    *[[http://www.dokuwiki.org/entities|DokuWiki Entities]] ( [[http://us1.campaign-archive.com/?u=72ec38d1614d3a63c1184f448&id=4ef7815d9c|DokuWiki Newsletter: "Tips & Tricks: Entities"]].
+    *[[http://www.dokuwiki.org/utf-8|DokuWiki "UTF-8 Encoding"]] - "DokuWiki now stores all its data in UTF-8".
+  *[[http://www.splitbrain.org/|Splitbrain.org]] by Andreas Gohr.
+    *[[http://bugs.splitbrain.org/|Issue Tracking System for DokuWiki]].
+    *[[http://www.splitbrain.org/blog/2007-12/01-dokuwiki_on_a_stick|DokuWiki on a Stick]].
+    *[[http://www.splitbrain.org/blog/2010-08/02-graphing_dokuwiki_help_needed|Graphing DokuWiki (help needed)]].
+      *The opensource [[http://gephi.org/|Gephi]] - "graph visualization and manipulation software".
+
+===== Tools =====
+  *UTF8 enabled editors.
+    *[[http://www.flos-freeware.ch/notepad2.html|flo's freeware "Notepad2"]] for Windows - May edit Linux/Unix-style text files ( with LF as end-of-line ), like DokuUWiki files. 
+  *[[http://www.taniahew.com/word2dokuwiki.html|Word 2 DokuWiki Converter]] by Tania Hew.
+  *Offline Documentation.
+    *[[http://limb-project.com/|Limb]].
+    *[[http://limb.sourceforge.net/|Sourceforge "Limb"]], [[http://sourceforge.net/projects/limb/|Sourceforge "Limb"]].
+      *[[http://sourceforge.net/projects/limb/files/offline-doku/|Sourceforge "Limb" - Offline-Doku]].
+    *[[http://www.dokuwiki.org/tips:export_html|DokuWiki.Org "Export multiple pages to HTML"]].
+  *Dokukiwix - "Generates a static HTML, offline browseable version of your Wiki".
+    *[[http://dokukiwix.mandragor.org/|Dokukiwix @ Mandragor.org]].
+    *[[http://www.dokuwiki.org/plugin:dokukiwix|plugin:dokukiwix]].
+===== ICKEwiki =====
+  *[[http://www.ickewiki.de/ickewiki|CosmoCode GmbH "ICKEwiki"]] - "Ein Business Wiki, dass sich hervorragend an die Prozesse und Strukturen ihres Unternehmens anpassen lässt", "ICKEwiki basiert auf dem populären Open Source Wiki DokuWiki".
+  *[[http://www.cosmocode.de/|CosmoCode GmbH]].
+===== Tips & Tricks =====
+  *If you see just "Media files" in the editor, instead of the editor toolbar, after a fresh Apache server installation - maybe it helps to change the UI template to another, and then back to the original UI template :-)?! Have a try, if everything else fails..
+  *"./lib/tpl/<template>/meta.html" - The place for HTML header code ( Meta tags, Javascript code e.g. for Google Analytics ).
+  *"./conf/entities.conf" - The place for DokuWiki HTML macros.
+===== Resources =====
+  *[[http://en.wikipedia.org/wiki/Dokuwiki|EN.Wikipedia: DokuWiki]], [[http://de.wikipedia.org/wiki/Dokuwiki|DE.Wikipedia: DokuWiki]].
+  *[[http://www.cosmocode.de/en/blog|CosmoCode Blog]] by Andreas Gohr et.al.
+    *[[http://www.cosmocode.de/en/blog/gohr/2010-01/21-enhancing-the-bureaucracy-dokuwiki-plugin|Andreas Gohr: "Enhancing the Bureaucracy DokuWiki Plugin"]].
+  *[[http://80kv.com/en/portfolio/2008/01/01/backpack-theme-for-dokuwiki.html|80 KV: "backpack theme for dokuwiki"]].
+  *[[http://wiki.archlinux.org/index.php/Dokuwiki|ArchLinux - Dokuwiki]].
+  *[[http://www.linux.com/archive/feature/138888|Dmitri Popov: "DokuWiki: An elegant and lightweight wiki engine"]].
+  *[[http://freebsd.asconix.com/dokuwiki-freebsd-howto|DokuWiki unter FreeBSD 7.1 Howto]].
+  *[[http://www.freshmeat.net/projects/dokuwiki/|freshmeat.net]].
+  *[[http://gwenole.beauchesne.info/en/about/site|Gwenole Beauchesne]] - DokuWiki Patches.
+  *[[http://www.internet-professionell.de//praxis/netzwerke/article20060601066.aspx|Andreas Hitzig: "Know-How: Dokuwiki einrichten. Eigenes Wiki"]].
+  *[[http://maestric.com/doc/php/integrate-dokuwiki-to-your-website|Jérôme Jaglale]] - "Integrate DokuWiki to your website" ( notoc(),..).
+  *osdir mail archive.
+    *[[http://osdir.com/ml/web.wiki.dokuwiki.general|web.wiki.dokuwiki.general]].
+    *[[http://osdir.com/ml/web.wiki.dokuwiki.internationalization/|web.wiki.dokuwiki.internationalization]].
+  *[[http://www.phpdeveloper.org/tag/dokuwiki|PHPdeveloper.org - RSS Feed-Tag "dokuwiki"]].
+  *[[http://www.produktmanager-blog.de/glossar-oder-lexikon-mit-dokuwiki/|Produktmanagement & Social Media. Innovationen im Team "Achim Lummer: Glossar oder Lexikon mit DokuWiki"]], 2014-03-30.
+  *[[http://ruflin.com/hints/dokuwiki-mit-joomla-1.0.13-verwenden-3_en.html|Nicolas Ruflin: "Use DokuWiki with Joomla >= 1.0.13"]].
+  *[[http://www.sympa.org/contribs/sympaauth|Sympa: Authentication and authorization plugin for interfacing Dokuwiki with Sympa]].
+  *[[http://www.wikimatrix.org/forum/|WikiMatrix Forum]]: [[http://www.wikimatrix.org/forum/f10-dokuwiki|DokuWiki]].
+  *[[http://www.flagar.com/en/risorse/dokuwiki_google_sitemap|FlaGar.Com - "Risorse: Dokuwiki Google Sitemap", "Google sitemap for Dokuwiki"]] ( 2006-04-15 ).
+  *[[http://www.stefanoforenza.com/doku-wiki-dont-like-google/|Stefano Forenza: "Doku wiki don’t like google"]].
+  *[[http://blog.riff.org/2006_08_13_dokuwiki_vs_google|Riff Blog: "Dokuwiki vs Google"]].
+  *[[http://www.organizingcreativity.com/|Daniel Wessel "Organizing Creativity"]].
+    *Donationware PDF book.
+    *[[http://www.organizingcreativity.com/2009/09/dokuwiki-adjustments/|Daniel Wessel "Organizing Creativity" - "DokuWiki Adjustments"]] - "Navigation via Image(maps)",..
+  *[[http://code.google.com/p/dokuwiki-ntnu/|NTNU template for DokuWiki]].
+  *[[http://www.cs.vassar.edu/people/priestdo/tips/multihome_dokuwiki_hacks|Greg Priest-Dorman: "Multihome Dokuwiki Hacks"]].
+  *Dublin Core metadata
+    *[[http://romaine.home.pipeline.com/notes/dublincore.html|Paul Romaine: "Dublin Core Meta Tags"]].
+    *[[http://www.ukoln.ac.uk/metadata/dcdot/|DC-dot "Dublin Core metadata editor"]].
+  *[[http://www.freelists.org/post/dokuwiki/Switch-off-justification,1|Switch off justification]].
+  *[[http://www.cosmocode.de/en/blog/detman/2009-10/13-openid-delegates-with-dokuwiki|Detlef Hüttemann "Handling OpenID Delegates with DokuWiki"]].
+
+===== DokuWiki Projects ( Plugins, Templates,..) =====
+  *[[http://www.foosel.org/|foosel.net!org]] - free DokuWiki plugins.
+    *[[http://git.foosel.org/|Foosel - Git Repository]].
+    *[[http://flyspray.foosel.org/|Foosel - Tasklist]] powered by Flyspray.
+    *Dokuwiki Blockquote Plugin.
+    *Dokuwiki Bloglinks Plugin.
+    *Dokuwiki Charter Plugin.
+    *Dokuwiki Filelist Plugin.
+    *Dokuwiki Keyboard Plugin.
+    *Dokuwiki Linkback Plugin.
+    *Dokuwiki Rate Plugin.
+  *[[http://github.com/|GitHub]] - commercial bugtracker software-as-a-service, free for open source projects.
+    *Michael Klier
+      *[[http://github.com/chimeric/|GitHub: chimeric ( Michael Klier )]].
+      *[[http://www.chimeric.de/|chimeric.de]].
+    *[[http://github.com/dokufreaks/|Dokufreaks]] - Group for DokuWiki projects.
+      *[[http://github.com/dokufreaks/plugin-tag|GitHub / Dokufreaks / Plugin-Tag]].
+  *[[http://wiki.feltzv.fr/|EpiWiki!]], [[http://www.lesbian-riders.com/|Lesbian Riders]] by Vincent Feltz.
+    *[[http://wiki.feltzv.fr/doku.php?id=misc:demo_metalang|demo_metalang]] - demo of a "plugin:metalang" syntax plugin.
+    *[[http://www.feltzv.fr/xchange/doku_plugins/|Download "plugin:metalang"]].
+  *[[http://www.inetsoftware.de/other-products/dokuwiki-plugins| i-net software GmbH: "Dokuwiki Plugins"]] - "i-net software uses DokuWiki as a back end for the web site. To empower the original engine with everything necessary to have a modern and useful web presence, our company created some great plugins. Some of them are offered here for free".
+
+===== Wiki Events =====
+  *[[https://www.dokuwiki.org/devel:hackfest|DokuWiki "DokuWiki Hackfest"]].
+  *[[http://wikicamp.mixxt.org/|WikiCamp]].
+    *[[http://www.twitter.com/WikiCamp_de|Twitter "WikiCamp_de"]].
+    *Events.
+      *On the [[http://www.cebit.de/|CeBIT]] Fair 2010 in Hannover, Germany ( 2010-03-06 ). 
+
+===== Forums, Newsgroups, Newsletters, Mailing Lists, Blogs =====
+  *[[https://web.archive.org/web/*/http://planet.dokuwiki.org/|Archive.org "Planet DokuWiki"]] ( - 2013-10-24 ) - Blogs.
+  *[[http://forum.dokuwiki.org/|DokuWiki Forum]].
+    *[[http://forum.dokuwiki.org/thread/1334|Beginners guide to Dokuwiki]].
+    *[[http://forum.dokuwiki.org/thread/3662|Rather exciting! "Hack" Dokuwiki to support rowspan for table!!!]].
+    *[[http://www.dokuwiki.org/mailinglist|DokuWiki Mailinglist]], [[http://www.freelists.org/archive/dokuwiki|FreeLists Archive]].
+  *[[http://www.dokuwiki.org/newsletter|DokuWiki.Org Newsletter]]
+  *[[http://www.xing.com/net/dokuwiki/|XING: "DokuWiki"]].
+  *[[http://www.facebook.com/pages/DokuWiki/52877633616|Facebook Fan Page "DokuWiki"]].
+  *[[http://www.linkedin.com/groups?gid=2300217|LinkedIn Group "DokuWiki"]].
+  *[[http://identi.ca/group/dokuwiki|identi.ca microblogging group "DokuWiki"]].
+  *[[http://www.studivz.net/Groups/Overview/264c1137bb4d310e|StudiVZ Group: "DokuWiki - simple to use"]].
+===== DokuWiki on Free.Fr, Howto =====
+==== Resources ====
+  *[[http://pagesperso.free.fr/|{{banners:free_fr.png|Website Hoster 'Free.Fr'}}]].
+  *[[http://be.st.free.fr/|Stéphane Bélardi]].
+    *[[http://be.st.free.fr/wiki/|Wiki de BeSt]] - patch for running dokuwiki-2008-05-05, dokuwiki-2009-02-14 on Free.Fr.
+    *[[http://forum.dokuwiki.org/post/1733|DokuWiki.Org Forum "Patch pour free.fr"]].
+  *[[http://forum.dokuwiki.org/thread/98|DokuWiki Forum "Hébergement chez Free"]].
+  *[[http://forum.dokuwiki.org/thread/237|DokuWiki.Org Forum "Fatal error mkdir(.../data/locks/...) ... File exists"]].
+  *[[http://www.dokuwiki.org/install:free.fr|DokuWiki "install:free.fr"]].
+  *[[http://www.dokuwiki.org/?do=search&id=free.fr|DokuWiki Search "free.fr"]].
+  *[[http://quentin.lampin.free.fr/article.php|Lampin Quentin: "How-to: DokuWiki with Free.fr hosting"]] - patch for running dokuwiki-2006-11-06 on Free.Fr.
+  *[[http://mmassonnet.blogspot.com/2006/10/dokuwiki.html|mmassonnet's blog aka m8t's blog: "DokuWiki"]].
+  *[[http://asdrad.9online.fr/dokuwiki.html|Asdrad Torres: "Introduction à DokuWiki" ]] / "Exemple sur Free.fr".
+
+==== Limitation when running patched DokuWiki 2009-02-14 on Free.Fr: Corruption of "big" multimedia files ====
+The most serious limitation of patched DokuWiki on Free.Fr is, that the media manager of DokuWiki does not load "big" media files ( e.g. a 500 KB PDF file or bigger ) properly, but it corrupts the data and aborts the file transfer. In opposite, media files of 100 KB are handled properly. The exact maximum filesize which his handled properly is currently not explored. Verification:
+  *Just upload a PDF file "a_pdf_of_500kb.pdf" of 500 KB or more size to "/data/media/".
+  *Create a media link on a DokuWiki page:
+<code>
+{{a_pdf_of_500kb.pdf|a_pdf_of_500kb}}
+</code>
+  *Download the file on your local computer, by clicking on the media link "a_pdf_of_500kb" and then selecting the option to do a "save as".
+  *Result: The download is saving corrupted data to your computer: The saved file will have a filesize less than the original filesize.
+  *Of course the original data on your server is not corrupted, as you can prove by an FTP download.
+  *The Free.Fr webserver is not corrupt too. If you delete the .htaccess file of /data on your site, you might access and download the file properly by
+<code>
+http://mydomain.com/data/media/a_pdf_of_500kb.pdf
+</code>
+or from within DokuWiki, you can grant uncorrupted access to the file by one the commands
+<code>
+[[this>../data/media/a_pdf_of_500kb.pdf|a_pdf_of_500kb]]
+[[http://mydomain.com/data/media/a_pdf_of_500kb.pdf|a_pdf_of_500kb]]
+</code>
+
+==== Tips how to run DokuWiki on Free.Fr ====
+DokuWiki verifies automatically, whether a plugin directory contains certain special files and directories. 
+  *If such a requested file does not exist, the webserver of Free.Fr issues an error - the execution of PHP code is stopped, the website "crashes".
+  *The webservers of (all) other (known) hosters do not issue an error, but the let the PHP application handle the event. DokuWiki is designed to handle the case, that certain special files and directories of plugins do not exist.
+
+===== Free.Fr Administration, Howto =====
+  *[[http://pagesperso.free.fr/|{{banners:free_fr.png|Website Hoster 'Free.Fr'}}]].
+==== Administration ====
+  *[[http://www.free.fr/|Free.fr]].
+  *[[http://pageperso.free.fr/|Free.Fr - Page Perso]], [[http://pageperso.free.fr/login|Free.Fr - Page Perso, Login]].
+  *[[http://ftpperso.free.fr/|Free.Fr - FTP Perso]].
+    *"Cette interface ne permet pas le téléchargement (download).
+    *"Votre navigateur doit accepter les cookies pour utiliser cette interface".
+    *"!!Cette interface est en phase de tests!!!".
+  *[[http://subscribe.free.fr/login/|Free.Fr - Login]] - Site administration.
+  *[[http://st.free.fr/|Free.Fr -phpMyVisites]] - Logfile reports.
+  *[[http://sql.free.fr/|sql.free.fr - Login]] - PostgreSQL SQL-Administration.
+    *[[http://phpmyadmin.free.fr/phpMyAdmin/|Free.Fr - phpMyAdmin]].
+    *[[http://sql.free.fr/phpPgAdmin/|Free.Fr - phpPgAdmin]].
+  *[[http://www.free.fr/assistance/728.html|Free.fr "Configuration du client FTP"]].
+  *[[http://dl.free.fr/|Free.fr ( dl.free.fr ) "Service d'envoi de fichiers http://dl.free.fr"]].
+    *[[http://dl.free.fr/upload.html|Free.fr - Service d'envoi de fichiers http://dl.free.fr - via FTP - Mode d'emploi]].
+    *[[http://www.youtube.com/watch?v=lEqSQshh8kQ|YouTube "Transfert de fichiers avec dl.free.fr et Filezilla "]], 2012 - "Un serveur ftp est accessible via dl.free.fr sur le port 21", "Le login (ou nom d'utilisateur): doit être une adresse email valide utilisée pour vous notifier de l'envoi".
+    *[[http://st.free.fr/|Free.fr ( st.free.fr) "phpMyVisites"]].
+    *FTP servers: 
+      *"ftp://ftpperso.free.fr".
+      *"ftp://example.free.fr" for accessing the account "example" -> "cette solution fonctionne uniquement par une connexion Free".
+  *[[https://assistance.free.fr/contact/|Assistance.free "Contactez-nous et obtenez un suivi de vos demandes auprès de l'assistance"]] ( https only ).
+==== Official Documentation ====
+  *phpMyAdmin
+    *[[http://www.phpmyadmin.net/|phpMyAdmin]].
+    *[[http://wiki.phpmyadmin.net/|phpMyAdmin Wiki]].
+==== Resources ====
+  *[[http://www.commentcamarche.net/forum/affich-343839-free-acceder-a-sql-free-fr|Comment Ca Marche: "[free]Acceder a sql.free.fr"]].
+  *[[http://www.spip.net/en_article84.html|SIPP: "Installing SPIP"]].
+  *[[http://code.google.com/p/distant-queries/|Google Code: " distant-queries. Bypass les restictions de FREE.FR sur les requètes SQL externe au serveur SQL.FREE.FR"]].
+  *[[http://www.phpfreechat.net/faq|Php Free Chat "Frequently Asked Questions (FAQ)"]] - "Why does phpFreeChat not work using Free.fr internet provider ? The chat uses sessions. To make sessions work with Free.f,r users should create a folder named “sessions” on the root of their site. Use the ftp command “mkdir sessions” to create the folder".
+==== Forums, Newsgroups ====
+  *[[http://forum.freenews.fr/|freenews Forum]].
+    *[[http://forum.freenews.fr/index.php?topic=92303.0|freenews Forum "Accès FTP impossible depuis 2 jours"]], 2013-12-23.
+  *[[http://www.commentcamarche.net/forum/affich-29346748-connexion-impossible-ftp-free|CCM - Comment ca Marche - Communaute informatique "Connexion impossible ftp free [Résolu]"]], 2013-12-23.
+  *[[http://fr.openclassrooms.com/forum/sujet/connection-ftp-free-1|OpenClassrooms "Connection ftp free"]], 2013-12-23.
+  *[[http://www.aduf.org/viewtopic.php?p=1837835|ADUF "Accès au serveur refusé (ECONNREFUSED ?!!)"]], 2013-12-23.
+===== DokuWiki Sites on Free.Fr =====
+  *[[http://pagesperso.free.fr/|{{banners:free_fr.png|Website Hoster 'Free.Fr'}}]]. Please [[imprint.html|tell me]] if you are running DokiWiki on Free.Fr, but are not yet included in this list !
+  *Google
+    *[[http://www.google.com/search?hl=en&lr=&safe=off&q=site%3Afree.fr+%22start+[DokuWiki]%22&aq=f&oq=&aqi=|Google "site:free.fr 'start \[DokuWiki\]'"]].
+    *[[http://www.google.com/search?hl=en&lr=&safe=off&q=site%3Afree.fr+%22doku.php%22&aq=f&oq=&aqi=|Google "site:free.fr site:free.fr 'doku.php'"]].
+  *Sites
+    -[[http://ad555.free.fr/wiki_aide/doku.php]].
+    -[[http://arnaud.klinger.free.fr/wiki/doku.php]].
+    -[[http://assiste.com.free.fr/wikiast/doku.php]].
+    -[[http://assolaila.free.fr/dokuwiki/doku.php]].
+    -[[http://autocrossclub22.free.fr/doku.php]].
+    -[[http://axelle.apvrille.free.fr/dokuwiki/doku.php]].
+    -[[http://barzilouik.free.fr/wiki/doku.php]].
+    -[[http://bbcam.free.fr/wiki/doku.php]].
+    -[[http://be.st.free.fr/perso/doku.php]], [[http://be.st.free.fr/wiki/doku.php]].
+    -[[http://blackbird.nvs.free.fr/scw/doku.php]].
+    -[[http://blaurans.free.fr/docuwiki/doku.php]].
+    -[[http://bmascret.free.fr/wiki/doku.php]].
+    -[[http://bozar.gre.free.fr/doku.php]].
+    -[[http://calhn.free.fr/wiki2/doku.php]].
+    -[[http://casse.hugues.free.fr/doku.php]] :-(.
+    -[[http://cedric.bonhomme.free.fr/wiki/doku.php]].
+    -[[http://chipdesign.free.fr/dokuwiki/doku.php]].
+    -[[http://consume.free.fr/dokuwiki/doku.php]].
+    -[[http://creaimmo.free.fr/sitesweb/Artiwiki/doku.php]].
+    -[[http://crteknologies.free.fr/wiki/doku.php]].
+    -[[http://www.ctaf.free.fr/dokuwiki/doku.php]].
+    -[[http://cyprien.pouzenc.free.fr/Wiki/doku.php]].
+    -[[http://david.hautbois.free.fr/dokuwiki/doku.php]].
+    -[[http://david.laine.free.fr/apa/doku.php]].
+    -[[http://dekibulle.free.fr/dokuwiki/doku.php]].
+    -[[http://desintegr.free.fr/dokuwiki/doku.php]].
+    -[[http://dokuwiki.free.fr/dokuwiki/doku.php]].
+    -[[http://dupontcours.free.fr/Archi/Compilation/travail/doku.php]].
+    -[[http://e.nicolas.hernandez.free.fr/pro/doku.php]].
+    -[[http://eirbware.free.fr/wiki/doku.php]].
+    -[[http://eminencia.free.fr/wiki/doku.php]].
+    -[[http://emmanuel.digiaro.free.fr/dokuwiki/doku.php]].
+    -[[http://eoin.free.fr/wiki/doku.php]].
+    -[[http://eric.alber.free.fr/wiki/doku.php]].
+    -[[http://eric.gerbier.free.fr/wiki2/doku.php]].
+    -[[http://etienne.sf.free.fr/wiki/doku.php]].
+    -[[http://familysteff.free.fr/dokuwiki/doku.php]].
+    -[[http://fantasy.quizz.free.fr/docuwiki/doku.php]].
+    -[[http://feldspath.free.fr/wiki/doku.php]].
+    -[[http://forumlcao3.free.fr/wiki/doku.php]].
+    -[[http://fsignorello.free.fr/doku.php]].
+    -[[http://generationig.free.fr/doku.php]].
+    -[[http://www.glpi-project.org/wiki/doku.php]].
+    -[[http://hemmerling.free.fr]].
+    -[[http://www.irit.fr/wiki/doku.php]].
+    -[[http://jawad.stouli.free.fr/gamephp/documentation/manual/doku.php]].
+    -[[http://jm.massou.free.fr/dokuwiki/doku.php]].
+    -[[http://julien.hillairet.free.fr/wiki/doku.php]].
+    -[[http://kitone.free.fr/subtitleeditor/wiki/doku.php]].
+    -[[http://lampapetrol.free.fr/dokuwiki/doku.php]].
+    -[[http://laserlr.free.fr/doku.php]].
+    -[[http://laurent.siteweb.free.fr/doku.php]].
+    -[[http://le.geo.free.fr/wiki/doku.php]].
+    -[[http://lesecuriesdaugias.free.fr/wikis/crimes/doku.php]].
+    -[[http://lolica51.free.fr/wiki/doku.php]].
+    -[[http://mastersig.free.fr/wiki/doku.php]].
+    -[[http://medecine.2.0.free.fr/doku.php/]].
+    -[[http://michelesavourey.free.fr/doku.php]].
+    -[[http://motocultor.vannes.free.fr/festival.motocultor.net/doku.php]].
+    -[[http://nayco.free.fr/wiki/doku.php]].
+    -[[http://o.boucard.free.fr/wiki/doku.php]].
+    -[[http://opengemini.free.fr/wiki/doku.php]].
+    -[[http://osku2.free.fr/doku.php]].
+    -[[http://pascal.martin.cv.free.fr/dokuwiki/doku.php]].
+    -[[http://per.launay.free.fr/dokuwiki-2008-05-05/doku.php]].
+    -[[http://philippe.alexandre.free.fr/dokuwiki/doku.php]].
+    -[[http://pierre.levasseur.free.fr/wiki/doku.php]].
+    -[[http://pileouface.org.free.fr/wiki/doku.php]].
+    -[[http://pittt.free.fr/wiki/doku.php]].
+    -[[http://pteu.hd.free.fr/doku.php]].
+    -[[http://rackanous.free.fr/wiki/doku.php]].
+    -[[http://regis.martinez3.free.fr/enseignement/IUT-Lumiere/doku.php]].
+    -[[http://regnier.fab.free.fr/dokuwiki/doku.php]].
+    -[[http://roc14.free.fr/extras/dokuwiki/doku.php]].
+    -[[http://saintandrederoq.free.fr/wiki/doku.php]].
+    -[[http://satz.free.fr/dokuwiki/doku.php]].
+    -[[http://sopcct.rugby.free.fr/doku.php]].
+    -[[http://speleoclubvendee.free.fr/doku.php]].
+    -[[http://sportchu.free.fr/sambrelug/doku.php]].
+    -[[http://squentin.free.fr/gmusicbrowser/dokuwiki/doku.php]].
+    -[[http://sylvain.vallaghe.free.fr/research/doku.php]].
+    -[[http://taspringfr.free.fr/wiki/doku.php]].
+    -[[http://ten0k.free.fr/wiki/doku.php]].
+    -[[http://thomas.leduc.free.fr/v6/doku.php]].
+    -[[http://tlfp79.free.fr/wiki/doku.php]].
+    -[[http://tk5ep.free.fr/dokuwiki/doku.php]].
+    -[[http://tuto.3mul.free.fr/doku.php]].
+    -[[http://varaillon.david.free.fr/doku.php]].
+    -[[http://visual.timetabling.free.fr/dokuwiki/doku.php]].
+    -[[http://wildphp.free.fr/wiki/doku.php]].
+    -[[http://who.is.free.fr/dokuwiki/doku.php]].
+    -[[http://wikinanimaux.free.fr/doku.php]].
+    -[[http://yann.morere.free.fr/dokuwiki/doku.php]].
+    -[[http://yellowblue.free.fr/yiki/doku.php]].
+    -[[http://zoub31.free.fr/wiki/doku.php]].
+
+===== =====
+<footnote_navi_en>

@@ -1,0 +1,83 @@
+====== [hemmerling] Atmel ARM-based MCUs and eMPUs ======
+===== The Company =====
+  *[[http://www.atmel.com/products/microcontrollers/arm/|Atmel Corporation "Atmel ARM-based Solutions"]].
+===== My Board "Atmel SAM4L-EK" =====
+==== General ====
+  *[[http://www.atmel.com/tools/SAM4L-EK.aspx|Atmel Corporation "SAM4L-EK"]], powered by the CPU [[http://www.atmel.com/devices/ATSAM4LC4C.aspx|Atmel Corporation "ATSAM4LC4C"]].
+  *You must set for all projects of a solution: "Project - Properties - Tool 'J-Link', Interface 'SWD'" ( not "JTAG" ).
+==== Documents ====
+  *[[http://www.atmel.com/Images/Atmel-42026-ATSAM4L-EK-User-Guide_Application-Note_AVR32850.pdf|Atmel Corporation "Atmel AVR32850: ATSA M4L-EK User Guide"]] ( PDF ).
+==== Extra Training Projects ====
+  *In Atmel Studio, at "Tools / Extension Manager", there are 4 free "Training" items, which install extra projects, available at "File / New / Example Project". 2 of the projects are especially for SAM4L-EK:
+    -"Integrating USB in Your Design".
+    -"Segment LCD Low Power Features (SAM4L-EK).
+    -"Sensor Acquisition in Time-Critical Applications".
+    -"Understanding the SAM4L Peripheral Event System".
+==== Hands-On Workshop 2013 ====
+  *The hands-On workshop 2013 makes use of a little webserver running on the host computer ( on Windows,.. ), making use use of the components:
+    -Python 2.7.
+    -The OpenSource webserver module of Python 2 "SimpleHTTPServer" -> See [[python.html|Python]]
+    -The OpenSource Python module "pyserial" -> See [[python.html|Python]].
+    -The OpenSource Python module "xlrd" -> See [[python.html|Python]]
+    -The OpenSource plotting graphics framework "Flot" in Javascript -> See [[webtech.html|]].
+
+===== My Board "Atmel SAM4S Xplained" =====
+  *[[http://www.atmel.com/tools/SAM4S-XPLD.aspx|Atmel Corporation "SAM4S Xplained"]], powered by the CPU [[http://www.atmel.com/devices/sam4s16c.aspx|Atmel Corporation "ATSAM4S16C"]].
+===== My Board "SAM D20 Xplained Pro" & Addons =====
+  *[[http://www.atmel.com/tools/atsamd20-xpro.aspx|Atmel Corporation "SAM D20 Xplained Pro Evaluation Kit"]].
+    *Atmel Studio usually recognizes the board, if not apply "ATSAM20 /18 256 - 32768 SAM D20 XplainedPro".
+    *Debugger: SWD.
+    *"Y-5 PIA7" = Button 1.
+    *[x] Enable QDebug
+  *[[http://www.atmel.com/tools/ATQT1-XPRO.aspx|Atmel Corporation "QT1 Xplained Pro"]].
+    *Atmel uses capacitive technologies, so be shure to get a proper "capacitive" pen .
+  *[[http://www.atmel.com/tools/ATOLED1-XPRO.aspx|Atmel Corporation "OLED1 Xplained Pro"]].
+  *[[http://www.atmel.com/tools/ATIO1-XPRO.aspx|Atmel Corporation "I/O1 Xplained Pro"]].
+===== My SAMA5D3 Xplained Starter Kit =====
+==== The Board ====
+  *[[http://www.atmel.com/tools/ATSAMA5D3-XPLD.aspx|Atmel Corporation "SAMA5D3 Xplained"]].
+  *I got the "SAMA5D3 Xplained Starter Kit", ATSAMA5D3-XSK :-).
+==== The TFT Touch Display ===
+  *[[http://www.pdaatl.com/tx43xx.htm#tm4300b|Precision Design Assoicates, Inc. "43xx Series - 4.3in Projected Capacitance Touch"]] - "TM4300B Sensor + Cover Panel + LCD + ARM EK / Xplained Interface PCB. 4.3in Touch Module for use with Atmel SAMA5D3 Xplained and ARM-based EKs or custom hosts with the necessary interfaces and I/O to communicate with the touch controller and display hardware".
+==== The extra USB to RS-232 Cable ( not included in the Kit ) ====
+  *[[http://www.ftdichip.com/Products/Cables/USBTTLSerial.htm|Future Technology Devices International Limited ( FTDI ) "USB TTL Serial Cables"]].
+    *You need the "TTL-232R-3V3" cable to connect the terminal port to a PC. Just by this, you may observe the boot process.#
+    *[[http://www.ftdichip.com/Drivers/VCP.htm|Future Technology Devices International Limited ( FTDI ) "Virtual COM Port Drivers"]].
+    *[[http://www.ftdichip.com/Support/Documents/ProgramGuides.htm|Future Technology Devices International Limited ( FTDI ) "FTDI Programming Guides"]].
+    *[[http://www.ftdichip.com/Support/Knowledgebase/|Future Technology Devices International Limited ( FTDI ) "FTDI Knowledgebase"]].
+  *Sources:
+    *<del>[[http://parts.arrow.com/de/item/detail/ftdi-chip/ttl-232r-3v3|ARROW Electronics "TTL-232R-3V3"]]</del> - "Versand ab: US" :-(.
+    *<del>[[http://www.digikey.de/product-detail/de/TTL-232R-3V3/768-1015-ND/1836393|Digi Key "TTL-232R-3V3"]]</del> √ - "Versand 18.00 EUR" :-(.
+    *[[http://www.distrelec.de/usb-kabel-usb-ttl-cmos/ftdi/ttl-232r-3v3/662100|Distrelec Schuricht GmbH "USB-Kabel USB, TTL/CMOS, TTL-232R-3V3, FTDI, Schnittstellen USB, TTL/CMOS"]] √ -> 20.10 EUR + 6.95 EUR p&p + 5.14 EUR VAT = 32.19 EUR.
+    *[[http://www.ebay.de/sch/sis.html?_nkw=FTDI%20TTL%20232R%203V3%20WE%20KABEL%20USB%20TTL%20SER%20KONV%20WIRE%20EN|eBay.de "FTDI TTL 232R 3V3 WE KABEL USB TTL SER KONV WIRE EN"]].
+      *[[http://cgi.ebay.de/ws/eBayISAPI.dll?ViewItem&item=161237178537|eBay #161237178537, "USB TO UART(TTL) SERIAL CABLE, FTDI Chip FT232RL, 3V3, CTS/RTS, 6 Pin"]] by [[http://www.rss-systems.de/|R. S. Systems]].
+    *[[http://de.farnell.com/ftdi/ttl-232r-3v3/kabel-usb-ttl-pegel-seriell-umsetzung/dp/1329311|Farnell "FTDI - TTL-232R-3V3 - KABEL, USB-TTL-PEGEL, SERIELL-UMSETZUNG"]] √ -> 18.96 EUR + 5.95 EUR p&p + 4.73 VAT = 29.64 EUR.
+    *<del>[[http://de.futureelectronics.com/de/technologies/interconnect/usb-to-ttl-rs232-rs422-rs485-cables/Seiten/5616503-TTL-232R-3V3.aspx|Future Electronics "TTL-232R-3V3"]]</del> √ - "Fracht 22 EUR" :-(.
+    *[[http://www.mercateo.com/p/115-662100/USB_Kabel_USB_TTL_CMOS_TTL_232R_3V3.html|Mercateo - Die Beschaffungsplattform für Geschäftskunden "USB-Kabel USB/TTL/CMOS, TTL-232R-3V3"]] √ -  21.31 + 6.95 EUR p&p = 28.26 EUR.
+    *<del>[[http://de.mouser.com/ProductDetail/FTDI/TTL-232R-3V3/?qs=sGAEpiMZZMvYU0Oh5y3R5sMdbLgwj41z|Mouser "FTDI TTL-232R-3V3"]]</del> √ - "Versandkosten: 20 EUR" :-(.
+    *[[http://de.rs-online.com/web/p/products/0429307/|RS Components GmbH "Adapterkabel TTL-232R-3V3"]] √ -> 16.61 EUR + 6.95 EUR p&p = 23.56 EUR.
+    *[[http://www.sparmeise.de/preise/ttl-232r-3v3-17596173.html|Sparmeise "TTL 232R 3V3"]].
+      *[[http://www.eibtron.com/epages/eibtron.sf/?ObjectPath=/Shops/eibtron/Products/429-307|eibtron.com GmbH "Adapterkabel TTL-232R-3V3"]].
+  *Tips:
+    *[[http://www.dontronics-shop.com/ftdi-usb-to-serial-ttl-level-33v-converter-cable.html|Dontronics "FTDI USB to Serial (TTL level 3.3V) converter cable #16536"]] - "If for any reason there is no Voltage label on the cable, then the above pictures show you how to identify them. The plastic inside the connector housing will be black for 3.3 Volts, and white for 5 Volts" -> This is just true for the company's products, while labeled products ( "TTL-232R-3V3" label on the USB interface jack shield ) of other sources may have white plastic no matter if a 5 Volts or 3.3 Volts model, just check the label.
+
+===== Tinkerforge, based on the ARM Cortex M3 CPU "Atmel ATSAM3S4C" =====
+  *See [[tinkerforge.html|Tinkerforge]].
+===== Resources =====
+  *[[http://www.at91.com/|AT91SAM Community]].
+    *[[http://www.at91.com/linux4sam/|AT91SAM Community "LinuxSAM"]].
+    *Forum [[http://www.at91.com/discussions.html|AT91SAM Community Discussions]].
+    *[[ftp://www.at91.com/pub/demo/linux4sam_4.4/|ftp://www.at91.com/pub/demo/linux4sam_4.4/]].
+    *[[http://download.qt-project.org/official_releases/qtcreator/|http://download.qt-project.org/official_releases/qtcreator/]].
+    *[[http://www.yoctoproject.org/|Yocto Project]].
+      *[[ftp://ftp.linux4sam.org/pub/demo/yocto-qte-sdk/|ftp://ftp.linux4sam.org/pub/demo/yocto-qte-sdk/]] -> I was not asked for root password ( there was not sudo request to enter the password ) ?!.
+    *[[http://www.atmel.com/tools/ATMELSAM-BAIN-SYSTEMPROGRAMMER.aspx|Atmel Corporation "SAM-BA for linux archives"]].
+      *[[ftp://ftp.linux4sam.org/pub/sam-ba/|ftp.linux4sam.org/pub/sam-ba/]].
+  *[[http://en.wikipedia.org/wiki/Crank_Storyboard_Suite|EN.Wikipedia "Crank Storyboard Suite"]].
+
+
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Hardware/Mikrocontroller/|OpenDirectory "Top: World: Deutsch: Computer: Hardware: Mikrocontroller"]].
+{{tag>Atmel ARM Embedded Systems "Cortex M4" Cortex M4}}
+<footnote_navi_en>
+

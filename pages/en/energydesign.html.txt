@@ -1,0 +1,82 @@
+====== [hemmerling] Low-Energy Design and Low-Energy Building Design ======
+Related Topics:
+  *[[cae.html|Computer Aided Engineering ( CAE )]].
+  *[[lighting.html|Lighting]].
+  *[[bautomation.html|Building Automation & Home Automation]].
+  *[[simulate.html|Simulation]].
+===== Norms, Concepts and Guidelines for Energy-Efficient Design =====
+  *[[http://www.amev-online.de/|Arbeitskreis Maschinen- und Elektrotechnik (AMEV)]].
+    *[[http://www.amev-online.de/AMEV/DE/Betriebsfuehrung/EnergieundMedien/EnMess2001/enmess2001_node.html|Arbeitskreis Maschinen- und Elektrotechnik (AMEV) "AMEV EnMess 2001. Empfehlungen über den Einbau von Meßgeräten zum Erfassen des Energie- und Medienverbrauchs"]].
+    *[[http://www.amev-online.de/AMEV/DE/Betriebsfuehrung/EnergieundMedien/Downloads/enmess2001.html|Arbeitskreis Maschinen- und Elektrotechnik (AMEV) "EnMess 2001"]].
+      *[[http://www.amev-online.de/AMEV/DE/Betriebsfuehrung/EnergieundMedien/Downloads/enmess2001__blob=publicationFile.pdf|Arbeitskreis Maschinen- und Elektrotechnik (AMEV) "Messgeräte für Energie und Medien (EnMess 2001)"]] ( PDF ).
+  *[[http://www.enob.info/|EnOB: Forschung für Energieoptimiertes Bauen]].
+    *[[http://www.enob.info/de/forschungsfelder/enob-forschungsinitiative-im-detail/enob-begleitforschung/materialien-fuer-projektteams/|EnOB: Forschung für Energieoptimiertes Bauen "Begleitforschung: Materialien für die Projektteams"]] - "Leitfaden für das Gebäudemonitoring" ( PDF ).
+  *[[http://www.gefma.de/|GEFMA Deutscher Verband für Facility Management e.V.]].
+    *[[http://www.gefma.de/ak_nachhaltigkeit.html|GEFMA Deutscher Verband für Facility Management e.V. "Arbeitskreis Nachhaltigkeit"]] - "Der AK Nachhaltigkeit hat ein großes Etappenziel erreicht: Die Veröffentlichung des Richtlinienentwurfs GEFMA 160 "Nachhaltigkeit im Facility Management - Grundlagen und Konzeption" 2014-02. 
+    *[[http://www.gefma.de/bestellformular.html|GEFMA Deutscher Verband für Facility Management e.V. - Bestellformulare]] - "GEFMA 160 - Nachhaltigkeit im FM; Grundlagen und Konzeption". It also deals with energy maangement!
+  *[[http://en.wikipedia.org/wiki/European_Ecodesign_Directive|EN.Wikipedia "Energy-related products"]], [[http://de.wikipedia.org/wiki/%C3%96kodesign-Richtlinie|DE.Wikipedia "Ökodesign-Richtlinie"]].
+  *[[http://en.wikipedia.org/wiki/Energy-related_products|EN.Wikipedia "Energy-related products"]].
+===== Thermal Design & Thermal Simulation of Buildings ====
+==== Theory, Data and Calculation ====
+  *[[http://www.lv-soft.de/|Lauterbach Verfahrenstechnik]] - "Software und Engineering im Apparatebau und Anlagenbau".
+    *Book and CDROM [[http://www.amazon.de/exec/obidos/ASIN/3540297162/hemmerling-21|VDI-Wärmeatlas]].
+==== Test Reference Years ( TRY ) ====
+  *[[http://www.dwd.de/TRY|Deutscher Wetterdienst "Testreferenzjahre von Deutschland für mittlere und extreme Witterungsverhältnisse (TRY)"]].
+    *"Bestellung" -> commercial old TRY data "Bisherige TRY" & free new TRY data "Neue TRY seit April 2011".
+    *"Karte der Regionen" - "TRY-Regionen für Deutschland" -> Free map of Germany with TRY regions.
+  *[[http://www.bbsr.bund.de/|Bundesinstitut für Bau-, Stadt- und Raumforschung im Bundesamt für Bauwesen und Raumordnung  ( BBSR )]].
+  *[[http://www.bbsr.bund.de/BBSR/DE/FP/ZB/Auftragsforschung/5EnergieKlimaBauen/2008/Testreferenzjahre/01__start.html|Bundesinstitut für Bau-, Stadt- und Raumforschung im Bundesamt für Bauwesen und Raumordnung  ( BBSR ) "Forschungsprogramme / Zukunft Bau / Auftragsforschung / Aktualisierte und erweitere Testreferenzjahre (TRY) von Deutschland für mittlere und extreme Witterungsverhältnisse"]] -> "[[http://www.bbsr.bund.de/cln_032/nn_112742/BBSR/DE/FP/ZB/Auftragsforschung/5EnergieKlimaBauen/2008/Testreferenzjahre/03__ergebnisse.html|Ergebnisse]]".
+    -"Handbuch zu den neuen Testreferenzjahren 2011 (TRY)" ( PDF ).
+    -"Der neue Testreferenzjahr-Datensatz 2011 mit Softwaretool".
+    -"Der Projektbericht zu den neuen Testreferenzjahren" ( PDF ).
+  *[[http://www.doe2.com/index_Wth.html|DOE2.com "Weather Data & Weather Data Processing Utility Programs"]].
+==== Tools ====
+  *[[http://www.doe2.com/|DOE2.com - The Home of DOE-2 based Building Energy Use and Cost Analysis Software]].
+    *The free [[http://www.doe2.com/equest/|eQUEST - QUick Energy Simulation Tool]] for Windows.
+    *The free [[http://www.doe2.com/DOE2/|DOE-2 - Building Energy Use and Cost Analysis Tool]] for Windows.
+    *The legacy commercial "PowerDOE".
+  *The commercial spreadsheed application [[http://www.passivhaustagung.de/Passive_House_E/PHPP.html|Passive House Planning (Design) Package (PHPP)]] for use with Microsoft Excel spreadsheets.
+    *[[http://www.passive-on.org/CD/?path=./4.%20PHPP%202007%20Demo/|PHPP 2007 free Demo]].
+  *The commercial [[http://www.edsl.net/|Environmental Design Solutions Limited "Tas Building Designer"]] for Windows - "An industry-leading building modeling and simulation tool. Capable of performing dynamic thermal simulation for the world’s largest and most complex buildings, Tas allows designers to accurately predict energy consumption, CO2 emissions, operating costs and occupant comfort ( Tas - "Thermal Analysis Simulation Software" ).
+  *The free [[http://windows.lbl.gov/software/therm/therm.html|Windows and Daylighting Group, Lawrence Berkeley National Laboratory "THERM"]], [[http://eetd.lbl.gov/eetd-software-therm.html|Environmental Energy Technologies Division "THERM"]] - "Two-Dimensional Building Heat-Transfer Modeling".
+  *The commercial [[http://www.transsolar.com/|Transsolar Energietechnik GmbH "TRNSYS"]] - "Das universelle Werkzeug für Klimaengineering. Mit TRNSYS steht Ihnen ein modular aufgebautes, dynamisches Gebäude- und Anlagen-Simulationsprogramm zur Verfügung, mit dem auch das Verhalten von Solarenergiesysteme und Systeme zur rationellen Energienutzung simuliert werden kann". 
+
+===== Visualisation & Supervision of Air Pollution & Loudness Polution in Urban Areas ====
+  *The commercial [[http://www.lohmeyer.de/eng/Software/winmiskam.htm|Dr. J. Eichhorn, Working Group Urban Climatology, Institute for Atmospheric Physics, University of Mainz, "WinMISKAM... MISKAM for Windows"]] - "A 3-dimensional non-hydrostatic climate -, flow - and dispersion model for the microscale prediction of flow - and concentration fields. It covers in the vicinity of single buildings, as well as streets with adjacent buildings and city quarters". It is used by to visualize and supervise air pollution by the industrial inspectorates ( “Gewerbeaufsichtsamt” ) in Germany.
+  *The commercial [[http://www.woelfel.de/produkte/immissionsschutz.html|Wölfel Meßsysteme · Software GmbH + Co. KG "IMMI"]] - "DIE Komplettlösung für die Berechnung von Lärm und Luftschadstoffen (Gas, Staub und Geruch)".
+  *The commercial [[http://esri.de/products/arcgis/|Esri Deutschland GmbH "ArcGIS: Das umfassende GeoInformationssystem"]].
+    *The commercial [[http://www.immis.de/|IVU Umwelt GmbH "IMMIS - Modelle zur Luftreinhaltung"]] - "Um dem räumlichen Bezug der in der Umweltplanung verwendeten Daten gerecht zu werden, sind die IMMIS-Modelle GIS-integriert".
+===== Data Exchange Formats for Civil Engineering in Germany =====
+  *[[http://www.gaeb.de/|Gemeinsamer Ausschuss Elektronik im Bauwesen"]] ( GAEB ).
+  *[[http://www.bvbs.de/|BVBS Bundesverband Bausoftware e.V.]].
+  *The commercial software [[http://www.gaeb-online.de/|UsUrDesktop GbR "GAEB-Online Viewer"]].
+  *[[http://de.wikipedia.org/wiki/Gemeinsamer_Ausschuss_Elektronik_im_Bauwesen|DE.Wikipedia "Gemeinsamer Ausschuss Elektronik im Bauwesen"]] ( GAEB ).
+===== Energy-efficient Control Systems =====
+  *Controller for position control ( "Stellungsregler" ).
+    *The legacy implementation: flapper-nozzle system ( "Düse-Prallplatte" ).
+    *The state-of-art energy-efficient implementation:  Electro-pneumatics controllers.
+===== Calculation Tools for Energy and Power Tax =====
+  *[[http://www.detmold.ihk.de/de/innovation-und-umwelt/energie/energie-und-stromsteuer|Industrie- und Handelskammer Lippe zu Detmold "Innovation und Umwelt / Energie und Rohstoffe /Energie- und Stromsteuer"]] ->  Free XLS calculation sheet "Praxishilfen: Energie- und Stromsteuer-Berechnungstool".
+===== Resources =====
+  *[[http://www.enev-online.com/enev_2014_volltext/10_nachruestung_anlagen_und_gebaeude.htm|EnEV 2014, Abschnitt 3, § 10 Nachrüstung bei Anlagen und Gebäuden]] - "Eigentümer von Gebäuden dürfen Heizkessel, die mit flüssigen oder gasförmigen Brennstoffen beschickt werden und vor dem 1. Oktober 1978 eingebaut oder aufgestellt worden sind, nicht mehr betreiben. Eigentümer von Gebäuden dürfen Heizkessel, die mit flüssigen oder gasförmigen Brennstoffen beschickt werden und vor dem 1. Januar 1985 eingebaut oder aufgestellt worden sind, ab 2015 nicht mehr betreiben. Eigentümer von Gebäuden dürfen Heizkessel, die mit flüssigen oder gasförmigen Brennstoffen beschickt werden und nach dem 1. Januar 1985 eingebaut oder aufgestellt worden sind, nach Ablauf von 30 Jahren nicht mehr betreiben".
+  *[[http://www.10000-euro-haus.de/|Egon Hauck "10000 EUR Haus. sozial - ökologisch - bezahlbar"]].
+  *[[http://www.baulinks.de/webplugin/2012/2142.php4|Baulinks "Die neue Norm EN 15232 - Auswirkungen der Gebäudeautomation auf die Gebäudeeffizienz"]].
+  *[[http://www.google.de/search?q=Gebäudesimulation|Google "Gebäudesimulation"]], [[http://www.google.de/search?q=building+simulation|Google "building simulation"]].
+  *[[http://www.energy.gov/|Department of Energy]], USA.
+    *[[http://www.eere.energy.gov/|U.S. DOE Energy Efficiency and Renewable Energy (EERE)]], USA.
+      *[[http://apps1.eere.energy.gov/buildings/tools_directory/| "Building Energy Software Tools Directory"]].
+      *[[http://apps1.eere.energy.gov/buildings/tools_directory/doe_sponsored.cfm| "Building Energy Software Tools Directory"]].
+  *[[http://www.passiv.de/|Passivhaus Institut]].
+    *[[http://www.passivhaustagung.de/Passivhaus_D/passivhaus.html|Internationalen Passivhaustagung "Informationen zum Passivhaus. Kurz und bündig: Was ist ein Passivhaus?"]].
+  *[[http://www.topten.eu/|Best of Europ]] - "Energy efficiency for consumers, in policy and procurement" - Examples of energy-efficient design.
+  *[[http://de.wikipedia.org/wiki/Glaserdiagramm|DE.Wikipedia "Glaserdiagramm"]].
+===== Forums, Newsgroups =====
+  *[[http://www.10000-euro-haus.de/forum|10000 EUR Haus - Foren]].
+  *Ingenieur.de.
+    *[[http://www.ingenieur.de/networks/groups/Energiemanagement|Ingenieur.de "Energiemanagement"]].
+    *[[http://www.ingenieur.de/networks/groups/Gebaeudeautomation/|Ingenieur.de "Gebäudeautomation"]].
+    *[[http://www.ingenieur.de/networks/groups/Greenbuilding/|Ingenieur.de "GreenBuilding"]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Business/Construction_and_Maintenance/Building_Types/Sustainable_Architecture/|OpenDirectory "Top: Business: Construction and Maintenance: Building Types: Sustainable Architecture]].
+{{tag>"energy design" "low-energy building design" "building simulation" "thermal design" "thermal simulation" "sustainable architecture" HEM "home energy management" HLK HLKK-Anlage Heizungstechnik Lüftungstechnik Klimatechnik Kältetechnik rem "renewable energy management" renewable energy management}}
+<footnote_navi_en>

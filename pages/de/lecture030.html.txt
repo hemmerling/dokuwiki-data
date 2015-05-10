@@ -1,0 +1,34 @@
+====== [hemmerling] Entwurf eines automatisierten Temperatur-Prüfstands für Gleichstrom-Elektomotoren ======
+===== Vortrag =====
+  *Vortragstitel: "Entwurf eines automatisierten Temperatur-Prüfstands für Gleichstrom-Elektomotoren".
+  *Vortragende: Rolf Hemmerling, [[http://www.xing.com/profile/Matthias_Mohme|Matthias Mohme]], [[http://www.xing.com/profile/Thomas_Kubiak2|Thomas Kubiak]], Frederic Blanke.
+  *Vortragsdauer: 30 Minuten.
+  *Vortragssprache: Deutsch.
+  *Veranstaltungsform: Folien-unterstützte Präsentation.
+===== Vortrags-Ort, -Datum und -Publikum =====
+  *Veranstaltungsort: [[http://kag-hannover.com/|KAG Kählig Antriebstechnik GmbH]], Pappelweg 4, D-30179 Hannover, Deutschland.
+  *Datum: 2007-12-20.
+  *Publikum:
+    *Hochschulangehörige ( Studenten, Mitarbeiter, Professoren, Dozenten ) der [[http://www.fh-hannover.de/|Fachhochschule Hannover]], Mitarbeiter der [[http://kag-hannover.com/|KAG Kählig Antriebstechnik GmbH]].
+    *Studenten des Projekts "Entwurf eines automatisierten Temperatur-Prüfstands" der Fakultät I - Elektro- und Informationstechnik und Fakultät II - Maschinenbau und Bioverfahrenstechnik.
+    *[[http://www.fakultaet1.fh-hannover.de/personen/lehrende/landrath-joachim-prof-dr-ing-prof|Prof. Dr.-Ing. Joachim Landrath]].
+    *[[http://www.fakultaet2.fh-hannover.de/personen/lehrende/greife-wolfgang-prof-dr-rer-pol-prof/|Prof. Dr. rer. pol. Wolfgang Greife]].
+    *Dipl-Ing. Adam, [[http://kag-hannover.com/|KAG Kählig Antriebstechnik GmbH]].
+===== Vortrags-Dokumentation =====
+  -Vortrags-Folien im Microsoft-Powerpoint (PPT) und PDF-Format.
+  -Schriftliche Ausarbeitung im OpenOffice (ODT) und PDF-Format.
+===== Vortrags-Thema =====
+  *Entwicklung eines Prüfstandes zur Bestimmung von Übergangstemperaturen an Elektro-Gleichstrommotoren für den mittelständischen Antriebshersteller [[http://kag-hannover.com/|KAG Kählig Antriebstechnik GmbH]]: Mechanischer und elektrischer Aufbau, Auswahl von am Markt verfügbaren auf Fertigkomponenten  (  Drehmomentmeßwelle, Leistungsbremse, Bremscontroller, Netzteil, PC-Meßdatenerfassungssystem, Standard-Messdatensoftware).
+  *Es soll für einen mittelständischen Antriebshersteller ein Prüfstand mit 1 bis 3 Prüfplätzen entworfen werden. An jedem Prüfplatz sollen mittels einem bis zu 24 Stunden dauernden Prüfvorgang die thermischen Übergangswiderstände von verschiedenen Elektro-Gleichstrommotoren des Antriebsherstellers aufgenommen und dargestellt werden. Der thermische Übergangswiderstand ist die Temperaturdifferenz zwischen 2 Punkten am Motor, z.B. zwischen der Temperatur des Motor-Gehäuses und der Motor-Bürste. Dazu soll an jedem Prüfling an bis zu 3 Stellen die Ortstemperatur und zusätzlich einmal pro Prüfstand die Umgebungstemperatur mit PT100 Widerständen gemessen und von einem Prüfstand-Computer in einer Datei aufgezeichnet werden. Die Temperatur-Aufzeichnung  soll mit einer Abtastfrequenz von 0.1 Hz bis 10 Hz. Es sollen auch Lösungen betrachtet und diskutiert werden, die die 10 Hz Abtastfrequenz nicht bieten. Die gesamte Steuerung und Regelung des Prüfstandes und des Prüfvorgangs soll über einen Prüfstand-Computer automatisch erfolgen. 
+  *Der Wechsel des Prüflings soll manuell durch den geschultes Fachpersonal erfolgen, also durch mechnische Tätigkeiten wie Befestigung des Prüflings in der Prüflingsaufnahme, Austausch weniger Bauteile und Anschließen von elektrischen Kabeln.
+===== Vortragsgliederung =====
+  -Projektauftrag.
+  -Mechanisches Konzept.
+  -Elektrisches Konzept.
+  -Temperaturmeßsystem.
+  -System-Angebot.
+  -Produktions-Architekturen.
+  -Risiken.
+  -Empfehlung.
+{{tag>"Temperatur-Prüfstand" "Gleichstrom-Elektomotoren"}}
+<footnote_navi_de>

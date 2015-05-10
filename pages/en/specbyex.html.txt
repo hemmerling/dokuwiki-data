@@ -1,0 +1,520 @@
+====== [hemmerling] Specification by Example ======
+Related page:
+  *[[systemdesign.html|System Design]].
+  *[[testing.html|Testing]].
+  *[[unittest.html|Unit Test / Module Test]].
+===== Events =====
+  *[[http://plus.google.com/u/0/116217056713037032074/|Google+ "DDD Germany"]], with "Google Hangout" video conference events.
+    *[[http://www.youtube.com/channel/UCbtWT1WCCYuNL7jR6nOsB3w|YouTube "DDD Channel"]].
+  *[[http://www.skillsmatter.com/event/java-jee/cukeup-2013|Skills Matter "CukeUp! 2013"]] in London, UK, 2013-04-13.
+  *Speech "BBD Hands-on with Python".
+    *Slides [[http://www.slideshare.net/hemmerling/rolf-hemmerling-handson-workshop|SlideShare "BBD Hands-on with Python. Practical Hands-on Workshop about 'Behaviour Driven Development', implementing the Game 'CodeBreaker' on Python 2.7 as Example"]] ( [[http://www.slideshare.net/slideshow/embed_code/36197836|SlideShare "BBD Hands-on with Python. Practical Hands-on Workshop about 'Behaviour Driven Development', implementing the Game 'CodeBreaker' on Python 2.7 as Example"]] ).
+===== Process and Proceedings... =====
+==== Specification by Example ====
+  *Blog article [[http://www.red-badger.com/blog/2012/07/31/what-is-specification-by-example/|Red Badger "What is Specification by Example?"]] -> "What are the differences between Specification by example, Behaviour-Driven development (BDD) and Acceptance Testing-Driven Development (ATDD)?" #.
+  *[[http://www.youtube.com/watch?v=ciPmha5f92A|YouTube "Christian Hassa: Specification By Example"]].
+==== Behaviour Driven Development ( BDD ) ====
+=== Connextra Format ===
+  *[[http://en.wikipedia.org/wiki/User_story|EN.Wikipedia "User story"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3826658981/hemmerling-21|Mike Cohn "User Stories: für die agile Software-Entwicklung mit Scrum, XP u.a."]].
+  *Mike Cohn's **Connextra** Format<HTML><BR>
+"As a 'role'<BR>
+I want 'features'<BR>
+So that 'business value'"</HTML>
+  *A variant format, featured by **The RSpec Book**<HTML><BR>
+"In order to 'business value'<BR>
+As a 'role'<BR>
+I want 'features'"</HTML>
+=== "Given, When, Then" ===
+  *[[http://www.github.com/cucumber/cucumber/wiki/Gherkin|Github "cucumber / cucumber": "Gherkin"]] #
+  *Wikipedia:
+    *[[http://en.wikipedia.org/wiki/Behavior_Driven_Development|EN.Wikipedia "Behavior Driven Development"]]
+    *[[http://de.wikipedia.org/wiki/Behavior_Driven_Development|DE.Wikipedia "Behavior Driven Development"]] - "Given, When, Then" #.
+=== Resources ===
+  *[[http://dannorth.net/|Dan North & Associates]].
+    *[[http://dannorth.net/introducing-bdd/|Dan North & Associates "Introducing BDD"]].
+    *[[http://dannorth.net/whats-in-a-story/|Dan North & Associates "What’s in a Story?"]].
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/Behavior_Driven_Development|EN.Wikipedia "Behavior Driven Development"]]
+    *[[http://de.wikipedia.org/wiki/Behavior_Driven_Development|DE.Wikipedia "Behavior Driven Development"]] #.
+  *Blog article [[http://www.visiblox.com/blog/tag/nbehave|Visiblox "Behaviour Driven Development for .NET developers"]].
+  *Blog article [[http://blog.stevensanderson.com/2010/03/03/behavior-driven-development-bdd-with-specflow-and-aspnet-mvc/|Steve Sanderson "Behavior Driven Development (BDD) with SpecFlow and ASP.NET MVC"]].
+  *Blog article [[http://ryanlanciaux.com/ryanlanciaux/post/Gherkin-style-BDD-testing-in-NET.aspx|Ryan Lanciaux "Gherkin style specification testing in .NET"]].
+==== Acceptance Test-Driven Development ( ATDD ) ====
+  *[[http://www.agilefaqs.com/|Agile FAQs]].
+  *[[http://www.agilefaqs.com/nareshjain.html|Agile FAQs - Naresh Jain]].
+    *Blog [[http://blogs.agilefaqs.com/|Agile FAQs Blog "Managed Chaos. Naresh Jain's Random Thoughts on Software Development and Adventure Sports]].
+    *[[http://www.slideshare.net/nashjain|SlideShare "Naresh Jain"]].
+    *[[http://softtests.wordpress.com/2011/04/01/acceptance-test-driven-development-attd/|soft tests "Naresh Jain: Acceptance Test Driven Development"]].
+==== Domain-Driven Design ( DDD ) ====
+=== General ===
+  *[[http://www.domaindrivendesign.org/|Domain-Driven Design Community]].
+  *"Value Objects".
+    *[[http://www.infoq.com/presentations/Value-Objects-Dan-Bergh-Johnsson|InfoQ "Power Use of Value Objects in DDD"]].
+  *[[http://en.wikipedia.org/wiki/Domain-driven_design|EN.Wikipedia "Domain-driven design"]], [[http://de.wikipedia.org/wiki/Domain-Driven_Design|DE.Wikipedia "Domain-Driven Design"]].
+=== Design Patterns & Design Principles ===
+  *Ports and Adapters.
+    *[[http://alistair.cockburn.us/Hexagonal+architecture|Alistair Cockburn "Hexagonal architecture"]] - "The Pattern: Ports and Adapters ('Object Structural')"#.
+      *Communication between different layers: "Think in slices, not in layers ( Lasagna )"!
+    *Dependency inversion principle.
+      *[[http://en.wikipedia.org/wiki/Dependency_inversion_principle|EN.Wikipedia "Dependency inversion principle"]], [[http://de.wikipedia.org/wiki/Dependency-Inversion-Prinzip|DE.Wikipedia "Dependency-Inversion-Prinzip"]].
+      *[[http://en.wikipedia.org/wiki/Protocol_%28object-oriented_programming%29|EN.Wikipedia "Protocol (object-oriented programming)"]], [[http://en.wikipedia.org/wiki/Interface_%28Java%29|EN.Wikipedia "Interface (Java)"]], [[http://de.wikipedia.org/wiki/Schnittstelle_%28Objektorientierung%29|DE.Wikipedia "Schnittstelle (Objektorientierung)"]].
+       *If your favourite object oriented programming language does not have "Interfaces", you may alternatively also use an "Abstract Class".
+  *Repository Pattern.
+    *By Martin Fowler - No DDD approach :-(!
+      *[[http://msdn.microsoft.com/en-us/library/ff649690.aspx|Microsoft MSDN Library "The Repository Pattern"]].
+      *[[http://devtyr.norberteder.com/post/Das-Repository-Pattern-anhand-eines-Beispiels-inkl-Tests.aspx|Norbert Eder "Das Repository Pattern anhand eines Beispiels inkl. Tests"]].
+    *By Eric Evans - DDD approach: It provides the translation from data layer to domain language :-).
+=== Experts, Gurus and Evangelists ===
+  *Dennis Traub.
+    *Blog [[http://www.dennistraub.de/|Dennis Traub - Mein Blog zu Softwareentwicklung, Büchern und was mir sonst noch so in den Sinn kommt...]].
+    *[[http://www.xing.com/profile/Dennis_Traub|XING "Dennis Traub"]], [[http://www.linkedin.com/pub/dennis-traub/2/bb6/287|LinkedIn "Dennis Traub"]].
+    *[[http://twitter.com/DTraub|Twitter "Dennis Traub. @DTraub. Software developer interested in craftsmanship. Entrepreneur, speaker, passionate reader. Learning addict, writer, husband and father. Paderborn, Germany. dennistraub.de"]].
+    *Speech [[http://www.sqlsaturday.com/viewsession.aspx?sat=230&sessionid=15522|SQL Saturday #230 "DDD und relationale Daten - Ein Widerspruch?"]], 2013-07-13.
+==== Table-Driven Testing vs. Data-driven Testing ====
+=== Keyword-Driven Testing ( KDT ) / Table-Driven Testing ( TDT ) / Action Word Based Testing ( AWBT ) ===
+  *[[http://en.wikipedia.org/wiki/Keyword-driven_testing|EN.Wikipedia "Keyword-driven testing"]], [[http://en.wikipedia.org/wiki/Keyword-driven_testing|EN.Wikipedia "Keyword-Driven Testing"]].
+  *Typical use case in the engineering industry: Testing of hardware, making use of Labview ( See [[ni.html|National Instruments ( Labview, DIAdem )]] ).
+=== Data-driven testing ( DDT ) ===
+  *[[http://en.wikipedia.org/wiki/Data-driven_testing|EN.Wikipedia "Data-driven testing"]]
+==== Test Driven Development vs Test-First Programming ====
+=== Test-First Programming ===
+  *Test-First Programming = You have the design of the application to be tested already in mind ( not just of the test code ).
+  *[[http://www.versionone.com/Agile101/Test-First_Programming.asp|VersionOne - Agile Made Easier "Test-First Programming"]].
+=== Test Driven Development / Extreme Programming ( XP ) ===
+  *Test Driven Development = You have a result in mind, but not a design of the application to be tested.
+  *[[http://c2.com/cgi/wiki?KentBeck|Kent Beck]].
+  *[[http://www.extremeprogramming.org/|Don Wells "Extreme Programming: A Gentle Introduction"]].
+  *[[http://c2.com/cgi/wiki?BillWake|Bill Wake]].
+  *[[http://www.xprogramming.com/|XProgramming.com]] - "An Agile Development Resource".
+=== Resources ===
+  *Webcast [[http://www.oreillynet.com/pub/e/2670|O'Reilly Community, Harry Percival "TDD Web Development from Scratch. Test-Driven Development with Python"]], 60 minutes.
+  *"Is TDD dead?"-
+    *[[http://www.youtube.com/watch?v=z9quxZsLcfo|YouTube "Is TDD dead?"]] with Martin Fowler, Kent Beck, David Heinemeier Hansson, 2014-05-09.
+    *[[https://www.youtube.com/watch?v=JoTB2mcjU7w|YouTube "Is TDD dead? [Part II]"]], 2014-05-16.
+==== Emergent Design ====
+  *[[http://en.wikipedia.org/wiki/Emergent_Design|EN.Wikipedia "Emergent Design"]].
+
+===== Free Software for Keyword-Driven Testing / Table-Driven Testing / Action Word Based Testing =====
+==== FIT & Fitnesse ====
+=== Fitnesse for Java ===
+  *The OpenSource [[http://www.fitnesse.org/|FitNesse]], [[http://github.com/unclebob/fitnesse|Github "unclebob/fitnesse"]], a Java 6 application. Support for C++, Python, Ruby, Delphi, C#,..
+    *[[http://schuchert.wikispaces.com/FitNesse.Tutorials|Brett Schuchert "FitNesse.Tutorials"]].
+    *[[http://www.butunclebob.com/|ButUncleBob.com]].
+      *[[http://www.butunclebob.com/FitNesse|ButUncleBob.com "FitNesse"]].
+        *[[http://www.butunclebob.com/FitNesse.UserGuide.FixtureCode|ButUncleBob.com "FitNesse": "FixtureCode"]].
+    *[[http://en.wikipedia.org/wiki/FitNesse|EN.Wikipedia "FitNesse"]].
+    *[[http://en.wikipedia.org/wiki/Framework_for_Integrated_Test|EN.Wikipedia "Framework for Integrated Test"]], [[http://de.wikipedia.org/wiki/Framework_for_Integrated_Test|DE.Wikipedia "Framework for Integrated Test"]] ( "FIT" ).
+    *Tasks / functions.
+      -"Software development collaboration tool" -> "Collaboratively define [[http://fitnesse.org/FitNesse.UserGuide.AcceptanceTests|Acceptance Tests]]" ( additionally to xUnit tests ).
+      -"Software testing tool".
+      -"Wiki".
+      -"Web server".
+    *Fixture Gallery.
+      *[[http://fixturegallery.sourceforge.net/|SourceForge "Fixture Gallery"]], [[http://www.sourceforge.net/projects/fixturegallery/|SourceForge "Fixture Gallery"]] - "Simple, straight-forward examples of FIT/FitNesse fixtures for Java and .NET test environments. Documentation and examples are available in the form of a live FitNesse wiki and PDF".
+      *The free PDF book [[http://downloads.sourceforge.net/fixturegallery/fixturegallery-20080708.pdf|Gojko Adzic, Mike Stockdale, Jens Engel, Randy Coulman "Fixture Gallery: A cookbook for FIT/FitNesse tests"]].
+      *[[http://www.gojko.net/fitnesse/fixturegallery/|Gojko Adzic - Building software that matters "Fixture Gallery"]] - "A cookbook for FIT/FitNesse tests".
+      *[[http://www.fitnesse.info/fixturegallery|Gojko Adzic "FitNesse community web site": "Fixture Gallery"]].
+    *Local installation on port 8888: "java -jar fitnesse-standalone.jar -p 8888". The server can then be accessed by "http://localhost:8888/".
+=== FIT & FitLibrary for Java ===
+  *The OpenSource FIT for use with **Fitnesse** #.
+    *[[http://fit.c2.com/|Fit: Framework for Integrated Test]].
+    *[[http://fitlibrary.sourceforge.net/|SourceForge "FitLibrary"]], [[http://sourceforge.net/projects/fitlibrary/|SourceForge "FitLibrary"]], Wiki [[http://www.sourceforge.net/apps/mediawiki/fitlibrary|SourceForge Wiki "FitLibrary"]].
+=== PHPFit ===
+  *[[http://developer.berlios.de/projects/phpfit/|BerliOS Developer "PHPFIT"]] - FIT for PHP.
+=== PyFIT Python ===
+    *[[http://pypi.python.org/pypi/PyFIT/0.8a2|Python.org "PyFIT 0.8a2 - Python version of the Framework for Interactive Testing"]], [[http://www.github.com/pyfit|Github "pyfit"]].
+=== Fit Sharp, FitNesse.DotNet for .NET ===
+  *Mike Stockdale - OpenSource functional testing tools for .NET, using **FitNesse** and inspired by **Fit**.
+    *[[http://www.syterra.com/FitSharp.html|Mike Stockdale "Fit Sharp"]] - "A set of open-source functional testing tools for .NET, inspired by the [[http://fit.c2.com/|Framework for Integrated Test Fit]]".
+    *[[http://www.github.com/jediwhale/|Github "Mike Stockdale"]].
+      *[[http://www.github.com/jediwhale/fitsharp|Github "jediwhale/fitsharp"]] for Windows with .NET 3.5 - "Functional testing tools for .NET".
+  *[[http://www.fitnesse.org/FitNesse.DotNet|SourceForge "FitNesse.DotNet"]], [[http://fitnessedotnet.sourceforge.net/|SourceForge "FitNesse.DotNet"]], [[http://www.sourceforge.net/projects/fitnessedotnet/|SourceForge ".NET FIT, FitLibrary for FitNesse, HTML"]] for Windows with .NET 2.0.
+==== Robot Framework ====
+=== The Tools ===
+  *The OpenSource [[http://www.robotframework.org/|robotframework]], [[http://code.google.com/p/robotframework/|Google Code "robotframework. A generic test automation framework"]], [[http://www.github.com/robotframework|GitHub "robotframework"]] in Python - "A generic test automation framework for acceptance testing and acceptance test-driven development (ATDD). It has easy-to-use tabular test data syntax and utilizes the keyword-driven testing approach. Its testing capabilities can be extended by test libraries implemented either with Python or Java, and users can create new keywords from existing ones using the same syntax that is used for creating test cases".
+  *[[http://code.google.com/p/robotframework-ride/|Google Code "robotframework-ride"]], [[http://www.github.com/robotframework/RIDE|GitHub "robotframework/RIDE"]] - "A light-weight and intuitive editor for Robot Framework test case files".
+=== Libraries ===
+  *The  deprecated <del>[[http://code.google.com/p/robotframework-seleniumlibrary/|Google Code "robotframework-seleniumlibrary. A web testing library for Robot Framework"]]</del>.
+  *[[http://www.github.com/rtomac/robotframework-selenium2library|GitHub "rtomac / robotframework-selenium2library - Selenium 2 (WebDriver) library for Robot Framework"]].
+=== Documentation, Tutorials ===
+  *Wiki [[http://code.google.com/p/robotframework/w/list|Google Code Wiki "Robot Framework - A generic test automation framework"]].
+    *[[http://code.google.com/p/robotframework/wiki/UserGuide|Google Code Wiki "Robot Framework - A generic test automation framework" - UserGuide]] #.
+  *Wiki [[http://www.github.com/robotframework/RIDE/wiki|GitHub Wiki "robotframework/RIDE"]].
+  *[[http://robotframework.googlecode.com/hg/doc/quickstart/quickstart.html|Google Code "robotframework-seleniumlibrary. A web testing library for Robot Framework" - "Robot Framework Quick Start Guide"]].
+  *The tutorial [[http://www.virtuousprogrammer.com/?p=264| Virtuous Programmer - Adventures of an autodidact "Robot Framework. Test Automation with Robot Framework"]] #.
+=== Resources ===
+  *[[http://www.gojko.net/2009/05/28/robot-framework-review/|Gojko Adzic Building software that matters "Robot Framework review"]].
+  *[[http://blog.codecentric.de/en/2012/01/robot-framework-ide-ride-overview/|codecentric "Thomas Jaspers: Robot Framework IDE (RIDE) – Overview"]].
+  *[[http://en.wikipedia.org/wiki/Robot_Framework|EN.Wikipedia "Robot Framework"]], [[http://de.wikipedia.org/wiki/Robot_Framework|DE.Wikipedia "Robot Framework"]].
+
+==== Some other free Software for Keyword-Driven Testing / Table-Driven Testing / Action Word Based Testing ====
+  *[[http://safsdev.sourceforge.net/|SourceForge "Software Automation Framework Support"]], [[http://www.sourceforge.net/projects/safsdev/|SourceForge "Software Automation Framework Support"]] ( SAFS ) - "A software test automation framework supporting data-driven (aka keyword-driven) functional test automation and associated services".
+    *[[http://safsdev.sourceforge.net/DataDrivenTestAutomationFrameworks.htm|SourceForge "Software Automation Framework Support" - "Test Automation Frameworks"]].
+===== BDD Tests written in Natural Text & Natural Text Parsing =====
+==== Behave ====
+=== JBehave for Java ===
+  *The OpenSource BDD development tool "JBehave" for Java.
+    *[[http://www.jbehave.org/|JBehave]], [[http://www.github.com/jbehave|GitHub "jbehave"]] - no jars :-(.
+    *[[http://www.grepcode.com/project/repo1.maven.org/maven2/org.jbehave/jbehave-core/|GrepCode "org.jbehave / jbehave-core"]] - "JBehave Core contains all the core functionality for running BDD stories".
+      *[[http://www.grepcode.com/snapshot/repo1.maven.org/maven2/org.jbehave/jbehave-core/3.9.5|GrepCode "org.jbehave / jbehave-core / 3.9.5"]] - "jbehave-core-3.9.5.jar", " jbehave-core-3.9.5-sources.jar" :-).
+    *[[http://mvnrepository.com/artifact/org.jbehave|MVNrepository "jbehave"]] - "jbehave-core-3.9.5.jar" :-).
+    *<del>[[http://www.java2s.com/Code/Jar/j/jbehave-core.htm|Java2 "jbehave core < j < Jar File Download"]]</del> - outdated jars :-(.
+    *Tutorial [[http://www.github.com/jbehave/jbehave-tutorial|GitHub "jbehave/jbehave-tutorial"]].
+      *"Behave Selenium Tutorials on the [[http://www.Etsy.com/|Etsy.com]] website".
+    *[[http://www.joecolantonio.com/2013/12/03/jbehave-bdd-how-to-get-started-using-the-eclipse-jbehave-plugin/|Joe Colantonio "JBehave BDD – How to get Started using the Eclipse jBehave Plugin"]] .
+      *To install the Eclipse JBehave Plug-In, select "http://jbehave.org/reference/eclipse/updates/" as address by the Eclipse installation assistant.
+    *[[http://www.stackoverflow.com/questions/20733703/very-simple-step-by-step-jbehave-setup-tutorial|StackOverflow "Very simple step by step JBehave setup tutorial?"]] - Example of a story class and a steps class.
+    *[[http://wiki.umn.edu/UmmCSci3601s10/SettingUpJBehaveInEclipse|University of Minnesota, UMWiki "To set up JBehave in a project in Eclipse"]].
+    *[[http://www.ontestautomation.com/up-and-running-with-jbehave/|On Test Automation "Up and running with: JBehave"]].
+    *[[http://blog.codecentric.de/en/2012/06/jbehave-configuration-tutorial/|Codecentric Blog, Andreas Ebbert-Karroum "JBehave Configuration Tutorial"]].
+=== Behave for .NET ===
+  *The OpenSource BDD development tool [[http://www.specflow.org/|Specflow - Cucumber for .NET]], [[http://www.github.com/techtalk/SpecFlow|GitHub "techtalk/SpecFlow"]] for .NET, Silverlight, Windows Phone, Mono - "Binding business requirements to .NET code".
+    *Wiki [[http://www.github.com/techtalk/SpecFlow/wiki|GitHub Wiki "SpecFlow"]].
+    *[[http://www.linkedin.com/groups?home=&gid=3804529|LinkedIn "SpecFlow: Pragmatic BDD for .NET"]].
+    *[[http://www.twitter.com/specflow|Twitter "SpecFlow, @specflow"]].
+  *The OpenSource BDD development tool [[http://www.nbehave.org/|NBehave]], [[http://code.google.com/p/nbehave/|Google Code "nbBehave"]] for .NET.
+=== Python Behave ===
+  *The OpenSource [[http://pythonhosted.org/behave/|PythonHosted "behave"]],  [[http://github.com/behave/behave|Github "behave / behave"]], [[http://www.github.com/jeamland/behave|Github "jeamland / behave"]] - "A behaviour-driven development, Python style" #.
+    *[[http://pythonhosted.org/behave/comparison.html|PythonHosted "behave - Comparison With Other Tools"]] - Comparison of "Behave", "Cucumber", "Lettuce", "Freshen".
+    *[[http://pythonhosted.org/behave/tutorial.html|PythonHosted "behave Tutorial"]].
+    *[[http://pythonhosted.org/behave/api.html|PythonHosted "behave API reference"]].
+    *[[http://www.github.com/jenisys|Github "jenisys"]].
+      *[[http://jenisys.github.io/behave.example/|GitHub "jenisys" / "behave 1.2.4: Examples and Tutorials"]] #.
+    *Manual installation:
+      *The Python module "Behave" depends on the Python module "parse-type", which depends on "parse".
+        *[[http://pypi.python.org/pypi/parse|Python Package Index "parse"]].
+        *[[http://pypi.python.org/pypi/parse_type|Python Package Index "parse_type"]].
+      *Manual installation: Unpack the downloads in different directories, and open a shell ( Powershell or Command.com on Windows ) in the directories, before executing the commands:
+        -"python setup.py parse".
+        -"python setup.py parse_type".
+        -"python setup.py behave".
+    *[[http://github.com/behave/behave/tree/master/features|GitHub "behave/behave/tree/master/features"]] - Directory of .feature examples.
+    *[[http://github.com/behave/behave/blob/master/docs/parse_builtin_types.rst|GitHub "behave/behave/blob/master/docs/parse_builtin_types.rst"]] - "Predefined Data Types in parse".
+    *[[http://docs.python.org/2/library/re.html|The Python Standard Library / 7. String Services / "7.2. re — Regular expression operations"]].
+    *[[http://github.com/behave/behave/issues/216|GitHub Github "behave / behave" issues, ticket #216]] by Rolf Hemmerling.
+=== Frameworks for writing Matcher Objects ===
+  *[[http://pythonhosted.org/nose/|PythonHosted "nose"]], [[http://www.github.com/nose-devs/|Github "nose-devs"]], [[http://pypi.python.org/pypi/nose|Python Package Index "nose"]], [[http://nose.readthedocs.org/|Read the Docs "nose"]] - "is nicer testing for python".
+    *[[http://nose.readthedocs.org/en/latest/testing_tools.html|Read the Docs "nose documentation / Testing with nose / -Testing tools"]].
+  *[[http://pythonhosted.org/compare/|PythonHosted "compare"]], [[http://www.github.com/rudylattae/compare|Github "rudylattae / compare"]], [[http://pypi.python.org/pypi/compare|Python Package Index "compare"]] - "Alternative syntax for comparing/asserting expressions in Python. Supports pluggable matchers for custom comparisons".
+  *<del>[[http://pythonhosted.org/describe|PythonHosted "describe"]]</del>, [[http://pypi.python.org/pypi/describe|Python Package Index "describe"]] - "An experimental behavioral framework inspired from rspec".
+  *[[http://www.hamcrest.org/|Hamcrest]], [[http://code.google.com/p/hamcrest/|Google Code "Hamcrest - library of matchers for building test expressions"]], [[http://www.github.com/hamcrest|GitHub "hamcrest"]], [[http://pythonhosted.org/PyHamcrest|PythonHosted "PyHamcrest"]], [[http://pypi.python.org/pypi/PyHamcrest|Python Package Index "PyHamcrest"]].
+    *[[http://code.google.com/p/hamcrest/wiki/Tutorial|Google Code "Hamcrest - library of matchers for building test expressions / Hamcrest Tutorial"]].
+    *[[http://code.google.com/p/hamcrest/wiki/TutorialPython|Google Code "Hamcrest - library of matchers for building test expressions / PyHamcrest Tutorial"]].
+    *[[http://pyhamcrest.readthedocs.org/|Read the Docs "PyHamcrest documentation"]], [[http://www.readthedocs.org/projects/pyhamcrest/|Read the Docs "PyHamcrest"]]. 
+    *"PyHamcrest" can´t be updated by well-known automatic installation processes, on Python 2.7 even after a proper installation of the Python package "behave". An installation attempt by "easy_install pyhamcrest" is aborted due to syntax errors in downloaded Python files and other faults :-(. Is "PyHamcrest" just for Python 3.x or also still for Python 2.x ?!
+  *[[http://www.should-dsl.info/|Should-DSL]], [[http://pythonhosted.org/should_dsl/|PythonHosted "should_dsl"]], [[http://www.github.com/hugobr/should-dsl/|Github "hugobr/should-dsl"]], [[http://pypi.python.org/pypi/should_dsl/|Python Package Index "should_dsl"]] - "Should assertions in Python as clear and readable as possible".
+
+==== Concordion ====
+  *The OpenSource [[http://concordion.org/|Concordion]] - "A tool for writing automated acceptance tests in Java".
+    *[[http://concordion.org/Ports.html|Concordion - Non-Java Versions]].
+      *[[http://code.google.com/p/pyconcordion/|Google Code "pyconcordion. Concordion Python Port (write concordion like html files, python fixtures and run it !)"]].
+      *[[http://code.google.com/p/concordion-net/|Google Code "concordion-net. A .NET port of the acceptance testing framework"]].
+==== Cucumber, a Ruby Tool ====
+  *The OpenSource [[http://www.cukes.info/|Cucumber - behaviour driven development with elegance and joy]], for Ruby.
+    *[[http://www.github.com/cucumber|Github "Cucumber"]].
+    *[[http://en.wikipedia.org/wiki/Cucumber_%28software%29|EN.Wikipedia "Cucumber (software)"]].
+==== Behaviour Driven Development for Javascript ====
+=== Chai ===
+  *[[http://chaijs.com/|Chai]] - "A BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework".
+=== Pure Javascript Cucumber ===
+  *[[http://www.github.com/cucumber/cucumber-js|Github " cucumber/cucumber-js - Pure Javascript Cucumber"]].
+=== Jasmine ===
+   *[[http://pivotal.github.io/jasmine/|Jasmine]] - "A behavior-driven development framework for testing JavaScript code". 
+     *[[http://en.wikipedia.org/wiki/Jasmine_%28JavaScript_framework%29|EN.Wikipedia "Jasmine (JavaScript framework)"]].
+   *[[http://www.github.com/mhevery/jasmine-node|Github "mhevery/jasmine-node"]].
+   *[[http://www.github.com/gruntjs/grunt-contrib-jasmine|Github "grunt-contrib-jasmine"]].
+   *Paper magazine article [[http://www.heise.de/ix/inhalt/2013/8/134/|Sag’s durch die Blume – Behavior-Driven Development mit Jasmine]] in [[http://www.heise.de/ix/|iX]], issue 8/2013.
+     *Blog article [[http://blog.holisticon.de/category/publikation/| Blogisticon - Das Holisticon-Blog, "Sag’s durch die Blume – Behavior-Driven Development mit Jasmine"]].
+     *[[http://github.com/simonox/Jasmine-Bar-Example|Github " simonox/Jasmine-Bar-Example"]] - The code related to the article in the paper magazine.
+   *[[http://www.github.com/ibolmo/jasmine-jstd-adapter|Github "ibolmo/jasmine-jstd-adapter"]] for [[http://code.google.com/p/js-test-driver/|Google Code "js-test-driver - Remote javascript console"]].
+
+==== Pester - BDD Framework for Windows PowerShell ====
+=== The Tool ===
+  *[[http://www.github.com/pester/Pester|GitHub "pester/Pester"]] - "Powershell BDD style testing framework".
+=== Resources ===
+  *[[http://www.simple-talk.com/sysadmin/powershell/|Simple-Talk. A technical journal and community hub from Redgate]].
+    *[[http://www.simple-talk.com/sysadmin/powershell/practical-powershell-unit-testing-getting-started/|Simple-Talk. A technical journal and community hub from Redgate "Practical PowerShell Unit-Testing: Getting Started"]].
+    *[[http://www.simple-talk.com/sysadmin/powershell/practical-powershell-unit-testing-mock-objects/|Simple-Talk. A technical journal and community hub from Redgate "Practical PowerShell Unit-Testing: Mock Objects"]].
+  *[[http://www.davidcheal.info/unit-testing-powershell/|David Cheal "Unit testing powershell"]].
+  *Johan Leino.
+    *[[http://johanleino.wordpress.com/2013/09/13/pester-unit-testing-for-powershell/|Johan Leino "Pester: Unit Testing for PowerShell"]].
+    *[[http://johanleino.wordpress.com/2013/09/25/pester-how-to-unit-test-your-powershell-modules/|Johan Leino "Pester: How to unit test your PowerShell modules"]].
+  *[[http://www.powershellmagazine.com/2014/03/12/get-started-with-pester-powershell-unit-testing-framework/|PowerShell Magazine "Get started with Pester (PowerShell unit testing framework)"]].
+  *[[http://www.stackoverflow.com/questions/tagged/pester|StackOverflow Tagged Questions "pester"]].
+    *[[http://www.stackoverflow.com/questions/940497/how-to-do-tdd-and-unit-testing-in-powershell|StackOverflow "How to do TDD and unit testing in powershell?"]].
+  *Matt Wrock.
+    *[[http://www.mattwrock.com/post/2012/11/15/Unit-Testing-Powershell-and-Hello-Pester.aspx|Matt Wrock's Software Development Blog "Unit Testing Powershell and Hello Pester"]].
+    *[[http://www.slideshare.net/mwrockx/unit-testing-powershell|Slideshare - Matt Wrock "Unit testing powershell"]] - Comparison of Pester, PSTest, PSUnit.
+==== Some other BDD Tools for Python ====
+=== Cucumber for Python ===
+  *[[http://www.github.com/cucumber/cucumber/tree/master/examples/python|Github "cucumber/cucumber", "cucumber / examples / python"]].
+  *[[http://www.github.com/cucumber/cucumber/wiki/Python|Github Wiki "cucumber/cucumber" - "Python"]].
+  *[[http://rubypython.rubyforge.org/|RubyForge "rubypython"]], [[http://rubyforge.org/projects/rubypython|RubyForge "rubypython"]].
+=== Freshen ===
+  *The OpenSource [[http://github.com/rlisagor/freshen|Github "rlisagor/freshen"]] - "Clone of the Cucumber BDD framework for Python". A plugin for [[http://nose.readthedocs.org/|nose - is nicer testing for python]].
+=== Lettuce ===
+  *The OpenSource   *[[http://www.lettuce.it/|Gabriel Falcão G. de Moura "Lettuce"]], [[http://github.com/gabrielfalcao/lettuce/|Github "gabrielfalcao / lettuce"]] - "A BDD tool for python, 100% inspired on cucumber".
+  *Important item to deal with and to communicate with are "world", "context", "step".
+=== Pyccuracy ===
+  *The OpenSource [[http://www.github.com/heynemann/pyccuracy|Github "heynemann / pyccuracy"]] - "A Behaviour-Driven-Development-style tool written in Python that aims to make it easier to write automated acceptance tests. It improves the readability of those tests by using a structured natural language – and a simple mechanism to extend this language – so that both developers and customers can collaborate and understand what the tests do".
+=== pytest-bdd ===
+  *[[http://pypi.python.org/pypi/pytest-bdd/|Python Package Index "pytest-bdd"]] - "BDD library for the py.test runner", "ytest-bdd implements a subset of Gherkin language for the automation of the project requirements testing and easier behavioral driven development. Unlike many other BDD tools it doesn't require a separate runner and benefits from the power and flexibility of the pytest. It allows to unify your unit and functional tests, easier continuous integration server configuration and maximal reuse of the tests setup".
+  *[[http://www.github.com/olegpidsadnyi/pytest-bdd|GitHub " olegpidsadnyi / pytest-bdd"]].
+==== Resources ====
+  *By the use of regular expressions, You may parameterize BBD script snippets, to help the reuse and recall of the same code, by several sentences.
+  *Functional process testing with JBehave and Camunda BPM:
+    *Event "Test-driven business process modeling with camunda BPM" by users of [[http://www.camunda.org/|camunda BPM platform]], by [[http://www.holisticon.de/|Holisticon AG]] and [[http://www.camunda.org/|camunda services GmbH]] in Hamburg, Germany ( 2013-11-26 ).
+    *[[http://www.holisticon.de/2013/11/testgetriebene-geschaeftsprozessmodellierung-mit-camunda-bpm/|Holisticon AG Blog "Testgetriebene Geschäftsprozessmodellierung mit camunda BPM"]].
+    *[[http://github.com/camunda/camunda-bpm-testing|Github "camunda / camunda-bpm-testing"]].
+    *[[http://github.com/camunda/camunda-bpm-testing/camunda-bpm-jbehave|Github "camunda / camunda-bpm-testing / camunda-bpm-jbehave"]].  
+  *Speech "BDD in Python" by Gabriel Jacobsohn, [[http://www.twitter.com/g_jacobsohn|Twitter "Gabriel Jacobsohn"]], [[http://github.com/GJacobsohn/bdd_vortrag|GitHub "GJacobsohn"]], [[http://www.stackoverflow.com/users/2561258/gabriel-jacobsohn|Stack Overflow "Gabriel Jacobsohn"]] on the regional meeting of [[http://www.meetup.com/Python-User-Group-Hamburg/|Python User Group Hamburg]] ( 2014-02-04 ).
+    *[[http://github.com/GJacobsohn/bdd_vortrag|GitHub "GJacobsohn/bdd_vortrag"]].
+
+
+===== Serverspec - RSpec Tests for Server Configurations =====
+  *[[http://www.serverspec.org/|Serverspec - RSpec tests for your servers configured by Puppet, Chef or anything else]] - "With Serverspec, you can write RSpec tests for checking your servers are configured correctly. Serverspec tests your servers' actual state by executing command locally, via SSH, via WinRM, via Docker API and so on. So you don't need to install any agent softwares on your servers and can use any configuration management tools, Puppet, Chef, CFEngine and so on. But the true aim of Serverspec is to help refactoring infrastructure code".
+  *[[http://www.github.com/serverspec/|GitHub "serverspec"]] - "RSpec tests for your servers configured by Puppet, Chef or anything else even by hand".
+===== Textual Modeling with Domain Specific Languages =====
+==== ANother Tool for Language Recognition ( ANTLR ) ====
+  *[[http://www.antlr.org/|ANTLR.org]].
+  *[[http://www.antlr2.org/|ANTLRv2 by Terence Parr]].
+  *[[http://en.wikipedia.org/wiki/ANTLR|EN.Wikipedia "ANTLR"]], [[http://de.wikipedia.org/wiki/ANTLR|DE.Wikipedia "ANTLR"]].
+==== EMFText vs. Xtext ====
+=== EMFText ===
+  *[[http://www.eclipse.org/emf|Eclipse EMF]].
+  *[[http://www.emftext.org/|EMFText]].
+    *"An Eclipse plug-in that allows you to define text syntax for languages described by an Ecore metamodel".
+    *"You'd like to quickly create Domain-specific Languages?".
+    *"You'd like to model the same way you program?".
+    *"You are tired of awful UML tools?".
+    *[[http://www.emftext.org/index.php/EMFText_Concrete_Syntax_Zoo|EMFText - EMF Syntax Zoo]].
+  *[[http://www.emftext.org/index.php/OWLText|OWLText]].
+  *The OpenSource Eclipse plugin [[http://jamopp.inf.tu-dresden.de/|JaMoPP - Java Model Parser and Printer]] for automated refactoring of Java source code by [[http://www.devboost.de/|DevBoost]], based on [[http://www.emftext.org/|EMFText]].
+  *[[http://www.xing.com/profile/Jendrik_Johannes|XING "Jendrik Johannes"]], [[http://www.devboost.de/|DevBoost]].
+=== Xtext ===
+  *[[http://www.eclipse.org/modeling/tmf/|Eclipse Textual Modeling Framework]].
+    *[[http://www.eclipse.org/Xtext/|Eclipse "XText"]] - "Language Development Framework". "With Xtext you can easily create your own programming languages and domain-specific languages (DSLs)".
+    *[[http://www.eclipse.org/Xtext/community/|Eclipse Xtext Community]] - Xtext projects.
+    *Webinar [[http://live.eclipse.org/node/886|Sven Efftinge, Jan Koehnlein "Xtext - A Language Development Framework"]].
+    *Webinar [[http://live.eclipse.org/node/705|Sven Efftinge, Heiko Behrens "Xtext: Developing Domain Specific Languages"]].
+  *[[http://vimeo.com/user2817486|vimeo "Xtext Team"]].
+    *[[http://vimeo.com/user2817486/videos/|vimeo "Xtext Team", Videos]].
+      *[[http://vimeo.com/8260921|vimeo "Xtext Team", Video "Xtext in less than a minute"]].
+  *[[http://en.wikipedia.org/wiki/Xtext|EN.Wikipedia "Xtext"]], [[http://de.wikipedia.org/wiki/Xtext|DE.Wikipedia "Xtext"]].
+  *[[http://xtext.itemis.com/|itemis AG "XText"]].
+  *[[http://www.openarchitectureware.org/pub/documentation/4.3.1/html/contents/index.html|openArchitectureWare User Guide]].
+    *[[http://www.openarchitectureware.org/pub/documentation/4.3.1/html/contents/xtext_tutorial.html|openArchitectureWare "Xtext Tutorial"]].
+  *By appropriate modeling, Xtext can ask [[http://www.graphviz.org/|Graphviz]] to plot diagrams ( e.g. UML diagrams ) for use in external documents.
+  *Blog [[http://kthoms.wordpress.com/|Karsten Thoms]] - Xtext user.
+  *Blog [[http://blogs.itemis.de/stundzig/|Steffen Stundzig]] - Xtext user.
+  *Blog [[http://blog.efftinge.de/|Sven Efftinge]] - Xtext developer.
+=== Resources ===
+  *[[http://www.mail-archive.com/emftext-users@mail-st.inf.tu-dresden.de/msg00354.html|Mailing List "EMFText-Users", Thread "Comparing EMFText with XText"]].
+==== Gellish ====
+  *[[http://en.wikipedia.org/wiki/Gellish|EN.Wikipedia "Gellish"]].
+  *[[http://en.wikipedia.org/wiki/Gellish_English|EN.Wikipedia "Gellish English"]].
+==== Unix / GNU / Linux Tools ====
+  *[[http://en.wikipedia.org/wiki/Awk|EN.Wikipedia "awk"]], [[http://de.wikipedia.org/wiki/Awk|DE.Wikipedia "awk"]].
+  *[[http://en.wikipedia.org/wiki/GNU_bison|EN.Wikipedia "GNU bison"]], [[http://de.wikipedia.org/wiki/GNU_Bison|DE.Wikipedia "GNU Bison"]].
+  *[[http://en.wikipedia.org/wiki/Lex_%28software%29|EN.Wikipedia "lex (software)"]], [[http://de.wikipedia.org/wiki/Lex_%28Informatik%29|DE.Wikipedia "Lex (Informatik)"]].
+  *[[http://en.wikipedia.org/wiki/Yacc|EN.Wikipedia "yacc"]], [[http://de.wikipedia.org/wiki/Yacc|DE.Wikipedia "Yacc"]].
+==== Some other Tools ====
+  *The free [[http://www.jflap.org/|JFLAP]] - "Software for experimenting with formal languages topics".
+  *The commercial [[http://open.xerox.com/Services/fst-nlp-tools|Open Xerox "Xerox Finite State Technology Tools for Natural Language Processing"]] - "xfst, twolc, and lexc".
+    *[[http://www.ehow.com/list_7699295_xerox-finite-state-tools.html|eHow "Xerox Finite State Tools"]].
+
+===== Some other free Software for Acceptance Tests =====
+  *PyUseCase / TextTest / StoryText, in Python.
+    *The successor [[http://pyusecase.sourceforge.net/|SourceForge "StoryText"]], [[http://www.sourceforge.net/projects/pyusecase|SourceForge "StoryText"]] ( formerly: "PyUseCase" ).
+    *The successor [[http://www.texttest.org/|TextTest]], [[http://texttest.carmen.se/index.php|TextTest]], [[http://texttest.sourceforge.net/|SourceForge "TextTest"]], [[http://www.sourceforge.net/projects/texttest|SourceForge "TextTest"]] ( formerly: "PyUseCase" ).
+    *[[http://www.facebook.com/people/Geoff-Bache/846735561|Facebook "Geoff Bache"]].
+    *[[http://emilybache.blogspot.de/2009/12/pyusecase-30.html|Emily Bache - coding is like cooking "PyUseCase 3.0"]], 2009-12-16.
+  *The OpenSource [[http://www.specflow.org/|SpecFlow - Pragmatic BDD for .NET]], [[http://github.com/techtalk/SpecFlow/|Github "techtalk / SpecFlow"]] for Windows with .NET.
+    *"SpecFlow aims at bridging the communication gap between domain experts and developers by binding business readable behavior specifications and examples to the underlying implementation".
+    *"Our mission is to provide a pragmatic and frictionless approach to Specification-By-Example for .NET projects".
+    *"SpecFlow also supports the concepts of Acceptance Test Driven Development (ATDD) and Behavior Driven Development (BDD), which are often used synonymously with Specification-By-Example".
+===== Commercial Software =====
+  *The commercial [[http://www.greenpeppersoftware.com/|Green Pepper]] for Java and .NET 2.0. Works together with Visual Studio, MS Build and Atlassian tools.
+    *Blog [[http://www.greenpeppersoftware.com/confluence/display/GPW/Blog|Green Popper Blog]].
+  *The commercial [[http://www.thoughtworks-studios.com/twist-agile-testing|Thoughtworks Studios "Twist"]] for Java and for Groovy.
+    *Blog [[http://www.thoughtworks-studios.com/blog/|Thoughtworks Studios Blog]].
+  *The commercial [[http://www.imbus.de/imbus-testbench/|imbus TestBench]] for Windows -> Keyword-driven testing / table-driven testing / action word based testing.
+===== Commercial Online Services =====
+  *The commercial online service [[http://www.relishapp.com/|Relish]] - "Living documentation. Combine your product's documentation with cucumber tests. Publish, browse, search & share on Relishapp…".
+===== Literature =====
+==== Literature - Specification by Example ====
+=== Books ===
+  *[[http://www.gojko.net/|Gojko Adzic - Building software that matters]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1617290084/hemmerling-21|Gojko Adzic "Specification by Example: How Successful Teams Deliver the Right Software"]].
+      *The companion website [[http://www.specificationbyexample.com/|Specification by Example. How successful teams deliver the right software]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0955683610/hemmerling-21|Gojko Adzic "Bridging the Communication Gap: Specification by Example and Agile Acceptance Testing"]].
+=== Resources for the Book "Specification by Example" ===
+== Mindmap ==
+  *[[http://www.mindmup.com/map/a1b2387ec05a47013068f212313d02fc44|MindMup "Gojko Adzic 'Specification by Example: How Successful Teams Deliver the Right Software'" by Rolf Hemmerling]].
+== Chapter 2 - Key Process Patterns ==
+  *The video [[http://www.gojko.net/2009/12/10/challenging-requirements/|Gojko Adzic - Blog article "Challenging requirements"]].
+  *[[http://www.developsense.com/blog/2009/08/testing-vs-checking|Michael Bolton, DevelopSense "Blog: Testing vs. Checking"]].
+== Chapter 3 - Living Documentation ==
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0071483004/hemmerling-21|Caper Jones "Estimating Software Costs: Bringing Realism to Estimating"]].
+== Chapter 4 - Initiating the Changes ==
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0932633730/hemmerling-21|Donald C. Gause, Gerald M. Weinberg "Exploring Requirements"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0984521402/hemmerling-21|David J. Anderson, Donald G Reinertsen "Kanban: Successful Evolutionary Change for Your Technology Business"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0596527675/hemmerling-21|Jim Shore, Shane Warden "The Art of Agile Development"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0321480961/hemmerling-21|Craig Larman, Bas Vodde "Scaling Lean and Agile Development: Thinking and Organizational Tools for Large-Scale Scrum"]].
+  *[[http://www.gojko.net/2009/12/07/improving-testing-practices-at-google/|Gojko Adzic - Blog article "Improving testing practices at Google"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0321437381/hemmerling-21|Mary Poppendieck, Tom Poppendieck "Implementing Lean Software Development: From Concept to Cash"]].
+  *Opinion by Gojko Adzic: "Many people I met at conferences misunderstand and think that incrementally building up a documentation system means oging back to the Waterfall ideas of big up-front analysis. During the presentation '[[http://skillsmatter.com/podcast/java-jee/how-to-sell-bdd-to-the-business|How to Sell BDD to the business]]' in November 2009, Dan North said that **BDD is effectively V-Model compressedinto two weeks**" :-).
+== Chapter 5 - Deriving Scope from Goals ==
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/059652269X/hemmerling-21|Richard Monson-Haefel "97 Things Every Software Architect Should Know"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0201835959/hemmerling-21|Frederick P. Brooks "The Mythical Man-Month. Essays on Software Engineering"]].
+  *Suggestion by Gojko Adzic: "**Instead of trying to collaborate with business users on specifying how to put things into the system, we should start with examples of output**".
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0131407287/hemmerling-21|Mark Denne, Jane Cleland-Huang "Software by Numbers: Low-Risk, High-Return Development"]].
+  *[[http://www.featureteams.org/|Feature Teams]] - Article "Craig Larman and Bas Vodde 'Feature Team Primer'" (PDF)).
+  *Chris Matts.
+    *The once-free PDF book [[http://web.archive.org/web/*/http://www.lulu.com/product/file-download/real-options-at-agile-2009/5949486|Archive.org "Chris Matts: Real Options at Agile 2009"]].
+      *<del>[[http://www.lulu.com/items/volume_66/7362000/7362946/3/print/lulu_word_comic_vFinal.pdf|lulu_word_comic_vFinal.pdf]]</del> ). 
+      *I am still looking for a free PDF copy of the book. Please [[imprint.html|contact]] me, if you have a freely downloaded item and if you are willing to share it with me, for free.
+    *The free PDF book with Comics [[http://www.lulu.com/shop/chris-matts/real-options-at-agile-2009/ebook/product-17416200.html|Chris Matts "Agile2010 Nashville. Gaylord Opryland Resort"]] ( The PDF book <del>"Real Options at Agile 2009"</del> is not available for (free) download at this site ) -> "Feature Injection and Test Driven Requirements".
+    *[[http://plus.google.com/photos/114018111444998101092/albums/5200724408647746241|Google + "Chris Matts - Album "Feature Injection"]].
+    *[[http://finance.groups.yahoo.com/group/real_options_discussion/|Yahoo Groups "real_options_discussion · Real Options"]].
+    *Blog [[http://theitriskmanager.wordpress.com/|Chris Matts - Blog "The IT Risk Manager ...based on practice rather than theory"]].
+    *Blog [[http://www.decision-coach.com/lean-and-real-options/|Real options bloggers ( Olav Maassen, Chris Matts )]].
+      *Blog  article[[http://www.decision-coach.com/lean-and-real-options/|Real options bloggers ( Olav Maassen, Chris Matts ) "Lean and real options"]].
+    *[[http://twitter.com/PapaChrisMatts|Twitter "Chris Matts"]].
+    *[[http://www.infoq.com/articles/real-options-enhance-agility|InfoQ "'Real Options' Underlie Agile Practices"]].
+    *[[http://c2.com/cgi/wiki?ChrisMatts|C2 "Chris Matts"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/8763001764/hemmerling-21|Ingrid Ottersten, Mijo Balic, Peter Corrigan "Effect Managing IT"]].
+  *[[http://www.gojko.net/effect-map/|Gojko Adzic - Blog article "Impact Mapping"]].
+  *[[http://www.agileproductdesign.com/|Jeff Patton, AgileProductDesign]].
+== Chapter 6 - Specifying collaboratively ==
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0321636406/hemmerling-21|Craig Larman, Bas Vodde "Practices for Scaling Lean and Agile Development: Large, Multisite, and Offshore Product Development with Large-Scale Scrum"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0321534468/hemmerling-21|Lisa Crispin, Janet Gregory "Agile Testing: A Practical Guide for Testers and Agile Teams"]].
+  *Suggestion by Gojko Adzic: "**Implementing Specification workshops into Product Backlog Refinement ( PBR ) workshops**".
+    *[[http://blogs.collab.net/agile/the-backlog-refinement-meeting-or-backlog-grooming|CollabNet, Michael James "The Backlog Refinement Meeting (or Backlog Grooming)"]].
+== Chapter 7 - Illustrating using Examples ==
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0932633730/hemmerling-21|Donald C. Gause, Gerald M. Weinberg "Exploring Requirements"]].
+  *[[http://www.gojko.net/2009/05/12/examples-make-it-easy-to-spot-inconsistencies/|Gojko Adzic: "Examples make it easy to spot inconsistencies"]].
+  *Suggestion by Gojko Adzic: "**Feedback Exercises**".
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0321125215/hemmerling-21|Eric J. Evans: "Domain-Driven Design: Tackling Complexity in the Heart of Software"]].
+  *[[http://www.balsamiq.com/|Balsamiq]].
+    *Blogs [[http://www.balsamiq.com/blogs|Balsamiq Blogs]].
+    *The commercial [[http://www.balsamiq.com/products/mockups|Balsamiq Mockups]] for Windows, Linux, MacOSX.
+    *The commercial online service [[http://www.balsamiq.com/products/mockups/mybalsamiq|Balsamiq myBalsamiq]] - "The best way to do remote, collaborative UX Design".
+  *The QUPER model by Björn Regnell.
+    *The Video [[http://www.oredev.org/videos/supporting-roadmapping-of-quality-requirements|Björn Regnell "2009 Session: Supporting Roadmapping of Quality Requirements"]] - Product benefits curve:
+      -Utility.
+      -Diffentiation.
+      -Saturation.
+    *[[http://gojko.net/2009/11/04/quper-model-for-better-requirements/|Gojko Adzic - Blog article "QUPER model for better requirements"]].
+  *[[http://www.gojko.net/2010/05/19/agile-in-a-start-up-games-development-studio/|Gojko Adzic - Blog article "Agile in a Start-up Games Development Studio"]].
+  *Opinion by Gojko Adzic: 
+    *"Specifications with examples are acceptance tests".
+    *"Scripts are not specifications" :-(.
+      *"**A script explains how something can be tested**.  It describes business functionality through lower-level interactions with the system. A script requires the reader to work back from the actions and understand what's really important. Scripts also bake the test into workflow and session constrains, which migh changein the future even when the underlaying". business rules don´t change.
+      *"**A specification explains what the system does**. It focusses on the business functionality in the most direct way possible. Specifications are shorter because because they describe buiness concepts directly. That makes them easier to read and understand than scripts".
+== Chapter 8 - Refining the Specification ==
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0321269349/hemmerling-21|Rick Mugridge, Ward Cunningham: "Fit for Developing Software: Framework for Integrated Tests"]].
+  *Suggestion by Gojko Adzic: "**Specification should be in the domain language**" -> BDD.
+== Chapter 9 - Automating Validation without changing Specifications ==
+  *Suggestion by Gojko Adzic: "**Avoid automating existing manual test scripts**".
+  *Suggestion by Gojko Adzic: "**Don't check business logic though the user interface**."Traditional test automation tools mostly work by manipulating user interface objects. **Most automation tools for exeutable specifications can go below the user interface and talk to application programming interfaces directly** ( API ) .
+  *Suggestion by Gojko Adzic: "**Automate below the skin of the application**. Workflow and session rules can often be checked only against the user interface layer. But that doesn´t mean that the only option to automate those checks is to launch a browser.** Instead of automating the specifications through a browser**, several teams developing web applications saved a lot of time and effort **going right below the skin of the application - to the HTTP layer**".
+  *Web Automation by direct HTTP automation:
+    *[[http://twill.idyll.org/|twill: a simple scripting language for Web browsing]] - "twill supports automated Web testing and has a simple Python interface".
+    *[[http://www.github.com/brynary/webrat|WebRat]] - "Webrat - Ruby Acceptance Testing for Web applications".
+    *[[http://code.google.com/p/selenium/wiki/HtmlUnitDriver|Selenium Browser automation framework, HtmlUnitDriver]].
+  *Gojko Adzic suggests: "**Specify user interface functionality at a higher level of abstraction**".
+    *Gojko Adzic discovered: "Automating user interfaces. Almost all the teams I interviewed made the same mistake early on. They specified tests intended to be automated though user interface as series of technical tips, often directly writing user interface automation commands in their specification" :-(.
+    *Pierre Veragen realized "**User interface tests were task oriented ( click, point )** and therefore rightly coupled to the implementation of the GUI, **rather thant activity oriented**.... FitNesse tests wre organized according to the way UI was set up".
+      *"When the UI was updated, all these tests had to be updated...".
+      *"A small change to the GUI, adding a ribbon control, broke everything. There was no way we could update the tests".
+    *Lance Walton explains:
+      *"The next stage was to understand that the workflow still had to do with the solution we designed, so actully let's forget about workflow and focus on what the user is trying to achieve".
+      *"So we had pages that contained the details, then we had the task level above that, and then we finally had the goal that the user is trying to achieve".
+    *Gojko Adzic suggests: “**Avoid recorded UI tests**", "Many traditional test automation tools offer record-and-replay user interface automation", "This is one of the areas where automation of executable specifications is quite different than traditional automatied regression testing".
+    *Gojko Adzic defines "**Three level of user interface automation**".
+      -**Technical activity level - What are the technical steps required to exercise individual workflow steps ?**
+        *For example: Open the shop home page, log in with "test user" and "testpassword", got to the "/book" page, click the first image with the "book" CSS-class, wait for the page to load, click the Buy Now link, and so on.
+      -**User workflow level - How can a user exercise the functionality through the UI, on a higher activity level ?** 
+        *For example: Put two books in a shoppoing cart, enter address details and verify that delivery options include free delivery.
+        *The automation layer should handle the workflow level by combining blocks composed at the technicial activity level.
+      -**Business rule level - What is the test demonstrating or exercising ?**
+        *For example: Free delivery is offered to customers who order two or more books". Specifications should be described at the business rule level.      
+  *[[http://www.gojko.net/2010/04-13/how-to-implement-ui-testing-without-shooting-yourself-in-the-foot-2|Gojko Adzic - Blog article "How to implement UI testing without shooting yourself in the foot"]].
+== Chapter 10 - Validating frequently ==
+  *[[http://en.wikipedia.org/wiki/Continuous_integration|EN.Wikipedia "Continuous integration"]], [[http://de.wikipedia.org/wiki/Kontinuierliche_Integration|DE.Wikipedia "Kontinuierliche Integration"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0321503627/hemmerling-21|Steve Freeman, Nat Pryce: "Growing Object-Oriented Software, Guided by Tests"]].
+== Some other Articles ==
+  *[[http://testerhemal.wordpress.com/2009/08/15/how-we-build-quality-software/|Hemal Kuntawala "How we build quality software"]].
+  *[[http://gojko.net/2010/03/01/are-tools-necessary-for-acceptance-testing-or-are-they-just-evil/|Gojko Adzic - Blog article "Are tools necessary for acceptance testing, or are they just evil?"]].
+  *[[http://gojko.net/2009/12/08/shock-therapy-agile-adoption-at-7digital/|Gojko Adzic - Blog article "Shock therapy agile adoption at 7Digital"]].
+  *[[http://www.developsense.com/|Michael Bolton, DevelopSense]].
+    *[[http://www.developsense.com/blog/2010/08/acceptance-tests-lets-change-the-title-too/|Michael Bolton, DevelopSense "Blog: Acceptance Tests: Let’s Change the Title, Too"]].
+  *[[http://alistair.cockburn.us/|Alistair Cockburn]].
+    *[[http://alistair.cockburn.us/Sacrifice+one+person+strategy|Alistair Cockburn "Sacrifice one person strategy"]].
+  *[[http://code.google.com/p/robotframework/wiki/ATDDWithRobotFrameworkArticle|Craig Larman, Bas Vodde  "Acceptance Test-Driven Development with Robot Framework"]].
+  *[[http://www.dannorth.net/2011/01/31/whose-domain-is-it-anyway/|Dan North "Whose domain is it anyway?"]].
+  *[[http://www.jamesshore.com/|James Shore, The Art of Agile]].
+    *[[http://www.jamesshore.com/Blog/Alternatives-to-Acceptance-Testing.html|James Shore, The Art of Agile "Alternatives to Acceptance Testing"]].
+    *[[http://www.jamesshore.com/Blog/The-Problems-With-Acceptance-Testing.html|James Shore, The Art of Agile "The Problems With Acceptance Testing"]].
+  *[[http://www.casualmiracles.com/2010/03/04/writing-maintainable-acceptance-tests/|Lance Walton, Casual Miracles "Writing Maintainable Acceptance Tests"]].
+==== Literature - Acceptance Test-Driven Development ( ATDD ) ====
+  *[[http://www.shino.de/|Markus Gärtner - Software Testing, Craftsmanship, Leadership and beyond]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0321784154/hemmerling-21|Markus Gärtner "ATDD by Example: A Practical Guide to Acceptance Test-driven Development"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3864900468/hemmerling-21|Markus Gärtner "ATDD in der Praxis: Eine praktische Einführung in die Akzeptanztest-getriebene Softwareentwicklung mit Cucumber, Selenium und FitNesse"]].
+    *[[http://www.dpunkt.de/buecher/4101/atdd-in-der-praxis.html|dpunkt.verlag GmbH "Markus Gärtner: ATDD in der Praxis"]].
+==== Literature - Behaviour Driven Development ( BDD ) ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1934356808/hemmerling-21|Matt Wynne, Aslak Hellesoy: "The Cucumber Book: Behaviour-Driven Development for Testers and Developers"]].
+    *[[http://www.aslakhellesoy.com/|Aslak Hellesoy]].
+    *Blog [[http://blog.mattwynne.net/|Matt Wynne "Tea-Driven Development. Matt Wynne taking it one tea at a time"]].
+    *[[http://www.pragprog.com/book/hwcuc/the-cucumber-book|The Pragmatic Bookshelf "Matt Wynne, Aslak Hellesoy: The Cucumber Book: Behaviour-Driven Development for Testers and Developers"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1937785017/hemmerling-21|Ian Dees, Matt Wynne, Aslak Hellesoy: "Cucumber Recipes: Automate Anything with BDD Tools and Techniques"]].
+    *[[http://pragprog.com/book/dhwcr/cucumber-recipes|The Pragmatic Bookshelf "Ian Dees, Matt Wynne, Aslak Hellesoy: Cucumber Recipes: Automate Anything with BDD Tools and Techniques"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1934356379/hemmerling-21|David Chelimsky, Dave Astels, Bryan Helmkamp, Dan North, Zach Dennis, Aslak Hellesoy: "The RSpec Book: Behaviour Driven Development with RSpec, Cucumber, and Friends"]].
+    *[[http://pragprog.com/book/achbd/the-rspec-book|The Pragmatic Bookshelf "David Chelimsky, Dave Astels, Bryan Helmkamp, Dan North, Zach Dennis, Aslak Hellesoy: The RSpec Book: Behaviour Driven Development with RSpec, Cucumber, and Friends"]].
+==== Literature - Domain-Driven Design ( DDD ) ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1411609255/hemmerling-21|Abel Avram, Floyd Marinescu: "Domain-Driven Design Quickly"]].
+    *Free PDF download of the book [[http://www.infoq.com/minibooks/domain-driven-design-quickly|InfoQ "Domain Driven Design Quickly"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0321125215/hemmerling-21|Eric J. Evans: "Domain-Driven Design: Tackling Complexity in the Heart of Software"]] #.
+    *Video [[http://www.youtube.com/watch?v=lE6Hxz4yomA|YouTube "Eric Evans: What I've learned about DDD since the book"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1934356441/hemmerling-21|Dan Haywood: "Domain-Driven Design Using Naked Objects"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0321268202/hemmerling-21|Jimmy Nilsson: "Applying Domain-Driven Design and Patterns: With Examples in C# and .NET"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0321834577/hemmerling-21|Vaughn Vernon: "Implementing Domain-Driven Design"]].
+    *[[http://www.vaughnvernon.co/|Vaughn Vernon: Architecture and Domain-Driven Design]].
+==== Literature FIT & Fitnesse ====
+  *[[http://www.gojko.net/|Gojko Adzic - Building software that matters]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0955683602/hemmerling-21|Gojko Adzic: "Test Driven .Net Development with Fitnesse"]].
+      *The companion website [[http://www.gojko.net/fitnesse/|Gojko Adzic - Building software that matters "Test Driven .NET Development with FitNesse: Second Edition"]] with a free HTML online and free PDF edition of the book.
+      *The free online HTML edition [[http://gojko.net/FitNesse/book/|Gojko Adzic - Building software that matters "Test Driven .NET Development with FitNesse: Second Edition"]].
+      *The Wiki [[http://www.fitnesse.info/|Gojko Adzic "FitNesse community web site"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0321269349/hemmerling-21|Rick Mugridge, Ward Cunningham: "Fit for Developing Software: Framework for Integrated Tests"]] #.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3898642208/hemmerling-21|Frank Westphal: "Testgetriebene Entwicklung mit JUnit & FIT: Wie Software änderbar bleibt"]] about JUnit 3 only, and FIT #.
+==== Literature - Agile Behaviour Driven Development ====
+  *[[http://www.internet.com/Internetcom/Door/41203/|internet.com "Agile Software Development eBook"]], sponsored by IBM - "This eBook begins with an overview of the Agile Scaling Model (ASM), a framework used to provide context to the plethora of agile methodologies available today".
+===== Resources =====
+  *[[http://www.logigear.com/resources/articles-presentations-templates/389--key-success-factors-for-keyword-driven-testing.html|LogiGear "Key Success Factors for Keyword Driven Testing"]].
+  *[[http://agiletoolkit.libsyn.com/agile_2009_aslak_hellesoy_cucmber_test_framework|Agile Toolkit Podcast. Conversations about Agile Development and Delivery "Agile 2009 - Aslak Hellesoy - Cucmber test framework"]].
+  *[[http://blog.willbeattie.net/2011/06/getting-started-with-specflow-watin.html|Will Beattie's Technical Blog "Getting started with SpecFlow, WatiN, ATDD and BDD"]] #.
+  *[[http://agiletesting.blogspot.de/2004/11/writing-fitnesse-tests-in-python.html|Blog "Agile Testing. Did anybody say webscale?", Article "Writing FitNesse tests in Python"]] #.
+  *cuke4ninja.
+    *[[http://www.cuke4ninja.com/|Gojko Adzic, David de Florinier "The Secret Ninja Cucumber Scrolls"]] - "This document is a step-by-step guide for Cucumber, a tool that is quickly becoming the weapon of choice for many agile teams when it comes to functional test automation, creating executable specifications and building a living documentation".
+    *[[http://www.github.com/davedf/cuke4ninja|Github "davedf/cuke4ninja"]].
+    *[[http://twitter.com/cuke4ninja|Twitter "cuke4ninja"]].
+  *[[http://dhemery.com/articles/|Dale H. Emery. consultant to software teams and leaders - Articles]].
+    *Article "Writing Maintainable Automated Acceptance Tests" (PDF) #.
+  *[[http://groups.google.com/group/lettuce-users|Google Groups "Lettuce Users"]].
+  *[[http://agile.unisonis.com/PyFitTutorial.html|Grig Gheorghiu "Acceptance testing with FitNesse and PyFIT"]].
+  *Blog [[http://blog.holisticon.de/|Blogisticon - Das Holisticon-Blog]], Hamburg #.
+  *[[http://www.linuxjournal.com/magazine/forge-cucumber|Linux Journal, Issue 189, January 2010 - Reuven M. Lerner "At the Forge - Cucumber"]].
+  *Andrej Pietschker, [[http://www.xing.com/profile/Andrej_Pietschker|XING "Andrej Pietschker"]], [[http://de.linkedin.com/pub/andrej-pietschker/0/28/2a1|LinkedIn "Andrej Pietschker"]]:
+    *[[http://www.germantestingnight.de/docs/2014/GTN-2014-03_APietschker_Test-als-Requirements.pdf|German Testing Night 2014-03-27 "Giesecke&Devrient, Andrej Pietschker: Tests als Requirements - Brücke zwischen Entwicklung und Systemtest bauen"]] - How to use BDD and Gherkin for testing and requiements.
+  *[[http://www.rubyinside.com/cucumber-the-latest-in-ruby-testing-1342.html|Ruby Inside, Mike Gunderloy "Cucumber: The Latest in Ruby Testing"]].
+  *[[http://net.tutsplus.com/tutorials/python-tutorials/behavior-driven-development-in-python/|Net tuts, David Sale "Behavior-Driven Development in Python"]] -> Describing [[http://github.com/rlisagor/freshen|Github "rlisagor/freshen"]].
+  *[[http://www.stickyminds.com/sitewide.asp?Function=edetail&ObjectId=8186|StickyMinds, Danny R. Faught "Keyword-Driven Testing"]].
+    *[[http://en.wikipedia.org/wiki/Functional_testing|EN.Wikipedia "Functional testing"]], [[http://en.wikipedia.org/wiki/Black-box_testing|EN.Wikipedia "Black-box testing"]].
+  *Blog [[http://www.josephwilk.net/|Joseph Wilk "Programming bits and bobs"]].
+===== Forums, Newsgroups =====
+  *[[http://groups.google.com/group/specflow|Google Groups "SpecFlow"]], [[http://groups.google.com/group/specflow-announcements|Google Groups "SpecFlow Announcements"]].
+{{tag>"Specification by Example" Behaviour Driven Development" BDD behaviour behaviour-driven "Acceptance Test-Driven Development" ATDD acceptance test tests test-driven development "Given, When, Then" "Given When Then" Given When Then "living documentation" living documentation "keyword-driven testing" keyword-driven testing keyword driven "table-driven testing" table-driven table driven "action word based testing" action word based}}
+<footnote_navi_en>

@@ -1,0 +1,210 @@
+====== [hemmerling] Radio Engineering ======
+Related Page:
+  *[[amateurradio.html|Amateur Radio]].
+  *[[wireless.html|Wireless Networks]].
+===== Long Term Evolution ( LTE ) =====
+  *[[http://en.wikipedia.org/wiki/3GPP_Long_Term_Evolution|EN.Wikipedia: "3GPP Long Term Evolution"]].
+  *Agilent
+    *[[http://www.home.agilent.com/agilent/application.jspx?nid=-34867.0.00|LTE Test - 3GPP Long Term Evolution testing resources from Agilent ]].
+    *[[http://www.home.agilent.com/agilent/editorial.jspx?ckey=1636249|Learn about LTE and its measurements in the new LTE book written by 30 LTE experts]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0470682612/hemmerling-21|Moray Rumney: "LTE and the Evolution to 4G Wireless: Design and Measurement Challenges"]].
+===== Microwave Technology, Scattered Parameters ( S-Parameters ), Smith Chart ( Smith Diagram ) =====
+==== Smith Chart & S-Parameters ====
+  *[[http://www.cvcl.com.hk/Telecomms_case_study.pdf|Adept Scientific plc: "Why thousands of telecommunications engineers have invested in Mathcad"]] (PDF) - section "( Smith ) Chart Analysis enhanced with Mathcad".
+  *[[http://www.fritz.dellsperger.net/|Fritz Dellsperger]].
+  *[[http://www.fars.k6ya.org/docs/|Foothills Amateur Radio Society - Articles on Amateur Radio]].
+    *[[http://www.fars.k6ya.org/docs/smith_chart.pdf|Foothills Amateur Radio Society - Stephen D. Stearns, K6OIK: "Mysteries of the Smith Chart. Transmission Lines, Impedance Matching, and Little Known Facts"]] (PDF).
+  *[[http://math.fullerton.edu/mathews/c2003/SmithChartBib/Links/SmithChartBib_lnk_2.html|Prof. John H. Mathews "Bibliography for the Smith Chart"]].
+  *IEEE.
+    *[[http://ieeexplore.ieee.org/Xplore/login.jsp?url=/iel4/74/15020/00683549.pdf?tp=&isnumber=&arnumber=683549|IEEE "H.J. Delgada, M.H. Thursby: "Derivation of the Smith chart equations for use with MathCAD"]] - A MATLAB software listing "smith.mcd" is part of the PDF article, using a graph with carthesian coordinates, easy to understand.
+  *[[http://www.ptc.com/appserver/wcms/standards/textoimgothumb.jsp?&im_dbkey=61423&icg_dbkey=888|Bjorn Jansson, Mathcad Library "Smith Chart"]].
+  *[[http://www.mathworks.com/matlabcentral/fileexchange/|MATLAB Central - File Exchange]].
+    *[[http://www.mathworks.com/matlabcentral/fileexchange/6080|MATLAB Central - File Exchange "S-parameter toolbox (+ Z, Y, H, G, ABCD, T)"]].
+    *[[http://www.mathworks.com/matlabcentral/fileexchange/1923|MATLAB Central - File Exchange "Smith Chart Plot"]].
+    *[[http://www.mathworks.com/matlabcentral/fileexchange/324|MATLAB Central - File Exchange "smithchart"]].
+    *[[http://www.mathworks.com/matlabcentral/fileexchange/3499|MATLAB Central - File Exchange "Smith Chart Plotting Routine"]].
+    *[[http://www.mathworks.com/matlabcentral/fileexchange/3795|MATLAB Central - File Exchange "SmithChartGUI"]].
+  *[[http://www.microwaves101.com/|Microwaves101.com]].
+    *[[http://www.microwaves101.com/encyclopedia/|Microwave101 Encyclopedia]].
+      *[[http://www.micromanipulator.com/assets/application_notes/A1013897-S-Parameters.PDF|S-Parameter Vector Error Correction]] (PDF).
+  *[[http://www.rfcafe.com/references/electrical/smith.htm|RF Cafe "The Smith Chart"]].
+  *[[http://www.rfsilicon.com/|RFsilicon, the RC IC design source]].
+    *[[http://www.rfsilicon.com/index.html?http://rfsilicon.com/home/modeling/smithchart/smithchart.htm|RFsilicon, the RC IC design source "Smithchart"]].
+  *[[http://webscripts.softpedia.com/scriptDownload/Using-S-Parameters-in-MATLAB-Simulink-Download-32269.html|Softpedia "Using S-Parameters in MATLAB & Simulink"]].
+  *[[http://www.sss-mag.com/|Spread Spectrum Scene]].
+    *[[http://sss-mag.com/smith.html|The Smith Chart]].
+      *[[http://sss-mag.com/pdf/smithmathcad.pdf|Alan Victor: "Chart Analysis Enhanced with Mathcad"]] (PDF).
+      *[[http://sss-mag.com/newiss8.htmlSilicon Germanium Transistor Amplifier Stability Circles Plotted on an Excel based Smith Chart|]] - "SmithChartRevD.xls", using a graph with carthesian coordinates.
+  *[[http://en.wikipedia.org/wiki/Scattering_parameters|EN.Wikipedia "Scattering parameters"]].
+
+==== Microwave Design Software ====
+  *Agilent.
+    *The commercial [[http://eesof.tm.agilent.com/products/ads_main.html|Agilent "Advanced Design System"]] ( ADS ).
+      *[[http://en.wikipedia.org/wiki/Advanced_Design_System|EN.Wikipedia "Advanced Design System"]], [[http://de.wikipedia.org/wiki/Advanced_Design_System|DE.Wikipedia "Advanced Design System"]], [[http://en.wikipedia.org/wiki/EEsof|EN.Wikipedia "EEsof"]].
+      *[[http://eesof.tm.agilent.com/education/|Agilent EEsof EDA Customer Education]] - free tutorial "ADS Quick Start - ADS 2008".
+      *[[http://michaelgellis.tripod.com/ads.html|Michael Ellis "ADS Tutorial"]].  
+      *[[http://www.emtalk.com/tutorials.htm|em:talk - Electromagnetics & Microwave Engineering]].
+        *[[http://www.emtalk.com/tutorials.htm|em:talk "RF & Microwave Engineering Tutorials/Tools"]] - "Agilent ADS" tutorials.
+    *The free [[http://www.hp.woodshot.com/|Agilent Technologies "AppCAD Version 3.0.2"]] for Windows.
+    *The free online [[http://www.hp.woodshot.com/hprfhelp/hprfhelp.htm|HPRFhelp ver.2.12]].
+  *The free online tool "RF Conversion Tool" by JFW Industries, Inc.
+    *[[http://www.jfwindustries.com/catalog/RF_Conversion_Tool-123-1.html|JFW Industries, Inc. "RF Conversion Tool"]] - Request formular.
+    *[[http://www.jfwindustries.com/rfconv.html|JFW Industries, Inc. "This is the free RF Conversion Tool from JFW Industries, Inc."]] - Free online tool.
+  *Puff 2.1, Computer Aided Design for Microwave Integrated Circuits.
+    *[[http://www.gerstlauer.de/puff/|Andreas Gerstlauer "Puff 2.1"]] - "Computer aided design and analysis of RF circuits".
+    *[[http://www.its.caltech.edu/~mmic/puff.html|California Institute of Technology (Caltech) "Puff 2.1]].
+      *[[http://www.its.caltech.edu/~mmic/puffindex/puffform.html|California Institute of Technology (Caltech) "Puff Order Form"]] - List of books shipped with Puff 2.1.
+        *Book [[http://www.amazon.de/exec/obidos/ASIN//0521646456/hemmerling-21|David Rutledge: "The Electronics of Radio"]].
+        *Book [[http://www.amazon.de/exec/obidos/ASIN/0071544526/hemmerling-21|Cotter W. Sayre: "Complete Wireless Design"]].
+
+==== Modulation, RF.. ====
+  *The free [[http://www2.rohde-schwarz.com/en/products/test_and_measurement/signal_generation/software/WinIQSIM.html|Rohde & Schwarz Simulation Software "WinIQSIM"]] - generation of digitally modulated signals.
+  *The free [[http://www2.rohde-schwarz.com/product/WinIQSIM2.html|Rohde & Schwarz Simulation Software "WinIQSIM2" Simulation Software]] - generation of digitally modulated signals.
+==== Hardware & Hardware Vendors ====
+  *[[http://www.bsw-ag.com/|bsw TestSystems und Consulting AG]] - "bsw übernimmt Produktportfolio von der Parzich Mikrowellentechnik GmbH".
+    *[[http://www.bsw-ag.com/deutsch/workshop.html|bsw TestSystems und Consulting AG "Workshop"]] - "DC To Daylight - Application Tour Herbst 2011".
+  *[[http://www.pasternack.com/|Pasternack Enterprises]] - "Quality RF & Microwave Parts Since 1972", "20.000+ RF & Microwave products in stock", "Über 20.000 verschiedene HF-, Mikrowellen-, und optische Produkte für die Lieferung noch heute".
+  *[[http://www.teledynemicrowave.com/Products/Yig/YIG_Bandpass_Filters.aspx|Teledyne Ferretec: YIG Bandpass Filters]].
+    *[[http://www.teledynemicrowave.com/pdf_YIG/Teledyne%20Microwave%20YIG%20Filter%20Products%200507.pdf|YIG Filter Products]] (PDF).
+  *[[http://www.ebay.com/|eBay]].   
+    *Business & Industrial > Electrical & Test Equipment > Electronic Components > Other.
+    *Business & Industrial > Electrical & Test Equipment > Test Equipment > Parts, Accessories & Plug-Ins > Other.
+    *Home >eBay Stores >The Test Equipment Store.
+==== Resources ====
+  *[[http://www.circuitsage.com/|Circuit Sage]].
+    *[[http://www.circuitsage.com/matching.html|Circuit Sage "Impedance Matching and Transmission Lines"]].
+  *[[http://www.eetimes.com/design/|EE Times Design]].
+    *[[http://www.eetimes.com/design/microwave-rf-design|EE Times Design - RF and Microwave Highlights]].
+  *[[http://electronicdesign.com/|electronic design - The Authority on Emerging Technolgies for Design Solutions]].
+    *[[http://www.mwrf.com/|Microwaves & RF - Trusted Resource for the Working RF Engineer]].
+  *[[http://www.educypedia.be/electronics/|Educypedia - The educational encyclopedia "electronics"]].
+    *[[http://www.educypedia.be/electronics/easoftrf.htm|Educypedia "Electronics related software"]]
+  *[[http://hft.fh-hannover.de/|Fachhochschule Hannover, Fachgebiet Hochfrequenz- und Mikrowellentechnik]].
+  *[[http://www.gl.com/consulting_RFDesignToolsletter.html|GL Communications Inc. "Newsletter: RF Design Tools"]].
+  *[[http://www.ni.com/rf/|National Instruments "RF and Communications"]].
+    *[[http://zone.ni.com/devzone/cda/tut/p/id/3992|National Instruments, NI Developer Zone "RF and Communications Fundamentals"]].
+  *[[http://www.turnkey.net/rftools.htm|Turnkey Communications "RF Microwave Tools. Compliments of RF Globalnet: RF, Microwave & Wireless engineering resource"]].
+  *[[http://de.wikipedia.org/wiki/Gesundheitssch%C3%A4den_durch_milit%C3%A4rische_Radaranlagen|DE.Wikipedia "Gesundheitsschäden durch militärische Radaranlagen"]].
+===== Filter Design =====
+==== Tools ====
+  *[[http://www.analog.com/en/content/design-tools_Master_Library_Page/fca.html|Analog Devices, Design and Simulation Tools Library]].
+    *[[http://www.analog.com/en/amplifiers-and-comparators/products/dt-adisim-design-sim-tool/Filter_Wizard/resources/fca.html|Analog Devices "Analog Filter Wizard"]] - free online tool.
+  *[[http://www.analog-insydes.de/|Fraunhofer ITWM "Analog Insydes"]] - commercial [[http://www.wolfram.com/|Wolfram Research "Mathematica"]] toolbox for modeling, analysis, and design of analog electronic circuits.
+  *[[http://www.microchip.com/FilterLab/|Microchip Technology Inc. "FilterLab"]].
+  *[[http://www.national.com/analog/all_products|National Semiconductors, Products & Tools - WEBENCH Designer Tools]].
+    *[[http://www.national.com/analog/webench|National Semiconductors - WEBENCH Designer Tools]].
+  *[[http://www.filter-solutions.com/|NuHertz Technologies "Filter Free"]] - free limited filter design software.
+    *[[http://www.filter-solutions.com/download.html|NuHertz Technologies - Download]] - Download of "Filter Free" for Windows.
+  *[[http://ptolemy.berkeley.edu/|The Ptolemy Project]].
+    *[[http://ptolemy.berkeley.edu/java/ptfilter.htm|The Ptolemy Project - "PtFilter - Interactive Digital Filter Design Tool"]], a Java applet.
+  *[[http://focus.ti.com/adc/docs/portal.tsp|Texas Instruments "Analog eLAB"]].
+    *[[http://focus.ti.com/docs/toolsw/folders/print/filterpro.html|Texas Instruments "Active Filter Design Application"]].
+==== Hardware Evaluation Boards ====
+  *The main purpose of (filter) evaluation boards is to assemble and verify by instrumentation, what you first designed with a (filter) software.
+  *[[http://www.analog.com/fltr|Analog Devices "EVAL-FLTR:  Evaluation Board for Active Filters"]].
+==== Resources ====
+  *[[http://www.circuitsage.com/|Circuit Sage]] - "Analog/RF Design Resources".
+  *[[http://www.circuitsage.com/filter.html|Circuit Sage "Filter Design"]].
+  *[[http://www.rfcafe.com/references/design-data/filter-design.htm|RF Cafe "Filter Design Resources"]].
+===== Some other RF-related Software =====
+  *[[http://www.falstad.com/ripple/|Paul Falstad]].
+    *The free [[http://www.falstad.com/ripple/|Ripple Tank Simulation]] for Java, with free online Java applet for instant operation.
+    *The free [[http://itunes.apple.com/us/app/ripple-tank-free/id453342553|iTunes "Ripple Tank Free"]] for iOS7 and newer.
+===== Electromagnetic Compatibility [ EMC ) & Environmental Sustainability =====
+==== Resources ====
+  *[[http://www.emv.biz/|Dirks Compliance Consulting]] - "MV: Schulung, Software und Beratung".
+==== Testlabs for Electromagnetic Compatibility [ EMC ) & Environmental Sustainability ====
+Important testlabs for electromagnetic compatibility [ EMC ) & environmental sustainability in Germany / for the german market, according to [[http://www.phoenix-testlab.de/|PHOENIX TESTLAB GmbH]].
+  -7 layers AG.
+  -AKUVIB Engineering and Testing GmbH.
+  -ATLAS ELEKTRONIK GmbH Umweltsimulationszentrum.
+  -ATLAS Material Testing Technology GmbH.
+  -AUCOTEAM GmbH.
+  -Bay Area Compliance Laboratory (BACL)
+  -Berlin Cert Prüf- und Zertifizierstelle für Medizinprodukte GmbH.
+  -Brunel Car Synergies GmbH.
+  -Carl Zeiss Jena GmbH.
+  -Carl Zeiss Optronics GmbH.
+  -CeCert GmbH.
+  -Cetecom ICT Services GmbH.
+  -CTI-Cooperative Testing Institute Vienna Gesellschaft zur Prüfung elektrotechnischer Industrieprodukte GmbH.
+  -Diehl Avionik Systeme GmbH.
+  -DMT GmbH & Co. KG Zentrum für Brandschutz und Sicherheit.
+  -DVGW - Forschungsstelle Prüflaboratorium Gas.
+  -EDAG GmbH & Co. KGaA.
+  -EM Test GmbH.
+  -EMC Test NRW GmbH electromagnetic compatibility.
+  -EMC Testhaus Dr. Schreiber GmbH.
+  -EMCC Dr. Rasek Ingenieurbüro.
+  -EMCtech GmbH.
+  -Emitel AG.
+  -EMV Rhein-Neckar GmbH.
+  -EMV Services GmbH & Co. KG.
+  -EMV Testhaus GmbH.
+  -Eurofins ETS Produkt Service GmbH.
+  -FGH Engineering & Test GmbH.
+  -Fraunhofer -Institut IPA.
+  -Fraunhofer Institut Chemische Technologie.
+  -Fujitsu Technology Solutions GmbH.
+  -Hansecontrol Zertifizierungsgesellschaft mbH.
+  -IABG mbH.
+  -Imat-UVE GmbH.
+  -Institute for International Product Safety GmbH.
+  -Intertek Deutschland GmbH.
+  -Intertek Semko AB.
+  -ISET - Institut für Solare Energieversorgungstechnik e. V. Verein an der Universität Kassel.
+  -Krauss-Maffei Technologies GmbH.
+  -Kriwan Testzentrum GmbH & Co. KG.
+  -LANGER EMV-Technik GmbH.
+  -M. Dudde Hochfrequenz-Technik.
+  -MBtech EMC GmbH.
+  -MeßTechnikNord GmbH.
+  -mikes-testingpartners GmbH.
+  -Mitsubishi Electric Europe B.V. Factory Automation European Business Group.
+  -Mooser Consulting GmbH.
+  -Mooser EMC Technik GmbH.
+  -Nemko GmbH & Co. KG.
+  -Obering. Berg & Lukowiak GmbH.
+  -P-k-m electronic GmbH.
+  -[[http://www.phoenix-testlab.de/|PHOENIX TESTLAB GmbH]].
+  -Prüfzentrum IMST GmbH.
+  -Rheinmetall Landsysteme GmbH.
+  -RS - Schwarze Elektrotechnik Moderne Industrieelektronik GmbH.
+  -RS-Simulatoren Testlabor GmbH.
+  -RST Rail System Testing GmbH.
+  -Rücker GmbH Niederlassung München.
+  -Schneider Electric GmbH Vertriebsregion Mitte.
+  -Serco GmbH EMV-Zentrum Bonn.
+  -ServiceForce GmbH.
+  -SGS Germany GmbH.
+  -TÜV Saarland Forster GmbH.
+  -TELUS GmbH.
+  -TÜV Nord.
+  -TÜV Rheinland.
+  -TÜV SÜD Product Service.
+  -TÜV SÜD SENTON GmbH.
+  -UL International.
+  -VDE Prüf- und Zertifizierungsinstitut.
+===== Resources =====
+  *[[http://www.adt-ev.de/|Akademie der Technologie e.V.]].
+  *[[http://www.dgon.de/|Deutsche Gesellschaft für Ortung und Navigation e.V.]] ( DGON ).
+  *[[http://www.izmf.de/|Informationszentrum Mobilfunk e. V. (IZMF)]].
+  *[[http://www.rfcafe.com/|RF Cafe]].
+  *[[http://de.wikipedia.org/wiki/Digitale_Dividende|DE.Wikipedia "Digitale Dividende"]].
+  *Harald T. Friis.
+    *[[http://en.wikipedia.org/wiki/Friis_transmission_equation|EN.Wikipedia "Friis transmission equation"]].
+    *[[http://en.wikipedia.org/wiki/Friis_formulas_for_noise|EN.Wikipedia "Friis-Formel"]], [[http://de.wikipedia.org/wiki/Friis-Formel|DE.Wikipedia "Friis-Formel"]].
+  *The museum [[http://www.funkerberg.de/|Das Funktechnikmuseum Königs Wusterhausen]].
+===== Forums, Newsgroups, Communities =====
+  *[[http://www.circuitsage.com/forums|Circuit Sage - Forums]].
+  *[[http://www.emtalk.com/forums/|em:talk - "EM Talk Forum"]], with subforums "ADS Tutorial 1", "ADS Tutorial 2".
+  *[[http://www.microchip.com/forums/|Microchip Technology Inc., Forums]].
+  *[[http://www.radarforum.de/|Radarforum]].
+  *[[http://www.radiomuseum.org/|Radiomuseum "Radio-Forum - Forum for Radio Collectors"]].
+  *[[http://www.rfcafe.com/phpbb2/|RF Cafe Engineering & Science Forums]].
+  *[[http://www.nobikom.de/wbb2/profile.php?userid=7060|TOP Funkforum - Alles rund um die Funktechnik]].
+  *[[http://www.vertmarkets.com/|VertMarkets]].
+    *[[http://www.rfglobalnet.com/forums/|RF Globalnet Forums]].
+{{tag>"radio engineering"}}
+<footnote_navi_en>
+

@@ -1,0 +1,84 @@
+====== [hemmerling] Software Documentation ======
+Related pages:
+  *[[goodcoding.html|Good Coding ! - Software Coding, Coding Rules, Static Code Analysis, Code Reviews]].
+  *[[requirements.html|Requirements]].
+  *[[systemdesign.html|System Design]]
+  *[[technicalwriting.html|Technical Writing]]
+  *[[testing.html|Testing]].
+===== Graphical Description Notations for Description of Systems =====
+<WRAP tip>See [[systemdesign.html|System Design]].</WRAP>
+  *[[http://de.wikipedia.org/wiki/Taktisches_Zeichen|DE.Wikipedia: "Taktische Zeichen"]].
+  *[[http://de.wikipedia.org/wiki/Milit%C3%A4rische_Lastenklasse|DE.Wikipedia: "Militärische Lastenklasse"]].
+===== Software Documentation =====
+==== Generators for creating Software Documentation ====
+=== CppDoc ===
+  *[[http://www.cppdoc.com/|CppDoc]] - "CppDoc generates HTML documentation for C++ classes".
+=== DOC++ ===
+  *DOC++ ( [[http://docpp.sourceforge.net/|Sourceforge "DOC++"]], [[http://www.sourceforge.net/projects/docpp|Sourceforge "DOC++"]] ) - a documentation system for C, C++, IDL and Java generating both TeX output for high quality hardcopies and HTML output for sophisticated online browsing of your documentation.
+=== Doxygen ===
+== The Tool ==
+  *Doxygen ( [[http://www.stack.nl/~dimitri/doxygen/|Doxygen]], [[http://doxygen.sourceforge.net/|Sourceforge "Doxygen"]], [[http://www.sourceforge.net/projects/doxygen|Sourceforge "Doxygen"]] ) - free Open Source documentation system for C++, C, Java, Objective-C, Python, IDL (Corba and Microsoft flavors), Fortran, VHDL, PHP, C#.
+    *[[ftp://ftp.stack.nl/pub/users/dimitri/|FTP Download "Doxygen"]].
+    *Doxygen 1.6.3 ist the latest edition for Win98SE.
+    *"Doxygen has built-in support to generate inheritance diagrams for C++ classes. Doxygen can use the "dot" tool from [[http://www.graphviz.org/|graphviz]] to generate more advanced diagrams and graphs".
+    *[[http://en.wikipedia.org/wiki/Doxygen|EN.Wikipedia "Doxygen"]], [[http://de.wikipedia.org/wiki/Doxygen|DE.Wikipedia "Doxygen"]].
+== Input Filters for Python ==
+  *[[http://code.foosel.org/doxypy|code.(foosel), Ina Häußge and Philippe Neumann - "doxypy"]], [[http://www.github.com/0xCAFEBABE/doxypy|GitHub "0xCAFEBABE/doxypy"]] - "An input filter for Doxygen".
+    *Doxygen settings:
+      *"FILTER_SOURCE_FILES = YES".
+      *Expert / Input / INPUT_FILTER = 'python /usr/local/bin/doxypy.py'".
+  *[[http://www.github.com/Feneric/doxypypy|GitHub "Feneric/doxypypy"]] - A fork and successor of "doxypy".
+    *Doxygen settings:
+      *"Expert / Input / FILTER_PATTERNS = *.py=py_filter".
+    *Batch file in "C:\Python27\Scripts\py_filter.bat":
+      *"python -m doxypypy.doxypypy -a -c %1".
+=== javadoc - The Java API Documentation Generator ===
+  *[[http://en.wikipedia.org/wiki/Javadoc|EN.Wikipedia: "Javadoc"]], [[http://de.wikipedia.org/wiki/Javadoc|DE.Wikipedia: "Javadoc"]]
+  *[[http://download.oracle.com/javase/6/docs/technotes/tools/windows/javadoc.html|Oracle: "javadoc - The Java API Documentation Generator"]].
+  *The commercial "[[http://www.borland.com/us/products/together|Borland Together]]" 4.x, 5.x, 6.x editions were shipped with a Javadocs generator for Java, C++ and C#.
+=== "JSDoc" & "jsdoc-toolkit" ===
+  *[[http://www.usejsdoc.org/|@use JSDoc]].
+  *[[http://code.google.com/p/jsdoc-toolkit/|Google Code "jsdoc-toolkit. A documentation generator for JavaScript"]].
+  *[[http://code.google.com/p/jsdoc/|Google Code "jsdoc. JSDoc is an automatic documentation generator for JavaScript"]] -> JSDoc V.2.
+  *[[http://github.com/jsdoc3/jsdoc|Github "jsdoc3 / jsdoc"]] -> JSDoc V.3.
+  *<del>[[http://jsdoc.sourceforge.net/|SourceForge "JSDoc"]]</del>, <del>[[http://www.sourceforge.net/projects/jsdoc|SourceForge "JSDoc"]]</del>.
+  *[[http://en.wikipedia.org/wiki/JSDoc|EN.Wikipedia "JSDoc"]].
+=== Markdown Markup Language ===
+  *See [[revision.html|Revision Control & Revision Control Systems (RCS), Source Code Version Control Systems ( SCVCS, VCS, CVS ), Software Configuration Management ( SCM )]], "Github Gist".
+=== Microsoft Windows & .NET ===
+== NDoc ==
+  *The free Open Source "NDoc Code Documentation Generator for .NET" ( [[http://ndoc.sourceforge.net/|Sourceforge "NDoc"]], [[http://www.sourceforge.net/projects/ndoc|Sourceforge "NDoc"]] ).
+== VBCommenter ==
+  *The free Open Source [[http://code.msdn.microsoft.com/VBCommenter|VBCommenter]] for Visual Basic .NET.
+=== phpDocumentator ===
+  *[[http://www.phpdoc.org/|phpDocumentator]] - "A tool with which it is possible to generate documentation from your PHP source code".
+=== Python Documentation Generators ===
+  *See [[python04.html|Python 4/7 - Pro & Contra]], section "Pythonic Documentation Tools".
+  *Doxygen, with input filters for Python -> see on this page.
+=== reStructuredText ( reST ) ===
+  *See [[python04.html|Python 4/7 - Pro & Contra]], section "Pythonic Documentation Tools".
+=== Sandcastle Documentation Compilers ===
+  *[[http://www.sandcastledocs.com/|SandcastleDocs.com]].
+  *[[http://blogs.msdn.com/sandcastle/|MSDN Blog "Sandcastle"]].
+  *[[http://sandcastle.codeplex.com/|Codeplex "Sandcastle - Documentation Compiler for Managed Class"]].
+==== Documentation Formats & Documentation Tools for Software Projects ====
+  *Text files formatted in "ReST", "ReStructured Text", format.
+    *[[http://docutils.sourceforge.net/|Sourceforge "Docutils: Documentation Utilities. Written in Python, for General- and Special-Purpose Use"]], [[http://www.sourceforge.net/projects/docutils|Sourceforge "Docutils: Documentation Utilities"]] - "Docutils is an open-source text processing system for processing plaintext documentation into useful formats, such as HTML or LaTeX".
+  *Dependency graph.
+    *[[http://en.wikipedia.org/wiki/Dependency_graph|EN.Wikipedia "Dependency graph"]].
+    *[[http://doxygen.sourceforge.net/|Sourceforge "Doxygen"]] has built-in support to generate inheritance diagrams for C++ classes. Doxygen can use the "dot" tool from [[http://www.graphviz.org/|graphviz]] to generate more advanced diagrams and graphs".
+      *Example: [[http://asf.atmel.com/docs/2.6.1/common/services/calendar/unit_tests/atxmega128a1-xplain/doxygen/html/a00058.html|Atmel Corporation "Calendar service unit tests on Xplain", "unit_tests.c File Reference"]].
+    *Software tools to create dependency graphs: See [[vrml.html|Virtual Reality & Graphics]], "Free Graph Visualization and Manipulation Software".
+===== Software Application Description Formats  =====
+  *[[http://pad.asp-software.org/|Association of Software Professionals "Portable Application Description (PAD)"]] - "PAD is the Portable Application Description, and it helps authors provide product descriptions and specifications to online sources in a standard way, using a standard data format that will allow webmasters and program librarians to automate program listings".
+===== Books =====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3446420088/hemmerling-21|Gernot Starke: "Effektive Software-Architekturen: Ein praktischer Leitfaden"]].
+===== Resources =====
+  *[[http://www.stack.nl/~dimitri/doxygen/links.html|Doxygen - Other non-commercial documentation tools, Other commercial documentation tools]].
+  *[[http://en.wikipedia.org/wiki/Comparison_of_documentation_generators|EN.Wikipedia: "Comparison of documentation generators"]].
+  *[[http://forum.fachinformatiker.de/java/35419-javadoc-prinzip-bloss-fuer-anderes-sprachen.html|Fachinformatiker.de: " javaDoc Prinzip bloß auf für anderes Sprachen"]].
+===== Forums, Newsgroups =====
+  *[[http://groups.google.com/group/jsdoc-users|Google Groups "JSDoc Users"]].
+{{tag>software documentation "software documentation generator" generator}}
+
+<footnote_navi_en>

@@ -1,0 +1,129 @@
+====== [hemmerling] Input Devices ( Keyboard, Mouse, Joystick, Scanner... ) ======
+===== Keyboard =====
+==== My Keyboard & Mouse Set "CHERRY CyBo@rd Plus" ====
+  *[[http://www.cherrycorp.com/|ZF Electronics Corporation "CHERRY Switches, Sensors, Keyboards and Automotive Modules"]], [[http://www.cherry.de/|ZF Friedrichshafen AG "CHERRY"]].
+  *[[http://www.keybo.de/|Keybo.de - Offizieller Online Cherry Distributor]].
+  *[[http://www.hartware.de/review_230.html|hartware.de "Cherry CyBo@rd Plus Funktastatur und -maus"]].
+==== My Keyboard & Mouse Set "PEARL Funktastatur QWERTZ mit Funk-Maus" ====
+  *[[http://www.pearl.de/a-PX4845-1002.shtml?query=Funk+Tastatur+mit+Funk+Maus+2%2C4+GHz|Pearl Agency "PEARL Funktastatur QWERTZ mit Funk-Maus"]]. [[http://www.pearl.de/a-GRA14845-8909.shtml|PEARL Funktastatur QWERTZ mit Funk-Maus "RA-14845-921"]] - US ANSI Keyboard with German keyboard layout and German key labeling ( QUERZ , Umlaute "ÄäÖöÜüß" ), but the key with "<" / ">" / Alt Gr "|" left to "y" of international ISO keyboards is missing :-(. See [[http://en.wikipedia.org/wiki/Keyboard_layout|EN.Wikipedia "Keyboard layout"]].
+
+| | |
+| Key | Keycode ALT |
+| < ^ 60 ^
+| > ^ 62 ^
+| <code>|</code> ^ 124 ^
+| ^ ^
+
+==== Keyboard Drivers ====
+  *The Shareware [[http://www.kdrive.de/|Martin Austermeier "KDrive: der vielseitige Tastaturtreiber"]] - The ultimate German keyboard driver for MSDOS and WINDOWS, for german keyboards only!
+==== Resources ====
+  *[[http://www.google.de/search?q=flick+typing|Google "flick typing"]].
+===== Mouse and Joystick =====
+==== Mouse with cable, Wireless Mouse ====
+  *Microsoft Mouse.
+    *In the 1990th, [[http://www.microsoft.com/hardware/|Microsoft]] did not offer current Mouse drivers for MSDOS ( "mouse.com" ) as download on it's website, but published "Mouse Driver updates, contact Microsoft Sales at (800) 426-9400" :-(.
+  *[[http://www.geniusnet.com/|Genius]], a (former?) Mouse manufacturer.
+    *[[http://en.wikipedia.org/wiki/KYE_Systems_Corp.|EN.Wikipedia "KYE Systems Corp."]], [[http://de.wikipedia.org/wiki/Kye_Systems|EN.Wikipedia "Kye Systems"]].
+  *[[http://www.logitech.com/|Logitech Europe S.A.]], a (former?) Mouse manufacturer.
+==== Wireless Presentation Pointers ====
+  *[[http://www.pearl.de/a-PX3654-1381.shtml|PEARL Agency "auvisio USB-PC-Fernbedienung & Presenter mit Laserpointer"]]- Infrared, Ultrasonic or RF ?
+  *[[http://www.logitech.com/de-de/mice-pointers/presenter|Logitech "Präsentationsgeräte"]] - "Wireless Presenter R400".
+  *[[http://www.microsoft.com/austria/athome/hardware/presenter|Microsoft "Wireless Notebook Presenter Mouse 8000"]].
+  *[[http://eu.kensington.com/kensington/en/gb/s/496/wirelesspresenters.aspx|Kensington Computer Group / Kensington Europe "Wireless Presenters"]] - "Kensington SI600 Wireless Presenter".
+==== Special Presentation Systems ====
+  *[[http://www.u-pointer.de/|U-Pointer]].
+    *[[http://www.facebook.com/UPOINTER|Facebook "U-POINTER"]].
+    *[[https://www.xing.com/profile/Peter_Schedetzki|XING "Peter Schedetzki"]].
+==== Joystick ====
+  *My Microsoft Sidewinder joystick.
+    *[[http://en.wikipedia.org/wiki/Microsoft_SideWinder|EN.Wikipedia "Microsoft SideWinder"]].
+  *[[http://www.kensington.com/|Kensington Computer Products Group]] ( formerly: [[http://www.gravis.com/|Gravis]]) ).
+    *[[http://wayback.archive.org/web/*/http://www.gravis.com/products/gamepads.html|Archive.org "Gravis Gamepads"]].
+    *My "Gravis PC GamePad".
+      *[[http://web.archive.org/web/*/http://www.gravis.com/products/gp_pcgamepad.html|Archive.org "Gravis - PC GamePad"]].
+      *The handles are easy to break by rather low users´s force, by construction, but this is a wanted effect, because else the GRAVIS Gamepad itself would be damaged. 
+      *In the early 2000ths, if You lived in Europe and if Your gray handles of Your GRAVIS Gamepads were broken, you could ask for free replacement :-).
+        *Call a free GRAVIS service hotlines. The hotline for Germany was +49-(0)130 810654 :-).
+        *Or You just sent a FAX to +31-(0)343 563225 with Your name and address, and that you need gray handles, and the number of wanted handles.
+    *My Joystick "Gravis Firebird 1" ( not "Gravis Firebird 2" ).
+      *[[http://wayback.archive.org/web/*/http://www.gravis.com/products/joysticks.html|Archive.org "Gravis - Joysticks"]].
+      *In the early 2000ths, there was a hardware upgrade from Firebird 1 to Firebird 2, but it was not yet available in Europe when I asked for it, and it was quiet expensive, $19.95. So I did not upgrade.
+==== Resources ====
+  *[[http://www.burg-halle.de/~schwenke/parport.html|Steffen Schwenke "How to make a joystick adapter for the PC parallel port"]].
+  *The OpenSource "PPJoy" by Deon van der Westhuysen.
+    *[[http://ppjoy.blogspot.de/|Blogspot "Deon van der Westhuysen 'PPJoy'"]] - "A Windows device driver for digital joysticks (e.g. old Atari, Spectravideo, etc.), NES, SNES, Playstation and Sega pads connected to the parallel port".
+      *"You need the Full Visual Studio 2008 (Express 2008 won't work because it does not include the MFC libraries and headers), Microsoft Windows DDK and The Nullsoft installer version 2.45. The setuphelper module is setup to build with VS2005 Express, this will not work, it needs to be converted to VS2008 (VS2008 will do that for you) and the make batch file adjusted accordingly".
+    *[[http://www.github.com/elitak/PPJoy|Github "elitak/PPJoy"]].
+    *The outdated website [[http://ppjoy.bossstation.dnsalias.org/|bossstation.dnsalias "PPJoy"]].
+    *The outdated website [[http://web.archive.org/web/*/http://www.angelfire.com/retro/deonvdw/PPJoy.htm|Archive.org "angelfire 'PPJoy'"]] ( - 2003-02-20 ).
+    *The outdated website [[http://web.archive.org/web/*/http://www.geocities.com/deonvdw/PPJoy.htm|Archive.org "geocities 'PPJoy'"]] ( - 2009-10-21 ).
+  *The OpenSource [[http://ppjoylib.sourceforge.net/|SourceForge "PPJoy Wrapper Library"]], [[http://www.sourceforge.net/projects/ppjoylib/|SourceForge "PPJoy Wrapper Library"]] in C#.
+  *The OpenSource [[http://vjoystick.sourceforge.net/|SourceForge "vJoy"]], [[http://www.sourceforge.net/projects/vjoystick/|SourceForge "vJoy"]] - "This project was originally designed to provide an open-source replacement for PPJoy".
+===== 2D / 3D Input Devices =====
+==== Kinect ====
+  *[[http://en.wikipedia.org/wiki/Kinect|EN.Wikipedia "Kinect"]], [[http://de.wikipedia.org/wiki/Kinect|DE.Wikipedia "Kinect"]].
+  *Lighting is not needed.
+  *The Windows device is equipped with advanced features, in comparison to the original X-Box device.
+  *The device might be used for low-budget motion capture :-).
+==== Leap Motion ====
+  *[[http://www.leapmotion.com/|Leap Motion]].
+  *[[http://developer.leapmotion.com/|Leap Motion - Developer Portal]].
+  *Blog [[http://blog.leapmotion.com/|Leap Motion Blog]].
+  *Twitter.
+    *[[http://www.twitter.com/leapmotion|Twitter "LeapMotion"]].
+    *[[http://twitter.com/LeapMotionDev|Twitter "Leap Motion Dev"]].
+  *[[http://en.wikipedia.org/wiki/Leap_Motion|EN.Wikipedia "Leap Motion"]].
+  *Lighting is mandatory.
+  *High usage of CPU power, not suitable for devices with limited CPU power ( like webbooks ).
+  *The device driver for Win and MacOSX ( but not available for Linux ) is proprietary and just provides raw data. Data processing must be processed by the applications.
+==== Duo ====
+  *[[http://www.duo3d.com/|Code Laboratories, Inc. "Duo"]].
+  *Similar hardware & software concept as "Leap Motion", but different marketing concept and different vendor's vision.
+==== Resources ====
+  *[[http://www.reddit.com/r/oculus/comments/17mutc/the_leap_developer_unit_why_i_doubt_it_will_be/|Reddit "The Leap Developer Unit - why I doubt it will be useful with the Rift"]].
+  *Some other optical input devices:
+    *Google Glas.
+    *Epson Moverio BT-200.
+    *Meta
+    *Golden i
+    *GlassUp
+    *Optivent OMA.
+    *ReconJet
+    *Vuzix M100.
+    *Seebright Spark.
+    *OpenDive.
+
+===== Scanner =====
+==== A4 Flatbed Scanners ====
+  *My A4 3-pass flatbad scanner "MUSTEC MFS-6000 CX".
+    *[[http://www.mustek.de/|Mustek Europe BV]].
+      *[[http://www.mustek.de/en/service-a-drivers.html|Mustek Europe BV - Service & Drivers]].
+      *[[http://www.mustek.com.tw/Support/|Mustek Systems, Inc. - Support]].
+  *My DIN-A4 1-Pass flatbed scanner "PLUSTEK Opti Pro P12".
+    *[[http://www.plustek.com/|Plustek Inc.]], [[http://plustek.com/de/|Plustek Technology GmbH]].
+==== Scan of Slight Films ( DIA films / Color Reverse Photographs ) ====
+  *My [[http://www.pearl.de/a-PX8264-1040.shtml|PEARL Agency "Somikon 2in1 Dia- & Negativ-Scanner mit USB2.0-Anschluss"]].
+==== Software Applications and Software Drivers ====
+=== OmniPage ===
+  *In January 1999, I got a full licensed version of the OCR software "Caere OmniPage Pro 8.0" for WIN95/98 and WIN-NT supplied with the german magazine "PC go!", issue 2/99, for about 4.90 EUR :-)! 
+  *There is a very-useful [[http://www.nuance.com/scannerguide/|Nuance Scanner Guide]], too.
+  *[[http://www.nuance.com/for-business/by-product/omnipage/|Nuance "Omnipage"]] ( formerly: "Caere OmniPage", "ScanSoft OmniPage" ).
+=== Rediris ===
+  *[[http://www.irislink.com/|I.R.I.S. s.a.]] - OCR software "Readiris Pro".
+  *In March 2013, I got a full licensed version of the OCR software "Readiris Pro 12" for WinXP, by [[http://www.pearl.de/PEARL Agency]], for a budget price :-)
+==== Resources ====
+  *[[http://www.avision.eu/|Avisioin Europe GmbH]] "Intelligent / Portable Scanner" - The return of the handheld scanner of the early 1990th :-(, but now with better technology :-).
+  *[[http://www.twain.org/|TWAIN Working Group]].
+    *[[http://www.twain.org/scannerusers/find-certified-drivers/view-submissions.html|TWAIN Working Group "Find TWAIN Certified Drivers"]].
+
+
+===== Forums, Newsgroups =====
+  *[[http://www.duo3d.com/forums/|DUO Forum]].
+  *[[http://www.facebook.com/LeapMotion|Facebook "Leap Motion"]].
+  *Google.
+    *[[http://groups.google.com/group/alt.comp.periphs.scanner/|Google Groups "alt.comp.periphs.scanner"]].
+    *[[https://plus.google.com/106312624963623427811/posts|Google + "Leap Motion"]].
+  *[[http://forums.leapmotion.com/|Leap Motion Forums]].
+  *[[http://www.twainforum.org/|The TWAIN Forum]].
+{{tag>"input device" "input devices" keyboard keyboards mouse mice joystick joysticks scanner scanners}}
+<footnote_navi_en>

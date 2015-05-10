@@ -1,0 +1,57 @@
+====== [hemmerling] How to install and run Windows Virtual PC /  Microsoft Virtual PC ======
+===== How to patch Windows Virtual PC for W2k hosts =====
+  -Get VirtualPC 2007 SP1 from [[http://www.microsoft.com/downloads/details.aspx?FamilyId=28C97D22-6EB8-4A09-A7F7-F6C7A1F000B5&displaylang=en|Microsoft VirtualPC 2007 SP1]].
+  -Download Orca 4.0.6001.0  from [[http://xldennis.wordpress.com/2007/02/17/the-orca-tool-a-msi-creator-and-package-viewer/|The Orca Tool – A MSI Creator and Package Viewer]].
+  -Install Orca
+  -Start the VPC 2007 install. Do not click on any buttons or do anything. Just leave the install sitting there.
+  -Now go to your temporary directory, e.g. "C:\Documents and Settings\USERNAME\Local Settings\Temp". You should see a file there named "Virtual_PC_2007_Install.msi". This is the installer, the file you want.
+  -Copy this file to your "My Documents" folder.
+  -Open "Virtual_PC_2007_Install.msi" with Orca. 
+  -On the left-hand side of the screen go to "CustomAction"
+  -On the right-hand side of the screen choose "CA_CheckIfWeCanInstall" and press the delete key.
+  -Go to File and then Save. Not Save As.
+  -Install the modified installer.
+
+Benefit to run VirtualPC2007 instead of VirtualPC2004: The new configuration option "Vista" allows you to run both Vista and Win7 as guest.
+
+Thanks to [[http://beatme101.com/forum/profile.php?mode=viewprofile&u=2|phantom]] for this advice :-).
+===== How to install Windows XP Mode on Win7 Systems with and without hardware-assisted Virtualization and on W2k, WinXP, Vista =====
+  -Get your Virtual PC.
+    *Download [[http://www.microsoft.com/downloads/details.aspx?FamilyId=28C97D22-6EB8-4A09-A7F7-F6C7A1F000B5&displaylang=en|Microsoft VirtualPC 2007 SP1]] for W2k, WinXP, Vista systems.
+    *Get "Windows Virtual PC 2009" from [[http://www.microsoft.com/windows/virtual-pc/|Windows Virtual PC]] for Win7 systems with hardware-assisted virtualization. For Win7 systems without hardware-assisted virtualization, please download "Windows XP Mode Update" too. Download is just enabled on computers running Win7. "Select your edition of Windows 7 and desired language for installation" -> Select "Professional 32-bit".
+    *On "Win 7 Starter" and "Win7 Home Premium", neither "Virtual PC 2007" nor "Windows XP Mode" are working :-(.
+      -Running "Virtual PC 2007 SP1" is blocked on Win7 due to compatibilty errors.
+      -Running ( not installation ) of "Windows XP Mode" is just enabled on "Windows 7 Professional", "Windows 7 Ultimate", "Windows 7 Enterprise". On "Win 7 Starter" and "Windows 7 Home Premium", the execution is denied by the error message "Windows XP Mode cannot be set up. Windows XP Mode is not available on this edition of Windows". {{:images:winxpmode.png|Windows XP Mode cannot be set up. Windows XP Mode is not available on this edition of Windows}}.
+      -But at least "Win7 Home Premium" is shipped with a "Virtual PC 2009", like "Windows 7 Professional", "Windows 7 Ultimate" and "Windows 7 Enterprise" too.
+  -Get "Windows XP Mode" from [[http://www.microsoft.com/windows/virtual-pc/|Windows Virtual PC]], a virtual disk with a preinstalled WinXP. Download is just enabled on computers running Win7. “Select your edition of Windows 7 and desired language for installation” → Select “Professional 32-bit”. There are diffrent virtual disks for different language versions of WinXP. So if you want to install an english WinXP and a german WinXP, you have to download 2 different "Windows XP Mode" files.
+  -Do the following for any language version of "Windows XP Mode", i.e. for english, german,.. WinXP which you want to run.
+    -Install "Window XP Mode" and if necessary "Windows XP Mode Update" on a Win7 computer. The default path is "C:\Program Files\Windows XP Mode", a better place is "C:\users\public\vpc", IMHO. You can just have one installation of "Windows XP Mode" on your computer - so you can´t use both an english "Windows XP Mode" and a german "Windows XP Mode" on your Win7 computer, concurrently :-(. Remember that you installed a software, not a data file. The "Readonly" attribute is set - and on Win7, you can´t unselect the "Readonly" attribute even if you are an administrator. So you can´t delete any installed files.
+    -Copy the 3 files "Windows XP Mode base.vhd", "KEY.txt", "VXPEURLA.txt" from the root installation directory to a W2k / WinXP computer. There on the W2k / WinXP computer, unselect the "Readonly" attribute, in the "Properties" menu ( which can be called by mouse-rightclick ). 
+    -Optioinal: Install "Virtual PC 2007" on that W2k / WinXP computer, start the application, and generate a suitable virtual machine file ( e.g. "Windows XP Mode base.vmc" ).
+    -Deinstall "Windows XP Mode" by selecting "Start / Control Panel / Programs - Uninstall a program / Windows XP Mode" and execute the "Uninstall" function. 
+    -A window with the message "Windows Virtual PC. Windows Virtual PC cannot start because this computer does not support hardware-assisted virualization. What is hardware-assisted virtualization?" appears on the Windows desktop during the deinstallation process, not necessarily in the foreground. Look for it if you see that the progress bar does not proceed. Just click on "Ok" button in that window to continue processing. 
+    -Copy the file "Windows XP Mode base.vhd" and the optional files "Windows XP Mode base.vmc", "KEY.txt", "VXPEURLA.txt" too, from the W2k / WinXP computer to the Windows computer on which you want to run "Windows XP Mode". This can be a Win7 Systems with and without hardware-assisted Virtualization, or a W2k, WinXP, Vista system. Let's assume that your target directory is "C:\users\public\vpc". If you want to deploy the files on a Win7 system, don´t put it in an archive file ( e.g. to compress the data ), as this sets the unwanted "Readonly" attribute automatically, when the files are extracted. Put the files in unique directory, or rename the files. 
+    -Put the files on the W2k / WinXP computer at a safe place - Thats your backup.
+  -Install and prepare the proper "Virtual PC" on your target computer, for operation. 
+    -With "Virtual PC 2007" on W2k, WinXP, Vista, you can create virtual machines and virtual file system, by the GUI interface of the "Virtual PC 2007" application.
+    -Win7 Home Premium.
+      -"Start / All Programs / Windows Virtual PC / Windows Virtual PC" opens the directory "Desktop / (username) / Virtual Machines". There is no application. Instead, this window supplies all commands for creation and management of virtual machines and virtual disks.
+      -If you imported a virtual machine file generated with "Virtual PC 2007", e.g. "Windows XP Mode base.vmc", please click on to it run the virtual machine. This causes Win7 to create the virtual machine shell information file "Windows XP Mode base.vmcx" in the directory "Desktop / (username) / Virtual Machines".
+      -How to change the virtualization settings, to select the proper network adapter and the path to the virtual disk.
+        -Click on "Windows XP Mode base.vmcx" and select the function "Settings" in the window menu bar.
+        -Or right-click on the file "Windows XP Mode base.vmcx" and select the function "Settings" in the context menu.
+      -You can just delete the virtual machine file, e.g. "Windows XP Mode base.vmc", if there is no virtual machine shell information file ( e.g. "Windows XP Mode base.vmcx" ).
+      -You can start a virtual machine by selecting the virtual machine shell information file "Windows XP Mode base.vmcx" and executing the window command "Open". As with earlier editions of "Virtual PC", you can suspend or stop the virtual machine by the menu commands in the output window.
+  -Run the "Virtual PC" application. You can use several virtual computers with different virtual disks at the same time, while each virtual disk can contain a file image of different language versions of "Windows XP Mode".
+===== Microsoft Virtual Server =====
+  *I did not succeed to run Microsoft Virtual Server R2 SP1 on W2k-Server.
+  *It is possible force the installation of Microsoft Virtual Server R2 on W2k-Server, with a patched installer. 
+    -On the left-hand side of the screen go to "CustomAction".
+    -The equivalent key which has to be deleted is "CA_CheckIfWeCanInstall".
+  *But after installation ( and reboot ), Microsoft Virtual Server R2 SP1 does not run, while IIS5 is properly running. No connection by 
+    *the "Virtual Machine Remote Control Client" to [[vmrc://localhost|vmrc://localhost]].
+    *the web browser to [[http://localhost:80/VirtualServer/VSWebApp.exe?view=1]].
+
+{{tag>"Virtual PC" "Virtual PC 2007" "Virtual PC 2004" W2k "Windows 2000" Patch}}
+
+<footnote_navi_en>

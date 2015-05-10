@@ -1,0 +1,103 @@
+====== [hemmerling] Graphics Tablets and Graphics Digitizers ======
+===== Motivation ===== 
+  *I got a KD4300 digitizer of the [[http://www.graphteccorp.com/|GRAPHTEC corporation]] in January 1999. I don´t own it anymore, since 2005. The tracking area is 380 mm x 260 mm ( A4 oversize ). My 4 - button cursor comes with a cable, unfortunately. 
+{{images:gtablet.jpg|KD4300 digitizer by GRAPHTEC corporation}}
+===== Advice: Insist on Compatibilty to the Industry Standard ===== 
+  *The industry standard for graphics tablets is the Summagraphics MM compatible emulation, for the last 20+ years. My advice: Don't buy a tablet if it does not work with all your favourite applications using the original Summagraphics MM drivers !
+  *[[http://www.calcomp.com/supportdigitizing.htm|GTCO CalComp Periphals, an elmstruction company - 	Digitizing & Measurement Products, Technical Support]].
+    *Important Notice.
+      *"As of October 8, 2004, the Wintab compliant drivers previously provided for our digitizer products are no longer available from GTCO CalComp" :-(. 
+      *"A modified API, similar to Wintab but with specific functionality removed from the driver (including scaling and region definition) is offered as an alternative—GTCO CalComp TabletWorks Version 10.0".
+    *[[http://www.calcomp.com/supportsumma.htm|GTCO CalComp Periphals, an elmstruction company - 	Digitizing & Measurement Products / Technical Support / Summagraphics Brand]].
+      *[[http://www.calcomp.com/supportsummasoftware.htm|GTCO CalComp Periphals, an elmstruction company - 	Digitizing & Measurement Products / Technical Support / Summagraphics Brand / Driver & Software Downloads  for Summagraphics Brand Products]].
+===== KD4300 Digitizer by GRAPHTEC Corporation ===== 
+  *Check the DIP switch settings and functions for proper configuration and emulation selection:
+    *[[http://web.archive.org/web/*/http://www.graphteccorp.com/support/hardware/|Archive.org "GRAPHTEC corporation - HARDWARE SUPPORT"]].
+      *[[http://web.archive.org/web/*/http://www.graphteccorp.com/support/hardware/kd3200_main.html|Archive.org "GRAPHTEC corporation - KD3200, 3300, 3800, 4300, 4600. DIP Switch Settings and Functions"]].
+  *[[http://web.archive.org/web/*/http://www.graphteccorp.com/support/software/digitizers.html|Archive.org "GRAPHTEC corporation 'Support / Software & Drivers / Digitizers'"]] - List of once available drivers. Note that there was never a MSDOS tablet driver supplied!
+===== Setup of the KD4300 Graphics Tablet and of Software =====
+  *For these instructions, I assume that the KD4300 graphics tablet is attached at the serial COM2 port, while the mouse is attached at the serial COM1 port. Operation of a graphics tablet at COM3 or COM4 is possible, if the ports got their own interrupts ( INT9.. INT15 ). This requires special serial cards !
+  *Set up the KD4300 graphics tablet switches for proper emulation mode. For MSDOS applications, you must choose the Summagraphics MM emulation. 
+
+| | | | | | | | | | | | | | | | | | | | | | | | | | 
+| Driver \ DIP-Switch ^ 1 | ::: | ::: | ::: | ::: | ::: | ::: | ::: ^ 2 | ::: | ::: | ::: | ::: | ::: | ::: | ::: ^ 3 | ::: | ::: | ::: | ::: | ::: | ::: | ::: |
+| Graphtec WINTAB ^ 1 ^ 2 ^ 3 ^ 4 ^ 5 ^ 6 ^ 7 ^ 8 ^ 1 ^ 2 ^ 3 ^ 4 ^ 5 ^ 6 ^7 ^ 8 ^ 1 ^ 2 ^ 3 ^ 4 ^ 5 ^ 6 ^7 ^ 8 ^
+| ::: | OFF | OFF | OFF | ON | OFF | OFF | OFF | OFF | OFF | OFF | OFF | OFF | OFF | ON | ON |ON | OFF | OFF | OFF | OFF | OFF | OFF | OFF | ON |
+| | | | | | | | | | | | | | | | | | | | | | | | | | 
+| Graphtec ADI ^ 1 ^ 2 ^ 3 ^ 4 ^ 5 ^ 6 ^ 7 ^ 8 ^ 1 ^ 2 ^ 3 ^ 4 ^ 5 ^ 6 ^7 ^ 8 ^ 1 ^ 2 ^ 3 ^ 4 ^ 5 ^ 6 ^7 ^ 8 ^
+| OFF| OFF | OFF | OFF | ON | OFF | OFF | OFF | OFF | OFF | OFF | OFF | OFF | OFF | ON | ON | ON | OFF | OFF | OFF | OFF | OFF | OFF | OFF | OFF |
+| | | | | | | | | | | | | | | | | | | | | | | | | | 
+| Summagraphics MM ^ 1 ^ 2 ^ 3 ^ 4 ^ 5 ^ 6 ^ 7 ^ 8 ^ 1 ^ 2 ^ 3 ^ 4 ^ 5 ^ 6 ^7 ^ 8 ^ 1 ^ 2 ^ 3 ^ 4 ^ 5 ^ 6 ^ 7 ^ 8 ^
+| OFF | OFF | OFF | OFF | ON | ON | OFF | OFF | OFF | OFF | OFF | ON | OFF | ON | ON | ON | ON | OFF | OFF | OFF | ON | OFF | OFF | OFF | OFF |
+
+  *Graphtec WINTAB mode summary: Format 2.
+  *Graphtec ADI mode summary: Format 1.
+  *MM mode summary: 9600 bps, odd parity, 8 databits, 1 stopbit, binary output, stream mode.
+  *For use with MSDOS applications, please get an MSDOS tablet driver !
+    *[[http://www.calcomp.com/supportdigitizing.htm|GTCO CalComp Periphals]] supplies the CalComp Input Technologies Diskette Utility with the Summagraphics DOS Drivers/Utilities, including an MSDOS tablet driver for Summagraphics MM compatible devices. 
+    *[[http://web.archive.org/web/*/http://www.microcadam.com/tech_sup/pages/fod355.html|Archive.org "MicroCadAM,Inc."]] ( - 2001-02-14 ) tells you how to configure the MSDOS tablet driver TABLET.COM ! A previously loaded mouse driver is suspended, automatically. My KD4300 graphics tablet is suitable for this driver !
+    *The [[http://www.genius-europe.com/|Genius Kye]] NewSketch 1212HRIII graphics tablet has a Summagraphics MM compatible emulation. For operation of the supplied MSDOS tablet driver GTABLET.COM, a mouse driver may not be loaded.
+    *The Eagle Pen & Pen Keyboard tablet series, distributed by [[http://www.pearl.de/|PEARL Agency]] for Germany, has a Summagraphics MM compatible emulation, but its drivers don't recognize my KD4300 graphics tablet !
+  *For use with standard MSDOS graphics and CAD applications (and even textmode applications), don't load a mouse driver, but load a tablet driver.
+    *TABLET.COM /2 /A - in "absolute" mode, the tablet acts like a tablet. Pointing the 4-button cursor to a certain position moves the cursor on the screen to the equivalent position
+    *TABLET.COM /2 /R - in "relative" mode, the tablet acts like a mouse. Moving the 4-button cursor on the tablet moves the cursor on the screen, relative to the starting position on the screen.
+  *Just for use with "AUTODESK 3D-Studio Release 4" in the MOUSE or SUMMA mode, an MSDOS mouse driver must be loaded. If you fail, 3DS aborts with the errormessage "specified display too small". The graphics device may be configured by the command 3DSHELL VIBCFG
+    *For using the mouse as input device, you must setup the file 3DS.SET:
+
+| INPUT-DEVICE = MOUSE |
+| COM-PORT = 1 |
+
+  *:
+    *For using the tablet in "relative" mode, additionally you must load a tablet driver. It does not matter if the tablet driver is configured in "absolute" or "relative" mode.
+    *For using the tablet in "absolute" mode, you must setup the file 3DS.SET:
+
+| INPUT-DEVICE = SUMMA |
+| COM-PORT = 2 |
+
+  *:
+    *3DS uses the standard BIOS functions for accessing the tablet in SUMMA mode. For proper operation of 3DS in SUMMA mode, the serial port must be handled by interrupt drivers, as provided by FOSSIL drivers !
+    *For the SUMMA mode, 3DS must be configured to address the complete table area by the INFO/AREA menu option.
+  *Making use of external, interrupt-driven ADI drivers with "AUTODESK 3D-Studio Release 4":
+    *You must setup the file 3DS.SET like this:
+
+| INPUT-DEVICE = DGPADI |
+
+  *:
+    *For the ADI driver of Summagraphics, you must set the environment variable DGPADI:
+
+| set DGPADI=c:\3ds4\drivers\dgpsumma.exp |
+
+  *:
+    *For the ADI driver of Graphtec, you must set the environment variable DGPADI:
+
+| set DGPADI=c:\3ds4\drivers\dgp020.exp |
+
+  *:
+    *By deleting the file 3DADI.CFG, the configurations parameters may be set up, for new.
+    *The graphics device may be configured by the command:
+
+| 3DSHELL VIBCFG |
+
+  *:
+    *Unfortunately, both the Summagraphics and Genius ADI drivers don't work with 3DS and my KD4300 graphics tablet: The cursor is not visible on the screen. The Graphtec ADI drivers DGP020.EXP and DGP022.EXP ( tablet size 11"x11" or 15"x15" ) work with 3DS, but ( just ) offer the "relative" mode !
+  *With WIN3.1, WIN95/98, W2K, you may either install the original GRAPHTEC or SUMMAGRAPHICS Wintab drivers. GRAPHTEC offers just "absolute" mode and does not allow to use of the complete tablet area, while with SUMMAGRAPHICS you may use the complete tablet area and you may switch between "absolute" and "relative" mode, temporarily !
+===== Alternative Hardware ===== 
+  *Graphics digitizers by [[http://www.wacom.com/|Wacom]] - Note that Linux drivers are just supplied for the more expensive "professional" products.
+    *"WACOM Bamboo" tablets with or without touch sensors.
+    *The angle of inclination of pens is larger and therefore better with more expensive professional tablets.
+  *[[http://www.calcomp.com/|GTCO CalComp Periphals, an elmstruction company]]
+    *The discontinued graphics digitizer "CALCOMP Drawingslate II 32180 SER 12x18".
+  *Graphics digitizers by [[http://www.interactivewhiteboards.com/|Numonics Corporation - The Interactive Whiteboard People*. Veteran Owned Business]].
+===== Third-Party Software ===== 
+  *[[http://www.vtablet.com/|Digitizer Technology Company, LLC]] - The commercial "'Virtual Tablet Interface' Wintab-compatible, drivers for Windows, for over 500 digitizers including Summagraphics, CalComp, GTCO, ALTEK, Kurta, Wacom, ARISTO, Hitachi, Kontron, Numonics, Houston Instruments, Mitsubishi, Science Accessories, Genius, AceCad and LASICO".
+  *The OpenSource [[http://linuxwacom.sourceforge.net/|SourceForge "The Linux Wacom Project"]], [[http://www.sourceforge.net/projects/linuxwacom|SourceForge "The Linux Wacom Project"]].
+    *Wiki [[http://sourceforge.net/apps/mediawiki/linuxwacom/|SourceForge Wiki "The Linux Wacom Project"]].
+===== Resources ===== 
+  *[[http://web.archive.org/web/*/http://selectservices.bentley.com/technotes/technotes/8147.htm|Archive.org "Bentley Select - "TechNotes / FAQs" for Bentley Tablet Driver with Summagraphics Tablets"]] ( - 2005-04-07 ).
+  *[[http://web.archive.org/web/*/http://www.microcadam.com/tech_sup/pages/fod355.html|Archive.org "MicroCadAM,Inc. 'Doc. # 351. Summagraphics SUMMA SKETCH'"]]) ( - 2001-02-14 ) - Installation tips. 
+  *All about protocols of graphics tablets and mice is documented in the free "Logimouse C7 Technical Reference Manual" by [[http://www.logitech.com/|Logimouse]], published in 1986!
+===== Forums, Newsgroups =====
+  *[[http://groups.google.com/group/comp.periphs/|Google Groups "comp.periphs"]], [[http://groups.google.com/group/alt.comp.hardware/|Google Groups "alt.comp.hardware"]], [[http://groups.google.com/group/de.comp.periph.misc/|Google Groups "de.comp.periph.misc"]], [[http://groups.google.com/group/alt.cad.autocad/|Google Groups "alt.cad.autocad"]], [[http://groups.google.com/group/alt.cad/|Google Groups "alt.cad"]], [[http://groups.google.com/group/alt.cad.cadkey/|Google Groups "alt.cad.cadkey"]], [[http://groups.google.com/group/alt.design.graphics/|Google Groups "alt.design.graphics"]], [[http://groups.google.com/group/alt.design.graphics/|Google Groups "alt.design.graphics"]], [[http://groups.google.com/group/comp.cad.autocad/|Google Groups "comp.cad.autocad"]], [[http://groups.google.com/group/autodesk.autocad.digitize-display/|Google Groups "autodesk.autocad.digitize-display"]], [[http://groups.google.com/group/autodesk.autocad.r12general/|Google Groups "autodesk.autocad.r12general"]], [[http://groups.google.com/group/autodesk.autocad.r13general/|Google Groups "autodesk.autocad.r13general"]], [[http://groups.google.com/group/autodesk.autocad.r14general/|Google Groups "autodesk.autocad.r14general"]], [[http://groups.google.com/group/corel.support.draw8.draw/|Google Groups "corel.support.draw8.draw"]], [[http://groups.google.com/group/corelsupport.draw3/|Google Groups "corelsupport.draw3"]], [[http://groups.google.com/group/corelsupport.draw4/|Google Groups "corelsupport.draw4"]], [[http://groups.google.com/group/corelsupport.draw5/|Google Groups "corelsupport.draw5"]], [[http://groups.google.com/group/corelsupport.draw6/|Google Groups "corelsupport.draw6"]], [[http://groups.google.com/group/corelsupport.draw7/|Google Groups "corelsupport.draw7"]], [[http://groups.google.com/group/corelsupport.draw8-draw/|Google Groups "corelsupport.draw8-draw"]], [[http://groups.google.com/group/corelsupport.draw8-install/|Google Groups "corelsupport.draw8-install"]].
+{{tag>"graphics tablet" "graphics tablets" "graphics digitizer" "graphics digitizers" tablet tablets digitizers digitizer}}
+<footnote_navi_en>
+

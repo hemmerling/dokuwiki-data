@@ -1,0 +1,482 @@
+====== [hemmerling] Software Frameworks ======
+Related pages:
+  *[[webtech.html|Web Technologies ( HTML5, HTML, XML & Javascript )]].
+  *[[api.html|Application programming interface ( API )]].
+===== Events and Organisations =====
+  *The commercial conference [[http://www.qtdeveloperdays.com/|QT Developer Days]] in Berlin, 2014-10-06 - 2014-10-08.
+===== C/C++ specific Frameworks =====
+  *According to the 1998 ANSI/ISO C++ standard, "STL isn't longer a library of its own, because it was integrated into the C++ Standard library and is now part of it".
+  *Attention ! STL, STLport, C++ stdlibrary are not the same.
+==== Standard Template Libraries ====
+=== STL ===
+  *[[http://www.sgi.com/tech/stl/|SGI "Standard Template Library Programmer's Guide"]].
+  *[[http://synesis.com.au/resources.html|Synesis Software Pty Ltd "Resources / Libaries"]].
+    *"The STLSoft libraries provide STL extensions and facades over operating-system and third-party-library APIs. The libraries are 100% header-only".
+    *[[http://www.stlsoft.org/|Synesis Software Pty Ltd "STLSoft"]], [[http://stlsoft.sourceforge.net/|SourceForge "STLSoft"]], [[http://www.sourceforge.net/projects/stlsoft/|SourceForge "STLSoft C and C++ Libraries"]].
+  *[[http://www.openwatcom.org/index.php/Open_Watcom_STL|Open Watcom STL (OWSTL)]] - "Currently OWSTL is in an unfinished, immature state. Perhaps 50% of the STL is available, depending on how one measures it, and none of the code has yet been exercised extensively in the real world".
+    *[[http://www.openwatcom.org/index.php/Open_Watcom_FAQ|Open Watcom FAQ]] - "Open Watcom STL (OWSTL). Is OWSTL a port of STLport or some other third party library? No. OWSTL is a completely fresh implementation of the STL created by the Open Watcom contributors specifically for Open Watcom".
+=== NSTL ===
+  *[[http://nstl.sourceforge.net/|SourceForge "NSTL - Non-Standard Template Library"]], [[http://www.sourceforge.net/projects/nstl/|SourceForge "C++ NSTL"]].
+
+==== C/C++ Standard Libraries ====
+  *[[http://www.gnu.org/software/gcc/libstdc++/|Free Software Foundation (FSF), GNU Project "Standard C++ Library v3"]].
+  *[[http://www.boost.org/|Boost C++ Libraries]] - "Boost provides free peer-reviewed portable C++ source libraries".
+  *[[http://stlport.sourceforge.net/|SourceForge "STLport"]], [[http://www.sourceforge.net/projects/stlport/|SourceForge "STLport"]] - Multiplatform C++ Standard Library, originally developed by [[http://www.stlport.org/|STLport Consulting]].
+  *[[http://www.ultimatepp.org/|Ultimate++]] - "A C++ cross-platform rapid application development framework".
+==== Comparison Chart - STL support by C++ Compiler Releases ====
+^ Compiler ^ STL ^
+^ Microsoft Visual C++ 1.5 | No support for C++ templates, a mandatory feature for STL :-( |
+^ Microsoft Visual C++ 4 | Shipped with very early version, in the installation CD directory "STL". No automatic installation |
+^ Microsoft Visual C++ 5, 6; Microsoft Visual Studio 97 | Shipped |
+^ Microsoft Visual C++ .NET 2003 | Not supported |
+^ Microsoft Visual C++ .NET 2005 | Shipped |
+^ Borland C++ 3, 4 | Not shipped |
+^ Borland C++ 5.0 | Shipped with very early version |
+^ Borland C++ 5.5; Borland C++ Builder 5, 6, X | Shipped |
+^ Open Watcom 11c | Not shipped, current version of STLport must be patched |
+^ Open Watcom 1.9 | Shipped with the limited, unfinished "Open Watcom STL" (OWSTL) |
+^ GNU C++ | Shipped since GCC 2.95 |
+==== Resources ====
+  *[[http://www.ubreymann.de/|Prof. Dr. Ulrich Breymann]].
+    *[[http://www.ubreymann.de/publ.html|Prof. Dr. Ulrich Breymann "Veröffentlichungen"]].
+      *Book [[http://www.ubreymann.de/stlbe.html|Prof. Dr. Ulrich Breymann "Designing Components with the C++ STL"]] - "Free download of the revised and improved edition as a PDF-file for non-commercial purposes only!".
+  *Instructions how to run STLport with VC6, VC7.
+    *[[http://www.vibig.net/Article_Print.asp?ArticleID=277|vibig.net - Your Ulitmate Home "Installing STLPort for Visual C++ 6.0"]].
+    *[[http://wayback.archive.org/web/*/http://www.softadvances.com/articles/stlportusing.html|Archive.org "Using STLport with Microsoft Visual C++ 6"]] ( - 2005-04-08 ).
+    *[[http://wayback.archive.org/web/*/http://www.goth.net/~ejb/freevc.php|Archive.org "How do I get a free, legal version of the Visual C++ compiler?"]] ( - 2004-02-13 ).
+    *[[http://wayback.archive.org/web/*/http://www.lythe.org.uk/freevc.php|Archive.org "How do I get a free, legal version of the Visual C++ compiler?"]].
+  *User statement: "Use of STL won't guaranty portability, it is not the purpose of STL. But it is a good practice as a programmer. Even if STLport can help you using STL on many compiler/platform it is just because of the port and not because of the STL. I would even say that if you start using great template techniques your code will be all but portable, things like partial template specialization have only been implemented very recently by some compilers."
+  *[[http://en.wikipedia.org/wiki/C%2B%2B|EN.Wikipedia "C++"]], [[http://de.wikipedia.org/wiki/C%2B%2B|DE.Wikipedia "C++"]].
+===== Graphical Frameworks and Graphical User Interfaces =====
+==== Fast Light Toolkit ( FLTK ) [ for C++ ] ====
+  *[[http://www.fltk.org/|Fast Light Toolkit ( FLTK ]], [[http://fltk.sourceforge.net/|SourceForge "Fast Light Toolkit ( FLTK ]"]], [[http://www.sourceforge.net/projects/fltk/|SourceForge "Fast Light Tool Kit"]].
+  *FLTK also includes a UI builder called FLUID ( "FLTK User Interface Designer" ) that can be used to create applications.
+  *FLTK has a direct interface to OpenGL. A compatibility header file for GLUT is included.
+  *[[http://en.wikipedia.org/wiki/FLTK|EN.Wikipedia "FLTK"]], [[http://de.wikipedia.org/wiki/FLTK|DE.Wikipedia "FLTK"]].
+==== FOX [ for C++ ] ====
+  *[[http://www.fox-toolkit.org/|FOX Toolkit]] for C++ on Linux/X11, Windows - "FOX stands for Free Objects for X. It is a C++ based class library for building Graphical User Interfaces".
+==== GEM ====
+  *[[http://www.seasip.info/Gem/|John Elliott "Intel GEM main page"]].
+  *[[http://dylanharris.org/prose/gem/intro.shtml|Dylan Harris "GEM Archive"]].
+  *[[http://www.deltasoft.com/|Ben A. L. Jemmett, Deltasoft - "GEM Contents"]].
+    *[[http://www.deltasoft.com/dev-gw.htm|Ben A. L. Jemmett, Deltasoft - "GEM World: Developer's Page"]].
+  *[[http://www.retroarchive.org/|Retrocomputing Archive "CP/M"]].
+    *[[http://www.retroarchive.org/cpm/archive/unofficial/gemworld.html|Retrocomputing Archive "GEM World - 
+GEM : THE PROJECT"]].
+    *[[http://www.retroarchive.org/cpm/archive/unofficial/gemdev.html|Retrocomputing Archive "GEM DEVELOPERS PAGE"]].
+  *[[http://gemtos.free.fr/|GEMTOS : a collection of TOS manuals on the web !]].
+==== GraphApp [ for C++ ] ====
+  *The OpenSource [[http://sydney.edu.au/engineering/it/~graphapp/|GraphApp]] for Windows, Linux - "A toolkit for platform-independent graphical user interface programming in the C languag".
+==== GIMP Toolkit / GTK+ / GTK+ 1 / GTK+ 2, Gtkmm [ for C++, Python,... ] ====
+=== The Framework ===
+  *[[http://www.gtk.org/|The GTK+ Project]] for Linux, Windows.
+    *[[http://www.gtk.org/download/win32.php|The GTK+ Project, Download for Windows (32-bit)]].
+  *[[http://www.gtkmm.org/|gtkmm - C++ Interfaces for GTK+ and GNOME]].
+  *[[http://projects.gnome.org/gtkglext/|GtkGLExt]], [[http://gtkglext.sourceforge.net/|SourceForge "GtkGLExt"]], [[http://www.sourceforge.net/projects/gtkglext/|SourceForge "GtkGLExt"]] - "An OpenGL extension to GTK+".
+  *"GtkGLArea".
+    *[[http://git.gnome.org/cgit/gtkglarea/|GNOME GIT source code repository "gtkglarea"]].
+    *[[http://www.mono-project.com/GtkGLArea|mono "GtkGLArea"]].
+  *[[http://ruby-gnome2.sourceforge.jp/|SourceForge "Ruby-GNOME2 Project"]], [[http://www.sourceforge.jp/projects/ruby-gnome2/|SourceForge "Ruby-GNOME2"]].
+  *The outdated [[http://wingtk.sourceforge.net/|SourceForge "GTK+, Glade, LibGlade etc. for Windows"]], [[http://www.sourceforge.net/projects/wingtk|SourceForge "WinGTK"]] - "A developer's package which installs GTK+ 1.3 libraries for Win32".
+=== GUI Designer ===
+  *[[http://glade.gnome.org/|Glade - A User Interface Designer]] for Linux/Gnome and Windows - "A RAD tool to enable quick & easy development of user interfaces for the GTK+ toolkit and the GNOME desktop environment".
+  *[[http://developer.gnome.org/glade/|Gnome Developer "Glade-Oberflächenentwicklung-Handbuch"]].
+=== Resources ===
+  *[[http://www.icewalkers.com/Linux/Software/Development/Libraries/GTK/11580/|Linux Software at IceWalkers.Com "Software / Development / Libraries / GTK"]] - list of GTK based libraries for Linux/X11, and libraries on which GTK is based.
+  *[[http://www.linux-community.de/Internal/Artikel/Print-Artikel/LinuxUser/2002/02/GUI-Programme-erstellen-mit-Glade|Linux-User "Lichtung im GTK-Wald. GUI-Programme erstellen mit Glade"]].
+  *[[http://www.linux-magazin.de/Heft-Abo/Ausgaben/2001/12|Linux-Magazin "Rapid Application Development mit Glade"]], 2001-12.
+  *[[http://en.wikipedia.org/wiki/GTK%2B|EN.Wikipedia "GTK+"]], [[http://de.wikipedia.org/wiki/GTK%2B|DE.Wikipedia "GTK+"]].
+  *[[http://en.wikipedia.org/wiki/Gnome|EN.Wikipedia "Gnome"]], [[http://de.wikipedia.org/wiki/Gnome|DE.Wikipedia "Gnome"]].
+  *[[http://en.wikipedia.org/wiki/Glade_Interface_Designer|EN.Wikipedia "Glade Interface Designer"]], [[http://de.wikipedia.org/wiki/Glade|DE.Wikipedia "Glade"]].
+  *[[http://www.zetcode.com/|ZetCode Tutorial]].
+    *GUI: "GTK+ tutorial", "Ruby GTK tutorial", "GTK# tutorial", "Visual Basic GTK# tutorial", "PyGTK tutorial", "PHP GTK tutorial", "Qyoto C# tutorial", "FreeBASIC GTK tutorial", "JavaScript GTK tutorial".
+
+==== Microsoft GUI Frameworks ====
+=== Resources ===
+  *Incomplete list of Microsoft GUI Frameworks:
+    *Microsoft Foundation Classes ( MFC ).
+    *Active Template Library ( ATL ).
+    *Windows Template Library ( WTL ).
+    *Windows Forms.
+    *GDI and GDI+.
+  *[[http://msdn.microsoft.com/en-us/library/52cs05fz%28v=VS.80%29.aspx|Microsoft MSDN Library "Visual C++ Libraries Reference"]].
+=== GDI, GDI+ ===
+  *[[http://msdn.microsoft.com/en-us/library/ms533798|Microsoft MSDN Library "GDI+"]].
+  *[[http://www.microsoft.com/download/en/details.aspx?DisplayLang=en&id=18909|Microsoft Download Center "Platform SDK Redistributable: GDI+"]].
+=== MFC [ for Watcom C/C++, Microsoft Visual C++ ] ===
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3827326664/hemmerling-21|Frank Budszuhn: "Visual C++: Windows-Programmierung mit den MFC"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1847195563/hemmerling-21|Stefan Bjorndander: "Microsoft Visual C++ Windows Applications by Example. Code and Explanation for Readl-World MFC C++ Applications"]], for VS2008.
+    *[[http://www.packtupub.com/|Publisher's website]].
+    *[[http://www.joyofprogramming.com/|S.G. Ganesh, reviewer of the book]].
+    *[[http://www.packtpub.com/files/code/5562_Code.zip|Download "5562_Code.zip"]].
+  *[[http://www.codeguru.com/cpp/cpp/cpp_mfc/tutorials/article.php/c4017/|Andrew Fenster: "MFC .DLL TUTORIAL"]].
+  *[[http://msdn.microsoft.com/en-us/library/fwz35s59%28VS.80%29.aspx|CDialog::OnInitDialog]] - "This message is sent to the dialog box during the Create, CreateIndirect, or DoModal calls, which occur immediately before the dialog box is displayed".
+  *[[http://www.codeproject.com/KB/cpp/DialogDataExchange.aspx|The CodeProject: "Dialog Data Exchange in MFC"]].
+  *[[http://msdn.microsoft.com/de-de/library/d06h2x6e.aspx|Microsoft MSDN Library "MFC Reference"]].
+    *[[http://msdn.microsoft.com/en-us/library/x4d0y489%28VS.80%29.aspx|MFC Library Reference: CWnd::DoDataExchange]]
+    *[[http://msdn.microsoft.com/en-us/library/fwz35s59%28VS.80%29.aspx|MFC Library Reference: CDialog::OnInitDialog]].
+    *[[http://msdn.microsoft.com/en-us/library/d54078ey%28VS.80%29.aspx|MFC Library Reference: END_MESSAGE_MAP]].
+    *[[http://msdn.microsoft.com/en-us/library/9x1t4dy1%28VS.80%29.aspx|MFC Library Reference: BEGIN_MESSAGE_MAP]].
+    *[[http://msdn.microsoft.com/en-us/library/fy1hkbdk%28VS.80%29.aspx|MFC Library Reference: CWnd::OnTimer]].
+=== Windows Template Library ( WTL ) ===
+  *The Opensource [[http://wtl.sourceforge.net/|Sourceforge "Windows Template Library (WTL)"]], [[http://www.sourceforge.net/projects/wtl/|Sourceforge "Windows Template Library (WTL)"]].
+  *[[http://www.microsoft.com/download/en/details.aspx?displaylang=en&id=11906|Microsoft Download Center "Windows Template Library (WTL) 7.0"]].
+  *[[http://www.codeproject.com/kb/wtl/|The Code Project - WTL]].
+  *[[http://www.heise.de/newsticker/meldung/Microsoft-gibt-Quellcode-fuer-Windows-Template-Library-frei-98551.html|heise online "Microsoft gibt Quellcode für Windows Template Library frei"]], 2004-05-14.
+  *The WTL library used to be located on the Microsoft Platform SDK.
+==== MiNT for ATARI-ST / 68K [ for C/C++ ] ====
+  *See [[atarist.html|The ATARI-ST, the ATARI Falcon & the world of Digital Data Deike]].
+==== Open Central "V" [ for C++ ] ====
+  *[[http://brucewampler.com/|Bruce Wampler]].
+    *[[http://wayback.archive.org/web/*/http://www.objectcentral.com/|Archive.org "Object Central"]].
+    *[[http://wayback.archive.org/web/*/http://objectcentral.com/objectcentral/index.html|Archive.org "Object Central - Archive"]] 
+    *The discontinued "V C++ GUI Framework".
+    *The discontinued "The V IDE for GNU C++ and Java". 
+    *"The Essence of Object-Oriented Programming with Java and UML". 
+==== Open Computer Vision Library ( OpenCV ) ====
+  *See [[imageprocess.html|Image Processing]].
+==== Open Motif, Xlib ====
+=== Tools ===
+  *[[http://www.opengroup.org/|The Open Group - Making Standards Work]].
+    *The commercial [[http://www.opengroup.org/openmotif/|Open Motif]].
+      *[[http://www.opengroup.org/openmotif/faq.html|Open Motif FAQ]].
+        *3.Question: "Does the Open Group Public License for Motif meet the Open Source Guidelines?".
+        *Answer: "No. The Open Group Public License for Motif grants rights only to use the software on or with operating systems that are themselves Open Source programs".
+=== Resources ===
+  *[[http://www.gae.ucm.es/~barrio/docs/xlib/|The Labs - Design & Functionality For The Net "XLib HTML Manual"]].
+  *[[http://www.rahul.net/kenton/|Kenton Lee]] - "X and Motif Consulting".
+  *[[http://www.motifdeveloper.com/|motifdeveloper.com]].
+  *[[http://tronche.com/gui/x/|Christophe Tronche "The X Window system"]].
+
+==== Open Palmtop Integrated Environment ( OPIE ) ====
+  *[[http://opie.sourceforge.net/|SourceForge "Opie - Open Palmtop Integrated Environment. Applications and libraries for mobile devices"]], [[http://www.sourceforge.net/projects/opie|SourceForge "Opie"]].
+  *[[http://en.wikipedia.org/wiki/OPIE_user_interface|EN.Wikipedia "OPIE user interface"]], [[http://de.wikipedia.org/wiki/Open_Palmtop_Integrated_Environment|DE.Wikipedia "Open Palmtop Integrated Environment"]].
+==== Object Windows Library ( OWL ) , OWL Next, Borland OWL, Borland VCL, Borland CLX, Kylix Open [ for C++ ] ====
+  *[[http://owlnext.sourceforge.net/|Sourceforge "OWLNext"]], [[http://www.sourceforge.net/projects/owlnext/|Sourceforge "OWLNext"]].
+  *[[http://personal.sirma.bg/Jogy/|Jogy]].
+    *[[http://personal.sirma.bg/Jogy/owl.html|Jogy - OWL History]].
+    *[[http://personal.sirma.bg/Jogy/owlnext.html|Jogy - OWLNext]].
+  *[[http://en.wikipedia.org/wiki/Kylix_%28software%29|EN.Wikipedia: "Kylix (software)"]].
+==== Qt [ for C++, Python ] ====
+=== General ===
+  *[[http://www.qt-project.org/|QT Project]].
+  *Wiki [[http://www.qt-project.org/wiki/|QT Developer Network Wiki]].
+  *[[http://qt.digia.com/|Digia Oyj "Qt - A cross-platform application and UI framework"]].
+  *[[http://doc.qt.digia.com/|Qt Documentation Archives]].
+  *The IDE "QT Designer".
+    *[[http://www.qt-project.org/doc/qt-4.8/designer-manual.html|QT Project "Qt Designer Manual"]].
+    *[[http://www.qt-project.org/forums/viewthread/14397|QT Project Forums, Thread "Where can I download Qt Designer separately ?"]] - "Designer is in [[https://qt.gitorious.org/qt/qttools|QtTools]],  module (src/designer)".
+  *The IDE "QT Creator".
+    *[[http://web.archive.org/web/*/http://qt.digia.com/Product/Developer-Tools/|Archive.org "Digia Oyj 'Qt Creator IDE and tools'"]] for Windows, Linux ( - 2013-06-01 ).
+    *[[http://download.qt-project.org/official_releases/qtcreator/|Qt Downloads "QT Creator"]].
+    *[[http://en.wikipedia.org/wiki/Qt_Creator|EN.Wikipedia "Qt Creator"]], [[http://de.wikipedia.org/wiki/Qt_Creator|DE.Wikipedia "Qt Creator"]].
+    *On my Athlon XP2400 computer, on Win7, "QT Creator 5" crashes immediately when starting the application, by the error message "APPCRASH, Fault Module Name: Qt5Core.dll, Fault Module Version: 5.3.1.0" :-(.
+  *[[http://web.archive.org/web/*/http://qt.nokia.com/products/eclipse-integration|Archive.org "Qt Eclipse Integration for C++"]] for Eclipse ( - 2012-06-12 ).
+  *The OpenSource plugin [[http://www.qt-project.org/wiki/QtVSAddin|Qt Visual Studio Add-in]] for Visual Studio.
+  *[[http://www.qt-project.org/doc/|QT Online Reference Documentation]] for the latest / current edition.
+    *[[http://harmattan-dev.nokia.com/docs/library/html/qt4/qtopengl.html|Nokia - QT 4.7 "QtOpenGL Module"]].
+  *[[http://www.developer.nokia.com/Develop/Qt/|NOKIA Developer - QT]].
+  *[[http://www.developer.nokia.com/Community/Wiki/Category:Qt|NOKIA Developer Wiki - QT]].
+  *[[ftp://ftp.qt.nokia.com/|Nokia's FTP Archive for Qt]].
+=== QML of QT5 ===
+  *[[http://qt.digia.com/Product/qt-quick/|QT Quick]].
+  *[[http://developer.ubuntu.com/apps/qml/|Ubuntu Developer "QML"]].
+  *[[http://www.qt-project.org/doc/qt-5/qtquick-index.html|QtProject "Qt Quick"]].
+  *[[http://jontheechidna.wordpress.com/2012/05/19/my-thoughts-on-qml-and-the-desktop/|Jonathan's Blog. My blog about Kubuntu and KDE-ish things "My Thoughts on QML and the Desktop"]].
+  *[[http://en.wikipedia.org/wiki/Qt_Quick|EN.Wikipedia "Qt Quick"]].
+  *[[http://en.wikipedia.org/wiki/QML|EN.Wikipedia "QML"]], [[http://de.wikipedia.org/wiki/QML|DE.Wikipedia "QML"]].
+=== QT 5 ===
+=== Qt 4 ===
+  *Qt libraries 4.7.3 for 
+    *minGW 4.4 on Windows.
+    *VS 2008 on Windows.
+    *Gnu C/C++ on Linux.
+  *[[http://doc.qt.nokia.com/4.7/|"QT Online Reference Documentation" for QT 4.7]].
+=== Qt 3 ===
+  *The book [[http://www.amazon.de/exec/obidos/ASIN/0131240722/hemmerling-21|Jasmin Blanchette and Mark Summerfield: "C++ GUI Programming with Qt3"]] by  is shipped with a special non-commercial "book-version" of Qt/Windows 3.2.1, for use with MSVC and Borland C++ !
+  *There was a "QT Education Edition" for the free Borland C++ 5.5 compiler and the minGW compiler, on Windows.
+  *[[http://doc.trolltech.com/3.3/|"Qt Reference Documentation (Open Source Edition)" for Qt 3.3]].
+=== Qt 2 ===
+  *Once, there was a free "Qt Non Commercial Edition 2.3 for Microsoft Windows". "The Qt Non Commercial Edition 2.3 for Microsoft Windows is a binary only distribution requiring Microsoft Visual Studio version 6".
+  *[[http://doc.trolltech.com/2.3/|"Qt Reference Documentation (Open Source Edition)" for Qt 2.3]].
+=== KDE ===
+  *[[http://www.kde.org/|KDE Community]], [[http://www.kde.de/|KDE für deutschsprachige Benutzer]].
+  *[[http://windows.kde.org/|KDE on Windows Initiative]].
+  *[[http://kde-cygwin.sourceforge.net/|SourceForge "KDE on Cygwin"]], [[http://www.sourceforge.net/projects/kde-cygwin|SourceForge "KDE on Cygwin"]], [[http://sourceware.org/cygwinports/|Cygwin Ports project]] - "The KDE on Cygwin project was started to enable the kde desktop on cygwin/x11. Is was stopped in september 2005 because of the native KDE4 port".
+  *[[http://en.wikipedia.org/wiki/KDE|EN.Wikipedia "KDE"]], [[http://de.wikipedia.org/wiki/KDE|DE.Wikipedia "KDE"]].
+=== Python Bindings ===
+  *See [[python.html|Python 1/6]].
+=== Third Party Tools & Ports ===
+  *The OpenSource GUI designer tool [[http://qtarch.sourceforge.net/|SourceForge "Qt Architect"]], [[http://www.sourceforge.net/projects/qtarch|SourceForge "Qt Architect"]].
+  *[[http://qtwin.sourceforge.net/|SourceForge "Q.../Free"]], [[http://www.sourceforge.net/projects/qtwin|SourceForge "Q.../Free"]].
+  *[[http://uic.sourceforge.net/|SourceForge "UICollection"]], [[http://www.sourceforge.net/projects/uic|SourceForge "UICollection"]] - "Java Swing widgets and frameworks plus a UI builder". The UICompiler converts the output of the "QT Designer" for use with Java.
+=== Literature ===
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/383621542X/hemmerling-21|Jürgen Wolf "Qt 4.6 - GUI-Entwicklung mit C++: Das umfassende Handbuch, m. DVD-ROM"]].
+  *Mark Summerfield.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0132354160/hemmerling-21|Jasmin Blanchette, Mark Summerfield: "C++ GUI Programming with Qt 4 (2nd Edition)"]], 2008 about QT 4.3.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0321635906/hemmerling-21|Mark Summerfield: "Advanced Qt Programming: Creating Great Software with C++ and Qt 4"]], 2010 about QT 4.6.
+=== Feedback by a professional Developer ===
+  *The professional developer of a free, but not OpenSource EDA tool ( available on Windows since 15 years, since a few years on MacOSX ) gave me feedback about if there will be a Linux version:
+    *As of 2014, in opposite to 10 years ago, there are less people ( interested in EDA tools ) using Linux, while MacOSX became much more popular.
+    *The MacOSX port of the EDA tool was done with native frameworks, not with QT.
+    *The major developer has severe negative opinion concerning QT, which prevented him from using QT to do the MacOSX port, and so which prevent him from doing an easy Linux port:
+      *Not really stable.
+      *Memory leaks.
+      *If you need canvas graphics and not just menus, QT doesn´t offer much.
+      *The successful use of QT for the Linux desktop "KDE" and other applications didn´t impress him much.
+      *A commercial developer license is not really cheap ( for small companies, not his/her problem as the developer works for an big international company ).
+=== Resources ===
+  *[[http://www.meego.com/|MeeGo]] - "The MeeGo developer offering is based on the Qt SDK and API and includes the most recent releases of Qt Quick and Qt Mobility".
+  *[[http://www.zetcode.com/|ZetCode Tutorial]].
+    *GUI: "PyQt4 tutorial", "PySide tutorial", "Qt4 tutorial", "Ruby Qt tutorial".
+==== VOG / WinGraph32 ====
+  *The OpenSource graphics library [[ftp://ftp.cs.uni-sb.de/pub/graphics/vcg/|Christian Ferdinand "VCG"]].
+  *WinGraph32 - "a partial port of the [[ftp://ftp.cs.uni-sb.de/pub/graphics/vcg/|VCG]] graphing library".
+    *[[http://wayback.archive.org/web/*/http://www.datarescue.com/idabase/wingraph32/|Archive.org "Wingraph32"]].
+    *[[http://wiki.multimedia.cx/index.php?title=IDA_Pro|MultimediaWiki "IDA Pro"]] - > Download link for the OpenSource [[http://www.hex-rays.com/idapro/freefiles/wingraph32_src.zip|wingraph32_src.zip]].
+==== wxWidgets ( formerly: wxWindows ) [ for C++, Python ] ====
+=== Framework ===
+  *[[http://www.wxwidgets.org/|wxWidget]] - "A C++ library that lets developers create applications for Windows, OS X, Linux and UNIX .. as well as several mobile platforms including Windows Mobile, iPhone SDK and embedded GTK+".
+    *[[http://docs.wxwidgets.org/trunk/index.html|wxWidgets Reference manual]].
+    *[[http://wiki.wxwidgets.org/|wxWiki]].
+  *[[http://wxnet.sourceforge.net/|SourceForge "WX.Net"]], [[http://www.sourceforge.net/projects/wxnet|SourceForge "WX.Net"]] - wxWidgets wrapper for .NET.
+=== Tools ===
+  *The OpenSource GUI builder [[http://wxglade.sourceforge.net/|SourceForge "wxGlade"]], [[http://www.sourceforge.net/projects/wxglade|SourceForge "wxGlade"]] in Python.
+  *The OpenSource GUI builder [[http://www.pythoncard.org/|PythonCard]], [[http://pythoncard.sourceforge.net/|SourceForge "PythonCard"]], [[http://www.sourceforge.net/projects/pythoncard/|SourceForge "PythonCard"]] in Python.
+    *[[http://www.youtube.com/watch?v=HCUlkJjF1Ac|YouTube "Carter Sande Presents PythonCard "]], 2009-11-09.
+  *The OpenSource GUI builder [[http://wxhatch.sourceforge.net/|SourceForge "wxHatch"]], [[http://www.sourceforge.net/projects/wxhatch|SourceForge "wxHatch"]] in C/C++.
+  *The OpenSource GUI builder [[http://wxformbuilder.sourceforge.net/|SourceForge "wxFormBuilder"]], [[http://www.sourceforge.net/projects/wxformbuilder/|SourceForge "wxFormBuilder"]].
+  *The OpenSource resource editor [[http://boa-constructor.sourceforge.net/|SourceForge "Boa Constructor"]], [[http://www.sourceforge.net/projects/boa-constructor|SourceForge "Boa Constructor"]] in Python.
+  *The OpenSource GUI builder [[http://visualwx.altervista.org/|VisualWx]] in Python.
+  *The OpenSource resource editor [[http://xrced.sourceforge.net/|SourceForge "XRCed"]], [[http://www.sourceforge.net/projects/xrced|SourceForge "XRCed"]] in Python.
+  *The commercial GUI builder [[http://www.wxdesigner-software.de/|wxDesigner]], with wxWidgets support.
+  *The commercial GUI builder [[http://www.anthemion.co.uk/dialogblocks/|DialogBlocks]], with wxWidgets support.
+=== Resources ===
+  *[[http://vcansimplify.wordpress.com/2013/04/08/ultra-quick-guis-with-wxformbuilderpython/|A Simple Progammer's Blog "Ultra Quick GUIs with wxFormBuilder/Python"]].
+  *[[http://www.heise.de/newsticker/meldung/wxWindows-heisst-jetzt-wxWidgets-93957.html|Heise "wxWindows heißt jetzt wxWidgets"]], 2004-02-22.
+  *[[http://en.wikipedia.org/wiki/WxWidgets|EN.Wikipedia "WxWidgets"]], [[http://de.wikipedia.org/wiki/WxWidgets|DE.Wikipedia "WxWidgets"]] -> "RAD tools and IDEs for wxWidgets".
+  *[[http://www.zetcode.com/|ZetCode Tutorial]].
+    *E-books: "Advanced wxPython".
+    *GUI: "wxWidgets tutorial", "wxPython tutorial".
+==== XForms ====
+  *[[http://savannah.nongnu.org/projects/xforms/|XForms, a GUI toolkit for X]].
+==== ZINK ====
+  *The commercial [[http://www.multidmedia.com/software/zinc/|mdm "ZINC"]] for Linux, Windows, MacOSX.
+==== Some other multi-platform GUIs ====
+  *X11, Xt, XView.
+  *Lesstif.
+  *Athena Widgets, XaW3d, XaWPlus.
+  *"ls -l /usr/ports/x11-toolkits".
+
+===== Database Query Languages, Database Frameworks and Database Interfaces =====
+  *See [[databases.html|Databases, Webserver, Webservices, SQL]].
+===== Networking & Communications Frameworks =====
+==== The ADAPTIVE Communication Environment ( ACE ), The Ace Orb ( TAO ), ZEN ====
+  *[[http://www1.cse.wustl.edu/~schmidt/ACE.html|The ADAPTIVE Communication Environment (ACE(TM))]] - "An OO Network Programming Toolkit in C++".
+  *[[http://www1.cse.wustl.edu/~schmidt/|Douglas C. Schmidt]].
+  *[[http://en.wikipedia.org/wiki/Adaptive_Communication_Environment|EN.Wikipedia "Adaptive Communication Environment"]], [[http://en.wikipedia.org/wiki/TAO_%28software%29|EN.Wikipedia "TAO (software)"]].
+==== Common UNIX Printing System ( CUPS ) ====
+  *[[http://www.cups.org/|CUPS]] - "The standards-based, open source printing system developed by Apple Inc. for Mac OS® X and other UNIX®-like operating systems".
+==== IPC ====
+  *[[http://www.cs.cmu.edu/afs/cs/project/TCA/www/ipc/|Inter Process Communication (IPC)]].
+  *[[http://en.wikipedia.org/wiki/Inter-process_communication|EN.Wikipedia "Inter-process communication"]].
+==== Netscape Portable Runtime ( NSPR ) ====
+  *[[http://www.mozilla.org/projects/nspr/|Mozilla "Netscape Portable Runtime"]].
+==== Messaging ====
+  *[[http://www.rabbitmq.com/|RabbitMQ]] for Java, Python,.. - "Messaging that works".
+==== txObject ATK [ for C++, Python ] ====
+  *[[http://txobject.sourceforge.net/|SourceForge "txObject ATK"]], [[http://www.sourceforge.net/projects/txobject|SourceForge "txObject ATK"]] - "A C++ and Python Framework". "An OS independent C++ & Python object library. Built in the 90s, it provides a 5-layer framework: Object Library, IO / Timers, Threads, Inter-Process / Distributed Object Communication".
+==== POCO C++ Libraries ====
+  *The OpenSource [[http://www.pocoproject.org/|POCO C++ Libraries]], [[http://www.github.com/pocoproject/|Github "POCO C++ Libraries"]] - "Modern, powerful open source C++ class libraries and frameworks for building network- and internet-based applications that run on desktop, server, mobile and embedded systems".
+  *Wiki [[http://github.com/pocoproject/poco/wiki|Github "he POCO C++ Libraries Wiki"]].
+  *[[http://www.appinf.com/|Applied Informatics Software Engineering GmbH]].
+==== Signal / Slot Libraries  ====
+  *QT.
+  *Boost C++ Libraries.
+  *[[http://sigslot.sourceforge.net/|SourceForge "sigslot - C++ Signal/Slot Library"]], [[http://www.sourceforge.net/projects/sigslot|sigslot|SourceForge "C++ Signal/Slot Library (sigslot)"]] - C++ Signal / Slot Library, by [[http://www.findatlantis.com/|Sarah Thompson]]. Sarah tells tips how to use MFC, too :-)!
+
+===== Hardware Graphics Frameworks =====
+==== DirectFB for Linux Framebuffer Device ====
+  *[[http://www.directfb.org/|DirectFB]] - "DirectFB is a thin library that provides hardware graphics acceleration, input device handling and abstraction, integrated windowing system with support for translucent windows and multiple display layers, not only on top of the Linux Framebuffer Device. It is a complete hardware abstraction layer with software fallbacks for every graphics operation that is not supported by the underlying hardware. DirectFB adds graphical power to embedded systems and sets a new standard for graphics under Linux".
+  *[[http://dot.kde.org/2003/07/19/gpled-qt-directfb|KDE.News: "GPL'ed Qt on DirectFB!"]], 2003-07-19. The embedded version of Qt can be used to run on the Linux framebuffer.
+==== DirectX ====
+  *See [[3dframeworks.html|3D Graphics Frameworks]].
+==== OpenGL ====
+  *See [[3dframeworks.html|3D Graphics Frameworks]].
+==== OpenVG ====
+  *[[http://en.wikipedia.org/wiki/OpenVG|EN.Wikipedia "OpenVG"]], [[http://de.wikipedia.org/wiki/OpenVG|DE.Wikipedia "OpenVG"]].
+===== Hardware Frameworks =====
+==== EABI - Embedded ABI - Application Binary Interface (ABI) ====
+  *[[http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.subset.swdev.abi/|ARM Information Center - "Application Binary Interface (ABI) for the ARM Architecture"]].
+  *[[http://wiki.debian.org/ArmEabiPort|Debian Wiki "ArmEabiPort"]].
+  *[[http://www.eurotech-inc.com/embedded-eabi-linux.asp|Eurotech "EABI for Linux"]].
+  *[[http://www.codesourcery.com/sgpp/lite/arm/portal/subscription3053|CodeSourcery "Sourcery G++ Lite for ARM EABI"]] - "Sourcery G++ is a complete software development environment based on the GNU Toolchain. Sourcery G++ includes the GNU C and C++ compilers, the Eclipse IDE, and much more".
+==== ARM Cortex Microcontroller Software Interface Standard ( CMSIS ) ====
+=== ARM ===
+  *[[http://www.arm.com/products/processors/cortex-m/cortex-microcontroller-software-interface-standard.php|ARM "CMSIS - Cortex Microcontroller Software Interface Standard"]] - A vendor-independent hardware abstraction layer for the Cortex-M processor series. The CMSIS enables consistent and simple software interfaces to the processor for interface peripherals, real-time operating systems, and middleware, simplifying software re-use, reducing the learning curve for new microcontroller developers and reducing the time to market for new devices."
+  *[[http://www.onarm.com/|onARM - Resources for Embedded Developers]].
+    *[[http://www.onarm.com/download/download390.asp|onARM "CMSIS Peripheral Access Layer for STM32F10x V3.1.0"]].
+  *[[http://www.keil.com/pack/doc/CMSIS/General/html/index.html|KEIL "CMSIS  Version 4.3.0. Cortex Microcontroller Software Interface Standard"]].
+  *[[http://www.keil.com/dd2/Pack/|KEIL "MDK5 Software Packs"]] - "Additional software components and support for microcontroller devices is provided by Software Packs. DFP (Device Family Pack) indicates that a Software Pack contains support for microcontroller devices".
+=== Third Party ===
+  *[[http://xcdl.sourceforge.net/|SourceForge "eXtensible Component Definition Language"]], [[http://www.sourceforge.net/projects/xcdl/|SourceForge "eXtensible Component Definition Language. An extensible configuration and build system for complex projects"]].
+=== Resources ===
+  *Wiki [[http://xcdl.livius.net/|XCDL (eXtensible Component Definition Language) Wiki]].
+    *[[http://xcdl.livius.net/wiki/CMSIS_Pack_remarks_and_criticism|XCDL Wiki "CMSIS Pack remarks and criticism"]].
+
+==== Intel Atom Developer Program SDK ====
+  *[[http://appdeveloper.intel.com/en-us/sdk|Intel AppUp developer programm "Software Development Kit (SDK)"]] for Windows and Linux.
+  *[[http://www.golem.de/0912/71619.html|Golem "Intels SDK für Atom-Anwendungen erschienen"]], 2009-12-03.
+==== Video Decode and Presentation API for Unix ====
+  *[[http://en.wikipedia.org/wiki/VDPAU|EN.Wikipedia "VDPAU"]], [[http://de.wikipedia.org/wiki/Video_Decode_and_Presentation_API_for_Unix|DE.Wikipedia "Video Decode and Presentation API for Unix"]].
+===== Frameworks for Home Theatre / Home Automation / Mobile Devices =====
+==== Espial, HipTop, Danger Hiptop ====
+  *[[http://www.espial.com/|Espial]] - commercial Java UI frameworks for set top boxes / TV sets, wirless devices.
+  *[[http://wayback.archive.org/web/*/http://www.devicetop.com/|Archive.org "DeviceTop.com"]] ( - 2004-11-06 ).
+    *"An industry-sponsored community for Java developers building applications for smart Internet devices, such as iTVs, wireless devices, automotive infotainment systems, and Internet appliances. We offer news and industry trends, Java courses, discussion forums, tutorials, contests, free development tools, and a place to showcase your killer apps".
+    *"In July 2004, the DeviceTop.com forums will migrate to [[http://www.espial.com/|www.espial.com]]".
+  *[[http://wayback.archive.org/web/*/http://developer.danger.com/|Archive.org "Danger Developer Zone"]].
+    *[[http://en.wikipedia.org/wiki/Danger_Hiptop|EN.Wikipedia "Danger Hiptop"]].
+==== CIDLib ====
+  *[[http://cidlib.sourceforge.net/|SourceForge "CIDLib C++ Frameworks"]], [[http://sourceforge.net/projects/cidlib/|CIDLib C++ Frameworks]] - C++ for home theatre and home automation.
+  *[[http://www.charmedquark.com/|Charmed Quark Systems, LTD]] - commercial C++ framework for home theatre and home automation.
+  *[[http://wayback.archive.org/web/*/http://www.charmedquark.com/AboutUs.htm|Archive.org "Charmed Quark Software - The CIDLib Story"]] ( - 2004-04-02 ).
+==== Mobile Phones ====
+=== Google Android ( Operating System ) ===
+  *See [[android.html|Google Android]].
+=== Symbian ( Operating System ) ===
+  *[[http://www.developer.nokia.com/Develop/Java/|NOKIA Developer - Java]].
+    *[[http://www.developer.nokia.com/Developer_Programs/|NOKIA Developer Program]].
+  *[[http://de.wikipedia.org/wiki/Symbian-Plattform|DE.Wikipedia "Symbian-Plattform"]], [[http://en.wikipedia.org/wiki/Symbian|EN.Wikipedia "Symbian"]].
+=== BlackBerry ( Phone ) ===
+  *[[http://www.blackberry.com/|BlackBerry Developer Zone]].
+  *[[http://www.blackberry.com/developers/javaappdev/|BlackBerry - Java Application Development]].
+  *[[http://docs.blackberry.com/en/|BlackBerry Manuals & Help]].
+    *[[http://docs.blackberry.com/en/developers/?userType=21|BlackBerry "Documentation for Developers"]].
+    *[[http://us.blackberry.com/developers/javaappdev/javadevenv.jsp|BlackBerry Java Development Environment]].
+  *[[http://www.blackberry.com/knowledgecenterpublic/|BlackBerry Technical Knowledge Center]].
+  *[[http://us.blackberry.com/developers/resources/simulators.jsp|BlackBerry Smartphone Simulators]] - "Use BlackBerry Smartphone Simulators to view and test how BlackBerry Device Software and the screen, keyboard and trackwheel/trackball will work with your application".
+  *[[http://swdownloads.blackberry.com/Downloads/entry.do?code=060AD92489947D410D897474079C1477|BlackBerry / RIM - Software Download for Device Simulators]].
+  *[[http://www.devx.com/wireless/Article/27869/1954|devX "Build Your First BlackBerry Java App"]].
+  *[[http://today.java.net/pub/a/today/2006/01/24/introduction-to-blackberry-j2me.html?force=585|Java.net "An Introduction to BlackBerry J2ME Applications"]].
+=== Some other Phone SDKs ===
+  *[[http://www.mpowerplayer.com/|Mpowerplayer, Inc.]]. 
+    *[[http://mpowerplayer.com/sdk|Mpowerplayer SDK]].
+    *Download [[http://download.cnet.com/Mpowerplayer/3000-2099_4-10380523.html|cnet "Mpowerplayer"]] - "Lets you play an entire library of mobile games right on your desktop, for free. It's a storefront for finding, trying, and buying software for your mobile phone. Every game in our extensive catalog has a playable demo, and with a few clicks you can buy games and send them to your mobile. Download the player for free, browse the games, and play before you pay. It's the smart way to buy mobile games".
+===== Operating System Frameworks =====
+==== Win32 API ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3860631888/hemmerling-21|Charles Petzold: "Windows-Programmierung: Das Entwicklerhandbuch zur WIN32-API"]].
+  *The free [[http://www.cs.virginia.edu/~lcc-win32/|Jacob Navia "Windows API documentation" ]] - "A win32 hlp file for the Windows-API. A must have for any serious windows programming".
+===== Multimedia / Audio / Video Frameworks =====
+  *[[http://www.khronos.org/openmax/|OpenMAX]] - "The Standard for Media Library Portability".
+    *[[http://en.wikipedia.org/wiki/OpenMAX|EN.Wikipedia "OpenMAX"]].
+  *[[http://en.wikipedia.org/wiki/OpenAL|EN.Wikipedia "OpenAL"]].
+  *[[http://en.wikipedia.org/wiki/FMOD|EN.Wikipedia "FMOD"]].
+  *The C++ framework [[http://tulip.labri.fr/|Laboratoire Bordelais de Recherche en Informatique "Tulip"]], [[http://auber.sourceforge.net/|Sourceforge "Tulip"]], [[http://www.sourceforge.net/projects/auber/|Sourceforge "Tulip"]] - "an information visualization framework dedicated to the analysis and visualization of relational data. Tulip aims to provide the developer/user with a complete library/software, supporting the design of interactive information visualization".
+===== Numerical Frameworks =====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0521880688/hemmerling-21|William H. Press, Saul Teukolsky, William Vetterling, Brian Flannery "Numerical Recipes 3rd Edition: The Art of Scientific Computing"]].
+    *Accompanying website [[http://www.numerical-recipes.com/|Numerical Recipes: The Art of Scientific Computing]].
+    *[[http://en.wikipedia.org/wiki/Numerical_Recipes|EN.Wikipedia "Numerical Recipes"]].
+  *[[http://www.gnu.org/software/gsl/|GSL - GNU Scientific Library]].
+    *[[http://en.wikipedia.org/wiki/GNU_Scientific_Library|EN.Wikipedia "GNU Scientific Library"]]
+===== Web Applications & Rich Internet Applications Frameworks =====
+  *[[http://turbine.apache.org/|Apache Turbine Web Application Framework]].
+  *[[http://www.vaadin.com/|Vaadin]] - "A Java framework for building modern web applications that look great, perform well and make you and your users happy", "Ajax technology is used at the browser-side to ensure a rich and interactive user experience".
+    *[[http://en.wikipedia.org/wiki/Vaadin|EN.Wikipedia "Vaadin"]], [[http://de.wikipedia.org/wiki/Vaadin|DE.Wikipedia "Vaadin"]].
+===== Some other open APIs, open Technologies and Open Standards =====
+==== Data Feeds ====
+  *[[http://en.wikipedia.org/wiki/Atom_%28standard%29|EN.Wikipedia:"Atom Syndication Format"]].
+  *[[http://en.wikipedia.org/wiki/RSS|RSS]] (Really Simple Syndication).
+
+===== Resources =====
+==== General ====
+  *[[http://www.joelonsoftware.com/articles/APIWar.html|Joel Spolsky "How Microsoft Lost the API War"]], 2004-06-13.
+  *[[http://www.freshmeat.net/articles/gui-toolkits-for-the-x-window-system|freshmeat "GUI Toolkits for The X Window System"]], 2003.
+  *[[http://www.atai.org/guitool/|Li-Cheng (Andy) Tai "The GUI Toolkit, Framework Page"]].
+==== OpenSource Libraries / Runtime Environments used by Capgemini, as of 2011-07 ====
+  *Acegi Security.
+  *ActiveMQ.
+  *AjaxJSPTags.
+  *Apache Axis.
+  *Apache POI.
+  *Apache Webserver.
+  *Cairngorm.
+  *Common-Controls.
+  *Commons Collections.
+  *Commons HttpClient.
+  *Commons Logging.
+  *Derby.
+  *Dozer.
+  *Drools.
+  *Eclipse BIRT.
+  *Eclipse RCP.
+  *Eclipse Web Tools Platform.
+  *Equinox.
+  *Grails.
+  *HSSF.
+  *Hessian.
+  *Hibernate.
+  *HylaFax.
+  *JBoss AS.
+  *JBoss Cache.
+  *JBoss RichFaces.
+  *JBoss jBPM.
+  *JGroups.
+  *Jakarta Tomcat.
+  *JasperReports.
+  *Lucene.
+  *MyFaces.
+  *MySQL.
+  *OpenCMS.
+  *OpenOffice.org.
+  *PostgreSQL.
+  *SNMP4J.
+  *SQLite.
+  *SWT.
+  *Saxon.
+  *Spring Framework.
+  *Spring Web Flow.
+  *Struts.
+  *T-Baukasten Hibernate.
+  *The Grinder.
+  *Velocity.
+  *XMLBeans.
+  *Xalan.
+  *Xerces.
+  *Xerces-C++.
+  *iBATIS.
+  *iText.
+  *jQuery.
+  *log4j.
+  *log4net.
+
+===== Forums, Newsgroups =====
+  *Blackberry.
+    *[[http://www.blackberry.com/communities/|BlackBerry Communities]].
+    *[[http://supportforums.blackberry.com/t5/user/viewprofilepage/user-id/426611|BlackBerry Support Community Forums]].
+  *[[http://www.blackberry-forum.de/|BlackBerry Forum]].
+  *[[http://www.charmedquark.com/vb_forum/|Charmed Quark Systems, LTD - Forum]].
+  *[[http://www.fltk.org/newsgroups.php|Fast Light Toolkit ( FLTK ) - FLK Forums]].
+  *[[http://groups.google.com/group/trolltech.qt-interest|Google Groups "trolltech.qt-interest"]].
+  *[[http://community.kde.org/|KDE Community Wiki]].
+  *[[http://www.mdmforum.com/forum/|MDM Developer Community Forum]] ( ZINK ).
+  *[[http://developer.mpowerplayer.com/|Mpowerplayer, Inc. - Forum]].
+  *[[http://www.motifzone.com/|MotifZone – Where Motif Lives!]].
+    *[[http://www.motifzone.com/forum|MotifZone Forum]].
+  *Nokia.
+    *[[http://developer.qt.nokia.com/groups|Qt Developer Network - Groups]].
+    *[[http://developer.qt.nokia.com/forums|Qt Developer Network - Forums]].
+    *[[http://lists.trolltech.com/qt-interest/|Qt-interest Mailing List]].
+  *[[http://pocoproject.org/forum/|POCO C++ Libraries Forum]].
+  *[[http://www.qtforum.org/|QtForum.org]].
+  *[[http://lists.trolltech.com/|Qt Mailing Lists]].
+  *[[http://tech.groups.yahoo.com/group/VisualWx/|Yahoo Groups "VisualWx"]], [[http://tech.groups.yahoo.com/group/wtl/|Yahoo Groups "wtl · WTL support list"]].
+  
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Graphic_Subsystems/|OpenDirectory "Top: Computers: Software: Operating Systems: Graphic Subsystems"]].
+    *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Graphic_Subsystems/Display_Managers/|OpenDirectory "Top: Computers: Software: Operating Systems: Graphic Subsystems: Display Managers"]].
+    *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Graphic_Subsystems/Toolkits/|OpenDirectory "Top: Computers: Software: Operating Systems: Graphic Subsystems: Toolkits"]].
+    *[[http://www.dmoz.org/Computers/Open_Source/Software/GUI/|OpenDirectory "Top: Computers: Open Source: Software: GUI"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wirtschaft/Industrieg%C3%BCter_und_-dienstleistungen/Automatisierungstechnik/Industrielle_Bildverarbeitung/|OpenDirectory "Top: World: Deutsch: Wirtschaft: Industriegüter und -dienstleistungen: Automatisierungstechnik: Industrielle Bildverarbeitung"]].
+{{tag>"Software Frameworks" "Software Framework"}}
+<footnote_navi_en>

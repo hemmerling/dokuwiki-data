@@ -1,0 +1,184 @@
+====== [hemmerling] Representational State Transfer ( REST ) ======
+Related pages:
+  *[[api.html|Application programming interface ( API )]].
+  *[[linkeddata.html|Linked Data & Linked Open Data ( LOD )]].
+  *[[webtech.html|Web Technologies ( HTML5, HTML, XML & Javascript )]] -> "JSON, JSONP", "JSON and REST".
+===== Browser Tools =====
+  *[[http://addons.mozilla.org/en-US/firefox/addon/poster/|Mozilla Firefox Addons "Poster"]] by [[http://www.milowski.com/|Alex Milowski]].
+  *[[http://addons.mozilla.org/en-us/firefox/addon/httprequester/|Mozilla Firefox Addons "HttpRequester"]] by [[http://www.reminderfox.org/|Tom Mutdosch]].
+  *[[http://github.com/zklinger/firefox-extension-posterplus|GitHub "zklinger / firefox-extension-posterplus" ( "Poster+" )]] by [[https://github.com/zklinger|Zoltan Klinger]].
+===== HTTP Protocol clients =====
+  *The OpenSource [[http://curl.haxx.se/|cURL and libcurl]] for Windows, MSDOS and Linux.
+  *The OpenSource [[http://www.gnu.org/software/wget/|GNU Wget]].
+    *The OpenSource [[http://www.sourceforge.net/projects/gnuwin32/|SourceForge "GnuWin"]], [[http://www.sourceforge.net/projects/gnuwin32/|SourceForge "GnuWin"]].
+    *The OpenSource [[http://gnuwin32.sourceforge.net/packages/wget.htm|SourceForge "GnuWin" - "Wget for Windows"]], [[http://www.sourceforge.net/projects/gnuwin32/files/wget/|SourceForge "GnuWin" - "Wget for Windows"]].
+===== Open Data Protocol ( OData ) =====
+==== Tools, SDKs, Libraries ====
+  *[[http://www.odata.org/libraries|Open Data Protocol ( odata.org ) - Find your library]].
+  *[[http://msdn.microsoft.com/en-us/data/ee720179.aspx|Microsoft Data Developer Center "Download and Install WCF Data Services and OData Libraries"]] - Other OData Libraries -> .NET, Java, PHP, Ruby, ...
+  *Python.
+    *[[http://code.google.com/p/odata-py/|Google Code "odata-py. WCF/OData provider for Python, and specifically for Google App Engine"]].
+    *[[http://www.bitbucket.org/dowski/myohdata/|MyOhData]] - "A simple OData server using CherryPy and Jinja2".
+    *[[http://www.solutionevangelist.com/community/discussion/16/odata-client-for-python/p1|Solutionevangelist "OData Client for Python"]].
+==== Protocols, Data Formats ====
+  *HTTP protocol.
+  *Formats: Atom, JSON or plain XML, including pagination, ordering or filtering of the data.
+==== Data Sources ====
+=== Facebook Insights ===
+  *[[http://www.facebook.com/help/399262596797358/|Facebook Help Center "Apps, Games & Credits / Platform & Developer Support / Facebook Insights"]].
+  *[[http://developers.facebook.com/docs/insights/|Facebook Developers "Insights"]].
+=== Github API ===
+  *[[http://developer.github.com/v3/|github: developer API v3]].
+=== Google Data API ===
+  *[[http://developers.google.com/gdata/|Google Developers "Google Data APIs"]].
+    *[[http://developers.google.com/gdata/docs/directory|Google Developers "API Directory"]] - "The following Google services provide APIs that implement the Google Data Protocol".
+    *Blog [[http://web.archive.org/web/*/http://googledataapis.blogspot.com/|Archive.org "Official Google Data APIs Blog"]] ( - 2011-10-07 ).
+    *Blog [[http://googlecode.blogspot.de/|The official Google Code blog]].
+=== Windows Azure Data Market ===
+  *[[http://datamarket.azure.com/|Windows Azure Data Market]]. 
+  *[[http://datamarket.azure.com/browse?query=un&price=free|Windows Azure Data Market - Search results for "free" data]].
+=== Some other Data Sources ===
+  *SharePoint 2010, Microsoft Dynamics.
+  *WebSphere.
+  *SAP NetWeaver.
+==== Resources ====
+  *[[http://www.codeproject.com/Articles/90365/An-overview-of-Open-Data-Protocol-OData|CodeProject. For those who code "An overview of Open Data Protocol (OData)"]].
+  *[[http://www.it-visions.de/glossar/alle/5905/Open%20Data%20Protocol.aspx|wwww.IT-Visions.de, Dr. Holger Schwichtenberg "Erklärung des Begriffs: Open Data Protocol (ODATA). Was ist Open Data Protocol (ODATA)?"]].
+  *Microsoft.
+    *[[http://msdn.microsoft.com/en-us/data/ee720179.aspx|Microsoft Data Developer Center "Download and Install WCF Data Services and OData Libraries"]].
+    *[[http://msdn.microsoft.com/en-us/library/ff478141.aspx|Microsoft MSDN "Open Data Protocol by Example"]].
+    *[[http://www.microsoft.com/germany/msdn/webcasts/library.aspx?id=1032487414|Microsoft Mediathek "Plattformübergreifende Datenintegration mit dem Open Data Protocol (OData)"]].
+    *[[http://msdn.microsoft.com/en-us/data/ee844254.aspx|Microsoft MSDN - Data Developer Center "Open Data Protocol"]].
+    *[[http://msdn.microsoft.com/en-us/library/windowsazure/hh689718.aspx|Microsoft MSDN "Guidance for OData in Windows Azure"]].
+  *[[http://www.oasis-open.org/committees/tc_home.php?wg_abbrev=odata|OASIS - Advancing open standards for the information society "OASIS Open Data Protocol (OData) TC"]].
+  *[[http://www.odata.org/|Open Data Protocol ( odata.org )]] #.
+  *[[http://www.sourcetalk.de/2012/files/2012/09/JavaOData280812.pdf|SourceTalk 2012 "Klaus Rohe, Microsoft Deutschland GmbH: "Java und das Open Data Protocol (OData)"]] ( PDF ).
+  *[[http://en.wikipedia.org/wiki/Open_Data_Protocol|EN.Wikipedia "Open Data Protocol"]], [[http://de.wikipedia.org/wiki/Open_Data_Protocol|DE.Wikipedia "Open Data Protocol"]].
+  *[[http://www.zdnet.com/blog/microsoft/why-microsofts-open-data-protocol-matters/12700|ZDNet "Why Microsoft’s Open Data Protocol matters"]], 2012.
+===== Software Frameworks based on REST =====
+  *[[http://en.wikipedia.org/wiki/Java_API_for_RESTful_Web_Services|EN.Wikipedia "Java API for RESTful Web Services"]], [[http://de.wikipedia.org/wiki/Java_API_for_RESTful_Web_Services|DE.Wikipedia "Java API for RESTful Web Services"]].
+  *[[http://developers.google.com/gdata/|Google Data APIs]] - "A REST-inspired technology for reading, writing, and modifying information on the web".
+  *JAX-RS.
+    *[[http://jsr311.java.net/|Java.net "GlassFish >> JSR 311"]].
+      *[[http://en.wikipedia.org/wiki/Java_API_for_RESTful_Web_Services|EN.Wikipedia "Java API for RESTful Web Services"]], [[http://de.wikipedia.org/wiki/Java_API_for_RESTful_Web_Services|EN.Wikipedia "Java API for RESTful Web Services"]].
+    *[[http://cxf.apache.org/|Apache CXF]].
+      *[[http://cxf.apache.org/docs/jax-rs.html|Apache CXF - Documentation "JAX-RS"]].
+      *[[http://en.wikipedia.org/wiki/Apache_CXF|EN.Wikipedia "Apache CXF"]], [[http://de.wikipedia.org/wiki/Apache_CXF|EN.Wikipedia "Apache CXF"]].
+  *[[http://www.restlet.org/|Restlet - RESTful web framework for Java]].
+    *Blog [[http://blog.restlet.com/|Official Restlet blog]].
+    *Wiki [[http://wiki.restlet.org/|Restlet Wiki]].
+    *[[http://www.youtube.com/user/pmjohnson/videos?query=REST|YouTube Channel "pmjohnson" - Search for "REST"]].
+      *[[http://www.youtube.com/watch?v=jmxVKC5qTVg|YouTube "Introduction to REST and the Restlet Framework"]].
+      *[[http://www.youtube.com/watch?v=E6LCNQJv6G8|YouTube "Introduction to API Design"]].
+    *[[http://en.wikipedia.org/wiki/Restlet|EN.Wikipedia "Restlet"]].
+  *[[http://www.restsharp.org/|RestSharp - Simple REST and HTTP API Client for NET]], [[http://github.com/restsharp/|Github "RestSharp"]].
+  *[[http://phprestsql.sourceforge.net/|SourceForge "Give it a REST. Play with our RESTful database interface with our interactive REST tutorial"]], [[http://sourceforge.net/projects/phprestsql/|SourceForge "RESTful interface to MySQL using PHP"]].
+  *[[http://www.srikanthtechnologies.com/blog/java/rest_service_client.aspx|Srikanth Technologies - Where Quality Matters "A RESTFul Web Service in Java and Client in JavaScript"]].
+===== Services and Service Concepts based on REST =====
+==== Use of PATCH ====
+  *REST Experts say: PUT has real-world problems!
+====  Entry point ==== 
+  *OPTIONS * HTTP/1.1.
+  *rel="service".
+==== Representations of a resource are distict ==== 
+  *Also: collections and items.
+==== Use of hypermedia: Links and Relations ==== 
+  *HTML anchors, XML XLink, Link header.
+  *Less "Web 2.0", more "HTML 2.0".
+==== Use of ETag ==== 
+  *Experts advise: Check cacheability with REDbot.
+==== Spec References IANA for Media Types and Relations ==== 
+  *HTML, AtomPub, hal+json.
+  *Standard types where possible, extensible types where not (microformats, RDFa, profile=$URI in HTML4).
+  *Standard relations where possible, or else mint your own (IANA).
+==== Client side URI Construction ==== 
+  *HTML forms, XForms, URI Templates.
+==== Red Pill / blue Pill ====
+  *"s/REST/HTTP/".
+  *or: follow the constraints properly.
+===== Services and Service Concepts not based on REST =====
+==== Services defined by URIs ====
+  *[[http://dev.twitter.com/docs/api|Twitter API]].
+  *[[http://developers.facebook.com/docs/reference/api/|Facebook API]].
+  *[[http://developer.linkedin.com/apis|LinkedIn API]].
+==== Services defined by WADL, SPORE ====
+==== Custom, in-band authentication ====
+  *Client certificates, X-WSSE.
+==== Web 2.0 company, likely to be featured on Hackerne.ws ==== 
+  *Comment by a REST expert: "GData is a tragedy"?!
+==== Use of sessions ====
+  *Cookies.
+  *Must be able to bookmark a resource.
+===== Services and Service Concepts not based on REST, or not =====
+==== Lists HTTP status code ====
+  *Depends!!
+
+===== Collaboration of Software Frameworks with REST Communications =====
+  *[[http://diy-framework.sourceforge.net/|SourceForge "DIY Framework"]], [[http://www.sourceforge.net/projects/diy-framework/|SourceForge "DIY Framework"]] - "An open-source web application framework based on object-oriented PHP 5, MySQL, and XSLT. Designed following MVC architecture and REST principles".
+  *Spring -> See [[java.html|Java & Java Platform Languages]].
+  *[[http://www.olivergierke.de/|Oliver Gierke]] - Expert for Spring with REST.
+    *[[http://twitter.com/olivergierke|Twitter "Oliver Gierke"]].
+===== Literature =====
+==== REST ====
+  *The book [[http://www.amazon.de/exec/obidos/ASIN/0596801688/hemmerling-21|Subbu Allamaraju "RESTful Web Services Cookbook"]].
+  *[[http://www.ics.uci.edu/~fielding/|Roy Fielding]].
+    *The dissertation [[http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm|Roy Fielding "Architectural Styles and
+the Design of Network-based Software Architectures"]]
+    *[[http://en.wikipedia.org/wiki/Roy_Fielding|EN.Wikipedia "Roy Fielding"]], [[http://de.wikipedia.org/wiki/Roy_Fielding|DE.Wikipedia "Roy Fielding"]].
+  *The book [[http://www.amazon.de/exec/obidos/ASIN/1339938364/hemmerling-21|Jerome Louvel, Thierry Templier, Thierry Boileau: "Restlet in Action"]].
+  *The book [[http://www.amazon.de/exec/obidos/ASIN/0596529260/hemmerling-21|Leonard Richardson, Sam Ruby "RESTful Web Services"]].
+    *[[http://en.wikipedia.org/wiki/Sam_Ruby|EN.Wikipedia "Sam Ruby"]].
+    *Blog [[http://www.intertwingly.net/|Sam Ruby, intertwingly]].
+      *[[http://www.intertwingly.net/blog/2005/07/22/REST-vs-API|Sam Ruby, intertwingly "REST vs API"]].
+  *The book [[http://www.amazon.de/exec/obidos/ASIN/3898647323/hemmerling-21|Stefan Tilkov: "REST und HTTP: Einsatz der Architektur des Web für Integrationsszenarien"]] #.
+    *The accopmanying website [[http://www.rest-http.info/|REST und HTTP: Einsatz der Architektur des Web für Integrationsszenarien]].
+    *[[http://www.xing.com/profile/Stefan_Tilkov|XING "Stefan Tilkov"]].
+    *[[http://twitter.com/stilkov|Twitter "Stefan Tilkov"]].
+    *[[http://www.infoq.com/|InfoQ]].
+      *[[http://www.infoq.com/author/Stefan-Tilkov|InfoQ - Stefan Tilkov]].
+      *Blog [[http://www.innoq.com/blog/st/|Stefan Tilkov's Random Stuff]].
+    *[[http://www.se-radio.net/2008/05/episode-98-stefan-tilkov-on-rest/|Software Engineering Radio. The Podcast for Professional Software Developers "Episode 98: Stefan Tilkov on REST"]].
+  *The book [[http://www.amazon.de/exec/obidos/ASIN/0596805829/hemmerling-21|Jim Webber, Savas Parastatidis, Ian Robinson "REST in Practice: Hypermedia and Systems Architecture"]].
+    *The accompanying website [[http://restinpractice.com/|REST in Practice]].
+  *The book [[http://www.amazon.de/exec/obidos/ASIN/1441983023/hemmerling-21|Erik Wilde, Cesare Pautasso "REST: From Research to Practice"]].
+
+==== Open Data Protocol ( OData ) ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1849685924/hemmerling-21|Steven Cheng: "OData Programming Cookbook for .NET Developers"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1477561277/hemmerling-21|Michael Washington: "OData And Visual Studio LightSwitch Using ASP.NET / Windows Phone / jQuery / datajs / Knockout: 1"]].
+  *Kindle E-Book [[http://www.amazon.de/exec/obidos/ASIN/B0064899SQ/hemmerling-21|Michael Crump, SilverlightShow Team "Producing and Consuming OData in a Silverlight and Windows Phone 7 Application"]].
+  *Kindle E-Book [[http://www.amazon.de/exec/obidos/ASIN/B006K0LCFQ/hemmerling-21|Samidip Basu, SilverlightShow Team: "OData & Cloud Augmentation of Windows Phone Apps"]].
+===== Hardware with REST Software Interface =====
+  *Wiki [[http://wiki.janitza.de/|Janitza Dashboard]].
+    *[[https://wiki.janitza.de/display/GRIDVIS30EN/REST-API|Janitza REST API]].
+===== Best Practices and Awareness with REST =====
+  *You must not implement all REST functions for every REST URI!
+  *REST has nothing to do with UI design :-).
+  *Design goal: 
+    *One-time distribution of applications ( think of the Apple / Android / Windows AppStores, where you can´t provide high-frequent updates due to the complicated long-term acceptance process ).
+  *Typical Process:
+    -Just provide one single "stable" webservice URL to the application.
+    -The web server returns a Json representation with links. 
+    -Let the application find all other links by this representation, using a "Link Discoverer".
+      *Use [[http://en.wikipedia.org/wiki/Link_relation|Link relation]] instead of "hardcoded links". Explain these links relations ( "Rels" ) by other URL links, to web pages which explain hwo to deal with the data.
+    -Poll the webservice by checking the HTML ETags for data changes.
+===== Resources =====
+  *[[http://www.oio.de/public/xml/rest-webservices.htm|Thomas Bayer "REST Web Services"]].
+  *[[http://www.duncan-cragg.org/blog/post/getting-data-rest-dialogues/|Duncan Cragg "Getting Data. The REST Dialogues"]], 2006.
+  *[[http://roy.gbiv.com/untangled/2008/rest-apis-must-be-hypertext-driven|Untangled musings of Roy T. Fielding "REST APIs must be hypertext-driven"]], 2008.
+  *[[http://www.isitrestful.com/|Is it RESTful?]] - A series of sniff tests, to decide quickly whether something could be REST or not :-).
+  *Geert Jansen.
+    *[[http://restful-api-design.readthedocs.org/|Read The Docs "Geert Jansen: Thoughts on RESTful API Design. Lessons learnt from designing the Red Hat Enterprise Virtualization API"]], 2012-11-15.
+    *[[http://www.github.com/geertj/restful-api-design|GitHub "geertj/restful-api-design"]].
+  *[[http://www.looah.com/source/view/2284|Looah "Ryan Tomayko: How I Explained REST to My Wife"]].
+  *[[http://stackoverflow.com/questions/8785248/which-browser-support-rest-completely-means-get-post-put-and-delete-method|StackOverflow "Which browser support REST completely. Means Get,Post,PUT and DELETE method?"]].
+  *[[http://www.roca-style.org/|ROCA - Resource-oriented Client Architecture]] - "A collection of simple recommendations for decent Web application frontends".
+  *Blog [[http://thisweekinrest.wordpress.com/|This week in REST. Weekly roundup of news about the REST architectural style]].
+  *[[http://en.wikipedia.org/wiki/Representational_state_transfer|EN.Wikipedia "Representational state transfer"]], [[http://de.wikipedia.org/wiki/Representational_State_Transfer|DE.Wikipedia "Representational State Transfer"]].
+  *[[http://en.wikipedia.org/wiki/Link_relation|EN.Wikipedia "Link relation"]].
+  *[[http://en.wikipedia.org/wiki/HTTP_ETag|DE.Wikipedia "HTTP ETag"]], [[http://de.wikipedia.org/wiki/HTTP_ETag|DE.Wikipedia "HTTP ETag"]].
+===== Forums, Newsgroups ====
+  *[[http://groups.google.com/group/restinpractice|Google Groups "restinpractice"]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Programming/Internet/Service-Oriented_Architecture/Web_Services/REST/|OpenDirectory "Top: Computers: Programming: Internet: Service-Oriented Architecture: Web Services: REST"]].
+{{tag>"Representational State Transfer" Representational State Transfer REST "Open Data Protocol" Open Data Protocol OData}}
+<footnote_navi_en>

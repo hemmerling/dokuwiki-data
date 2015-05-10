@@ -1,0 +1,286 @@
+====== [hemmerling] Industrial Data & Industrial Data Exchange ======
+Related pages:
+  *[[fieldbus.html|Fieldbuses and Automation Networks]].
+  *[[mes02.html|Manufacturing Execution Systems ( MES ) 2/5 - Software Systems]].
+  *[[mes03.html|Manufacturing Execution Systems ( MES ) 3/5 - Norms & Design]].
+
+===== Interfaces & Protocols for Automation =====
+==== Bit Alarm Procedure ====
+  *The alarm limits are stored in the PLC. So that the PLC can react. The PLC transfers one bit of information, when the signal lefts the range of the alarm limits. 
+  *However for visualisation, the analog values of the alarm limits data must be transfered as digital values from to the HMI device.
+  *[[http://support.automation.siemens.com/WW/llisapi.dll?func=cslib.csinfo&objId=48733437|Siemens Industry Online Support "What should you watch out for when using the alarm numbering procedure?"]], [[http://support.automation.siemens.com/WW/llisapi.dll?func=cslib.csinfo&objId=48733437&lang=de|Siemens Industry Online Support "Was ist bei der Anwendung des Meldenummernverfahrens zu beachten?"]] -> "bit alarm procedure" ( German: "Bitmeldeverfahren" ) vs. "alarm numbering procedure" ( German: "Meldenummernverfahren" ).
+==== Windows Data Transfer Technologies ====
+=== COM ===
+  *[[http://en.wikipedia.org/wiki/Component_Object_Model|EN.Wikipedia "Component Object Model"]], [[http://de.wikipedia.org/wiki/Component_Object_Model|DE.Wikipedia "Distributed Component Object Model"]] ( COM ).
+=== DCOM ===
+  *[[http://en.wikipedia.org/wiki/Distributed_Component_Object_Model|EN.Wikipedia "Distributed Component Object Model"]], [[http://de.wikipedia.org/wiki/Distributed_Component_Object_Model|DE.Wikipedia "Distributed Component Object Model"]] ( DCOM ) - "Network OLE". Once used by the legacy "OPC DA".
+=== DDE, NetDDE ===
+  *[[http://en.wikipedia.org/wiki/Dynamic_Data_Exchange|EN.Wikipedia "Dynamic Data Exchange"]], [[http://de.wikipedia.org/wiki/Dynamic_Data_Exchange|DE.Wikipedia "Dynamic Data Exchange"]] ( DDE ).
+  *NetDDE.
+=== .NET Remoting ===
+  *[[http://en.wikipedia.org/wiki/.NET_Remoting|EN.Wikipedia ".NET Remoting"]], [[http://de.wikipedia.org/wiki/.NET_Remoting|DE.Wikipedia ".NET Remoting"]].
+
+
+
+
+
+===== Interfaces & Protocols for MES  =====
+==== Communications ====
+  *[[http://en.wikipedia.org/wiki/General_Packet_Radio_Service|EN.Wikipedia "General Packet Radio Service"]], [[http://de.wikipedia.org/wiki/General_Packet_Radio_Service|DE.Wikipedia "General Packet Radio Service"]].
+  *[[http://en.wikipedia.org/wiki/Email|EN.Wikipedia "Email"]], [[http://de.wikipedia.org/wiki/E-Mail|DE.Wikipedia "E-Mail"]].
+  *[[http://en.wikipedia.org/wiki/Short_Message_Service|EN.Wikipedia "Short Message Service"]], [[http://de.wikipedia.org/wiki/Short_Message_Service|DE.Wikipedia "Short Message Service"]].
+  *[[http://en.wikipedia.org/wiki/Simple_Network_Management_Protocol|EN.Wikipedia "Simple Network Management Protocol"]], [[http://de.wikipedia.org/wiki/Simple_Network_Management_Protocol|DE.Wikipedia "Simple Network Management Protocol"]].
+==== Directory Services ====
+  *[[http://en.wikipedia.org/wiki/Active_Directory|EN.Wikipedia "Active Directory"]], [[http://de.wikipedia.org/wiki/Active_Directory|DE.Wikipedia "Active Directory"]].
+  *[[http://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol|EN.Wikipedia "Lightweight Directory Access Protocol"]], [[http://de.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol|DE.Wikipedia "Lightweight Directory Access Protocol"]].
+==== Electronic data interchange ( EDI ) ====
+  *[[http://en.wikipedia.org/wiki/Electronic_data_interchange|EN.Wikipedia "Electronic data interchange"]], [[http://de.wikipedia.org/wiki/Elektronischer_Datenaustausch|DE.Wikipedia "Elektronischer Datenaustausch"]] ( EDI ).
+  *[[http://en.wikipedia.org/wiki/EDIFACT|EN.Wikipedia "EDIFACT"]], [[http://de.wikipedia.org/wiki/EDIFACT|DE.Wikipedia "EDIFACT"]].
+  *[[http://www.prozeus.de/|PROZEUS - PROZESSEundSTANDARDS, eBusiness Praxis für den Mittelstand]].
+    *[[http://www.prozeus.de/prozeus/dienstleister/|PROZEUS - IT-Dienstleisterpool]] - List of eBusiness standards :-).
+==== EUROMAP 63 =====
+  *[[http://www.euromap.org/euromap-63|EUROMAP 63]].
+    *[[http://www.euromap.org/files/eu63.pdf|EUROMAP 63 - Data Exchange Interface]] ( PDF ).
+==== File Transfer, Access and Management ( FTAM ) =====
+  *[[http://en.wikipedia.org/wiki/FTAM|EN.Wikipedia "FTAM"]], [[http://de.wikipedia.org/wiki/File_Transfer_and_Access_Management|DE.Wikipedia "File Transfer and Access Management"]].
+==== ISO 10303 - Standard for the Exchange of Product Model Data ( STEP ) ====
+  *[[http://en.wikipedia.org/wiki/ISO_10303|EN.Wikipedia "ISO 10303"]], [[http://de.wikipedia.org/wiki/Standard_for_the_exchange_of_product_model_data|DE.Wikipedia "Standard for the exchange of product model data"]] ( STEP ).
+==== ISO 15531-44 ====
+  *[[http://www.iso.org/iso/catalogue_detail.htm?csnumber=50846|International Organization of Standardization "ISO 15531-44:2010. Industrial automation systems and integration -- Industrial manufacturing management data -- Part 44: Information modelling for shop floor data acquisition"]].
+==== ISO 20242 & ASAM–GDI ====
+  *ISO.
+    *[[http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=40754|International Organization of Standardization "ISO 20242-1:2005. Industrial automation systems and integration -- Service interface for testing applications -- Part 1: Overview"]].
+    *[[http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=37238|International Organization of Standardization "ISO 20242-2:2010. Industrial automation systems and integration -- Service interface for testing applications -- Part 2: Resource management service interface"]].
+    *[[http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=37239|International Organization of Standardization "ISO 20242-3:2011. Industrial automation systems and integration -- Service interface for testing applications -- Part 3: Virtual device service interface"]].
+    *[[http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=37240|International Organization of Standardization "ISO 20242-4:2011. Industrial automation systems and integration -- Service interface for testing applications -- Part 4: Device capability profile template"]].
+  *[[http://www.asam.net/|Association for Standardisation of Automation and Measuring Systems ( ASAM e. V. )]].
+  *[[http://www.asam-gdi.net/|Dr.–Ing. Robert Patzke "ASAM–GDI Generic Device Interface"]].
+    *Wiki [[http://www.asam-gdi.net/wiki/index.php5|ASAM-GDI Wiki]].
+  *[[http://en.wikipedia.org/wiki/Association_for_Standardisation_of_Automation_and_Measuring_Systems|EN.Wikipedia "Association for Standardisation of Automation and Measuring Systems"]], [[http://de.wikipedia.org/wiki/Association_for_Standardization_of_Automation_and_Measuring_Systems|DE.Wikipedia "Association for Standardization of Automation and Measuring Systems"]].
+==== Radio-Frequency Identification ( RFID ) ====
+  *See [[rfid.html|Radio-Frequency Identification ( RFID )]].
+==== Remote Procedure Call ( RPC ) ====
+  *[[http://en.wikipedia.org/wiki/Remote_Procedure_Call|EN.Wikipedia "Remote procedure call"]], [[http://de.wikipedia.org/wiki/Remote_Procedure_Call|DE.Wikipedia "Remote Procedure Call"]].
+==== SAP's Interfaces ====
+  *See [[erp.html|Enterprise Resource Planning ( ERP ) / "Produktionsplanung und Steuerung" ( PPS )]].
+==== Special Devices ====
+=== Andon Board, Andon Button ===
+  *[[http://de.wikipedia.org/wiki/Andon|EN.Wikipedia "Andon"]], [[http://en.wikipedia.org/wiki/Andon_%28manufacturing%29|DE.Wikipedia "Andon (manufacturing)"]].
+  *An Andon button is a "call-off order" / "demand" button, in a shopfloor environment.
+  *Loosely related: [[dsignage.html|Digital Signage]]. 
+=== AOI, ATE ===
+  *[[http://en.wikipedia.org/wiki/Automated_optical_inspection|EN.Wikipedia "Automated optical inspection"]], [[http://de.wikipedia.org/wiki/Automatische_optische_Inspektion|DE.Wikipedia "Automatische optische Inspektion"]] ( AOI ).
+  *[[http://en.wikipedia.org/wiki/Automatic_test_equipment|EN.Wikipedia "Automatic test equipment"]], [[http://de.wikipedia.org/wiki/Automatic_Test_Equipment|DE.Wikipedia "Automatic Test Equipment"]] ( ATE ).
+=== Distributed Control System ( DCS ) ===
+  *[[http://www.foxboro.de/|Foxboro]].
+    *Foxboro Data format without text ( = CSV data format ).
+    *Foxboro Data format with text ( = CSV data format ).
+=== Meters ===
+  *[[http://www.janitza.de/|Janitza electronics GmbH]]. Optional communications by Modbus TCP, via an OPC server with Modbus TCP interface -> see [[fieldbus.html|Fieldbuses and Automation Networks]].
+    *Wiki [[http://wiki.janitza.de/|Janitza Dashboard]].
+=== Mobile Computers for visual Data Acquisition ===
+  *[[http://www.pixolus.de/|pixolus GmbH]] - "Mobile visuelle Datenerfassung Abtippen war gestern". "Produkte (1) Verbrauchsablesung durch Mitarbeiter (2) Kundenselbstablesung".
+=== Mobile Computers with "Windows Mobile 6" ===
+  *[[http://www.microsoft.com/de-de/download/details.aspx?id=15|Microsoft ActiveSync]] - for communikation with mobile computers.
+    *[[http://en.wikipedia.org/wiki/ActiveSync|EN.Wikipedia "ActiveSync"]], [[http://de.wikipedia.org/wiki/ActiveSync|DE.Wikipedia "ActiveSync"]].
+    *[[http://en.wikipedia.org/wiki/OpenSync_(software)|EN.Wikipedia "OpenSync (software)"]], [[http://de.wikipedia.org/wiki/OpenSync|DE.Wikipedia "OpenSync"]].
+  *[[http://www.intermec.de/|INTERMEC TECHNOLOGIES Gmbh]].
+    *[[http://www.intermec.de/products/computers/handheld_computers/|INTERMEC TECHNOLOGIES Gmbh "Handheld-Computer"]].
+      *[[http://www.intermec.de/site/CK3ng/ck3-next-generation.aspx|INTERMEC TECHNOLOGIES Gmbh "Robuste Mobilcomputer - Die neue CK3-Serie"]].
+=== Printing, Scanning,.. ===
+  *[[http://www.intermec.com/|Intermec Technologies Corporation]].
+    *[[http://www.intermec.com/products/cmptrck3/|Intermec Technologies Corporation "CK3B Mobile Computer"]].
+  *[[http://www.prologis.de/|ProLogis Automatisierung und Identifikation GmbH]] - "Kennzeichnen, Identifizieren, Automatisieren. Etikettendrucker, Scanner, Mobile Datenerfassung".
+  *[[http://www.zebra.com/us/en/products-services/printers/printer-type/industrial/105sl.html|Zebra Technologies Corporation "105SL Industrial Printers"]].
+=== Scales ===
+  *"Scale Listener" - instrumentation device for scales.
+==== Universal Machine Connectivity ( UMCM ) ====
+  *[[http://www.it-production.com/index.php?seite=einzel_artikel_ansicht&id=59435|it-production.com - Das Online-Magazin für erfolgreiche Produktion "Universal Machine Connectivity - Auf dem Weg zur einfachen Maschinenanbindung"]].
+  *[[http://www.mpdv.de/de/produkte/datenerfassung-mit-mes/umcm.htm|MPDV Mikrolab GmbH "UMCM - eine Schnittstelle für alle"]].
+==== Time Stamping =====
+=== Continous timestamped Data Storage without Influence of Daylight Savings ===
+  *It is important that a MES software stores data with timestamps in UTC and not in local time. The problem are daylight savings applied to local time in many countries, including EU: In Spring, you have a gap of one our in your datastream, in Autumn you loose data of 1 hour ( as it is not possible for most MES systems, to store 2 datasets with the same timestamp :-( ).
+=== Temporal Validity ===
+  *[[http://www.bytes.com/topic/oracle/answers/643481-to_timestamp-fomatting-dates|Bytes IT Community "to_timestamp fomatting of Dates"]].
+  *[[http://www.codeproject.com/Articles/17637/Bitemporal-Database-Table-Design-The-Basics|CodeProject "Bitemporal Database Table Design - The Basics"]].
+  *[[http://www.github.com/jOOQ/jOOQ/issues/2605|GitHub "jOOQ/jOOQ"]] - "Add support for Oracle 12c's temporal validity (AS OF PERIOD FOR) #2605" - "An example taken from the documentation".
+  *[[http://www.google.de/search?q=valid+time+temporal|Google Search "valid time temporal"]].
+  *Oracle.
+    *[[http://www.oracle.com/webfolder/technetwork/tutorials/obe/db/12c/r1/ilm/temporal/temporal.html|Oracle "Implementing Temporal Validity"]] - "Valid time temporal support in Oracle Database enables you to associate a valid time dimension with a table and to have data be visible depending on its time-based validity, as determined by the start and end dates or timestamps of the period for which a given record is considered valid. Examples of time-based validity can include the hire and termination dates of an employee in a Human Resources application, the effective date of coverage for an insurance policy, and the effective date of a change of address for a customer or client".
+    *[[http://docs.oracle.com/cd/E16655_01/server.121/e17613/part_lifecycle.htm#VLDBG007|Oracle Docs "5 Managing and Maintaining Time-Based Information"]].
+    *[[http://docs.oracle.com/cd/B12037_01/server.101/b10759/functions178.htm|OOracle® Database SQL Reference "TO_TIMESTAMP "]].
+  *[[http://www.gavinsoorma.com/2013/08/oracle-12c-new-feature-temporal-validity/|Oracle DBA – Tips and Techniques	
+Oracle DBA – Tips and Techniques. Knowledge Is Power - Share IT! "Oracle 12c New Feature - Temporal Validity"]].
+  *[[http://protege.cim3.net/cgi-bin/wiki.pl?ValidTimeTemporalModel|Protege Community of Practice (CoP) "ValidTimeTemporalModel"]].
+  *[[http://www.sqlmag.com/business-intelligence/bitemporal-design-time-after-time|SQL Magazine "BiTemporal Design: Time After Time. The time is right to design for better BI queries"]].
+  *[[http://www.stackoverflow.com/questions/800331/why-do-we-need-a-temporal-database|Stack Overflow "Why do we need a temporal database?"]].
+  *[[http://www.techonthenet.com/oracle/functions/to_timestamp.php|Tech on the Net "Oracle/PLSQL: TO_TIMESTAMP Function"]].
+  *[[http://www.timeconsult.com/TemporalData/TemporalData.html|Timeconsult "What is Temporal Data?"]].
+  *[[http://en.wikipedia.org/wiki/Bitemporal_data|EN.Wikipedia "Bitemporal data"]].
+  *[[http://en.wikipedia.org/wiki/Temporal_database|EN.Wikipedia "Temporal database"]], [[http://de.wikipedia.org/wiki/Temporale_Datenbank|EN.Wikipedia "Temporale Datenbank"]] - "Valid time is the time period during which a fact is true with respect to the real world".
+  *[[http://en.wikipedia.org/wiki/Valid_time|EN.Wikipedia "Valid time"]].
+
+==== Web Services ====
+  *[[http://en.wikipedia.org/wiki/Web_service|EN.Wikipedia "Web service"]], [[http://de.wikipedia.org/wiki/Webservice|DE.Wikipedia "Webservice"]].
+
+===== Interfaces & Protocols for PI Systems  =====
+==== Distributed Network Protocol ( DNP3 ) ====
+  *[[http://www.dnp.org/|DNP Users Group]].
+==== IEC 60870 ====
+  *[[http://en.wikipedia.org/wiki/IEC_60870-6|EN.Wikipedia "IEC 60870-6"]], [[http://de.wikipedia.org/wiki/IEC_60870|DE.Wikipedia "IEC 60870"]].
+==== IEC 61850 / 61400-25 ====
+  *See [[fieldbus.html|Fieldbuses and Automation Networks]].
+
+==== Modbus IDA, RTU, TCP ====
+  *See [[fieldbus.html|Fieldbuses and Automation Networks]].
+
+===== Control and Data Communication Concepts & Data Sources =====
+{{images:mes3.png?480|Control and Data Communication between a MES and Factory Equipment by OLE or SEMI)}}
+
+Inspired by: [[http://info.cimetrix.com/blog/bid/84727/Implementing-GEM-and-PV2-what-you-should-know|Cimetrix, Rob Schreck "Implementing GEM and PV2 – what you should know"]], 2012-05-14.
+==== OLE for Process Control ( OPC ) ====
+=== Organisations ===
+  *[[http://www.opcfoundation.org/|OPC Foundation]].
+  *[[http://www.opceurope.org/|OPC Foundation Europe]].
+  *[[http://opcfoundation.org/events/|OPC Foundation - Events]].
+    *[[http://www.opcfoundation.org/event-details/?ee=55|OPC Day Europe 2015 ]] in Paris, 2015-05-19 - 2015-05-20 - "Hear how Microsoft is positioning Azure with OPC UA extensions".
+=== Traditional OPC Server Tools ===
+  *[[http://www.integrationobjects.com/|Integration Objects]].
+    *The free [[http://www.integrationobjects.com/OPC-connectivity-product-25-63.html|Integration Objects "OPC Server Simulators"]] for Windows.
+  *The OpenSource [[http://openopc.sourceforge.net/|Sourceforge "openOPC"]], [[http://www.sourceforge.net/projects/openopc/|Sourceforge "openOPC"]] - "A free, open source OPC (OLE for Process Control) toolkit".
+  *[[http://www.ipi.ac.ru/lab43/lopc-en.html|Light OPC]] - "The Free OPC Server Toolkit".
+  *[[http://code.google.com/p/frl/|Google Code "frl"]] - "FatRat Library is a toolkit for speed up development OPC servers on C++".
+  *[[http://www.schoop-automation.de/|Ingenieurbüro Dr.-Ing.Schoop GmbH]].
+    *The commercial [[http://www.schoop-automation.de/index.php?option=com_content&view=category&id=146|Ingenieurbüro Dr.-Ing.Schoop GmbH "Schoop OPC-Server"]]. Demo version is available for download.
+  *[[http://www.softing.com/|Softing AG]].
+    *[[http://www.softing.com/home/de/industrial-automation/services/opc/client.php|Softing AG "OPC-Client-Entwicklung"]].
+    *"[[ftp://ftp.softing.com/pub/outgoing/opc/tbx422/OPCDemoClient.exe|Softing AG "OPC Demo Client and OPC Demo Server"]]" (installer download ).
+  *The commercial [[http://www.commsvr.com/|CommServer]].
+    *[[http://www.commsvr.com/DownloadCenter/tabid/182/language/en-US/Default.aspx|CommServer - DownloadCenter]] - free "OPC Viewer" for Windows.
+=== Traditional OPC Client Tools ===
+  *[[http://www.hilscher.com/|Hilscher Gesellschaft für Systemautomation mbH]].
+    *[[http://eng1.jcu.edu.au/subjects/|James Cook University "Engineering Subjects - EE4600:03 Automatic Control 3"]].
+      *[[http://eng1.jcu.edu.au/subjects/ee4600/EE4600%20MPS/CD%20for%20students/Software/Software/Tools/SyCon/UTIL/OpcExplorer/|James Cook University - Download Directoy of Hilscher's "OPC Explorer"]].
+  *[[http://www.integrationobjects.com/|Integration Objects]].
+    *The free [[http://www.integrationobjects.com/OPC-connectivity-product-25-61.html|Integration Objects "OPC DA Explorer"]] for Windows.
+    *The free [[http://www.integrationobjects.com/OPC-connectivity-product-25-62.html|Integration Objects "OPC AE Explorer"]].
+  *The free [[http://www.dopc.kassl.de/explorer.shtml|Kassl GmbH "dOPC Explorer"]] for Windows.
+  *The free "Kepware OPC Quick Client", part of the commercial [[http://www.kepware.com/kepserverex/|KEPServerEX]] package. Free download.
+    *I was told in 2014-03, that the commercial [[http://www.kepware.com/kepserverex/|KEPServerEX]] also provided full OPC UA features :-).
+  *The free [[http://www.matrikonopc.com/products/opc-desktop-tools/opc-explorer.aspx|MatrikonOPC Explorer]] - "A free utility used to view OPC server items and test OPC network connections".
+  *The free [[http://www.poweropc.com/downloads.html|PowerOPC "OPC Data Access Client"]].
+  *[[http://wayback.archive.org/web/*/http://www.mmiopc.com/|Archive.org "Progea Srl.: MMI OPC - The easiest way to human interface"]].
+    *The free [[http://wayback.archive.org/web/*/http://www.mmiopc.com/download.htm|Archive.org "Progea Srl. - OPC Explorer"]] for Windows. Please [[imprint.html|tell me]] if you know a download offer for this free software!
+=== OPC-UA Client / Server Tools ===
+  *As OPC member, you have access to an OPC-UA C++ stack. According to experts, this stack isn't a complete application and which needs much improvements and upgrades to be used for production purposes.
+  *[[http://www.matrikonopc.com/opc-ua/|MatrixOPC "OPC UA (Unified Architecture)"]].
+    *[[http://www.matrikonopc.com/opc-ua/embedded/|MatrixOPC "MatrikonOPC OPC UA Embedded Suite"]].
+      *The hardware kit [[http://www.matrikonopc.com/opc-ua/embedded/evaluation-kit.aspx|MatrikonOPC OPC UA Embedded Server SDK Evaluation Kit]] - ARM Cortex M4 evaluation board ( 64 KBytes RAM ) with "MatrikonOPC OPC UA Embedded Server SDK".
+      *I was told, a typical ARM-based OPC-UA server with 4 services fits into 10 KBytes Flash ROM and needs about 5 KBytes RAM.
+  *[[http://www.hy-line.de/?id=5707|HY-LINE Systems GmbH "groov: Neues browser-basiertes HMI-System von OPTO22"]].
+    *[[http://www.hy-line.de/fileadmin/hy-line/automation/hersteller/opto22/pdf/flyer_groov_Browser_basiertes_HMI_System_mit_OPC-UA.pdf|HY-LINE Systems GmbH "Flyer: Browserbasiertes HMI-System mit OPC-UA"]] ( PDF ).
+    *".. basiert komplett auf Internet-Technologien wie HTML5, CSS3, SVG (Scalable Vector Graphics) und kommt ohne Plug-Ins aus. Flash, Silverlight oder ähnliches wird nicht benötigt. Die mit groov erstellten Anwendungen lassen sich mit jedem Betriebssystem und aktuellen Webbrowser ausführen".
+    *"... Kommunikation zu den bekannten industriellen Steuerungssystemen möglich. Dazu zählen Siemens Simatic, Schneider Electric Modicon und GE PAC-Systems. Der Datenaustausch läuft hier via OPC-UA-Standardprotokoll".
+=== German Books ===
+  -Book [[http://www.amazon.de/exec/obidos/ASIN/3800724383/hemmerling-21|Dieter Barelmann, Christof Bürger, Steffen Himstedt: "OPC in der Praxis"]].
+  -Book [[http://www.amazon.de/exec/obidos/ASIN/3816921035/hemmerling-21|Thomas Bettermann: "Anwendung von Microsoft Softwarestandards in der Automatisierungstechnik. OPC, OLE und ActiveX"]].
+  -The free PDF document [[http://edok01.tib.uni-hannover.de/edoks/e01fn11/633077852.pdf|M. Daubner; V. Krieger: "Betriebsmessdatenvisualisierung und -erfassung mit OPAL (OPC-Panel Livegraph)"]] ( PDF ).
+  -Jürgen Lange.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3800732173/hemmerling-21|Jürgen Lange, Frank Iwanitz: "OPC: Von Data Access bis Unified Architecture"]] = current 4.th edition.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/377852903X/hemmerling-21|Jürgen Lange, Frank Iwanitz: "OPC: Grundlagen, Implementierung und Anwendung"]] = legacy 3.th edition.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3778527983/hemmerling-21|Jürgen Lange, Frank Iwanitz: "OLE for Process Control: Grundlagen, Implementierung und Anwendung"]] = legacy 1.st edition.
+  -Series of publiciations "Praxis Profiline".
+    *[[http://wayback.archive.org/web/*/http://www.praxis-profiline.com|Archive.org "Praxis Profiline"]].
+    *[[http://www.vogel-buchverlag.de/index.php/cat/c86_Praxis-Profiline.html|Vogel Buchverlag "Praxis Profiline"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/382591917X/hemmerling-21|Praxis Profiline, Tom Burke: "OPC: Das bietet ein offener Standard für die Automatisierung, Volume D/E"]] /[[http://books.google.de/books/about/OPC.html?id=6yOitwAACAAJ&redir_esc=y|Vogel Vogel Buchverlag "Praxis Profiline - OPC. Der Standard für die Automatisierung - Volume D/E"]], ISBN 382591917X, 2003 //-> Available in FHH, TIB//.
+    *Book  "OPC. Der Weg zur globalen Interoperabilität. Der Standard für die Automatisierung, Volume D/E", 2004 //-> Available in TIB//.
+=== English Books ===
+  -Book [[http://www.amazon.de/exec/obidos/ASIN/3778527983/hemmerling-21|Jürgen Lange, Frank Iwanitz: "OLE for Process Control: Fundamentals, Implementation, and Application"]].
+  -Book [[http://www.amazon.de/exec/obidos/ASIN/3540688986/hemmerling-21|Wolfgang Mahnke, Stefan-Helmut Leitner, Matthias Damm: "OPC Unified Architecture"]].
+=== Resources ===
+== OPC-UA ==
+  *[[http://www.iosb.fraunhofer.de/?opcuaaml|Fraunhofer IOSB "Gemeinsame Arbeitsgruppe OPC UA und Automation ML"]].
+  *[[http://www.sps-magazin.de/|SPS-MAGAZIN]] - Series of Articles in SPS-MAGAZIN:
+
+^ ^ ^ ^ 
+^ [[http://www.sps-magazin.de/|SPS-MAGAZIN]] Issue ^Date of Publication ^ Topic ^
+^ 3 | 2012-02-24 | OPC UA Status |
+^ 4 | 2012-03-16 | OPC UA: Origin, Development and Objectives |
+^ HMI Special | 2012-04-13 | Ten Reasons for OPC UA |
+^ 5 | 2012-05-10 | OPC UA Specifications |
+^ 6 | 2012-06-01 | OPC UA Companion Standards |
+^ 7 | 2012-06-30 | OPC UA Compliance Test |
+^ 8 | 2012-07-27 | OPC UA Toolkits |
+^ 9 | 2012-08-31 | OPC UA Outlook |
+== OPC & OPC-UA ==
+  *Experts told me about a weakness of OPC servers: All the data an OPC server gets is provided / pushed to process visualisation systems. It is one of the major tasks of a process visualisation system, to filter the incoming information ( by checking the OPC tags ), to reduce the data to an amout 
+    -which can be handled by the process visualisation display.
+    -which is useful to display to the operators.
+  *Communication protocols used with OPC.
+    *[[http://www.modbus.org/|Modbus Organization "Modbus"]].
+      *[[http://en.wikipedia.org/wiki/Modbus|DE.Wikipedia "Modbus"]], [[http://de.wikipedia.org/wiki/Modbus|DE.Wikipedia "Modbus"]] #.
+  *[[http://www.controlglobal.com/voices/opc_connection.html|ControlGlobal.com "Voices: OPC Connection"]].
+  *[[http://www.commsvr.com/|CommServer]].
+    *[[http://www.commsvr.com/Howitworks/OPC/OPCManual/tabid/302/language/en-US/Default.aspx|CommServer - "OPC guide"]].
+    *[[http://www.commsvr.com/UAModelDesigner/Index.aspx|CommServer - "OPC Unified Architecture e-book"]].
+  *[[http://matrikonopc.ca/resources/opc-tutorials.aspx|OPC Tutorials at MatrikonOPC.com]].
+  *[[http://www.commsvr.com/UAModelDesigner/html/e34055b2-23e0-4f1a-9e00-52d75becaeec.htm|OPC Unified Architecture e-book]].
+  *[[http://www.softing.com/|Softing]] - "Your connection to excellence".
+    *[[http://www.softing.com/home/de/pdf/ia/professional-article/opc/2005/0508_opc.pdf|Softing "Zehn Jahre OPC: Von Data Access zu Unified Architecture"]] (PDF).
+  *[[http://www.opcconnect.com/|OPC Programmers' Connection - OLE for Process Control]] - "An independent site dedicated to the needs of the software/solutions developer working with OPC (formerly OLE for Process Control)".
+    *[[http://www.opcconnect.com/freestuf.php|OPC Programmers' Connection "Free OPC Software"]] #.
+    *[[http://www.opcconnect.com/ua.php|OPC Programmers' Connection "OPC Unified Architecture"]].
+== General ==
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/OPC_Unified_Architecture|EN.Wikipedia "OPC Unified Architecture"]], [[http://de.wikipedia.org/wiki/OPC_Unified_Architecture|DE.Wikipedia "OPC Unified Architecture"]] ( = OPC UA ).
+    *[[http://en.wikipedia.org/wiki/Distributed_Component_Object_Model|EN.Wikipedia "Distributed Component Object Model"]], [[http://de.wikipedia.org/wiki/Distributed_Component_Object_Model|DE.Wikipedia "Distributed Component Object Model"]].
+    *[[http://en.wikipedia.org/wiki/Object_Linking_and_Embedding|EN.Wikipedia "Object Linking and Embedding"]], [[http://de.wikipedia.org/wiki/Object_Linking_and_Embedding|DE.Wikipedia "Object Linking and Embedding"]].
+    *[[http://en.wikipedia.org/wiki/OLE_for_process_control|EN.Wikipedia "OLE for process control"]], [[http://en.wikipedia.org/wiki/OPC_Foundation|EN.Wikipedia "OPC Foundation"]], [[http://de.wikipedia.org/wiki/OLE_for_Process_Control|DE.Wikipedia "OLE for Process Control"]].
+==== SEMI Standards ====
+=== SEMI ===
+  *[[http://www.semi.org/|SEMI]] - "The global industry association serving the manufacturing supply chain for the micro- and nano-electronics industries".
+    *[[http://www.semi.org/standards|SEMI International Standards]].
+      *[[http://ams.semi.org/ebusiness/standards/semistandard.aspx|SEMI International Standards - Downloads]] - "Browse 'Equipment Automation Software'".
+=== Equipments Data Acquisition ( EDA ) ===
+  *SEMI Interface A Standards ( E120, E125, E132, E134 ).
+  *EDA does not replace the SEMI SECS/GEM standards or the SEMI GEM 300 standards, since EDA does not provide any features for equipment control or configuration. Instead, equipment suppliers support EDA in addition to other required interfaces.
+=== SEMI SECS/GEM & SEMI GEM 300 - Communications of MES Systems with Factory Equipment ===
+  *SEMI SECS/GEM standards ( E4, E5, E30, and E37 ).
+  *SEMI GEM 300 standards ( E39, E40, E87, E90, E94, E116, E148, and E157 ).
+  *The Generic Equipment Model ( GEM ) defines a standard implementation of SECS-II for all semiconductor manufacturing equipment. The GEM standard defines a common set of equipment behavior and communications capabilities that provide the functionality and flexibility to support the manufacturing automation programs of semiconductor device manufacturers.
+=== Free Software ===
+  *[[http://www.codeforge.com/article/1340|CodeForge.com. Free Open Source Codes Forge and Sharing "SECS I, SECS II agreement communication source code"]] -> "Download Source Codes: semi.zip".
+=== Resources ===
+  *[[http://www.cimetrix.com/|Cimetrix]].
+    *[[http://www.cimetrix.com/interfacea|Cimetrix "SEMI Interface A Standards Overview"]] - "Mapping Interface A/EDA to SECS/GEM" #.
+    *[[http://www.cimetrix.com/secs-ii|Cimetrix "SECS-II - SEMI Equipment Communications Standard 2"]].
+    *[[http://www.cimetrix.com/gem|Cimetrix "SECS/GEM SEMI Standards Overview"]].
+    *Blog [[http://info.cimetrix.com/blog/?Tag=semiinterfaceastandards|Cimetrix SEMI Standards Blog]] - "SEMI Standards Implementation, Software, & Discussion".
+  *[[http://www.integratedmeasurement.com/|Integrated Measurement Association (IMA)]].
+    *[[http://www.integratedmeasurement.com/standards/standards.htm||Integrated Measurement Association (IMA) - Standards]].
+      *[[http://www.integratedmeasurement.com/standards/stand03.htm|Integrated Measurement Association (IMA), James Moyne "Glossary of SEMI Standards: Current and Pending"]].
+  *[[http://www.peergroup.com/|The PEER Group Inc]].
+    *[[http://www.peergroup.com/Products/Connectivity/SDR.aspx|The PEER Group Inc. "SDR"]] - "Provides high-technology factories and their equipment suppliers with the connectivity solution required to implement the well established SEMI equipment communication standard (SECS). SDR is fully compliant with current releases of SEMI standards E4 (SECS I), E5 (SECS II) and E37 (HSMS) and is in wide use throughout the semiconductor industry and is considered the standard that other SECS implementations are measured against.".
+    *[[http://www.peergroup.com/Products/Connectivity/GEM4Tools.aspx|The PEER Group Inc. "GEM4Tools"]] - "SECS/GEM is the communications standard for high-technology equipment. OPC is the communications standard for PLC-based equipment. PEER Group brings SECS/GEM and OPC together to deliver fast and easy factory communications for semiconductor, solar, MEMs, LED and other high-technology manufacturing equipment".
+    *[[http://www.peergroup.com/Products/Connectivity/SECS4Hosts.aspx|The PEER Group Inc. "SECS4Hosts"]] - "**The SECS/GEM protocol is complicated compared with PLC-based factory communications**. With SECS4Hosts, you can simplify the development of a host-side SECS or SECS/GEM driver. SECS4Hosts is all about speed. It's simply the fastest way to give your Windows host applications the ability to communicate with any SECS-compliant equipment".
+  *[[http://en.wikipedia.org/wiki/SECS-II|EN.Wikipedia "SECS-II"]] - "The protocol is maintained by the SEMI organization, from which copies of the SEMI E5 standard may be obtained for a fee".
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0849392624/hemmerling-21|Richard Zurawski "Integration Technologies for Industrial Automated Systems (Industrial Information Technology)"]] - Part 4, section 4.5 "SEMI".
+==== SICLIMAT X File Format ====
+  *The data file output format of [[http://www.cee.siemens.com/web/austria/de/industry/bt/systeme/gebaeudeautomation/gebaeudeleittechnik/siclimat/Pages/siclimatx.aspx|SIEMENS Gebäudemanagementsystem SICLIMAT X]] can be one of the data sources of a MES system.
+==== CVS System as Base for Data Storage & Visualisation ====
+  *In the book [[http://www.amazon.de/exec/obidos/ASIN/3897215675/hemmerling-21|Kathrin Passig, Johannes Jander "Weniger schlecht programmieren"]], the chapter "Versionskontrolle als Softwarebausteine" describes the use of a CVS system for data storage and visualisation:
+    -Creat a file 2015-01-01.txt.
+    -Upload it to a Subversion repository with 'svn add 2015-01-01.txt', 'svn commit -m ""'.
+    -Write your data in the file 2015-01-01.txt.
+    -Updates to this file are updated to the Subversion repository by these 2 commands ( i.e. 'svn add 2015-01-01.txt', 'svn commit -m ""' ).
+    -A web server checks out the data frequently by "svn up" and embedds it into a website.
+
+
+===== Resources =====
+  *[[http://www.matrikonopc.com/resources/opc-tutorials.aspx|Matrikon Inc. "Learn OPC in 5 Easy Steps. Interactive tutorials that will make you an OPC Expert"]].
+
+
+===== Forums, Newsgroups =====
+  *[[http://www.asam-gdi.net/forum/|ASAM-GDI Forum. Informationsaustausch zum Standard und seiner Anwendung]].
+{{tag>automation data exchange industrial data" "industrial data exchange" "digital factory" "meter data unification and synchronization" meter data unification synchronization mdus "meter data management systems" management systems mdms}}
+<footnote_navi_en>

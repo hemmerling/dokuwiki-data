@@ -1,0 +1,336 @@
+====== [hemmerling] NoSQL Databases - Not Just SQL ======
+Related page:
+  *[[dbadmin.html|Database Managment Tools and Database Application Development Tools]].
+  *[[databases.html|Databases, Webserver, Webservices, SQL, XML]].
+===== Events =====
+  *[[http://day.couchdb.org/|CouchDB Day]] in Hamburg, 2015-02-07.
+  *[[http://www.mongodb.com/events/|MongoDB Events]].
+    *[[http://www.mongodb.com/events/mongodb-berlin-2013|MongoDB Events "MongoDB Berlin 2013"]], Berlin, 2013-02-26.
+    *[[http://www.mongodb.com/events/mongodb-munich|MongoDB Events "MongoDB Munich 2012"]], München, 2012-10-16.
+  *The commercial conference [[http://www.nosqlroadshow.com/|No SQL Roadshow]] in München, with free additional "GOTO Nights" events in München, Berlin.
+===== MongoDB =====
+==== The Database ====
+  *The OpenSource NoSQL database [[http://www.mongodb.org/|MongoDB]], [[http://github.com/mongodb|Github "mongo"]] for WinXP, Linux.
+  *MongoDB 2.02 is the latest edition for W2k.
+  *[[http://dl.mongodb.org/dl/win32/i386|MongoDB - Download archive for Windows editions]].
+  *Official bugtracker [[http://jira.mongodb.org/|MongoDB Jira]].
+  *Blog.
+    *Blog [[http://blog.mongodb.org/|The MongoDB NoSQL Database Blog]].
+    *Blog [[http://blog.10gen.com/|10gen Blog]].
+      *[[http://www.mongodb.com/blog/post/whats-name|The MongoDB Blog "What's in a Name?"]], 2013-09-27 - "Today 10gen is changing its name to MongoDB, Inc".
+    *Blog [[http://ed-blog.10gen.com/|10gen Education Blog]].
+  *[[http://www.twitter.com/MongoDB|Twitter "MongoDB"]].
+  *[[http://www.slideshare.net/mongodb|Slideshare "mongodb/10gen"]].
+==== Documentation ====
+  *The online HTML manual [[http://docs.mongodb.org/manual/|The MongoDB Manual]].
+    *[[http://docs.mongodb.org/manual/mongo/|The MongoDB Manual "Using the mongo Shell"]].
+    *Dynamic queries.
+      *[[http://docs.mongodb.org/manual/core/read/|The MongoDB Manual "Read"]].
+      *[[http://docs.mongodb.org/manual/reference/operators/|The MongoDB Manual "Query, Update, and Projection Operators Quick Reference"]].
+      *[[http://docs.mongodb.org/manual/core/update/|The MongoDB Manual "Update"]].
+      *[[http://docs.mongodb.org/manual/reference/method/|The MongoDB Manual "JavaScript Methods"]].
+    *Indexes:
+      *[[http://docs.mongodb.org/manual/core/indexes/|The MongoDB Manual "Indexing Overview"]].
+      *[[http://docs.mongodb.org/manual/applications/indexes/|MongoDB Manual "Indexing Strategies"]].
+      *[[http://docs.mongodb.org/manual/reference/explain/|MongoDB Manual "Explain Output"]].
+    *Aggregation:
+      *[[http://docs.mongodb.org/manual/aggregation/|The MongoDB Manual "Aggregation"]].
+        *[[http://docs.mongodb.org/manual/tutorial/aggregation-examples/|The MongoDB Manual "Aggregation Framework Examples"]].
+     *Map and Reduce:
+      *[[http://gist.github.com/947786|Github "anonymous / example2.js"]], [[http://gist.github.com/anonymous/947786|Github "anonymous / example2.js"]] - "MongoDB map reduce example 2".
+      *[[http://www.github.com/srp/mongoDB/blob/master/map-reduce-example.md|Github "srp / mongoDB / map-reduce-example.md"]] - "Map/Reduce Example".
+     *[[http://docs.mongodb.org/manual/tutorial/recover-data-following-unexpected-shutdown/|The MongoDB Manual "Recover MongoDB Data following Unexpected Shutdown"]] -> Error message "Unclean shutdown detected. Please visit [[http://dochub.mongodb.org/core/repair|http://dochub.mongodb.org/core/repair]] for recovery instructions" :-(.
+     *Data types:
+       *[[http://docs.mongodb.org/manual/core/document/|The MongoDB Manual "BSON Documents"]] - "Date".
+     *Transactions:
+       *[[http://docs.mongodb.org/manual/faq/developers/|The MongoDB Manual "FAQ: MongoDB for Application Developers"]] - "MongoDB does have support for atomic operations within a single document".
+     *Administration:
+       *[[http://docs.mongodb.org/manual/reference/command/compact/|The MongoDB Manual "compact"]].
+       *[[http://docs.mongodb.org/manual/reference/program/bsondump/|The MongoDB Manual "bsondump"]].
+       *[[http://docs.mongodb.org/manual/administration/replica-sets/|The MongoDB Manual "Replica Set Administration"]].
+         *[[http://docs.mongodb.org/manual/tutorial/configure-secondary-only-replica-set-member/|The MongoDB Manual "Prevent Replica Set Member from Becoming Primary"]].
+  *[[http://cookbook.mongodb.org/|The MongoDB Cookbook]], [[http://www.github.com/mongodb/cookbook|Github "mongodb / cookbook"]].
+==== Frameworks, Interfaces, Tools ====
+=== Language Interfaces ===
+  *[[http://api.mongodb.org/|MongoDB API]].
+    *[[http://api.mongodb.org/python/|MongoDB API - Python]].
+    *[[http://api.mongodb.org/java/|MongoDB API - Java]] -> get latest version number for installation by Maven :-).
+  *[[http://docs.mongodb.org/ecosystem/drivers/|MongoDB - Drivers]].
+    *[[http://docs.mongodb.org/ecosystem/drivers/python/|MongoDB - Python Language Center]].
+      *[[http://api.mongodb.org/python/current/installation.html|PyMongo Documentation]].
+  *[[http://pypi.python.org/pypi/pymongo/|Python Package Index "pymongo"]].
+=== Frameworks ===
+  *[[http://www.mongoengine.org/|MongoEngine]] - "A Document-Object Mapper ( Think ORM, but for document databases ) for working with MongoDB from Python. It uses a simple-declarative API, similar to the Django ORM".
+    *[[http://docs.mongoengine.org/|MongoEngine User Documentation]].
+  *[[http://www.github.com/namlook/mongokit|Github "namlook / mongokit"]] for Python.
+    *[[http://namlook.github.io/mongokit/|Github "MongoKit Documentation"]].
+    *[[http://www.twitter.com/namlook|Twitter "Namlook. Artist adventurer, MongoKit author and early startup founder"]].
+  *[[http://www.doctrine-project.org/|Doctrine]] for PHP.
+    *[[http://www.doctrine-project.org/projects/mongodb-odm.html|Doctrine "MongoDB ODM"]] - "Doctrine MongoDB Object Document Mapper is built for PHP and provides transparent persistence for PHP objects".
+    *[[http://docs.doctrine-project.org/projects/doctrine-mongodb-odm/|Doctrine "Doctrine MongoDB ODM’s documentation!"]].
+    *[[http://www.github.com/doctrine/mongodb-odm|Github "doctrine/mongodb-odm"]].
+=== Protocol Interfaces ===
+  *The OpenSource [[http://github.com/fatiherikli/kule|Github "fatiherikli / kule"]] - "REST interface for MongoDB".
+=== Tools ( GUI Frontends,.. ) ===
+  *[[http://github.com/Fiedzia/Fang-of-Mongo|Github "Fiedzia/Fang-of-Mongo"]] - "Web based GUI for mongodb created with pyhon, django and jquery".
+  *The OpenSource [[http://www.genghisapp.com/|Genghis - The single-file MongoDB admin app]], [[https://www.github.com/bobthecow/genghis|Github " bobthecow / genghis"]], a Ruby application for Ruby ( standalone ), Windows, LAMP.
+    *[[http://www.youtube.com/watch?v=C1Nds7el06s|YouTube "MongoDB - Genghis"]].
+=== General ===
+==== Online Services ====
+  *Online test installation [[http://try.mongodb.org/|10gen "Try mongodb"]] - "A Tiny MongoDB Browser Shell (mini tutorial included). Just enough to scratch the surface".
+  *[[http://mms.10gen.com/|10gen "MongoDB Monitoring Service"]].
+    *MongoDB Monitoring Service - " free, cloud-based service provided by 10gen for monitoring MongoDB deployments in real time".
+    *MongoDB Backup Service - "A cloud-based service provided by 10gen for backing up and restoring MongoDB".
+  *[[http://www.mongohq.com/|MongoHQ - MongoDB Database as a Service]] with free basic "sandbox" account.
+    *[[http://support.mongohq.com/|MongoHQ /docs]].
+      *[[http://support.mongohq.com/getting-started/mongohq.html|MongoHQ /docs "Basics of MongoHQ"]].
+    *Video [[http://www.youtube.com/watch?v=SLH6fujRYB8|YouTube "Get Started with a MongoHQ Database"]].
+  *[[http://www.mongolab.com/|MongoLab: MongoDB-as-a-Service]] with free basic "sandbox" account.
+  *[[http://www.objectrocket.com/|ObjectRocket - Industrial Strength MongoDB]].
+==== Meaning of the Brand Name in other Cultures ====
+  *[[http://www.szenesprachenwiki.de/definition/mongo/|Duden - Neues Wörterbuch der Szenesprachen "Mongo"]].
+  *[[http://en.wikipedia.org/wiki/Down_syndrome|EN.Wikipedia "Down syndrome"]], [[http://de.wikipedia.org/wiki/Down-Syndrom|DE.Wikipedia "Down-Syndrom"]].
+==== Experts ====
+  *[[http://www.mongodb.org/about/community/masters/|MongoDB "MongoDB Masters"]].
+==== Resources ====
+  *Blog [[http://rbodkin.wordpress.com/|Ron Bodkin's Blog. About Big Data]].
+    *[[http://rbodkin.wordpress.com/2010/10/15/foursquare%E2%80%99s-mongodb%C2%A0outage/|Ron Bodkin's Blog. About Big Data "Foursquare’s MongoDB Outage"]], 2010-10-15.
+  *[[http://bit.ly/zips_json|bit.ly/zips_json]], [[http://media.mongodb.org/zips.json|media.mongodb.org/zips.json]] - The free "cities" database contents used in the book "MongoDB: Sag Ja zu NoSQL". Data import by <code>mongoimport -d cities -c cities zips.json</code>
+  *Blog [[http://www.diegobasch.com/|Diego Basch's Blog]].
+    *[[http://www.diegobasch.com/ill-give-mongodb-another-try-in-ten-years|Diego Basch's Blog "I’ll Give MongoDB Another Try. In Ten Years"]], 2012-09-24.
+    *Response [[http://news.ycombinator.com/item?id=4565220|Hacker News "I’ll Give MongoDB Another Try In Ten Years"]].
+  *[[http://forumone.com/users/matt-gibbs|Forum One - Communicate. Collaborate. Change the world "Matt Gibbs"]].
+    *[[http://www.forumone.com/blogs/post/mongodb-nosql-architectural-overview|Forum One, Matt Gibbs "MongoDB (NoSQL): An Architectural Overview"]], 2010-06-08.
+    *[[http://www.forumone.com/blogs/post/mongodb-simple-user-directory|Forum One, Matt Gibbs "MongoDB: A Simple User Directory"]], 2010-06-15.
+  *[[http://blog.engineering.kiip.me/post/20988881092/a-year-with-mongodb|Kiip, Engineering Blog "A Year with MongoDB"]].
+  *[[http://www.pastebin.com/raw.php?i=FD3xe6Jt|pastebin "Don’t Use MongoDB"]].
+    *Response.
+      *Blog [[http://nosql.mypopescu.com/|myNoSQL - NoSQL Databases and Polyglot Persistence: A Curated Guide]]
+        *[[http://nosql.mypopescu.com/post/12466059249/anonymous-post-dont-use-mongodb|myNoSQL "Anonymous Post: Don’t Use MongoDB"]], 2011-11-07.
+    *Response [[http://news.ycombinator.com/item?id=3202081|Hacker News "Don't use MongoDB (pastebin.com) - From CTO of 10gen"]].
+    *Response [[http://readwrite.com/2011/11/09/hacker-news-and-the-damage-don|readwrite "Hacker News and the Damage Done? 10gen Responds on MongoDB"]], 2011-11-09.
+  *John Nunemaker.
+    *[[http://www.mongotips.com/|John Nunemaker: MongoTips]].
+    *[[http://www.slideshare.net/jnunemaker|SlideShare "John Nunemaker"]].
+      *[[http://www.slideshare.net/jnunemaker/why-mongodb-is-awesome|SlideShare "Why Is NoSQL So Darn Popular?"]].
+  *[[http://www.phpfreaks.com/tutorial/an-introduction-to-php-and-mongodb|PHP Freaks "An introduction to PHP and Mongodb"]], 2010-12-08.
+  *Slides [[http://www.speakerdeck.com/mitsuhiko/a-year-of-mongodb|Armin Ronacher "A Year of MongoDB"]], 2013-05-10 #.
+  *Blog [[http://blog.schmichael.com/2011/11/05/failing-with-mongodb/|schmichael's blog]].
+    *[[http://blog.schmichael.com/2011/11/05/failing-with-mongodb/|schmichael's blog "Failing with MongoDB"]], 2011-11-05.
+    *Response: [[http://news.ycombinator.com/item?id=3200683|Hacker News "Failing with MongoDB"]].
+  *StackOverflow.
+    *[[http://www.stackoverflow.com/questions/8130529/storing-data-in-xml-or-mongodb|StackOverflow "Storing data in XML or MongoDB"]].
+    *[[http://www.stackoverflow.com/questions/4588303/in-mongodb-how-do-you-remove-an-array-element-by-its-index|StackOverflow "In mongoDb, how do you remove an array element by it's index"]].
+  *[[http://en.wikipedia.org/wiki/MongoDB|EN.Wikipedia "MongoDB"]], [[http://de.wikipedia.org/wiki/MongoDB|DE.Wikipedia "MongoDB"]].
+==== Events and Webinars, Webcasts, Videos on Demand ====
+=== Video Channels ===
+  *[[http://www.youtube.com/user/MongoDB|YouTube Channel "MongoDB"]].
+=== Videos of 2009 ===
+  *[[http://www.youtube.com/watch?v=aoj87p_FX7Y|YouTube "MongoDB"]], 2009-11-28.
+=== Videos of 2010 ===
+  *[[http://www.youtube.com/watch?v=iRDOGkFKBRw|YouTube "Introduction to MongoDb Database"]], 2010-02-27.
+  *[[http://www.youtube.com/watch?v=IK80yYujO1A|YouTube "MongoDB Tutorial - Replica Sets"]], 2010-08-01.
+  *[[http://www.youtube.com/watch?v=OKG_M5UQE9w|YouTube "MongoDB Tutorial - Sharding"]], 2010-08-03.
+  *[[http://www.youtube.com/watch?v=b2F-DItXtZs|YouTube "Episode 1 - Mongo DB Is Web Scale"]], 2010-08-27 -> MongoDB vs. MySQL :-) #.
+    *[[http://www.highscalability.com/|highscalability.com]].
+  *[[http://www.youtube.com/watch?v=w5qr4sx5Vt0|YouTube "O'Reilly Webcast: Introduction to MongoDB"]], 2010-08-24.
+=== Videos of 2011 ===
+=== Videos of 2012 ===
+  *[[http://www.youtube.com/watch?v=PIWVFUtBV1Q|YouTube "O'Reilly Webcast: MongoDB Schema Design: How to Think Non-Relational"]], 2012-03-11.
+=== Use Cases ===
+  *[[http://docs.mongodb.org/manual/use-cases/|MongoDB Manual - Use Cases]].
+  *[[http://wiki.10gen.com/pages/viewpage.action?pageId=54001714|MongoDB Manual - Use Cases ( old version )]].
+    *[[http://blog.mongodb.org/post/171353301/using-mongodb-for-real-time-analytics|MongoDB Blog "Using MongoDB for Real-time Analytics"]], 2009-08-25.
+=== Resources ===
+  *[[http://www.10gen.com/events|10gen - "Events and Webinars"]].
+  *[[http://www.youtube.com/results?search_query=MongoDB|YouTube - Search for "MongoDB"]].
+==== Tips & Tricks ====
+  *On Windows, please create the default database directory "C:\data\db", manually :-).
+  *The comment operator is "<html>//</html>", e.g. <code>// This comment is ignored by MongoDB </code>
+  *MongoDB sorts strings in order of UTF-8. Locals like German Umlaute ( "ÄÖÜäöüß" ) are not sorted as expected in natural language ( e.g. "A" or "Ae" is not follwed by "Ä" in the sort order, but by "B" ) :-(.
+  *Range-type comparisons don´t span data types: MongoDB is a schemaless database. All comparison operations in MongoDB are stronly typed, and dynamically typed too. Documents within the same collection may contain different types of data ( e.g. strings and numeric values ). If you perform string comparisons to a document of a collection, just documents with string values are checked. Documents with numeric values are not checked.
+  *English ( "sharding" ) - German ( "die Begehung [Archäologie]", "die Feldbegehung [Archäologie]", "die Geländeaufnahme" ) :-).
+  *English ( "shard" ) - German ( "die Scherbe" );
+  *If MongoDB operation is distrupted ( e.g. by power off ), the primary database application "mongod.exe" might terminate operation immediately after start. Solution: Please delete the file "mongod.lock" from the data directory ( default: "C:\data\db" ) and restart "mongod.exe".
+  *The MongoDB aggregation process
+
+^ ^ ^ 
+^ # ^ Stage ^ Comments ^ 
+^ 1 | $match | |
+^ 2 | $project | |
+^ 3 | $group | |
+^ 4 | $sort | |
+^ 5 | $limit | |
+^ 6 | $unwind | |
+^ | | 
+
+===== Some other NoSQL Databases ======
+  *The OpenSource NoSQL database [[http://cassandra.apache.org/|Apache Cassandra]].
+    *[[http://en.wikipedia.org/wiki/Apache_Cassandra|EN.Wikipedia "Apache Cassandra"]], [[http://de.wikipedia.org/wiki/Apache_Cassandra|DE.Wikipedia "Apache Cassandra"]].
+  *The OpenSource NoSQL database [[http://www.basho.com/riak/|Basho Technologies, Inc. "Riak"]], [[http://www.github.com/basho|GitHub "basho"]].
+    *[[http://docs.basho.com/|Basho Technologies, Inc. "Riak Docs"]].
+    *[[http://en.wikipedia.org/wiki/Riak|EN.Wikipedia "Riak"]], [[http://de.wikipedia.org/wiki/Riak|DE.Wikipedia "Riak"]].
+  *The OpenSource NoSQL database [[http://www.couchbase.com/|Couchbase]].
+    *[[http://en.wikipedia.org/wiki/Couchbase_Server|DE.Wikipedia "Couchbase Server"]].
+      *[[http://www.phpmagazin.de/|PHP-Magazin]]
+        -issue 6/2014, article "Weltweites Shopping auf der Couch. Reimplementierung eines Onlineshops mit einer NoSQL-Datenbank in der Cloud" by "Goodgame Studios" - "Das Alleinstellungsmerkmal von Couchbase ist die Möglichkeit, die Daten aller Cluster in allen Regionen immer synchron zu halten - und das in Echtzeit. Diese produktbezogene Fähigkeit nennt sich Cross Data Center Replication ( XDCR ). Anderen Daetnbanksystemen ( MongoDB, CouchDB, Riak, Cassandra ), die in die engere Auswahl fielen, fehlte allesamt diese Funktionalität".
+        -issue 1/2015, article "NoSQL mit großen Datenmengen" by "Goodgame Studios".
+  *The OpenSource NoSQL database [[http://couchdb.apache.org/|Apache CouchDB]].
+    *[[http://en.wikipedia.org/wiki/CouchDB|EN.Wikipedia "Couchdb"]], [[http://de.wikipedia.org/wiki/CouchDB|DE.Wikipedia "CouchDB"]].
+  *The OpenSource NoSQL database [[http://hbase.apache.org/|Apache HBase]].
+    *[[http://en.wikipedia.org/wiki/Apache_Hadoop|EN.Wikipedia "Apache Hadoop"]], [[http://de.wikipedia.org/wiki/Apache_Hadoop|DE.Wikipedia "Apache Hadoop"]].
+    *[[http://en.wikipedia.org/wiki/HBase|EN.Wikipedia "HBase"]].
+  *The OpenSource NoSQL database [[http://www.hypertable.org/|[Hypertable]], [[http://code.google.com/p/hypertable/|Google Code "hypertable. A high performance, scalable, distributed storage and processing system for structured and unstructured data"]].
+    *[[http://en.wikipedia.org/wiki/Hypertable|EN.Wikipedia "Hypertable"]].
+
+===== Property Graph Databases - NoSQL Databases for Graph Processing ======
+  *The OpenSource transactional property graph database [[http://www.neo4j.org/|Neo4j]].  
+    *[[http://www.slideshare.net/peterneubauer/intro-to-neo4j-20|SlideShare "Peter Neubauer: Intro to NoSQL and Neo4j 2.0"]].
+    *[[http://www.neotechnology.com/|Neo Technology - graphs are everywhere]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3868021280/hemmerling-21|Michael Hunger: "Neo4j 2.0 Eine Graphdatenbank für alle"]].
+    *The free PDF book [[http://info.neotechnology.com/Neo4j20_de.html|Neo Technology "Michael Hunger: Neo4j 2.0 Eine Graphdatenbank für alle"]].
+  *[[http://en.wikipedia.org/wiki/Neo4j|EN.Wikipedia "Neo4j"]], [[http://de.wikipedia.org/wiki/Neo4j|DE.Wikipedia "Neo4j"]].
+  *[[http://en.wikipedia.org/wiki/Cypher_Query_Language|EN.Wikipedia "Cypher Query Language"]].
+===== Some other NoSQL Databases, but with Joins :-) ======
+  *[[http://www.rethinkdb.com/|ReThinkDB]], [[https://www.github.com/rethinkdb|Github "ReThinkDB"]].
+    *Blog [[http://www.rethinkdb.com/blog/|ReThinkDB Blog]].
+    *[[http://www.facebook.com/pages/RethinkDB/155296331177555|Facebook "ReThinkDB"]].
+    *[[http://www.twitter.com/rethinkdb|Twitter "ReThinkDB"]].
+===== MongoDB Courses by 10gen Education =====  
+==== The Courses ====
+  *[[http://education.mongodb.com/|MongoDB University]] ( formerly: [[http://www.10gen.com/|10gen Education]] ).
+    *[[http://ed-blog.10gen.com/|10gen Education Blog]].
+      *[[http://ed-blog.10gen.com/post/40103037275/how-10gens-online-classes-were-created|10gen Education Blog "How 10gen’s Online Classes Were Created"]], 2013-01-09.
+      *[[http://ed-blog.10gen.com/post/40521351221/curriculum-development-for-online-ed|10gen Education Blog "Curriculum Development for Online Ed"]], 2013-01-14.
+  *[[http://education.10gen.com/courses/10gen/M101P/2013_April/about|10gen Education "M101P: MongoDB for Developers"]] ( 2013-04-01 - 2013-05-20 ).
+  *[[http://education.10gen.com/courses/10gen/M102/2013_April/about|10gen Education "M102: MongoDB for DBAs"]] ( 2013-04-29 - 2013-06-17 ).
+  *[[http://education.10gen.com/courses/10gen/M101J/2013_May/about|10gen Education "M101J: MongoDB for Java Developers"]] ( 2013-05-13 - 2013-07-01 ).
+==== The Videos ====
+  *[[http://www.youtube.com/user/langelvs|YouTube "Luis V.S."]].
+    *[[http://www.youtube.com/playlist?list=PL6LzyRUKjWkvrjyOlKhe_YDG3HXpbq_Tg|YouTube "M101P Week1"]].
+  *[[http://www.github.com/nonsleepr/edu_10gen_dl|Github "nonsleepr / edu_10gen_dl"]] - "Download course videos from education.10gen.com or any other site 'Powered by EdX' (including, of course, edx.org itself)".
+    *Instructions:
+      -Download the scripts from that project; the easiest way is probably to clone the repository with git git clone ( [[https://www.github.com/nonsleepr/edu_10gen_dl.git|www.github.com/nonsleepr/edu_10gen_dl.git]].
+      -Edit the config.py file with your credentials on education.10gen.com
+      -Run python edu_10gen_dl.py ( or python edu_10gen_dl.py /path/to/destination/dir if you want to store the downloaded videos directly in another directory ).
+      -If step 3 tells you the following, you miss dependencies and have to install them (process to 5.): "Not all the nessesary libs are installed. Please see requirements.txt", then you miss some dependencies (either both or one of them), proceed to next step.
+      -To install the two dependencies, Mechanize and BeautifulSoup4, the easiest way is to use easy_install:
+        *"sudo easy_install mechanize".
+        *"sudo easy_install beautifulsoup4".
+      -Now run the script again as in step 3.
+      -Be patient it will take some time to download.
+
+==== Tools and Frameworks used for the Courses ====
+  *JSON, BSON -> See [[webtech.html| Web Technologies ( HTML5, HTML, XML & Javascript )]].
+  *Python -> See [[python.html|Python]].
+    *PyMongo.
+    *Python Setuptools / Easy_install.
+    *Bottle: Python Web Framework.
+  *Apache Maven -> See [[ci.html|Continuous Integration ( CI ) & Continous Delivery ( CD )]].
+  *"SPARK Micro Web Framework", "FreeMarker" -> See [[java.html|Java & Java Platform Languages]].
+  *"JetBrains 'IntelliJ IDEA Community Edition'" -> See [[java.html|Java & Java Platform Languages]].
+==== The "MongoDB for Developers" Staff ====
+  *Andrew Erlichson.
+    *[[http://www.linkedin.com/in/erlichson|LinkedIn "Andrew Erlichson"]].
+    *[[http://www.twitter.com/erlichson|Twitter "Andrew Erlichson"]].
+    *[[http://www.facebook.com/erlichson|Facebook "Andrew Erlichson"]].
+    *Self-assessment during the MongoDB course M101P, "Week 6 - Application Engineering", video "The PyMongo Driver", 2012-10-14 <code>
+API.MongoDB.org.
+Now I didn´t tell you about that earlier on the course, 
+because I didn´t know about it. 
+And I didn´t know about it, 
+because I myself have been learning MongodDB for the last few months. 
+And I was not aware that we have this high-level site.
+</code>
+    *[[http://ed-blog.10gen.com/|The 10gen Education Blog]].
+  *Bryan Nehl ( "k0emt" in forums ).
+    *[[http://www.linkedin.com/in/bryannehl|LinkedIn "Bryan Nehl"]].
+    *[[http://www.twitter.com/k0emt|Twitter "Bryan Nehl"]].
+    *[[http://www.facebook.com/k0emt|Facebook "Bryan Nehl"]].
+  *Matt Campbell ( "mattcampbell" in forums ).
+    *[[http://www.linkedin.com/in/webedia|LinkedIn "Matt Campbell"]].
+    *[[http://webedia.com.au/|webedia.com.au]].
+==== The "MongoDB for DBAs" Staff ====
+  *Dwight Merriman.
+    *[[http://www.linkedin.com/in/dmerr|LinkedIn "Dwight Merriman"]].
+    *[[http://www.twitter.com/dmerr|Twitter "Dwight Merriman"]].
+  *Bryant Williams.
+    *[[http://www.linkedin.com/pub/bryant-williams/12/b06/820|LinkedIn "Bryant Williams"]].
+    *[[http://www.twitter.com/bnwilliams87|Twitter " Bryant Williams, @bnwilliams87, Founder + CTO @LessThan3. TA @10gen"]].
+    *[[http://www.slideshare.net/bryantwilliams|SlideShare "Bryant Williams, Founder and CTO at LessThan3"]].
+    *Company: [[http://www.lessthan3.com/|LessThan3]], [[http://www.twitter.com/LessThan3|Twitter "LessThan3"]].
+  *Moacy Barros / Moacy Silva.
+    *[[http://www.linkedin.com/in/moacybarros|LinkedIn "Teacher Assistant (TA) at 10gen (the MongoDB company)"]].
+    *[[http://www.twitter.com/moacybarros|Twitter "Moacy Barros @moacybarros. Software Engineering, Eclipse IDE development, DBA..."]].
+    *[[http://www.yatedo.com/s/Moacy+Barros|Yatedo "Moacy Barros"]].
+    *[[http://www.moacybarros.com/|moacybarros.com]].
+==== The "MongoDB for Java Developers" Staff ====
+  *Andrew Erlichson.
+  *Jeff Yemin.
+     *[[http://www.linkedin.com/pub/jeff-yemin/1/81b/1ba|LinkedIn "Jeff Yemin"]] .
+     *[[https://www.twitter.com/jeffyemin|Twitter "Jeff Yemin"]].
+===== Literature =====
+==== Books about CouchDB ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3836216701/hemmerling-21|Andreas Wenk, Till Klampäckel: "CouchDB: Das Praxisbuch für Entwickler und Administratoren"]].
+    *[[http://blog.netzmeister-st-pauli.com/|Andy Wenk]].
+    *[[http://till.klampaeckel.de/|Till Klampäckel]].
+    *Website for the book [[http://www.couchdb-buch.de/|Andy Wenk "CouchDB. Das Praxisbuch für Entwickler und Administratoren"]].
+    *[[http://www.galileocomputing.de/katalog/buecher/titel/autoren/gp/titelID-2462|Galileo Computing "CouchDB
+Das Praxisbuch für Entwickler und Administratoren - Autorenportrait"]].
+==== Books about MongoDB ====
+=== Books ===
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/B006V35GX6/hemmerling-21|Kyle Banker "Mongodb in Action"]].
+    *The acompanying website [[http://www.manning.com/banker/|Manning Publications Co., Kyle Banker: MongoDB in Action]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3868020578/hemmerling-21|Marc Boeker "MongoDB: Sag Ja zu NoSQL"]].
+    *[[http://bit.ly/zips_json|bit.ly/zips_json]], [[http://media.mongodb.org/zips.json|media.mongodb.org/zips.json]] - The free "cities" database contents used in the book "MongoDB: Sag Ja zu NoSQL". Data import by <code>mongoimport -d cities -c cities --drop zips.json</code>
+    *On page 102, the author suggests to take a look at open source application projects using MongoDB ( at Github, Sourceforge,.. ), and take database "schemes"  found there as template for database "schemes" of the own application.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1449381561/hemmerling-21|Kristina Chodorow, Michael Dirolf "MongoDB: The Definitive Guide"]].
+  *Rick Copeland.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1449340040/hemmerling-21|Rick Copeland "MongoDB Applied Design Patterns"]].
+    *Kindle E-Book [[http://www.amazon.de/exec/obidos/ASIN/B008O528IA/hemmerling-21|Rick Copeland "MongoDB with Python and Ming"]] - //Not in TIB//.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1449314368/hemmerling-21|Steve Francia "MongoDB and PHP"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3446429956/hemmerling-21|Arno Hollosi "Von Geodaten bis NoSQL : leistungsstarke PHP-Anwendungen"]] - "Teil IV. Mit Redis, einem Key/Value-Store, und MongoDB, einer populären Dokumentendatenbank, lernen Sie die Einsatzgebiete von NoSQL-Datenbanken kennen.".
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1849513627/hemmerling-21|Rubayeet Islam "PHP and MongoDB Web Development Beginner's Guide"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1449310370/hemmerling-21|Niall O'Higgins "Mongodb and Python: Patterns and Processes for the Popular Document-Oriented Database"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1430230517/hemmerling-21|Eelco Plugge, Tim Hawkins, Peter Membrey  "The Definitive Guide to MongoDB: The NoSQL Database for Cloud and Desktop Computing"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1934356921/hemmerling-21|Eric Redmond, Jim R. Wilson "Seven Databases in Seven Weeks: A Guide to Modern Databases and the NoSQL Movement"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1449337392/hemmerling-21|Mike Wilson "Building Node Applications with MongoDB and Backbone"]].
+=== Resources ===
+  *[[http://www.10gen.com/books|10gen - The MongoDB Company "Books"]].
+===== Resources =====
+  *[[http://www.drdobbs.com/database/224900500|Ken North, Dr.Dobb's Journal "The NoSQL Alternative"]], 2010-05-21.
+  *[[http://planet.mongodb.org/|Planet MongoDB]] - "an aggregator for blogs about the open source database MongoDB".
+  *[[http://www.stackoverflow.com/questions/tagged/mongodb|Stack Overflow - Tagged Questions "mongodb"]].
+  *[[http://en.wikipedia.org/wiki/NoSQL|EN.Wikipedia "NoSQL"]], [[http://de.wikipedia.org/wiki/NoSQL|DE.Wikipedia "NoSQL"]].
+===== Communities, Forums, Newsgroups =====
+  *[[http://forums.couchbase.com/|Couchbase Forums]].
+  *[[http://www.facebook.com/mongodb|Facebook "MongoDB"]].
+  *Facebook.
+    *[[http://www.facebook.com/mongodb|Facebook "MongoDB"]].
+    *[[http://www.facebook.com/groups/mongodbgroup/|Facebook Groups "MongoDB Developers & DBAs (Worldwide)"]].
+  *Google.
+    *[[http://groups.google.com/group/mongodb-user|Google Groups "mongodb-user"]].
+    *[[http://group.google.com/group/mongodb-dev|Google Groups "mongodb-dev"]].
+    *[[http://groups.google.com/group/mongoengine-users|Google Groups "MongoEngine Users"]].
+    *[[http://groups.google.com/group/doctrine-user|Google Groups "doctrine-user"]].
+    *[[http://group.google.com/group/mongokit|Google Groups "mongokit"]].
+    *[[http://plus.google.com/communities/115421122548465808444|Google+ "mongoDB"]].
+  *[[http://www.javaranch.com/|Java Ranch - a friendly place for Java greenhorns!]].
+    *[[http://www.coderanch.com/|Java Ranch - Java Forums at the Big Moose Saloon ( coderanch.com )]].
+      *[[http://www.coderanch.com/forums/c/16/databases|Java Ranch - Java Forums at the Big Moose Saloon "Databases"]].
+        *[[http://www.coderanch.com/forums/f-115/|Java Ranch - Java Forums at the Big Moose Saloon " MongoDB"]].
+  *LinkedIn.
+    *[[http://www.linkedin.com/groups?gid=2340731|LinkedIn "MongoDB"]].
+    *[[http://www.linkedin.com/groups?gid=4773314|LinkedIn "MongoDB Professionals Worldwide"]].
+    *[[http://www.linkedin.com/skills/skill/MongoDB|LinkedIn Skills&Expertise "MongoDB"]].
+  *[[http://www.manning-sandbox.com/forum.jspa?forumID=677|Manning Publications Co. Forum "MongoDB in Action"]].
+  *[[http://forum.samuris.com/forum/30-mongodb/|Samuris Community Forum "MongoDb"]].
+  *[[http://www.stackoverflow.com/questions/tagged/nosql|Stack Overflow - Tagged Questions "[nosql]"]].
+  *[[http://www.xing.com/net/dbmongodb|XING "Deutsche Benutzergruppe MongoDB"]].
+    *Event [[http://www.xing.com/events/cebit-2013-open-source-forum-mongodb-usergroup-treffen-1212914|XING "CeBIT 2013 - Open Source Forum und MongoDB Usergroup Treffen"]], 2013-03-06.
+
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Software/Databases/|OpenDirectory "Top: Computers: Software: Databases"]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Software/Datenbanken/|OpenDirectory "Top: World: Deutsch: Computer: Software: Datenbanken"]].
+{{tag>sql nosql "not just sql" database databases administration "database administration" "software development"}}
+<footnote_navi_en>

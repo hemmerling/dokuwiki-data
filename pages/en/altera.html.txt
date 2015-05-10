@@ -1,0 +1,103 @@
+====== [hemmerling] Altera "System on Chip" ( SoC ) ======
+Related pages:
+  *[[eda03.html|Electronic Design Automation ( EDA ) 3/5 - Design for Application-Specific Integrated Circuits ( ASIC ) - Design of digital Chips]].
+  *[[xilinx.html|Xilinx "System on Chip" ( SoC )]].
+  *[[debugger.html|Hardware Debugger and Software Debugger]].
+  *[[linux.html|Linux 1/2]].
+===== The Company =====
+  *[[http://www.altera.com/|Altera Corporation]].
+  *[[http://www.altera.com/devices/processor/emb-index.html|Altera Corporation "Processors from Altera and Embedded Alliance Partners"]] -> ARM Cortex, Intel Atom, Freescale Coldfire, Nios II.
+  *[[http://www.altera.com/devices/processor/soc-fpga/proc-soc-fpga.html?WT.mc_id=sa_pr_al_ne_tx_a_412|Altera Corporation "SoC FPGA Overview"]].
+  *[[http://www.altera.com/education/training/curriculum/fpga/trn-fpga.html|Altera "FPGA Designer Curriculum"]].
+  *[[http://www.altera.com/support/software/resource/sof-resource-overview.html|Altera "Design Software Resource Centers"]].
+    *[[http://www.altera.com/support/software/sof-quartus.html|Altera "Quartus II Software Support"]].
+  *[[http://www.altera.com/literature/lit-qts.jsp|Altus "Quartus II Development Software Literature"]].
+===== FPGA Chips & Boards =====
+==== Cyclon V with 2 x ARM Cortex A9 ====
+=== My Eval Board "SoCKIT", with ARM Cortex A9 ===
+  *[[http://www.altera.com/b/arrow-sockit.html|Altera Corporation "Arrow’s SoCKIT Solution Accelerates ARM-Based SoC Design"]].
+  *[[http://www.elektroniknet.de/distribution/design-in/artikel/96452/|elektroniknet.de "Eval-Kit mit ARM SoC von Altera"]].
+=== The Eval Board "SoCrates" by EBV, with ARM Cortex A9 ===
+  *[[http://www.ebv.com/en/products/categories/details/type/categories/category/development-tools-ebv/product/-46209be9ce.html|EBV "SoCrates: SoC has Landed. The low cost CycloneV SoC starter kit from EBV"]].
+  *[[http://ebv.jack-mrosek.de/s7HKwsmx37i/SoC_Workshop_HW/|EBV SoCrates Workshop (HW) - Download Files]], 2013-05-29.
+  *[[http://www.rocketboards.org/foswiki/Documentation/EBVSoCratesEvaluationBoard|RocketBoards.org "EBV SoCrates Evaluation Board"]].
+  *Important: The DDR2 RAM speed must be set to 333 Mhz, not to 400 Mhz. The Altera / EBV workshop documents of 2013-06 stated to set the speed to 400 Mhz, which is not a stable setting for the current boards.
+  *The Socrates root file system, at RocketBoards.org, contains a Python webserver as part of the demonstration.
+=== Installation of the Software Development Tools ===
+  -"Quartus II Web-Edition". Select "**Cyclon V**" as target during installation.
+  -"SoC Embedded Design Suite".
+  -"ARM Development Studio, DS-5 Community Edition", activation key "AC+70616421313438".
+  -"PuTTY" for Windows.
+  -"Win32DiskImager" for Windows.
+==== NIOS II ( Cyclon IV E Family ) ====
+=== The BeMicro FPGA Stick ===
+  *[[http://www.altera.com/b/nios-bemicro-evaluation-kit.html|Altera "BeMicro FPGA Evaluation Kit"]] - "Build an Embedded Processor System in an FPGA in Minutes". The "old" kit of 2010 ( 512 KB RAM ), good to learn how to configure a FPGA to make it work as a CPU & FPGA programming.
+  *[[http://www.hitex.com/index.php?id=1489|Hitex "BeMicro FPGA-Stick"]]
+  *[[http://www.ehitex.de/p_info.php?products_id=311|Hitex "LPC-Stick-Prototyping-Board"]] - "Prototypen-Erweiterungs-Board für die LPC Application Development Sticks oder BeMicro FPGA Evaluation Kit mit Erweiterungsstecker".
+=== My BeMicro SDK ===
+  *[[http://www.altera.com/b/bemicro-sdk.html|Altera "BeMicro SDK"]].
+  *[[http://www.arrow.com/bemicrosdk|Arrow "BeMicro SDK"]] - The "new" kit of 2011 ( 64 MB RAM ), good for software development.
+  *[[http://www.hitex.com/index.php?id=3180&L=3|Hitex "BeMicro SDK"]].
+  *[[http://www.ehitex.de/p_info.php?products_id=311|Hitex "LPC-Stick-Prototyping-Board"]] - "Prototypen-Erweiterungs-Board für die LPC Application Development Sticks oder BeMicro FPGA Evaluation Kit mit Erweiterungsstecker".
+  *The board is equipped with a temperature sensor ( [[http://www.national.com/ds/LM/LM71.pdf|National LM71CIMF SPI/Microwire 13-bit Plus Sign Temperature Sensor]] ). As of 2011-03, there is a software bug in the FPGA, so that the temperature sensor does not create reasonable values when read from official "C/C++" software examples ( the webserver ). Typical values in normal conditioned rooms of 20° C at Winter/Spring time, are 32°C..34°C.
+  *The board is equipped with a [[http://de.wikipedia.org/wiki/SD_Memory_Card|microSD memory card]] reader.
+=== BeMicro SDK Installation ===
+  -"Quartus II Web-Edition". Select "**Cyclon IV E Family**" as target during installation.
+    *With these free Altera development tools, if the installation file has about the same size, the service package contain a new full version. The update does not patch the old version, but is a fresh install and must be installed in a separate directory.
+  -Install "Nios II Embedded Design Suite (EDS)" in the same directory as "Quartus II Web-Edition".
+    *Else you get the error message during installation of "NiosII Embedded Design Suite (EDS)", after the installation of "Quartus II Web-Edition": "The specified path ('c:\altera\10.1') does not contain a Quartus II bin directory. Nios II Embedded Design Suite needs to install into the same directory level as Quartus II. Please specify a valid Quartus II installation directory". 
+    *"Nios II Embedded Design Suite (EDS)" is a full version, there is no commercial subscription version !
+  -Plug the "BeMicro SDK" USB stick in your Windows PC, and point Windows for driver installation to the directory "C:\altera\quartus\drivers\usb-blaster\". 
+    *Don´t point to a deeper directory ! 
+    *Warning: Win7 might be shipped with a non-functional outdated driver ?!
+  -Use the "Board Support Package" ( C/C++ header files, drivers,..) to create your applications. You can access the software tools by classical command line commands and by Eclipse.
+==== Cyclon II ====
+  *[[http://www.altera.com/education/univ/materials/boards/de2/unv-de2-board.html|Altera "DE2 Development and Education Board"]] - Cool multi-functional evaluation board :-).
+===== Development Software =====
+==== FPGA Development Software ====
+  *The free [[http://www.altera.com/download/sw/dnl-sw-index.jsp|Altera Corporation "Download Center. Get the complete suite of Altera design tools" - "Quartus II Web Package 13.0"]].
+    *"Quartus II Web-Edition" for Windows and Linux. 
+      *Select “**Cyclon V**” as target during installation.
+    *TCL is the script language for Quartus. See [[tickle.html|Tcl / Tk ( tickle )]].
+  *[[http://www.altium.com/en/products/altium-designer|Altium Designer]].
+    *The free [[http://www.altera.com/products/software/quartus-ii/modelsim/qts-modelsim-index.html|Altera "ModelSim ALTERA Starter Edition"]] for Windows and Linux.
+  *It is expected for Summer 2014, that FPGA development software will be solely available for 64-bit only and not anymore for 32-bit too, on Windows and Linux,
+==== C/C++ Development Tools for Cyclon V -based ARM9, running on Windows and Linux Hosts ====
+  *The free [[http://www.altera.com/download/software/soc-eds|Altera Corporation "SoC Embedded Design Suite"]].
+  *The free [[http://ds.arm.com/altera/altera-community-edition/|ARM Development Studio, DS-5 Community Edition]] 
+    *You need an activation key ( e.g. "AC+70616421313438" ) for operation.
+    *While software development for Linux and host-driven debugging of Linux applicationss is free, bare metal development requires a commercial license.
+  *The OpenSource terminal software [[http://www.putty.org/|PuTTY]] for Windows.
+  *The OpenSource [[http://win32diskimager.sourceforge.net/|SourceForge "Win32DiskImager"]], [[http://www.sourceforge.net/projects/win32diskimager/|SourceForge "Win32DiskImager. This tool is used for writing images to USB sticks or SD/CF cards"]].
+  *[[http://www.altera.com/download/10.1/dnl-v101-download-installation-faq.html|Altera Software v10.1 Installation Frequently Asked Questions]].
+  *The "Altera Preloader" is based on "SPC U-Boot".
+==== Embedded Linux Development Kit ( ELDK ) for FPGA-based ARM9, running on Linux Hosts ====
+=== The Product ===
+  *The OpenSource [[http://www.denx.de/wiki/DULG/ELDK|Embedded Linux Development Kit ( ELDK )]].
+  *[[http://git.denx.de/?p=linux-denx/linux-denx-dzu.git;a=summary|Git repository of DENX Software Engineering "Dzu's Linux Git Tree"]].
+  *[[http://git.denx.de/?p=linux-denx/linux-denx-dzu.git;a=shortlog;h=refs/heads/ebv-socrates-v3.8|Git repository of DENX Software Engineering "Ebv-socrates-v3.8"]].
+=== Resources ===
+  *[[http://www.wiki.xilinx.com/Installing+ELDK|XILINX Wiki "Installing ELDK"]].
+  *[[http://processors.wiki.ti.com/index.php/ELDK_usage|Texas Instruments Wiki "ELDK usage"]].
+==== Software of / for the BeMicro SDK ====
+  *[[http://www.altera.com/download/software/quartus-ii-we|Altera, Download "Quartus II Web Edition Software"]] - The free development software "Quartus II Web-Edition" includes the "NiosII Embedded Design Suite (EDS)" for Windows ( Visual C/C++ 2008 Runtime ) and Linux.
+  *[[http://www.altera.com/devices/processor/nios2/tools/ni2-development_tools.html|Altera Corporation "Embedded Software Development"]].
+    *[[https://www.altera.com/download/software/nios-ii|Nios II Embedded Design Suite Legacy Tools]] ( "https:" only ).
+  *[[http://www.altera.com/education/demonstrations/dem-index.html|Altera "Demonstration Center"]] - "Nios II Processor Online Demonstrations", "Quartus II Online Demonstrations".
+  *[[http://www.altera.com/support/kdb/solutions/rd12222010_317.html|Altera Support Solution, 2011-01-12 "Why does Nios II Software Build Tools for Eclipse hang when you try to Run a project As Nios II Hardware ?"]] - "Quartus II software version 10.1 patch 0.18 for PC (.exe file)". 
+  *A full version of the realtime operating system [[http://micrium.com/|µMicrium C/OS-II]] is shipped with the BeMicro SDK.  "You can develop software for any of the Nios II development kits using the Micrium MicroC/OS-II RTOS. To generate software to run on other boards and/or ship in a product, you must obtain a license".
+  *A trial version of the run-time monitoring tool [[http://micrium.com/page/products/tools/probe|Micrium "µC/Probe"]] for Windows is shipped with the BeMicro SDK.
+==== Online Services for BeMicro SDK ====
+  *[[http://arrow.transim.com/bemicro/welcome.aspx|Arrow "BeMicro SDK Jumpstart Designer"]].
+  *[[http://www.arroweurope.com/markets-solutions/solutions/bemicro/bemicro-sdk-jumpstart-designer.html|Arrow Europe "BeMicro SDK Jumpstart Designer - powerful cloud-based design platform"]].
+===== Resources =====
+  *[[http://www.altera.com/products/ip/processors/nios2/|Altera "Nios II Processor: The World's Most Versatile Embedded Processor"]].
+  *[[http://www.altera.com/literature/lit-nio2.jsp|Altera "Literature: Nios II Processor"]].
+  *[[http://www.rocketboards.org/|RocketBoards.org]].
+    *[[http://rocketboards.org/gitweb/|RocketBoards.org - Git Repository]].
+    *[[http://www.rocketboards.org/foswiki/Main/DetlevZundel|RocketBoards.org - Detlev Zundel]].
+  *[[http://en.wikipedia.org/wiki/Nios_II|EN.Wikipedia "Nios II"]], [[http://de.wikipedia.org/wiki/Altera_Nios|DE.Wikipedia "Altera Nios"]].
+  *[[http://en.wikipedia.org/wiki/Altera|EN.Wikipedia "Altera"]], [[http://de.wikipedia.org/wiki/Altera|DE.Wikipedia "Altera"]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Hardware/Mikrocontroller/|OpenDirectory "Top: World: Deutsch: Computer: Hardware: Mikrocontroller"]].
+{{tag>"Analog Devices" Altera Nios "Nios II" "Cyclon IV E" "Cyclon V" Cyclon SoCKIT "ARM Cortex A9" ARM Cortex A9}}

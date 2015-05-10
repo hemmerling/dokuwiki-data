@@ -1,0 +1,139 @@
+====== [hemmerling] Texas Instruments' 68K powered Calculators "TI-89 Titanium", "TI Voyage 200" ======
+Related Pages:
+  *[[mobilepc.html|Mobile computers, handhelds, organizers, programmable calculators]].
+{{images:voyage2.jpg|Texas Instruments TI Voyage 200}} {{images:voyage1.jpg|Texas Instruments TI Voyage 200, with manuals}}
+===== History and Motivation for this Page =====
+  *Since January 2005, I own a new programmable calculator, the "Texas Instruments Voyage 200". Once I owned some other programmable calculators, like Texas Instruments TI-57, TI-59 and "Sharp PC1403H".
+  *Texas Instruments "TI-89", "TI-89 Titanium", "TI Voyage 200" pocket calculators and the "CBL 2" are powered by a MC68000 CPU. You can write your own applications in BASIC programming language, plus binary applications in "C" and assembly language.
+===== The "TI-89" Family and its Competitors - Feature Matrix =====
+^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^
+^ Calculator model ^ CPU type ^ CPU Speed ( Mhz ) ^ Display Size ( width x height, in pixels ) ^  	Free RAM ( Kbytes ) ^ Free Flash ROM ( Kbytes ) ^ Maximum segment size ( Kbytes ) ^ USB Port ^ Serial Port, gray standard RS232 cable ( bps ) ^ Serial Port, black special cable ^ Serial Port, USB cable ^ USB Port, USB cable ^
+^ TI-89 | Motorola 68000 | 10 - 12 | 160 x 100 | 188 | 639 | 64 | no | slow ( 9600 ) | fast | very fast | - |
+^ TI-89 Titanium | Motorola MC68SEC000 | 14 | 160 x 100 | 188 | 2700 | 64 | yes | - | - | - | very fast |
+^ TI-92 | Motorola 68000 | 10 | 240 x 128 | 188 | 639 | 64 | no | slow ( 9600 ) | fast | very fast |
+^ TI-92+ | Motorola 68000 | 12 | 240 x 128 | 188 | 639 | 64 | no | slow ( 9600 ) | fast | very fast | - |
+^ Voyage 200 | Motorola MC68SEC000 | 14 | 240 x 128 | 188 | 2700 | 64 | no | slow ( 9600 ) | fast | very fast | - |
+^ HP 48g+ | ARM9 | 75 | 131 x 80 | 330 | 800 | ? | yes | - | - | - | very fast |
+^ Casio FX 2.0 Plus | NEC V30MX | 8 | 128 x 64 | 144 | 786 | 128 | no | quit fast ( 38400 ) | - | - | - |
+^ | | | | | | | | | | | |
+
+If there is no USB port, you can use a serial to USB converter cable for serial communication, but just  for that ! A special TI Serial2USB converter cable is mostly bundled with the Voyage 200, or available separately. 
+===== Texas Instruments ===== 
+==== General Informations ====
+  *[[http://www.texas-instruments.de/|Texas Instruments, Germany]].
+  *[[http://education.ti.com/educationportal/sites/US/sectionHome/download.html|Texas Instruments - Download Center]].
+  *[[http://education.ti.com/educationportal/sites/US/sectionHome/support.html|Texas Instruments - Support]].
+  *[[http://education.ti.com/studentzone/StudentZoneUS/|Texas Instruments - Student Zone]].
+  *[[http://education.ti.com/educationportal/sites/US/nonProductMulti/webinar_archive.html|Texas Instruments - Webinars]].
+  *[[http://education.ti.com/|Texas Instruments "Calculators and Education Technology"]].
+    *[[http://www.timath.com/|Texas Instruments "TI Math" / "TIMath.com Activities for TI Graphing Calculators"]].
+  *[[http://education.ti.com/educationportal/sites/US/productDetail/us_v200.html|Texas Instruments "Voyage 200"]].
+  *[[http://education.ti.com/educationportal/sites/US/productDetail/us_ti89ti.html|Texas Instruments "TI-89 Titanium"]].
+  *[[http://epsstore.ti.com/OA_HTML/cskmbasicsrch.jsp?categoryId=10422|Texas Instruments, Knowledge Base, Product Usage "TI-89 Family, TI-92 Family, or Voyage™ 200"]].
+  *[[http://web.archive.org/web/*/http://education.ti.com/us/product/tech/89/down/asmp.html|Archive.org "Texas Instruments - TI-89/92 Plus Assembly Programming"]] ( - 2005-11-26 ).
+==== Software, Downloads, Downloadable Electronic Documents ====
+  *[[http://education.ti.com/calculators/downloads/US/Guidebooks/Search/|Texas Instruments "Guidebooks"]].
+  *[[http://education.ti.com/educationportal/sites/US/sectionHome/us_computer_software.html|Texas Instruments "Computer Software"]].  
+    *[[http://education.ti.com/calculators/downloads/US/Software/Search/|Texas Instruments "Software, OS Updates and Apps"]].
+  *[[http://education.ti.com/calculators/downloads/US/Software/Search/Results?cp=7|Texas Instruments "Software, OS Updates and Apps"]] -> "TI-GRAPH LINK Windows Software for the TI-92 Plus".
+  *[[ftp://ftp.ti.com/pub/graph-ti/calc-apps/|ftp.ti.com - Downloads]].
+  *[[http://education.ti.com/educationportal/sites/US/productCategory/us_sdk.html|Texas Instruments "SDK - Software Development Kits (SDK)"]].
+  *[[http://education.ti.com/educationportal/sites/US/productDetail/us_sdk_89_92p.html|Texas Instruments "TI-89 / TI-92 Plus SDK"]].
+  *[[http://education.ti.com/educationportal/sites/US/productDetail/us_ti_connectivity_kit.html|Texas Instruments "TI Connectivity Kit"]].
+  *The free [[http://education.ti.com/educationportal/sites/US/productDetail/us_ti_connect.html|Texas Instruments "TI Connect Software"]].
+  *The free "TI-GRAPH LINK Windows Software for the TI-92 Plus".
+    *The free [[http://education.ti.com/calculators/downloads/US/Software/Detail?id=6183|Texas Instruments "TI-GRAPH LINK Key Fonts"]] for Windows - "Create documents with the same fonts and keys shown in the TI-GRAPH LINK manual".
+  *[[http://epsstore.ti.com/|Texas Instruments "Education Technology Store"]].
+===== Hardware Tools, free Software Development Tools ===== 
+==== Killer Application Software running on TI Voyage 200 ====
+  *[[http://www.tiag.rats-os.de/|Ratsgymnasium Osnabrück, Technik-Informatik AG]].
+    *[[http://tiag.rats-os.de/downloads.html|Ratsgymnasium Osnabrück, Technik-Informatik AG] - Downloads]] - "Hausaufgabenprogramm tiha()", the free german killer application for the TI Voyage 200.
+  *The commercial TI tools of [[http://www.ti89.eu/|SmartSoft "Analysis Leicht Gemacht"]].
+    *[[http://www.ti89.com/resources/|SmartSoft, Analysis Leicht Gemacht "Resources"]].
+    *[[http://education.ti.com/educationportal/sites/DEUTSCHLAND/productDetail/de_analysis_leicht.html|Texas Instruments "Analysis Leicht Gemacht. Funktionsübersicht"]].
+==== Software for TI Calculators, running on Windows and Linux Hosts ====
+=== C Compilers for TI-89 Family Targets ===
+  *TI C-Compiler / Assembler for TI-89 Family, for Windows.
+    *[[http://education.ti.com/educationportal/sites/US/productCategory/us_sdk.html|Texas Instruments "SDK - Software Development Kits (SDK)"]].
+    *[[http://education.ti.com/educationportal/sites/US/productDetail/us_sdk_89_92p.html|Texas Instruments "TI-89 / TI-92 Plus SDK"]].
+    *You need a special developer licence to upload a software to your real personal "developer" target calculator.
+    *You need a special license agreement with TI to make your software uploadable to all calculators of other (end) users.
+=== C Compilers for TI-89 Family Targets, for Applications with a maximum Size of 64 KBytes ===
+  *[[http://tigcc.ticalc.org/|ticalc.org "The Official TIGCC Site"]] for Windows - "A C compiler for the Texas Instruments TI-89, TI-89 Titanium, TI-92 Plus and Voyage 200 calculators. It is based on GCC, the GNU Compiler Collection".  
+    *[[http://tigcc.ticalc.org/manual.html|ticalc.org "TIGCC Manual"]].
+  *[[http://tigcc.ticalc.org/linux/|ticalc.org "TIGCC for Linux"]], [[http://tigcc-linux.sourceforge.net|Sourceforge "TIGCC for Linux"]], [[http://www.sourceforge.net/projects/tigcc-linux/|Sourceforge "TIGCC for Linux"]].
+  *[[http://darkclem.free.fr/|Clem Vasseur]].
+    *[[http://web.archive.org/web/*/http://darkclem.free.fr/|Archive.org "Clem Vasseur (aka nitro) - TI-89 / TI-92 Plus. 68K ASM / C language"]] ( - 2006-08-23 ) -> Download of the free "On-calc C/68k Compiler and M68000 Assembler".
+    *[[http://web.archive.org/web/*/http://www.calc.org/news/display.php?wcomments=1&id=56|calc.org "Oncalc C/68k Compiler"]].
+=== Emulators for TI-89 Family Targets ===
+  *[[http://www.student.nada.kth.se/~md94-jmi/tiger/|Jonas Minnberg "The Official Tiger Homepage"]] - free TI-92 emulator for Linux and MSDOS.
+  *The free [[http://www.ticalc.org/archives/files/fileinfo/84/8442.html|ticalc.org "Virtual TI"]] for Windows - "The ultimate TI calculator emulator. Emulates the TI-82, TI-83, TI-83 Plus, TI-85, TI-86, TI-89, TI-92, TI-92 II, and TI-92 Plus. Features a graphical debugger, grayscale, send/receive, black-link, parallel link and much more!".
+=== Calculator Training ===
+  *The commercial [[http://www.watchmeware.com/ti89tutor.html|WatchMe Ware's TI-83 Plus Tutor]] for Windows - free limited "Quick Start" edition.
+==== Hardware for TI Calculators ====
+  *[[http://www1.inf.tu-dresden.de/~aw4/ti85.html|Andreas Westfeld "Texas Instruments Calculator Parallel Port Link"]] - "My link cable for the parallel printer port and software" for TI-92, TI-89, TI-86, TI-85, TI-83, TI-82.
+  *[[http://web.archive.org/web/*/http://www3.sympatico.ca/michel.brodeur/michel.brodeur/|Archive.org "Romain Liévin, Tim Singer - TI-73...92+/V200 Link Protocol Guide"]].
+  *[[http://www.ti89.com/how_to_find_the_calculator_id.htm|SmartSoft, Analysis Leicht Gemacht "How to find the calculator ID"]] for TI calculators.
+  *[[http://www.smallrobot.com/|Norland Research]] - "Ad wheels to your calculator", "Texas Instruments Calculator Controlled Robot".
+  *[[http://www.mikrocontroller.net/topic/85280|Mikrocontroller.net "Link-Kabel Taschenrechner TI-89 Schaltplan"]].
+===== "Voyage 200" FAQ =====
+  -How to transfer files to the "Voyage 200" device ?
+    -Run the "TI Device Explorer" on the Windows host computer.
+    -In the "TI Device Explorer", create an empty file "*.TIG" in the Windows filesystem.
+    -With the "Windows Explorer" or by Desktop, click the just created file "*.TIG" for opening. It appears as a directory in the filesystem, in the "Windows Explorer" and on the desktop. But it appears to be a file in the DOS window. The "*.TIG" file is an archive file, which can be packed and deloaded from the Windows Explorer and the Desktop.
+    -By Drag+Drop copy files into the "*.TIG" file.
+    -Transfer the file by "T-Connect" to the "Voyage 200" device
+    -On the "Voyage 200", the contents is stored in a folder with the name of the "*.TIG" file.
+  -How to edit TI-Basic files on the Windows-PC ?
+    -Call "TI-Graph Link 89".
+    -The sofware does not know the file extentions "*.V2F" ( functions ) and "*.V2P" ( programs ). Therefore at "Open file" always enter the filename "*.*", and then select the requested file !
+===== Resources =====
+  *[[http://www.calc.org/|calc.org]] - Community for users of TI and HP calculators.
+    *[[http://www.calc.org/search.php?calc=ti83|calc.org "ti83"]].
+    *[[http://www.calc.org/search.php?calc=ti89|calc.org "ti89"]].
+    *[[http://www.calc.org/search.php?calc=ti92|calc.org "ti92"]].
+  *[[http://apcentral.collegeboard.com/apc/public/homepage/31474.html|CollegeBoard AP Central "AP Exam Electronic Study Cards"]] - "AP Calculus file can be downloaded to the TI-89, TI-89 Titanium, TI-92 Plus, and Voyage 200".
+  *[[http://www.ocf.berkeley.edu/~pad/|Patrick Davidson - "TI Calculator Stuff"]].
+    *[[http://www.ocf.berkeley.edu/~pad/faq/|Patrick Davidson "The Ultimate TI Calculator FAQ"]] #.
+      *[[http://www.ocf.berkeley.edu/~pad/faq/xfer.html|Patrick Davidson "The Ultimate TI Calculator FAQ - Transferring files"]] #.
+  *[[http://www.detachedsolutions.com/|Detached Solutions]].
+  *[[http://golem.mobi/0910/70458.html|Golem "EFF: TI soll Taschenrechner-Fans nicht weiter bedrohen"]], 2009-10-14.
+  *[[http://members.chello.at/gerhard.kofler/kevin/ti89prog/asmnstb.htm|Kevin Kofler "_nostub Assembly Programming for the TI-89/92+"]] #.
+  *[[http://www.technicalc.org/|Ray Kremer "TechniCALC - Handheld computing in Math, Science, and Engineering"]] ( mirror: [[http://www.ibiblio.org/technicalc/|ibiblio - The Public's Library and Digital Archive "TechniCALC"]] ).
+    *[[http://www.technicalc.org/tifaq/|Ray Kremer "TI Graphing Calculator FAQ"]] #.
+    *[[http://www.technicalc.org/tiplist/| Doug Burkett TI-TipList]] - "The best source for TI-89 & TI-92 (+) tips, tricks and helpful examples of usage".
+    *[[http://www.technicalc.org/fpw/|Frank Westlake "Texas Instruments TI-89 and TI-92 Plus Computer"]].
+    *[[http://www.technicalc.org/bbhatt/|Bhuvanesh Bhatt "Bhuvanesh's TI-89/TI-92 Plus/Voyage 200 page"]].
+    *[[http://www.technicalc.org/examples/|Andrew Cacovean "TI-89/TI-92+ Examples"]].
+    *[[http://www.technicalc.org/tifaq/mltifaq.txt|Mattias Lindqvist "New Calc-TI FAQ"]], of 1997-05-06.
+    *[[http://www.ibiblio.org/technicalc/packages/eqw/eqw.htm|E.W. "EQW - TI-89/92+ Equation Writer"]].
+  *[[http://homepage.univie.ac.at/Franz.Embacher/ressourcen/ARGEBookm.html|Josef Lechner "Bookmarks zusammengestellt von Josef Lechner für die Tagung der ARGEn Mathematik/Physik NÖ. Amstetten" / "Werkzeuge - TI-92"]], 1999-03-23.
+  *[[http://www.squalenet.net/|Pascal Martin "Squalenet.Net"]] - "Tutorial C, ASM, FAQ, et Articles pour TI-89/92+/v200".
+  *[[http://www.ti-cas.org/texas/us.htm|Olivier Miclo: "ti-cas"]].
+  *[[http://mobifiles.bytefox.de/|Mobilfiles]].
+  *[[http://www.prenhall.com/divisions/esm/app/calculator/|Prenice-Hall "Graphing Calculator Instructions"]] for TI-89, TI-92,..
+  *[[http://web.archive.org/web/*/http://mitarbeiter.fh-heilbronn.de/~reising/studentpage/TI.htm|Archive.org "Jörg Reisinger: Ti-Software für Ti-92 ( T-i89 ) - Ein Gruß von MFT 1 - WS 98/99"]].
+  *[[http://tu-dresden.de/die_tu_dresden/fakultaeten/fakultaet_elektrotechnik_und_informationstechnik/ieeh/institut/mitarbeiter/stachel|Dipl.-Ing. Philipp Stachel, TU Dreden, Institut für Elektrische Energieversorgung und Hochspannungstechnik]].
+    *[[http://web.archive.org/web/*/http://rcswww.urz.tu-dresden.de/~ps325721/ger/programs/ti/math.html|Archive.org "Philipp Stachel - Ti89/Ti92 Programme"]].
+  *[[http://www.technoplaza.net/|Techno-Plaza - Your Source for TI-68k Programming]] - "The TI-68k Learning Resource".
+    *[[http://www.technoplaza.net/assembly/|Techno-Plaza - Your Source for TI-68k Programming "Assembly Programming for TI-68k"]].
+    *[[http://www.technoplaza.net/programming/|Techno-Plaza - Your Source for TI-68k Programming "TIGCC Programming Lessons"]].
+  *[[http://www.angelfire.com/ia/Ti89Centeral/|TI-89 Central]].
+  *[[http://www.ti-89.org/|TI-89.org]] - "Your TI-89 Resource" #.
+  *[[http://www.ticalc.org/|ticalc.org]] #.
+    *[[http://www.ticalc.org/pub/|ticalc.org "File Archives"]] #.
+    *[[http://www.ticalc.org/archives/files/authors.html|ticalc.org "Authors"]] #.
+    *[[http://www.ticalc.org/archives/files/fileinfo/1/105.html|ticalc.org "68K Programming Guide for Fargo Programmers"]].
+  *[[http://www.jwardell.com/ti/|Josh Wardell "TI Calculator Page"]].
+  *Timo Wölk ( [[http://www.projekt04.net/|projekt04 (Radsport Seminare, Personal Training, Mountainbike Rennsport, Action Fotographie)]], [[http://www.timo-woelk.de/|projekt04 (Radsport Seminare, Personal Training, Mountainbike Rennsport, Action Fotographie)]] ).
+    *[[http://web.archive.org/web/20060508123115/http://www.timo-woelk.de/studium.htm|Archive.org "Timo Wölk - Programme für den Texas Instruments 89"]].
+  *[[http://tiplanet.org/|TI-Planet.org]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Hardware/Calculators/|OpenDirectory "Top: Computers: Hardware: Calculators"]].
+    *[[http://www.dmoz.org/Computers/Hardware/Calculators/TI_Graphing_Calculators/|OpenDirectory "Top: Computers: Hardware: Calculators: TI Graphing Calculators"]].
+      *[[http://www.dmoz.org/Computers/Hardware/Calculators/TI_Graphing_Calculators/TI-89/|OpenDirectory "Top: Computers: Hardware: Calculators: TI Graphing Calculators: TI-89"]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Hardware/Taschenrechner/|OpenDirectory "Top: World: Deutsch: Computer: Hardware: Taschenrechner"]].
+  *[[http://dir.yahoo.com/Computers_and_Internet/Hardware/Calculators/|Yahoo! Directory "Directory > Computers and Internet > Hardware > Calculators"]].
+    *[[http://dir.yahoo.com/Computers_and_Internet/Hardware/Calculators/Texas_Instruments/|Yahoo! Directory "Directory > Computers and Internet > Hardware > Calculators > Texas Instruments"]].
+{{tag>"Texas Instruments" "TI-89" "TI-89 Titanium" "TI Voyage 200" calculator calculators "pocket calculator" "pocket calculators"}}
+<footnote_navi_en>

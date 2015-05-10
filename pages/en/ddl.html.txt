@@ -1,0 +1,149 @@
+====== [hemmerling] Device Description Languages and Device Parameterization ======
+===== ARM Cortex Microcontroller Software Interface Standard ( CMSIS ) =====
+  *See [[sframeworks.html|Software Frameworks]].
+===== Desired State Configuration ( DSC ) =====
+==== Powershell & Powershell ISE ====
+=== The Tools ===
+  *See [[wscripting.html|Scripting Programming Languages for Windows]].
+=== DSC Resource Kit Waves 1, 2, 3.. 10 ===
+  *[[http://gallery.technet.microsoft.com/scriptcenter/DSC-Resource-Kit-All-c449312d|Microsoft TechNet Script Center "DSC Resource Kit (All Modules)"]], 2015-02-19 - "DSC Resource Kit Wave 10".
+  *[[http://gallery.technet.microsoft.com/xPSDesiredStateConfiguratio-417dc71d|Microsoft TechNet Script Center "xPSDesiredStateConfiguration Module – PowerShell DSC Resource Kit"]] - The module code is included in the complete wave package 10 and later, but the extra example DSC files are great!
+=== DSC Support Tools for the Powershell ISE ===
+  *[[http://www.github.com/inchara/ShowDscResource|GitHub "inchara/ShowDscResource"]].
+==== Server and Cloud Administration by PowerShell ====
+  *[[http://www.twitter.com/jsnover|Twitter "jsnover"]] - "Microsoft Distinguished Engineer/ Lead Architect for Windows Server and System Center Datacenter/ PowerShell Architect / Science fan / Really bad speller".
+    *[[http://www.twitter.com/jsnover/status/456972326601388032|Twitter, jsnover "PowerShell Desired State Config (DSC) is fast tracked for the next Common Engineering Criteria"]].
+  *[[http://www.incyclesoftware.com/2014/05/desired-state-configuration-DSC-101/|InCycle Software Blog "Desired State Configuration 101 – An intro to DSC"]].
+  *[[http://technet.microsoft.com/en-us/library/dn249912.aspx|Microsoft TechnNet "Windows PowerShell Desired State Configuration Overview"]].
+  *[[http://blogs.technet.com/b/privatecloud/|Microsoft TechnNet Blogs "Building Clouds ...building hybrid clouds that can support any device from anywhere"]].
+    *[[http://blogs.technet.com/b/privatecloud/archive/2014/04/25/desired-state-configuration-blog-series-part-1-learning-about-dsc.aspx|Microsoft TechnNet Blogs "Building Clouds ...building hybrid clouds that can support any device from anywhere", article "Desired State Configuration Blog Series – Part 1, Information about DSC"]].
+    *[[http://blogs.technet.com/b/privatecloud/archive/2014/05/02/powershell-dsc-blog-series-part-2-authoring-dsc-resources-when-cmdlets-already-exist.aspx|Microsoft TechnNet Blogs "Building Clouds ...building hybrid clouds that can support any device from anywhere", article "PowerShell DSC Blog Series–Part 2, Authoring DSC Resources when Cmdlets already exist"]].
+    *[[http://blogs.technet.com/b/privatecloud/archive/2014/05/09/powershell-dsc-blog-series-part-3-testing-dsc-resources.aspx|Microsoft TechnNet Blogs "Building Clouds ...building hybrid clouds that can support any device from anywhere", article "PowerShell DSC Blog Series – Part 3, Testing DSC Resources"]].
+    *[[http://blogs.technet.com/b/privatecloud/archive/2014/05/16/powershell-blog-series-part-4-how-to-use-powershell-dsc-from-your-workstation-to-test-powershell-jea-in-azure.aspx|Microsoft TechnNet Blogs "Building Clouds ...building hybrid clouds that can support any device from anywhere", article "PowerShell Blog Series, Part 4 - How-To use PowerShell DSC from your workstation to test PowerShell JEA, in Azure"]].
+    *[[http://blogs.technet.com/b/privatecloud/archive/2014/06/06/powershell-dsc-blog-series-part-5-point-in-time-list-of-dsc-resources.aspx|Microsoft TechnNet Blogs "Building Clouds ...building hybrid clouds that can support any device from anywhere", article "PowerShell DSC Blog Series, Part 5- Point in Time List of DSC Resources"]].
+    *[[http://blogs.technet.com/b/privatecloud/archive/2014/05/14/just-enough-administration-step-by-step.aspx|Microsoft TechnNet Blogs "Building Clouds ...building hybrid clouds that can support any device from anywhere", article "Just Enough Administration, Step by Step"]].
+    *[[http://blogs.technet.com/b/privatecloud/archive/2013/06/12/automation-orchestrator-and-the-exchange-powershell-activity.aspx|Microsoft TechnNet Blogs "Building Clouds ...building hybrid clouds that can support any device from anywhere", article "Automation–Orchestrator and the Exchange PowerShell Activity"]].
+    *[[http://blogs.technet.com/b/privatecloud/archive/2014/07/17/configuring-docker-on-azure-with-powershell-dsc.aspx|Microsoft TechnNet Blogs "Building Clouds ...building hybrid clouds that can support any device from anywhere", article "Configuring Docker with PowerShell DSC"]].
+  *[[http://blogs.technet.com/b/privatecloud/archive/2013/08/30/introducing-powershell-desired-state-configuration-dsc.aspx|Microsoft TechnNet Blogs "Building Clouds ...building hybrid clouds that can support any device from anywhere", article "Introducing PowerShell Desired State Configuration (DSC)"]].
+  *[[http://powershell.org/wp/tag/desired-state-configuration/|PowerShell.org "Desired State Configuration"]] - "Jeff Hicks gave a presentation entitled "Getting Started with Desired State Configuration (DSC)".
+==== Related Technologies ====
+  *[[http://www.dmtf.org/education/mof|Distributed Management Task Force, Inc.]].
+    *[[http://www.dmtf.org/standards/cim|Distributed Management Task Force, Inc. "Common Information Model CIM"]].
+    *[[http://www.dmtf.org/education/mof|Distributed Management Task Force, Inc. "CIM & MOF Tutorial"]].
+      *[[http://www.wbemsolutions.com/tutorials/DMTF/|Distributed Management Task Force (DMTF) Tutorial]].
+  *[[http://msdn.microsoft.com/en-us/library/aa823192%28v=vs.85%29.aspx|Microsoft Developer Network "Managed Object Format (MOF)"]].
+==== Similar Technologies ====
+  *See [[devops.html|Development and Operations ( DevOps )]].
+==== Resources ====
+  *[[http://www.microsoft.com/cec/|Microsoft "Microsoft Common Engineering Criteria"]].
+  *[[http://blogs.msdn.com/b/mbullock/archive/2006/06/14/629514.aspx|Microsoft MSDN Blogs "Malcolm Bullock - Geek talking", article "Do you know about the Microsoft Common Engineering Criteria?"]].
+  *[[http://technet.microsoft.com/en-us/library/ff460855.aspx|Microsoft TechNet "Common Engineering Criteria"]].
+  *[[http://en.wikipedia.org/wiki/Microsoft_Common_Engineering_Criteria|EN.Wikipedia "Microsoft Common Engineering Criteria"]].
+===== Asset Management for Devices of the Process Industry, Automation & Drives =====
+==== <AutomationML> ====
+  *[[http://www.automationml.org/|<AutomationML>]].
+  *[[http://www.beuth.de/de/norm-entwurf/din-en-62714-1/153374628|Beuth Verlag "DIN EN 62714-1:2012-06 "Datenaustauschformat für Planungsdaten industrieller Automatisierungssysteme (AutomationML) - Teil 1: Architektur und allgemeine Festlegungen (IEC 65E/223/CD:2011)"]].
+  *[[http://www.beuth.de/de/norm-entwurf/din-en-62714-2/180131369|Beuth Verlag "DIN EN 62714-2:2013-04 "Datenaustauschformat für Planungsdaten industrieller Automatisierungssysteme - AutomationML - Teil 2: Rollenbibliotheken (IEC 65E/250/CD:2012)"]].
+  *[[http://www.opcfoundation.org/news/press-releases/automationml-opc-ua-cooperate/|OPC Foundation "AutomationML and OPC UA Cooperate"]], 2013.
+    *<AutomationML> is used as a container for OPC-UA. 
+    *By <AutomationML> the capabilities of devices are described.
+    *The OPC-UA server may be fed with <AutomationML> data to learn about new devices.
+  *<AutomationML> is a subset of [[http://en.wikipedia.org/wiki/CAEX|EN.Wikipedia "CAEX"]], [[http://de.wikipedia.org/wiki/CAEX|DE.Wikipedia "CAEX"]].
+  *[[http://www.iosb.fraunhofer.de/?opcuaaml|Fraunhofer IOSB "Gemeinsame Arbeitsgruppe OPC UA und Automation ML"]].
+==== Electric Device Description ( EDD ) & Electric Device Description Language ( EDDL ) ====
+=== SIEMENS Process Device Manager ( PDM ) ===
+  *[[http://www.automation.siemens.com/mcms/process-control-systems/de/simatic-pcs-7/simatic-pcs-7-systemkomponenten/process-device-manager-pdm/|SIEMENS Process Device Manager (PDM)]].
+  *[[http://support.automation.siemens.com/WW/view/de/10806857/130000|Siemens Industry Online Support "SIMATIC PDM"]].
+    *[[http://support.automation.siemens.com/WW/llisapi.dll/csfetch/57347315/PCS7_MaintenanceStation_de-DE_de-DE.pdf|SIMATIC Prozessleitsystem PCS 7 Maintenance Station Funktionshandbuch]] ( PDF ).
+  *[[http://support.automation.siemens.com/WW/llisapi.dll?func=cslib.csinfo&objId=73247204|SIEMENS AG "Automation Technology > Process control systems > SIMATIC PCS 7 > System components > SIMATIC PDM > SIMATIC PDM V8.1 lieferbar"]], 2013-06-03.
+=== Resources ===
+  *[[http://www.eddl.org/|Electronic Device Description Language (EDDL)]] by [[http://www.fdi-cooperation.com/|FDI LLC]].
+  *[[http://en.wikipedia.org/wiki/Device_Description_Language|EN.Wikipedia "Device Description Language"]], [[http://de.wikipedia.org/wiki/Device_Description_Language|DE.Wikipedia "Device Description Language"]].
+==== FDT/DTM ====
+=== Organisation ===
+  *[[http://www.fdtgroup.org/|FDT Group]].
+    *[[http://www.fdtgroup.org/technical-documents|FDT Group "Technical documents"]].
+  *[[http://www.youtube.com/user/fdtgroupna|YouTube "FDT Group"]].
+  *[[http://de.wikipedia.org/w/Field_Device_Tool|DE.Wikipedia "Field Device Tool"]].
+===  FDT/DTM Development Tools ===
+  *[[http://www.codewrights.biz/|CodeWrights GmbH]] - "DTM Studio" development software.
+  *[[http://www.ifak-system.com/|ifak system GmbH]].
+    *Partner [[http://www.ifak.eu/|ifak - Institut für Automation und Kommunikation e. V. Magdeburg]].
+    *[[http://www.ifak-system.com/kommunikation-automation/werkzeuge/|ifak system GmbH "Werkzeuge"]].
+      *[[http://www.ifak-system.com/kommunikation-automation/werkzeuge/produkte/isdtm-architect-fdt2/|ifak system GmbH " isDTM Architect FDT2"]].
+  *[[http://www.mm-software.com/|M&M Software GmbH]].
+    *[[http://www.mm-software.com/de/dtmmanager-development-suite|M&M "dtmMANAGER development suite"]] - The license limits the development of DTMs for in-house purposes of the customer. I.e. you can´t provide self-developed DTMs to third parties as your own customers.
+    *[[http://mm-software.com/de/dtminspector|M&M "dtmINSPECTOR"]] - "The official certificate issued by the FDT Group gives your DTM the seal of approval. It confirms a DTM’s conformity to the FDT specification and therefore plays an important role in assuring your DTM’s quality... dtmINSPECTOR is the one and only DTM test and certification tool officially approved by the FDT Group".
+===  FDT Frame Application Software ===
+== PACTware ==
+  *Currently, PACTware is a free frame software for Windows with .NET 2.0. I was told by experts that it supports just FDT 1.2 and that the industry supposes and expects that there will be soon FDT 2.0 support.
+  *[[http://www.pactware.com/|PACTware Consortium e.V.]].
+    *[[http://www.pactware.com/downloads/pactware.html|PACTware Consortium e.V. - Kostenloser Download von PACTware]].
+  *[[http://www.vega.com/|VEGA Grieshaber KG]], [[http://www.vegacontrols.co.uk/|VEGA UK]].
+    *[[http://www.vega.com/en/Software_DTM.htm|VEGA Grieshaber KG "DTM Collection + PACTware"]] - "Free downloadable software for setup, adjustment, diagnosis and documentation of VEGA instruments".
+    *Blog [[http://blog.vegacontrols.co.uk/|VEGA UK Blog]].
+      *[[http://blog.vegacontrols.co.uk/131/pactware-36-pactware-dtm-pactware-fdt-whats-it-all-about/|VEGA UK Blog "PACTware 3.6, PACTware DTM, PACTware FDT – What’s it all about?"]].
+  *[[http://www.pepperl-fuchs.com/global/en/classid_163.htm?view=productdetails&prodid=45160|Pepperl+Fuchs "FDT Framework PACTware 4.X"]].
+== fdtcontainer ==
+  *fdtcontainer is a free frame software for Windows with .NET. It supports both FDT 1.2 and FDT 2.0. 
+  *[[http://www.mm-software.com/en/oem-fdtcontainer-application|M&M Software GmbH "OEM fdtCONTAINER application"]].
+  *Blog [[http://mm-software.com/de/blog|M&M Software GmbH "M&M Blog"]].
+== FieldCare, DeviceCare ==
+  *Currently, FieldCare is a free frame software for Windows with .NET. Experts told me that it just supports FDT 1.2. 
+  *DeviceCare is a free frame software for Windows with .NET 3.5. Experts told me that it supports FDT 1.2 and FDT 2.0. 
+  *[[http://www.de.endress.com/de/produkte-feldinstrumentierung/software-loesungen-process-automation/geraete-konfiguration-fieldcare-sfe500|Endress+Hauser Messtechnik GmbH+Co. KG "FieldCare SFE500 - Universelle Gerätekonfiguration"]] - "FieldCare ist Endress+Hausers universelles Tool für die Feldgeräte-Konfiguration mit vielen Funktionalitäten, von der Geräteparametrisierung bis hin zu Lösungen für die Zustandsüberwachung. Am schnellsten lassen sich Feldgeräte von Endress+Hauser mit dem dedizierten Tool DeviceCare konfigurieren".
+  *[[http://portal.endress.com/webdownload/FieldCareDownloadGui/|Endress+Hauser Messtechnik GmbH+Co. KG "FieldCare Software Download"]].
+== FieldMate ==
+  *FieldMate is a frame software for Windows. It supports FDT 1.2 and FDT 2.0. 
+  *[[http://www.yokogawa.com/us/products/field-instruments/device-smart-communicators/fieldmate-device-management-wizard.htm|Yokogawa "FieldMate - Versatile Device Management Wizard"]].
+  *[[http://www.yokogawa.com/us/technical-library/downloads/yokogawa-fieldmate-and-device-dtm-compliance-with-fdt2.htm|Yokogawa "Yokogawa FieldMate and Device DTM Compliance with FDT2"]].
+== SMART VISION ==
+  *[[http://www.abb.de/|ABB]] - "Device Management Tool DSV4xx for smart field instruments ( "SMART VISION" ).
+=== Integrated Development Environments ( IDEs ) with FDT/DTM Support ===
+== IndraWorks ==
+  *The IDE [[http://www.boschrexroth.com/indraworks|Rexroth "IndraWorks Engineering"]].
+    *"PLC and motion logic programming based on CoDeSys V3 with object-oriented language extensions".
+    *"Standardized interfaces such as FDT/DTM, connection of version control systems and automation interface".
+=== Resources ===
+  *FTD 1.2 is based on Microsoft's COM and ActiveX.
+  *FTD 2.0 is based on Microsoft .NET 2.0, 3.5, 4.0...
+  *A DTM is not a static, but consists both of ( 80x86 or .NET ) code. By this, - e.g. in opposite to a static XML file like with <AutomationML> - it can dynamically change data: If you change the unit of a device parameter, e.g. metric system to US inch / feet / miles system.
+  *There are 2 kinds of DTMs:
+    -Communication or Gateway-DTMs", e.g. for USB-to-PROFIBUS devices.
+    -Device DTMs, e.g. for PROFIBUS devices connected to a PROFIBUS.
+  *The "FDT Common Components" make it easier to develop DTMs.
+  *I was told by experts, that "M&M" is able to generate a DTM from ProfibusDP device description, by a software generator. I was told by the same experts, that "Codewriter" is able to do fast DTM development by the help of a software interpreter. So the generation of DTMs is not an easy working business modell. Anyhow, there are a few freelancers who may be hired to generate a DTM for a device.
+  *DTMs are loaded and executed in the frame software on a Windows computer. 
+  *How to get DTMs?
+    *In the case of Windows interface devices ( PEAK-System USB to CANBus device, Softing USB to PROFIBUS device,... ), the DTM is provided by the software developer of the windows device driver.
+    *If the device is connected to a bus ( e.g. a CANBus or PROFIBUS device ), you need both the DTM for the Windows interface device plus the DTM for the device itself. 
+    *It might be a good market entry strategy, to start with the development of a DTM for an affordable budget-price sensor device ( by Turck, Pepperl+Fuchs, SIG, IFM... ), connected to a serial bus ( CANBus, PROFIBUS, not PROFINET ! ). The device is connected to the Windows computer by a with a Windows interface device ( USB to CANBus device, USB to PROFIBUS device,... ) shipped with a DTM by the interface device manufacturer.
+  *[[http://www.automationworld.com/archive-fdt-device-integration-strategies-newsletter|Automationworld "FDT Device Integration Strategies Newsletter - Archive"]].
+  *[[http://www.automationworld.com/device-integration-strategies|Automationworld "FDT Device Integration Strategies"]].
+
+==== Industry 4.0 Component ( "i4.0 Komponente" ) ====
+  *[[http://www.plattform-i40.de/| Plattform Industrie 4.0]].
+==== Tool Calling Interface ( TCI ) ====
+  *[[http://www.sps-magazin.de/?inc=artikel/article_show&nr=28312|SPS Magazin "Konkurrenz zu FDT? Aus SII wird TCI"]], 2006-01-26.
+  *[[http://www.profibus.com/pi-organization/regional-pi-associations/germany/presse/single-view/article/tci-spezifikation-der-pno-verfuegbar/|PROFIBUS Nutzerorganisation e.V. ( PNO ) "TCI Spezifikation der PNO verfügbar"]].
+  *[[http://www.process.vogel.de/kommunikation/articles/111489/|PROCESS "Geräte-Management: FDT/DTM, EDD und TCI: ein Wegweiser für ein erfolgreiches Geräte-Management"]].
+  *"Tool Calling Interface. TCI – 2006 aufgrund der Anforderungen in der Fertigungsautomatisierung durch die PNO spezifiziert – ist eine einfache Aufrufschnittstelle, um komplexe DT vom ES aufzurufen. Ziel von TCI ist es, die proprietären DT der verschiedenen Hersteller von Feldgeräten möglichst einfach an das ES anzubinden. Von einer wirklichen Integration in das ES wie bei EDD (Electronic Device Description) und FDT kann jedoch keine Rede sein".
+  *"Ein TCI-fähiges ES ist der Simatic-Manager von Siemens".
+  *"Anders als bei einer integrierten FDT-Rahmenapplikation handelt es sich bei TCI um eine Aufrufschnittstelle eines externen Tools und nicht um eine Integration der Geräteapplikation in das ES wie bei FDT. Ein Datenaustausch ist nur in Richtung vom ES zum Gerätetool definiert, nicht jedoch in Gegenrichtung". 
+==== Resources ====
+  *Cyclic data acquisition:
+    *Programmable Logic Controllers (PLC ) and Distributed Control Systems ( DSC ) do cyclic data collection, in case of PROFIBUS DP the GSD ( "Geräte-Stamm-Datei" ) defines devices.
+  *Acyclic data acquistion:
+    *Asset management by EDD / DD of SIEMENS, DTM of FDT.
+    *EDDL is intended to become the successor of both EDD and DTM/FDT.
+===== Linux Device Tree / Flattened Device Tree ( FDT ) =====
+  *Wiki [[http://www.devicetree.org/|Devicetree.org]] - "The device tree is used both by Open Firmware, and in the standalone Flattened Device Tree (FDT) form".
+    *Open Firmware -> See [[booting.html|Booting from Devices]].
+    *[[http://www.devicetree.org/Device_Tree_Usage|Devicetree.org "Device Tree Usage"]].
+  *Wiki [[http://www.elinux.org/|elinux Wiki]].
+    *[[http://www.elinux.org/Device_Trees|elinux Wiki "Device Trees"]].
+  *[[http://wiki.freebsd.org/FlattenedDeviceTree|FreeBSD Wiki "FlattenedDeviceTree"]].
+===== Forums, Newsgroups =====
+  *[[http://www.linkedin.com/groups?gid=795847|LinkedIn "FDT/DTM"]] - "For professional with FDT/DTM background or experience. Automation engineers with fieldbus experience and FDT /DTM Technlogy know how to connect to each other and share ideas".
+{{tag>"Device Description Language" "Electric Device Description" EDD "Electric Device Description Language" electric device description language parameterisation EDDL "FDT/DTM" FDT DTM}}
+<footnote_navi_en>

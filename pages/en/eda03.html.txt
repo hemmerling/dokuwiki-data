@@ -1,0 +1,121 @@
+====== [hemmerling] Electronic Design Automation ( EDA ) 3/5 - Design for Application-Specific Integrated Circuits ( ASIC ) - Design of digital Chips ======
+Related pages:
+  *[[altera.html|Altera "System on Chip" ( SoC )]].
+  *[[eda01.html|Electronic Design Automation ( EDA ) 1/5 - Installation Engineering]].
+  *[[eda02.html|Electronic Design Automation ( EDA ) 2/5 - Schematics Capture, Schematics Simulation and PCB Design]].
+  *[[eda04.html|Electronic Design Automation ( EDA ) 4/5 - Design for Application-Specific Integrated Circuits ( ASIC ) - Design of analog Chips]].
+  *[[eda05.html|Electronic Design Automation ( EDA ) 5/5 - Design for Application-Specific Integrated Circuits ( ASIC ) - A simple Frequency Divider]].
+  *[[electronics01.html|Electric Units & Electronics 1/3 - My Electronics, Electronics Workbench Equipment, Electronics Literature & Resources]].
+  *[[electronics02.html|Electric Units & Electronics 2/3 - Actors, Sensors, Embedded Systems Electronics and suitable Control Systems]].
+  *[[electronics03.html|Electric Units & Electronics 3/3 - Manufacturers, Distributors, Vendors & Datasheets]].
+
+===== FPGA Chip Design Languages =====
+==== MyHDL =====
+  *[[http://www.myhdl.org/|MyHDL]].
+  *[[http://www.twitter.com/MyHDL|Twitter "MyHDL"]].
+  *[[http://en.wikipedia.org/wiki/MyHDL|EN.Wikipedia "MyHDL"]].
+==== PSHDL ( Plain Simple Hardware Description Language ) =====
+  *[[http://www.pshdl.org/|PSHDL Online]] - "Download library" -> "pshdl_pkg.vhd".
+    *Blog [[http://blog.pshdl.org/|PSHDL Language. A blog about the development of PSHDL, the Plain & Simple Hardware Description Language and multiple rants about the shortcomings of VHDL and Verilog]].
+    *[[http://www.pshdl.org/pshdltutorial.html|PSHDL Tutorial - Getting started with PSHDL]].
+    *[[http://www.pshdl.org/pshdl.html|PSHDL Language Description]].
+    *[[http://www.pshdl.org/101/index.html|PSHDL "FPGA 101 Tools and files"]].
+    *[[http://www.pshdl.org/101/|PSHDL file directory "101"]].
+    *[[http://dart.pshdl.org/out/pshdl.html/|PSHDL Online compiler]].
+    *[[http://boards.pshdl.org/|PSHDL Board info page]].
+  *Main developer: Karsten Becker, [[http://www.xing.com/profiles/Karsten_Becker40|XING "Karsten Becker"]].
+  *[[http://www.twitter.com/PSHDL|Twitter "PSHDL"]].
+  *To work with PSHDL on the FPGA board [[http://www.xilinx.com/products/boards-and-kits/AES-S6MB-LX9.htm| Xilinx Inc "Avnet Spartan-6 LX9 MicroBoard"]], you need the free [[http://www.xilinx.com/products/design-tools/ise-design-suite/|Xilinx ISE Design Suite: WebPACK Edition]] and install the download library "pshdl_pkg.vhd".
+==== PSL ( Property Specification Language ) =====
+  *[[http://en.wikipedia.org/wiki/Property_Specification_Language|EN.Wikipedia "Property Specification Language"]] ( PSL ).
+==== SystemC ====
+  *The free SystemC modeling IDE [[http://www.eda.ir/|Electronics Design Automation "SystemC_Win"]] for use with Borland C++ 5.5, on Windows. 
+    *[[http://web.archive.org/web/*/http://www.geocities.com/systemc_win/|Archive.org "Geocities 'SystemC_Win'"]] ( - 2009-10-25 ) - Download of the source code of the legacy version "SystemC_Win Version 1.0 Beta".
+  *[[http://www.systemc.org/|Open SystemC Initiative (OSCI)]].
+  *[[http://en.wikipedia.org/wiki/SystemC|EN.Wikipedia "SystemC"]], [[http://de.wikipedia.org/wiki/SystemC|DE.Wikipedia "SystemC"]].
+  *[[http://en.wikipedia.org/wiki/Accellera|EN.Wikipedia "Accellera"]] - "Open SystemC Initiative".
+
+==== Verilog ====
+  *[[http://en.wikipedia.org/wiki/Verilog|EN.Wikipedia "Verilog"]], [[http://de.wikipedia.org/wiki/Verilog|DE.Wikipedia "Verilog"]].
+  *[[http://en.wikipedia.org/wiki/SystemVerilog|EN.Wikipedia "SystemVerilog"]].
+==== VHDL ====
+  *[[http://www.ashenden.com.au/|Peter Ashenden "Ashenden Designs"]] - Autor of books about VHDL design.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0970539428/hemmerling-21|Ben Cohen: "Real Chip Design and Verfication Using Verilog and VHDL"]] - The accompanying CD is filled with many free VHDL sources.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0471899720/hemmerling-21|Ulrich Heinkel, Martin Padeffke, Werner Haas, Thomas Buerner, Herbert Braisz, Thomas Gentner, Alexander Grassmann "The VHDL Reference: A Practical Guide to Computer-Aided Integrated Circuit Design including VHDL-AMS"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3486716778/hemmerling-21|Jürgen Reichardt, Bernd Schwarz: "VHDL-Synthese: Entwurf digitaler Schaltungen und Systeme"]].
+    *The accompanying website [[http://users.etech.haw-hamburg.de/users/Reichardt/buch.html|Reichardt Schwarz VHDL Synthese Synthesis]] with a free HTML online book edition.
+  *[[http://en.wikipedia.org/wiki/VHDL|EN.Wikipedia "VHDL"]], [[http://de.wikipedia.org/wiki/Very_High_Speed_Integrated_Circuit_Hardware_Description_Language|DE.Wikipedia "Very High Speed Integrated Circuit Hardware Description Language"]].
+===== FPGA Chip Manufacturers & its free FPGA Design Tools =====
+==== ALTERA ====
+  *See [[altera.html|Altera "System on Chip" ( SoC )]].
+==== Lattice Semiconductor ====
+=== The Company & it's FPGA Chips ===
+  *[[http://www.latticesemi.com/|Lattice Semiconductor]].
+  *[[http://www.latticesemi.com/en/Products/FPGAandCPLD.aspx|Lattice Semiconductor "FPGAs & CPLDs"]].
+  *[[http://en.wikipedia.org/wiki/Lattice_Semiconductor|EN.Wikipedia "Lattice Semiconductor"]], [[http://de.wikipedia.org/wiki/Lattice_Semiconductor_Corporation|DE.Wikipedia "Lattice Semiconductor Corporation"]].
+=== Design Tools ===
+  *[[http://www.latticesemi.com/Products/DesignSoftwareAndIP.aspx|Lattice Semiconductor "Design Software & IP"]].
+==== Microsemi ( formerly: Actel ) ====
+=== The Company & it's FPGA Chips ===
+  *[[http://www.microsemi.com/|Microsemi Corporation]].
+  *[[http://www.microsemi.com/products/fpga-soc/fpga-and-soc|Microsemi Corporation "FPGA & SoC"]].
+  *[[http://en.wikipedia.org/wiki/Actel|EN.Wikipedia "Actel"]], [[http://de.wikipedia.org/wiki/Actel|DE.Wikipedia "Actel"]].
+  *[[http://en.wikipedia.org/wiki/Microsemi|EN.Wikipedia "Microsemi"]], [[http://de.wikipedia.org/wiki/Microsemi|DE.Wikipedia "Microsemi"]].
+=== Design Tools ===
+  *[[http://www.microsemi.com/products/fpga-soc/design-resources/design-software/libero-soc|Microsemi Corporation "Libero SoC"]].
+==== Xilinx ====
+  *See  [[xilinx.html|Xilinx "System on Chip" ( SoC )]].
+==== Some other FPGA Chip Manufacturerers ====
+  *[[http://www.quicklogic.com/| QuickLogic Corp]] - "Customer Specific Standard Products ( CSSPs ), Customizable Semiconductors for Mobile Devices".
+    *[[http://www.quicklogic.com/support/development-tools/software/quickworks/|QuickLogic Corp "QuickWorks"]] - QuickLogic provides a complete design environment for Field Programmable Gate Array (FPGA) designs".
+===== Some other commercial EDA Tools =====
+  *[[http://www.aldec.com/|Aldec, Inc]] - "The Design Verification Company".
+    *[[http://en.wikipedia.org/wiki/Aldec|EN.Wikipedia "Aldec]].
+  *[[http://www.altium.com/|Altium]].
+    *[[http://www.altium.com/en/products/altium-designer|Altium Designer]].
+      *[[http://en.wikipedia.org/wiki/Altium_Designer|EN.Wikipedia "Altium Designer"]], [[http://de.wikipedia.org/wiki/Altium_Designer|DE.Wikipedia "Altium Designer"]] - "Schematic capture, PCB design,  FPGA and embedded software tools, Release/data management".
+  *[[http://www.mentor.com/|Mentor Graphics]].
+    *[[http://www.model.com/|Mentor Graphics "Model Sim"]] - "HDL Simulation", "Unified debug environment for Verilog, VHDL, and SystemC".
+      *The free [[http://www.mentor.com/company/higher_ed/modelsim-student-edition|Mentor Graphics "ModelSim PE Student Edition"]].
+      *The free [[http://www.altera.com/products/software/quartus-ii/modelsim/qts-modelsim-index.html|Altera "ModelSim ALTERA Starter Edition"]] for Windows and Linux.
+    *[[http://en.wikipedia.org/wiki/Mentor_Graphics|EN.Wikipedia "Mentor Graphics"]], [[http://de.wikipedia.org/wiki/Mentor_Graphics|DE.Wikipedia "Mentor Graphics"]].
+  *[[http://www.symphonyeda.com/|Symphony EDA "VHDL Simili"]] for Windows. 
+    *[[http://www.symphonyeda.com/editions.htm|Symphony EDA "VHDL Simili" Editions]].
+    *"FREE edition: The download ships with a default license file to enable the FREE edition... This FREE license file that ships with Version 3.1 expires on October 1 2012".
+
+===== Code Coverage Tools & Lint Checkers for VHDL, Verilog =====
+  *[[http://covered.sourceforge.net/|SourceForge "Covered - Verilog Code Coverage Analyzer"]], [[http://www.sourceforge.net/projects/covered|SourceForge "Covered"]].
+  *[[http://www.vlsi-world.com/|VLSI World]].
+    *[[http://www.vlsi-world.com/content/view/45/47/|VLSI World "Lint check"]] - list of commercial LINT tools for VHSL.
+   *Commercial Lint tools.
+    *Novas "nLint".
+    *Synopsys "Leda".
+    *[[http://www.cadence.com/|Cadence]] "Blacktie".
+    *Atrenta "Spyglass".
+===== eDiViDe - Online Services for VHDL Development =====
+  *[[http://www.edivide.eu/|eDiViDe]] - "An online learning platform for digital electronics and focusses on providing a real FPGA based lab environment to students".
+  *[[http://www.inf.h-bonn-rhein-sieg.de/en/People/Professors/Ploeger.html|Paul G. Plöger]].
+  *[[http://www2.inf.fh-brs.de/~psamar2s|Hochschule Bonn-Rhein-Sieg "psamar2s"]].
+===== Hardware Description Language Resources =====
+  *[[http://tams-www.informatik.uni-hamburg.de/vhdl/|The Hamburg VHDL Archive]] - "We intend to provide a collection of free, i.e. public-domain or shareware, VHDL documentation, models, and tools".
+  *[[http://www.opencores.org/|OpenCores]] - "#1 community within open source hardware IP-cores".
+  *[[http://www.plc2.com/|PLC2 Programmable Logic Competence Center GmbH]].
+    *The commercial conference  [[http://www.plc2.com/campus-days|ALL PROGRAMMABLE Campus Days]] with commercial trainings "Easy Start FPGA" ( with NEXYS3 Board ) and "Easy Start ZYNQ" ( with ZED Board ) in Osnabrück, 2013-11-05 - 2013-11-07.
+    *[[http://www.digilentinc.com/Products/Detail.cfm?Prod=NEXYS3|Digilent Inc. "Nexys3 Spartan-6 FPGA Board"]].
+    *[[http://www.zedboard.org/|Zedboard.org]].
+  *[[http://www.asic-world.com/|Deepak Kumar Tala "WELCOME TO WORLD OF ASIC"]] - "Tutorials, Examples, Tools, Books, Links" for VHDL, Verilog, SystemC, PSL as well as VERA and Specman #.
+  *[[http://www.verilog.net/|Verilog.Net - "When fishing for Verilog information, don't forget the Net"]].
+
+
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Business/Electronics_and_Electrical/|OpenDirectory "Top: Business: Electronics and Electrical"]].
+  *[[http://www.dmoz.org/Science/Technology/Electronics/|OpenDirectory "Top: Science: Technology: Electronics"]].
+  *[[http://www.dmoz.org/Science/Technology/Electronics/CAD/|OpenDirectory "Top: Science: Technology: Electronics: CAD"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wirtschaft/Elektrotechnik_und_Elektronik/|OpenDirectory "Top: World: Deutsch: Wirtschaft: Elektrotechnik und Elektronik"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wissenschaft/Ingenieurwissenschaften/Elektronik/|OpenDirectory "Top: World: Deutsch: Wissenschaft: Ingenieurwissenschaften: Elektronik"]].
+  *[[http://dir.yahoo.com/business_and_economy/business_to_business/computers/software/cad_cam/ic_design/|Yahoo! Directory "B2B: CAD/CAM Software: IC Design"]].
+  *[[http://dir.yahoo.com/business_and_economy/business_to_business/electronics/|Yahoo! Directory "Business and Economy: Business to Business: Electronics"]].
+  *[[http://dir.yahoo.com/science/computer_science/electronic_computer_aided_design__ecad_/|Yahoo! Directory "Science: Computer Science: Electronic Computer Aided Design (ECAD)"]].
+  *[[http://dir.yahoo.com/science/engineering/electrical_engineering/|Yahoo! Directory "Science: Engineering: Electrical Engineering"]].
+<footnote_navi_en>
+{{tag>"chip design"}}

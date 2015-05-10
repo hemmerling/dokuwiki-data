@@ -1,0 +1,74 @@
+====== [hemmerling] Brick Firmware ======
+{{images:brickfirmware01t.jpg?200|Brick Firmware}} {{images:brickfirmware02t.jpg?200|Brick Firmware}}
+===== The Project "Brick Firmware" =====
+==== Project Objective ====
+  *Development of firmware for hardware which may communicate with the "Brick Daemon" ( [[http://github.com/Tinkerforge/brickd|GitHub "Brick Daemon"]], [[http://www.tinkerforge.com/en/doc/Software/Brickd.html|TinkerForge "Brick Daemon"]] ), a communications server written in Java, for Linux, MacOSX and Windows.
+==== Project Repository ====
+  *GitHub
+    *[[http://www.github.com/brickfirmware|GitHub "Brick Firmware"]].
+  *Members and his/her GitHub archives & Public Gists:
+    *[[http://www.github.com/hemmerling|GitHub "Rolf Hemmerling"]].
+      *[[http://gist.github.com/hemmerling/|GitHub Gist "hemmerling"]].
+      *[[http://gist.github.com/hemmerling/6b4b1bf6e635033e1313|GitHub Gist "hemmerling / brickfirmware.md"]].
+      *[[http://gist.github.com/hemmerling/a8e28dbb0b177f388a38|GitHub Gist " hemmerling / cleanproject.bat"]] - to clean the project directory of the Mikroelektronika IDE for PIC microcontroller software development, from garbage files.
+      *[[http://gist.github.com/hemmerling/10f11bb9ef9302bb80f1|GitHub Gist "hemmerling / gruendergarage.md"]].
+    *[[http://www.github.com/indra1234|GitHub "Indrajid Paul"]].
+      *[[http://gist.github.com/indra1234/|GitHub Gist "Indrajid Paul"]].
+      *[[http://gist.github.com/indra1234/793d38c08da32e088e57|GitHub Gist "indra1234 / misrac.md"]].
+  *[[http://brickfirmware.sourceforge.net/|SourceForge "Brick Firmware"]], [[http://www.sourceforge.net/projects/brickfirmware|SourceForge "Brick Firmware"]].
+  *[[http://www.facebook.com/brickfirmware|Facebook Page "Brick Firmware"]].
+  *Google.
+    *[[http://plus.google.com/u/0/communities/112922770032778829653|Google+ Community "Brick Firmware"]].
+    *[[http://plus.google.com/112977238202577403696|Google+ "Brick Firmware"]].
+    *[[http://plus.google.com/107828116444899532762/|Google+ Page "Brick Firmware"]].
+    *[[http://www.youtube.com/user/brickfirmware|YouTube Channel "Brick Firmware"]].
+  *[[http://www.linkedin.com/groups?gid=8146446|LinkedIn Group "Brick Firmware"]].
+  *[[http://www.pinterest.com/brickfirmware/|Pinterest "Brick Firmeware"]].
+  *[[http://www.readthedocs.org/profiles/brickfirmware/|Read the Docs, Profile "Brick Firmeware"]].
+    *[[http://www.readthedocs.org/projects/brick-firmware/|Read the Docs, Project "Brick Firmeware" of profile "Brick Firmeware"]], [[http://www.brick-firmware.readthedocs.org/|Read the Docs, ShortURL "Brick Firmeware"]], [[http://wwww.brick-firmware.rtfd.org/|Read the Docs, ShortURL "Brick Firmeware"]], [[http://www.readthedocs.org/build/brick-firmware|Read the Docs, Post Commit Hook "Brick Firmeware"]].
+  *[[http://www.slideshare.net/brickfirmware|SlideShare "Brick Firmware"]].
+  *[[http://www.trello.com/brickfirmware|Trello "Brick Firmware"]].
+  *[[http://www.twitter.com/brickfirmware|Twitter "Brick Firmware, @brickfirmware"]], #brickfirmware.
+  *[[http://vimeo.com/brickfirmware|Vimeo "Brick Firmware"]]
+==== Suggested Tools ====
+=== Online Services ===
+  *We use public [[http://gist.github.com/|Github GIST]] online web pages ( of personal GitHub accounts of the project participants ) to document our proceedings. 
+  *We are used to publish "Git Repository" and "GIST" articles with images stored on GitHub :-).
+=== Tools to be installed on your local Computer ===
+  *The screen capture tool [[http://lightscreen.sourceforge.net/|SourceForge "Lightscreen"]], [[http://www.sourceforge.net/projects/lightscreen|SourceForge "Lightscreen"]].
+  *Doxygen ( [[http://www.stack.nl/~dimitri/doxygen/|Doxygen]], [[http://doxygen.sourceforge.net/|Sourceforge "Doxygen"]], [[http://www.sourceforge.net/projects/doxygen|Sourceforge "Doxygen"]] ) - free Open Source documentation system for C++, C, Java, Objective-C, Python, IDL (Corba and Microsoft flavors), Fortran, VHDL, PHP, C#.
+    *[[ftp://ftp.stack.nl/pub/users/dimitri/|FTP Download "Doxygen"]].
+  *The MISRA-C checker of the free IDE [[http://www.ti.com/tool/ccstudio|Texas Instruments "Code Composer Studio (CCStudio) Integrated Development Environment (IDE)"]].
+    *With CCS 5.5.0, you can activate MISRA-C checking by "Project Properties / Build / MSP430 Compiler / Advanced Options / MISRA-C:2004" individually for each rule, or by all rules ( button "All" ).
+  *Free tools to do "Unit test" for C :-).
+==== Distribution License ====
+  *Our choice:
+    *[[http://www.apache.org/licenses/LICENSE-2.0.html|Apache License, Version 2.0]].
+    *[[http://en.wikipedia.org/wiki/Apache_License|EN.Wikipedia "Apache License"]], [[http://de.wikipedia.org/wiki/Apache-Lizenz|DE.Wikipedia "Apache-Lizenz"]].
+  *Reason: 
+    *To be compatible later with [[http://en.wikipedia.org/wiki/.NET_Micro_Framework|EN.Wikipedia ".NET Micro Framework"]], [[http://de.wikipedia.org/wiki/.NET_Micro_Framework|EN.Wikipedia ".NET Micro Framework"]].
+==== Work Principles in our Team ====
+  *[[http://en.wikipedia.org/wiki/5S_%28methodology%29|EN.Wikipedia "5S (methodology)"]], [[http://de.wikipedia.org/wiki/5S|DE.Wikipedia "5S"]].
+  *[[http://en.wikipedia.org/wiki/Open_innovation|EN.Wikipedia "Open innovation"]], [[http://de.wikipedia.org/wiki/Open_Innovation|DE.Wikipedia "Open Innovation"]].
+
+==== Business Development ====
+  *[[http://www.gruender-garage.de/|Gründer-Garage]], Berlin ( 2014-07-22 - ).
+    *[[http://www.gruender-garage.de/members/hemmerling/ideas/|Gründer-Garage "Rolf Hemmerling" - Ideen]].
+    *[[http://www.gruender-garage.de/members/hemmerling/ideas/my-ideas/732/|Gründer-Garage Idee #732 "Brick Firmware"]].
+    *[[http://www.gruender-garage.de/ideenwettbewerb/2/732|Gründer-Garage Ideenwettbewerb, Idee #732 "Brick Firmware"]] - Public description of the business idea, in German language. You may now vote for this business idea.
+  *Video [[http://www.youtube.com/watch?v=2pWllxUsbeg|YouTube "Labor für Entrepreneurship Online: Was den Gründer bewegt (Mittwoch, 30.7.14 ;17-18 Uhr)"]] - Rolf Hemmerling's two elevator pitches for the project "Brick Firmware" are 09:04 - 10:07 and 43:05 - 44:39 on this video, in German language.
+==== Team Members ====
+  *Rolf Hemmerling.
+    *[[imprint.html|imprint / contact address]].
+    *[[http://www.github.com/hemmerling|GitHub "hemmerling"]].
+    *[[http://www.xing.com/profile/Rolf_Hemmerling|XING "Rolf Hemmerling"]].
+    *[[http://www.linkedin.com/in/hemmerling|LinkedIn "Rolf Hemmerling"]].
+    *[[http://www.facebook.com/hemmerling|Facebook "Rolf Hemmerling"]].
+
+===== Resources =====
+  *See [[tinkerforge.html|Tinkerforge]].
+  *See [[topics.html|Topics]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Hardware/Mikrocontroller/|OpenDirectory "Top: World: Deutsch: Computer: Hardware: Mikrocontroller"]].
+{{tag>"brick firmware" "brick demon" brick firmware demon tinkerforge}}
+<footnote_navi_en> 

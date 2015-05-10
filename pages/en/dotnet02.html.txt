@@ -1,0 +1,70 @@
+====== [hemmerling] Microsoft .NET Framework 2/3 ======
+Related pages:
+  *[[metro.html|Flat Design]].
+  *[[gameengine.html|Game Engines]].
+  *[[dotnet.html|Microsoft .NET Framework 1/3]].
+  *[[dotnet03.html|Microsoft .NET Framework 3/3]].
+  *[[windows.html|Microsoft Windows]].
+  *[[sdevtools.html|Software Development Tools]].
+  *[[windeveloper.html|Software Development for Windows]].
+  *[[windowsphone.html|Windows Phone]].
+===== .NET IDEs & Compilers =====
+  *Once there were free development tools by Borland / Inprise Corporation / Borland / CodeGear / Embarcadero Technologies.
+    -"Borland Turbo C# Explorer".
+    -"C#Builder Personal Edition".
+  *The free [[http://www.mono-project.com/CSharp_Compiler|mono CSharp Compiler]].
+===== .NET Development Tools =====
+==== .NET Decompiler ====
+  *The free [[http://msdn.microsoft.com/de-de/library/f7dy01k1%28v=vs.80%29.aspx|Microsoft MSDN "MSIL Disassembler-Tool (Ildasm.exe)"]] for .NET 2.0.
+  *The OpenSource [[http://wiki.sharpdevelop.net/ilspy.ashx|SharpDevelop "ILSpy"]], [[http://sourceforge.net/projects/sharpdevelop/files/ILSpy/|Sourceforge "ILSpy"]] for .NET 4.0.
+  *The comercial [[http://www.red-gate.com/products/reflector/|redgate ".NET Reflector"]] for WinXp with .NET 3.5.
+    *".NET Reflector v6.8" for Windows with .NET 2.0, Microsoft Data Access Components (MDAC) 2.8 is the latest free edition. Redgate promises that it does not expire, but you must register to get a free license key. This serial key can be used to activate up to 5 machines. 
+      *[[http://forums.reflector.net/questions/26/how-do-i-activatedeactivate-the-serial-number|.NET Reflector "Forum / Questions" - "How do I activate/deactivate the serial number?"]].
+      *[[http://www.red-gate.com/messageboard/viewtopic.php?t=13330|Red Gate Forums "Where can I download the free 6.8 version of .NET Reflector?"]].
+      *You can deactivate and re-activate a machine for ".NET Reflector v6.8".
+        -On the .NET Reflector menu, click Deactivate Serial Number. The Deactivate Serial Numbers dialog box is displayed.
+        -Select the serial number and associated products.
+        -Click Deactivate.
+        -The serial number can now be used for .NET Reflector on a different machine. 
+    *Earlier free versions of ".NET Reflector" like ".NET Reflector 6.5" are expired. They just asks to update to "NET Reflector v6.8". But as there is no legal download offer for ".NET Reflector 6.8", you need first to install such an expired version for upgrade.
+    *Originally, the product was named [[http://wayback.archive.org/web/*/http://www.aisto.com/Roeder/DotNet/|Lutz Roeder's Reflector for .Net]] ( - 2008-08-19 ).
+    *With ".NET Reflector v7", there is no free edition anymore.
+==== FxCop - Free Static code Analysis Tool for .NET Binaries ====
+== FxCop - The Tool ==
+  *FxCop 1.35.
+    *[[http://code.msdn.microsoft.com/codeanalysis/Release/ProjectReleases.aspx?ReleaseId=553|MSDN "Microsoft FxCop 1.35"]] for W2k with .NET 2.0 - "FxCop includes both GUI and command line versions of the tool and supports analyzing .NET 1.x, .NET 2.0 and .NET 3.x components".
+  *FxCop 1.36.
+    *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=71DEB800-C591-4F97-A900-BEA146E4FAE1|Microsoft Download Center "Microsoft Windows SDK for Windows 7 and .NET Framework 3.5 SP1 (ISO)"]].
+  *FxCop 10.
+    *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=35AEDA01-421D-4BA5-B44B-543DC8C33A20|Microsoft Download Center "Microsoft Windows SDK for Windows 7 and .NET Framework 4 (ISO)"]].
+== FxCop - Resources ==
+  *[[http://msdn.microsoft.com/en-us/library/bb429476%28v=vs.80%29.aspx|Microsoft MSDN Libary "FxCop"]].
+  *Blog [[http://blogs.msdn.com/b/codeanalysis/|Microsoft MSDN "Code Analysis Team Blog"]].
+    *[[http://blogs.msdn.com/b/codeanalysis/archive/2006/03/11/549611.aspx|Microsoft MSDN, Code Analysis Team Blog "David Kean: How do I integrate custom rules with Visual Studio?"]].
+    *[[http://blogs.msdn.com/b/codeanalysis/archive/2010/07/26/fxcop-10-0-is-available.aspx|Microsoft MSDN, Code Analysis Team Blog "FxCop 10.0 is available"]].
+  *[[http://msdn.microsoft.com/en-us/netframework/aa497255.aspx|.NET Framework Developer Center  "Designing .NET Class Libraries: FxCop In Depth"]].
+  *[[http://en.wikipedia.org/wiki/FxCop|EN.Wikipedia "FxCop"]].
+==== NCover ====
+  *The commercial [[http://www.ncover.com/|NCover]] - Code coverage tool. "A tool to tell you how much of your program is covered by your automatic tests. Instruments source code prior to running unit tests to establish test coverage.* Nant integration* For use with continuous integration builds".
+  *The latest free legacy OpenSource edition [[http://www.ncover.com/download/community|NCover Community]], [[http://ncover.sourceforge.net/|Sourceforge "NCover"]], [[http://www.sourceforge.net/projects/ncover/|Sourceforge "NCover"]].
+  *Blog [[http://www.ncover.com/blog/|NCover Blog]].
+==== Some other .NET Tools ====
+  *[[http://www.codeplex.com/wikipage?ProjectName=MSBee|CodePlex "MSBuild Extras - Toolkit for .NET 1.1 'MSBee'"]] for Microsoft .NET 1.1.
+  *The commercial profiler [[http://www.jetbrains.com/profiler/|JetBrains "dotTrace"]] - 10 days trial edition.
+  *The commercial [[http://www.jetbrains.com/resharper/|JetBrains "R# ReSharper - The Most Intelligent Extension for Visual Studio"]].
+  *The free [[http://www.oracle.com/technetwork/developer-tools/visual-studio/|Oracle Developer Tools for Visual Studio .NET]].
+===== .NET Application and .NET Components =====
+==== OpenSource ====
+  *AntMe! -> See [[codingdojo.html|Coding Dojo / Coding Kata / Randori / Code Retreat / Object Calisthenics / H@ckathons / Hackfests / Codefests / Programming Marathons / Elephant Carpaccio Exercise - Group-Awareness, Self-Awareness, Self-Training in Software Development as well as Developer Contests & Developer Challenges]].
+  *[[http://www.subsonicproject.com/|SubSonic]], [[http://subsonic.codeplex.com/|CodePlex "Subsonic for Windows Phone 7"]] - "A free, web-based media streamer, providing ubiquitous access to your music".
+==== Commercial ====
+  *[[http://www.componentsource.com/|ComponentSource]] - "Offers a unique global service, used by over 1,000,000 software developers worldwide".
+    *[[http://www.componentsource.com/services/publisher/program-introduction.html|ComponentSource "Introduction - Sell Dev Tool Software Internationally With Us!"]].
+===== SDKs for Third-Party Hardware =====
+  *[[http://developer.olympus.com/cameras_login_developer_area_SDK.asp|Olympus Developer Area]].
+  *[[http://www.didp.canon-europa.com/developer/didp/didp_main.nsf?opendatabase&login|Canon's Digital Imaging Developer Programme]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Programming/Component_Frameworks/NET/|OpenDirectory "Top: Computers: Programming: Component Frameworks: NET]].
+  *[[http://www.dmoz.org/World/Fran%C3%A7ais/Informatique/Programmation/Frameworks/DotNet/http://www.dmoz.org/World/Deutsch/Computer/Programmieren/Komponentenframeworks/NET/|OpenDirectory "Top: World: Deutsch: Computer: Programmieren: Komponentenframeworks: NET"]].
+{{tag>"Microsoft .NET" "dot net" .net dotnet framework}}
+<footnote_navi_en>

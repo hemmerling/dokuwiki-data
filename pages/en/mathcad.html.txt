@@ -1,0 +1,77 @@
+====== [hemmerling] PTC Mathcad ======
+Related Pages:
+  *[[infographics.html|Data Visualisation with Infographics]].
+  *[[instrumentation.html|Instrumentation]].
+  *[[mathengineering.html|Mathematical Engineering]].
+  *[[mathworks.html|MathWorks ( MATLAB / Simulink )]].
+  *[[ni.html|National Instruments ( Labview, DIAdem )]].
+  *[[simulate.html|Simulation]].
+===== PTC - Parametric Technology GmbH =====
+  *[[http://www.ptc.com/products/mathcad/|PTC Mathcad]], [[http://www.mathcad.com/|mathcad.com]].
+  *[[http://web.archive.org/web/*/http://www.mathcad.com|Archive.org "mathcad.com"]].
+  *<del>[[http://www.mathcad.de/|mathcad.de]]</del>.
+  *[[http://www.ptc.com/appserver/mkt/products/resource/list-resources.jsp?&rccg=888|Mathcad Resource Center]] #.
+  *[[http://www.ptc.com/community/email-newsletters.htm|PTC E-Mail-Newsletters "PTC Express"]].
+    *[[http://www.ptc.com/community/express-archive/|PTC Express Article Archive]], Matcad news since since 2006-04.
+  *[[http://www.ptc.com/company/news/|PTC News & Events]] - Events, webcasts, webinars.
+  *[[http://www.ptc.com/support/mathcad.htm|PTC Mathcad Support Center]].
+  *[[http://communities.ptc.com/community/mathcad|PTC Community - Mathcad]].
+  *[[http://www.ptc.com/products/tutorials/mathcad.htm|PTC Mathcad - Demos & Tech Tips]].
+    *Video [[http://www.ptc.com/appserver/wcms/forms/index.jsp?&im_dbkey=85408&icg_dbkey=482|Mathcad: A Platform for Six Sigma Demonstration]].
+    *Video [[http://www.ptc.com/appserver/wcms/forms/index.jsp?&im_dbkey=85408&icg_dbkey=482|Mathcad for Documentation and Requirements Management]].
+  *[[http://www.amazon.de/exec/obidos/ASIN/3540148973/hemmerling-21|Amazon "Mathcad 2001, Student Edition, 1 CD-ROM"]].
+  *[[http://www.amazon.de/exec/obidos/ASIN/3540148604/hemmerling-21|Amazon "Mathcad Professional 2000"]].
+===== Mathcad 2001i =====
+  *Mathcad 2001i was the latest MathCAD version, which can be installed freely, while it might be incompatible with WinXP, SP2. Indeed, the successor MathCAD 11, released in November 2002, must be activated, like WinXP. Now with MathCAD 13, you must wait for an individual Email answer by the Mathsoft sales office, to unlock the software... Matlab 13 still can save in Matlab 2001i format.
+  *Additionally, MathCAD 12 and 13 are based on Microsoft .NET 1.1 ...
+  *Known Restrictions.
+    *The Mathcad 2001 Student edition is on the level of the Professional Edition. E.g. the character concatenation function ( in the german version: "verkett()" ) is included.
+    *Quotation by [[http://mathstore.ac.uk/newsletter/may2001/pdf/mathcad2001.pdf|Rob Beale: "Review of Mathcad 2001"]]: "Student editions contain restrictions on array to a maximum of 1000 elements and do not have all the programming capabilities".
+    *In general, arrays cannot exceed 8 million elements, while arrays created with the MATRIX command are limited to 100 elements.
+  *Richard Jackson: "[[http://communities.ptc.com/thread/33639|MC11 will save back to version 6. MC13 will save back to version 2001i. MC14 and 15 will save back to version 11]]".
+=====  Mathcad Express =====
+  *The free "Mathcad Express" for WinXP.
+    *[[http://www.ptc.com/product/mathcad/free-trial/|PTC "Mathcad Express"]]
+    *[[http://www.aristos-online.de/softwareprodukte_mathcad_prime.html|aristos ENGINEERING SERVICES & SOLUTIONS GmbH - "Mathcad Prime"]].
+    *[[http://free-dl.ptc.com/install/pim_installmgr_mathcad.exe|PTC "Mathcad Express" - Download of the install manager]] ( EXE ).
+===== Mathcad Electronic Books, Mathcad Example Files =====
+  *[[http://www.ptc.com/support/|PTC Support]].
+    *[[http://www.ptc.com/community/free-downloads.htm|PTC Free Downloads, Mathcad Downloads]].
+      *"Mathcad-LabVIEW integration wizard", for Mathcad 13 or above and LabVIEW 7.1.
+      *"Excel Add-in for Mathcad 15.0".
+      *"Mathcad Web" for Mathcad 11 and newer, making use of the Mathcad API.
+  *[[http://www.ptc.com/appserver/mkt/products/resource/list-books.jsp?&rccg=888&nav=5279|Mathcad Resource Center: Books]] -> Mathcad Electronic Boosks.
+  *[[http://www.ptc.com/appserver/mkt/products/resource/list-dtav.jsp?&rccg=888&nav=5283|Mathcad Resource Center: Mathcad Example Files]].
+  *Electronic books and example files can be found at the "document" section of each Mathcad sub-community.
+    *[[http://communities.ptc.com/community/mathcad|PTC Community - Mathcad]].
+      *[[http://communities.ptc.com/community/mathcad?view=documents|PTC Community - Mathcad "Documents"]].
+      *[[http://communities.ptc.com/community/mathcad/electrical_engineering?view=documents|PlanetPTC Community > Mathcad > Electrical Engineering "Dccuments"]].
+  *[[http://www.adeptscience.co.uk/download/dldcat/33/0/All/Mathcad.html|Adept Scientific "Adept Scientific Downloads"]] - Download of some free "Mathcad Electronic Books".
+  *The free [[http://dynamassist.com/|Ian Ward "DynamAssist"]] for Mathcad 11 and newer.
+===== Third-Party Tools =====
+  *Some Mathcad versions are shipped with special limited editions of the content publishing software [[http://www.net-it.com/|Net-It Now!]], featuring the CSF/3DF file format. Nowadays, "[[http://www.net-it.com/|Net-It Now!]] V4.0.0.30" and "[[http://www.bravaviewer.com/|brava!]] reader 2.4.0.8" are freeware :-).
+===== Resources =====
+  *[[http://www.adeptscience.co.uk/products/mathsim/mathcad/chart.html|Adept Scientific "Comparison Chart"]] - "Compare previous versions of Mathcad 8, 2000, 2001, 2001i, 11, 12, 13, 14 with new Mathcad 15".
+  *[[http://www.adeptscience.co.uk/kb/category/Mathematics+and+Simulation/Mathcad/product=%28Mathcad%29/1,1,10|Adept Scientific Knowledge Base "Mathcad"]].
+  *[[http://www.ece.umd.edu/~harger/425SYLL.html|Robert O. Harger "ENEE 425: DIGITAL SIGNAL PROCESSING"]].
+    *[[http://www.ece.umd.edu/~harger/|Robert O. Harger - Download of Mathcad example files]].
+  *[[http://www.mpassociates.gr/software/distrib/science/mathsoft/compare_versions.html|MP & Associates "Mathcad - Compare Versions"]] - Comparison of Mathcad 7, 8, 2000, 2001.
+  *[[http://home.pcc.ac/Dieter.Reiermann/Analog-%20und%20Digitaltechnik/Digitale%20Signalverarbeitung/organisation/adt2-anleitung.htm|Dieter Reiermann "Fragen und Antworten zum interaktiven Arbeiten mit Mathcad"]].
+  *[[http://en.wikipedia.org/wiki/Mathcad|EN.Wikipedia "Mathcad"]], [[http://de.wikipedia.org/wiki/Mathcad|DE.Wikipedia "Mathcad"]].
+  *[[http://web.archive.org/web/*/http://www.zenex.fi/math/mathcad/2001i_vertailu.htm|Archive.org "Zenex - Mathcad versioiden ominaisuudet]] - Comparison of Mathcad 7, 8, 2000, 2001, 2001i.
+===== Forums, Newsgroups, Communities =====
+  *[[http://www.eng-tips.com/threadminder.cfm?pid=552&page=1|Eng-Tips Forum "PTC: Mathcad Forum"]].
+  *[[http://collab.mathsoft.com/|Mathcad Collaboratories]].
+    *[[http://collab.mathsoft.com/~Mathcad2000/|Mathcad Collaboratory - Mathcad2000]].
+  *[[http://communities.ptc.com/blogs/|PlanetPTC Community Blog Postings]].
+  *[[http://communities.ptc.com/|PlanetPTC Community]].
+    *[[http://communities.ptc.com/community/mathcad|PlanetPTC Community - Mathcad]].
+      *[[http://communities.ptc.com/thread/33639|PlanetPTC Community - Mathcad "Where is all legacy Mathcad stuff ( Electronic Books, Add-ons for Mathcad 8, 2000, 2001, 2001i) ?"]].
+      *[[http://communities.ptc.com/docs/DOC-1157|PlanetPTC Community - "Need Help? Here's a List of How-to's"]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Science/Math/Software/Mathcad/|OpenDirectory "Top: Science: Math: Software: Mathcad"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wissenschaft/Mathematik/Software/|OpenDirectory "Top: World: Deutsch: Wissenschaft: Mathematik: Software"]].
+{{tag>Mathcad PTC}}
+<footnote_navi_en>
+
+

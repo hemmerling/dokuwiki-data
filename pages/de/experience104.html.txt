@@ -1,0 +1,51 @@
+====== [hemmerling] Messdatenerfassung und - verarbeitung mit C166 Board ======
+===== Projekt-Auftrag =====
+Entwicklung einer Messdatenerfassung und - verarbeitung mit C166 Mikroprozessor-Modulboard, in "C" und C166 Assembler ( 1999-07-05 - 1999-08-27 ).
+===== Projekt-Auftraggeber =====
+[[http://www.mh-hannover.de/922.html|Medizinische Hochschule Hannover, Zentrale Forschungswerkstätten]].
+===== Projekt-Rolle / Stellenbeschreibung / Eigene Rolle im Projekt =====
+System-Entwickler, Embedded Software-Entwickler
+===== Projekt-Aufgaben =====
+Teilprojekt eines umfangreichen Meßdatenerfassungs-Projekts. 
+  -Entwicklung einer Messdatenerfassung und - verarbeitung mit C166 Mikroprozessor-Modulboard, in "C" und C166 Assembler. Messdatenerfassung mit einem Burr-Brown A/D Boards "DEM-ADS7815U Evaluation Fixture". Die vom A/D Board erhaltenen Daten werden gemittelt (je 4,8,16,.. Werte) und die gemittelten Daten an eine 8255 Parallel-Port Karte eines speziellen Meßwerterfassungs-PCs übermittelt. Der Datentransfer zum PC wird durch ein Strobe-Signal angekündigt, das als Interrupt-Quelle vom PC genutzt werden kann. Über eine serielle RS232 Verbindung kann der PC Kommandos an den Mikrocontroller senden und Status-Berichte empfangen. Der Datentransfer vom A/D Board geschieht Interrupt-gesteuert. Mehrere verschiedene Interrupt-Treiber wurden geschrieben, um die speziellen Interrupt-Features wie den PEC Interrupt-Modus des Mikrocontrollers auszutesten.
+  -Wissens-Transfer des durch die Software-Entwicklung erworbenen Projekt- und Domain-spezifischen Fachwissens zu permanent beschäftigten Mitarbeitern (Stammbelegschaft).
+
+===== Tätigkeitsbeschreibung / Eigene Tätigkeiten im Projekt =====
+  *Selbstständige Einarbeitung in 80C166 Microcontrollerhardware anhand des Manuals.
+  *Hardwareaufbau eines Interfaceboards für 80C166 Microcontrollerplatine: Löten, Wrappen, Einbau mechanischer Bedienungselemente (Taster). Extrahieren von Informationen aus Schaltplänen. Aufbau einer manuell auslösbaren Reset- und Boot-Logik, Anschluß der 2. seriellen Schnittstelle an RS-232-Pegel Pufferbausteine, Aufstellen einer Wrap-Verbindungstabelle mit Hilfe einer Tabellenkalkulation, Aufzeichnung eines Wrap-Plans, Umgang mit elektrischen Meßgeräten und mit einem Oszillographen
+  *Hardwaremäßige Anbindung eines A/D Wandlerboards an das 80C166 Interface und seine meßtechnische Inbetriebnahme, Erkennung und Korrektur von Fehlern in der Beschreibung und der Schaltplan-Beschriftung des A/D Wandlerboards.
+  *Anschluß des Controllerboards an ein Host-Entwicklungssystems, einen WIN98 PC.
+  *Umgang mit auf Host-Rechnern (WIN98 PCs) installierten Cross-Entwicklungssystemen für Assembler und “C”, Arbeit mit Host-gestütztem Source-Level Debugger, Einarbeitung in die speziellen Sprach- und Bibliothekserweiterungen eines C-Compilers für Embeded Systems.
+  *Hardwarnahe Programmierung des 80C166 Microcontrollers in der Programmiersprache “C”: Interruptgestütze Datenaufnahme, Datenreduktion, zeichenorientierte Benutzerschnittstelle, vorbereitende Implementation des Datentransfers zu einem PC.
+  *Untersuchung, Programmierung und Beurteilung des 80C166 als Taktgenerator für das A/ D Wandlerboard im Vergleich zu einem diskret aufgebauten externen Digitaltaktgenerator. Ergebnis: Die Möglichkeiten und die Flexibilität des 80C166 reichen für das Projekt nicht aus
+  *Untersuchung, Programmierung, Vergleich und Beurteilung verschiedener Möglichkeiten zur Datenerfassung mit Microcontrollern: Polling, Interrupt-Routinen, der spezielle PEC-Transfermodus des 80C166.
+  *Untersuchung, Programmierung, Vergleich und Beurteilung von Konzepten und Methoden zum Datentransfer vom Microcontroller zu einem nur bedingt echtzeitfähigen PC: Signalerzeugung zur Interrrupt-Auslösung, Bündelung von Interrupts, Handshake-Verfahren, Burst-Modus.
+  *Einarbeitung in die Grundlagen der digitalen Signalverarbeitung (Abtasttheorem, Einsatz von Mittelungsverfahren zur Rauschunterdrückung).
+  *Testweiser Betrieb des Teilsystems: Verwendung von Konstantspannungsquellen als Meßsignalersatz, manuelles Auslösen der A/D Konvertierung durch ein über die Benutzerschnittstelle übermitteltes Kommando, Oszillographieren des vom Microcontroller erzeugten Taktsignals, Simulation der Signale des A/D Wandlerboards für den Microcontroller mit Hilfe eines Schaltbretts.
+
+===== Im Projekt eingesetzte Chips, CPU, Hardware und Tools =====
+==== Hardware und Tools ====
+  *[[http://de.wikipedia.org/wiki/Star_Office|StarOffice]] 5.1a / [[http://de.wikipedia.org/wiki/Microsoft_Office|Microsoft Office]].
+  *[[http://www.keil.com/|Keil]] C166 Software. Development Tools for XC16x/C16x/ST10 Microcontrollers.
+  *Modulboard "PHYTEC Messtechnik GmbH miniMODUL-166" ( der Vorgänger des Modulboard "[[http://www.phytec.de/de/produkte/produktdetails/p/minimodul-167.html|PHYTEC Messtechnik GmbH miniMODUL-167]]" ).
+    *[[http://www.phytec.de/de/support/faq/faq-minimodul-166.html|PHYTEC Messtechnik GmbH miniMODUL-166 - Häufig gestellte Fragen]].
+  *[[http://www.burr-brown.com/|Burr-Brown]] A/D Board "DEM-ADS7815U Evaluation Fixture", das mit dem Burr-Brown A/D Konverter "ADS7815" ( heute: [[http://focus.ti.com/docs/prod/folders/print/ads7815.html|Texas Instruments ADS7815]] ) ausgestattet ist.
+    *Datenblatt.
+      *[[http://www.datasheetcatalog.com/datasheets_pdf/D/E/M/-/DEM-ADS7815U.shtml|DatasheetCatalog.com "DEM-ADS7815U"]].
+      *[[http://www.datasheetdirect.com/part/DEM-ADS7815U.html|DatasheetDirect.com "DEM-ADS7815U"]].
+    *Anbieter.
+      *[[http://parts.digikey.de/1/1/116816-demo-board-ads7815u-dem-ads7815u.html|Digi-Key Corporation "DEMO BOARD FOR ADS7815U - DEM-ADS7815U - Programmierer, Entwicklungssysteme"]].
+==== CPU- und Chip Familien ====
+=== C166 ===
+  *[[http://de.wikipedia.org/wiki/C166|DE.Wikipedia "C166"]], [[http://de.wikipedia.org/wiki/C167|DE.Wikipedia "C167"]], [[http://de.wikipedia.org/wiki/XC167|DE.Wikipedia "XC167"]].
+  *[[http://en.wikipedia.org/wiki/C166_family|EN.Wikipedia "C166 family"]], [[http://en.wikipedia.org/wiki/C167_family|EN.Wikipedia "C167 family"]].
+  *[[http://www.infineon.com/C166|Infineon C166]], [[http://www.infineon.com/C167|Infineon C167]].
+  *[[http://www.st.com/internet/mcu/subclass/708.jsp|STMicroelectronics "Micros and Memories / Microcontrollers / Legacy MCUs / ST10 16-bit MCUs"]].
+=== ADS7815 ===
+  *[[http://focus.ti.com/docs/prod/folders/print/ads7815.html|Texas Instruments ADS7815]].
+
+===== Projekt-Ergebnis =====
+  -{{:images:c166_1.jpg|}}, {{:images:c166_2.jpg|}}, {{:images:c166_3.jpg|}}
+  -Erfolgreicher Wissens-Transfer des Projekt- und Domain-spezifischen Fachwissens zu permanent beschäftigten Mitarbeitern (Stammbelegschaft).
+{{tag>Mikroprozessorboard C166 C Assembler Burr-Brown "DEM-ADS7815U Evaluation Fixture" "A/D Konverter" "Burr-Brown ADS7815" "Texas Instruments ADS7815" ADS7815}}
+<footnote_navi_de>

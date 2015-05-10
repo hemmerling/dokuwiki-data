@@ -1,0 +1,225 @@
+====== [hemmerling] Electronic Design Automation ( EDA ) 4/5 - Design for Application-Specific Integrated Circuits ( ASIC ) - Design of analog Chips ======
+Related pages:
+  *[[eda01.html|Electronic Design Automation ( EDA ) 1/5 - Installation Engineering]].
+  *[[eda02.html|Electronic Design Automation ( EDA ) 2/5 - Schematics Capture, Schematics Simulation and PCB Design]].
+  *[[eda03.html|Electronic Design Automation ( EDA ) 3/5 - Design for Application-Specific Integrated Circuits ( ASIC ) - Design of digital Chips]].
+  *[[eda05.html|Electronic Design Automation ( EDA ) 5/5 - Design for Application-Specific Integrated Circuits ( ASIC ) - A simple Frequency Divider]].
+  *[[electronics01.html|Electric Units & Electronics 1/3 - My Electronics, Electronics Workbench Equipment, Electronics Literature & Resources]].
+  *[[electronics02.html|Electric Units & Electronics 2/3 - Actors, Sensors, Embedded Systems Electronics and suitable Control Systems]].
+  *[[electronics03.html|Electric Units & Electronics 3/3 - Manufacturers, Distributors, Vendors & Datasheets]].
+===== Free VLSI CAD Software =====
+==== Alli@nce VLSI CAD System ====
+  *The free "Alliance VLSI CAD System" / "Alli@nce VLSI CAD System".
+    *[[http://www-soc.lip6.fr/recherche/cian/alliance/|LIP - Laboratoire d'Informatique de Paris 6 "Circuits Intégrés Numériques et Analogiques (CIAN)"]].
+      *[[http://www-soc.lip6.fr/recherche/cian/projets/|LIP - Laboratoire d'Informatique de Paris 6 "Projets de l'équipe CIAN (en cours)"]].
+        *[[http://www-soc.lip6.fr/recherche/cian/alliance/|LIP - Laboratoire d'Informatique de Paris 6 "Alli@nce - A free VLSI cad system"]].
+    *[[ftp://www-asim.lip6.fr/pub/alliance/|FTP Download "Alli@nce VLSI CAD System"]].
+==== Caltech "Chipmunk" VLSI Design System ====
+  *[[http://www.cs.berkeley.edu/~lazzaro/|University of Berkely, John Lazzaro]].
+    *[[http://www.cs.berkeley.edu/~lazzaro/biblio/software.html|University of Berkely, John Lazzaro "Chipmunk"]] - free electronic computer-aided-design tools for schematic capture, circuit and logic simulation, VLSI layout and LVS, data viewing, and drawing.
+==== "Electric" VLSI Design System ====
+=== The Tool ===
+  *[[http://www.staticfreesoft.com/|Static Free Software - Home of the Electric VLSI Design System]]
+  *The OpenSource "Electric" VLSI Design System is written in Java ( formerly in C++ ).
+  *It supports import and export of CIF / GDSII files.
+=== Resources ===
+  *Steven M. Rubin.
+    *[[http://www.rulabinsky.com/|RuLabinsky Ranch]].
+    *The free online HTML book [[http://www.rulabinsky.com/cavd/|Steven M. Rubin "Computer Aids for VLSI Design"]].
+    *[[http://www.free-soft.org/FSM/english/issue03/paybills.html|Steven M. Rubin "How Free Software Pays my Bills"]].
+  *[[http://www.ee.ic.ac.uk/pcheung/teaching/ee4_asic/|Imperial College London, Department of Electrical & Electronic Engineering, Peter Y. K. Cheung "Digital IC Design"]].
+
+==== Glade ====
+  *The free [[http://www.peardrop.co.uk/glade/|Peardrop Design Systems "Glade" ( Gds, Lef And Def Editor )]] - "A freeware IC layout editor", "Glade is extendable using Python".
+  *[[http://www.cnm.es/~pserra/|Francesc Serra-Graells]].
+    *[[http://www.cnm.es/~pserra/uab/siam/download.html|Francesc Serra-Graells "Analog and Mixed Integrated Systems (27430)"]] & [[http://www.cnm.es/~pserra/uab/cia/download.html|Francesc Serra-Graells "Analog Integrated Circuits (27413)"]].
+      *The free [[http://www.peardrop.co.uk/glade/|Keith S "Glade" ( Gds, Lef And Def Editor )]].
+      *The free [[http://fides.fe.uni-lj.si/spice/|University of Ljubljana, Slovenia "Spice OPUS"]].
+==== "LASI" Integrated Circuit CAD for Windows ====
+=== Tools ===
+  *[[http://www.lasihomesite.com/|LASI Home Site]].
+    *LASI supports export of CIF / GDSII files and import of GDSII files.
+  *The Java application "VLSI Layout 3D" - "A 3d visualization software for VLSI designs created in LASI".
+    *[[http://vlsilayout3d.sourceforge.net/|SourceForge "VLSI Layout 3D"]], [[http://www.sourceforge.net/projects/vlsilayout3d/|SourceForge "VLSI Layout 3D"]] -> No download offer yet, as of 2014-02.
+    *[[http://web.archive.org/web/*/http://www.edpataky.com/VLSI/|Archive.org "Edward S. Pataky: VLSILayout3D]] -> Archive.org did not archive any application downloads.
+  *[[http://www.cnm.es/~pserra/|Francesc Serra-Graells]].
+    *The discontinued [[http://wayback.archive.org/web/*/http://www.cnm.es/~pserra/winvlsi/|WinVLSI]] - " A Free Windows CAD Framework for Mixed Full-Custom VLSI Design" ( - 2010 ), for use with LASI and SPICE.
+    *Slides [[http://www.docstoc.com/docs/20492669/WinVLSI-A-Free-Windows-CAD-Framework-for-Mixed-Full-Custom-VLSI|Quicken docstock "Francesc Serra-Graells: WinVLSI A Free Windows CAD Framework for Mixed Full-Custom VLSI"]].
+=== Literature ===
+  *Russel Jacob Baker.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0780334167/hemmerling-21|R. Jacob Baker, Harry W. Li, David E. Boyce: "CMOS Circuit Design, Layout, and Simulation, First Edition"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/B00BR5JNOG/hemmerling-21|R. Jacob Baker: "CMOS Circuit Design, Layout, and Simulation, 3rd Edition"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0471227544/hemmerling-21|R. Jacob Baker: CMOS Mixed-Signal Circuit Design]], 1st. edition.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0470290269/hemmerling-21|R. Jacob Baker: CMOS: Mixed-Signal Circuit Design]], 2nd. edition.
+    *Accompanying website [[http://www.cmosedu.com/|CMOSedu.com]].
+      *[[http://www.cmosedu.com/cmos1/book.htm|CMOSedu.com "CMOS Circuit Design, Layout, and Simulation, Third Edition"]].
+      *[[http://www.cmosedu.com/cmos1/winlasi/winlasi.htm|CMOSedu.com "LASI IC Layout for Windows at CMOSedu.com"]] - "Installation".
+      *[[http://www.cmosedu.com/cmos1/mosis/mosis.htm|CMOSedu.com "Information for designers that fabricate through MOSIS from CMOSedu.com"]].
+      *[[http://web.archive.org/web/*/http://www.cmosedu.com/cmos1/lasiproj/scells.htm|Archive.org "CMOSedu.com: LASI Schematic and Layout Examples using the MOSIS Design Rules"]].
+==== Open Circuit Design ( Magic, XCircuit, IRSIM, Netgen, Qrouter, Qflow, PCB ) ====
+=== Tim Edwards ===
+  *[[http://www.opencircuitdesign.com/|Open Circuit Design]].
+  *[[http://www.opencircuitdesign.com/magic/|Open Circuit Design "Magic"]] - New official homepage.
+  *[[http://www.opencircuitdesign.com/xcircuit/|Open Circuit Design "XCircuit"]], [[http://xcircuit.sourceforge.net/|SourceForge "XCircuit"]], [[http://www.sourceforge.net/projects/xcircuit/|SourceForge "XCircuit"]].
+  *[[http://www.opencircuitdesign.com/~tim/|Open Circuit Design "Tim's Home Page at Open Circuit Design"]].
+=== Asynchronous VLSI and Architecture Cornell University ===
+  *[[http://vlsi.cornell.edu/magic/|Asynchronous VLSI and Architecture Cornell University  "Magic"]] - Former official homepage.
+=== Magic @ Digital Equipment ( DEC ) - Compaq - Hewlett Packard ( HP )  ===
+  *[[http://web.archive.org/web/*/http://www.research.compaq.com/wrl/projects/magic/magic.html|Archive.org "Compaq Research: Magic - A VLSI Layout System"]] - Former "Magic" homepage.
+  *[[http://web.archive.org/web/*/http://www.research.digital.com/wrl/projects/magic/magic.html|Archive.org "DEC Research: Magic - A VLSI Layout System"]] - Former "Magic" homepage.
+  *[[http://www.hpl.hp.com/techreports/Compaq-DEC/|HP Labs "Compaq & DEC - Technical Reports"]].
+    *[[http://www.hpl.hp.com/techreports/Compaq-DEC/WRL-90-7.pdf|HP Labs "1990 DECWRL/Livermore Magic Release, September 1990"]] ( PDF ) - The "original" Magic Tutorial.
+    *Papers, mentioned in the Magic Tutorial, "Magic Maintainer's Manual #2: The Technology File": 
+      *[[http://dl.acm.org/citation.cfm?id=800790|ACM Digital Library "Magic: A VLSI layout system"]].
+      *[[http://dl.acm.org/citation.cfm?id=800791|ACM Digital Library "Magic's incremental design-rule checker"]].
+      *[[http://dl.acm.org/citation.cfm?id=800792|ACM Digital Library "Plowing: Interactive stretching and compaction in magic"]].
+      *[[http://dl.acm.org/citation.cfm?id=800793|ACM Digital Library "A switchbox router with obstacle avoidance"]].
+      *[[http://dl.acm.org/citation.cfm?id=317872|ACM Digital Library "Magic's circuit extractor"]].
+=== Literature ===
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/8120322576/hemmerling-21|RABAEY JAN M, Chandrakasan Anantha, Nikolic Borivoje: "Digital Integrated Circuits: A Design Perspective"]].
+    *The accompanying website [[http://bwrcs.eecs.berkeley.edu/Classes/IcBook/|Digital Integrated Circuits. A Design Perspective. A Prentice-Hall Publication by Jan M. Rabaey]].
+=== Resources ===
+  *"Magic" supports import and export of CIF / GDSII files.
+  *[[http://mountains.ece.umn.edu/~kia/Courses/EE5324/links.html|Kiarash ( Kia ) Bazagran: "EE 5324: VLSI Design II" / "Useful links"]].
+  *[[http://web.archive.org/web/*/http://www.rsl.ku.edu/~mlinhart/magic/|Archive.org "Mike Linhart: Magic VLSI!"]], [[http://web.archive.org/web/*/http://www.rsl.ukans.edu/~mlinhart/magic/|Archive.org "Mike Linhart: Magic VLSI!"]], [[http://www.rsl.ku.edu/~mlinhart/magic/|Archive.org "Mike Linhart: Magic VLSI!"]], [[http://web.archive.org/web/*/http://www.ittc.ku.edu/~mlinhart/magic/|Archive.org "Mike Linhart: Magic VLSI!"]].
+    *Once there was a special directory with a collection of Magic projects ( [[http://web.archive.org/web/*/http://www.rsl.ku.edu/~mlinhart/magic/files/|Archive.org "Mike Linhart: Magic VLSI! - Magic projects"]], [[http://web.archive.org/web/*/http://www.rsl.ukans.edu/~mlinhart/magic/files/|Archive.org "Mike Linhart: Magic VLSI! - Magic projects"]] ). Unfortunately, Archive.org didn´t save the projects. Did anybody download the complete set of directories and files ? If so, [[imprint.html|please tell me]] !
+  *[[http://www.bell-labs.com/project/oevlsi/tdbmagic.html|Optoelectronic VLSI at Lucent Technologies "Procedure for converting BL Library into Magic format"]].
+  *[[http://www.clear.rice.edu/elec422/|VLSI Design I class at Rice University]] - Magic tutorial.
+  *[[http://www.cs.unc.edu/~tell/dist.html|Steve Tell "The Magic VLSI Layout System"]].
+  *[[http://www.ee.ic.ac.uk/pcheung/teaching/ee4_asic/magic_tutorials/tutorial_index.html|University of London, Imperial College OF SCIENCE, TECHNOLOGY AND MEDICINE, Department of Electrical & Electronic Engineering, Peter Cheung "Magic 6.5 Tutorials"]].
+  *[[http://www-scf.usc.edu/~ee577/cad_frame.html|University of Southern California "VLSI System Design - CAD Tool Homepage"]].
+    *[[http://www-scf.usc.edu/~ee577/tutorial/magic_tut.html|University of Southern California "VLSI System Design - CAD Tool Homepage" / "Magic Tutorial : Inverter Layout"]].
+    *[[http://www-scf.usc.edu/~ee577/tutorial/magic_tut2.html|University of Southern California "VLSI System Design - CAD Tool Homepage" / "Magic Tutorial2 : Hierarchical Layout"]].
+  *[[http://en.wikipedia.org/wiki/Magic_%28software%29|EN.Wikipedia "Magic (software)"]].
+==== "Microwind" VLSI Tools for physical Layout and "Dsch" Schematic Capture/Simulation ====
+=== The commercial Tool ===
+  *[[http://www.microwind.net/|Microwind]] - "CMOS layout design & simulation tool".
+=== The free lite Tools ===
+  *[[http://www.microwind.org/|Microwind & DSCH Homepage]].
+  *Import and export of CIF files is not supported by the free non-commercial edition. 
+  *Experience of 2006: But even with the commercial version, the imported projects might not pass the design rule checks ( DRC ).
+=== Literature ===
+  *[[http://intranet-gei.insa-toulouse.fr/~sicard/microwind/book.html|Microwind & DSCH Homepage "Books published using Microwind and Dsch"]].
+  *Book [[http://www.amazon.co.uk/exec/obidos/ASIN/0071488391/hemmerling-21|Etienne Sicard, Sonia Delmas Bendhia: "Basics of CMOS Cell Design"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0071488367/hemmerling-21|Etienne Sicard, Sonia Delmas Bendhia: "Advanced CMOS Cell Design"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/053446629X/hemmerling-21|John P. Uyemura: "Chip Design for Submicron VLSI: CMOS Layout and Simulation"]].
+=== Resources ===
+  *[[http://www.eeng.dcu.ie/~ee213/|Dublin City University, Stephen Daniels "EE213 VLSI Design"]].
+  *[[http://www.ece.osu.edu/ie/main/Publications/|Information Electronics Research Group]].
+    *[[http://www.ece.osu.edu/ie/main/Publications/design_flow/reddys_digital_design_flow_thesis.pdf|Information Electronics Research Group, Sagar Reddy: "University Digital Design Flow Options"]] -> Covers Microwind, Electric, MyCAD.
+==== MyCAD Educational Packages ====
+=== The Company & the Tool ===
+  *[[http://www.mycad.com/|MyCAD]], [[http://www.seloco.com/mycad_/mycad_kr|SELOCO, Inc. "MyCAD"]].
+  *[[http://www.mycad.biz/|MyCAD Shop]].
+  *There are 14 days evaluation versions of the commercial "MyAnalog XV" "MyChip Station XV", "MyLogic Station XV" and "MyVHDL Station XV" available for download.
+=== MyChip Station Educational Packages ===
+  *The discontinued free [[http://web.archive.org/web/*/http://www.mycad.com/02pro/05.html|Archive.org "MyChip Station V6.4 Educational Packages"]] ( - 2008-11-02 ).
+    *"MyAnalog Station EV" ( including SPICE ).
+    *"MyChip Station EV" ( including SPICE. Just 14 days evaluation for the layout editor "LayEd" ).
+    *"MyLogic Station EV".
+    *"MyVHDL Station EV".
+=== MyChip Station Student Packages ===
+  *Until 2003-01-01, there were special free passwort-protected student packages:
+    *[[http://web.archive.org/web/*/http://www.mycad.com/down/MyAnal-SV51.EXE|MyAnalog Station SV 5.1]], [[http://web.archive.org/web/*/http://www.mycad.com/down/MyAnal-SV63.EXE|MyAnalog Station SV 6.3]].
+    *[[http://web.archive.org/web/*http://www.mycad.com/down/MyChip-SV51.EXE|MyChip Station SV 5.1]], [[http://web.archive.org/web/*/http://www.mycad.com/down/MyChip-SV64.EXE|MyChip Station SV 6.4]].
+    *[[http://web.archive.org/web/*/http://www.mycad.com/down/MyLogic-SV51.EXE|MyLogic Station SV 5.1]].
+    *[[http://web.archive.org/web/*/http://www.mycad.com/down/MyVHDL-SV51.EXE|MyVHDL Station SV 5.1]].
+  *Please [[imprint.html|tell me]] the password of the free MyCAD SV student editions, if you still know ! 
+
+==== Tanner L-Edit 7.12 Student Edition ====
+=== The Company & the Tool ===
+  *[[http://www.tannereda.com/products/l-edit-pro|Tanner EDA "Industry-leading Productivity for Analog, Mixed Signal and MEMS Layout from Tanner EDA"]] - The commercial "Tanner EDA L-Edit IC package".
+=== The free Tanner L-Edit 7.12 Student Edition ===
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0534943268/hemmerling-21|John P. Uyemura: "Physical Design of CMOS Integrated Circuits Using L-Edit"]], 1994 - The book is shipped with a 3.1/2" floppy disk with a legacy student edition of Tanner L-Edit.
+  *[[http://web.archive.org/web/*/http://www.tanner.com/EDA/products/ledit/student_version.htm|Archive.org "Tanner Research, Inc.: L-Edit Pro Student Version"]] ( - 2005-11-05 ) - "The base student version can be purchased with Physical Design of CMOS Integrated Circuits Using L-Edit, the textbook written by Dr. John P. Uyemura, Professor of Electrical and Computer Engineering, Georgia Institute of Technology. Students must have purchased and installed the student version provided with Dr. Uyemura's textbook in order to download the [[http://web.archive.org/web/*/http://www.tanner.com/EDA/products/demos/stu712.zip|L-Edit student version (7.12 update)]]".
+  *[[http://web.archive.org/web/*/http://www.tanner.com/EDA/products/demos/stu712.zip|Archive.org "L-Edit student version, 7.12 update ( stud712.zip )]].
+  *Tanner L-Edit 7.12 Student Edition for Windows 3.1 works fine on Win98SE ( and if I remember right, on W2k too ).
+  *Import and export of CIF / GDSII files is not supported by the student edition :-(.
+=== Resources ===
+  *[[http://cmi.epfl.ch/|École Polytechnoique Fédérle de Lausanne, Center of MicroNanoTechnology ( CMI )]].
+    *[[http://web.archive.org/web/*/http://cmi.epfl.ch/photo/L_edit_start_manual.pdf|Archve.org "École Polytechnoique Fédérle de Lausanne, Center of MicroNanoTechnology ( CMI ): Introduction au dessin de masque avec L-Edit Version 10"]] ( PDF ).
+  *[[http://athena.ecs.csus.edu/~pheedley/|California State University, College of Engineering & Computer Science, Perry L. Heedley]].
+    *[[http://web.archive.org/web/*/http://gaia.ecs.csus.edu/~pheedley/CPE151_docs/LEdit_docs.htm|Archive.org "California State University, College of Engineering & Computer Science, Perry L. Heedley: L Edit Docs"]] - "L Edit manual".
+  *[[http://www.itsayellow.com/vlsi/lvs.html|Matthew Clapp: "VLSI" / "LVS stuff" for AnaLog and LEdit / "Layout Verification with Schematic"]].
+  *[[http://engineering.dartmouth.edu/microeng/|Dartmouth College, Thayer School of Engineering, Microengineering Cleanroom Laboratory]].
+    *[[http://engineering.dartmouth.edu/microeng/ledit/ledit.html|Dartmouth College, Thayer School of Engineering, Microengineering Cleanroom Laboratory, Christopher G. Levey: "Layout Editor Documentation"]].
+  *[[https://louisville.edu/|University of Louisville]].
+    *[[http://web.archive.org/web/*/http://mitghmr.spd.louisville.edu/lutz/resources/ledit/|Archive.org "University of Louisville MicroTechnology, The Paul Lutz Microfabrication Center - L-Edit Tutorial"]].
+  *[[http://www.ee.olemiss.edu/undergrad/453.asp|University of Mississippi, School of Engineering, Richard K. Gordon: "EL E 453"]] -> You may take the course roadmap as blueprint for the proceeding how to get familiar with L-Edit to design frequency dividers.
+  *[[http://scholar.lib.vt.edu/theses/available/etd-05202005-165204/unrestricted/Thesis_Bemben.pdf|Virginia Polytechnic Institute and State University, Richard M. Bemben "Development of an Advanced Semiconductor Laboratory"]] - "In order for TDB files to be compatible with both the professional version and the student version of L-Edit, they must be developed in the student version. This is an important point because the student version is compatible with the professional version, but the professional version is not backward compatible with the student version".
+==== Some other free or affordable Tools for Electronics Design & FPGA Design ====
+  *[[http://www.esys-net.org/|Esys.Net]], [[http://esyssim.sourceforge.net/|SourceForge "Esys.Net"]], [[http://www.sourceforge.net/projects/esyssim/|SourceForge "Esys.Net"]] - "A new system-level modeling and simulation environment. It takes advantages of .NET capabilities such as introspection, multi lingual model definition,... It allows more easily the creation of external tools (ex: verification, debugger, ...)".
+  *[[http://www.amazon.de/exec/obidos/ASIN/0134903277/hemmerling-21|R. James Duckworth "Workview Office Student Edition: Schematic Entry and Digital Analysis"]] with floppy disk - "This edition combines realistic logic design exercises and computer-aided engineering software from Viewlogic Systems".
+    *The accompanying homepage [[http://www.prenhall.com/workview/|Prentice-Hall "Workview Office"]].
+    *[[http://en.wikipedia.org/wiki/Synopsys|EN.Wikipedia "Synopsys"]] - "1997: acquired Viewlogic Systems, Inc., USA".
+==== Some discontinued Tools for Electronics Design & FPGA Design ====
+  *The discontinued free Michigan Synthesis Tools for IC's ( MISTIC ).
+    *[[http://web.archive.org/web/*/http://www.eecs.umich.edu/mistic/|Achive.org "The MISTIC TCAD Home Page"]].
+    *[[http://web.archive.org/web/*/http://www.eecs.umich.edu/mistic/release.html|Achive.org "The MISTIC TCAD Home Page - MISTIC Release Information. TCAD Tools available via FTP"]] -> Archive.org did not archive any application downloads.
+  *The discontinued OpenSource "OCEAN" by [[http://www.tudelft.nl/|Delft University of Technology, Netherlands]]. There is no download offer anymore.
+    *[[http://cas.et.tudelft.nl/~simon/me/about_ocean.html|Delft University of Technology, Netherlands, Simon de Graaf "About OCEAN: the Sea-of-Gates Design System"]].
+===== OpenSource Hardware =====
+  *"Chipforge" - "A collection of fine Open Source Hardware Projects".
+    *[[http://www.chipforge.org/|Chipforge]].
+    *[[http://web.archive.org/web/*/http://www.chipforge.org/|Archive.org "Chipforge"]] ( - 2012-09-14 ).
+  *[[http://www.vlsitechnology.org/|Graham Petley "VLSI and ASIC Technology Standard Cell Library Design"]] - Free download of a VLSI library, in CIF and MicroWind format.
+===== Services =====
+  *[[http://www.asic-gmbh.de/|ASIC GmbH]].
+  *Multi-Project Wafer (MPW) Prototyping and Packaging
+    *[[http://www.europractice.stfc.ac.uk/|The EUROPRACTICE Software Service]].
+    *[[http://www.europractice.com/|EUROPRACTICE IC Service]].
+    *[[http://en.wikipedia.org/wiki/Multi-project_wafer_service|EN.Wikipedia "Multi-project wafer service"]].
+  *[[http://www.mosis.com/|The MOSIS Service]] - "MOSIS Integrated Circuit Fabrication Service", "microelectronics fabriaction. Production Solutions for IC Innovations".
+    *[[http://www.mosis.com/pages/design/flows/design-flow-scmos-tools|The MOSIS Service "Design Tools. SCMOS Design Flow"]] - "A variety of CAD tools are available to to create designs for processes that support SCMOS rules" -> Electric, LASI, Magic.
+    *[[http://web.archive.org/web/*/http://www.mosis.org/Technical/Designsupport/std-cell-library-scmos.html|Archive.org "MOSIS SCMOS Standard Cell Library"]] ( - 2007-04-18 ).
+    *[[http://web.archive.org/web/*/http://www.mosis.com/Technical/Designsupport/pad-library-scmos.html|Archive.org "MOSIS SCMOS Pad Library"]] ( - 2006-12-17 ).
+===== Literature =====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/019513186X/hemmerling-21|Sima Dimitrijev: "Understanding Semiconductor Devices/incl. CD-ROM"]], with simulation software, written for Matlab R14SP1.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/380231588X/hemmerling-21|Bernhard Hoppe: "Mikroelektronik, 2 Bde., Bd.2, Herstellprozesse für integrierte Schaltungen"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3540593578/hemmerling-21|Dietrich Widmann, Hermann Mader, Hans Friedrich: "Technologie hochintegrierter Schaltungen"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0321547748/hemmerling-21|Neil H. E. Weste, David Money Harris: "CMOS VLSI Design: A Circuits and Systems Perspective"]].
+    *The accompanying website [[http://www.cmosvlsi.com/|CMOS VLSI Design Web Supplements]], [[http://www3.hmc.edu/~harris/cmosvlsi/4e/|CMOS VLSI Design Web Supplements]].
+===== Education =====
+  *[[http://f1.hs-hannover.de/personen/lehrende/cordes-karl-hermann-prof-dr-ing-lb/|Prof. Dr.-Ing. Karl-Hermann Cordes, Hochschule Hannover]].
+  *[[http://www.physnet.uni-hamburg.de/iss/|International Summer School - Physics of Functional Micro- and Nanostructures]] in Hamburg, Germany ( 2010-09-13 - 2010-09-25 )
+    *[[http://www.physnet.uni-hamburg.de/iss/public_talks.html|International Summer School - Physics of Functional Micro- and Nanostructures "Public Talks"]], free for students.
+===== Resources =====
+==== EDA / VLSI Tools Resources ====
+  *[[http://www.gpleda.org/|gplEDA]] - "This website contains links to Electronic Design Automation (EDA) tools that are released under the GPL (either v2 or v3)".
+  *[[http://www.linuxeda.com/|LinuxEDA]] - "an advocacy site for Electronic Design Automation (EDA) software on Linux".
+  *[[http://www.cs.ccsu.edu/~neville/Courses/Spring01/CircuitResources/CircuitResourcesHome.html|Central Connecticut State University, Charles W. Neville "Digital Design Resources Page"]] - Download of some free EDA tools for Windows and Linux.
+  *[[http://www.opencollector.org/|Open Collector]] - "Open Collector carries listings and news for free EDA software and circuit designs. Open Collector supports [[http://www.gpleda.org/|gEDA]]".
+  *[[http://prashav.tripod.com/index-tech.htm|Tripod, Prashant "Links to VLSI information"]] - ""Links to Shareware VLSI CAD/CAE Software".
+  *[[ftp://sunsite.unc.edu/pub/Linux/apps/circuits/|Sunsite FTP: tools for electronic-circuit design]] ( FTP ).
+  *[[http://www-classes.usc.edu/engr/ee-s/477p/cad_tools.htm|University of Southern California "VLSI CAD Tools Available at USC as of Spring 1999"]].
+==== General EDA, FPGA and ASIC Resources ====
+  *[[http://www.compinfo-center.com/cad/cad.htm|CompInfo Directory "Computer Aided Design ( CAD )"]].
+  *[[http://www.deepchip.com/|It's yummy, buttery **DeepChip**]].
+  *[[http://www.edacafe.com/|EDACafé]] - "The Leading EDA Portal".
+  *[[http://www.fpgajournal.com/|Electronic Engineering Journal. PFGA and Programmable Logic Design]].
+  *[[http://www.4bearsonline.com/sumitg/cs/CadPages.shtml|Sumit Gupta's Neck of the Woods - Hardware-Software Co-design, Embedded Systems, High-Level Synthesis, ESL & CAD/EDA Web Pages]].
+  *[[http://vlsicad.eecs.umich.edu/BK/| MARCO GSRC Calibrating Achievable Design "VLSI CAD Bookshelf 2"]].
+  *[[http://www2.ece.ohio-state.edu/cadence/cdsTutorials.html|Ohio State University - Department of Electrical and Computer Engineering, Information Electronics Research Group "Cadence Tutorials and Such"]].
+  *[[http://www.ee.iitb.ac.in/~intel/vlsi.html|Agraharapu Sivasankar's VLSI Links]].
+  *[[http://www.soccentral.com/|SOCcentral]] - "Your 1st source for ASIC, FPGA, EDA and IP information".
+  *[[http://www.tutorial-reports.com/hardware/asic/|Tutorial-Reports.com "ASIC Design Tutorial"]].
+  *[[http://en.wikipedia.org/wiki/Calma|EN.Wikipedia "Calma"]], [[http://en.wikipedia.org/wiki/GDSII|EN.Wikipedia "GDSII"]], [[http://de.wikipedia.org/wiki/GDSII|DE.Wikipedia "GDSII"]].
+  *[[http://www.hs-esslingen.de/de/mitarbeiter/werner-zimmermann.html|Hochschule Esslingen - University of Applied Sciences, Werner Zimmermann]].
+    *[[http://www.it.fht-esslingen.de/~zimmerma/publications/chips.pdf|Werner Zimmermann, Gerald Kampe: Chips aus dem Computer]] ( PDF ).
+  *[[http://www.vhdl.org/|EDA Industry Working Groups. The Electronic Design Automation (EDA) and Electronic Computer-Aided Design (ECAD) one-stop resource on the WWW! ( vhdl.org )]].
+  *Jahagirdar V.S.
+    *[[http://www.angelfire.com/va/jahagirdar/|Angelfire, Jahagirdar V.S "The Slaughter House Of Failure Is Not My Destiny"]].
+    *[[http://www.angelfire.com/va/jahagirdar/bookmarks.html|Angelfire, Jahagirdar V.S - Bookmarks]].
+
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Business/Electronics_and_Electrical/|OpenDirectory "Top: Business: Electronics and Electrical"]].
+  *[[http://www.dmoz.org/Science/Technology/Electronics/|OpenDirectory "Top: Science: Technology: Electronics"]].
+  *[[http://www.dmoz.org/Science/Technology/Electronics/CAD/|OpenDirectory "Top: Science: Technology: Electronics: CAD"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wirtschaft/Elektrotechnik_und_Elektronik/|OpenDirectory "Top: World: Deutsch: Wirtschaft: Elektrotechnik und Elektronik"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wissenschaft/Ingenieurwissenschaften/Elektronik/|OpenDirectory "Top: World: Deutsch: Wissenschaft: Ingenieurwissenschaften: Elektronik"]].
+  *[[http://dir.yahoo.com/business_and_economy/business_to_business/computers/software/cad_cam/ic_design/|Yahoo! Directory "B2B: CAD/CAM Software: IC Design"]].
+  *[[http://dir.yahoo.com/business_and_economy/business_to_business/electronics/|Yahoo! Directory "Business and Economy: Business to Business: Electronics"]].
+  *[[http://dir.yahoo.com/science/computer_science/electronic_computer_aided_design__ecad_/|Yahoo! Directory "Science: Computer Science: Electronic Computer Aided Design (ECAD)"]].
+  *[[http://dir.yahoo.com/science/engineering/electrical_engineering/|Yahoo! Directory "Science: Engineering: Electrical Engineering"]].
+{{tag>electronics}}
+<footnote_navi_en>

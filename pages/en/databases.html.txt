@@ -1,0 +1,865 @@
+====== [hemmerling] Databases, Webserver, Webservices, SQL, XML ======
+Related pages:
+  *[[dbadmin.html|Database Managment Tools and Database Application Development Tools]].
+  *[[nosql.html|NoSQL Databases - Not Just SQL]].
+===== Organizations =====
+  *[[http://www.doag.org/|Deutsche ORACLE-Anwendergruppe e.V.]] ( DOAG ).
+    *[[http://www.xing.com/net/doag|XING "DOAG Deutsche Oracle Anwendergruppe e.V."]].
+    *[[http://www.xing.com/companies/DOAGDEUTSCHEORACLEANWENDERGRUPPEE.V.?keyword=DOAG Deutsche Oracle Anwendergruppe e.V.|XING Company "DOAG Deutsche Oracle Anwendergruppe e.V."]].
+    *[[http://www.linkedin.com/company/doag-e-v-german-oracle-user-group|LinkedIn "DOAG e.V. (German Oracle User Group)"]].
+  *[[http://www.dfpug.de/|deutschsprachige FoxPro User Group c/o ISYS GmbH]] ( dFPUG ).
+  *[[http://www.open-maxdb-group.org/|Open MaxDB Group (OMDG)]] - "Unabhängige Vereinigung von MaxDB-Anwendern und -Anwendungsentwicklern".
+  *[[http://www.sqlpass.org/|Professional Association for SQL Server ( PASS )]], [[http://www.sqlpass.de/|PASS Deutschland e.V.]] - "The Definitive German Community for SQL Server Professionals".
+    *[[http://twitter.com/sqlpass_de|Twitter "SQLPASS.DE"]], [[http://twitter.com/sqlpass|Twitter "PASS"]].
+    *The series of online conferences [[http://www.sqlpass.org/events/24hoursofpass.aspx|Professional Association for SQL Server "24 Hours of PASS"]] ( 24HOP ).
+      *[[http://www.sqlpass.org/24hours/2014/ba/|24 Hours of PASS: Business Analytics Edition 2014]], 2014-02-05.
+      *[[http://www.twitter.com/pass24hop|Twitter "24HOP"]].
+    *[[http://www.sqlsaturday.com/|SQL Saturday]].
+      *[[http://www.sqlpass.de/Events/SQLSaturday.aspx|Pass e.V. "SQLSaturday"]].
+      *[[http://www.sqlsaturday.com/230/|SQL Saturday #230]], 2013-07-13 in Köln, Germany.
+        *[[http://www.yumpu.com/en/document/view/17402577/sqlsaturday-230-rheinland|Yumpu "SQLSaturday #230 - Rheinland"]] - Official online conference document with agenda :-).
+      *[[http://www.sqlsaturday.com/313/|SQL Saturday #313]], 2014-06-28 in Köln, Germany.
+  *[[http://www.tpc.org/|Transaction Processing Performance Council]] ( TPC ) - "The TPC defines transaction processing and database benchmarks and delivers trusted results o the industry".
+===== Database Design Modeling Languages =====
+  -[[http://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model|EN.Wikipedia "Entity–relationship model"]], [[http://de.wikipedia.org/wiki/Entity-Relationship-Modell|DE.Wikipedia "Entity-Relationship-Modell"]].
+  -UML -> See [[uml.html|Unified Modeling Language ( UML ), Systems Modeling Language ( SysML )]].
+===== Free Databases, ETL Tools and Data Integration Tools =====
+==== BlackRay Data Engine ====
+  *[[http://blackray.sourceforge.net/|SourceForge "blackray"]], [[http://www.sourceforge.net/projects/blackray/|SourceForge "blackray"]].
+  *[[http://www.facebook.com/dataengine|Facebook "blackray"]].
+  *[[http://wayback.archive.org/web/*/http://www.blackray.org/|Archive.org "blackray.org"]].
+  *[[http://wayback.archive.org/web/*/http://www.softmethod.de/|Archive.org "SoftMethod GmbH"]].
+  *[[http://en.wikipedia.org/wiki/BlackRay|EN.Wikipedia "BlackRay"]] - "Open source main memory high-performance relational database management system developed by SoftMethod GmbH".
+==== Ingres, PostgreSQL / postgres ====
+=== The Tools ===
+  *The OpenSource SQL database [[http://www.ingres.com/|Ingres Corporation "Ingres"]].
+  *The OpenSource SQL database [[http://www.postgresql.org/|PostgreSQL]], [[http://www.enterprisedb.com/|EnterpriseDB - The Enterprise PostgreSQL Company]].
+  *Wiki [[http://wiki.postgresql.org/|PostgreSQL Wiki]].
+  *[[http://www.postgresql.org/docs/9.0/static/app-psql.html|PostgreSQL Documentation]].
+  *"postgresql-8.4.13-1-windows.exe" and "postgresql-9.0.8-1-windows.exe" are the latest editions for W2k ( Download: [[http://www.oldapps.com/postgresql.php|OldApps "PostgreSQL"]] ).
+  *The installation of "postgresql-9.0.8-1-windows.exe" on W2k causes a warning at the end of installation "A non-fatal error occured during cluster initalisation. Please check the installation log in C:\Temp for details".
+=== Tips&Tricks ===
+  *Configuration suggestions:
+    *Standard user: "postgres". The password may be set during installation.
+    *Standard SQL server port: "5432".
+    *For users in Germany:
+      *Select the locale to be used by the new database cluster. Local "English, United Kingdom". Do not set it to "[Default locale]".
+      *If you use a Windows computer with local Windows settings for Germany ( e.g. "," as decimal mark ),
+        *no matter if you use an English or German operating system,
+        *and if you set the database locale to "[Default locale"],
+        *You will get all database messages in German language :-(.
+    *[[http://www.php2all.de/thread-204-postgresql-standard-admin-account.html|php2all "postgreSQL // standard admin account"]].
+=== Resources ===
+  *Wiki [[http://wiki.postgresql.org/|PostgreSQL Wiki]].
+  *[[http://www.postgresql.de/|PostreSQL.de]].
+  *[[http://www.nsc.ru/win/docs/db/postgres/doc/howto/PostgreSQL-HOWTO.html|Al Dev (Alavoor Vasudevan) "Database-SQL-RDBMS HOW-TO document for Linux (PostgreSQL Object Relational Database System)"]].
+    *[[http://www.nsc.ru/win/docs/db/postgres/doc/howto/PostgreSQL-HOWTO-10.html|Al Dev (Alavoor Vasudevan) "Interface Drivers for PostgreSQL"]] -> ODBC, UDBC, JDBC.
+  *[[http://en.wikipedia.org/wiki/Ingres_%28database%29|EN.Wikipedia "Ingres (database)"]], [[http://de.wikipedia.org/wiki/Ingres|DE.Wikipedia "Ingres"]].
+  *[[http://en.wikipedia.org/wiki/PostgreSQL|EN.Wikipedia "PostgreSQL"]], [[http://de.wikipedia.org/wiki/PostgreSQL|DE.Wikipedia "PostgreSQL"]].
+==== Interbase / Firebird ====
+  *[[http://info.borland.com/devsupport/interbase/opensource/|Borland InterBase Open Source]].
+  *[[http://www.firebirdsql.org/|Firebird]].
+  *[[http://www.firebirdfaq.org/|The Firebird FAQ]].
+  *[[http://en.wikipedia.org/wiki/Firebird_%28database_server%29|EN.Wikipedia "Firebird (database server)"]], [[http://de.wikipedia.org/wiki/Firebird_%28Datenbank%29|DE.Wikipedia "Firebird (Datenbank)"]], [[http://en.wikipedia.org/wiki/InterBase|EN.Wikipedia "InterBase"]], [[http://de.wikipedia.org/wiki/InterBase|DE.Wikipedia "InterBase"]].
+==== Java Databases ====
+=== Apache Derby ( formerly: IBM Cloudscape ) ===
+  *[[http://db.apache.org/derby/|Apache Derby]] - "OpenSource relational database implemented entirely in Java".
+  *[[http://www.oracle.com/technetwork/java/javadb/|Oracle "Java DB"]].
+  *[[http://en.wikipedia.org/wiki/Apache_Derby|EN.Wikipedia "Apache Derby"]], [[http://de.wikipedia.org/wiki/Apache_Derby|DE.Wikipedia "Apache Derby"]].
+=== db40 ===
+  *[[http://www.db4o.com/|db4objects by Versant]].
+  *[[http://developer.db4o.com/|db4o Developer Community]] - "Developer Community db4o open source object database, native to Java and .NET".
+=== HyperSQL ( HSQLDB ) / HypersonicSQL ===
+  *The Supportware [[http://www.hsqldb.org/|HyperSQL]], [[http://hsqldb.sourceforge.net/|Sourceforge "HyperSQL Database Engine (HSQLDB)"]], [[http://www.sourceforge.net/projects/hsqldb/|Sourceforge "HyperSQL Database Engine (HSQLDB)"]] - "HSQLDB - 100% Java Database". "A file based SQL server that does not require any services to be installed".
+  *[[http://en.wikipedia.org/wiki/HSQLDB|EN.Wikipedia "HSQLDB"]], [[http://de.wikipedia.org/wiki/HSQLDB|DE.Wikipedia "HSQLDB"]].
+==== MaxDB / SAP DB ====
+  *Legacy website [[http://www.sapdb.org/|SAP DB - The FREE Enterprise Open Source Database]] ( - 2004-04-31 ).
+  *[[http://www.sdn.sap.com/irj/sdn/maxdb|SAP Community Network - "SAP MaxDB - The SAP Database System"]].
+  *[[http://maxdb.sap.com/|SAP® MaxDB – The SAP Database]].
+==== MySQL Family ====
+=== Oracle MySQL ===
+  *[[http://www.mysql.com/|MySQL]], [[http://www.mysql.de/|MySQL.de]].
+    *[[http://dev.mysql.com/doc/|MySQL Documentation: MySQL Reference Manuals]].
+    *[[http://www.mysql.com/products/connector/|MySQL Connectors]] - JDBC, ODBC, ADO.NET,...
+    *[[http://labs.mysql.com/|MySQL Labs]] - "MySQL HTTP Plugin",...
+    *Blogroll [[http://planet.mysql.com/|Planet MySQL]].
+    *[[http://mmmysql.sourceforge.net/|Sourceforge "MM.MySQL"]], [[http://www.sourceforge.net/projects/mmmysql/|Sourceforge "MM.MySQL"]], [[http://mmmysql.sourceforge.net/doc/mm.doc/book1.htm|Sourceforge "MM.MySQL" - Online Documentation]].
+  *[[http://en.wikipedia.org/wiki/InnoDB|EN.Wikipedia "InnoDB"]], [[http://de.wikipedia.org/wiki/InnoDB|DE.Wikipedia "InnoDB"]].
+  *[[http://en.wikipedia.org/wiki/InnoDB|EN.Wikipedia "MyISAM"]], [[http://de.wikipedia.org/wiki/InnoDB|DE.Wikipedia "MyISAM"]].
+=== MariaDB ===
+  *[[http://www.mariadb.org/|MariaDB.org]].
+  *[[http://www.skysql.com/|SkySQL, The MariaDB Company For Database Management]], [[https://www.mariadb.com/|MariaDB.com]].
+  *[[http://en.wikipedia.org/wiki/MariaDB|EN.Wikipedia "MariaDB"]], [[http://de.wikipedia.org/wiki/MariaDB|DE.Wikipedia "MariaDB"]].
+=== Resources ===
+  *The OpenSource backup software [[http://www.mysqldumper.de/|MySQLDumper]] for MySQL, written in PHP und Perl.
+=== Resources ===
+  *Standard SQL server port: “3306”
+  *[[http://www.artfulsoftware.com/|Peter Brawley and Arthur Fuller "Get It Done With MySQL 5&6"]].
+==== SQLite ====
+  *The OpenSource [[http://www.sqlite.org/|SQLite]].
+  *Features:
+    *"Embedded SQL database engine. Unlike most other SQL databases, SQLite does not have a separate server process. SQLite reads and writes directly to ordinary disk files" ( self-description ).
+    *"Allows to store all the data and design in a single file that can be easily e-mailed or published in the Internet; requires no maintenance and installation" ( Kexi ). 
+  *Wiki [[http://www.sqlite.org/cvstrac/wiki|SQLite CVSTrac Wiki"]].
+  *[[http://www.ch-werner.de/sqliteodbc/|Christian Werner "SQLite ODBC Driver"]].
+  *PHP:
+    *[[http://www.php.net/manual/en/ref.sqlite.php|PHP Manual ( PHP.net ) "SQLite Functions"]].
+    *The OpenSource [[http://code.jenseng.com/db/|Jon Jensen "SQLiteDB"]] - "A simple PHP class I've written for working with SQLite".
+  *Perl:
+    *[[http://search.cpan.org/~aff/Parse-Dia-SQL/|CPAN "Andreas Faafeng > Parse-Dia-SQL"]], [[http://www.github.com/aff/Parse-Dia-SQL|Github "aff / Parse-Dia-SQL"]] - "Convert Dia class diagrams into SQL", "Command-line interface to Parse::Dia::SQL".
+      *[[http://en.wikipedia.org/wiki/Dia_%28software%29|EN.Wikipedia "Dia (software)"]], [[http://de.wikipedia.org/wiki/Dia_%28Software%29|DE.Wikipedia "Dia (Software)"]].
+  *Python:
+    *[[http://openbook.galileocomputing.de/python/python_kapitel_19_003.htm|Peter Kaiser, Johannes Ernesti "Python. Das umfassende Handbuch - Aktuell zu Python 2.5", Chapter "19.3 Datenbanken, Subchapter "19.3.1 Pythons eingebaute Datenbank – sqlite3"]].
+    *[[http://www.blog.pythonlibrary.org/2012/07/18/python-a-simple-step-by-step-sqlite-tutorial/|Mouse vs. Python "Python: A Simple Step-by-Step SQLite Tutorial"]].
+    *[[http://docs.python.org/2/library/sqlite3.html|Python Documentation "11.13. sqlite3 — DB-API 2.0 interface for SQLite databases"]].
+    *[[http://www.zetcode.com/db/sqlitepythontutorial/|ZetCode "SQLite Python tutorial"]].
+===== NoSQL Databases =====
+  *See [[nosql.html|NoSQL Databases - Not Just SQL]].
+===== NoSQL Databases with SQL interface =====
+  *[[http://www.crate.io/|CRATE - Your Elastic Data Store]].
+    *"Crate.IO has built a new breed of database to serve today’s mammoth data needs. Based on the familiar SQL syntax, Crate combines high availability, resiliency, and scalability".
+    *"Why choose Crate Data? You can build similar solutions by combining a medley of technologies, like Mongo, Elasticsearch, Hadoop, CouchDB, Riak, Redis, MySQL, Postgres ect.".
+    *"Crate is a data store with the benefits of a NoSQL document with powerful search ( Elasticsearch as library included ), accessable using SQL.
+    *I met CRATE representative [[http://www.xing.com/profile/Stephanie_Hollenstein|XING "Stephanie Hollenstein"]] on the [[http://ep2014.europython.eu/|Europython 2014]] fair.
+===== Free and Commercial Databases =====
+==== IBM ====
+=== IBM DB2 ===
+  *[[http://www-01.ibm.com/software/data/db2/express/|IBM DB2 Express-C]] - "Free to develop, free to deploy, free to distribute".
+  *[[http://www-01.ibm.com/software/data/db2/linux-unix-windows/edition-express.html|DB2 Express Edition]] - "Easy to Use. Low Cost. Powerful".
+  *[[http://en.wikipedia.org/wiki/DB2|EN.Wikipedia "DB2"]] - "DB2 Express-C is also similar to the free versions of Oracle database and Microsoft SQL Server, except that DB2 Express-C has no limit on number of users or on database size".
+  *[[http://de.wikipedia.org/wiki/DB2|DE.Wikipedia "DB2"]]. 
+    *Limitations of IBM DB2 Express-C:
+      *"Benutzung von max. 2 Kernen einer CPU (bzw. 4 Kerne mit zusätzlichem Wartungsvertrag)".
+      *"Benutzung von max. 2 GB Hauptspeicher (bzw. 4 GB mit zusätzlichem Wartungsvertrag)".
+      *"Diese Version hat keine Einschränkungen hinsichtlich der Größe der Datenbank und der Anzahl der Benutzer, ohne zusätzlichen Wartungsvertrag gibt es jedoch keine Replikation, 24/7-Support und komfortable Updates".
+=== IBM Informix ===
+  *[[http://www-01.ibm.com/software/data/informix/|IBM Informix product family]].
+    *[[http://www.ibm.com/developerworks/data/library/techarticle/dm-0801doe/|IBM Developerworks "Compare the Informix Version 11 editions"]].
+    *[[http://www-01.ibm.com/software/data/informix/developer-edition/|IBM Informix Developer Edition]] - free for developers.
+    *The free database [[http://www-01.ibm.com/software/data/informix/innovator-c-edition/|IBM Informix Innovator-C Edition]] - "1 socket with no more than 4 cores and a total of 2GB of RAM operating from the same Install".
+    *The free database <del>IBM Informix Ultimate-C Editions for Macintosh and Windows</del>, 2010-05-26 - 2010-07-22.
+      *Due to the the introduction of the newly available commercial Informix Choice Edition for Macintosh and Windows, the free Informix Ultimate-C Editions for Macintosh and Windows have been withdrawn, 2010-07-22.
+      *I am still looking for a copy of this free "IBM Informix Ulitimate-C Edition" for Windows. Please [[imprint.html|contact me]] if you downloaded the free "IBM Informix Ultimate-C" edition for Windows in-time :-)!
+  *[[http://www.iiug.org/opensource/|International Informix Users Group "The Open-Source for Informix Project"]].
+  *[[http://en.wikipedia.org/wiki/Informix|EN.Wikipedia "Informix"]], [[http://de.wikipedia.org/wiki/Informix|DE.Wikipedia "Informix"]].
+  *[[http://www.informix-zone.com/vergessen-sie-mysql-informix-ist-jetzt-kostenlos|Informix Software. The Informix Zone "Vergessen Sie MySQL: Informix ist jetzt kostenlos !"]], 2010-05-26.
+  *[[http://www.planetids.com/content/informix-ultimate-c|planetIDS.com "Informix Ultimate-C"]], 2010-06-06.
+  *[[http://www.open-on-informix.org/|Open on Informix]], [[http://www.open-on-informix.net/|Open on Informix]], [[http://www.open-on-informix.com/|Open on Informix]] initiative by [[http://www.83degreessouth.com/|83 Degrees South]] / [[http://www.linkedin.com/company/200842|LinkedIn "83 Degrees South"]] / [[http://twitter.com/83degreessouth|Twitter "Fanuel Dewever@83degreessouth"]].
+    *[[http://www.linkedin.com/groups/Launch-Open-on-Informix-Free-25049.S.46026741|LinkedIn "Informix - IIUG supported user group", message "Launch of Open on Informix"]].
+    *As business gift on the CEBIT 2011, [[http://www.83degreessouth.com/|83 Degrees South]] granted me IBM field glasses :-).
+==== Microsoft SQL Server ====
+=== Resources ===
+  *[[http://en.wikipedia.org/wiki/Microsoft_SQL_Server|EN.Wikipedia "Microsoft SQL Server"]], [[http://de.wikipedia.org/wiki/Microsoft_SQL_Server|DE.Wikipedia "Microsoft SQL Server"]].
+  *[[http://www.microsoft.com/sql|Microsoft SLQ Server]].
+  *[[http://www.microsoft.com/express|Microsoft SLQ Server Express]].
+  *Microsoft SQL Server just run on "server" operating systems ( W2k-Server, Win2003-Server, Win2008-Server ). Just the SQL Server Express editions and the SQL Server developer edition available by the MSDN subscription run on W2k, WinXP-Pro, Vista-Business, Win7-Pro.
+  *Project Crescent.
+    *[[http://blogs.msdn.com/b/sqlrsteamblog/archive/2010/11/09/a-glimpse-at-project-crescent.aspx|SQL Server Reporting Services Team Blog, MSDN "A Glimpse at Project Crescent"]].
+  *SIEMENS WinCC is shipped with a "Standard Edition" of Microsoft SQL Server :-).
+  *[[http://msdn.microsoft.com/en-us/library/cc645993%28v=SQL.105%29.aspx|Microsoft Library "Features Supported by the Editions of SQL Server 2008 R2"]].
+  *[[http://www.microsoft.com/sqlserver/2008/en/us/editions.aspx|Microsoft Server 2008 "Editions"]].
+=== Microsoft SQL Server 2000 Desktop Engine (MSDE 2000) ===
+  *[[http://www.microsoft.com/downloads/de-de/details.aspx?FamilyID=413744D1-A0BC-479F-BAFA-E4B278EB9147|Microsoft SQL Server 2000 Desktop Engine (MSDE 2000) Version A]], for Win98, Win98SE, WinME, W2k, WinXP.
+=== Microsoft SQL Server 2005 ===
+  *Maximum database size: 4 GB.
+  *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=220549B5-0B07-4448-8848-DCC397514B41|Microsoft Download Center "Microsoft SQL Server 2005 Express Edition"]].
+  *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=3181842A-4090-4431-ACDD-9A1C832E65A6|Microsoft Download Center "Microsoft SQL Server 2005 Express Edition Service Pack 3"]].
+  *[[http://www.microsoft.com/downloads/de-de/details.aspx?FamilyID=b448b0d0-ee79-48f6-b50a-7c4f028c2e3d&DisplayLang=de|Microsoft Download Center "Microsoft SQL Server 2005 Express Edition with Advanced Services Service Pack 3"]].
+  *[[http://www.microsoft.com/downloads/en/details.aspx?familyid=C243A5AE-4BD1-4E3D-94B8-5A0F62BF7796|Microsoft Download Center "Microsoft SQL Server Management Studio Express"]] for SQL Server Express 2005 on Windows.
+  *[[http://www.microsoft.com/downloads/de-de/details.aspx?FamilyID=3C856B93-369F-4C6F-9357-C35384179543|Microsoft Download Center "Toolkit für Microsoft SQL Server 2005 Express Edition"]].
+    *"Business Intelligence Development Studio (BIDS) – Create and edit reports for SQL Server 2005 Reporting Services (SSRS). BIDS provides the ability to create and edit Reporting Services projects that are reporting on local relational data in local SQL Server Express databases".
+    *[[http://msdn.microsoft.com/en-us/library/ms365251%28v=sql.100%29.aspx|Microsoft Library "SQL Server Express Toolkit"]].
+  *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=5d76230d-580d-4874-8c7d-93491a29db15|Microsoft Download Center "Microsoft SQL Server Management Studio Express Service Pack 3"]].
+  *[[http://www.microsoft.com/downloads/en/details.aspx?familyid=50B97994-8453-4998-8226-FA42EC403D17|Microsoft Download Center "Feature Pack for Microsoft SQL Server 2005 - February 2007"]].
+  *[[http://www.microsoft.com/downloads/details.aspx?displaylang=de&FamilyID=ae7387c3-348c-4faa-8ae5-949fdfbe59c4|Microsoft Download Center "Microsoft SQL Server 2005 Service Pack 3"]].
+  *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyId=BE6A2C5D-00DF-4220-B133-29C1E0B6585F|Microsoft Download Center "SQL Server 2005 Books Online (November 2008)"]].
+  *[[http://www.microsoft.com/downloads/en/details.aspx?familyid=6C050FE3-C795-4B7D-B037-185D0506396C&displaylang=en|Microsoft Download Center "Microsoft Data Access Components (MDAC) 2.8"]].
+=== Microsoft SQL Server 2008 ===
+  *Maximum database size: 10 GB.
+  *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=58ce885d-508b-45c8-9fd3-118edd8e6fff|Microsoft Download Center "Microsoft® SQL Server 2008 Express"]].
+  *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=b5d1b8c3-fda5-4508-b0d0-1311d670e336|Microsoft Download Center "Microsoft SQL Server 2008 Express with Advanced Services"]].
+  *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=01AF61E6-2F63-4291-BCAD-FD500F6027FF|Microsoft Download Center "Microsoft SQL Server 2008 Express Edition Service Pack 1"]].
+  *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=40ACF55F-0715-4BB0-9735-D02FC2C8A7AF|Microsoft Download Center "Microsoft SQL Server 2008 SP2 Express Edition Service Pack 2"]].
+  *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=08E52AC2-1D62-45F6-9A4A-4B76A8564A2B|Microsoft Download Center "Microsoft SQL Server 2008 Management Studio Express"]].
+  *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=e1109aef-1aa2-408d-aa0f-9df094f993bf|Microsoft Download Center "Microsoft Visual Studio 2005 Service Pack 1 Update for Microsoft SQL Server 2008 Support"]].
+=== Microsoft SQL Server 2008 R2 RTM ===
+ *Maximum database size: 10 GB.
+    *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=8b3695d9-415e-41f0-a079-25ab0412424b|Microsoft Download Center "Microsoft SQL Server 2008 R2 RTM - Express"]].
+    *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=e08766ce-fc9d-448f-9e98-fe84ad61f135|Microsoft Download Center "Microsoft SQL Server2008 R2 RTM - Express with Advanced Services"]].
+    *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=967225eb-207b-4950-91df-eeb5f35a80ee|Microsoft Download Center "Microsoft SQL Server 2008 R2 RTM - Express with Management Tools"]].
+  *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=e1109aef-1aa2-408d-aa0f-9df094f993bf|Microsoft Download Center "Microsoft Visual Studio 2005 Service Pack 1 Update for Microsoft SQL Server 2008 Support"]].
+    *[[http://www.microsoft.com/express/Database/InstallOptions.aspx|Microsoft /Express Database, "SQL Server 2008 R2 Express - Installation Options"]] -> Download of "Management Tools".
+=== Microsoft SQL Server 2012 SP1 ===
+  *[[http://msdn.microsoft.com/en-us/evalcenter/hh230763|MSDN Evaluation Center "Download SQL Server 2012 Express with SP1"]].
+  *[[http://msdn.microsoft.com/en-us/library/cc645993.aspx|Microsoft Developer Network "Features Supported by the Editions of SQL Server 2012"]].
+=== Microsoft SQL Server 2014 ===
+  *[[http://www.microsoft.com/en-us/server-cloud/products/sql-server-editions/sql-server-express.aspx|Microsoft SQL Server Editions]].
+  *[[http://msdn.microsoft.com/en-us/evalcenter/dn434042.aspx|MSDN Evaluation Center "Download Microsoft SQL Server 2014 Express]].
+=== Integration Services / Data Transformation Services ===
+== The Service ==
+  *[[http://msdn.microsoft.com/en-us/ms141026.aspx|Microsoft MSDN "SQL Server Integration Services"]].
+  *[[http://msdn.microsoft.com/en-us/ms137916.aspx|Microsoft MSDN "Package Management (SSIS Service)"]].
+  *[[http://msdn.microsoft.com/en-us/hh758694.aspx|Microsoft MSDN "SSIS Package Format"]].
+  *[[http://msdn.microsoft.com/en-us/library/gg587140.aspx|Microsoft MSDN "[MS-DTSX]: Data Transformation Services Package XML File Format"]].
+  *Blog [[http://blogs.msdn.com/b/mattm/|Microsoft MSDN Blog "SSIS Blog. Helpful information and examples on how to use SQL Server Integration Services"]].
+    *[[http://blogs.msdn.com/b/mattm/archive/2011/08/10/package-format-changes-in-sql-server-denali.aspx|Microsoft MSDN Blog "SSIS Blog" - "Package Format Changes in SQL Server Denali"]], 2011-08-10.
+  *[[http://en.wikipedia.org/wiki/SQL_Server_Integration_Services|EN.Wikipedia "SQL Server Integration Services"]], [[http://de.wikipedia.org/wiki/SQL_Server_Integration_Services|DE.Wikipedia "SQL Server Integration Services"]].
+  *[[http://en.wikipedia.org/wiki/Data_Transformation_Services|EN.Wikipedia "Data Transformation Services"]], [[http://de.wikipedia.org/wiki/Data_Transformation_Services|DE.Wikipedia "Data Transformation Services"]].
+== Automatic Generation of SSIS Packages ==
+  *BimlScript.
+    *[[http://www.bimlscript.com/|BimlScript]].
+      *[[http://www.bimlscript.com/Develop/Resources|BimlScript "BimlScript Resources"]].
+      *[[http://www.bimlscript.com/Develop|BimlScript "Start Writing Biml Right Now!"]] for browsers with Sliverlight - Free online BimlScript editor, with syntax highlighting.
+    *[[http://www.varigence.com/|Varigence]].
+      *[[http://www.varigence.com/Products|Varigence "Products"]] - The commercial IDE "Mist" for SSIS und SSAS development.
+      *[[http://www.varigence.com/Mist|Varigence "Mist"]] ( for MSIE only :-( )
+      *[[http://www.varigence.com/Documentation/Language/Index|Varigence "Varigence Library "]] - "Biml Language" and "Biml API" documentation.
+    *Toolchain for use with free BimlScript tools.
+      *[[http://www.microsoft.com/sql|SQL Server 2014]].
+      *The free [[http://www.microsoft.com/de-de/download/details.aspx?id=42313|Microsoft Downloads "SQL Server Data Tools – Business Intelligence für Visual Studio 2013]].
+      *The OpenSource tool [[http://bidshelper.codeplex.com/|CodePlex "BIDShelper"]].
+      *The free [[http://www.visualstudio.com/en-us/products/visual-studio-express-vs.aspx|Microsoft Visual Studio "Visual Studio Express 2013 für Windows Desktop"]].
+      *A CVS system ( Subversion, Git,..).
+  *[[http://sqlsrvintegrationsrv.codeplex.com/releases/view/82369|CodePlex "Microsoft SQL Server Community Samples: Integration Services"]].
+    *The OpenSource tool [[http://sqlsrvintegrationsrv.codeplex.com/releases/view/82369|CodePlex "Microsoft SQL Server Community Samples: Integration Services" - "EzAPI - Package Generation API"]].
+      *In 2015, the latest edition with installer is for SQL Server 2008.
+      *Features:
+        *Creation SSIS packages of any complexity including both SSIS runtime and pipeline (tasks, containers and components).
+        *BIDS like behavior (automatic column mapping in destinations, automatic metadata refresh, default values of properties, etc).
+      *[[http://blogs.msdn.com/b/mattm/archive/2008/12/30/ezapi-alternative-package-creation-api.aspx|Microsoft MSDN Blog "SSID Blog" - "EzAPI – Alternative package creation API"]].
+  *[[http://pacman.codeplex.com/|CodePlex "SSIS Package Manager - PacMan"]].
+  *You might write your own stored-procedure code :-), running on SQL server.
+== Resources ==
+  *The motivation for "Integration Services" and SSIS: 
+    *Graphical design process "by mouseclick", to determine and to connect and configure data sources for data transfer to and from an Microsoft SQL Server.
+    *Internally, the Integration Services use components ( DLLs ) of Micosoft SQL Server, e.g. for lookup and fuzzy logic.
+    *The Integration Services generate SSIS packages, in XML-based DTSX format. SSIS packages and its XML code do not allow any flow control like for-loops and if-then-else like any programming language.
+    *Its easy to generate a handful of SSIS packages by the graphical design tools of IS :-), but a nightmare if you must generate 1000 packages. The approach for IS automation is to generate the XML code by third-party tools, by an own script language which supports usual programing language structures like for-loops and if-then-else.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1430237716/hemmerling-21|Tim Mitchell, Andy Leonard, Matt Masson, Jessica Moss, Michelle Ufford: "SQL Server 2012 Integration Services Design Patterns"]].
+  *[[http://www.sqlservercentral.com/stairway/100550/|Andy Leonard "Stairway to BIML"]].
+Foren: 
+  *[[http://www.snape.me/tag/ssis/|James Snape. Business Intelligence – Solution Architecture "SSIS"]].
+  *[[http://stackoverflow.com/questions/tagged/biml|StackOverflow "biml"]].
+  *[[http://paultebraak.wordpress.com/category/ssis/|Paul Te Braak - Business Intelligence Blog, "Category Archives: SSIS"]] - 25 posts about BIML.
+  *[[http://www.cathrinewilhelmsen.net/biml/|Catherine Wilhelmsen "Biml Resources and References"]].
+=== Additional Tools ===
+  *[[http://sqlserversamples.codeplex.com/|Codeplex - Open Source Community "Microsoft SQL Server Community Projects & Samples"]].
+  *The free [[http://www.microsoft.com/downloads/en/details.aspx?familyid=9a8b005b-84e4-4f24-8d65-cb53442d9e19&displaylang=en|Microsoft Download Center "SQLIO Disk Subsystem Benchmark Tool"]] for Windows - may be used to test SAN.
+==== Oracle Database ====
+=== The Tool ===
+  *[[http://www.oracle.com/us/products/database/|Oracle Database]].
+    *The free [[http://www.oracle.com/technetwork/database/database-technologies/express-edition/|Oracle Database 11g Express Edition]] for Windows x86 / x64, Linux x86 / x64. Though the Linux version is named "for Linux x64", its download filename is "oracle-xe-11.2.0-1.0.x86_64.rpm.zip".
+    *Once there was a free "Oracle Database 10g Express Edition" for Windows, Linux -> [[http://www.oracle.com/technetwork/database/enterprise-edition/downloads/index-092322.html|Oracle "Oracle Database Software Downloads"]] - "Previous Database Release Software. Oracle Database 10.2 and 11.1 are no longer available for download" ( 2014-12 ).
+    *[[http://www.oracle.com/technetwork/indexes/downloads/|Oracle - Downloads]].
+    *[[http://www.oracle.com/us/products/database/product-editions-066501.html|Oracle Database 11g Editions]].
+    *[[http://www.oraclesummerschool.com/|Oracle WCE Summer School]] - Free online on-demand webcasts ( 2010-07-07 - 2010-11-13 ).
+    *[[http://www.oracle.com/technetwork/tutorials/|Oracle "Oracle Learning Library"]] - "Oracle by Example (OBE)", "Tutorials".
+    *Table / column / index names.
+      *Oracle 11g and earlier: Table / column / index names are limited to 30 characters.
+      *Oracle 12c: Table / column / index names may be 32K characters long.
+  *Blog [[http://blogs.oracle.com/UPGRADE|Oracle, Mike Dietrich's Blog "Upgrade your Database - NOW! Ease your Oracle Database upgrades - Best Practices, Workshops, Projects"]].
+    *Slides "Upgrade, Migrate & Consolidate to Oracle Database 12c".
+  *I was told: Oracle 11.2.04 will be / is the latest and last database edition for Linux X86 ( = 32bit ) :-), there will be never a version 12.
+=== Oracle Application Express ( APEX ) ===
+== The Framework ==
+  *[[http://www.oracle.com/technetwork/developer-tools/apex/overview/index-155186.html|Oracle "Oracle Technology Network / Developer Tools / Application Express Overview"]].
+  *[[http://www.oracle.com/technetwork/developer-tools/apex/downloads/index.html|Oracle "Oracle Application Express 4.2
+Downloads"]].
+== Services ==
+  *[[http://apex.oracle.com/|Oracle Application Express]] ( APEX ) - "Oracle provides the [[http://apex.oracle.com/|apex.oracle.com]] service for demonstration purposes only. Storing of production or sensitive data is prohibited".
+=== Resources ===
+  *[[http://en.wikipedia.org/wiki/Oracle_Application_Express|EN.Wikipedia "Oracle Application Express"]].
+  *[[http://en.wikipedia.org/wiki/Oracle_Database|EN.Wikipedia "Oracle Database"]], [[http://de.wikipedia.org/wiki/Oracle_%28Datenbanksystem%29|DE.Wikipedia "Oracle (Datenbanksystem)"]].
+==== SAP Sybase ====
+=== Products ===
+  *The free "Sybase ASE Express Edition for Linux".
+    *[[http://infocenter.sybase.com/|Sybase "SyBooks Online"]].
+      *[[http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.dc30119_1500/html/installlnx/installlnx13.htm|SyBooks Online "Sybase Express Edition"]] - "You can configure up to 2GB of max memory. The total disk space is limited to 5GB".
+    *[[http://www.sybase.com/linux|Sybase on Linux]].
+      *[[http://response.sybase.com/forms/ASE_Linux_Download|Sybase "ASE Express Edition for Linux" download request formular]].
+  *The free [[http://www.sybase.com/ase_1500devel|Sybase "Adaptive Server Enterprise version 15.5 Developer's Edition"]] for Windows and Linux.
+    *[[http://response.sybase.com/forms/ASE_Developer_Edition_Download|Sybase "Adaptive Server Enterprise Developer Edition"]].
+  *The free databases "Sybase ASE 11.9.2" and "Sybase ASE 11.0.3" for Linux.
+    *[[http://www.sybase.com/detail?id=1011127|Sybase "Adaptive Server Enterprise for Linux 11.9.2 Download"]] -> No download anymore ( broken download links ).
+    *[[http://www.sybase.com/detail?id=1009516|Sybase "Adaptive Server Enterprise for Linux"]] -> Sybase ASE 11.0.3.3 for Linux. No download anymore ( broken download links ).
+  *[[http://www.sybase.com/detail?id=1068247|Sybase "SQL Anywhere Editions Overview: Mobile Enterprise, Database Management iAnywhere"]].
+=== Resources ===
+  *[[http://www.sybase.com/products/allproductsa-z/softwaredeveloperkit/jconnect|IBM Sybase "jConnect for JDBC"]].
+  *[[http://www.sypron.nl/|www.sypron.nl -  Sybase Tips & Tricks by Rob Verschoor]].
+    *[[http://www.sypron.nl/get_ase_soft.html|www.sypron.nl -  Sybase Tips & Tricks by Rob Verschoor "Where to get a free copy of Sybase ASE"]] - "The free versions of ASE 11.0.3 and 11.9.2 for Linux are no longer available from [[http://www.sybase.com/|www.sybase.com]]".
+  *[[http://sybase-addict.com/|Sybase ADDICT]].
+    *[[http://sybase-addict.com/downloads/|Sybase ADDICT - Sybase Downloads]].
+  *[[http://en.wikipedia.org/wiki/Adaptive_Server_Enterprise|EN.Wikipedia "Adaptive Server Enterprise"]].
+===== Free and commercial integrated Data Management Applications =====
+==== Free integrated Data Management Applications ====
+  *The commercial [[http://www.multisoft.de/|FlagShip]] - "A Multi-Platform Database Development and Porting System, available for Linux, MS-Windows", "A highly optimized 4GL language, syntactically compatible to other XBase dialects, like dBase, Clipper, Fox etc".
+    *The free "Free Personal FlagShip (release 4.48)" for Linux 2.4 kernel.
+      *[[http://www.fship.com/price.html|FlagShip Release 4.48 and Visual FlagShip 7.x]].
+      *[[http://www.fship.com/free_nossh.html|Free Personal FlagShip, Registration]].
+  *The OpenSource [[http://kexi-project.org/|Kexi - "'MS Access for Linux' ... and Windows"]] for Linux <del>and Windows</del>.
+    *Support for SQLite, MySQL, PostgreSQL.
+    *[[http://en.wikipedia.org/wiki/Kexi|EN.Wikipedia "Kexi"]], [[http://de.wikipedia.org/wiki/Kexi|DE.Wikipedia "Kexi"]].
+==== Commercial integrated Data Management Applications ====
+  *The commercial [[http://en.wikipedia.org/wiki/Microsoft_Access|EN.Wikipedia "Microsoft Access"]], [[http://de.wikipedia.org/wiki/Microsoft_Access|DE.Wikipedia "Microsoft Access"]].
+    *Runtimes for Access 2003 and earlier are commercial products ( the distributor must pay a royalty ). Since Access 2007, the runtime is either free for download ( Access 2007, 2010, 2013 ) or might be even shipped with the installation media.
+  *The commercial "Microsoft Visual Studio LightSwitch".
+    *[[http://en.wikipedia.org/wiki/Microsoft_Visual_Studio|EN.Wikipedia "Microsoft Visual Studio"]], [[http://de.wikipedia.org/wiki/Microsoft_Visual_Studio|DE.Wikipedia "Microsoft Visual Studio"]].
+
+===== Commercial Tools for Databases & Database Managment =====
+  *[[http://www.apexsql.com/|ApexSQL]].
+  *[[http://www.oracle.com/technetwork/middleware/data-integrator/|Oracle Data Integrator]] ( [[http://en.wikipedia.org/wiki/Sunopsis|EN.Wikipedia "Sunopsis"]] -> Sunopsis Data Conductor ).
+  *[[http://www.red-gate.com/|redgate]].
+  *[[http://www.microtool.de/|microTOOL GmbH]].
+    *[[http://www.microtool.de/case40/|microTOOL case/4/0]] - "A tool for software analysis and design, data modeling and data warehousing. It supports modeling the functions, data and behavior of an application system through the use of function structures, information flows, state diagrams, ER models, data structures, data elements, relational models, module structures and type structures".
+    *The free limited "case/4/0 Personal Edition".
+
+===== Database Query Languages, Database Frameworks and Database Interfaces =====
+==== .NET ====
+=== Database Access by .NET ===
+  *ADO.NET.
+  *DataReader, DataAdapter, (typisierte) DataSets.
+    *Data Access / Persistence Layer.
+  *Repository, Data Mapper, Active Record etc.
+    *ObjectSpaces, EntLib, Entity Fx, LINQ to SQL.
+  *Object-Relational Mapping ( ORM ).
+=== Object-Relational Mapping (ORM ) for .NET ===
+  *NHibernate.
+  *SubSonic.
+  *Castle.ActiveRecord.
+  *Telerik OpenAccess.
+  *LightSpeed.
+  *LINQ to SQL [.NET 3.5].
+  *ADO.NET Entity Framework [.NET 3.5 SP1].
+=== Micro ORMs ===
+  *Simple.Data by Mark Rendle (Windows Azure MVP).
+    *[[http://www.github.com/markrendle/Simple.Data|Github "markrendle / Simple.Data"]].
+  *Massive by Rob Conery (Microsoft, WekeRoad).
+    *[[http://www.github.com/robconery/massive|Github "robconery / massive"]].
+  *Dapper by Sam Saffron (StackOverflow).
+    *[[http://www.github.com/SamSaffron/dapper-dot-net|Github "SamSaffron / dapper-dot-net"]].
+    *[[http://code.google.com/p/dapper-dot-net/|Google Code "dapper-dot-net. Simple SQL object mapper for ADO.NET"]].
+  *PetaPoco by Top Ten Software.
+    *[[http://www.toptensoftware.com/|Top Ten Software]].
+      *[[http://www.toptensoftware.com/petapoco/|Top Ten Software "PetaPoco. A tiny ORM-ish thing for your POCOs"]].
+    *[[http://www.github.com/toptensoftware/PetaPoco|Github "toptensoftware / PetaPoco"]].
+    *[[http://www.nuget.org/packages/PetaPoco|NuGet Gallery "PetaPoco - A tiny ORMish thing for your POCOs"]].
+
+==== ADO.NET & ADO.NET Entity Framework (EF) ====
+  *[[http://en.wikipedia.org/wiki/ADO.NET|EN.Wikipedia "ADO.NET"]], [[http://de.wikipedia.org/wiki/ADO.NET|DE.Wikipedia "ADO.NET"]] - Not in focus of .NET developers, anymore.
+  *[[http://en.wikipedia.org/wiki/ADO.NET_Entity_Framework|EN.Wikipedia "ADO.NET Entity Framework"]] - The new standard for .NET developers, since 2010 / 2011.
+==== Hybernate ====
+  *[[http://www.hibernate.org/|JBoss Community - Hibernate]] - "Relational Persistence for Java and .NET".
+  *[[http://www.nhforge.org/|NHibernate Forge. The official new home for the NHibernate for .NET community]].
+  *Once NHybernate was the inofficial "standard" for .NET developers for some time. In 2010 / 2011, the focus of .NET developers was turned by Microsoft to its [[http://en.wikipedia.org/wiki/ADO.NET_Entity_Framework|ADO.NET Entity Framework]], which is now the new "standard".
+  *[[http://en.wikipedia.org/wiki/Hibernate_%28Java%29|EN.Wikipedia "Hibernate (Java)"]], [[http://de.wikipedia.org/wiki/Hibernate_%28Framework%29|DE.Wikipedia "Hibernate (Framework)"]].
+==== JDBC, JDO ====
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/Java_Database_Connectivity|EN.Wikipedia "Java Database Connectivity"]], [[http://de.wikipedia.org/wiki/Java_Database_Connectivity|DE.Wikipedia "Java Database Connectivity"]].
+    *[[http://en.wikipedia.org/wiki/JDBC_driver|EN.Wikipedia "JDBC driver"]].
+    *[[http://en.wikipedia.org/wiki/Java_Data_Objects|EN.Wikipedia "Java Data Objects"]], [[http://de.wikipedia.org/wiki/Java_Data_Objects|DE.Wikipedia "Java Data Objects"]].
+  *[[http://developers.sun.com/product/jdbc/drivers|Oracle, Sun Developer Network - Products and Technologies Technical Topics, JDBC(TM) Data Access API, Drivers]] - Resource for JDBC drivers #.
+  *[[http://wiki.oracle.com/page/JDBC|Oracle Wiki "JDBC"]].
+  *[[http://www.oracle.com/technetwork/java/javase/tech/index-jsp-136101.html|Oracle Technology Network "Java SE Technologies - Database"]] - JDO, JDBC.
+    *[[http://www.oracle.com/technetwork/java/jdo-137135.html|Oracle Technology Network "Java Data Objects (JDO)"]].
+  *JDBC + foreign keys.
+    *"Some JDBC drivers don´t provide foreign keys, as this is not a must-have feature for a JDBC driver".
+    *[[http://www.java-tips.org/other-api-tips/jdbc/how-to-create-a-table-with-foreignkeys-from-jdbc.html|Java Tips "How to create a table with ForeignKeys from JDBC"]].
+==== LINQ for .NET 3.5 & .NET 4.0 ====
+  *[[http://en.wikipedia.org/wiki/LINQ|EN.Wikipedia "LINQ"]], [[http://de.wikipedia.org/wiki/LINQ|DE.Wikipedia "LINQ"]].
+  *The free [[http://www.linqpad.net/|LINQPad]] for .NET 3.5 & .NET 4.0.
+==== Microsoft Power Query Formula ( 'M' Language ) ====
+=== Tools ===
+  *[[http://www.microsoft.com/en-us/download/details.aspx?id=13533|Microsoft Download Center 'Microsoft "Oslo' - May 2009 CTP"]].
+  *Microsoft Excel.
+    *"Power Query" - Data consolidation.
+    *"Power Pivot" ( [[http://en.wikipedia.org/wiki/PowerPivot|EN.Wikipedia "PowerPivot"]] ) -  Development of data models and calculations.
+    *Power View - Data visualisation of data analysis results.
+    *Power Map - Geo visusalisation. You may generate small 3D movie-alike applications for presentations.
+=== Resources for Tools which user the 'M' Language ===
+  *[[http://thatmsftbiguy.com/powerqueryexcel/|BI BLOG: thatMSFTBIGuy. Microsoft BI technologies simplified, from the consulting man cave "Using Power Query for Excel"]].
+  *[[http://office.microsoft.com/en-001/excel-help/power-query-101-HA103993784.aspx|Microsoft Office "Power Query 101 Importing data from web page"]].
+=== Resources for 'M' ===
+  *[[http://msdn.microsoft.com/en-us/library/dd285271.aspx|Microsoft MSDN "The Microsoft code name 'M' Modeling Language Specification - Introduction"]].
+  *[[http://www.zdnet.com/blog/microsoft/microsoft-oslo-modeling-platform-unravels-further-ms-future-remains-vague/7452|ZDNet "Microsoft Oslo modeling platform unravels further; M's future remains vague"]], 2010-09-22.
+  *[[http://en.wikipedia.org/wiki/Oslo_%28Microsoft%29|EN.Wikipedia "Oslo (Microsoft)"]].
+  *[[http://en.wikipedia.org/wiki/M_%28programming_language%29|EN.Wikipedia "M (programming language)"]].
+==== MultiDimensional eXpressions ( MDX ) & Data Analysis Expressions ( DAX ) ====
+=== The legacy MultiDimensional eXpressions ( MDX ) of SQL Server ===
+  *[[http://en.wikipedia.org/wiki/MultiDimensional_eXpressions|EN.Wikipedia "MultiDimensional eXpressions"]], [[http://de.wikipedia.org/wiki/Multidimensional_Expressions|DE.Wikipedia "Multidimensional Expressions"]].
+  *[[http://en.wikipedia.org/wiki/Microsoft_Analysis_Services|EN.Wikipedia "Microsoft Analysis Services"]].
+  *[[http://msdn.microsoft.com/en-us/library/ff487170.aspx|Microsoft MSDN Library "Data Analysis Expressions and MDX"]].
+=== The current Data Analysis Expressions ( DAX ) of SQL Server 2008 R2 ===
+  *Goal of DAX: Access to Business Intelligence for Excel users by a smart VBA-alike script language ( "DAY queries" ) :-).
+  *Blog [[http://cwebbbi.wordpress.com/|Chris Webb's BI Blog]].
+    *[[http://cwebbbi.wordpress.com/2011/07/13/dax-queries-part-1/|Chris Webb's BI Blog "DAX Queries, Part 1"]].
+    *[[http://cwebbbi.wordpress.com/2011/07/13/dax-queries-part-2/|Chris Webb's BI Blog "DAX Queries, Part 2"]].
+    *[[http://cwebbbi.wordpress.com/2011/07/13/dax-queries-part-3/|Chris Webb's BI Blog "DAX Queries, Part 3"]].
+    *[[http://cwebbbi.wordpress.com/2011/07/13/dax-queries-part-4/|Chris Webb's BI Blog "DAX Queries, Part 4"]].
+  *[[http://msdn.microsoft.com/en-us/library/hh212945.aspx|Microsoft MSDN "Tabular Modeling (SSAS Tabular)"]].
+  *[[http://en.wikipedia.org/wiki/Column-oriented_DBMS|EN.Wikipedia "Column-oriented DBMS"]], [[http://de.wikipedia.org/wiki/Spaltenorientierte_Datenbank|DE.Wikipedia "Spaltenorientierte Datenbank"]].
+==== ODBC ====
+  *Was considered to be outdated when ASP.NET appeared. In focus of the .NET developers, again, since 2008.
+  *[[http://en.wikipedia.org/wiki/Odbc|EN.Wikipedia "Open Database Connectivity"]], [[http://de.wikipedia.org/wiki/ODBC|DE.Wikipedia "Open Database Connectivity"]].
+  *[[http://wiki.oracle.com/page/ODBC|Oracle Wiki "ODBC"]] - "The ODBC Driver is also available as part of the [[http://www.oracle.com/technetwork/database/features/instant-client/|Oracle Instant Client]] installation".
+  *[[http://www.oracle.com/technetwork/database/features/instant-client/|Oracle Instant Client]] for Windows, Linux,..
+  *[[http://download.oracle.com/javase/1.3/docs/guide/jdbc/getstart/bridge.doc.html|JDBC-ODBC Bridge Driver]].
+  *[[http://www.oracle.com/technetwork/database/features/oci/|Oracle Technology Network - "Oracle Call Interface"]].
+  *[[http://msdn.microsoft.com/library/ms709326|Microsoft MSDN Library "ODBC Drivers"]].
+  *[[http://support.microsoft.com/kb/110093/|Microsoft Help and Support "ODBC--Open Database Connectivity Overview"]].
+==== Oracle Berkeley DB ====
+  *[[http://www.oracle.com/us/products/database/berkeley-db/|Oracle Berkeley DB]] - a computer software library that provides a high-performance embedded database for key/value data.
+  *[[http://en.wikipedia.org/wiki/Berkeley_DB|EN.Wikipedia "Berkeley DB"]], [[http://de.wikipedia.org/wiki/Berkeley_DB|DE.Wikipedia "Berkeley DB"]].
+==== PL/SQL ====
+  *[[http://www.martinbulinski.de/ORACLE/PLSQL-Tutorial/|Martin Bulinski "PL/SQL Tutorial"]].  
+  *[[http://www.morganslibrary.org/library.html|Morgans Oracle Library Site Map]].
+  *Oracle.
+    *[[http://docs.oracle.com/cd/B28359_01/server.111/b28286/toc.htm|Oracle Database SQL Language Reference]].
+      *[[http://docs.oracle.com/cd/B28359_01/appdev.111/b28370/toc.htm|Oracle® Database PL/SQL Language Reference]].
+    *[[http://www.oracle.com/technetwork/database/features/plsql/|Oracle Technology Network "PL/SQL"]].
+    *[[http://tahiti.oracle.com/|Oracle Tahiti]].
+    *[[http://www.oracle-base.com/articles/plsql/articles-plsql.php|ORACLE-BASE - Articles on Oracle PL/SQL]].
+  *[[http://www.orafaq.com/faq/plsql/|Oracle FAQs "PL/SQL"]].
+  *[[http://www.datenbank-plsql.de/|TAKTUM Informatik GmbH - "Oracle PL/SQL Tutorial: Oracle PL/SQL Tutorial - Die Programmiersprache von Oracle. Ein Nachschlagewerk auf Basis von Beispielen"]].
+  *[[http://en.wikipedia.org/wiki/PL/SQL|EN.Wikipedia "PL/SQL"]], [[http://de.wikipedia.org/wiki/PL/SQL|DE.Wikipedia "PL/SQL"]].
+==== SQL ====
+  *I was told by experts about SQL naming conventions:
+    -Oracle SQL Server: SQL commands and table names are not case sensitive. Internally, they are converted to uppercase, if they are not included in quotation marks.
+    -Postgres is also not case sensitive, but converts all SQL keywords to lowercase.
+    -Oracle MySQL Server is case sensitive or not, depending on th operating system, database engine and settings.
+  *[[http://en.wikipedia.org/wiki/SQL|EN.Wikipedia "SQL"]], [[http://de.wikipedia.org/wiki/SQL|DE.Wikipedia "SQL"]].
+  *[[http://www.salesforce.com/us/developer/docs/api/Content/sforce_api_calls_soql.htm|Salesforce.com Object Query Language (SOQL)]].
+==== Transact SQL ( TSQL ) ====
+  *[[http://en.wikipedia.org/wiki/Transact_SQL|EN.Wikipedia "Transact SQL"]], [[http://de.wikipedia.org/wiki/Transact_SQL|DE.Wikipedia "Transact SQL"]].
+==== XML, SQL and ODBC Support for C++ ====
+  *These frameworks offer propretary interfaces for ( ODBC ) database access:
+    *MFC by Microsoft.
+    *BDE, suppied with Borland C++ compilers.
+    *wxWidgets.
+  *[[http://otl.sourceforge.net/|SourceForge "Oracle, Odbc and DB2-CLI Template Library"]], [[http://www.sourceforge.net/projects/otl|SourceForge "Oracle, ODBC, DB2-CLI Template Library"]] ( OTL ).
+  *[[http://dtemplatelib.sourceforge.net/|SourceForge "Database Template Library Programmer's Guide"]], [[http://www.sourceforge.net/projects/dtemplatelib|SourceForge "Database Template Library Programmer's Guide"]] ( DTL ) - "The goal of this library is to make ODBC recordsets look just like an STL container".
+  *[[http://dbconnect.sourceforge.net/|SourceForge "DBConnect API"]], [[http://www.sourceforge.net/projects/dbconnect|SourceForge "DBConnect API"]].
+  *[[http://www.grinninglizard.com/tinyxml/|Lee Thomason "TinyXML"]], [[http://tinyxml.sourceforge.net/|SourceForge "TinyXML"]], [[http://www.sourceforge.net/projects/tinyxml|SourceForge "TinyXML"]].
+  *SQLite.
+===== Database Technologies =====
+==== Memory-mapped Files ====
+  *[[http://en.wikipedia.org/wiki/Memory-mapped_file|EN.Wikipedia "Memory-mapped file"]].
+    *Microsoft Office does not make use of the "memory-mapped file" technology.
+    *Windows Notepad makes use of the "memory-mapped file" technology.
+==== Microsoft SQL Server ====
+  *[[http://msdn.microsoft.com/en-us/library/ms141026.aspx|MSDN "SQL Server Integration Services"]].
+    *[[http://www.sqlis.de/|Willfried Färber "Microsoft SQL Server Integration Services"]].
+    *[[http://www.sql-ssis.de/|SQL-SSIS.de]] - "Deutschsprachiges Portal rund um das Thema Microsoft SQL Server Integration Services".
+  *[[http://msdn.microsoft.com/en-us/library/ms188748.aspx|MSDN "Checkpoint"]].
+  *[[http://msdn.microsoft.com/en-us/library/aa173929%28SQL.80%29.aspx|MSDN "SQL Server: Buffer Manager Object"]] -> Buffer Manager's system process "Lazy Writer".
+  *[[http://msdn.microsoft.com/en-us/library/ms178067.aspx|MSDN "Server Memory Server Configuration Options"]] - "Setting max server memory to the minimum value can severely reduce SQL Server performance and even prevent it from starting. If you cannot start SQL Server after changing this option, start it using the –f startup option and reset max server memory to its previous value".
+  *[[http://technet.microsoft.com/library/ee633763.aspx|Microsoft TechNet "Master Data Services"]].
+  *[[http://msdn.microsoft.com/en-us/library/ff877916%28v=SQL.110%29.aspx|MSDN "Data Quality Services"]].
+    *[[http://www.computerwoche.de/software/software-infrastruktur/1868766/|COMPUTERWOCHE "Microsoft kauft Zoomix für einen besseren SQL Server"]], 2008-07-15.
+    *[[http://it.toolbox.com/blogs/infosphere/microsoft-acquires-zoomix-a-data-quality-golden-goose-25986|Vincent McBurney, Toolbox.com "Microsoft Acquires Zoomix, a Data Quality Golden Goose"]], 2008-07-15.
+    *[[http://web.archive.org/web/*/http://www.zoomix.com|Archive.org "Zoomix"]].
+  *Blog [[http://blog.sqlauthority.com/|Blog SQLAuthority.com - SQL Server Journey with SQL Authority
+Personal Notes of Pinal Dave]].
+    *[[http://blog.sqlauthority.com/2009/07/15/sql-server-restore-sequence-and-understanding-norecovery-and-recovery/|SQLAuthority.com "SQL SERVER – Restore Sequence and Understanding NORECOVERY and RECOVERY"]], 2009-07-15.
+  *[[http://www.sqlpassion.at/archive/2014/02/18/improving-sql-server-performance-by-using-instant-file-initialization/|Blog "SQLpassion - We resolve SQL Server problems even before they occur!", Article "Improving SQL Server Performance by using Instant File Initialization"]] - "When you are creating a database file with 50 GB, SQL Server has to initialize in the first step that new block of data with 50 GB of zero values".
+  *SQL Replication.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1555582303/hemmerling-21|Microsoft SQL Server 2000 Replication]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1555582303/hemmerling-21|David Winters "SQL Server 2000 Replication Handbook"]].
+
+==== Stored Procedures ====
+  *[[http://en.wikipedia.org/wiki/Stored_procedure|EN.Wikipedia "Stored procedure"]], [[http://de.wikipedia.org/wiki/Gespeicherte_Prozedur|DE.Wikipedia "Gespeicherte Prozedur"]].
+===== Data Transfer Protocols, Webservices Protocols =====
+==== CORBA ====
+  *[[http://en.wikipedia.org/wiki/Common_Object_Request_Broker_Architecture|EN.Wikipedia "Common Object Request Broker Architecture"]], [[http://de.wikipedia.org/wiki/Common_Object_Request_Broker_Architecture|DE.Wikipedia "Common Object Request Broker Architecture"]].
+==== Database APIs, for Database Access by Web Browsers ====
+  *WebSQL -> Chrome, Safarai, Opera, Android Browser.
+    *[[http://en.wikipedia.org/wiki/Web_SQL_Database|EN.Wikipedia "Web SQL Database"]].
+  *Indexed Database API, Index DB ( formerly: WebSimpleDB ) -> Firefox, Chrome, MSIE.
+    *[[http://en.wikipedia.org/wiki/Indexed_Database_API|EN.Wikipedia "Indexed Database API"]].
+==== SOAP ====
+  *[[http://ws.apache.org/axis/|Apache Axis]] -  An implementation of SOAP ("Simple Object Access Protocol").
+  *[[http://en.wikipedia.org/wiki/SOAP|EN.Wikipedia "SOAP"]], [[http://de.wikipedia.org/wiki/SOAP|DE.Wikipedia "SOAP"]].
+===== Hierarchical Data Format ( HDF ) =====
+  *[[http://www.hdfgroup.org/|The HDF Group]].
+  *[[http://en.wikipedia.org/wiki/Hierarchical_Data_Format|EN.Wikipedia "Hierarchical Data Format"]], [[http://de.wikipedia.org/wiki/Hierarchical_Data_Format|DE.Wikipedia "Hierarchical Data Format"]].
+===== XML Documents =====
+==== Free XML Editors ====
+  *Microsoft
+    *The free [[http://www.microsoft.com/downloads/en/details.aspx?familyid=19676b18-1bcd-4852-93ba-0b5a203ea731&displaylang=en| Microsoft Download Center "Word 2003: XML Viewer"]] - to watch Word2003 XML documents on computers without Word2003.
+    *The free [[http://www.microsoft.com/downloads/en/details.aspx?familyid=72d6aa49-787d-4118-ba5f-4f30fe913628|Microsoft Download Center "XML Notepad 2007"]] ( = XML Notepad V2.5 ) for Windows with .NET 2.0.
+    *The free [[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=d23c1d2c-1571-4d61-bda8-adf9f6849df9|Microsoft Download Center "Internet Explorer Tools for Validating XML and Viewing XSLT Output "]] for Windows.
+  *The OpenSource [[http://notepad-plus-plus.org/|Notepad++]], [[http://notepad-plus.sourceforge.net/|Sourceforge "Notepad++"]], [[http://www.sourceforge.net/projects/notepad-plus|Sourceforge "Notepad++"]]  for Windows.
+    *[[http://npp-plugins.sourceforge.net/|SourceForge "Notepad++ Plugins"]], [[http://www.sourceforge.net/projects/npp-plugins/|SourceForge "Notepad++ Plugins"]] -> Notepad++ plugin "XML Tools" for Windows.
+  *The free [[http://www.iol.ie/~pxe/|Peter's XML Editor]], for Windows.
+  *The free [[http://www.xmlmind.com/xmleditor/|XMLmind XML Editor, Personal Edition]] for Windows.
+  *The commercial [[http://www.altova.com/|Altova XMLSpy]].
+    *Once there was a free "XMLSpy 2005 Home Edition" and "XMLSpy 2006 Home Edition". [[http://web.archive.org/web/*/http://www.altova.com/support_freexmlspyhome.asp|Archive.org "Altova - Get your FREE XMLSpy 2006 Home Edition License"]] ( - 2006-10-19 ).
+  *The XML editor "EditiX" by [[http://www.japisoft.com/|JAPISoft]], a Java 6 application for Win, Linux and MacOSX.
+    *The commercial [[http://www.editix.com/|JAPISoft "EditiX"]].
+    *The free JAPISoft "EditiX Lite".
+      *[[http://free.editix.com/|JAPISoft "EditiX Lite"]] - "This is a free Edition of EditiX XML Editor for non commercial usage" - Download of "EditiX Lite 2008 SP2" only :-(.
+      *[[http://free.editix.com/features/dtd_editor.html|JAPISoft EditiX "DTD Editor"]] - "EditiX is a powerful and easy to use DTD editor".
+      *The online manual [[http://free.editix.com/doc/manual7/|JAPISoft "EditiX XML Editor - Manual"]].
+      *[[http://free.editix.com/download/|JAPISoft - Download of "EditiX Lite"]] - Download of "EditiX Lite 2010", "EditiX Lite 2008 SP5".
+==== Simple API for XML ( SAX ) ====
+  *[[http://www.saxproject.org/|SAX]], [[http://www.megginson.com/downloads/SAX/|David Megginson "Simple API for XML"]].
+  *[[http://en.wikipedia.org/wiki/Simple_API_for_XML|EN.Wikipedia "Simple API for XML"]], [[http://de.wikipedia.org/wiki/Simple_API_for_XML|DE.Wikipedia "Simple API for XML"]].
+  *[[http://www.xml.com/pub/a/2001/12/05/sax2.html|O'Reilly xml.com - XML from the inside out "David Brownell: Top Ten SAX2 Tips"]].
+==== XML Parsers in Java ====
+  *[[http://en.wikipedia.org/wiki/Java_API_for_XML_Processing|EN.Wikipedia "Java API for XML Processing"]], [[http://de.wikipedia.org/wiki/Java_API_for_XML_Processing|DE.Wikipedia "Java API for XML Processing"]].
+  *[[http://glassfish.java.net/|java.net "GlassFish"]].
+      *[[http://jaxp.java.net/|java.net "GlassFish - Project JAXP"]] - "JAXP Reference Implementation".
+  *The OpenSource [[http://www.saxonica.com/|Saxonica: XSLT and XQuery Processing]], [[http://saxon.sourceforge.net/|SourceForge "SAXON - The XSLT and XQuery Processor"]], [[http://www.sourceforge.net/projects/saxon|SourceForge "Saxon XSLT and XQuery Processor"]] for Java and .NET.
+  *[[http://www.torsten-horn.de/techdocs/java-xml.htm|Torsten Horn "XML, JAXP, StAX, SAX, DOM und JDOM mit Java"]].
+  *[[http://www.totheriver.com/learn/xml/xmltutorial.html|totheriver "Introduction to XML and XML With Java"]].
+  *[[http://www.jcp.org/en/jsr/detail?id=63|The Java Community Process Program "JSR 63: JavaTM API for XML Processing 1.1"]].
+  *[[http://www.w3.org/TR/DOM-Level-2-Core/|W3C "Document Object Model (DOM) Level 2 Core Specification"]].
+  *[[http://www.ibm.com/developerworks/xml/library/x-xjavaforum4/index.html|Brett D. McLaughlin, IBM developerworks "XML and Java technology: Sun's Java and XML APIs: Helping or hurting?"]], 2007-07-10.
+  *[[http://xml.apache.org/xalan-j/trax.html|Apache XML "Using the JAXP Transform APIs"]].
+==== XML Parsers in C/C++ ====
+  *[[http://expat.sourceforge.net/|SourceForge "<eXpat> - The Expat XML Parser"]], [[http://www.sourceforge.net/projects/expat/|SourceForge "Expat XML Parser"]] - "XMLparser library".
+  *[[http://www.applied-mathematics.net/tools/xmlParser.html|Kranf site "Small, simple, cross-platform, free and fast  C++ XML Parser"]] - "XMLparser library".
+  *[[http://www.grinninglizard.com/tinyxml/|TinyXML]], [[http://tinyxml.sourceforge.net/|SourceForge "TinyXML"]], [[http://www.sourceforge.net/projects/tinyxml/|SourceForge "TinyXML"]].
+  *[[http://xerces.apache.org/|The Apache Xerces Project]].
+    *[[http://en.wikipedia.org/wiki/Xerces|EN.Wikipedia "Xerces"]].
+  *[[http://xml.apache.org/xalan-c/|The Apache XML Project - Xalan C++]] - "An XSLT processor for transforming XML documents into HTML, text, or other XML document types".
+    *[[http://en.wikipedia.org/wiki/Xalan|EN.Wikipedia "Xalan"]], [[http://de.wikipedia.org/wiki/Xalan|DE.Wikipedia "Xalan"]].
+==== XML Parsers for Python ====
+  *[[http://pyxml.sourceforge.net/|SourceForge "Python/XML"]], [[http://www.sourceforge.net/projects/pyxml/|SourceForge "Python/XML"]].
+==== XML Publishing Framework ====
+  *[[http://en.wikipedia.org/wiki/Apache_Cocoon|EN.Wikipedia "Apache Cocoon"]], [[http://de.wikipedia.org/wiki/Apache_Cocoon|DE.Wikipedia "Apache Cocoon"]].
+==== DocBook XML ====
+  *[[http://www.docbook.org/|DocBook.org]] - "DocBook is a schema (available in several languages including RELAX NG, SGML and XML DTDs, and W3C XML Schema) maintained by the DocBook Technical Committee of OASIS".
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0596805020/hemmerling-21|Norman Walsh, Richard L. Hamilton "DocBook 5: The Definitive Guide"]].
+    *The free legacy HTML online edition [[http://www.docbook.org/tdg/|DocBook: The Definitive Guide]].
+    *The free HTML online edition [[http://www.docbook.org/tdg5/|DocBook 5: The Definitive Guide]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0974152137/hemmerling-21|Bob Stayton "DocBook Xsl: The Complete Guide"]].
+  *[[http://en.wikipedia.org/wiki/DocBook|EN.Wikipedia "DocBook"]], [[http://de.wikipedia.org/wiki/DocBook|DE.Wikipedia "DocBook"]].
+
+==== Resources ====
+  *[[http://xml.apache.org/|Apache "XML at The Apache Foundation"]].
+  *[[http://www.ibm.com/developerworks/xml/library/x-ctlbx/|IBM developeworks "C/C++ developers: Fill your XML toolbox. Tools advice for C and C++ programmers ramping up on XML"]] #.
+  *[[http://www.lua.org/pil/29.2.html|Roberto Ierusalimschy "Programming in Lua", chapter "29.2 - An XML Parser"]].
+  *Microsoft.
+    *[[http://msdn.microsoft.com/data/bb190600(en-us).aspx|MSDN "Data Access and Storage > Lernen >  MSXML"]] / [[http://msdn.microsoft.com/de-de/data/bb190600.aspx|MSDN "Data Access and Storage > Lernen >  MSXML"]].
+    *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=3144b72b-b4f2-46da-b4b6-c5d7485f2b42&DisplayLang=en|Microsoft Download Center "MSXML 4.0 Service Pack 2 (Microsoft XML Core Services)"]].
+    *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=7f6c0cb4-7a5e-4790-a7cf-9e139e6819c0&displaylang=en|Microsoft Download Center "MSXML 4.0 Service Pack 3 (Microsoft XML Core Services)"]].
+    *[[http://www.microsoft.com/download/en/details.aspx?id=3988|Microsoft Download Center "Microsoft Core XML Services (MSXML) 6.0"]].
+    *Blog [[http://blogs.msdn.com/b/xmlteam/|Microsoft XML Team's WebLog]].
+  *[[http://www.xml.com/|O'Reilly xml.com]] #.
+  *[[http://www.quackit.com/xml/tutorial/xml_css.cfm|Quackit "XML with CSS"]].
+  *[[http://www.uzi-web.de/parser/parser_toc.htm|uzi-web.de "<  X  M  L  / >  Extensible Markup Language" - "XML Parser"]] - XML parser tutorial.
+  *[[http://www.w3schools.com/|w3schools - the world's largest web development site. educate yourself! beginners and experts]].
+    *[[http://www.w3schools.com/xsl/|w3schools - the world's largest web development site. educate yourself! beginners and experts "XSLT Tutorial"]].
+    *[[http://www.w3schools.com/xml/|w3schools - the world's largest web development site. educate yourself! beginners and experts "XML Tutorial"]].
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/Referential_integrity|EN.Wikipedia "Referential integrity"]], [[http://de.wikipedia.org/wiki/Referentielle_Integrit%C3%A4t|DE.Wikipedia "Referentielle Integrität"]].
+    *[[http://en.wikipedia.org/wiki/XML|EN.Wikipedia "XML"]], [[http://de.wikipedia.org/wiki/Extensible_Markup_Language|DE.Wikipedia "Extensible Markup Language"]].
+    *[[http://en.wikipedia.org/wiki/XPath|EN.Wikipedia "XPath"]], [[http://de.wikipedia.org/wiki/XPath|DE.Wikipedia "XPath"]].
+    *[[http://en.wikipedia.org/wiki/XSLT|EN.Wikipedia "XSLT"]], [[http://de.wikipedia.org/wiki/XSL_Transformation|DE.Wikipedia "XSL Transformation"]].
+    *[[http://en.wikipedia.org/wiki/XML_Schema_%28W3C%29|EN.Wikipedia "XML Schema (W3C)"]], [[http://de.wikipedia.org/wiki/XML_Schema|DE.Wikipedia "XML Schema"]].
+    *[[http://en.wikipedia.org/wiki/Document_Type_Definition|EN.Wikipedia "Document Type Definition"]], [[http://de.wikipedia.org/wiki/Dokumenttypdefinition|DE.Wikipedia "Dokumenttypdefinition]].
+    *[[http://en.wikipedia.org/wiki/XML_editor|EN.Wikipedia "XML editor"]], [[http://de.wikipedia.org/wiki/XML-Editor|DE.Wikipedia "XML-Editor"]].
+    *[[http://en.wikipedia.org/wiki/Comparison_of_XML_editors|EN.Wikipedia "Comparison of XML editors"]].
+    *[[http://xml.sys-con.com/|XML Journal]] by [[ http://www.sys-con.com/|SYS-CONn MEDIA]].
+===== The Course "Datenmanagement mit SQL" by openHPI - Hasso Plattner Institut =====  
+==== The Course ====
+  *[[http://openhpi.de/course/sql|openHPI - Hasso Plattner Institut "Datenmanagement mit SQL"]] ( 2013-04-08 - ).
+====  Lecturers & Staff ====
+  *Felix Naumann.
+    *[[http://felixnaumann.tumblr.com/|Felix Naumann]].
+    *[[http://www.hpi.uni-potsdam.de/naumann/people/felix_naumann.html|Uni Potsdam, Hasso-Plattner-Institut für Softwaresystemtechnik "Felix Naumann"]].
+  *Claudia Exeler.
+  *Maximilian Jenders.
+  *Thorsten Papenbrock.
+==== Videos ====
+  *[[http://player.vimeo.com/video/58970234|Vimeo "Datenmanagement mit SQL"]].
+==== Literature ====
+=== General Books ===
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3826694538/hemmerling-21|Gunter Saake, Kai-Uwe Sattler, Andreas Heuer "Datenbanken - Konzepte und Sprachen"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0131354280/hemmerling-21|Hector Garcia-Molina, Jeffrey D. Ullman, Jennifer Widom: "Database Systems: The Complete Book"]].
+    *[[http://infolab.stanford.edu/~ullman/dscb.html|The acompanying website "Hector Garcia-Molina, Jeffrey D. Ullman, Jennifer Widom: Database Systems: The Complete Book"]].
+    *[[http://www.prenhall.com/ullman|Pearson Education "Ullman"]] - Book resources.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3486598341/hemmerling-21|Alfons Kemper, André Eickler "Datenbanksysteme: Eine Einführung"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/386894012X/hemmerling-21|Ramez A. Elmasri und Shamkant B. Navathe "Grundlagen von Datenbanksystemen"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3486275747/hemmerling-21|Gottfried Vossen "Datenmodelle, Datenbanksprachen und Datenbankmanagementsysteme"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3827315069/hemmerling-21|Don Chamberlin "DB2 Universal Database. Der unentbehrliche Begleiter"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0072465638/hemmerling-21|Raghu Ramakrishnan and Johannes Gehrke "Database Management Systems"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0387355448/hemmerling-21|Ling Liu, Tamer Özsu "Encyclopedia of Database Systems"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1593271905/hemmerling-21|Mana Takahashi und Shoko Azuma "The Manga Guide to Databases"]] -> „Magical database fairy“.
+=== General Papers ===
+  *The free PDF [[http://dl.acm.org/citation.cfm?doid=358396.358400|ACM Digital Library, E.F. Codd „Relational database: a practical foundation for productivity“]] ( Communications of the ACM CACM Homepage archive. Volume 25 Issue 2, Feb 1982, Pages 109-117 ).
+  *The free PDF [[http://dl.acm.org/citation.cfm?id=984332|ACM Digital Library "ACM SIGMOD Record Volume 7 Issue 2, 1975"]]  -> "SPARC/DMBS Interim Report", a description of the ANSI/SPARC 3-tier architekture.
+  *The commercial PDF [[http://dl.acm.org/citation.cfm?id=1831417|ACM Digital Library, Martin Campbell-Kelly "Victorian Data Processing"]] ( Communications of the ACM CACM Homepage archive. Volume 53 Issue 10, October 2010, Pages 19-21 ).
+    *The downloadable PDF [[http://www.umsl.edu/~sauterv/analysis/p19-campbell-kelly.pdf|Martin Campbell-Kelly "Victorian Data Processing"]].
+  *The free PDF [[http://www.hpi.uni-potsdam.de/naumann/projekte/rdbms_genealogy.html|]Hasso Plattner Instititut "RDBMS Genealogy. The HPI Genealogy of Relational Database Management Systems"]].
+=== Papers about ER Modeling and relational Model ===
+  *[[http://www.csc.lsu.edu/~chen/pdf/erd-5-pages.pdf|Peter Chen "The Entity-Relationship Model – Toward a Unified View of Data"]] ( ACM Transactions on Database Systems 1(1) 1976 ).
+  *[[http://dl.acm.org/citation.cfm?id=362685|Edgar F. Codd "A Relational Model of Data for Large Shared Data Banks"]] ( Communications of the ACM (1970) ).
+=== Books about ER Modeling and relational Model ===
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/386894012X/hemmerling-21|Ramez A. Elmasri und Shamkant B. Navathe "Grundlagen von Datenbanksystemen"]] - With a special chapter about the "Enhanced ER Model" (EER), which is an extension of the ER model by different constructs like union and type inheritance. 
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0201612941/hemmerling-21|Chris J. Date "The Database Relational Model: A Retrospective Review and Analysis: A Retrospective Review and Analysis : a Historical Account and Assessment of E.F. ... to the Field of Database Technology"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0596157118/hemmerling-21|Toby Segaran, Jeff Hammerbacher "Beautiful Data - The Stories Behind Elegant Data Solutions"]].
+==== Databases & Tools ====
+  *[[http://www.apachefriends.org/de/xampp.html|Apache Friends "XAMPP"]] for Windows.
+  *[[http://www.mysql.com|MySQL]].
+  *[[http://www.toadworld.com/MYSQL/tabid/762/Default.aspx|Toad's World MySQL Community]].
+    *The free "Toad Data Modeler" for Windows.
+    *The free "Toad for MySQL" for Windows.
+  *[[http://dev.mysql.com/downloads/workbench/|MySQL Workbench, Community (OSS) Edition]] for WinXP and .NET 3.5.
+  *[[http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/junosr2|Eclipse IDE for Java Developers]].
+  *[[http://dev.mysql.com/downloads/connector/j/|MySQL "Connector/J"]].
+==== Resources ====
+  *[[http://www.datenbanken-verstehen.de/|Datenbanken, Data Warehouse & Business Intelligence verstehen!]]
+    *[[http://www.datenbanken-verstehen.de/lexikon/lexikon.php?a=A|Datenbanken, Data Warehouse & Business Intelligence verstehen! "Datenbank, Data Warehouse & BI Lexikon"]].
+  *[[http://www.itmc.tu-dortmund.de/dienste/netz-und-server-dienste/datenbanken/338.html|Technische Universität Dortmund "Datenbanken und SQL - Glossar"]].
+  *[[http://pic.dhe.ibm.com/infocenter/db2luw/v10r1/index.jsp?topic=%2Fcom.ibm.db2.luw.sql.ref.doc%2Fdoc%2Fr0000877.html|IBM "Database fundamentals > SQL > Queries - DB2 Version 10.1 for Linux, UNIX, and Windows"]] -> Table "In the following example, the values of tables R1 and R2 are shown on the left. The other headings listed show the values as a result of various set operations on R1 and R2".
+==== Additional SQL Resources ====
+  *[[http://www.artfulsoftware.com/|Artful Software Development - Peter Brawley and Arthur Fuller "Get It Done With MySQL 5&6"]].
+  *The free online HTML book [[http://openbook.galileocomputing.de/it_handbuch/kap_12_datenbanken_003.html|Sascha Kersken "IT-Handbuch für Fachinformatiker", chapter "12.3 SQL-Abfragen"]].
+  *[[http://sql.lernenhoch2.de/|Lernen^2 - SQL lernen]].
+    *[[http://sql.lernenhoch2.de/lernen/sql-tutorial-als-pdf/|Lernen^2 - SQL lernen "SQL Tutorial als PDF"]].
+  *[[http://blogs.msdn.com/b/microsoft_press/archive/2012/05/04/free-ebooks-great-content-from-microsoft-press-that-won-t-cost-you-a-penny.aspx|Microsoft Blog "Free ebooks: Great content from Microsoft Press that won’t cost you a penny"]].
+  *[[http://www.freebookcentre.net/Database/Free-Sql-Books-Download.html|Freebookcentre "Database Systems Books >
+Sql Books"]].
+  *[[http://www.tecchannel.de/news/themen/business/2039302/premium_ebooks_kostenlos_downloaden_so_geht_es/
+|TecChannel-Premium "Online-Ausgaben von Galileo Press in TecChannel-Premium. Kostenloses Online-eBook im Wert von 24,90 Euro - Einstieg in SQL]] - Free PDF book just for commercial subscribers of TechChannel-Premium.
+  *[[http://en.wikipedia.org/wiki/Comparison_of_relational_database_management_systems|EN.Wikipedia "Comparison of relational database management systems"]].
+
+===== The Course "Introduction to Databases" by Stanford University =====
+==== The original Course of 2013 ====
+  *[[http://class2go.stanford.edu/|Stanford University, Class2Go]], [[http://www.db-class.org/|db-class.org"]]. 
+    *[[http://db.class2go.stanford.edu/|Stanford University "Introduction to Databases"]] ( 2013-01-15 - 2013-03-24 ).
+    *[[http://infolab.stanford.edu/~widom/|Jennifer Widom]].
+      *[[http://www.sigmod.org/publications/sigmod-record/0609/p57-column-winslett.pdf| Marianne Winslett "Jennifer Widom Speaks Out on Luck, What Constitutes Success, When to Get Out of an Area, the Importance of Choosing the Right Husband, Outlandish Vacations, How Hard It Is to Be an Assistant Professor, and More"]] ( PDF ) :-).
+      *In the online course videos, Jennifer is using the commercial SQL query tool [[http://www.nucleonsoftware.com/Products/Database-Master|Nucleon Software "Database Master"]] :-).
+    *[[http://www.facebook.com/gschles|Facebook "Garrett Schlesinger"]].
+    *[[http://www.twitter.com/schlesingerg|Twitter "Garrett Schlesinger"]].
+    *[[http://www.reddit.com/r/dbclass2013/|reddit "dbclass2013"]], 2013.
+    *[[http://www.youtube.com/channel/UC5ZAemhQUQuNqW3c9Jkw8ug|YouTube Channel "Stanford Dbclass"]], 2013.
+==== The original Course of 2011 ====
+    *[[http://www.facebook.com/pages/Dbclass-Stanford-Engineering/255615787806880|Facebook "Dbclass (Stanford Engineering)"]], 2011.
+    *[[http://www.twitter.com/dbclass|Twitter "DB-Class"]], #dbclass, 2011.
+
+==== Literature ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/013600637X/hemmerling-21|Jeffrey D. Ullman, Jennifer Widom: "A First Course in Database Systems"]].
+    *[[http://infolab.stanford.edu/~ullman/fcdb.html|The acompanying website "Jeff Ullman, Jennifer Widom: First Course in Database Systems"]].
+    *[[http://www.prenhall.com/ullman|Pearson Education "Ullman"]] - Book resources.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0131354280/hemmerling-21|Hector Garcia-Molina, Jeffrey D. Ullman, Jennifer Widom: "Database Systems: The Complete Book"]].
+    *[[http://infolab.stanford.edu/~ullman/dscb.html|The acompanying website "Hector Garcia-Molina, Jeffrey D. Ullman, Jennifer Widom: Database Systems: The Complete Book"]].
+    *[[http://www.prenhall.com/ullman|Pearson Education "Ullman"]] - Book resources.
+  *[[http://www.gradiance.com/services|Gradiance]].
+    *"Gradiance provides self-study class services for the following books. Please use the class tokens indicated next to each book in order to access the self-study materials associated with that book".
+    *"Tokens for Self-study Classes" -> "A First Course in Database Systems by Ullman and Widom", self-study class token: GUW00001. 
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/007123151X/hemmerling-21|Raghu Ramakrishnan, Johannes Gehrke: "Database Management Systems"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0132144980/hemmerling-21|Ramez Elmasri, Shamkrant Navathe: "Fundamentals of Database Systems"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0071289593/hemmerling-21|Abraham Silberschatz, Henry F. Korth, S. Sudarshan: "Database System Concepts"]].
+==== Tools ====
+=== XML Validation ===
+  *The OpenSource [[http://xmlsoft.org/|The XML C parser and toolkit of Gnome. Validation & DTDs]].
+    *[[http://www.zlatkovic.com/libxml.en.html|Igor Zlatkovic "libxml"]] for Windows. On W2k, you need the Windows DLL "iconv.dll" additionally.
+  *The free online service [[http://validator.w3.org/|W3C Markup Validation Service. Check the markup (HTML, XHTML, …) of Web documents]] for DTDs.
+  *The free online service [[http://www.xmlforasp.net/SchemaValidator.aspx|XML for ASP.NET Schema Validator]] for XML Schema..
+=== XML Querying ===
+  *[[http://www.saxonica.com/|Saxon]], [[http://saxon.sourceforge.net/|SourceForge "Saxon"]], [[http://www.sourceforge.net/projects/saxon|SourceForge "Saxon"]] -"The XSLT and XQuery Processor".
+  *The user interface [[http://kernowforsaxon.sourceforge.net/|SourceForge "Kernow"]], [[http://www.sourceforge.net/projects/kernowforsaxon|SourceForge "Kernow"]] for Windows - "Makes it faster and easier to repeatedly run XSLT, XQuery and XML Schema".
+=== XML, JSON Tools ===
+  *The OpenSource [[http://jsonviewer.codeplex.com/|CodePlex "JSON Viewer"]] for Windows.
+  *The OpenSource Eclipse plugin [[http://eclipsejsonedit.sourceforge.net/|SourceForge "Eclipse Json Editor Plugin"]], [[http://www.sourceforge.net/projects/eclipsejsonedit/|SourceForge "Eclipse Json Editor Plugin"]].
+  *The OpenSource [[http://www.notepad-plus-plus.org/|Notepad++]] for Windows, with the xmltools and Jason plugins. 
+    *[[http://npp-plugins.sourceforge.net/|SourceForge "Notepad++ Plugins"]], [[http://www.sourceforge.net/projects/npp-plugins/|SourceForge "Notepad++ Plugins"]] -> Notepad++ plugin "XML Tools" for Windows.
+    *The OpenSource [[http://nppjsonviewer.sourceforge.net/|SourceForge "JSONViewer Notepad++ plugin"]], [[http://www.sourceforge.net/projects/nppjsonviewer/|SourceForge "JSONViewer Notepad++ plugin"]] -> Notepad++ plugin "JSON Viewer" for WinXP.
+      *"JSONViewer Notepad++ plugin" 1.5 is the latest edition for W2k.
+    *The free online service [[http://jsonformatter.curiousconcept.com/|JSON Formatter & Validator]].
+=== SQL ===
+  *[[http://www.sqlite.org/|SQLite]].
+    *Documentation:
+      *[[http://www.sqlite.org/sqlite.html|Command Line Shell For SQLite]].
+      *[[http://www.sqlite.org/lang_select.html|SQL As Understood By SQLite]] 1/2.
+      *[[http://www.sqlite.org/lang.html|SQL As Understood By SQLite]] 2/2.
+      *[[http://www.sqlite.org/lang_select.html|SQL As Understood By SQLite "SELECT"]].
+      *[[http://www.sqlite.org/faq.html|SQLite Frequently Asked Questions]].
+      *[[http://www.stackoverflow.com/questions/3620828/sqlite-select-where-empty|Stack Overflow "sqlite select where empty?"]].
+      *[[http://souptonuts.sourceforge.net/readme_sqlite_tutorial.html|SourceForge "Soup To Nuts - Repository of Open Source Articles and Example Code", Article "SQLite Tutorial"]].
+      *[[http://stackoverflow.com/questions/7456957/basic-recursive-query-on-sqlite3|Stack Overflow "basic recursive query on sqlite3?"]] - "SQLite doesn't support recursive CTEs (or CTEs at all for that matter), there is no WITH in SQLite" :-(.
+  *[[http://www.mysql.com/|MySQL]].
+    *[[http://dev.mysql.com/doc/refman/5.0/en/mysql-commands.html|mysql Commands]].
+    *[[http://stackoverflow.com/questions/8561654/how-to-work-with-recursive-query-in-mysql|Stack Overflow "how to work with recursive query in MySql?"]].
+      *"MySQL does not support recursive queries".
+      *"Functions and Procedures can be called recursively. If you need recursion wrap your logic in a stored procedure".
+      *"The WITH RECURSIVE statement/method is applicable in PostgreSQL and Sybase".
+      *[[http://www.artfulsoftware.com/mysqlbook/sampler/mysqled1ch20.html|Get It Done With MySQL 5&6 "Trees and Other Hierarchies in MySQL"]].
+    *The Donationware SQL online service [[http://www.sqlfiddle.com/|SQL Fiddle]] with DLL editor window and SQL query window, based on MySQL.
+  *[[http://www.postgresql.org/|PostgreSQL]], [[http://www.enterprisedb.com/|EnterpriseDB - The Enterprise PostgreSQL Company]].
+    *Wiki [[http://wiki.postgresql.org/|PostgreSQL Wiki]].
+    *[[http://www.postgresql.org/docs/9.0/static/app-psql.html|PostgreSQL Documentation]].
+      *[[http://www.postgresql.org/docs/devel/static/functions-json.html|PostgreSQL Documentation "9.15. JSON Functions and Operators"]] :-).
+=== Relational Algebra ===
+  *[[http://www.cs.duke.edu/~junyang/|Jun Yang]].
+    *[[http://www.cs.duke.edu/~junyang/ra/|RA: A Relational Algebra Interpreter]], [[http://github.com/junyang/RA|Github "junyang / RA"]], a Java application.
+  *[[http://cisnet.baruch.cuny.edu/holowczak/classes/3400/relationalalgebra/|Prof. Holowczak, Zicklin School of Business - Baruch College, City University of New York - Database Management Systems "Relational Algebra"]].
+
+^ Command ^ Description ^
+^ \help: | print this message. |
+^ \quit: | exit ra. |
+^ Ctrl-D | ::: |
+^ \list: | list all relations in the database. |
+^ \sqlexec_{STATEMENT}: | execute SQL in the database. |
+^ Relational algebra expressions: | |
+^ R: relation named by R | |
+^ \select_{COND} EXP: | selection over an expression. |
+^ \project_{ATTR_LIST} EXP: | projection of an expression. |
+^ EXP_1 \join EXP_2: |natural join between two expressions. |
+^ EXP_1 \join_{COND} |EXP_2: theta-join between two expressions. |
+^ EXP_1 \cross EXP_2: |cross-product between two expressions. |
+^ EXP_1 \union EXP_2: | union between two expressions. |
+^ EXP_1 \diff EXP_2: | difference between two expressions. |
+^ EXP_1 \intersect EXP_2: | intersection between two expressions. |
+^ \rename_{NEW_ATTR_NAME_LIST} EXP: | rename all attributes of an expression. |
+^ | |
+
+=== Relational Theory ===
+  *[[http://www.bkent.net/Doc/simple5.htm|William Kent "A Simple Guide to Five Normal Forms in Relational Database Theory"]].
+  *[[http://docs.google.com/document/d/1vSHihFKYYObEfVPZ1SnsAs0e0k0eO52gSbeHkWgOrh0/edit?pli=1#heading=h.rfd8x457u30t|Mike Blyth "Multivalued Dependencies and 4th Normal Form (4NF)"]].
+  *[[http://www.scribd.com/doc/23999223/Functional-Dependencies|Scribd, Michael Salazar "Functional Dependencies"]], 73 pages :-).
+  *[[http://www.cs.rochester.edu/courses/296/spring2012/lectures/dbsys-08-mvds.pdf|University of Rochester "Multivalued Dependencies
+Fourth Normal Form. Reasoning About FD’s + MVD’s"]] ( PDF ).
+==== Resources ====
+  *Code Project.
+    *[[http://www.codeproject.com/Articles/102805/SQL-Joins|Code Project "SQL Joins"]].
+    *[[http://www.codeproject.com/Articles/485777/SQL-Joins|Code Project "SQL Joins"]].
+    *[[http://www.codeproject.com/Articles/33052/Visual-Representation-of-SQL-Joins|Code Project "Visual Representation of SQL Joins"]].
+  *[[http://www.codinghorror.com/blog/2007/10/a-visual-explanation-of-sql-joins.html|Coding Horror "A Visual Explanation of SQL Joins"]].
+  *[[http://www.torsten-horn.de/techdocs/sql-examples.htm|Torsten Horn "Einfache Beispiele für SQL-Kommandos"]] - "'COUNT(*)' zählt die Zahl der Zeilen, die die Bedingung erfüllen".
+  *[[http://www.1keydata.com/de/sql/|IKeyData SQL-Tutorial]].
+    *[[http://www.1keydata.com/de/sql/sql-intersect.php|IKeyData SQL-Tutorial "SQL INTERSECT"]].
+  *[[http://msdn.microsoft.com/en-us/library/ms175464%28v=sql.105%29.aspx|Microsoft MSDN "FOREIGN KEY Constraints"]].
+  *[[http://www.office-loesung.de/ftopic12753_0_0_asc.php|Office Forum ( office-loesung.de ) "SQL Unterabfragen Not In, Not Exists"]].
+  *[[http://www.sql-und-xml.de/sql-tutorial/tabellen-verknuepfen-mit-join.html|SQL-und-XML "JOIN - Normalisierte Tabellen für eine Abfrage wieder zusammenfassen"]].
+  *[[http://stackoverflow.com/questions/7828160/dtd-when-element-order-does-not-matter|Stack Overflow "DTD when element order does not matter"]].
+  *[[http://stackoverflow.com/questions/325085/when-to-prefer-json-over-xml|Stack Overflow "When to prefer JSON over XML?"]].
+  *[[http://www.techonthenet.com/sql/having.php|TECH on the Net "SQL: HAVING Clause"]].
+  *[[http://www.w3.org/TR/xslt|W3C "XSL Transformations (XSLT)"]].
+  *[[http://www.w3resource.com/|w3resource - Web development tutorials]].
+  *[[http://www.w3schools.com/sql/sql_union.asp|W3Schools "SQL UNION Operator"]].
+  *[[http://www.w3schools.com/xpath/|W3Schools "XPath Tutorial"]].
+  *[[http://www.w3schools.com/xquery/|W3Schools "XQuery Tutorial"]].
+  *[[http://en.wikipedia.org/wiki/Document_Type_Definition|EN.Wikipedia "Document Type Definition"]], [[http://de.wikipedia.org/wiki/Dokumenttypdefinition|DE.Wikipedia "Dokumenttypdefinition"]].
+  *[[http://en.wikipedia.org/wiki/Isolation_%28database_systems%29|EN.Wikipedia "Isolation (database systems)"]], [[http://de.wikipedia.org/wiki/Isolation_%28Datenbank%29|DE.Wikipedia "Isolation (Datenbank)"]] - "Read Uncommitted", "Read Committed", "Serializable".
+  *[[http://en.wikipedia.org/wiki/JSON|EN.Wikipedia "JSON"]], [[http://de.wikipedia.org/wiki/JavaScript_Object_Notation|DE.Wikipedia "JavaScript Object Notation"]].
+===== Using XPATH with Selenium 2 WebDriver =====
+==== Tools for Firefox ====
+  *The Firefox add-on [[http://addons.mozilla.org/en-US/firefox/addon/xpath-checker/?id=1095|Mozilla Add-ons for Firefox "Brian Slesinsky: XPath Checker 0.4.4. An interactive editor for XPath expressions"]].
+  *[[http://addons.mozilla.org/en-US/firefox/addon/firebug/|Mozilla Add-ons for Firefox "Joe Hewitt, Jan Odvarko, robcee, FirebugWorkingGroup: Firebug"]] - "integrates with Firefox to put a wealth of development tools at your fingertips while you browse. You can edit, debug, and monitor CSS, HTML, and JavaScript live in any web page...".
+==== Tools for Google Chrome ====
+  *[[http://chrome.google.com/webstore/detail/xpath-helper/hgimnogjllphhhkhlmebbmlgjoejdpjl|Google Chrome Web Store "Adam Sadovsky: XPath Helper"]].
+==== Resources ====
+  *[[http://www.w3schools.com/xpath/|W3Schools "XPath Tutorial"]].
+  *[[http://www.w3.org/TR/xpath/|W3C "XML Path Language (XPath)"]].
+  *[[http://en.wikipedia.org/wiki/XPath|EN.Wikipedia "XPath"]], [[http://de.wikipedia.org/wiki/XPath|DE.Wikipedia "XPath"]].
+  *[[http://www.zvon.org/comp/r/tut-XPath_1.html|ZVON.org - the information plunger "XPath 1.0 Tutorial"]].
+===== Literature =====
+==== Books about SQL ====
+  *Joe Celko.
+    *[[http://www.texasenterprise.utexas.edu/profile/joe-celko|Texas Enterprise "Joe Celko"]].
+    *[[http://www.simple-talk.com/author/joe-celko/|simple-talk. Data, Dev, Admin, Chop Suey "Joe Celko"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0123820227/hemmerling-21|Joe Celko: "Joe Celko's SQL for Smarties: Advanced SQL Programming (The Morgan Kaufmann Series in Data Management Systems)"]], 2012.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0123741378/hemmerling-21|Joe Celko: "Joe Celko's Thinking in Sets: Auxiliary, Temporal, and Virtual Tables in SQL (Morgan Kaufmann Series in Data Management Systems)"]], 2008.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0120887975/hemmerling-21|Joe Celko: "Joe Celko's SQL Programming Style"]], 2005.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1874416508/hemmerling-21|Joe Celko: "Instant SQL programming"]], 1995.
+    *[[http://en.wikipedia.org/wiki/Joe_Celko|EN.Wikipedia "Joe Celko"]], [[http://de.wikipedia.org/wiki/Joe_Celko|DE.Wikipedia "Joe Celko"]].
+==== Paper Magazines ====
+  *[[http://www.databasepro.de/|database pro]], Germany.
+  *[[http://www.sqlmag.com/|SQL Server Magazine]].
+===== Resources =====
+  *"%" is the "*"wildcard character of SQL, while "_" the "?" single wildcard of SQL :-).
+  *[[http://www.devshed.com/|Dev Shed]].
+    *[[http://www.devshed.com/c/b/MySQL/|Dev Shed "MySQL Tutorials"]].
+    *[[http://www.devshed.com/c/b/Oracle/|Dev Shed "Oracle Tutorials"]].
+  *[[http://www.tinohempel.de/|Timo Hempel]].
+    *[[http://www.tinohempel.de/info/info/datenbank/normalisierung.htm|Timo Hempel "Normalisierung von Datenbanken"]] #.
+  *The online tutorial [[http://cisnet.baruch.cuny.edu/holowczak/classes/2200/access/accessall.html|Richard Holowczak "Microsoft Access Tutorial"]].
+  *[[http://www.linkedin.com/groups/Informix-IIUG-supported-user-group-25049|LinkedIn "Informix - IIUG supported user group"]].
+  *[[http://www.1keydata.com/de/sql/|IKeyData SQL-Tutorial]].
+  *Sean McCown, Jennifer McCown.
+    *Blog [[http://www.infoworld.com/blogs/sean-mccown|InfoWorld "Sean McCown's blog - Database Underground"]].
+    *[[http://midnightdba.itbookworm.com|MidnightDBA]].
+    *[[http://www.itbookworm.com|ITBookworm]].
+  *Blog [[http://www.bradmcgehee.com/|Brad M. McGehee, Director of DBA Education, Red Gate Software "SQL Aloha"]].
+  *[[http://nosql-database.org/|NOSQL Databases]] - "Your Ultimate Guide to the Non - Relational Universe".
+  *[[http://www.oraclesummerschool.com/|Oracle Summerschool]].
+  *[[http://www.orafaq.com/|The Oracle FAQ]] - "This is NOT an official Oracle Support site, but rather a get-together of people with jobs in Oracle".
+  *Pointbase ( [[http://de.wikipedia.org/wiki/PointBase_Micro|DE.Wikipedia "PointBase Micro"]], [[http://en.wikipedia.org/wiki/DataMirror|EN.Wikipedia "DataMirror"]], [[http://www-947.ibm.com/support/entry/portal/Overview/Software/Information_Management/PointBase_Embedded|IBM Support Portal - PointBase Embedded]] ).
+    *A limited edition of "Pointbase" is shipped with the legacy "Forte 4.1" ( [[http://en.wikipedia.or/wiki/Sun_Studio_%28software%29|EN.Wikipedia "Sun Studio (software)"]] ).
+  *[[http://www.ayende.com/blog/1340/25-reasons-not-to-write-your-own-object-relational-mapper|Ayende Rahien "25 Reasons Not To Write Your Own Object Relational Mapper"]] #.
+  *[[http://www.sas.com/|SAS]].
+    *[[http://www.sas.com/offices/europe/germany/services/academic/|SAS Academic Club]].
+    *[[http://www.sas.com/offices/europe/germany/events/webseminare.html|SAS "Aufgezeichnete Web-Seminare"]].
+    *[[http://www.bettermanagement.com/seminars/|Better Management "Webcast Overview"]].
+  *[[http://searchsqlserver.techtarget.com/|SearchSQLServer]] - "Covering today's SQL Server topics".
+  *[[http://www.searchstorage.de/index.cfm?pid=4218&pk=16153|SearchStorage-de]].
+    *The free PDF book [[http://www.searchstorage.de/index.cfm?pid=4218&pk=16153|SearchStorage.de "Data De-duplication für Dummies"]].
+  *[[http://blogs.sitepoint.com/2010/11/19/mysql-mistakes-php-developers/|SitePoint "Top 10 MySQL Mistakes Made By PHP Developers"]].
+  *[[http://www.sqlblog.com/|SQLblog.com]] - "THE SQL Server Blog Spot on the Web".
+  *Blog [[http://www.sqlfool.com/|SQL Fool]].
+  *Blog [[http://thomaslarock.com/|SQL Rockstar]] / [[http://sqlbatman.com/|SQL Batman]].
+  *[[http://www.sqldocu.com/|SQLDocu - Documentation of SQL]] - SQL tutorial in German language.
+  *[[http://www.sql-und-xml.de/|SQL-und-XML]].
+  *Blog [[http://sqlvirtual.com/|SQL Server Virtualization]] - "Welcome to the PASS Virtualization Virtual Chapter".
+  *[[http://www.sqlserverpedia.com/|SQLServerPedia]].
+  *[[http://www.tizag.com/sqlTutorial/|Erack Network - Tizag Tutorials "SQL Tutorial"]].
+  *[[http://www.w3schools.com/sql/|W3Schools "SQL Tutorial"]].
+  *[[http://www.w3resource.com/|w3resource - Web development tutorials]].
+  *[[http://forums.whirlpool.net.au/archive/523219|Whirlpool Forums, Thread "sql list all tables"]] -> Code for MySQL, Oracle, Postgres, MSSQL, DB2.
+  *[[http://en.wikipedia.org/wiki/Multiversion_concurrency_control|EN.Wikipedia "Multiversion concurrency control"]], [[http://de.wikipedia.org/wiki/Multiversion_Concurrency_Control|DE.Wikipedia "Multiversion Concurrency Control"]] ( MVCC ).
+    *[[http://wiki.postgresql.org/wiki/MVCC|PostgreSQL Wiki "MVCC"]].
+  *[[http://en.wikipedia.org/wiki/ACID|EN.Wikipedia "ACID"]], [[http://de.wikipedia.org/wiki/ACID|DE.Wikipedia "ACID"]] ( (Atomicity, Consistency, Isolation, Durability ).
+  *[[http://en.wikipedia.org/wiki/Data_stream_management_system|EN.Wikipedia "Data stream management system"]], [[http://de.wikipedia.org/wiki/Data_Stream_Management_System|DE.Wikipedia "Data Stream Management System"]].
+
+===== Communities, Forums, Newsgroups =====
+  *[[http://www.dbmonster.com/|DBMonster (Advenet LLC)]] - "An online community for database developers and administrators".
+  *[[http://www.dbtools.com.br/EN/forums/|dbTools Software Forum]].
+  *[[http://developer.db4o.com/Forums.aspx|db4o Developer Community - Forums]].
+  *[[http://forums.enterprisedb.com/forums/list.page|EnterpriseDB - The Enterprise PostgreSQL Company "Postgres Plus Forums: The PostgreSQL Open Source Database from EnterpriseDB"]].
+  *[[http://www.facebook.com/groups/20442293292/|Facebook "Professional Association for SQL Server (PASS)"]].
+  *Google.
+    *[[http://groups.google.com/groups/dir?sel=usenet%3Dcomp.databases|Google Groups "comp.databases.*"]].
+    *[[http://groups.google.com/groups/dir?sel=usenet%3Dsybase.public.ase|Google Groups "sybase.public.ase.*"]], [[http://groups.google.com/group/sybase.public.ase.linux/|Google Groups "sybase.public.ase.linux"]].
+  *[[http://www.informix-zone.com/|Informix Software. The Informix Zone]].
+  *[[http://www.javaranch.com/|Java Ranch - a friendly place for Java greenhorns!]].
+    *[[http://www.coderanch.com/|Java Ranch - Java Forums at the Big Moose Saloon ( coderanch.com )]].
+      *[[http://www.coderanch.com/forums/c/16/databases|Java Ranch - Java Forums at the Big Moose Saloon "Databases"]].
+  *[[http://www.meetup.com/orclapex-Bielefeld/|Meetup "orclapex Bielefeld"]] - "Dieses Meetup ist für alle APEX Interessierten und solche die es noch werden wollen gedacht. Wir tauschen uns über alles im APEX Bereich aus, APEX 5.0, die ersten Schritte in APEX, die raffiniertesten Programmierung und Tricks".
+  *[[http://forum.mysqldumper.de/|MySQLDumper-Board Forum]].
+  *[[http://www.orafaq.com/forum/|OraFAQ Forum]].
+  *[[http://www.quest.com/communities/|Quest Software - Quest Communities]].
+  *[[http://community.sharpdevelop.net/forums/|SharpDevelop Community Forums]].
+  *[[http://www.simple-talk.com/community/forums/|Simple-Talk - A technical journal and community hub from Red Gate, Forum]].
+  *[[http://forum.sopera.com/|SOPERA - Open Source SOA, Forum]].
+  *[[http://sourceforge.net/projects/adminer/forums|SourceForge "Adminer - Database management in single PHP file" Forum]].
+  *[[http://sqliteexpert.com/forum/YaBB.pl|SQLite Expert Forum]].
+  *[[http://forum.sqlitestudio.pl/|SQLiteStudio support forum]].
+  *[[http://www.sqlmag.com/community/forums.aspx|SQL Server Magazine Forums]].
+  *[[http://www.sqlservercentral.com/|SQL Server Central]].
+  *[[http://www.stackoverflow.com/questions/tagged/sql|Stack Overflow - Tagged Questions "[sql]"]], [[http://www.stackoverflow.com/questions/tagged/nosql|Stack Overflow - Tagged Questions "[nosql]"]], [[http://www.stackoverflow.com/questions/tagged/xml|Stack Overflow - Tagged Questions "[xmll]"]]
+  *Stanford's database course:
+    *[[http://class2go.stanford.edu/db/Winter2013/forums|Stanford University - Introduction to Databases, Forum "Winter 2013"]], [[http://www.piazza.com/class#winter2013/db|Piazza "Stanford University - Introduction to Databases ( Winter 2013 )"]].
+      *[[http://www.piazza.com/features|Piazza - Features]].
+    *[[http://plus.google.com/u/0/communities/105084029092641285735|Google+ Group "Intro2DB GMT+2 study group"]].
+    *[[https://plus.google.com/u/0/events/cvmddaf9ig7u7la002b34fa4qsk|Google+ Group Event "Weekend Database Study Group (Week 2)"]].
+    *[[http://webchat.freenode.net/|freenode webchat]] - IRC channel "#stanford-databases".
+      *Enter "stanford-databases" as webchat channel name.
+      *[[http://www.wikihow.com/Register-a-User-Name-on-Freenode|wikiHow "How to Register a User Name on Freenode"]].
+        *Please follow these instructions #.
+        *Each time you connect, you should sign in, or "identify" yourself, using the following command: "/msg nickserv identify your_account your_password".
+      *<del>[[http://www.freenode.net/using_the_network.shtml|freenode "Using the Network"]]</del>.
+  *[[http://sqlite.phxsoftware.com/forums/|System.Data.SQLite Forums]].
+  *[[http://www.talendforge.org/forum/|talendforge - Talend community forum]].
+  *[[http://www.toadsoft.com/maillist.htm|TOADSoft.com "TOAD Mailing Lists / Yahoo Groups"]].
+  *[[http://community.versant.com/|Versant Developer Community]].
+  *[[http://tech.groups.yahoo.com/group/DatabaseTemplateLibrary/|Yahoo Group "The Database Template Library"]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Software/Databases/|OpenDirectory "Top: Computers: Software: Databases"]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Software/Datenbanken/|OpenDirectory "Top: World: Deutsch: Computer: Software: Datenbanken"]].
+  *[[http://www.dmoz.org/Computers/Data_Formats/Markup_Languages/XML/Tools/Editors/|OpenDirectory "Top: Computers: Data Formats: Markup Languages: XML: Tools: Editors"]]
+{{tag>sql database databases administration "database administration" "software development"}}
+<footnote_navi_en>

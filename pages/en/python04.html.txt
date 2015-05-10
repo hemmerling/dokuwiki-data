@@ -1,0 +1,184 @@
+====== [hemmerling] Python 4/6 - Pro & Contra ======
+Related pages:
+  *[[python.html|Python 1/7]].
+  *[[python02.html|Python 2/7]].
+  *[[python03.html|Python 3/7 - Literature]].
+  *[[python05.html|Python 5/7]].
+  *[[python06.html|Python 6/7 - Education in Python]].
+  *[[python07.html|Python 7/7 - Organisations, Conferences, Barcamps & Events]].
+  *[[erp02.html|ERP 2/2 - The OpenSource ERP Systems "TinyERP" / "OpenERP" / "Odoo" and the Fork "Tryton"]].
+  *[[uscripting.html|Scripting Programming Languages for Unix / Linux and Windows]].
+  *[[reputationhowto.html|How to achieve Reputation with a public Software Project - Criteria & Proceedings]].
+
+===== Pro Python =====
+==== The Zen of Python ====
+  -[[http://wiki.python.org/moin/TOOWTDI|Python.org "TOOWTDI - There's Only One Way To Do It"]].
+  -[[http://www.python.org/dev/peps/pep-0020/|Python.org "PEP 20 -- The Zen of Python"]], [[http://www.stackoverflow.com/questions/228181/the-zen-of-python|Stackoverflow "The Zen of Python, by Tim Peters"]] - "Can I have an example of each of those items, applied to real Python programming?".
+    *Beautiful is better than ugly.
+    *Explicit is better than implicit.
+    *Simple is better than complex.
+    *Complex is better than complicated.
+    *Flat is better than nested.
+    *Sparse is better than dense.
+    *Readability counts.
+    *Special cases aren't special enough to break the rules.
+    *Although practicality beats purity.
+    *Errors should never pass silently.
+    *Unless explicitly silenced.
+    *In the face of ambiguity, refuse the temptation to guess.
+    ***There should be one-- and preferably only one --obvious way to do it.**
+    ***Although that way may not be obvious at first unless you're Dutch.**
+    *Now is better than never.
+    *Although never is often better than *right* now.
+    *If the implementation is hard to explain, it's a bad idea.
+    *If the implementation is easy to explain, it may be a good idea.
+    *Namespaces are one honking great idea -- let's do more of those!
+==== Raymond Hettinger's Thesis ====
+  *[[http://www.youtube.com/watch?v=u1sVfGEBKWQ|YouTube "Raymond Hettinger: What makes Python so AWESOME"]]
+    -Ease of learning.
+    -Rapid development code.
+      -Scripted languages are hard to beat for development speed.
+      -Programs are grown organically.
+      -Interactive testing lets people work with their tools early.
+    -Readility and beauty.
+      *Highly readable code ( in comparison to supposed weaker readability of Java, .NET, C/C++, batch scripts ), beautiful code ( in comparison to the also highly readable code but supposed less beautiful MATLAB code.. ).
+    -One way to do it.
+      *[[perl.html|Perl]], [[lua.html|Lua]], [[forth.html|FORTH]]: When a language has too many styles to choose from ( each with their own idioms ), it becomes a write-only language.
+      *[[perl.html|Perl]].
+        -[[http://en.wikipedia.org/wiki/There%27s_more_than_one_way_to_do_it|EN.Wikipedia "There's more than one way to do it"]] ( TIMTOWTDI ).
+          *[[http://www.c2.com/cgi/wiki?ThereIsMoreThanOneWayToDoIt|ContentCreationWiki "There Is More Than One Way To Do It"]].
+          *[[http://www.perl.com/pub/1999/03/pm.html|Perl.com, Larry Wall "Perl, the first postmodern computer language"]].
+        -[[http://www.dev411.com/blog/2009/01/24/can-epo-or-tpf-tame-timtowtdi/|Dev411 Blog. John Wang on Technology "Can EPO (or TPF) tame TIMTOWTDI?"]] - "There’s more than one way to do it, but sometimes consistency is not a bad thing either" ( TIMTOWTDIBSCINABTE ).
+      *Python.
+        -[[http://wiki.python.org/moin/TOOWTDI|Python.org "TOOWTDI - There's Only One Way To Do It"]].
+        -[[http://www.python.org/dev/peps/pep-0020/|Python.org "PEP 20 -- The Zen of Python"]], [[http://www.stackoverflow.com/questions/228181/the-zen-of-python|Stackoverflow "The Zen of Python, by Tim Peters"]] - "Can I have an example of each of those items, applied to real Python programming?".
+          *"There should be one – and preferably only one – obvious way to do it".
+          *"Although that way may not be obvious at first unless you're Dutch".
+    -Interactive prompt.
+    -Batteries included.
+      *[[http://www.python.org/about/|Python.org - About]] - "Fans of Python use the phrase "batteries included" to describe the standard library, which covers everything from asynchronous processing to zip files".
+      *[[http://docs.python.org/2/tutorial/stdlib.html|Python Documentation "10. Brief Tour of the Standard Library. 10.12. Batteries Included"]] - "Python has a 'batteries included' philosophy. This is best seen through the sophisticated and robust capabilities of its larger packages".
+    -<del>Behind the scenenes work</del> -> Guido!.
+    -Common protocols.
+      *A "common protocol" is an API that applies to multiple tools in exactly the same way -> "Learn once, write many".
+      *Examples:
+        *Database interface: Even if there are different SQL dialects, the Python interface is the same.
+        *Hashing interface.
+        *Compression interface.
+        *File interface.
+==== How to Write "Pythonic" Code ====
+  *THe HTML slides [[http://www.chrisarndt.de/talks/rupy/2008/output/slides.html|Christopher Arndt "How to Write 'Pythonic' Code"]].
+  *[[http://faassen.n--tree.net/blog/view/weblog/2005/08/06/0|Martijn Faassen's Python Secret Weblog "What is Pythonic?"]].
+  *[[http://www.omahapython.org/IdiomaticPython.html|Jeff Hinrichs "Code Like a Pythonista: Idiomatic Python (Crunchy Remix)"]].
+  *[[http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html|David Goodger "Code Like a Pythonista: Idiomatic Python"]].
+  *[[http://www.python.org/dev/peps/pep-0008/#maximum-line-length|Python.org "PEP 8 -- Style Guide for Python Code "]]#.
+  *[[http://programmers.stackexchange.com/questions/119913/how-can-i-learn-to-effectively-write-pythonic-code|Stack Exchange - Programmers "How can I learn to effectively write Pythonic code?"]].
+==== Pythonic Documentation Tools ====
+=== Code Documentation ===
+  *[[http://crunchy.sourceforge.net/|SourceForge "Crunchy - Pythonic Documentation"]], [[http://www.sourceforge.net/projects/crunchy|SourceForge "Crunchy"]] - "An application that formats and delivers html-written Python tutorials inside a browser window, adding interactive elements and snazzy navigation", "An application that transforms an html-based Python tutorial into an interactive session within a browser window. It was previously known as Crunchy Frog, but the name was changed to avoid conflict with an already existing project".
+  *[[http://epydoc.sourceforge.net/|SourceForge "Epydoc - Automatic API Documentation Generation for Python"]], [[http://www.sourceforge.net/projects/epydoc|SourceForge "Epydoc"]], [[http://pypi.python.org/pypi/epydoc|Python Package Index "epydoc"]].
+    *[[http://en.wikipedia.org/wiki/Epydoc|EN.Wikipedia "Epydoc"]].
+  *[[http://www.sphinx-doc.org/|SPHINX - Python Documentation Generator]].
+    *SPHINX is based on TEX / LaTEX ( see [[tex.html|TeX, LaTeX]] ).
+    *[[http://www.hasecke.com/|Jan Ulrich Hasecke]].
+      *[[http://literatur.hasecke.com/|Jan Ulrich Hasecke - Literatur]].
+      *Book [[http://www.amazon.de/exec/obidos/ASIN/1497448689/hemmerling-21|Jan Ulrich Hasecke "Software-Dokumentation mit Sphinx"]].
+      *[[http://www.twitter.com/__juh__|Twitter "juh, @__juh__"]].
+=== pybabel ===
+  *[[http://babel.edgewall.org/wiki/Documentation/cmdline.html|Babel "Command-Line Interface"]] - "When properly installed, Babel provides a script called pybabel".
+  *[[http://pypi.python.org/pypi?%3Aaction=search&term=pybabel|Python Package Index - Search for "pybabel"]].
+  *Associated file extensions: ".po", ".pot".
+=== reStructuredText ( reST ) ===
+  *[[http://docutils.sourceforge.net/rst.html|reStructuredText - Markup Syntax and Parser Component of Docutils]].
+  *[[http://www.sphinx-doc.org/rest.html|SPHINX - Python Documentation Generator "reStructuredText Primer"]].
+==== Static Code Analysis Tools for Python ====
+=== Categories ===
+== Style ==
+  *The coding rules [[http://legacy.python.org/dev/peps/pep-0008/|Python PEP 8]] #.
+    *[[http://pypi.python.org/pypi/autopep8/|Python Package Index "autopep8"]] - "A tool that automatically formats Python code to conform to the PEP 8 style guide".
+    *[[https://www.bitbucket.org/StephaneBunel/pythonpep8autoformat|Bitbucket "StephaneBunel / PythonPEP8Autoforma"]].
+  *The OpenSource "PyLint" #.
+    *[[http://www.pylint.org/|PyLint]].
+    *[[http://www.bitbucket.org/logilab/pylint/|Bitbucket "logilab/ pylint"]].
+    *[[http://www.logilab.org/project/pylint|Logilab.org "pylint"]].
+      *[[http://www.logilab.org/view?rql=Any%20Y%2CCOUNT%28T%29%20GROUPBY%20Y%20ORDERBY%202%20DESC%20%20WHERE%20X%20eid%20857%2C%20T%20tags%20X%2C%20T%20tags%20Y%2C%20NOT%20Y%20eid%20857&vtitle=entities%20similar%20to%20pylint|Logilab.org "entities similar to pylint"]] #.
+    *The OpenSource Python source code analyzer "PyLint" is integrated in the OpenSource IDEs "PyScripter" and "Spyder" :-).
+    *If "PyLint" is not included in a Python distribution, it can´t be installed by well-known automatic installation processes. An installation attempt by “easy_install pylint” is aborted due to syntax errors in downloaded Python files and other faults :-(
+    *"PyLint" is similar to "pyflakes" but it doesn't work in real time and its results are printed in the IDE Spyder in a separate widget ( instead of being shown inline in the Spyder Editor ).
+== Static Code Analysis ==
+  *Pylint.
+  *The OpenSource [[http://pychecker.sourceforge.net/|SourceForge "PyChecker"]], [[http://www..sourceforge.net/projects/pychecker|SourceForge "PyChecker"]].
+  *The OpenSource [[http://pypi.python.org/pypi/flake8|Python Package Index "flake8"]] ( "Pyflakes" ).
+    *Flake8 is a wrapper around these tools:
+      -[[http://pypi.python.org/pypi/pyflakes/0.8|Python Package Index "pyflakes"]].
+        *The current web sites [[http://www.launchpad.net/pyflakes|Launchpad "Pyflakes"]], [[http://www.github.com/pyflakes/|GitHub "pyflakes"]] - "A simple program which checks Python source files for errors".
+        *The legacy web sites [[http://www.github.com/kevinw/pyflakes|GitHub "kevinw / pyflakes"]], [[http://www.github.com/kevinw/pyflakes-vim|GitHub "kevinw / pyflakes-vim"]].
+        *[[http://www.vim.org/scripts/script.php?script_id=2441|pyflakes.vim : PyFlakes on-the-fly Python code checking]].
+      -[[http://pypi.python.org/pypi/pep8|Python Package Index "pep8"]].
+      -[[http://pypi.python.org/pypi/mccabe|Python Package Index "mccabe"]] - [[http://www.nedbatchelder.com/|Ned Batchelder]]'s McCabe script.
+    *The Python IDE Spyder supports "pyflakes" out of the box and also "pep8" ( although you have to activate the last one through our Preferences panel ). 
+  *[[http://jedi.jedidjah.ch/|Jedi - an awesome autocompletion library for Python]], [[http://github.com/davidhalter/jedi/|GitHub "davidhalter/jedi"]], with plugins for popular text editors.
+== Cyclomatic Complexity ==
+  *[[http://pypi.python.org/pypi/mccabe|Python Package Index "mccabe"]] - [[http://www.nedbatchelder.com/|Ned Batchelder]]'s McCabe script.
+== Analysis of OpenSource Software of Global Software Repositories ==
+  *The free online service [[http://www.quantifiedcode.com/|QuantifiedCode - Data driven software quality management]] - Analysis of Python code of GitHub projects :-)
+=== Some other Tools ===
+  *The OpenSource [[http://darcs.idyll.org/~t/projects/figleaf/doc/|C. Titus Brown "figleaf -- Python code coverage analysis"]].
+  *The OpenSource [[http://chris-lamb.co.uk/projects/django-lint/|Chris Lamb "django-lint"]] - "A static analysis tool that checks (or "lints") projects and applications that use the Django web development framework".
+  *The OpenSource [[http://www.rfk.id.au/software/pyenchant/|PyEnchant]] - "PyEnchant is a set of language bindings and some wrapper classes to make the excellent [[http://www.abisource.com/projects/enchant/|Enchant]] spellchecker available as a Python module".
+  *The OpenSoure [[http://www.sonarqube.org/|SonarQube]], [[http://sonar.codehaus.org/|Codehaus SonarQube]] - "A code quality management platform, dedicated to continuously analyze and measure technical quality, from the projects portfolio to the class method". 
+    *[[http://www.sonarqube.org/features/|SonarQube - Features]] - "Languages Support - More than 20 languages".
+    *[[http://docs.codehaus.org/|Codehaus Dashboard]].
+      *[[http://docs.codehaus.org/display/SONAR/Plugin+Library|Codehaus Dashboard "SonarQube Plugin Library"]].
+        *[[http://docs.codehaus.org/display/SONAR/Python+Plugin|Codehaus Dashboard "SonarQube Python Plugin"]].
+    *[[http://www.codehaus.org/|Codehaus]].
+    *[[http://www.codehaus.org/featured/sonar.html|Codehaus "Featured Project - SonarQube"]].
+=== Online Services ===
+  *[[http://www.quantifiedcode.com/|QuantifiedCode UG]] - "Data-driven Code Review for Python".
+  *[[http://www.twitter.com/quantifiedcode|Twitter "Quantified Code, @quantifiedcode"]].
+=== Resources ===
+  *[[http://nedbatchelder.com/blog/200710/flaws_in_coverage_measurement.html|Ned Batchelder "Flaws in coverage measurement"]].
+  *[[http://www.stackoverflow.com/questions/1428872/pylint-pychecker-or-pyflakes|Stack Overflow "PyLint, PyChecker or PyFlakes?"]] #.
+
+==== How do I protect Python Code? ====
+  *[[http://www.stackoverflow.com/questions/261638/how-do-i-protect-python-code|Stack Overflow "How do I protect python code?"]].
+    -Licenses. Contracts. Terms and Conditions. This still works even when people can read the code. Note that some of your Python-based components may require that you pay fees before you sell software using those components. Also, some open-source licenses prohibit you from concealing the source or origins of that component.
+    -Offer significant value. If your stuff is so good -- at a price that is hard to refuse -- there's no incentive to waste time and money reverse engineering anything. Reverse engineering is expensive. Make your product slightly less expensive.
+    -Offer upgrades and enhancements that make any reverse engineering a bad idea. When the next release breaks their reverse engineering, there's no point. This can be carried to absurd extremes, but you should offer new features that make the next release more valuable than reverse engineering.
+    -Offer customization at rates so attractive that they'd rather pay you do build and support the enhancements.
+    -Offer it as a web service. SaaS involves no downloads to customers.
+
+===== Contra Python =====
+==== Python - Contra ====
+  *The higher expense to get the Python application into the World Wide Web, both as public webservice and as private cloud service.
+    *There are just a limited number of webhosting offers "with Python". 
+    *In general, the few webhosters which offer webhosting offers "with Python", offer it just with the more expensive "business professional" offers. While some affordable entry offers include Perl, though...
+    *If the available webhosting offers don´t fit, you have to rent a more expensive whole server ( a physical computer with CPU, memory, disk space, operating system ), like with Java and .NET applications too. Additionally, it is up to you to manage and administrate the server, e.g. update the operating system with security patches ect.
+  *[[http://programmers.stackexchange.com/questions/15468/what-are-the-drawbacks-of-python|Stack Exchange - Programmers "What are the drawbacks of Python?"]].
+  *[[http://news.ycombinator.com/item?id=4564017|Hacker News "I Am Worried About The Future Of Python"]].
+==== Script Language - Contra ====
+  *If you distribute code, you can´t distribute "binary code", but you always have to distribute the full source code.
+    *You can´t protect your intellectual properties.
+    *The most common commercial business model "granting a licence for using a binary code" is not applicable.
+    *The successful Shareware business model "free distribution of a time-limited, but not feature-limited code" ist not applicable.
+    *Indeed, the business model "offering a web service" might work, if your potential customers are willing to store ( private ) data in the Cloud - even for testing the service. Anyhow, you have to be complient to ( European ) data privacy law!
+    *But you can't offer the successfull business option "If you are a big customer, and just in case that you don´t want to use our service in the Cloud, we may implement our service on a local server in your company network", without distribution of the full source code.
+    *Even if you are used to supply the source code to your customer ( as you work on the base of contracts for work and labor ), this does not mean that your customer is willing to grant its customers access to it...
+    *If you are running your own business  with a business model suitable for your Python code: You can´t sell the business later to a party with an improper business model... 
+  *See [[reputationhowto.html|How to achieve Reputation with a public Software Project - Criteria & Proceedings]].
+==== Python on Embedded Systems - Contra ====
+=== General Contra ===
+  *Is the concept of the Python application and its Python runtime that of a true realtime application ( making use of internal microcontroller devices like timers ), or similar to the concept of [[arduino.html|Arduino]] ( polling of devices with simple-minded code prefered, avoiding interrupt routines as much as possible, and ignoring the usefullness of timer devices on microcontrollers for the generation of "hardware does it, not software" solutions )?
+=== Python on Embedded Systems run by Microcontrollers with Operating System - Contra ===
+  *Does the implementation of the operating system provide special file and character device drivers, so that you can address the internal devices and external peripheral units ( e.g. by microcontroller buses like SPI and I2C ) with some elegance? 
+  *Can you really make use of internal microcontroller devices ( e.g. timers, dividers, special registers ) and its behaviour ( e.g. setting of the information flow from an electrical signal to an interrupt signal or state of the CPU ) with the same elegance as with native C/C++ code on a microcontroller system without operating system? Same as with other script applications and [[java.html|Java]] applications... :-(.
+=== Python on Embedded Systems run by Microcontrollers with little RAM ( e.g. 8 KBytes, 16 KBytes, 32 KBytes,..) without Operating System - Contra ===
+  *Is most of your little RAM reserved by the Python runtime, so that there is no ( much ) space left for applications :-(?! Same as with [[forth.html|FORTH]] and [[lua.html|eLua]] runtimes... :-(.
+  *See [[arm.html|ARM Embedded Systems ( ARM7, ARM8, ARM9, ARM11, Cortex )]].
+  *See [[python.html|Python]], section "The Raspberry Platform".
+
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Programming/Languages/Python/|OpenDirectory "Top: Computers: Programming: Languages: Python]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Programmieren/Sprachen/Python/|OpenDirectory "Top: World: Deutsch: Computer: Programmieren: Sprachen: Python"]].
+ {{tag>"Unix script language" "script language" Python}}
+<footnote_navi_en>

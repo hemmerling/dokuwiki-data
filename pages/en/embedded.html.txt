@@ -1,0 +1,562 @@
+======[hemmerling] Embedded Systems ======
+Related pages:
+  *[[debugger.html|Hardware Debugger and Software Debugger]].
+  *[[electronics02.html|Electric Units & Electronics 2/3 - Actors, Sensors, Embedded Systems Electronics and suitable Control Systems]].
+  *[[fritzbox.html|FRITZ!Box]].
+  *[[realtime.html|Realtime Operating Systems & Software for Embedded Systems]].
+===== Free and affordable Multi-Platform Embedded Development Tools ======
+==== Compiler & Assembler Tools ====
+  *[[http://john.ccac.rwth-aachen.de:8000/as/|Alfred Arnold "The Macroassembler AS"]].
+    *The free [[http://john.ccac.rwth-aachen.de:8000/as/cpulist.html|Alfred Arnold "The Macroassembler AS" - List of Supported Target Processors]].
+  *The free software simulator for microcontrollers [[http://mazsola.iit.uni-miskolc.hu/~drdani/embedded/s51/|Dániel Drótos "µCsim"]] for MSDOS and Linux - "It supports MCS51 family. AVR core, Z80, HC08 and XA are supported by UNIX version only".
+  *The commercial [[http://www.hex-rays.com/idapro/|Hex-Rays "IDA Pro Disassembler and Debugger"]] for Windows - Multi-CPU disassembler ( ARM, 68xx,.. ).
+    *The free [[http://www.hex-rays.com/idapro/idadownfreeware.htm|Hex-Rays "IDA Pro 5.0 Freeware Version"]].
+    *[[http://wiki.multimedia.cx/index.php?title=IDA_Pro|MultimediaWiki "IDA Pro"]].
+  *The OpenSource[[http://sdcc.sourceforge.net/|Sourceforge "SDCC - Small Device C Compiler"]], [[http://www.sourceforge.net/projects/sdcc/|Sourceforge "SDCC - Small Device C Compiler"]] - "targets the Intel 8051, Maxim 80DS390, Zilog Z80 and the Motorola 68HC08 based MCUs. Work is in progress on supporting the Microchip PIC16 and PIC18". 
+  *The affordable commercial remote software debugger [[http://www.noicedebugger.com/|John Hartman "NoICE"]] for Windows - "Targets: ARM7, HC12, HC08, HC11, 8051, 6809, 6309, 6502, 65C02, Z80, Z180, 8080, 8085, 8096, and 80196".
+==== Simulators ====
+  *The generic and OpenSource  machine emulator and virtualizer [[http://www.qemu.org/|QEMU]], [[http://savannah.nongnu.org/projects/qemu/|Savannah "QEMU"]].
+    *[[http://www.qemu.org/Download|QEMU Download]] - Filesystem images for Coldfire, ARM,..
+  *The OpenSource [[http://www.skyeye.org/|SkyEye]], [[http://skyeye.sourceforge.net/|SourceForge "SkyEye"]], [[http://www.sourceforge.net/projects/skyeye/|SourceForge "SkyEye"]] - "SkyEye is a very fast full system simulator which takes llvm as IR of dynmic compiled framework.. It can simulate series ARM, Coldfire, Mips, Powerpc, Sparc, x86 and Blackfin DSP Processor".
+
+==== Resources ====
+  *[[ftp://ftp.simtel.net/pub/simtelnet/msdos/emulate/|Simtel]] - 8-bit emulators/simulators/virtual machines.
+  *[[http://web.archive.org/web/*/http://members.aol.com/chrissalo/emu1.htm|EMULATORS]] by Chris Salo.
+===== 6502 Platform =====
+  *The free / OpenSource [[http://www.cc65.org/|cc65 - the 6502 C Compiler]], based on "Small-C".
+===== 8080, 8085, Z80 Platform and Z8 Platform =====
+==== Free, Legacy and Abandonware Tools ====
+  *[[http://www.cpm.z80.de/|The Unofficial CP/M Web site]].
+  *[[http://www.retroarchive.org/|Retrocomputing Archive]].
+    *[[http://www.retroarchive.org/cpm/|Commercial CP/M Software Archive]].
+  *[[http://www.fvempel.nl/walnut.html|PCW Joyce Computer Club "Walnut Creek CP/M CD-Rom"]].
+==== Free CPU Emulators and CP/M Operating System Simulators ====
+  * Joan Riff's Z80MU PROFESSIONAL, a Z80 and CP/M 2.2 emulator, by Computerwise Consulting Services.
+  * 22NICE, a CP/M emulator and 22DISK, a software for accessing disks in CP/M formats, by [[http://www.sydex.com/|Sydex]].
+  * YAZE, a Z80 emulator. CP/M 3 for YAZE, a CP/M 3.0 distribution with a CBIOS including sources.
+  * MyZ80, a Z80 and CP/M emulator ( [[ftp://ftp.simtel.net/pub/simtelnet/msdos/emulate/myz80111.zip|Simtel "msdos / emulate / myz80111.zip"]] ).
+==== Resources ====
+  *[[http://www.gaby.de/cpmlink.htm|Gaby Chaudry, Helmut Jungkunz "Gaby's Homepage für CP/M und Computergeschichte"]].
+  *[[http://www.faqs.org/faqs/CPM-faq/|faqs.org "comp.os.cpm Frequently Asked Questions (FAQ)"]].
+  *[[http://www.z80.eu/myz80cpm.html| Peter Dassow "MyZ80 wit CP/M"]] - a Z80 emulator.
+  *[[http://www.seasip.demon.co.uk/Cpm/|John Elliott "CP/M Main Page"]].
+===== Intel =====
+==== Intel 8086 Platform ====
+=== AMD ===
+  *[[http://www.amd.com/us/products/embedded/develop-and-design/Pages/design-with-amd.aspx|AMD "Develop & Design with Embedded  "]].
+  *[[http://www.amd.com/us/products/embedded/develop-and-design/Pages/development-boards.aspx|AMD "Development Boards"]].
+    *[[http://www.amd.com/us/products/embedded/processors/geode-lx/db800-development-board/Pages/db800-development-board.aspx|AMD "AMD Geode™ LX DB800 Development Board"]].
+=== Free and Commercial 80x86 Assemblers ===
+  *[[http://support.microsoft.com/kb/228454/|Microsoft Help and Support "PATCH: ML614.exe 6.14 Patch Available"]] - how to get MASM 6.11, the latest version running with MSDOS, for free !
+  *[[http://web.archive.org/web/*/http://msdn.microsoft.com/vstudio/downloads/tools/ppack/beta/download.asp|Archive.Org "Microsoft Visual Studio Download Center - Visual C++ 6.0 Processor Pack Download"]] - The ZIP archive "vcpp.exe", contains MASM 6.15. MASM 6.15 just runs on Win98SE and W2k, not on MSDOS ! Please read the extra "Processor Pack Readme file" !
+  *[[http://web.archive.org/web/*/http://www.microsoft.com/ddk/ddk98.asp|Archive.Org "Microsoft - Windows Driver Development Kit: Overview"]] ( - 2006-05-03 ) - contained MASM 6.1x.
+  *Microsoft Visual C++ / Studio 2003 is shipped with MASM 7.10.
+  *Microsoft Visual C++ / Studio 2005 is shipped with MASM 8.00, in "<root installation directory>/vc/bin".
+  *The commercial [[http://eji.com/a86/|Erich Isaacson "A86/A386 assembler and D86/D386 debugger"]].
+=== Resources ===
+  *[[http://www.fysnet.net/|Forever Young Software "Programming MS-DOS with Power. DOS Programming, Undocumented DOS, and DOS Secrets"]].
+    *[[http://www.frontiernet.net/~fys/faq/|Forever Young Software "x86 Assembly Language FAQ. Supporting the alt.lang.asm and comp.lang.asm.x86 Newsgroups"]].
+  *[[http://support.microsoft.com/default.aspx?scid=kb;EN-US;104645|Microsoft Help and Support "INFO: Passing a long from C to MASM by Value & Returning a long"]] / [[http://www.kbalertz.com/104645/Passing-Value-Returning.aspx|KBAlertz "INFO: Passing a long from C to MASM by Value & Returning a long"]].
+  *[[http://web.archive.org/web/*/http://users.easystreet.com/jkirwan/pctools.html|Archive.Org "Jon Kirwan - PC Tools"]] - "I'd like to encourage the use of the v6.15 version of MASM/ML for assembly work on the PC. In that spirit, here's a page that tells you what tools to get and where to get them".
+  *[[http://www.thefreecountry.com/compilers/assemblers.shtml|thefreecountry "Free Assemblers, Linkers and Object Module Librarians"]].
+  *[[http://www.webring.org/hub?ring=x86asm|Webring.Org "x86 Assembly Language Webring"]].
+====  8051 Platform ====
+  *[[8051.html|8051 Embedded Systems]].
+====  80166, 80C166, 83C166, C166, C167, XC167, XE166, ST10 Platform ====
+  *[[c166.html|80166 / 80C166 / 83C166 / C166 / C167 / XC167 / XE166 / ST10 Embedded Systems]].
+==== Intel Atom Platform ====
+  *[[http://www.minnowboard.org/|MinnowBoard]].
+  *Wiki [[http://www.elinux.org/|Embedded Linux Wiki]].
+    *Wiki [[http://www.elinux.org/MinnowBoard|Embedded Linux Wiki "Minnowboard:MinnowBoard"]].
+==== Intel Quark / Intel Galileo / Intel Edison / Intel 80486 & 80586 Platform ====
+=== The Chip, the Boards ===
+  *[[http://www.intel.com/content/www/us/en/processors/quark/intel-quark-technologies.html|Intel "Intel Quark Technology"]].
+  *[[http://communities.intel.com/community/makers/documentation/quarkdocuments|Intel Communities "Intel Quark SoC Documents"]].
+  *[[http://www.intel.com/content/www/us/en/do-it-yourself/edison.html|Intel "Intel Edison Module"]]
+  *[[http://www.arduino.cc/en/ArduinoCertified/IntelGalileo|Arduino "Intel Galileo"]].
+=== Where to buy ===
+  *[[http://www.newegg.com/Product/Product.aspx?Item=N82E16813121810&cm_re=intel_edison-_-13-121-810-_-Product|Newegg.com "Intel Edison Compute Module (IoT, On-Board Antenna) Model EDI1.SPON.AL.S"]].
+=== Resources ===
+  *[[http://www.bit-tech.net/news/hardware/2014/01/07/intel-edison/1|bit-tech "Intel unveils Quark-based Edison microcomputer"]], 2014-01-17.
+  *[[http://www.eetimes.com/document.asp?doc_id=1319726|EE Times "Intel Tackles SoC With Quark"]], 2013-10-07.
+  *[[http://www.eejournal.com/archives/articles/20131016-quark/|Electronic Engineering Journal "Intel Quark Provides Spin, Charm, and Strange"]], 2013-10-16.
+  *[[http://www.heise.de/developer/artikel/Intels-Einplatinen-Computer-Galileo-unter-der-Lupe-2252539.html|heise Developer "Philosophisch. Intels Einplatinen-Computer Galileo unter der Lupe"]], 2014-07-11.
+  *[[http://www.heise.de/newsticker/meldung/Intels-Edison-Pentium-System-im-Format-einer-SD-Karte-2076917.html|heise Newsticker "Intels Edison: Pentium-System im Format einer SD-Karte"]], 2014-01-07.
+  *[[http://en.wikipedia.org/wiki/Intel_Edison|EN.Wikipedia "Intel Edison"]], [[http://de.wikipedia.org/wiki/Intel_Edison|DE.Wikipedia "Intel Edison"]].
+  *[[http://en.wikipedia.org/wiki/Intel_Quark|EN.Wikipedia "Intel Quark"]], [[http://de.wikipedia.org/wiki/Intel_Quark|DE.Wikipedia "Intel Quark"]].
+=====  Altera Platform =====
+  *[[altera.html|Altera "System-on-a-Chip" ( SoC )]].
+=====  Analog Devices Platform =====
+  *[[blackfin.html|Analog Devices "Blackfin"]].
+  *[[http://www.analog.com/en/evaluation-boards-kits/resources/index.html|Analog Devices, Inc. "Evaluation Boards & Kits"]] - product and application selector.
+    *[[http://www.analog.com/en/evaluation-boards-kits/evaluation-boards-kits/resources/processors-dsp/analog-microcontrollers/listing.html|Analog Devices, Inc. "Evaluation Boards & Kits"]] - List of evaluation boards.
+  *"Analog Devices Precision Analog Microcontrollers ( ADUCxx ) - see [[arm.html|ARM Embedded Systems ( ARM7, ARM8, ARM9, ARM11, Cortex )]].
+===== ARM Platform =====
+  *[[arm.html|ARM Embedded Systems ( ARM7, ARM9, Cortex )]].
+=====  Atmel Platform =====
+  *[[atmel.html|The Atmel AVR Family with Focus on AVR32, ATxmega, ATmega, ATtiny, AT90 and the Arduino / Freeduino Platform]].
+  *[[atmelarm.html|Atmel ARM-based MCUs and eMPUs]].
+===== BASIC Stamp & Propeller Platforms =====
+==== Software & Hardware ====
+  *[[http://www.parallax.com/|Parallax Inc.]].
+  *The free BASIC compiler [[http://www.zbasic.net/|Elba Corp. "ZBasic - A Powerful Language for Microcontroller Programming"]] just for ZX microcontrollers.
+==== Resources ====
+  *[[http://en.wikipedia.org/wiki/Basic_Stamp|EN.Wikipedia "BASIC Stamp"]], [[http://de.wikipedia.org/wiki/Basic_Stamp|DE.Wikipedia "BASIC Stamp"]].
+  *[[http://en.wikipedia.org/wiki/ZBasic|EN.Wikipedia "ZBasic"]].
+===== Cypress Semiconductor Corporation =====
+=== PSoC 1 ===
+  *The free IDE [[http://www.cypress.com/?id=2522|Cypress Semiconductor Corporation "PSoC Designer"]].
+  *[[http://www.cypress.com/?rID=36571|CY3267 PowerPSoC Lighting Evaluation Kit]] - "The PowerPSoC devices feature high performance power electronics including 1A, 2 MHz power FETs, hysteretic controllers, current sense amplifiers...".
+=== PSoC 3 ===
+  *See [[8051.html|8051 Embedded Systems]].
+=== PSoC 4 ( ARM Cortex M0 ), PSoC 5 ( ARM Cortex M3 ), PSoC 7 ( ARM Cortex M4 ) CPUs ===
+  *See [[arm.html|ARM Embedded Systems ( ARM7, ARM8, ARM9, ARM11, Cortex )]].
+=====  Freescale / Motorola Platform =====
+====  Freescale Semiconductor Inc. ====
+  *[[http://www.freescale.com/|Freescale Semiconductor Inc.]].
+    *[[http://www.freescale.com/microselector|Freescale Semiconductor Inc. -  Microselector]].
+    *[[http://www.freescale.com/kinetisboardoffer|Freescale "Register today for your free development board coupon"]]. You need a promo code !
+    *[[http://www.freescale.com/webapp/sps/site/homepage.jsp?nodeId=015210|Embedded Software and Tools]].
+    *The free [[http://www.freescale.com/webapp/sps/site/prod_summary.jsp?code=FREEMASTER&fpsp=1&tab=Design_Tools_Tab|FreeMASTER Run-Time Debugging Tool]] - "Includes BDM plug-in for HCS08, HC12, HCS12, HCS12X, SCI-over-JTAG plug-in for 56F800E DSCs and new FreeMASTER-over-CAN communication plug-in)".
+    *The IDE [[http://www.freescale.com/codewarrior|Freescale Semiconductor, Inc. "CodeWarrior"]] for Windows - There are free code-size limited editions. 
+      *CW 10.2 for Windows and Linux is the latest edition for Linux :-(.
+      *CW 10.3 and newer are just for Windows :-).
+    *The free [[http://www.freescale.com/webapp/sps/site/homepage.jsp?code=BEAN_STORE_MAIN|Freescale Semiconductor Inc. "Processor Expert Software"]].
+      *[[http://www.freescale.com/webapp/sps/site/prod_summary.jsp?code=PROCESSOR-EXPERT|Freescale Semiconductor Inc. "Processor Expert Software – Integrated with CodeWarrior Tools"]].
+      *[[http://forums.freescale.com/t5/Processor-Expert-Software/ct-p/PROCEXPT|Freescale Semiconductor Inc. "Freescale Forums - Processor Expert Software"]].
+      *[[http://www.youtube.com/watch?v=4GY1SI_Bj_s|YouTube "How to Use Processor Expert "]].
+      *[[http://www.youtube.com/watch?v=wacIYdAHglc|YouTube "Processor Expert Software / Freescale"]].
+==== 6800 ====
+  *See [[6800.html|6800 Embedded Systems]].
+==== 68K ====
+=== Platforms ===
+  *AMIGA.
+    *[[http://www.vesalia.de/|Vesalia Computer online - Ihr Amiga-Shop seit 1987]].
+  *[[apple.html|Apple Computers]].
+  *[[atarist.html|ATARI-ST]].
+    *GEM -> see [[sframeworks.html|Software Frameworks]].
+  *[[ti68k.html|Texas Instruments' 68K powered Calculators "TI-89 Titanium", "TI Voyage 200"]].
+=== Free Cross-Compilers for 68K ===
+  *The OpenSource [[http://www.easy68k.com/|EASy68K]] for Windows - "Editor/Assembler/Simulator for the 68000. S-Record and Binary file utility".
+  *The OpenSource [[http://www.programmersheaven.com/download/2388/download.aspx|Programmers Heaven "C68K - 68000 C compiler"]] for Linux.
+=== Commercial Cross-Compilers for 68K ===
+  *[[http://www.mct.net/|MCT Paul & Scherer Mikrocomputertechnik GmbH "WinECO-C"]] for Windows - commercial MC68xxx C-Cross-Compiler.
+  *[[http://www.crossware.com/trialware/21499115/index.htm|Crossware 68XXX C Compiler & Assembler and 68000 Simulator - Community Edition"]] - The free community edition allows programs with up to 32k of code and 16k of data to be created.
+=== Resources ===
+==== Coldfire ====
+  *[[coldfire.html|Freescale "Coldfire"]].
+==== Power Architecture / PowerPC ====
+  *[[http://www.freescale.com/webapp/sps/site/overview.jsp?code=STARTERTRAK_HOME&tid=SWnT|Freescale Semiconductor Inc "StarterTRAK Development Boards"]].
+==== Pressure Sensors ====
+  *[[http://www.freescale.com/pressure|Freescale Semiconductor Inc "Pressure Sensors"]].
+  *I got the Freescale pressor sensor demo board "DS2276" :-).
+===== Microchip Platform - PIC Microcontrollers & dsPIC Digital Signal Controllers =====
+  *See [[pic.html|Microchip PIC Microcontrollers & dsPIC Digital Signal Controllers]].
+===== Renesas Technology Platform =====
+  *See [[renesas.html|Renesas Interactive]].
+===== ST Microelectronics Platform =====
+==== 8 Bit ====
+  *[[http://www.mikrocontroller.net/articles/STM8|mikrocontroller.net "STM8"]] - "8-bit MCU".
+  *"STR750-MCKIT".
+    *[[http://www.st.com/internet/evalboard/product/89342.jsp|STMicroelectronics "ST7MC-KIT/BLDC"]] - "The Softec Motor Control Starter Kit for ST7MC is an integrated system designed to provide you with a complete, ready-to-use motor control application for the ST7MC family of microcontrollers".
+    *[[http://www.st.com/mcu/modules.php?name=mcu&file=devicedocsmdt&FAM=86&DEV=STR750-MCKIT|STR750-MCKIT - Documents]].
+==== 32 Bit ====
+  *ST32M - see [[arm.html|ARM Embedded Systems ( ARM7, ARM8, ARM9, ARM11, Cortex )]].
+===== Texas Instruments Platform =====
+==== General ====
+  *[[http://www.eap.ti.com/|Texas Instruments Expert Advisory Panel]].
+    *[[http://www.eap.ti.com/R.aspx?a=217|Texas Instruments Expert Advisory Panel - Application for Joining]].
+  *[[http://www.ti.com/ww/eu/customer_support/|Texas Instruments - Customer Support Center: Europe, Middle-East, Africa]] - Slogan "Ask Texas" :-).
+  *[[http://www.youtube.com/user/texasinstruments|YouTube "Texas Instruments Incorporated"]].
+  *[[https://sites.google.com/site/thanksengineers/|Google Site of Texas Instruments Incorporated "Thank an Engineer"]].
+  *[[msp430.html|Texas Instruments' "MSP430" & "eZ430-Chronos"]].
+  *[[ti68k.html|Texas Instruments' 68K powered Calculators "TI-89 Titanium", "TI Voyage 200"]].
+  *TMS570 - see [[arm.html|ARM Embedded Systems ( ARM7, ARM8, ARM9, ARM11, Cortex )]].
+  *"Programmable Realtime Unit Subsystem".
+    *The free [[http://www.ti.com/tool/sprc940|PRU Software Development Package]].
+    *[[http://processors.wiki.ti.com/index.php/Programmable_Realtime_Unit_Software_Development|Texas Instruments Embedded Processors Wiki "Programmable Realtime Unit Software Development"]].
+    *[[http://processors.wiki.ti.com/index.php/Programmable_Realtime_Unit_Subsystem|Texas Instruments Embedded Processors Wiki "Programmable Realtime Unit Subsystem"]].
+    *[[http://processors.wiki.ti.com/index.php/PASM_Tool|Texas Instruments Embedded Processors Wiki "PASM Tool"]].
+    *[[http://e2e.ti.com/support/dsp/omap_applications_processors/default.aspx|TI E2E™ Community - Support Forums "OMAP™ Processors"]].
+    *Video [[http://www.youtube.com/watch?v=8SQlh1CPwsA|YouTube "Programmable Realtime Unit (PRU) on the OMAP-L137 & OMAP-L1 "]].
+  *[[http://www.ti.com/controlsuite|controlSUITE]] for Windows - free development suite for C2000 Mikrocontroller.
+  *Technology.
+    *[[http:///www.ti.com/analoglab|Texas Instruments "Analoglab"]].
+    *[[http:///www.ti.com/expressdsp|Texas Instruments "ExpressDSP"]].
+    *[[http:///www.ti.com/fun|Texas Instruments "Fun"]].
+    *[[http:///www.ti.com/safety|Texas Instruments "Safety"]].
+    *[[http:///www.ti.com/interface|Texas Instruments "Industrial Interface IC Solutions"]].
+    *[[http:///www.ti.com/automation|Texas Instruments "Industrial Automation Solutions - Industrial Communications"]].
+    *[[http:///www.ti.com/wirelessconnectivity|Texas Instruments "Wireless Connectivity"]], [[http:///www.ti.com/lprf|Texas Instruments "Wireless Connectivity"]].
+  *[[http://www.ti.com/infolab-de|Info Lab Deutschland]].
+  *[[http://www.ti.com/training|Texas Instruments - TI Training Center]] #.
+==== Motor Drive & Control ====
+  *[[http://www.ti.com/lsds/ti/apps/motor/applications.page|Texas Instruments "Motor Drive & Control"]].
+  *Entry Kit:
+    *[[http://www.ti.com/tool/BOOSTXL-DRV8301|Texas Instruments "BOOSTXL-DRV8301 - Motor Drive BoosterPack featuring DRV8301 and NexFET MOSFETs"]].
+    *[[http://www.ti.com/tool/LAUNCHXL-F28027F|Texas Instruments "LAUNCHXL-F28027 - InstaSPIN-FOC enabled C2000 Piccolo LaunchPad"]].
+===== Xilinx Platform =====
+  *See  [[xilinx.html|Xilinx "System on Chip" ( SoC )]].
+===== Chips & Boards =====
+==== Quality Criteria of Chips & Boards ====
+  *Does the board and the chips respectively are equipped with FIFO buffers or at least a buffer at all, for SPI and I2C interfaces ?
+  *Is the chip designed to serve in CAN-Bus applications ? The application designers expect 5 Volts support by the CPU for simple CAN-Bus support.
+    *Atmel ATmega -> Operating voltage (Vcc) = 2.7V .. 5.5 V -> easy CAN-Bus support. 
+    *Atmel ATxmega -> Operating voltage (Vcc) = 1.6V to 3.6V" -> not really suitable for simple CAN-Bus support.
+==== Debugging ====
+  *JTAG, SWD.
+    *[[http://en.wikipedia.org/wiki/Joint_Test_Action_Group|EN.Wikipedia "Joint Test Action Group"]], [[http://de.wikipedia.org/wiki/Joint_Test_Action_Group|DE.Wikipedia "Joint Test Action Group"]] - JTAG, SWD.
+    *[[http://www.arm.com/products/system-ip/debug-trace/coresight-soc-components/serial-wire-debug.php|ARM "Serial Wire Debug"]] ( SWD ).
+  *Freescale "Background Debug Mode" ( BDM ).
+    *[[http://en.wikipedia.org/wiki/Background_Debug_Mode_interface|EN.Wikipedia "Background Debug Mode interface"]].
+    *[[http://en.wikipedia.org/wiki/In-circuit_emulator|EN.Wikipedia "In-circuit emulator"]], [[http://de.wikipedia.org/wiki/In-Circuit-Emulator|DE.Wikipedia "In-Circuit-Emulator"]].
+
+
+==== Manufacturers of Chips & Boards ====
+  *[[http://www.altera.com/|Altera]].
+    *[[http://www.altera.com/b/bemicro-sdk.html?GSA_pos=1&WT.oss_r=1&WT.oss=BeMicro%20SDK|Altera "5 Reasons to Put Your Processor on an FPGA. Featuring the BeMicro SDK"]].
+    *[[http://www.arrow.com/bemicro|Arrow - "BeMicroEmbedded Control Made Easy"]].
+  *[[http://www.beck-ipc.com/de/products/|Beck IPC GmbH "IPC@CHIP® embedded controller"]].
+==== List of MCU Manufacturers ====
+   *Actel
+   *Alcatel - Lucent Technologies
+   *Altera
+   *AMD
+   *Analog Devices Incorporated / ADI
+   *ARM
+   *Atheros
+   *[[http://www.atmel.com/|Atmel]].
+   *Avago
+   *Broadcom
+   *Ikanos / Centillium
+   *Conexant / Mindspeed
+   *Cypress
+   *Elpida
+   *Fairchild Semiconductor
+   *Freescale Semiconductor
+   *Fujitsu
+   *Globespan Virata
+   *Hitachi
+   *Hynix
+   *IBM
+   *Infineon
+   *Intel
+   *Intersil
+   *Lattice Semiconductor
+   *Linear Technology / LTC
+   *LSI Logik-Schaltungen / Agere
+   *Marvell
+   *Matsushita/Panasonic
+   *Maxim
+   *MediaTek
+   *Microchip
+   *Micron
+   *Mitsubishi
+   *Nanya
+   *National Semiconductor / NSC
+   *NEC Electronics
+   *Nvidia
+   *NXP / Philips
+   *Oki
+   *ON Semiconductor
+   *Powerchip
+   *ProMOS
+   *Qualcomm
+   *Renesas
+==== The strongest competitors of Texas Instruments in the MCU industry  ====
+   * Analog Devices Incorporated / ADI
+   * Atmel
+   * Fairchild Semiconductor
+   * Freescale Semiconductor
+   * Hitachi
+   * Linear Technology / LTC
+   * Maxim
+   * Microchip
+   * National Semiconductor / NSC
+   * NXP / Philips
+   * ON Semiconductor
+   * Renesas
+   * STMicroelectronics / STM
+   * Toshiba
+   * Xilinx
+==== Vendors of Boards ====
+  *[[http://www.embedded-platform.com/|Arrow Electronics Inc "Embedded Platform Concept"]].
+    *XKIT - "Gettting Started: Ready-to-use EPC System running under Linux".
+  *[[http://www.armkits.com/|Embest Info&Tech Co., Ltd. "ARMkits.com"]].
+  *[[http://www.bluetechnix.com/|Bluetechnix Mechatronische Systeme]], Austria.
+  *[[http://de.digikey.com/|Digi-Key Corporation - Deutschland]].
+    *[[http://www.embeddeddeveloper.de/|EmbeddedDeveloper - Finde.Vergleiche.Kaufe]] - "Internet Seite mit der auf dem Markt einzigartigen Such- und Vergleichsmaschine für Prozessoren und Tools. Hier können Sie nach Prozessoren und Tools suchen, sie vergleichen, Datenblätter herunterladen, Muster bestellen, den Lagerbestand prüfen und bei [[http://de.digikey.com/|Digi-Key]] bestellen".
+  *[[http://elcodis.com/family.php?cat=30&f_name=Eval%20and%20Demo%20Boards%20and%20Kits|ELCODIS - electronic components distributor "Eval and Demo Boards and Kits - Programmers, Development Systems"]].
+  *[[http://www.hitex.com/|hitex]].
+    *[[http://www.hitex.com/index.php?id=getting-started-evaluation-tools|hitex - Getting Started]] - affordable USB-Sticks, Starter Kits, Application Kits, Evaluation Boards.
+  *[[http://www.steitec.net/|Steinert Technologies - buy Microcontroller Boards AVR, ARM7, ARM9, PIC, dsPIC and Programmer - Onlineshop]].
+  *[[http://www.mouser.com/|Mouser Electronics, Inc.]].
+    *[[http://www.mouser.com/stm32/|Mouser Electronics, Inc. "STMicroelectronics STM32"]].
+  *[[http://www.olimex.com/|OLIMEX Ltd.]], Bulgaria.
+    *[[http://www.olimex.com/dev/|OLIMEX Ltd. "Development boards and Tools"]].
+    *[[http://www.olimex.com/dev/projects.html|OLIMEX Ltd. "OPEN SOURCE PROJECTS FAN PAGE"]] - "If you have new project idea and you can implement it with some of our boards let us know and if we find your project interesting we will send you the board free of charge".
+    *[[http://twitter.com/Olimex|Twitter "Olimex"]].
+  *[[http://www.secoqseven.com/en/item/cross-platform-development-kit/|Seco s.r.l. "Cross Platform Development Kit"]] -> Carrier boards, to be equipped with either ARM or x86 modules.
+  *[[http://www.visual-data.de/|Visual-Data GmbH]].
+    *"Products / Computerprodukte /Komponenten / Motherboards / Embedded Boards" -> "CMOS Camera for S3C2440 ARM9 Board", "LCD Touch Screens".
+    *"Products / Computerprodukte /Komponenten / Motherboards" -> "ATMEL Boards", "NXP Boards", "STM Boards", "Samsung Boards".
+
+===== Free Software Tools for Embedded Design =====
+  *The free [[http://www.chmaas.handshake.de/delphi/freeware/xvi32/xvi32.htm|Christian Maas "Freeware Hex Editor XVI32"]] for Windows.
+===== Commercial Software and Hardware Tools for Embedded Design =====
+==== Tools ====
+  *[[http://www.isystem.com/|iSYSTEM AG ]] - "embedded development tools -ARM CORTEX,  ARM7, ARM9, MPC, PPC, COLDFIRE, SH-2A, mc9s12".
+    *Blog [[http://example.com|iSYSTEM - Embedded Social Media Press Office]].
+    *[[http://www.twitter.com/isystemag|Twitter "isystemag"]].
+  *[[http://www.hitex.com/|Hitex Development Tools]].
+  *[[http://www.lauterbach.com/|Lauterbach GmbH "Lautenbach Development Tools]].
+  *[[http://www.pls-mc.com/|pls Programmierbare Logik & Systeme GmbH]] - "Universial Debug Engine".
+==== Commercial Toolchain for Scheduling Optimization ====
+  -Functional Requirements.
+  -[[http://www.mathworks.de/|MATLAB / Simulink]].
+  -[[http://www.absint.de/|AbsInt Angewandte Informatik]]: "aiT Worst-Case Execution Time Analyzers".
+  -[[http://www.symtavision.com/|Symtavision]]: "SymTA/S" ( looks like a project scheduling software, using a kind of Gantt diagram :-) ).
+  -Loop back to 1.
+===== Some special Embedded Hardware =====
+==== LCD Displays ====
+  *[[http://www.sharpsme.com/|SHARP Microelectronics Europe]].
+==== CAN-Bus Interface ====
+  *[[http://www.microchip.com/wwwproducts/Devices.aspx?dDocName=en010406|Microchip Inc. "MCP2515"]].
+  *[[http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1406&dDocName=en024094|Microchip Inc. "MCP2515 CAN Controller PICtail Demo Board"]].
+==== Ethernet Interface ====
+  *[[http://www.microchip.com/wwwproducts/Devices.aspx?dDocName=en022889|Microchip Inc. "ENC28J60"]] - "Stand alone Ethernet Controller with on board MAC & PHY, 8 Kbytes of Buffer RAM and an SPI serial interface".
+  *[[http://www.pulseeng.com/|Pulse Electronics]].
+    *[[http://productfinder.pulseeng.com/productList/LAN/ETHERNET%20MAGNETIC%20TRANSFORMERS|Ethernet Magnetic Transformers]].
+      *[[http://productfinder.pulseeng.com/product/HX1224NLT|Pulse Electronics "HX1224NLT"]].
+==== USB ====
+=== USB Devices with Human Interface Device ( HID ) for Windows ===
+  *[[http://www.lvr.com/hidpage.htm|Jan Axelson's Lakeview Research "The HID Page"]] #.
+    *"Microchip PIC18F4550.. My Microchip PIC microcontroller firmware for generic HIDs".
+  *Atmel's [[http://www.atmel.com/dyn/products/tools_card.asp?tool_id=3879|AT90USBKey]] demonstration board for the AT90USB AVR microcontroller has generic HID, keyboard, and mouse applications.
+  *[[http://www.obdev.at/products/vusb/|Objective Development Software GmbH "V-USB - A Firmware-Only USB Driver for Atmel AVR Microcontrollers"]].
+    *[[http://www.obdev.at/products/vusb/automator.html|Objective Development Software GmbH "Automator. V-USB - Utilizing the Windows HID Driver"]].
+    *[[http://www.obdev.at/products/vusb/projects.html|Objective Development Software GmbH "Projects Based on V-USB"]].
+    *Wiki [[http://vusb.wikidot.com/|Wikidot "V-USB. A Firmware-Only USB Driver for the AVR"]].
+    *No claimed support of the ATxmega CPU, yet !
+  *[[http://www.pjrc.com/teensy/rawhid.html|PJRC - Electronic Projects. Components Available Worldwide "USB: Raw HID"]].
+  *[[http://en.wikipedia.org/wiki/USB_human_interface_device_class|EN.Wikipedia "USB human interface device class"]].
+=== USB Interfaces ===
+  *[[http://www.ftdichip.com/Products/ICs/FT2232D.htm|Future Technology Devices International Ltd - FTDI Chip "FT2232D - Dual USB UART/FIFO IC"]] - "Entire USB protocol handled on the chip: no USB-specific firmware programming required".
+=== USB to Serial ===
+  *[[http://www.smileymicros.com/|Smiley Micros - Atmel Official AVR Consultant]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0976682214/hemmerling-21|Joe Pardue "Virtual Serial Port Cookbook"]].
+=== USB Traffic Analyzer ===
+  *The commercial [[http://www.usblyzer.com/|USBlyzer - Effective and simple in use USB Traffic Analyzer]].
+    *[[http://www.usblyzer.com/usb-communication-device-class-cdc-decoder.htm|USBlyzer - Effective and simple in use USB Traffic Analyzer "Communication Device Class (CDC) Decoder"]].
+==== Power Supply for USB Devices ====
+  *Search for "Power Pack", "Emergency Power", "Emergency Battery", "Notakku für Handy", "Not-Akku für Mobiltelephon", "Mobiler USB Ersatzakku".
+  *Search for "power pack mobil usb" at Amazon.de.
+  *Differ between solutions with standard USB mother interface and with Mini-USB interface !
+=== Accu Supply ===
+  *"Nokia DC-11 Extra Power".
+  *"ZNEX Power Pack"
+  *"APC Power Expander".
+=== Battery Supply ===
+  *[[http://www.pearl.de/a-PX2009-5532.shtml|PEARL Agency "Callstel Notladeadapter "Pocket Charger"]] - "Passend für alle Geräte mit Mini-USB-Ladebuchse" #.
+  *[[http://www.amazon.de/exec/obidos/ASIN/B004GYQJEC/hemmerling-21|Amazon.DE "Delamax 2in1 Notfall Ladegerät und Mobile Booster - Akku-Powerpack für unterwegs - Energieschub für Handy, Smartphone, PDA, etc"]].
+  *[[http://www.tekkeon.com/products-tekcharge1550.html|Tekkeon - TekCharge MP1550]].
+    *[[http://www.amazon.com/Tekkeon-TekCharge-Mobile-Battery-Charger/dp/B0014KLX9C/|Amazon.COM "Tekkeon TekCharge Mobile Power and Battery Charger"]].
+  *[[http://www.online-superpreis.de/akkus-batterien/handy-akkus/handy-zubehoer/handy-not-ladegeraet-pocket-charger/a-205/|online-superpreis.de "Handy Not-Ladegerät - Pocket Charger"]] - "sogar mit Mini-USB Adapter zum Betrieb kleiner USB-Geräte mit USB-Ladebuchse".
+  *[[http://www2.ife.ee.ethz.ch/~rolfz/batak/KtippNotakku08/|Zinnikers Batterie und Akku Seiten, Spezial "Ktipp Notakku Test 08"]].
+  *[[http://www.swissbatteries.ch/|Swissbatteries]] - "Akkus Batterien - Akku Ladegeräte und Batterien für Handys, Digitalkameras usw".
+  *[[http://www.mikrocontroller.net/topic/212504|Mikrocontroller.net "Suche Not-Akku für USB-Geräte"]].
+  *[[http://www.futurenews.at/2009/01/nopopo-pinkeln-fuer-strom/|futurenews.at "NoPoPo: Pinkeln für Strom"]].
+=== USB hub with a wall power supply ( Steckernetzteil ) ===
+  *[[http://www.conrad.de/ce/de/search/?search=hub%20mit%20netzteil|Conrad "hub mit netzteil"]].
+  *[[http://www.conrad.de/ce/de/FastSearch.html?search=usb+netzteil|Conrad "usb netzteil"]].
+  *[[http://www.conrad.de/ce/de/FastSearch.html?search=usb+netzadapter|Conrad "usb netzadapter"]].
+  *[[http://www.pearl.de/a-PX5308-5541.shtml|PEARL Agency "revolt Universal-Schaltnetzteil 1.000mA, umschaltbar 3-12V"]].
+==== Helicopters ====
+  *[[http://www.microdrones.com/|microdrones GmbH]] - helicopters.
+  *[[http://www.jamara.de/|JAMARA e.K. / Jamara Modelltechnik]]" - "RC-Modellbau vom Feinsten". Rremote controlled items ( airplanes, cars, helicopters, boats ), also as promotional items.
+  *Quadrokopter, X-Ufo, Brushless, Gyro - some other small helicopters.
+  *Sensor experts suggest just to buy helictopers which are advertised to be equiped with the "gyro" technology, because helicopters equipped with a "gyroscope" sensor have acceptable flight behaviour for rookies, those without not :-).
+==== Toys of Washing Machines ====
+  *[[http://www.my-klein-toys.de/|Theo Klein GmbH, "Klein Toys"]].
+    *[[http://www.miele.co.uk/accessories/Details.aspx?rdid=12&aid=729|Miele & Cie. GmbH & Co "Toy Washing Machine"]], UK - "Part Number 98022260", "Made by Theo Klein Toys".
+    *[[http://www.mastersparesonline.com/product/index/9966/|Masterspares "MIELE 98022260 Toy Washing Machine"]].
+    *[[http://www.my-klein-toys.de/index.php?id=106&vsig106_0=2|Theo Klein "Miele washing machine, mini, Art.-Nr.: 7812"]].
+    *[[http://www.amazon.de/exec/obidos/ASIN/B0002H7TV4/hemmerling-21|Amazon.DE "Klein 6934 - MIELE Waschmaschine mit Geräuschen"]].
+    *[[http://www.amazon.de/exec/obidos/ASIN/B000P36UZQ/hemmerling-21|Amazon.DE ""Waschmaschine Miele 24cm"]].
+    *On the event "Smart Energy Forum" on 2011-10-25 in Hannover, [[http://www.freescale.com/|Freescale Semiconductor, Inc.]] presented a home automation showcase, where this toy was specially equipped with a Freescale [[http://en.wikipedia.org/wiki/ZigBee|Zigbee]] RF interface :-).
+
+==== Resources ====
+  *[[http://www.spiegel.de/netzwelt/spielzeug/0,1518,456942,00.html|SPIEGEL "Drohne für jedermann. Mal sehen, was der Nachbar treibt"]], 2006-12-29.
+===== List of Embedded Application Ideas & Code for such Applications =====
+==== General ====
+  *[[http://www.elektronik-projekt.de/thread.php?threadid=3942|Elektronik-Projekt Forum, Thread "Temperaturschreiber"]].
+  *[[http://www.sprut.de/electronic/pic/programm/led.htm|Jörg Bredendiek sprut.de "PIC-Lernbeispiel: LED-Ziffernanzeige"]].
+
+===== Expertness =====
+==== Expert Language ====
+  *Diversification - If you gain an information by different means / channels / calculations / sensors.
+  *Rejuvenation - Pressing the RESET button at an embedded system, so that it works fine again. Slogan "My system need a reset every month" :-).
+==== Expert Knowledge ====
+  *8-bit CPUs have little "residual current" / "cut-off" due to its crude dice, while 32-bit CPUs have much more "residual current" / "cut-off" due to its little structures.
+  *Experts acknowledge the work of "Silicon Labs" ( formerly: "Energy Micro" ) to create 32-bit ARM CPUs with litte "residual current" / "cut-off", little in comparison to the standard with 32-bit CPUs and especially ARM CPUs. Some new ARM CPU derivates of STMicroelectronics ( i.e.  STML053R8T6, based on Cortex M0+ ) are also known to fulfill that criteria.
+  *32-bit CPUs may be cheaper than 8-bit CPUs, as the chip manufacturer can produce more chips on the same space... due to the smaller structures of 32-bit chips and so the smaller dice size.
+===== Literature =====
+==== Paper Magazines ====
+  *[[http://www.heise.de/hardware-hacks/|c´t Hardware Hacks]].
+==== Books ====
+  -Book [[http://www.amazon.de/exec/obidos/ASIN/382665949X/hemmerling-21|Friedrich Bollow, Matthias Homann,, Klaus-Peter Köhn: "C und C++ für Embedded Systems"]].
+    *[[http://www.doulos.com/knowhow/arm/C_und_Cxx_fuer_Embedded_Systems/|Doulos - "C und C++ für Embedded Systems"]] - "Doulos contributes ARM Cortex-M3 content to popular embedded systems book".
+    *Chapter 4.3 "ARM und ARM Cortex-M3-Prozessor".
+    *Chapter 7 "C++ für Mikrocontroller".
+  -[[http://www.lvr.com/|Jan Axelson's Lakeview Research]] - books and some free resources for embedded systems.
+    *[[http://www.lvr.com/usb.htm|Jan Axelson's Lakeview Research "USB"]], [[http://www.lvr.com/serport.htm|Jan Axelson's Lakeview Research "Serial Port Central"]], [[http://www.lvr.com/mass_storage.htm|Jan Axelson's Lakeview Research "The Mass Storage Page"]], [[http://www.lvr.com/ethernet.htm|Jan Axelson's Lakeview Research "Embedded Ethernet and Internet"]], [[http://www.lvr.com/parport.htm|Jan Axelson's Lakeview Research "Parallel Port Central"]].
+  -[[http://www.ebookaktiv.de/eBook_ST5/eBook_ST5.htm|eBookAkdiv "Mikrocontroller Programmierung mit Visual Five"]].
+  -[[http://www.amazon.de/exec/obidos/ASIN/389576129X/hemmerling-21|Elektor Schaltungspraxis "I/O-Projekte für den PC. Mit CD-ROM. Selbstbau-Schaltungen für die Standard-Ports"]].
+  -[[http://www.amazon.de/exec/obidos/ASIN/3772358780/hemmerling-21|Burkhard Kainka: "Messen, Steuern und Regeln mit USB (Franzis PC und Elektronik)"]].
+===== Resources =====
+  *[[http://www.8051projects.net/microcontroller-tutorials/|Rickey's World - World of Microcontrollers and Microprocessors ( 8051projects ) "Tutorials for Microcontrollers"]].
+  *[[http://www.analog.com/blackfin-is-everywhere/|Analog Devices "Blackfin-is-Everywhere"]] - application ideas.
+  *[[http://sc.leadix.com/DEVmonkey/|DEV-monkey]], in partnership with [[http://www.electronicsweekly.com|ElectronicsWeekly.com]], [[http://www.edn.com/|EDN]] - "Latest News on Development Tools".
+    *Blog [[http://sc.leadix.com/DEVmonkey/blogs/DEVmonkey_reviews.php|DEV-monkey] Review Blog]].
+    *Blog [[http://sc.leadix.com/DEVmonkey/blogs/jon_titus.php|Jon Titus Blog]].
+  *[[http://www.dangerousprototypes.com/|Dangerous Prototypes - A new open source hardware project every month]].
+  *[[http://www.doulos.com/knowhow/arm/|Doulos "ARM Resources"]].
+  *[[http://www.e-guidelines.de/|e-Guidelines. Guidelines for Model Based Development]] by [[http://www.model-engineers.com/|Dr.-Ing. Ingo Stürmer, Model Engineering Solutions]].
+    -"MAAB-2007" / "MAAB - CONTROLLER STYLE GUIDELINES FOR PRODUCTION INTENT USING MATLAB, Simulink and Stateflow Version 2.1" -> [[http://www.mathworks.de/products/simverification/|MathWorks Deutschland "Automotive Industry Standards" - "Simulink Verification and Validation"]].
+    -"TargetLink Known Problems" / "MXAM Checks für TargetLink 2.0 - 3.0 Known-Problems".
+    -"dspace_2_1" / "Modeling Guidelines for MATLAB/Simulink/Stateflow and TargetLink".
+  *[[http://www.eetimes.com/design/embedded|EE Times - Embedded.com]].
+  *[[http://www.edn.com/|EDN]] - "Electronic Design, Strategy, News".
+  *[[http://www.eg3.com/|eg3]] - "'best of the web' for embedded systems".
+  *[[http://www.elektronikpraxis.vogel.de/|Elektronik Praxis]] - "Elektronikportal für Entwicklung, Einkauf. Fertigung & Management".
+  *[[http://www.embedded-control-europe.com/|ICC Media GmbH "Embedded Control Europe"]].
+  *The portal [[http://www.embedded-know-how.com/|Embedded know-how]], the video portal [[http://www.embedded-news.tv/|Embedded News.tv]].
+  *[[http://aboutmicrocontroller.blogspot.com/|Google Blogger "About Microcontroller. Everything related to microcontroller and electronics project"]].
+  *[[http://www.letsmakerobots.com/|Let's Make Robots!]].
+  *The Wiki [[http://www.lowlevel.eu/|Lowlevel]] - "Hier können angehende und fortgeschrittene Betriebssystementwickler Informationen finden, die sie unterstützen".
+  *[[http://www.microconsult.de/service/|Microconsult - Service]] - "Fachartikel, Downloads, Literaturtipps".
+  *[[http://www.microcontroller.com/|Microcontroller.com - Embedded Systems Supersite]].
+  *mikrocontroller.net #.
+    *[[http://www.mikrocontroller.net/|mikrocontroller.net]].
+    *[[http://www.embdev.net/|EmbDev.net]].
+  *[[http://www.microcodes.info/|Microcodes.info]] - "Microcontroller Codes ( 8051, AVR, PIC, ARM, WinCE, DSP, Labview )". "Microcodes is the place where you can share your microcontroller codes. You need to upload atleast 1 code to download 2 codes. Create your own account to upload and download the codes. The registration is free and you can do it from here. Webmaster will activate your member account after checking your files".
+  *[[http://www.mikroe.com/|Mikroelektronika]] - "Development Tools, Compilers, Books".
+  *[[http://www.st.com/internet/com/software/ides_mcu.jsp|STMicroelectronics "Toolsets and Debug tools for MCUs"]].
+  *[[http://hem.bredband.net/stafni/|Staffan Nilsson "Embedded Developers Pages"]].
+    *[[http://hem.bredband.net/stafni/developer/emulator.htm| "In circuit emulators"]].
+  *[[http://web.archive.org/web/*/http://www.embeddedstuff.com/|Archive.org "Dmitry Obukhov - Embedded Stuff"]] ( by [[http://www.linkedin.com/in/obukhov|LinkedIn "Dmitry Obukhov"]] ? ), - 2001-11-30.
+  *Blog [[http://www.robotshop.com/blog/|RobotShop Blog]].
+  *[[http://www.riccibitti.com/|Alberto Ricci Bitti]] - "Award-winning electronics designs, circuit diagrams, ready-to-go schematics, source code especially for the Atmel's AVR family, Microchip's PIC, Motorola's 68HC09 Microcontrollers".
+  *[[http://www.tasking.com/support/|TASKING - Embedded software development tools from Altium "Online support"]] - "ARM, Infineon TriCore, Freescale 68K/ColdFire, Freescale DSP56xxx, MIPS R3000/R4000, Infineon SLE88", "8051", "Infineon C166, VX-toolset", "Infineon C166, Classic toolset", "Intel 196/296", "Intel 251", "Renesas M16C", "Renesas R8C/Tiny", "NXP XA", "STMicroeletronics ST10/Super10".
+  *German blog[[http://www.pc.de/|PC.DE]] - "Publish & Content".
+  *White paper [[http://pages.silabs.com/LP-AD-Low-Power-MCU-Metering-Design.html|Silicon Laboratories Inc. "Designing Power Efficient Smart Gas and Water Utility Meters"]] -> [[http://www.silabs.com/Support%20Documents/TechnicalDocs/Low-Power-MCU-Metering.pdf|Silicon Laboratories Inc. "How to Design Smart Gas and Water Utility Meters for the Utmost in Power Efficiency"]] ( PDF ).
+  *[[http://www.reocities.com/SiliconValley/lab/6311/html/embedded_world.html|Alex Torres, Reocities "Embedded World"]].
+  *[[http://www.eeglossary.com/|Luis Viterbo - EEGlossary]].
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/Object_file|EN.Wikipedia "Object file"]].
+    *[[http://de.wikipedia.org/wiki/Liste_von_Mikroprozessoren|DE.Wikipedia "Liste von Mikroprozessoren"]], [[http://de.wikipedia.org/wiki/Liste_von_Mikrocontrollern|DE.Wikipedia "Liste von Mikrocontrollern"]].
+    *[[https://en.wikipedia.org/wiki/Ubiquitous_computing|DE.Wikipedia "Ubiquitous Computing"]], [[http://de.wikipedia.org/wiki/Ubiquitous_Computing|DE.Wikipedia "Ubiquitous Computing"]].
+  *Blog [[http://zlogdan.blogspot.com/|Zlog]] - "Strict ANSI C/C++, WIN32, MFC, Code Programming, occasional C#, Micro-controllers, ...".
+===== Experts, Conferences, Fairs =====
+==== Experts ====
+  *Radomir Dopieralski, [[http://sheep.art.pl/|Sheep.art.pl]], [[http://www.letsmakerobots.com/users/deshipu|Let's Make Robots!]] -> Europython 2014 Barcamp lecturer :-).
+==== Conferences, Fairs, Competitions ====
+  *Competition [[http://emecs-thon.org/|EMECS-thon - Embedded Systems Marathon]] in Germany - "Embedded Systems Competition for students".
+    *[[http://www.facebook.com/EMECSthon|Facebook "EMECS-thon"]].
+    *[[http://www.youtube.com/user/EMECSthon|YouTube Channel "EMECSthon"]].
+  *Fair [[http://www.embedded-world.de/|Embedded World]], Nürnberg.
+  *Conference [[http://www.ese-kongress.de/|Embedded Software Engineering Kongress]], Sindelfingen ( 2014-12-01 - 2014-12-05 ).
+  *[[http://www.iccmedia-vcon.com/|ICC Media Virtual Conferences]] - Free "Virtual Conferences for Embedded Engineers".
+==== Event Idea "Embedded Software Boot Camp" ====
+  *[[http://www.barrgroup.com/boot-camp|BARR Group "Embedded Software Boot Camp"]].
+  *[[http://am.renesas.com/products/tools/introductory_evaluation_tools/renesas_demo_kits/yrdkrx63n/training/bootcamp.jsp|Renesas "Embedded Software Boot Camp (in a Box)"]].
+===== Communities, Forums, Newsgroups =====
+  *[[http://www.8051projects.net/|Rickey's World - World of Microcontrollers and Microprocessors ( 8051projects )]] - 8051, Atmel AVR, PIC, ARM.
+  *[[http://forums.adafruit.com/|Adafruit Customer Support Forums]].
+  *[[http://forum.allaboutcircuits.com/|All About Circuits Forum]].
+    *[[http://forum.allaboutcircuits.com/forumdisplay.php?f=17|All About Circuits Forum - Subforum "Software, Microcomputing, and Communications Forums / Embedded Systems and Microcontrollers"]].
+  *[[http://www.alteraforum.com/|Altera Forum]].
+  *[[http://ez.analog.com/|Analog Devices, Inc. "EngineerZone"]].
+  *[[http://community.em.avnet.com/|Avnet Electronics Marketing "Technical Forums"]].
+  *The read-only forum [[http://www.c166-forum.de/|C166/ST10 Expertenforum]] by [[http://www.pls-mc.com/|PLS Development Tools/PLS Programmierbare Logik & Systeme GmbH]] ( formerly by [[http://www.willert.de/|Willert Software Tools GmbH]] ).
+    *[[http://www.c166-forum.de/forumnews.html|C166/ST10 Expertenforum, Forum-News]].
+    *"Leider zwangen uns sicherheitstechnische Aspekte die aktiven Inhalte der Seite stillzulegen", 2011-01-03.
+  *[[http://www.chipkit.net/forum/index.php|chipKIT Forum]].
+  *[[http://bbs.circuitcellar.com/|Circuit Cellar Discussion Board - Where engineers connect!]].
+  *[[http://secure.cypress.com/?app=forum|Cypress Developer Community]].
+  *[[http://www.xs4all.nl/~ganswijk/chipdir/ml/index.htm|Jaap van Ganswijk "Chip Directory", Mailing Lists]].
+  *[[http://dangerousprototypes.com/forum/|Dangerous Prototypes Forum]] - "Antispam: You can't have a profile yet. You need to post a few times first".
+  *[[http://www.dsprelated.com/|DSPRelated.com]] - Forums.
+    *[[http://www.dsprelated.com/groups.php|DSPRelated.com, DSP Discussion Groups & Forums]].
+    *[[http://www.dsprelated.com/groups/adsp/1.php|DSPRelated.com, Discussion Groups - Analog Devices DSPs]].
+  *[[http://www.elektronik-projekt.de/|Elektronik-Projekt]] Forum.
+  *[[http://www.embeddedrelated.com/|EmbeddedRelated.com]].
+    *[[http://www.embeddedrelated.com/forum/partners.php|EmbeddedRelated.com - Partner Members Forum]].
+      *[[http://www.embeddedrelated.com/showarticle/175.php|EmbeddedRelated.com - Partner Members Forum "Collaborative Writing Experiment: What are your favorite Embedded Systems Online Resources?"]] #.
+      *[[http://www.embeddedrelated.com/showarticle/177.php|EmbeddedRelated.com - Partner Members Forum "Free Embedded Systems Books"]].
+    *[[http://twitter.com/EmbeddedRelated|Twitter "Embedded Related"]].
+  *[[http://www.edaboard.com/forum31.html|edaboard.com "Digital Design & Programming / Microcontrollers"]].
+  *Facebook.
+    *[[http://www.facebook.com/TIEurope|Facebook "Texas Instruments Europe"]].
+    *[[http://www.facebook.com/embeddedrelated|Facebook "EmbeddedRelated"]].
+  *Freescale.
+    *[[http://forums.freescale.com/freescale/|Freescale Forums]].
+    *[[http://streetsmarts.freescale.com/|Freescale Semiconductor Inc. - Freescale StreetSmarts]].
+    *[[http://freescalecupwiki.freescale.com/|The Freescale Cup Wiki]].
+  *[[http://www.my-boardclub.com/|Future Electronics "FTM Boards Club"]].
+  *[[http://groups.google.com/group/comp.arch.embedded/|Google Groups "comp.arch.embedded"]], [[http://groups.google.com/group/comp.dsp/|Google Groups "comp.dsp"]], [[http://groups.google.com/group/comp.arch.embedded|Google Groups "comp.arch.embedded"]], [[http://groups.google.com/group/comp.arch.hobbyist|Google Groups "comp.arch.hobbyist"]].
+  *[[http://www.industrycommunity.com/|Industry Community]].
+    *[[http://www.industrycommunity.com/myforum/jaime_aranguren/|Industry Community - Embedded Control Forum]].
+  *[[http://www.infineonforums.com/forums/|Infineon Forums]].
+  *[[http://www.ingenieur.de/networks/groups/HardwarenaheSoftwareentwicklung/index|ingenieur.de "Hardwarenahe Softwareentwicklung für Embedded Systems, Realtime Systems und Automatisierungstechnik"]].
+  *[[http://www.loetstelle.net/forum/|Lötstelle Userforum]].
+  *[[http://www.lvr.com/forum/|Jan Axelson's Lakeview Research - PORTS Forum]].
+  *[[http://www.letsmakerobots.com/forums|Let's Make Robots! Forums]].
+  *[[http://www.mbed.org/forum/|mbed Forum]].
+  *mikrocontroller.net Forums #.
+    *[[http://www.mikrocontroller.net/forum/|mikrocontroller.net Forum]].
+    *[[http://www.embdev.net/forum|EmbDev.net Forum]].
+  *MikroElektronika.
+    *[[http://www.mikroe.com/forum/|MikroElektronika - Forum]].
+    *[[http://www.libstock.com/|LibStock - Community website for sharing libraries, projects and source codes]].
+  *[[http://www.motherboardpoint.com/|Motherboard Point - Motherboard and Hardware Technical Discussion Forum]].
+    *[[http://www.motherboardpoint.com/embedded-f30.html|Motherboard Point - Motherboard and Hardware Technical Discussion Forum "General / Embedded"]].
+      *[[http://www.motherboardpoint.com/download-location-hightec-c167-compiler-t89150.html|Motherboard Point - Motherboard and Hardware Technical Discussion Forum "General / Embedded", Thread "Download location for HighTec C167 compiler?"]].
+  *Parallax Inc. 
+    *[[http://www.parallax.com/Support/DiscussionForums/tabid/392/Default.aspx|Parallax Inc. Forums]].
+    *[[http://forums.parallax.com/|Parallax Inc. Forums]].
+  *[[http://forum.pololu.com/|Pololu Robotics&Electronics Forum]].
+  *[[http://www.psocdeveloper.com/|PSoCDeveloper]].
+  *[[http://www.psoczone.com/|PSoCZone, La Communauté PSoC Francophone]].
+  *[[http://www.roboternetz.de/|RoboterNETZ - Roboter, Elektronik, Microcontroller]].
+  *[[http://www.roboticsindia.com/|Robotics India Forum]] - Readonly forum, registration prohibited ( no display of the CAPTCHA graphics ).
+  *[[http://www.robotshop.com/forum/|RobotShop Forum]].
+  *[[http://www.ssv-comm.de/forum/|SSV Support Forum]].
+  *[[http://my.st.com/public/STe2ecommunities|STMicroelectronics "STe2ecommunities"]].
+    *[[http://my.st.com/public/STe2ecommunities/Embedded_Micro/|STMicroelectronics Forum "SPEAr Hardware Devices and Evaluation Boards"]].
+  *StudiVZ.
+    *[[http://www.studivz.net/Groups/Overview/7cce15a73c80a165|StudiVZ "6502 Assembler"]].
+    *[[http://www.studivz.net/Groups/Overview/f0651f306e999ec3|StudiVZ "Microcontroller (Pic, AVR, Propeller und co.)"]].
+    *[[http://www.studivz.net/Groups/Overview/8bbe747a30ace102|StudiVZ "PSoC Mikrocontroller"]].
+  *[[http://e2e.ti.com/|Texas Instruments E2E Technical Forum]] ( [[http://my.ti.com|my.ti.com]] ).
+  *[[http://www.thebackshed.com/forum/forum_topics.asp?FID=16|The Black Shed, Subforum "Microcontroller and PC projects"]].
+  *[[http://www.thebackshed.com/forum/forum_topics.asp?FID=4|The Black Shed, Subforum "Electronics"]].
+  *Blog [[http://blog.vdcresearch.com/|VDC Research Blogs]].
+    *Blog [[http://blog.vdcresearch.com/embedded_sw/|VDC Research Blog "VDC Market Research On Target: Embedded Systems Blog"]].
+  *[[http://www.vintage-computer.com/vcforum/|Vintage Computer Forums]].
+  *Yahoo.
+    *[[http://tech.groups.yahoo.com/group/TASKINGforum/|Yahoo Group "TASKINGforum"]].
+    *[[http://tech.groups.yahoo.com/group/MicriumNewsGroup/|Yahoo Group "MicriumNewsGroup · Micriµm, Inc. - News Group"]].
+    *[[http://tech.groups.yahoo.com/group/adsp/|Yahoo Group "adsp · Analog Devices DSPs"]].
+
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Hardware/Embedded/|OpenDirectory "Top: Computers: Hardware: Embedded"]].
+  *[[http://www.dmoz.org/Computers/Companies/Software_Development/Embedded_Systems/|OpenDirectory "Top: Computers: Companies: Software Development: Embedded Systems"]].
+  *[[http://www.dmoz.org/Computers/Consultants/Embedded_Systems/|OpenDirectory "Top: Computers Consultants: Embedded Systems"]].
+  *[[http://www.dmoz.org/Computers/Emulators/|Top: Computers: Emulators]].
+  *[[http://www.dmoz.org/Computers/Programming/Compilers/Cross_Compilers/|OpenDirectory "Top: Computers: Programming: Compilers: Cross Compilers"]].
+  *[[http://www.dmoz.org/Computers/Programming/Languages/C/Compilers/Cross_Compilers/|OpenDirectory "Top: Computers: Programming: Languages: C: Compilers: Cross Compilers"]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Hardware/Mikrocontroller/|OpenDirectory "Top: World: Deutsch: Computer: Hardware: Mikrocontroller"]].
+  *[[http://www.dmoz.org/Science/Technology/Electronics/Signal_Processing/Digital_Signal_Processing_-_DSP/|OpenDirectory "Top: Science: Technology: Electronics: Signal Processing: Digital Signal Processing - DSP"]].
+{{tag>"embedded systems "bare metal" "bare metal programming" ""native programming" "machine-specific programming"}}
+<footnote_navi_en>

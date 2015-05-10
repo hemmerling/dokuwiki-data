@@ -1,0 +1,583 @@
+====== [hemmerling] Manufacturing Execution Systems ( MES ) 2/5 - Software Systems ======
+Related pages:
+  *[[mes.html|Manufacturing Execution Systems ( MES )]].
+  *[[mes03.html|Manufacturing Execution Systems ( MES ) 3/5 - Norms & Design]].
+  *[[mes04.html|Manufacturing Execution Systems ( MES ) 4/5 - Literature]].
+  *[[mes05.html|Manufacturing Execution Systems ( MES ) 5/5 - User Requirements Template for MES]].
+
+===== The MES Software "InfoCarrier" ( formerly: "InfoCarrier1" ) =====
+==== Business Structure ====
+=== Product Owner, Product Developer, Product Maintainer & Current Vendor in 2012 ===
+  *[[http://www.onoff-group.de/|on/off group]] - Mission: "We realise your vision".
+    *[[http://www.onoff-group.de/produkte/infocarrier.htm|on/off it-solutions GmbH "InfoCarrier"]].
+    *[[http://www.genios-firmen.de/firma,ON,1,on-off-it-solutions-gmbh.html|Genios Firmenverzeichnis "on/off it-solutions gmbh"]] - "Schwerpunkt Prozessautomatisierung, insbesondere die Produktpflege und Weiterentwicklung des Softwarepaketes InfoCarrier1".
+    *[[http://trademark.markify.com/trademarks/ctm/infocarrier/008625221|Markify - Detailed trademark information from the official
+European Union trademark database (CTM) "InfoCarrier"]].
+    *[[http://www.xing.com/companies/on%252Foffengineeringgmbh/|XING "on/off engineering gmbh"]].
+    *[[http://www.xing.com/companies/on%252Foffit-solutionsgmbh?trkid=us%3a19ca5727df6d03f0883d86d2e0928233%3ad41d8cd98f00b204e9800998ecf8427e%3acompanies;trkoff=0|XING "on/off it-solutions gmbh"]].
+    *[[http://www.prezi.com/explore/search/?search=infocarrier|Prezi "infocarrier"]].
+    *[[https://www.bundesanzeiger.de/ebanzwww/wexsservlet?global_data.designmode=eb&genericsearch_param.fulltext=on/off gmbh&genericsearch_param.part_id=&%28page.navid%3Dto_quicksearchlist%29=Suchen|Bundesanzeiger "on/off gmbh"]].
+    *[[http://www.wirtschaftskreis-hannover.de/?Hannoverpreis_2006|HannoverPreis 2006 - "“Ressource 55 Plus – das Kapital für nachhaltigen Unternehmenserfolg"]].
+=== Former Product Owner, former Product Developer, former Product Maintainer ===
+  *[[http://wayback.archive.org/web/*/http://www.provis-gmbh.de/|Archive.org "PROVIS GmbH & Co. KG"]].
+  *<del>[[http://provis.tuareg.de/|PROVIS GmbH & Co. KG - The MES Specialists]]</del>.
+  *[[http://www.xing.com/profile/Manfred_Gahr|XING "Manfred Gahr"]], [[http://de.linkedin.com/pub/manfred-gahr/1/b8a/483|LinkedIn "Manfred Gahr"]].
+=== Offshore Software Developer ===
+  *[[http://www.sitex-soft.com/|Sitex - Software Development Outsourcing]], [[http://www.sitex-soft.de/|Sitex GmbH]].
+    *[[http://www.sitex-soft.com/solutions_infocarrier1.html|Sitex - Software Development Outsourcing, Success stories - "InfoCarrier"]] / [[http://www.sitex-soft.de/solutions_infocarrier1.html|Sitex GmbH - "Produktionsplanung mit Manufacturing Execution System InfoCarrier"]] - "Our client has successfully integrated the InfoCarrier1 MES system into many manufacturing environments throughout the globe".
+    *[[http://www.r-p-c.ru/about/press-release/infocarrier1-novyy-produkt-na-rossiyskom-it-rynke-dlya-himicheskoy-i-pishchevoy|IT Concern R-Pro - Press Release "InfoCarrier1"]].
+    *[[http://www.iitb.ru/realiz_marorpiyatia_p_5.html|IITB "InfoCarrier1"]].
+=== Reporting Tools ===
+== Integrated commercial Reporting Tool ==
+  *[[http://www.combit.net/en/reporting-tool/|combit Software GmbH "List & Label"]]. There is a free standalone 30-days trial version available for download.
+== External commercial Reporting Tool ==
+  *[[http://en.wikipedia.org/wiki/Microsoft_Excel|EN.Wikipedia "Microsoft Excel"]], [[http://de.wikipedia.org/wiki/Microsoft_Excel|DE.Wikipedia "Microsoft Excel"]].
+==== Modules ====
+  -Energy Management ( EMS ).
+    *[[http://en.wikipedia.org/wiki/Energy_management_system|EN.Wikipedia "Energy management system"]].
+  -Overall Equipment Effectivness ( OEE ).
+    *[[http://en.wikipedia.org/wiki/Overall_equipment_effectiveness|EN.Wikipedia "Overall equipment effectiveness"]], [[http://de.wikipedia.org/wiki/Gesamtanlageneffektivit%C3%A4t|DE.Wikipedia "Gesamtanlageneffektivität"]].
+  -Process Information Management System ( PIMS ).
+    *[[http://www.innovarsystems.com/process_information_management_systems.htm|Innovar Systems Ltd. "Process Information Management Systems. Process Management Needs to Process Management Solutions"]].
+    *[[http://en.wikipedia.org/wiki/Time_series_database|EN.Wikipedia "Time series database"]], [[http://en.wikipedia.org/wiki/Operational_historian|EN.Wikipedia "Operational historian"]] / "Enterprise Historian".
+  -Quality Management and Quality Assurance ( <del>LIMS</del> ).
+    *[[http://en.wikipedia.org/wiki/Laboratory_information_management_system|EN.Wikipedia "Laboratory information management system"]], [[http://de.wikipedia.org/wiki/LIMS|DE.Wikipedia "LIMS"]].
+  -Material Management ( MM ).
+    *[[http://en.wikipedia.org/wiki/Materials_management|EN.Wikipedia "Materials management"]], [[http://de.wikipedia.org/wiki/Materialwirtschaft|DE.Wikipedia "Materialwirtschaft"]].
+==== According to official Sales Flyers, InfoCarrier can especially communicate & cooperate with third-party DCS and SCADA systems, like... ====
+  *The DCS software [[http://www.easydeltav.com/|Emerson Process Management - The DeltaV Digital Automation System]].
+  *[[http://www.abb.com/product/seitp334/c1256ccb004e7bd7c125696000314d37.aspx|ABB Enterprise Historian for Windows]] ( AEH ) = "ABB Inform<sup>IT</sup> Enterprise Historian".
+    *[[http://solutionsbank.abb.com/shared/Explorer.asp?SFam=Enterprise+Historian|ABB Solutionsbank "Enterprise Historian (48 Documents)"]].
+  *The SCADA software [[http://global.wonderware.com/EN/Pages/WonderwareManufacturingExecutionSystem.aspx|Invensys Inc. "Wonderware Manufacturing Execution Systems Software Solutions"]].
+    *[[http://global.wonderware.com/DE/Pages/WonderwareHMISCADA.aspx|Wonderware InTouch HMI "Wonderware Lösung:
+HMI/SCADA"]].
+    *[[http://global.wonderware.com/DE/Pages/WonderwareQualitaetsmanagement.aspx|Wonderware InTouch HMI "Wonderware Lösungen: Produkt- & Qualitätsmanagement"]].
+
+===== Some other just-commercial MES Software, but with free Trial Editions =====
+  *[[http://www.inductiveautomation.com/|Inductive Automation "Ignition"]] - "HMI, SCADA & MES Software", with SPC and OOE modules.
+    *[[http://www.inductiveautomation.com/downloads|Inductive Automation "Ignition" - Download a free Trial]] - "You will be able to download the entire Ignition suite of modules, or individual modules. All downloads are fully functional for evaluation and development purposes".
+===== Some other just-commercial MES Software =====
+==== General MES Software ====
+  -[[http://www.camline.com/|camLine Datensysteme GmbH]] - "MES provider. Software Solutions for Manufacturing".
+    *[[http://www.camline.com/products/lineworks-suite.html|camLine Datensysteme GmbH "LineWorks Suite
+Maximum efficiency for your production management environment"]].
+  -[[http://www.forcam.de/|FORCAM GmbH "Factory Framework"]].
+    *[[http://forcam.gittinger.de/index.php?id=25|FORCAM GmbH "Events und Termine"]] -> The commercial event "Produktivitäts-Kongress FIT (Fertigungs-Informations-Tag)".
+  -[[http://www.ge-ip.com/products/industrialsoftware/c484|GE Intelligent Platforms - GE WORKS]] - "Manufacturing Software"
+    *Free [[http://vshow.on24.com/vshow/ge?l=en|GE Webinars]] -> Free webinar "Taking the risk out of MES" ( 45 minutes ).
+  -[[http://www.guardus-solutions.de/|GUARDUS Solutions AG]] - "The Quality and MES Company".
+    *[[http://www.guardus-solutions.de/nc/fuss-navigation/veranstaltungen.html|GUARDUS Solutions AG - Veranstaltungen]] - "GUARDUS Talks".
+      *GUARDUS Talk: Qualitäts- und Produktions-Kennzahlen zur Prozessregelung" 2012-03-15 in Hannover, 2012-09-27 in Bielefeld.
+  -[[http://global.wonderware.com/EN/Pages/WonderwareManufacturingExecutionSystem.aspx|Invensys Inc. "Wonderware Manufacturing Execution Systems Software Solutions"]], [[http://global.wonderware.com/DE/Pages/WonderwareManufacturingExecutionSystem.aspx|Invnesys Systems GmbH >Wonderware< "Wonderware Lösungen: Manufacturing Execution Systems"]].
+    *[[http://global.wonderware.com/DE/Pages/WonderwareDeveloperNetwork.aspx|Invnesys Systems GmbH >Wonderware< "Wonderware Developer Network"]].
+    *[[http://global.wonderware.com/EN/Pages/WonderwareELearning.aspx|Invensys Inc. "Wonderware eLearning"]].
+    *[[http://global.wonderware.com/EN/Pages/WonderwareLearningTools.aspx|Invensys Inc. "Learning Tools"]].
+    *[[http://training.wonderware.com/calendars/index.cfm?fuseAction=loadCatalog&calendarID=12|Invensys Inc. "Winderware Online Seminar Listing"]] .
+      *[[http://training.wonderware.com/mytraining|Invensys Inc. "My Training"]] - Login for online courses, for use with Microsoft [[http://en.wikipedia.org/wiki/Windows_Media_Player|Windows Media Player]] on W2k or newer.
+      *Commercial seminars.
+      *Free seminars just about "Wonderware Software Installation" ( "Fee: None" ).
+  -[[http://www.itac.de/|iTAC Software AG "iTAC MES.Suite"]].
+  -[[http://www.kratzer-automation.com/|KRATZER AUTOMATION AG]].
+    *[[http://www.industrialautomation24.com/|kratzer AUTOMATION "INDUSTRIAL AUTOMATION. Software-Lösungen für Fertiung und Produktion"]].
+      *[[http://www.industrialautomation24.com/de/integrated-manufacturing/|kratzer AUTOMATION "MES intraFACTORY"]].
+  -[[http://www.mes-solutions.de/|MES-GRUPPE]].
+    *[[http://www.proses.de/|ProSeS BDE GmbH]].
+  -[[http://www.mpdv.de/|MPDV Mikrolab GmbH "MES-Lösung HYDRA"]].
+    *The free online tool [[http://roi.mes-portal.com/|MPDV Mikrolab GmbH  "ROI-Analyzer für MES-Systeme"]].
+    *[[http://www.mpdv.de/de/veranstaltungen/veranstaltungen.htm|MPDV Mikrolab GmbH - Veranstaltungen]].
+      *2012-06-14 "Nutzenpotenziale und Best-Practice MES" in Wolfsburg.
+    *Training concept: The system administrators of the customers are trained, afterwards the administrators get the system manuals and the database password :-).
+  -[[http://www.orbitmes.com/|OrBit Manufacturing Execution System]] - "be agile, be efficient".
+  -[[http://www.psipenta.de/|PSIPENTA Software Systems GmbH]] -> See [[erp.html|Enterprise Resource Planning ( ERP ) / "Produktionsplanung und Steuerung" ( PPS )]].
+  -Rockwell Automation.
+    *[[http://www.rockwellautomation.com/rockwellsoftware/production/productioncentre/|Rockwell Automation "FactoryTalk ProductionCentre"]], written in Java.
+    *[[http://www.rockwellautomation.com/rockwellsoftware/performance/vantagepoint/|Rockwell Automation "FactoryTalk VantagePoint EMI"]].
+      *You can create 2 kind of models, either one of it, or both:
+        *Physical model.
+        *Model according to ISA.
+  -SIEMENS
+    *[[http://www.automation.siemens.com/mcms/automation/en/manufacturing-execution-system-mes/|SIEMENS Manufacturing Execution System (MES) - respond in real time]] - "SIMATIC IT".
+    *[[http://www.ibs-ag.de/|IBS AG. A SIEMENS Business]].
+      *[[http://www.ibs-ag.de/loesungen/ibsprisma-mes-software-mom-software/index.html|IBS AG "IBS:prisma"]] - "Die IBS AG bietet heute mit IBS:prisma ein vollständiges MES-Manufacturing Execution System an".
+      *"IBS:prisma" is suitable to work in all MES segments, i.e. especially where discrete, batch and countinous production is mied, like with the production of "adhesive tapes".
+  -[[http://www.werum.de/en/mes/start/meshome.jsp|Werum Software & Systems AG "PAS-X Manufacturing IT Business Platform for Pharma and Biotech Industries"]].
+==== Operational Historian / Data Historian  ====
+=== Historian Software ===
+  *[[http://www.abb.com/product/seitp334/c1256ccb004e7bd7c125696000314d37.aspx|ABB Enterprise Historian for Windows]] ( AEH ) = "ABB Inform<sup>IT</sup> Enterprise Historian".
+    *[[http://solutionsbank.abb.com/shared/Explorer.asp?SFam=Enterprise+Historian|ABB Solutionsbank "Enterprise Historian (48 Documents)"]].
+  *The historian "Acron".
+    *[[http://www.videc.info/de/produkte/acron-der-anlagenchronist|VIDEC Data Engineering GmbH "ACRON"]].
+    *[[http://www.dataforum.de/|DataForum Software GmbH]].
+    *[[http://www.acron8.com/|ACRON8]] - "Das Historian Paket für Langzeitarchivierung, Auswertung und Analyse historischer Daten, komfortable Protokollierung, dokumentenecht, werksweit, anlagenübergreifend".
+  *Aspen Technology InfoPlus.21.
+  *Canary Enterprise Historian.
+  *Capstone Technology dataPARC.
+  *[[http://www.ge-ip.com/products/2420?cid=pr0317hist|GE Proficy Historian]].
+    *The free limited historian [[http://www.ge-ip.com/forms/historian_seed_program|Proficy Historian 4.5 - FREE 25 Tag System]] for WinXP.
+  *Honeywell PHD.
+  *m:pro IT Consult.
+  *National Instruments LabView DSC Citadel.
+  *OpenTSDB.net.
+  *The OpenSource [[http://openhistorian.codeplex.com/|CodePlex "openHistorian - The Open Source Time-Series Data Historian"]].
+  *OSIsoft PI.
+  *Prediktor OPC Historian.
+  *[[http://www.schneider-electric.com/sites/corporate/en/products-services/automation-control/products-offer/range-presentation.page?c_filepath=/templatedata/Offer_Presentation/3_Range_Datasheet/data/en/shared/automation_and_control/citect_historian.xml|Schneider Electric "CitectHistorian -  Data storage and reporting software"]].
+  *[[http://www.rockwellautomation.com/rockwellsoftware/data/historian/|Rockwell Automation "FactoryTalk Historian"]].
+  *SIEMENS ( [[http://support.automation.siemens.com/WW/llisapi.dll?func=cslib.csinfo&lang=de&siteid=cseus&aktprim=0&extranet=standard&viewreg=WW&objid=21394432|SIEMENS Prozessdatenarchivierung und Reporting]].
+    *Tools:
+      -[[http://www.automation.siemens.com/mcms/mes/de/mes_komponenten/simaticithistorian/|SIMATIC IT Historian]].
+      -[[http://www.automation.siemens.com/mcms/process-control-systems/de/simatic-pcs-7/simatic-pcs-7-systemkomponenten/process_historian/|SIMATIC PCS 7 Process Historian]], Process Historian on Information Server.
+      -PCS7 Archive ( CAS ).
+  *Wonderware Historian.
+    *On premise:
+      *[[http://software.invensys.com/products/wonderware/production-information-management/historian/|Invensys Software "Wonderware Historian – Industrial Process Historian Database Systems"]].
+      *[[http://global.wonderware.com/DE/Pages/WonderwareHistorian.aspx|Invensys Software "Wonderware Lösungen: Historian"]].
+      *[[http://trainweb.wonderware.com/getstartinsql/|Invensys Software "Getting Started with the IndustrialSQL Server Historian"]].
+    *Cloud:
+      *[[http://software.invensys.com/solutions/workforce-enablement/cloud-and-saas/|Invensys Software "Cloud for Industry Solutions"]].
+    *Though the Wonderware Historian has a SQL interface and so looks to be a SQL server, it stores its data in the filesystem, in high-compressed files. By this, Wonderware Historian provides a much higher data transfer rate than a SQL server ( it was able to store 40.000 datapoints/s even in 1995 ?! ) and just requires for datastorage just 3% - 5% of the filespace necessary for a SQL server. Even with the new "Wonderware Online Edition", the data is stored in the filesystem of Microsoft Asure, though the service imitates to be a SQL server in the cloud.
+    *Wonderware Historian is shipped with a Microsoft SQL server, but the SQL server is not used for storing datapoints, but just for stuff like this:
+      -Configuration.
+      -Security.
+      -Storage of Alarm messages.
+    *It is possible to host the "Wonderware Data Acquisition Server" separately from the "Wonderware Historian".
+=== Resources ===
+  *[[http://www.ge-ip.com/historianwp|GE "The Advantages of Plant-wide Historians vs. Relational Databases"]].
+  *[[http://en.wikipedia.org/wiki/Time_series_database|EN.Wikipedia "Time series database"]], [[http://en.wikipedia.org/wiki/Operational_historian|EN.Wikipedia "Operational historian"]] / "Enterprise Historian".
+  *Operational tip: It might be useful for historian users to redeclare most current "alarms" ( immediate action necessary ) to be just "events" ( at some time, somebody must take care of something ).
+===== Software which covers typical MES-alike Functions but which is not called MES =====
+==== Computerized Maintenance Management Systems ( CMMS ) ====
+=== Services ===
+  *Online service [[http://www.cworks.com.my/|CWORKS SYSTEMS BERHAD "CWorks CMMS"]] - Free account with 1 GByte data storage.
+=== Resources ===
+  *[[http://en.wikipedia.org/wiki/Computerized_maintenance_management_system|EN.Wikipedia "Computerized maintenance management system"]], [[http://de.wikipedia.org/wiki/Computerized_Maintenance_Management_System|DE.Wikipedia "Computerized Maintenance Management System"]] ( CMMS ).
+==== Energy Management Systems ( EnMS ) ====
+=== Schneider Electric / Invensys "Wonderware" ===
+  *[[http://software.invensys.com/products/wonderware/manufacturing-operations-management/corporate-energy-management/|Invensys Software "Wonderware Corporate Energy Management"]].
+=== Resources ===
+  *[[http://www.energieagentur.nrw.de/tools/emsmarktspiegel/|EnergieAgentur.NRW "Marktspiegel für Energiemanagement-Software"]].
+==== SIEMENS ====
+  *[[http://www.cee.siemens.com/web/at/de/industry/ia_dt/produkte-loesungen/branchenloesungen/bdata-energiemanagement/|Siemens "b.data Energiemanagement"]].
+    *Microsoft Excel is the output device for reports :-).
+    *A Windows application, storing data in an Oracle database.
+  *[[http://www.industry.siemens.com/topics/global/de/energieeffiziente-produktion/energieeffiziente-produkte/simatic-powerrate/seiten/default.aspx|SIMATIC powerrate]] - "Intelligentes Energiemanagement für SIMATIC WinCC und SIMATIC PCS 7".
+  *SIEMENS "Engineering-Tool APF".
+    *[[http://www.industry.siemens.com/verticals/global/de/nahrungs-genussmittel/milchverarbeitung/process-control-system/advanced-process-functions/seiten/default.aspx|SIEMENS "Milchverarbeitung noch transparenter gestalten"]].
+    *"Material-, Materiallos- und Parametersatzdaten effizient verwalten".
+    *"Unkomplizierte Lagerortverwaltung inklusive Lagerort- bzw. Materialsuche und Materialbuchvorgängen".
+    *"Auftragsplanung und -steuerung auf Teilanlagenebene".
+    *"lückenlose und zuverlässige Archivierung chargenbezogener Daten für Tracking und Tracing".
+==== Smart Metering ====
+=== Meter Data Management Systems ( MDMS ) ===
+  *[[http://www.smartoptimo.de/produkte-leistungen/meter-data-management-system-mdm.html|Meter-Data-Management-System]].
+=== Meter Data Unification and Synchronization ( MDUS ) Interface ===
+  *[[http://kb.trisugar.com/node/16169|Raymond Knowledge Base "OSIsoft meter data unification system"]].
+  *[[http://www.americainfra.com/article/OSIsoft-meter-data-unification-system/|US Infrastructure "OSIsoft meter data unification system"]].
+  *[[http://www.osisoft.com/company/press_releases/Press_Releases_-_Media/OSIsoft_MDUS_System_Becomes_SAP-Endorsed_Business_Solution.aspx|OSIsoft "OSIsoft MDUS System Becomes SAP-Endorsed Business Solution"]].
+  *[[http://www.emeter.com/company/news/2012-press-releases/emeter-energyip-mdus-bundle-becomes-an-sap-qualified-business-solution/|eMeter - A Siemens Business "eMeter EnergyIP MDUS Bundle Becomes An SAP-Qualified Business Solution"]].
+  *Motivation for MDUS: Smart Metering data needs to be evaluated by ERP systems, so there must be an interface between MDMS systems ( or smart metering data sources ) and ERP. 
+=== Resources ===
+  *[[http://www.smart-metering-21.de/|E-Zähler Portal - Online-News zu Smart Metering in Deutschland]].
+  *[[http://en.wikipedia.org/wiki/Electricity_meter|EN.Wikipedia "Electricity meter"]], [[http://de.wikipedia.org/wiki/Stromz%C3%A4hler|DE.Wikipedia "Stromzähler"]], [[http://de.wikipedia.org/wiki/Registrierende_Leistungsmessung|DE.Wikipedia "Registrierende Leistungsmessung"]] ( RLM ).
+==== Plant Information Systems ( PI Systems ) ====
+=== Company & Product ===
+  *[[http://www.osisoft.com/|OSIsoft "PI System"]] - "Empowering business in real-time".
+    *[[http://www.osisoft.com/software-support/what-is-pi/PI_System_Standards.aspx|OSIsoft "PI System Standards"]].
+    *[[http://learning.osisoft.com/|OSIsoft learning]].
+    *Blog [[http://learning.osisoft.com/Bucks_Blog.aspx|OSIsoft - Buck Bard, Learning Manager at OSIsoft]] / [[http://tastefunny.blogspot.de/|Buck Bard "TheyTasteFunny.com - or, Why Don´t Cannibals Eat Clowns?. New ideas on the subject of training, education, and adult learning in the high tech world"]].
+    *White paper [[http://www.osisoft.com/ISA_95.aspx|OSIsoft "ISA 95 and the RtPM Platform - OSIsoft"]] ( PDF ) -> Table which maps the relation of software features to ISA-95 operations.
+    *[[http://en.wikipedia.org/wiki/OSIsoft|EN.Wikipedia "OSIsoft"]].
+  *[[http://www.osisoft.com/ISA_95.aspx|OSIsoft "ISA 95 and the RtPM Platform"]] ( PDF ).
+=== Production Operations Applications ===
+
+^ ^ ^ ^
+^ # ^ *** APPLICATIONS USING THE RtPM PLATFORM *** ^ ***ISA 95 PRODUCTION OPERATIONS *** ^
+^ 1 | Alarm Management | Production Data Collection |
+^ 2 | Analyzer Performance | Production Analysis |
+^ 3 | Automated Reports | Production Data Collection |
+^ 4 | Balanced Scorecards | Production Performance Analysis |
+^ 5 | Batch Quality Monitoring | Production Tracking |
+^ 6 | Certificate of Analysis | Production Tracking |
+^ 7 | Control Loop Monitor | Production Performance Analysis |
+^ 8 | Data Reconciliation | Production Performance Analysis |
+^ 9 | Downtime Monitoring | Production Performance Analysis |
+^ 10 | Energy Management System | Production Performance Analysis |
+^ 11 | Hierarchical Process Data Views | Production Data Collection |
+^ 12 | Key Performance Indicators (KPI) | Production Performance Analysis |
+^ 13 | Manual Data Recording | Production Data Collection |
+^ 14 | Manufacturing Intelligence Data | Production Performance Analysis |
+^ 15 | Material Balance | Production Tracking |
+^ 16 | Material Pricing | Production Performance Analysis |
+^ 17 | Material Usage Tracking | Production Tracking |
+^ 18 | Multi-Plant Equipment Performance Monitor | Production Performance Analysis |
+^ 19 | Operating Envelope Data | Production Performance Analysis |
+^ 20 | Operations Data Warehouse | Production Performance Analysis |
+^ 21 | Operations Desktop | Production Data Collection |
+^ ::: | ::: | Production Tracking |
+^ 22 | Operator Handover | Production Data Collection |
+^ ::: | ::: | Production Tracking |
+^ 23 | Plant Performance Overviews| Production Data Collection |
+^ ::: | ::: | Production Tracking |
+^ 24 | Process Monitoring | Production Data Collection |
+^ ::: | ::: | Production Tracking |
+^ 25 | Process Performance Monitoring | Production Performance Analysis |
+^ 26 | Production Integration to ERP | Production Tracking |
+^ 27 | Production Plan Comparisons | Production Performance Analysis |
+^ 28 | Root Cause Analysis | Production Performance Analysis |
+^ 29 | Six Sigma | Production Performance Analysis |
+^ 30 | SPC/SQC Production Quality Control | Production Performance Analysis |
+^ 31 | Total Eff ective Equipment Productivity | Production Performance Analysis |
+^ 32 | Troubleshooting Equipment Startups | Production Performance Analysis |
+^ | | | 
+
+=== Other Manufacturing Areas Supported ===
+
+^ ^ ^ ^
+^ # ^ *** RtAPPS *** ^ *** Operation area *** ^
+^ 1 | Condition Based Maintenance (CBM) | Maintenance Data Collection |
+^ 2 | Continuous Emissions Monitor (CEM) | Maintenance Data Collection |
+^ 3 | Downtime Monitoring | Maintenance Data Collection |
+^ 4 | Environmental Compliance Monitoring | Management of Compliance |
+^ 5 | General Ops Documentation & Equipment Specification | Management of Documentation |
+^ 6 | Hazardous Waste Tracking | Management of Compliance |
+^ 7 | Incident Investigations | Management of Incidents and Deviations |
+^ 8 | Inventory Management | Inventory Data Collection |
+^ 9 | IT System Monitoring | Management of Information |
+^ 10 | Key Performance Indicators (KPI) | Maintenance Performance Analysis |
+^ ::: | ::: | Inventory Performance Analysis |
+^ ::: | ::: | Quality Analysis |
+^ 11 | Lab Quality Data Integration | Quality Test Data Collection |
+^ 12 | Lab Terminal Operations Reports | Quality Test Data Collection |
+^ 13 | Maintenance History and Status | Maintenance Data Collection |
+^ ::: | ::: | Maintenance Performance Analysis |
+^ 14 | Maintenance Lockout Procedures | Maintenance Data Collection |
+^ 15 | Manual Data Recording | Maintenance Data Collection |
+^ ::: | ::: | Quality Test Data Collection |
+^ ::: | ::: | Inventory Data Collection |
+^ 16 | Manufacturing Intelligence Data | Maintenance Performance Analysis |
+^ ::: | ::: | Inventory Performance Analysis |
+^ ::: | ::: | Quality Analysis |
+^ 17 | Operating Envelope Data | Maintenance Data Collection |
+^ ::: | ::: | Management of Incidents and Deviations |
+^ 18 | Product Compliance Monitoring | Management of Compliance |
+^ 19 | Product Development Trials | Management of Information |
+^ ::: | ::: | Management of Documentation |
+^ 20 | Quality Monitoring/Analysis | Quality Data Collection |
+^ 21 | Shared Inventory Management | Inventory Tracking |
+^ 22 | Troubleshooting Equipment Startups | Maintenance Data Collection |
+^ 23 | Waste Treatment Monitoring | Management of Compliance |
+^ | | | 
+
+==== Real-time Data Collection and Storage to support electric Grid Operations and Planning ====
+  *[[http://www.gridprotectionalliance.org/|Grid Protection Alliance (GPA)]] - "The Grid Solutions Division of GPA develops open source software applications to meet the specific demands of real-time data collection and storage to support electric grid operations and planning".
+  *The OpenSource [[http://www.openpdc.com/|CodePlex "openPDC - Grid Protection Alliance"]], [[http://openpdc.codeplex.com/|CodePlex "openPDC - Grid Protection Alliance"]].
+  *The OpenSource [[http://openhistorian.codeplex.com/|CodePlex "openHistorian - The Open Source Time-Series Data Historian"]].
+  *The OpenSource [[http://openfle.codeplex.com/|CodePlex "openFLE - Open Source Fault Location Engine"]].
+  *The OpenSource [[http://openpqdif.codeplex.com/|CodePlex "openPQDIF - Open Source PQDIF API"]].
+    *The free [[http://www.pqview.com/pqdiffractor/|PQDiffractor - PQDIF File Viewer Utility]].
+    *[[http://pqdif.epri.com/softwaredevelop.asp|EPRI - Electric Power Research Institute - PQDIF Users group]].
+  *The Grid Solutions Framework (GSF).
+  *The OpenSource [[http://pmuconnectiontester.codeplex.com/|CodePlex "PMU Connection Tester"]].
+  *<del>[[http://en.wikipedia.org/wiki/Phasor_measurement_unit|EN.Wikipedia "Phasor measurement unit"]]</del>.
+==== Cloud Services ====
+  *[[http://www.daqconnect.com/|DAQConnect]] - "Real-time Data to the Web. Web SCADA. Automation Systems". Free account for 2 Tags and 2000 Historical :-).
+    -Acquire your data.
+    -Sent it to DAQConnect.
+    -Create your screens.
+    -View from anywhere.
+===== Important Third-Party Software for use with MES =====
+==== Statistical Process Control ( SPS ) Tools ====
+  *[[http://www.q-das.de/|Q-DAS GmbH & Co. KG "Q-Das"]]. 
+    *[[http://www.q-das.de/de/service-download/buecher/|Q-DAS GmbH & Co. KG "Bücher. Hier finden Sie Bücher zu statistischen Fachgebieten"]].
+    *The free PDF magazine [[http://www.q-das.de/de/service-download/fachzeitschrift-piq/|Q-DAS GmbH & Co. KG "Fachzeitschrift PIQ (Partner Info Qualität)"]].
+    *There is a free demo version available as download.
+==== Operative Planning Tools ====
+  *[[http://www.asprova.eu/|Asprova AG "Asprova Europe - Advanced Planning and Scheduling System (APS)"]] - "Das Feinplanungssystem für die Lean-Produktion".
+  *[[http://www.preactor.com/|Preactor International Limited "Preactor - Production Planning and Scheduling Software"]].
+  *[[http://www.dualis-it.de/|DUALIS GmbH IT Solution]].
+===== SAP =====
+==== SAP NetWeaver ====
+  *See [[erp.html|Enterprise Resource Planning ( ERP ) / "Produktionsplanung und Steuerung" ( PPS )]].
+==== SAP NetWeaver Process Integration" ( SAP PI ) ( formerly: SAP Exchange Infrastructure ( SAP XI ) ) ====
+  *See [[erp.html|Enterprise Resource Planning ( ERP ) / "Produktionsplanung und Steuerung" ( PPS )]].
+
+==== SAP MII ( formerly: SAP xMII ) ====
+  *[[http://en.wikipedia.org/wiki/XApps|EN.Wikipedia "XApps"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3836214490/hemmerling-21|Sebastian Holzschuh: "SAP MII - Implementierung und Entwicklung"]].
+    *The accompanying website [[http://www.xmii.de/|SAP MII]].
+    *[[http://www.sap-press.de/2175|SAP Press "SAP MII - Implementierung und Entwicklung"]].
+  *[[http://help.sap.com/saphelp_xmii115/helpdata/en/SAP_xMII_Help.htm|SAP xMII Help]].
+  *[[http://en.wikipedia.org/wiki/SAP_Xapp_Manufacturing_Integration_and_Intelligence|EN.Wikipedia "SAP Xapp Manufacturing Integration and Intelligence"]] - "While not an MES it is typically used to link a shop floor system with an ERP and provide portals to information from plant floor applications and systems" ( = SAP xMII ).
+==== MES Software based on SAP NetWeaver ====
+  -[[http://www.iot-online.de/|IOT Institut für Organisations- und Technikgestaltung GmbH]].
+    *[[http://www.iot-online.de/iot-mes-steel.html|IOT Institut für Organisations- und Technikgestaltung GmbH "IOT MES Steel - Manufacturing Execution System (MES) für die Stahlindustrie auf der SAP NetWeaver-Plattform"]].
+    *[[http://www.iot-online.de/mes-steel.html|IOT Institut für Organisations- und Technikgestaltung GmbH "Beratung zum Manufacturing Execution System (MES) – MES Steel"]] - "Die IOT GmbH hat in Kooperation mit der [[http://www.informatik.fh-gelsenkirchen.de/|Fachhochschule Gelsenkirchen]] ein objektorientiertes MES-Modell mit neuem Standardisierungsansatz und eine serviceorientierte Integrationsarchitektur entworfen". 
+    *PDF document [[http://www.competence-site.de/produktions-it/Serviceorientierte-Integration-PPS-MES-SAP-NetWeaver-Technologien|Competence Site "Serviceorientierte Integration von PPS und MES mit SAP NetWeaver-Technologien"]] .
+    *[[http://www.informatik.fh-gelsenkirchen.de/index.php?id=12250&L=fzjzmjzf|Westfälische Hochschule - Fachbereich Informatik und Kommunikation, Gelsenkirchen "Betriebliche Informationssysteme (BIS)"]] - "Geschäftsprozesse und Modelle von Manufactoring Executions systems (MES)".
+  -[[http://www.inqu.de/|InQu Informatics GmbH]], [[http://www.inqu.eu/|InQu Informatics GmbH]].
+    *[[http://www.inqu.de/manufacturing-execution-system.html|InQu Informatics GmbH "InQu.MES – Manufacturing Execution System"]].
+    *[[http://www.inqu.de/prozessmanagement.html|InQu Informatics GmbH "Prozessmanagement & Feinplanung mit fastchain.APS"]].
+  -[[http://www.team-con.de/|T.CON GmbH & Co. KG]].
+    *[[http://www.team-con.de/loesungen/mes-manufacturing-execution-system/|T.CON GmbH & Co. KG "Manufacturing Execution System"]].
+      *[[http://www.team-con.de/loesungen/mes-manufacturing-execution-system/tcon-mes-cat-manufacturing-execution-system.html|T.CON GmbH & Co. KG - T.CON MES CAT- Manufacturing Execution System]] - "Auf Basis von [[http://www.sap.com/germany/plattform/netweaver/|SAP NetWeaver]] programmiert".
+  -[[http://www.t-h.de/|Trebing & Himstedt. Prozeßautomation GmbH & Co. KG]].
+    *[[http://www.t-h.de/de/unternehmen/presse/news-single/news/th-loox-erstes-mes-system-basierend-auf-sap-mii-technologie.html|Trebing & Himstedt. Prozeßautomation GmbH & Co. KG "TH LOOX – Erstes MES-System basierend auf SAP MII Technologie"]] - "Zur diesjährigen Hannover Messe stellt Trebing + Himstedt seine neue MES-Lösung [[http://www.t-h.de/de/manufacturing-integration/produkte/th-loox.html|TH LOOX]] vor. Damit bringt der SAP Partner das erste MES-Produkt basierend auf SAP MII und SAP NetWeaver Technologie auf den Markt".
+==== SAP Interface to MES ====
+  *[[http://esworkplace.sap.com/|SAP Enterprise Services Workplace]].
+    *[[http://esworkplace.sap.com/socoview(bD1lbiZjPTAwMSZkPW1pbg==)/render.asp?id=B93B737648B94D26A01F85CC8C46510A&fragID=&packageid=DE0426DD9B0249F19515001A64D3F462&iv=|SAP Enterprise Services Workplace "ES Bundles"]].
+      *[[http://esworkplace.sap.com/socoview?id=A313A2B7CB584624B4FF1D89CD5C7E2E|SAP Enterprise Services Workplace - Integration of Manufacturing Execution Systems ( ES bundle )]].
+    *Wiki [[http://wiki.sdn.sap.com/wiki/display/ESpackages|SAP Community Network - Enterprise Services WIKI]].
+      *[[http://wiki.sdn.sap.com/wiki/display/ESpackages/Integration+of+Manufacturing+Execution+Systems|SAP Community Network - ES Wiki "Integration of Manufacturing Execution Systems"]].
+      *[[http://wiki.sdn.sap.com/wiki/display/ESpackages/Batch+Traceability+and+Analytics|SAP Community Network - ES Wiki "Batch Traceability and Analytics"]].
+==== SAP Materials Management ( SAP MM ) ====
+  *[[http://www.erptips.com/|ERPTips - SAP Knowledge. Transferred. Sustained]].
+    *[[http://www.erptips.com/Learn-SAP/SAP-Module-Overviews/Materials-Management-MM.asp|ERPTips - SAP Knowledge. Transferred. Sustained "SAP Materials Management (SAP MM)"]].
+
+===== OpenMES & Open Source MES =====
+==== OpenMES - Definition ====
+  *Definition "MES stands for Manufacturing Execution Sstem. 'Open' means here that the interfaces among various seminconductor tools are made publicly standardized and compatible. To accomplish such openess, CORBA ( [[http://en.wikipedia.org/wiki/Common_Object_Request_Broker_Architecture|Common Object Request Broker Architecture]] ) played a very important role. 'which enables and regulates interoperatiblity between objects and applications across heterogeneous languages and computer boundaries' ( Lin & Jeng, 2006 )"
+    *Document which contains the quotation:
+      *[[http://www.amazon.de/exec/obidos/ASIN/3642044794/hemmerling-21|Hiroyuki Itami, Ken Kusunoki, Tsuyoshi Numagami, Akira Takeishi: "Dynamics of Knowledge, Corporate Systems and Innovation: TBD"]], Chapter 9.4.3 "Root Causes of Losing Mass Production Benefits: The Weakened Wafer Manufacturing System", page 229.
+      *[[http://www.rieti.go.jp/en/publications/act_dp2007.html|RIETI Research Institute of Economy, Trade and Industry, Incorporated Administrative Agency - Discussion Papers]].
+        *[[http://www.rieti.go.jp/jp/publications/dp/08e001.pdf|CHUMA Hiroyuki, HASHIMOTO Norikazu: "Moore's Law, Increasing Complexity, and the Limits of Organization: The Modern Significance of Japanese Chipmakers' DRAM Business"]].
+    *Original commercial PDF document, no free download:
+      *[[http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=1561475|IEEE Xplore "Chang-Pin Lin, MuDer Jeng : An expanded SEMATECH CIM framework for heterogeneous applications integration"]].
+==== The OpenMES Standard ====
+  *PDF document "Specifications of the OpenMES Framework Version 1.0 (Draft alpha 2), MSTC/JOP 1202 (2000 September 1)".
+  *Authors / organisation:
+    *[[http://www.mstc.or.jp/|Manufacturing Science & Technology Center]].
+    *[[http://www.faop.jp/|FA Open Systems Promotion Forum (FAOP)]] ( formerly [[http://wayback.archive.org/web/*/http://www.mstc.or.jp/faop/|Archive.org "Japan FA Open Systems Promotion Group"]] ).
+      *[[http://wayback.archive.org/web/*/http://www.mstc.or.jp/faop/documents.html|Archive.org "Japan FA Open Systems Promotion Group - Documents"]].
+  *Download / view: 
+    *[[http://www.orbitmes.com/Products.htm|OrBit Manufacturing Execution System - Products]].
+      *The original document [[http://www.orbitmes.com/Download/Specifications%20of%20the%20OpenMES.pdf|OrBit Manufacturing Execution System "Specifications of the OpenMES Framework"]] ( PDF ).
+      *Online slideshow of the original document [[http://wenku.baidu.com/view/5152aa80e53a580216fcfe54.html|Baidu "Specifications of the OpenMES"]].
+    *Online slide show about the standard, but this is not the original document [[http://www.docin.com/p-33529312.html|DocIn "Masahiro Hori, IBM Tikyo Research Laboratory:
+'OpenMES: MSTC Manufacturing Model'"]].
+  *Commercial PDF documents, no free access:
+    *[[http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=816585|IEEE Xplore "OpenMES: scalable manufacturing execution framework based on distributed object computing"]], 1999.
+    *[[http://sciencelinks.jp/j-east/article/199923/000019992399A0924386.php|Science Links Japan "Development of Open MES Application Framework"]], 1999.
+==== Concept for a Open Source MES Software ====
+=== Literature ===
+  *Jens Reimann, Michael Schäfer, Christoph Schmidtbauer, Peter Schoner: "MES: Anforderungen, Architektur und Design mit Java, Spring & Co" -> See [[mes04.html|Manufacturing Execution Systems ( MES ) 4/5 - Literature]].
+=== Integration Methods ===
+  *Synchronisation ( replication of data sources, no direct access to the datasources ).
+  *Event-orientied synchronisation.
+  *Synchronisation by batch operation.
+  *Adaption ( direct access to external datasources or external services ).
+  *Service proxy ( link to the synchronous ERP world.
+  *Event adaptor ( link to asynchronous SCADA connections ).
+=== Tools ===
+== Spring ==
+  *[[http://www.springsource.org/|Spring]].
+  *[[http://www.springsource.org/spring-web-flow|Spring Web Flow]].
+  *[[http://www.springsource.org/spring-security|Spring Security]].
+  *[[http://en.wikipedia.org/wiki/Spring_Security|EN.Wikipedia "Spring Security"]].
+  *[[http://en.wikipedia.org/wiki/Spring_Framework|EN.Wikipedia "Spring Framework"]], [[http://de.wikipedia.org/wiki/Spring_%28Framework%29|DE.Wikipedia "Spring (Framework)"]].
+== Java EE ==
+  *[[http://www.oracle.com/technetwork/java/javaee/overview/|Oracle "Java EE at a Glance"]].
+  *[[http://en.wikipedia.org/wiki/Java_Platform,_Enterprise_Edition/|EN.Wikipedia "Java Platform, Enterprise Edition"]], [[http://de.wikipedia.org/wiki/Java_Platform,_Enterprise_Edition|DE.Wikipedia "Java Platform, Enterprise Edition"]] ( Java EE ).
+== Inversion of Control Container ( IoC Container ) ==
+  *[[http://www.martinfowler.com/articles/injection.html|Martin Fowler "Inversion of Control Containers and the Dependency Injection pattern"]].
+  *[[http://en.wikipedia.org/wiki/Inversion_of_control|EN.Wikipedia "Inversion of control"]], [[http://de.wikipedia.org/wiki/Inversion_of_Control|DE.Wikipedia "Inversion of Control"]].
+  *[[http://en.wikipedia.org/wiki/Dependency_injection|EN.Wikipedia "Dependency injection"]], [[http://de.wikipedia.org/wiki/Dependency_Injection|DE.Wikipedia "Dependency Injection"]].
+  *[[http://en.wikipedia.org/wiki/Hollywood_principle|EN.Wikipedia "Hollywood principle"]].
+== Bean Scopes ==
+  *[[http://static.springsource.org/spring/docs/3.0.0.M3/reference/html/ch04s04.html|SpringSource "4.4 Bean scopes"]].
+== Bean Factory ==
+  *[[http://static.springsource.org/spring/docs/1.2.9/reference/beans.html|SpringSource "Chapter 3. Beans, BeanFactory and the ApplicationContext"]].
+== Application Context ==
+  *[[http://www.wikijava.org/wiki/Using_the_Application_context_in_Spring|WikiJava "Using the Application context in Spring"]].
+== Web Application Context ==
+== Aspect-oriented Programming ==
+  *[[http://en.wikipedia.org/wiki/Aspect-oriented_programming|EN.Wikipedia "Aspect-oriented programming"]], [[http://de.wikipedia.org/wiki/Aspektorientierte_Programmierung|DE.Wikipedia "Aspektorientierte Programmierung"]].
+== Data Access Object ( DAO ), Java Data Object ( JDO ), Service Data Objects ( SDO ) ==
+  *DAO.
+    *[[http://static.springsource.org/spring/docs/2.0.x/reference/dao.html||SpringSource "Chapter 10. DAO support"]].
+    *[[http://en.wikipedia.org/wiki/Data_access_object|EN.Wikipedia "Data access object"]], [[http://de.wikipedia.org/wiki/Data_Access_Object|DE.Wikipedia "Data Access Object"]].
+  *JDO.
+    *[[http://en.wikipedia.org/wiki/Java_Data_Objects|EN.Wikipedia "Java Data Objects"]], [[http://de.wikipedia.org/wiki/Java_Data_Objects|DE.Wikipedia "Java Data Objects"]].
+  *SDO.
+    *[[http://en.wikipedia.org/wiki/Service_Data_Objects|EN.Wikipedia "Service Data Objects"]], [[http://de.wikipedia.org/wiki/Service_Data_Objects|DE.Wikipedia "Service Data Objects"]] ( SDO ).
+== Remoting Support ==
+  *RMI.
+    *[[http://en.wikipedia.org/wiki/Java_remote_method_invocation|EN.Wikipedia "Java remote method invocation"]], [[http://de.wikipedia.org/wiki/Remote_Method_Invocation|DE.Wikipedia "Remote Method Invocation"]] ( SDO ).
+  *Hessian / Burlap, HTTP-based protocols with binary serialisation.
+    *[[http://hessian.caucho.com/|Caucho Technology, Inc. "hessian binary web service protocol"]].
+    *[[http://en.wikipedia.org/wiki/Hessian_%28web_service_protocol%29|EN.Wikipedia "Hessian (web service protocol)"]], [[http://de.wikipedia.org/wiki/Hessian_%28Webprotokoll%29|DE.Wikipedia "Hessian (Webprotokoll)"]].
+    *[[http://de.wikipedia.org/wiki/Burlap|DE.Wikipedia "Burlap"]].
+  *The proprietary Spring HTTP remoting mechanism "HTTP Invoker".
+    *[[http://www.torsten-horn.de/techdocs/jee-spring-remote.htm|Thorsten Horn "Spring Remote (RMI + HTTP)"]].
+  *JAX-RPC / JAX-WS / SOAP.
+    *[[http://en.wikipedia.org/wiki/Java_API_for_XML-based_RPC|EN.Wikipedia "Java API for XML-based RPC"]], [[http://de.wikipedia.org/wiki/Java_API_for_XML-based_RPC|DE.Wikipedia "Java API for XML-based RPC"]].
+    *[[http://en.wikipedia.org/wiki/Java_API_for_XML_Web_Services|EN.Wikipedia "Java API for XML Web Services"]], [[http://de.wikipedia.org/wiki/Java_API_for_XML_Web_Services|DE.Wikipedia "Java API for XML Web Services"]].
+    *[[http://en.wikipedia.org/wiki/SOAP|EN.Wikipedia "SOAP"]], [[http://de.wikipedia.org/wiki/SOAP|DE.Wikipedia "SOAP"]].
+  *EJB - Enterprise Java Beans.
+    *[[http://en.wikipedia.org/wiki/Enterprise_JavaBeans|EN.Wikipedia "Enterprise JavaBeans"]], [[http://de.wikipedia.org/wiki/Enterprise_JavaBeans|DE.Wikipedia "Enterprise JavaBeans"]].
+  *JMS - Java Message Service.
+    *[[http://en.wikipedia.org/wiki/Java_Message_Service|EN.Wikipedia "Java Message Service"]], [[http://de.wikipedia.org/wiki/Java_Message_Service|DE.Wikipedia "Java Message Service"]].
+  *JMX - Java Management Console.
+    *[[http://en.wikipedia.org/wiki/Java_Management_Extensions|EN.Wikipedia "Java Management Extensions"]], [[http://de.wikipedia.org/wiki/Java_Management_Extensions|DE.Wikipedia "Java Management Extensions"]].
+== Hibernate ==
+  *[[http://www.hibernate.org/|Hibernate - JBoss Community]].
+  *[[http://en.wikipedia.org/wiki/Hibernate_%28Java%29|EN.Wikipedia "Hibernate (Java)"]], [[http://de.wikipedia.org/wiki/Hibernate_%28Framework%29|DE.Wikipedia "Hibernate (Framework)"]].
+== Spring Security ( formerly: Acegi ) ==
+  *[[http://www.springsource.org/spring-security|Spring Security]].
+  *[[http://en.wikipedia.org/wiki/Spring_Security|EN.Wikipedia "Spring Security"]].
+== Eclipse RCP ==
+  *[[http://www.eclipse.org/home/categories/rcp.php|Eclipse Rich Client Platform]].
+== jBPM ==
+  *[[http://www.jboss.org/jbpm|JBoss Community "jBPM"]].
+  *[[http://en.wikipedia.org/wiki/JBPM|EN.Wikipedia "jBPM"]], [[http://en.wikipedia.org/wiki/JBPM|DE.Wikipedia "jBPM"]].
+== Drools ==
+  *[[http://www.jboss.org/drools/|JBoss Community "Drools"]].
+  *[[http://en.wikipedia.org/wiki/Drools|EN.Wikipedia "Drools"]].
+== JMS, RMI ==
+  *[[http://de.wikipedia.org/wiki/Java_Message_Service|EN.Wikipedia "Java Message Service"]], [[http://de.wikipedia.org/wiki/Java_Message_Service|DE.Wikipedia "Java Message Service"]].
+  *[[http://en.wikipedia.org/wiki/Java_remote_method_invocation|EN.Wikipedia "Java remote method invocation"]], [[http://de.wikipedia.org/wiki/Remote_Method_Invocation|DE.Wikipedia "Remote Method Invocation"]].
+== OpenAdaptor ==
+  *[[http://www.openadaptor.org/|OpenAdaptor]].
+  *[[http://en.wikipedia.org/wiki/Openadaptor|EN.Wikipedia "Openadaptor"]], [[http://de.wikipedia.org/wiki/OpenAdaptor|DE.Wikipedia "OpenAdaptor"]].
+== Jasper Report ==
+  *[[http://community.jaspersoft.com/project/jasperreports-library|JasperReports Library - Open Source Java Reporting Library]].
+  *[[http://en.wikipedia.org/wiki/JasperReports|EN.Wikipedia "JasperReports"]], [[http://de.wikipedia.org/wiki/JasperReports|DE.Wikipedia "JasperReports"]].
+== JMX, Log4J ==
+  *Log4J.
+    *[[http://logging.apache.org/|Apache Logging Services]].
+    *[[http://logging.apache.org/log4j/|About Log4j]].
+    *[[http://en.wikipedia.org/wiki/Log4j|EN.Wikipedia "log4j"]], [[http://de.wikipedia.org/wiki/Log4j|DE.Wikipedia "log4j"]].
+  *Java Management Extensions.
+    *[[http://www.oracle.com/technetwork/java/javase/tech/javamanagement-140525.html|Oracle "Java Management Extensions (JMX) Technology"]].
+    *[[http://www.jcp.org/|Java Community Process]].
+    *[[http://en.wikipedia.org/wiki/Java_Management_Extensions|EN.Wikipedia "Java Management Extensions"]], [[http://de.wikipedia.org/wiki/Java_Management_Extensions|DE.Wikipedia "Java Management Extensions"]].
+== Canoo UltraLightClient ( ULC ) ==
+  *[[http://ulc-community.canoo.com/|Canoo Engineering AG "UltraLightClient code community"]].
+  *[[http://de.wikipedia.org/wiki/UltraLightClient|DE.Wikipedia "UltraLightClient"]].
+== Eclipse Rich Client Platform ( RCP ) ==
+  *[[http://wiki.eclipse.org/index.php/Rich_Client_Platform||Eclipsepedia "Rich Client Platform"]] ( RCP ).
+== JFace, JFace Data Binding, Eclipse Forms API, Draw2D / GEF, EMF / GMF ==
+  *[[http://wiki.eclipse.org/index.php/JFace|Eclipsepedia "JFace"]].
+  *[[http://en.wikipedia.org/wiki/JFace|EN.Wikipedia "JFace"]].
+  *[[http://wiki.eclipse.org/index.php/JFace_Data_Binding|Eclipsepedia "JFace Data Binding"]].
+  *[[http://www.vogella.com/articles/EclipseForms/article.html|Vogella "Eclipse Forms API - Tutorial"]].
+  *[[http://www.eclipse.org/gef/|Eclipse "Graphical Editor Framework ( GEF )"]].
+    *[[http://www.eclipse.org/gef/draw2d/|Eclipse "Draw2D"]].
+  *[[http://en.wikipedia.org/wiki/Eclipse_Modeling_Framework|EN.Wikipedia "Eclipse Modeling Framework"]], [[http://de.wikipedia.org/wiki/Eclipse_Modeling_Framework|DE.Wikipedia "Eclipse Modeling Framework"]] ( EMF ).
+  *[[http://en.wikipedia.org/wiki/Graphical_Modeling_Framework|EN.Wikipedia "Graphical Modeling Framework, "]] ( GMF ).
+
+==== Open Source MES Software ====
+=== Easy95 ODS ===
+  *The commercial [[http://www.ninety-five.com/|Ninety-Five "Easy95 ODS"]].
+    *"Web based Operations Management System (OMS) Framework".
+    *"Object oriented Operational Data Store based on ISA-95".
+    *[[http://www.ninety-five.com/company.html|Ninety-Five - Our Company]] - "The second step we took was to enhance the ODS with a suite of products to make it easy for users to build functionality. Most of this functionality can be found in any good MES system, but for people that need additional tools we developed the Easy95 Suite, a collection of tools based on Open Source techology. This gives end-users the advantage in price and  flexibility". 
+    *Open Source Technologies:
+      *Java/J2EE.
+      *Hibernate.
+      *Databases (PostgreSQL, MS SQL).
+      *Spring Framework.
+      *JSP/JSTL.
+        *[[http://en.wikipedia.org/wiki/JavaServer_Pages_Standard_Tag_Library|EN.Wikipedia "JavaServer Pages Standard Tag Library"]], [[http://de.wikipedia.org/wiki/JavaServer_Pages_Standard_Tag_Library|DE.Wikipedia "JavaServer Pages Standard Tag Library"]].
+      *Linux ( Ubuntu ).
+      *JavaScript.
+      *HTML/XSD/XML.
+        *[[http://en.wikipedia.org/wiki/XML_Schema_%28W3C%29|EN.Wikipedia "XML Schema (W3C)]], [[http://de.wikipedia.org/wiki/XML_Schema|DE.Wikipedia "XML Schema"]] ( XSD ).
+      *Tomcat. 
+      *C/C++.
+  *[[http://www.linkedin.com/pub/shahzad-ali/8/755/148|Shahzad Ali]] - "Easy95 Architect at Ninety-Five BVBA", "Software Architecture, Development and Engineering using Open Source ... for Manufacturing Enterprise Systems (MES) specializing in ISA-95 standards".
+=== FACTORITY ===
+  *The OpenSource [[http://www.factority.org/|FACTORITY - Open Source MES]] by [[http://www.assa-systems.de/|ASSA Systems GmbH]], a daughter company of [[http://www.itemic.com/|itemic AG]].
+  *[[http://openlaszlo.org/showcase|OpenLaszlo "Featured OpenLaszlo Applications"]] -> FACTORITY.
+    *"The only run-anywhere, no-lock-in rich internet platform. Period. The only write once, run anywhere richt internet application development framework. Declarative LZX language".
+    *"Client technology: -- Flash 8, Flash 9, and DHTML".
+=== 'flexpo' MES-Suite ===
+  *[[http://www.flexpo.de/|F&M Consulting. Beratung für den Mittelstand "flexpo.de"]].
+    *[[http://www.fundm.de/index.php?warp=Flexpo|F&M Consulting. Beratung für den Mittelstand "flexpo suite"]]  - "Das Open Source Konzept für den Fertigungsbetrieb" ( "Präsentationsmodus" pages for MSIE only ).
+    *Concept: Distribution just by a bundle of paid services and OpenSource software! 
+  *[[http://www.softguide.de/programm/flexpo-mes-suite-fuer-bdemdepze-und-dms|Softguide "flexpo - MES SUITE für MES, BDE,MDE,PZE und DMS. MES, BDE,MDE,PZE, PDM,PLM, DMS, Zutritt und CAM in einer SoftwareSuite (open Source)"]].
+  *[[http://www.fundm.de/index.php?warp=Fachbeitraege|F&M Consulting. Beratung für den Mittelstand - Fachbeiträge]].
+    *[[http://www.fundm.de/downloads/Publikation_25.pdf|InIndustrieanzeiger, 2009-04 "Open Source Lösungen für die Fertigungsindustrie"]] ( PDF ) - "Nicht zuletzt die kostspieligen Anpassungen der derzeitigen Standardlösungen haben ... zur Open Source MES-Produktphilosophie 'flexpo', einem Dienstleistungskonzept, welches für diese open Source-Philosophie steht, geführt. Aus den Anforderungsbeschreibungen an ein MES, das für die verschiedenen Produktionsbetriebe ausgeschrieben wurde, wurde ein Integrationsprojekt MES/PDM/PLM einschließlich einer RP-Einführung. F&M Consulting bot das gesamte Projekt lizenzfrei an und stellte die Programmquellen der 'flexpo'-MES-Suite sowie den Compiler zur Verfügung".
+=== Lean MES ===
+  *The OpenSource [[http://www.leanmes.net/|Lean MES - Open Source Manufacturing Execution System]] - "Flexible Manufacturing Solutions through Open Standards and Free Software....".
+  *[[http://www.leanmes.net/solutions/sourcecodelibrary.html|Lean MES - Open Source Manufacturing Execution System "Lean MES Open Source Code Library"]].
+  *[[http://www.leanmes.net/freetools.html|Lean MES - Open Source Manufacturing Execution System "Free Tools"]].
+=== OPENINSIDE W.L.L. ===
+  *[[http://www.open-inside.com/|OPENINSIDE W.L.L.]].
+  *[[http://www.open-inside.com/index.php/products/manufacturing-execution-system|OPENINSIDE W.L.L. "Alfresco OpenInside - Manufacturing Execution System (MES)"]].
+  *[[http://www.linkedin.com/company/openinside-w-l-l-|LinkedIn "OPENINSIDE W.L.L."]].
+    *[[http://www.linkedin.com/company/openinside-w-l-l-/manufacturing-execution-system-mes-871208/product?trk=biz_product|LinkedIn "OPENINSIDE W.L.L: Manufacturing Execution System (MES)"]].
+    *[[http://www.linkedin.com/pub/mahmood-al-halwachi/8/5b2/69a|Linkedin "Mahmood Al Halwachi"]].
+    *[[http://www.linkedin.com/pub/ameer-yousif/40/35/308|LinkedIn "Ameer Yousif, CEO at OPENINSIDE W.L.L."]].
+  *ADempiere 
+    *See [[erp.html|Enterprise Resource Planning ( ERP ) / "Produktionsplanung und Steuerung" ( PPS )]].
+    *[[http://www.adempiere.com/ADempiere_ERP_Wiki:Community_Portal|ADempiere ERP Wiki:Community Portal, 3rd Quarter 2012]] -"We are group of hard believer on open source solutions. We are trying to distribute the culture of open source technologies over the Arabian Gulf countries (KSA, Bahrain, Kuwait, Qatar, UAE, Oman) working to introduce deep manufacturing module MES (Manufacturing Execution System) in ADempiere".
+=== OpenSource "OpenMES" for Java, J2EE, JBoss ===
+  *The OpenSource [[http://openmes.sourceforge.net/|SourceForge "OpenMES"]], [[http://www.sourceforge.net/projects/openmes|SourceForge "OpenMES"]].
+=== Piñata MES ( Pinata MES ) ===
+  *The OpenSource [[http://pinatames.sourceforge.net/|SourceForge "Pinata MES"]], [[http://www.sourceforge.net/projects/pinatames/|SourceForge "Pinata MES"]] for Delphi / Kylix, by [[http://in.linkedin.com/pub/vikas-menon/1b/b76/b41|Vikas Menon]].
+  *[[http://www.powereng.com/projects/index.aspx?id=159|POWER Engineers, Inc. "Piñata RFID Interface"]].
+=== Pit's OpenMES Approach ===
+  *[[http://pitanaya.multiply.com/journal/item/1/MESSFC_Finalizing_OpenMES_framework_reading?&show_interstitial=1&u=%2Fjournal%2Fitem| PIT's Site "MES/SFC Finalizing OpenMES framework"]], 2007 - unpublished ?!.
+=== Qcadoo ===
+  *[[http://www.qcadoo.com/|qcadoo - Manufacturing Execution Simple]] - "Online production management application for small and medium-sized enterprises".
+  *[[http://www.qcadoo.com/about-project.html|qcadoo - About Project]] - "Join our exciting commercial open source project".
+  *The OpenSource [[http://www.qcadoo.com/community-edition-download.html|qcadoo - Community Edition]], [[http://qcadoo.sourceforge.net/|SourceForge "Qcadoo MES"]], [[http://www.sourceforge.net/projects/qcadoo/|SourceForge "Qcadoo MES"]].
+  *Blog [[http://blog.qcadoo.com/|qcadoo Manufacturing Execution Simple - Qcadoo product blog]].
+  *Wiki [[http://wiki.qcadoo.org/|qcadoo Dashboard]].
+    *[[http://wiki.qcadoo.org/display/QCDMESGTI/Commercial+Open+Source|qcadoo Dashboard "How Commercial Open Source works in Qcadoo?"]].
+  *[[http://www.facebook.com/qcadoo|Facebook "qcadoo MES"]].
+  *[[http://twitter.com/qcadoo|Twitter "Qcadoo"]] - "It's a MES for Small and Medium Businesses. Combining the ease of use, simplicity in customization with low monthly costs - it is the best MES ever. No kidding".
+  *[[http://www.youtube.com/watch?v=mCZK139JBsk|YouTube "qcadoo MES - an open source invasion on the manufacturing business, frameworks and PaaS"]].
+=== OpenSource ERP Software, which might be used / extended / configured for MES ===
+  *See [[enterprise.html|Standard Software for Enterprises]].
+=== Tuppas MES Software ===
+  *The commercial [[http://www.tuppas.com/mes-software/mes-software.htm|Tuppas Corporation "Tuppas MES Software"]] - "We offer a customizable **open source**. Whether we make the modifications or show you how to do it yourself, it's no longer a hassle to change the way your manufacturing software works. We open our source to your team. They can add fields, change report layouts and more, whenever you like".
+  *Blogs.
+    *[[http://open-source-mes.livejournal.com/|open_source_mes]].
+    *[[http://manufacturingerp.wordpress.com/|Manufacturing ERP's Weblog]].
+    *[[http://agilemanufacturingsoftware.blogspot.de/|Agile Manufacturing Software]] - "I have a new job at Tuppas Software, creator of Agile Manufacturing Software. I'll keep you informed about what projects I worked on, what I learned, how my day here went, etc.".
+    *[[http://www.master-production-schedule.com/|Master Production Schedule. Bringing a world of solutions to you]].
+    *[[http://www.manufacturing-scheduling.com/|Manufacturing Scheduling]].
+==== OpenMES - Commercial Software ====
+=== "OpenMES.NET" for .NET ===
+  *[[http://www.initec.info/index.php?option=com_content&view=article&id=47|inITec - industrial IT solutions. Dipl.-Ing. (FH) Viktor Hergenreder "Aktuelles"]] — "OpenMES.NET. Innovativer Ansatz für hochflexible produktionsnahe Softwaresysteme basierend auf der SOA-Architektur unter Verwendung der modernsten Technologien wie C#/.NET, WCF, LINQ und XML".
+=== "OpenMES" for .NET ===
+  *[[http://www.openmes.net/|Control-IT Industrial Automation Industrial Automation ( openmes.net )]] - "MES, SCADA en OPC consultancy".
+    *[[http://www.openmes.net/StartpuntMES.htm|Control-IT Industrial Automation Industrial Automation "MES : Manufacturing Execution System"]].
+      *[[http://www.openmes.net/MES/OpenMES/OpenMESIntro.htm|Control-IT Industrial Automation Industrial Automation "Introductie OpenMES.net"]].
+      *[[http://www.openmes.net/MES/OpenMES/Classes.htm|Control-IT Industrial Automation Industrial Automation "OpenMES.net Data model - Class name matrix"]].
+==== OpenMES - Slightly irrelevant Use of the Name ====
+  *<del>[[http://www.openmes.info/|AEC Soluzioni. Organizzazione e Tecnologie ( openmes.info )]]</del> - "ERP, CRM, ECM, BI".
+  *<del>[[http://www.openmes.com/|openmes.com]]</del> -> Empty website.
+  *<del>[[http://code.google.com/p/meslib/|Google Code "meslib"]]</del> - "OpenMES is a library implementing the Multilinear Event Sequencing data model" -> This project is not about Manufacturing Execution Systems :-(.
+===== Development of a MES Software from Scratch, by Startup Software Developer(s) =====
+  *"johnsonlim026"
+    *[[http://www.twitter.com/johnsonlim026|Twitter "johnsonlim026"]].
+    *[[http://forums.asp.net/p/1856304/5201040.aspx/1?Manufacturing+Execution+System+Book|ASP.NET, johnsonlim026 "Manufacturing Execution System Book"]], 2012-11-05 - "I am going to start develop MES system in web form.I am planning to a buy to study on it. But i have no idea which books to go for. Can anyone recommend?".
+===== Some other MES Software =====
+  *[[http://www.controldraw.co.uk/|ControlDraw]] - "ControlDraw is an object based process automation modelling system, for Engineers working with Process Control systems", "S88 models but not only batch!" - A trial version is available for free download.
+  *The free online tool [[http://roi.mes-portal.com/|MPDV Mikrolab GmbH  "ROI-Analyzer für MES-Systeme"]].
+  *[[http://mes-consult.de/index04_Software.html|MES Consult Klaus Thiel - Software]] - Commercial MES simulator "SI - MES" for Windows.
+
+===== Resources =====
+  *[[http://www.capterra.com/manufacturing-execution-software|CaPTERRA - the smart way to find software "Manufacturing Execution Software Programs"]].
+  *[[http://www.mescc.com/order-report.html|Logica's MES Centre of Excellence "MES Product Survey"]]. Commercial annual market overview, for 500 EUR + VAT.
+  *[[http://www.softguide.de/software/bde|SoftGuide - der Softwareführer. Ihre Marktübersicht über Standardsoftware, Business Software und Branchenlösungen "Software zur BDE, MDE, MES, Betriebsdatenerfassung, Maschinendatenerfassung - aktuelle Marktübersicht"]].
+  *[[http://www.softwareadvice.com/manufacturing/execution-systems-comparison/|Software Advice - The Authority on Software Selection "Manufacturing Execution Software (MES)"]].
+  *[[http://www.sourceforge.net/search/?q=MES|SourceForge - Search for "MES"]].
+  *[[http://www.trovarit.com/veroeffentlichungen/presse/aktueller-mes-marktspiegel-verschafft-ueberblick-ueber-anbieter-und-ihre-loesungen-.html|Trovarit AG "Aktueller MES-Marktspiegel verschafft Überblick über Anbieter und ihre Lösungen"]]. Commercial market overview, for 300 EUR + VAT.
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Software/Manufacturing/|OpenDirectory "Top: Computers: Software: Manufacturing"]].
+  *[[http://www.dmoz.org/Computers/Software/Manufacturing/Automation/|OpenDirectory "Top: Computers: Software: Manufacturing: Automation"]].
+  *[[http://www.dmoz.org/Business/Industrial_Goods_and_Services/Factory_Automation/|OpenDirectory "Top: Business
+: Industrial Goods and Services: Factory Automation"]].
+  *[[http://www.dmoz.org/Business/Electronics_and_Electrical/Control_Systems/Industrial/|OpenDirectory "Top: Business
+: Electronics and Electrical: Control Systems: Industrial"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wirtschaft/Industrieg%C3%BCter_und_-dienstleistungen/Automatisierungstechnik/|OpenDirectory "Top: World: Deutsch: Wirtschaft: Industriegüter und -dienstleistungen: Automatisierungstechnik"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wirtschaft/Industrieg%C3%BCter_und_-dienstleistungen/Software/|OpenDirectory "Top: World: Deutsch: Wirtschaft: Industriegüter und -dienstleistungen
+: Software"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wirtschaft/Industrieg%C3%BCter_und_-dienstleistungen/Software/Automatisierungstechnik/|OpenDirectory "Top: World: Deutsch: Wirtschaft: Industriegüter und -dienstleistungen
+: Software: Automatisierungstechnik"]].
+  *[[http://dir.yahoo.com/Business_and_Economy/Business_to_Business/Manufacturing/Factory_Automation/|Yahoo Directory "Business and Economy > Business to Business > Manufacturing > Factory Automation"]].
+{{tag>"manufacturing execution system" "manufacturing enterprise systems" "shop floor control system" mes openmes open "mes provider" manufacturing execution system "manufacturing operations management" mom shop floor control solution sfc "computer integrated manufacturing" computer integrated "digital factory" "adaptive manufacturing" "quality information system" "quality information systems" qis quality "statistical quality control" sqc "statistical process control" spc "plant information system" "plant information systems" "pi systems" "pi system" pi "plant information management systems" "plant information management system" "plantwide information management systems" "plantwide information management system" pims "production management system" "production management systems" pms plant plantwide production "information systems" "information system" "management system" "management systems" "information management systems" "information management system" "computer integrated manufacturing" cim simsalabim "product lifecycle management" plm "engineering data management" edm "product data management" pdm "manufacturing operating system" mom "collaborative production management" cpm "enterprise production management" "enterprise product management" epm "unified manufacturing" unified manufacturing  "computer aided manufacturing" cam computer aided "meter data unification and synchronization" meter data unification synchronization mdus "meter data management systems" management systems mdms}}
+<footnote_navi_en>

@@ -1,0 +1,339 @@
+====== [hemmerling] Unified Modeling Language ( UML ), Systems Modeling Language ( SysML ) ======
+Related pages:
+  *[[bprocess.html|Business Processes & Business Process Modeling]].
+  *[[workflow.html|Workflow Engines]].
+
+===== Organizations =====
+  *[[http://www.omg.org/|Object Management Group ( OMG )]].
+===== UPDM ( DoDAF, MODAF ) =====
+  *[[http://en.wikipedia.org/wiki/UPDM|EN.Wikipedia "UPDM"]].
+==== Unified Modeling Language ( UML ) ====
+  *[[http://www.uml.org/|Object Management Group ( OMG ) "UML Resource Page"]].
+  *[[http://www.torsten-horn.de/techdocs/uml.htm|Torsten Horn "UML Unified Modeling Language"]].
+  *[[http://www.jeckle.de/uml.de/|Mario Jeckle "UML auf gut Deutsch"]] - "UML-Übersetzungstabelle".
+  *[[http://www.nomagic.com/|No Magic, Inc.]].
+    *[[http://venus.nomagic.com/|No Magic, Inc. Online Learning Center]].
+      *[[http://www.magicdraw.com/online_training|No Magic, Inc., MagicDraw "No Magic Training Offerings"]].
+        *[[http://www.nomagic.com/text.php?lang=2&item=328&arg=286|No Magic, Inc. "Introductory UML 2 - FREE Online Course, TRAINING CURRICULUM]].
+          *"Free UML 2.0 online training" ( 2010-12, 2011-01, 2011-02,... ).
+    *[[http://training.nomagic.com/|No Magic Training and Information Portal]].
+  *[[http://en.wikipedia.org/wiki/Unified_Modeling_Language|EN.Wikipedia "Unified Modeling Language"]], [[http://de.wikipedia.org/wiki/Unified_Modeling_Language|DE.Wikipedia "Unified Modeling Language"]].
+==== Systems Modeling Language ( SysML ) ====
+  *[[http://www.omgsysml.org/|Object Management Group ( OMG ) "OMG Systems Modeling Language. The Official OMG SysML site"]].
+  *[[http://www.sysml.org/|SysML.org]] - "Open Source Specification Project".
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/389864409X/hemmerling-21|Tim Weilkiens "Systems Engineering mit SysML / UML. Modellierung, Analyse, Design"]].
+    *Companion site [[http://www.system-modellierung.de/|Tim Weilkiens "Systems Engineering mit SysML / UML. Modellierung, Analyse, Design"]].
+    *Blog [[http://blog.nomagic.com/author/tim-weilkiensoose-de/|Modeling Community Blog. A global community blog for idea sharing and expanding the modeling discipline "Tim Weilkiens"]].
+    *[[http://www.leanpub.com/variantmodelingwithsysml|Leanpub "Tim Weilkiens: Variant Modeling with SysML"]].
+    *[[http://mbse.gfse.de/|INCOSE MBSE Challenge teams, Model Based Systems Engineering "Telescope Modelling"]].
+  *[[http://en.wikipedia.org/wiki/Systems_Modeling_Language|EN.Wikipedia "Systems Modeling Language"]], [[http://de.wikipedia.org/wiki/Systems_Modeling_Language|DE.Wikipedia "Systems Modeling Language"]].
+==== MARTE ====
+=== The UML Profile ===
+  *[[http://www.omgmarte.org/|Object Management Group, Inc "The UML Profile for MARTE: Modeling and Analysis of Real-Time and Embedded Systems"]].
+=== Software ===
+  *[[http://www.omgmarte.org/node/31|Object Management Group, Inc "Tools related to MARTE"]].
+== Free Software Tools ==
+  *MAST.
+    *The OpenSource [[http://mast.unican.es/|Universidad de Cantabria "MAST - Modeling and Analysis Suite for Real-Time Applications"]].
+    *[[http://mast.unican.es/umlmast/|Universidad de Cantabria "UML-MAST - Visual Modeling and Analysis Suite for Real-Time Applications with UML"]].
+    *The OpenSource [[http://mast.unican.es/umlmast/marte2mast/|Universidad de Cantabria "Marte2Mast - Converter of schedulability analysis models made with UML2 and the UML profile for MARTE to MAST"]] - "This effort is delivered as an Eclipse plugin, and has been implemented using the Eclipse technologies provided by **Papyrus UML** as graphical tool, the UML2 plugin as model repository, and the **Acceleo plugin** for the extraction of text from the UML2 models plus a significant amount of Java custom code".
+  *[[http://debian.fmi.uni-sofia.bg/~spooler/gnticker/|University of Sofia, Faculty of Mathematics and Informatics "GNTicker - An interpreter for generalized nets"]].
+    *[[http://www.ifigenia.org/wiki/GNTicker|Ifigenia, the wiki for intuitionistic fuzzy sets and generalized nets "GNTicker"]].
+== Commercial Software Tools ==
+  *[[http://www.symtavision.com/products/symtas-traceanalyzer/|Symtavision GmbH "SymTA/S & TraceAnalyzer"]].
+  *CoFluent.
+    *[[http://en.wikipedia.org/wiki/CoFluent_Design|EN.Wikipedia "CoFluent Design"]].
+    *[[http://www.intel.com/content/www/us/en/cofluent/intel-cofluent-studio.html|Intel "Intel System Modeling and Simulation"]].
+  *[[http://www.ellidiss.com/products/aadl-inspector/|Ellidiss Software, TNI Europe Ltd "AADL Inspector"]] - Trial version is available for free download.
+=== Literature ===
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0124166199/hemmerling-21|Bran Selic, Sébastien Gérard "Modeling and Analysis of Real-Time and Embedded Systems with UML and MARTE"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3486715267/hemmerling-21|Evelina Koycheva "Entwurfsbegleitende Leistungsanalyse mit UML, MARTE und Generalisierten Netzen"]].
+  *Speech [[http://www.oose.de/abendvortrag/marte-uml-fuer-eingebettete-systeme/|OOSE eG, Axel Scheithauer "MARTE – UML für eingebettete Systeme"]], 2015-02-04
+    *[[http://www.slideshare.net/oose/marte-uml-fr-eingebettete-systeme|SlideShare "OOSE eG, Axel Scheithauer: MARTE – UML für eingebettete Systeme"]].
+===== Common Variability Language ( CVL ), as Supplement to UML /SysML =====
+  *[[http://www.omgwiki.org/variability/|Object Management Group ( OMG ) "Common Variability Language Wiki"]].
+
+===== OpenSource UML Tools =====
+  *Please check whether the ( UML ) diagramming tool in your focus allow you to export and import the model into / from the "Eclipse EMF" data format !
+==== AndroMDA ====
+  *[[http://www.andromda.org/|AndroMDA]], [[http://andromda.sourceforge.net/|Sourceforge "AndroMDA"]], [[http://www.sourceforge.net/projects/andromda/|Sourceforge "AndroMDA"]] - "A code generation framework that follows the Model Driven Architecture (MDA) paradigm". Code generation for Java and .NET.
+==== ArgoUML ====
+  *The OpenSource[[http://argouml.tigris.org/|Tigris.org "ArgoUML"]].
+  *Wiki [[http://www.argouml-users.net/|ArgoUML-Users]].
+  *//ArgUML supports use case, class and distribution diagrams//.
+  *The commercial successor [[http://www.gentleware.com/|Poseidon for UML]].
+  *The free successor [[http://www.gentleware.com/index.php?id=ce|Poseidon for UML, Community Edition]].
+  *[[http://en.wikipedia.org/wiki/ArgoUML|EN.Wikipedia "ArgoUML"]], [[http://de.wikipedia.org/wiki/ArgoUML|DE.Wikipedia "ArgoUML"]].
+==== BOUML ====
+  *The OpenSource [[http://bouml.free.fr/|BOUML]].
+  *[[http://en.wikipedia.org/wiki/BOUML|EN.Wikipedia "BOUML"]], [[http://fr.wikipedia.org/wiki/BOUML|FR.Wikipedia "BOUML"]], [[http://ca.wikipedia.org/wiki/BOUML|CA.Wikipedia "BOUML"]].
+==== Eclipse Uml2Tools ====
+=== Development with Eclipse open source UML Tools ===
+according to [[http://www.omondo.com/|Omondo]]:
+  - Stage: UML diagrams (GEF)
+  - Stage: UML Model (GMF)
+  - Stage: Model transformation (EMF)
+  - Stage: EMOF
+=== Acceleo ===
+  *The OpenSource [[http://www.acceleo.org/|Acceleo]] - "Accelerate your developments. Effective MDA!".
+  *[[http://www.eclipse.org/acceleo/|Eclipse Acceleo]].
+=== AmaterasUML ===
+  *The OpenSource [[http://amateras.sourceforge.jp/|Sourceforge "Project Amateras"]], [[http://www.sourceforge.jp/projects/amateras/|Sourceforge "Project Amateras"]] - Eclipse plugins, including "AmaterasUML".
+=== openArchitectureWare ( oAW ) === 
+  *[[http://www.openarchitectureware.org/|openArchitectureWare]].
+  *[[http://www.eclipse.org/workinggroups/oaw/|Eclipse openArchitectureWare working group]].
+  *[[http://en.wikipedia.org/wiki/OpenArchitectureWare|EN.Wikipedia "OpenArchitectureWare"]], [[http://de.wikipedia.org/wiki/OpenArchitectureWare|DE.Wikipedia "OpenArchitectureWare"]].
+=== Papyrus === 
+  *The OpenSource [[http://www.eclipse.org/modeling/mdt/papyrus/|Eclipse "Papyrus"]].
+  *[[http://www.papyrusuml.org/|Papyrus UML web site]] - "Papyrus for UML", "Papyrus for SysML", "Papyrus for EAST-ADL", "Papyrus for MARTE".
+=== UniMod ===
+  *The OpenSource [[http://unimod.sf.net/|UniMod]], [[http://unimod.sourceforge.net/|Sourceforge "UniMod"]], [[http://www.sourceforge.net/projects/unimod/|Sourceforge "UniMod"]] - "Executable UML".
+  *[[http://is.ifmo.ru/unimod-projects-en/|SAINT-PETERSBURG STATE UNIVERSITY OF INFORMATION TECHNOLOGIES, MECHANICS AND OPTICS, Programming Technologies Department  "UniMod projects"]], [[http://is.ifmo.ru/unimod_en/|SAINT-PETERSBURG STATE UNIVERSITY OF INFORMATION TECHNOLOGIES, MECHANICS AND OPTICS, Programming Technologies Department "UniMod"]].
+
+==== Fujaba Tool Suite ====
+  *The OpenSource UML 1.x tool & Eclipse plugin "Fujaba" ( "From Uml to Java And Back Again" ).
+  *Java code generation. 
+  *//Fujaba supports class, activity, statechart, package, usecase diagrams :-), but no sequence diagram :-(, due to the ideology of the designers//.
+  *[[http://www.fujaba.de/|Universität Paderborn "Fujaba Tool Suite"]].
+  *[[http://ag-schaefer.uni-paderborn.de/downloads/eclipse/|Eclipse Update Site - Software Engineering Group University of Paderborn]].
+  *[[http://www.se.eecs.uni-kassel.de/~fujabawiki/|FujabaWiki]].
+  *[[http://de.wikipedia.org/wiki/Fujaba|DE.Wikipedia "Fujaba"]].
+==== Gaphor ====
+==== GME - The Generic Modeling Environment ====
+  *[[http://www.isis.vanderbilt.edu/Projects/gme/|Vanderbilt University, Institute for Software Integrated Systems "GME"]].
+  *[[http://repo.isis.vanderbilt.edu/tools/get_tool?UDM|Vanderbilt University, Institute for Software Integrated Systems "Universal Data Model (UDM)"]].
+  *[[http://escher.isis.vanderbilt.edu/|Vanderbilt University, Institute for Software Integrated Systems  "ISIS Software Distribution site"]].
+    *[[http://escher.isis.vanderbilt.edu/downloads/|Vanderbilt University, Institute for Software Integrated Systems "Download Tools/Frameworks"]] - "GME".
+  *[[http://en.wikipedia.org/wiki/Generic_Modeling_Environment|EN.Wikipedia "Generic Modeling Environment"]].
+==== Modelio ====
+  *The OpenSource Modelio ( formerly: the free but not OpenSource "Modelio Free" ).
+    *[[http://www.modeliosoft.com/|Modeliosoft]].
+    *[[http://www.modelio.org/|Modelio Community]] - "modelio - the open source modeling environment".
+    *[[http://store.modeliosoft.com/|Modelio Store]] - Additional downloads.
+    *[[http://modelio-open.sourceforge.net/|SourceForge "Modelio Open project"]], [[http://www.sourceforge.net/projects/modelio-open|SourceForge "Modelio Open project"]].
+
+==== Netbeans ====
+  *[[http://netbeans.org/|NetBeans]].
+    *[[http://netbeans.org/features/uml/|NetBeans IDE UML Features]] - "The UML plugin for the NetBeans IDE is available for version 6.7 and earlier releases" ( i.e. not for current versions, like version 6.9.1 ).
+  *[[http://wiki.netbeans.org/UML|NetBeans Wiki "UML"]].
+    *The NetBeans UML plugin supports Activity Diagram, Class Diagram, Sequence Diagram, State Diagram, Use Case Diagram.
+    *The UML module has been removed from the standard distribution ( 2011 )
+    *Community decided for a complete rewrite of UML plugin -> Project Eidos ( 2011 ).
+    *[[http://wiki.netbeans.org/NetbeansUML|NetBeans Wiki "Getting Started with Netbeans UML modelling Tools"]].
+==== OpenAmeos ====
+  *The commercial [[http://www.aonix.com/ameos.html|Aonix Amos]].
+  *[[http://www.openameos.org/|OpenAmeos]] for WinXP and Linux - "The OpenSource UML Tool".
+    *OpenAmeos 10.0 is the latest release for W2k.
+  *[[https://www.scopeforge.de/cb/proj/doc.do?proj_id=8|ScopeForge - The ScopeSET Support and Community Portal      "Documents"]] -> downloads archive for binaries ( OpenAmeos 10.0, 9.2, ..).
+  *[[http://www.scopeset.de/|ScopeSET]].
+    *Blog [[http://www.scopeset.de/blog/|ScopeSET - The Tool Experts Blog]].
+  *[[http://en.wikipedia.org/wiki/Aonix|EN.Wikipedia "Aonix"]] - "In January 2010, Aonix and Artisan Software Tools agreed to merge, forming a new company to be called Atego".
+==== Software Ideas Modeler ====
+==== StarUML ====
+  *The OpenSource UML 1.x tool [[http://staruml.sourceforge.net/|Sourceforge "StarUML"]], [[http://www.sourceforge.net/projects/staruml/|Sourceforge "StarUML"]], [[http://staruml.tigris.org/|Tigris "StarUML"]] - "The Open Source UML / MDA Platform".
+    *Code generation for Java, C++, C#. 
+    *StarUML is the successor of "Plastic" alias "Argona Plastic" by [[http://web.archive.org/web/*/http://www.plasticsoftware.com/|Archive.Org "pLastic Software"]]. 
+    *//StarUML supports class, use case, sequence, collaboration, statechart, activity, component, deployment, composite structure and robustness diagrams//. 
+  *[[http://www.umlchina.com/Chat/staruml.htm|UMLChina, Minkyu Lee]] - discussion thread about StarUML.
+  *[[http://en.wikipedia.org/wiki/StarUML|EN.Wikipedia "StarUML"]], [[http://de.wikipedia.org/wiki/StarUML|DE.Wikipedia "StarUML"]].
+==== Toolkit in OPen-source for Critical Applications & SystEms Development ( Topcased ) ====
+  *The free UML 2.x & SysML tool [[http://www.topcased.org/|Topcased]].
+    *Topcased supports diagrams named AADL, Encore, SAM, SysML and UML.
+    *[[http://www.topcased.org/index.php?documentsSynthesis=y&amp;Itemid=59|Documents for the current Topcased release]].
+    *Projects: [[http://www.topcased.org/index.php?idd_projet_pere=7|7]], [[http://www.topcased.org/index.php?idd_projet_pere=10|10]], [[http://www.topcased.org/index.php?idd_projet_pere=20|20]], [[http://www.topcased.org/index.php?idd_projet_pere=21|21]], [[http://www.topcased.org/index.php?idd_projet_pere=23|23]], [[http://www.topcased.org/index.php?idd_projet_pere=24|24]], [[http://www.topcased.org/index.php?idd_projet_pere=25|25]], [[http://www.topcased.org/index.php?idd_projet_pere=28|28]], [[http://www.topcased.org/index.php?idd_projet_pere=29|29]], [[http://www.topcased.org/index.php?idd_projet_pere=30|30]], [[http://www.topcased.org/index.php?idd_projet_pere=32|32]], [[http://www.topcased.org/index.php?idd_projet_pere=33|33]], [[http://www.topcased.org/index.php?idd_projet_pere=34|34]], [[http://www.topcased.org/index.php?idd_projet_pere=36|36]], [[http://www.topcased.org/index.php?idd_projet_pere=37|37]], [[http://www.topcased.org/index.php?idd_projet_pere=38|38]], [[http://www.topcased.org/index.php?idd_projet_pere=44|44]], [[http://www.topcased.org/index.php?idd_projet_pere=47|47]], [[http://www.topcased.org/index.php?idd_projet_pere=52|52]], [[http://www.topcased.org/index.php?idd_projet_pere=58|58]], [[http://www.topcased.org/index.php?idd_projet_pere=59|59]], [[http://www.topcased.org/index.php?idd_projet_pere=61|61]], [[http://www.topcased.org/index.php?idd_projet_pere=63|63]], [[http://www.topcased.org/index.php?idd_projet_pere=64|64]], [[http://www.topcased.org/index.php?idd_projet_pere=71|71]], [[http://www.topcased.org/index.php?idd_projet_pere=73|73]], [[http://www.topcased.org/index.php?idd_projet_pere=74|74]], [[http://www.topcased.org/index.php?idd_projet_pere=75|75]], [[http://www.topcased.org/index.php?idd_projet_pere=77|77]], [[http://www.topcased.org/index.php?idd_projet_pere=79|79]], [[http://www.topcased.org/index.php?idd_projet_pere=82|82]], [[http://www.topcased.org/index.php?idd_projet_pere=84|84]], [[http://www.topcased.org/index.php?idd_projet_pere=86|86]], [[http://www.topcased.org/index.php?idd_projet_pere=88|88]], [[http://www.topcased.org/index.php?idd_projet_pere=90|90]], [[http://www.topcased.org/9index.php?idd_projet_pere=95|95]], [[http://www.topcased.org/index.php?idd_projet_pere=96|96]], [[http://www.topcased.org/index.php?idd_projet_pere=97|97]], [[http://www.topcased.org/index.php?idd_projet_pere=110|110]].
+    *No download of projects: [[http://www.topcased.org/index.php?idd_projet_pere=15|15]], [[http://www.topcased.org/index.php?idd_projet_pere=27|27]], [[http://www.topcased.org/index.php?idd_projet_pere=31|31]], [[http://www.topcased.org/index.php?idd_projet_pere=35|35]], [[http://www.topcased.org/index.php?idd_projet_pere=41|41]], [[http://www.topcased.org/index.php?idd_projet_pere=51|51]], [[http://www.topcased.org/index.php?idd_projet_pere=53|53]], [[http://www.topcased.org/index.php?idd_projet_pere=54|54]], [[http://www.topcased.org/index.php?idd_projet_pere=55|55]], [[http://www.topcased.org/index.php?idd_projet_pere=56|56]], [[http://www.topcased.org/index.php?idd_projet_pere=60|60]], [[http://www.topcased.org/index.php?idd_projet_pere=62|62]], [[http://www.topcased.org/index.php?idd_projet_pere=65|65]], [[http://www.topcased.org/index.php?idd_projet_pere=67|67]], [[http://www.topcased.org/index.php?idd_projet_pere=69|69]], [[http://www.topcased.org/index.php?idd_projet_pere=72|72]], [[http://www.topcased.org/index.php?idd_projet_pere=80|80]], [[http://www.topcased.org/index.php?idd_projet_pere=92|92]], [[http://www.topcased.org/index.php?idd_projet_pere=93|93]], [[http://www.topcased.org/index.php?idd_projet_pere=94|94]], [[http://www.topcased.org/index.php?idd_projet_pere=102|102]], [[http://www.topcased.org/index.php?idd_projet_pere=103|103]], [[http://www.topcased.org/index.php?idd_projet_pere=107|107]], [[http://www.topcased.org/index.php?idd_projet_pere=108|108]], [[http://www.topcased.org/index.php?idd_projet_pere=109|109]], [[http://www.topcased.org/index.php?idd_projet_pere=112|112]], [[http://www.topcased.org/index.php?idd_projet_pere=114|114]], [[http://www.topcased.org/index.php?idd_projet_pere=115|115]].
+  *[[http://de.wikipedia.org/wiki/TOPCASED|DE.Wikipedia "TOPCASED"]].
+  *TOPCASED failed to install on 64-bit Windows 7:-(.
+==== Umbrello ====
+  *[[http://uml.sourceforge.net/|Sourceforge "Umbrello UML Modeller"]], [[http://www.sourceforge.net/projects/uml/|Sourceforge "Umbrello UML Modeller"]] for Linux.
+  *//Umbrello supports use case, class, sequence, collaboration, state, activity, component, deployment diagrams and additionally "helper elements"//.
+  *[[http://uml.sourceforge.net/faq.php|Umbrello FAQ "Does Umbrello run on Windows?"]].
+  *[[http://kde-cygwin.sourceforge.net/|Sourceforge "KDE on Cygwin"]], [[http://www.sourceforge.net/projects/kde-cygwin/|Sourceforge "KDE on Cygwin"]].
+  *[[http://en.wikipedia.org/wiki/Umbrello_UML_Modeller|EN.Wikipedia "Umbrello UML Modeller"]], [[http://de.wikipedia.org/wiki/Umbrello|DE.Wikipedia "Umbrello"]].
+==== UMLet ====
+  *[[http://www.umlet.com/|UMLet]], in Java - "OpenSource UML Tool for Fast UML Diagrams".
+  *[[http://en.wikipedia.org/wiki/UMLet|EN.Wikipedia "UMLet"]].
+==== Violet ====
+===== Free UML Tools =====
+==== Artisan Studio Uno ====
+  *[[http://www.artisansoftwaretools.com/|Artisan]].
+    *The free UML 2.x tool [[http://www.artisansoftwaretools.com/products/artisan-studio-uno|Artisan Studio Uno]], for WinXP, Win2003, Vista, Win7 with .NET 2.0.
+      *[[http://www.artisansoftwaretools.com/download-center/product-guides/|Artisan "Tutorials"]].
+      *[[http://www.atego.com/download-center/utility/importstudio-70/|Artisan Importstudio]] - "Do you want to import simple tabular data to an Artisan Studio Model? If you can get it into Excel format then you might like this.... ".
+      *"Document Generator requires Word 2000 or later".
+      *"Studio Publisher requires Word 2003 or later".
+      *Installation creates the Windows account "QMS" on VISTA ??
+  *[[http://www.atego.com/|Atego]].
+  *[[http://de.wikipedia.org/wiki/Extessy|DE.Wikipedia "Extessy"]].
+  *[[http://en.wikipedia.org/wiki/Aonix|EN.Wikipedia "Aonix"]] - "In January 2010, Aonix and Artisan Software Tools agreed to merge, forming a new company to be called Atego".
+==== astah*, JUDE ====
+  *[[http://www.change-vision.com/index_en.html|ChangeVision]].
+    *[[http://jude.change-vision.com/|ChangeVision "JUDE"]].
+      *[[http://jude.change-vision.com/jude-web/product/community.html|ChangeVision "JUDE/Community"]].
+      *//Jude supports class, use case, sequence, collaboration, statechart, activity, component, deployment diagrams//.
+    *[[http://astah.change-vision.com/|ChangeVision "astah*"]].
+      *[[http://astah.change-vision.com/en/product/astah-community.html|ChangeVision "astah* community"]].
+      *[[http://astah.change-vision.com/en/comparison-table.html|ChangeVision "astah* Comparison Table]].
+  *[[http://en.wikipedia.org/wiki/Astah*|EN.Wikipedia "Astah*"]].
+==== Eclipse Plugins ====
+=== Omondo EclipseUML ===
+  *[[http://www.omondo.com/|Omondo]] - "The Live UML Company".
+    *The free outdated [[http://www.ejb3.org/download_studio_eclipse_3.4.html|EclipseUML 2008 Studio Edition release for Eclipse 3.4.2 Java and Java EE Modelers]]. Newer versions are just commercial.
+=== Slime UML ===
+  *The free [[http://www.mvmsoft.de/content/plugins/slime/|Marco van Meegen "Slime UML"]] - "The lean and mean modeling tool".
+==== IBM Rational Rhapsody ====
+=== The Product ===
+  *[[http://www.ibm.com/software/awdtools/rhapsody/|IBM Rational Rhapsody]] for WinXP - "Rational Rhapsody helps diverse teams collaborate to understand and elaborate **requirements**, abstract complexity visually using industry standard languages (**UML, SysML, AUTOSAR, DoDAF, MODAF, UPDM**), validate functionality early in development, and automate delivery of innovative, high quality products".
+  *[[http://www.ibm.com/developerworks/downloads/r/rhapsodydeveloper/|IBM developerWorks "Evaluate: IBM Rational Rhapsody Developer"]] - Free trial download offer.
+=== Documentation ===
+  *[[http://www.ibm.com/support/docview.wss?uid=swg27016562|IBM "About the Rational Rhapsody Information Center"]].
+  *[[http://publib.boulder.ibm.com/infocenter/rsdp/v1r0m0/index.jsp?topic=/com.ibm.help.download.rhapsody.doc/topics/rhapsody_version75.html|IBM Help "Rational Rhapsody"]].
+    *"Frameworks and Operating Systems Reference Manual" #.
+  *[[http://publib.boulder.ibm.com/infocenter/rhaphlp/v7r6/index.jsp|IBM Help "BM Rational Rhapsody, version 7.6 releases"]].
+=== Free Edition ===
+  *The free [[http://www.ibm.com/developerworks/downloads/r/modeler/|IBM Developerworks "Evaluate : IBM Rational Modeler"]], [[http://www.ibm.com/software/products/de/de/ratimode/|IBM Software-Produkte "Rational Modeler"]]. 
+=== Commercial Editions ===
+    *[[http://www.ibm.com/software/rational/products/rhapsody/developer/|IBM "Rational Rhapsody Developer"]] - "Visual development and validation of embedded software", code generation ( C++, C, Java, C#, Ada, support for realtime operating systems ) -> no price given. 
+      *It is the only Rhapsody edition which may create code from behaviour diagrams and the integrated state machine designer. It provides unique model animation for design level debugging.
+      *You have to create an "Adapter" for each ( new ) target. The libraries of the target compiler have to be recompiled & linked to new libraries, with the help of the adapter. This process enables the adoption of operating specific features, like:
+        *The implementation of the "wait()" timer instructions used in UML sequence diagrams.
+        *The scheduler of the operating system.
+      *The "Adapter" has several aspects and parts:
+        -Operating system abstraction layer ( OSAL ) implementation for specific target: .h and .cpp/c files in "Share\LangCpp\oxf" or "Share|LangC\oxf". E.g., "ntos.h/ntos.cpp,vxos.h/cpp", "QNXos.h/cpp" (or "RICOSVxWorks.h/c",...).
+        -*.mak files for framework build ( see these files under "LangCpp" and nested folders (e.g., "vxbuild.mak", "aom\vxaom.mak", "omcom\vxomcom.mak"... ).
+        -Make file properties to allow generation of OS-specific make files. They are located in "Share\Properties\factoryC++.prp" or "factoryC.prp" files in appropriate metaclass ( "VxWork6diab", "VxWorks6gnu", "QNXMomentics",... ).
+        -Command files, which are added during installation, to build framework libraries and generated applications( e.g. "Vx6make.bat", "msvc9make.bat", "qnxcwmake.bat"... ). They are located in "Share\etc" directory.
+    *[[http://www.ibm.com/software/rational/products/rhapsody/swarchitect/|IBM "Rational Rhapsody Architect for Software"]] - "Visual development environment for embedded systems and software", code generation ( C++, C, Java, C# ) -> $600.
+    *[[http://www.ibm.com/software/rational/products/rhapsody/sysarchitect/|IBM "Rational Rhapsody Architect for Systems Engineers"]] "Collaborative model-driven development for systems engineering embedded software" -> $600.
+    *[[http://www.ibm.com/software/rational/products/rhapsody/designer/|IBM "Rational Rhapsody Designer for Systems Engineers"]] - "Collaborative model based systems engineering" -> no online price given.
+    *[[http://www.ibm.com/software/rational/products/rhapsody/designmanager/|IBM "Rational Rhapsody Design Manager"]] - "Break down engineering silos with collaborative design management" -> no trial version available, no online price given.
+=== Tips & Tricks ===
+  *Prerequisites: Install all development tools you want IBM Rational Rhapsody to support, at first. 
+  *Install IBM Rational Rhapsody as the last development tool, as just during installation you can configure the pathes to other supported tools ( e.g. most important the selected C/C+ compilers ). 
+  *IBM Rational Rhapsody does not have menu options to configure the pathes to supported development tools at runtime :-(. Instead you can set or change pathes if you call the installer again. Select "Modify" and then type the "Back" button 3 times, to start the installation process, by which you can select again both the supported programming languages, let the installer find the pathes to installed development tools / set the development environment pathes, and select the installation of Rhapsody Add Ons.
+  *Supported development tools of IBM Rational Rhapsody 7.6.1: Microsoft Visual Studio 6, Microsoft Visual Studio 2008; Microsoft Windows Embedded CE 6.0, WindRiver Torndado, WindRiver Workbench, OSE Delta, Nucleus, Diab Data Compiler, GHS Integrity, GHS Multi for PPC, Neutrino QNX, Gnat Compiler, Gnat VxWorks, RAVEN, ObjectAda Compiler, Praxis Critical Systems SPARK, the free Cygwin Compiler.
+=== Resources ===
+  *The free PDF project documentation [[http://www.patric-schmid.de/patric-schmid/projekte/Softwareentwicklung_mit_Rhapsody.pdf|Patric Schmid, Bernd Huber, Martin Liersch, Stefan Lohr, Jan Radon: "Werkzeuggestützte Softwareentwicklung mit Rhapsody am Beispiel eines Süßwarenautomaten"]].
+  *[[https://www.ibm.com/developerworks/forums/thread.jspa?threadID=427404|IBM DeveloperWorks Forum, Thread "Please point me to 3rd-party Rational Rhapsody adapters"]], 20120-05.
+  *[[http://de.wikipedia.org/wiki/Rational_Rhapsody|DE.Wikipedia "Rational Rhapsody"]].
+  *[[http://en.wikipedia.org/wiki/Operating_system_abstraction_layer|EN.Wikipedia "Operating system abstraction layer"]].
+
+==== Objecteering UML, Objecteering SOA ====
+  *[[http://www.objecteering.com/|Objecteering]].
+    *The free [[http://www.objecteering.com/downloads_uml_free_edition.php|Objecteering UML Free Edition]] for Linux & Windows.
+    *The free [[http://www.objecteering.com/downloads_soa_free_edition.php|Objecteering SOA Free Edition]] for Linux & Windows.
+
+==== Oracle JDeveloper ====
+    *The free [[http://www.oracle.com/technetwork/developer-tools/jdev|Oracle JDeveloper]].
+      *[[http://netbeans.org/features/uml/|Looking for a full featured, free UML modeling environment? JDeveloper provides comprehensive modeling capabilities that include (1) UML diagrams like Use Case, Class, Activity and Sequence Diagrams (2) Domain Specific Modelers like JSF Flow diagrams, EJB Diagrams, Database Modeler and Schema Editor]].
+==== For Microsoft Visio ====
+  *[[http://www.phruby.com/|Pavel Hruby]] - free UML 2.0 & SysML stencils for Microsoft Visio 4.1, 5, 2000, 2002, 2003, 2003, 2007, 2010.
+==== Visual Paradigm ====
+  *The commercial [[http://www.visual-paradigm.com/|Visual Paradigm Suite]].
+    *Community Edition: If there is more than one diagram of any diagram type, there will be a pattern watermark when export to image or copy and paste to other applications, or else a watermark with text "non-commercial use only" will appear at the top left corner of image.
+      *The free limited [[http://www.visual-paradigm.com/download/vpuml.jsp?edition=ce|Visual Paradigm for UML, Community Edition]].
+      *The free limited [[http://www.visual-paradigm.com/download/sdeec.jsp?edition=ce|Smart Development Environment, Community Edition]].
+    *Comparison.
+      *[[http://www.visual-paradigm.com/product/vpuml/editions/|Visual Paradigm for UML Edition Comparison]].
+      *[[http://www.visual-paradigm.com/product/sde/ec/editions/|Smart Development Environment for Eclipse Edition Comparison]].
+      *[[http://www.visual-paradigm.com/product/sde/vs/editions/|Smart Development Environment for Visual Studio Edition Comparison]].
+      *[[http://www.visual-paradigm.com/product/sde/nb/editions/|Smart Development Environment for NetBeans Edition Comparison]].
+  *[[http://resource.visual-paradigm.com/|Visual Paradigm "Visual Paradigm Resource"]].
+    *[[http://resource.visual-paradigm.com/vpsuite2.3/requirement_diagram.html|Visual Paradigm Resource "Requirement Diagram"]].
+  *[[http://www.visual-paradigm.com/product/vpuml/provides/|Visual Paradigm "What VP-UML Provides?"]] - Tutorials.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0071240462/hemmerling-21|Curtis HK Tsang, Clarence SW Lau, Ying K Leung "Object-Oriented Technology: From Diagram to Code with Visual Paradigm for UML"]].
+  *Companion Website [[http://highered.mcgraw-hill.com/sites/0071240462/|Curtis HK Tsang, Clarence SW Lau, Ying K Leung "Object-Oriented Technology: From Diagram to Code with Visual Paradigm for UML"]], with book supplement ( a test paper and source code archive file ).
+  *[[http://www.visual-paradigm.eu/|BCS - Dr. Jürgen Pitschke "Visual Paradigm Suite - die Umgebung für visuelle Modellierung"]], Germany.
+    *Blog [[http://www.visual-paradigm.eu/de/vpblog|BCS - Dr. Jürgen Pitschke "Visual Paradigm Blog"]].
+==== Discontinued free UML Tools ====
+  *[[http://web.archive.org/web/*/http://www.htc.honeywell.com/dome/|Honeywell "DOME"]] - DOME is written in Smalltalk and runs on all VisualWorks platforms.
+  *[[http://web.archive.org/web/*/http://www.modelware-ist.org/|Archive.org "ModelWare"]] - "A project co-funded by the European Commission under the "Information Society Technologies" Sixth Framework Programme (2002-2006). INRIA is participating to the ModelWare project".
+    *[[http://web.archive.org/web/*/http:///www.eclipse.org/mddi/|Archive.org "Eclipse MDDI - Model Driven Development integration"]].
+    *[[http://www.eclipse.org/archived/|Eclipse "Archived Eclipse Projects", MDDi]].
+  *[[http://web.archive.org/web/*/http://www.proxysource.com|Archive.org "ProxySource, Inc."]] - The free "ProxyDesigner" for Windows  ( - 2006-04-07 ). Must be activated :-(!
+===== Commercial System Design & UML Tools =====
+==== microTOOL objectiF ====
+  *[[http://www.microtool.de/|microTOOL GmbH]].
+  *The commercial [[http://www.microtool.de/objectif/|microTOOL objectiF]].
+    *The free limited "objectiF Visual Studio .NET Personal Edition".
+    *The free limited "objectiF Eclipse Personal Edition".
+  ***Requirements Analysis**.
+    *[[http://www.microtool.de/objectif/en/anforderung.asp?call=en|microTOOL GmbH "Secure Traceability – Requirements Analysis with objectiF"]].
+
+==== Some other Commercial Tools without Free Edition or with Crippled Free/Trial Version ====
+  *[[http://www.borland.com/de/products/together/|Borland Together]].
+    *[[http://en.wikipedia.org/wiki/Borland_Together|DE.Wikipedia "Borland Together"]], [[http://de.wikipedia.org/wiki/Together|DE.Wikipedia "Together"]].
+    *Question about C++ support with Borland Together 5.5 - How to open a .cpp file with the editor ?
+      -Open a the right class diagram, which contains a class symbol of the appropriate C++ class, select the class symbol.
+        -Press the "Shift" key + click on operation, 
+        -Or choose "Edit Definition" from its context menu. 
+    *Borland Together 5.5.
+      *"Builder / Compiler Option / Classpath = $CLASSPATH_PROJECT$".
+      *"Builder / Compiler Option / Destination Directory =$TGH$/out/classes/$PROJECT_NAME$".
+  *IBM.
+    *[[http://www-142.ibm.com/software/products/us/en/atoz/rational|IBM Rational "Products A to Z"]].
+      *[[http://www-01.ibm.com/software/awdtools/developer/rose/|IBM Rational software "Rose Product line"]].
+      *[[http://en.wikipedia.org/wiki/Rational_Rose|EN.Wikipedia "Rational Rose"]].
+  *The affordable commercial [[http://www.metamill.com/|Metamill Software "Metamill"]] for Windows and Linux.
+  *[[http://www.magicdraw.com/|No Magic, Inc. "MagicDraw"]] by [[http://www.nomagic.com/|No Magic, Inc.]].
+    *MagicDraw UML demo version is limited to save up to 20 classes, 25 states, use cases, actions and collaboration objects. Besides that, it has an absolute expiration date ( e.g. 2010-12-31, 2011-06-30, 2011-08-31, 2011-12-31... ).
+    *MagicDraw connects to the MagicDraw website, at startup, there is a windows with the message "Connecting to MagicDraw website". If you are offline, there is the error message "Cannot connect to the autoupdate server. Please check your internet connection", but you can work offline.
+    *"If MagicDraw is not launched from IDE or you are getting OutOfMemoryErrors, be shure that the java option -XX:MaxPermSize=200M is spezified. For more details, see IDE's readme.html".
+    *MagicDraw supports IDE Integration for IntellJ IDEA, JBuilder, AndroMDA, Eclipse,oAW, Netbeans.
+    *Once, there was a free "MagicDraw Community Edition" ( e.g. 11.5 ) for developers working on non-commercial projects. In this edition, a minimal set of features was enabled and it only allowed full functionality for class diagrams. All other diagrams were read only.
+  *[[http://en.wikipedia.org/wiki/SCADE|EN.Wikipedia "SCADE"]], [[http://de.wikipedia.org/wiki/SCADE|DE.Wikipedia "SCADE"]].
+  *The affordable commercial [[http://www.sparxsystems.com.au/|SPARX Systems "Enterprise Architect"]] for Windows.
+    *The "Professional Edition" can generate code and allows round trip engineering.
+    *There is a "Requirements" diagram, for requirements engineering !
+===== Model To Text - UML to textual Documentation =====
+  *[[http://velocity.apache.org/|Apache Velocity]].
+    *[[http://www.magicdraw.com/|MagicDraw]] has built-in support for "Apache Velocity".
+  *[[http://www.eclipse.org/modeling/m2t/|Eclipse M2T]] - xpand, Jet, Acceleco.
+  *[[http://www.arc42.de/| arc42 - Resourcen für Software-Architekten]].
+  *XSLT
+===== Resources =====
+  *[[http://www.freedownloadscenter.com/Best/free-uml-kit.html|free DOWNLOADS CENTER "Free uml kit"]].
+  *[[http://www.case-tools.org/|Index CASE Tools]].
+  *[[http://www.lcc.uma.es/~amg/ISE/UML-Tools.html|Ingenieria del Software "UML Software"]].
+  *[[http://www.jeckle.de/|Mario Jeckle]].
+    *[[http://www.jeckle.de/umltools.html|Mario Jeckle "Unified Modeling Language (UML) Tools"]] - "Diese Liste enthält inzwischen Aussagen zum Leistungsumfang von mehr als 100 UML-Werkzeugen!".
+  *[[http://www.objectsbydesign.com/|Objects by Design]].
+    *[[http://www.objectsbydesign.com/tools/umltools_byCompany.html|Objects by Design: UML Modeling Tools]].
+    *[[http://forums.objectsbydesign.com/|Objects by Design Forums]] - "Sorry. Registration has been disabled by the administrator".
+  *oose Innovative Informatik GmbH.
+    *[[http://www.oose.de/nuetzliches/fachliches/uml-werkzeuge/|oose Innovative Informatik GmbH "UML Tools"]].
+    *[[http://www.oose.de/nuetzliches/fachliches/sysml-werkzeuge/|oose Innovative Informatik GmbH "SysML-Werkzeuge"]].
+  *[[http://www.sereferences.com/uml-tools.php|Software Engineering References "UML Tools Page"]].
+  *[[http://en.wikipedia.org/wiki/List_of_Unified_Modeling_Language_tools|EN.Wikipedia "List of Unified Modeling Language tools"]], [[http://en.wikipedia.org/wiki/UML_tool|EN.Wikipedia "UML tool"]], [[http://de.wikipedia.org/wiki/UML-Werkzeug|DE.Wikipedia "UML-Werkzeug"]].
+  *[[http://en.wikipedia.org/wiki/XML_Metadata_Interchange|EN.Wikipedia "XML Metadata Interchange"]], [[http://de.wikipedia.org/wiki/XML_Metadata_Interchange|DE.Wikipedia "XML Metadata Interchange"]] ( XMI ). 
+    *According to Wikipedia, XMI support is provided by "Altova UModel, ArgoUML, ARIS Toolset, Artisan Studio, BOUML, Umbrello, Sparx Systems Enterprise Architect, iteraplan, MagicDraw, SAP BI, Visual Paradigm, Eclipse Process Framework Composer, Rational Software Architect, Rational System Architect / Telelogic System Architect, StarUML, Pentaho, Innovator, UML2 Project (Eclipse MDT), JUDE".
+
+===== Forums, Newsgroups =====
+  *[[http://www.acceleo.org/forum/|Acceleo Forum]].
+  *[[http://forum.andromda.org/|AndroMDA Forum]].
+  *[[http://www.argouml-users.net/forum/|ArgoUML-Users Forum]].
+  *[[http://artisanstudiouno.4forum.biz/|Artisan Studio Uno, Forum]] - "Free support forum for Artisan Studio Uno, the free SysML systems modeling tool".
+  *[[http://www.gforge.enseeiht.fr/|Gforge]].
+    *[[http://lists.gforge.enseeiht.fr/mailman/listinfo/topcased-users|Mailing-List "topcased-users"]].
+  *[[http://www.linkedin.com/groups?gid=3736574|LinkedIn "MagicDraw"]].
+  *[[http://www.modeliosoft.com/en/support/forum.html|Modelio Forum]].
+  *[[http://community.nomagic.com/|No Magic Community Forum]].
+  *[[http://www.objecteering.com/portal/modules/newbb/|Objecteering Forum]].
+  *[[http://en.pudn.com/|PUDN - Programmers United Develop Art]] -"After registration, you should [upload] more than five source codes or program documents, then your account will be activated after the codes been checked by administrator".
+  *[[http://www.rhapsody4you.org/|RHAPSODY4YOU --Independent Rational Rhapsody Forum--]].
+  *[[http://www.scopeforge.de/|Scopeforge - "The ScopeSET Support and Community Portal"]].
+    *[[http://www.scopeforge.de/cb/project/8|Scopeforge "OpenAmeos Users and Community"]].
+    *[[http://www.scopeforge.de/cb/wiki/6260|Scopeforge "hemmerling's Personal Wiki"]].
+  *[[http://www.sparxsystems.com.au/cgi-bin/yabb/YaBB.cgi|Sparx Systems Forum]].
+  *[[http://www.visualmodeling.com/|Visual Modeling Forum]].
+    *[[http://www.sysmlforum.com/|SysML Forum]], [[http://groups.google.com/group/SysMLforum|Google Groups "SysML Forum"]].
+    *[[http://www.uml-forum.com/|UML Forum]], [[http://groups.google.com/group/UMLforum|Google Groups "UML Forum"]].
+  *[[http://forums.visual-paradigm.com/|Visual Paradigm Discussion Forum]].
+  *[[http://www.willert.de/uml-forum|Willert Software Tools GmbH "Embedded UML Forum"]].
+  *[[http://www.system-modellierung.de/diskussion.html|Tim Weilkiens "Systems Engineering mit SysML/UML. Modellierung, Analyse, Design" - Diskussion]].
+    *[[http://de.groups.yahoo.com/group/system-modellierung/|Yahoo Groups "system-modellierung · Systemmodellierung mit SysML und UML"]].
+    *[[http://www.xing.com/net/syng|XING "Systems Engineering - Modellierung, Vorgehen, Management" ( syng )]].
+{{tag>UML SysML}}
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Programming/Methodologies/Modeling_Languages/Unified_Modeling_Language/|OpenDirectory "Top: Computers: Programming: Methodologies: Modeling Languages: Unified Modeling Language"]].
+<footnote_navi_en>

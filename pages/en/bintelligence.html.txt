@@ -1,0 +1,208 @@
+====== [hemmerling] Business Intelligence, Data Mining ======
+Related page:
+  *[[infographics.html|Data Visualisation with Infographics]].
+
+===== Organizations =====
+  *[[http://www.dgiq.de/|Deutsche Gesellschaft für Informations- und Datenqualität e.V. (DGIQ)]].
+  *[[http://www.die-ding.de/|DING e.V. - Deutschsprachige Informatica Nutzer Gruppe]] ( formerly: "Deutschsprachige Informatica Nutzergruppe" ).
+  *[[http://www.tdwi.org/|The Data Warehouse Institute ( TDWI )]] US, [[http://www.tdwi.eu/|The Data Warehouse Institute ( TDWI )]] Europe / Germany.
+    *The paper magazine [[http://www.bi-spektrum.de/|BI Spektrum - Fachzeitschrift für Business Intelligence und Data Warehousing. Eine Publikation des TDWI Germany e.V.]].
+  *[[http://www.vtad.de/|Vereinigung Technischer Analysten Deutschlands e.V. ( VTAD )]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0814408648/hemmerling-21|Robert D. Edwards, John Magee, W. H. C. Bassetti: "Technical Analysis of Stock Trends"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0071381937/hemmerling-21|Martin J. Pring: "Technical Analysis Explained. The Successful Investor's Guide to Spotting Investment Trends and Turning Points"]].
+===== Conferences =====
+  *[[http://www.datamodelingzone.eu/|Data Modeling Zone]] in Hannover ( 2013-09-23 - 2013-09-24 ).
+===== Software =====
+==== Free ETL Software ====
+  *The OpenSource [[http://www.apatar.com/|apatar - connecting data]] - "Open Source Data Integration & ETL".
+    *[[http://www.apatar.com/news/blog/page-3|apatar - News/Press Releases]] - "Apatar, the open source leader in data mashup integration".
+    *[[http://www.apatar.com/why_apatar.html|apatar - Why Apatar?]].
+      -Flexible Deployment Options.
+      -No Coding! Visual Job Designer.
+      -No Coding! Transformation Mapper.
+    *[[http://www.apatarforge.org/|ApatarForge]].
+  *The OpenSource [[http://www.cloveretl.com/|CloverETL]].
+    *[[http://en.wikipedia.org/wiki/CloverETL|EN.Wikipedia "CloverETL"]].
+  *The OpenSource [[http://www.talend.com/|Talend Open Studio]].
+    *[[http://www.talendforge.org/|Talendforge]].
+    *[[http://en.wikipedia.org/wiki/Talend_Open_Studio|EN.Wikipedia "Talend Open Studio"]].
+==== Free BI Software ====
+=== Free BI Tools ===
+  *The free [[http://www.ataccama.com/en/products/dq-analyzer/|Ataccama "DQ Analyzer"]] - "Advanced Data Profiling Tool" for Windows.
+  *The OpenSource BI reporting tool [[http://www.eclipse.org/birt/|Eclipse BIRT]] by [[http://www.actuate.de/|Actuate Corporation - The BIRT Company]].
+    *[[http://www.birt-exchange.com/|BIRT Exchange]] - "Products and Services for BIRT", "Get the most out of BIRT".
+    *BIRT uses JDBC to access databases. To access an ODBC-only database on Windows, you need a JDBC-ODBC Bridge Driver. The features of the JDBC drivers determine what BIRT can make from the databases, e.g. concerning support of standard and non-standard SQL datatypes ect.
+    *The fictive company of the sample database is "Classic Models Inc.".
+    *[[http://www.actuate.com/products/birt-ihub-ftype/|Actuate Corporation - The BIRT Company "BIRT iHub F-Type. New Free BIRT Server"]].
+    *Commercial competitors: [[http://www.ibm.com/software/de/data/cognos/|IBM Cognos]], [[http://crystalreports.com/|Crystal Reports]], [[http://www.qlikview.com/|QlikView]].
+  *The free [[http://www.jaspersoft.com/|Jaspersoft Business Intelligence Suite, Community Edition]].
+    *[[http://www.jasperforge.org/|JasperForge]].
+  *The free [[http://www.microstrategy.com/freereportingsoftware/learnmore/microsoft-analysis-services-ssas.asp|MicroStrategy Reporting Suite for Microsoft Analysis Services]].
+    *[[http://resource.microstrategy.com/Support/|MicroStrategy - Support Site]].
+    *[[http://resource.microstrategy.com/ResourceCenter/|MicroStrategy - Resource Center]].
+    *[[http://www.microstrategy.de/|MicroStrategy Deutschland GmbH]].
+    *Free online trainings [[http://www.microstrategy.de/education/online/|MicroStrategy Deutschland GmbH - "Kostenloses Online Training"]].
+    *The free [[http://www.microstrategy.de/BI-application-jumpstart/|MicroStrategy - "Das MicroStrategy Jump-Start Projekt"]].
+  *The free [[http://www.oracle.com/technetwork/developer-tools/warehouse/|Oracle Warehouse Builder (OWB) 11g]].
+    *"OWB 11.2 is installed as part of every Oracle Database 11g Release 2 installation".
+    *The OWB is linked to a specific version of Oracle Database. So you can´t use OWB 11.2 with Oracle 12 database. As OWB is discontinued, there will be no newer version available for newer Oracle databases ( e.g. Oracle 12,.. ) :-(.
+    *[[http://en.wikipedia.org/wiki/Oracle_Warehouse_Builder|EN.Wikipedia "Oracle Warehouse Builder"]].
+  *[[http://www.ow2.org/|OW2 Consortium]] - "Leading open source middleware".
+  *[[http://www.qlikview.com/|QlikView]].
+    *[[http://www.qlikview.com/us/explore/experience/free-download|QlikView - Free Download]] - "QlikTech invites you to download QlikView—not a trial product, but a full version of our powerful analysis platform".
+  *The commercial Java application [[http://www.pentaho.com/‎|Pentaho Corporation]], [[http://www.pentaho.de/‎|Pentaho Corporation - Germany]].
+    *[[http://www.it-novum.com/|it-novum GmbH]] - German service partner.
+    *[[http://community.pentaho.com/|Pentaho Community]].
+      *The free [[http://community.pentaho.com/projects/bi_platform/|Pentaho BI Platform / Server. The Pentaho BI platform provides architecture and infrastructure required to build solutions to business intelligence (BI) problems]] = "Pentaho BI Platform Community Edition (CE)".
+      *The OpenSource [[http://reporting.pentaho.com/|Pentaho Reporting Project. A collection of primarily focused on the creation, generation and distribution of rich and sophisticated reporting from all sources of information]] = "Pentaho Reporting Community Edition (CE)".
+      *The OpenSource [[http://kettle.pentaho.com/|Pentaho Kettle Project. A powerful, metadata-driven ETL tool designed to bridge the gap between business and IT; Turning company's data into increased profits]] = "Pentaho Data Integration Community Edition" ( PDI CE ).
+      *The OpenSource [[http://mondrian.pentaho.com/|Penatho Modrian Project. Open source analysis OLAP server written in Java. Enabling interactive analysis of very large datasets stored in SQL databases without writing SQL]] - "Pentaho Analysis Services Community Edition".
+      *The OpenSource [[http://weka.pentaho.com/|Pentaho Weka Project. A comprehensive set of tools for machine learning and data mining used to help you understand the business better through predictive analysis]] - "Pentaho Data Mining Community Edition (CE)".
+    *The OpenSource Java application [[http://pentaho.sourceforge.net/|SourceForge "Pentaho Business Analytics"]], [[http://www.sourceforge.net/projects/pentaho/|SourceForge "Pentaho Business Analytics"]].
+    *[[http://en.wikipedia.org/wiki/Pentaho|EN.Wikipedia "Pentaho"]], [[http://de.wikipedia.org/wiki/Pentaho|DE.Wikipedia "Pentaho"]] - "Pentaho Data Mining used the Waikato Environment for Knowledge Analysis ([[http://en.wikipedia.org/wiki/Weka_%28machine_learning%29|Weka]]) to search data for patterns".
+    *[[http://twitter.com/Pentaho|Twitter "Pentaho"]].
+    *Third-party applications.
+      *[[http://code.google.com/p/pdi-twitter/|Google Code " pdi-twitter. Using Simple Twitter API with Pentaho Data Integration (PDI) version 4.2"]].
+  *The OpenSource application [[http://www.cs.waikato.ac.nz/ml/weka/|Weka 3: Data Mining Software in Java]].
+    *[[http://en.wikipedia.org/wiki/Weka_%28machine_learning%29|EN.Wikipedia "Weka (machine learning)"]], [[http://de.wikipedia.org/wiki/Waikato_Environment_for_Knowledge_Analysis|DE.Wikipedia "Waikato Environment for Knowledge Analysis"]].
+  *The announced "XDEV BI Suite" of "XDEV 4" ?!
+    *[[http://www.xdev-software.de/|XDEV Software Corp.]].
+=== Free BI Frameworks ===
+  *The OpenSource framwork [[http://root.cern.ch/drupal/|CERN "ROOT"]].
+    *[[http://EN.wikipedia.org/wiki/ROOT|EN.Wikipedia "ROOT"]], [[http://de.wikipedia.org/wiki/ROOT|DE.Wikipedia "ROOT"]].
+    *ROOT software script can also be executed by the C++-Interpreter CINT.
+  *The OpenSource Python library "pandas" -> See [[python.html|Python]].
+==== Commercial Microsoft BI Tools ====
+=== Microsoft SQL Server ===
+  *See also [[databases.html|Databases, Webserver, Webservices, SQL, XML]].
+=== Free Addons for the commercial Microsoft Excel ===
+== Tools ==
+  *[[http://www.powerpivot.com/|Microsoft PowerPivot]].
+  *[[http://www.microsoft.com/en-us/bi/Products/Office.aspx|Microsoft Office 2013 - Business Intelligence]].
+    *Powerful BI Now Available in Excel 2013:
+      -xVelocity In-memory Analytics.
+      -Quick Explore, Quick Analysis and Flash Fill.
+      -Power View.
+      -Power Pivot.
+  *Microsoft Power Query for Excel ( formerly: Microsoft Data Explorer for Excel ).
+    *[[http://www.office.com/powerbi|Microsoft Power BI for Office. Self-service Business Intelligence for all your data]].
+    *[[http://www.microsoft.com/en-us/download/details.aspx?id=39379|Microsoft Download Center "Microsoft Power Query for Excel"]].
+    *[[http://office.microsoft.com/en-us/excel-help/start-page-HA104003813.aspx|Microsoft Power Query for Excel Help]].
+    *Blogs [[http://blogs.msdn.com/b/business-intelligence/|Microsoft MSDN "Business Intelligence Blogs"]]
+      *Blog [[http://blogs.msdn.com/b/dataexplorer/|Microsoft MSDN "Power BI"]] ( formerly: Microsoft MSDN Blog "Data Explorer Microsoft 'Data Explorer' Preview for Excel" ).
+== "M" Language ==
+  *[[http://msdn.microsoft.com/en-us/library/dd285271.aspx|Microsoft MSDN "The Microsoft code name "M" Modeling Language Specification - Introduction"]].
+  *Blog [[http://blogs.msdn.com/b/mlanguage/|Microsoft MSDN Blog "Codename 'M' Language Team Blog"]].
+  *Blog [[http://blogs.msdn.com/b/modelcitizen/|Microsoft MSDN Blog "Model Citizen"]].
+    *[[http://blogs.msdn.com/b/modelcitizen/archive/2010/09/22/update-on-sql-server-modeling-ctp-repository-modeling-services-quot-quadrant-quot-and-quot-m-quot.aspx|Microsoft MSDN Blog "Model Citizen: Update on SQL Server Modeling CTP (Repository/Modeling Services, 'Quadrant' and 'M')"]].
+  *[[http://www.infoq.com/presentations/Codename-M|InfoQ "Codename 'M': Language, Data, and Modeling, Oh My!"]].
+  *[[http://en.wikipedia.org/wiki/M_%28programming_language%29|EN.Wikipedia "M (programming language)"]], [[http://en.wikipedia.org/wiki/Oslo_%28Microsoft%29|EN.Wikipedia "Oslo (Microsoft)"]].
+==== Some other commercial BI Software ====
+  *[[http://www.bissantz.de/Software|Bissantz & Company GmbH "DeltaMaster: Software für Analyse, Planung und Reporting"]].
+  *[[http://www.informatica.com/|Informatica - The Data Integration Company]].
+  *[[http://www.intec-international.com/|INTEC International GmbH]] - "Monitoring von Geschäftsdaten mit dem BigData Monitor".
+    *[[http://adserver.messe-interactive.de/microsite_new/en/showProduct/Stand/intec-international-gmbh-307187/bigdata-monitor-302155/|Hannover Messe "BigData Monitor"]].
+    *The graphical data organisation scheme is:
+      -Size of a rectangle.
+      -3 colors ( transition from red to white and then to blue ).
+      -Label for each rectangle.
+    *This is an adoption of the product idea of [[http://w3.win.tue.nl/nl/onderzoek/onderzoek_informatica/visualization/sequoiaview/|Technische Universität Eindhoven "SequoiaView"]].
+  *[[http://www.prudsys.de/|prudsys - The Realtime Analytics Company]].
+    *[[http://www.clever-empfehlen.de/|prudsys - The Realtime Analytics Company "Clever Empfehlen"]].
+    *[[http://www.facebook.com/pages/prudsysde/174016309284459|Facebook "prudsys.de"]].
+  *[[http://www.tibco.com/|TIBCO Software Inc.]].
+    *The commercial software [[http://spotfire.tibco.com/|TIBCO Software Inc. "Spotfire"]].
+      *[[http://www.onthehub.com/tibco/|OnTheHub "Download Spotfire S+ 8.0 for Windows Student Edition]] - Free "TIBCO Spotfire S+ 8.0 (1 Year License)".
+    *[[http://developer.tibco.com/|TIBCO Developer Network]].
+    *[[http://www.it-production.com/index.php?seite=einzel_artikel_ansicht&id=593|it-production.com -Das Online-Magazin für erfolgreiche Produktion "Zwischen Top Floor und Shop Floor 'Die Zwei-Sekunden-Lücke nutzen'"]] - "Die Frage, ob sich Business Intelligence-Systeme für Auswertungen im Produktionsumfeld genauso eignen wie für Forecast-Aufgaben für das Management..".
+    *[[http://de.wikipedia.org/wiki/TIBCO_Spotfire_Analytics|DE.Wikipedia "TIBCO Spotfire Analytics"]].
+
+
+===== Services =====
+  *The online cloud based predictive analysis service [[http://www.bigml.com/|BigML]] - "Machine Learning for everyone. Easily add data-driven decisions and predictive power to your company", "NOW FREE. Unlimited tasks ( up to 16 MB/task )".
+===== Complex event processing =====
+  *[[http://en.wikipedia.org/wiki/Complex_event_processing|Complex event processing]].
+===== Data Warehouse Modeling =====
+==== Dan Linstedt - Data Vault Modeling ====
+  *[[http://danlinstedt.com/|Dan Linstedt]].
+    *[[http://danlinstedt.com/datavaultcat/datavault-model-and-understanding-back-to-basics/|Dan Linstedt "#datavault model and understanding, back to basics"]].
+  *[[http://en.wikipedia.org/wiki/Data_Vault_Modeling|EN.Wikipedia "Data Vault Modeling"]].
+==== Bill Inmon ====
+  *[[http://en.wikipedia.org/wiki/Bill_Inmon|EN.Wikipedia "Bill Inmon"]], [[http://de.wikipedia.org/wiki/Bill_Inmon|DE.Wikipedia "Bill Inmon"]].
+==== Len Silverston ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0471380237/hemmerling-21|Len Silverston: "The Data Model Resource Book: A Library of Universal Data Models for All Enterprises, Volume 1"]].
+    *CD-ROM [[http://www.amazon.de/exec/obidos/ASIN/0471388289/hemmerling-21|Len Silverston: "The Data Model Resource Book: A Library of Universal Data Models for All Enterprises, Volume 2"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0471353485/hemmerling-21|Len Silverston: "The Data Model Resource Book: A Library of Universal Data Models by Industry Types, Volume 2"]].
+    *CD-ROM [[http://www.amazon.de/exec/obidos/ASIN/0471388416/hemmerling-21|Len Silverston: "The Data Model Resource Book: A Library of Universal Data Models by Industry Types, Volume 2"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0470178450/hemmerling-21|Len Silverston, Paul Agnew: "The Data Model Resource Book: A Library of Universal Data Models for All Enterprises, Volume 3"]].
+  *I was told, that the official "Microsoft SQL server CD" was shipped with some licensed data models by Len Silverston.
+
+==== Realtime Data Warehouse ====
+  *[[http://dssresources.com/papers/features/langseth/langseth02082004.html|Justin Langseth "Real-Time Data Warehousing:
+Challenges and Solutions"]].
+  *Microsoft technologies for realtime data warehouses:
+    *[[http://msdn.microsoft.com/en-us/library/ee362541.aspx|Microsoft Library "Microsoft StreamInsight"]].
+    *[[http://msdn.microsoft.com/en-us/library/gg492088.aspx|Microsoft Library "Columnstore Indexes"]].
+==== Metamodels and Languages ====
+=== Common Warehouse Metamodel ===
+  *[[http://en.wikipedia.org/wiki/Common_Warehouse_Metamodel|EN.Wikipedia "Common Warehouse Metamodel"]], [[http://de.wikipedia.org/wiki/Common_Warehouse_Metamodel|DE.Wikipedia "Common Warehouse Metamodel"]] ( CWM )
+=== Business Intelligence Markup Language ( BIML ) ===
+  *[[http://www.bimlscript.com/|BimlScript.com]] - "An online resource for creating and sharing Biml solutions to common BI, DW, and DB asset generation problems. Write code snippets, upload videos, and create walkthroughs to share with the Biml community".
+  *CodePlex.
+    *The OpenSource framework for SQL server [[http://bidshelper.codeplex.com/|CodePlex "BIDS Helper"]].
+    *The legacy OpenSource framework for SQL server [[http://vulcan.codeplex.com/|CodePlex "Vulcan"]].
+  *[[http://www.varigence.com/|Varigence]].
+    *The commercial BIML IDE [[http://www.varigence.com/Products/Mist/|Varigence "Mist"]].
+    *[[http://www.varigence.com/Documentation/|Varigence Documentation "Biml Snippets"]].
+      *[[http://www.varigence.com/Documentation/Language/Index|Varigence Documentation "Varigence Library"]] - "Biml Language", "Biml Api"]].
+  *[[http://www.sqlservercentral.com/stairway/100550/|SQL Server Central "Stairways to BIML"]].
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/Business_Intelligence_Markup_Language|EN.Wikipedia "Business Intelligence Markup Language"]].
+    *The discontinued [[http://en.wikipedia.org/wiki/Business_Intelligence_Development_Studio|EN.Wikipedia "Business Intelligence Development Studio"]].
+    *[[http://en.wikipedia.org/wiki/Varigence|EN.Wikipedia "Varigence"]].
+===== Webcasts. Webinars =====  
+  *[[http://www.evidanza.de/bi-webcast/|evidanza AG - BI-Webcast]].
+  *[[http://www.compuware.com/en_us/changepoint/resources/on-demand-webcasts.html|Compuware "On-Demand Webcasts"]].
+    *Webcast "Essentials of Business Analytics & Big Data: What Every Service Leader Needs to Know".
+===== Resources =====
+  *The competition [[http://www.data-mining-cup.de/|Data Mining Cup]].
+  *[[http://www.ea-world.de/|enterprise application world @ Hannnover Fair CEBIT]].
+  *[[http://www.kdnuggets.com/|KDNuggets]] - "Data Mining Community's Top Resource".
+  *[[http://www.sqlpass.org/|PASS - The Professional Association for SQL Server]].
+  *[[http://community.qlikview.com/wikis/|QlikCommunity, Wiki]].
+  *[[http://www.speicherguide.de/news/big-data-heisst-loslassen-von-strukturierten-daten-15668.aspx|Speicherguide "Big Data heißt: Loslassen von strukturierten Daten"]] - "Polystrukturierte Daten ist ein neuer Begriff, der strukturierte und unstrukturierte Daten sowie die neuerdings massiv auftretenden maschinengenerierten Daten wie Sensor-Daten und Web-Logs mit einbezieht".
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/Data_mining|EN.Wikipedia "Data Mining"]], [[http://de.wikipedia.org/wiki/Data-Mining|DE.Wikipedia "Data-Mining"]].
+    *[[http://en.wikipedia.org/wiki/Star_schema|EN.Wikipedia "Star schema"]], [[http://de.wikipedia.org/wiki/Sternschema|DE.Wikipedia "Sternschema"]].
+    *[[http://en.wikipedia.org/wiki/Data_integration|EN.Wikipedia "Data integration"]], [[http://de.wikipedia.org/wiki/Informationsintegration|DE.Wikipedia "Informationsintegration"]].
+    *[[hhttp://en.wikipedia.org/wiki/Operational_data_store|EN.Wikipedia "Operational data store"]], [[http://de.wikipedia.org/wiki/Operational_Data_Store|DE.Wikipedia "Operational Data Store"]].
+    *[[http://en.wikipedia.org/wiki/Data_stream_mining|EN.Wikipedia "Data stream mining"]].
+
+
+
+===== Forums, Newsgroups =====
+  *[[http://www.apatarforge.org/forums/|ApatarForge Forums]].
+  *[[http://www.birt-exchange.org/org/forum/|BIRT Exchange Forums]].
+  *[[http://www.enzeecommunity.com/|ENZEE - The Netezza Community]].
+  *[[http://www.facebook.com/pentaho|Facebook "Pentaho"]], [[http://www.facebook.com/PentahoCe|Pentaho Business Intelligence - Joaçaba. Community Page about Business Intelligence Consultant]].
+  *[[http://community.informatica.com/|Informatica Commmunities]].
+    *[[http://community.informatica.com/community/user_groups|Informatica User Groups]].
+      *[[http://community.informatica.com/community/user_groups?view=discussions|Informatica User Groups - Discussions]].
+  *[[http://www.jasperforge.org/|JasperForge]].
+  *LinkedIn:
+    *[[http://www.linkedin.com/groups?gid=35222|LinkedIn "Advanced Business Analytics, Data Mining and Predictive Modeling"]].
+    *[[http://www.linkedin.com/groups?gid=4316541|LinkedIn "Business Intelligence Elite"]].
+    *[[http://www.linkedin.com/groups?gid=3028129|LinkedIn "MicroStrategy Business Intelligence"]].
+  *[[http://resource.microstrategy.com/forum/|MicroStrategy Discussion Forums]].
+  *[[http://forums.pentaho.com/forum.php|Pentaho Community Forums]].
+  *[[http://community.qlikview.com/groups/|QlikCommunity, Groups]].
+  *[[http://forums.sdn.sap.com/|SAP Community Network Forums]].
+  *[[http://wiki.sdn.sap.com/wiki/|SAP Wiki]].
+  *[[http://www.talendforge.org/forum/|TalendForge - Talend community forum]].
+  *TIBCO.
+    *[[http://www.tibcommunity.com/|TIBCOmmunity]].
+    *The read-only ancient Forum [[http://spotfirecommunity.tibco.com/community/|TIBCO Spotfire Community]].
+    *[[http://www.tibcommunity.com/community/products/analytics|TIBCOmmunity Analytics]].
+  *[[http://www.varigence.com/Forums|Varigence Forums]].
+{{tag>"business intelligence"}}
+<footnote_navi_en>

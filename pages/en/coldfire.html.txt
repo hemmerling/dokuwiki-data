@@ -1,0 +1,177 @@
+====== [hemmerling] Freescale "Coldfire" ======
+{{images:coldfire.jpg|MCF5206 Coldfire evaluation board SBC5206 ( today: M5206AN )}}
+===== History and Motivation for this Page =====
+I got the MCF5206 Coldfire evaluation board SBC5206 ( today: M5206AN ), for about 100 EUR, a special offer, called "M5206PROMO", valid until 1997-06-10, bundled with a complete software package, as mentioned below. I will tell my experiences with the processor, this board and the software on this WEB site.
+===== Freescale Semiconductor Inc. =====
+==== Freescale Semiconductor Inc. - Coldfire ====
+  *[[http://www.freescale.com/|Freescale Semiconductor Inc.]].
+    *[[http://www.freescale.com/microselector|Freescale Semiconductor Inc. -  Microselector]].
+  *[[http://www.freescale.com/coldfire|Freescale Semiconductor Inc. "Coldfire"]].
+  *[[http://www.freescale.com/webapp/sps/site/prod_summary.jsp?code=MCF520X&tid=m32MQX|Freescale Semiconductor Inc. "MCF520X: Integrated ColdFire V2 External Memory and Ethernet Microprocessors"]].
+==== Freescale Semiconductor Inc. - Coldfire Documents ====
+Here is a list  of useful documents to order for COLDFIRE users:
+^ | |
+^ MCF5200PRM/AD | COLDFIRE Programmer´s Manual |
+^ MCF5206UM/AD | COLDFIRE User´s Manual |
+^ MCF5206/D | MCF5206 COLDFIRE Integrated Microprocessor 96 |
+^ MCF68HC901UM/AD | MC68HC901 Multi Function Peripheral User´s Manual |
+^ | |
+
+For comparison, You should cross-read these documents, too (e.g. if You would like to know about the exact differences in the exception vector assignments or between the opcode sets):
+
+^ | |
+^ M68000PM/AD | M68000 Family Programmer´s Reference Manual |
+^ M68000UM/AD | M68000 8/16/32-Bit Microprocessor User´s Manual |
+^ M68000UMAD/AD | M68000UM/AD Addendum|
+^ M68020UM/AD | MC68020 Microprocessors User´s Manual |
+^ M68040UM/AD | MC68040 Microprocessors User´s Manual |
+^ | |
+===== MCF5206 Coldfire Evaluation Board SBC5206 ( today: M5206AN ) =====
+==== Specifications, Datasheets, Hardware Tools ====
+  *[[http://www.freescale.com/webapp/sps/site/prod_summary.jsp?code=M5206AN|Freescale Semiconductor Inc. "M5206AN: Arnewsh Evaluation System for MCF5206"]].
+  *[[http://www.arnewsh.com/|Arnewsh Inc.]].
+  *Freescale Distributor [[http://www.muetron.de/|MÜTRON Müller GmbH & Co. KG]] - Original distributor of the MCF5206 Coldfire Evaluation Board SBC5206 ( today: M5206AN ), in 1997. To be connected to the printer port (parallel port, i.e. LPT1, LPT2, LPT3, PRN) of the IBM-AT host development system for debugging.
+  *[[http://www.pemicro.com/products/product_processor.cfm?family=7|P&E Microcomputer Systems "ColdFire V2/V3/V4"]].
+    *[[http://www.pemicro.com/products/product_viewDetails.cfm?product_id=106|P&E Microcomputer Systems "CABLE_CFLV -ColdFire BDM Interface (Parallel Port, 3.3V)"]] - was shipped as part of the "M5206PROMO" bundle, in 1997.
+  *[[http://www.noral.com/pages/bdmcfire.htm|Noral Micrologics Limited "Flex-BDM/Coldfire Debugger"]] -  ColdFire debug tool with real-time trace support via the standard 26-pin connector.
+==== The ISA-BUS slot power lines of the COLDFIRE board ====
+^ | | |
+^I/O channel (8-Bit), soldering side | B3 |+5 Volt |
+^ ::: | B5 | -5 Volt |
+^ ::: | B7 | -12 Volt |
+^ ::: | B9 | +12 Volt |
+^ ::: | B29 | +5 Volt |
+^ I/O channel (16-Bit extension), soldering side | D16 | +5 Volts |
+^ | | |
+
+==== Ethernet Cards Compatibility with the COLDFIRE Board ==== 
+As a bonus, a NE2000 compatible Ethernet network adapter KNE 2000 TLC by KINGSTON is supplied with the MCF5206 COLDFIRE evaluation board SBC5206 ( today: M5206AN ). It may be plugged into the 16-bit ISA-BUS compatible slot. It needs +5 Volt for power supply. For this card only the operation is guaranteed in the ISA-BUS slot.
+
+Unfortunately for me at that time, in the late 1990th, the network adapter is just equiped with a jack for the 10BaseT unshielded twisted pair wire. I finally found another NE2000 compatible card for which a +5 Volt power supply is sufficient and which operates in the COLDFIRE board !
+
+^ | | | | |
+^ [[http://www.kingston.com/|Kingston]] KNE2000 TLC | NE2000 compatible Ethernet card, 10BaseT | needs +5 Volt | software configuration on PC is necessary, shipped configuration is $300, IRQ3 | works |
+^ ND5000 by NDC | NE2000 compatible Ethernet card | needs +5,+12 Volt | software configuration on PC necessary | works |
+^ ReadyLINK ENET 16-COMBO by COMPEX INC. | NE2000 compatible Ethernet card, 10BaseT, 10Base2, AUI | needs +5,+12 Volt | jumper configuration only | works |
+^ LanPro EN-2000PXA | NE2000 compatible Ethernet card |	? | ? | fails |
+^ ZOT-N200E2/EC/ET | NE2000 compatible Ethernet card, 10Base2 | needs +5 Volt | jumper configuration only | fails |
+^ [[http://www.cnet.com.tw/|CNET]] PowerNIC CN650Eplus | NE2000 compatible Ethernet card, 10Base2, 10BaseT | needs +5 Volt | software configuration on PC necessary, shipped configuration is $300, IRQ3 | works |
+^ Allied Telesis AT-1700 Network Adapter Card |	NE2000 compatible  Ethernet card, 10Base2, 10BaseT | needs +5 Volt | software configuration on PC necessary | fails |
+^ | | | | |
+
+Comment of KINGSTON about direct connections by a 10BaseT twisted pair wire: "If you are connecting two machines together using RJ45 cabling only (no hub), make sure your cross-over cable is built correctly, crossing pins 1&3 and 2&6. Even though pins 4,5,7, & 8 are not used, it is mandatory that they be present in the cable. (NOTE: A cross-over cable is necessary for connecting PC to PC, or hub to hub, unless your hub has a built-in cross-over switch on one of the rear-panel ports)".
+
+  *[[http://www.kingston.com/support/networking/downloads/kne20xxxlc.asp|Kingston Technology Company "KNE2000TLC / 2021LC Ethernet Adapter Drivers"]].
+  *[[http://www.cnet.com.tw/download/|CNet Download - 1000/100/10Mbps Giga Ethernet PCI-Bus Adapter]].
+    *[[http://www.cnet.com.tw/download/index-isa.html|CNet Download - ISA-Bus Full-Duplex Ethernet Adapter Card]] - [[http://www.cnet.com.tw/Driver/cn650ep.zip|CN650Eplus.zip]].
+==== Power supply ==== 
+  *Although the COLDFIRE board itself is running with +5 Volt, the power for the lines -5 Volt, +12 Volt and -12 Volt of the ISA-BUS slot must be fed by the power connector J2. Many I/O cards need +/- 12 Volt, especially cards with standard RS-232 serial interfaces, but for some Ethernet cards, +5 Volt is sufficient. As power supply, I bought the Stable Regulated Power Supply #**512729** by [[http://www.conrad.de/|CONRAD]] (1200 mA). I configured the power supply for an output voltage of 9 Volt. At 12 Volt output voltage (exact value: 12.57 Volt) of this power supply, the operation of the COLDFIRE board is not stable. If the UARTs are used or even ISA-BUS cards are plugged into the COLDFIRE board, then an 800 mA power supply is much too low !
+
+  *Alternatively, I assembled a set of cables so that the COLDFIRE board may be fed by a **standard PC power supply**. I robbed the "male" AT-board mainboard power supply connector from an old AT486/25 board (a nice gift from a local computer recycle company). A power supply connector for 3 1/2" floppies is plugged on the J2 connector. If you plug the two "female" connectors of the power supply on the male connector, be warned about the **twist and permutation danger**: If you do it the wrong way, you blow up the whole board ! Easy twisting is prevented by the shape of the connectors, but permutation is not ! Remember "**black is next to black**", i.e. the ground line cables of each "female" connector, usually marked by the color black of its plastic isolation, are situated next to each other if the connectors are not permuted.
+
+  *If you want to use ISA-BUS cards in the COLDFIRE board, please check at the ISA-BUS connector of the cards which connector contacts for other voltages are in use, and connect a PC power supply if necessary.
+==== ISA-BUS slot extenders ====
+If you need more than one ISA-BUS slot for development purposes, then please have a look at these ISA-BUS slot extenders:
+  *BUF-E by [[http://www.meilhaus.de/|MEILHAUS ELECTRONIC]]. One 16-bit ISA-BUS card (called PC-E) fits in the ISA-BUS slot of the COLDFIRE board. A cable of 91 cm length connects this card with another 16-bit ISA-BUS card (called BUS-PAC-E), which is plugged in a slot of an external PC backplane. The PC backplane is not included in this package. You may get PC backplanes with four ISA-BUS slots from a local computer recycling company, with a little bit of luck (for very low fair prices).
+  *The **DECISION BUS++ ISA Bus Expansion Slot** by **Priester Datentechnik, Luisenring 17/18, D68159 Mannheim, Germany** was designed to extend the number of slots of IBM PC/XT/AT or their compatibles. It consists of an interface card that is plugged into the computer expansion slot and a 6 slot passive backplane (or unit) which is located outside of the PC. With the BUS++, it´s save and easy to plug and unplug add-on cards without turning off the PC. Its signal lines and power lines are isolated, and can be disabled by turning off the onboard local power. The BUS++ is ideal for the applications such as add-on card testing and trouble shooting, extending slots for Laptop PCs, industrial applications requiring a lot of slots and so on.
+  *The **ISA Bus Extender AX 6025E** by **AXIOM** was a similar product, but it supplies 4 slots only. The manufacturer AXIOM cancled the product in late 1997, so it is not available anymore !
+  *However, I am using a totally different ISA-BUS slot extender, which consists of a single ISA-BUS card armed with 5 ISA-BUS slots. This type of card is called "Riser Card". The card is labeled as "**KCS-202 RISER CARD VER 0.2**". From a [[http://www.dell.com/|DELL]] 486P33 computer (486DX33 CPU, 1 ISA slot, Motherboard with integrated FDC, HDC, IO, VIDEO controllers), I got a similar ISA-BUS card armed with 3 ISA-BUS slots. The card is labeled as "**KALEX K368 UL94U-1**", "[[http://www.dell.com/|Dell]] (c) 1991".
+  *Michael, another Coldfire user, got a similar "Riser Card" by [[http://www.sh-halbleiter.de/|Strixner+Holzinger]]. The card is labeled as "**PM-C-011**".
+
+In general, "Riser Cards" are provided for free with "Pizza Box" alike flat network pc cases !
+==== Address Decoder ==== 
+  *The current address decoder defined by the programmed logic of the [[http://www.latticesemi.com/dynamic/index.cfm?fuseaction=view_documents&sloc=01-01-06-23|Lattice Semiconductors Corporation "Lattice ISP-LSI 2032"]].
+    *Lattice ISP-LSI 2032 does not allow access to the on-board memory of ISA-BUS cards. So the COLDFIRE Board is not suitable for usual ISA-BUS graphics cards. The developer of the COLDFIRE board told me that there is not much room left in the device for major changes. The physical connection makes it difficult if not impossible to do the necessary extensions. Nevertheless, the source file for the address decoder is available for download. It is up to you to modify the address decoder, anyhow.
+    *[[http://www.latticesemi.com/products/maturedevices/|Lattice Semiconductors Corporation "Mature Devices"]].
+    *[[http://www.latticesemi.com/dynamic/index.cfm?fuseaction=view_documents&sloc=01-01-06-23|Lattice Semiconductors Corporation "ispLSI 2000 - All Documents and Downloads"]].
+  *In 1997, the free ISP Synario Starter Software was available for download and on the free PC-CDROM "ISP Synario Starter Software & ISP Encyclopedia". The CD includes ISP design software, data book, handbook and ISP manual. It tells you how to create the necessary download cable by yourself, too ! I got my PC-CDROM from a german distributor.
+    *[[http://www.latticesemi.com/corporate/newscenter/productnews/1997/r970909ispsynariostarters.cfm|Lattice Semiconductors Corporation "SP Synario Starter Software Available on World Wide Web"]], 1997-09-09.
+    *The successor of "ISP Synario" with support for ispLSI2000/5000 is "ispLEVER Classic Windows"
+      *[[http://www.latticesemi.com/dynamic/index.cfm?fuseaction=view_category&document_type=65|Lattice Semiconductors Corporation "Downloadable Software by Product"]].
+      *[[http://www.latticesemi.com/products/designsoftware/isplever/|Lattice Semiconductors Corporation "Lattice Diamond & ispLEVER Design Software"]].
+      *[[http://www.latticesemi.com/dynamic/index.cfm?fuseaction=view_documents&sloc=01-01-07-01|Lattice Semiconductors Corporation "ispLEVER Software - All Documents and Downloads"]].
+      *[[http://www.latticesemi.com/products/designsoftware/isplever/ispleverclassic/|Lattice Semiconductors Corporation "ispLEVER Classic Software"]].
+==== Trivial File Transfer Protocol (TFTP) ====
+=== Tips ===
+  *The firmware of the MCF5206 Coldfire board SBC5206 ( today: M5206AN ) is ready to transfer files by using the Trivial File Transfer Protocol (TFTP). On the host development system, an IBM-AT running WIN95/98, WIN-NT or LINUX, so, you must install a TFTP server. 
+  *Most TFTP servers may also act as clients, but just for testing the TFTP servers, there are another few TFTP clients.
+  *Sorry, the TCP/IP stack of the COLDFIRE ROM firmware answers to "PING" request only while the "DN" command is running !
+=== Free Tools ===
+    *The OpenSource TFTP server [[http://tftp-server.sourceforge.net/|Sourceforge "Open TFTP Server"]], [[http://www.sourceforge.net/projects/tftp-server/|Sourceforge "Open TFTP Server"]].
+    *The OpenSource TFTP server [[http://kin.klever.net/pumpkin/|PumpKIN]] for Windows.
+    *The OpenSource TFTP server [[http://tftpd32.jounin.net/|Philippe Jounin "Tftpd32"]] for Windows.
+    *The free TFTP server [[http://www.solarwinds.com/products/freetools/free_tftp_server.aspx|SolarWinds TFTP Server]].
+    *THe free [[http://www.schindlerman.de/~andreas/software/ACL-tftp/|Andreas Schindler "ACL-tftp"]] for Linux.
+    *[[http://corporate.weird-solutions.com/products/tftp-turbo.html|Weird Solutions "TFTP Turbo", Personal Edition]].
+    *"yale'-tftpd V3.0" for Linux by Alan S. Watt, once maintained by Paul Traina.
+    *The free TFTP Client by Bob Millwood for WIN95/98 ( Download -> [[ftp://papa.indstate.edu/winsock-l/Windows95/FTP/tftpc.exe|tftpc.exe]] ).
+=== Resources ===
+  *[[http://en.wikipedia.org/wiki/Trivial_File_Transfer_Protocol|EN.Wikipedia "Trivial File Transfer Protocol"]], [[http://de.wikipedia.org/wiki/Trivial_File_Transfer_Protocol|DE.Wikipedia "Trivial File Transfer Protocol"]].
+==== Box ==== 
+I am still looking for a suitable box for the Coldfire Board !
+==== Trivia ==== 
+The [[atarist.html|ATARI_ST]] is equipped with the **same** i/o chip (e.g. the 68901) like the COLDFIRE board :-).
+  *[[http://www.datasheetcatalog.net/de/datasheets_pdf/M/K/6/8/MK68901.shtml|DatasheetCatalog "MK68901"]].
+===== Free & Giftware Software Tools =====
+==== BDMDebug ====
+  *[[http://www.qdev.de/|Stefan Robl]].
+    *The GiftWare [[http://www.qdev.de/?location=win/bdmdebug|Stefan Robl "BDMDebug"]] for Win98SE.
+==== dBUG ====
+  *[[http://web.archive.org/web/*/http://e-www.motorola.com/collateral/DBUGFIRM.html|Archive.org "Motorola - dBUG Firmware Development"]], - 2003-08-18.
+==== CF Flasher for Windows ====
+  *[[http://web.archive.org/web/*/http://e-www.motorola.com/collateral/CFFLASHER.htm|Archive.org "Motorola - CFFlasher"]], - 2003-06-07.
+    *[[http://forums.freescale.com/t5/68K-ColdFire-reg-Microprocessors/Updated-CF-Flasher-Available/m-p/17964|Freescale Semiconductor Inc. - Freescale Forums "Updated CF Flasher Available"]], 2007-05-04.
+    *Download [[http://www.freescale.com/files/soft_dev_tools/software/programmers/CFFLASHER.zip|CFFLASHER.zip]].
+  *On W2k or newer, you need adiitionally the free "Giveio.sys" and a free tool to load device drivers ( "Paula Tomlinson's Loaddrv", instdrv.exe of Windows DDK, InstDrv of Nullsoft Scriptable Install System ), see -> [[windows.html&#direct_port_io_for_w2k_or_newer_with_giveiosys_and_loaddrv_instdrv_instdrv|Windows]].
+==== Development Systems, Compilers, Emulators ====
+  *[[http://www.ashware.com/software.htm|ASH WARE – eTPU and TPU Tools since 1994 "Software"]].
+    *The free [[http://www.ashware.com/gnu-68kcoldfire-cc-compiler.htm|ASH WARE "GNU 68K/Coldfire C/C++ Compiler Toolkit"]].  
+  *David J. Fiddes - free GNU-C Compiler for Coldfire, 1999.
+    *[[http://sca.uwaterloo.ca/www.calm.hw.ac.uk/davidf/|The Dave Fiddes Page]].
+      *[[http://web.archive.org/web/*/http://sca.uwaterloo.ca/www.calm.hw.ac.uk/davidf/coldfire.htm|Dave Fiddes "ColdFire Development Resources"]], - 1999-02-19. 
+        *[[http://ieee.uwaterloo.ca/sca/www.calm.hw.ac.uk/davidf/coldfire/download.htm|David J. Fiddes "ColdFire Downloads"]].
+      *[[http://sca.uwaterloo.ca/coldfire/|University of Waterloo Coldfire Resource]], setup and maintained by [[http://www.eng.uwaterloo.ca/~praetzel/|Eric Praetzel]].
+      *[[http://sca.uwaterloo.ca/coldfire/ftp/davidf/coldfire/links.htm|University of Waterloo Coldfire Resource - Links and Information]].
+    *[[http://web.archive.org/web/*/http://fiddes.net/coldfire/|Archive.org "David J. Fiddes"]].
+      *[[http://web.archive.org/web/*/http://fiddes.net/coldfire/|Archive.org "David J. Fiddes - Coldfire"]].
+  *[[http://www.codewarrior.com/|Freescale Semiconductor Inc. - CodeWarrior Development Tools]].
+    *The free [[http://www.freescale.com/webapp/sps/site/prod_summary.jsp?code=CW-SUITE-SPECIAL|Freescale Semiconductor Inc. - CodeWarrior Development Suite - Special]].
+      *Limits for ColdFire (v2,v3,v4): Assembly and C maximum of 128K.
+  *The OpenSource C compiler [[http://members.chello.nl/h.robbers/|Henk Robbers "AHCC - A Home Cooked C compiler"]], "aka ANSI Sozobon", for ATARI-ST and Coldfire ( "Coldfire binary distribution" ).
+  *[[http://www.slicer.ca/coldfire/|Domesticated Hacker "The Coldfire Emulator project"]].
+  *The free 68K -> Coldfire source code converter [[http://www.microapl.co.uk/Porting/ColdFire/pacf_download.html|MicroAPL Ltd. "PortAsm/68K for ColdFire"]] for Windows and Linux.
+  *[[http://www.crossware.com/trialware/21499114/|Crossware ColdFire Development Suite - Community Edition]] - The free community edition allows programs with up to 32k of code and 16k of data to be created.
+===== Free and Commercial Operating Systems =====
+  *See -> [[realtime.html|Realtime Operating Systems]].
+  *See -> [[linux.html|Linux]].
+===== Hardware Projects =====
+  *[[http://www.dilnetpc.com/|SSV Embedded Systems "SBCs for Embedded Networking: The DIL/NetPC Family"]] by [[http://www.ssv-embedded.de/|SSV Software Systems GmbH]], Hannover, Germany -> DNP/5282 and DNP/9265 with Coldfire.
+===== Resources =====
+  *[[http://acp.atari.org/|ATARI Coldfire Project]].
+  *[[http://web.archive.org/web/*/http://wwwcmc.pharm.uu.nl/gillies/bookmarks/coldfire.html|Archive.org " Malcolm Gillies / M.B.Gillies - "Coldfire"]].
+  *[[http://web.archive.org/web/*/%20%20%20http://walden.mvp.net/~chandra/coldfire.shtml|Archive.org "Matt Minnis - The Coldfire HQ"]].
+  *[[http://www.eng.uwaterloo.ca/~praetzel/|Eric Praetzel]].
+    *[[http://cf-server.uwaterloo.ca/|University of Waterloo "E&CE Department Coldfire Server"]].
+  *Michael Staab.
+    *[[http://web.archive.org/web/*/http://ourworld.compuserve.com/homepages/staabmichael/coldfire.htm|Archive.org "Michael Staab - Michael's ColdFire page"]].
+    *Mirror [[http://ieee.uwaterloo.ca/sca/ourworld.compuserve.com/homepages/staabmichael/coldfire.htm|Michael Staab - Michael's ColdFire page]].
+  *[[http://www.wildrice.com/ColdFire/|Chuck Rice, WildRice Communications "Coldfire"]] - "I also keep copies of the messages sent to the list in the ColdFire List Archives".
+   *[[http://www.wsw-elektronik.de/|Stefan Wimmer, WSW Elektronik]].
+     *[[http://web.archive.org/web/*/http://www.geocities.com/CapeCanaveral/6368/|Archive.org "Stefan Wimmer@Geocities"]].
+     *[[http://web.archive.org/web/*/http://www.geocities.com/CapeCanaveral/6368/coldfire.html|Archive.org "Stefan Wimmer@Geocities - Coldfire"]].
+===== Forums, Newsgroups =====
+  *[[http://forums.freescale.com/|Freescale Semiconductor Inc. - Freescale Forums]].
+    *[[http://forums.freescale.com/t5/68K-ColdFire-reg-Microprocessors/bd-p/CFCOMM|Freescale Semiconductor Inc. - Freescale Forums, 68K/ColdFire Microprocessors]].
+  *[[http://www.pemicro.com/forums/|P&E Microcomputer Systems Forums]].
+  *[[http://reboot.pro/forum/58/|reboot.pro Groups / Forum #58 "Tftpd32"]].
+  *[[http://tech.groups.yahoo.com/group/Amigacoldfire/|Yahoo Group "Amigacoldfire · Amiga Coldfire V4 CPU upgrade project
+"]].
+===== Referers to this URL =====
+  *[[http://www.eg3.com/WebID/embedded/coldfire/blank/personal-page/a-z.htm|eg3 "embedded mcu's & mpu's / coldfire / personal pages, eletters, vendors"]].
+  *[[http://sca.uwaterloo.ca/coldfire/|University of Waterloo Coldfire Resource]].
+  *( [[http://sca.uwaterloo.ca/www.calm.hw.ac.uk/davidf/coldfire/links.htm|University of Waterloo Coldfire Resource "Links and Information"]] ).
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Hardware/Mikrocontroller/|OpenDirectory "Top: World: Deutsch: Computer: Hardware: Mikrocontroller"]].
+  *[[http://www.dmoz.org/Computers/Hardware/Components/Processors/68k/|OpenDirectory "Top: Computers: Hardware: Components: Processors: 68k"]].
+{{tag>Freescale Coldfire}}
+<footnote_navi_en>

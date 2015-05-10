@@ -1,0 +1,66 @@
+====== [hemmerling] Distributed Computing & Parallel Computing ======
+Related page:
+  *[[api.html|Application programming interface ( API )]].
+  *[[linkeddata.html|Linked Data & Linked Open Data ( LOD )]].
+  *[[saas.html|Software As A Service ( SAAS )]].
+===== Organisations =====
+  *[[http://www.rechenkraft.net/|Rechenkraft.net e.V.]] - "Gemeinnütziger Verein zur Förderung von Bildung, Forschung und Wissenschaft durch Einsatz vernetzter Computer".
+    *[[http://www.facebook.com/rechenkraft.net|Facebook "Rechenkraft.net e.V."]].
+===== Distributed Computing =====
+==== Hadoop & The Hadoop Zoo ====
+  *I was told, that "Key-Value Pair" data, e.g. measuring values ( measuring time, measuring value ) are good to store with Hadoop :-)
+  *The OpenSource [[http://hadoop.apache.org/|Apache Hadoop]] for Java.
+  *The OpenSource file system [[http://hadoop.apache.org/hdfs/|Hadoop Distributed File System]].
+  *The OpenSource [[http://pig.apache.org/|Apache Pig]] - "A high-level data-flow language and execution framework for parallel computation".
+  *The OpenSource [[http://hive.apache.org/|Apache "Hive"]] - "A data warehouse infrastructure that provides data summarization and ad hoc querying"
+  *[[http://www.hadoopasure.com/|Windows Azure HDInsight]].
+==== Distributed Systems based on Automation Buses and Automotive Buses ====
+  *See [[fieldbus.html|Fieldbuses and Automation Networks]].
+  *See [[carnetworks.html|Automotive Networks, Car Electronics and Automotive Data Formats]].
+===== Parallel Computing =====
+==== Global Arrays Toolkit ====
+  *[[http://en.wikipedia.org/wiki/Global_Arrays|EN.Wikipedia "Global Arrays"]].
+  *[[http://hpc.pnl.gov/globalarrays/|Pacific Northwest National Laboratory "Global Arrays Toolkit"]].
+  *[[http://www.pnnl.gov/science/highlights/highlight.asp?id=1043|Pacific Northwest National Laboratory "Python Bindings Snake into Global Arrays Toolkit"]].
+==== MPI ====
+  *The Opensource [[http://www.mcs.anl.gov/research/projects/mpich2/|MPICH2 - High-performance and Widely Portable MPI]] for Windows and Linux.
+  *[[http://en.wikipedia.org/wiki/Message_Passing_Interface|EN.Wikipedia "Message Passing Interface"]], [[http://de.wikipedia.org/wiki/Message_Passing_Interface|DE.Wikipedia "Message Passing Interface"]] ( MPI ).
+==== OpenACC ==== 
+  *[[http://www.openacc-standard.org/|OpenACC - Directives for Accelerators]]
+  *[[http://en.wikipedia.org/wiki/OpenACC|EN.Wikipedia "OpenACC"]].
+==== OpenMP ====
+  *[[http://www.openmp.org/|OpenMP.org]] - "The OpenMP API specification for parallel programming".
+  *[[http://en.wikipedia.org/wiki/OpenMP|EN.Wikipedia "OpenMP"]], [[http://de.wikipedia.org/wiki/OpenMP|DE.Wikipedia "OpenMP"]].
+==== OpenCL ====
+  *[[http://developer.amd.com/zones/OpenCLZone/|AMD "OpenCL Zone"]].
+  *[[http://developer.amd.com/zones/OpenCLZone/universities/|AMD "OpenCL University Kit"]].
+  *The free online HTML book [[http://www.fixstars.com/en/opencl/book/OpenCLProgrammingBook/contents/|Ryoji Tsuchiyama, Takashi Nakamura, Takuro Iizuka, Akihiro Asahara, Jeongdo Son, Satoshi Miki "The OpenCL Programming Book"]].
+  *[[http://www.spieleentwicklung-im-web.spieleprogrammierung.net/2011/09/opencl-programmierung-tutorials-bucher.html|Spieleentwicklung im Web. Spieleentwicklung, OpenGL, DirectX, OpenAL, Physik, KI und mehr – Artikel, Webseiten, Bücher, Tools und Forenposts "OpenCL-Programmierung: Tutorials, Bücher und Präsentationen für den schnellen Einstieg"]] #.
+  *[[http://en.wikipedia.org/wiki/OpenCL|EN.Wikipedia "OpenCL"]], [[http://de.wikipedia.org/wiki/OpenCL|DE.Wikipedia "OpenCL"]].
+==== Parallel Simulation Environment for Complex Systems ( PARSEC ) ====
+  *The free [[http://pcl.cs.ucla.edu/projects/parsec/|UCLA Parallel Computing Laboratory "Parallel Simulation Environment for Complex Systems ( PARSEC )"]] - "A C-based simulation language, developed by the Parallel Computing Laboratory at UCLA, for sequential and parallel execution of discrete-event simulation models. It can also be used as a parallel programming language".
+==== PVM ====
+  *[[http://www.csm.ornl.gov/pvm/|PVM: Parallel Virtual Machine]].
+==== Tools ====
+  *Commercial debuggers for MPI and OpenMP.
+    *[[http://www.totalviewtech.com|TotalView Technologies "Totalview Debugger]].
+    *[[http://www.allinea.com/|Allinea Software "Allinea DDT"]] - "The Distributed Debugging Tool".
+===== Resources =====
+  *[[http://www.cloudera.com/community/|Cloudera, Inc. "Hadoop Community", "Cloudera Community"]].
+  *[[http://www.compunity.org/|cOMPunity]] - "The Community of OpenMP Users, Researchers, Tool Developers and Providers".
+  *[[http://software.intel.com/|Intel Software Network]].
+    *[[http://software.intel.com/en-us/articles/getting-started-with-openmp/|Intel Software Network "Getting Started with OpenMP*"]].
+    *[[http://software.intel.com/en-us/courseware/course/category.php?id=74|Intel Software Network "Courseware / FundamentalConstructs / OpenMP"]].
+    *[[http://software.intel.com/en-us/articles/intel-mpi-library-for-windows-kb/all/|Intel MPI Library for Windows* Knowledge Base]].
+  *[[http://www.mpi-forum.org/|Message Passing Interface Forum]].
+    *[[http://www.mpi-forum.org/docs/docs.html|Message Passing Interface Forum "MPI Documents"]].
+  *[[http://www.nccs.gov/user-support/training-education/hpcparallel-computing-links/|National Center for Computational Sciences "HPC/Parallel Computing References"]].
+  *[[https://www.hlrn.de/home/view/System/WebHome|Norddeutscher Verbund für Hoch- und Höchstleistungsrechnen "User Documentation"]].
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/Apache_Hadoop|EN.Wikipedia "Apache Hadoop"]], [[http://de.wikipedia.org/wiki/Hadoop|DE.Wikipedia "Hadoop"]].
+    *[[http://en.wikipedia.org/wiki/MapReduce|EN.Wikipedia "MapReduce"]], [[http://de.wikipedia.org/wiki/MapReduce|DE.Wikipedia "MapReduce"]].
+===== Forums, Newsgroups, Communities =====
+  *[[http://wiki.apache.org/hadoop/|Apache "Hadoop Wiki"]].
+  *[[http://www.rechenkraft.net/phpBB/| Forum Rechenkraft.net e.V.]].
+{{tag>"distributed computing" "parallel computing", distributed parallel computing}}
+<footnote_navi_en>

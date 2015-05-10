@@ -1,0 +1,363 @@
+====== [hemmerling] Competitions ======
+Related topics: 
+  *[[brainbench.html|Brainbench & Elance Certifications]].
+  *[[entrepreneurship.html|Entrepreneurship, Self-Employment, Entrepreneurship, Startup Business, Founding of an Enterprise]].
+  *[[marketing.html|Marketing and Self-Marketing, Soft-Skills]].
+===== Job Application Tests at CoreMedia =====
+==== The Description of the Internship Opportunity 2013 ====
+  *[[http://www.coremedia.com/|CoreMedia]] bietet dir die Chance, unter die Haube unseres CMS zu blicken und hands-on an dem System zu arbeiten.
+  *Wann: Sommer 2013.
+  *Wo: Ludwig-Erhard-Str. 18, 2049 Hamburg.
+  ***ACHTUNG**: Die Plätze sind begrenzt!
+  *Du kannst uns sagen, was mit diesem Code in Java nicht stimmt? Dann bist du bei uns genau richtig!
+  *Sende daher schnell deine Meinung zum Code per Mail an [[vera.traub@coremedia.com]] und melde dich an.
+==== The Code to be reviewed ====
+<code>
+if (new Integer(getInt()) == null) {
+   return null;
+} else if (new Integer(copyFiles()) == null)
+{
+     return -1;
+}
+</code>
+===== Job Application Tests at SIXT =====
+==== The Competition "SIXT PHP Challenge" ( 2012-07-18 - ? ) ====
+  *[[http://www.sixt.de/|Sixt GmbH & Co. Autovermietung KG]].
+  *"SIXT Mietwagen Blog. Mietwagen und mehr - Das Blog von Sixt".
+    *[[http://www.sixtblog.de/hintergrundwissen/challenge-considered-innovative-recruiting-kampagne-von-sixt/|SIXT Mietwagen Blog. Mietwagen und mehr - Das Blog von Sixt "Challenge Considered? Innovative Recruiting-Kampagne von Sixt"]], 2012-09-28.
+    *[[http://www.sixtblog.de/pressemeldung/sixt-geht-ungewoehnliche-wege-im-social-recruiting/|SIXT Mietwagen Blog. Mietwagen und mehr - Das Blog von Sixt "Sixt geht ungewöhnliche Wege im Social Recruiting"]].
+  *[[http://www.twitter.com/SixtDE/status/225627843084812288|Twitter "Sixt Deutschland", Tweet "#PHP-Entwickler bei Sixt? Challenge Accepted"]], 2012-07-18.
+  *Job offers.
+    *[[http://www.sixt.jobs/|SIXT Jobs]].
+    *Campaign [[http://www.sixt.de/php-gewinnspiel|Sixt GmbH & Co. Autovermietung KG "SIXT PHP Challenge"]].
+    *Campaign [[http://www.sixt.de/frontend-entwickler/?utm_campaign=frontend_job|Sixt GmbH & Co. Autovermietung KG "Frontend Entwickler bei SIXT!"]] - "<del>PHP</del>-Frontend Entwickler bei SIXT!"
+    *Campaign [[http://www.sixt.de/php/marketing/jobpraktikadev|Sixt GmbH & Co. Autovermietung KG "Junior Manager und Praktikanten bei Sixt"]].
+==== The Code to be reviewed ====
+<code>
+<?php
+
+class Mandant {
+
+	public function get_currency($company_id) {
+		$broker = $GLOBALS['context']->get_broker();
+		$params = array('company_id' => $company_id);
+
+		$res = $broker->exec('GetGeCurrencyForCompanyid', $params, $rcs);
+
+
+		if (!$res) {
+			return false;		
+		}
+		
+		return $res['ewkz'];
+	}
+
+	public function get_land($company_id) {
+
+		$broker = $GLOBALS['context']->get_broker();
+		$params = array('company_id' => $company_id);
+		
+		$data = $broker->exec('GetGeSixtCountryForCompanyid', $params, $rcs);
+
+		return @$data['land'];
+	}
+}
+</code>
+==== Resources ====
+  *[[http://www.php-unconference.de/2013/06/16/sixt-ist-goldsponsor/|PHP Unconference Hamburg 2013 "Sixt als Goldsponsor der PHP Unconference"]]. As of 2013-09-22, the competition is still active, as job marketing instrument.
+===== Job Application Tests at "B2 Werbeagentur" =====
+==== The Competition ( 2012-05-07 - ? ) ====
+  *[[http://www.b2online.de/|B2 Werbeagentur]], Braunschweig.
+  *[[http://www.facebook.com/b2.werbeagentur|Facebook "B2 Werbeagentur"]].
+  *[[http://www.facebook.com/b2.werbeagentur/photos/a.138412330941.124658.136264620941/10153139767190942/?type=1|Facebook "FRONTEND-ENTWICKLER (m,w)"]], 2012-05-07 on B2's Facebook wall - "Du hast mindestens 4 Fehler im Code entdeckt?".
+  *Answer by a single poster on the Facebook wall:
+    -beim ersten if geht keine geschweifte Klammer auf
+    -es müsste heißen jetzt_weiterempfehlen();
+    -hinter dem ECHO Satz fehlt ein Semikolon
+    -PHP wird nicht geschlossen. 
+  *Some other answers:
+    *?> vergessen... $du undefiniert, jetzt_bewerben() undefiniert, jetzt_weiterempfehlen undefiniert
+    *eckige Klammer fehlt; String mit Apostroph angefangen, aber mit "Gänsefüßchen" beendet; Semikolon im else-Zweig fehlt.
+==== The Code to be reviewed ====
+<code>
+<?php
+
+if ($du == "Frontend-Entwickler (m/w)")
+
+jetzt_bewerben();
+
+} else if ($du == 'Ich kenne einen Frontend-Entwickler (m/w)") {
+
+jetzt_weiterempfehlen(jetzt_weiterempfehlen());
+
+} else {
+
+echo "Bitte diesen Beitrag teilen, teilen, teilen!"
+
+}
+</code>
+===== Job Application Tests at Spotify =====
+==== How can I get a job at Spotify? ====
+  *[[http://www.quora.com/Spotify/How-can-I-get-a-job-at-Spotify|Quora "How can I get a job at Spotify?"]] - "Prior to applying, I went to almost as many evening/weekend hack things that Spotify arranged ( [[http://www.meetup.com/Spotify/|Meetup "Sthlm Spotify Tech Group (Stockholm)"]] ) as I could squeeze in".
+  *[[http://www.meetup.com/Spotify/|Meetup "Sthlm Spotify Tech Group (Stockholm)"]].
+==== Company Culture ====
+  *[[http://www.infoq.com/articles/monthly-devops-03-spotify|InfoQ "DevOps @ Spotify"]].
+==== 2nd. Set of Tasks ====
+  *[[http://labs.spotify.com/puzzles/|Spotify Labs Puzzles]] ( 2014 - ).
+  *<del>[[http://www.spotify.com/de/jobs/tech/|Spotify Germany "Spotify Technology. Tech Puzzles. Tickle your brain and test your problem-solving skills with our Tech Puzzles. Solving the puzzles could give you a head start if you want to be part of our team. Enjoy!"]]</del> ( - 2013-11-15 ).
+    *3 Tasks. To submit a solution to a problem, send an e-mail to [[puzzle@spotify.com]].
+    *"Include your source code files as attachments and the problem id or problem name as subject. Within minutes you will get a reply indicating whether your source code solved the problem, and if it didn't, an indication of what was wrong. Your source code can be in C, C++, Java, or Python (version 2.6). Input is read from stdin".
+    *[[http://community.spotify.com/t5/Spotify-Announcements/Can-you-solve-Spotify-s-Tech-Puzzles/td-p/136024|Spotify Community "Can you solve Spotify's Tech Puzzles?"]], ‎29-08-2012.
+    *[[http://www.spotify.com/us/blog/archives/2012/08/29/can-you-solve-spotifys-tech-puzzles/|Spotify News Archive "Can you solve Spotify’s Tech Puzzles?"]], 2012-08-29.
+==== 1st. Set of Tasks ( - 2012-10 ) ====
+  *[[http://web.archive.org/web/*/http://www.spotify.com/se/jobs/tech/|Archive.org " Spotify Ltd - Tech Puzzles"]] - "Best Before", "Ticket Lottery", "Bilateral Projects".
+  *[[http://allfacebook.com/spotify-hiring_b76920|AllFacebook - The Unofficial Facebook Blog, Jackie Cohen "Spotify Takes Cues From Facebook Recruitment Tactics]], 2012-02-07.
+  *[[http://spotify-tech-puzzles-csharp.googlecode.com/hg-history/94a02d8385ef4ebaa10c0cfb7ebb7d05ba520257/Docs/Puzzles%20-%20Spotify.htm| spotify-tech-puzzles-csharp. C# solutions to the tech puzzles found @ http://www.spotify.com/se/jobs/tech/ "Spotify - Best Before, Ticket Lottery, Bilateral Projects"]].
+     *[[http://web.archive.org/web/*/http://www.spotify.com/se/jobs/tech/best-before|Archive.org "Spotify - Best Before"]].
+     *[[http://web.archive.org/web/*/http://www.spotify.com/se/jobs/tech/ticket-lottery/|Archive.org "Spotify - Ticket Lottery"]].
+     *[[http://web.archive.org/web/*/http://www.spotify.com/se/jobs/tech/bilateral-projects/|Archive.org "Spotify - Bilateral Projects"]].
+==== Previous Contests ====
+=== 2012 ===
+  *[[http://forum.thegamecreators.com/?m=forum_view&t=194164&b=2|The Game Creators Forums -Developer Forum- "Spotify Code Quest 2012"]].
+  *[[http://forumserver.twoplustwo.com/191/programming/spotify-programming-challenge-1168271/|Two Plus Two Poker Forums "Spotify Programming Challenge"]].
+=== 2010 ===
+  *[[http://spc10.contest.scrool.se/|Spotify Programming Challenge]].
+    *[[https://www.scrool.se/static/contest/spc-2010-05-29/problems/|Scrool "Spotify Programming Challenge May 29 2010"]].
+==== Third-Party Solutions ====
+  *[[http://www.ahmed-aly.com/Submissions.jsp?ID=1832|Ahmed Aly "Virtual Online Contests", page 1832]] - "P1 - Cat vs. Dog".
+    *UVa, Live Archive,	Codeforces, TJU, SGU, PKU, Timus, ZOJ ??
+  *[[http://www.c-plusplus.de/forum/306276-full|C++ Community, Forum "Spotify Puzzle Lottery - Logikfehler oder Problem mit spotify-bot ?-"]] - solution of outdated puzzle ( of pre-2012 ).
+  *[[http://s325.codeinspot.com/q/3185468|Code in Spot "Spotify Tech Puzzle - stdin in Python"]] - solution of outdated puzzle ( of pre-2012 ).
+  *[[http://standardofnorms.wordpress.com/2013/02/27/reversed-binary-the-spotify-tech-puzzle-reggae-quiz/|Crafted With Ingenuity "Reversed Binary (The Spotify Tech Puzzle Reggae Quiz)"]].
+  *Github.
+    *[[http://www.github.com/pbos/spotify-puzzles|Github "pbos/spotify-puzzles"]] - solutions to outdated puzzles ( of pre-2012 ).
+    *[[http://github.com/Koronen/spotify-tech-puzzles|Github " Koronen/spotify-tech-puzzles"]] - solutions of outdated ( pre-2012 ) and current ( 2012 ) puzzles.
+    *[[http://www.github.com/gravyboat/spotify-puzzles/|Github "gravyboat / spotify-puzzles"]] - solutions to current puzzles.
+  *[[http://code.google.com/p/spotify-tech-puzzles-csharp/|Google Code "spotify-tech-puzzles-csharp. C# solutions to the tech puzzles found @ http://www.spotify.com/se/jobs/tech/"]] - solutions of outdated puzzles ( of pre-2012 ).
+  *[[http://www.exar.ro/answer.php?answer=c-Spotify-Tech-Puzzle-id-bestbefore-439627O9978942|IT Problems Review - Vol. 3 "C++: Spotify Tech Puzzle [id:bestbefore]"]].
+  *[[http://martinsaspects.blogspot.de/2011/07/code-review-wanted-spotify-tech-puzzles.html|Martin R-L's Programming Oriented Aspects. Martin R-L's Programming Oriented Aspects "Code Review Wanted: Spotify Tech Puzzles in C#"]], 2011-07-29.
+  *[[http://alonso-vidales.blogspot.de/2013/03/new-spotify-puzzles-reversed-binary.html|Alonso Vidales Miguélez "New Spotify Puzzles - Reversed Binary, Zipf's song, Cat vs. Dog - solutions"]].
+    *[[http://github.com/alonsovidales/spotify-puzzles-v2|Github " alonsovidales/spotify-puzzles-v2"]].
+  *[[http://s5455.socode.info/question/50813e9f4f1eba38a43d8887|SoCode "Spotify Tech Puzzle [id:bestbefore]"]].
+  *StackOverflow.
+    *[[http://codereview.stackexchange.com/questions/8263/spotify-puzzle-problem-in-python|Stackexchange Code Review "Spotify puzzle problem in python"]] - solution of outdated puzzle ( of pre-2012 ).
+    *[[http://www.stackoverflow.com/questions/9978942/spotify-tech-puzzle-idbestbefore|StackOverflow "Spotify Tech Puzzle [id:bestbefore] [closed]"]] - solution of outdated puzzle ( of pre-2012 ).
+    *[[http://www.stackoverflow.com/questions/9151691/spotify-tech-puzzle-stdin-in-python|StackOverflow "Spotify Tech Puzzle - stdin in Python"]] - solution of outdated puzzle ( of pre-2012 ).
+    *[[http://www.stackoverflow.com/questions/tagged/spotify|StackOverflow - Tagged Questions #spotify]].
+  *[[http://www.verious.com/qa/illegal-function-spotify-tech-puzzle/|Verious "Illegal Function, Spotify Tech Puzzle"]] - solution of outdated puzzle ( of pre-2012 ).
+===== Permanent IT & Engineering Competitions & Competition Communities =====
+==== Services ====
+  *[[http://icpc.baylor.edu/|The ACM-ICPC International Collegiate Programming Contest]] for students.
+    *[[http://icpc.baylor.edu/regionals/finder/northwestern-europe-2013|The ACM-ICPC International Collegiate Programming Contest - The 2013 Northwestern Europe Regional Contest (2013)]].
+      *[[http://2013.nwerc.eu/en/|Northwestern European Regional Contest. November 22-24 2013]].
+  *[[http://www.algorithmist.com/|Algorithm, Inc.]] ?!
+  *[[http://cppquiz.org/quiz/about/|Anders Schau Knatten "C++ Quiz"]].
+  *[[http://icpcarchive.ecs.baylor.edu/|Baylor University - ACM-ICPC Live Archive]] - "Here you will find hundreds of problems used in the ACM-ICPC Regionals and World Finals. You can submit your sources in a variety of languages, trying to solve any of the problems available in our database".
+  *[[http://www.checkio.org/|CheckIO]] - "A game world you can explore using your programming skills", with Python 3.3 tasks. 
+  *[[http://www.codechef.com/|CodeChef]].
+    *[[http://www.facebook.com/CodeChef|Facebook "CodeChef"]].
+    *[[http://www.twitter.com/codechef|Twitter "CodeChef, @codechef"]].
+  *[[http://www.codeforces.com/|Codeforces]].
+  *[[http://www.codewars.com/|Codewars]] - "Achieve mastery through challenge. Improve your skills by training with others on real code challenges", for JavaScript, CoffeeScript, Ruby developers.
+  *[[http://www.hackerearth.com/|HackerEarth For Programmers]] - "Coding Challenges for Programmers".
+  *[[http://www.hackerrank.com/|HackerRank]] - "Programming challenges and contests across the entire computer science domain".
+    *[[http://www.twitter.com/hackerrank|Twitter "HackerRank, @hackerrank"]].
+    *[[http://www.hackerrank.com/cisco-challenge|HackerRank "CISCO <br/> THE CODE [CISCO Hackathon]"]], 2015-04-09 - 2015-04-11.
+    *[[http://www.hackerrank.com/software-challenge|HackerRank "Software Challenge"]].
+    *[[http://www.hackerrank.com/challenges/solve-me-first|HackerRank "Solve me first"]].
+  *[[http://acm.hrbeu.edu.cn/|Harbin Engineering University - Online Judge]].
+  *[[http://www.poj.org/|Peking University - PKU JudgeOnline]].
+  *[[http://www.projecteuler.net/|Project Euler]].
+  *[[http://acm.sgu.ru/|Saratov State University - Online Contester]].
+  *[[http://www.comp.nus.edu.sg/~stevenha/programming/acmoj.html|National University of Singapore ( NUS )  - World of Seven - Methods to Solve - ACM UVa Online Judge]].
+  *[[http://www.spoj.com/|Sphere Online Judge (SPOJ)]].
+    *[[http://www.facebook.com/pages/SPOJ/248106793203|Facebook "SPOJ"]].
+    *[[http://en.wikipedia.org/wiki/SPOJ|EN.Wikipedia "SPOJ"]].
+    *[[http://cebit.spoj.com/CEBIT/|Sphere CeBIT Coding Challenge]] - On-line Contest ( 2014-03-02 - 2014-03-06 ), Onsite Contest in Hannover ( 2014-03-10 - 2014-03-15 ).
+  *[[http://acm.tju.edu.cn/toj/|Thomas Jefferson University - TJU ACM-ICPC Online Judge]].
+  *[[http://acm.timus.ru/|Ural Federal University - Timus Online Judge ( TOJ )]].
+  *[[http://www.topcoder.com/|Topcoder]].
+    *[[http://community.topcoder.com/8|Topcoder Community Portal]].
+    *[[http://community.topcoder.com/tc?module=Static&d1=calendar&d2=thisMonth|Topcoder - Events]].
+  *[[http://www.onlinejudge.org/| Universidad de Valladolid - UVa Online Judge]].
+  *[[http://www.uwp.edu/sws/usaco/|USA Computing Olympiad]].
+    *[[http://cerberus.delos.com:790/usacogate|USACO Training Program Gateway]].
+  *[[http://acm.zju.edu.cn/onlinejudge/| Zhejiang University - ZOJ Online Judge]].
+  *[[http://www.gameofhacks.com/|Checkmarx "Game of Hacks"]].
+==== Resources ====
+  *[[http://www.ahmed-aly.com/|Ahmed Aly "Virtual Online Contests"]].
+  *[[http://www.xmarks.com/site/acm.pku.edu.cn/JudgeOnline/|Xmarks - Search for "acm.pku.edu.cn/JudgeOnline/"]].
+===== Headline =====
+===== IT & Engineering Competitions =====
+  *[[http://antwerpes.it/weihnachtsgewinnspiel-2011/2011/12/|Antwerpes IT Blog - Weihnachtsgewinnspiel 2011]] ( 2011-12-07 - 2011-12-22, 12:00 o'clock = noon, not midnight ).
+  *[[http://www.elektronikpraxis.vogel.de/low-power-design/|ELEKTRONIKPRAXIS "Low-Power Design-Wettbewerb"]], "Einsendeschluss Designidee: 2011-11-15, Einsendeschluss Design-In: 2012-02-15" ).
+  *[[http://www.code-n.org/|CODE_n "Global Innovation Contest for CeBIT 2012"]] - "The CeBIT will be your global stage. Looking for the best 50 innovators" ( 2011-09-14 - 2011-11-30).
+  *[[http://www.nxp.com/|NXP]].
+    *[[http://www.nxp.com/campaigns/discretes-workbench/contest?ecmp=1917&utm_source=emailmarketing&utm_medium=email&utm_campaign=nxp131011&utm_content=2011-10-13%2011:39:39&ntp=31406@156695@61001135|NXP "Build up your discrete workbench" Contest]] ( 2011-09-14 - 2011-11-30 ).
+  *[[http://www.imaginecup.com/|Microsoft "Imagine Cup"]], [[http://www.imaginecup.de/|Microsoft Germany "Imagine Cup"]].
+  *[[http://www.mathworks.de/|MathWorks Deutschland]].
+    *[[http://www.mathworks.com/contest/overview.html|The Mathworks - MATLAB Programming Contest]] #.
+    *Blog [[http://blogs.mathworks.com/contest/|The Mathworks - MATLAB Programming Contest Blog]].
+  *Deutsche Telekom.
+    *[[http://www.interactive-tv-award.de/|Interactive TV Award der Deutschen Telekom]], ( 2010, 2009-08-01 - 2009-10-01, 2008-05-15 - 2008-07-15 ) #.
+    *[[http://www.telekom-innovation-contest.com/|Telekom Innovation Contest]] ( 2013-02-21 - 2013-03-31, 2014-03-31 - 2014-04-15 ).
+      *[[http://www.telekom.com/medien/konzern/176338|Deutsche Telekom "Deutsche Telekom startet weltweiten Innovation Contest"]].
+      *[[http://www.laboratories.telekom.com/public/deutsch/newsroom/news/pages/telekom-innovation-contest.aspx|Telekom Innovation Laboratories "T-Labs sind Mitveranstalter des Telekom Innovation Contests"]].
+      *[[http://www.facebook.com/InnoContest|Facebook "Telekom Innovation Contest"]].
+      *[[http://plus.google.com/u/0/b/107495677140439615474/+Telekom-innovation-contest/|Google+ "Telekom Innovation Contest"]].
+      *[[http://twitter.com/InnoContest|Twitter "InnovationContest"]].
+  *[[http://www.data-mining-cup.de/|DATA-MINING-CUP - prudsys Anwendertage und Data-Mining-Wettbewerb"]] - "DMC Wettbewerb" (  2011-04-15 - 2010-05-31. registration start 2011-03-01 ).
+    *[[http://www.clever-empfehlen.de/|prudsys - The Realtime Analytics Company "Clever Empfehlen"]], 2011-01-10 - 2011-02-28.
+  *XXX-Championship.
+    *[[http://www.bpm-champion.com/|BPM-Champion 2010/2011]] ( 2010-12-06 - 2011-01-14, 2011-01-20 - 2011-01-26, 2011-01-31 - 2011-02-06, 2011-02-12 - 2011-02-18, 2011-03-04 ).
+    *[[http://www.document-sharing-champion.com/|Champion Document Sharing - Deutsche Meisterschaft Document Sharing 2014]] ( - 2014-11-18, 2014-11-21 - 2014-11-30, 2014-12-12 ).
+  *[[http://www.robocup-german-open.de/|RoboCup German Open]], 2010.
+  *[[http://www.renesasrulz.com/community/rx-contest|Renesas RX Design Contest]].
+  *[[http://www.projektmanagement-champion.com/|Projekt-Management Champion. Deutsche Projekt-Management Meisterschaft]], 2010-09-10 - 2010-11-06.
+    *[[http://www.projektmanagement-champion.com/startseite/die-termine/|Projekt-Management Champion, "Termine"]].
+  *[[http://tunedit.org/challenge/IEEE-ICDM-2010|TunedIT - IEEE ICDM Contest: TomTom Traffic Prediction for Intelligent GPS Navigation]] - "Data mining competition" ( 2010 ).
+  *[[http://www.alstom-innovationspreis.de/|Alstom Innovationspreis]].
+  *[[http://www.br-automation.com/cps/rde/xchg/br-automation_com/hs.xsl/cookies_allowed.htm?caller=career_11573_DEU_HTML.htm|B&R - European Industrial Ethernet Award]].
+  *[[http://www.freeduino.de/blog/arduino-blogparade-und-gewinnspiel|freeduino "Arduino Blogparade und Gewinnspiel"]] ( - 2009-07-03 ).
+  *[[http://www.cisco.com/web/solutions/axpdev/|Cisco APX Contest]] ( - 2009-01-12 "Phase 1" ).
+  *FERCHAU
+    *[[http://artofengineering.ferchau.de/|FERCHAU Engineering "Art of Engineering"]].
+    *[[http://challenge.ferchau.de/|FERCHAU-Challenge: Der Wettbewerb für Studenten]] ( 2010-03-01 - 2010-12-15 ).
+  *[[http://www.engineering-challenge.de/|Schaeffler Engineering Challenge II]] ( - 2009-09-19 ).
+  *[[http://www.galileo-masters.eu/|European Satellite Navigation Competition]] ( 2010, 2011 ).
+    *[[http://www.galileo-masters.eu/index.php?kat=press.html&anzeige=press9.html|European Satellite Navigation Competition "How Do You Pack Your Suitcase?"]], special topic prize by T-Systems and DHL Innovation Center ( - 2008-07-31 ).
+  *[[http://www.hermann-appel-preis.de/|Hermann-Appel-Preis]] - "Eine Initiative der IAV GmbH, Ingenieurgesellschaft Auto und Verkehr".
+  *[[http://www.carolo-cup.de/|Carolo-Cup]] - "Studenten entwickeln autonome Modellfahrzeuge".
+  *[[http://www.innovationworldcup.com/|Innovation World Cup]] / [[http://www.bluetooth.com/Pages/IWC.aspx|Buetooth "Innovation World Cup"]] 2011.
+  *[[http://www.it-security-champion.com/|IT-Security Champion. Deutsche Meisterschaft IT-Security 2011]] ( 2011-08-02 - ).
+  *[[http://academy.3ds.com/contests/|Dassault Systèmes - 3DS Academy "Contests"]].
+  *[[http://www.egovernment-computing.de/wettbewerb|eGovernment Computing - GovApps]] - "Machen Sie mit beim Wettbewerb Government-Apps" ( - 2013-02-13 ).
+  *The free online service [[http://www.mindmup.com/|Mindmup]] - "BookFriday" ( 2013-02-15 - 2013-02-16, 11am UTC, Twitter #bookfriday ). I participated!
+    *[[http://blog.mindmup.com/2013/02/bookfriday-we-want-your-book-tips-and.html|MindMup Blog "BookFriday: We want your book tips... and we're giving away $100 on Amazon"]].
+    *[[http://www.gojko.net/2013/02/15/mindmup-book-friday-share-your-book-tips-were-giving-away-100-on-amazon/|Gojko Adzic "MindMup Book Friday: Share your book tips, we’re giving away $100 on Amazon"]].
+  *[[http://www.rwe.de/web/cms/de/1895834/privatkunden/vorteilswelt/rwe-app-wettbewerb/|RWE "RWE APP-WETTBEWERB"]], 2013-04-08 - 2013-06-10.
+  *Hardware and software design contest [[http://www.elektor-projects.com/project/design-wettbewerb-mit-toshibas-m370.12988.html|Elektor ELabs "Design-Wettbewerb mit Toshibas M370"]] ( 2013-02-26 - 2013-07-31 ).
+  *Smartphone/Tablet-PC app developer contest "RWE App-Wettbewerb" by [[http://www.rwe.de/|RWE Vertrieb AG]], 2013-04-08 - 2013-06-10.
+  *[[http://pymove3d.pysv.org/|Python Software Verband e. V. "PyMove3D"]].
+    *[[http://www.bitbucket.org/pkoppatz/pymove3d-de/|BitBucket "pkoppatz / pymove3d-de"]] - "Das ist das Kursmaterial, mit dem Python gelernt und gelehrt werden kann. Die Blender-3D-Software wird verwendet, um den Python interpreter verfügbar zu machen".
+    *[[http://www.readthedocs.org/projects/pymove3d/|Read the Docs "pymove3d"]].
+  *[[http://wiki.unity3d.com/index.php/Contests|Unify Community Wiki "Contests"]].
+  *[[http://www.unity3d.com/contest/windows|Unity "Windows and Windows Phone contest"]] ( -2013-09-30 ).
+  *[[http://www.nvision.org.in/Events/Infero/HelloWorld|Nvision "HELLOWORLD-Online quiz"]].
+    *[[http://www.facebook.com/nvision.IIThyderabad|Facebook "Nvision, IIT Hyderabad"]].
+  *[[http://pushthewebforward.sitepoint.com/|Sitepoint "Push The Web Forward And Win!]].
+  *[[http://www.microsoft.com/germany/msdn/academic/windows-8/app-revolution.aspx|Microsoft MSDN "Windows 8 und Windows Phone 8 App Revolution. Windows 8 Student Developer Club"]] for students ( - 2014-02-28 ).
+  *[[http://www.bild.de/partner/digital/anzeige/eigene-apps-fuer-windows8-entwickeln-29522746.bild.html|BILD "Windows 8 App Hero gesucht. Hier entstehen die besten Apps Deutschlands"]] ( - 2013-05-19 ).
+  *[[http://www.softwaretestingworldcup.com/|Software Testing World Cup]] 2014.
+    *[[http://www.twitter.com/STWorldCup|Twitter "STWorldCup"]].
+  *[[http://www.element14.com/community/groups/wireless-power-solution?hootPostID=94fc9ebb720d24de8d9ada086cd58e29|Element14 Group "Wireless Power Solution", "Beyond the Phone" Wireless Power Challenge"]] ( - 2014-03-03 ).
+    *[[http://www.element14.com/community/groups/roadtest|Element14 "RoadTest"]].
+    *[[http://www.element14.com/community/roadTestApps/12556|Element14 RoadTest Application #12556]].
+    *[[http://www.element14.com/community/message/105077/l/what-is-the-range-of-the-w%C3%BCrth-elektronik-gmbh-co-kg-wireless-power-transfer-solution-to-go-solution#105077|Element 14 Community "What is the range of the Würth Elektronik GmbH & Co. KG 'Wireless Power Transfer Solution To Go" solution ?'"]].
+  *[[http://challenge.toradex.com/|Toradex Embedded Design Challenge]] - "STM3 Internet-of-Things Design Challenge February - November 2014".
+  *[[http://www.st.com/web/en/event/stm32contest|STMicroelectronics "STM32 Design Challenge - EMEA"]]
+    *[[http://www.facebook.com/STMicroelectronics.NV/app_127587717338875|Facebook "STMicroelectronics NV Design Contest"]].
+  *[[http://www.europythonbattle.com/|Europython Battle]] by [[http://www.stxnext.pl/|STX Next]] in Berlin ( 2014-07-21 - 2014-07-27 ).
+    *[[http://grot.hackathons.stxnext.pl/|STX Next - Hackathon "GROT"]].
+  *"LabVIEW Challenge".
+    *[[http://decibel.ni.com/content/groups/labview-challenge-2013-aufgabe-1|National Instruments Communty Group "LabVIEW Challenge 2013 - Aufgabe 1"]] 
+    *[[http://decibel.ni.com/content/groups/labview-challenge-2013-aufgabe-21|National Instruments Communty Group "LabVIEW Challenge 2013 - Aufgabe 2"]] 
+    *[[http://decibel.ni.com/content/groups/labview-challenge-2013-aufgabe-3|National Instruments Communty Group "LabVIEW Challenge 2013 - Aufgabe 3"]] 
+    *[[http://decibel.ni.com/content/groups/labview-challenge-2013-aufgabe-4|National Instruments Communty Group "LabVIEW Challenge 2013 - Aufgabe 4"]] 
+    *[[http://decibel.ni.com/content/groups/labview-challenge-2013-aufgabe-5|National Instruments Communty Group "LabVIEW Challenge 2013 - Aufgabe 5"]] 
+    *[[http://decibel.ni.com/content/groups/labview-challenge-2014|National Instruments  Communty Group "LabVIEW Challenge 2014"]] ( 2014-11-24 - ).
+  *[[http://www.ottogroup.com/karriere/Java-Challenge-bei-OTTO.php|Otto Group "Java Challenge"]] in Hamburg, 2014-11-28. Twitter tag "#ottochallenge".
+    *[[http://www.twitter.com/otto_jobs|Twitter "otto_jobs @otto_jobs"]].
+  *[[http://www.speedupeurope.eu/|Speed Up! Europe]] ( - 2014-12-10 ).
+  *[[http://www.littleboxchallenge.com/|The Little Box Challenge]], 2014-09-30 - 2015-07-22.
+  *[[http://www.mouser.de/ti-innovation-challenge/|Mouser "TI Innovation Challenge: European Design Contest for Europe, the Middle East and Africa"]], 
+    *[[http://www.electronics-eetimes.com/en/mouser-and-ti-to-sponsor-innovation-challenge-design-contest.html?cmp_id=7&news_id=222923864&vID=209|EE Times europe "Mouser and TI to sponsor Innovation Challenge Design Contest"]], 2015-02-16 - "The European contest already is under way: deadline for registration is 11:59 p.m. on February 28, 2015".
+===== Business & Business Startup Competitions =====
+  *[[http://www.deutscher-gruenderpreis.de/|Deutscher Gründerpreis]].
+  *[[http://www.futuresax.de/|futureSAX]].
+  *[[http://www.startup-impuls.de/|hannoverimpuls "StartUp-Impuls"]] - "Der Ideenwettbewerb für Ihre Gründungsidee".
+  *[[http://www.i2b.at/|i2b, Österreichs größter Businessplan Wettbewerb]].
+    *[[http://www.i2b.at/content.aspx?sm=1&men=45&AID=95|i2b "Keine Angst vor dem Businessplan. Ein Handbuch für Gründerinnen und Gründer"]] - free PDF book.
+    *[[http://www.i2b.at/content.aspx?sm=1&men=72&AID=146|i2b "Nützliche Tools"]] - "Plan4You-Easy", "Professional Planner".
+    *[[http://www.i2b.at/files.aspx|i2b "Downloads"]].
+  *[[http://www.kultur-kreativpiloten.de/|Kultur- und Kreativpiloten Deutschland]] ( - 2011-06-30 ) #.
+  *[[http://www.ideenwettbewerb.info/|projekt REGION BRAUNSCHWEIG GMBH, Wachstum-Innovation-Nachfolge (WIN) "Ideenwettbewerb 'Idee 2010'"]], Braunschweig.
+  *[[http://www.mbpw.de/|Münchner Business Plan Wettbewerb]] ( MBPW ).
+  *[[http://www.science4life.de/|Science4Life]].
+  *[[http://gruenderwettbewerb.o2business.de/|Der Gründerwettbewerb von o2]] - "Teilnahmeberechtigt sind Existenzgründer, die nachweislich in den Kalenderjahren 2009 oder 2010 gegründet haben ( - 2010-11-21 ).
+  *[[http://www.osbf.eu/global/projects/osbf_award/|Open Source Business Foundation "Open Source Business Award Project"]].
+  *[[http://www.weconomy.de/|Weconomy]] Gründerwettbewerb.
+  *[[http://www.globstar2011.com/|Global Startup Challenge 2010]], Poland.
+  *[[http://www.trader-2013.com/|Commerzbank "Traider 2013"]] ( 2013-09-09, 9:00 - ).
+  *[[http://www.gruender-garage.de/|Gründer-Garage]], Berlin ( 2014-07-22 - ).
+===== Business Case & Idea Competitions =====
+  *[[http://www.oliverwyman.com/|Oliver Wyman]].
+    *[[http://www.crack-the-case.de/|Oliver Wyman Winter Case]] ( 2010-12-21 - 2011-01-31 ).
+  *[[http://www.booz.com/de/|Booz & Company GmbH]].
+    *[[http://www.wiwi-treff.de/home/index.php?mainkatid=1&sid=30&ukatid=1&artikelid=2813|Booz Allen "Booz Allen CEO Challenge 2008"]].
+  *[[http://www.mobile-award.de/|Detecon Mobile Award]].
+  *[[http://www.primecup.de/|Exist-priME-Cup]].
+  *[[http://www.gemeinsam-anpacken.de/|GENERATION-D. Ideen für Deutschland. Gemeinsam anpacken]] - "Die Altersgrenze für die Teilnahme liegt bei 32 Jahren" :-(.
+  *[[http://www.pwc.com/|PricewaterhouseCoopers]].
+    *[[http://www.wiwi-treff.de/home/index.php?mainkatid=2&ukatid=2&sid=116&artikelid=3326&pagenr=0|WiWi-Treff "Student Award 2008 - Brillante Beraterköpfe gesucht! Wer ein Sprungbrett in die Welt der Beratung sucht, sollte beim PricewaterhouseCoopers Student Award 2008 mitmachen"]].
+  *[[http://www.soft-skill-wettbewerb.de/text/teilnahmebedingungen/teilnahmebedingungen.html|Meyer-Camberg Soft-Skill-Wettbewerb]] ( - 2007-12-31 ).
+===== Business Competitions =====
+  *[[http://www.crm-champion.com/|CRM-Champion]] 2010/2011 ( 2010-11-05 - 2010-11-14, 2010-11-20 - 2010-11-26, 2010-12-05 - 2010-12-12, 2011-01-15 - 2011-01-23, 2011-02-04 ).
+  *[[http://www.champion-kundenkommunikation.com/|Champion Kundenkommunikation. Deutsche Meisterschaft Kundenkommunikation]] - 2011 ( 2011-06-15 - 2011-07-05, 2011-07-12 - 2011-07-16, 2011-08-03 - 2011-08-17, 2011-08-30 - 2011-09-14, 2011-09-30 ).
+===== Artist Competitions =====
+  *[[http://de.news.yahoo.net/secrets-of-photography/|CANON "EOS Abenteuer - Secrets of Photography"]], 2011.
+    *[[http://de.news.yahoo.net/secrets-of-photography/galerie/licht-und-landschaften/72|CANON "EOS Abenteuer - Secrets of Photography", Gallery "Licht und landschaften" #72]].
+    *[[http://de.news.yahoo.net/secrets-of-photography/ansehen/19227|CANON "EOS Abenteuer - Secrets of Photography", entry #19227 "The World Exposition in Hannover - By Night" by Rolf Hemmerling]].
+  *[[http://www.our-world-tour.de/|SIGMA OUR WORLD TOUR]], 2011-08-15 - "Bewirb Dich auf den Coolsten Job Deutschlands. Reise mit der SIGMA SD1 50 Wochen zu den 50 schönsten Plätzen unseres Planeten".
+  *The music video contest [[http://web.archive.org/web/*/http://www.clip-ab.com/|Clip-Ab]]  2002, 2003, 2004 ( - 2006-01-06 ).
+  *The music remix contest [[http://www.start-ab.com/|Start-Ab]], 2002, 2003, 2004, 2006, 2007, 2007, 2010.
+
+===== Past / Former / Closed IT & Engineering Competitions & Business Cases =====
+  *"First International SPICE Days Student Awards" by [[http://www.isqi.org/|The International Software Quality Institute (iSQI GmbH)]] ( -2009-04-30 )
+  *SIEMENS "be professional" ( -2009-02-27 ).
+    *"be professional" competititon website [[http://www.be-professional.de/|be-professional.de]].
+    *[[http://www.automation.siemens.com/mcms/automation/de/pc-based-automation/|SIEMENS PC-based Automation 
+]].
+    *[[http://e-award.fh-koeln.de/ums/|Fachhochschule Köln "Login für den Remotezugang zur Controlling Station"]] for the "be professional" competititon.
+  *[[http://www.xplore.org/|PHOENIX CONTACT "New Automation Award 2008"]].
+  *Contest [[http://www.cisco.com/web/solutions/axpdev/|Cisco APX Contest]] ( - 2009-01-12 Phase1 ).
+  *[[http://www.renesas.eu/|Renesas Electronics Europe GmbH]].
+    *Competition "Renesas Interacticve: HEW Target Server Design Contest 2008" ( -2008-07-04 ).
+    *Competition "RENESAS SH Carrierboard" ( -2008-12-01 ).
+      *[[http://www.gps-modules.com/content.asp?lid=1&font_flg=0&sdid=228&did0=2&did1=228&did2=1523&did3=1524&did4=1536&wptid=1|Glyn "3.000 Carrierboards + Applikationswettbewerb"]].
+  *The Business Intelligence competition [[http://www.netflixprize.com/|Netflix Prize]] ( - 2009-09-21 ).
+    *[[http://www.cs.uic.edu/~liub/Netflix-KDD-Cup-2007.html|KDD Cup and Workshop 2007]].
+    *[[http://www.netflixprize.com/community/|Netflix Forum]].
+    *[[http://en.wikipedia.org/wiki/Netflix_Prize|EN.Wikipedia "Netflix Prize"]].
+    *[[http://www.slideshare.net/rzykov/netflix-1542324|Slideshare "Jim Bennet: 'The Cinematch System: Operation, Scale Coverage, Accuracy Impact'"]].
+  *Idea competition [[http://theseus-programm.de/veranstaltungen/theseus-talente-2008/|THESEUS Talente 2008]], 2008.
+  *[[http://www.thewayout.de/|TheWayOut]] ( - 2008-06-29, 2002, 2001 ).
+  *Contest [[http://www.ni.com/coolblackfinapp/|National Instruments "The Coolest (Embedded) Application of the Year Contest"]] ( 2007-02-13 -2007-09-17 ).
+  *Contest [[http://www.templeofthesungame.com/|Temple of the Sun]] ( - 2007-06-19 ) - Jump&Run game with programming competiton, sponsored by Sun Microsystems, Inc.
+  *Robocode.
+    *[[http://www.robocode.de/|Robocode]] - "Erwecke kleine Roboter zum Leben. Ein OpenSource Projekt in Java".
+    *[[http://robocode.sourceforge.net/|Sourceforge "Robocode"]], [[http://www.sourceforge.net/projects/robocode|Sourceforge "Robocode"]].
+    *[[http://www.fakultaet4.fh-hannover.de/fakultaet-iv/preise-und-auszeichnungen/archiv/robocode-wettbewerb-erfolgreich-beendet/index.html|Fachhochschule Hannover, Fakultät IV "RoboCode-Wettbewerb erfolgreich beendet"]], 2007-06-08.
+  *Contest [[http://omg.worsethanfailure.com/|Olympiad of Misugided Geeks Worse than Failure ( OMGWTF )]] ( 2007-04-24 - 2007-05-14 ).
+  *[[http://omg.thedailywtf.com/|Olympiad of Misguided Geeks - Worse Than Failure]], 2007.
+  *[[http://netzspannung.org/digital-sparks/|Digital Sparks]] ( 2006, 2003, 2002, 2001 ).
+  *[[http://www.hft.uni-hannover.de/ibs.html|Institut für Hochfrequenztechnik und Funksysteme "Infineon Business Simulation"]]  ( 2006-07-26 - 2006-07-27 ).
+  *[[http://www.partner-fuer-schule.nrw.de/javastars/|Stiftung Partner für Schule NRW "JAVA STARS 2008 - SUN Microsystems Award"]], (not 2008 !), 2006, 2005, 2004.
+  *[[http://www.topcoder.com/pl/?&module=Static&d1=google&d2=google_overview|Google Code Jam 2003]] ( - 2003-10-17 ).
+  *[[http://www.xplore.org/2007/de/22.htm|PHOENIX CONTACT "xplore New Automation Award 2008"]].
+  *[[http://www.helloworldopen.com/|Hello World Open ( HWO ) COding World Championschips]] ( - 2014-06-10 ).
+===== Past special Events =====
+  *[[http://www.iaror.org/|International Association of Railway Operations Research]].
+    *"2nd International Seminar on Railway Operations Modelling and Analysis RailHannover2007" ( 2007-03-28 - 2007-03-30 ).
+  *[[http://www.telecasystems.de/|Teleca AB]].
+    *"Teleca Experience Day", Nürnberg, Germany ( 2007-06-16 ).
+  *[[http://www.ah2008.org/|Adaptive Hypermedia 2008]], Hannover, Germany ( 2008-07-29 - 2008-08-01 )
+===== Forums, Newsgroups =====
+  *[[http://www.facebook.com/hackerrank|Facebook "HackerRank"]].
+  *[[http://www.spoj.com/forum/|SPOJ Community Forum. Sphere Online Judge]].
+  *Topcoder.
+    *[[http://apps.topcoder.com/forums/|Topcoder Forums]].
+    *[[http://studio.topcoder.com/forums|Topcoder Studio Forums]].
+{{tag>competitons, competiton}}
+<footnote_navi_en>
+

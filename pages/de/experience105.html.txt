@@ -1,0 +1,34 @@
+====== [hemmerling] Steuerung des Modells einer Paketwendeanlage ======
+
+===== Projekt-Auftrag =====
+Entwicklung der Steuerung einer fischertechnik-Simulation einer Paketwendeanlage über ein 80537 Mikrocontroller-Board, in C und 8051 Assembler unter Echtzeitbetriebssystem "RTX51 Tiny" ( 1999-09-28 - 1999-11-23 ).
+===== Projekt-Auftraggeber =====
+[[http://www.hansbruemmer.de/|Prof. Dr.-Ing. Hans Brümmer]], [[http://www.fh-hannover.de/|Fachhochschule Hannover]].
+===== Projekt-Rolle /  Stellenbeschreibung / Eigene Rolle im Projekt =====
+System-Entwickler, Embedded Software-Entwickler
+===== Projekt-Aufgaben =====
+Entwicklung der Software "Hemmerling(TM) Paketwendanlage".
+Definition mehrerer unabhängiger Tasks für das Echtzeitbetriebssystem, die die verschiedene Geräteteile und Teilsysteme des Modells exklusiv steuern.
+
+===== Tätigkeitsbeschreibung / Eigene Tätigkeiten im Projekt =====
+  *Software entwickeln.
+  *Software testen und debuggen.
+  *Funktionalität testen.
+  *Erfüllung der Anforderungen prüfen.
+===== Im Projekt eingesetzte CPU, Hardware und Tools =====
+==== Hardware und Tools ====
+  *[[http://de.wikipedia.org/wiki/Star_Office|StarOffice]] 5.1a / [[http://de.wikipedia.org/wiki/Microsoft_Office|Microsoft Office]].
+  *[[http://www.keil.com/|Keil]] C51 Software. Development tools for Classic and Extended 8051 Microcontrollers ( C-Compiler und DSCOPE Debugger ).
+  *Echtzeitbetriebssystem [[http://www.keil.com/rtx51/|RTX51 Real-Time Kernel]], in der Variante "RTX51 Tiny".
+  *80537 Mikrocontroller-Board, Eigentwicklung der [[http://www.fh-hannover.de/|Fachhochschule Hannover]].
+  *E3200 Emulator für 80537 Mikrocontrollers von **Dr. Krohn und Stiller**.
+  *fischertechnik-Modell "Paketwendeanlage" aus dem [[http://www.fischertechnik.de/|fischertechnik]] Baukasten "30330 Profi Computing".
+==== CPU-Familie ====
+  *[[http://en.wikipedia.org/wiki/8051|EN.Wikipedia "Intel MCS-51"]], [[http://de.wikipedia.org/wiki/Intel_MCS-51|DE.Wikipedia "Intel MCS-51"]].
+
+===== Projekt-Ergebnis =====
+  *{{:images:ft_paketwender01.jpg?200|fischertechnik-Modell "Paketwendeanlage"}} {{:images:ft_paketwender02.jpg?200|fischertechnik-Modell "Paketwendeanlage"}} {{:images:ft_paketwender03.jpg?200|fischertechnik-Modell "Paketwendeanlage"}} {{:images:ft_paketwender04.jpg?200|fischertechnik-Modell "Paketwendeanlage"}} {{:images:ft_paketwender05.jpg?200|fischertechnik-Modell "Paketwendeanlage"}}.
+  *Die Software "Hemmerling(TM) Paketwendanlage" wurde bei der Projekt-Abnahme mit "sehr gut" ( 1.3 ) bewertet. 
+{{tag>Paketwendeanlage fischertechnik Mikroprozessorboard 8051 80537 C Assembler Echtzeitbetriebssystem RTX51}}
+
+<footnote_navi_de>

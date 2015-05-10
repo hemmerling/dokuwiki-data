@@ -1,0 +1,239 @@
+====== [hemmerling] How to compile, link, build and customize the AMBULANT Open SMIL Player 2.0.2 for Windows ======
+Related pages:
+  *[[dsignage.html|Digital Signage]].
+  *[[smil.html|Synchronized Multimedia Integration Language ( SMIL )]].
+
+====== The AMBULANT Open SMIL Player ======
+  *The OpenSource [[http://www.ambulantplayer.org/|AMBULANT Open SMIL Player]], [[http://ambulant.sourceforge.net/|Sourceforge "ambulant"]], [[http://www.sourceforge.net/projects/ambulant/|Sourceforge "ambulant"]] for WinXp, Linux, MacOSX.
+
+
+====== The Toolchain ======
+===== 1 Documentation =====
+  *Most documentation is stored in the directory ”<ambulant_dir>/Documentation”.
+    -Tool to display "PDF" documents.
+      *[[http://get.adobe.com/de/reader/|Adobe Reader]] √.
+    -Tool to generate the API Documentation in "HTML" format.
+      *[[http://www.stack.nl/~dimitri/doxygen/|Doxygen]] √.
+    -Tools to display / edit "UML" Diagrams in the "[[http://als.wikipedia.org/wiki/Scalable_Vector_Graphics|Scalable Vector Graphics]]" ( "SVG" ) format.
+      *The commercial [[http://www.adobe.com/de/products/illustrator.html|Adobe Illustrator]] was used to create the diagrams in the "SVG" format.
+      *The free [[http://www.adobe.com/svg/|Adobe SVG Viewer]] can display the SVG graphics properly. On Windows, this is a plugin for the MSIE browser. Call MSIE browser to display the SVG files √.
+      *The commercial [[http://www.corel.com|CorelDRAW Graphics Suite]] X3 can display and edit the SVG diagrams properly.
+      *Neither the OpenSource [[http://live.gnome.org/Dia/|Gnome "Dia"]] nor the OpenSource [[http://www.gimp.org/|GIMP - The GNU Image Manipulation Program]] are suitable to view or edit the SVG graphics files :-(.
+    -Tool to generate / edit the "Microsoft HTMLHelp" CHM help file, as supplied in the directory "<ambulant_dir>\Documentation\user-htmlhelp".
+      *"[[http://msdn.microsoft.com/en-us/library/ms669985%28VS.85%29.aspx|Microsoft HTML Help Downloads]] - "Microsoft HTML Help 1.4 SDK".
+    -Tool to display / edit UML diagrams and other diagrams in the "Graffle" format, an XML data format.
+      *The commercial [[http://www.omnigroup.com/products/omnigraffle/|OmniGraffle]], just for MacOSX, was used to create the diagrams in the "Graffle" format.
+    -Tool to convert text files formatted in "ReST", "ReStructured Text", format in other formats ( HTML, LaTeX ).
+      *[[http://docutils.sourceforge.net/|Sourceforge "Docutils: Documentation Utilities. Written in Python, for General- and Special-Purpose Use"]], [[http://www.sourceforge.net/projects/docutils|Sourceforge "Docutils: Documentation Utilities"]] - "Docutils is an open-source text processing system for processing plaintext documentation into useful formats, such as HTML or LaTeX".
+    -Tool to create a Linux man page "ambulantplayer".
+      *[[http://en.wikipedia.org/wiki/Groff_%28software%29|groff]].
+    -Tool to display and edit spreadsheet documents.
+      *[[http://www.openoffice.org/|OpenOffice]].
+  *Some other documentation.
+    *There is a Documentation of SMIL in the [[http://en.wikipedia.org/wiki/Document_Type_Definition|EN.Wikipedia "Document Type Definition"]] ( DTD ) format, in the directory "<ambulant_dir>/Extras\DTDCache".
+        *Free DTD Editor:
+          *The XML editor "EditiX" by [[http://www.japisoft.com/|JAPISoft]], for Win, Linux and MacOSX.
+            *The commercial [[http://www.editix.com/|JAPISoft "EditiX"]].
+            *The free [[http://free.editix.com/|JAPISoft "EditiX Lite"]].
+              *[[http://free.editix.com/features/dtd_editor.html|JAPISoft EditiX "DTD Editor"]] - "EditiX is a powerful and easy to use DTD editor", "This is a free Edition of EditiX XML Editor for non commercial usage".
+===== 2 Localization / Multi-Language Support =====
+  *Data files in english and dutch language for [[http://www.gnu.org/software/gettext/|GNU `gettext']] are stored in the directory "<ambulant_dir>/po".
+    *[[http://www.gnu.org/software/gettext/manual/gettext.html|GNU `gettext' Utilities, Online Manual]].
+    *[[http://en.wikipedia.org/wiki/GNU_gettext|EN.Wikipedia "GNU gettext"]], [[http://de.wikipedia.org/wiki/GNU_gettext|DE.Wikipedia "GNU gettext"]].
+===== 3 Build Tools and Framworks =====
+==== On Windows ====
+  -The commercial IDE [[http://www.microsoft.com/visualstudio/|Microsoft Visual Studio]] Professional".
+    *In the directory "<install_dir>\projects\, there are solution files for [[http://www.microsoft.com/visualstudio/|Microsoft Visual Studio]].
+      *"<install_dir>\projects\vc8-smil21/Ambulant-win32.sln" and "<install_dir>\project\vc8-smil21/third_party_packages.sln" for Visuals Studio 2005 ( = VC8 ), on W2k, WinXp.
+    *The pre-built binaries are for W2k. Later Ambulant player editions, i.e. Ambulant 2.2, are for WinXP only ( installation work on W2k, but the application does not run on W2k ).
+    *The GUI is built with the commercial [[http://en.wikipedia.org/wiki/Microsoft_Foundation_Class_Library|EN.Wikipedia "Microsoft Foundation Class Library"]], so you can´t compile and link the application with the free Microsoft Visual Studio Express editions :-(.
+  -A newer [[http://en.wikipedia.org/wiki/Microsoft_Windows_SDK|Microsoft Windows SDK]] than supplied with Visual Studio 2005 ( e.g. "Microsoft Platform SDK for Windows Server 2003 R2" ).
+  -[[http://en.wikipedia.org/wiki/DirectX|DirectX]] SDK ( e.g. "Microsoft DirectX 9.0 SDK (December 2004)" ).
+==== On MacOSX ====
+  *The free IDE [[http://en.wikipedia.org/wiki/Xcode|Apple Xcode]].
+  *In the directory "<install_dir>/projects/, there are solution files for the free IDE [[http://en.wikipedia.org/wiki/Xcode|Apple Xcode]] v2.3, v3.0, v3.1, v3.2.
+==== On Linux ====
+  *The OpenSource GNU Make toolchain.
+    -In the installation directory <install_dir>, there is a file "Makefile.am".
+    -GNU Automake reads "Makefile.am" and generates "Makefile.in".
+      *[[http://www.gnu.org/software/automake/|GNU Automake]].
+      *[[http://sources.redhat.com/automake/|RedHat "GNU Automake"]].
+      *[[http://www.gnu.org/software/autoconf/|GNU Autoconf]].
+      *[[http://www.gnu.org/software/m4/m4.html|GNU M4]].
+    -[[http://www.gnu.org/software/make/|GNU Make]] executes "Makefile.in".
+  *[[http://www.gnu.org/software/libtool/|GNU Libtool]].
+    *The small library "libltdl" is shipped with Ambulant in the directory "<ambulant_dir>/libltdl".
+  *The GUI is built either with the OpenSource [[http://en.wikipedia.org/wiki/GTK%2B|EN.Wikipedia "GTK+"]] (GIMP Toolkit) - GTK+ 1 or GTK+ 2 ? -, or with the OpenSource / commercial [[http://en.wikipedia.org/wiki/Qt_%28framework%29|EN.Wikipedia "Qt (framework)"]].
+==== Multiplatform Frameworks ====
+  *The OpenSource [[http://ffmpeg.zeranoe.com/|Zeranoe FFmpeg]], based on [[http://www.ffmpeg.org/|FFmpeg]].
+    *[[http://gitorious.org/libswscale|Gitorious "libswscale"]]Gitorious  - "FFmpeg swscaler (experimental mirror)".
+    *[[http://en.wikipedia.org/wiki/FFmpeg|EN.Wikipedia "FFmpeg"]], [[http://de.wikipedia.org/wiki/FFmpeg|DE.Wikipedia "FFmpeg"]].
+  *The OpenSource LibJPEG.
+    *LibJPEG is included in the standard distribution of Ambulant, in the directory "<ambulant_dir>/third_party_packages/jpeg".
+    *The OpenSource jpegsrc.v6b.tar.gz of [[http://www.ijg.org/|Independent JPEG Group]].
+      *[[http://www.ijg.org/files/|Independent JPEG Group - Files Directory]] - "jpegsrc.v8c.tar.gz".
+    *[[http://libjpeg.sourceforge.net/|Sourceforge "libjpeg"]], [[http://www.sourceforge.net/projects/libjpeg/|Sourceforge "libjpeg"]] - "jpegsrc.v6b.tar.gz" ( outdated ).
+    *[[http://de.dll-files.com/libjpeg.dll.html|DLL-files.com "libjpeg.dll"]].
+    *[[http://w3studi.informatik.uni-stuttgart.de/~bischowg/languages/C++/CPPlibjpeg.html|Wolfgang Bischoff "Compile LibJPEG"]] - "This page explains how to compile libjpeg under Windows XP using Visual Studio".
+  *The OpenSource [[http://xerces.apache.org/xerces-c/|Xerces-C++ XML Parser]].
+    *[[http://xerces.apache.org/|The Apache Xerces Project]].
+    *[[http://en.wikipedia.org/wiki/Xerces|EN.Wikipedia "Xerces"]].
+    *Installation instructions for Ammbulant: "Assuming 'xml-xerces/c/src' of the distribution is in the include path and bin directory in the lib path".
+  *zlib.
+    *zlib is included in the standard distribution of Ambulant, in the directory "<ambulant_dir>\third_party_packages\zlib" and is maintained and compiled with the "lpng" solution.
+      *[[http://www.achacha.org/vc2008_zlib123/|Alex Chachanashvili "How to build zlib 1.2.3 using Visual Studio 2008 for 32-bit and 64-bit Windows"]].
+==== Optional Multiplatform Frameworks ====
+  *[[https://wiki.mozilla.org/XUL:Xul_Runner|MozillaWiki XULRunner]] - "For building AmbulantPlayer as a plugin for Firefox Web browser".
+    *[[http://en.wikipedia.org/wiki/XULRunner|EN.Wikipedia "XULRunner"]].
+  *The OpenSource [[http://www.live555.com/|LIVE555.COM]].
+  *The OpenSource [[http://www.libsdl.org/|Simple DirectMedia Layer (SDL)]].
+===== 4 Testing =====
+  *The OpenSource [[http://www.valgrind.org/|Valgrind]] - instrumentation framework for dynamic testing of applications written in C/C++ language, e.g. detection of memory leaks.
+    *Testing of the player is supported by supplying a suppression file "valgrind.supp".
+===== 5 Installers =====
+==== Installer for Windows ====
+  *The OpenSource [[http://nsis.sourceforge.net/|Sourceforge "NSIS (Nullsoft Scriptable Install System)"]], [[http://www.sourceforge.net/projects/nsis|Sourceforge "NSIS (Nullsoft Scriptable Install System)"]].
+    *[[http://en.wikipedia.org/wiki/Nullsoft_Scriptable_Install_System|EN.Wikipedia "Nullsoft Scriptable Install System"]], [[http://de.wikipedia.org/wiki/Nullsoft_Scriptable_Install_System|DE.Wikipedia "Nullsoft Scriptable Install System"]] ( NSIS ).
+==== Installer for Linux ====
+  *A shell script, using cp, mkdir, hdiutil.
+====== The Build Process ======
+===== 1. Prerequisites =====
+  -Download and install the player binaries from [[http://sourceforge.net/projects/ambulant/files/|Sourceforge "ambulant / files"]], and optionally the binaries of the browser plugins.
+  -Get a simple SMIL file and some data ( a JPG graphics file, a MPEG4 video ).
+  -Experience SMIL by playing the SMIL file with the player and optionally with the browser.
+  -Download and install the sources from 
+    -[[http://www.sourceforge.net/projects/ambulant/files/Ambulant%20Player%20Source/|Sourceforge "ambulant / files / Ambulant Player Source"]].
+    -[[http://sourceforge.net/projects/ambulant/files/Third%20Party%20Packages%2Cwin32_wm5/|Third Party Packages,win32_wm5|Sourceforge "ambulant / files / Third Party Packages,win32_wm5"]]. The subdirectories of the directory "INTO third_party_packages" must be copied in the directory "<ambulant_dir>\third_party_packages".
+    -[[http://xerces.apache.org/xerces-c/|Xerces-C++ XML Parser]]. 
+      *Please put the contents of the archive in the directory "<ambulant_dir>\third_party_packages".
+      *Additionally, the subdirectories of the directory <xerces_dir>\src\xercesc" ( i.e. "<ambulant_dir>\third_party_packages\xerces-c-3.1.1\src\xercesc" ) must be copied in the directory "<ambulant_dir>\include\xercesc".
+    -[[http://sourceforge.net/projects/ambulant/files/ffmpeg%20for%20Ambulant%2C%20win32/|ffmpeg for Ambulant, win32]] ( "20110119-win32-prebuilt" ).
+      *The archive [[http://sourceforge.net/projects/ambulant/files/ffmpeg%20for%20Ambulant/|ffmpeg for Ambulant]] is not necessary for Windows.
+
+
+===== 2. Generate and view the Documentation =====
+  -Generate API documentation "<install_dir>/Documentation/API/Doxyfile" with [[http://www.stack.nl/~dimitri/doxygen/|Doxygen]].
+  -View the documentation in "HTML" and "PDF" format and the plain text files, optionally some other data files ( e.g. "Graffle" and "SVG" files ).
+  -Additionally, please read "<ambulant_dir>/\third_party_packages\readme.txt" to learn how to install, compile and link necessary additional packages to make a new binary for Windows.
+===== 3. Make a new Binary =====
+==== AMBULANT Open SMIL Player 2.0.2 for Windows, SMIL 2.1 Edition "vc8-smil21" ====
+=== Status ===
+I can compile and link the player to an executable application, so that it plays SMIL files and displays images. The application can't play videos.
+=== Unsolved Problem ===
+I can´t figure out how to configure Ambulant at compilation time to use the precompiled ffmpeg libraries and DLLs to play MPEG videos. I put the DLLs in the "<ambulant_dir>\bin\win32" directory, and I statically linked the supplied precompiled ffmpeg libaries. That's not enough, for shure. This is may "AmbulentPlayer Log":
+<code>
+11:27:28 DEBUG	Ambulant Player: compile time version 2.0.2, runtime version 2.0.2
+11:27:28 DEBUG	Ambulant Player: built on Jun 13 2011 for Windows/MFC
+11:27:28 DEBUG	Ambulant Player: using DX Player
+11:27:35 TRACE	plugin_engine: no plugin loader configured
+11:27:35 TRACE	file:///v:/users/public//demo.smil: Parsing document...
+11:27:35 TRACE	Using parser expat
+11:27:35 TRACE	file:///v:/users/public/demo.smil: Parser done
+11:27:35 DEBUG	dx_player: DirectShow video renderer disabled by preference
+11:27:35 WARN	No renderer found for <video src="http://localhost/smil/demo.mpeg">, using none_playable
+11:27:37 TRACE	none_playable.start(0x1a3be00)
+11:27:37 TRACE	none_playable.stop(0x1a34cf8)
+11:27:37 TRACE	Returning default rendering surface for node 
+</code>
+=== Step-by-Step Instructions ===
+  -Open the solution file "<ambulant_dir>\projects´\vc8-smil21\third_party_packages.sln" with VisualStudio 2005.
+    *Execute the menu item "Build / Rebuild Solution".
+    *Create the dirctory "<ambulant_dir>\lib\win32\".
+    *Copy "<ambulant_dir>\third_party_packages\expat\lib\Debug\libexpat.lib" to the directory <ambulant_dir>\lib\win32".
+    *Copy "<ambulant_dir>\third_party_packages\expat\lib\Debug\libexpat.dll" to the directory <ambulant_dir>\bin\win32".
+    *Copy "<ambulant_dir>\third_party_packages\expat\lib\Debug\libjpeg.lib" to the directory <ambulant_dir>\lib\win32".
+    *Copy "<ambulant_dir>\third_party_packages\png128\projects\visualc71\Win32_LIB_Debug\ZLib\zlibd.lib" to the directory <ambulant_dir>\lib\win32".
+    *Copy "<ambulant_dir>\third_party_packages\png128\projects\visualc71\Win32_LIB_ASM_Debug\libpngd.lib" to the directory <ambulant_dir>\lib\win32".
+    *Copy "<ambulant_dir>\third_party_packages\png128\projects\visualc71\Win32_DLL_ASM_Debug\libpng13d.dll" to the directory <ambulant_dir>\bin\win32".
+  -Open the solution file "<ambulant_dir>\third_party_packages\xerces-c-3.1.1\projects\Win32\VC8\xerces-all\xerces-all.sln" with VisualStudio 2005. 
+    *Execute the menu item "Build / Rebuild Solution".
+    *Copy  "<ambulant_dir>\third_party_packages\xerces-c-3.1.1\Build\Win32\VC8\Debug\xerces-c_3_1D.dll" to the directory <ambulant_dir>\bin\win32".
+    *Copy  <ambulant_dir>\third_party_packages\xerces-c-3.1.1\Build\Win32\VC8\Debug\xerces-c_3D.lib" to the directory <ambulant_dir>\lib\win32".
+  -Open the solution file "<ambulant_dir>\third_party_packages\mp3lib\mp3lib.sln" with VisualStudio 2005. 
+    *Execute the menu item "Build / Rebuild Solution".
+    *Copy "<ambulant_dir>\third_party_packages\mp3lib\Debug\mp3lib.lib" to the directory <ambulant_dir>\lib\win32".
+  -Install the precompiled libraries.
+    *Copy "<ambulant_dir>\third_party_packages\ffmpeg-windows-compat\libavcodec\avcodec.lib" to the directory <ambulant_dir>\lib\win32”.
+    *Copy "<ambulant_dir>\third_party_packages\ffmpeg-windows-compat\libavcore\avcore.lib" to the directory <ambulant_dir>\lib\win32”.
+    *Copy "<ambulant_dir>\third_party_packages\ffmpeg-windows-compat\libavdevice\avdevice.lib" to the directory <ambulant_dir>\lib\win32”.
+    *Copy "<ambulant_dir>\third_party_packages\ffmpeg-windows-compat\libavfilter\avfilter.lib" to the directory <ambulant_dir>\lib\win32”.
+    *Copy "<ambulant_dir>\third_party_packages\ffmpeg-windows-compat\libavformat\avformat.lib" to the directory <ambulant_dir>\lib\win32”.
+    *Copy "<ambulant_dir>\third_party_packages\ffmpeg-windows-compat\libavutil\avutil.lib" to the directory <ambulant_dir>\lib\win32”.
+    *Copy "<ambulant_dir>\third_party_packages\ffmpeg-windows-compat\libswscale\swscale.lib" to the directory <ambulant_dir>\lib\win32”.
+    *Copy "<ambulant_dir>\third_party_packages\ffmpeg-windows-compat\libswscale\swscale.lib" to the directory <ambulant_dir>\lib\win32”.
+    *Copy "<ambulant_dir>\third_party_packages\ffmpeg-windows-compat\libavcodec\avcodec-52.dll" to the directory <ambulant_dir>\bin\win32”.
+    *Copy "<ambulant_dir>\third_party_packages\ffmpeg-windows-compat\libavcore\avcore-0.dll" to the directory <ambulant_dir>\bin\win32”.
+    *Copy "<ambulant_dir>\third_party_packages\ffmpeg-windows-compat\libavdevice\avdevice-52.dll" to the directory <ambulant_dir>\bin\win32”.
+    *Copy "<ambulant_dir>\third_party_packages\ffmpeg-windows-compat\libavfilter\avfilter-1.dll" to the directory <ambulant_dir>\bin\win32”.
+    *Copy "<ambulant_dir>\third_party_packages\ffmpeg-windows-compat\libavformat\avformat-52.dll" to the directory <ambulant_dir>\bin\win32”.
+    *Copy "<ambulant_dir>\third_party_packages\ffmpeg-windows-compat\libavutil\avutil-50.dll" to the directory <ambulant_dir>\bin\win32”.
+    *Copy "<ambulant_dir>\third_party_packages\ffmpeg-windows-compat\libswscale\swscale-0.dll" to the directory <ambulant_dir>\bin\win32”.
+    *Copy "<ambulant_dir>\third_party_packages\ffmpeg-windows-compat\libswscale\swscale-0.dll" to the directory <ambulant_dir>\bin\win32”.   
+  -Open the solution file "<ambulant_dir>\projects\vc8-smil21\Ambulant-win32.sln" with VisualStudio 2005. Execute the menu item "Build / Rebuild Solution".
+    *Error message "Cannot open include file: 'ddraw.h': No such file or directory".
+      *Solution: Copy "<visualstudio_dir>\SmartDevices\SDK\Smartphone2003\Include\ddraw.h" to "<visualstudio_dir>\VC\include\ddraw.h".
+    *Problem #1.
+      *Error message "<visualstudio_dir>\vc\platformsdk\include\strmif.h(27614) : error C2146: syntax error : missing ';' before identifier 'lpSurf'".
+       *Solution: *Include the following code in the file "<ambulant_dir>\include\ambulant\config\user.h":<code>
+#ifndef HEMMERLING_FIX
+#define HEMMERLING_FIX
+struct LPDIRECTDRAWSURFACE7 {};
+struct LPDIRECTDRAW7 {};
+#endif</code>
+    *Problem #2.
+      *Error messages:
+        *"fatal error C1083: Cannot open include file: 'vfwmsgs.h': No such file or directory".
+        *"fatal error C1083: Cannot open include file: 'mmstream.h': No such file or directory".
+        *"fatal error C1083: Cannot open include file: 'amstream.h': No such file or directory".
+        *"fatal error C1083: Cannot open include file: 'ddstream.h': No such file or directory".
+        *"fatal error C1083: Cannot open include file: 'austream.h': No such file or directory".
+        *"fatal error C1083: Cannot open include file: 'd3d9types.h': No such file or directory".
+        *
+      *Solution: 
+        *The files are not supplied with the SDK supplied with Visual Studio 2005. 
+          *Do.
+            *Install the SDK "Microsoft Platform SDK for Windows Server 2003 R2" or a newer SDK.
+            *Install the SDK "Microsoft DirectX 9.0 SDK (December 2004)" or a newer SDK.
+          *Instead of using the new SDK, you might.
+            *Copy "C:\Program Files\Microsoft Platform SDK for Windows Server 2003 R2\Include\vfwmsgs.h" to "<visualstudio_dir>SDK\v2.0\include\vfwmsgs.h".
+            *Copy "C:\Program Files\Microsoft Platform SDK for Windows Server 2003 R2\Include\mmstream.h" to "<visualstudio_dir>SDK\v2.0\include\mmstream.h".
+            *Copy "C:\Program Files\Microsoft Platform SDK for Windows Server 2003 R2\Include\amstream.h" to "<visualstudio_dir>SDK\v2.0\include\amstream.h".
+            *Copy "C:\Program Files\Microsoft Platform SDK for Windows Server 2003 R2\Include\ddstream.h" to "<visualstudio_dir>SDK\v2.0\include\ddstream.h".
+            *Copy "C:\Program Files\Microsoft Platform SDK for Windows Server 2003 R2\Include\austream.h" to "<visualstudio_dir>SDK\v2.0\include\austream.h".
+            *Copy "C:\Program Files\Microsoft DirectX 9.0 SDK (December 2004)\Include\d3d9types.h" to "<visualstudio_dir>SDK\v2.0\include\d3d9types.h".
+    *Problem #3.
+      *Error message "fatal error C1083: Cannot open include file: 'xercesc\util\Xerces_autoconf_config.hpp': No such file or directory":
+      *Solution: Copy "<ambulant_dir>\include\xercesc\util\Xerces_autoconf_config.msvc.hpp" to "<ambulant_dir>\include\xercesc\util\Xerces_autoconf_config.hpp".
+    *Problem #4.
+      *Error message "Creating library... Performing Post-Build Event... The system cannot find the path specified. 0 file(s) copied. Project : error PRJ0019: A tool returned an error code from 'Performing Post-Build Event...'".
+      *Solution: Select "libambulant_win32" in the Solution Explorer of Visual Studio, open by mouse-rightclick the "Properties", select the bar "Configuration Properties / Build Events / Post-Build Event". 
+        *The current value in the field "Command Line" is "copy "$(TargetPath)" ..\..\lib\win32", while the path is relative to the Visual Studio Solution/Project files.
+        *Please create the directory "<ambulant_dir>/lib/win32". 
+    *Problem #5.
+      *Error message "LINK : fatal error LNK1104: cannot open file 'libjpeg.lib'".
+      *Solution: Select "AmbulantPlayer" in the Solution Explorer of Visual Studio, open by mouse-rightclick the "Properties", select the bar "Configuration Properties / Linker / Input".
+        *The current value in the field "Additional Dependencies" includes the path entries "libjpeg.lib libexpat.lib libpng.lib zlib.lib xerces-c_2.lib"
+        *Please modify the path entry to "..\..\lib\win32\libambulant_win32_D.lib ..\..\lib\win32\libjpeg.lib ..\..\lib\win32\libexpat.lib  ..\..\lib\win32\libpngd.lib ..\..\lib\win32\zlibd.lib ..\..\lib\win32\xerces-c_3D.lib ..\..\lib\win32\mp3lib.lib ..\..\lib\win32\avcodec.lib ..\..\lib\win32\avcore.lib ..\..\lib\win32\avdevice.lib ..\..\lib\win32\avfilter.lib ..\..\lib\win32\avformat.lib ..\..\lib\win32\avutil.lib ..\..\lib\win32\swscale.lib".
+    *Problem #6.
+      *Errors.
+        *Error message "LINK : fatal error LNK1104: cannot open file 'amstrmid.lib'"
+        *Error message "LINK : fatal error LNK1104: cannot open file 'strmiids.lib'".
+      *Solution: Install the SDK "Microsoft Platform SDK for Windows Server 2003 R2" or a newer SD ( instead of using the new SDK, you might copy the missing libraries to "<visualstudio_dir>\SDK\v2.0\Lib" ).
+    *Problem #7.
+      *Errors.
+        *Error message "LINK : fatal error LNK1104: cannot open file 'dxguid.lib'".
+        *Error message "LINK : fatal error LNK1104: cannot open file 'ddraw.lib'".
+      *Solution: Install the SDK "Microsoft DirectX 9.0 SDK (December 2004)" or a newer SDK ( instead of using the DirectX SDK, you might copy the missing libraries to "<visualstudio_dir>\SDK\v2.0\Lib" ).
+    *Problem #8.
+      *Errors.
+        *Error message "<ambuland_dir>\third_party_packages\zlib\contrib\masmx86\inffas32.asm(647) : error A2070: invalid instruction operands".
+        *Error message "<ambuland_dir>\third_party_packages\zlib\contrib\masmx86\inffas32.asm(649) : error A2070: invalid instruction operands".
+        *Error message "<ambuland_dir>\third_party_packages\zlib\contrib\masmx86\inffas32.asm(663) : error A2070: invalid instruction operands".
+        *Error message "<ambuland_dir>\third_party_packages\zlib\contrib\masmx86\inffas32.asm(720) : error A2070: invalid instruction operands".
+      *Solution:  Replace <code>movd mm7,[esi]</code> by <code>movd mm7,dword ptr[esi]</code> in each error line.
+==== Linux ====
+  *?
+===== 4. Create a Distributable by an Installer =====
+
+{{tag>"Ambulant SMIL Player" "Ambulant Player" Ambulant Digital Signage" signage "Synchronized Multimedia Integration Language" SMIL}}
+<footnote_navi_en>

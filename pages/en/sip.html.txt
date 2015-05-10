@@ -1,0 +1,292 @@
+====== [Hemmerling] Telephony by the "Session Initiation Protocol" ( SIP ) ======
+
+===== The "Session Initiation Protocol" ( SIP ) =====
+  *[[http://en.wikipedia.org/wiki/Session_Initiation_Protocol|EN.Wikipedia: "Session Initiation Protocol"]], [[http://de.wikipedia.org/wiki/Session_Initiation_Protocol|DE.Wikipedia: "Session Initiation Protocol"]]
+  *[[http://www.sipforum.org/|SIP-Forum]] - commercial organisation.
+  *[[http://www.sipsurf.de/|SipSurf]] / [[http://www.sipsurf.de/Glossary.shtml|Das Glossary - was bedeutet was bei VoIP]].
+  *[[http://www.siptosip.net/|SIPtoSIP, sponsored by free world dialup]].
+    *[[http://www.siptosip.net/devices.html|Device directory for SIP based VoIP applications]].
+  *[[http://www.sipcenter.com/|The SIP Center]].
+  *[[http://phoenix.labri.fr/documentation/sip/|SIP Phoenix Group]] ( Programming Language Technology For Communication Services )
+    *[[http://phoenix.labri.fr/wiki/doku.php|SIP Phoenix Group Wiki]].
+  *[[http://www.sipcenter.com|The SIP Center - A portal for the commercial development of SIP Session Initiation Protocol]] - "Training & Tools".
+    *[[http://www.sipcenter.com/sip.nsf/html/Free+SIP+and+ENUM+Services|Free SIP and ENUM Services]].
+    *[[http://www.sipcenter.com/sip.nsf/html/Blogs|SIP Blogs]].
+    *[[http://www.sipcenter.com/sip.nsf/html/SIP+Parsers+and+Stacks|SIP Parsers and Stacks]].
+  *[[http://www.sipfoundry.org/|SIPfoundry. sipXecs - Open Source IP PBX for Unified Communications]].
+
+===== SIP Telephones =====
+==== Ressources ====
+  *[[http://www.voip-info.org/wiki/view/Open+Source+VOIP+Software|Voip-Info.org: "Open Source VOIP Software"]].
+  *[[http://www.sipsoftware.com/|The SIP software download guide]].
+  *[[http://en.wikipedia.org/wiki/List_of_SIP_software|EN.Wikipedia: "List of SIP software"]].
+
+==== Software Tools ====
+  *[[http://www.nch.com.au/carousel/|NCH Software "Carousel Telephony Adapter, VoIP Base FXO Gateway Driver"]] - free gateway driver for Windows.
+  *[[http://www.voicent.com/gateway.php|Voicent Gateway]] - free VoiceXML gateway driver.
+  *[[https://addons.mozilla.org/en-US/firefox/addon/12505|sipgateFFX]] by [[http://www.sipgate.de/user/downloads.php|sipgate]]- browser plugin for Firefox.
+  *[[http://en.wikipedia.org/wiki/Open_Phone_Abstraction_Library|Open Phone Abstraction Library]].
+    *[[http://en.wikipedia.org/wiki/OpenH323|OpenH323]].
+  *[[http://www.gnugk.org/|OpenH323 Gatekeeper - The GNU Gatekeeper]], [[http://www.gnugk.de/|Deutsche Homepage des GNU Gatekeeper]].
+  *[[http://www.switchvox.com/sv?page=firedialer|dignum Switchvox "Switchvox Fire Dialer Extension"]].
+    *Blog [[http://www.interlinkweb.com/blog/post.aspx?id=314| Interlink Blog, Inter-Networking Application Experts: "How to Make Phone Calls through Switchvox from Your Firefox Browser"]], with "Snom 320" phone.
+  *Blog [[http://thatsmith.com/2009/03/google-voice-add-on-for-firefox|Chad Smith: "Google Voice Add-on for Firefox"]].
+  *[[http://www.phonetray.com/|PhoneTray Free]] - "Identify callers and zap telemarketers with this FREE Caller ID software".
+
+==== Soft Phones ====
+  -[[http://www.3cx.de/voip-telefon/sip-telefon.html|3CX VOIP Client - 3CX SIP Telephone for Windows]] - free softphone for Windows.
+    *[[http://www.3cx.com/forums/|3CX Forum]].
+      *[[http://www.3cx.com/forums/3cx-phone-how-to-control-by-tapi-or-wsh-powershell-12070.html|Thread "3CX Phone - how to control by TAPI or WSH/PowerShell ?"]] - calling of numbers by command line option, e.g. "3CXPhone.exe dial:05112347019"
+      *[[http://www.3cx.com/forums/sip-number-launch-app-and-dial-11700.html|Thread "Sip:number launch app and dial"]].
+    *[[http://wiki.3cx.com/|3CX Wiki]].
+    *[[http://www.3cx.com/blog/|3CX Blog]].
+    *[[http://www.3cx.com/phone-system/edition-comparison.html|3CX Features: Free edition vs Commercial editions]].
+      *The commercial edition of 3CX VOIP Client is shipped with a TAPI driver.
+  -[[http://www.antisip.com|antisip softphone]] - free softphone for WinXP and MacOSX.
+  -[[http://www.ekiga.org/|Ekiga]] ( formely: GnomeMeeting ) - free OpenSource softphone for Linux with GNOME desktop.
+    *[[http://wiki.ekiga.org/|Ekiga Wiki]].
+  -[[http://www.enum.at/index.php?id=292|ENUM RTC Softphone]] - free softphone for Windows ( sourcecode + binaries ).
+  -[[http://www.1und1.de/|1&1 SoftPhone]] - free softphone for Windows.
+    *[[http://hilfe-center.1und1.de/voip/fragen_zur_nutzung_der_11_telefonie/fragen_zu_11_softphone_2_0/3.html|Wo kann ich 1&1 SoftPhone herunterladen?]]
+    *The 1&1 SoftPhone is shipped with a TAPI driver.
+  -[[http://www.nch.com.au/talk/|NCH Software "Express Talk VoIP Softphone"]] Free Edition - free softwphone for Windows.
+  -[[http://www.gizmo5.com/|Gizmo5]] free softphone for Windows, MacOSX, Linux.
+    *[[http://googlevoiceblog.blogspot.com/2009/11/google-welcomes-gizmo5.html|Google Voice Blog: "Google welcomes Gizmo5"]] ( 2009-11-12 ) - "we will be suspending new signups for the time being, and existing users will no longer be able to sign up for a call-in number".
+    *[[http://sipphone.com/numbers/|Call these numbers with your SIPphone. A useful reference of common SIP numbers]].
+    *[[http://developer.sipphone.com/|SIPphone Developer - the SIPphone technology community]].
+    *[[http://gizmo5.com/pc/api/|Gizmo5 SDK, Gizmo5 Developer]].
+    *Phonegaim ( [[http://www.sipphone.com/phonegaim/|Phonegaim]], [[http://developer.sipphone.com/phonegaim.html|Phonegaim]], [[http://www.sourceforge.net/projects/sipdevel/|Sourceforge "Phonegaim"]], [[http://sipdevel.sourceforge.net/|Sourceforge "Phonegaim"]] ).
+    *[[http://developer.sipphone.com/windemo.html|SIPphone Windows Client]].
+    *[[http://developer.sipphone.com/tellme.html|Tell Me Developer]].
+    *Free calls to 1-800 telephone numbers of the US telephone grid.
+  -KPhone ( [[http://www.wirlab.net/kphone/|KPhone]], [[http://kphone.sourceforge.net/|Sourceforge:KPhone]], [[http://www.sourceforge.net/projects/kphone|Sourceforge:KPhone]] ) - free softphone for Linux.
+    *[[http://utenti.lycos.it/ssal/sip_sctp/kphone_sctp.htm|KPhone SCTP: sip over sctp]].
+  -[[http://www.kefk.net/Linux/Software/Gnome/Linphone/|Linphone]] - free softphone for Linux with GNOME desktop.
+  -[[http://www.globaliptel.com/|Global IP Telecommunications Ltd.]].
+    *[[http://www.globaliptel.com/deu/content/Content/Ninja/Lite.html|"Ninja Lite"]], free softphone for Windows.
+  -[[http://code.google.com/p/opensoftphone/|Google Open Softphone]] - free Java softphone, running on Linux and Windows. "The phone is tailored to be used in a Callcenter environment based on asterisk. It currently lacks a few features which a home user would expect. Most importantly these are SRTP and NAT traversal".
+  -[[http://www.opensourcesip.org|Open SourceSIP]].
+     *OSSPhone - OpenSource SIP softphone.
+  -Phoner by Heiko Sommerfeldt.
+    *[[http://www.phonerlite.de/|PhonerLite]] - free VoIP/SIP softphone for Windows.
+    *[[http://www.phoner.de/|Phoner]] - free softphone for Windows. Phoner supports VoIP/SIP, CAPI and TAPI modes.
+  -[[http://www.qutecom.org/|QuteCom]] ( formely: WengoPhone ) - free OpenSource softphone for Windows, MacOSX, Linux.
+    *[[http://trac.qutecom.org/wiki|QuteCom Wiki]].
+    *[[http://hg.qutecom.org/|QuteCom Repositories List]].
+    *[[http://www.wengophone.com/index.php|WengoPhone]] - free softphone for Windows, MacOSX, Linux.
+    *[[http://wiki.wengophone.com/|WengoPhone Wiki]].
+    *[[http://www.kvats.net/|kvats]].
+      *[[http://www.kvats.net/cms/content/view/27/41/lang,en/|kvats -Technical Data, table with a list of (planned) features]]
+      *[[http://www.kvats.net/cms/content/view/12/26/|kvats Voice-Over-IP Multimessenger]].
+    *[[http://forum.eeeuser.com/viewtopic.php?id=1386|EeeUser Forum: "Eee PC Default Xandros Linux / video calls work - openwengo ftw!"]].
+    *[[http://www.kde-forum.org/artikel/24347/kaddressbook-with-wengophone.html|KDE-Forum.org: "KAddressBook with WengoPhone"]] - WengoPhone has a command line interface !
+    *Future plan: Integration of [[http://en.wikipedia.org/wiki/WebKit|WebKit]] into the standard QuteCome version. [[http://en.wikipedia.org/wiki/WebKit|WebKit]] comes with support for JavaScript.
+  -[[http://www.sipsoftware.com/sjphone.html|SJ Labs SJphone]] - free softphone for Windows, WinCE, MacOSX, Linux.
+  -[[http://www.sip-communicator.org/|SIP Communicator - the Java VoIP and Instant Messaging client]] - free softphone for Java.
+     *[[http://www.swt.hs-mannheim.de/gossip/|Hochschule Mannheim "GOSSIP project"]].
+     *[[http://en.wikipedia.org/wiki/SIP_Communicator|EN.Wikipedia: "SIP Communicator"]].
+  -[[http://www.research-lab.com/sipphonefreeware.htm|Research-Lab Inc "Telepati Sip Phone Freeware"]] - free softphone for Windows.
+  -[[http://en.wikipedia.org/wiki/Empathy_%28software%29|Empathy]] - free softphone for Linux with GNOME desktop.
+  -[[http://www.twinklephone.com/|Twinkle]] - free softphone for Linux.
+  -[[http://www.counterpath.com/|CounterPath Corporation]].
+    *[[http://www.counterpath.net/x-lite.html|CounterPath Corporation "Xlite"]] - free softphone for Windows, MacOSX, Linux ( [[http://www.sipgate.de/user/downloads.php|sipgate "XLite"]] ).
+    *[[http://www.counterpath.net/softphone-products.html|Bria, Bria for Microsoft Outlook, Bria Professional, eyeBeam]] - commercial softphones for Windows.
+    *Commercial [[http://www.counterpath.net/developer-tools.html|Software Development Kits]] ( C++ Edition, COM Edition, Active X - Web Edition ).
+  -[[http://www.zoiper.com/free.php|Zoiper IAX & SIP softphone]] (formerly: "Idefisk" ) - free softphone for Windows, Linux, MacOSX.
+  -[[http://web.archive.org/web/*/http://www.freenet.de/freenetiphone/|freenet iPhone]] 1.9.0 - discontinued free softphone for Windows ( - May 26, 2008 ).
+     *[[http://www.netzwelt.de/download/3714-freenet-iphone.html|Netzwelt: "freenet iPhone"]]. 
+  -[[http://web.archive.org/web/*/www.nero.com/nero7/eng/Download_Nero_Sipps.php|Nero SIPPS]] - discontinued free softphone for Windows.
+    *Nero SIPPS has a TAPI interface !
+    *Download: [[ftp://ftp.cuhk.hk/pub/pc/windows/nero/NeroSipps-2.1.6.27.exe|NeroSipps-2.1.6.27.exe]].
+    *Manual: [[ftp://ftp6.nero.com/user_guides/nero7/sipps/NeroSipps_Enu.pdf|Nero Sipps Manual]].
+    *[[http://freephone.web.de|WEB.De FreePhone]] by Nero AG - discontinued free Softphone for Windows ( - 2006-12-22 ).
+       *[[http://www.golem.de/0612/49381.html|Golem: "Web.de stellt FreePhone ein" ]].
+  -[[http://www.pulver.com/communicator/|pulver.Communicator]] - discontinued free Softwphone for Windows.
+    *[[http://www.softpedia.com/get/Internet/Chat/Instant-Messaging/pulverCommunicator.shtml|Softpedia: "pulver.Communicator 0.99.1"]].
+  -"T-Online Internet-Telefon" - discontinued free softphone for WinXP.
+    *T-Online Internet-Telefon has a TAPI interface !
+    *Download [[http://www.computerbase.de/downloads/software/kommunikation/t-online_internet-telefon/|ComputerBase "T-Online Internet-Telefon 6.07.2730"]].
+    *[[http://service.t-online.de/einstellung-des-tarifs-dsl-telefonie-und-der-software-internet-telefon/id_20072948/|
+Einstellung des Tarifs DSL Telefonie und der Software Internet-Telefon]] ( - 2009-07-15 ).
+  -Vovida Open Communications Applications Library (VOCAL) by Vovida Networks.
+    *Vovida Open Communication Application Library Polish (VOCAL-pl) ( [[http://sourceforge.net/projects/vovida/|Sourceforge "vovida"]], [[http://vovida.sourceforge.net/|Sourceforge "vovida"]] ).
+    *[[http://en.wikipedia.org/wiki/Vovida_Networks|EN.Wikipedia: "Vovida Networks"]].
+    *Archive [[http://web.archive.org/web/*/http://www.vovida.org/|Vovida.org]].
+    *[[http://www.vovida.org|Vovida.org - a communications community site dedicated to providing a forum for open source software used in datacom and telecom environments]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0596000782/hemmerling-21|Luan Dang, Cullen Jennings, David G. Kelly: "Practical Voip Using Vocal"]].
+    *[[http://www.voip-info.org/wiki/view/VOCAL|voip-info.org: "VOCAL - Vovida Open Communications Applications Library"]].
+    *[[http://www.linuxjournal.com/article/7047|Linux Journal: "VoIPv6 on Linux with VOVIDA"]].
+  -[[http://web.archive.org/web/*/http://www.lipz4.com/|Zultys Technologies "LIPZ4"]] by [[http://www.zultys.com/|Zultys, Inc.]]- discontinued free softphone for RedHat 7.1 / 8.0 / 9.0 Linux with [[http://www.kde.org/|KDE]].
+    *[[http://www.redorbit.com/news/technology/43019/zultys_technologies_releases_free_linux_soft_phone/index.html|redOrbit: "Zultys Technologies Releases Free Linux Soft Phone"]]: "As the product shares the functionality of the ZIP 4x4, complete documentation is available, including a 194 page User's Manual".
+    *[[http://web.archive.org/web/*/www.zultys.com/index.jsp?tab=partnership&category_id=2&sub_category=ZIP+4x4+Documentation|Zultys ZIP 4x4 Documentation]].
+    *[[http://web.archive.org/web/*/http://www.zultys.com/index.jsp?tab=partnership&category_id=2&sub_category=LIPZ4+Documentation|Zultys LIPZ4 Documentation]].
+    *[[http://web.archive.org/web/*/www.zultys.com/index.jsp?tab=partnership&category_id=17&sub_category=Datasheets+-+Phones+%28English%29|Zultys Datasheets - Phones (English)]].
+    *Look for "softphone-1.3.11-0.i386.rpm", and please [[imprint.html|tell me]] if you find a newer release.
+  -[[http://www.innovaphone.com/|innovaphone AG]] - commercial softwphones for Windows.
+    *Interfaces: XML, TAPI of innovaphone PBX.
+      *[[http://www.innovaphone.com/index.php?id=134|innovaphone Softwarephone (upto V6)]].
+    *Interfaces: Microsoft Office Communication Manager - OCS.
+      *[[http://www.innovaphone.com/index.php?id=255|Bria for Windows, innovaphone Softwarephone (ab V7)]].
+  -The commercial [[http://www.samsung.com/us/business/telecommunication/productModel.do?ctgry_type=1&ctgry_subtype=5&b2b_prd_id=26|Samsung OfficeServ Softphone]] for Windows.
+  -The commercial [[http://www.tadiranamerica.com/html/products/mobility_ipsoftphone.html|Tadiran Telecom "FlexIP Softphone"]].
+==== Soft Phones Frameworks ====
+  *[[http://code.google.com/p/sipml5/|Google Code "sipml5. The world's first HTML5 SIP client"]].
+    *[[http://code.google.com/p/sipml5/wiki/Public_SIP_Servers|Google Code "sipml5. The world's first HTML5 SIP client" Wiki "Public_SIP_Servers"]] - List of public SIP servers.
+
+==== Soft Stacks ====
+  *[[http://www.antisip.com/|antiSIP]], [[http://savannah.nongnu.org/projects/exosip/|The eXtended osip library]] - free SIP stack "eXosip2".
+  *[[http://msdn.microsoft.com/en-us/library/ms775893%28VS.85%29.aspx|Microsoft Developer Network "RTC Client API"]] for Windows.
+  -[[http://www.opensourcesip.org|Open SourceSIP]].
+     *OpenSBC - OpenSource SIP proxy and B2BUA ( Back to Back User Agent ).
+
+==== SDKs, Frameworks, Developer Toolkits ====
+  *[[http://www.gigaset.com/|Gigaset Communications GmbH]].
+    *[[http://www.gigaset.com/shc/0,1935,hq_en_0_170348_rArNrNrNrN,00.html|Gigaset "My apps - developer toolkit"]].
+  *The commercial [[http://www.research-lab.com/sipphoneread.htm|Research-Lab Inc. "Sip Phone DLL SDK v1.5"]].
+  *The shareware [[http://voipsipsdk.com/|VoIP SIP SDK]].
+
+==== Hardware Phones ====
+  -[[http://www.avm.de|AVM]].
+    *[[http://www.avm.de/de/Service/Service-Portale/Service-Portal/index.php?portal=FRITZ!Box_Fon_WLAN_7270|FRITZ!Box Fon WLAN 7270 Service-Portal]].
+    *[[http://download.avm.de/fritz.box/fritzbox.fon_wlan_7270/|FTP Download "7270"]].
+    *[[http://download.avm.de/fritz.box/tools/tapi4box/|FTP Download "tapi4box"]].
+      *[[http://www.avm.de/en/news/artikel/TAPI_box.html|AVM "TAPI Services for FRITZ!Box"]].
+    *[[http://download.avm.de/fritz.box/tools/fax4box/|FTP Download "fax4box"]].
+  -[[http://www.snom.com|snom technology AG]].
+    *[[http://wiki.snom.com|Snom User Wiki]].
+       *[[http://wiki.snom.com/Web_Interface/V6|Web Interface/V6]], [[http://wiki.snom.com/Web_Interface/V7|Web Interface/V7]], [[http://wiki.snom.com/Web_Interface/V8|Web Interface/V8]], [[http://wiki.snom.com/Snom_m3/Configuration/Web_User_Interface|V1.x]].
+       *[[http://wiki.snom.com/Features/Customization|Features/Customization]] - Starting from firmware versions greater 8.2.6 the Web User Interface (WUI) and Phone User Interface (PUI aka GUI) can be customized
+          *[[http://www.snom.com/en/products/snom-870-touchscreen-voip-phone/|snom 870]], [[http://www.snom.com/en/products/snom-820-voip-phone/|snom 820]], [[http://www.snom.com/en/products/snom-meetingpoint/|snom MeetingPoint]].
+       *[[http://wiki.snom.com/Features/Action_URL|Features/Action URL]].
+       *[[http://wiki.snom.com/CSTA|CSTA]].
+       *[[http://wiki.snom.com/FAQ/Do_snom_phones_provide_a_Telephony_Application_Programming_Interface_%28TAPI%29|FAQ/Do snom phones provide a Telephony Application Programming Interface (TAPI)]].
+    *Interface: XML driven Mini-Browser / HTTP, HTTPS server - "Dial from web interface".
+      *[[http://www.snom.com/en/products/snom-870-touchscreen-voip-phone/|snom 870]], [[http://www.snom.com/en/products/snom-820-voip-phone/|snom 820]], [[http://www.snom.com/en/products/snom-370-voip-phone/|snom 370]] [[http://www.snom.com/en/products/snom-360-voip-phone/|snom 360]], [[http://www.snom.com/en/products/snom-320-voip-phone/|snom 320]], [[http://www.snom.com/en/products/snom-300-ip-phone/|snom 300]], [[http://www.snom.com/en/products/snom-m3-voip-phone/|snom m3]].
+      *Ralf Steinrücken, ITecSoft ( [[http://www.phonesuite.de/|PhoneSuite CIT]], [[http://www.xtelsio.com/|xtelsio CTI]] ): "TAPI for snom" - commercial TAPI driver for snom telephones with HTTP server.
+    *[[http://wiki.snom.com/Openvpn|OpenVPN]].
+       *[[http://www.snom.com/en/products/snom-meetingpoint/|snom MeetingPoint]], [[http://www.snom.com/en/products/snom-370-voip-phone/|snom 370]].
+    *[[http://www.snom.com/de/produkte/unified-communications/microsoft-ocs/snom-ocs-edition-im-ueberblick/|snom Open Communication Solution Edition]]. Interface: [[http://www.microsoft.com/communicationsserver/|Microsoft Office Communication Server 2007 R2]].
+    *[[http://www.snom.com/en/products/snom-meetingpoint/|snom MeetingPoint]], [[http://www.snom.com/en/products/snom-370-voip-phone/|snom 370]].
+
+==== Some other Hardware Phones ====
+  -[[http://www.aastra.com/|Aastra]].
+    *[[http://www.aastra.com/cps/rde/xchg/SID-3D8CCB6A-05DE67B4/04/hs.xsl/26962.htm|Aastra 6753i]].
+    *[[http://www.aastra.com/cps/rde/xchg/SID-3D8CCB6A-EE2C74B2/04/hs.xsl/26961.htm|Aastra 6755i]].
+  -[[http://www.allnet.de/|ALLNET GmbH Computersysteme]].
+     *[[http://www.voip-information.de/voip-endgeraete/voip-telefone-allnet-7960.php|voip-information.de: "ALLNET 7960"]].
+  -[[http://www.innovaphone.com/|innovaphone AG]].
+    *HTTP for configuration, using Web browser. SNMP sending traps to the management software.
+      *[[http://www.innovaphone.com/index.php?id=239&L=1|innovaphone IP240]].
+  -[[http://www.pirellibroadband.com/web/products-solutions/solutions/sme-net/terminals/default.page|Pirelli Discus DualPhone DP-L10]] = Arcor Twintel.
+  *xx
+  -[[http://www.grandstream.com/|Grandstream Networks]].
+  -Cisco.
+  -Polycom.
+  -ZyXel.
+  -Cyberdata.
+  -Counterpath.
+  -[[http://www.yealink.com/|Yealink]].
+  -[[http://www.aastra-detewe.de/cps/rde/xchg/SID-3D8CCB6A-8B068EAB/aastra-detewe/hs.xsl/30078.htm|Aastra DeTeWe]].
+  -[[http://www.callonthe.net/IPphone2.html|DialAnywhere Phone]].
+  *SIP IP DECT Cordless and WiFi Phones Provider.
+     -Hitachi. 
+     -Dlink.
+     -Kirk Wireless.
+
+===== Hardware =====
+  *[[http://www.colognechip.com/|Cologne Chip]] - "HFC" ISDN controller chips
+
+===== Communication Server =====
+==== Office Communication Server ====
+  *[[http://www.microsoft.com/communicationsserver/|Microsoft Office Communication Server 2007 R2]].
+    *Hardware Phones designed for "Microsoft Office Communication Server", compatible to "Microsoft Office Communicator"
+    *[[http://www.polycom.com/|Polycom]].
+    *[[http://www.aastra-detewe.de/|Aastra]].
+  *[[http://www.officesip.com|OfficeSIP]] ( OfficeSIP Server, OfficeSIP Messenger, OfficeSIP Alerter ) - free communications server and messenger.
+  *[[http://projectscupa.sinc.de/|Project Scupa]] by [[http://www.sinc.de/|SINC GmbH - Systems Integration. Network. Consulting]]
+    *"Project SCUPA is about developing extensions and add-ons for Microsoft Communicator 2007 R2. SCUPA enables users to initiate calls via desktop IP phones by selecting contacts in the communicator menu. Except for the Nortel/Polycom Tanjay, phones cannot be directly accessed from the Communicator application, a user therefore cannot initiate a phone-based VoIP call to an OCS contact from within Office Communicator. In our view, this lack of functionality severely hampers the usability of all other phones in an OCS environment. We have therefore developed an extension for Office Communicator 2007 R2 that enables call initiation with IP phones from within the application. In the first version, the extension is designed exclusively for the **//SNOM brand of IP phones//**.
+   *[[http://ocsphoneguy.blogspot.com/|OCS Phone Guy]].
+   *[[http://social.microsoft.com/Forums/en-US/communicationsservertelephony/thread/68995f9f-a17f-430e-84bb-00c5d80a9668|Microsoft Forums, Jan Boguslawski: "SCUPA - a Remote Call Control for the none-certified OCS phones"]].
+   *[[http://richfrombechtle.wordpress.com/2008/10/10/microsoft-tanjay-polycom-cx700-ocs-2007-phone/|Software Ruminations: "Microsoft Tanjay-Polycom CX700 OCS 2007 Phone"]] - "Microsoft Tanjay" product range ( "Polycom CX700", "LG-Nortel 8540" ).
+
+==== Asterisk ====
+=== Asterisk Resources ===
+  *[[http://www.asterisk.org/|Asterisk.Org]].
+  *[[http://www.das-asterisk-buch.de/|Das Asterisk Buch]].
+  *[[http://www.longsoft.de/VoIP/|Ralf Lange, longsoft Dresden: VoIP Portal]] - "Aufbau einer VoIP Nebenstellenanlage".
+  *[[http://www.voip-info.org/|Voip-Info.org]] - "A Reference Guide to all Things VOIP".
+    *[[http://www.voip-info.org/wiki/view/Asterisk+Bootable+CDROM|Asterisk Bootable CDROM]].
+  *Business Case: [[http://www.heise.de/open/artikel/VoIP-Gateway-mit-Asterisk-221979.html|VoIP-Gateway mit Asterisk]] by Frank Ochmann, Daniel Scheller.
+=== Standard Asterisk Implementations ===
+  *[[http://www.rowi.net/|rowi.net it-services, Dipl.-Ing. Rolf Winterscheidt]].
+    *VoIP on CD ( [[http://www.voiponcd.de/|german]], [[http://www.voiponcd.com/|english]] website ).
+    *[[http://www.vmware.com/appliances/directory/302|VMware Virtual Appliance Marketplace: VoIPonCD - an easy to configure Voice over IP PBX]].
+    *[[http://www.dn.fh-koeln.de/download/arbeiten/rolf_winterscheidt_2005.pdf|Rolf Winterscheidt: Entwicklung eines einfach konfigurierbaren
+Telekommunikationssystems 'VoIP on CD'"]].
+    *Login by shell, call "ifconfig" to display the IP address of the Asterisk webserver, and its web interface.
+      *Linux-login: login=root, password=voiponcd ( see [[http://www.voipuser.org/forum_topic_15793.html|Problem with VoIPonCD]], [[http://www.vmware.com/appliances/directory/302|VMware Virtual Appliance Marketplace: VoIPonCD - an easy to configure Voice over IP PBX]] ).
+    *Call the IP address by your web browser ( e.g. http://192.168.xxx.yyy/admin" ).
+      *Web browser login=admin, password=rowi.net ( see [[http://www.vmware.com/appliances/directory/302|VMware Virtual Appliance Marketplace: VoIPonCD - an easy to configure Voice over IP PBX]] ).
+  *[[http://www.freepbx.org/|FreePBX]].
+  *[[http://www.askozia.com/pbx/|AskoziaPBX]].
+  *[[http://www.pascom.net/de/telefonie.html|pascom Netzwerktechnik GmbH & Co. KG "MobyDick"]].
+    *[[http://community.pascom.net/|pascom Netzwerktechnik GmbH & Co. KG "MobyDick Community"]] - download of the free "MobyDick Community Version" for x86 virtual machines ( VMware, VirtualBox,..), with Windows & Mac clients.
+==== SIP Router Project / SIP Express Router (SER ) / OpenSER  ====
+  *[[http://sip-router.org/|SIP Router Project]].
+  *[[http://www.kamailio.org/|OpenSER]].
+  *[[http://www.iptel.org/ser/|SIP Express Router]] (SER ).
+==== Some other Communication Servers ====
+  *[[http://sipx-wiki.calivia.com/|SIPfoundry sipXecs IP PBX - The Open Source SIP PBX for Your Enterprise ]].
+  -[[http://www.opensourcesip.org||Open SourceSIP]].
+     *OpenSBC - OpenSource SIP proxy and B2BUA (Back to Back User Agent ).
+  *[[http://www.3cx.de/IP-Telefonanlage/free-edition.html|3CX Phone System for Windows]] Free Edition - free VoIP PBX / SIP server.
+  *[[http://www.iptam.com| IPTAM PBX]] - with the free version, 5 users can be administrated.
+  *[[http://www.terasens.com/products/teravoice/|TERAVoice Server 2004 Free Version]].
+  *[[http://www.cisco.com/en/US/products/sw/voicesw/ps556/index.html|Cisco Unified Communications Manager (CallManager)
+]] - commercial communications server.
+  *[[http://www.innovaphone.com/index.php?id=111|innovaphone PBX]] - commercial communications server.
+  *[[http://www.swyx.com/|SwyxWare]]: SwyxWareCompact, SwyxWare Essential - commercial communication servers.
+  *[[http://www.stonevoice.de/SkypeGateway.html|SKYSTONE]], a commercial [[http://www.skype.com/|Skype]] Gateway.
+  *[[http://web.archive.org/web/*/http://www.sippstar.com/|Nero SIPPSTAR IP-PBX]] - discontinued commercial communication server ( - Okt 21, 2006 ).
+  *[[http://www.sangoma.com/support/application_partners/|Sangoma - Application Partners]].
+==== Ressources ====
+  *[[http://www.itwissen.info/definition/lexikon/Kommunikations-Server-communication-server.html|ITWissen - das große Online-Lexikon für Informationstechnologie: "Kommunikationsserver. communication server"]].
+
+===== SIP Service Provider =====
+  *[[http://www.nch.com.au/talk/sip.html|Express Talk SIP Service Providers. PC-to-PC and PC-to-Phone SIP Providers]].
+  *SIP Providers
+    -[[http://sip.antisip.com/account/|antiSIP]].
+    -[[http://forum.e164.org/|e164.org]].
+    -[[http://www.ekiga.net/|Ekiga]].
+    -[[http://my.nero.com|Nero]].
+    -[[http://www.sipbase.de/|reventix GmbH - SIPbase]].
+      *[[http://www.sipbase.de/virtuelle_telefonanlage.html|reventix GmbH - SIPbase "virtuelle Telefonanlage"]].
+      *Blog [[http://www.im-internet-telefonieren.de/|Im Internet Telefonieren]].
+    -[[http://www.sipgate.de/|Sipgate]].
+      *[[http://www.sipgate.de/einrichtung|Sipgate - Einrichtung]].
+      *[[https://secure.sipgate.de/user/configreader.php?show_conf=snom320|Sipgate - Snom320]].
+    -"[[http://www.ip49.de/|IP49.de]] Kostenlos Telefonieren", "[[http://www.0tarif.de/|0tarif.de]] Kostenlos Telefonieren".
+      *[[http://dns.ip49.de/|dns.IP49.de]].
+      *[[http://www.regioabc.de/|RegioABC]] - "VOIP Telefon - u. Branchenbuch mit > 30Mio. Einträgen".
+    -[[http://www.voiptalk.org|VoIPtalk]], UK.
+    -[[http://www.voipuser.org| VoIP User]].
+    -[[http://www.wengophone.com/index.php|WengoPhone]].
+    -Voiceglo 
+    -Stanaphone 
+
+===== SIP Criticism =====
+  -There is no status display, whether a person is willing to accept calls, which is a standard feature for Unified Messaging systems ( "Availability" / "Kommunikationsbereitschaftsanzeige" ).
+  -There is no way to encrypt communications on ISO Layer 2, where it would be useful. On the other hand, Microsoft with its properitary protocols encrypt communications on ISO Layer 3 ?! There are  3 different ways to encrypt communications, Microsoft choose one of it.
+
+===== Ressources =====
+  *[[http://support.xten.de/forum_posts.asp?TID=102|Global IP Telecommunications: Sipgate Konfiguration]] for X-Lite.
+
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Internet/Protocols/SIP/Client_Software/|OpenDirectory "Top: Computers: Internet: Protocols: SIP: Client Software"]].
+  *[[http://www.dmoz.org/Business/Telecommunications/Services/VoIP/|OpenDirectory "Top: Business: Telecommunications: Services: VoIP"]].
+  *[[http://www.dmoz.org/Computers/Internet/Protocols/SIP/Service_Providers/|OpenDirectory "Top: Computers: Internet: Protocols: SIP: Service Providers"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wirtschaft/Telekommunikation/Anbieter/VoIP/|OpenDirectory "Top: World: Deutsch: Wirtschaft: Telekommunikation: Anbieter: VoIP"]].
+
+{{tag>SIP "Session Initiation Protocol" VoIP "Voice Over IP", softphone, telephone, Internet}}
+
+<footnote_navi_en>

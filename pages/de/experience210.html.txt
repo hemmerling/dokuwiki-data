@@ -1,0 +1,50 @@
+====== [hemmerling] Konzeption zur Erweiterung einer Schießanlage ======
+===== Projekt-Auftrag =====
+Entwicklung eines Konzepts zur Erweiterung einer Schießanlage, so daß dessen Betrieb unempfindlicher gegen Fluglärm und gegen Lärm einer benachbarten Schießanlage des gleichen Betreibers wird ( 2011-12-02 ).
+===== Projekt-Auftraggeber =====
+Verein [[http://www.schuetzenverein-kaltenweide.de/|Schützenverein Kaltenweide von 1903 e.V.]], Ansprechpartner: Burkhard Dembski, Schießsportleiter der Abteilung "Trapp".
+===== Projekt-Rolle / Eigene Aufgabe im Projekt =====
+Technologie- und IT-Berater.
+===== Ist-Analyse =====
+  *Der Verein [[http://www.schuetzenverein-kaltenweide.de/|Schützenverein Kaltenweide von 1903 e.V.]] betreibt zwei benachbarte Schießanlagen für Wurfscheibenschießen.
+  *Es gibt eine Hauptanlage mit 5 Schützenständen und einem Wurfarm ( Turbulenzautomat ), der seit ca. 1990 über ein elektroakustisches Abrufsystem ausgelöst wird. Dies erlaubt einen automatischen Abwurf einer Wurfscheibe durch Ausrufen des Wortes "go" in ein auf jedem Schützenstand befindliches Mikrophon. Die mit einem Trichter als Windschutz ausgestatteten 5 Mikrophone sind per Audio-Kabel mit einem gemeinsamen Steuergerät verbunden, das seinerseits die Wurfscheiben-Startereinrichtung über eine 230V Wechselspannungs-Leitung ansteuert. Das Steuergerät bewertet lediglich die Lautstärke des Audio-Signals: Übersteigt die Lautstärke einen für jedes Mikrophon per Drehregler ( Potentiometer ) am Gerät einstellbaren Schwellwert, wird eine Wurfscheibe abgeschossen. Es gibt also keine computergestützte Spracherkennung.
+  *Es gibt eine weitere gegenüber der Hauptanlage niederwertige Übungsanlage mit 5 weiteren Schützenständen, in der der Schütze mit Schießerlaubnis gemäß Sportordnung 1.40 laut "go" ruft, worauf die Aufsichtsperson auf dem Schießstand einen elektrischen Schalter kurzzeitig drückt. Der Schalter ist in einem elektrischen Niederspannungs-Stromkreis mit der Wurfscheiben-Startereinrichtung verbunden, so daß bei Drücken des Schalters ein Strom fließt. Dieser Stromfluß löst einmalig ein Werfen einer Wurfscheibe aus. Die Wurfscheiben-Startereinrichtung läd danach automatisch eine neue Wurfscheibe.
+  *Ein Schütze schießt spätestens 6 Sekunden nach dem Werfen der Wurfscheibe auf die Wurfscheibe.
+  *Die Schießanlagen liegen unmittelbar über der Flugschneise des Flughafens [[http://www.hannover-airport.de/|Hannover Airport]].
+  *Zwischen den beiden Schießständen befanden sich früher große Laubbäume, die vor einiger Zeit gefällt wurden. Stattdessen wurden kleine junge Laubbäume bzw. Sträucher gepflanzt.
+  *Sowohl der Fluglärm vorbeifliegender Flugzeuge als auch Schußlärm aus der Übungsanlage kann einen unbeabsichtigten Werfen einer Wurfscheibe in der Hauptanlage auslösen. Dies stört zum einen aus Sicht der Schützen den Betrieb, zum anderen macht sich die Verschwendung von Wurfscheiben auch finanziell negativ für den Verein bemerkbar.
+  *Bei Inbetriebnahme des elektroakustischen Abrufsystem gab es keine merklichen Störungen, da der Übungsschießstand noch gar nicht bestand und Flugbetrieb eine deutlich geringere Intenisität aufwies ( oder gar da die Flugschneise damals noch nicht bestand, weil diese durch eine erst eventuell später in Betrieb genommene Landebahn verursacht wird ).
+  *Um das unbeabsichtigte Werfen von Wurfscheiben, wurden bislang folgende sich als unwirksam beurteilte Maßnahmen ergriffen:
+    *Die Mikrophon-Trichter wurden in Richtung Boden gedreht.
+    *Der Lautstärke-Schwellwert für die Auslösung eines Wurfes wurde soweit angehoben, daß die Schützen laut schreien müssen, um einen Wurf auszulösen.
+  *Dem Verein liegt ein Angebot zur Neuausstattung der Schießanlage mit einem elektroakustischen Abrufsystem für ca. 17.000 EUR vor. Der Verein ist an einer wesentlichen Verbesserung der Lage interessiert, aber bereit mit einer nicht perfekten Lösung zu leben, um die teure Neuinstallation einer dem aktuellen technischen Stand entsprechenden elektroakustischen Abrufsystem zu vermeiden.
+  *Auffällige Landschaftsveränderungen, wie sie die Errichtung von Lärmschutzwänden bedeuten würden, sind aus Sicht des Vereins und weiterer Dritter wie z.B. Anrainer nicht akzeptabel.
+===== Projekt-Aufgaben =====
+  *Entwicklung eines Konzepts zur Erweiterung einer Schießanlage, so daß dessen Betrieb unempfindlicher gegen Fluglärm und gegen Lärm einer benachbarten Schießanlage des gleichen Betreibers wird.
+  *Priorität hat dabei die Erhöhung der Unempfindlickeit durch den Lärm der benachbarten Schießanlage. 
+  *Die Benutzerfreundlichkeit der Hauptanlage, wie sie seit 20 Jahren durch das elektroakustisches Abrufsystem zur Verfügung steht, muß auch bei einer Erweiterung der Anlage erhalten bleiben. D.h. Lösungen bei denen der Schütze oder ein Dritter auf einen Schalter drücken muß oder der Schütze sonstwie in seiner Konzentration auf den Schuß gestört wird, sind nicht akzeptabel.
+===== Beratungs-Ergebnis =====
+  -Aufwendige Lösung:
+    *Ein aktiver Filter in jede Mikrophonleitung zu integrieren, der genau den Flugzeug- und Schußlärm herausfiltert, wäre sowohl von den nötigen Resourcen ( Entwicklungszeiten für Software und Hardware, Zeit zur Messdaten-Aufnahme und -Auswertung ) her recht aufwendig und eine echte individuelle Ingenieurdienstleistung, aber möglich.
+    *Unter Beibehaltung des alten Steuergeräts könnte eine Realisierung z.B. mit Hilfe von 5 kleinen mit zu erstellender Individual-Software in "C" programierten DSP-Mikrocontroller-Boards mit Audio-Eingängen und Audio-Ausgängen gelingen, die jeweils in ein wetterfestes Gehäuse ( nach Schutzart IP65 oder besser ) gepackt werden. 
+    *Alternativ könnte man natürlich auch gleich das Steuergerät durch eine Neuentwicklung ersetzen.
+    *Dies würde aber auch eine Software-Entwicklung erfordern:
+      *Eines präzisen digitalen Filters ( als Teil einer Indidvidualsoftware für ein Embedded System ), der zwischen menschlicher Stimme, Fluglärm und einem Schußknall unterscheiden kann 
+      *Oder einer Individualsoftware zur Spracherkennung, die ohne Lernphase verläßlich das von Menschen gesprochene Wort "go" detektieren kann.
+  -Preiswerte Alternative:
+    *Die Niederspannungs-Leitung der Auslöseeinrichtung des Übungsstands wird über den Eingang eines Zeitrelais mit 6-10 Sekunden Verzögerungsdauer geführt, so daß bei Auslösen einer Wurfanforderung des Übungsstandes für die Verzögerungsdauer von 6-10 Sekunden ein Signal am Ausgang des Zeitrelais ansteht.
+    *Der Ausgang dieses Zeitrelais steuert über einen Schütz die 230V Steuerleitung des Hauptstandes zwischen Steuergerät und Wurfscheiben-Startereinrichtung derart, daß ein Auslösen der Wurfeinrichtung des Hauptstandes für die Verzögerungsdauer von 6-10 Sekunden verhindert wird.
+    *Eine weiter mit dem Schalter der Auslöseeinrichtung des Übungsstands ODER-verknüpfter Schalter könnte beim von der Aufsichtsperson akustisch bemerkten Herannahen eines Flugzeugs gedrückt werden, um ein Auslösen der Wurfanforderung des Hauptstandes durch Fluglärm zu verhindern.
+    *Dem Verein wurde vermittelt, daß die dazu notwendigen elektrische Arbeiten nur durch Fachpersonal ( bei den lokalen Energieversorgern akreditierter Elektro-Meisterbetrieb ) durchgeführt werden darf. Bei einer derartigen Erweiterung von Außenanlagen sind auch Isolierung gegen Eindringen von Feuchtigkeit sowie Überspannungs- und Blitzschutz zu berücksichtigen. Als Folge der Erweiterung muß die komplette Anlage nach aktuellen Normen und Vorschriften elektrisch neu zugelassen werden.
+===== Branchen- und Fach-Informationen =====
+  *[[http://www.dsb.de/|Deutscher Schützenbund e.V.]] ( DSB ).
+    *[[http://www.dsb.de/sport/disziplinen/wurfscheibe/|Deutscher Schützenbund e.V. "Sport / Disziplinen/ Flinte"]] -> Trap, Doppeltrap, Skeet.
+  *[[http://www.nssv-hannover.de/|Niedersächsischer Sportschützenverband e.V.]] ( NSSV ).
+  *[[http://en.wikipedia.org/wiki/Clay_pigeon_shooting|EN.Wikipedia "Clay pigeon shooting"]], [[http://en.wikipedia.org/wiki/Electrocibles|EN.Wikipedia "Electrocibles"]], [[http://de.wikipedia.org/wiki/Wurfscheibenschie%C3%9Fen|DE.Wikipedia "Wurfscheibenschießen"]].
+  *[[http://de.wikipedia.org/wiki/Schutzart|DE.Wikipedia "Schutzart"]].
+===== Projekt-Ergebnis =====
+Burkhard Dembski, Schießsportleiter der Abteilung "Trapp" gab bei Vorstellung des Konzepts am 2011-12-02 positives Feedback: Die "Preiswerte Alternative" erscheint funktional ausreichend und kostengünstig. Er wird die Realsierung dem Vereinsvorstand vorschlagen. Ausführender Auftragnehmer für den Auftrag wird ein Vereinsmitglied in seiner Eigenschaft als Elektromeister mit eigenem Elektrobetrieb sein.
+{{tag>Arbeitserfahrung}}
+
+<footnote_navi_de>
+

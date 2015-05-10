@@ -1,0 +1,231 @@
+====== [hemmerling] Electric Units & Electronics 1/3 - My Electronics, Electronics Workbench Equipment, Electronics Literature & Resources ======
+Related pages:
+  *[[electronics02.html|Electric Units & Electronics 2/3 - Actors, Sensors, Embedded Systems Electronics and suitable Control Systems]].
+  *[[electronics03.html|Electric Units & Electronics 3/3 - Manufacturers, Distributors, Vendors & Datasheets]].
+  *[[eda01.html|Electronic Design Automation ( EDA ) 1/5 - Installation Engineering]].
+  *[[eda02.html|Electronic Design Automation ( EDA ) 2/5 - Schematics Capture, Schematics Simulation and PCB Design]].
+  *[[eda03.html|Electronic Design Automation ( EDA ) 3/5 - Design for Application-Specific Integrated Circuits ( ASIC ) - Design of digital Chips]].
+  *[[eda04.html|Electronic Design Automation ( EDA ) 4/5 - Design for Application-Specific Integrated Circuits ( ASIC ) - Design of analog Chips]].
+  *[[eda05.html|Electronic Design Automation ( EDA ) 5/5 - Design for Application-Specific Integrated Circuits ( ASIC ) - A simple Frequency Divider]].
+{{images:electron.jpg|Rolf Hemmerling's electronics equipment and literature}}
+===== My personal Involvement in Electronics =====
+==== My Way ====
+  *As you see on the photo, I started with a number of [[http://ee.old.no/|electronics kit by Philips]]: EE 2003 / 41 / 50 / 51 / 52, EE 2004 / 05 / 06, EE 2013 / 2010, EE 2014, EE 3020 / 3023 ( video ) and Philips/Quelle 345 44 10 ( infrared and ultrasonic ). Unfortunately, I missed the EE 2007 and EE 2008 kits ( radar, oscilloscope, TV). If you live in Europe and own any of these two kits and if you are willing to sell for a fair price, then feel free to [[imprint.html|contact me]], please ! In the 90th, [[http://www.schuco.de/|Schuco]] manufacured different kits based on the original technology: "Elektronics-Profi-Lab" ( basic kit "D" ), "Fibreoptics Technics" ( add-on kit ), "Electronics-Instrumentation" ( basic kit "G" ), "Physics A / Electrotechnics", "Physics B / Solartechnics".
+  *I got some fischertechnik electrotechnics and electronics kits ( "Hobby-4" of the 70th, "Electromechanics" and "Electronics" of the 80th ). Check my [[fischertechnik.html|web page about fischertechnik]] !
+  *I got the KOSMODYNE (R) switchbox by KOSMOS, so I am able to switch 230 Volts devices by low voltage electronics, fischertechnik and computers
+  *I did my first steps in the digital world by the "digi-buch 1" by Elector Publishing, which was accompanied by a printed circuit board ( see the board at the bottom of the picture ).
+  *I never was a great "solderer". For the APPLE II, I still assembled a few cards by free-wire techniques, but it was a pain. For my IBM-XT computer ( equipped with 640 KByte memory ), I soldered a CMOS memory expansion card provided by [[http://www.heise.de/|HEISE Publishing]] and [[http://www.emedia.de/|eMedia GmbH]] to get physical "upper memory". I soldered several connectors for serial, video and Ethernet cables. That it was ! Sorry, my expericence in development of printed circuit boards is very ..limited. Today I prefer simulations like PC-SPICE ( see my web page about [[eda02.html|Electronic Design Automation ( EDA )]] ), but I still keep my electronics kits for further future use.
+  *I am interested in [[embedded.html|microcontrollers]].
+    *In Summer 1999, I was involved for two month in an instrumentation project using 80C166 microcontrollers. I created an interface card for a ready-to-go microcontroller board, using wrapping and soldering techniques.
+    *Additionally, I got an [[coldfire.html|MCF5206 COLDFIRE evaluation board]] in 1997 and since 2010 many other microcontroller evaluation boards, with focus on [[arm.html|ARM]], [[atmel.html|Atmel]] and [[renesas.html|Renesas]]. 
+  *So maybe some day I am going to do some electronic hardware interfacing, again ! I am quite an expert for [[computer.html|PC-Hardware]], by the way !
+==== Philips "EE" Electronic Experiment Kits ====
+  *[[http://ee.old.no/|Tor Gjerde "Philips 'EE' electronic experiment kits"]].
+  *[[http://www.fieros.de/philips/EE2007.html|Oliver Scholz "Philips EE2007 Experimentierkasten"]].
+==== My Literature ====
+=== My favourite Electronics Books ===
+  *"Halbleiter-Schaltungstechnik" by Ulrich Tietze, Christoph Schenk, Springer Publishing.
+  *"The TTL Data Book for Design Engineers", by Texas Instruments.
+  *"Operationsverstärker" by Johannes Krämer, TOPP Publishing, "Buchreihe Elektronik", volume 79.
+=== My favourite Maths Books for Engineering ===
+  *"Taschenbuch der Mathematik" by I.N.Bronstein and K.A.Semendjajew, published by [[http://www.europa-lehrmittel.de/content-474-474/edition_harri_deutsch/|Europa-Lehrmittel, Edition Harri Deutsch]] ( formerly:  [[http://www.harri-deutsch.de/|Harry Deutsch Verlag]] ) with HTML version on CD, english version available,  and [[http://www.springer.com/springer+vieweg|Springer Vieweg]] ( formerly: [[http://www.teubner.de/|B.G.Teubner Verlagsgesellschaft]] ).
+==== Resources ====
+  *[[http://en.wikipedia.org/wiki/Electronic_color_code|EN.Wikipedia "Electronic color code"]], [[http://de.wikipedia.org/wiki/Widerstand_%28Bauelement%29#Farbkodierung_auf_Widerst.C3.A4nden|DE.Wikipedia "Widerstand (Bauelement)"]] - Section "Farbkodierung auf Widerständen".
+===== Special Hardware =====
+==== Surface-mounted Devices ( SMD ) ====
+  *[[http://www.busboard.us/|BusBoard Prototype Systems Ltd. "SMT Pads - For SMT parts"]] - "SMTpads-3U-Thin - surface mount proto PCB. Square pad grid for 0402, 0603, 0805, 1206, and other SMT parts with a ground plane".
+  *[[http://www.schmartboard.com/|SchmartBoards]] - "SchmartBoard is the destination for people who want to hand solder surface mount (SMT) components".
+    *[[http://www.schmartboard.com/index.asp?page=products_smttodip|SchmartBoards - SMT to DIP Adapters]].
+    *[[http://www.schmartboard.com/index.asp?page=products_qfp&id=66|SchmartBoards - QFP Packages]].
+  *Manhattan style.
+    *[[http://www.ehow.com/how_7350666_do-manhattan-style-soldering.html|eHow - Trusted advice for the curious life "How to Do Manhattan Style Soldering"]].
+    *[[http://www.elm-chan.org/docs/wire/wiring_e.html|The Electronic Lives Manufacturing - presented by ChaN "Progressive Wiring Techniques"]].
+  *[[http://www.eevblog.com/2011/06/21/eevblog-181-dead-bug-prototype-soldering/|David L. Jones, EEVblog "EEVblog #181 – Dead Bug Prototype Soldering"]].
+==== Electric Workbench Equipment  & Electric Laboratory Equipment ====
+=== General ===
+=== Electronic Kits ===
+== Brick 'R' Knowledge ==
+  *[[http://www.brickknowledge.de/|Brick 'R' Knowledge]] by [[http://www.allnet.de/|ALLNET GmbH]].
+== Philips / Schuco ==
+  *See above.
+== Kosmos ==
+=== Microscopes to help the assembly of SMD circuits ===
+  *[[http://www.mueller-optronic.com/|Groß- und Einzelhandel Müller GmbH - Ihr Onlinehändler für optische Messtechnik, Mikroskope und Zubehör]].
+    *[[http://www.mueller-optronic.com/Mikroskope/Zoom-Mikroskope/Expert-Trino-Zoom-Mikroskop-180x::405.html|Groß- und Einzelhandel Müller GmbH "Trino Stereo Zoom Microscope Expert-T"]].
+=== Patch Panels, Breadboards & Electric Wire ====
+  *[[http://www.avr-praxis.de/forum/showthread.php?1473-Steckboard|AVR-Praxis "Steckboard"]].
+    *"Es gibt auch super Kabel aus dem Pyrotechnikbereich, die für Steckboardexperimente Top geeignet sind. Nennen sich Verschleissdraht"
+  *[[http://www.verschleissdraht.de/|Verschleissdraht.de]].
+  *Pin connectors ( "Pfostenstecker" ) for Arduino boards, size 0.6mm x 0.8mm.
+  *Cable for breadboards: 2mm x 0.6mm.
+===== Literature =====
+==== Paper Magazines, Online Magazines, Publishing Houses. Vendors of Electronics ====
+  *[[http://www.at-fachverlag.de/|AT-Fachverlag GmbH]].
+    *[[http://www.elektronikinformationen.de/|EL-info Elektronik Informationen]].
+    *[[http://www.facebook.com/pages/EL-info-Elektronik-Informationen/110892485610329|Facebook "EL-info Elektronik Informationen"]].
+  *[[http://www.bodospower.com/|Bodo's Power Systems]], Germany - free PDF magazine.
+  *[[http://www.channel-e.de/|Channel-E - Magazin für Elektronik]].
+  *EBV.
+    *The paper and PDF magazine [[http://www.ebv.com/media-center/the-quintessence/|EBV "The Quintessence"]].
+    *The ?discontinued? paper and PDF brochure [[http://designsolutions.ebv.com/mip/|EBV "MIP - Marketing Innovative Products"]].
+  *[[http://www.eetimes.com/|Electronic Engineering Times ( EE Times ) - Connecting the Global Electronics Community]].
+  *[[http://www.eeweb.com/magazine/|EEWeb Magazines]] - free PDF magazines ( "PULSE Magazine", "Embedded Developer", "Power Developer", "Modern Printed Circuits", "Lighting Electronics", "Modern Test & Measure" ).
+  *[[http://www.edn.com/|EDN]] - free online magazine.
+    *[[http://en.wikipedia.org/wiki/EDN_%28magazine%29|EN.Wikipedia "EDN (magazine)"]].
+  *[[http://www.epdtonthenet.net/|Electronic Product Design]].
+  *[[http://electronicdesign.com/|Electronic Design]].
+    *[[http://en.wikipedia.org/wiki/Electronic_Design_%28magazine%29|EN.Wikipedia "Electronic Design (magazine)"]].
+  *[[http://www.electronicsweekly.com/|Electronics Weekly]].
+  *[[http://www.elektronik-journal.de/|elektronikJOURNAL | Das Themenmagazin von all-electronics.de]] by [[http://www.all-electronics.de|all-electronics.de]].
+  *[[http://www.elektroniknet.de/|WEKA FACHMEDIEN GmbH "elektroniknet.de"]] - portal of paper magazines ( "Markt & Technik - Die unabhängige Wochenzeitung für Elektronik", "Design & Elektronik", "Elektronik", "Funkschau" ).
+    *[[http://www.funkschau.de/|funkschau - Kommunikationstechnik für Profis]].
+  *[[http://www.elektor.de/|Elektor.de]] ( Germany ), [[http://www.elektor.com/|Elektor.com ( UK )]] - portal of the paper magazine "Elektor".
+    *[[http://www.elektor-projects.com/|ELEKTOR Projects / ELEKTOR ELabs - Sharing Electronics Projects]].
+    *[[http://www.facebook.com/ElektorDE|Facebook "Elektor.de"]].
+    *[[http://plus.google.com/u/0/117317699901482776830/posts|Google+ "Elektor.de"]].
+    *[[http://twitter.com/ElektorDE|Twitter "Elektor.de"]].
+    *Videochannel [[http://www.youtube.com/elektorde|YouTube Channel "ELEKTOR"]].
+  *[[http://www.franzis.de/|Franzis Verlag GmbH Poing - Verlag für Elektronik, Software und Fachbücher]].
+    *[[http://www.elo-web.de/|ELO - Elektronik und Know-How von FRANZIS-VERLAG. Elektronik erleben und anwenden]].
+  *[[http://www.futureelectronics.com/|Future Technology]].
+    *[[http://www.futureelectronics.com/en/promotions/pages/futuretechnologymagazine.aspx|Future Technology Magazine]] ( FTM ) - free online HTML magazine.
+  *[[http://www.heise.de/|Heise Verlag]].
+    *[[http://shop.heise.de/katalog/sonstiges/digitale-medien/elrad-archiv|heise shop "Archiv ELRAD"]].
+    *[[http://de.wikipedia.org/wiki/Elrad|DE.Wikipedia "Elrad"]].
+  *[[http://www.huethig.de/produkte/fachzeitschriften/|Hüthig - erfolgsmedien für experten]] - Paper magazines "AUTOMOBIL-ELEKTRONIK", "elektronik industrie", "elektronikJOURNAL", "IEE Elektrische Automatisierung + Antriebstechnik", "KI Kälte - Luft - Klimatechnik".
+  *[[http://www.theiet.org/|The Institution of Engineering and Technology ( IET )]].
+    *[[http://eandt.theiet.org/|E&T - Engineering and Technology Magazine]].
+    *[[http://electrical.theiet.org/|IET Electrical]].
+  *[[http://www.megalink.ch/|megalink - Alles über Automation, Elektronik, Antriebstechnik, Sensorik und Messtechnik]].
+  *[[http://www.newelectronics.co.uk/|New Electronics]] - free online magazine.
+  *[[http://www.powersystemsdesign.com/|Power Systems Design]] Europe - free PDF magazine.
+  *[[http://www.publish-industry.net/|publish-industry Verlag GmbH]] - free PDF magazines.
+    *[[http://www.eue24.net/|E&E]] - "Das Wissensportal für Elektronik und Entwicklung"..
+  *[[http://www.vogel.de/|Vogel Business Media GmbH & Co.KG]].
+    *The paper magazine [[http://www.elektronikpraxis.vogel.de/|Elektronik Praxis]].
+  *[[http://www.vth.de/|Verlag für Technik und Handwerk GmbH]] -"Die ganze Welt des Modellbaus. Funk, TV-Empfang, Elektronik".  
+==== Books ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3772365264/hemmerling-21|Dieter Nührmann: "Das komplette Werkbuch Elektronik: 2 Bde."]].
+
+===== Training, Education =====
+  *[[http://focus.ti.com/adc/docs/portal.tsp?sectionId=121|Texas Instruments "Analog eLab" Design Center]] - "offers support and training for new and experienced engineers for a variety of analog design needs".
+===== Organisations & Events & Experts=====
+==== Organisations ====
+  *[[http://www.fed.de/|FED - Fachverband für Design, Leiterplatten- und Elektronikfertigung]].
+==== Event "Maker Faire Hannover", 2013 ====
+  *The fair [[http://www.makerfairehannover.com/|Maker Faire Germany]] in Hannover, 2013-08-03.
+  *[[http://www.facebook.com/MakerFaireHannover|Facebook "Maker Faire Hannover"]].
+  *[[http://www.facebook.com/events/154497488038560/?ref=notif&notif_t=plan_user_invited|Facebook Event "MAKER FAIRE HANOVER"]].
+  *The paper magazine [[http://www.ct-hacks.de/|Hardware Hacks]].
+    *[[http://www.heise.de/hardware-hacks/artikel/Maker-Faire-Germany-1783042.html|Heise "Hannover Maker Faire. Ein familienfreundliches DIY-Festival für Bastler, Hacker und Künstler"]].
+==== Experts ====
+  *[[http://electronicslab.eu/en/|Electronics Lab]] by [[http://www.facebook.com/yplevis|Yiannis Plevritakis]] :-).
+  *[[http://www.facebook.com/Kononos|Nikos Plevrit ( Knonomos )]].
+  *"Indrajit Paul".
+    *[[http://www.github.com/indra1234|GitHub "Indrajit Paul, indra1234"]].
+    *[[http://www.xing.com/profile/Indrajit_Paul3|XING "Indrajit Paul"]], [[http://www.linkedin.com/profile/view?id=19588504|LinkedIn "Indrajit Paul"]].
+    *[[http://www.facebook.com/indra.p22|Facebook "Indrajit Paul"]], [[http://plus.google.com/+IndrajitPaul9614480169|Google+ "Indrajit Paul"]].
+    *[[http://www.beknown.com/indrajit-paul|Monster Beknown "Indrajit Paul"]].
+    *[[http://www.youtube.com/watch?v=wc7aTGpi5jM|YouTube "Indrajit Paul: My Slideshow"]] - Slideshow an electronics & embedded project.
+    *Blog [[http://indrajit123project123.blogspot.in/|Blogspot "Hobby Electronics"]].
+    *[[http://profile.utest.com/135418|uTest "Indrajit Paul"]].
+
+==== Mechanical Workplaces ====
+  *[[http://www.die-werke.de/|Die Werke]], Hannover.
+    *[[http://www.facebook.com/diewerkehannover|Facebook "Die Werke"]].
+    *[[http://die-werke.cobot.me/|Cobot "Die Werke"]].
+
+===== Resources =====
+  *[[http://www.allaboutcircuits.com/|All About Circuits]].
+  *[[http://www.bausteln.de/bezugsquellen/|bausteln - Bezugsquellen]] #.
+  *[[http://www.rs-online.com/designspark/|DesignSpark]] - "Das Portal Die Online-Plattform mit Design-Support für Entwickler von [[http://www.rs-online.com/|RS Components]] und [[http://ex-en.alliedelec.com/|Allied Electronics, Inc.]]".
+  *[[http://www.xs4all.nl/~ganswijk/chipdir/|Jaap van Ganswijk "Chip Directory"]].
+  *EDA Blog, EDA Geek, Embedded Star, FPGA Blog.
+    *[[http://www.edablog.com/|EDA Blog - electronic design automation, embedded systems, ic]].
+    *[[http://www.edageek.com/|EDA Geek - EDA News - electronic design automation, semiconductor]]
+    *[[http://www.embeddedstar.com/|Embedded Star - Embedded systems directory and blog]].
+    *[[http://www.fpgablog.com/|FPGA Blog - field programmable gate array and structured asic]].
+  *Fair [[http://www.electronica.de/|electronica - Elektronikmesse für Komponenten, Systeme und Anwendungen]], Munich.
+  *[[http://www.elektronik-kompendium.de/|Elektronik-Kompendium]].
+  *[[http://www.my-boardclub.com/|Future Electronics, Board Club]].
+    *[[http://www.my-boardclub.com/franchise_boards/franchise_board_page.php?fb=110|Future Electronics, Board Club "MPC8308-RDB MPC8308 PowerQUICC II Pro Processor Development Board"]] - "Members click here to apply for this board".
+  *Blog [[http://www.tinkerlog.com/|Tinkerlog - Alex's blog]].
+  *[[http://www.linuxfocus.org/Deutsch/January2004/article322.shtml|LinuxFocus.org, Aleksandar Milovac "Machen wir ein bißchen Elektronik"]].
+  *[[http://www.mosfetkiller.de/|mosfetkiller.de: Hochspannung - Elektronik - Programmierung]] by [[http://www.paulwilhelm.de/|Paul Wilhelm]], [[http://www.xing.com/profile/Paul_Wilhelm7|XING "Paul Wilhelm"]], Braunschweig.
+  *[[http://en.wikipedia.org/wiki/Whisker_%28metallurgy%29|EN.Wikipedia "Whisker (metallurgy)"]], [[http://de.wikipedia.org/wiki/Whisker_%28Kristallographie%29|DE.Wikipedia "Whisker (Kristallographie)"]].
+
+===== Forums, Newsgroups, Communities =====
+  *[[http://forum.allaboutcircuits.com/|All About Circuits Forum]].
+  *Altera.
+    *[[http://www.altera.com/support/spt-user-communities.html|Altera User Communities / Forums]].
+    *[[http://www.alteraforum.com/|Altera Forum]].
+    *[[http://www.alterawiki.com/|Altera Wiki]].
+  *[[http://forum.live.altium.com/|AltiumLive Forum]].
+  *Analog Devices.
+    *[[http://ez.analog.com/|ADI EngineerZone Technical Forum]].
+    *Analog Electric Circuitry Bulletin Board.
+  *[[http://www.cadence.com/community/|Cadence Community]].
+    *[[http://www.cadence.com/community/forums/|Cadence Community Forums]].
+  *[[http://www.codeweavers.com/compatibility/search/?name=LTSpice|Codeweavers "Scientific, Technical & Math / CAD & CAE / Forums Category, "LTSpice" Forums]].
+  *[[http://www.element-14.com/|Premier Farnell plc "element 14"]] - "element14 is a new, innovative information portal and eCommunity specifically built for electronic design engineers".
+  *[[http://www.edaboard.com/|EDAboard.com - Forum for Electronics]], [[http://www.edaboard.de/|EDAboard.de]], [[http://www.edaboard.co.uk/|EDAboard.co.uk]].
+  *[[http://www.eeweb.com/|EEWeb - Electrical Engineering Community]].
+  *[[http://www.electronicdesign.com/forum|Electronic Design Forums]].
+  *[[http://www.dutchforce.com/~eforum/|Electronics Forum. Forum for electronics fans]].
+  *[[http://www.electronics-lab.com/|Electronics Lab - The electronic hobbyist corner]].
+  *ELEKTOR.
+    *[[http://www.elektor.de/forum/|ELEKTOR.de ( Germany ) Forum]].
+    *[[http://www.elektor.com/forum/|ELEKTOR.com ( UK ) Forum]], [[http://forum.elektor.com/|ELEKTOR.com ( UK ) Forum]].
+  *Elektronikforum.
+    *[[http://forum.electronicwerkstatt.de/phpBB/|Ersatzteil-Brock "Elektronikforum"]] - "Elektro und Elektronik Forum - Ersatzteile und Reparatur".
+    *[[http://www.transistornet.de/|Transistor.NET - Das Elektronikforum]] - "Ersatzteile und Reparatur Forum".
+  *[[http://www.elektronik-kompendium.de/forum/|Elektronik-Kompendium Forum]].
+  *[[http://www.elektronikpraxis.vogel.de/forum/forums.cfm|Elektronik Praxis Forum]].
+  *[[http://www.elv.de/foren-journal-1.html|ELV journal - Mehr Wissen in Elektronik, Forum]].
+  *Espressif.
+    *[[http://bbs.espressif.com/|Espressif Board Forum]].
+      *[[http://bbs.espressif.com/viewtopic.php?f=17&t=4|Espressif Board Forum "IMPORTANT: How to activate your new user account"]] - Confirmation of registration.
+    *[[http://www.esp8266.com/|ESP8266 Community Forum]].
+      *Confirmation of registration, Q: "In one (1) word describe the ESP8266:" :-(?!", A: "wifi" :-).
+    *[[http://www.facebook.com/esp8266com|Forum "esp8266com"]].
+  *Facebook.
+    *[[http://www.facebook.com/alteracorp|Facebook "Altera"]].
+    *[[http://www.facebook.com/FairchildSemiconductor|Facebook "Fairchild Semiconductor"]].
+    *[[http://www.facebook.com/PSHDL|Facebook "PSHDL"]].
+  *[[http://www.fritzing.org/forum/|Fritzing Forums]].
+  *[[http://gameduino2.proboards.com/|Gameduino2 Community]].
+  *Google.
+    *[[http://groups.google.com/group/alt.engineering.electrical|Google Groups "alt.engineering.electrical"]], [[http://groups.google.com/group/sci.electronics.basics|Google Groups "sci.electronics.basics"]], [[http://groups.google.com/group/sci.electronics.components|Google Groups "sci.electronics.components"]], [[http://groups.google.com/group/sci.electronics.misc|Google Groups "sci.electronics.misc"]], [[http://groups.google.com/group/sci.electronics.design|Google Groups "sci.electronics.design"]], [[http://groups.google.com/group/de.sci.electronics|Google Groups "de.sci.electronics"]], [[http://groups.google.com/group/de.sci.ing.elektrotechnik|Google Groups "de.sci.ing.elektrotechnik"]], [[http://groups.google.com/group/maus.technik.elektronik|Google Groups "maus.technik.elektronik"]], [[http://groups.google.com/group/z-netz.alt.elektronik|Google Groups "z-netz.alt.elektronik"]].
+  *[[http://groups.google.com/group/comp.lang.vhdl|Google Groups "comp.lang.vhdl"]].
+    *[[http://www.vhdl.org/comp.lang.vhdl/|vhdl.org "comp.lang.vhdl. Frequently Asked Questions And Answers"]].
+  *[[http://groups.google.com/group/sci.electronics.cad|Google Groups "sci.electronics.cad"]].
+  *[[http://groups.google.com/group/comp.lsi|Google Groups "comp.lsi"]], [[http://groups.google.com/group/comp.lsi.cad|Google Groups "comp.lsi.cad"]].
+  *[[http://plus.google.com/communities/106169226290885102465|Google+ "Electronic Interconnect Industry - Community"]], successor of [[http://web.archive.org/web/20140215000000*/http://www.piekforum.eu/|Archive.org "Piekforum"]] ( - 2011-06-07 ).
+  *[[http://www.theiet.org/Forums/|IET Forums]].
+  *[[http://www.industrycommunity.com/|Industry Community]].
+    *[[http://www.industrycommunity.com/ee/|Industry Community "Electrical and Electronic Community"]].
+      *[[http://www.industrycommunity.com/myforum/moazzam_mahmood.html|Industry Community "PSpice Models for Analog & Digital ICs Message Board"]].
+  *[[http://www.latticesemi.com/support/forums.cfm|Lattice Semiconductors Corporation - Lattice Forums]].
+  *[[http://forum.mosfetkiller.de/|forum.mosfetkiller.de - Das Hochspannunnende Bastlerforum]].
+  *[[http://forums.mugweb.org/|MUG - The International Mentor Graphics Users' Group "Mentor Graphics Users Group Forums"]] - Read-only forum for non-members.
+  *[[http://www.opencores.org/forum|OpenCores Forums]].
+  *[[http://www.progforum.com/|ProgForum.com - Das Elektronik Diskussionsforum]].
+  *[[http://lists.rocketboards.org/cgi-bin/mailman/listinfo/|RocketBoards.org Mailing Lists]].
+  *[[http://forum.schmartboard.com/|SchmartBoards Forum]].
+  *[[http://www.silica.com/designers-community.html|Silica Designers' Community]].
+  *[[http://my.st.com/public/STe2ecommunities|STMicroelectronics "STe2ecommunities"]].
+    *[[http://my.st.com/public/STe2ecommunities/analog/|STMicroelectronics Forum "Analog and Audio"]].
+  *[[http://e2e.ti.com/|Texas Instruments E2E Technical Forum]] ( [[http://my.ti.com|my.ti.com]] ).
+  *[[http://www.thebackshed.com/forum/forum_topics.asp?FID=4|The Black Shed, Subforum "Electronics"]].
+  *[[http://www.vlsibank.com/discussion.asp|VLSIBank - Investing your Knowledge "Discussion"]] - "EDA, Embedded Systems, ASIC, FPGA, VHDL,Verilog, CMOS, Semiconductors, DSP, Mixed Signal Architecture".
+  *[[http://forums.xilinx.com/|Xilinx User Community Forums]].
+
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Business/Electronics_and_Electrical/|OpenDirectory "Top: Business: Electronics and Electrical"]].
+  *[[http://www.dmoz.org/Science/Technology/Electronics/|OpenDirectory "Top: Science: Technology: Electronics"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wirtschaft/Elektrotechnik_und_Elektronik/|OpenDirectory "Top: World: Deutsch: Wirtschaft: Elektrotechnik und Elektronik"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wissenschaft/Ingenieurwissenschaften/Elektronik/|OpenDirectory "Top: World: Deutsch: Wissenschaft: Ingenieurwissenschaften: Elektronik"]].
+  *[[http://dir.yahoo.com/business_and_economy/business_to_business/electronics/|Yahoo! Directory "Business and Economy: Business to Business: Electronics"]].
+  *[[http://dir.yahoo.com/science/engineering/electrical_engineering/|Yahoo! Directory "Science: Engineering: Electrical Engineering"]].
+{{tag>electric units" electric electrical units unit electronic electronics workbench equipment literature resources}}
+<footnote_navi_en>

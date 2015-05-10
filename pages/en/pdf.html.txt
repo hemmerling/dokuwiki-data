@@ -1,0 +1,66 @@
+====== [hemmerling] Portable Document Format ( PDF ) ======
+===== Free PDF Readers =====
+  *The free "Adobe Reader".
+    *[[http://get.adobe.com/de/reader/otherversions/|Adobe "Adobe Reader. Aktuelle und frühere Versionen von Adobe Reader herunterladen"]] -> Download of full versions :-) **or** web installers :-(..
+    *[[http://get.adobe.com/de/reader/enterprise/|Adobe Reader for Windows - Enterprise]] - "Weiterverteilung von Adobe Reader" -> Download of full versions :-).
+    *[[http://www.adobe.com/support/downloads/product.jsp?platform=windows&product=10|Adobe Reader for Windows - Downloads]] - Download archive with legacy versions for legacy operating systems.
+    *Adobe Reader 9.5.0 is the latest edition for W2k.
+    *Adobe Reader 6.02 is the latest edition for Win98SE.
+  *[[http://www.foxitsoftware.com/|Foxit Corporation]].
+     *The free [[http://www.foxitsoftware.com/Secure_PDF_Reader/|Foxit Reader for Windows]] with plugins for Firefox and Opera browsers.
+      *While Foxit Reader still runs on W2k, the "Kingsoft Office" software bundled with "FREE Foxit Office Suite" 531.606 of 2012-12 just runs on WinXP.
+    *The free [[http://www.foxitsoftware.com/Secure_PDF_Reader/non.php|Foxit Reader for Linux]].
+  *The free [[http://www.tracker-software.com/product/downloads|Tracker Software Products "PDF-XChange Viewer"]] for Windows.
+    *PDF-XChange Viewer 2.5.207 of 2012-12 still installs and runs properly on W2k, using the .msi installer.
+===== OpenSource PDF Interpreters, PS2PDF Converters =====
+  *[[http://www.ghostscript.com/|Ghostscript]] - "An interpreter for the PostScript language and for PDF".
+    *[[http://ghostscript.sourceforge.net/|SourceForge "The Ghostscript project"]], [[http://www.sourceforge.net/projects/ghostscript/|SourceForge "Ghostscript"]], [[http://www.ghostscript.com/download/|Ghostscript, GhostPCL, GhostXPS and MuPDF Downloads Page]] - Current versions of Ghostscript.
+    *[[http://pages.cs.wisc.edu/|The University of Wisconsin]].
+      *[[http://pages.cs.wisc.edu/~ghost/|The University of Wisconsin "Ghostscript, Ghostview and GSview"]] - Legacy versions of Ghostscript up to version 9.02.
+      *[[http://pages.cs.wisc.edu/~ghost/gsview/epstool.htm|The University of Wisconsin "Epstool"]].
+      *[[http://pages.cs.wisc.edu/~ghost/redmon/|The University of Wisconsin "RedMon - Redirection Port Monitor"]].
+    *[[http://en.wikipedia.org/wiki/Ghostscript|EN.Wikipedia "Ghostscript"]], [[http://de.wikipedia.org/wiki/Ghostscript|DE.Wikipedia "Ghostscript"]].
+    *According to experts, Ghostscript is still on the level of Adobe 8 and not higher, in 2012.
+
+===== Free PDF Printer Drivers for Windows =====
+  *The free [[http://www.dopdf.com/|doPDF]] for WinXp. Does not make use of GhostScript.
+    *"doPDF 7.0 build 330" ist the latest edition for W2k, while doPDF 7.3 just runs on WinXP.
+  *The free [[http://www.pdfprinter.at/de/|eDocPrintPro]] for Windows with .NET 2.0, makes use of GhostScript 9.05.
+  *The free [[http://www.freepdfxp.de/|FreePDF]] for Windows, a graphical user interface bundled with Ghostscript 9.05.
+    *FreePDF 2.11 ( with GhostScript 8.14 ) is the latest edition for Win95, Win98SE. 
+    *FreePDF 4.07 is the latest edition for W2k and isn't suitable for Win8.
+    *FreePDF 4.08 and newer are just for WinXP and newer, including Win8.
+  *The legacy [[http://www.schmitz-huebsch.net/gs4word/|Schmitz-Hübsch "Gs4Word"]] of 2006, a graphical user interface bundled with Ghostscript 8.53 - "Mit Gs4Word erzeugen Sie in Microsoft Word, Excel und Powerpoint mit einem Klick PDF-Dateien".
+  *The free [[http://www.pdf995.com/|Pdf995 Suite]] by [[http://www.software995.com/|Software995]] for WinXP.
+    *[[http://pdf995.com/archive.html|Pdf995 Suite - Archive]].
+    *I don´t know the latest editions of Software995 tools for W2k, but the Software995 editions of 2008-10 still run on W2k.
+  *The free [[http://www.primopdf.com/|Nitro PDF, Inc. "PrimoPDF"]] for Windows with .NET 2.0.
+  *The OpenSource [[http://www.pdfforge.org/|PDFForge "PDFCreator - The free PDF converter tool"]], [[http://pdfcreator.sourceforge.net/|SourceForge "PDFCreator"]], [[http://www.sourceforge.net/projects/pdfcreator/|SourceForge "PDFCreator"]] for WinXP, a graphical user interface bundled with GhostScript. Shipped with the free "PDFArchitect".
+    *The online manual [[http://www.pdfforge.org/content/pdfcreator-user-manual|PDFForge "PDFCreator User Manual"]].
+    *PDFCreator 1.2.3 is the latest edition for W2k. Additionally, you might use the PDFArchitect of the installer "PDFCreator 1.3.2" on W2k.
+    *If you don´t care, Adware will be installed with the software :-(.
+  *The free [[http://www.pdf24.org/creator.html|PDF24 Creator]] for WinXP.
+    *[[http://download.cnet.com/PDF24-creator/3000-6675_4-10813698.html|CNET "PDF24 Creator 2.01"]] is the latest edition for W2k.
+  *The OpenSource [[http://qvpdf.sourceforge.net/|SourceForge "qvPDF"]], [[http://www.sourceforge.net/projects/qvpdf/|SourceForge "qvPDF"]] for Windows.
+  *The free [[http://www.tinypdf.com/|TinyPDF]] for Windows. Does not make use of GhostScript.
+  *The free [[http://www.tracker-software.com/product/downloads|Tracker Software Products "PDF-XChange Lite, non-commercial release"]] for WinXP.
+    *[[http://www.tracker-software.com/free_lite_home.html|Tracker Software Products "Offer for Home & Academic Users"]] - "If you are a Home or Academic user - for a limited time we are offering PDF-XChange Lite 2012 for FREE".
+  *Once in 2011, the commercial PDF driver "[[http://www.avanquest.com/Deutschland/|Avanquest]] PDF Experte Ultimate 7" was offered by PEARL Agency as budget offer. Nowadays, in 2012, if I install the driver and try to run it after installation, the urged authentification fails by the error message "Die von Ihnen für die Installation von ... ausgewählte Seriennummer ... wurde bereits verwendet oder Sie haben das Maximum der zulässigen Installationen erreicht. Daher kann die Software nicht mit dieser Seriennummer ausgeführt werden" :-(.
+===== PDF 2 Postscript Converter =====
+  *The DonationWare [[http://www.transcom.de/transcom/en/2004_pdf-t-maker.htm|Transcom. Ingenieurbüro Johannes Graubner "PDF-T-Maker"]] - "You want to produce rich PDF files which contain all meta information from your Word document as bookmarks, hyperlinks, comments etc.?", "Similar to almost any PDF converter, as first step PDF-T-Maker converts your Word document into a PostScript file. You can send this PostScript file through a distiller, that generates the PDF file from it. As distiller you may use stand-alone solutions such as Adobe Distiller or GhostScript as well as pre-configured, highly automated solutions such as FreePDF XP, qvPDF, PDFCreator etc.".
+
+===== Free PDF Editor and PDF Tools =====
+  *The commercial [[http://www.jawspdf.com/|Global Graphics Software Ltd. "Jaws PDF Creator and Editor Software"]].
+    *[[http://www.jawspdf.com/jawspdf/promo.nsf/landing?openform&lang=en|Global Graphics Software Ltd. "Promotions"]] - "From time to time we make available special promotional offers to our customers" -> Free registration for owners of the CD supplied with the magazine "C't 4/2003" :-).
+===== Resources =====
+  *[[http://download.cnet.com/windows/pdf-software/|CNET "PDF Software"]].
+  *[[http://www.heise.de/download/office/pdf/sonstige-50000505352/|Heise "PDF"]].
+    *[[http://www.heise.de/download/office/pdf/viewer-50000505011/?f=135s|Heise "PDF > Viewer"]].
+    *[[http://www.heise.de/download/office/pdf/erzeuger-konverter-50000505012/?f=135s|Heise "PDF > Erzeuger & Konverter"]].
+  *[[http://en.wikipedia.org/wiki/Portable_Document_Format|EN.Wikipedia "Portable Document Format"]], [[http://de.wikipedia.org/wiki/Portable_Document_Format|DE.Wikipedia "Portable Document Format"]].
+===== Forums, Newsgroups =====
+  *[[http://www.dopdf.com/forum/|doPDF Forum]].
+  *[[http://www.freepdfxp.de/Forum/|FreePDF Forum]].
+  *[[http://forums.pdfforge.org/|pdfforge Forums]].
+{{tag>pdf "portable document format" portable document format}}
+<footnote_navi_en>

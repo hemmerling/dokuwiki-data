@@ -1,0 +1,65 @@
+====== [hemmerling] PCs with 4 Floppy Disk Drives ======
+
+===== Motivation =====
+  *In fact, once I was running a 1.44 MB, a 1.2 MB and a 360K floppy drives at my special floppy disk controller "UniFDC Plus, Revision CT 3.00" by "HEPP Computertechnik". This controller was once distributed by [[http://www.conrad.de/|CONRAD]] is suitable for driving four floppy drives! It works o.k. with MSDOS, Windows 3.1 and Linux. But with WFW 3.11 and Windows 95/98, I may not access successfully the third and fourth drive, most of the time... 
+===== The Hardware =====
+  *The standard floppy controller chips used in IBM-PC, IBM-XT and IBM-AT computers and its clones support up to 4 floppy disk drives, because of historical reasons.
+  *The original IBM-PC and IBM-XT computers and most true IBM-XT clones support up to 4 floppy disk drives. The number of floppy disk drives known to the BIOS (and so the PC software) must be set up by a DIP switch on the motherboard, manually.
+  *Starting with the IBM/AT computer and its clones, there is just support for 2 floppy disk drives by the BIOS. Since then, the drive configuration is stored in a CMOS configuration RAM. This configuration may either be modified by a PC software program or by the BIOS configuration software, which may be called at boot time.
+  *The gap for 4 floppy disk drives support was filled by independant manufactors: With special floppy disk drive controllers. For MSDOS support, the controller must supply a ROM-BIOS, mapped in the "upper memory" memory area of the PC ( e.g. 0x0CC000 ... 0x0CFFFF ):
+    *Up 4 floppy disk drives are attached to the "primary" controller. This solution is 100% compatible, as just the standard PC interrupt is used.
+    *2 additional floppy disk drives are attached to a "secondary" ISA BUS controller. As interrupt sharing is not allowed for ISA BUS systems, the BIOS on the controller accesses the drive by polling ( and not by an additional interrupt ), usually
+    *Mostly, the number and kind of (additional) floppy disk drives known to the controller BIOS must be set up by a DIP switch on the controller board, manually. Once I got a controller board which tried to "analyse" the connected drives at boot time by electrical signals without any manual DIP switch configuration, but this solution was not stable ( i.e. the drive recognition failed mostly or at least very often)
+===== The Software =====
+  *I just deal with the configuration with 4 floppy drives attached to my "primary" controller UniFDC Plus, Revision CT 3.00.
+==== MSDOS 3.3 and earlier ====
+  *IBM-PC and IBM-XT: Up to 4 floppy disk drives are mapped before the hard disk drives. Hard disk drives start with the logical drive letters "C","D" or "E". IBM-AT: Up to 2 floppy disk drives are mapped before the hard disk drives. Hard disk drives always start with the logical drive letter "C".
+
+| | |
+| Physical drive | Logical drive |
+| Floppy 0 ^ A: ^
+| Floppy 1 ^ B: ^
+| Floppy 2 ^ C: ^
+| Floppy 3 ^ D: ^
+| Harddisk 0 ^ E: ^
+| Harddisk 1 ^ F: ^
+| ^ ^
+
+==== MSDOS 4.0 and newer, all Windows Versions ====
+  *Exactly 2 floppy disk drives are mapped before the hard disk drives, all other floppy disk drives are mapped behind the hard disk drives. For the floppy disk drives 2 and 3, you need a DRIVER.SYS driver to be loaded in CONFIG.SYS:
+
+    DEVICE=driver.sys /d:2 /f:0
+    DEVICE=driver.sys /d:3 /f:2
+
+
+| | |
+| Physical drive | Logical drive |
+| Floppy 0 ^ A: ^
+| Floppy 1 ^ B: ^
+| Harddisk 0 ^ C: ^
+| Harddisk 1 ^ D: ^
+| Floppy 2 ^ E: ^
+| Floppy 3 ^ F: ^
+| ^ ^
+
+  *Consequences: Many application software is doing a "reset drive" on all drives but "A" and "B" at startup or in some special situations. This causes the floppies 2 and 3 to be accessed. If there is no disk inserted, the system may hang. Pressing <ENTER> may help, if you are asked for by MSDOS.
+  *If you loaded two different logical device drivers for the same physical drive ( this is especially interesting for 720K format support for 1.2 MB floppy disk drives), when changing the access to such a physical drive from one to the other logical device driver ( which happens with such a "reset drive" operation, too), MSDOS demands the user to press <ENTER> by a message on the text screen. Example of such a CONFIG.SYS entry, for a HD (1.2 MB) floppy disk drive 1, for use with DD (720K) floppy disks:
+
+    DEVICE=driver.sys /d:1 /f:2
+
+==== Windows 3.1, WFW 3.11 ====
+  *With MSDOS 7.0 and earlier, and with WINDOWS 3.1, read, write and format access to the floppy disk drives 2 and 3 works fine. With WFW 3.11, in opposite to WINDOWS 3.1, proper read and write access to the floppy disk drives 2 and 3 is not possible, mostly. Sometimes, it is possible, anyhow.
+
+==== Windows 95 ====
+  *WINDOWS 95 does not supply the necessary DRIVER.SYS driver files anymore, but you may use the old MSDOS 6.X versions. Note that you must apply the old versions to the MSDOS 7.0 operating system by SETVER.EXE. While loading WIN.COM of WINDOWS 95, a "reset drive" on all drives but "A" and "B" happens, causing access to the floppy disk drives 2 and 3. If there a floppy disk is missing in any of the floppy disk drives 2 or 3, the system hangs. When WINDOWS 95 is loaded, as with WFW 3.11, proper read and write access to the floppy disk drives 2 and 3 is not possible, mostly. Sometimes, it is possible, anyhow.
+==== MSDOS 7.1 ====
+  *WINDOWS 98 does not supply the necessary DRIVER.SYS driver files anymore. If you install the old MSDOS 6.X versions and apply it to the MSDOS 7.1 operating system by SETVER.EXE, however, at boot time of MSDOS 7.1, a "reset drive" on all drives but "A" and "B" happens, causing access to the floppy disk drives 2 and 3. Consequences: The system hangs. I did not find any method to boot MSDOS 7.1 on a PC with access to floppy disk drives 2 or 3. May you help me ?
+==== Linux ====
+  *If you use a "primary" controller with up to four floppy disk drives ( i.e. up to 4 floppy disk drives are driven by the same interrupt and the same single controller chip ), you just must create and load the right device descriptors for use with LINUX.
+==== Windows-NT, Windows 2000 ====
+  *No experience. I don´t own any floppy disk controller for 4 floppies anymore :-(.
+===== Forums, Newsgroups =====
+  *[[http://groups.google.com/group/alt.os.windows95/|Google Groups "alt.os.windows95"]], [[http://groups.google.com/group/comp.os.ms-windows.win95.misc/|Google Groups "comp.os.ms-windows.win95.misc"]], [[http://groups.google.com/group/comp.os.ms-windows.win95.setup/|Google Groups "comp.os.ms-windows.win95.setup"]], [[http://groups.google.com/group/comp.os.ms-windows.setup.win95/|Google Groups "comp.os.ms-windows.setup.win95"]], [[http://groups.google.com/group/comp.os.msdos.misc/|Google Groups "comp.os.msdos.misc"]], [[http://groups.google.com/group/comp.os.msdos.programmer/|Google Groups "comp.os.msdos.programmer"]], [[http://groups.google.com/group/fido.ger.386/|Google Groups "fido.ger.386"]], [[http://groups.google.com/group/fido.ger.windows/|Google Groups "fido.ger.windows"]], [[http://groups.google.com/group/fido.ger.windows/|Google Groups "fido.ger.windows"]], [[http://groups.google.com/group/fido.ger.windows.prog/|Google Groups "fido.ger.windows.prog"]], [[http://groups.google.com/group/de.comp.os.ms-windows.misc/|Google Groups "de.comp.os.ms-windows.misc"]], [[http://groups.google.com/group/de.comp.os.ms-windows.programmer/|Google Groups "de.comp.os.ms-windows.programmer"]], [[http://groups.google.com/group/de.comp.os.msdos/|Google Groups "de.comp.os.msdos"]], [[http://groups.google.com/group/microsoft.public.win98.setup/|Google Groups "microsoft.public.win98.setup"]], [[http://groups.google.com/group/microsoft.public.win98.gen_discussion/|Google Groups "microsoft.public.win98.gen_discussion"]].
+{{tag>"floppy disk drive" "floppy disk" pc 4}}
+<footnote_navi_en>
+

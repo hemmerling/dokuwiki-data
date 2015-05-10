@@ -1,0 +1,103 @@
+====== [hemmerling] FRITZ!Box ======
+Related pages:
+  *[[bautomation.html|Building Automation & Home Automation]].
+  *[[embedded.html|Embedded Systems]].
+  *[[perl.html|Perl 1/2]].
+  *[[python.html|Python 1/6]].
+===== FRITZ!Box Hardware =====
+  *[[http://www.avm.de/supportformular/|AVM]].
+  *[[http://service.avm.de/supportformular/de/WSF/|AVM Supportanfrage]].
+  *My Fritz!Box 7270.
+    *[[http://www.avm.de/de/Produkte/FRITZBox/FRITZ_Box_Fon_WLAN_7270/|AVM GmbH "FRITZ!Box 7270"]] - My Fritz!Box, 4 x LAN.
+      *[[http://www.avm.de/de/Service/Service-Portale/Service-Portal/index.php?portal=FRITZ!Box_7270|AVM GmbH "FRITZ!Box 7270 Service-Portal"]].
+      *The successor [[http://www.avm.de/de/Produkte/FRITZBox/FRITZ_Box_Fon_WLAN_7272/|AVM GmbH "FRITZ!Box 7272"]], if I should need a replacement.
+  *Fritz!Fon.
+    *I own a Fritz!Fon MT-D :-).
+    *[[http://www.avm.de/en/Produkte/FRITZFon/FRITZFon_MT-F/|FRITZ!Fon MT-F]].
+  *[[http://www.avm.de/de/Produkte/FRITZBox/FRITZ_Box_7330/index.php|AVM GmbH "FRITZ!Box 7330"]] - As of 2013-09, 1&1 provides the 7330SL with just 2 LAN connectors, and telephone just by Internet ( not by the analog telephone grid ) as bundle with DSL contracts :-(.
+  *[[http://www.avm.de/de/Produkte/FRITZBox/FRITZ_Box_Fon_WLAN_7390/|AVM GmbH "FRITZ!Box 7390"]], 4 x LAN.
+  *[[http://service.avm.de/support/de/YesItRuns/FRITZ-Box/284:1&1-Internetzugang-in-FRITZ-Box-einrichten|AVM GmbH "FRITZ!Box - online mit jedem DSL-Anbieter. 1&1-Internetzugang in FRITZ!Box einrichten"]].
+  *[[http://www.avm.de/de/News/artikel/schnittstellen_und_entwicklungen.php|AVM GmbH "Schnittstellen und Entwicklungen rund um die FRITZ!Box"]].
+  *[[http://fritz.box/html/support.html|AVM GmbH "Support"]], a URL of your local FRITZ!Box.
+  *Akkus:
+    -[[http://www.amazon.de/exec/obidos/ASIN/B004T8RPE8/hemmerling-21|Amazon.DE "Akku fürTelefone MT-D NiMH 2,4V / Medion MD81877 / Audioline SLIM DECT 500 / BT Verve 450 /Vtech VT1100 / DeTeWe Style 250 / T-Com Sinus A201"]].
+    -[[http://www.amazon.de/exec/obidos/ASIN/B004I5SIPC/hemmerling-21|Amazon.DE "Power Akku Ni-MH für Telekom T-Com Sinus A201"]].
+    -[[http://www.amazon.de/Akku-für-FRITZ-MT-D-NiMH/dp/B008LSM5GA/|Amazon.DE "Akku für AVM FRITZ!Fon MT-D, 2,4V, NiMH"]].
+    -[[http://www.conrad.de/ce/de/product/989938/Schnurlostelefon-Akku-Conrad-energy-Passend-fuer-Medion-Audioline-DeTeWe-Telekom-AVM-Audioline-NiMH-24-V-500-mAh|Conrad "Schnurlostelefon Akku Conrad energy Passend für: Medion, Audioline, DeTeWe, Telekom, AVM, Audioline NiMH 2.4 V 500 mAh"]] - 500MAh only.
+    -[[http://www.conrad.de/ce/de/product/1232197/Schnurlostelefon-Akku-AVM-Akku-MT-D-Passend-fuer-AVM-NiMH-24-V-600-mAh|Conrad "Schnurlostelefon Akku AVM Akku MT-D Passend für: AVM NiMH 2.4 V 600 mAh"]].
+===== Remote Access to the FRITZ!Box Hardware =====
+  *[[http://www.myfritz.net/|MyFRITZ!]] - "With MyFRITZ! you can access your personal FRITZ!Box safely from anywhere in the world".
+===== Operation of an unmanaged Switch does not work with FRITZ!Box properly =====
+  *If you connect a switch to one of the 4 input ports of a FRITZ!Box, proper operation of devices connected to teh switch is not guaranteed:
+    *A commercial datalogger terminalstation by [[http://www.cipherlab.com/|CipherLab]], which calls remote Internet servers, works properly.
+    *A Windows PC does not work properly, it can´t access the Internet.... :-(
+  *Experts suggested the reason for failure, that the FRITZ!Box might just accept a single ( ONE ) MAC address at each port...
+  *There are many reports in online forums about the problem, but no real idea of understanding the problem, and especially no working solution :-(.
+
+===== Unbranding of FRITZ!Box =====
+  *[[http://www.erdmannwelt.de/2010/03/07/avm-fritz-box-fon-wlan-7270-entbranden/|Erdmann "AVM Fritz! Box Fon WLAN 7270 'entbranden'"]] - "Dafür muss allerdings das Telnet auf der Fritz! Box erst einmal aktiviert werden, das durch Anschluss eines Telefons und mit der Wahl der Nummer #96*7* erfolgt".
+  *IP-Phone-Forum.
+    *[[http://www.ip-phone-forum.de/showthread.php?t=203652|IP-Phone-Forum. Deutsches Forum für Internet-Telefonie "VoIP-Hardware / AVM / FRITZ!Box Fon: Modifikationen / Anleitung zum Ändern des "Branding" bei FritzBox - (auch) für DAUs"]].
+    *[[http://www.ip-phone-forum.de/showthread.php?t=182611|IP-Phone-Forum. Deutsches Forum für Internet-Telefonie "VoIP-Hardware / AVM / FRITZ!Box Fon: Modifikationen / AVM Fritz!box 7270 entbranden"]].
+===== Extending the Firmware of FRITZ!Box =====
+  *[[http://www.freetz.org/|FREETZ. The fun has just begun...]] - "A firmware-extension (modification) for the ​AVM Fritz!Box".
+  *[[http://www.ip-phone-forum.de/forumdisplay.php?f=444|IP-Phone-Forum. Deutsches Forum für Internet-Telefonie "VoIP-Hardware / AVM / FRITZ!Box Fon: Modifikationen"]].
+    *[[http://www.ip-phone-forum.de/forumdisplay.php?f=525|IP-Phone-Forum. Deutsches Forum für Internet-Telefonie "VoIP-Hardware / AVM / FRITZ!Box Fon: Modifikationen / Freetz"]].
+      *[[http://www.ip-phone-forum.de/showthread.php?t=199449|IP-Phone-Forum. Deutsches Forum für Internet-Telefonie "VoIP-Hardware / AVM / FRITZ!Box Fon: Modifikationen / Freetz", Thread "Buildumgebung: freetz-linux"]].
+  *[[http://larswpt.wordpress.com/2007/06/27/fritzbox-7170-hack-apache-webserver-php-und-perl-installieren/|LM Times "FritzBox 7170 Hack: Apache WebServer, PHP und Perl installieren"]].
+  *Zebradem.
+    *[[http://www.zebradem.com/wiki/index.php?title=Hauptseite_FRITZ!Box|Zebradem AVM Wiki]].
+      *[[http://www.zebradem.com/wiki/index.php?title=Fritzbox_Tips_%26_Tricks|Zebradem AVM Wiki / Fritzbox Tips & Tricks]].
+        *[[http://www.zebradem.com/wiki/index.php?title=FHEM|Zebradem AVM Wiki / Fritzbox Tips & Tricks / FHEM]].
+    *[[http://www.zebradem.com/zd345/|Zebradem Freetz]].
+===== Fhem =====
+  *The OpenSource Perl server for house automation [[http://www.fhem.de/|Fhem]].
+  *Wiki [[http://www.fhemwiki.de/|FHEM Wiki]].
+    *[[http://www.fhemwiki.de/wiki/FHEM_und_FritzBox_7270|FHEM Wiki "FHEM und FritzBox 7270"]] - Informations about operation on my Fritz!Boy 7270 :-).
+    *[[http://www.fhemwiki.de/wiki/Cpan_auf_Fritzbox|FHEM Wiki "Cpan auf Fritzbox"]] - Installation and operation of Perl on FRITZ!Box 7390.
+===== Perl and the Fhem, a Perl Application, on FRITZ!Box =====
+  *The official [[http://www.avm.de/de/Service/Service-Portale/Labor/|AVM GmbH "FRITZ! Labor"]].
+    *[[http://www.avm.de/de/Service/Service-Portale/Labor/7390_hausautomation/labor_start_hausautomation.php|AVM GmbH "Hausautomation"]] - Free download of the official "FRITZ!Box 7390-Laborversion".
+  *[[http://www.wehavemorefun.de/fritzbox/AVM_Wiki|AVM Wiki]].
+    *[[http://www.wehavemorefun.de/fritzbox/FHEM_installieren|AVM Wiki "FHEM installieren"]].
+    *[[http://www.wehavemorefun.de/fritzbox/Perl|AVM Wiki "Perl"]].
+    *[[http://www.wehavemorefun.de/fritzbox/CONFIG_PERL|AVM Wiki "CONFIG PERL"]].
+  *[[http://forum.fhem.de/index.php?t=thread&frm_id=31|FHEM Forum "FHEM - Hardware / FRITZ!Box"]].
+  *[[http://www.fritzmod.net/|FRITZMOD.NET - Modifikationen der Fritz!Box]].
+    *[[http://www.fritzmod.net/de/fritzbox/my-fritzbox/|FRITZMOD.NET - Modifikationen der Fritz!Box "Meine Fritz!Box"]] - "Fritz!Box 7270 mit Kabel-Internet 32000/2000 und VoIP(Internettelefonie)".
+    *[[http://www.fritzmod.net/de/tools/microperl/|FRITZMOD.NET - Modifikationen der Fritz!Box "Microperl"]] - "Microperl ist ein Tool zum Ausführen der Perl-Skripte".
+      *For mipsel-FRITZ!Box devices (e.g. 7270, 7170,..).
+      *For mips-FRITZ!Box devices (e.g. 7390, 7340,..).
+    *[[http://www.fritzmod.net/de/modification/fritzbox-debian/|FRITZMOD.NET - Modifikationen der Fritz!Box "Debian auf der Fritz!Box"]] - "Debian (und sicherlich auch andere Distributionen) unterstützt relativ viele Prozessoren, u.a. auch MIPS und MIPSEL. Leider wird diese Unterstützung bei "Squeeze" (die neueste stabile Version, stand 2011) nicht mehr im vollen Umfang angeboten und bei nächsten Generationen sogar komplett eingestellt. Nichtsdestotrotz kann man "Etch" und "Lenny" nutzen".
+  *Google Group "fhem-users".
+    *[[http://groups.google.com/d/topic/fhem-users/-k66JW0fAVE|Google Group "fhem-users", Thread "aktuelles FHEM auf 7270 inkl. laufendem perl (ohne freetz)"]].
+    *[[http://groups.google.com/d/topic/fhem-users/LdsaK_K_zgkJ|Google Group "fhem-users", Thread "Neues perl fuer das FB7270"]].
+===== Python on Fritz!Box =====
+  *[[http://www.wehavemorefun.de/fritzbox/FritzBoxPython|AVM Wiki "FritzBoxPython"]].
+    *[[http://www.ailis.de/~k/archives/19-ARM-cross-compiling-howto.html#python|K's cluttered loft "ARM cross-compiling howto", "Cross-compiling Python"]].
+    *[[http://whatschrisdoing.com/blog/2006/10/06/howto-cross-compile-python-25/|What's Chris Doing? "HOWTO Cross Compile Python 2.5"]].
+  *[[http://www.freetz.org/ticket/1839|FREEZ Ticket #1839 "Python 2.7.3 für die Fritz!Box"]].
+===== Perl Scripts for Network Access of FRITZ!Box =====
+  *[[http://www.axel-arnold.de/index.php?id=60|Axel Arnold "Universal Plug and Play. How to get Status-Information from the FRITZ!Box"]] - Free Perl script.
+  *[[http://www.burgermeisters.de/knowhow/Programmieren/Programmieren.htm|Axel Burgermeister "KnowHow 20 ''HTML / JavaScript / Perl''"]] - "20.2.8 Öffentliche IP-Adresse der Fritzbox per Perl-Skript auslesen".
+  *[[http://www.perl-community.de/bat/poard/thread/14827|Deutsche Perl-Community - Forum, Thread "TCP Port von AVM Fritzbox auslesen?"]].
+  *[[http://www.hickerspace.org/wiki/Fritz!Box|Hickerspace, der Hackerspace in Hildesheim "Fritz!Box"]] - Free Perl script.
+  *[[http://www.zemlicka.de/77-multimedia/76-code-snippets-perl-anrufmonitor-fritzbox-auf-squeezebox.html|JuSt. open your mind "Code Snippets Perl Anrufmonitor Fritzbox auf Squeezebox"]] - Free Perl script.
+  *[[http://knx-user-forum.de/code-schnipsel/18397-fritzbox-anrufliste-fuer-rsslog-aufbereiten.html|KNX userforum "Fritzbox-Anrufliste für rsslog aufbereiten"]] - Free Perl script.
+===== Python Scripts for Network Access of Fritz!Box =====
+  *[[http://www.bremer-media.de/extras/fritzconnection.html|Klaus Bremer "FritzConnection"]], [[http://www.bitbucket.org/kbr/fritzconnection|Bitbucket "kbr / fritzconnection"]].
+    *TR-064:
+      *[[http://www.broadband-forum.org/technical/download/TR-064.pdf|broadband-forum "TECHNICAL REPORT. DSL Forum. TR-064. LAN-Side DSL CPE Configuration"]] ( PDF ).
+      *[[http://www.avm.de/de/Extern/files/tr-064/AVM_Technical_Note_-_Konfiguration_ueber_TR-064.pdf|AVM GmbH "AVM Technical Note
+Automatische Konfiguration der FRITZ!Box"]] ( PDF ).
+      *[[http://www.avm.de/de/Extern/files/tr-064/AVM_TR-064_first_steps.pdf|AVM GmbH "AVM TR-064 – First Steps"]] ( PDF ).
+    *UPnP:
+      *[[http://www.upnp.org/|UPnP Forum]].
+      *[[http://developer.gnome.org/gupnp/unstable/server-tutorial.html|Gnome Dev Center "Writing a UPnP Service"]].
+  *[[http://www.linux-tips-and-tricks.de/index.php/Python/|Framp's Linux Tips and Tricks "Python"]].
+    *[[http://www.linux-tips-and-tricks.de/index.php/Python/Auslesen-der-Datennutzung-aus-einer-Fritz-7390-mit-Python.html|Framp's Linux Tips and Tricks "Auslesen von Daten aus einer Fritzbox 7390 mit Python und bash"]].
+
+===== Resources =====
+ {{tag>Fritz!Box FritzBox FRITZ Fritz Box Fhem "Debian Linux" Debian Linux Perl Python}}
+<footnote_navi_en>
+

@@ -1,0 +1,877 @@
+====== [hemmerling] Python 6/6 - Education in Python ======
+Related pages:
+  *[[python.html|Python 1/7]].
+  *[[python02.html|Python 2/7]].
+  *[[python03.html|Python 3/7 - Literature]].
+  *[[python04.html|Python 4/7 - Pro & Contra]].
+  *[[python05.html|Python 5/7]].
+  *[[python07.html|Python 7/7 - Organisations, Conferences, Barcamps & Events]].
+  *[[erp02.html|ERP 2/2 - The OpenSource ERP Systems "TinyERP" / "OpenERP" / "Odoo" and the Fork "Tryton"]].
+  *[[uscripting.html|Scripting Programming Languages for Unix / Linux and Windows]].
+
+===== Coursera "Computer Science 101" =====
+  *[[http://www.coursera.org/course/cs101|Coursera "Computer Science 101"]].
+  *[[http://www-cs-faculty.stanford.edu/|Stanford University]].
+  *[[http://www-cs-faculty.stanford.edu/~nick|Nick Parlante]].
+===== Coursera "An Introduction to Interactive Programming in Python" =====
+==== The Website ====
+  *[[http://www.coursera.org/|Coursera - "Take the World's Best Courses, Online, For Free"]].
+    *[[http://www.coursera.org/course/interactivepython|Coursera "An Introduction to Interactive Programming in Python"]] ( 8 weeks, 2012-10-07 - 2012-12-19 ).
+      *[[http://class.coursera.org/interactivepython-2012-001/class/index|Coursera course "An Introduction to Interactive Programming in Python", class's homepage]] - Login.
+      *The free online tool [[http://www.codeskulptor.org/|CodeSkulptor]] ( see below ).
+==== Reviews ====
+  *[[http://www.knollop.com/courses/301/An-Introduction-to-Interactive-Programming-in-Python/|Knollop "An Introduction to Interactive Programming in Python"]].
+    *[[http://www.knollop.com/course-reviews/view/199/|Knollop "Review of An Introduction to Interactive Programming in Python
+"Learning Python in Pythonic style :-)" by rolf-hemmerling"]].
+  *[[http://www.topfreeclasses.com/course/6880/An-Introduction-to-Interactive-Programming-in-Python|Top Free Classes "An Introduction to Interactive Programming in Python"]].
+==== The Course ====
+=== General Timetable ====
+  *Saturday morning (4am PST = 13:00 CET) - release videos, quizzes and mini-project description for upcoming week.
+  *Sunday morning (2am PST = 11:00 CET) - start peer assessment for previous week's mini-project.
+  *Wednesday noon (10am PST = 19:00 CET) - finish peer assessment for previous week's mini-project.
+  *Tuesday/Thursday evenings (10pm PST = 9:00 CET Wednesday/Friday) - soft deadlines for first and second quizzes, respectively.
+  *Saturday evening - (10pm PST = 9:00 CET Sunday) hard deadlines for quizzes and current mini-project.
+=== Mini-project # 1 - Rock-paper-scissors-lizard-Spock ===
+== Timetable ==
+  *Sat 07 Oct 2012 10:00:00 PM CEST - Assessment starts.
+== Mini-project description - Rock-paper-scissors-lizard-Spock ==
+  *Rock-paper-scissors is a hand game that is played by two people. The players count to three in unison and simultaneously "throw" one of three hand signals that correspond to rock, paper or scissors. The winner is determined by the rules:
+    *Rock smashes scissors
+    *Scissors cuts paper
+    *Paper covers rock
+  *Rock-paper-scissors is a surprisingly popular game that many people play seriously (see the Wikipedia article for details). Due to the fact that a tie happens around 1/3 of the time, several variants of Rock-Paper-Scissors exist that include more choices to make ties more unlikely.
+  *Rock-paper-scissors-lizard-Spock (RPSLS) is a variant of Rock-paper-scissors that allows five choices. Each choice wins against two other choices, loses against two other choices and ties against itself. Much of RPSLS's popularity is that it has been featured in 3 episodes of the TV series "The Big Bang Theory". The Wikipdeia entry for RPSLS gives the complete description of the details of the game.
+  *In our first mini-project, we will build a Python function **rpsls(guess)** that takes as input the string guess, which is one of **"rock"**, **"paper"**, **"scissors"**, **"lizard"**, or **"Spock"**. The function then simulates playing a round of Rock-paper-scissors-lizard-Spock by generating its own random choice from these alternatives and then determining the winner using a simple rule that I will next describe.
+  *While Rock-paper-scissor-lizard-Spock has a set of ten rules that logically determine who wins a round of RPSLS, coding up these rules would require a large number (5x5=25) of **if/elif/else** clauses in your mini-project code. A simpler method for determining the winner is to assign each of the five choices a number:
+    *0 - rock
+    *1 - Spock
+    *2 - paper
+    *3 - lizard
+    *4 - scissors 
+  *In this expanded list, each choice wins agains the preceding two choices and loses against the following two choices. In all of the mini-projects for this class, I will provide a walk through of the steps involved in building your project to aid its development. A template for your mini-project is available here. Please work from this template.
+== Mini-project development process ==
+  -Build a helper function **name_to_number(name)** that converts the string **name** into a number between 0 and 4 as described above. This function should use an **if/elif/else** with 5 cases. You can use conditions of the form **name == 'paper'**, etc to distinguish the cases.
+  -Next, you should build a second helper function **number_to_name(num)** that converts a number in the range 0 to 4 into its corresponding guess as a string.
+  -Build the first part of the main function **rpsls(guess)** that converts **guess** into the number **player_number** between 0 and 4 using the helper function **name_to_number**.
+  -Build the second part of **rpsls(guess)** that generates a random number **comp_number** between 0 and 4 using the function **random.randrange()**. I suggest experimenting with randrange in a separate CodeSkulptor window before deciding on how to call it to make sure that you do not accidently generate numbers in the wrong range.
+  -Build the last part of **rpsls(guess)** that determines and prints out the winner. This test is actually very simple if you apply modular arithmetic (**%** in Python) to the difference between **comp_number** and **player_number**. If this is not immediately obvious to you, I would suggest reviewing our discussion of remainder / modular arithmetic and experimenting with the remainder operator **%** in a separate CodeSkulptor window to understand its behavior.
+  -Using the helper function **number_to_name**, you should produce four **print** statements; print a blank line, print out the player's choice, print out the computer's choice and print out the winner. 
+  -This will be the only mini-project in the class that is not an interactive game. Since we have not yet learned enough to allow you to play the game interactively, you will simply call your **rpsls** function repeatedly in the program with different player choices. You will see that we have provided five such calls at the bottom of the template. Running your program repeatedly should generate different computer guesses and different winners each time. While you are testing, feel free to modify those calls, but make sure they are restored when you hand in your mini-project, as your peer assessors will expect them to be there.
+  -The output of running your program should have the following form:
+
+  Player chooses rock\\
+  Computer chooses scissors\\
+  Player wins!\\
+
+  Player chooses Spock\\
+  Computer chooses lizard\\
+  Computer wins!\\
+
+  Player chooses paper\\
+  Computer chooses lizard\\
+  Computer wins!\\
+
+  Player chooses lizard\\
+  Computer chooses scissors\\
+  Computer wins!\\
+
+  Player chooses scissors\\
+  Computer chooses Spock\\
+  Computer wins!\\
+== Grading rubric - 16 pts total (scaled to 100 pts) # 1 ==
+  *Your peers will assess your mini-project according to the rubric given below. To guide you in determining whether your project satisfies each item in the rubric, please consult the video that demonstrates our implementation of "Rock-paper-scissors-lizard-Spock". Small deviations from the textual output of our implementation are fine. You should avoid large deviations (such as using the Python function input to input your guesses). Whether moderate deviations satisfy an item of the grading rubric is at your peers' discretion during their assessment.
+  *Here is a break down of the scoring: 
+    *2 pts - Program implements the function **rpsls()** and the helper functions **name_to_number()** with plausible code. Give partial credit of 1 pt if only the function **rpsls()** has plausible code.
+    *1 pt - Running program does not throw an error.
+    *1 pt - Program prints blank lines between games.
+    *2 pts - Program prints **"Player chooses player_guess"** where **player_guess** is a string of the form **"rock"**, **"paper"**, **"scissors"**, **"lizard"** or "**Spock"**. Give 1 pt if program prints out number instead of string.
+    *2 pts - Program prints **"Computer chooses computer_guess"** where computer_guess is a string of the form **"rock"**, **"paper"**, **"scissors"**, **"lizard"** or **"Spock"**. Give 1 pt if program prints out number instead of string.
+    *1 pt - Computer's guesses vary between five calls to **rpsls()** in each run of the program.
+    *1 pt - Computer's guesses vary between runs of the program.
+    *3 pts - Program prints either **"Player and computer tie!"**, **"Player wins!"** or **"Computer wins!"** to report outcome. (1 pt for each message.)
+    *3 pts - Program chooses correct winner according to RPSLS rules. Please manually examine 5 cases for correctness. If all five cases are correct, award 3 pts; four cases correct award 2 pts; one to three cases correct award 1 pt; no cases correct award 0 pts. 
+== Evaluation # 1 ==
+  *In this assessment, you will be asked to grade five of your peer's mini-projects. In return, five of your peers will grade your project. Since you've worked hard on your mini-project and would like your peers to do a good job of assessing your project, please take your time and do a good job of assessing your peer's mini-projects in return. Finally, you will be asked to self-assess your own project after assessing your peer's mini-projects.
+  *Before beginning your assessment, please review the video lecture on "Rock-paper-scissors-lizard-Spock" to see a demonstration of a correct, full-credit implementation of the mini-project.
+  *Grading Instructions.
+    *For each item below, run your peer's program and observe its behavior. If the program demonstrates the correct associated functionality, give it full credit for that item. If the program demonstrates partial, inconsistent, or incorrect functionality, assign the program partial credit based on your testing and our comments.
+    *When assigning partial or no credit, please add a short written comment that describes the issues you observed. While this takes extra effort, please remember how frustrating it would be to receive partial or no credit on part of your mini-project with no accompanying explanation.
+    *2 pts - Program implements the function rpsls() and the helper functions name_to_number() with plausible code. Give partial credit of 1 pt if only the function rpsls() has plausible code.
+    *1 pt - Running program does not throw an error.
+    *1 pt - Program prints blank lines between games.
+    *2 pts - Program prints "Player chooses player_guess" where player_guess is a string of the form "rock", "paper", "scissors", "lizard" or "Spock". Give 1 pt if program prints out number instead of string.
+    *2 pts - Program prints "Computer chooses computer_guess" where computer_guess is a string of the form "rock", "paper", "scissors", "lizard" or "Spock". Give 1 pt if program prints out number instead of string.
+    *1 pt - Computer's guesses vary between five calls to rpsls() in each run of the program.
+    *1 pt - Computer's guesses vary between runs of the program.
+    *3 pts - Program prints either "Player and computer tie!", "Player wins!" or "Computer wins!" to report outcome. (1 pt for each message.)
+    *3 pts - Program chooses correct winner according to RPSLS rules. Please manually examine 5 cases for correctness. If all five cases are correct, award 3 pts; four cases correct award 2 pts; one to three cases correct award 1 pt; no cases correct award 0 pts.  
+    *Overall evaluation/feedback: Please provide feedback to your classmate for the mini-project you're grading. In particular, focus on areas where you did not assign the mini-project full credit. Remember that a sentence or two explaining your rationale will be appreciated.
+=== Mini-project # 2 - "Guess the number" ===
+== Timetable ==
+  *Sat 20 Oct 2012 10:00:00 PM CEST - Assessment starts.
+== Mini-project description - Guess the number ==
+  *One of the simplest two-player games is "Guess the number". The first player thinks of a secret number in some known range while the second player attempts to guess the number. After each guess, the first player answers either "Higher", "Lower" or "Correct!" depending on whether the secret number is higher, lower or equal to the guess. In this project, you will build a simple interactive program in Python where the computer will take the role of the first player while you play as the second player.
+  *You will interact with your program using an input field and buttons. For this project, we will ignore the canvas and print the computer's responses in the console. This idea of building an initial version of your project that prints information in the console is a development strategy that you should use in later projects as well. Focusing on getting the logic of the program correct before trying to make it display the information in some "nice" way on the canvas usually saves lots of time since debugging logic errors in graphical output can be tricky.
+== Mini-project development process ==
+  *We have provided a basic template for this mini-project [[http://www.codeskulptor.org/#examples-guess_the_number_template.py|here]]. Our suggested development strategy for the basic version of "Guess the number" is:
+    -Decide on a set of global variables that contain the state of the game. For example, one obvious choice is the secret number that has been generated by the program. You will need other global variables, especially to accomodate later extensions to the basic game.
+    -Figure out how to generate a random secret number in a given range, **low** to **high**. When discussing ranges, we will follow the standard Python convention of including the low end of the range and excluding the high end of the range, which can be expressed mathematically as **[low, high)**. So, **[0, 3)** means all of the numbers starting at 0 up to, but not including 3. In other words 0, 1, and 2. We suggest using the range **[0, 100)** in your first implementation. Hint: look at the functions in the **random** module to figure out how to easily select such a random number. We suggest testing this out in a separate CodeSkulptor tab before adding code to your project.
+    -Figure out how to create an input text box using the **simplegui** module. You will use this input to get the guess from the user. For all variants of the game, this input field should always be active (in other words, a game should always be in progress). Again, we would test out using this function in a separate CodeSkulptor tab before adding code to your project.
+    -Write the event handler **input_guess(guess)** that takes the input **guess**, compares it to the secret number and prints out the appropriate response. Remember that **guess** is a string so you will need to convert it into a number before testing it against the secret number. Hint: we have showed you how to convert strings to numbers in the lectures.
+    -Test your code by playing multple games of "Guess the number" with a fixed range. At this point, you will need to re-run your program between each game (using the CodeSkulptor "Run" button). 
+  *From this minimal working version of "Guess the number", the rest of this project consists of adding extra functionality to your project. There are two improvements that you will need to make to get full credit:
+    *Using function(s) in the **simplegui** module, add buttons to restart the game so that you don't need to repeatedly click "Run" in CodeSkulptor to play multiple games. You should add two buttons: "Range: 0 - 100" and "Range: 0 - 1000" that allow the player to choose different ranges for the secret number. Hitting either of these buttons should restart the game and print out an appropriate message. They should work at any time during the game. 
+  *As you improve in playing "Guess the number", you may notice that a good strategy is to maintain an interval that consists of the highest guess that is "Lower" than the secret number and the lowest guess that is "Higher' than the secret number. A good choice for the next guess is the number that the average of these two numbers. The answer for this new guess then allows you to figure a new interval that contains the secret number and that is half as large. For example, if the secret number is in the range **[0, 100)**, it is a good idea to guess 50. If the answer is "Higher", the secret number must be in the range **[51, 100)**. It is then a good idea to guess 75 and so on. This technique of successively narrowing the range corresponds to a well-known computer algorithm known as [[http://en.wikipedia.org/wiki/Binary_search_algorithm|binary search]].
+    *Your final addition to "Guess the number" will be to restrict the player to a limited number of guesses. Once the player has used up those guesses, they lose, the game prints out an appropriate message, and a new game immediately starts. As we noted above, an optimal strategy for playing "Guess the number" approximately halves the range of possible secret numbers after each guess. So, your game should set the number of allowed guesses to be smallest integer **n** such that **2 * * n >= high - low + 1** where the secret number lies in **[low, high)**. To compute **n**, you should investigate using the functions **math.log** and **math.ceil** in the math module. 
+  *When you your program starts, the game should immediately begin in range **[0, 100)**. When the game ends (either because the player wins or because they run out of guesses), a new game with the same range as the last one should immediately begin. Whenever the player clicks one of the range buttons, the current game should stop and a new game with the selected range should begin. 
+== Grading rubric - 11 pts total (scaled to 100 pts) # 2 ==
+  *Your peers will assess your mini-project according to the rubric given below. To guide you in determining whether your project satisfies each item in the rubric, please consult the video that demonstrates our implementation of "Guess the number". Small deviations from the textual output of our implementation are fine. You should avoid potentially confusing deviations (such as printing "Too high" or "Too low" instead of "Lower" and "Higher"). Whether moderate deviations satisfy an item of the grading rubric is at your peers' discretion during their assessment.
+  *Here is a break down of the scoring:
+    *1 pt - The game starts immediately when the "Run" button in CodeSkulptor is pressed.
+    *1 pt - A game is always in progress.
+    *1 pt - The game reads **guess** from input field and correctly prints it out.
+    *3 pts - The game correctly plays "Guess the number" with range [0, 100) and prints understandable output messages to the console. Play three complete games: 1 pt for each correct game.
+    *2 pts - The game includes two buttons that allow the user to select the range **[0, 100)** or the range **[0, 1000)**. These buttons correctly change the range and print an appropriate message. (1 pt per button.)
+    *2 pts - The game restricts player to finite number of guesses and correctly terminates game when guesses are exhausted. Award 1 pt if the number of guesses is printed, but the game does not terminate and restart when these guesses are exhausted.
+    *1 pt - The game varies the number of allowed guess based on range, seven guesses for range **[0, 100)**, ten guesses for range **[0, 1000)**. 
+  *To help aid you in gauging what a full credit project might look like, the video lecture on the "Guess the number" project includes a demonstration of our implementation of this project. 
+== Evaluation # 2 ==
+  *In this assessment, you will be asked to grade five of your peer's mini-projects. In return, five of your peers will grade your project. Since you've worked hard on your mini-project and would like your peers to do a good job of assessing your project, please take your time and do a good job of assessing your peer's mini-projects in return. Finally, you will be asked to self-assess your own project after assessing your peer's mini-projects.
+  *Before beginning your assessment, please review the video lecture on "Guess the number" to see a demonstration of a correct, full-credit implementation of the mini-project.
+    *1 pt - The game starts immediately when the "Run" button in CodeSkulptor is pressed.
+    *1 pt - A game is always in progress.
+    *1 pt - The game reads guess from input field and correctly prints it out.
+    *3 pts - The game correctly plays "Guess the number" with range [0, 100) and prints understandable output messages to the console. Play three complete games: 1 pt for each correct game.
+    *2 pts - The game includes two buttons that allow the user to select the range [0, 100) or the range [0, 1000). These buttons correctly change the range and print an appropriate message. (1 pt per button.)
+    *2 pts - The game restricts player to finite number of guesses and correctly terminates game when guesses are exhausted. Award 1 pt if the number of guesses is printed, but the game does not terminate and restart when these guesses are exhausted.
+    *1 pt - The game varies the number of allowed guess based on range, seven guesses for range [0, 100), ten guesses for range [0, 1000).
+  *Overall evaluation/feedback: Please provide feedback to your classmate for the mini-project you're grading. In particular, focus on areas where you did not assign the mini-project full credit. Remember that a sentence or two explaining your rationale will be appreciated.
+=== Mini-project # 3 - Stopwatch: The game ===
+== Timetable ==
+  *Sat 27 Oct 2012 10:00:00 PM CEST - Assessment starts.
+== Mini-project description - Stopwatch: The game ==
+  *Our mini-project for this week will focus on combining text drawing in the canvas with timers to build a simple digital stopwatch that keep track of the time in tenths of a second.  The stopwatch should contain "Start", "Stop" and "Reset" buttons.  To help guide you through this project, we suggest that you download the provided program template for this mini-project and build your stopwatch program as follows:
+== Mini-project development process ==
+  *Construct a timer with an associated interval of 0.1 seconds whose event handler increments a global integer. This integer will keep track of the time in tenths of seconds.  Test your timer by printing the global integer to the console. To stop the timer and print statements, use the reset button in upper left. //Important//: Do not use floating point numbers to keep track of tenths of a second!  While it's certainly possible to get it working, the imprecision of floating point can make your life miserable.  Use an integer instead, i.e., 12 represents 1.2 seconds.
+    -Write the event handler function for the canvas that draws the current time(simply as an integer, you should not worry about formating it yet) in the middle of the canvas. Remember that you will need to convert the current time into a string using **str** before drawing it.
+    -Add "Start" and "Stop" buttons whose event handlers start and stop the timer.  Next, add a "Reset" button that stops the timer and reset the current time to zero.
+    - Next, write a helper function **format(t)** that returns a string of the form **A:BC.D** where **A, B, C** and **D** are digits in the range 0-9.  Test this function independent of your project.  Note that your helper function **format** should always draw leading zeros correctly.  
+    *For example<code>
+        format(0) == 0:00.0
+        format(11) = 0:01.1
+        format(321) = 0:32.1
+        format(613) = 1:01.3</code>
+    *Hint: Use integer division and remainder (modular arithmetic) to extract various digits for the formatted time from the global integer timer.
+    - Insert the format function into your canvas event handler will complete the stopwatch.
+    - Finally, to turn your stopwatch into a test of reflexes, add to two numerical counters that keep track of the number of times that you have stopped the watch and how many times you manage to stop the watch on a whole second. These counters should be drawn in the upper lefthand part of the stopwatch canvas in the "**x/y**" where **x** is the number of successful stops and **y** is number of total stops.  My best effort at this simple game is around a 25% success rate.  Note that hitting the "Stop" button when the timer is already stopped should not change your score.
+    - Modify "Reset" so as to set these number back to zero when clicked.
+  *Steps 1-3 and 5-7 above are relatively straightforward.  However, step 4 requires some adept  use of integer division and modular arithmetic.  So, we again emphasize that you build and debug the helper function **format(t)** separately.  Following this process will save you time.  For an example of a full implementation, we suggest that you watch the video lecture on this mini-project.
+== Grading Rubric - 13 pts total (scaled to 100 pts) ==
+  *1 pt - The program successfully opens a frame.
+  *1 pt - The program has a working "Start" button that starts the timer.
+  *1 pt - The program has a working "Stop" button that stops the timer.
+  *1 pt - The program has a working "Reset" button that stops the timer (if running) and resets the timer to 0.
+  *2 pts - The "Stop" button correctly updates the success/attempts counters.  Give only one point if hitting the "Stop" button changes the score when the timer is already stopped.
+  *1 pt - The "Reset" button clears the success/attempts counters.
+  *4 pts - The time is formatted according to the description in step 4 above.  Award partial credit corresponding to 1 pt per correct digit.  For example, a version that just draw tenths of seconds as a whole number should recieve 1 pt. A version that draws the time with correctly placed decimal point (but no leading zeros) only should receive 2 pts.  A version that draws minutes, seconds and tenths of seconds but fails to always allocate two digits to seconds should receive 3 pts.
+  *2 pts - The program correctly draws the number of successful stops at a whole second versus total stops.  You should give one point each for successful and total stops.  If the score is correctly reported as a percentage instead, give only one point.
+== Evaluation # 3 ==
+  *In this assessment, you will be asked to grade five of your peer's mini-projects. In return, five of your peers will grade your project. Since you've worked hard on your mini-project and would like your peers to do a good job of assessing your project, please take your time and do a good job of assessing your peer's mini-projects in return. Finally, you will be asked to self-assess your own project after assessing your peer's mini-projects.
+  *Before beginning your assessment, please review the video lecture on "Stopwatch: The game" to see a demonstration of a correct, full-credit implementation of the mini-project.
+    *1 pt - The program successfully opens a frame.
+    *1 pt - The program has a working "Start" button that starts the timer.
+    *1 pt - The program has a working "Stop" button that stops the timer.
+    *1 pt - The program has a working "Reset" button that stops the timer (if running) and resets the timer to 0.
+    *2 pts - The "Stop" button correctly updates the success/attempts counters.  Give only one point if hitting the "Stop" button changes the score when the timer is already stopped.
+    *1 pt - The "Reset" button clears the success/attempts counters.
+    *4 pts - The time is formatted according to the description in step 4 above.  Award partial credit corresponding to 1 pt per correct digit.  For example, a version that just draw tenths of seconds as a whole number should recieve 1 pt. A version that draws the time with correctly placed decimal point (but no leading zeros) only should receive 2 pts.  A version that draws minutes, seconds and tenths of seconds but fails to always allocate two digits to seconds should receive 3 pts.
+    *2 pts - The program correctly draws the number of successful stops at a whole second versus total stops.  You should give one point each for successful and total stops.  If the score is correctly reported as a percentage instead, give only one point.
+=== Mini-project # 4 - Pong ===
+== Timetable ==
+  *Sat 03 Nov 2012 10:00:00 PM CEST - Assessment starts.
+== Mini-project description - Pong ==
+  *In this project, we will build a version of Pong, one of the first arcade video games (1972).  While Pong is not particularly exciting compared to today's video games, Pong is relatively simple to build and provides a nice opportunity to work on the skills that you will need to build a game like Asteroids.  As usual, we have provided a [[http://www.codeskulptor.org/#examples-pong_template.py|program template]] that can be used to guide your development of Pong.
+== Mini-project development process ==
+  -Add code to **ball_init** to start the ball in the middle of the table and give the ball a fixed velocity (for now).  Ignore the parameter **right** for now.
+  -Add code to the program template that draws a ball moving across the Pong table.  We recommend that you add the positional update for the ball to the draw handler.
+  -Modify your code such that the ball collides with and bounces off of the top and bottom walls.  Experiment with different hard-coded initial velocities to test your code.
+  -Add randomization to the velocity in **ball_init(right)**  The velocity of the ball should be upwards and towards the right if **right == True** and upwards and towards the left if **right == False**.  The exact values for the horizontal and vertical components of this velocity should be generated using **random.randrange()**.  For the horizontal velocity, we suggest a speed of around **random.randrange(120, 240)** pixels per second.  For the vertical velocity, we suggest a speed of around **random.randrange(60, 180)** pixels per second.  (You will need to set the signs of speeds appropriately.)
+  -Add code that tests whether the ball touches/collides with the left and right gutters.  (Remember that the gutters are offset from the left and right edges of the canvas by the width of the paddle.)  When the ball touches a gutter, use **ball_init(right)** to respawn the ball in the center of the table headed towards the opposite gutter.
+  -Next, add code that draws the left and right paddles in their respective gutters.  The vertical positions of these two paddles should depend on two global variables.  (In the template, the variables were **paddle1_pos** and **paddle2_pos**.)
+  -Add code that modifies the values of these vertical positions via an update in the draw handler.  The update should reference two global variables that contain the vertical velocities of the paddles. (In the template, the variables were **paddle1_vel** and **paddle2_vel**.)
+  -Update the values of these two vertical velocities using key handlers. The "w" and "s" keys should control the vertical velocity of the left paddle while the "Up arrow" and "Down arrow" key should control the velocity of the right paddle. In standard Pong, the left paddle moves up at a constant velocity if the "w" key is depressed and moves down at a constant velocity if the "s" is pressed and is motionless otherwise.  (The motion if both are pressed is up to you.) To achieve this effect, you will need to use both a keydown and a keyup handler to increase/decrease the vertical velocity in an appropriate manner.
+  -Restrict your paddles to stay entirely on the canvas by adding a check before you update the paddles' vertical position.
+  -Modify your collision code for the left and right gutters to check whether the ball is actually striking a paddle when it touches a gutter.  If so, reflect the ball back into play.  This collision model eliminates the possibility of the ball striking the edge of the paddle and greatly simplifies your collision/reflection code.  
+  -To moderately increase the difficulty of your game, increase the velocity of the ball by 10% each time it strikes a paddle.
+  -Finally, add scoring to the game as shown in the Pong video lecture.  Each time the ball strikes the left or right gutter (but not a paddle), the opposite player receives a point and ball is respawned appropriately.
+  *Your final version of Pong should be remarkably similar to the original arcade Pong game.  Your full implementation should take around 100 lines with comments.
+== Grading Rubric  - 19 pts total (scaled to 100 pts) ==
+  *1 pt - The ball spawns in the middle of the canvas with a primarily upward and left/right velocity.  No credit if the ball only moves left or right. Bleh, that would be boring!
+  *2 pts - Ball bounces off of the top and bottom walls correctly. (1 pt each)
+  *2 pts - The ball respawns in the middle of the screen when it strikes the left/right gutter but not the paddles. (1 pt for each side)  Give credit for this item even if the ball hits the edge of the canvas instead of the gutter.
+  *1 pt - The left/right gutter is properly used as the edge of the table, instead of the edge of the canvas.  
+  *1 pt - The ball spawns moving towards the player that won the last point.
+  *2 pts - The 'w' and 's' keys correctly control the velocity of the left paddle.  (1 pt if they control the position instead)
+  *2 pts - The up and down arrows keys correctly control the velocity of the right paddle.  (1 pt if they control the position instead)
+  *2 pts - The edge of each paddle is flush with the gutter.  (1 pt per paddle)
+  *2 pts - The paddles stay on the canvas at all times. (1 pt per paddle)
+  *2 pts - The ball correctly bounces off the left/right paddles. (1 pt per paddle)
+  *1 pt - The scoring text is positioned and updated appropriately.  The positioning need only approximate that in the video.
+  *1 pt - The game includes a "Restart" button that resets the score and relaunches the ball.
+== Evaluation # 4 ==
+  *1 pt - The ball spawns in the middle of the canvas with a primarily upward and left/right velocity.  No credit if the ball only moves left or right. Bleh, that would be boring!
+  *2 pts - Ball bounces off of the top and bottom walls correctly. (1 pt each)
+  *2 pts - The ball respawns in the middle of the screen when it strikes the left/right gutter but not the paddles. (1 pt for each side) Give credit for this item even if the ball hits the edge of the canvas instead of the gutter.
+  *1 pt - The left/right gutter is properly used as the edge of the table, instead of the edge of the canvas. 
+  *1 pt - The ball spawns moving towards the player that won the last point.
+  *2 pts - The 'w' and 's' keys correctly control the velocity of the left paddle. (1 pt if they control the position instead)
+  *2 pts - The up and down arrows keys correctly control the velocity of the right paddle. (1 pt if they control the position instead)
+  *2 pts - The edge of each paddle is flush with the gutter. (1 pt per paddle)
+  *2 pts - The paddles stay on the canvas at all times. (1 pt per paddle)
+  *2 pts - The ball correctly bounces off the left/right paddles. (1 pt per paddle)
+  *1 pt - The scoring text is positioned and updated appropriately. The positioning need only approximate that in the video.
+  *1 pt - The game includes a "Restart" button that resets the score and relaunches the ball.
+=== Mini-project # 5 - Pairs ===
+== Timetable ==
+  *Sat 10 Nov 2012 10:00:00 PM CEST - Assessment starts.
+== Mini-project description - Pairs ==
+  *Pairs is a card game in which the player deals out a set of cards face down.  In one turn, the player flips over two cards.  If they match, the player leaves them face up.  If they don't match, the player flips the cards back face down.  The goal of Pairs is to end up with all of the cards flipped face up in the minimum number of turns. For this project, we will keep our model for Pairs fairly simple.  A Pairs deck consists of eight pairs of matching cards.
+== Mini-project development process ==
+  *As usual, I suggest that you start from the [[http://www.codeskulptor.org/#examples-memory_template.py|program template]] for this mini-project.
+    -Model the deck of cards used in Memory as a list consisting of 16 numbers with each number lying in the range [0,8) and appearing twice.  I suggest that you create this list using a list comprehension of the form **[... for i in range(16)]** where the expression **...** should be replaced by a Python expression depending on **i** that yields numbers in the range [0,8).
+    -Write a draw handler that iterates through the Memory deck and uses **draw_text** to draw the number associated with each card on the canvas.  The result should be a horizontal sequence of evenly-spaced numbers drawn on the canvas.
+    -Shuffle the deck using **random.shuffle()**. Remember to debug your canvas drawing code before shuffling to make debugging easier.
+    -Next, modify the draw handler to either draw a blank rectangle or the card's value. To implement this behavior, we suggest that you create a second list called **exposed** whose ith entry is **True** if the card is flipped over and its value is visible and **False** if the card's value is hidden. We suggest that you initialize **exposed** to some known values while testing your drawing code with this modification.
+    -Now, add functionality to determine which card you have clicked on with your mouse.  Add an event handler for mouseclick that takes the position of the mouseclick and prints the index of the card that you have clicked on to the console.  To make determining which card you have clicked on easy, we suggest sizing the canvas so that the sequence of cards entirely fills the canvas.
+    -Modify the event handler for mouseclick to flip cards based on mouseclicks.  If the player clicked on the **i**<sup>th</sup> card, you can change the value of **exposed[i**] from **False** to **True**.  //If the card is already exposed, you should ignore the mouseclick//.  At this point, the basic infrastructure for Memory is done.
+    -You now need to add game logic for selecting two cards and determining if they match.  We suggest following the structure in the program template, which explicitly keeps track of the state of the game.  State 0 corresponds to the start of the game.  In state 0, if you click on a card, that card is exposed, and you switch to state 1.  State 1 corresponds to a single exposed unpaired card.  In state 1, if you click on an unexposed card, that card is exposed and you switch to state 2.  State 2 corresponds to the end of a turn. In state 2, if you click on an unexposed card, that card is exposed and you switch to state 1.  
+    -Note that in state 2, you also have to determine if the previous two cards are paired or unpaired.  If they are unpaired, you have to flip them back over so that they are hidden before moving to state 1.  We suggest that you use two global variables to store the index of each of the two cards that were clicked in the previous turn.
+    -Add a counter that keeps track of the number of turns and uses **set_text** to update this counter as a label in the control panel. (BTW, Joe's record is 12 turns.)
+    -Finally, add a "Reset" button that reshuffles the cards, resets the turn counter and restarts the game.  All cards should start the game hidden.
+    -(Optional) You may replace the draw_text for each card by a draw_image that uses one of eight different images. 
+  *Once the run button is clicked in CodeSkulptor, the game should start.  You should not have to hit the "Reset" button to start. Once the game is over, you should hit the "Reset" button to restart the game.
+  *While this project may seem daunting at first glance, the size of your program should remain well under 100 lines. Our full implementation took 60 lines with comments and spaces.  If you feel a little bit intimidated, focus on developing your project to step six.  Our experience is that, at this point, you will begin to see your game come together and the going will get much easier.
+== Grading Rubric - 11 pts total (scaled to 100) ==
+  *1 pt - The game correctly draws 16 cards on the canvas (horizontally or as a grid). Using images in place of textual numbers is fine. //However, it is the submitter's responsibility to ensure that custom images load during peer assessment//.
+  *1 pt - The cards appear in eight unique pairs.
+  *1 pt - The game ignores clicks on exposed cards.
+  *1 pt - At the start of the game, a click on an unexposed card exposes the card that was clicked on.
+  *1 pt - If one unpaired card is exposed, a click on a second unexposed card exposes the card that was clicked on.
+  *1 pt - If two unpaired cards are exposed, a click on an unexposed card exposes the card that was clicked on and flips the two unpaired cards over.
+  *1 pt - If all exposed cards are paired,  a click on an unexposed card exposes the card that was clicked on and does not flip any other cards.
+  *1 pt - Cards paired by two clicks in the same turn remain exposed on subsequent turns.  
+  *1 pt - The game correctly updates and displays the number of turns in the current game in a label displayed in the control area.
+  *1 pt - The game includes a "Reset" button that resets the turn counter and restarts the game.
+  *1 pt - The deck is also randomly shuffled each time the "Reset" button is pressed, so that the cards are in a different order each game.
+== Evaluation # 5 ==
+  *For each item below, run your peer's program and observe its behavior. If the program demonstrates the correct associated functionality, give it full credit for that item. If the program demonstrates partial, inconsistent, or incorrect functionality, assign the program partial credit based on your testing and our comments.
+  *When assigning partial or no credit, please add a short written comment that describes the issues you observed. While this takes extra effort, please remember how frustrating it would be to receive partial or no credit on part of your mini-project with no accompanying explanation.
+    *1 pt - The game correctly draws 16 cards on the canvas (horizontally or as a grid). Using images in place of textual numbers is fine.  However, it is the submitter's responsibility to ensure that custom images load during peer assessment.
+    *1 pt - The cards appear in eight unique pairs.
+    *1 pt - The game ignores clicks on exposed cards.
+    *1 pt - At the start of the game, a click on an unexposed card exposes the card that was clicked on.
+    *1 pt - If one upaired card is exposed, a click on a second unexposed card exposes the card that was clicked on.
+    *1 pt - If two unpaired cards are exposed, a click on an unexposed card exposes the card that was clicked on and flips the two unpaired cards over.
+    *1 pt - If all exposed cards are paired, a click on an unexposed card exposes the card that was clicked on and does not flip any other cards.
+    *1 pt - Cards paired by two clicks in the same turn remain exposed on subsequent turns.
+    *1 pt - The game correctly updates and displays the number of turns in the current game in a label displayed in the control area.
+    *1 pt - The game includes a "Reset" button that resets the turn counter and restarts the game.
+    *1 pt - The deck is also randomly shuffled each time the "Reset" button is pressed, so that the cards are in a different order each game.
+=== Mini-project # 6 - Blackjack ===
+== Mini-project description - Blackjack ==
+  *Blackjack is a simple, popular card game that is played in many casinos. During a hand of Blackjack, the players plays against a dealer with the goal of building a hand whose value is higher than the value of the dealer's hand, but not over 21. (The player is said to have busted in this case). Cards in Blackjack have the following values: an ace may be valued as either 1 or 11 (player's choice), face cards are valued at 10 and the value of the remaining cards corresponds to their number.
+  *The game logic for our simplified version of Blackjack is as follows. The player and the dealer are each dealt two cards initially with one of the dealer's cards being dealt faced down (his hole card). The player may then ask for the dealer to repeatedly "hit" his hand by dealing him another card. If at any point the value of the player's hand exceeds 21, the player is "busted" and loses immediately. At any point prior to busting, the player may "stand" and the dealer will then expose his hole card and hit his hand until the value of his hand is 17 or more. (Aces count as 11 unless it causes the dealer's hand to bust). If the dealer busts, the player wins. Otherwise, the player and dealer then compare the values of their hands and the hand with the higher value wins. //The dealer wins ties in our version//.
+== Mini-project development process ==
+  *We suggest you develop your Blackjack game in two phases. The first phase will concentrate on implementing the basic logic of Blackjack while the second phase will focus on building a more full-featured version. In phase one, you will use buttons to control the game and echo the state of the game to the console using print statements. In the second phase, you will replace the print statements by drawing images and text on the canvas and add some extra game logic.
+  *Phase one.
+    -Download the [[http://www.codeskulptor.org/#examples-blackjack_template.py|program template]] for this mini-project and review the class definitions for **Card** and **Hand**. Implement the method **__str__** for the **Hand** class.
+    -Implement the **Deck** class. We sugget modeling a deck of cards as list of cards generated using a list comprehension. Use **random.shuffle()** to shuffle this deck of cards.
+    -Implement a **hit** method for a hand that adds a card to the hand. Ignore the possibility of being busted for now.
+    -Implement a "Deal" button that clears everything and hits both the player and the dealer twice. The hands should be printed to the console with an appropriate message indicating which hand is which.
+    -Implement a **get_value** method for the **Hand** class. You should use the provided **VALUE** dictionary to look up the value of a single card in conjunction with the logic explained in the video lecture for this project to compute the value of a hand.
+    -Implement a "Hit" button. If the value of the hand is less than or equal to 21, clicking this button adds an extra card to player's hand. If the value exceeds 21 after being hit, print "You have busted".
+    -Implement a "Stand" button. If the player has busted, remind the player that they have busted. Otherwise, repeatedly hit the dealer until his hand has value 17 or more (using a while loop). If the dealer busts, let the player know. Otherwise, compare the value of the player's and dealer's hands. If the value of the player's hand is less than or equal to the dealer's hand, the dealer wins. Otherwise the player has won. Remember the dealer wins ties in our version. 
+  *With this design, the player needs to explicitly hit "Deal" to start a new deal. This choice will make using the canvas to build an image-based version of Blackjack easier. At this point, we would suggest testing your implementation of Blackjack extensively.
+  *Phase two.
+    *In the second phase of your implementation, you will add five features:
+      -Using the **draw** method of the **Card** class provided in the program template, implement your own **draw** method for the **Hand** class. We suggest that each player's hand be drawn as a horizontal sequence of cards on the canvas. To simplify your code, you may assume that only the first five cards of a player's hand need to be visible on the canvas.
+      -Replace printing in the console by drawing text messages on the canvas. We suggest adding a global **message** string that is drawn in the draw handler using **draw_text**.
+      -Add logic that keeps track of whether the player's hand is still being played. If the hand is still in play, you should draw an image of the back of a card (provided in the template) over the dealer's first (hole) card to hide it. Once the player is done, the dealer's hole card should be displayed.
+      -Add a score counter that keeps track of wins and losses for your Blackjack session. In the simplest case (see our demo), the program displays wins minus losses. However, you are welcome to implement a more sophisticated betting/scoring system.
+      -Finally, modify the logic for the "Deal" button to reset and reshuffle the deck to avoid the situation where the deck becomes empty. If the "Deal" button is hit during the middle of a hand, the player loses the hand.
+  *Congratulations! You have just built Blackjack. To wrap things up, please review the demo of our version of Blackjack in the Blackjack video lecture to ensure that your version has full functionality.
+== Tips ==
+  *Tip #1 - Getting started on step one
+    *The program template implements the Card class for you. Before you proceed, take a look at the program below that creates a couple of cards and prints out some information associated with the newly created cards. The class definition includes an initialization method **__init__** that is called whenever we create a card via Card(..., ...), several methods for accessing the fields of a Card object and a method __str__() that is called when we want to print out information about a Card object.
+    *[[http://www.codeskulptor.org/#user5-dfMTTqbC38-1.py|user5-dfMTTqbC38-1.py]].
+    *Note that we created each card with the initializer Card(). The methods get_rank() and get_suit() extract the two fields in the Card object. The **__str__()** method takes a Card object and returns a string that encodes the information in the object and can be displayed in the console via print.
+    *As you implement the Hand class and the Deck classes, you should go through the same testing process for the various methods associated with these classes. Don't rush on to implement the next step without testing first. Note that you don't need to use the canvas to test these methods since we have the **__str__()** method available to print out the information about class objects to the console.
+  *Tip #2 - Implementing the basic Hand class
+    *Step one asks you to implement the methods **__init__()**, **__str__()**, and **add_card(...)** for the Hand class. Logically, we will think of a hand as a collection cards which we will model in Python as a list of cards. So, to implement the basics of a Hand class, we will need a field in the Hand class to keep track of the list of cards. For the sake of simplicity, let's call that field cards.
+    *The **__init__()** method should create an empty hand by assigning an empty list to the cards field. Implementing this method should be one line of code.
+    *The add_card(card) method should take a Card object and append it to the list in the cards field. Implementing this method should be one line of code.
+    *The **__str__()** method should compute a list whose entries are the string representations for each card (remember you have a string method for Cards). You should then return the string representation of that list. (For example, if the list is called ans, you should return str(ans).) Implementing this method may take a couple of lines depending on how you decide to implement it.
+    *Before we proceed to step two, let's test your implementation to see if it is correct. Cut and paste your implementation of the Hand class into the following program. Then run the program and see if the output matches that specified in the comments.
+    *[[http://www.codeskulptor.org/#user5-aRPoqFtkkWm6b8T.py|user5-aRPoqFtkkWm6b8T.py]]
+  *Tip #3 - Implementing the Deck class
+    *Step two asks you to implement methods for the Deck class. Just as in the case of the Hand class, we suggest modeling a deck as a list of cards and keep track of that list using a single field in the Deck class. The method deal_card() can be implemented in a single line using a common list operation. The shuffle() method can be implemented using **random.shuffle(...)**. I also suggest implementing the **__str__()** method to aid in debugging. (This method is identical to the **__str__()** method for hands.)
+    *The trickiest method is **__init__()** which should return a deck containing all 52 cards. To implement **__init__()** for the Deck class, we suggest that you use a pair of nested for-loops or a list comprehension with two for clauses. While building these loops, the first question that you should ask is: "What should these loops be iterating over?". For a deck of cards, the loops should be iterating over the entries in SUITS and RANKS. One possible list comprehensions would be something like:
+    ***[ ..... for suit in SUITS for rank in RANKS]**
+    *where the ... expression depends on suit and rank and should return a card object. As in the first step, lets test our implementation of the Deck class before we proceed. Substitute your implementation of the Deck class into this program and check whether the printed results agree with the comments.
+    *[[http://www.codeskulptor.org/#user6-jsCp1lQXvl-0.py|user6-jsCp1lQXvl-0.py]]
+    *UPDATE: The elements in your card list should always be card objects i.e; Card(suit, rank), not strings. This is a very common mistake.
+  *Tip #4 - Hitting a hand using the Hand and Deck methods
+    *In step three, you are asked to use the add_card method for the Hand class and the deal_card method for the Deck class to "hit" a Blackjack hand. Given a deck called **my_deck** and a hand called **my_hand**, we can transfer a card from my_deck to my_hand via
+    ***my_hand.add_card(my_deck.deal_card())**
+    *Note that this fairly abstract operation is expressed in a single line of code that reflects the logical structure of "hitting" a Blackjack hand. The Hand class and the Deck class provide us with a layer of abstraction that allows to manipulate hands and deck at a level closer to the true logic of Blackjack. As a final test of your implementations of the Hand and Deck classes, cut and paste your implementation of the Hand and Deck classes into the code below and check whether the output matches the comments.
+    *[[http://www.codeskulptor.org/#user5-z8vmWx8Rv2Ax5eJ-0.py|user5-z8vmWx8Rv2Ax5eJ-0.py]]
+  *Tip #5 - Implementing the draw method for a hand
+    *Part of the usefulness of object-oriented programming is that we can use a method from one class to implement a method from another class. In the case of the draw method for a hand, we can use the draw method for card object. 
+    *The parameter pos will determine where the hand is drawn on the canvas. Note that for this method to work, c must be a card object (not a string or tuple). You need to fill in the remaining code (1 line) to position the individual cards in some reasonable pattern based on pos.
+    *The draw method for a hand would look something like
+<code>def draw(self, canvas, pos)
+    for c in self.cards:
+         c.draw(canvas,  ...)
+         ....</code>
+  *Tip #6 - Strings vs. Card objects
+    *A recurrent error that the first four tips are designed to catch is the use of strings in place of Card objects in the implementation of the Hand and Deck class. Here's a quick and easy check to see if you have this problem.
+    *If you use str(...) or string concatenation in any methods in your Hand or Deck class (except in implementing the str methods for these classes), your implementation of these two classes is likely broken. I've seen occasional implementations make it to Tip #5 using strings in place of card objects, but your code will almost always break at this point because the draw method for cards only works with a Card object not a string.
+== Grading rubric - 18 pts total (scaled to 100) ==
+  *You must implement the simplified rules of Blackjack specified in this description. Small variations from our demo version are acceptable such as displaying the value of a hand or implementing a betting system. //But, you may not change the logic of the game//. After the submission deadline, you are welcome to post enhanced versions of Blackjack to the Hall of Fame with more realistic game logic such as pushes on ties, splitting pairs and doubling down.
+    *1 pt - The program displays the title "Blackjack" on the canvas.
+    *1 pt - The program displays 3 buttons ("Deal", "Hit" and "Stand") in the control area.
+    *2 pts - The program graphically displays the player's hand using card images. (1 pt if text is displayed in the console instead)
+    *2 pts - The program graphically displays the dealer's hand using card images. Displaying both of the dealer's cards face up is allowable when evaluating this bullet. (1 pt if text displayed in the console instead)
+    *1 pt - The dealer's hole card is hidden until the hand is over when it is then displayed.
+    *2 pts - Hitting the "Deal" button deals out two cards each to the player and dealer. (1 pt per player)
+    *1 pt - Hitting the "Deal" button in the middle of the hand causes the player to lose the current hand.
+    *1 pt - Hitting the "Hit" button deals another card to the player.
+    *1 pt - Hitting the "Stand" button deals cards to the dealer as necessary.
+    *1 pt - The program correctly recognizes the player busting.
+    *1 pt - The program correctly recognizes the dealer busting.
+    *1 pt - The program correctly computes hand values and declares a winner. Evalute based on player/dealer winner messages.
+    *2 pts - The program accurately prompts the player for an action with messages similar to "Hit or stand?" and "New deal?". (1 pt per message)
+    *1 pt - The program implements a scoring system that correctly reflects wins and losses. Please be generous in evaluating this item. 
+== Evaluation # 6 ==
+  *For each item below, run your peer's program and observe its behavior. If the program demonstrates the correct associated functionality, give it full credit for that item. If the program demonstrates partial, inconsistent, or incorrect functionality, assign the program partial credit based on your testing and our comments.
+  *When assigning partial or no credit, please add a short written comment that describes the issues you observed. While this takes extra effort, please remember how frustrating it would be to receive partial or no credit on part of your mini-project with no accompanying explanation.
+    *1 pt - The program displays the title "Blackjack" on the canvas.
+    *1 pt - The program displays 3 buttons ("Deal", "Hit" and "Stand") in the control area.
+    *2 pts - The program graphically displays the player's hand using card images. (1 pt if text is displayed in the console instead)
+    *2 pts - The program graphically displays the dealer's hand using card images. Displaying both of the dealer's cards face up is allowable when evaluating this bullet. (1 pt if text displayed in the console instead)
+    *1 pt - The dealer's hole card is hidden until the hand is over when it is then displayed.
+    *2 pts - Hitting the "Deal" button deals out two cards each to the player and dealer. (1 pt per player)
+    *1 pt - Hitting the "Deal" button in the middle of the hand causes the player to lose the current hand.
+    *1 pt - Hitting the "Hit" button deals another card to the player.
+    *1 pt - Hitting the "Stand" button deals cards to the dealer as necessary.
+    *1 pt - The program correctly recognizes the player busting.
+    *1 pt - The program correctly recognizes the dealer busting.
+    *1 pt - The program correctly computes hand values and declares a winner. Evalute based on player/dealer winner messages.
+    *2 pts - The program accurately prompts the player for an action with messages similar to "Hit or stand?" and "New deal?". (1 pt per message)
+    *1 pt - The program implements a scoring system that correctly reflects wins and losses. Please be generous in evaluating this item.
+=== Mini-project # 7 - Spaceship ===
+== Timetable ==
+  *Sat 1 Dec 2012 10:00:00 PM CEST - Assessment starts.
+== Mini-project description - Spaceship ==
+  *In our last two mini-projects, we will build a 2D space game RiceRocks that is inspired by the classic arcade game Asteroids (1979). Asteroids is a relatively simple game by today's standards, but was still immensely popular during its time. (Joe spent countless quarters playing it.) In the game, the player controls a spaceship via four buttons: two buttons that rotate the spaceship clockwise or counterclockwise (independent of its current velocity), a thrust button that accelerates the ship in its forward direction and a fire button that shoots missiles. Large asteroids spawn randomly on the screen with random velocities. The player's goal is to destroy these asteroids before they strike the player's ship. In the arcade version, a large rock hit by a missile split into several fast moving small asteroids that themselves must be destroyed. Occasionally, a flying saucer also crosses the screen and attempts to destroy the player's spaceship. Searching for "asteroids arcade" yields links to multiple versions of Asteroids that are available on the web (including an updated version by Atari, the original creator of Asteroids).
+== Mini-project development process ==
+  *For this mini-project, you will implement a working spaceship plus add a single asteroid and a single missile. We have provided art for your game so its look and feel is that of a more modern game. You should begin by loading the program template.The program template includes all necessary image and audio files. Unfortunately, no audio format is supported by all major browsers so we have decided to provided sounds in the mp3 format which is supported by Chrome (but not Firefox). We highly recommend using Chrome for the last two weeks of the class. We have found that Chrome typically has better performance on games with more substantial drawing requirements and standardization on a common browser will make peer assessing projects more reliable.
+== Phase one - Spaceship ==
+  *In this phase, you will implement the control scheme for the spaceship.This includes a complete Spaceship class and the appropriate keyboardhandlers to control the spaceship. Your spaceship should behave as follows:
+    *The left and right arrows should control the orientation of yourspaceship. While the left arrow is held down, your spaceship shouldturn counter-clockwise. While the right arrow is down, your spaceshipshould turn clockwise. When neither key is down, your ship shouldmaintain its orientation. You will need to pick some reasonableangular velocity at which your ship should turn.
+    *The up arrow should control the thrusters of your spaceship. The thrusters should be on when the up arrow is down and off when it isup. When the thrusters are on, you should draw the ship with thrustflames. When the thrusters are off, you should draw the ship without thrust flames.
+    *When thrusting, the ship should accelerate in the direction of its forward vector. This vector can be computed from the orientation/angle of the ship using the helper function angle_to_vector. You will need to experiment with scaling each component of this acceleration vector to generate a reasonable acceleration.
+    *Remember that while the ship accelerates in its forward direciton, but the ship always moves in the direction of its velocity vector. Being able to accelerate in a direction different than the direction that you are moving is a hallmark of Asteroids.
+    *Your ship should always experience some amount of friction. (Yeah, we know, "Why is there friction in the vacuum of space?". Just trust us there is in this game.) This choice means that the velocity should always be multiplied by a constant factor less than one to slow the ship down. It will then come to astop eventually after you stop the thrusters. 
+  *Now, implement these behaviors above in order. Each step should require just a few lines of code. Here are some hints:
+    -Modify the draw method for the Ship class to draw the ship image(without thrust flames) instead of a circle. This method should incorporate the ship's position and angle. Note that the angle should be in radians, not degrees. Since a call to the ship's draw method already exists in the draw handler, you should now see the ship image. Experiment with different positions and angles for the ship.
+    -Implement an initial version of the update method for the ship. This version should update the position of the ship based on its velocity. Since a call to the update method also already exists in the draw handler, the ship should move in response to different initial velocities.
+    -Modify the update method for the ship to increment its angle by its angularvelocity.
+    -Make your ship turn in response to the left/right arrow keys. Add keydown and keyup handlers that check the left andright arrow keys. Add methods to the Ship class to increment anddecrement the angular velocity by a fixed amount. Call these methodsin the keyboard handlers appropriately and verify that you can turnyour ship as you expect.
+    -Modify the keyboard handlers to turn the ship's thrusters on/off. Add a method to the Ship class to turn the thrusterson/off (you can make it take a boolean argument which is True or Falseto decide if they should be on or off).
+    -Modify the ship's draw method to draw the thrust image when it is on. (The ship image is tiled and contains both images of the ship.)
+    -Modify the ship's thrust method to play the thrust sound when thethrust is on. Turn it off when the thrust is off.
+    -Use the given helper function angle_to_vector to compute the forward vector pointing in the direction the ship is facing based on the ship's angle.
+    -Make your ship accelerate in the direction of this forward vector in response to the up arrow key. You will need to update the velocity vector by a small fraction of the forwardacceleration vector so that the ship does not accelerate too fast.
+    -Modify your position update so that the ship's position wraps around the screen when it goes off the edge (use modular arithmetic!).
+    -Up to this point, your ship will never slow down. Add friction as shown in the "Acceleration and Friction" video by multiplying each component of the velocity by a number slightly less than 1 during each update. 
+  *You should now have a ship that flies around the screen,as you would like for RiceRocks. Adjust the constants as you wouldlike to get it to fly how you want.
+== Phase two - Rocks ==
+  *To implement rocks, we will use the provided Sprite class. Notethat the update method for the sprite will be very similar to theupdate method for the ship. The primary difference is that the ship'svelocity and rotation are controlled by keys, whereas sprites havethese set randomly when they are created.
+  *In the template, "a_rock" is created at the start with no velocity.Instead, we want to create a new rock once every second. For now,this means we will simply replace the existing rock. Next week, wewill add multiple rocks. This week, the ship will not die if it hits a rock. We'll add that next week. To implement rocks, we suggest the following:
+    -Complete the Sprite class (as shown in the "Sprite class" video) by modifying the draw handler to draw theactual image and the update handler to make the sprite move androtate. Rocks do not accelerate or experience friction, so the spriteupdate method should be simpler than the ship update method. Test this by giving "a_rock" different starting parameters and ensuring it behaves as you expect.
+    -Create a timer that ticks once per second. In that timer, set"a_rock" to be a new rock. Choose velocity, position, and angularvelocity randomly. You will want to tweak the ranges of these randomnumbers, as that will affect how fun the game is to play. Make sure you generated rocks that spin in both directions and, likewise, move in all directions.
+== Phase three - Missiles ==
+  *To implement missiles, we will use the same sprite class as for rocks.Missiles will always have a zero angular velocity. They will also have alifespan (they should disappear after a certain amount of time or youwill eventually have missiles all over the place), but we will ignorethat this week. Also, for now, we will only allow a single missileand it will not yet blow up rocks. We'll add more next week.
+  *Your missile should be created when you hit the spacebar, not on a timerlike rocks. Otherwise, the process is very similar:
+    -Add a "shoot" method to your ship class. This should spawn a newmissile (for now just replace the old missile in "a_missile"). The missile's initial position should be the tip of your ship's "gun". It's velocity should be the sum of the ship's velocity and a multiple of the ship's forward vector.
+    -Modify the keydown handler to call this shoot method when the spacebar ispressed.
+    Make sure that the missile sound is passed to the spriteconstructor so that you will get the shooting sound whenever you shoota missile.
+== Phase four - User interface ==
+  *Our user interface for RiceRocks simply shows the number of lives remaining and the score. This week neither of those elements ever change, but they will next week. Add code to the draw event handler to draw these onthe canvas. Use the "lives" and "score" global variables as thecurrent lives remaining and score.
+== Grading rubric - 20 pts total (scaled to 100 pts) ==
+  *Please assess your peer's mini-projects in Chrome. If, for some reason, you must use Firefox or another browser, please give your peers full credit on the two sound-related rubric items.
+    *1 pt - The program draws the ship as an image.
+    *1 pt - The ship flies in a straight line when not under thrust.
+    *1 pt - The ship rotates at a constant angular velocity in a counter clockwise direction when the left arrow key is held down.
+    *1 pt - The ship rotates at a constant angular velocity in the clockwise direction when the right arrow key is held down.
+    *1 pt - The ship's orientation is independent of its velocity.
+    *1 pt - The program draws the ship with thrusters on when the up arrow is held down.
+    *1 pt - The program plays the thrust sound only when the up arrow key is held down.
+    *1 pt - The ship accelerates in its forward direction when the thrust key is held down.
+    *1 pt - The ship's position wraps to the other side of the screen when it crosses the edge of the screen.
+    *1 pt - The ship's velocity slows to zero while the thrust is not being applied.
+    *1 pt - The program draws a rock as an image.
+    *1 pt - The rock travels in a straight line at a constant velocity.
+    *1 pt - The rock is respawned once every second by a timer.
+    *1 pt - The rock has a random spawn position, spin direction and velocity.
+    *1 pt - The program spawns a missile when the space bar is depressed.
+    *1 pt - The missile spawns at the tip of the ship's gun.
+    *1 pt - The missile's velocity is the sum of the ship's velocity and a multiple of its forward vector.
+    *1 pt - The program plays the missile firing sound when the missile is spawned.
+    *1 pt - The program draws appropriate text for lives on the upper left portion of the screen.
+    *1 pt - The program draws appropriate text for score on the upper right portion of the screen.
+== Grading Instructions ==
+  *For each item below, run your peer's program and observe its behavior. If the program demonstrates the correct associated functionality, give it full credit for that item. If the program demonstrates partial, inconsistent, or incorrect functionality, assign the program partial credit based on your testing and our comments.
+  *When assigning partial or no credit, please add a short written comment that describes the issues you observed. While this takes extra effort, please remember how frustrating it would be to receive partial or no credit on part of your mini-project with no accompanying explanation.
+    *1 pt - The program draws the ship as an image.
+    *1 pt - The ship flies in a straight line when not under thrust.
+    *1 pt - The ship rotates at a constant angular velocity in a counter clockwise direction when the left arrow key is held down.
+    *1 pt - The ship rotates at a constant angular velocity in the clockwise direction when the right arrow key is held down.
+    *1 pt - The ship's orientation is independent of its velocity.
+    *1 pt - The program draws the ship with thrusters on when the up arrow is held down.
+    *1 pt - The program plays the thrust sound only when the up arrow key is held down.
+    *1 pt - The ship accelerates in its forward direction when the thrust key is held down.
+    *1 pt - The ship's position wraps to the other side of the screen when it crosses the edge of the screen.
+    *1 pt - The ship's velocity slows to zero while the thrust is not being applied.
+    *1 pt - The program draws a rock as an image.
+    *1 pt - The rock travels in a straight line at a constant velocity.
+    *1 pt - The rock is respawned once every second by a timer.
+    *1 pt - The rock has a random spawn position, spin direction and velocity.
+    *1 pt - The program spawns a missile when the space bar is depressed.
+    *1 pt - The missile spawns at the tip of the ship's gun.
+    *1 pt - The missile's velocity is the sum of the ship's velocity and a multiple of its forward vector.
+    *1 pt - The program plays the missile firing sound when the missile is spawned.
+    *1 pt - The program draws appropriate text for lives on the upper left portion of the screen.
+    *1 pt - The program draws appropriate text for score on the upper right portion of the screen.
+=== Mini-project # 8 - RiceRocks ===
+== Timetable ==
+  *Sat 09 Dec 2012 10:00:00 PM CEST - Assessment starts.
+  *Wed 19 Dec 2012 7:00:00 PM CEST - Evaluation deadline.
+== Mini-project description - RiceRocks (Asteroids) ==
+  *For our last mini-project, we will complete the implementation of RiceRocks, an updated version of Asteroids,  that we began last week.  You may start with either your code or the template which includes [[http://www.codeskulptor.org/#examples-ricerocks_template.py|a full implementation of Spaceship]] and will be released immediately after the deadline for the Spaceship mini-project (by making the preceding link live).  If you start with your own code, you should add the splash screen image that you dismiss with a mouse click before starting this mini-project.  We strongly recommend using Chrome for this mini-project since Chrome's superior performance will become apparent when you program attempts to draw dozens of sprites.
+== Mini-project development process ==
+  *At the end of this project, your game will have multiple rocks and multiple missiles.  You will lose a life if your ship collides with a rock and you will score points if your missile collides with a rock. You will keep track of the score and lives remaining and end the game at the proper time.  You may optionally add animated explosions when there is a collision.
+== Phase one -  Multiple rocks ==
+  *For this phase, you will keep a set of rocks and spawn new rocks into this set.  This requires the following steps:
+    -Remove "a_rock" and replace it with "rock_group".  Initialize the rock group to an empty set.  Modify your rock spawner to create a new rock (an instance of a Sprite object) and add it to the rock_group.
+    -Limit the total number of rocks in the game at any one time.  We suggest you limit it to 12.  With too many rocks the game becomes less fun and the animation slows down significantly.
+    -Create a helper function "process_sprite_group".  This function should take a set and a canvas and call the update and draw methods for each sprite in the group.
+    -Call process_sprite_group function on rock_group in the draw handler.
+== Phase two - Collisions ==
+  *For this phase, you will detect collisions between the ship and a rock. Upon a collision, the rock should be destroyed and the player should lose a life. To implement ship-rock collisions, you need to do the following:
+    -Add a "collide" method to the Sprite class.  This should take an"other_object" as an argument and return True if there is a collision or False otherwise.  For now, this other object will always be your ship, but we want to be able to use this collide method to detect collisions with missiles later, as well.  Collisions can be detected using the radius of the two objects.  This requires you to implement methods "get_position" and "get_radius" on both the Sprite and Ship classes.
+    -Implement a "group_collide" helper function.  This function should take a set "group" and an a sprite "other_object".  It should check for collisions between other_object and every element of group.  If there is a collision, the colliding object should be removed from the group.  The function should return the number of collisions.  Be sure to use the "collide" method from part 1 on the sprites in the group to accomplish this.
+    -In the draw handler, use the group_collide helper to determine if the ship hit any of the rocks. If so, decrease the number of lives by one.  Note that you could have negative lives at this point.  Don't worry about that yet.
+  *At this point, you should have a game of "dodge 'em".  You can fly around trying to avoid the rocks!
+== Phase three - Missiles ==
+  *For this phase, you will keep a set of missiles and spawn new missiles into this set when firing using the space bar.  This requires the following steps:
+    -Remove "a_missile" and replace it with "missile_group".  Initialize the missile group to an empty set.  Modify your shoot method of my_ship to create a new missile (an instance of the Sprite class) and add it to the missile_group.  Make sure that your firing sound plays each time a missile is spawned.
+    -In the draw handler, use your helper function process_sprite_group to process missile_group. While you can now shoot multiple missiles, you will notice that they stick around forever.  To fix this, we need to modify the Sprite class and the process_sprite_group function.
+    -In the update method of the Sprite class, increment the age of the sprite every time update is called.  If the age is greater than or equal to the lifespan of the sprite, then we want to remove it.  So, return True(meaning we want to keep it) if the age is less than the lifespan and False (meaning we want to remove it) otherwise.
+    -Modify process_sprite_group to check the return value of update.  If it returns False, remove the sprite from the group.
+== Phase four - Collisions revisited ==
+  *Now, we want to destroy rocks when they are hit by a missile.  We can't quite use group_collide, because we want to check for collisions between two groups.  All we need to do is add one more helper function:
+    -Implement a final helper function group_group_collide that takes two groups of objects as input. Group_group_collide should iterate through the elements of the first group using a for-loop and then call group_collide with each of these elements on the second group.  Group_group_collide should return the number of elements in the first group that collide with the second group as well as delete these elements in the first group.
+    -Call group_group_collide in the draw handler to detect missile/rock collisions.  Increment the score by the number of missile collisions.
+== Phase five - Finish it off ==
+  *You now have a mostly working version of RiceRocks!!!  Let's add a few final touches.
+    -Start the number of lives at 3.
+    -When the number of lives becomes 0, reset the game. In particular, set the flag started to False, destroy all rocks and prevent any more rocks for spawning until the game is restarted.
+    -When the game restarts, make sure the lives and the score are properly reset.Starting spawning rocks again. Restart the soundtrack.
+    -When you spawn rocks, you want to make sure they are some distance away from the ship.  Otherwise, you can die when a rock spawns on top of you, which isn't much fun.  Experiment with varying the velocity of rocks based on the score to make gameplay get more difficult as the game progresses.
+    -Tweak any constants that you have to make the game play the way you want.
+  *Congratulations! You have completed the assignment. Enjoy playing your game!!!
+== Bonus ==
+  *The following will not be graded. Feel free to try this, but do not break any of the other game functionality.  We strongly recommend that you save your work before doing this and keep track of it, so you can submit a working version of the first five phases if you end up breaking your game trying to add more features.
+  *One thing that is missing in your game is explosions when things collide.  We have provided a tiled explosion image that you can use to create animated explosions.  To get things working, you will need to do a few things:
+    -In the draw method of the Sprite class, check if "self.animated"is True.  If so, then choose the correct tile in the image based on the age.  The image is tiled horizontally.  If self.animated is False, it should continue to draw the sprite as before.
+    -Create an "explosion_group" global variable and initialize it to an empty set.
+    -In group_collide, if there is a collision, create a new explosion (an instance of the Sprite class)and add it to the explosion_group.  Make sure that each explosion plays the explosion sound.
+    -In the draw handler, use process_sprite_group to process explosion_group.
+  *You should now have explosions working!
+== Grading rubric - 13 pts (scaled to 100 pts) ==
+  *Note that the animated explosions are not graded. However, please add comments concerning the quality of the explosions and general gameplay in the free comments at the bottom of the page. Please assess your peer's mini-projects in Chrome.  If, for some reason, you must use Firefox or another browser (or had issues playing sounds in Chrome), please give your peers full credit on the sound-related rubric items.
+    *1 pt - The program spawns multiple rocks.
+    *1 pt - The program correctly determines whether the ship collides with a rock.
+    *1 pt - The program removes a rock when the ship collides with a rock.
+    *1 pt - The number of lives decreases by one when the ship collides with a rock.
+    *1 pt - The program spawns multiple missiles.
+    *1 pt - The program plays the firing sound when each missile is spawned.
+    *1 pt - The program removes a missile after some fixed time period.
+    *1 pt - The program correctly determines whether a missile and a rock collide.
+    *1 pt - The program removes missiles and rocks that collide.
+    *1 pt - The score is updated appropriately after missile/rock collisions.
+    *1 pt - When the lives go to zero, the splash screen reappears and all rocks are removed.
+    *1 pt - When the splash screen is clicked, the lives are reset to 3, score is reset to zero and the soundtrack restarts.
+    *1 pt - The game spawns rocks only while the game is started.
+== Grading Instructions ==
+  *In this assessment, you will be asked to grade five of your peer's mini-projects. In return, five of your peers will grade your project. Since you've worked hard on your mini-project and would like your peers to do a good job of assessing your project, please take your time and do a good job of assessing your peer's mini-projects in return. Finally, you will be asked to self-assess your own project after assessing your peer's mini-projects.
+  *Before beginning your assessment, please review the video lecture on Androids to see a demonstration of a correct, full-credit implementation of the mini-project.
+  *For each item below, run your peer's program and observe its behavior. If the program demonstrates the correct associated functionality, give it full credit for that item. If the program demonstrates partial, inconsistent, or incorrect functionality, assign the program partial credit based on your testing and our comments.
+  *When assigning partial or no credit, please add a short written comment that describes the issues you observed. While this takes extra effort, please remember how frustrating it would be to receive partial or no credit on part of your mini-project with no accompanying explanation.
+    *1 pt - The program spawns multiple rocks.
+    *1 pt - The program correctly determines whether the ship collides with a rock.
+    *1 pt - The program removes a rock when the ship collides with a rock.
+    *1 pt - The number of lives decreases by one when the ship collides with a rock.
+    *1 pt - The program spawns multiple missiles.
+    *1 pt - The program plays the firing sound when each missile is spawned.
+    *1 pt - The program removes a missile after some fixed time period.
+    *1 pt - The program correctly determines whether a missile and a rock collide.
+    *1 pt - The program removes missiles and rocks that collide.
+    *1 pt - The score is updated appropriately after missile/rock collisions.
+    *1 pt - When the lives go to zero, the splash screen reappears and all rocks are removed.
+    *1 pt - When the splash screen is clicked, the lives are reset to 3, score is reset to zero and the soundtrack restarts.
+    *1 pt - The game spawns rocks only while the game is started.
+==== Communications ====
+      *Wiki [[http://share.coursera.org/wiki/index.php/Interactivepython:Main|Coursera Wiki "interactivepython"]].
+      *Meetup.
+        *[[http://www.meetup.com/Coursera/-1007715/|Meetup "Coursera - Bielefeld"]].
+        *[[http://www.meetup.com/Coursera/-1007726/|Meetup "Coursera - Braunschweig"]].
+        *[[http://www.meetup.com/Coursera/Bremen-DE/|Meetup "Coursera - Bremen"]] √.
+        *[[http://www.meetup.com/Coursera/Gottingen-DE/|Meetup "Coursera - Göttingen"]] √.
+        *[[http://www.meetup.com/Coursera/Hamburg-DE/|Meetup "Coursera - Hamburg"]] √.
+        *[[http://www.meetup.com/Coursera/Hannover-DE/|Meetup "Coursera - Hannover"]] √.
+        *[[http://www.meetup.com/Coursera/-1007774/|Meetup "Coursera - Hildesheim"]].
+==== Python Code Structure & Process Steps ( for this Seminar, for SimpleGUI,.. ) ====
+<code>
+# SimpleGUI program template
+
+# 1 Import the module
+import simplegui
+
+# 2 Define global variables (program state)
+
+# 3 Define "helper" functions
+
+# 4 Define classes
+
+# 5 Define event handler functions
+
+# 6 Create a frame
+
+# 7 Register event handlers
+
+# 8 Start frame and timers
+</code>
+==== Course Material ====
+  *[[http://class.coursera.org/interactivepython-2012-001/wiki/view?page=overview|Coursera "An Introduction to Interactive Programming in Python" - "Concepts and examples"]].
+    *[[http://www.codeskulptor.org/|Codeskulptor "Standard Demo"]].
+    *[[http://class.coursera.org/interactivepython-2012-001/wiki/view?page=week1|Coursera "An Introduction to Interactive Programming in Python" - "Concepts and examples, Week 1"]].
+      *Week 1a - Expressions and Variables.
+        *[[http://www.codeskulptor.org/#examples-hello_world.py|Codeskulptor "Hello World"]].
+        *[[http://www.codeskulptor.org/#examples-more-1a_codeskulptor-prints_strings_comments.py|Codeskulptor "Comments, Strings, and Print"]].
+        *[[http://www.codeskulptor.org/#examples-arithmetic_expressions.py|Codeskulptor "Completed Arithmetic expressions"]].
+        *[[http://www.codeskulptor.org/#examples-more-1a_arithmetic_expressions-floats_and_ints.py|Codeskulptor "Floats and Ints"]].
+        *[[http://www.codeskulptor.org/#examples-more-1a_arithmetic_expressions-operations.py|Codeskulptor "Operations"]].
+        *[[http://www.codeskulptor.org/#examples-more-1a_arithmetic_expressions-division.py|Codeskulptor "Division"]].
+        *[[http://www.codeskulptor.org/#examples-more-1a_arithmetic_expressions-order_of_operations.py|Codeskulptor "Order of Operations"]].
+        *[[http://www.codeskulptor.org/#examples-more-1a_arithmetic_expressions-errors.py|Codeskulptor "Possible Errors"]].
+        *[[http://www.codeskulptor.org/#examples-more_operations.py|Codeskulptor "More operations"]].
+        *[[http://www.codeskulptor.org#examples-variables.py|Codeskulptor "Variables"]].
+        *[[http://www.codeskulptor.org/#examples-more-1a_variables-names.py|Codeskulptor "Naming"]].
+        *[[http://www.codeskulptor.org/#examples-more-1a_variables-assignment.py|Codeskulptor "Assignment"]].
+        *[[http://www.codeskulptor.org/#examples-more-1a_variables-operations.py|Codeskulptor "Operations"]].
+        *[[http://www.codeskulptor.org/#examples-more-1a_variables-formulas.py|Codeskulptor "Formulas"]].
+      *Week 1b - Functions and conditionals.
+         *[[http://www.codeskulptor.org/#examples-functions.py|Codeskulptor "Functions"]].
+         *[[http://www.codeskulptor.org/#examples-more-1b_functions-structure.py|Codeskulptor "Stucture"]].
+         *[[http://www.codeskulptor.org/#examples-more-1b_functions-uses.py|Codeskulptor "Uses"]].
+         *[[http://www.codeskulptor.org/#examples-more-1b_functions-scope.py|Codeskulptor "Scope"]].
+         *[[http://www.codeskulptor.org/#examples-more-1b_functions-examples.py|Codeskulptor "Examples"]].
+         *[[http://www.codeskulptor.org/#examples-more-1b_functions-errors.py|Codeskulptor "Errors"]].
+         *[[http://www.codeskulptor.org/#examples-more_operations.py|Codeskulptor "More operations"]].
+         *[[http://www.codeskulptor.org/#examples-more-1b_more_operations-modulus.py|Codeskulptor "Modulus"]].
+         *[[http://www.codeskulptor.org/#examples-more-1b_more_operations-math_module.py|Codeskulptor "Math Module"]].
+         *[[http://www.codeskulptor.org/#examples-more-1b_more_operations-numbers_and_strings.py|Codeskulptor "Numbers and Strings"]].
+         *[[http://www.codeskulptor.org/#examples-more-1b_more_operations-random_module.py|Codeskulptor "Random Module"]].
+         *[[http://www.codeskulptor.org/#examples-more-1b_more_operations-errors.py|Codeskulptor "Errors"]].
+         *[[http://www.codeskulptor.org/#examples-more-1b_logic_and_comparisons-booleans.py|Codeskulptor "Booleans"]].
+         *[[http://www.codeskulptor.org/#examples-more-1b_logic_and_comparisons-logic.py|Codeskulptor "Logic"]].
+         *[[http://www.codeskulptor.org/#examples-more-1b_logic_and_comparisons-comparison.py|Codeskulptor "Comparison"]].
+         *[[http://www.codeskulptor.org/#examples-more-1b_logic_and_comparisons-expressions.py|Codeskulptor "Expressions"]].
+         *[[http://www.codeskulptor.org/#examples-conditionals.py|Codeskulptor "Conditionals 1"]].
+         *[[http://www.codeskulptor.org/#examples-leap_year.py|Codeskulptor "Leap Year"]].
+         *[[http://www.codeskulptor.org/#examples-more-1b_conditionals-if-elif-else.py|Codeskulptor "if-elif-else"]].
+         *[[http://www.codeskulptor.org/#examples-more-1b_conditionals-examples.py|Codeskulptor "Examples"]].
+         *[[http://www.codeskulptor.org/#examples-tips1.py|Codeskulptor "Programming tips - 1"]].
+     *[[http://class.coursera.org/interactivepython-2012-001/human_grading/view?assessment_id=11|Coursera "An Introduction to Interactive Programming in Python" - "Mini-project description - Rock-paper-scissors-lizard-Spock"]].
+         *[[http://en.wikipedia.org/wiki/Rock-paper-scissors|EN.Wikipedia "Rock-paper-scissors"]], [[http://de.wikipedia.org/wiki/Schere,_Stein,_Papier|DE.Wikipedia "Schere, Stein, Papier"]].
+         *[[http://www.codeskulptor.org/#examples-rpsls_template.py|Codeskulptor "Rock-paper-scissors-lizard-Spock" Template]].
+    *[[http://class.coursera.org/interactivepython-2012-001/wiki/view?page=week2|Coursera "An Introduction to Interactive Programming in Python" - "Concepts and examples, Week 2"]].
+      *Week 2a.
+        *[[http://www.codeskulptor.org/#examples-events.py|Codeskulptor "Events"]].
+        *[[http://www.codeskulptor.org/#examples-local_vs_global.py|Codeskulptor "Local vs Global"]].
+        *[[http://www.codeskulptor.org/#examples-more-2a_local_vs_global-example.py|Codeskulptor "Example"]].
+        *[[http://www.codeskulptor.org/#examples-local_vs_global.py|Codeskulptor "Example"]].
+        *[[http://www.codeskulptor.org/#examples-simplegui-0.py|Codeskulptor "SimpleGUI"]].
+        *[[http://www.codeskulptor.org/#examples-simplegui-1.py|Codeskulptor "Template"]] - Suggestion: Please use this for all Python exercises in this course :-).
+        *[[http://www.codeskulptor.org/#examples-more-2a_simplegui-layout.py|Codeskulptor "Layout"]].
+        *[[http://www.codeskulptor.org/#examples-more-2a_simplegui-frame.py|Codeskulptor "Frame"]].
+        *[[http://www.codeskulptor.org/#examples-more-2a_simplegui-errors.py|Codeskulptor "Errors"]].
+        *[[http://www.codeskulptor.org/#examples-calculator-0.py|Codeskulptor "Calculator"]].
+      *Week 2b.
+        *[[http://www.codeskulptor.org/#examples-buttons.py|Codeskulptor "Buttons"]].
+        *[[http://www.codeskulptor.org/#examples-more-2b_buttons-structure.py|Codeskulptor "Structure"]].
+        *[[http://www.codeskulptor.org/#examples-more-2b_buttons-canvas_color.py|Codeskulptor "Canvas Color"]].
+        *[[http://www.codeskulptor.org/#examples-more-2b_buttons-prize_boxes.py|Codeskulptor "Prize Boxes"]].
+        *[[http://www.codeskulptor.org/#examples-more-2b_buttons-true_false_quiz.py|Codeskulptor "True-False Quiz"]].
+        *[[http://www.codeskulptor.org/#examples-input_fields.py|Codeskulptor "Input Fields"]].
+        *[[http://www.codeskulptor.org/#examples-more-2b_input_fields-structure.py|Codeskulptor "Structure"]].
+        *[[http://www.codeskulptor.org/#examples-more-2b_input_fields-functions.py|Codeskulptor "Functions"]].
+        *[[http://www.codeskulptor.org/#examples-more-2b_input_fields-factoring.py|Codeskulptor "Factoring"]].
+        *[[http://www.codeskulptor.org/#examples-more-2b_input_fields-silly_words.py|Codeskulptor "Silly Words"]].
+        *[[http://www.codeskulptor.org/#examples-tips2.py|Codeskulptor "Programming tips - 2"]].
+     *[[http://class.coursera.org/interactivepython-2012-001/human_grading/view?assessment_id=12|Coursera "An Introduction to Interactive Programming in Python" - "Mini-project description - Guess the number"]].
+       *[[http://en.wikipedia.org/wiki/Binary_search_algorithm|binary search|EN.Wikipedia "Binary search algorithm"]], [[http://de.wikipedia.org/wiki/Bin%C3%A4re_Suche|EN.Wikipedia "Binäre Suche"]].
+       *[[http://www.codeskulptor.org/#examples-guess_the_number_template.py|Codeskulptor "Guess the number" Template]].
+    *[[http://class.coursera.org/interactivepython-2012-001/wiki/view?page=week3|Coursera "An Introduction to Interactive Programming in Python" - "Concepts and examples, Week 3"]].
+      *Week 3a.
+        *[[http://www.codeskulptor.org/#examples-canvas_and_drawing.py|Codeskulptor "Canvas and Drawing"]].
+        *[[http://www.codeskulptor.org/#examples-more-3a_canvas_and_drawing-structure.py|Codeskulptor "Structure"]].
+        *[[http://www.codeskulptor.org/#examples-canvas_and_drawing.py|Codeskulptor "Canvas and Drawing"]].
+        *[[http://www.codeskulptor.org/#examples-more-3a_canvas_and_drawing-echo.py|Codeskulptor "Echo"]].
+        *[[http://www.codeskulptor.org/#examples-strings-0.py|Codeskulptor "Strings"]].
+        *[[http://www.codeskulptor.org/#examples-strings-1.py|Codeskulptor "Dollars and Cents One"]].
+        *[[http://www.codeskulptor.org/#examples-strings-2.py|Codeskulptor "Dollars and Cents Two"]].
+        *[[http://www.codeskulptor.org/#examples-more-3a_string_processing-operations.py|Codeskulptor "Operations"]].
+        *[[http://www.codeskulptor.org/#examples-more-3a_string_processing-input_checking.py|Codeskulptor "Input Checking"]].
+        *[[http://www.codeskulptor.org/#examples-more-3a_string_processing-initials.py|Codeskulptor "Initials"]].
+        *[[http://www.codeskulptor.org/#examples-interactive_drawing.py|Codeskulptor "Interactive Drawing"]].
+        *[[http://www.codeskulptor.org/#examples-more-3a_interactive_drawing-shapes.py|Codeskulptor "Shapes"]].
+        *[[http://www.codeskulptor.org/#examples-more-3a_interactive_drawing-pictures.py|Codeskulptor "Pictures"]].
+        *[[http://www.codeskulptor.org/#examples-more-3a_interactive_drawing-hidden_picture.py|Codeskulptor "Hidden Picture"]].
+      *Week 3b.
+        *[[http://www.codeskulptor.org/#examples-timers.py|Codeskulptor "Timers"]].
+        *[[http://www.codeskulptor.org/#examples-more-3b_timers-blinking_text.py|Codeskulptor "Blinking Text"]].
+        *[[http://www.codeskulptor.org/#examples-more-3b_timers-reaction_time.py|Codeskulptor "Reaction Time"]].
+        *[[http://www.codeskulptor.org/#examples-tips3-events.py|Codeskulptor "Week 3 (pt. 1)"]].
+          *Change_circle_handler() -> add 'radiuslabel.set_text("Radius: "+str(radius))'.
+          *Add 'radiuslabel = frame.add_label"Radius: "+str(radius))"' to 'frame.add_label"Radius: "+str(radius))"'.
+        *[[http://www.codeskulptor.org/#examples-tips3.py|Codeskulptor "Week 3 (pt. 2)"]].
+    *[[http://class.coursera.org/interactivepython-2012-001/human_grading/view?assessment_id=13|Coursera "An Introduction to Interactive Programming in Python" - "Mini-project description -  "Stopwatch: The Game"]].
+      *[[http://www.codeskulptor.org/#examples-stopwatch_template.py|Codeskulptor "Stopwatch: The Game" Template]].
+    *[[http://class.coursera.org/interactivepython-2012-001/wiki/view?page=week4|Coursera "An Introduction to Interactive Programming in Python" - "Concepts and examples, Week 4"]].
+      *Week 4a.
+        *[[http://www.codeskulptor.org/#examples-more-4a_lists-structure.py|Codeskulptor "Structure"]].
+        *[[http://www.codeskulptor.org/#examples-more-4a_lists-tuples.py|Codeskulptor "Tuples"]].
+        *[[http://www.codeskulptor.org/#examples-more-4a_lists-true_false_quiz.py|Codeskulptor "True-False Quiz"]].
+        *[[http://www.codeskulptor.org/#examples-more-4a_lists-silly_words.py|Codeskulptor "Silly Words"]].
+        *[[http://www.codeskulptor.org/#examples-more-4a_lists-rainbow_canvas.py|Codeskulptor "Rainbow Canvas"]].
+        *[[http://www.codeskulptor.org/#examples-more-4a_lists-digital_numbers.py|Codeskulptor "Digital Numbers"]].
+        *[[http://www.codeskulptor.org/#examples-motion_explicit.py|Codeskulptor "Timer Control"]].
+        *[[http://www.codeskulptor.org/#examples-motion_implicit.py|Codeskulptor "Formula Control"]].
+        *[[http://www.codeskulptor.org/#examples-more-4a-motion-drawing_vectors.py|Codeskulptor "Drawing Vectors"]].
+        *[[http://www.codeskulptor.org/#examples-collisions_and_reflections.py|Codeskulptor "Timer Control"]].
+        *[[http://www.codeskulptor.org/#examples-more-4a-motion-drawing_vectors.py|Codeskulptor "Drawing Vectors"]].
+        *[[http://www.codeskulptor.org/#examples-collisions_and_reflections.py|Codeskulptor "Timer Control"]].
+      *Week 4b.
+        *[[http://www.codeskulptor.org/#examples-keyboard-0.py|Codeskulptor "Echo"]].
+        *[[http://www.codeskulptor.org/#examples-more-4a_keyboard_input-shape_selection.py|Codeskulptor "Shape Selection"]].
+        *[[http://www.codeskulptor.org/#examples-keyboard-1.py|Codeskulptor "Ball Position"]].
+        *[[http://www.codeskulptor.org/#examples-velocity_control.py|Codeskulptor "Velocity Control"]].
+        *[[http://www.codeskulptor.org/#examples-more-4b_velocity_control-ball_track.py|Codeskulptor "Ball Track"]].
+        *[[http://www.codeskulptor.org/#examples-tips4-global.py|Codeskulptor "Week 4 (pt. 1)"]].
+        *[[http://www.codeskulptor.org/#examples-tips4-tuples.py|Codeskulptor "Week 4 (pt. 2)"]].
+        *[[http://www.codeskulptor.org/#examples-more-4a_lists-structure.py|List Structure]].
+      *[[http://class.coursera.org/interactivepython-2012-001/human_grading/view?assessment_id=15|Coursera "An Introduction to Interactive Programming in Python" - "Mini-project description - "Pong"]].
+        *[[http://en.wikipedia.org/wiki/Pong|EN.Wikipedia "Pong"]], [[http://de.wikipedia.org/wiki/Pong|DE.Wikipedia "Pong"]].
+        *[[http://www.pongmuseum.com/faq/|pongmuseum.com ... and the ball was square "FAQ"]].
+        *[[http://www.codeskulptor.org/#examples-pong_template.py|Codeskulptor "Pong" Template]].
+    *[[http://class.coursera.org/interactivepython-2012-001/wiki/view?page=week5|Coursera "An Introduction to Interactive Programming in Python" - "Concepts and examples, Week 5"]].
+      *Week 5a.
+        *[[http://www.codeskulptor.org/#examples-mouse_input.py|Codeskulptor "Mouse Input"]].
+        *[[http://www.codeskulptor.org/#examples-more-5_mouseclick_handlers-ball_movement.py|Codeskulptor "Ball Movement"]].
+        *[[http://www.codeskulptor.org/#examples-more-5_mouseclick_handlers-click_lines.py|Codeskulptor "Click Lines"]].
+        *[[http://www.codeskulptor.org/#examples-more-5_mouseclick_handlers-tic_tac_toe.py|Codeskulptor "Tic-Tac-Toe"]].
+        *[[http://www.codeskulptor.org/#examples-list_methods.py|Codeskulptor "List Methods"]].
+        *[[http://www.codeskulptor.org/#examples-more-5_lists-more_methods.py|Codeskulptor "More List Methods"]].
+        *[[http://www.codeskulptor.org/#examples-list_of_balls.py|Codeskulptor "List of Balls"]].
+        *[[http://www.codeskulptor.org/#examples-list_selection.py|Codeskulptor "Color Changing Balls"]].
+        *[[http://www.codeskulptor.org/#examples-list_removal.py|Codeskulptor "Removing Balls"]].
+        *[[http://www.codeskulptor.org/#examples-more-5_iteration-numbered_list.py|Codeskulptor "Numbered List"]].
+        *[[http://www.codeskulptor.org/#examples-more-5_iteration-factors.py|Codeskulptor "Factors"]].
+        *[[http://www.codeskulptor.org/#examples-more-5_iteration-equilateral_polygons.py|Codeskulptor "Equilateral Polygons"]].
+      *Week 5b.
+        *[[http://www.codeskulptor.org/#examples-dictionaries.py|Codeskulptor "Cipher"]].
+        *[[http://www.codeskulptor.org/#examples-more-5_dictionaries-secret_code.py|Codeskulptor "Secret Code"]].
+        *[[http://www.codeskulptor.org/#examples-more-5_dictionaries-shape_colors.py|Codeskulptor "Shape Colors"]].
+        *[[http://www.codeskulptor.org/#examples-images.py|Codeskulptor "Map Magnifier"]].
+        *[[http://www.codeskulptor.org/#examples-more-5_images-backgrounds.py|Codeskulptor "Image Backgrounds"]].
+        *[[http://www.codeskulptor.org/#examples-more-5_images-changes.py|Codeskulptor "Image Changes"]].
+        *[[http://www.codeskulptor.org/#examples-tips5.py|Codeskulptor "Programming Tips — Week 5"]].
+      *[[http://class.coursera.org/interactivepython-2012-001/human_grading/view?assessment_id=17|Coursera "An Introduction to Interactive Programming in Python" - "Mini-project description - Memory"]].
+        *[[http://en.wikipedia.org/wiki/Concentration_%28game%29|EN.Wikipedia "Concentration (game)"]], [[http://de.wikipedia.org/wiki/Memory_%28Spiel%29|DE.Wikipedia "Memory (Spiel)"]].
+        *[[http://www.codeskulptor.org/#examples-memory_template.py|Codeskulptor "Pairs" Template]].
+        *[[http://www.codeskulptor.org/#examples-memory_states.py|Codeskulptor "Pairs Memory States" Template]].
+    *[[http://class.coursera.org/interactivepython-2012-001/wiki/view?page=week6|Coursera "An Introduction to Interactive Programming in Python" - Week six]].
+      *Week 6a.
+        *[[http://www.codeskulptor.org/#examples-oo-character.py|Codeskulptor "Character"]].
+        *[[http://www.codeskulptor.org/#examples-oo-ball.py|Codeskulptor "Ball"]].
+        *[[http://www.codeskulptor.org/#examples-more-6_object_oriented_programming-class_structure.py|Codeskulptor "Class Structure"]].
+        *[[http://www.codeskulptor.org/#examples-more-6_object_oriented_programming-class_errors.py|Codeskulptor "Class Errors"]]
+        *[[http://www.codeskulptor.org/#examples-blackjack.py|Codeskulptor "Blackjack Example"]].
+        *[[http://www.codeskulptor.org/#examples-blackjack_template.py|Codeskulptor "Blackjack Template"]].
+        *[[http://www.codeskulptor.org/#examples-more-6_object_oriented_programming-bubbles.py|Codeskulptor "Bubbles"]].
+        *[[http://www.codeskulptor.org/#examples-more-6_object_oriented_programming-flowers.py|Codeskulptor "Flowers"]].
+      *Week 6b.
+        *[[http://www.codeskulptor.org/#examples-tiled_images.py|Codeskulptor "Tiled Images"]].
+        *[[http://www.codeskulptor.org/#examples-more-6_tiled_images-bunny_emotions.py|Codeskulptor "Bunny Emotions"]].
+        *[[http://www.codeskulptor.org/#examples-tips6.py|Codeskulptor "Programming Tips — Week 6"]].
+        *[[http://www.codeskulptor.org/#examples-more-6_while_loops-prime_numbers.py|Codeskulptor "Programming Tips — Prime Numbers (while loops)"]].
+      *[[https://class.coursera.org/interactivepython-2012-001/human_grading/view?assessment_id=20|Coursera "An Introduction to Interactive Programming in Python" - "Mini-project description - Blackjack"]].
+        *[[http://en.wikipedia.org/wiki/Blackjack|EN.Wikipedia "Blackjack"]], [[http://de.wikipedia.org/wiki/Black_Jack|DE.Wikipedia "Black Jack"]].
+        *[[http://www.codeskulptor.org/#examples-blackjack_template.py|Codeskulptor "Blackjack Template"]].
+        *[[http://www.codeskulptor.org/#user5-dfMTTqbC38-1.py|Joe Warren - Week 6 Tip #1 - Getting started on step one]].
+        *[[http://www.codeskulptor.org/#user5-aRPoqFtkkWm6b8T.py|Joe Warren - Week 6 Tip #2 - Implementing the basic Hand class]].
+        *[[http://www.codeskulptor.org/#user6-jsCp1lQXvl-0.py|Joe Warren - Week 6 Tip #3 - Implementing the Deck class]]
+        *[[http://www.codeskulptor.org/#user5-z8vmWx8Rv2Ax5eJ-0.py|Joe Warren - Week 6 Tip #4 - Hitting a hand using the Hand and Deck methods]].
+    *[[http://class.coursera.org/interactivepython-2012-001/wiki/view?page=week7|Coursera "An Introduction to Interactive Programming in Python" - Week seven]].
+      *Week 7a.
+        *[[http://www.codeskulptor.org/#examples-more-7_acceleration_and_friction-curling.py|Codeskulptor "Curling (friction)"]].
+        *[[http://www.codeskulptor.org/#examples-more-7_acceleration_and_friction-balancing.py|Codeskulptor "Balancing Stick (acceleration)"]].
+        *[[http://www.codeskulptor.org/#examples-more-7_vectors-angle_vectors.py|Codeskulptor "Angle Vectors"]].
+        *[[http://www.codeskulptor.org/#examples-sound.py|Codeskulptor "Sound"]].
+        *[[http://www.codeskulptor.org/#examples-more-7_sound-bouncing_sounds.py|Codeskulptor "Bouncing Ball"]].
+      *Week 7b.
+        *[[http://www.codeskulptor.org/#examples-sprite_example.py|Codeskulptor "Sprite Example"]].
+        *[[http://www.codeskulptor.org/#examples-spaceship.py|Codeskulptor "Spaceship"]].
+        *[[http://www.codeskulptor.org/#examples-spaceship_template.py|Codeskulptor "Project Template"]].
+        *[[http://www.codeskulptor.org/#examples-more-7_colors-fading_dots.py|Codeskulptor "Fading Dots"]].
+        *[[http://www.codeskulptor.org/#examples-tips7.py|Codeskulptor "Programming Tips — Week 7"]].
+    *[[https://class.coursera.org/interactivepython-2012-001/human_grading/view?assessment_id=22|Coursera "An Introduction to Interactive Programming in Python" - "Mini-project description - Spaceship"]].
+      *[[http://www.codeskulptor.org/#examples-spaceship_template.py|Codeskulptor "Spaceship Template"]].
+      *The free Flash game [[http://www.atari.com/arcade#!/arcade/asteroids/play|ATARI.COM "Asteroids"]].
+      *[[http://en.wikipedia.org/wiki/Asteroids_%28video_game%29|EN.Wikipedia "Asteroids (video game)"]], [[http://de.wikipedia.org/wiki/Asteroids|DE.Wikipedia "Asteroids"]].
+      *[[http://www.html5doctor.com/html5-audio-the-state-of-play/|HTML5 Doctor "HTML5 Audio — The State of Play"]], 2012-05-08 - "Current Browser Codec Support".
+      *Spaceship and Asteroids excercises provide audio by MP3 format. The MP3 format is supported by [[http://chrome.google.com/|Google Chrome]] :-), but not Firefox :-(. 
+      *"Art assets created by [[http://kimlathrop.blogspot.com/|Kim Lathrop]], may be freely re-used in non-commercial projects, please credit Kim".
+    *[[http://class.coursera.org/interactivepython-2012-001/wiki/view?page=week8|Coursera "An Introduction to Interactive Programming in Python" - Week eight]].
+      *Week 8a.
+        *[[http://www.codeskulptor.org/#examples-sets.py|Codeskulptor "Sets"]].
+        *[[http://www.codeskulptor.org/#examples-set_difference.py|Codeskulptor "Set differences"]].
+        *[[http://www.codeskulptor.org/#examples-more-8_sets-structure.py|Codeskulptor "Set Structure"]].
+      *Week 8b.
+        *[[http://www.codeskulptor.org/#examples-asteroid_animation.py|Codeskulptor "Asteroid animation"]].
+        *[[http://www.codeskulptor.org/#examples-explosion_animation.py|Codeskulptor "Explosion animation"]].
+        *[[http://www.codeskulptor.org/#examples-more-8_sprite_animation-running_bunny.py|Codeskulptor "Running Bunny"]].
+        *[[http://www.codeskulptor.org/#examples-more-8_collisions-balloon_pop.py|Codeskulptor "Balloon Pop (collisions)"]].
+        *[[http://www.codeskulptor.org/#examples-ricerocks_template.py|Codeskulptor "Project Template"]].
+    *[[http://class.coursera.org/interactivepython-2012-001/human_grading/view?assessment_id=24|Coursera "An Introduction to Interactive Programming in Python" - "Mini-project description - RiceRocks (Asteroids)"]].
+      *[[http://www.codeskulptor.org/#examples-ricerocks_template.py|Coursera "RiceRocks Template. A full implementation of Spaceship"]].
+===== Google =====
+==== Google's Python Class ====
+  *[[https://developers.google.com/edu/python/|Google's Python Class]].
+==== Google Code "trypython. Python tutorial in the browser with Silverlight / Moonlight" ====
+  *[[http://code.google.com/p/trypython/|Google Code "trypython. Python tutorial in the browser with Silverlight / Moonlight"]].
+
+===== UDACITY =====
+  *[[http://www.udacity.com/wiki/FAQ|UDACITY FAQ]] - "What programming language do Udacity courses use? Computer Science classes at Udacity will be using Python (Version 2.6)"... "You do not need to download Python to take the course, as we provide all the necessary tools right in your browser".
+==== UDACITY "Introduction to Computer Science (cs101) Building a Search Engine" ====
+  *[[http://www.udacity.com/overview/Course/cs101/CourseRev/apr2012|UDACITY "Introduction to Computer Science (cs101)
+Building a Search Engine]] - "Learn the basics of the Python programming language and computer science while building a search engine".
+  *Wiki [[http://www.udacity.com/wiki/CS101|UDACITY Wiki "Introduction to Computer Science (CS101): Building a Search Engine"]].
+=== Unit 1 ===
+  *[[http://en.wikipedia.org/wiki/Backus%E2%80%93Naur_Form|EN.Wikipedia "Backus-Naur Form"]], [[http://de.wikipedia.org/wiki/Backus-Naur-Form|DE.Wikipedia "Backus-Naur-Form"]].
+  *[[http://en.wikipedia.org/wiki/Grace_Hopper|EN.Wikipedia "Grace Hopper"]], [[http://de.wikipedia.org/wiki/Grace_Hopper|DE.Wikipedia "Grace Hopper"]].
+
+  *
+==== UDACITY "Design of Computer Programs (cs212). Programming Principles" ====
+  *[[http://www.udacity.com/overview/Course/cs212/CourseRev/apr2012|UDACITY "Design of Computer Programs (cs212). Programming Principles"]].
+  *Wiki [[http://www.udacity.com/wiki/CS212|UDACITY Wiki "CS212: DESIGN OF COMPUTER PROGRAMS"]].
+
+==== UDACITY "Web Development (cs253). How to Build a Blog" ====
+  *[[http://www.udacity.com/overview/Course/cs253/CourseRev/apr2012|UDACITY "Web Development (cs253). How to Build a Blog"]] - "Learn the basics of web development in Python using App Engine".
+  *Wiki [[http://www.udacity.com/wiki/CS253|UDACITY Wiki "CS253: WEB APPLICATION ENGINEERING"]].
+  *Blog [[http://blog.udacity.com/|UDACITY Blog - Learn. Think. Do.]].
+    *Blog article [[http://blog.udacity.com/2012/05/steve-huffman-has-something-to-teach.html|UDACITY Blog - Learn. Think. Do. "Steve Huffman has something to teach you"]], 2012-05-18.
+  *[[http://www.github.com/delgermurun/udacity-cs253|Github "delgermurun / udacity-cs253"]].
+==== UDACITY "Programming Languages (cs262). Building a Web Browser" ====
+  *[[http://www.udacity.com/overview/Course/cs262/CourseRev/apr2012|UDACITY "Programming Languages (cs262). Building a Web Browser"]].
+  *Wiki [[http://www.udacity.com/wiki/CS262|UDACITY Wiki "CS262: PROGRAMMING LANGUAGES"]].
+==== UDACITY "Artificial Intelligence for Robotics (cs373). Programming A Robotic Car" ====
+  *[[http://www.udacity.com/view#Course/cs373/CourseRev/apr2012|UDACITY "Artificial Intelligence for Robotics (cs373)
+Programming A Robotic Car"]].
+  *Wiki [[http://www.udacity.com/wiki/CS373|UDACITY Wiki "CS373: "CS373: Programming a Robotic Car"]].
+
+
+==== Resources ====
+  *[[http://www.chronicle.com/blognetwork/castingoutnines/2012/04/03/udacity-cs101-whats-been-good/|Casting Out Nines. Where math, technology and education cross "Robert Talbert: 'Udacity CS101: What’s Been Good'"]].
+  *[[http://www.parezcoydigo.wordpress.com/2012/07/19/python-interpreter-text-editor-ide-for-udacity-cs101/|Parezco y Digo - Reflections on Early Latin America and Digital History "Python interpreter, text editor, ide for udacity CS101"]].
+  *Video [[http://www.youtube.com/watch?v=F8905dKfea0|YouTube "Udacity and Debugging in PyScripter"]].
+===== edX =====
+  *[[http://www.edx.org/courses/MITx/6.00x/2012_Fall/|edX "6.00x: Introduction to Computer Science and Programming MITx"]] -> Python.
+===== Udemy =====
+  *[[http://www.udemy.com/|Udemy]].
+  *The commercial, but affordable course [[http://www.udemy.com/python-gui-programming/?dtcode=8zl2rykv|Udemy "Learn Python GUI programming using Qt framework. See how to design powerful GUI applications using Python and a great cross-platform framework called Qt"]] by .
+    *[[http://www.twitter.com/Deusdies|Twitter "Bogdan Milanovich"]].
+    *[[http://www.youtube.com/playlist?list=PLl69O2lyJ_74_RwOt-wwcszMpGINzDjYA|YouTube Channel "Python GUI Development By Bogdan Milanovich"]] :-).
+  *The commercial, but affordable course [[http://www.udemy.com/the-ultimate-python-programming-course/|Udemy "The Ultimate Python Programming Course. Totally Master Python. Comes with Certification of Completion"]].
+    *[[http://www.infiniteskills.com/training/learning-python-programming.html|Infinite Skills Inc "Learning Python Programming Tutorial DVD - Video Training"]].
+    *[[http://www.prweb.com/releases/2012/7/prweb9691817.htm|PRWeb "InfiniteSkills Releases Learning Python Programming Training DVD - A Firm Foundation for Learning Python Programming"]], 2012 - "Course author and university professor [[http://profmcmillan.com/|Mike McMillan]]".
+    *[[http://profmcmillan.com/|Mike McMillan]] - C++, .NET, VB expertness, but not Python background :-(.
+===== Medialinx IT-Academy =====
+==== The Course "Python in the System Administraton" ====
+  *The commercial online course "Python in der Systemadministraton" by [[http://www.xing.com/profile/Rainer_Grimm12|Rainer Grimm]] for [[http://www.medialinx-gruppe.de/Events-Learning/IT-Academy|Medialinx IT-Academy]].
+    *The speech "Python, die Sprache für den Systemadministrator?" by [[http://www.xing.com/profile/Rainer_Grimm12|Rainer Grimm]], [[http://www.science-computing.de/|science + computing ag]] on the Fair CeBIT 2013, Hall 6, F02 ( 2013-03-05 ).
+==== 1 Python Basics ====
+  -Important data structurs: 
+    *Lists, strings and dictionaries.
+  -Python Help for Self-helping: 
+    *The Python interpreter shell.
+  -Syntax specialities:
+    *Raw strings.
+    *Function calls.
+     *Lambda functions.
+==== 2 Important Libraries ( 7 of 100 ) ====
+  -System specific parameters and functions.
+  -Features of the operating system.
+  -Display and transformation of time.
+  -Handling of processes.
+  -Regular expressions.
+  -Editing of pathnames.
+  -Comfortable file and directory operations.
+==== 3 Applications ====
+  -Word count in strings, files and Internet resources.
+  -Using a dictionary for data analysis.
+  -Filtering, sorting and modifying files in a directory structure.
+
+===== CheckIO =====
+  *The serious online game [[http://www.checkio.org/|CheckIO]] - "A game world you can explore using your programming skills", with Python 3.3 tasks. 
+  *[[http://www.facebook.com/PlayCheckiO|Facebook "Checkio"]].
+  *[[http://plus.google.com/+CheckioOrg/|Google+ "Checkio"]].
+  *[[http://www.twitter.com/PlayCheckiO|Twitter "CheckiO, @PlayCheckiO"]].
+
+===== Resources =====
+  *[[http://plus.google.com/+ClassCentral/posts/PRVMrgLYTF1|Google + ClassCentral "A dozen free online Computer Science courses from +Udacity and +Coursera starting over the next 2 weeks"]], 2012-04-12.
+  *[[http://www.knollop.com/search/?q=python|Knollop - Search for "python"]].
+  *The free online course [[http://www.learnstreet.com/lessons/study/python|Learn Street "lesson badge Python for Beginners"]].
+  *[[http://www.topfreeclasses.com/search?query=python|Top Free Classes - Search for "python"]].
+
+===== Forums, Newsgroups =====
+==== Coursera ====
+  *[[https://class.coursera.org/interactivepython-2012-001/forum/list?forum_id=27|Coursera course "An Introduction to Interactive Programming in Python", Sub-Forum "Student video tutorials"]].
+  *[[http://class.coursera.org/interactivepython-2012-001/forum/thread?thread_id=678|Coursera course "An Introduction to Interactive Programming in Python", Forum thread "Code Clinic: The teaching staff answers coding questions"]].
+  *[[http://groups.google.com/group/interactivepython|Private Google Group "interactivepython"]].
+    *"To try and address this problem, I (Joe) have created a Google Group whose only members are currently Scott and myself. As student, you are not able to view postings in the Group, but you ARE allowed to making posting to the group via email. Group members (Scott and I) are then able to reply to your posts via email".
+    *To get my help, you should send an email to the following address: "name-of-the-group AT googlegroups.com".
+    *The Subject should be of the form "[Week1] Description of problem". The body of your email should include a short description of your coding issue and a link to a version of your mini-project. I will review your email and attempt to answer your question. 
+==== Google ====
+  *[[http://groups.google.com/group/python-gcu-forum|Google Groups "Python GCU Forum"]].
+==== UDACITY ====
+  *[[http://forums.udacity.com/|UDACITY Forums]].
+    *[[http://forums.udacity.com/tags/cs253/#cs253|UDACITY Forums "Questions Tagged With cs253"]].
+  *[[http://www.p2pu.org/|P2PU]].
+    *[[http://www.p2pu.org/en/groups/udacity-cs253-web-application-engineering-study-group/|P2PU "Udacity cs253: Web Application Engineering Study Group"]].
+ {{tag>"Unix script language" "script language" Python education course}}
+<footnote_navi_en>

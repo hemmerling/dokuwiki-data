@@ -1,0 +1,26 @@
+====== [hemmerling] SIS630 Computers 2/4 - Clevo 2700c Notebooks with RAM Problem ======
+{{images:clevo1.jpg|Clevo 2700c notebook}}{{images:clevo2.jpg|Screenshot of the Clevo 2700c notebook}}{{images:clevo3.jpg|Screenshot of the Clevo 2700c notebook}}
+===== My Clevo 2700c ( in non-fastboot Mode ) crashes after Reboot from Linux ===== 
+  *I prefer to let the notebook execute a memory test after power-on. To do so, the BIOS option "Startup / Fast Boot" must not be marked. I am running the newest BIOS available at the time of writing this article. The trouble happens, if I run Linux 2.4.x and then execute the Linux command "reboot" ( or if press ctrl-alt-del ) as user "root": The notebook does a cold boot, i.e. the memory test is executed. In opposite, when rebooting from Win98SE, there is just a warm boot, i.e. the memory test is not executed. Remember that any desktop PC does a cold boot when rebooting from Win98SE ! If I do not cancel the memory test by pressing the "space" key, the notebook crashes at a certain memory test address.
+  *The memory test address displayed depends on
+    *The BIOS firmware version
+    *The value of the "mem" parameter
+  *and that's why I don't think that I have a hardware problem. Indeed, the BIOS does not allow to control the BIOS shadowing. I assume that some relevant data is overwritten during normal operation of any operating system, which prevents the BIOS from doing another cold boot ! My notebook is equipped with 256 MByte RAM, 16 MByte video RAM, so that 240 MByte RAM is available for Linux. I activated the video framebuffer in the Linux kernel.
+  *Now with the current BIOS version "SystemSoft MobilePRO BIOS Version 1.01 (2482-00)-(R1.11), SystemSoft Plug-n-Play BIOS Ver 1.17.01" ( download file name "2xCR111.zip" ), I get the following results:
+    *Linux loaded by LOADLIN.EXE with no mem parameter, or Linux loaded by a bootdisk:<code>
+Extended Memory 0232704Fatal -
+RAM Error at Location E441080H :
+WROTE : [55555555H]kip the memory test
+READ : [0000841AH]</code>
+  *With the older BIOS version "SystemSoft MobilePRO BIOS Version 1.01 (2482-00)-(R1.10), SystemSoft Plug-n-Play BIOS Ver 1.17.01" ( download file name "2xCR110.zip" ), I get the following results:
+    *Linux loaded by LOADLIN.EXE with no mem parameter, or Linux loaded by a bootdisk:<code>
+Extended Memory 231744Fatal -
+RAM Error at Location 353080 :
+WROTE: [00010010001101011110101010011001]
+READ: [01010101010101010101010101010101]</code>
+===== Reporting of the Fault, Reports by other Users, Is the Reason for Failure a faulty RAM ? ===== 
+  *The bug was reported to Clevo on 2001-10-27, by E-Mail! I would be very pleased if you try this by yourself with your Clevo notebook and [[imprint.html|tell me]] the results !
+  *I already got a report about two Clevo 2700s notebooks by [[mmunerati@pluriservice.it|Matteo Munerati]] and a Clevo 2700c notebook by [[jdc@x64.co|Joaquim Carvalho]] with the same behaviour !! 
+  *[[Vojtech.Jakes@FFastFill.com|Vojtech Jakes]] experienced the same effect and found out that one of the memory DIMMs was faulty ! 
+{{tag>notebook notebooks computer computers sis sis630 sis630s sis630st clevo 2700c 2200c 2700s 2200s 2700t 2200t ram error fault failure}}
+<footnote_navi_en>

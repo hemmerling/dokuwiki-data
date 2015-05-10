@@ -1,0 +1,418 @@
+====== [hemmerling] Remote Access Tools for Computers & Network Clients ======
+Relted page:
+  *[[linux07.html|Linux 6/8 - Linux with X-Terminals and Terminals]].
+===== Browsers, E-Mail Clients, Newsgroups Reader =====
+==== Microsoft Internet Explorer ( MSIE ) ====
+  *[[http://answers.microsoft.com/en-us/ie/forum/ie8-windows_vista/sorry-add-ons-can-only-be-installed-for-ie8-and/58c648ef-176d-e011-8dfc-68b599b31bf5|Microsoft Answers "sorry, add-ons can only be installed for ie8 and ie9"]] on WinXP, where MSIE 8 is already installed.
+==== Netscape / Mozilla ====
+=== Tools ===
+  *[[http://www.mozilla.org/|Mozilla]] - Browser "Firefox" , E-Mail client "Thunderbird".
+  *The download archive [[http://releases.mozilla.org/pub/mozilla.org/|Mozilla Releases]].
+    *[[http://releases.mozilla.org/pub/mozilla.org/firefox/releases/|Mozilla Releases - Firefox]].
+      *[[http://download.cdn.mozilla.net/pub/mozilla.org/firefox/releases/12.0/|Mozilla Download - Firefox 12.0]] is the latest release for W2k.
+    *[[http://releases.mozilla.org/pub/mozilla.org/thunderbird/releases/|Mozilla Releases - Thunderbird]].
+      *[[http://download.cdn.mozilla.net/pub/mozilla.org/thunderbird/releases/12.0.1/|Mozilla Download - Thunderbird 12.01]] is the latest release for W2k.
+      *[[http://download.cdn.mozilla.net/pub/mozilla.org/thunderbird/releases/24.0.1/|Thunderbird 24.0.1]].
+      *[[http://download.cdn.mozilla.net/pub/mozilla.org/thunderbird/releases/17.0esr/|Thunderbird 17esr]] ( "Thunderbird Extended Support Releases (ESR)" ) - A very stable software, suitable for legacy "slow" PIII computers. 
+  *[[http://wiki.mozilla.org/RapidRelease/Calendar|Mozilla Wiki - RapidRelease/Calendar]] -> Dates of new releases.
+  *[[http://www.flock.com/|Flock]] - "Flock Browser - The Social Web Browser".
+  *The free [[http://www.esker.com/downloads.asp|Esker ActiveX Plug-in]] for Netscape 4.x and 6.x browsers - "The Esker ActiveX Plug-in adds ActiveX control support to WIN32 Netscape Navigator".
+  *[[http://www.fortify.net/|Fortify]] - "A program that provides world-wide, unconditional, full strength 128-bit cryptography to users of Netscape Navigator (v3 and v4) and Communicator (v4)".
+  *[[http://en.wikipedia.org/wiki/Mozilla_Application_Suite|EN.Wikipedia "Mozilla Application Suite"]], [[http://de.wikipedia.org/wiki/Mozilla_Application_Suite|DE.Wikipedia "Mozilla Application Suite"]].
+  *[[http://en.wikipedia.org/wiki/SeaMonkey|EN.Wikipedia "SeaMonkey"]], [[http://de.wikipedia.org/wiki/SeaMonkey|DE.Wikipedia "SeaMonkey"]].
+  *[[http://en.wikipedia.org/wiki/Mozilla_Firefox|EN.Wikipedia "Mozilla Firefox"]], [[http://de.wikipedia.org/wiki/Mozilla_Firefox|DE.Wikipedia "Mozilla Firefox"]].
+=== Addons for Firefox ===
+  *[[http://addons.mozilla.org|Addons for Mozilla]].
+    *[[http://flashblock.mozdev.org/|Firefox Addon "Flashblock"]], [[https://addons.mozilla.org/en-US/firefox/addon/433|Firefox Addon "Flashblock"]].
+    *[[https://addons.mozilla.org/en-us/firefox/addon/jsoff/|Firefox Addon "JSOff"]] - Since Firefox23, Javascript can´t be disabled anymore by the internal options, but just by such plugins.
+    *[[http://chrispederick.com/work/web-developer/|Firefox Addon "Web Developer"]], [[http://addons.mozilla.org/en-US/firefox/addon/60|Firefox Addon "Web Developer"]].
+    *[[http://addons.mozilla.org/de/firefox/addon/firebug/|Mozilla Firefox Add-Ons "Firebug"]] - "Integrates with Firefox to put a wealth of development tools at your fingertips while you browse. You can edit, debug, and monitor CSS, HTML, and JavaScript live in any web page...".
+      *With a mouse-rightclick on an element, you can select "Copy XPath" and "Copy CSS Path" :-).
+    *[[http://addons.mozilla.org/de/firefox/addon/59/|Firefox Addon "User Agent Switcher"]].
+      *[[http://www.bwurst.org/archives/197-Bezahl-Netz-fuer-Internet-Ausdrucker.html|Bernds Blog "Bezahl-Netz für Internet-Ausdrucker"]], 2009-12-16.
+        *"Mit großem Tam-Tam hat sich am Montag das Hamburger Abendblatt zum heiligen Samariter der Old-School-Journalisten empor geschwungen und verkündet, dass man zukünftig für einen Teil der Inhalte Geld haben möchte".
+        *"Man nehme einen UserAgent-Switcher (z.B. als [[http://addons.mozilla.org/de/firefox/addon/59/|Firefox-Extension]]) und schalte auf eine Kennung des Google-Bot um. Et voilà, die Website des Hamburger Abendblattes steht wieder sperrangelweit offen wie gehabt und man kann alle Artikel ohne Einschränkung lesen".
+    *[[http://addons.mozilla.org/de/firefox/addon/adblock-plus/|Firefox Addon "Adblock Plus"]].
+    *[[http://addons.mozilla.org/de/firefox/addon/video-downloadhelper/|Firefox Addon "Video DownloadHelper"]].
+    *[[http://www.primelife.eu/|PrimeLife]].
+      *The OpenSource Firefox addon [[http://www.primelife.eu/results/opensource/76-dashboard|PrimeLife / OpenSource "Dashboard"]] - "Helps you track what information is collected by the websites you visit, together with a means to set your preferences on a site by site basis".
+    *[[http://www.getfirebug.com/|Firebug - Web Development Evolved]] - "Firebug integrates with Firefox to put a wealth of web development tools at your fingertips while you browse. You can edit, debug, and monitor CSS, HTML, and JavaScript live in any web page".
+=== Addons for Thunderbird ===
+  *[[http://addons.mozilla.org/de/thunderbird/|Addons for Thunderbird]].
+    *[[http://addons.mozilla.org/en-US/thunderbird/addon/importexporttools/|Thunderbird Addon, Paolo "Kaosmos "ImportExportTools"]] for Thunderbird 1- 24 :-) #.
+    *[[http://www.thunderbird-mail.de/wiki/Enigmail_OpenPGP|Enigmail OpenPGP]].
+    *[[http://support.mozilla.com/tiki-view_forum_thread.php?locale=kk&comments_parentId=81935&forumId=1|mozilla Forum: "Quicktime plugin 7.1.6 remains disabled in Firefox 3"]], on W2k.
+    *Blocked addins are named in the file.
+       *<Firefox Root Directory > / "blocklist.xml".
+       *All "blocklist.xml" files profiles below "D:\Documents and Settings\Administrator\Application Data\Thunderbird\Profiles\"
+         *If Firefox detects an addin to be blocked, you must first edit the blocklist and then reinstall the addin.
+    *[[http://addons.mozilla.org/en-US/thunderbird/addon/lightning/|Thunderbird Add-On "Lightning"]] - "Organize your schedule and life's important events in a calendar that's fully integrated with your Thunderbird email. Manage multiple calendars, create your daily to do list, invite friends to events, and subscribe to public calendars".
+=== Mozilla Developer Network ===
+  *[[http://developer.mozilla.org/En/Toolkit_API|Mozilla Developer Network "Mozilla Toolkit"]] - "A set of programming interfaces (APIs) built on top of Gecko which provide advanced services to XUL applications".
+  *[[http://developer.mozilla.org/En/XUL|Mozilla Developer Networkk "XML User Interface Language ( XUL )"]].
+=== Error Messages, Tips & Tricks ===
+== Installation Process for given E-Mail accounts with existing Thunderbird Mail Directory ==
+  *Howto:
+    -Call Thunderbird.
+    -Step 1:
+      -"Configuration / Option" - Select "[x] Menu Bar".
+      -"File / New / Existing Mail Address".
+      -Fill in the data of your mandatory E-Mail account, then press the button "Continue".
+      -Select "[x] POP3".
+      -Press button "Manual config".
+      -Press button "Advanced config".
+      -"Account Settings".
+        -"[x] Attach the signature from a file instead (text, HTML, or image):" and select a file by the browse button.
+      -"Server Settings".
+        -Unselect "[ ] Check for new messages at startup".
+        -Unselect "[ ] Check for new messages every XX minutes".
+        -It is very urgent to unselect "[ ] Automatically download new messages".
+        -Unselect "[ ] Leave messages on server".
+      -"Composition & Adressing".
+        -Unselect "[ ] Compose messages in HTML format".
+      -Press button "Ok".
+    -Step 2:
+      -Open the just created profile by mouse-rightclick.
+      -"Server Settings".
+      -"Local directory": Press button "Browse" and select the existing mail directory for the account.
+      -Press button "Ok". 
+      -Thunderbird asks you "Thunderbird needs to restart to apply the change of the Local directory settting". Press button "Restart".
+  *The motivation: 
+    *During a recent installation of Thunderbird 31, 
+      *I selected by error a IMAP account for testing my E-Mail provider account :-(, 
+      *without deactivation of the message download option :-(,
+      *and then ( see step 2 ) I selected the existing POP3 mail directory for the account as new local directory.
+    *The effect was that my "Sent" directory and a few other directories were emptied :-(, if I remember right the "failure of filtering" bug appeared during the download. But Thunderbird definitively wiped out the contents of some email subdirectories by own activity :-(.
+== "AppHangB1" with Thunderbird ==
+  *After new installation of Windows and installation of Thunderbird 31, including the creation of a new Thunderbird user profile, Thunderbird did not work properly, but Windows told me that Thunderbird is in [[http://www.google.de/search?q=AppHangB1|Google "AppHangB1"]] mode. The application was not usable, after 1 or 2 mouseclicks it "hanged" and just showed the Windows sandmill.
+    *It did not help to deinstall and reinstall neither Thunderbird 31 nor 24.01 - The "hanging" happended every time.
+    *Thunderbird 17 installed properly, but was not able to use the Thunderbird 31 & 24.01 profile properly - so it did not display the mail folders, though it knew about the account.
+    *The only help was to delete the Thunderbird profile - the "hanging" did not appear again neither with Thunderbird 31 or 24.01.
+== How to delete a Thunderbird Profile ==
+  *[[http://kb.mozillazine.org/Profile_folder_-_Thunderbird|MozillaZine "Profile folder - Thunderbird"]] - "You can also navigate directly to your profile folder at the following path: C:\Users\<Windows user name>\AppData\Roaming\Thunderbird\Profiles\<Profile name>".
+  *[[http://forums.mozillazine.org/viewtopic.php?f=39&t=2610971|MozillaZine Forum "Your Thunderbird profile cannot be loaded"]].
+    *"Your best bet might be to delete the profiles.ini file for Thunderbird (make certain you don't delete the one for Firefox instead)".
+    *C:\Users\<Windows user name>\AppData\Roaming\Thunderbird\Profiles\profile.ini".
+== Thunderbird: Sending E-Mails by SMTP fails ==
+  *Error message while sending an E-Mail by SMTP, by E-Mail provider GMX:<code>
+An error occured while sending mail. 
+The mail server responded: 5.7.0 Authentification expired (mp016). 
+Please check the message and try again.</code>
+  *Solution: Login at the Web portal of GMX. GMX suspended your account ( due to a login attack attempt ) and asks you to setup a new password, by the Web portal. After that, with new password, E-Mail sending works again.
+== Thunderbird: Restoring messages from .mozmsgs Folder ==
+  *Keeping the default option "Allow [your OS's search engine] to search messages" creates a backup of Thunderbirg messages, in extra subdirectories, but in the same file system path. You may later import these messages into Thunderbird, if necessary.
+  *[[http://www.getsatisfaction.com/mozilla_messaging/topics/_sbd_and_mozmsgs_files_reappearing_on_hd|Getsatisfaction - Thunderbird "*.sbd and *.mozmsgs files reappearing on HD"]] - "The .mozmsgs directories store data that allows Windows Search or Spotlight to index your mail folders. They are filled up if you let your computer remain idle for some time and keep Thunderbird open. You can easily turn it off from Tools-Options or Preferences, in the Advanced pane, General tab. You'll find a checkbox saying 'Allow [your OS's search engine] to search messages'".
+  *[[http://forums.mozillazine.org/viewtopic.php?f=29&t=1230495|Mozillazine "recover lost emails from Inbox.mozmsgs folder"]], 2009-05-04.
+    *"I copied the missing files from the *.mozmsgs folder in my profile to a new folder. Used the command prompt to change the file extension from .wdseml to .eml and then used Import/Export Tools Add-On to import the missing messages back into Thunderbird" :-).
+    *"It should be noted that the wdseml files do not contain any attachments that may have been part of the original message" :-(.
+== Thunderbird 24.1.0 .. 24.5.0..?: Failure of Filtering ==
+  *Error message when receiving E-Mails and sorting it into folders according to filter rules:<code>
+The messages could not be filtered to folder '%S' because writing to folder failed. 
+Verify that you have enough disk space, and that you have write privileges to the file system, 
+then try again</code>
+  *[[http://bugzilla.mozilla.org/show_bug.cgi?id=931303|Bugzilla@Mozilla "Bug 931303 - message could not be filtered to folder because writing to folder failed"]].
+  *[[http://download.cdn.mozilla.net/pub/mozilla.org/thunderbird/releases/24.0.1/|Thunderbird 24.0.1]] is currently the latest stable release, as of 2014-05, without this bug.
+  *Tip: If you switch back from Thunderbird 24.5 to 24.0.1, please compress all folder data by Thunderbird itself, to get rid of the bug.
+== Firefox - Disable Image Loading, for use with slow ( ISDN / Analog Modem ) Internet Connections ==
+  *[[http://support.mozilla.org/en-US/questions/981640|Mozilla Support Forum "How to disable images in firefox"]] - "Go to about:config, search for this option "permissions.default.image" change to ..", "1 for enable images and 2 worked for disable images".
+== Resources ==
+  *[[http://www.computerhope.com/issues/ch000973.htm|Computer Hope "Enable the missing File menu bar"]] for Firefox.
+==== Opera ====
+  *The free browser [[http://www.opera.com/|Opera Software]].
+  *[[http://arc.opera.com/pub/opera/win/|Opera Software "Opera archive"]]
+  *[[http://arc.opera.com/snapshot/|Opera Software "Archived Opera for Desktop snapshot releases"]].
+  *[[http://my.opera.com/desktopteam/blog/2012/07/19/12-50-marlin-html5-dnd-hwa-improvements|My Opera "12.50 ‘Marlin’ Holiday updates"]] - "Distribution note: Starting with this snapshot we are ending support for Windows 2000".
+  *[[http://operawiki.info/|Opera Browser Wiki]].
+  *Opera 12.02 ( = Opera 12.02.1578 ), Opera 12.02-1565 and Opera-Next-12.50-1497 are the latest editions for W2k. Newer editions refuse to install on W2k by the error messages<code>
+Opera.exe - Unable ToLocate DLL
+THe dynamic link library UxTheme.dll could not be found in the specified path
+</code>
+  *and <code>
+OperaError
+Failed to load Opera.DLL because:
+The specified module could not be found.
+</code>
+==== Google Chrome ====
+=== The Tool ===
+  *[[http://chrome.google.com/|Google Chrome]] for WinXP and Linux.
+  *[[http://www.chrome64bit.com/|Unofficial help for Chrome 64-bit for Linux]].
+  *[[http://chrome.google.com/extensions/detail/nijcfldbcfbngeclhklbgmjlnkiheled|Google Chrome - Privicons Extension]].
+  *[[http://www.chromium.org/devtools|Google Chrome Developer Tools]].
+  *[[http://support.google.com/chrome/answer/95411|Google "Chrome system requirements"]]:
+    *Windows: Pentium 4 -> In 2014-04, Google Chrome 34.0.1847.116, on Athlon XP2800 computer running Win7 warns the user by the message "This computer will soon stop receiving Google Chrome updates because its hardware is no longer supported" :-(.
+    *Linux: Pentium 3.
+=== Addons ===
+  *[[http://chrome.google.com/webstore/search/launcher|Chrome App Launcher]] - The built-in app launcher is just visible when you are logged in at Google ( so you must be online ?! ) :-( ?!. Or it is visible in the "Bookmarks / Show bookmarks bar".
+  *[[http://www.getpostman.com/|Postman - Supercharge your API workflow]], [[http://www.rickreation.com/|Rick Reation by Abhinav Asthana Coder, designer]], [[http://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm|Chrome Store "Postman - REST Client"]].
+=== Installation and Execution on Linux ===
+  -Set proper link to "libudev.so.0"
+    *[[http://www.askubuntu.com/questions/369310/how-to-fix-missing-libudev-so-0-for-chrome-to-start-again|Ask Ubuntu "How to fix missing libudev.so.0 for Chrome to start again?"]].
+    *"sudo ln -s /lib/x86_64-linux-gnu/libudev.so.1.3.5 /usr/lib/libudev.so.0" for 64-bit Linux.
+    *"sudo ln -s /lib/i386-linux-gnu/libudev.so.1.3.5 /usr/lib/libudev.so.0" for 32-bit Linux.
+  -Install "libappindicator1".
+    *[[http://forums.kali.org/showthread.php?22243-Google-chrome-not-installing-properly|Kali Linux Forums "Google chrome not installing properly"]] - "dpkg: dependency problems prevent configuration of google-chrome-stable: google-chrome-stable depends on libappindicator1; however: Package libappindicator1 is not installed.".
+    *[[http://www.ubuntuupdates.org/package/core/precise/main/base/libappindicator1|UbuntuUpdates "Package "libappindicator1"]].
+    *"sudo dpkg -i libappindicator1".
+  -Install "libindicator7".
+    *[[http://www.ubuntuupdates.org/package/core/trusty/main/base/libindicator7|UbuntuUpdates "Package "libindicator7"]].
+    *"sudo dpkg -i libindicator7".
+  -Install the application: 
+    *[[http://www.cyberciti.biz/faq/how-to-install-google-chrome-in-ubuntu-linux-12-xx-13-xx/|nixCraft "Ubuntu Linux: Install Google Chrome Browser Command"]].
+    *[[http://www.askubuntu.com/questions/79280/how-to-install-chrome-browser-properly-via-command-line|Ask Ubuntu "How to install Chrome browser properly via command line?"]].
+    *"sudo dpkg -i google-chrome-stable_current_i386.deb".
+    *"sudo dpkg -i google-chrome-stable_current_amd64.deb".
+    *Though I installed all necessary extra packages, I still get the error message during installation "google-chrome-stable depends on libappindicator1; however: libappindicator1 is not configured yet"
+    *[[http://www.google.de/search?q=libappindicator1+is+not+configured+yet|Google - Search for "libappindicator1 is not configured yet"]].
+  -Execute the application:
+    *"google-chrome-stable".
+==== Safari ====
+  *[[http://www.apple.com/de/safari/|Apple Safari]].
+  *[[http://www.heise.de/download/safari.html|heise Software Verzeichnis "Safari"]] - "Für Windows steht aktuell die Version 5.1.7 zum Download, da die Entwicklung eingestellt ist".
+  *[[http://www.chip.de/downloads/Safari_27264736.html|CHIP Online "Safari 5.1.7"]], 2012-05-10.
+==== Safe Exam Browser ( SEB ) ====
+  *[[http://www.safeexambrowser.org/|Safe Exam Browser]], [[http://seb.sourceforge.net/|SourceForge "Safe Exam Browser"]], [[http://www.sourceforge.net/projects/seb/|SourceForge "Safe Exam Browser"]] ( SEB ) for WinXP and MacOSX, but not for Linux.
+==== WebKit ====
+  *[[http://www.webkit.org/|WebKit]].
+===== Network File System (NFS) =====
+==== Clients for Access of Network File System (NFS) ====
+=== Free / Commercial ===
+  *[[http://www.microsoft.com/windows/sfu/|Microsoft Unix Windows Services for UNIX]].
+    *[[http://technet.microsoft.com/de-de/interopmigration/|Microsoft TechNet - Interoperabilitäts- und Migrationscenter]],   *[[http://www.microsoft.com/windowsserver/compare/|Microsoft "windowsserver/compare"]].
+    *[[http://en.wikipedia.org/wiki/Interix|EN.Wikipedia "Interix"]], [[http://de.wikipedia.org/wiki/Interix|DE.Wikipedia "Interix"]] - "Version 6.1 is included in Windows 7 (Enterprise and Ultimate)".
+    *Windows NTFS File System required for the installation drive :-(.
+=== Commercial ===
+  *The discontinued NFS client "TUN PLUS" for MSDOS by [[http://www.esker.com/|Esker]], [[http://www.esker.de/|Esker Software GmbH]]. 14 days expiration.
+  *The NFS client and NFS server [[http://www.labf.com/nfsaxe/|LabF "nfsAxe"]] for Windows. The evaluation version has the restriction "Operational 30 minutes per run. After 30 minutes session you need to restart nfsAxe" #.
+  *[[http://www.attachmate.com/|Attachmate]].
+    *The commercial NFS client "Reflection NFS" ( formerly: "WRQ Reflections NFS" ) for Windows, 60 days exipiration.
+    *[[http://en.wikipedia.org/wiki/Attachmate|EN.Wikipedia "Attachmate"]].
+  *[[http://www.microfocus.com/|Micro Focus]].
+    *The commercial NFS client [[http://www.microfocus.com/downloads/viewnow-interdrive-nfs-client-3952.aspx|Micro Focus "ViewNow InterDrive NFS client"]] ( formerly: "Netmanage ViewNow InterDrive Client" ) for Windows.
+  *[[http://www.opentext.com/|OpenText]].
+    *The commercial NFS client [[http://connectivity.opentext.com/products/nfs-clients.aspx|OpenText "OpenText NFS"]] ( formerly : "Hummingbird NFS Maestro" ).
+  *The commercial NFS client [[http://www.xlink.com/nfs_products/Omni-NFS_Lite2000/Omni-NFS_Lite2000.aspx|XLink Technology, Inc. "Omni-NFS Client"]] for Windows. 15 days expiration.
+
+==== Resources ====
+  *[[http://en.wikipedia.org/wiki/Network_file_system|EN.Wikipedia "Network File System"]], [[http://en.wikipedia.org/wiki/Network_File_System_(protocol)|EN.Wikipedia "Network File System (protocol)"]], [[http://de.wikipedia.org/wiki/Network_File_System|DE.Wikipedia "Network File System"]].
+
+===== SSH, Telnet and Terminal Clients =====
+  *The OpenSource [[http://www.chiark.greenend.org.uk/~sgtatham/putty/|Simon Tatham "PuTTY: A Free Telnet/SSH Client"]] for Windows and Linux.
+    *[[http://en.wikipedia.org/wiki/PuTTY|EN.Wikipedia "PuTTY"]].
+  *The free [[http://www.compuphase.com/software_termite.htm|Thiadmer Riemersma, CompuPhase "Termite: a simple RS232 terminal"]] for Windows.
+  *The OpenSource [[http://ttssh2.sourceforge.jp/|SourceForge "Tera Term"]], [[http://www.sourceforge.jp/projects/ttssh2|SourceForge "Tera Term"]] for Windows.
+    *[[http://programmers.stackexchange.com/questions/104332/best-practice-when-unit-testing-for-embedded-development|StackOverflow "best practice when unit testing for embedded development"]] - "A necessary tool to develop is a signal injector. The embedded system will have some way of interfacing with a host system (typically via a serial port reserved for debugging). Use this to send test data (best option is terse ascii formatted so it is easily simulated by humans too)", "Using TeraTerm as a serial port signal injector, and writing some TeraTerm macros (takes about 20 minutes), there is a huge suite of automated tests which can be run against any part of an embedded system -- whether driver layer, O/S, layer 4-5, etc".
+===== VNC, UltraVNC, Intel vPro/AMT =====
+==== Intel vPro, Intel Active Management Technology ( AMT ) ====
+=== Intel vPro/AMT ===
+  *[[http://www.intel.de/vPro|Intel "Intel Core vPro Prozessoren der zweiten Generation"]], [[http://www.intel.com/technology/vpro/|Intel "Intel vPro Technology. Maximized, hardware-assisted security and manageability"]].
+  *[[http://www.intel.com/content/www/us/en/architecture-and-technology/hd-graphics/hd-graphics-developer.html|Intel "Intel HD Graphics Provides Next Generation Integrated Graphics"]] -> "Intel HD Graphics 3000", "Intel HD Graphics 2000".
+  *Hardware selection:
+    *[[http://communities.intel.com/docs/DOC-2033|Intel "Order an Intel vPro technology 'Activation-Ready' PC or WS"]] -> Compatibility list of computer models with AMT v6.0 support. Be aware of models listed there with "Latest Intel AMT Version" < v6.0 !
+    *[[http://www.intel.com/reseller/mbselector/|Intel Motherboard Selector]] -> Just selecting i5, i7 is not enough to find a motherboard with vPro technology & AMT 6 technology :-(.
+    *[[http://www.intel.com/support/motherboards/desktop/sb/cs-008326.htm|Intel "Desktop Boards. Supported operating systems"]].
+    *[[http://www.intel.com/support/motherboards/desktop/sb/CS-028648.htm|Intel "Desktop Boards. Linux* support resources"]] -> Linux on DQ57TML / DQ57TM boards #.
+  *[[http://communities.intel.com/community/openportit/vproexpert/blog/2011/04/13/build-your-own-pc-with-the-2nd-generation-intel-core-vpro-processor-family|Intel "Build your own PC with the 2nd generation Intel® Core™ vPro Processor Family"]] #.
+=== vPro/AMT Resources ===
+  *[[http://www.eibler.at/intel-me_amt/intel-me_amt.html|Leo Eibler "How To - Intel ME (Management Engine) AMT (Active Management Technology) mit vPro Q57"]].
+  *Geizhals.AT.
+    *[[http://geizhals.at/de/?in=&fs=Q57|Geizhals.AT "Q57"]], [[http://geizhals.at/de/?in=&fs=Q57M|Geizhals.AT "Q57M"]].
+    *[[http://geizhals.at/de/?in=&fs=Q67|Geizhals.AT "Q67"]], [[http://geizhals.at/de/?in=&fs=Q67M|Geizhals.AT "Q67M"]].
+  *[[http://www.heise.de/newsticker/meldung/Buerocomputer-Business-Notebooks-Intels-vierte-vPro-Generation-922637.html|heise "Bürocomputer & Business-Notebooks: Intels vierte vPro-Generation"]], 2010-02-04 -> List of remote control software for vpro/AMT #.
+  *[[http://www.tomshardware.com/reviews/command-conquer,1591.html|Tom's Hardware "Remote PC Management with Intel's vPro"]].
+    *[[http://www.tomshardware.com/reviews/command-conquer,1591-2.html|Tom's Hardware "Where Does AMT Fit In?"]].
+  *[[http://www.tecchannel.de/|TecChannel - IT experts inside]], Germany.
+    *[[http://www.tecchannel.de/netzwerk/management/442760/vpro_2008_komfortable_verwaltung_von_business_pcs_und_notebooks/index5.html|TecChannel - IT experts inside "vPro 2008: Komfortable Verwaltung von Business-PCs und -Notebooks"]], 2008.
+    *[[http://www.tecchannel.de/netzwerk/management/453387/test_das_leistet_intels_vpro_in_der_praxis/|TecChannel - IT experts inside "Test: Das leistet Intels vPro in der Praxis"]], 2006.
+    *[[http://www.tecchannel.de/netzwerk/management/432854/grundlagen_intel_active_management_technology/|TecChannel - IT experts inside "Grundlagen: Intel Active Management Technology"]], 2005.
+    *[[http://download.tecchannel.de/public/whitepaper/Virtual-company/ITeBook_Client_und_Servermanagement.pdf|TecChannel - IT experts inside "IT-ebook featured by Intel"]] ( PDF ).
+      -vPro 2008: Komfortable Verwaltung von Business-PCs und -Notebooks.
+      -Test: Das leistet Intels vPro in der Praxis.
+      -Intel vPro mit Landesk-Management-Software.
+      -Centrino 2: Intels neue Notebook-Plattform.
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/Intel_Core|EN.Wikipedia "Intel Core"]], [[http://de.wikipedia.org/wiki/Intel-Core-i-Serie|DE.Wikipedia "Intel-Core-i-Serie"]].
+    *[[http://en.wikipedia.org/wiki/Intel_vPro|EN.Wikipedia "Intel vPro"]], [[http://de.wikipedia.org/wiki/Intel_vPro|DE.Wikipedia "Intel vPro"]] - "AMT-Funktionen".
+    *[[http://en.wikipedia.org/wiki/X86_virtualization|EN.Wikipedia "x86 virtualization"]], [[http://de.wikipedia.org/wiki/Intel_Virtualization_Technology|DE.Wikipedia "Intel Virtualization Technology"]].
+    *[[http://en.wikipedia.org/wiki/Intel_Active_Management_Technology|EN.Wikipedia "Intel Active Management Technology"]] - "From major version 6, Intel AMT embeds a proprietary [[http://en.wikipedia.org/wiki/Virtual_Network_Computing|VNC]] server, so you can connect out-of-band using dedicated VNC-compatible viewer technology, and have full KVM (Keyboard, Video, Mouse) capability throughout the power cycle - including uninterrupted control of the desktop when an operating system loads".
+    *[[http://en.wikipedia.org/wiki/Intel_GMA|EN.Wikipedia "Intel GMA"]], [[http://de.wikipedia.org/wiki/Intel_GMA|DE.Wikipedia "Intel GMA"]] ( Intel Graphics Media Accelerator ).
+    *[[http://en.wikipedia.org/wiki/Intel_HD_Graphics|EN.Wikipedia "Intel HD Graphics"]].
+  *RealVNC.
+    *[[http://kb.realvnc.com/categories/Viewer+Plus+%28Intel+AMT+KVM%29/|RealVNC Knowledge Base, Category "Viewer Plus (Intel AMT KVM)"]].
+    *[[http://kb.realvnc.com/questions/87/Does+my+Intel+vPro+computer+support+RealVNC%27s+KVM+functionality%3F|RealVNC Knowledge Base - Viewer Plus (Intel AMT KVM) "Does my Intel vPro computer support RealVNC's KVM functionality?"]].
+      *"This functionality is included in intels 'AMT v6.0' release, previous versions of Intel AMT will not have the VNC functionality built in, nor can they be upgraded".
+    *[[http://kb.realvnc.com/questions/100/I%27m+receiving+the+error+%22Error+0x80862000.+Unsupported+or+inactive+display+adapter.%22|RealVNC Knowledge Base - Viewer Plus (Intel AMT KVM) "I'm receiving the error "Error 0x80862000. Unsupported or inactive display adapter"]].
+      *"Intel AMT's KVM functionality (i.e. VNC) can only be used with the on-board Intel GPU, secondary graphical adapters are not supported (e.g. if you've installed a new Nvidia or ATI graphics card.)".
+      *"You'll need to ensure that the on-board GPU is switched on (this will be controlled within your BIOS settings), and that your display is attached to the correct adapter port".
+=== Selection Criteria for Computers with Intel iCore 5 / iCore7, internal Graphics Card, Intel vPro/AMT Technology ====
+== Motherboard ==
+    *Must be shipped with vPro technology.
+    *Must provide suitable AMT technology ( AMT 6 or newer ). Be aware of motherboards which provide vPro technology but insufficient AMT technology ( e.g. AMT 5 ).
+== CPU ==
+    *The motherboard / computer must be shipped with a vPro enabled CPU :-). With many computers, the manufacturers provide optinal CPUs both with and without vPro, without explicte naming of the vPro feature. 
+    *The bundeling of a vPro CPU with a motherboard is no indictor that the motherboard supports vPro technology. Especially, the support of vPro technology is no indicator that there is sufficent AMT technology.
+== Your Questions to Motherboard Manufacuters and its Vendors ==
+    *"Does your motherboard support Intel vPro Technology with AMT 6 or newer, with activated CPU-internal HD2000 / HD3000 Intel graphics card ?".
+    *"Definitely, may I address the switched-off computer by Ethernet network, and log on the internal AMT server and the VNC server?".
+== Warning ==
+  *There is the mission of Intel, to deliver the vPro technology just to the "system houses" and to the "business" sales channel ( -> computers shipped with Windows Professional ), not to "consumer electronics supermarkets and consumer electronics store chains" and the "private users" channel ( -> computers shipped with Windows Home Premium ).
+=== Intel Core i5 & i7 CPUs with vPro and integrated Graphics ===
+  *AMT V6.0 on motherboards just works with Intel Core i5 & i7 CPUs, but not for Intel Core i3 CPUs.
+  *[[http://ark.intel.com/|ARK - Your source for information on Intel products]].
+    *Filter #1:
+      *Family: Previous Generation Intel Core i5 Processor"
+      *"Intel vPro Technology = true".
+      *"Integrated Graphics = true".
+      *Results:
+        *[[http://ark.intel.com/search/advanced/?s=t&FamilyText=Previous%20Generation%20Intel%C2%AE%20Core%E2%84%A2%20i5%20Processor&IntegratedGraphics=true&VProTechnology=true|ARK - Your source for information on Intel products "Family: Previous Generation Intel Core i5 Processor", "Intel vPro Technology = true", "Integrated Graphics = true"]].
+        *[[http://ark.intel.com/products/43546/Intel-Core-i5-650-Processor-%284M-Cache-3_20-GHz%29|Intel "Intel Core i5-650 Processor
+(4M Cache, 3.20 GHz)"]], but "Graphics may not be available on all computing systems. Please reference the system, motherboard or chipset specifications for compatibility" :-(.
+    *Filter #2:
+      *"Family = 2nd Generation Intel Core i5 Processors".
+      *"Integrated Graphics = false" ( though the results include CPUs with "Intel HD Graphics 2000" ).
+      *"Intel vPro Technology = true".
+      *Results:
+        *[[http://ark.intel.com/search/advanced/?s=t&FamilyText=2nd%20Generation%20Intel%C2%AE%20Core%E2%84%A2%20i5%20Processors&IntegratedGraphics=false&VProTechnology=true|ARK - Your source for information on Intel products "Family = 2nd Generation Intel Core i5 Processors", "Integrated Graphics = false", "Intel vPro Technology = true"]].
+        *[[http://ark.intel.com/products/52207/Intel-Core-i5-2400-Processor-%286M-Cache-3_10-GHz%29|Intel "Intel Core i5-2400 Processor (6M Cache, 3.10 GHz)"]] - "Graphics Specifications. Processor Graphics = Intel HD Graphics 2000", but "Graphics may not be available on all computing systems. Please reference the system, motherboard or chipset specifications for compatibility" :-(.
+=== Motherboards with vPro and AMT 6 or newer ===
+== Intel Desktop Boards Executive Series ==
+  *Intel DQ57TML.
+    *[[http://ark.intel.com/products/49287/Intel-Desktop-Board-DQ57TML|ARK - Your source for information on Intel products "Intel Desktop Board DQ57TML"]], with 1 parallel port, 1 serial Port via internal header, vPro, AMT 6.0.
+    *[[http://www.intel.com/content/www/de/de/motherboards/desktop-motherboards/desktop-board-dq57tml.html|Intel "Intel PC-Mainboard DQ57TML"]] - "Ältere Peripheriegeräte, die einen PS/2- bzw. Parallelport benötigen, können an das Intel® PC-Mainboard DQ57TML angeschlossen werden".
+    *[[http://www.intel.com/support/motherboards/desktop/sb/CS-028648.htm|Intel "Desktop Boards. Linux* support resources"]] -> Linux on DQ57TML / DQ57TM boards #.
+    *[[http://www.intel.com/content/dam/doc/product-brief/desktop-board-dq57tml-executive-brief.pdf|Intel "Intel "Intel Desktop Board DQ57TML Executive Series - Product Brief"]] ( PDF ) -> "1 serial Port via internal header, 1 x PS/2, floppy disk connector".
+    *<del>[[http://geizhals.at/de/?in=&fs=DQ57TML|Geizhals.AT "DQ57TML"]]</del>.
+  *Intel DQ67OW.
+    *[[http://ark.intel.com/products/51999/Intel-Desktop-Board-DQ67OW|ARK - Your source for information on Intel products "Intel Desktop Board DQ67OW"]], with 1 parallel port, <del>0 serial ports but "serial Port via internal header"</del>, vPro, AMT 7.0.
+    *[[http://www.intel.com/content/www/de/de/motherboards/desktop-motherboards/desktop-board-dq67ow.html|Intel "Intel PC-Mainboard DQ67OW"]] - "Da es auch ältere Standards unterstützt, eignet es sich hervorragend für den Anschluss von Peripheriegeräten, die Parallel-, Disketten- oder PS/2-Ports benötigen".
+    *[[http://www.geizhals.at/de/?in=&fs=DQ67OW|Geizhals.AT "DQ67OW"]].
+    *[[http://www.intel.com/content/dam/doc/product-brief/desktop-board-dq67ow-executive-brief.pdf|Intel "Intel Desktop Board DQ670W Executive Series - Product Brief"]] ( PDF )  -> "no serial Port via internal header, 1 x PS/2, floppy disk connector".
+  *Intel DQ67EP.
+    *[[http://www.intel.com/content/www/us/en/motherboards/desktop-motherboards/desktop-board-dq67ep.html|Intel "Intel Desktop Board DQ67EP"]].
+  *Intel DQ67SW.
+    *[[http://www.intel.com/content/www/us/en/motherboards/desktop-motherboards/desktop-board-dq67sw.html|Intel "Intel Desktop Board DQ67SW"]].
+== Asus ==
+  *[[http://commercial.asus.com/product/index/7|ASUS Commercial Products "Home > Products > PC Components > Motherboards > Intel"]].
+    *[[http://commercial.asus.com/product/detail/103|ASUS Commercial Products "ASUS P8Q67-M DO/CSM Motherboard"]] - "vPro", "AMT7".
+  *[[http://usa.asus.com/Motherboards/Intel_Socket_1155/P8Q67M_DOCSM/|ASUS "ASUS P8Q67-M DO/CSM Motherboard"]] - "1 x parallel port, 1 x COM port(s), 2x PS/2, 1 x internal speaker connector(s)". No floppy disk connector :-(.
+  *[[http://geizhals.at/de/?in=&fs=P8Q67-M+DO%2FCSM|Geizhals.AT "P8Q67-M DO/CSM"]].
+== Foxconn ==
+  *[[http://www.foxconnchannel.com/|Foxconn]].
+    *[[http://www.foxconnchannel.com/ProductDetail.aspx?T=Motherboard&U=en-us0000529|Foxconn "Q67M-S"]].
+  *[[http://geizhals.at/de/640343|Geizhals.AT "Foxconn Q67M, Q67 (dual PC3-10667U DDR3)"]].
+== Gigabyte ==
+  *Q57M.  
+    *[[http://www.gigabyte.com/products/product-page.aspx?pid=3326|Gigabyte "GA-Q57M-S2H"]].
+    *[[http://geizhals.at/de/522593|Geizhals.AT "Gigabyte GA-Q57M-S2H, Q57 (dual PC3-10667U DDR3)"]].
+  *Q67M.
+    *[[http://www.gigabyte.com/products/product-page.aspx?pid=3824|Gigabyte "GA-Q67M-D2H-B3"]].
+    *[[http://geizhals.at/de/639390|Geizhals.AT "Gigabyte GA-Q67M-D2H-B3, Q67 (B3) (dual PC3-10667U DDR3)]].
+    *[[http://mbforum.gigabyte.de/index.php?page=Thread&threadID=4457|Gigabyte.DE Forum "welches Gigabyte (H67, 768, ezc.) bietet Intel Vpro (Intel ATM) ???"]].
+== Supermicro ==
+  *C7SIM-Q.
+    *[[http://www.supermicro.com/products/motherboard/Core/Q57/C7SIM-Q.cfm|Supermicro "C7SIM-Q"]].
+    *[[http://geizhals.at/de/584903|Geizhals.AT "C7SIM-Q, Q57 (dual PC3-10667U)"]].
+  *C7Q67.
+    *[[http://www.supermicro.com/products/motherboard/core/q67/c7q67.cfm|Supermicro "C7Q67"]]
+    *[[http://geizhals.at/de/109746910|Geizhals.AT "C7Q67"]].
+=== Computers ===
+== Dell ==
+  *[[http://www.dell.de/|Dell.DE]].
+    *Dell OptiPlex 755, Dell OptiPlex 760.
+    *[[http://www.dell.com/de/unternehmen/p/optiplex-990/pd|Dell.DE "OptiPlex 990 Desktop-PC"]].
+      *Dell OptiPlex 990 SF Advanced.
+      *There is the rumour that you must order a special option in the online order formular, to activate vPro/AMT remote access, invoiced with 5 EUR. If you don´t do so, the rumour says that then you will get a computer without working remote access. Maybe it is not possible to order this option by the online order process ?! The option might appear in the section "BIOS Configuration Options" in the online order formular. Please [[imprint.html|contact me]] if you know what this option is, exactly. 
+    *Dell OptiPlex 990 SFF.
+      *[[http://www.heise.de/ct/inhalt/2011/23/75/|heise online, c't 23/2011]] - "Prüfstand. Ferngelenkt. vPro-Rechner Dell OptiPlex 990 SFF. Dells Büro-PC Optiplex 990 Small Form Factor kombiniert die schnellste Sandy-Bridge-CPU mit einem kompakten Gehäuse und lässt sich auch aus der Ferne warten".
+== Fujitsu ==
+  *[[http://www.fujitsu.com/de/products/computing/pc/desktops/|Fujitsu Deutschland - Desktop-PCs]].
+    *There is a rumour, that you must explicitely choose an order option to get a computer with activated vPro/AMT, invoiced with with 50 EUR .. 100 EUR, in 2012-03.
+== Lenovo Notebooks and Desktops with VPro ==
+  *In 2014, I was told by Lenovo staff members, that the "T430", "T440", "T530", "T540" ThinkPad notebooks and the "Think Centre M93p" desktop computer once could be ordered with i5-vpro and i7-vpro CPUs. 
+  *The chipset [[http://ark.intel.com/products/75007/Intel-DH82Q87-PCH|Intel "Intel Q87 Chipset"]] enables the vPro technology!
+  *Further, an Intel WLAN network component must be installed. With these special computers, the "Wake on LAN" ( WOL ) technology is then implemented, without further order.
+    *[[http://en.wikipedia.org/wiki/Wake-on-LAN|EN.Wikipedia "Wake On LAN"]]., [[http://de.wikipedia.org/wiki/Wake_On_LAN|DE.Wikipedia "Wake On LAN"]].
+  *There is the Lenovo Online Shop.
+    *<del>[[http://shop.lenovo.com/de/de/laptops/thinkpad/t-series/t440/|Lenovo Deutschland GmbH, Notebook "T440"]], in 2014-09 no offers with i5-vpro CPUs</del>.
+    *[[http://shop.lenovo.com/de/de/laptops/thinkpad/t-series/t440p/|Lenovo Deutschland GmbH, Notebook "T440p"]] with i5-vpro, i7-vpro CPUs.
+    *[[http://shop.lenovo.com/de/de/laptops/thinkpad/t-series/t540p/|Lenovo Deutschland GmbH, Notebook "T540p"]] with i5-vpro, i7-vpro CPUs.
+    *[[http://shop.lenovo.com/de/de/desktops/thinkcentre/m-series-towers/m93-m93p/|Lenovo Deutschland GmbH, Desktop PC "ThinkCentre M93/M93p Tower"]] - "Der M93p ist mit Intel® vPro™ Technik ausgestattet und unterstützt bis zu Active Management Technology (AMT) 9.0"
+  *And there is are Lenovo Stores.
+    *[[http://www.lenovo.com/de/de/lenovo_stores/|Lenovo Deutschland GmbH "Lenovo Stores"]].
+    *Sometimes special Lenovo Stores offer upgraded high-end computers ( i.e. with much RAM, much storage, fastest CPU,..).
+=== Ultrabook Notebooks ===
+  *[[http://en.wikipedia.org/wiki/Ultrabook|EN.Wikipedia "Ultrabook"]], [[http://de.wikipedia.org/wiki/Ultrabook|DE.Wikipedia "Ultrabook"]], usually with with 64 / 128 / 256 KB SDD. 
+    *[[http://www.acer.de/ac/de/DE/content/group/notebooks|Acer Anspire]] - With or without Intel vPro ?! No claim of AMT technology.
+    *[[http://zenbook.asus.com/|ASUS Zenbook]] - With or without Intel vPro ?! No claim of AMT technology.
+    *[[http://www.dell.com/XPS13|Dell XPS13]] - With or without Intel vPro ?! No claim of AMT technology.
+    *[[http://shop.lenovo.com/deweb/de/de/notebook/ideapad/u-series/u300s|Lenevo U300S]] - With or without Intel vPro ?! No claim of AMT technology.
+    *[[http://samsung.de/de/Privatkunden/Mobil/Notebooks/Serie5/subtype.aspx|Samsung Series 5]] - With or without Intel vPro ?! No claim of AMT technology.
+    *[[http://us.toshiba.com/computers/laptops/portege/z830/|Toshiba Portege Z830]] - "It starts with advanced Intel vPro technology". No claim of AMT technology.
+    *[[http://www.sony.de/product/vn-z-series?cid=14001396&s_kwcid|Sony Vaio Z]] - Just some of the CPUs support Intel vPro. No claim of AMT technology.
+==== Zero Clients with VNC ====
+  *[[http://www.fujitsu.com/de/products/computing/pc/zero-clients/|Fujitsu Technology Solutions GmbH "Fujitsu Zero Clients"]] - powered by [[http://www.panologic.com/|Pano Logic]] zero-client technology ?
+    *The monitor with zero client [[http://www.fujitsu.com/de/products/computing/pc/zero-clients/advanced/DZ22-2/|Fujitsu Technology Solutions GmbH "Zero Client DZ22-2"]].
+      *[[http://geizhals.at/de/?in=&fs=DZ22-2|Geizhals.AT "DZ22-2"]].
+    *The monitor with zero client [[http://www.fujitsu.com/de/products/computing/pc/zero-clients/advanced/DZ19-2/|Fujitsu Technology Solutions GmbH "Zero Client DZ19-2"]].
+      *[[http://geizhals.at/de/?in=&fs=DZ19-2|Geizhals.AT "DZ19-2"]].
+    *The USB stick [[http://www.fujitsu.com/de/products/computing/pc/zero-clients/all-round/mz/|Fujitsu Technology Solutions GmbH  "Portable Zero Client MZ900"]].
+  *[[http://www.panologic.com/|Panologic, Inc. "Pano Logic"]].
+    *[[http://www.panologic.com/zero-client-computing|Panologic, Inc. "Zero Client Computing"]].
+    *Blog [[http://www.panologic.com/blog|Pano Logic Blog]].
+
+==== Remote Control Software ====
+=== SIMATIC IPC Remote Manager ===
+  *[[http://www.automation.siemens.com/mcms/pc-based-automation/de/industrie-pc/erweiterungskomponenten/ipc-remote-manager/Seiten/Default.aspx|Siemens AG "SIMATIC IPC Remote Manager"]].
+  *2 interfaces.
+    *Web browser interface, for basic AMT operations.
+    *RealVNC VNC Viewer Plus, SIEMENS OEM Edition.
+  *Vendor [[http://www.mercateo.com/kw/6es7648%282d%296ea01%282d%292ya0%2820%29siemens%2820%29simatic%2820%29ipc%2820%29remote%2820%29manager/6es7648_6ea01_2ya0_siemens_simatic_ipc_remote_manager.html|Mercateo "6ES7648-6EA01-0YA0 Siemens Simatic IPC REMOTE MANAGER"]].
+  *[[http://www.automation.siemens.com/mcms/pc-based-automation/de/industrie-pc/box-pc|SIEMENS AG "SIMATIC Box PC – kompakte Industrie-PCs für den universellen Einsatz"]].
+=== TightVNC ===
+  *[[http://www.tightvnc.com/|TightVNC]].
+  *[[http://en.wikipedia.org/wiki/TightVNC|EN.Wikipedia "TightVNC"]].
+=== UltraVNC ===
+  *[[http://en.wikipedia.org/wiki/UltraVNC|EN.Wikipedia "UltraVNC"]], [[http://de.wikipedia.org/wiki/UltraVNC|DE.Wikipedia "UltraVNC"]].
+  *[[http://www.uvnc.com/|UltraVNC]] - "Remote PC support".
+  *[[http://www.vnc-world.com/|VNC-World.com UG (haftungsbeschränkt)]].
+  *[[http://ultravnc.sourceforge.net/|Sourceforge "UltraVNC"]], [[http://www.sourceforge.net/projects/ultravnc/|Sourceforge "UltraVNC"]].
+=== VNC ===
+  *The commercial [[http://www.realvnc.com/|RealVNC]] for Windows and Linux.
+    *The free [[http://www.realvnc.com/products/free/4.1/|VNC Free Edition 4.1]] for Windows and Linux.
+    *The commercial [[http://www.realvnc.com/products/viewerplus/|RealVNC "VNC Viewer Plus. A premium version of VNC Viewer providing out-of-band KVM control for supported computers with Intel Core vPro technology"]].
+  *[[http://web.archive.org/web/*/http://www.uk.research.att.com/vnc/|Archive.Org "University Of Cambridge, Department of Engineering, Virtual Network Computing, hosted in conjunction with The Laboratory for Communications Engineering - VNC"]].
+  *[[http://en.wikipedia.org/wiki/Virtual_Network_Computing|EN.Wikipedia "Virtual Network Computing"]], [[http://de.wikipedia.org/wiki/Virtual_Network_Computing|DE.Wikipedia "Virtual Network Computing"]].
+  *[[http://en.wikipedia.org/wiki/RealVNC|EN.Wikipedia "RealVNC"]].
+=== Reverse HTTP Starter ===
+  *The shareware [[http://web.archive.org/web/*/http://www.m-azlan.com/software/rhs/index.html|Archive.Org "M-Azlan Software - Reverse HTTP Starter"]].
+  *[[http://www.newfreedownloads.com/download-Reverse-HTTP-Starter.html|New Free Downloads.com "Reverse HTTP Starter 1.7"]] - Download of the latest edition.
+===== Windows Remote Control =====
+==== Windows XP Remote Desktop Connection Software ====
+  *RemoteDesktop ( RDP ) 5.1, 5.2 for W2k clients.
+    *[[http://www.microsoft.com/download/en/details.aspx?id=856|Microsoft Download Center "Windows XP Remote Desktop Connection software [XPSP2 5.1.2600.2180]"]] for Win95, Win98SE, W2k, WinXP, Win2003.
+    *[[http://www.microsoft.com/download/en/details.aspx?id=14531|Microsoft Download Center "Remote Desktop Web Connection for Windows Server 2003 [5.2.3790]"]] for Win95, Win98SE, W2k, WinXP, Win2003.
+  *RemoteDesktop ( RDP ) 7.0 for WinXP, Vista clients. "The Remote Desktop Connection 7.0 client update enables you to use the new Remote Desktop Services features. These features are introduced in Windows 7 and in Windows Server 2008 R2"
+    *I was told by experts, that RDP7 features multi-monitor support, in opposite to RDP5.
+    *[[http://www.microsoft.com/download/en/details.aspx?id=20609|Microsoft Download Center "Update for Windows XP (KB969084)"]] - "The Remote Desktop Connection 7.0 client update enables you to use the new Remote Desktop Services features".
+    *[[http://www.microsoft.com/download/en/details.aspx?id=12767|Microsoft Download Center "Update for Windows Vista (KB969084)"]] - "The Remote Desktop Connection 7.0 client update enables you to use the new Remote Desktop Services features".
+
+==== PowerShell Remoting ====
+  *See [[wscripting.html|Scripting Programming Languages for Windows]].
+
+===== SIEMENS S7 =====
+  *"WinCC Sm@rt Server" ( formerly "Sm@rt Service", "Sm@rt Access" ) -> Access to SIEMENS PLCs with a browser. See [[automation.html|Automation & Process Logic Control]].
+
+===== Commercial and free Remote Tools =====
+  *The commercial [[http://www.netviewer.de/|NetViewer]].
+    *[[http://www.netviewer.com/de/produkte/netviewer-support/|Netviewer AG "netviewer support"]] for Windows - free for personal non-commercial use.
+  *The commercial [[http://www.gotomypc.com/|GoToMyPC]].
+  *The commercial [[http://www.teamviewer.de/|TeamViewer]] - free for noncommercial use.
+  *The commercial [[http://www.fastviewer.de/|FastViewer]] - affordable call-by-call business model.
+===== Forums, Newsgroups =====
+  *[[http://communities.intel.com/community/itpeernetwork/vproexpert|Intel Communities "Intel vPro Expert Center"]].
+  *[[http://forums.mozillazine.org/|mozillaZine Forums]].
+===== Resources =====
+  *[[http://en.wikipedia.org/wiki/Comparison_of_remote_desktop_software|EN.Wikipedia "Comparison of remote desktop software"]].
+  *[[http://en.wikipedia.org/wiki/Comparison_of_SSH_clients|EN.Wikipedia "Comparison of SSH clients"]].
+  *[[http://en.wikipedia.org/wiki/KVM_switch|EN.Wikipedia "KVM switch"]], [[http://de.wikipedia.org/wiki/KVM-Switch|EN.Wikipedia "KVM-Switch"]].
+{{tag>"remote access" computer network kvm "keyboard video mouse"}}
+<footnote_navi_en>

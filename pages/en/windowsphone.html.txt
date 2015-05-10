@@ -1,0 +1,118 @@
+====== [hemmerling] Windows Phone ======
+Related Pages:
+  *[[metro.html|Flat Design]].
+  *[[iphones.html|Internet Messenger, IP Telephony, Video Conferencing, Voice Over IP, Unified Messaging, Unified Communications]].
+  *[[dotnet.html|Microsoft .NET Framework 1/2]].
+  *[[dotnet02.html|Microsoft .NET Framework 2/2]].
+  *[[windows.html|Microsoft Windows]].
+
+===== Windows Phone =====
+  *[[http://developer.microsoft.com/|Microsoft Developer]] - Microsoft’s worldwide online destination for developers.
+  *[[http://www.microsoft.com/windowsphone/|Microsoft "Windows Phone"]].
+  *[[http://create.msdn.com/|Microsoft "App Hub"]] ( formerly "Marketplace" ).
+  *[[http://msdn.microsoft.com/en-us/library/ff637515%28VS.92%29.aspx|Microsoft MSDN "Design Resources for Windows Phone"]].
+  *[[http://www.microsoft.com/germany/msdn/webcasts/finder/default.mspx?show=webcast&g=&o=&s=&showmore=Archivierte%20Webcasts&init=&presenter=&webcasttyp=&level=&locale=&technology=&q=Windows%20Phone|Microsoft Webcast Finder "Windows Phone"]].
+  *[[http://www.microsoft.com/windowsphone/en-us/howto/wp7/|Windows phone 7 Help and how-to]].
+  *[[http://dev.windowsphone.com/en-us|Microsoft "Windows Phone Dev Center"]].
+  *[[http://dev.windowsphone.com/en-us/downloadsdk|Microsoft "Windows Phone SDK"]].
+===== Nokia =====
+  *[[http://www.developer.nokia.com/Developer_Programs/Premium_program.xhtml|Nokia Developer "Nokia Premium Developer Program"]] - If you register here, you may safe Microsoft's Windows-Phone developer fee for the first 12 months :-).
+  *[[http://developer.nokia.com/RDA|Nokia Developer "Remote Device Access"]] - Free access to online hardware for application testing :-).
+  *[[http://www.dvlup.com/|Nokia DVLUP]] - "DVLUP helps developers become more successful. Have fun. Earn Rewards. Build New Ideas".
+    *[[http://www.dvlup.com/Challenges|Nokia DVLUP "Challenges"]].
+===== Windows Mobile =====
+  *[[http://msdn.microsoft.com/windowsmobile/|Microsoft MSDN "Windows Mobile Developer Center"]].
+  *Blog [[http://blogs.msdn.com/b/windowsmobile/|Microsoft MSDN "Windows Mobile Team Blog"]].
+===== Windows Phone Features =====
+  *Isolated Storage, no file system.
+  *Internet by HTTP, HTTPS.
+  *Developer Account at "App Hub" necessary, for testing on your real device ( up to 3 devices with 1 account ).
+  *Synchronization of E-Mails and data just by cloud services and Exchange 2010 server / Sharepoint 2010 server.
+  *Synchronization of Music, Videos by ZUNE.
+  *Serialization of data for storage is necesary as action in case of application suspending or stop of application.
+  *Before a third-party application is published on "App Hub", Micrsoft does a software validation in the form of an application stress test.
+  *You may transfer a beta software from one developer phone to another developer phone. Each developer phone requires a developer account at "App Hub".
+===== Windows Phone Development Tools =====
+  -Microsoft Expression Blend.
+    *The free [[http://www.microsoft.com/expression/windowsphone/|Microsoft Expression Blend 4 for Windows Phone]].
+    *[[http://gallery.expression.microsoft.com/|Microsoft Expression Community Gallery]].
+    *[[http://expression.microsoft.com/library/|Microsoft Expression Library]].
+    *SketchFlow - A feature of the commercial editions of "Microsoft Expression Blend".
+      *[[http://www.microsoft.com/expression/products/SketchFlow_Overview.aspx|Microsoft "SketchFlow"]].
+      *[[http://www.electricbeach.org/?p=145|Christian Schorman, Electric Bench "SketchFlow – Sketching and Prototyping in Expression Blend"]], 2009-03-18.
+  -Microsoft Visual C# 2010.
+    *[[http://en.wikipedia.org/wiki/Microsoft_Visual_Studio|EN.Wikipedia "Microsoft Visual Studio"]], [[http://de.wikipedia.org/wiki/Microsoft_Visual_Studio|EN.Wikipedia "Microsoft Visual Studio"]].
+    *[[http://www.microsoft.com/express/Downloads/|Microsoft Express Downloads - Visual Studio Express and SQL Server Express]].
+      *"All - Offline Install ISO image file" - This download contains an offline installer for "Visual C# 2010 Express".
+    *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=04704acf-a63a-4f97-952c-8b51b34b00ce|Microsoft Download Center "Windows Phone Developer Tools RTW"]] - offline installer.
+    *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=49b9d0c5-6597-4313-912a-f0cca9c7d277|Microsoft Download Center "Windows Phone Developer Tools October 2010 Update"]].
+    *[[http://www.microsoft.com/express/support/regins/|Visual Studio 2010 Express - Product Registration
+ - Offline Registration]].
+     *Remote debugging with Visual Studio -> See [[sdevtools.html|Software Development Tools]].
+  -XNA Game Studio.
+    *[[http://en.wikipedia.org/wiki/Microsoft_XNA|EN.Wikipedia "Microsoft XNA"]], [[http://de.wikipedia.org/wiki/XNA_%28Microsoft%29|DE.Wikipedia "XNA (Microsoft)"]].
+    *[[http://msdn.microsoft.com/xna/|Microsoft "XNA Developer Center"]].
+    *[[http://create.msdn.com/resources/downloads|Microsoft AppHub - Downloads]].
+      *The free "XNA Game Studio".
+      *The free "Windows Phone Developer Tools" 
+      *Other free downloads - "Microsoft Direct X Software Development Kit", "Microsoft DirectX Runtime Web Installer".
+  -Zune.
+    *[[http://www.zune.net/|Zune]].
+    *[[http://www.zune.net/products/software/download/|Zune "Zune software for PC"]], for WinXP, Vista, Win7.
+===== Online Tools =====
+  *The free [[http://appstudio.windowsphone.com/|Microsoft "Windows Phone App Studio"]].
+
+===== Cloud Services for Windows Phone =====
+  -[[http://www.xbox.com/live|Xbox LIVE]].
+  -[[http://mail.google.com/|Google Mail]].
+  -[[http://mail.yahoo.com/|Yahoo Mail]].
+  -[[http://www.windowslive.de/|Windows LIVE]].
+  -[[http://www.facebook.com/|Facebook]].
+  -[[http://www.zune.net/|Zune]].
+  -[[http://www.microsoft.com/windowsazure/|Windows Azure]].
+  -[[http://www.microsoft.com/exchange|Microsoft Exchange Server]] 2010.
+  -[[http://sharepoint.microsoft.com/|Microsoft Sharepoint Server]] 2010.
+===== Legacy Windows Mobile 6.x =====
+  *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=06111a3a-a651-4745-88ef-3d48091a390b&displaylang=en|Microsoft Download Center "Windows Mobile 6 Professional and Standard Software Development Kits Refresh"]].
+  *<del>[[http://msdn.microsoft.com/windowsmobile/bb264329|Microsoft MSDN "Windows Mobile 6 Resource Kit"]]</del>.
+  *[[http://www.microsoft.com/windowsphone/en-us/howto/wp6/|Windows phone 6.5 Help and how-to]].
+  *ActiveSync.
+    *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=9e641c34-6f7f-404d-a04b-dc09f8141141&displaylang=en|Microsoft Download Center "ActiveSync 4.5"]].
+    *[[http://www.microsoft.com/downloads/details.aspx?FamilyID=9e641c34-6f7f-404d-a04b-dc09f8141141&displayLang=de|Microsoft Download Center "ActiveSync 4.5 - Deutsch"]].
+  *[[http://www.microsoft.com/downloads/en/details.aspx?displaylang=en&FamilyID=dd567053-f231-4a64-a648-fea5e7061303|Microsoft Download Center "Microsoft Device Emulator 2.0 -- Standalone Release"]].
+===== Add-on Services =====
+  *[[http://www.navigon.com/portal/telekom/produkte/select/windows-phone-7.html|MobileNavigator Windows Phone 7 "NAVIGON select Telekom Edition für Windows Phone 7"]].
+===== Literature =====
+==== Paper Magazines ====
+  *Paper magazine [[http://www.mobile-vision.de/|mobile news]] by [[http://www.nmg.de/|Neue Mediengesellschaft Ulm mH]], Germany.
+===== Howto develop and promote Apps =====
+==== How to include third-party Ads in your App ====
+  *[[http://pubcenter.microsoft.com/|Microsoft Adverting pubCenter]] - "Make money by including ads in your applications".
+==== Windows Phone Developers - They know how to develop and promote Apps ====
+  *[[http://wp7apps.blog.de/|Holger Mester]], [[http://www.facebook.com/holger.mester|Facebook "Holger Mester"]]- Speech “Appentwicklung jenseits des Programmieren” ( “Apps development beyond programming” ), 2012-01-29.
+    *[[http://de-de.facebook.com/Gedichtebuch|Facebook "Gedichtebuch"]].
+    *[[http://www.facebook.com/pages/SMS-Plus-Community/216209691805899|Facebook "SMS-Plus-Community"]].
+===== Resources =====
+  *As of 2013, I was told by experts, that Micrsoft is willing to grant free WindowsPhone licenses to hardware manufacturers for any hardware device equipped with a display of 8" or less size.
+  *[[http://davidcrow.ca/article/7511/wp7-design-resources|DavidCrow.ca - Helping companies with marketing, product strategy, user experience design, and technology development "Windows Phone 7 Design Resources"]].
+  *[[http://crocusgirl.wordpress.com/2010/04/21/windows-phone-7-design-notes-part2/|Daydreaming Crocus/Cigdem Patlak "Windows Phone 7 Design Notes; Part2: Metro + Adrian Frutiger"]].
+  *[[http://www.heise.de/produkt/Windows-Phone-7|heise online "Themenseite Windows Phone 7"]].
+  *[[http://indyfromoz.wordpress.com/windows-phone-7-resources/|Indyfromoz’s Weblog "Windows Phone 7 Resources"]].
+  *[[http://innovativesingapore.com/2010/08/experession_phone/|Innovative Singapore "Windows Phone 7 : Style it using Expression Blend"]].
+  *Blog [[http://blogs.msdn.com/b/frankpr/|Frank Prengel "FrankPr's World of Devices"]].
+  *[[http://stackoverflow.com/questions/tagged/windows-phone-7+expression-blend|StackOverflow, Tagged Questions "windows-phone-7 + expression-blend"]].
+  *Blog [[http://blogs.msdn.com/twendel|MSDN Blogs "Tom Wendel"]], [[http://www.facebook.com/twendel|Facebook "Tom Wendel"]].
+  *Blog [[http://www.uxmagic.com/blog/|XAML Refugees Design Blog. XAML, Expression Blend, Silverlight, WPF, XNA, and WP7, Windows Embedded Compact]].
+  *[[http://blogs.compactframework.de/Torsten.Weber/|Torsten.Webers Blog]].
+    *[[http://blogs.compactframework.de/Torsten.Weber/2007/11/05/NET+Compact+Framework+FAQ+Windows+Mobile+FAQ.aspx|Torsten Weber ".NET Compact Framework FAQ, Windows Mobile FAQ"]], 2007-11-05.
+===== Forums, Newsgroups =====
+  *[[http://forums.create.msdn.com/forums/|Microsoft MSDN "App Hub Forums"]].
+  *[[http://forums.create.msdn.com/forums/|Microsoft MSDN "Support Forum for Windows Phone Developers"]].
+  *[[http://forums.create.msdn.com/forums/default.aspx?GroupID=6|Microsoft MSDN "Support Forum for XNA Graphics Studio"]].
+  *[[http://social.expression.microsoft.com/Forums/blend/|Microsoft Expression Forum]].
+  *[[http://social.msdn.microsoft.com/Forums/de-de/windowsphonedevde/|Microsoft MSDN Forums "Windows Mobile Developer Center > Software Entwicklung für Windows Phone Foren > Windows Phone"]].
+  *[[http://www.pocketpc.ch/forum/|PocketPC.ch - Deine Smartphone Community]].
+  *[[http://forum.windows-smartphones.de/|Windows Smartphones Forum. Größtes deutsches Forum für Smartphones mit Windows Phone]].
+  *[[http://www.handy-faq.de/forum/windows_phone_7_forum/|Windows Phone 7 Forum]].
+{{tag>Windows, phone, "Windows Phone 7" "Windows Phone 8" "Windows Phone" "Windows CE"}}
+<footnote_navi_en>

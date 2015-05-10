@@ -1,0 +1,836 @@
+====== [hemmerling] ARM Embedded Systems ( ARM7, ARM8, ARM9, ARM11, Cortex ) ======
+Related page:
+  *[[atmelarm.html|Atmel ARM-based MCUs and eMPUs]].
+  *[[debugger.html|Hardware Debugger and Software Debugger]].
+  *[[tinkerforge.html|Tinkerforge]].
+===== Hardware =====
+==== ARM7, ARM Cortex M3 - no MMU, without Operating System or small Realtime OS ====
+  *[[http://www.luminarymicro.com/|Luminary Micro - Stellaris — the industry's first Cortex-M3 MCUs]].
+==== ARM8, ARM9, ARM11, Cortex A8 ====
+  *[[http://www.ehitex.de/p_info.php?products_id=292|STR9-comSTICK]].
+==== ARM8, ARM9, ARM11, Cortex A8 with Linux ====
+  *[[http://www.genesi-usa.com/|Genesi USA, Inc.]].
+    *[[http://www.genesi-usa.com/products/smartbook|Genesi USA, Inc. "EFIKA MX Smartbook"]] -> ARM Cortex-A8.
+==== Cortex A8 with Linux or Android ====
+  *BeagleBone ( see below ).
+==== Realtime and Determinism ====
+  *I was told by experts:
+    *Legacy ARM 7, 9, 11 architecture - Deterministic I/O time was practically impossible. For I/O ( or interrupt routines ?! ), the C compilers generate 5 non-atomic commands, plus 2 other commands. It was necessary to disable interrupts for deterministic I/O operations - This is not acceptable for many applications and systems.
+    *ARM Cortex architecture - Now there are just 3 atomic commands necessary for I/O ( or interrupt routines ?! ), but the sequence can be still interrupted of course. So either it is not necessary to disable interrupts for I/O operations, or at least the time with disabled interrupts is much shorter.
+    *Interrupts. 
+      *Interrupt grouping is defined by ARM ( -> ARM documentation ), not by the semiconductor manufacturers ). Especially, it is CPU specific!
+      *The sequence of system initialisation.
+       *Global interrupt flag is enabled.
+        *Set clock.
+        *Set peripherals ( after clock is set ).
+        *Free IRQs.
+==== Electric Imp, based on Cortex-M3 ====
+  *[[http://www.electricimp.com/|electric imp]].
+  *Wiki [[http://devwiki.electricimp.com/|electric imp Development Wiki]].
+  *Wireless communication ( "WiFi" ) is enabled!
+==== Espruino, based on ARM Cortex M3 ====
+  *[[http://www.espruino.com/|Espruino]].
+  *[[http://www.github.com/espruino|GitHub "Espruino JavaScript"]].
+  *[[http://code.google.com/p/tiny-js/|Google Code " tiny-js. A simple single-file javascript interpreter written in C++"]].
+  *[[http://www.kickstarter.com/projects/gfw/espruino-javascript-for-things|Kickstarter "Gordon Williams: 'Espruino: JavaScript for Things'"]]
+  *[[http://www.heise.de/hardware-hacks/artikel/Espruino-JavaScript-ganz-weit-unten-2132781.html|Heise online, c´t Hacks "Maik Schmidt: Espruino - JavaScript ganz weit unten. Mikrocontroller ohne C programmieren"]], 2014-03-04.
+    *[[http://www.heise.de/hardware-hacks/artikel/Espruino-JavaScript-ganz-weit-unten-2132781.html?artikelseite=2|Heise online, c´t Hacks "Maik Schmidt: Espruino - JavaScript ganz weit unten. Mikrocontroller ohne C programmieren", page 2]].
+    *[[http://www.heise.de/hardware-hacks/artikel/Espruino-JavaScript-ganz-weit-unten-2132781.html?artikelseite=3|Heise online, c´t Hacks "Maik Schmidt: Espruino - JavaScript ganz weit unten. Mikrocontroller ohne C programmieren", page 3]].
+    *[[http://www.heise.de/hardware-hacks/artikel/Espruino-JavaScript-ganz-weit-unten-2132781.html?artikelseite=4|Heise nline, c´t Hacks "Maik Schmidt: Espruino - JavaScript ganz weit unten. Mikrocontroller ohne C programmieren", page 4]].
+
+==== Gnublin ====
+  *[[http://www.gnublin.org/|embedded projects GmbH "GNUBLIN"]], [[http://gnublin.embedded-projects.net/|embedded projects GmbH "GNUBLIN"]].
+    *"Mini Linux Server: The perfect open source toolkit for home automation".
+    *"GNUBLIN has got an ARM9 processor built-in with 180MHz and 32MB RAM on which you can run an entire Linux".
+==== The Micro Python board ( the Pyboard ) with STMicroelectronics STM32F405, based on ARM Cortex M4 ====
+  *The Micro Python board ( the pyboard ) is designed to run [[http://www.micropython.org/|Micro Python: Python for microcontrollers]], "a lean and fast implementation of the Python 3 programming language that is optimised to run on a microcontroller" -> See [[python.html|Python]].
+==== Pogoplug, based on ARM v6 Architecture ====
+  *[[http://www.pogoplug.com/|Pogoplug]] - "Includes free device ($49.95 value)", "Free device offer available in U.S. only".
+    *[[http://my.pogoplug.com/downloads|Pogoplug - Download]].
+    *Blog [[http://blog.pogoplug.com/|Pogoplug Blog]].
+    *[[http://www.facebook.com/Pogoplug|Facebook "Pogoplug"]].
+    *[[http://twitter.com/pogoplug|Twitter "Pogoplug"]].
+  *[[http://at-de.forum.ibood.com/28132-pogoplug_pro_multimedia-sharing-lsung_mit_4__usb_-_in_60_sekunden_mittels_webbrowser_vollen_zugang_z/|iBood "Pogoplug Pro Multimedia-Sharing-Lösung mit 4 x USB – In 60 Sekunden mittels Webbrowser vollen Zugang zu euren Daten zu Hause"]].
+  *[[http://www.amazon.de/exec/obidos/ASIN/B004BF95HY/hemmerling-21|Amazon.DE "Cloud Engines Pogoplug Pro USB NAS Adapter"]].
+  *[[http://www.ebay.de/sch/items/?_nkw=pogoplug|eBay.DE - Search for "pogoplug"]].
+  *[[http://www.archlinuxarm.org/platforms/armv6/pogoplug-provideov3|Arch Linux ARM - "Pogoplug Pro/Video/v3"]].
+  *[[http://www.linuxundich.de/de/hardware/linux-tauglicher-steckdosencomputer-pogoplug-classic-fur-knapp-15-euro/|Linux und ich "Steckdosencomputer Pogoplug Classic für knapp 15 Euro"]] #.
+==== Raspberry Pi 2, based on 4 x ARM Cortex A7 ====
+  *[[http://www.raspberrypi.org/raspberry-pi-2-on-sale/|Raspberry Pi "Raspberry Pi 2 on sale now at $35"]].
+  *[[http://www.winfuture.de/news,85651.html|WinFuture "Raspberry Pi 2: Sechsfache Leistung und kostenloses Windows 10"]].
+    *"Die Leistungsfähigkeit des Systems wurde demnach um den Faktor 6 gesteigert. Verantwortlich dafür ist die Auswechslung des bisherigen BCM2835-SoCs mit einem Kern durch den neuen BCM2836-Chip von Broadcom. In diesem arbeiten nun vier Cortex A7-Cores, die mit einer Taktfrequenz von maximal 900 Megahertz betrieben werden können".
+    *"Statt 512 Megabyte kommt nun 1 Gigabyte zum Einsatz".
+    *"Durch die neue Produktstrategie von Microsoft wird das Gerät zukünftig aber auch mit Windows 10 betrieben werden können. Microsoft wird den Angaben zufolge eine spezielle Lizenz für Bastler anbieten, die kostenlos eingesetzt werden kann".
+==== Raspberry Pi, based on ARM11 ====
+=== Hardware ===
+  *The classical Raspberry Pi device "B" has both Ethernet and HDMI interfaces ( but no VGA monitor interface, no PS/2 keyboard / mouse interface ).
+    *[[http://en.wikipedia.org/wiki/Digital_Visual_Interface|EN.Wikipedia "Digital Visual Interface"]], [[http://de.wikipedia.org/wiki/Digital_Visual_Interface|DE.Wikipedia "Digital Visual Interface"]].
+    *[[http://en.wikipedia.org/wiki/HDMI|EN.Wikipedia "HDMI"]], [[http://de.wikipedia.org/wiki/HDMI|DE.Wikipedia "HDMI"]].
+  *What is the maximum size of an SD card, suitable for Raspberry Pi?!
+  *[[http://www.reichelt.de/Kunststoffgehaeuse-TEKO/TEK-BERRY/3/index.html?ACTION=3&GROUPID=3354&ARTICLE=124752|Reichelt "TEK-BERRY. Design-Gehäuse für den Raspberry Pi, weiß"]].
+  *USB hubs with power supply.
+    *[[http://www.conrad.de/ce/de/product/971895/4-Port-USB-20-Hub-mit-Netzteil|CONRAD "LogiLink 4 Port USB 2.0 Hub mit Netzteil"]].
+=== ODROID ===
+== The Tools ==
+  *[[http://www.hardkernel.com/main/products/prdt_info.php?g_code=g140610189490|Hardkernel "ODROID"]].
+== Sales ==
+    *[[http://www.pollin.de/shop/suchergebnis.html?S_TEXT=ODROID-C1+Einplatinen-Computer%2C+1%2C5+GHz+QuadCore%2C+4x+USB%2C+1+GB|Pollin "ODROID"]].
+    *[[http://www.pollin.de/shop/dt/MTI2OTgxOTk-/Bausaetze_Module/Entwicklerboards/ODROID_C1_Einplatinen_Computer_1_5_GHz_QuadCore_4x_USB_1_GB.html|Pollin "ODROID-C1 Einplatinen-Computer, 1,5 GHz QuadCore, 4x USB, 1 GB"]].
+== Experts ==
+  *[[http://www.harmonic-code.org/|Gerrit Grunwald "harmonic-code.org"]], [[http://harmoniccode.blogspot.de/|Blogspot, Gerrit Grunwald - "Harmonic Code. The life of a geek that loves to code JavaFX, Swing and HTML5..."]], [[http://www.xing.com/profile/Gerrit_Grunwald|XING "Gerrit Grunwald"]], [[http://de.linkedin.com/in/harmoniccode|LinkedIn "Gerrit Grunwald"]], [[http://www.twitter.com/hansolo_|Twitter "Gerrit Grunwald, @hansolo"]].
+=== Kano ===
+  *[[http://www.kano.me/|Kano - Make a Computer]].
+  *[[http://www.kickstarter.com/projects/alexklein/kano-a-computer-anyone-can-make|Kickstarter "Kano: A computer anyone can make by Kano"]].
+  *[[http://en.wikipedia.org/wiki/Kano_%28computer%29|EN.Wikipedia "Kano (computer)"]], [[http://de.wikipedia.org/wiki/Kano_%28Computer%29|DE.Wikipedia "Kano (Computer)"]].
+=== May I put it on the market ? CE Compliance, MAC Address... ===
+  -AFAIK, there is a unique MAC address (1) - as the Raspberry uses a dedicated commercial Ethernet chip onboard, which supplies this MAC address ?!
+    *[[http://www.raspberrypi-spy.co.uk/2012/06/finding-the-mac-address-of-a-raspberry-pi/|Raspberry Pi Spy "Finding the MAC Address of a Raspberry Pi"]].
+    *If so, You may use the Raspberry board freely, in the Internet.
+  -AFAIK Raspberry passed CE certification (2).
+    *[[http://www.raspberrypi.org/archives/tag/ce-compliance|Raspberry Pi "Tag: CE compliance"]].
+    *Your device in which your board operates, needs a CE certification too (3).
+    *If so, and if your device fulfuls the conditions (1)+(2)+(3), You might put it on the market.
+  *In opposite, evaluation boards and demonstration boards of chip manufacturers nowadays often include the Ethernet function in the CPU chip. They provide non-unique MAC addresses and USB client device numbers "for evaluation and development purposes only". 
+    *You may not use use such boards freely in the Internet, with these non-unique MAC addresses.
+    *To put it on the market, you must get a legal unique MAC address and / or a legal unique USB client address. Additionally the embedded device in which your board is operating, must be CE compliant.
+=== Applications ===
+  *[[http://www.heise.de/newsticker/meldung/Mathematica-und-Wolfram-Language-laufen-auf-dem-Raspberry-Pi-2052632.html|heise online "Mathematica und Wolfram Language laufen auf dem Raspberry Pi"]], 2013-11-22 - "In Zukunft ist Mathematica sowie die noch unfertige Programmiersprache Wolfram Language kostenlos Bestandteil des Raspbian-Betriebssystems".
+=== Resources ===
+  *[[http://www.futurezone.at/digital-life/raspberry-pi-open-hardware-macht-fuer-uns-keinen-sinn/33.403.880?utm_content=buffer09e3f&utm_source=buffer&utm_medium=twitter&utm_campaign=Buffer|futurezone.at Technology News "Raspberry Pi: 'Open Hardware macht für uns keinen Sinn'"]], 2013-11.04.
+  *[[http://www.raspberrypi.org/|Raspberry Pi]] # - "An ARM GNU/Linux box for $25. Take a byte!".
+  *[[http://en.wikipedia.org/wiki/Raspberry_Pi|EN.Wikipedia "Raspberry Pi"]] -"The ARM11 is based on version 6 of the ARM architecture, which due to its age is no longer supported by several popular versions of Linux, including Ubuntu" :-(.
+  *[[http://de.wikipedia.org/wiki/Raspberry_Pi|DE.Wikipedia "Raspberry Pi"]] - "Entgegen ersten Annahmen wird die Linuxdistribution Ubuntu nicht auf dem Raspberry Pi zu installieren sein, da Ubuntu nur die ARMv7-Architektur (Cortex-Familie) unterstützt und Raspberry Pi die ARMv6-Architektur (ARM11-Familie) verwendet" :-(.
+  *[[http://en.wikipedia.org/wiki/Raspberry_Pi_Foundation|EN.Wikipedia "Raspberry Pi Foundation"]].
+  *[[http://en.wikipedia.org/wiki/Eben_Upton|EN.Wikipedia "Eben Upton"]].
+  *[[http://www.raspberrycenter.de/|RaspberryCenter.de - Die Raspberry Pi Community]].
+    *[[http://www.raspberrycenter.de/handbuch/raspberry-pi-handbuch|RaspberryCenter.de - Die Raspberry Pi Community "Raspberry Pi Handbuch"]].
+=== Software ===
+  *[[http://www.pi4j.com/|The Pi4J Project - Connecting Java to the Raspberry Pi]], [[http://www.github.com/Pi4J/|GitHub "Pi4J"]].
+  *[[http://www.youtube.com/user/RaspberryPiTutorials|YouTube "Raspberry Pi Tutorials"]].
+  *The official programming language is Python 3. See [[python.html|Python]].
+=== Literature ===
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/111846446X/hemmerling-21|Gareth Halfacree, Eben Upton "Raspberry Pi User Guide"]].
+  *The free worthless "Free Book Excerpt" <del>[[http://programfiles-whitepapers.tradepub.com/free/w_thep10/|"Raspberry Pi: A Quick-Start Guide"]]</del> is just a 13-page PDF preview of the complete book :-(.
+==== Teensy ====
+  *[[http://www.pjrc.com/teensy/| "Teensy USB Development Board"]] - ARM based microcontroller board, in Arduino Nano board format.
+  *The Teensy board is also designed to run [[http://www.micropython.org/|Micro Python: Python for microcontrollers]], "a lean and fast implementation of the Python 3 programming language that is optimised to run on a microcontroller" -> See [[python.html|Python]].
+===== Semiconductor Manufacturers =====
+==== Analog Devices, Inc. -> Analog Devices Precision Analog Microcontrollers, based on ARM7 ====
+  *[[http://www.analog.com/en/processors-dsp/analog-microcontrollers/products/index.html|Analog Devices, Inc. "Analog Microcontrollers"]] - "Analog Devices Precision Analog Microcontrollers".
+  *Evaluation board [[http://www.analog.com/en/digital-to-analog-converters/products/evaluation-boardstools/CU_eb_PLC_DEMO_SYSTEM/resources/fca.html|Analog Devices, Inc. "PLC demo system"]] -> ARM7.
+==== Altera Corporation ====
+  *See [[altera.html|Altera "System-on-a-Chip" ( SoC )]].
+==== ARM Ltd. ====
+  *[[http://www.arm.com/|ARM Ltd.]].
+    *[[http://www.arm.com/products/processors/cortex-a/index.php|ARM Ltd. "Cortex-A Series"]].
+    *[[http://www.arm.com/products/processors/cortex-m/index.php|ARM Ltd. "Cortex-M Series"]].
+    *[[http://www.arm.com/products/processors/cortex-m/cortex-m1.php|ARM Ltd. "Cortex-M1 Processor"]] - "The ARM Cortex-M1 processor addresses the need for a high-quality, standard processor architecture for FPGA applications, supporting a wide range of FPGA devices, including those from"
+      *[[http://www.microsemi.com/|Microsemi Corporation]] ( formerly: Actel ).
+        *[[http://www.actel.com/products/smartfusion/|Microsemi Corporation / Actel "SmartFusion"]].
+        *[[http://www.actel.com/Portal/|Microsemi Corporation / Actel - Consumer Portal]].
+  *[[http://infocenter.arm.com/|ARM Information Center]].
+  *[[http://www.arm.com/community/partners/all_partners.php|ARM Ltd. Community - All Partners]].
+  *[[http://www.onarm.com/|ARM "onARM - Resources for Embedded Developers"]].
+==== Atmel Corporation ====
+  *See [[atmelarm.html|Atmel ARM-based MCUs and eMPUs]].
+==== Cypress Semiconductor Corporation  ====
+=== Cypress Semiconductor Corporation -> PSoC 4 ( ARM Cortex M0 ), PSoC 5 ( ARM Cortex M3 ), PSoC 7 ( ARM Cortex M4 ) CPUs ===
+  *[[http://www.cypress.com/|Cypress Semiconductor Corporation]].
+    *[[http://www.cypress.com/?id=1353|Cypress Semiconductor Corporation "Programmable System-on-Chip"]].
+  *The virtual online conference [[http://www.psocworld.com/|PSoc WORLD - THe most comprehensive virtual conference for embedded designers]], 2012-12-12 - 2012-12-13.
+=== Cypress Evaluation Boards with "PSoC 4" CPU ===
+  *[[http://www.cypress.com/?rID=92146|Cypress Semiconductor Corporation "PSoC 4 CY8CKIT-049 4xxx Prototyping Kits"]].
+== My "CY8CKIT-042 PSoC 4 Pioneer Kit" ==
+  *I got the [[http://www.cypress.com/?rid=77780|Cypress Semiconductor Corporation "CY8CKIT-042 PSoC 4 Pioneer Kit"]].
+== My "CY8CKIT-042-BLE Bluetooth Low Energy Pioneer Development Kit" ==
+  *I got the [[http://www.cypress.com/?rid=102636|Cypress Semiconductor Corporation "CY8CKIT-042-BLE Bluetooth Low Energy Pioneer Development Kit"]].
+    *[[http://www.cypress.com/?rid=102635|Cypress Semiconductor Corporation "CySmart – Bluetooth LE Host Emulation Tool"]].
+    *[[http://www.makezine.com/2015/01/16/hands-on-with-new-board-the-psoc-4-ble-pioneer-kit/|Make "Hands-On with New Board: the PSoC 4 BLE Pioneer Kit"]] - Tombola with chance to win one of 50 boards. I won!
+    *The free Android app.
+      *[[http://play.google.com/store/apps/details?id=com.cypress.cysmart&hl=en|Google Play "CySmart"]].
+      *[[http://www.cypress.com/?rID=105179|Cypress Semiconductor Corporation "CySmart – Mobile App"]].
+  *Expert [[http://in.linkedin.com/pub/uday-agarwal/38/849/49/en|LinkedIn "Uday Agarwal"]].
+=== Cypress Evaluation Boards with "PSoC 5" CPU ===
+  *I got the [[http://www.cypress.com/?rID=51577|CY8CKIT - 050 PSoC 5LP Development Kit]].
+=== Cypress IDE ===
+  *The free IDE [[http://www.cypress.com/?id=2494|Cypress Semiconductor Corporation "PSoC Creator"]] for Windows. The supplied GNU-C compiler is not artificially restricted, i.e. there is no codesize limit.
+=== Spansion Inc. ( formerly: Fujitsu  ), now merged with Cypress Semiconductor Corporation -> FM3 – Cortex-M3 Microcontrollers ===
+== Fujitsu ( - 2013 ) ==
+  *[[http://www.fme.fujitsu.com/|Fujitsu Semiconductor Europe GmbH]].
+    *[[http://mcu.emea.fujitsu.com/mcu_tool/detail/SK-FM3-100PMC-MB9BF516N.htm|Fujitsu Europe, Middle East and Africa "SK-FM3-100PMC-MB9BF516N"]].
+    *[[http://mcu.emea.fujitsu.com/mcu_tool/detail/SK-FM3-100PMC-9BF516N-JL.htm|Fujitsu Europe, Middle East and Africa "SK-FM3-100PMC-9BF516N-JL"]] with J-Link.
+== Spansion Inc. ( 2013 - 2015 ) ==
+  *[[http://www.spansion.com/|Spansion Inc.]].
+  *[[http://www.spansion.com/products/microcontrollers/pages/tool-detail-sk-fm3-100pmc-mb9afb44n.aspx|Spansion Inc. - "Development Tools / "SK-FM3-100PMC-MB9AFB44N"]].
+  *Motor control kit.
+    *Components.
+      -Microcontroller evaluation board "SK-FM3-100 PMC-MB9BF516N".
+      -Adapter board "ADA-FM3-100 PMC-MC".
+      -[[http://www.spansion.com/marketingdownloads/products_tools/SK-Power-3P-LV2-MC/documentation/UserGuide%20SK-Power-3P-LV2-MC.pdf|Spansion Inc. "SK-Power-3P-LV2-MC"]] ( PDF ).
+    *[[http://www.msc-ge.com/de/8454-www.html|MCU Fujitsu FMinverter]] - "FMinverter Starter Kit".
+== Cypress Semiconductor Corporation ( 2015 - ) ==
+== Resources ==
+  *Unique selling proposition ( USP ) of Fujitsui FM3: Both the ARM Cortex-M CPUs and Fujitsui's evaluation boards work both with 5.0V ( = TTL ) and 3.3V voltage. There is a manual hardware switch on the boards :-).
+  *[[http://www.fujitsu.com/global/news/pr/archives/month/2013/20130430-03.html|Fujitsu "Fujitsu to Sell Microcontroller and Analog Device Business to Spansion"]], 2013-04-30.
+  *[[http://www.spansion.com/about/Pages/MCU-analog.aspx|Spansion Inc. "Spansion to Acquire Microcontroller and Analog
+Business from Fujitsu"]].
+  *[[http://www.elektronikpraxis.vogel.de/speicher/articles/403684/|Elektronikpraxis "Spansion kauft Mikrocontroller- und Analog-Geschäft von Fujitsu"]], 2013-05-02.
+=== Resources ===
+  *[[http://www.element14.com/community/thread/23736/l/100-projects-in-100-days|Element 14 Community "100 Projects in 100 Days"]].
+  *[[http://en.wikipedia.org/wiki/PSoC|EN.Wikipedia "PSoC"]], [[http://de.wikipedia.org/wiki/PSoC|DE.Wikipedia "PSoC"]].
+==== Infineon XMC1000 ( -> Cortex M0 ), XMC4500 ( -> Cortex M4 ) ====
+=== The Company & its Products ===
+  *[[http://www.infineon.com/‎|Infineon Technologies AG]].
+  *[[http://www.infineon.com/xmc-dev|Infineon Technologies AG "XMC Development Tools, Software & Kits"]] / [[http://www.infineon.com/cms/en/product/microcontrollers/32-bit-industrial-microcontrollers-based-on-arm-registered-cortex-tm-m/32-bit-xmc4000-industrial-microcontrollers-arm-registered-cortex-tm-m4/xmc-development-tools-software-and-kits/channel.html?channel=db3a30433580b3710135a07902883872|Infineon Technologies AG "XMC Development Tools, Software & Kits"]].
+=== My "XMC4500 Relax Kit" Board  ===
+  *[[http://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-registered-cortex-tm-m/32-bit-xmc4000-industrial-microcontroller-arm-registered-cortex-tm-m4/xmc-development-tools-software-and-kits/xmc4500-relax/relax-lite-kit/channel.html?channel=db3a30433a747525013a97f6e265721e|Infineon Technologies AG "XMC4500 Relax Kit"]] with "XMC4500 - F100x1024, Step C" CPU.
+=== The free IDE and App Generator "DAVE" ===
+  *The free IDE and compiler chain [[http://www.infineon.com/cms/en/product/microcontrollers/32-bit-industrial-microcontrollers-based-on-arm-registered-cortex-tm-m/32-bit-xmc4000-industrial-microcontrollers-arm-registered-cortex-tm-m4/xmc-development-tools-software-and-kits/dave-tm-%E2%80%93-free-development-platform-for-code-generation/channel.html?channel=db3a30433580b3710135afc117a9563f|Infineon Technologies AG "DAVE – Free Development Platform for Code Generation"]].
+    *[[http://www.infineon.com/cms/en/product/promopages/aim-mc/DAVE_3_Support_Portal/DAVE_3_Support_Portal.html|Infineon Technologies AG "DAVE Support Portal"]].
+      *[[http://www.infineon.com/cms/en/product/promopages/aim-mc/DAVE_3_Support_Portal/DAVE_Apps_download.html|Infineon Technologies AG "DAVE Apps Download"]].
+      *[[http://www.infineon.com/cms/en/product/promopages/aim-mc/dave_downloads.html|Infineon Technologies AG "Download of Example Projects for DAVE Apps"]].
+      *[[http://www.infineon.com/cms/en/product/promopages/aim-mc/DAVE_3_Support_Portal/xSpy.html|Infineon Technologies AG "xSPY"]] - "A free and flexible plug-in for DAVE to visualize data and to create an interface dashboard to control XMC target applications".
+      *The Eclipse help system contains detailed documentation of the DAVE Apps. 
+      *There is a free yet unreleased free tool "**XMC Pinout Tool**" for Windows. Ask Infineon FAE staff member "Joachim Lüdecke" for it!
+      *I was told that with DAVE 3.2 it will be able to create own DAVE Apps!
+      *DAVE Apps and Device Descriptions are normally downloaded from the web to the local Library Store directly from DAVE: "Help > Install DAVE Apps/Example Library", "Work with":
+        *"DAVE Project Library Manager" -> DAVE example projects.
+        *"DAVE Apps Library Manager", press button  "Select All" -> DAVE apps.
+        *The app and project downloads for "Dave 3.1.10" and XMC4000 CPUs are stored at the directory of the logged-in user "MyUser":<code>
+C:\Users\MyUser\Infineon\D3LibraryStore_3.1.10\www.infineon.com\DAVE\Lib\DaveExampleProject\XMC4500
+C:\Users\MyUser\Infineon\D3LibraryStore_3.1.10\www.infineon.com\DaveAppLibrary\XMC4000\APPS
+C:\Users\MyUser\Infineon\D3LibraryStore_3.1.10\www.infineon.com\DaveAppLibrary\XMC4000\DEVICES
+</code>
+=== The IDE "MDK-ARM" ===
+  *The free IDE and compiler chain, free just for XMC1000:
+    *[[http://www.infineon.com/cms/en/product/promopages/aim-mc/Keil-MDK.html|Infineon Technologies AG "Free MDK-ARM for XMC1000"]].
+    *[[http://www2.keil.com/infineon/mdk/|"Keil MDK for Infineon XMC1000 - Installation & Activation"]].
+      *"Product Serial Number (PSN) to activate the MDK Infineon XMC1000 Edition".
+      *"<del>Industry-leading ARM C/C++ Compilation Toolchain for code-size up to 128 KByte</del>" -> Code-size is not available with the free edition :-(.
+      *"MDK-Lite Version 5 with 32KB Code Size limit. Use the above Product Serial Number (PSN) to unlock the Keil MDK for Infineon XMC1000 features".
+=== Resources ===
+  *The chips of the XMC1000 series ( XMC1000, XMC1200, XMC1300 ):
+    *Are suitable to work with 5 Volts power voltage, and so the I/O might be TTL compatible.
+    *Have a built-in mathematical coprocessor with hardware implementations of:
+      *The DIVIDE algorithm.
+      *The [[http://en.wikipedia.org/wiki/CORDIC|EN.Wikipedia "CORDIC"]], [[http://de.wikipedia.org/wiki/CORDIC|DE.Wikipedia "CORDIC"]] algorithm.
+  *The XMC4000 series is just for 3.3 Volts power voltage.
+  *The A/D converter supports automatic boundary checking ( without CPU activation ), FIR /IIR filtering and building of a FIFO with 16 elements.
+==== NVIDIA Tegra ( -> ARM11, Cortex-A9, Cortex-A15 ) ====
+=== Nvidia ====
+  *[[http://www.nvidia.com/object/tegra.html|NVIDIA Corporation "NVIDIA Tegra"]].
+  *Blog [[http://blogs.nvidia.com/tag/tegra-3/|NVIDIA Corporation blog tags "NVIDIA Tegra 3"]].
+=== Boards ====
+  *[[http://emea.kontron.com/products/boards+and+mezzanines/embedded+motherboards/miniitx+motherboards/ktt30mitx.html|Kontron  "KTT30/mITX. Embedded Motherboards - KTT30/mITX. Embedded Mini-ITX Motherboard with NVIDIA Tegra 3 Processor"]].
+=== Resources ====
+  *[[http://en.wikipedia.org/wiki/Nvidia_Tegra|EN.Wikipedia "Tegra"]], [[http://de.wikipedia.org/wiki/Tegra|DE.Wikipedia "Nvidia Tegra"]].
+  *[[http://en.wikipedia.org/wiki/Microsoft_Surface|EN.Wikipedia "Microsoft Surface"]], [[http://de.wikipedia.org/wiki/Microsoft_Surface_%28Tablet%29|DE.Wikipedia "Microsoft Surface (Tablet)"]].
+==== NXP Semiconductors ====
+=== NXP Semiconductors ===
+== Company & Products ==
+  *[[http://www.nxp.com/|NXP Semiconductors]].
+  *[[http://ics.nxp.com/|NXP Semiconductors - ICs]].
+  *[[http://ics.nxp.com/products/lpc1000/|NXP Semiconductors "LPC1000"]].
+  *[[http://ics.nxp.com/lpcxpresso/|NXP Semiconductors "LPCXpresso"]].
+== LPCXpresso Board, Target LPC1xxx => LPC1xxx, based on Cortex M0 & Cortex M3 ==
+  *[[http://ics.nxp.com/lpcxpresso/|NXP Semiconductors "LPCXpresso"]].
+  *My LPCXpresso Board is equipped with a LPC1343, based on Cortex M3 ( 32KB flash, 8KB SRAM ).
+== EM773 Energy Metering, Wireless Plug Meter Demo => EM773, based on Cortex M0 ==
+  *[[http://ics.nxp.com/support/design/microcontrollers/smart.metering/|NXP Semiconductors  "EM773 energy metering IC design example"]] with EM773, based on Cortex M0 ( 32KBytes Flash, 8 KBytes RAM ).
+    ***Warning - Danger for life -: The circuit board of the EM773 device is not isolated against 230 Volts power**, like legacy TV sets where the TV chassis may be on the 230 Volts power level. **That's why you must not connect the JTAG interface of the device to a remote PC, while the device is plugged into a 230 Volts power socket, under any circumstances**. For practical work in a laboratory - and just there ! -, you need to use a **insulating transformer** to isolate the 230 Volts power supply from the device.
+  *[[http://www.nxp.com/products/microcontrollers/application_specific/EM773FHN33.html|NXP Semiconductors  "EM773FHN33. Energy metering IC; up to 32 kB flash and 8 kB SRAM"]].
+  *The free "Software Development Kit".
+    *Is dedecated for the commercial [[http://www.iar.com/en/Products/IAR-Embedded-Workbench/ARM/|IAR Embedded Workbench for ARM]].
+    *The free [[http://supp.iar.com/Download/SW/?item=EWARM-KS32|KickStart edition of IAR Embedded Workbench for ARM]]. For ARM Cortex M0, the maximum code size is 8 KBytes ( and not 32 Kbytes as for ARM Cortex M3 ) is maybe too limited by its code size :-(.
+  *There is no port of the SDK for the GNU GCC toolchain or the [[http://www.code-red-tech.com/red-suite-4.php|Code Red Technologies Ltd. "Red Suite"]], and this wouldn't be easy.
+  *An important part of the SDK is just available in the IAR library format ("Please note that the metrology engine driver library included in the "LIB" directory of the SDK may not be modified" ) :-(.
+  *Description of the demo application ( 1. "Wireless Plug Meter Demo" / "Standard Demo-Kit" & 2. "Wireless M-Bus USB-Stick" ).
+    *[[http://www.arrow.altech.co.za/news/nxp-introduces-new-energy-metering-chip|Arrow Altech "NXP Introduces New Energy Metering Chip"]], with photo.
+    *[[http://www.canadianelectronics.ca/index.php/Energy-metering-chip.html|Canadian Electronics Magazine "Energy metering chip"]], with photo.
+    *[[http://www.electronics-eetimes.com/en/nxp-puts-arm-in-energy-monitoring-chip.html?cmp_id=7&news_id=222904057|EE Times Europe "NXP puts ARM in energy-monitoring chip"]], 2010-10-11 - "**The company is also providing a full reference design module for $250** that uses the Wireless M-Bus popular in Europe. An open-source application that can supply data on kilowatt hours ships with the module".
+    *[[http://www.channel-e.biz/news-en/article/nxp-energy-metering-ic.html|channel e - magazine for Electronics "NXP: Energy Metering IC"]], with photos.
+    *[[http://www.youtube.com/watch?v=IwFoRi5sNwY|YouTube "NXP - Energy metering IC, Wireless Plug Meter Demo"]].
+=== Freescale Semiconductor, Inc. ( now merged with NXP )  -> Kinetis ARM Cortex-M4 Microcontrollers ===
+== Company & Products ==
+  *[[http://www.freescale.com/Kinetis|Freescale Semiconductor, Inc. "Kinetis ARM Cortex-M4 Microcontrollers"]].
+== Freescale Freedom Development Platform ( Arduino ) ==
+  *I got an eval board [[http://www.freescale.com/FRDM-KL25Z|FRDM-KL25Z: Freescale Freedom Development Platform for Kinetis KL1x and KL2x MCUs]]. 
+== Kinetis KwikStik ==
+  *I got an eval board [[http://www.freescale.com/KwikStik|Freescale Semiconductor, Inc. "Kinetis KwikStik"]].
+== Tower System ==
+  *[[http://www.freescale.com/webapp/sps/site/homepage.jsp?code=TOWER_HOME|Freescale Semiconductor, Inc. "Tower System"]].
+  *"Module Catalog" :-).
+  *Kits with different debugging support:
+    -[[http://www.freescale.com/webapp/sps/site/prod_summary.jsp?code=TWR-K60N512-IAR&parentCode=null&nodeId=0152106740B1ECDBC2|Freescale Semiconductor, Inc. "TWR-K60N512-IAR: IAR KickStart Kit for the Kinetis K60 MCU Family"]], shipped with [[http://www.iar.com/en/Products/Hardware-Debug-probes/IAR-J-Link-Lite/|IAR J-Link Lite for Cortex-M]] - a small JTAG-emulator with SWD/SWO debugging support for Cortex-M devices. So you may both use the free [[http://www.iar.com/en/Products/IAR-Embedded-Workbench/ARM/|IAR Kickstart edition]] ( 32 Kbytes Flash size limit ) or the free edition of [[http://www.freescale.com/codewarrior|Freescale Semiconductor, Inc. "CodeWarrior"]] ( 128 Kbytes Flash size limit ).
+    -[[http://www.freescale.com/webapp/sps/site/prod_summary.jsp?code=TWR-K60N512-KEIL&parentCode=null&nodeId=0152106740B1ECDBC2|Freescale Semiconductor, Inc. "TWR-K60N512-KEIL: Keil Starter Kit for the Kinetis K60 MCU Family"]], shipped with [[http://www.keil.com/ulinkme/|ULINK-ME for Cortex-M]] - a small debug adapter JTAG and SWD debugging support for Cortex-M devices. So you may use [[http://www.keil.com/arm/mdk.asp|MDK-Lite]] ( 32 Kbytes Flash size limit ) or the free edition of [[http://www.freescale.com/codewarrior|Freescale Semiconductor, Inc. "CodeWarrior"]] ( 128 Kbytes Flash size limit ).
+    -[[http://www.freescale.com/webapp/sps/site/prod_summary.jsp?code=TWR-K70F120M|Freescale Semiconductor, Inc. "TWR-K70F120M: Kinetis K70 MCU Module"]]. As any other CPU module, it is equipped with a "slow" OpenSource BDM debugger interface. The free edition of [[http://www.freescale.com/codewarrior|Freescale Semiconductor, Inc. "CodeWarrior"]] ( 128 Kbytes Flash size limit ) may be used for debugging via a USB cable.
+      *[[http://de.futureelectronics.com/de/technologies/development-tools/development-tool-hardware/Seiten/3014689-TWR-K70F120M-KIT.aspx|Future Electronics "TWR-K70F120M-KIT - Kinetis K70 Series Tower System Microcontroller Development Kit"]].
+  *[[http://www.freescale.com/webapp/sps/site/prod_summary.jsp?code=TWR-SER&parentCode=null&nodeId=0152106740B10F|Freescale Semiconductor, Inc. "TWR-SER: Serial Module (USB, Ethernet, CAN, RS232/485)"]] is included in "Tower System Kits". The 9-pin serial device may be configured either to transmit RS-232/485 or to transmit CAN.
+  *Get the free "PE Terminal Window Application" by [[http://www.pemicro.com/|P&E Microcomputer Systems]] for Windows. By creating a virtual serial port on Windows and using the terminal application ( built-in the tool ), you can communicate via the USB of your host Windows PC with your Tower System by the OSBDM / OSJTAG interface.
+== Motor Control Applications ==
+  *[[http://www.freescale.com/webapp/sps/site/homepage.jsp?nodeId=02nQXG|Freescale Semiconductor, Inc. "Motor Control"]].
+  *[[http://www.freescale.com/webapp/search/Serp.jsp?Product+Use=Applications%2F040M0zpbnQXG%60%60Motor+Control|Freescale Semiconductor, Inc. - Search for "Motor Control"]].
+  *The Tower System module [[http://www.freescale.com/webapp/sps/site/prod_summary.jsp?code=TWR-MC-LV3PH&parentCode=null&nodeId=0152106740B10F|Freescale Semiconductor, Inc. "TWR-MC-LV3PH: Low-Voltage 3-Phase Motor Control Module"]].
+    *[[http://de.futureelectronics.com/de/Technologies/Product.aspx?ProductID=TWRMCLV3PHFREESCALESEMICONDUCTOR8016843&IM=1|Future Electronics "TWR-MC-LV3PH - LOW-VOLTAGE, 3-PHASE MC"]].
+    *[[http://www.ebv.com/index.php?L=2&no_cache=1&id=58&tx_ebvsearch_pi1[qs]=1&ct_ref=u58&tx_indexedsearch[sword]=TWR-MC-LV3PH&tx_indexedsearch[results]=5&tx_indexedsearch[lang]=2&search_est=d43fd60b1ff757b83253a51310caf2ee|EBV Elektronik "TWR-MC-LV3PH"]].
+    *[[http://de.mouser.com/ProductDetail/Freescale-Semiconductor/TWR-MC-LV3PH/?qs=PqHNfkDkpoGVnc3aB%252bogkw%3d%3d|Mouser Electronics "TWR-MC-LV3PH Freescale Semiconductor Energieverwaltungsmodule"]] :-(.
+  *[[http://www.youtube.com/watch?v=FogsMTp1-Mc|YouTube "Freescale BLDC Motor Control Demonstration with Kinetis MCUs"]].
+== i.MX, based on Cortex A9 ==
+  *[[http://www.freescale.com/imx/|Freescale Semiconductor, Inc. "i.MX Applications Processors"]].
+  *The third-party Linux-enabled board [[http://www.lemonboard.org/|lemonboard  -  Freescale i.MX6 series CPU modules]].
+  *[[http://en.wikipedia.org/wiki/I.MX|EN.Wikipedia "i.MX"]].
+== Vybrid ( ARM Cortex A5 + Cortex M4 ) ==
+  *[[http://www.freescale.com/webapp/sps/site/homepage.jsp?code=VYBRID|Freescale Semiconductor, Inc. "Vybrid Controller Solutions"]].
+==== Silicon Labs ====
+=== The Company ===
+  *[[http://www.silabs.com/|Silicon Labs]].
+    *They bought [[http://energymicro.com/|Energy Micro AS]], [[http://www.energymicro.no/|Energy Micro AS]], [[http://en.wikipedia.org/wiki/Energy_Micro|EN.Wikipedia "Energy Micro"]].
+    *They bought [[http://www.ember.com/Ember]] / [[http://www.silabs.com/products/wireless/zigbee/|Silicon Labs "Ember ZigBee Wireless Networking Systems"]].
+    *They bought [[http://www.touchstonesemi.com/|Touchstone Semi]], [[http://www.silabs.com/products/analog/|Silicon Labs "Analog IC Solutions"]].
+      *[[http://www.youtube.com/user/touchstonesemi|YouTube "Touchstone Semi"]].
+      *[[http://www.twitter.com/touchstonesemi|Twitter "Touchstone Semi, @touchstonesemi"]].
+  *[[http://www.silabs.com/products/mcu/|Silicon Labs "8-bit and 32-bit Microcontroller and Wireless Products"]].
+  *The free tool [[http://www.silabs.com/products/mcu/Pages/simplicity-studio.aspx/|Silicon Labs "Simplicity"]] for Windows. The current version includes an Eclipse-based IDE and free ARM & 8051 compilers.
+  *EM32 Starter kits often include.
+    *"IAR Embedded Workbench for Energy Micro".
+    *Atolic TrueSTUDIO for ARM, 30 days unlimitd code size".
+  *[[http://www.silabs.com/support/training/pages/online-training.aspx/welcome-to-lizard-labs|Silicon Labs "Lizard Labs"]] - "Silicon Labs' online training program for the EFM32 family of Gecko 32-bit microcontrollers (MCUs)".
+  *[[http://en.wikipedia.org/wiki/EFM32|EN.Wikipedia "EFM32"]].
+=== My Boards ===
+== "EFM32" Zero Gecko Starter Kit -> ARM Cortex M0+ ==
+  *[[http://www.silabs.com/products/mcu/lowpower/pages/efm32zg-stk3200.aspx|Silicon Laboratories Inc. "EFM32 Zero Gecko Starter Kit. EFM32ZG-STK3200"]] with [[http://cdn.energymicro.com/dl/documentation/doxygen/EM_CMSIS_3.20.2_DOC/cmsis_zero/html/group__EFM32ZG222F32.html|EFM32ZG222F32]] CPU.
+  *[[http://www.silabs.com/products/mcu/lowpower/pages/efm32zg-zero-gecko.aspx|Silicon Laboratories Inc. "​EFM32 Zero Gecko 32-bit Microcontroller"]].
+== "EFM32" Wonder Gecko Starter Kit -> ARM Cortex-M4 ==
+  *The board.
+    *[[http://www.silabs.com/products/mcu/lowpower/pages/efm32wg-stk3800.aspx|Silicon Laboratories Inc. "EFM32 Wonder Gecko Starter Kit. EFM32WG-STK3800"]] with [[http://cdn.energymicro.com/dl/documentation/doxygen/EM_CMSIS_3.20.0_DOC/cmsis_wonder/html/group__EFM32WG990F256__Part.html|EFM32WG990F256]].
+    *[[http://www.silabs.com/products/mcu/lowpower/pages/efm32wg-wonder-gecko.aspx|Silicon Laboratories Inc. "EFM32 Wonder Gecko 32-bit ARM Cortex-M4 Microcontroller"]].
+  *The expansion card.
+    *[[http://www.silabs.com/products/sensors/infraredsensors/pages/sensor-exp-evb.aspx|Silicon Laboratories Inc. "Sensor Expansion Card for EFM32 Zero Gecko Starter Kit, SENSOR-EXP-EVB"]].
+== Würth Elektroink "IC-744885 - Kit, Energy Harvesting Platform" with "EFM32" Giant Gecko Starter Kit -> ARM Cortex-M4 ==
+  *[[http://de.farnell.com/wurth-elektronik/ic-744885/kit-energy-harvesting-platform/dp/2249957|Farnell "WURTH ELEKTRONIK - IC-744885 - KIT, ENERGY HARVESTING PLATFORM"]].
+  *[[http://www.silabs.com/products/mcu/lowpower/pages/efm32gg-stk3700.aspx|Silicon Laboratories Inc. "EFM32 Giant Gecko Starter Kit]] with "EFM32GG990F" CPU.
+  *[[http://www.silabs.com/products/mcu/lowpower/Pages/efm32gg-giant-gecko.aspx|Silicon Laboratories Inc. "EFM32™ Giant Gecko 32-bit Microcontroller"]].
+=== Resources ===
+  *[[http://en.wikipedia.org/wiki/EFM32|EN.Wikipedia "EFM32"]].
+==== STMicroelectronics -> STM32, based on Cortex M3 & Cordex M4 ====
+=== Company & Products ===
+  *[[http://www.st.com/|STMicroelectronics]].
+  *[[http://www.st.com/internet/mcu/class/1734.jsp|STMicroelectronics "STM32 - 32-bit ARM Cortex MCUs"]].
+  *[[http://www.mikrocontroller.net/articles/STM32|mikrocontroller.net "STM32"]] - "ARM Cortex-M3 CPU".
+  *Evalboard [[http://www.st.com/internet/evalboard/product/250863.jsp|STMicroelectronics "STM32F100"]].
+  *STMicroelectronics MCU strategy is a "without MMU" and so "no Linux" aka "no Windows CE Embedded".
+=== Tools ===
+== Link Utilities ==
+  *[[http://www.st.com/web/en/catalog/tools/FM147/SC1887/PF258168|STMicroelectronics "STSW-LINK004. STM32 ST-LINK utility"]].
+  *[[http://www.st.com/web/en/catalog/tools/FM147/SC1887/PF260217|STMicroelectronics "STSW-LINK007. ST-LINK/V2-1 firmware upgrade"]].
+=== Software Design Support Concepts ===
+== STM32Cube ( formerly: MicroXplorer ) ==
+  *The free legacy software [[http://web.archive.org/web/*/http://www.st.com/web/en/catalog/tools/PF251717|Archive.org "STMicroelectronics: MicroXplorer - MCU graphical configuration tool"]] for Windows.
+    *[[http://www.st.com/web/en/catalog/tools/PF257931|STMicroelectronics "STSW-STM32095. STM32CubeMX for STM32 configuration and initialization C code generation eclipse plugin"]].
+  *The free software [[http://www.st.com/stm32cube-pr2|STMicroelectronics "STM32CubeMX - STM32Cube initialization code generator (UM1718)"]] - "STM32CubeMX is an extension of the existing MicroXplorer tool".
+  *[[http://www.st.com/web/en/catalog/tools/PF259243|STMicroelectronics "STM32CubeF4. Embedded software for STM32 F4 series (HAL low level drivers, USB, TCP/IP, File system, RTOS, Graphic - coming with examples running on ST boards)"]].
+  *[[http://community.arm.com/docs/DOC-8245|ARM Community "ST easing developers' life with STM32Cube"]].
+  *[[http://www.youtube.com/watch?v=bt1YFG9wErg|YouTube, STMicroelectronics "Product overview - STM32Cube making STM32 development easier (epresentation)"]].
+  *As of 2014-07, STMF4, F0 and L0 are supported. STMicroelectronics staff members announced support of all ARM MPUs until end of 2014.
+== STM32Snippets ==
+  *[[http://www.st.com/web/en/catalog/tools/FM147/CL1794/SC961/SS1743/PF260157|STMicroelectronics "STM32SnippetsF0. Example Code snippets covering STM32 F0 serie"]].
+  *[[http://www.channel-e.de/news/article/download-kostenlose-code-snippets-fuer-stm32-mikrocontroller.html|channel e - Magazin für Elektronik "Download: Kostenlose Code Snippets für STM32-Mikrocontroller"]].
+== STM-Studio ==
+  *The free tool [[http://www.st.com/internet/evalboard/product/251373.jsp|STMicroelectronics "STM-Studio"]] for Windows - "Run-time variables monitoring and visualization tool" -> Access to MPU registers, e.g for touch applications.
+== Tools for NFC ==
+  *The **free** Keil MDK-ARM for STM32L0.
+    *[[http://www2.keil.com/stmicroelectronics-stm32/mdk|KEIL "MDK for STMicroelectronics STM32F0 and STM32L0 Installation & Activation"]], Product Serial Number (PSN) to activate the MDK for STM32F0 and STM32L0: "U1E21-CM9GY L3G4L".
+    *[[http://www.keil.com/demo/limits.asp|KEIL "Limitations"]] for "MDK-ARM Lite Edition".
+  *The PC CR95HF development software [[http://www.st.com/web/en/catalog/tools/PF259212|STMicroelectronics "STSW-95HF001. PC software executable for DEMO-CR95HF-A board (UM1084)"]].
+    *[[http://www.mouser.com/ProductDetail/STMicroelectronics/DEMO-CR95HF-A/|Mouser Electronics "511-DEMO-CR95HF-A"]].
+    *[[http://www.digikey.de/product-detail/en/DEMO-CR95HF-A/DEMO-CR95HF-A-ND/2816354|Digikey "STMicroelectronics DEMO-CR95HF-A"]].
+    *[[http://www.st.com/web/en/catalog/mmc/FM76/CL1766/SC1540/PF251619|STMicroelectronics "CR95HF. NFC Reader IC"]].
+    *[[http://www.st.com/web/en/catalog/tools/FM116/SC1444/PF253360?sc=m24lr04e-discovery|STMicroelectronics "M24LR-DISCOVERY. Discovery kit for M24LR04E Dual Interface EEPROM with energy harvesting"]].
+      *M24LR board.
+      *RF transceiver board - CR95HF-VMD5T 13.56 MHz multi-protocol contactless transceiver IC.
+  *USB drivers:
+    *[[http://www.st.com/web/en/catalog/tools/PF259459|STMicroelectronics "ST-LINK/V2 USB driver for Windows 8"]].
+    *[[http://www.st.com/web/en/catalog/tools/PF258167|STMicroelectronics "ST-LINK/V2 USB driver for Windows 7, Vista and XP"]].
+  *Smartphone apps:
+    *[[http://play.google.com/store/apps/details?id=com.nfc.apps|Google Play Store "ST M24SR Demo"]],  [[http://links.st-microelectronics.mkt5947.com/ctt?kn=2&ms=MTE4NTQ2NzQS1&r=NzY0Nzc4ODc4NDgS1&b=0&j=NTAzMTA3MjM5S0&mt=1&rt=0|STMicroelectronics "Android ST M24SR Demo"]].
+    *[[http://play.google.com/store/apps/details?id=com.nfc.apps|Google Play Store "NfcV-reader"]], [[http://links.st-microelectronics.mkt5947.com/ctt?kn=4&ms=MTE4NTQ2NzQS1&r=NzY0Nzc4ODc4NDgS1&b=0&j=NTAzMTA3MjM5S0&mt=1&rt=0|STMicroelectronics "NfcV-reader"]].
+=== emWin, STemWin ===
+  *The commercial source code graphics library [[http://www.segger.com/emwin.html|SEGGER Microcontroller GmbH & Co. KG "emWin"]].
+  *The free binary-only graphics library [[http://www.st.com/web/en/catalog/tools/PF259225|STMicroelectronics "STemWin. Professional graphical stack library enabling the building up of Graphical User Interfaces (GUIs) (AN4323)"]].
+  *[[http://www.youtube.com/watch?v=kH1-1wkqAig|YouTube "STM32F429 Eval board featuring STemWIN supported by Emprog ThunderBench"]].
+  *[[http://en.radzio.dxp.pl/stm32f429idiscovery/starting,with,stemwin,library.html|en.radzio.dxp.pl "STemWin library STM32F429 example"]] - "Due to STemWin flash usage any serious application that use this library exceeds 32kB of Flash memory, so we can't use demo version of Keil uVision".
+=== Boards ===
+  *The DISCOVERY boards includes an **ST-LINK/V2 embedded debug tool interface** that is supported by the following software toolchains: IAR, KEIL, ATOLL ( so you don´t need to buy a ST-Link/V2 ).
+  *DISCOVERY boards are a small application with as much sensors and actors as you can, while the NUCLEO board are in Arduino format, a base frame without (much) sensors and actors.
+== 1. My STM32 Value Line Discovery Board -> STM32F100RB, based on Cortex M3 ==
+  *Evalboard [[http://www.st.com/stm32-discovery|STMicroelectronics "STM32 Discovery Board"]] with [[http://www.st.com/web/catalog/mmc/FM141/SC1169/SS1031/LN775/PF216844|STM32F100RB]] MCU ( 128 KB Flash, 8 KB RAM ).
+== 2a. My STM32L-Discovery Board -> STM32L1, based on Cortex M3 ==
+  *Evalboard [[http://www.st.com/internet/evalboard/product/250990.jsp|STMicroelectronics "STM32L-DISCOVERY"]], [[http://www.st.com/stm32l-discovery|STMicroelectronics "STM32L Discovery Board"]] with [[http://www.st.com/internet/mcu/product/248820.jsp|STM32L152RB]] MCU ( 128 KBytes Flash, 16 KBytes RAM, 4 KB EEPROM ).
+  *[[http://www.st.com/web/en/catalog/mmc/FM141/SC1169/SS1295|STMicroelectronics "STM32L1 Series"]].
+  *I was told by experts that the STM32L chip series is on the power consumption level of [[msp430.html|Texas Instruments MSP430]]!
+== 2b. My STM32 L1 Discovery Special Edition Board -> STM32L152RTC6, based on Cortex M3 ==
+  *[[http://www.st.com/stm32l1|STMicroelectronics "STM32L1 Series"]].
+  *Evalboard "STM32 L1 Discovery Special Edition" with "STM32L152RTC6" MCU ( [[http://www.st.com/web/en/catalog/mmc/FM141/SC1169/SS1295/LN962|STMicroelectronics "STM32L151/152"]] ).
+== 3. My STM32 F3 Discovery Board -> STM32 F3, based on Cortex M4 ==
+  *2 x Evalboard [[http://www.st.com/stm32f3discovery|STMicroelectronics "STM32 F3 Discovery Board"]], [[http://www.st.com/web/catalog/tools/FM116/SC959/SS1532/PF254044|STMicroelectronics "STM32F3DISCOVERY"]] with [[http://www.st.com/web/catalog/mmc/FM141/SC1169/SS1576/LN1531|STM32F303]] MCU ( 256 KB Flash, 48 KB RAM ) and with compass & gyroscope.
+    *If you remove the 2 jumpers of at the top of the board next to the inscripts "ST-Link" & "Discovery", you might use the STLink Debugger for your own boards :-).
+== 4. My STM32 F4 Discovery Board -> STM32F4, based on Cortex M4 ==
+  *Evalboard [[http://www.st.com/web/catalog/tools/FM116/SC959/SS1532/PF252419|STMicroelectronics "STM32F4DISCOVERY Discovery kit for STM32F407/417 lines - with STM32F407VG MCU"]] with [[http://www.st.com/web/catalog/mmc/FM141/SC1169/SS1577/LN11/PF252140|STM32F407VG]] MCU ( 1 MB of Flash memory,  192+4 KB of RAM ) and with 3-axis accelerometer, audio sensor, omni-directional digital microphone and audio DAC with integrated class D speaker driver.
+  *[[http://www.stm32f4-discovery.com/|STM32F4 Discovery. Libraries and tutorials for STM32F4 series MCUs by Tilen Majerle]].
+== 5. My STM32 F4 Discovery Board -> STM32F429, based on Cortex M4 ==
+  *Evalboard [[http://www.st.com/web/catalog/tools/FM116/SC959/SS1532/LN1199/PF259090|STMicroelectronics "32F429IDISCOVERY Discovery kit for STM32 F429/439 lines"]], [[http://www.st.com/stm32f4-discovery|STMicroelectronics "STM32 F4 Discovery Board"]] with [[http://www.st.com/web/catalog/mmc/FM141/SC1169/SS1577/LN1806/PF255419|STM32F429ZI]] MCU ( 2 MB of Flash memory, 256 KB of RAM ).
+  *Useful addon tools:
+    *The OpenSource graphics tool [[http://www.gimp.org/‎|GIMP]] for Linux, Windows.
+    *The free graphics format convertion tool "ST32 Imager" by STMicroelectronics for Windows. 
+      *Output formats:
+        -32bpp.
+        -24bpp.
+        -16bpp ARGB1555.
+        -16bpp ARGB4444.
+        -16bpp RGB565.
+        -8bpp Indexed.
+        -4bpp Indexed.
+        -2bpp Indexed.
+        -1bpp Indexed
+        -8bpp Transparency.
+        -4bpp Transparency.
+    *The free command line tool "bin2c" converter by STMicroelectronics for Windows.
+  *[[http://www.stm32f4-discovery.com/|STM32F4 Discovery. Libraries and tutorials for STM32F4 series MCUs by Tilen Majerle]].
+    *[[http://www.stm32f4-discovery.com/2014/04/stm32f429-discovery-with-cmsis-library-in-keil/|STM32F4 Discovery. Libraries and tutorials for STM32F4 series MCUs by Tilen Majerle "STM32F4/29 Discovery with CMSIS library in Keil uVision"]], 2014-04-28.
+== 6. STM32 M24LR Discovery Board -> STM32F103CB, based on Cortex M3 ==
+  *Evalboard [[http://www.st.com/web/en/catalog/tools/FM116/SC1444/PF253360|STMicroelectronics "M24LR-DISCOVERY. Discovery kit for M24LR04E Dual Interface EEPROM with energy harvesting"]] with 2 boards.
+    *RF transceiver board with [[http://www.st.com/web/catalog/mmc/FM141/SC1169/SS1031/LN1565/PF189782|STMicroelectronics "STM32F103CB"]].
+    *M24LR board.
+  *[[http://play.google.com/store/apps/details?id=com.nfc.m24srdemo|Google Play "ST M24SR Demo"]].
+  *[[http://www.st.com/web/en/catalog/tools/PF259212|STMicroelectronics "STSW-95HF001. PC software executable for DEMO-CR95HF-A board (UM1084)]] - "CR95HF Development Software".
+  *[[http://www.st.com/web/en/catalog/mmc/FM76/CL1766/SC1540/PF251619|STMicroelectronics "CR95HF NFC Reader IC"]].
+== 7. My STM32L053R8 Nucleo -> STML053R8T6, based on Cortex M0+ ==
+  *My Arduino Device "My STM32L053R8 Nucleo":
+    *[[http://www.st.com/stm32nucleo|STMicroelectronics "STM32 MCU Nucleo"]].
+    *"STML053R8T6" MCU with 64 KBytes of Flash, 8 Kbytes of SRAM.
+    *Similar board: [[http://www.mbed.org/platforms/ST-Nucleo-L152RE/|mbed "ST Nucleo L152RE"]].
+    ***Software for this board can be compiled by the free online development system [[http://wwwmbed.org/|mbed]]**.
+    *The board is in Ardunio format. Additionaly to the standard Ardunio interface, it has extra ST interfaces.
+  *My M24SR shield "SHIELD-M24SR-ADV - MB11161-A":
+    *[[http://www.st.com/m24sr|STMicroelectronics "M24SR series"]].
+  *I still don´t have the "RF Transceiver Demonstration Board MB 1054A CR95HF", alternatively you might use an NFC-enabled smartphone like [[http://en.wikipedia.org/wiki/Samsung_Galaxy_S4|SAMSUNG G4]].
+    *[[http://www.st.com/web/en/catalog/tools/PF259212|STMicroelectronics "STSW-95HF001. PC software executable for DEMO-CR95HF-A board (UM1084)]] - "CR95HF Development Software".
+    *[[http://www.st.com/web/en/catalog/mmc/FM76/CL1766/SC1540/PF251619|STMicroelectronics "CR95HF NFC Reader IC"]].
+    *Windows USB devicename: "MB 1054A CR95HF".  
+  *Resources:
+    *[[http://www.st.com/nfc-rfid|STMicroelectronics "NFC / RFID Memories and Transceivers"]].
+    *[[http://play.google.com/store/apps/details?id=com.nfc.m24srdemo|Google Play "ST M24SR Demo"]].
+== 8. My STM32L053 Discovery -> STML053R8T6, based on Cortex M0+ ==
+  *[[http://www.st.com/st-web-ui/active/en/catalog/tools/PF260319|STMicroelectronics "32L0538DISCOVERY Discovery kit with STM32L053C8 MCU"]], with E-paper display,.
+== 9. Motor Control Kits ==
+  *[[http://powerelectronics.com/power_management/motor_control_3kw/|Power Electronics Technology "Motor Control Kit Drives up to 3 kW"]].
+  *[[http://www.st.com/internet/evalboard/product/252075.jsp|STMicroelectronics "STM32100B-MCKIT"]] - "Motor control starter kit for STM32F100 (128KB Flash) Value Line MCUs".
+  *[[http://www.st.com/internet/evalboard/product/203167.jsp|STMicroelectronics "STM3210B-MCKIT"]] - "Motor control starter kit for STM32 (128KB flash) Performance and Access Line microcontrollers".
+    *[[http://www.st.com/mcu/modules.php?name=mcu&file=devicedocsmdt&FAM=110&DEV=STM3210B-MCKIT|STMicroelectronics "STM3210B-MCKIT - Documents"]].
+== 9. Boards with STM32F4 MCUs for .NET Micro Framework and .NET Gadgeteer ==
+  *See [[dotnet03.html|Microsoft .NET Framework 3/3]], section ".NET Micro Framework and .NET Gadgeteer".
+==== Texas Instruments ====
+=== OpenSource Arduino-based IDE with unlimited GNU-C Compiler for Texas Instruments Launchpads ===
+  *The OpenSource IDE [[http://www.energia.nu/|Energia]].
+  *Arduino IDE alike IDE.
+  *Target hardware: [[http://www.energia.nu/store/|Texas Instruments Launchpads]] ( MSP430, ARM,.. ).
+=== Free Eclipse-based IDE with free ( limited ) ARM Compiler and unlimited GNU-C Compilers ===
+  *[[http://focus.ti.com/docs/toolsw/folders/print/ccstudio.html|Texas Instruments Code Composer Studio (CCStudio) Integrated Development Environment (IDE)]] - "Use CCS for free - By default when you install Code Composer Studio a free license will be enabled that supports working with development boards with an onboard debug interface, XDS100 class debug probes".
+    *[[http://processors.wiki.ti.com/index.php/Projects_and_Build_Handbook_for_CCS|Texas Instruments Wiki "Projects and Build Handbook for CCS"]].
+    *[[http://processors.wiki.ti.com/index.php/Download_CCS|Texas Instruments Embedded Processors Wiki "Download CCS"]] - Download of the free CCS editions.
+    *[[http://processors.wiki.ti.com/index.php/Device_support_files|Texas Instruments Embedded Processors Wiki "Device support files"]].
+    *"CCStudio 5.5.0" ist the latested IDE for host computers with Pentium III 80x86 CPU.
+    *"CCStudio 6.0.1" and newer is just for host computers with 80x86 CPU which supports the SSE2 instruction set. The installation of "CCStudio 6.0.1" hangs on computers with CPUs which don´t support the SSE2 instruction set :-(:
+      *Reason #1:
+        *On my Athlon XP2800, the installation of "CCStudio 6.01" aborts, if the "Hercules Device Support" package for ARM targets is selected for installation.
+      *Reason #2:
+        *[[http://e2e.ti.com/support/development_tools/code_composer_studio/f/81/p/356283/1254627.aspx|TI e2e Community "CCSv6 freezes during installation"]] - "AMD Athlon XP 2600+". "The processor you are using does not support the SSE2 instruction set. Unfortunately, there is no workaround for this issue other than to use a newer computer".
+        *I got the same issue with my Athlon XP2800 computer, it hangs after this installation message:<code>
+Installing com.ti.ccstudio.targetdb.props.default.win32...
+Unzipping <installation directory>/ccsv6/eclipse/downloads/targetdb_default_props_6.0.0.20131206.zip
+com.ti.ccstudio.targetdb.props.default.win32 installed
+Registering new target content products
+</code>
+=== Texas Instruments MSP432, based on Cortex M4 ===
+  *[[http://www.ti.com/lsds/ti/microcontrollers_16-bit_32-bit/msp/low_power_performance/msp432p4x/getting_started.page|Texas Instruments "Low-power High Performance Microcontroller, 32-bit MCU - Getting Started - MSP432P4x"]].
+  *[[http://www.ti.com/tool/msp-exp432p401r|Texas Instruments "MSP432P401R LaunchPad"]].
+=== Texas Instruments Tiva ( current ) & Stellaris ( legacy ) ===
+  *[[http://www.heise.de/hardware-hacks/meldung/TI-streicht-M3-Stellaris-1773693.html|heise online "TI streicht M3-Stellaris"]], 2012-12-21 :-(.
+=== Texas Instruments TMS570, based on Cortex R4 ===
+  *[[http://www.ti.com/|Texas Instruments]].
+  *[[http://www.ti.com/ww/en/mcu/tms570/|Texas Instruments "TMS570 Transportation and Safety Microcontrollers"]].
+  *Roadmap: Starting with the future TMS570 LS3x, there will be an integrated Ethernet port.  Wishful thinking: Maybe a free TCP/IP stack will be then made available for free by Texas Instruments, which might be also used with FreeRTOS too :-).
+  *The affordable starter kit [[http://focus.ti.com/docs/toolsw/folders/print/tmdx570ls20susb.html|TMS570 Microcontroller USB Kit]], no Ethernet port onboard !
+    *The free [[http://focus.ti.com/docs/toolsw/folders/print/halcogen.html|Texas Instruments "HAL Code Generator tool ( HALCoGen )"]] for Windows.
+      *[[http://www.freertos.org/|FreeRTOS]] is shipped with that configuration tool, for comfortable GUI menu-based configuration and installation on the target.
+    *[[http://focus.ti.com/docs/toolsw/folders/print/ccstudio.html|Code Composer Studio (CCStudio) Integrated Development Environment (IDE) v5]] for Windows.
+      *CCStudio 5 is truely based on Eclipse. You can add your favourite Eclipse plugins, by your own.
+      *While the outdated CCStudio 4 was "closed source" software built upon Eclipse. You can't add your favourite Eclipse plugins, by your own.
+      *License Options "Free: Use a full version of CCStudio which is limited to an XDS100 hardware emulator connection". I.e. the use of the compiler is limited to the hardware of the "TMS570 Microcontroller USB Kit".
+  *[[http://focus.ti.com/mcu/docs/mcuorphan.tsp?contentId=68909|Texas Instruments "Developer Tools for TMS570 ARM Cortex-R4F MCUs"]].
+  *[[http://processors.wiki.ti.com/|Texas Instruments Embedded Processors Wiki]].
+    *[[http://processors.wiki.ti.com/index.php/TMS570_Code_Composer_Studio_Setup|Texas Instruments Embedded Processors Wiki "TMS570 Code Composer Studio Setup"]].
+  *[[http://en.wikipedia.org/wiki/Lockstep_%28computing%29|EN.Wikipedia "Lockstep (computing)"]].
+=== BeagleBoard -> Texas Instruments OMAP3530, based on ARM8 ===
+  *A BeagleBoard has no Ethernet port on chip or on board.
+  *[[http://elinux.org/BeagleBoard|eLinux.org - BeagleBoard]].
+  *[[http://www.beagleboard.org/|beagleboard.org]].
+  *Blog [[http://ebvbeagle.blogspot.com/|Blogspot "EVBBeagle"]].
+  *[[http://search.digikey.com/scripts/DkSearch/dksus.dll?&keywords=296-23428-ND|Digi-Key "KIT DEV BEAGLE BOARD REV C"]].
+  *<del>[[http://www.ebv.com/ebvbeagle|EBV "EBVBeagle"]]</del> -  USB hub and USB2Ethernet adapter is included.
+    *[[http://www.elektroniknet.de/distribution/news/article/20470/0/EBVBeagle_geht_an_den_Start/|elektroniknet.de "EBVBeagle geht an den Start"]] ( 2009-03-14 ).
+  *[[http://www.li-pro.net/ebv-beagle.phtml|Li-Pro.Net "Schnellstart. Ångström für das EBV Beagle"]].
+  *[[http://en.wikipedia.org/wiki/Beagle_Board|EN.Wikipedia "Beagle Board"]], [[http://de.wikipedia.org/wiki/Beagle_Board|DE.Wikipedia "Beagle Board"]].
+  *[[http://en.wikipedia.org/wiki/Texas_Instruments_OMAP|EN.Wikipedia "Texas Instruments OMAP"]], [[http://de.wikipedia.org/wiki/Open_Multimedia_Application_Platform|DE.Wikipedia "Open Multimedia Application Platform"]].
+=== Pandaboard -> Texas Instruments OMAP4430, based on Cortex A9 ===
+  *A BeagleBoard has no Ethernet port on chip or on board.
+  *[[http://www.pandaboard.org|pandaboard.org]]. 
+  *[[http://en.wikipedia.org/wiki/PandaBoard|EN.Wikipedia "PandaBoard"]].
+  *[[http://en.wikipedia.org/wiki/Texas_Instruments_OMAP|EN.Wikipedia "Texas Instruments OMAP"]], [[http://de.wikipedia.org/wiki/Open_Multimedia_Application_Platform|DE.Wikipedia "Open Multimedia Application Platform"]].
+=== Texas Instruments Sitara, based on Cortex A9 ===
+== Sitara ==
+  *[[http://www.ti.com/sitara|Texas Instruments "Sitara"]].
+  *[[http://processors.wiki.ti.com/index.php/Sitara|Texas Instruments Embedded Processors Wiki "Sitara"]].
+  *[[http://www.ti.com/tool/linuxezsdk-sitara|Texas Instruments "Linux EZ Software Development Kit (EZSDK) for Sitara ARM Microprocessors"]].
+  *The OpenSource [[http://sourcery.mentor.com/sgpp/lite/arm/portal/release858|Mentor Graphics "Sourcery G++ Lite 2009q1-203 for ARM GNU/Linux"]] for Linux and Windows hosts.
+    *[[http://processors.wiki.ti.com/index.php/Installing_CodeSourcery_Toolchain|Texas Instruments Embedded Processors Wiki "Installing CodeSourcery Toolchain"]].
+  *The commercial IDE [[http://www.ti.com/tool/ccstudio|Texas Instruments "Code Composer Studio (CCStudio) Integrated Development Environment (IDE) v5"]]. 
+    *CCStudio 5 is truely based on Eclipse. You can add your favourite Eclipse plugins, by your own.
+    *While the outdated CCStudio 4 was "closed source" software built upon Eclipse. You can't add your favourite Eclipse plugins, by your own.
+  *[[http://processors.wiki.ti.com/index.php/Programmable_Realtime_Unit_Subsystem|Texas Instruments Embedded Processors Wiki "Programmable Realtime Unit Subsystem"]] (PRUSS).
+  *Matrix GUI Launcher Application, based on Qt.
+    *The discontinued [[http://gstreamer.ti.com/gf/project/matrix_gui/|atrix GUI Launcher Application]].
+    *[[https://gforge.ti.com/gf/project/matrix-gui-v2/|Matrix Application Launcher v2]].
+    *[[http://processors.wiki.ti.com/index.php/Matrix_Users_Guide|Texas Instruments Embedded Processors Wiki "Matrix Users Guide"]].
+== Arduino Tre ==
+  *[[http://arduino.cc/en/Main/ArduinoBoardTre|Arduino "Arduino Tre"]].
+=== BeagleBone -> Texas Instruments Sitara AM335x, based on Cortex-A8 ===
+  *A BeagleBone has 2 Ethernet port on chip and on board, with integrated network switch. So you can run a Ethernet network with Ethernet bus segments between several ( BegleBone ) network devices ( instead of the star network structure required for Ethernet 10/100/1000, usually ).
+  *Hardware graphics acceleration.
+    *If you are running the board with Android 4, hardware graphics acceleration is a must - You need it due to the massive use of 3D graphics by the system.
+    *If you are running the board with Linux, hardware graphics acceleration is optional - You don´t need such for simple 2D graphics.
+  *[[http://www.beagleboard.org/bone|Beagleboard.org "BeagleBone Product Details"]].
+  *[[http://processors.wiki.ti.com/index.php/AM335x_Starter_Kit|Texas Instruments Embedded Processors Wiki "AM335x Starter Kit"]] - "TI launches new $199 Sitara™ AM335x ARM Cortex-A8 Starter Kit with 4.3-inch LCD touchscreen that enables low-cost HMI and networking applications".
+  *The free online tutorials [[http://focus.ti.com/docs/training/catalog/events/event.jhtml?sku=OLT312000|Texas Instruments Embedded Processors Wiki "Boot Camp for Sitara ARM® Processors"]].
+  *[[http://processors.wiki.ti.com/index.php/BeagleBone-Android-DevKit_Guide|Texas Instruments Embedded Processors Wiki "BeagleBone-Android-DevKit Guide"]].
+=== My "SimpleLink Wi-Fi CC3200 LaunchPad" - CC3200, based on Cortex M4 ===
+  *[[http://www.ti.com/tool/cc3200-launchxl|Texas Instruments "SimpleLink Wi-Fi CC3200 LaunchPad"]], [[http://www.ti.com/ww/en/launchpad/launchpads-connected-cc3200-launchxl.html|Texas Instruments "TI LaunchPad - Develop. Make. Innovate" - "CC3200-LAUNCHXL"]] with [[http://www.ti.com/product/cc3200|Texas Instruments "CC3200 SimpleLink Wi-Fi and Internet-of-Things solution, a Single-Chip Wireless MCU"]] ( 256KB RAM, I was told: 256 KB Flash ).
+  *In opposite to earlier design approches for bare-metal microcontroller, a huge amount of RAM is supplied to enable a change in the usual development workflow of embedded software:
+    *You have to set a mechanical jumper to enable Flash programming :-(. There is a hardware trick with some electrical cable connections, to get rid of this :-).
+    *You are asked to develop your complete software in RAM. As final step of software development, you should then convert the application to a Flash application. 
+    *In opposite to the standard CCS toolchain, you need an externally provided tool for flash programming.
+  *[[http://www.ti.com/product/CC3200/toolssoftware|Texas Instruments "CC3200 - Tools & Software"]] - "SimpleLink Wi-Fi CC3200 Software Development Kit (SDK)".
+  *[[http://play.google.com/store/apps/details?id=com.pandaos.smartconfig|Google Play "SimpleLink Wi-Fi Starter"]].
+  *[[http://processors.wiki.ti.com/index.php/Arrow_IoT_Seminar_2014|Texas Instruments Embedded Processors Wiki "Arrow IoT Seminar 2014"]].
+==== Toshiba Electronic Components, Inc. ====
+  *[[http://www.toshiba.com/taec/Catalog/Family.do?familyid=14&subfamilyid=1630134|Toshiba Electronic Components, Inc. (TAEC) "ARM-Technology-Based Microcontrollers"]].
+  *[[http://www.toshiba-components.com/|Toshiba Electronic Components / Toshiba Electronics Europe]].
+    *[[http://www.toshiba-components.com/microcontroller/Cortex.html|Toshiba Electronics Europe "TX03 product series - Cortex-M3"]].
+    *[[http://www.toshiba-components.com/microcontroller/ARM9.html|Toshiba Electronics Europe "TX09 series - ARM9 Microcontroller for high-end graphic solutions"]].
+  *[[http://www.toshiba-components.com/microcontroller/TMPM370.html|Toshiba Electronics Europe "TMPM370 product series - 3-phase BLDC Vector Motor Control"]].
+  *Hardware and software design contest.
+    *[[http://www.elektor-projects.com/project/design-wettbewerb-mit-toshibas-m370.12988.html|Elektor ELabs "Design-Wettbewerb mit Toshibas M370"]] ( 2013-02-26 - 2013-07-31 ).
+    *The affordable evaluation board for motor control:
+      *[[http://www.toshiba-components.com/microcontroller/TMPM374_STK.html|Toshiba Electronics Europe "Starter Kit and Reference Boards for M370 Family"]].
+        *[[http://www.toshiba-components.com/microcontroller/M37Sigma.html|Toshiba Electronics Europe "M370 Sigma Starter kit and Reference Platform"]].
+      *[[http://www.elektor.de/sigma-board|ELEKTOR "Sigma-Board (120724-91)"]], [[http://www.elektor.de/products/kits-modules/modules/120724-91-sigma-board.2424831.lynkx|ELEKTOR "Sigma-Board (120724-91)"]].
+    *[[http://www.elektor.de/jahrgang/2013/april/motorsteuerung-die-firmware-macht-s!.2439391.lynkx|ELEKTOR "Motorsteuerung: die Firmware macht‘s! ARM-Cortex-Mikrocontroller mit Motor-Funktionen erleichtern die Entwicklung"]], 2013-04.
+    *Videochannel [[http://www.youtube.com/elektorde|YouTube Channel "ELEKTOR"]].
+      *Video [[http://www.youtube.com/watch?v=--hF8OdEVmQ|YouTube "ELEKTOR: Webinar BLDC-Motorsteuerung mit Toshiba M370-Controllern"]].
+==== VIPAR GmbH -> VIPAR Internet Chip, based on Cortex M3 ====
+  *[[http://www.vipar.eu/|VIPAR GmbH]].
+  *Unique selling proposition ( USP ): The "VIPAR" CPU provides on-chip TCP/IP-based Ethernet connectivity.
+  *The disttributor [[http://www.arroweurope.com/|Arrow Europe]].
+  *[[http://www.arroweurope.com/de/news-events/arrow-news/detail/article/embedded-world-2011-neue-epc-loesungen.html|Arrow Europe "Embedded World 2011: Neue EPC-Lösungen"]], 2011-03-19 - "VIPAR Internet Chip".
+==== Xilinx -> Zynq7000 All Programmable SoC, based on Cortex A9 ====
+  *[[http://www.xilinx.com/|Xilinx Inc.]].
+  *[[http://www.xilinx.com/zynq|Xilinx "Zynq-7000 All Programmable SoC"]], [[http://www.xilinx.com/products/silicon-devices/soc/zynq-7000/|Xilinx "Zynq-7000 All Programmable SoC"]].
+  *The free software development kit [[http://www.xilinx.com/products/design-tools/ise-design-suite/ise-webpack.htm|Xilinx "ISE WebPACK Design Software"]] for Windows and Linux.
+    -The free IDE [[http://www.xilinx.com/tools/planahead.htm|Xilinx "PlanAhead Design and Analysis Tool"]].
+      *TCL is the script language for PlanAhead. See [[tickle.html|Tcl / Tk ( tickle )]].
+    -The free IDE [[http://www.xilinx.com/tools/xps.htm|Xilinx "Xilinx Platform Studio"]].
+    -The free "Zynx Software Development Kit".
+    -With the free "Xilinix Documentation Navigator", a Windows application, you may easily download technical documentation :-).
+  *The commercial software "ChipScope".
+    *[[http://www.xilinx.com/support/documentation/dt_chipscopepro.htm|Xilinx "ChipScope Pro"]].
+    *[[http://www.xilinx.com/itp/xilinx10/isehelp/ise_c_process_analyze_design_using_chipscope.htm|Xilinix "ChipScope Pro Debugging Overview"]].
+    *[[http://www.xilinx.com/tools/cspro.htm|Xilinx "ChipScope Pro and the Serial I/O Toolkit"]].
+  *[[http://www.zedboard.org/|ZedBoard]].
+  *I was told by experts in 2013-06: 
+    *The Xilinx ARM SoC chip has 256k of internal RAM. This might be enough to run Linux as application on the first ARM core on external RAM memory, and a small realtime operating system ( e.g. FreeRTOS ) as application on the other core, with internal 256K RAM memory. The code of the small realtime operating system and its individual application might run in RAM, with full CPU speed. Running this from slow Flash memory does not provide the wanted computing power. 
+    *In opposite, Altera's ARM SoC chip has just 64K of internal RAM. This is not suitable to run even a small realtime operating system and its individual application, in RAM, usually.
+===== ARM Board Manufacturers =====
+  *[[http://www.olimex.com/|OLIMEX Ltd.]], Bulgaria.
+    *[[http://www.olimex.com/dev/|OLIMEX Ltd. "Development boards and Tools"]] -> "ARM".
+    *[[http://www.olimex.com/dev/projects.html|OLIMEX Ltd. "OPEN SOURCE PROJECTS FAN PAGE"]] - "If you have new project idea and you can implement it with some of our boards let us know and if we find your project interesting we will send you the board free of charge".
+    *[[http://twitter.com/Olimex|Twitter "Olimex"]].
+  *[[http://www.mbed.org/|mbed]] - "The fastest way to prototype with ARM based microcontrollers".
+===== MPU Hardware =====
+==== Events vs. Interrupts ====
+  *Events vs. interrupts:
+    *Events cause the MCU core to wake up, but no code is executed.
+    *Interrupts cause the MCU core to wake up and to execute instructions ( jump to and execution of interrupt service routines ).
+  *I was told by experts: With early releases of ( just StMicroelectronics ? ) Corex M0+ MPUs, there were problems with in events by the ARM core, but now with current production releases, this is past and now everything works fine.
+==== Energy Efficiency ====
+  *According to experts, 
+    *it is more energy efficient to wake up a MPU every second, which runs with high frequency,
+    *then to run a MPU with low clock all the time.
+  *, because chips in CMOS technology consume power, as soon as the MPU is active.
+==== FIFO vs. DMA ====
+  *According to experts, FIFO is an outdated concept of the 1980th and 1990th. 
+  *With current MCUs, incoming data is stored in a 16-32 bit shift register, and is then transfered by DMA to the target memory locations.
+==== Assembly Language ( CPU Opcodes ) Reference ====
+  *The MCU "ARM Cortex M0" has no unprivileged level.
+  *You may write an ARM Cortex application in C language "from the first line on". There is no need as with other MCUs first to have some assembly code.
+  *Assembly code, code copy direction.
+    *Mathematical operations - Intel style:
+      *"ADD R0 R1" -> R0=R0+R1.
+    *Load+store operations - No unique code copy direction.
+      *"LD R0, [R1]" -> [R1] = R0.
+      *"STR R0, [R1]" -> R0 = [R1].
+    *The number of IRQ priorities ( 8 - 256 ) of ARM Cortex M3, M4, M7 depends on OEM decisions.
+    *There is no C compiler keyword "interrupt" with ARM MCUs.
+    *You may access memory by a single bit or by a word.
+  *[[http://www.arm.com/products/processors/technologies/instruction-set-architectures.php|ARM Ltd. "Instruction Set Architectures"]].
+  *[[http://infocenter.arm.com/|ARM Information Center]].
+    *[[http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.set.architecture/|ARM Information Center "ARM architecture"]].
+    *"Instruction Set Quick Reference Cards".
+    *[[http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0406b/|ARM Information Center "ARM architecture / ARM Architecture Reference Manual ARMv7-A and ARMv7-R Edition"]] - "Cortex-A series, Cortex-R series".
+    *[[http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0403c/|ARM Information Center "ARM architecture / ARMv7-M Architecture Reference Manual"]] - "Cortex-M3" #.
+    *[[http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0419c/|ARM Information Center "ARM architecture / ARMv6-M Architecture Reference Manual"]] - "Cortex-M0".
+===== Software =====
+==== ARM Software Development Systems, Compiler ====
+=== Free online Development Systems ===
+  *[[http://www.mbed.org/|mbed]] - "Development Platform for Devices. The mbed development platform is the fastest way to create products based on ARM microcontrollers. The project is being developed by ARM, its Partners and the contributions of the global mbed Developer Community".
+    *[[http://tls.mbed.org/|mbed "mbed TLS"]] ( formerly known as PolarSSL ) - SSL library.
+=== Unlimited free / Open Source Development Systems ===
+  -[[http://www.bipom.com/products/us/319589.html|BiPOM Electronics, Inc. "ARM Development System. The ultimate ARM Development system for FREE"]], for Windows.
+  -Em::Blocks / Code::Blocks.
+    *[[http://www.emblocks.org/|Em::Blocks]].
+      *Wiki [[http://www.emblocks.org/wiki/|Em::Blocks Wiki]].
+        *[[http://www.emblocks.org/wiki/tutorials/f401_f429_disco|Em::Blocks Wiki "Tutorial in using F401C and F429I Discovery boards in hard Real-Time Control"]].
+      *[[http://www.youtube.com/user/EmBlocks|YouTube Channel "EmBlocks"]].
+        *[[http://www.youtube.com/watch?v=coHPJylnzC8|YouTube "New STmicro project from scratch"]].
+      *"Free C/C++ IDE... EmBlocks can use any debug probe... The integrated STlink GDB server also supports Live Data and Semihosting", shipped with "armGCC" (EmBlocks bare-metal) C/C++ compiler.
+      *"It all started with the use of [[http://www.codeblocks.org/|Code::Blocks]] as an IDE for embedded software development as a replacement for other Java written tools (e.g. MplabX) which were too slow or unstable".
+      *[[http://www.mbed.org/users/dreschpe/notebook/offline-nucleo-development-with-emblocks/|mbed Forum "Offline Nucleo development with EmBlocks"]] - "The Em::Blocks IDE come with STM32 support out of the box".
+    *[[http://www.codeblocks.org/|Code::Blocks]], [[http://codeblocks.sourceforge.net/|SourceForge "Code::Blocks. Free, open-source, cross-platform C/C++ IDE"]], [[http://www.sourceforge.net/projects/codeblocks/|SourceForge "Code::Blocks. Free, open-source, cross-platform C/C++ IDE"]].
+      *Wiki [[http://wiki.codeblocks.org/|Code::Blocks Wiki]].
+      *[[http://en.wikipedia.org/wiki/Code::Blocks|EN.Wikipedia "Code::Blocks"]], [[http://de.wikipedia.org/wiki/Code::Blocks|DE.Wikipedia "Code::Blocks"]].
+  -[[http://www.gnuarm.com/|GNU ARM toolchain]] for Windows/Cygwin, Linux.
+  -[[http://www.hitex.com/index.php?id=539|Hitex Development Tools GmbH "GNU Compiler Collection (GCC)"]] - "All ARM and Cortex development tools from Hitex are delivered with a GNU compiler edition built and tested by Hitex".
+  -[[http://www.siwawi.arubi.uni-kl.de/avr_projects/arm_projects/|Martin THOMAS "ARM Projects"]] - "WinARM" for Windows.
+  -[[http://www.modularcircuits.com/blog/projects/development-tools/gcc-for-arm-avr-and-blackfin/|Modular Circuits "GCC for ARM, AVR and BlackFin"]].
+  -The free [[http://www.mentor.com/embedded-software/sourcery-tools/sourcery-codebench/editions/lite-edition/|Sourcery CodeBench Lite Edition]] - "Sourcery CodeBench Lite Edition is a free, unsupported version of Sourcery CodeBench, available for select processors".
+  -The free [[http://www.ti.com/starterware|Texas Instruments StarterWare]] for Windows and Linux - Software development for targets powered by some ARM and DSP CPUs ( AM1808, OMAPL138, C6748, AM335X ), but operating without operating system or even operating a low-level operating system.
+    *[[http://processors.wiki.ti.com/index.php/StarterWare|Texas Instruments Embedded Processors Wiki "StarterWare"]].
+  -[[http://www.yagarto.de/|YAGARTO - Yet another GNU ARM toolchain]] for Windows.
+=== Unlimited free / Open Source Development Systems for Linux Targets ===
+  *[[http://sourcery.mentor.com/sgpp/lite/arm/portal/release858|Mentor Graphics "Sourcery G++ Lite 2009q1-203 for ARM GNU/Linux"]] for Linux and Windows hosts.
+=== Limited free Development Systems ( with unlimited commercial Edition ) ===
+  *[[http://www.atollic.com/|Atollic TrueSTUDIO]].
+    *[[http://www.atollic.com/index.php/registerlite|Atollic TrueSTUDIO - Register Lite version]]. You have to enter the specific code generated by the installer software during the installation process. The code is specific to the PC on which the software is installed.
+    *Now in 2012-04 there is a free lite version 3.0.0 of [[http://www.atollic.com/index.php/targets/armtargetsupport|Atollic TrueSTUDIO for ARM]]. The codesize is limited to 32KB (8KB on Cortex-M0).
+    *In 2012-11, there was a free lite version of [[http://www.atollic.com/index.php/targets/stm32|Atollic TrueSTUDIO for STMicroelectronics STM32]] version 2.2.0, with a C compiler ( not C/C++ ! ) :-). There is no limit for the generated Flash code size - so it is a true lite version, not a crippled version. Nevertheless there is a user feedback, that the number of breakpoints is very limited ( 2 or 3 breakpoints ), and that a popup window is popping up frequently while using the IDE.
+    *In 2012-04, there is a free lite version of [[http://www.atollic.com/index.php/targets/tx|Atollic TrueSTUDIO for Toshiba TX]] version 2.3.0, with a C compiler ( not C/C++ ! ) :-). There is no limit for the generated Flash code size - so it is a true lite version, not a crippled version. Nevertheless there is a user feedback, that the number of breakpoints is very limited ( 2 or 3 breakpoints ), and that a popup window is popping up frequently while using the IDE.
+    *[[http://www.glyn.de/News-Events/Newsletter/Newsletter-2011/Juni-Juli-2011/Kostenlose-Entwicklungsumgebung-Fuer-TOSHIBAs-Cortex-M3-und-ARM9-Mikrocontroller|Glyn Newsletter "Kostenlose Entwicklungsumgebung: Für TOSHIBAs Cortex-M3 und ARM9 Mikrocontroller"]], 2012-06 - 2012-07.
+    *[[http://atollic.com/index.php/videotutorials|Atollic TrueSTUDIO - Video Tutorials]].
+    *[[http://www.atollic.com/index.php/truestudio/featurecomparison|Atollic TrueSTUDIO - Feature Comparison]].
+    *Distributors / Vendors.
+      *[[http://www.logic.nl/|Logic Technology]], Netherlands.
+    *[[http://www.electronicsweekly.com/Articles/16/03/2011/50694/toshiba-offers-free-ide-for-arm-microcontrollers.htm|ElectronicsWeekly "Toshiba offers free IDE for ARM microcontrollers"]], 2011-03-16.
+    *According to experts, there is an "added value" with the Atollic Studio, in comparison to the OpenSource tool chains and some competitor products: Atollic added some debug functions for ARM targets, which were unique a the time of implementation. Btw, according to these experts, Renesas tries to implement these functions one-after-another in its own IDE toolchain [[http://www.renesas.eu/products/tools/ide/ide_e2studio/downloads.jsp|Renesas "e2 Studio"]] :-).
+
+^ ^ ^ ^ 
+^Feature ^ Lite ^ Commercial ^
+^ C, Assembler | yes | yes |
+^ C++ | no :-( | yes |
+^ Flash code size limit | no :-) | no |
+^ | | |
+
+  *[[http://www.code-red-tech.com/|Code Red Technologies Ltd.]].
+    *The free [[http://www.code-red-tech.com/lpcxpresso.php|Code Red Technologies Ltd. "LPCXpresso"]] - "Software Development toolkit for NXP LPC family microcontrollers", "A C/C++ programming environment".
+      *Users can also use the LPCXpresso IDE with the [[http://www.code-red-tech.com/red-probe-plus.php|Red Probe JTAG adapter]]. 
+      *[[http://lpcxpresso.code-red-tech.com/|Code Red Technologies Ltd. "LPCXpresso powered by Code Red"]] - "Register here to create an account and download and activate your copy of the LPCXpresso development tools".
+    *Wiki & Knowledgebase.
+      *[[http://lpcxpresso.code-red-tech.com/LPCXpresso/softwareknowledgebase|Code Red Technologies Ltd. "LPCXpresso Software Knowledgebase"]].
+      *[[http://www.support.code-red-tech.com/|Code Red Technologies Ltd. "Code Red Support Wiki"]].
+    *The commercial [[http://www.code-red-tech.com/red-suite-4.php|Code Red Technologies Ltd. "Red Suite"]] - "Software Development toolkit for ARM-based 32-bit Microcontrollers".
+    *[[http://twitter.com/code_red_tech|Twitter "Code Red Tech"]].
+  *[[http://www.freescale.com/codewarrior|Freescale Semiconductor, Inc. "CodeWarrior"]].
+    *[[http://www.freescale.com/webapp/sps/site/prod_summary.jsp?code=CW-SUITE-SPECIAL&tid=CWH|Freescale Semiconductor, Inc. "Special Edition Software Design Tools"]].
+      *[[http://www.freescale.com/webapp/sps/site/prod_summary.jsp?code=CW-MCU10|Freescale Semiconductor, Inc. "CodeWarrior Development Studio for Microcontrollers (Eclipse IDE)"]] //for Kinetis//.
+        -Unlimited assembler.
+        -C compiler and C source-level debugger ( not C/C++ ! ) – code and data size restricted to //128 KBytes for Kinetis//.
+        -Integrated Flash Programmer, Device Initialization tool, Processor Expert with Basic Components //for Kinetis//.
+  *[[http://www.iar.com/ewarm|IAR Embedded Workbench for ARM]] - free 32 KBytes Kickstart Edition for Cortex M3 ( just free 16 KBytes Kickstart Edition for Cortex M0 ) with C/C++ compiler, but without MISRA-C checker.
+    *[[http://supp.iar.com/FilesPublic/UPDINFO/004916/arm/doc/infocenter/index.ENU.html|IAR Information Center for ARM]].
+    *An ARM assembler is included :-). There is the rumour, that the size limit of the Kickstart edition is a size limit of the C compiler, not of the assembler ?!
+    *"The same installer is used for both the 30-day time-limited and the Kickstart (size-limited) evaluation edition. You select which evaluation license type you want to use after the installation. When you start the product for the first time, you will be asked to register to get your evaluation license".
+  *The free [[http://www.mentor.com/embedded-software/sourcery-tools/sourcery-codebench/lite-edition|Mentor Graphics "Sourcery CodeBench Lite Edition"]] for Windows - "A complete development environment for embedded C/C++ development on ARM, Power, Coldfire and other architectures".
+=== Free IDEs for ARM Development ===
+  *[[http://www.coocox.org/|CooCox]].
+    *The free [[http://www.coocox.org/CooCox_CoIDE.htm|CooCox CoIDE]] for Windows.
+    *The free [[http://www.coocox.org/CooCox_CoDebugger.htm|CooCox CoDebugger]] for Windows.
+    *The free [[http://www.coocox.org/CooCox_Builder.htm|CooCox CoBuilder]] - "An internet-based component-oriented embedded development platform, specially for ARM Cortex M chipset".
+    *According to experts, the CooCox toolchain has just the usual basic debugging features, i.e.g start, stop, break.
+    *I was told by experts, that the IDE and the compiler supports the STMicroelectronics F0 MPU, but some other CPUs not ?!
+  *The free [[http://www.isystem.com/downloads/winidea/winideaopen|iSYSTEM AG für Informatiksysteme "winIDEA Open - Free Cortex software development and test platform supporting different debug hardware and evaluation board"]] for Windows.
+  *[[http://www.raisonance.com/|Raisonance SAS]].
+    *The free IDE [[http://www.raisonance.com/~ride7__microcontrollers__tool~tool__T018:4cw36y8a5c39.html|Raisonance SAS "Ride7"]] for Windows - "A free software tool that is available with Raisonance RKit C toolsets, RLink debugger/programmer and related tools such as our Primers and REva evaluation platforms".
+=== Free Debugger for ARM cores ===
+  *[[http://developer.berlios.de/projects/openocd/|BerliOS "Open On-Chip Debugger"]].
+    *[[http://openocd.sourceforge.net/|Sourceforge "Open On-Chip Debugger"]], [[http://www.sourceforge.net/projects/openocd|Sourceforge "Open On-Chip Debugger"]]  - "Free and Open On-Chip Debugging, In-System Programming and Boundary-Scan Testing".
+    *[[http://www.yagarto.de/#ocd|YAGARTO - Yet another GNU ARM toolchain - OpenOCD]] - "Unfortunately it is [[https://lists.berlios.de/pipermail/openocd-development/2009-June/007971.html|not allowed]] to distribute binary version of OpenOCD, which is linked to the proprietary library FTD2XX provided by FTDI".
+    *[[http://www.ethernut.de/en/hardware/enut3/openocd.html|Ethernut Project "OpenOCD and Ethernut 3"]].
+    *[[http://www.freddiechopin.info/|Freddie Chopin]] - "OpenOCD - Open On Chip Debugger. Debugger for ARM cores - compiled packages for Windows".
+=== Commercial Development Systems ===
+== Standard ==
+  *[[http://www.arm.com/products/tools/|ARM Ltd. "Software Tools"]].
+    *[[http://www.arm.com/products/tools/software-tools/ds-5/|ARM Ltd. "ARM Development Studio 5 (DS-5)"]] for Linux and Windows.
+    *[[http://www.arm.com/products/tools/software-tools/rvds/|ARM Ltd. "RVDS Toolchain"]] for Linux and Windows.
+  *[[http://www.hitex.com/index.php?id=hitop|Hitex Development Tools GmbH "HiTOP IDE/Debugger"]] - "HiTOP for ARM Products".
+  *[[http://www.keil.com/arm/mdk.asp|Keil MDK-ARM]].
+    *Please use "C:\Program Files\Keil" instead of "C:\Keil" as installation directory, on Vista / Win7 / Win8.
+    *As of 2013-03, the bundled Windows USB debugger interface driver ST-Link does not install on Win8Pro :-(.
+  *[[http://www.microcross.com/html/visual_x-tools.html|Microcross, Inc. "Visual X-Tools - Integrated Development Environment"]].
+  *[[http://www.rowley.co.uk/arm/|Rowley Associates "CrossWorks for ARM"]] - C/C++ compiler for Linux Windows, affordable commercial "Personal License".
+  *[[http://www.tasking.com/products/arm/|Altium BV. - TASKING "C/C++ compiler and debugger tools for ARM Cortex-M/R"]].
+== Functional Safety ==
+  *[[http://www.iar.com/Products/IAR-Embedded-Workbench/Certified-tools-for-functional-safety/|IAR "Certified tools for functional safety"]].
+    *[[http://www.iar.com/sv/Products/IAR-Embedded-Workbench/Certified-tools-for-functional-safety/Functional-Safety-for-ARM/|IAR "Functional Safety tools for ARM"]].
+=== Free Simulators ===
+  *The OpenSource ARM7 simulator [[http://www.cl.cam.ac.uk/~mwd24/phd/swarm.html|Michael Dales "SWARM - Software ARM"]] for Linux.
+
+==== Operating Systems for ARM ====
+  *The free [[http://www.freescale.com/MQX|Freescale MQX]].
+  *The commercial [[http://www.virscient.com/solutions/ubiquios-embedded-wireless-connectivity-platform/|Virscient Limited "UbiquiOS Embedded Wireless Connectivity Platform"]].
+==== Realtime Language Platforms ====
+  *eLua, see [[lua.html|Lua & eLua]].
+==== ARM Cortex Microcontroller Software Interface Standard (CMSIS) ====
+  *See [[sframeworks.html|Software Frameworks]].
+===== Training & Education =====
+==== German Books ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/382665949X/hemmerling-21|Friedrich Bollow, Matthias Homann, Klaus-Peter Köhn: "C und C++ für Embedded Systems"]] -> ARM, C166, 8051.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3639171764/hemmerling-21|Matthias Epple: "ARMazing: Ein ARM-7 Entwicklungsboard: Hardwaredesign eines Entwicklungsboards auf Basis eines ARM-7 Mikrocontrollers und Portierung der Treibersoftware"]] -> Not available in TIB.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3772355994/hemmerling-21|Edmund Jordan: "Embedded Systeme mit Linux programmieren. GNU-Softwaretools zur Programmierung ARM-basierter Systeme"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3895762083/hemmerling-21|Michael Haßelberg: "Embedded Linux in der Mikrocontrollerpraxis"]] -> ARM9.
+
+==== English Books ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0750677309/hemmerling-21|Jason Andrews: "Co-Verification of Hardware and Software for Arm Soc Design"]].
+  *[[http://www.keil.com/books/armbooks.asp|ARM Germany GmbH. ( KEIL ) "ARM Microcontroller Books"]].
+    *Free PDF book "Keil µVision4 Getting Started Guide".
+    *Free PDF book "Keil RL-ARM Getting Started Guide".
+    *Free PDF book "RealView MDK-ARM".
+  *Richard Barry.
+    *Book [[http://www.amazon.co.uk/exec/obidos/ASIN/1446170306/hemmerling-21|Richard Barry: "Using The FreeRTOS Real Time Kernel - Cortex M3 Edition (FreeRTOS Tutorial Books)"]].
+    *Book [[http://www.amazon.co.uk/exec/obidos/ASIN/1446169979/hemmerling-21|Richard Barry: "Using The FreeRTOS Real Time Kernel - NXP LPC17xx Edition (FreeRTOS Tutorial Books)"]] -> Not available in TIB.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0905705750/hemmerling-21|Alan Clements: "Microcontroller Systems Engineering: 45 projects for PIC, AVR and ARM"]] -> "Flowcode V4" of [[http://www.matrixmultimedia.com/|Matrix Multimedia 2011]]. Not available in TIB.
+  *Bert van Dam.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0199273138/hemmerling-21|Bert van Dam: "Principles of Computer Hardware"]] -> ARM, 68K. Just a pre-ARM edition is available in TIB.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0905705947/hemmerling-21|Bert van Dam: "ARM Microcontrollers part1: 35 projects for beginners]].
+  *Lewin Edwards.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0750676094/hemmerling-21|Lewin Edwards: "Embedded System Design on a Shoestring"]] -> ARM7.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0750686014/hemmerling-21|Lewin Edwards: "Analyzing and Developing Real-Time Code: Texas Instruments MSP430 and ARM9 Using Rowley Crossworks"]] -> ARM9. Not available in TIB.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0201675196/hemmerling-21|Steve B. Furber, Stephen B. Furber: "Arm System-On-Chip Architecture"]], 2000 -> Somewhat outdated. Not available in TIB.
+  *[[http://www.hitex.com/index.php?id=download-insiders-guides|Hitex Development Tools - Insider's Guides]].
+    *The free PDF "The Insider's Guide To The STM32 ARM Based Microcontroller".
+    *The free PDF "The Insider's Guide To The STR91x ARM9 Based Microcontroller".
+    *The free PDF "The Insider's Guide To The STR73x ARM7 Based Microcontroller".
+    *The free PDF "The Insider's Guide To The ARM STR71x Based Microcontrollers" -> ARM7.
+    *The free PDF "The Insider's Guide To The NXP LPC2300/2400 Based Microcontrollers" -> ARM7.
+    *The free PDF "The Insider's Guide To The NXP LPC2000 Based Microcontrollers" -> ARM7.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1439806101/hemmerling-21|William Hohl: "ARM Assembly Language: Fundamentals and Techniques"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0201737191/hemmerling-21|David Jagger: "ARM Architecture Reference Manual"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0982337566/hemmerling-21|Jean J. Labrosse: "Uc/OS-III: The Real-Time Kernel and the Texas Instruments Stellaris McUs"]] -> Not available in TIB.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1578201349/hemmerling-21|Edward L. Lamie: "Real-Time Embedded Multithreading: Using ThreadX and ARM"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0557708575/hemmerling-21|Edward Ashford Lee, Sanjit Arunkumarr Seshia: "Introduction to Embedded Systems: A Cyber-Physical Systems Approach"]] -> Not available in TIB.
+    *The accompanying website [[http://www.leeseshia.org/|Lee & Seshia: Introduction to Embedded Systems - A Cyber-Physical Systems Approach]].
+    *The course [[http://chess.eecs.berkeley.edu/eecs149/|Berkley - University of California, Center for Hybrid and Embedded Software Systems ( CHESS ) "Introduction to Embedded Systems ( EECS 149 )"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1402074956/hemmerling-21|Grant Martin, Henry Chang: "Winning the SoC Revolution: Experiences in Real Design"]] -> Not available in TIB.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0080982360/hemmerling-21|Joe Nicholson: "Starting Embedded Linux Development on an Arm Architecture: Developing Applications Using the Arm Ds-5 Toolset"]] -> Not available in TIB.
+  *This book <del>[[http://www.amazon.de/exec/obidos/ASIN/0071597573/hemmerling-21|Myke Predko, Predko Myke: "Programming and Customizing the Arm7 Microcontroller"]]</del> was announced, but not published.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0387511253/hemmerling-21|Francisco Silva, Teresa McLaurin, Tom Waayers: "The Core Test Wrapper Handbook"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1558608745/hemmerling-21|Andrew Sloss, Dominic Symes, Chris Wright: "ARM System Developer's Guide. Designing and Optimizing System Software.: Designing and Optimizing System Software"]].
+  *Warwick A. Smith.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0905705807/hemmerling-21|Warwick A. Smith: "C Programming for Embedded Microcontrollers: Learn the C Programming Language using Free and Open Source Software on Embedded Systems with ARM7 Microcontroller Examples"]] -> Ordered for TIB.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0905705912/hemmerling-21|Warwick A. Smith: "ARM Microcontroller Interfacing: Hardware and Software"]] -> Ordered for TIB.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0123743974/hemmerling-21|Wayne Wolf: "Computers as Components: Principles of Embedded Computing System Design"]] ->ARM, TI C55x DSP.
+  *Joseph Yiu.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0123854776/hemmerling-21|Joseph Yiu: "The Definitive Guide to the ARM Cortex-M0"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/185617963X/hemmerling-21|Joseph Yiu: "The Definitive Guide to the ARM Cortex-M3"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0124080820/hemmerling-21|Joseph Yiu: "The Definitive Guide to Arm(r) Cortex(r)-M3 and Cortex-M4 Processors"]], November 2013 -> Not yet available in TIB #.
+
+==== French Books ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/2746232111/hemmerling-21|Vincent Mahout: "Programmation en langage d'assemblage : ARM Cortex-M3"]] -> Not available in TIB.
+==== Electronic Media ====
+  *Kindle Book [[http://www.amazon.de/exec/obidos/ASIN/B005455YB6/hemmerling-21|Yury Magda: "ARM7 Assembly Language Programming: 100+ examples"]] -> Not available in TIB.
+  *The CDROM [[http://microcontrollershop.com/product_info.php?cPath=239_210&products_id=1445&osCsid=ee8eb38bbfd750985dad906fc6f5ec69|MicroController Pros Coprporateion ( MCPros ) "C for ARM Microcontrollers"]] → Not available in TIB.
+==== Book Resources ====
+  *[[http://www.keil.com/books/armbooks.asp|ARM Germany GmbH. ( KEIL ) "ARM Microcontroller Books"]].
+  *[[http://www.arm.com/support/resources/arm-books/|ARM Ltd "ARM Related Books"]].
+  *[[http://www.microcontrollershop.com/default.php?cPath=239_210|MicroController Pros Coprporateion ( MCPros ) "ARM Books - Books on ARM core based microcontroller programming and design"]].
+  *[[http://www.ti.com/general/docs/gencontent.tsp?contentId=76593|Texas Instruments "TI University Program - Complete Book List"]].
+==== Commercial Courses ====
+  *[[http://www.doulos.com/|Doulos]].
+    *[[http://www.doulos.com/arm|Doulos "ARM and Embedded Software Training with Doulos"]].
+    *[[http://www.doulos.com/content/training/arm_cortex_m3.php|Doulos Training "ARM Cortex-M3 Software Design"]] - "The standard fee for the 4 days of training is 2350 EUR per person, excluding vat and accommodation" ( 2010-12 ).
+===== Resources =====
+  *[[http://embeddedcraft.org/freearmtools1.html|EmbeddedCraft - crafting of intelligent systems "EMBEDDED ARM DEVELOPMENT USING ECLIPSE AND GCC - PART1"]].
+  *[[http://www.emb4fun.de/|emb4fun.de]] - This website explains how to setup the "GNU ARM Bare Metal Toolchain". "The GNU ARM Bare Metal Toolchain will be used for building applications for the ARM architecture without any operation systems like Linux" ##.
+  *[[http://www.emcu.it/|EMCU.IT]] - "In this site you found: Electronics, Microcontrollers, ARM, CORTEX, Powe Line Modem, Accelerometers, Digital Compasses, Gyroscopes, Zigbee Modules, Bluetooth Modules, Metering, Solar Applications, RFID, STM8, STM32, STR9, Ubuntu, Linux and Free Software" #.
+    *[[http://www.emcu.it/STM32.html|EMCU.IT "STM32"]] #.
+  *[[http://www.joral.ca/blog/?p=110|Joral Technologies "Getting Started with Atollic TrueSTUDIO Lite and STM32"]] #.
+  *[[http://www.mikrocontroller.net/articles/ARM|mikrocontroller.net "ARM"]].
+  *[[http://www.obico.de/|oBiCo - the Open Bicycle Computer]], with ARM9.
+  *[[http://raspberryjam.org.uk/|#RaspberryJam - The global community of events for enthusiasts of the Raspberry Pi computer
+]].
+  *[[http://simplemachines.it/doc/|SIM.ONE Technical Library]] - "ARM processors".
+    *"The ARM Instruction Set ARM University Program - V1.0" - A tutorial set of slides explaining the ARMv4 instruction set.
+  *[[http://www.siwawi.arubi.uni-kl.de/avr_projects/arm_projects/|Martin THOMAS "ARM Projects"]].
+  *[[http://www.tinkerunity.org/|Tinker Unity - The Tinkerforge Community]].
+  *[[http://en.wikipedia.org/wiki/ARM_architecture|EN.Wikipedia "ARM architecture"]], [[http://de.wikipedia.org/wiki/ARM-Architektur|DE.Wikipedia "ARM-Architektur"]].
+===== Forums, Newsgroups =====
+  *[[http://forums.arm.com/|ARM Community]] #.
+  *[[http://www.at91.com/|AT91SAM Community]].
+  *[[http://www.bipom.com/cgi-bin/yabb2/YaBB.pl|BiPOM Electronics online forum]] - "ARM Development Tools".
+  *Em::Blocks, Code::Blocks.
+    *[[http://forums.codeblocks.org/|Code::Blocks - Simple machines Forum]].
+    *[[http://www.emblocks.org/forum/|Em::Blocks Forum]].
+  *[[http://forums.electricimp.com/|electric imp Forums]].
+  *[[http://www.elektronik-projekt.de/|Elektronik-Projekt]] Forum.
+    *[[http://www.elektronik-projekt.de/board.php?boardid=26|Elektronik-Projekt "ARM"]].
+  *[[http://www.embdev.net/forum/arm-gcc|EmbdDv.net Forum "ARM programming with GCC/GNU tools"]].
+  *Freescale.
+    *[[http://www.imxcommunity.org/|i.MX Community]].
+    *[[http://www.towergeeks.org/|TowerGeeks]].
+  *[[http://www.friendlyarm.net/forum|FriendlyARM Forums]].
+  *[[http://www.infineonforums.com/forums/|Infineon Forums]].
+    *[[http://www.infineonforums.com/forums/7-DAVE-trade-3-Forum|Infineon Forum, Subforum "DAVE Forum"]].
+  *[[http://www.keil.com/forum/|Keil - Tools by ARM "Keil Discussion Forum"]].
+  *[[http://www.arm.com/linkedin|LinkedIn "ARM Based Group"]].
+  *NXP LPCX.
+    *The legacy read-only [[http://knowledgebase.nxp.com/|NXP "LPCXpresso Forum"]].
+    *The current [[http://www.lpcware.com/users/hemmerling|NXP "LPCware. NXP MCU Community"]].
+  *[[http://www.pemicro.com/forums/|P&E Microcomputer Systems Forums]].
+  *[[http://forum.raisonance.com/|RAISONANCE forums - Microcontroller and Smart Card development tools]].
+  *[[http://www.raspberrypi.org/forums/|Raspberry Pi Forums]].
+  *[[http://my.st.com/public/STe2ecommunities/|STMicroelectronics "STe2eCommunities"]].
+    *[[https://my.st.com/public/STe2ecommunities/mcu/|STMicroelectronics "STe2eCommunities / Microcontrollers"]].
+      *[[https://my.st.com/public/STe2ecommunities/mcu/Lists/cortex_mx_stm32/|STMicroelectronics "STe2eCommunities / Microcontrollers / STM32"]].
+  *[[http://forum.sparkfun.com/viewforum.php?f=18|SparkFun Electronics Forum "OpenOCD"]].
+  *[[http://e2e.ti.com/support/dsp/default.aspx|Texas Instruments "TI E2E™ Community, ARM & DSP Microprocessors"]].
+  *[[http://forum.toshiba-components.com/|Toshiba Electronics Europe - Microcontroller Forum]].
+  *Silicon Labs.
+    *The legacy [[http://forum.energymicro.com/|The Lizard Lounge - EFM32 Forum by Energy Micro]].
+    *The [[http://forum.silabs.com/|Silicon Labs User Community Support Forums]], [[http://www.silabs.com/support/forums/|Silicon Labs User Community Support Forums]].
+  *[[http://www.tinkerunity.org/forum/|Tinker Unity - The Tinkerforge Community, Forum]].
+  *[[http://forums.xilinx.com/|Xilinx User Community Forums]].
+  *XING.
+    *[[http://www.xing.com/net/armembedded|XING "ARM Embedded"]].
+    *[[http://www.xing.com/net/armbasedgroup|XING "ARM Based Group"]] - 1 member in 2011 :-(.
+  *[[http://www.zedboard.org/forums/zedboard-english-forum|Zedboard English Forum]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Hardware/Mikrocontroller/|OpenDirectory "Top: World: Deutsch: Computer: Hardware: Mikrocontroller"]].
+{{tag>ARM Embedded Systems ARM7 ARM9 ARM11 ARM "ARM 7" "ARM 9" "ARM 11" "Cortex M0" "Cortex M3" "Cortex M4" "Cortex A8" Cortex M3 M0 M4 A8}}
+<footnote_navi_en>

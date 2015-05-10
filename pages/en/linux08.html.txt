@@ -1,0 +1,77 @@
+====== [hemmerling] Linux 8/8 - Useful Commands & Tricks ======
+Related page:
+  *[[booting.html|Booting from Devices]].
+  *[[android.html|Google Android]].
+  *[[linux01.html|Linux 1/8]].
+  *[[linux02.html|Linux 2/8 - Linux Distributions]].
+  *[[linux03.html|Linux 3/8 - Linux Boot Loaders, Linux Build Systems, Linux Installers and Linux Implementors]].
+  *[[linux04.html|Linux 4/8 - Linux Applications, Linux Tools and Linux Drivers]].
+  *[[linux05.html|Linux 5/8 - SUSE 7.1 Linux on Clevo 2700c Notebooks with SIS630S Chipset]].
+  *[[linux06.html|Linux 6/8 - Linux with X-Terminals and Terminals]].
+  *[[linux07.html|Linux 7/8 - Linux on X86, X64 and ARM Computers]].
+
+===== Machine-specific Programming on Linux =====
+==== uio Framework ====
+  *The "uio framework" is suitable to avoid Linux license problems for Linux applications with simple, but machines-specific i/o - You may access any memory-mapped hardware by user applications, but you must not provide your source code for any drivers, as there is just a standard Linux mainline driver "mmap" :-).
+  *You may not access legacy and classical PC hardware ( e.g. printer port,.. ) which is connected to the special Intel i/o hardware ports.
+  *There is a special patch available at [[http://git.denx.de/|Git repository of DENX Software Engineering]] for Linux kernel 3.8 to allow the necessary device tree binding by command line  commands - this was "missing link" before. It is expected that this option becomes a standard feature of Linux Kernel 3.10, hopefully :-).
+==== Select() / Poll() Framework ====
+  *"include <sys/select.h>".
+  *Poll() is a variation of Select().
+  *Suitable to work with the "uio framework" and it's "mmap" function, to provide interrupt-driven data transfer with any memory-mapped hardware, without the need for thread programming, and it's overhead.
+  *Loop operation:
+    -Select() expects an array of file selectors as input.
+    -It will got to sleep.
+    -In case of a change of the contents linked with the file descriptors, Select() wakes up again.
+    -The application which uses Select() has to explore and find out, which file descriptor contents changed.
+    -The application handels the file descriptor ( read or writes data,.. ).
+    -End-of-loop.
+==== Gpio on Lemonboard ====
+  *On the [[http://www.lemonboard.org/|Lemonboard]] with Ubuntu Linux / Linux, show Gpio Pins:
+<code>
+cat /sys/kernel/debug/gpio
+</code>
+  *Set Gpioi LED Value:
+<code>
+echo "1" > /sys/class/gpio/gpio203/value
+echo "0" > /sys/class/gpio/gpio2/value
+</code>
+  *Additionally, there is a small application "gpioin". Config the GPIO CSI0_DAT12 to INPUT:
+<code>
+echo in > /sys/class/gpio/gpio158/direction
+echo 1 > /sys/class/gpio/gpio158/active_low
+echo falling > /sys/class/gpio/gpio128/edge
+./gpioin /sys/class/gpio/gpio158/value
+</code>
+
+==== The Effect ====
+  *You may now control hardware, even interrupt-driven hardware, from your Linux applications written in high-level language, e.g. C/C++, Python, Perl, Java, running on a standard Linux Kernel 3.10 ( or patched Linux Kernel 3.8 ). 
+  *For comparison,, with Python and "Raspberry Pi" platform, you need a special Python library...
+===== LInux Commands for Embedded Linux Boards =====
+  *"cat /proc/cpuinfo".
+  *"ls - l /proc/cpuinfo".
+  *"file hello-world".
+  *"printenv".
+  *For successful use of aa remote NFS filesystem as "root" filesystem, the Linux server option "no_root_squash" is necessary. By this, "root" is not handled as unprivileged user, but the server believes that a true "root" wants to access.
+  *For cross-compilation, add  a variable ( e.g. $Cross_compile ) to your makefiles, and define $Cross_compile as environment variable on your host. So that you may use the same makefile to compile both on host and target, but just use a environment variable to create the name of the cross-compiler from the name of the native compiler. So no if-then-else with different compiler calls, but the name of the called compiler is modified to meet the requirements of host and target compilers.
+===== Some other useful Linux Commands =====
+==== Forgotten root Password ====
+  *[[http://www.debiantutorials.org/reset-root-password-debian-gnulinux-etch-286.html|Debian Tutorials "Reset your root Password on your Debian Machine"]] -> Modify Debian Linux boot menu by adding "init=/bin/bash" as additional boot parameter to "/vmlinuz-2.6.18-5-486".
+  *[[http://askubuntu.com/questions/91188/authentication-token-manipulation-error|Ask Ubuntu "Authentication token manipulation error"]] -> "mount -rw -o remount /".
+==== "su" vs. "sudo" ====
+  *[[http://en.wikipedia.org/wiki/Su_%28Unix%29|EN.Wikipedia "su (Unix)"]], [[http://de.wikipedia.org/wiki/Su_%28Unix%29|DE.Wikipedia "su (Unix)"]].
+  *[[http://en.wikipedia.org/wiki/Sudo|EN.Wikipedia "sudo"]], [[http://de.wikipedia.org/wiki/Sudo|DE.Wikipedia "sudo"]].
+  *[[http://www.thegeekstuff.com/2009/09/ubuntu-tips-how-to-login-using-su-command-su-gives-authentication-failure-error-message/|The Geek Stuff "Ubuntu Tips: How To Enable Root User ( Super User ) in Ubuntu"]] -> "sudo passwd root".
+===== Some other Tips & Tricks =====
+  *[[http://www.askubuntu.com/questions/301484/how-do-i-update-ubuntu-manually|Ask Ubuntu "How do I update Ubuntu manually?"]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Linux/|OpenDirectory "Top: Computers: Software: Operating Systems: Linux"]].
+    *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Linux/Embedded/|OpenDirectory "Top: Computers: Software: Operating Systems: Linux: Embedded"]].
+    *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Linux/Platforms/|OpenDirectory "Top: Computers: Software: Operating Systems: Linux: Platforms"]].
+  *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Embedded/|OpenDirectory "Top: Computers: Software: Operating Systems: Embedded"]].
+  *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Realtime/|OpenDirectory "Top: Computers: Software: Operating Systems: Realtime"]].
+    *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Realtime/Open_Source/|OpenDirectory "Top: Computers: Software: Operating Systems: Realtime: Open Source"]].
+    *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Realtime/Linux/|OpenDirectory "Top: Computers: Software: Operating Systems: Realtime: Linux"]].
+{{tag>Linux}}
+<footnote_navi_en>
+

@@ -1,0 +1,236 @@
+====== [hemmerling] Software As A Service ( SAAS ) 2/2 ======
+Related page:
+  *[[ci.html|Continuous Integration ( CI ) & Continous Delivery ( CD )]].
+  *[[cms.html|Content Management Systems ( CMS )]].
+  *[[revision.html|Revision Control & Revision Control Systems (RCS), Source Code Version Control Systems ( SCVCS, VCS, CVS ), Software Configuration Management ( SCM )]].
+  *[[saas.html|Software As A Service ( SAAS ) 1/2]].
+===== Source Code Repositories / Document Repositories =====
+==== Repositories with Version Control based on Git ====
+  *[[http://www.bitbucket.org/|Atlassian Bitbucket]] - "Unlimited private code repositories. Free for 5 users. Git or Mercurial. Lightweight code review. Mac and Windows client".
+    *[[http://en.wikipedia.org/wiki/Bitbucket|EN..Wikipedia "Bitbucket"]] - "Bitbucket is written in Python using the Django web framework".
+  *CloudForge.
+    *[[http://www.collab.net/downloads/git-enterprise|CollabNet "Enterprise Git"]].
+    *[[http://app.cloudforge.com/subscriptions/new/?product=Free|CloudForge]] - "Free. For individuals and personal projects".
+    *[[http://www.twitter.com/CloudForgeHQ|Twitter "CloudForgeHQ"]].
+    *[[http://help.cloudforge.com/|CloudForge Support]].
+    *[[http://en.wikipedia.org/wiki/CloudForge|EN.Wikipedia "CloudForge"]].
+  *[[http://www.github.com/|GitHub]] #.
+    *Git -> See also [[revision.html|Revision Control & Revision Control Systems (RCS), Source Code Version Control Systems ( SCVCS, VCS, CVS ), Software Configuration Management ( SCM )]].
+    *[[http://help.github.com/|GitHub Help]].
+    *Blog [[http://www.github.com/blog|The GitHub Blog]].
+    *[[http://www.facebook.com/pages/GitHub/50595864761|Facebook "GitHub"]].
+    *[[http://www.youtube.com/user/github|YouTube Channel "GitHub"]]
+    *[[http://www.twitter.com/github|Twitter "GitHub"]], [[http://www.youtube.com/user/GitHubGuides|YouTube Channel "GitHub Guides"]].
+    *Creating a new project, by forking existing code or starting from scratch, is easy with GitHub.
+    *A contributor is a project member and may commit and push a new version of code & documents to the project.
+    *Somebody who is neither project master nor contributor, so not a project member, execute a "pull request".
+    *A newbie to a project and to GitHub may easily create a "pull request" to suggest code he/she created or fixed.
+    *GitHub is not really willing to host binaries ( JAR, lib, DLL, executables, installable archives ). Instead it suggests to use some other cloud services like Amazon S3 for storage.
+    *You may either download a GitHub project as archive in ZIP / TAR format, or by a Git client.
+    *You may upload a Git repository to a remote location. e.g. GitHub. I.e. you can create all directory structures offline.
+    *GitHub supports the agile development principle "Commit early and often".
+      *Show your intention what you want to change, instead of pushing your work. 
+      *The reason for the declaration of intention is a discussion about the intention and also, but not just the code :-).
+    *GitHub has much more features than Git, e.g. "Milestone" feature, issue tracker, pull request.
+    *GitHub' file size limit is 100 MBytes!
+    *[[http://pages.github.com/|GitHub Pages]].
+      *[[http://help.github.com/categories/20/articles|GitHub Help "Pages"]].
+      *[[http://www.jekyllrb.com/|Jekyllrb]].
+        *[[http://www.jekyllrb.com/docs/home/|Jekyllrb Documentation]].
+          *[[http://www.jekyllrb.com/docs/posts/|Jekyllrb Documentation "Writing posts"]].
+      *[[http://www.github.com/shopify/liquid/|GitHub "Shopify / liquid"]].
+        *[[http://www.github.com/shopify/liquid/wiki/Liquid-for-Designers|GitHub "Liquid for Designers"]].
+      *"Markdown".
+        *[[http://www.daringfireball.net/projects/markdown/basics|John Gruber, Daring Fireball "Markdown Basics"]].
+    *The free online service [[http://www.ninya.io/|Ninya.io - Search for real ninyas!]], [[http://stackwho.herokuapp.com/|Ninya.io - Search for real ninyas!]] - "Find StackOverflow users near you by tags and reputation".
+    *[[http://en.wikipedia.org/wiki/GitHub|EN.Wikipedia "GitHub"]], [[http://de.wikipedia.org/wiki/GitHub|DE.Wikipedia "GitHub"]].
+  *[[http://www.gitorious.org/|Gitorious]].
+    *[[http://qt.gitorious.org/|Gitorious "Qt by Nokia"]].
+    *[[http://en.wikipedia.org/wiki/Gitorious|EN.Wikipedia "Gitorious"]].
+==== Repositories with Version Control based on Subversion ====
+  *[[http://www.ourproject.org/|ourproject.org]].
+    *[[http://en.wikipedia.org/wiki/Ourproject.org|EN.Wikipedia "Ourproject.org"]].
+      *"CVS and Subversion".
+      *"OurProject.org uses a multi-language multiple-topic adapted version of [[http://en.wikipedia.org/wiki/GForge|EN.Wikipedia "GForge"]]"
+  *[[http://www.sourceforge.net/|SourceForge]].
+    *[[http://sourceforge.net/publish/|SourceForge "Publish Your Existing Project"]].
+    *[[http://sourceforge.net/blog/tutorial-how-to-sync-a-github-or-google-code-repo-to-a-sourceforge-project/|SourceForge Blog "Tutorial: How to sync a GitHub or Google Code repo to a SourceForge project"]].
+    *SourcForge is great, if you want to process the software creation in a project, with strong roles and some project management overhead.
+    *A newbie can´t easily suggest a "pull request" with code created or fixed by him.
+    *SourceForge is willing to host binaries ( JAR, lib, DLL, executables, installable archives ).
+    *SourceForge project screenshots - "You may not have more than 6 screenshots".
+==== Repositories with Version Control which offer both Git and Subversion ====
+  *[[http://www.assembla.com/|Assembla]] - "Simple yet powerful task management, code management (Subversion, Git & Perforce)", "Project management for developers, marketers & agencies", "1 Private Project & 3 Team Members. Unlimited Repos, 500MB Storage"
+    *[[http://en.wikipedia.org/wiki/Assembla|EN.Wikipedia "Assembla"]].
+  *[[http://www.codeplex.com/|CodePlex]].
+    *[[http://en.wikipedia.org/wiki/CodePlex|EN.Wikipedia "CodePlex"]] - "Source control based on Mercurial, Team Foundation Server or Subversion (also powered by TFS), Git"
+  *[[http://code.google.com/|Google Code]].
+    *[[http://en.wikipedia.org/wiki/Google_Code|EN.Wikipedia "Google Code"]], [[http://de.wikipedia.org/wiki/Google_Code|DE.Wikipedia "Google Code"]].
+      *"Google Code runs a project hosting service[8] that provides revision control offering Subversion, Mercurial and Git".
+      *You have to define your OpenSource license when you create a project ( in opposite to other services like GitHub, where you define that by uploading license files ect. ).
+  *[[http://www.javaforge.com/|JavaForge]].
+    *[[http://en.wikipedia.org/wiki/JavaForge|EN.Wikipedia "JavaForge"]] - "Subversion, Git, Mercurial, CVS".
+==== Some other Repositories ====
+  *[[http://www.atariforge.org/|AtariForge]] - "A free service to Atari developers".
+  *[[http://www.codeforge.com/|CodeForge.com. Free Open Source Codes Forge and Sharing]].
+  *[[http://gforge.enseeiht.fr/|ENSEEIHT FusionForge]] ( formerly: ENSEEIHT Gforge ) - "a free service to Open Source developers".
+  *[[http://www.fedorahosted.org/|Fedora Hosted - Start a project, watch it grow]].
+  *[[http://www.freshmeat.net/|freshmeat]].
+  *[[http://gro.clinux.org/|Gro.clinux.org]].
+  *[[http://www.java.net/|java.net]] - "The Source for Java Technology Collaboration".
+  *[[http://www.launchpad.net/|Launchpad]].
+    *[[http://en.wikipedia.org/wiki/Launchpad_%28website%29|EN.Wikipedia "Launchpad (website)"]], [[http://en.wikipedia.org/wiki/Launchpad9|DE.Wikipedia "Launchpad"]].
+  *[[http://www.logilab.org/|Logilab.org]].
+  *[[http://www.luaforge.net/|LuaForge]].
+  *[[http://projects.cis.ksu.edu/gf/|MyGForge]].
+  *[[http://www.mulesoft.org/muleforge|MuleForge, Mule ESB Community]].
+  *[[http://www.ohloh.net/|Ohloh]] / [[http://www.openhub.net/|Black Duck Open Hub]].
+    *[[http://www.ohloh.net/help/stack_faq|Ohloh "Stack FAQ"]].
+    *[[http://www.ohloh.net/accounts/me/stacks|Ohloh "My Stack"]].
+    *[[http://en.wikipedia.org/wiki/Ohloh|EN.Wikipedia "Ohloh"]], [[http://de.wikipedia.org/wiki/Ohloh|DE.Wikipedia "Ohloh"]].
+  *[[http://www.openqa.org/|OpenQA]].
+    *[[http://wiki.openqa.org/|OpenQA (Confluence) Dashboard - OpenQA Wiki]].
+  *[[http://www.ow2.org/|OW2 - The open source community for infrastructure projects]].
+  *[[http://www.pbworks.com/|PBworks]] - "Online Collaboration", collaborative editing (Wiki), file storage. Free PERSONAL accounts, "licensed for non-commercial use only".
+  *[[http://www.planet-source-code.com/|Planet Source Code]].
+  *[[http://www.kenai.com/|Project Kenai]].
+  *[[http://www.riaforge.org/|RIAForge]] - "Open Source projects built on Adobe technology".
+  *[[http://www.rubyforge.org/|Rubyforge]].
+  *[[http://savannah.nongnu.org/|Savannah]], [[http://gna.org/|Gna!]] - "We host free projects that run on free operating systems and without any proprietary software dependencies".
+  *[[http://www.sourcecodeonline.com/|SourceCodeOnline]] - "Submit Source Code and Scripts at Source Code Online".
+  *[[http://www.codehaus.org/|The Codehaus]].
+  *[[http://gforge.ti.com/|Texas Instruments "MyGForge"]].
+==== Resources ====
+  *[[http://en.wikipedia.org/wiki/Comparison_of_open-source_software_hosting_facilities|EN.Wikipedia "Comparison of open-source software hosting facilities"]].
+  *[[http://en.wikipedia.org/wiki/List_of_free_software_project_directories|EN.Wikipedia "List of free software project directories"]].
+===== Webspace, Homepages, Document Hubs =====
+==== Providers of free Webspace & Homepages ====
+  *000webhost & Hostinger.
+    *[[http://www.000webhost.com/|000webhost.com - better than paid hosting]].
+    *[[http://www.hostinger.de/|Hostinger]] - "Kostenloses Hosting, 2000MB Speicher, PHP, MySQL, Site Builder, Keine Werbung".
+  *[[http://www.arcor.de/|Arcor]], 50 Mbytes.
+  *[[http://www.astahost.com/|Astahost]] - free adfree PHP webspace.
+  *[[http://www.bplaced.net/|bplaced.net - The place for your webspace]] - "2 GB Speicherplatz für Deine Website. PHP5, 8x FTP, 8x MySQL, 8x PostgreSQL".
+  *[[http://www.cwcity.de/|CwCity]] - "Free Webspace mit PHP und MYSQL kostenlos".
+  *[[http://www.cjb.net/|CJB.NET.]] - free adfree PHP webspace, suitable for DOKUWIKI.
+  *[[http://www.cwahi.net/|CWahi.Net]] by  [[http://www.crosswinds.net/|CrossWinds]] -  free PHP webspace.
+  *[[http://www.freewebspace.com/|Free Web Space.com]] (100 MB ).
+  *[[http://sites.google.com/|Google Sites]].
+  *[[http://www.kilu.de/|kilu.de - Freehosting: Webspace kostenlos, gratis Webhosting]] - free PHP webspace.
+  *Microsoft [[http://www.officelive.com/|Office Live]].
+  *[[http://www.mdl2.com/|MDL2: Discover the new Moodle 2 with our free hosting]] - "You can create your own free, unlimited MDL2 site including admin privileges!".
+  *[[http://www.multimania.de/|MultiMania]].
+  *[[http://www.nofeehost.com/|NoFeeHost]].
+    *[[http://www.nofeehost.com/FTP_Info.asp|NoFeeHost "Frequently Asked Questions"]] - Website "http://userX.nofeehost.com" -> "ftp://ftpX.nofeehost.com".
+    *Upload of files of up to 20 MBytes by Webinterface.
+  *[[http://www.npage.de/|nPage.de]].
+    *No FTP upload :-(.
+    *No upload of "big" image files with the free account.
+  *[[http://www.reocities.com/|Reocities]] - with the spirit of "Geocities" :-).
+  *[[http://www.subdomainservice.de/|Subdomainservice]].
+  *[[http://www.square7.ch/|Square 7]].
+  *[[http://www.weebly.com/|Weebly]] - free subdomain, free website construction kit.
+  *[[http://www.wikidot.com/|Wikidot]].
+  *[[http://www.wix.com/|Wix "Create a Free Flash Website"]] - Free website builder & website hoster.
+  *[[http://www.yola.com|Yola]].
+==== Free File Shareing Services ====
+  *[[http://www.4shared.com/|4shared]].
+  *[[http://www.badongo.com/|Badongo]].
+  *[[http://www.diglo.com/|Diglo]].
+  *[[http://www.depositfiles.com/|Deposit Files]].
+  *[[http://www.docstoc.com/|Docstoc – Documents, Templates, Forms, Ebooks, Papers & Presentations]].
+  *[[http://www.filefactory.com/|FileFactory]].
+  *[[http://www.file-upload.net/|File-Upload.net]].
+  *[[http://www.hotfile.com/|Hotfile.com]].
+  *[[http://www.issuu.com/|Issuu]].
+  *[[http://www.megaupload.com/|Megaupload]].
+  *[[http://www.mydrive.ch/|MyDrive]].
+  *[[http://www.oteupload.com/free15785.php|OTEUpload]].
+  *[[http://www.pdfcast.org/|PDFCast.org]] - "Broadcast PDF Documents".
+  *[[http://www.slideshare.net/|Slideshare]] - "The best way to share presentations, documents and professional videos".
+  *[[http://www.slidr.io/|Slidr.io]] - "Hassle free slidedeck hosting".
+  *[[http://www.rapidshare.com/|Rapidshare]], [[http://www.rapidshare.de/|Rapidshare.de]].
+    *[[http://www.filez.com/|Filez - "Rapidshare Search - File Search"]].
+  *[[http://www.scribd.com/|Scribd]] - "Millions of documents and books at your fingertips! Read, print, download, and send them to your mobile devices instantly. Or upload your PDF, Word, and PowerPoint docs to share them with the world's largest community of readers".
+  *[[http://www.sendspace.com/|SendSpace]].
+  *[[http://www.uploadBox.com/|Uploadbox]].
+  *[[http://www.uploading.com|Uploading.com]].
+  *[[http://www.yourfilehost.com/|YourFileHost]].
+  *[[https://www.yousendit.com/|YouSendIt]].
+==== Commercial File Shareing Services ====
+  *[[http://www.downloadnow.net/|DownloadNow]] - just 256 MB free download.
+==== Document Hubs ( Document Hub Online Services, Data Sync Online Services ) ====
+=== doctape ===
+== doctape Services & Support ==
+    *[[http://www.doctape.com/|tape.io GmbH "doctape"]], Hannover - 5 GB free storage ( - 2014-11-25 ).
+    *[[http://developer.doctape.com/|doctape devcenter - doctape developer]].
+    *[[http://support.doctape.com/|doctape - Customer Feedback]].
+    *Blog [[http://blog.doctape.com/|doctape Blog]].
+    *Facebook.
+      *[[http://www.facebook.com/doctapers|Facebook "Doctape"]].
+      *[[http://www.facebook.com/pages/Doctape-HQ/224610837670217?ref=ts&fref=ts|Facebook "Doctape HQ"]].
+      *[[http://www.facebook.com/appcenter/doctape|Facebook App "doctape"]].
+    *[[http://twitter.com/doctapers|Twitter "doctape"]].
+    *[[http://www.twitter.com/sho1975|Twitter "Sven"]], [[http://www.gruenderszene.de/datenbank/koepfe/sven-hohlfeld|Gründerszene "Sven Hohlfeld"]].
+    *[[http://www.twitter.com/sreuter|Twitter "Sascha Reuter"]].
+== doctape Events ==
+    *[[http://doctapehackathon.wiggio.com/|Wiggio "doctape Hackathon"]].
+    *[[http://www.ustream.tv/channel/edelstall|USTREAM "edelstall"]].
+    *[[http://sreuter.geckoboard.com/dashboard/8FC911E4828BB84D|Geckoboard business dashboards "doctape Hackathon"]].
+== doctape Development ==
+  *[[http://www.github.com/doctape|Github "doctape"]].
+  *[[http://gist.github.com/sreuter|Github "sreuter"]].
+  *[[http://www.npmjs.org/~doctape|npm "doctape"]].
+  *[[http://developers.google.com/accounts/docs/OAuth2InstalledApp|Google Developers "Using OAuth 2.0 for Installed Applications"]].
+== Resources ==
+  *[[http://www.t3n.de/news/sponsored-post-doctape-kundigt-436125/|t3n "doctape kündigt Public API an und lädt zum Hackathon in Hannover"]].
+=== Some other Document Hubs ===
+  *[[http://www.dropbox.com/|DropBox]] - 2 GB free storage.
+  *[[http://www.box.com/|Box]] - 10 GB free storage, 250 MB file size.
+  *[[http://onedrive.live.com/about/en-gb/|Microsoft OneDrive]] - 15 GB free storage.
+  *[[http://www.4shared.com/|4shared - Upload, access, share]].
+    *Blog [[http://blog.4shared.com/|4shared]]
+=== Some other Document Hub Software ===
+  *The OpenSource [[http://wwww.remotestorage.io/|remoteStorage]].
+=== Some other App Hubs ===
+  *[[http://www.appfog.com/|Appfog]] - free account ( Unlimited apps within 2GB RAM. Up to 8 service instances, 100MB per MySQL or PostgreSQL instance ).
+    *Blog [[http://blog.appfog.com/|Appfog Blog]].
+    *[[http://twitter.com/appfog|Twitter "AppFog"]].
+==== Free Online Storage ====
+  *[[http://www.filefactory.com/|FileFactory]] - free storage of up to 25 files with less than 400 MB each. 
+  *[[http://www.freedrive.com|FreeDrive]].
+  *[[http://www.windowslive.de/skydrive/|Windows Live Skydrive]] - 25 GB free space.
+==== Commercial Online Storage ====
+  *[[http://www.asuswebstorage.com/|AsusWebstorage YoStore]].
+    *The "YOStore" code is printed on a sticker which is glued on the cover page of the "Eee PC User Manual", sometimes.
+    *[[http://www.asuswebstorage.com/member/active/|AsusWebstorage YoStore - Activation]].
+    *[[https://www.asuswebstorage.com/member/freetrial/|AsusWebstorage YoStore - FreeTrial]].
+==== Peer2 Peer Networks ====
+  *[[http://www.torrentbitch.com/|TorrentBitch]], with Windows client.
+==== Resources for free Webspace and free Homepages ====
+  *[[http://www.thefreesite.com/|TheFreeSite]] - "Home of the Web's Best Freebies".
+  *[[http://www.freewebspace.net/|FreeWebSpace.net]] - "Free webhosting - searchable directory".
+  *[[http://www.schottenparadies.de/kostenlos/webspeicher.htm|Schottenparadies]] - list of free webspace offers.
+  *[[http://www.worldofinternetcafes.de/webspace.html|World of Internet Cafes. Das Internetcafe - Verzeichnis "Kostenloser Webspace, Gratis Webspace, Freehosting"]].
+==== Resources for commercial Webspace and Servers ====
+  *[[http://www.hostsuche.de/|HostSuche - Anbieterverzeichnis. Leistungsvergleich]].
+  *[[http://www.webhostlist.de/|WebHostlist]] - Hot lists of best commercial WEB storage offers for Germany, with ratings and tips :-) #.
+  *[[http://www.webkalkulator.com/|WebKalulator - Website-Preise & -Kosten]] - "Webdesign Preise & Website Kosten: Umfrage und Ergebnisse".
+    *"Spamschutz: Wie lautet der Vorname von Thomas Meier?".
+==== Resources for Shops ====
+  *[[http://www.shopanbieter.de/|shopanbieter.de]] - "Das Portal für den Internetanbieter".
+==== Free Forwarding URLs ====
+  *[[http://www.2tu.us/|2tu.us]] ?.
+  *[[http://www.bit.ly|bit.ly]].
+  *[[http://www.i.am/|i.am]].
+  *[[http://www.is.gd/|is.gd]] ?.
+  *[[http://www.freecity.de/|FreeCity]] - legacy free .DE domain forwarding, just for legacy customers.
+  *[[http://www.metamark.net/|metamark.net]] ?.
+  *[[http://www.ptiurl.com|ptiurl.com]] ?.
+  *[[http://www.purl.org/|PURLs (Persistent Uniform Resource Locators)]].
+  *[[http://www.snipr.com|snipr.com]] ?.
+  *[[http://www.tinyurl.com/|tinyurl.com]].
+  *[[http://www.up.to/|up.to]] by The WebAlias Network.
+  *[[http://www.ur1.ca/|ur1.ca]] ?.
+{{tag>"Software As A Service" SAAS "Cloud Computing" Cloud}}
+<footnote_navi_en>

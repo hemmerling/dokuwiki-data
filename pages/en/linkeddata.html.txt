@@ -1,0 +1,700 @@
+====== [hemmerling] Linked Data & Linked Open Data ( LOD ) ======
+Related pages:
+  *[[api.html|Application programming interface ( API )]].
+  *[[mashup.html|Enterprise Mashups & Web 2.0]].
+  *[[geodata.html|Geographical Data / Spatial Data for Geographical Information Systems ( GIS )]].
+  *[[rest.html|Representational State Transfer ( REST )]].
+  *[[saas.html|Software As A Service ( SAAS )]].
+  *[[webtech.html|Web Technologies ( HTML5, HTML, XML & Javascript )]].
+===== Organisations, Events, Awards, Competitions =====
+  *[[http://www.oscaf.org/|OSCA Foundation]].
+    *[[http://www.semanticdesktop.org/|Semantic Desktop]].
+  *The conference [[http://www.aksw.org/lswt|Leipziger Semantic Web Tag (LSWT)]] in Leipzig ( 2013-09-23 - 2013-09-24 ).
+    *"Der Leipziger Semantic Web Tag (LSWT) bietet seit 2009 Unternehmen und Organisationen die Möglichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen".
+  *[[http://challenge.semanticweb.org/|Semantic Web Challenge - A new application award]].
+===== Course "Semantic Web Technologies" =====
+  *[[http://openhpi.de/course/semanticweb|openHPI - Hasso Plattner Institut "Semantic Web Technologies"]] ( 2013-02-04 - ).
+  *[[http://www.hpi.uni-potsdam.de/meinel/lehrstuhl/team/senior_researcher/sack.html|Harald Sack]].
+===== Semantic Technologies =====
+==== Statements ====
+  *[[http://www.w3.org/DesignIssues/LinkedData.html|Tim Berners-Lee, W3.Org "Linked Data"]], 2006-07-27 
+    -//Use URIs as names for things//.
+    -//Use HTTP URIs so that people can look up those names//.
+    -//When someone looks up a URI, provide useful information, using the standards (RDF*, SPARQL)//.
+    -//Include links to other URIs. so that they can discover more things//.
+
+  *[[http://www.amazon.de/exec/obidos/ASIN/1608454304/hemmerling-21|Tom Heath, Christian Bizer: "Linked Data: Evolving the Web into a Global Data Space"]], page 72:
+
+//The majority of examples in this book is shown in the Turtle serialisation of RDF,//\\
+//for readability;// \\
+//however, if data is published using just one serialisation format,// \\
+//this should be **RDF/XML**,// \\
+//as it is widely supported by tools that consume Linked Data//.
+
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1449306594/hemmerling-21|Bob DuCharme: "Learning SPARQL"]], page 25:
+
+//The simplicity of N-Triples makes it popular for teaching people about RDF, and some parsers can read it more quickly because they have less work to do,//\\
+//but the format's verbosity makes it less popular than the other formats//.
+
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1449306594/hemmerling-21|Bob DuCharme: "Learning SPARQL"]], page 26:
+
+//.. once **Turtle** becomes a W3C standard, we'll see less and less use of RDF/XML. AS of this writing,//\\
+// though, it's still the only standardized RDF serialization format//.
+
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0596002637/hemmerling-21|Shelley Powers: "Practical RDF"]], page 247:
+
+// If your're defining a **fairly simple vocabulary primarily for your own use**... and if your're concerned primarily  with the striped nature of RDF/XML, you'll most likely want to just **define your vocabulary in RDF and RDFS**//.
+
+//However, **if you're documenting a model of a specific domain and you hope to encourage others to use it** and, best of all, be able to use your data to make sophisticated queries, you're goint to want to use **OWL** to make advantage of its many inferential enhancements//.
+
+==== Expression ( Serialisation ) of RDF Formats ====
+  *RDFa.
+    *[[http://www.rdfa.info/|RDFa]] ( [[http://www.rdfa.info/|rdfa.info]] ).
+    *[[http://en.wikipedia.org/wiki/RDFa|EN.Wikipedia "RDFa"]], [[http://de.wikipedia.org/wiki/RDFa|DE.Wikipedia "RDFa"]].
+  *[[http://en.wikipedia.org/wiki/Notation3|EN.Wikipedia "Notation3"]], [[http://de.wikipedia.org/wiki/Notation_3_%28Informatik%29|DE.Wikipedia "Notation 3 (Informatik)"]] (N3).
+    *[[http://en.wikipedia.org/wiki/N-Triples|EN.Wikipedia "N-Triples"]] ( a subset of N3 ).
+  *[[http://en.wikipedia.org/wiki/RDF/XML|EN.Wikipedia "RDF/XML"]].
+  *[[http://en.wikipedia.org/wiki/Turtle_%28syntax%29|EN.Wikipedia "Turtle (syntax)"]], [[http://de.wikipedia.org/wiki/Turtle_%28Syntax%29|DE.Wikipedia "Turtle (Syntax)"]] ( Terse RDF Triple Language ).
+  *[[http://en.wikipedia.org/wiki/TriX_%28syntax%29|EN.Wikipedia "TriX (syntax)"]] - "A readable alternative to the XML-based RDF/XML syntax".
+  *[[http://wifo5-03.informatik.uni-mannheim.de/bizer/trig/|Chris Bizer, Richard Cyganiak "The TriG Syntax"]] - "A syntax for serializing Named Graphs and RDF Datasets".
+==== Object-Oriented System vs. RDF ====
+  *See Book [[http://www.amazon.de/exec/obidos/ASIN/1449306594/hemmerling-21|Bob DuCharme: "Learning SPARQL"]], page 38, 39.
+=== RDF ===
+  *By adding one property ( e.g. "drivesBicycle" ) to the metadata about an existing resource ( of "Rolf" ), that resource becomes a member of the class ( "Driver" ) that it wasn't a member before.
+  *The ability of RDF resoures to become members of classes based on their data values has made semantic web technology popular in some industries ( e.g. medical research ). Researchers may accumulate data with little apparent structure and then see what structure turns out to be there - that is, which resources turn out to be member of which classes, and what their relationships are. 
+  *RDF lets you define classes as subclasses of other ones, and unlike object-oriented systems, properties of subproperties of other ones. E.g: If xy:Driver is a subclass of foaf:Person, a query for the phone numbers of all foaf:Person instances, the result include Rolf's phone number, because beeing in the class of drivers Rolf is also in the class of persons.
+=== Object-Oriented System ===
+  *I have to declare a instance of a class ( e.g of the class "driver" ) and then assign it all the details about "Rolf"
+===== Suggestion for Proceeding in your own Project =====
+==== Simple approach to use ARQ in own Project, Prototyping Stage ====
+  -Perfom SPARQL queries with ARQ. Execute ARQ by batch ( script ) language.
+  -Save the result.
+  -Call other processes that perform additional steps with that data. These steps might be by any tool you want ( TCL/TK, Python, Perl, any other script language, spreadsheet -> [[http://en.wikipedia.org/wiki/Comma-separated_values|CSV]] format, XSLT processor ).
+==== Use Middleware to connect to Relational Databases ====
+  *Use a middleware to connect to an SQL database for data storage.
+===== Software =====
+==== Online Search Engines ====
+=== Human-oriented Online Search Engines ===
+  *The semantic search engine [[http://ws.nju.edu.cn/falcons/|Nanjing University "Falcon"]].
+    *[[http://ws.nju.edu.cn/falcons/api/index.jsp|Nanjing University "Falcon API"]].
+  *[[http://www.sig.ma/|Sig.ma EE- Semantic Information Mashup Enterprise Edition]].
+  *[[http://www.swse.org/|SWSE]], [[http://swse.deri.org/|SWSE]].
+  *[[http://sw.deri.org/|VisiNav]], [[http://visinav.deri.org/|VisiNav]].
+    *[[http://sw.deri.org/2009/01/visinav/|VisiNav: Visual Data Search and Navigation]].
+=== Online Search Engines with API for Third-Party Online Applications ===
+  *[[http://www.sindice.com/|Sindice - The semantic web index]].
+    *[[http://sindice.com/main/submit|Sindice - The semantic web index "Submit Your Data"]] - "Share your Web Data presence with Sindice".
+    *[[http://www.sindice.com/developers/api|Sindice - The semantic web index "API"]].
+    *[[http://www.twitter.com/sindice_news|Twitter "Sindice.com"]].
+  *[[http://swoogle.umbc.edu/|Swoogle]] - "Semantic Web Search Engine".
+    *[[http://en.wikipedia.org/wiki/Swoogle|EN.Wikipedia "Swoogle"]], [[http://de.wikipedia.org/wiki/Swoogle|DE.Wikipedia "Swoogle"]].
+  *[[http://kmi-web05.open.ac.uk/WatsonWUI/|Watson - The Semantic Web Gateway]].
+==== Free Online Services ====
+  *The free online service [[http://swse.deri.org/RDFAlerts|RDF:Alerts]] - "Please note that we currently only validate RDF/XML".
+  *The free online service [[http://www.sameas.org/|<sameAs>. interlinking the Web of Data]].
+  *The free online service [[http://inspector.sindice.com/|Sindice Web Data Inspector]] - "Extract RDF, apply Reasoning, validate documents".
+  *The free online service [[http://idi.fundacionctic.org/vapour|Vapour, a Linked Data validator]].
+  *The free online service [[http://www.w3.org/2007/08/pyRdfa/|W3C "RDFa Distiller and Parser"]].
+  *The free online service [[http://www.w3.org/RDF/Validator/|W3C "RDF Validation Service"]] - "Check and Visualize your RDF documents".
+==== OpenSource Servers & Tools, CMS / Wiki Plugins and Community Projects ====
+  *The OpenSource [[http://www.dokuwiki.org/plugin:dokusioc|DokuWiki Plugin "DokuSIOC Plugin"]], [[http://www.github.com/haschek/DokuWiki-Plugin-DokuSIOC|Github "haschek/DokuWiki-Plugin-DokuSIOC"]], [[http://www.eye48.com/dokuwiki/doku.php?id=en:dokuwiki:sioc-plugin|eye48 Wiki "DokuSIOC - SIOC plugin for DokuWiki"]].
+  *The OpenSource CMS [[http://www.drupal.org/|Drupal]] -> "Version 7 of Drupal enables the description of Drupal entities, such as users, in RDFa".
+  *The free "NeOn Toolkit", the commercial "OntoStudio" and the commercial "Web OntoStudio".
+    *[[http://www.semafora-systems.com/de/produkte/ontostudio/|semafora systems GmbH]] - The commercial "OntoStudio" and "Web OntoStudio".
+      *[[http://help.semafora-systems.com/|semafora helpsystem]].
+      *[[http://otc.semafora-systems.com/|OTC - Onto Trainings Center by semafora]].
+    *[[http://www.neon-project.org/|NeOn Project]], [[http://www.neon-foundation.org/|NeOn Foundation]].
+      *[[http://twitter.com/neonfoundation|Twitter "NeOn Foundation"]].
+    *Wiki [[http://www.neon-toolkit.org/|NeOn Wiki]] - Download of the free "NeOn Toolkit".
+      *The NeOn Toolkit is Eclipse-based and built on the code-base of OntoStudio. There are versions for Windows, Linux, MacOSX.
+      *The Linux version is build on the GTK library.
+      *The Windows version is build with Microsoft Visual C++, using the [[http://www.microsoft.com/de-de/download/details.aspx?id=29|Microsoft Visual C++ 2008 runtime]].
+  *The OpenSource [[http://neologism.deri.ie/|Neologism]], [[http://code.google.com/p/neologism/|Google Code "neologism. Easy RDFS Vocabulary Publishing"]] - "A vocabulary publishing platform for the Web of Data".
+  *The OpenSource Wiki [[http://www.ontowiki.net/|OntoWiki]], [[http://github.com/AKSW/OntoWiki|Github "AKSW/OntoWiki"]] - "A tool providing support for agile, distributed knowledge engineering scenarios".
+    *[[http://smw.referata.com/|Semantic MediaWiki Community Wiki]] - "The wiki for the community of users, administrators and developers of the Semantic MediaWiki extension to the MediaWiki application".
+  *The OpenSource [[http://www.opencyc.org/|OpenCyc]], [[http://opencyc.sourceforge.net/|SourceForge "OpenCyc"]], [[http://www.sourceforge.net/projects/opencyc/|SourceForge "OpenCyc"]].
+    *[[http://sw.opencyc.org/|OpenCyc for the Semantic Web]].
+    *[[http://www.cycfoundation.org/|The Cyc Foundation]].
+    *[[http://www.videolectures.net/michael_witbrock/|videolectures.net "Michael Witbrock"]].
+  *[[http://www.opengovplatform.org/|Open Government Platform (OGPL)]].
+    *[[http://www.facebook.com/opengovplatform|Facebook "Open Gov Platform"]].
+    *[[http://www.twitter.com/@OGPL|Twitter "OGPL"]].
+  *The OpenSource [[http://www.github.com/OpenRefine|Github "OpenRefine"]], [[http://code.google.com/p/google-refine/|Google Code "google-refine
+Google Refine, a power tool for working with messy data (formerly Freebase Gridworks)"]].
+    *Wiki [[http://github.com/OpenRefine/OpenRefine/wiki|Github "OpenRefine / OpenRefine Wiki"]].
+    *[[http://refine.deri.ie/|RDF Refine - a Google Refine extension for exporting RDF]], [[http://www.github.com/fadmaa/grefine-rdf-extension/|Github "fadmaa / grefine-rdf-extension"]].
+  *The OpenSource ontology editor and knowledge-base framework [[http://protege.stanford.edu/|Stanford Center for Biomedical Informatics Research "protégé"]], a Java application.
+    *Wiki [[http://protegewiki.stanford.edu/|Protégé wiki]].
+    *[[http://www.facebook.com/pages/Protege-Project/136205016405270|Facebook "Protege Project"]].
+    *[[http://www.twitter.com/protegeproject|Twitter "Protege Project"]].
+    *[[http://en.wikipedia.org/wiki/Prot%C3%A9g%C3%A9_%28software%29|EN.Wikipedia "Protégé (software)"]], [[http://de.wikipedia.org/wiki/Prot%C3%A9g%C3%A9_%28Software%29|EN.Wikipedia "Protégé (Software)"]].
+  *The OpenSource [[http://www.semantic-mediawiki.org/|Semantic MediaWiki]] - "A free, open-source extension to MediaWiki... that lets you store and query data within the wiki's pages.
+  *The free [[http://www.mindswap.org/2005/SMORE/|mindswap - maryland information and network dynamics lab semantic web agents project "SMORE - Create OWL Markup for HTML Web Pages"]], a Java application.
+  *The OpenSource [[http://www.triplify.org/|Triplify]], [[http://triplify.sourceforge.net/|SourceForge "Triplify"]], [[http://www.sourceforge.net/projects/triplify/|SourceForge "Triplify"]], a PHP application - "A small plugin for Web applications, which converts database content into RDF or JSON feeds and provides a Linked Data interface".
+    *[[http://www.cofundos.org/projects.php?tag=Triplify|Cofundos - community innovation & funding "Triplify"]].
+  *The free [[http://www.topquadrant.com/products/TB_Composer.html|TopQuadrant, Inc. "TopBraid Composer - Free Edition"]], a Java application - "A professional development environment for the W3C's Semantic Web standards RDF Schema, the OWL Web Ontology Language and the SPARQL Query Language. The Free Edition is an entry-level tool for creating and editing RDF/OWL files and running SPARQL queries over them. The Free Edition also provides support for defining business rules and integrity constraints using SPARQL Rules (SPIN)".
+  *The OpenSource [[http://wordnet.princeton.edu/|Princeton University "WordNet - A lexical database for English"]].
+    *[[http://wordnet.princeton.edu/wordnet/download/|Princeton University "WordNet - A lexical database for English" - Download]].
+    *[[http://en.wikipedia.org/wiki/WordNet|EN.Wikipedia "WordNet"]], [[http://de.wikipedia.org/wiki/WordNet|DE.Wikipedia "WordNet"]].
+==== Linked Data Browsers ====
+=== OpenSource Linked Data Browsers ===
+  *The OpenSource [[http://wifo5-03.informatik.uni-mannheim.de/bizer/ng4j/disco/|Chris Bizer, Tobias Gauß "Disco - Hyperdata Browser. A simple browser for navigating the Semantic Web"]], [[http://ng4j.cvs.sourceforge.net/ng4j/rdf-browser/|SourceForge "ng4j / rdf-browser"]].
+  *The OpenSource [[http://www.w3.org/2005/ajar/tab|W3C "Tabulator"]] - "Generic data browser and editor".
+    *[[http://dig.csail.mit.edu/|Massachusetts Institute of Technology ( MIT ), Decentralized Information Group]].
+      *[[http://dig.csail.mit.edu/2005/ajar/ajaw/Developer.html|Massachusetts Institute of Technology ( MIT ), Decentralized Information Group "Tabulator: Developer notes"]].
+  *The OpenSource [[http://marbles.sourceforge.net/|SourceForge "Marbles"]], [[http://www.sourceforge.net/projects/marbles|SourceForge "Marbles Linked Data Engine"]] - "A server-side application that formats Semantic Web content for XHTML clients using [[http://www.w3.org/2005/04/fresnel-info/|Fresnel]] lenses and formats".
+    *[[http://www.dbpedia.org/Marbles|DBpedia "Marbles Linked Data Browser"]].
+    *[[http://wiki.dbpedia.org/DBpediaMobile|DBpedia Mobile]] - "A location-centric DBpedia client application for mobile devices consisting of a map view, the Marbles Linked Data Browser and a GPS-enabled launcher application".
+=== Free Linked Data Browsers Online Services ===
+  *The free online service [[http://linksailor.com/|LinkSailor]] by [[http://www.iandavis.com/|Ian Davis]].
+  *The free online service [[http://browse.semanticweb.org/|Semantic Web "LOD Browser Switch"]] -> "Enables a specific Linked Data URI to be rendered within different Linked data browsers".
+==== OpenSource Software Frameworks ====
+=== C ===
+  *[[http://www.librdf.org/|Redland RDF Libraries]].
+    *"A set of free software C libraries that provide support for the Resource Description Framework (RDF)".
+    *"Redland RDF Library - librdf providing the RDF API and triple stores" ( Triplestore ).
+  *[[http://soprano.sourceforge.net/|SourceForge "Soprano - the Qt/C++ RDF framework
+"]], [[http://www.sourceforge.net/projects/soprano|SourceForge "Soprano - the Qt/C++ RDF framework
+"]].
+=== Java ===
+  *[[http://jena.apache.org/|Apache Jena]] - "A Java framework for building Semantic Web applications".
+    *[[http://wifo5-03.informatik.uni-mannheim.de/bizer/ng4j/semwebclient/|Chris Bizer,
+Tobias Gauß, Richard Cyganiak,Olaf Hartig "Semantic Web Client Library. Querying the complete Semantic Web with SPARQL"]].
+    *[[http://wifo5-03.informatik.uni-mannheim.de/bizer/ng4j/|Chris Bizer, Richard Cyganiak, Olaf Hartig: "NG4J - Named Graphs API for Jena"]].
+    *[[http://jena.sourceforge.net/Eyeball/|SourceForge "Jena / Eyeball"]] - "Eyeball: checking RDF/OWL for common problems".
+  *[[http://www.callimachusproject.org/|Callimachus - Semantic Web apps made easy]], [[http://code.google.com/p/callimachus/|Google Code "callimachus. A framework for data-driven applications based on Linked Data"]].
+    *[[http://www.3roundstones.com/products/|3 Round Stones - The leading platform for Linked Data publishing on the Web]].
+    *Blog [[http://www.3roundstones.com/blog/|3 Round Stones Blog]]
+    *Video [[http://3roundstones.com/linked-data-101/3-minute-executive-briefing-on-linked-data-2/|3 Round Stones - The leading platform for Linked Data publishing on the Web - Linked Data 101 "3 Minute Executive Briefing on Linked Data"]].
+    *Video [[http://3roundstones.com/linked-data-101/linked-data-tutorial/|3 Round Stones - The leading platform for Linked Data publishing on the Web - Linked Data 101 "Linked Data Tutorial"]].
+    *Video [[http://3roundstones.com/linked-data-101/rdf-explained/|3 Round Stones - The leading platform for Linked Data publishing on the Web - Linked Data 101 "RDF Explained"]].
+  *[[http://www.mulgara.org/|Mulgara Semantic Store]] - "A scalable RDF database written entirely in Java".
+  *[[http://www.openrdf.org/|openRDF.org ...the home of Sesame]] - Java framework and Apache Tomcat Service.
+  *[[http://wifo5-03.informatik.uni-mannheim.de/bizer/r2r/|Andreas Schultz, Chris Bizer "The R2R Framework. Translating RDF data from the Web to a target vocabulary"]].
+=== Javascript ===
+  *The OpenSource framework [[http://www.reclinejs.com/|Recline.js - relax with your data]], [[http://www.github.com/okfn/recline|Github "okfn / recline"]], "forked from [[http://github.com/mertonium/removalist|mertonium/removalist|mertonium/removalist]]".
+    *Blog article [[http://blog.okfn.org/category/okf-projects/lod2/|Open Knowledge Foundation Blog "Announcing Recline.JS: a Javascript library for building data applications in the browser"]].
+    *[[http://github.com/mertonium/removalist|mertonium/removalist|Github "mertonium/removalist"]] - "a moving team for your couch data. helps to export and import data from couchdb".
+    *CouchDB -> See [[databases.html|Databases, Webserver, Webservices, SQL, XML]].
+=== LAMP / Webservice ===
+  *[[http://squin.sourceforge.net/|SourceForge "SQUIN"]], [[http://www.sourceforge.net/projects/squin|SourceForge "SQUIN"]] - "A Web data query service as an addition to the LAMP technology stack". 
+    *Wiki [[http://sourceforge.net/apps/mediawiki/squin/|SQUIN Wiki]].
+      *[[http://sourceforge.net/apps/mediawiki/squin/index.php?title=Access_SQUIN_with_PHP|SQUIN Wiki "Access SQUIN with PHP"]] -> SPARQL queries for reading. But how to upload data ?!
+    *Blog [[http://sourceforge.net/apps/wordpress/squin/|SQUIN Blog]].
+=== .NET ===
+  *[[http://www.linkeddatatools.com/downloads|LinkedDataTools "Jena .NET"]].
+    *[[http://www.linkeddatatools.com/semantic-web-basics|LinkedDataTools "Introducing Linked Data And The Semantic Web"]].
+    *[[http://www.linkeddatatools.com/introducing-rdf|LinkedDataTools "Tutorial 1: Introducing Graph Data"]].
+    *[[http://www.linkeddatatools.com/introducing-rdf-part-2|LinkedDataTools "Tutorial 2: Introducing RDF/XML"]].
+    *[[http://www.linkeddatatools.com/semantic-modeling|LinkedDataTools "Tutorial 3: Semantic Modeling"]].
+    *[[http://www.linkeddatatools.com/introducing-rdfs-owl|LinkedDataTools "Tutorial 4: Introducing RDFS & OWL"]].
+    *[[http://www.linkeddatatools.com/querying-semantic-data|LinkedDataTools "Tutorial 5: Querying Semantic Data"]].
+=== PHP ===
+  *[[http://www.github.com/semsol/arc2/wiki|semsol / arc2]] - "Easy RDF and SPARQL for LAMP systems. ARC is a flexible RDF system for semantic web and PHP practitioners".
+  *[[http://code.google.com/p/paget/wiki/GettingStarted|Google Code "paget. Linked Data Publishing Framework"]].
+  *[[http://rdfapi-php.sourceforge.net/|SourceForge "RAP - RDF API for PHP"]], [[http://www.sourceforge.net/projects/rdfapi-php/|SourceForge "RAP - RDF API for PHP"]], [[http://wifo5-03.informatik.uni-mannheim.de/bizer/rdfapi/|Christian Bizer "RAP - RDF API for PHP V0.9.6"]].
+=== Python ===
+  *[[http://code.google.com/p/rdflib/|Google Code "rdflib. A Python library for working with RDF, a simple yet powerful language for representing information"]], [[https://rdflib.readthedocs.org/|Read the Docs - Create, host, and browse documentation "RFDLib"]].
+  *[[http://www.github.com/RDFLib|Github "RDFLib"]].
+    *[[http://github.com/RDFLib/rdflib-sparqlstore|Github "rdflib-sparqlstore"]] - "An RDFLib store around Ivan Herman et al.'s [[http://pypi.python.org/pypi/SPARQLWrapper|SPARQL service wrapper]], with namespace bindings".
+  *[[http://pypi.python.org/pypi/SPARQLWrapper|Python Package Index "SPARQLWrapper"]] - "SPARQL Endpoint interface to Python. This is a wrapper around a SPARQL service. It helps in creating the query URI and, possibly, convert the result into a more manageable format".
+  *[[http://www.etutorials.org/Misc/Practical+resource+description+framework+rdf/Chapter+9.+RDF+and+Perl+PHP+and+Python/9.3+RDF+and+Python+RDFLib/|etutorials.org "9.3 RDF and Python: RDFLib"]].
+=== Java, Python ===
+  *[[http://pointrel.sourceforge.net/|SourceForge "Pointrel Social Semantic Desktop"]], [[http://www.sourceforge.net/projects/pointrel|SourceForge "Pointrel Social Semantic Desktop"]] for Python, Java ( Triplestore framework ).
+=== PHP, Python ===
+  *[[http://www.linkeddata.org/conneg-303-redirect-code-samples|Linked Data - Connect Distributed Data across the Web "Content Negotiation and HTTP 303 Redirect Code Samples"]].
+=== Perl ===
+  *[[http://search.cpan.org/~dpokorny/RDF-Core/|CPAN "Dan Pokorny - RDF-Core"]].
+  *[[http://www.perlrdf.org/|Perl RDF]] - "RDF::Trine. De facto standard low-level API, also containing parsers, serializers, etc." ( Triplestore framework ).
+  *[[http://www.github.com/kasei/perlrdf|Github "kasei / perlrdf"]], [[http://search.cpan.org/dist/RDF-Query/|CPAN "Gregory Todd Williams > RDF-Query"]].
+==== Link Discovery Frameworks ====
+  *The OpenSource [[http://wifo5-03.informatik.uni-mannheim.de/bizer/silk/|Robert Isele, Anja Jentzsch, Chris Bizer, Julius Volz "Silk - A Link Discovery Framework for the Web of Data"]], a Python application.
+    *Video [[http://www.youtube.com/watch?v=CPl5eeyW-Xk|YouTube "LOD2 Webinar Series - 4 - SILK"]].
+    *Slides [[http://www.slideshare.net/lod2project/slides-11702787|SlideShare "LOD2 Webinar Series: SILK"]].
+  *[[http://www.aksw.org/Projects/LIMES.html|Agile Knowledge Engineering and Semantic Web (AKSW) "LIMES: LInk discovery framework for MEtric Spaces"]] - just online demo :-(.
+    *Blog [[http://blog.aksw.org/|AKSW Blog]].
+==== Link Annotation ====
+  *The OpenSource [[http://github.com/dbpedia-spotlight/|Github "DBpedia Spotlight"]] - "A tool for automatically annotating mentions of DBpedia resources in text.
+
+==== Converters to and from RDF ====
+  *[[http://www.simile-widgets.org/|SIMILE Widgets. Free, Open-Source Data Visualization Web Widgets, and More]].
+    *[[http://simile.mit.edu/|SIMILE Project's Wiki]].
+      *[[http://simile.mit.edu/wiki/RDFizers|SIMILE Project's Wiki "RDFizers"]] - "The RDFizer project is directory of tools for converting various data formats into RDF".
+  *[[http://www.w3.org/wiki/ConverterToRdf|W3C "ConverterToRdf"]].
+  *[[http://www.w3.org/wiki/RDFImportersAndAdapters|W3C "RDFImportersAndAdapters"]].
+  *[[http://www.w3.org/wiki/RdfAndSql|W3C "RdfAndSql"]].
+==== Tools which learn the matching Heuristic directly from the Data ====
+=== Tools ===
+  *[[http://keg.cs.tsinghua.edu.cn/project/|Tsinghua University "Semantic Web Aided Rich Mining System"]] ( SWARMS ).
+    *The OpenSource [[http://keg.cs.tsinghua.edu.cn/project/RiMOM/|Tsinghua University "Risk Minimization based Ontology Mapping"]] ( RiMOM ), a Perl application based on [[http://wordnet.princeton.edu/wordnet/|Princeton University "WordNet - A lexical database for English"]].
+=== Resources ===
+  *[[http://www.w3.org/wiki/TaskForces/CommunityProjects/LinkingOpenData/EquivalenceMining|W3C "TaskForces/CommunityProjects/LinkingOpenData/EquivalenceMining. SWEO Community Project: Linking Open Data on the Semantic Web. Equivalence Mining and Matching Frameworks"]].
+==== Useful Technologies and Tools ====
+  *The OpenSource [[http://curl.haxx.se/|cURL and libcurl]] for Windows, MSDOS and Linux.
+  *[[http://httpd.apache.org/docs/2.0/mod/mod_rewrite.html|Apache HTTP Server "Apache Module mod_rewrite"]].
+  *The free Firefox Browser Add-On [[http://addons.mozilla.org/af/firefox/addon/live-http-headers/|Live HTTP Headers]].
+  *The free Firefox Browser Add-On [[http://addons.mozilla.org/af/firefox/addon/modify-headers/|Modify Headers]].
+==== Some other Projects ====
+  *[[http://code.google.com/p/elda/|Google Code "elda. Epimorphics Linked Data API Implementation"]].
+  *[[http://www.iks-project.eu/|Interactive Knowledge Stack (IKS)]] - "Join IKS, an open source community to bring semantic technologies to CMS platforms".
+    *Wiki [[http://wiki.iks-project.eu/|IKS Wiki - The Semantic CMS Community]].
+    *Blog [[http://blog.iks-project.eu/|IKS Blog - The Semantic CMS Community]].
+    *[[http://www.facebook.com/IKS.Community|Facebook "IKS - Semantic CMS Community"]].
+    *[[http://www.vimeo.com/iks|Vimeo "IKS Project"]].
+    *[[http://www.twitter.com/iks_project|Twitter "IKS Project"]] - "A semantics-based Open Source platform for small to medium CMS providers".
+  *[[http://ldif.wbsg.de/|Andreas Schultz, Andrea Matteini, Robert Isele, Pablo N. Mendes, Chris Bizer, Christian Becker "LDIF – Linked Data Integration Framework. A framework for building Linked Data applications"]], [[http://www.github.com/wbsg/ldif|Github "wbsg / ldif"]] - "LDIF translates heterogeneous Linked Data from the Web into a clean, local target representation while keeping track of data provenance".
+  *[[http://www.lod2.eu/|LOD2 - Creating Knowledge out of Interlined Data]].
+    *[[http://stack.lod2.eu/|LOD2 Technology Stack]].
+    *Blog [[http://lod2.eu/BlogPost/|LOD2 Official Blog]].
+    *Blog [[http://planet.lod2.eu/|LOD2 Planet]].
+==== Resources ====
+  *[[http://www.w3.org/2001/sw/wiki/Tools|W3C "Semantic Web Development Tools"]].
+===== SPARQL =====
+==== Specifications ====
+  *[[http://www.w3.org/TR/sparql11-query/|W3C "SPARQL 1.1 Query Language"]].
+  *[[http://www.w3.org/TR/sparql11-update/|W3C "SPARQL 1.1 Update"]].
+  *[[http://www.w3.org/TR/rdf-sparql-query/|W3C "SPARQL Query Language for RDF"]] ( = SPARQL 1.0 ).
+  *[[http://www.w3.org/TR/2009/REC-skos-reference-20090818/|W3C "SKOS Simple Knowledge Organization System"]].
+  *[[http://www.w3.org/TR/skos-reference/skos-xl.html|W3C "SKOS Simple Knowledge Organization System eXtension for Labels (SKOS-XL) Namespace Document - HTML Variant"]].
+  *[[http://www.w3.org/TR/2008/REC-rdf-sparql-XMLres-20080115/|W3C "SPARQL Query Results XML Format"]].
+  *[[http://www.w3.org/TR/2007/NOTE-rdf-sparql-json-res-20070618/|W3C "Serializing SPARQL Query Results in JSON"]].
+  *[[http://www.w3.org/TR/xmlschema-2/|W3C "XML Schema Part 2: Datatypes Second Edition"]].
+    *[[http://www.w3.org/TR/xmlschema-2/#regexs|W3C "XML Schema Part 2: Datatypes Second Edition", section "F Regular Expressions"]].
+==== Literature ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1449306594/hemmerling-21|Bob DuCharme: "Learning SPARQL"]].
+    *The companion website [[http://www.learningsparql.com/|Learning SPARQL. Querying and Updating with SPARQL 1.1]].
+    *Blog [[http://www.snee.com/bobdc.blog/|bobdc.blog. Bob DuCharme's weblog, mostly on technology for representing and linking information]].
+    *[[http://www.twitter.com/LearningSPARQL|Twitter "LearningSPARQL"]], [[http://www.twitter.com/bobdc|Twitter "Bob DuCharme"]].
+==== Tools ====
+=== Selection Criteria for Triplestore Servers ===
+  *Support of 
+    *SPARQL 1.1.
+    *SPARQL 1.1 Update ( SPARUL ).
+    *SPARQL Protocol for RDF.
+    *SPARQL Query Results XML Format".
+=== SPARQL Tools ===
+  *[[http://jena.apache.org/|Apache Jena]].
+    *[[http://jena.apache.org/documentation/query/|Apache Jena "ARQ - A SPARQL Processor for Jena"]].
+    *[[http://www.apache.org/dist/jena/binaries|ARQ Download]].
+    *The Windows batch files work well with original COMMAND.COM of W2k, WinXP,..
+    *To use the Windows batch files with 4NT command tool:
+      -Disable the "exit /b" statement at the end of the batchfiles ( e.g. put a REM in front of the statement so that its a comment, or delete the complete statement ).
+      -The last parameter of the call of the ARQ Java application, change the last parameter from "%*" to "%1 %2 %3 %4 %5 %6 %7 %8 %9".
+=== Middleware for use with an SQL Database ===
+  *The OpenSource platform [[http://www.d2rq.org/|D2RQ - Accessing Relational Databases as Virtual RDF Graphs]], [[http://github.com/d2rq/d2rq|Github "d2rq / d2rq"]] - "A system for accessing relational databases as virtual, read-only RDF graphs".
+    *Documentation.
+      *[[http://www.d2rq.org/d2r-server|D2RQ "D2R Server: Accessing databases with SPARQL and as Linked Data"]].
+    *Webinar [[http://www.lod2.eu/BlogPost/1119-lod2-webinar-series-linked-data-and-skos-d2r-and-sparqlify.html|LOD2 Blog "LOD2 webinar series: Linked Data and SKOS & D2R and Sparqlify"]].
+    *[[http://www.linkedin.com/in/vadimeisenberg|LinkedIn "Vadim Eisenberg"]].
+      *Blog [[http://vadimeisenberg.blogspot.de/|Vadim on Software and Semantic Web]].
+      *[[http://www.cs.technion.ac.il/~eisenv/|Vadim Eisenberg]].
+        *[[http://web.archive.org/web/*/http://d2rqupdate.cs.technion.ac.il/ Archive.org "|Vadim Eisenberg: D2RQ/Update and D2R/Update Server prototype extensions"]].
+  *The free online service [[http://www.triplr.org/|Triplr]].
+  *"Virtuoso Sponger".
+    *[[http://virtuoso.openlinksw.com/dataspace/doc/dav/wiki/Main/VirtSponger|OpenLink Virtuoso Wiki "Virtuoso Sponger"]].
+=== Triplestore Servers with SPARQL and SPARQL 1.1 Update ( SPARUL ) ===
+  *The OpenSource [[http://www.4store.org/|4store]] - "You can send SPARQL Update 1.1 requests to "localhost:8000/update/" or the appropriate URL for your settings".
+  *The OpenSource [[http://www.systap.com/bigdata.htm|SYSTAP, LLC. "Bigdata"]], [[http://bigdata.sourceforge.net/|SourceForge "bigdata"]], [[http://www.sourceforge.net/projects/bigdata/|SourceForge "bigdata"]].
+    *Wiki [[http://sourceforge.net/apps/mediawiki/bigdata/|SourceForge Wiki "bigdata"]].
+      *[[http://sourceforge.net/apps/mediawiki/bigdata/index.php?title=SPARQL_Update|SourceForge Wiki "bigdata" - "SPARQL Update"]].
+    *Blog [[http://www.bigdata.com/bigdata/blog/|SYSTAP, LLC. "bigdata Blog"]].
+  *The OpenSource [[http://jena.apache.org/|Apache Jena]].
+    *[[http://jena.apache.org/documentation/serving_data/|Apache Jena "Fuseki: serving RDF data over HTTP"]] #.
+    *How to install and run Fuseki:
+      -Copy the contents of the download archive to an execution directory, e.g. "C:\Progam Files\Jena-Fuseki".
+      -Create the directory "datadir" in the root directory of Fuseki.
+      -Start Fuseki by the batch file "java -Xmx1200M -jar fuseki-server.jar --update -loc=dataDir /myDataset".
+      -The default web address of Fuseki server is at [[http://localhost:3030/|http://localhost:3030/]].
+      -Click on the link "Control Panel".
+      -Select a dataset "myDataset".
+      -Press the "Select" button.
+  *[[http://virtuoso.openlinksw.com/|OpenLink Software - Making Technology Work For You "Virtuoso"]].
+    *The OpenSource [[http://virtuoso.openlinksw.com/dataspace/dav/wiki/Main/|OpenLink Software "Virtuoso Open-Source Edition"]].
+    *[[http://docs.openlinksw.com/virtuoso/|OpenLink Software "OpenLink Virtuoso Universal Server: Documentation"]].
+    *Wiki [[http://wikis.openlinksw.com/dataspace/owiki/wiki/VirtuosoWikiWeb/|OpenLink Virtuoso Wiki]].
+      *[[http://virtuoso.openlinksw.com/dataspace/dav/wiki/Main/VOSSQLRDF|Virtuoso Open-Source Wiki "Mapping Relational Data to RDF in Virtuoso"]].
+    *[[http://virtuoso.openlinksw.com/white-papers/| "White Papers"]] #.
+      *[[http://virtuoso.openlinksw.com/whitepapers/VirtDeployingLinkedDataGuide.html|Open Link Software Whitepaper "Virtuoso - Linked Data Deployment Guide", "Deploying Linked Data"]].
+      *[[http://virtuoso.openlinksw.com/dataspace/doc/dav/wiki/Main/VOSSPARQL|Virtuoso Open-Source Wiki "Virtuoso SPARQL"]] - "Since version 5.0, Virtuoso supports the SPARQL/Update (SPARUL) extension of SPARQL".
+    *Blog [[http://virtuoso.openlinksw.com/blog/|OpenLink Virtuoso (Product Blog)]].
+  *The OpenSource [[http://www.openrdf.org/|openRDF.org ...the home of Sesame]] - Java framework and Apache Tomcat Service.
+    *[[http://www.openrdf.org/doc/sesame/users/ch07.html|openRDF.org ...the home of Sesame "Chapter 7. The Sesame API"]].
+    *"Sesame fully supports the SPARQL query language for expressive querying and offers transpararent access to remote RDF repositories using the exact same API as for local access. Finally, Sesame supports all main stream RDF file formats, including RDF/XML, Turtle, N-Triples, TriG and TriX".
+    *[[http://www.openrdf.org/doc/sesame/users/ch02.html|openRDF.org ...the home of Sesame "Chapter 2. Installing Sesame"]] - "2.2. Server installation".
+    *[[http://www.openrdf.org/doc/sesame2/system/ch08.html|openRDF.org ...the home of Sesame "Chapter 8. HTTP communication protocol for Sesame 2"]] - "The current version of the protocol additionally supports communication for SPARQL 1.1 Update operations".
+=== Triplestore Servers with SPARQL, Insert / Load of Data, but without SPARQL 1.1 Update ===
+  *The OpenSource [[http://threestore.sourceforge.net/|SourceForge "3store"]], [[http://www.sourceforge.net/projects/threestore/|SourceForge "3store"]], [[http://www.aktors.org/technologies/3store/|AKT - Technologies "3store from The University of Southampton"]] - "It provides access to the RDF data via RDQL or SPARQL over HTTP, on the command line or via a C API".
+  *The OpenSource [[http://code.google.com/p/rdf3x/|Google Code "rdf3x - RISC-style RDF database engine"]], [[http://www.mpi-inf.mpg.de/~neumann/rdf3x/|Thomas Neumann "RDF-3X"]] - "RDF-3X can import NTriples/Turtle RDF data".
+  *[[http://www.github.com/semsol/arc2/|Github "semsol / arc2"]] - "Easy RDF and SPARQL for LAMP systems".
+    *[[http://www.github.com/semsol/arc2/wiki/Using-ARC%27s-RDF-Store|Github "semsol / arc2" - "Using ARC's RDF Store"]].
+  *The OpenSource [[http://smart-m3.sourceforge.net/|SourceForge "Smart-M3"]], [[http://www.sourceforge.net/projects/smart-m3/|SourceForge "Smart-M3"]].
+    *"Added SPARQL subscribe support".
+    *[[http://www.ieee-iscc.org/2010/web_pages/SISS/presentation/6_Honkola.pdf|Nokia "Smart-M3 Information Sharing Platform"]] ( PDF ).
+=== Resources ===
+  *[[http://en.wikipedia.org/wiki/Triplestore|EN.Wikipedia "Triplestore"]] - "List of implementations".
+  *[[http://www.w3.org/wiki/LargeTripleStores|W3C "LargeTripleStores"]].
+==== Free Online Services ====
+  *[[http://www.w3.org/RDF/Validator/|W3C RDF Validation Service]] - "Check and Visualize your RDF documents".
+  *[[http://www.rhizomik.net/html/redefer/rdf2svg-form/|Rhizomik "RDF to SVG Form]] - "Input RDF or URI pointing to RDF content".
+  *[[http://www.dbpedia.org/|DBpedia]].
+    *[[http://www.dbpedia.org/snorql/|DBpedia "SPARQL Explorer for http://dbpedia.org/sparql"]].
+    *[[http://dbpedia.org/snorql/xml-to-html.xsl|DBpedia - Download "xml-to-html.xsl stylesheet used by SNORQL to convert SPARQL Query Results XML Format to HTML for delivery to browsers"]] ( XSL ).
+    *[[http://dbpedia.org/sparql|DBpedia "Virtuoso SPARQL Query Editor"]] ( = [[http://dbpedia.org/sparql|http://dbpedia.org/sparql]] ).
+==== Frameworks, Interfaces ====
+  *[[http://sparql-wrapper.sourceforge.net/|SourceForge "SPARQL Endpoint interface to Python"]], [[http://www.sourceforge.net/projects/sparql-wrapper|SourceForge "SPARQL Endpoint interface to Python"]] - "Python library for interfacing to SPARQL endpoints (web page links to RDFLib and JSON libraries)".
+==== Testing of SPARQL Vocabularies ====
+=== SPIN - SPARQL Inferencing Notation ===
+  *[[http://www.topquadrant.com/spin/|SPIN - SPARQL Inferencing Notation]].
+    *[[http://www.w3.org/Submission/2011/02/|W3C "SPARQL Inferencing Notation (SPIN)"]].
+=== Schemarama ===
+  *[[http://xml.ascc.net/resource/schematron/schematron.html|The Schematron. An XML Structure Validation Language using Patterns in Trees]].
+  *[[http://www.ilrt.org/discovery/|ILRT Semantic Web technical reports at a glance]], [[http://www.bris.ac.uk/ilrt/|Bristol University | IT Services R&D / ILRT]].
+    *[[http://www.ilrt.org/discovery/2001/02/schemarama/|Leigh Dodd, Dan Brickley "RDF Schemarama test"]].
+  *[[http://www.xml.com/pub/a/2001/02/07/schemarama.html|O'Reilly XML.com, Leigh Dodds "Schemarama"]], 2001-02-07.
+  *[[http://swordfish.rdfweb.org/discovery/2001/01/schemarama/|Libby Miller, Dan Brickley "Schemarama"]].
+  *[[http://www.danbri.org/words/2005/07/30/114|danbri's foaf stories. An occasional blog "CheckRDFSyntax and Schemarama Revisited"]].
+===== Communities & Data Providers =====
+  *Of course everybody may create his/her own domain-specific vocabulary, but...
+    *In which case is it worth to define his/her own domain-specific vocabulary? 
+      *Maybe if the data is not intended to be shared, e.g. just used with the own software ( egoistic approach ) :-)?!
+    *What is vocabulary worth which is not recognized by other third-party software in the semantic world?
+
+==== Ontology / Vocabulary ====
+=== Creative Commons (CC) ===
+  *[[http://www.creativecommons.org/ns|Describing Copyright in RDF. Creative Commons Rights Expression Language]].
+=== Dublin Core ===
+  *[[http://www.dublincore.org/|Dublin Core Metadata Initiative]].
+    *[[http://www.dublincore.org/documents/dcmi-terms/|Dublin Core Metadata Initiative "DCMI Metadata Terms"]].
+=== Europeana Data Model (EDM) ===
+  *[[http://pro.europeana.eu/edm-documentation|Europeana Professional "Europeana Data Model (EDM) Documentation"]] -> "The OAI-ORE, Dublin Core, SKOS, and FOAF vocabularies form the foundation of the new Europeana Data Model".
+=== Friend of a Friend (FOAF) === 
+  *[[http://www.foaf-project.org/|The Friend of a Friend (FOAF) project]].
+=== Fresnel ===
+  *[[http://www.w3.org/2005/04/fresnel-info/|Fresnel - Display Vocabulary for RDF]] - "A simple, browser-independent vocabulary for specifying how RDF graphs are presented".
+=== Open Provenance Model Vocabulary === 
+  *[[http://open-biomed.sourceforge.net/|SourceForge "open-biomed"]], [[http://www.sourceforge.net/projects/open-biomed|SourceForge "open-biomed"]] - "OpenBioMed/FlyKit provides Drosophila databases as LOD on the Web, services and Ajax applications to support Drosophila research"
+    *[[http://open-biomed.sourceforge.net/opmv/ns.html|SourceForge "Open Provenance Model Vocabulary Specification"]]
+  *Wiki [[http://www.w3.org/2005/Incubator/prov/|W3C "W3C Provenance Incubator Group Wiki"]].
+=== Schema.org === 
+  *[[http://www.schema.org/|Schema.org]] - W3C: "Google, Yahoo and Microsoft have agreed on vocabularies for publishing strucutred data on the Web. Their shared 'ontology' is maintained on [[http://www.schema.org/|schema.org]]".
+    *Blog [[http://blog.schema.org/|schema blog. Official blog for schema.org]].
+=== Semantically-Interlinked Online Communities (SIOC) ===
+  *[[http://rdfs.org/sioc/spec/|SIOC Core Ontology Specification]].
+=== Simple Knowledge Organization System ( SKOS ) === 
+  *[[http://www.w3.org/TR/skos-reference/|W3C "SKOS Simple Knowledge Organization System
+Reference"]] - "A common data model for sharing and linking knowledge organization systems via the Web".
+=== UMBEL ===
+  *[[http://www.umbel.org/|UMBEL Vocabulary and Reference Concept Ontology]].
+    *[[http://www.structureddynamics.com/pr20120521.html|Structured Dynamics "New UMBEL Links to schema.org, GeoNames"]].
+=== Vocabulary of Interlinked Datasets ( VoID ) === 
+  *"The de facto standard vocabulary for describing Linked Data sets".
+  *[[http://www.w3.org/2001/sw/interest/void/|W3C "Describing Linked Datasets with the VoID Vocabulary"]].
+=== WordNet === 
+  *[[http://wordnet.princeton.edu/|Princeton University "WordNet - A lexical database for English"]].
+    *The online database search engine [[http://wordnetweb.princeton.edu/perl/webwn|Princeton University "WordNet Search"]].
+    *[[http://en.wikipedia.org/wiki/WordNet|EN.Wikipedia "WordNet"]], [[http://de.wikipedia.org/wiki/WordNet|DE.Wikipedia "WordNet"]].
+==== Ontology / Vocabulary and Data Sources using special Ontologies / Vocabularies ====
+=== Cross-Domain Data ===
+  *[[http://www.dbpedia.org/|DBpedia]] - "A crowd-sourced community effort to extract structured information from Wikipedia and to make this information available on the Web".
+    *Blog [[http://blog.dbpedia.org/|DBpedia Blog]].
+    *[[http://wiki.dbpedia.org/Downloads|DBpedia - Download]] - "Downloads of the DBpedia datasets".
+    *[[http://en.wikipedia.org/wiki/DBpedia|EN.Wikipedia "DBpedia"]], [[http://de.wikipedia.org/wiki/DBpedia|DE.Wikipedia "DBpedia"]].
+  *[[http://www.datahub.io/|The Data Hub — The easy way to get, use and share data]] - "A community-run catalogue of useful sets of data on the Internet".
+    *[[http://www.datahub.io/group/lodcloud|The Data Hub - Linking Open Data Cloud]].
+  *[[http://www.freebase.com/|Freebase]] - "An entity graph of people, places and things, built by a community that loves open data".
+    *[[http://en.wikipedia.org/wiki/Freebase|EN.Wikipedia "Freebase"]].
+  *[[http://www.wikidata.org/|Wikidata.org]].
+    *[[http://en.wikipedia.org/wiki/Wikidata|EN.Wikipedia "Wikidata"]], [[http://de.wikipedia.org/wiki/Wikidata|DE.Wikipedia "Wikidata"]].
+=== Geographics ===
+== Geographic Ontology ==
+  *[[http://www.w3.org/2003/01/geo/|W3C Semantic Web Interest Group "Basic Geo (WGS84 lat/long) Vocabulary"]].
+== Geographic Data ==
+  *[[http://www.geonames.org/|GeoNames]] - "The GeoNames geographical database covers all countries and contains over eight million placenames that are available for download free of charge".
+=== Media & Arts ===
+== Media & Arts Ontology ==
+  *[[http://www.bbc.co.uk/ontologies/|BBC Ontologies]] - "Programmes ontologies".
+  *[[http://musicontology.com/|Music Ontology Specification]].
+== Media & Arts Data ==
+  *[[http://www.bbc.co.uk/programmes|BBC - Programmes]], [[http://www.bbc.co.uk/music|BBC - Music]], [[http://www.bbc.co.uk/nature/wildlife|BBC - Nature Wildelife]].
+    *Blog article [[http://www.bbc.co.uk/blogs/bbcinternet/2010/07/bbc_world_cup_2010_dynamic_sem.html|BBC Internet Blog "BBC World Cup 2010 dynamic semantic publishing"]].
+  *[[http://data.nytimes.com/|New York Times - Linked Open Data]].
+  *[[http://www.opencalais.com/|Thomson Reuters "OpenCalais"]].
+=== Governmental Data ==
+== USA ==
+  *[[http://www.data.gov/|Data.gov]].
+    *Blog [[http://www.data.gov/blogs|Data.gov Blog]].
+    *[[http://www.data.gov/developer/community/developer|Developer.Data.gov]].
+    *[[http://www.data.gov/education/community/education|Education.Data.gov]].
+    *[[http://www.data.gov/counties/community/counties|Counties.Data.gov]], [[http://www.data.gov/states/community/states|States.Data.gov]], [[http://www.data.gov/cities/community/cities|Cities.Data.gov]].
+    *[[http://www.data.gov/opendatasites|Data.gov - Open Data Sites]].
+    *[[http://www.data.gov/developer/page/developer-apps|Data.gov - Apps & Tools]].
+  *[[http://www.rdfabout.com/demo/census/|Joshua Tauberer, rdf:about "The 2000 U.S. Census: 1 Billion RDF Triples"]].
+== UK ==
+  *[[http://data.gov.uk/linked-data|Data.gov.uk - Linked data]].
+  *[[http://data.ordnancesurvey.co.uk/|Ordnance Survey Linked Data]] - "Great Britain's national mapping agency, providing the most accurate and up-to-date geographic data, relied on by government, business and individuals".
+== World ==
+  *[[http://data.gov.au/|Data.gov.au]], Australia.
+  *[[http://data.govt.nz/|Data.govt.nz]], New Zealand.
+  *[[http://wifo5-03.informatik.uni-mannheim.de/factbook/|University of Mannheim "D2R Server for the CIA Factbook"]].
+=== Libraries and Education ===
+== Bibliographic and Library Ontology  ==
+  *[[http://www.bibliontology.com/|Bibliographic Ontology]].
+  *[[http://www.openarchives.org/|Open Archives Initiative Object Reuse and Exchange (OAI-ORE)]].
+    *[[http://www.openarchives.org/ore/|Open Archives Initiative Object Reuse and Exchange (OAI-ORE) "OAI Object Reuse and Exchange"]] Vocabulary.
+== Libraries and Education Data ==
+  *[[http://lod.b3kat.de/download/|Bayerische Staatsbibliothek & BibilotheksVerbund Bayern "Download der B3Kat-Daten"]] - "Format RDF/XML".
+    *[[http://www.bsb-muenchen.de/Archiv-Einzeldarstellung.395+M5c1fa0acc84.0.html|Bayerische Staatsbibliothek: "Verbundkatalog B3Kat als Linked / Open Data freigegeben"]], 2011-12-27.
+  *[[http://dblp.l3s.de/|Jörg Diederich "Faceted DBLP"]].
+  *[[http://id.loc.gov/|Library of Congress - LC Linked Data Service. Authorities and Vocabularies]].
+  *[[http://www.openlibrary.org/|Open Library]].
+  *[[http://dblp.rkbexplorer.com/|RKB Explorer]] - "This repository contains data supplied from the [[http://www.informatik.uni-trier.de/~ley/db/|DBLP Computer Science Bibliography]]".
+    *[[http://www.rkbexplorer.com/data/|RKB Explorer - Data]] - "The RDF is presented in accordance with the AKT Reference Ontology, with some small additions".
+  *[[http://community.talisaspire.com/|Talis Aspire Community Edition]] - "High quality learning resources, selected by experts".
+  *[[http://data.nature.com/|nature.com linked data]].
+    *[[http://newsbreaks.infotoday.com/Digest/NPG-Expands-Linked-Data-Platform-83903.asp|Information Today, Inc. "NPG Expands Linked Data Platform"]].
+=== Retail and Commerce ===
+== Retail and Commerce Ontology ==
+  *[[http://wifo5-03.informatik.uni-mannheim.de/bizer/bookmashup/|Chris Bizer, Tobias Gauß "RDF Book Mashup. Serving RDF descriptions of your books"]].
+    *[[http://wifo5-03.informatik.uni-mannheim.de/bizer/bookmashup/simpleCommerceVocab01.rdf|Simple Commerce Vocabulary]] ( RDF ).
+  *[[http://www.goodrelations-vocabulary.org/|GoodRelations]].
+    *Wiki [[http://wiki.goodrelations-vocabulary.org/|GoodRelations Wiki]].
+    *[[http://www.heppnetz.de/projects/goodrelations/|Martin Hepp "GoodRelations - The Web vocabulary for E-Commerce"]].
+    *Wiki [[http://www.ebusiness-unibw.org/wiki/|Universität der Bundeswehr München, Public Wiki of the E-Business and Web Science Research Group]].
+      *[[http://www.ebusiness-unibw.org/wiki/GoodRelations|Universität der Bundeswehr München, Public Wiki of the E-Business and Web Science Research Group "GoodRelations"]].
+  *[[http://www.vocab.org/review/terms.html|vocab.org - A URI space for vocabularies "RDF Review Vocabulary"]].
+  *vCard.
+    *[[http://www.semanticweb.org/wiki/VCard_RDF|Semantic Web "VCard RDF"]].
+      *[[http://semanticweb.org/wiki/HCard|Semantic Web "HCard"]].
+    *[[http://www.w3.org/TR/vcard-rdf/|W3C "Representing vCard Objects in RDF"]].
+    *[[http://de.wikipedia.org/wiki/VCard|DE.Wikipedia "vCard"]], [[http://en.wikipedia.org/wiki/VCard|EN.Wikipedia "vCard"]].
+== Retail and Commerce Data ==
+  *[[http://www.goodrelations-vocabulary.org/|GoodRelations]].
+    *[[http://www.bestbuy.com/|Best Buy International]].
+    *[[http://www.overstock.com/|Overstock.com]] ( "O.co*" ).
+    *[[http://data.open.ac.uk/|data.open.ac.uk]] - "The home of open linked data from [[http://www.open.ac.uk/|The Open University]]".
+  *[[http://www.productdb.org/|ProductDB]] - "Aims to be the World's most comprehensive and open source of product data".
+=== User Generated Content and Social Media ===
+  *[[http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/|Christian Becker, Chris Bizer: "flickr wrappr. Precise photo association"]].
+    *[[http://www.dbpedia.org/|DBpedia]] is the Semantic Web version of Wikipedia and enables you to ask sophisticated queries against Wikipedia data. The flickr wrappr extends DBpedia with RDF links to photos posted on [[http://www.flickr.com/|flickr]].
+  *[[http://www.revyu.com/|Revyu.com - Review Anything]] ( - 2009 ) :-(.
+    *Blog [[http://blog.revyu.com/|Blog.Revyu.com - Blogging Anything about Revyu.com]].
+  *[[http://www.faviki.com/|faviki - Tags that make sense]] - "Social bookmarking tool using smart semantic Wikipedia (DBpedia) tags" :-(.
+  *[[http://www.imdb.com/|IMDb]].
+    *[[http://opengraphprotocol.org/|Open Graph protocol]].
+    *[[http://www.linkedmdb.org/|Linked Movie Database ( LinkedMDB )]] - "Publishes linked open data using the D2R Server".
+=== Personal ===
+  *[[http://www.ivan-herman.net/foaf.rdf|Ivan Herman ( RDF/XML )]].
+==== Resources ====
+  *[[http://wayback.archive.org/web/*/http://www.schemaweb.info/|Archive.org "SchemaWeb - RDF Schemas Directory"]] - "A directory of RDF schemas expressed in the RDFS, OWL and DAML+OIL schema languages". 
+  *[[http://wifo5-03.informatik.uni-mannheim.de/lodcloud/state/|Chris Bizer, Anja Jentzsch, Richard Cyganiak "State of the LOD Cloud"]] - "2.3 Use terms from widely deployed vocabularies".
+  *[[http://www.vocab.org/|vocab.org - A URI space for vocabularies]].
+    *[[http://vocab.org/waiver/|vocab.org - A URI space for vocabularies "WAIVER: A vocabulary for waivers of rights"]].
+  *W3C.
+    *[[http://dir.w3.org/|W3C "Linked Data Directory"]].
+===== Commercial =====
+==== Commercial Software ====
+  *[[http://www.ontos.com/?page_id=630|Ontos AG "OntosMiner"]].
+    *Free online demo [[http://try.ontos.com/|Ontos Try Workbench]].
+==== Commercial Services ====
+    *[[http://www.talis-systems.com/|Talis Systems - World leading expertise in data on the web]].
+      *Blog [[http://www.talis-systems.com/blog/|Talis Systems Blog]].
+      *[[http://www.talis-systems.com/resources/|Talis Systems - Resources]].
+        *[[http://www.talis-systems.com/resources/introduction-to-the-web-of-data-practical-exercises/|Talis Systems "Introduction to the Web of Data (Practical Exercises)"]] #.
+        *[[http://talis-systems.com/resources/introduction-to-the-web-of-data/|Talis Systems "Introduction to the Web of Data (Agenda and Course Materials)"]] #.
+      *[[http://twitter.com/talisplatform|Twitter "Talis Platform"]].
+      *[[http://docs.api.talis.com/|Talis Platform API documentation site]].
+==== Commercial Developers ====
+  *[[http://www.uberblic.com/|uberblic]], Berlin - "Building Great Apps with Data. We build products that aggregate data in interesting new ways. For our clients and for ourselves".
+    *[[http://www.uberblic.com/documentation/|uberblic "API Documentation"]].
+    *Blog [[http://www.uberblic.com/blog/|uberblic Blog]].
+    *[[http://www.twitter.com/uberblic|Twitter "uberblic"]] - "Links data across web APIs so that you can build applications using the best data sources on the Web and put your own data into context".
+===== Literature =====
+==== Books ====
+  -Book [[http://www.amazon.de/exec/obidos/ASIN/0123859654/hemmerling-21|Dean Allemang, James Hendler: "Semantic Web for the Working Ontologist: Effective Modeling in Rdfs and Owl"]].
+    *The companying website [[http://www.workingontologist.org/|Semantic Web for the Working Ontologist]].
+  -Book [[http://www.amazon.de/exec/obidos/ASIN/3902796057/hemmerling-21|Florian Bauer, Martin Kaltenböck: "Linked Open Data: The Essentials: A Quick Start Guide for Decision Makers"]].
+    *[[http://www.semantic-web.at/|Semantic Web Company GmbH (SWC)]].
+      *Blog [[http://blog.semantic-web.at/|The Semantic Puzzle. Open World Assumptions. This is the community blog of the Semantic Web Company, Vienna]].
+        *Blog article [[http://blog.semantic-web.at/2012/01/20/linked-open-data-the-essentials-a-quick-start-guide-for-decision-makers/|The Semantic Puzzle "Linked Open Data: The Essentials – A quick start guide for decision makers"]].
+        *[[http://www.semantic-web.at/news/swc-publishes-linked-open-data-essentials-book|Semantic Web Company GmbH (SWC) "SWC publishes Linked Open Data: The Essentials book"]] - **Free PDF e-book** and **free online edition**.
+        *The **free online edition** [[http://www.issuu.com/andreas_blumauer/docs/linked-open-data-essentials|issuu "Linked Open Data: The Essentials – A quick start guide for decision makers"]].
+      *[[http://www.youtube.com/user/semwebcompany|YouTube Channel "semwebcompany"]].
+      *[[http://www.slideshare.net/semwebcompany|SlideShare "Semantic Web Company"]].
+      *[[http://www.twitter.com/semwebcompany|Twitter "Semantic Web Company"]].
+  -The **free HTML online book** and **free PDF e-book** [[http://patterns.dataincubator.org/|Leigh Dodds, Ian Davis: "Linked Data Patterns. A pattern catalogue for modelling, publishing, and consuming Linked Data"]].
+  -Book [[http://www.amazon.de/exec/obidos/ASIN/3540278281/hemmerling-21|Norbert Eisinger, Jan Maluszynski: "Reasoning Web: First International Summer School 2005, Msida, Malta, July 2005, Tutorial Lectures"]].
+  -Book [[http://www.amazon.de/exec/obidos/ASIN/1608454304/hemmerling-21|Tom Heath, Christian Bizer: "Linked Data: Evolving the Web into a Global Data Space"]] by:
+    *[[http://www.tomheath.com/|Tom Heath]].
+      *Slides [[http://www.tomheath.com/slides/2009-02-austin-linkeddata-tutorial.pdf|Tom Heath: An Introduction to Linked Data"]] ( PDF ).
+      *[[http://twitter.com/tommyh|Twitter "Tom Heath"]].
+    *[[http://www.bizer.de/|Christian Bizer]], [[http://dws.informatik.uni-mannheim.de/|University of Mannheim - Research Group Data and Web Science]].
+    *The companion website with a **free HTML online edition** [[http://www.linkeddatabook.com/|Tom Heath, Christian Bizer "Linked Data - Connect Distributed Data across the Web"]].
+    *[[http://biglynx.co.uk/|Big Lynx Productions Ltd.]] - The fictional company described in the book.
+    *The outdated tutorial [[http://wifo5-03.informatik.uni-mannheim.de/bizer/pub/LinkedDataTutorial/|Christian Bizer, Richard Cyganiak, Tom Heath "How to Publish Linked Data on the Web"]], [[http://sites.wiwiss.fu-berlin.de/suhl/bizer/pub/LinkedDataTutorial/20070727/|Christian Bizer, Richard Cyganiak, Tom Heath "How to Publish Linked Data on the Web"]], [[http://sites.wiwiss.fu-berlin.de/suhl/bizer/pub/LinkedDataTutorial/|Christian Bizer, Richard Cyganiak, Tom Heath "How to Publish Linked Data on the Web"]] by:
+      *[[http://www.bizer.de/|Christian Bizer]].
+      *[[http://www.richard.cyganiak.de/|Richard Cyganiak]].
+        *Blog [[http://richard.cyganiak.de/blog/|Richard Cyganiak - "cygri’s notes on web data"]].
+          *[[http://richard.cyganiak.de/blog/2007/02/debugging-semantic-web-sites-with-curl/|Richard.Cyganiak - "cygri’s notes on web data", article "Debugging Semantic Web sites with cURL"]].
+            *The OpenSource [[http://curl.haxx.se/|cURL and libcurl]] for Windows, MSDOS and Linux.
+        *[[http://twitter.com/cygri|Twitter "Richard Cyganiak"]].
+      *[[http://www.tomheath.com/|Tom Heath]].
+    *[[http://www.videolectures.net/iswc08_heath_hpldw/|videolectures.net - exchange ideas & share knowledge "How to Publish Linked Data on the Web"]] by:
+      *[[http://www.videolectures.net/tom_heath/|videolectures.net "Tom Heath"]].
+      *[[http://www.videolectures.net/michael_hausenblas/|videolectures.net "Michael Hausenblas"]].
+      *[[http://www.videolectures.net/christian_bizer/|videolectures.net "Christian Bizer"]].
+      *[[http://www.videolectures.net/richard_cyganiak/|videolectures.net "Richard Cyganiak"]].
+      *[[http://www.videolectures.net/olaf_hartig/|videolectures.net "Olaf Hartig"]].
+    *[[http://wifo5-03.informatik.uni-mannheim.de/lodcloud/state/|Freie Universität Berlin, Chris Bizer, Anja Jentzsch, Richard Cyganiak "State of the LOD Cloud"]].
+  -Book [[http://www.amazon.de/exec/obidos/ASIN/0596002637/hemmerling-21|Shelley Powers: "Practical RDF"]].
+  -Book [[http://www.amazon.de/exec/obidos/ASIN/0596153813/hemmerling-21|Toby Segaran, Colin Evans, Jamie Taylor: "Programming the Semantic Web"]].
+  -David Wood.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1441976647/hemmerling-21|David Wood: "Linking Enterprise Data"]].
+      *The accompanying website with a **free HTML online edition** [[http://www.3roundstones.com/linking-enterprise-data/|3 Round Stones - The leading platform for Linked Data publishing on the Web "David Wood: Linking Enterprise Data"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/146141766X/hemmerling-21|David Wood: "Linking Government Data"]].
+      *The accompanying website with a **free HTML online edition** [[http://www.3roundstones.com/linking-government-data|3 Round Stones - The leading platform for Linked Data publishing on the Web "David Wood: Linking Government Data"]].
+    *Book [[http://www.manning.com/dwood/|David Wood, Marsha Zaidman, Luke Ruth, and Michael Hausenblas "Linked Data. Structured data on the Web. EARLY ACCESS EDITION]].
+  -The book-on-demand [[http://www.intechopen.com/books/semantic-web|Gang Wu: "Semantic Web"]], ISBN 978-953-7619-54-1.
+    *The **free online edition** and **free PDF e-book** [[http://www.intechopen.com/books/semantic-web|Gang Wu: "Semantic Web"]], ISBN 978-953-7619-54-1.
+    *[[http://www.ontos.com/?p=575|Ontos AG "Contribution to 'Semantic Web'"]].
+  -Book [[http://www.amazon.de/exec/obidos/ASIN/3642159699/hemmerling-21|Liyang Yu: "A Developer's Guide to the Semantic Web"]].
+==== Paper Magazines, PDF Magazines, Online Magazines ====
+  *[[http://www.journals.elsevier.com/journal-of-web-semantics|Elsevier "Journal of Web Semantics. Science, Services and Agents on the World Wide Web"]], [[http://ees.elsevier.com/jws/|Elsevier "Journal of Web Semantics. Science, Services and Agents on the World Wide Web"]] -> TIB signature "ZL 4245".
+  *The discontined PDF magazine "Nodalities - The Magazine of the Semantic Web".
+    *[[http://wayback.archive.org/web/*/http://www.talis.com/nodalities/|Archive.org "Talis: Nodalities - The Magazine of the Semantic Web"]].
+      *[[http://www.semanticommunity.info/Semantic_Technology_Conferences/Nodalities_Magazine|Semantic Community ( SC ) "Nodalities Magazine"]] - Archive of PDF copies of the magazine.
+===== Quality =====
+  *[[http://wifo5-03.informatik.uni-mannheim.de/bizer/wiqa/|Chris Bizer, Richard Cyganiak, Oliver Maresch, Tobias Gauss "The WIQA - Web Information Quality Assessment Framework"]].
+  *[[http://sourceforge.net/apps/mediawiki/trdf/index.php?title=Quality_Criteria_for_Linked_Data_sources|SourceForge "Mediawiki Wiki: Quality Criteria for Linked Data sources"]].
+===== Webinars, Webcasts =====
+  *[[http://www.lod2.eu/|LOD2 - Creating Knowledge out of Interlinked Data]].
+    *[[http://www.lod2.eu/BlogPost/|LOD2 Blog]].
+      *[[http://www.lod2.eu/BlogPost/webinar-series|LOD2 "LOD2 Webinar Series"]].
+===== Reality: Search Engine Optimization by Microdata, not by RDF =====
+  *[[http://blog.flinc.org/flinc-using-html-microdata-to-enhance-your-google-search-results/|Flinc Blog "Using HTML Microdata to enhance your Google search results"]].
+  *Google.
+    *[[http://support.google.com/webmasters/topic/1088472|Google Webmaster Tools "About rich snippets"]].
+    *[[http://support.google.com/webmasters/answer/99170|Google Webmaster Tools Help "About rich snippets and structured data"]].
+    *[[http://support.google.com/webmasters/answer/185417|Google Webmaster Tools Help "Rich snippets - Breadcrumbs"]].
+    *[[http://googlewebmastercentral.blogspot.de/2011/06/introducing-schemaorg-search-engines.html|Google Webmaster Central Blog. Official news on crawling and indexing sites for the Google index "Introducing schema.org: Search engines come together for a richer web"]].
+  *Blog [[http://www.microdataforjoomla.com/Read-our-blogs/Latest.html|Microdata for Joomla! Your resource for semantic HTML markup, microdata and authorship for Joomla! "Microdata and Semantic HTML Blog"]].
+  *[[http://ebiquity.umbc.edu/blogger/2011/06/02/microdata-rdfa-google-bing-yahoo-semantic-web/|UBMC ebiquity "Microdata chosen over RDFa for semantics by Google, Bing and Yahoo!"]], 2011-06-02 # - "Google, Bing and Yahoo! are cooperating on an approach to representing structured data in Web pages via the launch of schema.org. The approach is microdata and the schema.org site documents the schemas that are supported today... The bad news, or at least the less good news, is that **it based on microdata and not RDFa**".
+===== Resources =====
+  *[[http://www.mkbergman.com/category/linked-data/|Michael K. Bergman, AI3 - Adaptive Information. Adaptive Innovation. Adaptive Infrastructure - "Glossary of Semantic Technology Terms"]].
+  *Ian Davis.
+    *[[http://www.slideshare.net/iandavis|Slideshare "Ian Davis"]].
+    *[[http://www.slideshare.net/iandavis/30-minute-guide-to-rdf-and-linked-data|Slideshare "Ian Davis: 30 Minute Guide to RDF and Linked Data"]], 2009.
+    *[[http://www.code4lib.org/|code{4}lib]].
+  *[[http://www.etutorials.org/Misc/Practical+resource+description+framework+rdf/|etutorials.org "Practical resource description framework (rdf)"]].
+  *[[http://www.future-internet.eu/|European Future Internet Portal]].
+    *Wiki [[http://linkeddata.future-internet.eu/|European Future Internet Portal - LinkedDataWiki]] - "Linked Data in the Future Internet at the Future Internet Assembly".
+      *"Peter Mika, Yahoo! Research: Linked Data, Search and Social Media" ( PDF ).
+  *Google.
+    *[[http://googlewebmastercentral.blogspot.de/|Google Webmaster Central Blog. Official news on crawling and indexing sites for the Google index]].
+      *[[http://googlewebmastercentral.blogspot.de/2009/10/help-us-make-web-better-update-on-rich.html|Google Webmaster Central Blog. Official news on crawling and indexing sites for the Google index "Help us make the web better: An update on Rich Snippets"]], 2009-10-26.
+    *[[http://googleblog.blogspot.de/| Google - Offical Blog. Insights from Googlers into our products, technology and the Google culture]].
+      *[[http://googleblog.blogspot.de/2010/05/understanding-web-to-find-short-answers.html| Google - Offical Blog. Insights from Googlers into our products, technology and the Google culture "Understanding the web to find short answers and 'something different'"]], 2010-05-12.
+  *Blog [[http://www.contentfree.de/|Sebastian Larisch "Contentfree - Das Blog (nicht nur) zum semantischen Web"]].
+  *[[http://www.learnlinkeddata.com/|Learn Linked Data - Helping you get to grips with RDF, SPARQL & Linked Data"]] - "From the creators of [[http://www.publishmydata.com/|PublishMyData]]".
+    *[[http://www.learnlinkeddata.com/articles|Learn Linked Data - Helping you get to grips with RDF, SPARQL & Linked Data "Articles"]].
+    *[[http://www.twitter.com/learnlinkeddata|Twitter "Learn Linked Data. A growing collection of tutorials, essays, links and discussion about Linked Data and related topics"]].
+  *[[http://www.linkeddata.org/|Linked Data: Evolving the Web into a Global Data Space]] ( [[http://www.linkeddata.org/|linkedata.org]] ) #.
+    *[[http://www.linkeddata.org/faq|Linked Data: Evolving the Web into a Global Data Space "Frequently Asked Questions (FAQs)"]].
+    *[[http://www.linkeddata.org/glossary|Linked Data: Evolving the Web into a Global Data Space "Glossary"]].
+    *Blog [[http://wayback.archive.org/web/*/http://planet.linkeddata.org/|Archive.org "Planet Linked Data - Aggregator of Linked Data-related Blogs - Linked Data Blog Aggregator"]].
+  *[[http://linkeddata.deri.ie/|Linked Data Research Centre]].
+    *Video [[http://linkeddata.deri.ie/node/58|Linked Data Research Centre "The Web, one huge database ..."]].
+    *[[http://linkeddata.deri.ie/resources|Linked Data Research Centre - Publications]].
+      *Technical report [[http://linkeddata.deri.ie/tr/2009-discovery|Linked Data Research Centre "Discovering Resources on the Web"]].
+      *Technical report [[http://linkeddata.deri.ie/tr/2009-ld2webapp|Linked Data Research Centre "Linked Data Applications"]].
+    *[[http://www.mhausenblas.info/|Michael Hausenblas]].
+      *Blog [[http://webofdata.wordpress.com/|Webs of Data - URIs, HTTP, and structured data in the Web]].
+      *[[http://www.twitter.com/mhausenblas|Twitter "Michael Hausenblas"]].
+      *[[http://www.youtube.com/user/mhausenblas|YouTube "Michael Hausenblas"]].
+        *[[http://www.youtube.com/watch?v=qMjkI4hJej0|YouTube "Michael Hausenblas: Quick Linked Data Intro"]], 2008.
+      *[[http://www.slideshare.net/mediasemanticweb|Slideshare "Michael Hausenblas"]].
+        *[[http://www.slideshare.net/mediasemanticweb/quick-linked-data-introduction|Slideshare "Michael Hausenblas: Quick Linked Data Introduction"]], 2008.
+        *[[http://www.slideshare.net/mediasemanticweb/linked-data-michael-hausenblas-2009-03-05|Slideshare "Michael Hausenblas: Linked Data Tutorial"]], 2009.
+  *[[http://www.microformats.org/|microformats.org]].
+    *Wiki [[http://microformats.org/wiki/|microformats Wiki]].
+    *[[http://twitter.com/microformats|Twitter "microformats"]].
+    *[[http://en.wikipedia.org/wiki/Microformat|EN.Wikipedia "Microformat"]], [[http://de.wikipedia.org/wiki/Mikroformate|DE.Wikipedia "Mikroformate"]].
+  *[[http://opengraphprotocol.org/|Open Graph protocol]].
+    *[[http://developers.facebook.com/docs/opengraphprotocol/|Facebook Developers "Open Graph Protocol"]].
+  *[[http://www.planetrdf.com/|PlanetRDF]].
+    *[[http://www.twitter.com/planetrdf|Twitter "Planet RDF"]].
+  *[[http://www.semanticommunity.info/|Semantic Community ( SC )]].
+  *[[http://www.sioc-project.org/|Semantically-Interlinked Online Communities ( SIOC )]].
+    *Wiki [[http://wiki.sioc-project.org/|SIOC Wiki]].
+  *Wiki [[http://www.semanticweb.org/|Semantic Web]] #.
+    *[[http://data.semanticweb.org|Semantic Web Dog Food]].
+    *[[http://wayback.archive.org/web/*/http://data.semanticweb.org|Archive.org "Semantic Web Dog Food"]].
+    *[[http://www.sitemaps.org/|Sitemaps]] - Sitemaps are an easy way for webmasters to inform search engines about pages on their sites that are available for crawling. In its simplest form, a Sitemap is an XML file that lists URLs for a site ... so that search engines can more intelligently crawl the site".
+      *[[http://sw.deri.org/2007/07/sitemapextension/|Richard Cyganiak, Renaud Delbru, Giovanni Tummarello: "Semantic Web Crawling: A Sitemap Extension"]].
+  *Structured Dynamics LLC.
+    *[[http://www.structureddynamics.com/linked_data.html|Structured Dynamics LLC "Linked Data FAQ"]].
+    *[[http://www.structureddynamics.com/resources.html|Structured Dynamics LLC "Structured Dynamics-related Resources"]].
+  *[[http://www.rdfabout.com/demo/census/|Joshua Tauberer, rdf:about]] - "Hoping to collect useful introductory information about RDF and the Semantic Web".
+  *[[http://www.angelo-veltens.de/|Angelo Veltens]]. 
+    *[[http://www.xing.com/profile/Angelo_Veltens|XING "Angelo Veltens"]].
+    *[[http://www.twitter.com/aveltens|Twitter "Angelo Veltens"]].
+    *[[http://www.datenwissen.de/|Angelo Veltens "Datenwissen - Warum wir Daten verlinken müssen"]].
+    *[[http://www.github.com/angelo-v/|Github "angelo-v"]].
+      *[[http://github.com/angelo-v/presentations|Github "angelo-v/presentations"]].
+        *[[http://www.github.com/angelo-v/presentations/tree/master/LinkedOpenData|Github "angelo-v/presentations/tree/master/LinkedOpenData"]].
+        *[[http://www.github.com/angelo-v/presentations/tree/master/LinkedOpenDataFrOSCon|Github "angelo-v/presentations/tree/master/LinkedOpenDataFrOSCon"]].
+        *[[http://github.com/angelo-v/presentations/tree/master/WebID|Github "angelo-v/presentations/tree/master/WebID"]].
+          *[[http://www.w3.org/wiki/WebID|W3C "WebID"]].
+    *[[http://www.vimeo.com/groups/webmbs|Vimeo "webMontag Braunschweig"]], "6. Webmontag BS Teil.2" ( 13:55 ), "6. Webmontag BS Teil.3", "6. Webmontag BS Teil.4" - Speech "Dezentrale Soziale Netzwerke mit Linked Data und WebID gehalten”.
+  *[[http://www.videolectures.net/semantic_data_management_video_journal_vol1/|videolectures.net "Video Journal of Semantic Data Management Abstracts - Volume 1"]].
+  *W3C.
+    *[[http://www.w3.org/DesignIssues/LinkedData.html|Tim Berners-Lee, W3.Org "Linked Data"]], 2006-07-27 #.
+    *[[http://www.w3.org/wiki/LinkedData|W3C "LinkedData"]] #.
+    *[[http://www.w3.org/wiki/SweoIG/TaskForces/CommunityProjects/LinkingOpenData|W3C "SweoIG/TaskForces/CommunityProjects/LinkingOpenData"]].
+    *[[http://www.w3.org/TR/rdf-sparql-query/|W3C "SPARQL Query Language for RDF"]], 2008-01.
+    *[[http://www.w3.org/TR/rdf-sparql-XMLres/|W3C "SPARQL Query Results XML Format"]], 2008-01.
+    *[[http://www.w3.org/Submission/SPARQL-Update/|W3C "SPARQL Update"]], 2008-07.
+    *[[http://www.w3.org/TR/sparql11-update/|W3C "SPARQL 1.1 Update]], 2012.
+    *[[http://www.w3.org/TR/sparql11-federated-query/|W3C "SPARQL 1.1 Federated Query"]].
+    *[[http://www.w3.org/TR/cooluris/|W3C "Cool URIs for the Semantic Web"]].
+    *[[http://www.w3.org/TR/rdf-testcases/|W3C "RDF Test Cases"]].
+    *[[http://www.w3.org/2010/09/rdf-wg-charter.html|W3C "RDF Working Group Charter"]].
+    *[[http://www.w3.org/wiki/SweoIG/TaskForces/CommunityProjects/LinkingOpenData|W3C "SweoIG/TaskForces/CommunityProjects/LinkingOpenData"]] - "W3C SWEO Community Project".
+    *[[http://www.w3.org/wiki/TaskForces/CommunityProjects/LinkingOpenData/DataSets/CKANmetainformation|W3C "TaskForces/CommunityProjects/LinkingOpenData/DataSets/CKANmetainformation"]].
+    *Wiki [[http://www.w3.org/egov/|W3C eGovernment Wiki]].
+    *[[http://www.w3.org/2005/Incubator/lld/|W3C "Incubator Activity > W3C Library Linked Data Incubator Group"]].
+    *[[http://www.w3.org/2001/sw/interest/void/|W3C "Describing Linked Datasets with the VoID Vocabulary"]].
+    *[[http://www.w3.org/TR/skos-reference/|W3C "SKOS Simple Knowledge Organization System Reference"]] - "A common data model for sharing and linking knowledge organization systems via the Web".
+    *Wiki [[http://www.w3.org/2005/Incubator/prov/|W3 "W3C Provenance Incubator Group Wiki"]].
+    *[[http://www.w3.org/wiki/TaskForces/CommunityProjects/LinkingOpenData/EquivalenceMining|W3C "TaskForces/CommunityProjects/LinkingOpenData/EquivalenceMining. SWEO Community Project: Linking Open Data on the Semantic Web. Equivalence Mining and Matching Frameworks"]].
+    *[[http://www.w3.org/2008/01/rdf-media-types|W3C "Media Types Issues for Text RDF Formats"]].
+    *[[http://www.w3.org/2001/sw/rdb2rdf/|W3C "RDB2RDF Working Group"]] -> "The W3C RDB2RDF Working Group147 is currently working on a standard language to express relational database to RDF mappings".
+    *[[http://www.w3.org/2001/sw/sweo/public/UseCases/|W3C "Semantic Web Case Studies and Use Cases"]].
+    *[[http://www.w3.org/wiki/WebID|W3C "WebID"]].
+    *[[http://www.w3.org/wiki/TaskForces/CommunityProjects/LinkingOpenData/SemWebClients|W3C "TaskForces / CommunityProjects / LinkingOpenData / SemWebClients. SWEO Community Project: Linking Open Data on the Semantic Web. Linked Data Browsers, Mashups and other Client Applications"]].
+    *[[http://www.w3.org/2001/sw/wiki/Tools|W3C "Semantic Web Development Tools"]].
+  *Wikipedia.
+    *[[http://de.wikipedia.org/wiki/FOAF|EN.Wikipedia "Linked data"]], [[http://de.wikipedia.org/wiki/Linked_Open_Data|DE.Wikipedia "Linked Open Data"]].
+    *[[http://en.wikipedia.org/wiki/FOAF_%28software%29|EN.Wikipedia "FOAF (software)"]], [[http://de.wikipedia.org/wiki/Linked_Open_Data|DE.Wikipedia "FOAF"]] - "Friend of a Friend".
+    *[[http://en.wikipedia.org/wiki/Notation3|EN.Wikipedia "Notation3"]], [[http://de.wikipedia.org/wiki/Notation_3_%28Informatik%29|DE.Wikipedia "Notation 3 (Informatik)"]] (N3).
+    *[[http://en.wikipedia.org/wiki/N-Triples|EN.Wikipedia "N-Triples"]] ( a subset of N3 ).
+    *[[http://en.wikipedia.org/wiki/Ontology_%28information_science%29|EN.Wikipedia "Ontology (information science)"]], [[http://de.wikipedia.org/wiki/Ontologie_%28Informatik%29|DE.Wikipedia "Ontologie (Informatik)"]], [[http://en.wikipedia.org/wiki/Ontological_commitment|EN.Wikipedia "Ontological commitment"]].
+    *[[http://en.wikipedia.org/wiki/Open_data|EN.Wikipedia "Open data"]], [[http://de.wikipedia.org/wiki/Open_Data|DE.Wikipedia "Open Data"]].
+    *[[http://en.wikipedia.org/wiki/Resource_Description_Framework|EN.Wikipedia "Resource Description Framework"]], [[http://de.wikipedia.org/wiki/Resource_Description_Framework|DE.Wikipedia "Resource Description Framework"]] ( RDF ).
+    *[[http://en.wikipedia.org/wiki/RDFa|EN.Wikipedia "RDFa"]], [[http://de.wikipedia.org/wiki/RDFa|DE.Wikipedia "RDFa"]].
+    *[[http://en.wikipedia.org/wiki/RDF_Schema|EN.Wikipedia "RDF Schema"]], [[http://de.wikipedia.org/wiki/RDF-Schema|DE.Wikipedia "RDF-Schema"]].
+    *[[http://en.wikipedia.org/wiki/SPARQL|EN.Wikipedia "SPARQL"]], [[http://de.wikipedia.org/wiki/SPARQL|DE.Wikipedia "SPARQL"]].
+    *[[http://en.wikipedia.org/wiki/Semantic_Web|EN.Wikipedia "Semantic Web"]], [[http://de.wikipedia.org/wiki/Semantisches_Web|DE.Wikipedia "Semantisches Web"]].
+    *[[http://en.wikipedia.org/wiki/Turtle_%28syntax%29|EN.Wikipedia "Turtle (syntax)"]], [[http://de.wikipedia.org/wiki/Turtle_%28Syntax%29|DE.Wikipedia "Turtle (Syntax)"]] ( Terse RDF Triple Language ).
+    *[[http://en.wikipedia.org/wiki/Web_Ontology_Language|EN.Wikipedia "Web Ontology Language"]], [[http://de.wikipedia.org/wiki/Web_Ontology_Language|DE.Wikipedia "Web Ontology Language"]] ( OWL ).
+===== Forums, Newsgroups =====
+  *[[http://www.sourceforge.net/projects/bigdata/forums/|SourceForge Forum "bigdata"]].
+  *The read-only [[http://forum.future-internet.eu/|European Future Internet Portal - Forum]].
+  *[[http://groups.google.com/group/linked-data|Google Groups "Linked Data"]], [[http://groups.google.com/group/rdflib-dev|Google Groups "rdflib-dev"]], [[http://groups.google.com/group/umbel-ontology|Google Groups "UMBEL"]], [[https://groups.google.com/group/infoconnect-developers-discussion|Google Groups "InfoConnect Developers Discussion"]], [[http://groups.google.com/group/topbraid-users|Google Groups "TopBraid Suite Users"]].
+  *[[http://www.linkeddatatools.com/forum|LinkedDataTools Community]].
+  *[[http://groups.open.org.nz/|NZ Open Government Online Groups]].
+    *[[http://groups.open.org.nz/groups/ninja-talk|NZ Open Government Online Groups "The Open Government Ninjas"]].
+    *[[http://groups.open.org.nz/groups/geomash|NZ Open Government Online Groups "GeoMash: Geospatial Mashup Forum"]].
+  *[[http://www.opencalais.com/forum/|Thomson Reuters "OpenCalais" Forums]].
+  *[[http://www.sourceforge.net/mail/?group_id=111002|SourceForge Mailing List "D2RQ and D2R Server"]].
+{{tag>"Linked Data" "Linked Open Data" LOD "web of data" "semantic web" "semantic desktop" "internet of things"}}
+<footnote_navi_en>

@@ -1,0 +1,159 @@
+====== [hemmerling] Hochschul-Studienarbeit "Detektion von Bruchvorgängen bei Mehrspindelbohrmaschinen" ======
+===== Projekt-Auftrag =====
+Detektion von Bruchvorgängen im Summensignal der Vorschubkräfte mehrerer Spiralbohrer einer Mehrspindelbohrmaschine unter Verwendung von digitalen Signalverarbeitungsmethoden.
+  *Studienarbeit "Detektion von Bruchvorgängen bei Mehrspindelbohrmaschinen" an der Leibniz Universität Hannover ( 1989-06-01 - 1994-06-20  ).
+  *Hochschulprojekt "Detektion von Bruchvorgängen bei Mehrspindelbohrmaschinen" im Rahmen der Vorlesung "Analyse digitaler Signale" an der Fachhochschule Hannover ( 2006-03-01 - 2006-09-01 ).
+===== Projekt-Auftraggeber =====
+Für die Studienarbeit an der Leibniz Universität Hannover: 
+  *Professor Dr.-Ing. [[http://de.wikipedia.org/wiki/Hans_Kurt_T%C3%B6nshoff|Hans Kurt Tönshoff]], [[http://www.ifw.uni-hannover.de/|Institut für Fertigungstechnik und Spanende Werkzeugmaschinen ( IFW )]], [[http://www.uni-hannover.de/|Leibniz Universität Hannover]].
+  *Hermann Husen ( [[http://www.hermann-husen.de/|Dr. Hermann Husen Ingenieurgesellschaft mbH]], [[http://www.xing.com/profile/Hermann_Husen|XING "Hermann Husen"]] ), als Hochschul-Betreuer der Studienarbeit am IFW.
+Für das Hochschulprojekt an der Fachhochschule Hannover: 
+  *[[http://www.fakultaet1.fh-hannover.de/personen/lehrende/dreetz-ekkehard-prof-dr-ing-prof/index.html|Prof. Dr.-Ing. Ekkehard Dreetz]].
+===== Kooperationspartner =====
+[[http://www.mercedes-benz.de/|Mercedes-Benz AG]]. Werk Untertürkheim, Mercedesstraße 137, D-70546 Stuttgart.
+===== Projekt-Rolle / Eigene Aufgabe im Projekt =====
+Student, Software-Entwickler.
+===== Projekt-Aufgaben =====
+==== Projekt-Hintergrund ====
+Detektion von Bruchvorgängen im Summensignal der Vorschubkräfte mehrerer Spiralbohrer einer Mehrspindelbohrmaschine unter Verwendung von digitalen Signalverarbeitungsmethoden.
+
+Mehrspindelbohrmaschinen werden in der Großserienfertigung in Transferstraßen zur Bearbeitung mehrerer Bohrungen in einem Arbeitsgang eingesetzt, z.B. für Bohrungn am Getriebeflansch zur Verbindung des Getriebes mit dem Motorblock.
+
+Um während des Bearbeitungsprozesees einen Werkzeugbruch erkennen und geeignete Maßnahmen, z.B. sofortige Auslösung des "Vorschub-Stop", ergreifen zu können, wird am IFW ein Überwachungssystem entwickelt, das den Bruch eines einzelnen Bohrers erkennt und bei einem vorhersehbaren Versagen diesen auch verhindert.
+
+Hier wird die Summenvorschubkraft mehrerer Werkzeuge ausgewertet.
+==== Projekt-Aufgabenstellung ====
+Am vorhandenen Prozessrechner sollen anhand von analog auf Magnetband aufgezeichneten Versuchsdaten digitale Signalverarbeitungsalgorithmen entwickelt werden, mit denen der Bruch eines einzelnen Bohrers im Summenvorschubkraftsignal mehrerer gleichartiger Werkzeuge erkannt werden kann.
+
+Die Meßsignale müssen mit definiertem Zeitverhalten überwacht werden, so daß ein Bruchereignis zu 100% erfaßt wird. Die Reaktionszeit muß im Bereich weniger Millisekunden liegen.
+
+Vier Kanäle mit paralleler A/D-Wandlung müssen überwacht werden. Die Grenzwertüberprüfung geschieht mit einem Sequencer, der über Fensterkomparatoren so programmiert werden, daß das geforderte Zeitverhalten sichergestellt ist.
+
+Im Gesamtsignal ist ein relativ großer Störanteil enthalten, der z.B. vom Zahneingriff im Getriebe oder der Überrollmodulation der Wälzkörper in den Spindellagern verursacht wird. Es ist zu untersuchen, ob digitale Filtermethoden ( z.B. FIR-Filter ) einen wesentlichen Vorteil gegenüber linearn oder exponentiellen Mittelungsverfahren aufweisen. Wenn dieser Aufwand gerechtfertigt, aber mit der jetzigen Hardwarekonfiguration nicht zu bewältigen ist, kann der Einsatz sepzieller Signalprozessoren erwogen werden. Letzteres ist nicht Teil der Aufgabenstellung.
+
+Rattervorgänge, Bohrerquietschen und transiente Extremwerte dürfen im Meßsignal dürfen nicht zu einer Fehlmeldung führen.
+
+Bei Auslösung der zu ermittelnden Bruchbedingung soll über digitale Schaltvorgänge ein Spindelrückzug und die Wiederholung des Bohrvorgangs eingeleitet werden.
+
+Bei der Erstellung der Programme sind vorhandene Strukturen (Datenformate, Dateiformate, Zugriff auf globale Parameter) einzuhalten:
+  *digitalisierte Daten und ermittelte Grenzwerte müssen global für weitere Analysen im Speicher zugreifbar sein,
+  *sie sind in einem vordefinierten Format auf permanenten Dateien abzuspeichern,
+  *vordefinierte globle Strukturen (Variablen, Datenstationen) sind zu benutzen.
+
+Die Programmiersprache ist PEARL. Nur wenn es aus Zeitgründen notwendig ist, sind Assembler-Unterprogramme einzubinden.
+
+Die Arbeit soll in Absprache mit dem Betreuer durchgeführt werden.
+
+Soweit Maschinen und Geräte des IFW genutzt werden müssen, dürfen diese nur innerhalb der Dienstzeit oder ausnahmsweise auch darüber hinaus mit Genehmigung durch den Betreuer genutzt werden. In jedem Fall muß aber aus Sicherheitsgründen mindestens eine weitere Person in Sicht- oder Rufweite sein.
+===== Eigene Tätigkeiten im Projekt =====
+  *Implementierung einer Tool-Chain für Entwicklung und Cross-Entwicklung von Echtzeitsoftware sowie zur Entwicklung von Signalverarbeitungs-Algorithmen und zur Datenauswertung.
+    *Unter Verwendung von Industriestandard-Softwarewerkzeugen ( RTOS-PEARL, Werum-PEARL ) und Zusatz-Softwarewerkzeugen ( GNU-Präprozessor, IEP-Präprozessor )
+    *Durch Entwicklung und Weiterentwicklung von Zusatz-Tools ( Projektverwaltungsprogramm KMD, Preprozessor WM, Dokumentationsprogramm DOKU, Textdatei-Konvertierungsprogramm TXTCONVT, Ein/Ausgabeumlenkprogramm REDIREOF, Konvertierungsprogramm DCONV, Zeichenketten-Suchprogramm GREP, USER - Programm zur Ausführung von Kommandos, ANSI - Programm zur VT100/ANSI Mode Umschaltung ).
+  *Erstellung und Testen einer Software zur Echzeit-Datenerfassung, Echzeit-Datenauswertung und Offline-Datenvisualisierung auf einem Echzeit-Betriebssystem.
+  *Cross-Entwicklung einer Software zur Echzeit-Datenerfassung, Echzeit-Datenauswertung und Offline-Datenvisualisierung auf einem Host. Verwendung eines Compiler eines anderen Herstellers als dem Hersteller des Compilers für das Target.
+    *Begründung für die Cross-Entwicklung: 
+      *Der Target-Compiler führte bei Funktionsaufrufen keine Überprüfung der Anzahl und die Typen der übergebenen Parameter durch. Dies geschah erst bei Ausführung des Codes zur Laufzeit. Zur Compile-Zeit eigentlich entdeckbare Flüchtigkeits-Fehler führten also zu häufigen Laufzeitfehlern, insbesondere sobald eine merkliche Unübersichtlichkeit ab einer gewisse Code-Größe erreicht wurde bzw. ein Projekt aus mehr als einer Quelltext-Datei bestand. Der daraus resultierende Entwicklungsprozess erforderte überdurchschnittliche Konzentration für den Entwickler. Es war alles in allem frustrierend, auf dem Niveau einer Skriptsprache wie Perl, Python, VBSkript zu arbeiten, bei der der Syntax eben erst ( teilweise ) zur Laufzeit überprüft wird.
+      *Der Compiler auf dem Host führte diese Prüfung zur Compilezeit durch.
+    *Entwicklung eines gemeinsamen Quelltextes für Verwendung mit beiden Compilern, obwohl diese leichte Sprachunterschiede aufweisen.
+    *Simulation von Datenquellen in PEARL-Gerätetreibern für die Host-Version. 
+    *Erstellung von Graphik-Treibern in PEARL für [[http://de.wikipedia.org/wiki/Tseng_Labs|Tseng Labs]] ET4000 Graphikkarte und [[http://de.wikipedia.org/wiki/Hercules_Graphics_Card|Hercules Graphics Card]], so daß diese beiden Ausgabegeräte zur Offline-Datendarstellung genutzt werden können.
+  *Erstellung eines Tabellenblatts zur Offline-Datenauswertung, Offline-Datenvisualisierung und der Entwicklung von Signalverarbeitungs-Algorithmen, insbesondere auch Programmierung des Tabellenblatts mit Macro-Befehlen.
+  *Erstellung eines Mathcad-Rechenblatts zur Offline-Datenauswertung und Offline-Datenvisualisierung  und der Entwicklung von Signalverarbeitungs-Algorithmen.
+  *Datenanalyse, insbesondere unter Verwendung von Fast-Fourier-Transformation ( FFT ).
+===== Im Projekt eingesetzte Tools =====
+  -Dokumentation und Präsentation.
+      *[[http://de.wikipedia.org/wiki/LaTeX|LaTeX]].
+      *[[http://de.wikipedia.org/wiki/WordPerfect_Office|WordPerfect Office]].
+      *CASE-Tool zum Darstellen des Baums der Software-Module und ihrer gegenseitigen hierachischen Abhängigkeiten: "EasyCase 1.7" für MSDOS, von "Evergreen CASE Tools".
+      *Graphik-Mal und Bildbearbeitungs-Software für [[http://de.wikipedia.org/wiki/TOS_%28Betriebssystem%29|TOS]] / [[http://de.wikipedia.org/wiki/Graphical_Environment_Manager|Graphical Environment Manager]] ( GEM ).
+        *Tommy Software "Megapaint II".
+        *"PAD V2.0"
+      *CAD- und Bildbearbeitungs-Software für [[http://de.wikipedia.org/wiki/Windows|Windows]] /[[http://de.wikipedia.org/wiki/MS-DOS|MS-DOS]].
+        *[[http://de.wikipedia.org/wiki/Corel_Paint_Shop_Pro_Photo|Paint Shop Pro]].
+        * [[http://www.triusinc.com/|Trius Inc.]] "Draft Choice".
+      *Druckprogramm: [[http://ravitz.us/rs/|PrintGL]] für MSDOS.
+      *Screen-Capture Programm: "DOSCAP", für MSDOS.
+  -Entwicklungsumgebungen: 
+    -Target:
+      *Hardware-Plattform: [[http://de.wikipedia.org/wiki/VMEbus|VMEbus]]-basierter Einplatinen-Computer [[http://en.wikipedia.org/wiki/Motorola_Single_Board_Computers|Motorola Single Board Computer 133]] ( Freescale 68K ).
+      *Terminals: [[http://de.wikipedia.org/wiki/VT100|DECV VT100]] bzw. DEC VT220.
+      *Betriebssystem: [[http://de.wikipedia.org/wiki/Rtos-uh|RTOS-UH]] von [[http://www.irt.uni-hannover.de/rtos/|Institut für Regelungstechnik, Leibniz Universität Hannover]] / [[http://www.iep.de/|IEP GmbH]].
+      *Entwicklungssprachen: [[http://de.wikipedia.org/wiki/PEARL|PEARL]], 68K Assembler.
+      *Compiler: RTOS-PEARL von [[http://www.irt.uni-hannover.de/rtos/|Institut für Regelungstechnik, Leibniz Universität Hannover]] / [[http://www.iep.de/|IEP GmbH]], 
+      *Präprozessor: IEP-Präproezssor von [[http://www.iep.de/|IEP GmbH]].
+      *Texteditor: UH-Word von [[http://www.iep.de/|IEP GmbH]].
+      *Selbst- und weiterentwickelte Software-Werkzeuge: 
+        *Projektverwaltungsprogramm KMD.
+        *Preprozessor WM.
+        *Dokumentationsprogramm DOKU.
+        *Textdatei-Konvertierungsprogramm TXTCONVT.
+        *Ein/Ausgabeumlenkprogramm REDIREOF.
+        *Zeichenketten-Suchprogramm GREP.
+        *USER - Programm zur Ausführung von Kommandos.
+        *ANSI - Programm zur VT100/ANSI Mode Umschaltung.
+    -Host:
+      *Hardware-Plattform: [[http://de.wikipedia.org/wiki/Atari_ST|ATARI-ST]] ( Freescale 68K ).
+      *Terminals:
+        *ATARI-ST ( Tastatur, S/W Monitor bzw. Farb-Monitor).
+        *[[http://de.wikipedia.org/wiki/VT100|DECV VT100]] bzw. DEC VT220.
+      *Betriebssystem: [[http://de.wikipedia.org/wiki/Rtos-uh|RTOS-UH]] von [[http://www.irt.uni-hannover.de/rtos/|Institut für Regelungstechnik, Leibniz Universität Hannover]] / [[http://www.iep.de/|IEP GmbH]].
+        *Entwicklungssprachen: [[http://de.wikipedia.org/wiki/PEARL|PEARL]], 68K Assembler.
+        *Compiler: RTOS-PEARL von [[http://www.irt.uni-hannover.de/rtos/|Institut für Regelungstechnik, Leibniz Universität Hannover]] / [[http://www.iep.de/|IEP GmbH]].
+        *Präprozessor: IEP-Präproezssor von [[http://www.iep.de/|IEP GmbH]].
+        *Graphikbiliothek mit Graphik-Treiber für ATARI ST: [[http://de.wikipedia.org/wiki/Graphical_Kernel_System|Graphical Kernel System]] ( GKS ), Institut für Mechanik, Universität Hannover.
+        *Texteditor: UH-Word von [[http://www.iep.de/|IEP GmbH]].
+        *Selbst- und weiterentwickelte Software-Werkzeuge: 
+          *Projektverwaltungsprogramm KMD.
+          *Preprozessor WM.
+          *Dokumentationsprogramm DOKU.
+          *Textdatei-Konvertierungsprogramm TXTCONVT.
+          *Ein/Ausgabeumlenkprogramm REDIREOF.
+          *Zeichenketten-Suchprogramm GREP.
+          *USER - Programm zur Ausführung von Kommandos.
+          *ANSI - Programm zur VT100/ANSI Mode Umschaltung.
+      *Betriebssystem: [[http://de.wikipedia.org/wiki/TOS_%28Betriebssystem%29|TOS]] / [[http://de.wikipedia.org/wiki/Graphical_Environment_Manager|Graphical Environment Manager]] ( GEM ).
+        *Selbstentwickelte Software-Werkzeuge: 
+          *Konvertierungsprogramm DCONV.
+    -Host für Cross-Development und Simulation:
+      *Hardware-Plattform: [[http://de.wikipedia.org/wiki/IBM-PC|IBM-PC]] ( Intel x86 ).
+      *Terminals:
+        *IBM-PC ( Tastatur, [[http://de.wikipedia.org/wiki/Tseng_Labs|Tseng Labs]] ET4000 Graphikkarte mit Farb-Monitor oder [[http://de.wikipedia.org/wiki/Hercules_Graphics_Card|Hercules Graphics Card]] mit S/W Monitor ).
+          *[[http://en.wikipedia.org/wiki/ANSI.SYS|ANSI.SYS]] Bildschirm-Geätetreiber.
+          *VT100-Bildschirm-Gerätetreiber "Fansi-Console" von "Hersey Micro Consulting Inc.".
+          *MS-[[http://de.wikipedia.org/wiki/Kermit|Kermit]].
+        *[[http://de.wikipedia.org/wiki/VT100|DECV VT100]] bzw. DEC VT220.
+      *Betriebssysteme: [[http://de.wikipedia.org/wiki/Windows|Windows]], [[http://de.wikipedia.org/wiki/MS-DOS|MS-DOS]].
+      *Entwicklungssprachen: [[http://de.wikipedia.org/wiki/PEARL|PEARL]], x86 Assembler.
+      *Compiler: Werum-PEARL für MSDOS, von [[http://www.werum.de/|Werum Software & Systems AG]].
+      *Präprozessor: GNU-Präproezssor der [[http://de.wikipedia.org/wiki/GNU_Compiler_Collection|GNU Compiler Collection]].
+      *Tabellenkalkulation: [[http://en.wikipedia.org/wiki/As_Easy_As|AS-EASY-AS]].
+      *Computeralgebrasystem: [[http://de.wikipedia.org/wiki/Mathcad|Mathcad]].
+      *Selbstentwickelte Software-Werkzeuge: 
+        *Konvertierungsprogramm DCONV.
+===== Projekt-Ergebnis =====
+==== Fachlich ====
+Die umfangreichen fachlichen Ergebnisse meiner Arbeit werden von mir vertraulich behandelt. Für Nachfragen bitte ich, sich an das [[http://www.ifw.uni-hannover.de/|Institut für Fertigungstechnik und Spanende Werkzeugmaschinen ( IFW )]] mit Bezug auf die Studienarbeits-Nummer "89-S 1034-/410" zu wenden.
+
+Das Projekt war eine erfolgreiche Zuarbeit für die Dissertation:
+
+Hermann Husen "Überwachung paralleler Bohrprozesse", Düsseldorf, VDI-Verlag, 1994, Schriftenreihe: "Fortschrittberichte VDI : Reihe 2, Fertigungstechnik ; 331. Berichte aus dem Institut für Fertigungstechnik und spanende Werkzeugmaschinen, Universität Hannover", ISBN: 3-18-333102-0.
+==== Dokumente, Software ====
+Erstellung einer Echzeit-Software zur Datenerfassung und Datenauswertung.
+  -Software BCONTROL.
+    -Version in RTOS-PEARL für Target.
+    -Version in RTOS-PEARL für Host unter RTOS-UH.
+    -Version in Werum-PEARL für Host unter MSDOS.
+Offline-Simulation und Offline-Datenauswertung.
+  -Simulation als Tabellenblatt für die Tabellenkalkulation AS-EASY-AS.
+  -Daten-Auswertung als Mathcad-Rechenblatt.
+Dokumentation 
+  -Semesterarbeit-Bericht.
+  -Dia-Show Präsentation für Word Perfect Office.
+==== Bewertung ====
+  *Die Studienarbeit an der Leibniz Universität Hannover wurde bestanden und mit der Note "befriedigend" ( 3.3 ) bewertet. 
+  *Das Hochschulprojekt an der Fachhochschule Hannover wurde als Prüfungsleistung für das Fach "Analyse digitaler Signale" bestanden und mit der Note "sehr gut" ( 1.3 ) bewertet.
+
+Anmerkung: Bei dem verwendeten Bewertungsschema ist "sehr gut" ( 1.0 ) die beste Note und "nicht bestanden" ( 5.0 ) die schlechteste Note.
+
+{{tag>Arbeitserfahrung }}
+<footnote_navi_de>

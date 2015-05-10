@@ -1,0 +1,291 @@
+====== [hemmerling] 3D Graphics Frameworks ======
+Related pages:
+  *[[gameengine.html|Game Engines]].
+  *[[virtualworld.html|The Virtual World]].
+  *[[vrml.html|Virtual Reality & Graphics]].
+===== OpenGL & GLUT =====
+==== Frameworks & Documentation ====
+  *[[http://www.khronos.org/|The Khronos Group]].
+    *[[http://www.khronos.org/opengles/|OpenGL ES - The Standard for Embedded Accelerated 3D Graphics]].
+  *[[http://www.opengl.org/|OpenGL - The Industry's Foundation for High Performance Graphics]].
+    *[[http://www.opengl.org/resources/libraries/glut/|OpenGL "GLUT - The OpenGL Utility Toolkit"]].
+    *[[http://www.opengl.org/resources/|OpenGL "OpenGL Coding Resources"]].
+    *[[http://www.opengl.org/wiki/|OpenGL Wiki]]
+      *[[http://www.opengl.org/wiki/Language_bindings|OpenGL Wiki "Language bindings"]].
+  *[[http://freeglut.sourceforge.net/|SourceForge "freeglut - The Free OpenGL Utility Toolkit"]], [[http://www.sourceforge.net/projects/freeglut/|SourceForge "freeglut"]] - "A completely OpenSourced alternative to the OpenGL Utility Toolkit (GLUT) library".
+  *[[http://www.stetten.com/george/glutmaster/glutmaster.html|George Stetten, Korin Crawford "GlutMaster"]] - "A very simple C++ wrapper for GLUT". 
+  *[[http://www.nigels.com/software.html|Nigel Steward]].
+    *[[http://www.nigels.com/glt/|Nigel Steward "GLT OpenGL C++ Toolkit"]].
+    *[[http://glui.sourceforge.net/|SourceForge "GLUI User Interface Library"]], [[http://www.sourceforge.net/projects/glui/|SourceForge "GLUI User Interface Library"]].
+    *[[http://openglut.sourceforge.net/|SourceForge "OpenGLUT"]], [[http://www.sourceforge.net/projects/openglut/|SourceForge "OpenGLUT"]] - "An open source evolution of the GLUT API".
+==== Web3D ====
+  *[[http://www.web3d.org/|Web3D Consortium]].
+  *[[http://learningwebgl.com/|Learning WebGL. 3D Programming for the Web]].
+    *Blog [[http://learningwebgl.com/blog/|Learning WebGL. 3D Programming for the Web - Blog]].
+  *Conference [[http://www.froscon.de/|FroSCOn]] in St. Augustin, 2014-08-23 - 2014-08-24.  
+      *Speech "Create a 3D WebGL scene in half an hour!" by Jens Arps, [[http://plus.google.com/u/0/+JensArps/|Google+ "Jens Arps"]], [[http://www.twitter.com/jensarps|Twitter "Jens Arps, @jensarps"]], blog [[http://www.jensarps.de/|Jens Arp - Blog]].
+      *[[http://www.slideshare.net/jensarps/a-webgl-scene-in-30-mins|SlideShare, Jens Arps "Create an Interactive 3D WebGL Scene"]].
+        -Get a model. 
+          -Get a CAD model from Model Repositories.
+            *[[http://www.turbosquid.com/|TurboSquid -  3D Models for Professionals]].
+            *[[http://www.tf3dm.com/|TF3DM - 3D Models for free]].
+          -Convert Game Assets ( "Lightwave" (.obj + .mtl), COLLADA (.dae) ).
+            *[[http://sketchup.google.com/3dwarehouse/|Google "3D Warehouse"]] - Database of CAD models made with "Sketchup".
+          -Tools ( Blender, Meshlab ).
+        -Loading into WebGL.
+          -WebGL Wrappers/Libraries.
+            *[[http://www.threejs.org/|three.js]].
+              *[[http://plus.google.com/u/0/104300307601542851567/|Google+ "three.js"]].
+              *[[http://www.threejsgames.com/|Three.js Games]].
+                *[[http://www.threejsgames.com/extensions/|Three.js Games "THREEx -Game Extensions for Three.js]].
+            *[[http://www.babylonjs.com/Babylon.js]].
+            *[[http://www.glge.org/|GLGE]] - not applicable?!.
+          -User input.
+            *[[http://www.github.com/jensarps/decoupled-input|GitHub "jensarps/decoupled-input"]] - "Input handling for HTML5 games done right."
+          -Adding some spice.
+          -HTML goodness.
+            *[[http://www.github.com/toji/game-shim|GitHub "toji/game-shim"]] - "Browser shims to normalize game-centric API".
+          -Collision detection.
+      *[[http://www.github.com/jensarps/cgnjs-feb-2014|GitHub "jensarps/cgnjs-feb-2014"]] - "Please note that the goal of the presentation was to show how quickly one can setup a 3D scene".
+      *Demo [[http://jensarps.github.io/shooting-at-balls/|GitHub.io, Jens Arp "Shooting At Things on Mars"]] for Chrome browser.
+  *[[http://en.wikipedia.org/wiki/Web3D|EN.Wikipedia "Web3D"]], [[http://de.wikipedia.org/wiki/Web3D|DE.Wikipedia "Web3D"]].
+  *[[http://en.wikipedia.org/wiki/Web3D_Consortium|EN.Wikipedia "Web3D Consortium"]].
+==== Tools ====
+  *[[http://kenai.com/projects/netbeans-opengl-pack/|Project Kenai "NetBeans OpenGL Pack"]].
+==== OpenCL & OpenGL ====
+  *See [[distributed.html|Distributed Computing & Parallel Computing]].
+==== 3D Toolkits based on OpenGL / with OpenGL Interface ====
+=== General ===
+  *[[http://www.fltk.org/|Fast Light Toolkit]] (FLK), pronounced "fulltick".
+    *[[http://www.fltk.org/doc-2.0/html/opengl.html|Fast Light Toolkit "Using OpenGL in FLTK"]].
+    *"It provides modern GUI functionality without the bloat and supports 3D graphics via OpenGL and its built-in GLUT emulation".
+    *"FLTK also includes an excellent UI builder called FLUID that can be used to create applications in minutes".
+  *[[http://www.khronos.org/openml/|KHOROS Group - Open Standards for Media Authoring and Acceleration "OpenML"]] - "The Standard for Dynamic Media Authoring".
+    *[[http://en.wikipedia.org/wiki/OpenML|EN.Wikipedia "OpenML"]].
+  *[[http://doc.qt.nokia.com/4.7/qtopengl.html|QT "QtOpenGL Module"]] - "It offers classes that make it easy to use OpenGL in Qt applications".
+=== Scenegraphs ===
+  *The commercial [[http://www.coin3d.org/|Coin3D]] - "3D Graphics Development Kit", "Fully backward compatible with Open Inventor 2.1".
+    *The OpenSource "Coin3D/Voleon Free Edition (GPL)".
+  *[[http://coindesigner.sourceforge.net/|SourceForge "Coindesigner"]], [[http://www.sourceforge.net/projects/coindesigner|SourceForge "Coindesigner"]] - A RAD (rapid application development) system to build 3D applications using Coin3D openInventor.
+  *The OpenSource [[http://oss.sgi.com/projects/inventor/|SGI Open Inventor]].
+    *[[http://techpubs.sgi.com/library/tpl/cgi-bin/download.cgi?coll=0650&db=bks&docnumber=860-0108-001|SGI techpubs library "Open Inventor C++ Reference Pages"]].
+    *[[http://studierstube.icg.tu-graz.ac.at/openinventor/|Studierstube Augmented Reality Project "OpenInventor"]].
+      *"GlutMaster provides an adaptor for combining OpenInventor and GLUT".
+    *[[http://en.wikipedia.org/wiki/Open_Inventor|EN.Wikipedia "Open Inventor"]], [[http://de.wikipedia.org/wiki/Open_Inventor|DE.Wikipedia "Open Inventor"]].
+  *The OpenSource [[http://www.openscenegraph.org/projects/osg|OpenSceneGraph]] - "An object-oriented 3D toolkit offering a comprehensive solution to interactive graphics programming problems".
+    *[[http://www.osghelp.com/|OpenSceneGraph Help (osgHelp)]].
+    *[[http://en.wikipedia.org/wiki/OpenSceneGraph|EN.Wikipedia "OpenSceneGraph"]], [[http://de.wikipedia.org/wiki/OpenSceneGraph|DE.Wikipedia "OpenSceneGraph"]].
+  *The OpenSource [[http://www.opensg.org/|OpenSG]].
+    *[[http://en.wikipedia.org/wiki/Opensg|EN.Wikipedia "OpenSG"]].
+  *The free [[http://developer.nvidia.com/object/scenix-home.html|NVIDIA SceniX]] - "Scene management engine".
+  *The commercial [[http://www.vsg3d.com/open-inventor/sdk|Visualisation Sciences Group (VSG) "Open Inventor by VSG"]] - "3D Graphics Toolkit for Industrial-Strength Application Development".
+  *[[http://en.wikipedia.org/wiki/Scene_graph|EN.Wikipedia "Scene graph"]], [[http://de.wikipedia.org/wiki/Szenengraph|DE.Wikipedia "Szenengraph"]].
+=== Game Engines ===
+  *[[http://www.ogre3d.org/|O-O Graphics Rendering Engine (OGRE)]], [[http://ogre.sourceforge.net/|SourceForge "OGRE (O-O Graphics Rendering Engine)"]], [[http://www.sourceforge.net/projects/ogre/|SourceForge "OGRE (O-O Graphics Rendering Engine)"]] - "Open Source 3D Graphics Engine".
+=== Development Toolkits for 3D / 2D User Interfaces ===
+  *The free "Inflexion UI for i.MX Processors".
+    *[[http://www.freescale.com/imxinflexion|freescale "Inflexion UI for i.MX Processors by Mentor Embedded"]].
+    *[[http://www.mentor.com/embedded-software/inflexion/freescale|Mentor Graphics "Inflexion UI for i.MX Processors"]].
+  *[[http://www.elektrobit.com/what_we_deliver/automotive_software/products/eb_guide_-_hmi_development|EB, Elektrobit Inc. "EB GUIDE"]] - "Integrated tool chain for developing multi-modal HMIs".
+==== Resources ====
+  *[[http://msdn.microsoft.com/en-us/library/ms537767|Microsoft MSDN Library "OpenGL"]].
+  *[[http://nehe.gamedev.net/|NeHe Productions "OpenGL tutorials"]].
+  *[[http://en.wikipedia.org/wiki/OpenGL|EN.Wikipedia "OpenGL"]], [[http://de.wikipedia.org/wiki/OpenGL|DE.Wikipedia "OpenGL"]].
+  *[[http://en.wikipedia.org/wiki/Freeglut|EN.Wikipedia "freeglut"]].
+  *[[http://en.wikipedia.org/wiki/OpenGL_ES|EN.Wikipedia "OpenGL ES"]].
+  *[[http://en.wikipedia.org/wiki/OpenGL_Utility_Toolkit|EN.Wikipedia "OpenGL Utility Toolkit"]], [[http://de.wikipedia.org/wiki/OpenGL_Utility_Toolkit|DE.Wikipedia "OpenGL Utility Toolkit"]].
+===== DirectX & XNA =====
+==== Microsoft DirectX on Windows ====
+  *[[http://msdn.microsoft.com/en-us/directx/|Microsoft MSDN "DirectX Developer Center"]].
+  *[[http://www.gamesforwindows.com/directx|Microsoft "DirectX"]], [[http://www.gamesforwindows.com/directx/|Games for Windows Marketplace "DirectX"]].
+  *[[http://msdn.microsoft.com/en-us/library/ms810383|Microsoft MSDN "Microsoft DirectX 9 Developer FAQ"]].
+  *Downloads.
+    *DirectX 9.0c Redistributable, October 2006, is the latest version for installation on Win98SE.
+      *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=013c0f78-3c9b-44dc-b8be-46783bcac3cb|DirectX End-User Runtimes (October 2006)]] for Win98SE, W2k.
+    *DirectX 9.0c Redistributable, August 2007, is the latest version for installation on W2k.
+      *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=cb7397f3-0949-487b-9247-8fee451bf952|DirectX End-User Runtimes (August 2007)]] for W2k.
+    *DirectX 9.0c SDK, December 2004, is the latest version for installation on W2k.
+      *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=3021d52b-514e-41d3-ad02-438a3ba730ba|DirectX Software Development Kit]], June 2010, for WinXP.
+      *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=4e825a37-0c94-4421-9ec8-156e52525d11|DirectX 9.0 SDK Update - (December 2004)]].
+      *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=a8667cc6-22ca-4195-a4fa-71dec1f454f9|DirectX 9.0 SDK Update (December 2004) Extras]].
+      *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=09abab79-f272-4b04-8652-ab62ac1d763b|DirectX 9.0 SDK Update (December 2004) Symbol Files]].
+      *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=358cbc1e-f5ab-417d-9f6f-779be38efb69|DirectX 9.0 SDK Update - (December 2004)]] - "Readme" files.
+  *[[http://www.microsoft.com/germany/msdn/webcasts/serien/MSDNWCS-0503-01.mspx|Microsoft MSDN Webcasts "3D-Grafik-Programmierung mit DirectX"]].
+  *[[http://www.codeproject.com/KB/directx/invasioncsharp.aspx|The Code Project "Invasion - C# Style"]].
+  *"Alky Project" by Cody Brocious (Daeken) - DirectX 9L & DirectX 10 for WinXP.
+    *[[https://github.com/callen/Alky-Reborn|Github "Alky-Reborn"]].
+    *<del>[[http://alkyproject.blogspot.com/|Alky Project]]</del>, <del>[[http://www.fallingleafsystems.com/|Falling Leaf Systems]]</del>.
+    *[[http://www.technospot.net/blogs/download-directx-10-for-windows-xp-from-alky-project/|Technospot.net "Download DirectX 10 for Windows XP from Alky Project"]].
+    *Blog [[http://www.techmixer.com/download-directx-10-for-windows-xp/|TechMixer - Tech makes life difference "Download DirectX 10 for Windows XP"]] - "Latest DirectX 10 XP installer patch that easily installing all the important DirectX10 DLL on Windows XP 32. Meanwhile, this DirectX10 installer program support Windows 2000 and Windows 2003".
+    *[[http://www.pro-linux.de/news/1/12171/projekt-alky-eingestellt.html|Pro-Linux "Projekt Alky eingestellt"]], 2008-01-07.
+    *Blog [[http://daeken.com/alky-postmortem|Cody Brocious (Daeken) - I, Hacker "Alky Postmortem"]], 2009-12-27.
+  *[[http://en.wikipedia.org/wiki/DirectX|EN.Wikipedia "DirectX"]], [[http://de.wikipedia.org/wiki/DirectX|DE.Wikipedia "DirectX"]], [[http://en.wikipedia.org/wiki/Managed_DirectX|EN.Wikipedia "Managed DirectX"]].
+==== XNA for Visual C# Express & .NET 2.0, on WinXP" & "XBox 360" ====
+  *[[http://msdn2.microsoft.com/xna/|Microsoft XNA Developer Center]].
+  *[[http://www.monoxna.org/|MonoXNA]].
+    *MonoXNA uses OpenGL for 3D support.
+    *[[http://code.google.com/p/monoxna/|Google Code "monoxna"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0470261285/hemmerling-21|Benjamin Nitschke: "Professional Xna Game Programming for Xbox 360 and Windows"]].
+  *[[http://create.msdn.com/|Microsoft App Hub]] - "Develop for WIndows Phone and XBOX 360".
+  *[[http://xnaprojects.exdream.com/|XNAProjects]] - "Submit your XNA Games !".
+  *[[http://www.dreambuildplay.com/|Dream.Build.Play Challenge]] 2011 ( formerly: Microsoft XNA Game Studio Contest ).
+
+==== Linux ====
+=== Wine ===
+  *[[http://www.winehq.org/|WineHQ]] - "Führt Windows-Anwendungen unter Linux, BSD, Solaris und Mac OS X aus".
+  *[[http://wine.sourceforge.net/|SourceForge "Wine Is Not an Emulator"]], [[http://www.sourceforge.net/projects/wine/|SourceForge "Wine Is Not an Emulator"]].
+  *[[http://en.wikipedia.org/wiki/Wine_%28software%29|EN.Wikipedia "Wine (software)"]], [[http://de.wikipedia.org/wiki/Wine|DE.Wikipedia "Wine"]].
+=== WineX / Cedega ===
+  *[[http://transgaming.com/|TransGaming Inc.]].
+  *[[http://www.heise.de/newsticker/meldung/DirectX-API-fuer-Linux-Neuer-Name-neue-Spiele-102188.html|heise "DirectX-API für Linux: Neuer Name, neue Spiele"]], 2004-06-22.
+  *[[http://en.wikipedia.org/wiki/Cedega_%28software%29|EN.Wikipedia "Cedega (software)"]], [[http://de.wikipedia.org/wiki/Cedega_%28Software%29|DE.Wikipedia "Cedega (Software)"]].
+=== CrossOver ===
+  *The commercial [[http://www.codeweavers.com/|Codeweavers]] "CrossOver".
+  *[[http://en.wikipedia.org/wiki/CrossOver|EN.Wikipedia "CrossOver"]], [[http://de.wikipedia.org/wiki/CrossOver|DE.Wikipedia "CrossOver"]].
+===== 3D Graphical Frameworks supported by "Delta Engine" =====
+=== C# OpenTK ===
+  *[[http://www.opentk.com/|The Open Toolkit]] ( OpenTK ) in C#.
+  *[[http://www.github.com/opentk|GitHub "opentk"]].
+  *[[http://opentk.sourceforge.net/|SourceForge "The Open Toolkit library"]], [[http://www.sourceforge.net/projects/opentk/|SourceForge "The Open Toolkit library"]].
+  *[[http://en.wikipedia.org/wiki/Tao_Framework|EN.Wikipedia "Tao Framework"]] - "Tao Framework has been superseded by OpenTK".
+=== C# GLFW ( written in C ) ===
+  *[[http://www.glfw.org/|GLFW]] in C.
+  *[[http://glfw.sourceforge.net/|SourceForge "GLFW"]], [[http://www.sourceforge.net/projects/glfw/|SourceForge "GLFW - Multi-platform library providing OpenGL, windows and input"]].
+  *[[http://www.github.com/glfw|GitHub "glfw"]].
+  *[[http://en.wikipedia.org/wiki/GLFW|EN.Wikipedia "GLFW"]].
+=== C# SlimDX ===
+  *[[http://slimdx.org/|SlimDX]].
+  *[[http://code.google.com/p/slimdx/|Google Code "slimdx. A framework for DirectX based applications in the .NET Framework 2.0 and up"]] - "While SlimDX is similar to Managed DirectX, it is NOT intended to be the same API".
+  *[[http://www.twitter.com/SlimDX|Twitter "SlimDX"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1782167382/hemmerling-21|Michael Fontanini: "Game Development with SlimDX"]].
+  *[[http://www.xnamag.de/|XNA.mag - Artikel, samples, Forum und mehr!]].
+    *[[http://slimdx.xnamag.de/|XNA.mag - Artikel, samples, Forum und mehr! "SlimDX"]].
+  *[[http://en.wikipedia.org/wiki/SlimDX|EN.Wikipedia "SlimDX"]].
+=== C# SharpDX ===
+  *[[http://sharpdx.org/|SharpDX]].
+  *[[http://www.github.com/sharpdx|GitHub "sharpdx"]].
+  *[[http://code.google.com/p/sharpdx/|Google Code "sharpdx. Managed DirectX - The power of DirectX for C#/.Net"]] - "A free and active open-source project that is delivering a full-featured Managed DirectX API".
+  *Developer blog [[http://code4k.blogspot.de/|Alexandre Mutel - code4k. DirectX and C#/.NET]] ( - 2013-04 ).
+  *[[http://www.twitter.com/sharpdx2|Twitter "SharpDX"]].
+  *[[http://en.wikipedia.org/wiki/SharpDX|EN.Wikipedia "SharpDX"]].
+=== C# XNA ===
+  *[[http://create.msdn.com/|Microsoft DevCenter]].
+  *[[http://msdn.microsoft.com/xna/|Microsoft Developer Network "XNA Developers Center"]].
+  *[[http://www.xnavideotutorial.com/|XVT 2010 "XNAVideoTutorial"]] - free video tutorials.
+  *[[http://xnacommunity.codeplex.com/|CodePlex XNACommunity]].
+  *[[http://rbwhitaker.wikidot.com/xna-tutorials|RB Whitaker's Wiki. A Game Development Launchpad "XNA Tutorials"]].
+  *[[http://xnameetingpoint.weebly.com/|XNA Meeting Point. Multi language XNA tutorials meeting point]].
+  *[[http://en.wikipedia.org/wiki/Microsoft_XNA|EN.Wikipedia "Microsoft XNA"]], [[http://de.wikipedia.org/wiki/XNA_%28Microsoft%29|DE.Wikipedia "XNA (Microsoft)"]] - "According to an email sent on 31 January 2013, XNA is no longer actively being developed, and it is not supported under the new 'Metro interface' layers of Windows 8 nor on the Windows RT platform".
+=== C# MonoGame ===
+  *[[http://www.monogame.net/|MonoGame]].
+    *"These are the technologies we use under the hood, that make our API so cross-platform":
+      *OpenTK.
+      *SharpDX.
+      *[[http://code.google.com/p/lidgren-network-gen3/|Google Code "lidgren-network-gen3. Lidgren networking library generation 3"]].
+  *<del>[[http://www.github.com/MonoGame|GitHub "MonoGame"]]</del>.
+  *[[http://monogame.codeplex.com/|CodePlex "MonoGame - Write Once, Play Everywhere"]].
+  *[[http://www.twitter.com/MonoGameTeam|Twitter " MonoGame
+MonoGame "]].
+  *[[http://www.youtube.com/user/MonoGameTeam|YouTube Channel "MonoGameTeam"]].
+  *[[http://en.wikipedia.org/wiki/MonoGame|EN.Wikipedia "MonoGame"]].
+=== C++ OpenGL ===
+  *See other section on this page about OpenGL.
+===== 3D Graphics Benchmarks =====
+==== Tools ====
+  *[[http://www.futuremark.com/|Futuremark Corporation]] for WinXp.
+    *My personal results, with my hardware.
+
+^ ^ ^ ^ ^ ^ ^ ^ |
+^Software ^ Operating System ^ Requirements ^ Nvidia TNT2, PIII-550 ^ Nvidia GForce 4MX, PIII-550 ^ Nvidia GForce 6600, PIII-550 ^ Nvidia GForce 4MX, Athlon XP2100 ^ Nvidia 6800GS with 512 MB & 256 bit memory bus, Athlon XP2100 |
+^3DMark06 Basic (Build 1.1.0) | WinXP, VISTA, Win7 | ? | - | - | - | - | - |
+^PCMark05 Basic (Build 1.2.0) | WinXP, VISTA, Win7 | - | - | - | - | - | - |
+^3DMark05 Free (Build 1.3.0) | W2k | x86 with SSE, 128 MB Graphics card, PixelShader 2.0 | - |	- | - |	- | 4343 3DMarks |
+^PCMark04 Free (Build 1.3.0) | W2k, WinXP | - | - | - | - | - | - |
+^3DMark03 Free | Win98SE, W2k, WinXP | 32 MB Graphics card | hardware not supported | 72 3DMarks | - | 205 3DMarks | 9531 3DMarks |
+^PCMark2002 Free | Win98SE, W2k, WinXP | x86 with MMX, AGP | - | - | - | - | - |
+^3DMark2001 SE Free (Build 3.3.0) | Win98SE, W2k, WinXP | 32 MB Graphics card | 957 3DMarks | 1988 3DMarks | - | 4395 3DMarks | 12264 3D-marks |
+^3DMark2000 Free (v1.1) | Win98SE, W2k, WinXP | 32 MB Graphics card | - | - | - | - | - |
+^3DMark99 MAX Free | Win98SE, W2k | ? | - | - | - | - | - |
+^ | | | | | | | |
+
+  *[[http://www.cinebench.com/|MAXON CINEBENCH]] for WinXP.
+    *MAXON CINEBENCH R.10 was the latest release for W2k.
+
+==== Resources ====
+  *[[http://www.computerbase.de/downloads/system/|ComputerBase "Downloads: System"]] - Download of several 3D benchmarks for Windows.
+  *[[http://www.3dchip.de/Grafikchipliste/Leistung_Graka.htm|3D Chip - The Graphics & Hardwareguide "Grafikkarten-Rangliste Leistungübersicht aktueller und älterer Desktop Grafikchips"]].
+
+===== 3D Graphics Hardware =====
+==== "AGP Pro" ( 1 Key ) Graphics Cards with "DirectX 10" Support on Win7 / Vista ====
+  *There is no "DirectX 10" for WinXP, W2k :-(.
+  *The latest ATI graphics drivers for W2k, "Catalyst 6.2" don't support "Radeon HD 2600" or "Radeon HD 2400".
+  *[[http://www.xbitlabs.com/news/video/display/20070723091625.html|GeCube GC-RX24PGA2-D3]] ( GeCube Radeon HD 2400 Pro ). 
+  *[[http://www.reghardware.co.uk/2007/06/28/review_powercolor_hd_2600_xt/|PowerColor ATI Radeon HD 2600 XT]].
+  *Sapphire HD2600 Pro AGP.
+  *[[http://geizhals.at/deutschland/?fs=2600+pro+AGP|Geizhals.AT "2600 pro AGP"]] ( Shader 4 ) - there are models with 512 MB RAM.
+  *[[http://geizhals.at/deutschland/?fs=2400+pro+AGP|Geizhals.AT "2400 pro AGP"]] ( Shader 4 ) - there are models with 512 MB RAM.
+==== Latest "AGP Pro" ( 1 Key ) Graphics cards with W2k and Win7 / Vista drivers ====
+  *[[http://geizhals.at/deutschland/?fs=x850+agp|Geizhals.AT "x850+agp"]].
+  *[[http://geizhals.at/deutschland/a198950.html|Geizhals.AT "Palit/XpertVision Radeon X850 XT, 256MB GDDR3, VGA, DVI, TV-out, AGP (AA-X850XT+TD22)"]] ( 256 MB, Shader 2 ).
+  *[[http://geizhals.at/deutschland/?fs=7900+agp|Geizhals.AT "7900+agp"]].
+  *[[http://geizhals.at/deutschland/a293674.html|Geizhals.AT "XFX GeForce 7900 GS 450M, 512MB GDDR3, 2x DVI, TV-out, AGP (PV-T71K-UDF7)"]] ( 512 MB, Shader 3 ).
+==== Latest "AGP Pro" ( 1 key ) = "AGP8x" Graphics Cards with Win98SE, W2k and Win7 / Vista Drivers ====
+  *There are 6800GS models for "AGP Pro" with 512 MB RAM, 256 bit memory bus. The 6800GS however is one of the "few" 6800 models which is not supported by [[http://www.nvidia.com/object/81.98_9x_supported.html|Nvidia's Win98SE drivers]] :-(.
+  *[[http://geizhals.at/deutschland/?fs=6800+agp|Geizhals.AT "6800+agp"]] ( 256 MB, Shader 3 ).
+  *[[http://www.schottenland.de/suche/?searchstring=6800+agp|Hardwareschotte "6800+agp"]].
+  *[[http://search.ebay.de/ws/search/SaleSearch?&satitle=6800+agp|eBay.DE "6800+agp"]].
+==== Latest "AGP" ( 2 keys ) and "AGP Pro" ( 1 key ) = "AGP8x" Graphics Cards with Win98SE, W2k and Win7 / Vista Drivers  ====
+  *[[http://geizhals.at/deutschland/?fs=6600+agp|Geizhals.AT "6600+agp"]] ( 256 MB, Shader 3 ).
+  *[[http://www.hardwareschotte.de/preise.php3?seachrange=all&searchstring=6600+agp|Hardwareschotte "6600+agp"]].
+  *[[http://search.ebay.de/ws/search/SaleSearch?&satitle=6600+agp|eBay.DE "6600+agp"]].
+  *[[http://geizhals.at/deutschland/?fs=9800+agp|Geizhals.AT "9800+agp"]].
+  *[[http://search.ebay.de/ws/search/SaleSearch?&satitle=6600+agp|eBay.DE "9600+256+agp"]].
+  *[[http://geizhals.at/deutschland/a128665.html|Geizhals.AT "PowerColor Radeon 9800, 256MB DDR, DVI, TV-out, AGP (R98E-PD3)"]] ( 256 MB, Shader 2 ) - there are other models with 256 bit memory bus.
+==== Resources ====
+  *[[http://www.ertyu.org/steven_nikkel/agpcompatibility.html|Steven Nikkel "AGP Compatibility"]].
+
+===== Some other 3D Frameworks and Tools =====
+  *[[http://en.wikipedia.org/wiki/Simple_DirectMedia_Layer|EN.Wikipedia "Simple DirectMedia Layer"]], [[http://de.wikipedia.org/wiki/Simple_DirectMedia_Layer|DE.Wikipedia "Simple DirectMedia Layer"]].
+    *[[http://www.linuxdevcenter.com/pub/a/linux/2001/09/21/sdl.html|Howard Wen, O'Reilly Linuxdevcenter SDL "The DirectX Alternative"]], 2001-09-21.
+===== Resources =====
+  *Blog [[http://eureka3d.com/blog/?p=18|Steve Riley - Programming Matters. My thoughts on all things technical, programming and otherwise "Scenegraphs and Openscenegraph for 3D Software Development"]].
+  *Search results.  
+    *[[http://www.freshmeat.net/search?q=OpenGL|freshmeat - search "OpenGL"]], [[http://www.freshmeat.net/search?q=DirectX|freshmeat - search "DirectX"]].
+    *[[http://www.google.de/search?q=OpenGL|Google "DirectX"]], [[http://www.google.de/search?q=OpenGL|Google "DirectX"]].
+    *[[http://www.heise.de/ix/suche/?q=OpenGL&search_submit=Suchen&rm=search&channel=ix|beise iX-Suche "DirectX"]],  *[[http://www.heise.de/ix/suche/?q=OpenGL&search_submit=Suchen&rm=search&channel=ix|beise iX-Suche "DirectX"]].
+    *[[http://www.sourceforge.net/search/?q=OpenGL|SourceForge "DirectX"]], [[http://www.sourceforge.net/search/?q=OpenGL|SourceForge "DirectX"]].
+  *[[http://en.wikipedia.org/wiki/List_of_3D_graphics_APIs|EN.Wikipedia "List of 3D graphics libraries"]].
+===== Forums, Newsgroups, Communities =====
+  *[[http://www.grafikkarten.org/|3D Chip - The Graphics & Hardwareguide]].
+  *[[http://forums.create.msdn.com/forums/|Microsoft MSDN "App Hub Forums"]].
+  *[[http://monogame.codeplex.com/discussions|CodePlex "MonoGame - Write Once, Play Everywhere" Discussions]].
+  *[[http://www.delphigl.com/|Delphi OpenGL Community]].
+    *[[http://www.delphigl.com/forum/|Delphi OpenGL Community, Forum]].
+    *[[http://wiki.delphigl.com/|DGL Wiki]].
+  *Facebook.
+    *[[http://www.facebook.com/GameDevWithSlimDX|Facebook "Game Development with Slimdx Game Development with Slimdx"]].
+    *[[http://www.facebook.com/monogamecommunity|Facebook "MonoGame"]].
+  *[[http://www.gamedev.net/|GameDev.net Forums]].
+    *[[http://www.gamedev.net/forum/10-directx-and-xna/|Gamedev.net Forums, Subforum "DirectX and XNA"]] - Discussion about SlimDX as well.
+  *[[http://groups.google.com/group/slimdx-devel|Google Groups "slimdx-devel"]].
+  *[[http://www.khronos.org/message_boards/|Khronos Group - Message Boards]].
+  *[[http://www.opengl.org/wiki/|OpenGL Wiki]].
+  *[[http://www.opentk.com/forum|OpenTK Forums]].
+  *[[http://www.mc3dviz.com/openinventor-forum/|Visualisation Sciences Group "Open Inventor Forum"]], [[http://www.openinventor.net/|Visualisation Sciences Group "Open Inventor Forum"]].
+  *[[http://www.osghelp.com/|OpenSceneGraph Help (osgHelp)]].
+    *[[http://forum.openscenegraph.org/profile.php?mode=viewprofile&u=2019|OpenSceneGraph Forum]].
+  *[[http://forums.nvidia.com/|NVIDIA Forums]].
+    *[[http://developer.nvidia.com/page/registered_developer_program.html|NVIDIA Registered Developer Application. Registered Developer Program]].
+  *[[http://www.phoronix.com/forums/|Phoronix Forums]] - Subforum "OpenGL, Mesa & Gallium3D".
+  *The read-only closed [[http://www.sharpdx.org/forum|SharpDX Forum]].
+  *[[http://www.sourceforge.net/projects/glfw/discussion/247562|SourceForge "GLFW - Multi-platform library providing OpenGL, windows and input" Forum]].
+  *[[http://forum.winehq.org/|WineHQ Forums]].
+  *[[http://www.xnamag.de/forum/|XNA.mag Forum]].
+    *[[http://www.xnamag.de/forum/index.php?c=10|XNA.mag Forum, Subforum "SlimDX"]].
+
+
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Programming/Graphics/Libraries/OpenGL/|OpenDirectory "Top: World: Computers: Programming: Graphics: Libraries: OpenGL"]].
+  *[[http://www.dmoz.org/Computers/Programming/Libraries/DirectX/|OpenDirectory "Top: World: Computers: Programming: Graphics: Libraries: DirectX"]].
+{{tag>3D "3d graphics framework" "3d api" OpenGL, DirectX}}
+<footnote_navi_en>

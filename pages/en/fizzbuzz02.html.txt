@@ -1,0 +1,27 @@
+====== [hemmerling] Coding Dojo / Coding Kata: How to play Kata FizzBuzz with NUnit ======
+===== 1 Installation and preparation =====
+  -Please install [[http://www.microsoft.com/visualstudio|Microsoft Visual Studio]] 2005 Professional.
+  -Please download and install [[http://www.nunit.org/|NUnit]] V2.
+  -Call WindowsUpdate to update your Windows system. If necessary reboot your Windows.
+  -With Visual Studio, create a C++ console project.
+===== 2 Create a Class =====
+  *Create a file "Fizzbuzz.cpp". 
+<code>
+</code>
+===== 3 Create a Test Class =====
+  -In Visual Studio,... ?
+  -The file "FizzBuzzTest.cpp" respecitvely the class "FizzBuzzTest" is created automatially.<code>
+</code>
+  -If you try to compile and run it, it stops with the error message "?".
+===== 4 Testing and Coding, 2011-10-02 =====
+==== 4.1 The final Test Class ====
+The functions "test01", "test02",.. are previous versions of the function "fizzBuzz", which document the development of the testing and coding process. 
+<code>
+</code>
+==== 4.1 The final Class to be tested ====
+The functions "fizzBuzz01", "fizzBuzz02",.. are previous versions of the function "fizzBuzz", which document the development of the testing and coding process.
+<code>
+
+</code>
+{{tag>JUnit Kata FizzBuzz}}
+<footnote_navi_en>

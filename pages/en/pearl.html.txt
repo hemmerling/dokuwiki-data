@@ -1,0 +1,75 @@
+====== [hemmerling] PEARL - Process and Experiment Automatisation Realtime Language ======
+Related pages:
+  *[[embedded.html|Embedded Systems]].
+  *[[realtime.html|Realtime Operating Systems]].
+===== History and Motivation for this Page =====
+I am interested in PEARL since 1986, and I won the 19.th price in the one and only PEARL programming competition of 1987 (with 19 entries :-)). From 1989 until 1991, I published several articles in the german magazine "PEARL-Mail", published by Leberecht Frevert.
+===== Organizations =====
+  *PEARL-Verein ( - 1991 ).
+    *[[http://www.computerwoche.de/heftarchiv/1991/52/1143631/|ComputerWoche "GI-Fachgruppe ist Ersatz für Pearl-Verein"]], 1991-12-27.
+  *[[http://www.gi-ev.de/|Gesellschaft für Informatik e.V. (GI)]].
+    *[[http://www.real-time.de/|GI-Fachausschuß (FA) Echtzeitsysteme real-time (rt)]].
+    *[[http://www.irt.uni-hannover.de/pearl/pug/pug.html|Arbeitskreis Embedded Systems, RTOS-UH/PEARL
+der GI-Fachgruppe Echtzeitsysteme und PEARL (REAL-TIME)]].
+===== Compilers and Development Systems =====
+==== RTOS-PEARL, PADROS-PEARL =====
+=== RTOS-PEARL ====
+  *Developer: [[http://www.irt.uni-hannover.de/|Institut für Regelungstechnik, Leibniz Universtität Hannover]].
+    *[[http://www.irt.uni-hannover.de/pearl/|Institut für Regelungstechnik, Leibniz Universtität Hannover "PEARL"]].
+    *The realtime operating system [[http://www.irt.uni-hannover.de/rtos/|Institut für Regelungstechnik, Leibniz Universtität Hannover "RTOS-UH"]] - the target (and one of the hosts) for the RTOS-PEARL compiler.
+    *[[http://www.irt.uni-hannover.de/pearl/pearl_li.html|Institut für Regelungstechnik, Leibniz Universtität Hannover "PEARL Literatur"]].
+  *[[http://www.iep.de/|IEP GmbH]] - "Ingenieurbüro für Echtzeitprogrammierung".
+    *[[http://www.iep.de/Hauptebene/Software/pearl.htm|IEP GmbH "Produkte / Software / PEARL 90"]].
+    *[[http://www.iep.de/Hauptebene/Software/rtos-uh.htm|IEP GmbH "RTOS-UH"]].
+    *[[http://www.iep.de/Hauptebene/Software/eva.htm|IEP GmbH "Kostenloses Realtime-Evaluation Kit mit RTOS-UH für den MPC5x5"]].
+  *ATARI-ST Emulator "WinSTon".
+      *[[http://www.atari.st/winston/|WinSTon Official Homepage]], 1998-08-16.
+      *[[http://www.sourceforge.net/projects/winston/|Sourceforge "WinSTon"]], [[http://winston.sourceforge.net/|Sourceforge "WinSTon"]].
+      *[[http://www.irt.uni-hannover.de/rtos/freeware/winston-rtos.html|Institut für Regelungstechnik, Leibniz Universtität Hannover "RTOS-UH Testsystem für PC unter Windows mit dem Atari-Emulator WinSTon"]].
+        *"RTOS-UH Testsystem für WinSTon" - free RTOS-UH implementation, with free RTOS-PEARL compiler integrated on the target.
+        *"RTOS-UH spezifische Einstellungen von WinSTon" - WinSTon configuration tips for use with RTOS-UH.
+=== PADROS-PEARL ====
+  *Developer: [[http://www-rt.uni-paderborn.de/WWW/DEUTSCH/PERSONAL/reissenw.html|Dr.-Ing. Bernd Reißenweber]], [[http://www-rt.uni-paderborn.de/|Universität Paderborn - die Universität der Informationsgesellschaft]]. 
+  *PADROS-PEARL is an implementation of the realtime language PEARL, a derivate of an early version of RTOS-PEARL, running on the realtime operating system PADROS. The target is a legacy 80X86 IBM-AT system. 
+  *The complete development system was available for students, for a special affordable price, in the 1980th and 1990th.
+
+==== WERUM-PEARL =====
+  *[[http://www.werum.de/|Werum Software & Systems AG]].
+    -The legacy compiler WERUM-PEARL, for MSDOS. 
+      *It was available for students at the [[http://www.fh-bielefeld.de/|Fachhochschule Bielefeld]], for a special affordable price, during a short period at the end of the 1980th and early 1990th.
+    -The Shareware PEARL compiler [[ftp://ftp.werum.de/pearl90/|Werum-PEARL 90 for Linux (FTP Download)]]. Free license for use in non-commercial and educational projects.
+      *Releases: 
+          -WERUM-PEARL90 1.04.14 - Current release of 2007-05-21, works best with [[http://de.wikipedia.org/wiki/SuSE|DE.Wikipedia "SuSE"]] Linux 10 ( Kernel 2.6.16.21-08, gcc 4.1.0, glibc-2.4 ), of 2007.
+          -WERUM-PEARL90 V.1-4-4 (ELF file format, GCC 2.7.X), [[ftp://ftp.fh-furtwangen.de/RZ/Pearl90/|FTP Download "WERUM-PEARL90 V.1-4-4"]].
+          -WERUM-PEARL90 V.1-3-16 (A.OUT file format, GCC 2.5.8).
+        *"Leider ist die Nachfrage nach PEARL90 so gering, dass wir die Entscheidung treffen mussten, den kostenfreien Support von PEARL90 einzustellen. Der FTP-Zugang "[[ftp://ftp.werum.de/pearl90]]" wird aber mit dem  jetzigen Stand (2009-10-13) weiterhin zur Verfügung stehen".
+  *[[http://www.fernuni-hagen.de/IT/lehre/k21313.html|FernUni Hagen "Kurs 21313, Realzeitprogrammiersprache PEARL"]].
+
+==== Some other PEARL Implementations =====
+  *The legacy GPP PEARL.
+    *The implementation of the realtime language PEARL by [[http://www.gppm.de/|GPP AG]] ( formerly: "GPP - Gesellschaft für Prozessrechner-Programmierung mbH" ). GPP PEARL was running on the realtime kernel PORTOS on standard 80X86 IBM-AT systems and special 80X86 boards.
+  *The legacy KRUPP-ATLAS PEARL.
+    *[[http://www.computerwoche.de/heftarchiv/1982/46/1184518/|ComputerWoche "Krupp Atlas-Elektronik stellt altbekannte Komponenten zusammen: Neues Leitsystem mit Pearl"]], 1982-11-12.
+    *[[http://www.computerwoche.de/heftarchiv/1978/18/1195783/|ComputerWoche "Krupp Atlas erweitert ERP 1000:Pearl und Pascal für Forschung und Lehre"]], 1978-04-28.
+  *The legacy SIEMENS PEARL, a BASIC PEARL.
+
+===== The OpenSource PEARL-Pool of HEISE Publishing 1986-2000 =====
+  *The PEARL-Pool of [[http://www.heise.de/|Heise Publishing]] is a collection of free ("public domain") software written in the program languages PEARL and PEARL90. It was founded in 1986. Because of historical reasons this collection consists of software written for the computers of the ATARI-ST family and for the C'T-68000 computer, running the realtime operating system RTOS-UH of the University of Hannover. Everybody is called to send in self-written PEARL programs as source code !
+  *By the way, although the software itself is free, it was distributed only on disks commercially available from [[http://www.emedia.de|eMedia]] (the partner company of [[http://www.heise.de/|Heise Publishing]] ). It was not allowed and not expected to upload this software to mailboxes or to distribute it in the Internet.
+  *Everybody who sent in a non-trivial PEARL program as source code (so please don't send the 1001.st version of "hello world"), got in return one of the already published PEARL-Pool disks of his/her own choice, for free.
+  *For disk orders without sending in self-written PEARL programs, you had to consult [[http://www.emedia.de|eMedia]]. Indeed, the commercial offer of PEARL-Pool software is not included anymore in the ads printed in the computer magazine C't, because of lack of sales.
+===== Resources =====
+  *The emeritus **Professor Dr.rer.nat. Leberecht Frevert**, [[http://www.fh-bielefeld.de/|Fachhochschule Bielefeld]] was an expert for the realtime languages PEARL and PEARL90 ( KRUPP-ATLAS PEARL, RTOS-PEARL, WERUM-PEARL and WERUM-PEARL90 ).
+  *[[http://www.little-bat.de/|Günter Woigk]] aka "kio".
+    *[[http://www.little-bat.de/pub/Vintage/Atari ST/RTOS/|Günter Woigk "/pub/Vintage/Atari ST/RTOS/"]].
+    *[[http://k1.dyndns.org/Vintage/Atari%20ST/RTOS/|Günter Woigk "/pub/Vintage/Atari ST/RTOS/"]].
+  *[[http://en.wikipedia.org/wiki/PEARL_%28programming_language%29|EN.Wikipedia "PEARL (programming language)"]], [[http://de.wikipedia.org/wiki/PEARL|DE.Wikipedia "PEARL"]].
+===== Referers to this URL =====
+  *[[http://stommel.tamu.edu/~baum/linuxlist/linuxlist/node37.html|Steven K. Baum - Linux Software Encyclopedia]].
+
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Embedded/|OpenDirectory "Top: Computers: Software: Operating Systems: Embedded"]].
+  *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Realtime/|OpenDirectory "Top: Computers: Software: Operating Systems: Realtime"]].
+  *[[http://www.dmoz.org/Computers/Programming/Languages/|OpenDirectory "Top: Computers: Programming: Languages"]].
+{{tag>"realtime operating system" realtime "operating system" "realtime system"}}
+<footnote_navi_en>

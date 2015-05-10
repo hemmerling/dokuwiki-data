@@ -1,0 +1,117 @@
+====== [hemmerling] Team Software, Collaboration Software, Groupware & Application Lifecycle Management ======
+Related Topics:
+  *[[ci.html|Continuous Integration ( CI ) & Continuous Delivery ( CD )]].
+  *[[pmsoftware.html|Project Management Software & Software to be used in Projects]].
+  *[[sdevtools.html|Software Development Tools]].
+  *[[workflow.html|Workflow Engines]].
+===== Team Tools =====
+==== Atlassian ====
+  *[[http://www.atlassian.com/|Atlassian]] - Affordable [[http://www.atlassian.com/starter/|Atlassian Starter Licenses]].
+    *JIRA & Greenhopper.
+      *The commercial [[http://www.atlassian.com/software/jira/|Atlassian JIRA]] - Bug Tracking, Issue Tracking &amp; Project Management Software. Weak points: no time tracking, no financial project effort estimation. Positive: It can link a project status with a release of the code version control system ( CVS )!
+      *The commercial [[http://www.atlassian.com/software/greenhopper/|Atlassian Greenhopper]] - Agile project management tool for JIRA. Weak point: Does not know german bank holidays, which is necessary for time estimation & time tracking.
+    *The commercial [[http://www.atlassian.com/software/confluence/|Atlassian Confluence]] - Wiki.
+      *[[http://www.wikimatrix.org/forum/|Wikimatrix Forum]]: [[http://www.wikimatrix.org/forum/f26-confluence|Confluence]].
+    *The commercial [[http://www.atlassian.com/software/bamboo/|Atlassian Bamboo]] - Continuous integration (CI).
+    *The commercial [[http://www.atlassian.com/software/fisheye/|Atlassian Fisheye]] - Source code repository / CVS.
+    *The commercial [[http://www.atlassian.com/software/crowd/|Atlassian Crowd]] - Single Sign-On (SSO) and Identity Management.
+==== Cerberus Helpdesk ( Cerb ) ====
+  *The OpenSource platform & commercial online service [[http://www.cerberusweb.com/|Cerberus Helpdesk ( Cerb )]] - "A fast and flexible web-based platform for business collaboration and automation".
+  *[[http://www.cerberusweb.com/help|Cerberus Helpdesk ( Cerb ) - Help]] - Link to all resources:-).
+  *Online manual [[http://cerberusweb.com/book/latest/|Cerberus Helpdesk ( Cerb ) - Cerb6 Manual]].
+  *Wiki [[http://wiki.cerb5.com/|Cerberus Helpdesk Wiki]].
+==== Collanos Workplace ====
+  *[[http://www.collanos.com/|Collanos Workplace]] - free team collaboration tool for Windows, Linux and MacOSX.
+==== Collaborative Virtual Workspace (CVW) ====
+  *[[http://cvw.sourceforge.net/|Sourceforge "CVW"]], [[http://www.sourceforge.net/projects/cvw/|Sourceforge "CVW"]] - "The Collaborative Virtual Workspace is a software environment that provides a "virtual building" where teams can communicate, collaborate, and share information, regardless of their geographic location".
+==== CommSy ( Community System ) ====
+  *[[http://www.commsy.net/|CommSy ( Community System )]] - "Ein webbasiertes System zur Unterstützung von vernetzter Projektarbeit".
+==== GROUP-E ====
+  *The OpenSource [[http://www.group-e.info/|GROUP-E Collaboration Software]] by [[http://www.endo7.com/|endo7 gmbh]], Bolzano/Italy - "Open Source Groupware mit Projektmanagement, CRM und Filezugriff".
+    *But as of 2011-03, there is still no capacity planning for projects ( i.e. no GANTT plan ).
+==== IBM Rational Jazz Technology Platform ====
+  *[[http://www.ibm.com/software/rational/jazz/|IBM Rational Jazz technology platform]] - "Jazz is not a product. Product offerings that are built on the Jazz platform can leverage a rich set of capabilities for team-based software development and delivery".
+  *[[http://www.jazz.net/|Jazz Comunity Site]].
+    *[[https://jazz.net/development/sandbox/|Jazz Comunity Site "Sandbox"]] with
+    *[[http://www.ibm.com/software/rational/products/rtc/|IBM Rational Team Concert]].
+    *[[http://www.ibm.com/software/rational/products/rqm/|IBM Rational Quality Manager]].
+    *[[http://www.ibm.com/software/awdtools/rrc/|IBM Rational Requirements Composer]].
+  *For education, you may use a cloud hosted edition of the [[http://www.jazz.net/|Jazz Comunity Site]] for up to 6 month with a free account at [[http://jazz.net/development/sandbox/|Jazz Comunity Site "Sandbox"]]. No installation, just use your Internet browser to access the application. Additionally, there is a read-only sample project "Money that Matters".
+==== metacoon ====
+  *[[http://www.metacoon.net/|metacoon]] - "A flexible Open Source framework that can easily be adapted for many different applications and processes. It forms the basis of the metacoon product suite for [[http://www.metaventis.com/mcportal/web/metacoon/metastudy|learning management]], [[http://metaventis.com/mcportal/web/metacoon/metaknow|knowledge management]], alumni portals, career services, [[http://metaventis.com/mcportal/web/metacoon/metaproject|project management]] and [[http://metaventis.com/mcportal/web/metacoon/metaauthoring|authoring]]".
+  *[[http://www.metaventis.com/|metaVentis GmbH]].
+    *[[http://www.metaventis.com/mcportal/web/metacoon/|metaVentis GmbH "metacoon"]].
+      *[[http://www.metaventis.com/mcportal/web/metacoon/metastudy|metaVentis GmbH "metastudy - the virtual environment for your educational projects"]].
+      *[[http://metaventis.com/mcportal/web/metacoon/metaproject|metaVentis GmbH "metaproject - the metacoon solution for project organisation"]].
+      *[[http://metaventis.com/mcportal/web/metacoon/metaknow|metaVentis GmbH "metaknow - pool knowledge, use skills, knowledge management with metacoon"]].
+      *[[http://metaventis.com/mcportal/web/metacoon/metaauthoring|metaVentis GmbH "metaauthoring Onyx - exercises and tests in no time"]].
+  *[[http://en.wikipedia.org/wiki/Metacoon|EN.Wikipedia "Metacoon"]], [[http://de.wikipedia.org/wiki/Metacoon|DE.Wikipedia "Metacoon"]].
+
+==== Oracle Team Productivity Center ( Oracle TPC, OTPC ) ====
+  *See [[java.html|Java & Java Platform Languages]].
+==== UNICASE ====
+  *The OpenSource [[http://teambruegge.informatik.tu-muenchen.de/groups/unicase/|TU München "UNICASE"]].
+    *"CASE-Tool integrating models from the different development acitivities, such as requirements, use cases, UML models, schedules, bug and feature models into a unified model. This unified model is highly traceable by design".
+    *"We recommend to download the 'Eclipse Modeling Tools' Edition from the Eclipse download site since it already contains all plugins UNICASE requires".
+    *Eclipse-based client.
+    *Server.
+==== WiserPlatform ====
+  *[[http://wiserplatform.sourceforge.net/|Sourceforge "WiserPlatform"]], [[http://www.sourceforge.net/projects/wiserplatform/|Sourceforge "WiserPlatform"]] - "PHP5, MySQL 4+ web application written with Symfony. It can be used to create web sites that manage complex relationships between different entity types. It includes built-in social networking and groupware functionality".
+  *[[http://www.wiserearth.org/|WiserEarth]] - Online Service, running on "WiserPlatform".
+  *[[http://www.symfony-project.org/|symfony 1]], [[http://www.symfony.com/|symfony 2]].
+  *[[http://en.wikipedia.org/wiki/Symfony|EN.Wikipedia "Symfony"]], [[http://en.wikipedia.org/wiki/Symfony|EN.Wikipedia "symfony"]].
+==== Zimbra Collaboration Server, Open Source Edition ====
+  *[[http://www.zimbra.com/products/zimbra-open-source.html|Zimbra Collaboration Server, Open Source Edition]] - "The most capable open source email and collaboration suite available today. Far outstripping what is possible with simple open source mail servers, Zimbra provides organizations major productivity boosts with global address lists, shared calendars and document management on the web or offline with Zimbra Desktop."
+===== Online Collaboration Services =====
+==== Commercial Online Collaboration Services ====
+  *The commercial online service [[http://www.aceproject.com/|AceProject Basic]] - free account with 5 projects, 5 users, 50 tasks, 50 time sheets (?), 2 Mb in file attachments (?).
+  *The commercial online service [[http://www.asana.com/|Asana]], [[http://asana.com/product|Asana "Products" ( Entry page to the company website )]] - "Team tasks & conversations. Email is holding your team back. Get organized with Asana". Free teams are limited to 3 project cards.
+    *[[http://www.twitter.com/asana|Twitter "Asana, @asana"]].
+    *[[http://en.wikipedia.org/wiki/Asana_%28software%29|EN.Wikipedia "Asana (software)"]].
+  *The commercial online service [[http://www.basecamphq.com/|Basecamp "free plan"]] - free account with 1 project, no file sharing.
+  *The commercial online service [[http://www.bitrix24.net/|Bitrix24]] - free account for up to 4 people ( "Sofortnachrichten, Gruppenchat, Anrufe und Videoanrufe, Videokonferenzen für bis zu 4 Personen - dass alles steht Ihnen absolut kostenlos zur Verfügung" ).
+    *[[http://www.twitter.com/bitrix24de/|Twitter "Bitrix24.de, @Bitrix24De"]].
+  *The commercial service [[http://campfirenow.com/|37signals Campfire]] - "Team collaboration with real time chat", "Business group chat, file sharing, group decision making".
+  *The commercial service [[http://www.daptiv.com/|Daptiv]].
+  *The commercial service [[http://www.grovesite.com/|GroveSite - Web Collaboration Made Easy]].
+  *The commercial service [[http://www.infowit.com/|Infowit]].
+  *The commercial service [[http://quickbase.intuit.com/|Intuit Quickbase - Online Project Management]].
+  *The commercial service [[http://www.onedesk.com/|OneDesk]] - "Start managing customer feedback, requirements, and project tasks". Free basic account.
+  *The commercial service [[http://www.rallydev.com/agile_products/lifecycle_management/|Rally’s Agile Tools for Application Lifecycle Management]].
+    *[[http://www.rallydev.com/agile_products/editions/community/|Rally Community Edition]] - free account with up to 10 Users, 1 project".
+  *The commercial service [[http://www.serena.com/products/agile-software/|Serena Serena Agile on demand]] - free account with up to 5 users.
+  *The commercial service [[http://workity.simprove.de/|Simprove GmbH "Simprove Workity"]] - "The web-based collaboration solution for personal information management and distributed teams, dealing with multiple projects including all tasks, notes and files". Free basic account ( - 2011-12-22 ).
+  *The commercial service [[http://www.teamworklive.com/|TeamWork Live]].
+  *The commercial service [[http://www.weboffice.com/|Weboffice]].
+  *The commercial service [[http://www.workspace.com/|Workspace.com]] - "Whether you're looking for project management help, requirements management software, or other tools, with workspace.com you can choose what you need for your personalized workspace".
+  *The commercial [[http://www.wrike.com/|Wrike]], [[https://www.wrike.com/tour/|Wrike "Tour" ( Entry page to the company website )]] - "Get started, Outcollaborate, Work smart, Accelerate". Free account with 5 users.
+    *[[http://try.wrike.com/wrike-vs-asana/|Wrike "Why Wrike Beats All Competitors. Full-featured and user-friendly
+alternative to Asana"]].
+==== Free Online Collaboration Services ====
+  *[[http://www.dynamicalsoftware.com/ccm/beta|Dynamical Software, Inc. "Conversational Content Management"]].
+  *[[http://www.producteev.com/|Producteev by Jive]] - "Task Management Software for Teams", "With Producteev, it’s entirely free to invite and collaborate with as many people as you want!".
+    *The user-specific personal [[http://www.producteev.com/workspace/|Producteev Workspace]].
+    *[[http://www.twitter.com/producteev|Twitter "Producteev, @producteev"]].
+  *[[http://www.trello.com/|Trello - Organize anything, together]] 
+    *"A collaboration tool that organizes your projects into boards. In one glance, Trello tells you what's being worked on, who's working on what, and where something is in a process". 
+    *Trello might be used to setup and operate projects with 'IT Kanban' approach :-).
+===== Forums, Newsgroups, Communities =====
+  *[[http://www.bitrix24.de/support/forum/|Bitrix24.de Community]], [[http://www.bitrix24.com/support/forum/|Bitrix24.com Community]].
+  *[[http://forums.cerberusweb.com/|Cerberus Helpdesk Forums]].
+  *Facebook.
+    *[[http://www.facebook.com/asana|Facebook "Asana"]].
+    *[[http://www.facebook.com/bitrix24de/|Facebook "Bitrix24 - Social Intranet für Startups und kleine Unternehmen"]].
+    *[[http://www.facebook.com/cerb5|Facebook "Cerberus Helpdesk 5.x (Cerb5)"]].
+    *Producteev.
+      *[[http://www.facebook.com/producteev|Facebook "Producteev.com"]] - "Since we are now part of the Jive Software team, we are going to stop posting on this account. See you on the Jive Software stream" ( 2014-09-23 ).
+      *[[http://www.facebook.com/fans.of.jive|Facebook "Jive Software"]]
+  *GROUP-E.
+    *[[http://forum.group-e.info/|GROUP-E Forum]].
+    *[[http://wiki.group-e.info/|GROUP-E Wiki]].
+  *[[http://jazz.net/forums/|Jazz Comunity Site - Forum]].
+===== Resources =====
+  *[[http://en.wikipedia.org/wiki/Application_lifecycle_management|EN.Wikipedia "Application lifecycle management"]], [[http://de.wikipedia.org/wiki/Application_Management|DE.Wikipedia "Application Management"]].
+  *[[http://en.wikipedia.org/wiki/List_of_collaborative_software|EN.Wikipedia "List of collaborative software"]].
+  *See also [[revision.html|Revision Control Systems (RCS), Source Code Version Control Systems ( SCVCS, VCS, CVS ), Software Configuration Management (SCM )]].
+{{tag>"team software" team "collaboration software" collaboration groupware "application lifecycle management" alm}}
+<footnote_navi_en>

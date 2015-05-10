@@ -1,0 +1,395 @@
+====== [hemmerling] Moodle ======
+Related pages:
+  *[[cms.html|Content Management Systems ( CMS )]].
+  *[[elearning.html|e-Learning & Blended Learning]].
+===== Tools =====
+==== The Platform ====
+  *The OpenSource [[http://www.moodle.org/|moodle.org]], [[http://moodle.sourceforge.net/|SourceForge "Moodle"]], [[http://www.sourceforge.net/projects/moodle/|SourceForge "Moodle"]].
+    *[[http://download.moodle.org/|Moodle Downloads]], with exact informations about required versions of Apache, PHP, MySQL :-).
+    *[[http://www.moodle.org/plugins/|Moodle Plugins Directory]].
+    *[[http://moodle.org/mod/data/view.php?d=13|Moodle - Old modules and plugins]].
+    *[[http://tracker.moodle.org/|Moodle Tracker]] - "System Dashboard" for Moodle developers and testers / testing users.
+      *[[http://confluence.atlassian.com/display/BONFIRE/Getting+Bonfire+for+your+browser|Atlassian Bonfire Documentation "Getting Bonfire for your browser"]].
+  *[[http://demo.moodle.net/|moodle.net "Moodle Demonstration Site..."]].
+    *[[http://demo.moodle.net/course/view.php?id=598|moodle.net "Moodle Demo-Kurs"]].
+  *[[http://hub.moodle.org/|Moodle.org Open Community Hub]] ( MOOCH ).
+  *[[http://moodle.de/|moodle.de]] - "Informationen zur Lernplattform".
+==== Commercial Distributions ====
+  *The commercial Moodle distribution [[http://www.totaralms.com/|Totara LMS]].
+==== Moodle Add-On for Administration & Reporting ====
+  *The OpenSource [[http://www.github.com/remotelearner|GitHub "remotelearner (Remote-Learner)"]].
+    *[[http://www.github.com/remotelearner/elis.base/blob/master/README.mkd|GitHub "elis.base / README.mkd"]].
+    *[[http://moodle.org/mod/data/view.php?d=13&rid=4894|Moodle "Package: Remote-Learner's Enterprise Learning Intelligence System (ELIS(TM)) for Moodle - Community Version Code"]].
+    *[[http://www.alfresco.com/|Alfresco]].
+    *[[http://www.remote-learner.net/|Remote-Learner - Integrated Open Source Learning Services]].
+      *[[http://www.remote-learner.net/elis|Remote-Learner - Integrated Open Source Learning Services "Remote-Learner’s Enterprise Learning Intelligence System for Moodle"]] ( ELIS ).
+      *[[http://rlcommunity.remote-learner.net/|Remote-Learner - Integrated Open Source Learning Services "Remote-Learner's Enterprise Learning Intelligence System for Moodle"]].
+==== Moodle on Windows ====
+=== Distributions ===
+  *[[http://download.moodle.org/windows/|Moodle packages for Windows]].
+  *Moodle 1.9 runs on Apache 2.0, e.g. on the current [[http://typo3winstaller.sourceforge.net/|TypoInstaller]] system for Windows. 
+  *The Windows installation of Moodle 2.0.8+ ( using [[http://www.apachefriends.org/|XAMPP]] v1.7.1, shipped with Apache 2.2.11, PHP 5.2.9, MySQL 5.1.33) is the latest edition for W2k. Moodle 2.0.8+ requies PHP 5.2.8 and MySQL 5.0.25.
+  *Moodle 2.2.2+ requires PHP 5.3.2, MySQL 5.0.25. The Windows installation of Moodle 2.2.2+ ( using [[http://www.apachefriends.org/|XAMPP]] v1.7.4, shipped with Apache 2.2.17, PHP 5.3.5 (VC6 X86 32bit) + PEAR, MySQL 5.5.8 ). This MySQL edition does not run on W2k, but just on WinXP :-(. On W2k, MySQL 5.5.8 crashes at start, by the error message:
+
+//mysqld.exe - Entry Point Not Found. The procedure entry point MiniDumpWriteDump couldnot be located in th dynamic link library dbghelp.dll//
+
+  *XAMP 1.7.3 ( [[http://xampp.sourceforge.net/projects/|SourceForge "XAMPP"]], [[http://www.sourceforge.net/projects/xampp/|SourceForge "XAMPP"]] ), the latest version for W2k, is shipped with PHP 5.3.1 ( not sufficient for Moodle 2.2.2+ :-( ) and MySQL 5.1.41.
+  *Official Beta versions ( e.g. "Moodle 2.3 Beta" ) require PHPUnit ( [[http://www.phpunit.de/|PHPUnit]], [[http://www.github.com/sebastianbergmann/phpunit/|Github "sebastianbergmann / phpunit"]], [[http://phpunit.sourceforge.net/|SourceForge "PhpUnit"]], [[http://www.sourceforge.net/projects/phpunit|SourceForge "PhpUnit"]], [[http://www.phpunit.de/manual/current/en/|PHPUnit Manual]] ) to be installed.
+=== Moodle 2.2.2+ on W2k ===
+== Installation Instructions ==
+  -Download the .zip archive of "Moodle 2.2.2+" from [[http://download.moodle.org/windows/|Moodle packages for Windows]].
+  -Install the .zip archive of "Moodle 2.2.2+, e.g. at "C:\Program Files\moodle".
+  -Download "XAMP 1.7.3" from SourceForge ( [[http://xampp.sourceforge.net/projects/|SourceForge "XAMPP"]], [[http://www.sourceforge.net/projects/xampp/|SourceForge "XAMPP"]] ) and install it in a temporary directory, e.g. at "c:\temp".
+  -Delete the MySQL binary directory of your "Moodle 2.2.2+" installation, e.g. "C:\Program Files\moodle\server\mysql\bin".
+  -Copy the the MySQL binary directory of your "XAMP 1.7.3" to your "Moodle 2.2.2+ installation, e.g. copy "c:\temp\xampp\mysql\bin" to "c:\Program Files\moodle\server\mysql\bin". 
+  -Execute the XAMPP setup script, e.g. "c:\Program Files\moodle\server\setup_xampp.bat".
+  -Start moodle by executing the Moodle start application, e.g. ""c:\Program Files\moodle\Start Moodle.exe".
+== Result - A working Moodle 2.2.2+ ==
+  *Moodle 2.2.2+ requires PHP 5.3.2, MySQL 5.0.25.
+  *The patched installation features PHP 5.3.5, MySQL 5.1.41. 
+== Conclusion ==
+  *This patch process might work for future versions of Moodle :-), as long as Moodle does not require newer versions of MySQL than MySQL 5.1.41 :-(. 
+===== Using Moodle =====
+==== The first Steps for Installation of a public Moodle 2.x Service at MDL.COM ====
+  -Login, go to "Settings / Site administration / Plugins / Enrolments / Manage enrol plugins", disable the options "Self enrolment" and "Guest Login", by clicking on the "eye" symbol. Enable the option "Course meta link", by clicking on the "eye" symbol.
+  -Prevent search engines to crawl your site, by unchecking the option "Open to Google, opentogoogle" ( i.e. "[ ]" ) at "Settings / Site Administration / Security / Site policies". 
+  -Force login by checking the option "Force users to login, forcelogin" ( i.e. "[x]" ) at "Settings / Site Administration / Security / Site policies". 
+  -Change your the password of your user "admin" at "Settings / My profile settings / Change password".
+  -Install a button with a link to the imprint and a link to the data privacy statement, on each page: Go to "Settings / Site Administration / Appearance / Theme settings". If you use the standard template, set a button at "Custom menu items, custommenuitems" which loads the address ( URL ) of your imprint and to the data privacy statement.
+  -Create courses.
+  -How to create an anonymous guest login for an existing course.
+    -Uncheck the option "Force users to login, forcelogin" ( i.e. "[ ]" ) at "Settings / Site Administration / Security / Site policies".
+    -Set "Auto-login guests, autologinguests" to "Yes" at "Settings / Site administration / Users / Permissions", so that visitors are logged in as guests automatically when entering courses with guest access. This is the one-and-only switch to allow or deny access for anonymous users!
+    -Enter the course to enable guest access.
+      -Add the method "Guest access" at "Settings / Course administration / Users / Enrolment methods".
+      -Set "Allow guest access" to "Yes" at "Settings / Course administration / Edit settings / Guest access", and provide a password.
+==== Informations that I processed during the Creation of my first Moodle Course ====
+=== Login ===
+  *[[http://localhost/|"Moodle" ( localhost )]].
+  *[[http://localhost/my/|"My Moodle" ( localhost )]].
+  *[[http://hemmerling.mdl2.com/|hemmerling.mdl2.com]].
+=== Resources ===
+  *[[http://docs.moodle.org/|MoodleDocs]].
+  *[[http://www.moodle.org/public/search/|MoodleDocs - Search Engine]].
+  *[[http://www.installationwiki.org/Moodle|InstallationWiki.org "Moodle"]].
+=== Data & Multimedia Resources ===
+  *[[http://commons.wikimedia.org/|Wikimedia Commons]].
+  *[[http://docs.moodle.org/20/de/Datenbank|MoodleDocs "Datenbank"]].
+=== Individual Learning Path ====
+  *[[http://docs.moodle.org/22/en/Lesson_module|MoodleDocs "Lesson module"]], [[http://docs.moodle.org/20/de/Lektion|MoodleDocs "Lektion"]].
+=== Installation ===
+  *[[http://docs.moodle.org/en/Installing_Moodle|MoodleDocs "Installing Moodle"]].
+  *[[http://docs.moodle.org/en/Upgrading|MoodleDocs "Upgrading"]].
+  *[[http://docs.moodle.org/22/en/My_Moodle|MoodleDocs "My Moodle"]].
+=== Documentation ===
+  *[[http://docs.moodle.org/de/Moodle-Kurs_verwalten|MoodleDocs "Moodle-Kurs verwalten"]].
+  *<del>[[http://docs.moodle.org/20/de/SCORM-Format|MoodleDocs "SCORM-Format"]]</del>.
+  *<del>[[http://docs.moodle.org/22/en/IMS_content_package|MoodleDocs "IMS content package"]]</del>.
+  *[[http://docs.moodle.org/22/en/Workshop_module|MoodleDocs "Workshop module"]] - "Workshop is similar to the [[http://docs.moodle.org/22/en/Assignment_module|Assignment module]] and extends its functionality in many ways. However, it is recommended that both course facilitator (teacher) and course participants (students) have at least some experience with the [[http://docs.moodle.org/22/en/Assignment_module|Assignment module]] before the Workshop is used in the course".
+  *[[http://docs.moodle.org/20/de/Umfrage|MoodleDocs "Umfrage"]].
+  *[[http://docs.moodle.org/20/en/error/moodle/nostatstodisplay|MoodleDocs "error/moodle/nostatstodisplay"]].
+  *[[http://docs.moodle.org/20/de/Kalender|MoodleDocs "Kalender"]].
+  *[[http://docs.moodle.org/22/en/Metacourse|MoodleDocs 2.2 "Metacourse"]], <del>[[http://docs.moodle.org/19/en/Metacourse|MoodleDocs 1.9 "Metacourse"]]</del>.
+    *[[http://docs.moodle.org/22/en/Course_meta_link|MoodleDocs 2.2 "Course meta link"]], [[http://docs.moodle.org/20/de/Meta-Einschreibung|MoodleDocs 2.2 "Meta-Einschreibung"]] - "The Course meta link plugin needs to be enabled by the site admin in [[http://docs.moodle.org/22/en/Enrolment_plugins|MoodleDocs 2.2 "Enrolment plugins"]] and has to be enabled within the course".
+    *[[http://docs.moodle.org/22/en/Metacourse_examples_of_use|MoodleDocs 2.2 "Metacourse examples of use"]].
+  *[[http://moodle.org/mod/forum/discuss.php?d=200151#p873034|Moodle Forum "Wie binde ich Moodle 2.x Meta-Kurse richtig in den Kurs-Workflow ein ?"]], 2012-04-09.
+  *[[http://moodle.org/mod/forum/discuss.php?d=200213#p873423|Moodle Forum "Wo+wie integriert Ihr das (in Deutschland ja notwendige) Impressum, bei im Internet sichtbaren Moodle-Instanzen ?"]], 2012-04-10.
+  *[[http://docs.moodle.org/22/en/Enrolment_methods|MoodleDocs "Enrolment methods"]].
+  *[[http://docs.moodle.org/22/en/Site_policies|MoodleDocs "Site policies"]].
+  *[[http://docs.moodle.org/22/en/Guest_access|MoodleDocs "Guest access"]].
+  *[[http://docs.moodle.org/22/en/Guest_role|MoodleDocs "Guest role"]].
+  *[[http://www.umn.edu/moodle/instructor/guides/access_settings.html|University of Minnesota "Access setting to the course sites"]] for Moodle 1.9 and Moodle 2.x.
+==== Installation ====
+  *Eventually, for full operation, Moodle needs access to a mail server, to communicate by E-Mails for registration of users, and to provide copies of forum discussios. A simple E-Mail account at another E-Mail provider is not sufficient ?! This is a problem on Windows where there is no built-in free E-Mail server, and another problem if your E-Mail server needs another "open" public E-Mail server, which must trust your server that it is not driven by a commercial spammer.
+  *Moodle 2.2.2+ does not work properly with the browser MSIE9, as you can´t switch features on/off by clicking on the "eye" graphics.
+  *On all platforms: You might encounter a limit in the size of uploadable documents, e.g. 8 MB. The 8 MB limit might also apply to the backup of courses :-(. If so, please ask experts for advice. You have to fix it in the PHP configuration of Apache.
+  *Some functions of Moodle are of minor quality - Moodle is not the #1 chat tool, the #1 wiki in the world,... ect. Especially be warned that if you activate chat in Moodle: Just 50 concurrently chatting users are enough to decrease the performance of the system and increase the response time of the server very much :-(, to become inacceptable both from administration's and user's view.
+==== Accounts ====
+  *Administrator is by default "admin".
+  *Passwort requirements for Moodle:
+    *Passwords must be at least 8 characters long.
+    *Passwords must have at least 1 upper case letter(s).
+    *Passwords must have at least 1 non-alphanumeric character(s).
+  *Data is stored by default in the MySQL database "moodle", by database user "root", database table prefix "mdl_", no database password set :-).
+==== Activation of the PHP extension cURL ====
+  *Moodle 2.2.2+ requires the PHP extension "cURL".
+    *[[http://www.apachefriends.org/f/viewtopic.php?p=166940|Apache Friends Support Forum "PHP Extension cURL"]]
+      -Search for the file "php.ini".
+      -Search for "extension=php_curl.dll" in that file.
+      -Delete the ";" at the start of the line.
+      -Restart Apache.
+==== Imprint & Data Privacy Statement ====
+=== Installation of a Link ( or Button with a Link ) to the Imprint, on each Page ===
+  *Be shure that on your Moodle installation is accessable in the Internet, there is an imprint ( contact information ) both quickly to find on your title page, and on any other Moodle page ( e.g. a link "imprint" which links to a web page with all the necessary imprint informatins like name of the service provider ( sirname ), address, telephone number, E-Mail address ).
+  *At "Site Administration / Appearance / Theme settings". 
+    *Standard template: At "Custom menu items, custommenuitems", you can set a Button which loads another web address ( URL ). This might contain the proper imprint informations.
+    *Some other templates have a "footnote" section which can be filled with individual data, like a link to the imprint.
+=== Data Privacy Statement ===
+  *[[http://www.moodle.de/mod/resource/view.php?id=1743|Moodle.DE - Datenschutzerklärung]].
+  *[[http://lehrerfortbildung-bw.de/moodle-info/admin/belwue/datenschutz.htm|Landesakademie für Fortbildung und Personalentwicklung an Schulen, LehrerInnen Fortbildungs-Server "Datenschutzerklärung einbinden"]].
+===== Tests & Questionaire =====
+==== Tools ====
+  *The free [[http://hotpot.uvic.ca/|Hot Potatoes]] - "The Hot Potatoes suite includes six applications, enabling you to create interactive multiple-choice, short-answer, jumbled-sentence, crossword, matching/ordering and gap-fill exercises for the World Wide Web".
+    *Editions:
+      *Hot Potatoes, Java edition 6.1.
+      *Hot Potatoes, Windows edition 6.3.
+    *Tests:
+      *JQuiz- Quizfragen.
+      *JCloze - Lückentext.
+      *JMatch - Zuordnungsübung.
+      *JMix - Schüttelsatz.
+      *JCross - Kreuzworträtsel.
+      *Masher - Zusammenstellung von Übungseinheiten.
+==== QTI ====
+  *See [[cms.html|Content Management Systems ( CMS )]].
+==== Test Resources ====
+  *[[http://imb.donau-uni.ac.at/etutorials/index.php5/Fragetypen_f%C3%BCr_Tests_auf_Moodle|Donau-Universität, IMB eTutorials "Fragetypen für Tests auf Moodle"]].
+  *[[http://www.lehrerfortbildung-bw.de/moodle-info/module/moodle16/lernaktivitaeten/hotpot/|Landesakademie für Fortbildung und Personalentwicklung an Schulen, Lehrerinnen-Forbildungs-Server - Moodle 1.6, "Modul Hot Potatoe Test"]].
+  *[[http://docs.moodle.org/22/en/Questions|moodle.org, Moodle 2.2, "Questions"]] -  "Questions can be created in Moodle for use in [[http://docs.moodle.org/22/en/Quiz_module|quizzes]] and for import into lessons".
+  *[[http://docs.moodle.org/22/en/Quiz_module|moodle.org, Moodle 2.2 "Quiz module"]].
+  *[[http://docs.moodle.org/22/en/Questionnaire_module|moodle.org, Moodle 2.2 "Questionnaire module"]].
+  *[[http://docs.moodle.org/20/de/Test|moodle.org, Moodle 2.0 "Test"]].
+  *[[http://docs.moodle.org/19/de/Frageseite_einf%C3%BCgen|moodle.org, Moodle 1.9 "Frageseite einfügen"]].
+  *MoodleMoot.
+    *[[http://moodlemoot.moodle.de/pluginfile.php/2550/mod_resource/content/0/Folien/Fragetypen_GPL_v1.1.pdf|Moodle-AG der Beruflichen Schule des Kreises Pinneberg in Elmshorn, R. Nitzsche "Fragetypen in moodle-Tests"]] ( PDF ), 2009-09-19.
+    *[[http://moodlemoot.moodle.de/course/view.php?id=69|Moot2010 - Doku]].
+      *6 Tests & Prüfungen".
+        *[[http://moodlemoot.moodle.de/mod/page/view.php?id=1066|Moot2010 - Doku "Michael Tesar, Gerd Holweg: e-Prüfungen in Moodle. Vorteile, Nachteile, Erfahrungen und Motive"]].
+  *[[http://etools.fernuni.ch/moodle/|Moodle Tutorial. Einführungskurs für die Lernplatform Moodle V1.9]].
+    *[[http://etools.fernuni.ch/moodle/moodle6/de/html/test_learningObject3.html|Moodle Tutorial. Einführungskurs für die Lernplatform Moodle V1.9 - "Modul 6: Tests & Aufgaben"]].
+  *[[http://www.edumoodle.at|Österreichisches Bildungsministerium - eduMoodle.at]].
+    *[[http://www4.edumoodle.at/lmsphdl/|Österreichisches Bildungsministerium - eduMoodle.at, Lernmanagementsystem PHDL]].
+    *[[http://www4.edumoodle.at/lmsphdl/file.php/1/unterlagen/skripten/TestfragetypenInMoodle.pdf|Österreichisches Bildungsministerium - eduMoodle.at, E-Learning mit Moodle "Fragetypen in Moodle. Eine Schritt-für-Schritt Anleitung zum Moodeln"]].
+  *[[http://www.uni-due.de/e-competence/hotpot.shtml|Universität Duisburg-Essen "Moodle: Hot Potatoe Test. Wie kann ich einen Hot Potatoe Test erstellen?"]].
+  *YouTube.
+    *[[http://www.youtube.com/watch?v=BUwDdxqxZ4g|YouTube "Using hot potatoes with moodle"]].
+    *[[http://www.youtube.com/watch?v=NzfNpOd5W8U|YouTube "A three minute HotPotato in your Moodle"]].
+
+===== German Books =====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/B003TSWAL2/hemmerling-21|Markus Englisch, Josef Schwickert Jürgen Benner: "Moodle kompakt Schneller und effizienter Einstieg in die Praxis"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN//3827323320/hemmerling-21|Fredi Gertsch: "Das Moodle-Praxisbuch. Online-Lernumgebungen einrichten, anbieten und verwalten. Mit Moodle auf CD (für Installation und Live-Betrieb direkt von CD)"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3540463712/hemmerling-21|Tobias Hauser, Christian Wenz: "Moodle 2.0: E-Learning mit dem Open-Source-Lernsystem"]].
+  *Ralf Hilgenstock.
+    *[[http://eledia.de/|eLeDia - eLearning im Dialog]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3927298077/hemmerling-21|Ralf Hilgenstock, André Krüger, Urs Hunkler: "Gemeinsam online lernen mit moodle - Handbuch zur Installation und Administration"]].
+    *Video training [[http://www.amazon.de/exec/obidos/ASIN/3827363713/hemmerling-21|Ralf Hilgenstock: "Moodle 2.0 - Video-Training (PC+MAC+Linux+iPad)"]], [[http://www.addison-wesley.de/9783827363718.html|Ralf Hilgenstock: "Moodle 2.0 - Video-Training"]].
+    *[[http://www.video2brain.com/de/trainer-57.htm#/gratis-videos-von-ralf-hilgenstock?c=2|video2brain - Ralf Hilgenstock, Moodle-Experte "Gratis-Videos von Ralf Hilgenstock"]].
+    *Blog [[http://www.dialoge.info/|Moodle-Blog]].
+    *[[http://twitter.com/ralfh|Twitter "ralfh"]]".
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3639209915/hemmerling-21|Werner Hinterer: "Wie kann ich Moodle erfolgreich im Unterricht einsetzen?: Ein Handbuch zur Gestaltung von Online-Kursen in E-Learning-Plattformen"]] -> FHH, nicht TIB.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3941841025/hemmerling-21|Kay Hoeksema, Markus Kuhn: "Unterrichten mit Moodle 2. Praktische Einführung in das E-Teaching"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3940317772/hemmerling-21|Ulrike Höbarth: "Konstruktivistisches Lernen mit Moodle: Praktische Einsatzmöglichkeiten in Bildungsinstitutionen"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3927298166/hemmerling-21|Christoph Scheb, Ralf Hilgenstock: "Moodle einführen: Praxisratgeber für die Moodle-Einführung in Unternehmen"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3836458241/hemmerling-21|Frank Spieß: "Zum Bildungsbedarf für Datensicherheit: Konzeption und Entwicklung einer Lernumgebung mit Moodle und Flash"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3940317926/hemmerling-21|Thomas Strasser: "Moodle im Fremdsprachenunterricht: Blended Learning als innovativer didaktischer Ansatz oder pädagogische Eintagsfliege?"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/382732744X/hemmerling-21|Carsten Wiegrefe: "Das Moodle 2-Praxisbuch - Gemeinsam online lernen in Hochschule, Schule und Unternehmen"]] #.
+
+===== English Books =====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1849516049/hemmerling-21|Alex Büchner: "Moodle 2 Administration"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/059652918X/hemmerling-21|Jason Cole, Helen Foster: "Using Moodle"]].
+  *William Rice.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1849515263/hemmerling-21|William Rice: "Moodle 2.0 E-Learning Course Development"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3836458241/184719284X|William Rice: "Moodle Teaching Techniques "]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1849514828/hemmerling-21|Ian Wild: "Moodle 2.0 Course Conversion"]].
+===== Freely accessible Moodle Applications =====
+==== Tryout ====
+  *[[http://demo.moodle.net/|Moodle.NET "Moodle Demonstration Site"]] - "Here are some demo accounts for you to use. The database and files are erased and restored to a clean state every hour on the hour", "Also please note that you might not be the only person using one of the demo accounts at the same time, so you may see unexpected things happen occasionally".
+  *[[http://test.moodle.de/|Moodle.DE Testplattform]] - "Nutzen Sie die Möglichkeit, das Lernmanagementsystem Moodle live zu testen. Diese Plattform erlaubt es Ihnen, alle Funktionen und alle Rollen zu erproben. Alle Daten werden täglich einmal automatisch gelöscht"
+  *[[http://www.wislearnplus.de/|wislearnplus - Das Lernmanagement-System für Hagen und die Märkische Region!]].
+    *[[http://demo.wislearnplus.de/moodle/| "Wislearn+ - Moodle 2.0 Demo"]].
+==== Free Hosting of own Demo Courses ====
+  *[[http://www.mdl2.com/|MDL2: Discover the new Moodle 2 with our free hosting]] - "You can create your own free, unlimited MDL2 site including admin privileges!".
+  *[[http://www.moodleschule.de/course/category.php?id=42|moodleSCHULE e.V. "Kostenlose Moodle-Kursräume"]] - Free Moodle course rooms just for education institutions ( "Grund-, Haupt-, Realschulen, Gymnasien, Berufskollegs etc.", "Studienseminare (2. Staatsexamen - Lehrerausbildung)", "Universitäten (1. Staatsexamen - Lehrerausbildung )", "Volkshochschulen (Aus- und Weiterbildung)" ).
+==== Serious contents ====
+  *In 2010, I had the chance to process some free entry lessons of the just-commercial [[http://www.oncampus.de/|oncampus GmbH "onCampus - Your university network for lifelong learning"]], guided by [[http://www.xing.com/profile/Alexandra_Klose|XING "Alexandra Klose"]].
+  *[[http://www.funken-lernen.de/|DARC-Distrikt Baden "funken-lernen Amateurfunkausbildung"]].
+    *Moodle e-learning platform [[http://funken-lernen.de/moodle/|DARC-Distrikt Baden "FUNKEN-LERNEN-Lernplattform"]] with 2 free lessions.
+
+===== Moodle Certification =====
+==== "Moodle Course Creator Certificate" ( International ) ====
+  *[[http://docs.moodle.org/22/en/Moodle_Course_Creator_Certificate|MoodleDocs "Moodle Course Creator Certificate"]].
+  *[[http://www.moodle.org/course/view.php?id=48|Moodle.ORG Courses "Moodle Course Creator Certificate (MCCC)"]] 
+    *"MCCC Candidate Guide and Skills Sets v2.x" ( Word DOC ).
+    *[[http://www.moodle.org/mod/wiki/view.php?id=6740|Moodle.ORG "Explanation of Narrative questions document"]].
+    *Wiki [[http://www.moodle.org/mod/wiki/view.php?id=6597|Moodle.ORG "MTC course project Wiki"]].
+    *[[http://moodle.org/mod/quiz/view.php?id=5851|Moodle.ORG "English MCCC quiz (orientation to exam)"]].
+  *[[http://www.moodle.com/|Moodle Service Network]] ( Moodle Partners ). 
+    *[[http://moodle.com/certification/|Moodle Service Network - Certification]].
+==== "Moodle Anwenderzertifikat" ( Germany ) ====
+  *[[http://www.moodleschule.de/|moodleSCHULE e.V.]].
+    *[[http://www.moodleschule.de/course/view.php?id=662|moodleSCHULE e.V. "Moodle Trainer-Zertifizierung (MTC)"]].
+  *[[http://www.eledia.de/|eLeDia - E-Learning im Dialog GmbH]].
+    *[[http://www.eledia.de/schulungen|eLeDia - E-Learning im Dialog GmbH "Schulungen - Seminare und Workshops"]].
+    *[[http://www.moodle.de/mod/book/view.php?id=1863&chapterid=139|Moodle.DE "Trainerzertifizierung"]] - "Der erfolgreiche Abschluß der Zertifizierung wird durch ein internationales Zertifikat bestätigt. Es ist zeitlich unbegrenzt gültig und bezieht sich auf eine Hauptversion von Moodle (derzeit Moodle 1.9)".
+
+===== Moodle Moot Conferences =====
+==== Moodle Moots in Germany ====
+  *The series of conferences [[http://moodlemoot.moodle.de/|Moodle Moot]] in Germany - "MoodleMoot heißen die weltweit stattfindenden Konferenzen rund um Moodle. Auf dieser Seite wird die Vorbereitung, Ankündigung, Anmeldung und Doku zur MoodleMoot in Deutschland organisiert, die mindestens einmal jährlich stattfindet".
+  *[[http://moodlemoot.moodle.de/course/|Moodle Moot - Course categories]] - All freely accessible and all non-accessible courses 2009 - 2012.
+  *[[http://moodlemoot.moodle.de/course/view.php?id=143|Moodle Moot 2012, Münster]] ( 2012-03-13 - 2012-03-16 ).
+  *[[http://moodlemoot.moodle.de/enrol/index.php?id=140|Moodle Moot 2011, Elmshorn]] - No free access for guests.
+    *[[http://www.youtube.com/results?search_query=moodlemoot+2011+elmshorn|YouTube - Search for "moodlemoot 2011 elmshorn"]].
+  *[[http://moodlemoot.moodle.de/course/view.php?id=69|Moodle Moot 2010, Berlin "mm-doku - Doku-Kurs zur Moodle-Moot 2010 in Berlin"]] - Free access to documents for guests.
+  *[[http://moodlemoot.moodle.de/course/view.php?id=26|Moodle Moot 2009, Bamberg "DokuMoot09"]] - Free access to documents for guests.
+  *[[http://moodlemoot.moodle.de/course/view.php?id=9|Moodle Moot 2008, Heidelberg "DokuMoot"]] - Free access to documents for guests.
+==== Moodle Moot 2012, Münster ====
+  *[[http://moodlemoot.moodle.de/course/view.php?id=143|Moodle Moot 2012, Münster]] ( 2012-03-13 - 2012-03-16 ).
+    *Pre-conference [[http://moodlemoot.moodle.de/mod/page/view.php?id=1716|MoodleMoot an der WWU- Münster 2012 "Veranstaltungen im Rahmen der Pre-Konferenz am 13. und 14. März 2012"]].
+    *[[http://moodlemoot.moodle.de/mod/glossary/view.php?id=1715|Moodlemoot Glossary "Überblick über die Tagungsbeiträge - sortiert nach den Nachnamen der Vortragenden"]] #.
+  *[[http://www.facebook.com/events/359619754071750/|Facebook "Moodle Moot Münster 2012"]].
+  *[[http://www.flickr.com/groups/1944999@N22/|flickr "Moodlemoot Münster 2012 #mootde12"]].
+  *[[http://twitter.com/#!/search/%23mootDE12|Twitter - Search for "#mootDE12"]].
+==== Moodle Moot 2012, Münster - Topics & Topic Resources ====
+=== Preconference ===
+== Workshop Workshop "Moodle für Einsteiger" ==
+    *[[http://moodlemoot.moodle.de/course/view.php?id=149|Moodle Moot 2012, Preworkshop "Moodle für Einsteiger" / "Moodle Preworkshop Muenster 2012"]].
+      *[[http://moodlemoot.moodle.de/mod/forum/view.php?id=1806|Moodle Moot "Moodle für Einsteiger" / "Moodle Preworkshop Münster 2012" - Kursforum zum Austausch]].
+  *Sieglinde Jakob-Kuehn.
+    *[[http://docs.google.com/spreadsheet/ccc?key=0Aouoi7BpzRy4dHZXdjhZUFIyOGY1Tmc3X1JfU1d6WkE|Sieglinde Jakob-Kuehn "Moodlekurse zum Betrachten und Download"]].
+    *[[http://www.scoop.it/t/moodle-courses|Sigi Jakob "Moodle Courses and OER"]].
+    *[[http://www.wallwisher.com/wall/ErwartungenMoodle|WallWisher "Moodle Erwartungen"]].
+== Workshop "Moodle effektiv konfigurieren und administrieren (für Systemadministratoren)" ==
+  *[[http://www.cms.hu-berlin.de/ueberblick/personal/1680743|Humboldt-Universität zu Berlin, Jens Eremie]].
+  *Ralf Hilgenstock.
+  *PostgreSQL -> see [[en:databases.html|Databases, Webserver, Webservices, SQL, XML]].
+  *[[http://docs.moodle.org/dev/XMLDB_Documentation|MoodleDocs "XMLDB Documentation"]], [[http://docs.moodle.org/22/en/XMLDB-Editor|MoodleDocs "XMLDB-Editor"]].
+  *[[http://www.phpmyadmin.net/|phpMyAdmin]] for MySQL administration.
+  *[[http://phppgadmin.sourceforge.net/|SourceForge "phpPgAdmin"]], [[http://www.sourceforge.net/projects/phppgadmin|SourceForge "phpPgAdmin"]] for PostgreSQL administration.
+  *[[http://en.wikipedia.org/wiki/EAccelerator|EN.Wikipedia "eAccelerator"]], [[http://de.wikipedia.org/wiki/EAccelerator|DE.Wikipedia "eAccelerator"]].
+  *[[http://xcache.lighttpd.net/|trac "XCache"]].
+=== Conference Day #1 ===
+  -[[http://www.gerd-homberg.de/|Gerd Homberg]].
+    *[[http://gerd-homberg.de/homberg/e-learning.php|Gerd Homberg "Blended Learning / e-Content"]].
+    *[[http://gerd-homberg.de/homberg/moodle-share-netzwerk.php|Gerd Homberg "Moodle-Share-Netzwerk"]] -> "Planungsleitfaden zur Anlage von Moodle-Kursen" ( PDF ) #.
+  -[[http://docs.moodle.org/22/en/Administration_via_command_line|Moodle.org "Administration via command line"]].
+  -[[http://docs.moodle.org/dev/Web_services|MoodleDocs "Web services"]].
+  -The commercial Moodle distribution [[http://www.totaralms.com/|Totara LMS]].
+  -[[http://docs.moodle.org/22/en/Feedback_module|MoodleDocs "Feedback module"]].
+  -[[http://mahara.org/|Mahara ePortfolio System]] - "Open source e-portfolio and social networking software".
+    *Free online demo server [[http://demo.mahara.org/|Mahara ePortfolio System "Mahara Demo Site"]].
+  -Moodle hosting.
+    *[[http://www.citeq.de/leistungen-und-produkte.html|citeq - Informations-Technologiie für Kommunen]].
+    *[[http://eledia.de/|eLeDia - eLearning im Dialog]].
+  -[[hhttp://docs.moodle.org/22/en/Repositories|MoodleDocs "Repositories"]].
+  -The digital repository [[http://docs.moodle.org/22/en/Equella|MoodleDocs "Equella"]].
+  -[[http://www.wiris.com/plugins/moodle|WIRIS - The global solution for mathematics education "Moodle"]].
+  -SkizzenCAD by [[https://www.xing.com/profile/Thomas_Grochtmann|XING "Thomas Grochtmann"]], [[http://www.hbz-muenster.de|Handwerkskammer Münster]].
+    *[[http://www.hbz-online.de/moodlemoot|HBZ-Online - Future Download of SkizzenCAD]].
+    *[[http://www.jhotdraw.org/|JHotDraw]], [[http://jhotdraw.sourceforge.net/|SourceForge "JHotDraw"]], [[http://www.sourceforge.net/projects/jhotdraw|SourceForge "JHotDraw"]].
+  -Mobile Moodle & Blended eBook.
+    *[[http://www.wissenschafftwerte.ch/|Thorsten Maier - wissenschafftswerte.ch]].
+    *[[http://docs.moodle.org/22/en/Mobile_Moodle_FAQ|MoodleDocs "Mobile Moodle FAQ"]].
+    *[[http://apps.wiki.tum.de/Moodle+App|Technische Univerität München "Moodle App"]].
+    *Baker Ebook Framework.
+      *[[http://www.bakerframework.com/|Baker Ebook Framework]].
+      *[[http://github.com/simbul/baker/|GitHub "Simbul / baker"]].
+      *The OpenSource HTML editor [[http://www.bluegriffon.org/|BlueGriffon]] is suitable for eBook Authoring.
+      *The commercial HTML5 editor [[http://tumultco.com/hype/|Tumult Hype]] just for MacOSX is suitable for eBook Authoring.
+  -[[http://www.edu-sharing.net/|edu-sharing - DFG-Leistungszentrum für E-Learning]].
+  -[[http://www.mahara.org/|Mahara - Open source eportfolios]].
+  -[[http://www.etherpad.com/|EtherPad]], [[http://code.google.com/p/etherpad/|Google Code "etherpad - EtherPad Open Source Release"]].
+    *[[http://groups.google.com/group/etherpad-open-source-discuss|Google Groups "EtherPad Open Source Discussion"]].
+  -[[http://vc.uni-bamberg.de/moodle/|Universität Bamberg]] - Moodle module "DirectLink".
+=== Conference Day #2 ===
+  -"Strukturierte Urteils-Bildung mit MOODLE ( Lehrerbildung in Schule / Hochschule )".
+    *[[http://de.wikipedia.org/wiki/Wolfgang_Sander_%28Erziehungswissenschaftler,_1944%29|DE.Wikipedia "Wolfgang Sander (Erziehungswissenschaftler, 1944)"]], [[http://egora.uni-muenster.de/ew/sander.shtml|Westfälische Wilhelms-Universität Münster "Sander, Wolfgang, Prof. (apl.) Dr. phil."]].
+    *[[http://egora.uni-muenster.de/pbnetz/|Westfälische Wilhelms-Universität Münster - pbnetz - das politische Bildungsnetz - MpB e.V]].
+    *[[http://egora.uni-muenster.de/pbnetz/filo_ub_konzept.shtml|Westfälische Wilhelms-Universität Münster - pbnetz - das politische Bildungsnetz - MpB e.V "Das Konzept der Urteilsbildung"]] -> "UNTERRICHTSMATERIAL. Hier finden Sie Arbeitsblätter und Unterrichtsmaterial zum Download im PDF-Format".
+      *"Schaubild: Prozess der Urteilsbildung" ( PDF ).
+      *"Wolfgang Sander - Sieben Regeln der Urteilsbildung" ( PDF ).
+      *"Präsentation: Urteilsbildung am Beispiel eines Kamerakaufes" ( ZIP / PPT ).
+    *[[http://de.wikipedia.org/wiki/Kategorischer_Imperativ|DE.Wikipedia "Kategorischer Imperativ"]].
+    *[[http://de.wikipedia.org/wiki/Beutelsbacher_Konsens|DE.Wikipedia "Beutelsbacher Konsens"]] -> "Überwältigungsverbot ( Indoktrinationsverbot )".
+    *[[http://www.uni-muenster.de/LearnWeb/|Westfälische Wilhelms-Universität Münster "Learnweb"]].
+      *[[http://www.uni-muenster.de/LearnWeb/learnweb2/login/index.php|Westfälische Wilhelms-Universität Münster "Learnweb - Login as Guest"]] - "Some courses may allow guest access".
+  -[[http://incubator.apache.org/openmeetings/|Apache OpenMeetings]] - "Open-Source Web-Conferencing".
+  -"Moodle for small enterprises".
+    *[[http://www.uni-due.de/e-competence/|E-Competence Agentur Universität Duisburg-Essen]], [[http://www.uni-due.de/e-competence/readisme.shtml|E-Competence Agentur Universität Duisburg-Essen "LLL Readiness in SMEs – ReadiSME"]] - Speech [[http://moodlemoot.moodle.de/mod/data/view.php?d=78&rid=848&filter=1|MoodleMoot 2012 "Moodle für Geschäftsaktivitäten in einem kleinen Unternehmen"]].
+    *Topics:
+      *Project work.
+      *Introduction of a new product.
+      *Mandatory trainings.
+      *Verification of competences.
+      *Do it yourself multimedia.
+      *Job applications.
+      *Working with social media.
+      *Community of practice.
+  -[[http://www.edumoodle.at/|edumoodle.at]].
+  -[[http://www.vitero.de/|vitero - Virtual Team Room]].
+  -"Was Sie schon immer über Moodle wissen wollten".
+    *Problems.
+      *There is just a single filesize, which can be assigned both to trainers and students.
+      *If some students use Tablet PCs, there is no local filespace on these devices. So administration is forced to grant private filespace ( "Private files" ) to all students.
+    *Roles & the importance of global roles.
+      *[[http://docs.moodle.org/dev/Roles|MoodleDocs "Roles"]].
+      *[[http://docs.moodle.org/22/en/Assign_roles|MoodleDocs "Assign roles"]].
+      *[[http://lehrerfortbildung-bw.de/moodle-info/module/aktivitaet/wiki_erfurt/rollen.htm|Landesakademie für Fortbildung und Personalentwicklung an Schulen, LehrerInnen Fortbildungs-Server "Rollen"]] - "Moodle sieht im Moment nur so aus, als hätte es eine vollständig umgesetzte Rechteverwaltung. Leider ist dies nicht der Fall. Stellenweise sind lediglich die Schalter vorhanden, die Wirkung bleibt aber aus. Erst mit Moodle 2.0 dürfte das Rechtemanagement in Moodle komplett umgesetzt sein".
+    *Groupings & groups & the importance of global groups.
+      *[[http://docs.moodle.org/22/en/Grouping_users|MoodleDocs "Grouping users"]].
+      *[[http://docs.moodle.org/22/en/Groupings|MoodleDocs "Groupings"]] - "A grouping is a set of groups".
+      *[[http://docs.moodle.org/22/en/Groups|MoodleDocs "Groups"]].
+    *"Private files" / "Eigene Dateien".
+      *[[http://docs.moodle.org/2x/de/Arbeiten_mit_Dateien_und_Verzeichnissen|MoodleDocs "Arbeiten mit Dateien und Verzeichnissen"]].
+      *[[http://docs.moodle.org/2x/de/Eigene_Dateien|MoodleDocs "Eigene Dateien"]].
+      *[[http://docs.moodle.org/22/en/Private_files|MoodleDocs "Private files"]].
+      *[[http://docs.moodle.org/22/en/Course_files|MoodleDocs "Course files"]].
+  -COSAMUI.
+    *Blog [[http://www.ifel.ch/en/blog-feed/|Fernfachhochschule Schweiz. Institut für Fernstudien- und eLearningforschung ( IFeL ) "FeL Blog"]].
+      *Blog article [[http://ifelblog.wordpress.com/2011/05/30/cosamui-durch-zusammenarbeit-und-konkurrenz-zu-positiven-lerneffekten/|IFeL blogt "COSAMUI: Durch Zusammenarbeit und Konkurrenz zu positiven Lerneffekten"]].
+    *[[http://en.wikipedia.org/wiki/Transactional_distance|EN.Wikipedia "Transactional distance"]].
+  -"Teams sind Trumpf".
+    *Groupings & groups & the importance of global groups.
+      *[[http://docs.moodle.org/22/en/Grouping_users|MoodleDocs "Grouping users"]].
+      *[[http://docs.moodle.org/22/en/Groupings|MoodleDocs "Groupings"]] - "A grouping is a set of groups".
+      *[[http://docs.moodle.org/22/en/Groups|MoodleDocs "Groups"]].
+    *Think - Pair - Share.
+      *[[http://en.wikipedia.org/wiki/Cooperative_learning|EN.Wikipedia "Cooperative learning"]], [[http://de.wikipedia.org/wiki/Kooperatives_Lernen|DE.Wikipedia "Kooperatives Lernen"]].
+      *[[http://wiki.zum.de/Think_-_Pair_-_Share|Das ZUM-Wiki - offene Plattform für Lehrinhalte und Lernprozesse "Think - Pair - Share"]].
+    *[[http://docs.moodle.org/22/en/Workshop_module|MoodleDocs "Workshop module"]].
+  -Constructivism.
+    *[[http://en.wikipedia.org/wiki/Constructivism_%28learning_theory%29|EN.Wikipedia "Constructivism (learning theory)"]], [[http://de.wikipedia.org/wiki/Konstruktivismus_%28Lernpsychologie%29|DE.Wikipedia "Konstruktivismus (Lernpsychologie)"]].
+    *[[http://arbeitsblaetter.stangl-taller.at/LERNEN/LerntheorienKonstruktive.shtml|(werner stangl)s arbeitsblätter "Die konstruktivistischen Lerntheorien"]].
+==== Moodle 2010 in Essen ====
+  *[[http://wayback.archive.org/web/*/http://moodle2010.uni-duisburg-essen.de/|Archive.org "Moodle 2010 in Essen"]], 2010-09-16 - 2010-09-17.
+    *[[http://www.uni-due.de/de/presse/meldung.php?id=2311|Universität Duisburg-Essen, Pressemitteilung der Universität Duisburg-Essen, Pressemitteilung "Zweitägige Moodle-Konferenz und Schulwettbewerb. Kreative Bildung mit dem Internet"]].
+==== Moodletag 2009, 2010 and MoodleTreff 2008 ====
+  *[[http://www.moodletreff.de/course/category.php?id=45|Moodletreff "MoodleTag 2010 in der Bertha-von-Suttner-Gesamtschule Dormagen"]], 2010-06-09.
+  *[[http://www.moodletreff.de/course/category.php?id=37|Moodletreff "MoodleTag 2009 in der Bertha-von-Suttner-Gesamtschule Dormagen"]], 2009-06-03.
+  *[[http://www.moodletreff.de/course/category.php?id=31|Moodletreff "MoodleTreff 2008 5./6.3.2008 und 19./ 20.11.2008]], 2008-03-05 - 2008-03-06, 2008-11-19 - 2008-11-20.
+===== Resources ======
+  *[[http://www.e-learning-bw.de/|E-Learning-Portal Baden-Württemberg]].
+    *[[http://www.e-learning-bw.de/uploads/media/Nutzer_hochladen.pdf|E-Learning-Portal Baden-Württemberg "Wie Sie Moodle-Benutzer per Textdatei anlegen"]] ( PDF ).
+  *[[http://blog.e-learning.tu-darmstadt.de/tag/moodle/|Technische Universität Darmstadt "Moodle-Instanzen an deutschsprachigen Hochschulen"]].
+  *[[http://www.slideshare.net/MatthiasHeil/moodle-erklaert-mit-lego?from=ss_embed|SlideShare - Matthias Heil "Moodle erklaert mit Lego"]].
+  *[[http://www.installationwiki.org/Moodle|InstallationWiki "Moodle"]].
+  *Tomaz Lasic.
+    *[[http://vimeo.com/user1375117/videos|Vimeo "Tomaz Lasic's Videos"]].
+    *[[http://vimeo.com/channels/44004|Vimeo Channel "2 Minute Moodles"]].
+  *[[http://www.moodle.sh/|moodle.sh]] - "moodle-Testinstallation moodle.sh / bartelsen.eu".
+  *[[http://www.moodleschule.de/|moodleSCHULE e.V.]].
+    *[[http://www.moodleschule.de/course/view.php?id=653|moodleSCHULE e.V. "Fortbildungsangebote der moodleSCHULE e.V."]] -> "Den ersten Kurs erstellen (von Mike Baselt)" ( 60 minutes ).
+  *[[http://www.moodletreff.de/|Bezirksregierung Düsseldorf "MoodleTreff der Lehrerfortbildung"]].
+  *Mojito.
+    *[[http://www.havana-club.com/de/de/rezepte-cocktail/kubanischer-klassiker/kubanischer-mojito|Havana-Club "Original kubanischer Mojito"]].
+  *[[http://test.moodle.tum.de/mod/page/view.php?id=132|TU München "Anleitungen für Dozierende. Grundlegende Informationen für Dozierende zur Arbeit mit Moodle-Lehrveranstaltungen"]].
+  *[[http://www.synergy-learning.com/|Synergy Learning  - new media. new learning]].
+    *Blog [[http://www.synergy-learning.com/blog/category/moodle/|Synergy Learning Blog - Moodle]] - 78 entries :-).
+      *[[http://www.synergy-learning.com/blog/moodle/moodle-2-2-administration-map/|Synergy Learning Blog "Moodle 2.2 Administration Map"]].
+  *Jürgen Wagner.
+    *Blog [[https://www.moodleschule.de/course/view.php?id=738|moodleSCHULE e.V., Jürgen Wagner "Fremdsprachen und Neue Medien InfoBlog"]].
+    *Blog [[http://fremdsprachenundneuemedien.blogspot.de/|Blogspot, Jürgen Wagner "Fremdsprachen und Neue Medien Blog"]].
+  *[[http://en.wikipedia.org/wiki/Moodle|EN.Wikipedia "Moodle"]], [[http://de.wikipedia.org/wiki/Moodle|DE.Wikipedia "Moodle"]].
+  *[[http://www.zim.uni-wuppertal.de/hilfe/anleitungen/moodle.html|BERGISCHE UNIVERSITÄT WUPPERTAL, ZENTRUM FÜR INFORMATIONS- UND MEDIENVERARBEITUNG - Moodle]] - Free videos about Moodle.
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Reference/Education/Methods_and_Theories/|OpenDirectory "Top: Reference: Education: Methods and Theories"]].
+  *[[http://www.dmoz.org/Reference/Education/Methods_and_Theories/Learning_Theories/|OpenDirectory "Top: Reference
+: Education: Methods and Theories: Learning Theories"]].
+  *[[http://www.dmoz.org/Reference/Education/Methods_and_Theories/Instructional_Design/|OpenDirectory "Top: Reference
+: Education: Methods and Theories: Instructional Design"]].
+  *[[http://www.dmoz.org/Reference/Education/Methods_and_Theories/Instructional_Design/Distance_Learning_and_Training/|OpenDirectory "Top: Reference: Education: Methods and Theories: Instructional Design: Distance Learning and Training"]].
+  *[[http://www.dmoz.org/Society/Issues/Education/|OpenDirectory "Top: Society: Issues: Education"]].
+  *[[http://www.dmoz.org/Reference/Education/Distance_Learning/|OpenDirectory "Top: Reference: Education: Distance Learning"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wissenschaft/Sozialwissenschaften/Erziehungswissenschaften/Schulp%C3%A4dagogik/|OpenDirectory "Top: World: Deutsch: Wissenschaft: Sozialwissenschaften: Erziehungswissenschaften: Schulpädagogik"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wissen/Bildung/Schule/|OpenDirectory "Top: World: Deutsch: Wissen: Bildung: Schule"]].
+{{tag>Moodle "authoring software" "authorware" "learning system" "course management system"}}
+<footnote_navi_en>

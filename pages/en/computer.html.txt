@@ -1,0 +1,226 @@
+====== [hemmerling] Computer / PC Hardware - PC Technical Support ======
+Related pages:
+  *[[datastorage.html|Data Storage on CD, DVD, Blu-Ray, Harddisk, Floppy Disk, Zip Disk, Memory Cards, Memory Sticks, Tape...]].
+  *[[desktoppc.html|Desktop PC - Requirements and Market Research]].
+  *[[input.html|Input Devices ( Keyboard, Mouse, Joystick, Scanner,.. )]].
+  *[[network02.html|Network Tools 2/2 - Communications Hardware, Communication Applications & Drivers]].
+  *[[4drives.html|PCs with 4 Floppy Disk Drives]].
+  *[[software.html|Software]].
+===== Hardware =====
+==== Quality Criteria for a Computer ====
+  *Does the computer device have a reset button ? 
+  *Desktop PC:
+    *Does the chassis have a reset button ?
+    *Does the power supply have an on/off switch to switch off the power physically ?
+==== CPU ====
+  *The current commercial [[http://www.cpuidle.de/|Andreas Goetz "CPU Idle"]] for WIN95/98 and W2K. 
+    *The legacy editon "CPU Idle 3.01" for Win98SE is the latest free unlimited edition.
+  *[[http://www.coolingsoftware.de/|Wolfgang Kohnke "coolingsoftware.de"]], [[http://www.free.pages.at/coolingsoftware/|Wolfgang Kohnke "coolingsoftware.de"]] - "Informationen und Programme rund um die Kühlung, Steuerung und Überwachung Ihrer CPU!" -> Download of "CpuIdle 3.01".
+==== Data Storage ====
+  *See [[datastorage.html|Data Storage on CD, DVD, Blu-Ray, Harddisk, Floppy Disk, Zip Disk, Memory Cards, Memory Sticks, Tape...]].
+
+==== Graphics Cards ====
+=== Premier Hardware Designers and Chip Manufacturers ===
+  *[[http://www.nvidia.com/|NVIDIA Corporation]], [[http://www.nvidia.de/|NVIDIA GmbH]].
+    *[[http://www.nvidia.com/page/support.html|NVIDIA Corporation - Support]].
+      *[[http://www.nvidia.com/Download/index.aspx?lang=en-us|NVIDIA Corporation - NVIDIA Driver Downloads]].
+      *[[http://www.nvidia.de/object/winxp-2k_archive_de.html|NVIDIA GmbH - Windows XP/2000: Treiberarchiv]].
+      *[[http://en.wikipedia.org/wiki/Nvidia_System_Tools|EN.Wikipedia "Nvidia System Tools"]].
+  *[[http://www.amd.com/DE/PRODUCTS/DESKTOP/GRAPHICS/Pages/desktop-graphics.aspx|AMD "AMD Grafiklösungen für Desktop PCs"]] ( formerly: ATI ).
+=== Just-Manufacturers of Graphics Cards with its Brands ===
+  *[[http://www.msi.com/|MSI]], [[http://de.msi.com/|MSI Deutschland]].
+=== Oculus Rift - Virtual Reality Headset for 3D Games ===
+  *[[http://www.oculusvr.com/|Oculus VR, Inc. "Oculus Rift - Virtual Reality Headset for 3D Games"]].
+=== My Graphics Cards ===
+  *My former graphics card "ATI Ultra Graphics Pro (MACH32)", FCC ID: GRANTEE_CODE = EXM, PRODUCT_CODE = 195.
+  *My graphics card "ELSA Erazor III Pro Video Retail", is equipped with the chipset NVIDIA "TNT2Pro" and the video i/o chipset Brooktree "BT 869".
+    *[[http://www.conexant.com/|Conexant Systems, Inc.]].
+      *[[http://web.archive.org/web/*/http://www.conexant.com/products/prodparts.jsp?id=404|Archive.org "Conexant BT868/869"]].
+  *My graphics card "MSI G4MX440-VTP / MS-8866" of [[http://www.msi.com/|MSI]] is equipped with the chipset NVIDIA "G4MX440" and the video i/o chipset Philips "SAA 7108E".
+=== VESA Graphics Driver ===
+  *[[http://bearwindows.boot-land.net/vbe9x.htm|VBEMP 9x Project. Universal VESA/VBE Video Display Driver (for Windows 9x Architecture)]] #.
+  *The Shareware "SciTech Display Doctor", a VESA graphics driver for PC graphics cards both for MSDOS programs and for Win95, Win98.
+    *Up to version 5.3 inclusively, an expiring shareware version can be turned into a full version by entering a registration key! With version 5.3a, this policy was discontinued.
+    *[[http://web.archive.org/web/*/http://www.scitechsoft.com/sdd_win.html|Archive.org "SciTech Display Doctor 6.53 (Classic Edition)"]] ( - 2008-07-25 ), [[http://web.archive.org/web/*/http://www.scitechsoft.com/sdd_win.html|Archive.org "SciTech Display Doctor"]] ( - 2002-02-01 ).
+=== Tools ===
+  *The free [[http://www.ab.ru/~lookin/|Video Live]] tools for Windows support the SAA 7108E chipset!
+  *The discontinued video-in drivers for the graphics card "Elsa Erazor III Pro Video" by [[http://web.archive.org/web/*/http://www.mtools.pl/|Archive.org "Media Tools"]] ( - 2006-09-23 ).
+    *The free "pViewer" for Win98.
+    *The Sharware "pViewer Pro" for W2k,XP.
+  *The discontinued Shareware [[http://web.archive.org/web/*/http://www.tvtool.info|Archive.org "TVTool"]] for Windows by [[http://www.jbmedia.de/|JB]]
+    *The tool "TVTool" enables video-out for graphics card with Bt868/Bt869 chipset, e.g. my Erazor III Pro Video Retail graphics card. "TVTool 4.61" is the latest uncrippled freeware version.
+    *The tool "TVCC" enables video-out for graphics cards with Chrontel chipset ( e.g. ASUS graphics cards ). No more Macrovision copy-protection !
+  *Once there was "DeskTV" - A free overlay software for many graphics cards with video input and VfW drivers ( ELSA Victory Erazor, graphics cards with BT848chipset. Autor: [[http://web.archive.org/web/*/http://www.tirtanium.de/program.html|Archive.org "Michael Tirtasana"]].
+  *The Shareware "UniRefresh 1.43" for MSDOS by Rob Muller - A universal MSDOS refresh rate utility using VESA VBE 3.0.
+    *[[http://download.cnet.com/UniRefresh/3000-2016_4-12522.html|CNET "UniRefresh 1.43"]].
+    *[[http://web.archive.org/web/*/http://unirefresh.demonews.com/|Archive.org "Rob Muller 'UniRefresh'"]].
+
+==== I/O Cards and I/O Devices ====
+=== USB ===
+  *The PCI card [[http://www.pearl.de/a-PX2032-1302.shtml?query=USB+Hub+PCI|PEARL Agency "c-enter USB2.0 Controller 4+1 Port"]].
+=== The Serial & Parallel Ports ===
+  *[[http://www.visionsystems.de/|Vision Systems GmbH]].
+    *"4COM" - Legacy ISA-BUS I/O card, with 4 x RS232 ( FIFO buffered ), 2 x parallel bidirectional ports, freely configurable interrupts. Date of production & documentation: 1992-12-12.
+  *[[http://www.digi.com/products/usb/edgeport|Digi International Inc. "Edgeport. USB-to-serial converters"]] - "Add 1, 2, 4, 8, or 16 serial ports to a PC", "RS-232, RS-422, or RS-485 serial ports (software selectable)".
+  *[[http://www.logilink.org/|2direct GmbH - LogiLink]].
+    *[[http://www.logilink.org/showproduct/AU0002E.htm?seticlanguage=en|2direct GmbH "USB 2.0 to Serial Adapter LogiLink"]].
+    *[[http://www.logilink.org/Products_LogiLink/Cable_Adapters/USB_20_Adapter/USB_20_to_Serial_Adapter-9plus25_Pin_LogiLink.htm|2direct GmbH "USB 2.0 to Serial Adapter, 9+25 Pin LogiLink"]].
+    *[[http://www.amazon.de/exec/obidos/ASIN/B001TOFUDI/hemmerling-21|Amazon.DE "LogiLink Adapter USB 2.0 to Seriell 9+25 Pin"]].
+=== Software Drivers ===
+  *X00 version 1.50 - Fossil driver for MSDOS.
+    *[[http://en.wikipedia.org/wiki/X00|EN.Wikipedia "X00"]].
+    *[[http://wayback.archive.org/web/*/http://www.dcllabs.net/docs/x00ref.txt|Archive.org "Functions reference manual for the X00 developer. Copyright (c) 1990 by Raymond L. Gwinn"]].
+    *[[http://www.sysopworld.com/bbsfaq/ch06.09.htm|SysopWorld. Home of "The Official BBS FAQ", chapter "6.09 - FOSSIL DRIVERS"]].
+    *I don´t know any download location.
+  *The free [[http://www.digsys.se/Obsolete/ADF.aspx|Scandinavian Digital Systems AB ,digsys.se "ADF v1.50 serial port FOSSIL driver"]].
+  *Wolfgang Westermann "NTFOSS".
+    *[[http://wayback.archive.org/web/*/http://stud1.tuwien.ac.at/~e9125884/NTFOSS/|Archive.org "NTFOSS Home Page. NTFOSS THE virtual Windows NT FOSSIL driver"]].
+    *[[http://www.wiesinger.com/NTFOSS/download/|Gerhard Wiesinger "ntf101.zip"]].
+  *[[http://www.startech.com/Cards-Adapters/Parallel/1-Port-EPPECP-Parallel-PCI-Card~PCI1PECP|StarTech "1 Port PCI Parallel Adapter Card"]] - "The adapter card supports EPP, ECP, SPP and BPP parallel communications, and is simple to install in virtually any PC. The card supports Windows Vista, XP, ME, 2000, 98, 95, NT4, DOS and Linux, plus IRQ sharing and plug and play capabilities guarantee convenient, hassle-free connections to any parallel peripheral".
+  *[[http://www.startech.com/Cards-Adapters/Parallel/2-Port-EPPECP-PCI-Express-Parallel-Card~PEX2PECP2|StarTech "2 Port PCI Express / PCI-e Parallel Adapter Card – IEEE 1284 with Low Profile Bracket"]].
+==== Input Devices ( Keyboard, Mouse, Joystick ) ====
+  *See [[input.html|Input Devices ( Keyboard, Mouse, Joystick, Scanner... )]].
+==== Displays ====
+=== Monitor Tubes ====
+  *My 17" "MAG MX17S" tube monitor, 1024x768 by [[http://wayback.archive.org/web/*/http://www.maginnovision.com/|Archive.org "MAG Innovision"]].
+    *[[http://en.wikipedia.org/wiki/MAG_Innovision|EN.Wikipedia "MAG Innovision"]].
+=== LCD Monitor Displays ====
+  *My 17" [[http://www.hansol.nl/eng/711.html|Hansol Monitor H711]], LCD monitor, 1280x1024.
+  *My 20" "Philips 200P3M" LCD monitor, 1600x1200.
+  *The "LG Flatron W2442PE" LCD monitor.
+=== Beamers ===
+  *[[http://www.rebeam.de/|eBeam GbR Huber & Schulte]].
+=== Color Management ===
+  *5000 Kelvin is the usual color temperature for print management.
+  *6500 Kelvin is the usual color temperature for video management.
+  *Ideal Gamma value: 1.8.
+  *My 20" Philips 200P3M monitor just supports
+    *Original Panel Color.
+    *9300 Kelvin for CAD / CAM.
+    *6500 Kelvin for image management.
+==== Complete PCs ====
+=== x86 Office Server PCs ===
+  *IBM x3500 M4, a standalone PC ideal for the office.
+    *[[http://www.ibm.com/systems/de/x/hardware/tower/x3500m4/|IBM Germany "IBM System x3500 M4"]].
+    *[[http://www.idealo.de/preisvergleich/OffersOfProduct/3290864_-system-x3500-m4-7383-7383e4g-ibm.html|Idealo "IBM System x3500 M4 7383 (7383E4G)"]].
+  *[[http://www.amazon.de/exec/obidos/ASIN/B00MXUAMVM/hemmerling-21|Intel i7-4790K QuadCore, 32GB RAM PC1600, 2000GB HDD, 250GB SSD, BluRay-Brenner Front-USB 3.0, Cardreader, Asus Z97M-Plus, (Hydra-Case)]] with [[http://www.asus.com/Motherboards/Z97MPLUS/|ASUS Z97M-PLUS]] motherboard and [[http://ark.intel.com/products/80807/Intel-Core-i7-4790K-Processor-8M-Cache-up-to-4_40-GHz|Intel Core i7-4790K Processor]], without operating system ( by [[http://www.amazon.de/shops/A2ME8L8HYKJCHN/|IT Datentechnik]] ).
+  *[[http://www.amazon.de/exec/obidos/ASIN/B00MIG6NKU/hemmerling-21|Intel i7 4790K QuadCore, 32GB RAM PC1600, 250GB SSD, 3000GB HDD, BluRay-Brenner Front-USB 3.0 Cardreader, Asus Z97M-Plus, 600W 80+ Silber PSU, Coolermaster Silencio 550 (gedämmt)
+]] with [[http://www.asus.com/Motherboards/Z97MPLUS/|ASUS Z97M-PLUS]] motherboard and [[http://ark.intel.com/products/80807/Intel-Core-i7-4790K-Processor-8M-Cache-up-to-4_40-GHz|Intel Core i7-4790K Processor]], without operating system.
+  *[[http://www.amazon.de/exec/obidos/ASIN/B008K8YYQU/hemmerling-21|CSL Speed 4731W8P inkl. Windows 8 Pro - Intel Core i7-4790K 4x 4000MHz, 32GB RAM, 120GB SSD, 2000GB HDD, GeForce GTX660, DVD, USB 3.0]] with Win8Pro.
+  *[[http://www.amazon.de/exec/obidos/ASIN/B00KH6PUC0/hemmerling-21|Lenovo Erazer X510 Desktop-PC (Intel Core i7-4770K, 3,9 GHz, 32GB RAM, 4 TB + 8GB SSHD, AMD Radeon R9 290/4G, Blu-Ray Player, Win 8.1) schwarz]] - without operating system.
+  *[[http://www.amazon.de/exec/obidos/ASIN/B00L5H6Q3W/hemmerling-21|Dell 8700-2439 XPS Desktop-PC (Intel core i7 4790, 3,5GHz, 32GB RAM, 3TB HDD, 2GB AMD R9 270, DVD, Win 8) schwarz]] without operating system.
+=== IBM PowerLinux Server ===
+  *The budget offer [[http://www.ibm.com/systems/power/software/linux/powerlinux/7r2/index.html|IBM "IBM PowerLinux 7R2 server. High-performance, energy-efficient server for Linux"]].
+  *[[http://en.wikipedia.org/wiki/PowerLinux|EN.Wikipedia "PowerLinux"]].
+==== Motherboards ====
+=== Selection Criteria ===
+  *Legacy devices either as interface jacks on board, or even as true interface jacks at the computer's backfront:
+    *Floppy disk.
+    *IDE.
+    *Serial COM1, COM2.
+    *Printer.
+=== General ===
+  *AMD.
+    *[[http://www.amd.com/us/products/desktop/chipsets/7-series-integrated/pages/amd-760g-chipset.aspx|AMD "AMD 760G Chipset. The AMD 760G Chipset with ATI Radeon 3000 Graphics]] - "Work on a PC that’s backwards compatible with many of the systems your business already has" -> With interfaces for classical "parallel ATA" devices.
+    *[[http://en.wikipedia.org/wiki/Comparison_of_AMD_chipsets|EN.Wikipedia "Comparison of AMD chipsets"]] - Section Southbridges", tables "AMD-xxx" and "A-Link Express" with column "Parallel ATA" -> With interfaces for classical "parallel ATA" devices.
+  *ASUS.
+    *[[http://www.asus.de/|ASUSTeK Computer Inc.]].
+      *[[http://www.asus.de/Motherboards/|ASUSTeK Computer Inc. "Motherboards"]].
+    *[[http://www.asrock.de/|ASRock Inc]].
+    *Look for "Premium Boards" of ASUS -> extra equipment, legacy support.
+  *[[http://www.foxconnchannel.com/|Foxconn]]
+  *[[http://www.gigabyte.com/|GIGABYTE TECHNOLOGY CO., LTD.]], [[http://www.gigabyte.de/|G.B.T. Technology Trading GmbH]].
+  *[[http://www.intel.com/content/www/us/en/nuc/overview.html|Intel NUC]] boards.
+    *[[http://en.wikipedia.org/wiki/Next_Unit_of_Computing|EN.Wikipedia "Next Unit of Computing"]].
+  *[[http://www.msi-computer.de/|MSI Technology GmbH]].
+  *[[http://www.supermicro.com/|Supermicro]].
+=== Non-legcacy Motherboards and Computers with Motherboards equipped with ISA Slots ===
+  *[[http://www.alptech.de/industrie_mainboards.htm|Alptech Elektronik GmbH "Industrie Mainboard ISA - PCI"]] -> Socket 775 CPUs, ISA slots, IDE interface.
+  *[[http://www.ico.de/|ICO Innovative Computer GmbH]] - "Industriemainboards"  -> Socket 775 CPUs, ISA slots, IDE interface.
+  *[[http://www.nixsys.com/index.php/products/isa-slot-workstation-and-servers.html|NIXSYS, Inc. "ISA Slot Computers"]].
+=== Motherboards for 80x86 Embedded Systems ===
+  *[[http://www.pcengines.ch/|PC Engines GmbH]].
+    *[[http://www.pcengines.ch/alix.htm|PC Engines GmbH "ALIX system boards"]] - Be shure to select a board with VGA interface :-).
+    *Vendor [[http://www.varia-store.com/|VARIA System GmbH]].
+    *Vendor [[http://www.tronico.net/|Tronico.net, Inh. Dennis Nikodem]].
+=== My Motherboards ===
+  *My AT/486 green motherboard "QDI V4P895P3/SMT Vers. 4.0 (4+2)" by [[http://web.archive.org/web/*/http://www.qdigrp.com/|Archive.org "QDI"]] ( - 2010-06-12, today: [[http://www.qdigrp.com/|Ramaxel Technology (Shenzhen) Co, Ltd]] ).
+  *My motherboard [[http://www.stason.org/TULARC/pc/motherboards/A/ASUS-COMPUTER-INTERNATIONAL-486-PCI-I-486SP3G.html|ASUS PCI/I-486SP3G]].
+  *My PCI motherboard "Asus A7V33" with Athlon "XP2100" CPU.
+    *[[http://www.cmedia.com.tw/EN/DownloadCenter_Detail.aspx?pserno=0&dtype=ALL|C-Media Electronics, Inc. - Download Center / Product Download - Driver]].
+    *[[http://www.treiber.de/forum/thema/66025/C-Media-CMI8738-C3DX-Windows-7-Treiber/|Forum "Treiber.de", Thread "C-Media CMI8738/C3DX Windows 7 Treiber"]].
+    *[[http://download.cnet.com/CMI8738-C3DX-PCI-Audio-Device/3000-2110_4-163508.html|CNET "CMI8738/C3DX PCI Audio Device"]] - Version 5.12.01.0639 for W2k, WinXP and Win7 :-).
+  *My PCI motherboard [[http://www.gigabyte.de/products/product-page.aspx?pid=1445|GIGABYTE GA-6BXC]], with Intel 440BX chipset, 4 x PCI slots, 3 x ISA slots, 1 x AGP slot, 3 x SIMM sockets, equipped with a Pentium III CPU, 550 Mhz.
+=== Batteries for Motherboards ===
+  *Accu "CR 2032" - Computers need accus. Do not confuse with batteries of the same size and numbers! CR = Lithium -> rechable accu!
+    *[[http://en.wikipedia.org/wiki/Button_cell|EN.Wikipedia "Button cell"]], [[http://de.wikipedia.org/wiki/Knopfzelle|DE.Wikipedia "Knopfzelle"]].
+=== Accessories ===
+  *[[http://www.pollin.de/|Pollin]] - USB interfaces:
+    *#720 382 - "Slotblech mit 2 x USB-A-Buchsen auf 8-poligen Pfostenstecker".
+    *#720 169 - "Slotblech mit 2xUSB-A-Buchsen auf 5polige Pfostenstecker".
+==== Network Equipment ====
+  *See [[network02.html|Network Tools 2/2 - Communications Hardware, Communication Applications & Drivers]].
+==== Printers ====
+=== Hardware ===
+  *My Hewlett Packard Laserjet IIIP.
+  *My Hewlett Packard Laserjet IVP.
+=== Printer Refill Services ===
+  *[[http://www.cw-hannover.de/|Cartridge World Hannover]].
+=== Resources ===
+  *Tutorial [[http://www.karos-toner.de/anl0692a.htm|Karos-Toner - Tinte, Toner und Computerzubehör "Toner - Nachfüllung Kartusche HP LaserJet"]].
+==== Sound ====
+=== Soundcards ===
+  *[[http://www.creative.com/soundblaster/|Creative Technology Ltd. "Creative Soundblaster"]].
+    *The manufacturer of the CREATIVE SOUNDBLASTER-PRO soundcard (8-bit, stereo, half-duplex) I once owned, and the manufacturer of my CREATIVE SOUNDBLASTER-16 ISA NON-PNP soundcard.
+=== Noise Feedback Loops - Hardware Solutions ===
+  *[[http://www.holmco.de/|Holmco]] SoundConnector ( [[http://www.conrad.de/|CONRAD.de]] # 99 34 92-62 ) - to avoid noise feedback loops with computer-to-amplifier connections.
+  *[[http://www.ratho.com/|Ratho]] GLI-18 ( [[http://www.conrad.de/|CONRAD.de]] # 311405-62 ) - to avoid noise feedback loops with computer-to-amplifier connections.
+=== Noise Feedback Loops - Resources ===
+  *[[http://www.heise.de/-326826|Heise "Brummschleife im PC"]], C´t 14/09.
+  *[[http://www.heise.de/-295054|Heise "Brummschleife
+Wenn ich den Ausgang meiner Soundkarte mit der HiFi-Anlage verbinde, kommt ein tiefer Brummton aus den HiFi-Boxen"]], C´t 24/05.
+  *[[http://www.heise.de/-304386|Heise "Digital brummt"]], C´t 25/98.
+
+===== Power Supply =====
+  *The 230 Volts power distributor [[http://www.ivt-hirschau.de/|Innovative Versorgungstechnik GmbH]] - "Sicherheitstechnik" / "PC-Power-Manager PM6".
+  *The PC power supply [[http://www.corsair.com/de/builder-series-cx500.html|Corsair CX 500]].
+  *I was told that the cheap PC power supply "LC-P HM-780" has many legacy power interfaces for legacy devices ( floppy, hdd, CD-ROM drive ) :-), but I did not yet check that.
+===== Software =====
+==== Databases / Link Directories for Firmware, BIOS and ( Windows, MSDOS ) Drivers ====
+  *See [[software.html|Software]].
+
+==== Software Applications ====
+  *[[http://www.heise.de/ct/c-t-Systeminfo-473388.html|C´t Systeminfo]] - Special free PC system information tools, including "Patch für Borland-Pascal Programme bei Verwendung von Pentium II/II oder Athlon über 550 MHz".
+  *The Shareware memory tester software [[http://www.goldmemory.cz/|GoldMemory*Thorough Stand-alone Memory Test ]] for Windows.
+  *The free memory tester software [[http://www.memtest86.com/|BradyTech Inc. "Memtest86"]] - "A comprehensive stand-alone memory diagnostic".
+===== Resources =====
+  *Blog [[http://www.piratenpc.de/|AG PiratenPC - Dies ist der offizielle Blog der AG PiratenPC]].
+  *[[http://www.stason.org/TULARC/pc/|Stas Bekman "Personal Computers (PCs) info"]] - "Motherboards Jumper Settings: A-Z", "Network Cards Specs: A-Z",...
+  *[[http://www.bios-info.de/|BIOS Kompendium]].
+  *[[http://www.dau-alarm.de/|DAU-Alarm]] #.
+    *Wiki [[http://www.jumbo.li/wiki/|WikiDAUia]] - "Wiki der DAU-Alarm Community".
+  *[[http://www.jumbo.li/forum/|DAU-Alarm Forum]].
+  *[[http://www.druckerchannel.de/|Druckerchannel - Das Drucker-Fachmagazin]].
+  *FAQs.
+    *[[http://www.dch-faq.de/|FAQ der de.comp.hardware-cpu+mainboard-Hierarchie]], 2006-02-27.
+  *FCC IDs.
+    *[[http://transition.fcc.gov/oet/ea/fccid/|FCC (Federal Communications Commission) Office of Engineering and Technology) "Equipment Authorization - FCC ID Search Page"]].
+    *[[http://www.plasma-online.de/|Plasma-Online]] - Hardware database. Search for FCC numbers and chip printings.
+  *[[http://www.hardwarebook.info/|The Hardware Book ( HwB )]] - "Internet's largest free collection of connector pinouts and cable descriptions".
+  *[[http://web.archive.org/web/*/http://www.geocities.com/markuskauer/usb.html|Archive.org "Markus Kauer 'USB Connectors on my motherboards'"]] ( - 2009-04-28 ).
+  *[[http://motherboard.8k.com/|Motherboard Manuals Data and More]].
+  *[[http://developer.oculusvr.com/forums/|Oculus Developer Forums]].
+  *[[http://www.pcguide.com/|The PC Guide]].
+    *[[http://www.pcguide.com/ts/x/sys/beep/|The PC Guide "Troubleshooting BIOS Beep Codes"]].
+  *[[http://www.tomshardware.com/|Tom's Hardware - The Authority on Tech]].
+  *[[http://www.tweakpc.de/|Tweak PC - Hardware Guide]].
+===== Forums, Newsgroups =====
+  *[[http://forums.creative.com/|Creative Technology Ltd. "Creative Discussion Forum"]].
+  *[[http://forums.driverguide.com/|DriverGuide - Forum]].
+  *[[http://forums.geforce.com/|GeForce Forums]].
+  *[[http://groups.google.com/group/maus.hardware/|Google Groups "maus.hardware"]], [[http://groups.google.com/group/fido.ger.hardware/|Google Groups "fido.ger.hardware"]], [[http://groups.google.com/group/alt.comp.hardware.homebuilt/|Google Groups "alt.comp.hardware.homebuilt"]], [[http://groups.google.com/group/alt.comp.hardware.pc-homebuilt/|Google Groups "alt.comp.hardware.pc-homebuilt"]], [[http://groups.google.com/group/comp.sys.laptops/|Google Groups "comp.sys.laptops"]], [[http://groups.google.com/group/comp.laptops/|Google Groups "comp.laptops"]], [[http://groups.google.com/group/comp.sys.ibm.pc.misc/|Google Groups "comp.sys.ibm.pc.misc"]], [[http://groups.google.com/group/comp.sys.ibm.pc.hardware.misc/|Google Groups "comp.sys.ibm.pc.hardware.misc"]], [[http://groups.google.com/group/comp.sys.ibm.pc.hardware.systems/|Google Groups "comp.sys.ibm.pc.hardware.systems"]], [[http://groups.google.com/group/comp.sys.ibm.pc.hardware.chips/|Google Groups "comp.sys.ibm.pc.hardware.chips"]], [[http://groups.google.com/group/comp.sys.ibm.pc.hardware.comm/|Google Groups "comp.sys.ibm.pc.hardware.comm"]], [[http://groups.google.com/group/comp.sys.ibm.pc.hardware.video/|Google Groups "comp.sys.ibm.pc.hardware.video"]], [[http://groups.google.com/group//|Google Groups "comp.sys.ibm.pc.hardware.video"]], [[http://groups.google.com/group/alt.comp.periphs.cdr/|Google Groups "alt.comp.periphs.cdr"]], [[http://groups.google.com/group/alt.comp.periphs.mainboard.asus/|Google Groups "alt.comp.periphs.mainboard.asus"]], [[http://groups.google.com/group/alt.comp.periphs.mainboard.tyan/|Google Groups "alt.comp.periphs.mainboard.tyan"]],  [[http://groups.google.com/group/de.comp.misc/|Google Groups "de.comp.misc"]], [[http://groups.google.com/group/de.comp.periph.misc/|Google Groups "de.comp.periph.misc"]], [[http://groups.google.com/group/de.sci.electronics/|Google Groups "de.sci.electronics"]], [[http://groups.google.com/group/uk.comp.misc/|Google Groups "uk.comp.misc"]], [[http://groups.google.com/group/aus.computers.ibm-pc/|Google Groups "aus.computers.ibm-pc"]], [[http://groups.google.com/group/alt.computer.drivers.wanted/|Google Groups "alt.computer.drivers.wanted"]], [[http://groups.google.com/group/de.comp.hardware.monitore/|Google Groups "de.comp.hardware.monitore"]].
+  *[[http://www.internetforen.de/|Internetforen]].
+    *[[http://www.internetforen.de/viewforum.php?f=16|Internetforen - Hardwareforen]] - "AMI BIOS", "Award BIOS", "Phoenix BIOS"...#.
+  *[[http://www.treiber-forum.de/forum/|Treiber-Forum - Forum]] - Subforum "Treiber".
+{{tag>computer computers hardware software}}
+<footnote_navi_en>

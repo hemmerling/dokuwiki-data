@@ -1,0 +1,379 @@
+====== [hemmerling] Unit Test / Module Test ======
+Related page:
+  *[[codingdojo.html|Coding Dojo / Coding Kata / Randori / Code Retreat / Object Calisthenics / Hackathons / Hackfests /  / Programming Marathons / Elephant Carpaccio Exercise - Group-Awareness, Self-Awareness, Self-Training in Software Development as well as Developer Contests & Developer Challenges]].
+  *[[fizzbuzz01.html|Coding Dojo / Coding Cutter: How to play Kata FizzBuzz with JUnit]].
+  *[[fizzbuzz02.html|Coding Dojo / Coding Cutter: How to play Kata FizzBuzz with NUnit]].
+  *[[testing.html|Testing]].
+===== Testing Tools for Unit Test / Module Test =====
+==== Testing with Instrumented Code or non-instrumented Code ====
+  *[[http://epf.eclipse.org/wikis/openup/core.tech.common.base/guidances/termdefinitions/code_instrumentation_3060875F.html|Eclipse.Org "Term Definition: code instrumentation"]] - "'Extra' statements added to source code for the purposes of testing, debugging, tuning, or tracing".
+==== Test Tools and Unit Test Tools for Java ====
+=== JUnit ===
+  *The OpenSource [[http://www.junit.org/|JUnit]], [[http://junit.sourceforge.net/|Sourceforge: "JUnit"]], [[http://www.sourceforge.net/projects/junit/|Sourceforge: "JUnit"]], [[http://github.com/junit-team/junit/|Github "JUnit"]], [[http://mvnrepository.com/artifact/junit|Maven Repository "junit"]] for Java.
+    *[[http://www.junit.org/apidocs/org/junit/Assert.html|Junit.org "Assert (JUnit API)"]].
+    *The OpenSource [[http://docs.codehaus.org/display/FEST/|Codehouse "FEST"]] - "A collection of open source APIs that aim at simplifying software testing. It is composed of various modules. All of them can be used with TestNG or JUnit" 
+    *The OpenSource [[http://jfcunit.sourceforge.net/|Sourceforge "jfcUnit"]], [[http://www.sourceforge.net/projects/jfcunit|Sourceforge "jfcUnit"]] - "A JUnit extension", "Enables developers to write test cases for Java Swing based applications".
+  *The OpenSource [[http://dbunit.sourceforge.net/|Sourceforge "DbUnit"]], [[http://www.sourceforge.net/projects/dbunit|Sourceforge "DbUnit"]] - "A JUnit extension (also usable with [[http://ant.apache.org/|Ant]] targeted at database-driven projects that, among other things, puts your database into a known state between test runs".
+  *The OpenSource [[http://gsbase.sourceforge.net/|Sourceforge "GS Base"]], [[http://www.sourceforge.net/projects/gsbase|Sourceforge "GS Base"]] - "A collection of useful Java classes. Classes include things like a logging subsystem and a complex layout manager", useful to complete a testing framework based on JUnit.
+  *IDE Plugins.
+    *The OpenSource [[http://www.infinitest.com/|Infinitest]], [[http://infinitest.github.com/|Github "Infinitest"]] - "A Continuous Test Runner for Java" for use with JUnit.
+      *Eclipse plugin.
+      *IntelliJ plugin.
+    *The commercial [[http://www.junitmax.com/|Kent Beck, Three Rivers Institute "JUnit Max"]] - "Continuous testing for Eclipse" for use with JUnit.
+  *Coverage measurement.
+    *The OpenSource [[http://quilt.sourceforge.net/|Sourceforge "Quilt"]], [[http://www.sourceforge.net/projects/quilt|Sourceforge "Quilt"]] - "A Java software development tool that measures coverage, the extent to which unit testing exercises the software under test. It is optimized for use with the [[http://www.junit.org/|JUnit]] unit test package, the [[http://ant.apache.org/|Ant Java build facility]], and the [[http://maven.apache.org/|Maven project management toolkit]]".
+    *The OpenSource [[http://nounit.sourceforge.net/|Sourceforge "NoUnit"]], [[http://www.sourceforge.net/projects/nounit|Sourceforge "NoUnit"]] - "Measure your JUnit Test Coverage and Effectiveness".
+    *The OpenSource Eclipse plugin [[http://moreunit.sourceforge.net/|SourceForge "MoreUnit"]], [[http://www.sourceforge.net/projects/moreunit|SourceForge "MoreUnit"]] to make Junit tests easier.
+=== Assertions ===
+  *[[http://www.hamcrest.org/|Hamcrest - Matchers that can be combined to create flexible expressions of intent]], [[http://www.github.com/hamcrest|GitHub "hamcrest"]], [[https://code.google.com/p/hamcrest/|Google Code "Hamcrest - library of matchers for building test expressions"]].
+    *[[http://www.github.com/hamcrest/JavaHamcrest/pull/32|GitHub "hamcrest/JavaHamcrest", Pull request "OSGi Bundle for issue #11 #32"]] - "Yes the Hamcrest is dead, which i mentioned in JUnit team", 2014-06-01.
+  *[[http://joel-costigliola.github.io/assertj/|GitHub.io "AssertJ. Fluent assertions for java"]], [[http://www.github.com/joel-costigliola/assertj-core|GitHub "joel-costigliola/assertj-core"]].
+=== Mock Objects ===
+  *[[http://www.easymock.org/|Easymock]].
+    *[[http://en.wikipedia.org/wiki/Easymock|EN.Wikipedia "Easymock"]], [[http://de.wikipedia.org/wiki/Easymock|DE.Wikipedia "Easymock"]].
+  *[[http://code.google.com/p/mockito/wiki/MockitoVSEasyMock|Google Code "mockito - simpler & better mocking"]].
+  *[[http://code.google.com/p/powermock/|Google Code "powermock"]] - "A Java framework that allows you to unit test code normally regarded as untestable".
+=== Some other Test Tools for Java ===
+  *[[http://emma.sourceforge.net/|SourceForge "EMMA"]], [[http://www.sourceforge.net/projects/emma/|SourceForge "EMMA"]] - "A free Java code coverage tool".
+    *[[http://en.wikipedia.org/wiki/Jenkins_%28software%29|EN.Wikipedia]], [[http://de.wikipedia.org/wiki/Emma_%28Software%29|DE.Wikipedia "Emma (Software)"]].
+  *[[http://jtc.openqa.org/|OpenQA "JTC: Java Testing Commons"]] for Java - "A suite of common tools for building unit test/test suite in Java. It provides handy helpers and extensions of common testing tools such as JUnit".
+  *[[http://www.c2.com/cgi/wiki?TestCollector|Test Collector]] - "Implementations: Java, Ruby, Php, Python,..".
+  *[[http://www.testng.org/|TestNG]] for Java.
+    *First there was JUnit 3, then TestNG came up "to provide a better solution", then JUnit4 was the response which included some of the TestNG features...
+==== Unit Test Tools for C++ ====
+=== Tools ===
+  *The free [[http://asf.atmel.com/|AVR Software Framework]] ( ASF ) for Atmel AVR microcontrollers is shipped with a "Test Suite" ( "asf / common / utils / unit_test" ) :-). It provides the macros "test_fail", "test_assert_true", "test_assert_false" for use as assertion calls.
+  *CxxTest.
+    *[[http://cxxtest.tigris.org/|Tigris "CxxTest"]], [[http://cxxtest.sourceforge.net/|SourceForge "CxxTest"]], [[http://www.sourceforge.net/projects/cxxtest|SourceForge "CxxTest"]] for C++.
+    *[[http://cxxtest.sourceforge.net/guide.html|SourceForge "CxxTest User's Guide"]].
+    *[[http://wayback.archive.org/web/*/http://cxxtest.com/index.php?title=Main_Page|Archive.org "CxxTest wiki"]].
+     *CxxTest's advantages over existing alternatives are that it:
+       -Doesn't require RTTI.
+         *[[http://en.wikipedia.org/wiki/Run-time_type_information|EN.Wikipedia "Run-time type information"]], [[http://de.wikipedia.org/wiki/Runtime_Type_Information|DE.Wikipedia "Runtime Type Information"]].
+       -Doesn't require member template functions.
+       -Doesn't require exception handling.
+       -Doesn't require any external libraries (including memory management, file/console I/O, graphics libraries).
+       -Is distributed entirely as a set of header files ( and a Python script ).
+       -Doesn't require the user to manually register tests and test suites.
+     *[[http://web-cat.cs.vt.edu/WCWiki|Web-CAT Wiki]], [[http://web-cat.sourceforge.net/|SourceForge "Web-CAT"]], [[http://www.sourceforge.net/projects/web-cat/|SourceForge "Web-CAT"]].
+       *The Eclipse plugin [[http://web-cat.cs.vt.edu/WCWiki/EclipsePlugins/CxxTestPlugin|Web-CAT "EclipsePlugins / CxxTestPlugin"]],
+       *[[http://web-cat.cs.vt.edu/eclipse/cxxtest/|Web-CAT "Creating a New CxxTest Project"]].
+     *[[http://www.c2.com/cgi/wiki?CxxTest|C2 "Cxx Test"]].
+  *[[http://cppunit.sourceforge.net/|Sourceforge "CppUnit"]], [[http://www.sourceforge.net/projects/cppunit/|Sourceforge "CppUnit"]] for C++.
+    *[[http://wayback.archive.org/web/*/http://www.iunknown.com/Articles/fog0000000025.html|Archive.org "John Lam - Hello CppUnit, 2001-12-12"]].
+  *[[http://www.cpputest.org/|CppUTest]], [[http://cpputest.sourceforge.net/|Sourceforge "CppUTest"]], [[http://www.sourceforge.net/projects/cpputest/|Sourceforge "CppUTest"]] for C++.
+  *[[http://code.google.com/p/googletest/|Google Code "googletest"]] for C++.
+  *[[http://unitmm.sourceforge.net/|Sourceforge "unit--"]], [[http://www.sourceforge.net/projects/unitmm/|Sourceforge "unit--"]] for C++.
+  *[[http:///tut-framework.sourceforge.net/|Sourceforge "TUT: C++ Template Unit Test Framework"]], [[http://www.sourceforge.net/projects//tut-framework/|Sourceforge: "TUT: C++ Template Unit Test Framework"]] for C++.
+  *[[http://fructose.sourceforge.net/|Sourceforge "Fructose"]], [[http://www.sourceforge.net/projects/fructose/|Sourceforge "Fructose"]] for C++.
+    *[[http://accu.org/index.php/journals/1305|Andrew Marlow :"FRUCTOSE - a C++ Unit Test Framework"]].
+=== Resources ===
+  *[[http://www.codeproject.com/KB/cpp/NUnitNativeCPP.aspx|How to use NUnit to test native C++ code]].
+  *[[http://www.codeproject.com/KB/applications/GenTestAsmBase.aspx|GenTestAsm: Run Your C++ Tests in nUnit]].
+==== Unit Test for C ====
+=== Tools written in C, for C Targets ===
+== Free Tools written in C, for C Targets ==
+  *[[http://aceunit.sourceforge.net/|SourceForge "AceUnit (Advanced C and Embedded Unit)"]], [[http://www.sourceforge.net/projects/aceunit|SourceForge "AceUnit"]] - "A comfortable C code unit test framework".
+    *Working principle: The source code of this testing application has to be included in the project sources.
+  *The free [[http://asf.atmel.com/|AVR Software Framework]] ( ASF ) for Atmel AVR microcontrollers is shipped with a "Test Suite" ( "asf / common / utils / unit_test" ) :-). It provides the macros "test_fail", "test_assert_true", "test_assert_false" for use as assertion calls.
+  *[[http://www.github.com/damphyr/bare_unity|GitHub "damphyr/bare_unity"]] - "The C code is untouched. What has changed is the way the test runners are generated. To that purpose the original scripts are all gone and in their place there is a single generator that uses an ERB template to create the test runner. In the original Unity test runner generator the runner's C code is embedded in the Ruby script. This makes it difficult to adapt the runner with C code to i.e. run in a specific embedded device".
+    *[[http://www.stuartellis.eu/articles/erb/|Stuart Ellis "An Introduction to ERB Templating"]].
+  *[[http://check.sourceforge.net/|SourceForge "Check - Unit Testing Framework for C"]], [[http://www.sourceforge.net/projects/check|SourceForge "check"]].
+  *[[http://www.cmocka.org/|cmocka]], [[http://open.cryptomilk.org/projects/cmocka/|Andreas Schneider - open milk projects "cmocka"]] - "an elegant unit testing framework for C with support for mock objects. It only requires the standard C library, works on a lot of platforms (including embedded) and with different compilers".
+    *[[http://www.lwn.net/Articles/558106/|LWN.net "Unit testing with mock objects in C"]].
+  *[[http://cunit.sourceforge.net/|Sourceforge: "CUnit"]], [[http://www.sourceforge.net/projects/cunit/|Sourceforge: "CUnit"]] for C.
+    *Working principle: The testing application is a library, which must be linked with project assemblies.
+  *[[http://embunit.sourceforge.net/|SourceForge "Embedded Unit. Unit Test Framework for Embedded C Systems"]], [[http://www.sourceforge.net/projects/embunit|SourceForge "Embedded Unit"]].
+    *Working principle: The testing application is a library, which must be linked with project assemblies.
+  *[[http://www.jera.com/techinfo/jtns/jtn002.html|Jera Design "JTN002 - MinUnit -- a minimal unit testing framework for C"]].
+  *[[http://code.google.com/p/lcut/|Google Code "lcut"]] - "A Lightweight C Unit Testing framework".
+  *[[http://code.google.com/p/seatest/|Google Code "seatest - Simple C unit testing framework"]].
+  *[[http://www.throwtheswitch.org/|Throwtheswitch.org]], [[http://www.github.com/ThrowTheSwitch/|GitHub "Doctor Surly - ThrowTheSwitch"]].
+    *The OpenSource [[http://throwtheswitch.org/white-papers/should-i-download-unity-cmock-or-ceedling.html|Throwtheswitch.org "Should I Download Unity, CMock, or Ceedling?"]].
+    *The OpenSource [[http://unity.sourceforge.net/|SourceForge "Unity"]], [[http://www.sourceforge.net/projects/unity|SourceForge "Unity"]], [[http://www.github.com/ThrowTheSwitch/Unity|GitHub "ThrowTheSwitch/Unity"]] - "A unit test framework written entirely in the C language. It has special features for embedded systems. It has scaled well from small to large embedded projects, but can be used for any C project".
+      *[[http://www.throwtheswitch.org/white-papers/unity-intro.html|Throwtheswitch.org "Unity Intro"]].
+      *[[http://fjrg76.wordpress.com/2013/12/13/unity-a-unit-test-framework-for-cc/|Sistemas embebidos en español ~ Memoria de diseño sobre sistemas embebidos "Unity: a unit test framework for C/C++"]], 2013-12-13.
+      *[[http://www.feabhas.com/content/unity-lightweight-c-test-harnass-embedded-systems|Feabhas - Embedded Software Competence "Unity - A lightweight C test harness for embedded systems"]].
+      *[[http://www.embedded.com/design/prototyping-and-development/4398723/The-mock-object-approach-to-test-driven-development|embedded - cracking the code to systems development "Jordan Schaenzle: The mock object approach to test-driven development"]] - "I will be using a C unit testing framework called Unity for the tests, and CMock for the mocking framework".
+      *[[http://www.fun-tech.se/stm32/TestSuite/unity.php|fun-tech.se "STM32/ARM Cortex-M3 HOWTO: Development under Ubuntu (Debian)"]] - " So let's have a look at a test framework called Unity".
+      *Working principle: The source code of this testing application has to be included in the project sources.
+    *The OpenSource [[http://cmock.sourceforge.net/|SourceForge "CMock"]], [[http://www.sourceforge.net/projects/cmock|SourceForge "CMock"]] - "A module/object mocking framework for C projects. It generates dummy modules that conform to the interface specified in a header file. This allows APIs to be proven out and exercised before committing to an underlying implementation".
+    *The OpenSource [[http://cexception.sourceforge.net/|SourceForge "CException "]], [[http://www.sourceforge.net/projects/cexception|SourceForge "CException"]] - "Simple and Fast Exception Handling for C".
+    *The OpenSource [[http://rubygems.org/gems/ceedling|RubyGems.org "ceedling"]], [[http://ceedling-gem.git.sourceforge.net/|SourceForge "ceedling-gem.git"]], [[http://www.sourceforge.net/projects/git|SourceForge "Guitar/Instrument Tuner"]] - "Ceedling is a build system for C projects that is something of an extension around Ruby’s Rake (make-ish) build system. Ceedling is primarily targeted at Test-Driven Development in C and is designed to pull together CMock, Unity, and CException".
+    *[[http://www.karlesky.net/embedded-testing-tools/|Michael Karlesky - A cabinet of wonders. Minus the cabinet. And possibly the wonders "Embedded Systems Code Testing Tools. What do you mean it’s impossible to test that?"]].
+  *[[http://www.ucunit.org/|Sven Stefan Krauß "uCUnit - Unit Testing Framework for Microcontrollers"]] for Atmel AVR, ARM, Intel x86 - "A lightwheight unit testing framework for small microcontrollers programmed in C".
+    *[[http://ucunit.origo.ethz.ch/|Sven Stefan Krauß "uCUnit Development Server"]].
+== Tools written in C++, for C Targets ==
+  *CppUTest.
+    *[[http://cpputest.org/|CppUTest.org]], [[http://cpputest.github.io/|GitHub.io "./ Cpputest. CppUTest unit testing and mocking framework for C/C++"]], [[http://github.com/cpputest/|GitHub "CppUTest"]].
+    *[[http://cpputest.sourceforge.net/|SourceForge "CppUTest"]], [[http://www.sourceforge.net/projects/cpputest/|SourceForge "CppUTest"]].
+    *[[http://www.raphaelhertzog.com/2012/06/25/test-driven-development-with-cpputest-now-in-debian/|Raphael Hertzog "Test Driven Development with CppUTest, now in Debian"]], 2012-06-25.
+== Symbolic Execution of "C" Code ==
+  *[[http://klee.llvm.org/|The KLEE Symbolic Virtual Machine]].
+    *[[http://www.llvm.org/|The LLVM Compiler Infrastructure]].
+    *[[http://en.wikipedia.org/wiki/Klee_%28disambiguation%29|EN.Wikipedia "Klee (disambiguation)"]] -> "KLEE, a symbolic execution tool for C programs".
+    *[[http://en.wikipedia.org/wiki/Low_Level_Virtual_Machine|EN.Wikipedia "Low Level Virtual Machine"]], [[http://de.wikipedia.org/wiki/Low_Level_Virtual_Machine|DE.Wikipedia "Low Level Virtual Machine"]].
+== Commercial Tools for C Targets ==
+  *The commercial [[http://www.hitex.com/index.php?id=module-unit-test|hitex "Tessy"]] - "Automated Unit / Module / Integration Testing of Embedded Software" -> testing of instrumented C code.
+=== Howto ===
+== Practical Examples of Embedded Test Code ==
+  *[[http://labs.lazlo.de/trac/labs/wiki/DeviceDrivers|Lazlo Labs - Software, Hardware & Embedded Systems "DeviceDrivers"]] - unit tests for device drivers,with "Unity" and "CppUTest".
+== Literature ==
+  *"Test Driven Development for Embedded C"
+    *James Grenning.
+      *Book [[http://www.amazon.de/exec/obidos/ASIN/193435662X/hemmerling-21|James W. Grenning "Test Driven Development for Embedded C"]].
+      *[[http://jamesgrenning.com/|James Grenning]], [[http://jamesgrenning.heroku.com/|Heroku "James Grenning"]].
+        *Accompanying website for the book [[http://jamesgrenning.heroku.com/My-Book|Heroku "James Grenning - Test-Driven Development For Embedded C"]]
+      *[[http://www.renaissancesoftware.net/|Renaissance Software]].
+      *Blog [[http://www.renaissancesoftware.net/blog/|Renaissance Software "James Grenning’s Blog. Blogging about Agile Development, especially embedded"]].
+      *[[http://www.twitter.com/jwgrenning|Twitter "James Grenning, @jwgrenning"]].
+      *[[http://www.pragprog.com/book/jgade/test-driven-development-for-embedded-c|The Pragmatic Bookshelf "Test Driven Development for Embedded C"]].
+      *[[http://www.drdobbs.com/testing/unit-testing-in-c-tools-and-conventions/240156344|Dr.Dobb's Journal "James W. Grenning: Unit Testing in C: Tools and Conventions"]], 2013-07-23.
+    *Reviews.
+      *[[http://meekrosoft.wordpress.com/2011/03/25/book-review-test-driven-development-for-embedded-c-beta/|Mike Long’s Blog "Book Review: Test-Driven Development for Embedded C (Beta)"]], 2011-03-25.
+      *[[http://legobokueng.blogspot.de/2012/10/book-review-test-driven-development-for.html|legobokueng "Book review: Test Driven Development for Embedded C"]], 2012-10-08.
+      *[[http://www.agilesoc.com/2012/10/24/book-review-test-driven-development-for-embedded-c/|AgileSoC "Book Review: Test-Driven Development for Embedded C"]], 2012-10-24.
+      *[[http://www.adafruit.com/blog/2013/01/17/ee-bookshelf-test-driven-development-for-embedded-c/|adafruit "EE Bookshelf: Test Driven Development for Embedded C"]] - 2013-01-17.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3864900484/hemmerling-21|Stephan Grünfelder "Software-Test für Embedded Systems: Ein Praxishandbuch für Entwickler, Tester und technische Projektleiter"]].
+=== Resources ===
+  *[[http://www.microconsult.de/service/downloads.shtml|MicroConsult - Microelectronics Consulting & Training GmbH "Service - Fachinformationen"]] - Slides of speeches about embedded software engineering.
+    *[[http://www.microconsult.de/includes/downloads/kurzvortraege/ESE2010_FreieUnittesttools.pdf|MicroConsult - Microelectronics Consulting & Training GmbH "Freie Unittest-Tools für die C-Entwicklung]] ( PDF ), 2010-12-07 -> "AceUnit", "CUnit", "Embedded Unit", "Unity".
+  *[[http://www.opensourcetesting.org/unit_c.php|opensourcetesting.org - open source software testing tools, news and discussion "Open source C/C++ developer testing tools"]].
+  *[[http://www.unittestingtools.com/?cplusplus|unittestingtools.com - Unit Testing and Mocking Tools: C/C++, Java, JavaScript, .NET, PHP, Python, Ruby, Flex "C and C++ Unit Tests Tools"]].
+==== Unit Test Tools for .NET Languages ( C#,..) ====
+  *[[http://csunit.sourceforge.net/|Sourceforge: "csUnit"]], [[http://www.sourceforge.net/projects/csunit/|Sourceforge: "csUnit"]].
+  *[[http://www.gallio.org/|Gallio - Automation Platform for .NET]].
+  *MbUnit.
+    *[[http://www.mbunit.com/|MbUnit]], [[http://code.google.com/p/mb-unit/|Google Code "mb-unit. The Gallio test automation platform and MbUnit unit testing framework"]].
+    *[[http://www.github.com/Gallio/mbunit-v3|GitHub "Gallio"]].
+      *[[http://www.github.com/Gallio/mbunit-v3|GitHub "Gallio / mbunit-v3"]].
+  *Microsoft Visual Studio.
+    *Microsoft Visual Studio 2003 / 2005 / 2008 / 2010 / 2012 / 2013 Professional.
+      *[[http://msdn.microsoft.com/en-us/library/ms182409.aspx|MSDN Library "Testing the Application"]].
+      *[[http://msdn.microsoft.com/en-us/library/ms182486.aspx|MSDN Library "Running Automated Tests from the Command Line"]].
+      *[[http://en.wikipedia.org/wiki/MSTest|EN.Wikipedia "MSTest"]].
+      *[[http://msdn.microsoft.com/en-us/library/dd264975.aspx|MSDN Library "Verifying Code by Using Unit Tests"]].
+      *A solution may contain several projects. A project may hold everything needed to generate an executable application. Unit test for testing the code of a project are kept in extra test projects. So with "File / Add / New Project / Visual C# / Test", you may add a test project.
+    *Microsoft Visual Studio Express 2012 for Windows Desktop, and newer.
+      *[[http://blogs.msdn.com/b/visualstudio/archive/2012/06/08/visual-studio-express-2012-for-windows-desktop.aspx|Microsoft MSDN -  The Visual Studio Blog "Visual Studio Express 2012 for Windows Desktop"]], 2012-06-08 - "With this new Express edition, developers will be able to use C++, C#, or Visual Basic to create Windows desktop and console applications.  Developers will also get access to new advances available across the Express family in Visual Studio 2012, such as the latest compilers and programming language tools, **integrated unit testing**, and the ability for small development teams to collaborate via Team Explorer and TFS Express".
+  *[[http://www.nunit.org/|NUnit]].
+    *[[http://www.launchpad.net/nunitv2|Launchpad "NUnit V2 Test Framework"]] - "Beginning with NUnit 2.5.3, releases are to be found right here".
+    *[[http://nunit.sourceforge.net/|Sourceforge: "NUnit"]], [[http://www.sourceforge.net/projects/nunit/|Sourceforge: "NUnit"]].
+  *The free [[http://www.testdriven.net/|TestDriven.Net, Personal Version]] - "The Zero Friction Unit Testing Add-In for Microsoft Visual Studio", "Supports NUnit, MbUnit, MSTest, NCover, Reflector, TypeMock, dotTrace, MSBee".
+    *Blog [[http://weblogs.asp.net/nunitaddin/|Jamie Cansdale "TestDriven.NET. Zero Friction Unit Testing for Visual Studio .NET"]].
+    *Blog article [[http://blogs.msdn.com/b/danielfe/archive/2007/05/31/visual-studio-express-and-testdriven-net.aspx|Dan Fernandez "Visual Studio Express and TestDriven.NET"]], 2007-06-01.
+  *The OpenSource [[http://www.github.com/banderous/Uniject|GitHub "banderous/Uniject"]] - "The Testability framework for Unity3D", "Prerequisites: MonoDevelop 3.0 - NOT the Unity bundled version".
+    *[[http://forum.unity3d.com/threads/introducing-uniject-a-pure-c-unit-testing-framework.149390/|Unity3D Forum, Thread "Introducing Uniject, a (pure) C# unit testing framework"]].
+  *The commercial [[http://www.typemock.com/|Typemock - The Unit testing Company]] - free 30 days trials.
+    *Isolator .NET.
+    *Isolator++.
+    *Test Lint.
+    *TeamMate.
+  *[[http://xunit.codeplex.com/|CodePlex "xUnit.net"]].
+==== Unit Test Tools for Databases ====
+  *The OpenSource [[http://dbunit.sourceforge.net/|Sourceforge "DbUnit"]], [[http://www.sourceforge.net/projects/dbunit|Sourceforge "DbUnit"]] - "A JUnit extension (also usable with [[http://ant.apache.org/|Ant]] targeted at database-driven projects that, among other things, puts your database into a known state between test runs".
+  *The OpenSource [[http://github.com/brands4friends/daleq|Github "brands4friends / daleq"]] - "A Test Data DSL for unit testing SQL Queries".
+==== Unit Test Tools for Delphi / Pascal ====
+  *[[http://dunit.sourceforge.net/|Sourceforge "DUnit: An Xtreme testing framework for Borland Delphi programs"]], [[http://www.sourceforge.net/projects/dunit|Sourceforge "DUnit: Xtreme Unit Testing for Delphi"]].
+==== Unit Test Tools for FORTH ====
+  *[[ftp://ftp.taygeta.com/pub/Forth/Applications/ANS/|Taygeta Scienific FTP Directory]].
+    *Download [[ftp://ftp.taygeta.com/pub/Forth/Applications/ANS/core.fr|Taygeta Scienific "John Hayes' ANS Forth - Core"]].
+    *Download [[ftp://ftp.taygeta.com/pub/Forth/Applications/ANS/tester.fr|Taygeta Scienific "John Hayes' ANS Forth - Tester"]].
+  *[[http://www.rhinocerus.net/forum/lang-forth/110542-unit-tests-implementation-forth.html|Rhinocerus Forum "comp.lang.forth", Thread "unit tests implementation in FORTH"]].
+==== Unit Test Tools for FORTRAN ====
+  *[[http://www.sourceforge.net/projects/fortranxunit/|SourceForge "FORTRAN Unit Test Framework (FRUIT)"]].
+  *[[http://nasarb.rubyforge.org/|NASA.rba home for NASA's open source Ruby software "funit - Fortran unit testing framework"]].
+    *[[http://www.jblevins.org/log/funit|Jason Blevins "Fortran Unit Testing with fUnit"]].
+==== Unit Test Tools for Javascript ====
+=== Tools for Front-end, Client-side Debugging ===
+  *[[http://www.casperjs.org/|CasperJS]].  - "A navigation scripting & testing utility for PhantomJS, written in Javascript".
+  *[[http://www.phantomjs.org/|Phantom JS]] - "PhantomJS is an optimal solution for Headless Website Testing. Run functional tests with frameworks such as Jasmine, QUnit, Mocha, Capybara, WebDriver, and many other".
+  *[[http://zombie.labnotes.org/|Zombie.JS]], [[http://www.github.com/assaf/zombie|GitHub "assaf/zombie"]] - "Insanely fast, headless full-stack testing using Node.js".
+=== Browser-based Web Application Testing ===
+  *See [[testing.html|Testing]].
+=== Tools for Server-side Debugging ===
+== JQuery ==
+  *[[http://www.jquery.com/|JQuery]].
+    *[[http://docs.jquery.com/QUnit|JQuery "QUnit"]].
+== Online Platforms for Unit Test ==
+  *[[http://www.tddbin.com/|TDDbin]] - Online Javascript development platform with [[http://jasmine.github.io/|Jasmine]] and [[http://visionmedia.github.io/mocha|GitHub "mocha"]].
+    *[[http://www.github.com/uxebu|GitHub "uxebu"]] - OSS Repository of TDDbin.
+    *[[http://jasmine.github.io/|GitHub.io "Jasmine - BDD for your JavaScript"]], [[http://github.com/pivotal/jasmine|GitHub.io "Jasmine - DOM-less simple JavaScript testing framework"]].
+    *[[http://visionmedia.github.io/mocha|GitHub "mocha"]], [[http://www.github.com/visionmedia/mocha|GitHub "visionmedia / mocha"]].
+== Unit Tests ==
+  *[[http://jasmine.github.io/|GitHub.io "Jasmine - BDD for your JavaScript"]], [[http://github.com/pivotal/jasmine|GitHub.io "Jasmine - DOM-less simple JavaScript testing framework"]] - "A behavior-driven development framework".
+  *[[http://www.github.com/caolan/nodeunit|GitHub "caolan/nodeunit"]].
+    *[[http://visionmedia.github.io/mocha|GitHub.io "mocha"]], [[http://www.github.com/visionmedia/mocha|GitHub "visionmedia / mocha"]] 
+      *"A feature-rich JavaScript test framework running on node.js and the browser, making asynchronous testing simple and fun. Mocha tests run serially, allowing for flexible and accurate reporting, while mapping uncaught exceptions to the correct test cases" # Test Framework #.
+      *Mocha makes use of [[http://github.com/visionmedia/should.js/|Github "should.js"]].
+  *[[http://www.visionmedia.github.io/expresso/|GitHub.io "Expresso"]], [[http://github.com/visionmedia/expresso|GitHub "visionmedia/expresso"]] - Discontinued.
+  *[[http://github.com/visionmedia/should.js/|Github "should.js"]] - "BDD style assertions for node.js -- test framework agnostic".
+== npm ==
+  *[[http://www.npmjs.org/|npm - Node Packaged Modules]], [[http://www.github.com/isaacs/npm|Github "npm"]].
+    *[[http://en.wikipedia.org/wiki/Npm_%28software%29|EN.Wikipedia "npm (software)"]].
+  *[[http://www.stackoverflow.com/questions/7254025/node-js-unit-testing|StackOverflow "Node.js Unit Testing"]].
+=== CouchDB Tools ===
+  *couchviews.
+    *[[http://www.npmjs.org/package/couchviews|NPM "couchviews"]].
+    *[[http://www.github.com/damienklinnert/couchviews|Github "damienklinnert / couchviews"]].
+  *[[http://www.github.com/cliffano/couchpenter|Github "cliffano / couchpenter"]].
+  *[[http://www.github.com/flatiron/nock|Github "flatiron / nock"]] - "HTTP mocking and expectations library".
+  *[[http://www.travis-ci.org/|Travis CI - Hosted Continuous Integration for the Open Source Community]].
+    *[[http://travis-ci.org/#!/daleharvey/pouchdb|Travis CI "daleharvey/pouchdb"]].
+=== Mock Objects ===
+  *[[http://www.bitbucket.org/ChrisInCambo/mosquito/|Bitbucket, ChrisInCambo  "Mosquito - Painless JavaScript Mocking"]].
+=== Resources ===
+  *[[http://www.speakerdeck.com/u/damienklinnert/p/test-your-nodejs-code|Damien Klinnert "Test your nodejs code - an optionated introduction"]].
+==== Testing Tools for Perl ====
+=== Testing Frameworks ===
+  *"Perl Tap" ( "Perl Test Anything Protocol" ) #.
+    *Wiki [[http://www.testanything.org/|Test Anything Protocol]].
+    *[[http://www.c2.com/cgi/wiki?PerlTap|Cunningham & Cunningham, Inc. "Perl Tap"]].
+  *"Perl Test Class":
+    *[[http://www.github.com/adrianh/test-class/|Github "adrianh/test-class"]] - "Test::Class - an xUnit testing framework for Perl 5.x".
+    *[[http://www.c2.com/cgi/wiki?PerlTestClass|Cunningham & Cunningham, Inc. "Perl Test Class"]] - "Built on top of PerlTap".
+  *"PerlUnit".
+    *[[http://perlunit.sourceforge.net/|SourceForge "The 'PerlUnit' unit testing framework"]], [[http://www.sourceforge.net/projects/perlunit|SourceForge "PerlUnit"]].
+    *[[http://www.c2.com/cgi/wiki?PerlUnit|Cunningham & Cunningham, Inc. "Perl Unit"]], [[http://www.c2.com/cgi/wiki?ExtendingPerlUnit|Cunningham & Cunningham, Inc. "Extending Perl Unit"]].
+  *"Test::More" #.
+    *"The most common testing module to use. Appropriate feature set for the majority of test cases and now standard in Perl (from 5.6.2 and 5.8.0)".
+    *[[http://perldoc.perl.org/Test/More.html|perldoc.perl.org - Perl Programming Documentation "Test::More"]].
+  *"Test::Simple" #.
+    *[[http://perldoc.perl.org/Test/Simple.html|perldoc.perl.org - Perl Programming Documentation "Test::Simple"]].
+    *[[http://search.cpan.org/dist/Test-Simple/|CPAN "Michael G Schwern > Test-Simple"]].
+      *[[http://search.cpan.org/dist/Test-Simple/lib/Test/Tutorial.pod|CPAN "Michael G Schwern > Test-Simple > Test::Tutorial"]].
+=== Resources ===
+  *[[http://www.bytes.com/topic/perl/answers/591214-how-use-require_ok-file|Bytes IT Community "how to use this require_ok($file);"]].
+  *[[http://www.debian-administration.org/articles/297|Debian Administration "Writing Perl test cases"]].
+  *[[http://qa.perl.org/test-modules.html|Perl.org "An overview of the testing modules available on CPAN"]].
+  *Wiki [[http://perl-qa.hexten.net/wiki/|Perl QA Wiki]].
+  *[[http://www.stackoverflow.com/questions/502644/how-can-i-do-unit-testing-in-perl|Stack Overflow  "How can I do unit testing in Perl?"]].
+==== Unit Test Tools for PHP ====
+=== Testing Frameworks ===
+  *[[http://www.phpunit.de/|PHPUnit]], [[http://www.github.com/sebastianbergmann/phpunit/|Github "sebastianbergmann / phpunit"]], [[http://phpunit.sourceforge.net/|SourceForge "PhpUnit"]], [[http://www.sourceforge.net/projects/phpunit|SourceForge "PhpUnit"]].
+  *[[http://www.phpunit.de/manual/current/en/|PHPUnit Manual]].
+  *[[http://pear.phpunit.de/|PHPUnit PEAR Channel]], [[http://pear.php.net/package/PHPUnit/|PEAR "PHPUnit"]].
+=== Testcase-Runner ===
+  *[[http://php-gtk.eu/apps/phpunit-test-runner|PHP-GTK Community : a community site for PHP-GTK "PHPUnit Test Runner"]].
+  *[[http://typo3.org/extensions/repository/view/phpunit/current/|TYPO3 Extension Repository, "PHPUnit"]].
+  *[[http://pear.php.net/package/PHPUnit/docs/1.3.2/PHPUnit/PHPUnit_GUI_HTML.html|PEAR "PHPUnit_GUI_HTML"]].
+  *[[http://cool.sourceforge.net/|SourceForge "cool"]], [[http://www.sourceforge.net/projects/cool/|SourceForge "cool"]] - DE.Wikipedia claims "not compatible with PHPUnit 3.2.11" :-(.
+  *[[http://www.defusion.org.uk/archives/2006/02/11/phpunit2-gui-html-runner/|DEfusion.org.uk "PHPUnit2 GUI HTML Runner"]].
+=== Resources ===
+  *[[http://pear.php.net/packages.php?catpid=43&catname=Testing|PEAR "Packages :: Tools and Utilities :: Testing"]].
+  *[[http://www.sitepoint.com/tutorial-introduction-to-unit-testing-in-php-with-phpunit/|Sitepoint "Tutorial: Introduction to Unit Testing in PHP with PHPUnit"]].
+  *[[http://en.wikipedia.org/wiki/PHPUnit|EN.Wikipedia "PHPUnit"]], [[http://de.wikipedia.org/wiki/PHPUnit|DE.Wikipedia "PHPUnit"]].
+==== Unit Test Tools and other Test Tools for Microsoft PowerShell ====
+=== Tools ===
+  *[[http://psunit.codeplex.com/|CodePlex "PSUnit"]], [[http://www.github.com/tellingmachine/PSUnit|GitHub "tellingmachine/PSUnit"]].
+    *[[http://www.twitter.com/psunit|Twitter "psunit, @psunit"]].
+  *[[http://www.github.com/knutkj/pstest/|GitHub "knutkj/PSTest"]].
+    *[[http://www.github.com/knutkj/pstest/wiki|GitHub Wiki "knutkj/PSTest"]].
+    *[[http://www.nuget.org/packages/PsTest/|NuGet "PsTest"]].
+=== Resources ===
+  *[[http://blogs.clariusconsulting.net/kzu/powershell-how-to-unit-test-your-cmdlet/|Daniel Cazzulino "PowerShell: how to unit test your cmdlet"]].
+==== Python ====
+=== Testing Tools for & with Python ===
+  *[[http://docs.python.org/2/library/doctest.html|The Python Standard Library "25.2. doctest — Test interactive Python examples"]] #.
+    *[[http://www.pythontesting.net/|PYTHON TESTING - Python Test Frameworks and Strategies]].
+      *[[http://www.pythontesting.net/start-here/|PYTHON TESTING - Python Test Frameworks and Strategies "Start Here. Introduction to Python testing frameworks"]].
+        *[[http://www.pythontesting.net/framework/doctest/doctest-introduction/|Python Testing "doctest introduction"]].
+    *[[http://en.wikipedia.org/wiki/Doctest|EN.Wikipedia "doctest"]].
+  *The OpenSource [[http://www.tizmoi.net/watsup/intro.html|Dr Tim Couper "WATSUP - Windows Application Test System Using Python"]].
+  *The OpenSource [[http://pythonhosted.org/nose/|PythonHosted "nose"]], [[http://www.github.com/nose-devs/|Github "nose-devs"]], [[http://pypi.python.org/pypi/nose|Python Package Index "nose"]], [[http://nose.readthedocs.org/|Read the Docs "nose"]] - "is nicer testing for python".
+    *[[http://nose.readthedocs.org/en/latest/testing_tools.html|Read the Docs "nose documentation / Testing with nose / -Testing tools"]].
+  *[[http://www.voidspace.org.uk/python/mock/|Mock - Mocking and Testing Library]].
+  *[[http://code.google.com/p/pymox/|pymox / Mox]] - "An object-mocking framework for Python".
+  *[[http://www.pytest.org/|py.test]] - "A mature full-featured testing tool, provides no-boilerplate testing, upports functional testing and complex test setups".
+    *As the name suggests, "py.test" is the commandline name to start the application, not "pytest" :-).
+  *[[http://pyunit.sourceforge.net/|Sourceforge "PyUnit"]], [[http://www.sourceforge.net/projects/pyunit/|Sourceforge "PyUnit"]] - "The standard unit testing framework for Python" #.
+    *[[http://pyunit.sourceforge.net/pyunit.html|Sourceforge "PyUnit" - Python Unit Testing Framework Manual]].
+    *The Python Standard Library.
+      *[[http://docs.python.org/library/unittest.html|The Python Standard Library "25. Development Tools / 25.3. unittest — Unit testing framework"]].
+      *[[http://docs.python.org/library/doctest.html|The Python Standard Library "25. Development Tools / 25.2. doctest — Test interactive Python examples"]].
+    *[[http://wiki.python.org/moin/PyUnit|Python Wiki "PyUnit"]].
+  *[[http://www.testrun.org/tox/|The tox automation project]].
+    *[[http://pypi.python.org/pypi/tox|Python Package Index "tox 1.6.1 - virtualenv-based automation of test activities"]].
+    *HTML Slides [[http://farmdev.com/talks/tox/|Kumar McMillan "Supporting All Versions of Python All The Time With Tox"]].
+  *[[http://twill.idyll.org/|twill: a simple scripting language for Web browsing]] - "twill supports automated Web testing and has a simple Python interface".
+  *[[http://www.getwindmill.com/|Windmill Testing Framework]] - "Windmill is a web testing tool designed to let you painlessly automate and debug your web application", "Interact with the browser and the windmill service from a python shell".
+=== Testing Tools for HTTP Resources with Python ===
+  *[[http://www.github.com/idealistdev/alfajor/|Github "idealistdev / alfajor"]] - "Tasty functional testing". "Alfajor provides a modern, object-oriented and browser-neutral interface to HTTP resources.  With Alfajor, your Python scripts and test code have a live, synchronized mirror of the browser's X/HTML DOM, even with DOM changes made on the client by JavaScript.".
+  *[[http://splinter.cobrateam.info/|splinter - test framework for web applications]].
+=== Resources ===
+  *[[http://www.pythontesting.net/|PYTHON TESTING - Python Test Frameworks and Strategies]].
+    *[[http://www.pythontesting.net/start-here/|PYTHON TESTING - Python Test Frameworks and Strategies "Start Here. Introduction to Python testing frameworks"]].
+==== Unit Test Tools for Ruby ====
+  *[[http://test-unit.rubyforge.org/|Test::Unit]] for Ruby.
+==== Unit Test Tools for Scala ====
+  *[[http://www.scalatest.org/|ScalaTest]].
+    *With JUnit, youwrite "functions" for testing.
+    *With ScalaTest, you just write "function calls" for testing :-).
+  *[[http://etorreborre.github.com/specs2/|Github "specs2 - Software Specifications for Scala"]].
+  *[[http://code.google.com/p/scalacheck/|Google Code "scalacheck. A powerful tool for automatic unit testing"]].
+==== Unit Test Tools for SQL Databases ====
+=== SQL Unit Test in T-SQL ===
+  *[[http://www.tsqlt.org/|tSQLt – The Database Unit Testing Framework for SQL Server]], [[http://tsqlt.sourceforge.net/|SourceForge "tSQLt - Unit testing for T-SQL"]], [[http://sourceforge.net/projects/tsqlt/|SourceForge "tSQLt - DB Unit Testing for SQL Server. Database Unit Testing for Microsoft SQL Server"]].
+  *[[http://www.sqlity.net/en/publications/|sqlity.net - Publications]].
+    *[[http://web.archive.org/web/*/http://www.sqlity.net/sqlity/articles/tSQLtTutorial|Archive.org "sqlity.net: tSQLt Tutorial"]].
+    *[[http://www.simple-talk.com/sql/t-sql-programming/sql-server-unit-testing-with-tsqlt/|Simple-Talk - A technical journal and community hub from Red Gate "SQL Server Unit Testing with tSQLt"]], 2011-01-06.
+    *[[http://sqlmag.com/t-sql/getting-started-test-driven-design-sql-server|SQL Server Pro "Getting Started with Test Driven Design in SQL Server"]], 2012-07-20.
+  *Stages:
+    -Assemble.
+    -Act.
+    -Assert.
+=== SQL Unit Test with "Microsoft SQL Server Data Tools ( SSDT )" ===
+  *You may do SQL unit tests with "Microsoft SQL Server Data Tools ( SSDT )" of "Microsoft Visual Studio Professional 2013" and "Microsoft Visual Studio Ultimate 2013".
+  *The free "Microsoft Visual Studio Express 2013" is shipped with an edition of "Microsoft SQL Server Data Tools ( SSDT )" which lacks the unit test feature.
+  *See [[dbadmin.html|Database Managment Tools and Database Application Development Tools]].
+  *Stages:
+    -Pre-Test.
+    -Test.
+    -Post-Test.
+
+===== Resources =====
+==== JUnit 4 ( for Java 1.5 and newer ) ====
+Books written and released before 2006 do not cover JUnit 4, but just JUnit 3. Take care of new editions of old books, and of german translations of english books originally written and released before 2006, which still just deal with JUnit 3 !
+=== Books ===
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3935042760/hemmerling-21|Klaus Meffert: "JUnit Profi-Tipps"]] -> Primarely JUnit 3. Chapter 11 covers JUnit 4 and its new concepts #.
+    *Accompanying Website [[http://www.junit-buch.de/|JUnit Profi-Tipps - Das Buch]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3836435012/hemmerling-21|Adrian Simon Kuhn, Andres Huber: "Junit-Tests nach der Implementierung: Exemplarische Herangehensweise am Beispiel des PUA-Tools"]] -> JUnit 3 only.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1935182021/hemmerling-21|Petar Tahchiev, Felipe Leme, Vincent Massol: "Junit in Action"]], "cover JUnit 4.8" -> JUnit 3 or 4  ?  
+=== Online ===
+  *[[http://junit.sourceforge.net/doc/cookbook/cookbook.htm|Kent Beck, Erich Gamma "JUnit Cookbook"]].
+  *[[http://www.mm.informatik.tu-darmstadt.de/courses/helpdesk/junit4.html|Technische Universität Darmstadt "JUnit 4 Tutorial"]].
+  *[[http://www.frankwestphal.de/JUnit4.0.html|Frank Westphal "JUnit 4.0"]], 2005-07-06 - Short description of the new approach of JUnit 4 ( in comparison to JUnit 3 ) #.
+  *[[http://www.ibm.com/developerworks/java/tutorials/j-junit4/|IBM developerworks "Jump into JUnit 4"]].
+  *[[http://www.java-forums.org/new-java/22545-error-import-org-junit-cannot-resolved.html|Java Forums, Thread: Error - "The import org.junit cannot be resolved"]] #.
+  *[[http://www.programpool.com/core-java-2/junit-4/|Programpool "JUnit 4"]].
+    *[[http://www.programpool.com/core-java-2/junit-4/junit-4-parametric-testing/|Programpool "JUnit 4 Parametric testing"]].
+  *[[http://stefanroock.blogspot.com/2008/03/junit-44-assertthat.html|Stefan Roock "Junit 4.4: assertThat"]].
+  *[[http://open.ncsu.edu/se/tutorials/junit/|Laurie Williams, Dright Ho, Ben Smith, Sarah Heckman: "Unit Testing in Jazz Using JUnit"]].
+==== JUnit 3 ====
+=== Books ===
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0596007434/hemmerling-21|Kent Beck: "JUnit Pocket Guide"]] -> JUnit 3 only.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3446228241/hemmerling-21|Andrew Hunt, David Thomas: "Pragmatisch programmieren - Unit-Tests mit JUnit"]] -> JUnit 3 only.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3898643255/hemmerling-21|Johannes Link: "Softwaretests mit JUnit"]] -> JUnit 3 only.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1932394230/hemmerling-21|J. B. Rainsberger: "Junit Recipes: Practical Methods for Programmer Testing"]] -> JUnit 3 only.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3898642208/hemmerling-21|Frank Westphal: "Testgetriebene Entwicklung mit JUnit & FIT: Wie Software änderbar bleibt"]] -> JUnit 3 only.
+    *The free PDF book [[http://www.frankwestphal.de/MeinBuchzumDownload.html|Frank Westphal: "Testgetriebene Entwicklung mit JUnit & FIT: Wie Software änderbar bleibt"]].
+=== Online ===
+  *[[http://www.torsten-horn.de/techdocs/|Torsten Horn "Technische Kurzdokumentationen"]].
+    *[[http://www.torsten-horn.de/techdocs/java-junit.htm|Torsten Horn "JUnit"]] → JUnit 3 only.
+    *[[http://www.torsten-horn.de/techdocs/java-fit.htm|Torsten Horn "Akzeptanztests mit Fit"]] ( Framework for Integrated Test ).
+  *[[http://www.javaworld.com/javaworld/jw-12-2000/jw-1221-junit.html|InfoWorld / JavaWorld "JUnit best practices"]].
+==== Mock vs. Stub ====
+=== Mock ===
+  *[[http://en.wikipedia.org/wiki/Mock_object|DE.Wikipedia "Mock object"]], [[http://de.wikipedia.org/wiki/Mock-Objekt|DE.Wikipedia "Mock-Objekt"]].
+  *[[http://en.wikipedia.org/wiki/Mockup|DE.Wikipedia "Mockup"]], [[http://de.wikipedia.org/wiki/Mock-up|DE.Wikipedia "Mock-up"]].
+  *[[http://en.wikipedia.org/wiki/Digital_mockup|DE.Wikipedia "Digital mockup"]], [[http://de.wikipedia.org/wiki/Digital_Mock-Up|DE.Wikipedia "Digital Mock-Up"]].
+=== Stub ===
+  *[[http://en.wikipedia.org/wiki/Method_stub|DE.Wikipedia "Method stub"]], [[http://de.wikipedia.org/wiki/Stub_%28Programmierung%29|DE.Wikipedia "Stub (Programmierung)"]].
+  *[[http://en.wikipedia.org/wiki/Wikipedia:Stub|DE.Wikipedia "Wikipedia:Stub"]], [[https://de.wikipedia.org/wiki/Wikipedia:Artikel#Umfang|DE.Wikipedia "Wikipedia:Artikel"]].
+==== General Resources ====
+  *[[http://www.c2.com/cgi/wiki?TestingFramework|C2 "Testing Framework"]] # - The legacy but rich list of testing frameworks :-).
+  *[[http://www.unittestingtools.com/|unittestingtools.com - Unit Testing and Mocking Tools: C/C++, Java, JavaScript, .NET, PHP, Python, Ruby, Flex]].
+  *[[http://en.wikipedia.org/wiki/Monkey_test|EN.Wikipedia "Monkey test"]].
+  *[[http://en.wikipedia.org/wiki/List_of_unit_testing_frameworks|EN.Wikipedia "List of unit testing frameworks"]].
+{{tag>testing "unit test" unit test "unit testing" unit testing}}
+<footnote_navi_en>

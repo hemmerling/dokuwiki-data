@@ -1,0 +1,110 @@
+====== [hemmerling] The Sequence of Steps of a Windows 2000 ( W2k ) Installation  ======
+===== Prerequisites ======
+  *Save the mail filter of Thunderbird E-mail client, especially if you move to a new location with a new E-Mail database ( it is stored in the mail folder, and is still available if you deinstall and reinstall Thunderbird on the same computer and same operating system ).
+===== The Process ======
+The Sequence of Steps of a typical Windows Installation, with Installation of Application Software, taking W2k-Pro / W2k-Server as example:
+  -Hardware Rules.
+    -Suggetion: Installation of an operating system ( here: Windows ) *just* with 1 physical drive. 
+      *Its ok to disconnect the power supply of the secondary controller. 
+      *But for the primary controller, Windows (!) does not like to have a second powerless drive connected to the ATAPI cable. So for the primary controller, please disconnect the ATAPI cable. With connected ATAPI cable, the Windows NTLDR might fail before the NT boot menu is displayed. There is an explicite error message of the NTLDR.
+    -Must for motherboards with RAID controllers: Please disconnect the power of RAID drives, until you installed the RAID controller drivers unter Windows. Else the Windows might "hang" before the NTLDR runs and the NT boot menus is displayed :-(.
+  -The Basics.
+    -Be shure that there is no C:\WINNT" on the file system of the boot partition 
+      *Either let Windows format the boot partition during installation.
+      *Or boot by another operating system with NTFS access and delete the directory "C:\WINNT" on the NTFS boot partition ( or rename it ), before a new Windows installation.
+    -Installation of Windows, with "Windows W2kServer CD".
+      *//Change the drives of DVD/CD drives to high drive letters starting with "Z" ( "Settings / ControlPanel / Administrative Tools / Computer Management" ).//
+      *//Install the "Recovery Console" from CD, e.g. run "Z:\i386\winnt32.exe /cmdcons"//. Be shure to install the "Recovery Console" before you install updates, especially before you install Windows service packs ( SP ). Windows refuses to install the "Recovery Console" from the original Windows installation CD, if it detects that the Windows on the installation CD has a different version than the running Windows.
+      *//Windows "Settings / Control Panel / Administrative Tools / Local Security Policy / Security Settings / Local Policies / Security Options"//.
+        *//"Recovery Console: Allow floppy copy and access to all drives and folders" -> "Enabled" ( Default is "Disabled" )//.
+        *//"Recovery Console: Allow automatic administrative login"-> "Disabled" ( Default is "Disabled" )//.
+      *//Windows "Settings / Control Panel / Users and Passwords"//.
+        *//"Users must enter a user name and password to use this computer" -> "[x]" ( Default is "[ ]" )//.
+    -Change of CD/DVD drives to X:, Y:, Z: ( "Start / Settings - Control Panel / Administrative Tools / Computer Management / Disk Management" ).
+    -Set the name of the computer. Set the Windows workgroup name to "WORKGROUP", as the [[http://de.wikipedia.org/wiki/FRITZ!Box|Fritz!Box]] 7270 router is limited just to be member of this Windows workgroup.
+    -Enable network sharing of all drivers -> "My Computer".
+      *Taking "Drive C:" as example -> "Properties / Sharing / [x] Share this folder", "Share name = NODE3_C", "Comment = NODE3_C".
+    -Change of the directory / path for temporary files ( "Start / Settings - Control Panel / System / Advanced / Environment Variables" )..
+      *User variables for Administrator.
+        -"TEMP = C:\tmp;".
+        -"TMP = C:\tmp;".
+      *System variables.
+        -"TEMP = C:\tmp;".
+        -"TMP = C:\tmp;".
+      -Change the settings for virtual memory from a temporary file to a permanent file. Put the virtual memory file to an extra partition, if you can ( "Start / Settings - Control Panel / System / Advanced / Performance Options / Virtual Memory - Change /" ) 
+        *Initial size = 3072.
+        *Maximum size = 3072.
+    -Motherboard drivers, by "Motherboard Driver CD".
+    -Windows W2k Service Pack SP4.
+    -Windows W2k Rollout SP2.
+    -MSIE6, SP1.
+      *//Testing of Internet Access//.
+    -Graphics Card drivers.
+    -Latest DirectX Runtime.
+    -Windows Media Player 9.
+    -<del>Latest Windows Media Codecx for Windows Media Player 9</del>??
+    -AboutTime.
+      *//Set the time.//
+    -Firewall.
+      *Zone Alarm. Do not install "[ ] Zone Alarm Spyblocker".
+    -Antivirus Software ( e.g. AntiVir ).
+  -The Basic Microsoft Applications.
+    -.NET 1.1 runtime.
+    -Visual Studio 2005 with .NET 2.0, MSDN Library.
+    -Microsoft Silverlight ( requires .NET 2.0 runtime ).
+    -TAPI driver, for the DSL Router.
+    -Microsoft Office 2000, Microsoft Visio.
+      *Do not install "Office Tools / [ ] Microsoft Photo Editor"!
+      *//Configuration and testing of Microsoft Outlook @ Microsoft Office 2000, so that it can dial phone numbers by the TAPI driver//.
+    -Windows Update with MSIE Browser repeatedly, to get updates and patches.
+      *[[http://www.windowsupdate.com/|Microsoft "windowsupdate.com"]] - for MSIE7 and later only.
+      *[[http://www.update.microsoft.com/windowsupdate/v6/|Microsoft Windows Update - with MSIE6]].
+    -VirtualPC Installation.
+      -MSXML6 Runtime
+      -VirtualPC 2007.
+    -Some other Windows development tools.
+      *Tool for Unit Testing ( e.g. NUNIT ).
+      *Source-Code Documentation Tool ( e.g. Doxygen ).
+      *a special IDE, a special compiler, ..).
+  -The Basic Desktop Applications.
+    -Unpacker ( e.g. WinRAR ).
+    -Adobe Reader.
+    -Command Line Tool ( e.g. 4DOS / 4NT  for W2k, PowerShell for WinXP ).
+    -Free graphics software ( Paint.Net, Gimp,.. ).
+    -Commercial graphics software ( Corel Draw,.. ).
+    -Free / Commercial PDF printer drivers.
+  -Java Dependent Applications.
+    -Java Development Kit (JDK).
+    -OpenOffice.
+    -Browser( e.g. Firefox ).
+    -E-Mail Client ( e.g. Thunderbird ).
+      *//Opening and configuration of an E-Mail account, so that can access the E-Mail database, which is not on the system drive//.
+    -Integrated Development Tool ( e.g. Eclipse )
+    -UML Design Tool ( e.g. TOPCASED ).
+    -Mind Mapping Tools ( e.g. FreeMind ).
+  -Internet
+    -FTP-Clients ( e.g. WS_FTP, FileZilla ).
+      *//Configuration of the clients by importing / copying the personal FTP host list, from a safe place//.
+    -Apache Server with PHP, MySQL, Typo3.
+      *//Configure Apache for the local system//.
+    -Script Languages ( Perl,..).
+    -Messenger ( ICQ, MSN, Yahoo, Skype, CU-Seeme ).
+    -Webcam driver, Trackercam Software.
+    -Webmaster Tools ( Link-Checker Xenu Link Sleuth, Firefox plugin "Web Developer",..).
+  -Engineering tools.
+    -LabVIEW.
+      -.NET 1.1 Runtime.
+      -LabVIEW 7.1 ( MSXML4 is shipped on the LabVIEW 7.1 CD ).
+      -LabVIEW device drivers ( from extra CD or the latest download which supports LabVIEW 7.1 ).
+===== Problems & Fixes ======
+==== Avira AntiVir =====
+  *Incident: 
+    *Avira AntiVir suddenly refuses to run, complaining as if it is just-WinXP software.
+  *Problem: 
+    *The MSVC 8 C++ Runtime, which might run still on W2k, or in some other versions not.
+    *Internal hidden updates of Avira AntiVir, concerning the MSVC 8 C++ Runtime :-(.
+  *Solution: 
+    -Deinstall Avira AntiVir, deinstall Libre Office 3.6.x, deinstall MSVC 8 C++ Runtime.
+    -Install Libre Office 3.6.x, install Avira AntiVir.
+{{tag>Windows 2000}}
+<footnote_navi_en>

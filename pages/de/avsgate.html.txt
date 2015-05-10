@@ -1,0 +1,65 @@
+====== [hemmerling] Tore mit Altersüberprüfungssystem ======
+====== AVSKey ======
+[[http://www.avskey.de/]]
+<HTML>
+<!--- begin avskey sourcecode -->
+<script type="text/javascript"
+src="http://www.avskey.de/avskey.php?site_id={Ihre Seiten ID}&p1={Wert}&p2={Wert}&p3={Wert}">
+</script>
+<noscript>
+<a href="http://www.avskey.de/jshelp.php" target="_blank"><img border="0" alt="" src="http://www.avskey.de/nogate.php"></a>
+</noscript>
+<!--- end avskey sourcecode -->
+</HTML>
+====== Blue18 ======
+[[http://www.blue18.de]]
+<HTML>
+<script language="javascript" src="http://tor.blue18.de/tor.php?id=TORID&parameter=wert"></script>
+</HTML>
+====== CHECK2GO ======
+[[http://www.check2go.de]]
+<HTML>
+<script language="javascript" src="http://www.check2go.de/tor/get_tor.php?site_id=TORID"</script>
+</HTML>
+====== Control2000 ======
+[[http://www.control2002.de]]
+<HTML>
+<!-- Anfang control2000 torcode 2.16052002 -->
+<SCRIPT LANGUAGE="javascript" SRC="http://www.control2000.de/control/tor2.asp?ta=0&wid=IHREWID&SID=IHRESID&para1=SID&wert1=<? echo $SID; ?>"></SCRIPT>
+<!-- Ende control2000 torcode 2.16052002 -->
+</HTML>
+====== FreiAb18 ======
+[[http://www.freiab18.de/]]\\
+Tor 2: 
+<HTML> 
+<script src="http://premium.freiab18.de/tor/1/1"></script>
+</HTML>
+Tor 1:
+<HTML>
+<form method="POST" action="http://tor.FreiAb18.de/visit.php" target="_blank">
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr><td><a href="http://tor.freiAb18.de/co.php"><img src="http://tor.freiAb18.de/bo.php" border="0" width="311" height="75"></a></td>
+  </tr><tr align="center">
+    <td bgcolor="#FFFFFF" height="22"><font face="Arial, Helvetica" size="2" color="#000000">Zugang nur f&uuml;r Erwachsene mit FreiAb18-Pa&szlig;wort.</font></td></tr>
+  <tr valign="middle" align="center" bgcolor="#25455D">
+    <td><font face="Verdana, Arial, Helvetica" color="#FFFFFF" size="2">Pa&szlig;wort:</font>
+    <input type="hidden" name="Site" value="1">
+    <input type="text" name="ID" size="15" maxlength="15">
+    <input type="submit" name="Submit" value=" START " target="_self"></td></tr>
+  <tr bgcolor="#FFFFFF" align="right" valign="bottom">
+    <td height="22"><a href="http://tor.freiab18.de/PW.php?WS=1"><font face="Arial, Helvetica" size="2" color="#990033">Pa&szlig;wort beantragen</font></a> <a href="http://tor.freiab18.de" target="_new"><font face="Arial, Helvetica" size="2" color="#990033">Webmasterinfo</font></a></td> </tr>
+  <tr><td><a href="http://tor.freiab18.de/cu.php"><img src="http://tor.freiAb18.de/bu.php" border="0" width="311" height="17"></a></td></tr>
+</table>
+</form>
+</HTML>
+====== ueber18 ======
+[[http://www.ueber18.de]]
+<HTML><script type="text/javascript" src="http://www.ueber18.de/checktor.php?siteid=IhreSeitenID&lang=&bg=&selected="></script></HTML>
+====== X-Check ======
+[[http://www.x-check.de/]]
+<HTML><script src="http://gate.x-check.de/displayGate.php?websiteID=IhreWebmasterID&target=_blank"
+type="text/javascript" language="javascript"></script></HTML>
+===== =====
+<footnote_navi_de>
+
+Dieses Dokument ist auch auf [[en:avsgate.html|{{flags:uk.png|British englisch}}]][[en:avsgate.html|{{flags:us.png|US englisch}}]] verfügbar ! 

@@ -1,0 +1,431 @@
+====== [hemmerling] Perl 1/2 ======
+Related page:
+  *[[fritzbox.html|FRITZ!Box]].
+  *[[perl02.html|Perl 2/2]].
+  *[[unittest.html|Unit Test / Module Test]].
+===== Organizations and Events =====
+  *[[http://www.perlfoundation.org/|The Perl Foundation]].
+  *[[http://www.yapc.eu/|YAPC::Europe Foundation]] (YEF).
+    *The conference [[http://act.yapc.eu/gpw2014/|(YEF) "16th German Perl Workshop 2014"]] in Hannover ( 2014-03-26 - 2014-03-28, with meeting at the eve of the conference 2014-03-25 ). 
+      *There will be just one presentation track, in the trandition of former Perl conferences.
+      *"Early Bird (Private) 60 EUR. Pay by February 1st and save $$".
+  *[[http://www.pm.org/|Perl Mongers]].
+    *[[http://www.perlmongers.de/|Perl Mongers :: deutschsprachig - German.pm]].
+      *[[http://www.hannover.pm/|Hannover.pm Perl Mongers - Perl User Group Hannover, Germany]].
+        *[[http://www.twitter.com/Hannover_pm|Twitter "Hannover.pm"]].
+        *[[http://www.github.com/Hannover-pm|Github "Hannover-pm"]].
+      *[[http://hamburg.pm.org/|Perl Mongers :: deutschsprachig - German.pm "Hamburger Perl Mongers"]].
+  *The affordable 1-day conference [[http://www.perloasis.info/|The Perl Oasis]], USA.
+===== Ideology =====
+  -[[http://en.wikipedia.org/wiki/There%27s_more_than_one_way_to_do_it|EN.Wikipedia "There's more than one way to do it"]] ( TIMTOWTDI ).
+    *[[http://www.c2.com/cgi/wiki?ThereIsMoreThanOneWayToDoIt|ContentCreationWiki "There Is More Than One Way To Do It"]].
+    *[[http://www.perl.com/pub/1999/03/pm.html|Perl.com, Larry Wall "Perl, the first postmodern computer language"]].
+  -[[http://www.dev411.com/blog/2009/01/24/can-epo-or-tpf-tame-timtowtdi/|Dev411 Blog. John Wang on Technology "Can EPO (or TPF) tame TIMTOWTDI?"]] - "There’s more than one way to do it, but sometimes consistency is not a bad thing either" ( TIMTOWTDIBSCINABTE ).
+===== Runtimes & official Module Respository =====
+==== Perl 5 ====
+  *[[http://www.perl.org/|Perl.org]] - "The Perl Programming Language".
+    *[[http://learn.perl.org/|learn.perl.org - Learning Perl. Helping you get started with Perl 5....]].
+      *[[http://learn.perl.org/books/|learn.perl.org - Books]].
+    *[[http://perldoc.perl.org/|perldoc.perl.org - Perl Programming Documentation]].
+      *[[http://perldoc.perl.org/perlintro.html|perldoc.perl.org "perlintro -- a brief introduction and overview of Perl"]].
+      *[[http://perldoc.perl.org/perlmod.html|Perl Programming Documentation "perlmod"]].
+      *"Downloads - The complete documentation set is available to download for offline use. Full version (contains HTML and PDF files) - perldoc.tar.gz". 
+    *[[http://use.perl.org/|use.perl.org - use Perl; All the Perl that's Practical to Extract and Report]].
+      *[[http://use.perl.org/|Perl.org "use Perl; All the Perl that's Practical to Extract and Report"]].
+    *[[http://win32.perl.org/|win32.perl.org - The Win32 Perl Wiki]].
+  *The free Perl module library [[http://www.cpan.org/|Comprehensive Perl Archive Network]] ( CPAN ) #.
+    *[[http://search.cpan.org|Comprehensive Perl Archive Network - Search]].
+  *The free [[http://www.activestate.com/activeperl/|ActivePerl]] for Windows.
+    *"Status Generating HTML documentation (this may take a while)" -> indeed, just wait, the installation process will terminate properly, finally :-).
+    *[[http://code.activestate.com/ppm/|ActiveState "Perl Package Manager Index (PPM)"]].
+    *[[http://docs.activestate.com/activeperl/5.8/faq/ActivePerl-faq2.html|ActiveState Docs "ActivePerl 5.8 Documentation / Using PPM"]].
+    *[[http://en.wikipedia.org/wiki/Windows_Services_for_UNIX|Windows Services for UNIX]] is shipped with [[http://www.activestate.com/activeperl/|ActivePerl]]. 
+      *The latest free Windows Services for UNIX ( SFU ) 3.5 for W2k are shipped with the outdated ActivePerl 5.6.0. Warning: The path to the Perl binary directory ( "C:\SFU\Perl\bin" ) is included in the PATH system variable of Windows.
+      *In Windows Server 2008 and high-end versions of Vista ( Enterprise and Ultimate ) and Windows 7 ( Enterprise and Ultimate ), the recent "Subsystem for UNIX-based Applications" ( SUA ) is included. 
+  *The free [[http://www.strawberryperl.com/|Strawberry Perl]] for Windows.
+==== Free Perl 5 Online Service ====
+  *[[http://www.compileonline.com/execute_perl_online.php|compileonline "Execute Perl Script Online (v5.10.1)"]].
+==== Perl 6 ====
+  *[[http://www.perl6.org/|Perl 6]].
+===== Free Perl IDEs =====
+  *[[http://perlide.org/|Perl IDE]]
+    *[[http://padre.perlide.org/|Padre]] - the Perl IDE" for Perl. There is a "binary" executable for WinXP.
+      *[[http://padre.perlide.org/howto.html|Padre "How to do it in Padre?"]].
+      *Blog [[http://padre-ide.de/blog/|Padre-IDE]] - "Just another Padre blog".
+  *[[http://www.dwimperl.com/|DWIM Perl - the Perl distribution that contains everything you'll ever need]] - "Do What I Mean, Perl".
+    *[[http://code.google.com/p/dwimperl/|Google Code " dwimperl. Perl distribution that contains everything you nedd"]] - "Download: DWIM Perl for Windows". It contains the Padre IDE too :-).
+===== Perl Frameworks, Toolkits & Applications =====
+==== Perl Frameworks & Applications ====
+  *The OpenSource [[http://www.catalystframework.org/|Catalyst - Web Framework]] in Perl.
+    *[[http://wiki.catalystframework.org/wiki/|Catalyst Wiki]].
+  *The OpenSource home automation server "Fhem" -> See [[fritzbox.html|Fritz!Box]].
+  *The OpenSource online shop / online catalog [[http://www.icdevgroup.org/|Interchange]], in Perl.
+  *The OpenSource [[http://mojolicio.us/|Mojolicious]] in Perl.
+    *[[http://search.cpan.org/~sri/Mojolicious-2.45/|CPAN "Sebastian Riedel: Mojolicious-2.45"]] -> Documentation.
+    *[[http://www.github.com/kraih/|Github "kraih"]].
+      *[[http://www.github.com/kraih/mojo/|Github "kraih / mojo"]].
+        *Wiki [[http://www.github.com/kraih/mojo/wiki|Github "kraih / mojo" - "Mojolicious Wiki"]].
+    *SlideShare.
+      *[[http://www.slideshare.net/marcusramberg/mojolicious-3338291|SlideShare "Marcus Ramberg: Mojolicious"]].
+      *[[http://www.slideshare.net/mobile/oleber/mojolicious-11305402|Slideshare "Marcos Rebelo (oleber): Mojolicious"]] - Slides of speech 2012-01-28.
+    *[[http://d.hatena.ne.jp/yukikimoto/20100220/1266588242|Hatena::Diary, Yukikimoto "Perl5 Guides for perl newbie" - "Mojolicious::Lite examples"]].
+    *Blog article [[http://www.shlomifish.org/lecture/Perl/Lightning/Mojolicious/|Shlomi Fish "Lightning Talk - the Mojolicious::Lite Web Micro-framework"]].
+    *Additional tools:
+      *[[http://www.sudo.ws/|Sudo]].
+    *Installation.
+      *Do not download the archive file as there is no simple automatic installation procedure for this.
+      *Instead, just call for online download and automatic online installation :-):
+        *Installation with [[http://www.strawberryperl.com/|Strawberry Perl]] on Windows and Perl on Linux:<code>
+perl -MCPAN -e shell
+install Mojolicious</code>
+        *Installation with [[http://www.activestate.com/activeperl/|ActivePerl]] on Windows:<code>
+ppm</code> or <code>
+ppm -shell</code>
+    *Start your first script:
+      *Call in your personal home directory your first self-written Embedded Perl script "hello.pl" by <code>
+perl hello.pl daemon</code>
+      *Not recommended alternative: With COMMAND.COM, go from the root installation directory to the subdirectory "script". There you can run your first self-written Embedded Perl script "hello.pl" by "perl morbo hello.pl".
+  *The simple but powerful OpenSource web application framework [[http://www.perldancer.org/|Perl Dancer]].
+    *[[http://www.github.com/PerlDancer|Github "PerlDancer"]].
+    *[[http://www.twitter.com/PerlDancer/|Twitter "PerlDancer"]].
+    *Based on a MVC pattern :-).
+==== GUI Designer====
+  *The OpenSource GUI Builder [[http://guido.sourceforge.net/|SourceForge "Guido - A Perl/Tk GUI Builder"]], [[http://www.sourceforge.net/projects/guido/|SourceForge "Guido - A Perl/Tk GUI Builder"]].
+==== Big Applications built with Perl Interface ====
+  *The OpenSource [[http://www.imagemagick.org/|ImageMagick]] for Windows and Linux - "Convert, Edit, and Compose Images".
+    *The free online service [[http://www.imagemagick.org/MagickStudio/scripts/MagickStudio.cgi|ImageMagick Studio]].
+    *[[http://www.imagemagick.org/script/perl-magick.php|PerlMagick API]].
+    *[[http://en.wikipedia.org/wiki/ImageMagick|EN.Wikipedia "ImageMagick"]], [[http://de.wikipedia.org/wiki/ImageMagick|DE.Wikipedia "ImageMagick"]].
+===== Perl Script Search Engines =====
+  *[[http://perlsearch.hypermart.net/|Perl Crawler Search Engine]] - "To find the information on Perl and CGI programming, look no further".
+  *[[http://perlscripts.de/|Perlscripts]] - "Die Perl Scripte Suchmaschine".
+===== Teaching Perl =====
+==== German Literature ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3930673436/hemmerling-21|Shishir Gundavaram: "CGI- Programmierung im World Wide Web. Mit vielen Beispielen in Perl"]], 2001.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3827315352/hemmerling-21|Farid Hajji: "Perl . Einführung, Anwendung, Referenz"]], 2000.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3827314062/hemmerling-21|Joseph N. Hall, Randal L. Schwartz: "Effektiv Perl programmieren. Wegweiser für präzise Programme"]], 1998.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3898422763/hemmerling-21|Andrew L. Johnson: "Einstieg in Perl"]], 2002.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3446220135/hemmerling-21|Rainer Krienke: "Programmieren in Perl"]], 2002.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3826617762/hemmerling-21|Udo Müller: "Perl - Grundlagen, fortgeschrittene Techniken und Übungen: Operatoren, Funktionen, reguläre Ausdrücke, Hashes, Referenzen"]], 2007 - About Perl 5.8.8.
+    *"use strict" -> chapter 1√.
+    *"use warnings" / "perl -w" -> chapter 9√.
+    *"use diagnostics" -> chapter 9√.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3897211084/hemmerling-21|Nathan Patwardhan, Clay Irving, Nate Patwardhan: "Programmieren mit Perl- Modulen"]], 1999.
+  *The free online book [[http://openbook.galileocomputing.de/linux/linux_31_002.htm|Johannes Plötner, Steffen Wendzel "Linux". Chapter "31.2 Die Skriptsprache Perl"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3827313783/hemmerling-21|Michael Schilli: "Go To Perl 5"]], 1998.
+  *Randal L. Schwartz.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/386899145X/hemmerling-21|Randal L. Schwartz, Tom Phoenix, Brian D. Foy: "Einführung in Perl"]], 2011.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3897211068/hemmerling-21|Randal L. Schwartz, Erik Olson, Tom Christiansen: "Einführung in Perl für Win32-Systeme"]], 1998.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3897211076/hemmerling-21|Sriram Srinivasan: "Fortgeschrittene Perl-Programmierung"]], 1998.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3897211440/hemmerling-21|Larry Wall, Tom Christiansen, Jon Orwant, Peter Klicman, Randal Schwartz: "Programmieren mit Perl"]], 2001.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3930673614/hemmerling-21|Clinton Wong: "Web Client Programmierung mit Perl"]], 1997.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/354042685X/hemmerling-21|Joachim Ziegler: "Programmieren lernen mit Perl"]], 2002.
+==== English Literature ====
+  *Book [[http://www.amazon.com/exec/obidos/ASIN/0596002270/hemmerling-21|Stas Bekman, Eric Cholet "Practical mod_perl"]], 2003.
+    *The free PDF and online HTML book [[http://www.modperlbook.org/|Stas Bekman, Eric Cholet "Practical mod_perl"]].
+  *Book [[http://www.amazon.com/exec/obidos/ASIN/0596001789/hemmerling-21|Sean M. Burke "Perl & LWP"]], 2002.
+    *The free online HTML book [[http://lwp.interglacial.com/|Sean M. Burke "Perl & LWP"]], 2007.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0977920151/hemmerling-21|Chromatic: "Modern Perl"]], 2012.
+    *The free PDF book [[http://onyxneon.com/books/modern_perl/|Onyx Neon, Inc. "Modern Perl"]] " We've made available .. [[http://onyxneon.com/books/modern_perl/modern_perl_a4.pdf|Modern Perl PDF (A4)]]... The Kindle (Mobi) version is almost ready. The HTML version will be available on [[http://www.modernperlbooks.com/|Modern Perl Books]]. 
+  *Book [[http://www.amazon.com/exec/obidos/ASIN/1884777791/hemmerling-21|Damian Conway "Object Oriented Perl: A Comprehensive Guide to Concepts and Programming Techniques"]], 1999.
+    *The acompanying website [[http://www.manning.com/conway/|Manning Publications Co. "Damian Conway: Object Oriented Perl: A Comprehensive Guide to Concepts and Programming Techniques"]].
+  *Simon Cozens.
+    *Book [[http://www.amazon.com/exec/obidos/ASIN/1430227931/hemmerling-21|Simon Cozens "Beginning Perl"]], 2010.
+      *The free PDF book [[http://www.perl.org/books/beginning-perl/|Simon Cozens "Beginning Perl (free)"]].
+    *The free online HTML book [[http://www.faqs.org/docs/perl5int/|Simon Cozens "Perl 5 Internals"]], 2001.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/B00BOL8QZA/hemmerling-21|Mark Jason Dominus "Higher-Order Perl"]], 2004.
+    *The free HTML edition [[http://hop.perl.plover.com/|Mark Jason Dominus "Higher-Order Perl"]].
+  *[[http://www.ignition-training.com/booklets.html|Ignition Training LLC "Distilled Series Booklets"]] - Free PDF book "Martin Jones: Perl Distilled", 2010.
+  *Bradley M. Kuhn, Neil Smyth.
+    *The free PDF and online HTML book [[http://www.ebb.org/PickingUpPerl/|Bradley M. Kuhn "Picking Up Perl, Edition 0.12, A Freely Redistributable Perl Tutorial Book"]].
+    *The free online HTML book [[http://www.linuxtopia.org/online_books/perl/|Bradley M. Kuhn, Neil Smyth "Picking Up Perl"]].
+  *Greg London.
+    *[[http://www.lulu.com/spotlight/greglondon|Lulu "Greg London's Books"]].
+    *The free PDF and online HTML book [[http://www.greglondon.com/iperl/|Greg London "Impatient Perl"]], 2013.
+  *The free online HTML book [[http://www.cs.cf.ac.uk/Dave/PERL/|A. D. Marshall "Practical Perl Programming"]], 1999-2005.
+    *[[http://www.cs.cf.ac.uk/Dave/PERL/node117.html|A. D. Marshall "Practical Perl Programming": "Objects in Perl"]].
+      *[[http://www.cs.cf.ac.uk/Dave/PERL/node124.html|A. D. Marshall "Practical Perl Programming": "Bless the Hash and Pass the Reference"]].
+  *Book [[http://www.amazon.com/exec/obidos/ASIN/0596002661/hemmerling-21|Rob Nagler "Extreme Programming with Perl"]], 2005.
+    *The free PDF, HTML and online HTML book [[http://www.extremeperl.org/|Robert Nagler "Extreme Perl"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1118013840/hemmerling-21|Curtis Poe: "Beginning Perl"]].
+    *[[http://www.wrox.com/WileyCDA/WroxTitle/Beginning-Perl.productCd-1118013840.html|Wrox - A Wiley Brand. Programmer to Programmer "Curtis Poe: Beginning Perl"]].
+    *[[http://web.archive.org/web/*/http://ofps.oreilly.com/titles/9781118013847/index.html|Archive.org "O'Reily OFPS Open Feedback Publishing System 'Beginning Perl (Wrox)'"]] ( - 2012-08-15 ).
+    *[[http://web.archive.org/web/20120709053246/http://ofps.oreilly.com/titles/9781118013847/index.html|Archive.org "O'Reily OFPS Open Feedback Publishing System 'Beginning Perl (Wrox)'"]].
+  *The free online HTML book [[http://www.brpreiss.com/books/opus10/|Bruno R. Preiss "Data Structures and Algorithms with Object-Oriented Design Patterns in Perl"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0596002254/hemmerling-21|Dave Rolsky, Ken Williams, Jonathan Swartz "Embedding Perl in HTML with Mason"]], 2002.
+    *The free online HTML book [[http://www.masonbook.com/|Dave Rolsky, Ken Williams "Embedding Perl in HTML with Mason"]].
+  *Dave Roth.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/157870216X/hemmerling-21|Dave Roth "Win 32 Perl Programming: The Standard Extensions"
+]], 2001.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1578702151/hemmerling-21|Dave Roth "WIN32 Perl Scripting: The Administrator's Handbook"
+]], 2000.
+    *The accompanying website [[http://www.roth.net/|Roth Consulting]].
+      *[[http://www.roth.net/perl/scripts/|Roth Consulting "Perl Script Repository"]].
+  *The free PDF book [[http://bookboon.com/en/perl-for-beginners-ebook|Geoffrey Sampson "Perl for Beginners"]], a [[http://www.bookboon.com/|bookboon.com]] publication with intrusive ads.
+    *The accompanying website [[http://www.grsampson.net/|Geoffrey Sampson: Home Page]].
+
+==== Tutorials ====
+=== Tutorials recommended by "Perl Tutorial Hub" ===
+  -Free PDF of the tutorial presentation slides [[http://rjbs.manxome.org/talks/moose/|Moose is Perl: A Guide to the New Revolution]], [[http://www.oscon.com/oscon2011/public/schedule/detail/17828|O'Reilly OSCON Open Source Convention "Moose is Perl: A Guide to the New Revolution"]].
+  -[[http://www.perlmaven.com/perl-tutorial|Perl Maven "Perl tutorial"]].
+  -[[http://www.perltuts.com/|Perltuts - Interactive Perl tutorials]].
+  -Book [[http://www.amazon.de/exec/obidos/ASIN/1118013840/hemmerling-21|Curtis Poe: "Beginning Perl"]].
+    *[[http://www.wrox.com/WileyCDA/WroxTitle/Beginning-Perl.productCd-1118013840.html|Wrox - A Wiley Brand. Programmer to Programmer "Curtis Poe: Beginning Perl"]].
+    *[[http://web.archive.org/web/*/http://ofps.oreilly.com/titles/9781118013847/index.html|Archive.org "O'Reily OFPS Open Feedback Publishing System 'Beginning Perl (Wrox)'"]] ( - 2012-08-15 ).
+    *[[http://web.archive.org/web/20120709053246/http://ofps.oreilly.com/titles/9781118013847/index.html|Archive.org "O'Reily OFPS Open Feedback Publishing System 'Beginning Perl (Wrox)'"]].
+  -Book [[http://www.amazon.de/exec/obidos/ASIN/0977920151/hemmerling-21|Chromatic: "Modern Perl"]], 2012.
+    *The free PDF book [[http://onyxneon.com/books/modern_perl/|Onyx Neon, Inc. "Modern Perl"]] " We've made available .. [[http://onyxneon.com/books/modern_perl/modern_perl_a4.pdf|Modern Perl PDF (A4)]]... The Kindle (Mobi) version is almost ready. The HTML version will be available on [[http://www.modernperlbooks.com/|Modern Perl Books]]. 
+    *Blog [[http://www.modernperlbooks.com/|Modern Perl Books for modern Perl programming. To solve a problem now, reach for Perl. To solve a problem right, reach for Modern Perl]].
+  -[[http://learn.perl.org/|learn.perl.org "Learning Perl. Helping you get started with Perl 5...."]].
+  -[[http://search.cpan.org/~rjbs/perl-5.18.1/pod/perlootut.pod|CPAN "Ricardo SIGNES: perlootut - Object-Oriented Programming in Perl Tutorial"]].
+  -[[http://qntm.org/files/perl/perl.html|Sam Hughes "Learn Perl in about 2 hours 30 minutes"]].
+  -[[http://www.ignition-training.com/booklets.html|Ignition Training LLC "Distilled Series Booklets"]] - Free PDF book "Martin Jones: Perl Distilled".
+  -[[http://perldoc.perl.org/perlintro.html|perldoc.perl.org - Perl Programming Documentation "perlintro"]].
+  -Book [[http://www.amazon.de/exec/obidos/ASIN/B00BOL8QZA/hemmerling-21|Mark Jason Dominus "Higher-Order Perl"]].
+    *The free HTML edition [[http://hop.perl.plover.com/|Mark Jason Dominus "Higher-Order Perl"]].
+=== Tutorials not recommended due to Legacy ===
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0596004923/hemmerling-21|Tom Christiansen, Larry Wall, Jon Orwant: "Programming Perl"]] ( 4th Edition ).
+  *[[http://perl-seiten.homepage.t-online.de/|Eike Grote - Die Programmiersprache Perl"]], 2005 - PDF and online HTML tutorial.
+    *[[http://www.cpan.org/authors/id/E/EI/EIKEG/|CPAN "Eike Grote"]].
+  *[[http://www.troubleshooters.com/codecorn/littperl/|Troubleshooters, Code Corner "Steve Litt's Perls of Wisdom"]].
+  *[[http://www.scs.leeds.ac.uk/Perl/start.html|University of Leeds "Perl Tutorial"]].
+=== Unrated Tutorials ===
+  *[[http://evc-cit.info/cit042/|Evergreen Valley College, J. David Eisenberg "CIT 042 - Fall 2010"]].
+  *[[http://learnperl.scratchcomputing.com/|Eric Wilhelm "Learn Perl"]].
+  *[[http://www.perl-begin.org/|Shlomi Fish "Perl Beginners' Site"]].
+  *[[http://perldoc.perl.org/index-tutorials.html|perldoc.perl.org "Tutorials"]].
+  *[[http://www.cgi101.com/book/|CGI Programming 101: Learn CGI Today!]].
+  *[[http://www.perl.com/pub/2000/10/begperl1.html|Perl.com "Doug Sheppard: Beginner's Introduction to Perl"]].
+  *[[http://www.perl.org/books/beginning-perl/|Perl.com "Simon Cozens: Beginning Perl (free)"]].
+  *[[http://www.shlomifish.org/lecture/Perl/Newbies/|Shlomi Fish "Perl for Perl Newbies"]].
+  *[[http://www.sthomas.net/roberts-perl-tutorial.htm|Robert's Perl Tutorial]].
+  *[[http://perltraining.com.au/|Perl Training Australia]].
+    *[[http://perltraining.com.au/notes.html|Perl Training Australia - Course Notes]] -> "CGI Programming with Perl (pdf, 236KB, deprecated - see Web Development with Perl instead)".
+    *[[http://perltraining.com.au/talks/|Perl Training Australia - Presentations]].
+  *[[http://faq.perl.org|faq.perl.org]].
+  *[[http://juerd.nl/site.plp/perluniadvice|Juerd's site "perluniadvice"]].
+  *[[http://www.perlmeme.org/|perlmeme.org]] - "A collection of Frequently Asked Questions, "How To" documents, and tutorials about the very cool Perl programming language". 
+    *[[http://www.perlmeme.org/howtos/subroutines/perl_files.html|perlmeme.org "How do I use subroutines from other perl files in my program?"]].
+    *[[http://perlmeme.org/faqs/manipulating_text/string_characters.html|perlmeme.org "How can I access the individual characters in a string?"]].
+  *[[http://www.perl-community.de/|Deutsche PerlCommunity]].
+    *[[http://wiki.perl-community.de/|PerlCommunityWiki]].
+      *[[http://wiki.perl-community.de/Wissensbasis/Perl5Lernen|PerlCommunityWiki "Programmieren lernen mit Perl5"]].
+  *[[http://www.perl101.org/|perl101.org - Things Every Perl Programmer Should Know]].
+    *[[http://www.github.com/petdance/perl101|Github "petdance/perl101"]].
+  *[[http://jdporter.perlmonk.org/|perlmonk jdporter]].
+    *[[http://173.76.237.202:4480/users/jdporter/cgi_course/|Ovid's CGI Course - Resurrected and Updated!]].
+  *[[http://perl.about.com/|About.com "Perl"]].
+  *[[http://korflab.ucdavis.edu/Unix_and_Perl/|The Korf Lab "Unix and Perl Primer for Biologists"]].
+  *[[http://www.perlgeek.de/|perlgeek]].
+    *[[http://www.perlgeek.de/de/artikel/charsets-unicode|perlgeek "Zeichenkodierungen oder 'Warum funktionieren meine Umlaute nicht?'"]].
+  *[[http://www.slideshare.net/brian_d_foy/perl-university|SlideShare "University of Perl: Getting Started with Perl"]].
+  *The online HTML book [[http://www.cs.cf.ac.uk/Dave/PERL/|A. D. Marshall "Practical Perl Programming"]].
+  *[[http://www.vsbabu.org/tutorials/perl/|Satheesh Babu, vsbabu.org "Introduction to Perl"]].
+  *[[http://www.cs.cmu.edu/afs/cs/usr/rgs/mosaic/pl-suid.html|Robert Stockton "Setuid Scripts"]].
+  *[[http://htmlfixit.com/tutes/tute_menu.shtml|HTMLfixIT web related tutorials - HTML related tutorials available on HTMLfixIT.com]].
+  *The PDF slides [[http://www.tobez.org/presentations/perl-oop/|Anton Berezin "Object-Oriented Perl"]].
+  *[[http://www.haypocalc.com/wiki/Perl| Victor Stinner, Haypo "Perl"]].
+  *[[http://www.devdaily.com/perl/edu/|Developer's Daily - Perl Education Center]], [[http://www.devdaily.com/perl/edu/qanda/|Developer's Daily - "Perl Question and Answer Center"]] [[http://www.devdaily.com/perl/pgms/|Developer's Daily "Perl Program Center"]], [[http://www.devdaily.com/perl/recipes/|Developer's Daily "CGI.pm recipes from Developer's Daily"]].
+  *[[http://www.cs.mcgill.ca/~abatko/computers/programming/perl/howto/hash/|Alex BATKO "Perl Hash Howto"]].
+  *[[http://rexswain.com/perl5.html|Rex Swain's HTMLified Perl 5 Reference Guide]].
+  *[[http://www.t-scripts.com/perl/|T-Scripts "Perl & MySQL"]].
+  *[[http://www.perlhowto.com/|Perl HowTo. Your source for Perl tips, howto's, faq and tutorials]].
+  *[[http://www.perlfect.com/articles/|Perlfect Solutions - Perl Programming Articles, tutorials and Tips]].
+  *[[http://www.ynonperek.com/course/advanced-perl/about|Ynok Perek - An Amazing Learning Experience "Advanced Perl"]].
+  *[[http://www.higherpass.com/Perl/Tutorials/|Higherpass "Perl Tutorials]].
+  *[[http://www.alison.com/courses/Perl-Programming|ALISON. A New World of Free Certified Learning "Fundamentals of Perl Programming"]].
+  *[[http://www.misc-perl-info.com/perl-tutorial.html|misc-perl-info.com "Perl Tutorial"]].
+=== Tutorials NOT recommended by "Perl Tutorial Hub" ===
+  *[[http://www.zentut.com/perl-tutorial/|ZenTut "Perl tutorial"]].
+  *[[http://www.tizag.com/perlT/|Tizag Tutorials "Perl Tutorial"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0596004923/hemmerling-21|Tom Christiansen, Larry Wall, Jon Orwant: "Programming Perl"]] ( 4th Edition ).
+  *[[http://www.tutorialspoint.com/perl/|tutorialspoint ( TP ) "PERL Tutorial"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1449303587/hemmerling-21|Brian d foy, Randal L. Schwartz, Tom Phoenix: "Learning Perl"]] ( 6th Edition ).
+=== Resources ===
+  *[[http://www.perl-tutorial.org/|Perl Tutorial Hub]] by [[http://metacpan.org/author/MITHALDU|CPAN "Christian Walde (MITHALDU)"]], [[http://www.xing.com/profiles/Christian_Walde3|XING "Christian Walde"]], [[http://www.linkedin.com/in/christianwalde|LinkedIn "Christian Walde"]] #.
+    *[[http://perl-tutorial.org/rejected/|Perl Tutorial Hub/ rejected]] - "Not Recommended. Here are tutorials that have been looked over and can't be recommended for several reasons :-(".
+==== Teaching "use strict" Pragma from Start ====
+=== Statement ===
+  *I was told by Perl experts, that some old and current Perl books and free Perl online tutorials don´t teach Perl the right way as the autor:
+    *Doesn't introduce the "use strict" pragma in the first chapter.
+    *Tries to teach Perl by supplying Perl code samples without "use strict" pragma which are not executable anymore if you include the statement :-(.
+=== Resources ===
+  *[[http://wiki.perl-community.de/Wissensbasis/UseStrict|PerlCommunityWiki "Alle sagen, ich soll use strict verwenden, aber ich weiß gar nicht, was mir das bringt, und außerdem funktioniert mein Skript dann nicht mehr"]].
+  *[[http://www.stackoverflow.com/questions/8023959/why-use-strict-and-warnings|Stackoverflow "Why use strict and warnings?"]].
+  *[[http://www.perl.com/pub/2001/01/begperl6.html|Perl.com - news and views of the Perl programming language "Beginners Intro to Perl - Part 6"]] - "use strict", "Strict vars", "Strict subs".
+  *[[http://perldoc.perl.org/index-pragmas.html|perldoc.perl.org - Perl Programming Documentation "Pragmas"]]
+    *[[http://perldoc.perl.org/strict.html|perldoc.perl.org - Perl Programming Documentation "strict"]].
+    *[[http://perldoc.perl.org/warnings.html|perldoc.perl.org - Perl Programming Documentation "warnings"]].
+    *[[http://perldoc.perl.org/diagnostics.html|perldoc.perl.org - Perl Programming Documentation "diagnostics"]].
+  *[[http://www.tomatenstau.de/Code/|Tomatenstau "Code"]] -> Select menu item "Perl" and then a sub-item, to get to Perl contents.
+    *[[http://www.tomatenstau.de/Code/Perl/Strict/|Tomatenstau "Code::Perl::strict"]].
+==== Application Execution in Taint Mode ====
+  *[[http://perldoc.perl.org/perlsec.html|Perl Programming Documentation "perlsec"]].
+    *"Taint mode" - "You can also enable taint mode explicitly by using the -T command line flag. This flag is strongly suggested for server programs and any program run on behalf of someone else, such as a CGI script".
+  *[[http://gunther.web66.com/FAQS/taintmode.html|Gunther Birznieks "CGI/Perl Taint Mode FAQ"]].
+  *[[http://www.stackoverflow.com/questions/2228457/is-perls-taint-mode-useful|StackOverflow "Is Perl's taint mode useful?"]].
+  *[[http://en.wikipedia.org/wiki/Taint_checking|EN.Wikipedia "Taint checking"]].
+===== Perl Jobs =====
+==== Commercial Certification for Perl Skills =====
+  *[[http://www.brainbench.com/|Brainbench, Inc.]].
+    *[[http://www.brainbench.com/xml/bb/common/testcenter/consumer/freetests.xml|Brainbench, Inc. "Brainbench Free Tests"]].
+    *The free [[http://www.brainbench.com/xml/bb/common/testcenter/consumer/taketest.xml?testId=3056|Brainbench, Inc.  "Perl 5.4 test"]].
+    *The free [[http://www.brainbench.com/xml/bb/common/testcenter/consumer/taketest.xml?testId==2985|Brainbench, Inc.  "Perl 5.12 test"]].
+==== Jobs ====
+  *[[http://jobs.perl.org/|jobs.perl.org - The Perl Job site]].
+  *[[http://jobs.perl.com/|jobs.perl.com - Perl.com Jobs]].
+  *[[http://www.perl-begin.org/learn/get-a-job/|Shlomi Fish, Perl Beginners' Site "Get a Job Doing Perl"]].
+===== Perl Experts =====
+  *[[http://www.linuxia.de/|Stefan Hornberg, LinuXia Systems]], Hannover - Perl expert since 1992.
+  *Marcos Rebelo ( [[http://www.oleber.com/|Oleber homepage - Marcos Rebelo]], [[http://www.xing.com/profile/Marcos_Rebelo|XING "Marcos Rebelo"]], [[http://www.linkedin.com/in/oleber|LinkedIn "Marcos Rebelo"]], [[https://plus.google.com/106869729900377567892/|Google Plus "Marcos Rebelo"]], [[http://www.slideshare.net/mobile/oleber|Slideshare "Marcos Rebelo (oleber)"]] ).
+===== Videos =====
+  *[[http://www.google.ca/search?tbm=vid&as_q=perl&as_eq=jam+hotel+hille+pokemon+pokémon+vergeht+jakobsweg+"perl-haag"+mathias+sabrina+großübung+marc+friederike+gabi+a8+philipp+curdin+tatort+dragon+hitzeschutz+perl/weiß+brady+atomkraft+jude+"x-perl"+rebecca+harbor+saarland|Google - Search for "Perl" videos, but not for '-jam -hotel -hille -pokemon -pokémon -vergeht -jakobsweg -"perl-haag" -mathias -sabrina -großübung -marc -friederike -gabi -a8 -philipp -curdin -tatort -dragon -hitzeschutz -perl/weiß -brady -atomkraft -jude -"x-perl" -rebecca -harbor -saarland']].
+===== Perl Hosting =====
+==== Hosters ====
+  *[[http://www.df.eu/de/|domainfactory GmbH]].
+    *[[http://www.df.eu/de/service/df-faq/webhosting/skriptsprachen/perl/|domainfactory GmbH "Perl"]].
+  *[[http://www.hetzner.de/|Hetzner Online AG]].
+    *[[http://www.hetzner.de/hosting/produktmatrix/webhosting-produktmatrix|Hetzner Online AG "Produktmatrix Webhosting"]].
+      *"Perl, Python".
+      *"Interaktiver Server-Login via SSH".
+    *[[http://wiki.hetzner.de/index.php/Robot-Schnittstellen|Hetzner DokuWiki "Robot-Schnittstellen"]] -> "Perl".
+    *[[http://wiki.hetzner.de/index.php/KonsoleH:Pfade_zu_h%C3%A4ufig_verwendeten_Programmen|Hetzner DokuWiki "Pfade zu häufig verwendeten Programmen"]] -> "Perl-Interpreter".
+  *[[http://www.hosteurope.de/|Host Europe GmbH]].
+    *[[http://faq.hosteurope.de/index.php?cpid=10971|Host Europe GmbH - FAQ "Skripte (cgi, perl, php, Webanwendungen)"]].
+      *[[http://faq.hosteurope.de/index.php?cpid=11001|Host Europe GmbH - FAQ "CGI/Perl"]].
+  *[[http://www.keyweb.de/|Keyweb AG]].
+    *[[http://www.keyweb.de/webhosting/keyweb-profi.shtml|Keyweb AG "Keyweb® Profi"]].
+      *"Cgi/Perl Features zum ausführen eigener Scripte".
+    *[[http://www.keyweb.de/webhosting/keyweb-premium.shtml|Keyweb AG "Keyweb® Premium"]].
+      *"Cgi/Perl Features zum ausführen eigener Scripte".
+      *"SSH Zugang".
+  *[[http://www.linode.com/|Linode - Xen VPS Hosting]].
+==== Resources ====
+  *The most important criteria for Perl hosting is “SSH access" / "Interactive server login via SSH” / "shell access" / "access by console".
+  *[[http://aruljohn.com/freeshell/|aruls's utilities "Free Unix and Linux Shell Accounts. free ssh access to *nix accounts"]].
+  *[[http://forum.telekom.de/foren/read/service/homepage-shop/sonstiges/homepage-basic-perl-prozess-maximal-10-sekunden,175,8509339.html|Telekom Deutschland GmbH Service-Forum, Thread "Homepage Basic - perl Prozess maximal 10 Sekunden"]], 2012-06 - "Aktuell ist der Timeout für PERL-Skripte konfigurativ auf 10 sek. CPU-Zeit beschränkt.
+===== Resources =====
+  *[[http://code.activestate.com/recipes/|ActiveState Recipes]].
+    *[[http://code.activestate.com/recipes/langs/|ActiveState Code / Recipes "Recipe languages"]].
+      *[[http://code.activestate.com/recipes/langs/perl/|ActiveState Code / Recipes "Popular Perl recipes"]].
+  *[[http://www.perl-nachrichten.de/|Renée Bäcker "Perl-Neuigkeiten - Deutschsprachige Perl-News"]].
+  *[[http://www.perlarchive.com/|Creative Fundamentals, Inc. "Perl Archive"]].
+  *[[http://www.perl-community.de/|Deutsche Perl-Community]].
+    *[[http://wiki.perl-community.de/|Deutsche Perl-Community - Wiki]].
+      *[[http://wiki.perl-community.de/Perldoc/|Deutsche Perl-Community - Wiki "Das Perldoc Web"]].
+      *[[http://wiki.perl-community.de/Wissensbasis/PerlTutorials|Deutsche Perl-Community - Wiki "Perl-Tutorials"]].
+  *[[http://www.perl-workshop.de|Deutscher Perl-Workshop]].
+  *[[http://www.devshed.com/c/b/Perl/|Dev Shed "Perl Tutorials"]].
+  *[[http://www.duehl.de/christian/perl/|Christian Dühl "Perlseite von Christian Dühl"]].
+  *The german paper magazine [[http://www.perl-magazin.de/|$foo - Perl-Magazin. DAS Magazin für den Perl-Entwickler!]].
+  *The austrian paper magazin [[http://perl-zeitung.at.tf/|Gernot Havranek "Perl-Zeitung. Die zweite deutschprachige Zeitschrift zum Thema Perl"]].
+  *[[http://michaelgoerz.net/refcards/|Michael Goerz]].
+    *[[http://www.michaelgoerz.net/refcards/perl_refcard.pdf|Michael Goerz "Perl Reference Card version 2, (cl) 2008"]] ( PDF ) #.
+  *[[http://www.hits4me.com/cgi_forum.php|Hits4me.com. Webmaster Resource Directory "CGI + Perl. Forums + Discussion Boards"]] - Links to discussion board software, which are written in Perl.
+  *[[http://www.getcruising.com/crypt/|GetCruising.com "Joe's Free CGI Scripts From The Crypt"]] - Perl scripts.
+  *The free Perl tutorial [[http://qntm.org/files/perl/perl.html|Sam Hughes "Learn Perl in about 2 hours 30 minutes"]].
+  *[[http://www.cs.tut.fi/~jkorpela/perl/course.html|Jukka "Yucca" Korpela "Perl Lessons"]].
+  *Jochen Laser "Noch ein PERL Tutorial", 2002.
+    *[[http://web.archive.org/web/*/http://xlab.net/jochen/perl/|Archive.org "Jochen Laser: Noch ein PERL Tutorial"]].
+    *[[http://weblog.ib.hu-berlin.de/~mh/software/Perl-Tutorials/Perl_Tutorial_Laser/perl.html|Humboldt-Universität zu Berlin, MH "Jochen Laser: Noch ein PERL Tutorial"]].
+      *[[http://weblog.ib.hu-berlin.de/~mh/software/Perl-Tutorials/Perl_Tutorial_Laser/perl-5.html|Humboldt-Universität zu Berlin, MH "Jochen Laser: Noch ein PERL Tutorial, 5. PERL Objekte"]].
+  *[[http://www.scriptarchive.com/|Matt's Script Archive]] - Perl scripts.
+  *[[http://www.onlinecomputersciencedegree.com/|Online Computer Science Degree "PERL Resources"]].
+  *[[http://www.perl.de/|Perl.de - Community]].
+  *[[http://www.perl.com/|Perl.com]].
+  *Blog [[http://blogs.perl.org/|blogs.perl.org - There is more than one way to blog it]] #
+    *[[http://blogs.perl.org/mt/mt-search.fcgi?limit=20&search=gpw2014|blogs.perl.org - There is more than one way to blog it - Search for "gpw2014"]].
+  *Blog [[http://www.perlhacks.com/|Perl Hacks. Just another Perl Hacker's blog]].
+  *[[http://www.perlscripten.de/|perlscripten.de]].
+  *[[http://perl-signals.tumblr.com/|Perl Signals]].
+  *[[http://www.perlunity.de/perl/tutorial/perl_start.shtml|perlUNITY "Roland Dietlicher: Einstieg in die Perl-Programmierung"]].
+  *[[http://progzoo.net/wiki/Perl:Tutorials|Progzoo "Perl:Tutorials"]].
+  *The newsletter archive [[http://www.perlweekly.com/archive/|Perl Weekly]] ( 2011-08-01 - ).
+  *[[http://www.cgi-resources.com/|The Resource Index Online Network]] - "The Resource Index Online Network".
+    *[[http://php.resourceindex.com/|The PHP Resource Index]].
+    *[[http://cgi.resourceindex.com/|The CGI Resource Index]] - "Programs and Scripts. Thousands of pre-made CGI's written in Perl, C, C++, and other languages!".
+  *[[http://www.scriptsunited.de/kategorie/perl-scripts|Scripts United "Perl Scripts"]].
+  *[[http://de.selfhtml.org/perl/index.htm|SelfHTML "Perl"]].
+  *[[http://www.socialtext.net/perl5/german|SocialText "Perl5 - German"]].
+  *[[http://www.webster.de/|Webster's Webmaster Archiv]].
+    *[[http://www.webster.de/CGI_und_Perl/|Webster's Webmaster Archiv "CGI und Perl"]].
+  *[[http://theory.uwinnipeg.ca/CPAN/perl/pod/|Theoretical Physics at the University of Winnipeg "perltoc - perl documentation table of contents"]].
+  *[[http://www.dtp-aus.com/htmscprm.html|Ron F Woolley "Perl Scripts Lab"]].
+  *[[http://de.wikibooks.org/wiki/Perl-Programmierung|Wikibooks "Perl-Programmierung"]].
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/Perl|EN.Wikipedia "Perl"]], [[http://de.wikipedia.org/wiki/Perl_%28Programmiersprache%29|DE.Wikipedia "Perl (Programmiersprache)"]].
+    *[[http://en.wikipedia.org/wiki/Larry_Wall|EN.Wikipedia "Larry Wall"]], [[http://de.wikipedia.org/wiki/Larry_Wall|DE.Wikipedia "Larry Wall"]].
+    *[[http://en.wikipedia.org/wiki/Perl_package_manager|EN.Wikipedia "Perl package manager"]], [[http://de.wikipedia.org/wiki/Perl_Package_Manager|DE.Wikipedia "Perl Package Manager"]].
+  *[[http://d.hatena.ne.jp/yukikimoto/|Hatena::Diary, Yukikimoto "Perl5 Guides for perl newbie"]].
+===== Forums, Newsgroups, Communities =====
+  *[[http://community.activestate.com/forum|Activestate Community, Forum]] - Perl, Python & Tcl/Tk forums.
+  *[[http://www.bytes.com/topic/perl/|Bytes IT Community "Perl Forum"]].
+  *[[http://forum.chip.de/batch-shell-phyton-perl-191/|CHIP Online Forum "Batch, Shell, Phyton, Perl, ... "]].
+  *[[http://www.coding-board.de/forumdisplay.php/17-Perl|coding-board - Das Forum für Programmierer "Perl"]].
+  *[[http://www.codetoad.com/forum/forum25.asp|CodeToad Forums "Perl Forum"]]. 
+  *[[http://www.easy-coding.de/perl.html|easy-coding - Coder Forum "Perl. Wenn es um den 'Klassiker' Perl geht, ist dies das richtige Forum"]].
+  *[[http://www.perl-community.de/|Deutsche Perl-Community]].
+    *[[http://www.perl-community.de/bat/poard|Deutsche Perl-Community - Forum]].
+  *[[http://www.devppl.com/forum/cgi-and-perl-forum-vf41.html|DEVPPL "CGI and Perl Forum"]].
+  *[[http://www.facebook.com/pages/Hannoverpm/379383308816674|Facebook "Hannover.pm"]].
+  *[[http://forums.devshed.com/perl-programming-6/|Dev Shed Forums "Perl Programming"]].
+  *Facebook.
+    *[[http://www.facebook.com/PerlWeekly|Facebook "Perl Weekly"]].
+    *[[http://www.facebook.com/perlgsoc|Facebook "Perl - Google Summer of Code"]], 2012.
+    *[[http://www.facebook.com/tpf.perl|Facebook "The Perl Foundation"]].
+  *[[http://forum.fhem.de/|Fhem Forum]].
+  *[[http://www.go4expert.com/forums/perl/|Go4Expert Forums "Perl Programming Forums"]].
+  *Google.
+    *Google Groups.
+      *[[http://groups.google.com/group/comp.lang.perl.misc|Google Groups "comp.lang.perl.misc"]], [[http://groups.google.com/group/de.comp.lang.perl.misc/|Google Groups "de.comp.lang.perl.misc"]], [[http://groups.google.com/group/comp.lang.perl.moderated|Google Groups "comp.lang.perl.moderated"]], [[http://groups.google.com/group/comp.lang.perl.modules|Google Groups "comp.lang.perl.modules"]].
+      *[[http://groups.google.com/group/mojolicious|Google Groups "Mojolicious"]].
+      *[[http://groups.google.com/group/fhem-users|Google Groups "fhem-users"]], [[http://groups.google.com/group/fhem-developers|Google Groups "fhem-developers"]], [[http://groups.google.com/group/cul-fans|Google Groups "cul-fans"]].
+    *Google+.
+      *[[http://plus.google.com/communities/114625668700366148486/|Google + Communities "Perl 5. There Is More Than One Way To Do IT"]].
+      *[[http://plus.google.com/103770494517400555954/posts|Google+ "Hannover.pm"]].
+      *[[http://plus.google.com/102874059713383300948/posts|Google+ "Perl Weekly"]].
+  *[[http://www.gossamer-threads.com/forum/General_C8/Perl_Programming_F14/|Gossamer Forum, Subforum "Perl Programming"]].
+  *[[http://www.hilfdirselbst.ch/foren/gforum.cgi?forum=18|HilfDirSelbst.ch "Programmierung/Entwicklung / Perl und CGI"]].
+  *[[http://www.imagemagick.org/discourse-server/|ImageMagick Board]].
+    *[[http://www.imagemagick.org/discourse-server/viewforum.php?f=7|ImageMagick Board, Subforum "PerlMagick"]].
+  *The read-only "Inspire-World Forum".
+    *[[http://www.inspire-world.de/board/forumdisplay.php?f=11|Inspire-World Forum "Cgi und Perl Forum"]].
+    *[[http://www.inspire-world.de/board/forumdisplay.php?f=41|Inspire-World Forum "CGI und Perl + Ajax"]].
+  *[[http://www.informationsarchiv.net/categories/152/|Informationsarchiv - Forum "Perl-Hilfe - Perl-Support"]].
+  *[[http://www.coderanch.com/forums/f-111/perl|Java Ranch - a friendly place for Java greenhorns! "Perl"]].
+  *[[http://perl.livejournal.com/|Livejournal "perl's Journal"]].
+  *[[http://forum.mysqldumper.de/perl-f27.html|MySQLDumper-Board "Perl"]].
+  *[[http://www.perlboard.de/|Perlboard - Das Forum für den Perl-Programmierer]].
+  *The read-only [[http://www.perl.de/forum|Perl.de - Community, Forum]].
+  *[[http://www.perlguru.com/gforum.cgi?username=hemmerling|PerlGuru Forums]].
+  *[[http://www.perlhowto.com/forum|Perl HowTo Forum]].
+  *[[http://www.perlmonks.org/|Perl Monks - The Monastery Gates]].
+    *[[http://perlmonks.org/index.pl?node=The+Perl+Monks+Guide+to+the+Monastery|Perl Monks - The Monastery Gates "The Perl Monks Guide to the Monastery"]].
+    *[[http://perlmonks.org/index.pl?node_id=483077|Perl Monks - The Monastery Gates "Posting on PerlMonks"]].
+  *The list of Perl mailing lists [[http://www.nntp.perl.org/group/|Perl.org - List of lists]].
+  *[[http://www.perlunity.de/cgi-bin/forum/forum.cgi|perlUNITY - Community]].
+  *[[http://www.programmersheaven.com/mb/perl/|Programmer's Heaven "Perl Forum"]].
+  *[[http://www.programmingforums.org/forum21.html|ProgrammingForums.org. A <DANIWEB> sister site "Perl"]].
+  *The read-only [[http://www.roth.net/forums/|Roth Consulting "Windows Perl Scripting Forums"]].
+  *[[http://www.sitepoint.com/forums/forumdisplay.php?36-Perl-amp-Python|SitePoint Forum: Perl & Python]].
+  *Spotlight.de.
+    *[[http://www.spotlight.de/life/forum/44-1.html|Spotlight.de "Perl"]].
+    *[[http://www.spotlight-wissen.de/archiv/forum/44-1.html|Spotlight.de Archiv "Perl"]].
+    *[[http://www.spotlight.de/life/tipp/Perl/forum-44-1.html|Spotlight.de "Perl Tipps, Tricks und Meinungen"]].
+  *[[http://www.stackoverflow.com/questions/tagged/perl|Stack Overflow - Tagged Questions "[perl]"]].
+  *[[http://www.tek-tips.com/threadminder.cfm?pid=219|Tek-Tips "Perl Forum"]].
+  *[[http://forums.tutorialized.com/perl-and-cgi-90/|Tutorialized Forums " Perl and CGI"]].
+  *[[http://www.webdeveloper.com/forum/forumdisplay.php?4-Perl-Python-Ruby|Webdeveloper Forum "Perl/Python/Ruby"]].
+  *WROX.
+    *[[http://p2p.wrox.com/perl-196/|Wrox Programmer Forums "Perl"]].
+    *[[http://p2p.wrox.com/book-beginning-perl-718/|Wrox Programmer Forums "BOOK: Beginning Perl"]].
+  *XING.
+    *[[http://www.xing.com/net/hannover_pm|XING "Hannover.pm"]].
+    *[[http://www.xing.com/net/hamburgpm|XING "Perlmongers Hamburg"]].
+    *[[http://www.xing.com/net/perl/|XING "Perl-Programmierung"]].
+  *[[http://tech.groups.yahoo.com/group/extremeperl/|Yahoo Groups "Extreme Perl"]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Programming/Languages/Perl/|OpenDirectory "Top: Computers: Programming: Languages: Perl]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Programmieren/Sprachen/Perl/|OpenDirectory "Top: World: Deutsch: Computer: Programmieren: Sprachen: Perl"]].
+ {{tag>"Unix script language" "script language" Perl}}
+<footnote_navi_en>

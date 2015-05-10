@@ -1,0 +1,128 @@
+====== [hemmerling] Tcl / Tk ( tickle ) ======
+===== Conferences =====
+  *[[http://www.eurotcl.tcl3d.org/|European Tcl/Tk User Meeting]].
+    *[[http://plus.google.com/u/0/events/cdr30rtpprf2052g7pdck2ohrbs|Google+ "11th European Tcl/Tk User Meeting"]] in Munich, 2013-07-06.
+    *[[https://plus.google.com/u/0/events/cmla671g4n9b2448at6nmlimef4|Google+ "12th European Tcl/Tk User Meeting"]] in Munich, 2014-07-12 - 2014-07-13.
+===== Runtime =====
+  *[[http://www.activestate.com/activetcl/|ActiveTcl Community Edition]] - Tcl for Windows.
+    *[[http://docs.activestate.com/activetcl/|ActiveTcl User Guide]].
+    *ActiveTcl Community Edition 8.5.17 ( TCL 8.5, TK 8.5 ) is the latest edition for W2k.
+    *ActiveTcl Community Edition 8.6 is just for WinXP and newer.
+  *The free online service [[http://www.codepad.org/|Steven Hazel "Codepad"]] - "Online compiler/interpreter ( for C, C++, D, Haskell, Lua, OCaml, PHP, Perl, Plain Text, Python, Ruby, Scheme, **Tcl** ) and a simple collaboration tool. Paste your code below, and codepad will run it and give you a short URL you can use to share it in chat or email".
+  *[[http://jim.tcl.tk/|The Jim Interpreter. A small footprint implementation of the Tcl programming language (jim.tcl.tk)]].
+  *The outdated [[http://www.tcl.tk/software/plugin/|Tcl Developer Xchange "Tcl Plugin"]], [[http://tclplugin.sourceforge.net/|SourceForge "Tcl/Tk Plugin"]], [[http://www.sourceforge.net/projects/tclplugin|SourceForge "Tcl/Tk Plugin"]] for Firefox. Does not work with current Firefox versions ( e.g. Firefox 12, 13,..).
+===== IDEs, GUI Builders, Tools =====
+==== IDEs ====
+  *The repository tool "Teacup".
+    *The public repository directory [[http://teapot.activestate.com/|ActiveState Teapot]].
+    *"Teacup" is shipped with ActiveTcl distribution at "C:\Program Files\Tcl\bin\teacup.exe".
+    *[[http://wiki.tcl.tk/7579|Tclers Wiki "Teapot"]].
+  *The commercial IDE [[http://www.neatware.com/myrmecox/|MyrmecoX]].
+  *The OpenSource [[http://expect.sourceforge.net/|Sourceforge "Expect"]], [[http://www.sourceforge.net/projects/expect/|Sourceforge "Expect"]], [[http://www.nist.gov/el/msid/expect.cfm|National Institute of Standards and Technology (NIST) "Expect"]] - "a tool for automating interactive applications such as telnet, ftp, passwd, fsck, rlogin, tip, etc. Also useful for testing these same applications".
+==== GUI Building Tools ====
+==== Resources ====
+  *[[http://wiki.tcl.tk/4056|Tcler's Wiki "GUI Building Tools"]].
+===== Applications =====
+  *The OpenSource [[http://reddog.s35.xrea.com/wiki/TkSQLite.html|TkSQLite]] - "A GUI database manager for SQLite implemented by Tcl/Tk".
+===== Frameworks, Libraries =====
+  *[[http://tcl.sourceforge.net/|SourceForge "Tcl/Tk @ SF"]], [[http://www.sourceforge.net/projects/tcl|SourceForge "Tcl"]] - "The core development home for Tcl (Tool Command Language, pronounced tickle) and the Tk toolkit".
+  *[[http://tcllib.sourceforge.net/|SourceForge "tcllib"]], [[http://www.sourceforge.net/projects/tcllib|SourceForge "tcllib"]] - "The core development home for the tcllib standardized Tcl library".
+  *[[http://tcl-foundry.sourceforge.net/|SourceForge "Tcl Foundry"]], [[http://www.sourceforge.net/projects/tcl-foundry/|SourceForge "Tcl Foundry"]].
+  *[[http://core.tcl.tk/|Tcl Source Code ( core.tcl.tk )]].
+  *The OpenSource [[http://simpledevlib.sourceforge.net/|SourceForge "The Simple Development Library. A collection of packages and utilities for Tcl development"]], [[http://www.sourceforge.net/projects/simpledevlib|SourceForge "The Simple Development Library"]].
+===== Testing =====
+  *See [[testing.html|Testing]].
+===== Literature =====
+==== Books about Tcl/TK ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/007913713X/hemmerling-21|Steven Ball: "Web Tcl Complete, w. CD-ROM"]] ( 1998 ).
+  *[[http://www.msen.com/~clif/Tcl.html|Clif Flynt]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1558608028/hemmerling-21|Clif Flynt: "Tcl/Tk. A Developer's Guide"]] ( 2003 ) / [[http://www.amazon.de/exec/obidos/ASIN/0123847176/hemmerling-21|Clif Flynt: "Tcl/Tk. A Developer's Guide"]] ( 2012 ) #.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0122612051/hemmerling-21|Clif Flynt: "Tcl/Tk for Real Programmers, w. CD-ROM"]] ( 1998 ).
+    *The accompanying website for the 2.nd edition of the book [[http://www.msen.com/~clif/DevGuide.html|Tcl/Tk: A Developer's Guide]].
+    *[[http://noucorp.com/cgi-bin/noucorp/generic.tcl?dir=/var/www/html/tcl/login|Noumena Corporation "Tclsh Spot summaries and code"]].
+    *[[http://store.elsevier.com/product.jsp?isbn=9780123847171|Elsevier store "Tcl/Tk, 3rd Edition. A Developer's Guide"]] -> Free downloads: 
+      *Online Companion Materials.
+      *Instructor Ancillary Support Materials.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1558515690/hemmerling-21|Eric Foster-Johnson: "Graphical Applications with Tcl and Tk, w. CD-ROM"]] ( 1998 ).
+  *Mark Harrison.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1565922182/hemmerling-21|Mark Harrison: "Tcl/ Tk Tools"]] ( 1997 ).
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0201634740/hemmerling-21|Mark Harrison, Michael J. McLennan: "Effective TCL/TK Programming: Writing Better Programs with TCL and TK: Writing Better Programs in TCL and TK"]] ( 1998 ).
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3827314097/hemmerling-21|Mark Harrison, Michael J. McLennan: "Effektiv Tcl/Tk programmieren"]] ( 1998 ).
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0130385603/hemmerling-21|Jeffrey Hobbs, Brent B. Welch: "Practical Programming in Tcl and Tk"]] ( 2003 ).
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0471327522/hemmerling-21|Steven Holzner: "Web Development with Tcl/Tk 8.1"]] ( 1999 ).
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1849510962/hemmerling-21|Wojciech Kocjan, Piotr Beltowski: "Tcl 8.5 Network Programming "]] ( 2010 ) #.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1565920902/hemmerling-21|Don Libes: "Exploring EXPECT: A TCL Based Toolkit for Automating Interactive Programs (Nutshell Handbooks)"]] ( 1994 ).
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0201606291/hemmerling-21|David Maggiano: "CGI Programming with Tcl, w. CD-ROM"]] ( 2000 ).
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0072120045/hemmerling-21|Christopher Nelson: "Tcl/Tk Programmer's Reference "]] ( 1999 ).
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3893197931/hemmerling-21|Ousterhout: "Tcl und Tk. Entwicklung grafischer Benutzerschnittstellen für X Window System"]] ( 1995 ).
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0130807273/hemmerling-21|Gerard Puoplo, Dave Zeltserman: "Building Network Management Tools with TCL/TK"]] ( 1998 ).
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1565924339/hemmerling-21|Paul Raines, Jeff Tranter: "TCL/TK in a Nutshell (In a Nutshell )"]] ( 1999 ).
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0672317494/hemmerling-21|Venkat V. S. S. Sastry, Lakshmi Sastry: "Sams Teach Yourself Tcl/Tk in 24 Hours"]] ( 1999 ).
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0072121068/hemmerling-21|Chad Smith: "[Incr Tcl/Tk] from the Ground Up"]] ( 1999 ).
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3826628721/hemmerling-21|Timothy Webster, Alex Francis: "Tcl/Tk für Dummies, m. CD-ROM "]] ( 2000 ).
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1849512981/hemmerling-21|Bert Wheeler: "Tcl/Tk 8.5 Programming Cookbook"]] ( 2011 ) #.
+  *Brent Welch.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3827295297/hemmerling-21|Brent B. Welch: "Praktisches Programmieren in Tcl und Tk"]] ( 1996 ).
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0130830666/hemmerling-21|Brent Welch: "Complete TCL and TK Training Course, Student Edition"]] ( 1998 ).
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0818685158/hemmerling-21|J. Adrian Zimmer, Atrian J. Zimmer: "TCL/TK for Programmers with Solved Exercises That Work with Unix & Windows"]] ( 1998 ).
+==== Books about Tkinter ====
+  *The Tkinter module ( "Tk interface" ) is the standard Python interface to the Tk GUI toolkit from Scriptics ( formerly developed by Sun Labs ).
+  *Fredrik Lundh.
+    *The free PDF and HTML book [[http://web.archive.org/web/*/http://www.pythonware.com/library/an-introduction-to-tkinter.htm|Fredrik Lundh "An Introduction to Tkinter"]] as of 1999 ( - 2012-11-10 ).
+    *The **free HTML book** [[http://www.effbot.org/tkinterbook/|Fredrik Lundh "An Introduction to Tkinter"]] as of 2005-11.
+  *The **free PDF an online HTML book** [[http://infohost.nmt.edu/tcc/help/pubs/tkinter/|John W. Shipman "Tkinter 8.5 reference: a GUI for Python"]].
+===== Videos =====
+    *[[http://www.google.ca/search?tbm=vid&as_q=tcl/tk|Google - Search for "tcl/tk" videos]].
+===== TCL Hosting =====
+  *[[http://www.hosteurope.de/|Host Europe GmbH]].
+    *[[http://faq.hosteurope.de/index.php?cpid=10971|Host Europe GmbH - FAQ "Skripte (cgi, perl, php, Webanwendungen)"]].
+      *[[http://faq.hosteurope.de/index.php?cpid=13385|Host Europe GmbH - FAQ "Tcl"]].
+===== Resources =====
+  *[[http://code.activestate.com/recipes/|ActiveState Recipes]].
+    *[[http://code.activestate.com/recipes/langs/|ActiveState Code / Recipes "Recipe languages"]].
+      *[[http://code.activestate.com/recipes/langs/tcl/|ActiveState Code / Recipes "Popular Tcl recipes"]].
+  *[[http://www.tcl-tk.de/|Tilo Bigalke, tcl-tk.de]].
+  *[[http://foster-johnson.com/|Eric Foster-Johnson]] - Tcl/Tk expert.
+  *[[http://parallel.fh-bielefeld.de/pv/studien/tcl+tk/inhalt.html|Fachhochschule Bielefeld, Laborbereich für Technische Informatik - Studienarbeit "Einführung in Tcl/Tk"]].
+  *[[http://www.microemacs.de/tcltk.html|Detlef Groth "TclTk"]] by [[http://www.microemacs.de/|Detlef Groth]].
+  *[[http://www.noucorp.com/|Noumena Corporation]].
+    *[[http://noucorp.com/cgi-bin/noucorp/generic.tcl?dir=/var/www/html/tcl|Noumena Corporation "TCL/TK"]].
+  *[[http://www.self-tcl.de/|Self-Tcl.de  - Tcl / Tk ( tickle )]].
+    *[[http://www.self-tcl.de/buecher.php|Self-Tcl.de  - Tcl / Tk ( tickle ) "Für Programmierer und Entwickler. Bücher zu Tcl/Tk (tickle)"]] ( 1/2 ).
+    *[[http://www.self-tcl.de/buecher2a.php|Self-Tcl.de  - Tcl / Tk ( tickle ) "Bücher zu Tcl/Tk (tickle)"]] ( 2/2 ).
+  *[[http://www.tclcommunityassociation.org/|Tcl Community Association]].
+  *[[http://www.tcl.tk/|Tcl Developer Xchange]].
+    *The current [[http://wiki.tcl.tk/|Tcler's Wiki]].
+      *[[http://wiki.tcl.tk/1365|Tcler's Wiki "NeoSoft"]].
+      *[[http://wiki.tcl.tk/4056|Tcler's Wiki "GUI Building Tools"]].
+    *Wiki [[http://wiki.tcl.tk/|Tcler's Wiki]].
+    *[[http://www.tcl.tk/man/tcl8.5/tutorial/tcltutorial.html|Tcl Developer Xchange - Tutorial]].
+    *[[http://www.tcl.tk/doc/|Tcl Developer Xchange - Tcl/Tk Documentation]].
+    *[[http://www.tcl.tk/about/uses.html|Tcl Developer Xchange - Uses of Tcl]].
+  *The legacy [[http://wayback.archive.org/web/*/http://www.mini.net/tcl/|Archive.org "Tcl'ers Wiki"]].
+    *[[http://wayback.archive.org/web/*/http://www.mini.net/tcl/1772|Archive.org "Tcl'ers Wiki: event-oriented programming"]].
+    *[[http://wayback.archive.org/web/*/http://www.mini.net/tcl/1904|Archive.org "Tcl'ers Wiki: Threads vs. events"]].
+  *[[http://www.tkdocs.com/|TkDocs - Information you need to build high-quality Tk user interfaces]].
+    *[[http://www.tkdocs.com/tutorial/|TkDocs "Tk Tutorial"]] #.
+  *[[http://en.wikipedia.org/wiki/Tcl|EN.Wikipedia "Tcl"]], [[http://de.wikipedia.org/wiki/Tcl|DE.Wikipedia "Tcl"]].
+  *[[http://www.zetcode.com/|ZetCode Tutorial]].
+    *GUI: "Tkinter tutorial", "Tcl/Tk tutorial".
+    *Languages: "Tcl tutorial".
+===== Forums, Newsgroups =====
+  *[[http://community.activestate.com/forum|Activestate Community, Forum]] - Perl, Python & Tcl/Tk forums.
+  *[[http://groups.google.com/group/comp.lang.tcl|Google Groups "comp.lang.tcl"]], [[http://groups.google.com/group/comp.lang.perl.tk|Google Groups "comp.lang.perl.tk"]], [[http://groups.google.com/group/comp.lang.tcl.announce/|Google Groups "comp.lang.tcl.announce"]].
+  *[[http://plus.google.com/communities/111418066707608116519|Google+"Tcl/Tk Users"]].
+  *LinkedIn.
+    *[[http://www.linkedin.com/groups?gid=3187249|LinkedIn "Tcl/Tk Users Group"]].
+    *[[http://www.linkedin.com/groups?gid=1795660|LinkedIn "TED: Tcl/Tk EDA Development"]].
+    *[[http://www.linkedin.com/groups?gid=734207|LinkedIn "Tcl-Expect"]].
+  *[[http://www.self-tcl.de/forum/|Self-Tcl.de - TCL/TK Forum]].
+  *[[http://www.stackoverflow.com/questions/tagged/tcl|Stack Overflow - Tagged Questions "[tcl]"]], [[http://www.stackoverflow.com/questions/tagged/tk|Stack Overflow - Tagged Questions "[tk]"]].
+  *[[http://wiki.tcl.tk/4207|Tcler's Wiki "Tcl User Groups"]].
+    *[[http://www.tugm.de/|Tcl'ers User Group Munich]].
+  *[[http://www.xing.com/net/tclug|XING "Tcl User Group"]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Programming/Languages/Tcl-Tk/|OpenDirectory "Top: Computers: Programming: Languages: Tcl-Tk]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Programmieren/Sprachen/Tcl-Tk/|OpenDirectory "Top: World: Deutsch: Computer: Programmieren: Sprachen: Tcl-Tk"]].
+ {{tag>"Unix script languages" "script languages" "script language" "Tcl / Tk" Tcl Tk tickle}}
+<footnote_navi_en>

@@ -1,0 +1,190 @@
+====== [hemmerling] How to achieve Reputation with a public Software Project - Criteria & Proceedings ======
+===== Foreword =====
+  *I just noted here some useful criteria and proceedings to help you to select your own project, with the goal to achieve reputation as IT developer, by a public project.
+  *I don´t know which selection has the best success chances.
+  *Especially I don´t know with which concrete product I might get a "quick win". 
+  *Of course a first working alpha version, with some customer benefit, is a major goal. So some quick codewriting is useful, definitely, in comparison to produce an number of papers and UML diagrams, but no working code ( see Xtreme programming principles, [[http://agilemanifesto.org/|Manifesto for Agile Software Development]] ).
+===== Guideline "Work less. Do more. Make awesome" =====
+  *The guidline for my work shall always be "Work less. Do more. Make awesome" :-).
+===== 1 Major Issues =====
+==== 1.1 Customers =====
+Basic guideline: It is mandatory to find a useful benefit for the customers of your product. 
+  *So what is a serious customer's need, which is not satisfied by popular free / OpenSource products ? 
+  *But maybe just by expensive commercial products ? 
+  *Think of special industries and niche markets where there is no free software, and the manpower to create a product is still low, so that you can achieve a success with just 6 .. 12 man-months of unpaid work ?!
+  *Maybe it is a good idea not to compete with major well-accepted free / OpenSource products. 
+    *So probably the chances to create a competitor of OpenOffice are low. 
+    *But on other smaller niche markets, if there are just 1 or 2 free products, there might be a chance for you, if you have a different approach or just start 10 years later and must not hasse with old code..
+Select:
+  -Product for developers.
+    -Executable tool, primarily used for development of software or hardware, by system engineers and software developers.
+    -Framework, to be integrated in software of software developers.
+      *Example: TCP/IP V6 stack.
+      *Warning: You need to attract customers, instantly who really want to depend on your product, by using its API in their own products.
+      *Warning: You might be overrun by third parties, who develop the product faster and independantly from you. You might loose the reputation and leadership.
+  -Product for buiness or scientifc users.
+    -Business application, primarily used by end users ( at home, at workplace ).
+    -Scientific application, primarily used by end users ( at workplace ).
+    -Business application, used by companies, to be integreated into products or distributed to customers.
+      *Example: SMIL Player.
+==== 1.2 Product Construction =====
+Select:
+  -Plugin for a popular software.
+    *Example: Plugin for Eclipse, OpenOffice, Firefox, Visual Studio, Moodle, DokuWiki.
+    *Example: Facebook application.
+      *Task: As the application runs on your own webserver, look for free / affordable webspace which supports 
+        *Webspace with PHP + MysQL - the minium.
+        *Webspace with support of other high-level languages, like Python.
+        *Provide / run an own local computer as webserver, making use of your permanent DSL connection, using dynamic IP. Then you have free choice of programming languages, framworks, operating system.
+    *Example: Template or application for a popular CMS system ( DokuWiki, Joomla, Drupal,..).
+  -Operating system driver.
+    *Example: Driver to access a fischertechnik model by legacy parallel port ( for Windows, for Linux ).
+  -Point tool or monolitic tool.
+    *Point tool - A product to be used in a toolchain.
+      *Unix unitilities, bundle of office applications ( Open Office Text, Open Office Calc, OpenOffice Impress,.. ).
+    *Monolithic product with rich functionality all in a single application, e.g. a "Swiss pocket knife".
+      *There is a single user interface, you don´t call different programs for different functions.
+      *Examples: OpenOffice Text, portal websites like Facebook.
+  -Product built from scratch or not built from scratch.
+    -Product built from scratch. 
+      -Embedded Product.
+        *You might use code automatically generated code from development tools ( e.g. code generators, UML tools ). 
+        *You don´t depend much on third-party frameworks, maybe you don´t even have an operating system.
+        *But you don´t include third-party components in your source code, i.e. you don´t include a third-party JPG viewer, third-party MPEG4 video player.
+      -Product based on Frameworks. 
+        *You might use code automatically generated code from development tools ( e.g. code generators, UML tools ). 
+        *You might use popular third-party basic framworks ( .NET, Java,..) or even extended third-party frameworks ( QT, MFC,.. ).
+        *But you don´t include third-party components in your source code, i.e. you don´t include a third-party JPG viewer, third-party MPEG4 video player.
+      -Product based on Third Party Sources. 
+        *You might use code automatically generated code from development tools ( e.g. code generators, UML tools ). 
+        *You might use popular third-party basic framworks ( .NET, Java,..) or even extended third-party frameworks ( QT, MFC,.. ).
+        *You include third-party components in your source code, e.g. a third-party JPG viewer, third-party MPEG4 video.
+        *So your task is more to glue together the third-party code and frameworks, with little own code.
+        *Example: Developing a SMIL-Player from scratch, using the same plugins as the Ambulant player.
+    -Product not built from scratch. 
+      -Modifying, extending and improving an OpenSource product. 
+        *Problem: As newbie, your code won´t be accepted by major OpenSource projects, nor by small teams where every team member knows all other team members, nor by lone fighers :-(.
+        *A possible solution: Maybe you have best chances if you modify an OpenSource product which is not "under active development anymore" since many years... ?!
+        *Example: Modification of the Ambulant SMIL Player.
+    -Creation of components as OpenSource replacement for the features of a commercial edition of an OpenSource software.
+      *Example: Creation of a replacement for the Flash grapihics of the commercial edition of [[http://de.wikipedia.org/wiki/BIRT|BIRT]].
+  -Product shipped with an embedded operating system ( e.g. Linux, Windows Embedded ). 
+      *Additionally to the creation of the product, you must learn how to configure the operating system properly, so that just needed components are installed on the target.
+      *You might need / get the skills of an IT administrator, and/or somebody who can configure the operating system for a certain purpose.
+==== 1.3 Procedure Models =====
+Select:
+  -Building a software from scratch. 
+  -Focus on to become expert for a certain programming language ( C/C++, Java, Python,..).
+  -Focus on training to use a certain framework ( or a basic framework and a few additional constructive frameworks & APIs ), to become expert for that framework, with a certain programming language.
+    *Example: Java SDK, additionally Java 3D API.
+    *Example: Building a demo application with OpenCV to become expert in image recognition.
+    *Example: Create a demo scene in OpenGL, which fits the need of the ( automotive ) navigation tool industry.
+  -Implement a simple product in several programming languages and/or for several targets. Become expert to implment and test this simple product with any programming language, on any platform.
+    *Example: Build a classical tool often created for university and training courses, the calculator ( like the calculator shipped with Windows ) in "any" programming language, with one UML design, with one testing approach.
+  -Adaption of a given ready-made third-party OpenSource Software, for special purposes. It might be necessary to use several technologies and several programming languages.
+    *Example: Adapting the SMIL player to work in an Embedded Linux, as distributable software to be used in a Digital Signage electronic display.
+  -Composing a software of third-party components ( e.g. JPG viewer, MPEG4 video player ).
+    *Example: SMIL player.
+==== 1.4 Script Language or Compiled Language =====
+Select.
+  -Script Language ( Python, Perl, Tcl/Tk, PHP ).
+    *Just at runtime, the source code is checked acurately.
+    *For some programming languages, there are useful additional code checkers.
+    *Distribution just as source code, due to the choice of a skript language. Not good if later used for commercial purposes - You can´t hide your code.
+    *Low speed code.
+    *See [[python04.html|Python 4/6 - Pro & Contra]].
+  -Compiled Language ( Java, .NET, C/C++ ).
+    *A compiler provides acceptable syntax checking of the source code. 
+    *For C/C++, it is useful to improve the code quality by the use additional code checkers.
+    *Binary distribution, plus additional source code distribution. Good for later commercial distribution, with the right license: You can hide your code. For interpreted languages like Java, .NET, you need a code obfuscation tool to protect your code, additionally.
+    *High speed code.
+==== 1.5 Where is the Application running ? =====
+Nowadays, 2011, rich client applications are "uncool", and Internet based services are "cool". But in embedded systems, you still have the full-blown applications and not just a browser which displays the output of remote applications :-). Select:
+  -On the computer of the client ( Rich client application ).
+    *Android application.
+    *Windows 7 phone application.
+    *Desktop application on Windows, Linux, using a native ( single-platform or multi-platform ) GUI.
+    *Desktop application in Java.
+    *Application on an embedded system ( e.g. the TI clock ).
+  -In a browser.
+    -Server application with a web-based user interface.
+      *Example: Ajax, HTML4, HTML5, Silverlight, Flash.
+    -Java applet.
+    -Flash application.
+  -On a server.
+    -Server application.
+    -Template or application for a popular CMS system ( DokuWiki, Joomla, Drupal,..).
+==== 1.6 Target Job =====
+Some computer languages and frameworks are industry-specific. By the choice of the language, you also select the later audience who is interested in your skills. Select:
+  -C/C++ without frameworks is suitable for embedded systems.
+  -C/C++ with frameworks is suitable for desktop applications, plus for system programming on Linux and Windows.
+  -C# is the #1 computing language for configuration of Microsoft server applications and the coding of desktop applications for Windows ( Microsoft itself mostly codes its commercial products still with C/C++ ).
+  -Java is dedicated to server-side applications, server-side database applications and web services, often for the financial sector. There are a small number of applications on embedded systems. Java is the #1 language for academic software. The "Java applet" in the browser is outdated.
+  -Perl, PHP, Python, all Web technologies: You attract audience who might also demand "Web designer" skills. Bad if you know that you are not a genious "Web designer" due to missing artistic and graphical abilities ( e.g. your webdesign does not look like if it is made by an artist, but somewhat "ugly" ).
+  -Python is popular for Web applications, but due to some historic reasons it is also a popular test language in the automotive industry, for non-Web environments.
+  -Visual Basic 6 is outdated, VB.NET is not the #1 programming language for .NET, anymore, as it was during the period of Visual Studio 2003 and 2005. Now with Visual Studio 2008 and 2010, C# is the #1.
+  -Are you really shure that you want to deal with an esoteric language with a very limited number of experts and a very limited audience, like Delphi, Tcl/Tk,... ? What should be the later job, with what application, in what industry ?
+===== 2 Minor Issues =====
+==== 2.1 Legal Model =====
+Select:
+  -OpenSource.
+    *First do a research about the most popular OpenSource licenses, and think about which is the right one for you.
+  -Closed Source. 
+    *You just supply binary download & documentation. 
+    *Warning: This does not work with software frameworks, nowadays.
+==== 2.2 Hosting =====
+Select:
+  -On your own website.
+  -On a popular OpenSource hosting website.
+    *See [[snetworks03.html|Social Networks 3/3 - IT / SystemEngineering Forums and IT / SystemEngineering Communities]], section "Developer Communities with Project Workspace".
+    *See [[saas02.html|Software As A Service ( SAAS ) 2/2]].
+==== 2.3 Solitary Work, Partners, Teamwork / Teamplay =====
+Select:
+  -Solitary work - Probably, you will always start as single developer. Ideal for closed source.
+  -Partners - You look for partners which want to use your product, are willing for testing and to give feedback.
+  -Teamwork / Teamplay - After some time of publication on a community workspace, you allow third parties to enter the project as equal developers. 
+    *Warning: You might be overrun by third parties, who develop the product faster and independantly from you. You might loose the reputation and leadership.
+==== 2.4 Marketing =====
+  *Find online communties ( forums ) and offline real-life communities ( user group meetings ) to advertise your product, by unpaid speeches.
+    *Is there a community and forum where your project is hosted ?
+    *In case of a plugin or add-on product, is there a community and forum for the major base product ?
+  *If you develop a plugin or add-on product for a major base product: Check how easy it is to be listed as offical partner, with a database entry of your product.
+    *By the online community where the project is hosted ?
+    *By the community of the major base product ?
+    *By other third-party online communities ?
+===== 3 No Issues, just Standard Proceeding based on Best Practices =====
+==== 3.1 Design =====
+  *Design ( or at least documentation ) of your ideas and code with UML tools, even if you don´t have round-trip engineering.
+==== 3.2 Testing =====
+  *Unit testing.
+  *Functional testing.
+    *With an automation framework.
+    *With a GUI tester / Capture & Replay tool.
+  *Application testing.
+    *By simulation on the host, compiled for the target.
+    *On the host, compiled for the host.
+    *On the target, with target operating system & target software configuration.
+    *By your customers, partners, team members.
+  *Suppport of the project procedings by methods and tools.
+    *Requirements management.
+      *Select.
+        -OpenOffice Calc / Microsoft Excel.
+        -Scrum tool -> Backlog.
+        -GEBIT Solutions GmbH "TREND/Analyst Community Edition".
+    *Projekt management.
+      *Select.
+        -OpenOffice Calc / Microsoft Excel.
+        -Scrum tool.
+        -Classical PM tool.
+    *Bugtracking.
+        -OpenOffice Calc / Microsoft Excel.
+        -Bugtracker tool.
+        -Scrum tool -> Backlog.
+==== 3.3 Documentation =====
+  *UML project ( directory ), for a UML tool.
+  *Doxygen / Javadocs.
+  *PDF manual or HTML online manual, with printed UML diagrams.
+===== Summary =====
+  *Just have a try :-).
+{{tag>""IT business startup" IT reputation" "reputation as software developer"}}
+<footnote_navi_en>

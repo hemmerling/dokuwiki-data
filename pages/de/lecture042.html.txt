@@ -1,0 +1,29 @@
+====== [hemmerling] Konzept für Verbindungen zwischen Seefunk und öffentlichem Telefonnetz ======
+===== Vortrag =====
+  *Vortragstitel: "Konzept für Verbindungen zwischen Seefunk und öffentlichem Telefonnetz".
+  *Vortragender: Rolf Hemmerling.
+  *Vortragsdauer: 20 Minuten.
+  *Vortragssprache: Deutsch.
+  *Veranstaltungsform: Diplom-Kolloquium, Folien-unterstützte Präsentation.
+===== Vortrags-Ort, -Datum und -Publikum =====
+  *Veranstaltungsort: [[http://www.fh-hannover.de/|Fachhochschule Hannover]], Ricklinger Stadtweg 118, D-30459 Hannover, Deutschland.
+  *Datum: 2010-02-24.
+  *Publikum:
+    *Hochschulangehörige ( Studenten, Mitarbeiter, Professoren, Dozenten ) und Alumni der [[http://www.fh-hannover.de/|Fachhochschule Hannover]], fachlich Interessierte.
+    *[[http://f1.hs-hannover.de/index.php?id=5240|Prof. Dr.-Ing. Jörg Wehmeier]].
+    *[[http://f1.hs-hannover.de/personen/lehrende/lindemann-ulrich-prof-dr-ing-prof/|Prof. Dr.-Ing. Ulrich Lindemann]].
+===== Vortrags-Dokumentation =====
+  -Vortrags-Folien im Microsoft-Powerpoint (PPT) und PDF-Format.
+  -Schriftliche Ausarbeitung ( Diplomarbeit ) im OpenOffice (ODT) und PDF-Format.
+  -Digitale Photos, während der Veranstaltung aufgenommen..
+
+===== Vortrags-Thema =====
+An der Fachhochschule Hannover soll die Machbarkeit eines Konzepts zum automatischen Verbindungsaufbau von einem Marinefunkgerät an Bord eines Schiffes in das öffentliche Telephonnetz geprüft werden. Das Konzepts ist für kleine Küstenfunkstellen geeignet, die als Dienstleistung eingehende Seefunk-Gespräche automatisch an eine gewünschte Telephonnummer weiterverbinden lassen möchten. Es soll mittels einer Marktrecherche geprüft werden, ob die Anforderungen der branchenüblichen ITU-R Normen zum Signalisierungsprotokoll "Digital Selective Calling" an eine Küstenfunkstelle durch Standard-Marinefunkgeräte und andere Standard-Komponenten erfüllt werden können. Gegebenenfalls soll ein Gerätevorschlag gemacht werden. Als für die Verbindung vom Marinefunkgerät zum öffentlichen Telephonnetz notwendige Radio/Telephon Schnittstellen-Einheit ist im Konzept ein Standard-Computer mit Individual-Software vorgesehen. Es soll mittels einer Marktrecherche ein Standard-Telephonsystem mit geeigneter Software-Schnittstelle ( Telephony Application Programming Interface ) und ein dazu als Quelltext verfügbarer Software-Prototyp ermittelt und praktisch getestet werden, mit dem Telephonverbindungen aufgebaut werden können. Es soll beschrieben werden, wie dieser Software-Prototyp zu modifzieren und zu erweitern ist, damit der Computer Telephongespräche für die über Marinefunk eingehende Anrufe vermitteln kann. 
+===== Vortragsgliederung =====
+  -Konzept.
+  -Anforderungen.
+  -Machbarkeit.
+  -Ergebnisse.
+  -Danksagung.
+{{tag>Seefunk Marinefunk Küstenfunkstelle "Radio/Telephon Schnittstellen-Einheit" "öffentliches Telephonetz" Dialer "automatische Gesprächsvermittlung" "Telephony Application Programming Interface" TAPI "Digital Selective Calling" DSC}}
+<footnote_navi_de>

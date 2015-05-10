@@ -1,0 +1,202 @@
+====== [hemmerling] Business Processes & Business Process Modeling ======
+Related pages:
+  *[[diagrams.html|Diagrams & Graph Visualization]].
+  *[[workflow.html|Workflow Engines]].
+  *[[uml.html|UML]].
+====== Organisations ======
+  *[[http://network.camunda.org/|camunda BPM network]].
+    *Events [[http://network.camunda.org/meetings/|camunda BPM network "Meetings"]].
+  *[[http://bpm-netzwerk.de/|BPM-Netzwerke.de - Das D.A.C.H.-Netzwerk für BPM-Professionals]] ( now part of [[http://network.camunda.org/|camunda BPM network]] ).
+===== Process Models / Procedure Models =====
+==== Important Process Models / Procedure Models ====
+=== GPM Deutsche Gesellschaft für Projektmanagement e. V. ===
+  *See [[pmcertifcation.html|Project Management Certification]] -> "GPM Transfernachweis".
+=== Open Unified Process (OpenUP) ===
+  *[[http://epf.eclipse.org/wikis/openup/|Eclipse "OpenUP"]].
+  *[[http://www.eclipse.org/epf/|Eclipse "Eclipse Process Framework Project (EPF)"]].
+    *[[http://www.eclipse.org/epf/tool_component/tool_index.php|Eclipse "EPF Composer"]].
+  *[[http://en.wikipedia.org/wiki/OpenUP|EN.Wikipedia "OpenUP"]], [[http://en.wikipedia.org/wiki/OpenUP/Basic|EN.Wikipedia "OpenUP/Basic"]].
+  *[[http://de.wikipedia.org/wiki/Open_Unified_Process|DE.Wikipedia "Open Unified Process"]].
+=== Rational Unified Process (RUP) ===
+  *[[http://www-01.ibm.com/software/awdtools/rup/|IBM "IBM Rational Unified Process (RUP)"]].
+  *[[http://en.wikipedia.org/wiki/IBM_Rational_Unified_Process|EN.Wikipedia "IBM Rational Unified Process"]], [[http://de.wikipedia.org/wiki/Rational_Unified_Process|DE.Wikipedia "Rational Unified Process"]].
+=== V-Modell ===
+  *[[http://en.wikipedia.org/wiki/V-Model|EN.Wikipedia "V-Model"]], [[http://en.wikipedia.org/wiki/V-Model_%28software_development%29|EN.Wikipedia "V-Model (software development)"]], [[http://de.wikipedia.org/wiki/V-Modell|DE.Wikipedia "V-Modell"]].
+=== V-Modell XT ===
+  *[[http://www.v-modell-xt.de/|Die Beauftragte der Bundesregierung für Informationstechnik "Das V-Modell XT"]] - Free download.
+  *[[http://www.v-modell.iabg.de/|Industrieanlagen-Betriebsgesellschaft mbH ( IABG ) - Das V-Modell]].
+  *[[http://www.weit-verein.de/|Verein zur Weiterentwicklung des V-Modell XT e.V.]].
+==== Some other Process Models / Procedure Models ====
+=== Accelerated SAP (ASAP) ===
+  *[[http://help.sap.com/printdocu/core/print46b/en/data/en/pdf/SVASAP.pdf|SAP "AcceleratedSAP, Release 4.6B"]] ( PDF ).
+  *[[http://help.sap.com/saphelp_46c/helpdata/de/fc/5dc13690581b20e10000009b38f839/content.htm|SAP Help "AcceleratedSAP"]].
+  *[[http://help.sap.com/saphelp_46c/helpdata/de/da/3ebc22d25711d2bbf500105a5e5b3c/content.htm|SAP Help "SAP Review Program"]].
+=== Essential Unified Process ===
+  *[[http://www.ivarjacobson.com/process_improvement_technology/essential_unified_process_software/|Ivar Jacobson "The Essential Unified Process"]].
+  *[[http://en.wikipedia.org/wiki/Essential_Unified_Process|EN.Wikipedia "Essential Unified Process"]].
+=== msg.PROFI - (PROzessrahmen Für IT-Projekte) ===
+  *msg.PROFI - Development process by [[http://www.msg.de/|msg systems ag]].
+    *[[http://www.msg.de/unt_technologiekomp.0.html|msg systems ag "Technologiekompetenz"]].
+      *"Kompetenz-Center 'msg Applied Technology Research'".
+      *"Prozessrahmen für IT-Projekte (PROFI)".
+  *Blog [[http://blog.eisele.net/|Markus Eisele "Enterprise Software Development with Java"]].
+    *Slides [[http://www.eisele.net/blog/se09_msg_systems_epf.pdf|Wirtschaftlich und wirksam: Entwicklungsprozesse auf Basis des Eclipse Process Frameworks]] (PDF).
+      *based on "Accelerated SAP", "IBM Rational Unified Process", "Projektmanagement nach GPM".
+      *with [[http://www.eclipse.org/epf/|Eclipse Process Framework( EPF )]] as technological base.
+  *[[http://subs.emis.de/LNI/Proceedings.html|Gesellschaft für Informatik, Bonn "Lecture Notes in Informatics"]], 2010.
+    *[[http://subs.emis.de/LNI/Proceedings/Proceedings143/P-143.pdf|Peter Liggesmeyer, Gregor Engels, Jürgen Münch, Jörg Dörr, Norman Riegel  "Lecture Notes in Informatics, GI Edition. Software Engineering 2009,  02.–06. März 2009, Kaiserslautern"]].
+      *Article [[http://subs.emis.de/LNI/Proceedings/Proceedings143/gi-proc-143-012.pdf|Rainer Singvogel "Wirtschaftlich und wirksam: Entwicklungsprozesse auf Basis des Eclipse Process Frameworks"]].
+=== Meta Process Models ===
+  *[[http://www.omg.org/spec/SPEM/2.0/|OMG "Software & Systems Process Engineering Metamodel specification (SPEM)"]].
+==== Resources ====
+  *[[http://en.wikipedia.org/wiki/Meta-process_modeling|EN.Wikipedia "Meta-process modeling"]].
+===== Process Notation & Process Execution Languages =====
+==== Business Process Modelling Notation ( BPMN ) & Business Process Execution Language ( BPEL ) ====
+=== Business Process Modelling Notation ( BPMN ) ===
+  *[[http://en.wikipedia.org/wiki/Business_Process_Modeling_Notation|EN.Wikipedia "Business Process Modeling Notation"]], [[http://de.wikipedia.org/wiki/Business_Process_Modeling_Notation|DE.Wikipedia "Business Process Modeling Notation"]].
+=== Software Tools, supporting BPMN ===
+  *The free [[http://www.adonis-community.com/|ADONIS:Community Edition]] by [[http://www.boc-group.com/de/|BOC Group]].
+  *The free [[http://www.ariscommunity.com/aris-express|ARIS Express]] for Java on Windows and native installation on Linux/MacOS.
+  *The Open Source Workflow & BPM software [[http://www.bonitasoft.com/|Bonitasoft "Bonita BPM"]].
+    *[[http://community.bonitasoft.com/|Bonitasoft Community]].
+    *The read-only [[http://community.bonitasoft.com/resources/legacy|Bonitasoft Community - Legacy Forum]].
+  *[[http://www.bizagi.com/|BizAgi]]. 
+    *The free "BizAgi Process Modeler", for Windows & Microsoft .NET 2.0.
+    *The commercial "BizAgi Xpress Edition" - free evaluation version is available.
+    *[[http://wiki.bizagi.com/|BizAgi Wiki]].
+    *[[http://elearning.bizagi.com/|BizAgi "BizAgi Tutorial. Free BPMN Online Training"]].
+  *The OpenSource [[http://www.camunda.org/|camunda BPM platform & camunda modeler]], [[http://www.github.com/camunda|Github "camunda services GmbH - camunda"]].
+    *[[http://blog.camunda.org/|camunda BPM Team Blog]].
+  *The free [[http://www.eunomia-process.com/html/get_product.html|EUNOMIA Process Builder, Community Edition]] for Windows.
+    *[[http://www.facebook.com/pages/Eunomia-Process-Builder/209093492509185|Facebook "Eunomia Process Builder"]].
+  *[[http://www.mid.de/|MID GmbH]] - "The modeling company".
+    *The free [[http://www.mid.de/produkte/innovator-for-business-analysts/bpmn-tool-download.html|MID "Innovator for Business Analysts Personal Edition"]] for WinXP with .NET 3.5 SP1.
+    *The free [[http://www.apterosolutions.com/products/106-free-bpmn-2-tool-innovator.html|Aptero Solutions "Innovator for Business Analysts, Personal Edition"]].
+  *[[http://www.tibco.com/|TIBCO Software Inc.]].
+    *[[http://developer.tibco.com/|TIBCO Developer Network]].
+    *The free [[http://developer.tibco.com/business_studio/default.jsp|TIBCO Business Studio™ Community Edition]].
+  *The free [[http://www.webratio.com/|WebRatio "BPM Free"]] for Windows - "Model, Execute, Document your Business Processes".
+=== Online Business Process Modeling Tools, supporting BPMN ===
+  *The online service [[http://www.modelworld.nl/|Modelworld - Online Modeler and Repository]].
+  *The commercial online service [[http://www.processmapper.com/|Processmapper]], free Beta in 2012-03 - "Social BPMA: A new way to model and analyze business processes".
+  *The commercial online service [[http://www.signavio.com/|Signavio GmbH "Signavio Process Editor"]], with support for BPMN, EPK.
+    *Blog [[http://www.signavio.com/de/unternehmen/blog.html|Signavio Blog]].
+    *[[http://www.signavio.com/de/partner/uebersicht.html|Signavio - Partner]] - "Consulting Partner", "Certified Partner", "OEM Partner". Business contact -> [[http://www.xing.com/profile/Daniel_Furtwaengler|XING "Daniel Furtwängler"]].
+    *[[http://www.signavio.com/de/partner/consulting-partner.html|Signavio - "Consulting Partner"]].
+    *[[http://editor.signavio.com/|Signavio GmbH "Signavio Process Editor" - Login]].
+    *Blog [[http://www.signavio.com/de/unternehmen/blog.html|Signavio Blog]].
+      *[[http://www.signavio.com/de/unternehmen/blog/137-prozessberater-kostenlos-partnerprogramm.html|Signavio Blog Article "Ideal für selbständige Prozessberater: Das kostenlose Partnerprogramm von Signavio"]].
+    *Strong points:
+      *Multi user service, with document versioning.
+      *Glossary - A function block descripion may consist of many glossary terms.
+      *RACI report.
+      *Support of KPI systems.
+      *Export of documents in BPMN 2.0 format, import of documents in XPDL 2.1 and BPMN 2.0 formats.
+=== Business Process Execution Language ( BPEL ) ===
+  *See [[workflow.html|Workflow Engines]].
+==== Event-driven Process Chain ( EPC ) / Ereignisgesteuerte Prozesskette ( EPK ) ====
+  *[[http://en.wikipedia.org/wiki/Event-driven_process_chain|EN.Wikipedia "Event-driven process chain"]], [[http://de.wikipedia.org/wiki/Ereignisgesteuerte_Prozesskette|DE.Wikipedia "Ereignisgesteuerte Prozesskette"]].
+==== Subjektorientiertes Business Process Management ( S-BPM ) ====
+  *[[http://www.metasonic.de/was-s-bpm|Metasonic AG "Was ist S-BPM?"]].
+==== UML ====
+  *See [[uml.html|UML|]].
+
+==== Some Diagram & Graph Visualization Tools suitable for Process Modeling & System Modeling ====
+  *[[diagrams.html|Diagrams & Graph Visualization]].
+==== ( Some other ) Business Process Modeling Tools ====
+  *[[http://www.caciasl.com/|CACI]].
+    *The commercial [[http://www.simprocess.net/|CACI "SIMPROCESS"]] - "Business Process Management Software", "Modeling & Simulation".
+  *[[http://www.picture-gmbh.de/|PICTURE GmbH]].
+  *SYCAT.
+    *[[http://de.wikipedia.org/wiki/Sycat|DE.Wikipedia "sycat"]].
+  *ViFlow.
+    *[[http://de.wikipedia.org/wiki/ViFlow|DE.Wikipedia "ViFlow"]].
+===== Case Oriented Annotations ( as Alternative to a Process Notation where the Work Flow must be flexible ) =====
+  *[[http://www.omg.org/spec/CMMN/|Object Management Group, Inc. "Case Management Model and Notation (CMMN)"]].
+  *[[http://www.adaptivecasemanagement.org/|WfMC Awards for Case Management. Global Excellence Awards, Books and more ( adaptivecasemanagement.org )]].
+  *Event [[http://network.camunda.org/meetings/34|camunda BPM network "Adaptive Case Management: Indikatoren, Muster, Ausführung"]], 2014-08-08.
+  *[[http://www.brsilver.com/bpmn-cmmn-compared/|Business Process Watch "BPMN and CMMN Compared"]].
+  *[[http://en.wikipedia.org/wiki/Advanced_case_management|EN.Wikipedia "Advanced case management"]] ( ACM ).
+===== Business Rule Management System ( BRMS ) =====
+==== Free Software ====
+  *The OpenSource [[http://de.redhat.com/products/jbossenterprisemiddleware/business-rules/|Red Hat JBoss BRMS]].
+  *The OpenSource [[http://www.openrules.com/|Open Rules]] - "Decision Management System. Rules-based Decision Modeling and Execution".
+==== Commercial Software ====
+  *Bosch Software Innovations GmbH "Visual Rules".
+    *[[http://www.bosch-si.com/de/technologie/business-rules-management-brm/visual-rules.html|Bosch Software Innovations GmbH "BRM mit Visual Rules"]].
+  *[[http://www.fico.com/|FICO]].
+    *[[http://www.fico.com/en/Products/DMTools/Pages/FICO-Blaze-Advisor-System.aspx|FICO Blaze Advisor business rules management ]].
+    *[[http://www.fico.com/en/Products/DMTools/Pages/Business-Rules-Management.aspx|FICO "Business Rules Management - How it works"]].
+    *[[http://en.wikipedia.org/wiki/FICO|EN.Wikipedia "FICO"]], [[http://de.wikipedia.org/wiki/Fair_Isaac_Corporation|DE.Wikipedia "Fair Isaac Corporation"]].
+  *"IBM Operational Decision Manager" ( formerly: "WebSphere ILOG JRules BRMS" ).
+    *[[http://www.ibm.com/software/websphere/products/business-rule-management/|IBM "Business Rules Management System (BRMS). Improve the agility and precision of rules-based automated decisions"]].
+      *[[http://www.ibm.com/software/integration/business-rule-management/jrules-family/|IBM "WebSphere ILOG JRules BRMS"]] - "JRules BRMS is Now IBM Operational Decision Manager".
+    *[[http://www.ibm.com/software/products/us/en/odm|IBM "IBM Operational Decision Manager"]].
+  *[[http://www.progress.com/de-de/corticon/index.html|Progress Software Corporation "Progress Corticon"]].
+==== Experts ====
+  *[[http://www.xing.com/profiles/Lars_Ruebesamen2|Lars Rübesamen]], [[http://www.novatec-gmbh.de/|novaTec GmbH]].
+==== Resources ====
+  *It is important that the BRMS is shipped with it's own valuable testing tools, as writing proper tests for this domain is challenging :-). 
+  *[[http://en.wikipedia.org/wiki/Business_rule_management_system|EN.Wikipedia "Business rule management system"]], [[http://de.wikipedia.org/wiki/Gesch%C3%A4ftsregel-Managementsystem|DE.Wikipedia "Geschäftsregel-Managementsystem"]], [[http://de.wikipedia.org/wiki/Kategorie:Business-Rule-Management|DE.Wikipedia "Kategorie:Business-Rule-Management"]].
+===== Prozess Fluss Analyse ( PFA ) =====
+  *[[http://www.ghconsult.de/portfolio/|gh | consult, Dipl.-Kfm.(FH) Guido Hindahl]].
+    *[[http://www.xing.com/profile/Guido_Hindahl|XING "Guido Hindahl"]].
+    *The PFA uses 6 symbols. The PFA symbol collection includes the symbol "delay", which is unique and is not available with standard flow diagrams.
+===== GPS SoftwareAtlas =====
+    *The Microsoft VISIO addon [[http://www.gps-ulm.de/web/de/software-atlas/das-tool.php|GPS Gesellschaft zur Prüfung von Software mbH "Der GPS SoftwareAtlas"]] - "Der GPS SoftwareAtlas ist die größte Sammlung an betrieblichen Funktionen und Prozessen und es ist das einzige Modell, das ein komplettes Unternehmen übersichtlich auf einem Bild darstellt".
+      *"Zugleich ist es die ideale Methode und das Tool für dieVisualisierung und Optimierung von Geschäftsprozessen".
+      *"Erstellung eines vollständigen und detaillierten Lastenhefts für ERP-Systeme".
+      *"Auswahl und Einführung neuer ERP- und CRM-Systeme"
+===== Literature =====
+==== Paper Magazines ====
+  *Paper magazine [[http://www.digital-business-magazin.de/|digital business - Lösungen für Geschäftsprozesse]] by [[http://www.win-verlag.de/|Win-Verlag GmbH & Co. KG]].
+  *Paper magazine [[http://www.bit-news.de/|BIT - Magazin für effiziente Geschäftsprozesse]] by [[http://www.bitverlag.de/|bit-Verlag Weinbrenner GmbH Co. KG]].
+==== Books ====
+  *The free PDF book [[http://www.softwareag.com/cebit2011/de/book_pi_for_dummies.asp|Software AG / IDS Scheer "Process Intelligence for Dummies"]], [[http://www.softwareag.com/de/res/books/pi|Software AG / IDS Scheer "Process Intelligence for Dummies"]], [[http://lto.libredigital.com/?softwareag_processintelligencefordummies|Software AG / IDS Scheer "Process Intelligence for Dummies"]].
+===== Business Process Management Certification =====
+  ***Certified Business Process Professional (CBPP)**.
+    *[[http://www.gfuero.org/|Gesellschaft für Organisation e.V.]].
+    *[[http://www.eabpm.org/|European Association of Business Process Management]] ( EABPM ).
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3921313805/hemmerling-21|ABPMP: "Business Process Management Common Body of Knowledge - BPM CBOK: Leitfaden für das Prozessmanagement herausgegeben von der EABPM (European Association of Business Process Management)"]].
+
+===== Practical Experiences with Business Process Analyis and Documentation =====
+  *Analyis and documentation of about 20 processes in a medium-size "toll-free manufacturer" which main service is laser cutting & laser welding - 25 man days.
+  *Sketchy analyis and documentation of a laywer's office - 1 man day ?!
+===== Resources =====
+  *Blog [[http://bpmsoftware.wordpress.com/free-bpa-tools/#comment-136|Business Process Management Software. Tools for business process analysts and process managers  - list of free BPMN tools "Free tools for business analysts"]].
+  *List of process modeling tools: 
+    *Adonis (BOC).
+    *Aeneis (ATOSS Software GmbH).   
+    *ARIS Toolset (IDS Scheer/Software AG).
+    *BizAgi Process Modeler (BizAgi).
+    *Bonapart (PIKOS GmbH).
+    *BusinessObjects Designer (BusinessObjects).
+    *Corporate Modeler (casewise).
+    *Documentum (Documentum). 
+    *Income (Get Process AG).
+    *MEGA Modeling Suit (MEGA International).     
+    *PICTURE Prozessplattform (PICTURE GmbH).
+    *Prometheus (IBO Software GmbH).
+    *PowerDesigner (Sybase).
+    *sycat (binner IMS GmbH).      
+    *ViFlow (ViCon GmbH).      
+  *Process description method "Famos".
+===== Forums, Newsgroups, Communities =====
+  *[[http://www.adonis-community.com/discussion.html|ADONIS:CE Discussion]] Forum.
+  *[[http://www.ariscommunity.com/|ARIS Community]].
+  *BizAgi.
+    *[[http://feedback.bizagi.com/|BizAgi Process Modeler Community]].
+    *[[http://www.bizagi.com/index.php?option=com_jfusion|BizAgi BPM Suite Free Support Forum]].
+  *[[http://bpm-forum.cwsurf.de/|BPM Forum]]. [[http://www.bpm-forum.net|BPM Forum]], [[http://www.bpm-forum.de.vu/|BPM Forum]], [[http://www.prozessmanagement-forum.de.vu/|BPM Forum]].
+  *Camunda.
+    *[[http://network.camunda.org/forum|camunda BPM Network "BPMN Forum"]].
+    *[[http://groups.google.com/group/camunda-bpm-dev|Google Groups "camunda BPM platform contributors"]].
+  *http://camunda.org/community/forum.html
+  *[[http://ficoforums.myfico.com/|FICO "myFICO Forums"]].
+  *[[http://communities.progress.com/|Progress Communities]].
+  *[[http://www.tibcommunity.com/|TIBCOmmunity]].
+  *[[http://www.visualmodeling.com/|Visual Modeling Forum]].
+    *[[http://www.bpmnforum.com/|BPMN Forum]], [[http://groups.google.com/group/BPMNforum|Google Groups "BPMN Forum"]].
+  *[[http://www.xing.com/net/signavio-partner|XING "Signavio - Certified Partner und Consulting Partner"]].
+{{tag>"industrial engineering" "business process engineering"}}
+<footnote_navi_en>

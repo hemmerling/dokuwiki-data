@@ -1,0 +1,66 @@
+====== [hemmerling] Linux 3/8 - Linux Boot Loaders, Linux Build Systems, Linux Installers and Linux Implementors ======
+Related pages:
+  *[[booting.html|Booting from Devices]].
+  *[[android.html|Google Android]].
+  *[[linux01.html|Linux 1/8]].
+  *[[linux02.html|Linux 2/8 - Linux Distributions]].
+  *[[linux04.html|Linux 4/8 - Linux Applications, Linux Tools and Linux Drivers]].
+  *[[linux05.html|Linux 5/8 - SUSE 7.1 Linux on Clevo 2700c Notebooks with SIS630S Chipset]].
+  *[[linux06.html|Linux 6/8 - Linux with X-Terminals and Terminals]].
+  *[[linux07.html|Linux 7/8 - Linux on X86, X64 and ARM Computers]].
+  *[[linux08.html|Linux 8/8 - Useful Linux Commands & Linux Tricks]].
+===== Implementors - Professional System Integegrators / Builders of Linux for industrial and embedded Systems =====
+==== Germany ====
+  *[[http://www.denx.de/|DENX Software Engineering]].
+  *[[http://www.linutronix.de/|linutronix GmbH]].
+  *[[http://www.pengutronix.de/|Pengutronix e.K]].
+==== International ====
+  *[[http://www.timesys.com/|Timesys Corporation]].
+===== Build Systems =====
+  -[[http://buildroot.uclibc.org/|Buildroot]] - "Making Embedded Linux Easy".
+    *[[http://de.wikipedia.org/wiki/Buildroot|DE.Wikipedia "Buildroot"]].
+    *[[http://en.wikipedia.org/wiki/UClibc|EN.Wikipedia "UClibc"]], [[http://de.wikipedia.org/wiki/UClibc|DE.Wikipedia "UClibc"]].
+    *[[http://en.wikipedia.org/wiki/Cross_compiler|EN.Wikipedia "Cross compiler"]].
+  -[[http://www.ltib.org/|LTIB (Linux Target Image Builder)]] - A Perl tool, used by Freescale in the past.
+    *[[http://en.wikipedia.org/wiki/LTIB|EN.Wikipedia "LTIB"]].
+  *[[http://www.ptxdist.org/|PTXdist - Reproducible Embedded Linux Systems]] by [[http://www.pengutronix.de/|Pengutronix e.K]].
+  -[[http://www.openembedded.org/|OpenEmbedded]] / [[http://www.yoctoproject.org/|Yocto Project]].
+    *[[http://www.github.com/openembedded|GitHub "openembedded"]].
+    *[[http://layers.openembedded.org/| OpenEmbedded Metadata Index]] -> It is important that you select a certain Yocto branch for your project.
+    *[[http://en.wikipedia.org/wiki/OpenEmbedded|EN.Wikipedia "OpenEmbedded"]], [[http://de.wikipedia.org/wiki/OpenEmbedded|DE.Wikipedia "OpenEmbedded"]].
+    *Wiki [[http://wiki.yoctoproject.org/|Yocto Project Wiki]].
+    *Git [[http://git.yoctoproject.org/|Yocto Project Git]].
+    *[[http://www.yoctoproject.org/tools-resources/projects/openembedded-core|Yocto Project "Openembedded Core"]].
+    *[[http://www.twitter.com/yoctoproject|Twitter "Yocto Project, @yoctoproject"]].
+    *[[http://en.wikipedia.org/wiki/Yocto_Project|EN.Wikipedia "Yocto Project"]].
+    *Tools:
+      -[[http://en.wikipedia.org/wiki/BitBake|EN.Wikipedia "BitBake"]], a Python script. Its operation does not depend on timestamps of files. Indeed, after modification of files, you should run the "bitbake clean" command.
+      -[[http://www.yoctoproject.org/tools-resources/projects/hob|Yocto Project "Hob"]].
+      -[[http://wiki.yoctoproject.org/wiki/Toaster|Yocto Project Wiki "Toaster"]].
+    *The Linux distribution "Poky" - "A reference system of the Yocto Project".
+      *[[http://www.pokylinux.org/|Poky Platform Builder]].
+      *[[http://www.yoctoproject.org/tools-resources/projects/poky|Yocto Project "Poky"]].
+===== Boot Loaders =====
+  *See [[booting.html|Booting from Devices]].
+  *Wubi - See [[linux01.html|Linux 1/8]].
+===== Installers for IT Infrastructure =====
+  *[[http://en.wikipedia.org/wiki/Anaconda_%28installer%29|EN.Wikipedia "Anaconda (installer)"]], [[http://de.wikipedia.org/wiki/Anaconda_%28Software%29|DE.Wikipedia "Anaconda (Software)"]] - used by RedHat.
+  *[[http://en.wikipedia.org/wiki/YaST|EN.Wikipedia "YaST"]], [[http://de.wikipedia.org/wiki/YaST|DE.Wikipedia "YaST"]] - "AutoYast" used by SUN.
+  *[[http://crowbar.github.io/|GitHub.io "The Crowbar Project"]], [[http://www.github.com/opencrowbar|GitHub "OpenCrowbar. Data Center Operations Framework & Bare Metal Deployment"]] - used by Dell.
+    *[[http://www.github.com/crowbar/crowbar/wiki|GitHub.io "crowbar/crowbar" Wiki]].
+    *[[http://www.dell.com/learn/us/en/19/cloud-computing/crowbar-software-framework|DELL "Free the Cloud with Dell Crowbar"]] - "Streamline configuration, deployment and use of your hardware in the cloud".
+  *IBM uses "Chef" for the installation of the IT configuration management software "IBM The Cloud Manager with Openstack" ( CMwO ). 
+    *Chef => See [[devops.html|Development and Operations ( DevOps )]].
+    *OpenStack => See [[python.html|Python]].
+
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Linux/|OpenDirectory "Top: Computers: Software: Operating Systems: Linux"]].
+    *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Linux/Embedded/|OpenDirectory "Top: Computers: Software: Operating Systems: Linux: Embedded"]].
+    *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Linux/Platforms/|OpenDirectory "Top: Computers: Software: Operating Systems: Linux: Platforms"]].
+  *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Embedded/|OpenDirectory "Top: Computers: Software: Operating Systems: Embedded"]].
+  *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Realtime/|OpenDirectory "Top: Computers: Software: Operating Systems: Realtime"]].
+    *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Realtime/Open_Source/|OpenDirectory "Top: Computers: Software: Operating Systems: Realtime: Open Source"]].
+    *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Realtime/Linux/|OpenDirectory "Top: Computers: Software: Operating Systems: Realtime: Linux"]].
+{{tag>Linux}}
+<footnote_navi_en>
+

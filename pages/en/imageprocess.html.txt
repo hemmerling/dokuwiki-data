@@ -1,0 +1,203 @@
+====== [hemmerling] Image Processing ======
+Related page:
+  *[[geodata.html|Geographical Data / Spatial Data for Geographical Information Systems ( GIS )]].
+
+===== Organisations =====
+  *[[http://www.emva.org/|european Machine Vision Association]] ( EMVA ).
+    *[[http://www.standard1288.org|EMVA Standard 1288 - "Standard for Measurement and Presentation of Specifications for Machine Vision Sensors and Cameras"]].
+    *Member: [[http://www.viscom.de/|Viscom AG]].
+===== Image Processing Software =====
+==== Image Processing Software Tools ====
+=== Free Image Processing Software Tools ===
+  *The free [[http://www.ee.siue.edu/CVIPtools/|CVIPtools]] for Windows and Linux - "A software package for the exploration of computer vision and image processing".
+    *The book [[http://www.amazon.de/exec/obidos/ASIN/0849329191/hemmerling-21|Scott E. Umbaugh "Computer Imaging: Digital Image Analysis and Processing"]], is shipped with CVIPtools 4.3.
+    *The book [[http://www.amazon.de/exec/obidos/ASIN/143980205X/hemmerling-21|Scott E. Umbaugh "Digital Image Processing and Analysis: Human and Computer Vision Applications with Cviptools, Second Edition]], is shipped with CVIPtools 5.3.
+  *The OpenSource [[http://grass.osgeo.org//|GRASS GIS]] for Linux and Windows - "The World Leading Free Software GIS" -> offers some image processing functions.
+    *[[http://en.wikipedia.org/wiki/GRASS_GIS|EN.Wikipedia "GRASS GIS"]], [[http://de.wikipedia.org/wiki/GRASS_GIS|DE.Wikipedia "GRASS GIS"]].
+  *The OpenSource [[http://rsb.info.nih.gov/ij/|National Institutes of Health "ImageJ - Image Processing and Analysis in Java"]].
+  *The OpenSource [[http://brneurosci.org/tnimage.html|Image Measurement and Analysis Lab "Imal"]] ( formerly: "TN-Image" ) for Linux and MSDOS.
+    *The HTML online manual [[http://brneurosci.org/tnimage-manual/|Image Measurement and Analysis Lab (tnimage) - Description of tnimage]].
+  *[[http://www.icess.ucsb.edu/~ipw2/|Image Processing Workbench (IPW)]] for Linux.
+    *"IPW does not contain its own image display programs. For several years, we have been using [[http://www.trilon.com/xv/|XV]] by John Bradley".
+    *The shareware [[http://www.trilon.com/xv/|John Bradley "XV"]] for Linux.
+    *[[http://eil.bren.ucsb.edu/~frew/cv/pubs/1990_IPW.pdf|James Edward Frew, Jr. "The Image Processing Workbench. A Dissertation submitted in partial satisfaction of the requirements for the degree of Doctor of Philosophy in Geography by James Edward Frew, Jr."]] ( PDF ).
+  *The free "LaboImage" by [[http://cvml.unige.ch/doku.php/members/thierrypun|Thierry Pun]].
+    *[[http://web.archive.org/web/*/http://vision.unige.ch/LaboImage/labo.html|Archive.org "LaboImage"]], "LaboImage_Win_1.0.zip" & "some_DLLs.zip" - LaboImage for Windows .
+    *[[ftp://cui.unige.ch/PUBLIC/vision/software/|ftp://cui.unige.ch/PUBLIC/vision/software]], "LaboImage_4.1.tar.Z" - LaboImage for Linux.
+  *[[http://www.neatvision.com/|NeatVision]], [[http://neatvision.eeng.dcu.ie/|NeatVision]] in Java - "An Image Analysis & Software Development Environment".
+    *[[http://radiographics.rsnajnls.org/content/24/6/1779.full|RadioGraphics - The journal of continuing medical education in radiology - "NeatVision: Visual Programming for Computer-aided Diagnostic Applications"]].
+    *[[http://java.sun.com/javase/technologies/desktop/media/|Oracle "Java Media APIs"]] -> "Java Advanced Imaging" ( JAI ).
+  *TU Delft.
+    *[[http://prlab.tudelft.nl/prlab/data|TU Delft, Pattern Recognition Laboratory "Data and Software"]].
+    *[[http://prlab.tudelft.nl/david-tax/othersoftware.html|TU Delft, Pattern Recognition Laboratory "Other software. Mixture of Gaussians and Hidden Markov Model Matlab toolbox (MOGHMM)"]].
+=== VisiQuest / Khoros Pro ===
+== History ==
+  *[[http://www.khoral.com/|Khoral Inc.]], [[http://www.accusoft.com/|Pegasus Imaging Corporation, DBA Accusoft Pegasus]].
+    *Discontinued commercial edition: "VisiQuest 4" by AccuSoft, 2004. The evaluation version for Windows and Linux expires after 15 days. 
+    *[[http://www.worldscibooks.com/etextbook/2125/2125_chap01.pdf|John Rasure, Steven Kubica "The Khoros Application Development Environment"]] ( PDF ).
+    *[[http://web.archive.org/web/*/http://gd.tuwien.ac.at/graphics/khoros/FAQ/FAQ-2.2/k2_general_FAQ|Archive.org "Khoros 2.2 General FAQ. Khoral, Inc. (khoros-faq@khoral.com) August 20, 1997"]].
+  *[[http://www.lrz.de/services/software/grafik/khoros/|Leibniz-Rechenzentrum der Bayrischen Akademie der Wissenschaften "Khoros Pro 2001"]].
+    *Latest student edition: "Version: Khoros Pro 2001, Version 3.0", 2001.
+    *"Den Vertretern von Khoral Research ist dabei wohl bekannt, dass ein nicht unwesentlicher Teil des Khoros-Systems aus Entwicklungen einer aktiven Nutzergemeinde entstanden ist, die im Laufe von Jahren viele Bausteine zu dem Paket beigetragen hat. Außerdem gründete die Attraktivität der ersten Khoros-Versionen nicht zuletzt auf der Verfügbarkeit der Programmquellen. <del>Unter diesem Aspekt bietet Khoral Research Inc. auch weiterhin eine eine "Studentenversion" im Quelltext an, die sich Studenten nach einer Registrierung herunterladen können, die aber nicht weiterverteilt werden darf. Diese besteht aus dem Quelltext einer Beta-Version von Khoros Pro, die aktuelle Weiterentwicklungen in einer frühen Testphase beinhaltet</del>".
+== Downloads ==
+  *[[http://rab.ict.pwr.wroc.pl/inne/|Laboratorium Robotyki - Inne]].
+    *[[http://rab.ict.pwr.wroc.pl/~mw/khoros_inst/|Laboratorium Robotyki - Inne "Khoros 2.2"]] for Linux - Download of Khoros 2.2 for Linux.
+    *Online documentation [[http://rab.ict.pwr.wroc.pl/~mw/khoros_root/topmost_toc.html|Advanced KHOROS Manuals]] for Khoros 2.2.
+    *Online documentation [[http://meru.cecs.missouri.edu/mvl/khoros/|Advanced KHOROS Manuals]] for Khoros 2.2.
+  *[[http://www.idi.ntnu.no/~bilde/|Gerthory Toussaint "78024 Bildebehandling"]].
+    *[[http://www.idi.ntnu.no/~bilde/download/|Gerthory Toussaint "Image processing software"]].
+      *[[http://www.idi.ntnu.no/~bilde/download/khoros/|Gerthory Toussaint "Khoros 2.1"]] for Linux - Download of Khoros 2.1 for Linux.
+  *[[http://accusoft-visiquest.software.informer.com/|software.informer "AccuSoft VisiQuest 4.5"]] - Trial version for Windows.
+== Sales ==
+  *Book [[http://www.amazon.com/gp/product/0967946700/|Roberto Lotufo, Danielle Argiro, Ramiro Jordan "Khoros Pro 2001 Student Version"]],
+  *Book [[http://www.amazon.com/Khoros-Professional-Student-Khoral-Research/dp/0201326868/|Khoral Research Inc. "Khoros Professional Student Edition"]].
+== Resources ==
+  *[[http://ganymed.imib.rwth-aachen.de/lehmann/datasets_en.php?SELECTED=00002|Thomas Martin Lehmann "Datasets for non-commercial download"]], in Khoros format.
+  *[[http://pixel.cs.vt.edu/courses/cs5814.html|Roger W. Ehrich "CS5814: Digital Picture Processing"]].
+    *[[http://pixel.cs.vt.edu/courses/5814/kins.html|Roger W. Ehrich "Setting Up and Running Khoros"]].
+  *[[http://fie-conference.org/fie96/papers/113.pdf|Roberto H. Bamberger, Director, Signal Processing Instructional Facility, School of Electrical Engineering and Computer Science, Washington State University "A Prototype Distance Learning Laboratory for Image Processing Education"]] ( PDF ).
+  *Khoros tutorial [[http://www.cab.u-szeged.hu/local/doc/khoros/Tutorial/|Irinyi Kabinet, Hungary "Rafael Santos :Khoros Programming Tutorial"]] for Khoros 2.2 #.
+  *Khoros tutorial [[http://web.archive.org/web/*/http://www.icaen.uiowa.edu/~dip/KHOROS/khoros.html|Archive.org "University of Iowa, USA - 55:148 Digital Image Processing. 55:247 Image Analysis and Understanding. Khoros 2.1"]].
+  *[[http://www.wotsit.org/list.asp?search=viff|Wotsit's Format "VIFF"]] - "Khoros Visualisation package file format (postscript)".
+  *Course "Digital Image Processing (DIP) with Khoros".
+    *[[http://www.google.de/search?q=Digital+Image+Processing+%28DIP%29+with+Khoros|Google "Digital Image Processing (DIP) with Khoros"]].
+    *Tallinn University of Technology, The Institute of Cybernetics (IoC), Software Department, course [[http://www.cs.ioc.ee/~khoros2/|Ramiro Jordán, Roberto de Alencar Lotufo "Khoros Lab for TEMPUS CIDEC Image Processing Course"]].
+      *[[http://www.cs.ioc.ee/~khoros2/course-experiments.html|Ramiro Jordán, Roberto de Alencar Lotufo "DIP with Khoros 2: List of Experiments"]].
+    *Universidad Central de Venezuela, Course [[http://fisica.ciens.ucv.ve/curs/dipcourse/Welcome.html|Ramiro Jordán, Roberto de Alencar Lotufo "Digital Image Processing (DIP) with Khoros 2"]].
+=== Some other Commercial Image Processing Software Tools ===
+  *[[http://www.accusoft.com/|Pegasus Imaging Corporation, DBA Accusoft Pegasus]] - "Imaging SDKs that accelerate development".
+  *[[http://www.montivision.com/en/support/download/|MontiVision Imaging Technologies "Download MontiVision DirectShow SDK, Play-Out SDK, DirectShow Filters, Barcode SDK, Digital Video and Image Processing Tools"]]-
+    *"MontiVision Image Analyser", 30 days trial version.
+    *"MontiVision IPTC Lab", 29 days trial version.
+  *[[http://www.ni.com/vision/|National Instruments "Machine Vision" / "Industrielle Bildverarbeitung"]].
+    *[[http://www.ni.com/vision/vbai.htm|National Instruments "NI Vision Builder for Automated Inspection (AI)"]].
+  *[[http://www.mvtec.com/halcon/|MVTec Software GmbH "HALCON - The Power of Machine Vision"]].
+    *[[http://www.mvtec.com/halcon/now/|MVTec Software GmbH "Try HALCON for free!"]]. The demo version can't save data ?!
+==== Software Development Kits ( SDKs ), Frameworks ====
+=== Open Computer Vision Library ( OpenCV ), an OpenSource Image Processing Software SDK ===
+  *[[http://www.opencv.org/|Open Computer Vision Library]], [[http://opencvlibrary.sourceforge.net/projects/|Sourceforge "Open Computer Vision Library"]], [[http://www.sourceforge.net/projects/opencvlibrary/|Sourceforge "Open Computer Vision Library"]] ( OpenCV ).
+  *[[http://en.wikipedia.org/wiki/OpenCV|EN.Wikipedia "OpenCV"]], [[http://de.wikipedia.org/wiki/OpenCV|DE.Wikipedia "OpenCV"]].
+  *[[http://opencv.willowgarage.com/|OpenCV Wiki]].
+    *[[http://opencv.willowgarage.com/wiki/VisualC++|OpenCV Wiki "VisualC++"]].
+  *[[http://developer.intel.com/technology/itj/|Intel Technology Journal]].
+    *[[http://www.intel.com/technology/itj/2005/volume09issue02/art03_learning_vision/vol09_art03.pdf|Intel Technology Journal, Volume 09, Issue 02 "Learning-Based Comuter Vision with OpenCV library"]] ( PDF ), 2005-05-19.
+  *[[http://software.intel.com/en-us/articles/intel-ipp/|Intel Integrated Performance Primitives Performance Library]].
+    *[[http://software.intel.com/en-us/articles/intel-integrated-performance-primitives-intel-ipp-open-source-computer-vision-library-opencv-faq/|Intel Software Network "Intel IPP - Open Source Computer Vision Library (OpenCV) FAQ"]].
+    *[[http://software.intel.com/en-us/articles/using-intel-ipp-with-opencv/|Intel Software Network "Using Intel IPP with OpenCV"]].
+    *[[http://software.intel.com/en-us/articles/intel-ipp-support-model-changed-in-opencv-2x/|Intel Software Network "Intel IPP Support Model Changed In OpenCV 2.1"]].
+    *[[http://software.intel.com/en-us/forums/intel-integrated-performance-primitives/|Intel Software Network, Forum "Intel® Integrated Performance Primitives"]].
+  *[[http://downloadcenter.intel.com/SearchResult.aspx?lang=eng&keyword=%22opencv%22|Intel Download Center, search downloads "opencv"]].
+  *[[http://search.intel.com/default.aspx?q=opencv|Intel Software Network, search for "opencv"]].
+  *[[http://www.cs.iit.edu/~agam/cs512/lect-notes/opencv-intro/opencv-intro.html|Gady Agam "Introduction to programming with OpenCV"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1849513244/hemmerling-21|Robert Laganière "OpenCV 2 Computer Vision Application Programming Cookbook"]].
+=== Python Imaging Library (PIL) & OpenCV Wrapper for Python ===
+  *Book "Jan Erik Solem: Programming Computer Vision with Python: Tools and Algorithms for Analyzing Images" - See [[python03.html|Python 3/5 - Literature]].
+=== ZXing ( "Zebra Crossing" ) ===
+  *The OpenSource [[http://code.google.com/p/zxing/|Google Code "ZXing ('Zebra Crossing')"]] - "Multi-format 1D/2D barcode image processing library implemented in Java".
+=== Commercial Image Processing Software SDKs ===
+   *[[http://www.abbyy.com/sdk/|ABBYY Europe GmbH "Abby OCR and Document Conversion SDK"]].
+   *[[http://www.nuance.com/for-business/by-product/omnipage/|Nuance "Omnipage"]] -"Omnipage Capture Software Developers Kit for Windows", "Omnipage" OCR application for Windows.
+     *[[http://www.nuance.com/support/omnipage|Nuance - Support for Omnipage]], Version 10 or newer.
+==== Resources ====
+  *[[http://www.cs.cmu.edu/afs/cs/project/cil/ftp/html/v-source.html|Carnegie Mellon School of Computer Science "Computer Vision Software"]].
+  *[[http://www.efg2.com/Lab/Library/ImageProcessing/SoftwarePackages.htm|efg's Computer Lab "Image Processing - Software Packages"]].
+===== QR Code =====
+==== Free QR Services ====
+=== QR Generation ===
+  *[[http://www.qrserver.com/|QR Server]].
+    *The free online QR code generator [[http://www.goqr.me/|GOQR.ME]].
+    *[[http://qrserver.com/api/documentation/create-qr-code/|QR Server "QR Code API Documentation]].
+  *The free online QR code generator [[http://research.swtch.com/qr/draw|research!rsc Thoughts and links about computer programming, by Russ Cox - "QArt Coder"]], "powered by Google App Engine".
+  *[[http://www.qr1.at/|qr1°at Geo QR Codes]] - "qr1°at verknüpft QR Codes mit Positionsdaten und verfolgt, wann, wo und von welchem Gerät der QR Code aufgerufen wurde".
+=== QR Reading ===
+  *The free QR reading online service [[http://www.zxing.org/w/decode|ZXing Decoder Online]].
+==== Free Software Frameworks ====
+==== Commercial Services ====
+  *[[http://www.qnips.com/|Qnips GmbH]].
+==== Resources ====
+  *[[http://www.ekaay.com/PIN/|Borchert IT-Sicherheit UG "eKaay PIN"]].
+  *[[http://qrcode.wilkohartz.de/|Wilko Hartz "Basiswissen QR-Code"]].
+  *[[http://www.qrcode.com/|QRcode.com]] #.
+  *[[http://www.qr-code-scanner.com/|QR-Code-Scanner.com "Comparison of QR Code Scanners"]], [[http://qrscanners.wikidot.com/|QR Scanners - Comparison of QR Code Scanners]].
+  *[[http://en.wikiversity.org/wiki/Reed%E2%80%93Solomon_codes_for_coders|EN.Wikiversity "Reed–Solomon codes for coders"]].
+  *[[http://en.wikipedia.org/wiki/QR_code|EN.Wikipedia "QR code"]], [[http://de.wikipedia.org/wiki/QR-Code|DE.Wikipedia "QR-Code"]].
+  *[[http://de.wikipedia.org/wiki/2D-Code|DE.Wikipedia "2D-Code"]].
+
+===== Hardware for Image Processing =====
+  *[[http://www.keyence.de/|KEYENCE Deutschland GmbH]] - "Sensoren und Vision-Systeme für die Fabrikautomatisierung".
+===== Resources =====
+  *George Bebis.
+    *Course [[http://www.cse.unr.edu/~bebis/CS474/|George Bebis "CS474/674 Image Processing and Interpretation"]].
+    *Course [[http://www.cse.unr.edu/~bebis/CS791Y/|George Bebis "CS791Y: Topics in Computer Vision"]].
+  *[[http://www.compwisdom.com/|Comp Wisdom]].
+    *[[http://www.compwisdom.com/topics/Image-processing|Comp Wisdom "Topic: Image processing"]].
+  *Course [[http://cui.unige.ch/~aip/|CUI - University of Geneva, Computer Vision &  Multimedia Laboratory "Advanced Image Processing"]].
+  *Course [[http://www.fh-wedel.de/~eg/uebungen/bba/|Fachhochschule Wedel, Martin Egge "Praktikum Bildbearbeitung (FH)"]] - in 2006, VisiQuest was used as image processing tool.
+  *[[http://homepages.inf.ed.ac.uk/rbf/CVonline/|Robert B. Fisher, School of Informatics, University of Edinburgh "CVonline: The Evolving, Distributed, Non-Proprietary, On-Line Compendium of Computer Vision"]].
+  *Course [[http://www.icaen.uiowa.edu/~dip/|Mona K. Garvin "55:148 Digital Image Processing"]] - "Lecture Materials Input images and MATLAB m-scripts used during the interactive lecture (from 2008)".
+  *[[http://www.geogr.uni-jena.de/fileadmin/Fernerkundung/c2heso/|Sören Hese]].
+    *[[http://www.geogr.uni-jena.de/fileadmin/Fernerkundung/c2heso/GEO212.htm|Institut für Geographie, Friedrich-Schiller-Universität Jena - "Modul GEO212 (Fernerkundung I)"]].
+    *[[http://www.geogr.uni-jena.de/fileadmin/Fernerkundung/c2heso/Geomatica-Script-07112006.pdf|Sören Hese "Skript zur Übung Fernerkundung I ( Digitale Bildverarbeitung)"]] ( PDF ).
+  *[[http://mason.gmu.edu/~khintz/|Kenneth J. Hintz]].
+    *[[http://mason.gmu.edu/~khintz/courses.html|Kenneth J. Hintz - Courses taught]].
+      *Course [[http://zonkil.gmu.edu/~khintz/courses/ece_537/ece_537_home.html|Kenneth J. Hintz "ECE 537, Introduction to Digital Image Processing"]].
+  *Course [[http://www.ece.eps.hw.ac.uk/~ceeyrp/WWW/Teaching/B39SD2/B39SD2.html|Katia Lebart, Yvan Petillot "Image Processing 22.5SD2"]] - "MATLAB Practicals".
+  *Course [[http://pixel.cs.vt.edu/courses/cs5814.html|Qing Li "CS5814 Digital Picture Processing Course Materials"]].
+  *[[http://www.hal.t.u-tokyo.ac.jp/~pasqual/image.html|Ajith Pasqual: Collection of Web sites on Image Processing]].
+  *Course [[http://amath.colorado.edu/courses/5720/2000Spr/Labs/Worksheets/Matlab_tutorial/matlabimpr.html|Kristian Sandberg "Introduction to image processing in Matlab 1"]].
+  *[[http://www.prip.tuwien.ac.at/Tu Vienna, Institute of Computer Grapics and Algorithms, Pattern Recognition and Image Processing Group]].
+    *[[http://www.prip.tuwien.ac.at/teaching/ws/bildverstehen-image-understanding/image-understanding-links|Tu Vienna, Institute of Computer Grapics and Algorithms, Pattern Recognition and Image Processing Group "Image Understanding Links"]].
+    *[[http://www.prip.tuwien.ac.at/services/computer-vision-links|Tu Vienna, Institute of Computer Grapics and Algorithms, Pattern Recognition and Image Processing Group "Computer Vision Links "]].
+===== Books and E-Books =====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3540210296/hemmerling-21|Henning Bässmann, Jutta Kreyss "Bildverarbeitung Ad Oculos"]].
+    *[[http://www.theimagingsource.com/en_US/publications/newsletter/archive/20000620/|The Image Source, Technology based on Standards "Learn Image Analysis with Ad Oculos"]].
+    *[[http://ebookee.org/Bildverarbeitung-Ad-Oculos_224142.html|Ebookee.org - eBooks Search Engine! "Bildverarbeitung Ad Oculos"]].
+      *[[http://www.uploading.com/files/XVHOE8KT/Bildverarbeitung.rar.html|uploading.com "Bildverarbeitung.rar"]].
+    *[[http://users.etech.fh-hamburg.de/users/Koelzer/download_bild.html|Hans Peter Kölzer]].
+      *[[http://users.etech.fh-hamburg.de/users/Koelzer/adoculos_down.zip|Hans Peter Kölzer - Download "Ad Oculos, Student Edition"]] (zip) for Windows.
+  *Free PDF book [[http://www.robots.ox.ac.uk/~contours/|Andrew Blake, Michael Isard "Active Contours"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0596516134/hemmerling-21|Gary Bradski, Adrian Kaehler, Mike Loukides, Robert Romano "Learning OpenCV: Computer Vision with the OpenCV Library"]] #.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0471962430/hemmerling-21|Robert Fisher, Simon Perkins, Ashley Walker, Erik Wolfart "Hypermedia Image Processing Reference"]].
+    *The book of 18 pages is accompanied by a CD. The CD contains reference information on around 50 of the most common classes of image processing operations in use today. This version is static, i.e. it doesn't allow the online execution of image processing operators.
+    *[[http://homepages.inf.ed.ac.uk/rbf/HIPR2/|HIPR2 Image Processing Learning Resources]] - This website provides online execution of image processing operators.
+    *[[http://www.wiley.com/legacy/wileychi/electronic/hipr/|HIPR - Wiley Companion Site]].
+  *[[http://www.amazon.de/exec/obidos/ASIN/0534951414/q| "An Introduction to Digital Signal Processing With Mathcad (Mathcad Electronic Book)"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0534951414/q|Robert O. Harger "An Introduction to Digital Signal Processing With Mathcad (Mathcad Electronic Book)"]] for Mathcad 5.
+    *[[http://www.ece.umd.edu/~harger/|Department of Electrical & Computer Engineering, James Clark School of Engineering, "An Introduction to Digital Signal Processing With Mathcad" Companion Site, Directory with Mathcad files]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0521540518//hemmerling-21|Richard Hartley, Andrew Zisserman "Multiple View Geometry in Computer Vision"]].
+    *[[http://www.robots.ox.ac.uk/~vgg/hzbook/|Richard Hartley, Andrew Zisserman "Multiple View Geometry in Computer Vision" - Companion Site]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0133361659/hemmerling-21|Anil K. Jain, Jain "Fundamentals of Digital Image Processing"]].
+    *Course [[http://vip.cs.utsa.edu/classes/cs6723s97/overview.html|Kay A. Robbins "CS 6723 Image Processing"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0070320187/hemmerling-21|Ramesh Jain, Rangachar Kasturi, Brian G. Schunck "Machine Vision"]].
+    *[[http://web.archive.org/web/*/http://vision.cse.psu.edu/book/|Archive.org "Ramesh Jain, Rangachar Kasturi, Brian G. Schunck: Machine Vision - Companion Site"]].
+  *Free HTML online book [[http://www.yorku.ca/eye/thejoy.htm|Peter K. Kaiser "The Joy of Visual Perception"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/053495393X/hemmerling-21|Milan Sonka, Vaclav Hlavac, Roger Boyle "Image Processing, Analysis and Machine Vision"]].
+    *Course [[http://www.icaen.uiowa.edu/~dip/|Milan Sonka "55:148 Digital Image Processing"]].
+      *[[http://www.icaen.uiowa.edu/~dip/LECTURE/lecture.html|Milan Sonka "55:148 Digital Image Processing", Lecture Materials]].
+      *[[http://www.icaen.uiowa.edu/~dip/LECTURE/Introduction.html|Milan Sonka "55:148 Digital Image Processing" - "Chapter 1, Introduction"]] - "Example Khoros Workspaces".
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0123725380/hemmerling-21|Mark S. Nixon and Alberto S. Aguado "Feature Extraction & Image Processing"]]. 
+    *[[http://users.ecs.soton.ac.uk/msn/book/|Mark S. Nixon and Alberto S. Aguado "Feature Extraction & Image Processing" - Companion Site]].
+      *[[http://users.ecs.soton.ac.uk/msn/book/worksheets.html|Mark S. Nixon and Alberto S. Aguado "Worksheets for Feature Extraction & Image Processing"]] -> Mathcad sample files.
+      *[[http://www.ecs.soton.ac.uk/~msn/book/mcexp802.exe|Download "mcexp802.exe"]] ( exe ) - Official, but discontinued Mathcad Explorer for viewing Mathcad 8 files.
+      *[[http://users.ecs.soton.ac.uk/msn/book/books.html|Mark S. Nixon and Alberto S. Aguado "Online and Homepages for Image Processing and Computer Vision Textbooks"]].
+      *[[http://users.ecs.soton.ac.uk/msn/book/software.html|Mark S. Nixon and Alberto S. Aguado "Software for Image Processing and Computer Vision"]].
+  *Scott E. Umbaugh.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0849329191/hemmerling-21|Scott E. Umbaugh "Computer Imaging: Digital Image Analysis and Processing"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/143980205X/hemmerling-21|Scott E. Umbaugh "Digital Image Processing and Analysis: Human and Computer Vision Applications with Cviptools, Second Edition]].
+  *I.T. Young, J.J. Gerbrands, L.J. van Vliet: "Image Processing Fundamentals".
+    *Free PDF book [[http://www.ph.tn.tudelft.nl/|TU Delft - Quantitative Imaging]] / "Education / "Education Literature" -> "I.T. Young, J.J. Gerbrands, L.J. van Vliet: Image Processing Fundamentals".
+    *Free PDF Book [[http://www.ebook3000.com/Fundamentals-of-Image-Processing_60576.html|ebook3000.com "I.T. Young, J.J. Gerbrands, L.J. van Vliet: Image Processing Fundamentals"]].
+
+===== Hardware, Drivers & Software =====
+  *[[http://www.theimagingsource.com/|The Imaging Source - Industrial Cameras, Frame Grabbers, Video Converters & Software]]
+===== Forums, Newsgroups =====
+  *[[http://groups.google.com/group/sci.image.processing/|Google Groups "sci.image.processing"]], [[http://groups.google.com/group/comp.soft-sys.khoros/|Google Groups "comp.soft-sys.khoros"]].
+    *[[http://www.faqs.org/faqs/by-newsgroup/sci/sci.image.processing.html|sci.image.processing Newsgroup FAQs]].
+  *[[http://www.theimagingsourceforums.com/|The Imaging Source Community]].
+  *[[http://tech.groups.yahoo.com/group/OpenCV/|Yahoo Groups "OpenCV"]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Science/Technology/Electronics/Signal_Processing/Digital_Signal_Processing_-_DSP/|OpenDirectory "Top: Science: Technology: Electronics: Signal Processing: Digital Signal Processing - DSP"]].
+  *[[http://www.dmoz.org/Arts/Photography/Techniques_and_Styles/Digital/|OpenDirectory "Top: Arts: Photography: Techniques and Styles: Digital"]].
+{{tag>"image processing"}}
+<footnote_navi_en>
+

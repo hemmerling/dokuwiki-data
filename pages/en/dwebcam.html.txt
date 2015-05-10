@@ -1,0 +1,34 @@
+====== [hemmerling] Webcam - Live Video Broadcasting ( Dynamic HTML ) ======
+<HTML><SCRIPT type="text/javascript" language="Javascript">
+<!--
+  function reloadImg()
+   {
+     // the webcam.jpg is the 0..10th image on the
+     // english-speaking WEB site if Javascript is activated !
+     status = "Reloading image ...";
+     uniq = new Date();
+     uniq = "?"+uniq.getTime();
+     newImage = document.images[0].src;
+     index = newImage.indexOf("?", 0);
+     if (index > 0)
+      {
+        newImage = newImage.substr(0, index);
+      }
+     status = document.images[0].src;
+     document.images[0].src= newImage+uniq;
+   }
+  // -->
+</SCRIPT></HTML>
+<PHP>
+echo '<IMG src="'.wl($ID,'',true).'../wikidata/media/webcam/webcam.jpg" width="320" height="240" id="imgToLoad" onload="setTimeout(\'reloadImg()\', 3000)" alt="The Hemmerling (R) Webcam">';
+</PHP>
+I am just online here by special negociation. If the webcam picture does not change, I am probably not online.
+
+===== =====
+<footnote_navi_en>
+
+This document is available in [[de:dwebcam.html|{{flags:de.png|german}}]] language, too ! 
+
+
+
+

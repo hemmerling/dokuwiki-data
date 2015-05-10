@@ -1,0 +1,166 @@
+====== [hemmerling] Requirements & Requirements Engineering ======
+Related pages:
+  *[[creativity.html|Creativity & Idea Management]].
+  *[[rmsoftware.html|Requirements Software & Software used for Requirements Engineering]].
+  *[[sdocumentation.html|Software Documentation]].
+  *[[specbyex.html|Specification by Example]].
+  *[[systemdesign.html|System Design]]
+  *[[testing.html|Testing]].
+  *[[usability.html|Usability]].
+===== Organizations and Conferences =====
+==== Organizations ====
+  *[[http://www.anp.din.de/|Ausschuss Normenpraxis (ANP)]].
+    *ANP-H: "Regionalgruppe Niedersachsen - Sachsen-Anhalt".
+  *[[http://www.gfse.de/|Gesellschaft für Systems Engineering e.V., German Chapter of INCOSE ( GfSE )]].
+  *[[http://www.incose.org/|International Council on Systems Engineering ( INCOSE )]].
+  *[[http://www.certified-re.de/|International Requirements Engineering Board (IREB e.V.)]].
+    *Certified Professional for Requirements Engineering ( CPRE ).
+  *[[http://www.prostep.org/|ProSTEP iViP Verein]].
+==== Conferences and User Meetings ====
+  *[[http://www.hood-group.com/reconf/reconf-2014/|REConf® 2014, Bridging Gaps]] in Unterschleißheim, 2014-03-10 - 2014-03-13.
+  *[[http://www.willert.de/termine/veranstaltungen_2/rugs-und-dugs_1|Willert Software Tools GmbH "RUGS & DUGS - IBM Rational Rhapsody und DOORS User Group Summit"]], 2015-05-21 - 2015-05-22.
+===== Product Requirements Document, Functional Specification =====
+==== VDI 2519, VDI 3694, VDI 4403 ====
+  *[[http://www.vdi.de/401.0.html?tx_vdirili_pi2[showUID]=90166|VDI "VDI-Richtlinie: VDI 2519 Blatt 1"]].
+  *[[http://www.vdi.de/7899.0.html?&tx_vdirili_pi2[showUID]=90167|VDI "VDI-Richtlinie: VDI 2519 Blatt 2"]].
+  *[[http://www.beuth.de/de/technische-regel/vdi-vde-3694/103308166|Beuth Verlag GmbH "VDI/VDE 3694:2008-01 Lastenheft/Pflichtenheft für den Einsatz von Automatisierungssystemen"]].
+  *[[http://www.beuth.de/de/technische-regel/vdi-4403-blatt-1/138173093|Beuth Verlag GmbH "VDI 4403 Blatt 1:2011-08 Modernisierung und Erweiterung fördertechnischer Anlagen und logistischer Systeme bei laufendem Betrieb"]].
+  *[[http://www.beuth.de/de/technische-regel/vdi-4403-blatt-2/138173161|Beuth Verlag GmbH "VDI 4403 Blatt 2:2011-08 Modernisierung und Erweiterung fördertechnischer Anlagen und logistischer Systeme bei laufendem Betrieb - Umbau und Erweiterung am Beispiel eines großen Zentrallagers"]].
+  *[[http://www.beuth.de/de/technische-regel/vdi-4403-blatt-3/138173245|Beuth Verlag GmbH "VDI 4403 Blatt 3:2011-08 Modernisierung und Erweiterung fördertechnischer Anlagen und logistischer Systeme bei laufendem Betrieb - Integration und Nutzungsänderung am Beispiel von zwei Distributionszentren"]].
+  *[[http://www.tfh-wildau.de/sbruntha/Material/SDGM/LundPH.html|Prof. Dr. Stefan Brunthaler, TFU Wildau "Systemdenken und Gestaltungsmethodik: Lasten- und Pflichtenheft nach VDI/VDE 3694, 2519 Blatt 1"]].
+  *The outdated document <del>[[http://www.hoefingen.de/qualivali/infos/15c_vdi_vde3694_lastenpflichtenheft.pdf|VDI/VDE Richtlinien VDI/VDE 3694 Lastenheft/Pflichtenheft für den Einsatz von Automatisierungssystemen]]</del>, as of April 1991.
+==== IEEE 830-1998 ====
+  *[[http://standards.ieee.org/findstds/standard/830-1998.html|IEEE Standards Association "IEEE STANDARD 830-1998 - IEEE Recommended Practice for Software Requirements Specifications"]].
+  *[[http://en.wikipedia.org/wiki/Software_requirements_specification|EN.Wikipedia "Software requirements specification"]], [[http://de.wikipedia.org/wiki/Software_Requirements_Specification|DE.Wikipedia "Software Requirements Specification"]].
+==== Helmut Balzert ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3827417058/hemmerling-21|Helmut Balzert: "Lehrbuch der Softwaretechnik: Basiskonzepte und Requirements Engineering"]].
+==== Volere ====
+  *[[http://www.volere.co.uk/|Atlantic Systems Guild Ltd "Volere Requirements Resources"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0321419499/hemmerling-21|Suzanne Robertson, James C. Robertson: "Mastering the Requirements Process"]]
+  *The commercial, but affordable document [[http://www.volere.co.uk/template.htm|Atlantic Systems Guild Ltd "Volere Requirements Specification Template"]].
+  *[[http://de.wikipedia.org/wiki/Volere|DE.Wikipedia "Volere"]].
+==== DIN 69901-5 ====
+  *[[http://de.wikipedia.org/wiki/DIN_69901|DE.Wikipedia "DIN 69901"]].
+==== User Requirements Specification ( URS ) - Lastenheft ====
+  *[[http://www.validation-online.net/user-requirements-specification.html|Validation-Online "User Requirements Specification ( URS )"]].
+  *[[http://www.ofnisystems.com/Validation/User_Requirements.htm|Ofni Systems Inc. "User Requirement Specifications"]].
+  *Sample URS.
+    *[[http://www.ispe.org/jett/jett-sample-documents|International Society for Pharmaceutical Engineering ( ISPE ) "GAMP Americas - JETT Sample Docs"]] - "Example URS (User Requirements Specifications)".
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1936007037/hemmerling-21|Bianca Scholten: "Mes Guide for Executives: Why and How to Select, Implement, and Maintain a Manufacturing Execution System"]]
+      *Appendix B "Table of Contents for the User Requirements Template for MES, developed by the ISA-95 & MES Competence Center at TASK".
+      *Sample document: [[mes05.html|Manufacturing Execution Systems ( MES ) 5/5 - User Requirements Template for MES]].
+==== Function Requirements Specification ( FRS ) - Pflichtenheft ====
+==== Resources ====
+  *[[http://www.hdvo.de/|Team-HDvO Hilgenberg & Zimmermann "HDvO Hierarchische Dokumentation von Objekten"]] - "Das Pflichtenheft".
+  *[[http://en.wikipedia.org/wiki/Product_requirements_document|EN.Wikipedia "Product requirements document"]], [[http://de.wikipedia.org/wiki/Lastenheft|DE.Wikipedia "Lastenheft"]].
+  *[[http://en.wikipedia.org/wiki/Functional_specification|EN.Wikipedia "Functional specification"]], [[http://de.wikipedia.org/wiki/Pflichtenheft|DE.Wikipedia "Pflichtenheft"]].
+===== Books =====
+  *Klaus Pohl.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3898645509/hemmerling-21|Klaus Pohl "Requirements Engineering. Grundlagen, Prinzipien, Techniken"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3898647714/hemmerling-21|Klaus Pohl, Chris Rupp "Basiswissen Requirements Engineering: Aus- und Weiterbildung nach IREB-Standard zum Certified Professional for Requirements Engineering Foundation Level"]].
+    *[[http://www.sse.uni-due.de|Prof. Dr. Klaus Pohl, Institut für Informatik und Wirtschaftsinformatik, Universität Duisburg-Essen "Software Systems Engineering"]].
+    *[[http://www.re-buch.de/|re-buch.de]]  - "Hier finden Sie Informationen zu .. Lehrbüchern über Requirements Engineering".
+  *Chris Rupp.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3446418415/hemmerling-21|Chris Rupp "Requirements-Engineering und -Management. Professionelle, iterative Anforderungsanalyse für die Praxis"]]
+    *[[http://www.sophist.de/|SOPHIST GmbH]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3540009639/hemmerling-21|Gerhard Versteegen, Alexander Heßeler, Colin Hood, Christian Missling: "Anforderungsmanagement: Formale Prozesse, Praxiserfahrungen, Einführungsstrategien und Toolauswahl"]] - Description of Telelogic Doors on 170 pages, as of 2003.
+    *Chapter 4 "Anforderungsmanagement mit Telelogic DOORS", pages 97-182.
+      *Page 114 "Bei beschreibenden Modulen handelt es sich um Module, die mit einer Textdatei verknüpft sind. Diese Arten von Modulen stammen noch aus einer zeit, als DOORS noch keine anderen Import- und Exportmöglichkeiten hatte".
+    *Chapter 5 "Verifikation von Anforderungen mit Telelogic DOORS und Tau Generation2", pages 185 - 208.
+    *Chapter 6 "Die Einführung von Anforderungsmanagement und DOOR in einem internationalen Unternehmen", pages 211-253.
+    *Addendum "Die elektronische Signatur", pages 255 - 259.
+===== Training and Certification =====
+  *[[http://www.isqi.org/zertifizierung/|iSQI - Zertifizierung]].
+    *[[http://www.isqi.org/zertifizierung/irebRcertified-professional-for-requirements-engineering/|iSQI "IREB Certified Professional for Requirements Engineering"]].
+  *[[http://www.diazhilterscheid.de/de/schulung/|Díaz & Hilterscheid Unternehmensberatung GmbH - Schulung]].
+  *[[http://www.peterhruschka.eu/|Peter Hruschka]], [[http://www.systemsguild.com/pxh.htm|The Atlantic Systems Guild "Peter Hruschka"]] #.
+    *[[http://www.reomnis.eu/|REomnis]] - "Video Training "Certified Professional for Requirements Engineering" with Dr. Peter Hruschka, based on IREB ( CPRE FL = 780 EUR, CPRE FL + Zertifizierung = 980 EUR )".
+      *[[http://server.reomnis.eu/www_prod/index.html|Aschauer EDV "REomnis - Portal"]].
+    *[[http://www.systemsguild.com/courses.htm|The Atlantic Systems Guild - Courses]] - "Requirements Seminars".
+      *[[http://www.systemsguild.com/cremituml.htm|Certified Requirements Engineering mit UML (in German) — Peter Hruschka]]
+    *[[http://www.b-agile.de/|Dr. Peter Hruschka "...b-agile! Agility - from Vision to Version"]].
+      *[[http://www.b-agile.de/b-agile/kurse/|...b-agile! Agility - from Vision to Version "Kurse"]].
+        *[[http://b-agile.de/b-agile/kuk/effektives-requirements-engineering-und-management/|...b-agile! Agility - from Vision to Version "Effektives Requirements Engineering & Management"]].
+  *[[http://zugang.sophist.de/trainings.nsf/Lookup/3DE670C59CEF1C17C12572ED0052F35C?Open|SOPHIST GmbH "CPRE-Foundation Level Sparring Day. Auffrischungskurs als Vorbereitung für die Zertifizierung zum 'Certified Professional for Requirements Engineering IREB e.V.'"]] -> There is no "demo test" paper supplied with this training.
+  *[[http://www.microtool.de/products/de/seminare.asp|microTOOL GmbH "Seminare. Projektmanagement – Requirements Engineering – UML"]], Berlin.
+===== Special Topics =====
+==== User Requirements Notation ( URN ) ====
+  *[[http://www.itu.int/ITU-T/studygroups/com17/urn/|International Telecommunication Union ( ITU-T ) "URN Focus Group (User Requirements Notation)"]].
+  *[[http://www.cs.toronto.edu/km/istar/|i* ( i-star ) - an agent-oriented modelling framework]].
+  *[[http://de.wikipedia.org/wiki/User_Requirements_Notation|DE.Wikipedia "User Requirements Notation"]].
+==== Semantics of Business Vocabulary and Business Rules ( SBVR ) ====
+  *[[http://www.businessrulesgroup.org/|Business Rules Group]].
+    *[[http://www.businessrulesgroup.org/brmanifesto.htm|Business Rules Group "The Business Rules Manifesto. The Principles of Rule Independence"]].
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/SBVR|EN.Wikipedia "Semantics of Business Vocabulary and Business Rules"]] ( SBVR ).
+    *[[http://en.wikipedia.org/wiki/Business_Motivation_Model|EN.Wikipedia "Business Motivation Model"]].
+    *[[http://de.wikipedia.org./wiki/Rete-Algorithmus|DE.Wikipedia "Rete-Algorithmus"]].
+  *[[http://www.kdmanalytics.com/sbvr/|KDM Analytics "Semantic of Business Vocabulary and Business Rules (SBVR)"]].
+  *[[http://www.omg.org/technology/documents/br_pm_spec_catalog.htm|OMG Catalog of Business Modeling and Management Specifications]].
+  *[[http://blogs.msdn.com/b/nickmalik/archive/2009/01/09/an-examination-of-the-omg-business-motivation-model.aspx|MSDN Blogs "Nick Malik: An examination of the OMG Business Motivation Model"]].
+  *[[http://www.microsoft.com/presspass/press/2008/sep08/09-10OMGModelingPR.mspx|Microsoft News Center "Microsoft Focuses on Bringing Modeling Mainstream, Improves IT Delivery of Business Strategies"]], 2008-09-10.
+==== Story Telling - 7 Story Archetypes ====
+  *The 7 story archetypes are:
+    -Overcoming the Monster.
+    -Rags to Riches.
+    -The Quest.
+      *[[http://en.wikipedia.org/wiki/Monomyth|EN.Wikipedia "Monomyth"]], [[http://de.wikipedia.org/wiki/Heldenreise|DE.Wikipedia "Heldenreise"]].
+      *[[http://en.wikipedia.org/wiki/Quest|EN.Wikipedia "Quest"]], [[http://de.wikipedia.org/wiki/Quest|DE.Wikipedia "Quest"]].
+    -Voyage and Return.
+    -Comedy.
+    -Tragedy.
+    -Rebirth.
+  *[[http://www.socialmediatoday.com/tommyismyname/383348/7-story-archetypes-and-how-they-can-dramatically-improve-your-marketing|SocialMediaToday "The 7 Story Archetypes, and How They Can Dramatically Improve Your Marketing"]].
+  *[[http://www.themoleskin.com/2010/03/storytelling-in-business-elements-of-story-structure/|Themoleskin - think.try.teach "Storytelling In Business: Elements of Story Structure"]].
+==== Story Slicing ====
+  *[[http://www.deltamatrix.com/horizontal-and-vertical-user-stories-slicing-the-cake|Ned Kremic, DeltaMatrix Consulting "Horizontal and Vertical User Stories - Slicing the Cake"]].
+  *[[http://en.wikipedia.org/wiki/Vertical_slice|EN.Wikipedia "Vertical slice"]].
+==== Min Max Specification vs. Typcial Parameters, for Embedded Systems Software ====
+  *Traditionally: A demand for a "Min Max Specification" for all input parameters.
+  *New approach: Specification of typical parameters.
+==== Usability ====
+  *See [[usability.html|Usability]].
+===== Resources =====
+==== Norms ====
+  *[[http://www.beuth.de/|Beuth Verlag GmbH]] - "DIN" norms.
+==== General Resources ====
+  *[[http://easyweb.easynet.co.uk/~iany/|Ian Alexander "Requirements for your Business"]].
+    *[[http://easyweb.easynet.co.uk/~iany/consultancy/perfect_rm_discovery.htm|Ian Alexander "Perfect Requirement Discovery: Way Bigger Than It Seems"]].
+    *[[http://easyweb.easynet.co.uk/~iany/consultancy/papers.htm|Ian Alexander "Papers on Requirements Engineering"]] -> "Tools: DOORS & DXL".
+  *Blog [[http://www.artiso.com/ProBlog/|artiso Blog]].
+    *Blog article [[http://www.artiso.com/ProBlog/PermaLink,guid,be4cca26-17cf-46da-ae27-fd9e6b895afd.aspx|artiso Blog, Thomas Schissler "Requirement Management mit Visual Studio Team System White Paper"]].
+  *Blog [[http://www.softwareprojects.org/|Bas de Baar "Software Projects"]].
+    *Blog article [[http://www.softwareprojects.org/software-requirement-management-01.htm|Bas de Baar "Software Requirements Management"]].
+  *Blog [[http://www.devdaily.com/|Alvin J. Alexander, devdaily]].
+      *Blog article [[http://www.devdaily.com/uml/software-requirements-specification-example-use-case|devdaily "A free "real world" software requirements specification"]].
+      *The Requirements Gathering and Analysis (RGA) document [[http://www.devdaily.com/ooaood/dd-example-requirements-specification.pdf|Alvin J. Alexander "ACME Phase 2(c) RGA. Enabling External User. Functionality Version 6.1."]] ( PDF ).
+  *[[http://www.enso-managers.de/|enso managers gmbh]].
+    *http://reqif.de/tl_files/ReqIF/resources/documents-en/Semantic-Model-Integration.pdf|Reqif.de, Dr. Oskar von Dungern "Semantic Model Integration for System Specification. Creating a Common Context for Different Model Types"]].
+    *Dr. Oskar von Dungern "Dimmer - Syntactically Integrated Specification", 2015-02-14.
+  *[[http://www.infforum.de/|INffORUM Simon - Informatik Forum]].
+    *[[http://www.infforum.de/themen/anforderungsanalyse/thema_requirements.htm|INffORUM Simon - Informatik Forum "Anforderungsanalyse / Anforderungsmanagement"]].
+  *[[http://www.jiludwig.com/|Ludwig Consulting Services, LLC "Managing Requirements. Practical information about requirements management"]].
+    *[[http://www.jiludwig.com/RM_Links.html|Ludwig Consulting Services, LLC "RM Links"]].
+  *[[http://www.seilevel.com/requirements-resources/|Seilevel - requirements defined "Resources"]].
+  *[[http://www.sei.cmu.edu/|Software Engineering Institute, Carnegie Mellon]].
+    *[[http://www.sei.cmu.edu/architecture/tools/atam/|Software Engineering Institute, Carnegie Mellon "Architecture Tradeoff Analysis Method (ATAM)"]].
+    *[[http://www.sei.cmu.edu/library/abstracts/reports/03tr006.cfm|Software Engineering Institute, Carnegie Mellon "SACAM: The Software Architecture Comparison Analysis Method"]].
+  *[[http://www.techtarget.com/|TechTarget]].
+    *[[http://searchsoftwarequality.techtarget.com/|TechTarget SearchSoftwareQuality.com]] - "Helping you develop, deploy and manage quality software".
+  *[[http://www.software-evaluation.co.uk/|The Software Evaluation Center]].
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/Systems_Engineering|EN.Wikipedia "Systems Engineering"]], [[http://de.wikipedia.org/wiki/Systems_Engineering|DE.Wikipedia "Systems Engineering"]].
+    *[[http://en.wikipedia.org/wiki/Software_Requirements_Specification|EN.Wikipedia "Software Requirements Specification"]], [[http://de.wikipedia.org/wiki/Software_Requirements_Specification|DE.Wikipedia "Software Requirements Specification"]].
+    *[[http://en.wikipedia.org/wiki/Software_configuration_management|EN.Wikipedia "Software configuration management"]], [[http://en.wikipedia.org/wiki/Configuration_management|EN.Wikipedia "Configuration management"]], [[http://de.wikipedia.org/wiki/Software-Configuration-Management|DE.Wikipedia "Software-Configuration-Management"]], [[http://de.wikipedia.org/wiki/Konfigurationsmanagement|DE.Wikipedia "Konfigurationsmanagement"]] -> "Beispiele für Werkzeuge. Diese Systeme bieten Unterstützung beim Versionieren" :-).
+    *[[http://en.wikipedia.org/wiki/MoSCoW_Method|EN.Wikipedia "MoSCoW Method"]], [[http://de.wikipedia.org/wiki/MoSCoW-Priorisierung|DE.Wikipedia "MoSCoW-Priorisierung"]]- "Must, Should, Could, Won´t".
+
+===== Communities, Forum, Newsgroups =====
+  *[[http://www.linkedin.com/groups/Requirements-Engineering-Specialist-Group-RESG-2662234|LinkedIn "Requirements Engineering Specialist Group (RESG)"]].
+  *[[http://www.modernanalyst.com/|MODERNanalyst.com]].
+    *[[http://www.modernanalyst.com/Community/TheCommunity/tabid/101/Default.aspx|MODERNanalyst.com "The Modern Analyst Community"]].
+    *[[http://www.modernanalyst.com/Community/Forums/tabid/76/forumid/17/scope/threads/Default.aspx|MODERNanalyst.com "Business Analyst Forums & Systems Analyst Forums"]].
+  *[[http://www.requirementsnetwork.com/|Requirements Networking Group ( RQNG )]] - "where requirements gatherers meet".
+  *[[http://requirements.seilevel.com/messageboard/|Seilevel "Software Requirements Message Board"]].
+  *[[http://tech.groups.yahoo.com/group/Requirements-Engineering/|Yahoo Groups "Software Requirements Engineering"]].
+{{tag>"requirements engineering" requirements usability}}
+<footnote_navi_en>

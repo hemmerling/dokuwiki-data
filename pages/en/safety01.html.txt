@@ -1,0 +1,84 @@
+====== [hemmerling] Safety 1/2 ======
+Related page:
+  *[[qmanagement.html|Quality Management]].
+  *[[safety02.html|Safety 2/2 - Design of safe Automation Systems & safe Embedded Systems]].
+
+===== Risk Management =====
+==== Fault Tree Analysis ====
+  *[[http://en.wikipedia.org/wiki/Fault_tree_analysis|EN..Wikipedia "Fault tree analysis"]], [[http://de.wikipedia.org/wiki/Fehlerbaumanalyse|DE.Wikipedia "Fehlerbaumanalyse"]].
+  *Software fault tree analysis ( SWFTA ) - A deductive analysis: It starts with potential or actual failures and asks what might have caused them.
+==== Failure Mode and Effects Analysis ( FMEA ) / Failure Mode and Effects and Criticality Analysis ( FMECA ) ====
+  *[[http://en.wikipedia.org/wiki/Failure_mode_and_effects_analysis|EN.Wikipedia "Failure mode and effects analysis"]], [[http://de.wikipedia.org/wiki/FMEA|DE.Wikipedia "FMEA"]].
+  *Software failure mode, effect and criticality analysis ( SWFMECA ) - An inductive analysis: Tt starts with the failure of components and asks what they might result in at the systems level.
+==== Markov Analysis ====
+  *[[http://www.markovanalysis.com/|Isograph Ltd "Markov Analysis"]].
+  *[[http://en.wikipedia.org/wiki/Markov_chain|EN.Wikipedia "Markov chain"]], [[http://de.wikipedia.org/wiki/Markow-Kette|DE.Wikipedia "Markow-Kette"]].
+  *[[http://en.wikipedia.org/wiki/Bayes%27_theorem|EN.Wikipedia "Bayes' theorem"]], [[http://de.wikipedia.org/wiki/Bayestheorem|DE.Wikipedia "Bayestheorem"]].
+==== Risk Graphs ====
+=== RAPEX Risk Assessment ===
+  *[[http://www.baua.de/de/Geraete-und-Produktsicherheit/Marktueberwachung/Risikobewertung.html|Bundesanstalt für Arbeitsschutz und Arbeitsmedizin ( baua ) "Geräte- und Produktsicherheit / Marktüberwachung / Materialien / RAPEX-Risikobewertung"]] - Example of a risk assessment for a locksmith's hammer ( "Schlosserhammer" ).
+==== Resources ====
+  *[[http://www.isaca.org/|ISACA]].
+    *[[http://www.isaca.org/Template.cfm?Section=CRISC1&Template=/TaggedPage/TaggedPageDisplay.cfm&TPLID=16&ContentID=55525|ISACA "Certified in Risk and Information Systems Control" certification]].
+  *[[http://en.wikipedia.org/wiki/Hazard|EN.Wikipedia "Hazard"]], [[http://de.wikipedia.org/wiki/Gef%C3%A4hrdung|DE.Wikipedia "Gefährdung"]].
+  *[[http://en.wikipedia.org/wiki/Risk|EN.Wikipedia "Risk"]], [[http://de.wikipedia.org/wiki/Risiko|DE.Wikipedia "Risiko"]].
+===== Goal Structuring Notation (GSN) =====
+  *[[http://www.goalstructuringnotation.info/|Homepage for the GSN Draft Standard]].
+  *[[http://safetyengineering.wordpress.com/|The Safety Engineer Resource]].
+    *[[http://safetyengineering.wordpress.com/2008/04/04/the-goal-structuring-notation-gsn/|The Safety Engineer Resource "The Goal Structuring Notation (GSN)"]].
+  *[[http://www.artisansoftwaretools.com/products/artisan-gsn-modeler|Artisan GSN Modeler]] - commerical GSN tool for W2k, WinXP, Win7. 
+    *[[http://www.artisansoftwaretools.com/pressreleases/pressitem/artisan-announces-early-availability-program-for-artisan-gsn-modeler1|Artisan announces Early Availability Program for Artisan GSN Modeler]] - "Artisan GSN Modeler is available free-of-charge to new applicants accepted on to Artisan’s Early Availability Program".
+    *[[http://www.artisansoftwaretools.com/flygsn|Artisan GSN Modeler]] - download after registration.
+===== Occupational Health and Safety =====
+==== Fairs ====
+  *The fair [[http://www.aplusa.de/|A+A - Persönlicher Schutz, Betriebliche Sicherheit und Gesundheit bei der Arbeit. Internationale Fachmesse mit Kongress]] ( 2011-10-18 - 2011-10-21 ), at [[http://www.messe-duesseldorf.de/|Messe Düsseldorf]].
+==== Tools ====
+  *[[http://www.earline-protection.com|Earline]] -> "English" -> "Ear Plugs".
+  *[[http://www.kind.de/|KIND Hörgeräte]] - ear protection ( "Hörschutz" / "Gehörschutz" ).
+==== Resources ====
+  *[[http://www.arbeitssicherheit.de/|Wolters Kluwer Deutschland GmbH "arbeitssicherheit.de - Mit Sicherheit Erfolg"]].
+  *[[http://www.bgbau-medien.de/|BG BAU - Berufsgenossenschaft der Bauwirtschaft "Medien und Praxishilfen
+der Berufsgenossenschaft der Bauwirtschaft"]].
+    *[[http://www.bgbau-medien.de/site/inh_gese_bgr.htm|BG BAU - Berufsgenossenschaft der Bauwirtschaft "BG-Regeln"]].
+      *"BG 194 - Benutzung von Gehörschutz".
+  *[[http://www.baua.de/|Bundesanstalt für Arbeitsschutz und Arbeitsmedizin]] ( BAuA ).
+    *[[http://www.baua.de/de/Themen-von-A-Z/Anlagen-und-Betriebssicherheit/TRBS/TRBS_content.html|Bundesanstalt für Arbeitsschutz und Arbeitsmedizin "Technische Regeln für Betriebssicherheit (TRBS)"]].
+  *DIN EN 1313, part 1 "Benutzerinformationen" - Symbols for communication of the intended use of ladders.
+  *Wikipedia.
+    *[[http://de.wikipedia.org/wiki/Gefahrgut|DE.Wikipedia "Gefahrgut"]] ( just Class 1 symbols have orange background with black script ) versus [[http://de.wikipedia.org/wiki/Gefahrstoff|DE.Wikipedia "Gefahrstoff"]] ( all symbols have orange background and black script ).
+  *Video [[http://www.youtube.com/watch?v=R3h8j5U0d3s|Youtube "Schwarzer Freitag – Suva – SuvaPro"]] by [[http://www.suva.ch/|http://www.suva.ch/|suva]].
+===== Hazard Analysis and Critical Control Points =====
+  *[[http://en.wikipedia.org/wiki/Hazard_analysis_and_critical_control_points|EN.Wikipedia "Hazard analysis and critical control points"]], [[http://de.wikipedia.org/wiki/Hazard_Analysis_and_Critical_Control_Points|DE.Wikipedia "Hazard Analysis and Critical Control Points"]].
+  *[[http://www.haccp.de/|HACCP - Punkt für Punkt sichere Lebensmittel]].
+  *[[http://www.haccp-hygienemanagement.de/|HACCP und Hygienemanagement]]
+
+===== Explosion Prevention and Protection =====
+  *[[http://www.leuze.de/news/atex/p_01_de.html|Leuze electronic GmbH + Co. KG "Ex-Schutz Grundlagen und Lösungen"]].
+===== Lighting and Surge Protection & Fire Prevention and Protection =====
+=== Services ===
+  *[[http://www.blids.de/|Blitz Informationsdienst von Siemens]] ( BLIDS ).
+=== Courses ===
+  *[[http://www.dehn.de/|DEHN + SÖHNE]] - Affordable seminars. 
+    *[[http://automatix.dehn.info/Seminar/webview/listKat/3|DEHN + SÖHNE "Termine"]].
+    *[[http://www.dehn.de/de/seminare/info.shtml|DEHN + SÖHNE "Seminare"]].
+    *[[http://www.dehn.de/de/seminare/inhalte_bs_kompakt.shtml|DEHN + SÖHNE "Inhalte"]].
+  *[[http://www.obo-bettermann.com/de/seminare.shtml|OBO BETTERMANN GmbH & Co. KG]] - Affordable seminars ( 55 EUR/d ), in Hamburg,..
+  *[[http://www.trox.de/de/service/academy/seminar/|TROX GmbH "TROX Seminarreihen"]] - Affordable seminars "Rauch- und Brandschutz in RLT-Anlagen".
+=== Resources ===
+  *[[http://www.dehn.de/design07_frame/deutsch/kontakt/verbaende.html|DEHN + SÖHNE GmbH + Co. KG.: Verbände]].
+
+===== Electromagnetic Compatibility (EMC ) =====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3834808938/hemmerling-21|Joachim Franz: "Störungssicherer Aufbau elektronischer Schaltungen"]].
+===== Resources =====
+  *[[http://en.wikipedia.org/wiki/ASTM_International|EN.Wikipedia "ASTM International"]], [[http://de.wikipedia.org/wiki/ASTM_International|DE.Wikipedia "ASTM International"]].
+  *[[http://www.baua.de/|Bundesanstalt für Arbeitsschutz und Arbeitsmedizin (BAuA)]].
+    *[[http://www.dasa-dortmund.de/|DASA Arbeitswelt Ausstellung]].
+  *[[http://www.osha.gov/|Occupational Safety and Health Administration]], [[http://www.ul.com/|Underwriters Laboratories Inc. ( UL )]].
+    *[[http://www.ul.com/global/eng/pages/corporate/standards/|Underwriters Laboratories Inc. "Standards for Safety"]].
+    *[[http://en.wikipedia.org/wiki/Underwriters_Laboratories|EN.Wikipedia "Underwriters Laboratories"]], [[http://de.wikipedia.org/wiki/Underwriters_Laboratories|DE.Wikipedia "Underwriters Laboratories"]].
+  *Wikipedia.
+    *[[http://de.wikipedia.org/wiki/Zuverl%C3%A4ssigkeit_%28Technik%29|DE.Wikipedia "Zuverlässigkeit (Technik)"]].
+    *[[http://en.wikipedia.org/wiki/ATEX_directive|EN.Wikipedia "ATEX directive"]], [[http://de.wikipedia.org/wiki/ATEX|DE.Wikipedia "ATEX"]].
+{{tag>safety explosion fire prevention protection "occupational health" "occupational safety"}}.
+<footnote_navi_en>
+

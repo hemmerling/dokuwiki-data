@@ -1,0 +1,78 @@
+====== [hemmerling] Lua & eLua ======
+===== Languages & Runtimes =====
+  *[[http://www.lua.org/|Lua - The Programming Language]].
+  *[[http://luacheia.lua-users.org/|lua-users.org "LuaCheia - a full featured, modular Lua distribution"]].
+  *[[http://www.eluaproject.net/|eLua]] - "Embedded power, driven by Lua - Quickly prototype and develop embedded software applications with the power of Lua and run them on a wide range of microcontroller architectures".
+    *Wiki [[http://wiki.eluaproject.net/|eLua Wiki]].
+      *[[http://wiki.eluaproject.net/Boards|eLua Wiki "Development boards supported by eLua"]].
+===== Tools =====
+  *The commercial IDE & debugger [[http://www.unknownworlds.com/decoda|decoda - A powerful Lua IDE and debugger]] for Windows - 30 days evaluation version.
+  *[[http://www.inf.puc-rio.br/~roberto/ldb.html|Ldb: A debugger for Lua]] - Free use just in academic context.
+  *[[http://www.luajit.org/|The LuaJIT Project]].
+  *[[http://luaedit.sourceforge.net/|SourceForge "LuaEdit - Free IDE/Debugger/Editor for Lua"]], [[http://www.sourceforge.net/projects/luaedit|SourceForge "LuaEdit"]].
+===== OpenSource Projects =====
+  *[[http://github.com/bartman/wmii-lua|Github, bartman "wmii-lua"]].
+    *[[http://www.jukie.net/bart/|Bart]], [[http://www.jukie.net/bart/blog/tag/lua|Bart's Blog - Lua]].
+  *[[http://www.keplerproject.org/|Kepler Project]].
+    *[[http://keplerproject.github.com/cgilua/|Github, Kepler Project "CGILua - Building Web Scripts with Lua"]].
+    *[[http://www.keplerproject.org/luajava/|Github, Kepler Project "LuaJava. A Script Tool for Java"]].
+  *[[http://www.luaforge.net/|LuaForge]] - The project repository for third-party Lua projects.
+  *[[http://www.luaplayer.org/|luaplayer.org - All things PSP & Lua]].
+  *[[http://w3.impa.br/~diego/software/luasocket/|Diego Nehab "LuaSocket - Network support for the Lua language"]].
+  *[[http://doris.sourceforge.net/|SourceForge "Doris - Script driven OpenGL viewer"]], [[http://www.sourceforge.net/projects/doris|SourceForge "Doris - OpenGL scripting"]].
+  *[[http://www.rasterbar.com/products/luabind.html|Rasterbar Software "Luabind"]] - "A library that helps you create bindings between C++ and Lua".
+  *[[http://www.tecgraf.puc-rio.br/~celes/|Waldemar Celes]].
+    *[[http://www.tecgraf.puc-rio.br/~celes/tklua/|Waldemar Celes "tklua - Binding Tk to Lua"]].
+    *[[http://www.tecgraf.puc-rio.br/~celes/tolua/|Waldemar Celes "toLua - accessing C/C++ code from Lua"]].
+===== Frameworks ======
+  *[[http://www.kony.com/|Kony]].
+    *[[http://en.wikipedia.org/wiki/KonyOne_Platform|EN.Wikipedia "KonyOne Platform"]] - "KonyOne is integrated with native platform SDKs to execute natively across devices. The runtime consists of a virtual machine that implements the scripting language (JavaScript or **Lua**) used by Kony Studio, coupled with the library for each device platform".
+===== Big Applications =====
+  *[[http://www.info-beamer.org/|info-beamer - The Interactive Multimedia Presenter for Lua]].
+===== The eLua Hardware Platform "Mizar32" =====
+  *See [[atmelavr32.html|Atmel AVR32]].
+===== German Books =====
+  *[[http://www.ckuehnel.ch/|Dr. Claus Kühnel]] ( [[http://www.ckskript.ch/|Dr. Claus Kühnel - Special Interest Verlag]] ), Daniel Zwirne #.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3907857151/hemmerling-21|Claus Kühnel, Daniel Zwirner: "Lua: Einsatz von Lua in Embedded Systems"]] = 2nd. edition.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3907857127/hemmerling-21|Claus Kühnel, Daniel Zwirner: "Lua: Einsatz von Lua zur Messwerterfassung"]] = 1st. edition.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3941841386/hemmerling-21|Patrick Gundlach, Arno Trautmann: "LuaTeX: Anwendung und Programmierung"]].
+  *[[http://www.inf.puc-rio.br/~roberto/|Roberto Ierusalimschy]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3937514228/hemmerling-21|Roberto Ierusalimschy: "Programmieren mit Lua"]] #.
+    *Accompanying website [[http://www.inf.puc-rio.br/~roberto/book/|Roberto Ierusalimschy "Programming in Lua"]].
+    *The free english online book [[http://www.lua.org/pil/|Roberto Ierusalimschy "Programming in Lua"]].
+===== English Books =====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1430223715/hemmerling-21|Paul Emmerich: "Beginning Lua with World of Warcraft Add-ons"]].
+  *[[http://www.inf.puc-rio.br/~roberto/|Roberto Ierusalimschy]], Luiz Henrique De Figueiredo, [[http://www-di.inf.puc-rio.br/~celes/|Waldemar Celes]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/8590379833/hemmerling-21|Roberto Ierusalimschy, Luiz Henrique De Figueiredo, Waldemar Celes "Lua 5.1 Reference Manual"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0470069171/hemmerling-21|Kurt Jung, Aaron Brown "Beginning Lua Programming"]].
+  *The free online HTML book [[http://www.brpreiss.com/books/opus9/|Bruno R. Preiss "Data Structures and Algorithms with Object-Oriented Design Patterns in Lua"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1584504714/hemmerling-21|Paul Schuytema: "Game Design. A Practical Approach"]].
+===== Resources =====
+  *[[http://drdobbs.com/architecture-and-design/184410014/|Dr.Dobb's Journal - Luiz Henrique de Figueiredo, Roberto Ierusalimschy, and Waldemar Celes "Lua: an Extensible Embedded Language"]]
+  *[[http://lua.lickert.net/|Knut Lickert "Erste Schritte in der Programmierung mit Lua"]].
+  *[[http://www.lua-users.org/|lua-users.org]].
+  *[[http://pgl.yoyo.org/luai/|Luai: Lua reference manual interface]].
+  *[[http://milsoft.com/documentation/WindMil-Help|Milsoft Utility Solutions - Documentation: WindMil Help]] - "Using Lua Scripts".
+  *[[http://onlamp.com/pub/a/onlamp/2006/02/16/introducing-lua.html|O'Reilly ONLamp.com, Keith Fieldhouse: "Introducing Lua"]].
+  *[[http://www.andreas-rozek.de/Lua/|Andreas Rozek "Lua"]].
+  *[[http://en.wikipedia.org/wiki/Lua_%28programming_language%29|EN.Wikipedia "Lua (programming language)"]], [[http://de.wikipedia.org/wiki/Lua|DE.Wikipedia "Lua"]].
+===== Forums, Newsgroups =====
+  *Forums & Newsgroups about "Mizar32", see [[atmel.html|The Atmel AVR Family with Focus on AVR32, ATxmega, ATmega, ATtiny, AT90 and the Arduino / Freeduino Platform]].
+  *Google Groups.
+    *[[http://groups.google.com/group/elua-repo/|Google Groups "eLua-repo"]].
+    *[[http://groups.google.com/group/elua-on-mizar32-book|Google Groups "eLua on Mizar32 book"]].
+    *[[http://groups.google.com/group/lua-br|Google Groups "Lua BR"]].
+    *[[http://groups.google.com/group/lua-alchemy-dev|Google Groups "lua-alchemy-dev"]].
+    *[[http://groups.google.com/group/lua-table-semantics|Google Groups "lua table semantics"]].
+    *[[http://groups.google.com/group/wmii-lua|Google Groups "wmii-lua"]].
+  *[[http://www.icynorth.com/forums/|Icy North Technologies User Forums ( Lua Forums )]].
+  *Nabble.
+    *[[http://elua-development.2368040.n2.nabble.com/|Nabble "eLua Development"]].
+    *[[http://lua-list.2524044.n2.nabble.com/|Nabble "Lua list"]].
+  *[[http://www.stackoverflow.com/questions/tagged/lua|Stack Overflow - Tagged Questions "[lua]"]].
+
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Programming/Languages/Lua/|OpenDirectory "Top: Computers: Programming: Languages: Lua"]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Programmieren/Sprachen/Lua/|OpenDirectory "Top: World: Deutsch: Computer: Programmieren: Sprachen: Lua"]].
+{{tag>"Lua eLua "embedded Lua" embedded systems}}
+<footnote_navi_en>

@@ -1,0 +1,11 @@
+====== [hemmerling] Webcam - Live Video-Übertragung ( Java ) ======
+<PHP>
+echo '<APPLET codebase="'.wl($ID,'',true).'../wikidata/media/java/webcam32/" code="JavaCam.class" width="320" height="240"><PARAM name="url" value="'.wl($ID,'',true).'../wikidata/media/webcam/webcam.jpg"><PARAM name="interval" value="1">Bitte aktiviert JAVA !</APPLET>';
+</PHP>
+Diese Seite dient zur Darstellung von Live-Übertragungen von Veranstaltungen, Messen und Kongressen, z.B. von einer Webcam auf einem Messe-Stand. Veranstaltungen und Live-Webcam-Zeiten werden hier angekündigt. Wenn das Webcam-Bild sich nicht ändert, findet (vermutlich) gerade keine Veranstaltung statt, von der übertragen wird.
+
+{{tag>webcam}}
+
+<footnote_navi_de>
+
+Dieses Dokument ist auch auf [[en:jwebcam.html|{{flags:uk.png|British englisch}}]][[en:jwebcam.html|{{flags:us.png|US englisch}}]] verfügbar ! 

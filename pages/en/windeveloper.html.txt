@@ -1,0 +1,110 @@
+====== [hemmerling] Software Development for Windows ======
+Related pages:
+  *[[metro.html|Flat Design]].
+  *[[dotnet.html|Microsoft .NET Framework 1/2]].
+  *[[dotnet02.html|Microsoft .NET Framework 2/2]].
+  *[[windows.html|Microsoft Windows]].
+
+===== Top Reasons why a Software needs a later edition of Windows =====
+The sequence: Win3.1, Win3.1 with Win32, Win95, Win98, Win98SE, WinME, W2k, WinXP / Win2003 Server, Vista / Win7 / Win2008 Server.
+==== Top Reasons why a Software does not run on Win7 or WinXP, but just on Win8 ====
+  -It is a Metro style app.
+==== Top Reasons why Win8 does not run on your Computer ====
+  -The screen resolution of your graphics card is less than 1024x768 ( e.g. 800x600, think of small webbooks.. and legacy desktop PC graphics cards ).
+  -The shipped grapics drivers of Win8 do not support 1024x768 on your graphics card ( think of legacy graphics card which the graphics card drivers shipped with WinXP just support with 800x600x16 ).
+
+==== Top Reasons why a Software does not run on W2k, but just on WinXP ====
+  -The software is looking for "GetProcessID" in KERNEL32.dll, which is available on WinXP, but not on W2k.
+  -The software uses .NET 3.0 or newer.
+==== Top Reasons why a Software does not run on Win98SE, but just on W2k ====
+  -The software is a service or tries to install a service.
+===== Software Development Kits ( SDKs, DDKs, WDKs ) =====
+==== Windows Grapics Drivers ====
+  *[[http://www.silverlight.net/|The Official Microsoft Silverlight Site]].
+  *[[http://en.wikipedia.org/wiki/Microsoft_Silverlight|EN.Wikipedia "Microsoft Silverlight"]], [[http://de.wikipedia.org/wiki/Microsoft_Silverlight|DE.Wikipedia "Microsoft Silverlight"]].
+==== Windows DDK, Windows WDK, Windows SDK ====
+  *[[http://www.microsoft.com/whdc/devtools/ddk/|Windows Hardware Developer Central "Windows Server 2003 DDK"]].
+  *[[http://www.microsoft.com/whdc/DevTools/|Windows Hardware Developer Central "WDK and Developer Tools"]].
+  *[[http://www.microsoft.com/whdc/devtools/WDK/|Windows Hardware Developer Central "Windows Driver Kit (WDK)"]].
+  *[[http://www.microsoft.com/whdc/driver/wdf/|Windows Hardware Developer Central "Windows Driver Foundation (WDF)"]].
+  *[[http://en.wikipedia.org/wiki/Windows_Driver_Foundation|EN.Wikipedia "Windows Driver Foundation"]].
+  *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=71DEB800-C591-4F97-A900-BEA146E4FAE1|Microsoft Download Center "Microsoft Windows SDK for Windows 7 and .NET Framework 3.5 SP1 (ISO)"]].
+  *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=35AEDA01-421D-4BA5-B44B-543DC8C33A20|Microsoft Download Center "Microsoft Windows SDK for Windows 7 and .NET Framework 4 (ISO)"]].
+  *Windows 98 support.
+    *[[http://www.winprj.net/board/viewtopic.php?f=7&t=38|WPC4 "Windows 98 DDK and Documentation"]] - Inofficial unsupported download.
+      *Former, now invalid download locations "http://www.microsoft.com/ddk/download/98/BINS_DDK.EXE" (2.9 MBytes) and "http://www.microsoft.com/ddk/download/98/98SETUP.EXE" (1.9 MBytes).
+    *[[http://download.microsoft.com/download/WindowsInstaller/Install/2.0/W9XMe/EN-US/InstMsiA.exe|Microsoft Windows Installer 2.0]] for Win98SE ( Download ).
+==== Intel AppUp ====
+  *[[http://www.appup.com/|Intel AppUp]].
+    *[[http://appdeveloper.intel.com/join|Intel AppUp Developer Program]].
+==== Third-Party Windows Device Driver Development Kits ====
+  *[[http://www.techsoftpl.com/vxd/|Techsoft VxDWriter]] - "A commecial tool for developing Windows 95/98/Me Virtual Device Driver (VxD) quickly and efficiently in C/C++". Limited free version is available for download.
+  *[[http://entechtaiwan.net/dev/index.shtm|EnTech Taiwan "TVicHW322]] - "A commercial general purpose device driver that can be used by practically any programming language. It lets you access and control hardware directly from any Win32 application under Windows 95/98/Me/NT/2000/2003/XP/XP 64-bit without having to use the Windows DDK".
+  *[[http://www.direct-io.com/|Ingenieurbuero Paule "Direct I/O"]] - "A commercial device driver for Microsoft Windows NT, Windows 2000, Windows XP and Windows Server 2003 which enables the direct hardware access for your existing software without any programming efforts on your side".
+  *The commercial [[http://www.jungo.com/st/windriver_usb_pci_driver_development_software.html|Jungo "WinDriver: Driver Development Tools for USB/PCI/PCI-Express"]].
+
+===== Direct Port I/O for W2k or newer, with Giveio.sys and Loaddrv, INSTDRV, InstDrv =====
+==== Giveio.sys ====
+  *[[http://www.drdobbs.com/184409876|Dale Roberts, Dr.Dobbs Journal "Direct Port I/O and Windows NT"]], 1996-05-01.
+  *[[http://www.cs.ucr.edu/~eblock/pages/pictools/giveio.html|University of California, Riverside. Department of Computer Science., eBlocks : Embedded Systems Building Blocks "GiveIO - Installation and Setup"]] -> Download [[http://www.cs.ucr.edu/~eblock/db/downloads/giveio.zip|giveio.zip]].
+==== Paula Tomlinson's Loaddrv ====
+  *[[http://www.linkedin.com/pub/paula-tomlinson/1/128/634|LinkedIn "Paula Tomlinson"]].
+    *May 1995 article in "Windows/DOS Developer's Journal" aka "[[http://www.wdj.com/|Windows Developer's Journal]]", found in archives like "windowsdos/1995/may95.zip", "wddj/1995/may95.zip".
+      *[[http://www.filewatcher.com/m/may95.zip.97799.0.0.html|FileWatcher "Download mirrors for may95.zip (95.51 KB)"]].
+  *[[http://savannah.nongnu.org/projects/avrdude/|Savannah "AVRDUDE"]] - "A software for programming Atmel AVR Microcontrollers".
+    *[[http://www.koders.com/info.aspx?c=ProjectInfo&pid=H8TPLXSEPWPPQVRNMLBK38AXVE|Black Duck Koders.com - AVR Downloader/UploaDEr "root / avrdude / avrdude / windows"]] - "loaddrv.c - Dynamic driver install/start/stop/remove, based on Paula Tomlinson's LOADDRV program".
+  *[[http://irdeo.de/eirdeosw.htm|IRdeo Software "ntdriver.zip"]] - "NT/2000 driver (needed for NT/2000/XP) : GIVEIO.SYS (Dale Roberts), LOADDRV (Paula Tomlinson), [[http://irdeo.de/ntdriver.zip|ntdriver.zip]]" -> Download.
+  *[[http://www.sagebrush.com/vcrtech.htm|VCRadio Technical Support "FAQ. How do I install drivers so VCRadio can work on WinXP/NT4/2000?"]] - instructions how to use Giveio.sys and Loaddrv.
+==== Windows DDK - instdrv.exe ====
+  *[[http://www.physik.rwth-aachen.de/institute/institut-iiib/forschung/cms/detektorentwicklung/arc/arc-board/|Physikzentrum der RWTH Aachen: ARC Board]] - "To install the device driver you need the device driver giveio.sys (from the zip file directio.zip) and the program instdrv.exe ([[http://www.physik.rwth-aachen.de/fileadmin/user_upload/www_physik/Institute/Inst_3B/Forschung/CMS/Detektorentwicklung/ARC/instdrv.zip|instdrv.zip]]) from the device driver kit (DDK) for Windows NT".
+==== Nullsoft Scriptable Install System - InstDrv ====
+  *[[http://nsis.sourceforge.net/|NSIS (Nullsoft Scriptable Install System)]], [[http://www.sourceforge.net/projects/nsis/|NSIS (Nullsoft Scriptable Install System)]].
+  *[[http://nsis.sourceforge.net/InstDrv_plug-in|NSIS (Nullsoft Scriptable Install System), InstDrv plug-in]] - "The plugin helps you to create NSIS scripts for installing device drivers or removing them again. It can count installed device instances, create new ones or delete all supported device. InstDrv works on Windows 2000 or later".
+===== Windows Debugging =====
+==== Tools ====
+  *The free [[http://smartbear.com/products/free-tools/aqtime-standard/|SmartBear Software "AutomatedQA AQtime Standard"]] - "Free Performance Profiling. Discovers and eleminate bugs and bottlenegs in your software".
+  *The free [[http://research.microsoft.com/en-us/projects/detours/|Microsoft Research "Detours"]] - "Software packaged for detouring Win32 and application APIs".
+  *[[http://www.microsoft.com/whdc/devtools/debugging/|Windows Hardware Developer Central "Download and Install Debugging Tools for Windows"]].
+  *The free [[http://www.dependencywalker.com/|Dependencywalker]] - scans any 32-bit or 64-bit Windows module (exe, dll, ocx, sys, etc.) and builds a hierarchical tree diagram of all dependent modules.
+==== Resources ====
+  *[[http://support.microsoft.com/default.aspx?scid=kb%3ben-us%3b267802|Microsoft Help and Support "Page heap enhancements included with Windows 2000 Service Pack 1"]] - "This article describes the additional page heap features in Windows 2000 Service Pack 1 that you can use for advanced debugging".
+  *[[http://support.microsoft.com/default.aspx?scid=kb;en-us;286470|Microsoft Help and Support "How to use Pageheap.exe in Windows XP, Windows 2000, and Windows Server 2003"]].
+===== Windows Application Compatibility Tools =====
+  *[[http://technet.microsoft.com/en-us/windows/aa905066.aspx|Microsoft TechNet, Windows "Application Compatibility"]].
+  *[[http://technet.microsoft.com/en-us/windows/aa905078.aspx|Microsoft TechNet, Windows "Application Compatibility Tools"]].
+  *[[http://technet.microsoft.com/de-de/deployment|Microsoft TechNet, Desktop-Deployment TechCenter]].
+    *[[http://technet.microsoft.com/de-de/deployment/bb414773.aspx|Microsoft TechNet, Desktop-Deployment TechCenter  "Windows-Anwendungskompatibilität"]].
+  *The free tool "Microsoft Application Compatibility Toolkit" ( ACT ) 3.0, 4.1, 5.0, 5.5, 5.6.
+    *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=24DA89E9-B581-47B0-B45E-492DD6DA2971|Microsoft Download Center "Microsoft Application Compatibility Toolkit 5.6"]] for WinXP with .NET 3.5.
+    *[[http://majorgeeks.com/The_Application_Compatibility_Toolkit_d5509.html|Majorgeeks.com "Microsoft - The Application Compatibility Toolkit 5.0"]] - download of "Microsoft Application Compatibility Toolkit 5.5" ( not 5.0 :-) ), the latest edition for W2k.
+  *The free tool [[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=c4a25ab9-649d-4a1b-b4a7-c9d8b095df18|Microsoft Download Center "Microsoft Application Verifier"]] for WinXp.
+    *[[http://msdn.microsoft.com/en-us/library/Aa480483|Microsoft MSDN Library "Using Application Verifier Within Your Software Development Lifecycle"]].
+  *[[http://support.microsoft.com/kb/308259/|Microsoft Help and Support "POSIX and OS/2 are not supported in Windows XP or in Windows Server 2003 ( Article ID: 308259 )]].
+
+===== Resourcen =====
+==== Free Literature ====
+  *[[http://blogs.msdn.com/b/mssmallbiz/archive/2012/07/27/large-collection-of-free-microsoft-ebooks-for-you-including-sharepoint-visual-studio-windows-phone-windows-8-office-365-office-2010-sql-server-2012-azure-and-more.aspx|Microsoft MSDN - Eric Ligman, Microsoft Senior Sales Excellence Manager "Large collection of Free Microsoft eBooks for you, including: SharePoint, Visual Studio, Windows Phone, Windows 8, Office 365, Office 2010, SQL Server 2012, Azure, and more"]].
+  *[[http://blogs.msdn.com/b/mssmallbiz/archive/2012/07/30/another-large-collection-of-free-microsoft-ebooks-and-resource-kits-for-you-including-sharepoint-2013-office-2013-office-365-duet-2-0-azure-cloud-windows-phone-lync-dynamics-crm-and-more.aspx|Microsoft MSDN - Eric Ligman, Microsoft Senior Sales Excellence Manager "Another large collection of Free Microsoft eBooks and Resource Kits for you, including: SharePoint 2013, Office 2013, Office 365, Duet 2.0, Azure, Cloud, Windows Phone, Lync, Dynamics CRM, and more"]].
+==== Special Topics ====
+  *[[http://www.lvr.com/hidpage.htm|Jan Axelson's Lakeview Research "The HID Page"]].
+  *[[http://www.codeguru.com/Cpp/I-N/network/serialcommunications/article.php/c2483|Codeguru, Remon Spekreijse "A communication class for serial port"]].
+  *[[http://www.microsoft.com/msj/0197/Exception/Exception.aspx|Microsoft Journal "A Crash Course on the Depths of Win32™ Structured Exception Handling"]], 1997-01.
+  *[[http://leetupload.com/dbindex2/index.php?dir=Misc/Papers/Asta%20la%20Vista/|leetupload.com - Database / Misc / Papers / Asta la Vista]].
+    *[[http://www.leetupload.com/database/Misc/Papers/Asta%20la%20Vista/l-rt4.pdf|Dr. Edward G. Bradford "RunTime : Pipes in Linux, Windows 2000, and Windows XP. High-performance programming techniques on Linux and Windows"]], 2001-10 ( PDF ).
+==== General Resourcen ====
+  *[[http://developer.microsoft.com/|Microsoft Developer]] - Microsoft’s worldwide online destination for developers. 
+  *[[http://technet.microsoft.com/edge/|Microsoft TechNet "TechNet Edge"]] - "Hier finden IT-Experten Videos, Screencasts, Podcasts und Artikel, mit denen sie über aktuelle Microsoft-Technologien auf dem Laufenden bleiben".
+  *[[http://msdn.microsoft.com/en-us/library/Aa286573|Microsoft MSDN Library "Graphics and Multimedia"]].
+  *[[http://www.osronline.com/|OSR - Everything Windows Driver Development]] by [[http://www.osr.com/|OSR Open Systems Resources, Inc.]]- "The Home Page for Windows Driver Developers".
+    *The free [[http://insider.osr.com/2011/ntinsider_2011_03.pdf|OSF "The NT Insider"]] ( PDF ).
+==== Virtual Academy ====
+  *[[http://technet.microsoft.com/de-de/bb291022|Microsoft TechNet "IT Pro Academy"]].
+  *[[http://www.microsoft.com/germany/msdn/myapp/webuild/|Microsoft "We.Build Inc."]] - "Kostenlos mit IT-Schulungen weiterbilden, spielerisch Punkte sammeln und Preise gewinnen. Willkommen bei We.Build Inc, dem Start-up-Spiel für IT-Anfänger, -Fortgeschrittene und Profis. Bei uns stehen Ihre Weiterbildung und Ihre Karriere im Vordergrund" -> "Live-Veranstaltungen in ganz Deutschland".
+
+===== Forums, Newsgroups =====
+  *[[http://www.facebook.com/MSFTDev.Germany|Facebook "Microsoft Developer Community organisation"]] for Germany.
+  *[[http://groups.google.com/group/de.comp.os.ms-windows.programmer|Google Groups "de.comp.os.ms-windows.programmer"]].
+  *[[http://social.technet.microsoft.com/Forums/en-US/itprovistaact/|Microsoft TechNet, Windows Client TechCenter, Windows Vista IT Pro Forums "Windows Vista Application Compatibility Toolkit"]] -> "Application Compatibility Toolkit (ACT)".
+  *[[http://www.osronline.com/page.cfm?name=ListServer|OSR - Everything Windows Driver Development "The NTDEV, NTFSD,?WINDBG, and NTTALK?Lists"]].
+{{tag>Windows sdk wdk ddk "Windows Software Development Kit" "Windows Driver Kit" "Windows Device Driver Kit" "Windows Debugging" debugging "Windows Application Compatibility Tools" "Application Compatibility Tools" ACT}}
+<footnote_navi_en>

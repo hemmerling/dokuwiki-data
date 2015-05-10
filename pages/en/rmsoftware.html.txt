@@ -1,0 +1,420 @@
+====== [hemmerling] Requirements Software & Software used for Requirements Engineering ======
+Related pages:
+  *[[requirements.html|Requirements & Requirements Engineering]].
+  *[[revision.html|Revision Control Systems (RCS), Source Code Version Control Systems ( SCVCS, VCS, CVS ), Software Configuration Management (SCM )]].
+===== TREND/Analyst Community Edition =====
+==== The Tool ====
+  *The free Eclipse-based [[http://www.gebit.de/loesungen/technische-loesungen/trend-analyst-requirements.html|GEBIT Solutions GmbH "TREND/Analyst Community Edition"]] for Java on Windows and Linux - "Model Driven Requirement Engineering" #. 
+    *It was mentioned in 2007 by the commercial market study [[http://www.heise.de/kiosk/special/ixstudie/05/01/|iX-Studie Anforderungsmanagement]] to be on the eylevel of market leaders :-).
+==== Tips & Tricks ====
+    *[[http://www.gebit-community.de/phpbb/viewtopic.php?f=1&t=6|GEBIT TREND/Analyst Community Edition Portal, Thread "Userinterface auf Englisch - Change UI to English"]] - "TREND/Analyst displays the user interface ether in german or in english - depending on the language setup of your Windows installation. You can force the language of TREND/Analyst to be english besides your Windows setup. Just add a parameter '-nl en' to how the programm is started.".
+===== Some Tools with Support for "Requirements Interchange Format" ( ReqIF, RIF ) =====
+==== ProR ====
+  *The OpenSource tool [[http://www.eclipse.org/rmf/pror/|ProR - Requirements Engineering Platform. An editor powered by the Eclipse RMF Project]].
+    *Blog [[http://www.formalmind.com/en/blog|formalmind - science for systems engineering - Blog]] - "We want to share our latest insights regarding formal methods and requirements as well as the latest developments regarding our OpenSource tools, ProB and ProR".
+  *Slides [[http://wiki.event-b.org/images/Rodin2010-sld-jastram.pdf|Michael Jastram, University of Düsseldorf "The Requirements Engineering Platform"]] ( PDF ).
+  *The OpenSource [[http://www.eclipse.org/rmf/|Eclipse Requirements Modeling Framework ( RMF )]].
+    *[[http://www.eclipse.org/proposals/modeling.mdt.rmf/|Eclipse Proposals "Requirements Modeling Framework (RMF)"]].
+    *A reference implementation of [[http://www.omg.org/spec/ReqIF/|OMG "Requirements Interchange Format (ReqIF)"]].
+  *[[http://de.wikipedia.org/wiki/Requirements_Modeling_Framework|DE.Wikipedia "Requirements Modeling Framework"]].
+==== Eclipse Requirements Analysis / Eclipse ReqIF-supported Analysis ( ERA ) ====
+  *The OpenSource [[http://www.github.com/3GF/era_dev/wiki|Gihub " 3GF / era_dev"]].
+==== Google Code "reprotool. Requirements Processing Tool" ====
+  *The OpenSource [[http://code.google.com/a/eclipselabs.org/p/reprotool/|reprotool. Requirements Processing Tool]].
+==== ReqIF Server ====
+  *The commercial [[http://www.reqif.de/|enso managers GmbH "ReqIF Server"]].
+==== Pyrrho UBizz - RIF/ReqIF Transformer ====
+  *The free online service [[http://www.pyrrho.com/en/ReqIF/ReqIF-Intro.htm|Pyrrho B.V. "Pyrrho UBizz - RIF/ReqIF Transformer"]].
+==== Resources ====
+  *[[http://nirmalsasidharan.wordpress.com/2011/07/18/requirements-modeling-framework-rmf/|Nirmal Sasidharan's Blog "Requirements Modeling Framework (RMF)"]].
+  *[[http://code.google.com/a/eclipselabs.org/p/reprotool/wiki/ReqifAndRelatedProjects|reprotool. Requirements Processing Tool. "ReqifAndRelatedProjects. ReqIF/RIF format links and related projects"]].
+  *[[http://www.stackoverflow.com/questions/9511509/is-there-any-free-software-other-than-pror-to-create-reqif-documents|Stackoverflow "Is there any free software other than ProR to create ReqIF documents?"]].
+===== Some other free Requirements Software Tools =====
+  -The OpenSource OpenOffice ( and the commercial Microsoft Office ) are the most often used tools for recording requirements :-).
+  -The OpenSource [[http://rambutan.sourceforge.net/|Sourceforge "Arcle Technologies Rambutan"]], [[http://www.sourceforge.net/projects/rambutan|Sourceforge "Arcle Technologies Rambutan"]] for Java.
+    *Author [[http://basil-salad.com/|Basil Salad]], [[http://stackoverflow.com/users/199360/adib|Basil Salad]].
+    *"Requirements Management Tool for Busy System Analysts. The first and only XML-based requirements management software for handheld devices".
+    *"A set of end-user applications software that assists a system analyst in the gathering and categorization of facts for a requirements specification document. It consists of a handheld application and a desktop complement".
+    *Makes use of the "Requirements Markup Language" ( RQML ).
+  -[[http://www.assembla.com/wiki/show/yart/|assembla "YART"]] by [[http://www.htw-saarland.de/|Hochschule für Technik und Wirtschaft des Saarlandes]] - "The next generation requirements management tool".
+  -[[http://jucmnav.softwareengineering.ca/|Communications Software Engineering Research Group ( CSERG )]].
+    *The free Eclipse plugin for the User Requirements Notation [[http://jucmnav.softwareengineering.ca/ucm/bin/view/ProjetSEG/WebHome|jUCMNav]] - "Juice up your modelling!".
+  -The free [[http://www.hood-group.com/en/products/tools/requirements-engineering/desirer/|Hood - Expert in Requirements "DESIRe"]], a plugin for Microsoft Word 2002 and newer.
+  -The free [[http://www.iconcur-software.com/|iConcur Software "Axiom"]] #. 
+    *The server for Windows and Linux is a [[http://www.jboss.com/|JBoss]] application. Even on Windows, you have to start the server manually, by a batch file ".\bin\run.bat" in the installation directory.
+    *During installation of the server, if you activate the option "[x] Maintain users in the Axiom server. [x] Populate Axiom with some sample users", you can specify a single user ( with username and password ).
+    *There is a client for Windows, but not for Linux.
+  -The OpenSource [[http://jrequisite.sourceforge.net/|Sourceforge "JREQUISITE - Requirement Management Tool"]], [[http://www.sourceforge.net/projects/jrequisite/|Sourceforge "JREQUISITE - Requirement Management Tool"]] - "An agile requirement management tool. Its main goal is to give the developer community a free, user friendly, and powerfull tool for requirement analysis and change management".
+  -The free [[http://satc.gsfc.nasa.gov/tools/arm/|NASA "SATC Tools"]] for Windows.
+    *"Automated Requirement Measurement" (ARM) - "An early life cycle tool for assessing requirements that are specified in natural language".
+    *"Requirements Use case Tool" ( RUT ) - "Provides assistance to managers, customers, and developers in assessing the quality of use cases and serves as a database repository for requirements developed as use cases".
+  -The commercial [[http://orcanos.com/Requirements_management.htm|QPack Requirements Tool for Requirements Management]].
+    *Download of the latest free editon [[http://www.orcanos.com/qpack_download_link.htm|Orcanos QPack ALM 5.3.1]].
+      *For WinXP, with .Net 3.5, IIS, MSDE.
+      *For Win2003, Win2008, Vista, Win7 with .NET 3.5, IIS, SQL Express.
+      *[[http://www.orcanos.com/qpack_editions_feature_comparison.htm|Orcanos QPack "Feature Comparison"]].
+      *[[http://www.orcanos.com/helpcenter/|Orcanos QPack ALM Solution Help Center]].
+      *QPack wants to be configured to send an E-Mail by a SMTP server ( e.g. of your personal E-Mail provider ).
+        *"You must enter QPack source email addres used by the notification server".
+        *"You must enter SMTP Server name or address".
+  -The OpenSource "Open Source Requirements Management Tool" ( OSRMT ) / aNimble Platform, for Java.
+    *[[http://osrmt.sourceforge.net/|Sourceforge "Open Source Requirements Management Tool"]], [[http://www.sourceforge.net/projects/osrmt/|Sourceforge "Open Source Requirements Management Tool"]].
+      *Privileged login - username: "DEMO", password: "demo".
+    *[[http://nimble.sourceforge.net/|Sourceforge "aNimble Platform"]], [[http://www.sourceforge.net/projects/nimble/|Sourceforge "aNimble Platform"]], [[http://www.ideastub.com/|ideaStub]].
+  -The free "Pragnalysis toolkit", a set of documents in OpenOffice and Microsoft Office formats, by Philip Bailey & Joseph Da Silva, "pragnalysis" - "A site dedicated to Business Analysis in the real world, and more importantly, home to an entirely free requirements toolkit comprising templates, standards and comprehensive guidance".
+      *[[http://www.pragnalysis.com/index.php?option=com_lyftenbloggie&view=entry&year=2010&month=11&day=14&id=27%3Aupdate-free-requirements-management-tool-watch-this-space&Itemid=62|pragnalysis "Update : Free requirements management tool - watch this space!"]], 2010-11-14.
+      *[[http://pragnalysis.com/index.php?view=entry&year=2011&month=02&day=23&id=29%3Awere-still-here&option=com_lyftenbloggie&Itemid=62|pragnalysis "We're still here..."]], 2011-03-24.
+  -The free "REquirements Management tool" ( REM ) for Windows.
+    *[[http://www.lsi.us.es/~amador/|D. Amador Durán Toro]].
+    *[[http://www.lsi.us.es/descargas/descarga_programas.php?id=3|Departemento de Leguajes Y Sistemas Informaticos, Universidad de Sevilla "Herramienta REM 1.2.2"]].
+    *[[http://www.grossberger.at/tools/rem.html|Gerhard Großberger "Requirments Management mit REM"]] - Download of the german/austrian edition of the software.
+    *[[http://www.adictosaltrabajo.com/tutoriales/tutoriales.php?pagina=REM|Inicio / Tutoriales / Captura de requisitos mediante REM]].
+    *[[http://waybackmachine.org/20030801000000*/http://klendathu.lsi.us.es/REM/|Archive.Org "klendathu.lsi.us.es/REM"]].
+    *[[http://swt.cs.tu-berlin.de/lehre/eks/ws0203/Folien&Referat/rem-ausarbeitung.pdf|Daimler-Seminar "Entwicklung verteilter eingebetteter Systeme"]] ( PDF ).
+  -The OpenSource [[http://reqheap.sourceforge.net/|Sourceforge "Requirement Heap"]], [[http://www.sourceforge.net/projects/reqheap/|Sourceforge "Requirement Heap"]] - "A web based requirement management application. It allows to enter requirement in rich text, supports versioning and the management of requirements".
+  -The free [[http://www.reqdb.com/|Requirements Management Database]] for Windows.
+    *[[http://download.cnet.com/Requirements-Management-Database/3000-2076_4-10457952.html?tag=mncol|CNET "Requirements Management Database"]] - Official download site!
+    *"The Requirements Management Database is a free product, but we still use license management and you must register with us in order to get your license key".
+  -The OpenSource [[http://www.flonatel.de/projekte/rmtoo/|Andreas Florath, flonatel GmbH & Co. KG "rmtoo"]], [[http://rmtoo.sourceforge.net/|SourceForge "rmtoo"]], [[http://www.sourceforge.net/projects/rmtoo/|SourceForge "rmtoo"]] in Python.
+  -The OpenSource [[http://www.sourceforge.net/search/?type_of_search=soft&words=SBVR|Sourceforge "SBVR"]].
+    *[[http://sbvrve.sourceforge.net/|Sourceforge "sbvrve"]], [[http://www.sourceforge.net/projects/sbvrve/|Sourceforge "sbvrve"]] - "SBVR Visual Editor".
+    *[[http://sbeaver.sourceforge.net/|Sourceforge "sbeaver"]], [[http://www.sourceforge.net/projects/sbeaver/|Sourceforge "sbeaver"]] - "SBeaVeR - Business Modeller".
+    *[[http://vetis.sourceforge.net/|Sourceforge "vetis"]], [[http://www.sourceforge.net/projects/vetis/|Sourceforge "vetis"]] - "VeTIS".
+    *[[http://brutus.sourceforge.net/|Sourceforge "brutus"]], [[http://www.sourceforge.net/projects/brutus/|Sourceforge "brutus"]] - "BRUTUS - Business Rules from Unstructured Text and Unstructured Source".
+  -The free [[http://www.seecforum.unisa.edu.au/SEECTools.html|Tool to InGest and Elucidate Requirements PROfessional (TIGER PRO)]] for Windows.
+===== Commercial Requirements Software =====
+==== IBM Rational ====
+  *[[http://www.ibm.com/software/rational/|IBM Rational]]. 
+  *[[http://www.ibm.com/podcasts/software/rational/index.rss|IBM Rational software podcast series]].
+  *[[http://www.software.ibm.com/webapp/download/brand.jsp?b=Rational|IBM Software "Rational - Trials and demos"]].
+  *[[http://www.ibm.com/developerworks/views/rational/events.jsp|IBM Developerworks "Rational - Events"]].
+  *[[http://www.ibm.com/software/rational/support/downloads.html|IBM Software Solutions "Rational trial version support"]].
+  *[[http://www.ibm.com/developerworks/views/rational/libraryview.jsp?type_by=Tutorials|IBM developerWorks, IBM Rational, Library "Tutorials"]].
+  *[[https://www.ibm.com/support/entry/myportal/Documentation/Software/Rational/Rational_brand_support_%28general%29|IBM Support Portal "Rational Documentation"]].
+  *[[http://www.ibm.com/jct03001c/services/learning/ites.wss/us/en?pageType=page&c=a0000337|IBM Training "Rational software training"]].
+=== IBM Rational DOORS ===
+== The Tools ==
+  *[[http://www.ibm.com/software/awdtools/doors/|IBM Rational DOORS]] ( formerly: Telelogic DOORS, QSS Doors ).
+  *[[http://www.ibm.com/developerworks/downloads/r/doorswebaccess/|IBM "Evaluate: IBM Rational DOORS Web Access"]] - "Try Rational DOORS Web Access online for 3 hours without installing it on your own system (multiple trials allowed). If you need additional time, you may sign in again. This trial has all features enabled" #.
+  *The online manual [[http://publib.boulder.ibm.com/infocenter/doorshlp/v9/index.jsp?topic=/com.ibm.doors.requirements.doc/|Rational Software, Information Center "Rational DOORS"]] #.
+  *[[http://earthprime.com/episode-guide/time-again-and-world.html|Earth Prime - The Source for Sliders, Episode "Time Again & World"]], 1996-04-05 - "Banners in the rafters of the computer store advertise 'Doors 95' - a spin on Microsoft's 'Windows 95' software..".
+  *"IBM Rational DOORS Data Exchange for RIF Add On" ( formerly: Telelogic eXchange ).
+    *Slides [[http://download-na.telelogic.com/download/userpresentation/Workshop_10_Innovation2007_final.pdf|Telelogic "Digitale Lastenhefte - Austausch von Dokumenten. Kommunikation zwischen OEM und Zulieferer"]] (PDF) -> "Hauptfunktionen von DOORS eXchange".
+== Detailed Description ==
+  *IBM Rational Doors is shipped with a proprietary database :-(.
+  *I was told by experts "IBM Rational DOORS is like a spreadsheet with hyperlinks, plus the option for automated data analysis with reporting".
+  *I was told that "IBM Rational DOORS is document-centric".
+  *Projects - You may create projects.
+    *It is useful to create a logical and useful structure of requirements in the form of folders, modules and relations. This is called a scheme. Create a abstract scheme which may be used and reused in several projects.
+  *Modules.
+    *Within the project, you may create modules ( formal modules, link modules, descriptive modules = links to external documents ). 
+    *A module may be in a read-only, exclusive or shareable mode. 
+    *You may have different views to a module (  standard, graphical, outline, explorer ).
+  *Objects - Within a module, you may create objects. An object may have attributes ( boolean, integer, real, string, text ).
+  *Links.
+    *You may set links between formal objects to demonstrate dependancies between formal objects. By default, all links within a project are collected by DOORS in the module "DOORS Links". 
+    *Additionally, you may create your own link modules.
+    *Within each link module, the information is subdivided into linksets. So when you create a link between two objects within a link module, it is stored in a linkset. 
+    *By creating a link between two objects, you have to define a mapping between the linked objects ( many-to-many, many-to-one, one-to-many, one-to-one ).
+    *The relation of objects defined by links and stored in a linkset may be represented grapically by matrix display.
+  *Baselines.
+    *A Baseline is a safe state of a "good relation". It is not just a freezed state, which might be the snapshot of an "unhappy relation".
+    *You may create "baselines" and may sign it with a digital signature. 
+    *You may compare two baselines.
+    *[[http://en.wikipedia.org/wiki/Baseline_%28configuration_management%29|EN.Wikipedia "Baseline (configuration management)"]].
+  *You may do a "traceability analysis".
+  *If you are in the module window, you may create use "filters" to manage the amount of informations displayed in the module window.
+  *There are some software wizards ( project startup wizard, icon wizard, graph wizard, report wizard ).
+  *You may have a list of "favourites" for quick access of favourite places within your structure of projects, modules and folders shown with the DOORS Explorer, like the bookmark list of an Internet browser.
+== Third-party tools for IBM Rational DOORS & free DXL scripts for IBM Rational DOORS ==
+  *Blog [[http://www.baselinesinc.com/|Baselines, Inc.]].
+    *[[http://www.baselinesinc.com/?cat=4|Baselines, Inc. - DOORS]].
+    *[[http://www.baselinesinc.com/?cat=5|Baselines, Inc. - DXL]].
+    *[[http://www.baselinesinc.com/?page_id=11|Baselines, Inc. "DXL Repository"]].
+  *[[http://beaver-consulting.awardspace.com/|Beaver Computer Consultants Limited]].
+    *[[http://beaver-consulting.awardspace.com/RequirementsProcess.htm|Beaver Computer Consultants Limited - Requirements Process and Management Services]] - "A Simple Requirements Management Process Model / Systems Engineering Process Model Concepts".
+    *[[http://beaver-consulting.awardspace.com/DoorsDXL.htm|Beaver Computer Consultants Limited - Free DXL addin scripts]].
+  *[[http://www.smartdxl.com/|Smart DXL Limited]] - Free DXL scripts for DOORS.
+  *[[http://www.dxleditor.com/dxleditor|Sodius SAS "DXL Editor - The Smartest Editor for Rational DOORS DXL"]].
+  *[[http://www.scenarioplus.org.uk/|Scenario Plus. Requirements for your Business]].
+    *[[http://www.scenarioplus.org.uk/tools.htm|Scenario Plus "Tools"]] - "A free set of add-on requirements modelling tools (in DXL, for use in the DOORS environment) is available on request".
+    *[[http://easyweb.easynet.co.uk/~iany/consultancy/papers.htm|Ian Alexander "Papers on Requirements Engineering"]] -> "Tools: DOORS & DXL".
+      *[[http://easyweb.easynet.co.uk/~iany/consultancy/doors_story/doors_success_story.htm|Ian Alexander "Requirements Management with DOORS. A Success Story"]].
+      *[[http://easyweb.easynet.co.uk/~iany/consultancy/dxl_start/getting_started_with_dxl.htm|Ian Alexander "Getting Started with DXL"]].
+      *[[http://easyweb.easynet.co.uk/~iany/consultancy/dxl_links/dxl_links.htm|Ian Alexander "Get More from DOORS with DXL Links. Illustrated with a Project Dictionary"]].
+      *[[http://easyweb.easynet.co.uk/~iany/consultancy/why_doors_dxl.htm|Ian Alexander "Why I use DOORS/DXL for System Modelling"]].
+      *[[http://easyweb.easynet.co.uk/~iany/consultancy/dxl_graphics/dxl_graphics.htm|Ian Alexander "Get More from DOORS with DXL Graphics. Illustrated with Decision Trees"]].
+      *[[http://easyweb.easynet.co.uk/~iany/consultancy/dxl_regexp/dxl_regexp.htm|Ian Alexander "Getting More from DOORS with DXL: Matching Word Patterns with Regular Expressions"]].
+  *[[http://www.cesames.net/documentation/articles-docs/recherche-documentaire|CESAMES -Centre d'Excellence Sur l'Architecture, le Management et l'Economie des Systèmes- "Recherche documentaire"]] - Search for "Doors" to find documents about Doors :-).
+== IBM Rational DOORS Training ==
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3540009639/hemmerling-21|Gerhard Versteegen, Alexander Heßeler, Colin Hood, Christian Missling: "Anforderungsmanagement: Formale Prozesse, Praxiserfahrungen, Einführungsstrategien und Toolauswahl"]] - Description of Telelogic Doors on 170 pages, as of 2003.
+    *Chapter 4 "Anforderungsmanagement mit Telelogic DOORS", pages 97-182.
+      *Page 114 "Bei beschreibenden Modulen handelt es sich um Module, die mit einer Textdatei verknüpft sind. Diese Arten von Modulen stammen noch aus einer zeit, als DOORS noch keine anderen Import- und Exportmöglichkeiten hatte".
+    *Chapter 5 "Verifikation von Anforderungen mit Telelogic DOORS und Tau Generation2", pages 185 - 208.
+    *Chapter 6 "Die Einführung von Anforderungsmanagement und DOOR in einem internationalen Unternehmen", pages 211-253.
+    *Addendum "Die elektronische Signatur", pages 255 - 259.
+  *The commercial training [[http://www.willert.de/doors-start-up-training/|Willert Software Tools GmbH "DOORS Start-Up Training"]].
+    *[[http://www.willert.de/anforderung-doors-schulungsunterlagen/|Willert Software Tools GmbH "Anforderung DOORS Schulungsunterlagen"]] - "Sie erhalten die Unterlagen per Post. Ihnen entstehen durch diese Anforderung keinerlei Kosten" :-).
+    *[[https://www.google.de/#q=doors+site:www.willert.de+filetype%3Apdf|Google - Search for "doors site:www.willert.de filetype:pdf"]].
+    *Free documents #.
+      *[[http://www.willert.de/assets/Datenblaetter/DatBl-Doors-Einstieg-Best-Practice-V3.0.pdf|Willert Software Tools GmbH "DOORS Einstieg. Best Practice zur Einführung von IBM Rational DOORS"]] ( PDF ).
+      *[[http://www.willert.de/assets/WhitePaper/WhitePaper-Anforderungsmanagement-mit-DOORS-2010-V1.0.pdf|Willert Software Tools GmbH "Anforderungsmanagement mit IBM Rational DOORS durch konsistente Dokumente im V-Modell"]] ( PDF ).
+      *[[http://www.willert.de/assets/Schulungen/DOORS-Teilnehmerbewertungen-V2.pdf|Willert Software Tools GmbH "Trainingsbewertung: DOORS Start-Up Training"]].
+      *[[http://www.willert.de/assets/Schulungen/DOORS-SUT-Handout-Teil-1-Strukturelemente-v2r0.pdf|Willert Software Tools GmbH "Strukturelemente. IBM Rational DOORS StartUp Training - Teil 1"]] ( PDF ).
+      *[[http://www.willert.de/assets/Schulungen/DOORS-SUT-Handout-Teil-2-Import-Export-v1r0.pdf|Willert Software Tools GmbH "Handover von Daten. IBM Rational DOORS StartUp Training - Teil 2"]] ( PDF ).
+      *[[http://www.willert.de/assets/Schulungen/DOORS-SUT-Handout-Teil-3-Doors-Schema-v2r0.pdf|Willert Software Tools GmbH "DOORS Schema. IBM Rational DOORS Start-Up Training - Teil 3"]] ( PDF ).
+      *[[http://www.willert.de/assets/Schulungen/DOORS-SUT-Handout-Teil-4-Linking-Trace-v2r0.pdf|Willert Software Tools GmbH "Linking & Tracing. IBM Rational DOORS Start-Up Training - Teil 4"]] ( PDF ).
+      *[[http://www.willert.de/assets/Schulungen/DOORS-SUT-Handout-Teil-5-Baselining-Delete-Purge-v2r0.pdf|Willert Software Tools GmbH "Baselining. IBM Rational DOORS Start-Up Training - Teil 5"]] ( PDF ).
+      *[[http://www.willert.de/assets/Schulungen/Doors-WA-Handout-v2r0.pdf|Willert Software Tools GmbH "DOORS Web Access. IBM Rational DOORS StartUp Training - Teil 6]] ( PDF ).
+      *[[http://www.willert.de/assets/Schulungen/DOORS-SUT-Handout-RiskCATIntegration-v2r0.pdf|Willert Software Tools GmbH "Functional Safety. IBM Rational DOORS Traceability & Normen"]] ( PDF ).
+      *[[http://www.willert.de/assets/Schulungen/Doors-Keyboard-Shortcuts-v2r0.pdf|Willert Software Tools GmbH "Keyboard Shortcuts. DOORS Buttons and Shortcuts zur Bedienung"]] ( PDF ).
+      *[[http://www.willert.de/assets/Schulungen/Glossar-Requirement-Management-v2r0.pdf|Willert Software Tools GmbH "Glossar. Begriffe zum Requirement Management. Kennenlernen der DOORS Begrifflichkeiten"]] ( PDF ).
+  *[[http://www.youtube.com/user/IBMRationalUE/|YouTube "IBM User Education"]] - Series of videos "Manage Requirements with IBM Rational DOORS".
+=== IBM Rational DOORS Next Generation ( DNG / RDNG, formerly: IBM Rational Requirements Composer ) ===
+== The Tool ==
+  *[[http://www.jazz.net/|Jazz Comunity Site]].
+    *[[http://www.ibm.com/software/rational/jazz/|IBM Rational Jazz technology platform]] "Jazz is not a product. Product offerings that are built on the Jazz platform can leverage a rich set of capabilities for team-based software development and delivery".
+    *[[http://jazz.net/development/sandbox/|Jazz Comunity Site "Sandbox"]] with:
+      *[[http://www.ibm.com/software/rational/products/rtc/|IBM Rational Team Concert]].
+      *[[http://www.ibm.com/software/rational/products/rqm/|IBM Rational Quality Manager]].
+      *[[http://www.ibm.com/software/products/en/ratidoorng/|Rational DOORS Next Generation]] ( formerly: [[http://www.ibm.com/software/awdtools/rrc/|IBM Rational Requirements Composer]] ) #.
+    *Wiki [[http://www.jazz.net/wiki/|IBM Jazz TWiki]].
+  *[[http://www.ibm.com/developerworks/downloads/r/ordng/|IBM Developerworks "Rational DOORS Next Generation"]] - Download or Cloud evaluation :-).
+  *[[http://www.ibm.com/developerworks/rational/library/rational-doors-next-generation-getting-started/tutorial/index.html|IBM "Getting started with IBM Rational DOORS Next Generation, V5.0"]].
+    *"To access the Requirements Management (RM) application, you use a URL that is specific to your installation, for example [[https://localhost:9443/rm/web|https://localhost:9443/rm/web]]".
+  *[[http://www.ibm.com/developerworks/rational/library/rational-doors-next-generation-getting-started/setup/|IBM "Getting started with IBM Rational DOORS Next Generation, V4.0.6 - Exercise environment setup"]].
+  *[[http://www.jazz.net/help-dev/clm/index.jsp?re=1&topic=/com.ibm.help.common.jazz.calm.doc/com.ibm.help.common.jazz.calm.doc_eclipse-gentopic1.html|IBM Rational Help "Rational solution for Collaborative Lifecycle Management 6.0"]].
+    *[[http://wwww.jazz.net/help-dev/clm/index.jsp?re=1&topic=/com.ibm.help.common.jazz.calm.doc/com.ibm.help.common.jazz.calm.doc_eclipse-gentopic1.html|IBM Rational Help "Rational DOORS Next Generation"]].
+    *[[http://www.jazz.net/help-dev/clm/index.jsp?topic=%2Fcom.ibm.jazz.install.doc%2Ftopics%2Froadmap_form.html|IBM Rational Help "Jazz Team Server", "Interactive installation guide {DRAFT}"]] #.
+  *[[http://www.ibm.com/support/knowledgecenter/SSYMRC_5.0.2/com.ibm.jazz.install.doc/topics/c_post_install.html|IBM Knowledge Center "Completing the installation of Jazz Team Server and the Rational solution for Collaborative Lifecycle Management applications"]].
+  *[[http://www.ibm.com/developerworks/community/wikis/home?lang=en#!/wiki/Rational%20Wiki%20Central/page/Rational%20Requirements%20Composer|IBM Rational Wiki Central "Rational Requirements Composer"]].
+  *IBM Rational Doors Next Generation is shipped with:
+    *The web server [[http://en.wikipedia.org/wiki/Apache_Tomcat|EN.Wikipedia "Apache Tomcat"]] and the SQL database [[http://en.wikipedia.org/wiki/Apache_Derby|EN.Wikipedia "Apache Derby"]] for demonstration.
+    *The commecial web server [[http://en.wikipedia.org/wiki/IBM_WebSphere|EN.Wikipedia "IBM_WebSphere"]] and a commercial SQL database ( IBM DB2, Microsoft SQL Server ) for production.
+== Training ==
+  *[[http://www.ibm.com/developerworks/community/groups/service/html/communityview?lang=en&communityUuid=30a4b582-9075-4556-85a8-41818f205d94|IBM DeveloperWorks Community "DOORS Next Generation Learning Circle"]].
+  *[[http://www.ibm.com/developerworks/offers/lp/demos/summary/r-doors-ng-7fundamentals-1.html|IBM DeveloperWorks "The 7 Fundamentals of Requirements Management with IBM Rational DOORS Next Generation : Part 1 of 2"]].
+  *[[http://www.ibm.com/developerworks/offers/lp/demos/summary/r-doors-ng-7fundamentals-2.html|IBM DeveloperWorks "The 7 Fundamentals of Requirements Management with IBM Rational DOORS Next Generation : Part 2 of 2"]].
+  *For education, you may use a cloud hosted edition of [[http://www.ibm.com/software/awdtools/rrc/|IBM Rational Requirements Composer]] for up to 6 month with a free account at [[http://jazz.net/development/sandbox/|Jazz Comunity Site "Sandbox"]]. No installation, just use your Internet browser to access the application. Additionally, there is a read-only sample project "Money that Matters".
+  *Videos:
+    *[[http://www.youtube.com/user/IBMRationalUE/|YouTube "IBM User Education"]] - Series of videos "Introduction to IBM Rational DOORS Next Generation".
+    *[[https://www.youtube.com/playlist?list=PLZGO0qYNSD4VBHzYQ4Gkzojav1vggiqRB|YouTube List "Requirements Engineering with IBM Rational DOORS NG and Requirements Composer v4.x"]].
+== Error Messages ==
+  *No officially supported installation on Windows 8.1 Pro 32-bit :-(.
+    *"CRJAZ9003W - The operating system type is not recognized. The system cannot determine if the operating system is supported. See the list of supported server operating systems, and make sure that you are using one of those operating systems. [Details: os.name=Windows 8; os.arch=x86; os.version=6.2; distribution=]".
+    *"CRJAZ9009W - The system architecture is not supported. The architecture of this system was detected as 32-bit, which is not supported. Install the application on a 64-bit platform and operating system. For more information, see the list of supported server operating systems".
+  *No officially supported installation on Windows 8.1 Pro 64-bit :-(.
+    *"CRJAZ9003W - The operating system type is not recognized. The system cannot determine if the operating system is supported. See the list of supported server operating systems, and make sure that you are using one of those operating systems. [Details: os.name=Windows 8; os.arch=amd64; os.version=6.2; distribution=]".
+  *After successfull installation on Windows 8.1 Pro 32-bit, the Jazz server complains about weak performance:
+    *"CRJAZ2284W The database performance measurement took 8797 ms. A value greater than 2500 ms is considered slow and might indicate a problem with the database".
+== Installation of IBM Rational Doors Next Generation on Win8.1 Pro 32-bit ==
+  -Download "agent.installer.win32.win32.x86.1.8.0.20140920_1503.zip", "JTS-CCM-QM-RM-repo-5.0.2.zip".
+  -Select the installation packages:
+    -Jazz Team Server.
+      -5.02.
+    -Requirements Managment.
+      -5.02.
+    -Trial keys for Collaborative Lifecycle Management Product.
+      -5.02.
+  -Execute the Windows start menu item "Start the Jazz Team Sever". 
+    *As the Jazz server is not yet configured, indeed you start the Apache Tomcat server is at [[http://localhost:9080|http://localhost:9080]]. You must not do anything with Tomcat.
+  -Express setup of the Jazz server.
+    *[[https://localhost:9443/jts/setup|https://localhost:9443/jts/setup]] - User ID: "ADMIN", Password "ADMIN".
+    *You have to install a URI ( e.g. [[https://node2:9443:/jts|https://node2:9443:/jts"]] ) and a user ( e.g. "node2" )
+  -After server setup, you may enter the Jazz server administration.
+    *[[https://localhost:9443/jts/admin|https://localhost:9443/jts/admin]].
+    *At "Server / Licensing / Licensing Key Management", you may activate 60 days trial licenses.
+    *If you create a user, there is just a profile item for a username ( e.g. "User ID" ), but no profile item for a password. Indeed, the default password is identical to the username. 
+    *You have to connect a user to a license.
+    *You may sent yourself a new password by E-Mail.
+        *This requires hat there is a valid E-mail system is installed on the Jazz server, which is unusual for a Windows server.
+      *If the E-Mail is sent by Internet, this requires additionally that the server runs on a "fully qualified hostname" as suggested by the installation help, but which is unusual for test / demo / education installations.
+  -Access Rational DOORS Next Generation, after activation of a trial license: 
+    *[[https://localhost:9443/rm/web|https://localhost:9443/rm/web]].
+== Export a project from the server, for later reimport ==
+  -Computer #1:
+    -[[https://localhost:9443/rm/web|https://localhost:9443/rm/web]] - "All Projects".
+    -Select a project. You are now in the "Project Dashboard" of the project area.
+    -Execute the blue menu item "Administration / Manage Project Properties".
+    -Select the card tab "Templates".
+    -Select the button with the "pen" image at the left side of the table, of the project template you want to export.
+    -Select "Download" option of this button and download the project contents as *.archive file ( e.g. "test.archive" ).
+  -Computer #2:
+    -[[https://localhost:9443/rm/web|https://localhost:9443/rm/web]] - "All Projects".
+    -Go to a "Project Dashboard" of a project.
+      *If there is no project yet, execute the blue menu item "Administration / Create Project Area" and create a project area. You are now in the "Project Dashboard" of the created project.
+    -Execute the blue menu item "Administration / Manage Project Properties" .
+    -Select the card tab "Templates".
+    -Press the button "Upload Template". Now you have added another project template.
+    -Execute the blue menu item "Administration / Create Project Area" and create a project area with the option "[x]Use a template to initially populate the project". Select the proper template you just uploaded.
+== Resources ==
+  *There are 2 kinds of module links  - Links to modules, and links to non-modules.
+=== Some other IBM Products for Requirements Engineering ===
+  *[[http://www.ibm.com/software/awdtools/reqpro/|IBM Rational RequisitePro]].
+  *[[http://www.ibm.com/software/awdtools/clearcase/|IBM Rational ClearCase]] - configuration tool.
+    *[[http://en.wikipedia.org/wiki/IBM_Rational_ClearCase|EN.Wikipedia "IBM Rational ClearCase"]], [[http://de.wikipedia.org/wiki/Rational_ClearCase|DE.Wikipedia "Rational ClearCase"]].
+  *[[http://www.ibm.com/software/awdtools/clearquest/|IBM Rational ClearQuest]].
+    *[[http://en.wikipedia.org/wiki/ClearQuest|EN.Wikipedia "IBM Rational ClearQuest"]].
+  *[[http://www-01.ibm.com/software/awdtools/focalpoint/|IBM Rational Focal Point]] ( formerly: Telelogic Focal Point ).
+  *[[http://www.ibm.com/developerworks/downloads/product.html|IBM Developerworks "Downloads, trials, and cloud. Evaluation software for developers"]] - "Evaluate: IBM Rational DOORS Web Access".
+==== Some other Tools for Requirements Engineering ====
+  *[[http://secure.accept360.com/solutions/accept360-requirements/|Accept360 Requirements]].
+    *[[http://twitter.com/accept360|Twitter "accept360"]].
+  *[[http://www.arcway.com/produkt/arcway-cockpit/|ARCWAY Cockpit]] for Windows.
+    *[[http://www.arcway.com/downloads|ARCWAY Cockpit, Downloads]] - examples ( with "Lasten- und Pflichtenhefte", "Prozess- und IT-Dokumentation" ), PDF manual,..
+  *[[http://www.threesl.com/|3SL "Cradle"]] - "Requirements Capture, Requirements Management and Systems Engineering tool".
+  *[[http://www.blueprintsys.com/|Blueprint Requirements Center]].
+    *Webinars [[http://www.blueprintsys.com/webinar.php|Blueprint "Requirements Definition and Management Webinars"]].
+    *Blog [[http://blog.blueprintsys.com/|Blueprint Software Blog]].
+  *[[http://www.casespec.net/|Goda Software, Inc. "CASE Spec"]] for Windows - 30 days trial version is available for download.
+  *[[http://www.cognition.us/|Cognition Corporation "Cognition Cockpit"]].
+    *[[http://www.cognition.us/|Cognition Corporation Wiki]].
+  *[[http://www.geensoft.com/en/article/reqtify|Geensoft "Reqtify"]] - "Effective Solution for Managing Requirements Traceability and Impact Analysis across Hardware and Software Projects Lifecycle".
+  *The commercial but affordable [[http://www.hdvo.de/|Team-HDvO Hilgenberg & Zimmermann "HDvO Hierarchische Dokumentation von Objekten"]].
+  *[[http://www.jamasoftware.com/|Jama Software "Contour"]].
+    *Blog [[http://blog.jamasoftware.com/|Jama Software Blog]].
+  *[[http://www.leapse.com/|Leap SE]] - "requirements engineering ... rapid software development".
+  *[[http://www.lastenheft-pflichtenheft.de/|MFP Messtechnik und Fertigungstechnologie GmbH "PACTOR(R)Plan Pflichtenheft"]].
+    *"Sie definieren schnell und bequem Ihre Aufgabe in Form eines Lasten- bzw. Pflichtenheftes".
+    *"Kann auch für die effektive Erstellung von Prüf- und Produktionsplänen im standardisierten XML-Format verwendet werden".
+      *"Input: Pflichtenheftvorlage, Prüfplanvorlage, Produktionsplanvorlage".
+      *"Output: Pflichtenheft, Prüfplan, Produktionsplan, Typenstückliste im XML- und PDF-Format".
+    *[[http://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CCQQFjAA&url=http%3A%2F%2Fdonar.messe.de%2Fexhibitor%2Fhannovermesse%2F2012%2FU133880%2Flasten-und-pflichtenheft-ger-192377.pdf&ei=j2WhT4mZK4uQ4gTs442oCQ&usg=AFQjCNEH26cvpIdsYTvribvDyflWTFGQQg|MFP "Software für die Lasten- und Pflichtenhefterstellung"]] ( PDF ) - "Nutzen Sie die spezielle Software mit strukturierter Wissensvorlage nach DIN, VDI/VDE, IEEE, Balzert und Volere für Ihre sichere und übersichtliche Lasten- und Pflichtenhefterstellung".
+  *[[http://www.microfocus.com/|Micro Focus (IP) Ltd.]].
+    *[[http://www.microfocus.com/products/caliber/|Micro Focus "Caliber"]] for Windows - "Requirements Definition and Management".
+    *[[http://www.microfocus.com/mcro/RDM/|Micro Focus "Requirements Definition and Management (RDM) - Resource Center"]].
+    *[[http://www.borland.com/us/products/caliberline/|Borland - A Micro Focus Company "Caliber Software Requirements Definition and Management"]] for Win2003 and Win2008. A 30 days trial edition is available for free download.
+    *[[http://www.microfocus.com/es/products/OptimalTrace/Enterprise.asp|Micro Focus "Optimal Trace Enterprise Edition"]] ( formerly [[http://www.compuware.com/|Compuware]] "Optimal Trace" ).
+      *[[http://supportline.microfocus.com/documentation/ASQ/OptimalTraceDocs.aspx|Micro Focus "Optimal Trace Documentation"]].
+    *Micro Focus Reconcile ( formerly: CompuWare Reconcile ).
+      *[[http://supportline.microfocus.com/documentation/ASQ/ReconcileDocs.aspx|Micro Focus "Reconcile Documentation"]].
+  *Microsoft.
+    *You may use Microsoft Powerpoint for requirements engineering, e.g. for sketching tbe GUI of an application.
+    *You may visualize 1 user story by one 1 set of slides.
+    *By one mouseclick, this slide is "ready for CEO presentation" :-).
+    *There might be a future Addon for Visual Studio 2012/2013 (Visual Studio 11.0) (VS11), called "Storytelling for Powerpoint Addon".
+  *[[http://www.microTool.de/instepRED|microTOOL GmbH "in-Step RED Roadshow"]].
+  *[[http://sine.ni.com/nips/cds/view/p/lang/en/nid/202625|National Instruments "NI Requirements Gateway]].
+    *[[http://zone.ni.com/devzone/cda/tut/p/id/3721|National Instruments "NI Requirements Gateway for Test, Measurement, and Control Applications"]].
+    *[[http://zone.ni.com/devzone/cda/tut/p/id/7117|National Instruments "Software Engineering with LabVIEW"]].
+    *[[http://zone.ni.com/devzone/cda/tut/p/id/5623|National Instruments "NI LabVIEW and CMMI-Compliant Requirements Management"]].
+  *[[http://www.otris.de/cms/Pflichtenheftgenerator_otris.html|otris software AG "PROCESS"]] - "Pflichtenheftgenerator, der Software-Entwickler und -Anwender bei der Planung eines Projektes unterstützt".
+  *[[http://www.polarion.com/products/requirements/|Polarion Software "Polarion Requirements]] - "Integrated Web-based Requirements Management".
+    *Blog [[http://blog.polarion.com/|Polarion Software Weblog]].
+  *PTC / MKS:
+      *[[http://www.ptc.com/|PTC]].
+      *[[http://www.mks.com/germany/mks.de|MKS GmbH]] = PTC Germany.
+      *[[http://en.wikipedia.org/wiki/Parametric_Technology_Corporation|EN.Wikipedia "Parametric Technology Corporation"]], [[http://de.wikipedia.org/wiki/Parametric_Technology_Corporation|DE.Wikipedia "Parametric Technology Corporation"]].
+      *Main product: [[hhttp://www.mks.com/platform/our-product|PTC Inc. "Integrity - Accelerating Innovation in Software Intensive Products"]] ( formerly: "MKS Integrity" ).
+        *[[http://www.mks.com/solutions/discipline/tm|MKS Integrity - Test Management]] ( TM ).
+        *[[http://www.mks.com/solutions/discipline/scm|MKS Integrity - Source Code Management]] ( SCM ).
+        *[[http://www.mks.com/solutions/discipline//rm|MKS Integrity - Requirements Management]] ( RM ).
+  *[[http://www.requirementone.com/|RequirementOne]].
+  *[[http://www.seapine.com/ttrm/requirements-management-software|Seapine Software, Inc. "TestTrack RM"]].
+    *Blogs [[http://www.seapine.com/blogs.html|Seapine Software, Inc. "Seapine Blogs"]].
+  *[[http://www.serena.com/|SERENA Software, Inc.]].
+    *[[http://www.serena.com/products/requirements-manager/|SERENA Software, Inc. "Serena Requirements Manager"]].
+    *[[http://www.serena.com/products/dimensions-rm/|SERENA Software, Inc. "Serena Dimensions RM"]].
+      *I was told that "Serena Dimensions RM is database-centric". 
+    *Blog [[http://blog.serena.com/|SERENA Software, Inc. "Serena Blog"]].
+    *[[http://www.infoworld.com/d/developer-world/serena-buys-requirements-management-technology-786|InfoWorld "Serena buys requirements management technology. Change management vendor acquires Integrated Chipware’s RTM"]], 2004-06-21.
+    *[[http://web.archive.org/*/http://www.chipware.com/|Archive.Org "Integrated Chipware"]] ( - 2004-05-24 ) - "RTM Workshop".
+  *[[http://www.casecomplete.com/|Serlio Software Development Corporation "CaseComplete"]].
+    *Blog [[http://blog.casecomplete.com/|Serlio Software Development Corporation "The Use Case Blog. Managing Requirements with Use Cases"]].
+  *[[http://www.viewset.com/|ViewSet "PACE"]].
+    *[[http://www.viewset.com/index.php/community-login|ViewSet Community]].
+  *[[http://www.visuresolutions.com/|Visure - the requirements company " Visure Requirements"]] - "Requirements Lifecycle Management".
+    *[[http://www.visuresolutions.com/requirements-engineeging-software|Visure - the requirements company "Resources - Requirements Engineering Software"]].
+  *[[http://www.itemis.de/|itemis AG]] - "YAKINDU".
+    *The commercial [[http://www.itemis.de/itemis-ag/produkte/language=de/42112/yakindu-requirements|itemis AG "YAKINDU Requirements"]], will be released in 2012-06.
+    *The OpenSource [[http://www.itemis.de/itemis-ag/produkte/language=de/42118/yakindu-open-source|itemis AG "YAKINDU Open Source"]].
+    *The OpenSource [[http://www.yakindu.org/|Yakindu.org]].
+      *[[http://code.google.com/a/eclipselabs.org/hosting/|Google Code, Eclipse Labs]].
+        *[[http://code.google.com/a/eclipselabs.org/p/yakindu/|Google Code, Eclipse Labs "yakindu. model-driven development toolkit for embedded systems"]].
+==== Resources ====
+  *List of industry-relevant requirements software by [[http://www.etengo.de/|etengo - Smart Freelancing]] : ARCWAY Cockpit, Accept 360, Accompa, Analyst Pro, Avenqo PEP, Bright Green Projects, CORE Enterprise, CaliberRM, CaseComplete, ClearSpecs Composer, Contour, Cradle, Doors, EasyRM, GMARC, GatherSpace, HP Requirements Management, IRqA, Lighthouse, MKS Integrity, OSRMT, Objectiver, Optimal Trace, RMTrak, RQMAN, RaQuest, Rational RequisitePro, Reconcile, Reqtify, ZeamDefine, VeroTrace, XTie-RT, eRequirements, iRise.
+===== Configuration managment =====
+  *See [[revision.html|Revision Control Systems (RCS), Source Code Version Control Systems ( SCVCS, VCS, CVS ), Software Configuration Management (SCM )]].
+===== Some other Tools and Processes with Requirements Engineering Functionality =====
+  *Some UML Tools provide a "Requirements" diagram, for requirements engineering -> see [[uml.html|Unified Modeling Language ( UML ), Systems Modeling Language ( SysML )]], "Enterprise Architect".
+  *Some project management tools allow to collect and handle requirements -> see [[pmsoftware.html|Project Management Software & Software to be used in Projects]], "MicroTOOL in-Step", "Avenqo PEP" and Scrum Tools like "SCRUM Spec".
+  *Some Wikis allow to structure pages with attributes ( forms in their speak ). So you can define your templates for requirements, use cases, dictionnary entries etc. -> see [[cms.html|Content Management Systems ( CMS )]], "TWiki", "Foswiki".
+  *Team Software & Application lifecycle management -> see [[sdevtools.html|Software Development Tools]].
+  *Behavior Driven Development ( BDD ) -> see [[systemdesign.html|System Design]].
+===== Online-Webservices for Requirements Management =====
+  *[[http://www.dynamicalsoftware.com/cr/prod/home.php|Code Roller]] - "collaborative software development project lifecycle management application", "requirements, analysis, design, development, testing, deployment".
+    *[[http://www.dynamicalsoftware.com/cr/prod/guest/help.html|Code Roller Help]].
+  *The commercial [[http://www.featureset.com/product/|FeatureSet]] - "An enterprise-class “social business software” for your Product Development and Service Delivery teams". "Social Collaboration Layer ( Feedback - Requirements - Tasks )". Free basic account.
+  *The commercial [[http://www.gatherspace.com/|Gatherspace]] - "Web-based Agile requirements management and use case authoring software".
+  *The commercial [[http://www.workspace.com/|Workspace.com]] - "Whether you're looking for project management help, requirements management software, or other tools, with workspace.com you can choose what you need for your personalized workspace".
+===== Requirements Data Formats =====
+==== Open Services for Lifecycle Collaboration ( OLSC ) =====
+  *OLSC is good for "linking" of 2 requirements, with key exchange :-).
+  *[[http://www.open-services.net/|Open Services for Lifecycle Collaboration]] ( OLSC ).
+    *[[http://www.open-services.net/workgroups/requirements-management/|Open Services for Lifecycle Collaboration "Requirements Management"]].
+    *Wiki [[http://open-services.net/wiki/|Open Services for Lifecycle Collaboration "Workgroup wikis"]].
+    *Wiki [[http://open-services.net/wiki/requirements-management/|Open Services for Lifecycle Collaboration "Requirements Management Wiki"]].
+  *[[http://eclipse.org/lyo/|Eclipse Lyo - Enabling Tool Integration with OSLC]].
+==== Requirements Interchange Format ( RIF and its Successor ReqIF ) ====
+=== Requirements Interchange Format ( RIF ) ===
+  *RIF is the standard data exchange format for the classical "IBM Rational Doors".
+  *[[http://www.automotive-his.de/|HIS - Hersteller Initiative Software]].
+    *"Contents & Intentions / Simulation and Tools"
+      *Wiki [[http://www.automotive-his.de/rif|Hersteller Initiative Software Wiki "Requirements Interchange Format (RIF)"]].
+=== Requirements Interchange Format ( ReqIF ), the Successor of RIF ===
+  *ReqIF is the standard data exchange format for the "IBM Rational Doors Next Generation".
+  *[[http://www.omg.org/spec/ReqIF/|OMG "Requirements Interchange Format (ReqIF)"]].
+=== Resources ===
+  *[[http://www.prostep.org/|ProSTEP iViP Verein]].
+    *[[http://www.prostep.org/rif|ProSTEP iViP Verein "Internationalization of the Requirements Interchange Format (IntRIF)"]].
+  *[[http://en.wikipedia.org/wiki/Requirements_Interchange_Format|EN.Wikipedia "Requirements Interchange Format"]], [[http://de.wikipedia.org/wiki/Requirements_Interchange_Format|DE.Wikipedia "Requirements Interchange Format"]] ( ReqIF, RIF ).
+==== Requirements Markup Language ( RML ) ====
+  *[[http://reqs.tigris.org/|Tigris "Simple language and tools for sorting, filtering, and processing"]].
+    *[[http://reqs.tigris.org/rml/|Tigris "RML"]].
+==== Requirements Markup Language ( RQML ) ====
+  *"The author and current maintainer of RQML is [[http://www.facebook.com/gardar.gudgeirsson|Gardar Gudgeirsson]]".
+  *[[http://waybackmachine.org/*/http://www.raqoon.is/rqml/rqmlreport/index.htm|Archive.org "RQML - THESIS"]].
+  *[[http://waybackmachine.org/*/http://www.rqml.org/|Archive.org "RQML.org]] ( - 2001-09-24 ).
+  *[[http://rambutan.sourceforge.net/architecture.html|Arcle Technologies Rambutan "Architecture Overview"]].
+==== Resources ====
+  *Blog article [[http://geekswithblogs.net/JoshReuben/archive/2011/04/05/wanted-requirements-capture-language.aspx|Josh Reuben "Requirements Capture Markup Language - Part 1: BDD WorkItem Editor?"]].
+===== Resources =====
+  *[[http://easyweb.easynet.co.uk/~iany/other/vendors.htm|Ian Alexander "Requirements Tools. Free, Shareware, Free Trial & Commercial"]].
+  *[[http://easyweb.easynet.co.uk/~iany/consultancy/perfect_rm_tool.htm|Ian Alexander "The Perfect RM Tool: Way Harder Than It Looks"]].
+  *Discussion [[http://www.codeguru.com/forum/showthread.php?t=353943|Codeguru, Thread "Free online Requirements Management Tool"]].
+  *The commercial [[http://www.heise.de/kiosk/special/ixstudie/05/01/|iX-Studie Anforderungsmanagement, 01/2007]].
+  *[[http://www.incose.org/productspubs/products/rmsurvey.aspx|INCOSE Requirements Management Tools Survey]] #1.
+  *[[http://waybackmachine.org/*/http://www.paper-review.com/tools/rms/read.php|Archvie.Org "INCOSE Requirements Management Tools Survey"]] #2.
+  *[[http://www.infforum.de/themen/anforderungsanalyse/thema_RE_werkzeuge.htm|INffORUM Simon: "Werkzeuge der Anforderungsanalyse"]].
+  *[[http://www.jiludwig.com/Requirements_Management_Tools.html|Ludwig Consulting Services, LLC "Requirements Management Software"]] - list with links to requirements software.
+  *[[http://jazz.net/forums/|Jazz Comunity Site - Forum]].
+  *Discussion [[http://www.modernanalyst.com/Community/Forums/tabid/76/forumid/17/threadid/1092/scope/posts/Default.aspx|MODERNanalyst.com, "Business Analyst Forums & Systems Analyst Forums", Thread "Open Source/Freeware Tools for Requirements Management"]].
+  *[[http://www.laatuk.com/tools/reg_mgmt_tools.html|Laatukonsultointi P. Kantelinen Oy "Requirements Management Tools"]].
+  *Discussion [[http://www.stackoverflow.com/questions/164938/what-are-some-free-and-or-open-source-requirements-management-tools|Stackoverflow "What are some free and/or open source Requirements Management tools?"]].
+  *[[http://www.volere.co.uk/tools.htm|Volere: "Requirements Tools"]].
+  *[[http://tech.groups.yahoo.com/group/Requirements-Engineering/message/562|Yahoo Groups "Software Requirements Engineering", Thread "Free or almost free Requirements Management tools"]].
+===== Communities, Forum, Newsgroups =====
+  *[[http://www.gebit-community.de/phpbb/|GEBIT TREND/Analyst. Community Edition Portal]].
+  *[[http://www.eclipse.org/forums/index.php/f/230/|Eclipse Community Forums "Eclipse Projects / Requirements Modeling Framework"]].
+  *[[http://desire-forum.hood-group.com/board/|Hood "DESIRe Forum"]].
+  *[[http://www.hdvo.de/cgi-bin/yabb/YaBB.cgi|Team-HDvO Hilgenberg & Zimmermann "HDvO Hierarchische Dokumentation von Objekten" - Forum "Professionelle Pflichtenhefte erstellen"]].
+  *IBM. 
+    *[[https://www.ibm.com/developerworks/community/forums/html/category?id=33333333-0000-0000-0000-000000000024|IBM DeveloperWorks Forum "Rational"]].
+      *[[http://www.ibm.com/developerworks/forums/forum.jspa?forumID=1501|IBM DeveloperWorks Forum "Rational Rhapsody"]].
+      *[[http://www.ibm.com/developerworks/community/forums/html/forum?id=11111111-0000-0000-0000-000000001527|IBM DeveloperWorks Forum "Rational DOORS DXL"]].
+      *[[http://www.ibm.com/developerworks/community/forums/html/forum?id=11111111-0000-0000-0000-000000001499|IBM DeveloperWorks Forums "Rational DOORS General Discussion"]].
+      *[[http://www.ibm.com/developerworks/community/forums/html/forum?id=11111111-0000-0000-0000-000000001503|IBM DeveloperWorks Forums "Rational DOORS administration"]].
+    *[[http://www.ibm.com/developerworks/community/groups/service/html/communityview?lang=en&communityUuid=30a4b582-9075-4556-85a8-41818f205d94|IBM DeveloperWorks Community "DOORS Next Generation Learning Circle"]].
+  *IBM Jazz Forums.
+    *[[https://www.jazz.net/search/?q=DOORS#page=0&type=type%3DDocument-ForumThread&q=DOORS|IBM Jazz Forums - Search for "DOORS"]].
+  *[[http://www.leapse.com/askRoo.htm|Leap SE Forum]].
+  *[[http://supportline.microfocus.com/communityforums.asp|Micro Focus - Community Forums]].
+  *[[http://www.mks.com/community/|MKS Community]].
+  *[[http://animbleplatform.ideastub.com/|Nimble Forums]].
+  *[[http://sourceforge.net/projects/osrmt/forums/forum/562671|SourceForge "Open Source Requirements Management Tool", Forum]].
+  *[[http://forums.polarion.com/|Polarion Software Forum]].
+  *[[http://helpdesk.requirementone.com/forums|RequirementOne Helpdesk and Forums]].
+  *[[http://www.rhapsody4you.org/|RHAPSODY4YOU --Independent Rational Rhapsody Forum--]].
+  *[[http://www.seapine.com/dcforum/dcboard.php|Seapine Software, Inc. Community, User Forums]].
+{{tag>"requirements engineering" requirements software "IBM Rational DOORS" ibm rational doors "IBM Rational DOORS Next Generation" next generation dng rdng "IBM Rational Requirements Composer" requirements composer}}
+<footnote_navi_en>

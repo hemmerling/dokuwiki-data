@@ -1,0 +1,131 @@
+====== [hemmerling] Development and Operations ( DevOps ) ======
+Related pages:
+  *[[ci.html|Continuous Integration ( CI ) & Continous Delivery ( CD )]].
+  *[[revision.html|Revision Control & Revision Control Systems (RCS), Source Code Version Control Systems ( SCVCS, VCS, CVS ), Software Configuration Management (SCM )]].
+  *[[datacenter.html|The datacenter ( and automation installation ) as "trusted site"]].
+  *[[network.html|Network Tools 1/2]].
+  *[[requirements.html|Requirements]].
+  *[[specbyex.html|Specification by Example]].
+  *[[vagrant.html|Software Development with Vagrant, VirtualBox, Chef]].
+  *[[sdocumentation.html|Software Documentation]].
+  *[[systemdesign.html|System Design]].
+  *[[groupware.html|Team Software, Collaboration Software, Groupware & Application Lifecycle Management]].
+  *[[testing.html|Testing]].
+  *[[pmanagement.html|Project Management]].
+  *[[pmsoftware.html|Project Management Software & Software to be used in Projects]].
+===== Definition =====
+  *[[http://en.wikipedia.org/wiki/DevOps|EN.Wikipedia "DevOps"]].
+===== Statements =====
+  *"[[http://en.wikipedia.org/wiki/Apache_Maven|Maven]] + [[http://en.wikipedia.org/wiki/Jenkins_%28software%29|Jenkins]] + a good script shell and/or script language ( Bash, Windows PowerShell, Tcl/Tk, Python..) as collection are good enought to practice DevOps, successfully  :-).
+===== Software =====
+==== Application Monitoring Software ====
+  *[[http://www.anotheria.net/|anotheria]].
+    *The OpenSource [[http://moskito.anotheria.net/|MoSKito]] for Java application - "A multi-purpose, non-invasive, interval based monitoring system kit for collection, storage and instant analysis of application’s performance and behavior data". 
+    *Blog [[http://blog.anotheria.net/|anotheria devblog]].
+  *Probe for Java applications.
+    *[[http://www.lambdaprobe.org/|Lambda Probe for Apache Tomcat]].
+    *The OpenSource [[http://code.google.com/p/psi-probe/|Google Code "psi-probe. Advanced manager and monitor for Apache Tomcat, forked from Lambda Probe"]].
+==== Chaos Monkey ====
+  *[[http://www.github.com/Netflix/SimianArmy/wiki|Gihub "Netflix / Simian Army"]] - "Consists of services (Monkeys) in the cloud for generating various kinds of failures, or detect abnormal conditions, and test our ability to survive them".
+    *[[http://www.github.com/Netflix/SimianArmy/wiki/Chaos-Home|Github "Netflix / Simian Army / Chaos Monkey"]] - "A service which identifies groups of systems and randomly terminates one of the systems in a group".
+  *[[http://www.codinghorror.com/blog/2011/04/working-with-the-chaos-monkey.html|Coding Horror "Working with the Chaos Monkey"]], 2011-04-25.
+==== Configuration Management Software ( CM Software / CMS ) ====
+=== The most simple Solution: Bash Scripts for Linux, PowerShell Scripts for Windows ===
+  *Just execute Bash scripts on Linux, or PowerShell scripts for Windows to configure your servers.
+=== Ansible ===
+  *The OpenSource [[http://www.ansible.com/|Ansible]], written in Python.
+    *[[http://galaxy.ansible.com/|Ansible Galaxy]] - "Find, reuse, and share the best Ansible content".
+    *The online service [[http://www.ansible.com/tower|Ansible Tower]] - "Manage up to 10 servers/instances for free!". 
+    *[[http://docs.ansible.com/|Ansible Documentation]].
+      *[[http://docs.ansible.com/developing_api.html|Ansible Documentation "Python API"]].
+    *[[http://www.github.com/ansible|GitHub "ansible"]] - "A radically simple IT automation platform that makes your applications and systems easier to deploy. Avoid writing scripts or custom code to deploy and update your applications— automate in a language that approaches plain English, using SSH, with no agents to install on remote systems".
+    *[[http://pypi.python.org/pypi/ansible/|The Python Package Index "ansible"]].
+  *Ansible uses YAML for communications. So the communications is declarative. So you have to write YAML data. 
+  *Ansible doesn't require a client on the target systems.
+  *[[http://en.wikipedia.org/wiki/Ansible_%28software%29|EN.Wikipedia "Ansible (software)"]], [[http://de.wikipedia.org/wiki/Ansible|DE.Wikipedia "Ansible"]].
+=== Bcfg2 ===
+  *The OpenSource [[http://www.bcfg2.org/|Bcfg2]].
+    *[[http://en.wikipedia.org/wiki/Bcfg2|EN.Wikipedia "Bcfg2"]].
+=== CFEngine ===
+  *The OpenSource [[http://www.cfengine.com/|CFEngine]] - The "mother" of all modern IT configuration management software, "puppet and "chef" are the next generation.
+    *[[http://www.gnu.org/software/cfengine/]Gnu "cfengine"] - "Introduction to cfengine".
+    *[[http://en.wikipedia.org/wiki/CFEngine|EN.Wikipedia "CFEngine"]], [[http://de.wikipedia.org/wiki/CFEngine|DE.Wikipedia "CFEngine"]].
+=== Chef ===
+  *The OpenSource [[http://www.opscode.com/chef/|Chef]] - "Systems integration framework, built to bring the benefits of configuration management to your entire infrastructure".
+  *[[http://supermarket.chef.io/|Chef "Supermarket"]] - "Find, explore and view Chef cookbooks for all of your ops needs".
+  *[[http://www.berkshelf.com/|Berkshelf]], [[http://www.github.com/berkshelf/|GitHub "berkshelf"]] - "A Chef Cookbook manager", "Berkshelf is now included as part of the Chef-DK".
+  *IBM uses "Chef" for the installation of the IT configuration management software "IBM The Cloud Manager with Openstack" ( CMwO ).
+    *[[http://www.ibm.com/support/knowledgecenter/SST55W_4.1.0/|IBM Knowledge Center "IBM Cloud Manager with OpenStack welcome page"]] - "IBM Cloud Manager with OpenStack V4.1.0 documentation".
+  *Chef uses the Ruby language for communications.  So the communications is imperative. So you have to write Ruby code.
+  *Chef requires a Chef client on the target systems.
+  *Chef parses its documents 2 times ( it reads the Chef source files 2 times ):
+    -Parsing of the Ruby script.
+    -Execution of special "blocks".
+  *Chef offers BDD / TDD alike test options!
+  *[[http://en.wikipedia.org/wiki/Chef_%28software%29|EN.Wikipedia "Chef (software)"]].
+=== Fabric ===
+  *The OpenSource [[http://www.fabfile.org/|Fabric]], witten in Python.
+    *[[http://www.github.com/fabric|GitHub "Fabric"]].
+    *[[http://www.github.com/ronnix/fabtools|GitHub "ronnix/fabtools"]], [[http://fabtools.readthedocs.org/|Read The Docs "fabtools"]].
+    *"Fabric is a Python (2.5-2.7) library and command-line tool for streamlining the use of SSH for application deployment or systems administration tasks. It provides a basic suite of operations for executing local or remote shell commands (normally or via sudo) and uploading/downloading files, as well as auxiliary functionality such as prompting the running user for input, or aborting execution."
+    *[[http://www.pythonforbeginners.com/systems-programming/how-to-use-fabric-in-python/|Pythons for Beginners "How to use Fabric in Python"]].
+    *[[http://www.digitalocean.com/community/articles/how-to-use-fabric-to-automate-administration-tasks-and-deployments|DigitalOcean "How To Use Fabric To Automate Administration Tasks And Deployments"]].
+=== Puppet ===
+  *The OpenSource "Puppet".
+    *[[http://www.puppetlabs.com/|Puppet Labs - IT Automation Software for System Administrators]].
+      *[[http://forge.puppetlabs.com/|Puppet Forge]] - "A repository of modules".
+      *Blog [[http://www.puppetlabs.com/blog/|Puppet Labs Blog]].
+      *[[http://www.facebook.com/puppetlabs|Facebook "Puppet Labs"]].
+      *[[http://www.twitter.com/puppetlabs|Twitter "Puppet Labs"]].
+      *[[http://www.puppetlabs.com/puppet/puppet-enterprise/|Puppet Labs "Puppet Enterprise"]].
+      *Hewlett-Packard uses "Puppet" for IT infrastructure management.
+    *Puppet Labs "Hiera".
+      *[[http://docs.puppetlabs.com/hiera/1/|Puppet Labs "Hiera 1: Overview — Documentation"]].
+      *[[http://projects.puppetlabs.com/projects/hiera|Puppet Labs Projects "Hiera"]].
+  *Puppet uses JSON for communications.  So the communications is imperative. So you have to write JSON data.
+  *Puppet requires a Puppet client on the target systems.
+  *[[http://en.wikipedia.org/wiki/Puppet_Labs|EN.Wikipedia "Puppet Labs"]].
+  *[[http://en.wikipedia.org/wiki/Puppet_%28software%29|EN.Wikipedia "Puppet (software)"]],[[http://de.wikipedia.org/wiki/Puppet_%28Software%29|DE.Wikipedia "Puppet (Software)"]].
+=== SaltStack ===
+  *The OpenSource [[http://www.saltstack.com/|SaltStack]], written in Python.
+    *[[http://www.github.com/saltstack|Github "saltstack"]].
+    *[[http://en.wikipedia.org/wiki/Salt_%28software%29|EN.Wikipedia "Salt (software)"]].
+    *SALT may be used with Vagrant ( see [[virtualization.html|Virtual PCs, Virtual Servers, Virtualization, Virtual Computers, Computer Hardware Simulation]] ) for provisioning a "project" filespace on a virtual project computer and the transportation of data. In opposite, SALT is used for preparation of the development system ( IDE, compilerchain,... ) on the host development workstation, not on the virtual project computer.
+    *Both SALT and later the IDE on the host development workstation have access to a mapped filesytem on the virtual project computer.
+=== Serverspec - RSpec Tests for Server Configurations ===
+  *See [[specbyex.html|Specification by Example]].
+=== Resources ===
+  *Though most configuration management software is originally developed for Linux and its typical silent installation procedures, Windows editions of such tools might easily use "Microsoft PowerShell" on Windows to execute and control Windows non-GUI installers. 
+  *[[http://en.wikipedia.org/wiki/Configuration_management|EN.Wikipedia "Configuration management"]], [[http://de.wikipedia.org/wiki/Konfigurationsmanagement|DE.Wikipedia "Konfigurationsmanagement"]].
+  *[[http://en.wikipedia.org/wiki/Configuration_Management_%28ITSM%29|EN.Wikipedia "Configuration Management (ITSM)"]].
+  *Configuration management consists of 2 different challenges and tasks:
+    -Provisioning.
+      *[[http://en.wikipedia.org/wiki/Provisioning|EN.Wikipedia "Provisioning"]], [[http://de.wikipedia.org/wiki/Versorgungsprozess|DE.Wikipedia "Versorgungsprozess"]].
+    -Deployment.
+      *[[http://en.wikipedia.org/wiki/Software_deployment|EN.Wikipedia "Software deployment"]], [[http://de.wikipedia.org/wiki/Softwareverteilung|DE.Wikipedia "Softwareverteilung"]].
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/Comparison_of_open_source_configuration_management_software|EN.Wikipedia "Comparison of open source configuration management software"]].
+==== Data Center Deployment and System Management Software ====
+  *[[http://code.google.com/p/yadt/|Google Code "YADT - an Augmented Deployment Tool "]], [[http://www.github.com/yadt|Github "yadt - an Augmented Deployment Tool"]] - "A next generation data center deployment and system management tool".
+    *[[http://www.youtube.com/user/yadtproject/|YouTube "YADT - an Augmented Deployment Tool"]].
+==== Network Monitoring Software ====
+  *Network and Datacenter Administration -> See [[network.html|Network Tools 1/2]].
+
+===== Experts =====
+  *[[http://www.xing.com/profile/Leon_Rosenberg|Leon Rosenberg]].
+    *[[http://twitter.com/dvayanu|@dvayanu]].
+===== Resources =====
+  *[[http://www.heinlein-support.de/node/410|#heinlein "DevOps: Neue Arbeitsweise und Selbstverständnis in der IT"]].
+  *[[http://www.codecentric.de/kompetenzen/publikationen/die-devops-bewegung/|Java Magazin "Die DevOps-Bewegung. Was ist das eigentlich und was bedeutet es für uns?"]], issue 01/2012.
+  *[[http://www.slideshare.net/codecentric/die-devopsbewegung|SlideShare "Die devops-bewegung"]].
+  *[[http://devopsreactions.tumblr.com/|Tumblr "DevOps Reactions"]].
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/DevOps|EN.Wikipedia "DevOps"]].
+===== Forums, Newsgroups =====
+  *[[http://groups.google.com/group/puppet-users|Google Groups "Puppet Users"]], [[http://groups.google.com/group/puppet-dev|Google Groups "Puppet Developers"]].
+  *[[http://www.linkedin.com/groups/Puppet-Users-696467/about|LinkedIn "Puppet Users"]].
+  *[[http://www.meetup.com/DevOps-Hamburg/|Meetup "DevOps-Hamburg"]].
+  *[[http://www.meetup.com/Chef-User-Group-Hamburg/|Meetup "Chef Hamburg - Infrastructure as Code"]].
+  *[[http://www.reddit.com/r/SaltStack|Reddit "SaltStack"]].
+{{tag>"development and operations" "development and operation" "developers and operaters" "developer and operater" DevOps DevOp development operations operation developers developer operaters operater administrators administrator" "configuration management" cm "configuration management software" }}
+<footnote_navi_en>

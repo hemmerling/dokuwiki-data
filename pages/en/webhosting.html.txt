@@ -1,0 +1,28 @@
+====== [hemmerling] How to select your Web Hoster? ======
+===== WEB Provider Checklist of 2013 ===== 
+  *Does the server support [[http://httpd.apache.org/docs/2.0/mod/mod_rewrite.html|Apache HTTP Server "Apache Module mod_rewrite"]] ?
+  *Does the server support PHP5 ( or just PHP4 :-(, if at all )?
+
+===== WEB Provider Checklist of 1999 ===== 
+  *What is the cluster size of your WEB storage ? Most WEB provider don´t know ! Is it on a UNIX or a Windows server ? Unix servers are more stable and should be prefered ! Also, UNIX servers often supply smaller cluster sizes ( e.g. 1, 2 or 4 KByte ) than Windows servers. The smaller the cluster size the bigger is the number of small files ( e.g. FRAMESET files ) which fits in the same WEB storage.
+  *Please use the free services ( similar to the commercial [[http://netwhistle.com/|NetWhistle]], but free ) to test a demo account installed on the target server for permanent accessibility, at least for 4 weeks.
+  *Does JAVASCRIPT code display the current date or not ? If the date 1970 is displayed, the WWW server does not output a 'Last-Modified' header for HTML/SSI/SHTML pages. This is caused either by a faulty server configuration or by a software bug !
+
+<HTML><SCRIPT type="text/javascript" language="JavaScript">
+<!--
+document.write("Date=" + document.lastModified);
+// -->
+</SCRIPT></HTML>
+
+  *Does URL parameter passing ( e.g. "http://www.hemmerling.com?parameter" ) work on that server ?
+  *Does this server support SHTML (SSI) WEB documents ? Does the WEB server clock display the correct time ? Does it support Secure-HTML ( a must if credit numbers are asked from customers by your WEB site ) ?
+  *Does the server provide configuration by the .htaccess and .htpasswd files ?
+  *May the provider supply a list of valid "MIME types" ? Is the provider able and willing to add additional MIME types by request, for free ? If not, please learn to setup the .htaccess file, properly !
+  *If you complain, is there any reaction of the provider, and any change concerning the complaint matters ?
+   *Does your domain have its own IP ? If you got a virtual WEB server, do you know the IP and name of the WEB server and the path of your starting directory ?
+   *Are the original WWW server log informations available, and is the WWW server properly configured ? Most software for log file analysis expect all informations in a single file ("access.log"). Unfortunately, disadvantageously a WEB server may be configured to collect the log informations in several log files ( "access_log", "agent_log", "error_log", "referer_log" ) ! Some WEB providers just supply reports ( bad ) or even nothing (very bad ) !
+   *Is TELNET access available ? May you run your own CGI directory with your own Perl scripts ? Any other script language or database interface available ( HTMLSCRIPT, PHP, SQL database ) available ?
+   *Any other special features like a REAL-AUDIO server, a FLASHPIX server, WEB messaging / Web based messaging( including FAX, audio phone and handy support )?
+   *Both HTML and FTP upload, HTML upload only, FTP upload only ? For "both" and "HTML only" upload WEB sites, the directory depth is usually limited to 1 or 2 levels !
+   *If you got download offers ( documents, freeware, shareware,.. ), it is useful to offer both HTTP and FTP downloads, because of technical reasons. But sometimes FTP download is disabled by your WEB provider! If you should loose part of your WEB document sources someday, even an easy download of your last copy from the FTP server is not possible !
+   *Do popular search engines accept your homepage for free submission ? Or do they refuse the submission service very often, mostly or even almost always by the message "Too many URLs at that site have been submitted today...we limit the number of pages that a site can submit per day... Limits are reset every day. Please try to submit your URL again", even if you did just submit once (but the other users of that server or that IP did too much, as ensemble)

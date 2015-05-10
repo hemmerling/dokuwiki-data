@@ -1,0 +1,178 @@
+====== [hemmerling] Linux 6/8 - Linux with X-Terminals and Terminals ======
+Related pages:
+  *[[booting.html|Booting from Devices]].
+  *[[android.html|Google Android]].
+  *[[linux01.html|Linux 1/8]].
+  *[[linux02.html|Linux 2/8 - Linux Distributions]].
+  *[[linux03.html|Linux 3/8 - Linux Boot Loaders, Linux Build Systems, Linux Installers and Linux Implementors]].
+  *[[linux04.html|Linux 4/8 - Linux Applications, Linux Tools and Linux Drivers]].
+  *[[linux05.html|Linux 5/8 - SUSE 7.1 Linux on Clevo 2700c Notebooks with SIS630S Chipset]].
+  *[[linux07.html|Linux 7/8 - Linux on X86, X64 and ARM Computers]].
+  *[[linux08.html|Linux 8/8 - Useful Linux Commands & Linux Tricks]].
+  *[[remoteaccess.html|Remote Access Tools for Computers & Network Clients]].
+
+===== X-Terminals, X-Server =====
+==== The Tandberg TDV 6230F X-Terminal ====
+{{images:xterm.jpg|Tandberg TDV 6230F X-Terminal}}
+=== The Tandberg Mouse ===
+  *The X-terminal Tandberg TDV 6230F is shipped with a serial [[http://www.logitech.com/|Logitech]] Mouse series 9, modell "CC-93-9F", FCC-ID "DZLCC". Siemens/Nixdorf shipps this terminal with a Logitec mouse, modell "CC-9", Siemens/Nixdorf Code "S26361 - H143 REV.A.", FCC-ID "DZLCC". 
+  *Do you know any replacement ? If so, please [[imprint.html|tell me]].
+=== How to setup SUSE 7.1 Linux for use with a Tandberg "TDV 6230F" X-Terminal ===
+  *An X-terminal Tandberg TDV 6230F is to be connected to a PC with SUSE 7.1 Linux, Linux kernel 2.4.16, in a separate subnet. The installation software for the terminal was available on CDROM.
+  *Do you know how to reset of the password ? If so, please [[imprint.html|tell me]].
+  *Or do you know any "master" password ? If so, please [[imprint.html|tell me]]. I got my terminal without password set, so no problem. But several other fresh owners who bought such a terminal from second hand, asked me so !
+== Setup of the X-Terminal ==
+  *The terminal ( MAC address 08:00:06:03:1c:aa ) is connected by 10Base2 to a Linux PC. The fixed IP address 192.168.2.133 is assigned to the terminal, the fixed IP address 192.168.2.129 is assigned to the network card "eth1", which belongs to the same subnetwork, by the configuration program "Yast". For testing, the boot service type is set to "manual" for the X-terminal. The network connection is tested by command "ping 192.168.2.133".
+== Installation of the sofware packages with "Yast" ==
+  *DHCP server and client ( n/dhcp, n/dhcpn ), IP traffic analyser ( n/iptraf ), TFTP server and client ( n/tftp ), BootP, display manager XDM.
+== Activation of services ==
+  *Modification of /etc/inetd.conf:<code>
+tftp dgram udp wait root /usr/sbin/tcpd in.tftpd -s /tftpboot
+bootps dgram udp wait root /usr/sbin/bootpd bootpd -c /tftpboot</code>
+  *Modification of /etc/dhcpd.conf:<code>
+option subnet-mask 255.255.255.128;
+default-lease-time 600;
+max-lease-time 7200;
+subnet 192.168.2.0 netmask 255.255.255.128 {
+range 192.168.2.130 192.168.2.254;
+option broadcast-address 192.168.2.255; 
+}
+host tandberg_data {
+hardware ethernet 08:00:06:03:1c:aa;
+fixed-address 192.168.2.133; 
+}</code>
+  *Just have a look at /etc/X11/xdm/xdm-config:<code>
+xdmcp 177/tcp # X Display Manager Control Protocol
+xdmcp 177/udp # X Display Manager Control Protocol</code>
+  *Modification of /etc/X11/xdm/xdm-config:<code>
+DisplayManager.requestPort: 177</code>
+  *Modification of /etc/rc.config:<code>
+# Shall dynamic host configuration Server DHCP be started? (yes/no)
+START_DHCPD="yes"</code>
+  *The DHCP service may be started manually by the command "rcdhcp start".
+  *Modification of /tftpboot/XtdFwm.cnf: [[https://github.com/hemmerling/xserver-configuations/blob/master/tandberg_6230f/XtdFwm.cnf|GitHub "hemmerling/xserver-configuations/blob/master/tandberg_6230f/XtdFwm.cnf"]]:
+  *Modification of /etc/rc.config:<code>
+# Here you can set the default Display manager (kdm/xdm/gdm/wdm/console).
+# Attention: CHECK_INITTAB has to be set to yes, to activate this feature.
+# If DISPLAYMANAGER is set to console, SuSEconfig will not bother you
+# with a missing XF86Config.
+DISPLAYMANAGER="xdm"
+# SuSEconfig can do some modifications to /etc/inittab. If you don't want
+# this, set CHECK_INITTAB to no. (yes/no)
+CHECK_INITTAB=yes</code>
+== Installation of the X-terminal software ==
+  *According to the description of the files "/cdrom/README" and "/cdrom/docs/instman.txt", the following directory structure has to be created before, manually:<code>
+/tftpboot/
+/tftpboot/tftpboot/usr/lib/X11/td/
+/tftpboot/tftpboot/usr/lib/X11/td/configs/192.168/</code>
+  *The first directory if for the boot image XtdFwm and the configuration files, the second directory ist the base directory for X11 fonts, example files and further configuration files. The name of the third directory depents on the IP of the connected X-terminal: E.g. the directory 192.168 contains the configuration files for X-terminals of the IP subnet 192.168.xx.xx. Please create an "empty" text file 2.133 in this directory, because the X-terminal runs on the IP 192.168.2.133.
+  *By default, the X-terminal is lookign for the boot image "XtdF". So please create a symbolic link, if necessary:<code>
+cd /tftpboot
+ln XtdFwm XtdF
+</code>
+== Useful hints ==
+  *The configuration file /tftpboot/XtdFwm.cnf is destroyed by the configuration script /cdrom/tdinstall, unfortunately - the values of the variables are inserted, but the names of the variables including the assignment character "=" are deleted in the text file. The directory /tftpboot/tftpboot/usr/lib/X11/td/examples/configs/ contains a set of correct configuration pattern files, for comparison.
+  *In the diagnostic menu of the X-terminal, syntax errors happening during the processing of the file /tftpboot/XtdFwm.cnf and the sucessful or failing loading of fonts are registered.
+Starting
+  *The boot service type is set to "BootP" for the X-Window terminal, the configuration is saved. Thereafter, the terminal is powered-down and up. It boots up to the login window of XDM, finally.
+== My Experiences ==
+  *The IP traffic analyser "iptraf" was useful to track XDMCP requests of the X-terminal.
+  *The KDE desktop is not displayed properly on the grayscale screen of the X-terminal.
+  *If the X-terminal is rebooted by the "session control" menu, it does not get any IP, in spite of active BootP and DHCP services on the Linux PC. After a power-down and up, the X-terminal boots properly.
+==== The X-Server Software "X Appeal" ====
+=== The Tool ===
+{{images:xapplogo.png|The X-server 'X Appeal' for MSDOS}} 
+[[http://web.archive.org/web/*/http://www.xtreme.it/xappeal.html|Archive.org "Xtreme s.r.l. - X Appeal"]] ( - 2004-12-08 ) is an X-server for MSDOS on 386/486 PCs with 4 MB RAM and network "Packet" driver, no DPMI support ( i.e. does not run in the DOS box of Windows ). 30 days expiration, a maximum of 8 connections = a maximum of 8 open windows on the X-Window screen.
+=== Software Installation ===
+  *The X-server MSDOS software X Appeal, running on a 486/66 PC, 16 MB Ram, a 3Com 3C509 Ethernet network card ( an EM100TX-ISA by Adaptec / Cogent, alternatively ) and an S3 graphics card "V7 Mirage" by SPEA/Videoseven ( a "V7 Vega Plus" graphics card by Videoseven, alternatively ) is to be connected to a PC with SUSE-Linux 7.1, Linux kernel 2.4.16.
+  *There are two download offers:
+    *Version 3.2.1.1 is archived at [[http://ftp.sunet.se/pub/simtelnet/msdos/xwindows/|Simtel]] ( "xa3121-a.zip", "xa3121-b.zip", "xa3121-c.zip", "xa3121-d.zip", "xa3121-e.zip", "xa3121-f.zip", "xa3121-g.zip", "xa3121-h.zip", "xa3121-i.zip", "xa3121-j.zip", "xa3121-k.zip", "xa3121-l.zip", "xappeal.txt" ). Additional packet drivers are available by [[http://ftp.sunet.se/pub/simtelnet/msdos/pktdrvr/|Simtel]] too.
+    *The archives "xa3122-a.zip" .. "xa3122-l.zip" and "xappeal.txt" of Version 3.2.1.2 are offered for download at the original [[http://web.archive.org/web/*/http://www.xtreme.it/ftp/pub/xappeal/|Archive.org "X Appeal, HTTP Download"]] website until 2004-12-08. Note that the archives "xa3122-i.zip" ( accelerated server for 8514 cards ), "xa3122-j.zip" ( accelerated server for AGX-based cards ), "xa3122-k.zip" ( accelerated server for Mach8-based cards ) do not exist, in comparison to version 3.2.1.1, although it can be selected by the installation software !
+  *Use an "Unzip" utilty to extract the contents of each archive to a different 1.44 MB floppy disk.
+  *Extract the archives "xapman.zip" and "univbe.zip" and the file "xappeal.txt" from the archive "xa3122-a.zip". Extract the installation instructions and the manual from the archive "xapman.zip". Either print the documentation on paper or transfer the files to a second PC ( e.g. your Linux PC ) and read it !
+  *Extract the files from the archive "univbe.zip" and run "uvconfig.exe", the configuration software for the VESA graphics driver "UNIVBE". Please note what it tells you about your graphics card. For my two graphics cards, it tells me:<code>
+Video Card: S3 SuperVGA (80c805revA/B) with 1 Mb
+RAM DAC: AT&T ATT 20C491 24 bit DAC
+Clock Chip: (Discrete clock selection)
+Video Card: Avance Logic SuperVGA (ALG2228) with 1 Mb
+RAM DAC: Avance Logic AG1201 24 bit DAC
+Clock Chip: (Discrete clock selection)</code>
+  *The network connection to your Linux host is handled by a "Packet" driver for your chosen network device. Please make a "Packet" driver work with your network device. "X Appeal" is already shipped with a set of "Packet" drivers in the archive "XA3122-A.ZIP". [[http://ftp.sunet.se/pub/simtelnet/msdos/pktdrvr/|Simtel]] has a more complete libary. For modern network devices ( PCI cards, USB and Firewire devices ), it is up to the manufacturer of the network device to supply such. Please configure your network device ( interupt, I/O address, memory area ) and do a test installation of the "Packet" driver.
+    *The Ethernet network card "3C509" by 3Com is supported by a "Packet" driver shipped with "X Appeal".
+      *[[http://web.archive.org/web/*/http://support.3com.com/infodeli/tools/nic/ethernet.htm|Archive.org "3Com - Ethernet - Network Interface Cards"]] ( - 2007-12-20 ).
+    *The [[http://www.adaptec.com/en-us/support/_eol/fast_ethernet/em100tx-isa/|EM100TX-ISA]] (100 half-duplex) by Adaptec / Cogent is just shipped with an "ODI" driver for MSDOS. Read the file "pktdrv.txt" which is shipped with the "ODI" driver. The appendix "B" of the installation manual of "X Appeal" explains deeply how to configure the necessary "ODI to Packet driver converter".
+  *Follow the installation instructions. Note that due to the used 386 DOS-extender neither the installation software nor the X-server can be run in a DOS box of Windows. Please install the X-server "X_SVGA" as default X-server, at first, before trying to install a special X-server for your graphics card.
+  *I did not succeed to use a font server for "X Appeal", due to a runtime crash at startup. Here is how to activate a font server on the Linux host, anyhow:
+    *Modification of /etc/inetd.conf:<code>
+# x11 fontserver
+xfs</code>
+  *I did not yet succeed to use "BootP" for assigning a dynamic IP to the X-server at startup :-(. Here is how to activate a font server on the Linux host, anyhow:
+    *Modification of /etc/inetd.conf:<code>
+bootps dgram udp wait root /usr/sbin/bootpd bootpd -c /tftpboot</code>
+  *FAQ:
+    *Q: During the installation process, I am asked to insert disks with certain contents. How do I learn what's on the different installation floppy disks ? A: Have a look at the file "xappeal.txt".
+    *Q: Where is the "Packet" driver loaded and unloaded ? A: In the batch file /xappeal3/x.bat.
+    *Q: Where is the default X-server loaded ? A: In the batch file /xappeal3/x.bat.
+    *Q: How to shut down the X-server ? A: Press "CTRL-ALT-BACKSPACE", but be aware not to press "CTRL-BREAK" ( breaks into an undetermined state of MSDOS - mostly the PC reboots afterwards).
+    *Q: How to reconfigure "X Appeal" and the X-server "X_SVGA" after exchanging the graphics card ? A: Run the program "uvconfig.exe" in the installation directory and copy the modified file univbe.drv from the installation directory to the configuration directory.
+    *Q: Limitations of the trial version ? A: A maximum of 8 connections = a maximum of 8 open windows on the X-Window screen. If you don't set the date of you PC to an anicent date ( e.g. 1996-01-01 ), the 30 days trial version has expired from the start: The performance is limited and Trucolor/Hicolor modes are not available.
+  *If you like, have a look at my configuration file "/xappeal3/xappeal.cfg": [[https://github.com/hemmerling/xserver-configuations/blob/master/xappeal/xappeal.cfg|GitHub "hemmerling/xserver-configuations/blob/master/xappeal/xappeal.cfg"]].
+  *I succeeded to run the X-server "X_SVGA", but I failed to run the X-server "X_S3" due to a runtime crash at startup.
+==== Some other X-server Software ====
+=== OpenSource & Free ===
+  *The OpenSource X-server [[http://xfree86.cygwin.com/|Cygwin/Xfree86]].
+  *[[http://www.xfree86.org/|The XFree86 Project, Inc]].
+=== Commercial ===
+  *The discontinued commercial X-server [[http://web.archive.org/web/*/http://www.astec-x.com/ENGLISH/|Archive.org "ASTEC-X"]] ( - 2009-09-23 ) - "The English version of ASTEC-X does not work on Windows Vista, and it has some minor technical problem. We are stopping the shipment of ASTEC-X English version now".
+  *[[http://www.attachmate.com/|Attachmate]].
+    *The commercial X-server "Reflection X" ( formerly: "WRQ Reflections X" ) for Windows, 60 days exipiration.
+    *The discontinued commercial X-server "Kea! X" for Windows, 30 days exipiration. By chance, I got a full version of KEA! X V3.05 for free - It works fine even with W2K.
+    *[[http://en.wikipedia.org/wiki/Attachmate|EN.Wikipedia "Attachmate"]].
+  *The discontinued commercial X-server [[http://web.archive.org/web//http://www.frontiertech.com/product/SuperX/product_details.asp|Archive.org "Frontier Technologies Corporation - SuperX"]] for Windows ( - 2011-04-30 ).
+  *The commercial X-server [[http://www.labf.com/download/winaxeplus.html|LabF "WinaXe Plus"]] for Windows. The evaluation version has the restriction "Operational 30 minutes per run. After 30 minutes session you need to restart WinaXe Plus" #. 
+  *The commercial X-server [[http://www.microimages.com/mix/|MicroImages "MI/X 5.0 for Windows"]] for Windows, 15 days expiration.
+  *[[http://www.microfocus.com/|Micro Focus]].
+    *The discontinued commercial X-server "Netmanage Chameleon UnixLink 97" for Windows. 
+    *The discontinued commercial X-server "Netmanage X OnNet" ( formerly by "FTP Software" ) 
+    *The commercial X-server [[http://www.microfocus.com/downloads/viewnow-x-server-3954.aspx|Micro Focus "ViewNow X"]] ( formerly: "Netmanage ViewNow" ) for Windows.
+  *[[http://www.opentext.com/|OpenText]].
+    *The commercial X-server [[http://connectivity.opentext.com/products/exceed-ondemamd-.aspx|OpenText "Exceed onDemand"]] ( formerly : "Hummingbird Exceed" ).
+  *The commercial X-server [[http://www.pexus.com/index1.html|Pexus LLC "X-Deep/32"]] for Windows, 15 days expiration.
+  *[[http://www.powerlan-usa.com/|PowerLAN Tech]].
+    *The discontinued commercial X-server "PowerLAN eXodus" for Windows ( formerly by White Pine Software, Inc. ). 
+    *The discontinued commercial X-server "PowerLAN Webterm X" for Windows ( formerly by White Pine Software, Inc. ).
+  *X-Win32.
+    *The commercial X-server [[http://www.xwin32.com/|StarNet Communication "X-Win32"]], 30 days expiration.
+    *The discontinued free X-server "X-Win32 LX" for Windows.
+      *[[http://www.businesswire.com/news/home/20050214005406/en/StarNet-Offers-Free-Server-UNIX-Applications-Rehosted|BusinessWire "StarNet Offers Free X Server for UNIX Applications 'Rehosted' on Windows Server 2003; X-Win32 LX Supports Windows Services for UNIX -- SFU 3.5"]].
+      *[[http://web.archive.org/web/*/http://www.starnet.com/xwin32LX/get_xwin32LX.htm|Archive.org "StarNet Communication: Download X-Win32 LX"]] ( - 2008-05-11 ) - "Existing LX license holders can request a renewal of their license for one additional year or by purchasing a permanent license for $60. Please submit your request to X-Win32 LX Request".
+  *The commercial X-server [[http://www.xlink.com/nfs_products/Omni-X_Server/Omni-X_Server.aspx|XLink Technology, Inc. "Omni-X"]] for Windows. 15 days expiration.
+
+==== Resources ====
+  *[[http://oldwww.nvg.ntnu.no/nvg/maskinpark/xterm.html|Nettverksgruppa "Tandberg Data TDV 6330F"]] - The only other photo of a user of this terminal I found in the WWW :-).
+  *[[http://en.wikipedia.org/wiki/X-Win32|EN.Wikipedia "X-Win32"]].
+  *[[http://en.wikipedia.org/wiki/X_Window_System|EN.Wikipedia "X Window System"]], [[http://de.wikipedia.org/wiki/X_Window_System|DE.Wikipedia "X Window System"]].
+===== Other Thin Clients, Terminals and Terminal Emulations =====
+==== Tools ====
+  *Once I owned WYSE-50, WYSE-60, AMPEX-210, AMPEX-230, DEC VT640, DEC VT100, DEC VT220, DEC VT240 und DEC VT340 terminals.
+  *[[http://www.columbia.edu/kermit/mskermit.html|Columbia University - The Kermit Project]] - "MS-DOS Kermit for DOS and Windows 3.x".
+    *[[http://en.wikipedia.org/wiki/Kermit_%28protocol%29|EN.Wikipedia "Kermit (protocol)"]], [[http://de.wikipedia.org/wiki/Kermit_%28Software%29||DE.Wikipedia "Kermit (Software)"]].
+==== Resources ====
+  *[[http://www.ltsp.org/|Linux Terminal Server Project]] ( LTSP ).
+  *[[http://web.archive.org/web/*/http://www.cs.utk.edu/~shuford/terminal_index.html|Archive.org "Richard S. Shuford - The Archive of VIDEO TERMINAL INFORMATION"]] ( - 2010-07-06 ).
+  *[[http://web.archive.org/web/*/http://www.tuxedo.org/~esr/terminfo/|Eric S. Raymond] "Termcap/Terminfo Resources Page"]] ( - 2002-09-22 ).
+  *[[http://web.archive.org/web/*/http://www.wyse.com/service/support/kbase/wyseterm.asp|Archive.org "Dell Wyse - Knowledge Base ( Wyse Terminals Menu )"]] ( - 2012-02-14 )
+  *[[http://frank.harvard.edu/~coldwell/terminals/00000|Charles M. "Chip" Coldwell - Terminal Concepts in Linux]].
+===== Forums, Newsgroups =====
+  *[[http://groups.google.com/group/comp.terminals/|Google Groups "comp.terminals"]], [[http://groups.google.com/group/comp.windows.x/|Google Groups "comp.windows.x"]], [[http://groups.google.com/group/comp.windows.x.i386unix/|Google Groups "comp.windows.x.i386unix"]], [[http://groups.google.com/group/comp.windows.x.kde/|Google Groups "comp.windows.x.kde"]], [[http://groups.google.com/group/comp.windows.x.motif/|Google Groups "comp.windows.x.motif"]], [[http://groups.google.com/group/comp.windows.x.apps/|Google Groups "comp.windows.x.apps"]], [[http://groups.google.com/group/comp.sys.hp.hpux/|Google Groups "comp.sys.hp.hpux"]], [[http://groups.google.com/group/comp.os.misc/|Google Groups "comp.os.misc"]], [[http://groups.google.com/group/comp.os.linux.x/|Google Groups "comp.os.linux.x"]].
+
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Linux/|OpenDirectory "Top: Computers: Software: Operating Systems: Linux"]].
+    *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Linux/Embedded/|OpenDirectory "Top: Computers: Software: Operating Systems: Linux: Embedded"]].
+    *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Linux/Platforms/|OpenDirectory "Top: Computers: Software: Operating Systems: Linux: Platforms"]].
+  *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Embedded/|OpenDirectory "Top: Computers: Software: Operating Systems: Embedded"]].
+  *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Realtime/|OpenDirectory "Top: Computers: Software: Operating Systems: Realtime"]].
+    *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Realtime/Open_Source/|OpenDirectory "Top: Computers: Software: Operating Systems: Realtime: Open Source"]].
+    *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Realtime/Linux/|OpenDirectory "Top: Computers: Software: Operating Systems: Realtime: Linux"]].
+{{tag>Linux}}
+<footnote_navi_en>

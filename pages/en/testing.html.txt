@@ -1,0 +1,934 @@
+====== [hemmerling] Testing ======
+Related pages:
+  *[[ci.html|Continuous Integration ( CI ) & Continuous Delivery ( CD )]].
+  *[[codingdojo.html|Coding Dojo / Coding Kata / Randori / Code Retreat / Object Calisthenics / Hackathons / Hackfests /  / Programming Marathons / Elephant Carpaccio Exercise - Group-Awareness, Self-Awareness, Self-Training in Software Development as well as Developer Contests & Developer Challenges]].
+  *[[fizzbuzz01.html|Coding Dojo / Coding Cutter: How to play Kata FizzBuzz with JUnit]].
+  *[[fizzbuzz02.html|Coding Dojo / Coding Cutter: How to play Kata FizzBuzz with NUnit]].
+  *[[goodcoding.html|Good Coding ! - Software Coding, Coding Rules, Static Code Analysis, Code Reviews]].
+  *[[requirements.html|Requirements]].
+  *[[sdocumentation.html|Software Documentation]].
+  *[[specbyex.html|Specification by Example]].
+  *[[systemdesign.html|System Design]].
+  *[[de:testhub.html|Testhub]].
+  *[[unittest.html|Unit Test / Module Test]].
+===== Organizations =====
+  *[[http://www.asqf.de/|ASQF e.V. - Arbeitskreis Software-Qualität & -Fortbildung e.V.]].
+  *[[http://www.bcs.org/|British Computer Society ( BCS )]], UK.
+    *[[http://www.iseb.org.uk/|Information Systems Examination Board ( ISEB )]] - "The Information Systems Examinations Board (ISEB) is part of BCS".
+    *Blog [[http://www.bcs.org/server.php?show=ConBlog.2|oddIT Blog]].
+  *[[http://www.gasq.org/|Global Association for Software Quality]] ( gasq ).
+  *[[http://german-testing-board.info/|German Testing Board e.V.]].
+  *[[https://www.gi-ev.de/|Gesellschaft für Informatik e.V. (GI)]].
+    *[[http://www.gm.fh-koeln.de/~winter/tav/|Gesellschaft für Informatik e.V., Fachgruppe TAV (Test, Analyse und Verifikation von Software)]] ( GI FG TAV ).
+    *[[http://www.dlgi.de/|DLGI - Dienstleistungsgesellschaft für Informatik mbH]].
+  *[[http://www.isqi.org/|International Software Quality Institute ( iSQI )]].
+    *[[http://www.isqi.org/en/certification/|iSQI Certification]].
+    *[[http://www.qamp.org/|QAMP - Quality Assurance Management Professional]].
+    *[[http://www.agile-tester.org/|iSQI - International Software Quality Institute GmbH "Agile Certified Tester"]].
+  *[[http://www.ntaforum.org/|The Network Test Automation Forum ( NTAF )]] - It "was created to promote the interoperability of commercial testing tools and test infrastructure for the data communications and telecommunications industry".
+===== Fairs, Conferences, Events =====
+  *[[http://www.germantestingday.info/|German Testing Day]], 2014-07-03.
+  *[[http://www.germantestingnight.de/|German Testing Night]], 2014-03-27, 2014-07-01.
+    *[[http://www.germantestingnight.de/docs/2014/GTN-2014-03_APietschker_Test-als-Requirements.pdf|German Testing Night 2014-03-27 "Giesecke&Devrient, Andrej Pietschker: Tests als Requirements - Brücke zwischen Entwicklung und Systemtest bauen"]].
+  *[[http://www.testing-expo.com/europe/german/|Automotive Testing Expo Europe]], Stuttgart.
+  *[[http://ucaat.etsi.org/|UCAAT - User Conference on Advanced Automated Testing]] in München, 2014-09-16 - 2014-09-18.
+  *[[http://www.xpdays.de/|XP Days Germany - Mitmach-Konferenz für Exteme ProgrammiererInnen]], Hamburg ( 2012-11-29 - 2012-12-01 ).
+  *[[http://www.softwerkskammer.org/activities/workshop_js_testautomatisierung|Softwerkskammer "Workshop: Javascript-Frameworks für Testautomatisierung"]] in Frankfurt, 2014-08-21.
+    *Alexei Vinogradov, [[htp://www.alexei-vinogradov.de/|Alexei Vinogradov]], [[http://www.xing.com/profile/alexei_vinogradov2|XING "Alexei Vinogradov"]], [[http://de.linkedin.com/in/vinogradov|LinkedIn "Alexei Vinogradov"]].
+      *[[http://www.github.com/vinogradoff|GitHub "vinogradoff"]].
+        *[[http://www.github.com/vinogradoff/nightwatch-workshop|GitHub "vinogradoff/nightwatch-workshop"]].
+    *Kahlil Lechelt, [[http://www.kahlil.co/|Kahlil Lechelt]], [[http://www.xing.com/profile/Kahlil_Lechelt|XING "Kahlil Lechelt"]], [[http://de.linkedin.com/in/kahlillechelt|LinkedIn "Kahlil Lechelt"]].
+      *[[http://www.github.com/distilledhype|GitHub "Kahlil Lechelt, distilledhype"]].
+        *[[http://www.github.com/distilledhype/softwerkskammer-dalekjs|GitHub "distilledhype/softwerkskammer-dalekjs"]].
+    *Tools I used on the event:
+      -[[http://www.nightwatchjs.org/|Nightwatch.js]], [[http://www.github.com/beatfactor/nightwatch|GitHub "beatfactor/nightwatch"]].
+      -[[http://www.dalekjs.com/|DalekJS]], [[http://www.github.com/dalekjs|GitHub "DalekJS"]].
+
+===== Certification =====
+  *[[http://www.knowledge-department.de/|Knowledge Department GmbH & Co. KG.]].
+    *[[http://www.certified-tester-pruefung.de/|Knowledge Department GmbH & Co. KG. "Certified Tester Probeprüfung"]] - free test of knowledge, usful before taking a paid test.
+  *[[http://www.agile-tester.org/|Certified Agile Tester]].
+===== Testing Experts =====
+  *[[http://www.grahammaxfield.com/|Graham Maxfield]], Germany.
+    *[[http://www.xing.com/profile/Graham_Maxfield|XING "Graham Maxfield"]] - "Checking is not testing. Testing is more than checking" :-).
+===== Jobs =====  
+==== Services ====
+  -[[http://www.passbrains.com/|PASS Group "Passbrains"]].
+    *[[http://www.mindapple.com/|InfoPins powered by MindApple]].
+    *Blog [[http://www.passbrains.com/blog/|Passbrains Blog]].
+    *[[http://www.facebook.com/passbrains|Facebook "passbrains.com"]].
+    *Relevant test automation tools:
+      *HP QuickTest Professional √.
+      *HTTP Test Tool -> See [[network.html|Network Tools 1/2]] √.
+      *IBM Rational Functional Tester √.
+      *LabVIEW √.
+      *Maveryx √.
+      *QF-Test √.
+      *Ranorex √.
+      *Rational Robot √.
+      *Selenium √.
+      *SilkTest √.
+      *SOATest -> See [[network.html|Network Tools 1/2]] √.
+      *TestComplete √.
+      *TestingAnywhere √.
+      *TestPartner √.
+      *TOSCA Testsuite √.
+      *TPT √.
+      *Visual Studio Test Professional √.
+      *WATIR √.
+      *WebUI Test Studio √.
+  -[[http://www.rapidusertests.com/|Userlutions GmbH "RapidUserTests"]] - "Webseiten testen und 6 EUR in 30min verdienen".
+    *[[http://www.rapidusertests.com/online_geld_verdienen.html|Userlutions GmbH "JETZT Tester werden"]].
+    *[[http://www.facebook.com/userlutions|Facebook "RapidUserTests"]].
+    *Test object in 2013-12 for the introductory test: [[http://www.bahn.de/|Bahn.de]].
+  -[[http://www.testbirds.de/|Testbirds GmbH]], [[http://www.testbirds.com/|Testbirds GmbH]].
+    *[[http://nest.testbirds.com/de/faq|Testbirds FAQ]].
+    *Test object in 2013-11 for the introductory test: [[http://www.care.de/|CARE Deutschland-Luxemburg e.V.]].
+    *Test object in 2013-12 for the introductory test: [[http://www.monster.de/|Monster.de]].
+  -[[http://www.testcloud.de/|testCloud.de GmbH]].
+    *[[http://academy.testcloud.de/|testCloud Academy]].
+      *[[http://academy.testcloud.de/testlauf-essentials/standards-of-quality|testCloud Academy - Testlauf Essentials]].
+  -testhub GmbH -> See [[de:testhub.html|Testhub]].
+  -[[http://www.usertesting.com/|UserTesting.com - The fastest way to get feedback]].
+    *[[http://www.usertesting.com/be-a-user-tester|UserTesting.com - The fastest way to get feedback "Be a User Tester: Earn $10 per Website test and $15 per Mobile test"]].
+    *General testing instructions:
+      *Read the Scenario aloud - this is the mindset to keep during the test.
+      *Complete each task as best as you can before moving on to the next one.
+      *THINK ALOUD - share and explain your thoughts. This is the best thing you can do!
+    *Watch a 1-minute example of a good tester video -> [[http://www.youtube.com/user/usertestingdotcom|YouTube User "usertestingdotcom"]], [[http://www.youtube.com/watch?v=2-Np316YNkY|YouTube "Applicant sample video"]].
+    *[[support@usertesting.com]] - E-Mail address of the support.
+    *Test object in 2013-10 for the sample test: 
+      *[[http://www.kiva.org/|KIVA]].
+      *Background informations about the website: [[http://en.wikipedia.org/wiki/Kiva_%28organization%29|EN. Wikipedia "Kiva (organization)"]], [[http://de.wikipedia.org/wiki/Kiva_%28Organisation%29|DE.Wikipedia "Kiva (Organisation)"]].
+  -[[http://www.utest.com/|uTest]] - "Software Testing Community".
+    *[[http://my.utest.com/|My uTest]].
+    *[[http://university.utest.com/|uTest - Software Testing Courses]].
+      *[[http://university.utest.com/invitations/#sandboxprogram|uTest - Invitations for Test Cycles]] - "The uTest Sandbox 101 is a program that provides newly registered (or currently unrated) uTesters with the opportunity to evaluate uTest, and likewise an opportunity for uTest to evaluate new uTesters. This involves participating in an unpaid 'audition' test cycle that closely mimics a regular, paid uTest test cycle". 
+    *[[http://www.facebook.com/uTest|Facebook "uTest"]].
+    *[[http://plus.google.com/u/0/+utest/posts|Google+ "uTest"]].
+    *[[http://www.linkedin.com/company/utest|LinkedIn "uTest"]].
+    *[[http://www.youtube.com/user/uTestInc|YouTube "uTest Inc"]].
+    *[[http://www.twitter.com/utest|Twitter "uTest, @utest"]].
+    *Relevant testing skills:
+      *Functional.
+        *API Testing.
+        *Manual - Exploratory.
+        *Manual - Test Case Execution.
+        *Manual - Test Case Writing.
+        *Test Automation - .Net.
+        *Test Automation - Asp.
+        *Test Automation - C#.
+        *Test Automation - C++.
+        *Test Automation - Flash.
+        *Test Automation - Java.
+        *Test Automation - JavaScript.
+        *Test Automation - Objective-C.
+        *Test Automation - Perl.
+        *Test Automation - PHP.
+        *Test Automation - Python.
+        *Test Automation - Ruby.
+        *Test Automation - VB.
+      *Load & Performance.
+        *.Net.
+        *AppLoader.
+        *Asp.
+        *BrowserMob.
+        *C#.
+        *C++.
+        *Flash.
+        *Java.
+        *JavaScript.
+        *Jmeter.
+        *LoadRunner.
+        *Objective-C.
+        *OpenSTA.
+        *Perl.
+        *PHP.
+        *Python.
+        *QTP.
+        *Rational.
+        *Ruby.
+        *Selenium.
+        *SilkPerformer.
+        *SLAMD.
+        *SOASTA.
+        *TestComplete.
+        *VB.
+        *Visual Studio Load Test.
+      *Usability.
+        *Expert Usability Review.
+        *Persona and use case script creation.
+        *Survey creation.
+        *Survey Data Analysis.
+        *Usability planning/project design.
+        *Usability report creation.
+      *Security.
+        *Dynamic security testing.
+        *Manual Penetration testing.
+        *Security Tools.
+        *Static security testing.
+      *Localization.
+        *I18n testing.
+        *L10n testing.
+        *Professional translator/linguist.
+
+==== Resources ====
+  *[[http://www.crowdtesting.biz/|Crowd Testing. Software Testing durch die Crowd. Informationen zum Thema Crowdtesting (Software-Tests durch Crowdsourcing)]].
+    *[[http://www.crowdtesting.biz/crowd-testing-anbieter-dienstleister-im-deutschsprachigen-raum/|Crowd Testing "Crowd Testing Anbieter / Dienstleister im deutschsprachigen Raum"]].
+===== Basics =====
+  *Explorative testing = Manual testing, with testplan.
+==== Questions about the Testing of Embedded Software ====
+  -How to test embedded software ? Under the conditions
+    -Most of the code is machine-dependent, i.e. a function to be tested accesses hardware ( reads and writes registers, while the results depend on external conditions and events ).
+    -Resources ( RAM,.. ) are limited, in comparison to the well-known standard of deskop PCs.
+    -Use of standard ( free, OpenSource, commercial )Test frameworks and especially Unit Test frameworks.
+==== Mockup - Simulation of Objects ====
+=== Tools ===
+    *The OpenSource [[http://cmock.sourceforge.net/|SourceForge "CMock"]], [[http://www.sourceforge.net/projects/cmock|SourceForge "CMock"]] - "A module/object mocking framework for C projects. It generates dummy modules that conform to the interface specified in a header file. This allows APIs to be proven out and exercised before committing to an underlying implementation".
+  *The OpenSource EasyMock ( [[http://www.easymock.org/|EasyMock]], [[http://easymock.sourceforge.net/|Sourceforge: "EasyMock"]], [[http://www.sourceforge.net/projects/easymock/|Sourceforge: "EasyMock"]] ) for Java.
+  *The OpenSource [[http://www.jmock.org/|jMock]] for Java - "A library that supports test-driven development of Java code with mock objects".
+  *The OpenSource [[http://code.google.com/p/mockito/|Google Code "mockito. simpler & better mocking"]].
+    *[[http://en.wikipedia.org/wiki/Mockito|EN.Wikipedia "Mockito"]], [[http://de.wikipedia.org/wiki/Mockito|DE.Wikipedia "Mockito"]].
+  *The OpenSource [[http://www.nmock.org/|NMock]], [[http://nmock.sourceforge.net/|Sourceforge: "Mock"]], [[http://www.sourceforge.net/projects/nmock/|Sourceforge: "Mock"]] - "A Dynamic Mock Object Library for .NET". 
+  *[[http://www.voidspace.org.uk/python/mock/|Voidspace, Michael Foord "Mock - Mocking and Testing Library"]] for Python.
+=== Resources ===
+  *[[http://www.mockobjects.com/|Mock Objects]] - "About Mock Objects, a technique for improving the design of code within Test-Driven Development".
+    *The OpenSource [[http://www.sourceforge.net/projects/mockobjects/|SourceForge "Mock Objects"]], [[http://wayback.archive.org/web/*/http://mockobjects.sourceforge.net/|Archive.org "Mock Objects"]], [[http://wayback.archive.org/web/*/http://wiki.truemesh.com/mockobjects|Archive.org "MockObjects - Project Description and Goals"]] for Java - "Generic unit testing framework and methodology for testing any kind of code".
+  *[[http://en.wikipedia.org/wiki/Mock_object|EN.Wikipedia "Mock object"]], [[http://de.wikipedia.org/wiki/Mock-Objekt|DE.Wikipedia "Mock-Objekt"]].
+===== Instrumentation Frameworks for Dynamic Application Testing =====
+  *The OpenSource [[http://code.google.com/p/address-sanitizer/|Google Code "address-sanitizer" - "AddressSanitizer: a fast memory error detector"]] ( ASan ) - "It finds use-after-free and {heap,stack,global}-buffer overflow bugs in C/C++ programs".
+    *[[http://clang.llvm.org/|clang: a C language family frontend for LLVM]].
+      *[[http://clang.llvm.org/docs/AddressSanitizer.html|Clang 3.6 documentation AddressSanitizer]].
+    *[[http://en.wikipedia.org/wiki/AddressSanitizer|EN.Wikipedia "AddressSanitizer"]] - "AddressSanitizer is currently implemented in Clang (starting from version 3.1) and GCC (starting from version 4.8)".
+  *The OpenSource [[http://www.valgrind.org/|Valgrind]] - instrumentation framework for dynamic testing of applications written in C/C++ language, e.g. detection of memory leaks.
+===== Test Mangement, Functional Test Tools, Automation Frameworks, GUI Testing Tools / Capture & Replay Tools =====
+==== Some other General Test Management Tools ====
+  *The commercial [[http://www.casemaker.eu/|CASEMAKER]] - "If you are an “ISTQB Certified Tester” [[http://www.casemaker.eu/register.php|register now]] to receive a license for one month, free of charge, so you can see for yourself the advantage this tool will provide you in your daily application of the taught methods".
+  *The free [[http://www.klaros-testmanagement.com/|klaros testmanagement Community Edition]] for Linux and Windows.
+    *Integration with [[http://www.jenkins-ci.org/|Jenkins]] and with Hudson by [[http://wiki.jenkins-ci.org/display/JENKINS/Klaros-Testmanagement+Plugin|Jenkins plugin]] and Hudson plugin :-).
+  *The free graphical editor for classification trees [[http://www.berner-mattner.com/en/berner-mattner-home/products/cte-xl/|Berner & Mattner "CTE XL"]] for Windows.
+    *[[http://www.systematic-testing.com/|System Testing]] - "Functional Testing ( with CTE ), Evolutionary Testing, Static Analysis".
+  *The Opensource [[http://www.teamst.org/|TestLink]], [[http://testlink.sourceforge.net/|SourceForge "TestLink"]], [[http://www.sourceforge.net/projects/testlink/|SourceForge "TestLink"]] - "Test case management tool".
+    *[[http://en.wikipedia.org/wiki/TestLink|EN.Wikipedia "TestLink"]].
+==== Testdata Creation and Testdata Management ====
+  *The commercial testdata management system [[http://www.averna.com/solutions/mfg_test/proligent/|Averna Proligent]].
+  *The OpenSource [[http://www.generatedata.com/|GenerateData.com]] - Open-source data generator script.
+  *The OpenSource [[http://www.damhave.com/FreeSourceCode/FreeSourceCode.html|Damhave Systems "sequence"]] - "A UNIX/Linux command line tool for generation binary or ASCII test sequences. Sequence is specially useful in bash scripts for test data generation when testing and debugging your own linux device drivers or playing with flash or MTD devices".
+==== Integration & Automation Frameworks ====
+=== .NET ===
+  *The OpenSource [[http://github.com/machine/machine.specifications|Github "machine / machine.specifications"]] - "A Context/Specification framework geared towards removing language noise and simplifying tests".
+    *[[http://codebetter.com/aaronjensen/2008/05/08/introducing-machine-specifications-or-mspec-for-short/|CodeBetter.com, Aaron Jensen "Introducing Machine.Specifications (or MSpec for short)"]], 2008-05-08.
+  *The OpenSource [[http://www.nspec.org/|NSpec]], [[http://www.github.com/mattflo/nspec|Github "mattflo / NSpec"]] - "A BDD framework for .NET of the xSpec (context/specification) flavor".
+  *The OpenSource [[http://www.watin.org/|WatiN]] - "Web Application Testing for the .Net languages".
+=== Java, Python, Web,.. ===
+  *The OpenSource [[http://jakarta.apache.org/jmeter/|Apache JMeter]] for Java - "Java desktop application designed to load test functional behavior and measure performance".
+  *[[http://www.concordion.org/|Concordion]] -"An open source tool for writing automated acceptance tests in Java. There are also versions for .NET, Python, Scala, and Ruby". "It's similar to the [[http://fit.c2.com/|Fit Framework]] but a lot more intuitive”.
+    *[[http://www.concordion.org/Ports.html|Concordion - Non-Java Versions]].
+      *[[http://code.google.com/p/pyconcordion/|Google Code "pyconcordion]] - "Concordion Python Port (write concordion like html files, python fixtures and run it !)".
+  *The OpenSource [[http://jameleon.sourceforge.net/|SourceForge "Jameleon"]], [[http://www.sourceforge.net/projects/jameleon|SourceForge "Jameleon"]] - "Automated testing framework".
+  *The OpenSource [[http://www.jsystemtest.org/|JSystem - Layered Test Automation Framework]] for Java - "Functional tests automation framework based on JUnit".
+  *The OpenSource [[http://www.webload.org/|Radview WebLOAD - "WebLOAD Open Source Load Generation Engine"]] - "Test with confidence". "Load Testing, Stress Testing and Performance testing tools".
+  *The free [[http://www.xqual.com/|XQual "XStudio"]] for Windows, Linux, MacOS.
+==== Free GUI Testing Tools / Capture & Replay Tools ====
+=== Windows, MacOSX, Linux, iPhone, Android ===
+  *The OpenSource [[http://www.sikuli.org/|Sikuli]].
+    *[[http://doc.sikuli.org/|Sikuli Documentation]].
+    *[[http://www.launchpad.net/sikuli/|Launchpad "Sikuli"]].
+    *[[http://www.github.com/RaiMan/SikuliX-IDE|GitHub "RaiMan / SikuliX-IDE"]].
+    *[[http://github.com/RaiMan/SikuliX-API|GitHub "RaiMan / SikuliX-API"]].
+    *[[http://www.slideshare.net/vgod/practical-sikuli-using-screenshots-for-gui-automation-and-testing|SlideShare "Tsung-Hsiang ( Sean ) Chang: Practical Sikuli. Using screenshots for GUI automation and testing"]].
+    *[[http://www.github.com/smysnk/sikuli-framework|GitHub "smysnk / sikuli-framework"]].
+    *[[http://en.wikipedia.org/wiki/Sikuli|EN.Wikipedia "Sikuli"]].
+=== .NET ===
+  *The OpenSource [[http://www.qaliber.net/|QAliber]] for .NET.
+    *"QAliber Test Developer" - Visual Studio plug-in.
+    *"QAliber Test Builder".
+    *[[http://en.wikipedia.org/wiki/QAliber|EN.Wikipedia "QAliber"]].
+  *The OpenSource [[http://www.watin.org/|WatiN]], [[http://www.sourceforge.net/projects/watin/|SourceForge "WatiN"]], [[http://www.sourceforge.net/projects/watin/|SourceForge "WatiN"]] - "WatiN (pronounced "what-in") aims to bring you an easy way to automate Web Application Testing in .Net. Inspired by Watir".
+=== Java ===
+  *Codehouse "FEST" -> See section "JUnit" on [[unittest.html|Unit Test / Module Test]].
+  *"jfcUnit" -> See section "JUnit" on [[unittest.html|Unit Test / Module Test]].
+  *The OpenSource [[http://abbot.sourceforge.net/|SourceForge "Abbot"]], [[http://www.sourceforge.net/projects/abbot|SourceForge "Abbot"]] for Java with AWT / Swing - "Abbot framework for automated testing of Java GUI components and programs".
+    *[[http://en.wikipedia.org/wiki/Abbot_%28framework%29|SourceForge "Abbot (framework)"]].
+  *The free [[http://code.google.com/intl/de/javadevtools/|Google Java Developer Tools]] "WindowTester Pro" - "Streamlines testing of those GUIs with automated recording, test generation, code coverage and playback".
+  *"GUIdancer / Eclipse Jubula Project".
+    *The project will be merged, starting with Eclipse Kepler ( 2013-06 - ).
+    *[[http://testing.bredex.de/|BREDEX GmbH "BREDEX Testing Resources Portal"]].
+    *The once-commercial, now free [[http://www.bredex.de/en/guidancer/|BREDEX GmbH "Bredex GUIdancer"]] for Java - "Eclipse-based tool for the automated functional testing of Graphical User Interfaces (GUI's)", "Tests Java (Swing, SWT/RCP, GEF) and HTML GUI's".
+    *The Opensource [[http://www.eclipse.org/jubula/|Eclipse Jubula Project]] for Java - "Automated Functional Testing".
+    *Blog [[http://bxapps.bredex.de/blog/|BREDEX GmbH "BREDEX on Software"]].
+  *The OpenSource [[http://maveryx.sourceforge.net/|SourceForge "maveryx - Open Source Test Automation Framework"]], [[http://www.sourceforge.net/projects/maveryx|SourceForge "Maveryx"]] for Java - "Automated Java GUI Testing".
+    *[[http://en.wikipedia.org/wiki/Maveryx|Wikipedia "Maveryx"]].
+    *An Eclipse plugin is available.
+  *The OpenSource [[http://jemmy.java.net/|Java.net "Jemmy framework. Ultimate UI testing solution"]].
+  *The commercial [[http://www.froglogic.com/squish/|froglogic GmbH "Squish"]] for testing of Windows, Java, QT, HTML5 applications.
+    *[[http://www.froglogic.com/squish/coco/community-edition.php|froglogic GmbH "Squish Coco CE"]] - "Squish Coco is available as a Commercial Edition for usage with commercial and proprietary applications and as a Non Commercial Community Edition (CE) for non-commercial, private use, such as in Open Source projects or educational University projects".
+    *[[http://en.wikipedia.org/wiki/Squish_%28Froglogic%29|EN.Wikipedia "Squish (Froglogic)"]].
+  *[[http://eclipse.org/swtbot/|Eclipse "SWTBot"]], [[http://swtbot.sourceforge.net/|SourceForge "SWTBot"]], [[http://www.sourceforge.net/projects/swtbot|SourceForge "SWTBot - SWT/Eclipse functional testing"]] - "UI Testing for SWT and Eclipse".
+    *[[http://en.wikipedia.org/wiki/SWTBot|EN.Wikipedia "SWTBot"]].
+=== Linux, X Window ===
+  *The Opensource [[http://ldtp.freedesktop.org/|Linux Desktop Testing Project]] for Linux desktops.
+    *[[http://en.wikipedia.org/wiki/Linux_Desktop_Testing_Project|EN.Wikipedia "Linux Desktop Testing Project"]].
+  *The OpenSource [[http://itupw056.itu.chalmers.se/project-xnee/|GNU Xnee]] - "A suite of programs that can record, replay and distribute user actions under the X11 environment".
+    *[[http://en.wikipedia.org/wiki/Xnee|EN.Wikipedia "Xnee"]].
+=== PowerShell ===
+  *"Test Run" by James McCaffrey.
+    *[[http://msdn.microsoft.com/en-us/magazine/cc163430.aspx|Microsoft MSDN Magazine "Lightweight Testing with Windows PowerShell"]] - Download of Windows application "TestRun2007_05.exe".
+    *[[http://msdn.microsoft.com/en-us/magazine/cc163301.aspx|Microsoft MSDN Magazine "UI Automation with Windows PowerShell"]] - Download of Windows application "TestRun2007_12.exe".
+    *[[http://msdn.microsoft.com/en-us/magazine/cc337896.aspx|Microsoft MSDN Magazine "Web UI Automation with Windows PowerShell"]] - Download of Windows application "TestRun2008_03.exe". 
+    *[[http://blogs.msdn.com/b/msdnmagazine/archive/2008/04/04/8354305.aspx|Microsoft MSDN Magazine "Test Run: Web UI Automation with Windows PowerShell"]], 2008-04-04.
+=== Python ===
+  *The OpenSource [[http://fedorahosted.org/dogtail/|Fedora Hosted "dogtail"]] for Python - "GUI testing tool and automation framework".
+    *[[http://en.wikipedia.org/wiki/Dogtail|Wikipedia "Dogtail"]].
+=== Tcl/Tk ===
+  *"tcltest".
+    *[[http://docs.activestate.com/activetcl/8.5/tcl/TclCmd/tcltest.htm|ActiveState Docs - ActiveTcl User Guide "Tcl/Tk Documentation > TclCmd > tcltest"]].
+    *[[http://www.tcl.tk/man/tcl8.5/TclCmd/tcltest.htm|tcl.tk "Tcl8.5.12/Tk8.5.12 Documentation > TclCmd > tcltest"]].
+    *[[http://wuhrr.wordpress.com/2011/03/28/getting-started-with-tcltest/|Hai’s Blog. Useful stuff, life, photography, kids, technical, programming, and what-else? "Getting Started with tcltest"]], 2011.
+  *"Expect" & "DejaGnu".
+    *The OpenSource [[http://www.gnu.org/software/dejagnu/|DejaGnu]] - "A framework for testing other programs", "DejaGnu is written in [[http://expect.sourceforge.net/|Expect]], which in turn uses Tcl -- Tool command language".
+    *The OpenSource [[http://expect.sourceforge.net/|Sourceforge "Expect"]], [[http://www.sourceforge.net/projects/expect/|Sourceforge "Expect"]], [[http://www.nist.gov/el/msid/expect.cfm|National Institute of Standards and Technology (NIST) "Expect"]] - "a tool for automating interactive applications such as telnet, ftp, passwd, fsck, rlogin, tip, etc. Also useful for testing these same applications".
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1565920902/hemmerling-21|Don Libes: "Exploring EXPECT: A TCL Based Toolkit for Automating Interactive Programs (Nutshell Handbooks)"]] ( 1994 ).
+  *The OpenSource [[http://simpledevlib.sourceforge.net/|SourceForge "The Simple Development Library. A collection of packages and utilities for Tcl development"]], [[http://www.sourceforge.net/projects/simpledevlib|SourceForge "The Simple Development Library"]] -> "SimpleTest: regression testing framework".
+  *The OpenSource [[http://code.google.com/p/t-unit/|Google Code "t-unit. a unit test framework for the tcl programming language"]].
+  *The OpenSource [[http://www.sourceforge.net/projects/tcllib/files/|SourceForge "tcllib"]] - "tclunit".
+    *[[http://wiki.tcl.tk/5647|Wiki.Tcl.Tk "ANNOUNCE: tclunit 0.1"]]
+  *The OpenSource [[http://tclunit.sourceforge.net/|SourceForge "TclUnit"]], [[http://www.sourceforge.net/projects/tclunit/|SourceForge "TclUnit"]].
+  *The free [[http://wayback.archive.org/web/*/http://park.ruru.ne.jp/ando/work/tclTkUnit/|Archive.org "TclTkUnit"]] ( -2012-10-09 ).
+=== Web / HTML Testing in Python, Java, Javascript, PHP ===
+== SoupUI ==
+  *The OpenSource web service testing application for service-oriented architectures (SOA) and representational state transfers (REST) [[http://www.soapui.org/|SoupUI]], [[http://soapui.sourceforge.net/|SourceForge "SoupUI"]], [[http://www.sourceforge.net/projects/soapui/|SourceForge "SoupUI"]] by [[http://smartbear.com|Smart Bear Software, Inc.]].
+  *[[http://www.soapui.org/Dojo/overview.html|SoapUI "API Testing Dojo"]]
+  *[[http://en.wikipedia.org/wiki/SoapUI|EN.Wikipedia "SoapUI"]], [[http://de.wikipedia.org/wiki/SoapUI|DE.Wikipedia "SoapUI"]].
+== Selenium ==
+  *The "slow" OpenSource [[http://www.seleniumhq.org/|SeleniumHQ "Selenium" - Web application testing system]], [[http://code.google.com/p/selenium/|Google Code "selenium. Browser automation framework"]], [[http://selenium-release.storage.googleapis.com/index.html|GoogleAPIs - Download of "Selenium"]] #.
+    *Experts feedback: Selenium is "slow", and no replacement for the "fast" Canoo WebTest :-(.
+    *Language driver APIs:
+      *Python.
+        *[[http://pypi.python.org/pypi/selenium|Python Package Index "Python bindings for Selenium"]] for Python 2.x & 3.x.
+        *[[http://selenium.googlecode.com/git/docs/api/py/api.html|Google Code "Selenium Documentation"]] for Python.
+        *[[http://www.code.google.com/p/selenium/wiki/|Google Code Wiki "Selenium"]].
+          *[[http://www.code.google.com/p/selenium/wiki/PythonBindings|Google Code Wiki "Selenium" - "PythonBindings. A guide to using the python bindings for Selenium/Webdriver"]].
+        *[[http://docs.python.org/2/library/unittest.html|The Python Standard Library "25.3. unittest — Unit testing framework"]].
+      *Java. 
+        *[[http://selenium.googlecode.com/git/docs/api/java/index.html|JavaDocs "com.thoughtworks.selenium"]].
+    *Resources for the legacy Selenium 1 RC:
+      *[[http://docs.seleniumhq.org/|Selenium HQ Browser Automation "Documentation"]].
+        *[[http://docs.seleniumhq.org/docs/05_selenium_rc.jsp|Selenium HQ Browser Automation "Documentation / Selenium 1 (Selenium RC)"]].
+      *[[http://www.jimmyg.org/blog/2009/getting-started-with-selenium-and-python.html|James Gardner: "Getting Started with Selenium and Python"]].
+      *[[http://www.coreygoldberg.blogspot.de/2009/09/selenium-rc-with-python-in-30-seconds.html|Corey Goldberg "Selenium RC with Python in 30 Seconds"]].
+    *Resources for Selenium 2 WebDriver:
+      *[[https://code.google.com/p/selenium/wiki/FrequentlyAskedQuestions|Google Code Wiki "selenium" -  "FrequentlyAskedQuestions"]].
+      *[[http://docs.seleniumhq.org/|Selenium HQ Browser Automation "Documentation"]].
+        *[[http://docs.seleniumhq.org/docs/03_webdriver.jsp|Selenium HQ Browser Automation "Documentation / Selenium WebDriver"]].
+        *[[http://docs.seleniumhq.org/docs/04_webdriver_advanced.jsp|Selenium HQ Browser Automation "Documentation / WebDriver: Advanced Usage"]].
+      *[[http://www.coreygoldberg.blogspot.de/2011/07/python-getting-started-with-selenium.html|Corey Goldberg "Python - Getting Started With Selenium WebDriver on Ubuntu/Debian"]].
+      *[[http://selenium-python.readthedocs.org/|Baiju Muthukadan "Selenium with Python"]].
+        *[[http://selenium-python.readthedocs.org/en/latest/locating-elements.html|Baiju Muthukadan "Selenium with Python / 4. Locating Elements"]].
+      *[[http://selenium-tutorial.blogspot.de/|Selenium Tutorial]].
+        *[[http://selenium-tutorial.blogspot.de/2012/09/selenium-2-webdriver-python.html|Selenium Tutorial "Selenium-2 / Webdriver / Python"]].
+      *[[http://www.saucelabs.com/docs/ondemand/getting-started/env/python/se2/mac|Sauce Labs "Automated Testing Tutorials"]].
+      *[[http://simeonvisser.com/posts/running-tests-in-python-with-selenium-2-and-webdriver.html|Simeon Visser "Running Tests in Python with Selenium 2 and WebDriver"]].
+      *[[http://www.stackoverflow.com/questions/17540971/how-to-use-selenium-with-python|Stack Overflow "How to use Selenium with Python?"]].
+      *[[http://www.youtube.com/watch?v=2OA941RLbmU|YouTube "Selenium For Pythonistas"]].
+      *How to catch a link on a website ?
+        *[[http://selenium-python.readthedocs.org/en/latest/locating-elements.html|Read The Docs " Selenium Python Bindings 2 Documentation - 4. Locating Elements"]] - "find_element_by_xpath"
+        *[[http://selenium.10932.n7.nabble.com/how-to-identify-xpath-for-a-link-td7344.html|Selenium IDE - Users "how to identify xpath for a link?"]]
+          *<HTML>xpath=//a[text()="Pizza Hut"] or xpath=//a[@href="http://yoururl"]</HTML>
+        *[[http://www.stackoverflow.com/questions/13124942/xpath-for-href-element|Stack Overflow "Xpath for href element"]].
+          *<HTML>selenium.click("css=a[href*='listDetails.do'][id='oldcontent']")</HTML>
+          *<HTML>selenium.click("xpath=//a[contains(@href,'listDetails.do') and @id='oldcontent']")</HTML>
+    *Resources for XPATH:
+      *See [[[databases.html|Databases, Webserver, Webservices, SQL, XML]].
+    *Browser plugins:
+      *The Firefox browser plugin [[http://seleniumhq.org/projects/ide/|SeleniumHQ "Selenium IDE"]].
+      *The MSIE browser plugin [[http://code.google.com/p/selenium/downloads/detail?name=IEDriverServer_Win32_2.39.0.zip|Google Code "InternetExplorerDriver standalone server for 32-bit IE"]].
+      *With the browser plugin for Chrome, you may export recorded sessions in different target languages, e.g. "Python 2".
+    *Cloud Services.
+      *[[http://www.saucelabs.com/|Sauce Labs]].
+        *"Run your web and mobile app tests across hundreds of real browsers and platforms instantly".
+        *"Run your Selenium tests in the cloud".
+        *[[http://www.saucelabs.com/pricing|Sauce Labs - Pricing]] - There is a free account with "30 manual minutes, 100 Win/Linux/Android minutes, 40 Mac/iOS minutes" per month.
+    *The Opensource [[http://www.brominefoundation.org/|Bromine]], [[http://bromine.sourceforge.net/|SourceForge "Bromine"]], [[http://www.sourceforge.net/projects/bromine/|SourceForge "Bromine"]] for Java and PHP.
+      *"Its lofty aim is to be the open source alternative to commercial tools (such as HP Quality Center)".
+      *"An open source QA tool that uses selenium RC as its testing engine. It provides project management, OS/browser specification, test-case creation as well as user management".
+    *The OpenSource [[http://code.google.com/p/aost/|Google Code "aost - Tellurium Automated Testing Framework"]].
+      *[[http://en.wikipedia.org/wiki/Tellurium_%28software%29|EN.Wikipedia "Tellurium (software)"]].
+    *The OpenSouce [[http://cubictest.seleniumhq.org/|OpenQA "CubicTest"]] - "Functional web testing", "A graphical Eclipse plug-in for writing Selenium and Watir tests".
+      *[[http://en.wikipedia.org/wiki/CubicTest|EN.Wikipedia "CubicTest"]].
+== Javascript Tools ==
+  *[[http://www.nightwatchjs.org/|Nightwatch.js]], [[http://www.github.com/beatfactor/nightwatch|GitHub "beatfactor/nightwatch"]].
+    *"Nightwatch.js is an easy to use Node.js based End-to-End (E2E) testing solution for browser based apps and websites. It uses the powerful [[http://code.google.com/p/selenium/wiki/JsonWireProtocol|Selenium WebDriver API]] to perform commands and assertions on DOM elements". 
+    *"Nightwatch.js works with cloud testing providers, such as [[http://www.saucelabs.com/|SauceLabs]] and [[http://www.browserstack.com/|BrowserStack]]. 
+    *[[http://www.twitter.com/nightwatchjs|Twitter "Nightwatch.js"]].
+    *[[http://www.danielundkian.de/2014/06/continuous-deployment-mit-git-codeship-io-und-nightwatch-js-bei-youhear/|Daniel und Kian "Continuous Deployment mit git, codeship.io und nightwatch.js bei youhear.it"]], 2014-06-14.
+    *Installation:
+      -"sudo npm install nightwatch".
+      -Install and run the [[http://www.seleniumhq.org/|Selenium Server]] - "java -jar selenium-server-standalone.2.42.0.jar".
+      -"nightwatch" or "node nightwatch.js"
+    *Configuration on Windows:
+      *On Windows, as shipped, "nightwatch" aborts by the error message "ERROR There was an error while starting the test runner: Error: Failed to load external global file: External global file could not be located - using ./examples/globals.json".
+      *To fix this for Windows, please modifly these lines of the file "./node_modules/nightwatch/examples/tests" of your local node module directory:<code>
+"output_folder" : "./node_modules/nightwatch/examples/reports",
+"custom_commands_path" : "./node_modules/nightwatch/examples/custom-commands",
+"custom_assertions_path" : "",
+"globals_path" : "./node_modules/nightwatch/examples/globals.json",</code>
+    *Configuration on Linux:
+      *In case of a local installation of "nightwatch", this "nightwatch.js" file worked for me:<code>
+#!/usr/bin/env node
+require('./node_modules/nightwatch/bin/runner.js');</code>
+    *General configuration tips:
+      *You should build your own "nightwatch.json" in your local project directory, see official tutorial :-).
+  *[[http://www.dalekjs.com/|DalekJS]], [[http://www.github.com/dalekjs|GitHub "DalekJS"]].
+    *[[http://www.dalekjs.com/pages/getStarted.html|DalekJS "Get Started. This ain’t Selenium"]].
+    *"Dalek's only dependency is node.js, there is no need to install Java or download the Selenium.jar file".
+    *Installation for a certain project directory. Though I was able to install DalekJS on Windows as total local installation, with Linux I must - as instructed by the documentation - dalek-cli as global, but dalekjs as local, else it does not appear with "dalek -v". I decided to follow the instructions and installed the rest of the modules as local, too.
+      -<code>sudo npm install -g dalek-cli</code>.
+      -<code>npm install dalekjs --save-dev</code> This creates the folder "node_modules" in your project directory, and installs some code there.
+      -<code>dalek -v</code> for checking the proper installation. Both "dalek-cli" and "dalek" must be listed, so 2 modules, not just one.
+      -<code>dalek test/my_first_test.js</code>
+      -<code>sudo npm install dalek-browser-chrome --save-dev</code> or <code>npm install dalek-browser-firefox --save-dev</code> 
+        *[[http://www.npmjs.org/package/dalek-browser-chrome|dalek-browser-chrome]] - Must be installed with "sudo".
+        *[[http://www.npmjs.org/package/dalek-browser-firefox|dalek-browser-firefox]] - May be installed by a local user.
+      -<code>dalek test/my_first_test.js -b chrome</code> or <code>dalek test/my_first_test.js -b firefox</code>
+        *There is the error on Windows ">> ERROR: dalek-driver-firefox: Binary not found: C:\Program Files\Mozilla Firefox\firefox.exe", if Firefox is not installed at the default location.
+        *There is the error on Windows ">> ERROR: dalek-browser-firefox: Error starting WebDriverServer, port 9006 in use".
+          *[[http://www.github.com/dalekjs/dalek-browser-firefox/issues/11|GitHub Issues for "dalekjs/dalek-browser-firefox"]] - "Firefox won't start on any port #11".
+          *If I set a larger timeout at "my_project\node_modules\dalek-browser-firefox\node_modules\portscanner\lib\portscanner.js", I get the error "net.js:1236: throw new Error('Not running');":
+              *Original:
+                *"var timeout = options.timeout || 400"
+              *Changed to:
+                *"var timeout = options.timeout || 4000"
+      -<code>npm install -g dalek-reporter-html --save-dev</code>
+      -<code>mkdir report</code>
+      -<code>mkdir cd report</code>
+      -<code>mkdir dalek</code>
+      -<code>mkdir cd ..</code>
+      -<code>dalek test/my_first_test.js -r console,html</code> This command expects that the folder "report/dalek" exists. If so, it creates the file "index.html" in that directory with all the information from your test run.
+    *My personal experience of 2014-08: The current version of Dalek "hangs" if an assertion is not passed succesfully :-(
+== Some other Tools ==
+  *The free Add-ons for browsers (IE, Firefox, Chrome) [[http://www.iopus.com/imacros/|iOpus GmbH "iMacros"]] - "The unique tool for instant Web Automation, Web Testing & Data Extraction".
+    *[[http://www.iopus.com/imacros/compare/|iOpus GmbH - iMacros Feature Comparison Chart]].
+    *[[http://en.wikipedia.org/wiki/IMacros|EN.Wikipedia "iMacros"]]
+  *The OpenSource [[http://www.watir.com/|Watir]] - "A family of Ruby libraries for automating web browsers", "They support Internet Explorer on Windows, Firefox and Chrome on Windows, Mac and Linux and Safari on Mac".
+    *[[http://en.wikipedia.org/wiki/Watir|EN.Wikipedia "Watir"]].
+  *The "fast" OpenSource [[http://webtest.canoo.com/|Canoo WebTest]] in Java.
+=== Web Automation by direct HTTP Automation ===
+  *[[http://twill.idyll.org/|twill: a simple scripting language for Web browsing]] - "twill supports automated Web testing and has a simple Python interface".
+  *[[http://www.github.com/brynary/webrat|WebRat]] - "Webrat - Ruby Acceptance Testing for Web applications".
+  *[[http://code.google.com/p/selenium/wiki/HtmlUnitDriver|Selenium Browser automation framework, HtmlUnitDriver]].
+=== Windows Macro Recorders ===
+== Basics ==
+  *Many Windows macro recorders work on Vista / Win7 just with deacitivated UAC ( [[http://en.wikipedia.org/wiki/User_Account_Control|EN.Wikipedia "User Account Control"]], [[http://de.wikipedia.org/wiki/Benutzerkontensteuerung|DE.Wikipedia "Benutzerkontensteuerung"]] ).
+== Tools ==
+  *AutoHotkey.
+    *The OpenSource [[http://www.autohotkey.com/|AutoHotkey]], [[http://ahk.sourceforge.net/|SourceForge "AutoHotkey - Automation and Hotkeys"]], [[http://www.sourceforge.net/projects/ahk/|SourceForge "AutoHotkey - Automation and Hotkeys"]] for Windows - "Mouse and Keyboard Macro Program with Hotkeys and AutoText" #.
+      *[[http://www.autohotkey.com/docs/commands/IfWinActive.htm|AutoHotkey Documentation "#IfWinActive / #IfWinExist"]] - "Variable references such as %Var% are not currently supported. Therefore, percent signs must be escaped via `% to allow future support for them." :-(.
+       *[[http://www.autohotkey.com/docs/FAQ.htm|AutoHotkey "Frequently Asked Questions (FAQ)"]].
+       *[[http://www.autohotkey.net/~faqbot/faq.html|AutoHotkey "Unofficial AutoHotkey FAQ"]].
+       *[[http://www.autohotkey.com/docs/Tutorial.htm|AutoHotkey "Tutorial"]].
+       *[[http://www.autohotkey.com/board/topic/78993-autohotkey-as-an-automation-testing-aid-tool/|AutoHotkey Forums "AutoHotkey as an automation testing aid tool"]].
+    *The OpenSource "AutoHotkey_L".
+      *[[http://www.autohotkey.net/|autohotkey.net]].
+        *The OpenSource [[http://l.autohotkey.net/|AutoHotkey_L]], 
+      *[[http://www.github.com/Lexikos/|GitHub "Lexikos"]].
+        *[[http://www.github.com/Lexikos/AutoHotkey_L|GitHub "Lexikos / AutoHotkey_L"]] - "Continuation of Chris Mallett's AutoHotkey, by Lexikos. [[http://www.ahkscript.org/|http://ahkscript.org/]]".
+      *[[http://www.ahkscript.org/|AHKScript.org]] - "A new community founded by a number of enthusiasts to promote the use of AutoHotkey".
+    *[[http://en.wikipedia.org/wiki/AutoHotkey|EN.Wikipedia "AutoHotkey"]], [[http://de.wikipedia.org/wiki/AutoHotkey|DE.Wikipedia "AutoHotkey"]].
+    *Video [[http://www.youtube.com/watch?v=10KM27uzoIE|YouTube "Using AutoHotKey For Windows Macro Recording"]].
+  *The free [[http://www.autoitscript.com/|Jonathan Bennett & AutoIt Consulting Ltd "AutoIt"]] - "Automation and Scripting Language" #.
+    *[[http://www.autoitscript.com/wiki/Main_Page|Jonathan Bennett & AutoIt Consulting Ltd - AutoIT Wiki]].
+    *[[http://en.wikipedia.org/wiki/AutoIt|EN.Wikipedia "AutoIt"]], [[http://de.wikipedia.org/wiki/AutoIt|DE.Wikipedia "AutoIt"]].
+  *The free [[http://www.ghost-mouse.com/|AutomaticSolution Software "GhostMouse"]].
+  *The free [[http://www.bitdreamers.com/|bitdreamers - quality driven solutions "TimeComX Basic"]].
+    *[[http://www.freeware.de/blog/tipps/tipps-tricks/timecomx-windows-automatisierung-freeware/|freeware.de "Windows Automatisierung Freeware"]].
+  *The free [[http://freelabs.info/MacroRecorder.aspx|Free Labs Software. "Windows Macro Recorder"]].
+  *The free [[http://www.perfectautomation.com/|Gentee, Inc "Perfect Automation"]].
+    *The OpenSource programming language [[http://www.gentee.com/|Gentee]], [[http://gentee.sourceforge.net/|SourceForge "Gentee Programming Language"]], [[http://www.sourceforge.net/projects/gentee/|SourceForge "Gentee Programming Language"]].
+    *[[http://fr.wikipedia.org/wiki/Gentee|FR.Wikipedia "Gentee"]].
+  *The free Donationware [[http://www.s-a-t.fr/|Thierry Haurie "Smart Automatic Test ( SAT )"]].
+  *[[http://www.hintenaus.at/|Mag. Marina Hintenaus]] ( = "Walter Hintenaus" ).
+    *The free [[http://members.inode.at/m.hintenaus/makro%20-%20uebersicht.htm|Mag. Marina Hintenaus "Makro"]].
+  *[[http://www.hiteksoftware.com/|Hitek Software LLC]].
+    *The free [[http://www.fileguru.com/Acemacro/info|Fileguru "AceMacro 2.0"]].
+  *[[http://senthilthecoder.com/|S. Senthil Kumar]].
+    *The free [[http://senthilthecoder.com/software/winmacro/index.html|S. Senthil Kumar "WinMacro. A Macro Recorder/Player for Windows"]] - "WinMacro v1.2.1".
+    *[[http://winmacro.codeplex.com/|CodePlex "WinMacro"]] -> certificate installation required :-(.
+  *The free Donationware [[http://members.ij.net/anthonymathews/MacroMaker.htm|Anthony Mathews "MacroMaker"]].
+  *The free [[http://www.mybits-home.de/|MyBits Home, Alexander Bolli "GhostHand "]].
+  *The free [[http://www.neowise.com/freeware/|Neowise Software "RoboTask Lite - Freeware automation utility"]].
+  *The free [[http://www.phantomtest.com/|Phantom Automated Solutions "Phantom Automation"]] for Windows.
+    *<del>[[http://en.wikipedia.org/wiki/Phantom_automation_language|EN.Wikipedia "Phantom automation language"]]</del>.
+    *[[http://en.wikipedia.org/wiki/User:Aeroslacker/Phantom_automation|EN.Wikipedia "User:Aeroslacker/Phantom automation"]].
+  *[[http://wayback.archive.org/web/*/http://www.freewarehits.de/|Archive.org "Detlef Schaefer - freewarehits.de"]].
+    *The free [[http://wayback.archive.org/web/*/http://www.freewarehits.de/RemoteKeys.htm|Archive.org "Detlef Schaefer 'RemoteKeys'"]].
+    *[[http://www.chip.de/downloads/RemoteKeys-8.7_12995935.html|CHIP Online "RemoteKeys 8.7"]].
+  *The free Donationware [[http://www.spacetornado.com/DoItAgain/|Spacetornado Software "Do It Again"]].
+  *[[http://www.vtaskstudio.com/support.php|Vista Software - Free Software Tools]].
+    *The free tools "TinyTask", "TyperTask".
+  *The free [[http://www.camiweb.com/zenkey/|ZenCODE "ZenKEY"]].
+=== Windows Automation & Batch Systems ===
+  *KiXtart.
+    *The free [[http://www.kixtart.org/|KiXtart]] - "A free-format scripting language and has rich built-in functionality for easy scripting. It supports COM (providing access to ADSI, ADO, WMI, etc) and thus is easily extensible".
+    *The free [[http://www.kixforms.org/|KiXforms]] - "The most powerful graphical plug-in for the popular KiXtart scripting language".
+    *[[http://en.wikipedia.org/wiki/KiXtart|EN.Wikipedia "KiXtart"]], [[http://de.wikipedia.org/wiki/KiXtart|DE.Wikipedia "KiXtart"]].
+  *The free [[http://www.thinbasic.com/|ThinBasic - passion powered script interpreter for Windows]].
+    *[[http://en.wikipedia.org/wiki/ThinBasic|EN.Wikipedia "ThinBasic"]].
+=== Macro Recorders in Desktop Applications ===
+== The Macro Recorder in OpenOffice ==
+  *[[http://wiki.openoffice.org/wiki/Documentation/OOo3_User_Guides/Calc_Guide/Using_the_macro_recorder|OpenOffice Wiki "Using the macro recorder"]].
+==== Just-Commercial GUI Testing Tools / Capture & Replay Tools ====
+===  Web, Windows, WPF, HTML5, Flash, Flex, Silverlight, .NET, VCL and Java ===
+  *[[http://www.smartbear.com/products/qa-tools/automated-testing-tools/| SmartBear Software "Automated Testing - TestComplete"]].
+    *[[http://en.wikipedia.org/wiki/TestComplete|EN.Wikipedia "TestComplete"]] - "It automates front-end UI/functional testing and back-end testing like database testing".
+    *[[http://www.twitter.com/TestComplete|Twitter "TestComplete"]].
+=== Java & Web ===
+  *[[http://www.qfs.de/|QF-Test]] - "Das GUI Testtool für Java und Web".
+=== .NET ===
+  *[[http://www.telerik.com/|Telerik]].
+    *[[http://www.telerik.com/automated-testing-tools/|Telerik "Test Studio"]] ( formerly: "Telerik WebUI Test Studio" ) - "Functional Testing ( HTML, Silverlight, AJAX, WPF ), Load Testing, Performance Testing, Testing in Visual Studio, Explorative Testing, Manual Testing, Mobile Testing".
+  *Automated UI tests for WPF projects with Visual Studio.
+    *[[http://msdn.microsoft.com/de-de/library/dd286726.aspx|Microsoft MSDN Library "Testing the User Interface with Automated UI Tests"]] - "You can use Visual Studio 2010 Ultimate or Visual Studio 2010 Premium to create automated tests of the user interface (UI) known as coded UI tests". 
+=== Windows & Windows GUI ===
+  *[[http://www.tethyssolutions.com/|Automation Anywhere, Inc]], [[http://www.automationanywhere.com/|Automation Anywhere, Inc.]] ( previously known as Tethys Solutions, LLC. ).
+    *[[http://www.automationanywhere.com/Testing/|Automation Anywhere, Inc. "Testing Anywhere"]].
+      *Supportet test types:
+        *Automated Software Testing.
+        *Automated Load Testing.
+        *Cross-browser Testing.
+        *Regression Testing.
+        *Black Box Testing.
+        *Keyword-driven Testing.
+        *Smoke Testing.
+        *Compatibility Testing.
+        *System Testing.
+        *Automated Flex Testing.
+        *Mainframe Application Testing.
+        *WPF Testing.
+        *Automated Mobile Testing.
+        *Automated Web Testing.
+        *Distributed Load Testing.
+        *Functional Testing.
+        *Acceptance Testing.
+        *Data-driven Testing.
+        *Integration Testing.
+        *Performance Testing.
+        *GUI Testing.
+        *Silverlight Application Testing.
+        *Java Application Testing.
+        *Automated Unit Testing.
+    *[[http://www.twitter.com/TestingAnywhere|Twitter "Testing Anywhere"]].
+    *[[http://www.slideshare.net/AutomationAnywhere|SlideShare "Automation Anywhere"]].
+    *[[http://en.wikipedia.org/wiki/Automation_Anywhere|EN.Wikipedia "Automation Anywhere"]], [[http://en.wikipedia.org/wiki/Testing_Anywhere|EN.Wikipedia "Testing Anywhere"]].
+  *Hewlett Packard ( HP ).
+    *[[http://www8.hp.com/us/en/software/enterprise-software.html|Hewlett-Packard "Enterprise Software"]].
+    *[[http://web.archive.org/web/*/http://www.mercury.com/us/products/|Archive.org "Hewlett Packard: Mercury Products"]].
+      *[[http://web.archive.org/web/*/http://www.mercury.com/us/products/quality-center/|Archive.org "Hewlett Packard: Mercury Quality Center"]].
+        *"HP Quality Center Software".
+          *[[https://h10078.www1.hp.com/cda/hpms/display/main/hpms_content.jsp?zn=bto&cp=1-11-127-24_4000_5__|HP Application Lifecycle Management]] - "HP Quality Center Software".
+          *[[http://www8.hp.com/h20195/v2/GetDocument.aspx?docname=4AA0-9587ENW|Hewlett Packard HP Quality Center software (formerly HP TestDirector for Quality Center software)]"]] (PDF).
+          *[[http://en.wikipedia.org/wiki/HP_Quality_Center|EN.Wikipedia "HP Quality Center"]] - "The Enterprise version, originally called Mercury TestDirector for Quality Center...".
+          *[[http://www8.hp.com/us/en/software/software-product.html?compURI=tcm:245-937045&pageTitle=quality-center|Hewlett Packard "HP Quality Center software"]].
+          *[[http://web.archive.org/web/*/http://www.mercury.com/us/products/testdirector/|Archive.org "Hewlett Packard: Mercury Test Director"]].
+        *[[http://www8.hp.com/us/en/software-solutions/software.html?compURI=1172957|Hewlett Packard "HP Unified Functional Testing software. Test early, test often, test continuously with automation testing."]].
+        *[[http://www8.hp.com/de/de/software-solutions/software.html?compURI=1215990|Hewlett Packard "Application Lifecycle Management. Steuerung des Lebenszyklus moderner, agiler Anwendungen"]].
+        *[[http://www8.hp.com/de/de/software-solutions/software.html?compURI=1175451|Hewlett Packard "HP LoadRunner. Software-Testtool mit unübertroffener Leistungsfähigkeit und Flexibilität zum Testen der Anwendungsleistung"]].
+        *[[http://www8.hp.com/de/de/software-solutions/software.html?compURI=1175730|Hewlett Packard "HP Diagnostics Software
+Gewährleisten, dass Probleme während des gesamten Lebenszyklus ermittelt und behoben werden."]].
+    *<del>HP WinRunner</del> ( formerly: <del>Mercury WinRunner</del> ).
+      *[[http://en.wikipedia.org/wiki/WinRunner|EN.Wikipedia "WinRunner"]], [[http://de.wikipedia.org/wiki/WinRunner|DE.Wikipedia "WinRunner"]].
+    *[[http://en.wikipedia.org/wiki/HP_Application_Lifecycle_Management|EN.Wikipedia "HP Application Lifecycle Management"]].
+      *Components of the HP ALM suite: "HP Functional Testing",...
+    *HP LoadRunner ( formerly: <del>Mercury LoadRunner</del> ).
+      *[[http://en.wikipedia.org/wiki/HP_LoadRunner|EN.Wikipedia "LoadRunner"]].
+      *[[http://www8.hp.com/us/en/software-solutions/software.html?compURI=1175451&jumpid=reg_r1002_usen_c-001_title_r0001#.US-ZWDCnrp8|Hewlett Packard "HP LoadRunner. Unmatched power and flexibility software testing tool for application performance"]].
+    *HP QuickTest Pro ( formerly: <del>Astra Quick test by Mercury Interactive</del> ).
+      *[[http://en.wikipedia.org/wiki/HP_QuickTest_Professional|EN.Wikipedia "HP QuickTest Professional"]].
+      *[[http://www.learnqtp.com/|Learn QTP... for those with a zest to test]].
+      *Blog [[http://qtp.blogspot.de/|QTP Tutorials & Interview Questions]].
+      *[[http://en.wikipedia.org/wiki/Stress_testing_%28software%29|EN.Wikipedia "Stress testing (software)"]], [[http://de.wikipedia.org/wiki/Lasttest_%28Computer%29|DE.Wikipedia "Lasttest (Computer)"]].
+  *IBM.
+    *[[http://www.ibm.com/software/awdtools/tester/functional/|IBM Rational Functional Tester]].
+    *[[http://www.ibm.com/software/awdtools/tester/robot/|IBM Rational Robot]] ( formerly: Rational Teamtest, SQA Teamtest ).
+      *[[http://www.ibm.com/developerworks/rational/products/robot/|IBM developerWorks "Rational Robot"]].
+    *<del>IBM Rational Visual Test</del> (formerly: <del>Microsoft Visual Test</del>, <del>MS Test</del>).
+      *[[http://en.wikipedia.org/wiki/Visual_Test|EN.Wikipedia "Visual Test"]].
+  *[[http://www.microfocus.com/|Micro Focus International]].
+    *[[http://www.borland.com/products/silktest/|Borland - A Micro Focus Company "SilkTest"]] ( once a Borland product, then supplied by Micro Focus International, now by Borland again ).
+      *[[http://en.wikipedia.org/wiki/SilkTest|EN.Wikipedia "SilkTest"]].
+    *[[http://www.microfocus.com/products/TestPartner/|MicroFocus TestPartner]] ( formerly: Compuware TestPartner ).
+      *[[http://en.wikipedia.org/wiki/TestPartner|EN.Wikipedia "TestPartner"]].
+      *SilkCentral Test Manager ( SCTM ).
+    *<del>Micro Focus QARun</del> ( formerly: <del>Compuware QARun</del> ).
+  *Oracle.
+    *[[http://www.oracle.com/us/products/enterprise-manager/|Oracle Enterprise Manager]] ( formerly <del>Empirix e-TEST</del>, <del>RSW e-TEST</del>, Oracle Enterprise Manager ).
+      *[[http://www.oracle.com/us/corporate/Acquisitions/empirix|Oracle and Empirix]] - "Oracle has aquired the e-TEST suite products from Empirix".
+  *[[http://www.ranorex.com/|Ranorex GmbH "Ranorex - Next Generation Automated Testing"]] for Windows - Also for GUI testing of Labview applications.
+=== Windows Macro Recorders ===
+== Basics ==
+  *Many Windows macro recorders work on Vista / Win7 just with deacitivated UAC ( [[http://en.wikipedia.org/wiki/User_Account_Control|EN.Wikipedia "User Account Control"]], [[http://de.wikipedia.org/wiki/Benutzerkontensteuerung|DE.Wikipedia "Benutzerkontensteuerung"]] ).
+== Tools ==
+  *[[http://www.tethyssolutions.com/|Automation Anywhere, Inc]], [[http://www.automationanywhere.com/|Automation Anywhere, Inc.]]  ( previously known as Tethys Solutions, LLC. ).
+    *[[http://www.tethyssolutions.com/product.htm|Automation Anywhere, Inc. "Workspace Macro recorder"]] - Free trial software version available.
+    *[[http://www.tethyssolutions.com/automation-software.htm|Automation Anywhere, Inc. "Automation Anywhere"]] - "The Intelligent Automation Software. Automate & Schedule business processes & IT tasks easily". Free trial software version available.
+    *[[http://www.tethyssolutions.com/compare-macro-software.htm|Automation Anywhere, Inc. "Compare Our Macro Software & Automation Software"]].
+    *[[http://www.slideshare.net/AutomationAnywhere|SlideShare "Automation Anywhere"]].
+    *[[http://en.wikipedia.org/wiki/Automation_Anywhere|EN.Wikipedia "Automation Anywhere"]], [[http://en.wikipedia.org/wiki/Workspace_Macro|EN.Wikipedia "Workspace Macro"]].
+  *[[http://www.chosensoft.com/keyboard-macro-recorder/|Chosen Software "Journal Macro"]] - Free trial software version available.
+  *[[http://www.quickmacros.com/|Gintaras Didzgalvis "Quick Macros"]].
+  *[[http://www.flashplayerpro.com/MacroRecorder/|GoldSolution Software, Inc. "Easy Macro Recorder"]].
+  *[[http://www.graphicaldynamics.com/|Graphical Dynamics, Inc. "AutoIntern"]] - "Small-Business Process Automation". Free trial software version available.
+  *[[http://www.macro-expert.com/|GrassSoftware]].
+    *[[http://www.macro-expert.com/|GrassSoftware "Macro Expert"]] - Free trial software version available.
+    *[[http://mouse-recorder.macro-expert.com/|GrassSoftware "Advanced Key and Mouse Recorder"]] - Free trial software version available.
+  *[[http://www.hiteksoftware.com/|Hitek Software LLC "Automize"]] - Free trial software version available.
+  *[[http://www.macroexpress.com/|Insight Software Solutions, Inc. "MacroExpess - The Windows Automation Tool"]] - Free trial software version available.
+    *[[http://en.wikipedia.org/wiki/Macro_Express|EN.Wikipedia "Macro Express"]].
+  *[[http://www.jitbit.com/|Jitbit Software]].
+    *[[http://www.jitbit.com/macro-recorder/|Jitbit Software "Macro Recorder", "Macro Recorder LITE"]] - Free trial software version available.
+    *[[http://www.jitbit.com/macro-recorder/free-macro-recorder/|Jitbit Software "Free Macro Recorder"]].
+  *[[http://www.macrox.de/| Michael Milawski Software "MacroX - Automatisierungssoftware für Windows"]] - Free trial software version available.
+  *[[http://www.mjtnet.com/|MJT Net Ltd]] - Free trial software version available.
+    *[[http://www.mjtnet.com/macro_scheduler.htm|MJT Net Ltd "mjtnet Macro Scheduler - Windows Automation Made Easy"]].
+    *[[http://www.mjtnet.com/mouse-recorder.htm|MJT Net Ltd "Mouse Recorder"]].
+  *[[http://www.robotask.com/|Neowise Software "RoboTask"]] - Free trial software version available.
+  *[[http://www.macro-recorder.com/|Readmesoft Company, Inc. "Auto Macro Recorder"]] - Free trial software version available.
+  *[[http://www.vtaskstudio.com/|Vista Software "vTask Studio"]] - Free trial software version available.
+  *[[http://www.winautomation.com/|Softomotive Ltd "WinAutomation"]] - "The most advanced Windows Automation app, featuring a Macro Recorder and a Web Recorder". Free trial software version available.
+=== Windows Automation & Batch Systems ===
+  *[[http://www.winbatch.com/|WinBatch, the Batch Language for Windows]].
+=== Macro Recorders in Desktop Applications ===
+== The Macro Recorders in Microsoft Excel ==
+  *[[http://spreadsheets.about.com/od/advancedexcel/ss/excel_macro.htm|About.com "Excel 2003 Macro Tutorial"]].
+  *[[http://www.excel-vba-easy.com/vba-how-to-excel-macro-recorder.html|#1 Source for Excel macros on the net "Excel Macro Recorder"]].
+  *[[http://www.dummies.com/how-to/content/how-to-record-a-macro-to-automate-tasks-in-excel-2.html|Dummies.com - Make everything easier "How to Record a Macro to Automate Tasks in Excel 2010"]].
+  *Cookbook instructions for development of Excel automation solutions:
+    -Use the built-in macro recorder of Excel to do what you want to do automatically.
+    -Modify the recorded VBA code to make it run indepedantly. Especially replace all "Select" instructions.
+  *Literature selection tip: Get a book which deals with both Excel & VBA automation, instead of a book about Excel ( wnich might handle macros in one of the last chapters, and enventually Excel automation with VBA not at all ) and another book about VBA ( which might not deal with the specialties of Excel automation ).
+== The Macro Recorder in Microsoft Visual Studio ==
+  *[[http://msdn.microsoft.com/en-us/library/b4c73967%28v=vs.80%29|MSDN Library "Visual Studio Macros"]] for Visual Studio 2005.
+== The Macro Recorder in Microsoft Word ==
+=== Addons ===
+  *The free [[http://www.qatools.de/|QA-Tools GmbH "SmarTest Framework"]] for use with commercial capture & replay tools.
+==== Just-Commercial Software for Testing & Test Management ====
+  *[[http://www.cosmic-software.com/TestIt.php|COSMIC Software GmbH "C-TestIt!]] - "Cosmic Software UNIT TESTING product".
+  *[[http://www.froglogic.com/|froglogic GmbH]] - "Squish GUI Testing", "Squish Central", "Squish Coco".
+  *[[http://www-01.ibm.com/software/awdtools/test/realtime/|IBM Rational Test RealTime]], [[http://www-142.ibm.com/software/products/de/de/realtime/|IBM Deutschland - IBM Rational Test RealTime]] ( RTR, RTRT ).
+    *[[http://de.wikipedia.org/wiki/Rational_Test_Realtime|DE.Wikipedia "IBM Rational Test RealTime"]].
+    *[[http://www.ibm.com/developerworks/rational/products/testrealtime/|IBM Developerworks "Rational Test RealTime"]].
+    *[[http://www.ibm.com/developerworks/downloads/product.html|IBM developerworks "Downloads, trials, and cloud. Evaluation software for developers"]].
+  *[[http://www.ipl.com/products/tools/pt400.uk.php|IPL Information Processing Ltd "Cantata++"]].
+    *[[http://de.wikipedia.org/wiki/Cantata%2B%2B|DE.Wikipedia "Cantata++"]].
+  *[[http://www.ldra.com/products.asp|LDRA Software Technology "LDRA Tools Suite"]].
+    *[[http://www.ldra.com/tbrun.asp|LDRA Software Technology "Unit Testing with TBrun"]].
+  *[[http://www.averna.com/products/proligent/enterprise/|Averna "Proligent Enterprise"]] - "test lifecycle management system".
+  *[[http://www.testbench.info/|imbus TestBench]], [[http://www.imbus.de/produkte/imbus-testbench/|imbus TestBench]].
+  *[[http://www.Innovasys.com/products/qas/overview.aspx|innovasys "QA Studio"]], evaluation version is available for download.
+  *[[http://www.parasoft.com/|Parasoft]].
+    *"Parasoft Insure++" - "Runtime Analysis and Memory Error Detection for C and C++".
+    *"Parasoft Test", "Parasoft Concerto", "Parasoft Virtualize".
+  *[[http://www.qualisystems.com/|Qualisystems "TestShell Personal Edition"]] - "basic stand-alone test automation framework suited to small organizations requiring a single test automation station".
+    *[[http://www.qualisystems.com/site/modules/landing.asp|Qualisystems "TestShell - 60 days risk free evaluation package"]].
+  *[[http://www.seapine.com/ttstudio.html|Seapine Software "TestTrack Studio"]] - 30 days evaluation version is available.
+  *[[http://www.tricentis.com/products/tricentis-tosca-testsuite/test-management|TRICENTIS Technology & Consulting GmbH "Tricentis Tosca Testsuite. Test Management"]].
+    *[[http://www.youtube.com/user/TRICENTIS|YouTube "Tricentis"]].
+    *[[http://plus.google.com/100735323056219282911/|Google+ "Tricentis"]], [[http://plus.google.com/108151335013813449490/|Google+ "Tricentis"]]. 
+    *[[http://www.twitter.com/Tricentis|Twitter "Tricentis"]].
+    *[[http://en.wikipedia.org/wiki/Tosca_%28software%29|EN.Wikipedia "Tosca (software)"]], [[http://de.wikipedia.org/wiki/Tosca_%28Software%29|EN.Wikipedia "Tosca (Software)"]].
+  *[[http://www.vectorcast.com/|Vector Software]] - "Reduce Time, Effort, and Cost for Validating Software".
+    *[[http://www.vectorcast.com/software-testing-products/c++-unit-testinga.php|VectorCAST/C+]].
+    *[[http://www.vectorcast.com/software-testing-products/embedded-code-coverage.php|VectorCAST/Cover]] - "Code Coverage Analysis Tool".
+    *[[http://www.vectorcast.com/software-testing-products/unit-regression-testing.php|VectorCAST/Manage]] - "Regression Testing Tool".
+    *Webcast [[http://www.vectorcast.com/news/vector-software-monthly-webinar.php|Vektor Software "Using VectorCAST to Automate Safety-Critical Embedded Software Testing"]], timezone [[http://www.timeanddate.com/library/abbreviations/timezones/na/edt.html|EDT]] = UTC-4, i.e. 12:00 EDT -> 17:00 CET ?!
+==== Just-Commercial Online Services for Testing & Test Management "In the Cloud" ====
+  *[[http://www.melioratestlab.com/|Meliora Testlab]] [[http://www.melioratestlab.com/de/|Meliora Testlab - Deutsch]]- "Meliora Testlab is a complete browser-based test management tool for your application lifecycle management".
+    *[[http://www.linkedin.com/company/meliora-oy|LinkedIn Company Profile "Meliora Ltd"]].
+    *[[http://www.facebook.com/melioraoy|Facebook "Meliora"]] - "Internet/Software. Our mission is to provide best-of-class quality management tools to help you improve your quality. We are passionate about quality improvement and practical enough to aim for best solutions". 
+    *Blog & News [[https://www.melioratestlab.com/news/|Meliora Testlab News]].
+    *[[http://www.crunchbase.com/company/meliora|CrunchBase "Meliora"]].
+    *[[http://www.testtoolreview.de/en/testtool-overview/tool-list/tooldetail/574_meliora_testlab|Testtool Review "Meliora"]].
+    *Marketing by [[http://www.balticsalesagency.com/|Baltic Sales Agency]].
+  *[[http://www.reqtest.com/|ReQtest - WEB-based Testing & Bug Reporting the easy Way]].
+    *[[http://www.facebook.com/reqtest|Facebook "ReQtest"]].
+    *[[http://plus.google.com/110513148744600133999|Google+ "ReQtest"]].
+    *[[http://www.twitter.com/ReQtester|Twitter "ReQtest @ReQtester"]].
+    *Blog [[http://reqtest.com/testing-blog/|ReQtest Blog "Testing Archives"]] by [[http://www.linkedin.com/in/markdebono|LinkedIn "Mark Debono"]], [[http://mt.linkedin.com/pub/mark-debono/81/978/669|LinkedIn "Mark Debono"]].
+      *[[http://www.reqtest.com/testing-blog/how-not-to-conduct-usability-tests/|ReQtest Blog, article "How NOT To Conduct Usability Tests"]].
+      *[[http://www.reqtest.com/testing-blog/positive-user-experience-is-it-important/|ReQtest Blog, article "Positive user experience, is it important?"]].
+      *[[http://www.reqtest.com/testing-blog/agile-testing-is-the-emperors-new-clothes/|ReQtest Blog, article "Agile testing is the emperor’s new clothes"]].
+  *[[http://www.getzephyr.com/|Zephyr]].
+    *[[http://www.facebook.com/getzephyr|Facebook "Zephyr"]].
+    *[[http://developer.yourzephyr.com/|Zephyr Developer Zone]].
+    *Blog [[http://blogs.yourzephyr.com/|Blog "Zephyr - Now, Test Management is a breeze and we want to talk about it"]].
+    *[[http://testmanagement.pbworks.com/|PBworks "testmanagement"]].
+    *[[http://www.nytimes.com/external/gigaom/2008/11/07/07gigaom-amazon-web-services-not-just-for-early-adopters-28525.html|The New York Times "Amazon Web Services Not Just for Early Adopters"]], 2008-11-07.
+    *[[http://www.getzephyr.com/zephyr/integrations/zephyr_jira_integration.php|Zephyr "Deep integration with JIRA and Bugzilla"]].
+==== Model-based Testing of Embedded Control Systems ====
+  *The commercial [[http://www.piketec.com/products/tpt.php|PikeTec GmbH "TPT"]].
+    *Tests.
+      -Test of MATLAB/Simulink models and TargetLink models test and verification of MATLAB Simulink models and TargetLink models.
+      -Test of ASCET models test and verification of ASCET models.
+      -Test of AUTOSAR software test and verification of AUTOSAR Software.
+      -Test of C-Code test and verification of C-Code, C-Programs.
+      -Test via CAN-Bus test and verification via CAN-Bus.
+      -Test via INCA und CANape test and verification via INCA and CANape.
+      -Test at HiL.
+    *[[http://en.wikipedia.org/wiki/TPT_%28software%29|EN.Wikipedia "TPT (software)"]], [[http://de.wikipedia.org/wiki/TPT_%28Software%29|DE.Wikipedia "TPT (Software)"]].
+===== TTCN-3 =====
+==== Commercial TTCN Testing Tools ====
+  *[[http://www.elvior.com/testcast/ttcn-3|Elvior LLC "TTCN-3 Products"]].
+    *The free online TTCN-3 verification service [[http://www.ttcn3online.com/|Elvior LLC "TTCN-3 verification service"]].
+  *[[http://www.ibm.com/software/rational/|IBM Rational]].
+    *[[http://www.ibm.com/software/awdtools/ttcnsuite/|IBM Rational TTCN Suite]].
+    *[[http://www.ibm.com/software/awdtools/ttester/|IBM Rational Systems Tester]] ( formerly: Telelogic Tester ).
+    *[[http://www.ibm.com/developerworks/downloads/product.html|IBM developerworks "Downloads, trials, and cloud. Evaluation software for developers"]].
+    *Experts told me, that from their point of view there was no major development of "Telelogic Tester" since it was acquired by IBM :-(.
+  *[[http://www.testingtech.com/|TestingTech]].
+    *[[http://www.testingtech.com/products/ttworkbench.php|TestingTech - "TTworkbench - The Reliable Test Automation Platform"]], free trial version is available for download.
+
+==== Resources====
+  *ISO / IEC 9646-4: 1994.
+  *[[http://en.wikipedia.org/wiki/TTCN|EN.Wikipedia "TTCN"]], [[http://de.wikipedia.org/wiki/TTCN|DE.Wikipedia "TTCN"]].
+  *[[http://www.ttcn-3.org/|ETSI's official TTCN-3 home page]].
+  *Andrej Pietschker, [[http://www.xing.com/profile/Andrej_Pietschker|XING "Andrej Pietschker"]], [[http://de.linkedin.com/pub/andrej-pietschker/0/28/2a1|LinkedIn "Andrej Pietschker"]]:
+    *[[http://www.hannovermesse.de/veranstaltung/model-based-security-testing-results-of-a-eu-research-project/VOR/56573|Hannover Fair - Forum Industrial IT "Andrej Pietschker: Model-basierte Sicherheitstests - Ergebnisse eines EU Forschungsprojektes"]] - About TTCN-3.
+  *[[http://www.itu.int/ITU-T/studygroups/com10/languages/Z.140_0701_pre.pdf|ITU-T Z.140 "The Tree and Tabular Combined Notation version 3]] ( PDF ).
+===== YAML - YAML Ain't Markup Language =====
+==== YAML Resources ====
+  *[[http://en.wikipedia.org/wiki/YAML|EN.Wikipedia "YAML"]], [[http://de.wikipedia.org/wiki/YAML|DE.Wikipedia "YAML"]].
+  *[[http://www.yaml.org/|YAML.Org]] - "The Official YAML Web Site".
+    *[[http://yaml.org/spec/|YAML.Org "YAML™ Specification Index"]].
+  *[[http://yaml.kwiki.org/|kwiki "YAML"]]
+    *[[http://yaml.kwiki.org/?YamlInFiveMinutes|kwiki "YAML" - "Yaml In Five Minutes"]].
+  *[[http://www.nt.ntnu.no/users/haugwarb/|Tore Haug-Warberg]].
+    *[[http://www.nt.ntnu.no/users/haugwarb/Programming/YAML/YAML_for_ruby.html|Tore Haug-Warberg "Yaml Cookbook"]].
+  *[[http://www.pyyaml.org/|PyYAML.org]] - "The home of various YAML implementations for Python".
+    *[[http://www.bitbucket.org/xi/pyyaml|BitBucket "xi / pyyaml"]] - "PyYAML - The next generation YAML parser and emitter for Python.".
+    *[[https://bitbucket.org/xi/libyaml|BitBucket "xi / libyaml"]] - "LibYAML - A C library for parsing and emitting YAML".
+  *[[http://www.ibm.com/developerworks/library/x-matters23.html|IBM "developerWorks / XML / Technical library" - "XML Matters: YAML improves on XML"]].
+==== YAML Software ====
+  *[[http://www.kuwata-lab.com/kwalify/|Kwalify]] - "schema validator and data binding for YAML/JSON".
+    *[[http://kwalify.sourceforge.net/|Sourceforge "Kwalify"]], [[http://www.sourceforge.net/projects/kwalify/|Sourceforge "Kwalify"]] - implementation in Java.
+  *[[http://jvyaml.dev.java.net/|java.net "JvYAML"]] - "A Java YAML 1.1 parser and emitter".
+  *[[http://code.google.com/p/snakeyaml/|Google Code "snakeyaml"]] - "YAML parser and emitter for Java".
+==== Dynamic Code Analysis ====
+  *[[http://en.wikipedia.org/wiki/Dynamic_code_analysis|EN.Wikipedia "Dynamic program analysis"]].
+===== Test Concept for Embedded Systems =====
+==== Test Concept #1 - One-way Communication ====
+=== Test Concept #1 - The classical "printf()" ===
+  *Use "printf()" by an URART to a remote console on the host. In case of multithreading, multitasking this is sometimes the best quick + dirty solution.
+=== Test Concept #1.2 - "Spy" Function of an RTOS ===
+  *A "spy" function of an RTOS sends a binary, but ordered or tagged, data stream to the PC (via serial, USB, Ethernet, wireless, etc.) and the PC decodes it for capture and/or display. An advanced diagnostic tool might send this binary data over Ethernet to be captured by Wireshark and IIRC (  a custom filter within Wireshark ).
+==== Test Concept #2 - Unit Test with Hardware Emulation ====
+  -Write a test for any module that will exercise the function at edge and corner cases. 
+  -If the module code accesses hardware in the production version, 
+    -Either supply adequiate hardware signals to the device under test ( Hardware in the Loop ( HIL ) ). 
+    -And / or emulate the hardware and its input and output ( just use an if-query not to access hardware if the code is tested, bzt 
+      -to use predefined static values.
+      -to use calculated values.
+      -to use values provided by a state machine.
+      -or values transfered from a host, which generates the values by a script, a calculation or with the help of a state machine.
+  -You might use test concept #1 for one-way communication.
+  -Somehow you have to start your tests, by uploading code which executes the tests instead of executing the application.
+==== Test Concept #3 - Script Languages =====
+=== Test Concept #3.1 - Script Language on the Target ====
+== Test Concept #3.1.1 - Dialog by a classical Monitor ==
+  *Implement and use an on-target monitor ( e.g. "debug.com" or a monitor running in the firmware ) to transfer informations by UART to a remote console on a host.
+== Test Concept #3.1.2 - Application-specific Script Language on the Target ==
+  -Design a "command language" and a parser to run on the device and its application under test, so that the interface to the module functions can be triggered with various values.
+  -The input to that device under test could be scripted.
+=== Test Concept #3.2 - Script Language on the Host ====
+  -Install a script language ( Python, Perl,..) which can work by serial communications.
+  -The target "opens" a new console on the host and executes script command by its own output.
+=== Test Concept #3.3 - Script Language both on the Host and the target ====
+  -Combine concept #3.1.2 and #3.2 to let interact 2 applications by a common interface and interface language.
+===== Magazines =====
+  *[[http://www.diazhilterscheid.de/|Diaz & Hilterscheid Unternehmensberatung GmbH]].
+    *[[http://www.agilerecord.com/|Agile Record - The Magazine for Agile Developers and Agile Testers]] - free PDF and paper magazine.
+    *[[http://www.testingexperience.com/|testing experience - The Magazine for Professional Testers]] - free PDF and paper magazine.
+      *"testing experience", PDF issue "December 2010" - Open Source Tools".
+  *[[http://www.stsc.hill.af.mil/crosstalk/|CrossTalk - Journal of Defense Software Engineering]] by [[http://www.stsc.hill.af.mil/|Software Technology Support Center]] & Department of Defence ( DOD - free PDF magazine.
+===== Books =====
+==== General ====
+  *[[http://www.hs-bremen.de/internet/de/hsb/struktur/mitarbeiter/spillner/|Andreas Spillner]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3898646424/hemmerling-21/|Andreas Spillner, Tilo Linz: "Basiswissen Softwaretest: Aus- und Weiterbildung zum Certified Tester - Foundation Level nach ISTQB-Standard"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3898645576/hemmerling-21/|Andreas Spillner, Thomas Roßner, Mario Winter, Tilo Linz: "Praxiswissen Softwaretest - Testmanagement, Aus- und Weiterbildung zum Certified Tester - Advanced Level nach ISTQB-Standard"]].
+  *[[http://www.polteq.com/en/about-polteq/martin-pol/|Martin Pol]], [[http://www.polteq.com/|polteq]].
+    *[[http://www.polteq.com//en/training/test-process-improvement|polteq "Test (Process) Improvement"]] ( TPI ).
+    *[[http://www.polteq.com//en/publications/german|polteq "Management und Optimierung des Testprozesses"]] - "Mit TMap (Test Management Approach) wird eine seit Jahren erfolgreich beim Testen eingesetzte Vorgehensweise an Hand vieler Beispiele erläutert. TPI (Test Process Improvement) bietet de Möglichkeit, einen bereits praktizierten Testprozess zu analysieren und zu optimieren. Beide Ansätze bauen aufeinander auf und ergänzen sich". 
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3898641562/hemmerling-21/|Martin Pol, Tim Koomen, Andreas Spillner: "Management und Optimierung des Testprozesses"]].
+  *[[http://www.parasoft.com/|Parasoft]].
+    *The free PDF book [[http://alm.parasoft.com/functional-testing-ebook/|Parasoft "End-to-End Testing.
+Simplify Complex Testing Across APIs, Cloud, SOA, and Composite Apps"]] -> [[http://parasoft.web6.hubspot.com/Portals/69806/docs/e2e.pdf|Parasoft "End-to-End Testing. Simplify Complex Testing Across APIs, Cloud, SOA, and Composite Apps"]] ( PDF ).
+    *The free PDF book [[http://alm.parasoft.com/techniques-for-unit-testing-embedded-software-systems/|Parasoft "Techniques for Unit Testing Embedded Systems Software"]] -> [[http://blog.parasoft.com/Portals/69806/docs/unit%20testing%20embedded.pdf|Parasoft "Techniques for Unit Testing Embedded Systems Software"]] ( PDF ).
+==== Books about Software Testing ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0321503627/hemmerling-21|Steve Freeman, Nat Pryce: "Growing Object-Oriented Software, Guided by Tests"]].
+==== Books about Code Review, Cross-Browser Testing ( and Load Testing ) ====
+  *[[http://smartbear.com|Smart Bear Software, Inc.]].
+    *The free PDF book [[http://www2.smartbear.com/CrossBrowser_Testing_Guide_ebook_SQA.html|Smart Bear Software, Inc. "A Step-by-Step Guide to Cross-Browser Testing"]].
+    *The free PDF Book [[http://www2.smartbear.com/outbound-webloaduipro-sqa-performance-maturity-ebook.html|Smart Bear Software, Inc. "A Guide to Effective Load Testing"]].
+==== Books about TTCN ====
+  *[[http://www.amazon.de/exec/obidos/ASIN/0470663065/hemmerling-21|Colin Willcock, Thomas Deiß, Stephan Tobies, Stephan Schulz, Stefan Keil, Federico Engler: An Introduction to TTCN-3]].
+===== Resources =====
+==== GUI Testing ====
+  *[[http://www.xing.com/net/qmsoftware/testtools-3080/capture-replay-961343/|XING Group "Qualitätsmanagement für Software-Projekte", Foren / Testtools / Thread "Capture & Replay"]].
+  *[[http://www.wilsonmar.com/|Wilson Mar]].
+    *[[http://www.wilsonmar.com/1robot.htm|Wilson Mar "IBM Rational Robot Test Automation Architecture"]].
+  *[[http://en.wikipedia.org/wiki/GUI_software_testing|EN.Wikipedia "Graphical user interface testing"]], [[http://en.wikipedia.org/wiki/List_of_GUI_testing_tools|EN.Wikipedia "List of GUI testing tools"]].
+  *[[http://en.wikipedia.org/wiki/Comparison_of_macro_recorder_software|EN.Wikipedia "Comparison of macro recorder software"]].
+==== General ====
+  *[[http://agile.dzone.com/news/simplest-thing-could-possibly|Agile Zone Software Methodologies for Development Managers, Dave Rooney "The Simplest Thing That Could Possibly Work"]] - "This principle is something that I learned early in my XP days. It goes hand in hand with TDD and says, 'Don't do any more than is required to make the currently failing test pass'".
+  *[[http://www.all-about-test.info/|All About Test]] - "Die führende Informationsplattform zum Test von Elektronik in Entwicklung, Produktion und Service".
+  *[[http://www.aptest.com/resources.html|Applied Testing and Technology, Inc., Aptest software testing specialists "Software QA Testing and Test Tool Resources"]].
+  *[[http://www.dzone.com/|DZONE - fresh links for developers]].
+    *[[http://agile.dzone.com/|DZONE, Agile Zone Software Methodologies for Development Managers]].
+  *Blog [[http://www.java.net/blogs/johnsmart?page=5|John Ferguson "johnsmart's blog"]].
+    *Blog article [[http://www.wakaleo.com/blog/268-real-developers-dont-need-unit-tests|John Ferguson, Wakaleo Consulting "Real Developers Don't Need Unit Tests"]] - "TDD Basics - The TDD development process: Test - **Write a failing unit test. Ensure that it fails**", 2010-05-06.
+  *[[http://www.imbus.de/|imbus AG]].
+    *[[http://www.imbus.de/downloads/|imbus AG - Downloads]] - "Trends in Testing. Vorträge".
+    *[[http://www.imbus.de/tool-liste/|imbus AG - "Tool-Liste. Testwerkzeuge im Überblick"]].
+    *Conference [[http://www.qs-tag.de/|Software QS-TAG]].
+  *[[http://msdn.microsoft.com/en-us/library/dd264917.aspx|Microsoft MSDN Library "Performing Common Development Tasks. Visual Studio 2010"]].
+    *[[http://msdn.microsoft.com/en-us/library/dd264975.aspx|Microsoft MSDN Library "Verifying Code by Using Unit Tests"]].
+    *[[http://msdn.microsoft.com/en-us/library/dd172118.aspx|Microsoft MSDN Library "Verifying Database Code by Using Unit Tests"]].
+  *[[http://www.modellzentriertestesten.de/|Modellzentriertes Testen]].
+  *[[http://www.nist.gov/|National Institute of Standards and Technology]].
+    *[[http://www.nist.gov/director/planning/upload/report02-3.pdf|NIST "The Economic Impacts of Inadequate Infrastructure for Software Testing"]] ( PDF ).
+  *[[http://www.opensourcetesting.org/|opensourcetesting.org - open source testing tools, news and discussion]].
+    *[[http://www.opensourcetesting.org/testmgt.php|opensourcetesting.org "Test management tools"]] #.
+  *[[http://www.quality-one.com/services/dvpr.php|Quality-One International Q-1 "DVP&R (Design Verification Plan and Report)"]].
+  *[[http://www.qualitytesting.info/|Quality Testing]] - "A leading social network and resource center for Software Testing Community".
+  *[[http://www.phantomtest.com/phpbb3_forum/|Phantom Automated Solutions Forum]].
+  *[[http://www.rbcs-us.com/|Rex Black Consulting Services]] ( RBCS ).
+    *[[http://www.rbcs-us.com/software-testing-resources/library/basic-library|RBCS "Software Testing Materials: Basic Resource Library"]].
+  *[[http://home.c2i.net/schaefer/|Hans Schaefer]].
+    *[[http://home.c2i.net/schaefer/testinglinks.html|Hans Schaefer "Web links about testing"]].
+  *[[http://www.12207.com/|12207 - Software Engineering Process Technology (SEPT)]] - "The Expert on ISO/IEC 12207 Software Life Cycle Processes".
+  *[[http://www.servicedesigntools.org/|Service Design Tools - Communication Methods supporting Design Processes]] #.
+    *[[http://www.servicedesigntools.org/tools/31|Service Design Tools - Communication Methods supporting Design Processes "The constructive interaction"]].
+  *[[http://de.slideshare.net/DominikDary/mobile-test-automation-at-ebay|SlideShare "Dominik Dary: Mobile Test Automation at eBay"]] - Slides of the free speech at OOSE, Hamburg, 2013-05-15.
+  *[[http://www.testingfaqs.org/|Software Testing FAQ -  an information resource for software testers]].
+  *[[http://www.sqs.de/aktuell_white_papers.php|SQS "Software Quality Papers (SQP)"]] - "IT-Outsourcing, Anforderungsmanagement, Code Quality Management oder Testmanagement -- wenn es um Software-Qualität geht, benötigen Manager und Experten oft kompaktes und leicht verständliches Wissen. Dies liefern Software Quality Papers von SQS".
+  *[[http://www.sis.pitt.edu/~gray/ITMgnt/references/swebok/SWEBOK2004.pdf|SWEBOK - Guide to the Software Engineering Body of Knowledge, 2004 Version]] ( PDF ).
+    *[[http://www.scribd.com/doc/944975/SWEBOK-Guide-2004|Scribd "SWEBOK - Guide to the Software Engineering Body of Knowledge, 2004 Version"]].
+  *[[http://www.techtarget.com/|TechTarget]].
+    *[[http://searchsoftwarequality.techtarget.com/|TechTarget SearchSoftwareQuality.com]] - "Helping you develop, deploy and manage quality software".
+  *[[http://www.testtoolreview.de/|Testtoolreview. Information platform on the international market of software testing tools]] #.
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/Portal:Software_Testing|EN.Wikipedia "Portal:Software Testing"]].
+    *[[http://en.wikipedia.org/wiki/Test_automation|EN.Wikipedia "Test automation"]].
+    *[[http://de.wikipedia.org/wiki/Softwaretest|DE.Wikipedia "Softwaretest"]].
+    *[[http://en.wikipedia.org/wiki/Test_automation_framework|DE.Wikipedia "Test automation framework"]].
+    *[[http://en.wikipedia.org/wiki/ISTQB_Certified_Tester|EN.Wikipedia "International Software Testing Qualifications Board Certified Tester"]], [[http://de.wikipedia.org/wiki/ISTQB_Certified_Tester|DE.Wikipedia "ISTQB Certified Tester"]].
+    *[[http://en.wikipedia.org/wiki/Software_Engineering_Body_of_Knowledge|En.Wikipedia "Software Engineering Body of Knowledge"]].
+    *[[http://en.wikipedia.org/wiki/Automatic_test_equipment|EN.Wikipedia "Automatic test equipment"]], [[http://de.wikipedia.org/wiki/Automatic_Test_Equipment|DE.Wikipedia "Automatic Test Equipment"]] ( ATE ).
+    *IEEE 1012.
+      *[[http://de.wikipedia.org/wiki/Software_Validation_%26_Verification_Plan|DE.Wikipedia "Software Validation & Verification Plan"]] -> "IEEE 1012".
+      *[[http://en.wikipedia.org/wiki/IEEE_829|EN.Wikipedia "IEEE 829"]] - "Other standards.. IEEE 1012, a standard for Software Verification and Validation".
+    *[[http://en.wikipedia.org/wiki/Functional_testing|EN.Wikipedia "Functional testing"]], [[http://en.wikipedia.org/wiki/Black-box_testing|EN.Wikipedia "Black-box testing"]], [[http://de.wikipedia.org/wiki/Black-Box-Test|DE.Wikipedia "Black-Box-Test"]], [[http://en.wikipedia.org/wiki/White-box_testing|EN.Wikipedia "White-box testing"]], [[http://de.wikipedia.org/wiki/White-Box-Test|DE.Wikipedia "White-Box-Test"]].
+    ***[[http://en.wikipedia.org/wiki/List_of_unit_testing_frameworks|EN.Wikipedia "List of unit testing frameworks"]], [[http://de.wikipedia.org/wiki/Liste_von_Modultest-Software|DE.Wikipedia "Liste von Modultest-Software"]]** #.
+    *[[http://en.wikipedia.org/wiki/Verification_and_validation_%28software%29|EN.Wikipedia "Verification and validation (software)"]].
+  *Ekran YILMAZ.
+    *[[http://www.skilledtester.de/|Ekran YILMAZ "skilledtesting"]].
+    *Wiki Blog [[http://www.iaskquestions.com/|Ekran YILMAZ "I ask questions"]].
+==== Objects for testing your own Web Automation skills ====
+=== Implementations ===
+  *[[http://www.grr.org/ParkCalc.php|Gerald R. Ford International Airport "Parking Calculator"]] - Original just-online implementation.
+    *[[http://www.grr.org/ParkingRates.php|Gerald R. Ford International Airport "Parking Map & Rates"]].
+    *[[http://www.grr.org/Includes/Calculator.inc|grr.org/Includes/Calculator.inc]] - Some of the PHP code.
+  *[[http://adam.goucher.ca/parkcalc/|Adam Goucher "Parking Calculator"]] - Another just-online implementation.
+  *[[http://www.github.com/markfink/SelRunner|Github "markfink/SelRunner"]].
+    *[[http://github.com/markfink/SelRunner/tree/master/test/fitnesse/FitNesseRoot/files/SelRunner|GitHub "SelRunner / test / fitnesse / FitNesseRoot / files / SelRunner"]] - "parkcalc", the sourcecode of an implementation in Javascript.
+    *[[http://www.github.com/mgaertne/ParkCalc/issues/1|GitHub Issues "mgaertne/ParkCalc", Issue " download for parkcalc sample #1"]].
+=== Search for Resources ===
+  *[[http://www.google.de/search?q=parkcalc|Google "parkcalc"]].
+  *[[http://www.twitter.com/hashtag/parkcalc|Twitter - Search for #parkcalc]].
+=== Resources ===
+  *Markus Gärtner:
+    *[[http://www.shino.de/2010/06/24/parkcalc-automation-refactoring-a-data-driven-test/|Markus Gärtner "Agile Testing, Testing, Weekend Testing. ParkCalc automation – Refactoring a data-driven test"]], 2010-06-24.    
+    *[[http://www.shino.de/2010/07/05/parkcalc-automation-a-short-reflection/|Markus Gärtner "Agile Testing, Retrospectives, Testing, Weekend Testing. ParkCalc automation – A short reflection"]], 2010-07-05.
+    *[[http://www.shino.de/2010/07/18/parkcalc-automation-keyword-driven-tests-in-fitnesse/|Markus Gärtner "Agile Testing, FitNesse, Testing, Weekend Testing. ParkCalc automation – Keyword-driven tests in FitNesse"]], 2010-07-18.
+    *[[http://www.shino.de/2010/06/20/parkcalc-automation-getting-started/|Markus Gärtner "Agile Testing, Testing, Weekend Testing. ParkCalc automation – Getting started"]], 2010-07-20.
+  *[[http://justinrohrman.com/blog/practice-makes-progress/|Rohrman on Quality "Practice makes progress: exercise for stickyminds"]], 2014-01-10.
+  *[[http://www.softwaretestpro.com/Item/4696/Parkcalc---Review-and-Discussion/Software|Software Test Professionals, Community Blog - "Parkcalc - Review and Discussion"]], 2010-04-13.
+
+==== Windows Task Automation ====
+  *[[http://www.freeware.de/programme/macro-recorder/|freeware.de "macro-recorder Programme"]].
+  *[[http://www.nonags.com/nonags/auto.html|Nonags "Freeware "Automation Tools"]].
+  *[[http://www.snapfiles.com/shareware/system/swauto.html|Snapfiles - A simply beter selection! Trusted since 1997 "Task Automation Software"]].
+==== Database Debugging ====
+  *[[http://datenbanktest.eventbrite.de/|Jens Schauder, JUG-Ostfalen "Und bist du nicht willig, so brauch' ich Gewalt - Testen von Datenbank-Code"]], 2012-10-18.
+    *[[http://blog.schauderhaft.de/2011/03/13/testing-databases-with-junit-and-hibernate-part-1-one-to-rule-them/|Jens Schauder "Testing Databases with JUnit and Hibernate Part 1: One to Rule them"]], 2011.
+    *[[http://blog.schauderhaft.de/2011/03/20/testing-databases-with-junit-and-hibernate-part-2-the-mother-of-all-things/|Jens Schauder "Testing Databases with JUnit and Hibernate Part 2: The Mother of All Things"]].
+    *[[http://blog.schauderhaft.de/2011/03/27/testing-databases-with-junit-and-hibernate-part-3-cleaning-up-and-further-ideas/|Jens Schauder "Testing Databases with JUnit and Hibernate Part 3: Cleaning up and Further Ideas"]], 2011.
+===== Testing Education & Certification Preparation =====
+  *[[http://www.smartwebapps.de/|Prüfungsvorbereitung Softwaretest Datenbank mit Übungsfragen zum Thema Softwaretest]].
+
+===== Forums, Newsgroups, Communities =====
+  *[[http://www.ahkscript.org/boards/|AHKScript (an AutoHotkey Forum)]].
+  *[[http://www.autohotkey.com/board/|AutoHotkey Community]].
+  *[[http://www.autoitscript.com/forum/|Jonathan Bennett & AutoIt Consulting Ltd - AutoIT Forums]].
+  *[[http://www.automationanywhere.com/forum/forum.php|Automation Anywhere Inc - FORUM]].
+  *Facebook.
+    *[[http://www.facebook.com/AutomationAnywhereSoftware|Facebook "Automation Anywhere"]].
+    *[[http://www.facebook.com/AutomationAnywhereFans|Facebook "Automation Anywhere/Testing Anywhere Fans"]].
+    *[[http://www.facebook.com/groups/168683186853/|Facebook "QTP -Testcomplete-Testing-Loadrunner-Selenium-Blog"]].
+    *[[http://www.facebook.com/groups/358187634238232/|Facebook "TestComplete"]].
+    *[[http://www.facebook.com/TRICENTIS|Facebook "Tricentis"]].
+  *Google Groups.
+    *[[http://groups.google.com/group/cpputest|Google Groups "cpputest"]].
+    *[[http://groups.google.com/group/testng-users|Google Groups "testng-users"]].
+    *[[http://groups.google.com/group/comp.software.extreme-programming/|Google Groups "comp.software.extreme-programming"]].
+    *[[http://groups.google.com/group/robotframework-users|Google Groups "robotframework-users"]].
+    *[[http://groups.google.com/group/robotframework-devel|Google Groups "robotframework-devel"]].
+    *[[http://groups.google.com/group/nightwatchjs|Google Groups "NightwatchJs"]].
+    *[[http://groups.google.com/group/zombie-js|Google Groups "zombie.js"]].
+    *[[http://groups.google.com/group/throwtheswitch|Google Groups "ThrowTheSwitch Forums"]] / [[http://www.throwtheswitch.org/science-forums/|Throw The Switch! - Science Forums]].
+      *[[http://groups.google.com/forum/#!categories/throwtheswitch/ceedling|Google Groups "ThrowTheSwitch / Ceedling"]].
+      *[[http://groups.google.com/forum/#!categories/throwtheswitch/cmock|Google Groups "ThrowTheSwitch / CMock"]].
+      *[[http://groups.google.com/forum/#!categories/throwtheswitch/unity|Google Groups "ThrowTheSwitch / Unity"]].
+      *[[http://groups.google.com/forum/#!categories/throwtheswitch/cexception|Google Groups "ThrowTheSwitch / CException"]].
+      *[[http://groups.google.com/forum/#!categories/throwtheswitch/testing-c|Google Groups "ThrowTheSwitch / Testing C"]].
+  *Google+.
+    *[[http://plus.google.com/communities/112757416010738282943|Google+ "TestComplete"]].
+  *[[http://www.innovasys.com/cs/forums/|Innovasys Community Forums]].
+  *[[http://forum.iopus.com/|iOpus Forum]].
+  *[[http://www.klaros-testmanagement.com/forum|klaros testmanagement Forum]].
+  *[[http://www.mjtnet.com/usergroup/|mjtnet - Macro Scheduler and Windows Automation Forum]].
+  *[[http://www.modellzentriertestesten.de/index.php?id=87|Modellzentriertes Testen - Forum]].
+  *Quality Testing.
+    *[[http://www.qualitytesting.info/forum|Quality Testing Discussion Forum]].
+    *[[http://www.qualitytesting.info/groups|Quality Testing Groups]].
+  *[[http://www.robotask.com/forum/|Neowise Software "RoboTask Forum"]].
+  *[[http://wiki.openqa.org/|OpenQA (Confluence) Dashboard - OpenQA Wiki]] - Support for "Selenium", "Watir",..
+  *[[http://www.opensourcetesting.org/|opensourcetesting.org - open source testing tools, news and discussion]].
+    *[[http://www.opensourcetesting.org/forums/|opensourcetesting.org - Forum]].
+  *[[http://community.qualitylogic.com/|QualityLogic Community]].
+  *[[http://www.quickmacros.com/forum/|Quick Macros Forum]].
+  *[[http://www.smartwebapps.de/forum|Prüfungsvorbereitung Softwaretest Datenbank mit Übungsfragen zum Thema Softwaretest - Foren]].
+  *[[http://www.ranorex.com/forum/|Ranorex Forum]].
+  *[[http://smartbear.com/|Smart Bear Software, Inc.]].
+    *[[http://feedback.codecollab.com/forums/4652-code-collaborator-features|Smart Bear Software, Inc. "Code Collaborator Features Forum"]].
+    *[[http://smartbear.com/forums/|Smart Bear Software, Inc. "SmartBear Forums"]].
+    *[[http://forum.soapui.org/|SoapUI Forum]].
+  *[[http://www.sqaforums.com/|Software Quality Assurance Forums]] ( SQAforums ) - "The online community for software testing & quality assurance professionals" #.
+    *[[http://www.sqaforums.com/forums/telerik-webui-test-studio/|SQForums - Subforum "Telerik WebUI Test Studio"]].
+  *[[http://lists.sourceforge.net/lists/listinfo/texttest-users|SourceForge mailing list "Texttest-users"]].
+  *[[http://testing.stackexchange.com/|Stackexchange "Testing"]] - "A place to ask questions about software testing".
+  *[[http://forum.testlink.org/|TestLink, Test management forum]].
+  *[[http://www.testtalk.net/|TestTalk - network device testing community]] by [[https://www.ixiacom.com/|Ixia]].
+  *[[http://forums.pragprog.com/forums/123|The Pragmatic Bookshelf - Pragmatic Forums "Test Driven Development for Embedded C"]].
+  *[[http://www.thinbasic.com/community/forum.php|ThinBasic Forum]].
+  *[[http://support.thoughtworks.com/forums/|ThoughtWorks Customer Support - Forums]].
+  *[[http://forums.utest.com/|uTest Software Testing Forums]].
+  *[[http://www.vietnamesetestingboard.org/|VietnameseTestingBoard - VTB Software Testing Community]].
+    *[[http://www.vietnamesetestingboard.org/zbxe/?mid=Testing_Question_Answer|VietnameseTestingBoard - Forum]].
+  *The read-only forum [[http://www.vtaskstudio.com/forum/YaBB.pl|Vista Software "vTask Forums"]].
+  *Yahoo Groups.
+    *[[http://groups.yahoo.com/neo/groups/AgileEmbedded|Yahoo Groups "Agile Embedded"]].
+    *[[http://tech.groups.yahoo.com/group/junit/|Yahoo Groups "junit. JUnit, the Java unit testing framework written by Kent Beck and Erich Gamma"]], [[http://tech.groups.yahoo.com/group/testdrivendevelopment/|Yahoo Groups "testdrivendevelopment. Test-driven Development"]].
+    *[[http://groups.yahoo.com/group/domaindrivendesign/|Yahoo Groups "Domain-Driven Design"]], [[http://groups.yahoo.com/group/fitnesse/|Yahoo Groups "fitnesse"]].
+  *[[http://www.xing.com/net/asqf|XING "ASQF"]].
+{{tag>testing}}
+<footnote_navi_en>

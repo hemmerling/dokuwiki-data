@@ -1,0 +1,278 @@
+====== [hemmerling] AS-Interface ( Actuator Sensor Interface, AS-i, AS-i Safety, ASI, ASI-Bus ) ======
+Related page:
+  *[[fieldbus.html|Fieldbuses and Automation Networks]].
+===== Organization and Norms ======
+  *Organization [[http://www.as-interface.net/|AS-International Association]].
+    *[[http://as-interface.net/Membership/Members|AS-International Association "Members"]].
+  *Organization [[http://as-interface.co.uk/|The AS-Interface Expert Alliance]] - "The home of AS-Interface in the UK", "We are a pro-active group of companies, organisations and individuals who have combined resources to support and promote the use of this technology in the UK".
+  *The AS-Interface is an open standard based on IEC 62026-2 and EN 50295. 
+    *[[http://webstore.iec.ch/webstore/webstore.nsf/ArtNum_PK/38111!openDocument|IEC Webstore "IEC 62026-1 ed2.0", "Low-voltage switchgear and controlgear - Controller-device interfaces (CDIs) - Part 1: General rules "]].
+    *[[http://webstore.iec.ch/webstore/webstore.nsf/ArtNum_PK/43556!openDocument|IEC Webstore "IEC 62026-2 ed2.0", "Low-voltage switchgear and controlgear - Controller-device interfaces (CDIs) - Part 2: Actuator sensor interface (AS-i)"]].
+    *[[http://www.beuth.de/langanzeige/DIN-EN-50295/de/19549828.html&bcrumblevel=2&SearchID=285785978|Beuth Verlag GmbH "DIN EN 50295", "Niederspannungsschaltgeräte - Steuerungs- und Geräte-Interface-Systeme - Aktuator Sensor Interface (AS-i); Deutsche Fassung EN 50295:1999"]].
+    *[[http://www.beuth.de/langanzeige/BS-EN-50295/de/27429237.html&bcrumblevel=2&SearchID=285785978|Beuth Verlag GmbH "BS EN 50295" "Low-voltage switchgear and controlgear - Controller and device interface systems - Actuator sensor interface (AS-i)"]].
+    *[[http://as-interface.net/System/Publications|AS-International Association "AS-Interface Complete Specification"]].
+===== AS-Interface Technology =====
+==== AS-Interface Courses====
+  *[[http://as-interface.net/academy/content/sys/start/start.de.html|ASI-Interface ACADEMY]] - "Die Virtuelle Akademie der AS-International Association. Ihre E-Learning Plattform für AS-Interface". Free online course "Virtuelle AS-Interface Akademie" with certification ( "AS-Interface VA Diplom" ).
+  *The commercial course [[http://as-interface.co.uk/index.php/mmu_training/|Manchester Metropolitan University - AS-Interface Training]].
+  *[[http://sitrain.automation.siemens.com/|SIEMENS AG, "SITRAIN World, SITRAIN - Training Courses by Siemens for Automation and Industrial Solutions"]].
+    *[[http://sitrain.automation.siemens.com/de/sitrain/|SIEMENS AG, SITRAIN Germany]] - Select "Actuator-Sensor-Interface" in the formular row "Stichwort" / "Keyword" of the SIEMENS search engine formular for SIEMENS courses.
+    *The commercial course [[http://sitrain.automation.siemens.com/DE/sitrain/CourseDetail.aspx?Ref=Search&CourseID=AAAACZW|SIEMENS AG "Aktuator-Sensor-Interface Systemkurs"]].
+    *The commercial course [[http://as-interface.co.uk/index.php/siemens_training/|Siemens, Manchester - AS-Interface Training]], in UK.
+
+==== Free Literature ====
+  *The free PDF book "ifm AS-Interface Fibel. Tipps und Tricks für den Praktiker" -> [[http://www.ifm.com/ifmde/web/asi_down.htm|AS-i Downloads]].
+  *The free PDF book "Systemhandbuch AS-Interface" -> [[http://support.automation.siemens.com/WW/adsearch/resultset.aspx?region=WW&lang=de&netmode=internet&ui=NDAwMDAxNwAA&term=as-systemhandbuch&ID=26250840&ehbid=26250840|Systemhandbuch AS-Interface (Ausgabe 11/2008) mit Ergänzungen (Ausgabe 09/2010 - zum Anzeigen und Konfigurieren siehe Beitrags-ID 44365425 )]].
+  *The free PDF magazine [[http://www.bihl-wiedemann.de/deutsch/press/magazin/magazin.htm|Bihl+Wiedemann GmbH "AS-Interface Master News. Das Magazin von Bihl+Wiedemann"]].
+==== Databases of Terms and Definitions ====
+  *Mission ""No more spaghetti wiring".
+  *[[http://as-interface.net/academy/content/specials/glossary/frameset.de.html|ASI-Interface ACADEMY - Glossar]].
+  *[[http://as-interface.net/System/Experts|AS-International Association "Expertenforum - Häufig gestellte Fragen"]].
+  *[[http://as-interface.net/System/Facts|AS-International Association "Fakten"]].
+  *[[http://www.moeller.net/de/support/faq.jsp|Eaton Moeller "FAQ"]].
+    *[[http://www.moeller.net/de/support/faq_frageliste.jsp?kategorie=48|Eaton Moeller "FAQ - AS-Interface"]].
+
+==== Terms and Definitions ====
+  *Bus structures "bus", "ring", "tree", "line", "branch line" ( Stichleitung ).
+  *[[http://en.wikipedia.org/wiki/AS-Interface|EN.Wikipedia "AS-Interface"]], [[http://de.wikipedia.org/wiki/AS-Interface|DE.Wikipedia "AS-Interface"]].
+  *[[http://en.wikipedia.org/wiki/Manchester_code|EN.Wikipedia "Manchester code"]], [[http://de.wikipedia.org/wiki/Manchester-Code|DE.Wikipedia "Manchester-Code"]], [[http://en.wikipedia.org/wiki/Differential_Manchester_encoding|EN.Wikipedia "Differential Manchester encoding"]], [[http://de.wikipedia.org/wiki/Differentieller_Manchester-Code|DE.Wikipedia "Differentieller Manchester-Code"]].
+  *[[http://en.wikipedia.org/wiki/Hamming_distance|EN.Wikipedia "Hamming distance"]], [[http://de.wikipedia.org/wiki/Hamming-Abstand|DE.Wikipedia "Hamming-Abstand"]].
+==== AS-Interface Books ====
+  *Book ( Rolf Becker, Dr. Bernhard Müller, Dr. Andreas Schiff, Tilmann Schinke, Heinz Walker: "AS-Interface - Die Lösung in der Automation. AS-Interface - Die Lösung in der Automation. Ein Kompendium über Technik, Funktion und Applikationen" ), 2011.
+  *Book ( AS-International Association: "Automatisieren ist einfach - MIT AS-INTERFACE" ), ( AS-International Association: "Automation is easy - with AS-INTERFACE" ), 2011.
+  *Book ( AS-International Association: "AS-Interface - Safety at Work" ), 2011.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3142312250/hemmerling-21|Gerd Hoos: "AS-Interface. Praxistraining"]], 2005.
+  *Book ( Rolf Becker: "AS-Interface - Das Aktuator-Sensor-Interface für die Automation. Intelligenz im Netz. Der InfoGuide für Einsteiger und Anwender" ), 2000.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3446210652/hemmerling-21|Werner R. Kriesel, Otto W. Madelung: "AS- Interface. The Aktuator- Sensor- Interface for Automation"]], 1999.
+==== AS-Interface Evaluation Boards + Kits ====
+  -"ASI4U AN - Evaluation Board Rev. 1.0" ( [[http://www.zmdi.com/products/as-interface/asi4u-asi4u-e/|ZMDI "ASI4U/ASI4U-E"]] ).
+  -"AS Interface IC Programmer Rev. 2.01", with USB interface ( [[http://www.zmdi.com/products/as-interface/as-interface-tools/|ZMDI "AS-Interface Tools"]] ).
+  -[[http://as-interface.net/DE/System/StarterKit|AS-International Association - StarterKit]] - "StarterKit 1", "StarterKit 2", "StarterKit 3".
+  -[[http://www.ics-gmbh.com/index.php?starterkit|ICS Industrial Communication Solutions GmbH "Starterkit"]].
+  -The discontinued  [[http://64.78.1.67/products/4265.htm|WAGO Kontakttechnik GmbH & Co. KG "AS-Interface STARTER KIT"]], order nummer "511 696 44".
+===== Resources =====
+  *[[http://www.bihl-wiedemann.de/|Bihl+Wiedemann GmbH]] - "Presse".
+    *[[http://www.bihl-wiedemann.de/deutsch/press/articles/press.htm|Bihl+Wiedemann GmbH "Pressespiegel"]].
+      *[[http://www.bihl-wiedemann.de/document/pacemak_d.pdf|Bihl+Wiedemann GmbH "AS-Interface Innovationsstufe 3.0. Schrittmacher der Automatisierung"]] ( PDF ).
+
+===== Manufacturers, Members of AS-International Association =====
+==== Bernecker + Rainer Industrie Elektronik Ges.m.b.H. ( B&R ) ====
+  *[[http://www.br-automation.com/|Bernecker + Rainer Industrie Elektronik Ges.m.b.H.]].
+  *[[http://www.br-automation.com/cps/rde/xchg/SID-0A2B820A-C213E828/br-productcatalogue/hs.xsl/products_32395_DEU_HTML.htm|Bernecker + Rainer Industrie Elektronik Ges.m.b.H. "Logic Scanner ASi Master, galvanisch getrennte CombiCon-Stecker, 167 kBaud, max. 248 Eingänge und max. 248 Ausgänge, RS232 Konfigurations-Schnittstelle"]].
+==== BERNSTEIN AG ====
+  *[[http://www.bernstein-ag.de/|BERNSTEIN AG]].
+  *[[http://www.bernstein-ag.de/cms/site/produkte/schaltertechnik/busfaehige-sicherheitsschalter/|BERNSTEIN AG "Busfähige Sicherheitsschalter. AS-Interface – von BERNSTEIN aus einer Hand"]].
+==== Balluff GmbH  ====
+    *[[http://www.balluff.com/|Balluff GmbH - sensors worldwide]].
+    *[[http://www.balluff.com/Balluff/de/ProductsChannel/Overview/de/Networking+System-%C3%9Cbersicht.htm|Balluff GmbH "Networking System-Übersicht"]] - AS-Interface is not mentioned.
+    *[[http://www.balluff.com/NR/rdonlyres/2DA0D02B-C831-4BA6-8057-3430198D868E/0/out.html|Balluff GmbH "AS-Interface System"]] ( PDF ).
+    *[[http://www.balluff.com/NR/rdonlyres/9953E044-B9A4-405C-A3CD-27049D14E757/0/ASI22.PDF|Balluff GmbH "AS-Interface
+Repeater"]].
+    *[[http://www.balluff.com/NR/rdonlyres/F85F06E1-6A28-4761-8351-2AB5A8D88EE4/0/ASI14_15.PDF|Balluff GmbH "Sensors with
+Direct AS-Interface"]].
+==== Baumer Holding AG  ====
+  *[[http://www.baumer.com/|Baumer Holding AG]].
+  *[[http://sensor.baumer.com/sensor/products/scripts/level2.php?cat=CONFAS_i_Aktuator_Sensor_Interface|Baumer Holding AG, ProductFinder "AS-i, Aktuator Sensor Interface"]].
+==== Beckhoff Automation GmbH ====
+  *[[http://www.beckhoff.de/default.asp?bus_terminal/kl6201_kl6211.htm|Beckhoff Automation GmbH "KL6201, KL6211 | AS-Interface-Masterklemmen"]].
+==== Belden Deutschland GmbH -Lumberg Automation- ====
+  *[[http://www.lumberg-automation.com/|Belden Deutschland GmbH -Lumberg Automation-]].
+  *[[http://e-catalog.beldensolutions.com/link/57078-24228-24445-24446-24288/en/conf/0;jsessionid=44CBF89DFB9D7E6EB65FC372D0FBEED6|Belden Deutschland GmbH -Lumberg Automation- "e-catalog / Industrial Connectors / M12 Circular connector (M12 E-Series) / with screw locking / AS Interface"]].
+==== Bihl+Wiedemann GmbH ====
+  *[[http://www.bihl-wiedemann.de/|Bihl+Wiedemann GmbH]].
+  *[[http://www.hlg.homepage.t-online.de/|I-V-G Industrievertretung Hans-Ludwig Göhringer]].
+    *[[http://www.hlg.homepage.t-online.de/cms//index.php?option=com_content&task=view&id=5&Itemid=11|I-V-G Industrievertretung Hans-Ludwig Göhringer "Vertriebsprogramm / AS-Interface Komponenten"]].
+==== Eaton Industries GmbH - Eaton Moeller ====
+  *[[http://www.moeller.net/|Eaton Industries GmbH - Eaton Moeller]].
+  *[[http://www.moeller.net/de/products_solutions/motor_applications/control/easy/field_bus.jsp|Eaton Moeller "easy mit Feldbusanbindung"]]
+  *[[http://www.moeller.net/de/support/|Eaton Moeller "Support"]].
+    *[[http://www.moeller.net/de/support/awadetail.jsp?catid=65|Eaton Moeller, Support - "Kommunikation,Vernetzung / AS-Interface"]].
+==== EMA Electronics Ltd ====
+  *[[http://www.ema-electronic.com/|EMA Electronics Ltd]].
+  *[[http://www.ema-electronic.com/product_de.asp?anclass=89|EMA Electronics Ltd "Produkte > Messtechnik > AS-Interface"]].
+==== FEAS GmbH ====
+  *[[http://www.feas.de/|FEAS GmbH]].
+  *[[http://www.feas.de/power-supply-snt90asi-p-84.html|FEAS GmbH "Power supply SNT90ASi"]].
+==== Festo AG & Co. KG ====
+  *[[http://www.festo.com/|Festo AG & Co. KG]].
+  *[[http://www.festo.com/pnf/de_de/products/catalog?action=search&country=DE&key=asi|Festo AG & Co. KG Produktkatalog, Suchergebnis für "asi"]].
+==== Flowserve Corporation ====
+  *[[http://www.flowserve.com/|Flowserve Corporation]] -> "asi".
+  *[[http://www.accord-controls.com/|Accord Controls. A Unit of Flowserve Corporation]].
+==== Fortress Interlocks ====
+  *[[http://www.fortressinterlocks.com/|Fortress Interlocks]].
+  *[[http://www.fortressinterlocks.com/index.php/29/what_is_egard.html|Fortress Interlocks "eGard"]].
+==== Franz Binder GmbH + Co. elektrische Bauelemente KG - Binder Gruppe ====
+  *[[http://www.binder-connector.de/|Franz Binder GmbH + Co. elektrische Bauelemente KG"]].
+  *[[http://www.binder-connector.de/de/rundsteckverbinder/verteilerasinterface|Franz Binder GmbH + Co. elektrische Bauelemente KG "Verteiler, AS-Interface. Verteiler für Sensoren und Aktoren und AS-Interface Komponenten"]].
+==== Georg Fischer GmbH, Georg Fischer Rohrleitungssysteme AG ====
+  *[[http://wwww.georgfischer.com/|Georg Fischer GmbH]], [[http://www.piping.georgfischer.com/|Georg Fischer Rohrleitungssysteme AG]] -> "asi".
+==== GMC-I Messtechnik GmbH - Gossen Metrawatt ====
+  *[[http://www.gossenmetrawatt.com/|GMC-I Messtechnik GmbH - Gossen Metrawatt]].
+  *[[http://www.gossenmetrawatt.com/deutsch/produkte/metrahit1asi.htm|GMC-I Messtechnik GmbH "METRAHit 1ASi. ASi-Bustester - Diagnose- und Adressiertool"]].
+==== HARTING Deutschland GmbH & Co. KG ====
+  *[[http://www.harting.de/|HARTING Deutschland GmbH & Co. KG]].
+  *[[http://www.harting-connectivity-networks.de/produkte/anwendungen/maschinenbau/harax-schnellanschlusstechnik-fuer-sensor-aktor-box/index.php| "HARAX - Schnellanschlusstechnik für Sensor-/Aktor-Box. Die erprobte axiale Schneidklemmtechnik der HARAX®-Kontaktierung vereinfacht den Anschluss von Sensoren und Aktoren"]].
+==== Hilscher Gesellschaft für Systemautomation mbH ====
+  *[[http://de.hilscher.com/|Hilscher Gesellschaft für Systemautomation mbH]].
+  *[[http://de.hilscher.com/technologies.html|Hilscher Gesellschaft für Systemautomation mbH - Technologien]].
+  *[[http://de.hilscher.com/products_bus_asi.html|Hilscher Gesellschaft für Systemautomation mbH "AS-Interface"]].
+    *[[http://de.hilscher.com/products_list_bus.html?bs=1&pg=2|Hilscher Gesellschaft für Systemautomation mbH "AS-Interface PC-Karten"]].
+    *[[http://de.hilscher.com/products_list_bus.html?bs=1&pg=26|Hilscher Gesellschaft für Systemautomation mbH "AS-Interface ASICs"]].
+    *[[http://de.hilscher.com/products_list_bus.html?bs=1&pg=47|Hilscher Gesellschaft für Systemautomation mbH "AS-Interface ASICs"]].
+    *[[http://de.hilscher.com/products_list_bus.html?bs=1&pg=47|Hilscher Gesellschaft für Systemautomation mbH "AS-Interface Boards"]].
+    *[[http://de.hilscher.com/products_list_bus.html?bs=1&pg=24|Hilscher Gesellschaft für Systemautomation mbH "AS-Interface Zubehör"]].
+    *[[http://de.hilscher.com/products_list_bus.html?bs=1&pg=69|Hilscher Gesellschaft für Systemautomation mbH "AS-Interface Software"]].
+==== HMS Industrial Networks ====
+  *[[http://www.anybus.com/technologies/asi.shtml|HMS Industrial Networks]].
+  *[[http://www.anybus.com/products/asinterface.shtml|HMS Industrial Networks "Anybus Product Family / AS-Interface Master and Gateways"]].
+  *[[http://www.anybus.com/technologies/asi.shtml|HMS Industrial Networks "Industrial Networks / AS-Interface - Actuator Sensor Interface. AS-Interface - technology overview"]].
+
+
+
+==== ICS Industrial Communication Solutions GmbH ====
+  *[[http://www.ics-gmbh.com/|ICS Industrial Communication Solutions GmbH]].
+==== IDEC Corporation ====
+  *[[http://www.idec.com/|IDEC Corporation]], [[http://www.idec.de/|IDEC Elektrotechnik GmbH]].
+  *[[http://www.idec.de/produkte/befehls-und-meldegeraete/asi.html|IDEC Elektrotechnik GmbH "Produktübersicht: Befehls- und Meldegeräte / Befehls- und Meldegeräte: ASI-Baureihe"]] - "SwitchNet", "No more spaghetti wiring".
+==== ifm electronic GmbH ====
+  *[[http://www.ifm.com/|ifm electronic GmbH]].
+  *[[http://www.ifm.com/ifmde/web/i-step.htm|ifm electronic GmbH "i- STEP"]] - "ecomatmobile Basic",...
+  *[[http://www.ifm.com/ifmde/web/ecomatic.htm|ifm ecomatic GmbH]].
+    *2008 Introduction of [[http://www.ifm.com/ifmde/web/ecomatmobile-basic-concept.htm|ecomatmobile Basic]].
+      *[[http://www.ifm.com/ifmch/web/ecomatmobile_info.htm|ecomatmobile]] - "Steuerungssysteme für den Einsatz in mobilen Arbeitsmaschinen", 32-bit microcontroller.
+      *[[http://www.ifm.com/ifmde/web/ecomatmobile-basic-relay.htm|ecomatmobile BasicRelay]].
+      *[[http://www.ifm.com/ifmde/web/ecomatmobile-basic-controller.htm|ecomatmobile BasicController]].
+      *[[http://www.ifm.com/ifmde/web/ecomatmobile-basic-display.htm|ecomatmobile BasicDisplay]].
+    *1996 Introduction of the control family R360 for use in mobile work machines.
+      *[[http://www.ifm.com/ifmde/web/dsfs!CR0200.html|ecomat100]] - "Steuerungssysteme für den Einsatz in mobilen Arbeitsmaschinen". Hardware example: "CR0200, 16 Bit ExtendedController, Programmierbare Mobilsteuerung Typ R 360".
+  *[[http://www.ifm.com/ifmde/web/pmain1!3_10.html|ifm electronic GmbH "Bussystem AS-Interface]].
+  *[[http://www.ifm.com/ifmde/web/download.htm|ifm electronic GmbH "Der ifm Download Bereich"]].
+    *[[http://www.ifm.com/ifmde/web/asi_down.htm|AS-i Downloads]].
+==== Indu-Sol GmbH ====
+  *[[http://www.indu-sol.com/|Indu-Sol GmbH]].
+  *[[http://www.indu-sol.com/de/infrastrukturkomponenten/index.html|Indu-Sol GmbH "Produkte / Infrastrukturkomponenten / AS-Interface"]].
+==== Jokab Safety ====
+  *[[http://www.jokabsafety.com/|Jokab Safety - A Member of the ABB Group]]..
+  *[[http://www.jokabsafety.com/default.asp?viewset=1&lang=EN&on=English&id=&initid=1906&heading=English&mainpage=templates/jokablist.asp?sida=1658|Jokab Safety "AS-i Safety – safety is now simple!"]].
+==== U.I. Lapp GmbH - LAPPKABEL Deutschland ====
+  *[[http://www.lappkabel.de/index.php?id=723920&rel=32358bda|U.I. Lapp GmbH - LAPPKABEL Deutschland]].
+  *[[http://www.lappkabel.de/index.php?id=723920&rel=32358bda|U.I. Lapp GmbH "Zubehör für AS-Interface Module"]].
+==== Lenze SE ====
+  *[[http://www.lenze.de/|Lenze SE]].
+  *[[http://www.lenze.de/lenze.de_de_active/020_Products/015_Industrielle_Kommunikation/010_Asi/InduKomm_AS-Interface.de.jsp?cid=0b0164e08017f804|Lenze SE "Industrielle Kommunikation / AS-Interface"]].
+==== Leuze electronic GmbH + Co. KG ====
+  *[[http://www.leuze.de/|Leuze electronic GmbH + Co. KG]].
+  *[[http://www.leuze.de/products/las/prod05_de.html|Leuze electronic GmbH + Co. KG "AS-Interface Safety at Work"]].
+==== LEONI protec cable systems GmbH ====
+  *[[http://www.leoni-industrial-solutions.com/|LEONI protec cable systems GmbH]].
+  *[[http://www.leoni-industrial-solutions.com/AS-Interface.9936.0.html|LEONI protec cable systems GmbH "Produkte / Kabel / Buskabel / AS-Interface"]].
+==== Magnetrol International, Inc. ====
+  *[[http://www.magnetrol.com/|Magnetrol International, Inc. "Echotel 960 AS-Interface"]]
+  *[[http://us.magnetrol.com/products.aspx?product=713|Magnetrol International, Inc. "Echotel 960 AS-Interface"]].
+==== microSYST Systemelectronic GmbH ====
+  *[[http://www.microsyst.de|microSYST Systemelectronic GmbH]].
+  *[[http://www.microsyst.de/neu/start.php?nav=2&snav=22&content=2&bereich=22&pbereichID=5&start=0|microSYST Systemelectronic GmbH "Einbauanzeigen"]].
+  *[[http://www.microsyst.de/neu/bestandteile.php?pID=15&start=0|microSYST Systemelectronic GmbH "mipan ASi - Numerische LED-Einbauanzeige mit AS-Interface"]]].
+==== Mitsubishi Electric ====
+  *[[http://www.mitsubishi-automation.com/|Mitsubishi Electric]].
+  *[[http://www.mitsubishi-automation.com/products/networks_content.html|Mitsubishi Electric "Networks"]].
+  *[[http://www.mitsubishi-automation.com/products/networks_as-interface.html|Mitsubishi Electric "Networks – AS-Interface"]].
+==== Nexans Deutschland GmbH ====
+  *[[http://www.nexans.de/|Nexans Deutschland GmbH]].
+  *[[http://www.nexans.de/eservice/Germany-de_DE/navigate_14066/AS_Interface_Bus_Leitung.html|Nexans Deutschland GmbH "AS Interface Bus Leitung"]].
+==== Nihon Electric Wire & Cable Co., Ltd. ====
+  *[[http://www.nihondensen.co.jp/|Nihon Electric Wire & Cable Co., Ltd.]].   
+  *[[http://www.nihondensen.co.jp/en/products.html#fieldbus|Nihon Electric Wire & Cable Co., Ltd. "Products / Fieldbus Cables"]] - "AS-i Cables (ASI)".
+==== NORD DRIVESYSTEMS ====
+  *[[http://www.nord.com/|NORD DRIVESYSTEMS]].
+  *The frequency converter [[http://www.nord.com/cms/de/product_catalogue/frequency_inverters/frequency-inverters_detail_40262.jsp|NORD DRIVESYSTEMS "SK 200E"]].
+==== Pepperl+Fuchs GmbH, Pepperl+Fuchs Visolux ====
+  *[[http://www.pepperl-fuchs.com/|Pepperl+Fuchs GmbH]].
+    *[[http://www.pepperl-fuchs.de/cps/rde/xchg/germany/hs.xsl/classid_198.htm|Pepperl+Fuchs GmbH "AS-Interface"]].
+  *[[http://www.distrelec.de/pepperlfuchsvisolux|Distrelec Schuricht Deutschland "Pepperl+Fuchs Visolux"]].
+==== Pfannenberg GmbH ====
+  *[[http://www.pfannenberg.de/|Pfannenberg GmbH]].
+  *[[http://www.pfannenberg.de/en/mainpage/products/visual_signaling/led_lights/pd_2100_led.html|Pfannenberg GmbH  "Continuous light PD"]] - Model "PD 2100-M-AS-i", light source "LED (AS-i)".
+==== PHOENIX CONTACT GmbH & Co. KG ====
+  *[[http://www.phoenixcontact.de/automatisierung/|PHOENIX CONTACT GmbH & Co. KG]].
+  *[[http://www.phoenixcontact.de/automatisierung/187_60052.htm|PHOENIX CONTACT GmbH & Co. KG "Produkte / Komponenten und Systeme AUTOMATION / I/O-Systeme für die Feldinstallation - IP65/67]] - "I/O-Geräte für AS-Interface - Fieldline Extension AS-Interface".
+==== PULS GmbH ====
+  *[[http://www.pulspower.com/|PULS GmbH]].
+  *[[http://www.pulspower.com/index.php?lang=de&reqNav=serieInfo&family=0&serie=5|PULS GmbH "SilverLine SLA AS-Interface"]].
+==== RAFI GmbH & Co. KG ====
+  *[[http://www.rafi.de/|RAFI GmbH & Co. KG]].
+  *[[http://www.rafi.de/Bus-Schnittstellen-z-B-Profi.154.0.html|RAFI GmbH & Co. KG "Elektromechanische Bauelemente / Bediensysteme, Kommunikationssysteme und Steuerungssysteme / Bus-Schnittstellen für kundenspezifische Eingabesysteme"]] - "ASI-Bus (AS-Interface)".
+==== SAFELOG GmbH ====
+  *[[http://www.safelog.de/|SAFELOG GmbH]] - "No chance for errors".
+  *[[http://www.safelog.de/de/news/news-details/article/23-25112010-spsipcdrives-elektrische-automatisierung/|SAFELOG GmbH "AS-i Click"]].
+==== Schmersal Holding KG ====
+  *[[http://www.schmersal.com/|Schmersal Holding KG]].
+  *[[http://www.schmersal.net/cat?lang=de&produkt=kuv732925rqwhn5lqyx301097a6uyk|Schmersal Holding KG, Schmersal Online Katalog "Sicheres Schalten und Erfassen / AS-Interface Safety at Work"]].
+  *[[http://www.schmersal.com/cms1/opencms/html/en/products/innovations.html?id=296|Schmersal Holding KG "Simplified wiring – enhanced diagnostic features. New safety switching components with AS-i Safety interface"]] / [[http://www.schmersal.com/cms1/opencms/html/de/press/index.html?id=450|Schmersal Holding KG "Neue Sicherheits-Schaltgeräte mit ASi Safety-Schnittstelle"]].
+==== Schneider Electric ====
+  *[[http://www.schneider-electric.com/|Schneider Electric]].
+  *[[http://www.schneider-electric.com/sites/corporate/en/products-services/automation-control/products-offer/range-presentation.page?c_filepath=/templatedata/Offer_Presentation/3_Range_Datasheet/data/en/shared/automation_and_control/as_interface.xml&p_range_id=613|Schneider Electric "AS-Interface cabling solutions -  AS-Interface -  ASI"]].
+==== SEW-EURODRIVE GmbH & Co KG ====
+  *[[http://www.sew-eurodrive.com/|SEW-EURODRIVE GmbH & Co KG]], [[http://www.sew-eurodrive.de/|SEW-EURODRIVE GmbH & Co KG, Deutschland]].
+  *[[http://www.sew-eurodrive.com/fieldbus/|SEW-EURODRIVE GmbH & Co KG "Fieldbus interfaces & Industrial Ethernet for SEW drives"]] - "AS-Interface".
+  *[[http://www.sew-eurodrive.de/s_training/|SEW-EURODRIVE GmbH & Co KG, Deutschland "DriveAcademy"]].
+==== SICK Vertriebs-GmbH ====
+  *[[http://www.sick.com/|SICK Vertriebs-GmbH - SICK Sensor Intelligence]] - "SICK ist ein weltweit führender Hersteller von intelligenten Sensoren und Sensorlösungen für die Fabrik-, Logistik- und Prozessautomation".
+  *[[http://www.mysick.com/eCat.aspx?go=FinderSearch&Cat=Row&At=Fa&Cult=German&FamilyID=325&Category=Produktfinder&Selections=30386|SICK Produktschnellsuche]] -> "asi".
+==== SIEMENS AG ====
+  *[[http://www.siemens.de/|SIEMENS AG]].
+  *[[http://www.siemens.de/as-interface|SIEMENS AG "AS-Interface"]].
+  *[[http://support.automation.siemens.com/WW/llisapi.dll?func=cslib.csinfo&lang=de&siteid=cseus&aktprim=0&extranet=standard&viewreg=WW&objid=23126063&treeLang=de|Siemens AG, Produkt Support "AS-Interface"]].
+==== Sitomatic b.v. ====
+  *[[http://www.sitomatic.nl/|Sitomatic b.v.]].
+  *[[http://www.sitomatic.nl/Technology__Application/AS-Interface/as-interface.html|Sitomatic b.v. "Automation of process plants with AS-Interface"]].
+==== SKS Kontakttechnik GmbH ====
+  *[[http://www.sks-kontakt.de/|SKS Kontakttechnik GmbH]].
+  *[[http://www.sks-kontakt.de/index.php?option=com_content&view=article&id=73%3Aallgemein&catid=69%3Aas-i&Itemid=229|SKS Kontakttechnik GmbH "Produkte / AS-Interface"]].
+==== SMC Pneumatik GmbH ====
+  *[[http://www.smc.eu/|SMC Pneumatik GmbH]].
+  *[[http://www.smc.eu/portal/WebContent/corporative/products/technical_room/Serial_Network_Solutions/Index_Serial_Network_Solutions.jsp|SMC Pneumatik GmbH "Feldbussysteme"]].
+  *[[http://www.smc.eu/portal/WebContent/corporative/products/technical_room/Serial_Network_Solutions/Operation_manual.jsp|SMC Pneumatik GmbH "Bedienungsanleitung"]] - "AS-i".
+==== StoneL ====
+  *[[http://www.stonel.com/|StoneL]].
+  *[[http://www.stonel.com/newpages/protocols/as/|StoneL "AS-Interface"]].
+==== TURCK GmbH Co. KG ====
+  *[[http://www.turck.de/|TURCK GmbH Co. KG]].
+  *[[http://www.turck.de/de/3431.aspx?lang=de&catId=DE|TURCK GmbH Co. KG "Produkte"]] -> "asi".
+==== WAGO Kontakttechnik GmbH & Co. KG ====
+=== AS-Interface ===
+  *[[http://www.wago.com/cps/rde/xchg/SID-53EFFEF9-9BBC1155/wago/style.xsl/deu-1221.htm|WAGO Kontakttechnik GmbH & Co. KG "Produkte / Komponenten für die Automatisierung / WAGO-I/O-SYSTEM 751]] - "AS-Interface Spezifikation V2.1, Master im Feldbusknoten integriert".
+  *[[http://www.wago.com/faq/automation/index.php?action=artikel&cat=36&id=298|WAGO Kontakttechnik GmbH & Co. KG "AUTOMATION FAQ / Busklemme AS-Interface 750-655 / Welche Bestellnummer hat das AS-Interface Starter Kit?"]].
+  *[[http://www.wago.com/cps/rde/xchg/SID-94AC1E4E-5B435C81/wago/style.xsl/deu-10051.htm|WAGO Kontakttechnik GmbH & Co. KG  "Pressemitteilungen / 2005 / AS-Interface im Feldbusknoten"]].
+  *[[http://www.wago.com/cps/rde/xchg/SID-94AC1E4E-5B435C81/wago/style.xsl/deu-34407.htm|WAGO Kontakttechnik GmbH & Co. KG "Pressemitteilungen / 2010 / AS-Interface-Master von WAGO – jetzt in M4 V 3.0"]].
+  *[[http://eshop.wago.com/|WAGO Kontakttechnik GmbH & Co. KG "WAGO eShop"]] -> "as-interface".
+  *[[http://www.wago.com/faq/automation/index.php|WAGO Kontakttechnik GmbH & Co. KG "AUTOMATION FAQ News. Die WAGO AUTOMATION FAQ Die WAGO AUTOMATION FAQ"]].
+  *[[http://www.wago.com/faq/automation/index.php?action=show&cat=36|WAGO Kontakttechnik GmbH & Co. KG "AUTOMATION FAQ / Busklemme AS-Interface 750-655"]].
+=== AS-Interface is not mentioned in these Resources ===
+  *[[http://www.wago.com/cps/rde/xchg/SID-94AC1E4E-5B435C81/wago/style.xsl/deu-32643.htm|WAGO Kontakttechnik GmbH & Co. KG "Produkte / Komponenten für die Automatisierung / WAGO-I/O-SYSTEM 750 / Übersicht: Programmierbare Feldbus-Controller und -Koppler und Embedded Systems"]].
+  *[[http://www.wago.com/cps/rde/xchg/SID-94AC1E4E-5B435C81/wago/style.xsl/deu-13974.htm|WAGO Kontakttechnik GmbH & Co. KG "Feldbus-Controller und -Koppler"]].
+  *[[http://www.wago.com/cps/rde/xchg/SID-94AC1E4E-5B435C81/wago/style.xsl/deu-1926.htm|WAGO Kontakttechnik GmbH & Co. KG "StarterKit"]].
+==== Weidmüller Interface GmbH & Co. KG ====
+  *[[http://www.weidmueller.com/|Weidmüller Interface GmbH & Co. KG ]].
+  *[[http://catalog.weidmueller.com/procat/Group.jsp;?groupId=%28%22group39776329636252%22%29|Weidmüller Interface GmbH & Co. KG "Produktkatalog "Sensor-Aktor-Interface (SAI)"]] - "Die SAI-Aktiv Familie umfasst Feldbuskomponenten für PROFIBUS-DP, DeviceNet, CANopen, Industrial Ethernet und AS-Interface und unterstützt das Ziel einer durchgehend modularen, sowie dezentralen Industrieautomation.".
+  *[[http://catalog.weidmueller.com/procat/Group.jsp?groupId=%28%22group920463199329%22%29|Weidmüller Interface GmbH & Co. KG "AS-Interface"]].
+==== Westlock Controls ====
+  *[[http://www.westlockcontrols.com/|Westlock Controls]].
+  *[[http://www.westlockcontrols.com/westlock_controls.asp?cat=1|Westlock Controls "Products"]] - "AS-interface" ( trademark symbol ).
+  *[[http://www.westlockcontrols.com/westlock_controls.asp?cat=1&product=128|Westlock Controls "AccuPuck Sensor/Puck Control Monitors"]] - "AS-interface".
+==== Wieland Electric GmbH ====
+  *[[http://www.wieland-electric.com/|Wieland Electric GmbH]].
+  *[[http://www.wieland-electric.com/public/we_de_produkte_podis_Energiebussystem.AxCMS|Wieland Electric GmbH "Dezentrale Automatisierung mit podis"]] - "Über eine 7-polige Flachleitung werden die Energie- und Hilfsenergie oder das AS-Interface Bussignal im Feld verteilt".
+==== Würth Elektronik GmbH & Co. KG ====
+  *[[http://www.we-online.de/|Würth Elektronik GmbH & Co. KG]].
+  *[[http://www.we-online.de/web/de/cbt/more_than_you_expect_1/forschung_und_entwicklung/ecdc-modul/form_Best_eval_Board_FuE_D.php|Würth Elektronik GmbH & Co. KG "eC/DC-Modul für AS-i Slaves: Die innovative Lösung für die Stromauskopplung aus AS-Interface"]].
+==== ZMDI - The Analog Mixed Signal Company ====
+  *[[http://www.zmdi.com/|ZMDI - The Analog Mixed Signal Company]].
+  *[[http://www.zmdi.com/products/as-interface/|ZMDI - The Analog Mixed Signal Company "Products / AS-Interface"]].
+
+===== Distributors, Vendors =====
+  *[[http://www.ekukabelundsysteme.de/|eku Kabel & Systeme GmbH & Co. KG]].
+    *[[http://www.ekukabelundsysteme.de/index.php?option=com_virtuemart&Itemid=125|eku Kabel & Systeme GmbH & Co. KG "AS - Interface"]].
+{{tag>AS-Interface "Actuator Sensor Interface" AS-i "AS-i Safety" ASI ASI-Bus fieldbus network automation}}
+<footnote_navi_en>

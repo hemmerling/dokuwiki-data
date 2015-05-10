@@ -1,0 +1,141 @@
+====== [hemmerling] The ATARI-ST, the ATARI Falcon & the world of Digital Data Deike ======
+{{images:falcon.jpg|The DDD editon of the ATARI Falcon}} {{images:dddhdd1.jpg|The external "Digital Data Deike" harddisk for ATARI-ST}} {{images:dddhdd2.jpg|The external "Digital Data Deike" harddisk for ATARI-ST}} {{images:atari.jpg|The ATARI-ST}}
+===== History and Motivation for this Page =====
+  *Once I owned an ATARI-ST computer with 4 MByte RAM, a MEGAFILE harddisk with 2 x 60 MBytes capacity, a color and a monochrome monitor. I was running the operating system ATARI-TOS with GEM and the realtime operating systems[[http://www.irt.uni-hannover.de/rtos/|RTOS-UH]] and [[http://en.wikipedia.org/wiki/OS-9|Microware OS-9]].
+  *In Summer 2004, I got as gift for free.
+    *A modified "[[http://en.wikipedia.org/wiki/Atari_Falcon|ATARI Falcon]]" computer, in a "DDD desktop case", by [[http://www.ddd-online.de/|DDD Digital Data Deicke]], with external CD-ROM SCSI drive. With the special "DDD desktop case", the joystick jacks 0 and 1 are exchanged, i.e. you must plug in the mouse in jack 1 instead of jack 0 !
+    *An ATARI Mega-ST 2, with external harddisk "ddd MicroDisk" by "DDD Digital Data Deicke" and with "ddd HD-Modul II" by [[http://www.ddd-online.de/|DDD Digital Data Deicke]] for high density diskdrives.
+
+===== Free ATARI-ST Software =====
+==== ATARI-ST Administration Software, ATARI-ST Drivers ====
+  *[[http://www.clausbrod.de/|Claus Brod "Brod für die Welt: CoCreate Modeling trivia, Atari nostalgia, and more"]] #.
+    *[[http://www.clausbrod.de/Atari/|Claus Brod "The Atari pages"]].
+      *Scheibenkleister and Kleisterscheibe.
+      *CBHD(hard disk driver) #.
+      *SED(sector editor),...
+
+==== ATARI-ST Internet Software ====
+  *[[http://www.ettnet.se/~dlanor/sting/html/|STinG]] by Peter Rottengatter, maintained by Ronald Anderson - A TCP/IP stack, the successor of STiK.
+    *[[http://www.stcarchiv.de/stc2000/03_werist.php|ST Computer 03/2000 "Wer ist eigentlich… Peter Rottengatter?"]].
+    *[[http://www.mbernstein.de/atari/prog/infos/sting/progindx.htm|Michael Bernstein "Programmieren mit STinG"]].
+  *[[http://www.flinny.demon.co.uk/download.html|STiK 2000]] - "The ST Internet Kit" ( STiK 2.0, CAB 1.5,..).
+  *The web browser [[http://highwire.atari-users.net/|HighWire]].
+==== General ATARI-ST Download Archives ====
+==== ATARI Games ====
+  *[[http://www.atarimania.com/|ATARI Mania]] - "The World's Finest Atari Database : games, demos, utilities for 2600, 5200, 400, 800, xl, xe, st and falcon".
+  *[[http://www.npoi.de/stot/|ATARI ST Offline Tournament]].
+  *[[http://www.chebucto.ns.ca/Services/PDA/atari.shtml|Chebucto Community Net "Atari 400/800/XL/XE & ST/TT/Falcon Software"]].
+  *[[ftp://ftp.funet.fi/pub/atari/]], [[ftp://ftp.lip6.fr/pub/atari/]], [[ftp://ftp.cs.tu-berlin.de/pub/atari/]], [[ftp://kurobox.serveftp.net:3021/programming/]].
+==== Operating Systems, GUIs, Compilers and Development Systems for ATARI-ST ====
+=== MiNT ===
+  *[[http://sparemint.org/|Frank Naumann - SpareMiNT]].
+    *[[http://sparemint.org/sparemint/|SpareMiNT and the FreeMiNT Software Archive]].
+    *[[ftp://sparemint.org/pub/sparemint/|FTP "SpareMint"]].
+    *[[http://sparemint.atariforge.net/|AtariForge "Main SpareMiNT Archive"]].
+  *[[http://atari.st-katharina-apotheke.de/|massi SOFT]] - german EasyMint support site.
+  *MINTLIB is the 68K version of "libc".
+=== GNU-C/C++ ===
+  *[[http://mikro.naprvyraz.sk/|Miro Kropacek]].
+    *[[http://mikro.naprvyraz.sk/download.htm|Miro Kropacek - Download]] - "gcc 4.4.3" for ATARI-ST,  "binutils 2.20" for ATARI-ST running FreeMiNT.
+    *[[http://dhs.nu/misc.php?t=special&feature=gcc336|Dead Hackers Society "Miro Kropacek - GCC 3.3.6 useage for Atari projects"]] - Tutorial how to compile GCC 3.3.6 for ATARI-ST.
+  *[[http://users.informatik.haw-hamburg.de/~krabat/FH-Labor/Doku/HOWTO.html|Olav Wosch "Howto install a cross development system for embedded MC680x0 systems on a machine running Linux"]].
+  *[[http://vincent.riviere.free.fr/soft/m68k-atari-mint/|Vincent Rivière "Vincent Rivière's port of the m68k-atari-mint tools"]].
+  *[[http://zorro.arcadia-crew.com/misc.html|Zorro, Coder at Work "Libraries, Unix port, etc..."]] - "GCC 3.3.6 is a port of the award winning GNU compiler for MiNT. In this archive, you can find both the C and C++ compiler( 20 Mb)".
+  *[[http://gemtos.free.fr/outils/gcctoolkit.html|Olivier Landemarre "GEMTOS : GCC Tool kit"]].
+  *GCCShell ( [[ftp://kurobox.serveftp.net:3021/programming/GCC/|FTP Download "gccshell_49a.zip"]] ).
+  *Some other GNU-C/C++ versions for ATARI-ST: GCC 2.95, 2.63.
+  *I am still looking for download of the latest GNU-C/C++ compiler for ATARI-ST which does not need MiNT!
+=== C Compilers ===
+  *The OpenSource C compiler [[http://members.chello.nl/h.robbers/|Henk Robbers "AHCC - A Home Cooked C compiler"]], "aka ANSI Sozobon", for ATARI-ST and Coldfire ( "Coldfire binary distribution" ).
+  *The OpenSource "Sozobon C" compiler by "Sozobon Limited".
+    *[[http://cd.textfiles.com/crawlycrypt1/program/compiler/sozobon/|FTP Download "Sozobon C"]].
+    *[[http://www.mbernstein.de/download/sozobon.htm|Michel Bernstein - Download "Sozobon C"]].
+  *Lattice C Compiler.
+    *[[http://en.wikipedia.org/wiki/Lattice_C|EN.Wikipedia "Lattice C"]], [[http://de.wikipedia.org/wiki/Lattice_C|DE.Wikipedia "Lattice C"]].
+  *Pure C Compiler.
+    *[[http://de.wikipedia.org/wiki/PureC|DE.Wikipedia "PureC"]].
+=== Resources ===
+  *[[http://info-coach.fr/atari|DrCoolZic "Atari ST Site"]].
+    *[[http://info-coach.fr/atari/software/languages.php|DrCoolZic "Atari Programming Languages"]] ->Lattice C Compiler, Pure C Compiler,...
+==== ATARI Developer Communities ====
+  *[[http://www.atariforge.org/|AtariForge]] - "A free service to Atari developers".
+    *[[http://xaaes.atariforge.org/|ATARIForge "The Unofficial XaAES Page"]].
+      *[[http://xaaes.atariforge.net/history.php|ATARIForge "The Unofficial XaAES Page - History]] - The history of TOS, GEM, MiNT, MultiTOS, FreeMiNT, XaAES.
+
+===== Free and Giftware ATARI-ST Emulators =====
+==== Tools ====
+  -[[http://www.emulators.com/|Emulators,Inc.]].
+    *[[http://www.emulators.com/download.htm|Emulators,Inc. "Emulators.com Downloads Page"]].
+      *The OpenSource [[http://www.emulators.com/gemul8r.htm|Emulators,Inc. "Gemulator 9"]] for Windows.
+      *Gemulator Classic 3.8 - free Atari ST emulator for MS-DOS.
+        *With this version, the virtual disk files (CDRIVE, VHD, DDRIVE.VHD, EDRIVE.VHD, FDRIVE.VHD) and the bootsector STHDBOOT.SEC are included. You may configure the configuration file GEMUL8R.INI so that You don´t need the very-special EPROM card armed with the original ATARI-TOS EPROMS anymore. Here You may download my personal [[this>../wikidata/media/gemulator/gemul8r.ini|gemul8r.ini]] file.
+  -The OpenSource ATARI-ST emulator [[http://hatari.berlios.de/|BerliOS "Hatari"]], [[http://hatari.sourceforge.net/|Sourceforge "Hatari"]], [[http://www.sourceforge.net/projects/hatari/|Sourceforge "Hatari"]] for Linux.
+  -[[http://www.atari.st/|Little Green Desktop]].
+    *The free ATARI-ST emulator [[http://steem.atari.st/|Steem Engine]] for Windows.
+  -The Giftware [[http://www.atari.st/pacifist/|Frédéric Gidouin "PaCifiST"]] for MSDOS - "An Atari ST emulator for the PC".
+  -[[http://www.complang.tuwien.ac.at/nino/stonx.html|STonX - The Atari ST Emulator for Unix/X]] for Linux and MSDOS.
+    *[[http://stonx.sourceforge.net/|Sourceforge "STonX"]], [[http://www.sourceforge.net/projects/stonx/|Sourceforge "STonX"]].
+    *[[http://stonx.sourceforge.net/download.html|Sourceforge "STonX"]] - Download of the MSDOS version of STonX, ported by Dirk Jansen.
+    *[[http://asmolar.users.sourceforge.net/|SourceForge "Tony Smolar"]].
+      *[[http://web.archive.org/web/*/http://www.ultranet.com/~asmolar/stonx/|Archive.org "Tony Smolar - The Unofficial STonX Homepage"]], 1999-02-10.
+  -The free ATARI-ST emulator [[http://leonard.oxg.free.fr/|SainT]] for Windows.
+  -The discontinued Shareware ATARI-ST emulator [[http://web.archive.org/web/*/http://www.geocities.com/tosbox/|Archive.org "Mark Slagell - TOSBOX"]] for MSDOS.
+    *Mark Slagell: "Shareware fees are no longer accepted, and registration keys are no longer available".
+    *[[http://www.zophar.net/atarist/tosbox.html|Zophar's Domain, Atari - ST Emulators "TOSBOX"]] -> Download.
+  -The OpenSource ATARI-ST emulator "WinSTon".
+    *[[http://www.atari.st/winston/|WinSTon Official Homepage]], 1998-08-16.
+    *[[http://www.sourceforge.net/projects/winston/|Sourceforge "WinSTon"]], [[http://winston.sourceforge.net/|Sourceforge "WinSTon"]].
+    *There was a free, discontinued derivate "STeW".
+==== Resources ====
+  *[[http://www.aep-emu.de/emus11.html|AEP Emulation Page "Atari ST / STE Emulator / Tools"]] - list of ATARI-ST emulators #.
+  *[[http://www.stud.uni-stuttgart.de/studweb/users/phy/phy33846/atari/|Uli Stopper "ATARI"]].
+  *[[http://www.rickdangerous.co.uk/atari-st.htm|Rick Dangerous - Atari ST Version "Emulators"]].
+    *[[http://www.stud.uni-stuttgart.de/studweb/users/phy/phy33846/atari/emulator.htm|Uli Stopper "Emulatoren"]].
+  *[[http://www.zophar.net/atarist.html|Zophar's Domain "Atari - ST Emulators"]].
+===== Resources =====
+  *[[http://www.asmsoftware.de/|Matthias Arndt "The ASM Software Homepage"]].
+    *[[http://web.archive.org/web/*/http://makedisk.atari.org|Archive.org "Matthias Arndt - The ATARI Makedisk Tutorial"]].
+  *[[http://www.atari.org/|ATARI.ORG]].
+  *[[http://www.atariage.com/|AtariAge]].
+  *[[http://www.ataricentral.com/|Multimedia Empire, Inc. "ATARI CENTRAL"]].
+  *[[http://www.atari-home.de/|ATARI-HOME.DE]] - "Die deutschsprachige Community für ATARI Homecomputer".
+  *[[http://www.atos-magazin.de/|ATOS-Magazin / atos - around the operating system]].
+  *[[http://www.mbernstein.de/atari/|Michael Bernstein "ATARI"]].
+    *[[http://www.mbernstein.de/atari/prog/|Michael Bernstein "ATARI Programmieren / Atari ST - oder was fange ich denn damit noch an?"]].
+    *[[http://www.mbernstein.de/atari/prog/infos/|Michael Bernstein "Infos"]].
+      *[[http://www.mbernstein.de/atari/prog/infos/sting/|Michael Bernstein "STinG - Programmierdoku"]].
+        *[[http://www.mbernstein.de/atari/prog/infos/sting/progindx.htm|Michael Bernstein "Programmieren mit STinG"]].
+  *[[http://www.stcarchiv.de/|Computer Magazin Archiv: ST-Computer, Atari Inside, Happy Computer]].
+  *Jochen Deicke.
+    *[[http://www.atari-history.de/|ATARI History]], [[http://www.pentag.de/atari-history/|ATARI History]].
+    *[[http://www.ddd-online.de/|DDD Digital Data Deicke]], [[http://pentag.de/ddd/|DDD Digital Data Deicke]], 
+    *[[http://www.pentag.de/|Pentagon GmbH]], [[http://www.info-mailer.de/pentagon/|Pentagon GmbH]].
+  *[[http://www.earthstation9.com/index.html?atari.htm|Earth Station 9 "Computer Coliseum - Atari"]].
+  *[[http://www.atari.st/|Little Green Desktop]] #.
+  *[[http://bus-error.nokturnal.pl/|Pawel Goralski, Bus error - "Atari coding wiki"]]
+  *[[http://www.gondolin.org.uk/hchof/hchof.php?id=34|The Home Computer Hall of Fame "Falcon"]].
+  *[[http://www.jaapan.de/en/homecomputer.php?page=atari_falcon030|Jaapan - The History of Homecomputers "Atari Falcon030"]].
+  *[[http://www.maus.de/|Maus-Netz]], a local network in Germany. 
+    *A past source for fresh ATARI-ST software, does not dry up until 2000, maybe even some years later. Comprehensive file descriptions (in german language). In the Maus-Netz, letters and newsgroup postings written by german users not written in german language, footnotes, digital signatures, HTML letters and any kind of attachments are unwanted !
+  *[[http://www.old-computers.com/museum/computer.asp?st=1&c=125|OLD-COMPUTERS.COM : The Museum "Atari FALCON 030"]].
+  *[[http://paradize.final-memory.org/|Simon Sunnyboy "Paradize - Atari and more"]].
+  *[[http://gem.win.co.nz/hall/|Hallvard Tangeraas "Atari launchpad (New Zealand)"]].
+  *[[http://en.wikipedia.org/wiki/Atari_ST|EN.Wikipedia "Atari ST"]], [[http://de.wikipedia.org/wiki/Atari_ST|EN.Wikipedia "Atari ST"]], [[http://en.wikipedia.org/wiki/Atari_Falcon|EN.Wikipedia "ATARI Falcon"]], [[http://de.wikipedia.org/wiki/Atari_Falcon_030|EN.Wikipedia "Atari Falcon 030"]].
+===== Forums, Newsgroups =====
+  *[[http://forums.atari.org/|ATARI.ORG Forum]].
+    *[[http://forums.atari.org/list.php3?num=3|ATARI.ORG Forum, Subforum "16/32-Bit"]].
+  *[[http://www.atari-forum.com|Atari-Forum.com]].
+  *[[http://www.atariage.com/forums/|AtariAge Forums]].
+  *[[http://forum.atari-home.de/|ATARI-HOME.DE Forum]].
+  *[[http://groups.google.com/group/comp.sys.atari.st/|Google Groups "comp.sys.atari.st"]], [[http://groups.google.com/group/comp.sys.atari.st.tech/|Google Groups "comp.sys.atari.st.tech"]], [[http://groups.google.com/group/comp.sys.atari.programmer/|Google Groups "comp.sys.atari.programmer"]], [[http://groups.google.com/group/de.comp.sys.st/|Google Groups "de.comp.sys.st"]], [[http://groups.google.com/group/de.comp.sys.atari/|Google Groups "de.comp.sys.atari"]], [[http://groups.google.com/group/fr.comp.sys.atari/|Google Groups "fr.comp.sys.atari"]], [[http://groups.google.com/group/maus.sys.atari.hardware/|Google Groups "maus.sys.atari.hardware"]], [[http://groups.google.com/group/maus.sys.atari.talk/|Google Groups "maus.sys.atari.talk"]], [[http://groups.google.com/group/maus.computer.atari.software/|Google Groups "maus.computer.atari.software"]], [[http://groups.google.com/group/maus.computer.atari.internet/|Google Groups "maus.computer.atari.internet"]], [[https://groups.google.com/group/maus.sys.atari.mint|Google Groups "maus.sys.atari.mint"]], [[http://groups.google.com/group/fido.ger.atari/|Google Groups "fido.ger.atari"]], [[http://groups.google.com/group/comp.emulators.misc/|Google Groups "comp.emulators.misc"]].  
+  *[[http://www.atari.st/forum/|Little Green Desktop, Forums]].
+
+
+
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Systems/Atari/|OpenDirectory "Top: Computers: Systems: Atari"]].
+  *[[http://www.dmoz.org/Computers/Systems/Atari/ST/|OpenDirectory "Top: Computers: Systems: Atari: ST"]].
+  *[[http://www.dmoz.org/Computers/Emulators/Atari/ST/|OpenDirectory "Top: Computers: Emulators: Atari: ST"]].
+  *[[http://www.dmoz.org/Computers/Hardware/Components/Processors/68k/|OpenDirectory "Top: Computers: Hardware: Components: Processors: 68k"]].
+{{tag>ATARI "ATARI-ST" "Mega ST" "ATARI TT" "Atari Falcon" Falcon "Digital Data Deike" 68k}}
+<footnote_navi_en>

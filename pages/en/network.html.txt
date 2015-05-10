@@ -1,0 +1,397 @@
+====== [hemmerling] Network Tools 1/2 ======
+Related pages:
+  *[[automation.html|Automation & Process Logic Control]].
+  *[[bautomation.html|Building Automation & Home Automation]].
+  *[[fieldbus.html|Fieldbuses and Automation Networks]].
+  *[[network02.html|Network Tools 2/2 - Communications Hardware, Communication Applications & Drivers]].
+  *[[webtech.html|Web Technologies]] -> Representational State Transfer ( REST ).
+  *[[wireless.html|Wireless Networks]].
+===== Network Operation =====
+==== Free Webservers and Middleware Servers ====
+=== Content Management Systems ( CMS ) ===
+  *See [[cms.html|Content Management Systems ( CMS )]].
+=== Apache Tomcat ===
+  *[[http://www.apache.org/|Apache]].
+    *[[http://jakarta.apache.org/|The Apache Jakarta Project]].
+      *[[http://tomcat.apache.org/|Apache Tomcat]].
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/WAR_%28Sun_file_format%29|EN.Wikipedia "WAR (Sun file format)"]], [[http://de.wikipedia.org/wiki/Web_Archive|DE.Wikipedia "Web Archive"]].
+  *[[http://www.mitlinx.de/webservices/howto_tomcat_4_0_installieren.htm|MitLinux, Petra Haberer "HOWTO: Tomcat 4.0 installieren"]].
+=== Enterprise Service Bus ===
+== OpenSource Products ==
+  *The OpenSource [[http://servicemix.apache.org/|Apache ServiceMix]] - "An open source ESB (Enterprise Service Bus) that combines the functionality of a Service Oriented Architecture (SOA) and an Event Driven Architecture (EDA)".
+  *The OpenSource [[http://www.mulesoft.org/|Mule ESB  - integration at cloud speed]].
+    *[[http://www.mulesoft.org/muleforge|MuleForge]].
+== Resources ==
+  *[[http://en.wikipedia.org/wiki/Enterprise_service_bus|EN.Wikipedia "Enterprise service bus"]], [[http://de.wikipedia.org/wiki/Enterprise_Service_Bus|DE.Wikipedia "Enterprise Service Bus"]] ( ESB ), [[http://en.wikipedia.org/wiki/SAP_Enterprise_Services_Architecture|EN.Wikipedia "SAP Enterprise Services Architecture"]] ( ESA ).
+=== Some other Middleware Servers ===
+  *[[http://www.ibm.com/software/webservers/appserv/community/|IBM "WebSphere Application Server Community Edition"]].
+  *[[http://www.jboss.org/|JBoss]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3826617975/hemmerling-21|Thomas Heute, Michael Juntao Yuan: "JBoss Seam: Enterprise-Webanwendungen mit Java EE]].
+      *buecherbillig.de 100% ( [[http://www.buecherbillig.de/jboss-seam-enterprisewebanwendungen-java-einfacher-leistungsstaerker-p-44913.html|Thomas Heute, Michael Juntao Yuan: "JBoss Seam: Enterprise-Webanwendungen mit Java EE"]] ).
+  *[[http://www.orionserver.com/|Orion Application Server]], for Java with J2EE - free "Orion Application Server Development License".
+  *[[http://www.oracle.com/technetwork/middleware/fusion-middleware/|Oracle Oracle Fusion Middleware]].
+    *[[http://en.wikipedia.org/wiki/BEA_Systems|EN.Wikipedia "BEA Systems"]], [[http://de.wikipedia.org/wiki/BEA_Systems|DE.Wikipedia "BEA Systems"]].
+  *[[http://planet.objectweb.org/|OW2 Consortium "JOnAS OpenSource Java EE Application Server"]] for Java.
+  *The OpenSource application server [[http://www.caucho.com/|Caucho Technology, Inc. "Resin"]] for Java.
+=== Webshops ===
+  *The free [[http://www.xt-commerce.com/|xt:Commerce "VEYTON 4 Community Edition"]] for PHP and MySQL.
+=== Newsletter ===
+  *The OpenSource [[http://www.tellmatic.org/|Tellmatic]] - "The newsletter machine", "Quality OpenSource Newsletter for your Business".
+=== Some other Webservers ===
+  *See also [[cms.html|Content Management Systems ( CMS )]].
+  *The free webserver [[http://www.janaserver.de/|JanaServer]] for Windows - "HTTP server, proxy server, e-mail server, FTP server, a DNS forewarder". It is not aRouter or NAT-(Network Address Translation) software.
+  *Microsoft [[http://www.asp.net/downloads|ASP.NET Downloads]], [[http://www.asp.net/downloads/archived-v11|ASP.NET Archived Downloads]].
+    *[[http://www.asp.net/downloads/archived-v11/cassini|ASP.NET Cassini Web Server Sample]] for Microsoft .NET 1.0.
+    *[[http://www.asp.net/webmatrix|ASP.NET WebMatrix]].
+  *The OpenSource webserver [[http://jetty.codehaus.org/|Jetty//]] - "HTTP server, HTTP client, and javax.servlet container".
+  *The free webserver [[http://www.sambar.de/|Sambar Server]] for Windows and Linux.
+    *[[http://web.archive.org/web/*/http://www.sambar.com/|Archive.Org "Sambar Technologies - SAMBAR.COM, All-In-One-Server]]. 
+    *"Sambar Server Pro" was a commercial product, "Sambar Server" is a free product.
+    *"Server Message Block" / "Common Internet File System".
+      *[[http://technet.microsoft.com/en-us/library/cc939973.aspx|Microsoft TechNet "Common Internet File System"]].
+      *[[http://wiki-ux.info/wiki/Category:Common_Internet_File_System|Wiki-UX.info - The Community HP-UX Knowlege Base "Category:Common Internet File System"]].
+      *The free online HTML book [[http://ubiqx.org/cifs/|Christopher R. Hertel: Implementing CIFS - The Common Internet FileSystem]].
+      *[[http://en.wikipedia.org/wiki/Server_Message_Block|EN.Wikipedia "Server Message Block"]], [[http://de.wikipedia.org/wiki/Server_Message_Block|DE.Wikipedia "Server Message Block"]].
+  *The free webserver [[http://download.chip.eu/de/OmniHTTPd-Professional-2.07_43420.html|Chip "OmniHTTPd Professional"]] for Windows.
+  *The free webserver [[http://www.xitami.com/|iMatrix Cooporation "Xitami"]] for Windows and Linux.
+    *[[http://en.wikipedia.org/wiki/Xitami|EN.Wikipedia|Xitami]].
+=== HTTP Caches ===
+  *[[http://www.squid-cache.org/|Squid - Optimising Web Delivery]].
+    *[[http://en.wikipedia.org/wiki/Squid_%28software%29|EN.Wikipedia "Squid (software)"]], [[http://de.wikipedia.org/wiki/Squid|DE.Wikipedia "Squid"]].
+  *[[http://www.varnish-cache.org/|Varnish Cache]].
+    *[[http://en.wikipedia.org/wiki/Varnish_%28software%29|EN.Wikipedia "Varnish (software)"]], [[http://de.wikipedia.org/wiki/Varnish|DE.Wikipedia "Varnish"]].
+=== Resources ===
+  *[[http://en.wikipedia.org/wiki/Streaming_media|EN.Wikipedia "Streaming media"]], [[http://en.wikipedia.org/wiki/Comparison_of_streaming_media_systems|EN.Wikipedia "Comparison of streaming media systems"]], [[http://de.wikipedia.org/wiki/Streaming-Server|DE.Wikipedia "Streaming-Server"]].
+
+==== Free Network File Systems and File System Server ====
+=== Tools ===
+  *[[http://www.freenas.org/|FreeNAS]], [[http:///freenas.sourceforge.net/|Sourceforge "FreeNAS"]], [[http://www.sourceforge.net/projects//freenas/|Sourceforge "FreeNAS"]].
+  *[[http://www.freenas.org/|FreeNAS]], [[http://enterprisesamba.com/|Enterprise Samba - Samba for Enterprise Linux]], [[http://en.opensuse.org/Samba|openSUSE "Samba"]].
+    *[[http://en.wikipedia.org/wiki/Samba_%28software%29|EN.Wikipedia "Samba (software)"]], [[http://de.wikipedia.org/wiki/Samba_%28Software%29|DE.Wikipedia "Samba (Software)"]].
+=== Resources ===
+  *[[http://en.wikipedia.org/wiki/Server_Message_Block|EN.Wikipedia "Server Message Block"]], [[http://de.wikipedia.org/wiki/Server_Message_Block|DE.Wikipedia "Server Message Block"]].
+
+
+
+==== Free POP3 Server ====
+  *The OpenSource [[http://www.pablosoftwaresolutions.com/html/baby_pop3_server.html|Pablo Software Solutions "Baby POP3 Server Version 1.04"]].
+
+==== Free FTP Servers, FTP clients, Torrent Clients and Download Managers ====
+=== Free FTP Servers, FTP Clients ===
+  *[[http://www.filezilla-project.org/|FileZilla]] - OpenSource FTP client and FTP server for Windows #.
+  *[[http://www.net2ftp.com/|net2ftp]] - a free web based FTP client.
+  *The free FTP server [[http://www.warftp.org/|War FTP Daemon]] by [[http://www.jgaa.com/|Jarle Aase]] - "The original free FTP server for Windows".
+  *The commercial FTP client [[http://www.smartftp.com/|SmartSoft Ltd. "SmartFTP"]] for Windows.
+    *[[http://www.download-tipp.de/shareware_und_freeware/3340.shtml|Download-Tipp "SmartFTP"]] for Windows - Download of the latest free release.
+  *The commercial FTP client and server [[http://www.ipswitchft.com/|Ipswitch, Inc. "WS_FTP"]] for Windows.
+    *[[http://www.chip.de/downloads/WS_FTP-Lite-5.0_13006271.html|CHIP "WS_FTP Lite"]] for Windows - Download of the latest free release.
+  *The free Novell Netware "Netdrive", a suitable alternative to the standard Novell "Netware Client" which can be used with "NetWare 6", "NetWare 6.5", "Novell Small Business Suite 6", "Novell Small Business Suite 6.5", "iFolder", "iFolder 2.1" ! Search for download offers by [[http://www.google.com/search?q=netdrive+4.1+download|Google]], or download the newest ( beta ) release at [[http://support.novell.com/filefinder/|Novell]]! Download of the current german version, for example, by [[http://www.fh-hannover.de/it/services/stud/software/|FH Hannover]], [[ftp://ftp.fh-hannover.de/pub/novell/updates/clients/|FH Hannover]]. Netdrive is the special free Novell version of [[http://www.webdrive.com/|South River Technologies "Webdrive"]].
+  *The OpenSource [[http://winscp.net/|WinSCP Free SFTP, SCP and FTP client]], [[http://winscp.sourceforge.net/|SourceForge "WinSCP"]], [[http://www.sourceforge.net/projects/winscp/|SourceForge "WinSCP"]] for Windows.
+=== Free Download Managers ===
+  *The free download manager [[http://www.speedbit.com/|Speedbit "Download Accelerator Plus"]] for Windows.
+  *The free download manager [[http://www.flashget.com/|FlashGet]] for Windows.
+  *The commercial download manager [[http://www.gozilla.com/|Headlight Software, Inc. "Go!Zilla"]].
+    *Go!Zilla Version 5 and newer is just-commercial.
+    *[[http://soft.winsov.ru/russifikatori/2431/|Soft.Winsov.ru "Go!zilla 3.9.3.9.3.1"]] - download of the most recommendable free release.
+  *The free [[http://www.httrack.com/|HTTrack Website Copier - Offline Browser]] for Windows and Linux.
+  *Wget, wput.
+    *[[http://www.gnu.org/software/wget/|GNU "Wget"]].
+    *[[http://wput.sourceforge.net/|Sourceforge "wput"]], [[http://www.sourceforge.net/projects/wput/|Sourceforge "wput"]].
+    *[[http://en.wikipedia.org/wiki/Wget|EN.Wikipedia "Wget"]], [[http://de.wikipedia.org/wiki/Wget|DE.Wikipedia "Wget"]].
+    *The free [[http://www.toolsandmore.de/Central/Produkte/Software/Internet/Download/Easy-Wget/|Easy-Wget]] - "Linux-Web-Grabber + Shell für Windows".
+    *[[http://txt.binnyva.com/2007/03/download-entire-folder-using-wget-command-in-linux/|TXT. Linux commands and code snippets collection "Download Entire Folder using Wget Command in Linux"]] -> Example for downloading a complete directory tree: "wget -m [[http://service.i-onik.de/a13_source_1.5/|http://service.i-onik.de/a13_source_1.5/]]".
+=== Free Torrent Clients ===
+  *The free Torrent client [[http://www.utorrent.com/|uTorrent]] for Windows.
+==== Anonymizer  ====
+  *The free [[http://www.junkbuster.com/|JunkBuster]] for Windows, Linux.
+  *The free [[http://anon.inf.tu-dresden.de/|JAP]] / JonDonym-Anonymous-Proxy-Server JonDo, a Java application.
+  *The commercial [[http://www.anonymizer.com/|Anonymizer]].
+  *The commercial [[http://www.inetprivacy.com/|Anonymity 4 Proxy]].
+  *The free server [[http://net.picidae.net/|pici-network "picidae"]].
+    *[[http://www.picidae.net/how_picidae_works|pici-network "How picidae works"]].
+==== Firewall Tools ====
+  *The free firewall software [[http://www.zonealarm.com/security/en-us/anti-virus-spyware-free-download.htm|Check Point "ZoneAlarm Free Firewall"]] for Windows.
+    *[[http://download.chip.asia/in/ZoneAlarm-7.0.483_112097.html|Chip Download "ZoneAlarm 7.0.483"]] - Download of the latest edition for W2k.
+    *The free [[http://www.visualizesoftware.com/visualzone/visualzone.htm|Visualize Software "VisualZone"]] for Windows - "Intrusion analyser and report utility for ZoneAlarm".
+  *The free firewall software [[http://free.agnitum.com/|Outpost Security Suite FREE]] for WinXP, Vista, Win7.
+    *"Setup cannot be started from remote media" -> You can´t install from Windows network drives.
+  *The OpenSource firewall software [[http://www.smoothwall.org/|SmoothWall Express - Express Open Source Firewall Project]].
+  *The free [[http://web.archive.org/web/*/http://www.htthost.com/|Archive.Org "Technology Networks - HTTPort"]] for Windows - "creates a transparent tunnel through a proxy server or firewall".
+    *[[http://download.cnet.com/HTTPort/3000-2155_4-10037133.html|CNET "HTTPort 3.SNF"]] - Download of the latest edition.
+==== As time goes by.. NTP Servers and NTP Clients ====
+=== Products ===
+  *The free NTP client [[http://www.thinkman.com/dimension4/|Thinking Man Software "Dimension 4"]] for Windows, no proxy support.
+  *[[http://www.arachnoid.com/abouttime/|AboutTime]] for Windows - free NTP client and NTP server, no proxy support, can be run by commandline #.
+  *The free [[http://www.worldtimeserver.com/atomic-clock/|Worldtimeserver "Atomic Clock Sync"]] for Windows, proxy support, no free choice of the NTP time server.
+  *[[http://web.archive.org/web/*/http://www.oneguycoding.com/|Archive.org "One Guy Coding"]].
+    *Automachron and Netdate - free NTP clients, no proxy support. Automachron can be run by commandline.
+    *[[http://www.heise.de/software/download/automachron/56884|heise "Automachron"]] - Download of the latest release.
+    *[[http://web.archive.org/web/*/http://www.oneguycoding.com/pub|Archive.org "One Guy Coding", pub]] - Download of Netdate.
+  *The Donationware NTP client [[http://www.mirage1.u-net.com/clox.htm|Clox]] for Windows.
+  *The OpenSource [[http://nettime.sourceforge.net/|Sourceforge "NetTime"]], [[http://www.sourceforge.net/projects/nettime/|Sourceforge "NetTime"]] for Windows, no proxy support.
+  *[[http://www.nist.gov/pml/div688/grp40/its.cfm|National Institute of Standards and Technology, Physical Measurement Laboratory - NIST Internet Time Service (ITS), Set Your Computer Clock Via the Internet]].
+    *The OpenSource NTP client "nistime-32bit.exe" for Windows.
+    *The free NTP client [[http://web.archive.org/web/*/http://www.truetime.net/software-winsync.html|Archive.org "TrueTime, Inc. - WinSync"]] for Windows, no proxy support.
+    *[[http://winsync.software.informer.com/|Software Informer "WinSync"]] - Download of the latest release.
+  *The Shareware NTP client [[http://www.netdemon.net/|net.demon]] for Windows, no proxy support.
+  *The Shareware NTP client [[http://www.rjsoftware.com/|RJ Software "ClockWise Scheduler"]] for Windows.
+  *The Shareware NTP clients and NTP Server tools "Tardis 2000" and "Tardis v3.0" for Windows, the Shareware NTP broadcast client "K9" for Windows by [[http://www.kaska.demon.co.uk/|HC Mingham-Smith Ltd.]], no proxy support.
+  *The Shareware NTP client [[http://www.sefus.com.au/Products/TimeClient/TimeClient.htm|Sefus Software "TimeClient"]] and Shareware NTP server [[http://www.sefus.com.au/Products/TimeServer/TimeServer.htm|Sefus Software "TimeServer"]], no proxy support.
+  *The Shareware NTP client [[http://www.carefile.com/WorldClock/|Fulvio Castelli "WorldClock"]] for Windows, with proxy support.
+=== Resources ===
+  *[[http://www.cl.cam.ac.uk/~mgk25/iso-time.html|Markus Kuhn "A summary of the international standard date and time notation"]].
+  *[[http://www.ntp.org/|NTP - The Network Time Protocol]].
+    *[[http://support.ntp.org/bin/view/Main/ExternalTimeRelatedLinks|NTP "External Time Related Links"]].
+    *[[http://support.ntp.org/bin/view/Servers/|NTP "Public NTP Time Server Lists"]] #.
+  *[[http://www.arachnoid.com/abouttime/|AboutTime]] - "NTP clients aren´t really needed on Windows XP, which has its own way to set the system clock, and NTP clients will usually only work on Vista & Win7 by disabling some of its security features".
+  *[[http://www.nist.gov/pml/div688/grp40/softwarelist.cfm|National Institute of Standards and Technology, Physical Measurement Laboratory - Publishers of Time and Frequency Software]].
+  *[[http://timeserver.verschdl.de/|Verschdl "Liste oeffentlicher deutscher und internationaler Time server (ntp) Zeitserver"]] #.
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/NTP_pool|EN.Wikipedia "NTP pool"]].
+    *[[http://de.wikipedia.org/wiki/NTP-Pool|DE.Wikipedia "NTP-Pool"]] -> "0.de.pool.ntp.org", "1.de.pool.ntp.org", "2.de.pool.ntp.org", "3.de.pool.ntp.org" #.
+
+==== Internet IP posters & IP mapping services ====
+=== IP Client Tools ===
+  *[[http://www.yi.org/help/software/|yi.org - Client Software]].
+    *The free [[http://www.freshmeat.net/projects/ez-ipupdate|freshmeat "ez-ipupdate "]].
+    *The Shareware [[http://www.noeld.com/dynsite.asp|Noël Danjou "DynSite"]] for Windows.
+  *The free [[http://www.dynamip.com/download.asp|DynamIP "DynamIP IPGet client application"]] for Windows.
+  *The free plugin [[http://unite.opera.com/application/572/|DNS Updater]] for the [[http://www.opera.com/|Opera Browser]].
+=== IP Server Tools ===
+  *The OpenSource [[http://ddserver.0x80.io/|ddserver]], [[http://www.github.com/ddserver/ddserver|GitHub "ddserver"]].
+  *The OpenSource [[https://www.powerdns.com/|PowerDNS]], [[http://www.github.com/PowerDNS/|GitHub "PowerDNS"]].
+=== IP Services ===
+  *The free dynamic DNS service [[http://www.yi.org/|yi.org Dynamic DNS]].
+  *The free dynamic DNS service [[http://www.no-ip.com/|No-IP]].
+  *The free dynamic DNS service & OpenSource tool [[http://www.nsupdate.info/|nsupdate.info]], [[http://www.github.com/nsupdate-info/|GitHub "nsupdate.info development"]].
+  *The once-free but now just-commercial dynamic DNS service [[http://www.dyndns.com/|dynDNS]].
+  *The commercial dynamic DNS service [[http://www.dhs.org/|DHS International "dhs"]].
+  *The commercial dynamic DNS service [[http://www.dns2go.com/|Deerfield.com DNS2Go]].
+==== Some other Tools for Network Operation ====
+  *The free [[http://www.step-gmbh.de/index.php?id=35|STEP Software GmbH "FlatServer"]]. for Windows - "Das ultimative Utility zum Betreiben eines Webservers an einer Flatrate-Connection. Bekannt durch die c't 23/2000".
+  *The Shareware router [[http://www.nat32.com/|NAT32 Windows Software Router]] for Windows.
+==== Peer 2 Peer Networks ====
+  *[[http://freenetproject.org/|The Freenet Project]].
+  *[[http://en.wikipedia.org/wiki/UUCP|EN.Wikipedia "UUCP"]], [[http://de.wikipedia.org/wiki/Unix_to_Unix_Copy|DE.Wikipedia "Unix to Unix Copy"]].
+    *The OpenSource [[http://www.kew.com/|Kendra Electronic Wonderworks "UUPC/extended"]] for DOS, Windows.
+==== IP Services ====
+  *DHCP.
+    *[[http://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol|EN.Wikipedia "Dynamic Host Configuration Protocol"]], [[http://de.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol|DE.Wikipedia "Dynamic Host Configuration Protocol"]].
+  *AutoIP.
+    *[[http://en.wikipedia.org/wiki/Zero_configuration_networking|EN.Wikipedia "Zero configuration networking"]], [[http://de.wikipedia.org/wiki/Zeroconf|DE.Wikipedia "Zeroconf"]] = AutoIP.
+    *[[http://en.wikipedia.org/wiki/Link-local_address|EN.Wikipedia "Link-local address"]] = AutoIP.
+==== Naming Services ====
+  *NetBIOS for Windows.
+    *[[http://en.wikipedia.org/wiki/NetBIOS|EN.Wikipedia "NetBIOS"]], [[http://de.wikipedia.org/wiki/NetBIOS|DE.Wikipedia "NetBIOS"]].
+  *Apple Bonjour / Zeroconf.
+    *[[http://en.wikipedia.org/wiki/Bonjour_%28software%29|EN.Wikipedia "Bonjour (software)"]], [[http://de.wikipedia.org/wiki/Bonjour_%28Apple%29|DE.Wikipedia "Bonjour (Apple)"]].
+    *[[http://en.wikipedia.org/wiki/Zero_configuration_networking|EN.Wikipedia "Zero configuration networking"]], [[http://de.wikipedia.org/wiki/Zeroconf|DE.Wikipedia "Zeroconf"]].
+==== Some other Network Services ====
+===== Safe Network File Transfer on Windows =====
+==== Robocopy ====
+  *[[http://en.wikipedia.org/wiki/Robocopy|EN.Wikipedia "Robocopy"]], [[http://de.wikipedia.org/wiki/Robocopy|DE.Wikipedia "Robocopy"]].
+==== Background Intelligent Transfer Service ( BITS ) ====
+  *BITS requires an IIS web server, it operates not on the NTFS filesystem but on URLs. It can be used by own Windows applications ( e.g. Powershell scripts ) to transfer data. 
+  *[[http://en.wikipedia.org/wiki/Background_Intelligent_Transfer_Service|EN.Wikipedia "Background Intelligent Transfer Service"]], [[http://de.wikipedia.org/wiki/Background_Intelligent_Transfer_Service|DE.Wikipedia "Background Intelligent Transfer Service"]] ( BITS ).
+  *[[http://en.wikipedia.org/wiki/Windows_Server_Update_Services|EN.Wikipedia "Windows Server Update Services"]], [[http://de.wikipedia.org/wiki/Windows_Server_Update_Services|DE.Wikipedia "Windows Server Update Services"]] ( WSUS ).
+
+===== Network Analysis =====
+==== Network Protocol Analyzer ( Packet Sniffer ) ====
+=== Installable Network Protocol Analyser Tools ===
+  *The OpenSource [[http://curl.haxx.se/|cURL and libcurl]] for Windows, MSDOS and Linux.
+  *[[http://etherape.sourceforge.net/|Sourceforge "EtherApe"]], [[http://www.sourceforge.net/projects/etherape/|Sourceforge "EtherApe"]] for Linux.
+  *Ethereal / Wireshark.
+    *[[http://www.wireshark.org/|Wireshark]] - free sniffer.
+      *For Windows, OS-X ( but not for Linux ).
+      *There is also "tshark", a terminal oriented version of Wireshark :-).
+    *[[http://www.ethereal.com/|Ethereal]] - free sniffer, for Windows, Linux.
+      *[[http://wiki.ethereal.com/etherealwiki|Ethereal Wiki]].
+  *[[http://www.fiddler2.com/|Fiddler]] - free HTTP Debugging Proxy, for Windows with .NET 2.0.
+    *[[http://fiddler.wikidot.com/|Fiddler Wiki]].
+  *The free "FL VIEW", surveillance limited to 16 devices.
+    *[[http://www.phoenixcontact.com/global/news/194_82696.htm|PHOENIX CONTACT "FL VIEW"]].
+    *[[http://catalog.phoenixcontact.net/phoenix/treeViewClick.do?action=assets&UID=2701744|2701744 FL VIEW 32 LITE]] - "FL_VIEW_V2.1.12.0.zip 	Demo version of FL VIEW (restriction: 16 devices maximum)".
+  *The OpenSource [[http://htt.sourceforge.net/|SourceForge "httest" ( "HTTP Test Tool" )]], [[http://www.sourceforge.net/projects/htt|SourceForge "HTTP Test Tool"]].
+  *Michael Welzl, Christian Sternagel - "irvtool", a free Java tool.
+    *Old site: [[http://www.welzl.at/research/tools/irvtool/|An Internet Routing Visualization Tool (irvtool)]].
+    *New site: [[http://heim.ifi.uio.no/~michawe/research/tools/irvtool/|An Internet Routing Visualization Tool (irvtool)]]].
+  *[[http://www.manageengine.com/|ManageEngine]] - commercial tools for network performance management on Windows, IT servicedesk & desktop management on Windows.
+    *[[http://www.manageengine.com/download.html|ManageEngine - Download]] - download of some free network tools.
+    *The free [[http://www.manageengine.com/products/eventlog/|ManageEngine "EventLog Analyzer", Free Edition]] for Windows, limited to work with 5 hosts.
+  *The commercial sniffer [[http://www.netinst.com/|Network Instruments "Observer"]] - can tell you about network misconfigurations in industry-standard "scenarios" ( e.g. detection of double assignment of IP addresses ).
+  *The commercial sniffer [[http://www.wildpackets.com/products/network_analysis_and_monitoring/omnipeek_network_analyzer|Wildpackets "OmniPeek Network Analyzer"]].
+    *[[http://www.wildpackets.com/news_events/news/06-06-19|WildPackets Launches OmniPeek Personal]], 2006-06-19.
+    *[[http://wareseeker.com/Network-Tools/omnipeek-personal-4.1.zip/280297|WareSeeker "OmniPeek Personal 4.1"]] - Download of the latest free legacy release.
+    *[[http://www.wildpackets.com/support/omni/omnipeek_personal/faq|Wildpackets, Support FAQs - OmniPeek Personal]].
+    *[[http://en.wikipedia.org/wiki/OmniPeek|EN.Wikipedia "OmniPeek"]].
+  *[[http://code.google.com/p/packetsquare-capedit/|GoogleCode "packetsquare-capedit"]] - "A GUI PCAP Based Network Protocol Testing Tool".
+    *[[http://www.packetsquare.com/|packetsquare.com]].
+    *[[http://en.wikipedia.org/wiki/Packetsquare|EN.Wikipedia "Packetsquare"]].
+  *Packetyzer ( [[http://packetyzer.sourceforge.net|Packetyzer]], [[http://sourceforge.net/projects/packetyzer/|Packetyzer]] ) - free sniffer, for Windows.
+  *The free [[http://www.paessler.com/prtg/|PAESSLER "PRTG Network Monitor"]] for Windows.
+  *The commercial [[http://www.parasoft.com/soatest?itemId=101|PARASOFT SOAtest]].
+    *[[http://en.wikipedia.org/wiki/Soatest|EN.Wikipedia "Soatest"]].
+  *The OpenSource [[http://www.secdev.org/projects/scapy/|Scapy]] in Python, for Linux - "A powerful interactive packet manipulation program".
+    *[[http://www.secdev.org/projects/UTscapy/|UTScapy: Unit Testing with Scapy]].
+  *The free [[http://www.softperfect.com/products/networkscanner/|SoftPerfect Network Scanner]] for Windows.
+    *[[http://www.softperfect.com/products/networkscanner/manual/|SoftPerfect Network Scanner, Online Manual]].
+  *[[http://technet.microsoft.com/de-de/sysinternals/|Windows Sysinternals]].
+    *The free [[http://technet.microsoft.com/de-de/sysinternals/bb897437.aspx|Windows Sysinternals  "TCPView für Windows"]].
+    *The free <del>[[http://www.sysinternals.com/ntw2k/freeware/tdimon.shtml|TDIMon]].</del>
+      *[[http://download.chip.eu/de/TDIMon-1.01_163194.html|CHIP "TDIMon"]] - Download of the latest release.
+  *TCPDUMP/LIBPCAP & Clones.
+    *[[http://www.tcpdump.org|TCPDUMP/LIBPCAP]].
+    *[[http://www.winpcap.org/|WinPcap]].
+      *[[http://de.wikipedia.org/wiki/WinPcap|DE.Wikipedia "WinPcap"]].
+    *[[http://www.winpcap.org/windump/|WinDump]] for Windows.
+    *[[http://microolap.com/products/network/tcpdump/|MicroOLAP TCPDUMP for Windows]] -  "A clone of TCPDUMP, the most used network sniffer/analyzer for UNIX, compiled with the original tcpdump code ([[http://www.tcpdump.org|tcpdump.org]]), and MicroOLAP Packet Sniffer SDK".
+    *[[http://ngrep.sourceforge.net/|Sourceforge "ngrep - network grep"]], [[http://www.sourceforge.net/projects/ngrep/|Sourceforge "Network Grep"]] for Windows, Linux.
+    *[[http://en.wikipedia.org/wiki/Tcpdump|EN.Wikipedia "tcpdump"]], [[http://de.wikipedia.org/wiki/Tcpdump|DE.Wikipedia "Tcpdump"]], [[http://en.wikipedia.org/wiki/Ngrep|EN.Wikipedia "ngrep"]].
+  *[[http://www.tcptrace.org/|Shawn Ostermann "tcptrace"]] for Windows and Linux.
+    *[[http://en.wikipedia.org/wiki/Tcptrace|EN.Wikipedia "Tcptrace"]].
+  *The free [[http://www.visualroute.com/download.html|VisualRoute Lite Edition]] for Windows and MacOSX.
+  *The Opensource [[http://www.winpcap.org/|WinDump]] for Windows - "tcpdump for WIndows using ( the commercial ) WinPcap".
+=== Port Scanner ===
+== Port Scanner Tools ==
+  *The free but slow [[http://www.nmap.org/|Nmap - Free Security Scanner For Network Exploration & Security Audits]] for Windows and Linux. 
+  *The free quite fast [[https://zmap.io/|ZMap - The Internet Scanner]], [[http://www.github.com/zmap|GitHub "ZMap - The Internet Scanner"]].
+== Port Scanner Online Services ==
+  *The free fast online service [[http://www.shodanhq.com/|SHODAN - Computer Search Engine]] - "Expose Online Devices. Webcams, Routers, PowerPlant, Iphones, Wind Turbines, Refrigerators, VoIP Phones".
+=== Packet Tools ===
+  *Scapy - "powerful interactive packet manipulation program".
+    *[[http://www.secdev.org/|Ne dites rien, les mots sont superflus... ( SecDev.org by Phil )]].
+      *[[http://www.secdev.org/projects/scapy/|SecDev.org "Scapy"]].
+      *[[http://www.secdev.org/projects/scapy/doc/installation.html|SecDev.org "Scapy v2.1.1-dev documentation. Download and Installation"]].
+=== Online Network Protocol Analyser Services ===
+  *[[http://www.web-sniffer.net/|Web-Sniffer - View HTTP Request and Response Header]].
+  *[[http://www.traceroute.org/|traceroute.org]] - database of free "traceroute" online web services.
+  *[[http://visualroute.visualware.com/|VisualRoute Live Demo]] - "VisualRoute helps determine if a connectivity problem is due to an ISP, the Internet, or the destination web site, and pinpoints the network where a problem occurs".
+=== Load Tests ===
+  *[[http://jmeter.apache.org/|Apache JMeter]].
+    *[[http://en.wikipedia.org/wiki/Apache_JMeter|EN.Wikipedia "Apache JMeter"]], [[http://de.wikipedia.org/wiki/Apache_JMeter|DE.Wikipedia "Apache JMeter"]].
+=== Resources ===
+  *[[http://sectools.org/|Top 100 Network Security Tools]]
+==== Website Analysis Tools ====
+=== Link Checkers ===
+  *The free link checker [[http://home.snafu.de/tilman/xenulink.html|Xenu's Link Sleuth]] for Windows.
+    *[[http://www.integralworld.net/xenu/|Frank Visser:"Checking Links with Xenu"]].
+=== Logfile Analysis ===
+  *[[http://www.analog.cx/|Stephen Turner ( University of Cambridge Statistical Laboratory ) "Analog"]] for Windows and Linux - "The most popular logfile analyser in the world".
+  *[[http://www.http-analyze.org/|RENT-A-GURU "HTTP-ANALYZE"]].
+  *[[http://www.jan-winkler.de/|Jan Winkler]] - The free "LogFile Analyse" tool for Windows.
+    *The free [[http://web.archive.org/web/*/http://www.jan-winkler.de/dev/d_logf.htm|Archive.org "Jan Winkler - LogFile Analyse"]].
+    *The commercial [[http://web.archive.org/web/*/http://www.lfa-pro.de/|LFApro - LogFile Analyse Software]].
+    *[[http://www.softwareload.de/shop/logfile-analyse|Softwareload.de "LogFile Analyse 6.02"]] - Download of the latest free release.
+  *[[http://martin.gleeson.com/pwebstats/|Martin Gleeson "pwebstats: a perl web statistics generator"]] in Perl.
+  *[[http://web.archive.org/web/*/http://www.rickg.com/software/wwwusage/|Archive.org "Richard Graessler: WWWUsage"]] in Perl.
+    *I don´t know any download location for "<del>wwwusage.0.99.zip</del>".
+    *This Book contains the WWWUsage script: [[http://www.amazon.de/exec/obidos/ASIN/157521072X/hemmerling-21|]S. Scott Zimmerman, Christopher L. T. Brown "Web Site Construction Kit for Windows 95 "]].
+=== Resources ===
+  *[[http://robert.boeck-horn.de/logfile-analyzer.php|Robert Böck "Übersicht Logfile-Analyzer, Tools zur Logfile-Analyse"]].
+===== Cloud, Network and Datacenter Administration =====
+==== Hardware ====
+  *[[http://www.wuerth-phoenix.com/de/loesungen/system-management/wuerthphoenix-neteye/uebersicht/|WÜRTHPHOENIX NetEye - Open Source basiertes IT-System Management]] - "Die Nagios-basierende Komplettlösung für eine lückenlose IT-Verwaltung", a collection of 30 OpenSource network monitoring solutions.
+==== Software ====
+  *"Look@LAN" & "overlook fing" by [[http://www.linkedin.com/in/carlomedas|Carlo Medas]].
+    *[[http://www.lookatlan.com/|Look@LAN]].
+    *[[http://www.lookatlan.com/oldindex.html|Look@LAN, old website]].
+      *Download of the free final "Look@LAN 2.50 build 35" for Windows.
+      *Download of the free legacy "overlook fing 1.2" for Windows, Linux, MacOS.
+    *[[http://www.over-look.com/|overlook - Enjoy the view of your network]] - Download of the current free "overlook fing 1.4" for Windows, Linux, MacOS.
+  *[[http://www.netways.de/|NETWAYS GmbH]].
+    *[[http://www.netways.de/de/produkte/nagios/|NETWAYS GmbH "Nagios Monitoring System"]].
+      *The OpenSource [[http://www.nagios.org/|Nagios]] - "The Industry Standard In Open Source Monitoring".
+      *[[http://en.wikipedia.org/wiki/Nagios|EN.Wikipedia "Nagios"]], [[http://de.wikipedia.org/wiki/Nagios|DE.Wikipedia "Nagios"]].
+    *[[http://www.netways.de/de/produkte/icinga/|NETWAYS GmbH "Icinga - Enterprise Open Source Monitoring"]].
+      *The OpenSource [[http://www.icinga.org/|Icinga]] - "Open Source Monitoring", a fork of Nagios.
+      *[[http://en.wikipedia.org/wiki/Icinga|EN.Wikipedia "Icinga"]], [[http://de.wikipedia.org/wiki/Icinga|DE.Wikipedia "Icinga"]].
+    *[[http://www.netways.de/de/produkte/mule/|NETWAYS GmbH "Mule Enterprise Service Bus"]].
+      *[[http://www.mulesoft.org/|Mule ESB Community Edition]].
+    *[[http://www.netways.de/de/produkte/rt/|NETWAYS GmbH "Request Tracking"]].
+      *[[http://www.bestpractical.com/|Best Practical "RT"]].
+    *[[http://www.netways.de/de/produkte/otrs/|NETWAYS GmbH "OTRS - Open Source Ticket Request System"]].
+      *[[http://www.otrs.org/|OTRS]] - "Open Source Help Desk and IT Service Management Solution".
+    *[[http://www.netways.de/de/produkte/bacula/|NETWAYS GmbH "Bacula Backup Software"]].
+      *[[http://www.bacula.org/|Bacula]] - "The Open Source Network Backup Solution".
+    *Blog [[http://blog.netways.de/|NETWAYS GmbH "NETWAYS Blog"]].
+  *[[http://www.opennms.org/|OpenNMS]].
+    *[[http://en.wikipedia.org/wiki/OpenNMS|EN.Wikipedia "OpenNMS"]], [[http://opennms.sourceforge.net/|Sourceforge "OpenNMS"]], [[http://www.sourceforge.net/projects/opennms/|Sourceforge "OpenNMS"]] - "An enterprise grade network monitoring and network management platform".
+  *OpenStack.
+    *See [[python.html|Python]].
+  *The just-commercial [[http://www.snag-view.de/|SNAG-View]] - "Die System- und NetzwerkManagement Suite", "OpenSource based enterprise solutions" (?).
+  *[[http://www.solarwinds.com/|Solarwinds]].
+    *The free [[http://www.solarwinds.com/products/freetools/snmp-enabler-for-windows/enable-snmp.aspx|Solarwinds "SNMP Enabler for Window"]] ( Download [[http://downloads.solarwinds.com/solarwinds/Release/FreeTool/SolarWinds-SNMPEnabler.zip|SolarWinds-SNMPEnabler.zip]]. )
+      -"Remotely install, enable, and configure SNMP on any Windows server or workstation on your network".
+      -"Simultaneously enable SNMP on multiple machines"
+      -"Save time when deploying applications requiring SNMP".
+    *The free [[http://www.solarwinds.com/products/freetools/ip-address-tracker/|Solarwinds "FREE IP Address Tracker"]] ( Download [[http://downloads.solarwinds.com/solarwinds/Release/FreeTool/SolarWinds-IPAddressTracker-v1.zip|SolarWinds-IPAddressTracker-v1.zip]].
+===== Network Programming =====
+  *[[http://cs.ecs.baylor.edu/~donahoo/practical/|The Practical Guide Series Web Resource ]] by Michael J. Donahoo.
+  *[[http://unp.bit-oase.de/|Unix-Netzwerkprogrammierung mit Threads, Sockets und SSL]] by Markus Zahn.
+  *[[http://pdos.csail.mit.edu/uia/|Unmanaged Internet Architecture]] - "A distributed name system and ad-hoc routing infrastructure which provides zero-configuration connectivity among users' mobile devices without the use of centralized servers".
+===== Network Simulation =====
+  *The OpenSource [[http://www.isi.edu/nsnam/ns/|The Network Simulator - ns-2]], [[http://www.isi.edu/nsnam/nam/|am: Network Animator]], [[http://nsnam.sourceforge.net/|SourceForge "ns and nam"]], [[http://www.sourceforge.net/projects/nsnam/|SourceForge "nsnam"]].
+    *"A discrete event simulator targeted at networking research. Ns provides substantial support for simulation of TCP, routing, and multicast protocols over wired and wireless (local and satellite) networks".
+    *Wiki [[http://nsnam.isi.edu/nsnam|ns-2 Wiki]].
+      *[[http://nsnam.isi.edu/nsnam/index.php/User_Information|ns-2 Wiki "User Information"]].
+  *[[http://www.gambitcommunications.com/|Gambit Communications]].
+    *The commercial [[http://www.gambitcommunications.com/site/products/mimic_simulator.shtml|Gambit Communications "MIMIC Simulator Suite"]].
+    *The commercial [[http://www.gambitcommunications.com/site/products/vlab_ccna.shtml|Gambit Communications "MIMIC Virtual Lab CCNA"]].
+    *[[http://www.businesswire.com/portal/site/google/index.jsp?ndmViewId=news_view&newsId=20040831005042&newsLang=en|Business Wire "Gambit Changes How Network Engineers Prepare for CCNA Certification; Allows Real World Simulation of Cisco Gear"]], 2004-08-31.
+    *[[http://profiles.yahoo.com/baristhasharma|Yahoo "Baristha Sharma"]] - Expert user of "MIMIC Virtual Lab CCNA".
+      *[[http://wayback.archive.org/web/*/http://www.geocities.com/baristhasharma/mimicvlab.html|Archive.org "Baristha Sharma - CNNA Preparation"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1411610512/hemmerling-21|Matthew Basham "Learning by Doing: Cisco Certified Network Administrator (CCNA) Lab Manual Version 4 Volumes 1 and 2"]].
+
+===== Paper Magazines =====
+  *The paper magazine [[http://www.lanline.de/|LANline - IT + Netze + Infrastruktur]].
+===== Education =====
+  *[[http://learningnetwork.cisco.com/|The Cisco Learning Network]].
+    *Forum message [[http://learningnetwork.cisco.com/thread/15662|The Cisco Learning Network "How to study for CCNA FREE"]].
+    *Blog article [[http://learningnetwork.cisco.com/blogs/certifications/2013/09/13/5-steps-to-passing-an-associate-level-exam/|The Cisco Learning Network "5 Steps to Passing an Associate-Level Exam"]].
+    *You may avoid using hardware if you are using this [[http://www.gns3.net/|GNS3 - Graphical Network Simulator]] instead :-).
+
+===== Resources =====
+  *[[http://www.bild.de/digital/computer/computer/fritzbox-ratgeber-20109784.bild.html|BILD "Tipps: WLAN-Router Der große FritzBox-Ratgeber"]].
+  *[[http://home.arcor.de/nhb/pf-austricksen.html|Hendrik Brummermann "Wie Personal Firewalls ausgetrickst werden können"]].
+  *[[http://www.mdiedrich.de/|Martin Diedrich "mdiedrich"]] - "Auf diesen Seiten findet man Informationen zu Netzwerken, der Anbindung des lokalen Netzwerks (LAN) an das Internet, dem Aufbau eines DFÜ-Servers mit ISDN oder einem Modem, zu ISDN".
+  *[[http://www.iks-jena.de/mitarb/lutz/|Lutz Donnerhacke]].
+    *[[http://www.iks-jena.de/mitarb/lutz/usenet/teergrube.html|Lutz Donnerhacke "Teergruben FAQ"]].
+    *[[http://www.iks-jena.de/mitarb/lutz/usenet/Firewall.html|Lutz Donnerhacke "de.comp.security.firewall FAQ]].
+  *Wiki [[http://www.nagios-wiki.de/|Nagios Wiki]].
+    *The affordable [[http://www.nagios-wiki.de/workshops/|Nagios Workshops]] in Germany.
+  *[[http://www.swampgas.com/vc/ipmcus.htm|Michael Owings "CU-SeeMe and Linux IP-Masquerade Teeny How-To"]].
+  *Blog [[http://techblog.procurios.nl/|Procurios TechBlog]].
+    *[[http://techblog.procurios.nl/k/news/view/15872/14863/Mimetype-corruption-in-Firefox.html|Procurios TechBlog "Mimetype corruption in Firefox"]] - it helps sometimes to delete the file "C:\Program Files\Mozilla\Firefox\defaults\profile\mimeTypes.rdf".
+  *[[http://www.internettrash.com/users/healingspaces/nowhycookies.htm|Internettrash "not-so-sweet Cookie stories. Yahoo! cookies and Navbar cookies"]].
+  *[[http://www.networkuptime.com/|Network Uptime]] - "The Online Resource for Network Management".
+===== Forums, Newsgroups =====
+  *[[http://www.apachefriends.org/f/|Apache Friends Support Forum]].
+  *[[http://forum.filezilla-project.org/|FileZilla Forums]].
+  *[[http://forums.freenas.org/|FreeNAS Forums]].
+  *[[http://community.jboss.org/|JBoss Community]].
+  *[[http://www.linkedin.com/groups?gid=3443017|LinkedIn Group "Learning@Cisco Certifications Official Group"]].
+  *[[http://www.meetup.com/OpenStack-DACH/|Meetup "OpenStack DACH"]].
+  *[[http://forums.mulesoft.org/|Mulesoft Forum]].
+  *[[http://ask.openstack.org/en/questions/|OpenStack "Ask OpenStack: Q&A Site for OpenStack Users and Developers"]].
+  *[[http://forum.ultravnc.info/|UltraVNC Forum]].
+  *[[http://www.unitymediaforum.de/|Inoffizielles Unitymedia-Forum]].
+  *[[http://forums.wildpackets.com/|WildPackets Forum]].
+  *[[http://www.varnish-cache.org/forum|Varnish Community - Forums]].
+  *[[http://www.xing.com/net/openstack-germany/|XING "OpenStack Germany"]].
+  *[[http://tech.groups.yahoo.com/group/xenu-usergroup/|Yahoo Group "xenu-usergroup"]].
+
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Internet/|OpenDirectory "Top: Computers: Internet"]].
+    *[[http://www.dmoz.org/Computers/Internet/Protocols/|OpenDirectory "OpenDirectory "Top: Computers: Internet: Protocols"]].
+      *[[http://www.dmoz.org/Computers/Internet/Protocols/NTP/|OpenDirectory "Top: Computers: Internet: Protocols: NTP"]].
+  *[[http://www.dmoz.org/Computers/Software/Networking/|OpenDirectory "Top: Computers: Software: Networking"]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Netzwerk/|OpenDirectory "Top: World: Deutsch: Computer: Netzwerk"]].
+    *[[http://www.dmoz.org/World/Deutsch/Computer/Netzwerk/Protokolle_und_Dienste/|OpenDirectory "Top: World: Deutsch: Computer: Netzwerk: Protokolle und Dienste"]].
+      *[[http://www.dmoz.org/World/Deutsch/Computer/Netzwerk/Protokolle_und_Dienste/NTP/|OpenDirectory "Top: World: Deutsch: Computer: Netzwerk: Protokolle und Dienste: NTP"]].
+  *[[http://www.dmoz.org/Reference/Time/Current_Time/|OpenDirectory "Top: Reference: Time: Current Time"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wissenschaft/Naturwissenschaften/Astronomie/Kalender_und_Zeit/|OpenDirectory "Top: World: Deutsch: Wissenschaft: Naturwissenschaften: Astronomie: Kalender und Zeit"]].
+  *[[http://dir.yahoo.com/Science/measurements_and_units/time/|Yahoo! Directory "Science : Measurements and Units : Time]].
+  *[[http://dir.yahoo.com/Computers_and_Internet/Communications_and_Networking/Protocols/NTP__Network_Time_Protocol_/|Yahoo! Directory  "Computers and Internet: Communications and Networking: Protocols: NTP (Network Time Protocol)"]].
+{{tag>"network tools"}}
+<footnote_navi_en>

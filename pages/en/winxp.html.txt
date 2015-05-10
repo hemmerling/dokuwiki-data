@@ -1,0 +1,42 @@
+====== [hemmerling] Windows 2000, Windows XP, Windows 2003 Server ======
+Related page:
+  *[[windows.html|Microsoft Windows]].
+===== Windows 2000 ( W2k ) =====
+  *[[http://technet.microsoft.com/en-gb/windowsserver/|Microsoft Technet "Windows Server"]], [[http://technet.microsoft.com/de-de/windowsserver/|Microsoft Technet, Germany "Windows Server"]] 2000.
+  *PerfDisk
+    *[[http://support.microsoft.com/kb/296187/EN-US/|Microsoft Help and Support: "Application Log Events Generated When You Start Performance Counter Query"]].
+    *[[http://www.eventid.net/display.asp?eventid=1008&eventno=70&source=Perflib&phase=1|EventID.Net: "Event ID 1008 Source Perflib2]].
+  *Free [[http://www.eterlogic.com/Products.VSPE.html|Eterlogic "Virtual Serial Ports Emulator"]].
+
+===== Windows XP ( WinXP ) =====
+==== Activation ====
+  *[[http://www.golem.de/0107/14877.html|Golem ""Windows-XP-Aktivierung umgehen. tecChannel fand heraus, wie sich die Aktivierung Windows XP umgehen lässt]], 2001-07-17 - "Dreh- und Angelpunkt der Aktivierungsprozedur ist die Systemdatei wpa.dbl, die sich die Hardware-Umgebung bei der letzten durchgeführten Aktivierung merkt. **Sobald sich mehr als drei Komponenten ändern**, wird diese Datei gelöscht und **das System muss erneut von Microsoft aktiviert werden**. Um dem Betriebssystem vorzugaukeln, dass sich trotz einiger Änderungen die Hardware-Umgebung nicht geändert hat, muss man einigen Komponenten feste Parameter zuweisen. So kann man die **CPU-Seriennummer im BIOS abschalten** oder die **Volume-ID der Festplatte manuell bestimmen**. Ein weiterer Kniff besteht darin, **einen normalen Rechner gegenüber Windows XP als Notebook in einer Docking-Station auszuweisen, so dass Änderungen an den Komponenten Grafikkarte, IDE- und SCSI-Platte nicht berücksichtigt werden**. Wenn man nun noch die MAC-Adresse der Netzwerkkarte ändert, wobei Vorsicht geboten ist, weil zwei identische MAC-Adressen nicht in einem Netzwerk auftauchen dürfen, bleiben gemäß tecChannel **nur vier Komponenten, die eine Aktivierung auslösen können. Dazu zählt der Prozessortyp, der Speicherausbau, die Festplatte und das eingebaute CD-ROM-Laufwerk**".
+==== Administrator ====
+  *[[http://www.astahost.com/info.php/Add-Administrator-Account-Logon-Screen_t15002.html|Astahost Open Discussion & Free Web Hosting: "How To Add Administrator Account In Logon Screen - Windows XP"]].
+  *[[http://www.mydigitallife.info/2006/05/07/unhide-the-administrator-account-in-windows-xp/|My Digital Life,
+Living Digitally and Electronically: "Unhide the Administrator Account in Windows XP"]].
+  *[[http://windowsxp.mvps.org/admins.htm|Ramesh SRINIVASAN: "How to login as Administrator in Windows XP?"]].
+  *[[http://support.microsoft.com/Default.aspx?kbid=290109|Microsoft Help and Support: "Error Message: Unable to Log You on Because of an Account Restriction"]] - On WinXP-Home, the Administrator account is available only in Safe mode :-(.
+  *[[http://forum.chip.de/windows-xp-aeltere-versionen/admin-anmeldebildschirm-anzeigen-618156.html|CHIP Online Forum "'Admin' auf Anmeldebildschirm anzeigen"]] - "Wenn man während des Setups von Windows XP Benutzer einrichtet, werden später auf dem Anmeldebildschirm nur diese Benutzerkonten angezeigt, dass Administratorkonto fehlt. Will man sich aber als Administrator ans System anmelden, gibt es einen kleinen Trick. Einfach auf dem Anmeldebildschirm zwei mal hintereinander [Strg]+[Alt]+[Entf] drücken und eine aus Windows 2000 und NT gewohnte Anmeldemaske wird angezeigt. Hier kann man sich nun als Administrator anmelden"
+  *[[http://www.wintotal.de/tipparchiv/?RBID=2&TID=614&URBID=12|WinTotal "XP, Vista und Win7 Accounts auf der Willkommen-Seite aus- und einblenden"]].
+==== ASUS Eee 901 ====
+  *[[http://forum.eeeuser.com/viewtopic.php?pid=352761|Eee User Forum: "How to clean up space on your C: drive in Windows "]].
+  *[[http://support.microsoft.com/default.aspx?scid=kb;en-us;Q310994|Microsoft Help and Support "How to obtain Windows XP Setup disks for a floppy boot installation"]].
+==== Recovery Console ====
+  *[[http://www.winfaq.de/faq_html/Content/tip1000/onlinefaq.php?h=tip1011.htm|WinFAQ - Die deutsche WinFAQ "Windows "Recovery Console" (Wiederherstellungskonsole)"]] - "Kommt dabei die Fehlermeldung 'Das Setupprogramm kann nicht fortgesetzt werden, da die Version von Windows auf dem Computer neuer ist als die Version auf der CD', haben Sie inzwischen ein neueres Service-Pack installiert" :-(.
+  *[[http://www.migo-it-blog.de/foren/?view=showthread&7524|Mikes PC Hilfe Forum Archiv "Probleme mit der Wiederherstellungsskonsole von Windows"]] - "Die Wiederherstellungskonsole musst du normalerweise nicht installieren. Wenn du sie benötigst, dann startest du von der Windows-CD und wählst dort 'Reparieren'. Dann mit 'K' die Konsole starten".
+==== Offline Updates ====
+  *[[http://www.microsoft.com/de-de/download/details.aspx?id=43|Microsoft Download "Windows Internet Explorer 8 für Windows XP"]].
+==== General ====
+  *[[http://technet.microsoft.com/en-gb/windowsserver/|Microsoft Technet "Windows Server"]], [[http://technet.microsoft.com/de-de/windowsserver/|Microsoft Technet, Germany "Windows Server"]] 2003.
+
+===== Windows 2003 Server =====
+===== ReactOS =====
+  *[[http://www.reactos.org/|ReactOS-Projekt, ReactOS Betriebssystem]].
+  *[[http://reactos.sourceforge.net/|ReactOS]], [[http://www.sourceforge.net/projects/reactos/|ReactOS]].
+  *[[http://en.wikipedia.org/wiki/ReactOS|EN.Wikipedia "ReactOS"]], [[http://de.wikipedia.org/wiki/ReactOS|DE.Wikipedia "ReactOS"]].
+
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Microsoft_Windows/|OpenDirectory "Top: Computers: Software: Operating Systems: Microsoft Windows"]].
+{{tag>Windows W2k "Windows 2000" 2000 2k WinXP XP "Windows XP" "Windows 2003 Server" "Windows 2003" Win2003 2003 ReactOS}}
+<footnote_navi_en>
