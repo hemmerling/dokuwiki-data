@@ -1,12 +1,19 @@
-====== [hemmerling] Scripting Programming Languages for Windows ======
+====== [hemmerling] Scripting Languages for Windows 1/3 ======
+Related page:
+  *[[wscripting02.html|Scripting Languages for Windows 2/3 - Windows PowerShell]].
+  *[[wscripting03.html|Scripting Programming Languages for Windows 3/3 - Testing with Windows PowerShell]].
 ===== Organisations, Events =====
   *"PowerShell User Group Hannover", Germany.
     *[[http://www.powershell-group.eu/|PowerShell Community]].
       *[[http://www.powershell-group.eu/events/|PowerShell Community "PowerShell User Group Hannover - Veranstaltungen"]].
     *[[http://www.netz-weise.de/user-groups/powershell-user-group.html|Netz-Weise * IT-Training und Beratung "PowerShell User Group Hannover - Es ist Zeit!"]].
+    *[[http://www.xing.com/communities/groups/powershell-usergroup-hannover-973d-1050146|XING "PowerShell Usergroup Hannover"]].
     *Starting with 2015-02-20, there will be a meeting on every 3rd. Friday in a month :-).
-  *"PowerShell Community Konferenz" in Oberhausen, Germany ( 2013-04-09 - 2014-09-11, 2014-05-06 - 2014-05-08 ). 
-    *[[http://www.powershell.de/Powershell/Konferenz/|powershell.de "PowerShell Community Konferenz 2014. 6.5. bis 8.5.2014 in Oberhausen/Ruhrgebiet"]].
+  *[[http://www.powershell.de/Powershell/Konferenz/|powershell.de "PowerShell Community Konferenz"]].
+    *in Oberhausen, Germany ( 2013-04-09 - 2014-09-11, 2014-05-06 - 2014-05-08 ). 
+    *in Essen, Germany ( 2015-04-21 - 2015-04-23 ).
+    *[[http://www.powertheshell.com/psconf2015/|PowerTheShell - Home of the ISESteroids for PowerShell "German PowerShell Conference 2015"]].
+    *[[http://www.powertheshell.com/psconf2015/wpk2015materials/|PowerTheShell - Home of the ISESteroids for PowerShell "Conference Materials & Impressions"]].
 ===== COMMAND.COM, 4DOS =====
   *[[http://www.jpsoft.com/| JP Software]]
      *4DOS - free command shell for MSDOS, Win95, Win98, Win98SE, WinME.
@@ -14,161 +21,17 @@
   *[[http://www.4dos.info/|4DOS.INFO - Klaus Meinhard's Homepage]] - "Everything about 4DOS and Batch Programming - Alles zu 4DOS und Batch-Programmierung".
   *How to redirect StdErr with 4DOS & 4NT, to save it to a file: "application.exe >&>saved_stderr.txt".
   *How to redirect StdErr with 4DOS & 4NT, to append it to a file: "application.exe >>&>saved_stderr.txt".
-
-
-===== Windows Scripting Host (WSH) =====
-  *[[http://en.wikipedia.org/wiki/Windows_Script_Host|EN.Wikipedia: "Windows Script Host"]].
-  *[[http://en.wikipedia.org/wiki/JScript|EN.Wikipedia: "JScript"]].
-  *[[http://en.wikipedia.org/wiki/Vbscript|EN.Wikipedia: "VBScript"]].
-  *[[http://en.wikipedia.org/wiki/Component_object_model|EN.Wikipedia: "Component Object Model"]].
-  *[[http://en.wikipedia.org/wiki/Windows_Management_Instrumentation|EN.Wikipedia: "Windows Management Instrumentation"]].
-  *[[http://msdn.microsoft.com/en-us/library/d1wf56tt%28VS.85%29.aspx|Microsoft Windows Script Technologies]].
-    *[[http://msdn.microsoft.com/en-us/library/t0aew7h6%28VS.85%29.aspx|VBScript]].
-    *[[http://msdn.microsoft.com/en-us/library/hbxc2t98%28VS.85%29.aspx|JScript (Windows Script Technologies)]].
-    *[[http://msdn.microsoft.com/en-us/library/aa393026%28VS.85%29.aspx|Refreshing WMI Data in Scripts]] - "Windows 2000:  The capacity to refresh data in scripts is not supported".
-  *[[http://msdn.microsoft.com/en-gb/library/aa394582%28VS.85%29.aspx|Windows Management Instrumentation]] by MSDN Windows Developer Centre.
-  *[[http://en.wikipedia.org/wiki/Microsoft_Windows_SDK|EN.Wikipedia: "Microsoft Windows SDK"]].
-    *[[http://www.microsoft.com/downloads/details.aspx?FamilyId=484269E2-3B89-47E3-8EB7-1F2BE6D7123A&displaylang=en|Windows® Server 2003 R2 Platform SDK Full Download]], for W2k.
-    *[[http://www.microsoft.com/downloads/details.aspx?FamilyId=F26B1AA4-741A-433A-9BE5-FA919850BDBF&displaylang=en|Windows SDK for Windows Server 2008 and .NET Framework 3.5]].
-    *[[http://msdn.microsoft.com/en-us/windows/bb980924.aspx|Windows Developer Center > Learn >  Microsoft Windows Software Development Kit]].
-    *These directories contain VBS code
-      *".\Samples".
-      *".\Samples\SysMgmt\WMI\Scripting".
-      *".\Samples\SysMgmt\Msi\Scripts",...
-  *Windows Script 5.7
-    *[[http://www.microsoft.com/downloads/details.aspx?familyid=C03D3E49-B40E-4CA1-A0C7-CC135EC4D2BE&displaylang=en|Windows Script 5.7 for Windows 2000]], by Microsoft Download Center.
-    *[[http://www.microsoft.com/downloads/details.aspx?familyid=47809025-D896-482E-A0D6-524E7E844D81&displaylang=en|Windows Script 5.7 for Windows XP]], by Microsoft Download Center.
-    *[[http://www.microsoft.com/downloads/details.aspx?familyid=F00CB8C0-32E9-411D-A896-F2CD5EF21EB4&displaylang=en|Windows Script 5.7 for Windows Server 2003]], by Microsoft Download Center.
-  *Windows Script 5.6
-    *[[http://www.microsoft.com/downloads/details.aspx?familyid=C717D943-7E4B-4622-86EB-95A22B832CAA&displaylang=en|Windows Script 5.6 for Windows XP and Windows 2000]], by Microsoft Download Center.
-    *[[http://www.microsoft.com/downloads/details.aspx?familyid=01592C48-207D-4BE1-8A76-1C4099D7BBB9&displaylang=en|Windows Script 5.6 Documentation]], by Microsoft Download Center.
-  *[[http://ip-tietgennet.tietgen.dk/staff/mlha/Download/WIN/|TietgenSkolen, Mogens Lind Hansen]] - Windows Script documentation, as Windows help files, by Microsoft
-    *wscdoc.exe - Windows Script components.
-    *wshdoc.exe - Windows Scripting Host.
-    *vbsdoc.exe - Visual Basic Script (VBScript).
-    *jsdoc.exe - JScript.
-  *[[ftp://ftp.fh-muenchen.de/pub/windows/32-bit/win32/MS%20fixes/vbasic%20%20java%20script%202.0/vbsdoc.exe|vbsdoc.exe]]  - Windows Script documentation, as HTML files, by Microsoft.
-  *[[http://www.microsoft.com/downloads/details.aspx?familyid=9C80B0DF-B9B4-4FCB-B513-02F8F40049E8&displaylang=en|VBScript Quick Reference]], by Microsoft Download Center.
-  *[[http://www.microsoft.com/downloads/details.aspx?familyid=75CCA21A-53B9-4949-9B62-A8FC7926E914&displaylang=en|Script Center All-in-One]], by Microsoft Download Center.
-  *IDispatch
-    *[[http://en.wikipedia.org/wiki/IDispatch|EN.Wikipedia: "IDispatch"]].
-    *[[http://technet.microsoft.com/en-gb/library/ee198909.aspx|Microsoft TechNet: Microsoft Windows 2000 Scripting Guide - COM Objects
-]] - "As noted previously in this chapter, VBScript works with a subset of objects known as Automation objects. All COM objects must support one or more interfaces, which are simply the avenues by which a COM client can access the COM server. Any object that supports the IDispatch interface is known as an Automation object. Because not all COM objects support the IDispatch interface, VBScript cannot access all of the COM objects on your computer".
-===== Windows PowerShell =====
-==== Tips & Tricks =====
-  *Best training strategy, according to PowerShell experts:
-    -First learn how to use PowerShell for Windows system administration.
-    -Afterwards, you may also learn how to use PowerShell as a Window developer.
-  *Run "start /w aCommand" to get the script prompt back after the execution of the command "aCommand" is finished. Else the prompt returns immediately and the shell does not wait for completion of the execution of "aCommand".
-  *The most important commands :-) for rookies:
-    -PowerShell command "get-command".
-    -PowerShell command "get-help".
-    -Application "powershell_ise.exe".
-    -Since PowerShell 3, help must be installed manually, by "update-help -force -verbose UIculture de-DE".
-  *There are 2 levels of compatibility
-
-^ ^ ^ ^ ^
-^Version ^ .NET ^ Compatibility ^ Operating System ^ Comments ^
-^ Powershell 1 | .NET 2.0 | 1 & 2 | WinXP | outdated |
-^ Powershell 2 | .NET 2.0, .NET 3.5 | ::: | WinXP | supported |
-^ Powershell 3 | .NET 4.0, .NET 4.5 | 3 & 4 | Win7, Win8 | supported |
-^ Powershell 4 | .NET 4.0, .NET 4.5 | ::: | Win7, Win8.1 | supported, can't be installed on Win8 |
-^ Powershell 5 | ? | ::: | Win2012, Win8.1 | supported |
-^ | | | | |
-
-  *Redirection:
-    *In opposite to the Linux / Unix shells, e.g. Bourne Shell, there is no input redirection, even with "Powershell 5" :-(. 
-    *Full output redirection was a lately implemented feature of Powershell :-). 
-    *Remember that with output redirection, not plain text, but objects are returned - that's much more than available with Bourne Shell or other text-based input redirection.
-    *How to redirect StdErr with PowerShell: "application.exe 2>&1 >saved_stderr.txt".
-  *[[http://stackoverflow.com/questions/183901/how-to-start-powershell-from-windows-explorer|Stack Overflow "How to start PowerShell from Windows Explorer?"]] - "In Windows Explorer, just go to the Address Bar at the top (keyboard shortcut: Alt+D) and type powershell and press Enter. A Powershell command window opens with the current directory".
-  *If you don´t own Win8.1 or Win2012Server, you don´t get the latests high-level functions. On Win7 and Win2008Server, if you want do implement the missing high-level functions by your own, you have to write .NET software in C#. 
-    *Unfortunately, the names of methods you need are not mentioned in the Powershell documentation. Instead, you have to find it in the .NET and WPL documentation, by yourself!
-    *It is challenging to get names of methods you want to use, by the .NET and WPL documentation.
-  *PowerShell Execution Policies.
-    *[[http://technet.microsoft.com/library/hh847748.aspx|Microsoft TechNet "about_Execution_Policies"]].
-    *I myself like to create and use a batch file "powershell_unrestricted.ps1" with the contents "PowerShell.exe -ExecutionPolicy Unrestricted" :-) to work without restrictions.
-  *[[http://www.stackoverflow.com/questions/1825585/determine-installed-powershell-version|StackOverflow "Determine installed PowerShell version"]] - "$PSVersionTable.PSVersion".
-
-==== Tools ====
-=== Coding Rules ===
-  *ScriptCop -> See [[goodcoding.html|Good Coding ! - Software Coding, Coding Rules, Static Code Analysis, Code Reviews]].
-=== Desired State Configuration ( DSC ) ===
-  *See [[ddl.html|Device Description Languages and Device Parameterization]].
-=== Package Manager ===
-  *[[http://www.nuget.org/|NuGet]].
-    *[[http://docs.nuget.org/|NuGet Docs]].
-      *[[http://docs.nuget.org/docs/start-here/using-the-package-manager-console|NuGet "Finding and Installing a NuGet Package Using the Package Manager Console"]].
-    *Blog [[http://blog.nuget.org/|NuGet Team Blog]].
-=== PowerShell - Downloads ===
-== PowerShell 4 - Download for Win7 ===
-  *[[http://www.microsoft.com/en-us/download/details.aspx?id=40855|Microsoft Download Center "Windows Management Framework 4.0"]] - Powershell4 plus some documents about "Desired State Configuration".
-== PowerShell - Windows PowerShell ISE Add-On Tools ===
-  *[[http://social.technet.microsoft.com/wiki/contents/articles/2969.windows-powershell-ise-add-on-tools.aspx|Microsoft TechNet "Windows PowerShell ISE Add-On Tools"]].
-=== PowerShell Remoting ===
-  *With PowerShell Remoting, you can execute PowerShell scripts on other computers running WinXP or Win7, including VirtualPCs running WinXP, Win7.
-  *[[http://msdn.microsoft.com/en-us/library/windows/desktop/ee706585%28v=vs.85%29.aspx|Microsoft MSDN, Dev-Center -  Desktop  "Windows PowerShell Remoting"]].
-  *[[http://social.technet.microsoft.com/Forums/de-DE/windowsservergewusstwiede/thread/c12c0f68-49a4-48ae-9e16-d342fb4dac8e/|MSDN TechNet "PowerShell: Windows PowerShell Remoting"]].
-  *[[http://www.powershell.com/cs/blogs/news/archive/2010/03/03/administrator-s-guide-to-powershell-remoting.aspx|PowerShell.com "Administrator's Guide to PowerShell Remoting"]].
-    *[[http://powershell.com/cs/media/p/4908.aspx|PowerShell.com "Administrator's Guide to Windows PowerShell Remoting"]].
-=== PowerShell for SQL Server ===
-  *[[http://www.idera.com/|idera - Tools for SQL Server, Sharepoint and PowerShell]].
-    *[[http://www.idera.com/Products/Free-Tools/PowerShell-scripts/?s=EB_SQLPass_PS|idera - Tools for SQL Server, Sharepoint and PowerShell "PowerShell scripts. Free PowerShell scripts for SQL Server, AD, Exchange and SharePoint"]].
-    *[[http://www.idera.com/Promo/Practical-PowerShell/?s=EB_SQLPass_PS|idera - Tools for SQL Server, Sharepoint and PowerShell "Practical PowerShell Video Series"]].
-    *[[http://www.idera.com/Education/PowerShell-Webcasts/?s=EB_SQLPass_PS|idera - Tools for SQL Server, Sharepoint and PowerShell]]. 
-=== Testing, Unit Test, Behave Driven Development ===
-== Behave Driven Development ==
-  *Pester -> See [[specbyex.html|Specification by Example]].
-== UI Automation ==
-  *"Test Run" -> See [[testing.html|Testing]].
-== Unit Test ==
-  *PSTest, PSUnit -> See [[unittest.html|Unit Test / Module Test]].
-== Whatif ==
-  *[[http://blog.pluralsight.com/test-powershell-with-whatif|Pluralsight blog Where devs, IT admins & creative pros go for news, tips, videos and more "Test PowerShell with WhatIf"]].
-==== PowerShell Links for Developers ====
-  *[[http://msdn.microsoft.com/en-us/library/dd835506%28v=vs.85%29.aspx|Microsoft Developer Network "Windows PowerShell"]] - "Windows PowerShell Documents on MSDN".
-  *[[http://msdn.microsoft.com/en-us/library/windows/desktop/dd835506%28v=vs.85%29.aspx|Microsoft Windows Dev-Center - Desktop "Windows PowerShell]].
-  *[[http://msdn.microsoft.com/en-us/library/ms714658%28VS.85%29.aspx|Microsoft Developer Network "How Windows PowerShell Works"]].
-==== Resources ====
-  *Microsoft.
-    *Blog [[http://blogs.msdn.com/b/powershell/|MSDN Blogs "Windows PowerShell Blog. Automating the world one-liner at a time…"]].
-    *[[http://technet.microsoft.com/en-gb/scriptcenter|Microsoft TechNet "Script Center"]].
-      *[[http://technet.microsoft.com/en-gb/scriptcenter/dd742419.aspx|Microsoft TechNet "Windows PowerShell Scripting"]], [[http://www.microsoft.com/powershell|Microsoft PowerShell]].
-    *[[http://technet.microsoft.com/en-us/library/bb978526.aspx|Microsoft TechNet "Scripting with Windows PowerShell"]].
-    *[[http://msdn2.microsoft.com/en-us/library/aa830112.aspx|Microsoft MSDN Developer Network "Windows PowerShell"]] - "Windows PowerShell Getting Started Guide", "Windows PowerShell Programmer's Guide", "Windows PowerShell SDK", "PowerShell Managed Reference".
-    *[[http://technet.microsoft.com/de-de/library/cc196356.aspx|Microsoft TechNet "Windows PowerShell-Benutzerhandbuch"]].
-    *[[http://technet.microsoft.com/de-de/library/ee332526.aspx|Microsoft TechNet "Wie kann ich Windows PowerShell einsetzen? Ein aufgabenbasierter Leitfaden für Windows PowerShell-Cmdlets"]].
-    *[[http://blogs.msdn.com/powershell/|Microsoft MSDN "Windows PowerShell Blog"]].
-      *[[http://blogs.msdn.com/b/powershell/archive/2008/12/30/download-windows-powershell.aspx|Windows PowerShell Blog "Download Windows PowerShell"]].
-    *[[http://msdn.microsoft.com/en-us/magazine/ee291628.aspx|Microsoft MSDN Magazine "Glenn Block: Managed Extensibility Framework. Building Composable Apps in .NET 4 with the Managed Extensibility Framework"]].
-  *"P/Invoke".
-    *[[http://msdn.microsoft.com/en-us/library/aa446536.aspx|Microsoft Developer Network "An Introduction to P/Invoke and Marshaling on the Microsoft .NET Compact Framework"]].
-    *[[http://www.pinvoke.net/|PInvoke.net? - A wiki for .NET developers]].
-    *According to experts, PowerShell scripts might even access the Win32 API by "P/Invoke".
-  *PowerShell does not run on W2k.
-    *Thomas Lee.
-      *[[http://tfl09.blogspot.com/2005/10/monad-on-windows-2000.html|Monad on Windows 2000]].
-      *[[http://tfl09.blogspot.com/2007/08/powershell-on-windows-2000-forget-it.html|PowerShell on Windows 2000 - Forget it]] - "... but thought I'd mention that the only thing preventing one from running PowerShell on Win2K is the fact that the installer checks the windows build. You can break open the msi with Orca and add in your build (including SP) and it works just fine".
-    *[[http://blogs.msdn.com/powershell/|Windows PowerShell Blog]].
-      *[[http://blogs.msdn.com/powershell/archive/2007/05/18/the-virtuous-cycle-net-developers-using-to-powershell.aspx|Too bad, that PS isn't available on Windows 2000]].
-  *[[http://www.reskit.net/powershell/|The PowerShell Information Centre]].
-  *[[http://www.powershellpraxis.de/|PowerShellPraxis]], Germany.
-  *[[http://pscommunity.de/|powershell.de - PowerShell-Wissen in deutsch]].
-  *[[http://www.powershell.com/|PowerShell.com - The Community for PowerShell People]].
-  *[[http://www.powershellplus.com/|PowerShell Plus / PowerShell +]].
-  *[[http://www.powershellmagazine.com/|PowerShell Magazine]].
-  *[[http://powerscripting.wordpress.com/|PowerScripting Podcast]] - "Shownotes and links for the PowerScripting Podcast, a podcast to help people learn Windows Powershell".
-  *Wikipedia.
-    *[[http://en.wikipedia.org/wiki/Managed_Extensibility_Framework|EN.Wikipedia "Managed Extensibility Framework"]] - You may use it to write plugins for .NET applications. As PowerShell is a .NET application, you may do so for PowerShell too, according to experts.
-    *[[http://en.wikipedia.org/wiki/Windows_PowerShell|EN.Wikipedia:"Windows PowerShell"]], [[http://de.wikipedia.org/wiki/Windows_PowerShell|DE.Wikipedia:"Windows PowerShell"]].
-    *[[http://www.microsoft.com/windowsserver2003/technologies/management/powershell/|Windows PowerShell]].
 ===== Frontier =====
   *The free [[http://scripting.com/frontier5/downloads/default.html|Scripting.com "Frontier 5.0.1"]] for Windows, by [[http://www.userland.com/|Userland]].
 ===== Visual Studio Tools for Office =====
   *[[http://en.wikipedia.org/wiki/Visual_Studio_Tools_for_Office|EN.Wikipedia: "Visual Studio Tools for Office"]].
-===== Development Tools =====
+===== Windows PowerShell =====
+  *See [[wscripting02.html|Scripting Programming Languages for Windows 2/2  - Windows PowerShell]].
+  *See [[wscripting03.html|Scripting Programming Languages for Windows 2/2  - Testing with Windows PowerShell]].
+===== Windows Scripting Host (WSH), VBScript,.. =====
+==== Development Tools ====
   *Commercial Tools.
-    -The commercial [[http://www.sapien.com/|SAPIEN Technologies, Inc "PrimalScript"]].
+    -The commercial [[http://www.sapien.com/software/primalscript|SAPIEN Technologies, Inc "PrimalScript"]].
     -The commercial [[http://www.scriptinternals.com/|ScriptInternals "SystemScripter"]] by Tobias Weltner.
     -The commercial [[http://www.onscript.com/|XL.now "OnScript"]].
     -The commercial [[http://www.adminscripteditor.com/|Admin Script Editor (ASE)]].
@@ -193,26 +56,60 @@
     -[[http://www.microsoft.com/downloads/details.aspx?FamilyId=408024ED-FAAD-4835-8E68-773CCC951A6B&displaylang=en|Windows Script Component Wizard]], for  .wsc files.
     -[[http://www.microsoft.com/downloads/details.aspx?familyid=be596899-7bb8-4208-b7fc-09e02a13696c&displaylang=en|Microsoft Exchange Server Error Code Look-up]]. 
        *[[http://blogs.msdn.com/astebner/archive/2008/06/17/8611734.aspx|Aaron Stebner's WebLog: "Information about the err.exe tool I use to look up error codes when debugging setup issues"]].
-  * Free PowerShell tools, by Microsoft Download Center.
-    -[[http://www.microsoft.com/downloads/details.aspx?familyid=D87DAF50-E487-4B0B-995C-F36A2855016E&displaylang=en|Windows PowerShell Scriptomatic]].
-===== Resources =====
-  *Microsoft TechNet Script Center
-    *[[http://technet.microsoft.com/en-gb/scriptcenter/|Microsoft TechNet "Script Center"]] / [[http://gallery.technet.microsoft.com/ScriptCenter/en-us/|Microsoft TechNet Script Center Gallery]].
-  *Microsoft Download Center: [[http://www.microsoft.com/downloads/details.aspx?familyid=B4CB2678-DAFB-4E30-B2DA-B8814FE2DA5A&displaylang=en|TechNet Script Center Sample Scripts]].
-  *[[http://www.codeguru.com/csharp/csharp/cs_network/wmi/article.php/c6035/|Codeguru: "A Simple Guide to WMI Provider"]].
-  *[[http://www.theopensourceu.com/|The Open Source]].
-    *[[http://www.theopensourceu.com/2009/05/debug-vbscript-with-visual-studio/comment-page-1/|Debug VBScript with Visual Studio]].
+==== Resources ====
+  *[[http://www.activexperts.com/activmonitor/windowsmanagement/adminscripts/|ActiveXperts: Scripts Collection]].
+  *[[http://alperguc.blogspot.com/2008/11/c-wmi-startup-programs-list-startup.html|Programming Blog by ASG "C# WMI Startup Programs, List Startup Applications with ManagementClass"]].
   *[[http://www.devguru.com/|DevGuru]].
     *[[http://www.devguru.com/technologies/vbscript/|VBScript - Introduction]].
     *[[http://www.devguru.com/technologies/wsh/home.asp|WSH - Introduction]].
     *[[http://www.devguru.com/technologies/technologies.asp|Quick References]] - WSH, VBScript,..
-  *[[http://www.activexperts.com/activmonitor/windowsmanagement/adminscripts/|ActiveXperts: Scripts Collection]].
+  *IDispatch.
+    *[[http://en.wikipedia.org/wiki/IDispatch|EN.Wikipedia: "IDispatch"]].
+    *[[http://technet.microsoft.com/en-gb/library/ee198909.aspx|Microsoft TechNet: Microsoft Windows 2000 Scripting Guide - COM Objects]] - "As noted previously in this chapter, VBScript works with a subset of objects known as Automation objects. All COM objects must support one or more interfaces, which are simply the avenues by which a COM client can access the COM server. Any object that supports the IDispatch interface is known as an Automation object. Because not all COM objects support the IDispatch interface, VBScript cannot access all of the COM objects on your computer".
+  *Microsoft TechNet Script Center.
+    *[[http://technet.microsoft.com/en-gb/scriptcenter/|Microsoft TechNet "Script Center"]] / [[http://gallery.technet.microsoft.com/ScriptCenter/en-us/|Microsoft TechNet Script Center Gallery]].
+  *Microsoft Download Center: [[http://www.microsoft.com/downloads/details.aspx?familyid=B4CB2678-DAFB-4E30-B2DA-B8814FE2DA5A&displaylang=en|TechNet Script Center Sample Scripts]].
+  *[[http://www.codeguru.com/csharp/csharp/cs_network/wmi/article.php/c6035/|Codeguru: "A Simple Guide to WMI Provider"]].
+  *[[http://msdn.microsoft.com/en-gb/library/cc231199%28PROT.13%29.aspx|Microsoft Developer Network ( MSDN ): "Win32 Error Codes"]].
+  *[[http://msdn.microsoft.com/en-us/library/d1wf56tt%28VS.85%29.aspx|Microsoft Windows Script Technologies]].
+    *[[http://msdn.microsoft.com/en-us/library/t0aew7h6%28VS.85%29.aspx|VBScript]].
+    *[[http://msdn.microsoft.com/en-us/library/hbxc2t98%28VS.85%29.aspx|JScript (Windows Script Technologies)]].
+    *[[http://msdn.microsoft.com/en-us/library/aa393026%28VS.85%29.aspx|Refreshing WMI Data in Scripts]] - "Windows 2000:  The capacity to refresh data in scripts is not supported".
+  *[[http://msdn.microsoft.com/en-gb/library/aa394582%28VS.85%29.aspx|Windows Management Instrumentation]] by MSDN Windows Developer Centre.
+  *[[http://www.theopensourceu.com/|The Open Source]].
+    *[[http://www.theopensourceu.com/2009/05/debug-vbscript-with-visual-studio/comment-page-1/|Debug VBScript with Visual Studio]].
+  *[[http://en.wikipedia.org/wiki/Microsoft_Windows_SDK|EN.Wikipedia: "Microsoft Windows SDK"]].
+    *[[http://www.microsoft.com/downloads/details.aspx?FamilyId=484269E2-3B89-47E3-8EB7-1F2BE6D7123A&displaylang=en|Windows® Server 2003 R2 Platform SDK Full Download]], for W2k.
+    *[[http://www.microsoft.com/downloads/details.aspx?FamilyId=F26B1AA4-741A-433A-9BE5-FA919850BDBF&displaylang=en|Windows SDK for Windows Server 2008 and .NET Framework 3.5]].
+    *[[http://msdn.microsoft.com/en-us/windows/bb980924.aspx|Windows Developer Center > Learn >  Microsoft Windows Software Development Kit]].
+    *These directories contain VBS code
+      *".\Samples".
+      *".\Samples\SysMgmt\WMI\Scripting".
+      *".\Samples\SysMgmt\Msi\Scripts",...
+  *Windows Script 5.7.
+    *[[http://www.microsoft.com/downloads/details.aspx?familyid=C03D3E49-B40E-4CA1-A0C7-CC135EC4D2BE&displaylang=en|Windows Script 5.7 for Windows 2000]], by Microsoft Download Center.
+    *[[http://www.microsoft.com/downloads/details.aspx?familyid=47809025-D896-482E-A0D6-524E7E844D81&displaylang=en|Windows Script 5.7 for Windows XP]], by Microsoft Download Center.
+    *[[http://www.microsoft.com/downloads/details.aspx?familyid=F00CB8C0-32E9-411D-A896-F2CD5EF21EB4&displaylang=en|Windows Script 5.7 for Windows Server 2003]], by Microsoft Download Center.
+  *Windows Script 5.6
+    *[[http://www.microsoft.com/downloads/details.aspx?familyid=C717D943-7E4B-4622-86EB-95A22B832CAA&displaylang=en|Windows Script 5.6 for Windows XP and Windows 2000]], by Microsoft Download Center.
+    *[[http://www.microsoft.com/downloads/details.aspx?familyid=01592C48-207D-4BE1-8A76-1C4099D7BBB9&displaylang=en|Windows Script 5.6 Documentation]], by Microsoft Download Center.
+  *[[http://ip-tietgennet.tietgen.dk/staff/mlha/Download/WIN/|TietgenSkolen, Mogens Lind Hansen]] - Windows Script documentation, as Windows help files, by Microsoft
+    *wscdoc.exe - Windows Script components.
+    *wshdoc.exe - Windows Scripting Host.
+    *vbsdoc.exe - Visual Basic Script (VBScript).
+    *jsdoc.exe - JScript.
+  *[[ftp://ftp.fh-muenchen.de/pub/windows/32-bit/win32/MS%20fixes/vbasic%20%20java%20script%202.0/vbsdoc.exe|vbsdoc.exe]]  - Windows Script documentation, as HTML files, by Microsoft.
+  *[[http://www.microsoft.com/downloads/details.aspx?familyid=9C80B0DF-B9B4-4FCB-B513-02F8F40049E8&displaylang=en|VBScript Quick Reference]], by Microsoft Download Center.
+  *[[http://www.microsoft.com/downloads/details.aspx?familyid=75CCA21A-53B9-4949-9B62-A8FC7926E914&displaylang=en|Script Center All-in-One]], by Microsoft Download Center.
   *[[http://www.vb-helper.com|VB Helper]] by Rod Stephens, Rocky Mountain Computer Consulting, Inc.
      *[[http://www.vb-helper.com/howto_2005_wmi_get_os_info.html|Use WMI to get lots of information about the operating system in Visual Basic 2005]].
   *[[http://community.spiceworks.com/|Spiceworks Community]].
      *[[http://community.spiceworks.com/how_to/show/4|Setting The Default WMI Namespace Security]].
-  *[[http://alperguc.blogspot.com/2008/11/c-wmi-startup-programs-list-startup.html|C# WMI Startup Programs, List Startup Applications with ManagementClass]].
-  *[[http://msdn.microsoft.com/en-gb/library/cc231199%28PROT.13%29.aspx|Microsoft Developer Network ( MSDN ): "Win32 Error Codes"]].
+  *[[http://en.wikipedia.org/wiki/Windows_Script_Host|EN.Wikipedia: "Windows Script Host"]].
+  *[[http://en.wikipedia.org/wiki/JScript|EN.Wikipedia: "JScript"]].
+  *[[http://en.wikipedia.org/wiki/Vbscript|EN.Wikipedia: "VBScript"]].
+  *[[http://en.wikipedia.org/wiki/Component_object_model|EN.Wikipedia: "Component Object Model"]].
+  *[[http://en.wikipedia.org/wiki/Windows_Management_Instrumentation|EN.Wikipedia: "Windows Management Instrumentation"]].
 ===== Experts =====
 ==== Alan Renouf @ VMware ====
   *[[http://www.virtu-al.net/|Virtu-Al.Net - Virtually everything is POSHable]].
@@ -221,71 +118,136 @@
     *[[http://www.vmware.com/support/developer/PowerCLI/|VMware "Download VMware vSphere PowerCLI"]].
     *[[http://www.vmware.com/support/developer/PowerCLI/|VMware "vSphere PowerCLI Documentation"]].
 ==== Ed Wilson ====
-    *He is one of the [[http://technet.microsoft.com/en-us/scriptcenter/dd901334.aspx|Scripting Guys]] from Microsoft’s Script Center.
-    *Book [[http://www.amazon.de/exec/obidos/ASIN/B0011W6S7U/hemmerling-21|Ed Wilson: "Microsoft Windows Scripting Self-Paced Learning Guide"]].
-      *The paper book is shipped with a PDF book issue, on CD.
-    *Book [[http://www.amazon.de/exec/obidos/ASIN/3866456026/hemmerling-21|Ed Wilson: "Windows-Scripting mit WMI - Eine praxisorientierte Einführung"]].
-    *Book [[http://www.amazon.de/exec/obidos/ASIN/0735622973/hemmerling-21|Ed Wilson: "Microsoft VBScript Step by Step"]].
-      *The paper book is shipped with a PDF book issue, on CD.
-      *Chapter 21: "Troubleshooting WMI Scripting", making use of
-        *WMI Control Tool.
-        *Scriptomatic.
-        *The Windows Management Instrumentation Tester ( WBEMtest.exe ).
-        *Err Tool.
-        *MofComp.exe.
-        *WMIcheck ( on CD ).
-    *[[http://www.edwilson.net/|Ed Wilson's website]].
-      *[[http://www.edwilson.net/vbscript_tips1.htm|Ed Wilson: "VBScript tips and tricks"]].
-    *Blog "[[http://blogs.technet.com/heyscriptingguy/|Hey, Scripting Guy! Blog]]".
-    *Webcasts [[http://technet.microsoft.com/en-gb/scriptcenter/dd901154.aspx|Scripting Guys Webcasts]].
+  *He is one of the [[http://technet.microsoft.com/en-us/scriptcenter/dd901334.aspx|Scripting Guys]] from Microsoft’s Script Center.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0735663394/hemmerling-21|Ed Wilson: "PowerShell 3.0 : Windows PowerShell 3.0 step by step"]], 2013.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0735626464/hemmerling-21|Ed Wilson "Windows PowerShell 2.0 Best Practices"]], 2010.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0735622795/hemmerling-21|Ed Wilson "Windows PowerShell Scripting Guide"]], 2008.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/B0011W6S7U/hemmerling-21|Ed Wilson: "Microsoft Windows Scripting Self-Paced Learning Guide"]].
+    *The paper book is shipped with a PDF book issue, on CD.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3866456026/hemmerling-21|Ed Wilson: "Windows-Scripting mit WMI - Eine praxisorientierte Einführung"]], 2006.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0735622973/hemmerling-21|Ed Wilson: "Microsoft VBScript Step by Step"]], 2006.
+    *The paper book is shipped with a PDF book issue, on CD.
+    *Chapter 21: "Troubleshooting WMI Scripting", making use of
+      *WMI Control Tool.
+      *Scriptomatic.
+      *The Windows Management Instrumentation Tester ( WBEMtest.exe ).
+      *Err Tool.
+      *MofComp.exe.
+      *WMIcheck ( on CD ).
+  *[[http://www.edwilson.net/|Ed Wilson's website]].
+    *[[http://www.edwilson.net/vbscript_tips1.htm|Ed Wilson: "VBScript tips and tricks"]].
+  *Blog "[[http://blogs.technet.com/heyscriptingguy/|Hey, Scripting Guy! Blog]]".
+  *Webcasts [[http://technet.microsoft.com/en-gb/scriptcenter/dd901154.aspx|Scripting Guys Webcasts]].
 ==== Tobias Weltner & Holger Schwichtenberg ====
 === Training ===
   *[[http://www.powershell.de/|powershell.de - Jetzt PowerShell 3.0/4.0 lernen! Mit Dr. Tobias Weltner, Peter Monadjemi und Dr. Holger Schwichtenberg]] - "PowerShell-Kurse/Seminare & In-House-Schulungen mit den deutschen Top-Experten".
 === Tobias Weltner ===
-  *Book [[http://www.amazon.de/exec/obidos/ASIN/3866456875/hemmerling-21|Tobias Weltner: "Scripting mit Windows PowerShell 3.0 - Der Workshop: Skript-Programmierung mit Windows PowerShell 3.0 vom Einsteiger bis zum Profi"]] #.
-  *Book [[http://www.amazon.de/exec/obidos/ASIN/3772364853/hemmerling-21|Tobias Weltner: "Scripting Host Praxisbuch"]], 2nd. Edition.
+  *[[http://www.powertheshell.com/|PowerTheShell - Home of the ISESteroids for PowerShell]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3866456875/hemmerling-21|Tobias Weltner: "Scripting mit Windows PowerShell 3.0 - Der Workshop: Skript-Programmierung mit Windows PowerShell 3.0 vom Einsteiger bis zum Profi"]], 2013 #.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3866456808/hemmerling-21|Tobias Weltner "Windows PowerShell 2.0 Scripting für Administratoren: Das Praxisbuch mit Rezepten zur automatisierten Verwaltung von Windows-Systemen"]], 2011.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3772364853/hemmerling-21|Tobias Weltner: "Scripting Host Praxisbuch, m. CD-ROM"]], 2nd. Edition, 2001.
     *Chapter 5 "Scripting Host mit Ausgabefenster".
     *Chapter 10 "Programme fernsteuern".
     *Chapter 13 "Der neue WSH 5.6" - new chapter in the 2.nd edition.
-  *Book [[http://www.amazon.de/exec/obidos/ASIN/3772366856/hemmerling-21|Tobias Weltner: "Scripting Host Werkzeugkasten"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3772366856/hemmerling-21|Tobias Weltner: "Scripting Host Werkzeugkasten"]], 2001.
   *[[http://www.scriptinternals.com/|ScriptInternals]] by Tobias Weltner.
     *[[http://www.scriptinternals.com/new/us/default.asp?41001|Scriptinternals: "WMI Namespace 'root\cimv2'"]] - WMI Reference for W2k, WinXP, W2003.
   *[[http://www.pscommunity.de/|Tobias Weltner "powershell.de - PowerShell-Wissen in deutsch"]].
 === Holger Schwichtenberg ===
-  *Book [[http://www.amazon.de/exec/obidos/ASIN/3827331757/hemmerling-21|Holger Schwichtenberg, Peter Monadjemi: "Windows PowerShell 3.0: Das Praxisbuch (net.com)"]] #.
-  *Book [[http://www.amazon.de/exec/obidos/ASIN/3827329094/hemmerling-21|Holger Schwichtenberg: "Windows Scripting: Automatisierte Systemadministration mit dem Windows Script Host und der Windows PowerShell"]].
-  *Book [[http://www.amazon.de/exec/obidos/ASIN/3827321700/hemmerling-21|Holger Schwichtenberg: "Windows Scripting lernen"]].
-  *Book [[http://www.amazon.de/exec/obidos/ASIN/3827319366/hemmerling-21|Holger Schwichtenberg: "COM-Komponenten-Handbuch. Systemprogrammierung und Scripting mit COM-Komponenten"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3446440704/hemmerling-21|Holger Schwichtenberg: "Windows PowerShell 4.0: Das Praxisbuch"]], 2014 #.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3827331757/hemmerling-21|Holger Schwichtenberg, Peter Monadjemi: "Windows PowerShell 3.0: Das Praxisbuch (net.com)"]], 2013.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3827332052/hemmerling-21|Holger Schwichtenberg: "Windows Scripting lernen - Von Windows Script Host und Visual Basic Script bis zur Windows PowerShell: Windows Script Host, Visual Basic Script, Windows PowerShell"]], 2012.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3827329094/hemmerling-21|Holger Schwichtenberg: "Windows Scripting - Für alle Windows-Versionen (inkl. XP, Server 2003/R2, Server 2008/R2, Vista, Windows 7): Automatisierte Systemadministration mit mit dem Windows Script Host 5.8 und der Windows PowerShell 2.0 (net.com)"]], 2009.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0672329662/hemmerling-21|Holger Schwichtenberg "Essential PowerShell"]], 2008.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3827325331/hemmerling-21|Holger Schwichtenberg  "Windows PowerShell. Konzepte, Praxiseinsatz, Erweiterungen"]], 2007.
+  *My book [[http://www.amazon.de/exec/obidos/ASIN/3827321700/hemmerling-21|Holger Schwichtenberg: "Windows Scripting lernen"]], 2004.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3827319366/hemmerling-21|Holger Schwichtenberg: "COM-Komponenten-Handbuch. Systemprogrammierung und Scripting mit COM-Komponenten"]], 2001.
   *[[http://www.it-visions.de/|IT-Visions]] / [[http://www.it-visions.de/scripting/|Windows-Scripting.de]] by Holger Schwichtenberg.
     *[[http://www.it-visions.de/Leser|Windows-Scripting.de, Community-Portal-Anmeldung]].
-==== Günter Born ====
-  *Book [[http://www.amazon.de/exec/obidos/ASIN/3860636731/hemmerling-21|Günter Born: "Inside Windows Script Host"]].
-    *Chapter 11 "WSH-Erweiterung mit Microsoft Office".
-  *[[http://www.borncity.de/|Günter Born's website "BornCity"]].
-  *[[http://freenet-homepage.de/gborn/WSHBazaar/|Günter Born's additional homepage "Windows Script Host Bazaar"]].
-==== Don Jones, SAPIEN Technologies, Inc.====
-  *Book [[http://www.amazon.de/exec/obidos/ASIN/0321501713/hemmerling-21|Don Jones : "VBScript, WMI, and ADSI Unleashed: Using VBScript, WMI, and ADSI to Automate Windows Administration"]].
-    *[[http://www.scriptinganswers.com/|ScriptingAnswers.com]] - official book website.
 ==== Peter Kriegel ( local Expert in Lower Saxony ) ====
   *[[http://www.xing.com/profiles/Peter_Kriegel|Peter Kriegel]].
   *[[http://www.powershell-group.eu/|PowerShell Community]], Hannover.
   *[[http://www.admin-source.de/|PowerShell Get-Script -Name Peter Kriegel ! Management ( Admin-Source.de )]].
     *[[http://www.admin-source.de/BlogDeu/buecher-books|PowerShell Get-Script -Name Peter Kriegel ! Management ( Admin-Source.de ) "Bücher / Books"]].
     *[[http://www.admin-source.de/BlogDeu/kostenlose-powershell-ebook-tutorial-workshop-howto|PowerShell Get-Script -Name Peter Kriegel ! Management ( Admin-Source.de ) "Kostenlose PowerShell eBook Tutorial Workshop Howto"]].
-  *[[https://www.youtube.com/user/GermanPowerShell|YouTube Channel "Peter Kriegel"]].
+  *[[http://www.youtube.com/user/GermanPowerShell|YouTube Channel "Peter Kriegel"]].
   *[[http://www.github.com/Kriegel|GitHub "Kriegel"]].
   *[[http://www.twitter.com/PeterKriegel|Twitter "Peter Kriegel"]].
-==== Some other Books about PowerShell ====
-  *Book [[http://www.amazon.de/exec/obidos/ASIN/1449322700/hemmerling-21|Douglas Finke: "Windows Powershell for Developers"]].
-  *Book [[http://www.amazon.de/exec/obidos/ASIN/8126516178/hemmerling-21|Arul Kumaravel, Jon White, Michael Naixin Li, Scott Happell, Guohui Xie, Krishna C. Vutukuri: "Professional Windows Powershell Programming: Snap-ins, Cmdlets, Hosts, and Providers"]] -> How to develop software for Powershell, as .NET developer ( Hosting PowerShell in own applications and developing own Cmdlets ).
+==== Free Books about PowerShell ====
+=== E-Books ===
+  *The free PDF book [[http://go.veeam.com/powershell-study-guide|Veeam, Jeffrey Hicks "POWERSHELL FOR NEWBIES. Getting started with PowerShell 4.0"]].
+    *[[http://www.veeam.com/powershell_for_newbies_getting_started_powershell4_wpp.pdf|Veeam, Jeffrey Hicks "POWERSHELL FOR NEWBIES. Getting started with PowerShell 4.0"]] ( PDF ).
+  *[[http://www.powershell.org/wp/ebooks/|PowerShell.org  / Penflip "Free eBooks"]].
+    -[[http://www.penflip.com/powershellorg/why-powershell|Warren Frame, Don Jones "Why PowerShell?"]].
+    -[[http://www.penflip.com/powershellorg/secrets-of-powershell-remoting|Don Jones, Tobias Weltner, Dave Wyatt, Aleksandar Nikolic "Secrets of PowerShell Remoting"]].
+    -[[https://www.penflip.com/powershellorg/creating-html-reports-in-powershell|Don Jones "Creating HTML Reports in PowerShe.ll"]].
+    -[[http://www.penflip.com/powershellorg/powershell-networking-guide|Ed Wilson "Windows PowerShell Networking Guide"]].
+    -[[http://www.penflip.com/powershellorg/the-big-book-of-powershell-gotchas|The Big Book of PowerShell Gotchas]].
+    -[[http://www.penflip.com/powershellorg/ditch-excel-making-historical-and-trend-reports-in-powershell|Don Jones "Ditch Excel: Historical and Trend Reports with PowerShell and SQL Server"]].
+    -[[http://www.penflip.com/powershellorg/the-community-book-of-powershell-practices|Dave Wyatt "The Big Book of PowerShell Error Handling"]].
+    -[[http://www.penflip.com/powershellorg/the-dsc-book|Don Jones, Steve Murawski, Stephen Owen "The DSC Book"]].
+    -[[http://www.penflip.com/powershellorg/a-unix-persons-guide-to-powershell|Matt Penny "Introduction to PowerShell for Unix People"]].
+=== Resources ===
+  *[[http://www.onlinevideolecture.com/ebooks/?subject=Windows-PowerShell|OnlineVideoLecture "Free Windows PowerShell eBooks Download"]].
+  *[[http://blogs.technet.com/b/pstips/archive/2014/05/26/free-powershell-ebooks.aspx|TechNet Blogs "Windows PowerShell tips from the field" - "Free PowerShell eBooks"]] === auswerten.
+  *[[http://www.hofferle.com/list-of-free-powershell-ebooks/|Jason Hofferle - Force Multiplication through IT Automation "List of Free PowerShell eBooks"]] == auswerten.
 
+==== Some other Books about PowerShell ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1849689423/hemmerling-21|Jonas Andersson, Mike Pfeiffer: "Microsoft Exchange Server 2013 PowerShell Cookbook: Second Edition"]], 2013.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1484200179/hemmerling-21|Ravikanth Chaganti: "Windows PowerShell Desired State Configuration revealed"]], 2014.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1590599403/hemmerling-21|Hristo Deshev "Pro Windows PowerShell"]], 2010.
+  *Book [[http://www.herdt.de/artikel/WPOW40/PowerShell-4-0/|Andreas Dittfurth: "PowerShell 4.0. Grundlagen und Verwaltung des Active Directory"]], 2014.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1449322700/hemmerling-21|Douglas Finke: "Windows Powershell for Developers"]], 2012.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1506082564/hemmerling-21|Ed Goad: "Windows Server 2012 automation with PowerShell cookbook : over 110 recipes to automate Windows Server administrative tasks by using PowerShell"]], 2015.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1118013867/hemmerling-21|Matthew Hester, Sarah Dutkiewicz "Automating Microsoft Windows Server 2008 R2 with Windows PowerShell 2.0"]], 2011.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1849686807/hemmerling-21|Carl Jones: "Microsoft SharePoint 2010 Developer’s Compendium: The Best of Packt for Extending SharePoint"]] - "Build an engaging SharePoint site with Visual Studio, Sliverlight, PowerShell, and Windows Phone 7".
+  *Don Jones, SAPIEN Technologies, Inc.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1617290556/hemmerling-21|Don Jones, Richard Siddaway, Jeffery Hicks: "PowerShell in depth : an administrator's guide"]], 2013 - "Covers PowerShell 3.0".
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1617291080/hemmerling-21|Don Jones, Jeffrey Hicks: "Learn Windows PowerShell 3 in a month of lunches"]], 2012.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3955610551/hemmerling-21|Lee Holmes: "Windows PowerShell 3.0 - kurz & gut"]], 2013.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/B00CAYJ2TE/hemmerling-21|Lee Holmes: "Windows PowerShell Cookbook: The Complete Guide to Scripting Microsoft's Command Shell"]], 2013.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1449320961/hemmerling-21|Lee Holmes "Windows PowerShell pocket reference"]], 2013.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3955610551/hemmerling-21|Lee Holmes, Rolf Masuch "Windows PowerShell 3.0 - kurz & gut"]], 2013.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/B00MXH3RRQ/hemmerling-21|Brian Knittel "Windows 7 and Vista Guide to Scripting, Automation, and Command Line Tools"]], 2010.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0672329883/hemmerling-21|Tyson Kopczynski, Pete Handley, Marco Shaw "Windows PowerShell Unleashed"]], 2008.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/8126516178/hemmerling-21|Arul Kumaravel, Jon White, Michael Naixin Li, Scott Happell, Guohui Xie, Krishna C. Vutukuri: "Professional Windows Powershell Programming: Snap-ins, Cmdlets, Hosts, and Providers"]], 2008 -> How to develop software for Powershell, as .NET developer ( Hosting PowerShell in own applications and developing own Cmdlets ).
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0470939206/hemmerling-21|Gary Lapointe, Shannon Bray "Automating SharePoint 2010 with Windows PowerShell 2.0"]], 2011.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/067233691X/hemmerling-21|Steven Mann: "PowerShell for SharePoint 2013 How-To"]], 2013.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3658029633/hemmerling-21|Peter Monadjemi: "PowerShell für die Windows-Administration : ein kompakter und praxisnaher Überblick"]], 2014.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3866456174/hemmerling-21|Peter Monadjemi "Windows PowerShell - Crashkurs"]], 2007.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/B00CAYJ2TE/hemmerling-21|Rand Morimoto, Michael Noel, Omar Droubi, Andrew Abbate, Guy Yardeni, Chris Amaris: "Windows Server 2012 Unleashed"]], 2013.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0470477288/hemmerling-21|Ananthakumar Muthusamy, Yan Pan "Microsoft SQL Server 2008 Administration with Windows PowerShell"]], 2009.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3827323592/hemmerling-21|Eriq Neale "Small Business Server 2008 : das Praxisbuch für kleine und mittlere Unternehmen"]], 2009 - "Administration von Windows Server 2008, Exchange Server 2007, Share Point Services 3.0, IIS 7.0, Windows Vista- und XP-Clients... Automatisierung mit Windows PowerShell"
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3897214873/hemmerling-21|Andy Oakley "Schnelleinstieg in die Windows PowerShell"]], 2007.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0596100094/hemmerling-21|Andy Oakley "Monad"]], 2006.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1935182137/hemmerling-21|Bruce Payette "Windows PowerShell in Action"]], 2011.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3446412395/hemmerling-21|Bruce Payette, Walter Doberenz "Windows PowerShell im Einsatz"]], 2007.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1849684103/hemmerling-21|Yaroslav Pentsarskyy: "Microsoft SharePoint 2010 and Windows PowerShell 2.0: Expert Cookbook"]], 2011.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1849686467/hemmerling-21|Donabel Santos: "SQL Server 2012 with PowerShell V3 Cookbook"]], 2012.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1617291315/hemmerling-21|Richard Siddaway, Oisin Grehan, Jeffrey Hicks, Aleksander Nikolic: "PowerShell Deep Dives"]], 2013.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1617290114/hemmerling-21|Richard Siddaway: "PowerShell and WMI"]], 2012.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1935182005/hemmerling-21|Richard Siddaway "PowerShell in Practice"]], 2010.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/389842880X/hemmerling-21|Helma Spona "Windows PowerShell. Für Administratoren und Power-User"]], 2007.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0470386800/hemmerling-21|William R. Stanek, James O'Neill, Jeffrey Rosen "Microsoft PowerShell, VBScript & JScript Bible"]], 2009.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/B00MEYFVR2/hemmerling-21|Brian Svidergol, Robbie Allen: "Active Directory cookbook"]], 2013 - "4th Edition - Covers Windows Server 2012 and PowerShell 3.0".
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1118027310/hemmerling-21|Ken St. Cyr, Laura E. Hunter: "Automating Active Directory administration with Windows PowerShell 2.0"]], 2011.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0471946931/hemmerling-21|Andrew Watt "Professional Windows PowerShell"]], 2007.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1430268484/hemmerling-21|Jaap Wesselius, Michel de Rooij: "Pro Exchange 2013 SP1 PowerShell Administration: For Exchange On-Premises and Office 365"]], 2014.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3944749006/hemmerling-21|Carlo Westbrook: "Windows Server 2012 R2 : der schnelle Einstieg"]], 2015 - "inklusive Einführung in Windows PowerShell 4.0".
 ==== Some other Books about VBScript and WSH ====
+  *Günter Born.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3860636731/hemmerling-21|Günter Born: "Inside Windows Script Host"]], 2001.
+      *Chapter 11 "WSH-Erweiterung mit Microsoft Office".
+    *[[http://www.borncity.de/|Günter Born's website "BornCity"]].
+    *[[http://freenet-homepage.de/gborn/WSHBazaar/|Günter Born's additional homepage "Windows Script Host Bazaar"]].
   *Jerry Lee Ford, Jr.
     *[[http://www.courseptr.com/downloads/|Course Technology PTR]] - official book website of Jerry Lee Ford, Jr. and other authors.
     *Book [[http://www.amazon.de/exec/obidos/ASIN/1598638033/hemmerling-21|Jerry Lee Ford, Jr.: "Microsoft WSH and VBScript Programming for the Absolute Beginner"]].
       *The Hangman Game ( Chapter 9 "Handling Script Errors", Chapter 10 "Using the Windows Registry to configure Script Settings" ).
-    *Book [[http://www.amazon.de/exec/obidos/ASIN/1931841268/hemmerling-21|Jerry Lee Ford, Jr.: "Windows Shell Scripting and WSH            
-Administrator's Guide"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1931841268/hemmerling-21|Jerry Lee Ford, Jr.: "Windows Shell Scripting and WSH Administrator's Guide"]].
+  *Don Jones, SAPIEN Technologies, Inc.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0321501713/hemmerling-21|Don Jones: "VBScript, WMI, and ADSI Unleashed: Using VBScript, WMI, and ADSI to Automate Windows Administration"]], 2007.
+      *[[http://www.scriptinganswers.com/|ScriptingAnswers.com]] - official book website.
   *William R. Stanek.
     *Book [[http://www.amazon.de/exec/obidos/ASIN/0764546775/hemmerling-21|William R. Stanek: "Windows 2000 Scripting Bible"]].
     *Book [[http://www.amazon.de/exec/obidos/ASIN/0470386800/hemmerling-21|William R. Stanek, James O'Neill, Jeffrey Rosen: "Microsoft Powershell, VBScript & JScript Bible"]].
@@ -330,6 +292,10 @@ Administrator's Guide"]].
     -"Introduction to NuGet by John V. Petersen".
 ===== Forums, Newsgroups =====
   *[[http://www.adminscripteditor.com/forum/|Admin Script Editor]] Forum.
+  *Google Groups:
+    *[[http://groups.google.com/group/pester|Google Groups "Pester"]].
+    *[[http://groups.google.com/group/chocolatey|Google Groups "chocolatey"]].
+    *[[http://groups.google.com/group/boxstarter|Google Groups "Boxstarter"]].
   *[[http://www.it-visions.de/foren|www.IT-Visions.de-Diskussionsforen]].
   *[[http://www.powershell-group.eu/|PowerShell Community]], Germany.
   *[[http://www.pscommunity.de/forums/forum/powershell/|powershell.de - PowerShell-Wissen in deutsch, PowerShell-Foren]].
@@ -343,5 +309,5 @@ Administrator's Guide"]].
   *[[http://www.onscript.com/forum/|XL.now OnScript Forum]].
   *Microsoft Discussion Groups
     *[[http://www.microsoft.com/communities/newsgroups/en-us/default.aspx?dg=microsoft.public.win32.programmer.wmi&cat=en_US_53370577-e09d-4532-b3ab-cc7cc38ebc4b&lang=en&cr=US|Discussions in WMI Programming]].
-{{tag>powershell ps "windows scripting host" windows scripting host wsh command.com command 4dos 4nt }}
+{{tag>powershell ps ps1 "windows scripting host" windows scripting host wsh command.com command 4dos 4nt }}
 <footnote_navi_en>

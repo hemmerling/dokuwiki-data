@@ -17,7 +17,6 @@ Related pages:
     *[[http://www.openwatcom.org/index.php/Open_Watcom_FAQ|Open Watcom FAQ]] - "Open Watcom STL (OWSTL). Is OWSTL a port of STLport or some other third party library? No. OWSTL is a completely fresh implementation of the STL created by the Open Watcom contributors specifically for Open Watcom".
 === NSTL ===
   *[[http://nstl.sourceforge.net/|SourceForge "NSTL - Non-Standard Template Library"]], [[http://www.sourceforge.net/projects/nstl/|SourceForge "C++ NSTL"]].
-
 ==== C/C++ Standard Libraries ====
   *[[http://www.gnu.org/software/gcc/libstdc++/|Free Software Foundation (FSF), GNU Project "Standard C++ Library v3"]].
   *[[http://www.boost.org/|Boost C++ Libraries]] - "Boost provides free peer-reviewed portable C++ source libraries".
@@ -90,7 +89,6 @@ GEM : THE PROJECT"]].
   *[[http://en.wikipedia.org/wiki/Glade_Interface_Designer|EN.Wikipedia "Glade Interface Designer"]], [[http://de.wikipedia.org/wiki/Glade|DE.Wikipedia "Glade"]].
   *[[http://www.zetcode.com/|ZetCode Tutorial]].
     *GUI: "GTK+ tutorial", "Ruby GTK tutorial", "GTK# tutorial", "Visual Basic GTK# tutorial", "PyGTK tutorial", "PHP GTK tutorial", "Qyoto C# tutorial", "FreeBASIC GTK tutorial", "JavaScript GTK tutorial".
-
 ==== Microsoft GUI Frameworks ====
 === Resources ===
   *Incomplete list of Microsoft GUI Frameworks:
@@ -147,7 +145,6 @@ GEM : THE PROJECT"]].
   *[[http://www.rahul.net/kenton/|Kenton Lee]] - "X and Motif Consulting".
   *[[http://www.motifdeveloper.com/|motifdeveloper.com]].
   *[[http://tronche.com/gui/x/|Christophe Tronche "The X Window system"]].
-
 ==== Open Palmtop Integrated Environment ( OPIE ) ====
   *[[http://opie.sourceforge.net/|SourceForge "Opie - Open Palmtop Integrated Environment. Applications and libraries for mobile devices"]], [[http://www.sourceforge.net/projects/opie|SourceForge "Opie"]].
   *[[http://en.wikipedia.org/wiki/OPIE_user_interface|EN.Wikipedia "OPIE user interface"]], [[http://de.wikipedia.org/wiki/Open_Palmtop_Integrated_Environment|DE.Wikipedia "Open Palmtop Integrated Environment"]].
@@ -159,53 +156,70 @@ GEM : THE PROJECT"]].
   *[[http://en.wikipedia.org/wiki/Kylix_%28software%29|EN.Wikipedia: "Kylix (software)"]].
 ==== Qt [ for C++, Python ] ====
 === General ===
-  *[[http://www.qt-project.org/|QT Project]].
-  *Wiki [[http://www.qt-project.org/wiki/|QT Developer Network Wiki]].
-  *[[http://qt.digia.com/|Digia Oyj "Qt - A cross-platform application and UI framework"]].
-  *[[http://doc.qt.digia.com/|Qt Documentation Archives]].
+  *[[http://www.qt.io/|QT Project]].
+    *[[http://www.qt.io/developers/|QT Project "Developers"]].
+  *Wiki [[http://wiki.qt.io/|QT Developer Network Wiki]].
+  *[[http://doc.qt.io/|Qt Documentation]].
   *The IDE "QT Designer".
-    *[[http://www.qt-project.org/doc/qt-4.8/designer-manual.html|QT Project "Qt Designer Manual"]].
-    *[[http://www.qt-project.org/forums/viewthread/14397|QT Project Forums, Thread "Where can I download Qt Designer separately ?"]] - "Designer is in [[https://qt.gitorious.org/qt/qttools|QtTools]],  module (src/designer)".
+    *[[http://doc.qt.io/qt-4.8/designer-manual.html|QT Project "Qt Designer Manual"]].
+    *[[http://forum.qt.io/topic/13976/where-can-i-download-qt-designer-separately|QT Project Forums, Thread "Where can I download Qt Designer separately ?"]] - "Designer is in [[http://www.gitlab.com/siduction-qt5/qttools|Gitlab "QtTools"]] ( formerly: [[http://qt.gitorious.org/qt/qttools|Gitorious "QtTools"]] ),  module (src/designer)".
   *The IDE "QT Creator".
     *[[http://web.archive.org/web/*/http://qt.digia.com/Product/Developer-Tools/|Archive.org "Digia Oyj 'Qt Creator IDE and tools'"]] for Windows, Linux ( - 2013-06-01 ).
-    *[[http://download.qt-project.org/official_releases/qtcreator/|Qt Downloads "QT Creator"]].
+    *[[http://download.qt.io/official_releases/qtcreator/|Qt Downloads "QT Creator"]].
+    *[[http://www.sourceforge.net/projects/qtcreator.mirror/|SourceForge "Qt Creator. A cross-platform Integrated Development Environment"]].
     *[[http://en.wikipedia.org/wiki/Qt_Creator|EN.Wikipedia "Qt Creator"]], [[http://de.wikipedia.org/wiki/Qt_Creator|DE.Wikipedia "Qt Creator"]].
     *On my Athlon XP2400 computer, on Win7, "QT Creator 5" crashes immediately when starting the application, by the error message "APPCRASH, Fault Module Name: Qt5Core.dll, Fault Module Version: 5.3.1.0" :-(.
   *[[http://web.archive.org/web/*/http://qt.nokia.com/products/eclipse-integration|Archive.org "Qt Eclipse Integration for C++"]] for Eclipse ( - 2012-06-12 ).
-  *The OpenSource plugin [[http://www.qt-project.org/wiki/QtVSAddin|Qt Visual Studio Add-in]] for Visual Studio.
-  *[[http://www.qt-project.org/doc/|QT Online Reference Documentation]] for the latest / current edition.
-    *[[http://harmattan-dev.nokia.com/docs/library/html/qt4/qtopengl.html|Nokia - QT 4.7 "QtOpenGL Module"]].
-  *[[http://www.developer.nokia.com/Develop/Qt/|NOKIA Developer - QT]].
-  *[[http://www.developer.nokia.com/Community/Wiki/Category:Qt|NOKIA Developer Wiki - QT]].
-  *[[ftp://ftp.qt.nokia.com/|Nokia's FTP Archive for Qt]].
+  *The OpenSource plugin [[http://wiki.qt.io/QtVSAddin|Qt Visual Studio Add-in]] for Visual Studio.
+  *[[http://doc.qt.io/|Qt Documentation]] for the latest / current edition.
+    *[[http://doc.qt.io/qt-5/qtopengl-index.html|Qt Documentation "Qt OpenGL"]].
 === QML of QT5 ===
-  *[[http://qt.digia.com/Product/qt-quick/|QT Quick]].
-  *[[http://developer.ubuntu.com/apps/qml/|Ubuntu Developer "QML"]].
-  *[[http://www.qt-project.org/doc/qt-5/qtquick-index.html|QtProject "Qt Quick"]].
+  *[[http://www.qt.io/qt-quick/|QT Quick]].
+  *[[http://developer.ubuntu.com/en/apps/qml/|Ubuntu Developer "QML"]].
+  *[[http://doc.qt.io/qt-5/qtquick-index.html|QtProject "Qt Quick"]].
   *[[http://jontheechidna.wordpress.com/2012/05/19/my-thoughts-on-qml-and-the-desktop/|Jonathan's Blog. My blog about Kubuntu and KDE-ish things "My Thoughts on QML and the Desktop"]].
   *[[http://en.wikipedia.org/wiki/Qt_Quick|EN.Wikipedia "Qt Quick"]].
   *[[http://en.wikipedia.org/wiki/QML|EN.Wikipedia "QML"]], [[http://de.wikipedia.org/wiki/QML|DE.Wikipedia "QML"]].
 === QT 5 ===
+  *There are no "Qt3 Support Classes" for QT5 :-(.
+  *[[http://www.kdab.com/porting-from-qt-4-to-qt-5/|KADAB - The Qt experts "Porting from Qt 4 to Qt 5"]].
+  *[http://doc.qt.io/qt-5/portingguide.html|Qt Documentation for QT 5 "Porting Guide"]].
+  *[[http://forum.qt.io/topic/29677/is-it-hard-to-move-project-from-qt3-to-qt5/3|Qt Forum "Is it hard to move project from Qt3 to Qt5?"]] - "If you take the two step way (first to Qt 4 then Qt 5) don't use the qt3support module. You'll have to port the code anyway to Qt 5".
 === Qt 4 ===
-  *Qt libraries 4.7.3 for 
+  *Qt libraries 4.8.6.1 for 
     *minGW 4.4 on Windows.
     *VS 2008 on Windows.
     *Gnu C/C++ on Linux.
-  *[[http://doc.qt.nokia.com/4.7/|"QT Online Reference Documentation" for QT 4.7]].
+  *[[http://doc.qt.io/qt-4.8/|Qt Documentation for QT 4.8]].
+  *[[http://wiki.qt.io/MinGW|QT Wiki "MinGW]] - "Up to Qt 4.8.6, Qt 4 ones are built with a MinGW.org toolchain using gcc 4.4. Newer Qt 4.8 binary packages ship with a mingw-w64 based toolchain. For Qt 5, a newer MinGW-w64 toolchain is actually required".
+  *QT3 support:
+    *[[http://doc.qt.io/qt-4.8/porting4.html|Qt Documentation for Qt4.8 "Porting to Qt 4"]].
+    *[[http://doc.qt.io/qt-4.8/qt3support-module.html|Qt Documentation for Qt4.8 "Qt3Support Module"]].
+    *[[http://doc.qt.io/qt-4.8/compatclasses.html|Qt Documentation for Qt4.8 "Qt3 Support Classes"]].
+    *[[http://www.qtforum.org/article/17172/automake-problems-with-porting-to-qt4.html|QForum "automake problems with porting to qt4"]] - "Solved my own problem. Instead of linking against the qt3support library in my makefiles (which i didn't really know how to do in the right way i guess), i just added "#define QT3_SUPPORT" to any source and header files that needed qt3support" :-).
+  *[[http://doc.qt.io/qt-4.8/graphicsview.html|Qt Documentation for Qt4.8 "Graphics View Framework"]].
+  *[[http://doc.qt.io/qt-4.8/graphicsview-porting.html|Qt Documentation for Qt4.8 "Porting to Graphics View"]] - "Graphics View was introduced in Qt 4.2, replacing its predecessor, QCanvas".
+  *[[http://b9creator.pbworks.com/w/page/69847158/Compile%20Software|B9Creator "Compile Software"]] - "download MingW 4.40 (the lastest version that work good with qt 4.8.1)...".
+  *[[http://www.qtforum.org/article/18699/linker-error.html|QTForum.org "Linker Error"]] - "Add to linker command line -lQtCore -lQtGui".
 === Qt 3 ===
   *The book [[http://www.amazon.de/exec/obidos/ASIN/0131240722/hemmerling-21|Jasmin Blanchette and Mark Summerfield: "C++ GUI Programming with Qt3"]] by  is shipped with a special non-commercial "book-version" of Qt/Windows 3.2.1, for use with MSVC and Borland C++ !
   *There was a "QT Education Edition" for the free Borland C++ 5.5 compiler and the minGW compiler, on Windows.
-  *[[http://doc.trolltech.com/3.3/|"Qt Reference Documentation (Open Source Edition)" for Qt 3.3]].
+  *[[http://doc.qt.digia.com/3.3/|Digia "Qt Reference Documentation (Open Source Edition)" for Qt 3.3]].
 === Qt 2 ===
   *Once, there was a free "Qt Non Commercial Edition 2.3 for Microsoft Windows". "The Qt Non Commercial Edition 2.3 for Microsoft Windows is a binary only distribution requiring Microsoft Visual Studio version 6".
-  *[[http://doc.trolltech.com/2.3/|"Qt Reference Documentation (Open Source Edition)" for Qt 2.3]].
+  *[[http://doc.qt.digia.com/2.3/|Digia "Qt Reference Documentation (Open Source Edition)" for Qt 2.3]].
 === KDE ===
   *[[http://www.kde.org/|KDE Community]], [[http://www.kde.de/|KDE für deutschsprachige Benutzer]].
   *[[http://windows.kde.org/|KDE on Windows Initiative]].
   *[[http://kde-cygwin.sourceforge.net/|SourceForge "KDE on Cygwin"]], [[http://www.sourceforge.net/projects/kde-cygwin|SourceForge "KDE on Cygwin"]], [[http://sourceware.org/cygwinports/|Cygwin Ports project]] - "The KDE on Cygwin project was started to enable the kde desktop on cygwin/x11. Is was stopped in september 2005 because of the native KDE4 port".
   *[[http://en.wikipedia.org/wiki/KDE|EN.Wikipedia "KDE"]], [[http://de.wikipedia.org/wiki/KDE|DE.Wikipedia "KDE"]].
+=== Q.../Free ===
+  *[[http://qtwin.sourceforge.net/|SourceForge "Q.../Free"]], [[http://www.sourceforge.net/projects/qtwin/|SourceForge "Q.../Free"]].
 === Python Bindings ===
-  *See [[python.html|Python 1/6]].
+  *See [[python.html|Python 1/6]]
+=== QMake ===
+  *[[http://doc.qt.io/qt-4.8/qmake-manual.html|Qt Documentation for Qt4.8 "qmake Manual"]].
+  *[[http://en.wikipedia.org/wiki/Qmake|EN.Wikipedia "Qmake"]], [[http://de.wikipedia.org/wiki/Qmake|DE.Wikipedia "Qmake"]].
 === Third Party Tools & Ports ===
   *The OpenSource GUI designer tool [[http://qtarch.sourceforge.net/|SourceForge "Qt Architect"]], [[http://www.sourceforge.net/projects/qtarch|SourceForge "Qt Architect"]].
   *[[http://qtwin.sourceforge.net/|SourceForge "Q.../Free"]], [[http://www.sourceforge.net/projects/qtwin|SourceForge "Q.../Free"]].
@@ -213,6 +227,7 @@ GEM : THE PROJECT"]].
 === Literature ===
   *Book [[http://www.amazon.de/exec/obidos/ASIN/383621542X/hemmerling-21|Jürgen Wolf "Qt 4.6 - GUI-Entwicklung mit C++: Das umfassende Handbuch, m. DVD-ROM"]].
   *Mark Summerfield.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3827321867/hemmerling-21|Jasmin Blanchette, Mark Summerfield "C++ GUI Programmierung mit Qt 3"]], [[http://www.amazon.de/exec/obidos/ASIN/0131240722/hemmerling-21|Jasmin Blanchette, Mark Summerfield "C++ GUI Programming with Qt 3"]], about QT 3.2.1.
     *Book [[http://www.amazon.de/exec/obidos/ASIN/0132354160/hemmerling-21|Jasmin Blanchette, Mark Summerfield: "C++ GUI Programming with Qt 4 (2nd Edition)"]], 2008 about QT 4.3.
     *Book [[http://www.amazon.de/exec/obidos/ASIN/0321635906/hemmerling-21|Mark Summerfield: "Advanced Qt Programming: Creating Great Software with C++ and Qt 4"]], 2010 about QT 4.6.
 === Feedback by a professional Developer ===
@@ -227,6 +242,7 @@ GEM : THE PROJECT"]].
       *A commercial developer license is not really cheap ( for small companies, not his/her problem as the developer works for an big international company ).
 === Resources ===
   *[[http://www.meego.com/|MeeGo]] - "The MeeGo developer offering is based on the Qt SDK and API and includes the most recent releases of Qt Quick and Qt Mobility".
+  *[[http://wiki.qt.io/Qt_for_Beginners|QT Wiki "Qt for Beginners"]].
   *[[http://www.zetcode.com/|ZetCode Tutorial]].
     *GUI: "PyQt4 tutorial", "PySide tutorial", "Qt4 tutorial", "Ruby Qt tutorial".
 ==== VOG / WinGraph32 ====

@@ -1,0 +1,32 @@
+====== [hemmerling] Cryptography ======
+Related pages:
+  *[[atmel.html|The Atmel AVR Family with Focus on AVR32, ATxmega, ATmega, ATtiny, AT90 and the Arduino / Freeduino Platform]].
+  *[[arm.html|ARM Embedded Systems ( ARM7, ARM8, ARM9, ARM11, Cortex )]].
+  *[[atmelarm.html|Atmel ARM-based MCUs and eMPUs]].
+  *[[dataprivacy.html|Data Privacy - Encryption, Passwords, Trust]].
+  *[[legalmatters.html|Legal Matters]].
+  *[[security.html|Security]].
+===== Embedded Cryptography =====
+==== Atmel ====
+=== Resources ===
+  *[[http://www.atmel.com/cryptokits|Atmel CryptoAuthentication]].
+  *Atmel's free PDF book "Crypto REAL.EASY Traiing Book".
+    *[[http://www.rs-online.com/designspark/assets/ds-assets/uploads/knowledge-items/why-iot-and-everything-else-requires-strong-authentication/Atmel%20Crypto%20Products%20REAL.EASY%20Training%20Manual%202Q2015%20r6.pdf.|RS-Online "Crypto REAL.EASY Traiing Book"]] ( PDF ).
+=== My AT88CK490 Evaluation Kit ===
+  *[[http://www.atmel.com/tools/AT88CK490.aspx|Atmel "AT88CK490 Evaluation Kit"]].
+=== My "Atmel CryptoAuthXplained" Kit ===
+  *[[http://www.atmel.com/tools/CryptoAuthXplained.aspx|Atmel "CryptoAuthXplained"]].
+==== NXP ====
+  *[[http://www.nxp.com/products/identification_and_security/|NXP "Identification and security"]].
+  *[[http://www.architechboards.org/product/babylon-board|ArchiTech Boards "Babylon Board"]] - "ArchiTech Babylon, developed by ArchiTech and NXP, is a development board based on NXP Turnkey Security IC A70CM".
+  *[[http://www.yubico.com/products/yubikey-hardware/yubikey-neo/|Yubico "YubiKey NEO and YubiKey NEO-n | Premium Strong Two-Factor Authentication for Secure Logins | U2F, OTP, PIV, USB, NFC"]].
+    *[[http://www.hexview.com/~scl/neo/|HexView "Inside Yubikey Neo"]] - The device is equipped with an NXP Turnkey Security IC A7005 :-).
+  *[[http://www.docstore.nxp.com/|NXP DocStore]].
+    *[[https://www.youtube.com/watch?v=r5T_J7Y_HFY|YouTube "Docstore tutorial part 1: User Registration"]], [[https://www.youtube.com/watch?v=q8LHXO2FNs4|YouTube "Docstore tutorial part 2: portal usage"]].
+
+===== Resources =====
+  *[[http://en.wikipedia.org/wiki/Cryptography|EN.Wikipedia "Cryptography"]], [[http://de.wikipedia.org/wiki/Kryptographie|DE.Wikipedia "Kryptographie"]].
+  *[[http://en.wikipedia.org/wiki/Forward_secrecy|EN.Wikipedia "Forward secrecy"]], [[http://de.wikipedia.org/wiki/Perfect_Forward_Secrecy|DE.Wikipedia "Perfect Forward Secrecy"]].
+  *[[http://en.wikipedia.org/wiki/Elliptic_curve_cryptography|EN.Wikipedia "Elliptic curve cryptography"]], [[http://de.wikipedia.org/wiki/Elliptic_Curve_Cryptography|DE.Wikipedia "Elliptic Curve Cryptography"]].
+{{tag>cryptography encryption}}
+<footnote_navi_en>

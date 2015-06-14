@@ -59,9 +59,8 @@ Related Topics:
   *[[http://www.admin-wissen.de/?id=212|admin-wissen.de "Eclipse Workshop - Übersicht"]].
   *[[http://www.eclipse.org/equinox/p2/|Eclipse "Equinox p2"]], [[http://help.eclipse.org/luna/index.jsp?topic=%2Forg.eclipse.platform.doc.isv%2Fguide%2Fp2_overview.htm|Eclipse Help "Provisioning platform (p2)"]] - I was told by experts that a standard full-blown Eclipse dowload provides a P2 repository, i.e. a directory in the file system, by which you might provide packages for installation, to other slim Eclipse installations.
   *[[http://www.cs.utexas.edu/~scottm/cs307/handouts/Eclipse%20Help/EclipseIntroduction.html|Computer Science Department The University of Texas at Austin "Basic Eclipse User Guide"]].
-
 ===== Microsoft Visual Studio IDE =====
-==== Microsoft Visual Studio IDE, Free Editions ====
+==== Microsoft Visual Studio IDE 2005-2013, Free Editions ====
   *[[http://en.wikipedia.org/wiki/Microsoft_Visual_Studio|EN.Wikipedia "Microsoft Visual Studio"]], [[http://de.wikipedia.org/wiki/Microsoft_Visual_Studio|EN.Wikipedia "Microsoft Visual Studio"]].
     *"Visual Basic 2005 Express", "Visual C# 2005 Express", "Visual C++ 2005 Express", "Visual Web Developer 2005 Express", "Visual J# 2005 Express".
       *[[http://www.microsoft.com/download/en/details.aspx?displaylang=en&id=23072|Microsoft Download Center "Visual Studio 2005 extensions for .NET Framework 3.0 (Windows Workflow Foundation)"]].
@@ -82,7 +81,13 @@ Related Topics:
     *[[http://msdn.microsoft.com/de-de/robotics/|Microsoft Robotics Studio Developer Center]].
     *[[http://www.microsoft.com/downloads/en/details.aspx?displaylang=en&FamilyID=c185a802-5bbe-4f28-b448-aefe63a7eff7|Microsoft Download Center "Microsoft Robotics Developer Studio 2008 R3"]].
     *[[http://msdn.microsoft.com/en-us/library/bb881626.aspx|Microsoft MSDN Library "Microsoft Robotics"]].
-==== Visual Studio Code ====
+==== Microsoft Visual Studio Community Edition 2013.4 & Express Editions 2013.4 ====
+  *[[https://www.visualstudio.com/en-us/downloads/|Microsoft "Visual Studio Community Edition - Download"]] - Download of offline installers.
+  *[[http://www.visualstudio.com/en-us/products/free-developer-offers-vs.aspx|Microsoft "Everything you need to create great apps. Free"]] - "The power of the cloud, state-of-the-art tools, and agile development services provide you with the most comprehensive free developer offering ever!".
+  *The "Microsoft Visual Studio Community Edition 2013.4" is shipped with [[http://msdn.microsoft.com/en-us/library/aa264396%28v=vs.60%29.aspx|Microsoft MSDN Library "Spy++"]] - "A Win32-based utility that gives you a graphical view of the system’s processes, threads, windows, and window messages".
+==== Microsoft Visual Studio Online ====
+  *[[http://hemmerling.visualstudio.com/|Microsoft Visual Studio Online "hemmerling"]].
+==== Microsoft Visual Studio Code 2015 ====
 === The Tool ===
   *The free IDE [[http://code.visualstudio.com//|Visual Studio Code]] for Windows, Linux 64-bit, MacOSX.
   *The Windows edition is for 32-bit too, but the installation crashes on my Athlon XP-2400 with the error message "APPCRASH" :-(.
@@ -222,6 +227,10 @@ Attention, many Installer projects are "not under active development anymore" si
     *[[http://en.wikipedia.org/wiki/InstallShield|EN.Wikipedia "InstallShield"]], [[http://de.wikipedia.org/wiki/InstallShield|DE.Wikipedia "InstallShield"]].
   *The free [[http://www.freebyte.com/hjinstall/|HJ-Install]] for Windows.
   *The free [[http://www.installaware.com/|Installaware Free Edition]] - "The Freeware, .. editions are all contained inside the same free download. You choose the InstallAware edition ( e.g. 'Free Edition' ) to install directly in the setup wizard".
+  *The free "MSBuild" for Windows with .NET.
+    *[[https://msdn.microsoft.com/en-us/library/dd393574.aspx|Microsoft Developer Network "MSBuild"]].
+    *[[http://www.microsoft.com/en-us/download/details.aspx?id=40760|Microsoft Download Center "Microsoft Build Tools 2013"]] - "Build Tools 2013 provides the essential tools for building managed applications".
+    *[[http://en.wikipedia.org/wiki/MSBuild|EN.Wikipedia "MSBuild"]].
   *The OpenSource [[http://izfree.sourceforge.net/|Sourceforge "izfree 1.1"]], [[http://www.sourceforge.net/projects/izfree/|Sourceforge "izfree Tools for Windows Installer"]] for Windows.
   *The OpenSource [[http://www.chimpswithkeyboards.com/|Chimps with Keyboards]], [[http://chimpinstall.sourceforge.net/|Sourceforge "NInstall"]], [[http://www.sourceforge.net/projects/chimpinstall/|Sourceforge "NInstall"]] for Windows.
   *The free [[http://www.jrsoftware.org/|jrsoftware.org - Jordan Russell's Software "Inno Setup"]] for Windows.

@@ -12,6 +12,7 @@ Related pages:
   *[[network02.html|Network Tools 2/2 - Communications Hardware, Communication Applications & Drivers]].
   *[[rfid.html|Radio-Frequency Identification ( RFID )]].
   *[[tinkerforge.html|Tinkerforge]], [[brickfirmware.html|Brick Firmware]].
+  *[[saas.html|Software As A Service ( SAAS ) 1/2]].
   *[[wireless.html|Wireless Networks]].
 ===== Organizations, Fairs, Events =====
 ==== Organizations, Fairs, Events ====
@@ -20,6 +21,9 @@ Related pages:
   *[[http://www.thingscon.com/|ThingsCon]], Berlin ( 2014-05-02 - 2014-05-03 ).
   *[[http://www.iotevents.org/|Internet of Things Events]].
   *The free conference [[http://www.welt-industrie-4-0.rubach-konferenzen.de/|WELT-Konferenz Industrie 4.0. Eine Revolution für die Zukunft Deutschlands]], 2013-10-11.
+  *[[http://www.smartgrid-engagement-toolkit.eu/|S3C Smartgrid Engagement Toolkit]] - "This website is meant for anyone who is involved in, or intends to become involved in, the development of smart grid projects, products, or services in which engagement of end users plays an important role".
+    *[[http://www.smartgrid-engagement-toolkit.eu/list-of-all-guidelines-and-tools/|S3C Smartgrid Engagement Toolkit "Below you can find an alphabetical list with all the guidelines and tools that are published on this toolkit website"]].
+    *The free event [[http://www.s3c-project.eu/News/77/SAVETHEDATEEmpoweringpeopleforthesmartenergysystemofthefuture.html|S3C Smartgrid Engagement Toolkit "SAVE THE DATE: 'Empowering people for the smart energy system of the future' Final conference of the S3C project"]], 2015-09-24.
 ==== Resources ====
   *[[http://www.iotevents.org/|iotevents.org - A directory of worldwide Internet of Things related events]].
 ===== Internet 4.0 M2M Networks and Protocols =====
@@ -42,7 +46,8 @@ Related pages:
     *[[http://www.relayr.io/wunderbar|iThings4U GmbH - relayr "WunderBar"]].
     *[[http://developer.relayr.io/|relayr "Get started with Relayr app development"]].
       *[[http://developer.relayr.io/documents/Python/Introduction|relayr "relayr for Pythonists"]] - "relayr Python Library Documentation".
-      *[[http://www.github.com/relayr/python-sdk|GitHub "relayr/python-sdk"]].
+      *[[http://www.github.com/|GitHub "relayr"]].
+        *[[http://www.github.com/relayr/python-sdk|GitHub "relayr/python-sdk"]].
       *[[http://pypi.python.org/pypi/relayr/|Python Package Index "relayr"]].
       *The "relayr Python Library" can't be installed on Windows. The installation "pip install relayr" on Python 2.7 aborts by the error message "Pexpect is intened for UNIX-like operating systems" :-(.
         *[[http://pypi.python.org/pypi/pexpect/|Python Package Index "pexpect"]] for Linux.
@@ -50,6 +55,7 @@ Related pages:
     *[[http://www.hackthehouse.io/|relayr Hack The House: With Bosch and Siemens Home Appliances]] by [[http://www.relayr.io/|iThings4U GmbH "relayr - bring things to life"]] and [[http://www.bsh-group.com/|BSH Hausgeräte GmbH]], 2015-02-27 - 2015-03-01.
       *[[http://www.facebook.com/BoschHomeDeutschland/posts/10152548308606556|Facebook "Bosch Home Deutschland: relayr Hack The House"]].
       *[[http://www.facebook.com/groups/455546924601515/|Facebook, Closed Group "relayr Hack The House"]].
+    *Business model of "relayr": The Wunderbar devices are communicating by MQTT with cloud services provided by "relayr".
 ==== Some other German IoT Startup Companies ====
   *The German Company [[http://www.yetu.com/|Yetu]] - "The Smart Home Platform. Your applications on every device and operating system".
   *The German Company [[http://www.gestigon.de/|gestigon GmbH]] - "Gestigon Gesture Control - Shaping the future of user interfaces".
@@ -59,6 +65,10 @@ Related pages:
   *[[http://postscapes.com/|Postscape - Tracking the Internet of Things]].
   *Blog [[http://blog.profitbricks.com/|ProfitBricks Blog - Cloud Computing and IaaS Blog]].
     *[[http://blog.profitbricks.com/top-49-tools-internet-of-things/|ProfitBricks Blog "Top 49 Tools For The Internet of Things"]].
+  *[[http://www.visionmobile.com/blog/|VisionMobile Blog "Distilling market noise into market sense"]] - The leading research company in the app economy:
+    -Track mobile & IoT developers trends via the largest most global developer surveys.
+    -TOT:Breakting free from internet and things. How communities and data will shape the future of IoT in ways we can't imagine.
+
 ==== Industry 4.0 Resources  ====
   *[[http://www.allseenalliance.org/| AllSeen Alliance]] - "The Leading Internet of Things Initiative".
   *Bundesministerium für Bildung und Forschung ( BMBF ).

@@ -26,6 +26,10 @@ Related pages:
 == Fig ==
   *[[http://www.orchardup.com/blog/fig|Orchard Blog "Fig: Fast, isolated development environments using Docker"]].
   *[[https://www.github.com/docker/fig|GitHub "docker/fig"]].
+== Resources ==
+  *[[http://www.xing.com/profile/Dirk_Slama|Uli Middelberg]].
+    *[[http://www.github.com/umiddelb/armhf/wiki/Installing,-running,-using-docker-on-armhf-%28ARMv7%29-devices|GitHub "umiddelb/armhf"]] - "Installing, running, using docker on armhf (ARMv7) devices".
+    *[[http://www.meetup.com/IoTHamburg/events/222345674/|Meetup "Hamburg Internet of Things (IoT) User Group (Hamburg)", Event "Docker für ARM-basierte IoT-Devices"]], 2015-05-18.
 === Kernel-based Virtual Machine ( KVM ) ===
   *[[http://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine|EN.Wikipedia "Kernel-based Virtual Machine"]].
   *[[http://en.wikipedia.org/wiki/Libvirt|EN.Wikipedia "Libvirt"]] - "An open source API, daemon and management tool for managing platform virtualization".
@@ -124,7 +128,9 @@ Related pages:
   *VMWare vs. VirtualPC:
     *With VMWare, on 64bit Windows host computers and 32bit Windows targets running in the emulator using special 32-bit drivers, the host operating system doesn't need special 64 bit drivers for some special devices, e.g. for USB communications. A generic driver is sufficient on the 64-bit host. The communication flow is simply passed from the target to the host :-).
     *With VirtualPC, on 64bit Windows host computers and 32bit Windows targets running in the emulator using special 32-bit drivers, the host operating system needs extra 64 bit drivers, e.g. for USB communications just works if you have both an equivalent special driver on the target and the host :-(.
-==== Resources ====
+===== Literature =====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3836228114/hemmerling-21|Nicholas Dille,  Marc Grote, Nils Kaczenski, Jan Kappen: "Microsoft Hyper-V und System Center : das Handbuch für Administratoren"]], 2014.
+===== Resources =====
   *[[virtualpc.html|[Hemmerling] How to install and run Windows Virtual PC / Microsoft Virtual PC]].
   *[[virtualbox.html|[Hemmerling] How to patch Oracle VirtualBox for W2k hosts]].
   *[[http://www.howtogeek.com/125640/how-to-convert-virtual-machines-between-virtualbox-and-vmware/|HowToGeek "How To Convert Virtual Machines Between VirtualBox and VMware"]].

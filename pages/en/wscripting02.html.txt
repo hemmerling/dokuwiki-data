@@ -1,0 +1,249 @@
+====== [hemmerling] Scripting Languages for Windows 2/3 - Windows PowerShell ======
+Related page:
+  *[[wscripting.html|Scripting Programming Languages for Windows 1/3]].
+  *[[wscripting03.html|Scripting Programming Languages for Windows 3/3 - Testing with Windows PowerShell]].
+===== Windows PowerShell - Software =====
+==== Windows PowerShell 4 - Download for Win7 ====
+  *[[http://www.microsoft.com/en-us/download/details.aspx?id=40855|Microsoft Download Center "Windows Management Framework 4.0"]] - PowerShell4 plus some documents about "Desired State Configuration".
+==== Development Tools ====
+  -ISE - The free IDE shipped with PowerShell.
+    *[[http://en.wikiversity.org/wiki/Windows_PowerShell/ISE|Wikiversity "Windows PowerShell/ISE"]].
+    *The free [[http://social.technet.microsoft.com/wiki/contents/articles/2969.windows-powershell-ise-add-on-tools.aspx|Microsoft TechNet "Windows PowerShell ISE Add-On Tools"]].
+  -The free [[http://www.microsoft.com/downloads/details.aspx?familyid=D87DAF50-E487-4B0B-995C-F36A2855016E|Microsoft Downloads "Windows PowerShell Scriptomatic"]].
+  -The free [[http://www.powergui.org/|PowerGUI]], [[http://software.dell.com/products/powergui-freeware/|Dell Software "PowerGUI"]] - "No-cost GUI and script editor for PowerShell".
+      *[[http://en.community.dell.com/techcenter/powergui|Dell Community, TechCenter "PowerGUI"]].
+        *[[http://en.community.dell.com/techcenter/powergui/w/documents|Dell Community, TechCenter "PowerGUI Documents"]].
+        *The Wiki [[http://en.community.dell.com/techcenter/powergui/w/wiki|Dell Community, TechCenter "PowerGUI Wiki"]].
+        *[[http://powershell.org/wp/tag/powergui/|PowerShell, Kirk Munro "One for the road: Stepping away from PowerGUI"]], 2011-07-28 - "...however my work on PowerGUI has stopped for now".
+  -The free [[http://www.idera.com/productssolutions/freetools/powershellplus|Idera, Inc. "PowerShell Plus"]].
+  -The commercial [[http://www.sapien.com/software/powershell_studio|SAPIEN Technologies, Inc "PowerShell Studio"]].
+  -The commercial [[http://www.scriptrunner.de/|ScriptRunner]] - "Smart and easy administration".
+===== How to Write PowerShell Code, and C# Code for PowerShell =====
+==== Development of Cmdlets ====
+=== General ===
+  *[[http://www.darkoperator.com/blog/2012/3/29/introduction-to-microsoft-powershellndash-basics-of-running.html| "Shell is Only the Beginning. Introduction to Microsoft PowerShell– Basics of Running Cmdlets"]].
+  *[[http://social.technet.microsoft.com/wiki/contents/articles/4537.powershell-approved-verbs.aspx|Microsoft TechNet article "PowerShell: Approved Verbs"]].
+  *[[http://technet.microsoft.com/en-us/library/dd315315.aspx|Microsoft TechNet Library "Learning Windows PowerShell Names"]].
+  *[[https://technet.microsoft.com/en-us/magazine/ff677563.aspx|Microsoft TechNet "Windows PowerShell: Writing Cmdlets in Script"]].
+  *[[http://www.learn-powershell.net/2013/05/07/tips-on-implementing-pipeline-support/|Learn PowerShell. Achieve More "Tips on Implementing Pipeline Support"]].
+== Help for PowerShell Cmdlets ==
+  *[[http://msdn.microsoft.com/en-us/library/dd878343%28v=vs.85%29.aspx|Microsoft MSDN Library "Writing Help for Windows PowerShell Modules"]].
+     *[[http://msdn.microsoft.com/en-us/library/dn622032%28v=vs.85%29.aspx|Microsoft MSDN Library "Writing Help for Windows PowerShell Cmdlets"]].
+      *[[https://msdn.microsoft.com/en-us/library/bb525433%28v=vs.85%29.aspx|Microsoft MSDN Library "How to Create the Cmdlet Help File"]].
+
+==== Development of Windows PowerShell Modules in C# ====
+=== Tools & Frameworks ===
+  *[[http://www.microsoft.com/en-us/download/details.aspx?id=2560|Microsoft Download Center "Windows PowerShell 2.0 Software Development Kit (SDK)"]].
+  *[[http://code.msdn.microsoft.com/Windows-PowerShell-30-SDK-9a34641d|Microsoft MSDN "Windows PowerShell 3.0 SDK Sample Pack"]].
+=== Loading of PowerShell Modules ===
+  *[[http://powershell-guru.com/dont-do-that-11-reload-a-module-with-remove-module-and-import-module/|PowerShell-Guru "Don’t do that #11: Reload a module with Remove-Module and Import-Module"]] - "Import-Module -Name module -Force".
+  *[[http://www.stackoverflow.com/questions/24558789/how-to-import-splitpipeline-module-from-a-shared-server|StackOverflow "How to import splitpipeline module from a shared server?"]].
+    *The issue you're experiencing is that .NET assemblies can't be loaded from an untrusted UNC path, without special configuration. As you already discovered, the simplest solution is to copy the module to your local computer first.
+    *To work around the "Access Denied" message, copy the module to your user directory "C:\users\Administrator\Documents\WindowsPowerShell\Modules" ( with <user> = "Administrator"), not the system-wide directory.
+=== DLL Development ===
+== Load a Custom DLL from PowerShell ==
+  *[Reflection.Assembly]::LoadFile
+    *[[http://www.leeholmes.com/blog/2006/10/27/load-a-custom-dll-from-powershell/|Lee Holmes, Precision Computing. Software Design and Development "Load a Custom DLL from PowerShell"]] - '[Reflection.Assembly]::LoadFile("c:\temp\MyMathLib.dll")'.
+    *[[http://msdn.microsoft.com/en-us/library/dd409252%28VS.100%29.aspx|Microsoft MSDN Developer Network "<loadFromRemoteSources> Element"]].
+    *Error message when trying to load a DLL by '[Reflection.Assembly]::LoadFile("c:\temp\MyMathLib.dll")': "Exception calling "LoadFile" with "1" argument(s): "An attempt was made to load an assembly from a network location which would have caused the assembly to be sandboxed in previous versions of the .NET Framework. This release of the .NET Framework does not enable CAS policy by default, so this load may be dangerous. If this load is not intended to sandbox the assembly, please enable the loadFromRemoteSources switch. See [[http://go.microsoft.com/fwlink/?LinkId=155569|Microsoft MSDN Developer Network "<loadFromRemoteSources> Element"]] for more information."
+== Resources ==
+  *[[http://www.powershellmagazine.com/2014/03/18/writing-a-powershell-module-in-c-part-1-the-basics/|PowerShellMagazine "Writing a PowerShell module in C#, Part 1: The basics"]].
+  *[[http://www.powershellmagazine.com/2014/04/08/basics-of-writing-a-powershell-module-with-c-part-2-debugging/|PowerShellMagazine "Basics of Writing a PowerShell Module with C#, Part 2: Debugging"]].
+  *[[http://www.powershellmagazine.com/2013/03/20/the-windows-powershell-3-0-sdk-sample-pack/|PowerShellMagazine "The Windows PowerShell 3.0"]] - 'Note that in order to use the samples you’ll need to install the [[http://msdn.microsoft.com/en-us/windows/hardware/hh852363.aspx|Microsoft MSDN "Windows Software Development Kit (SDK) for Windows 8"]] which includes the reference assemblies for Windows PowerShell 3.0'.
+  *[[http://www.codeproject.com/Articles/311705/Custom-CSharp-Control-for-Powershell|Code Project "Custom CSharp Control for Powershell"]] - "IMPORTANT: You must set the correct powershell execution policy *AND* you will have to unblock the PSMap.dll file ( C:\PSMapDll-Deploy\PSMap.dll – Click on Properties -> Unblock )".
+==== Tools, Frameworks, Technologies ===
+=== Desired State Configuration ( DSC ) ===
+  *See [[ddl.html|Device Description Languages and Device Parameterization]].
+=== Psake - Build Manager === 
+  *[[http://www.github.com/psake/psake|GitHub "psake/psake"]].
+  *[[http://en.wikipedia.org/wiki/Psake|EN.Wikipedia "Psake"]] - "A domain-specific language and build automation tool written in PowerShell to create builds using a dependency pattern similar to Rake or MSBuild. It dramatically simplifies the build language as compared to MSBuild scripting".
+=== Generation of PowerShell GUI Applications with WPF ===
+== The discontinued PowerBoots ==
+  *[[http://web.archive.org/web/*/http://powerboots.codeplex.com/|Archive.org "powerboots.codeplex.com"]].
+    *"PowerShell PowerBoots" ( - 2010-12-24 )
+    *"Show-UI: The PowerShell WPF Toolkit" ( - 2011-03-08 ).
+  *Software Developer: [[http://www.huddledmasses.org/|Joel 'Jaykul' Bennett - Huddled Masses]].
+    *[[http://web.archive.org/web/*/http://huddledmasses.org/powerboots-tutorial-walkthrough/|Archive.org "Huddled Masses "PowerBoots: The tutorial walkthrough"]] ( - 2012-01-10 ).
+== ShowUI, the Successor of PowerBoot ==
+  *[[http://showui.codeplex.com/releases/view/73603|CodePlex "ShowUI: Write-UI -in PowerShell"]]
+  *Software Developer: 
+    *[[http://scriptcop.start-automating.com/|Start-Automating]] - "A software services company".
+    *[[http://www.huddledmasses.org/|Joel 'Jaykul' Bennett - Huddled Masses]].
+  *[[http://www.youtube.com/channel/UCP_eC0QSbtepwFjaC8N4RUg|YouTube Channel "StartAutomating"]].
+    *"ShowUI. Videos to get you started with ShowU"
+      -[[http://www.youtube.com/watch?v=cR2koin9QNA|YouTube "Getting Started with ShowUI"]].
+      -[[http://www.youtube.com/watch?v=09FxB0YXq7A|YouTube "Getting Started with ShowUI - Get-Input by StartAutomating"]].
+      -[[http://www.youtube.com/watch?v=cR2koin9QNA|YouTube "Writing Controls in ShowUI: Show-CPU by StartAutomating"]].
+      -[[http://www.youtube.com/watch?v=Hqn-b2HMgSM|YouTube "Show-Clock - Writing a Complete ShowUI function"]].
+== Resources ==
+  *[[http://blogs.msdn.com/b/powershell/archive/2009/06/18/powerboots-0-2-is-now-available.aspx|Windows PowerShell Blog. Automating the world one-liner at a time "PowerBoots 0.2 is Now Available"]].
+  *[[http://learningpcs.blogspot.de/2011/08/powershell-scriptcop.html|Will - Another computer blog. A spot to record my explorations in Windows. Focused lately on PowerShell "PowerShell - ShowUI: Walkthrough"]].
+  *"ShowUI is the next generation PowerShell module for building user interfaces in script. It’s the merger of my previous PowerShell UI project (called PowerBoots) with one by James Brundage, former Microsoft PowerShell team member and founder of Start-Automating (called WPK) which shipped in the Windows 7 resource kit".
+  *[[http://pauerschell.blogspot.de/2010/04/wpf-linkcollection-for-powershell.html|PauerSchell Blog "WPF Linkcollection for PowerShell"]].
+  *[[http://stackoverflow.com/questions/3664653/can-you-implement-model-view-viewmodel-using-powershell-and-wpf-using-powerboots|StackOverflow "Can you implement Model-View-ViewModel using Powershell and WPF using PowerBoots?"]].
+=== Package Manager ===
+== Chocolatey ==
+  *[[http://www.chocolatey.org/|Chocolatey]].
+    *[[http://www.chocolatey.org/packages?q=Pester|Chocolatey - Search for "Pester"]].
+    *[[http://twitter.com/chocolateynuget/|Twitter " Chocolatey NuGet, @chocolateynuget"]].
+  *[[http://www.boxstarter.org|BoxStarter]], [[http://www.github.com/mwrock/boxstarter|GitHub "mwrock/boxstarter"]], [[http://boxstarter.codeplex.com/|CodePlex "BoxStarter"]] - "Repeatable, reboot resilient windows environment installations made easy using Chocolatey packages".
+== NuGet ==
+  *[[http://www.nuget.org/|NuGet]].
+  *[[http://docs.nuget.org/|NuGet Docs]].
+    *[[http://docs.nuget.org/consume/command-line-reference|NuGet Docs "Command Line Reference"]].
+    *[[http://docs.nuget.org/consume/installing-nuget|NuGet Docs "Installing and Updating NuGet Client"]].
+      *"For Visual Studio 2010, NuGet is available through the Visual Studio Extension Manager... Additionally, the extension can be installed into Visual Web Developer 2010 Express".
+      *"Starting with Visual Studio 2012, NuGet is included in every edition (except Team Foundation Server) by default. Updates to NuGet can be found through the Extension Manager".
+      *"To check if your copy of Visual Studio already has the NuGet extension, look for Library Package Manager in the Tools menu of Visual Studio. If your copy of Visual Studio does not already have the Library Package Manager (NuGet) extension, you can install it using the Extension Manager".
+    *[[http://docs.nuget.org/docs/start-here/using-the-package-manager-console|NuGet Docs "Finding and Installing a NuGet Package Using the Package Manager Console"]].
+  *Blog [[http://blog.nuget.org/|NuGet Team Blog]].
+== PSGet ==
+  *[[http://www.psget.net/|PSGet]], [[http://www.github.com/psget/psget|GitHub "psget"]].
+    *Alternatively you can do installation manually:
+      -Download PsGet.psm1 from [[http://www.github.com/psget/psget/|http://www.github.com/psget/psget/]].
+      -Copy PsGet.psm1 to your modules folder ( e.g. Modules\PsGet\ ).
+      -Execute Import-Module PsGet (or add this to your profile).
+=== PowerShell Remoting ===
+  *With PowerShell Remoting, you can execute PowerShell scripts on other computers running WinXP or Win7, including VirtualPCs running WinXP, Win7.
+  *[[http://msdn.microsoft.com/en-us/library/windows/desktop/ee706585%28v=vs.85%29.aspx|Microsoft MSDN, Dev-Center -  Desktop  "Windows PowerShell Remoting"]].
+  *[[http://social.technet.microsoft.com/Forums/de-DE/windowsservergewusstwiede/thread/c12c0f68-49a4-48ae-9e16-d342fb4dac8e/|MSDN TechNet "PowerShell: Windows PowerShell Remoting"]].
+  *[[http://www.powershell.com/cs/blogs/news/archive/2010/03/03/administrator-s-guide-to-powershell-remoting.aspx|PowerShell.com "Administrator's Guide to PowerShell Remoting"]].
+    *[[http://powershell.com/cs/media/p/4908.aspx|PowerShell.com "Administrator's Guide to Windows PowerShell Remoting"]].
+  *Configuring PowerShell Remoting.
+    *[[http://technet.microsoft.com/library/hh847859.aspx|Microsoft Script Center "about_Remote_Requirements"]].
+    *[[http://technet.microsoft.com/library/hh847748.aspx|Microsoft Script Center "Enable-PSRemoting"]].
+    *[[http://technet.microsoft.com/library/hh847850.aspx|Microsoft Script Center "about_Remote_Troubleshooting"]].
+=== PowerShell for SQL Server ===
+  *[[http://www.idera.com/|idera - Tools for SQL Server, Sharepoint and PowerShell]].
+    *[[http://www.idera.com/Products/Free-Tools/PowerShell-scripts/?s=EB_SQLPass_PS|idera - Tools for SQL Server, Sharepoint and PowerShell "PowerShell scripts. Free PowerShell scripts for SQL Server, AD, Exchange and SharePoint"]].
+    *[[http://www.idera.com/Promo/Practical-PowerShell/?s=EB_SQLPass_PS|idera - Tools for SQL Server, Sharepoint and PowerShell "Practical PowerShell Video Series"]].
+    *[[http://www.idera.com/Education/PowerShell-Webcasts/?s=EB_SQLPass_PS|idera - Tools for SQL Server, Sharepoint and PowerShell]]. 
+=== PowerShell Testing ===
+  *See  [[wscripting03.html|Scripting Programming Languages for Windows 3/3 - Windows Powershell]].
+===== Windows PowerShell Tips & Tricks ======
+  *Best training strategy, according to PowerShell experts:
+    -First learn how to use PowerShell for Windows system administration.
+    -Afterwards, you may also learn how to use PowerShell as a Window developer.
+  *Run "start /w aCommand" to get the script prompt back after the execution of the command "aCommand" is finished. Else the prompt returns immediately and the shell does not wait for completion of the execution of "aCommand".
+  *The most important commands :-) for rookies:
+    -PowerShell command "get-command".
+    -PowerShell command "get-help".
+    -Application "powershell_ise.exe".
+    -Since PowerShell 3, help must be installed manually, by "Update-Help -force -verbose UIculture de-DE", Update-Help -UICulture 'en-US'. 
+  *There are 2 levels of compatibility
+
+^ ^ ^ ^ ^
+^Version ^ .NET ^ Compatibility ^ Operating System ^ Comments ^
+^ Powershell 1 | .NET 2.0 | 1 & 2 | WinXP | outdated |
+^ Powershell 2 | .NET 2.0, .NET 3.5 | ::: | WinXP | supported |
+^ Powershell 3 | .NET 4.0, .NET 4.5 | 3 & 4 | Win7, Win8 | supported |
+^ Powershell 4 | .NET 4.0, .NET 4.5 | ::: | Win7, Win8.1 | supported, can't be installed on Win8 |
+^ Powershell 5 | ? | ::: | Win2012, Win8.1 | supported |
+^ | | | | |
+
+  *Redirection:
+    *In opposite to the Linux / Unix shells, e.g. Bourne Shell, there is no input redirection, even with "Powershell 5" :-(. 
+    *Full output redirection was a lately implemented feature of Powershell :-). 
+    *Remember that with output redirection, not plain text, but objects are returned - that's much more than available with Bourne Shell or other text-based input redirection.
+    *How to redirect StdErr with PowerShell: "application.exe 2>&1 >saved_stderr.txt".
+  *[[http://stackoverflow.com/questions/183901/how-to-start-powershell-from-windows-explorer|Stack Overflow "How to start PowerShell from Windows Explorer?"]] - "In Windows Explorer, just go to the Address Bar at the top (keyboard shortcut: Alt+D) and type powershell and press Enter. A PowerShell command window opens with the current directory".
+  *If you don´t own Win8.1 or Win2012Server, you don´t get the latests high-level functions. On Win7 and Win2008Server, if you want do implement the missing high-level functions by your own, you have to write .NET software in C#. 
+    *Unfortunately, the names of methods you need are not mentioned in the PowerShell documentation. Instead, you have to find it in the .NET and WPL documentation, by yourself!
+    *It is challenging to get names of methods you want to use, by the .NET and WPL documentation.
+  *PowerShell Execution Policies.
+    *[[http://technet.microsoft.com/library/hh847748.aspx|Microsoft TechNet "about_Execution_Policies"]].
+    *I myself like to create and use a batch file "powershell_unrestricted.ps1" with the contents "PowerShell.exe -ExecutionPolicy Unrestricted" :-) to work without restrictions.
+  *[[http://www.stackoverflow.com/questions/1825585/determine-installed-powershell-version|StackOverflow "Determine installed PowerShell version"]] - "$PSVersionTable.PSVersion".
+  *File location:
+    *Modules:
+      *Powerscript modules are located in subdirectories of the Windows directory "C:\Windows\System32\WindowsPowerShell\v1.0\Modules".
+      *You may open your modules directory with PowerShell by "explorer.exe ($PSHOME | Join-Path -ChildPath Modules)".
+    *Autoexec files ( e.g. <user> = "Administrator" ). If you refer to other files in the directory, you have to specify the full absolute path to it!
+      *"C:\Users\Administrator\Documents\windowspowershell". 
+        *"C:\Users\Administrator\Documents\windowspowershell\Microsoft.PowerShell_profile.ps1".
+        *"C:\Users\Administrator\Documents\windowspowershell\Microsoft.PowerShellISE_profile.ps1".
+  *[[http://www.superuser.com/questions/446827/configure-the-windows-powershell-to-display-only-the-current-folder-name-in-the|SuperUser "Configure the Windows Powershell to display only the current folder name in the shell prompt"]].
+===== Windows Powershell Resources ======
+==== Microsoft ====
+  *[[http://technet.microsoft.com/en-US/scriptcenter|Microsoft Script Center]].
+    *[[http://technet.microsoft.com/en-US/scriptcenter/dd742419.aspx|Microsoft Script Center "Windows PowerShell Scripting"]].
+    *[[http://gallery.technet.microsoft.com/scriptcenter|Microsoft Script Center "Script resources for IT professionals"]].
+  *Blog [[http://blogs.msdn.com/b/powershell/|MSDN Blogs "Windows PowerShell Blog. Automating the world one-liner at a time…"]].
+  *[[http://technet.microsoft.com/en-gb/scriptcenter|Microsoft TechNet "Script Center"]].
+    *[[http://technet.microsoft.com/en-gb/scriptcenter/dd742419.aspx|Microsoft TechNet "Windows PowerShell Scripting"]], [[http://www.microsoft.com/powershell|Microsoft PowerShell]].
+  *[[http://technet.microsoft.com/en-us/library/bb978526.aspx|Microsoft TechNet "Scripting with Windows PowerShell"]].
+  *[[http://msdn2.microsoft.com/en-us/library/aa830112.aspx|Microsoft MSDN Developer Network "Windows PowerShell"]] - "Windows PowerShell Getting Started Guide", "Windows PowerShell Programmer's Guide", "Windows PowerShell SDK", "PowerShell Managed Reference".
+  *[[http://technet.microsoft.com/de-de/library/cc196356.aspx|Microsoft TechNet "Windows PowerShell-Benutzerhandbuch"]].
+  *[[http://technet.microsoft.com/de-de/library/ee332526.aspx|Microsoft TechNet "Wie kann ich Windows PowerShell einsetzen? Ein aufgabenbasierter Leitfaden für Windows PowerShell-Cmdlets"]].
+  *[[http://blogs.msdn.com/powershell/|Microsoft MSDN "Windows PowerShell Blog"]].
+    *[[http://blogs.msdn.com/b/powershell/archive/2008/12/30/download-windows-powershell.aspx|Windows PowerShell Blog "Download Windows PowerShell"]].
+  *[[http://msdn.microsoft.com/en-us/magazine/ee291628.aspx|Microsoft MSDN Magazine "Glenn Block: Managed Extensibility Framework. Building Composable Apps in .NET 4 with the Managed Extensibility Framework"]].
+  *"P/Invoke".
+    *[[http://msdn.microsoft.com/en-us/library/aa446536.aspx|Microsoft Developer Network "An Introduction to P/Invoke and Marshaling on the Microsoft .NET Compact Framework"]].
+    *[[http://www.pinvoke.net/|PInvoke.net? - A wiki for .NET developers]].
+    *According to experts, PowerShell scripts might even access the Win32 API by "P/Invoke".
+  *PowerShell does not run on W2k.
+    *Thomas Lee.
+      *[[http://tfl09.blogspot.com/2005/10/monad-on-windows-2000.html|Monad on Windows 2000]].
+      *[[http://tfl09.blogspot.com/2007/08/powershell-on-windows-2000-forget-it.html|PowerShell on Windows 2000 - Forget it]] - "... but thought I'd mention that the only thing preventing one from running PowerShell on Win2K is the fact that the installer checks the windows build. You can break open the msi with Orca and add in your build (including SP) and it works just fine".
+    *[[http://blogs.msdn.com/powershell/|Windows PowerShell Blog]].
+      *[[http://blogs.msdn.com/powershell/archive/2007/05/18/the-virtuous-cycle-net-developers-using-to-powershell.aspx|Too bad, that PS isn't available on Windows 2000]].
+==== PowerShell Links for Developers ====
+  *[[http://msdn.microsoft.com/en-us/library/dd835506%28v=vs.85%29.aspx|Microsoft Developer Network "Windows PowerShell"]] - "Windows PowerShell Documents on MSDN".
+  *[[http://msdn.microsoft.com/en-us/library/windows/desktop/dd835506%28v=vs.85%29.aspx|Microsoft Windows Dev-Center - Desktop "Windows PowerShell]].
+  *[[http://msdn.microsoft.com/en-us/library/ms714658%28VS.85%29.aspx|Microsoft Developer Network "How Windows PowerShell Works"]].
+==== Powershell Testing ====
+  *[[http://blogs.clariusconsulting.net/kzu/powershell-how-to-unit-test-your-cmdlet/|Daniel Cazzulino "PowerShell: how to unit test your cmdlet"]].
+  *[[http://www.simple-talk.com/sysadmin/powershell/|Simple-Talk. A technical journal and community hub from Redgate]].
+    *[[http://www.simple-talk.com/sysadmin/powershell/practical-powershell-unit-testing-getting-started/|Simple-Talk. A technical journal and community hub from Redgate "Practical PowerShell Unit-Testing: Getting Started"]].
+    *[[http://www.simple-talk.com/sysadmin/powershell/practical-powershell-unit-testing-mock-objects/|Simple-Talk. A technical journal and community hub from Redgate "Practical PowerShell Unit-Testing: Mock Objects"]].
+    *[[https://www.simple-talk.com/sysadmin/powershell/practical-powershell-unit-testing-checking-program-flow/|Simple-Talk. A technical journal and community hub from Redgate "Practical PowerShell Unit-Testing: Checking program flow"]].
+  *[[http://www.davidcheal.info/unit-testing-powershell/|David Cheal "Unit testing powershell"]].
+  *Johan Leino.
+    *[[http://johanleino.wordpress.com/2013/09/13/pester-unit-testing-for-powershell/|Johan Leino "Pester: Unit Testing for PowerShell"]].
+    *[[http://johanleino.wordpress.com/2013/09/25/pester-how-to-unit-test-your-powershell-modules/|Johan Leino "Pester: How to unit test your PowerShell modules"]].
+  *[[http://www.powershellmagazine.com/2014/03/12/get-started-with-pester-powershell-unit-testing-framework/|PowerShell Magazine "Get started with Pester (PowerShell unit testing framework)"]].
+  *[[http://www.stackoverflow.com/questions/tagged/pester|StackOverflow Tagged Questions "pester"]].
+    *[[http://www.stackoverflow.com/questions/940497/how-to-do-tdd-and-unit-testing-in-powershell|StackOverflow "How to do TDD and unit testing in powershell?"]].
+  *Matt Wrock.
+    *[[http://www.mattwrock.com/post/2012/11/15/Unit-Testing-Powershell-and-Hello-Pester.aspx|Matt Wrock's Software Development Blog "Unit Testing Powershell and Hello Pester"]].
+    *[[http://www.slideshare.net/mwrockx/unit-testing-powershell|Slideshare - Matt Wrock "Unit testing powershell"]] - Comparison of Pester, PSTest, PSUnit.
+==== The Script Language ====
+  *[[http://www.4sysops.com/archives/powershell-bypass-executionpolicy-to-run-downloaded-scripts/|4sysops "PowerShell: Bypass ExecutionPolicy to run downloaded scripts"]].
+  *Microsoft
+    *[[http://blogs.technet.com/b/heyscriptingguy/|Microsoft Technet Blog "Hey, Scripting Guy! Blog. Learn about Windows PowerShell"]].
+      *[[http://blogs.technet.com/b/heyscriptingguy/archive/2011/12/07/find-the-index-number-of-a-value-in-a-powershell-array.aspx|Microsoft Technet Blog "Hey, Scripting Guy! Blog. Learn about Windows PowerShell", article "Find the Index Number of a Value in a PowerShell Array"]].
+      *[[http://blogs.technet.com/b/heyscriptingguy/archive/2011/12/07/find-the-index-number-of-a-value-in-a-powershell-array.aspx|Microsoft Technet Blog "Hey, Scripting Guy! Blog. Learn about Windows PowerShell", article "Find the Index Number of a Value in a PowerShell Array"]].
+      *[[http://blogs.technet.com/b/heyscriptingguy/archive/2010/03/11/hey-scripting-guy-march-11-2010.aspx|Microsoft Technet Blog "Hey, Scripting Guy! Blog. Learn about Windows PowerShell", article "Hey, Scripting Guy! How Can I Use Try/Catch/Finally in Windows PowerShell?"]].
+    *[[http://technet.microsoft.com/en-us/library/hh849924.aspx|Microsoft TechNet, Script Center "Unblock-File"]].
+  *Casting vs. Conversion
+    *[[http://www.powershellatoms.com/powershell-101/casting-values-in-powershell/|Powershell Atoms "Casting Values in Powershell"]].
+    *[[http://www.stackoverflow.com/questions/25322636/powershell-convert-string-to-number?answertab=active#tab-top|StackOverflow "Powershell: convert string to number"]].
+  *[[http://www.powershellpro.com/powershell-tutorial-introduction/variables-arrays-hashes/|Powershell Pro "Variables, Arrays, and Hash Tables - PowerShell Tutorial 7: Accumulate, Recall, and Modify. Data"]].
+  *[[http://ss64.com/ps/|SS64 Powershell - An A-Z Index of Windows PowerShell 2.0 commands]].
+    *[[http://ss64.com/ps/for.html|SS64 Powershell "For"]].
+    *[[http://ss64.com/ps/foreach.html|SS64 Powershell "ForEach"]].
+    *[[http://ss64.com/ps/write-debug.html|SS64 Powershell "Write-Debug"]].
+  *StackOverflow.
+    *[[http://www.stackoverflow.com/questions/6848741/can-i-write-a-class-using-powershell|StackOverflow "Can I write a class using powershell?"]].
+      *[[http://technet.microsoft.com/en-us/library/dd315241.aspx|Microsoft TechNet "Add-Type"]].
+    *[[http://www.stackoverflow.com/questions/7342597/how-do-you-comment-out-code-in-powershell|StackOverflow "How do you comment out code in PowerShell?"]].
+    *[[http://www.stackoverflow.com/questions/728143/ignore-security-warning-running-script-from-command-line|StackOverflow "Ignore 'Security Warning' running script from command line"]].
+  *[[http://social.technet.microsoft.com/Forums/windowsserver/en-US/7ea393bc-80db-4b92-8504-a9b481a2e266/powershell-ise-startup-script?forum=winserverpowershell|Microsoft TechNet Forums "PowerShell ISE Startup script"]].
+  *[[http://becomelotr.wordpress.com/2012/06/17/outputtypewhy-would-you-care/|IT Pro PowerShell experience: "OutputType–why would you care?"]].
+==== General ====
+  *Blog [[http://www.learn-powershell.net/|Boe Prox - Learn Powershell. Achieve More]].
+  *Blog [[http://blogs.msdn.com/b/powershell/|Microsoft MSDN Blog Windows PowerShell Blog]].
+  *[[http://www.reskit.net/powershell/|The PowerShell Information Centre]].
+  *[[http://www.powershellpraxis.de/|PowerShellPraxis]], Germany.
+  *[[http://pscommunity.de/|powershell.de - PowerShell-Wissen in deutsch]].
+  *[[http://www.powershell.com/|PowerShell.com - The Community for PowerShell People]].
+  *[[http://www.powershellplus.com/|PowerShell Plus / PowerShell +]].
+  *[[http://www.powershellmagazine.com/|PowerShell Magazine]].
+  *[[http://powerscripting.wordpress.com/|PowerScripting Podcast]] - "Shownotes and links for the PowerScripting Podcast, a podcast to help people learn Windows Powershell".
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/Managed_Extensibility_Framework|EN.Wikipedia "Managed Extensibility Framework"]] - You may use it to write plugins for .NET applications. As PowerShell is a .NET application, you may do so for PowerShell too, according to experts.
+    *[[http://en.wikipedia.org/wiki/Windows_PowerShell|EN.Wikipedia:"Windows PowerShell"]], [[http://de.wikipedia.org/wiki/Windows_PowerShell|DE.Wikipedia:"Windows PowerShell"]].
+    *[[http://www.microsoft.com/windowsserver2003/technologies/management/powershell/|Windows PowerShell]].
+{{tag>powershell ps ps1 windows scripting }}
+<footnote_navi_en>

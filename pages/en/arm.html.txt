@@ -118,8 +118,8 @@ Related page:
 ==== Analog Devices, Inc. -> Analog Devices Precision Analog Microcontrollers, based on ARM7 ====
   *[[http://www.analog.com/en/processors-dsp/analog-microcontrollers/products/index.html|Analog Devices, Inc. "Analog Microcontrollers"]] - "Analog Devices Precision Analog Microcontrollers".
   *Evaluation board [[http://www.analog.com/en/digital-to-analog-converters/products/evaluation-boardstools/CU_eb_PLC_DEMO_SYSTEM/resources/fca.html|Analog Devices, Inc. "PLC demo system"]] -> ARM7.
-==== Altera Corporation ====
-  *See [[altera.html|Altera "System-on-a-Chip" ( SoC )]].
+==== Altera Corporation ( now merged with Intel ) ====
+  *See [[altera.html|Altera ( now merged with Intel ) "System-on-a-Chip" ( SoC )]].
 ==== ARM Ltd. ====
   *[[http://www.arm.com/|ARM Ltd.]].
     *[[http://www.arm.com/products/processors/cortex-a/index.php|ARM Ltd. "Cortex-A Series"]].
@@ -232,9 +232,11 @@ C:\Users\MyUser\Infineon\D3LibraryStore_3.1.10\www.infineon.com\DaveAppLibrary\X
   *[[http://ics.nxp.com/|NXP Semiconductors - ICs]].
   *[[http://ics.nxp.com/products/lpc1000/|NXP Semiconductors "LPC1000"]].
   *[[http://ics.nxp.com/lpcxpresso/|NXP Semiconductors "LPCXpresso"]].
-== LPCXpresso Board, Target LPC1xxx => LPC1xxx, based on Cortex M0 & Cortex M3 ==
+== My LPCXpresso Board, Target LPC1xxx => LPC1xxx, based on Cortex M0 & Cortex M3 ==
   *[[http://ics.nxp.com/lpcxpresso/|NXP Semiconductors "LPCXpresso"]].
   *My LPCXpresso Board is equipped with a LPC1343, based on Cortex M3 ( 32KB flash, 8KB SRAM ).
+== My NTAG I2C DemoKit ==
+  *[[http://www.nxp.com/demoboard/OM5569.html|NXP "OM5569. Demoboard for NFC connected tag chips]].
 == EM773 Energy Metering, Wireless Plug Meter Demo => EM773, based on Cortex M0 ==
   *[[http://ics.nxp.com/support/design/microcontrollers/smart.metering/|NXP Semiconductors  "EM773 energy metering IC design example"]] with EM773, based on Cortex M0 ( 32KBytes Flash, 8 KBytes RAM ).
     ***Warning - Danger for life -: The circuit board of the EM773 device is not isolated against 230 Volts power**, like legacy TV sets where the TV chassis may be on the 230 Volts power level. **That's why you must not connect the JTAG interface of the device to a remote PC, while the device is plugged into a 230 Volts power socket, under any circumstances**. For practical work in a laboratory - and just there ! -, you need to use a **insulating transformer** to isolate the 230 Volts power supply from the device.
@@ -306,7 +308,7 @@ C:\Users\MyUser\Infineon\D3LibraryStore_3.1.10\www.infineon.com\DaveAppLibrary\X
     *[[http://www.silabs.com/products/mcu/lowpower/pages/efm32wg-wonder-gecko.aspx|Silicon Laboratories Inc. "EFM32 Wonder Gecko 32-bit ARM Cortex-M4 Microcontroller"]].
   *The expansion card.
     *[[http://www.silabs.com/products/sensors/infraredsensors/pages/sensor-exp-evb.aspx|Silicon Laboratories Inc. "Sensor Expansion Card for EFM32 Zero Gecko Starter Kit, SENSOR-EXP-EVB"]].
-== Würth Elektroink "IC-744885 - Kit, Energy Harvesting Platform" with "EFM32" Giant Gecko Starter Kit -> ARM Cortex-M4 ==
+== Würth Elektronik "IC-744885 - Kit, Energy Harvesting Platform" with "EFM32" Giant Gecko Starter Kit -> ARM Cortex-M4 ==
   *[[http://de.farnell.com/wurth-elektronik/ic-744885/kit-energy-harvesting-platform/dp/2249957|Farnell "WURTH ELEKTRONIK - IC-744885 - KIT, ENERGY HARVESTING PLATFORM"]].
   *[[http://www.silabs.com/products/mcu/lowpower/pages/efm32gg-stk3700.aspx|Silicon Laboratories Inc. "EFM32 Giant Gecko Starter Kit]] with "EFM32GG990F" CPU.
   *[[http://www.silabs.com/products/mcu/lowpower/Pages/efm32gg-giant-gecko.aspx|Silicon Laboratories Inc. "EFM32™ Giant Gecko 32-bit Microcontroller"]].
@@ -323,6 +325,10 @@ C:\Users\MyUser\Infineon\D3LibraryStore_3.1.10\www.infineon.com\DaveAppLibrary\X
 == Link Utilities ==
   *[[http://www.st.com/web/en/catalog/tools/FM147/SC1887/PF258168|STMicroelectronics "STSW-LINK004. STM32 ST-LINK utility"]].
   *[[http://www.st.com/web/en/catalog/tools/FM147/SC1887/PF260217|STMicroelectronics "STSW-LINK007. ST-LINK/V2-1 firmware upgrade"]].
+== USB drivers for Link Utilities ==
+  *[[http://www.st.com/web/en/catalog/tools/PF258167|STMicroelectronics "ST-LINK/V2 USB driver for Windows 7, Vista and XP"]] - "STSW-LINK003 V1.0.4 USB driver for WIndows 7, Vista and XP".
+  *[[http://www.st.com/web/en/catalog/tools/PF258168|ST Microeletronics "STSW-LINK004 STM32 ST-LINK utility"]] - "STSW-LINK004 V3.6 USB driver, recommended also forfor Windows 8".
+  *[[http://www.st.com/web/en/catalog/tools/PF259459|STMicroelectronics "ST-LINK/V2 USB driver for Windows 8"]] - "STSW-LINK006 V1.0.0 USB driver for Windows 8" -> doesn´t work on Win8, 32-bit :-(.
 === Software Design Support Concepts ===
 == STM32Cube ( formerly: MicroXplorer ) ==
   *The free legacy software [[http://web.archive.org/web/*/http://www.st.com/web/en/catalog/tools/PF251717|Archive.org "STMicroelectronics: MicroXplorer - MCU graphical configuration tool"]] for Windows.
@@ -348,9 +354,6 @@ C:\Users\MyUser\Infineon\D3LibraryStore_3.1.10\www.infineon.com\DaveAppLibrary\X
     *[[http://www.st.com/web/en/catalog/tools/FM116/SC1444/PF253360?sc=m24lr04e-discovery|STMicroelectronics "M24LR-DISCOVERY. Discovery kit for M24LR04E Dual Interface EEPROM with energy harvesting"]].
       *M24LR board.
       *RF transceiver board - CR95HF-VMD5T 13.56 MHz multi-protocol contactless transceiver IC.
-  *USB drivers:
-    *[[http://www.st.com/web/en/catalog/tools/PF259459|STMicroelectronics "ST-LINK/V2 USB driver for Windows 8"]].
-    *[[http://www.st.com/web/en/catalog/tools/PF258167|STMicroelectronics "ST-LINK/V2 USB driver for Windows 7, Vista and XP"]].
   *Smartphone apps:
     *[[http://play.google.com/store/apps/details?id=com.nfc.apps|Google Play Store "ST M24SR Demo"]],  [[http://links.st-microelectronics.mkt5947.com/ctt?kn=2&ms=MTE4NTQ2NzQS1&r=NzY0Nzc4ODc4NDgS1&b=0&j=NTAzMTA3MjM5S0&mt=1&rt=0|STMicroelectronics "Android ST M24SR Demo"]].
     *[[http://play.google.com/store/apps/details?id=com.nfc.apps|Google Play Store "NfcV-reader"]], [[http://links.st-microelectronics.mkt5947.com/ctt?kn=4&ms=MTE4NTQ2NzQS1&r=NzY0Nzc4ODc4NDgS1&b=0&j=NTAzMTA3MjM5S0&mt=1&rt=0|STMicroelectronics "NfcV-reader"]].
@@ -405,24 +408,45 @@ C:\Users\MyUser\Infineon\D3LibraryStore_3.1.10\www.infineon.com\DaveAppLibrary\X
   *[[http://www.st.com/web/en/catalog/tools/PF259212|STMicroelectronics "STSW-95HF001. PC software executable for DEMO-CR95HF-A board (UM1084)]] - "CR95HF Development Software".
   *[[http://www.st.com/web/en/catalog/mmc/FM76/CL1766/SC1540/PF251619|STMicroelectronics "CR95HF NFC Reader IC"]].
 == 7. My STM32L053R8 Nucleo -> STML053R8T6, based on Cortex M0+ ==
-  *My Arduino Device "My STM32L053R8 Nucleo":
+  *The M24SR ecosystem.
+    *[[http://www.st.com/m24sr|STMicroelectronics "M24SR series"]].
+  *My Arduino device "STM32L053R8 Nucleo":
     *[[http://www.st.com/stm32nucleo|STMicroelectronics "STM32 MCU Nucleo"]].
     *"STML053R8T6" MCU with 64 KBytes of Flash, 8 Kbytes of SRAM.
     *Similar board: [[http://www.mbed.org/platforms/ST-Nucleo-L152RE/|mbed "ST Nucleo L152RE"]].
     ***Software for this board can be compiled by the free online development system [[http://wwwmbed.org/|mbed]]**.
     *The board is in Ardunio format. Additionaly to the standard Ardunio interface, it has extra ST interfaces.
-  *My M24SR shield "SHIELD-M24SR-ADV - MB11161-A":
-    *[[http://www.st.com/m24sr|STMicroelectronics "M24SR series"]].
-  *I still don´t have the "RF Transceiver Demonstration Board MB 1054A CR95HF", alternatively you might use an NFC-enabled smartphone like [[http://en.wikipedia.org/wiki/Samsung_Galaxy_S4|SAMSUNG G4]].
-    *[[http://www.st.com/web/en/catalog/tools/PF259212|STMicroelectronics "STSW-95HF001. PC software executable for DEMO-CR95HF-A board (UM1084)]] - "CR95HF Development Software".
-    *[[http://www.st.com/web/en/catalog/mmc/FM76/CL1766/SC1540/PF251619|STMicroelectronics "CR95HF NFC Reader IC"]].
-    *Windows USB devicename: "MB 1054A CR95HF".  
+  *My M24SR shield "Bluetoth low energy expansion board bsed on BlueNRG for STM32 Nucleo":
+    *[[http://www.st.com/web/catalog/tools/FM116/SC1075/PF260517|STMicroelectronics "X-NUCLEO-IDB04A1. Bluetooth low energy expansion board based on BlueNRG for STM32 Nucleo"]].
+  *My M24SR shield "MEMS Inertial and Environmental expansion board for STM32 Nucleo":
+    *[[http://www.st.com/web/catalog/tools/FM116/SC1248/PF261191|STMicroelectronics "X-NUCLEO-IKS01A1. Motion MEMS and environmental sensor expansion board for STM32 Nucleo"]].
+  *My M24SR shield "Stepper Motor driver expansion board based on easySPIN L6474 for STM32 Nucleo":
+    *[[http://www.st.com/web/en/catalog/tools/PF260715|STMicroelectronics "X-NUCLEO-IHM01A1. Stepper motor driver expansion board based on L6474 for STM32 Nucleo"]].
+  *My [[http://www.st.com/web/en/catalog/tools/FM116/SC1444/PF253360|STMicroelectronics "M24LR-DISCOVERY"]].
+    *Hardware:
+      *The red M24LR board with [[http://www.st.com/web/catalog/mmc/FM141/SC1244/SS1336/LN1570/PF244063|STM8L152C6T6]] CPU.
+        *[[http://www.st.com/web/en/catalog/mmc/FM76/CL1766/SC1540/PF251619|STMicroelectronics "CR95HF NFC Reader IC"]].
+        *[[http://www.st.com/web/en/catalog/tools/PF258104|STMicroelectronics "STSW-M24LR016. Firmware for M24LR board included in the M24LR-DISCOVERY kit"]].
+        *SWIM connector for programming and debugging. Hardware debugger:
+          *[[http://www.st.com/web/en/catalog/tools/PF219866|STMicroelectronics "ST-LINK. In-circuit debugger and programmer for STM8 and STM32 MCUs; with IAR EWARM and Keil RVMDK and ST toolset"]].
+          *[[http://www.st.com/web/catalog/tools/FM146/CL1984/SC724/SS1677/PF251168|STMicroelectronics "ST-LINK/V2. ST-LINK/V2 in-circuit debugger/programmer for STM8 and STM32"]].
+          *Or you may use any "STM8 discovery" board, separate the shipped ST-Link debugger or just pull off a jumper to use it for debugging by SWIM connector.
+      *The green RF transceiver board, with [[http://www.st.com/web/catalog/mmc/FM141/SC1169/SS1031/LN1565/PF189782|STM32F103CB]] CPU.
+        *Windows USB devicename: "MB 1054A CR95HF".  
+    *Software: [[http://www.st.com/web/en/catalog/tools/PF259212|STMicroelectronics "STSW-95HF001. PC software executable for DEMO-CR95HF-A board (UM1084)]] - "CR95HF Development Software".
   *Resources:
     *[[http://www.st.com/nfc-rfid|STMicroelectronics "NFC / RFID Memories and Transceivers"]].
     *[[http://play.google.com/store/apps/details?id=com.nfc.m24srdemo|Google Play "ST M24SR Demo"]].
 == 8. My STM32L053 Discovery -> STML053R8T6, based on Cortex M0+ ==
   *[[http://www.st.com/st-web-ui/active/en/catalog/tools/PF260319|STMicroelectronics "32L0538DISCOVERY Discovery kit with STM32L053C8 MCU"]], with E-paper display,.
-== 9. Motor Control Kits ==
+== 9. My STM32F7 (?) Discovery ==
+  *Recommended software:
+    *The commercial IDE [[http://supp.iar.com/Download/SW/?item=EWARM-EVAL|IAR 7.4]], 30 day evaluation timeout.
+    *[[http://www.st.com/web/catalog/tools/FM147/CL1794/SC961/SS1533/PF259242|STMicroelectronics "STM32CubeMX. STM32Cube initialization code generator (UM1718)"]].
+    *[[http://www.st.com/web/catalog/tools/FM147/CL1794/SC961/SS1533/PF257938|STMicroelectronics "STSW-STM32102. STM32 Virtual COM Port Driver"]].
+    *USB driver [[http://www.st.com/web/en/catalog/tools/PF258167|STMicroelectronics "STSW-LINK003. ST-LINK/V2 USB driver for Windows 7, Vista and XP"]], <del>[[http://www.st.com/web/en/catalog/tools/PF259459|STMicroelectronics "STSW-LINK006. ST-LINK/V2 USB driver for Windows 8"]]</del>.
+    *Make sure you have the latest JAVA and .NET environments.
+== 10. Motor Control Kits ==
   *[[http://powerelectronics.com/power_management/motor_control_3kw/|Power Electronics Technology "Motor Control Kit Drives up to 3 kW"]].
   *[[http://www.st.com/internet/evalboard/product/252075.jsp|STMicroelectronics "STM32100B-MCKIT"]] - "Motor control starter kit for STM32F100 (128KB Flash) Value Line MCUs".
   *[[http://www.st.com/internet/evalboard/product/203167.jsp|STMicroelectronics "STM3210B-MCKIT"]] - "Motor control starter kit for STM32 (128KB flash) Performance and Access Line microcontrollers".

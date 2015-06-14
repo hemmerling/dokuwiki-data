@@ -73,8 +73,8 @@ Anwender von Business-Software erwarten Kontinuität"]], 2008-10-06 - "ERP-Nutze
   *Git configuration:
     *( ) Checkout Windows-style, commit Unit-style line endings.
     *( ) Checkout as-is,commit Unit-style endings.
-    *( ) Checkout as-is, commit as-is.
-    *(x) Not set.
+    *(x) Checkout as-is, commit as-is.
+    *<del>(x) Not set</del>. Not available with GitExtensions 2.48.05.
   *Git Extenions configuration:
     *( ) use OpenSSH.
     *(x) Use PuTTY.

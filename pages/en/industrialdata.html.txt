@@ -3,7 +3,6 @@ Related pages:
   *[[fieldbus.html|Fieldbuses and Automation Networks]].
   *[[mes02.html|Manufacturing Execution Systems ( MES ) 2/5 - Software Systems]].
   *[[mes03.html|Manufacturing Execution Systems ( MES ) 3/5 - Norms & Design]].
-
 ===== Interfaces & Protocols for Automation =====
 ==== Bit Alarm Procedure ====
   *The alarm limits are stored in the PLC. So that the PLC can react. The PLC transfers one bit of information, when the signal lefts the range of the alarm limits. 
@@ -19,11 +18,6 @@ Related pages:
   *NetDDE.
 === .NET Remoting ===
   *[[http://en.wikipedia.org/wiki/.NET_Remoting|EN.Wikipedia ".NET Remoting"]], [[http://de.wikipedia.org/wiki/.NET_Remoting|DE.Wikipedia ".NET Remoting"]].
-
-
-
-
-
 ===== Interfaces & Protocols for MES  =====
 ==== Communications ====
   *[[http://en.wikipedia.org/wiki/General_Packet_Radio_Service|EN.Wikipedia "General Packet Radio Service"]], [[http://de.wikipedia.org/wiki/General_Packet_Radio_Service|DE.Wikipedia "General Packet Radio Service"]].
@@ -130,13 +124,10 @@ Oracle DBA – Tips and Techniques. Knowledge Is Power - Share IT! "Oracle 12c N
   *[[http://en.wikipedia.org/wiki/IEC_60870-6|EN.Wikipedia "IEC 60870-6"]], [[http://de.wikipedia.org/wiki/IEC_60870|DE.Wikipedia "IEC 60870"]].
 ==== IEC 61850 / 61400-25 ====
   *See [[fieldbus.html|Fieldbuses and Automation Networks]].
-
 ==== Modbus IDA, RTU, TCP ====
   *See [[fieldbus.html|Fieldbuses and Automation Networks]].
-
 ===== Control and Data Communication Concepts & Data Sources =====
 {{images:mes3.png?480|Control and Data Communication between a MES and Factory Equipment by OLE or SEMI)}}
-
 Inspired by: [[http://info.cimetrix.com/blog/bid/84727/Implementing-GEM-and-PV2-what-you-should-know|Cimetrix, Rob Schreck "Implementing GEM and PV2 – what you should know"]], 2012-05-14.
 ==== OLE for Process Control ( OPC ) ====
 === Organisations ===
@@ -148,6 +139,8 @@ Inspired by: [[http://info.cimetrix.com/blog/bid/84727/Implementing-GEM-and-PV2-
   *[[http://www.integrationobjects.com/|Integration Objects]].
     *The free [[http://www.integrationobjects.com/OPC-connectivity-product-25-63.html|Integration Objects "OPC Server Simulators"]] for Windows.
   *The OpenSource [[http://openopc.sourceforge.net/|Sourceforge "openOPC"]], [[http://www.sourceforge.net/projects/openopc/|Sourceforge "openOPC"]] - "A free, open source OPC (OLE for Process Control) toolkit".
+  *The OpenSource [[http://www.openscada.org/|openSCADA ( openscada.org )]], [[http://git.openscada.org/|openSCADA ( openscada.org ) Git]].
+    *[[http://www.openscada.org/2012/06/06/thinking-about-opc-ua/|openSCADA ( openscada.org ) "Thinking about OPC UA"]], 2012.
   *[[http://www.ipi.ac.ru/lab43/lopc-en.html|Light OPC]] - "The Free OPC Server Toolkit".
   *[[http://code.google.com/p/frl/|Google Code "frl"]] - "FatRat Library is a toolkit for speed up development OPC servers on C++".
   *[[http://www.schoop-automation.de/|Ingenieurbüro Dr.-Ing.Schoop GmbH]].
@@ -171,7 +164,7 @@ Inspired by: [[http://info.cimetrix.com/blog/bid/84727/Implementing-GEM-and-PV2-
   *The free [[http://www.poweropc.com/downloads.html|PowerOPC "OPC Data Access Client"]].
   *[[http://wayback.archive.org/web/*/http://www.mmiopc.com/|Archive.org "Progea Srl.: MMI OPC - The easiest way to human interface"]].
     *The free [[http://wayback.archive.org/web/*/http://www.mmiopc.com/download.htm|Archive.org "Progea Srl. - OPC Explorer"]] for Windows. Please [[imprint.html|tell me]] if you know a download offer for this free software!
-=== OPC-UA Client / Server Tools ===
+=== Commercial OPC-UA Client / Server Tools ===
   *As OPC member, you have access to an OPC-UA C++ stack. According to experts, this stack isn't a complete application and which needs much improvements and upgrades to be used for production purposes.
   *[[http://www.matrikonopc.com/opc-ua/|MatrixOPC "OPC UA (Unified Architecture)"]].
     *[[http://www.matrikonopc.com/opc-ua/embedded/|MatrixOPC "MatrikonOPC OPC UA Embedded Suite"]].
@@ -181,6 +174,21 @@ Inspired by: [[http://info.cimetrix.com/blog/bid/84727/Implementing-GEM-and-PV2-
     *[[http://www.hy-line.de/fileadmin/hy-line/automation/hersteller/opto22/pdf/flyer_groov_Browser_basiertes_HMI_System_mit_OPC-UA.pdf|HY-LINE Systems GmbH "Flyer: Browserbasiertes HMI-System mit OPC-UA"]] ( PDF ).
     *".. basiert komplett auf Internet-Technologien wie HTML5, CSS3, SVG (Scalable Vector Graphics) und kommt ohne Plug-Ins aus. Flash, Silverlight oder ähnliches wird nicht benötigt. Die mit groov erstellten Anwendungen lassen sich mit jedem Betriebssystem und aktuellen Webbrowser ausführen".
     *"... Kommunikation zu den bekannten industriellen Steuerungssystemen möglich. Dazu zählen Siemens Simatic, Schneider Electric Modicon und GE PAC-Systems. Der Datenaustausch läuft hier via OPC-UA-Standardprotokoll".
+  *The non-free OPC-UA client&server [[http://www.openopcua.org/|OpenOpcUa]] - "An opensource and multi-platform C/C++ project", "First remember that Open is different than Free", "The access to the OpenOpcUa codebase require a onetime fee".
+=== OpenSource OPC-UA Client / Server Tools ===
+== Project & Tools ==
+  *The OPC-UA client&server [[http://www.open62541.org/|open62541]], [[https://www.github.com/acplt/open62541/|GitHub "acplt/open62541"]].
+  *The OpenSource OPC-UA client&server [[http://node-opcua.github.io/|GitHub.io "node-opcua"]], [[https://www.github.com/node-opcua|GitHub "node-opcua"]] - "NodeOPCUA is a OPC UA stack fully written in javascript and NodeJS".
+  *The OpenSource OPC-UA client&server [[http://freeopcua.github.io/|GitHub.io "FreeOPCUA: An Open Source C++ OPC-UA Server and Client Library"]], [[http://www.github.com/FreeOpcUa|GitHub "Free OPC-UA Library. Open Source C++ and Python OPC-UA Libraries"]].
+  *The OpenSource OPC-UA server [[http://oscada.org/|OpenSCADA (oscada.org)]], [[http://www.oscada.org/websvn/|OpenSCADA (oscada.org) Subversion Repository]].
+  *[[http://www.github.com/digitalpetri/|GitHub "digitalpetri"]].
+    *The OpenSource OPC-UA client&server [[http://www.github.com/digitalpetri/opc-ua-stack|GitHub "digitalpetri/opc-ua-stack"]] - "High-performance OPC-UA stack for Java".
+    *The OpenSource OPC-UA client&server SDK [[http://www.github.com/digitalpetri/opc-ua-sdk|GitHub "digitalpetri/opc-ua-sdk"]].
+      *[[http://discourse.digitalpetri.com/|Discourse "digitalpetri"]] - "Welcome to digitalpetri OPC-UA SDK support".
+  *The OpenSource OPC-UA server [[http://code.google.com/p/opcua4j/|Google Code "opcua4j.open source implementation of an opc ua server in java"]] ( formerly: [[http://code.google.com/p/open-opc-ua-server/|Google Code "open-opc-ua-server. open source implementation of an opc ua server in java"]] ) - It depends on redistributable jar-files from the OPC Foundation.
+== Resources ==
+  *[[http://www.all-electronics.de/texte/anzeigen/60731/OPC-UA-wird-Open-Source|all-electronics "OPC UA wird Open Source"]], 2015-05-22 - "Das Ganze funktioniert nur, wenn OPC UA in möglichst vielen Geräten, Komponenten und Tools implementiert ist – auch außerhalb der klassischen Industrieautomation. Deshalb hat die OPC Foundation eine strategische Entscheidung getroffen: Spezifikationen und Stack werden auch Nicht-Mitgliedern als Open Source zur Verfügung gestellt. 'Derzeit arbeiten wir an einer Open-Shared-Source-Strategie', erklärte Hoppe. Die freie Verwendung des Stacks ermöglicht Entwicklern einen schnellen Einstieg in die Technologie und kurze Implementierungszeiten bei Prototypen. Die Foundation nutzt dazu für den größten Teil der Software die MIT License. Der Software-Stack steht Nicht-Mitgliedern dagegen als GPL (GNU General Public License) zur Verfügung".
+  *[[https://www.github.com/acplt/open62541/wiki/List-of-Open-Source-OPC-UA-Implementations|GitHub Wiki "acplt/open62541", Article "List of Open Source OPC UA Implementations"]].
 === German Books ===
   -Book [[http://www.amazon.de/exec/obidos/ASIN/3800724383/hemmerling-21|Dieter Barelmann, Christof Bürger, Steffen Himstedt: "OPC in der Praxis"]].
   -Book [[http://www.amazon.de/exec/obidos/ASIN/3816921035/hemmerling-21|Thomas Bettermann: "Anwendung von Microsoft Softwarestandards in der Automatisierungstechnik. OPC, OLE und ActiveX"]].
@@ -282,5 +290,6 @@ Inspired by: [[http://info.cimetrix.com/blog/bid/84727/Implementing-GEM-and-PV2-
 
 ===== Forums, Newsgroups =====
   *[[http://www.asam-gdi.net/forum/|ASAM-GDI Forum. Informationsaustausch zum Standard und seiner Anwendung]].
+  *[[http://www.oscada.org/en/forum/|OpenSCADA ( oscada.org ) Forum]].
 {{tag>automation data exchange industrial data" "industrial data exchange" "digital factory" "meter data unification and synchronization" meter data unification synchronization mdus "meter data management systems" management systems mdms}}
 <footnote_navi_en>

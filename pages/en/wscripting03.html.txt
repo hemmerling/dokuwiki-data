@@ -1,0 +1,183 @@
+====== [hemmerling] Scripting Languages for Windows 3/3 - Testing with Windows PowerShell ======
+Related page:
+  *[[wscripting.html|Scripting Programming Languages for Windows 1/3]].
+  *[[wscripting02.html|Scripting Programming Languages for Windows 2/3 - Windows PowerShell]].
+===== Windows Powershell - Script Testing =====
+==== Static Testing ===
+=== "ScriptCop" - Coding Rules Checker ===
+== The Tool ==
+  *[[http://scriptcop.start-automating.com/|Start-Automating]] - "A software services company".
+    *[[http://www.youtube.com/channel/UCP_eC0QSbtepwFjaC8N4RUg|YouTube Channel "StartAutomating"]].
+    *The OpenSource [[http://scriptcop.start-automating.com/|Start-Automating "ScriptCop"]] - "A module to help make sure your PowerShell scripts are following the rules".
+      *[[http://www.github.com/StartAutomating/ScriptCop|GitHub "StartAutomating/ScriptCop"]].
+      *[[http://gallery.technet.microsoft.com/ScriptCop-0896dd1e|Microsoft Technet "ScriptCop"]].
+      *There is also a free online PowerShell code checking service [[http://scriptcop.start-automating.com/|ScriptCop]].
+  *Example script.
+    *[[http://github.com/StartAutomating/ScriptCop/blob/master/Tests/ScriptCoverage.Test.ps1|GitHub "StartAutomating/ScriptCop/blob/master/Tests/ScriptCoverage.Test.ps1"]].
+  *Documentation.
+    *GitHub.
+      *[[http://www.github.com/StartAutomating/ScriptCop/tree/master/en-us|GitHub "StartAutomating/ScriptCop/tree/master/en-us"]].
+    *Online. 
+      *[[http://scriptcop.start-automating.com/A%20Quick%20Intro%20To%20ScriptCop/|Start-Automating "ScriptCop" - "A Quick Intro To ScriptCop"]].
+      *[[http://scriptcop.start-automating.com/about%20ScriptCop%20Rules/|Start-Automating "ScriptCop" - "About ScriptCop Rules"]].
+      *[[http://scriptcop.start-automating.com/about%20scriptcop%20fixers/|Start-Automating "ScriptCop" - "ScriptCop About Scriptcop Fixers"]].
+== Resources ==
+  *[[http://blogs.technet.com/b/heyscriptingguy/archive/2011/07/30/use-scriptcop-to-help-write-better-powershell-scripts.aspx|Microsoft TechNet Blog "Hey, Scripting Guy! Blog. Learn about Windows PowerShell" - "Use ScriptCop to Help Write Better PowerShell Scripts"]].
+
+==== Dynamic Testing ===
+=== Jester by Misha Bergal ===
+  *[[http://www.github.com/mbergal/Jester|GitHub "mbergal/Jester"]].
+  *[[http://www.nuget.org/packages/Jester/|NuGet "Jester"]].
+  *[[http://www.linkedin.com/pub/misha-bergal/0/a33/9b6|LinkedIn "Misha Bergal"]], [[https://www.facebook.com/misha.bergal|Facebook "Misha Bergal"]], [[http://www.twitter.com/mbergal|Twitter "Misha Bergal, @mbergal"]], [[http://plus.google.com/114813421625634523571|Google+ "Misha Bergal"]], [[http://vk.com/id2857068|VK "Misha Bergal"]], [[http://www.youtube.com/user/mbergal|YouTube "Misha Bergal"]].
+  *Though not suggested by the author in his example code, Jester may be installed in the Powershell module directory.
+  *Installation:
+    *Installation by NuGet:
+      -Download "Jester" to your local directory by "NuGet install Jester".
+      -Copy the directory "Jester.0.0.1" to the PowerShell module directory 
+      -Rename the directory "Jester.0.0.1" it to "Jester".
+    *Installation by GitHub:
+      -Download the archive "Jester-master.zip" from GitHub to a local directory.
+      -Unzip the archive "Jester-master.zip", so that the directory "Jester-master" is created.
+      -Copy the directory "Jester-master\src" to the PowerShell module directory.
+      -Rename the directory "src" it to "Jester".
+    *Last step of Installation: Add to "Microsoft.PowerShellISE_profile.ps1":
+<code>
+Set-ExecutionPolicy Unrestricted
+Set-ExecutionPolicy Bypass
+Unblock-File C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\Jester\*.ps1
+Import-Module Jester
+</code>
+=== Using NUnit for PowerShell Script Testing ===
+== PSTest by Knut Kristian Johansen ==
+  *[[http://www.github.com/knutkj/pstest/|GitHub "knutkj/PSTest"]].
+    *[[http://github.com/knutkj/pstest/downloads|GitHub "knutkj/PSTest/downloads"]] - Download of Windows installers of the software.
+    *[[http://www.github.com/knutkj/pstest/wiki|GitHub Wiki "knutkj/PSTest"]].
+    *[[http://www.github.com/knutkj/pstest/wiki/PsTest-NuGet-package|GitHub Wiki "knutkj/PSTest" - "PsTest NuGet package"]].
+  *[[http://www.linkedin.com/in/knutkj|LinkedIn "Knut Kristian Johansen"]], [[http://www.facebook.com/knut.kristian.johansen|Facebook "Knut Kristian Johansen"]], [[http://www.youtube.com/user/knutkj|YouTube "Knut Kristian Johansen"]].
+  *Blog [[http://knutkj.wordpress.com/|Knut Kristian Johansen’s blog. Bits and pieces from my professional life]].
+    *[[http://knutkj.wordpress.com/2012/09/24/how-to-do-nunit-assertions-with-powershell/|Knut Kristian Johansen’s blog "How to do NUnit assertions with PowerShell"]] - Instructions how to install NUnit and how to creat the 2 files "NUnit.psd1" and "NUnit.psm1".
+  *[[http://www.nuget.org/packages/PsTest/|NuGet "PsTest"]].
+    *You may download "PSTest" to your local directory with the "Package Manager Console" by 'PM>"NuGet install PSTest"'.
+  *Installation:
+    *Installation by NuGet:
+      -Download "PSTest" to your local directory by "NuGet install PSTest".
+      -Copy the directory "PsTest.1.0.4654.251\tools" to the PowerShell module directory 
+      -Rename the directory "tools" it to "PSTest".
+    *Installation by GitHub:
+      -Download the archive "PSTest-master.zip" from GitHub to a local directory.
+      -Unzip the archive "PSTest-master.zip", so that the directory "PSTest-master" is created.
+      -Copy the directory "PSTest-master\PsTest\bin\Debug" to the PowerShell module directory.
+      -Rename the directory "Debug" it to "PSTest".
+      -Copy the directory "PSTest-master\PsTest\*.ps1" to the PowerShell module subdirectory "PSTest".
+    *Installation of NUnit.
+      -Download and unzip "NUnit-2.6.4.zip" from [[http://www.github.com/nunit/nunitv2/releases|github.com/nunit/nunitv2/releases]].
+      -Create a Powerscript module subdirectory "NUnit". Copy the file "NUnit-2.6.4\bin\framework\nunit.framework.dll" from the unzipped download to that directory.
+      -Create the 2 files "NUnit.psd1" and "NUnit.psm1" in the module subdirectory, according to [[http://knutkj.wordpress.com/2012/09/24/how-to-do-nunit-assertions-with-powershell/|Knut Kristian Johansen’s blog "How to do NUnit assertions with PowerShell"]].
+      -On Win8 with .NET 4.5 framework, the DLL "nunit.framework.dll" is still blocked ( "Properties - "This file came from another computer and might be blocked to help protect this computer" ). Unblock the DLL file ( "Properties / Unblock" )! Unblocking can't be undone?!
+== Some other NUnit based Tools ==
+  *[[http://www.hanselman.com/blog/TestingPowerShellScriptsWithNUnit.aspx|Scott Hanselman "Testing PowerShell scripts with NUnit"]].
+  *[[http://www.elegantcode.com/2009/10/25/integration-test-brought-to-you-by-powershell-nunit-with-a-little-specification-syntax-for-flavoring/|Elegant Code "Integration Test Brought to you by Powershell & NUnit – with a Little Specification Syntax for Flavoring"]].
+=== Pester - BDD Framework for Windows PowerShell ===
+== Tools ==
+  *[[http://www.github.com/pester/Pester|GitHub "pester/Pester"]], [[http://www.nuget.org/packages/Pester/|NuGet "Pester"]] - "PowerShell BDD style testing framework".
+    *Wiki [[http://www.github.com/pester/Pester/wiki|GitHub Wiki "pester/Pester"]].
+  *[[http://github.com/dfinke/IsePester|GitHub "dfinke/IsePester"]] - "Module to integrate PowerShell Pester into ISE".
+== Tips & Tricks ==
+  *Installation:
+    *Installation by NuGet:
+      -Download "Pester.3.3.9" to your local directory by "NuGet install Pester".
+      -Copy the directory "tools" to the PowerShell module directory 
+      -Rename the directory "tools" it to "Pester".
+    *Installation by GitHub:
+      -Download the archive "Pester-master.zip" from GitHub to a local directory.
+      -Unzip the archive "Pester-master.zip", so that the directory "Pester-master" is created.
+      -Copy the directory "Pester-master" to the PowerShell module directory.
+      -Rename the directory "Pester-master" it to "Pester".
+    *Last step of installation: Add to "Microsoft.PowerShellISE_profile.ps1":
+<code>
+Set-ExecutionPolicy Unrestricted
+Set-ExecutionPolicy Bypass
+Unblock-File C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\Pester\Functions\*.ps1
+Unblock-File C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\Pester\Functions\Assertions\*.ps1 
+Import-Module Pester
+</code>
+=== PSUnit by Klaus Graefensteiner ===
+  *[[http://www.psunit.org/|PSUnit]], [[http://psunit.codeplex.com/|CodePlex "PSUnit"]], [[http://www.github.com/tellingmachine/PSUnit|GitHub "tellingmachine/PSUnit"]].
+  *[[http://www.twitter.com/psunit|Twitter "psunit, @psunit"]] ( - 2011-09-20 ).
+  *[[http://psunit.codeplex.com/wikipage?title=Dokumentation|CodePlex Wiki "PSUnit" - Documentation]].
+  *[[http://www.linkedin.com/in/klausg|LinkedIn "Klaus Graefensteiner"]], [[http://www.twitter.com/senf|Twitter "Klaus Graefensteiner, @senf"]], [[http://plus.google.com/105248137964026348637|Google+ "Klaus Graefensteiner"]], [[http://www.youtube.com/user/tellingmachine|YouTube "Klaus Graefensteiner"]], [[http://channel9.msdn.com/Niners/Tellingmachine|Microsoft MSDN - Channel9 "Klaus Graefensteiner"]]
+  *Blog [[http://www.tellingmachine.com/|Klaus Graefensteiner "Tellingmachine - Vom Hundersten ins Tausende"]].
+    *[[http://www.tellingmachine.com/post/2009/07/The-very-first-PSUnit-Pilot-is-testing-the-PowerShell-7ce7c-Tie-Fighter-aka-Get-Enumerator-Cmdlet.aspx|Tellingmachine "The very first PSUnit Pilot is testing the PowerShell |e| Tie-Fighter aka Get-Enumerator Cmdlet"]], 2009-07 - Unit Tests Example.
+    *[[http://www.tellingmachine.com/post/2009/08/PSUnit-PowerShell-Unit-Testing-Framework-ndash3b-Getting-Started-Guide-ndash3b-Version-2-Beta-1.aspx|Tellingmachine "PSUnit PowerShell Unit Testing Framework - Getting Started Guide - Installation - Version 2 Beta 1"]], 2009-08 - Installation Guide.
+    *[[http://www.tellingmachine.com/post/2009/08/PSUnit-PowerShell-Unit-Testing-Framework-ndash3b-Getting-Started-Guide-ndash3b-Writing-Unit-Tests-ndash3b-Version-2-Beta-1.aspx|Tellingmachine "PSUnit PowerShell Unit Testing Framework - Getting Started Guide - Writing Unit Tests - Version 2 Beta 1"]], 2009-08 - Writing Unit Tests.
+    *[[http://www.tellingmachine.com/post/2009/08/PSUnit-PowerShell-Unit-Testing-Framework-ndash3b-Getting-Started-Guide-ndash3b-Running-Unit-Tests-ndash3b-Version-2-Beta-1.aspx|Tellingmachine "PSUnit PowerShell Unit Testing Framework - Getting Started Guide - Running Unit Tests - Version 2 Beta "]], 2009-08 - Running Unit Tests.
+    *[[http://www.tellingmachine.com/post/2009/06/Downloading-historical-weather-station-data-using-Advanced-PowerShell-functions.aspx|Tellingmachine "Downloading historical weather station data using Advanced PowerShell functions"]], 2009-06 - Early Internet-of-Things ( IOT ) project.
+  *Installation by GitHub:
+    -Download the archive "PSUnit-master.zip" from GitHub to a local directory.
+    -Unzip the archive "PSUnit-master.zip", so that the directory "PSUnit-master" is created.
+    -Copy the directory "PSUnit-master" to the installation directory. "PSUnit" is no module, so the installation directory can be placed at any location ( e.g. it may be "C:\Program Files\PSUnit" or in the PowerShell module directory ).
+    -Copy files "PSUnit-master\BuildProcessTemplates\Microsoft.PowerShell_profile.ps1" and "PSUnit-master\BuildProcessTemplates\Microsoft.PowerShellISE_profile.ps1" to the directory "C:\Users\Administrator\Documents\windowspowershell", or modify existing files in that directory. 
+    -Rename the installation directory "PSUnit-master" it to "PSUnit".
+    -As "PSUnit" is no module, you must now add the full installation path of the directory to your system path PATH ( by "Settings / Control Panel / System / Advanced System Settings / Environment Variables / System Variables 'Path'" ).
+    -With the current version, the file "PSUnit.Exceptions.ps1" is missing. Please create a dummy file ( e.g. a file with a comment "#" only ) in the installation directory.
+    -Add to "Microsoft.PowerShellISE_profile.ps1" ( e.g. <user> = "Administrator” ):
+<code>
+Set-ExecutionPolicy Unrestricted
+Set-ExecutionPolicy Bypass
+.  C:\Users\Administrator\Documents\windowspowershell\profile.ps1
+. PSUnit.ISE.ps1
+</code>
+  *Preparation for operation:
+    *Create batch files to execute the test runner "PSUnit.Run.ps1" ( which is by installation in your system path PATH ), e.g. batch file "run_darth.bat" with the script instructions
+        *"powershell PSUnit.Run.ps1 .\Darth-Enumerator.Test.ps1".
+  *Logging:
+    *Logging files ( e.g. "PSUnitTestReport_Darth-Enumerator.Test.ps1_2015-06-03-19-45-03_T43P37F6S0.html" ) are created by default in the installation directory :-(, i.e. not in the user directory ( e.g. "C:\users\<username>\PSUnitTest" ).
+=== PSUnit by lidingshan ===
+  *[[http://www.github.com/lidingshan/PSUnit|GitHub "lidingshan/PSUnit"]].
+  *[[http://www.bitbucket.org/lidingshan/profile/repositories|BitBucket "Dingshan Li (lidingshan)"]] (?).
+  *[[http://www.twitter.com/lidingshan|Twitter "Mike Li, @lidingshan"]], [[http://www.slideshare.net/lidingshan|SlideShare "Mike Li"]] (?).
+  *Installation by GitHub:
+    -Download the archive "PSUnit-master.zip" from GitHub to a local directory.
+    -Unzip the archive "PSUnit-master.zip", so that the directory "Pester-master" is created.
+    -Copy the directory "PSUnit-master" to the PowerShell module directory.
+    -Rename the directory "PSUnit-master" it to "PSUnit".
+  *Right now, PSUnit cannot handle the comments in test scripts. So even if one function has been commented, like "# function test_add()", PSUnit will still run this test.
+=== PSUnitTesting by Leonard Erwine ===
+  *[[http://www.github.com/lerwine/PSUnitTesting|GitHub "lerwine/PSUnitTesting"]].
+  *[[http://www.erwinefamily.net/|The Erwine Family Website]].
+  *Installation by GitHub:
+    -Download the archive "PSUnitTesting-master.zip" from GitHub to a local directory.
+    -Unzip the archive "PSUnitTesting-master.zip", so that the directory "Pester-master" is created.
+    -Copy the directory "PSUnitTesting-master" to the PowerShell module directory.
+    -Rename the directory "PSUnitTesting-master" it to "Pester".
+  *Preparation for operation:
+    *Create batch files to execute the test runner "ModuleTests.ps1", e.g. for Windows
+      *A batch file "RunTests.bat" with the script instructions
+        *"powershell -file ".\Code\ModuleTests.ps1" %1 -ExecutionPolicy Bypass".
+      *You must call the application by "RunTests.bat MyScript.ps1" to test your script "MyTest.ps1".
+      *Unfortunately, no test scripts are provided... :-(. 
+=== Test Run by James McCaffrey ====
+== Code & Tutorial ==
+  *[[http://msdn.microsoft.com/en-us/magazine/cc163430.aspx|Microsoft MSDN Magazine "Lightweight Testing with Windows PowerShell"]] - Download of Windows application "TestRun2007_05.exe".
+  *[[http://msdn.microsoft.com/en-us/magazine/cc163301.aspx|Microsoft MSDN Magazine "UI Automation with Windows PowerShell"]] - Download of Windows application "TestRun2007_12.exe".
+  *[[http://msdn.microsoft.com/en-us/magazine/cc337896.aspx|Microsoft MSDN Magazine "Web UI Automation with Windows PowerShell"]] - Download of Windows application "TestRun2008_03.exe". 
+  *[[http://blogs.msdn.com/b/msdnmagazine/archive/2008/04/04/8354305.aspx|Microsoft MSDN Magazine "Test Run: Web UI Automation with Windows PowerShell"]], 2008-04-04.
+== Resources ==
+  *The training requires that You must copy a sample web application to your IIS web server. On Win8.1, the root file system is at "C:\inetpub\wwwroot".
+    - The sample scripts expects the website at "http://localhost/MiniCalc/", while the subdirectory of the installation archiver is named "MiniCalcWeb".
+    - So please rename "MiniCalcWeb" to "MiniCalc", so that the web application is situated at "C:\inetpub\wwwroot\MiniCalc".
+  *The sample web application configuration file "Web.config" must be upgraded for use with the IIS of Win8.1 :-).
+    -Error message "Duplicate 'system.web.extensions/scripting/scriptResourceHandler' section".
+      *[[http://www.stackoverflow.com/questions/3387322/iis7-deployment-duplicate-system-web-extensions-scripting-scriptresourcehandl|StackOverflow "IIS7 deployment - duplicate 'system.web.extensions/scripting/scriptResourceHandler' sectionIIS7 deployment - duplicate 'system.web.extensions/scripting/scriptResourceHandler' section"]] - "Another quick fix is to have the application pool set to 2.0".
+      *"Internet Information Services (IIS) Manager": "Connections - Application Pools: 'Default' / Basic Settings / .NET CLR Version: '.NET CLR Version v2.050727'". 
+    -Error message "Config Error: This configuration section cannot be used at this path. This happens when the section is locked at a parent level. Locking is either by default (overrideModeDefault="Deny"), or set explicitly by a location tag with overrideMode='Deny' or the legacy allowOverride='false'".
+      *[[http://www.stackoverflow.com/questions/9794985/iis-this-configuration-section-cannot-be-used-at-this-path-configuration-lock|StackOverflow "IIS - this configuration section cannot be used at this path (configuration locking?)"]] - "Built a fresh Windows Server 2012 and sure enough, forgot to add Application Development under Web Server".
+      *"Settings / Control Panel / Programs and Features / Turn Windows features on or off:  / Internet Information Services / World Wide Web Services / Application Development Features: [x] ASP, [x] ASP.NET 3.5, [x] ASP.NET 4.5".
+    -Error message "Configuration Error "<authentication mode="Windows" />" + It is an error to use a section registered as allowDefinition='MachineToApplication' beyond application level".
+      *[[http://forums.iis.net/t/1168348.aspx?Configuration+Error+authentication+mode+Windows+It+is+an+error+to+use+a+section+registered+as+allowDefinition+MachineToApplication+beyond+application+level+This+error+can+be+caused+by+a+virtual+directory+not+being+co|Microsoft IIS Forums "Configuration Error "<authentication mode="Windows" />" + It is an error to use a section registered as allowDefinition='MachineToApplication' beyond application level"]].
+      *[[http://forums.asp.net/t/1691798.aspx?Configration+error+at+authentication+mode+Windows|Microsoft ASP.NET Forums "Configration error at authentication mode=Windows RSS"]] - "Comment it then the error go away. It is incredible".
+=== Whatif ===
+  *[[http://blog.pluralsight.com/test-powershell-with-whatif|Pluralsight blog Where devs, IT admins & creative pros go for news, tips, videos and more "Test PowerShell with WhatIf"]].
+===== Windows Powershell based Testing of Software and Hardware =====
+{{tag>powershell ps ps1 windows scripting }}
+<footnote_navi_en>

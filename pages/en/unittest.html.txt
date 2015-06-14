@@ -3,7 +3,9 @@ Related page:
   *[[codingdojo.html|Coding Dojo / Coding Kata / Randori / Code Retreat / Object Calisthenics / Hackathons / Hackfests /  / Programming Marathons / Elephant Carpaccio Exercise - Group-Awareness, Self-Awareness, Self-Training in Software Development as well as Developer Contests & Developer Challenges]].
   *[[fizzbuzz01.html|Coding Dojo / Coding Cutter: How to play Kata FizzBuzz with JUnit]].
   *[[fizzbuzz02.html|Coding Dojo / Coding Cutter: How to play Kata FizzBuzz with NUnit]].
+  *[[specbyex.html|Specification by Example]].
   *[[testing.html|Testing]].
+  *[[wscripting03.html|Scripting Programming Languages for Windows 3/3 - Testing with Windows PowerShell]].
 ===== Testing Tools for Unit Test / Module Test =====
 ==== Testing with Instrumented Code or non-instrumented Code ====
   *[[http://epf.eclipse.org/wikis/openup/core.tech.common.base/guidances/termdefinitions/code_instrumentation_3060875F.html|Eclipse.Org "Term Definition: code instrumentation"]] - "'Extra' statements added to source code for the purposes of testing, debugging, tuning, or tracing".
@@ -141,24 +143,78 @@ Related page:
   *[[http://www.opensourcetesting.org/unit_c.php|opensourcetesting.org - open source software testing tools, news and discussion "Open source C/C++ developer testing tools"]].
   *[[http://www.unittestingtools.com/?cplusplus|unittestingtools.com - Unit Testing and Mocking Tools: C/C++, Java, JavaScript, .NET, PHP, Python, Ruby, Flex "C and C++ Unit Tests Tools"]].
 ==== Unit Test Tools for .NET Languages ( C#,..) ====
+=== Visual Studio Unit Testing Framework ( "MS Unit Test" / "MS Unit Testing" / "MS Test" ) ===
+  *Microsoft Visual Studio.
+    *Visual Studio Unit Testing Framework ( "MS Unit Test" ).
+      *For Microsoft Visual Studio Express 2012 for Windows Desktop, and newer.
+      *[[http://blogs.msdn.com/b/visualstudio/archive/2012/06/08/visual-studio-express-2012-for-windows-desktop.aspx|Microsoft MSDN -  The Visual Studio Blog "Visual Studio Express 2012 for Windows Desktop"]], 2012-06-08 - "With this new Express edition, developers will be able to use C++, C#, or Visual Basic to create Windows desktop and console applications.  Developers will also get access to new advances available across the Express family in Visual Studio 2012, such as the latest compilers and programming language tools, **integrated unit testing**, and the ability for small development teams to collaborate via Team Explorer and TFS Express".
+      *[[http://msdn.microsoft.com/en-us/library/dd264975.aspx|Microsoft MSDN Library "Verifying Code by Using Unit Tests"]].
+      *[[http://msdn.microsoft.com/en-us/library/hh694602.aspx|Microsoft MSDN Library "Unit Test Basics"]].
+      *[[http://msdn.microsoft.com/en-us/library/ms182515%28v=vs.90%29.aspx|Microsoft MSDN Library "Working with Unit Tests"]] for VS2005, VS2008.
+      *[[http://msdn.microsoft.com/en-us/library/ms182409.aspx|Microsoft MSDN Library "Testing the Application"]].
+      *[[http://www.visualstudio.com/en-us/get-started/code/create-and-run-unit-tests-vs|Microsoft Visual Studio "Create and run unit tests"]].
+      *[[http://msdn.microsoft.com/en-us/library/ms182484.aspx|Microsoft Developer Network "How to: Debug while a Test is Running"]].
+      *[[http://msdn.microsoft.com/en-us/library/microsoft.visualstudio.testtools.unittesting.aspx|Microsoft MSDN Library "Microsoft.VisualStudio.TestTools.UnitTesting Namespace"]].
+        *[[http://msdn.microsoft.com/en-us/library/microsoft.visualstudio.testtools.unittesting.collectionassert%28v=vs.120%29.aspx|Microsoft MSDN Library "CollectionAssert Class"]].
+      *[[http://www.stackoverflow.com/questions/11209639/can-i-write-into-console-in-a-unit-test-if-yes-why-the-console-window-is-not-o|StackOverflow "Can I write into console in a unit test? If yes, why the console window is not opened?"]] - I did not find any simple solution by the answers :-(.
+      *[[http://www.stackoverflow.com/questions/897552/assert-that-arrays-are-equal-in-visual-studio-2008-test-framework|StackOverflow "Assert that arrays are equal in Visual Studio 2008 test framework"]] - "CollectionAssert.AreEqual".
+      *A solution may contain several projects. A project may hold everything needed to generate an executable application. Unit test for testing the code of a project are kept in extra test projects. So with "File / Add / New Project / Visual C# / Test", you may add a test project.
+      *[[http://en.wikipedia.org/wiki/Visual_Studio_Unit_Testing_Framework|EN.Wikipedia "Visual Studio Unit Testing Framework"]].
+    *The command line tool "MSTest". 
+      *For Microsoft Visual Studio 2005 / 2008 / 2010 / 2012 / 2013 Professional.
+      *[[http://msdn.microsoft.com/en-us/library/ms182486.aspx|MSDN Library "Running Automated Tests from the Command Line"]].
+      *[[http://en.wikipedia.org/wiki/MSTest|EN.Wikipedia "MSTest"]] - "MSTest is not the Visual Studio Unit Testing Framework".
+=== NUnit ===
+== The Tool ==
+  *[[http://www.nunit.org/|NUnit]].
+    *[[http://www.github.com/nunit/nunit/|GitHub "nunit/nunit"]] - NUnit 3.0.
+    *[[http://www.github.com/nunit/nunitv2/|GitHub "nunit/nunitv2"]] - NUnit 2.6.4.
+      *[[http://www.github.com/nunit/nunitv2/releases|GitHub Releases "nunit/nunitv2"]] - NUnit 2.6.4 packages.
+    *[[http://www.launchpad.net/nunitv2|Launchpad "NUnit V2 Test Framework"]] - "Beginning with NUnit 2.5.3, releases are to be found right here".
+    *[[http://nunit.sourceforge.net/|Sourceforge: "NUnit"]], [[http://www.sourceforge.net/projects/nunit/|Sourceforge: "NUnit"]].
+  *[[http://qtp-automate.blogspot.de/2013/10/how-to-execute-invoke-nunit-from-visual.html|Software Engineering - Performance Automation "How to invoke nUnit from Visual studio express and execute automation tests"]].
+  *[[http://stackoverflow.com/questions/176850/nunit-assembly-not-found|StackOverflow "NUnit assembly not found"]].
+    *[[http://en.wikipedia.org/wiki/Global_Assembly_Cache|EN.Wikipedia "Global Assembly Cache"]], [[http://de.wikipedia.org/wiki/Global_Assembly_Cache|DE.Wikipedia "Global Assembly Cache"]] - "Note that for .NET 4.0 the GAC location is now: %windir%\Microsoft.NET\assembly\", i.e. "C:\Windows\Microsoft.NET\assembly\".
+== Integration of the NUnit GUI to Visual Studio Express ==
+  *[[http://www.jerrelblankenship.com/2010/09/how-to-install-and-run-nunit-in-net_05.html|The Agile .NET Developer. A Blog about Agile and .Net and anything else related to software development "How to install and run NUnit in .Net"]] - with Visual C# 2010 Express.
+    *Add "C:\Program Files (x86)\NUnit\bin\framework\nunit.framework.dll" as reference to your Visual Studio project, in the "Solution Explorer" window of Visual Studio, mouse-rightclick on the project, "Add / Reference / Browse". 
+  *Remember that the attributes of NUnit are not identical to those of "MS Unit Testing":
+
+^ ^ ^ ^
+^ Tools: ^ MS Unit Testing ^ NUnit ^
+^ Code context ^ Attribute ^^
+^ Class | [TestFixture] | [TestClass] |
+^ Method |[Test] | [TestMethod] |
+^ | | |
+
+  *[[http://www.josenet.com/2010/02/how-to-make-nunit-work-with-visual.html|JoseNet "How to make NUnit work with Visual Studio Express"]].
+    * To add NUnit 2.64 to Visual Studio Express 2013, add a tool entry at "Tools / External Tools" by pressing the "Add" button:
+
+^ ^ ^
+^ Parameter description ^ Value ^
+^ Title | NUnit |
+^ Command | C:\Program Files (x86)\NUnit\bin\ |
+^ Arguments | /run $(BinDir)$(TargetName)$(TargetExt) |
+^ Initial directory | $BinDir |
+^ | |
+
+== Debugging of NUnit Tests with Visual Studio Express ==
+  *[[http://www.blackwasp.co.uk/NUnitCSharpExpress.aspx|BlackWasp "Debugging NUnit Tests in C# Express"]] - "How you can create a simple project within your solution that permits debugging of NUnit tests".
+    *Create a "TestRunner" project in your Visual Studio solution, according to the BlackWasp template.
+    *Add "C:\Program Files (x86)\NUnit\bin\lib\nunit-console-runner.dll" as reference to your Visual Studio "TestRunner" project, in the "Solution Explorer" window of Visual Studio, mouse-rightclick on the project, "Add / Reference / Browse".
+    *Set the Testrunner as startup project ( Mouseclick-right on the project in the "Solution Explorer" window, select the menu item "Set as Startup Project" ).
+    *The project to be debugged may be either of the type "Windows Application" ( .exe ) or "Class Library" ( .dll ), in the project properties at "Application / Output type". 
+    *In the project properties, set "Debug / Start Options - Command line arguments" to "..\..\..\FizzBuzz\bin\Debug\FizzBuzz.exe" or "..\..\..\FizzBuzz\bin\Debug\FizzBuzz.dll" respectively, so that the TestRunner calls the project to be tested, properly.
+=== Some other Unit Test and Mocking Tools ===
   *[[http://csunit.sourceforge.net/|Sourceforge: "csUnit"]], [[http://www.sourceforge.net/projects/csunit/|Sourceforge: "csUnit"]].
   *[[http://www.gallio.org/|Gallio - Automation Platform for .NET]].
   *MbUnit.
     *[[http://www.mbunit.com/|MbUnit]], [[http://code.google.com/p/mb-unit/|Google Code "mb-unit. The Gallio test automation platform and MbUnit unit testing framework"]].
     *[[http://www.github.com/Gallio/mbunit-v3|GitHub "Gallio"]].
       *[[http://www.github.com/Gallio/mbunit-v3|GitHub "Gallio / mbunit-v3"]].
-  *Microsoft Visual Studio.
-    *Microsoft Visual Studio 2003 / 2005 / 2008 / 2010 / 2012 / 2013 Professional.
-      *[[http://msdn.microsoft.com/en-us/library/ms182409.aspx|MSDN Library "Testing the Application"]].
-      *[[http://msdn.microsoft.com/en-us/library/ms182486.aspx|MSDN Library "Running Automated Tests from the Command Line"]].
-      *[[http://en.wikipedia.org/wiki/MSTest|EN.Wikipedia "MSTest"]].
-      *[[http://msdn.microsoft.com/en-us/library/dd264975.aspx|MSDN Library "Verifying Code by Using Unit Tests"]].
-      *A solution may contain several projects. A project may hold everything needed to generate an executable application. Unit test for testing the code of a project are kept in extra test projects. So with "File / Add / New Project / Visual C# / Test", you may add a test project.
-    *Microsoft Visual Studio Express 2012 for Windows Desktop, and newer.
-      *[[http://blogs.msdn.com/b/visualstudio/archive/2012/06/08/visual-studio-express-2012-for-windows-desktop.aspx|Microsoft MSDN -  The Visual Studio Blog "Visual Studio Express 2012 for Windows Desktop"]], 2012-06-08 - "With this new Express edition, developers will be able to use C++, C#, or Visual Basic to create Windows desktop and console applications.  Developers will also get access to new advances available across the Express family in Visual Studio 2012, such as the latest compilers and programming language tools, **integrated unit testing**, and the ability for small development teams to collaborate via Team Explorer and TFS Express".
-  *[[http://www.nunit.org/|NUnit]].
-    *[[http://www.launchpad.net/nunitv2|Launchpad "NUnit V2 Test Framework"]] - "Beginning with NUnit 2.5.3, releases are to be found right here".
-    *[[http://nunit.sourceforge.net/|Sourceforge: "NUnit"]], [[http://www.sourceforge.net/projects/nunit/|Sourceforge: "NUnit"]].
+  *[[http://www.github.com/nsubstitute|GitHub "NSubstitute"]] - "A friendly substitute for .NET mocking frameworks".
+    *[[http://www.github.com/nsubstitute/nsubstitute/downloads|GitHub "NSubstitute" - Downloads]] - Download of installable packages.
+    *[[http://www.nuget.org/packages/NSubstitute/|NuGet Gallery "NSubstitute"]].
   *The free [[http://www.testdriven.net/|TestDriven.Net, Personal Version]] - "The Zero Friction Unit Testing Add-In for Microsoft Visual Studio", "Supports NUnit, MbUnit, MSTest, NCover, Reflector, TypeMock, dotTrace, MSBee".
     *Blog [[http://weblogs.asp.net/nunitaddin/|Jamie Cansdale "TestDriven.NET. Zero Friction Unit Testing for Visual Studio .NET"]].
     *Blog article [[http://blogs.msdn.com/b/danielfe/archive/2007/05/31/visual-studio-express-and-testdriven-net.aspx|Dan Fernandez "Visual Studio Express and TestDriven.NET"]], 2007-06-01.
@@ -169,7 +225,19 @@ Related page:
     *Isolator++.
     *Test Lint.
     *TeamMate.
-  *[[http://xunit.codeplex.com/|CodePlex "xUnit.net"]].
+  *[[http://www.github.com/xunit|GitHub "xUnit.net"]], [[http://xunit.codeplex.com/|CodePlex "xUnit.net"]].
+    *[[http://www.nuget.org/packages/xunit/|NuGet Gallery "xUnit.net"]] - "Includes support for running xUnit.net v1 and v2 tests from Visual Studio 2012+".
+    *[[http://xunit.github.io/|GitHub.io "xUnit.net"]].
+      *[[http://xunit.github.io/docs/getting-started.html|GitHub.io "xUnit.net" Documentation "Getting Started with xUnit.net"]].
+      *[[http://xunit.github.io/docs/running-tests-in-vs.html|GitHub.io "xUnit.net" Documentation "Running xUnit.net tests in Visual Studio"]].
+    *The discontinued [[http://visualstudiogallery.msdn.microsoft.com/463c5987-f82b-46c8-a97e-b1cde42b9099|Microsoft Visual Studio "xUnit.net runner for Visual Studio"]].
+    *[[http://www.twitter.com/xunit|Twitter "xUnit.net, @xunit"]].
+=== Resources ===
+  *[[http://www.codeproject.com/Articles/784791/Introduction-to-Unit-Testing-with-MS-tests-NUnit-a|CodeProject "Introduction to Unit Testing with: MS tests, NUnit and Fluent Assertions.Introduction to Unit Testing with: MS tests, NUnit and Fluent Assertions"]].
+  *[[http://www.weareadaptive.com/blog/2014/09/30/why-nsubstitute/|Adaptive "Mocking: why we picked NSubstitute"]] - "NSubstitute, Moq and Fake it easy".
+  *[[http://programmaticallyspeaking.com/nsubstitute-vs-moq-a-quick-comparison.html|Programmatically Speaking "NSubstitute vs Moq - a quick comparison"]].
+  *[[http://shalinidotnet.blogspot.de/2014/05/ms-unit-test-vs-nunit-test.html|
+Shalini .NET Blog "MS Unit Test vs NUnit Test"]].
 ==== Unit Test Tools for Databases ====
   *The OpenSource [[http://dbunit.sourceforge.net/|Sourceforge "DbUnit"]], [[http://www.sourceforge.net/projects/dbunit|Sourceforge "DbUnit"]] - "A JUnit extension (also usable with [[http://ant.apache.org/|Ant]] targeted at database-driven projects that, among other things, puts your database into a known state between test runs".
   *The OpenSource [[http://github.com/brands4friends/daleq|Github "brands4friends / daleq"]] - "A Test Data DSL for unit testing SQL Queries".
@@ -263,15 +331,8 @@ Related page:
   *[[http://pear.php.net/packages.php?catpid=43&catname=Testing|PEAR "Packages :: Tools and Utilities :: Testing"]].
   *[[http://www.sitepoint.com/tutorial-introduction-to-unit-testing-in-php-with-phpunit/|Sitepoint "Tutorial: Introduction to Unit Testing in PHP with PHPUnit"]].
   *[[http://en.wikipedia.org/wiki/PHPUnit|EN.Wikipedia "PHPUnit"]], [[http://de.wikipedia.org/wiki/PHPUnit|DE.Wikipedia "PHPUnit"]].
-==== Unit Test Tools and other Test Tools for Microsoft PowerShell ====
-=== Tools ===
-  *[[http://psunit.codeplex.com/|CodePlex "PSUnit"]], [[http://www.github.com/tellingmachine/PSUnit|GitHub "tellingmachine/PSUnit"]].
-    *[[http://www.twitter.com/psunit|Twitter "psunit, @psunit"]].
-  *[[http://www.github.com/knutkj/pstest/|GitHub "knutkj/PSTest"]].
-    *[[http://www.github.com/knutkj/pstest/wiki|GitHub Wiki "knutkj/PSTest"]].
-    *[[http://www.nuget.org/packages/PsTest/|NuGet "PsTest"]].
-=== Resources ===
-  *[[http://blogs.clariusconsulting.net/kzu/powershell-how-to-unit-test-your-cmdlet/|Daniel Cazzulino "PowerShell: how to unit test your cmdlet"]].
+==== Testing Tools for Windows PowerShell ====
+  *See [[wscripting02.html|Scripting Programming Languages for Windows 2/2 - Windows Powershell]].
 ==== Python ====
 === Testing Tools for & with Python ===
   *[[http://docs.python.org/2/library/doctest.html|The Python Standard Library "25.2. doctest — Test interactive Python examples"]] #.

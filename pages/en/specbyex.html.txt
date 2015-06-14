@@ -168,6 +168,9 @@ I want 'features'"</HTML>
     *[[http://wiki.umn.edu/UmmCSci3601s10/SettingUpJBehaveInEclipse|University of Minnesota, UMWiki "To set up JBehave in a project in Eclipse"]].
     *[[http://www.ontestautomation.com/up-and-running-with-jbehave/|On Test Automation "Up and running with: JBehave"]].
     *[[http://blog.codecentric.de/en/2012/06/jbehave-configuration-tutorial/|Codecentric Blog, Andreas Ebbert-Karroum "JBehave Configuration Tutorial"]].
+    *[[http://www.github.com/ashrafuzzaman/Simple-jbehave-example|GitHub "ashrafuzzaman/Simple-jbehave-example"]].
+    *[[http://vard-lokkur.blogspot.de/2011/08/jbehave-quick-bdd-example.html|Warlock's Thoughts "JBehave - quick BDD example"]] with Spring Framework.
+    *[[http://www.ryangreenhall.com/articles/bdd-by-example.html|Ryan Greenhall "Behaviour Driven Development: By Example"]].
 === Behave for .NET ===
   *The OpenSource BDD development tool [[http://www.specflow.org/|Specflow - Cucumber for .NET]], [[http://www.github.com/techtalk/SpecFlow|GitHub "techtalk/SpecFlow"]] for .NET, Silverlight, Windows Phone, Mono - "Binding business requirements to .NET code".
     *Wiki [[http://www.github.com/techtalk/SpecFlow/wiki|GitHub Wiki "SpecFlow"]].
@@ -230,22 +233,8 @@ I want 'features'"</HTML>
    *[[http://www.github.com/ibolmo/jasmine-jstd-adapter|Github "ibolmo/jasmine-jstd-adapter"]] for [[http://code.google.com/p/js-test-driver/|Google Code "js-test-driver - Remote javascript console"]].
 
 ==== Pester - BDD Framework for Windows PowerShell ====
-=== The Tool ===
-  *[[http://www.github.com/pester/Pester|GitHub "pester/Pester"]] - "Powershell BDD style testing framework".
-=== Resources ===
-  *[[http://www.simple-talk.com/sysadmin/powershell/|Simple-Talk. A technical journal and community hub from Redgate]].
-    *[[http://www.simple-talk.com/sysadmin/powershell/practical-powershell-unit-testing-getting-started/|Simple-Talk. A technical journal and community hub from Redgate "Practical PowerShell Unit-Testing: Getting Started"]].
-    *[[http://www.simple-talk.com/sysadmin/powershell/practical-powershell-unit-testing-mock-objects/|Simple-Talk. A technical journal and community hub from Redgate "Practical PowerShell Unit-Testing: Mock Objects"]].
-  *[[http://www.davidcheal.info/unit-testing-powershell/|David Cheal "Unit testing powershell"]].
-  *Johan Leino.
-    *[[http://johanleino.wordpress.com/2013/09/13/pester-unit-testing-for-powershell/|Johan Leino "Pester: Unit Testing for PowerShell"]].
-    *[[http://johanleino.wordpress.com/2013/09/25/pester-how-to-unit-test-your-powershell-modules/|Johan Leino "Pester: How to unit test your PowerShell modules"]].
-  *[[http://www.powershellmagazine.com/2014/03/12/get-started-with-pester-powershell-unit-testing-framework/|PowerShell Magazine "Get started with Pester (PowerShell unit testing framework)"]].
-  *[[http://www.stackoverflow.com/questions/tagged/pester|StackOverflow Tagged Questions "pester"]].
-    *[[http://www.stackoverflow.com/questions/940497/how-to-do-tdd-and-unit-testing-in-powershell|StackOverflow "How to do TDD and unit testing in powershell?"]].
-  *Matt Wrock.
-    *[[http://www.mattwrock.com/post/2012/11/15/Unit-Testing-Powershell-and-Hello-Pester.aspx|Matt Wrock's Software Development Blog "Unit Testing Powershell and Hello Pester"]].
-    *[[http://www.slideshare.net/mwrockx/unit-testing-powershell|Slideshare - Matt Wrock "Unit testing powershell"]] - Comparison of Pester, PSTest, PSUnit.
+  *See [[wscripting02.html|Scripting Languages for Windows 2/2 - Windows Powershell]].
+
 ==== Some other BDD Tools for Python ====
 === Cucumber for Python ===
   *[[http://www.github.com/cucumber/cucumber/tree/master/examples/python|Github "cucumber/cucumber", "cucumber / examples / python"]].

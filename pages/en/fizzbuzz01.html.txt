@@ -2,7 +2,7 @@
 ===== 1 Installation and preparation =====
   -Please download and install a current [[http://www.oracle.com/technetwork/java/javase/downloads|Java SDK]] ( SDK 1.7 ).
   -Please download and install a current [[http://www.eclipse.org/downloads/|Eclipse IDE for Java Developers]] ( Eclipse Kepler 4.3 ).
-  -Please download the current JUnit libary ( junit-4.11.jar ) from [[http://www.junit.org|Junit.org]] / [[http://junit.org|Junit.org]]. Store it in the "<jdk-dir>/lib" directory of your Java SDK.
+  -Please download the current JUnit libaries ( "junit-4.11.jar" and "hamcrest-core-1.3.jar" ) from [[http://www.junit.org|Junit.org]] / [[http://junit.org|Junit.org]]. Store it in the "<jdk-dir>/lib" directory of your Java SDK.
   -With Eclipse, create a Java project.
   -In Eclipse, right-click with the mouse on the project file to open the property window for the project. At the menu item "Java Build Path", click on the button "Add External JARs" and add the JUnit libary to the project. Else you get the error message "The import org.junit cannot be resolved" by Eclipse, in the text editor.
 ===== 2 Create a Class =====

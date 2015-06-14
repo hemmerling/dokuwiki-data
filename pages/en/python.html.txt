@@ -219,12 +219,15 @@ Related pages:
     *[[http://pythonide.stani.be/|SPE IDE - Stani's Python Editor. Free python IDE for Windows,Mac & Linux with UML,PyChecker,Debugger,GUI design,Blender & more]].   
     *Blog [[http://pythonide.blogspot.de/|SPE IDE - Stani's Python Editor. Free python IDE for Windows,Mac & Linux with UML,PyChecker,Debugger,GUI design,Blender & more]].
     *[[http://developer.berlios.de/projects/python/|BerliOS - BerliOS Developer Open Source Development "Stani's Python Tools"]].
-  *"Visual Studio Python Express" ( "VS Python Express" ) IDE.
-    *Components.
-      -The free "Integrated Shell" or the commercial "Microsoft Visual Studio Professional" 2010 / 2012.
-      -The OpenSource plugin [[http://pytools.codeplex.com/|Codeplex "Python Tools for Visual Studio"]].
-    *[[http://www.windowsazure.com/en-us/develop/python/common-tasks/install-python/|Windows Azure "Installing Python and the SDK"]].
-    *[[http://www.hanselman.com/blog/OneOfMicrosoftsBestKeptSecretsPythonToolsForVisualStudioPTVS.aspx|Scott Hanselman "One of Microsoft's Best-Kept Secrets - Python Tools for Visual Studio (PTVS)"]].
+  *Microsoft Visual Studio as Python IDE.
+    *"Python Tools for Visual Studio 2013", also for "Microsoft Visual Studio Community 2013.4".
+      *The OpenSource [[http://pytools.codeplex.com/|CodePlex "Python Tools for Visual Studio 2013"]], [[http://microsoft.github.io/PTVS|GitHub.io "Python Tools for Visual Studio"]], [[http://www.github.com/Microsoft/PTVS|GitHub "Microsoft/PTVS"]].
+    *"Visual Studio Python Express" ( "VS Python Express" ) IDE.
+      *Components.
+        -The free "Integrated Shell" or the commercial "Microsoft Visual Studio Professional" 2010 / 2012.
+        -The OpenSource plugin [[http://pytools.codeplex.com/|Codeplex "Python Tools for Visual Studio"]].
+      *[[http://www.windowsazure.com/en-us/develop/python/common-tasks/install-python/|Windows Azure "Installing Python and the SDK"]].
+      *[[http://www.hanselman.com/blog/OneOfMicrosoftsBestKeptSecretsPythonToolsForVisualStudioPTVS.aspx|Scott Hanselman "One of Microsoft's Best-Kept Secrets - Python Tools for Visual Studio (PTVS)"]].
   *The OpenSource IDE [[http://xrope.sourceforge.net/|SourceForge "xRope: A lightweight IDE for Python"]], [[http://www.sourceforge.net/projects/xrope|SourceForge "xRope"]].
 === GUI Designers ===
 == Tkinter Tools ==
@@ -658,6 +661,12 @@ lost sys.stderr
   *Kivy.
     *The OpenSource library [[http://www.kivy.org/|Kivy]] - "For rapid development of applications that make use of innovative user interfaces, such as multi-touch apps", "Open source Python library for rapid development of applications that make use of innovative user interfaces, such as multi-touch apps", "Kivy is running on Linux, Windows, MacOSX, Android and IOS. You can run the same code on all supported platforms" #.
     *[[http://www.kivy.org/docs/|Kivy User's Guide]] - free online HTML book and free PDF book.
+    *[[http://kivy.org/docs/guide/packaging-android.html|Kivy "Programming Guide / Create a package for Android"]].
+      *Template [[http://www.github.com/kivy/python-for-android|Kivy "kivy/python-for-android"]], [[http://python-for-android.readthedocs.org/|ReadTheDocs "Python for Android"]].
+      *Generic Python packager for Android [[http://www.github.com/kivy/buildozer|GitHub "kivy/buildozer"]].
+      *[[http://www.kivy.org/docs/guide/packaging-android.html|Kivy "Programming Guide » Create a package for Android"]].
+      *[[http://kivy.org/docs/guide/packaging-android-vm.html#kivy-android-vm|Kivy "Programming Guide / The Kivy Android Virtual Machine"]].
+      *[[http://play.google.com/store/apps/details?id=org.kivy.pygame|Google Play "Kivy Launcher"]].
     *[[http://en.wikipedia.org/wiki/Kivy|EN.Wikipedia "Kivy"]], [[http://de.wikipedia.org/wiki/Kivy|DE.Wikipedia "Kivy"]].
   *TkInter.
     *[[http://wiki.python.org/moin/TkInter|Python Wiki"Tkinter"]] - "Python's de-facto standard GUI (Graphical User Interface) package. It is a thin object-oriented layer on top of Tcl/Tk.

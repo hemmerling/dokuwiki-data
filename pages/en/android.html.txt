@@ -1,5 +1,15 @@
 ====== [hemmerling] Google Android ======
-===== Phone Liberation Workshops =====
+===== Jailbreaking, Independant Operating System ===== 
+==== Android Community Operating System =====
+  *[[http://www.cyanogenmod.org/|CyanogenMod - Android Community Operating System]].
+  *[[http://download.cyanogenmod.org/|CyanogenMod "Download"]].
+  *Wiki [[http://wiki.cyanogenmod.org/|CyanogenMod Wiki]].
+==== How to root an Android Phone =====
+  *[[http://www.trueandroid.com/how-to-root-alcatel-one-touch-8008d-scribe-hd-running-on-android-4-2-jelly-bean/|True Android "How To Root Alcatel One Touch 8008D Scribe HD Running On Android 4.2 Jelly Bean"]].
+    *[[http://www.framaroot.net/|Framaroot]] - " Now you can root your android device without PC, just use framaroo" - As of 2015-05, it didn't work with my phone nor with my tablet :-(
+    *[[http://play.google.com/store/apps/details?id=com.joeykrim.rootcheck|Google Play "Root Checker"]].
+  *[[http://www.youtube.com/watch?v=-UmflyLoZLw|YouTube "How to root Alcatel One Touch Scribe HD 8008 in one step"]].
+==== Phone Liberation Workshops ====
   *[[http://www.blit.org/2012/zeitplan/events/50.de.html|BLIT 2012 - Brandenburger Linux-Infotag 2012 "FreeYourAndroid"]] - "Phone Liberation Workshop".
 ===== Hardware =====
 ==== My Android Tablet "I-ONIK TabletPC TP7-1000DC light" ====
@@ -34,13 +44,27 @@
   *[[http://www.pearl.de/kw-1-smartphones.shtml|PEARL Agency - Search for "smartphones"]].
   *[[http://www.pearl.de/nc-101-smartphones-smart-watches.shtml|PEARL Agency "Smartphones & Smart-Watches"]].
   *[[http://www.pearl.de/nc-1010-android-smartphone-smartwatch-android-uhr.shtml|PEARL Agency "Simvalley Smartphone & Smartwatches"]].
-==== Android Phones with Blue Tooth Low Energy ( BLE ) Feature ====
-  *[[http://en.wikipedia.org/w/Samsung_Galaxy_S4|Samsung Galaxy S4]], [[http://en.wikipedia.org/w/Samsung_Galaxy_S5|Samsung Galaxy S5]].
-  *Google [[http://en.wikipedia.org/wiki/Nexus_4|Nexus 4]], [[http://en.wikipedia.org/wiki/Nexus_5|Nexus 5]], [[http://en.wikipedia.org/wiki/Nexus_6|Nexus 6]].
-  *Motorola 
-    *[[http://www.motorola.com/us/smartphones/moto-g-1st-gen/moto-g-pdp.html|Motorola "Moto G (1st Gen.)"]].
-    *[[http://www.motorola.com/us/smartphones/moto-g-2nd-gen/moto-g-2nd-gen.html|Motorola "Moto G (2nd Gen.)"]].
-    *[[https://www.motorola.com/us/motomaker?pid=FLEXR2‎|Moto-X]].
+==== Mobile Devices with Blue Tooth Low Energy ( BLE ) Feature & NFC Feature ====
+=== Devices ===
+  *Apple
+    *iPhone 4,5 - BLE, but not NFC.
+    *iPhone 6 - BLE & NFC.
+  *[[http://en.wikipedia.org/w/Samsung_Galaxy_S4|Samsung Galaxy S4]], [[http://en.wikipedia.org/w/Samsung_Galaxy_S5|Samsung Galaxy S5]] - BLE & NFC.
+  *Google [[http://en.wikipedia.org/wiki/Nexus_4|Nexus 4]], [[http://en.wikipedia.org/wiki/Nexus_5|Nexus 5]], [[http://en.wikipedia.org/wiki/Nexus_6|Nexus 6]] - BLE & NFC.
+  *Motorola.
+    *[[http://www.motorola.com/us/smartphones/moto-g-1st-gen/moto-g-pdp.html|Motorola "Moto G (1st Gen.)"]] - BLE.
+    *[[http://www.motorola.com/us/smartphones/moto-g-2nd-gen/moto-g-2nd-gen.html|Motorola "Moto G (2nd Gen.)"]] - BLE.
+    *[[http://www.motorola.com/us/motomaker?pid=FLEXR2‎|Moto-X]] - BLE & NFC.
+  *"Sony Xperia M2", a budget smartphone for about 100 EUR - BLE & NFC.
+    *[[http://support.sonymobile.com/global-en/xperiam2/userguide/NFC/|Sony "Sony Xperia M2 support - NFC"]].
+=== Resources ===
+  *On NFC-enabled smartphones, you need a special smartphone app for communication by ISO norms over NFC. The ISO norms are not part of the NFC norm!
+  *[[http://www.bluetooth.com/Pages/Bluetooth-Smart-Devices-List.aspx|Bluetooth Technology Website "Bluetooth Smart Devices List"]].
+  *[[http://www.nfcworld.com/nfc-phones-list/|NFC World "NFC phones: The definitive list"]].
+  *[[http://www.identivenfc.com/en/nfc-enabled-phones|IdentiveNFC "NFC Enabled Phones"]].
+  *[[http://www.rapidnfc.com/nfc_enabled_phones|RapidNFC "NFC Enabled Phones And Tablets"]].
+  *[[http://www.nfc-phones.org/summary-list-of-all-available-nfc-phones/|NFC-Phones.org "NFC Phones list, all available handsets worldwide"]] - Multi-page directory "Complete list with all mobile phones with nfc chip (too big for 1 page)"!
+  *[[http://en.wikipedia.org/wiki/List_of_NFC-enabled_mobile_devices|EN.Wikipedia "List of NFC-enabled mobile devices"]].
 ===== Development Software =====
 ==== Platform & Software Development Kit ( SDK )====
 === The Platform ===
@@ -138,8 +162,17 @@
   *The free game [[http://play.google.com/store/apps/details?id=com.smarty.no2048tile|Google Play "2048 tile" by "Tran Duy Bien"]].
   *The free [[http://play.google.com/store/apps/details?id=com.farproc.wifi.analyzer|Google Play "Wifi Analyzer"]].
   *The free [[http://play.google.com/store/apps/details?id=com.runtastic.android&hl=en|Google Play "Runtastic Running & Fitness"]].
-==== Calendar ====
-=== Tools ===
+==== Calendars & Alarm Clocks ====
+=== Snoring Control ===
+  -[[http://play.google.com/store/apps/details?id=com.arcadexxi.dreamwatcherlite|Google Play "Dream Watcher Lite"]].
+=== Alarm Clocks ===
+  -[[http://play.google.com/store/apps/details?id=com.splunchy.android.alarmclock|Google Play "AlarmDroid (alarm clock)"]] by Fabian Lueghausen - My choice #.
+  -[[http://play.google.com/store/apps/details?id=ch.bitspin.timel|Google Play "Timely Alarm Clock"]].
+  -[[http://play.google.com/store/apps/details?id=com.heyde|Google Play "Alarm Droid"]] by "spke im".
+  -[[http://play.google.com/store/apps/details?id=com.CurioLogix.DAClock|Google Play "Digital Alarm Clock"]].
+  -[[http://play.google.com/store/apps/details?id=alarm.pro|Google Play "Alarm Clock Wake Up Free"]].
+  -[[http://play.google.com/store/apps/details?id=com.tatclock|Google Play "Alarm Clock"]] by SEHCIA.
+=== Calendars ===
   -[[http://play.google.com/store/apps/details?id=com.google.android.calendar|Google Play "Google Calendar"]] - 30 minutes timestep as the original online Google Calendar :-(.
   -[[http://play.google.com/store/apps/details?id=org.withouthat.acalendar|Google Play "aCalendar - Android Calendar"]].
   -[[http://play.google.com/store/apps/details?id=jp.co.johospace.jorte|Google Play "Jorte Calendar & Organizer"]].
@@ -188,6 +221,7 @@
 ===== Forums, Newsgroups =====
   *[[http://www.androidpit.com/en/android/forum|AndroidPIT Forum]], [[http://www.androidpit.de/de/android/forum|AndroidPIT.de Forum]].
   *[[http://www.android-hilfe.de/|Android-Hilfe]].
+  *[[http://forum.cyanogenmod.org/|CyanogenMod Forums]].
   *[[http://groups.google.com/group/ioio-users|Google Groups "ioio-users"]].
 {{tag>"Google Android" Android}}
 <footnote_navi_en>

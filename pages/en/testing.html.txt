@@ -10,7 +10,8 @@ Related pages:
   *[[specbyex.html|Specification by Example]].
   *[[systemdesign.html|System Design]].
   *[[de:testhub.html|Testhub]].
-  *[[unittest.html|Unit Test / Module Test]].
+  *[[unittest.html|Unit Test / Module Test]].  
+  *[[wscripting03.html|Scripting Programming Languages for Windows 3/3 - Testing with Windows PowerShell]].
 ===== Organizations =====
   *[[http://www.asqf.de/|ASQF e.V. - Arbeitskreis Software-Qualität & -Fortbildung e.V.]].
   *[[http://www.bcs.org/|British Computer Society ( BCS )]], UK.
@@ -195,6 +196,18 @@ Related pages:
   *[[http://www.mockobjects.com/|Mock Objects]] - "About Mock Objects, a technique for improving the design of code within Test-Driven Development".
     *The OpenSource [[http://www.sourceforge.net/projects/mockobjects/|SourceForge "Mock Objects"]], [[http://wayback.archive.org/web/*/http://mockobjects.sourceforge.net/|Archive.org "Mock Objects"]], [[http://wayback.archive.org/web/*/http://wiki.truemesh.com/mockobjects|Archive.org "MockObjects - Project Description and Goals"]] for Java - "Generic unit testing framework and methodology for testing any kind of code".
   *[[http://en.wikipedia.org/wiki/Mock_object|EN.Wikipedia "Mock object"]], [[http://de.wikipedia.org/wiki/Mock-Objekt|DE.Wikipedia "Mock-Objekt"]].
+===== Property-based Testing =====
+==== Scala ( and Java ) ====
+  *[[http://www.scalatest.org/|ScalaTest]] - "Property-based testing for Scala".
+    *[[http://www.scalatest.org/user_guide/property_based_testing|ScalaTest "Property-based testing"]].
+==== Haskell ====
+  *[[http://hackage.haskell.org/package/QuickCheck|Haskell "QuickCheck"]] - "Automatic testing of Haskell programs".
+  *[[http://en.wikipedia.org/wiki/QuickCheck|EN.Wikipedia "QuickCheck"]].
+==== F# ====
+  *[[https://github.com/fsharp/FsCheck|GitHub "fsharp/FsCheck"]], [[http://fsharp.github.io/FsCheck/|GitHub.io "FsCheck"]].
+  *[[http://www.fsharpforfunandprofit.com/posts/property-based-testing/|F# for fun and profit "An introduction to property-based testing. Or, why you should be using FsCheck and QuickCheck"]].
+==== Javascript ====
+  *[[http://jsverify.github.io/|GitHub.io "JSVerify - Write powerful and concise tests"]].
 ===== Instrumentation Frameworks for Dynamic Application Testing =====
   *The OpenSource [[http://code.google.com/p/address-sanitizer/|Google Code "address-sanitizer" - "AddressSanitizer: a fast memory error detector"]] ( ASan ) - "It finds use-after-free and {heap,stack,global}-buffer overflow bugs in C/C++ programs".
     *[[http://clang.llvm.org/|clang: a C language family frontend for LLVM]].
@@ -272,11 +285,7 @@ Related pages:
   *The OpenSource [[http://itupw056.itu.chalmers.se/project-xnee/|GNU Xnee]] - "A suite of programs that can record, replay and distribute user actions under the X11 environment".
     *[[http://en.wikipedia.org/wiki/Xnee|EN.Wikipedia "Xnee"]].
 === PowerShell ===
-  *"Test Run" by James McCaffrey.
-    *[[http://msdn.microsoft.com/en-us/magazine/cc163430.aspx|Microsoft MSDN Magazine "Lightweight Testing with Windows PowerShell"]] - Download of Windows application "TestRun2007_05.exe".
-    *[[http://msdn.microsoft.com/en-us/magazine/cc163301.aspx|Microsoft MSDN Magazine "UI Automation with Windows PowerShell"]] - Download of Windows application "TestRun2007_12.exe".
-    *[[http://msdn.microsoft.com/en-us/magazine/cc337896.aspx|Microsoft MSDN Magazine "Web UI Automation with Windows PowerShell"]] - Download of Windows application "TestRun2008_03.exe". 
-    *[[http://blogs.msdn.com/b/msdnmagazine/archive/2008/04/04/8354305.aspx|Microsoft MSDN Magazine "Test Run: Web UI Automation with Windows PowerShell"]], 2008-04-04.
+  *"Test Run" - See [[wscripting02.html|Scripting Languages for Windows 2/2 - Windows Powershell]].
 === Python ===
   *The OpenSource [[http://fedorahosted.org/dogtail/|Fedora Hosted "dogtail"]] for Python - "GUI testing tool and automation framework".
     *[[http://en.wikipedia.org/wiki/Dogtail|Wikipedia "Dogtail"]].
@@ -878,6 +887,7 @@ Simplify Complex Testing Across APIs, Cloud, SOA, and Composite Apps"]] -> [[htt
     *[[http://www.facebook.com/TRICENTIS|Facebook "Tricentis"]].
   *Google Groups.
     *[[http://groups.google.com/group/cpputest|Google Groups "cpputest"]].
+    *[[http://groups.google.com/group/nsubstitute|Google Groups "NSubstitute"]].
     *[[http://groups.google.com/group/testng-users|Google Groups "testng-users"]].
     *[[http://groups.google.com/group/comp.software.extreme-programming/|Google Groups "comp.software.extreme-programming"]].
     *[[http://groups.google.com/group/robotframework-users|Google Groups "robotframework-users"]].
