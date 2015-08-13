@@ -2,6 +2,8 @@
 ===== General Hardware Debuggers & Software =====
   *[[http://www.isystem.com/|iSYSTEM AG für Informatiksysteme]].
     *[[http://www.isystem.com/products/bluebox|iSYSTEM AG für Informatiksysteme "BlueBox"]].
+      *[[http://www.isystem.com/index.php/products/hardware/ic3000|iSYSTEM "iC3000"]].
+    *Blog [[http://embedded.typepad.com/isystems-smpo/|iSYSTEM AG für Informatiksysteme "iSystem News and Technical Blog"]].
   *[[http://www.abatron.ch/products/bdi-family.html|Abatron AG "Abatron BDI Family"]].
     *[[http://www.abatron.ch/products/debugger-support/gnu-support.html|Abatron AG "GNU Support. High-speed BDM/JTAG Interface for GNU Debugger"]].
 ===== Hardware Debuggers & Software just for ARM =====
@@ -28,5 +30,16 @@
 ===== Software Debugger =====
   *[[http://www.gnu.org/software/gdb/|GDB: The GNU Project Debugger]].
 ===== Resources =====
+  *For software development of embedded realtime applications ( e.g. motor control ), you need to have monitor data in realtime.
+    *It is not suitable to work with a software debugger which stops the CPU/MPU at a breakpoint, to set a variable of the embedded software. If you do so, you might ruin your connected hardware by a system crash caused by uncontrolled device operation ( e.g. of a motor, motor control electronics based on IGBT, Thyristors,... ).
+    *Tracing is a useful development technology to monitor embedded data and especially MCU data in realtime.
+      *The CPU core must support tracing ( e.g. ARM Cortex M3 supports tracing, ARM Cortex M0 doesn't support tracing ).
+      *The physical CPU as produced by the chip manufacturer ( e.g. Atmel, Freescale, TI,..) must support tracing. Especially there must be the right pins at the chip package which support tracing.
+      *The physical ( evaluation ) board must support tracing, i.e. the trace signal from the MPU pins must be available on the board at a debugging connector. There are many affordable embedded evaluation boards and embedded demo boards, especially giftware by the MCU chip manufacturers, which doen´t support tracing :-(.
+      *The physical interface connector of the board and of the hardware debugger must support tracing. The traditional 2x7 JTAG interface doesn't support tracing :-(.
+        *See [[http://en.wikipedia.org/wiki/Joint_Test_Action_Group|EN.Wikipedia "Joint Test Action Group"]], [[https://de.wikipedia.org/wiki/Joint_Test_Action_Group|DE.Wikipedia "Joint Test Action Group"]] e.g for connector photos.
+      *The hardware debugger must support tracing.
+        *"J-Link", "ST-LINK" and most other affordable hardware debuggers don´t support tracing :-(.
+        *[[http://www.isystem.com/index.php/products/hardware/ic3000|iSYSTEM "iC3000"]] supports tracing.
 {{tag>"hardware debugger" "hardware debuggers" "hardware debugging" "software debugger" "software debuggers" "software debugging" hardware software debugger debuggers debugging}}
 <footnote_navi_en>

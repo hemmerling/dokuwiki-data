@@ -16,10 +16,21 @@
   *Fig-Forth.
     *[[http://home.hccnet.nl/a.w.m.van.der.horst/figforth.html|Albert van der Horst "The Last Fig-Forth Ever"]].
     *[[http://home.hccnet.nl/a.w.m.van.der.horst/forth32.html|Albert van der Horst "forth32 : a 32 bit MSDOS excerpt of fig-Forth"]].
+  *The OpenSource FORT System [[http://www.flashforth.com/|FlashForth]], [[http://sourceforge.net/projects/flashforth/|SourceForge "FlashForth: for PIC and Atmega"]], [[http://www.flashforth.sourceforge.net/projects/|SourceForge "FlashForth: for PIC and Atmega"]] - "A standalone Forth system for the Microchip PIC 18, 24, 30, 33 and the Atmel Atmega series of microcontrollers".
   *The OpenSource FORTH systems & FORTH system portations [[http://home.iae.nl/users/mhx/|Marcel Hendrix "iForth, tForth, eForth, mxForth"]].
   *The OpenSource ANS94 FORTH system [[http://www.bernd-paysan.de/gforth.html||Bernd Paysan "Gforth"]] - "Gforth uses GCC".
   *The OpenSource FORTH system [[http://wiki.forthfreak.net/index.cgi?jsforth|jsforth]] in Javascript.
   *The free [[http://www.theforthsource.com/guide.html|Mountain View Press "MVP-FORTH"]] for Windows.
+  *"Pygmy Forth"
+    *[[http://pygmy.utoh.org/|Frank Sergeant]].
+      *[[http://pygmy.utoh.org/forth.html|Frank Sergeant's Forth Page]].
+        *[[http://pygmy.utoh.org/pygmyforth.html|Frank Sergeant's 'Pygmy Forth for the PC' Page]] - The OpenSource "Pygmy Forth" for MSDOS ( based on Charles Moore's cmFORTH ).
+        *The OpenSource [[http://pygmy.utoh.org/riscy/|Riscy Pygness – Pygmy Forth for the ARM]], written in Tcl #.
+        *[[http://groups.google.com/forum/#!topic/comp.lang.forth/edqa3CNrQhQ|Google Groups "comp.lang.forth", Thread "Riscy Pygness (Pygmy Forth for the ARM)"]], 2004.
+    *[[http://developer.mbed.org/cookbook/MbedForth|ARM mbed Cookbook "MbedForth"]].
+    *[[http://www.github.com/xunil/riscy-pygness|GitHub "xunil/riscy-pygness"]] - "STM32F4 port of Riscy Pygness Forth, originally by Frank Sergeant".
+    *[[http://www.kudra.com/forth/|Kundra, Robert Sexton "Riscy Pygness for the Cortex-M3"]] - "Forth for TI/Stellaris Cortex-M3".
+    *[[http://www.motherboardpoint.com/threads/has-someone-tried-to-add-interrupt-support-to-riscy-pygness.251581/|Motherboards Point, Thread "Has someone tried to add interrupt support to Riscy Pygness?"]] - "I just started to play with Riscy Pygness on target part of LPCXpresso 1769 board... The only thing which seems to be lacking is interrupt support. Well, I can write the interrupt service routine in assembly and add it to the kernel, and it will be the most efficient solution. However for interactive experiments it would be much nicer to have possibility to implement ISR as a Forth word. Such functionality is available in the latest version of [[http://amforth.sf.net/|amforth for ATmega's]]".
   *The OpenSource FORTH system "SX-FORTH", written in "C".
     *[[http://www.avrfreaks.net/index.php?module=Freaks%20Academy&func=viewItem&item_id=626&item_type=project|AVR Freaks "Projects - SX-Forth Interpreter for the AVR Butterfly ... but not only"]].
     *Download[[http://www.avrfreaks.net/index.php?module=Freaks Files&func=viewFile&id=1930&showinfo=1|AVR Freaks "sx-forth"]].
@@ -56,8 +67,6 @@
   *Book [[http://www.amazon.de/exec/obidos/ASIN/0138430799/hemmerling-21|Leo Brodie: "Starting Forth: Introduction to the FORTH Language and Operating System for Beginners and Professionals"]].
     *The free online book [[http://www.forth.com/starting-forth/|Leo Brodie: "Starting FORTH"]].
     *[[http://thinking-forth.sourceforge.net/|SouceForge "Thinking Forth Project"]], [[http://www.sourceforge.net/projects/thinking-forth|SouceForge "Thinking Forth"]].
-  *Book [[http://www.amazon.de/exec/obidos/ASIN/1419675494/hemmerling-21|Edward K. Conklin, Elizabeth D. Rather: "Forth Programmer's Handbook"]], 1998.
-    *[[http://www.forth.com/forth/fph.html|Forth, Inc. "Forth Programmer's Handbook"]].
   *Book [[http://www.amazon.de/exec/obidos/ASIN/0914699024/hemmerling-21|M. Derick; L. Baker: "Forth Encyclopedia: The Complete Forth Programmers Manual"]].
   *Book [[http://www.amazon.de/exec/obidos/ASIN/0907563821/hemmerling-21|Martin Fairbanks: "The Amstrad PC users omnibus : the ultimate programming resource, business and personal efficiency programs, artificial intelligence, computer simulations, a complete FORTH implementation and tutor"]].
   *Book [[http://www.amazon.de/exec/obidos/ASIN/0201180502/hemmerling-21|Ron Geere: "Forth: The Next Step"]].
@@ -66,8 +75,15 @@
     *Book [[http://www.amazon.de/exec/obidos/ASIN/185091706X/hemmerling-21|Paul A.C. Kail: "FORTH : a complete course in the forth programming language"]].
     *Book [[http://www.amazon.de/exec/obidos/ASIN/0946705011/hemmerling-21|Paul A.C. Kail: "Introduction to FORTH"]] ( not available in TIB :-( ).
   *The free online book [[http://www.ece.cmu.edu/~koopman/stack_computers/|Philip J. Koopman, Jr. "Stack Computers: the new wave"]].
-  *Book [[http://www.amazon.de/exec/obidos/ASIN/1419685767/hemmerling-21|Elizabeth D. Rather: "Forth Application Techniques"]], 2000.
-    *[[http://www.forth.com/forth/fat.html|Forth, Inc. "Forth Application Techniques"]].
+  *Elizabeth D. Rather.
+    *[[https://en.wikipedia.org/wiki/Elizabeth_Rather|EN.Wikipedia "Elizabeth Rather"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1419675494/hemmerling-21|Edward K. Conklin, Elizabeth D. Rather: "Forth Programmer's Handbook"]], 1998.
+      *[[http://www.forth.com/forth/fph.html|Forth, Inc. "Forth Programmer's Handbook"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1419675494/hemmerling-21|Edward K. Conklin, Elizabeth D. Rather: "Forth Programmer's Handbook (3rd Edition)"]], 2007.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1419685767/hemmerling-21|Elizabeth D. Rather: "Forth Application Techniques"]], 2000.
+      *[[http://www.forth.com/forth/fat.html|Forth, Inc. "Forth Application Techniques"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1419685767/hemmerling-21|Elizabeth D. Rather: "Forth Application Techniques"]], 2007.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/B00JYHV1XA/hemmerling-21|Elizabeth D. Rather: "Forth Application Techniques"]], 2008.
   *Book [[http://www.amazon.de/exec/obidos/ASIN/0125635702/hemmerling-21|Dick Pountain: "Object-Oriented Forth: Implementation of Data Structures"]].
   *Book [[http://www.amazon.de/exec/obidos/ASIN/0070649758/hemmerling-21|David Toppen: "Forth: An Application Approach: Applications Approach"]] ( not available in TIB :-( ).
   *Book [[http://www.amazon.de/exec/obidos/ASIN/0905104226/hemmerling-21|Alan Winfield: "The Complete FORTH"]].
@@ -124,6 +140,7 @@
   *[[http://www.bradrodriguez.com/papers/oofs.htm|Bradford J. Rodriguez & W. F. S. Poehlman "A Survey of Object-Oriented Forths"]].
   *[[http://cis.csuohio.edu/~somos/forth.html|Michael Somos "Forth WWW and FTP Links"]].
   *[[http://www.taygeta.com/forth.html|Taygeta Scientific Inc. "Forth Information on Taygeta"]] #.
+  *[[http://wiki.tcl.tk/1656|Tcler's Wiki "Forth"]].
   *TU Wien, Institut für Computersprachen.
     *[[http://www.complang.tuwien.ac.at/forth/faq/faq-general-2.html|TU Wien, Institut für Computersprachen "comp.lang.forth Frequently Asked Questions"]].
     *[[http://www.complang.tuwien.ac.at/anton/euroforth/|TU Wien, Institut für Computersprachen "EuroForth. The European Forth Conference"]], 2006-09-19.

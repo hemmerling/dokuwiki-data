@@ -1,0 +1,125 @@
+====== [hemmerling] Web Technologies ( HTML5, HTML, XML & Javascript ) 2/4 - HTML & CSS ======
+Related pages:
+  *[[api.html|Application programming interface ( API )]].
+  *[[databases.html|Databases, Webserver, Webservices, SQL, XML]] -> XML.
+  *[[sframeworks.html|Software Frameworks]].
+  *[[uscripting.html|Scripting Programming Languages for Unix / Linux and Windows]].
+  *[[snetworks03.html|Social Networks 3/3 - IT / SystemEngineering Forums and IT / SystemEngineering Communities]].
+  *[[webtech.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 1/4]].
+  *[[webtech03.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 3/4 - Javascript]].
+  *[[webtech04.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 4/4 - Javascript Frameworks]].
+===== CSS =====
+==== Frameworks, Tools ====
+  *[[http://www.lesscss.org/|LESS - The Dynamic Stylesheet language]].
+    *[[http://twitter.github.com/bootstrap/|Github "Bootstrap, from Twitter"]] for use with "Less" - "A toolkit from Twitter designed to kickstart development of webapps and sites. It includes base CSS and HTML for typography, forms, buttons, tables, grids, navigation, and more. Bootstrap is built with Less and was designed to work out of the gate with modern browsers in mind".
+    *[[http://www.templatemonster.com/infographics/bootstrap-interactive-infographics.php|TemplateMonster.com -  Devlivering the best Templates on the Net! "Shine Your Boots! Boostrap Hornbook"]].
+  *[[http://www.sass-lang.com/|Sass - Syntactically Awesome Stylesheets]].
+    *[[http://www.compass-style.org/|Compass]] - "Open-source CSS Authoring Framework" for use with "Sass".
+    *[[http://mhs.github.com/scout-app/|Github "Scout - Compass and Sass without all the hass(le)"]].
+  *[[http://www.almsaeedstudio.com/| Almsaeed Studio "AdminLTE Control Panel Template"]], [[http://www.github.com/almasaeed2010/AdminLTE|GitHub "almasaeed2010/AdminLTE"]].
+    *[[http://www.bootstrapstage.com/admin-lte/|Bootstrap Stage "Admin LTE. Amazing Admin Starter"]] - "A full featured, free Bootstrap 3 admin dashboard theme".
+==== Literature ====
+  *Book [[http://www.buecherbillig.de/umfassende-handbuch-p-49465.html|buecherbillig.de "CSS - Das umfassende Handbuch"]].
+  *Book [[http://www.buecherbillig.de/html-design-patterns-cssrezepte-p-49484.html|buecherbillig.de "CSS und HTML Design Patterns. 350 CSS-Rezepte"]].
+  *Book [[http://www.buecherbillig.de/praxisbuch-kompendium-p-49468.html|buecherbillig.de "CSS - Praxisbuch Kompendium"]].
+==== Resources ====
+  *[[http://www.css-tricks.com/|CSS-Tricks]].
+    *[[http://css-tricks.com/sass-vs-less/|CSS-Tricks "Sass vs. LESS"]].
+  *[[http://overapi.com/css/|OverAPI.com "CSS Cheat Sheet"]] #.
+  *[[http://aktuell.de.selfhtml.org/links/css.htm|SELFHTML "Link-Verzeichnis: CSS"]].
+  *[[http://css.maxdesign.com.au/selectutorial/rules_comments.htm|Selectutorial - CSS selectors
+: "CSS Comments"]].
+  *[[http://www.meyerweb.com/|Eric Meyer]].
+  *[[http://meyerweb.com/eric/css/|CSS Work]] - "Books by Eric...".
+    *Requirements profile of a job offer "Has heard of Eric Meyer and Steve Souders" :-).
+===== HTML =====
+==== Important & official Institutions, important & official Resources ====
+  *[[http://www.selfhtml.org/|Stefan Münz "SELFHTML"]].
+  *[[http://www.htmlhelp.com/|Web Design Group's Help file Distribution Page]].
+    *[[http://www.htmlhelp.org/links/validators.htm|WDG "Validators and Checkers"]].
+    *[[http://www.htmlhelp.org/tools/|WDG "Web Authoring Tools"]].
+  *[[http://www.w3.org/|W3C]].
+    *[[http://www.w3.org/MarkUp/Guide/|W3C, Dave Raggett "Getting started with HTML"]].
+  *[[http://dublincore.org/|Dublin Core Metadata Initiative]].
+==== CE-HTML ====
+=== Resources ===
+  *[[http://en.wikipedia.org/wiki/CE-HTML|EN.Wikipedia "CE-HTML"]], [[http://de.wikipedia.org/wiki/CE-HTML|DE.Wikipedia "CE-HTML"]].
+    *[[http://en.wikipedia.org/wiki/Hybrid_Broadcast_Broadband_TV|EN.Wikipedia "Hybrid Broadcast Broadband TV"]], [[http://de.wikipedia.org/wiki/Hybrid_Broadcast_Broadband_TV|DE.Wikipedia "Hybrid Broadcast Broadband TV"]].
+=== Service Providers ===
+  *[[http://www.anixehd.tv/|Anixe]].
+    *[[http://www.medienhb.de/daten-fakten/sender-datenbank/anixeitv/|medienhb.Sender-Datenbank "ANIXE iTV"]].
+==== HTML5 ====
+  *[[http://www.diveintohtml5.info/|Dive Into HTML5]].
+  *Local Storage.
+    *[[http://www.w3schools.com/html/html5_webstorage.asp|w3schools "HTML5 Web Storage"]].
+    *[[http://www.diveintohtml5.info/storage.html|Dive Into HTML5 "The Past, Present & Future of Local Storage for Web Applications"]].
+  *[[http://en.wikipedia.org/wiki/HTML5|EN.Wikipedia "HTML5"]], [[http://de.wikipedia.org/wiki/HTML5|DE.Wikipedia "HTML5"]].
+  *[[http://en.wikipedia.org/wiki/Canvas_element|EN.Wikipedia "Canvas element"]], [[http://de.wikipedia.org/wiki/Canvas_%28HTML-Element%29|DE.Wikipedia "Canvas (HTML-Element)"]].
+==== HTML Parsing ====
+  *[[http://www.codeplex.com/htmlagilitypack|Codeplex "Html Agility Pack (HAP)"]] for Microsoft .NET 2.0.
+  *[[http://docs.python.org/library/htmlparser.html|HTMLParser — Simple HTML and XHTML parser]] for Python.
+  *[[http://htmlparser.sourceforge.net/|Sourceforge:HTML Parser]], [[http://www.sourceforge.net/projects/htmlparser/|Sourceforge:HTML Parser]], an OpenSource Java library.
+  *[[http://en.pudn.com/downloads85/sourcecode/java/detail327480_en.html|pudn: "MyHtmlParser"]] for Java, using "HTMLConnection".
+==== Free HTML Webdesign Tools, free HTML Editors  ====
+  *[[http://www.microsoft.com/expression/|Microsoft MSDN "Microsoft Expression]].
+    *The free HTML editor [[http://www.microsoft.com/en-us/download/details.aspx?id=36179|Microsoft Download "Microsoft Expression Web 4 (Free Version)"]] for WinXP, Vista, Win7, Win8 with .NET 4.0.
+      *[[http://en.wikipedia.org/wiki/Microsoft_Expression_Web|EN.Wikipedia "Microsoft Expression Web"]], [[http://de.wikipedia.org/wiki/Microsoft_Expression_Web|DE.Wikipedia "Microsoft Expression Web"]].
+  *[[http://www.phase5.info/|phase5 <HTNML Editor>]] for Windows - "kostenlos für Schulen und Privatanwender!".
+    *[[http://de.wikipedia.org/wiki/HTML-Editor_Phase_5|DE.Wikipedia "HTML-Editor Phase 5"]].
+  *Mozilla Editor, SeakMonkey Composer, Mozilla Composer, Nvu Composer and KompoZer.
+    *[[http://www.nvu.com/|Nvu.com]] - "Finally! A complete Web Authoring System for Linux Desktop, Microsoft Windows and Macintosh users".
+    *[[http://www.net2.com/nvu/|Nvu]] - "The #1 FREE Web Authoring System".
+    *[[http://www.kompozer.net/|Kompozer]] - "Easy Web Authoring!".
+    *[[http://www.nvu-composer.de/|Nvu Composer und KompoZer DE. HTML-Editor]].
+    *[[http://www.mozilla.org/editor/|Mozilla Editor]].
+    *[[http://en.wikipedia.org/wiki/Mozilla_Composer|EN.Wikipedia "Mozilla Composer"]].
+    *[[http://en.wikipedia.org/wiki/Mozilla_Application_Suite|EN.Wikipedia "Mozilla Application Suite"]], [[http://de.wikipedia.org/wiki/Mozilla_Application_Suite|DE.Wikipedia "Mozilla Application Suite"]].
+    *[[http://en.wikipedia.org/wiki/SeaMonkey|EN.Wikipedia "SeaMonkey"]], [[http://de.wikipedia.org/wiki/SeaMonkey|DE.Wikipedia "SeaMonkey"]].
+  *[[http://www-01.ibm.com/software/rational/products/eglce/|IBM Rational EGL Community Edition]] - "A free Eclipse-based tool that simplifies the development of rich Web 2.0 style applications. It enables innovation by simplifying the development of JavaScript and Java based rich Internet applications. Shortens the technology learning curve by shielding developers from the complexities of JavaScript™, HTML, Ajax, JSON, and other Web 2.0 technologies".
+  *[[http://de.wikipedia.org/wiki/Aolpress|DE.Wikipedia "Aolpress"]] for Windows - my very first HTML editor :-).
+==== Commercial HTML Webdesign Tools  ====
+  *[[http://www.templatetoaster.com/de/|TemplateToaster]] for Windows - Commercial web design editor, also for Joomla and Wordpress, with time-unlimited feature-limited trial version.
+==== Free HTML Validation ====
+  *W3C.
+    *[[http://www.htmlhelp.org/tools/validator/|WDG HTML Validator]].
+    *[[http://jigsaw.w3.org/css-validator/|W3C CSS Validation Service]].
+  *[[http://validator.w3.org/|W3C Markup Validation Service]] - "Check the markup (HTML, XHTML, …) of Web documents".
+  *Tidy.
+    *[[http://www.w3.org/People/Raggett/tidy/|W3C "Clean up your Web pages with HTML TIDY"]]
+    *[[http://tidy.sourceforge.net/|Sourceforge "HTML Tidy Library Project"]],  [[http://www.sourceforge.net/projects/tidy/|Sourceforge "HTML Tidy Library Project"]].
+    *[[http://www.paehl.com/open_source/?HTML_Tidy_for_Windows|Dirk Paehl "HTML Tidy for Windows"]].
+    *[[http://gtidy.sourceforge.net/|Sourceforge "GTidy-GUI for tidy"]], [[http://www.sourceforge.net/projects/gtidy/|Sourceforge "GTidy-GUI for tidy"]].
+  *Neil Bowers, Canon Research Centre Europe "Weblint".
+    *<del>http://www.weblint.org</del>.
+    *[[http://www.softlookup.com/display.asp?id=38827|Softlookup "Weblint"]] ( 2004-09-10 ) - Weblint download.
+    *[[http://www.sfsu.edu/training/weblint.html|San Francisco University "Weblint Gateway"]] - online Weblint.
+    *[[http://cmpt165.csil.sfu.ca/weblint/|Simon Frazer University "Web Lint"]] - online Weblint.
+  *"HTML-Lint" / "weblint-perl".
+    *[[http://search.cpan.org/dist/HTML-Lint/|CPAN, Andy Lester "HTML-Lint"]].
+      *[[http://packages.debian.org/lenny/weblint-perl|Debian "weblint-perl"]] - "Ein Syntax- und (Minimal-)Stil-Prüfer für HTML. Weblint ist ein Perlskript, das Flaum von HTML-Seiten entfernt, ziemlich auf die gleiche Art wie das herkömmliche lint Flaum von C-Programmen entfernt. Das Skript ist eine vollständige Neuerstellung von Neil Bowers Original-Skript weblint. Es unterstützt aktuell HTML 4.0 (Und nur HTML 4.0)".
+      *[[http://packages.debian.org/lenny/libhtml-lint-perl|Debian "libhtml-lint-perl"]].
+      *[[http://packages.ubuntu.com/hardy/weblint-perl|Ubuntu "weblint-perl"]] - "A syntax and minimal style checker for HTML. This is a perl script which picks fluff off html pages, much in the same way traditional lint picks fluff off C programs. The script is a complete rewrite of Neil Bowers' original weblint script. It currently supports HTML 4.0 (and only HTML 4.0)".
+  *The free online service [[http://html5test.com/|HTML5test - How well does your browser support HTML5?]].
+  *[[http://search.cpan.org/~bdfoy/weblint++-1.15/|CPAN, brian d foy "weblint++"]].
+  *[[http://csstidy.sourceforge.net/|Sourceforge "CSSTidy"]], [[http://www.sourceforge.net/projects/csstidy|Sourceforge "CSSTidy"]].
+    *[[http://packages.debian.org/lenny/csstidy|Debian "csstidy"]] - "CSS parser and optimiser".
+  *[[http://packages.debian.org/lenny/tidy|Debian "tidy"]] - "HTML Syntaxcheck und Neuformatierung".
+  *[[http://packages.debian.org/lenny/tidy-doc|Debian "tidy-doc"]] - "HTML syntax checker and reformatter - documentation".
+  *Validator.
+    *The free online service [[http://validator.de.selfhtml.org/|SELFHTML Validator]].
+    *[[http://www.validome.org/|Validator]].
+==== Commercial HTML Validation ====
+  *[[http://www.htmlvalidator.com/|CSE HTML Validator]].
+  *[[http://www.arealvalidator.com/|Liam Quinn "A Real Validator"]].
+===== (x)HTML / CSS Frameworks =====
+  *[[http://www.960.gs/|960 Grid System]] - "The 960 Grid System is an effort to streamline web development workflow by providing commonly used dimensions, based on a width of 960 pixels. There are two variants: 12 and 16 columns, which can be used separately or in tandem".
+  *[[http://www.yaml.de/|YAML - Yet Another Multicolumn Layout]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Programming/Languages/JavaScript/|OpenDirectory "Top: Computers: Programming: Languages: JavaScript]].
+  *[[http://www.dmoz.org/Computers/Programming/Languages/HTML/|OpenDirectory "Top: Computers: Programming: Languages: HTML]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Programmieren/Sprachen/JavaScript/|OpenDirectory "Top: World: Deutsch: Computer: Programmieren: Sprachen: JavaScript"]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Programmieren/Sprachen/HTML/|OpenDirectory "Top: World: Deutsch: Computer: Programmieren: Sprachen: HTML"]].
+{{tag>"web technologies" HTML5 HTML XML Javascript "web frameworks" "software frameworks for web applications" "web applications" web applications application}}
+<footnote_navi_en>
+
+

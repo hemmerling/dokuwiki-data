@@ -421,8 +421,8 @@ Finish. //
   *[[http://www.tutego.de/|Christian Ullenboom (tutego)]].
     *[[http://www.tutego.de/javabuch/|Christian Ullenboom "Java ist auch / mehr als eine Insel"]] - "Band 1 online lesen, Band 2 online lesen, Band 1 runterladen".
     *[[http://www.tutego.de/docs/|Christian Ullenboom (tutego) - "Schulungsunterlagen und weiterführende Veröffentlichungen"]].
-    *The free HTML and online HTML book [[http://openbook.galileocomputing.de/javainsel/|Galileo Computing, Christian Ullenboom "Java ist auch eine Insel"]].
-    *The free HTML and online HTML book [[http://openbook.galileocomputing.de/java7/|Galileo Computing, Christian Ullenboom "Java 7 - Mehr als eine Insel"]].
+    *The <del>free HTML and</del> online HTML book [[http://openbook.rheinwerk-verlag.de/javainsel/|Rheinwerk Computing, Christian Ullenboom "Java ist auch eine Insel"]].
+    *The <del>free HTML and</del> online HTML book [[http://openbook.rheinwerk-verlag.de/java7/|Rheinwerk Computing, Christian Ullenboom "Java 7 - Mehr als eine Insel"]].
 ===== Reflection and Obsfusication =====
 ==== Reflection ====
   *Rafael Winterhalter ( [[http://www.linkedin.com/in/rafaelwth|LinkedIn "Rafael Winterhalter"]], [[http://www.github.com/raphw|GitHub "raphw"]], [[http://www.bytebuddy.net/|Byte Buddy]] ) - "Reflections are neither type safety, nor a notion of failfast" :-).
@@ -462,7 +462,7 @@ Finish. //
 ===== The Java Language and the JDK =====
 ==== The Java Language ====
   *Hash Map.
-    *[[http://openbook.galileodesign.de/javainsel5/javainsel11_005.htm|Galileo OpenBook "Java ist auch eine Insel"]] - "11.6 Assoziative Speicher HashMap und TreeMap".
+    *[[http://openbook.rheinwerk-verlag.de/javainsel/javainsel_13_004.html|Rheinwerk Computing, Christian Ullenboom "Java ist auch eine Insel"]] - "13.4.1 Die Klassen HashMap und TreeMap".
     *[[http://schabby.de/hashmap/|Schabby's Blog "Java HashMap"]].
   *[[http://www.technofundo.com/tech/java/equalhash.html|Technofundo "Equals and Hash Code"]] -> If you override the "equals()" and "hashcode()" functions of a class, you can manage that the comparison of 2 objects of the same class, though different objects, becomes "true".
 ==== The JDK ====

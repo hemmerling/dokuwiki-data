@@ -1,10 +1,59 @@
 ====== [hemmerling] Smart Blitzmerker ======
+Related page:
+  *[[metering.html|Smart Metering]].
+  *[[smarttechnology.html|Smart Technology]].
+===== Project Objective =====
 {{images:smartblitzmerker02t.jpg?200|Smart Blitzmerker}}
-===== The Project "Smart Blitzmerker" =====
-==== Project Objective ====
   *Development of a smart frugal metering solution, for a smart world.
-==== Project Repository ====
-  *GitHub
+  *About the project name "Smart Blitzmerker": "Blitzmerker" is a German word, means somebody with rapid comprehension. "Blitz" is German for lighning, or photo flash, and you see meters must get some light before we can take a photo. So first photo flash or some other light on, then take a photo, and then light off to save power consumption :-). Smart Blitzmerker is then name, as unfortunately Blitzmerker is taken in the Internet, while "Smart Blitzmerker" was free, i.e. not yet used, no hits by the search engines.
+===== Business Development =====
+==== People ====
+=== Team Members ===
+  *Rolf Hemmerling.
+    *[[imprint.html|imprint / contact address]].
+    *[[http://www.github.com/hemmerling|GitHub "hemmerling"]].
+    *[[http://www.xing.com/profile/Rolf_Hemmerling|XING "Rolf Hemmerling"]].
+    *[[http://www.linkedin.com/in/hemmerling|LinkedIn "Rolf Hemmerling"]].
+    *[[http://www.facebook.com/hemmerling|Facebook "Rolf Hemmerling"]].
+  *Ranjan Ganguli.
+    *[[http://www.github.com/ganguliranjan|GitHub "Ranjan Ganguli"]].
+    *[[http://www.linkedin.com/profile/view?id=184575196|LinkedIn "Ranjan Ganguli"]].
+    *[[http://www.facebook.com/ranjan.ganguli|Facebook "Ranjan Ganguli"]].
+=== Project Oberver, possible future Project Supporter ===
+  *Deepak Matai.
+    *[[http://www.linkedin.com/profile/view?id=236387717|LinkedIn "Deepak Matai"]].
+    *[[http://www.techtic.com/]].
+
+==== Project Idea, Project Approach, Project Proceedings ====
+  *See [[metering.html|Smart Metering]].
+  *The product development of software and hardware, the developed product and the developed software will be frugal and jugaad, see: 
+    *[[http://en.wikipedia.org/wiki/Jugaad|EN.Wikipedia "Jugaad"]].
+      *[[http://www.youtube.com/watch?v=JEetbKRMxW8|YouTube "Jugaad hindi movie"]].
+    *[[http://en.wikipedia.org/wiki/Frugal_engineering|EN.Wikipedia "Frugal engineering"]].
+    *[[http://en.wikipedia.org/wiki/Frugality|EN.Wikipedia "Frugality"]], [[http://de.wikipedia.org/wiki/Sparsamkeit|DE.Wikipedia "Sparsamkeit"]].
+    *[[http://en.wikipedia.org/wiki/KISS_principle|EN.Wikipedia "KISS principle"]], [[http://de.wikipedia.org/wiki/KISS-Prinzip|DE.Wikipedia "KISS-Prinzip"]].
+  *The project might also be considered as approaches of
+    *"Citizen Science".
+      *[[http://www.citizensciencealliance.org/|Citizen Science Alliance]].
+      *[[http://www.citizen-science-germany.de/|Citizen Science:Germany]].
+      *[[http://www.scistarter.com/page/Citizen%20Science.html|scistarter - Science we can do together]].
+      *[[http://www.scientificamerican.com/citizen-science/|Scientific American "Citizen Science"]].
+      *[[http://www.birds.cornell.edu/citscitoolkit|The Cornell Lab of Ornithology "Citizen Science Central"]].
+      *[[http://en.wikipedia.org/wiki/Citizen_science|EN.Wikipedia "Citizen science"]], [[http://de.wikipedia.org/wiki/Citizen_Science|DE.Wikipedia "Citizen science"]].
+    *"Physical computing".
+      *[[http://www.tigoe.net/blog/what-is-physical-computing/|Tom Igoe "What Is Physical Computing?"]].
+      *[[http://en.wikipedia.org/wiki/Physical_computing|EN.Wikipedia "Physical computing"]], [[http://de.wikipedia.org/wiki/Physical_Computing|DE.Wikipedia "Physical computing"]].
+  *Possible title of a college course to support this project: "byod & practice your skills, self contained" :-).
+==== Work Principles in our Team ====
+  *[[http://en.wikipedia.org/wiki/5S_%28methodology%29|EN.Wikipedia "5S (methodology)"]], [[http://de.wikipedia.org/wiki/5S|DE.Wikipedia "5S"]].
+  *[[http://en.wikipedia.org/wiki/Open_innovation|EN.Wikipedia "Open innovation"]], [[http://de.wikipedia.org/wiki/Open_Innovation|DE.Wikipedia "Open Innovation"]].
+  *Test Driven Development, Behaviour Driven Development.
+    *See [[testing.html|Testing]].
+    *See [[unittest.html|Unit Test / Module Test]].
+    *See [[specbyex.html|Specification by Example]].
+    *See [[wscripting03.html|Scripting Programming Languages for Windows 3/3 - Testing with Windows PowerShell]].
+===== Project Repository =====
+  *GitHub.
     *[[http://www.github.com/smartblitzmerker|GitHub "Smart Blitzmerker"]].
   *Members and his/her GitHub archives & Public Gists:
     *[[http://www.github.com/hemmerling|GitHub "Rolf Hemmerling"]].
@@ -20,83 +69,20 @@
   *The organisation [[http://www.trello.com/smartblitzmerker|Trello "Smart Blitzmerker"]] ( not an account! ).
   *[[http://www.twitter.com/smartblitzmerk|Twitter "Smart Blitzmerker, @smartblitzmerk"]], #smartblitzmerker.
   *[[http://vimeo.com/smartblitzmerker|Vimeo "Smart Blitzmerker"]]
-==== Suggested Tools ====
-=== Online Services ===
+===== Suggested Tools =====
+==== Online Services ====
   *We use public [[http://gist.github.com/|Github GIST]] online web pages ( of personal GitHub accounts of the project participants ) to document our proceedings. 
   *We are used to publish "Git Repository" and "GIST" articles with images stored on GitHub :-).
-=== Tools to be installed on your local Computer ===
+==== Tools to be installed on your local Computer ====
   *The screen capture tool [[http://lightscreen.sourceforge.net/|SourceForge "Lightscreen"]], [[http://www.sourceforge.net/projects/lightscreen|SourceForge "Lightscreen"]].
   *[[http://gitextensions.sourceforge.net/|SourceForge "Git Extensions"]], [[http://www.sourceforge.net/projects/gitextensions/|SourceForge "Git Extensions"]] to communicate with your GitHub account.
   *Free tools to do "Unit test" and "Behaviour Driven Development" for Java, Python, C#, C/C++,... :-). See section "Work Principles in our Team" for a list of pages which contain links to such tools.
-==== Distribution License ====
-  *Our choice:
+===== Distribution License =====
+  *Our primary choice:
     **[[http://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html|GNU Lesser General Public License, version 2.1]].
   *Reason: 
     *To be compatible later with [[http://en.wikipedia.org/wiki/Qt_%28software%29|EN.Wikipedia "Qt (software)"]], [[http://de.wikipedia.org/wiki/Qt_%28Bibliothek%29|EN.Wikipedia "Qt (Bibliothek)"]] and [[http://wiki.qt.io/About_PySide|PySide]].
-==== Work Principles in our Team ====
-  *[[http://en.wikipedia.org/wiki/5S_%28methodology%29|EN.Wikipedia "5S (methodology)"]], [[http://de.wikipedia.org/wiki/5S|DE.Wikipedia "5S"]].
-  *[[http://en.wikipedia.org/wiki/Open_innovation|EN.Wikipedia "Open innovation"]], [[http://de.wikipedia.org/wiki/Open_Innovation|DE.Wikipedia "Open Innovation"]].
-  *Test Driven Development, Behaviour Driven Development.
-    *See [[testing.html|Testing]].
-    *See [[unittest.html|Unit Test / Module Test]].
-    *See [[specbyex.html|Specification by Example]].
-    *See [[wscripting03.html|Scripting Programming Languages for Windows 3/3 - Testing with Windows PowerShell]].
-
-==== Business Development ====
-==== Team Members ====
-  *Rolf Hemmerling.
-    *[[imprint.html|imprint / contact address]].
-    *[[http://www.github.com/hemmerling|GitHub "hemmerling"]].
-    *[[http://www.xing.com/profile/Rolf_Hemmerling|XING "Rolf Hemmerling"]].
-    *[[http://www.linkedin.com/in/hemmerling|LinkedIn "Rolf Hemmerling"]].
-    *[[http://www.facebook.com/hemmerling|Facebook "Rolf Hemmerling"]].
-  *Ranjan Ganguli.
-    *[[http://www.github.com/ganguliranjan|GitHub "Ranjan Ganguli"]].
-    *[[http://www.linkedin.com/profile/view?id=184575196|LinkedIn "Ranjan Ganguli"]].
-    *[[http://www.facebook.com/ranjan.ganguli|Facebook "Ranjan Ganguli"]].
-
-===== Project Idea, Project Approach, Project Proceedings =====
-  *The product to be developed, a smart meter will collect data from the mechanical metering devices for water, gas, electric power, and put it in an building automation network, or even in the cloud.
-    *As permanent device, e.g. at private households or public / industry buildings.
-    *To give you the clue for another application of the technology, think about low-skilled people who have to go to meter devices in a customer's ( private, public, industry ) building, to read and to document the data by writing down the values on paper or typing the numbers on a computer, manually. They might now get a portable device -our product - and just record the data by buttonclick. 
-    *The product development of software and hardware, the developed product and the developed software will be frugal and jugaad, see: 
-      *[[http://en.wikipedia.org/wiki/Jugaad|EN.Wikipedia "Jugaad"]].
-        *[[http://www.youtube.com/watch?v=JEetbKRMxW8|YouTube "Jugaad hindi movie"]].
-      *[[http://en.wikipedia.org/wiki/Frugal_engineering|EN.Wikipedia "Frugal engineering"]].
-      *[[http://en.wikipedia.org/wiki/Frugality|EN.Wikipedia "Frugality"]], [[http://de.wikipedia.org/wiki/Sparsamkeit|DE.Wikipedia "Sparsamkeit"]].
-      *[[http://en.wikipedia.org/wiki/KISS_principle|EN.Wikipedia "KISS principle"]], [[http://de.wikipedia.org/wiki/KISS-Prinzip|DE.Wikipedia "KISS-Prinzip"]].
-  *About the project name "Smart Blitzmerker": "Blitzmerker" is a German word, means somebody with rapid comprehension. "Blitz" is German for lighning, or photo flash, and you see meters must get some light before we can take a photo. So first photo flash or some other light on, then take a photo, and then light off to save power consumption :-). Smart Blitzmerker is then name, as unfortunately Blitzmerker is taken in the Internet, while "Smart Blitzmerker" was free, i.e. not yet used, no hits by the search engines.
-  *Project approach is to do rapid-prototyping of prototypes with different aspects, in different programming languages on different platforms, to become familar with the problem and to find a solution. The solution must not be on the level of a true deliverable product useful for customers.
-  *College student teams might also join, as the college lecturer might ask the college students to do own implementation of the tasks, even in different programming languages on different platforms. 
-  *First step is that the project participants ( e.g. the college students ) take their smartphones or digital photo cams, and photograph their own meters at home, and take the photos to the project. So the project particpants document something from their daily life - here the front picture of their meters in their flats, and then process the item by self-written software. 
-  *Most of the meters are same in looking? Yes, as energy monitoring for private households is a regulated industry. I.e. a unity company or the state defines which devices are acceptable, or even distributes the devices.
-  *By that the project participants will first realize problems to take a single static snapshot: The problems with little light where meters are attached, problems with flash of smartphone cams and regular digital cams ect.
-  *Now there are 3 implementation aspects of the project.
-    -Create applications to take photos on different hardware platforms ( smartphone, desktop/notebook pc, embedded device ) and different software platforms ( Windows/Linux desktop including embedded devices, Android OS on Android smartphones / iOS on iPhone smartphones, bare-metal implementations on embedded devices ).
-      *So "My first smartphone app for Android in Java" would be a good starting sub-project - To use the camera software of the smarthone to take a photo and to store it.
-    -Image processing ( e.g. with OpenCV, or commercial tools by National Instruments "NI Vision" at colleges or companies with some budget ). Further thinking is required: 
-       *On Android where the apps are typicall written in Java, or on Windows Apps for Desktop or WinPhone, its not so easy to integrate a true C library. No problem on Windows or Linux Desktop.
-       *But as the image quality might be so limited, and the device weight is a limiting factor ( a prototype device beyond the project might be glued by vacuum cup to the glas of the metering device display ), its a question if the image processing should be done on the device, or later in the network or in the cloud.
-       *OpenCV is C, but you can do development in most other languages too, and there is no need for Object-orientation ect. e.g. with the "Visual Studio" IDE, or there is a Python interface.
-       *So first step would be "take a photo of the meters at home, and make recognition of the serial number and the current data of the device, with help of OpenCV. But the project participants need little knowledge about software programming, the resulting developed software are just simple linear programs with maybe some loops.
-       *Rapid prototyping means using frameworks and ready-made tools, and to add just few %s of own work, to get a working solution. So the pattern recognition is either the topic of the sub-project ( requireing just very basic programming skills ), or the sub-project might be an introductory computer programming course where the pattern recognition is to be taken as magic and not really taught in detail.
-       *You may even skip the pattern recognition totally. Without pattern recognition, it is the task to create an application which take a series of photos ( not really necessary to be a video stream ) and to transfer the photos to the cloud. Then of course you will have massive bandwidth and storage problems.
-    -The transfer of the data to the cloud, using cloud provider for metering data ( with free entry-level accounts ), or own cloud solution. E.g. on IBM Bluemix, Heroku,..
-===== Resources =====
-==== Market, Competitors ====
-  *[[http://www.baufachinformation.de/artikel.jsp?v=3868|baufachinformation.de "Heizkostenabrechnung. DIN EN 16836-1, März 2015. Kommunikationssysteme für Zähler - Drahtloses Mesh-Netzwerk für den Zählerdatenaustausch - Teil 1: Einführung und Standardisierungs-Rahmen; Deutsche Fassung prEN 16836-1:2015"]].
-  *[[http://t3n.de/news/mesh-netzwerke-488157/|t3n "Mesh-Netzwerke: Das Alternative Internet nicht nur für die Zombie-Apokalypse"]].
-  *[[http://www.elektronik-kompendium.de/sites/net/1408051.htm|Elektronik-Kompendium "IEEE 802.11s / Wireless Mesh Network (WMN)"]].
-  *[[http://www.pcwelt.de/ratgeber/Automatische_Haussteuerung-Projekte_mit_Arduino_und_Raspberry_Pi-8723715.html|pC Welt Smart Home "Projekte mit Arduino und Raspberry Pi. Automatische Haussteuerung]].
-  *[[http://www.fraunhofer.de/de/forschungsfelder.html|Fraunhofer "Forschungsfelder"]].
-  *Fair [[http://www.light-building.messefrankfurt.com/|Light + Building ]] in Frankfurt, 2016-03-13 - 2016-03-18.
-==== General ====
-  *See [[topics.html|Topics]].
-  *Wifi and (proprietary) WAGO Industrial Bluetooth are the usual wireless options to communicate with PLCs.
-    *As of 2015: The (proprietary) Industrial Bluetooth has an extended range (e.g. 1000m ) and needs a special Android app by WAGO to access data on a smartphone.
-    *In 2016, the market might change if WAGO develops its CodeSys3-based "e!Cockpit" development and runtime solution.
-  *There are some normed communication protocols ( e.g. Wireless M-Bus ) many other (proprietary) wirless communication solutions of smart meters with its PCLs and distributed ( building ) control systems.
-    *M-Bus, Wirless M-Bus -> See [[fieldbus.html|Fieldbuses and Automation Networks]], [[wireless.html|Wireless Networks]].
+  *There might be other licenses for special distributions, e.g. where a major component or runtime has another license, and we have to provide our software just as part of this component / runtime ( e.g. an Android app runtime of a special programming language like Tcl/Tk or Python, with its special license ).
 ===== Appropriate OpenDirectory Directory Pages =====
   *[[http://www.dmoz.org/World/Deutsch/Computer/Hardware/Mikrocontroller/|OpenDirectory "Top: World: Deutsch: Computer: Hardware: Mikrocontroller"]].
 {{tag>"smart blitzmerker" smart blitzmerker smartblitzmerker "smart metering" metering "smart grid" grid "smart city" city "smart cities" cities "smart building" building "smart buildings" buildings "smart building managment" management "smart world" world}}

@@ -75,15 +75,56 @@ Related pages:
 
 
 ===== IT Management Software =====
-   *See [[network.html|Network Tools]].
-   *See [[cms.html|Content Management Systems ( CMS )]].
-   *The commercial IT architecture management and service management tool [[http://www.boc-group.com/de/produkte/adoit/|BOC AG "ADOit"]] for WinXP.
-     *The free IT architecture management and service management tool [[http://www.adoit-community.com/|BOC AG "ADOit:CE - The free EA tool"]], [[http://www.adoit-community.com/download-confirm/|BOC AG "ADOit:CE - The free EA tool", Download]] for WinXP.
-     *[[http://www.adoit-community.com/ea-poster-2/|BOC AG "EA Poster"]] ( PDF ).
+  *See [[network.html|Network Tools]].
+  *See [[cms.html|Content Management Systems ( CMS )]].
+  *The commercial IT architecture management and service management tool [[http://www.boc-group.com/de/produkte/adoit/|BOC AG "ADOit"]] for WinXP.
+    *The free IT architecture management and service management tool [[http://www.adoit-community.com/|BOC AG "ADOit:CE - The free EA tool"]], [[http://www.adoit-community.com/download-confirm/|BOC AG "ADOit:CE - The free EA tool", Download]] for WinXP.
+    *[[http://www.adoit-community.com/ea-poster-2/|BOC AG "EA Poster"]] ( PDF ).
+  *The OpenSource "CMDBuild" by "Tecnoteca srl":
+    *[[http://www.youtube.com/tecnotecatv|YouTube "tecnotecatv"]].
+    *[[http://www.issuu.com/tecnoteca|issuu "Tecnoteca srl"]] - Manuals.
+      *English CMDBuild Workflow Manual: "With the 2.0 release we revised the workflow system,... In order to simplify the writing we decided to provide a different definition modality of the automatic activities, supporting the scriptwriting and excluding the use of 'tools', available in the previoius version of CMDBuild. **The scripts can be written in the BeanShell, Groovy or Javascript language** and can use API functions provided for the definition of automatisms (manipulation of process variables, card creation and relations in CMDB, e-mail sending, report creation, etc).
+    *[[http://play.google.com/store/apps/developer?id=Tecnoteca+srl|Googleplay "Tecnoteca srl"]].
+    *[[http://www.tecnoteca.com/en/cmdbuild/supporto/formazione/module-e|Tecnoteca srl "Module E"]].
+      *Features of CMDBuild:
+        *Native SOAP web service
+        *Native REST web service
+     *I was told by experts, that "CMDBuild" and "openMAINT" are just compatible with the PostgreSQL database :-( ( and not with MySQL, Microsoft SQL Server,..), as the application makes use of inheritance of table properties :-(
+     *The OpenSource CMDB [[http://www.cmdbuild.org/|Tecnoteca srl "CMDBuild"]], [[http://cmdbuild.sourceforge.net/|SourceForge "CMDBuild - CMDB for IT Asset Management"]], [[http://www.sourceforge.net/projects/cmdbuild/|SourceForge "CMDBuild - CMDB for IT Asset Management"]].
+     *[[http://www.cmdbuild.org/en/prodotti/cmdbuild-mobile|Tecnoteca  srl "CMDBuild MOBILE"]].
+       *[[http://play.google.com/store/apps/details?id=org.cmdbuild.cmdbuildmobile.v1|Google Play "CMDBuildMobile v1"]].
+       *[[http://play.google.com/store/apps/details?id=org.cmdbuild.cmdbuildmobile.v2|Google Play "CMDBuildMobile v2"]].
+     *[[http://www.tecnoteca.tv/cmdbuild/|Tecnoteca.tv "CMDBuild"]] - Free training videos.
+       *[[http://www.slideshare.net/cmdbuild|SlideShare "CMDBuild org"]].
+       *[[http://plus.google.com/+cmdbuild/|Google+ "CMDBuild"]].
+       *[[http://www.twitter.com/cmdbuild|Twitter "CMDBuild, @cmdbuild"]].
+       *[[http://help.ubuntu.com/community/CMDBuild|Ubuntu Documentation, Ubuntu Community Help Wiki "CMDBuild"]].
+       *[[http://en.wikipedia.org/wiki/Cmdbuild|EN.Wikipedia "Cmdbuild"]].
+    *[[http://www.openmaint.org/|Tecnoteca srl "openMAINT"]], [[http://openmaint.sourceforge.net/|SourceForge "openMAINT"]], [[http://www.sourceforge.net/projects/openmaint/|SourceForge "openMAINT]] - "Open source solution for the Property & Facility Management".
+       *[[http://www.openmaint.org/en/project/mobile|Tecnoteca  srl "openMAINT MOBILE"]].
+         *[[http://play.google.com/store/apps/details?id=org.openmaint.openmaintmobile.v2|Google Play "openMAINT v2"]].
+       *[[http://www.twitter.com/openmaint_org|Twitter "openMAINT, @openmaint_org"]].
+     *"Together XPDL and BPMN Workflow Server".
+       *[[http://web.archive.org/web/*/http://www.enhydra.org/|Archive.org "Enhydra Shark"]] ( - 2011-02-11 ).
+       *[[http://www.together.at/|Together Teamsolutions Co., Ltd. "Together - Professional Open Source"]].
+         *[[http://www.together.at/prod/workflow/twe|Together Teamsolutions Co., Ltd. ( together.at ) "Together XPDL and BPMN Workflow Server"]] - "also known as Enhydra Shark".
+         *Code download:
+           *[[http://jawe.sourceforge.net/|SourceForge "JaWE - Java Workflow Editor"]], [[http://www.sourceforge.net/projects/jawe/|SourceForge "JaWE - Java Workflow Editor"]] - outdated.
+           *[[http://sharkwf.sourceforge.net/|SourceForge "Shark - Java Open Source XPDL Workflow"]], [[http://www.sourceforge.net/projects/sharkwf/|SourceForge "Shark - Java Open Source XPDL Workflow"]] - outdated.
+           *[[http://www.together.at/download|Together Teamsolutions Co., Ltd. "Downloads"]] - Current downloads, select "Products GPL/TSL".
+         *Blog [[http://kickingtech.wordpress.com/|Kicking Tech]].
+           *[[http://kickingtech.wordpress.com/tag/cmdbuild/|Kicking Tech - Articles tagged with "CMDBUILD"]].
+             *[[http://kickingtech.wordpress.com/2014/12/30/installing-shark-workflow-tws-for-cmdbuild/|Kicking Tech "Installing Shark Workflow (TWS) for CMDBuild"]].
+         *Reference customer [[http://www.workflow.at/|Workflow EDV GmbH]].
+         *I was told by experts, that "Shark" is compatible with several databases :-):
+       *[[http://www.cmdbuild.it/forum/forum-in-english/313005943|CMDBuild Forum "Forum for developers (English language)", Thread "Using CMDBuild1.5 with shark"]].
    *The OpenSource CMDB [[http://www.i-doit.org/|synetics Gesellschaft für Systemintegration mbH "i-doit - Open Source IT Documentation and CMDB"]].
      *The commercial CMDB [[http://www.i-doit.com/|synetics Gesellschaft für Systemintegration mbH "i-doit - IT Documentation and CMDB"]].
+     *I was told by experts about the additional important useful features of the commercial version:
+      *You may create own classes - a "must-have" as you are limited to the given scheme with the free OpenSource edition.
+      *You may administre several mandators ( [[http://en.wikipedia.org/wiki/Multitenancy|EN.Wikipedia "Multitenancy"]], [[http://de.wikipedia.org/wiki/Mandantenf%C3%A4higkeit|EN.Wikipedia "Mandantenfähigkeit"]] ).
   *The OpenSource CMDB [[http://www.combodo.com/|iTop]], [[http://itop.sourceforge.net/|SourceForge "top - ITSM & CMDB OpenSource"]]., [[http://www.sourceforge.net/projects/itop/|SourceForge "top - ITSM & CMDB OpenSource"]].
-  *THe commercial [[http://www.frontrange.com/|FrontRange Solutions USA Inc. "FrontRange ITSM Software"]].
+  *The commercial [[http://www.frontrange.com/|FrontRange Solutions USA Inc. "FrontRange ITSM Software"]].
 ===== Forums, Newsgroups, Communities =====
   *Blog [[http://community.ca.com/blogs/|Blogs - CA Community]].
   *[[http://www.crmmanager.de/|CRMmanager.de - Das Customer Relationship Management Portal]].
@@ -103,7 +144,6 @@ Related pages:
   *[[http://www.businessportal.de/|Business & IT]] - "Die Zeitschrift für den erfolgreichen Geschäftsmann - Business, IT, Wirtschaft, News, Recht, Unternehmen".
   *[[http://www.tradepub.com/|Netline "Free Trade Magazine Subscriptions & Technical Document Downloads"]].
   *[[http://www.itmittelstand.de/|IT-MITTTELSTAND]].
-
 ===== IT Events =====
   *[[http://www.wi.hs-wismar.de/~cleve/wiwita.html|WIWITA - Wismarer Wirtschaftsinformatik-Tage]].
   *[[http://www.fcs-consulting.de/|FCS Consulting GmbH]].
@@ -112,8 +152,10 @@ Related pages:
   *Blog [[http://blog.itil.org/|ITIL-Blog zu ITIL, ISO 20000 & COBIT]] & [[http://www.facebook.com/Glenfis.AG|Facebook "Glenfis.AG"]] by [[http://www.glenfis.ch/de/|Glenfis AG]].
   *[[http://en.wikipedia.org/wiki/Security_information_and_event_management|EN.Wikipedia "Security information and event management"]] ( SIEM ) = Security information management ( SIM ) + security event manager ( SEM ).
 ===== Forums, Newsgroups =====
-  *[[http://www.linkedin.com/groups?gid=4677510|LinkedIn "ADOit - Enterprise Architecture Community"]].
+  *[[http://www.cmdbuild.org/en/supporto/forum|CMDBuild Forum]] in italian language.
+    *[[http://www.cmdbuild.org/forum/forum-in-english|CMDBuild Forum "Forum for developers (English language)"]].
+  *LinkedIn:
+    *[[http://www.linkedin.com/groups?gid=4677510|LinkedIn "ADOit - Enterprise Architecture Community"]].
+    *[[http://www.linkedin.com/groups/CMDBuild-network-1929617|LinkedIn "CMDBuild network"]], [[http://www.linkedin.com/grp/home?gid=5190877|LinkedIn "openMAINT network"]].
 {{tag>"IT management" ITIL "Information Technology Infrastructure Library" "Control Objectives for Information and Related Technology" CobiT}}
 <footnote_navi_en>
-
-

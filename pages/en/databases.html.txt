@@ -109,7 +109,7 @@ Related pages:
     *[[http://search.cpan.org/~aff/Parse-Dia-SQL/|CPAN "Andreas Faafeng > Parse-Dia-SQL"]], [[http://www.github.com/aff/Parse-Dia-SQL|Github "aff / Parse-Dia-SQL"]] - "Convert Dia class diagrams into SQL", "Command-line interface to Parse::Dia::SQL".
       *[[http://en.wikipedia.org/wiki/Dia_%28software%29|EN.Wikipedia "Dia (software)"]], [[http://de.wikipedia.org/wiki/Dia_%28Software%29|DE.Wikipedia "Dia (Software)"]].
   *Python:
-    *[[http://openbook.galileocomputing.de/python/python_kapitel_19_003.htm|Peter Kaiser, Johannes Ernesti "Python. Das umfassende Handbuch - Aktuell zu Python 2.5", Chapter "19.3 Datenbanken, Subchapter "19.3.1 Pythons eingebaute Datenbank – sqlite3"]].
+    *[[http://web.archive.org/web/*/http://openbook.galileocomputing.de/python/python_kapitel_19_003.htm|Archive.org "Peter Kaiser, Johannes Ernesti: 'Python. Das umfassende Handbuch - Aktuell zu Python 2.5', Chapter '19.3 Datenbanken', Subchapter '19.3.1 Pythons eingebaute Datenbank – sqlite3']].
     *[[http://www.blog.pythonlibrary.org/2012/07/18/python-a-simple-step-by-step-sqlite-tutorial/|Mouse vs. Python "Python: A Simple Step-by-Step SQLite Tutorial"]].
     *[[http://docs.python.org/2/library/sqlite3.html|Python Documentation "11.13. sqlite3 — DB-API 2.0 interface for SQLite databases"]].
     *[[http://www.zetcode.com/db/sqlitepythontutorial/|ZetCode "SQLite Python tutorial"]].
@@ -245,6 +245,16 @@ Foren:
 === Additional Tools ===
   *[[http://sqlserversamples.codeplex.com/|Codeplex - Open Source Community "Microsoft SQL Server Community Projects & Samples"]].
   *The free [[http://www.microsoft.com/downloads/en/details.aspx?familyid=9a8b005b-84e4-4f24-8d65-cb53442d9e19&displaylang=en|Microsoft Download Center "SQLIO Disk Subsystem Benchmark Tool"]] for Windows - may be used to test SAN.
+=== Resources ===
+  *[[http://support.webecs.com/kb/a867/what-is-the-default-password-for-the-sa-login.aspx|Webecs "What is the default password for the sa login?"]].
+
+^ ^ ^ ^ ^
+^Software Edition ^ User ^ Password ^ Comment ^
+^ SQL Server 2008/R2 Express | sa |  | Blank password - leave field empty to connect |
+^ SQL Server 2012 Express | sa | Password123 | |
+^ SQL Server 2008/R2/2012 Web or Standard | sa | ? | Can't be blank. Will be the same as your administrator or root user password at the time the Windows system was provisioned |
+^ | | | |
+
 ==== Oracle Database ====
 === The Tool ===
   *[[http://www.oracle.com/us/products/database/|Oracle Database]].
@@ -464,7 +474,13 @@ Personal Notes of Pinal Dave]].
   *SQL Replication.
     *Book [[http://www.amazon.de/exec/obidos/ASIN/1555582303/hemmerling-21|Microsoft SQL Server 2000 Replication]].
     *Book [[http://www.amazon.de/exec/obidos/ASIN/1555582303/hemmerling-21|David Winters "SQL Server 2000 Replication Handbook"]].
-
+==== Multitenancy ====
+  *An application which may dministre several mandators ( [[http://en.wikipedia.org/wiki/Multitenancy|EN.Wikipedia "Multitenancy"]], [[http://de.wikipedia.org/wiki/Mandantenf%C3%A4higkeit|EN.Wikipedia "Mandantenfähigkeit"]] ) can be implemented by:
+    -SQL "WHERE" clause ( [[http://www.w3schools.com/sql/sql_where.asp|W3Schools "SQL WHERE Clause"]] ). Example "SELECT * FROM Customers WHERE CustomerID=1;" :-(.
+    -Oracle SQL server: Row-oriented access privileges :-).
+    -Different tables for each customer. An implementation in a application is safe, but complex and so costly.
+  *The usual column-oriented access privileges, as implemented with most SQL servers, are no help to build multitenancy :-(.
+  *With PHP and MySQL, it is usual that the PHP application gets all requested data from the SQL server and implements any role-oriented access privileges by its business logic :-(, e.g. by if-else ( [[http://www.w3schools.com/php/php_if_else.asp|W3Schools "PHP 5 if...else...elseif Statements"]] ) or switch ( [[http://www.w3schools.com/php/php_switch.asp|W3Schools "PHP 5 switch Statement"]] ) statements :-(.
 ==== Stored Procedures ====
   *[[http://en.wikipedia.org/wiki/Stored_procedure|EN.Wikipedia "Stored procedure"]], [[http://de.wikipedia.org/wiki/Gespeicherte_Prozedur|DE.Wikipedia "Gespeicherte Prozedur"]].
 ===== Data Transfer Protocols, Webservices Protocols =====

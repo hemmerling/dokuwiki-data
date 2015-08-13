@@ -71,12 +71,19 @@ Pardon My French, But This Code Is C.R.A.P."]].
     *[[http://www.ibm.com/developerworks/library/j-findbug2/|IBM DeveloperWorks, Chris Grindstaff "FindBugs, Part 2: Writing custom detectors. How to write custom detectors to find application-specific problems"]].
     *Findbugs analysis Java bytecode ( so is suitlable to analyse .JAR libraries and .JAR executables too ) and focusses on correctness bugs :-).
   *The commercial [[http://www.parasoft.com/|Parasoft]] Jtest - Java Testing, Static Analysis, Code Review".
+===== Static Code Analysis Tools for Javascript =====
+  *The OpenSource [[http://www.javascriptlint.com/|JavaScript Lint]], [[http://javascriptlint.sourceforge.net/|SourceForge "JavaScript Lint"]], [[http://www.sourceforge.net/projects/javascriptlint|SourceForge "JavaScript Lint"]].
+    *The free online service [[http://www.javascriptlint.com/online_lint.php|JavaScript Lint - Online Lint]].
+  *[[http://www.jslint.com/|JSLint]] - "The JavaScript Code Quality Tool".
+    *[[http://github.com/reid/node-jslint|Github "reid / node-jslint"]] - "The JavaScript Code Quality Tool — for Node.js".
+    *[[http://en.wikipedia.org/wiki/JSLint|EN.Wikipedia "JSLint"]], [[http://de.wikipedia.org/wiki/JSLint|DE.Wikipedia "JSLint"]].
+  *[[http://www.jshint.com/|JSHint]] - "A JavaScript Code Quality Tool".
+    *[[http://en.wikipedia.org/wiki/JSHint|EN.Wikipedia "JSHint"]], [[http://de.wikipedia.org/wiki/JSHint|DE.Wikipedia "JSHint"]].
 ===== Static Code Analysis Tools for .NET =====
 ==== C# ====
   *The commercial [[http://www.parasoft.com/|Parasoft]] doTEST - ".NET Static Analysis, Code Review, Unit Testing".
 ==== Powershell ====
   *"ScriptCop" - See [[wscripting02.html|Scripting Languages for Windows 2/2 - Windows Powershell]].
-
 ===== Rules & Tools for PHP =====
 ==== Pear Coding Standards ====
   *[[http://pear.php.net/manual/en/standards.php|The PHP Group - pear "Coding Standards"]].
@@ -96,14 +103,8 @@ Pardon My French, But This Code Is C.R.A.P."]].
   *[[http://jason.pureconcepts.net/2012/11/php-coding-standards/|Jason McCreary. A PHP and iOS developer. A thinker "Be a Better PHP Developer: Coding Standards"]].
 ===== Static Code Analysis Tools for Python =====
   *See [[python04.html|Python 4/6 - Pro & Contra]].
-===== Static Code Analysis Tools for Javascript =====
-  *The OpenSource [[http://www.javascriptlint.com/|JavaScript Lint]], [[http://javascriptlint.sourceforge.net/|SourceForge "JavaScript Lint"]], [[http://www.sourceforge.net/projects/javascriptlint|SourceForge "JavaScript Lint"]].
-    *The free online service [[http://www.javascriptlint.com/online_lint.php|JavaScript Lint - Online Lint]].
-  *[[http://www.jslint.com/|JSLint]] - "The JavaScript Code Quality Tool".
-    *[[http://github.com/reid/node-jslint|Github "reid / node-jslint"]] - "The JavaScript Code Quality Tool — for Node.js".
-    *[[http://en.wikipedia.org/wiki/JSLint|EN.Wikipedia "JSLint"]], [[http://de.wikipedia.org/wiki/JSLint|DE.Wikipedia "JSLint"]].
-  *[[http://www.jshint.com/|JSHint]] - "A JavaScript Code Quality Tool".
-    *[[http://en.wikipedia.org/wiki/JSHint|EN.Wikipedia "JSHint"]], [[http://de.wikipedia.org/wiki/JSHint|DE.Wikipedia "JSHint"]].
+===== Static Code Analysis Tools for Tcl / Tk =====
+  *See [[tickle.html|Tcl / Tk ( tickle ) 2/2 - Debugging & Testing]].
 ===== ConQAT - Toolkit for rapid Development and Execution of Software Quality Analyses =====
   *The OpenSource toolkit for rapid development and execution of software quality analyses [[http://www.conqat.org/|CQSE GmbH "ConQAT"]] in Java and .NET 2.0, for Java, C#, C/C++,...
   *Blog [[http://www.cqse.eu/en/blog/|CQSE GmbH "Software Quality Blog"]].

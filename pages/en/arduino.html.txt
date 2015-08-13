@@ -9,6 +9,8 @@ Related pages:
   *[[http://www.arduino.cc/|Arduino]] - With the Arduino IDE, You can upload code to your target, too. No hardware debugger support within the IDE.
     *[[http://arduino.cc/en/Tutorial/|Arduino "Examples"]] - Basic sample application with servo motor ( "Servo Library" ), network access with Ethernet shield ( "Ethernet Library" ), communications ( with a PC host computer running a Java application based on [[http://processing.org/|Processing]] ), analog and digital input and output,...
     *[[http://arduino.cc/en/Reference/Board?from=Guide.Board|Arduino "Introduction to the Arduino Board"]].
+===== Software Development Systems for Arduino ======
+  *The OpenSource [[http://www.ardublock.com/|Ardublock]], [[http://ardublock.sourceforge.net/|SourceForge "ArduBlock"]], [[http://www.sourceforge.net/projects/ardublock/|SourceForge "ArduBlock"]] - "A Graphical Programming Language for Arduino".
 ===== Arduino Shields ======
   *[[http://www.shieldlist.org/|Arduino Shield List]] - List of hardware extensions for Arduino boards.
   *An important design criteria & buying critera for me is "The shield can operate at 3.3V", so that it might be ready for use with the Arduino boards with [[pic.html|Microchip PIC]] CPU and forthcoming Arduino boards with ATxmega CPU.

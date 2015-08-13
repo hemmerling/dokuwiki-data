@@ -4,6 +4,18 @@ Related pages:
 ===== Organizations =====
   *[[http://www.tcrts.org/|IEEE TCRTS Technical Committee on Real-Time Systems]].
 ===== Realtime Operating Systems =====
+==== OSEK. FreeOSEK / OpenSEK and the OSEK Implementation Language (OIL) ====
+=== OSEK and the OSEK Implementation Language (OIL) ===
+  *[[http://www.osek-vdx.org/|OSEK VDX]].
+    *[[http://portal.osek-vdx.org/index.php?option=com_content&task=view&id=9&Itemid=13|OSEK VDX Portal "General Information / Project status / Specifications"]] - Free download of PDfs.
+      *[[http://portal.osek-vdx.org/files/pdf/specs/oil25.pdf|OSEK VDX "OSEK Implementation Language (OIL)"]] - Experts told me, that this might be a suitable standard to describe realtime operating systems, in general :-).
+=== FreeOSEK / OpenSEK ===
+  *[[http://openosek.sourceforge.net/|SoureForge "FreeOSEK"]], [[http://www.sourceforge.net/projects/openosek/|SoureForge "openOSEK"]] - "FreeOSEK is now part of [[http://www.github.com/ciaa/Firmware|GitHub "ciaa/Firmware"]].
+  *[[http://www.proyecto-ciaa.com.ar/|Computadora Industrial Abierta Argentina - Plataforma electrónica libre y gratuita preparada especialmente para aplicaciones industriales.]] ( CIAA ).
+  *[[http://www.github.com/ciaa/Firmware|GitHub "ciaa/Firmware"]].
+=== Resources ===
+  *[[http://www.tech.theplayhub.com/convert_oil_osek_file_to_xml_with_java_closed/|TecHub "Convert OIL OSEK file to XML with Java"]].
+  *[[http://www4.cs.fau.de/DE/Research/KESO/doc/Toolchain.shtml|Friedrich-Alexander-Universität Erlangen-Nürnberg, Technische Fakultät, Lehrstuhl für Informatik 4 "KESO Toolchain: Developing your own Application"]] - "Jino compiles the Java modules to C source code and also generates a configuration file for the OSEK operating system in OIL format for the used OSEK operating system".
 ==== FreeRTOS, OPENRTOS, SAFERTOS ====
 === FreeRTOS ===
   *[[http://www.freertos.org/|The FreeRTOS Project]], [[http://freertos.sourceforge.net/|SourceForge "FreeRTOS Real Time Kernel"]], [[http://www.sourceforge.net/projects/freertos/|SourceForge "FreeRTOS Real Time Kernel"]] - "portable, open source, royalty free, mini Real Time Kernel for ARM7, ARM9, Cortex-M3, MSP430, MicroBlaze, AVR, x86, PIC32, PIC24, dsPIC, H8S, HCS12 and 8051".
@@ -62,6 +74,9 @@ Related pages:
   *NuttX.
     *The OpenSource [[http://nuttx.sourceforge.net/|SourceForge "NuttX RTOS"]], [[http://www.sourceforge.net/projects/nuttx/|SourceForge "NuttX RTOS"]] for ARM, Atmel ATmega, Atmel AVR32, PIC32...
     *No claimed support of the ATxmega CPU, yet !
+    *[[http://de.wikipedia.org/wiki/Liste_von_Betriebssystemen#Eingebettete_und_Echtzeit-Betriebssysteme|DE.Wikipedia ""]] - Section "OSEK-OS / OSEK-TTOS: Betriebssystem-Standard des OSEK/VDX Gremiums für Controller in der Automobilindustrie, AUTOSAR-Betriebssystemstandard des AUTOSAR Verbundes".
+    *[[http://en.wikipedia.org/wiki/OSEK|EN.Wikipedia "OSEK"]], [[http://de.wikipedia.org/wiki/OSEK|DE.Wikipedia "OSEK"]] -  "Offene Systeme und deren Schnittstellen für die Elektronik im Kraftfahrzeug".
+    *[[http://de.wikipedia.org/wiki/OSEK-OS|DE.Wikipedia "OSEK-OS"]].
   *[[http://www.rowebots.com/|RoweBots Research Inc.]].
     *[[http://en.wikipedia.org/wiki/PSOS|EN.Wikipedia "pSOS"]] - "In August 2007, RoweBots, a former partner of SCG and ISI, open sourced their pSOS+ compatible version called Reliant. It is available to all that wish to upgrade without applications changes".
     *[[http://planetopensource.com/|Planet Open Source]].

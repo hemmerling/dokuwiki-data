@@ -39,7 +39,7 @@ User Guide]].
           *[[http://support.atmel.com/knowledgebase/avrstudiohelp/mergedProjects/STK600/stk600_programming_pdi.html|Atmel Support "PDI Programming"]] - "Programming and Debugging Interface" ( PDI ).
         *[[http://www2.atmel.com/PFResults.aspx#%28data%3A%28category%3A%27163%5B607%5B1965%5D%5D%27%2Ctype%3A!%2816%2C20%2C26%29%29%2Csc%3A3%29|Atmel Corporation - Documents ( Type = Application Note OR Software, By Device = Micrcontrollers / Atmel AVR 8- and 32-bit Microcontrollers / AVR XMEGA"]].
           *I replaced the special characters ( except the "!" ) with the HTML entities in this URL, to make it compatible for Dokuwiki: "[" -> %5B, "]" -> %5D, "," - %2C, ":" -> %3A ).
-      -The free IDE [[http://www.atmel.com/avrstudio|Atmel AVR Studio]] for WinXP, Vista, Win7 with Visual Studio Shell (Isolated mode) 2010 and .NET 4.0.
+      -The free IDE [[http://www.atmel.com/avrstudio|Atmel AVR Studio]] for WinXP, Vista, Win7 and .NET 4.0, made with Visual Studio Shell (Isolated mode) 2010.
         *[[http://gallery.atmel.com/|Atmel Gallery]] - "With Atmel Gallery, getting the tool or software library you need has never been easier. Download and instantly extend the Atmel Studio environment".
         *Since 2014-10, you have to install a new(er) "AtmelUSBInstaller" prior to "Atmel Studio 6.2". The shipped "AtmelUSBInstaller" does not install due to certification & date problems.
           *[[http://www.avrfreaks.net/forum/atmel-usb-driver-package-fails-during-atmel-studio-62-installation-windows-7|AVR Freaks "Atmel USB Driver Package fails during Atmel Studio 6.2 installation, Windows 7"]], 2014-10-14.
@@ -276,7 +276,7 @@ User Guide]].
   *[[http://www.atmel.com/dyn/resources/prod_documents/novice.pdf|Atmel Corporation "Novice’s Guide to AVR Development"]] ( PDF ).
   *Both "AVR Studio 4" and "AVR Studio 5" install an AVR [[http://www.jungo.com/|Jungo]] USB driver, as interface for embedded devices.
 == AVR Studio 6 ==
-  *The free [[http://www.atmel.com/tools/atmel_studio6.aspx|Atmel AVR Studio 6]] for WinXP, Vista, Win7 with Visual Studio Shell (Isolated mode) 2010 and .NET 4.0.
+  *The free [[http://www.atmel.com/microsite/atmel_studio6/|Atmel AVR Studio 6]] for WinXP, Vista, Win7 with Visual Studio Shell (Isolated mode) 2010 and .NET 4.0.
 == AVR Studio 5.x ==
   *The free IDE [[http://www.atmel.com/avrstudio|Atmel AVR Studio 5]], [[http://www.atmel.com/dyn/products/tools_card.asp?tool_id=17212&source=avr_5_studio_overview|Atmel AVR Studio 5]] for WinXP, Vista, Win7 with Visual Studio Shell (Isolated mode) 2010 and .NET 4.0.
     *You can select the target at the project properties. So for CPU emulation without target hardware, open a project, select "Project" / "<projectname> Properties" at the menu bar. View the menu card "Debugging" and set "Selected debugger" to "AVR Simulator".
@@ -379,11 +379,8 @@ User Guide]].
 ==== Free Unit Test Frameworks ====
   *The free [[http://asf.atmel.com/|AVR Software Framework]] ( ASF ) for Atmel AVR microcontrollers is shipped with a "Test Suite" ( "asf / common / utils / unit_test" ) :-). It provides the macros "test_fail", "test_assert_true", "test_assert_false" for use as assertion calls.
 ==== Development Tools with commercial and OpenSource License Model ====
-  *[[http://www.state-machine.com/licensing/|Quantum LeaPs]].
-    *[[http://www.state-machine.com/qp/|Quantum LeaPs "QP"]], [[http://qpc.sourceforge.net/|SourceForge "QP State Machine Frameworks"]], [[http://www.sourceforge.net/projects/qpc/|SourceForge "QP State Machine Frameworks"]] - "lightweight, open source, state machine frameworks".
-      *[[http://www.state-machine.com/avr/|Quantum LeaPs "QP frameworks for AVR"]].
-      *[[http://www.state-machine.com/licensing/|Quantum LeaPs "The Licensing Model"]] - commercial & OpenSource licenses.
-    *The free [[http://www.state-machine.com/qm|Quantum LeaPs "QP Modeler"]] - "Cross-platform, graphical UML modeling tool for designing and implementing real-time embedded applications based on the QP state machine frameworks".
+  *Quantum LeaPs - See [[simulate.html|Simulation & Model Based Development]] - "State Diagrams Tools with commercial and OpenSource License".
+
 ==== Commercial IDEs with Compilers ====
   -The commercial [[http://www.e-lab.de/AVRco/|E-LAB Computers "AVRco"]] for Windows - "Pascal-scm für Atmel AVR".
     *The free Standard release of AVRco - Code size limited to 4 kBytes Flash.

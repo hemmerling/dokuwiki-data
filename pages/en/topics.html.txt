@@ -186,7 +186,8 @@
   *[[c166.html|80166 / 80C166 / 83C166 / C166 / C167 / XC167 / XE166 / ST10 Embedded Systems]].
   *[[classicmac.html|Apple Macintosh Performa 5200]].
   *[[arm.html|ARM Embedded Systems ( ARM7, ARM8, ARM9, ARM11, Cortex )]].
-    *[[atmelarm.html|Atmel ARM-based MCUs and eMPUs]].
+    *[[atmelarm.html|Atmel ARM-based MCUs and MPUs]].
+    *[[stm32.html|STMicroelectronics ARM-based MPUs]].
     *[[tinkerforge.html|Tinkerforge]].
   *[[atarist.html|The ATARI-ST, the ATARI Falcon & the world of Digital Data Deike]].
   *[[atmel.html|The Atmel AVR Family with Focus on AVR32, ATxmega, ATmega, ATtiny, AT90 and the Arduino / Freeduino Platform]].
@@ -231,10 +232,11 @@
   *[[sis630chip3.html|SIS630 Computers 3/4 - Local brand names of Clevo Notebooks with SIS630S or SIS630ST Chipset]].
   *[[sis630chip4.html|SIS630 Computers 4/4 - Some other Computers with SIS630, SIS630S or SIS630ST Chipset]].
   *[[smartblitzmerker.html|Smart Blitzmerker]].
+  *[[metering.html|Smart Metering]].
+  *[[smarttechnology.html|Smart Technology]].
   *[[ti68k.html|Texas Instruments' 68K powered Calculators "TI-89 Titanium", "TI Voyage 200"]].
   *[[msp430.html|Texas Instruments "MSP430" & "eZ430-Chronos"]].
   *[[xilinx.html|Xilinx "System on Chip" ( SoC )]].
-
 ===== Radio Engineering, VoiceOverIP, IP-TV, Mobile Internet Access, Internet Access =====
   *[[amateurradio.html|Amateur Radio]].
   *[[cuseeme.html|CU-SeeMe]].
@@ -411,14 +413,23 @@ My [[lectures.html| Lectures & Speeches]].
   *[[sdevtools.html|Software Development Tools]].
   *[[softwarecode.html|Software Code & Software Algorithms]].
   *[[table13.html|Special HTML codes ( iso-8859-1 )]].
-  *[[tickle.html|Tcl / Tk ( tickle )]].
+  *Tcl / Tk ( tickle ).
+    *[[tickle.html|Tcl / Tk ( tickle ) 1/2]].
+    *[[tickle02.html|Tcl / Tk ( tickle ) 2/2 - Debugging & Testing]].
   *[[windeveloper.html|Software Development for Windows]].
   *[[groupware.html|Team Software, Collaboration Software, Groupware & Application Lifecycle Management]].
   *[[tapi.html|Telephony APIs and Telephony API Services (TAPI)]].
   *[[usability.html|Usability]].
-  *[[webtech.html|Web Technologies ( HTML5, HTML, XML & Javascript )]].
+  *[[rest.html|Representational State Transfer ( REST )]].
+  *Web Technologies.
+    *[[webtech.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 1/4]].
+    *[[webtech02.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 2/4 - HTML & CSS]].
+    *[[webtech03.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 3/4 - Javascript]].
+    *[[webtech04.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 4/4 - Javascript Frameworks]].
   *[[windowsphone.html|Windows Phone]].
 ===== System Design, System Engineering, Requirements Engineering, Testing =====
+  *[[alm.html|Application Lifecycle Management ( ALM ) 1/2]].
+  *[[alm02.html|Application Lifecycle Management ( ALM ) 2/2]].
   *[[dhumanism.html|Samsung Managment: "Digital Humanism" ( 2009 ) and the "Frankfurt Declaration": "The New Management" ( 1993 )]].
   *[[sdl.html|ITU-T Specification and Description Language (SDL)]].
   *[[requirements.html|Requirements & Requirements Engineering]].
@@ -428,7 +439,6 @@ My [[lectures.html| Lectures & Speeches]].
   *[[testing.html|Testing]].
   *[[uml.html|Unified Modeling Language ( UML ), Systems Modeling Language ( SysML )]].
   *[[unittest.html|Unit Test / Module Test]].
-
 ===== Technology =====
   *[[accessibility.html|Accessibility]].
   *[[fsg.html|FHH-Motorsport - The Formula Student Germany (FSG) Team at Fachhochschule Hannover, University of Applied Sciences and Arts]].

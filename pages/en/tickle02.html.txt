@@ -1,0 +1,176 @@
+====== [hemmerling] Tcl / Tk ( tickle ) 2/2 - Debugging & Testing ======
+Related page: 
+  *[[tickle.html|Tcl / Tk ( tickle ) 1/2]].
+===== Static Code Analysis with Tcl / Tk ===== 
+==== Tools ====
+  *TclPro.
+    *The commercial [[http://www.activestate.com/tcl-dev-kit|ActiveState "Tcl Dev Kit (TDK). Productivity and Deployment Tools for Tcl"]].
+      *[[http://docs.activestate.com/tdk/4.1/Checker.html|ActiveState Docs "Tcl Dev Kit User Guide / TclChecker]].
+      *[[http://docs.activestate.com/tdk/4.1/Debugger.html|ActiveState Docs "Tcl Dev Kit User Guide / Debugger"]].
+    *The free [[http://www.sourceforge.net/projects/tclpro/|SourceForge "TclPro"]], [[http://tclpro.sourceforge.net/|SourceForge "TclPro"]].
+      *[[http://www.tcl.tk/software/tclpro/|Tcl Developer Xchange "TclPro"]] - Product history.
+      *[[http://www.tcl.tk/software/tclpro/eval/1.4.html|Tcl Developer Xchange "Download TclPro 1.4"]].
+  *The free [[http://nagelfar.sourceforge.net/|SourceForge "Nagelfar"]], [[http://www.sourceforge.net/projects/nagelfar|SourceForge "Nagelfar"]].
+    *[[http://wiki.tcl.tk/9064|Tcler's Wiki "Nagelfar"]].
+==== Resources ====
+  *I was told by experts, that Tcl/Tk can´t be verified formally, as the language is too much dynamic by the option of redefinition at runtime. So the benefit of static code analysis is very limited, by definition.
+  *[[http://wiki.tcl.tk/3162|Tcler's Wiki "Static syntax analysis"]].
+  *[[http://www.msen.com/~clif/TclLint.html|Clif Flynt "Comparison of Static Tcl Code Validity Testers"]].
+===== Interactive Development & Debugging =====
+==== By built-in Commands ( "All Batteries included" ) & no or little extra Code ====
+  *[[http://www.tcl.tk/man/tcl8.6/TkCmd/trace.htm|Tcl/Tk Documentation / Tk Commands "trace"]].
+  *[[http://www.tcl.tk/man/tcl8.6/TkCmd/info.htm|Tcl/Tk Documentation / Tk Commands "info"]].
+  *[[http://www.tcl.tk/man/tcl8.6/TkCmd/winfo.htm|Tcl/Tk Documentation / Tk Commands "winfo"]].
+  *[[http://wiki.tcl.tk/1151|Tcler's Wiki, Richard Suchenwirth "A minimal debugger"]].
+  *[[http://wiki.tcl.tk/473|Tcler's Wiki "What debugging tools are available to a Tcl programmer"]].
+  *Experts told me about a special simple method for stack analysis, not yet tested: 
+    *A log function is called in the code to be debugged.
+    *The log function explores the state of the stack by "info" function ( i.e. "info args" and "info errorstack" ).
+    *[[https://www.tcl.tk/man/tcl/TclCmd/info.htm#M13|Tcl/Tk Documentation / Tcl Commands "info"]] - "info errorstack".
+==== By Tools ====
+  *The OpenSource [[http://expect.sourceforge.net/|Sourceforge "Expect"]], [[http://www.sourceforge.net/projects/expect/|Sourceforge "Expect"]], [[http://www.nist.gov/el/msid/expect.cfm|National Institute of Standards and Technology (NIST) "Expect"]] is shipped with a command-line debugger.
+    *[[http://www.amazon.de/exec/obidos/ASIN/0123847176/hemmerling-21|Clif Flynt: "Tcl/Tk. A Developer's Guide"]] - Chapter 18.3.1, page 714 - 717 explains how to use the "Expect" debugger for Tcl debugging.
+  *The commercial IDE [[http://www.komodoide.com/|KomodoIDE]] by [[http://www.activestate.com/|ActiveState]] is shipped with a Tcl debugger.
+  * TkOAT / OAT ( Object Attribute Traces ), just for Tcl 7.6 with Tk4.1/4.2 due to the need for patching the Tcl/Tk system.
+    *[[http://www-users.cs.umn.edu/~konstan/BRS97-MM.html|University of Minnesota, Joseph A. Konstan "Building on the GUI Toolkit Paradigm: Creating Multimedia System Toolkits]].
+    *[[http://web.archive.org/web/*/http://www.cs.umn.edu/Research/GIMME|Archive.org "University of Minnesota: GIMME -- Graphical Interfaces for MultiMedia Environments"]] ( - 2003-12-06 ).
+      *[[http://web.archive.org/web/*/http://www.cs.umn.edu/research/GIMME/tclprop.html|Archive.org "University of Minnesota: TclProp - A Formula Manager for Tcl and Tk"]] ( - 2003-12-11 ).
+    *[[ftp://ftp.arnes.si/packages/tcl/sorted/packages-7.6/devel/TclProp-2.0.README|ftp://ftp.arnes.si/packages/tcl/sorted/packages-7.6/devel/ "TclProp-2.0.README"]] - "TkOAT, an extension to Tk that enables traces on Tk widget and canvas item attributes. A patch for Tk 4.1/4.2 required by TkOAT is included".
+    *[[http://www-users.cs.umn.edu/~safonov/tcl97/oat-tcl97.html|University of Minnesota - Alex Safonov, Joseph A. Konstan, John V. Carlis and Brian Bailey "Extending Traces with OAT: an Object Attribute Trace package for Tcl/Tk"]].
+  *The OpenSource IDE [[http://www.netbeans.org/|NetBeans]].
+    *[[http://plugins.netbeans.org/plugin/39119/tcl-plugin|NetBeans Plugins "Tcl Plugin"]] for Netbeans 7.2 - "Syntax Highlight, Create/Open Tcl Projects And Files, Run Tcl Files, Debugger".
+    *[[http://wiki.tcl.tk/28292|Tcler's Wiki "netbeanstcl debugger"]].
+      *[[http://wiki.tcl.tk/28657|Tcler's Wiki "netbeanstcl debugger" - "Tcl Plugin for Netbeans - Debugger Overview"]].
+  *The OpenSource [[http://www.compassis.com/ramdebugger|RamDebugger]] - "A debugger and IDE for TCL-TK".
+    *[[http://wiki.tcl.tk/3912|Tcler's Wiki "RamDebugger"]].
+  *TclPro.
+    *[[http://docs.activestate.com/tdk/4.1/Debugger.html|ActiveState Docs "Tcl Dev Kit User Guide / Debugger"]].
+
+==== By Overwriting / Overloading ====
+  *By creating your own procedures with name of standard procedures, for debugging. The self-defined procedures, e.g "putc" provide additinal debugging communications. A Tcl expert named that like this: "I wrap procs".
+  *[[http://wiki.tcl.tk/17765|Tcler's Wiki "Overridden commands"]].
+  *[[http://www.stackoverflow.com/questions/9775429/function-overloading-in-tcl|StackOverflow "Function Overloading in TCL"]].
+==== With TclCon ====
+==== With Wish ====
+=== demo.tcl ===
+<code>
+bind all <Shift-F1> {console show}
+set LabelText "Hello"
+set Message "Hello World!"
+pack [button .b -text $LabelText -command onButtonClick]
+proc onButtonClick {} {
+puts "Start of Reaction to Buttonclick" 
+    tk_messageBox -parent . -message $::Message
+puts "End of Reaction to Buttonclick"
+}
+</code>
+=== console_logging.txt ===
+<code>
+% info vars
+tcl_rcFileName tcl_version argv0 argv tcl_interactive tk_library tk_version LabelText auto_path errorCode tk_strictMotif errorInfo auto_index env tcl_patchLevel Message argc tk_patchLevel tcl_library tcl_platform% 
+% winfo ch .
+.b
+
+# Replacement of the message of a modal window
+% set Message
+Hallo World!
+% set Message "Hello Tcl User!"
+Hello Tcl User!
+# Now press the Button "Hello" 
+# and see that the new message
+# is displayed on the button of
+# the modal window
+
+# Replacement on the callback function
+# for a buttonclick:
+% proc onButtonClick {} {
+puts "New Start of Reaction to Buttonclick"
+     tk_messageBox -parent . -message $::Message
+puts "New End of Reaction to Buttonclick"
+}
+# Now press the Button "Hello" 
+# and see that by the buttonclick
+# now new messages are displayed 
+# in the console window
+
+% proc e {} {uplevel #0 [clipboard get]}
+# Now mark the Tcl command "winfo ch .", 
+# copy it with CTRL-C to the keyboard
+# and execute the command "e"
+# By this, the contents of the clipboard 
+# is executed as Tcl command
+% e
+.b
+
+% proc i {} {puts $::errorInfo}
+# Now cause an error by an invalid command
+% abc
+invalid command name "abc"
+# So you can replay the last error, 
+# by calling the "i" procedure 
+% i
+invalid command name "abc"
+while executing
+"abc"
+</code>
+=== Instructions ===
+  -Execute the "Wish" GUI application.
+  -Load and execute the "demo.tcl" application by "File / Source "demo.tcl". This starts 
+    -The GUI application "wish", a window sith a "Hello" button.
+    -The console window "Console".
+  -Switch the window context of the "wish" application, and press "SHIFT-F1". This (re-)opens the console window "Console". If you close the console window, you can reopen it by this again at every time.
+  -Load "console_logging.txt" in an editor, e.g. in the Eclipse IDE. On Windows, you may mark and copy code instructions from the editor window  by "CTRL-C" and paste it by "CTRL-V" in the "wish" window so that it is accepted as input as if typed in by keyboard.
+  -Check how you can explore the Tcl environment by
+    -"info vars".
+    -"winfo .b".
+  -Press the button "Hello", and press the button "Hello World!" of the upcoming modal window. Take notice of the messages in the console window.
+  -In the console window, set a new message by executing the ' set Message "Hello Tcl User!"' command.
+  -Press the button "Hello", and you see that the upcoming modal window now has a button "Hello Tcl User!". Press this button.
+  -In the console window, execute a command to redefine the "onButtonClick {}" procedure.
+  -Press the button "Hello", and you see that the messages in the console window are different.
+  -By "e {} {uplevel #0 [clipboard get]}", you may execute the contents of the clipboard as Tcl command. Example:
+    -Mark the Tcl command "winfo ch .".
+    -Copy it with CTRL-C to the keyboard.
+    -Execute the command "e" at Tclsh. By this, the contents of the clipboard is executed as Tcl command.
+  -By "proc i {} {puts $::errorInfo}" you may recall the Tcl variable "errorInfo" which contains the last error message. Example:
+    -Execute the unknown Tcl command "abc" at Tclsh.
+    -Display the last Tcl error message, by executing "i".
+
+==== Resources ====
+  *[[http://wiki.tcl.tk/473|Tcler's Wiki "What debugging tools are available to a Tcl programmer"]].
+===== Unit Testing =====
+==== tcltest ====
+  *[[http://docs.activestate.com/activetcl/8.5/tcl/TclCmd/tcltest.htm|ActiveState Docs - ActiveTcl User Guide "Tcl/Tk Documentation > TclCmd > tcltest"]].
+  *[[http://www.tcl.tk/man/tcl8.5/TclCmd/tcltest.htm|tcl.tk "Tcl8.5.12/Tk8.5.12 Documentation > TclCmd > tcltest"]].
+  *[[http://wuhrr.wordpress.com/2011/03/28/getting-started-with-tcltest/|Hai’s Blog. Useful stuff, life, photography, kids, technical, programming, and what-else? "Getting Started with tcltest"]], 2011.
+  *[[http://wiki.tcl.tk/14465|Tcl.tk Wiki "Your first tcltests"]].
+  *[[http://www.wellho.net/|Well House Consultants LTD]].
+    *[[http://www.wellho.net/mouth/4457_Test-framework-for-TCL-Tcltest-some-examples.html|Well House Consultants LTD. "Test framework for TCL - Tcltest - some examples"]].
+    *[[http://www.wellho.net/resources/ex.php4?item=t249/ttrun|Well House Consultants LTD. "tcltest - an example running all the tests in a directory"]].
+  *[[http://paste.tclers.tk/425|paste.tclers.tk "small tcltest example"]].
+  *Mirrors:
+    *[[http://www.mkssoftware.com/docs/man1/tcltest.1t.asp|MKS Software "Tcltest - Test harness support code and utilities"]].
+    *[[http://web.ics.purdue.edu/~aai/tcl8.4a4/html/TclCmd/tcltest.htm|Phil Cheeseman "Tcl Built-In Commands - tcltest manual page"]].
+==== The Simple Development Library ====
+  *The OpenSource [[http://simpledevlib.sourceforge.net/|SourceForge "The Simple Development Library. A collection of packages and utilities for Tcl development"]], [[http://www.sourceforge.net/projects/simpledevlib|SourceForge "The Simple Development Library"]] -> "SimpleTest: regression testing framework".
+==== t-unit ====
+  *The OpenSource [[http://code.google.com/p/t-unit/|Google Code "t-unit. a unit test framework for the tcl programming language"]].
+==== tclunit ====
+  *The OpenSource [[http://www.sourceforge.net/projects/tcllib/files/|SourceForge "tcllib"]] - "tclunit".
+    *[[http://wiki.tcl.tk/5647|Wiki.Tcl.Tk "ANNOUNCE: tclunit 0.1"]]
+==== TclUnit ====
+  *The OpenSource [[http://tclunit.sourceforge.net/|SourceForge "TclUnit"]], [[http://www.sourceforge.net/projects/tclunit/|SourceForge "TclUnit"]].
+  *The free [[http://wayback.archive.org/web/*/http://park.ruru.ne.jp/ando/work/tclTkUnit/|Archive.org "TclTkUnit"]] ( -2012-10-09 ).
+===== Application Testing with Expect, DejaGnu, tcl-automated-test-framework ====
+==== Expert ====
+  *The OpenSource [[http://expect.sourceforge.net/|Sourceforge "Expect"]], [[http://www.sourceforge.net/projects/expect/|Sourceforge "Expect"]], [[http://www.nist.gov/el/msid/expect.cfm|National Institute of Standards and Technology (NIST) "Expect"]] - "a tool for automating interactive applications such as telnet, ftp, passwd, fsck, rlogin, tip, etc. Also useful for testing these same applications".
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1565920902/hemmerling-21|Don Libes: "Exploring EXPECT: A TCL Based Toolkit for Automating Interactive Programs (Nutshell Handbooks)"]] ( 1994 ).
+==== Tools based on Expert ====
+  *The OpenSource [[http://www.gnu.org/software/dejagnu/|DejaGnu]] - "A framework for testing other programs", "DejaGnu is written in [[http://expect.sourceforge.net/|Expect]], which in turn uses Tcl -- Tool command language".
+  *The OpenSource [[http://code.google.com/p/tcl-automated-test-framework/|Google Code "tcl-automated-test-framework. Test Automation Framework written in Tcl Expect for testing product with CLI"]].
+
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Programming/Languages/Tcl-Tk/|OpenDirectory "Top: Computers: Programming: Languages: Tcl-Tk]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Programmieren/Sprachen/Tcl-Tk/|OpenDirectory "Top: World: Deutsch: Computer: Programmieren: Sprachen: Tcl-Tk"]].
+ {{tag>"Unix script languages" "script languages" "script language" "Tcl / Tk" Tcl Tk tickle}}
+<footnote_navi_en>

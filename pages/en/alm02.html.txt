@@ -1,0 +1,244 @@
+====== [hemmerling] Application Lifecycle Management ( ALM ) 2/2 ======
+Related pages:
+  *[[alm.html|Application Lifecycle Management ( ALM ) 1/2]].
+  *[[pmsoftware.html|Project Management Software & Software to be used in Projects]].
+  *[[requirements.html|Requirements]].
+  *[[groupware.html|Team Software, Collaboration Software, Groupware & Application Lifecycle Management]].
+  *[[testing.html|Testing]].
+  *[[wscripting.html|Scripting Programming Languages for Windows 1/3]].
+===== Hewlett-Packard 2/2 =====
+==== Automation & Scripting for Hewlett-Packard Application Lifecycle Management ====
+=== OTA ( Open Test Architecture ) ===
+== OTA 12.20, 2015 ==
+  *[[http://localhost:8080/qcbin/Help/doc_library/api_refs/ota/|Localhost "HP ALM Help / API" - "HP ALM Open Test Architecture API Reference"]] of "HP Quality Center Community Edition".
+    *"The OTAClient.dll is downloaded to the following folder: 'C:\Users\<client user name>\AppData\Local\HP\ALM-Client\<server name>\OTAClient.dll'" ( e.g "C:\Users\Administrator\AppData\Local\HP\ALM-Client\localhost\OTAClient.dll" ).
+    *The online HTML documents about OTA feature many VBScript examples & many C# examples.
+== OTA 11.52, 2013 ==
+  *"Z:\ALM_Win32\TARGETDIR\resources\docs\Help.zip" of the HPQC11.52 ISO image contains all documentation, including a complete PDF and HTML documentation.
+    *The online HTML documents about OTA feature many VBScript examples & a single C# example.
+== OTA 10, Microsoft Help ( OTA_API_Reference.chm ), 2009 ==
+  *[[http://www.github.com/ro0sterjam/HPQCConnector/blob/master/OTA_API_Reference.chm|GitHub "ro0sterjam/ HPQCConnector / OTA_API_Reference.chm"]] ( 2009 ), 5.43 MBytes.
+  *On Vista / Win7 / Win8, You must "unblock" the Microsoft Help file ( .chm ) in the properties.
+  *The OTA API reference of 2009 differs much from the 2002-2007 edition!
+== OTA 9.2, Microsoft Help ( OTA_API_Reference.chm, ... ), 2007 ==
+  *Complete [[http://tims.nnit.com/qcbin/|NNIT "HP Quality Center 9.2" Documentation]].
+    *[[http://tims.nnit.com/qcbin/Help/doc_library/api_refs/|NNIT "HP Quality Center 9.2" Documentation, "API Reference Documentation"]]
+      -"OTA_API_Reference.chm" ( 2002-2007 ), 4.315 MBytes. 
+      -"Site_Admin_API_Reference.chm".
+      -"custom_test_type.chm".
+      -"quality_center_db.chm".
+  *On Vista / Win7 / Win8, You must "unblock" the the Microsoft Help files ( .chm ) in the properties.
+  *The OTA API reference of 2002-2007 differs much from the later 2009 edition! Some say it provides much richer informations than the later 2009 edition!
+== OTA 8, 2005 ==
+  *[[http://h30499.www3.hp.com/t5/Quality-Center-Support-and-News/OTA-API-Book-in-PDF-format/td-p/4792137#.VbYx9Y691xw|HP Enterprise Business Community "Quality Center Support and News Forum", Thread "OTA API Book in PDF format"]] - "Mercury Test Architecture Guide 8.2 SP1" ( "OTA_FormataTemplatesTD4QC-v8.pdf" ) is available for download.
+=== HP ALM REST API ===
+  *[[http://localhost:8080/qcbin/Help/doc_library/api_refs/REST_TECH_PREVIEW/ALM_REST_API_TP.html|Localhost "HP ALM Help / API" - "HP ALM REST API"]] of "HP Quality Center Community Edition".
+=== Videos ===
+  *YouTube.
+    *[[http://www.youtube.com/results?search_query=qc+ota+-6qc|YouTube - Search for "qc ota -6qc"]].
+    *[[http://www.youtube.com/watch?v=GWjw_XmXKVk|YouTube "QC OTA & QTP - How to schedule a recurring tesstset"]].
+=== VBScript Editors ===
+  *You may use VBScript scripts to implement a tool-internal workflow.
+  *For accessing and controlling HPQC from outside by OTA or REST interface, you may use "any" software platform ( e.g. VBScript, C#, Python, Java,..).
+== Built-in WorkFlow Script Editor ==
+  *"HPQC Community Edition 12.20" is shipped - as earlier editions too - with the Microsoft Script Editor.
+    -Login with the "ALM Desktop Client".  
+    -Click on the gear-wheel in the right top corner
+    -Select tbe menu item "Customize...", so that the screen "Application Lifecycle Management - Customization" is displayed.
+    -Click on the item "Workflow", so that the screen "Workflow" is displayed.
+    -Click on the link "Script Editor. Enables you to write VBScript code for all modules. You can also sue the Script Editor to modify the script generated4 by the above tools". The VBScript editor loads in an extra Windows window.
+    -Click on the red window close button [x] in the right upper corner to close the tool.
+    -Click on the link "Return" in the upper right corner of the browser application, to return to the application.
+  *There is no "File / Load" menu item. So you may import data by copy+paste via Clipboard, but you can´t load a file :-(. File saving is supported.
+== External VBScript Editors ==
+  *The Shareware VBScript editor [[http://www.vbsedit.com/|VbsEdit]] for Windows.
+    *"The evaluation version never expires".
+    *For calling 64-bit only HPQC12 by 32-bit only OTA API ( of HPQC12 ), you must run the 32-bit edition of VbsEdit, i.e. "VbsEdit 32-bit" ( at mouse-rightclick ).
+  *"Microsoft Script Editor".
+    *[[http://en.wikipedia.org/wiki/Microsoft_Script_Editor|EN.Wikipedia "Microsoft Script Editor"]].
+    *With German "Microsoft Word 2000", it is available at the menu item "Extras Makro / Microsoft Skript-Editor" :-). At "? / Info" it calls itself "Microsoft Entwicklungsumgebung 6.0".
+    *I was told by experts, that Microsoft offers / offered an affordable license to integrate the "Microsoft Script Editor" into software applications, and so to ship the binary applications with integrated "Microsoft Script Editor". This might be useful if the application can be controlled from external VBScript scripts by Windows interface. 
+=== Calling HPQC via OTA Interface by VBScript Scripts ===
+== Prepare for calling of HPQC via OTA Interface ==
+  *Official instructions:
+    *[[http://localhost:8080/qcbin/Help/doc_library/api_refs/ota/webframe.html|Localhost "HP ALM Open Test Architecture API Reference"]] - "Download and register the library for the server by running the Client Registration add-in. Open the Help menu and select Add-ins Page. On the Add-ins Page, select HP ALM Client Registration. At the bottom of the Add-ins Page, run Register HP ALM".
+  *What do you really need to do?
+    *At [[http://localhost:8080/qcbin/CommonMode_index.html|Localhost "HP ALM Client Registration"]], please click on the links
+      *[[http://localhost:8080/qcbin/start_a.jsp?common=true|Register HP ALM]].
+      *[[http://localhost:8080/qcbin/SiteAdmin.jsp?common=true|Register HP ALM Site Administration]].
+== How to run a VBScript with OTA Communications from Console, with 64-bit Win7 / Win8 ===
+  *Search for Programs
+    *For Win7, execute "Start / Run"
+    *For Win8.
+      *Please click on "Windows" button.
+      *On the blue Windows app screen, please click on the search button "Magnifying Glass".
+  *Type "%windir%\SysWoW64\cmd.exe" and click on the "Ok" button, to launch 32-bit COMMAND.COM.
+  *Execute your script: "cscript vbscriptfile.vbs".
+== How to run a all VBScripts scripts by 32-bit WSH, with 64-bit Win7 / Win8 ===
+  *Call "Regedit".
+  *Modify the Registry key „HKEY_CLASSES_ROOT\VBSFile\Shell\Open\Command"
+    *From '%SystemRoot%\System32\WScript.exe "%1"%*'.
+    *To '%SystemRoot%\SysWOW64\WScript.exe "%1"%*'.
+== How to run a VBScript with OTA Communications from a VBScript Editor, with 64-bit Win7 / Win8 ===
+  *You must run the 32-bit edition of Shareware VBScript editor "VbsEdit" ( i.e. "VbsEdit 32-bit" at mouse-rightclick ), to address 64-bit only HPQC12 via 32-bit only OTA API of HPQC12.
+=== First Steps ===
+== Connect ==
+<code>
+Dim QCConnection
+Set QCConnection = CreateObject("TDApiOle80.TDConnection")
+MsgBox("Connect to QC Server")
+ 
+QCConnection.InitConnectionEx "http://localhost:8080/qcbin"
+MsgBox("Connection Established.")
+
+QCConnection.login "sa", "123456789012"
+MsgBox("Login Authenticated.")
+</code>
+=== Resources ===
+== C# ==
+  *[[http://www.codeproject.com/Articles/161794/QC-DATA-PULLER-using-C|Code Project "QC DATA PULLER using C#"]].
+  *[[http://www.codeotel.com/0myVeqXggP/how-to-connect-hp-quality-center-using-c-and-aspnet.html|codeOtel "How to connect HP Quality Center using C# and ASP.net"]].
+  *Aaron Evans.
+    *[[http://www.github.com/fijiaaron/|GitHub "fijiaaron"]].
+      *[[http://www.github.com/fijiaaron/QCIntegration|GitHub "fijiaaron/QCIntegration"]] - "This is a sample utility written in C# that uploads test results into Quality Center from a csv file. It uses the Open Test Architecture (OTA) API for communicating with Quality Center".
+    *[[http://fijiaaron.wordpress.com/|fijiaaron]].
+      *[[http://fijiaaron.wordpress.com/?s=qc|fijiaaron - Search articles about "qc"]].
+      *[[http://fijiaaron.wordpress.com/2011/11/17/updating-test-results-in-qc-using-the-qc-ota-api-explained/|fijiaaron "Updating test results in QC using the QC OTA API explained"]].
+      *[[http://fijiaaron.wordpress.com/2012/11/20/executing-tests-in-quality-center-using-the-ota-api/|fijiaaron "Executing Tests in Quality Center using the OTA API"]].
+  *[[http://qualitycenterautoit.blogspot.de/|QualityCenterAPI]].
+    *[[http://qualitycenterautoit.blogspot.de/2011/08/c-net-program-that-uses-quality-center.html|QualityCenterAPI "C# .NET program that uses the Quality Center API"]].
+== Python ==
+  *[[http://www.google.de/search?q=ota+com+python|Google - Search for "ota com python"]], [[http://www.google.de/search?q=ota+python|Google - Search for "ota python"]].
+  *[[http://www.jds.net.au/tech-tips/generating-custom-reports-with-quality-center-ota-using-python/|Jds "Generating Custom Reports with Quality Center OTA using Python"]].
+  *[[http://techblog.polteq.com/en/retrieve-all-testcase-data-with-hp-qc-ota-and-python/|Polteq. Leaders in software testing "Mission-critical software testen. Technisch en non-traditioneel testen bij Polteq "Retrieve all testcase data with HP QC OTA and Python"]]
+  *[[http://pythontestscripts.blogspot.de/2011/12/python-with-hp-quality-center.html|Python Test Scripts "Python with HP Quality center"]].
+  *StackOverflow.
+    *[[http://stackoverflow.com/questions/22608783/reading-specific-test-steps-from-quality-center-with-python|StackOverflow "Reading specific test steps from Quality Center with python"]].
+    *[[http://stackoverflow.com/questions/2627419/automating-hp-quality-center-with-python-or-java|StackOverflow "Automating HP Quality Center with Python or Java"]] - "But I think the real question here is, why would you want to do it in Python or Java. **Why not write what you need directly in QC using it's Workflow feature. Which will allow you to write your logic in VBScript, and have it invoked inside QC UI on user actions. For instance you can bind to the Post event of a Defect / Bug and check if there is a comment and if there is not prompt the user directly with a message**".
+    *[[http://www.w3facility.org/question/quality-center-ota-api-tdfilter-using-python/|W3facility "Quality Center OTA API – TDFilter using Python"]] - VBScript 'testSetFilder.Filter("CY_CYLE") = ">= 0"' -> Python "SetFilter()".
+  *[[http://blog.xceptance.com/2012/12/14/hpqc-and-xlt-integration-example/#more-823|Xceptance Blog "HPQC and XLT – Integration Example"]].
+== VAPI XP TEST ==
+  *[[http://community.worksoft.com/Knowledge-Base/Worksoft-Products/Third-party-Integration-Connect/Certify-HP-QC-integration/how-to-run-a-script-without-calling-certify.html|Worksoft "How to run a HP QC script without calling Certify"]] -> VAPI XP.
+== VB ==
+  *Blog [[http://techknowledgeinbox.wordpress.com/category/hp-quality-center/open-test-architectureota/|The Knowledge Hub // Archive "Open Test Architecture(OTA)"]] -> VB?.
+  *[[http://learnquicktestprofessionalonline.blogspot.de/2014/10/qc-open-test-architecture-ota.html|Quick Test Professional Tutorial "Quick Test Professional (QTP) - QC Open Test Architecture (OTA)"]] -> VB?.
+    *"Example 1: How to Connect to Quality Centre using OTA API".
+    *"Example 2: How to Use Filter method to filter the results (Bug Factory)".
+    *"Example 3: Find a specified requirement in a specified folder".
+    *"Example 4: How to Create a Test using OTA".
+  *SQA Forums.
+    *[[http://www.sqaforums.com/forums/hp-alm-mercury-quality-center/105098-mercury-qc-ota-bug-filter-examples.html|SQA Forums "Mercury QC OTA Bug Filter Examples"]] - "The example from the helpfile works, but I need to set the criteria to find a range of values, not just a single one" -> VB.
+  *[[http://www.ufthelp.com/2014/09/how-to-log-bug-in-alm-using-ota.html|User-friendly Tech-Help "How to log a Bug in ALM using OTA?"]] -> VB?.
+  *[[http://qa-concepts.blogspot.de/|Testing Concepts. Learn, Experience and Spread the Joy]].
+    -[[http://qa-concepts.blogspot.de/2011/02/how-to-connect-to-quality-centre-using.html|Testing Concepts. Learn, Experience and Spread the Joy "QA Concepts: What is OTA? How to use OTA API? What all are possible with OTA API?"]] -> VB?.
+    -[[http://qa-concepts.blogspot.de/2011/02/ota-open-test-architecture.html|Testing Concepts. Learn, Experience and Spread the Joy "How to Connect to Quality Centre using OTA API"]] -> VB?.
+    -[[http://qa-concepts.blogspot.de/2011/02/how-to-use-filter-method-to-filter.html|Testing Concepts. Learn, Experience and Spread the Joy "How to Use Filter method to filter the results (Bug Factory)"]] -> VB?.
+    -[[http://qa-concepts.blogspot.de/2011/02/find-specified-requirement-in-specified.html|Testing Concepts. Learn, Experience and Spread the Joy "Find a specified requirement in a specified folder: OTA"]] -> VB?.
+    -[[http://qa-concepts.blogspot.de/2011/02/how-to-create-test-using-ota.html|Testing Concepts. Learn, Experience and Spread the Joy "How to Create a Test using OTA"]] -> VB?.
+== VBA, Excel VBA ==
+  *[[http://www.learnexcelmacro.com/wp/2013/09/qc-connect-excel-macro/|Learn Excel Macro. Lets Excel in Excel "HP Quality Center – Connect to HP QC using Excel VBA"]].
+  *Blog [[http://excelreportgeneratorusingqc.blogspot.de/|Excel Report Generator using OTA from QC]].
+  *[[http://www.advancedqtp.com/scripting-qtp/|Advanced QTP "Scripting QTP by Dani Vainstein"]].
+    *[[http://h30499.www3.hp.com/t5/Quality-Center-Support-and-News/how-to-extract-runs-from-test-instance-with-OTA/td-p/5336919#.VbdqvY691xw|HP Enterprise Business Community "Quality Center Support and News Forum", Thread "how to extract runs from test instance with OTA]] -> C#, VBA.
+  *[[http://www.linkedin.com/grp/post/1784477-229103620|LinkedIn Group "HP Quality Center OTA Developer", Thread "Need to create execution status report in excel from QC by using VBA"]] -> VBA.
+  *Blog [[http://automationandtesting.blogspot.de/|Test Automation. This blog aims to detail solutions to everyday challenges involved in test automation using QTP, Quality Center (QC), Excel and Open Source Tools]].
+    *[[http://automationandtesting.blogspot.de/2011/11/treeview-for-quality-center-test-plan.html|Test Automation. This blog aims to detail solutions to everyday challenges involved in test automation using QTP, Quality Center (QC), Excel and Open Source Tools "Treeview for Quality Center Test Plan Using OTA & OTA Code Examples"]] -> VBA.
+  *SQA Forums.
+    *[[http://www.sqaforums.com/forums/hp-alm-mercury-quality-center/140962-vba-ota-examples-including-test-plan-treeview.html|SQA Forums "VBA OTA examples including a Test Plan Treeview"]] -> Excel VBA.
+== VBScript ==
+  *Microsoft
+    *[[http://msdn.microsoft.com/en-us/library/t0aew7h6.aspx|Microsoft MSDN Library "VBScript"]].
+    *[[http://www.microsoft.com/en-us/download/details.aspx?id=326|Microsoft Download Center "VBScript Quick Reference"]].
+    *[[http://technet.microsoft.com/en-us/library/ee198896.aspx|Microsoft TechNet "VBScript Primer. Microsoft® Windows® 2000 Scripting Guide"]] - "VBScript Overview", "VBScript Reference".
+    *[[http://technet.microsoft.com/|Microsoft TechNet, Script Center]].
+      *[[http://technet.microsoft.com/en-us/scriptcenter/dd940112.aspx|Microsoft TechNet, Script Center "Scripting: Your First Steps"]].
+  *[[http://www.advancedqtp.com/vbs-tutorial/|Advanced QTP "VBScript Tutorial"]] - "Register For This Site. ERROR: The email address entered is not within an allowed domain" :-(. Just apply for a freebie ( e.g. [[http://www.advancedqtp.com/scripting-qtp/|Advanced QTP "Scripting QTP by Dani Vainstein"]] ), and you will have the chance to create an account even with a else rejected E-Mail address.
+== General + VBScript ==
+  *[[http://automation-simplified.blogspot.de/2008/11/quick-intro-to-quality-center-open-test.html|Automation-Simplified. Work Smart not Hard, Automate it all "A quick intro to Quality Center Open Test Architecture API....."]].
+    *[[http://docs.google.com/presentation/d/1YLUcwKuxuKcZR9AN88b_MG_R6d2d7xsNDuex-YnDNok/edit#slide=id.i130|Google Docs Presentation "QC OTA presentation"]].
+  *Blog [[http://www.joecolantonio.com/?s=ota|Joe Colantonio, Automation Awsomeness - Search for "ota"]].
+  *[[http://www.codetweet.com/other/create-folder-test-plan-almqc-using-ota/|Codetweet "How To Create A Folder In Test Plan In ALM/QC Using OTA API"]] -> VBScript.
+  *Aaron Evans.
+    *[[http://fijiaaron.wordpress.com/|fijiaaron]].
+      *[[http://fijiaaron.wordpress.com/2011/11/17/otaclient-documentation/|fijiaaron "Documentation for TDConnection (OTAClient API)"]] - On Vista / Win7 / Win8: "Right click on the file and select Properties. Then click 'Unblock'".
+  *[[http://www.eyeontesting.com/topics/qualitycenter.html|EyeOnTesting - Tagged with "qualitycenter"]], [[http://www.eyeontesting.com/topics/qc.html|EyeOnTesting - Tagged with "qc"]].
+    *[[http://www.eyeontesting.com/questions/2595/quality-center-10-test-instance-defect-linkage.html|EyeOnTesting - The Software Testing Community "Quality Center 10 test instance defect linkage"]] - VBScript?.
+  *[[http://www.feelsgood11.wordpress.com/2008/01/08/how-to-use-quality-center-open-test-architecture-api/|feelsgood11 "How to use Quality Center Open Test Architecture API"]] -> VBScript.
+  *Blog [[http://blogs.exposit.co.uk/|Functional Testing. HP Mercury Tools Specific weblog]].
+    *[[http://blogs.exposit.co.uk/2007/04/23/ota-an-api-for-extending-quality-center/|Functional Testing. HP Mercury Tools Specific weblog "OTA, an API for extending Quality Center"]] -> VBScript.
+  *[[http://go-gaga-over-testing.blogspot.de/2012/03/qc-ota-test-lab.html|Go gaga over testing "QC OTA - Test Lab"]].
+  *HP.
+    *[[http://h30499.www3.hp.com/t5/Quality-Center-Support-and-News/OTA-API-Reference/td-p/4198150/page/2#.VbYoxY691xw|HP Enterprise Business Community "Quality Center Support and News Forum", Thread "OTA API Reference"]].
+      *"The OTA API reference file for HP QC 10.0 is not very helpful compared to the HP QC 9.2 OTA reference help file" - Reference to the blog article [[http://technologicaguru.blogspot.de/2008/03/quality-center-open-test-architecture.html|Techno Logica - Stuff on Test Automation, Automation Tools, Scripting,QTP, QC, PHP... "Quality Center Open Test Architecture API -OTA COM 9.0"]], 2008.
+    *[[http://h30499.www3.hp.com/t5/Quality-Center-Support-and-News/ALM-11-TDConnection-Object-failing-to-login-OTA/td-p/5298993#.VbjYRBEw9D8|HP Enterprise Business Community "Quality Center Support and News Forum", Thread "ALM 11 - TDConnection Object failing to login (OTA)"]] - Proper VBScript connect code for HPQC11 and HPQ12.
+    *[[http://h30499.www3.hp.com/t5/Quality-Center-Support-and-News/ALM-12-connection-error-missing-dlls/td-p/6460860#.VbjYCREw9D8|HP Enterprise Business Community "Quality Center Support and News Forum", Thread "ALM 12 - connection error, missing dlls?"]] - Proper instructions for HPQC12 how to call VBScript scripts by COMMAND.COM.
+  *HP Quality Center ( HPQC ) - HP Quality Center Script Language.
+    *[[http://support.smartbear.com/viewarticle/57233/|SmartBear "Editing HP Quality Center Scripts"]].
+      *"You want more info on VB script and QTP, you can check out my Blog [[http://qtp-automate.blogspot.de/|Software Engineering - Performance Automation]].
+      *"There are lots of different code snippets available in the Administrator's Guide and/or the API Reference Manual".
+    *[[http://www.qfs.de/qftest/manual/en/user_qc.html|QF-TEST "19.1 HP ALM - Quality Center"]].
+  *HP Test Center ( HPTC) - The skript Language is VB Script.
+  *[[http://www.learnqtp.com/forums/Thread-How-to-Execute-a-testset-from-QC-using-OTA-framework|Learn QTP for those with a zest to test - QTP (UFT) Forums "How to Execute a testset from QC using OTA framework"]] -> VBScript.
+  *[[http://www.franklindholm.se/?p=26|Frank Lindholm "Importing automated test results to HP QC/ALM"]] -> VBScript.
+  *[[http://www.wilsonmar.com/quality_center.htm| Wilson Mar "HP ALM Quality Center : Its Annoyances, and what to do about them" / "HP ALM Quality Center : How To Make It Work"]] - "VB OTA Coding".
+  *[[http://motu4qc-en.jimdo.com/|Motu 4 QC - Tips & Tricks]].
+    *[[http://motu4qc-en.jimdo.com/workflow-script-editor/|Motu 4 QC - Tips & Tricks "WorkFlow Script Editor"]] - "You can access to the code of the Script Editor through the 'Customize...' choice of the menu inside the Project, select the Workflow link. On the Right Part select Script Editor link".
+    *[[http://motu4qc-en.jimdo.com/how-to-tips-tricks/qc-external-vbs/automatic-testset-execution-via-script/|Motu 4 QC - Tips & Tricks "Automatic TestSet Execution via Script"]] -> VBScript.
+  *The "QCUtil" object is available in the software application "QuickTest Pro" only, so not with HPQC.
+  *[[http://relevantcodes.com/executing-qc-testset-via-ota-api-qcruntestset/|RelevantCodes. A test automation blog by Anshoo Arora "Executing QC TestSet via OTA API (QCRunTestSet)"]] -> VBScript.
+  *StackOverflow.
+    *<del>[[http://www.stackoverflow.com/questions/tagged/ota|StackOverflow - Tagged Questions "OTA"]]</del>. 
+    *[[http://stackoverflow.com/questions/22954765/get-list-of-alm-project-and-domains-names-in-vbscript-qc11-ota|StackOverflow "Get list of ALM project AND domains names in VBScript (QC11 OTA)"]] -> "VBScript".
+  *[[http://jawedm.blogspot.de/2010/12/download-qc-ota-api-reference-handbook.html|Technology For All. For me this is my Past,Present and Future digital Library "Download QC OTA API Reference Handbook /Documentation"]], 2010 - How to save the document from the HPQC online help, no download offer.
+  *[[http://www.vivit-worldwide.org/events/event_details.asp?id=296617&group=79943|Vivit TQA, Germany "User Group Treffen 'Testen & Test-Management mit HP'"]], 2013-04-18.
+    *[[http://www.vivit-worldwide.org/resource/collection/FAC4D5E5-531C-4F23-9E7A-EB7FCD8A9537/20120418_Oestereich_API-Programmierung.pdf|Vivit TQA, Germany "API-­‐Programmierung und –Nutzung bei HP Quality Center / ALM"]] ( PDF ).
+==== Hewlett-Packard WinRunner ====
+  *<del>HP WinRunner</del> ( formerly: <del>Mercury WinRunner</del> ).
+      *[[http://en.wikipedia.org/wiki/WinRunner|EN.Wikipedia "WinRunner"]], [[http://de.wikipedia.org/wiki/WinRunner|DE.Wikipedia "WinRunner"]].
+  *[[http://en.wikipedia.org/wiki/HP_Application_Lifecycle_Management|EN.Wikipedia "HP Application Lifecycle Management"]].
+  *Components of the HP ALM suite: "HP Functional Testing",...
+==== "Hewlett-Packard LoadRunner" - Commercial Edition and free "Hewlett-Packard LoadRunner Community Edition" ====
+=== The Tool ===
+  *HP LoadRunner ( formerly: <del>Mercury LoadRunner</del> ).
+  *[[http://www8.hp.com/de/de/software-solutions/software.html?compURI=1175451|Hewlett-Packard "HP LoadRunner. Software-Testtool mit unübertroffener Leistungsfähigkeit und Flexibilität zum Testen der Anwendungsleistung"]].
+  *[[http://www8.hp.com/us/en/software-solutions/software.html?compURI=1175451|Hewlett-Packard "HP LoadRunner. Unmatched power and flexibility software testing tool for application performance"]].
+  *Blog [[http://h30499.www3.hp.com/t5/HP-LoadRunner-and-Performance/bg-p/sws-585#.VbMcLo691xx|Hewlett-Packard "HP LoadRunner and Performance Center Blog"]].
+    *[[http://h30499.www3.hp.com/t5/HP-LoadRunner-and-Performance/Download-HP-LoadRunner-and-enhance-your-experience-with-the-tips/ba-p/5969843#.VbKyPY691xy|Hewlett-Packard "HP LoadRunner and Performance Center Blog", Article "Download HP LoadRunner and enhance your experience with the tips below"]].
+=== Download of "HP LoadRunner Community Edition" ===
+  *[[http://www8.hp.com/us/en/software-solutions/loadrunner-load-testing/try-now.html?compURI=tcm:245-1631955|Hewlett-Packard "Loadrunner Trials"]] - A **free time-unlimited edition of "LoadRunner Community Edition"**, a 32-bit / 64-bit Windows application, is available for download. Features:
+    *"Free for unlimited time - Available with 50 virtual users (VUsers)".
+    *"All protocols included except DCOM and GUI".
+  *On my Athlon XP2400 computer, the software may be installed improperly ( while some process crashes happen during installation with "APPCRASH" messages ), but aborts when excuted ( with "APPCRASH" messages ) :-(.
+  *[[http://www.microsoft.com/en-us/download/details.aspx?id=14089|Microsoft Download Center "Web Services Enhancements (WSE) 3.0 for Microsoft .NET"]].
+=== Free Training ===
+== Slides ==
+  *[[http://www.slideshare.net/silviasiqueirahp/intro-toperfromancetesting-final|SlideShare "Introduction to Performance testing"]].
+== Videos ==
+  *[[http://www.guru99.com/loadrunner-v12-tutorials.html|Guru99 "Free HP Loadrunner Tutorials"]].
+  *Hewlett-Packard.
+    *[[http://h20621.www2.hp.com/video-gallery/us/en/sss/software/2000556584001/hp-loadrunner-how-to-download-and-install/video/|Hewlett-Packard "HP Videos" - "HP LoadRunner: How to download and Install"]].
+    *[[http://www.youtube.com/watch?v=3tT3TV8Cd20|YouTube "HP LoadRunner -- Download and Installation Guide -- Load Testing"]].
+    *[[http://www.youtube.com/watch?v=XEHdSSgPY2E|YouTube "Load testing, HP LoadRunner: How it works & terminology"]].
+    *[[http://www.youtube.com/watch?v=z-8h6uZWpVk|YouTube "Performance testing & HP LoadRunner - How it works and terminology"]].
+  *[[http://www.youtube.com/results?search_query=loadrunner|YouTube - Search for "loadrunner"]].
+  *[[http://www.youtube.com/user/shindevijaykr/|YouTube Channel "Vijay S"]].
+    *[[http://www.youtube.com/watch?v=oOLoXxXMbfA|YouTube "HP LoadRunner Tutorial #1 - Introduction to HP LoadRunner"]].
+=== Resources ===
+  *[[http://en.wikipedia.org/wiki/HP_LoadRunner|EN.Wikipedia "LoadRunner"]].
+==== Hewlett-Packard QuickTest Pro ====
+== The Tool ==
+  *HP QuickTest Pro ( formerly: <del>Astra Quick test by Mercury Interactive</del> ).
+  *[[http://www8.hp.com/us/en/software-solutions/unified-functional-automated-testing/|Hewlett Packard "Unified Functional Testing (UFT)"]].
+== Free Trainings ==
+  *[[http://www.softwaretestinghelp.com/qtp-quicktest-professional-tutorial-1/|Software Testing Help "QTP Tutorials – 25+ HP Quick Test Professional (QTP) Training Tutorials"]].
+  *[[http://www.guru99.com/quick-test-professional-qtp-tutorial.html|Guru99 "Free QTP (Quick Test Professional) Tutorials"]] - Free training videos #.
+== Resources ==
+  *[[http://en.wikipedia.org/wiki/HP_QuickTest_Professional|EN.Wikipedia "HP QuickTest Professional"]].
+  *[[http://www.learnqtp.com/|Learn QTP... for those with a zest to test]].
+  *Blog [[http://qtp.blogspot.de/|QTP Tutorials & Interview Questions]].
+===== Resources =====
+  *[[http://en.wikipedia.org/wiki/Stress_testing_%28software%29|EN.Wikipedia "Stress testing (software)"]], [[http://de.wikipedia.org/wiki/Lasttest_%28Computer%29|DE.Wikipedia "Lasttest (Computer)"]].
+
+{{tag>"application lifecycle management" "application lifecycle" application lifecycle management alm testing HP Hewlett Packard "Hewlett Packard" "Hewlett-Packard" "open test architecture" ota  "Hewlett-Packard alm rest api" "hp alm rest api" rest api "Hewlett-Packard loadrunner" "Hewlett-Packard loadrunner community edition" "loadrunner community edition" loadrunner "community edition" "free community edition" free community edition }}
+<footnote_navi_en>
+

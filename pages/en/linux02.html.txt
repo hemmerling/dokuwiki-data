@@ -21,12 +21,10 @@ Related pages:
       -[[http://www.ubuntu.com/|Ubuntu]].
         *[[http://www.ubuntuupdates.org/|UbuntuUpdates]].
         *[[http://releases.ubuntu.com/|Ubuntu Releases]]:
-          *[[http://releases.ubuntu.com/14.04/|Ubuntu 14.04 LTS (Trusty Tahr)]].
+          *[[http://releases.ubuntu.com/15.04/|Ubuntu 15.04 (Vivid Vervet)]].
+          *[[http://releases.ubuntu.com/14.04/|Ubuntu 14.04.02 LTS (Trusty Tahr)]].
             *Requirements: 6.3 Gbyte disk space, 1000 MB CD-Rom or DVD boot media.
-          *Ubuntu 13.10 (Saucy Salamander) is the latest release with an "Ubuntu Server" edition for x86 computer!
-          *[[http://releases.ubuntu.com/12.04/|Ubuntu 12.04.4 LTS (Precise Pangolin)]].
-            *Requirements: 4.5 Gbyte disk space, 740 MB CD-Rom or DVD boot media.
-        *[[http://www.lubuntu.net/|LUbuntu]] 14.04.4 LTS.
+        *[[http://www.lubuntu.net/|LUbuntu]] 14.04.2 LTS.
           *Requirements: 4.4 Gbyte disk space, 700 MB CD-Rom or DVD boot media.
           *Since Ubuntu 12.04, the standard kernel requires an 80x86 CPU with [[http://de.wikipedia.org/wiki/Physical_Address_Extension|EN.Wikipedia "Physical Address Extension"]]. For systems with CPU without such features, [[http://wwww.lubuntu.net/|LUbuntu]] might be an alternative.
           *[[http://wiki.ubuntu.com/Lubuntu|Lubuntu Team Wiki]].
@@ -43,12 +41,15 @@ Related pages:
         *[[http://www.teale.de/|Geoffrey Teale]], [[http://www.xing.com/profile/Geoffrey_Teale|XING "Geoffrey Teale"]], [[http://de.linkedin.com/in/geoffteale|LinkedIn "Geoffrey Teale"]], [[http://www.twitter.com/tealeg|Twitter "Geoffrey J. Teale, @tealeg"]] - Ubuntu team member & "Golang" expert.
   *[[http://www.debian.org/|Debian]].
     *[[http://cdimage.debian.org/cdimage/archive/|Debian CDs/DVDs archive]] -> Download of legacy distribution.
+      *[[http://cdimage.debian.org/cdimage/archive/7.8.0/|Debian CDs/DVDs archive "Debian 7.8"]], the latest release for systems with 80386 CPU.
     *[[http://cdimage.debian.org/cdimage/archive/|Debian CDs/DVDs]] -> Download of the current distribution.
     *[[http://www.debian-interix.net/|Debian Interix Port]] - "This is a port of the Debian distribution to Interix, aka Microsoft Services for UNIX (SfU) or Subsystem for UNIX based applications (SUA)".
     *Debian Linux is suitable to be installed on legacy hardware ( 80x386 / 80x486,..) :-).
     *Advice: Take "Debian Stable" for servers and "Debian Testing" for desktop computers :-).
-    *Debian 7.5, with Kernel 3.2.57.
-      *[[http://www.linuxg.net/the-fifth-maintenance-release-debian-wheezy-is-out-debian-7-5/|LinuxG.net "The Fifth Maintenance Release Debian Wheezy Is Out (Debian 7.5)"]], 2014-04-27 - "Kernel 3.2.57". 
+    *Debian 7.8, with Kernel 3.2.65.
+      *[[http://www.pro-linux.de/news/1/21903/debian-gnulinux-78.html|PRO-Linux.DE "Debian GNU/Linux 7.8"]], 2015-01-12 - "Kernel 3.2.65".
+    *Debian 8, with Kernel 3.16.
+      *[[http://www.heise.de/open/meldung/Debian-8-Jessie-mit-Systemd-und-aktualisiertem-Kernel-2621316.html|heise open source "Debian 8 Jessie mit Systemd und aktualisiertem Kernel"]], 2015-04-26 - "Die Version 8.0... enthält einen für Debian-Verhältnisse recht jungen Kernel der Version 3.16". 
     *[[http://en.wikipedia.org/wiki/Debian|EN.Wikipedia "Debian"]], [[http://de.wikipedia.org/wiki/Debian|DE.Wikipedia "Debian"]].
 ===== Some other Linux Distributions =====
   *[[http://www.backtrack-linux.org/|BackTrack Linux]].
@@ -75,7 +76,9 @@ Related pages:
   *[[http://www.puppylinux.org/|Puppy Linux]] - A "Live System" which does not require installation on a harddisk, suitable for legacy hardware :-).
   *[[http://www.redhat.com/|Red Hat]], [[http://www.de.redhat.com/|Red Hat Germany]].
     *[[http://fedoraproject.org/|Fedora-Projekt]].
-  *[[http://www.tizen.org/|Tizen]].
+  *[[http://www.tizen.org/|Tizen]]
+    *Blog [[http://www.tizen.org/blogs|Tizen Blog]].
+    *"The Tizen application programming interfaces are based on HTML5".
     *[[http://en.wikipedia.org/wiki/Tizen|EN.Wikipedia "Tizen"]], [[http://de.wikipedia.org/wiki/Tizen|DE.Wikipedia "Tizen"]].
   *[[http://www.uclinux.org/|uClinux]] - "Embedded Linux/Microcontroller Project", "The Linux/Microcontroller project is a port of Linux to systems without a Memory Management Unit (MMU)".
     *uClinux might be used on ARM platforms without MMU, e.g. ARM Cortex M3, ARM Cortex M4.
@@ -177,6 +180,7 @@ Related pages:
   *[[http://www.colinux.org/|Cooperative Linux]] - "The first working free and open source method for optimally running Linux on Microsoft Windows natively".
 ===== Linux on Legacy Hardware =====
   *Linux Kernel 3.8 does not support 80x386 / 80x486 CPUs anymore :-(. So Linux Kernel 3.7 ist the last kernel for 80x386 / 80x486 CPUs :-).
+    *[[http://www.linux.com/news/software/linux-kernel/701695-linux-38-hello-2013-goodbye-386-chips|Linux.com "Linux 3.8: Hello 2013, Goodbye 386 Chips"]], 2013-02-20 - "The removal of support for Intel 386 chips".
   *Ubuntu 12.04 and newer are shipped and installed by default with a kernel wich require a CPU with [[http://de.wikipedia.org/wiki/Physical_Address_Extension|EN.Wikipedia "Physical Address Extension"]] :-(.
 ===== Appropriate OpenDirectory Directory Pages =====
   *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Linux/|OpenDirectory "Top: Computers: Software: Operating Systems: Linux"]].

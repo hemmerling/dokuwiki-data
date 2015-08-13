@@ -1,0 +1,145 @@
+====== [hemmerling] STMicroelectronics ARM-based MPUs ======
+===== Company & Products =====
+  *[[http://www.st.com/|STMicroelectronics]].
+  *[[http://www.st.com/internet/mcu/class/1734.jsp|STMicroelectronics "STM32 - 32-bit ARM Cortex MCUs"]].
+  *[[http://www.mikrocontroller.net/articles/STM32|mikrocontroller.net "STM32"]] - "ARM Cortex-M3 CPU".
+  *Evalboard [[http://www.st.com/internet/evalboard/product/250863.jsp|STMicroelectronics "STM32F100"]].
+  *STMicroelectronics MCU strategy is a "without MMU" and so "no Linux" aka "no Windows CE Embedded".
+===== Tools =====
+==== Link Utilities ====
+  *[[http://www.st.com/web/en/catalog/tools/FM147/SC1887/PF258168|STMicroelectronics "STSW-LINK004. STM32 ST-LINK utility"]].
+  *[[http://www.st.com/web/en/catalog/tools/FM147/SC1887/PF260217|STMicroelectronics "STSW-LINK007. ST-LINK/V2-1 firmware upgrade"]].
+==== USB drivers for Link Utilities ====
+  *[[http://www.st.com/web/en/catalog/tools/PF258167|STMicroelectronics "ST-LINK/V2 USB driver for Windows 7, Vista and XP"]] - "STSW-LINK003 V1.0.4 USB driver for WIndows 7, Vista and XP".
+  *[[http://www.st.com/web/en/catalog/tools/PF258168|ST Microeletronics "STSW-LINK004 STM32 ST-LINK utility"]] - "STSW-LINK004 V3.6 USB driver, recommended also forfor Windows 8" -> Work on Win8.1, 32-bit :-).
+  *[[http://www.st.com/web/en/catalog/tools/PF259459|STMicroelectronics "ST-LINK/V2 USB driver for Windows 8"]] - "STSW-LINK006 V1.0.0 USB driver for Windows 8" -> Doesn´t work on Win8.1, 32-bit :-(. I was told by experts that the Windows 64-bit driver works on Win8.1, 64-bit.
+===== Software Design Support Concepts =====
+==== STM32Cube ( formerly: MicroXplorer ) ====
+  *The free legacy software [[http://web.archive.org/web/*/http://www.st.com/web/en/catalog/tools/PF251717|Archive.org "STMicroelectronics: MicroXplorer - MCU graphical configuration tool"]] for Windows.
+    *[[http://www.st.com/web/en/catalog/tools/PF257931|STMicroelectronics "STSW-STM32095. STM32CubeMX for STM32 configuration and initialization C code generation eclipse plugin"]].
+  *The free software [[http://www.st.com/stm32cube-pr2|STMicroelectronics "STM32CubeMX - STM32Cube initialization code generator (UM1718)"]] - "STM32CubeMX is an extension of the existing MicroXplorer tool".
+  *[[http://www.st.com/web/en/catalog/tools/PF259243|STMicroelectronics "STM32CubeF4. Embedded software for STM32 F4 series (HAL low level drivers, USB, TCP/IP, File system, RTOS, Graphic - coming with examples running on ST boards)"]].
+  *[[http://community.arm.com/docs/DOC-8245|ARM Community "ST easing developers' life with STM32Cube"]].
+  *[[http://www.youtube.com/watch?v=bt1YFG9wErg|YouTube, STMicroelectronics "Product overview - STM32Cube making STM32 development easier (epresentation)"]].
+  *As of 2014-07, STMF4, F0 and L0 are supported. STMicroelectronics staff members announced support of all ARM MPUs until end of 2014.
+==== STM32Snippets ====
+  *[[http://www.st.com/web/en/catalog/tools/FM147/CL1794/SC961/SS1743/PF260157|STMicroelectronics "STM32SnippetsF0. Example Code snippets covering STM32 F0 serie"]].
+  *[[http://www.channel-e.de/news/article/download-kostenlose-code-snippets-fuer-stm32-mikrocontroller.html|channel e - Magazin für Elektronik "Download: Kostenlose Code Snippets für STM32-Mikrocontroller"]].
+==== STM-Studio ====
+  *The free tool [[http://www.st.com/internet/evalboard/product/251373.jsp|STMicroelectronics "STM-Studio"]] for Windows - "Run-time variables monitoring and visualization tool" -> Access to MPU registers, e.g for touch applications.
+==== Tools for NFC ====
+  *The **free** Keil MDK-ARM for STM32L0.
+    *[[http://www2.keil.com/stmicroelectronics-stm32/mdk|KEIL "MDK for STMicroelectronics STM32F0 and STM32L0 Installation & Activation"]], Product Serial Number (PSN) to activate the MDK for STM32F0 and STM32L0: "U1E21-CM9GY L3G4L".
+    *[[http://www.keil.com/demo/limits.asp|KEIL "Limitations"]] for "MDK-ARM Lite Edition".
+  *The PC CR95HF development software [[http://www.st.com/web/en/catalog/tools/PF259212|STMicroelectronics "STSW-95HF001. PC software executable for DEMO-CR95HF-A board (UM1084)"]].
+    *[[http://www.mouser.com/ProductDetail/STMicroelectronics/DEMO-CR95HF-A/|Mouser Electronics "511-DEMO-CR95HF-A"]].
+    *[[http://www.digikey.de/product-detail/en/DEMO-CR95HF-A/DEMO-CR95HF-A-ND/2816354|Digikey "STMicroelectronics DEMO-CR95HF-A"]].
+    *[[http://www.st.com/web/en/catalog/mmc/FM76/CL1766/SC1540/PF251619|STMicroelectronics "CR95HF. NFC Reader IC"]].
+    *[[http://www.st.com/web/en/catalog/tools/FM116/SC1444/PF253360?sc=m24lr04e-discovery|STMicroelectronics "M24LR-DISCOVERY. Discovery kit for M24LR04E Dual Interface EEPROM with energy harvesting"]].
+      *M24LR board.
+      *RF transceiver board - CR95HF-VMD5T 13.56 MHz multi-protocol contactless transceiver IC.
+  *Smartphone apps:
+    *[[http://play.google.com/store/apps/details?id=com.nfc.apps|Google Play Store "ST M24SR Demo"]],  [[http://links.st-microelectronics.mkt5947.com/ctt?kn=2&ms=MTE4NTQ2NzQS1&r=NzY0Nzc4ODc4NDgS1&b=0&j=NTAzMTA3MjM5S0&mt=1&rt=0|STMicroelectronics "Android ST M24SR Demo"]].
+    *[[http://play.google.com/store/apps/details?id=com.nfc.apps|Google Play Store "NfcV-reader"]], [[http://links.st-microelectronics.mkt5947.com/ctt?kn=4&ms=MTE4NTQ2NzQS1&r=NzY0Nzc4ODc4NDgS1&b=0&j=NTAzMTA3MjM5S0&mt=1&rt=0|STMicroelectronics "NfcV-reader"]].
+===== emWin, STemWin =====
+  *The commercial source code graphics library [[http://www.segger.com/emwin.html|SEGGER Microcontroller GmbH & Co. KG "emWin"]].
+  *The free binary-only graphics library [[http://www.st.com/web/en/catalog/tools/PF259225|STMicroelectronics "STemWin. Professional graphical stack library enabling the building up of Graphical User Interfaces (GUIs) (AN4323)"]].
+  *[[http://www.youtube.com/watch?v=kH1-1wkqAig|YouTube "STM32F429 Eval board featuring STemWIN supported by Emprog ThunderBench"]].
+  *[[http://en.radzio.dxp.pl/stm32f429idiscovery/starting,with,stemwin,library.html|en.radzio.dxp.pl "STemWin library STM32F429 example"]] - "Due to STemWin flash usage any serious application that use this library exceeds 32kB of Flash memory, so we can't use demo version of Keil uVision".
+===== Boards =====
+  *The DISCOVERY boards includes an **ST-LINK/V2 embedded debug tool interface** that is supported by the following software toolchains: IAR, KEIL, ATOLL ( so you don´t need to buy a ST-Link/V2 ).
+  *DISCOVERY boards are a small application with as much sensors and actors as you can, while the NUCLEO board are in Arduino format, a base frame without (much) sensors and actors.
+==== 1. My STM32 Value Line Discovery Board -> STM32F100RB, based on Cortex M3 ====
+  *Evalboard [[http://www.st.com/stm32-discovery|STMicroelectronics "STM32 Discovery Board"]] with [[http://www.st.com/web/catalog/mmc/FM141/SC1169/SS1031/LN775/PF216844|STM32F100RB]] MCU ( 128 KB Flash, 8 KB RAM ).
+==== 2a. My STM32L-Discovery Board -> STM32L1, based on Cortex M3 ====
+  *Evalboard [[http://www.st.com/internet/evalboard/product/250990.jsp|STMicroelectronics "STM32L-DISCOVERY"]], [[http://www.st.com/stm32l-discovery|STMicroelectronics "STM32L Discovery Board"]] with [[http://www.st.com/internet/mcu/product/248820.jsp|STM32L152RB]] MCU ( 128 KBytes Flash, 16 KBytes RAM, 4 KB EEPROM ).
+  *[[http://www.st.com/web/en/catalog/mmc/FM141/SC1169/SS1295|STMicroelectronics "STM32L1 Series"]].
+  *I was told by experts that the STM32L chip series is on the power consumption level of [[msp430.html|Texas Instruments MSP430]]!
+==== 2b. My STM32 L1 Discovery Special Edition Board -> STM32L152RTC6, based on Cortex M3 ====
+  *[[http://www.st.com/stm32l1|STMicroelectronics "STM32L1 Series"]].
+  *Evalboard "STM32 L1 Discovery Special Edition" with "STM32L152RTC6" MCU ( [[http://www.st.com/web/en/catalog/mmc/FM141/SC1169/SS1295/LN962|STMicroelectronics "STM32L151/152"]] ).
+==== 3. My STM32 F3 Discovery Board -> STM32 F3, based on Cortex M4 ====
+  *2 x Evalboard [[http://www.st.com/stm32f3discovery|STMicroelectronics "STM32 F3 Discovery Board"]], [[http://www.st.com/web/catalog/tools/FM116/SC959/SS1532/PF254044|STMicroelectronics "STM32F3DISCOVERY"]] with [[http://www.st.com/web/catalog/mmc/FM141/SC1169/SS1576/LN1531|STM32F303]] MCU ( 256 KB Flash, 48 KB RAM ) and with compass & gyroscope.
+    *If you remove the 2 jumpers of at the top of the board next to the inscripts "ST-Link" & "Discovery", you might use the STLink Debugger for your own boards :-).
+==== 4. My STM32 F4 Discovery Board -> STM32F4, based on Cortex M4 ====
+  *Evalboard [[http://www.st.com/web/catalog/tools/FM116/SC959/SS1532/PF252419|STMicroelectronics "STM32F4DISCOVERY Discovery kit for STM32F407/417 lines - with STM32F407VG MCU"]] with [[http://www.st.com/web/catalog/mmc/FM141/SC1169/SS1577/LN11/PF252140|STM32F407VG]] MCU ( 1 MB of Flash memory,  192+4 KB of RAM ) and with 3-axis accelerometer, audio sensor, omni-directional digital microphone and audio DAC with integrated class D speaker driver.
+  *[[http://www.stm32f4-discovery.com/|STM32F4 Discovery. Libraries and tutorials for STM32F4 series MCUs by Tilen Majerle]].
+==== 5. My STM32 F4 Discovery Board -> STM32F429, based on Cortex M4 ====
+  *Evalboard [[http://www.st.com/web/catalog/tools/FM116/SC959/SS1532/LN1199/PF259090|STMicroelectronics "32F429IDISCOVERY Discovery kit for STM32 F429/439 lines"]], [[http://www.st.com/stm32f4-discovery|STMicroelectronics "STM32 F4 Discovery Board"]] with [[http://www.st.com/web/catalog/mmc/FM141/SC1169/SS1577/LN1806/PF255419|STM32F429ZI]] MCU ( 2 MB of Flash memory, 256 KB of RAM ).
+  *Useful addon tools:
+    *The OpenSource graphics tool [[http://www.gimp.org/‎|GIMP]] for Linux, Windows.
+    *The free graphics format convertion tool "ST32 Imager" by STMicroelectronics for Windows. 
+      *Output formats:
+        -32bpp.
+        -24bpp.
+        -16bpp ARGB1555.
+        -16bpp ARGB4444.
+        -16bpp RGB565.
+        -8bpp Indexed.
+        -4bpp Indexed.
+        -2bpp Indexed.
+        -1bpp Indexed
+        -8bpp Transparency.
+        -4bpp Transparency.
+    *The free command line tool "bin2c" converter by STMicroelectronics for Windows.
+  *[[http://www.stm32f4-discovery.com/|STM32F4 Discovery. Libraries and tutorials for STM32F4 series MCUs by Tilen Majerle]].
+    *[[http://www.stm32f4-discovery.com/2014/04/stm32f429-discovery-with-cmsis-library-in-keil/|STM32F4 Discovery. Libraries and tutorials for STM32F4 series MCUs by Tilen Majerle "STM32F4/29 Discovery with CMSIS library in Keil uVision"]], 2014-04-28.
+==== 6. STM32 M24LR Discovery Board -> STM32F103CB, based on Cortex M3 ====
+  *Evalboard [[http://www.st.com/web/en/catalog/tools/FM116/SC1444/PF253360|STMicroelectronics "M24LR-DISCOVERY. Discovery kit for M24LR04E Dual Interface EEPROM with energy harvesting"]] with 2 boards.
+    *RF transceiver board with [[http://www.st.com/web/catalog/mmc/FM141/SC1169/SS1031/LN1565/PF189782|STMicroelectronics "STM32F103CB"]].
+    *M24LR board.
+  *[[http://play.google.com/store/apps/details?id=com.nfc.m24srdemo|Google Play "ST M24SR Demo"]].
+  *[[http://www.st.com/web/en/catalog/tools/PF259212|STMicroelectronics "STSW-95HF001. PC software executable for DEMO-CR95HF-A board (UM1084)]] - "CR95HF Development Software".
+  *[[http://www.st.com/web/en/catalog/mmc/FM76/CL1766/SC1540/PF251619|STMicroelectronics "CR95HF NFC Reader IC"]].
+==== 7. My STM32L053R8 Nucleo -> STML053R8T6, based on Cortex M0+ ====
+  *The M24SR ecosystem.
+    *[[http://www.st.com/m24sr|STMicroelectronics "M24SR series"]].
+  *My Arduino device "STM32L053R8 Nucleo":
+    *[[http://www.st.com/stm32nucleo|STMicroelectronics "STM32 MCU Nucleo"]].
+    *"STML053R8T6" MCU with 64 KBytes of Flash, 8 Kbytes of SRAM.
+    *Similar board: [[http://www.mbed.org/platforms/ST-Nucleo-L152RE/|mbed "ST Nucleo L152RE"]].
+    ***Software for this board can be compiled by the free online development system [[http://wwwmbed.org/|mbed]]**.
+    *The board is in Ardunio format. Additionaly to the standard Ardunio interface, it has extra ST interfaces.
+  *My M24SR shield "Bluetoth low energy expansion board bsed on BlueNRG for STM32 Nucleo":
+    *[[http://www.st.com/web/catalog/tools/FM116/SC1075/PF260517|STMicroelectronics "X-NUCLEO-IDB04A1. Bluetooth low energy expansion board based on BlueNRG for STM32 Nucleo"]].
+  *My M24SR shield "MEMS Inertial and Environmental expansion board for STM32 Nucleo":
+    *[[http://www.st.com/web/catalog/tools/FM116/SC1248/PF261191|STMicroelectronics "X-NUCLEO-IKS01A1. Motion MEMS and environmental sensor expansion board for STM32 Nucleo"]].
+  *My M24SR shield "Stepper Motor driver expansion board based on easySPIN L6474 for STM32 Nucleo":
+    *[[http://www.st.com/web/en/catalog/tools/PF260715|STMicroelectronics "X-NUCLEO-IHM01A1. Stepper motor driver expansion board based on L6474 for STM32 Nucleo"]].
+  *My [[http://www.st.com/web/en/catalog/tools/FM116/SC1444/PF253360|STMicroelectronics "M24LR-DISCOVERY"]].
+    *Hardware:
+      *The red M24LR board with [[http://www.st.com/web/catalog/mmc/FM141/SC1244/SS1336/LN1570/PF244063|STM8L152C6T6]] CPU.
+        *[[http://www.st.com/web/en/catalog/mmc/FM76/CL1766/SC1540/PF251619|STMicroelectronics "CR95HF NFC Reader IC"]].
+        *[[http://www.st.com/web/en/catalog/tools/PF258104|STMicroelectronics "STSW-M24LR016. Firmware for M24LR board included in the M24LR-DISCOVERY kit"]].
+        *SWIM connector for programming and debugging. Hardware debugger:
+          *[[http://www.st.com/web/en/catalog/tools/PF219866|STMicroelectronics "ST-LINK. In-circuit debugger and programmer for STM8 and STM32 MCUs; with IAR EWARM and Keil RVMDK and ST toolset"]].
+          *[[http://www.st.com/web/catalog/tools/FM146/CL1984/SC724/SS1677/PF251168|STMicroelectronics "ST-LINK/V2. ST-LINK/V2 in-circuit debugger/programmer for STM8 and STM32"]].
+          *Or you may use any "STM8 discovery" board, separate the shipped ST-Link debugger or just pull off a jumper to use it for debugging by SWIM connector.
+      *The green RF transceiver board, with [[http://www.st.com/web/catalog/mmc/FM141/SC1169/SS1031/LN1565/PF189782|STM32F103CB]] CPU.
+        *Windows USB devicename: "MB 1054A CR95HF".  
+    *Software: [[http://www.st.com/web/en/catalog/tools/PF259212|STMicroelectronics "STSW-95HF001. PC software executable for DEMO-CR95HF-A board (UM1084)]] - "CR95HF Development Software".
+  *Resources:
+    *[[http://www.st.com/nfc-rfid|STMicroelectronics "NFC / RFID Memories and Transceivers"]].
+    *[[http://play.google.com/store/apps/details?id=com.nfc.m24srdemo|Google Play "ST M24SR Demo"]].
+==== 8. My STM32L053 Discovery -> STML053R8T6, based on Cortex M0+ ====
+  *[[http://www.st.com/st-web-ui/active/en/catalog/tools/PF260319|STMicroelectronics "32L0538DISCOVERY Discovery kit with STM32L053C8 MCU"]], with E-paper display,.
+==== 9. My 32F746G Discovery -> STM32F746NG, based on Cortex M7 ====
+  *[[http://www.st.com/web/catalog/tools/FM116/SC959/SS1532/LN1848/PF261641|STMicroelectronics "32F746GDISCOVERY Discovery kit with STM32F746NG MCU"]], with [[http://www.st.com/web/catalog/mmc/FM141/SC1169/SS1858/LN1902/PF260869|STMicroelectronics "STM32F746NG"]] MCU.
+  *[[http://www.st.com/web/en/catalog/mmc/FM141/SC1169/SS1858/LN1902|STMicroelectronics "STM32F7 Series"]].
+  *Recommended software:
+    *The commercial IDE [[http://supp.iar.com/Download/SW/?item=EWARM-EVAL|IAR 7.4]], 30 day evaluation timeout.
+    *[[http://www.st.com/web/catalog/tools/FM147/CL1794/SC961/SS1533/PF259242|STMicroelectronics "STM32CubeMX. STM32Cube initialization code generator (UM1718)"]].
+    *[[http://www.st.com/web/catalog/tools/FM147/CL1794/SC961/SS1533/PF257938|STMicroelectronics "STSW-STM32102. STM32 Virtual COM Port Driver"]].
+    *USB driver [[http://www.st.com/web/en/catalog/tools/PF258167|STMicroelectronics "STSW-LINK003. ST-LINK/V2 USB driver for Windows 7, Vista and XP"]], <del>[[http://www.st.com/web/en/catalog/tools/PF259459|STMicroelectronics "STSW-LINK006. ST-LINK/V2 USB driver for Windows 8"]]</del>.
+    *Make sure you have the latest JAVA and .NET environments.
+==== 10. Motor Control Kits ====
+  *[[http://powerelectronics.com/power_management/motor_control_3kw/|Power Electronics Technology "Motor Control Kit Drives up to 3 kW"]].
+  *[[http://www.st.com/internet/evalboard/product/252075.jsp|STMicroelectronics "STM32100B-MCKIT"]] - "Motor control starter kit for STM32F100 (128KB Flash) Value Line MCUs".
+  *[[http://www.st.com/internet/evalboard/product/203167.jsp|STMicroelectronics "STM3210B-MCKIT"]] - "Motor control starter kit for STM32 (128KB flash) Performance and Access Line microcontrollers".
+    *[[http://www.st.com/mcu/modules.php?name=mcu&file=devicedocsmdt&FAM=110&DEV=STM3210B-MCKIT|STMicroelectronics "STM3210B-MCKIT - Documents"]].
+==== 9. Boards with STM32F4 MCUs for .NET Micro Framework and .NET Gadgeteer ====
+  *See [[dotnet03.html|Microsoft .NET Framework 3/3]], section ".NET Micro Framework and .NET Gadgeteer".
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Hardware/Mikrocontroller/|OpenDirectory "Top: World: Deutsch: Computer: Hardware: Mikrocontroller"]].
+{{tag>STMicroelectronics ST Microelectronics "Cortex M0" "Cortex M0+" "Cortex M3" "Cortex M4" "Cortex M7" Cortex M0 M0+ M3 M4 M7}}
+<footnote_navi_en>

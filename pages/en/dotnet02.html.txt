@@ -60,9 +60,54 @@ Related pages:
 ==== Commercial ====
   *[[http://www.componentsource.com/|ComponentSource]] - "Offers a unique global service, used by over 1,000,000 software developers worldwide".
     *[[http://www.componentsource.com/services/publisher/program-introduction.html|ComponentSource "Introduction - Sell Dev Tool Software Internationally With Us!"]].
-===== SDKs for Third-Party Hardware =====
+===== .NET Frameworks =====
+==== "Inversion of control" Frameworks ====
+=== Frameworks ===
+  *"Inversion of control" -> See [[systemdesign.html|System Design]].
+  *[[http://www.autofac.org/|Autofac]], [[http://www.github.com/autofac|GitHub "autofac"]], [[http://code.google.com/p/autofac/|Google Code "autofac. An addictive .NET IoC container"]].
+    *[[http://www.c-sharpcorner.com/UploadFile/dacca2/implement-dependency-injection-using-autofac-ioc-container/|C# Corner "Implement Dependency Injection Using Autofac IoC Container"]].
+    *The Code Project.
+      *[[http://www.codeproject.com/Articles/690391/Dependency-Injection-Pattern-with-Autofac|The Code Project "Dependency Injection Pattern with Autofac"]].
+      *[[http://www.codeproject.com/Articles/25380/Dependency-Injection-with-Autofac|The Code Project "Dependency Injection with Autofac"]].
+  *[[http://www.caliburnmicro.com/|Caliburn.Micro]], [[http://www.github.com/Caliburn-Micro|GitHub "Caliburn-Micro"]], [[http://caliburnmicro.codeplex.com/|CodePlex "Caliburn.Micro"]] #.
+    *Caliburn.Micro is inversive: With Caliburn.Micro applications, self-written classes depend on the injection framework.
+    *Caliburn.Micro is an MVVM framework.
+    *[[http://caliburn.codeplex.com/|CodePlex "Caliburn"]] is the legacy predecessor.
+  *[[http://mef.codeplex.com/|CodePlex "Managed Extensibility Framework - The MEF Community Site]] for .NET 4, .NET 4.5 #.
+    *MEF is inversive: With MEF applications, self-written classes depend on the injection framework.
+    *[[http://blogs.msdn.com/b/brada/archive/2009/07/20/simple-example-using-managed-extensibility-framework-in-silverlight.aspx|Brad Abrams, Design Guidelines, Managed code and the .NET Framework "Design Guidelines, Managed code and the .NET Framework"]].
+    *[[http://stefanhenneken.wordpress.com/category/managed-extensibility-framework/|Stefan Henneken "Archive for the ‘Managed Extensibility Framework’ Category"]] - Valuable 11 part article about MEF.
+    *[[http://msdn.microsoft.com/en-us/library/dd460648(v=vs.110).aspx|Microsoft Developer Network "Managed Extensibility Framework (MEF)"]] (English), [[http://msdn.microsoft.com/de-de/library/dd460648%28v=vs.110%29.aspx|Microsoft Developer Network "Managed Extensibility Framework (MEF)"]] (German).
+    *[[http://www.superdevelopment.com/2014/01/13/getting-started-with-the-managed-extensibility-framework/|Super Development. Created by the consulting team at ILM "Getting Started with the Managed Extensibility Framework"]].
+    *[[http://www.codeproject.com/Articles/188054/An-Introduction-to-Managed-Extensibility-Framework|The Code Project "An Introduction to Managed Extensibility Framework (MEF) - Part I"]], [[http://www.codeproject.com/Articles/37579/Managed-Extensibility-Framework-Part|The Code Project "An Introduction to Managed Extensibility Framework (MEF) - Part II"]].
+    *[[http://en.wikipedia.org/wiki/Managed_Extensibility_Framework|EN.Wikipedia "Managed Extensibility Framework"]].
+  *[[http://www.lightcore.ch/|LightCore]], [[http://www.peterbucher.ch/arbeiten/lightcore.aspx|Peter Bucher "LightCore"]] - "A lightweight dependency injection container which can be used as a service locator, too".
+    *[[http://www.aspnetzone.de/blogs/peterbucher/archive/2010/12/05/Teil-1-_2D00_-Umkehrung-der-Kontrolle-erklaert-oder_5F00_Von-der-Fabrikmethode-zum-DI_5F00_Container.aspx|Peter Bucher. Auf den Spuren von .NET "Teil 1: Umkehrung der Kontrolle erklärt, oder: Von der Fabrikmethode zum DI-Container"]].
+    *[[http://www.aspnetzone.de/blogs/peterbucher/archive/2012/11/13/teil-2-umkehrung-der-kontrolle-erk-rt-oder-von-der-fabrikmethode-zum-di-container.aspx|Peter Bucher. Auf den Spuren von .NET "Teil 2: Umkehrung der Kontrolle erkärt, oder: Von der Fabrikmethode zum DI-Container"]].
+  *[[http://www.ninject.org/|Ninject - Open source dependency injector for .NET]], [[http://www.github.com/ninject|GitHub "Ninject"]] for .NET 2.0, .NET 3.5.
+    *Ninjet is non-inversive: With Ninjet applications, self-written classes don´t depend on the injection framework.
+  *[[http://compositewpf.codeplex.com/|CodePlex "Prism"]].
+    *[[http://msdn.microsoft.com/en-us/library/ff648612.aspx|Microsoft Developer Network, MSDN Library "Prism (Composite Application Guidance for WPF)"]].
+  *[[http://unity.codeplex.com/|CodePlex "Unity Application Block (Unity)"]] - "patterns & practices - Unity".
+    *[[http://msdn.microsoft.com/en-us/library/ff647202.aspx|Microsoft Developer Network "Unity Container"]].
+    *The Code Project.
+      *[[http://www.codeproject.com/Articles/988257/Dependency-Injection-using-Unity-container|The Code Project "Dependency Injection using Unity container"]].
+      *[[http://www.codeproject.com/Articles/797132/Dependency-Injection-in-MVC-Using-Unity-IoC-Contai|The Code Project "Dependency Injection in MVC Using Unity IoC Container"]].
+      *[[http://www.codeproject.com/Articles/33090/Using-the-Dependency-Injection-Pattern-and-Unity-C|The Code Project "Using the Dependency Injection Pattern and Unity Containers with a Service Locator"]].
+=== Resources ===
+  *The Code Project.
+    *[[http://www.codeproject.com/Articles/690475/Prism-WPF-and-Unity-based-modular-application-step|The Code Project "Prism, WPF, and Unity based modular application step by step"]].
+    *[[http://www.codeproject.com/Articles/223360/Inversion-of-Control-Dependency-Injection-with-Rep|The Code Project "Inversion of Control/Dependency Injection with Repository Pattern, Fluent Nhibernate, and LightCore Framework"]].
+==== MVVM Framworks ====
+  *[[http://www.mvvmlight.net/|MVVM Light Toolkit]], [[http://mvvmlight.codeplex.com/|CodePlex "MVVM Light Toolkit"]].
+  *[[http://www.github.com/MvvmCross|GitHub "MvvmCross"]] - "The Mvvm Platform for Xamarin.iOS, Xamarin.Android, WindowsPhone, WindowsStore, WPF and Mac. Includes databinding support for Android XML, for iOS XIBs and for MonoTouch.Dialog".
+    *[[http://www.codeproject.com/Articles/566191/MvvmCross-v-Writing-a-First-App|The Code Project "MvvmCross - v3 - Writing a First App"]].
+==== SDKs for Third-Party Hardware ====
   *[[http://developer.olympus.com/cameras_login_developer_area_SDK.asp|Olympus Developer Area]].
   *[[http://www.didp.canon-europa.com/developer/didp/didp_main.nsf?opendatabase&login|Canon's Digital Imaging Developer Programme]].
+==== Resources ====
+  *[[http://www.stackoverflow.com/questions/807880/bcl-base-class-library-vs-fcl-framework-class-library|StackOverflow "BCL (Base Class Library) vs FCL (Framework Class Library)"]].
+  *[[http://en.wikipedia.org/wiki/Standard_Libraries_%28CLI%29|EN.Wikipedia "Standard Libraries (CLI)"]].
 ===== Appropriate OpenDirectory Directory Pages =====
   *[[http://www.dmoz.org/Computers/Programming/Component_Frameworks/NET/|OpenDirectory "Top: Computers: Programming: Component Frameworks: NET]].
   *[[http://www.dmoz.org/World/Fran%C3%A7ais/Informatique/Programmation/Frameworks/DotNet/http://www.dmoz.org/World/Deutsch/Computer/Programmieren/Komponentenframeworks/NET/|OpenDirectory "Top: World: Deutsch: Computer: Programmieren: Komponentenframeworks: NET"]].

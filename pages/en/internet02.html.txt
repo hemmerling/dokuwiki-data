@@ -88,17 +88,52 @@ How to Implement the Rel='Publisher' Google Authorship Mark Up"]].
     *[[http://www.facebook.com/help/493707223977442/|Facebook Help "About Apps"]].
     *[[http://apps.facebook.com/friendrequests/|Facebook App "Friends Requests"]] :-).
   *[[http://www.facebook.com/groups|Facebook Groups]].
-  *[[https://www.facebook.com/pages/feed|Facebook Pages Feed]] - "On This List (150) See all" -> List of all pages that I "like".
+  *[[http://www.facebook.com/pages/feed|Facebook "Pages"]] - Button "Create Page".
+    *[[http://www.facebook.com/pages/create/?ref_type=pages_feed|Facebook "Pages Feed"]] - Button "Pages I like".
   *[[http://www.facebook.com/badges/|Facebook Badges]].
   *Hidden Facebook profile pages.
     *[[http://www.facebook.com/media/albums/?id=hemmerling|Facebook Albums "hemmerling"]].
     *[[http://www.facebook.com/bookmarks/lists/|Facebook Lists of your own account]].
   *Facebook Developers.
+    *[[http://developers.facebook.com/|Facebook "Facebook Developers"]].
+      *[[http://developers.facebook.com/docs/apis-and-sdks|Facebook "Facebook Developers" - "APIs and SDKs"]].
+      *[[https://developers.facebook.com/tools/access_token/|Facebook "Facebook Developers" - "Access Token Tool"]] - The individual "Access Token" for each of your facebook applications.
+      *The read-only forum [[http://forum.developers.facebook.net/|Facebook "Facebook Developers"]].
     *[[http://facebook.stackoverflow.com/|Stack Overflow "Facebook"]].
     *[[http://www.facebook.com/groups/fbdevelopers/|Facebook "Facebook Developers"]].
-    *The read-only forum [[http://forum.developers.facebook.net/|Facebook "Facebook Developers"]].
     *Bug ticket system [[http://developers.facebook.com/bugs|Facebook "File a bug with bugzilla"]]. You can just report bugs about your own application - as you can´t send the formular without a validated data in the fields "Apps" and "Related IDs" :-(.
     *[[http://www.facebook.com/KnownIssues|Facebook "Known Issues on Facebook"]] - Read-only page.
+    *Python SDKs suitable for Facebook authentification.
+      *[[http://www.temboo.com/python/facebook-oauth|Ttemboo "Master Facebook OAuth in Python"]].
+      *[[http://www.github.com/crhym3/simpleauth|GitHub "crhym3/simpleauth"]] - "Simple authentication for Python on Google App Engine supporting OAuth 2.0, OAuth 1.0(a) and OpenID".
+        *[[http://simpleauth.appspot.com/|SimpleAuth demo]].
+      *[[http://www.github.com/requests/requests-oauthlib|GitHub "requests/requests-oauthlib"]], [[http://requests-oauthlib.readthedocs.org/|ReadTheDocs "Requests-OAuthlib: OAuth for Humans"]] - "OAuthlib support for Python-Requests!".
+        *Based on:
+          *[[http://python-requests.org/|Requests: HTTP for Humans]], [[http://www.github.com/kennethreitz/requests/|GitHub "kennethreitz/requests"]], [[http://docs.python-requests.org/|ReadTheDocs "Requests: HTTP for Humans"]] - "Python HTTP Requests for Humans".
+          *[[http://www.github.com/idan/oauthlib/|GitHub "idan/oauthlib"]] - "A generic, spec-compliant, thorough implementation of the OAuth request-signing logic".
+      *[[http://github.com/maraujop/requests-oauth2|maraujop/requests-oauth2]], [[http://pypi.python.org/pypi/requests-oauth2/|Python Package Index "requests-oauth2"]] - "Python's Requests OAuth2 (Open Authentication) plugin".
+        *Based on:
+          *[[http://python-requests.org/|Requests: HTTP for Humans]], [[http://www.github.com/kennethreitz/requests/|GitHub "kennethreitz/requests"]], [[http://docs.python-requests.org/|ReadTheDocs "Requests: HTTP for Humans"]] - "Python HTTP Requests for Humans".
+       *[[http://cloud.google.com/appengine/docs/python/oauth/|Google Cloud Platform "OAuth API for Python"]]. 
+      *Official Facebook Python SDK.
+        *[[http://developers.facebook.com/docs/marketing-api/guides/chapter-1-Setup-and-Authentication|Facebook Developers "Chapter 1: Setup and Authentication"]].
+        *[[http://gist.github.com/rodbegbie/1190267|GitHub Gist "rodbegbie/facebook.py"]] - "Hacked version of "official" (but now unsupported) Facebook Python SDK to support OAuth 2.0".
+      *[[http://psa.matiasaguirre.net/|Matías Aguirre "Python Social Auth"]], [[http://www.github.com/martey/python-social-auth|GitHub "martey/python-social-auth"]] - "Social auth made simple".
+      *[[http://psa.matiasaguirre.net/docs/backends/facebook.html|Python Social Auth documentation / Backends "Facebook, OAuth2"]].
+      *[[http://www.ineed.coffee/376/handle-facebook-oauth-authentication-with-python-sdk/|Indeed. Ramblings of Daniel Graziotin "Handle Facebook OAuth authentication with Python SDK"]] #.
+      *[[http://wesleyzhao.com/getting-python-to-work-with-facebooks-oauth-2| Wesley Zhao "Getting Python to work with Facebook's OAuth 2.0 authentication system"]].
+      *[[http://blog.jaarce.com/2012/07/facebook-and-twitter-authentication.html|JA's Engineering Blog "Facebook and Twitter Authentication using Python-oauth2"]].
+    *Python SDKs for Facebook.
+      *[[http://www.pythonforfacebook.com/|Python for Facebook]], [[http://www.github.com/pythonforfacebook/|GitHub "pythonforfacebook"]], [[https://pypi.python.org/pypi/facebook-sdk|Python Package Index "facebook-sdk"]], [[http://facebook-sdk.readthedocs.org/en/latest/api.html|ReadTheDocs "Facebook SDK for Python"]].
+        *[[http://www.stackoverflow.com/questions/11510850/python-facebook-api-need-a-working-example|StackOverflow "Python - Facebook API - Need a working example"]].
+        *[[http://www.stackoverflow.com/questions/23706218/error-getting-facebook-friends-who-have-app-installed|StackOverflow "Error getting facebook friends who have app installed"]].
+      *[[http://www.github.com/jgorset/facepy|GitHub "jgorset/facepy"]] - "Facepy makes it really easy to interact with Facebook's Graph API", "Facepy does not do authentication with Facebook; it only consumes its API".
+        *[[http://www.stackoverflow.com/questions/12676634/python-facebook-api-showing-invalid-token|StackOverflow "Python: Facebook API showing invalid token"]].
+      *[[http://www.github.com/blaklites/fb|GitHub "blaklites/fb"]], [[http://pypi.python.org/pypi/fb/|Python Package Index: "fb 0.2.0"]] - "Python SDK for the Facebook Graph Api".
+    *[[http://stackoverflow.com/questions/11776234/an-active-access-token-must-be-used-to-query-information-about-the-current-user|StackOverflow "An active access token must be used to query information about the current user-Graph api exception"]].
+    *[[http://www.nodotcom.org/python-twitter-tutorial.html|nikhil's blog "Python Twitter tutorial - 5 steps to tweet a message from python script"]], [[http://nodotcom.org/python-facebook-tutorial.html|nikhil's blog "Python Facebook tutorial - post to Facebook page in 4 steps"]] #.
+    *[[http://www.pydanny.com/|Inside Head of PYDANNY]].
+      *[[http://www.pydanny.com/the-sorry-state-of-python-oauth-providers.html|Inside Head of PYDANNY "The sorry state of Python OAuth providers"]].
   *[[http://www.facebook.com/username|Facebook "Setup your Username"]] for the profile, for pages.
     *[[http://www.picbadges.com/|PicBadges]] ( [[http://www.picbadges.com/help/|PicBadges Help]] ).
     *[[http://blog.viermalvier.at/facebook-vanity-url-sofort-verfuegbar-keine-25-fans-mehr-notwendig/|Social Multi Media Blog "Facebook Vanity URL für Seiten sofort verfügbar: Keine 25 Fans mehr notwendig!"]] - "Während die Hürde für die Registrierung ganz früher bei 100 Fans lag, wurde sie von Facebook vor etwas mehr als einem Jahr auf 25 Fans gesenkt".
@@ -202,6 +237,10 @@ How to Implement the Rel='Publisher' Google Authorship Mark Up"]].
 
 ===== Some other Web Services or Social Services with API =====
   *[[http://dev.viadeo.com/| Viadeo API]] - "Connecting the professional web. Use the Viadeo API to create personalized, social and relevant user experiences on your site".
+===== Forums, Newsgroups =====
+  *[[http://www.groups.google.com/group/pythonforfacebook|Google Groups "PythonForFacebook"]].
+  *[[http://www.groups.google.com/group/gae-simpleauth|Google Groups "SimpleAuth for GAE"]].
+
 ===== Resources =====
   *[[http://www.youtube.com/watch?v=6SYnlH5FXz0|YouTube: "Google I/O 2008 - OpenSocial, OpenID, and OAuth: Oh, My!"]].
   *[[http://www.mybloglog.com/buzz/e_profile_serv.php|MyBlogLog]] - has a long list of Web 2.0 communities and its personalized URLs.

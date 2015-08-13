@@ -33,6 +33,14 @@ Related Pages:
     *[[http://www.dslteam.de/forum/showthread.php?t=106502|DSLteam.de:"MPQ Webphone in neuer Release"]].
   *[[http://www.kakao.com/|Kakao Talk]] for Windows.
     *A Kakao account can just be created on a mobile device. You can´t create a device by the Windows application, nor by the website.
+  *[[http://www.kik.com/|Kik]]  for Android, IOS, Windows Phone.
+    *[[http://play.google.com/store/apps/details?id=kik.android|Google Play "Kik"]].
+    *[[http://ws2.kik.com/p|Kik "Reset your Password"]].
+    *[[http://home.kik.com/|Kik Browser]], [[http://apps.mc.vc/|Kik Top Apps]].
+    *[[http://kikinteractive.zendesk.com/|Kik Help Center]].
+    *[[http://www.kikme.net/|Kik Me - Share Kik usernames Meet Kik friends Here]].
+    *[[http://www.kikme.net/group-kik/|Group Kik]].
+    *[[http://en.wikipedia.org/wiki/Kik_Messenger|EN.Wikipedia "Kik Messenger"]], [[http://de.wikipedia.org/wiki/Kik_Messenger|DE.Wikipedia "Kik Messenger"]].
   *[[http://www.miranda-im.org/|Miranda IM]] - free messenger for Windows.
   *[[http://www.microsoft.com/netmeeting/|Microsoft NetMeeting]] - discontinued communication tool, shipped with Win95, Win98, Win98SE, WinME, W2k.
     *[[http://www.microsoft.com/DownLoads/details.aspx?displaylang=en&FamilyID=26c9da7c-f778-4422-a6f4-efb8abba021e|Microsoft Download Center: "Microsoft NetMeeting"]].
@@ -43,8 +51,23 @@ Related Pages:
   *[[http://www.skype.com|Skype]].
     *[[http://www.winytips.com/skype-full-offline-installer-setup/|WinyTips "Skype full offline installer setup:"]] -> [[http://www.skype.com/go/getskype-full|Skype - Official download link for offline installer "www.skype.com/go/getskype-full"]].
     *[[http://www.skype.com/go/skypebuttons|Skype button]] - "Skype buttons with status".
+    *[[http://www.old-version.net/|Old-Version.net "Download Skype for Windows"]].
     *"Skype 5.0 for Windows" is the latest edition for W2k. 
     *"Skype 5.1 for Windows" just runs on WinXP, it aborts on W2k with the error message "Fatal Error. Failed to get proc address for SetDllDirectoryW (kernel32.dll)".
+    *"Skype 7.2.0.103 for Windows" is the latest known edition for computers with Pentium-III CPUs on WinXP / Win7.
+      *[[http://www.4shared.com/file/vu4dm_aGba/SkypeSetup_720103.htm|4shared "SkypeSetup_7.2.0.103.msi"]].
+      *[[http://www.4shared.com/folder/pUk2Grhk/_online.html|4shared "My 4shared by Caesar K."]] - "Skype-7.2.0.103.exe".
+    *"Skype 7.6.0.103 for Windows" crashes at the installation on computers with Pentium-III CPUs. It runs on computers with Pentium-IV CPU on Win7.
+    *With Win8.1, download and upgrade of Skype is integrated. You must not do extra download by Skype website and installation, anymore. By this, the supplied Skype version is not up to date with the downloadable version, e.g. Win8.1 supplies "Skype 7.3.0.101", while "Skype 7.6.0.103" is the current download version.
+    *The free Skype log viewer [[http://www.nirsoft.net/utils/skype_log_view.html|Nirsoft "SkypeLogView"]] for Windows.
+      *The default file that Skype looks for conversation is main.db
+<code>
+%AppData%\Skype\SkypeUserName\main.db
+</code>
+      *"SkypeLogView" asks for and detects automatically the Skype user directory on Window:
+<code>
+C:\Users\<user>\AppData\Roaming\Skype\<skypeusername>
+</code>
   *[[http://www.slack.com/|Slack]] - "A team communication tool".
     *[[http://en.wikipedia.org/wiki/Slack_%28software%29|EN.Wikipedia "Slack (software)"]].
   *[[http://www.fourmilab.ch/speakfree/|Fourmilab "Speak Freely"]] - discontinued free softphone for Windows and Linux.
@@ -64,9 +87,15 @@ Related Pages:
     *[[http://www.1tutorials.com/2013/11/change-wechat-id/|1Tutorials "How to change WeChat ID"]].
     *[[http://en.wikipedia.org/wiki/WeChat|EN.Wikipedia "WeChat"]], [[http://de.wikipedia.org/wiki/WeChat|DE.Wikipedia "WeChat"]].
   *[[http://www.whatsapp.com/|WhatApp]].
-    *[[http://www.whatsapp.com/faq/|WhatApp FAQ]]
+    *[[http://www.whatsapp.com/faq/|WhatApp FAQ]].
+      *[[http://www.whatsapp.com/faq/de/android|WhatsApp FAQ in German, for Android]].
+        *[[http://www.whatsapp.com/faq/de/android/23776567|WhatsApp FAQ in German, for Android "Wie benutze ich den Gruppen-Chat?"]].
     *<del>[[http://whatsappforpcss.com/|WhatsApp Messenger For PC]] for Windows</del> - Suspect offer with bundled downloads :-(.
-    *[[http://www.chip.de/news/WhatsApp-fuer-PC-Messenger-unter-Windows-nutzen_55201883.html|CHIP "WhatsApp für PC: Messenger unter Windows nutzen"]] - "WhatsApp funktioniert in der Verbindung mit einer festen Telefonnummer immer nur mit einem Gerät gleichzeitig. Das heißt, sobald Sie Ihr WhatsApp für PC aktiviert haben, funktioniert es von einem Smartphone mit genutzten Nummer nicht mehr. Sie können die Aktivierung aber jederzeit wieder für Ihr Smartphone gültig machen, indem Sie die App darauf neu installieren. Sie müssen allerdings eine Stunde zwischen beiden Aktivierungen verstreichen lassen".
+    *CHIP.
+      *[[http://www.chip.de/news/WhatsApp-fuer-PC-Messenger-unter-Windows-nutzen_55201883.html|CHIP "WhatsApp für PC: Messenger unter Windows nutzen"]], 2015-02-12 - "WhatsApp funktioniert in der Verbindung mit einer festen Telefonnummer immer nur mit einem Gerät gleichzeitig. Das heißt, sobald Sie Ihr WhatsApp für PC aktiviert haben, funktioniert es von einem Smartphone mit genutzten Nummer nicht mehr. Sie können die Aktivierung aber jederzeit wieder für Ihr Smartphone gültig machen, indem Sie die App darauf neu installieren. Sie müssen allerdings eine Stunde zwischen beiden Aktivierungen verstreichen lassen".
+      *[[http://www.chip.de/news/Neue-Emojis-in-WhatsApp-Web-Client-mit-neuen-Smileys_75803995.html|CHIP "Neue WhatsApp-Features: Client bringt neue Chat-Funktionen"]], 2015-07-09 - "Mit WhatsApp Web hat WhatsApp die lang ersehnte Browser-Version des Messengers gestartet".
+        *[[http://www.chip.de/webapps/WhatsApp-Web_75804033.html|CHIP "WhatsApp Web"]].
+
   *[[http://messenger.yahoo.com/|Yahoo Messenger]] ( [[http://www.softpedia.com/get/Internet/Chat/Instant-Messaging/Yahoo-Messenger.shtml|"Full" Download]] ).
     *[[http://in.messenger.yahoo.com/download/|Yahoo Messenger - Build number of the current release]] ( e.g. "Click Download Now to begin downloading and installing Yahoo! Messenger 11.5 **ver.** 11.5.0.228" ).
     *Yahoo Messenger 10.0.0.1270 is the latest release for W2k ( and maybe even for Win98SE ).
@@ -153,7 +182,7 @@ Related Pages:
 ===== Webcast, Webinar and Online Conference Services =====
   *The commercial [[http://www.adobe.com/products/acrobatconnectpro/|Adobe Acrobat Connect Pro]].
   *The commercial [[http://www.arkadin.com/|Arkadin]] ( [[http://www.anywhereconference.com/|Anywhere Conferencing]] login ).
-  *The commercial [[http://uc.att.com/|AT&T Unified Communications]] ( formerly: [[http://www.interwise.com/|Interwise]] ) 
+  *The commercial [[http://uc.att.com/|AT&T Unified Communications]] ( formerly: [[http://www.interwise.com/|Interwise]] ).
      *[[http://uc.att.com/support/downloadsoftware.html|AT&T Unified Communications - Software downloads]].
   *The commercial [[http://www.beamyourscreen.com/|BeamYourScreen GmbH]] ( [[http://www.teilnehmen.info/|Login]] ).
   *The free [[http://www.brighttalk.com/|BrightTalk]].
@@ -289,6 +318,7 @@ Related Pages:
   *[[http://forum.collanos.com/|Collanos User Forum]].
   *[[http://forum.e164.org/|e164.org Discussion Forum]].
   *[[http://www.expertconfig.de/|ExpertConfig VoIP & Network]].
+  *[[http://www.facebook.com/kikplaynice|Facebook "Kik"]].
   *[[http://forum.gigaset.com/|Gigaset Customer Care Forum]].
   *[[http://forum.gizmo5.com/|Gizmo Forum]].
   *[[http://boards.icq.com/forums/index.php?cat_id=2|ICQ Groups "ICQ"]].
@@ -296,7 +326,7 @@ Related Pages:
   *[[http://forum.jajah.com/|Jajah Forum]].
   *[[http://www.kvats.net/cms/component/option,com_fireboard/|kvats.net Forum]].
   *[[http://forums.miranda-im.org/|Miranda IM - Forums]].
-  *[http://forum.oovoo.com/members/hemmerling.aspx|ooVoo Forums]].
+  *[[http://forum.oovoo.com/members/hemmerling.aspx|ooVoo Forums]].
   *[[http://community.pascom.net/|pascom Netzwerktechnik GmbH & Co. KG "MobyDick Community"]].
   *QuteCom / WengoPhone.
     *[[http://forum.wengophone.com/|WengoPhone Forum]].

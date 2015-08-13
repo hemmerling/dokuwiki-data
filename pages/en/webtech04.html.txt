@@ -1,0 +1,274 @@
+====== [hemmerling] Web Technologies ( HTML5, HTML, XML & Javascript ) 4/4 - Javascript Frameworks ======
+Related pages:
+  *[[api.html|Application programming interface ( API )]].
+  *[[databases.html|Databases, Webserver, Webservices, SQL, XML]] -> XML.
+  *[[sframeworks.html|Software Frameworks]].
+  *[[uscripting.html|Scripting Programming Languages for Unix / Linux and Windows]].
+  *[[snetworks03.html|Social Networks 3/3 - IT / SystemEngineering Forums and IT / SystemEngineering Communities]].
+  *[[webtech.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 1/4]].
+  *[[webtech02.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 2/4 - HTML & CSS]].
+  *[[webtech03.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 3/4 - Javascript]].
+
+===== Server-side event-driven Javascript Frameworks =====
+==== Espruino ====
+  *See [[arm.html|ARM Embedded Systems ( ARM7, ARM8, ARM9, ARM11, Cortex )]]. 
+==== Node.js ====
+=== The Tool ===
+  *[[http://www.nodejs.org/|Node.js]] - "A platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications".
+    *[[http://www.nodejs.org/dist/v0.10.40/|Node.js v0.10.40]] for Windows is the latest stable edition which runs on my Athlon XP20400 computer ( = Pentium III CPU ). The latest edition [[http://www.nodejs.org/dist/v0.11.14/|Node.js v0.11.14]] for Windows with Pentium-IIE CPUs is unstable. Later editions requrire a Pentium-IV CPU.
+    *[[http://www.nodejs.org/api/all.html|Node.js Manual & Documentation - View on single page]].
+    *The 48-hour online node.js hackathon [[http://www.nodeknockout.com/|node ko]], 2012-11.
+    *[[http://www.npmjs.org/|npm]] - "Package manager. Installs, publishes and manages node programs".
+      *Slides [[http://www.slideshare.net/damienklinnert/become-a-node-package-maintainer|Slideshare "Damien Klinnert: Become a node package maintainer"]] by [[https://twitter.com/damienklinnert|Twitter "Damien Klinnert"]].
+    *[[http://blog.appfog.com/new-horizons-in-node-js-app-js-and-webrtc/|Appfog Blog, Luc Perkins "New horizons in Node.js: App.js and WebRTC"]], 2012-10-15.    
+    *[[http://www.overapi.com/nodejs/|OverAPI.com "NodeJS Cheat Sheet"]] #.
+    *[[http://ask.xmodulo.com/install-node-js-linux.html|Ask Xmodulo. Find answers to commonly asked Linux questions "How to install Node.js on Linux"]] #.
+=== Online Services with Node.JS Servers for Javascript Development ===
+  *[[http://www.c9.io/|Cloud9]] with free basic account. There are also free material for Javascript and Node.JS online training :-).
+    *[[http://docs.c9.io/|Cloud9 IDE documentation]].
+    *"npm install -g javascripting".
+=== Javascript Frameworks & Tools built on Node.js ===
+== Express ==
+  *[[http://www.expressjs.com/|Express - node.js web application framework]].
+== hapi ==
+  *[[http://www.hapijs.com/|hapi - A rich framework for building applications and services]], [[http://www.github.com/hapijs|GitHub "hapijs"]].
+== HTML Templates for Node.js ==
+  *[[http://www.npmjs.com/package/handlebars|npm "handlebars"]] - "It provides the power necessary to let you build semantic templates effectively with no frustration".
+  *[[http://jade-lang.com/|Jade - Node Template Engine]], [[http://www.github.com/visionmedia/jade|Github "visionmedia/jade"]].
+    *[[http://www.npmjs.com/package/mustache|npm "mustache - Logic-less {{mustache}} templates with JavaScript"]].
+== Node-RED ==
+  *[[http://www.nodered.org/|Node-RED - A visual tool for wiring the Internet of Things]], [[http://www.github.com/node-red|GitHub "node-red"]].
+      *[[http://www.npmjs.com/package/node-red|npm "node-red. A visual tool for wiring the Internet of Things"]].
+      *[[http://flows.nodered.org/|Node-RED Library]].
+      *It is the Node.js killer application for Internet-Of-Things and its protocols ( MQTT,..), also with cloud services.
+      *[[http://www.techrepublic.com/article/node-red/|TechRepublic "How IBM's Node-RED is hacking together the internet of things"]].
+      *[[http://www.gigaom.com/2013/09/27/meet-node-red-an-ibm-project-that-fulfills-the-internet-of-things-missing-link/|Gigaom "Meet Node-RED, an IBM project that fulfills the internet of things’ missing link"]].
+      *Video [[http://www.youtube.com/watch?v=f5o4tIz2Zzc|YouTube "Node Red in 5 minutes"]].
+=== Tips & Tricks ===
+  *Installation:
+    -"sudo apt-get install npm".
+    -"sudo ln -s /usr/bin/nodejs /usr/bin/node".
+  *[[http://www.justjs.com/|justjs: node.js tutorials]].
+   *[[http://www.justjs.com/posts/npm-link-developing-your-own-npm-modules-without-tears|justjs: node.js tutorials "npm link: developing your own npm modules without tears"]].
+=== Literature ===
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1430243899/hemmerling-21|Andreas Bergström: "Pro Node.js"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1617290572/hemmerling-21|Mike Cantelon, T. J. Holowaychuk, Nathan Rajlich: "Node.js in Action"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1783280433/hemmerling-21|David Mark Clements: "Node Cookbook: Second Edition"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1430260580/hemmerling-21|Cory Gackenheimer: "Node.js Recipes: A Problem-Solution Approach"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1449333605/hemmerling-21|Daniel Howard: "Node.js for PHP Developers: Porting PHP to Node.js"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3868997970/hemmerling-21|Tom Hughes-Croucher, Mike Wilson: "Einführung in Node.js"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1449398588/hemmerling-21|Tom Hughes-Croucher, Mike Wilson: "Node: Up and Running: Scalable Server-Side Code with JavaScript"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/184951514X/hemmerling-21|David Herron: "Node Web Development"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1430258608/hemmerling-21|Colin J. Ihrig: "Pro Node.js for Developers"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1449318835/hemmerling-21|Garann Means: "Node for Front-End Developers"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0672335956/hemmerling-21|George Ornbo: "Sams Teach Yourself Node.js in 24 Hours"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1449323073/hemmerling-21|Shelley Powers: "Learning Node"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3864901324/hemmerling-21|Golo Roden: "Node.js & Co."]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3836221195/hemmerling-21|Sebastian Springer: "Node.js: Das umfassende Handbuch. Serverseitige Webapplikationen mit JavaScript entwickeln"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1118185463/hemmerling-21|Pedro Teixeira: "Professional Node.js: Building Javascript Based Scalable Software"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0321910575/hemmerling-21|Marc Wandschneider: "Learning Node.js: A Hands-On Guide to Building Web Applications in JavaScript"]].
+=== Resources ===
+    *[[http://en.wikipedia.org/wiki/Node.js|EN.Wikipedia "Node.js"]], [[http://de.wikipedia.org/wiki/Node.js|DE.Wikipedia "Node.js"]].
+===== Some HTML5 / Javascript Client Frameworks =====
+==== Adobe Flex ====
+  *Adobe Flex - see [[audiovision04.html|Audiovision 4/5 - Video Tools]].
+==== AngularJS ====
+  *The OpenSource [[http://www.angularjs.org/|AngularJS]], [[http://www.github.com/angular|Github "angular"]] "by Google".
+    *[[http://en.wikipedia.org/wiki/AngularJS|EN.Wikipedia "AngularJS"]] - "Its goal is to augment browser-based applications with [[http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller|Model–View–Controller]] (MVC) capability, reduce the amount of JavaScript needed to make web applications functional. These type of apps are also known as [[http://en.wikipedia.org/wiki/Single-page_application|Single-Page Applications]]".
+    *[[http://goo.gl/Xa0Ea|AngularJS Tutorial Instructions]].
+      *[[http://www.github.com/IgorMinar/ng-todo/tree/demo-rupy|Github "IgorMinar / ng-todo"]] - "TODO App for inspiration".
+    *[[http://angular-ui.github.com/|Github "AngularUI"]].
+    *[[http://www.github.com/ajoslin/angular-mobile-nav|Github "ajoslin/angular-mobile-nav"]] - "An angular navigation service for mobile applications".
+    *[[http://www.ngmodules.org/|Angular Modules - Find Moudles for AngularJS]].
+    *Slides [[http://github.com/PascalPrecht/slides/tree/master/angularjs-insights|Pascal Precht "slides / angularjs-insights"]] of speech 2013-01-24.
+    *Slides [[http://www.github.com/smancke/angularjs-intro/|GitHub "smancke /angularjs-intro"]], [[http://smancke.github.io/angularjs-intro/|GitHub.io "smancke /angularjs-intro"]] of 2014-08-24. Tipp: Use keyboard arrow keys left+right change the slide page.
+    *AngularJS is good choice to create "single-page application".
+      *[[http://en.wikipedia.org/wiki/Single-page_application|EN.Wikipedia "Single-page application"]], [[http://de.wikipedia.org/wiki/Single-page_Web_Application|Single-page Web Application]].
+      *[[http://www.singlepageappbook.com/|Single page apps in depth. a.k.a Mixu's single page app book]].
+    *Angular is known to be vurnerable by "Code Injection", similar to "SQL injection" - though Angular has a scanner to avoid this, the scanner can't be perfect and so I was presented Angular code injection in 2015, by experts.
+==== Appcelerator - "Native" Framework & IDE for Smartphones ====
+=== The Company ===
+  *[[http://www.appcelerator.com/|Appcelerator, Inc. "Titanium"]] - "Native iPhone and Android Applications Rock".
+    *[[http://www.linkedin.com/in/jhaynie|LinkedIn "Jeff Haynie"]], [[http://www.xing.com/profile/Jeff_Haynie|XING "Jeff Haynie"]].
+      *[[http://www.slideshare.net/jhaynie|Slideshare "Jeff Haynie"]].
+  *[[http://developer.appcelerator.com/documentation|Appcelerator, Inc. "Developer"]].
+    *[[http://developer.appcelerator.com/documentation|Appcelerator, Inc. "Documentation"]].
+    *Blog [[http://developer.appcelerator.com/blog/|Appcelerator Developer Blog]].
+  *[[http://my.appcelerator.com/|Appcelerator, Inc. "My Appcelerator"]].
+    *[[http://my.appcelerator.com/resources|Appcelerator, Inc. "My Appcelerator / Resources"]].
+  *[[http://platform.appcelerator.com/|Appcelerator, Inc. Dashboard "Platform"]].
+  *[[http://web.appcelerator.com/|Appcelerator, Inc. "Web"]].
+  *[[http://jira.appcelerator.org/|Appcelerator Jira]].
+    *[[http://jira.appcelerator.org/secure/BrowseProjects.jspa?selectedCategory=all|Appcelerator Jira "Browse Projects - All Projects"]].
+      *[[http://jira.appcelerator.org/browse/AC|Appcelerator Jira, Project "Appcelerator Community"]].
+      *[[http://jira.appcelerator.org/browse/TISTUD|Appcelerator Jira, Project "Appcelerator Studio"]].
+      *[[http://jira.appcelerator.org/browse/APSTUD|Appcelerator Jira, Project "Aptana Studio"]].
+  *Commercial offer: Titanium Professional / Indie & Enterprise subscriptions - "Titanium+Plus Starter Modules includes 18 modules for rapid addition of commerce, communication, gaming, in-app advertising and utility functionality to apps. Popular modules integrate Paypal purchasing, barcode scanning, chart rendering and Urban Airship notifications. Premium modules include Omniture and Brightcove".
+=== IDEs based on Eclipse and Command Line Tools, for Linux, Windows, MacOSX ===
+  *The free IDE Appcelerator Studio.
+  *[[http://web.appcelerator.com/tools|Appcelerator, Inc. "Tools"]].
+    *[[http://web.appcelerator.com/product/studio|Appcelerator, Inc. "Appcelerator Studio 4"]]. 
+        *In 2015-08, version 4.1.0 is available for download, while during the installation process, the installation forces the update to version 4.1.2, by online download.
+        *You need a free account at [[http://my.appcelerator.com/|Appcelerator, Inc. "My Appcelerator"]] and a "Appcelerator Device Authorization" code sent to you by E-Mail or SMS to activate the IDE. 
+        *Ticket [[http://jira.appcelerator.org/browse/TC-5652|Appcelerator Jira "'Your Appcelerator Device Authorization' succeeded with the 3rd try :-("]], [[http://jira.appcelerator.org/projects/APSTUD/issues/APSTUD-8420?filter=allopenissues|Appcelerator Jira "'Your Appcelerator Device Authorization' succeeded with the 3rd try :-("]].
+  *The free commandline tools.
+    *[[http://web.appcelerator.com/product/cli|Appcelerator, Inc. "Appcelerator Command Line Tools (CLI)"]] for Node.js.
+      *Online installation: "npm install appcelerator -g".
+  *The OpenSource IDE [[http://www.aptana.com/products/studio3/download.html|Aptana Studio 3.6.1]].
+=== The OpenSource Titanium Desktop ===
+  *Blog article [[http://developer.appcelerator.com/blog/2012/01/the-future-of-titanium-desktop.html|Appcelerator Developer Blog "The Future of Titanium Desktop"]].
+  *[[http://groups.google.com/group/titanium-desktop-transition|Google Groups "Titanium Desktop Transition"]],  
+=== Appcelerator & Android SDK ===
+  *[[http://docs.appcelerator.com/platform/latest/#!/guide/Installing_the_Android_SDK|Appcelerator, Inc.  "Installing the Android SDK"]].
+  *This way you can configure Android SDK with Appcelerator:
+    -Open the Preferences dialog: On Windows and Linux, from the studio menu bar, select Window > Preferences.
+    -In the Preferences dialog, navigate to Studio > Platforms > Android SDK.
+    -Set your Android SDK path. Enter the path to your Android SDK in the Android SDK Home textbox or click the Configure button to navigate to the SDK directory.
+    -Select your default Android SDK. Select a Google APIs item from the Default Android SDK drop-down menu.
+    -Click "apply" and "ok".
+  *Now, If in your SDK folder does not contain the necessary build tools which are required for the installed Appcelerator SDKs to develop Android apps, Then dialog will show an error "No Android SDK found in the specified folder". This means you need to upgrade and install newer Android SDK tools. Android SDK packages can be installed using the Android SDK Manager tool. which is in "Android SDK folder/tools/android". It will open Android SDK Manager tool which will show you the SDK tools are installed. And Also the newer SDK tools that you can install. Instal the SDK tools. Now restart the studio and go to the Preferences dialog and check if the error still exist? you will see the Android SDK is configured with the studio.
+=== Tips & Tricks ===
+  *Wiki [[http://wiki.appcelerator.org/|Appcelerator Wiki]].
+    *[[http://wiki.appcelerator.org/display/guides2/Downloading+and+Installing+Studio|Appcelerator Wiki "Downloading and Installing Studio"]].
+    *[[http://wiki.appcelerator.org/display/guides2/Studio+Feature+Comparison|Appcelerator Wiki "Studio Feature Comparison"]] - Aptana Studio is shipped with the add-on Python, Ruby, Ruby on Rails, PHP, while they are optional for Titanium Studio.
+  *Ticket [[http://jira.appcelerator.org/browse/TC-5651|Appcelerator Jira "Appcelerator Studio 4.1.0 & Aptana Studio 3.6.1 on Win8 fail to install, if there is already a Git installed"]], [[http://jira.appcelerator.org/projects/APSTUD/issues/APSTUD-8418|Appcelerator Jira "Appcelerator Studio 4.1.0 & Aptana Studio 3.6.1 on Win8 fail to install, if there is already a Git installed"]].
+  *Ticket [[http://jira.appcelerator.org/browse/TC-5653|Appcelerator Jira "Installation of Android SDK from within 'Appcelerator Studio 4.1.2' succeeded after 3 tries ( so failed 2 times )"]], [[http://jira.appcelerator.org/browse/APSTUD-8421|Appcelerator Jira "Installation of Android SDK from within 'Appcelerator Studio 4.1.2' succeeded after 3 tries ( so failed 2 times )"]].
+  *Aptana 3.x message when loading the IDE with empty workspace "Error loading browser. We were unable to load the [[http://www.chromium.org/|Chromium]] browser. Check the [[http://docs.appcelerator.com/titanium/3.0/#!/guide/Troubleshooting_a_Studio_Install_on_Linux|documentation]] for details on possible workarounds / fixes".
+=== Resources ===
+  *[[http://www.gitt.io/|gitTio! Search & Install all 866 Titanium Modules and 298 Alloy Widgets on GitHub]].
+  *[[http://en.wikipedia.org/wiki/Appcelerator_Titanium|EN.Wikipedia "Appcelerator Titanium"]].
+  *[[http://en.wikipedia.org/wiki/Aptana|EN.Wikipedia "Aptana"]].
+==== AppJS ====
+  *The OpenSource [[http://www.appjs.org/|AppJS]] - "Build Desktop Applications for Linux, Windows and Mac using HTML, CSS and Javascript".
+    *[[http://www.twitter.com/appjs|Twitter "appjs"]] - "SDK to develop cross-platform desktop apps with HTML5/Nodejs".
+==== Project Avatar ====
+  *[[http://avatar.java.net/|Project Avatar]] - "It provides a JavaScript services layer zeroed in on supporting REST, WebSockets and Server-Sent Events, and a rich client side framework that assumes very minor JavaScript knowledge".
+    *[[http://www.heise.de/developer/artikel/Oracles-Project-Avatar-Komplettansatz-fuer-moderne-Webanwendungen-2114043.html|heise online "Oracles Project Avatar – Komplettansatz für moderne Webanwendungen. Von blauen Männchen"]], 2014-02-18.
+==== Backbone.js ====
+  *[[http://www.github.com/backbone/|GitHub "backbone (Kolan)"]].
+    *[[http://documentcloud.github.com/backbone/|GitHub "Backbone.js"]].
+    *[[http://www.backbonejs.org/|Backbone.ws]], [[http://www.backbone.ws/|Backbone.ws]], [[https://chili.backbone.ws/|Backbone.ws]].
+==== Baker Ebook Framework ====
+  *[[http://www.bakerframework.com/|Baker Ebook Framework]].
+  *[[http://github.com/simbul/baker/|GitHub "Simbul / baker"]].
+  *The OpenSource HTML editor [[http://www.bluegriffon.org/|BlueGriffon]] is suitable for eBook Authoring.
+      *The commercial HTML5 editor [[http://tumultco.com/hype/|Tumult Hype]] just for MacOSX is suitable for eBook Authoring.
+==== Chadin.js ====
+  *[[http://heelhook.github.io/chardin.js/|Chadin.js]] - "Simple overlay instructions for your apps".
+==== Createjs ====
+  *[[http://www.createjs.org/|Createjs]] - "A comprehensive web editing interface for Content Management Systems. It is designed to provide a modern, fully browser-based HTML5 environment for managing content".
+==== D3.js - Data-Driven Documents ====
+  *[[http://www.d3js.org/|D3.js - Data-Driven Documents]], [[http://www.github.com/mbostock/d3|GitHub "mbostock/d3"]].
+==== greuler - graph theory visualizations ====
+  *[[http://maurizzzio.github.io/greuler/|GitHub.io "greuler - graph theory visualizations"]], [[http://github.com/maurizzzio/greuler|GitHub "maurizzzio/greuler"]].
+==== hopscotch ====
+  *[[http://www.github.com/linkedin/hopscotch|Github "linkedin/hopscotch"]] - "A framework to make it easy for developers to add product tours to their pages".
+==== Intel INDE ====
+  *[[http://software.intel.com/en-us/intel-inde|Intel Integrated Native Developer Experience]].
+  *Intel XDK NEW.
+    *[[http://xdk-software.intel.com/|Intel XDK NEW]].
+    *[[http://software.intel.com/en-us/html5/|Intel Developer Zone - HTML5]].
+      *[[http://software.intel.com/en-us/html5/articles/xdkdocs|Intel XDK Documentation]].
+    *The online service [[http://www.appmobi.com/|appMobi]].
+      *"Cross platform push messaging, app promotion, in-app purchasing, integrated analytics and more, for all applications and deployed in any environment".
+      *"Our cloud services are integrated in the Intel XDK".
+      *[[http://apphub.appmobi.com/|apppMobi appHub]] ( login ).
+    *Videos.
+      *[[http://www.youtube.com/watch?v=y0kKXBYV6B0|YouTube "Intel HTML5 XDK Demo"]].
+      *[[http://www.youtube.com/watch?v=q9B-ciMCSXM|YouTube "Intel HTML5 XDK Developer Tool Kit Demo"]].
+    *On my legacy Win7 computer with "Athlon XP2400" CPU, 3 GB RAM, "NVIDIA GeForce 6800 GS/XT" graphics card with 512 MBytes RAM: The Intel Setup software "setup.exe" ( included in the installable archive "xdk_web_win_master_0240.exe" ) crashes
+==== jQuery ====
+  *[[http://www.jquery.com/|jQuery]] - "jQuery is a fast and concise JavaScript Library that simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development. jQuery is designed to change the way that you write JavaScript". 
+  *I was told by HTML/CSS designers ( who are no software developers and the only Javascript code they write is to call "jQuery" ) that jQuery is the genious tool to access the browser DOM.
+    *[[http://en.wikipedia.org/wiki/Document_Object_Model|EN.Wikipedia "Document Object Model"]], [[http://de.wikipedia.org/wiki/Document_Object_Model|DE.Wikipedia "Document Object Model"]].
+  *[[http://jquerymobile.com/|jQuery Mobile]].
+  *[[http://en.wikipedia.org/wiki/JQuery|EN.Wikipedia "jQuery"]], [[http://de.wikipedia.org/wiki/JQuery|DE.Wikipedia "jQuery"]].
+  *JQuery applications "Flot":
+    *[[http://www.flotcharts.org/|Flot - Attractive JavaScript plotting for jQuery]].
+    *[[http://code.google.com/p/flot/|Google Code "flot - Attractive Javascript plotting for jQuery"]].
+    *[[http://www.github.com/flot|Github "flot"]].
+    *[[http://www.jqueryflottutorial.com/|jQuery Flot Tutorial]].
+    *Blog [[http://www.flotcharts.org/blog/|Flot Blog]].
+    *[[http://people.iola.dk/olau/|Ole Laursene]].
+      *[[http://people.iola.dk/olau/flot/examples/|Ole Laursen "Flot Examples"]].
+    *[[http://www.pureexample.com/jquery-flot/introduction.html|Pure Example "jQuery Flot Introduction"]].
+    *[[http://www.slideshare.net/alexarsh/jquery-flot|SlideShare "Arshavski Alexander: JQuery Flot]].
+    *[[http://digitalunion.osu.edu/2011/12/21/make-graphs-and-charts-with-jquery-using-flot-js-%E2%80%94-a-brief-tutorial/|digitalunion, Joe Bondra "Make Graphs and Charts with jQuery Using Flot.js — A Brief Tutorial"]].
+  *[[http://www.jqueryui.com/|jQuery UI]] - "A curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library".
+    *[[http://www.jqueryui.com/accordion/|jQuery UI - Accordion]].
+  *[[http://www.meteor.com/|Meteor]], [[http://www.github.com/meteor|GitHub "meteor"]] - "An open-source platform for building top-quality web apps in a fraction of the time, whether you're an expert developer or just getting started".
+  *[[http://projects.nickstakenburg.com/lightview|Nick Stakenburg "Lightview - The jQuery Lightbox"]].
+  *[[http://overapi.com/jquery/|OverAPI.com "jQuery Cheat Sheet"]] #.
+==== Meteor.js ====
+  *[[http://www.meteorhacks.com/|Meteorhacks]].
+    *[[http://www.meteorhacks.com/meteor-js-web-framework-for-everyone.html|Meteorhacks "Meteor.js - A web framework for everyone"]].
+    *[[http://en.wikipedia.org/wiki/Meteor_%28web_framework%29|EN.Wikipedia "Meteor (web framework)"]].
+==== Mousetrap ====
+  *[[http://www.craig.is/killing/mice|Mousetrap]], [[http://www.github.com/ccampbell/mousetrap|Github "ccampbell/mousetrap"]] - "A simple library for handling keyboard shortcuts in Javascript".
+==== Cordova / Phonegap ====
+  *[[http://www.phonegap.com/|PhoneGap]].
+    *Wiki [[http://wiki.phonegap.com/|Phonegap Wiki]].
+    *The commercial service [[http://build.phonegap.com/|PhoneGap:Build - Write once. Compile in the cloud. Run anywhere]], free entry "developer" account.
+    *"Based on HTML5, PhoneGap leverages web technologies developers already know best... HTML and JavaScript".
+    *"The only OpenSource mobile framework that supports 7 platforms".
+    *"Nitobi has been acquired by Adobe", 2011-10-03.
+    *According to experts, PhoneGap is suitable for "hybride apps" :-).
+  *The OpenSource [[http://cordova.apache.org/|Apache Cordova]] - "A platform for building native mobil applications using HTML, CSS and JavaScript".
+  *[[http://en.wikipedia.org/wiki/PhoneGap|EN.Wikipedia "PhoneGap"]], [[http://de.wikipedia.org/wiki/PhoneGap|DE.Wikipedia "PhoneGap"]].
+==== Prototype.js ====
+  *The object-oriented JavaScript framework [[http://www.prototypejs.org/|Prototype.js]].
+==== RAD.js ====
+  *[[http://www.rad-js.com/|RAD.js]] - "Optimized for iOS, Android, also supports Chrome, Firefox, Opera, Safari, IE 10, Windows Phone 8" ##.
+    *[[http://www.mobidev.biz/blog/radjs_%E2%80%93_a_breakthrough_in_cross-platform.html|MobiDev "RAD.js – A Breakthrough In Cross-Platform"]], 2013-09-24.
+==== REST-based Javascript Frameworks ====
+  *See [[rest.html|Representational State Transfer ( REST )]].
+==== Resumable.js ====
+  *[[http://www.resumablejs.com/|Resumable.js]], [[http://www.github.com/23/resumable.js|Github "23/resumable.js"]] - "A JavaScript library for providing multiple simultaneous, stable, fault-tolerant and resumable/restartable uploads via the HTML5 File API.
+
+==== Sencha Inc. ====
+  *[[http://www.sencha.com/products/touch/|Sencha Touch 2 - Build Mobile Web Apps with HTML5]].
+  *[[http://www.sencha.com/|Sencha Inc. "Ext JS"]].
+    *[[http://en.wikipedia.org/wiki/Ext_JS|EN.Wikipedia "Ext JS"]], [[http://de.wikipedia.org/wiki/Ext_JS|DE.Wikipedia "Ext JS"]].
+  *[[http://fb.html5isready.com/|Fastbook]].
+    *[[http://www.sencha.com/blog/the-making-of-fastbook-an-html5-love-story|Sencha Blog "The Making of Fastbook: An HTML5 Love Story"]], 2012-12-17.[[http://t3n.de/news/fastbook-startup-baut-433334/|t3n "Fastbook: Startup baut Facebook-App in HTML5 – Schneller als offizielle App"]], 2012-12-19.
+==== Socket.IO ====
+  *[[http://www.socket.io/|Socket.IO]] - "The cross-browser WebSocket for realtime apps".
+==== Syncfusion ====
+  *[[http://www.syncfusion.com/|Syncfusion]].
+    *The commercial but affordable [[http://www.syncfusion.com/sales/offers/js-hobbyist|Syncfusion "Essential Studio for Javascript"]] for hobbyists - Price: 1 $. "The first JavaScript control framework designed for line-of-business (LOB) applications. 40+ unique controls including charts, grids, maps, gauges and much more".
+==== TideSDK ====
+  *[[http://www.tidesdk.org/|TideSDK - Create multi-platform desktop apps with HTML5, CSS3 and JavaScript]], [[http://www.github.com/TideSDK/|Github "TideSDK"]].
+    *[[http://www.twitter.com/TideSDK|Twitter "TideSDK"]].
+==== Underscore.js =====
+  *[[http://www.underscorejs.org/|Underscore.js]] - "A utility-belt library for JavaScript that provides a lot of the functional programming support that you would expect in [[http://www.prototypejs.org/|Prototype.js]], but without extending any of the built-in JavaScript objects".
+==== Windows Library for JavaScript ( WinJS ) ====
+  *See [[metro.html|Flat Design]] -> WinJS.
+==== Yeoman ====
+  *[[http://www.yeoman.io/|Yeoman - Modern workflows for modern webapps]].
+===== Some Intermediate Language Frameworks for HTML5 / Javascript Clients =====
+==== Dart ====
+  *[[http://www.dartlang.org/|Dart]] - " An open-source, scalable programming language, with robust libraries and runtimes, for building web, server, and mobile apps".
+  *[[http://www.techcrunch.com/2015/03/25/google-will-not-integrate-its-dart-programming-language-into-chrome/|TechCrunch "Google Will Not Integrate Its Dart Programming Language Into Chrome"]], 2015-03-25.
+  *[[https://en.wikipedia.org/wiki/Dart_%28programming_language%29|EN.Wikipedia "Dart (programming language)"]], [[https://de.wikipedia.org/wiki/Dart_%28Programmiersprache%29|DE.Wikipedia "Dart (Programmiersprache)"]].
+==== Google Web Toolkit ====
+  *[[http://developers.google.com/web-toolkit/|Google Web Toolkit]] ( GWT ).
+  *[[http://code.google.com/p/mgwt/|mgwt - Mobile GWT]].
+  *Popular users:
+    *The "new" [[http://www.studivz.net/|StudiVZ]].
+    *Expert: [[http://www.twitter.com/cainvommars|Twitter "Peter Willert"]], [[http://www.devbliss.com/|devbliss GmbH]] - BarCamp Hamburg 2012 session "GWT für Frontender".
+  *Principles: 
+    *You write Java code, the GWT creates Javascript for Browsers.
+    *You write a [[http://en.wikipedia.org/wiki/Single-page_application|Single-Page Applications]]. There is a file "nocache.js" loaded by the first and only HTML page. Then all other contents is loaded dynamically by this Javascript code.
+    *You might distribute the Javascript code generated by GWT by a [[http://www.phonegap.com/|Phonegap]] application.
+    *You might communicate in Javascript by REST protocol with server.
+===== Resources =====
+  *[[http://www.wearepropeople.com/blog/a-list-of-top-javascript-frameworks|Propeople Blog. A regular dose of fresh news, events, products, Drupal development resources and more "A List of Top JavaScript Frameworks"]].
+  *[[http://en.wikipedia.org/wiki/List_of_JavaScript_libraries|EN.Wikipedia "List of JavaScript libraries"]].
+  *[[http://en.wikipedia.org/wiki/Comparison_of_JavaScript_frameworks|EN.Wikipedia "Comparison of JavaScript frameworks"]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Programming/Languages/JavaScript/|OpenDirectory "Top: Computers: Programming: Languages: JavaScript]].
+  *[[http://www.dmoz.org/Computers/Programming/Languages/HTML/|OpenDirectory "Top: Computers: Programming: Languages: HTML]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Programmieren/Sprachen/JavaScript/|OpenDirectory "Top: World: Deutsch: Computer: Programmieren: Sprachen: JavaScript"]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Programmieren/Sprachen/HTML/|OpenDirectory "Top: World: Deutsch: Computer: Programmieren: Sprachen: HTML"]].
+{{tag>"web technologies" HTML5 HTML XML Javascript "web frameworks" "software frameworks for web applications" "web applications" web applications application}}
+<footnote_navi_en>

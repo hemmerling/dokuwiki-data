@@ -1,0 +1,411 @@
+====== [hemmerling] Application Lifecycle Management ( ALM ) 1/2 ======
+Related page:
+  *[[alm02.html|Application Lifecycle Management ( ALM ) 2/2]].
+  *[[pmsoftware.html|Project Management Software & Software to be used in Projects]].
+  *[[requirements.html|Requirements]].
+  *[[groupware.html|Team Software, Collaboration Software, Groupware & Application Lifecycle Management]].
+  *[[testing.html|Testing]].
+===== Hewlett-Packard 1/2 =====
+==== ALM Portefolio ====
+  *[[http://www.hp.com/go/hpalm|Hewlett-Packard "ALM Software"]].
+  *[[http://www8.hp.com/us/en/software/enterprise-software.html|Hewlett-Packard "Enterprise Software"]].
+  *[[http://h30499.www3.hp.com/t5/Products/ct-p/sws-ProductFamilies|HP Enterprise Business Community]] #.
+  *[[http://www8.hp.com/de/de/software-solutions/software.html?compURI=1215990|Hewlett-Packard "Application Lifecycle Management. Steuerung des Lebenszyklus moderner, agiler Anwendungen"]].
+  *[[http://www8.hp.com/de/de/software-solutions/software.html?compURI=1175730|Hewlett-Packard "HP Diagnostics Software
+Gewährleisten, dass Probleme während des gesamten Lebenszyklus ermittelt und behoben werden"]].
+  *[[http://www8.hp.com/us/en/software-solutions/software.html?compURI=1172957|Hewlett-Packard "HP Unified Functional Testing software. Test early, test often, test continuously with automation testing"]].
+  *Blogs [[http://h30499.www3.hp.com/t5/Application-Lifecycle-Management/ct-p/application-lifecycle-mgnt|Hewlett-Packard "HP Enterprise Business Community - Application Lifecycle Management Blogs"]].
+==== "Hewlett-Packard Quality Center" ( HPQC ) - Commercial Edition and free "HP Quality Center Community Edition" ====
+=== The Tool ===
+  *[[http://web.archive.org/web/*/http://www.mercury.com/us/products/|Archive.org "Hewlett Packard: Mercury Products"]].
+    *[[http://web.archive.org/web/*/http://www.mercury.com/us/products/quality-center/|Archive.org "Hewlett Packard: Mercury Quality Center"]].
+  *[[http://www8.hp.com/us/en/software-solutions/quality-center-quality-management/|Hewlett Packard "Quality Center Enterprise (QC)"]] - "Integrated IT quality management software that helps you to standardize testing, engineer for performance, and fix defects to optimize quality, reduce costs, and deliver applications fast with confidence".
+  *[[http://h10078.www1.hp.com/cda/hpms/display/main/hpms_content.jsp?zn=bto&cp=1-11-127-24_4000_5__|HP Application Lifecycle Management]] - "HP Quality Center Software".
+  *[[http://www8.hp.com/us/en/software/software-product.html?compURI=tcm:245-937045&pageTitle=quality-center|Hewlett Packard "HP Quality Center software"]].
+  *[[http://web.archive.org/web/*/http://www.mercury.com/us/products/testdirector/|Archive.org "Hewlett Packard: Mercury Test Director"]].
+=== Online Services ===
+== Hewlett-Packard Quality Center as Cloud Service ==
+  *[[http://azure.microsoft.com/en-us/marketplace/partners/hewlett-packard-development-company-l-p/hpqualitycenteronsaas/|Microsoft Azure "HP Quality Center on SaaS"]].
+== The "Mercury Tours" Demo ==
+  *The online demo application [[http://newtours.demoaut.com/|Mercury Tours]].
+    *[[http://h30499.www3.hp.com/t5/Unified-Functional-Testing/Mercury-Tours-website-Can-t-login/td-p/6386811|HP Enterprise Business Community "Unified Functional Testing (formerly QTP) News and Support Forum" - "Mercury Tours website - Can't login"]] - "Instead of tutorial as username and password , Try mercury for username and password".
+  *The Mercury Tours demo application is not shipped with HPQC 12.20 anymore :-(.
+    *[[http://localhost:8080/mtours|Localhost "Mercury Tours"]] with Hewlett-Packard Quality Center 12.20 - "Mercury Tours demo application is not installed".
+=== Download of the free "HP Quality Center Community Edition" ===
+== The Tool ==
+  *[[http://www8.hp.com/us/en/software-solutions/alm-software-development-testing/try-now.html|Hewlett-Packard "ALM Software Trials and Demos"]], [[http://www8.hp.com/us/en/software-solutions/quality-center-quality-management/try-now.html|Hewlett-Packard "Quality Center Enterprise Trials"]] - The free 64-bit Java application "Quality Center Community Edition" is available for download. Features:
+    *ALM Desktop Client Modules ( strike-through = just available with the commercial edition, not available with the community edition ):
+      *Dashboard.
+        *Analysis View.
+        *Dashboard View.
+      *Management.
+        *Releases.
+        *<del>Libraries</del>.
+      *<del>Requirements</del>.
+        *<del>Requirements</del>.
+        *<del>Business Models</del>.
+      *Testing.
+        *<del>Test Resources</del>.
+        *<del>Business Components</del>.
+        *Test Plan.
+        *Test Lab.
+        *Test Runs.
+      *Defects.
+    *ALM Web Client Modules:
+      *Requirements.
+      *Defects.
+    *Limited to 5 named users.
+    *Free for unlimited time.
+    ***Import of project export files ( .qcp ) is disabled :-(**, while you may export projects indeed. See below in section 'How to install the Demo Projects "DEMO" and "LAB_PROJECT"' how to import projects :-)
+== Add-Ins shipped with the free "HP Quality Center Community Edition" ==
+  *[[http://localhost:8080/qcbin/|Localhost "Application Lifecycle Management"]].
+    *[[http://localhost:8080/qcbin/addins.html|Localhost "Application Lifecycle Management - Tools"]].
+      *[[http://localhost:8080/qcbin/TDConnectivity_index.html|Localhost "HP ALM Connectivity Tool"]].
+      *[[http://localhost:8080/qcbin/LabService_index.html|Localhost "HP ALM Lab Service"]].
+      *[[http://localhost:8080/qcbin/CommonMode_index.html|Localhost "HP ALM Client Registration"]].
+        *[[http://localhost:8080/qcbin/start_a.jsp?common=true|Register HP ALM]].
+        *[[http://localhost:8080/qcbin/SiteAdmin.jsp?common=true|Register HP ALM Site Administration]].
+      *[[http://localhost:8080/qcbin/SharedDeployment_index.html|Localhost "Shared Deployment for Virtual Environments"]].
+      *[[http://localhost:8080/qcbin/WebGateCustomization.html|Localhost "HP ALM WebGate Customization"]].
+  *[[http://192.168.178.2:8080/qcbin/|192.168.178.2 "Application Lifecycle Management"]] - doesn´t work so far :-(.
+== Add-Ins for the free "HP Quality Center Community Edition" ==
+  *[[http://update.external.hp.com/ALM/WhatsNew_Addins_Movies/|HP Application Lifecycle Management Resources]] - "What's New", "Add-ins", "Movies".
+  *[[http://hpln.hp.com/node/10354/contentfiles|HP Live Network "Add-in Content for ALM"]].
+    *[[http://hpln.hp.com/page/hp-alm-client-msi-generator|HP Live Network "HP ALM Client MSI Generator"]].
+    *[[http://hpln.hp.com/page/hp-alm-explorer-add|HP Live Network "HP ALM Explorer Add-in"]] - "HP ALM Explorer Add-in for ALM 12.00 and Later", for MSIE Internet browser. In which case must I really install this download?!
+    *[[http://hpln.hp.com/page/hp-alm-system-test-remote-agent-add|HP Live Network "HP ALM System Test Remote Agent Add-in"]].
+    *[[http://hpln.hp.com/group/application-lifecycle-intelligence|HP Live Network "Application Lifecycle Intelligence (ALI)"]].
+      *"There is no need to apply ALI extension because it is already pre-installed in HP ALM 12.2".
+      *"It aggregates information from multiple ALM tools to establish a complete ALM traceability and to surface actionable information and help ALM stakeholders in making informed decisions. Application Lifecycle Intelligence provides out of the box integration to Source Control Management, Build Management \ Continuous Integration and IDE".
+    *[[http://hpln.hp.com/page/hp-screen-recorder|HP Live Network "HP Screen Recorder"]] for Windows with .NET.
+      *[[http://h30499.www3.hp.com/t5/Quality-Center-ALM-Knowledge/How-to-create-a-recording-using-the-HP-Screen-Recorder/ta-p/5932691|Hewlett-Packard Community Knowledge Base "How to create a recording using the HP Screen Recorder"]].
+== Add-Ins just for the commercial Edition of "HP Quality Center" or which require additional commercial Software  ==
+  *[[http://hpln.hp.com/node/10354/contentfiles|HP Live Network "Add-in Content for ALM"]].
+    *[[http://hpln.hp.com/page/alm-business-views-excel-add|HP Live Network "ALM Business Views Excel Add-in"]].
+      *Error message:<code>
+Microsoft Excel 2007/Excel 2010/Excel 2013(32bit) is not installed. Using Business Views Excel Report requires Microsoft Excel 2007/Excel 2010/Excel 2013(32bit) to be installed</code>
+      *The alternative is the free legacy EXCEL Report generator, still available with HPQC 12.20.
+        *[[http://h30499.www3.hp.com/t5/Quality-Center-Support-and-News/Quality-Centre-version-12-20-can-t-see-the-Query-Builder/td-p/6725228#.VcTx4I691xw|HP Enterprise Business Community "Quality Center / ALM", Forum "Quality Center Support and News Forum", Thread "Quality Centre version 12.20 - can't see the Query Builder anywhere"]].
+          *"According to HP documentation "HP ALM v12.01 - What's New", Excel reports are no longer fully available from  ALM v12.00".
+          *"Creation of new Excel reports were disabled in the ALM UI starting with v12.0. They want you to use Business Views instead and use the Business Views Add-in for Excel. If you just can't live without being able to create those Excel reports in the ALM UI, refer to the Administrator Guide and look up 'ENABLE_CREATE_LEGACY_EXCEL_REPORT'".
+    *[[http://hpln.hp.com/group/sprinter|HP Live Network "Sprinter"]].
+      *"A suite of advanced features and tools that make manual testing more efficient and effective". 
+      *With "HP Quality Center Community Edition", it denies to connect to the HPQC server, by the error message:<code>
+Sprinter. Failed to connect to HP ALM. Your HP ALM edition is not supported</code>
+    *[[http://hpln.hp.com/page/alm-excel-addin-page|HP Live Network "HP ALM Microsoft Excel Add-in"]] for Microsoft Excel 2010 (32 bit and 64 bit) SP2 and Microsoft Excel 2013 (32 bit and 64 bit) SP1.
+      *The add-in installs even on Windows systems without Excel, without error message.
+    *[[http://hpln.hp.com/page/alm-word-add|HP Live Network "HP ALM Microsoft Word Add-in"]] for Microsoft Word 2010 (32 bit) SP1 (with MS12-060),  Microsoft Word 2013 (32 bit).
+      *Error message:<code>
+HP ALM Microsoft Word Add-in Setup. Cannot locate Microsoft Word components</code>
+== Add-Ins which require Download Permissions ==
+  *[[http://hpln.hp.com/page/hp-alm-robot-automatic-upgrade-tool|HP Live Network "HP ALM Robot - Automatic Upgrade Tool"]] - User guide ( PDF ).
+    *[[http://hpln.hp.com/contentoffering/alm-robot|HP Live Network "ALM Robot"]] - Download. Error message after login at "HP Live Network", when pressing the download button:<code>
+Permission Required. You don´t have the required permission to download this content</code>
+    *[[http://hpln.hp.com/node/10354/contentfiles|HP Live Network "Add-in Content for ALM" - "ALM Robot Demo"]] - User guide ( PDF ), WMV video.
+== History ==
+  *The free "HPQC Community Edition 12.20", released 2015-01-15 is for 64-bit Windows and 64-bit Linux only. For Windows, there is just a directory "Z:\ALM_Win64".
+  *The just-commercial "HPQC 12" for 64-bit Windows and 64-bit Linux only, released 2014-02-10, doesn´t offer a community edition license. For Windows, there is just a directory "Z:\ALM_Win64".
+  *The just-commercial "HPQC 11.52" is the latest edition with 32-bit support for Windows and Linux. It doesn`t offer a community edition license. For Windows, there are 2 directories "Z:\ALM_Win64" and "Z:\ALM_Win32". 
+    *As shipped it installs properly on Win7Pro. 
+    *Installation message: "Database Server: MS-SQL server must be installed in the same server machine as ALM server. If it is not installed on the machine, download MS-SQL Express 2008... Important Note. While installing MS-SQL Express, set 'SQL Instance' to 'Default' and 'Authentification mode' to 'Mixed'. After the installation has completed, run the SQL Server Configuration Manager from start menu and set TCP/IP to 'Enabled'. Make shure that MS-SQL server is running, then click 'Configure Database'".
+    *Error Message "The wizard could not determine if MS-SQL Express is installed on this machine. If MS-SQL Express is installed on the machine, make shure that it is configured using the 'Default', and not the 'Named' instance".
+  *The just-commercial "HPQC 11" and "HPQC 9.2" just accept Win2003 Server and Win2008 Server. They refuse to install on Win7:-(
+== Documentation ==
+  *The current documentation is available within HPQC at the "Site Administration".
+    *Login at "Site Administration" by your Internet browser.
+    *Select the menu item "Help / ALM Help".
+    *Select the menu item "ALM Help Guide".  Most help is available both as local HTML help and as PDF. Tip: Download the PDFs and keep it at a safe place, to have valuable information even if HPQC is not running.
+  *[[ftp://ftp.itrc.hp.com/applications/qualitycenter/alm115/DocsOnTap/Advanced/Fedex_Mobilehelp.htm|Hewlett-Packard "HP ALM Docs on Tap"]].
+    *[[ftp://ftp.itrc.hp.com/applications/qualitycenter/alm115/DocsOnTap/Advanced/Content/PDF_Download/PDF_download.htm|Hewlett-Packard "HP ALM Docs on Tap" - "PDF Download"]] - Download of the complete contents of the website "HP ALM Docs on Tap" as single PDF.
+  *"HP ALM Administrator Guide": "You can import data from exported ALM project files created in the same ALM version" :-(. "You can also import data from customized projects created by content providers....". "Projects greater than 2 GB cannot be imported" :-(. "They must be imported in sections".
+=== Installation ===
+== System requirements ==
+  *Host operating system: 64-bit Windows Server 2008 / 2012 or 64-bit Red Hat / Oracle / SUSE Linux.
+  *Host database: Microsoft SQL Server 2008 R2 / 2012  or Oracle 11.2.0.3 / 11.2.0.4 / 12.1.0.1. The application is not shipped with a free edition of any of the SQL servers, so you have to setup a suitable database server by your own, before, properly.
+  *CLient browsers: Microsoft Explorer, Firefox ( Win, Linux ), Chrome ( Win, MacOSX ), Safari ( MacOSX ).
+== Possible Installation Failures ==
+  *On 32-bit computers, running Win7/Win8 and Java8, the installation aborts with the error message<code>
+LaunchAnywhere Error. Windows error 216 occured while loading the Java VM</code>
+  *On 64-bit computers running Win8Pro and Java8, the installation aborts with the error message<code>
+Installation Error. ERROR: This machine's operating system is not supported and recommended ALM (2.20) server. The installation cannot continue.</code>
+  *You may not install 2 different versions of HPQC on the same computer. If you try, the installer aborts with the error message<code>
+Installation Error. THe installation cannot continue. A newer ALM version is already installed on this machine</code>
+== Installation Process, Part 1 ==
+  *Install "Microsoft SQL Server Express 2014", if not already done. Tips for suitable configuration see infos below about the HPQC installation process.
+  *Configure "Microsoft SQL Server Express 2014" properly for use with HPQC, by activation of TCP/IP.
+    *Call "Microsoft SQL Server Configuration Manager", connect to the SQL server
+      *Set "SQL Server Network Configuration / Protocols for SQLEXPRESS / TCP/IP / Protcocol / General / Enabled= 'Yes' ".
+        *Set "SQL Server Network Configuration / Protocols for SQLEXPRESS / TCP/IP / IP Addresses / IPALL".
+          *"TCP DynmicPorts = ''".
+          *"TCP Port = '1433'".
+      *Restart "SQL Services / SQL Server (SQLEXPRESS)" by mouse-rightclick "Restart".
+    *See [[http://social.msdn.microsoft.com/Forums/sqlserver/en-US/ab76cc10-5880-46f0-8f47-2e27709230ff/what-is-ms-sql-db-host-name-and-db-port-number-?forum=sqltools|Microsoft SQL Server Forums "What is MS SQL DB host name and DB port number ?"]].
+  *Installation on 64-bit computers running Win8Pro and Java8:
+    *Mount the ISO image.
+    *All files are read-lonly. If you try to unset the "Read-only" attribute, even as Windows systemaccount "Administrator", there is the error message<code>
+Access Denied. You will need to provide administrator permission to change these attributes</code>
+    *Therefore, please copy the contents of the ISO image to a directory on a local drive. 
+    *Modify the file "Z:\ALM_Win64\validation.xml" 
+      *From '<os enabled="false"/>' to '<os enabled="false"/>' to run the application on the unsupported operating system "Win8".
+      *From '<db-supported="false"/>' to '<db-supported="false"/>' to use the application with an unsupported database, e.g. "Microsoft SQL Server Express 2014".
+    *This is the file "validation.xml" with proper modifications<code>
+<validations>
+	<os enabled="false"/>
+	<memory enabled="true" threshold="8"/>
+	<installation_disk_space enabled="true" threshold="8"/>
+	<db-supported enabled="false"/>
+	<license-key enabled="true"/>
+	<repository enabled="true"/>
+</validations> 
+</code>
+  *By calling "Setup", you load the interactive menu "Application Lifecycle Managment Platform 2.20".
+    *By selecting "ALM Platform", the software is installed.
+== Installation Process, Part 2, by "HP ALM Server Configuration Wizard ==
+  *After the software installation, you configure now the application by "HP ALM Server Configuration Wizard" ( "Z:\ALM_Win64\ALM_installer.exe" ). You may restart the "HP ALM Server Configuration Wizard" at any time.
+  *Installation process, step "License Key": Enable "[x] Use Evaluation Key" and select "QC Community".
+  *Installation process, step "Database Server":
+    *"Database Type".
+      *(x)"MS-SQL (SQL Auth.)".
+      *( )"MS-SQL (Win Auth.)". 
+      *( )"Oracle". 
+    *"Database Connection":
+      *(x) "Database Parameters".
+        *"DB host name" -> In COMMAND.COM, execute the command "hostname". This is not the "Server name" ( $hostname"\SQLEXPRESS" ) of "Microsoft SQL Management Studio"!
+        *"DB port number" -> 1433 is the given default. 
+        *At this point, without modified file "validation.xml", the use of "Microsoft SQL Server Express 2014" is rejected by the error message<code>
+Error. ALM Server does not support this database version</code>
+          *You may restart the "HP ALM Server Configuration Wizard", after modification of "validation.xml".
+      *( )"Connection String", default:<code>
+jdbc:mercury:sqlserver://%HOST_NAME%:1433</code>
+    *"Database Administrator".
+      *"DB admin user name" -> Must be "sa" for Microsoft SQL Server Express.
+      *"DB admin password" -> I select "123456789012", as "Microsoft SQL server 2014 Express" requires a password in mode "SQL Authentification".
+  *Installation process, step "Select Action* - Select the default action "Create a New Scheme".
+    *"SA Schema Details.
+      *"Schema name": "qcsiteadmin_db", the given default name.
+      *"Schema password": -> I select "123456789012". This is the password for the user "td" of "Microsoft SQL Server".
+  *Installation process, step "Confidential Data Encryption" - "[x]Use default value(unsecure)".
+    *"Communication Security - Enter passphrase with at least 12 characters for secure communication.
+    *"Communication security passphrase" / "Repeat Communication security passphrase" - "123456789012".
+  *Installation process, step "Site Administrator User. Type user name and password to be used when logging in the Site Administration. This is not the same as the Site Administration database scheme name and password".
+    *"User name" -> I select "sa".
+    *"Password" -> I select "123456789012".
+  *Installation process, step "File Repository Path" -> "C:\ProgramData\HP\ALM\repository" is the default value.
+  *Installation process, step "Application Settings".
+    *"Deployment Path. Enter the path under which the application server is deployed. This path is also used for storing data and ALM server logs" -> "C:\ProgramPath\HP\ALM" is the default value.
+    *Web Server. Server HTTP Port" -> "8080" is the default value.
+  *Installation process, step "HP ALM Service. Type Your Windows login user name, password, and domain to enable HP ALM Server to run as a service using your local network. If you do not specify a user account, the local system account will be used to run the HP ALM Service. In this case, HP ALM Server will not have access to files over the network".
+      *"User name" -> I select "".
+      *"Password" -> I select "".
+      *"Domain" -> I select "".
+=== Important URLs for local HPQC Operation ===
+  *Start menu [[http://localhost:8080/qcbin/|Localhost "HP Application Lifecyle Management. Quality Center"]].
+    *[[http://localhost:8080/mtours/|Localhost "HP Application Lifecyle Management. Quality Center" - "Mercury Tours Demo Application"]].
+    *[[http://localhost:8080/qcbin/addins.html|Localhost "Application Lifecycle Management - Tools"]].
+    *[[http://localhost:8080/qcbin/Help/doc_library/online_help/almhelp_Left.htm|Localhost "HP ALM Help"]].
+      *[[http://localhost:8080/qcbin/Help/doc_library/api_refs/ota/|Localhost "HP ALM Help / API" - "HP ALM Open Test Architecture API Reference"]].
+      *[[http://localhost:8080/qcbin/Help/doc_library/api_refs/REST_TECH_PREVIEW/ALM_REST_API_TP.html|Localhost "HP ALM Help / API" - "HP ALM REST API"]].
+  *[[http://update.external.hp.com/ALM/WhatsNew_Addins_Movies/|HP Application Lifecycle Management Resources]] - "What's New", "Add-ins", "Movies".
+=== Enable Network Operation ===
+  *Disable DHCP and set your server on a local IP, e.g. 192.168.178.2.
+  *Disable the Windows firewall, for "Private Network" :-(.
+    *Still open question: How to enable Network access on Windows ?.
+      *[[http://h30499.www3.hp.com/t5/Quality-Center-Support-and-News/HPQC-12-20-Community-Edition-How-to-enable-Network-access-on/td-p/6770820#.Vb3xII691xw|HP Enterprise Business Community "Quality Center / ALM", Forum "Quality Center Support and News Forum", Thread "How to enable Network access on Windows ?"]].
+      *[[http://www.vivit-worldwide.org/forums/Posts.aspx?topic=1132497|Vivit Forums,  Subforum "Special Interest Group: Testing Quality and ALM" , Thread "HPQC 12.20 Community Edition - How to setup the URL/IP for the server?"]].
+      *[[http://stackoverflow.com/questions/31770514/hpqc-12-20-community-edition-how-to-enable-network-access-on-windows|StackOverflow "HPQC 12.20 Community Edition - How to enable Network access on Windows?"]].
+      *[[http://www.databaseskill.com/1040072/|Database Skill. About MySql, SQL Server, Oracle, PostgreSql, DB2, SyBase, SQL, T-SQL, PL-SQL "The QC server IP address change and how to access"]].
+  *Install [[http://hpln.hp.com/page/hp-alm-client-msi-generator|HP Live Network "HP ALM Client MSI Generator"]] on your HPQC server.
+  *On your HPQC server, call the "HP ALM Client MSI Generator" to create a rich client software.
+    *Screen "Generate Clilent MSI for HP ALM Server", Server Address -> e.g. "[[http://192.168.178.2:8080/qcbin|http://192.168.178.2:8080/qcbin]]. You may add more server addresses, but no address range.
+  *Deploy and install the rich client software on the Windows client.
+  *On your Windows client, call the Windows settings "Internet Options", e.g. by your Internet browser "MSIE", "Settings / Internet Options", tab "Security". 
+    *Select "Local Internet".
+    *Press the button "Sites".
+    *In the window "Use settings below to define which websites are included in the local intranet zone", press the button "Advanced".
+    *In the window "You can add and remove websites from this zone. All websites in this zone will use the zone's security settings", sz input field "Add this website to the zone", enter "http://192.168.178.2" and press the "Add" button.
+    *Press the "close" button.
+    *Press the "ok" button.
+    *Press the "ok" button.
+  *On your Windows client, Call the start menu [[http://192.168.178.2:8080/qcbin|http://192.168.178.2:8080/qcbin]] with your Internet browser "MSIE",
+    *If you forgot to add the HPQC server address to the trusted zone of your client computer, calling the "ALM Desktop Client" application aborts by the error message:<code>
+Initialization has failed. Contact your system administrator.
+For details, see the Loader log file.
+
+Failure details:
+Initialization failure. ALM server URL must be in the intranet zone or added to the trusted sites list.
+</code>
+=== Assign a Full License to a named User ===
+  *With your browser, call the "HP Application Lifecyle Management. Quality Center" website ( e.g.[[http://localhost:8080/qcbin/|http://localhost:8080/qcbin]] ).
+  *Login at "Site Administration".
+  *Select the tab "Licenses", and within that tab the tab "Named Licenses".
+  *In the column "Site Users":
+    *Select a user ( e.g. "sa" ), so that the field of the user is highlighted.
+    *Then double click on the username, or click on the green arrow ( "<=" ). 
+    *Press on the blue "Save" button, which shows a legacy diskette. Don´t forget to save!! 
+   *By this, one of the 5 licenses is now assigned to a named user.
+=== Login ===
+  *Login without assigning a "Full License" to the user:
+    *By "ALM Web Client" - works  √.
+    *By "ALM Desktop Client" - fails, by the error message<code>
+Warning. No licenses are available for any modules</code>
+  *Login after assigning a "Full License" to the user:
+    *By "ALM Web Client" - works √.
+    *By "ALM Desktop Client" - works √.
+=== How to install the Demo Projects "DEMO" and "LAB_PROJECT" ===
+== DEMO ==
+  *HPQC 12.20 is not shipped with a demo project. Please download the project file "ALM 12.20 ALM_Demo.qcp" at [[http://hpln.hp.com/page/almdemo-project|HP Live Network "ALM Demo Project"]].
+  *In opposite, the ISO images of "HPQC 11.52" and "HPQC 12" are shipped with a demo project, at "Z:\ALM Demo_Project". 
+  *Is this the HPQC project for the "Mercury Tours" Demo ?
+== LAB_PROJECT ==
+  *If you install the HPQC trial version, there is an additional project not available with the HPQC Community Edition already mounted in the database: LAB_PROJECT.
+== Resources ==
+  *Remember, Hewlett-Packard promises in its official documentations: "You cannot import Quality Center project export files (.qcp files) to Quality Center if they were created in an earlier version of Quality Center" :-(.
+== HPQC Community Edition ==
+  *Unfortunately, with the "HP Quality Center 12.20 Community Edition", the import of project export files ( .qcp ) is disabled :-(.
+== HPQC Trial Version ==
+  *The database files "demo_demo_db.mdf" and "demo_demo_db_log.ldf" of the project DEMO is at "C:\Program Files\Microsoft SQL Server\MSSQL12.SQLEXPRESS\MSSQL\DATA".
+  *If necessary to be able move the database files, please shut down the service "SQL Server (SQLEXPRESS)".
+== Import of the DEMO and LAB_PROJECT Projects into the HPQC Community Edition ==
+  *Install HPQC Trial editon.
+  *Shut down the HPQC Trial server.
+  *Move the files of the directory of SQL Server, e.g. "C:\Program Files\Microsoft SQL Server\MSSQL12.SQLEXPRESS\MSSQL\DATA" to a special directory.
+    *"demo_demo_db.mdf".
+    *"demo_demo_db_log.ldf".
+    *"default_lab_project_db.mdf".
+    *"default_lab_project_db_log.ldf".
+  *At the "Microsoft SQL Server Management Studio", login by Windows Authentication and delete the database "qcsiteadmin_db". This database contains the expireing trial license.
+  *Install HPQC Community editon, by "(x) Yes, I want to keep all current settings".
+    *Create the domain "DEMO" and the projects "DEMO" and "LAB_PROJECT" within the domain "DEMO".
+  *Shut down the HPQC Community Edition server.
+  *Renaming. The filenames of the copied files must match the ones created by the software application, sometimes the file name is not "demo_demo_db.mdf", but e.g. "demo_demo_db0.mdf".
+    *Rename "default_lab_project_db.mdf" to "demo_lab_project_db.mdf".
+    *Rename "default_lab_project_db_log.ldf" to "demo_lab_project_db_log.ldf". 
+  *Copy now the files from the spechial directory into the DATA directory of SQL Server, e.g. "C:\Program Files\Microsoft SQL Server\MSSQL12.SQLEXPRESS\MSSQL\DATA". Check the filenames. 
+  *Activate the HPQC HPQC Community Edition server.
+  *See 
+    *[[http://h30499.www3.hp.com/t5/Quality-Center-Support-and-News/HPQC-12-20-Community-Edition-Project-import-howto/td-p/6768110#.Vbs3_Y691xw|HP Enterprise Business Community "Quality Center / ALM", Forum "Quality Center Support and News Forum", Thread "HPQC 12.20 Community Edition - Project import howto :-)"]].
+    *[[http://www.vivit-worldwide.org/forums/Posts.aspx?topic=1131064|Vivit Forums,  Subforum "Special Interest Group: Testing Quality and ALM" , Thread "HPQC 12.20 Community Edition - Project import howto ?Or is import disabled?"]].
+=== First Steps ===
+  *Create a new domain.
+  *Create a project.
+    *With my "HPQC" & "MS SQL Server" installation and configuration, I get the error message<code>
+Some of the database servers do not have the text search feature enabled.
+After this process completes, you can enable the text search in the DB Servers tab and then click the Enable/Rebuild Text Search button for this project from the Site Projects tab.
+</code>
+=== Using "HP Screen Recorder" ===
+  *Server address: "[[http://localhost:8080/qcbin|http://localhost:8080/qcbin]]".
+  *The screen recorder must be connected to an active HPQC project ( mouse-rightclick "Activate Project" ). If there is more an one active project, you may select a certain project ( "Domain", "Project" ), when connecting to the ALM/QC server. The screen recorder may detect if there is not even a single active project. If so, it gives feedback by the error message:<code>
+Warning. There are no associated projects. Please contact your project/site administrator.
+</code>
+  *If you didn´t assign the a "Full License" to the user ( e.g. "sa" ) to , then the use of the screen recording application is refused by the error message<code>
+ALM/QC. You don´t have a valid license to connect to ALM/QC. The application will be closed
+</code>
+  *The video data is stored at "C:\Users\<username>\Documents\HP Screen Recorder Movies".
+=== Free Trainings ===
+== Online ==
+  *[[http://www.softwaretestinghelp.com/|Software Testing Help]].
+    *[[http://www.softwaretestinghelp.com/learn-hp-quality-center-qc-in-4-days/|Software Testing Help "HP Quality Center Tutorials – Learn HP ALM/QC in 7 Days"]], 2015-06 about "Hewlett-Packard Quality Center 11.50".
+      -[[http://www.softwaretestinghelp.com/learn-hp-quality-center-qc-in-4-days/|Software Testing Help "Introduction to HP Quality Center (HP ALM)"]].
+      -[[http://www.softwaretestinghelp.com/hp-quality-center-tutorial-2/|Software Testing Help "Quality Center Installation guide"]].
+      -[[http://www.softwaretestinghelp.com/hp-quality-center-tutorial-day-3-requirements-and-release-cycle-management-with-example/|Software Testing Help "Requirements and Release Cycle Management"]].
+      -[[http://www.softwaretestinghelp.com/hp-quality-center-tutorial-4/|Software Testing Help "Creating and Managing Test Cases"]].
+      -[[http://www.softwaretestinghelp.com/hp-quality-center-tutorial-5/|Software Testing Help "Executing Test Cases Using ALM/QC"]].
+      -[[http://www.softwaretestinghelp.com/hp-quality-center-tutorial-6/|Software Testing Help "Adding Defects and other miscellaneous topics"]].
+      -[[http://www.softwaretestinghelp.com/hp-quality-center-tutorial-7/|Software Testing Help "Project Analysis Using the Dashboard Tools"]].
+      -[[http://www.softwaretestinghelp.com/quality-center-interview-questions-and-answers/|Software Testing Help "50 Most Popular QC Interview Questions"]].
+  *[[http://www.tutorialspoint.com/qc/|Tutorials Point "Hp-Quality Center Tutorial"]].
+== Videos ==
+  *[[http://www.brighttalk.com/webcast/8653/145747|BrightTalk "What’s New in ALM and Quality Center 12.2"]], 68min.
+  *Free training videos by "Guru99" #.
+    *[[http://www.guru99.com/hp-alm-free-tutorial.html|Guru99 "Free HP - ALM(Quality Center) Tutorials"]].
+      *[[http://www.youtube.com/channel/UC19i1XD6k88KqHlET8atqFQ|YouTube Channel "Guru99"]].
+    *[[http://sites.google.com/site/qualitycenter121/|Google Sites "Quality Center Free Tutorials - Learn Quality Center in 7 Day's"]].
+      *[[http://www.youtube.com/channel/UCkEDs5w_XxRqgj_6crvx78g|YouTube Channel "Nagaraju Yajjuvarapu"]].
+  *[[http://update.external.hp.com/ALM/WhatsNew_Addins_Movies/|HP Application Lifecycle Management Resources]] - "What's New", "Add-ins", "Movies".
+  *Screenr Videos of 2015 about "Hewlett-Packard Quality Center 12.20" by [[http://www.linkedin.com/in/mattangerer|LinkedIn "Matt Angerer"]], [[http://resultspositive.com/|ResultsPositive]], [[http://www.facebook.com/resultspositive|Facebook "ResultsPositive"]], [[http://www.linkedin.com/company/results-positive|LinkedIn "ResultsPositive"]], [[http://hpln.hp.com/group/resultspositive|HP Live Network "ResultsPositive"]], Blog [[http://resultspositive.com/blog/|ResultsPositive . BLOG]].
+    -[[http://www.screenr.com/56JN|Screenr "Test of Screenr"]].
+    -[[http://www.screenr.com/TJJN|Screenr "ResultsPositive provides you with an introduction to HP Quality Center's User Interface"]].
+    -[[http://www.screenr.com/PJJN|Screenr "ResultsPositive brings you a quick tutorial demonstrating how to add releases and cycles to HP Quality Center"]]    
+    -[[http://www.screenr.com/D5JN|Screenr "ResultsPositive brings you a quick lesson on assigning requirements to releases and cycles"]].
+    -[[http://www.screenr.com/65JN|Screenr "ResultsPositive brings you a quick video tutorial on assigning test sets to cycles and releases]].
+    -[[http://www.screenr.com/oiJN|Screenr "ResultsPositive explains why it makes sense to store test strategies and approaches as attachments in HPQC]].
+  *YouTube.
+    *[[http://www.youtube.com/results?search_query=qualitycenter|YouTube - Search for "qualitycenter"]].
+    *[[http://www.youtube.com/watch?v=SY0rq11odyY|YouTube "HP ALM 11.52 Training"]].
+    *[[http://www.youtube.com/playlist?list=PLByAM0wHjwJn8CY_1n23YDVF5G7WhaIt4|YouTube User "Free OpenMentor" - Playlist "HP Quality Center (QC)"]].
+    *[[http://www.youtube.com/channel/UC35yY8dT1xgYIlM2BP6lIuQ|YouTube Channel "Atiq Malik"]] - 6 HPQC tutorial videos.
+    *[[http://www.youtube.com/channel/UCsn36ieuqSWRe_tirJOPsVw|YouTube Channel "Rao HTwoKInfosys"]] - "QA Online Training, QC, QA Online Training Video Tutorials for Beginners, Manual Testing Tutorials" - HPQC tutorial videos.
+    *[[http://www.youtube.com/channel/UCmFrl66qoDkUJHS_6pMviCQ|YouTube Channel "HewlettPackardALM"]].
+      *[[http://www.youtube.com/watch?v=L_TXWAPY_Mw|YouTube "HP Quality Center Upgrade Best Practices Part 1"]].
+      *[[http://www.youtube.com/watch?v=9unweuNCePo|YouTube "HP Quality Center Upgrade Best Practices Part 2"]].
+      *[[http://www.youtube.com/watch?v=BoF7UM85d5w|YouTube "HP Quality Center Upgrade Best Practices Part 3"]].
+    *[[http://www.youtube.com/watch?v=KYUq2Axejjk|YouTube "HP Software Demo: Quality Center with Business Process Modeling"]].
+    *[[http://www.youtube.com/watch?v=L_K__86GNhI|YouTube "HP Screen Recorder"]], 2014.
+    *[[http://www.youtube.com/user/ResultsPositive|YouTube User "ResultsPositive"]].
+      *[[https://www.youtube.com/playlist?list=PLNE026wE13C-XrShy0KHAhAkVZdAYxyqA|YouTube User "ResultsPositive" - Playlist "HP ALM Quick Tips and Tricks"]], 2015 - About "Hewlett-Packard Quality Center 12.20".
+=== Legacy Documentation  & Legacy Software Downloads ===
+  *HP software archive [[ftp://71.122.42.87/|71.122.42.87]].
+      *[[ftp://71.122.42.87/ALM/|71.122.42.87 "ALM"]].
+        *"Z:\ALM_Win32\TARGETDIR\resources\docs\Help.zip" of the HPQC11.52 ISO image contains all documentation, including a complete PDF and HTML documentation.
+      *[[ftp://71.122.42.87/ALM/Documentation/|71.122.42.87 "ALM/Documentation"]].
+        *Some [[ftp://71.122.42.87/ALM/Documentation/12.01/ALM%2012.01%20Documentation.zip|71.122.42.87 "ALM 12.01 Documentation"]] ( zip ) as PDF documents.
+  *Complete [[http://tims.nnit.com/qcbin/|NNIT "HP Quality Center 9.2" Documentation]].
+    *[[http://tims.nnit.com/qcbin/Help/doc_library/pdfs/|NNIT "HP Quality Center. Software Version: 9.20" Documents]] - PDF Download.
+      *"HP ALM Administrator Guide": "You cannot import Quality Center project export files (.qcp files) to Quality Center 9.2 if they were created in an earlier version of Quality Center" :-(.
+  *The HTML online book [[ftp://ftp.itrc.hp.com/applications/qualitycenter/alm115/WhatsNew_Addins_Movies/AddInPage/online_help/Content/Admin/how_guide_organized_admin.htm|Hewlett-Packard "HP ALM Administrator Guide"]] of 2012. The PDF "AdminGuide.pdf" is not available for download anymore.
+=== Resources ===
+  *[[http://vikashkumarroy.blogspot.de/2014/12/configure-hp-quality-center-for.html|About Roy "Configure HP Quality Center for Streamed XenDesktop 7.6"]], 2014.
+  *Blog [[http://agileqc.net/category/hp-quality-center|Agile QC. Agile development with HP Quality Center, HP ALM and HP Agile Manager - Category Archives "hp quality center"]].
+  *[[http://technology.amis.nl/2007/05/31/working-with-mercury-quality-center/|AMIS Technoloy Blog "Working with Mercury Quality Center"]], 2007.
+  *[[http://blog.beteo.ch/category/testmanagement/|beteo AG - Archiv für die 'Testmanagement' Kategorie"]] ( - 2009-06-15 ).
+    *[[http://blog.beteo.ch/2009/02/11/hp-quality-center-10-aus-sicht-des-test-managers/|beteo AG "HP Quality Center 10 aus Sicht des Test Managers"]], 2009.
+    *[[http://blog.beteo.ch/2009/03/25/hp-quality-center-vs-ibm-rational-quality-manager/|beteo AG "HP Quality Center vs. IBM Rational Quality Manager"]].
+  *[[http://robert.bullinger.over-blog.com/article-hp-quality-center-24194789.html|Robert Bullinger - Software Qualitätssicherung "HP Quality Center"]], 2008
+  *[[http://www.buechse.de/HOWTO/qualitycenter_windows8_ie10_capicomdll/|Joachim Büchse "HOWTO: use QualityCenter 10 on Windows 8 (or 7) with IE10"]].
+  *[[http://www.careerride.com/quality-center-interview-questions.aspx|CareerRide "24 Quality center interview questions and answers"]].
+  *Blog [[http://www.checkpointech.com/blog/category/alm-qc-11/|The Checkpoint Technologies Blog - Posts in the "ALM QC 11" category]].
+  *[[http://www.c-sharpcorner.com/Blogs/9898/how-many-tabs-are-available-in-hp-quality-center-please-exp.aspx|C# Corner "How many tabs are available in HP Quality Center? Please explain its uses"]], 2012 - "In this blog, you will come to know basic tabs are available in HP Quality Center(QC)and its uses".
+  *FutureThoughts, LLC.
+    *Blog [[http://qualitycenterinterviewquestions.blogspot.de/|Quality Center Interview Questions and Answers]].
+    *[[http://web.archive.org/web/*/http://futurethoughtsllc.com/QualityCenterInterviewQuestions.aspx|Archive.org "FutureThoughts, LLC: "Interview Questions with Answers for QC and Quality Center"]] ( - 2012-04-10 ).
+    *[[http://www.scribd.com/doc/38763640/Quality-Center-Interview-Questions-and-Answers#scribd|Scribd "Quality Center Interview Questions and Answers"]].
+  *[[http://www.go2group.com/2015/07/24/how-hp-transformed-a-testing-product-into-a-full-fledged-alm-suite/|Go2Group "How HP transformed a testing product into a full-fledged ALM suite"]], 2015.
+  *[[http://gocoolkrishna.blogspot.de/2014/03/quality-center-ota-create-test-in-qc.html|Gokul's Blog "Quality Center -OTA : Create a Test in QC Test Plan"]], 2014.
+  *[[http://kb.mit.edu/confluence/pages/viewpage.action?pageId=152588884|The Knowledge Base, a MIT Information Systems & Technology website "How can I use Application Lifecycle Management (ALM) without using Internet Explorer?"]].
+  *[[http://www.learnqualitycenter.com/|Learn QualityCenter]].
+    *[[http://bugfinding.blogspot.de/2014/03/mercury-screen-recorder-msr-or-hp.html|Learned and Shared. Most of the content on this blog refers to minor issues faced during work and as I found the solution to the "Mercury Screen Recorder: MSR or HP Screen Recorder"]].
+  *[[http://www.wilsonmar.com/quality_center.htm| Wilson Mar "HP ALM Quality Center : Its Annoyances, and what to do about them" / "HP ALM Quality Center : How To Make It Work"]] - "This is an unabashed review of how to use HP ALM Quality Center (to version 9.2) despite annoyances".
+  *[[http://tmusso.com/blog1/category/hp-alm-quality-center/|Tina Musso's Blog "Keeping up with the Jones’s in Software Versions"]], 2014.
+  *[[http://blog.nirav.name/2008/08/whats-wrong-with-hp-quality-center.html|Nirav's Contemplations. Thoughts on Programming, Software and Open Source "What's wrong with HP Quality Center?"]], 2008.
+  *Blog [[http://www.northwaysolutions.com/blog/|Northway Solutions Group Blog]].
+  *[[http://swtester.blogspot.de/2011/07/quality-center-must-die.html|Paul - Lessons Learned by a Software Tester "Quality Center Must Die"]], 2011.
+  *[[http://blog.polarion.com/tag/hp-quality-center/|Polarion Software Blog - Articles tagged with "HP Quality Center"]].
+  *Blog [[http://qareview.blogspot.de/|Quality Assurance]].
+    *Blog [[http://qareview.blogspot.de/p/quality-center-introduction.html|Quality Assurance "Quality Center Introduction"]].
+  *Blog [[http://quality-center-basics.blogspot.de/|Quality Center Basics]].
+  *Blog [[http://qualitycenterguide.blogspot.de/|Quality Center (QC) Guide]].
+  *[[http://blog.seqis.com/?s=quality+center|SEQIS Software Testing GmbH - Articles tagged with "quality center"]]
+  *Blog [[http://qtp-automate.blogspot.co.uk/search/label/Quality%20Center|Software Engineering - Performance Automation, Showing posts with label "Quality Center"]].
+    *[[http://qtp-automate.blogspot.de/2010/04/how-to-retrieve-quality-center-bug.html|Software Engineering - Performance Automation "How to retrieve Quality center bug details ?"]] - About the SQL database scheme of HPQC: "The main table in quality center for defect related info is Bug table"...
+  *[[http://www.softwaretestingstuff.com/2007/10/mercury-quality-centre.html|Software Testing Stuff - an excellent source of software testing stuff "Mercury Quality Centre"]].
+  *[[http://sqa.stackexchange.com/questions/2554/alternatives-to-hp-quality-center-for-small-business|StackExchange "Alternatives to HP Quality Center for small business"]].
+  *[[http://www.stackoverflow.com/questions/tagged/hp-quality-center|StackOverflow - Tagged Questions "HP-Quality-Center"]], [[http://www.stackoverflow.com/questions/tagged/quality-center|StackOverflow - Tagged Questions "Quality-Center"]],  [[http://www.stackoverflow.com/questions/tagged/qc|StackOverflow - Tagged Questions "QC"]],  
+  *Blog [[http://www.qtpsudhakar.com/|Sudhakar's Quick Test Professional Blog]].
+    *[[http://www.qtpsudhakar.com/2009/12/quality-center-practice-assignments.html|Sudhakar's Quick Test Professional Blog "Quality Center Practice Assignments"]].
+  *[[http://help.tasktop.com/help/index.jsp?topic=%2Fcom.tasktop.hp.qc.help.ui%2Fuserguide%2FConnecting+to+HP+ALM+%28Quality+Center%29.html|TaskTop User Guide "Connecting to HP ALM (Quality Center)"]] - Server: "[[http://localhost:8080/qcbin|http://localhost:8080/qcbin]]" :-).
+  *Blog [[http://automationandtesting.blogspot.de/|Test Automation. This blog aims to detail solutions to everyday challenges involved in test automation using QTP, Quality Center (QC), Excel and Open Source Tools]].
+    *[[http://automationandtesting.blogspot.de/2011/04/quality-center-11-on-windows-2008.html|Test Automation. This blog aims to detail solutions to everyday challenges involved in test automation using QTP, Quality Center (QC), Excel and Open Source Tools "Installing Quality Center 11 on Windows 2008 (Virtual PC)"]].
+  *[[http://testhouse.wordpress.com/2014/07/16/defining-user-permissions-in-hp-quality-centre/|Testhouse's Blog - Testhouse useful weblog "Defining User Permissions in HP Quality Center" 1/2]], [[http://testhouse.wordpress.com/2014/07/23/defining-user-permissions-in-hp-quality-center/|Testhouse's Blog - Testhouse useful weblog "Defining User Permissions in HP Quality Center" 2/2]].
+  *[[http://testingissimple.blogspot.de/2012/08/quality-center-manual-execution.html|Testing 1 2 3 "Quality Center - Query on Manual Execution (Daily/Weekly)"]].
+  *[[http://www.testmanagement.com/blog/2012/12/using-test-parameters-with-quality-center/|Test Management Blog "Using Test Parameters with Quality Center"]].
+  *Blog [[http://ufttutorial.blogspot.de/|UFT (QTP). Test Automation using HP Unified Functional Testing (UFT)]].
+    *[[http://ufttutorial.blogspot.de/2014/11/test-plan-module-in-hp-alm-quality.html|UFT (QTP). Test Automation using HP Unified Functional Testing (UFT) "How to Create Test Plan"]].
+    *[[http://ufttutorial.blogspot.de/2014/11/defect-management-in-hp-alm-quality.html|UFT (QTP). Test Automation using HP Unified Functional Testing (UFT) "Defect Management in HP ALM (Quality Center)"]].
+  *[[http://uktmf.com/?q=taxonomy/term/74|The Test Management Forum. The Forum for Test Professionals "Quality Center"]].
+  *[[http://uftautomation.com/category/quality-center-qc/|UTF Automation - Category Archives "Quality Center"]].
+  *[[http://en.wikipedia.org/wiki/HP_Quality_Center|EN.Wikipedia "HP Quality Center"]] - "The Enterprise version, originally called Mercury TestDirector for Quality Center...".
+  *[[http://en.wikipedia.org/wiki/Application_lifecycle_management|EN.Wikipedia "Application lifecycle management"]], [[http://de.wikipedia.org/wiki/Application-Management|DN.Wikipedia "Application-Management"]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Software/Configuration_Management/Bug_Tracking/|OpenDirectory "Top: Computers: Software: Configuration Management: Bug Tracking"]].
+{{tag>"application lifecycle management" "application lifecycle" application lifecycle management alm testing HP Hewlett Packard "Hewlett Packard" "Hewlett-Packard" "Hewlett-Packard quality center" "Hewlett Packard quality center" "HP quality center" "Hewlett-Packard quality center community edition" "Hewlett Packard quality center community edition" "HP quality center community edition" "Hewlett-Packard quality center ce" "Hewlett Packard quality center ce" "HP quality center ce" "free Hewlett-Packard quality center community edition" "free Hewlett Packard quality center community edition" "free HP quality center community edition" "free Hewlett-Packard quality center ce" "free Hewlett Packard quality center ce" "free HP quality center ce" "HPQC community edition" "HPQC quality center ce" "HPQC ce" "free HPQC community edition" "HPQC ce" "free HPQC ce" HPQC "community edition" "free community edition" free community edition }}
+<footnote_navi_en>

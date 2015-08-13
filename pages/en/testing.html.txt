@@ -1,5 +1,6 @@
 ====== [hemmerling] Testing ======
 Related pages:
+  *[[alm.html|Application Lifecycle Management ( ALM )]].
   *[[ci.html|Continuous Integration ( CI ) & Continuous Delivery ( CD )]].
   *[[codingdojo.html|Coding Dojo / Coding Kata / Randori / Code Retreat / Object Calisthenics / Hackathons / Hackfests /  / Programming Marathons / Elephant Carpaccio Exercise - Group-Awareness, Self-Awareness, Self-Training in Software Development as well as Developer Contests & Developer Challenges]].
   *[[fizzbuzz01.html|Coding Dojo / Coding Cutter: How to play Kata FizzBuzz with JUnit]].
@@ -27,6 +28,22 @@ Related pages:
     *[[http://www.qamp.org/|QAMP - Quality Assurance Management Professional]].
     *[[http://www.agile-tester.org/|iSQI - International Software Quality Institute GmbH "Agile Certified Tester"]].
   *[[http://www.ntaforum.org/|The Network Test Automation Forum ( NTAF )]] - It "was created to promote the interoperability of commercial testing tools and test infrastructure for the data communications and telecommunications industry".
+  *[[http://www.vivit-worldwide.org/|Vivit]] - "The independent, non-profit service organization that represents the broad HP Software community.. Membership is free".
+    *Vivit TQA.
+      *[[http://www.vivit-tqa.org/|Vivit TQA: Testing, Quality, Application Lifecycle Management]] ( - 2011 ).
+      *[[http://www.vivit-worldwide.org/group/TQAL|Vivit "Special Interest Group: Testing Quality and ALM"]] ( Vivit TQA ).
+    *[[http://vivitworldwide.site-ym.com/members/group.aspx?id=80113|Vivit Chapter Germany]], [[http://www.vivit-germany.org/|Vivit-Germany]].
+    *Blog [[http://www.vivit-worldwide.org/blogpost/701724/Vivit-Blog|Vivit Blog]].
+    *Events:
+      *[[http://www.vivit-worldwide.org/events/event_list.asp?show=past&group=79943|Vivit "Community Calendar - Special Interest Group: Testing Quality"]].
+        *[[http://www.vivit-worldwide.org/events/event_details.asp?id=622360&group=79943|Vivit TQA, Germany "User Group Treffen 'Testen & Test-Management mit HP'"]], 2015-04-14.
+        *[[http://www.vivit-worldwide.org/events/event_details.asp?id=527205&group=79943|Vivit TQA, Germany "User Group Treffen 'Testautomatisierung: Einführung, Ausweitung und Tool-Unterstützung'"]], 2014-12-09.
+        *[[http://www.vivit-worldwide.org/events/event_details.asp?id=480896&group=79943|Vivit TQA, Germany "Vivit TQA beim Vivit Deutschland Treffen 2014"]], 2014-09-30 - 2014-10-01.
+        *[[http://www.vivit-worldwide.org/events/event_details.asp?id=480335&group=79943|Vivit TQA, Germany "User Group Treffen 'Testen & Test-Management mit HP'"]], 2014-09-04.
+        *[[http://www.vivit-worldwide.org/events/event_details.asp?id=414305&group=79943|Vivit TQA, Germany "User Group Treffen 'Testen & Test-Management mit HP'"]], 2014-04-03.
+        *[[http://www.vivit-worldwide.org/events/event_details.asp?id=338441&group=79943|Vivit TQA, Germany "User Group Treffen 'Testen & Test-Management mit HP'"]], 2013-09-25.
+        *[[http://www.vivit-worldwide.org/events/event_details.asp?id=296617&group=79943|Vivit TQA, Germany "User Group Treffen 'Testen & Test-Management mit HP'"]], 2013-04-18.
+          *[[http://www.vivit-worldwide.org/resource/collection/FAC4D5E5-531C-4F23-9E7A-EB7FCD8A9537/20120418_Oestereich_API-Programmierung.pdf|Vivit TQA, Germany "API-­‐Programmierung und –Nutzung bei HP Quality Center / ALM"]] ( PDF ).
 ===== Fairs, Conferences, Events =====
   *[[http://www.germantestingday.info/|German Testing Day]], 2014-07-03.
   *[[http://www.germantestingnight.de/|German Testing Night]], 2014-03-27, 2014-07-01.
@@ -90,6 +107,14 @@ Related pages:
     *[[http://academy.testcloud.de/|testCloud Academy]].
       *[[http://academy.testcloud.de/testlauf-essentials/standards-of-quality|testCloud Academy - Testlauf Essentials]].
   -testhub GmbH -> See [[de:testhub.html|Testhub]].
+  -[[http://www.ubertesters.com/become-tester/|Ubertesters Inc.]].
+    *[[http://www.ubertesters.com/become-tester/|Ubertesters Inc. "Join the Uber League of Testers!"]] - "All you need is a smartphone or tablet, some previous experience in QA, and some free time to do the testing".
+    *[[http://beta.ubertesters.com/|Ubertesters Inc. Dashboard "Beta"]] / [[http://beta.ubertesters.com/m|Ubertesters Inc. Dashboard "Beta" for Mobile Devices]]- "Visit on your device". Login website for registered testers ( also ) with smartphone devices.
+      *The "Uebertesters.apk" is not available by a public Android appstore, but just by the website. 
+        *Usually, calling [[http://beta.ubertesters.com/m|beta.ubertesters.com/m]] offers you the download. The download is stored at "Phone storage / MyFavorite / Download / Ubertesters.apk".
+        *With my Android 4.1.1 tablet, instead the iOS app was offered for download. I was able to install "Ubertesters.apk" by transfering the download from another smartphone for which the download was offered.
+    *Blog [[http://blog.ubertesters.com/|Ubertesting BLog]] - "We'll keep you updated on all news around mobile app testing".
+    *[[http://www.ubertesters.com/download-sdk/|Ubertesters Inc. - SDK]].
   -[[http://www.usertesting.com/|UserTesting.com - The fastest way to get feedback]].
     *[[http://www.usertesting.com/be-a-user-tester|UserTesting.com - The fastest way to get feedback "Be a User Tester: Earn $10 per Website test and $15 per Mobile test"]].
     *General testing instructions:
@@ -290,20 +315,7 @@ Related pages:
   *The OpenSource [[http://fedorahosted.org/dogtail/|Fedora Hosted "dogtail"]] for Python - "GUI testing tool and automation framework".
     *[[http://en.wikipedia.org/wiki/Dogtail|Wikipedia "Dogtail"]].
 === Tcl/Tk ===
-  *"tcltest".
-    *[[http://docs.activestate.com/activetcl/8.5/tcl/TclCmd/tcltest.htm|ActiveState Docs - ActiveTcl User Guide "Tcl/Tk Documentation > TclCmd > tcltest"]].
-    *[[http://www.tcl.tk/man/tcl8.5/TclCmd/tcltest.htm|tcl.tk "Tcl8.5.12/Tk8.5.12 Documentation > TclCmd > tcltest"]].
-    *[[http://wuhrr.wordpress.com/2011/03/28/getting-started-with-tcltest/|Hai’s Blog. Useful stuff, life, photography, kids, technical, programming, and what-else? "Getting Started with tcltest"]], 2011.
-  *"Expect" & "DejaGnu".
-    *The OpenSource [[http://www.gnu.org/software/dejagnu/|DejaGnu]] - "A framework for testing other programs", "DejaGnu is written in [[http://expect.sourceforge.net/|Expect]], which in turn uses Tcl -- Tool command language".
-    *The OpenSource [[http://expect.sourceforge.net/|Sourceforge "Expect"]], [[http://www.sourceforge.net/projects/expect/|Sourceforge "Expect"]], [[http://www.nist.gov/el/msid/expect.cfm|National Institute of Standards and Technology (NIST) "Expect"]] - "a tool for automating interactive applications such as telnet, ftp, passwd, fsck, rlogin, tip, etc. Also useful for testing these same applications".
-    *Book [[http://www.amazon.de/exec/obidos/ASIN/1565920902/hemmerling-21|Don Libes: "Exploring EXPECT: A TCL Based Toolkit for Automating Interactive Programs (Nutshell Handbooks)"]] ( 1994 ).
-  *The OpenSource [[http://simpledevlib.sourceforge.net/|SourceForge "The Simple Development Library. A collection of packages and utilities for Tcl development"]], [[http://www.sourceforge.net/projects/simpledevlib|SourceForge "The Simple Development Library"]] -> "SimpleTest: regression testing framework".
-  *The OpenSource [[http://code.google.com/p/t-unit/|Google Code "t-unit. a unit test framework for the tcl programming language"]].
-  *The OpenSource [[http://www.sourceforge.net/projects/tcllib/files/|SourceForge "tcllib"]] - "tclunit".
-    *[[http://wiki.tcl.tk/5647|Wiki.Tcl.Tk "ANNOUNCE: tclunit 0.1"]]
-  *The OpenSource [[http://tclunit.sourceforge.net/|SourceForge "TclUnit"]], [[http://www.sourceforge.net/projects/tclunit/|SourceForge "TclUnit"]].
-  *The free [[http://wayback.archive.org/web/*/http://park.ruru.ne.jp/ando/work/tclTkUnit/|Archive.org "TclTkUnit"]] ( -2012-10-09 ).
+   *DejaGnu / Expect - See [[tickle.html|Tcl / Tk ( tickle) 2/2 - Debugging & Testing]].
 === Web / HTML Testing in Python, Java, Javascript, PHP ===
 == SoupUI ==
   *The OpenSource web service testing application for service-oriented architectures (SOA) and representational state transfers (REST) [[http://www.soapui.org/|SoupUI]], [[http://soapui.sourceforge.net/|SourceForge "SoupUI"]], [[http://www.sourceforge.net/projects/soapui/|SourceForge "SoupUI"]] by [[http://smartbear.com|Smart Bear Software, Inc.]].
@@ -529,33 +541,7 @@ require('./node_modules/nightwatch/bin/runner.js');</code>
     *[[http://www.twitter.com/TestingAnywhere|Twitter "Testing Anywhere"]].
     *[[http://www.slideshare.net/AutomationAnywhere|SlideShare "Automation Anywhere"]].
     *[[http://en.wikipedia.org/wiki/Automation_Anywhere|EN.Wikipedia "Automation Anywhere"]], [[http://en.wikipedia.org/wiki/Testing_Anywhere|EN.Wikipedia "Testing Anywhere"]].
-  *Hewlett Packard ( HP ).
-    *[[http://www8.hp.com/us/en/software/enterprise-software.html|Hewlett-Packard "Enterprise Software"]].
-    *[[http://web.archive.org/web/*/http://www.mercury.com/us/products/|Archive.org "Hewlett Packard: Mercury Products"]].
-      *[[http://web.archive.org/web/*/http://www.mercury.com/us/products/quality-center/|Archive.org "Hewlett Packard: Mercury Quality Center"]].
-        *"HP Quality Center Software".
-          *[[https://h10078.www1.hp.com/cda/hpms/display/main/hpms_content.jsp?zn=bto&cp=1-11-127-24_4000_5__|HP Application Lifecycle Management]] - "HP Quality Center Software".
-          *[[http://www8.hp.com/h20195/v2/GetDocument.aspx?docname=4AA0-9587ENW|Hewlett Packard HP Quality Center software (formerly HP TestDirector for Quality Center software)]"]] (PDF).
-          *[[http://en.wikipedia.org/wiki/HP_Quality_Center|EN.Wikipedia "HP Quality Center"]] - "The Enterprise version, originally called Mercury TestDirector for Quality Center...".
-          *[[http://www8.hp.com/us/en/software/software-product.html?compURI=tcm:245-937045&pageTitle=quality-center|Hewlett Packard "HP Quality Center software"]].
-          *[[http://web.archive.org/web/*/http://www.mercury.com/us/products/testdirector/|Archive.org "Hewlett Packard: Mercury Test Director"]].
-        *[[http://www8.hp.com/us/en/software-solutions/software.html?compURI=1172957|Hewlett Packard "HP Unified Functional Testing software. Test early, test often, test continuously with automation testing."]].
-        *[[http://www8.hp.com/de/de/software-solutions/software.html?compURI=1215990|Hewlett Packard "Application Lifecycle Management. Steuerung des Lebenszyklus moderner, agiler Anwendungen"]].
-        *[[http://www8.hp.com/de/de/software-solutions/software.html?compURI=1175451|Hewlett Packard "HP LoadRunner. Software-Testtool mit unübertroffener Leistungsfähigkeit und Flexibilität zum Testen der Anwendungsleistung"]].
-        *[[http://www8.hp.com/de/de/software-solutions/software.html?compURI=1175730|Hewlett Packard "HP Diagnostics Software
-Gewährleisten, dass Probleme während des gesamten Lebenszyklus ermittelt und behoben werden."]].
-    *<del>HP WinRunner</del> ( formerly: <del>Mercury WinRunner</del> ).
-      *[[http://en.wikipedia.org/wiki/WinRunner|EN.Wikipedia "WinRunner"]], [[http://de.wikipedia.org/wiki/WinRunner|DE.Wikipedia "WinRunner"]].
-    *[[http://en.wikipedia.org/wiki/HP_Application_Lifecycle_Management|EN.Wikipedia "HP Application Lifecycle Management"]].
-      *Components of the HP ALM suite: "HP Functional Testing",...
-    *HP LoadRunner ( formerly: <del>Mercury LoadRunner</del> ).
-      *[[http://en.wikipedia.org/wiki/HP_LoadRunner|EN.Wikipedia "LoadRunner"]].
-      *[[http://www8.hp.com/us/en/software-solutions/software.html?compURI=1175451&jumpid=reg_r1002_usen_c-001_title_r0001#.US-ZWDCnrp8|Hewlett Packard "HP LoadRunner. Unmatched power and flexibility software testing tool for application performance"]].
-    *HP QuickTest Pro ( formerly: <del>Astra Quick test by Mercury Interactive</del> ).
-      *[[http://en.wikipedia.org/wiki/HP_QuickTest_Professional|EN.Wikipedia "HP QuickTest Professional"]].
-      *[[http://www.learnqtp.com/|Learn QTP... for those with a zest to test]].
-      *Blog [[http://qtp.blogspot.de/|QTP Tutorials & Interview Questions]].
-      *[[http://en.wikipedia.org/wiki/Stress_testing_%28software%29|EN.Wikipedia "Stress testing (software)"]], [[http://de.wikipedia.org/wiki/Lasttest_%28Computer%29|DE.Wikipedia "Lasttest (Computer)"]].
+  *Hewlett-Packard ALM -> See  [[alm.html|Application Lifecycle Management ( ALM )]].
   *IBM.
     *[[http://www.ibm.com/software/awdtools/tester/functional/|IBM Rational Functional Tester]].
     *[[http://www.ibm.com/software/awdtools/tester/robot/|IBM Rational Robot]] ( formerly: Rational Teamtest, SQA Teamtest ).
@@ -695,7 +681,6 @@ Gewährleisten, dass Probleme während des gesamten Lebenszyklus ermittelt und b
     *Experts told me, that from their point of view there was no major development of "Telelogic Tester" since it was acquired by IBM :-(.
   *[[http://www.testingtech.com/|TestingTech]].
     *[[http://www.testingtech.com/products/ttworkbench.php|TestingTech - "TTworkbench - The Reliable Test Automation Platform"]], free trial version is available for download.
-
 ==== Resources====
   *ISO / IEC 9646-4: 1994.
   *[[http://en.wikipedia.org/wiki/TTCN|EN.Wikipedia "TTCN"]], [[http://de.wikipedia.org/wiki/TTCN|DE.Wikipedia "TTCN"]].
@@ -716,6 +701,9 @@ Gewährleisten, dass Probleme während des gesamten Lebenszyklus ermittelt und b
     *[[http://www.bitbucket.org/xi/pyyaml|BitBucket "xi / pyyaml"]] - "PyYAML - The next generation YAML parser and emitter for Python.".
     *[[https://bitbucket.org/xi/libyaml|BitBucket "xi / libyaml"]] - "LibYAML - A C library for parsing and emitting YAML".
   *[[http://www.ibm.com/developerworks/library/x-matters23.html|IBM "developerWorks / XML / Technical library" - "XML Matters: YAML improves on XML"]].
+==== RAML ( RESTful API Modeling Language ) ====
+  *See [[rest.html|Representational State Transfer ( REST )]].
+
 ==== YAML Software ====
   *[[http://www.kuwata-lab.com/kwalify/|Kwalify]] - "schema validator and data binding for YAML/JSON".
     *[[http://kwalify.sourceforge.net/|Sourceforge "Kwalify"]], [[http://www.sourceforge.net/projects/kwalify/|Sourceforge "Kwalify"]] - implementation in Java.
@@ -875,6 +863,10 @@ Simplify Complex Testing Across APIs, Cloud, SOA, and Composite Apps"]] -> [[htt
   *[[http://www.smartwebapps.de/|Prüfungsvorbereitung Softwaretest Datenbank mit Übungsfragen zum Thema Softwaretest]].
 
 ===== Forums, Newsgroups, Communities =====
+  *Advanced QTP Forums. 
+    *[[http://www.advancedqtp.com/forums/|Advanced QTP Forums]]  - "Register For This Site. ERROR: The email address entered is not within an allowed domain" :-(. Just apply for a freebie ( e.g. [[http://www.advancedqtp.com/scripting-qtp/|Advanced QTP "Scripting QTP by Dani Vainstein"]] ), and you will have the chance to create an account even with a else rejected E-Mail address.
+      *[[http://www.advancedqtp.com/forums/forum-qc/|Advanced QTP Forums, Subforum "Quality Center Q&A"]].
+    *The read-only forum [[http://www.advancedqtp.com/old_forums/|Advanced QTP Forums. Old Forums - For reference only (R/O)]]. 
   *[[http://www.ahkscript.org/boards/|AHKScript (an AutoHotkey Forum)]].
   *[[http://www.autohotkey.com/board/|AutoHotkey Community]].
   *[[http://www.autoitscript.com/forum/|Jonathan Bennett & AutoIt Consulting Ltd - AutoIT Forums]].
@@ -885,7 +877,8 @@ Simplify Complex Testing Across APIs, Cloud, SOA, and Composite Apps"]] -> [[htt
     *[[http://www.facebook.com/groups/168683186853/|Facebook "QTP -Testcomplete-Testing-Loadrunner-Selenium-Blog"]].
     *[[http://www.facebook.com/groups/358187634238232/|Facebook "TestComplete"]].
     *[[http://www.facebook.com/TRICENTIS|Facebook "Tricentis"]].
-  *Google Groups.
+    *[[http://www.facebook.com/ubertesters|Facebook "Ubertesters"]].
+  *Google Groups. 
     *[[http://groups.google.com/group/cpputest|Google Groups "cpputest"]].
     *[[http://groups.google.com/group/nsubstitute|Google Groups "NSubstitute"]].
     *[[http://groups.google.com/group/testng-users|Google Groups "testng-users"]].
@@ -902,9 +895,27 @@ Simplify Complex Testing Across APIs, Cloud, SOA, and Composite Apps"]] -> [[htt
       *[[http://groups.google.com/forum/#!categories/throwtheswitch/testing-c|Google Groups "ThrowTheSwitch / Testing C"]].
   *Google+.
     *[[http://plus.google.com/communities/112757416010738282943|Google+ "TestComplete"]].
+  *[[http://h30499.www3.hp.com/t5/Products/ct-p/sws-ProductFamilies|HP Enterprise Business Community]].
+    *[[http://h30501.www3.hp.com/|HP Software Solutions Community "Software"]] -> Vivid.
+    *[[http://h30499.www3.hp.com/t5/Quality-Center-ALM/ct-p/sws-QC|HP Enterprise Business Community "Quality Center / ALM"]].
+      -Forum "Quality Center Support and News Forum".
+      -"Quality Management Best Practices and Methodology".
+      -"Requirements Management Information and News".
+      -"Quality Center/ALM Knowledge Base".
+    *[[http://h30499.www3.hp.com/t5/LoadRunner-Performance-Center/ct-p/sws-LoadRunner|HP Enterprise Business Community "LoadRunner / Performance Center / StormRunner Load"]].
+      -"Best Practices and Methodology".
+      -"LoadRunner Information and News".
+      -"LoadRunner Support Forum".
+      -"Performance Center Support and News Forum".
+      -"StormRunner Load Practitioner Forum".
+      -"LoadRunner/Performance Center Knowledge Base".
   *[[http://www.innovasys.com/cs/forums/|Innovasys Community Forums]].
   *[[http://forum.iopus.com/|iOpus Forum]].
   *[[http://www.klaros-testmanagement.com/forum|klaros testmanagement Forum]].
+  *[[http://www.learnqtp.com/forums/|Learn QTP for those with a zest to test - QTP (UFT) Forums]].
+    *[[http://www.learnqtp.com/search/?q=qc|Learn QTP for those with a zest to test - QTP (UFT) Forums - Search for "qc"]].
+    *[[http://www.learnqtp.com/search/?q=ota|Learn QTP for those with a zest to test - QTP (UFT) Forums - Search for "ota"]].
+  *[[http://www.linkedin.com/grp/home?gid=1784477|LinkedIn Group "HP Quality Center OTA Developer"]].
   *[[http://www.mjtnet.com/usergroup/|mjtnet - Macro Scheduler and Windows Automation Forum]].
   *[[http://www.modellzentriertestesten.de/index.php?id=87|Modellzentriertes Testen - Forum]].
   *Quality Testing.
@@ -914,6 +925,7 @@ Simplify Complex Testing Across APIs, Cloud, SOA, and Composite Apps"]] -> [[htt
   *[[http://wiki.openqa.org/|OpenQA (Confluence) Dashboard - OpenQA Wiki]] - Support for "Selenium", "Watir",..
   *[[http://www.opensourcetesting.org/|opensourcetesting.org - open source testing tools, news and discussion]].
     *[[http://www.opensourcetesting.org/forums/|opensourcetesting.org - Forum]].
+  *[[http://web.archive.org/web/*/http://forum.proficom.de/|Archive.org "profi.com AG business solutions Forum"]] ( - 2014-08-24 ) - About HPQC, OTA,...
   *[[http://community.qualitylogic.com/|QualityLogic Community]].
   *[[http://www.quickmacros.com/forum/|Quick Macros Forum]].
   *[[http://www.smartwebapps.de/forum|Prüfungsvorbereitung Softwaretest Datenbank mit Übungsfragen zum Thema Softwaretest - Foren]].
@@ -924,10 +936,12 @@ Simplify Complex Testing Across APIs, Cloud, SOA, and Composite Apps"]] -> [[htt
     *[[http://forum.soapui.org/|SoapUI Forum]].
   *[[http://www.sqaforums.com/|Software Quality Assurance Forums]] ( SQAforums ) - "The online community for software testing & quality assurance professionals" #.
     *[[http://www.sqaforums.com/forums/telerik-webui-test-studio/|SQForums - Subforum "Telerik WebUI Test Studio"]].
+    *[[http://www.sqaforums.com/forums/hp-alm-mercury-quality-center/|SQForums - Subforum "HP ALM / Mercury Quality Center. This forum is now for HP Application Lifecycle Management ALM (Previously known as Mercury Quality Center)"]].
   *[[http://lists.sourceforge.net/lists/listinfo/texttest-users|SourceForge mailing list "Texttest-users"]].
   *[[http://testing.stackexchange.com/|Stackexchange "Testing"]] - "A place to ask questions about software testing".
+  *[[http://tdforums.tdadmins.com/|TDForums - An HP Software Community]] - TD = Test Director. "[#10123] The administrator is currently not accepting new membership registrations" :-(.
   *[[http://forum.testlink.org/|TestLink, Test management forum]].
-  *[[http://www.testtalk.net/|TestTalk - network device testing community]] by [[https://www.ixiacom.com/|Ixia]].
+  *[[http://www.testtalk.net/|TestTalk - network device testing community]] by [[http://www.ixiacom.com/|Ixia]].
   *[[http://forums.pragprog.com/forums/123|The Pragmatic Bookshelf - Pragmatic Forums "Test Driven Development for Embedded C"]].
   *[[http://www.thinbasic.com/community/forum.php|ThinBasic Forum]].
   *[[http://support.thoughtworks.com/forums/|ThoughtWorks Customer Support - Forums]].
@@ -935,6 +949,12 @@ Simplify Complex Testing Across APIs, Cloud, SOA, and Composite Apps"]] -> [[htt
   *[[http://www.vietnamesetestingboard.org/|VietnameseTestingBoard - VTB Software Testing Community]].
     *[[http://www.vietnamesetestingboard.org/zbxe/?mid=Testing_Question_Answer|VietnameseTestingBoard - Forum]].
   *The read-only forum [[http://www.vtaskstudio.com/forum/YaBB.pl|Vista Software "vTask Forums"]].
+  *Vivit.
+    *[[http://www.vivit-worldwide.org/forums/|Vivit Forums]].
+      *[[http://www.vivit-worldwide.org/forums/Topics.aspx?forum=111045|Vivit Forums, Subforum "HP Quality Center"]].
+      *[[http://vivitworldwide.site-ym.com/forums/Default.aspx?group=80113|Vivit Forums, Subforum "Chapter: Germany Forums"]].
+      *[[http://www.vivit-worldwide.org/forums/Default.aspx?group=79943|Vivit Forums, Subforum "Special Interest Group: Testing Quality and ALM Forums"]].
+    *[[http://www.vivit-worldwide.org/?page=HPSolutionsForum|Vivit "HP Software Discover Performance Community for IT Experts"]].
   *Yahoo Groups.
     *[[http://groups.yahoo.com/neo/groups/AgileEmbedded|Yahoo Groups "Agile Embedded"]].
     *[[http://tech.groups.yahoo.com/group/junit/|Yahoo Groups "junit. JUnit, the Java unit testing framework written by Kent Beck and Erich Gamma"]], [[http://tech.groups.yahoo.com/group/testdrivendevelopment/|Yahoo Groups "testdrivendevelopment. Test-driven Development"]].

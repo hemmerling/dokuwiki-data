@@ -1,4 +1,4 @@
-====== [hemmerling] Atmel ARM-based MCUs and eMPUs ======
+====== [hemmerling] Atmel ARM-based MCUs and MPUs ======
 ===== The Company =====
   *[[http://www.atmel.com/products/microcontrollers/arm/|Atmel Corporation "Atmel ARM-based Solutions"]].
 ===== My Board "Atmel SAM4L-EK" =====
@@ -60,7 +60,30 @@
       *[[http://www.eibtron.com/epages/eibtron.sf/?ObjectPath=/Shops/eibtron/Products/429-307|eibtron.com GmbH "Adapterkabel TTL-232R-3V3"]].
   *Tips:
     *[[http://www.dontronics-shop.com/ftdi-usb-to-serial-ttl-level-33v-converter-cable.html|Dontronics "FTDI USB to Serial (TTL level 3.3V) converter cable #16536"]] - "If for any reason there is no Voltage label on the cable, then the above pictures show you how to identify them. The plastic inside the connector housing will be black for 3.3 Volts, and white for 5 Volts" -> This is just true for the company's products, while labeled products ( "TTL-232R-3V3" label on the USB interface jack shield ) of other sources may have white plastic no matter if a 5 Volts or 3.3 Volts model, just check the label.
-
+===== My Board "WINC1500-XTK Xplained Pro" & Addon =====
+==== The Technology ====
+  *[[http://www.atmel.com/products/wireless/wifi/smart-connect.aspx|Atmel Corporation "ATWINC1500"]].
+  *[[http://www.atmel.com/devices/ATWINC1500.aspx|Atmel Corporation "ATWINC1500"]] - It is the ideal add-On to existing MCU solutions bringing WiFi and Network capabilities through UART or SPI-to-WiFi interface.
+  *[[http://www.atmel.com/devices/ATWINC3400.aspx|Atmel Corporation "ATWINC3400"]] - Similar to ATWINC1500, but with additional BlueTooth 4.0 / Blue Tooth Low Energy support.
+==== My Board ====
+  *[[http://www.atmel.com/tools/ATWINC1500-XSTK.aspx|Atmel Corporation "ATWINC1500-XSTK"]] with [[http://www.atmel.com/devices/ATWINC1500.aspx|Atmel Corporation "ATWINC1500"]] - "IEEE 802.11 b/g/n IOT network controller SoC is the ideal add-on to existing MCU solutions bringing WiFi and Network capabilities through UART or SPI-to-WiFi interface.
+==== My Crypto Addon ====
+  *My addon [[http://www.atmel.com/tools/CryptoAuthXplained.aspx|Atmel Corporation "CryptoAuthXplained"]].
+  *The legacy <del>[[http://www.atmel.com/tools/ATAVRSECURITYX.aspx|Atmel Corporation "CryptoAuthentication Xplained"]]</del>.
+==== My Crypto USBStick ====
+  *My [[http://www.atmel.com/tools/AT88CK490.aspx|Atmel Corporation "AT88CK490 Evaluation Kit"]] with [[http://www.atmel.com/devices/ATAES132.aspx|Atmel Corporation "ATAES132"]] crypto chip.
+==== Hands-On Crypto Workshop 2015 ====
+  *In the The hands-On crypto workshop 2015, we created our own WifI communications between an embedded device ( as data source ) and a smartphone ( provides data visualisation ):
+    -Setup the Wifi device so that it provides a WiFi spot. At compiletime, you have to select a short individual SSID, e.g. "RolfH". Don´t use a long name!
+    -Setup your Android phone, by installing the Android Apps provided exclusively on workshop ( so there is no official download by Google Play ):
+      *Android App "Atmel_IOT Sensor.apk".
+      *Android App "Atmel_IoT_CryptoAuthDemo.apk".
+    -On a desktop PC on Windows/Linux, I connect the PC to my WiFi device with my individual SSID. So I am not connected to the Internet, just to my own WiFi device. My Wifi device is my router.
+    -My WiFi devices provides a web server at [[http://atmeladmin.com/|atmeladmin.com]]. On the desktop PC with the Internet browser on Windows/Linux, I visit this URL [[http://atmeladmin.com/|atmeladmin.com]]. On the website page, I enter the access data of my local Internet router box ( e.g. "Fritzbox",.. ), i.e. ( known ) SSID and ( known ) password.
+    -With this data, my Wifi device now registers at the local router box. It stops the web server at [[http://atmeladmin.com/|atmeladmin.com]].
+    -The Android App now detects which WiFi devices are connected to the local Internet router. By this the Android App may ask the devices, so also my device, for data and may visualize it.
+==== Resources ==== 
+  *[[http://www.all-electronics.de/texte/anzeigen/57522/Cloud-faehige-Wi-Fi-Bluetooth-Plattform-fuer-IoT-Anwendungen|all-electronics "Cloud-fähige Wi-Fi/Bluetooth-Plattform für IoT-Anwendungen"]], 2015-02-16.
 ===== Tinkerforge, based on the ARM Cortex M3 CPU "Atmel ATSAM3S4C" =====
   *See [[tinkerforge.html|Tinkerforge]].
 ===== Resources =====
@@ -74,10 +97,7 @@
     *[[http://www.atmel.com/tools/ATMELSAM-BAIN-SYSTEMPROGRAMMER.aspx|Atmel Corporation "SAM-BA for linux archives"]].
       *[[ftp://ftp.linux4sam.org/pub/sam-ba/|ftp.linux4sam.org/pub/sam-ba/]].
   *[[http://en.wikipedia.org/wiki/Crank_Storyboard_Suite|EN.Wikipedia "Crank Storyboard Suite"]].
-
-
 ===== Appropriate OpenDirectory Directory Pages =====
   *[[http://www.dmoz.org/World/Deutsch/Computer/Hardware/Mikrocontroller/|OpenDirectory "Top: World: Deutsch: Computer: Hardware: Mikrocontroller"]].
 {{tag>Atmel ARM Embedded Systems "Cortex M4" Cortex M4}}
 <footnote_navi_en>
-

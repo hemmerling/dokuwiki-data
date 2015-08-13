@@ -67,13 +67,19 @@ Related pages:
   *[[http://www.github.com/petrjanda/node-cqrs|Github "petrjanda / node-cqrs"]] - "Node.js implementation of CQRS".
 
 
+===== Convention based Framework vs. Configuration based Framework =====
+  *Configuration based framework .
+    *An XML file contains the configuration, which has to be created, edited and maintained ( by the user using an XML editor,..). Legacy in 2015.
+  *Convention based framework.
+    *[[http://programmers.stackexchange.com/questions/25486/what-is-convention-based-framework|StackOverflow "What is convention based framework?"]].
+    *[[http://en.wikipedia.org/wiki/Convention_over_configuration|EN.Wikipedia "Convention over configuration"]], [[http://de.wikipedia.org/wiki/Konvention_vor_Konfiguration|DE.Wikipedia "Konvention vor Konfiguration"]].
 ===== Database Application Design by Data Flow Diagrams ( DFD ) & Entity Relationship Diagrams ( ER ) =====
 ==== Tools for Database Application Design by Data Flow Diagrams ( DFD ) ====
   *See [[diagrams.html|Diagrams & Graph Visualization]].
 ==== Resources ====
   *[[http://www.teialehrbuch.de/Kostenlose-Kurse/SQL/14650-Datenflussdiagramm.html|(teia) Lehrbuch "2.3 Datenflussdiagramm"]].
   *[[http://en.wikipedia.org/wiki/Data_flow_diagram|EN.Wikipedia "Data flow diagram"]], [[http://en.wikipedia.org/wiki/Physical_Data_Flow|EN.Wikipedia "Physical Data Flow"]], [[http://de.wikipedia.org/wiki/Datenflussdiagramm|EN.Wikipedia "Datenflussdiagramm"]].
-===== Design by Contract / Contract Programming =====
+===== Design by Contract / Contract-Driven Development =====
 ==== Codius ====
   *[[http://www.github.com/codius/|GitHub "codius"]].
     *[[http://www.github.com/codius/codius/wiki/Smart-Oracles:-A-Simple,-Powerful-Approach-to-Smart-Contracts|GitHub Wiki of "codius/codius" - "Smart Oracles: A Simple, Powerful Approach to Smart Contracts"]].
@@ -83,6 +89,13 @@ Related pages:
   *[[http://www.d-programming-language.org/|The D programming language]].
     *[[http://www.d-programming-language.org/dbc.html|The D programming language "Contract Programming"]].
 ==== Resources ====
+  *[[http://www.artima.com/intv/serious.html|Artima, Inc. "The Demand for Software Quality. A Conversation with Bertrand Meyer, Part I"]], [[http://www.artima.com/intv/contracts.html|Artima, Inc. "Design by Contract
+A Conversation with Bertrand Meyer, Part II"]], [[http://www.artima.com/intv/contest.html|Artima, Inc. "Contract-Driven Development. A Conversation with Bertrand Meyer, Part III"]]. 
+  *[[http://www.minddriven.de/index.php/technology/development/software-design/contract-driven-development|Mind-driven development "A look at: Contract Driven Development"]].
+    *[[http://se.inf.ethz.ch/old/people/leitner/|Andreas Leitner]].
+      *[[http://se.inf.ethz.ch/old/people/leitner/publications/cdd_leitner_esec_fse_2007.pdf|Leitner, A., Ciupa, I., Oriol, M., Meyer, B., Fiva, A., "Contract Driven Development = Test Driven Development - Writing Test Cases"]] ( PDF ).
+  *[[http://www.stackoverflow.com/questions/481312/design-by-contract-vs-test-driven-development|StackOverflow "Design By Contract vs Test Driven Development?"]].
+  *[[http://www.stackoverflow.com/questions/394591/design-by-contract-and-test-driven-development|StackOverflow "Design By Contract and Test-Driven Development"]].
   *[[http://en.wikipedia.org/wiki/Design_by_contract|EN.Wikipedia "Design by contract"]], [[http://de.wikipedia.org/wiki/Design_by_contract|DE.Wikipedia "Design by contract"]].
 
 ===== Design Patterns =====
@@ -165,9 +178,11 @@ Related pages:
     *[[http://alistair.cockburn.us/Hexagonal+architecture|Alistair Cockburn "Hexagonal architecture"]] - "The Pattern: Ports and Adapters ('Object Structural')"#.
       *Communication between different layers: "Think in slices, not in layers ( Lasagna )"!
     *Dependency inversion principle.
+      *[[http://www.martinfowler.com/articles/injection.html|Martin Fowler "Inversion of Control Containers and the Dependency Injection pattern"]].
       *[[http://en.wikipedia.org/wiki/Dependency_inversion_principle|EN.Wikipedia "Dependency inversion principle"]], [[http://de.wikipedia.org/wiki/Dependency-Inversion-Prinzip|DE.Wikipedia "Dependency-Inversion-Prinzip"]].
       *[[http://en.wikipedia.org/wiki/Protocol_%28object-oriented_programming%29|EN.Wikipedia "Protocol (object-oriented programming)"]], [[http://en.wikipedia.org/wiki/Interface_%28Java%29|EN.Wikipedia "Interface (Java)"]], [[http://de.wikipedia.org/wiki/Schnittstelle_%28Objektorientierung%29|DE.Wikipedia "Schnittstelle (Objektorientierung)"]].
       *[[http://en.wikipedia.org/wiki/Inversion_of_control|EN.Wikipedia "Inversion of control"]], [[http://de.wikipedia.org/wiki/Inversion_of_Control|DE.Wikipedia "Inversion of Control"]], [[http://en.wikipedia.org/wiki/Hollywood_principle|EN.Wikipedia "Hollywood principle"]] - "Don't call us, we'll call you"
+      *[[http://de.wikipedia.org/wiki/Liste_von_Dependency_Injection_Frameworks|DE.Wikipedia "Liste von Dependency Injection Frameworks"]].
       *"Tell, don´t ask".
         *[[http://www.martinfowler.com/bliki/TellDontAsk.html|Martin Fowler "TellDontAsk"]], 2013-09-15.
         *[[http://www.pragprog.com/articles/tell-dont-ask|The Pragmatic Bookshelf "Tell, Don't Ask"]].

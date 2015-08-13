@@ -87,7 +87,7 @@ Select:
     *Example: SMIL player.
 ==== 1.4 Script Language or Compiled Language =====
 Select.
-  -Script Language ( Python, Perl, Tcl/Tk, PHP ).
+  -Script Language ( Python, Perl, Tcl/Tk, PHP, Ruby, Javascript / Node.js ).
     *Just at runtime, the source code is checked acurately.
     *For some programming languages, there are useful additional code checkers.
     *Distribution just as source code, due to the choice of a skript language. Not good if later used for commercial purposes - You can´t hide your code.
@@ -99,10 +99,11 @@ Select.
     *Binary distribution, plus additional source code distribution. Good for later commercial distribution, with the right license: You can hide your code. For interpreted languages like Java, .NET, you need a code obfuscation tool to protect your code, additionally.
     *High speed code.
 ==== 1.5 Where is the Application running ? =====
-Nowadays, 2011, rich client applications are "uncool", and Internet based services are "cool". But in embedded systems, you still have the full-blown applications and not just a browser which displays the output of remote applications :-). Select:
+Nowadays, in the 2010th, rich client applications are "uncool", and Internet based services are "cool". But in embedded systems, you still have the full-blown applications and not just a browser which displays the output of remote applications :-). Select:
   -On the computer of the client ( Rich client application ).
     *Android application.
-    *Windows 7 phone application.
+    *Windows phone application.
+    *Windows App application.
     *Desktop application on Windows, Linux, using a native ( single-platform or multi-platform ) GUI.
     *Desktop application in Java.
     *Application on an embedded system ( e.g. the TI clock ).
@@ -120,7 +121,7 @@ Some computer languages and frameworks are industry-specific. By the choice of t
   -C/C++ with frameworks is suitable for desktop applications, plus for system programming on Linux and Windows.
   -C# is the #1 computing language for configuration of Microsoft server applications and the coding of desktop applications for Windows ( Microsoft itself mostly codes its commercial products still with C/C++ ).
   -Java is dedicated to server-side applications, server-side database applications and web services, often for the financial sector. There are a small number of applications on embedded systems. Java is the #1 language for academic software. The "Java applet" in the browser is outdated.
-  -Perl, PHP, Python, all Web technologies: You attract audience who might also demand "Web designer" skills. Bad if you know that you are not a genious "Web designer" due to missing artistic and graphical abilities ( e.g. your webdesign does not look like if it is made by an artist, but somewhat "ugly" ).
+  -Perl, PHP, Python, Ruby, Javascript / Node.JS, all Web technologies: You attract audience who might also demand "Web designer" skills. Bad if you know that you are not a genious "Web designer" due to missing artistic and graphical abilities ( e.g. your webdesign does not look like if it is made by an artist, but somewhat "ugly" ).
   -Python is popular for Web applications, but due to some historic reasons it is also a popular test language in the automotive industry, for non-Web environments.
   -Visual Basic 6 is outdated, VB.NET is not the #1 programming language for .NET, anymore, as it was during the period of Visual Studio 2003 and 2005. Now with Visual Studio 2008 and 2010, C# is the #1.
   -Are you really shure that you want to deal with an esoteric language with a very limited number of experts and a very limited audience, like Delphi, Tcl/Tk,... ? What should be the later job, with what application, in what industry ?

@@ -75,23 +75,43 @@ Related page:
     *[[http://www.mvtec.com/halcon/now/|MVTec Software GmbH "Try HALCON for free!"]]. The demo version can't save data ?!
 ==== Software Development Kits ( SDKs ), Frameworks ====
 === Open Computer Vision Library ( OpenCV ), an OpenSource Image Processing Software SDK ===
+== The Tool ==
   *[[http://www.opencv.org/|Open Computer Vision Library]], [[http://opencvlibrary.sourceforge.net/projects/|Sourceforge "Open Computer Vision Library"]], [[http://www.sourceforge.net/projects/opencvlibrary/|Sourceforge "Open Computer Vision Library"]] ( OpenCV ).
   *[[http://en.wikipedia.org/wiki/OpenCV|EN.Wikipedia "OpenCV"]], [[http://de.wikipedia.org/wiki/OpenCV|DE.Wikipedia "OpenCV"]].
   *[[http://opencv.willowgarage.com/|OpenCV Wiki]].
     *[[http://opencv.willowgarage.com/wiki/VisualC++|OpenCV Wiki "VisualC++"]].
   *[[http://developer.intel.com/technology/itj/|Intel Technology Journal]].
     *[[http://www.intel.com/technology/itj/2005/volume09issue02/art03_learning_vision/vol09_art03.pdf|Intel Technology Journal, Volume 09, Issue 02 "Learning-Based Comuter Vision with OpenCV library"]] ( PDF ), 2005-05-19.
-  *[[http://software.intel.com/en-us/articles/intel-ipp/|Intel Integrated Performance Primitives Performance Library]].
+  *[[https://software.intel.com/en-us/intel-ipp|Intel Integrated Performance Primitives Performance Library]].
     *[[http://software.intel.com/en-us/articles/intel-integrated-performance-primitives-intel-ipp-open-source-computer-vision-library-opencv-faq/|Intel Software Network "Intel IPP - Open Source Computer Vision Library (OpenCV) FAQ"]].
     *[[http://software.intel.com/en-us/articles/using-intel-ipp-with-opencv/|Intel Software Network "Using Intel IPP with OpenCV"]].
     *[[http://software.intel.com/en-us/articles/intel-ipp-support-model-changed-in-opencv-2x/|Intel Software Network "Intel IPP Support Model Changed In OpenCV 2.1"]].
-    *[[http://software.intel.com/en-us/forums/intel-integrated-performance-primitives/|Intel Software Network, Forum "Intel® Integrated Performance Primitives"]].
+    *[[http://software.intel.com/en-us/forums/intel-integrated-performance-primitives/|Intel Software Network, Forum "Intel Integrated Performance Primitives"]].
   *[[http://downloadcenter.intel.com/SearchResult.aspx?lang=eng&keyword=%22opencv%22|Intel Download Center, search downloads "opencv"]].
   *[[http://search.intel.com/default.aspx?q=opencv|Intel Software Network, search for "opencv"]].
   *[[http://www.cs.iit.edu/~agam/cs512/lect-notes/opencv-intro/opencv-intro.html|Gady Agam "Introduction to programming with OpenCV"]].
+== .NET Wrapper ==
+  *[[http://www.emgu.com/|Emgu CV]], [[http://emgucv.sourceforge.net/|SourceForge "Emgu CV"]], [[http://www.sourceforge.net/projects/emgucv/|SourceForge "Emgu CV"]] - "Emgu CV is a cross platform .Net wrapper for OpenCV".
+== Literature ==
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1849517827/hemmerling-21|Daniel Lélis Baggio, Shervin Emami, David Millán Escrivá "Mastering OpenCV with Practical Computer Vision Projects"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1430260793/hemmerling-21|Samarth Brahmbhatt "Practical OpenCV"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1783287659/hemmerling-21|Gloria Bueno Garcia, Oscar Deniz Suarez, Jose Luis Espinosa Aranda "Learning Image Processing with OpenCV"]] - not yet available in TIB.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1118848454/hemmerling-21|Kenneth Dawson-Howe "A Practical Introduction to Computer Vision with OpenCV"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1783287373/hemmerling-21|Joseph Howse "OpenCV for Secret Agents"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1849695202/hemmerling-21|Joseph Howse "Android Application Programming with OpenCV"]] - not ordered for TIB.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1785285386/hemmerling-21|Joseph Howse "Android Application Programming with OpenCV 3"]] - not yet available in TIB.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1449314651/hemmerling-21|Adrian Kaehler, Gary Bradski "Learning OpenCV: Computer Vision in C++ with the OpenCV Library"]] - not yet available in TIB.
   *Book [[http://www.amazon.de/exec/obidos/ASIN/1849513244/hemmerling-21|Robert Laganière "OpenCV 2 Computer Vision Application Programming Cookbook"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1782161481/hemmerling-21|Robert Laganiere "OpenCV Computer Vision Application Programming Cookbook Second Edition"]] - not yet available in TIB.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1783559527/hemmerling-21|Shin Shin "Emgu CV Essentials"]] - not yet available in TIB.
+  *Book "Jan Erik Solem: Programming Computer Vision with Python: Tools and Algorithms for Analyzing Images" - See [[python03.html|Python 3/5 - Literature]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1783984244/hemmerling-21|Oscar Deniz Suarez, M del Milagro Fernandez Carrobles "OpenCV Essentials"]] - not yet available in TIB.
 === Python Imaging Library (PIL) & OpenCV Wrapper for Python ===
   *Book "Jan Erik Solem: Programming Computer Vision with Python: Tools and Algorithms for Analyzing Images" - See [[python03.html|Python 3/5 - Literature]].
+  *Book "Joseph Howse: OpenCV Computer Vision with Python" - See [[python03.html|Python 3/5 - Literature]].
+  *"OpenCV 3" is shipped with Python 2.7 support :-).
+=== SimpleCV ===
+  *SimpleCV - See [[python03.html|Python 3/5 - Literature]].
 === ZXing ( "Zebra Crossing" ) ===
   *The OpenSource [[http://code.google.com/p/zxing/|Google Code "ZXing ('Zebra Crossing')"]] - "Multi-format 1D/2D barcode image processing library implemented in Java".
 === Commercial Image Processing Software SDKs ===

@@ -60,7 +60,7 @@ Related pages:
   -Pironet NDH AG (Pironet).
   -Salesforce.com Inc. (Salesforce).
   -T-Systems International GmbH (T-Systems).
-=== Cloud Connectivity Platforms which might become important for IoT, according to VDC Research in 2014 ===
+=== Cloud Connectivity Platforms which might become important for IoT, according to VDC Research in 2014, 2015 ===
   -[[http://www.arrayent.com/|Arrayent]].
   -[[http://www.axeda.com/|Axeda]].
   -[[http://www.cloudera.com|Cloudera]] - "The Platform for Big Data and the Leading Solution for Apache Hadoop in the Enterprise".
@@ -69,21 +69,38 @@ Related pages:
     *[[http://www.etherios.co.uk/products/devicecloud/developerzone|Etherios, Inc., UK - Developerzone]] - "Create Your Free Developer Edition Account".
     *[[http://login.etherios.com/login.do|Etherios Device Cloud "Device Cloud US Log in"]].
     *[[http://login.etherios.co.uk/login.do|Etherios Device Cloud  "Device Cloud Europe Log in"]].
+  -[[http://www.exosite.com/|Exosite]].
+    *[[http://portals.exosite.com/|Exosite Portals]].
+    *The commercial business service [[http://www.exosite.com/business/|Exosite Business Platform]].
+      *Different account than for the "Exosite Portals"! 
+      *Business plans start with $100/m :-(.
+    *Exosite supports the "Constrained Application Protocol" ( CoAP ) - See [[fieldbus.html|Fieldbuses and Automation Networks]].
+    *[[http://www.twitter.com/exosite/|Twitter "Exosite, @exosite"]].
+    *[[http://info.exosite.com/iot-strategies-for-diversified-businesses|Exosite "IoT Strategies White paper. Providing powerful insight to help diversified businesses conquer the Internet of Things" - "OUR NINE-STEP APPROACH. Helping Create a Clear IoT Strategy as Unique as Your Business"]].
     *[[http://www.github.com/exosite-labs|GitHub "Exosite Labs"]].
-    *[[http://www.github.com/exosite-garage|GitHub "Exosite Garage"]].
+    *[[http://exosite-garage.github.io/|GitHub.io "Exosite Open Projects Garage"]], [[http://www.github.com/exosite-garage|GitHub "Exosite Garage"]].
+      *[[http://www.github.com/exosite-garage/PicoCoAP|GitHub "exosite-garage/PicoCoAP"]] - "A Minimal Implementation of CoAP Message Serialization and De-serialization in C".
     *[[http://www.github.com/exosite/|GitHub "Exosite"]].
       *[[http://www.github.com/exosite/docs|GitHub "exosite/docs"]] - "Exosite API documentation".
-  -Eurotech ESF.
+        *[[http://www.github.com/exosite/docs/tree/master/coap|GitHub "exosite/docs/tree/master/coap"]] - "CoAP API".
+    *[[http://www.hackersome.com/p/exosite-labs/libexositecoap|Hackersome "exosite-labs/libexositecoap"]] - "The C Library for Interacting with the Exosite One Platform over CoAP".
+    *[[http://developer.nordicsemi.com/nRF51_IoT_SDK/doc/iot/html/a00017.html|Nordic "nRF51 IoT SDK"]] - "CoAP. The examples included in this SDK demonstrate communication between the development kits and the cloud service. The Constrained Application Protocol (CoAP) is used to exchange information. Examples here use Exosite as the cloud provider".
+    *[[http://community.exosite.com/t/using-coap-for-posting-data-to-exosite-server-what-about-ipv6/126|Exosite Community "Using CoAP for posting data to exosite server. What about IPv6?"]].
+  -Eurotech ESF / Eurotech Everyware Cloud.
     *[[http://www.eurotech.com/|EUROTECH S.p.A.]].
-      *[[http://www.eurotech.com/en/products/software+services/everyware+software+framework|EUROTECH S.p.A. "Everyware™ Software Framework (ESF)"]].
-      *[[http://esf.eurotech.com/|EUROTECH S.p.A. "Everyware™ Software Framework Registration"]] - "Welcome to the ESF registration page! Please fill in the information below for a free registration that will give you access to the ESF software".
+      *[[http://www.eurotech.com/en/products/software+services/everyware+software+framework|EUROTECH S.p.A. "Everyware Software Framework (ESF)"]].
+      *[[http://esf.eurotech.com/|EUROTECH S.p.A. "Everyware Software Framework Registration"]] - "Welcome to the ESF registration page! Please fill in the information below for a free registration that will give you access to the ESF software".
       *[[http://esf.eurotech.com/doc/ESFDevGuide/|EUROTECH S.p.A. "Everyware Software Framework Developer’s Guide"]].
   -Microsoft Azure.
   -OpenStack.	
   -[[http://www.sierrawireless.com/productsandservices/airvantage_m2m_cloud|Sierra Wireless AirVantage]] - "The AirVantage Enterprise Platform offers advanced REST APIs along with powerful device and data management dashboards".
     *[[http://developer.sierrawireless.com/|Sierra Wireless Developer Zone]].
   -[[http://www.thingworx.com/|ThingWorx]] - "Internet of Things and M2M Application Platform".
-  -[[http://www.xively.com/|Xively]].	
+  -[[http://www.xively.com/|Xively by LogMein]] - "Xively provides the platform, tools, services and support needed to create and manage compelling connected products and services on the Internet of Things". Free developer account.
+    *[[http://personal.xively.com/|Xively personal]].
+      *[[http://personal.xively.com/dev|Xively Developer Center]].
+      *[[http://personal.xively.com/dev/docs/api/communicating/mqtts/|Xively Developer Center "Using MQTT"]].
+    *Xively supports the MQTT protocol -> See [[fieldbus.html|Fieldbuses and Automation Networks]].
 === The Texas Instruments Cloud Ecosystem ===
   -[[http://www.2lemetry.com/|2lemetry]] - "IoT Platform, Middleware and Solutions".
     *[[http://ti-act.2lemetry.com/#/devices/cards|2lemetry "Texas Instruments"]].
@@ -114,7 +131,7 @@ Related pages:
     *[[http://www.contiki-os.org/|Contiki: The Open Source OS for the Internet of Things]], [[http://www.github.com/contiki-os/|GitHub "The Contiki Open Source OS for the Internet of Things"]].
     *[[http://contiki-os.blogspot.de/|The Official Contiki OS Blog. News about Contiki, the open source operating system for the Internet of Things]].
     *[[http://processors.wiki.ti.com/index.php/Contiki-6LOWPAN|Texas Instruments Wiki "Contiki-6LOWPAN"]].
-  -[[http://www.xively.com/|Xively by LogMein]] - "Xively provides the platform, tools, services and support needed to create and manage compelling connected products and services on the Internet of Things". Free developer account.
+  -Xively ( see on this page ).
 === Important Companies with focus on developer support for "Industrial IoT", from Point of View of "VisionMobile" in 2015 ===
   *Eruotech (Everyware device cloud).
   *Sierra Wireless (Airvantage).
@@ -146,8 +163,8 @@ Related pages:
     *Its a complex matter to start a virtual machine on FIWARE, in comparison to other cloud services ( AWS, Azure,..), or on your own PC ( VirtualBox, VirtualPC, VMWare...).
   *[[http://www.nirvanix.com/products-services/hybrid-cloud-storage/|Nirvanix hNode]] - "Hybrid Cloud Storage as a Service".
   *[[http://ace.ng.bluemix.net/|IBM® Bluemix - A cloud platform for the world's ideas]].
-    -Free trial for 30 days.
-    -"Free" account.
+    *Free trial for 30 days.
+    *"Free" account.
       *"Confirm Your Free Account. Are you ready to go beyond the free allowances of the trial account? Confirm your free account by adding a credit card, or by creating a subscription account. Don't worry! You are charged only if your usage exceeds the free allowances each month".
       *"Free runtime allowances. Receive 375 GB-hours of free runtime allowances each month. That's enough to run a 512 MB Java app or multiple 128 MB Node.js apps".
       *"Wenn Sie Produkte oder Services von IBM für geschäftliche Zwecke beziehen möchten und keine USt.-ID-Nummer haben, geben Sie die Bestellung bitte über einen IBM Business Partner auf" :-(. 
@@ -157,6 +174,7 @@ Related pages:
         -[[http://www.ibm.com/developerworks/cloud/library/cl-bluemix-arduino-iot2/|IBM Developerworks "Build a cloud-ready temperature sensor with the Arduino Uno and the IBM IoT Foundation, Part 2: Write the sketch and connect to the IBM IoT Foundation Quickstart"]].
         -[[http://www.ibm.com/developerworks/cloud/library/cl-arduino-iot3-app/|IBM Developerworks "Build a cloud-ready temperature sensor with the Arduino Uno and the IBM IoT Foundation, Part 3: Build a custom application with Node-RED"]].
         -[[http://www.ibm.com/developerworks/cloud/library/cl-arduino-iot4-app/|IBM Developerworks "Build a cloud-ready temperature sensor with the Arduino Uno and the IBM IoT Foundation, Part 4: Deploy a query GUI"]].
+    *[[http://blog.4loeser.net/2015/07/bluemix-simple-cron-like-service-for-my.html|Data Henrik: IT, Life, DB2, and more "Bluemix: Simple cron-like service for my Python code"]].
   *[[http://www.meshcentral.com/|MeshCentral]] by Intel staff member [[http://www.linkedin.com/profile/view?id=402939|LinkedIn "Ylian Saint-Hilaire"]] - "Connect to your home or office devices from anywhere in the world using MeshCentral, the remote monitoring and management web site. You will need to download and install a special management agent on your computers. Once installed, each mesh enabled computer will show up in the "My Devices" section of this web site and will be able to monitor them, power them on and off and take control of them".
     *[[http://www.meshcentral.com/tutorial.aspx|MeshCentral "Tutorial"]].
   *[[http://www.theplanet.com/cloud-hosting/|The Planet Cloud-Housing]].
@@ -167,6 +185,8 @@ Related pages:
   *[[http://www.rackspacecloud.com/|Rackspace Cloud]].
   *SIGFOX - See [[fieldbus.html|Fieldbuses and Automation Networks]].
   *[[http://www.sscaleupcloud.com/|ScaleUp Technologies]].
+  * The free online service [[http://www.opensensemap.org/|OpenSenseMap]].
+    *The OpenSource [[http://github.com/mpfeil/OpenSenseMap|GitHub "mpfeil/OpenSenseMap"]].
 === Resources ===
   *[[http://www.postscapes.com/|Postscapes - Tracking the Internet of Things]].
     *[[http://www.postscapes.com/internet-of-things-cloud|Postscapes - Tracking the Internet of Things "Internet of Things Ecosystems"]].
@@ -297,6 +317,8 @@ Related pages:
   *[[http://boards.developerforce.com/|developerforce Community - Force.com Discussion Boards]].
     *[[http://boards.developerforce.com/sforce/?category.id=developers|developerforce Community - Force.com Discussion Boards, Developer Boards]].
   *[[http://forums.electricimp.com/|electric imp Forums]].
+  *[[http://community.exosite.com/|Exosite Community]].
+  *[[http://www.facebook.com/exosite|Facebook "Exosite"]].
   *[[http://groups.google.com/group/heroku|Google Groups "Heroku Community"]].
   *[[http://discussion.heroku.com/|Heroku Forums]].
   *[[http://forum.sierrawireless.com|Sierra Wireless Developer Forum]].

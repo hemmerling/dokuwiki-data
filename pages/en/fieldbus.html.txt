@@ -78,15 +78,25 @@ Related pages:
 ==== <AutomationML> ====
   *See [[ddl.html|Device Description Languages and Device Parameterization]].
 ==== Constrained Application Protocol ( CoAP ) ====
+=== The Protocol ===
   *[[http://tools.ietf.org/html/draft-ietf-core-coap-18|The Internet Engineering Task Force (IETF), CoRE Working Group "Constrained Application Protocol (CoAP)"]].
-  *REST may work by HTTP and CoAP, but the CoAP protocol is much less "slimmer" and therefore ideal for IoT.
+=== Tools ===
+  *[[http://people.inf.ethz.ch/mkovatsc/copper.php|ETH Zürich, Matthias Kovatsch "Copper (Cu) CoAP user-agent for Firefox"]].
+    *[[http://www.github.com/mkovatsc/Copper|GitHub "mkovatsc/Copper"]] - "Copper (Cu) CoAP user-agent (JavaScript implementation)".
+    *[[http://addons.mozilla.org/en-US/firefox/addon/copper-270430/|Mozilla Add-ons for Firefox "Copper (Cu)"]] - "The Copper (Cu) CoAP user-agent for Firefox installs a handler for the 'coap' URI scheme and allows users to browse and interact with Internet of Things devices".
+=== Services ===
+  *Some cloud services ( e.g. Exosite ) support the protocol. See [[saas.html|Software As A Service ( SAAS ) 1/2]].
+=== Resources ===
+  *[[http://code.google.com/p/iotsys/wiki/COAPinteraction|Google Code "iotsys. IoTSyS - Internet of Things integration middleware" - "COAPinteraction"]].
+  *REST may work by HTTP and CoAP, but the CoAP protocol is much less "slimmer" and therefore ideal for IoT. Experts told me that it is considered to be an alternative for MQTT.
+
 ==== IoT Middleware ====
 === Data Distribution Services ( DDS ) ===
   *[[http://www.fortiss.org/|fortiss GmbH]].
     *The OpenSource project [[http://www.fortiss.org/forschung/projekte/chromosome/|fortiss GmbH Projekte "CHROMOSOME. Eine modulare Middlewarearchitektur für Cyber-Physical Systems"]] - a DDS implementation / based on DDS.
     *[[http://www.xing.com/profile/Josef_Viehhauser3|XING "Josef Viehhauser"]], marketing research specialist.
   *[[http://en.wikipedia.org/wiki/Data_Distribution_Service|EN.Wikipedia "Data Distribution Service"]], [[http://de.wikipedia.org/wiki/Data_Distribution_Service|DE.Wikipedia "Data Distribution Service"]].
-=== Some other important IoT Middleware, according to VDC Research in 2014 ===
+=== Some other important IoT Middleware, according to VDC Research in 2014, 2015 ===
   *AllJoyn.
   *CORBA.		
   *DeviceHive.
@@ -101,12 +111,15 @@ Related pages:
   *Java ME Embedded.
   *Java SE Embedded.
   *OneM2M.
+  *OpenJDK -> new in 2015
   *OSGi.
   *Open Mobile Alliance (OMA) Device Management (DM).
   *OMA Lightweight Device Management (LWM2M).
   *Oracle Event Processing Embedded.
   *Samsung SAMI framework.
-=== Some other important IoT/M2M Protocols, according to VDC Research in 2014 ===
+=== Some other IoT Middleware ===
+  *The OpenSource [[http://code.google.com/p/iotsys/|Google Code "iotsys. IoTSyS - Internet of Things integration middleware"]].
+=== Some other important IoT/M2M Protocols, according to VDC Research in 2014, 2015 ===
   *AllJoyn.
   *AMQP ( Advanced Message Queuing Protocol ).
   *CoAP ( Constrained Application Protocol ).
@@ -147,6 +160,8 @@ Related pages:
   *[[http://www.oasis-open.org/committees/mqtt/charter.php|OASIS - Advanced open standards for the information society "OASIS Message Queuing Telemetry Transport (MQTT) TC"]].
 === Online Services ===
   *IBM Bluemix - See [[saas.html|Software As A Service ( SAAS ) 1/2]].
+  *Xively - See [[saas.html|Software As A Service ( SAAS ) 1/2]]. 
+
 ==== NetDACS ====
   *The legendary but discontinued "NetDACS" Java-based M2M protocol, by [[http://web.archive.org/web/*/http://www.gyro-net.de/|Gyro Informatec GmbH]], Hannover ( - 2004-03-29 ).
     *[[http://web.archive.org/web/*/http://www.gyro-net.de/index_1.html|Gyro Informatec GmbH "Historie / Unternehmensentwicklung"]], [[http://web.archive.org/web/*/http://www.gyro-net.de/content/01_b_story.html|Gyro Informatec GmbH "Historie / Unternehmensentwicklung"]] - History of company 1997 - 2003.
@@ -155,10 +170,19 @@ Related pages:
 ==== OData ====
   *See [[rest.html|Representational State Transfer ( REST )]].
 ==== SIGFOX ====
+=== The Service ===
   *[[http://www.sigfox.com/|SIGFOX]].
     *[[http://www.sigfox.com/en/#!/technology|SIGFOX "SIGFOX Technology"]].
   *[[http://www.ft.com/cms/s/0/e4ac0174-4af0-11e4-b1be-00144feab7de.html#axzz3HGtVTXfw|Financial Times "Sigfox seeks funding to form global ‘internet of things’ network"]], 2014-10-05.
   *868MHz global network, currently in France and UK, starting in 2015 in Germany ( pilot project in München ). You can send a maximum of 140 messages/day by a device, which are repeated three times. The estimated costs per device are about 5$/y or 5 EUR/y.
+=== Hardware Chips & Evaluation Boards ===
+  *[[http://www.atmel.com/products/Wireless/smartRF/|Atmel Corporation "Smart RF"]].
+  *[[http://www.atmel.com/products/wireless/smartrf/transmitter_ics.aspx?tab=tools|Atmel Corporation "Smart RF / Transmitter ICs"]].
+    *[[http://www.atmel.com/tools/ATAK55002-V1.aspx|Atmel Corporation "ATAK55002-V1"]] - Standalone.
+    *[[http://www.atmel.com/tools/ATAK55002-V2.aspx|Atmel Corporation "ATAK55002-V2"]] - Shield for Arduino. "The ATA8520 device is preprogrammed with SIGFOX ID and PAC for registration at the SIGFOX backend. It can communicate to any SIGFOX base station in receiving distance".
+    *[[http://www.atmel.com/tools/ATAK55002-V3.aspx|Atmel Corporation "ATAK55002-V3"]] - Extension board for Xplained PRO kits. "The ATA8520 device is preprogrammed with SIGFOX ID and PAC for registration at the SIGFOX backend. It can communicate to any SIGFOX base station in receiving distance".
+  *[[http://www.atmel.com/products/wireless/smartrf/tranceiver_ics.aspx|Atmel Corporation "Smart RF / Tranceiver ICs"]] - As of 2015-06, there are no SIGFOX transceiver chips available. I was told by experts, that this might change in the near future, as receiving commands from the SIGFOX base stations might be a useful features, from point of view of SIGFOX.
+
 ==== Time-Sensitive Networking ====
   *[[http://www.ieee802.org/1/pages/tsn.html|IEEE "Time-Sensitive Networking Task Group"]].
   *Experts told me that they consider it as an alternative to MQTT and OPC-UA.
@@ -197,7 +221,7 @@ Related pages:
     *[[http://automationwiki.com/index.php/BACnet_MSTP|AutomationWiki "BACnet MSTP"]].
   *[[http://www.lcn.de/|Issendorf KG "Local Control Network" ( LCN )]], [[http://www.issendorff.com/|Issendorf KG "Local Control Network" ( LCN )]] #.
     *"LCN-MNO Musterkoffer / Schulungskoffer".
-    *[[http://www.bus-profi.de/|Der Bus-Profi]] - "Deutschlands größte Knowledgebase für LCN-Gebäudeleittechnik und Handel für Komponenten zum LCN-System".
+  *[[http://www.bus-profi.de/|Bus-Profi Gebäudeleittechnik GmbH]] - Schalten, Überwachen, Steuern, Regeln. Ihr Partner für moderne Gebäudetechnik, "Planung, Beratung und Service für Gebäudeleittechnik / Gebäudeautomation", "Deutschlands größte Knowledgebase für LCN-Gebäudeleittechnik und Handel für Komponenten zum LCN-System".
   *[[http://www.knx.org/|KNX Association]] #.
     *[[http://en.wikipedia.org/wiki/European_Installation_Bus|EN.Wikipedia "KNX (standard)"]], [[http://en.wikipedia.org/wiki/Instabus|EN.Wikipedia "Instabus"]] = "European Installation Bus" (EIB).
   *[[http://www.echelon.com/|Echelon Corporation]].
@@ -295,11 +319,16 @@ Installed in Electric Power Substations. IEC 61850 and IEEE 1613"]].
 ==== IEC 60870 ====
   *[[http://en.wikipedia.org/wiki/IEC_60870|EN.Wikipedia "IEC 60870"]], [[http://de.wikipedia.org/wiki/IEC_60870|DE.Wikipedia "IEC 60870"]] for electrical engineering and power system automation.
   *[[http://en.wikipedia.org/wiki/IEC_60870-5|EN.Wikipedia "IEC 60870-5"]] -> "IEC 60870-5-104" = "IEC104".
-
+==== IEEE 1588 ====
+  *[[http://www.nist.gov/el/isd/ieee/ieee1588.cfm|NIST "IEEE 1588 Standard for A Precision Clock Synchronization Protocol for Networked Measurement and Control Systems"]].
+  *[[http://www.lxistandard.org/|LXI Consortium: LXI - LAN eXtensions for instrumentation]].
+  *[[http://www.lxinstruments.com/en/technology/lxi_standard.html|LXinstruments GmbH "The LXI Standard"]].
+  *[[http://www.ni.com/white-paper/7255/en/|National Instruments "What Is LXI?"]].
+  *[[http://en.wikipedia.org/wiki/Precision_Time_Protocol|EN.Wikipedia "Precision Time Protocol"]], [[http://de.wikipedia.org/wiki/Precision_Time_Protocol|DE.Wikipedia "Precision Time Protocol"]].
+  *[[http://en.wikipedia.org/wiki/LAN_eXtensions_for_Instrumentation|EN.Wikipedia "LAN eXtensions for Instrumentation"]], [[http://de.wikipedia.org/wiki/LAN_eXtensions_for_Instrumentation|DE.Wikipedia "LAN eXtensions for Instrumentation"]].
 ==== Some other Process Automation Networks and Protocols ====
   *[[http://en.wikipedia.org/wiki/DNP3|EN.Wikipedia "DNP3"]], [[http://de.wikipedia.org/wiki/DNP3|DE.Wikipedia "DNP3"]] ( Distributed Network Protocol ) - "A set of communications protocols used between components in process automation systems. It was developed for communications between various types of data acquisition and control equipment. It plays a crucial role in SCADA systems, where it is used by SCADA Master Stations (aka Control Centers), Remote Terminal Units (RTUs), and Intelligent Electronic Devices (IEDs)".
-  *[[http://de.wikipedia.org/wiki/FDT/DTM|DE.Wikipedia "FDT/DTM"]].
-    *[[http://www.fdtgroup.org/|FDT Group]].
+  *"FDT/DTM" - See [[ddl.html|Device Description Languages and Device Parameterization]].
   *FOUNDATION Fieldbus ( [[http://en.wikipedia.org/wiki/Fieldbus_Foundation|EN.Wikipedia "Fieldbus Foundation"]], [[http://de.wikipedia.org/wiki/Fieldbus_Foundation|DE.Wikipedia "Fieldbus Foundation"]] ).
     *[[http://www.fieldbus.org/|Fieldbus Foundation]].
   *[[http://en.wikipedia.org/wiki/HART_Protocol|EN.Wikipedia "HART Protocol"]], [[http://de.wikipedia.org/wiki/Highway_Addressable_Remote_Transducer|DE.Wikipedia "Highway Addressable Remote Transducer"]].
@@ -309,7 +338,10 @@ Installed in Electric Power Substations. IEC 61850 and IEEE 1613"]].
 ===== Electronic Busses for Embedded Systems =====
 ==== Electronic Busses in Devices ====
   *[[http://en.wikipedia.org/wiki/I2c|EN.Wikipedia "I2c"]], [[http://de.wikipedia.org/wiki/I2c|DE.Wikipedia "I2c"]] - slow.
-  *[[http://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus|EN.Wikipedia "Serial Peripheral Interface Bus"]], [[http://de.wikipedia.org/wiki/Serial_Peripheral_Interface|DE.Wikipedia "Serial Peripheral Interface Bus"]] - fast.
+  *[[http://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus|EN.Wikipedia "Serial Peripheral Interface Bus"]], [[http://de.wikipedia.org/wiki/Serial_Peripheral_Interface|DE.Wikipedia "Serial Peripheral Interface Bus"]] ( SPI ) - fast.
+  *[[http://en.wikipedia.org/wiki/Low-voltage_differential_signaling|EN.Wikipedia "Low-voltage differential signaling"]], [[http://de.wikipedia.org/wiki/Serial_Peripheral_Interface|DE.Wikipedia "Low Voltage Differential Signaling"]] ( LVDS ) - ultrafast, to transfer A/D data from MCU to FPGA or DSP, when RAM would be overflooded ( e.g. 200 MBit/s ).
+
+
 ==== Protocols for Communication with Embedded Systems ====
 === CAN-Bus ===
   *See [[carnetworks.html|Distributed Computing on Automotive Networks, Car Electronics and Automotive Data Formats]].

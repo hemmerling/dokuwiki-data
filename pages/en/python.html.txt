@@ -50,12 +50,14 @@ Related pages:
     *CodeSkulptor runs in Chrome 18+, Firefox 11+, and Safari 6+, but as of 2012-10, not on Microsoft MSIE.
   *[[http://www.pyjs.org/|pyjs]].
 ==== Alternative Platform Runtimes ====
+=== Alternative Desktop Platform Runtimes ===
   *The free online service [[http://www.codepad.org/|Steven Hazel "Codepad"]] - "Online compiler/interpreter ( for C, C++, D, Haskell, Lua, OCaml, PHP, Perl, Plain Text, **Python**, Ruby, Scheme, Tcl ) and a simple collaboration tool. Paste your code below, and codepad will run it and give you a short URL you can use to share it in chat or email".
   *[[http://www.ironpython.net/|IronPython]], [[http://ironpython.codeplex.com/|CodePlex "IronPython"]], [[http://www.github.com/IronLanguages/main|Github "IronLanguages/main"]] - "An open-source implementation of the Python programming language which is tightly integrated with the .NET Framework", "Implementations of Python and Ruby programming languages for .NET Framework that are built on top of the Dynamic Language Runtime".
   *[[http://www.jython.org/|Jython: Python for the Java Platform]], [[http://jython.sourceforge.net/|Sourceforge "Jython"]], [[http://www.sourceforge.net/projects/jython/|Sourceforge "Jython"]].
   *The discontinued OpenSource LLVM project.
     *[[http://code.google.com/p/unladen-swallow/|Google Code "unladen-swallow. A faster implementation of Python"]].
     *[[http://en.wikipedia.org/wiki/Unladen_Swallow|EN.Wikipedia "Unladen Swallow"]].
+  *Kivy - see section "Graphical Frameworks".
   *[[http://www.micropython.org/|Micro Python: Python for microcontrollers]].
     *"Micro Python is a lean and fast implementation of the Python 3 programming language that is optimised to run on a microcontroller".
     *"The Micro Python board (the pyboard) has been manufactured...".
@@ -78,7 +80,7 @@ Related pages:
   *Stella.
     *[[http://de.mcbf.net/david/stella-compiling-a-subset-of-python/|David Mohr "Stella: Compiling a subset of Python"]] / [[http://digamma.cs.unm.edu/~dmohr/stella/|UNM, David Mohr "Stella"]].
     *[[http://digamma.cs.unm.edu/~dmohr/stella/ep14.html|David Mohr "Stella: Compiling a small subset of Python"]] - EuroPython 2014 lightening talk, 2014-07-25.
-    *[[http://2014.splashcon.org/event/dsldi2014-stella-a-dsl-for-structuring-high-performance-simulations-in-python| SPLASH Portland 2014: "Stella: A DSL for structuring high-performance simulations in Python"]].
+    *[[http://2014.splashcon.org/event/dsldi2014-stella-a-dsl-for-structuring-high-performance-simulations-in-python|SPLASH Portland 2014: "Stella: A DSL for structuring high-performance simulations in Python"]].
   *The commercial but affordable [[http://www.omz-software.com/pythonista/|Pythonista]] for the Apple iOS / iPhone / iPad  platform.
     *[[http://twitter.com/olemoritz|Twitter "Ole Zorn, @olemoritz"]].
     *[[http://omz-software.com/|omz:software]].
@@ -86,14 +88,58 @@ Related pages:
   *[[http://www.vpython.org/|VPython - 3D Programming for Ordinary Mortals]], [[http://www.github.com/vpython|Github "VPython"]] - "Is the Python programming language plus a 3D graphics module called 'Visual'".
     *Wiki [[http://vpython.wikidot.com/|VPython Wiki]].
     *[[http://en.wikipedia.org/wiki/VPython|EN.Wikipedia "VPython"]].
+=== Alternative Mobile Platform Runtimes ===
+  *[[http://pavan.eu5.org/|P D K Pavan Kumar, Eagles Software Solutions]].
+    *[[http://play.google.com/store/apps/details?id=eagle.pdk.inpython|Google Play "InPython"]].
+  *[[http://www.ilabs.com/|iLABS Private Limited]].
+    *The free [[http://play.google.com/store/apps/details?id=innovationlabs.python.com|Google Play "Python For Android"]].
+  *Kivy - see section "Graphical Frameworks".
+  *[[http://www.qpython.com/|QPython - Python on Android]], [[http://www.github.com/qpython-android|GitHub "QPython"]].
+    *[[http://play.google.com/store/apps/details?id=com.hipipal.qpyplus|Google Play "QPython - Python for Android"]].
+    *[[http://play.google.com/store/apps/details?id=com.hipipal.qpy3|Google Play "QPython - Python 3 for Android"]].
+    *Community website [[http://www.qpython.org/|QPython.org]] - "QPython is a script engine which runs Python programs on android devices. It also can help developers develop android applications".
+      *Wiki [[http://wiki.qpython.org/|QPython Wiki]].
+    *[[http://www.twitter.com/qpython|Twitter "qpython, @qpython"]].
+    *[[http://www.youtube.com/results?search_query=qpython|YouTube -Search for "qpython"]].
+    *Blog [[http://onetimeblog.logdown.com/categories/android| one-time blog. less is more. more or less - Articles tagged with "android"]], [[http://onetimeblog.logdown.com/categories/python| one-time blog. less is more. more or less - Articles tagged with "python"]] - "QPython".
+    *[[http://www.stackoverflow.com/questions/tagged/qpython|StackOverflow - Tagged Questions "qpython"]].
+      *[[http://stackoverflow.com/questions/28001100/qpython-or-kivy-for-android-programming-with-python-producing-installable-apk|StackOverflow "QPython or Kivy for Android programming with Python - producing installable apk"]].
+    *[[http://sukhbinder.wordpress.com/2013/10/25/game-with-qpython-on-android-phone/|SukhbinderSingh. A self-directed apprenticeship…… "Game with QPython on Android Phone"]].
+    *[[http://www.planetminecraft.com/blog/how-to-make-apps-for-android-right-on-your-phone/|Planet Minecraft "How to make apps for android right on your phone!"]] - "QPython".
+    *[[http://blog.davidvassallo.me/2014/02/16/nugget-post-running-kivy-sl4as-python-for-android-together-using-qpython/|
+David Vassallo's Blog "Nugget Post : Running Kivy + SL4A’s Python for Android together using QPython"]].
+  *"Python Console" by "Eli Revah".
+    *[[http://appcrawlr.com/android/python-console|AppCrawlr "Python Console (android)"]].
+    *[[http://android.freeapk1.com/python-consolenew-11-48323.html|FREEAPK1 "Eli Revah 'Python ConsoleNew 1.1'"]].
+    *There no download at Google-Play.
+  *SL4A & TaskBomb.
+    *[[http://www.github.com/damonkohler/sl4a|GitHub "damonkohler/sl4a"]], [[http://code.google.com/p/android-scripting/|Google Code "android-scripting. Scripting Layer for Android brings scripting languages to Android"]], [[http://web.archive.org/web/*/http://code.google.com/p/android-scripting/|Archive.org "Google Code 'android-scripting. Scripting Layer for Android brings scripting languages to Android'"]].
+      *Projects based on SL4A.
+        *[[http://code.google.com/p/python-for-android/|Google Code "python-for-android, Py4A"]].
+          *There no binary download, nor at Google-Play nor at third-party Android appstores?!
+          *[[http://stackoverflow.com/questions/18478492/difference-between-kivy-and-py4a|Stack Overflow "Difference between Kivy and PY4A"]].
+          *[[http://www.youtube.com/watch?v=RCBiw78SDb8|YouTube "Some Experiences with Python-For-Android -Py4A"]].
+          *[[http://www.youtube.com/watch?v=gQ08tonAtiQ|YouTube "DDMS and Py4A (Python for Android)"]].
+      *[[http://www.pythoncentral.io/series/python-sl4a-android-scripting-layer-tutorial/|Python Central "Python Android Scripting Layer (SL4A) Tutorial"]].
+      *[[http://docs.google.com/document/d/1vifjT3mH-kT1MECj3UUNXAmloKJFXpFyGQAnMpBN7UM/preview|Lucas Jordan, Pieter Greyling "Building cool scripts, apps, and games for Android Smartphones Practical Android Projects"]].
+      *[[http://www.openhub.net/p/android-scripting/rss_articles?page=70|Black Duck / OpenHub "Scripting Layer for Android"]].
+      *[[http://en.wikipedia.org/wiki/Scripting_Layer_for_Android|EN.Wikipedia "Scripting Layer for Android"]] ( SL4A ).
+    *[[http://www.androidideas.org/taskbomb/|TaskBomb. A powerful and explosive task scheduler for Android]].
+      *The free [[http://play.google.com/store/apps/details?id=org.androidideas.taskbomb|Google Play "TaskBomb task scheduler"]].
+    *Projects based on SL4A and TaskBomb.
+      *The free [[http://play.google.com/store/apps/details?id=org.androidideas.scriptlauncher|Google Play "SL4A Script Launcher"]].
+=== Resources ===
+  *[[http://appcrawlr.com/android-apps/best-apps-python-code|AppCrawlr "10 Best Apps for Python Code (android)"]].
+  *[[http://www.reddit.com/r/Python/comments/1le5xo/best_python_interpreter_for_android_tablet/|Reddit "Best Python interpreter for Android tablet?"]].
 ==== Distributions ====
 === OpenSource Distributions ===
   *Google Code "Python(x,y)".
     *[[http://code.google.com/p/pythonxy/|Google Code "pythonxy. Scientific-oriented Python Distribution based on Qt and Spyder"]] for Windows.
     *[[http://code.google.com/p/pythonxy-linux/|Google Code "pythonxy-linux. Scientific-oriented Python Distribution for GNU/Linux based on Qt and Eclipse"]] for Linux.
     *[[http://code.google.com/p/spyderlib/|spyderlib. Spyder is the Scientific PYthon Development EnviRonment]].
-    *As of 2015-03, "Python(x,y)" is just shipped with Python 2.x.
+    *As of 2015-07, "Python(x,y)" is just shipped with Python 2.x.
     *[[http://ftp.ntua.gr/pub/devel/pythonxy/|FTP Archive "Python x,y"]] - Download of legacy versions.
+    *[[https://code.google.com/p/pythonxy/wiki/AdditionalPlugins|Google Code "pythonxy" - "Additional Plugins"]] - "Plugins available on this page are not included in Python(x,y) distributions".
     *Installation:
       *On Windows, the installer creates and uses the directories "C:\Python27" and C:\MinGW32-xy", no matter what you select as installation directory.
       *During installation of the Python(x,y) tools "numpy" and "scipy", the warning "Target CPU does NOT handle SSE2" might be displayed, e.g. on computers with Athlon XP2800 CPU :-(.
@@ -197,9 +243,12 @@ Related pages:
   *[[http://www.ipython.org/|IPython]].
     *Wiki [[http://wiki.ipython.org/|IPython Wiki]].
     *[[http://en.wikipedia.org/wiki/IPython|EN.Wikipedia "IPython"]].
-  *[[http://www.pydev.org/|PyDev]], [[http://pydev.sourceforge.net/|Sourceforge "Pydev"]], [[http://www.sourceforge.net/projects/pydev|Sourceforge "Pydev"]], [[http://www.github.com/aptana/Pydev|Github "aptana / Pydev"]] - "A Python IDE for Eclipse, which may be used in Python, Jython and IronPython development", "PyDev is now preinstalled in [[http://aptana.com/products/studio3|Aptana Studio 3]]".
-    *[[http://www.pydev.org/manual_101_interpreter.html|PyDev "Configuring the interpreter"]].
-    *"Aptana Studio 3 requires Firefox for JavaScript debugging support".
+  *Eclipse
+    -"Eclipse" with "Dynamic Languages Toolkit" ( DLTK ) - See [[sdevtools.html|Software Development Tools]].
+      *[[http://www.eclipse.org/downloads/packages/eclipse-php-developers/lunasr2|Eclipse for PHP Developers]] is shipped with DLTK :-).
+    -[[http://www.pydev.org/|PyDev]], [[http://pydev.sourceforge.net/|Sourceforge "Pydev"]], [[http://www.sourceforge.net/projects/pydev|Sourceforge "Pydev"]], [[http://www.github.com/aptana/Pydev|Github "aptana / Pydev"]] - "A Python IDE for Eclipse, which may be used in Python, Jython and IronPython development", "PyDev is now preinstalled in [[http://aptana.com/products/studio3|Aptana Studio 3]]".
+      *[[http://www.pydev.org/manual_101_interpreter.html|PyDev "Configuring the interpreter"]].
+      *"Aptana Studio 3 requires Firefox for JavaScript debugging support".
   *[[http://code.google.com/p/pyscripter/|Google Code "pyscripter"]] - "An open-source Python Integrated Development Environment (IDE)".
     *[[http://code.google.com/p/pyscripter/issues/detail?id=772|Google Code "Pyscripter", Ticket #772 "Pyscripter 2.5.3 denies the exit() request of Tkinter programs generated with SpecTCL, on Windows"]].
     *[[http://code.google.com/p/pyscripter/issues/detail?id=773|Google Code "Pyscripter", Ticket #773 "Pyscriptor gives error 'could not be properly initialized' when run against python 3.4.1"]], [[http://code.google.com/p/pyscripter/issues/detail?id=775|Google Code "Pyscripter", Ticket #775 "Python could not be properly installed. We must quit"]], [[http://code.google.com/p/pyscripter/issues/detail?id=776|Google Code "Pyscripter", Ticket #776 "Pyscripter 2.5.3 does not run on Python 3.4.1 - Suggestion: Please provide an updated version with Python 3.4 support"]].
@@ -342,7 +391,9 @@ Visual Tkinter"]] #.
     *[[http://www.jetbrains.com/pycharm/features/editions_comparison_matrix.html|JetBrains "PyCharm Editions Comparison"]].
     *Tutorial [[http://wiki.opencog.org/w/Installing_PyCharm|OpenCog "Installing PyCharm"]] on Linux.
     *[[http://www.jetbrains.com/pycharm/download/installation_instructions.jsp?os=linux|JetBrains "Installation Instructions"]] for Linux.
-    *"/usr/local/bin/charm" is the default path to execute PyCharm from Linux commandline.
+    *Tips:
+      *"/usr/local/bin/charm" is the default path to execute PyCharm from Linux commandline.
+      *PyCharm as all IntelliJ IDEs requires much time and computing-power for "indexing" of the file system - even with a little project -, often leading to an unsuitable performance of the IDE and inacceptable low usabilty on development systems with classical mechancial harddisks. Instead experts told me, that the performance on systems with SDD drives is acceptable, and that "any developer" has development systems with SSD drives nowadays :-(.
     *[[http://en.wikipedia.org/wiki/PyCharm|EN.Wikipedia "PyCharm"]], [[http://de.wikipedia.org/wiki/PyCharm|DE.Wikipedia "PyCharm"]] - "PyCharm Community Edition, the open source version of PyCharm, became available on 22 October 2013".
 ==== Editors with some ( highlighting ) Support for Python ====
   *The OpenSource [[http://www.geany.org/|Geany]] for Linux and Windows.
@@ -398,6 +449,10 @@ please install pbs 0.110 (http://pypi.python.org/pypi/pbs) for windows support.<
   *The OpenSource [[http://www.py2exe.org/|py2exe]], [[http://py2exe.sourceforge.net/|Sourceforge "py2exe"]], [[http://www.sourceforge.net/projects/py2exe/|Sourceforge "py2exe"]].
   *The OpenSource [[http://svn.pythonmac.org/py2app/py2app/trunk/doc/index.html|py2app - Create standalone Mac OS X applications with Python]].
   *The OpenSource [[http://code.google.com/p/shedskin/|Google Code "shedskin. An experimental (restricted) Python-to-C++ compiler"]].
+==== Operating System Desktop Automation & Application Automation ====
+  *The OpenSource [[http://code.google.com/p/swapy/|Google Code "swapy. Simple Windows Automation on Python"]] - "Swapy-ob is a tool for GUI Automation for Windows. Finally you will get native python code for pywinauto module".
+    *[[http://pywinauto.github.io/|GitHub.io "Windows GUI Automation with Python"]], [[https://www.github.com/pywinauto|GitHub "pywinauto"]] - "Windows GUI Automation with Python (64-bit Py3 compatible)".
+
 ==== Obfuscation Tools ====
   *The commercial tool [[http://bitboost.com/|Chris Niswander, BitBoost Systems "Python Obfuscator
 and Code Shrinker"]].
@@ -472,6 +527,8 @@ error: Could not find suitable distribution for Requirement.parse('test')
 ==== Web Servers & Web Frameworks ====
   *[[http://www.accessgrid.org/|AccessGrid]] - Free "grid" webserver system, based on Python. "An ensemble of resources including multimedia large-format displays, presentation and interactive environments, and interfaces to Grid middleware and to visualization environments".
   *[[http://www.acmesystems.it/python_httpserver|ACME Systems Italy "Write a simple HTTP server in Python"]].
+  *[[http://peterhudec.github.io/authomatic/|GitHub.io "Authomatic"]], [[https://github.com/peterhudec/authomatic|GitHub "peterhudec/authomatic"]] - "A framework agnostic library, for Python web applications, with a minimalistic but powerful interface
+which simplifies authentication of users, by third party providers like Facebook or Twitter, through standards like OAuth and OpenID".
   *[[http://www.gunicorn.org/|Gunicorn]] - "Python WSGI HTTP Server for UNIX. It's a pre-fork worker model ported from Ruby's Unicorn project. The Gunicorn server is broadly compatible with various web frameworks, simply implemented, light on server resources, and fairly speedy".
   *[[http://www.bottlepy.org/|Bottle: Python Web Framework]], [[http://www.github.com/defnull/bottle|Github "defnull / bottle"]].
     *[[http://www.twitter.com/bottlepy|Twitter "bottle.py"]].
@@ -507,6 +564,7 @@ error: Could not find suitable distribution for Requirement.parse('test')
     *[[http://flask.pocoo.org/|Pocoo "Flask web development, one drop at a time"]] - "A microframework for Python based on Werkzeug, Jinja 2 and good intentions".
       *[[http://flask.pocoo.org/docs/|Pocoo "Flask web development - Documentation"]].
       *Experts told me: Flask has a minimalistic approach, you have to do everything by yourself.
+      *[[https://www.youtube.com/watch?v=M1IVwFAH9W|YouTube "Python Tutorial: Creating Web Sites using Python and Flask"]].
       *[[http://en.wikipedia.org/wiki/Flask_%28programming%29|EN.Wikipedia "Flask (programming)"]], [[http://de.wikipedia.org/wiki/Flask|DE.Wikipedia "Flask"]].
   *[[http://www.pylonsproject.org/|Pylons Project]].
     *[[http://www.pylonsproject.org/projects/pyramid/|Pylons Project "Pyramid"]] - "A very general open source Python web framework. As a framework, its primary job is to make it easier for a developer to create an arbitrary web application. The type of application being created isn’t really important; it could be a spreadsheet, a corporate intranet, or a social networking platform".
@@ -571,6 +629,7 @@ error: Could not find suitable distribution for Requirement.parse('test')
         *[[http://en.wikipedia.org/wiki/Matplotlib|EN.Wikipedia "Matplotlib"]].
       *[[http://pandas.pydata.org/|Python Data Analysis Library]] ( pandas ).
         *[[http://en.wikipedia.org/wiki/Pandas_%28software%29|EN.Wikipedia "pandas (software)"]].
+   *[[http://www.bitbucket.org/openpyxl|BItBucket "openpyxl"]], [[http://openpyxl.readthedocs.org/en/latest/|ReadTheDocs "openpyxl - A Python library to read/write Excel 2007 xlsx/xlsm files"]].
   *"PIL" / "Pillow".
     *[[http://www.pythonware.com/|Secret Labs AB - PythonWare]].
        *The OpenSource [[http://www.pythonware.com/products/pil/|Secret Labs AB - PythonWare: "Python Imaging Library (PIL)"]] for Python 2.7.
@@ -581,6 +640,7 @@ error: Could not find suitable distribution for Requirement.parse('test')
     *[[http://werkzeug.pocoo.org/|Pocoo "Werkzeug"]] - "The Python WSGI Utility Library".
     *[[http://jinja.pocoo.org/|Pocoo "Jinja2"]] - "A full featured template engine for Python".
   *[[http://www.pygame.org/|Pygame]] - "A set of Python modules designed for writing video games".
+    *[[http://www.pygame.org/docs/tut/camera/CameraIntro.html|PyGame "Pygame Tutorials. Camera Module Introduction"]] - "Note: As of Pygame 1.9, the camera module offers native support for cameras that use v4l2 on Linux. There is support for other platforms via Videocapture or OpenCV".
     *[[http://en.wikipedia.org/wiki/Pygame|EN.Wikipedia "Pygame"]], [[http://de.wikipedia.org/wiki/Pygame|DE.Wikipedia "Pygame"]].
   *RPyC.
     *[[http://www.github.com/tomerfiliba/rpyc/|GitHub "tomerfiliba/rpyc"]].
@@ -598,6 +658,8 @@ error: Could not find suitable distribution for Requirement.parse('test')
   *The OpenSource "Spring Python".
     *[[http://springpython.webfactional.com/|Spring Python]] - "Spring Python is an offshoot of the Java-based Spring Framework and Spring Security, targeted for Python".
     *[[http://www.springsource.org/extensions/se-springpython-py|SpringSource Community "Spring Python"]].
+  *[[http://videocapture.sourceforge.net/|SourceForge "VideoCapture - A Win32 Python Extension for Accessing Video Devices (e.g. a USB WebCam, a TV-Card, ...)"]], [[http://www.sourceforge.net/projects/videocapture|SourceForge "VideoCapture"]].
+    *[[http://videocapture.sourceforge.net/html/VideoCapture.html|SourceForge "VideoCapture" - "VideoCapture.py"]].
   *[[http://werkzeug.pocoo.org/|Werkzeug - The Python WSGI Utility Library]].
     *[[http://www.wsgi.org/|WSGI.org]].
 === Commercial Application Servers ===
@@ -658,56 +720,57 @@ lost sys.stderr
   *[[http://michaelangela.wordpress.com/2008/07/06/python-excel-file-reader/|Ramblings "Python Excel file reader"]].
     *[[http://www.scienceoss.com/read-excel-files-from-python/|scienceoss.com. Useful tidbits for using open source software in science "Read Excel files from Python"]].
 ==== Graphical Frameworks ====
-  *Kivy.
-    *The OpenSource library [[http://www.kivy.org/|Kivy]] - "For rapid development of applications that make use of innovative user interfaces, such as multi-touch apps", "Open source Python library for rapid development of applications that make use of innovative user interfaces, such as multi-touch apps", "Kivy is running on Linux, Windows, MacOSX, Android and IOS. You can run the same code on all supported platforms" #.
-    *[[http://www.kivy.org/docs/|Kivy User's Guide]] - free online HTML book and free PDF book.
-    *[[http://kivy.org/docs/guide/packaging-android.html|Kivy "Programming Guide / Create a package for Android"]].
-      *Template [[http://www.github.com/kivy/python-for-android|Kivy "kivy/python-for-android"]], [[http://python-for-android.readthedocs.org/|ReadTheDocs "Python for Android"]].
-      *Generic Python packager for Android [[http://www.github.com/kivy/buildozer|GitHub "kivy/buildozer"]].
-      *[[http://www.kivy.org/docs/guide/packaging-android.html|Kivy "Programming Guide » Create a package for Android"]].
-      *[[http://kivy.org/docs/guide/packaging-android-vm.html#kivy-android-vm|Kivy "Programming Guide / The Kivy Android Virtual Machine"]].
-      *[[http://play.google.com/store/apps/details?id=org.kivy.pygame|Google Play "Kivy Launcher"]].
-    *[[http://en.wikipedia.org/wiki/Kivy|EN.Wikipedia "Kivy"]], [[http://de.wikipedia.org/wiki/Kivy|DE.Wikipedia "Kivy"]].
-  *TkInter.
-    *[[http://wiki.python.org/moin/TkInter|Python Wiki"Tkinter"]] - "Python's de-facto standard GUI (Graphical User Interface) package. It is a thin object-oriented layer on top of Tcl/Tk.
-    *[[http://tkinter.unpythonic.net/wiki/|Tkinter Wiki]].
-    *[[http://en.wikipedia.org/wiki/Tkinter|EN.Wikipedia "Tkinter"]], [[http://de.wikipedia.org/wiki/Tkinter|DE.Wikipedia "Tkinter"]].
-    *Turtle.
-      *[[http://docs.python.org/2/library/turtle.html|The Python Standard Library > 24. Graphical User Interfaces with Tk > "24.5. turtle — Turtle graphics for Tk"]].
-      *The package "turtle" is usually included in Python distributions. However, it can´t be updated by well-known automatic installation processes. An installation attempt by "easy_install turtle" is aborted due to syntax errors in downloaded Python files and other faults :-(
-  *WxPython.
-    *[[http://en.wikipedia.org/wiki/WxPython|EN.Wikipedia "wxPython"]], [[http://de.wikipedia.org/wiki/WxPython|DE.Wikipedia "wxPython"]].
-    *[[http://www.wxpython.org/|wxPython]] - "A blending of the wxWidgets C++ class library with the Python programming language".
-        *Wiki [[http://wiki.wxpython.org/|wxPython Wiki]].
-        *[[http://wiki.wxpython.org/How%20to%20Learn%20wxPython|wxPython Wiki "How to learn wxPython"]].
-  *PyGTK / PyGObject.
-    *[[http://www.pygtk.org/|PyGTK: GTK+ for Python]].
-      *[[http://www.pygtk.org/docs/pygobject/|PyGObject Reference Manual]].
-    *[[http://live.gnome.org/PyGObject|GNOME Live "PyGObject"]].
-    *[[http://python-gtk-3-tutorial.readthedocs.org/|ReadTheDocs "The Python GTK+ 3 Tutorial"]].
-    *[[http://www.florian-diesch.de/doc/python-und-glade/|Florian Diesch "Python and Glade (German). Programmieren mit Python und Glade"]].
-    *[[http://en.wikipedia.org/wiki/PyGTK|EN.Wikipedia "PyGTK"]], [[http://de.wikipedia.org/wiki/PyGTK|DE.Wikipedia "PyGTK"]].
-  *QT.
-    *The QT project.
-      *See [[sframeworks.html|Software Frameworks]].
-    *PySide -> LGPL.
-      *[[http://www.pyside.org/|PySide]].
-      *[[http://pypi.python.org/pypi/PySide|Python Package Index "PySide"]].
-      *[[https://www.github.com/PySide|GitHub "PySide"]], [[http://pyside.github.io/docs/pyside/|GitHub.io "PySide documentation"]].
-      *[[http://qt.gitorious.org/pyside|Gitorious "Qt by Nokia / PySide"]] - "LGPL Qt bindings for Python and related tools for binding generation".
-      *[[http://download.qt-project.org/official_releases/pyside/|QT Project Download "Pyside"]] for Python 2.x and Python 3.x.
-      *[[http://qt-project.org/wiki/PySide|QT Project Wiki "PySide"]].
-        *[[http://www.qt-project.org/wiki/Building_PySide_on_Windows|Qt Project "Building PySide on Microsoft Windows"]].
-        *[[http://qt-project.org/doc/qt-4.8/install-win.html|Qt Project "Installing Qt for Windows"]].
-      *[[http://www.zetcode.com/gui/pysidetutorial/|ZetCode "PySide tutorial"]].
-    *PyQT -> GPL.
-      *PyQT is included in the Python distribution [[http://code.google.com/p/pythonxy/|Google Code "pythonxy. Scientific-oriented Python Distribution based on Qt and Spyder"]].
-      *[[http://www.riverbankcomputing.com/software/pyqt/|Riverbank Computing Limited "PyQt"]].
-      *Tutorials:
-        *[[http://www.github.com/OldAl/tuts4pyside|GitHub "OldAl/tuts4pyside"]] - "Tuts for PySide".
-        *[[http://www.cs.usfca.edu/~afedosov/qttut/|Alex Fedosov "Tutorial: Creating GUI Applications in Python with QT"]] ( "PyQT Tutorial" ).
-  *PyFLTK.
-      *FLTK -> See [[sframeworks.html|Software Frameworks]].
+=== Kivy ===
+  *The OpenSource library [[http://www.kivy.org/|Kivy]] - "For rapid development of applications that make use of innovative user interfaces, such as multi-touch apps", "Open source Python library for rapid development of applications that make use of innovative user interfaces, such as multi-touch apps", "Kivy is running on Linux, Windows, MacOSX, Android and IOS. You can run the same code on all supported platforms" #.
+  *[[http://www.kivy.org/docs/|Kivy User's Guide]] - free online HTML book and free PDF book.
+  *[[http://kivy.org/docs/guide/android.html|Kivy "Kivy on Android"]].
+  *[[http://kivy.org/docs/guide/packaging-android.html|Kivy "Create a package for Android"]].
+    *Template [[http://www.github.com/kivy/python-for-android|Kivy "kivy/python-for-android"]], [[http://python-for-android.readthedocs.org/|ReadTheDocs "Python for Android"]].
+    *Generic Python packager for Android [[http://www.github.com/kivy/buildozer|GitHub "kivy/buildozer"]].
+    *[[http://www.kivy.org/docs/guide/packaging-android.html|Kivy "Programming Guide » Create a package for Android"]].
+    *[[http://kivy.org/docs/guide/packaging-android-vm.html#kivy-android-vm|Kivy "Programming Guide / The Kivy Android Virtual Machine"]].
+    *[[http://play.google.com/store/apps/details?id=org.kivy.pygame|Google Play "Kivy Launcher"]].
+  *[[http://en.wikipedia.org/wiki/Kivy|EN.Wikipedia "Kivy"]], [[http://de.wikipedia.org/wiki/Kivy|DE.Wikipedia "Kivy"]].
+=== TkInter ===
+  *[[http://wiki.python.org/moin/TkInter|Python Wiki"Tkinter"]] - "Python's de-facto standard GUI (Graphical User Interface) package. It is a thin object-oriented layer on top of Tcl/Tk.
+  *[[http://tkinter.unpythonic.net/wiki/|Tkinter Wiki]].
+  *[[http://en.wikipedia.org/wiki/Tkinter|EN.Wikipedia "Tkinter"]], [[http://de.wikipedia.org/wiki/Tkinter|DE.Wikipedia "Tkinter"]].
+=== Turtle ===
+  *[[http://docs.python.org/2/library/turtle.html|The Python Standard Library > 24. Graphical User Interfaces with Tk > "24.5. turtle — Turtle graphics for Tk"]].
+    *The package "turtle" is usually included in Python distributions. However, it can´t be updated by well-known automatic installation processes. An installation attempt by "easy_install turtle" is aborted due to syntax errors in downloaded Python files and other faults :-(
+=== WxPython ===
+  *[[http://en.wikipedia.org/wiki/WxPython|EN.Wikipedia "wxPython"]], [[http://de.wikipedia.org/wiki/WxPython|DE.Wikipedia "wxPython"]].
+  *[[http://www.wxpython.org/|wxPython]] - "A blending of the wxWidgets C++ class library with the Python programming language".
+    *Wiki [[http://wiki.wxpython.org/|wxPython Wiki]].
+      *[[http://wiki.wxpython.org/How%20to%20Learn%20wxPython|wxPython Wiki "How to learn wxPython"]].
+=== PyGTK / PyGObject ===
+  *[[http://www.pygtk.org/|PyGTK: GTK+ for Python]].
+    *[[http://www.pygtk.org/docs/pygobject/|PyGObject Reference Manual]].
+  *[[http://live.gnome.org/PyGObject|GNOME Live "PyGObject"]].
+  *[[http://python-gtk-3-tutorial.readthedocs.org/|ReadTheDocs "The Python GTK+ 3 Tutorial"]].
+  *[[http://www.florian-diesch.de/doc/python-und-glade/|Florian Diesch "Python and Glade (German). Programmieren mit Python und Glade"]].
+  *[[http://en.wikipedia.org/wiki/PyGTK|EN.Wikipedia "PyGTK"]], [[http://de.wikipedia.org/wiki/PyGTK|DE.Wikipedia "PyGTK"]].
+=== QT ===
+  *The QT project.
+    *See [[sframeworks.html|Software Frameworks]].
+== PySide -> LGPL 2.1 ==
+  *[[http://www.pyside.org/|PySide]].
+  *[[http://pypi.python.org/pypi/PySide|Python Package Index "PySide"]].
+  *[[http://www.github.com/PySide|GitHub "PySide"]], [[http://pyside.github.io/docs/pyside/|GitHub.io "PySide documentation"]].
+  *[[http://qt.gitorious.org/pyside|Gitorious "Qt by Nokia / PySide"]] - "LGPL Qt bindings for Python and related tools for binding generation".
+  *[[http://download.qt-project.org/official_releases/pyside/|QT Project Download "Pyside"]] for Python 2.x and Python 3.x.
+  *[[http://qt-project.org/wiki/PySide|QT Project Wiki "PySide"]].
+    *[[http://www.qt-project.org/wiki/Building_PySide_on_Windows|Qt Project "Building PySide on Microsoft Windows"]].
+    *[[http://qt-project.org/doc/qt-4.8/install-win.html|Qt Project "Installing Qt for Windows"]].
+  *[[http://www.zetcode.com/gui/pysidetutorial/|ZetCode "PySide tutorial"]].
+== PyQT -> GPL ==
+  *PyQT is included in the Python distribution [[http://code.google.com/p/pythonxy/|Google Code "pythonxy. Scientific-oriented Python Distribution based on Qt and Spyder"]].
+  *[[http://www.riverbankcomputing.com/software/pyqt/|Riverbank Computing Limited "PyQt"]].
+  *Tutorials:
+    *[[http://www.github.com/OldAl/tuts4pyside|GitHub "OldAl/tuts4pyside"]] - "Tuts for PySide".
+    *[[http://www.cs.usfca.edu/~afedosov/qttut/|Alex Fedosov "Tutorial: Creating GUI Applications in Python with QT"]] ( "PyQT Tutorial" ).
+== PyFLTK ==
+  *FLTK -> See [[sframeworks.html|Software Frameworks]].
 
 ==== Big Applications built with Python Interface ====
 === Abaqus Unified FEA ===
@@ -741,9 +804,26 @@ lost sys.stderr
     *[[http://en.wikipedia.org/wiki/Sublime_Text|EN.Wikipedia "Sublime Text"]], [[http://de.wikipedia.org/wiki/Sublime_Text|DE.Wikipedia "Sublime Text"]].
 === Virtual Box ===
   *[[http://www.virtualbox.org/|Virtual Box]].
+=== winIDEA ===
+  *[[http://www.isystem.com/|iSYSTEM AG für Informatiksysteme]].
+    *Blog [[http://embedded.typepad.com/isystems-smpo/|iSYSTEM AG für Informatiksysteme "iSystem News and Technical Blog"]].
+    *"Access winIDEA from a Python application": [[http://www.isystem.com/download/winidea-testidea-apis|iSYSTEM AG "SDKs - winIDEA"]] - There is an SDK, "isystem.connect SDK", both
+      *For the current commercial edition of the Windows IDE "winIDEA".
+      *And for the current free edition of the Windows "IDE winIDEA", e.g. "winIDEA Open 9.12.209" and "winIDEA Open 9.12.238".
+  *The only option to download and install the free SDK for Python is at "Help / SDK / Download Python SDK" in the "winIDEA Open" application :-), by which the download of e.g. [[http://www.isystem.si/SWUpdates/SDK/iSYSTEM.Python.SDK.9_12_209.zip|iSYSTEM.Python.SDK.9_12_209.zip]], [[http://www.isystem.si/SWUpdates/SDK/iSYSTEM.Python.SDK.9_12_238.zip|iSYSTEM.Python.SDK.9_12_238.zip]] is started.
+  *[[http://www.isystem.com/downloads/winIDEA/SDK/iSYSTEM.Python.SDK/documentation/isystem-connect-api/index.html|iSystem AG "isystem.connect: User's Guide"]] for the Python SDK.
+    *[[http://www.isystem.com/downloads/winIDEA/SDK/iSYSTEM.Python.SDK/documentation/isystem-connect-api/py_examples_by_group.html|iSystem AG "isystem.connect: User's Guide": "Python Examples by Group"]].
+  *According to iSYSTEM staff members in 2015-07, the Python SDK is the most requested SDK by the customers. 
+    *Due to this success, it is expected that this SDK will be available with further commercial and also free editions :-).
+    *I was told by experts, that the number of shipped examples with the SDKs differs. As the Python SDK is so successful, it is shipped with the highest amount of example scripts.
+  *Advice: Develop your scripts with Python 3.
+    *Python 2.7 is still supported, 
+    *but the shipped examples were now converted to Python 3, lately. 
+  *The IDE "winIDEA" is shipped with "daqIDEA" ( "Data AcQuisition IDEA" ), a tool for graphic representation of large data sets acquired by winIDEA. See "./daqIDEA/daqIDEA.docx".
 ==== Interfacing the Real World ====
   *[[http://home.comcast.net/~dplau/nxt_python/|Douglas P Lau "NXT_Python"]].
   *[[http://code.google.com/p/nxt-python/|Google Code "nxt-python. A pure-python driver/interface/wrapper for the Lego Mindstorms NXT robot"]], a successor of NXT_Python.
+  *[[http://www.telit.com/support/programming-tools/python/how-it-works/|Telit Wireless Solutions "How it works"]] - "The Telit Easy Script extension is targeted toward applications usually handled by a microcontroller that manages I/O pins through the AT command interface. In order to eliminate this external controller and further simplify the programming of the sequence of operations, Telit modules supporting Easy Script offer: Python script interpreter engine".
 ==== Resources ====
   *[[http://wiki.python.org/moin/WebFrameworks|Python.org Wiki "Web Frameworks for Python"]].
 ===== Testing =====
@@ -832,6 +912,8 @@ lost sys.stderr
 === Worldwide / USA ===
   *[[http://dreamhost.com/web-hosting/|Dreamhost]].
     *Wiki [[http://wiki.dreamhost.com/Python|Dreamhost Wiki "Python"]].
+=== Resources ===
+  *[[http://udhayprakash.blogspot.in/2015/07/online-idesinterpreters-for-python.html|Udhay Prakash Blog. About Wireless Networks,Python, Matlab tutorials and ns-2 tutorials "Online IDEs/Interpreters for python programming"]].
 ==== Forums, Newsgroups ====
   *[[http://www.facebook.com/LianjaInc|Facebook "Lianja"]].
     *[[http://www.lianja.com/community/|Lianja Developer Community]].

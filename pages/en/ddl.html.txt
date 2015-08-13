@@ -40,7 +40,8 @@
   *[[http://technet.microsoft.com/en-us/library/ff460855.aspx|Microsoft TechNet "Common Engineering Criteria"]].
   *[[http://en.wikipedia.org/wiki/Microsoft_Common_Engineering_Criteria|EN.Wikipedia "Microsoft Common Engineering Criteria"]].
 ===== Asset Management for Devices of the Process Industry, Automation & Drives =====
-==== <AutomationML> ====
+==== <AutomationML>, PLCopen TC6 ====
+=== <AutomationML> ===
   *[[http://www.automationml.org/|<AutomationML>]].
   *[[http://www.beuth.de/de/norm-entwurf/din-en-62714-1/153374628|Beuth Verlag "DIN EN 62714-1:2012-06 "Datenaustauschformat für Planungsdaten industrieller Automatisierungssysteme (AutomationML) - Teil 1: Architektur und allgemeine Festlegungen (IEC 65E/223/CD:2011)"]].
   *[[http://www.beuth.de/de/norm-entwurf/din-en-62714-2/180131369|Beuth Verlag "DIN EN 62714-2:2013-04 "Datenaustauschformat für Planungsdaten industrieller Automatisierungssysteme - AutomationML - Teil 2: Rollenbibliotheken (IEC 65E/250/CD:2012)"]].
@@ -50,6 +51,15 @@
     *The OPC-UA server may be fed with <AutomationML> data to learn about new devices.
   *<AutomationML> is a subset of [[http://en.wikipedia.org/wiki/CAEX|EN.Wikipedia "CAEX"]], [[http://de.wikipedia.org/wiki/CAEX|DE.Wikipedia "CAEX"]].
   *[[http://www.iosb.fraunhofer.de/?opcuaaml|Fraunhofer IOSB "Gemeinsame Arbeitsgruppe OPC UA und Automation ML"]].
+=== PLCopen ===
+  *[[http://www.plcopen.org/|PLCopen]] - "for efficiency in automation".
+    *[[http://www.plcopen.org/pages/tc1_standards/|PLCopen "TC1 - Standards"]].
+    *[[http://www.plcopen.org/pages/tc6_xml/|PLCopen "PLCopen XML"]] - "TC6 - XML Schemes".
+    *[[http://www.plcopen.org/pages/tc6_xml/xml_intro/|PLCopen "XML intro"]] - "PLCopen adds independent schemes to IEC 61131-3".
+      *Status of the PLCopen TC6 – XML work:
+        *"PLCopen published he XML schema and documentation in June 2005 as version 1.01". 
+        *"With a new initiative called AutomationML we have come to a new phase".  
+  *[[http://en.wikipedia.org/wiki/PLCopen|EN.Wikipedia "PLCopen"]], [[http://de.wikipedia.org/wiki/PLCopen|DE.Wikipedia "PLCopen"]].
 ==== Electric Device Description ( EDD ) & Electric Device Description Language ( EDDL ) ====
 === SIEMENS Process Device Manager ( PDM ) ===
   *[[http://www.automation.siemens.com/mcms/process-control-systems/de/simatic-pcs-7/simatic-pcs-7-systemkomponenten/process-device-manager-pdm/|SIEMENS Process Device Manager (PDM)]].
@@ -57,7 +67,7 @@
     *[[http://support.automation.siemens.com/WW/llisapi.dll/csfetch/57347315/PCS7_MaintenanceStation_de-DE_de-DE.pdf|SIMATIC Prozessleitsystem PCS 7 Maintenance Station Funktionshandbuch]] ( PDF ).
   *[[http://support.automation.siemens.com/WW/llisapi.dll?func=cslib.csinfo&objId=73247204|SIEMENS AG "Automation Technology > Process control systems > SIMATIC PCS 7 > System components > SIMATIC PDM > SIMATIC PDM V8.1 lieferbar"]], 2013-06-03.
 === Resources ===
-  *[[http://www.eddl.org/|Electronic Device Description Language (EDDL)]] by [[http://www.fdi-cooperation.com/|FDI LLC]].
+  *[[http://www.eddl.org/|Electronic Device Description Language (EDDL)]] by [[http://www.fdi-cooperation.com/|FDI Cooperation, LLC]].
   *[[http://en.wikipedia.org/wiki/Device_Description_Language|EN.Wikipedia "Device Description Language"]], [[http://de.wikipedia.org/wiki/Device_Description_Language|DE.Wikipedia "Device Description Language"]].
 ==== FDT/DTM ====
 === Organisation ===
@@ -149,7 +159,11 @@
   *[[http://www.namur.net/empfehlungen-und-arbeitsblaetter/aktuelle-nena.html|NAMUR "Aktuelle NAMUR Empfehlungen (NE) und Arbeitsblätter (NA)"]] - "NE 148 Anforderungen an die Automatisierungstechnik durch die Modularisierung verfahrenstechnischer Anlagen. Automation Requirements relating to Modularisation of Process Plants"]].
 ==== Resources ====
   *[[http://www.namur.net/publikationen/news-archiv/detail/article/die-ne-148-ist-neu-erschienen.html|NAMUR "Die NE 148 ist neu erschienen"]] - "NE 148 "Anforderungen an die Automatisierungstechnik durch die Modularisierung verfahrenstechnischer Anlagen" (Version 22.10.2013)".
-
+  *Experts told me in  2015-06, that the forthcoming standard might be based on:
+    -Internal modules with I/O only -> FDI based interface.
+    -External modules with a PLC -> OPC/UA based interface.
+===== Resources =====
+  *[[http://www.fdi-cooperation.com/|FDI Cooperation, LLC]] - "FDI Cooperation, LLC membership includes five major automation foundations: FDT Group, Fieldbus Foundation, HART Communications Foundation, PROFIBUS & PROFINET International, and the OPC Foundation".
 ===== Forums, Newsgroups =====
   *[[http://www.linkedin.com/groups?gid=795847|LinkedIn "FDT/DTM"]] - "For professional with FDT/DTM background or experience. Automation engineers with fieldbus experience and FDT /DTM Technlogy know how to connect to each other and share ideas".
 {{tag>"Device Description Language" "Electric Device Description" EDD "Electric Device Description Language" electric device description language parameterisation EDDL "FDT/DTM" FDT DTM}}

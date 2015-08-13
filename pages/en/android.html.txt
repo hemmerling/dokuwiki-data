@@ -6,7 +6,7 @@
   *Wiki [[http://wiki.cyanogenmod.org/|CyanogenMod Wiki]].
 ==== How to root an Android Phone =====
   *[[http://www.trueandroid.com/how-to-root-alcatel-one-touch-8008d-scribe-hd-running-on-android-4-2-jelly-bean/|True Android "How To Root Alcatel One Touch 8008D Scribe HD Running On Android 4.2 Jelly Bean"]].
-    *[[http://www.framaroot.net/|Framaroot]] - " Now you can root your android device without PC, just use framaroo" - As of 2015-05, it didn't work with my phone nor with my tablet :-(
+    *[[http://www.framaroot.net/|Framaroot]] - "Now you can root your android device without PC, just use framaroo" - As of 2015-05, it didn't work with my phone nor with my tablet :-(
     *[[http://play.google.com/store/apps/details?id=com.joeykrim.rootcheck|Google Play "Root Checker"]].
   *[[http://www.youtube.com/watch?v=-UmflyLoZLw|YouTube "How to root Alcatel One Touch Scribe HD 8008 in one step"]].
 ==== Phone Liberation Workshops ====
@@ -33,7 +33,9 @@
   *[[http://en.wikipedia.org/wiki/Alcatel_One_Touch|EN.Wikipedia "Alcatel One Touch"]].
   *The smartphone does not support external keyboards. In the "Setting" app, section "Language & input", there is no menu entry "External Keyboard" :-(.
     *[[http://play.google.com/store/apps/details?id=com.medion.android.keyboard|Android Apps on Google Play "External Keyboard"]].
+    *[[http://www.stackoverflow.com/questions/31827959/which-android-smartphones-support-external-usb-keyboards|StackOverflow "Which Android smartphones support external USB keyboards?"]].
   *The smartphone does not support the playing of "ringtones", i.e. in case of an incoming telephone call, the telephone can´t be configured to play a user-defined audiofile.
+  *The device has the dual-SIMcard feature: The SIM1 slot is named "3G/2G", the SIM2 slot is named "2G".
 ==== Android Phones which can be operated with dual SIM Cards ====
 === Alcatel-Lucent ===
   *[[http://www.alcatelonetouch.com/de/produkte/smartphones.html|Alcatel-Lucent - Alcatel One Touch Smartphones]] - Smartphones with dual SIM card slots: "One Touch Idol DUal SIM", "One Touch Scribe HD Dual SIM", "One Touch Mpop Dual SIM", "One Touch Spop Dual SIM".
@@ -65,6 +67,31 @@
   *[[http://www.rapidnfc.com/nfc_enabled_phones|RapidNFC "NFC Enabled Phones And Tablets"]].
   *[[http://www.nfc-phones.org/summary-list-of-all-available-nfc-phones/|NFC-Phones.org "NFC Phones list, all available handsets worldwide"]] - Multi-page directory "Complete list with all mobile phones with nfc chip (too big for 1 page)"!
   *[[http://en.wikipedia.org/wiki/List_of_NFC-enabled_mobile_devices|EN.Wikipedia "List of NFC-enabled mobile devices"]].
+==== 2015-08: Current Mobilephones available for free or low Budget, with 1&1 Mobile Services ====
+  *Criteria: **LTE**, BLE, NFC, display resolution, internal/external memory.
+  *For no extra costs, but 10 EUR/m for 2 years. 
+    *SAMSUNG Galaxy S4 mini, with just 540 x 960 resolution :-(.
+      *[[http://www.gsmarena.com/samsung_galaxy_s4_mini_i9195i-7468.php|GSMArena "Samsung Galaxy S4 mini I9195I"]].
+      *[[http://mobile.1und1.de/samsung-galaxy-s4-mini|1&1 "SAMSUNG Galaxy S4 mini"]].
+    *Sony Xperia T3, with "Non-removable battery"  :-(.
+      *[[http://www.gsmarena.com/sony_xperia_t3-6408.php|GSMArena "Sony Xperia T3"]].
+    *Huawei P8 lite with Android 5.0, but "Non-removable ... battery" :-(.
+      *[[http://www.gsmarena.com/huawei_p8lite-7201.php|GSMArena "Huawei P8lite"]].
+    *SAMSUNG Galaxy S3 Neo #.
+      *[[http://www.gsmarena.com/samsung_i9301i_galaxy_s3_neo-6433.php|GSMArena "Samsung I9301I Galaxy S3 Neo"]].
+      *[[http://gadgets.ndtv.com/samsung-galaxy-s3-neo-1460|NDTV Gadgets "SAMSUNG Galaxy S3 Neo"]].
+      *[[http://mobile.1und1.de/samsung-galaxy-s3-neo|1&1 "SAMSUNG Galaxy S3 Neo"]].
+    *LG G4c with Android 5.0 #.
+      *[[http://www.gsmarena.com/lg_g4c-7250.php|GSMArena "LG G4c"]].
+      *[[http://mobile.1und1.de/lg-g4c|1&1 "LG G4c"]].
+      *[[http://gadgets.ndtv.com/lg-g4c-2642|NDTV Gadgets "LG G4c"]].
+      *[[http://www.androidandme.com/2015/05/news/lg-g4-stylus-lg-g4c-have-removable-batteries-and-microsd-slots-just-like-the-g4-proper/|Android and Me "LG G4 Stylus, LG G4c have removable batteries and microSD slots just like the G4 proper"]].
+  *For some extra costs, additionally to 10 EUR/m for 2 years.
+    *SAMSUNG Galaxy S4.
+      *[[http://www.gsmarena.com/samsung_i9505_galaxy_s4-5371.php|GSMArena "Samsung I9505 Galaxy S4"]].
+    *SAMSUNG Galaxy S5 mini.
+      *[[http://www.gsmarena.com/samsung_galaxy_s5_mini-6252.php|GSMArena "Samsung Galaxy S5 mini"]].
+
 ===== Development Software =====
 ==== Platform & Software Development Kit ( SDK )====
 === The Platform ===
@@ -119,9 +146,11 @@
 === The OpenSource Framework "Android 2" for Smartphones ===
 === The ClosedSource Framework "Android 3" for Tablets ===
 === The OpenSource Framework "Android 4" for Smartphones & Tablets ===
-=== Third-Party OpenSource Operating Systems and Applications ===
-== AppStore ==
+=== Free and OpenSource Applications and Operating Systems ===
+=== AppStores which offer free Android Apps ===
+  *[[http://www.apk4fun.com/|App4Fun]].
   *[[http://www.f-droid.org/|F-Droid]].
+  *[[http://play.google.com/|Google Play]].
 == Operating Systems / Firmeware ===
   *[[http://www.cyanogenmod.org/|CyanogenMod]] - "An aftermarket firmware for a number of cell phones based on the open-source Android operating system".
   *[[http://www.replicant.us/|Replicant]].
@@ -152,15 +181,74 @@
 ===== Tips & Tricks =====
 ==== Handling of the Device ====
   *[[http://www.wikihow.com/Close-Apps-on-Android|wikiHow to do anything "How to Close Apps on Android"]] :-).
+  *Contacts / Phone numbers
+    *[[http://www.wikihow.com/Add-an-Android-Contact|wikiHow to do anything "How to Add an Android Contact"]].
+    *[[http://www.dummies.com/how-to/content/how-to-use-to-your-android-tablets-address-book.html|For Dummies "How to Use to Your Android Tablet's Address Book"]].
+    *[[http://www.wikihow.com/Delete-an-Android-Contact|wikiHow to do anything "How to Delete an Android Contact"]].
+    *With Android 4.2.1, call the standard app "People"
+      *Though the "Groups" tab might have 0 entries, tab "All" might list additional "Contacts in <telephone provider>".
+        *There you can add your contacts.
+        *To delete a contact:
+         -Select the menu option "Delete contact".
+         -Select one or more contacts.
+         -Press the "Ok" button.
+  *Download are stored "Phone storage / MyFavorite / Download". To access the file system, you need a standard app shipped with the operating system, e.g. "File Manager" ( Android 4.2.1 ), "My Pad" ( Android 4.1.1 ).
+
 ==== Tethering & Portable Hotspot ====
   *[[http://www.softwareok.com/?seite=faq-Samsung-Galaxy&faq=3|SoftwareOK "AndroidAP Password for Samsung Galaxy (forgot, to change, enter new)?"]].
   *Default SSID of Samsung smartphones: "AndroidAP".
   *If you activate the "Tethering & Portable Hotspot", you can´t use another WLAN hotspot for Internet access. So a smartphone is not suitable to extend the range of a given WLAN :-(.
 ===== App Software =====
-==== General ====
+==== Tools ====
+=== Free PDF Creation ===
+  *[[http://play.google.com/store/apps/details?id=com.intsig.camscanner|Google Play "CamScanner -Phone PDF Creator"]].
+  *[[https://play.google.com/store/apps/details?id=com.thegrizzlylabs.geniusscan.free|Google Play "Genius Scan - PDF Scanner"]].
+  *[[http://play.google.com/store/apps/details?id=never.slave.again.pdf|Google Play "MAKER FOR PDF"]].
+  *[[http://play.google.com/store/apps/details?id=com.fourpiller.pdfmaker|Google Play "Pdf Maker"]].
+  *[[http://play.google.com/store/apps/details?id=com.oic.scantopdf|Google Play "ScanToPDF Mobile Free"]].
+  *[[http://play.google.com/store/apps/details?id=com.investintech.com.pdfcreator|Google Play "Sonic PDF Creator"]].
+  *[[http://play.google.com/store/apps/developer?id=UCWeb+Inc.|Google Play Developer "UCWeb Inc."]].
+    *[[http://play.google.com/store/apps/details?id=com.uc.addon.web2pdf|Google Play "Web to PDF Converter"]], requires "UC Browser".
+    *The default save path for PDFs displayed by the application is e.g.
+      *"/storage/sdcard0/UCDownloads" ( incomplete display: "/storage/sdcard0/UCDown" ), but the files are visible with the Android 4.2.1 app "File Manager" at "/SD Card/UCDownloads".
+      *"/mnt/sdcard/UCDownloads", but the files are visible with the Android 4.1.1 app "My Pad" at "/Local/UCDownloads".
+    *[[http://play.google.com/store/apps/details?id=com.uc.browser.hd|Google Play "UC Browser HD"]] - "UC Browser HD is specially designed for your big screen. With a gesture controlled video player, gesture controlled browsing and more, UC Browser HD truly gives you the best browsing experience on tablets and phablets".
+    *[[http://play.google.com/store/apps/details?id=com.uc.browser.en|Google Play "UC Browser - Surf it Fast"]].
+    *[[http://play.google.com/store/apps/details?id=com.UCMobile.intl|Google Play "UC Browser Mini-Fast Download"]].
+  *[[http://play.google.com/store/apps/details?id=com.niu.web2book|Google Play "Web to PDF"]].
+=== Saving Files ===
+  *[[http://play.google.com/store/apps/details?id=ru.gelin.android.sendtosd|Google Play "Send to SD card"]].
+=== Bookmarking / Offline Reading ===
+  *[[https://www.getpocket.com/|Pocket]], [[http://play.google.com/store/apps/details?id=com.ideashower.readitlater.pro|Google Play "Pocket"]] - "Read It Later". "Save From Your Apps. While using any app, find the share button, then tap 'Add to Pocket'".
+    *[[http://forum.xda-developers.com/showthread.php?t=1823970|XDA Developers Forum "Chrome Browser - Save For Offline Reading"]] - "I just noticed that with Chrome being the stock browser, the feature 'Save For Offline Reading' is not present, like it is in the previous stock Browser".
+=== App Rating ===
+  *[[http://appgratis.com/|AppGratis - one free app a day. Daily free apps! Plus ridiculous discounts!]], [[http://play.google.com/store/apps/details?id=com.imediapp.appgratisv3|Google Play "AppGratis - Cool apps for free"]].
+    *[[http://www.twitter.com/appgratis|Twitter "AppGratis. @AppGratis"]].
+    *[[http://www.allthingsd.com/20130410/apples-ouster-of-appgratis-is-just-the-start-of-an-app-store-crackdown/|All Thing D "Apple’s Ouster of AppGratis Is Just the Start of an App Store Crackdown"]], 2013-04-10 - "Why Apple Pulled AppGratis From the App Store".
+    *[[http://www.techcrunch.com/2013/04/07/apple-pulls-ios-app-discovery-service-appgratis-from-app-store/| "Apple Pulls iOS App Discovery Service AppGratis From App Store"]], 2013-04-07.
+    *[[http://en.wikipedia.org/wiki/AppGratis|EN.Wikipedia "AppGratis"]].
+=== Resources ===
+  *[[http://www.appcrawlr.com/android-apps/best-apps-pdf-maker|AppCrawler "10 Best Apps for Pdf Maker (android)"]].
+  *[[http://pdf.wondershare.com/tutorial/android-pdf-creator.html|Wondershare - PDFElement "Top 5 Android PDF Creator Apps"]].
+  *[[http://www.stackoverflow.com/questions/20472262/how-to-do-a-screenshot-for-android|StackOverflow "How to do a screenshot for android?"]] - "On Samsung Galaxy Phones/Tabs there are gestures to do that".
+
+==== Business ====
+  *The free [[http://play.google.com/store/apps/details?id=com.farproc.wifi.analyzer|Google Play "Wifi Analyzer"]].
+  *The free Apps by [[http://play.google.com/store/apps/developer?id=Tecnoteca+srl|Googleplay "Tecnoteca srl"]].
+    *[[http://play.google.com/store/apps/details?id=org.cmdbuild.cmdbuildmobile.v1|Google Play "CMDBuildMobile v1"]].
+    *[[http://play.google.com/store/apps/details?id=org.cmdbuild.cmdbuildmobile.v2|Google Play "CMDBuildMobile v2"]].
+    *[[http://play.google.com/store/apps/details?id=org.openmaint.openmaintmobile.v2|Google Play "openMAINT v2"]].
+==== Software Platform ====
+    *The free [[http://play.google.com/store/apps/details?id=org.kivy.pygame|Google Play "Kivy Launcher"]].
+    *The free [[http://code.google.com/p/python-for-android/|Google Code "python-for-android, Py4A"]].
+    *The free [[http://play.google.com/store/apps/details?id=innovationlabs.python.com|Google Play "Python For Android"]].
+    *The free [[http://play.google.com/store/apps/details?id=com.hipipal.qpyplus|Google Play "QPython - Python for Android"]].
+    *The free [[http://play.google.com/store/apps/details?id=com.hipipal.qpy3|Google Play "QPython - Python 3 for Android"]].
+    *The free [[http://play.google.com/store/apps/details?id=org.androidideas.scriptlauncher|Google Play "SL4A Script Launcher"]].
+    *The free [[http://play.google.com/store/apps/details?id=org.androidideas.taskbomb|Google Play "TaskBomb task scheduler"]].
+==== General & Fun ====
   *Labyrinth, Holz-Labyrinth ( German ), Kugel-Labyrinth ( German ), [[http://itunes.apple.com/de/app/wooden-labyrinth-3d-free/id305713066?mt=8|ITunes, Elias Pietilä "Wooden Labyrinth 3D Free"]] -> Good application idea :-).
   *The free game [[http://play.google.com/store/apps/details?id=com.smarty.no2048tile|Google Play "2048 tile" by "Tran Duy Bien"]].
-  *The free [[http://play.google.com/store/apps/details?id=com.farproc.wifi.analyzer|Google Play "Wifi Analyzer"]].
   *The free [[http://play.google.com/store/apps/details?id=com.runtastic.android&hl=en|Google Play "Runtastic Running & Fitness"]].
 ==== Calendars & Alarm Clocks ====
 === Snoring Control ===
@@ -193,9 +281,16 @@
   *[[http://www.nmg.de/|Neue Mediengesellschaft Ulm mbH]].
     *Paper magazine [[http://www.mobile-developer.de/|mobile developer]], Germany.
     *Paper magazine [[http://www.web-developer.de/|web developer]], Germany.
+===== Legacy traditional ( non-Smartphone, non-Android ) Telephones =====
+  *"Samsung Ce0168" - My first classical legacy mobile phone, legacy WAP enabled :-), not the legacy tablet.
+    *The "PIN" is the login password. Please remember it, you have just 3 tries to enter.
+    *If you want to reset the phone to factory settings or delete the phonebook, you are asked for a "Password", which is not the "PIN". You were never forced to setup, so probably it is still the default 8-digit password "00000000" ( = 8 times zero ).
+      *[[http://www.fixya.com/support/t9704176-remember_password_samsung|Fixya "Cant remember password for samsung ce0168 - Samsung Cell Phones"]].
 ===== Literature =====
-  *Book [[http://www.amazon.de/exec/obidos/ASIN/3836216973/hemmerling-21|Thomas Künneth: "Android 3: Apps entwickeln mit dem Android SDK (Galileo Computing)"]], for Java developers.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3836216973/hemmerling-21|Thomas Künneth: "Android 3: Apps entwickeln mit dem Android SDK"]], for Java developers.
   *The free PDF book [[http://www.enough.de/products/mobile-developers-guide/|Enough Software GmbH & Co.KG  "Mobile Developer's Guide To The Galaxy"]] #.
+===== Training Videos for Android Developers =====
+  *[[http://www.youtube.com/results?search_query=Developing+Android+Apps|YouTube Search for "Developing Android Apps"]].
 ===== Resources =====
   *[[http://www.androidpit.com/|AndroidPIT]], [[http://www.androidpit.de/|AndroidPIT.de]] - "Android Apps, Tests, Blog, News & Forum".
   *[[http://www.android.com/|Android]].
@@ -222,7 +317,11 @@
   *[[http://www.androidpit.com/en/android/forum|AndroidPIT Forum]], [[http://www.androidpit.de/de/android/forum|AndroidPIT.de Forum]].
   *[[http://www.android-hilfe.de/|Android-Hilfe]].
   *[[http://forum.cyanogenmod.org/|CyanogenMod Forums]].
-  *[[http://groups.google.com/group/ioio-users|Google Groups "ioio-users"]].
+  *[[http://www.facebook.com/appgratis|Facebook "AppGratis"]].
+  *Google.
+    *[[http://groups.google.com/group/android-scripting|Google Groups "android-scripting"]] ( SL4A support and discussion ).
+    *[[http://groups.google.com/group/ioio-users|Google Groups "ioio-users"]].
+
 {{tag>"Google Android" Android}}
 <footnote_navi_en>
 

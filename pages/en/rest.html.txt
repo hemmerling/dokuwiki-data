@@ -56,6 +56,14 @@ Related pages:
   *[[http://en.wikipedia.org/wiki/Open_Data_Protocol|EN.Wikipedia "Open Data Protocol"]], [[http://de.wikipedia.org/wiki/Open_Data_Protocol|DE.Wikipedia "Open Data Protocol"]].
   *[[http://www.zdnet.com/blog/microsoft/why-microsofts-open-data-protocol-matters/12700|ZDNet "Why Microsoft’s Open Data Protocol matters"]], 2012.
 ===== Software Frameworks based on REST =====
+==== RAML - RESTful API Modeling Language ====
+  *[[http://www.raml.org/|RAML - RESTful API Modeling Language]].
+    *[[http://www.realpython.com/blog/python/create-a-rest-api-in-minutes-with-pyramid-and-ramses/|RealPython Blog "Create a REST API in Minutes With Pyramid and Ramses"]] - "We wanted to get rid of all boilerplate though, including the database queries that would normally need to be written for views".
+      *Pyramid - See [[python.html|Python 1/7]].
+      *[[http://www.github.com/brandicted/ramses|GitHub "brandicted/ramses"]] - "Generate a RESTful API for Pyramid using RAML".
+  *RAML is built on broadly-used standards such as YAML and JSON and is a non-proprietary, vendor-neutral open spec.
+  *YAML: See [[testing.html|Testing]].
+==== Some other Software Frameworks based on REST ====
   *[[http://en.wikipedia.org/wiki/Java_API_for_RESTful_Web_Services|EN.Wikipedia "Java API for RESTful Web Services"]], [[http://de.wikipedia.org/wiki/Java_API_for_RESTful_Web_Services|DE.Wikipedia "Java API for RESTful Web Services"]].
   *[[http://developers.google.com/gdata/|Google Data APIs]] - "A REST-inspired technology for reading, writing, and modifying information on the web".
   *JAX-RS.
@@ -178,6 +186,8 @@ the Design of Network-based Software Architectures"]]
   *[[http://en.wikipedia.org/wiki/HTTP_ETag|DE.Wikipedia "HTTP ETag"]], [[http://de.wikipedia.org/wiki/HTTP_ETag|DE.Wikipedia "HTTP ETag"]].
 ===== Forums, Newsgroups ====
   *[[http://groups.google.com/group/restinpractice|Google Groups "restinpractice"]].
+  *[[http://forums.raml.org/|RAML Forum]]. 
+
 ===== Appropriate OpenDirectory Directory Pages =====
   *[[http://www.dmoz.org/Computers/Programming/Internet/Service-Oriented_Architecture/Web_Services/REST/|OpenDirectory "Top: Computers: Programming: Internet: Service-Oriented Architecture: Web Services: REST"]].
 {{tag>"Representational State Transfer" Representational State Transfer REST "Open Data Protocol" Open Data Protocol OData}}

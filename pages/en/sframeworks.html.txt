@@ -20,6 +20,7 @@ Related pages:
 ==== C/C++ Standard Libraries ====
   *[[http://www.gnu.org/software/gcc/libstdc++/|Free Software Foundation (FSF), GNU Project "Standard C++ Library v3"]].
   *[[http://www.boost.org/|Boost C++ Libraries]] - "Boost provides free peer-reviewed portable C++ source libraries".
+    *[[http://en.wikipedia.org/wiki/Boost_%28C%2B%2B_libraries%29|EN.Wikipedia "Boost (C++ libraries)"]], [[http://de.wikipedia.org/wiki/Boost_%28C%2B%2B-Bibliothek%29|DE.Wikipedia "Boost (C++-Bibliothek)"]].
   *[[http://stlport.sourceforge.net/|SourceForge "STLport"]], [[http://www.sourceforge.net/projects/stlport/|SourceForge "STLport"]] - Multiplatform C++ Standard Library, originally developed by [[http://www.stlport.org/|STLport Consulting]].
   *[[http://www.ultimatepp.org/|Ultimate++]] - "A C++ cross-platform rapid application development framework".
 ==== Comparison Chart - STL support by C++ Compiler Releases ====
@@ -257,6 +258,7 @@ GEM : THE PROJECT"]].
     *[[http://wiki.wxwidgets.org/|wxWiki]].
   *[[http://wxnet.sourceforge.net/|SourceForge "WX.Net"]], [[http://www.sourceforge.net/projects/wxnet|SourceForge "WX.Net"]] - wxWidgets wrapper for .NET.
 === Tools ===
+  *The OpenSource GUI builder [[http://code.google.com/p/gui2py/|Google Code "gui2py. Simple and powerful GUI framework for agile development"]], [[http://www.github.com/reingart/gui2py|GitHub "reingart/gui2py"]].
   *The OpenSource GUI builder [[http://wxglade.sourceforge.net/|SourceForge "wxGlade"]], [[http://www.sourceforge.net/projects/wxglade|SourceForge "wxGlade"]] in Python.
   *The OpenSource GUI builder [[http://www.pythoncard.org/|PythonCard]], [[http://pythoncard.sourceforge.net/|SourceForge "PythonCard"]], [[http://www.sourceforge.net/projects/pythoncard/|SourceForge "PythonCard"]] in Python.
     *[[http://www.youtube.com/watch?v=HCUlkJjF1Ac|YouTube "Carter Sande Presents PythonCard "]], 2009-11-09.
@@ -288,9 +290,10 @@ GEM : THE PROJECT"]].
   *See [[databases.html|Databases, Webserver, Webservices, SQL]].
 ===== Networking & Communications Frameworks =====
 ==== The ADAPTIVE Communication Environment ( ACE ), The Ace Orb ( TAO ), ZEN ====
-  *[[http://www1.cse.wustl.edu/~schmidt/ACE.html|The ADAPTIVE Communication Environment (ACE(TM))]] - "An OO Network Programming Toolkit in C++".
+  *[[http://www.cse.wustl.edu/~schmidt/ACE.html|The ADAPTIVE Communication Environment (ACE(TM))]],  - "An OO Network Programming Toolkit in C++".
   *[[http://www1.cse.wustl.edu/~schmidt/|Douglas C. Schmidt]].
-  *[[http://en.wikipedia.org/wiki/Adaptive_Communication_Environment|EN.Wikipedia "Adaptive Communication Environment"]], [[http://en.wikipedia.org/wiki/TAO_%28software%29|EN.Wikipedia "TAO (software)"]].
+  *[[http://en.wikipedia.org/wiki/Adaptive_Communication_Environment|EN.Wikipedia "Adaptive Communication Environment"]], [[https://de.wikipedia.org/wiki/ADAPTIVE_Communication_Environment|DE.Wikipedia "ADAPTIVE Communication Environment"]].
+  *[[http://en.wikipedia.org/wiki/TAO_%28software%29|EN.Wikipedia "TAO (software)"]], [[http://de.wikipedia.org/wiki/TAO_%28Software%29|DE.Wikipedia "TAO (Software)"]].
 ==== Common UNIX Printing System ( CUPS ) ====
   *[[http://www.cups.org/|CUPS]] - "The standards-based, open source printing system developed by Apple Inc. for Mac OS® X and other UNIX®-like operating systems".
 ==== IPC ====

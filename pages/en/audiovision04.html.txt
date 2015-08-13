@@ -1,10 +1,36 @@
 ====== [hemmerling] Audiovision 4/5 - Video Tools ======
 ===== Video Authoring Tools =====
 ===== Video Editing Tools =====
+==== Free Video Editing Tools ====
+  *The free [[http://web.archive.org/web/*/http://www.avid.com/freedv/|Archive.org "Avid Free DV"]] ( - 2007-03-24 ).
+    *Download [[http://avid-free-dv.en.uptodown.com/|UPtoDOWN "Avid Free DV v1.6.1]] for Windows.
+    *[[http://www.digitalfaq.com/forum/video-editing/2057-avid-free-dv.html|Digital FAQ "Avid Free DV v1.6.1 Windows final release [DOWNLOAD]"]] - Avid wanted you to register, before you could install it. Since that's no longer available, use this one:
+      *Serial Number: "AvidFreeDV-31E3".
+      *Authorization Code: "AF7R-XJ5C-UC7K-552H-KE7Q".
+    *[[http://en.wikipedia.org/wiki/Avid_Free_DV|EN.Wikipedia "Avid Free DV"]], [[http://de.wikipedia.org/wiki/Free_DV|DE.Wikipedia "Free DV"]].
   *The OpenSource video editor [[http://fixounet.free.fr/avidemux/|Avidemux]], [[http://avidemux.sourceforge.net/|SourceForge "Avidemux"]], [[http://www.sourceforge.net/projects/avidemux/|SourceForge "Avidemux"]] for Windows and Linux - "A free video editor designed for simple cutting, filtering and encoding tasks".
     *[[http://forum.videohelp.com/threads/337246-how-to-join-files-in-Avidemux|Videohelp Forum "how to join files in Avidemux?"]] - "Video Output = Copy, Audio Output = Copy, File-Open -> 1st file, File-Append -> 2nd file, File-Save".
+  *The free "Windows Movie Maker" for WinXP, Vista, Win7 / Win8.
+    *[[http://windows.microsoft.com/en-us/windows/get-movie-maker-download|Microsoft Windows "Get Movie Maker"]] for WinXP, Win7, Win8 - "Movie Maker is included in the Windows Essentials 2012 program suite".
+    *Win7, Win8:
+      *[[http://windows.microsoft.com/en-us/windows-live/essentials-install-offline-faq|Microsoft Windows "How do I install Windows Essentials while offline?"]] - click on "Essentials installer files for Windows 7, Windows 8.1, and Windows Server 2008" to see the full downloads.
+      *[[http://www.askvg.com/official-links-to-download-windows-live-essentials-wave-4-beta-full-standalone-offline-installer/|AskVG 'Official Links to Download “Windows Essentials 2012 (Wave 5)' Full Standalone Offline Installer"]].
+      *"Windows Movie Maker" of "Windows Essentials 2012" may both import nor export MP4 videos :-). Additionally, it may import videos in WMV, AVI, DVR, MPEG1, MOD, VOB, 3G2, 3GP,ASF, FLV, K3G, MPEG2, MOV, TTS, ASX, 3GPP format and may export videos in the WMV format.
+      *On my Athlon XP2400 computer with Win7, both the web edition and the full edition of "Windows Essentials 2012" refuse to install, directly at start of execution of the installer :-(.
+      *"Windows Movie Maker" of "Windows Essentials 2012" stores the absolute the path to a multimedia file in its project. I.e. you can´t move a project with its multimedia files in the same directory or a subdirectory to a new path in the file system, or to a new drive :-(. Thats a strong drawback for archiving a project :-(.
+    *Vista:
+      *[[http://www.microsoft.com/en-us/download/details.aspx?id=34|Microsoft Download Center "Windows Movie Maker 2.6"]].
+      *"Windows Movie Maker 2.6" may import AVI, MP1, MP2, WMV, ASF videos. It may export videos to WMV and DV-AVI(PAL) format and by "IEEE 1394 Firewire" to a DV cam.
+      *On my Athlon XP2400 computer with Win7, "Windows Movie Maker 2.6" installs and operates properly :-).
+  *[[http://www.videosoftdev.com/free-video-editor|Flash Integro]].
+    *VSDC Free Video Editor, for Windows.
+    *VSDC Free Video Converter, for Windows.
+    *VSDC Free Audio Converter, for Windows.
+    *VSDC Free Audio CD Grabber, for Windows.
+
+==== Commercial Video Editing Tools ====
   *The commercial [[http://www.pinnaclesys.com/|Avid Studio and Pinnacle Studio HD]].
-  *The free [[http://windows.microsoft.com/en-us/windows/get-movie-maker-download|Microsoft Windows "Get Movie Maker"]] for WinXP, Win7, Win8 - "Movie Maker is included in the Windows Essentials 2012 program suite".
+
 ===== Video Drivers & Video Trick Tools =====
   *The free [[http://www.manycam.com/|ManyCam]] - "Use your webcam with multiple applications at the same time and add cool graphics to your webcam video window".
 ===== Video Encoders & Video Players =====

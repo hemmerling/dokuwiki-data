@@ -38,10 +38,34 @@
   *Wiki [[http://code.google.com/p/go-wiki/|Google Code "go-wiki. Go Language Community Wiki"]].
 ==== Experts ====
   *[[http://www.teale.de/|Geoffrey Teale]], [[http://www.xing.com/profile/Geoffrey_Teale|XING "Geoffrey Teale"]], [[http://de.linkedin.com/in/geoffteale|LinkedIn "Geoffrey Teale"]], [[http://www.twitter.com/tealeg|Twitter "Geoffrey J. Teale, @tealeg"]] - Ubuntu team member & "Golang" expert.
-
 ==== Resources ====
   *[[http://stackoverflow.com/questions/tagged/go|Stack Overflow, Tagged Questions "Go"]].
   *[[http://en.wikipedia.org/wiki/Go_%28programming_language%29|EN.Wikipedia "Go (programming language)"]], [[http://de.wikipedia.org/wiki/Go_%28Programmiersprache%29|DE.Wikipedia "Go (Programmiersprache)"]].
+===== Processing =====
+==== The Software Platform ====
+  *[[http://www.processing.org/|Processing]], [[http://www.github.com/processing/|GitHub "processing"]], a Java application.
+  *[[http://www.processing.org/tutorials/|Processing "Tutorials"]].
+  *[[http://hello.processing.org/|Hello Processing!]] - Video tutorials.
+  *[[http://github.com/processing/processing/wiki/|GitHub Wiki "processing"]].
+    *[[http://github.com/processing/processing/wiki/Supported-Platforms|GitHub Wiki "Supported Platforms"]].
+  *Wiki [[http://www.github.com/processing/processing-android/wiki|GitHub Wiki "processing/processing-android"]].
+  *[[http://www.twitter.com/processingOrg|Tiwtter "Processing, @ProcessingOrg"]].
+==== Some other Implementations ====
+  *[[http://www.processingjs.org/|Processing.js]].
+  *[[http://py.processing.org/|Processing "Python Mode for Processing"]] - "You write Processing code. In Python".
+    *[[http://py.processing.org/examples/|Processing "Python Mode for Processing - Examples"]] - "Processing.py Examples. Coming soon! In the meantime, consult the examples that are included in the Python Mode download for Processing (File > Examples...)".
+==== Resources ====
+  *The original IDE, running on Java, supports software development with Java on Desktop PC ( Windows, MacOS, Linux ) and Android, Javascript, CoffeeScript and Python.
+  *OpenGL issues, mostly with Windows:
+    *The demo applications of the folder "Camera", "Demos" - and maybe some others, but not all - crash by the Java error message "Framebuffer objects are not supported by this hardware (or driver) Read [[http://wiki.processing.org/w/OpenGL_Issues|http://wiki.processing.org/w/OpenGL_Issues]] for help" :-(, on my
+      *"Athlon XP2400" desktop computer with NVIDIA GeForce 6600 graphics card and webcam, with Win7 :-(.
+      *Notebook "Dell Vostro 1000", with Win8.1 :-(.
+      *Notebook "ASUS Eee PC T101MT", with Win8.1 :-(.
+    *The demo applications work well on my
+      *Notebook "Dell Vostro 1000", with Ubuntu Linux 14 LTE :-).
+    *[[http://www.github.com/processing/processing/wiki/OpenGL-Issues|GitHub Wiki "processing/processing" - "OpenGL Issues"]].
+  *[[http://en.wikipedia.org/wiki/Processing_%28programming_language%29|EN.Wikipedia "Processing (programming language)"]], [[http://de.wikipedia.org/wiki/Processing|EN.Wikipedia "Processing"]].
+  *[[http://en.wikipedia.org/wiki/Processing.js|EN.Wikipedia "Processing.js"]].
 ===== Prolog =====
   *The free [[http://www.swi-prolog.org/|SWI-Prolog]] for Win, Linux, MacOSX.
   *[[http://www.openshore.org/|OpenSHORE]], [[http://openshore.sourceforge.net/|SourceForge "OpenSHORE"]], [[http://www,sourceforge.net/projects/openshore/|SourceForge "OpenSHORE"]] - "Semantic Hypertext Object Repository".
@@ -50,7 +74,6 @@
 ===== Rust =====
   *[[http://www.rust-lang.org/|The Rust Programming Language]] - "A systems programming language that runs blazingly fast, prevents almost all crashes*, and eliminates data races".
   *[[http://en.wikipedia.org/wiki/Rust_%28programming_language%29|EN.Wikipedia "Rust (programming language)"]].
-
 ===== SPARK =====
   *[[http://www.altran-praxis.com/spark.aspx|Altran Praxis "SPARK"]] - "SPARK is a programming language and a set of software development products for high assurance software. The SPARK programming language is the only language specifically designed to support the development of safety or security critical software. In combination with the SPARK toolset, SPARK prevents, detects and eliminates defects early in the lifecycle as the source code is developed. It is, effectively, the result of applying the principles of Correctness by Construction to the design of a programming language and associated verification tools".
   *Book [[http://www.amazon.co.uk/exec/obidos/ASIN/0321136160/hemmerling-21|John Barnes: "High Integrity Software: The SPARK Approach"]].
@@ -124,6 +147,7 @@
   *[[http://en.wikipedia.org/wiki/List_of_compilers|EN.Wikipedia "List of compilers"]].
 ===== Forums, Newsgroups =====
   *[[http://www.facebook.com/golang.nuts|Facebook "Go Language"]].
+  *[[http://www.facebook.com/page.processing|Facebook "Processing"]].
   *[[http://www.fortranwiki.org/fortran/show/comp.lang.fortran|Fortran Wiki "comp.lang.fortran"]].
   *Google.
     *[[http://plus.google.com/communities/109731058120269230218|Google+ Community "LiveCode Developers"]].
@@ -132,6 +156,7 @@
     *[[http://groups.google.com/group/haxelang|Google Groups "Haxe"]].
     *[[http://groups.google.com/group/comp.lang.fortran|Google Groups "comp.lang.fortran"]].
   *[[http://www.cobolinfo.de/tbb/|Initiative COBOL - Forum]].
+  *[[http://forum.processing.org/|Processing Forum]].
   *[[http://forums.runrev.com/phpBB2/|RunRev Revolution Forums]].
   *[[http://www.stackoverflow.com/questions/tagged/livecode|Stack Overflow Tagged Questions "livecode"]].
   *Xoxo:

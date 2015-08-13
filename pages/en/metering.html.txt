@@ -1,0 +1,86 @@
+====== [hemmerling] Smart Metering ======
+Related page:
+  *[[smartblitzmerker.html|Smart Blitzmerker]].
+===== Electronic Meterering of analog Meters =====
+{{images:smartblitzmerker02t.jpg?200|Smart Blitzmerker}}
+==== Erik Auerswald "Seven Segment Optical Character Recognition" ( ssocr ) ====
+  *[[http://groups.google.com/group/de.rec.heimwerken/BY5b0YZ9Id8|Google Groups "de.rec.heimwerken", Thread "automatisierte Zählerablesung"]], 2010-11-08 - "Zählerablesung über Webcam/Kamera und Software", Christian Ritter: "Ich lese den Wärmemengenzähler meiner Fernwärme so ab, USB webcam mit Beleuchtung, hängt an meinem Server/Router. Ich mache per Cron alle paar Minuten ein Foto von der 7-Segment Anzeige, das schneide ich dann automatisiert mit [[http://www.imagemagick.org/|ImageMagick]] [1] zurecht und nutze [[http://www.unix-ag.uni-kl.de/~auerswal/ssocr/|UNIX-AG TU Kaiserslautern, Erik Auerswald "Seven Segment Optical Character Recognition" ( ssocr )]] [2] zum auslesen. Das Ergebnis schmeiße ich in eine SQL Datenbank, Grafiken usw. erzeuge ich dann bei Bedarf.
+==== ELV "Zählersensor-Kamera-Modul" / "Zählerkamera" ====
+  *[[http://www.elv.de/output/controller.aspx?cid=74&detail=10&detail2=19444|ELV "Zählersensor-Kamera-Modul"]].
+    *[[http://www.photovoltaikforum.com/datenlogger-f5/einspeiszaehler-fotografieren-t15681.html|Photovoltaik-Forum "Einspeiszähler fotografieren"]], 2008-06-17 - "Zählersenor-Kamera-Modul" - "wurde jedoch nicht fertig entwickelt".
+    *[[http://www.photovoltaikforum.com/datenlogger-f5/einspeisedaten-erfassung-mit-elv-em-1010-pc-t8750-s10.html|Photovoltaik-Forum "Einspeisedaten Erfassung mit ELV EM 1010 PC"]], 2007-10-04  - "Dies ist ein Zählersensor-Kamera-Modul. Der Artikel ist aber noch nicht Lieferbar!".
+==== Fast Forward AG "FAST EnergyCam" ====
+  *[[http://www.fastforward.ag/#Product|Fast Forward AG "FAST EnergyCam"]] - "Der zum Patent angemeldete optische Sensor mit Kamera und OCR-Erkennungsalgorithmus erfasst den aktuellen Zählerstand und übermittelt die Daten per Funk oder drahtgebunden zur Weiterverarbeitung".
+==== HB-Verbrauchszähler ====
+  *[[http://www.hb-mobilesoft.de/index.php?option=com_content&view=article&id=60&Itemid=62|Bernhard Halbauer, HB-Mobilsoft "HB-Verbrauchszähler (Android)"]].
+  *The free Android App [[http://play.google.com/store/apps/details?id=HBVerbrauchszaehler.lite|Google Play "HB-Verbrauchszähler Lite. Bernhard Halbauer"]].
+  *The commercial Android App [[https://market.android.com/details?id=HBVerbrauchszaehler.full|Google Play "HB-Verbrauchszähler. Bernhard Halbauer"]]
+==== IronShark GmbH "EnergieTracker App" ====
+  *[[http://www.ironshark.de/app-entwicklung/energietracker-app/|IronShark GmbH "Stromverbrauch messen mit der EnergieTracker App"]].
+=== Hochschule Luzern, Enterprise Lab ===
+  *[[http://www.enterpriselab.ch/webabstracts/projekte/diplomarbeiten/2014/Jenni.Gasser.2014.bda.html|Hochschule Luzern, Enterprise Lab - Jenni Gasser "Mobile Applikation zur CKW Zählerablese"]], 2014.
+==== Christian Melchior "Zählerstand" ====
+  *The free Android App [[http://play.google.com/store/apps/details?id=dk.ilios.meterreadings&hl=de|Google Play "Zählerstand. Christian Melchior"]].
+==== Artem Petrov - Master Thesis at University of Osnabrück ====
+  *[[http://www.volkszaehler.org/|volkszaehler.org - Das Smart Meter für Jeden"]].
+    *[[http://volkszaehler.org/pipermail/volkszaehler-dev/2014-August/003775.html|Volkszaehler.org Mailing List "[vz-dev]", Thread "[vz-dev] Zähler ablesen mit OCR (OpenCV)"]], 2014-08-15.
+      *"Ich habe mich mit einem System beschäftigt, das aus einem RaspberryPI mit einer Kamera (USB-WebCam oder RaspiCam) besteht. Die Kamera wird am Zähler so befestigt, dass die Zählerwerk aufgenommen werden kann. Die Bilder werden mit OpenCV vorverarbeitet und dann wird der Zählerstand mit einem schnellen, einfachen und effizienten Algo digitalisiert (kein Tesseract). Pro Durchlauf braucht PI aktuell um die 1-1,5 Sek (die meiste Zeit wird für Bildaufnahme benötigt)".
+      *"Da ich zuerst nicht ausreichend genug rechechiert hatte, dachte ich, dass es sich nur ein paar Bastler mit solchen Themen beschäftigen. Nun habe ich u.A. euch entdeckt. Die Sache ist, dass ich meine Lösung später kommerzialisieren wollte. Meine Recherche hat aber ergeben, dass es seit ca. 2007 einige Unternehmen gibt, die ähnliche Lösungen anbieten (OCR). Manche haben sogar eigene Kamera-Sensoren dafür entwickelt. Da anscheinend die Nachfrage nicht vorhanden ist...".
+      *"Zurzeit wird der Zählerstand problemlos (bis auf ein paar Kleinigkeiten) erkannt (ich habe meine Software mit einem Strom- sowie mit einem Gaszähler getestet). Es gibt aber einige Sachen, die noch ausgebessert werden könnten, dazu erzähle ich bei Bedarf mehr. Desweiteren habe ich einige Ideen bzgl. des Sensors, der an einem Stromzähler befestigt wird, um die Umdrehungen des Rads zu zählen. Ich wollte eine komplette Lösung anfertigen, die aus einem Sensor besteht, der über eine Funk-Schnittstelle (RFM12+Atmel oder Arduino oder gar WiFi) den Stand an den Server weiterleitet. Leider ist die Nachfrage ziemlich gering".
+==== pixolus GmbH ====
+  *[[http://www.pixometer.io/|pixometer - Meter reading using smartphone cameras]].
+    *The free Android App [[http://play.google.com/store/apps/details?id=com.pixolus.pixometer|Google Play "pixometer. pixolus GmbH"]].
+  *[[http://blog.go-ahead.de/2015/gruenderinterview-mit-pixolus-de/|Go.AHEAD Gründerblog "Als Kunde müssen Sie nur noch die Kamera Ihres Smartphones vor den Zähler halten. Den Rest erledigt die App"]].
+==== TECHKON GmbH "ZählerCheck" ====
+  *[[http://www.techkon.com/index.php/zaehlercheck.html|TECHKON GmbH "ZählerCheck"]].
+==== volkszaehler.org - Das Smart Meter für Jeden ====
+  *[[http://www.volkszaehler.org/|volkszaehler.org - Das Smart Meter für Jeden"]].
+==== The Project "Smart Blitzmerker" ====
+=== Organisation ===
+  *See [[smartblitzmerker.html|Smart Blitzmerker]].
+=== Project Idea, Project Approach, Project Proceedings ===
+  *See [[smartblitzmerker.html|Smart Blitzmerker]].
+  *The product to be developed, a smart meter will collect data from the mechanical metering devices for water, gas, electric power, and put it in an building automation network, or even in the cloud.
+    *As permanent device, e.g. at private households or public / industry buildings.
+    *To give you the clue for another application of the technology, think about low-skilled people who have to go to meter devices in a customer's ( private, public, industry ) building, to read and to document the data by writing down the values on paper or typing the numbers on a computer, manually. They might now get a portable device -our product - and just record the data by buttonclick. 
+  *Project approach is to do rapid-prototyping of prototypes with different aspects, in different programming languages on different platforms, to become familar with the problem and to find a solution. The solution must not be on the level of a true deliverable product useful for customers.
+  *College student teams might also join, as the college lecturer might ask the college students to do own implementation of the tasks, even in different programming languages on different platforms. 
+  *First step is that the project participants ( e.g. the college students ) take their smartphones or digital photo cams, and photograph their own meters at home, and take the photos to the project. So the project particpants document something from their daily life - here the front picture of their meters in their flats, and then process the item by self-written software. 
+  *Most of the meters are same in looking? Yes, as energy monitoring for private households is a regulated industry. I.e. a unity company or the state defines which devices are acceptable, or even distributes the devices.
+  *By that the project participants will first realize problems to take a single static snapshot: The problems with little light where meters are attached, problems with flash of smartphone cams and regular digital cams ect.
+  *Now there are 3 implementation aspects of the project.
+    -Create applications to take photos on different hardware platforms ( smartphone, desktop/notebook pc, embedded device ) and different software platforms ( Windows/Linux desktop including embedded devices, Android OS on Android smartphones / iOS on iPhone smartphones, bare-metal implementations on embedded devices ).
+      *So "My first smartphone app for Android in Java" would be a good starting sub-project - To use the camera software of the smarthone to take a photo and to store it.
+    -Image processing ( e.g. with OpenCV, or commercial tools by National Instruments "NI Vision" at colleges or companies with some budget ). Further thinking is required: 
+       *On Android where the apps are typicall written in Java, or on Windows Apps for Desktop or WinPhone, its not so easy to integrate a true C library. No problem on Windows or Linux Desktop.
+       *But as the image quality might be so limited, and the device weight is a limiting factor ( a prototype device beyond the project might be glued by vacuum cup to the glas of the metering device display ), its a question if the image processing should be done on the device, or later in the network or in the cloud.
+       *OpenCV is C, but you can do development in most other languages too, and there is no need for Object-orientation ect. e.g. with the "Visual Studio" IDE, or there is a Python interface.
+       *So first step would be "take a photo of the meters at home, and make recognition of the serial number and the current data of the device, with help of OpenCV. But the project participants need little knowledge about software programming, the resulting developed software are just simple linear programs with maybe some loops.
+       *Rapid prototyping means using frameworks and ready-made tools, and to add just few %s of own work, to get a working solution. So the pattern recognition is either the topic of the sub-project ( requireing just very basic programming skills ), or the sub-project might be an introductory computer programming course where the pattern recognition is to be taken as magic and not really taught in detail.
+       *You may even skip the pattern recognition totally. Without pattern recognition, it is the task to create an application which take a series of photos ( not really necessary to be a video stream ) and to transfer the photos to the cloud. Then of course you will have massive bandwidth and storage problems.
+    -The transfer of the data to the cloud, using cloud provider for metering data ( with free entry-level accounts ), or own cloud solution. E.g. on IBM Bluemix, Heroku,..
+===== Literature =====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3838629388/hemmerling-21|Michael Hahn "Übertragung von multimedialen Prozessdaten über das Internet"]], 2000 - "Diplomarbeit aus dem Jahr 2000 im Fachbereich Informatik - Internet, neue Technologien, Note: 1,3".
+===== Resources =====
+==== Search for Smart Metering Solutions with Electronic Meterering of analog Meters ====
+  *[[http://www.google.de/search?q=zählerstand+kamera|Google - Search for "zählerstand kamera"]].
+  *[[http://www.mikrocontroller.net/topic/281489|mikrocontroller.net " Stromzähler per Webcam auswerten"]], 2012-12-28.
+==== Industry Trends ====
+  *See [[topics.html|Topics]].
+  *Wifi and (proprietary) WAGO Industrial Bluetooth are the usual wireless options to communicate with PLCs.
+    *As of 2015: The (proprietary) Industrial Bluetooth has an extended range (e.g. 1000m ) and needs a special Android app by WAGO to access data on a smartphone.
+    *In 2016, the market might change if WAGO develops its CodeSys3-based "e!Cockpit" development and runtime solution.
+  *There are some normed communication protocols ( e.g. Wireless M-Bus ) many other (proprietary) wirless communication solutions of smart meters with its PCLs and distributed ( building ) control systems.
+    *M-Bus, Wirless M-Bus -> See [[fieldbus.html|Fieldbuses and Automation Networks]], [[wireless.html|Wireless Networks]].
+==== Market ====
+  *[[http://www.baufachinformation.de/artikel.jsp?v=3868|baufachinformation.de "Heizkostenabrechnung. DIN EN 16836-1, März 2015. Kommunikationssysteme für Zähler - Drahtloses Mesh-Netzwerk für den Zählerdatenaustausch - Teil 1: Einführung und Standardisierungs-Rahmen; Deutsche Fassung prEN 16836-1:2015"]].
+  *[[http://t3n.de/news/mesh-netzwerke-488157/|t3n "Mesh-Netzwerke: Das Alternative Internet nicht nur für die Zombie-Apokalypse"]].
+  *[[http://www.elektronik-kompendium.de/sites/net/1408051.htm|Elektronik-Kompendium "IEEE 802.11s / Wireless Mesh Network (WMN)"]].
+  *[[http://www.pcwelt.de/ratgeber/Automatische_Haussteuerung-Projekte_mit_Arduino_und_Raspberry_Pi-8723715.html|pC Welt Smart Home "Projekte mit Arduino und Raspberry Pi. Automatische Haussteuerung]].
+  *[[http://www.fraunhofer.de/de/forschungsfelder.html|Fraunhofer "Forschungsfelder"]].
+  *Fair [[http://www.light-building.messefrankfurt.com/|Light + Building ]] in Frankfurt, 2016-03-13 - 2016-03-18.
+==== Photography ====
+  *Tip by a photographer: Put a piece of white paper in front of the flash, to improve the image quality when doing near shots ( here: if there is a low distance between cam and mechanical meter display, to get a full resolution image of the display ).
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Hardware/Mikrocontroller/|OpenDirectory "Top: World: Deutsch: Computer: Hardware: Mikrocontroller"]].
+{{tag>"smart metering" metering "smart grid" grid "smart city" city "smart cities" cities "smart building" building "smart buildings" buildings "smart building managment" management "smart world" world}}
