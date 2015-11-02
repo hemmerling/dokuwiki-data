@@ -26,6 +26,23 @@ review]] ( PDF ) -> "Release Readiness".
 Anwender von Business-Software erwarten Kontinuität"]], 2008-10-06 - "ERP-Nutzer sehen Upgrade- und Release-Fähigkeit kritischer".
   *[[http://www.semver.org/|Semantic Versioning]].
 ===== Revision Control Software =====
+==== Important Source / Change / Configuration Management Tools, according to VDC Research in 2015 ==== 
+  *Visual SourceSafe (Microsoft).
+  *Dimensions (Serena).
+  *ClearCase (IBM Rational).
+  *Synergy (IBM Rational).
+  *CVS (open source). 		
+  *Integrity (PTC).
+  *Mercurial (open source).
+  *Rational Team Concert (IBM Rational).
+  *Team Foundation Studio (Microsoft).
+  *AccuRev (AccuRev).
+  *GIT (open source).
+  *Subversion (open source).
+  *PVCS (Serena).
+  *McCabe CM - TRUEchange (McCabe Software).
+  *Perforce Software Configuration Management System (Perforce).
+  *StarTeam (Borland / Micro Focus).
 ==== Subversion ====
 === Subversion Server ===
   *[[http://subversion.apache.org/|Apache Subversion]], [[http://subversion.tigris.org/|Tigris "Subversion"]].
@@ -114,8 +131,10 @@ Anwender von Business-Software erwarten Kontinuität"]], 2008-10-06 - "ERP-Nutze
         *[[http://www.github.com/OpenTechSchool/social-coding|Github "OpenTechSchool/social-coding"]].
 === Literature ===
   *Book [[http://www.amazon.de/exec/obidos/ASIN/1430218339/hemmerling-21|Scott Chacon "Pro Git"]].
-    *The acompanying website [[http://www.git-scm.com/|Scott Chacon "Pro Git" ( git-scm.com )]].
+    *The acompanying websites [[http://www.progit.org/|Pro Git Book. An open source book on Git by Scott Chacon and Ben Straub]], [[http://www.git-scm.com/|Scott Chacon "Pro Git" ( git-scm.com )]], .
     *The free online HTML edition [[http://www.git-scm.com/book|Scott Chacon "Pro Git"]].
+    *[[http://www.github.com/schacon|GitHub "Scott Chacon"]].
+      *[[http://www.github.com/schacon/progit-en|GitHub "schacon/progit-en"]] ( "Pro Git Book Contents" ) is a popular example and gives help and instructions how to use build a toolchain for EPUB.
   *Book [[http://www.amazon.de/exec/obidos/ASIN/3864901308/hemmerling-21|René Preißel, Bjørn Stachmann: "Workflows mit Git: Dezentrale Versionsverwaltung in der Praxis"]].
 === Resources ===
 == Git ==

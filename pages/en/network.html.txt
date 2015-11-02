@@ -2,10 +2,15 @@
 Related pages:
   *[[automation.html|Automation & Process Logic Control]].
   *[[bautomation.html|Building Automation & Home Automation]].
+  *[[esb.html|Enterprise Service Bus ( ESB ) / Enterprise Service Architecture ( ESA )]].
   *[[fieldbus.html|Fieldbuses and Automation Networks]].
   *[[network02.html|Network Tools 2/2 - Communications Hardware, Communication Applications & Drivers]].
   *[[webtech.html|Web Technologies]] -> Representational State Transfer ( REST ).
   *[[wireless.html|Wireless Networks]].
+===== Events =====
+  *The affordable [[http://www.nagios-wiki.de/workshops/|Nagios Workshops]] in Germany.
+  *Event [[http://www.opennms.eu/|OpenNMS Users Conference Europe]] by [[http://www.opennms.eu/|OpenNMS Foundation Europe e.V.]].
+    *2015-09-28 - 2015-10-01 in Fulda.
 ===== Network Operation =====
 ==== Free Webservers and Middleware Servers ====
 === Content Management Systems ( CMS ) ===
@@ -18,12 +23,7 @@ Related pages:
     *[[http://en.wikipedia.org/wiki/WAR_%28Sun_file_format%29|EN.Wikipedia "WAR (Sun file format)"]], [[http://de.wikipedia.org/wiki/Web_Archive|DE.Wikipedia "Web Archive"]].
   *[[http://www.mitlinx.de/webservices/howto_tomcat_4_0_installieren.htm|MitLinux, Petra Haberer "HOWTO: Tomcat 4.0 installieren"]].
 === Enterprise Service Bus ===
-== OpenSource Products ==
-  *The OpenSource [[http://servicemix.apache.org/|Apache ServiceMix]] - "An open source ESB (Enterprise Service Bus) that combines the functionality of a Service Oriented Architecture (SOA) and an Event Driven Architecture (EDA)".
-  *The OpenSource [[http://www.mulesoft.org/|Mule ESB  - integration at cloud speed]].
-    *[[http://www.mulesoft.org/muleforge|MuleForge]].
-== Resources ==
-  *[[http://en.wikipedia.org/wiki/Enterprise_service_bus|EN.Wikipedia "Enterprise service bus"]], [[http://de.wikipedia.org/wiki/Enterprise_Service_Bus|DE.Wikipedia "Enterprise Service Bus"]] ( ESB ), [[http://en.wikipedia.org/wiki/SAP_Enterprise_Services_Architecture|EN.Wikipedia "SAP Enterprise Services Architecture"]] ( ESA ).
+  *See [[esb.html|Enterprise Service Bus ( ESB ) / Enterprise Service Architecture ( ESA )]].
 === Some other Middleware Servers ===
   *[[http://www.ibm.com/software/webservers/appserv/community/|IBM "WebSphere Application Server Community Edition"]].
   *[[http://www.jboss.org/|JBoss]].
@@ -211,7 +211,7 @@ Related pages:
     *[[http://fiddler.wikidot.com/|Fiddler Wiki]].
   *The free "FL VIEW", surveillance limited to 16 devices.
     *[[http://www.phoenixcontact.com/global/news/194_82696.htm|PHOENIX CONTACT "FL VIEW"]].
-    *[[http://catalog.phoenixcontact.net/phoenix/treeViewClick.do?action=assets&UID=2701744|2701744 FL VIEW 32 LITE]] - "FL_VIEW_V2.1.12.0.zip 	Demo version of FL VIEW (restriction: 16 devices maximum)".
+    *[[http://catalog.phoenixcontact.net/phoenix/treeViewClick.do?action=assets&UID=2701744|2701744 FL VIEW 32 LITE]] - "FL_VIEW_V2.1.12.0.zip Demo version of FL VIEW (restriction: 16 devices maximum)".
   *The OpenSource [[http://htt.sourceforge.net/|SourceForge "httest" ( "HTTP Test Tool" )]], [[http://www.sourceforge.net/projects/htt|SourceForge "HTTP Test Tool"]].
   *Michael Welzl, Christian Sternagel - "irvtool", a free Java tool.
     *Old site: [[http://www.welzl.at/research/tools/irvtool/|An Internet Routing Visualization Tool (irvtool)]].
@@ -225,6 +225,8 @@ Related pages:
     *[[http://wareseeker.com/Network-Tools/omnipeek-personal-4.1.zip/280297|WareSeeker "OmniPeek Personal 4.1"]] - Download of the latest free legacy release.
     *[[http://www.wildpackets.com/support/omni/omnipeek_personal/faq|Wildpackets, Support FAQs - OmniPeek Personal]].
     *[[http://en.wikipedia.org/wiki/OmniPeek|EN.Wikipedia "OmniPeek"]].
+  *The OpenSource [[http://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project|OWASP Zed Attack Proxy Project]], [[http://zaproxy.sourceforge.net/|SourceForge "OWASP Zed Attack Proxy"]], [[http://www.sourceforge.net/projects/zaproxy/|SourceForge "OWASP Zed Attack Proxy"]].
+    *[[http://en.wikipedia.org/wiki/OWASP_ZAP|EN.Wikipedia "OWASP ZAP"]].
   *[[http://code.google.com/p/packetsquare-capedit/|GoogleCode "packetsquare-capedit"]] - "A GUI PCAP Based Network Protocol Testing Tool".
     *[[http://www.packetsquare.com/|packetsquare.com]].
     *[[http://en.wikipedia.org/wiki/Packetsquare|EN.Wikipedia "Packetsquare"]].
@@ -318,7 +320,10 @@ Related pages:
       *[[http://www.bacula.org/|Bacula]] - "The Open Source Network Backup Solution".
     *Blog [[http://blog.netways.de/|NETWAYS GmbH "NETWAYS Blog"]].
   *[[http://www.opennms.org/|OpenNMS]].
-    *[[http://en.wikipedia.org/wiki/OpenNMS|EN.Wikipedia "OpenNMS"]], [[http://opennms.sourceforge.net/|Sourceforge "OpenNMS"]], [[http://www.sourceforge.net/projects/opennms/|Sourceforge "OpenNMS"]] - "An enterprise grade network monitoring and network management platform".
+    *Wiki [[http://www.opennms.org/wiki/|OpenNMS Wiki]].
+    *[[http://www.opennms.com/|OpenNMS Group, Inc.]].
+    *[[http://opennms.sourceforge.net/|Sourceforge "OpenNMS"]], [[http://www.sourceforge.net/projects/opennms/|Sourceforge "OpenNMS"]] - "An enterprise grade network monitoring and network management platform".
+    *[[http://en.wikipedia.org/wiki/OpenNMS|EN.Wikipedia "OpenNMS"]], [[http://de.wikipedia.org/wiki/OpenNMS|DE.Wikipedia "OpenNMS"]].
   *OpenStack.
     *See [[python.html|Python]].
   *The just-commercial [[http://www.snag-view.de/|SNAG-View]] - "Die System- und NetzwerkManagement Suite", "OpenSource based enterprise solutions" (?).

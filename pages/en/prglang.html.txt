@@ -9,13 +9,17 @@
 ===== BASIC =====
   *Xojo ( formerly REAL BASIC ), see section "Commercial Cross-Platform Development Systems".
 ===== COBOL =====
-  *[[http://www.freebyte.com/programming/cobol/|Freebyte's Guide to... Free COBOL Programming]].
-  *[[http://www.cobolinfo.de/|Initiative COBOL]].
+==== Tools ====
+  *[[http://tiny-cobol.sourceforge.net/|SourceForge "TinyCOBOL"]], [[http://www.sourceforge.net/projects/tiny-cobol|SourceForge "TinyCOBOL"]].
   *The free compiler "Fujitsu PowerCOBOL V3.0 L10" for Windows.
     *[[http://www.netcobol.com/download/v3starter/register.htm|Alchemy Solutions / NetCOBOL - "Fujitsu COBOL V3 Registration"]].
       *"Fujitsu used to provide an early version (V3) of their COBOL compiler for free. It worked well but didn't have many features that were introduced in later versions so it didn't threaten sales for business use. That version, created in the early '90s, no longer works on today's computers and versions of Windows and is no longer supported. It has not made sense to offer more recent versions in this way".
-   *Staff members of "Klaus Bodenbach Unternehmens- und IS-Beratungs GmbH" hold COBOL courses at Fachhochschule Hannover, University of Applied Sciences and Arts, regularly, in the 1990th and 2000th. I passed such a course in Summer 2005.
-     *[[http://web.archive.org/web/*/http://www.kbu-gmbh.de|Archive.org "kbu-gmbh.de"]] ( - 2006-12-05 ).
+==== Resources ====
+  *Staff members of "Klaus Bodenbach Unternehmens- und IS-Beratungs GmbH" hold COBOL courses at Fachhochschule Hannover, University of Applied Sciences and Arts, regularly, in the 1990th and 2000th. I passed such a course in Summer 2005.
+    *[[http://web.archive.org/web/*/http://www.kbu-gmbh.de|Archive.org "kbu-gmbh.de"]] ( - 2006-12-05 ).
+  *[[http://www.freebyte.com/programming/cobol/|Freebyte's Guide to... Free COBOL Programming]].
+  *[[http://www.cobolinfo.de/|Initiative COBOL]].
+
 ===== FORTRAN =====
 ==== Tools ====
   *The OpenSource FORTRAN compiler [[http://www.g95.org/|G95]] for Linux and Windows.
@@ -56,7 +60,7 @@
     *[[http://py.processing.org/examples/|Processing "Python Mode for Processing - Examples"]] - "Processing.py Examples. Coming soon! In the meantime, consult the examples that are included in the Python Mode download for Processing (File > Examples...)".
 ==== Resources ====
   *The original IDE, running on Java, supports software development with Java on Desktop PC ( Windows, MacOS, Linux ) and Android, Javascript, CoffeeScript and Python.
-  *OpenGL issues, mostly with Windows:
+  *OpenGL issues with "Processing 2.2.1" and newer, mostly with Windows:
     *The demo applications of the folder "Camera", "Demos" - and maybe some others, but not all - crash by the Java error message "Framebuffer objects are not supported by this hardware (or driver) Read [[http://wiki.processing.org/w/OpenGL_Issues|http://wiki.processing.org/w/OpenGL_Issues]] for help" :-(, on my
       *"Athlon XP2400" desktop computer with NVIDIA GeForce 6600 graphics card and webcam, with Win7 :-(.
       *Notebook "Dell Vostro 1000", with Win8.1 :-(.
@@ -64,6 +68,8 @@
     *The demo applications work well on my
       *Notebook "Dell Vostro 1000", with Ubuntu Linux 14 LTE :-).
     *[[http://www.github.com/processing/processing/wiki/OpenGL-Issues|GitHub Wiki "processing/processing" - "OpenGL Issues"]].
+      *"In Processing 2.0, a new version of the OpenGL library replaces the one found in 1.x releases".
+      *"The new version of the OpenGL library requires drivers that support OpenGL 2.0. This allows us to keep OpenGL support for desktop and Android in sync with one another. Unfortunately this means that some older cards and drivers (particularly on Linux) will not work, and that Processing 2.0 on such machines will be limited to 2D graphics".
   *[[http://en.wikipedia.org/wiki/Processing_%28programming_language%29|EN.Wikipedia "Processing (programming language)"]], [[http://de.wikipedia.org/wiki/Processing|EN.Wikipedia "Processing"]].
   *[[http://en.wikipedia.org/wiki/Processing.js|EN.Wikipedia "Processing.js"]].
 ===== Prolog =====

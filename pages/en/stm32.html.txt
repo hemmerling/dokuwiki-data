@@ -18,7 +18,10 @@
   *The free legacy software [[http://web.archive.org/web/*/http://www.st.com/web/en/catalog/tools/PF251717|Archive.org "STMicroelectronics: MicroXplorer - MCU graphical configuration tool"]] for Windows.
     *[[http://www.st.com/web/en/catalog/tools/PF257931|STMicroelectronics "STSW-STM32095. STM32CubeMX for STM32 configuration and initialization C code generation eclipse plugin"]].
   *The free software [[http://www.st.com/stm32cube-pr2|STMicroelectronics "STM32CubeMX - STM32Cube initialization code generator (UM1718)"]] - "STM32CubeMX is an extension of the existing MicroXplorer tool".
-  *[[http://www.st.com/web/en/catalog/tools/PF259243|STMicroelectronics "STM32CubeF4. Embedded software for STM32 F4 series (HAL low level drivers, USB, TCP/IP, File system, RTOS, Graphic - coming with examples running on ST boards)"]].
+  *Hardware abstraction layer for MCUs and boards ( "Board support packages" ), for use with "STM32Cube". Please don´t unzip the ZIP files, this is done automatically by the import process of the "New Libraries Manager" available at STM32CubeMX by "Help / Install New Libraries":
+    *[[http://www.st.com/web/en/catalog/tools/PF260508|STMicroelectronics "STM32CubeL0. Embedded software for STM32 L0 series (HAL low level drivers, USB, File system, RTOS, Touch Sensing - coming with examples running on ST boards: STM32 Nucleo, Discovery kits and Evaluation boards)"]].
+    *[[http://www.st.com/web/en/catalog/tools/PF259243|STMicroelectronics "STM32CubeF4. Embedded software for STM32 F4 series (HAL low level drivers, USB, TCP/IP, File system, RTOS, Graphic - coming with examples running on ST boards)"]].
+    *[[http://www.st.com/web/en/catalog/tools/PF261909|STMicroelectronics "STM32CubeF7. Embedded software for STM32F7 series (HAL low level drivers, USB, TCP/IP, File system, RTOS, Graphic - coming with examples running on ST boards: Discovery kit and Evaluation boards)"]].
   *[[http://community.arm.com/docs/DOC-8245|ARM Community "ST easing developers' life with STM32Cube"]].
   *[[http://www.youtube.com/watch?v=bt1YFG9wErg|YouTube, STMicroelectronics "Product overview - STM32Cube making STM32 development easier (epresentation)"]].
   *As of 2014-07, STMF4, F0 and L0 are supported. STMicroelectronics staff members announced support of all ARM MPUs until end of 2014.
@@ -100,7 +103,9 @@
     *Similar board: [[http://www.mbed.org/platforms/ST-Nucleo-L152RE/|mbed "ST Nucleo L152RE"]].
     ***Software for this board can be compiled by the free online development system [[http://wwwmbed.org/|mbed]]**.
     *The board is in Ardunio format. Additionaly to the standard Ardunio interface, it has extra ST interfaces.
-  *My M24SR shield "Bluetoth low energy expansion board bsed on BlueNRG for STM32 Nucleo":
+  *My M24SR shield "Sub-GHz RF expansion board for STM32 Nucleo":
+    *[[http://www.st.com/web/en/catalog/tools/PF261982|STMicroelectronics "X-NUCLEO-IDS01A4. Sub-1 GHz RF expansion board based on the SPSGRF-868 module for STM32 Nucleo"]].
+  *My M24SR shield "Bluetooth low energy expansion board based on BlueNRG for STM32 Nucleo":
     *[[http://www.st.com/web/catalog/tools/FM116/SC1075/PF260517|STMicroelectronics "X-NUCLEO-IDB04A1. Bluetooth low energy expansion board based on BlueNRG for STM32 Nucleo"]].
   *My M24SR shield "MEMS Inertial and Environmental expansion board for STM32 Nucleo":
     *[[http://www.st.com/web/catalog/tools/FM116/SC1248/PF261191|STMicroelectronics "X-NUCLEO-IKS01A1. Motion MEMS and environmental sensor expansion board for STM32 Nucleo"]].

@@ -27,6 +27,9 @@ Related pages:
 ==== Directory Services ====
   *[[http://en.wikipedia.org/wiki/Active_Directory|EN.Wikipedia "Active Directory"]], [[http://de.wikipedia.org/wiki/Active_Directory|DE.Wikipedia "Active Directory"]].
   *[[http://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol|EN.Wikipedia "Lightweight Directory Access Protocol"]], [[http://de.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol|DE.Wikipedia "Lightweight Directory Access Protocol"]].
+==== eCl@ss ====
+  *[[http://www.eclass.eu/|eCl@ss]].
+  *[[http://en.wikipedia.org/wiki/Eclass|EN.Wikipedia "Eclass"]], [[http://de.wikipedia.org/wiki/ECl@ss|DE.Wikipedia "eCl@ss"]].
 ==== Electronic data interchange ( EDI ) ====
   *[[http://en.wikipedia.org/wiki/Electronic_data_interchange|EN.Wikipedia "Electronic data interchange"]], [[http://de.wikipedia.org/wiki/Elektronischer_Datenaustausch|DE.Wikipedia "Elektronischer Datenaustausch"]] ( EDI ).
   *[[http://en.wikipedia.org/wiki/EDIFACT|EN.Wikipedia "EDIFACT"]], [[http://de.wikipedia.org/wiki/EDIFACT|DE.Wikipedia "EDIFACT"]].
@@ -90,7 +93,21 @@ Related pages:
   *"Scale Listener" - instrumentation device for scales.
 ==== Universal Machine Connectivity ( UMCM ) ====
   *[[http://www.it-production.com/index.php?seite=einzel_artikel_ansicht&id=59435|it-production.com - Das Online-Magazin für erfolgreiche Produktion "Universal Machine Connectivity - Auf dem Weg zur einfachen Maschinenanbindung"]].
+  *[[http://www.mes-dach.de/umcm2/|MES D.A.C.H Verband e.V.]].
+    *[[http://www.mes-dach.de/news/326-verbinden-hei%C3%9Ft-umcm.html|MES D.A.C.H Verband e.V. "Verbinden heißt UMCM. Universal Machine Connectivity for MES – eine Schnittstelle für alle"]].
+      *[[http://mes-dach.de/index.php/umcm2/324-technische-details.html|MES D.A.C.H Verband e.V. "Technische Details"]]. 
+        *Typical transfered informations ( in German language ):
+          -Zeitstempel.
+          -Produktionsfortschritt.
+          -Produktionszustand.
+          -Prozesswerte.
+          -Materialinformationen.
+        *Data transfer by:
+          -OPC-UA telegrams.
+          -File interface ( e.g. in JSON or XML format ).
+    *[[http://www.mes-dach.de/umcm2/325-verbinden-hei%C3%9Ft-umcm.html|MES D.A.C.H Verband e.V. "Verbinden heißt UMCM. Universal Machine Connectivity for MES – eine Schnittstelle für alle"]] - PDF Download.
   *[[http://www.mpdv.de/de/produkte/datenerfassung-mit-mes/umcm.htm|MPDV Mikrolab GmbH "UMCM - eine Schnittstelle für alle"]].
+  *[[http://www.syncos.com/news-infos/details/nachricht/verbinden-heisst-umcm.html|SYNCOS GmbH "UMCM – Eine MES-Schnittstelle für alle. Von einer einheitlichen Schnittstelle zwischen MES und Maschine profitieren sowohl Maschinenhersteller als auch Anwender"]].
 ==== Time Stamping =====
 === Continous timestamped Data Storage without Influence of Daylight Savings ===
   *It is important that a MES software stores data with timestamps in UTC and not in local time. The problem are daylight savings applied to local time in many countries, including EU: In Spring, you have a gap of one our in your datastream, in Autumn you loose data of 1 hour ( as it is not possible for most MES systems, to store 2 datasets with the same timestamp :-( ).
@@ -113,15 +130,13 @@ Oracle DBA – Tips and Techniques. Knowledge Is Power - Share IT! "Oracle 12c N
   *[[http://en.wikipedia.org/wiki/Bitemporal_data|EN.Wikipedia "Bitemporal data"]].
   *[[http://en.wikipedia.org/wiki/Temporal_database|EN.Wikipedia "Temporal database"]], [[http://de.wikipedia.org/wiki/Temporale_Datenbank|EN.Wikipedia "Temporale Datenbank"]] - "Valid time is the time period during which a fact is true with respect to the real world".
   *[[http://en.wikipedia.org/wiki/Valid_time|EN.Wikipedia "Valid time"]].
-
 ==== Web Services ====
   *[[http://en.wikipedia.org/wiki/Web_service|EN.Wikipedia "Web service"]], [[http://de.wikipedia.org/wiki/Webservice|DE.Wikipedia "Webservice"]].
-
 ===== Interfaces & Protocols for PI Systems  =====
 ==== Distributed Network Protocol ( DNP3 ) ====
-  *[[http://www.dnp.org/|DNP Users Group]].
+  *See [[fieldbus.html|Fieldbuses and Automation Networks]].
 ==== IEC 60870 ====
-  *[[http://en.wikipedia.org/wiki/IEC_60870-6|EN.Wikipedia "IEC 60870-6"]], [[http://de.wikipedia.org/wiki/IEC_60870|DE.Wikipedia "IEC 60870"]].
+  *See [[fieldbus.html|Fieldbuses and Automation Networks]].
 ==== IEC 61850 / 61400-25 ====
   *See [[fieldbus.html|Fieldbuses and Automation Networks]].
 ==== Modbus IDA, RTU, TCP ====
@@ -165,7 +180,7 @@ Inspired by: [[http://info.cimetrix.com/blog/bid/84727/Implementing-GEM-and-PV2-
   *[[http://wayback.archive.org/web/*/http://www.mmiopc.com/|Archive.org "Progea Srl.: MMI OPC - The easiest way to human interface"]].
     *The free [[http://wayback.archive.org/web/*/http://www.mmiopc.com/download.htm|Archive.org "Progea Srl. - OPC Explorer"]] for Windows. Please [[imprint.html|tell me]] if you know a download offer for this free software!
 === Commercial OPC-UA Client / Server Tools ===
-  *As OPC member, you have access to an OPC-UA C++ stack. According to experts, this stack isn't a complete application and which needs much improvements and upgrades to be used for production purposes.
+  *As OPC member, you have access to an OPC-UA C++ stack and an OPC-UA .NET stack. According to experts, such a stack isn't a complete application and especially the C++ needs much improvements and upgrades to be used for production purposes.
   *[[http://www.matrikonopc.com/opc-ua/|MatrixOPC "OPC UA (Unified Architecture)"]].
     *[[http://www.matrikonopc.com/opc-ua/embedded/|MatrixOPC "MatrikonOPC OPC UA Embedded Suite"]].
       *The hardware kit [[http://www.matrikonopc.com/opc-ua/embedded/evaluation-kit.aspx|MatrikonOPC OPC UA Embedded Server SDK Evaluation Kit]] - ARM Cortex M4 evaluation board ( 64 KBytes RAM ) with "MatrikonOPC OPC UA Embedded Server SDK".

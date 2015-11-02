@@ -114,6 +114,8 @@ Related page:
 ==== Teensy ====
   *[[http://www.pjrc.com/teensy/| "Teensy USB Development Board"]] - ARM based microcontroller board, in Arduino Nano board format.
   *The Teensy board is also designed to run [[http://www.micropython.org/|Micro Python: Python for microcontrollers]], "a lean and fast implementation of the Python 3 programming language that is optimised to run on a microcontroller" -> See [[python.html|Python]].
+==== Tessel, Tessel 2 ====
+  *[[http://tessel.io/|Tessel]] - "Build your product faster. Tessel 2 is a development platform you can embed in a product. Build fast with Node.js/io.js, then optimize the hardware and build thousands".
 ===== Semiconductor Manufacturers =====
 ==== Analog Devices, Inc. -> Analog Devices Precision Analog Microcontrollers, based on ARM7 ====
   *[[http://www.analog.com/en/processors-dsp/analog-microcontrollers/products/index.html|Analog Devices, Inc. "Analog Microcontrollers"]] - "Analog Devices Precision Analog Microcontrollers".
@@ -238,6 +240,8 @@ C:\Users\MyUser\Infineon\D3LibraryStore_3.1.10\www.infineon.com\DaveAppLibrary\X
   *My LPCXpresso Board is equipped with a LPC1343, based on Cortex M3 ( 32KB flash, 8KB SRAM ).
 == My NTAG I2C DemoKit ==
   *[[http://www.nxp.com/demoboard/OM5569.html|NXP "OM5569. Demoboard for NFC connected tag chips]].
+== My PN7120 NFC Controller SBC Kit ==
+  *[[http://www.nxp.com/board/OM5577.html|NXP "OM5577. PN7120 NFC Controller SBC Kit"]].
 == EM773 Energy Metering, Wireless Plug Meter Demo => EM773, based on Cortex M0 ==
   *[[http://ics.nxp.com/support/design/microcontrollers/smart.metering/|NXP Semiconductors  "EM773 energy metering IC design example"]] with EM773, based on Cortex M0 ( 32KBytes Flash, 8 KBytes RAM ).
     ***Warning - Danger for life -: The circuit board of the EM773 device is not isolated against 230 Volts power**, like legacy TV sets where the TV chassis may be on the 230 Volts power level. **That's why you must not connect the JTAG interface of the device to a remote PC, while the device is plugged into a 230 Volts power socket, under any circumstances**. For practical work in a laboratory - and just there ! -, you need to use a **insulating transformer** to isolate the 230 Volts power supply from the device.
@@ -555,6 +559,7 @@ Registering new target content products
     *[[http://supp.iar.com/FilesPublic/UPDINFO/004916/arm/doc/infocenter/index.ENU.html|IAR Information Center for ARM]].
     *An ARM assembler is included :-). There is the rumour, that the size limit of the Kickstart edition is a size limit of the C compiler, not of the assembler ?!
     *"The same installer is used for both the 30-day time-limited and the Kickstart (size-limited) evaluation edition. You select which evaluation license type you want to use after the installation. When you start the product for the first time, you will be asked to register to get your evaluation license".
+    *You must delete the .package files ( e.g. "Selected.package",.. ) of the directory "C:\ProgramData\IARSystems\LicenseManagement\LicensePackages\ARM\EW\1\"  before you can activate a new evaluation key for a new, repeated evaluation period.
   *The free [[http://www.mentor.com/embedded-software/sourcery-tools/sourcery-codebench/lite-edition|Mentor Graphics "Sourcery CodeBench Lite Edition"]] for Windows - "A complete development environment for embedded C/C++ development on ARM, Power, Coldfire and other architectures".
 === Free IDEs for ARM Development ===
   *[[http://www.coocox.org/|CooCox]].

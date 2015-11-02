@@ -2,16 +2,139 @@
 Related page: 
   *[[tickle.html|Tcl / Tk ( tickle ) 1/2]].
 ===== Static Code Analysis with Tcl / Tk ===== 
+==== Style Guides ====
+  *[[http://wiki.tcl.tk/708|Tcler's Wiki "Tcl Style GRay Johnsonuide"]] by Ray Johnson ##.
+  *[[http://mike.dewolfe.bc.ca/exhumed/jva/TCL.style.html|Shawn DeWolfe "Tk/TCL style guide"]] - Brief instructions.
+==== Ray Johnson's Style Guide Rules ====
+=== 5.2 Basic Syntax Rules ===
+Below are some specific rules governing the syntax of names. Please follow the rules exactly, since they make it possible to determine certain properties of a variable just from its name.
+  -Exported names for both procedures and variables always start with a lower-case letter. Procedures and variables that are meant only for use with in the current package or namespace should start with an upper-case letter. We chose lower-case for the exported symbols because it is possible they may be commonly used from the command line and they should be easy to write. For example:<code>
+# CountNum is a private variable
+set CountNum 0
+# The function addWindow is public
+proc addWindow {} {...
+# newWindow is a public interface in the spectcl namespace
+proc spectcl::newWindow {} {...</code>
+  -In multi-word names, the first letter of each trailing word is capitalized. Do not use underscores or dashes as separators between the words of a name.<code>
+set numWindows 0</code>
+  -Any variable whose value refers to another variable has a name that ends in Name. Furthermore, the name should also indicate what type of variable the name is referring to. These names are often used in arguments to procedures that are taking a name of a variable. <code>
+proc foo::Bar {arrayName} {
+    upvar 1 $arrayName array
+    ...
+} </code>
+  -Variables that hold Tcl code that will be evaled should have names ending in Script.<code>
+proc log::eval {logScript} {
+    if {$Log::logOn} {
+        set result [catch {eval $logScript} msg]
+        ... </code>
+  -Variables that hold a partial Tcl command that must have additional arguments appended
+before being a valid script should have names ending in Cmd.<code>
+foreach scrollCmd $listScrollCmds {
+    eval $scrollCmd $args
+}</code>
+=== 6. Low-level coding Conventions ===
+This section describes several low-level syntactic rules for writing Tcl code. These rules help to ensure that all of the Tcl code looks the same, and they prohibit a few confusing coding constructs.
+== 6.1 Indents are 4 Spaces ==
+Each level of indentation should be four spaces. There are ways to set 4-space indents in all of the most common editors. Be sure that your editor really uses four spaces for the indent, rather than just displaying tabs as four spaces wide; if you use the latter approach then the indents will appear eight spaces wide in other editors.
+== 6.2 Code Comments occupy full Lines ==
+Comments that document code should occupy full lines, rather than being tacked onto the ends of lines containing code. The reason for this is that side-by-side comments are hard to see, particularly if neighboring statements are long enough to overlap the side-by-side comments. Also it is easy to place comments in a place that could cause errors. Comments must have exactly the structure shown in Figure 3, with a blank line above and below the comment. The leading blank line can be omitted if the comment is at the beginning of a block, as is the case in the second comment in Figure 3. Each comment should be indented to the same level as the surrounding code. Use proper English in comments: write complete sentences, capitalize the first word of each sentence, and so on.<code>
+# If we are running on the Macintosh platform then we can
+# assume that the sources are located in the resource fork
+# of our application, and we do not need to search for them.
+if {$tcl_platform(platform) == “macintosh”} {
+    return
+}
+foreach dir $dirList {
+    # If the source succeds then we are done.
+    if {![catch {source [file join $dir file.tcl]}]} {
+        break
+    }
+}</code>
+Figure 3. Comments in code have the form shown above, using full lines, with lined-up hash
+marks, the comment takes at least a full line, and blank separator lines around each comment (except that the leading blank line can be omitted if the comment is at the beginning of a code block).
+== 6.3 Continuation Lines are indented 8 Spaces ==
+You should use continuation lines to make sure that no single line exceeds 80 characters in
+length. Continuation lines should be indented 8 spaces so that they won’t be confused with an immediately-following nested block. Pick clean places to break your lines for continuation, so that the continuation doesn’t obscure the structure of the statement. For example, if a procedure call requires continuation lines, try to avoid situations where a single argument spans multiple lines. If the test for an if or while command spans lines, try to make each line have the same nesting level of parentheses and/or brackets if possible. I try to start each continuation line with an operator such as *, &&, or ||; this makes it clear that the line is a continuation, since a new statement would never start with such an operator.
+== 6.4 Only one Command per Line ==
+You should only have one Tcl command per line on the page. Do not use the semi-colon character to place multiple commands on the same line. This makes the code easier to read and helps with debugging.
+== 6.5 Curly Braces: { goes at the end of a Line ==
+Open curly braces can not appear on lines by themselves in Tcl. Instead, they should be placed at the end of the preceding line. Close curly braces are indented to the same level as the outer code, i.e., four spaces less than the statements they enclose. However, you should always use curly braces rather than some other list generating mechanism that will work in the Tcl language. This will help make code more readable, will avoid unwanted side effects, and in many cases will generate faster code with the Tcl compiler.
+Control structures should always use curly braces, even if there is only one statement in
+the block. Thus you shouldn’t write code like<code>
+if {$tcl_platform(platform) == "unix"} return</code>
+but rather<code>
+if {$tcl_platform(platform) == "unix"} {
+    return
+}</code>
+This approach makes code less dense, but it avoids potential mistakes like unwanted Tcl substitutions. It also makes it easier to set breakpoints in a debugger, since it guarantees that each statement is on a separate line and can be named individually.
+== 6.6 Parenthesize Expressions == 
+Use parentheses around each subexpression in an expression to make it absolutely clear what is the evaluation order of the expression (a reader of your code should not need to remember Tcl’s precedence rules). For example, don’t type<code>
+if {$x > 22 && $y <= 47} ...</code>
+Instead, type this:<code>
+if {($x > 22) && ($y <= 47)} ...</code>
+== 6.7 Always use the return statement ==
+You should always explicitly use the return statement to return values from a Tcl procedure. By default Tcl will return the value of the last Tcl statement executed in a Tcl procedure as the return value of the procedure which often leads to confusion as to where the result is coming from. In addition, you should use a return statement with no argument for procedures whose results are ignored. Supplying this return will actually speed up your application with the new Tcl compiler. For example, don’t write code like this:<code>
+proc foo {x y} {
+    if {$x < 0} {
+        incr x
+    } else {
+        expr $x + $y
+    }
+}</code>
+But rather, type this:<code>
+proc foo {x y} {
+    if {$x < 0} {
+        return [incr x]
+    } else {
+        return [expr $x + $y]
+    }
+}</code>
+For Tcl procedures that have no return value a single return statement with no arguments is
+placed at the end of the procedure.
+== 6.8 Switch statements ==
+The switch statement should be formatted as below. Always use the -- option to avoid having
+the string be confused with an option. This can happen when the string is user generated. Comments can be added on the same line as the pattern to comment the pattern case. The comments for each case should line up on the same tab stop and must be within the braces. Note that this is an exception to the standard commenting conventions.<code>
+switch -regexp -- $string {
+    plus -
+    add { # Do add task
+    ...
+    }
+    subtract { # Do subtract case
+    ...
+    }
+    default {
+    ...
+    }
+}</code>
+== 6.9 If statements ==
+Never use the then word of an if statement. It is syntactic sugar that really isn’t that useful. However, the else word should always be used as it does impart some semantic information and it is more like the C language. Here is an example:<code>
+if {$x < 0} {
+    ...
+} elseif {$x == 0} {
+    ...
+} else {
+    ...
+}</code>
+
 ==== Tools ====
   *TclPro.
     *The commercial [[http://www.activestate.com/tcl-dev-kit|ActiveState "Tcl Dev Kit (TDK). Productivity and Deployment Tools for Tcl"]].
       *[[http://docs.activestate.com/tdk/4.1/Checker.html|ActiveState Docs "Tcl Dev Kit User Guide / TclChecker]].
+      *"By default, the Tcl Dev Kit TclChecker verifies scripts written for Tcl version 8.4". 
+      *So even this commercial edition 4.1 doesn´t support the features of TCL 8.5 and 8.6. 
+      *So does it support TCL 8.6 object oriented programming at all!?
       *[[http://docs.activestate.com/tdk/4.1/Debugger.html|ActiveState Docs "Tcl Dev Kit User Guide / Debugger"]].
     *The free [[http://www.sourceforge.net/projects/tclpro/|SourceForge "TclPro"]], [[http://tclpro.sourceforge.net/|SourceForge "TclPro"]].
       *[[http://www.tcl.tk/software/tclpro/|Tcl Developer Xchange "TclPro"]] - Product history.
+        *The free edition "TclPro 1.4.1" requires license keys in order to use the development tools (e.g, TclPro Debugger, TclPro Checker, TclPro Compiler, and TclPro Wrapper).  
+          *TclPro 1.4.1, for Tcl/Tk 8.3.2: Key: "1094-320C-1G38-2U24-P8YY".
+        *If you run the TclPro network license server, the keys are different:
+          *TclPro 1.4.1, Key for 10 seats: "2M1C-1H28-34U3-4P8Z-DRG2".
       *[[http://www.tcl.tk/software/tclpro/eval/1.4.html|Tcl Developer Xchange "Download TclPro 1.4"]].
+      *The free "TclPro Checker" of the free edition "TclPro 1.4.1" is a command line tool "C:\Program Files\TclPro1.4\win32-ix86\bin\procheck.exe". You have to add the path to that directory manually to your Windows system path.
   *The free [[http://nagelfar.sourceforge.net/|SourceForge "Nagelfar"]], [[http://www.sourceforge.net/projects/nagelfar|SourceForge "Nagelfar"]].
     *[[http://wiki.tcl.tk/9064|Tcler's Wiki "Nagelfar"]].
+      *"With version 1.1.11 support for 8.6 is getting better. OO support is still not very friendly but possible".
 ==== Resources ====
   *I was told by experts, that Tcl/Tk can´t be verified formally, as the language is too much dynamic by the option of redefinition at runtime. So the benefit of static code analysis is very limited, by definition.
   *[[http://wiki.tcl.tk/3162|Tcler's Wiki "Static syntax analysis"]].

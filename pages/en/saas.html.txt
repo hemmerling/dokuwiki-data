@@ -4,6 +4,7 @@ Related pages:
   *[[dsignage.html|Digital Signage with Synchronized Multimedia Integration Language ( SMIL )]].
   *[[distributed.html|Distributed Computing & Parallel Computing]].
   *[[mashup.html|Enterprise Mashups & Web 2.0]].
+  *[[esb.html|Enterprise Service Bus ( ESB ) / Enterprise Service Architecture ( ESA )]].
   *[[internet02.html|Internet Services 2/2]].
   *[[iphones.html|Internet Messenger, IP Telephony, Video Conferencing, Voice Over IP, Unified Messaging, Unified Communications]] -> "Webcast, Webinar and Online Conference Services".
   *[[linkeddata.html|Linked Data & Linked Open Data ( LOD )]].
@@ -162,19 +163,23 @@ Related pages:
     *In 2015-05 I was told by users of FIWARE, that all the integrated APIs of third-party companies are entitled to be scrap after a serious testing and therefore mostly deactivated, and the whole platform unstable.
     *Its a complex matter to start a virtual machine on FIWARE, in comparison to other cloud services ( AWS, Azure,..), or on your own PC ( VirtualBox, VirtualPC, VMWare...).
   *[[http://www.nirvanix.com/products-services/hybrid-cloud-storage/|Nirvanix hNode]] - "Hybrid Cloud Storage as a Service".
-  *[[http://ace.ng.bluemix.net/|IBM® Bluemix - A cloud platform for the world's ideas]].
-    *Free trial for 30 days.
-    *"Free" account.
-      *"Confirm Your Free Account. Are you ready to go beyond the free allowances of the trial account? Confirm your free account by adding a credit card, or by creating a subscription account. Don't worry! You are charged only if your usage exceeds the free allowances each month".
-      *"Free runtime allowances. Receive 375 GB-hours of free runtime allowances each month. That's enough to run a 512 MB Java app or multiple 128 MB Node.js apps".
-      *"Wenn Sie Produkte oder Services von IBM für geschäftliche Zwecke beziehen möchten und keine USt.-ID-Nummer haben, geben Sie die Bestellung bitte über einen IBM Business Partner auf" :-(. 
-      *[[http://www.ibm.com/developerworks/cloud/library/cl-mqtt-bluemix-iot-node-red-app/index.html|IBM Developerworks "Explore MQTT and the Internet of Things service on IBM Bluemix"]] - "Use a sample Java app or the Node-RED editor to learn how it works".
-      *Series:
-        -[[http://www.ibm.com/developerworks/cloud/library/cl-bluemix-arduino-iot1/|IBM Developerworks "Build a cloud-ready temperature sensor with the Arduino Uno and the IBM IoT Foundation, Part 1: Build the circuit and set up the environment"]].
-        -[[http://www.ibm.com/developerworks/cloud/library/cl-bluemix-arduino-iot2/|IBM Developerworks "Build a cloud-ready temperature sensor with the Arduino Uno and the IBM IoT Foundation, Part 2: Write the sketch and connect to the IBM IoT Foundation Quickstart"]].
-        -[[http://www.ibm.com/developerworks/cloud/library/cl-arduino-iot3-app/|IBM Developerworks "Build a cloud-ready temperature sensor with the Arduino Uno and the IBM IoT Foundation, Part 3: Build a custom application with Node-RED"]].
-        -[[http://www.ibm.com/developerworks/cloud/library/cl-arduino-iot4-app/|IBM Developerworks "Build a cloud-ready temperature sensor with the Arduino Uno and the IBM IoT Foundation, Part 4: Deploy a query GUI"]].
-    *[[http://blog.4loeser.net/2015/07/bluemix-simple-cron-like-service-for-my.html|Data Henrik: IT, Life, DB2, and more "Bluemix: Simple cron-like service for my Python code"]].
+  *IBM.
+    *[[http://ace.ng.bluemix.net/|IBM® Bluemix - A cloud platform for the world's ideas]].
+      *Free trial for 30 days.
+      *"Free" account.
+        *"Confirm Your Free Account. Are you ready to go beyond the free allowances of the trial account? Confirm your free account by adding a credit card, or by creating a subscription account. Don't worry! You are charged only if your usage exceeds the free allowances each month".
+        *"Free runtime allowances. Receive 375 GB-hours of free runtime allowances each month. That's enough to run a 512 MB Java app or multiple 128 MB Node.js apps".
+        *"Wenn Sie Produkte oder Services von IBM für geschäftliche Zwecke beziehen möchten und keine USt.-ID-Nummer haben, geben Sie die Bestellung bitte über einen IBM Business Partner auf" :-(. 
+        *[[http://www.ibm.com/developerworks/cloud/library/cl-mqtt-bluemix-iot-node-red-app/index.html|IBM Developerworks "Explore MQTT and the Internet of Things service on IBM Bluemix"]] - "Use a sample Java app or the Node-RED editor to learn how it works".
+        *Series:
+          -[[http://www.ibm.com/developerworks/cloud/library/cl-bluemix-arduino-iot1/|IBM Developerworks "Build a cloud-ready temperature sensor with the Arduino Uno and the IBM IoT Foundation, Part 1: Build the circuit and set up the environment"]].
+          -[[http://www.ibm.com/developerworks/cloud/library/cl-bluemix-arduino-iot2/|IBM Developerworks "Build a cloud-ready temperature sensor with the Arduino Uno and the IBM IoT Foundation, Part 2: Write the sketch and connect to the IBM IoT Foundation Quickstart"]].
+          -[[http://www.ibm.com/developerworks/cloud/library/cl-arduino-iot3-app/|IBM Developerworks "Build a cloud-ready temperature sensor with the Arduino Uno and the IBM IoT Foundation, Part 3: Build a custom application with Node-RED"]].
+          -[[http://www.ibm.com/developerworks/cloud/library/cl-arduino-iot4-app/|IBM Developerworks "Build a cloud-ready temperature sensor with the Arduino Uno and the IBM IoT Foundation, Part 4: Deploy a query GUI"]].
+      *[[http://blog.4loeser.net/2015/07/bluemix-simple-cron-like-service-for-my.html|Data Henrik: IT, Life, DB2, and more "Bluemix: Simple cron-like service for my Python code"]].
+    *[[http://internetofthings.ibmcloud.com/|IBM Internet of Things Foundation]].
+      *Blog [[http://developer.ibm.com/iotfoundation/blog/category/iot/|IBM Developer Blog "IoT Foundation"]].
+      *Python client libraries and samples -> See [[python09.html|Python 9/10 - Modules & Frameworks]].
   *[[http://www.meshcentral.com/|MeshCentral]] by Intel staff member [[http://www.linkedin.com/profile/view?id=402939|LinkedIn "Ylian Saint-Hilaire"]] - "Connect to your home or office devices from anywhere in the world using MeshCentral, the remote monitoring and management web site. You will need to download and install a special management agent on your computers. Once installed, each mesh enabled computer will show up in the "My Devices" section of this web site and will be able to monitor them, power them on and off and take control of them".
     *[[http://www.meshcentral.com/tutorial.aspx|MeshCentral "Tutorial"]].
   *[[http://www.theplanet.com/cloud-hosting/|The Planet Cloud-Housing]].
@@ -292,10 +297,7 @@ Related pages:
   *[[http://en.wikipedia.org/wiki/Deltacloud|EN.Wikipedia "Deltacloud"]] - "Deltacloud is an API that abstracts differences between clouds".
 ===== Service Oriented Architecture ( SOA ) =====
 ==== Microsoft Biztalk Services ====
-  *[[http://www.microsoft.com/biztalk/|Microsoft BizTalk Server]] ( english ), [[http://www.microsoft.com/germany/biztalk/|Microsoft BizTalk Server]] ( german ).
-  *[[http://www.microsoft.com/biztalk/en/us/editions.aspx|Microsoft BizTalk Server "Editions"]].
-  *[[http://msdn.microsoft.com/en-us/library/bb906065.aspx|Microsoft MSDN "The Internet Service Bus"]].
-  *[[http://www.microsoft.com/biztalk/en/us/esb-guidance.aspx|Microsoft BizTalk Server "Enterprise Service Bus"]] ( ESB ) - "Microsoft BizTalk Server ESB Guidance".
+  *See [[esb.html|Enterprise Service Bus ( ESB ) / Enterprise Service Architecture ( ESA )]].
 ==== Webservices ====
   *[[http://www.w3.org/TR/wsdl20-primer/|W3C "Web Services Description Language (WSDL) Version 2.0"]].
   *[[http://www.infoq.com/news/2007/01/wsdl-2-importance|infoQ, Mark Little "Does WSDL 2.0 Matter?"]].

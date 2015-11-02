@@ -1,0 +1,243 @@
+====== [hemmerling] Data Processing 2/5 - Descriptions of Data, Data Transfer and Data Protocols ======
+Relates pages:
+  *[[databases.html|Data Processing 1/5 - Databases, Webserver, Webservices, SQL, XML]].
+  *[[nosql.html|Data Processing 3/5 - NoSQL Databases: Not Just SQL]].
+  *[[dbadmin.html|Data Processing 4/5 - Database Managment Tools and Database Application Development Tools]].
+  *[[bíntelligence.html|Data Processing 5/5 - Business Intelligence]].
+
+===== Database Design Modeling Languages =====
+  -[[http://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model|EN.Wikipedia "Entity–relationship model"]], [[http://de.wikipedia.org/wiki/Entity-Relationship-Modell|DE.Wikipedia "Entity-Relationship-Modell"]].
+  -UML -> See [[uml.html|Unified Modeling Language ( UML ), Systems Modeling Language ( SysML )]].
+===== Data Formats, Database Formats =====
+==== Data Format Description Language ( DFDL ) ====
+  *[[http://www.ibm.com/developerworks/library/se-dfdl/|IBM DeveloperWorks "Get started with the Data Format Description Language"]].
+  *[[http://en.wikipedia.org/wiki/Data_Format_Description_Language|EN.Wikipedia "Data Format Description Language"]] - "DFDL is descriptive and not prescriptive. DFDL is not a data format, nor does it impose the use of any particular data format. Instead it provides a standard way of describing many different kinds of data format".
+==== Hierarchical Data Format ( HDF ) ====
+  *[[http://www.hdfgroup.org/|The HDF Group]].
+  *[[http://en.wikipedia.org/wiki/Hierarchical_Data_Format|EN.Wikipedia "Hierarchical Data Format"]], [[http://de.wikipedia.org/wiki/Hierarchical_Data_Format|DE.Wikipedia "Hierarchical Data Format"]].
+==== JSON, JSONP, BSON ====
+  *See [[webtech03.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 3/5 - Javascript]].
+==== XML ====
+=== Free XML Editors ===
+  *Microsoft
+    *The free [[http://www.microsoft.com/downloads/en/details.aspx?familyid=19676b18-1bcd-4852-93ba-0b5a203ea731&displaylang=en| Microsoft Download Center "Word 2003: XML Viewer"]] - to watch Word2003 XML documents on computers without Word2003.
+    *The free [[http://www.microsoft.com/downloads/en/details.aspx?familyid=72d6aa49-787d-4118-ba5f-4f30fe913628|Microsoft Download Center "XML Notepad 2007"]] ( = XML Notepad V2.5 ) for Windows with .NET 2.0.
+    *The free [[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=d23c1d2c-1571-4d61-bda8-adf9f6849df9|Microsoft Download Center "Internet Explorer Tools for Validating XML and Viewing XSLT Output "]] for Windows.
+  *The OpenSource [[http://notepad-plus-plus.org/|Notepad++]], [[http://notepad-plus.sourceforge.net/|Sourceforge "Notepad++"]], [[http://www.sourceforge.net/projects/notepad-plus|Sourceforge "Notepad++"]]  for Windows.
+    *[[http://npp-plugins.sourceforge.net/|SourceForge "Notepad++ Plugins"]], [[http://www.sourceforge.net/projects/npp-plugins/|SourceForge "Notepad++ Plugins"]] -> Notepad++ plugin "XML Tools" for Windows.
+  *The free [[http://www.iol.ie/~pxe/|Peter's XML Editor]], for Windows.
+  *The free [[http://www.xmlmind.com/xmleditor/|XMLmind XML Editor, Personal Edition]] for Windows.
+  *The commercial [[http://www.altova.com/|Altova XMLSpy]].
+    *Once there was a free "XMLSpy 2005 Home Edition" and "XMLSpy 2006 Home Edition". [[http://web.archive.org/web/*/http://www.altova.com/support_freexmlspyhome.asp|Archive.org "Altova - Get your FREE XMLSpy 2006 Home Edition License"]] ( - 2006-10-19 ).
+  *The XML editor "EditiX" by [[http://www.japisoft.com/|JAPISoft]], a Java 6 application for Win, Linux and MacOSX.
+    *The commercial [[http://www.editix.com/|JAPISoft "EditiX"]].
+    *The free JAPISoft "EditiX Lite".
+      *[[http://free.editix.com/|JAPISoft "EditiX Lite"]] - "This is a free Edition of EditiX XML Editor for non commercial usage" - Download of "EditiX Lite 2008 SP2" only :-(.
+      *[[http://free.editix.com/features/dtd_editor.html|JAPISoft EditiX "DTD Editor"]] - "EditiX is a powerful and easy to use DTD editor".
+      *The online manual [[http://free.editix.com/doc/manual7/|JAPISoft "EditiX XML Editor - Manual"]].
+      *[[http://free.editix.com/download/|JAPISoft - Download of "EditiX Lite"]] - Download of "EditiX Lite 2010", "EditiX Lite 2008 SP5".
+=== Simple API for XML ( SAX ) ===
+  *[[http://www.saxproject.org/|SAX]], [[http://www.megginson.com/downloads/SAX/|David Megginson "Simple API for XML"]].
+  *[[http://en.wikipedia.org/wiki/Simple_API_for_XML|EN.Wikipedia "Simple API for XML"]], [[http://de.wikipedia.org/wiki/Simple_API_for_XML|DE.Wikipedia "Simple API for XML"]].
+  *[[http://www.xml.com/pub/a/2001/12/05/sax2.html|O'Reilly xml.com - XML from the inside out "David Brownell: Top Ten SAX2 Tips"]].
+=== XML Parsers in Java ===
+  *[[http://en.wikipedia.org/wiki/Java_API_for_XML_Processing|EN.Wikipedia "Java API for XML Processing"]], [[http://de.wikipedia.org/wiki/Java_API_for_XML_Processing|DE.Wikipedia "Java API for XML Processing"]].
+  *[[http://glassfish.java.net/|java.net "GlassFish"]].
+      *[[http://jaxp.java.net/|java.net "GlassFish - Project JAXP"]] - "JAXP Reference Implementation".
+  *The OpenSource [[http://www.saxonica.com/|Saxonica: XSLT and XQuery Processing]], [[http://saxon.sourceforge.net/|SourceForge "SAXON - The XSLT and XQuery Processor"]], [[http://www.sourceforge.net/projects/saxon|SourceForge "Saxon XSLT and XQuery Processor"]] for Java and .NET.
+  *[[http://www.torsten-horn.de/techdocs/java-xml.htm|Torsten Horn "XML, JAXP, StAX, SAX, DOM und JDOM mit Java"]].
+  *[[http://www.totheriver.com/learn/xml/xmltutorial.html|totheriver "Introduction to XML and XML With Java"]].
+  *[[http://www.jcp.org/en/jsr/detail?id=63|The Java Community Process Program "JSR 63: JavaTM API for XML Processing 1.1"]].
+  *[[http://www.w3.org/TR/DOM-Level-2-Core/|W3C "Document Object Model (DOM) Level 2 Core Specification"]].
+  *[[http://www.ibm.com/developerworks/xml/library/x-xjavaforum4/index.html|Brett D. McLaughlin, IBM developerworks "XML and Java technology: Sun's Java and XML APIs: Helping or hurting?"]], 2007-07-10.
+  *[[http://xml.apache.org/xalan-j/trax.html|Apache XML "Using the JAXP Transform APIs"]].
+=== XML Parsers in C/C++ ===
+  *[[http://expat.sourceforge.net/|SourceForge "<eXpat> - The Expat XML Parser"]], [[http://www.sourceforge.net/projects/expat/|SourceForge "Expat XML Parser"]] - "XMLparser library".
+  *[[http://www.applied-mathematics.net/tools/xmlParser.html|Kranf site "Small, simple, cross-platform, free and fast  C++ XML Parser"]] - "XMLparser library".
+  *[[http://www.grinninglizard.com/tinyxml/|TinyXML]], [[http://tinyxml.sourceforge.net/|SourceForge "TinyXML"]], [[http://www.sourceforge.net/projects/tinyxml/|SourceForge "TinyXML"]].
+  *[[http://xerces.apache.org/|The Apache Xerces Project]].
+    *[[http://en.wikipedia.org/wiki/Xerces|EN.Wikipedia "Xerces"]].
+  *[[http://xml.apache.org/xalan-c/|The Apache XML Project - Xalan C++]] - "An XSLT processor for transforming XML documents into HTML, text, or other XML document types".
+    *[[http://en.wikipedia.org/wiki/Xalan|EN.Wikipedia "Xalan"]], [[http://de.wikipedia.org/wiki/Xalan|DE.Wikipedia "Xalan"]].
+=== XML Parsers for Python ===
+  *[[http://pyxml.sourceforge.net/|SourceForge "Python/XML"]], [[http://www.sourceforge.net/projects/pyxml/|SourceForge "Python/XML"]].
+=== XML Publishing Framework ===
+  *[[http://en.wikipedia.org/wiki/Apache_Cocoon|EN.Wikipedia "Apache Cocoon"]], [[http://de.wikipedia.org/wiki/Apache_Cocoon|DE.Wikipedia "Apache Cocoon"]].
+=== DocBook XML ===
+  *[[http://www.docbook.org/|DocBook.org]] - "DocBook is a schema (available in several languages including RELAX NG, SGML and XML DTDs, and W3C XML Schema) maintained by the DocBook Technical Committee of OASIS".
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0596805020/hemmerling-21|Norman Walsh, Richard L. Hamilton "DocBook 5: The Definitive Guide"]].
+    *The free legacy HTML online edition [[http://www.docbook.org/tdg/|DocBook: The Definitive Guide]].
+    *The free HTML online edition [[http://www.docbook.org/tdg5/|DocBook 5: The Definitive Guide]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0974152137/hemmerling-21|Bob Stayton "DocBook Xsl: The Complete Guide"]].
+  *[[http://en.wikipedia.org/wiki/DocBook|EN.Wikipedia "DocBook"]], [[http://de.wikipedia.org/wiki/DocBook|DE.Wikipedia "DocBook"]].
+=== Resources ===
+  *[[http://xml.apache.org/|Apache "XML at The Apache Foundation"]].
+  *[[http://www.ibm.com/developerworks/xml/library/x-ctlbx/|IBM developeworks "C/C++ developers: Fill your XML toolbox. Tools advice for C and C++ programmers ramping up on XML"]] #.
+  *[[http://www.lua.org/pil/29.2.html|Roberto Ierusalimschy "Programming in Lua", chapter "29.2 - An XML Parser"]].
+  *Microsoft.
+    *[[http://msdn.microsoft.com/data/bb190600(en-us).aspx|MSDN "Data Access and Storage > Lernen >  MSXML"]] / [[http://msdn.microsoft.com/de-de/data/bb190600.aspx|MSDN "Data Access and Storage > Lernen >  MSXML"]].
+    *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=3144b72b-b4f2-46da-b4b6-c5d7485f2b42&DisplayLang=en|Microsoft Download Center "MSXML 4.0 Service Pack 2 (Microsoft XML Core Services)"]].
+    *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=7f6c0cb4-7a5e-4790-a7cf-9e139e6819c0&displaylang=en|Microsoft Download Center "MSXML 4.0 Service Pack 3 (Microsoft XML Core Services)"]].
+    *[[http://www.microsoft.com/download/en/details.aspx?id=3988|Microsoft Download Center "Microsoft Core XML Services (MSXML) 6.0"]].
+    *Blog [[http://blogs.msdn.com/b/xmlteam/|Microsoft XML Team's WebLog]].
+  *[[http://www.xml.com/|O'Reilly xml.com]] #.
+  *[[http://www.quackit.com/xml/tutorial/xml_css.cfm|Quackit "XML with CSS"]].
+  *[[http://www.uzi-web.de/parser/parser_toc.htm|uzi-web.de "<  X  M  L  / >  Extensible Markup Language" - "XML Parser"]] - XML parser tutorial.
+  *[[http://www.w3schools.com/|w3schools - the world's largest web development site. educate yourself! beginners and experts]].
+    *[[http://www.w3schools.com/xsl/|w3schools - the world's largest web development site. educate yourself! beginners and experts "XSLT Tutorial"]].
+    *[[http://www.w3schools.com/xml/|w3schools - the world's largest web development site. educate yourself! beginners and experts "XML Tutorial"]].
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/Referential_integrity|EN.Wikipedia "Referential integrity"]], [[http://de.wikipedia.org/wiki/Referentielle_Integrit%C3%A4t|DE.Wikipedia "Referentielle Integrität"]].
+    *[[http://en.wikipedia.org/wiki/XML|EN.Wikipedia "XML"]], [[http://de.wikipedia.org/wiki/Extensible_Markup_Language|DE.Wikipedia "Extensible Markup Language"]].
+    *[[http://en.wikipedia.org/wiki/XPath|EN.Wikipedia "XPath"]], [[http://de.wikipedia.org/wiki/XPath|DE.Wikipedia "XPath"]].
+    *[[http://en.wikipedia.org/wiki/XSLT|EN.Wikipedia "XSLT"]], [[http://de.wikipedia.org/wiki/XSL_Transformation|DE.Wikipedia "XSL Transformation"]].
+    *[[http://en.wikipedia.org/wiki/XML_Schema_%28W3C%29|EN.Wikipedia "XML Schema (W3C)"]], [[http://de.wikipedia.org/wiki/XML_Schema|DE.Wikipedia "XML Schema"]].
+    *[[http://en.wikipedia.org/wiki/Document_Type_Definition|EN.Wikipedia "Document Type Definition"]], [[http://de.wikipedia.org/wiki/Dokumenttypdefinition|DE.Wikipedia "Dokumenttypdefinition]].
+    *[[http://en.wikipedia.org/wiki/XML_editor|EN.Wikipedia "XML editor"]], [[http://de.wikipedia.org/wiki/XML-Editor|DE.Wikipedia "XML-Editor"]].
+    *[[http://en.wikipedia.org/wiki/Comparison_of_XML_editors|EN.Wikipedia "Comparison of XML editors"]].
+    *[[http://xml.sys-con.com/|XML Journal]] by [[ http://www.sys-con.com/|SYS-CONn MEDIA]].
+===== Database Query Languages, Database Frameworks and Database Interfaces =====
+==== .NET ====
+=== Database Access by .NET ===
+  *ADO.NET.
+  *DataReader, DataAdapter, (typisierte) DataSets.
+    *Data Access / Persistence Layer.
+  *Repository, Data Mapper, Active Record etc.
+    *ObjectSpaces, EntLib, Entity Fx, LINQ to SQL.
+  *Object-Relational Mapping ( ORM ).
+=== Object-Relational Mapping (ORM ) for .NET ===
+  *NHibernate.
+  *SubSonic.
+  *Castle.ActiveRecord.
+  *Telerik OpenAccess.
+  *LightSpeed.
+  *LINQ to SQL [.NET 3.5].
+  *ADO.NET Entity Framework [.NET 3.5 SP1].
+=== Micro ORMs ===
+  *Simple.Data by Mark Rendle (Windows Azure MVP).
+    *[[http://www.github.com/markrendle/Simple.Data|Github "markrendle / Simple.Data"]].
+  *Massive by Rob Conery (Microsoft, WekeRoad).
+    *[[http://www.github.com/robconery/massive|Github "robconery / massive"]].
+  *Dapper by Sam Saffron (StackOverflow).
+    *[[http://www.github.com/SamSaffron/dapper-dot-net|Github "SamSaffron / dapper-dot-net"]].
+    *[[http://code.google.com/p/dapper-dot-net/|Google Code "dapper-dot-net. Simple SQL object mapper for ADO.NET"]].
+  *PetaPoco by Top Ten Software.
+    *[[http://www.toptensoftware.com/|Top Ten Software]].
+      *[[http://www.toptensoftware.com/petapoco/|Top Ten Software "PetaPoco. A tiny ORM-ish thing for your POCOs"]].
+    *[[http://www.github.com/toptensoftware/PetaPoco|Github "toptensoftware / PetaPoco"]].
+    *[[http://www.nuget.org/packages/PetaPoco|NuGet Gallery "PetaPoco - A tiny ORMish thing for your POCOs"]].
+==== ADO.NET & ADO.NET Entity Framework (EF) ====
+  *[[http://en.wikipedia.org/wiki/ADO.NET|EN.Wikipedia "ADO.NET"]], [[http://de.wikipedia.org/wiki/ADO.NET|DE.Wikipedia "ADO.NET"]] - Not in focus of .NET developers, anymore.
+  *[[http://en.wikipedia.org/wiki/ADO.NET_Entity_Framework|EN.Wikipedia "ADO.NET Entity Framework"]] - The new standard for .NET developers, since 2010 / 2011.
+==== Hybernate ====
+  *[[http://www.hibernate.org/|JBoss Community - Hibernate]] - "Relational Persistence for Java and .NET".
+  *[[http://www.nhforge.org/|NHibernate Forge. The official new home for the NHibernate for .NET community]].
+  *Once NHybernate was the inofficial "standard" for .NET developers for some time. In 2010 / 2011, the focus of .NET developers was turned by Microsoft to its [[http://en.wikipedia.org/wiki/ADO.NET_Entity_Framework|ADO.NET Entity Framework]], which is now the new "standard".
+  *[[http://en.wikipedia.org/wiki/Hibernate_%28Java%29|EN.Wikipedia "Hibernate (Java)"]], [[http://de.wikipedia.org/wiki/Hibernate_%28Framework%29|DE.Wikipedia "Hibernate (Framework)"]].
+==== JDBC, JDO ====
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/Java_Database_Connectivity|EN.Wikipedia "Java Database Connectivity"]], [[http://de.wikipedia.org/wiki/Java_Database_Connectivity|DE.Wikipedia "Java Database Connectivity"]].
+    *[[http://en.wikipedia.org/wiki/JDBC_driver|EN.Wikipedia "JDBC driver"]].
+    *[[http://en.wikipedia.org/wiki/Java_Data_Objects|EN.Wikipedia "Java Data Objects"]], [[http://de.wikipedia.org/wiki/Java_Data_Objects|DE.Wikipedia "Java Data Objects"]].
+  *[[http://developers.sun.com/product/jdbc/drivers|Oracle, Sun Developer Network - Products and Technologies Technical Topics, JDBC(TM) Data Access API, Drivers]] - Resource for JDBC drivers #.
+  *[[http://wiki.oracle.com/page/JDBC|Oracle Wiki "JDBC"]].
+  *[[http://www.oracle.com/technetwork/java/javase/tech/index-jsp-136101.html|Oracle Technology Network "Java SE Technologies - Database"]] - JDO, JDBC.
+    *[[http://www.oracle.com/technetwork/java/jdo-137135.html|Oracle Technology Network "Java Data Objects (JDO)"]].
+  *JDBC + foreign keys.
+    *"Some JDBC drivers don´t provide foreign keys, as this is not a must-have feature for a JDBC driver".
+    *[[http://www.java-tips.org/other-api-tips/jdbc/how-to-create-a-table-with-foreignkeys-from-jdbc.html|Java Tips "How to create a table with ForeignKeys from JDBC"]].
+==== LINQ for .NET 3.5 & .NET 4.0 ====
+  *[[http://en.wikipedia.org/wiki/LINQ|EN.Wikipedia "LINQ"]], [[http://de.wikipedia.org/wiki/LINQ|DE.Wikipedia "LINQ"]].
+  *The free [[http://www.linqpad.net/|LINQPad]] for .NET 3.5 & .NET 4.0.
+==== Microsoft Power Query Formula ( 'M' Language ) ====
+=== Tools ===
+  *[[http://www.microsoft.com/en-us/download/details.aspx?id=13533|Microsoft Download Center 'Microsoft "Oslo' - May 2009 CTP"]].
+  *Microsoft Excel.
+    *"Power Query" - Data consolidation.
+    *"Power Pivot" ( [[http://en.wikipedia.org/wiki/PowerPivot|EN.Wikipedia "PowerPivot"]] ) -  Development of data models and calculations.
+    *Power View - Data visualisation of data analysis results.
+    *Power Map - Geo visusalisation. You may generate small 3D movie-alike applications for presentations.
+=== Resources for Tools which user the 'M' Language ===
+  *[[http://thatmsftbiguy.com/powerqueryexcel/|BI BLOG: thatMSFTBIGuy. Microsoft BI technologies simplified, from the consulting man cave "Using Power Query for Excel"]].
+  *[[http://office.microsoft.com/en-001/excel-help/power-query-101-HA103993784.aspx|Microsoft Office "Power Query 101 Importing data from web page"]].
+==== Resources for 'M' ====
+  *[[http://msdn.microsoft.com/en-us/library/dd285271.aspx|Microsoft MSDN "The Microsoft code name 'M' Modeling Language Specification - Introduction"]].
+  *[[http://www.zdnet.com/blog/microsoft/microsoft-oslo-modeling-platform-unravels-further-ms-future-remains-vague/7452|ZDNet "Microsoft Oslo modeling platform unravels further; M's future remains vague"]], 2010-09-22.
+  *[[http://en.wikipedia.org/wiki/Oslo_%28Microsoft%29|EN.Wikipedia "Oslo (Microsoft)"]].
+  *[[http://en.wikipedia.org/wiki/M_%28programming_language%29|EN.Wikipedia "M (programming language)"]].
+==== MultiDimensional eXpressions ( MDX ) & Data Analysis Expressions ( DAX ) ====
+=== The legacy MultiDimensional eXpressions ( MDX ) of SQL Server ===
+  *[[http://en.wikipedia.org/wiki/MultiDimensional_eXpressions|EN.Wikipedia "MultiDimensional eXpressions"]], [[http://de.wikipedia.org/wiki/Multidimensional_Expressions|DE.Wikipedia "Multidimensional Expressions"]].
+  *[[http://en.wikipedia.org/wiki/Microsoft_Analysis_Services|EN.Wikipedia "Microsoft Analysis Services"]].
+  *[[http://msdn.microsoft.com/en-us/library/ff487170.aspx|Microsoft MSDN Library "Data Analysis Expressions and MDX"]].
+=== The current Data Analysis Expressions ( DAX ) of SQL Server 2008 R2 ===
+  *Goal of DAX: Access to Business Intelligence for Excel users by a smart VBA-alike script language ( "DAY queries" ) :-).
+  *Blog [[http://cwebbbi.wordpress.com/|Chris Webb's BI Blog]].
+    *[[http://cwebbbi.wordpress.com/2011/07/13/dax-queries-part-1/|Chris Webb's BI Blog "DAX Queries, Part 1"]].
+    *[[http://cwebbbi.wordpress.com/2011/07/13/dax-queries-part-2/|Chris Webb's BI Blog "DAX Queries, Part 2"]].
+    *[[http://cwebbbi.wordpress.com/2011/07/13/dax-queries-part-3/|Chris Webb's BI Blog "DAX Queries, Part 3"]].
+    *[[http://cwebbbi.wordpress.com/2011/07/13/dax-queries-part-4/|Chris Webb's BI Blog "DAX Queries, Part 4"]].
+  *[[http://msdn.microsoft.com/en-us/library/hh212945.aspx|Microsoft MSDN "Tabular Modeling (SSAS Tabular)"]].
+  *[[http://en.wikipedia.org/wiki/Column-oriented_DBMS|EN.Wikipedia "Column-oriented DBMS"]], [[http://de.wikipedia.org/wiki/Spaltenorientierte_Datenbank|DE.Wikipedia "Spaltenorientierte Datenbank"]].
+==== ODBC ====
+  *Was considered to be outdated when ASP.NET appeared. In focus of the .NET developers, again, since 2008.
+  *[[http://en.wikipedia.org/wiki/Odbc|EN.Wikipedia "Open Database Connectivity"]], [[http://de.wikipedia.org/wiki/ODBC|DE.Wikipedia "Open Database Connectivity"]].
+  *[[http://wiki.oracle.com/page/ODBC|Oracle Wiki "ODBC"]] - "The ODBC Driver is also available as part of the [[http://www.oracle.com/technetwork/database/features/instant-client/|Oracle Instant Client]] installation".
+  *[[http://www.oracle.com/technetwork/database/features/instant-client/|Oracle Instant Client]] for Windows, Linux,..
+  *[[http://download.oracle.com/javase/1.3/docs/guide/jdbc/getstart/bridge.doc.html|JDBC-ODBC Bridge Driver]].
+  *[[http://www.oracle.com/technetwork/database/features/oci/|Oracle Technology Network - "Oracle Call Interface"]].
+  *[[http://msdn.microsoft.com/library/ms709326|Microsoft MSDN Library "ODBC Drivers"]].
+  *[[http://support.microsoft.com/kb/110093/|Microsoft Help and Support "ODBC--Open Database Connectivity Overview"]].
+==== Oracle Berkeley DB ====
+  *[[http://www.oracle.com/us/products/database/berkeley-db/|Oracle Berkeley DB]] - a computer software library that provides a high-performance embedded database for key/value data.
+  *[[http://en.wikipedia.org/wiki/Berkeley_DB|EN.Wikipedia "Berkeley DB"]], [[http://de.wikipedia.org/wiki/Berkeley_DB|DE.Wikipedia "Berkeley DB"]].
+==== PL/SQL ====
+  *[[http://www.martinbulinski.de/ORACLE/PLSQL-Tutorial/|Martin Bulinski "PL/SQL Tutorial"]].  
+  *[[http://www.morganslibrary.org/library.html|Morgans Oracle Library Site Map]].
+  *Oracle.
+    *[[http://docs.oracle.com/cd/B28359_01/server.111/b28286/toc.htm|Oracle Database SQL Language Reference]].
+      *[[http://docs.oracle.com/cd/B28359_01/appdev.111/b28370/toc.htm|Oracle® Database PL/SQL Language Reference]].
+    *[[http://www.oracle.com/technetwork/database/features/plsql/|Oracle Technology Network "PL/SQL"]].
+    *[[http://tahiti.oracle.com/|Oracle Tahiti]].
+    *[[http://www.oracle-base.com/articles/plsql/articles-plsql.php|ORACLE-BASE - Articles on Oracle PL/SQL]].
+  *[[http://www.orafaq.com/faq/plsql/|Oracle FAQs "PL/SQL"]].
+  *[[http://www.datenbank-plsql.de/|TAKTUM Informatik GmbH - "Oracle PL/SQL Tutorial: Oracle PL/SQL Tutorial - Die Programmiersprache von Oracle. Ein Nachschlagewerk auf Basis von Beispielen"]].
+  *[[http://en.wikipedia.org/wiki/PL/SQL|EN.Wikipedia "PL/SQL"]], [[http://de.wikipedia.org/wiki/PL/SQL|DE.Wikipedia "PL/SQL"]].
+==== SQL ====
+  *I was told by experts about SQL naming conventions:
+    -Oracle SQL Server: SQL commands and table names are not case sensitive. Internally, they are converted to uppercase, if they are not included in quotation marks.
+    -Postgres is also not case sensitive, but converts all SQL keywords to lowercase.
+    -Oracle MySQL Server is case sensitive or not, depending on th operating system, database engine and settings.
+  *[[http://en.wikipedia.org/wiki/SQL|EN.Wikipedia "SQL"]], [[http://de.wikipedia.org/wiki/SQL|DE.Wikipedia "SQL"]].
+  *[[http://www.salesforce.com/us/developer/docs/api/Content/sforce_api_calls_soql.htm|Salesforce.com Object Query Language (SOQL)]].
+==== Transact SQL ( TSQL ) ====
+  *[[http://en.wikipedia.org/wiki/Transact_SQL|EN.Wikipedia "Transact SQL"]], [[http://de.wikipedia.org/wiki/Transact_SQL|DE.Wikipedia "Transact SQL"]].
+==== XML, SQL and ODBC Support for C++ ====
+  *These frameworks offer propretary interfaces for ( ODBC ) database access:
+    *MFC by Microsoft.
+    *BDE, suppied with Borland C++ compilers.
+    *wxWidgets.
+  *[[http://otl.sourceforge.net/|SourceForge "Oracle, Odbc and DB2-CLI Template Library"]], [[http://www.sourceforge.net/projects/otl|SourceForge "Oracle, ODBC, DB2-CLI Template Library"]] ( OTL ).
+  *[[http://dtemplatelib.sourceforge.net/|SourceForge "Database Template Library Programmer's Guide"]], [[http://www.sourceforge.net/projects/dtemplatelib|SourceForge "Database Template Library Programmer's Guide"]] ( DTL ) - "The goal of this library is to make ODBC recordsets look just like an STL container".
+  *[[http://dbconnect.sourceforge.net/|SourceForge "DBConnect API"]], [[http://www.sourceforge.net/projects/dbconnect|SourceForge "DBConnect API"]].
+  *[[http://www.grinninglizard.com/tinyxml/|Lee Thomason "TinyXML"]], [[http://tinyxml.sourceforge.net/|SourceForge "TinyXML"]], [[http://www.sourceforge.net/projects/tinyxml|SourceForge "TinyXML"]].
+  *SQLite.
+===== Data Transfer Protocols, Webservices Protocols =====
+==== CORBA ====
+  *[[http://en.wikipedia.org/wiki/Common_Object_Request_Broker_Architecture|EN.Wikipedia "Common Object Request Broker Architecture"]], [[http://de.wikipedia.org/wiki/Common_Object_Request_Broker_Architecture|DE.Wikipedia "Common Object Request Broker Architecture"]].
+==== Database APIs, for Database Access by Web Browsers ====
+  *WebSQL -> Chrome, Safari, Opera, Android Browser.
+    *[[http://en.wikipedia.org/wiki/Web_SQL_Database|EN.Wikipedia "Web SQL Database"]].
+  *Indexed Database API, Index DB ( formerly: WebSimpleDB ) -> Firefox, Chrome, MSIE.
+    *[[http://en.wikipedia.org/wiki/Indexed_Database_API|EN.Wikipedia "Indexed Database API"]].
+==== Java Message Service ( JMS ) ====
+  *[[http://en.wikipedia.org/wiki/Java_Message_Service|EN.Wikipedia "Java Message Service"]], [[http://de.wikipedia.org/wiki/Java_Message_Service|DE.Wikipedia "Java Message Service"]].
+==== SOAP ====
+  *[[http://ws.apache.org/axis/|Apache Axis]] -  An implementation of SOAP ("Simple Object Access Protocol").
+  *[[http://en.wikipedia.org/wiki/SOAP|EN.Wikipedia "SOAP"]], [[http://de.wikipedia.org/wiki/SOAP|DE.Wikipedia "SOAP"]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Software/Databases/|OpenDirectory "Top: Computers: Software: Databases"]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Software/Datenbanken/|OpenDirectory "Top: World: Deutsch: Computer: Software: Datenbanken"]].
+  *[[http://www.dmoz.org/Computers/Data_Formats/Markup_Languages/XML/Tools/Editors/|OpenDirectory "Top: Computers: Data Formats: Markup Languages: XML: Tools: Editors"]]
+{{tag>sql database databases administration "database administration" "software development"}}
+<footnote_navi_en>

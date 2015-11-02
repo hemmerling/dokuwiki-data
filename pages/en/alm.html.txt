@@ -212,7 +212,7 @@ jdbc:mercury:sqlserver://%HOST_NAME%:1433</code>
     *Still open question: How to enable Network access on Windows ?.
       *[[http://h30499.www3.hp.com/t5/Quality-Center-Support-and-News/HPQC-12-20-Community-Edition-How-to-enable-Network-access-on/td-p/6770820#.Vb3xII691xw|HP Enterprise Business Community "Quality Center / ALM", Forum "Quality Center Support and News Forum", Thread "How to enable Network access on Windows ?"]].
       *[[http://www.vivit-worldwide.org/forums/Posts.aspx?topic=1132497|Vivit Forums,  Subforum "Special Interest Group: Testing Quality and ALM" , Thread "HPQC 12.20 Community Edition - How to setup the URL/IP for the server?"]].
-      *[[http://stackoverflow.com/questions/31770514/hpqc-12-20-community-edition-how-to-enable-network-access-on-windows|StackOverflow "HPQC 12.20 Community Edition - How to enable Network access on Windows?"]].
+      *<del>[[http://www.stackoverflow.com/questions/31770514/hpqc-12-20-community-edition-how-to-enable-network-access-on-windows|StackOverflow "HPQC 12.20 Community Edition - How to enable Network access on Windows?"]]</del>, [[http://superuser.com/questions/956525/hpqc-12-20-community-edition-how-to-enable-network-access-on-windows|Super User "HPQC 12.20 Community Edition - How to enable Network access on Windows?"]].
       *[[http://www.databaseskill.com/1040072/|Database Skill. About MySql, SQL Server, Oracle, PostgreSql, DB2, SyBase, SQL, T-SQL, PL-SQL "The QC server IP address change and how to access"]].
   *Install [[http://hpln.hp.com/page/hp-alm-client-msi-generator|HP Live Network "HP ALM Client MSI Generator"]] on your HPQC server.
   *On your HPQC server, call the "HP ALM Client MSI Generator" to create a rich client software.

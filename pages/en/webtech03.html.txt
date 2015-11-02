@@ -1,4 +1,4 @@
-====== [hemmerling] Web Technologies ( HTML5, HTML, XML & Javascript ) 3/4 - Javascript ======
+====== [hemmerling] Web Technologies ( HTML5, HTML, XML & Javascript ) 3/5 - Javascript ======
 Related pages:
   *[[api.html|Application programming interface ( API )]].
   *[[databases.html|Databases, Webserver, Webservices, SQL, XML]] -> XML.
@@ -6,58 +6,128 @@ Related pages:
   *[[uscripting.html|Scripting Programming Languages for Unix / Linux and Windows]].
   *[[snetworks03.html|Social Networks 3/3 - IT / SystemEngineering Forums and IT / SystemEngineering Communities]].
   *[[rest.html|Representational State Transfer ( REST )]].
-  *[[webtech.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 1/4]].
-  *[[webtech02.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 2/4 - HTML & CSS]].
-  *[[webtech04.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 4/4 - Javascript Frameworks]].
-===== JavaScript =====
-==== Browser Tools ====
-=== Browser Plugin ===
-  *See [[remoteaccess.html|Remote Access Tools for Computers & Network Clients]].
-=== Tools ===
-  *[[http://addons.mozilla.org/de/firefox/addon/greasemonkey/|Mozilla Firefox Addon "Greasemonkey"]].
-    *[[http://en.wikipedia.org/wiki/Greasemonkey|EN.Wikipedia "Greasemonkey"]], [[http://de.wikipedia.org/wiki/Greasemonkey|DE.Wikipedia "Greasemonkey"]].
-  *[[http://code.google.com/p/blockly/|Google Code "blockly - A visual programming editor"]].
-  *[[http://www.gruntjs.com/|Grunt]] - "A task-based command line build tool for JavaScript projects".
-  *[[http://www.requirejs.org/|RequireJS]] - "A JavaScript file and module loader. It is optimized for in-browser use, but it can be used in other JavaScript environments, like Rhino and Node. Using a modular script loader like RequireJS will improve the speed and quality of your code".
-==== IDEs ====
-=== Free and/or OpenSource IDEs for Javascript & Node.js ===
-  *Appcelerator, Inc. : The free IDE "Appcelerator Studio", the OpenSource IDE "Aptana Studio" - See [[webtech04.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 4/4 - Javascript Frameworks]].
-  *The OpenSource IDE "Eclipse" with "Dynamic Languages Toolkit" ( DLTK ) - See [[sdevtools.html|Software Development Tools]].
-    *[[http://www.eclipse.org/downloads/packages/eclipse-php-developers/lunasr2|Eclipse for PHP Developers]] is shipped with DLTK :-).
-  *Microsoft:
-    *The free [[http://www.microsoft.com/web/webmatrix/|Microsoft/web "WebMatrix"]] - "A free, lightweight, cloud-connected web development tool"
-      *[[http://en.wikipedia.org/wiki/Microsoft_WebMatrix|EN.Wikipedia "Microsoft WebMatrix"]], [[http://de.wikipedia.org/wiki/Microsoft_WebMatrix|DE.Wikipedia "Microsoft WebMatrix"]] - "with full support for ASP.NET, PHP, Node.js and HTML 5".
-    *The OpenSource [[http://nodejstools.codeplex.com/|CodePlex "Node.js Tools for Visual Studio"]], [[http://www.github.com/Microsoft/nodejstools|GitHub "Microsoft/nodejstools"]].
-=== Commercial IDEs ===
-  *The commercial IDE [[http://www.jetbrains.com/webstorm/|JetBrains "WebStorm - The smartest JavaScript IDE"]] for Windows.
-==== Testing of Javascript Applications ====
+  *[[webtech.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 1/5]].
+  *[[webtech02.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 2/5 - HTML & CSS]].
+  *[[webtech04.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 4/5 - Javascript Development Tools]].
+  *[[webtech05.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 5/5 - Javascript Frameworks]].
+===== Debugging & Testing of Javascript Applications =====
   *See [[unittest.html|Unit Test / Module Test]].
-==== Javascript Tutorials ====
-  *[[http://www.jsforcats.com/|JavaScript For Cats. An introduction for new programmers]].
-  *[[http://www.codecademy.com/en/tracks/javascript|CodeCademy "Javascript"]].
-  *[[http://www.codepen.io/|CodePen - Front End Developer Playground & Code Editor in the Browser]].
-==== Javascript Sandboxes ====
-  *[[http://alternativeto.net/software/js-bin/|alternativeTo "JS BIN"]] - "JS Bin Alternatives and Similar Software".
-  *[[http://www.codepen.io/|CodePen - Pens picked by the Editors of CodePen]].
-  *[[http://www.cssdesk.com/|CSSDesk - Online CSS Sandbox]].
-  *[[http://www.csslint.net/|CSS LINT - Will hurt your feelings* (And help you code better)]].
-  *[[http://www.dabblet.com/|dabblet - The first commented line is your dabblet’s title]].
-  *[[http://www.hashify.me/|hashify.me]].
-  *[[http://www.html5rocks.com/|HTML5 Rocks - A resource for open web HTML5 developers]].
-  *[[http://www.ideone.com/|Ideone.com - Your great ideas will be born here]].
-  *[[http://www.jsfiddle.net/|jsFiddle - Create a new Fiddle]].
-  *[[http://www.jsbin.com/|JS Bin - Collaborative JavaScript Debugging]].
-  *[[http://www.jsdo.it/|jsdo.it - Share JavaScript, HTML5 and CSS]].
-  *[[http://www.liveweave.com/|Liveweave - HTML, CSS3, Javascript]].
-  *[[http://www.tinker.io/|Tinker - Social Code Collaboration]].
-  *[[http://www.tinkerbin.com/|Tinkerbin]] - "Lets you play around with HTML, JavaScript and CSS without creating files or uploading to servers".
+  *Testing of Node.js applications -> See [[webtech05.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 5/5 - Javascript Frameworks]].
+  *Using the Node.js internal debugger: "node debug app.js".
+===== Asynchronous JavaScript and XML ( Ajax ) =====
+==== Tools ====
+  *[[http://www.eclipse.org/rap/|Eclipse "Rich Ajax Platform"]].
+==== Resources ====
+  *[[http://en.wikipedia.org/wiki/Ajax_%28programming%29|EN.Wikipedia "Ajax (programming)"]], [[http://de.wikipedia.org/wiki/Ajax_%28Programmierung%29|DE.Wikipedia "Ajax (Programmierung)"]].
+  *[[http://en.wikipedia.org/wiki/Rich_AJAX_Platform|EN.Wikipedia "Rich AJAX Platform"]], [[http://de.wikipedia.org/wiki/Rich_Ajax_Platform|DE.Wikipedia "Rich Ajax Platform"]].
+===== JSON, JSONP, BSON =====
+==== Tools ====
+  *The OpenSource [[http://jsonviewer.codeplex.com/|CodePlex "JSON Viewer"]] for Windows.
+  *The OpenSource [[http://notepad-plus-plus.org/|Notepad++]], [[http://notepad-plus.sourceforge.net/|Sourceforge "Notepad++"]], [[http://www.sourceforge.net/projects/notepad-plus|Sourceforge "Notepad++"]]  for Windows.
+    *[[http://nppjsonviewer.sourceforge.net/|SourceForge "JSONViewer Notepad++ plugin"]], [[http://www.sourceforge.net/projects/nppjsonviewer/|SourceForge "JSONViewer Notepad++ plugin"]] -> Notepad++ plugin "JSON Viewer" for WinXP. 
+      *"JSONViewer Notepad++ plugin" 1.5 is the latest edition for W2k.
+==== Online Services ====
+  *[[http://jsonformatter.curiousconcept.com/|JSON Formatter & Validator]].
+==== Online Services for Random Data Generation ====
+  *[[http://www.json-generator.com/|JSON Generator - tool for generating random JSON data]].
+  *[[http://www.objgen.com/json|ObjGen - Live JSON Generator]].
+  *[[http://jsongen.pykaso.net/|On-line JSON data generator. Nice sample data generator]].
+==== JSON and REST ====
+  *Event [[http://www.eventbrite.de/event/5382902406/|AutoUni "RESTful Webservices"]], speech of Stefan Tilkov "RESTful Webservices".
+==== Suitable tools for finding Link Relations ====
+  *[[http://en.wikipedia.org/wiki/XPath|DE.Wikipedia "XPath"]], [[http://de.wikipedia.org/wiki/XPath|DE.Wikipedia "XPath"]]
+  *[[http://code.google.com/p/json-path/|Google Code "json-path. JsonPath implementation"]].
+    *[[http://www.goessner.net/articles/JsonPath/|Stefan Gössner "JSONPath - XPath for JSON"]].
+==== Multimedia Standards based on JSON, to communcate Representations which include Multimedia Links, with JSON ====
+=== HAL ===
+  *[[http://www.stateless.co/|Mike Kelly, Web Engineer. I like using technology to solve interesting problems]].
+    *[[http://www.stateless.co/hal_specification.html|Mike Kelly "HAL - Hypertext Application Language"]].
+    *Blog [[http://blog.stateless.co/|Mike Kelly - The Stateless Blog. Rational evolvability]].
+     *[[http://blog.stateless.co/post/13296666138/json-linking-with-hal|Mike Kelly - The Stateless Blog. Rational evolvability "JSON Linking with HAL"]].
+  *[[http://tools.ietf.org/html/draft-kelly-json-hal-05|JSON Hypertext Application Language. draft-kelly-json-hal-05]].
+=== Collection+JSON ===
+  *[[http://www.amundsen.com/media-types/collection/|Collection+JSON - Hypermedia Type]].
+=== Jackson as "Marshalling" Library ===
+  *[[http://jackson.codehaus.org/|Jackson High-performance JSON processor]].
+  *[[http://wiki.fasterxml.com/JacksonInFiveMinutes|Tatu Saloranta - FasterXML Wiki "JacksonInFiveMinutes"]].
+  *[[http://www.sivalabs.in/2011/03/json-processing-using-jackson-java-json.html|SivaLabs : My Experiments on Technology. Java, Struts, Spring, Hibernate, Ajax Tutorials, How-To's and Best Practices "JSON processing using Jackson Java JSON Processor"]].
+  *[[http://www.stackoverflow.com/questions/6342387/best-approach-for-marshaling-unmarshaling-immutable-objects-with-builder-pattern|Stack Overflow "best approach for marshaling unmarshaling immutable objects with builder pattern".]]
+==== Resources ====
+  *[[http://www.json.org/|JSON - "Introduction to JSON"]], [[http://en.wikipedia.org/wiki/JSON|EN.Wikipedia "JSON"]], [[http://de.wikipedia.org/wiki/JavaScript_Object_Notation|DE.Wikipedia "JavaScript Object Notation"]].
+  *[[http://en.wikipedia.org/wiki/JSONP|EN.Wikipedia "JSONP"]] - "It provides a method to request data from a server in a different domain" :-).
+  *[[http://www.bsonspec.org/|BSON - Binary JSON]], [[http://en.wikipedia.org/wiki/BSON|EN.Wikipedia "BSON"]].
+===== Responsive / Reactive Design / Atomic Design =====
+==== Atomic Design by Brad Frost ====
+  *Blog [[http://bradfrostweb.com/|Brad Frost "brad frost web - Words That Would Otherwise Be Coming Out of My Mouth]].
+    *[[http://www.bradfrostweb.com/blog/post/atomic-web-design/|Brad Frost "Atomic Design"]], 2013-06-10.
+  *[[http://www.facebook.com/brad.frost.web.design|Facebook "Brad Frost Web. Local Business"]].
+  *[[http://www.twitter.com/brad_frost|Twitter " Brad Frost, @brad_frost"]].
+  *[[http://www.github.com/bradfrost|Github "Brad Frost"]].
+    *[[http://bradfrost.github.io/this-is-responsive/|Github.io "bradfrost / This is responsive"]].
+  *Slides [[http://www.slideshare.net/bradfrostweb|SlideShare "Brad Frost"]].
+    *Slides [[http://www.slideshare.net/bradfrostweb/atomic-design|SlideShare "Brad Frost: Atomic design"]].
+  *Videos.
+    *[[http://www.vimeo.com/67476280|Vimeo "Brad Frost – Atomic Design – beyond tellerrand 2013"]], 2013-05-27 - 2013-05-29.
+    *[[http://www.teamtreehouse.com/library/in-control-2014/atomic-design|TeamTreeHouse "In Control 2014 / Atomic Design"]].
+  *[[http://www.patternlab.io/|Pattern Lab]] - "Pattern Lab is a collection of tools to help you create atomic design systems".
+    *[[http://demo.patternlab.io/|Pattern Lab - Demo]], [[http://patternlab.bradfrostweb.com/|patternlab.bradfrostweb.com]].
+==== Reactive Design ====
+  *[[http://www.reactivemanifesto.org/|The Reactive Manifesto]].
+==== Responsive Webdesigns ====
+  *Experts told me that their responsive webdesign is based on:
+    *[[http://twitter.github.com/bootstrap/|Github "Bootstrap, from Twitter"]].
+    *[[http://www.jquery.com/|jQuery]].
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/Single-page_application|EN.Wikipedia "Single-Page Applications"]].
+    *[[http://en.wikipedia.org/wiki/Responsive_web_design|EN.Wikipedia "Responsive web design"]], [[http://de.wikipedia.org/wiki/Responsive_Webdesign|DE.Wikipedia "Responsive Webdesign"]].
+==== Resources ====
+  *[[http://www.lukew.com/ff/entry.asp?1809|LukeW "Breaking Development: Atomic Design"]], 2013-10-21.
+  *[[http://www.phase2technology.com/blog/your-frontend-methodology-is-all-of-them-atomic-design-patternlab/|Phase2, Christopher Bloom "Your Frontend Methodology Is All of Them: Atomic Design & Pattern Lab"]], 2014-02-14.
+  *[[http://www.smashingmagazine.com/2013/08/02/other-interface-atomic-design-sass/|Smashing Magazine, Robin Rendle: "The 'Other' Interface: Atomic Design With Sass"]], 2013-08-02.
+===== Static Code Analysis Tools for Javascript =====
+  *See [[goodcoding.html|Good Coding ! - Software Coding, Coding Rules, Static Code Analysis, Code Reviews]].
+===== tus.io - Open Protocol for Resumable File Uploads =====
+  *[[http://www.tus.io/|tus.io - Open Protocol for Resumable File Uploads]], [[http://www.github.com/tus|Github "tus - Resumable File Uploads"]].
+    *Blog [[http://www.tus.io/blog.html|tus Blog]].
+==== How to build numeric Applications like OPC-UA Client ====
+=== Experiences of Martin Baum ===
+  *Speech "Building a Client for OPC-UA in Javascript" of Martin Baum, [[http://www.xing.com/profile/Martin_Baum4|XING "Martin Baum"]], [[http://de.linkedin.com/pub/martin-baum/12/467/505/en|LinkedIn "Martin Baum"]], [[http://www.treestructure.net/|Treestructure]] at the conference [[http://www.solutions.hamburg/|solutions.hamburg - Kongress für Digitalisierung, Business und IT]] by [[http://www.silpion.de/|SILIPON]] in Hamburg, on 2015-09-10.
+  *[[http://www.github.com/treestructure/|GitHub "treestructure/"]].
+    *[[http://www.github.com/treestructure/slides_opcclient|GitHub "treestructure/slides_opcclient"]] - "Building a OPC-UA client with Javascript".
+=== Resources ===
+  *An OPC-UA client in Javascript for a browser is useful on a desktop client with strong computing power ( i7 with 4 CPU cores, 8 threads..), less with clients with limited computing power ( e.g. a webbook, an ARM A9 based embedded system, an ARM based smartphone,.. ).
+  *Binary data processing with Javascript:
+    *Arraybuffer.
+    *TypedArray ( ArrayBufferView ).
+    *DataViewe ( ArrayBufferView ).
+    *Blob.
+  *Javascript can handle 64-bit integer values just by special Javascript libraries, which handle 64-bit values as strings.
+    *[[http://github.com/MikeMcl/bignumber.js/|GitHub "MikeMcl/bignumber.js"]] - "A JavaScript library for arbitrary-precision decimal and non-decimal arithmetic".
+  *Cryptography:
+    *[[http://bitwiseshiftleft.github.io/sjcl/|Stanford University "Stanford Javascript Crypto Library (SJCL)"]], [[http://crypto.stanford.edu/sjcl/|Stanford University "Stanford Javascript Crypto Library (SJCL)"]].
+      *[[http://www.github.com/bitwiseshiftleft/sjcl|GitHub "bitwiseshiftleft/sjcl"]] - "Stanford Javascript Crypto Library".
+    *[[http://code.google.com/p/crypto-js/|Google Code "crypto-js. JavaScript implementations of standard and secure cryptographic algorithms"]]. Not recommended by experts, as too slow by implementation based on strings.
+    *[[http://www.jcryption.org/|jCryption]], [[http://www.github.com/HazAT/jCryption|GitHub "HazAT/jCryption"]].
+  *MQTT broker -> See [[fieldbus.html|Fieldbuses and Automation Networks]].
+  *OPC-UA -> See [[industrialdata.html|Industrial Data & Industrial Data Exchange]].
+===== Javascript - The Language =====
 ==== Tips & Tricks ====
   *Check for comparisons:
     *'1' = = = '1! -> True.
     *'1' = = 1 -> True ( Suggestion: Don´t use! ).
     *'1' ! = = '1' -> False.
-    *'1' ! = 1 -> False 
-==== Resources ====
+    *'1' ! = 1 -> False.
+==== Special Language features of Javascript ====
+=== Anonymous Functions ===
+  *[[http://stackoverflow.com/questions/2421911/what-is-the-purpose-of-wrapping-whole-javascript-files-in-anonymous-functions-li|StackOverflow "What is the purpose of wrapping whole Javascript files in anonymous functions like '(function(){ … })()'?"]].
+=== Classes ===
+  *[[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript|Mozilla Developer Network ( MDSN ) "Introduction to Object-Oriented JavaScript"]].
+  *[[http://www.phpied.com/3-ways-to-define-a-javascript-class/|Stoyan's phpied.com "3 ways to define a JavaScript class"]].
+==== Javascript Tutorials ====
+  *[[http://www.jsforcats.com/|JavaScript For Cats. An introduction for new programmers]].
+  *[[http://www.codecademy.com/en/tracks/javascript|CodeCademy "Javascript"]].
+  *[[http://www.codepen.io/|CodePen - Front End Developer Playground & Code Editor in the Browser]].
+===== Resources =====
   *[[http://www.commonjs.org/|CommonJS]].
     *Wiki [[http://wiki.commonjs.org/|CommonJS Wiki]].
       *[[http://wiki.commonjs.org/wiki/Promises|CommonJS Wiki "Promises"]] - "A well-defined interface for interacting with an object that represents the result of an action that is performed **asynchronously**".
@@ -78,81 +148,6 @@ Related pages:
   *[[http://www.zetcode.com/|ZetCode Tutorial]].
     *GUI: "JavaScript GTK tutorial".
   *[[http://en.wikipedia.org/wiki/Asm.js|EN.Wikipedia "Asm.js"]] - "An intermediate programming language consisting of a strict subset of the JavaScript language".
-===== Javascript Technologies ====
-==== Asynchronous JavaScript and XML ( Ajax ) ====
-=== Tools ===
-  *[[http://www.eclipse.org/rap/|Eclipse "Rich Ajax Platform"]].
-=== Resources ===
-  *[[http://en.wikipedia.org/wiki/Ajax_%28programming%29|EN.Wikipedia "Ajax (programming)"]], [[http://de.wikipedia.org/wiki/Ajax_%28Programmierung%29|DE.Wikipedia "Ajax (Programmierung)"]].
-  *[[http://en.wikipedia.org/wiki/Rich_AJAX_Platform|EN.Wikipedia "Rich AJAX Platform"]], [[http://de.wikipedia.org/wiki/Rich_Ajax_Platform|DE.Wikipedia "Rich Ajax Platform"]].
-==== JSON, JSONP, BSON ====
-=== Tools ===
-  *The OpenSource [[http://jsonviewer.codeplex.com/|CodePlex "JSON Viewer"]] for Windows.
-  *The OpenSource [[http://notepad-plus-plus.org/|Notepad++]], [[http://notepad-plus.sourceforge.net/|Sourceforge "Notepad++"]], [[http://www.sourceforge.net/projects/notepad-plus|Sourceforge "Notepad++"]]  for Windows.
-    *[[http://nppjsonviewer.sourceforge.net/|SourceForge "JSONViewer Notepad++ plugin"]], [[http://www.sourceforge.net/projects/nppjsonviewer/|SourceForge "JSONViewer Notepad++ plugin"]] -> Notepad++ plugin "JSON Viewer" for WinXP. 
-      *"JSONViewer Notepad++ plugin" 1.5 is the latest edition for W2k.
-=== Online Services ===
-  *[[http://jsonformatter.curiousconcept.com/|JSON Formatter & Validator]].
-=== Online Services for Random Data Generation ===
-  *[[http://www.json-generator.com/|JSON Generator - tool for generating random JSON data]].
-  *[[http://www.objgen.com/json|ObjGen - Live JSON Generator]].
-  *[[http://jsongen.pykaso.net/|On-line JSON data generator. Nice sample data generator]].
-=== JSON and REST ===
-  *Event [[http://www.eventbrite.de/event/5382902406/|AutoUni "RESTful Webservices"]], speech of Stefan Tilkov "RESTful Webservices".
-=== Suitable tools for finding Link Relations ===
-  *[[http://en.wikipedia.org/wiki/XPath|DE.Wikipedia "XPath"]], [[http://de.wikipedia.org/wiki/XPath|DE.Wikipedia "XPath"]]
-  *[[http://code.google.com/p/json-path/|Google Code "json-path. JsonPath implementation"]].
-    *[[http://www.goessner.net/articles/JsonPath/|Stefan Gössner "JSONPath - XPath for JSON"]].
-=== Multimedia Standards based on JSON, to communcate Representations which include Multimedia Links, with JSON ===
-== HAL ==
-  *[[http://www.stateless.co/|Mike Kelly, Web Engineer. I like using technology to solve interesting problems]].
-    *[[http://www.stateless.co/hal_specification.html|Mike Kelly "HAL - Hypertext Application Language"]].
-    *Blog [[http://blog.stateless.co/|Mike Kelly - The Stateless Blog. Rational evolvability]].
-     *[[http://blog.stateless.co/post/13296666138/json-linking-with-hal|Mike Kelly - The Stateless Blog. Rational evolvability "JSON Linking with HAL"]].
-  *[[http://tools.ietf.org/html/draft-kelly-json-hal-05|JSON Hypertext Application Language. draft-kelly-json-hal-05]].
-== Collection+JSON ==
-  *[[http://www.amundsen.com/media-types/collection/|Collection+JSON - Hypermedia Type]].
-== Jackson as "Marshalling" Library ==
-  *[[http://jackson.codehaus.org/|Jackson High-performance JSON processor]].
-  *[[http://wiki.fasterxml.com/JacksonInFiveMinutes|Tatu Saloranta - FasterXML Wiki "JacksonInFiveMinutes"]].
-  *[[http://www.sivalabs.in/2011/03/json-processing-using-jackson-java-json.html|SivaLabs : My Experiments on Technology. Java, Struts, Spring, Hibernate, Ajax Tutorials, How-To's and Best Practices "JSON processing using Jackson Java JSON Processor"]].
-  *[[http://www.stackoverflow.com/questions/6342387/best-approach-for-marshaling-unmarshaling-immutable-objects-with-builder-pattern|Stack Overflow "best approach for marshaling unmarshaling immutable objects with builder pattern".]]
-=== Resources ===
-  *[[http://www.json.org/|JSON - "Introduction to JSON"]], [[http://en.wikipedia.org/wiki/JSON|EN.Wikipedia "JSON"]], [[http://de.wikipedia.org/wiki/JavaScript_Object_Notation|DE.Wikipedia "JavaScript Object Notation"]].
-  *[[http://en.wikipedia.org/wiki/JSONP|EN.Wikipedia "JSONP"]] - "It provides a method to request data from a server in a different domain" :-).
-  *[[http://www.bsonspec.org/|BSON - Binary JSON]], [[http://en.wikipedia.org/wiki/BSON|EN.Wikipedia "BSON"]].
-==== Responsive / Reactive Design / Atomic Design ====
-=== Atomic Design by Brad Frost ===
-  *Blog [[http://bradfrostweb.com/|Brad Frost "brad frost web - Words That Would Otherwise Be Coming Out of My Mouth]].
-    *[[http://www.bradfrostweb.com/blog/post/atomic-web-design/|Brad Frost "Atomic Design"]], 2013-06-10.
-  *[[http://www.facebook.com/brad.frost.web.design|Facebook "Brad Frost Web. Local Business"]].
-  *[[http://www.twitter.com/brad_frost|Twitter " Brad Frost, @brad_frost"]].
-  *[[http://www.github.com/bradfrost|Github "Brad Frost"]].
-    *[[http://bradfrost.github.io/this-is-responsive/|Github.io "bradfrost / This is responsive"]].
-  *Slides [[http://www.slideshare.net/bradfrostweb|SlideShare "Brad Frost"]].
-    *Slides [[http://www.slideshare.net/bradfrostweb/atomic-design|SlideShare "Brad Frost: Atomic design"]].
-  *Videos.
-    *[[http://www.vimeo.com/67476280|Vimeo "Brad Frost – Atomic Design – beyond tellerrand 2013"]], 2013-05-27 - 2013-05-29.
-    *[[http://www.teamtreehouse.com/library/in-control-2014/atomic-design|TeamTreeHouse "In Control 2014 / Atomic Design"]].
-  *[[http://www.patternlab.io/|Pattern Lab]] - "Pattern Lab is a collection of tools to help you create atomic design systems".
-    *[[http://demo.patternlab.io/|Pattern Lab - Demo]], [[http://patternlab.bradfrostweb.com/|patternlab.bradfrostweb.com]].
-=== Reactive Design ===
-  *[[http://www.reactivemanifesto.org/|The Reactive Manifesto]].
-=== Responsive Webdesigns ===
-  *Experts told me that their responsive webdesign is based on:
-    *[[http://twitter.github.com/bootstrap/|Github "Bootstrap, from Twitter"]].
-    *[[http://www.jquery.com/|jQuery]].
-  *Wikipedia.
-    *[[http://en.wikipedia.org/wiki/Single-page_application|EN.Wikipedia "Single-Page Applications"]].
-    *[[http://en.wikipedia.org/wiki/Responsive_web_design|EN.Wikipedia "Responsive web design"]], [[http://de.wikipedia.org/wiki/Responsive_Webdesign|DE.Wikipedia "Responsive Webdesign"]].
-=== Resources ===
-  *[[http://www.lukew.com/ff/entry.asp?1809|LukeW "Breaking Development: Atomic Design"]], 2013-10-21.
-  *[[http://www.phase2technology.com/blog/your-frontend-methodology-is-all-of-them-atomic-design-patternlab/|Phase2, Christopher Bloom "Your Frontend Methodology Is All of Them: Atomic Design & Pattern Lab"]], 2014-02-14.
-  *[[http://www.smashingmagazine.com/2013/08/02/other-interface-atomic-design-sass/|Smashing Magazine, Robin Rendle: "The 'Other' Interface: Atomic Design With Sass"]], 2013-08-02.
-==== tus.io - Open Protocol for Resumable File Uploads ====
-  *[[http://www.tus.io/|tus.io - Open Protocol for Resumable File Uploads]], [[http://www.github.com/tus|Github "tus - Resumable File Uploads"]].
-    *Blog [[http://www.tus.io/blog.html|tus Blog]].
-
 ===== Appropriate OpenDirectory Directory Pages =====
   *[[http://www.dmoz.org/Computers/Programming/Languages/JavaScript/|OpenDirectory "Top: Computers: Programming: Languages: JavaScript]].
   *[[http://www.dmoz.org/Computers/Programming/Languages/HTML/|OpenDirectory "Top: Computers: Programming: Languages: HTML]].
@@ -160,4 +155,3 @@ Related pages:
   *[[http://www.dmoz.org/World/Deutsch/Computer/Programmieren/Sprachen/HTML/|OpenDirectory "Top: World: Deutsch: Computer: Programmieren: Sprachen: HTML"]].
 {{tag>"web technologies" HTML5 HTML XML Javascript "web frameworks" "software frameworks for web applications" "web applications" web applications application}}
 <footnote_navi_en>
-

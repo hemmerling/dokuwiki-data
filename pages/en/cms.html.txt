@@ -4,7 +4,6 @@ Related pages:
   *[[internet01.html|Internet Services 1/2]] - "Document Hubs ( Document Hub Online Services, Data Sync Online Services )".
   *[[moodle.html|Moodle]].
   *[[workflow.html|Workflow Engines]].
-
 ===== Conferences & Fairs =====
   *The double-feature fairs [[http://www.messestuttgart.de/cms/index.php?id=121266|IT & Business]] und [[http://www.messestuttgart.de/cms/index.php?id=121023|DMS EXPO]]" at [[http://www.messe-stuttgart.de/|Messe Stuttgart]].
   *The "Moodle Moot" conferences -> See [[moodle.html|Moodle]].
@@ -25,7 +24,9 @@ Related pages:
   *The [[http://en.wikipedia.org/wiki/Web_ARChive|EN.Wikipedia "Web ARChive"]]  ( WARC ) format.
 ===== Backup Software =====
   *The free [[http://personal-backup.rathlev-home.de/|J. Rathlev "Personal Backup"]] for Windows.
-===== WAMPs =====
+===== LAMPs, WAMPs =====
+==== LAMPs ====
+==== WAMPs ====
     *[[http://www.apache.org/|Apache]].
        *[[http://httpd.apache.org/|Apache Server]].
        *[[http://www.apachefriends.org/en/xampp.html|Apache friends "xampp"]].
@@ -50,6 +51,12 @@ Related pages:
       *Book [[http://www.amazon.de/exec/obidos/ASIN/1782162321/hemmerling-21|Clément Nedelcu: "Nginx HTTP Server - Second Edition"]].
       *[[http://en.wikipedia.org/wiki/Nginx|EN.Wikipedia "Nginx"]], [[http://de.wikipedia.org/wiki/Nginx|DN.Wikipedia "Nginx"]].
     *[[http://typo3winstaller.sourceforge.net/|TYPO3Installer]] - "Apache 2.0.63, PHP 5.2.6, MySQL 4.1.22" -> still Apache 2.0 based :-(, but still works with W2k :-).
+==== Resources ====
+  *[[http://www.google.de/search?q=apache+alternative+webserver|Google - Search for "apache alternative web server"]].
+  *[[http://www.makeuseof.com/tag/linux-web-server-software-apache-alternatives/|MakeUseOf "The Best Linux Web Server Software (& Apache Alternatives)"]].
+  *[[http://royal.pingdom.com/2008/04/17/alternative-web-servers-compared-lighttpd-nginx-litespeed-and-zeus/|Pingdom Blog "Alternative web servers compared: Lighttpd, Nginx, LiteSpeed and Zeus"]].
+  *[[http://en.wikipedia.org/wiki/Comparison_of_web_server_software|EN.Wikipedia "Comparison of web server software"]].
+  *[[https://en.wikipedia.org/wiki/LAMP_%28software_bundle%29|EN.Wikipedia "LAMP (software bundle)"]], [[https://de.wikipedia.org/wiki/LAMP_%28Softwarepaket%29|DE.Wikipedia "LAMP (Softwarepaket)"]] - "For example, an equivalent installation on the Microsoft Windows family of operating systems is known as WAMP".
 ===== Wiki =====
 ==== Classical Wikis ====
   *[[dokuwiki.html|DokuWiki]].
@@ -91,7 +98,7 @@ Related pages:
       *"Weil es in den Augen eines Fachkundigen Users und auch in den Augen anderer Firmen ein Armutszeugnis ist WP als Webseite zu haben. Eine Firma welche WP als Webseite hat kämpft in meinen Augen mit dem Existenzminimum", "also 80% aller Firmen kämpfen um die Existenz. Weil so circa 80% aller Webseiten auf WP basieren".
       *"Wenn man die richtigen Verkaufsargumente und ein wenig Know-how hat, kann man einem Kunden sehr schnell klar machen warum man auf WP verzichten und durchaus bereit sein sollte etwas in seinen Webauftrit zu investieren".
       *"Eine Webseite ist nunmal der first point of contact, der Eindruck muss passen. Dabei gehts weder ums Geld der Entwickler oder sonst was. Es ist und bleibt ein Aushängeschild... Beauftragst du einen Grafiker/Webdesigner der als eigene Homepage ein Werk von Frontpage 1.0 vorzuweisen hat? Wohl kaum". 
-  *The OpenSource [[http://www.zope.org/|ZOPE]] in Python - "An open source web application server primarily written in the Python programming language. It features a transactional object database which can store not only content and custom data, but also dynamic HTML templates, scripts, a search engine, and relational database (RDBMS) connections and code".
+  *The OpenSource ZOPE -> See [[python10.html|Python 10/10 - Web Application Frameworks]].
   *Coldfusion Express 4.5.
     *[[http://comenius.eun.org/eun.org2/eun/html/memory/CFDOCS/main.htm|ComeniusSpace "Coldfusion Express 4.5"]] - online documentation of "Coldfusion Express 4.5".
     *[[http://www.cielen.com/blog/index.cfm?lng=1&mode=entry&entry=235|Philipp Cielen's Blog on ColdFusion, Flash - "ColdFusion Express - kostenloser Download"]] ( 2005-04-21 ).
@@ -104,9 +111,7 @@ Related pages:
     *[[http://en.wikipedia.org/wiki/Liferay_Portal|EN.Wikipedia "Liferay Portal"]], [[http://de.wikipedia.org/wiki/Liferay_Portal|DE.Wikipedia "Liferay Portal"]].
     *[[http://www.tencompetence.org/web/guest/liferay-portlets|TENCompetence Foundation "Liferay Portlets"]] - "Test Portlet. The Test Portlet allows users to take tests in order to self assess aspects that are relevant in setting realistic goals, like aptitude, motivation, personality, learning style, etc.. These tests are created using the QTI Editor Portlet".
     *It might be interesting to develop a Moodle Portlet :-). Be aware that you then you need to develop an additional single-signin solution.
-  *[[http://www.plone.org/|Plone CMS]] - "Open Source Content Management".
-    *[[http://www.plone.de/|plone.de - Deutschsprachige Plone Community]].
-    *[[http://en.wikipedia.org/wiki/Plone_%28software%29|EN.Wikipedia "Plone (software)"]], [[http://de.wikipedia.org/wiki/Plone|DE.Wikipedia "Plone"]].
+  *The OpenSource PLONE -> See [[python10.html|Python 10/10 - Web Application Frameworks]].
 ==== Online Enterprise Operating Manual & CMS ====
   *[[http://www.hallowelt.biz/|Hallo Welt! - Medienwerkstatt GmbH]].
     *The OpenSource BlueSpice for MediaWiki ( [[http://www.sourceforge.net/projects/bluespice/|SourceForge "BlueSpice"]], [[http://bluespice.sourceforge.net/|SourceForge "BlueSpice"]] )

@@ -1,23 +1,47 @@
-====== [hemmerling] Database Managment Tools and Database Application Development Tools ======
+====== [hemmerling] Data Processing 4/5 - Database Managment Tools and Database Application Development Tools ======
 Related page:
-  *[[databases.html|Databases, Webserver, Webservices, SQL, XML]].
+  *[[databases.html|Data Processing 1/5 - Databases, Webserver, Webservices, SQL, XML]].
+  *[[databases02.html|Data Processing 2/5 - Descriptions of Data, Data Transfer and Data Protocols]]
+  *[[nosql.html|Data Processing 3/5 - NoSQL Databases: Not Just SQL]].
+  *[[bíntelligence.html|Data Processing 5/5 - Business Intelligence]].
+
 ===== Database Administration Tools with Support of SQL Databases of a single Vendor =====
 ==== Microsoft SQL Server Administration ====
+=== DB3NF ===
   *The free [[http://www.db3nf.com/|DB3NF]] - "Rapid Application Development platform (RAD for Web)", for use with Microsoft SQL Server and Microsoft IIS.
+=== fabFORCE DBDesigner 4 ===
   *The free fabFORCE DBDesigner 4 & free follow-ups.
     *[[http://www.fabforce.net/dbdesigner4/|fabFORCE DBDesigner 4]] for Windows, Linux. Kylix 3 / Delphi 7 sources.
       *[[http://en.wikipedia.org/wiki/DBDesigner_4|EN.Wikipedia "DBDesigner 4"]], [[http://de.wikipedia.org/wiki/DBDesigner_4|DE.Wikipedia "DBDesigner 4"]].
+=== dbForge SQL Complete ===
   *The free [[http://www.devart.com/dbforge/sql/sqlcomplete/|devart "dbForge SQL Complete"]] for add-in for SQL Server Management Studio Professional (2012, 2008) and Visual Studio Profesional - "SQL code formatter offer powerful autocompletion and formatting of T-SQL code that replaces native Microsoft T-SQL Intellisense".
-  *Microsoft SQL Server Data Tools ( SSDT ).
-    *[[http://msdn.microsoft.com/en-us/data/tools.aspx|Microsoft Data Developer Center "Microsoft SQL Server Data Tools .."]].
-    *[[http://blogs.msdn.com/b/ssdt/|SQL Server Data Tools Team Blog]] - "Offical team blog for SSDT, a tool for on and off-premise database development".
-      *[[http://blogs.msdn.com/b/ssdt/archive/2014/01/31/ssdt-and-visual-studio-versions.aspx?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+ssdtblog+%28SQL+Server+Developer+Tools+Team+Blog%29|SQL Server Data Tools Team Blog "SSDT and Visual Studio versions"]].
-    *"Microsoft Visual Studio 2013 for Windows Desktop" is shipped with SSDT, -> see [[sdevtools.html|Software Development Tools]].
-      *You may do SQL unit tests with "Microsoft SQL Server Data Tools ( SSDT )" of "Microsoft Visual Studio Professional" and "Microsoft Visual Studio Ultimate".
-      *The free "Microsoft Visual Studio Express 2013" is shipped with an edition of "Microsoft SQL Server Data Tools ( SSDT )" which lacks the unit test feature.
-      *All editions of "Microsoft Visual Studio 2013" are shipped with a "LocalDB" of SQL Server Express. So for development, you are not urged anymore to install "SQL Server Express" ( as a Windows service.. ) anymore on your development machines.
+=== Microsoft SQL Server Data Tools ( SSDT ) ===
+== Microsoft SQL Server Data Tools ( SSDT ) ==
+  *[[http://msdn.microsoft.com/en-us/data/tools.aspx|Microsoft Data Developer Center "Microsoft SQL Server Data Tools .."]].
+  *[[http://blogs.msdn.com/b/ssdt/|SQL Server Data Tools Team Blog]] - "Offical team blog for SSDT, a tool for on and off-premise database development".
+    *[[http://blogs.msdn.com/b/ssdt/archive/2014/01/31/ssdt-and-visual-studio-versions.aspx?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+ssdtblog+%28SQL+Server+Developer+Tools+Team+Blog%29|SQL Server Data Tools Team Blog "SSDT and Visual Studio versions"]].
+  *"Microsoft Visual Studio 2013 for Windows Desktop" is shipped with SSDT, -> see [[sdevtools.html|Software Development Tools]].
+    *You may do SQL unit tests with "Microsoft SQL Server Data Tools ( SSDT )" of "Microsoft Visual Studio Professional" and "Microsoft Visual Studio Ultimate".
+    *The free "Microsoft Visual Studio Express 2013" is shipped with an edition of "Microsoft SQL Server Data Tools ( SSDT )" which lacks the unit test feature.
+    *All editions of "Microsoft Visual Studio 2013" are shipped with a "LocalDB" of SQL Server Express. So for development, you are not urged anymore to install "SQL Server Express" ( as a Windows service.. ) anymore on your development machines.
+    *After you install Visual Studio 2013, you can go to "Tools / Extensions and Updates / Updates" to learn if there is an update to install.
+    *Just the commercial editions of "Microsoft Visual Studio 2012" are shipped with SSDT.
   *Tools shipped with Microsoft SQL Server:
     *[[http://msdn.microsoft.com/en-us/library/ms162802.aspx|Microsoft MSDN "bcp Utility"]] - "The bcp utility bulk copies data between an instance of Microsoft SQL Server and a data file in a user-specified format. The bcp utility can be used to import large numbers of new rows into SQL Server tables or to export data out of tables into data files".
+  *[[http://msdn.microsoft.com/de-de/data/tools.aspx|Microsoft MSDN "Data Access and Storage / Lernen / SQL Server Data Tools" - "Microsoft SQL Server Data Tools ..."]].
+== "Microsoft SQL Server Data Tools - Business Intelligence for Visual Studio 2013" ( SSDT-BI ) [ formerly: "SQL Server Business Intelligence Development Studio" ( BIDS ) ] ==
+  *[[http://www.microsoft.com/en-us/download/details.aspx?id=42313|Microsoft Download Center "Microsoft SQL Server Data Tools - Business Intelligence for Visual Studio 2013 "]].
+  *[[http://curah.microsoft.com/30004/sql-server-data-tools-ssdt-and-sql-server-business-intelligence|Microsoft Curah! Curate the web and share what you know "SQL Server Data Tools and SQL Server Business Intelligence (SSDT-BI)"]] - "The tools and templates integrate into a Visual Studio 2012 shell that is also installed. The previous generations of this toolset was known as SQL Server Business Intelligence Development Studio (BIDS). SSDT-BI, like BIDs leverages the Visual Studio Shell for the common design environment where the BI templates can be used. NOTE: The SSDT 'BI' version is different than the standard SSDT version, which does NOT include the BI templates".
+  *History:
+    *SQL Server 2008R2: Last version to ship BIDS included with SQL Server.
+    *SQL Server 2012: Included SSDT, which included the BIDS functionality for BI.
+    *Post SQL Server 2012, a separate download: 
+      *"Microsoft SQL Server 2012 Data Tools - Business Intelligence for Visual Studio 2012".
+      *"Microsoft SQL Server 2012 Data Tools for Visual Studio 2012".
+    *SQL Server 2014: 
+      *"Microsoft SQL Server 2014 Data Tools" are included in all editions of Visual Studio 2013.4, including Express 2013.4 editions and the Community 2013.4.
+      *SSDT-BI is not included with SQL Server, but a separate download: "Microsoft SQL Server 2014 Data Tools - Business Intelligence for Visual Studio 2013".
+
 ==== Oracle Administration ====
 === MySQL  Administration ===
   *[[http://dev.mysql.com/downloads/workbench/|MySQL Workbench, Community (OSS) Edition]] for WinXP and .NET 3.5.

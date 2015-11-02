@@ -33,6 +33,31 @@ Related pages:
       -Contains no duplication (OnceAndOnlyOnce).
       -Expresses all the ideas you want to express.
       -Minimizes classes and methods. 
+==== The Opposite: Copy and Paste, Cargo Cult, Magic,.. ====
+  *[[http://programmers.stackexchange.com/questions/122477/how-can-i-deal-with-the-cargo-cult-programming-attitude|Stack Exchange "How can I deal with the cargo-cult programming attitude?"]].
+  *[[http://en.wikipedia.org/wiki/Cargo_cult_programming|EN.Wikipedia "Cargo cult programming"]].
+  *[[http://en.wikipedia.org/wiki/Copy_and_paste_programming|EN.Wikipedia "Copy and paste programming"]].
+  *[[http://en.wikipedia.org/wiki/Magic_%28programming%29|EN.Wikipedia "Magic (programming)"]].
+
+===== Important Static Code Analysis Tools, according to VDC Research in 2015 =====
+  *Veracode (Veracode).
+  *SofCheck Inspector (AdaCore).
+  *Codan (Eclipse).
+  *CodeSonar, CodeSurfer (GrammaTech).
+  *Cppcheck (Sourceforge).
+  *PC-Lint/ FlexeLint (Gimpel Software).
+  *McCabe IQ (McCabe).
+  *HP Fortify Static Code Analyzer (HP).
+  *Cleanscape LintPlus for C/C++ Lint, FortranLint (Cleanscape).
+  *Klocwork Insight (Klocwork/Rogue Wave).
+  *CodeCheck (Abraxas).
+  *QA-C/C++ (Programming Research/PRQA).
+  *Polyspace (MathWorks).	
+  *Rational Appscan (IBM).
+  *Coverity Static Analysis Verification Engine SAVE (Coverity).
+  *Parasoft C++test/Jtest/dotTEST (Parasoft).
+  *Checkmarx CxSAST (Checkmarx).
+  *LDRA Testbed (LDRA).
 ===== Multi-Language Static Code Analysis Tools =====
   *The OpenSource [[http://www.github.com/squizlabs/PHP_CodeSniffer|GitHub "squizlabs / PHP_CodeSniffer"]] - "It tokenises PHP, JavaScript and CSS files and detects violations of a defined set of coding standards".
   *The OpenSource [[http://pmd.sourceforge.net/|SourceForge "PMD"]], [[http://www.sourceforge.net/projects/pmd|SourceForge "PMD"]] - "A source code analyzer. It finds common programming flaws like unused variables, empty catch blocks, unnecessary object creation, and so forth. It supports Java, JavaScript, XML, XSL. Additionally it includes CPD, the copy-paste-detector. CPD finds duplicated code in Java, C, C++, C#, PHP, Ruby, Fortran, JavaScript".
@@ -71,14 +96,18 @@ Pardon My French, But This Code Is C.R.A.P."]].
     *[[http://www.ibm.com/developerworks/library/j-findbug2/|IBM DeveloperWorks, Chris Grindstaff "FindBugs, Part 2: Writing custom detectors. How to write custom detectors to find application-specific problems"]].
     *Findbugs analysis Java bytecode ( so is suitlable to analyse .JAR libraries and .JAR executables too ) and focusses on correctness bugs :-).
   *The commercial [[http://www.parasoft.com/|Parasoft]] Jtest - Java Testing, Static Analysis, Code Review".
+  *The commercial [[http://www.xanitizer.net/|Xanitizer]] - "Web Application Security mit Statischer Code Analyse", "Analysiert den Programmcode der Applikation und sucht darin systematisch nach Sicherheitslücken für Angriffsmethoden, wie z.B. SQL Injection, Cross-Site Scripting oder Command Injection", "unterstützt insbesondere die Analyse von Java Webapplikationen inklusive Web-Frameworks"
+
 ===== Static Code Analysis Tools for Javascript =====
   *The OpenSource [[http://www.javascriptlint.com/|JavaScript Lint]], [[http://javascriptlint.sourceforge.net/|SourceForge "JavaScript Lint"]], [[http://www.sourceforge.net/projects/javascriptlint|SourceForge "JavaScript Lint"]].
     *The free online service [[http://www.javascriptlint.com/online_lint.php|JavaScript Lint - Online Lint]].
-  *[[http://www.jslint.com/|JSLint]] - "The JavaScript Code Quality Tool".
-    *[[http://github.com/reid/node-jslint|Github "reid / node-jslint"]] - "The JavaScript Code Quality Tool — for Node.js".
+  *[[http://www.jslint.com/|JSLint]], [[http://www.github.com/douglascrockford/JSLint/|GitHub "douglascrockford/JSLint"]] - "The JavaScript Code Quality Tool".
+    *[[http://www.stackoverflow.com/questions/17770048/why-does-jslint-give-strict-violation-error-on-this-function|StackOverflow "Why does JSLint give strict violation error on this function?"]] - "This is because JSLint doesn't recognize your function as a constructor. By convention, you must use uppercase letters".
     *[[http://en.wikipedia.org/wiki/JSLint|EN.Wikipedia "JSLint"]], [[http://de.wikipedia.org/wiki/JSLint|DE.Wikipedia "JSLint"]].
   *[[http://www.jshint.com/|JSHint]] - "A JavaScript Code Quality Tool".
     *[[http://en.wikipedia.org/wiki/JSHint|EN.Wikipedia "JSHint"]], [[http://de.wikipedia.org/wiki/JSHint|DE.Wikipedia "JSHint"]].
+  *[[http://github.com/reid/node-jslint|Github "reid / node-jslint"]] - "The JavaScript Code Quality Tool — for Node.js".
+
 ===== Static Code Analysis Tools for .NET =====
 ==== C# ====
   *The commercial [[http://www.parasoft.com/|Parasoft]] doTEST - ".NET Static Analysis, Code Review, Unit Testing".
@@ -267,6 +296,8 @@ Pardon My French, But This Code Is C.R.A.P."]].
       *[[http://www.cert.org/books/secure-coding/|CERT - "Robert C. Seacord: Secure Coding in C and C++ (2nd Edition)"]].
   *[[http://www.cenelec.eu/|European Committee for Electrotechnical Standardization  ( CENELEC )]] - European norm "EN 50128".
     *[[http://de.wikipedia.org/wiki/EN_50128|DE.Wikipedia "EN 50128"]].
+  *[[http://www.codingstandard.com/|High Integrity C++ Coding Standard Version]] - "Request High Integrity C++ Coding Standard. Complete this form to receive your PDF of the coding standard promptly by email".
+    *[[http://en.wikipedia.org/wiki/High_Integrity_C%2B%2B|EN.Wikipedia "High Integrity C++"]].
   *Java.
     *[[http://www.oracle.com/technetwork/java/javase/documentation/codeconvtoc-136057.html|Oracle "Code Conventions for the Java TM Programming Language"]], 1999-04-20.
     *[[http://wiki.gnome.org/Apps/Dia/CodingGuidelines|Gnome "Dia" - Coding Guidelines]] - "The base of the coding guidelines are Sun's guidelines for Java, even though Dia is written in C".

@@ -16,16 +16,41 @@ Related pages:
   *[[wireless.html|Wireless Networks]].
 ===== Organizations, Fairs, Events =====
 ==== Organizations, Fairs, Events ====
+=== My Events ===
+  *[[http://www.smartgrid-engagement-toolkit.eu/|S3C Smartgrid Engagement Toolkit]] - "This website is meant for anyone who is involved in, or intends to become involved in, the development of smart grid projects, products, or services in which engagement of end users plays an important role".
+    *[[http://www.smartgrid-engagement-toolkit.eu/list-of-all-guidelines-and-tools/|S3C Smartgrid Engagement Toolkit "Below you can find an alphabetical list with all the guidelines and tools that are published on this toolkit website"]].
+    *I visited the free event [[http://www.s3c-project.eu/News/77/SAVETHEDATEEmpoweringpeopleforthesmartenergysystemofthefuture.html|S3C Smartgrid Engagement Toolkit "SAVE THE DATE: 'Empowering people for the smart energy system of the future' Final conference of the S3C project"]], 2015-09-24.
+    *As of 2015-09, the guidline "Strategy-finder for tariffs and incentives" is still not published :-(.
+=== Some other Events ===
   *[[http://www.iotday.org/|IoTDay - Internet of Things Day]] - "The Global Internet of Things Day", 2014-04-09.
     *[[http://plus.google.com/events/c9g6ikkcp9d481b14atbo2d15s4|Google+ Events "IoTLive - #001 - Part 1 - Global Internet of Things Day"]].
   *[[http://www.thingscon.com/|ThingsCon]], Berlin ( 2014-05-02 - 2014-05-03 ).
   *[[http://www.iotevents.org/|Internet of Things Events]].
   *The free conference [[http://www.welt-industrie-4-0.rubach-konferenzen.de/|WELT-Konferenz Industrie 4.0. Eine Revolution für die Zukunft Deutschlands]], 2013-10-11.
-  *[[http://www.smartgrid-engagement-toolkit.eu/|S3C Smartgrid Engagement Toolkit]] - "This website is meant for anyone who is involved in, or intends to become involved in, the development of smart grid projects, products, or services in which engagement of end users plays an important role".
-    *[[http://www.smartgrid-engagement-toolkit.eu/list-of-all-guidelines-and-tools/|S3C Smartgrid Engagement Toolkit "Below you can find an alphabetical list with all the guidelines and tools that are published on this toolkit website"]].
-    *The free event [[http://www.s3c-project.eu/News/77/SAVETHEDATEEmpoweringpeopleforthesmartenergysystemofthefuture.html|S3C Smartgrid Engagement Toolkit "SAVE THE DATE: 'Empowering people for the smart energy system of the future' Final conference of the S3C project"]], 2015-09-24.
+
 ==== Resources ====
   *[[http://www.iotevents.org/|iotevents.org - A directory of worldwide Internet of Things related events]].
+===== Internet-Of-Things Drivers & User Requirements =====
+  -Customer centricity: From USP ( Unique Selling Proprosition ) to ISP ( Individual Selling Proposition ).
+  -Hyper connectivity.
+  -Self-learning products ( -> Algorithms. What may the company's staff member do better than an "algorithm"? ).
+  -Realtime big data data processing.
+  -Context.
+  -Immediate availabilty ( "now" ).
+===== Retrofitting of traditional Systems / Machines for Internet-Of-Things =====
+  -Access to the control system.
+    *Abstraction of the parameters and functions.
+    *Implementation of a virtual representation.
+  -API-ification of the functions and data.
+    *Development of communication technologies.
+    *Implementation of online services ( i.e. remote access to system functions ).
+  -Networking, accross the automation pyramid, from pyramid to cyber physical system - everybody can talk to anybody.
+  -Administration.
+    *Backend applications.
+    *Business logic.
+    *Device / service management
+  -GUI applications.
+    *Service integration.
 ===== Internet 4.0 M2M Networks and Protocols =====
   *See [[fieldbus.html|Fieldbuses and Automation Networks]], section "Internet 4.0 M2M Networks and Protocols".
 ===== Smart Wireless Devices =====
@@ -73,6 +98,9 @@ Related pages:
   *[[http://www.birds.cornell.edu/citscitoolkit|The Cornell Lab of Ornithology "Citizen Science Central"]].
   *[[http://en.wikipedia.org/wiki/Citizen_science|EN.Wikipedia "Citizen science"]], [[http://de.wikipedia.org/wiki/Citizen_Science|DE.Wikipedia "Citizen science"]].
 ==== Internet of Things ( IoT ) ====
+  *IoT must satisfy the updated customer's wishes:
+    *Reachability of a travel destination ( "Erreichbarkeit eines Reiseziels" ) -> instead  of traditional "Mobility".
+    *Availibility ( "Verfügbarkeit" ) -> instead of traditional and antiquated "Brand Loyalty". E.g. The customer might be member of several different car sharing systems.
   *Blog [[http://blog.bosch-si.com/|Bosch ConnectedWorld Blog]].
   *[[http://postscapes.com/|Postscape - Tracking the Internet of Things]].
   *Blog [[http://blog.profitbricks.com/|ProfitBricks Blog - Cloud Computing and IaaS Blog]].
@@ -102,7 +130,7 @@ Related pages:
     *[[http://www.iosb.fraunhofer.de/servlet/is/21752/|Fraunhofer IOSB "Olav Sauer: Industrie 4.0"]].
     *[[http://mes.fraunhofer.de/|Fraunhofer IOSB "Olav Sauer: Leittechnik und MES-Systeme"]], [[http://www.iosb.fraunhofer.de/servlet/is/9028/|Fraunhofer IOSB "Olav Sauer: Leittechnik und MES-Systeme"]].
   *[[http://www.mittelstand-digital.de/|Mittelstand-Digital des Bundesministerium für Wirtschaft und Energie ( BMWi )]].
-  *[[http://www.plattform-i40.de/|Plattform Industrie 4.0]].
+  *[[http://www.plattform-i40.de/|Plattform Industrie 4.0]] ## - "Ein gemeinsames Projekt der Verbände BITCOM, VDMA, ZVEI".
   *[[http://www.telekom.com/m2m|Deutsche Telekom AG "M2M Machine-to-Machine"]], [[http://m2m.telekom.com/|Deutsche Telekom AG "M2M Machine-to-Machine"]].
     *[[http://m2m.telekom.com/m2m_device-cloud.dtag|Deutsche Telekom AG "M2M Machine-to-Machine: M2M Device Cloud"]] - "Store your data on a cloud-based platform and manage your M2M devices".
     *[[http://m2m.telekom.com/m2m_device-to-cloud-ready-program.dtag|Deutsche Telekom AG "M2M Machine-to-Machine: M2M Device to Cloud (D2C) Ready Program"]].

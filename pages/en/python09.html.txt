@@ -1,0 +1,193 @@
+====== [hemmerling] Python 9/10 - Modules & Frameworks ======
+Related pages:
+  *[[python.html|Python 1/10]].
+  *[[python02.html|Python 2/10]].
+  *[[python03.html|Python 3/10 - Literature]].
+  *[[python04.html|Python 4/10 - Pro & Contra]].
+  *[[python05.html|Python 5/10]].
+  *[[python06.html|Python 6/10 - Education in Python]].
+  *[[python07.html|Python 7/10 - Organisations, Conferences, Barcamps & Events]].
+  *[[python08.html|Python 8/10 - IDEs & GUI Designers]].
+  *[[python10.html|Python 10/10 - Web Application Frameworks]].
+  *[[erp02.html|ERP 2/2 - The OpenSource ERP Systems "TinyERP" / "OpenERP" / "Odoo" and the Fork "Tryton"]].
+  *[[uscripting.html|Scripting Programming Languages for Unix / Linux and Windows]].
+===== Modules =====
+==== SQL Database Access ====
+  *[[http://www.sqlalchemy.org/|SQLAlchemy - The Python SQL toolkit and Object Relational Mapper]], [[https://bitbucket.org/zzzeek/sqlalchemy|Bitbucket "SQLAlchemy"]].
+==== HTML Parser ====
+  *[[http://docs.python.org/library/htmlparser.html|HTMLParser — Simple HTML and XHTML parser]] for Python.
+==== SimpleHTTPServer ( Python 2.x only ) ====
+  *[[http://docs.python.org/2/library/simplehttpserver.html|Python 2 Documentation "The Python Standard Library / 20. Internet Protocols and Support / 21.19. SimpleHTTPServer — Simple HTTP request handler"]].
+  *"python -m SimpleHTTPServer 8080" -> [[http://localhost:8080|localhost:8080]].
+==== I/O Modules ====
+  *[[http://pyserial.sourceforge.net/|SourceForge "ppySerial"]], [[http://www.sourceforge.net/projects/pyserial|SourceForge "ppySerial"]].
+  *[[http://pyvisa.sourceforge.net/|SourceForge "PyVISA"]], [[http://www.sourceforge.net/projects/pyvisa|SourceForge "PyVISA"]] - "Python GPIB etc. support with PyVISA".
+==== Access to Microsoft Excel documents ====
+=== Tools ===
+  *[[http://www.python-excel.org/|Python with Excel- Working with Excel Files in Python]] - Python packages "xlrd", "xlwt", "xlutils" 
+    *[[http://www.github.com/python-excel|Github "python-excel"]].
+    *[[http://www.lexicon.net/sjmachin/|Lingfo Pty Ltd]].
+    *[[http://www.simplistix.co.uk/software|Simplistix Ltd.]].
+      *[[http://www.simplistix.co.uk/software/python/xlutils|Simplistix Ltd. "Software / xlutils"]].
+      *[[http://secure.simplistix.co.uk/svn/xlrd/trunk/xlrd/doc/xlrd.html?p=4966|Simplistix Ltd. "The xlrd Module"]].
+      *[[http://www.simplistix.co.uk/presentations/python-excel.pdf|Simplistix Ltd. "Chris Withers with help from John Machin: Working with Excel files in Python. EuroPython 2009, Birmingham"]] ( PDF ).
+    *[[http://pypi.python.org/pypi/xlrd|Python pypi "xlrd"]].
+    *[[http://pypi.python.org/pypi/xlwt|Python pypi "xlwt"]].
+    *[[http://pypi.python.org/pypi/xlutils|Python pypi "xlutils"]], [[http://www.pythonhosted.org/xlutils/|Pythonhosted "xlutils documentation"]].
+    *[[http://www.npmjs.org/package/xlrd-parser|npmjs "xlrd-parser. High performance Excel file parser based on the xlrd library from www.python-excel.org"]].
+  *Marc Hammond: Python Programming on Win32.
+    *[[http://starship.python.net/~skippy/ppw32/|Python Programming on Win32]].
+    *[[http://sourceforge.net/projects/pywin32/|SourceForge "Python for Windows extensions"]].
+    *With the Python 2.7.6 distributions "Python(x,y)" and "Anaconda 1.91" on Windows, the pywin32-218 installer exits with the error message:
+<code>
+close failed in file object destructor:
+sys.excepthook is missing
+lost sys.stderr
+</code>
+== Resources ==
+  *[[http://artemrudenko.wordpress.com/2013/04/09/reading-excel-using-python-xlrd/|artemrudenko "Python: Reading Excel using xlrd library"]].
+  *[[http://secure.simplistix.co.uk/svn/xlrd/trunk/xlrd/doc/xlrd.html?p=4966|Anthony DeBarros "Get JSON from Excel using Python, xlrd"]].
+  *[[http://www.bytes.com/topic/python/answers/803018-importing-xlrd|Bytes "Importing xlrd"]].
+  *[[http://www1.chapman.edu/~fahy/bioinformatics/xlrd.html|Chapman University - School of Computational Sciences - Bioinformatics "Reading Excel files with Python"]].
+  *[[http://www.codingtutorials.co.uk/python-excel-xlrd-xlwt/|Coding Tutorials Blog "Python & Excel (xlrd & xlwt)"]].
+  *[[http://www.daniweb.com/software-development/python/threads/379289/using-an-excel-spreadsheet-as-an-argument-for-a-python-script|DaniWeb "Using an Excel Spreadsheet as an Argument for a Python"]].
+  *[[http://support1.geomagic.com/link/portal/5605/5668/Article/2129/-How-can-I-interact-with-Microsoft-Excel-with-Python|Geomagic "How can I interact with Microsoft Excel with Python?"]].
+    *"Simple implementation within the GPSE using Qualify, Qualify Probe, Wrap or Studio: PythonExcel.zip".
+  *[[http://thoughtsbyclayg.blogspot.de/2008/12/get-dates-from-excel-with-python-xlrd.html|Clay Gerrard, thoughts by clayg "get dates from excel with python xlrd"]].
+  *[[http://www.herikstad.net/2012/10/installing-xlrd-module-in-portable.html|Herikstad Solutions "Installing xlrd module in Portable Python"]].
+  *[[http://update.hanser-fachbuch.de/2013/08/artikelreihe-python-3-excel-dateien-von-python-lesen/|Hanser Update, Bernd Klein "Artikelreihe Python 3: Excel-Dateien von Python lesen"]].
+  *[[http://www.numbergrinder.com/2008/10/pulling-data-from-excel-using-python-xlrd/|Numbergrinder "Pulling data from Excel using Python, xlrd"]].
+  *[[http://michaelangela.wordpress.com/2008/07/06/python-excel-file-reader/|Ramblings "Python Excel file reader"]].
+    *[[http://www.scienceoss.com/read-excel-files-from-python/|scienceoss.com. Useful tidbits for using open source software in science "Read Excel files from Python"]].
+===== Graphical Frameworks =====
+
+==== Kivy ====
+  *The OpenSource library [[http://www.kivy.org/|Kivy]] - "For rapid development of applications that make use of innovative user interfaces, such as multi-touch apps", "Open source Python library for rapid development of applications that make use of innovative user interfaces, such as multi-touch apps", "Kivy is running on Linux, Windows, MacOSX, Android and IOS. You can run the same code on all supported platforms" #.
+  *[[http://www.kivy.org/docs/|Kivy User's Guide]] - free online HTML book and free PDF book.
+  *[[http://kivy.org/docs/guide/android.html|Kivy "Kivy on Android"]].
+  *[[http://kivy.org/docs/guide/packaging-android.html|Kivy "Create a package for Android"]].
+    *Template [[http://www.github.com/kivy/python-for-android|Kivy "kivy/python-for-android"]], [[http://python-for-android.readthedocs.org/|ReadTheDocs "Python for Android"]].
+    *Generic Python packager for Android [[http://www.github.com/kivy/buildozer|GitHub "kivy/buildozer"]].
+    *[[http://www.kivy.org/docs/guide/packaging-android.html|Kivy "Programming Guide » Create a package for Android"]].
+    *[[http://kivy.org/docs/guide/packaging-android-vm.html#kivy-android-vm|Kivy "Programming Guide / The Kivy Android Virtual Machine"]].
+    *[[http://play.google.com/store/apps/details?id=org.kivy.pygame|Google Play "Kivy Launcher"]].
+  *[[http://en.wikipedia.org/wiki/Kivy|EN.Wikipedia "Kivy"]], [[http://de.wikipedia.org/wiki/Kivy|DE.Wikipedia "Kivy"]].
+==== TkInter ====
+  *[[http://wiki.python.org/moin/TkInter|Python Wiki"Tkinter"]] - "Python's de-facto standard GUI (Graphical User Interface) package. It is a thin object-oriented layer on top of Tcl/Tk.
+  *[[http://tkinter.unpythonic.net/wiki/|Tkinter Wiki]].
+  *[[http://en.wikipedia.org/wiki/Tkinter|EN.Wikipedia "Tkinter"]], [[http://de.wikipedia.org/wiki/Tkinter|DE.Wikipedia "Tkinter"]].
+==== Turtle ====
+  *[[http://docs.python.org/2/library/turtle.html|The Python Standard Library > 24. Graphical User Interfaces with Tk > "24.5. turtle — Turtle graphics for Tk"]].
+    *The package "turtle" is usually included in Python distributions. However, it can´t be updated by well-known automatic installation processes. An installation attempt by "easy_install turtle" is aborted due to syntax errors in downloaded Python files and other faults :-(
+==== WxPython ====
+  *[[http://en.wikipedia.org/wiki/WxPython|EN.Wikipedia "wxPython"]], [[http://de.wikipedia.org/wiki/WxPython|DE.Wikipedia "wxPython"]].
+  *[[http://www.wxpython.org/|wxPython]] - "A blending of the wxWidgets C++ class library with the Python programming language".
+    *Wiki [[http://wiki.wxpython.org/|wxPython Wiki]].
+      *[[http://wiki.wxpython.org/How%20to%20Learn%20wxPython|wxPython Wiki "How to learn wxPython"]].
+==== PyGTK / PyGObject ====
+  *[[http://www.pygtk.org/|PyGTK: GTK+ for Python]].
+    *[[http://www.pygtk.org/docs/pygobject/|PyGObject Reference Manual]].
+  *[[http://live.gnome.org/PyGObject|GNOME Live "PyGObject"]].
+  *[[http://python-gtk-3-tutorial.readthedocs.org/|ReadTheDocs "The Python GTK+ 3 Tutorial"]].
+  *[[http://www.florian-diesch.de/doc/python-und-glade/|Florian Diesch "Python and Glade (German). Programmieren mit Python und Glade"]].
+  *[[http://en.wikipedia.org/wiki/PyGTK|EN.Wikipedia "PyGTK"]], [[http://de.wikipedia.org/wiki/PyGTK|DE.Wikipedia "PyGTK"]].
+==== QT ====
+  *The QT project.
+    *See [[sframeworks.html|Software Frameworks]].
+=== PySide -> LGPL 2.1 ===
+  *[[http://www.pyside.org/|PySide]].
+  *[[http://pypi.python.org/pypi/PySide|Python Package Index "PySide"]].
+  *[[http://www.github.com/PySide|GitHub "PySide"]], [[http://pyside.github.io/docs/pyside/|GitHub.io "PySide documentation"]].
+  *[[http://qt.gitorious.org/pyside|Gitorious "Qt by Nokia / PySide"]] - "LGPL Qt bindings for Python and related tools for binding generation".
+  *[[http://download.qt-project.org/official_releases/pyside/|QT Project Download "Pyside"]] for Python 2.x and Python 3.x.
+  *[[http://qt-project.org/wiki/PySide|QT Project Wiki "PySide"]].
+    *[[http://www.qt-project.org/wiki/Building_PySide_on_Windows|Qt Project "Building PySide on Microsoft Windows"]].
+    *[[http://qt-project.org/doc/qt-4.8/install-win.html|Qt Project "Installing Qt for Windows"]].
+  *[[http://www.zetcode.com/gui/pysidetutorial/|ZetCode "PySide tutorial"]].
+  *I was told by experts, that PySide is shipped with a script to convert the GUI designer files ( ".ui" ), designed with the "QT Creator" tool of the standard QT distribution, to Python code :-).
+=== PyQT -> GPL2, GPL3 ===
+  *PyQT is included in the Python distribution [[http://code.google.com/p/pythonxy/|Google Code "pythonxy. Scientific-oriented Python Distribution based on Qt and Spyder"]]. The distribution is shipped with the GUI designer "QT Designer". The shipped edition of "QT Designer" has a menu option to convert the GUI designer files ( ".ui" ) to Python code :-).
+  *[[http://www.riverbankcomputing.com/software/pyqt/|Riverbank Computing Limited "PyQt"]].
+  *Tutorials:
+    *[[http://www.github.com/OldAl/tuts4pyside|GitHub "OldAl/tuts4pyside"]] - "Tuts for PySide".
+    *[[http://www.cs.usfca.edu/~afedosov/qttut/|Alex Fedosov "Tutorial: Creating GUI Applications in Python with QT"]] ( "PyQT Tutorial" ).
+==== PyFLTK ====
+  *FLTK -> See [[sframeworks.html|Software Frameworks]].
+===== Applications =====
+==== Data Backup ====
+=== Tools ===
+  *[[http://www.attic-backup.org/|Attic]], [[http://www.github.com/jborg/attic|GitHub "jborg/attic"]] - "A deduplicating backup program written in Python. The main goal of Attic is to provide an efficient and secure way to backup data".
+  *[[http://github.com/borgbackup|GitHub "Borg Backup"]], [[http://borgbackup.github.io/|GitHub.io "Borg Backup"]], [[http://borgbackup.readthedocs.org/|ReadTheDocs "Borg Documentation"]] - "Deduplicating backup program with compression and authenticated encryption".
+  *[[http://bup.github.io/|GitHub.io "bup"]], [[http://www.github.com/bup|GitHub "bup"]] - "Very efficient backup system based on the git packfile format, providing fast incremental saves and global deduplication (among and within files, including virtual machine images)".
+=== Utilities ===
+  *[[http://www.github.com/witten/atticmatic|GitHub "witten/atticmatic"]] - "A simple wrapper script for the Attic/Borg backup software that creates and prunes backups".
+===== Frameworks & Applications =====
+  *The OpenSource [[http://www.llvmpy.org/|LLVMPY]] - "A Python wrapper around the [[http://en.wikipedia.org/wiki/LLVM|LLVM]] C++ library which allows simple access to compiler tools".
+  *[[http://pysvn.tigris.org/|Tigris.org "Python SVN Extension and WorkBench GUI"]] ( psyvn ) - "The pysvn project's goal is to enable Tools to be written in Python that use Subversion".
+  *The OpenSource [[http://github.com/slashmili/PySQLiteGUI|Github "slashmili / PySQLiteGUI"]], a GUI for the database SQLite.
+  *The OpenSource [[http://www.secdev.org/projects/scapy/|Scapy]] in Python, for Linux - "A powerful interactive packet manipulation program".
+    *[[http://www.secdev.org/projects/UTscapy/|UTScapy: Unit Testing with Scapy]].
+  *The OpenSource HTML parser [[http://www.crummy.com/software/BeautifulSoup/|BeautifulSoup]] - "A Python library designed for quick turnaround projects like screen-scraping".
+    *The OpenSource [[http://www.lxml.de/|lxml - XML and HTML with Python]].
+    *The OpenSource [[http://code.google.com/p/html5lib/|Google Code "html5lib - Library for working with HTML documents"]].
+  *Google Code.
+    *[[http://code.google.com/p/google-api-python-client/|Google Code "google-api-python-client. Google APIs Client Library for Python"]].
+    *[[http://code.google.com/p/gdata-python-client/|Google Code "gdata-python-client. Google Data APIs Python Client Library"]].
+    *[[http://code.google.com/p/python-twitter/|Google Code "python-twitter. A python wrapper around the Twitter API"]], [[http://www.github.com/bear/python-twitter|Github "bear / python-twitter"]].
+    *[[http://code.google.com/p/python-for-android/|Google Code "python-for-android. Py4A"]], [[http://code.google.com/p/android-scripting/|Google Code "android-scripting Scripting. Layer for Android brings scripting languages to Android"]].
+    *[[http://code.google.com/p/pysphere/|Google Code "pysphere. vSphere SDK for python"]].
+    *[[http://code.google.com/p/gaeframework/|Google Code "GAE framework - Python web framework for Google App Engine"]].
+    *[[http://code.google.com/p/h5py/|Google Code "h5py. A Python interface to the HDF5 library"]].
+  *[[http://starship.python.net/crew/mhammond/win32/|Mark Hammond "Python for Windows Extensions"]], [[http://pywin32.sourceforge.net/|Sourceforge "Python for Windows extensions"]], [[http://www.sourceforge.net/projects/pywin32/|Sourceforge "Python for Windows extensions"]] #.
+  *The online service [[http://internetofthings.ibmcloud.com/|IBM Internet of Things Foundation]].
+    *Blog [[http://developer.ibm.com/iotfoundation/blog/category/iot/|IBM Developer Blog "IoT Foundation"]].
+    *[[http://www.github.com/ibm-messaging/|GitHub "ibm-messaging"]] - "Community around IBM Messaging products".
+      *[[http://www.github.com/ibm-messaging/iot-python|GitHub "ibm-messaging/iot-python"]] - "Client libraries and samples for connecting to the IBM Internet of Things Foundation using Python 2.7 or 3.4".
+  *[[http://www.pydata.org/|NumFOCUS - Numpy Foundation for Open Code for Usable Science]].
+    *[[http://www.pydata.org/projects.html|NumFOCUS - Numpy Foundation for Open Code for Usable Science "Projects"]].
+      *[[http://numpy.scipy.org/|NumPy]].
+        *[[http://en.wikipedia.org/wiki/NumPy|EN.Wikipedia "NumPy"]], [[http://de.wikipedia.org/wiki/NumPy|DE.Wikipedia "NumPy"]].
+      *[[http://www.scipy.org/|SciPy]].
+        *[[http://en.wikipedia.org/wiki/SciPy|EN.Wikipedia "SciPy"]], [[http://de.wikipedia.org/wiki/SciPy|DE.Wikipedia "SciPy"]].
+      *[[http://www.matplotlib.org/|Matplotlib]], [[http://matplotlib.sourceforge.net/|SourceForge "Matplotlib"]], [[http://www.sourceforge.net/projects/matplotlib|SourceForge "matplotlib"]]. 
+        *[[http://en.wikipedia.org/wiki/Matplotlib|EN.Wikipedia "Matplotlib"]].
+      *[[http://pandas.pydata.org/|Python Data Analysis Library]] ( pandas ).
+        *[[http://en.wikipedia.org/wiki/Pandas_%28software%29|EN.Wikipedia "pandas (software)"]].
+   *[[http://www.bitbucket.org/openpyxl|BItBucket "openpyxl"]], [[http://openpyxl.readthedocs.org/en/latest/|ReadTheDocs "openpyxl - A Python library to read/write Excel 2007 xlsx/xlsm files"]].
+  *"PIL" / "Pillow".
+    *[[http://www.pythonware.com/|Secret Labs AB - PythonWare]].
+       *The OpenSource [[http://www.pythonware.com/products/pil/|Secret Labs AB - PythonWare: "Python Imaging Library (PIL)"]] for Python 2.7.
+       *[[http://www.effbot.org/imagingbook/|Fredrik Lundh "The Python Imaging Library Handbook"]].
+    *[[http://python-imaging.github.io/|Github "Python-imaging.github.io - Python Imaging"]].
+      *[[http://github.com/python-imaging/Pillow|Github "python-imaging/Pillow"]] - "Pillow is the 'friendly' PIL fork".
+  *[[http://www.pocoo.org/|Pocoo]].
+    *[[http://werkzeug.pocoo.org/|Pocoo "Werkzeug"]] - "The Python WSGI Utility Library".
+    *[[http://jinja.pocoo.org/|Pocoo "Jinja2"]] - "A full featured template engine for Python".
+  *[[http://www.pygame.org/|Pygame]] - "A set of Python modules designed for writing video games".
+    *[[http://www.pygame.org/docs/tut/camera/CameraIntro.html|PyGame "Pygame Tutorials. Camera Module Introduction"]] - "Note: As of Pygame 1.9, the camera module offers native support for cameras that use v4l2 on Linux. There is support for other platforms via Videocapture or OpenCV".
+    *[[http://en.wikipedia.org/wiki/Pygame|EN.Wikipedia "Pygame"]], [[http://de.wikipedia.org/wiki/Pygame|DE.Wikipedia "Pygame"]].
+  *RPyC.
+    *[[http://www.github.com/tomerfiliba/rpyc/|GitHub "tomerfiliba/rpyc"]].
+    *[[http://rpyc.sourceforge.net/|SourceForge "RPyC (remote python call)"]], [[http://sourceforge.net/projects/rpyc/|SourceForge "RPyC (remote python call)"]].
+    *[[http://pypi.python.org/pypi/rpyc/|Python Package Index "rpyc"]].
+    *[[http://rpyc.readthedocs.org/|ReadTheDocs "RPyC - Transparent, Symmetric Distributed Computing"]].
+    *[[http://en.wikipedia.org/wiki/RPyC|EN.Wikipedia "RPyC"]].
+  *The OpenSource [[http://ww.scrapy.org/|Scrapy]], [[http://www.github.com/scrapy/scrapy|Github "Scrapy"]] - "Fast high-level screen scraping and web crawling framework, used to crawl websites and extract structured data from their pages. It can be used for a wide range of purposes, from data mining to monitoring and automated testing".
+    *Blog [[http://blog.scrapy.org/|Scrapy Blog]].
+    *[[http://www.twitter.com/ScrapyProject|Twitter "Scrapy"]].
+  *SourceForge.
+    *[[http://wwwsearch.sourceforge.net/|SourceForge "mechanize"]], [[http://wwwsearch.sourceforge.net/mechanize/|SourceForge "mechanize"]], [[http://wwwsearch.sourceforge.net/old/|SourceForge "Python bits"]], [[http://www.github.com/jjlee/mechanize|Github "jjlee / mechanize"]] - "Stateful programmatic web browsing in Python, after Andy Lester’s Perl module WWW::Mechanize".
+    *[[http://pmw.sourceforge.net/|Sourceforge "Pmw - Python megawidgets"]], [[http://www.sourceforge.net/projects/pmw/|Sourceforge "Python megawidgets"]].
+    *[[http://pythonnet.sourceforge.net/|Sourceforge "Python for .NET"]], [[http://www.sourceforge.net/projects/pythonnet/|Sourceforge "Python for .NET"]] - "An integration of the C Python engine with the .NET runtime".
+  *The OpenSource "Spring Python".
+    *[[http://springpython.webfactional.com/|Spring Python]] - "Spring Python is an offshoot of the Java-based Spring Framework and Spring Security, targeted for Python".
+    *[[http://www.springsource.org/extensions/se-springpython-py|SpringSource Community "Spring Python"]].
+  *[[http://videocapture.sourceforge.net/|SourceForge "VideoCapture - A Win32 Python Extension for Accessing Video Devices (e.g. a USB WebCam, a TV-Card, ...)"]], [[http://www.sourceforge.net/projects/videocapture|SourceForge "VideoCapture"]].
+    *[[http://videocapture.sourceforge.net/html/VideoCapture.html|SourceForge "VideoCapture" - "VideoCapture.py"]].
+  *[[http://werkzeug.pocoo.org/|Werkzeug - The Python WSGI Utility Library]].
+    *[[http://www.wsgi.org/|WSGI.org]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Programming/Languages/Python/|OpenDirectory "Top: Computers: Programming: Languages: Python]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Programmieren/Sprachen/Python/|OpenDirectory "Top: World: Deutsch: Computer: Programmieren: Sprachen: Python"]].
+ {{tag>"Unix script language" "script language" Python}}
+<footnote_navi_en>

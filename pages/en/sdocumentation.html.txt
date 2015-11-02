@@ -11,6 +11,8 @@ Related pages:
   *[[http://de.wikipedia.org/wiki/Milit%C3%A4rische_Lastenklasse|DE.Wikipedia: "Militärische Lastenklasse"]].
 ===== Software Documentation =====
 ==== Generators for creating Software Documentation ====
+=== "Atom" Editor Package "docblockr" ===
+  *[[http://www.atom.io/packages/docblockr|Atom "Docblockr Package"]] - Code documentation for "ActionScript, C, C++,, Cuda-C++, CoffeeScript, Groovy, Haxe, Java, JavaScript, ObjC, ObjC++, Php, Rust, TypeScript".
 === CppDoc ===
   *[[http://www.cppdoc.com/|CppDoc]] - "CppDoc generates HTML documentation for C++ classes".
 === DOC++ ===
@@ -32,17 +34,38 @@ Related pages:
       *"Expert / Input / FILTER_PATTERNS = *.py=py_filter".
     *Batch file in "C:\Python27\Scripts\py_filter.bat":
       *"python -m doxypypy.doxypypy -a -c %1".
+== Input Filters for Javascript ==
+  *[[http://www.stack.nl/~dimitri/doxygen/helpers.html|Doxygen "Helper tools and scripts"]].
+    *[[http://joehni.github.io/JsUnit/internal.html|GitHub.io "JsUnit" - "Internal Developer's Guide"]] - "My script will call the Perl script js2doxy.pl to generate pseudo C++. Then it calls Doxygen to generate the first version of the HTML documentation. At last text processing is done with sed to generate the JsUnit color style in the headers" :-(.
+    *[[http://web.archive.org/web/*/http://xiewenjie.com/doxygen-js/use-doxygen-to-document-javascript|Archive.org "XieWenjie's blog. Around emacs, linux, etc.: 'use doxygen to document javascript'"]] ( -2013-03-13 ).
+  *Dimitar Trendafilov of "Coherent Labs".
+    *[[http://gist.github.com/dimitarcl/3767879|GitHub Gist "dimitarcl/Doxyfile"]] - "Documenting JavaScript with Doxygen".
+    *[[http://www.coherent-labs.com/blog/documenting-javascript-with-doxygen/|Coherent Labs "Documenting JavaScript with Doxygen"]].
 === javadoc - The Java API Documentation Generator ===
   *[[http://en.wikipedia.org/wiki/Javadoc|EN.Wikipedia: "Javadoc"]], [[http://de.wikipedia.org/wiki/Javadoc|DE.Wikipedia: "Javadoc"]]
   *[[http://download.oracle.com/javase/6/docs/technotes/tools/windows/javadoc.html|Oracle: "javadoc - The Java API Documentation Generator"]].
   *The commercial "[[http://www.borland.com/us/products/together|Borland Together]]" 4.x, 5.x, 6.x editions were shipped with a Javadocs generator for Java, C++ and C#.
-=== "JSDoc" & "jsdoc-toolkit" ===
-  *[[http://www.usejsdoc.org/|@use JSDoc]].
-  *[[http://code.google.com/p/jsdoc-toolkit/|Google Code "jsdoc-toolkit. A documentation generator for JavaScript"]].
-  *[[http://code.google.com/p/jsdoc/|Google Code "jsdoc. JSDoc is an automatic documentation generator for JavaScript"]] -> JSDoc V.2.
-  *[[http://github.com/jsdoc3/jsdoc|Github "jsdoc3 / jsdoc"]] -> JSDoc V.3.
-  *<del>[[http://jsdoc.sourceforge.net/|SourceForge "JSDoc"]]</del>, <del>[[http://www.sourceforge.net/projects/jsdoc|SourceForge "JSDoc"]]</del>.
+=== Javascript-Only Documentation Tools ===
+== "ext-doc" ==
+  *[[http://code.google.com/p/ext-doc/|Google Code "ext-doc. ExtJS-style JavaScript comments processor"]].
+== "JSDoc" & "jsdoc-toolkit" ==
+  *Current:
+    *[[http://www.usejsdoc.org/|@use JSDoc]].
+    *The current [[http://github.com/jsdoc3/jsdoc|Github "jsdoc3 / jsdoc"]] for Node.js -> JSDoc V.3.
+    *Missing block tags, in comparison to "Doxygen": 
+      *Doxygen "@date".
+      *Doxygen "@brief" -> JsDoc "@summary".
+  *Legacy:
+    *The legacy [[http://code.google.com/p/jsdoc-toolkit/|Google Code "jsdoc-toolkit. A documentation generator for JavaScript"]].
+    *The legacy [[http://code.google.com/p/jsdoc/|Google Code "jsdoc. JSDoc is an automatic documentation generator for JavaScript"]] -> JSDoc V.2.
+    *<del>[[http://jsdoc.sourceforge.net/|SourceForge "JSDoc"]]</del>, <del>[[http://www.sourceforge.net/projects/jsdoc|SourceForge "JSDoc"]]</del>.
   *[[http://en.wikipedia.org/wiki/JSDoc|EN.Wikipedia "JSDoc"]].
+== JSDuck ==
+ *[[http://www.github.com/senchalabs/jsduck|GitHub "JSDuck"]].
+== ScriptDoc ( SDOC ) ==
+  *[[http://wiki.appcelerator.org/display/guides2/ScriptDoc+%28SDOC%29+2.0+Specification|Appcelerator Inc. "ScriptDoc (SDOC) 2.0 Specification"]] for Javascript.
+== YUIDoc ==
+  *[[http://yui.github.io/yuidoc/|GitHub "YUIDoc - JavaScript Documentation Tool"]].
 === Markdown Markup Language ===
   *See [[revision.html|Revision Control & Revision Control Systems (RCS), Source Code Version Control Systems ( SCVCS, VCS, CVS ), Software Configuration Management ( SCM )]], "Github Gist".
 === Microsoft Windows & .NET ===
@@ -50,11 +73,16 @@ Related pages:
   *The free Open Source "NDoc Code Documentation Generator for .NET" ( [[http://ndoc.sourceforge.net/|Sourceforge "NDoc"]], [[http://www.sourceforge.net/projects/ndoc|Sourceforge "NDoc"]] ).
 == VBCommenter ==
   *The free Open Source [[http://code.msdn.microsoft.com/VBCommenter|VBCommenter]] for Visual Basic .NET.
+=== Natural Docs ===
+  *[[http://www.naturaldocs.org/|Natural Docs]].
+  *[[http://www.naturaldocs.org/languages.html|Natural Docs "Language Support"]] - "C/C++, Java, PHP, Python, PL/SQL, Visual Basic, Pascal/Delphi, Ada, JavaScript, Ruby, Tcl, ColdFusion, Assembly, Fortran (free-format only), R, Makefiles, Plain Text".
 === phpDocumentator ===
   *[[http://www.phpdoc.org/|phpDocumentator]] - "A tool with which it is possible to generate documentation from your PHP source code".
 === Python Documentation Generators ===
   *See [[python04.html|Python 4/7 - Pro & Contra]], section "Pythonic Documentation Tools".
   *Doxygen, with input filters for Python -> see on this page.
+=== ROBODoc ===
+  *[[http://rfsber.home.xs4all.nl/Robo/|Frans Slothouber "Robo"]], [[http://www.github.com/gumpu/ROBODoc|GitHub "ROBODoc"]], [[http://robodoc.sourceforge.net/|SourceForge "ROBODoc"]], [[http://www.sourceforge.net/projects/robodoc/|SourceForge "ROBODoc"]] - "A documentation tool. It extracts the documentation from your source code and formats it in HTML, RTF, TeX, XML DocBook (PDF), or ASCII. Works with C, C++, Fortran, Perl, Scripts, Assembler, Tcl, Basic, and any language that supports remarks", "Works with C, C++, Fortran, Perl, shell scripts, Assembler, DCL, DB/C, Tcl/Tk, Forth, Lisp, COBOL, Occam, Basic, HTML, Clarion, and any other language that supports remarks".
 === reStructuredText ( reST ) ===
   *See [[python04.html|Python 4/7 - Pro & Contra]], section "Pythonic Documentation Tools".
 === Sandcastle Documentation Compilers ===
@@ -75,8 +103,11 @@ Related pages:
   *Book [[http://www.amazon.de/exec/obidos/ASIN/3446420088/hemmerling-21|Gernot Starke: "Effektive Software-Architekturen: Ein praktischer Leitfaden"]].
 ===== Resources =====
   *[[http://www.stack.nl/~dimitri/doxygen/links.html|Doxygen - Other non-commercial documentation tools, Other commercial documentation tools]].
+  *[[http://forum.fachinformatiker.de/java/35419-javadoc-prinzip-bloss-fuer-anderes-sprachen.html|Fachinformatiker.de: "javaDoc Prinzip bloß auf für anderes Sprachen"]].
+  *[[http://devdocs.magento.com/guides/v2.0/coding-standards/docblock-standard-javascript.html|Magento Developer Documentation "JavaScript DocBlock standard"]].
+  *[[http://www.stackoverflow.com/questions/669698/what-options-are-available-for-documenting-your-javascript-code|StackOverflow "What options are available for documenting your Javascript code?"]].
   *[[http://en.wikipedia.org/wiki/Comparison_of_documentation_generators|EN.Wikipedia: "Comparison of documentation generators"]].
-  *[[http://forum.fachinformatiker.de/java/35419-javadoc-prinzip-bloss-fuer-anderes-sprachen.html|Fachinformatiker.de: " javaDoc Prinzip bloß auf für anderes Sprachen"]].
+
 ===== Forums, Newsgroups =====
   *[[http://groups.google.com/group/jsdoc-users|Google Groups "JSDoc Users"]].
 {{tag>software documentation "software documentation generator" generator}}

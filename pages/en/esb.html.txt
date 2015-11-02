@@ -1,0 +1,93 @@
+====== [hemmerling] Enterprise Service Bus ( ESB ) / Enterprise Service Architecture ( ESA ) ======
+Related pages:
+  *[[fieldbus.html|Fieldbuses and Automation Networks]].
+  *[[mashup.html|Enterprise Mashups & Web 2.0]].
+  *[[mes02.html|Manufacturing Execution Systems ( MES ) 2/5 - Software Systems]].
+  *[[network.html|Network Tools 1/2]].
+  *[[saas.html|Software As A Service ( SAAS ) 1/2]].
+===== Free & OpenSource Tools =====
+==== Apache ServiceMix ====
+  *The OpenSource [[http://servicemix.apache.org/|Apache ServiceMix]] - "An open source ESB (Enterprise Service Bus) that combines the functionality of a Service Oriented Architecture (SOA) and an Event Driven Architecture (EDA)".
+  *[[http://en.wikipedia.org/wiki/Apache_ServiceMix|EN.Wikipedia "Apache ServiceMix"]], [[http://de.wikipedia.org/wiki/Apache_ServiceMix|DE.Wikipedia "Apache ServiceMix"]].
+  *[[http://en.wikipedia.org/wiki/Fuse_ESB|EN.Wikipedia "Fuse ESB"]].
+==== JBoss ESB ====
+  *[[http://jbossesb.jboss.org/|JBoss ESB]].
+  *[[http://en.wikipedia.org/wiki/JBoss_Enterprise_SOA_Platform|EN.Wikipedia "JBoss Enterprise SOA Platform"]].
+==== Mule ESB ====
+  *The OpenSource [[http://www.mulesoft.org/|MuleSoft "Mule ESB  - integration at cloud speed"]] - "Mule ESB Community Edition".
+  *[[http://developer.mulesoft.com/|MuleSoft "MuleSoft Developers"]].
+    *[[http://www.mulesoft.org/connectors|Mulesoft Community "Connectors"]] ( formerly: "MuleForge", "MuleSoft Extensions" ).
+  *[[http://anypoint.mulesoft.com|MuleSoft "Anypoint Platform"]].
+  *[[http://www.netways.de/de/produkte/mule/|NETWAYS GmbH "Mule Enterprise Service Bus"]].
+  *[[http://en.wikipedia.org/wiki/Mule_%28software%29|EN.Wikipedia "Mule (software)"]], [[http://de.wikipedia.org/wiki/Mule_%28Software%29|DE.Wikipedia "Mule (Software)"]].
+  *[[http://en.wikipedia.org/wiki/MuleSoft|EN.Wikipedia "MuleSoft"]].
+==== Open ESB ====
+  *[[http://www.open-esb.net/|Open ESB]], [[http://www.bitbucket.org/openesb/|BitBucket "openesb"]].
+  *[[http://en.wikipedia.org/wiki/Open_ESB|EN.Wikipedia "Open ESB"]].
+==== Talend ====
+  *[[http://www.talend.com/|Talend]].
+    *[[http://www.talend.com/resource/open-source-esb.html|Talend "Open Source ESB. Talend is the Best Source for Open Source ESB]].
+  *[[http://www.talendforge.org/|TalentForge]].
+  *[[http://en.wikipedia.org/wiki/Talend|EN.Wikipedia "Talend"]].
+==== WSO ESB ====
+  *[[http://www.wso2.com/|WSO2 ESB]].
+  *[[http://en.wikipedia.org/wiki/WSO2|EN.Wikipedia "WSO2"]].
+==== Resources ====
+  *[[http://www.dzone.com/articles/top-open-source-esbs|DZone "Top Open Source ESB Projects"]].
+===== Commercial Tools =====
+==== IBM Integration Bus ====
+=== The Software Tool ===
+  *[[http://www.ibm.com/software/products/en/ibm-integration-bus|IBM "IBM Integration Bus"]] for Windows 64-bit and Linux 64-bit.
+    *The commercial "IBM Integration Bus".
+    *The free "IBM Integration Bus for Developers. fully licensed software, at no charge". It includes "IBM WebSphere MQ" and is by this a valuable free GUI tool for developers to play with MQTT Protocol. E.g. to explore how "Last Will and Testament" messaging works.
+  *The just-commercial addon [[http://www.ibm.com/software/products/en/integration-bus-manufacturing-pack|IBM "IBM Integration Bus Manufacturing Pack"]].
+=== Standard Programming Languages for "IBM Integration Bus" ===
+  -[[http://www.ibm.com/support/knowledgecenter/SSMKHH_9.0.0/com.ibm.etools.mft.doc/ak04860_.htm|IBM Knowledge Center "IBM Integration Bus / Reference / Message flow development / Transformation interfaces / ESQL reference"]] - "SQL is the industry standard language for accessing and updating database data and ESQL is a language derived from SQL Version 3, particularly suited to manipulating both database and message data".
+  -Java.
+  -.NET.
+=== Resources ===
+  *MQTT servers like "IBM WebSphere MQ" don´t change the contents of a message. "IBM Integration Bus" however can transform messages to other formats.
+  *"IBM Integration Bus" is designed according to the rule "Parsers do the work" :-).
+  *2 kind of flows:
+    -Message flow.
+      *"Fast" - Terminates within milliseconds.
+      *Mandatory: Should be transaction safe.
+    -Business workflow.
+      *"Slow" - Might run in several business process steps for even some days.
+      *May be defined by a business modelling language, e.g. BPMN.
+      *May not be transaction safe.
+  *[[http://www.ibm.com/developerworks/community/groups/service/html/communityview?communityUuid=c7e1448b-9651-456c-9924-f78bec90d2c2|IBM "IBM Integration Community"]].
+  *[[http://www.ibm.com/support/docview.wss?uid=swg21644591|IBM Support "IBM Integration Bus for Developers Version 9.0"]].
+  *[[http://www.ibm.com/support/knowledgecenter/SSMKHH_9.0.0/mapfiles/help_home_msgbroker.html|IBM Knowledge Center "IBM Integration Bus 9.0.0 / IBM WebSphere Message Broker Information Center"]].
+    *[[http://www.ibm.com/support/knowledgecenter/SSFKSJ_7.5.0/com.ibm.mq.ins.doc/q115250_.htm|IBM Knowledge Center "Installing WebSphere MQ server on Linux Ubuntu"]].
+  *[[http://developer.ibm.com/integration/v9integrationgetstarted/|IBM Developerworks "IBM Integration", "Get started with IBM Integration Bus Version 9"]].
+  *[[http://www.ibm.com/developerworks/community/blogs/c7e1448b-9651-456c-9924-f78bec90d2c2/entry/download|IBM Integration Community "Download IBM Integration Bus"]].
+  *[[http://developer.ibm.com/integration/docs/ibm-integration-bus/get-started/get-started-with-ibm-integration-bus-for-developers/|IBM Developerworks "Get started with IBM Integration Bus for Developers"]].
+==== Microsoft BizTalk ====
+=== The Tool ===
+  *[[http://www.microsoft.com/biztalk/|Microsoft BizTalk Server]] ( english ), [[http://www.microsoft.com/germany/biztalk/|Microsoft BizTalk Server]] ( german ).
+  *[[http://www.microsoft.com/biztalk/en/us/editions.aspx|Microsoft BizTalk Server "Editions"]].
+  *[[http://msdn.microsoft.com/en-us/library/ff699598.aspx|Micrsoft MSDN "Microsoft BizTalk ESB Toolkit"]]
+  *[[http://msdn.microsoft.com/en-us/library/ee236726%28v=bts.10%29.aspx|Microsoft MSDN "Introduction to the BizTalk ESB Toolkit"]].
+  *[[http://msdn.microsoft.com/en-us/library/bb906065.aspx|Microsoft MSDN "The Internet Service Bus"]].
+  *[[http://msdn.microsoft.com/en-us/biztalk/dd876606.aspx|Microsoft MSDN BizTalk Server Developer Center "BizTalk ESB Toolkit 2.1" / "What Is an Enterprise Service Bus?"]].
+  *[[http://web.archive.org/web/*/http://www.microsoft.com/biztalk/en/us/esb-guidance.aspx|Microsoft BizTalk Server "Enterprise Service Bus"]] ( - 2013-01-22 ) - "Microsoft BizTalk Server ESB Guidance".
+=== Resources ===
+  *[[http://www.stackoverflow.com/questions/3355082/is-biztalk-an-esb|Stack Overflow "Is BizTalk an ESB?"]].
+===== Resources =====
+  *Experts told me: It is easy to code a service to collect data in a single data format and single data protocol ( e.g. a web service ), but if you add other protocols and need data transformation, you are stuck. An ESB is the alternative: By filters, parsers and import modules, an ESB may collect data in any format and transform the data to any other format.
+  *It is imporant to find the right position for an ESB in a manufacution environment:
+    *A PLC on the shop floor which can process and transform multiple communication protocols, has sort of ESB functionality.
+    *Some see an ESB on the level of a MES system, or even between MES and enterprise software.
+    *In an infrastructure without PLCs, the ESB might be even in the "Cloud" and collect and process all messages from IOT devices.
+  *A vision of a possible future: 
+    *Microservices for each facility / on any device.
+    *Big data analysis services on servers in datacenters or in the Cloud.
+    *Dashboard on any tablet / smartphone / notebook.
+  *[[http://en.wikipedia.org/wiki/Enterprise_service_bus|EN.Wikipedia "Enterprise service bus"]], [[http://de.wikipedia.org/wiki/Enterprise_Service_Bus|DE.Wikipedia "Enterprise Service Bus"]] ( ESB ), [[http://en.wikipedia.org/wiki/SAP_Enterprise_Services_Architecture|EN.Wikipedia "SAP Enterprise Services Architecture"]] ( ESA ).
+===== Forums, Newsgroups =====
+  *[[http://forums.mulesoft.com/|MuleSoft Forums]].
+  *[[http://www.open-esb.net/index.php?Itemid=486|OpenESB Community Forum]].
+  *[[http://www.talendforge.org/forum/|TalentForge Forum]].
+{{tag>"enterprise service bus" enterprise service bus esb "enterprise service architecture" esa architecture}}
+<footnote_navi_en>

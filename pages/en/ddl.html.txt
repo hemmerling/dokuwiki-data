@@ -10,6 +10,10 @@
   *[[http://gallery.technet.microsoft.com/xPSDesiredStateConfiguratio-417dc71d|Microsoft TechNet Script Center "xPSDesiredStateConfiguration Module – PowerShell DSC Resource Kit"]] - The module code is included in the complete wave package 10 and later, but the extra example DSC files are great!
 === DSC Support Tools for the Powershell ISE ===
   *[[http://www.github.com/inchara/ShowDscResource|GitHub "inchara/ShowDscResource"]].
+==== How to create custom DSC Resources ====
+=== By MOF Schemes ( ... Powershell 4 ) ===
+=== By Powershell Classes ( Powershell 5 ... ) ===
+
 ==== Server and Cloud Administration by PowerShell ====
   *[[http://www.twitter.com/jsnover|Twitter "jsnover"]] - "Microsoft Distinguished Engineer/ Lead Architect for Windows Server and System Center Datacenter/ PowerShell Architect / Science fan / Really bad speller".
     *[[http://www.twitter.com/jsnover/status/456972326601388032|Twitter, jsnover "PowerShell Desired State Config (DSC) is fast tracked for the next Common Engineering Criteria"]].
@@ -26,6 +30,18 @@
     *[[http://blogs.technet.com/b/privatecloud/archive/2014/07/17/configuring-docker-on-azure-with-powershell-dsc.aspx|Microsoft TechnNet Blogs "Building Clouds ...building hybrid clouds that can support any device from anywhere", article "Configuring Docker with PowerShell DSC"]].
   *[[http://blogs.technet.com/b/privatecloud/archive/2013/08/30/introducing-powershell-desired-state-configuration-dsc.aspx|Microsoft TechnNet Blogs "Building Clouds ...building hybrid clouds that can support any device from anywhere", article "Introducing PowerShell Desired State Configuration (DSC)"]].
   *[[http://powershell.org/wp/tag/desired-state-configuration/|PowerShell.org "Desired State Configuration"]] - "Jeff Hicks gave a presentation entitled "Getting Started with Desired State Configuration (DSC)".
+==== Windows PowerShell Desired State Configuration for Linux ( WPSDSCLinux ) ====
+=== Tools ===
+  *[[http://www.github.com/MSFTOSSMgmt/WPSDSCLinux/|GitHub "MSFTOSSMgmt/WPSDSCLinux"]].
+  *[[http://www.microsoft.com/en-us/download/details.aspx?id=46919|Microsoft Download Center "PowerShell Desired State Configuration for Linux"]].
+  *[[http://collaboration.opengroup.org/omi/|OpenGroup "Open Management Infrastructure (OMI) 'CIM/WBEM Manageability Services Broker'"]].
+  *Powershell SSH Modules.
+    *[[http://sshnet.codeplex.com|CodePlex "SSH.NET Library"]].
+    *[[http://www.github.com/darkoperator/Posh-SSH|GitHub "darkoperator/Posh-SSH"]] - "PowerShell Module for automating tasks on remote systems using SSH".
+    *[[http://www.powershelladmin.com/wiki/SSH_from_PowerShell_using_the_SSH.NET_library|Joakim Svenson "SSH from PowerShell using the SSH.NET library"]].
+=== Resources ===
+  *[[http://www.thorsten-butz.de/cimlingen2015/|Thorsten Butz "CIMLingen 2015"]], [[http://www.slidingwindows.de/|Sliding Windows Audiocast]].
+    *[[http://www.thorsten-butz.de/cimlingen2015/|Thorsten Butz "CIMLingen 2015"]] - "Ich sprach auf der CIMLingen 2015 über die finale Version der “Windows PowerShell Desired State Configuration for Linux” (WPSDSCLinux)".
 ==== Related Technologies ====
   *[[http://www.dmtf.org/education/mof|Distributed Management Task Force, Inc.]].
     *[[http://www.dmtf.org/standards/cim|Distributed Management Task Force, Inc. "Common Information Model CIM"]].
@@ -73,8 +89,9 @@
 === Organisation ===
   *[[http://www.fdtgroup.org/|FDT Group]].
     *[[http://www.fdtgroup.org/technical-documents|FDT Group "Technical documents"]].
-  *[[http://www.youtube.com/user/fdtgroupna|YouTube "FDT Group"]].
-  *[[http://de.wikipedia.org/w/Field_Device_Tool|DE.Wikipedia "Field Device Tool"]].
+    *[[http://www.youtube.com/user/fdtgroupna|YouTube "FDT Group"]].
+    *[[http://de.wikipedia.org/w/Field_Device_Tool|DE.Wikipedia "Field Device Tool"]].
+  *[[http://www.fdi-cooperation.com/|FDI Cooperation, LLC]] - "FDI Cooperation, LLC membership includes five major automation foundations: FDT Group, Fieldbus Foundation, HART Communications Foundation, PROFIBUS & PROFINET International, and the OPC Foundation".
 ===  FDT/DTM Development Tools ===
   *[[http://www.codewrights.biz/|CodeWrights GmbH]] - "DTM Studio" development software.
   *[[http://www.ifak-system.com/|ifak system GmbH]].
@@ -109,6 +126,10 @@
   *[[http://www.yokogawa.com/us/technical-library/downloads/yokogawa-fieldmate-and-device-dtm-compliance-with-fdt2.htm|Yokogawa "Yokogawa FieldMate and Device DTM Compliance with FDT2"]].
 == SMART VISION ==
   *[[http://www.abb.de/|ABB]] - "Device Management Tool DSV4xx for smart field instruments ( "SMART VISION" ).
+== Weidmüller Gruppe ==
+  *[[http://www.weidmueller.com/133500/Corporate/Customer-Magazine-WIN/In-Brief/Configure-and-monitor-with-the-latest-FDT2-technology/cw_index_v2.aspx|Weidmüller Gruppe "Configure and monitor with the latest FDT2 technology"]], [[http://www.weidmueller.de/de/unternehmen/kundenmagazin-win-/im-moment/konfigurieren-und-ueberwachen-mit-der-neuesten-fdt2-technologie|Weidmüller Gruppe "Konfigurieren und Überwachen mit der neuesten FDT2-Technologie"]].
+  *[[http://weidmulleruk.wordpress.com/tag/fdt2/|Weidmüller UK - Tag Archives: "FDT2"]].
+  *[[http://catalog.weidmueller.com/catalog/Start.do?localeId=de&ObjectID=group1424643399168|Weidmüller Gruppe, Produkt-Katalog "Netzwerkfähige Signalwandler"]] - "ACT20C".
 === Integrated Development Environments ( IDEs ) with FDT/DTM Support ===
 == IndraWorks ==
   *The IDE [[http://www.boschrexroth.com/indraworks|Rexroth "IndraWorks Engineering"]].
@@ -118,6 +139,7 @@
   *FTD 1.2 is based on Microsoft's COM and ActiveX.
   *FTD 2.0 is based on Microsoft .NET 2.0, 3.5, 4.0...
   *A DTM is not a static, but consists both of ( 80x86 or .NET ) code. By this, - e.g. in opposite to a static XML file like with <AutomationML> - it can dynamically change data: If you change the unit of a device parameter, e.g. metric system to US inch / feet / miles system.
+  *FDT 1.0 / 2.0 is available for devices used by the process industry. The devices might be connected to a PC by fieldbus networks, e.g. HART, Profibus,..
   *There are 2 kinds of DTMs:
     -Communication or Gateway-DTMs", e.g. for USB-to-PROFIBUS devices.
     -Device DTMs, e.g. for PROFIBUS devices connected to a PROFIBUS.
@@ -130,9 +152,22 @@
     *It might be a good market entry strategy, to start with the development of a DTM for an affordable budget-price sensor device ( by Turck, Pepperl+Fuchs, SIG, IFM... ), connected to a serial bus ( CANBus, PROFIBUS, not PROFINET ! ). The device is connected to the Windows computer by a with a Windows interface device ( USB to CANBus device, USB to PROFIBUS device,... ) shipped with a DTM by the interface device manufacturer.
   *[[http://www.automationworld.com/archive-fdt-device-integration-strategies-newsletter|Automationworld "FDT Device Integration Strategies Newsletter - Archive"]].
   *[[http://www.automationworld.com/device-integration-strategies|Automationworld "FDT Device Integration Strategies"]].
-
-==== Industry 4.0 Component ( "i4.0 Komponente" ) ====
+==== Industry 4.0 ====
+=== Modul Type Package (MTP) ===
+  *[[http://www.dima-process.com/|DIMA – Dezentrale Intelligenz für modulare Anlagen]].
+    *[[http://www.dima-process.com/dima-konzept/modul-type-package-mtp/|DIMA "Module Type Package (MTP)"]] - "Zur Projektierung der gesamten Anlage benötigt der Anlagenprogrammierer die Informationen der möglichen Dienste für die Prozedur und Visualisierung vom Modulhersteller. Diese Informationen speichert der Modulhersteller bei der Programmierung seines Moduls in einer 'digitalen Visitenkarte', dem 'Modul Type Package' (MTP)".
+    *[[http://www.twitter.com/wagokontakttech/status/610434216879353856|Twitter "WAGO", Tweet "WAGO erhält für das Konzept DIMA – Prozessautomatisierung der Zukunft – den „atp award“ 2014!"]].
+=== Industry 4.0 Component ( "i4.0 Komponente" ) ===
   *[[http://www.plattform-i40.de/| Plattform Industrie 4.0]].
+=== NAMUR NE 148 Initative for standardized Description of Process Industry Modules ( 2013 - 2015 ) ===
+== Documents ==
+  *The free PDF [[http://www.zvei.org/Verband/Publikationen/Seiten/White-Paper-Modulbasierte-Produktion-in-der-Prozessindustrie.aspx|ZVEI "White Paper: Modulbasierte Produktion in der Prozessindustrie – Auswirkungen auf die Automation im Umfeld von Industrie 4.0"]].
+  *[[http://www.namur.net/empfehlungen-und-arbeitsblaetter/aktuelle-nena.html|NAMUR "Aktuelle NAMUR Empfehlungen (NE) und Arbeitsblätter (NA)"]] - "NE 148 Anforderungen an die Automatisierungstechnik durch die Modularisierung verfahrenstechnischer Anlagen. Automation Requirements relating to Modularisation of Process Plants"]].
+== Resources ==
+  *[[http://www.namur.net/publikationen/news-archiv/detail/article/die-ne-148-ist-neu-erschienen.html|NAMUR "Die NE 148 ist neu erschienen"]] - "NE 148 "Anforderungen an die Automatisierungstechnik durch die Modularisierung verfahrenstechnischer Anlagen" (Version 22.10.2013)".
+  *Experts told me in  2015-06, that the forthcoming standard might be based on:
+    -Internal modules with I/O only -> FDI based interface.
+    -External modules with a PLC -> OPC/UA based interface.
 ==== Tool Calling Interface ( TCI ) ====
   *[[http://www.sps-magazin.de/?inc=artikel/article_show&nr=28312|SPS Magazin "Konkurrenz zu FDT? Aus SII wird TCI"]], 2006-01-26.
   *[[http://www.profibus.com/pi-organization/regional-pi-associations/germany/presse/single-view/article/tci-spezifikation-der-pno-verfuegbar/|PROFIBUS Nutzerorganisation e.V. ( PNO ) "TCI Spezifikation der PNO verfügbar"]].
@@ -147,23 +182,20 @@
     *Asset management by EDD / DD of SIEMENS, DTM of FDT.
     *EDDL is intended to become the successor of both EDD and DTM/FDT.
 ===== Linux Device Tree / Flattened Device Tree ( FDT ) =====
+  *I was told by experts in 2015-10 "'Device Tree' is not for Linux only :-)", but also for e.g. FPGA board projects.
   *Wiki [[http://www.devicetree.org/|Devicetree.org]] - "The device tree is used both by Open Firmware, and in the standalone Flattened Device Tree (FDT) form".
     *Open Firmware -> See [[booting.html|Booting from Devices]].
     *[[http://www.devicetree.org/Device_Tree_Usage|Devicetree.org "Device Tree Usage"]].
   *Wiki [[http://www.elinux.org/|elinux Wiki]].
     *[[http://www.elinux.org/Device_Trees|elinux Wiki "Device Trees"]].
   *[[http://wiki.freebsd.org/FlattenedDeviceTree|FreeBSD Wiki "FlattenedDeviceTree"]].
-===== NAMUR NE 148 Initative for standardized Description of Process Industry Modules ( 2013 - 2015 ) =====
-==== Documents ====
-  *The free PDF [[http://www.zvei.org/Verband/Publikationen/Seiten/White-Paper-Modulbasierte-Produktion-in-der-Prozessindustrie.aspx|ZVEI "White Paper: Modulbasierte Produktion in der Prozessindustrie – Auswirkungen auf die Automation im Umfeld von Industrie 4.0"]].
-  *[[http://www.namur.net/empfehlungen-und-arbeitsblaetter/aktuelle-nena.html|NAMUR "Aktuelle NAMUR Empfehlungen (NE) und Arbeitsblätter (NA)"]] - "NE 148 Anforderungen an die Automatisierungstechnik durch die Modularisierung verfahrenstechnischer Anlagen. Automation Requirements relating to Modularisation of Process Plants"]].
-==== Resources ====
-  *[[http://www.namur.net/publikationen/news-archiv/detail/article/die-ne-148-ist-neu-erschienen.html|NAMUR "Die NE 148 ist neu erschienen"]] - "NE 148 "Anforderungen an die Automatisierungstechnik durch die Modularisierung verfahrenstechnischer Anlagen" (Version 22.10.2013)".
-  *Experts told me in  2015-06, that the forthcoming standard might be based on:
-    -Internal modules with I/O only -> FDI based interface.
-    -External modules with a PLC -> OPC/UA based interface.
-===== Resources =====
-  *[[http://www.fdi-cooperation.com/|FDI Cooperation, LLC]] - "FDI Cooperation, LLC membership includes five major automation foundations: FDT Group, Fieldbus Foundation, HART Communications Foundation, PROFIBUS & PROFINET International, and the OPC Foundation".
+  *[[http://www.rocketboards.org/foswiki/view/Documentation/DeviceTreeGenerator|RocketBoards "DeviceTree Generator User Guide"]].
+  *[[http://www.rocketboards.org/foswiki/view/Documentation/DeviceTreeGenerator140|RocketBoards "GSRD v14.0 - Device Tree Generator"]].
+  *[[http://www.wiki.xilinx.com/|Xilinx Wiki]].
+    *[[http://www.wiki.xilinx.com/Build+Device+Tree+Blob|Xilinx Wiki "Build Device Tree Blob"]].
+  *[[http://www.xilinx-john.wikidot.com/|Xilinx Open Source Wiki]].
+    *[[http://www.xilinx-john.wikidot.com/device-tree-generator|Xilinx Open Source Wiki "Device Tree Generator"]].
+  *[[http://www.zedboard.org/content/how-generate-device-tree-dts-file|Zedboards Forum "How to generate Device Tree (dts) file?"]].
 ===== Forums, Newsgroups =====
   *[[http://www.linkedin.com/groups?gid=795847|LinkedIn "FDT/DTM"]] - "For professional with FDT/DTM background or experience. Automation engineers with fieldbus experience and FDT /DTM Technlogy know how to connect to each other and share ideas".
 {{tag>"Device Description Language" "Electric Device Description" EDD "Electric Device Description Language" electric device description language parameterisation EDDL "FDT/DTM" FDT DTM}}

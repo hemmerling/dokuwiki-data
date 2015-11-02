@@ -2,14 +2,41 @@
 Related page:
   *[[qmanagement.html|Quality Management]].
   *[[safety02.html|Safety 2/2 - Design of safe Automation Systems & safe Embedded Systems]].
-
 ===== Risk Management =====
+==== Risk Assessment ( "Gefährdungsbeurteilung" ) ====
+  *[[http://www.gefaehrdungsbeurteilung.de/|Bundesanstalt für Arbeitsschutz und Arbeitsmedizin (BAuA) "Gefährdungsbeurteilung.de"]].
+  *[[http://www.baua.de/|Bundesanstalt für Arbeitsschutz und Arbeitsmedizin (BAuA)]].
+    *[[http://www.baua.de/de/Themen-von-A-Z/Anlagen-und-Betriebssicherheit/TRBS/TRBS.html|Bundesanstalt für Arbeitsschutz und Arbeitsmedizin (BAuA) "Themen von A-Z / Anlagen- und Betriebssicherheit / Technische Regeln für Betriebssicherheit (TRBS)"]].
+      *"BekBS 1114 Anpassung an den Stand der Technik bei der Verwendung von Arbeitsmitteln".
+      *"TRBS 1201 Prüfungen von Arbeitsmitteln und überwachungsbedürftigen Anlagen".
+      *"TRBS 1203 Befähigte Personen" -> "Befähigte Personen" ( = "fachkundige Personen" ) = "Berufsausbildung + Berufserfahrung + zeitnahe berufliche Tätigkeit" :-(.
+  *[[http://www.bgrci.de/|Berufsgenossenschaft Rohstoffe und chemische Industrie ( BG RCI )]].
+    *[[http://www.bgrci.de/fachwissen-portal/start/gefaehrdungsbeurteilung/|Berufsgenossenschaft Rohstoffe und chemische Industrie ( BG RCI ) "Themenspektrum / Gefährdungsbeurteilung"]].
+    *[[http://downloadcenter.bgrci.de/shop/gefb|Berufsgenossenschaft Rohstoffe und chemische Industrie ( BG RCI ) "Downloadcenter / Downloads zum Thema Gefährdungsbeurteilung"]].
+      *"Merkblatt A 016 Gefährdungsbeurteilung – Sieben Schritte zum Ziel" ( PDF, "Zusammengestellter Auszug", 28 pages ).
+        *Book [[http://www.amazon.de/exec/obidos/ASIN/3920506375/hemmerling-21|BG RCI: "A 016 - Gefährdungsbeurteilung (BGI 570): Sieben Schritte zum Ziel"]] ( more pages than the free PDF version ).
+      *"Merkblatt A 017 Gefährdungsbeurteilung - Gefährdungskatalog" ( PDF, "Zusammengestellter Auszug", 96 pages ).
+        *Book [[http://www.amazon.de/exec/obidos/ASIN/3920506383/hemmerling-21|BG RCI: "A 017 - Gefährdungsbeurteilung - Gefährdungskatalog"]] ( 144 pages ).
+      *Software:
+        *The free Excel file "GefDok light".
+        *The free software "GefDok KMU" for Windows.
+
 ==== Fault Tree Analysis ====
-  *[[http://en.wikipedia.org/wiki/Fault_tree_analysis|EN..Wikipedia "Fault tree analysis"]], [[http://de.wikipedia.org/wiki/Fehlerbaumanalyse|DE.Wikipedia "Fehlerbaumanalyse"]].
+  *[[http://en.wikipedia.org/wiki/Fault_tree_analysis|EN.Wikipedia "Fault tree analysis"]], [[http://de.wikipedia.org/wiki/Fehlerbaumanalyse|DE.Wikipedia "Fehlerbaumanalyse"]].
   *Software fault tree analysis ( SWFTA ) - A deductive analysis: It starts with potential or actual failures and asks what might have caused them.
 ==== Failure Mode and Effects Analysis ( FMEA ) / Failure Mode and Effects and Criticality Analysis ( FMECA ) ====
   *[[http://en.wikipedia.org/wiki/Failure_mode_and_effects_analysis|EN.Wikipedia "Failure mode and effects analysis"]], [[http://de.wikipedia.org/wiki/FMEA|DE.Wikipedia "FMEA"]].
   *Software failure mode, effect and criticality analysis ( SWFMECA ) - An inductive analysis: Tt starts with the failure of components and asks what they might result in at the systems level.
+==== Hazard Analysis ====
+==== Hazard Rating Number( HRN ) ====
+  *[[https://www.google.de/search?q=hazard+rating+number+hrn|Google - Search for "hazard rating number hrn"]].
+  *[[http://www.machinebuilding.net/ta/t0079.htm||MachineBuilding.net "Machine risk assessment guide, tips and advice"]].
+  *[[http://www.pilz.com/en-GB/company/news/articles/072193|Pilz GmbH & Co. KG "Risk Assessment methods"]].
+
+==== Hazard Analysis and Critical Control Points ====
+  *[[http://en.wikipedia.org/wiki/Hazard_analysis_and_critical_control_points|EN.Wikipedia "Hazard analysis and critical control points"]], [[http://de.wikipedia.org/wiki/Hazard_Analysis_and_Critical_Control_Points|DE.Wikipedia "Hazard Analysis and Critical Control Points"]].
+  *[[http://www.haccp.de/|HACCP - Punkt für Punkt sichere Lebensmittel]].
+  *[[http://www.haccp-hygienemanagement.de/|HACCP und Hygienemanagement]]
 ==== Markov Analysis ====
   *[[http://www.markovanalysis.com/|Isograph Ltd "Markov Analysis"]].
   *[[http://en.wikipedia.org/wiki/Markov_chain|EN.Wikipedia "Markov chain"]], [[http://de.wikipedia.org/wiki/Markow-Kette|DE.Wikipedia "Markow-Kette"]].
@@ -47,11 +74,6 @@ der Berufsgenossenschaft der Bauwirtschaft"]].
   *Wikipedia.
     *[[http://de.wikipedia.org/wiki/Gefahrgut|DE.Wikipedia "Gefahrgut"]] ( just Class 1 symbols have orange background with black script ) versus [[http://de.wikipedia.org/wiki/Gefahrstoff|DE.Wikipedia "Gefahrstoff"]] ( all symbols have orange background and black script ).
   *Video [[http://www.youtube.com/watch?v=R3h8j5U0d3s|Youtube "Schwarzer Freitag – Suva – SuvaPro"]] by [[http://www.suva.ch/|http://www.suva.ch/|suva]].
-===== Hazard Analysis and Critical Control Points =====
-  *[[http://en.wikipedia.org/wiki/Hazard_analysis_and_critical_control_points|EN.Wikipedia "Hazard analysis and critical control points"]], [[http://de.wikipedia.org/wiki/Hazard_Analysis_and_Critical_Control_Points|DE.Wikipedia "Hazard Analysis and Critical Control Points"]].
-  *[[http://www.haccp.de/|HACCP - Punkt für Punkt sichere Lebensmittel]].
-  *[[http://www.haccp-hygienemanagement.de/|HACCP und Hygienemanagement]]
-
 ===== Explosion Prevention and Protection =====
   *[[http://www.leuze.de/news/atex/p_01_de.html|Leuze electronic GmbH + Co. KG "Ex-Schutz Grundlagen und Lösungen"]].
 ===== Lighting and Surge Protection & Fire Prevention and Protection =====
@@ -66,7 +88,6 @@ der Berufsgenossenschaft der Bauwirtschaft"]].
   *[[http://www.trox.de/de/service/academy/seminar/|TROX GmbH "TROX Seminarreihen"]] - Affordable seminars "Rauch- und Brandschutz in RLT-Anlagen".
 === Resources ===
   *[[http://www.dehn.de/design07_frame/deutsch/kontakt/verbaende.html|DEHN + SÖHNE GmbH + Co. KG.: Verbände]].
-
 ===== Electromagnetic Compatibility (EMC ) =====
   *Book [[http://www.amazon.de/exec/obidos/ASIN/3834808938/hemmerling-21|Joachim Franz: "Störungssicherer Aufbau elektronischer Schaltungen"]].
 ===== Resources =====
@@ -81,4 +102,3 @@ der Berufsgenossenschaft der Bauwirtschaft"]].
     *[[http://en.wikipedia.org/wiki/ATEX_directive|EN.Wikipedia "ATEX directive"]], [[http://de.wikipedia.org/wiki/ATEX|DE.Wikipedia "ATEX"]].
 {{tag>safety explosion fire prevention protection "occupational health" "occupational safety"}}.
 <footnote_navi_en>
-

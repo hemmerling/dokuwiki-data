@@ -1,6 +1,6 @@
 ====== [hemmerling] Smart Metering ======
 Related page:
-  *[[smartblitzmerker.html|Smart Blitzmerker]].
+  *[[smartblitzmerker.html|Smart Blitzmerker: Bring your own Device - Get your own Data ( BYDD - GYOD  )]].
 ===== Electronic Meterering of analog Meters =====
 {{images:smartblitzmerker02t.jpg?200|Smart Blitzmerker}}
 ==== Erik Auerswald "Seven Segment Optical Character Recognition" ( ssocr ) ====
@@ -41,8 +41,9 @@ Related page:
 === Project Idea, Project Approach, Project Proceedings ===
   *See [[smartblitzmerker.html|Smart Blitzmerker]].
   *The product to be developed, a smart meter will collect data from the mechanical metering devices for water, gas, electric power, and put it in an building automation network, or even in the cloud.
-    *As permanent device, e.g. at private households or public / industry buildings.
-    *To give you the clue for another application of the technology, think about low-skilled people who have to go to meter devices in a customer's ( private, public, industry ) building, to read and to document the data by writing down the values on paper or typing the numbers on a computer, manually. They might now get a portable device -our product - and just record the data by buttonclick. 
+    *As permanent device, e.g. at private households or public / industry buildings. If you connect it by magnets, think about if the untility company which owns the meter would like this: Magnets might disturb electrical, electronics or mecanical meters in ins proper operation.
+    *As portable device.
+      *To give you the clue for another application of the technology, think about low-skilled people who have to go to meter devices in a customer's ( private, public, industry ) building, to read and to document the data by writing down the values on paper or typing the numbers on a computer, manually. They might now get a portable device -our product - and just record the data by buttonclick. 
   *Project approach is to do rapid-prototyping of prototypes with different aspects, in different programming languages on different platforms, to become familar with the problem and to find a solution. The solution must not be on the level of a true deliverable product useful for customers.
   *College student teams might also join, as the college lecturer might ask the college students to do own implementation of the tasks, even in different programming languages on different platforms. 
   *First step is that the project participants ( e.g. the college students ) take their smartphones or digital photo cams, and photograph their own meters at home, and take the photos to the project. So the project particpants document something from their daily life - here the front picture of their meters in their flats, and then process the item by self-written software. 
@@ -52,6 +53,12 @@ Related page:
     -Create applications to take photos on different hardware platforms ( smartphone, desktop/notebook pc, embedded device ) and different software platforms ( Windows/Linux desktop including embedded devices, Android OS on Android smartphones / iOS on iPhone smartphones, bare-metal implementations on embedded devices ).
       *So "My first smartphone app for Android in Java" would be a good starting sub-project - To use the camera software of the smarthone to take a photo and to store it.
     -Image processing ( e.g. with OpenCV, or commercial tools by National Instruments "NI Vision" at colleges or companies with some budget ). Further thinking is required: 
+      *Lighting: Normal lighting causes reflections at glas, which might make photo unusable. I was told by experts, that Infrared lighting causes much less or even no reflections at glas.
+       *Preprocessing of images:
+         *Take a series of photos, instead of just 1 image. The "difference" between the images, especially if taken by a cam hold in hand, might be used to enable or improve the image processing.
+         *Display window.
+         *Contrast.
+         *Reduction of color debth to 1 bit. Be aware of meter numbers in different colors ( most numbers are black / white, but there is always the lowerst number which is in red ).
        *On Android where the apps are typicall written in Java, or on Windows Apps for Desktop or WinPhone, its not so easy to integrate a true C library. No problem on Windows or Linux Desktop.
        *But as the image quality might be so limited, and the device weight is a limiting factor ( a prototype device beyond the project might be glued by vacuum cup to the glas of the metering device display ), its a question if the image processing should be done on the device, or later in the network or in the cloud.
        *OpenCV is C, but you can do development in most other languages too, and there is no need for Object-orientation ect. e.g. with the "Visual Studio" IDE, or there is a Python interface.
@@ -59,6 +66,7 @@ Related page:
        *Rapid prototyping means using frameworks and ready-made tools, and to add just few %s of own work, to get a working solution. So the pattern recognition is either the topic of the sub-project ( requireing just very basic programming skills ), or the sub-project might be an introductory computer programming course where the pattern recognition is to be taken as magic and not really taught in detail.
        *You may even skip the pattern recognition totally. Without pattern recognition, it is the task to create an application which take a series of photos ( not really necessary to be a video stream ) and to transfer the photos to the cloud. Then of course you will have massive bandwidth and storage problems.
     -The transfer of the data to the cloud, using cloud provider for metering data ( with free entry-level accounts ), or own cloud solution. E.g. on IBM Bluemix, Heroku,..
+
 ===== Literature =====
   *Book [[http://www.amazon.de/exec/obidos/ASIN/3838629388/hemmerling-21|Michael Hahn "Übertragung von multimedialen Prozessdaten über das Internet"]], 2000 - "Diplomarbeit aus dem Jahr 2000 im Fachbereich Informatik - Internet, neue Technologien, Note: 1,3".
 ===== Resources =====
@@ -72,6 +80,13 @@ Related page:
     *In 2016, the market might change if WAGO develops its CodeSys3-based "e!Cockpit" development and runtime solution.
   *There are some normed communication protocols ( e.g. Wireless M-Bus ) many other (proprietary) wirless communication solutions of smart meters with its PCLs and distributed ( building ) control systems.
     *M-Bus, Wirless M-Bus -> See [[fieldbus.html|Fieldbuses and Automation Networks]], [[wireless.html|Wireless Networks]].
+  *I was told by experts in 2015-09
+    *About the result of an end customer survey for the prefered user interface of a smartphone app which displays smart metering information: The smartphone app with the photo of a traditional non-smart meter was prefered, over a just-numberic interface, and an interface with a progression / trend display :-(.
+    *End customers prefer experienceable measurement ( "°C",.. ) instead of technical values ( "KWh", "KW", "m3" ).
+==== Power Load Management ( "Lastmanagement" ) - The only known working Business Model to make Use of Smart Meters ====
+  *[[http://www.effiziente-energiesysteme.de/themen/lastmanagement.html|Deutsche Energie Agentur (dena) "Lastmanagement"]].
+  *[[http://www.dena.de/publikationen/energiesysteme/handbuch-lastmanagement.html|Deutsche Energie Agentur (dena) "Handbuch Lastmanagement"]].
+  *[[http://www.energie-buero.de/Lastmanagement.html|eConsult Durstewitz "Lastmanagement"]].
 ==== Market ====
   *[[http://www.baufachinformation.de/artikel.jsp?v=3868|baufachinformation.de "Heizkostenabrechnung. DIN EN 16836-1, März 2015. Kommunikationssysteme für Zähler - Drahtloses Mesh-Netzwerk für den Zählerdatenaustausch - Teil 1: Einführung und Standardisierungs-Rahmen; Deutsche Fassung prEN 16836-1:2015"]].
   *[[http://t3n.de/news/mesh-netzwerke-488157/|t3n "Mesh-Netzwerke: Das Alternative Internet nicht nur für die Zombie-Apokalypse"]].
@@ -81,6 +96,11 @@ Related page:
   *Fair [[http://www.light-building.messefrankfurt.com/|Light + Building ]] in Frankfurt, 2016-03-13 - 2016-03-18.
 ==== Photography ====
   *Tip by a photographer: Put a piece of white paper in front of the flash, to improve the image quality when doing near shots ( here: if there is a low distance between cam and mechanical meter display, to get a full resolution image of the display ).
+===== Resources =====
+  *FLEXICIENCY ( **FLEXI**bility and Energy effi**CIENCY** based on Metering ).
+    *[[http://www.vaasaett.com/flexiciency/| VaasaETT "FLEXICIENCY - Energy services demonstrations of demand response, FLEXIbility and energy effiCIENCY based on metering"]].
+    *[[http://www.engerati.com/article/flexiciency-%E2%80%93-new-services-coming-european-energy-customers|Engerati - The smart energy network "Flexiciency – New Services Coming For European Energy Customers"]].
+  *[[http://en.wikipedia.org/wiki/Smart_meter|DE.Wikipedia "Smart meter"]], [[http://de.wikipedia.org/wiki/Intelligenter_Z%C3%A4hler|DE.Wikipedia "Intelligenter Zähler"]].
 ===== Appropriate OpenDirectory Directory Pages =====
   *[[http://www.dmoz.org/World/Deutsch/Computer/Hardware/Mikrocontroller/|OpenDirectory "Top: World: Deutsch: Computer: Hardware: Mikrocontroller"]].
 {{tag>"smart metering" metering "smart grid" grid "smart city" city "smart cities" cities "smart building" building "smart buildings" buildings "smart building managment" management "smart world" world}}

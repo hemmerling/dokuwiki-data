@@ -24,8 +24,6 @@ Related pages:
       *[[http://ab.rockwellautomation.com/networks-and-communications/ethernet-ip-network|Rockwell Automation "EtherNet/IP Network"]].
       *[[http://en.wikipedia.org/wiki/EtherNet/IP|EN.Wikipedia "EtherNet/IP"]], [[http://de.wikipedia.org/wiki/EtherNet/IP|DE.Wikipedia "EtherNet/IP"]].
       *As of 2014, both SIEMENS and PHOENIX CONTACT start to support "EtherNet/IP" in addition to "PROFINET" on their latest devices... more and more.
-  *[[http://www.dnp.org/|Distributed Network Protocol]].
-    *[[http://en.wikipedia.org/wiki/DNP3|EN.Wikipdia "DNP3"]], [[http://de.wikipedia.org/wiki/DNP3|DE.Wikipdia "DNP3"]].
   *[[http://en.wikipedia.org/wiki/EtherCAT|EN.Wikipedia "EtherCAT"]], [[http://de.wikipedia.org/wiki/EtherCAT|DE.Wikipedia "EtherCAT"]].
     *[[http://www.ethercat.org/|EtherCAT Technology Group]].
   *The "Geysitech (Bayern-Hessen) Protocol" ( "Geysitech Protokoll" / "Bayern-Hessen Datenprotokoll" ) for climate telemetry systems, used by the IT infrastructure of the german trade and industrial inspectorates ( "Gewerbeaufsichtsamt" ) in Germany.
@@ -122,6 +120,14 @@ Related pages:
 === Some other important IoT/M2M Protocols, according to VDC Research in 2014, 2015 ===
   *AllJoyn.
   *AMQP ( Advanced Message Queuing Protocol ).
+    *[[http://www.amqp.org/|AMQP]].
+    *[[http://activemq.apache.org/|ActiveMQ]].
+      *[[http://activemq.apache.org/amqp.html|ActiveMQ "AMQP"]].
+    *[[http://azure.microsoft.com/en-us/documentation/articles/service-bus-amqp-overview/|Microsoft Azure "AMQP 1.0 support in Service Bus"]].
+    *[[http://www.oasis-open.org/committees/tc_home.php?wg_abbrev=amqp|OASIS "OASIS Advanced Message Queuing Protocol (AMQP) TC"]].
+    *[[http://www.rabbitmq.com/tutorials/amqp-concepts.html|RabbitMQ "AMQP 0-9-1 Model Explained"]].
+    *While REST is for synchronous communications, AMQP ( like MQTT ) is for asynchronous communications :-).
+    *[[http://en.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol|EN.Wikipedia "Advanced Message Queuing Protocol"]], [[http://de.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol|DE.Wikipedia "Advanced Message Queuing Protocol"]].
   *CoAP ( Constrained Application Protocol ).
   *DDS ( Data Distribution Service ).
   *ETSI.
@@ -140,27 +146,49 @@ Related pages:
     *[[http://en.wikipedia.org/wiki/Yocto_Project|EN.Wikipedia "Yocto Project"]].
 == Cloud Computing Platform ==
   *OpenStack -> See [[python.html|Python]].
-==== MQ Telemetry Transport ( MQTT  ) ====
-=== Technology & Tools ===
-  *Eclipse.
-    *[[http://iot.eclipse.org/|Eclipse Working Group "iot.eclipse.org - IoT development made simple"]] - "This portal is where you can learn about the technologies developed at Eclipse to make Internet of Things (IoT) development simpler. Our technologies aim at establishing an open IoT/M2M platform to be used by anyone".
-    *[[http://www.eclipse.org/paho/|Eclipse "Paho - Open Source messaging for M2M"]] - "The Paho project provides scalable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine‑to‑Machine (M2M) and Internet of Things (IoT)".
-      *The MQTT client [[http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.python.git/|Eclipse Git "org.eclipse.paho.mqtt.python.git"]] in Python.
-  *IBM.
-    *[[http://www.ibm.com/developerworks/library/ws-mqtt/|IBM DeveloperWorks "MQ Telemetry Transport (MQTT) V3.1 Protocol Specification"]].
-    *[[http://www.ibm.com/software/products/en/wmq-telemetry|IBM "WebSphere MQ Telemetry"]].
-    *[[http://www.ibm.com/developerworks/websphere/zones/businessintegration/wmq.html|IBM DeveloperWorks "WebSphere MQ"]].
-    *[[http://www.ibmdw.net/messaging/|IBM "IBM Messaging"]].
-    *[[http://pic.dhe.ibm.com/infocenter/ism/v1r0m0/index.jsp?topic=/com.ibm.ism.doc/welcome_page/ic-homepage.html|IBM "IBM MessageSight Information Center"]] - The commercial "IBM MessageSight".
+==== Messenger Services with API ( Slack, Twitter,... ) ====
+=== Application ===
+  *By its API, you may use the messaging service for IOT communications:
+    *Output of IOT data.
+    *Entering commands.
+  *Warning: If you exceeed the limited data volume set by the online service provider, your account will be locked.
+==== Data Distribution Service ( DDS ) ====
+  *Object Management Group, Inc. ( OMG ).
+    *[[http://www.omg.org/hot-topics/iot-standards.htm|Object Management Group, Inc. ( OMG ) "OMG and the IIoT"]].
+    *[[http://www.omg.org/spec/DDS/|Object Management Group, Inc. ( OMG ) "Data Distribution Service (DDS)"]].
+    *[[http://portals.omg.org/dds/|DDS Portal]] - "Proven Data Connectivity Standard for the Internet of Things The Data Distribution Service (DDS)".
+  *[[http://www.rti.com/products/dds/omg-dds-standard.html| Real-Time Innovations ( RTI ) "DDS Standard"]] - "Download Now. DDS Messaging Software. Free for Evaluation, IR/D, Research, and Academica".
+  *[[http://en.wikipedia.org/wiki/Data_Distribution_Service|EN.Wikipedia "Data Distribution Service"]], [[http://de.wikipedia.org/wiki/Data_Distribution_Service|DE.Wikipedia "Data Distribution Service"]].
+==== MQ Telemetry Transport ( MQTT ) ====
+=== The Protocol ===
   *[[http://www.mqtt.org/|MQ Telemetry Transport ( MQTT )]].
     *[[http://mqtt.org/wiki/doku.php/brokers|MQ Telemetry Transport "brokers"]].
     *[[http://mqtt.org/wiki/doku.php/server_support|MQ Telemetry Transport "server_support"]].
-    *[[https://www.youtube.com/user/IBMmessagingMedia|YouTube Channel "IBM MessageSight"]].
+    *[[http://www.youtube.com/user/IBMmessagingMedia|YouTube Channel "IBM MessageSight"]].
       *[[http://www.youtube.com/watch?v=Hge421-w_iA|YouTube "IBM MessageSight Demo!"]].
   *[[http://www.oasis-open.org/committees/mqtt/charter.php|OASIS - Advanced open standards for the information society "OASIS Message Queuing Telemetry Transport (MQTT) TC"]].
+=== Tools ===
+== Eclipse ==
+  *[[http://iot.eclipse.org/|Eclipse Working Group "iot.eclipse.org - IoT development made simple"]] - "This portal is where you can learn about the technologies developed at Eclipse to make Internet of Things (IoT) development simpler. Our technologies aim at establishing an open IoT/M2M platform to be used by anyone".
+  *[[http://www.eclipse.org/paho/|Eclipse "Paho - Open Source messaging for M2M"]] - "The Paho project provides scalable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine‑to‑Machine (M2M) and Internet of Things (IoT)".
+    *The MQTT client [[http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.python.git/|Eclipse Git "org.eclipse.paho.mqtt.python.git"]] in Python.
+== IBM ==
+  *[[http://www.ibm.com/developerworks/library/ws-mqtt/|IBM DeveloperWorks "MQ Telemetry Transport (MQTT) V3.1 Protocol Specification"]].
+  *"WebSphere MQ Telemetry" for Windows 64-bit and Linux 64-bit.
+    *The commercial [[http://www.ibm.com/software/products/en/wmq-telemetry|IBM "WebSphere MQ Telemetry"]].
+    *The free [[http://www.ibm.com/developerworks/websphere/zones/businessintegration/wmq.html|IBM DeveloperWorks "WebSphere MQ"]].
+    *[[http://www.ibmdw.net/messaging/|IBM "IBM Messaging"]].
+    *[[http://pic.dhe.ibm.com/infocenter/ism/v1r0m0/index.jsp?topic=/com.ibm.ism.doc/welcome_page/ic-homepage.html|IBM "IBM MessageSight Information Center"]] - The commercial "IBM MessageSight".
+  *"IBM Integration Bus" for Windows 64-bit and Linux 64-bit.
+    *See [[esb.html|Enterprise Service Bus ( ESB ) / Enterprise Service Architecture ( ESA )]].
+    *The free "IBM Integration Bus for Developers" includes "IBM WebSphere MQ" and is by this a valuable free GUI tool for developers to play with MQTT Protocol. E.g. to explore how "Last Will and Testament" messaging works.
+== MQTT Broker ==
+  *[[http://www.mosca.io/|Mosca. MQTT broker as a module]], [[http://www.github.com/mcollina/mosca|GitHub "mcollina/mosca"]] - "MQTT broker as a module" for Node.JS.
 === Online Services ===
   *IBM Bluemix - See [[saas.html|Software As A Service ( SAAS ) 1/2]].
   *Xively - See [[saas.html|Software As A Service ( SAAS ) 1/2]]. 
+=== Resources ===
+  *MQTT helps to decouple systems, e.g. by the feature Feature "Last Will and Testament".
 
 ==== NetDACS ====
   *The legendary but discontinued "NetDACS" Java-based M2M protocol, by [[http://web.archive.org/web/*/http://www.gyro-net.de/|Gyro Informatec GmbH]], Hannover ( - 2004-03-29 ).
@@ -182,7 +210,9 @@ Related pages:
     *[[http://www.atmel.com/tools/ATAK55002-V2.aspx|Atmel Corporation "ATAK55002-V2"]] - Shield for Arduino. "The ATA8520 device is preprogrammed with SIGFOX ID and PAC for registration at the SIGFOX backend. It can communicate to any SIGFOX base station in receiving distance".
     *[[http://www.atmel.com/tools/ATAK55002-V3.aspx|Atmel Corporation "ATAK55002-V3"]] - Extension board for Xplained PRO kits. "The ATA8520 device is preprogrammed with SIGFOX ID and PAC for registration at the SIGFOX backend. It can communicate to any SIGFOX base station in receiving distance".
   *[[http://www.atmel.com/products/wireless/smartrf/tranceiver_ics.aspx|Atmel Corporation "Smart RF / Tranceiver ICs"]] - As of 2015-06, there are no SIGFOX transceiver chips available. I was told by experts, that this might change in the near future, as receiving commands from the SIGFOX base stations might be a useful features, from point of view of SIGFOX.
-
+=== Free Online Services ===
+    *Twitter -> See [[internet02.html|Internet Services 2/2]]. 
+    *Slack -> See [[iphones.html|Internet Messenger, IP Telephony, Video Conferencing, Voice Over IP, Unified Messaging, Unified Communicationsiphones.html]]. 
 ==== Time-Sensitive Networking ====
   *[[http://www.ieee802.org/1/pages/tsn.html|IEEE "Time-Sensitive Networking Task Group"]].
   *Experts told me that they consider it as an alternative to MQTT and OPC-UA.
@@ -209,7 +239,7 @@ Related pages:
   *[[http://www.infoq.com/articles/practical-mqtt-with-paho|InfoQ "Practical MQTT with Paho"]], 2013-11-08.
   *[[http://www.dennisseidel.de/mqtt-eine-einfuhrung/|Dennis Seidel "MQTT – Eine Einführung"]].
   *[[http://blogs.vmware.com/vfabric/2013/02/choosing-your-messaging-protocol-amqp-mqtt-or-stomp.html|VMware Blogs "Choosing Your Messaging Protocol: AMQP, MQTT, or STOMP"]], 2013-02-19.
-  *[[http://en.wikipedia.org/wiki/MQ_Telemetry_Transport|EN.Wikipedia "MQ Telemetry Transport"]], [[http://de.wikipedia.org/wiki/MQ_Telemetry_Transport|DE.Wikipedia "MQ Telemetry Transport"]].
+  *[[http://en.wikipedia.org/wiki/MQTT|EN.Wikipedia "MQTT"]], [[http://de.wikipedia.org/wiki/MQ_Telemetry_Transport|DE.Wikipedia "MQ Telemetry Transport"]].
   *[[http://en.wikipedia.org/wiki/Telemetry|EN.Wikipedia "Telemetry"]], [[http://de.wikipedia.org/wiki/Telemetrie|DE.Wikipedia "Telemetrie"]].
   *[[http://wiki.xmpp.org/web/InternetOfThings|XMPP Wiki "InternetOfThings"]].
 
@@ -223,6 +253,12 @@ Related pages:
     *"LCN-MNO Musterkoffer / Schulungskoffer".
   *[[http://www.bus-profi.de/|Bus-Profi Gebäudeleittechnik GmbH]] - Schalten, Überwachen, Steuern, Regeln. Ihr Partner für moderne Gebäudetechnik, "Planung, Beratung und Service für Gebäudeleittechnik / Gebäudeautomation", "Deutschlands größte Knowledgebase für LCN-Gebäudeleittechnik und Handel für Komponenten zum LCN-System".
   *[[http://www.knx.org/|KNX Association]] #.
+    *[[http://www.knx.org/knx-de/software/|KNX Association "Software-Tools für KNX"]].
+      *[[http://www.knx.org/knx-de/software/ets/|KNX Association "ETS"]] ( "Engineering Tool Software" ) - "Ein herstellerunabhängiges Installationswerkzeug für die Planung und Konfiguration intelligenter Haus- und Gebäudesystemtechnik mit dem KNX System".
+      *[[http://wbt5.knx.org/|KNX ETS5 eCampus]] - "web based training". 
+        *"Upon successful completion you receive a voucher valid on an ETS Lite license and a voucher valid on the update price from ETS Lite to ETS Professional".
+        *[[http://www.mydealz.de/deals/knx-ets5-lite-online-fast-gratis-trotzdem-90-75-ersparnis-169-40-411956|mydealz "KNX ETS5 Lite Online (fast gratis) trotzdem 90,75EUR ( Ersparnis: 169,40EUR )"]].
+    *[[http://www.abb.de/knx|ABB "Gebäude-Systemtechnik"]] -> KNX / iBus / Instabus.
     *[[http://en.wikipedia.org/wiki/European_Installation_Bus|EN.Wikipedia "KNX (standard)"]], [[http://en.wikipedia.org/wiki/Instabus|EN.Wikipedia "Instabus"]] = "European Installation Bus" (EIB).
   *[[http://www.echelon.com/|Echelon Corporation]].
     *[[http://en.wikipedia.org/wiki/LonWorks|EN.Wikipedia "LonWorks"]].
@@ -275,6 +311,14 @@ Related pages:
     *[[http://www.relay.de/|RELAY GmbH]].
     *[[http://en.wikipedia.org/wiki/Meter-Bus|EN.Wikipedia "Meter-Bus"]], [[http://de.wikipedia.org/wiki/M-Bus_%28Feldbus%29|DE.Wikipedia "M-Bus (Feldbus)"]].
   *"Wireless M-Bus" -> see [[wireless.html|Wireless Networks]].
+  *Modbus.
+  *"Smart Message Language" ( SML ).
+    *Software implementations.
+      *[[http://www.github.com/dailab/libsml|GitHub "dailab/libsml"]] - "Implementation in C of the Smart Message Language (SML) protocol".
+      *[[https://www.openmuc.org/index.php?id=63|OpenMUC "SML - OVERVIEW"]] - "jSML is an LGPL licensed Java library implementing the Smart Message Language (SML)".
+    *[[http://wiki.volkszaehler.org/software/sml|volkszaehler.org - Das Smart Meter für Jeden - Wiki "Smart Message Language"]].
+    *[[http://de.wikipedia.org/wiki/Smart_Message_Language|DE.Wikipedia "Smart Message Language"]].
+    *[[http://wiki.wireshark.org/SML|Wireshark "Smart Message Language (SML)"]].
   *"S0" pulse counter interface / protocol.
     *[[http://www.hw-group.com/products/HWg-PWR/hwg-pwr_en.html|HW group "HWg-PWR: M-Bus IP energy meter (SNMP, WEB)"]] - "M-Bus or S0 pulse counter? The M-Bus is a standard in energy metering. **As opposed to pulse counters (S0)**, it works with absolute values (acquired data can be used as an argument against the utility bill). At the same time allows working with additional values (quantities), such as voltage, current, flow, drift, etc.". 
     *[[http://www.saia-pcd.com/en/products/energymeter/Pages/cc.aspx|Saia-Burgess Controls AG "Energy management
@@ -286,7 +330,14 @@ S-Energy – capture, display and log consumption values"]] - "Bus-compatible el
   *PRIME ( PoweRline Intelligent Metering Evolution ).
     *[[http://www.iberdrola.es/|Iberdrola, S.A.]], Spain.
     *[[http://www.prime-alliance.org/|PRIME Alliance]].
-
+=== Available Meters and its Interfaces & Protocols ===
+  *[[http://www.abb.de/knx|ABB "Gebäude-Systemtechnik"]] -> KNX.
+    *[[https://www02.abb.com/global/atabb/atabb100.nsf!OpenDatabase&db=/global/atabb/atabb104.nsf&v=1A06&e=ge&c=36D79023A80E3D6EC12578EA005041E3|ABB in Österreich "Die neuen EQ-Energiezähler von ABB"]].
+      *"Die neuen EQ- Energiezähler von ABB, mit ihrer einzigartigen Funktionalität, sind 'Bausteine' eines Sub- Metering- Systems und bieten unter Einbeziehung ihrer Funktionalitäten, eine nahtlose Integration in Echtzeit- Automatisierungs- und Informationssysteme".
+      *"Zur Grundausführung aller EQ- Meter gehört die Multimeterfunktion sowie ein Impuls oder Alarmausgang. Mit der eingebauten Infrarot Schnittstelle kann über Adapter die Integration in alle industriell bedeutenden Bus und Übertragungssysteme gewährleistet werden".
+    *[[http://www.abb.de/product/seitp329/d9ef7b967afe8968c1257aa0003cfd29.aspx|ABB "Energiezähler, Mess- und Analysegeräte"]].
+      *Produktprospekt "Three phase electricity meters A43 and A44. EQ meters ..from ABB".
+      *"ABB electricity meter EQ A43" & "ABB electricity meter EQ A44" are shipped with Modbus RTU & M-Bus interfaces. By an additional proprietary optical interface with proprietary protocol, a KNX module may be attached to the meter.
 ==== Protocols for Building Automation ====
   *[[http://www.eebus.de|EEBus]].
     *[[http://www.kellendonk.de/eebus/|	Kellendonk Elektronik GmbH]].
@@ -316,9 +367,6 @@ Installed in Electric Power Substations. IEC 61850 and IEEE 1613"]].
     *"Module und Werkzeuge für IEC 61850".
     *"Werkzeuge für IEC 60870-5-103".
   *[[http://www.sisconet.com/|SISCO, Inc "MMS-EASE Lite"]] -  "A source code product for embedding the IEC 61850 protocols in Intelligent Electronic Devices (IEDs) such as RTUs, reclosers, PLCs, meters and other resource constrained systems".
-==== IEC 60870 ====
-  *[[http://en.wikipedia.org/wiki/IEC_60870|EN.Wikipedia "IEC 60870"]], [[http://de.wikipedia.org/wiki/IEC_60870|DE.Wikipedia "IEC 60870"]] for electrical engineering and power system automation.
-  *[[http://en.wikipedia.org/wiki/IEC_60870-5|EN.Wikipedia "IEC 60870-5"]] -> "IEC 60870-5-104" = "IEC104".
 ==== IEEE 1588 ====
   *[[http://www.nist.gov/el/isd/ieee/ieee1588.cfm|NIST "IEEE 1588 Standard for A Precision Clock Synchronization Protocol for Networked Measurement and Control Systems"]].
   *[[http://www.lxistandard.org/|LXI Consortium: LXI - LAN eXtensions for instrumentation]].
@@ -326,15 +374,32 @@ Installed in Electric Power Substations. IEC 61850 and IEEE 1613"]].
   *[[http://www.ni.com/white-paper/7255/en/|National Instruments "What Is LXI?"]].
   *[[http://en.wikipedia.org/wiki/Precision_Time_Protocol|EN.Wikipedia "Precision Time Protocol"]], [[http://de.wikipedia.org/wiki/Precision_Time_Protocol|DE.Wikipedia "Precision Time Protocol"]].
   *[[http://en.wikipedia.org/wiki/LAN_eXtensions_for_Instrumentation|EN.Wikipedia "LAN eXtensions for Instrumentation"]], [[http://de.wikipedia.org/wiki/LAN_eXtensions_for_Instrumentation|DE.Wikipedia "LAN eXtensions for Instrumentation"]].
-==== Some other Process Automation Networks and Protocols ====
+==== Telecontrol Protocols for the Process Industry ====
+=== Distributed Network Protocol ( "DNP3" ) ===
   *[[http://en.wikipedia.org/wiki/DNP3|EN.Wikipedia "DNP3"]], [[http://de.wikipedia.org/wiki/DNP3|DE.Wikipedia "DNP3"]] ( Distributed Network Protocol ) - "A set of communications protocols used between components in process automation systems. It was developed for communications between various types of data acquisition and control equipment. It plays a crucial role in SCADA systems, where it is used by SCADA Master Stations (aka Control Centers), Remote Terminal Units (RTUs), and Intelligent Electronic Devices (IEDs)".
+=== Modbus ===
+  *See in other sections of this page.
+=== IEC 60870 ===
+  *[[http://en.wikipedia.org/wiki/IEC_60870|EN.Wikipedia "IEC 60870"]], [[http://de.wikipedia.org/wiki/IEC_60870|DE.Wikipedia "IEC 60870"]] for electrical engineering and power system automation.
+  *[[http://en.wikipedia.org/wiki/IEC_60870-5|EN.Wikipedia "IEC 60870-5"]] -> "IEC 60870-5-104" = "IEC104dd
+=== DIN 43863 IP-Telemetrie ===
+  *[[http://www.beuth.de/de/norm-entwurf/din-43863-4/92508243|Beuth Verlag "DIN 43863-4:2006-09 Zählerdatenkommunikation - IP-Telemetrie"]].
+  *[[http://www.insys-icom.com/icom/en/knowledge-base/cellular/IPT|INSYS MICROELECTRONICS GmbH "IP Telemetry with GPRS. TSC and IPT"]].
+=== SINAUT ST7 telemetry system based on SIMATIC S7 ===
+  *SINAUT ST7 telemetry system based on SIMATIC S7.
+=== Resources ===
+  *[[http://en.wikipedia.org/wiki/Telemetry|EN.Wikipedia "Telemetry"]], [[http://de.wikipedia.org/wiki/Telemetrie|DE.Wikipedia "Telemetrie"]].
+==== Some other Process Automation Networks and Protocols ====
   *"FDT/DTM" - See [[ddl.html|Device Description Languages and Device Parameterization]].
   *FOUNDATION Fieldbus ( [[http://en.wikipedia.org/wiki/Fieldbus_Foundation|EN.Wikipedia "Fieldbus Foundation"]], [[http://de.wikipedia.org/wiki/Fieldbus_Foundation|DE.Wikipedia "Fieldbus Foundation"]] ).
     *[[http://www.fieldbus.org/|Fieldbus Foundation]].
   *[[http://en.wikipedia.org/wiki/HART_Protocol|EN.Wikipedia "HART Protocol"]], [[http://de.wikipedia.org/wiki/Highway_Addressable_Remote_Transducer|DE.Wikipedia "Highway Addressable Remote Transducer"]].
     *[[http://www.hartcomm.org/|HART Communication Foundation]].
+    *The affordable HART-2-USB interface [[http://mactekcorp.com/product3.php|MACTek, A PEPPERL+FUCHS Company "VIATOR USB HART Interface. Economical and easy-to-use"]].
+    *[[http://automation-renew.blogspot.de/2013/06/hart-multidrop-mode.html|Automation and Instrumentation "HART- Multidrop Mode"]].
+      *"Multiple HART instruments may be connected directly in parallel with one another along the same wire pair, and information exchanged between those instruments and a host system, if the HART address numbers are set to non-zero values. Setting an instrument’s HART address to a non-zero value is all that is necessary to engage multidrop mode. 
+      *"The address numbers themselves are irrelevant, as long as they fall within the range of 1 to 15 and are unique to that network" ( I.e. there may be up to 15 devices in such a network ).
   *[[http://www.vhpready.de/|Industrieforum VHPready e.V.]], [[http://de.wikipedia.org/wiki/VHPready|DE.Wikipedia "VHPready"]] - "Industriestandard VHPready zur Vernetzung dezentraler Energieanlagen".
-
 ===== Electronic Busses for Embedded Systems =====
 ==== Electronic Busses in Devices ====
   *[[http://en.wikipedia.org/wiki/I2c|EN.Wikipedia "I2c"]], [[http://de.wikipedia.org/wiki/I2c|DE.Wikipedia "I2c"]] - slow.
@@ -409,7 +474,10 @@ Installed in Electric Power Substations. IEC 61850 and IEEE 1613"]].
     *[[http://www.canhack.de/viewforum.php?f=26|CANhack.de - CAN Hardware, CAN Software, CAN Protokolle - Das CAN Forum "CANUSB Adapter"]].
   *[[http://forums.fluxmedia.net/|Centrafuse Forums. Centrafuse Auto - Connected Car Apps User Community]].
     *[[http://forums.fluxmedia.net/obd-ii-auto-diagnostics/|Centrafuse Forums. Centrafuse Auto - Connected Car Apps User Community "OBD-II - Auto Diagnostics"]].
-  *[[http://www.facebook.com/ethernet.at.industry|Facebook "ethernet@industry"]].
+  *Facebook.
+    *[[http://www.facebook.com/ethernet.at.industry|Facebook "ethernet@industry"]].
+    *[[http://www.facebook.com/KNXassociation|Facebook "KNX Association"]].
+    *[[http://www.facebook.com/groups/1418201511747133/|Facebook "KNX/EIB-Bus Interessengruppe Deutschland"]].
   *[[http://freebus.org/phpBB3/|Freebus Forum]].
   *Google.
     *[[http://groups.google.com/group/modbus_developers|Google Groups "Modbus Developers"]].

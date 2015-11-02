@@ -1,0 +1,195 @@
+====== [hemmerling] Python 8/10 - IDEs & GUI Designers ======
+Related pages:
+  *[[python.html|Python 1/10]].
+  *[[python02.html|Python 2/10]].
+  *[[python03.html|Python 3/10 - Literature]].
+  *[[python04.html|Python 4/10 - Pro & Contra]].
+  *[[python05.html|Python 5/10]].
+  *[[python06.html|Python 6/10 - Education in Python]].
+  *[[python07.html|Python 7/10 - Organisations, Conferences, Barcamps & Events]].
+  *[[python09.html|Python 9/10 - Modules & Frameworks]].
+  *[[python10.html|Python 10/10 - Web Application Frameworks]].
+  *[[erp02.html|ERP 2/2 - The OpenSource ERP Systems "TinyERP" / "OpenERP" / "Odoo" and the Fork "Tryton"]].
+  *[[uscripting.html|Scripting Programming Languages for Unix / Linux and Windows]].
+===== Free and OpenSource IDEs & IDE Plugins & GUI Designers =====
+==== IDEs & IDE Plugins ====
+  *The OpenSource IDE [[http://eric-ide.python-projects.org/|The Eric Python IDE]] for Python makes use of Python, QT, PyQt, QScintilla.
+  *The openSource IDE "IDLE (Python GUI)", shipped with the Python development system.
+    *It may be called by:
+      *C:\Program Files\Python 2.7\pythonw.exe" "C:\Program Files\Python 2.7\Lib\idlelib\idle.pyw" -e "%1"
+    *Call on my computer, with modified path:
+      *D:\int\w32\develop\Python2\pythonw.exe" "D:\int\w32\develop\Python2\Lib\idlelib\idle.pyw" -e "%1"
+    *Look for "Python.File" with RegEdit for fixing the definition!
+  *[[http://www.ipython.org/|IPython]].
+    *Wiki [[http://wiki.ipython.org/|IPython Wiki]].
+    *[[http://en.wikipedia.org/wiki/IPython|EN.Wikipedia "IPython"]].
+  *Eclipse
+    -"Eclipse" with "Dynamic Languages Toolkit" ( DLTK ) - See [[sdevtools.html|Software Development Tools]].
+      *[[http://www.eclipse.org/downloads/packages/eclipse-php-developers/lunasr2|Eclipse for PHP Developers]] is shipped with DLTK :-).
+    -[[http://www.pydev.org/|PyDev]], [[http://pydev.sourceforge.net/|Sourceforge "Pydev"]], [[http://www.sourceforge.net/projects/pydev|Sourceforge "Pydev"]], [[http://www.github.com/aptana/Pydev|Github "aptana / Pydev"]] - "A Python IDE for Eclipse, which may be used in Python, Jython and IronPython development", "PyDev is now preinstalled in [[http://aptana.com/products/studio3|Aptana Studio 3]]".
+      *[[http://www.pydev.org/manual_101_interpreter.html|PyDev "Configuring the interpreter"]].
+      *"Aptana Studio 3 requires Firefox for JavaScript debugging support".
+  *The OpenSource IDE [[http://pydevelop.sourceforge.net/|SourceForge "PyDevelop"]], [[http://www.sourceforge.net/projects/pydevelop|SourceForge "PyDevelop"]] for Windows with .NET 4.0, with support of Python 2.7.
+  *[[http://code.google.com/p/pyscripter/|Google Code "pyscripter"]] - "An open-source Python Integrated Development Environment (IDE)".
+    *[[http://code.google.com/p/pyscripter/issues/detail?id=772|Google Code "Pyscripter", Ticket #772 "Pyscripter 2.5.3 denies the exit() request of Tkinter programs generated with SpecTCL, on Windows"]].
+    *[[http://code.google.com/p/pyscripter/issues/detail?id=773|Google Code "Pyscripter", Ticket #773 "Pyscriptor gives error 'could not be properly initialized' when run against python 3.4.1"]], [[http://code.google.com/p/pyscripter/issues/detail?id=775|Google Code "Pyscripter", Ticket #775 "Python could not be properly installed. We must quit"]], [[http://code.google.com/p/pyscripter/issues/detail?id=776|Google Code "Pyscripter", Ticket #776 "Pyscripter 2.5.3 does not run on Python 3.4.1 - Suggestion: Please provide an updated version with Python 3.4 support"]].
+    *"This is the 32-bit version of PyScripter. If you are using a 64-bit version of Windows please note that PyScripter will only work if a 32-bit version of Python is installed".
+    *"For compatibility with Python 2.6, 2.7 and 3.x, this PyScripter version requires the latest C++ Redistributable Package.  This is automatically installed by Python 2.6, 2.7 and 3.x.".
+    *"Versions later than 1.8 contain support for remote debugging.  Read [[http://code.google.com/p/pyscripter/wiki/RemoteEngines|Google Code "pyscripter" - "Remote Interpreter and Debugger"]] for details.  
+  *Pythonwin IDE.
+    *The OpenSource Pythonwin IDE is shipped with [[http://starship.python.net/crew/mhammond/win32/|Mark Hammond "Python for Windows Extensions"]], [[http://pywin32.sourceforge.net/|Sourceforge "Python for Windows extensions"]], [[http://www.sourceforge.net/projects/pywin32/|Sourceforge "Python for Windows extensions"]].
+    *It may be called by:
+      *C:\Program Files\Python 2.7\Lib\site-packages\Pythonwin\Pythonwin.exe /edit "%1"
+    *Call on my computer, with modified path:
+      *D:\int\w32\develop\Python2\Lib\site-packages\Pythonwin\Pythonwin.exe /edit "%1"
+    *Look for "Python.File" with RegEdit for fixing the definition!
+    *[[http://www.python.net/crew/skippy/win32/PythonwinPreview.html|Mark Hammond "Pythonwin Version2 Beta"]] - outdated infos.
+  *[[http://code.google.com/p/spyderlib/|Google Code "spyderlib. Spyder is the Scientific PYthon Development EnviRonment"]] ( formerly: [[http://code.google.com/p/pydee/|Google Code "pydee"]] ) - "A powerful interactive development environment for the Python language with advanced editing, interactive testing, debugging and introspection features".
+  *The DonationWare "SPE IDE - Stani's Python Editor".
+    *[[http://pythonide.stani.be/|SPE IDE - Stani's Python Editor. Free python IDE for Windows,Mac & Linux with UML,PyChecker,Debugger,GUI design,Blender & more]].   
+    *Blog [[http://pythonide.blogspot.de/|SPE IDE - Stani's Python Editor. Free python IDE for Windows,Mac & Linux with UML,PyChecker,Debugger,GUI design,Blender & more]].
+    *[[http://developer.berlios.de/projects/python/|BerliOS - BerliOS Developer Open Source Development "Stani's Python Tools"]].
+  *Microsoft Visual Studio as Python IDE.
+    *"Python Tools for Visual Studio 2013", also for "Microsoft Visual Studio Community 2013.4".
+      *The OpenSource [[http://pytools.codeplex.com/|CodePlex "Python Tools for Visual Studio 2013"]], [[http://microsoft.github.io/PTVS|GitHub.io "Python Tools for Visual Studio"]], [[http://www.github.com/Microsoft/PTVS|GitHub "Microsoft/PTVS"]].
+    *"Visual Studio Python Express" ( "VS Python Express" ) IDE.
+      *Components.
+        -The free "Integrated Shell" or the commercial "Microsoft Visual Studio Professional" 2010 / 2012.
+        -The OpenSource plugin [[http://pytools.codeplex.com/|Codeplex "Python Tools for Visual Studio"]].
+      *[[http://www.windowsazure.com/en-us/develop/python/common-tasks/install-python/|Windows Azure "Installing Python and the SDK"]].
+      *[[http://www.hanselman.com/blog/OneOfMicrosoftsBestKeptSecretsPythonToolsForVisualStudioPTVS.aspx|Scott Hanselman "One of Microsoft's Best-Kept Secrets - Python Tools for Visual Studio (PTVS)"]].
+  *The OpenSource IDE [[http://xrope.sourceforge.net/|SourceForge "xRope: A lightweight IDE for Python"]], [[http://www.sourceforge.net/projects/xrope|SourceForge "xRope"]].
+==== GUI Designers ====
+=== Tkinter Tools ===
+  *The OpenSource GUI builder [[http://page.sourceforge.net/|SourceForge "PAGE - Python Automatic GUI Generator"]], [[http://www.sourceforge.net/projects/page|SourceForge "PAGE"]], written in Tcl/TK.
+    *"A drag-and-drop GUI generator for Python and Tkinter aimed at building Python modules which can display a relatively simple GUI constructed from Tk and ttk widget sets using the Place Geometry Manager".
+    *[[http://page.sourceforge.net/html/|SourceForge "PAGE" - "PAGE 4.4.5 documentation"]].
+  *The OpenSource GUI builder [[http://ptkgb.sourceforge.net/|SourceForge "Python Tk Gui Builder"]], [[http://www.sourceforge.net/projects/ptkgb|SourceForge "Python Tk Gui Builder"]] for Python 2. 
+      *Ptkgb requires PIL ( pktgb.py -> "import ImageTK" ).
+        *Linux:
+          *[[http://www.effbot.org/imagingbook/imagetk.htm|The Python Imaging Library Handbook "The ImageTk Module"]] - "If you’re using a prebuilt version of PIL, you might need to install additional packages to be able to use the ImageTk module. For example, on Ubuntu, you need both python-imaging and python-imaging-tk".
+        *Windows:
+          *[[http://www.pythonware.com/products/pil/|Python Imaging Library (PIL)]] - "all platforms", "Windows only".
+      *Ptkgb is shipped with [[http://pmw.sourceforge.net/|SourceForge "Pmw - Python megawidgets"]], [[http://www.sourceforge.net/projects/pmw|SourceForge "Python megawidgets"]].
+  *The OpenSource GUI builder [[http://github.com/alejandroautalan/pygubu|GitHub "alejandroautalan/pygubu"]] - "A simple GUI designer for the python tkinter module".
+    *Wiki [[http://github.com/alejandroautalan/pygubu/wiki|GitHub Wiki "alejandroautalan/pygubu"]] with online handbook.
+    *[[http://www.facebook.com/alejandroautalan.sgo|Facebook "Alejandro Autalan"]].
+    *[[http://www.linkedin.com/in/alejandroautalan|LinkedIn "Alejandro Autalan"]].
+    *[[http://plus.google.com/114071730797296551464/|Google+ "Alejandro Autalan"]].
+    *[[http://www.youtube.com/user/alejandroautalan|YouTube Channel "Alejandro Autalan"]].
+      *[[http://www.youtube.com/watch?v=wuzV9P8geDg|YouTube "Pygubu hello world program"]].
+    *After installation, the GUI builder application is available by the
+      *"pygubu" shell command ( pygubu 0.94.1 and earlier ).
+      *"pygubu-designer" shell command ( since pygubu 0.95 ).
+  *The OpenSource GUI builder [[http://github.com/tmetsch/pytkgen|GitHub "tmetsch/pytkgen
+"]] - "Create Tkinter GUIs from JSON definition files".
+  *The OpenSource GUI builder [[http://www.bitflipper.ca/rapyd/|Rapyd-Tk]] for Python 2.7 with Tkinter.
+    *As of 2014-07-01 with version 1.0.2, the creation of menus does not work for me on Windows.
+  *The OpenSource GUI builders [[http://spectcl.sourceforge.net/|SourceForge "SpecTcl and GUI Builder"]], [[http://www.sourceforge.net/projects/spectcl|SourceForge "SpecTcl"]] ( formerly:  Komodo 3 GUI builder ) by [[http://sau.homeip.net/|Stephen Uhler]].
+    *"SpecTcl" may generate Python code. In the "*.ui" files, you can select that by the statement "language tkinter 8.4".
+    *[[http://spectcl.sourceforge.net/ko3-guib-docs/komodo-doc-guibuilder.html|SpecTcl - GUI Builder (Komodo Pro). Extracted from ActiveState Komodo 3.5 documentation]].
+    *[[http://spectcl.sourceforge.net/ko3-guib-docs/tcltut.html|SpecTcl - Tcl Tutorial. Extracted from ActiveState Komodo 3.5 documentation]].
+    *[[http://wiki.tcl.tk/1414|Tclers Wiki "SpecTcl"]].
+    *[[http://www.python.org/ftp/python/contrib-09-Dec-1999/Graphics/Tkinter/|Python.org "Index of /ftp/python/contrib-09-Dec-1999/Graphics/Tkinter/"]].
+    *[[http://groups.google.com/forum/#!topic/comp.lang.tcl/52KsDicZBCM|Google Groups "comp.lang.tcl", thread "What happened to spectcl?"]] - About the SpecTCL manual: "I think the user manual is pretty useless as a memory aid as it does not contain many working examples".
+    *There is a compiled binary for Windows. The source code archive "SpecTCL.tar.gz" also contains a folder "examples" just with ".ui" files, and a folder "demo" with three complete Java applications made with SpecTCL.
+    *You may select the TK version at start ( TK 8.4, 8.3,..).
+    *SpcTCL uses the "grid" geometry manager.
+    *Don't confuse with <del>[[http://docs.nscl.msu.edu/daq/spectcl/|SpecTcl Home page]]</del> -> This is a different tool :-(.
+  *The free GUI builder [[http://tk-happy.sourceforge.net/|SourceForge "tk_happy"]], [[http://www.sourceforge.net/projects/tk-happy|SourceForge "tk_happy"]].
+    *After installation, the GUI builder application is available by "run_happy" shell command.
+    *"tk_happy" uses the "place" geometry manager.
+    *There is no code generation for the functions:
+      *"Window options / Main Menu".
+      *"Window options / Resizable".
+    *If you activate the the function "Windows Options / Status Bar", and then deactivate it, the python code 'self.statusMessage.set("Welcome to codebreaker")' is kept in the Python source code file and must be disabled - by putting the command in a comment line starting with "#" - or deleted, manually.
+  *The free GUI builder "Visual Python Tkinter IDE" for Windows with .NET framework.
+    *[[http://www.pythontr.org/|Python TR / Pythonium Trade]], [[http://web.archive.org/web/*/http://www.visualpython.org/|Archive.org "visualpython.org"]] ( - 2012-08-01 ).
+    *There is no version of this application which is operable for practical use :-(.
+      *[[http://www.visualtkinter.sourceforge.net/|SourceForge "Visual Tkinter. Visual Python GUI Free Python Editor"]], [[http://www.sourceforge.net/projects/visualtkinter|SourceForge "Visual Tkinter Python IDE"]] - All properly executable editions of "Visual Python 2", especially the latest edition " Visual Python 2v0.12.2554" are not suitable for use, as the mandatory size of GUI elements is not transfered to the generated code :-(. Early editions of version 2, hosted on "Google Code" even crash at startup :-(.
+      *[[http://code.google.com/p/visualtkinter/|Google Code "visualtkinter - Visual Tkinter"]] - "VisualTkinter 1v1.6.zip" is the a working version of "Visual Python IDE". Unfortunately, there is no saving of a "design file" with the GUI designer informations. You can just save Python files. I.e. you must finish your GUI design with one strike, you can´t reload a project into the application :-(.
+    *VP makes use of the OpenSource C++ library [[http://www.scintilla.org/|Scintilla]] and of WinForms.
+    *VP uses the "place" geometry manager. 
+    *Administrative developers:
+      *[[http://sourceforge.net/u/livetogogo/|SourceForge "livetogogo"]], [[http://www.youtube.com/user/livetogogo|YouTube "livetogogo"]], [[http://www.twitter.com/livetogogo|Twitter "livetogogo, @livetogogo"]], <del>[[livetogogo@gmail.com]]</del>.
+        *[[http://www.youtube.com/watch?v=ltxr7VyrudI|YouTube "Visual Tkinter Python GUI"]].
+        *[[http://www.youtube.com/watch?v=y5kFhptGBDY|YouTube "Visual Tkinter"]].
+      *[[http://www.sourceforge.net/u/macrocoders/|SourceForge "macro coders"]].
+      *[[http://sourceforge.net/u/macroasm/|SourceForge "macroasm macroasm"]], [[http://www.youtube.com/user/macroasm|YouTube "macroasm"]].
+        *[[http://www.youtube.com/watch?v=qfwzTyU8_7E|YouTube "Visual Python Tkinter IDE"]].
+      *[[http://web.archive.org/web/*/http://www.blendertr.org|Archive.org "blendertr.org"]].
+    *Developers:
+      *[[http://sourceforge.net/u/electrocoder/|SourceForge "electrocoder"]].
+    *People who tried to use the product:
+      *[[http://www.sourceforge.net/u/jmasse64/|SourceForge "JMasse"]].
+      *[[http://www.youtube.com/user/hacker22052|YouTube "Voddy Kam"]].
+        *[[http://www.youtube.com/watch?v=CldP3Dpt0a4|YouTube "Python Visual IDE Tkinter"]].
+      *[[imprint.html|Me]] :-).
+=== Tkinter Resources ===
+  *[[http://resources.arcgis.com/en/help/main/10.2/index.html#//001500000011000000|ArcGIS Resources "Python equivalents to AML functions"]], [[http://resources.arcgis.com/en/help/main/10.2/index.html#//001500000012000000|ArcGIS Resources "Python equivalents to AML directives"]] -> Python & Tkinter example programs.
+  *[[http://code.activestate.com/lists/python-tkinter-discuss/|ActiveState Code - Lists "python-tkinter-discuss"]].
+  *ConnectX.
+    *[[http://ep2014.europython.eu/en/schedule/sessions/157/|Europython 2014, Poster Session "Session: ConnectX: The Serial Emulator Application"]] - "Tkinter + Pserial + Plotting = Disaster? Tkinter has its own loop, ence for a dynamically updated GUI , 'root.after()' method was used. 'try-except' method as used to avoid choking of serial comm while initialising".
+    *[[http://in.pycon.org/funnel/2014/159-connectx-the-serial-emulator-application|PyCon India 2014 — PyCon India Funnel "ConnectX: The Serial Emulator Application"]].
+  *[[http://www.daniweb.com/software-development/python/threads/261629/visual-tkinter|DaniWeb "Software Development > Python >
+Visual Tkinter"]] #.
+  *[[http://code.google.com/p/simplehsm/|Google Code "simplehsm. A Simple Hierarchical State Machine"]], [[http://simplehsm.googlecode.com/svn/trunk/|Google Code "simplehsm" - SVN / Trunk]], [[http://www.daniel.net.nz/simplehsm/|Daniel Newton "simplehsm"]] - Python & Tkinter sample application made with SpecTCL #.
+  *[[http://www.daniweb.com/software-development/python/threads/66698/exit-a-tkinter-gui-program|Daniweb "Exit a Tkinter GUI Program"]] - "root.destroy()" vs "root.quit()".
+  *[[http://www.google.de/?gws_rd=ssl#q=spectcl+%22DO+NOT+EDIT%22+python|Google - Search for 'spectcl "DO NOT EDIT" python']].
+  *Stack Overflow.
+    *[[http://www.stackoverflow.com/questions/20577621/initialization-just-after-tkinters-root-mainloop-has-begun-python|Stack Overflow "Initialization just after tkinter's root.mainloop() has begun (Python)"]] - "root.after(delay, command)".
+    *[[http://www.stackoverflow.com/questions/18716653/multiple-tasks-on-tkinter-canvas|Stack Overflow "multiple tasks on tkinter canvas?"]].
+=== wx Tools ===
+  *The OpenSource GUI builder "FarPy" -  This "GUIE (GUI Editor) provides a simple WYSIWYG GUI editor for many dynamic languages. Currently FarPy supports wxPython, wxRuby, wxPerl & IronPython!".
+    *[[http://farpyguie.sourceforge.net/|SourceForge "FarPy GUIE"]], [[http://www.sourceforge.net/projects/farpyguie/|SourceForge "FarPy GUIE"]], [[http://pypi.python.org/pypi/FarPy-GUIE/|Python Package Index "FarPy"]].
+    *[[http://web.archive.org/web/*/http://farpy.holev.com/|Archive.org "farpy.holev.com"]] ( - 2012-05-18 ).
+  *OpenSource GUI builder for "wxWidgets" ( formerly: "wxWindows" ) -> See [[sframeworks.html|Software Frameworks]].
+=== QT Tools ===
+  *Python Frameworks for QT -> See [[python09.html|Python 9/10 - Modules & Frameworks]].
+  *The free "QT Designer" and the "QT Creator" -> See [[sframeworks.html|Software Frameworks]].
+=== Comparison Chart: The Code generated with GUI Designers for Python ===
+^ | | || ||||| | |
+^ # | **GUI Designer** || **The generated code** ||||| **Comments** | **Recommendation for use** |
+^ ::: | **Tool name** | **Tool platform** | **GUI Framework ** | **Screen Layout** | **Is a class** | **Runtime library** | **Runtime Library License** | ::: | ::: |
+^ 1 | page | Tcl/Tk | Tkinter | Grid | Yes | | | | Yes #1 |
+^ 2 |ptkgb | Python | Tkinter | Grid | Yes | Python megawidgets ( pmw ) | MIT | | Yes |
+^ 3 |ptkgen | Python | Tkinter | Grid | No | tkgen | GPL 2.1 | Consider the runtime license if selecting it for a project | Yes |
+^ 4 |pygubu | Python | Tkinter | Grid | Yes | pygubu | GPL 3 | Consider the runtime license if selecting it for a project | Yes |
+^ 5 |QT Creator | Windows, Linux, MacOSX | PyQT | Grid | Yes | PyQT | GPL 2, GPL 3 | Consider to use the Pyside module with its LGPL license, if the runtime license doesn't fit for your project | Yes |
+^ 6 |QT Designer | Windows, Linux, MacOSX | PySide | Grid | Yes | PySide | LGPL 2.1 | | Yes |
+^ 7 |rapyd | Python | Tkinter | Grid | Yes | Run-time error handler "rpErrorHandler.py" | Public domain ? | Menu generation does not yet work | Not yet |
+^ 8 |SpecTCL | Python | Tkinter | Grid | Yes | | | | Yes #1 |
+^ 9 |tk_happy | Python | Tkinter | Place | Yes | | | The single GUI builder which offers the "Place" screen layout | Yes #1 for "place" design |
+^ 10 |Visual Python Tkinter IDE 1v1.6 | Windows with .NET | Tkinter | Place | No | | | | No |
+^ | | | | | | | | | |
+=== Tool Resources ===
+  *[[http://wiki.tcl.tk/4056|Tcler's Wiki "GUI Building Tools"]].
+  *[[http://www.stackoverflow.com/questions/1693939/need-a-gui-builder-for-tkinter-python|Stack Overflow "Need a GUI Builder for Tkinter / Python"]] - With judgements about the code generation and usabilty of the tools.
+===== Commercial IDEs =====
+  *ActiveState.
+    *The commercial IDE [[http://www.activestate.com/komodo-ide|ActiveState "Komodo IDE"]] for Windows and Linux - "The Professional IDE for Python, PHP, Ruby, JavaScript, Perl and Web Dev".
+    *The free editor [[http://www.activestate.com/komodo-edit|ActiveState "Komodo Edit"]] for Windows and Linux - "A lean editor with a sleek interface. You'll enjoy excellent coding in many web languages, including Python, PHP, Ruby, Perl, HTML, CSS and JavaScript".
+  *[[http://www.vni.com/campaigns/pyimslstudioeval/platform.php|Rogue Wave ( formerly: Visual Numerics) - PyIMSL Studio]] - "The Python component of PyIMSL Studio is available without charge for non-commercial use. PyIMSL Studio is license managed software. A license key valid for three months is included in the download file. To extend your non-commercial trial use of PyIMSL Studio, please visit the license key renewal page".
+  *The commercial IDE [[http://www.wingware.com/|Wingware Python IDE - The Intelligent Development Environment for Python Programmers]], for Windows and Linux.
+  *The IDE [[http://www.jetbrains.com/pycharm/|JetBrains "pyCharm - Powerful Python and Django IDE"]] for Windows and Linux, with free and commercial editions.
+    *[[http://www.jetbrains.com/pycharm-edu/|JetBrains "PyCharm Edu"]] - "Free, easy and professional tool to learn programming with Python".
+    *[[http://confluence.jetbrains.com/display/PYH/Previous+PyCharm+Releases|JetBrains "pyCharm - Previous PyCharm Releases"]].
+    *[[http://www.jetbrains.com/pycharm/features/editions_comparison_matrix.html|JetBrains "PyCharm Editions Comparison"]].
+    *Tutorial [[http://wiki.opencog.org/w/Installing_PyCharm|OpenCog "Installing PyCharm"]] on Linux.
+    *[[http://www.jetbrains.com/pycharm/download/installation_instructions.jsp?os=linux|JetBrains "Installation Instructions"]] for Linux.
+    *Tips:
+      *"/usr/local/bin/charm" is the default path to execute PyCharm from Linux commandline.
+      *PyCharm as all IntelliJ IDEs requires much time and computing-power for "indexing" of the file system - even with a little project -, often leading to an unsuitable performance of the IDE and inacceptable low usabilty on development systems with classical mechancial harddisks. Instead experts told me, that the performance on systems with SDD drives is acceptable, and that "any developer" has development systems with SSD drives nowadays :-(.
+    *[[http://en.wikipedia.org/wiki/PyCharm|EN.Wikipedia "PyCharm"]], [[http://de.wikipedia.org/wiki/PyCharm|DE.Wikipedia "PyCharm"]] - "PyCharm Community Edition, the open source version of PyCharm, became available on 22 October 2013".
+===== Editors with some ( highlighting ) Support for Python =====
+  *The OpenSource [[http://www.geany.org/|Geany]] for Linux and Windows.
+    *[[http://en.wikipedia.org/wiki/Geany|EN.Wikipedia "Geany"]], [[http://de.wikipedia.org/wiki/Geany|DE.Wikipedia "Geany"]].
+  *[[http://www.stackoverflow.com/questions/2094105/how-can-i-configure-geany-to-compile-and-run-my-python-programs|Stackoverflow "How can I configure Geany to compile and run my Python programs?"]] - "I don't need to configure anything in geany, I just hit F5 and current module is executed".
+===== Resources =====
+  *[[http://www.informit.com/articles/article.aspx?p=23288&seqNum=4|InformIT "Boudewijn Rempt: The Age of the Commercial Python IDE: BlackAdder and Komodo Compared"]], 2001.
+  *[[http://wiki.python.org/moin/IntegratedDevelopmentEnvironments|Python Wiki "IntegratedDevelopmentEnvironments"]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Programming/Languages/Python/|OpenDirectory "Top: Computers: Programming: Languages: Python]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Programmieren/Sprachen/Python/|OpenDirectory "Top: World: Deutsch: Computer: Programmieren: Sprachen: Python"]].
+ {{tag>"Unix script language" "script language" Python}}
+<footnote_navi_en>

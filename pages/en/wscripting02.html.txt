@@ -3,6 +3,8 @@ Related page:
   *[[wscripting.html|Scripting Programming Languages for Windows 1/3]].
   *[[wscripting03.html|Scripting Programming Languages for Windows 3/3 - Testing with Windows PowerShell]].
 ===== Windows PowerShell - Software =====
+==== Windows PowerShell 5 - Download for Win7, Win8.1 ====
+  *[[http://www.microsoft.com/en-us/download/details.aspx?id=48729|Microsoft Download "Windows Management Framework 5.0 Production Preview"]], 2015-09-08.
 ==== Windows PowerShell 4 - Download for Win7 ====
   *[[http://www.microsoft.com/en-us/download/details.aspx?id=40855|Microsoft Download Center "Windows Management Framework 4.0"]] - PowerShell4 plus some documents about "Desired State Configuration".
 ==== Development Tools ====
@@ -81,11 +83,20 @@ Related page:
   *"ShowUI is the next generation PowerShell module for building user interfaces in script. It’s the merger of my previous PowerShell UI project (called PowerBoots) with one by James Brundage, former Microsoft PowerShell team member and founder of Start-Automating (called WPK) which shipped in the Windows 7 resource kit".
   *[[http://pauerschell.blogspot.de/2010/04/wpf-linkcollection-for-powershell.html|PauerSchell Blog "WPF Linkcollection for PowerShell"]].
   *[[http://stackoverflow.com/questions/3664653/can-you-implement-model-view-viewmodel-using-powershell-and-wpf-using-powerboots|StackOverflow "Can you implement Model-View-ViewModel using Powershell and WPF using PowerBoots?"]].
-=== Package Manager ===
+=== Package Manager & Repositories ===
+  *There are
+    -Package repositories ( in the Clowd ).
+    -Package provider.
+    -Package manager ( on the local PC, do almost nothing, at least not "packaging" ).
+== Galleries / Repositories ==
+  *[[http://chocolatey.org/packages|Chocolatey Gallery]].
+  *[[http://gallery.technet.microsoft.com/|Microsoft TechNet Gallery]].
+  *[[http://www.nuget.org/packages|NuGet Gallery]].
+  *[[http://www.powershellgallery.com/|PowerShell Gallery]].
 == Chocolatey ==
   *[[http://www.chocolatey.org/|Chocolatey]].
     *[[http://www.chocolatey.org/packages?q=Pester|Chocolatey - Search for "Pester"]].
-    *[[http://twitter.com/chocolateynuget/|Twitter " Chocolatey NuGet, @chocolateynuget"]].
+    *[[http://twitter.com/chocolateynuget/|Twitter "Chocolatey NuGet, @chocolateynuget"]].
   *[[http://www.boxstarter.org|BoxStarter]], [[http://www.github.com/mwrock/boxstarter|GitHub "mwrock/boxstarter"]], [[http://boxstarter.codeplex.com/|CodePlex "BoxStarter"]] - "Repeatable, reboot resilient windows environment installations made easy using Chocolatey packages".
 == NuGet ==
   *[[http://www.nuget.org/|NuGet]].
@@ -97,6 +108,10 @@ Related page:
       *"To check if your copy of Visual Studio already has the NuGet extension, look for Library Package Manager in the Tools menu of Visual Studio. If your copy of Visual Studio does not already have the Library Package Manager (NuGet) extension, you can install it using the Extension Manager".
     *[[http://docs.nuget.org/docs/start-here/using-the-package-manager-console|NuGet Docs "Finding and Installing a NuGet Package Using the Package Manager Console"]].
   *Blog [[http://blog.nuget.org/|NuGet Team Blog]].
+== OneGet & PowerShellGet ==
+  *[[http://www.github.com/OneGet/|GitHub "OneGet"]], [[http://oneget.codeplex.com/|CodePlex "OneGet"]].
+  *[[http://technet.microsoft.com/en-us/library/dn835097.aspx|Microsoft Developer Network "PowerShellGet Module"]].
+  *[[http://blogs.technet.com/b/packagemanagement/archive/2015/05/05/10-things-about-oneget-that-are-completely-different-than-you-think.aspx|Microsoft TechNet Blog "PackageManagement" - "10 things about OneGet that are completely different than you think"]].
 == PSGet ==
   *[[http://www.psget.net/|PSGet]], [[http://www.github.com/psget/psget|GitHub "psget"]].
     *Alternatively you can do installation manually:

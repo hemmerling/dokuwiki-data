@@ -57,6 +57,10 @@ Related Topics:
   *[[http://www.codetrails.com/|Codetrails]] - "Crowd Recommendation Tools".
     *[[http://www.codetrails.com/crowd-recommendation-tools/getting-started|Codetrails "Getting started with Codetrails’ Crowd Recommendation Tools for Eclipse"]].
     *[[http://www.codetrails.com/products|Codetrails "[ctrl]flow"]].
+==== Font Size used by Eclipse =====
+    *[[http://www.stackoverflow.com/questions/4922305/how-can-i-change-font-size-in-eclipse-for-java-text-editors|StackOverflow "How can I change font size in Eclipse for Java text editors?"]].
+      -On the Eclipse toolbar, select Window → Preferences.
+      -Set the font size (General → Appearance → Colors and Fonts → Basic → Text Font).
 ==== Installer and Updater for Eclipse Development Environments =====
   *[[http://wiki.eclipse.org/Eclipse_Oomph_Installer|Eclipse Wiki "Eclipse Oomph Installer"]].
   *[[http://git.eclipse.org/c/oomph/|Eclipse Git repositories "oomph"]].
@@ -89,10 +93,30 @@ Related Topics:
     *[[http://msdn.microsoft.com/de-de/robotics/|Microsoft Robotics Studio Developer Center]].
     *[[http://www.microsoft.com/downloads/en/details.aspx?displaylang=en&FamilyID=c185a802-5bbe-4f28-b448-aefe63a7eff7|Microsoft Download Center "Microsoft Robotics Developer Studio 2008 R3"]].
     *[[http://msdn.microsoft.com/en-us/library/bb881626.aspx|Microsoft MSDN Library "Microsoft Robotics"]].
-==== Microsoft Visual Studio Community Edition 2013.4 & Express Editions 2013.4 ====
-  *[[https://www.visualstudio.com/en-us/downloads/|Microsoft "Visual Studio Community Edition - Download"]] - Download of offline installers.
+==== Microsoft Visual Studio Community Edition 2013.4, 2015 & Express Editions 2013.4 ====
+=== The Tools ===
+  *[[http://www.visualstudio.com/|Microsoft Visual Studio]] - "Visual Studio Community Edition".
+  *[[http://www.visualstudio.com/en-us/products/visual-studio-express-vs.aspx|Microsoft Visual Studio "Visual Studio Express"]].
   *[[http://www.visualstudio.com/en-us/products/free-developer-offers-vs.aspx|Microsoft "Everything you need to create great apps. Free"]] - "The power of the cloud, state-of-the-art tools, and agile development services provide you with the most comprehensive free developer offering ever!".
   *The "Microsoft Visual Studio Community Edition 2013.4" is shipped with [[http://msdn.microsoft.com/en-us/library/aa264396%28v=vs.60%29.aspx|Microsoft MSDN Library "Spy++"]] - "A Win32-based utility that gives you a graphical view of the system’s processes, threads, windows, and window messages".
+=== Where and How-to Download "Microsoft Visual Studio Community Edition 2015" for Offline Installation ===
+  *[[http://www.microsoft.com/en-us/download/details.aspx?id=48146|Microsoft Download Center "Microsoft Visual Studio Community 2015"]].
+    *vs_community.exe - 2.9 MB
+    *vs2015.com_enu.iso - 3.7 GByte only :-(.
+  *[[http://www.kunal-chowdhury.com/2015/07/download-visualstudio-2015.html|
+Kunal Chowdhury. A Microsoft Technology blog about Windows, Windows Phone, Silverlight, LightSwitch, WPF, XAML, CSharp, Visual Studio and .Net. "Download #VisualStudio 2015 (ISO + Web Installer)"]].
+    *[[http://go.microsoft.com/fwlink/?LinkId=615448&clcid=0x409|Visual Studio Community 2015 "ISO Image (Offline Installer)"]] -> "vs2015.com_enu.iso".
+  *"vs_community.exe /layout" -> 10.4 GByte :-).
+    *[[http://msdn.microsoft.com/en-us/library/e2h7fzkw%28v=vs.140%29.aspx|Microsoft MSDN - Microsoft Developer Network "Installing Visual Studio"]] - "Installing Visual Studio".
+      *After you download the update executable from the MSDN website to a location on your file system, run the following command at a command prompt: **<executable name> /layout**. 
+      *This command downloads all the packages for the installation.
+      *By using the /layout switch, you can download all the core installation packages, not just the ones that apply to the download machine. This approach gives you all the files that you need to run this update anywhere and may be useful if you want to install components that weren't installed originally.
+      *After you run the command, you should be prompted for the download location. Enter the location, and then choose Download.
+  *[[http://blogs.msdn.com/b/visualstudio/archive/2015/08/07/visual-studio-2015-faq.aspx|Microsoft MSDN "The Visual Studio Blog", Article "Visual Studio 2015 FAQ"]].
+  *[[http://www.stackoverflow.com/questions/30070584/how-to-install-vs2015-community-edition-offline|StackOverflow "How to install VS2015 Community Edition offline"]].
+=== Resources ===
+  *"Microsoft Visual Studio Community Edition 2015" offer C#, VB.NET, C++, F# and Python as programming languages.
+
 ==== Microsoft Visual Studio Online ====
   *[[http://hemmerling.visualstudio.com/|Microsoft Visual Studio Online "hemmerling"]].
 ==== Microsoft Visual Studio Code 2015 ====

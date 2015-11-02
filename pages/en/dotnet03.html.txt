@@ -6,10 +6,15 @@ Related pages:
   *[[dotnet.html|Microsoft .NET Framework 1/2]].
   *[[dotnet02.html|Microsoft .NET Framework 2/2]].
 
+===== .DNX ( .NET Execution Enviroment ) =====
+  *[[http://www.github.com/aspnet/dnx|GitHub "aspnet/dnx"]] - "The DNX (a .NET Execution Environment) contains the code required to bootstrap and run an application, including the compilation system, SDK tools, and the native CLR hosts".
+  *[[http://docs.asp.net/|ReadTheDocs "ASP.NET 5 Documentation"]].
+    *[[http://docs.asp.net/en/latest/dnx/|ReadTheDocs "ASP.NET 5 Documentation", ".NET Execution Environment (DNX)"]].
+    *[[http://www.dotnet-braunschweig.de/termindetails.aspx?id=116|.NET Developer Group Braunschweig "Inside .NET Core and DNX"]], 2015-09-09 - "Das DNX (.NET Execution Enviroment) ist ein Framework von Microsoft mit Eigenschaften, die man so noch in keinem Framework vorgefunden hat. Es kann als eine Mischung von Framework, Entwicklungs- und Laufzeitumgebung betrachtet werden. Mit dem DNX ist es möglich, .NET Anwendungen - vor allem für die Cloud - unabhängig von Entwicklungsumgebung, Betriebssystem und .NET Laufzeitumgebung zu entwickeln. Vor kurzem noch unvorstellbare Dinge werden damit von Microsoft direkt unterstützt: .NET ohne Windows, ohne Visual Studio und ohne .NET Framework. Eine DNX Anwendung läuft ohne Einschränkungen auf verschiedensten Plattformen und das alles ohne sich vorher auf Windows/Linux, .NET Framework/Mono und Visual Studio/SharpDevelop festlegen zu müssen. Das DNX abstrahiert für uns sämtliche Aspekte der Infrastruktur".
 ===== .NET Micro Framework and .NET Gadgeteer =====
 ==== The Frameworks ====
   *[[http://www.netmf.org/|Microsoft "Microsoft .NET Framework - Multiple Platform Support"]].
-  *[[http://netmf.codeplex.com/|CodePlex ".NET Micro Framework"]].
+  *[[http://netmf.github.io/|GitHub.io ".NET Micro Framework"]], [[http://www.github.com/NETMF|GitHub "GitHub "NETMF"]], [[http://netmf.codeplex.com/|CodePlex ".NET Micro Framework"]].
   *[[http://www.netmf.com/gadgeteer|Microsoft .NET Gadgeteer]], [[http://www.gadgeteer.codeplex.com/|CodePlex "Gadgeteer"]] - "Microsoft .NET Gadgeteer is an open-source toolkit for building small electronic devices using the .NET Micro Framework and Visual Studio/Visual C# Express".
   *Blog [[http://blogs.msdn.com/b/netmfteam/|MSDN Blogs ".NET Micro Framework Team Blog"]].
   *Blog [[http://blogs.msdn.com/b/net_gadgeteer/|MSDN Blogs ".NET Gadgeteer. Build all manner of electronic gadgets quickly and easily with .NET Gadgeteer"]].

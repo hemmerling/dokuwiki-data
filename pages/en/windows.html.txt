@@ -130,6 +130,21 @@ Related pages:
     *The installable downloads are stored in the "clients" directory, while the prefered ISO images are stored in the "iso" directory.
 
 ===== Fixing of Windows Errors =====
+==== #1 "Num" on external Keyboard locks internal Notebook Keyboard ====
+  *Given: 
+    *Notebook computer with Win8.1, wirless mouse + wireless keyboard attached, by a single USB stick with wireless communications. 
+    *The notebook keyboard has a numeric function block, accessable by the function key "Fn", as overlay over the normal keyboard. E.g. "0" = "m", "1" = "j", "2" = "k", "3" = "l"... The notepad keyboard doesn´t have a "Num" key.
+    *The external keyboard has a "Num" key.
+  *User experience: 
+    *Within Win8.1, the notebook keyboard just sends the numeric keys, though the function key "Fn" is not pressed. E.g. pressing the "m" key sends "0" instead of "m" or "M" to the software.
+    *At the login screen of Win8.1, the notebook keyboard works normally. E.g. pressing the "m" key sends "m" or "M" if the function key "Fn" is not pressed. 
+  *Solution: 
+    *Pressing the key "Num" on the external keyboard unlocks the internal keyboard, so that it sends the normal keys codes again ( e.g. "m" or "M" at the key "m" ). 
+    *It doesn´t help to switch off the external keyboard ( by detaching the batteries, or detaching the USB kommunications module ).
+  *Conclusion: 
+    *The keyboard driver used at the Win8.1 login screen is not the same used by Win8.1 during normal operation both in Win8.1 desktop and Win8.1 app mode. Obviously, it doesn´t evaluate & interpret the status of the "Num" key.
+    *By pressing the "Num" key on an external keyboard, a notebook keyboard gets into a special state not suitable for operation.
+==== #2 Font "Courier New" does not support style "Regular" ====
   *[[http://support.software.dell.com/de-de/sql-optimizer-for-sql-server/kb/68943|Dell Support "Error: Font ‘Courier New’ does not support style ‘Regular’ (68943)"]] - "The file should be at either C:\winnt\Fonts or C:\Windows\Fonts depending on your version of Windows".
 ===== Microsoft Resources =====
   *[[http://msdn.microsoft.com/en-us/evalcenter/|MSDN Evaluation Center]].
@@ -177,7 +192,9 @@ Related pages:
 ===== Forums, Newsgroups, Communities =====
   *[[http://www.antitux.de/|Antitux - Das Satireforum rund um das Thema Windows]].
   *[[http://forums.driverguide.com/|DriverGuide - Forum]].
-  *[[http://www.facebook.com/groups/Windows10.de/|Facebook "Windows 10 - Alles zum neuen System"]].
+  *Facebook.
+    *[[http://www.facebook.com/groups/Windows10.de/|Facebook "Windows 10 - Alles zum neuen System"]].
+    *[[http://www.facebook.com/WirsindTechNet|Facebook "Wir sind TechNet"]].
   *[[http://www.msfn.org/board/|MSFN - Microsoft Software Forum Network]] Forum.
     *[[http://www.msfn.org/board/forum/89-nlite/|MSFN - Microsoft Software Forum Network: "nLite"]].
   *[[http://www.vistax64.com/|Vista Forums]].

@@ -91,8 +91,23 @@ perl hello.pl daemon</code>
     *[[http://www.github.com/PerlDancer|Github "PerlDancer"]].
     *[[http://www.twitter.com/PerlDancer/|Twitter "PerlDancer"]].
     *Based on a MVC pattern :-).
-==== GUI Designer====
+==== GUI Designers ====
+=== GUI Designers for Gtk2 ===
+  *"Glade" & "Gtk2-GladeXML".
+    *The OpenSource GUI Builder [[http://glade.gnome.org/|Glade - A User Interface Designer]] - "By using GtkBuilder, Glade XML files can be used in numerous programming languages including C, C++, C#, Vala, Java, Perl, Python,and others".
+    *[[http://search.cpan.org/dist/Gtk2-GladeXML/GladeXML.pm|Perl CPAN "Gtk2-GladeXML"]] - "Create user interfaces directly from Glade XML files".
+=== GUI Designers for Tk ===
+  *The OpenSource GUI builders "SpecTcl and GUI Builder" -> See [[python08.html|Python 8/10 - IDEs & GUI Designers]].
+    *"SpecTcl" may either generate "Perl + TK" or "Perl + TKX" code. In the "*.ui" files, you can select that by the statement:
+      -"language perl 8.4" to generate "Perl + TK" code.
+      -"language perltkx 8.4"  to generate "Perl + TKX" code.
   *The OpenSource GUI Builder [[http://guido.sourceforge.net/|SourceForge "Guido - A Perl/Tk GUI Builder"]], [[http://www.sourceforge.net/projects/guido/|SourceForge "Guido - A Perl/Tk GUI Builder"]].
+  *The OpenSource GUI Builder [[http://search.cpan.org/~aqumsieh/ZooZ-1.2/ZooZ.pl|Perl CPAN "ZooZ.pl - A Perl/Tk GUI builder in pure Perl/Tk"]].
+    *[[http://www.perlmonks.org/?node_id=551990|PerlMonks - Message "Writing and maintaining Tk GUIs with ZooZ"]].
+=== GUI Designers for WxWidget ===
+=== Resources ===
+  *[[http://www.perlmonks.org/?node_id=627282|PerlMonks - Message "GUI Development in Perl"]].
+  *[[http://www.stackoverflow.com/questions/293094/what-rad-tools-are-out-there-for-gui-building-in-perl|StackOverflow "What RAD tools are out there for GUI building in Perl?"]].
 ==== Big Applications built with Perl Interface ====
   *The OpenSource [[http://www.imagemagick.org/|ImageMagick]] for Windows and Linux - "Convert, Edit, and Compose Images".
     *The free online service [[http://www.imagemagick.org/MagickStudio/scripts/MagickStudio.cgi|ImageMagick Studio]].

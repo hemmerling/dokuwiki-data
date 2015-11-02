@@ -21,7 +21,6 @@
   *[[games.html|Games]].
   *[[virtualworld.html|The Virtual World]].
   *[[vrml.html|Virtual Reality & Graphics]].
-
 ===== Business =====
   *[[brainbench.html|Brainbench & Elance Certifications]].
   *[[ads.html|Classified Ads]].
@@ -43,8 +42,6 @@
   *[[softskills.html|Softskills and Training]].
   *[[startup.html|Steps for Startup of a Business in Germany, A Roadmap]].
   *[[trademark.html|Trademark & Patent Research]].
-
-
 ===== Engineering =====
   *[[bautomation.html|Building Automation & Home Automation]].
   *[[cae.html|Computer Aided Engineering ( CAE )]].
@@ -53,6 +50,7 @@
   *[[lighting.html|Lighting]].
   *[[energydesign.html|Low-Energy Design and Low-Energy Building Design]].
   *[[nuclear.html|Nuclear, Non-destructive Material Testing, Radio Ecology, Radiation]].
+  *[[robotics.html|Robotics ( Robots, Drones, Industry Automation, Remote Controlled Devices, Artificial Intelligence )]].
 ===== Healthcare, Occupational Safety =====
   *[[healthcare.html|Healthcare]].
 ===== Instrumentation, Simulation, Data Aquisition, Mathematical Engineering =====
@@ -63,16 +61,16 @@
   *[[ni.html|National Instruments ( Labview, DIAdem )]].
   *[[mathcad.html|PTC Mathcad]].
   *[[simulate.html|Simulation & Model Based Development]].
-
 ===== IT Systems, IT Administration =====
   *[[competitions.html|Competitions]].
   *[[cms.html|Content Management Systems ( CMS )]].
   *[[cryptography.html|Cryptography]].
   *Databases.
-    *[[bíntelligence.html|Business Intelligence]].
-    *[[databases.html|Databases, Webserver, Webservices, SQL, XML]].
-    *[[dbadmin.html|Database Managment Tools and Database Application Development Tools]].
-    *[[nosql.html|NoSQL Databases - Not Just SQL]].
+    *[[databases.html|Data Processing 1/5 - Databases, Webserver, Webservices, SQL, XML]].
+    *[[databases02.html|Data Processing 2/5 - Descriptions of Data, Data Transfer and Data Protocols]].
+    *[[nosql.html|Data Processing 3/5 - NoSQL Databases: Not Just SQL]].
+    *[[dbadmin.html|Data Processing 4/5 - Database Managment Tools and Database Application Development Tools]].
+    *[[bíntelligence.html|Data Processing 5/5 - Business Intelligence]].
   *[[datacenter.html|The datacenter ( and automation installation ) as "trusted site"]].
   *[[devops.html|Development and Operations ( DevOps )]].
   *[[dokuwiki.html|DokuWiki]].
@@ -81,6 +79,7 @@
     *[[elearning.html|e-Learning & Blended Learning]].
     *[[moodle.html|Moodle]].
   *[[mashup.html|Enterprise Mashups & Web 2.0]].
+  *[[esb.html|Enterprise Service Bus ( ESB ) / Enterprise Service Architecture ( ESA )]].
   *[[itadministration.html|IT Administration]]
   *[[itmanagement.html|IT Management]].
   *[[trustedsite.html|Operation of a Datacenter as a "Trusted Site"]].
@@ -118,7 +117,6 @@
   *[[sla.html|Service Level Agreements ( SLA ), Customer Charter]].
   *[[groupware.html|Team Software, Collaboration Software, Groupware & Application Lifecycle Management]].
   *[[workflow.html|Workflow Engines]].
-
 ===== News, Informations, Society, Countries, States, Towns, Places =====
   *[[bielefeld.html|Bielefeld]].
   *[[apartheid.html|Discrimination by the New Pro-Foreign Apartheid - effects of Neo Colonialism in Germany]].
@@ -147,8 +145,11 @@
   *[[ddl.html|Device Description Languages and Device Parameterization]].
   *[[fieldbus.html|Fieldbuses and Automation Networks]].
   *[[fritzbox.html|FRITZ!Box]].
+  *[[iec61131.html|IEC 61131 Process Logic Control Programming PLC - PLC Systems, PLC Hardware, PLC Software]].
    *Linux, Android.
-    *[[android.html|Google Android]].
+    *[[android.html|Google Android 1/3]].
+    *[[android02.html|Google Android 2/3 - Apps]].
+    *[[android03.html|Google Android 3/3 - App Development]].
     *[[linux01.html|Linux 1/8]].
     *[[linux02.html|Linux 2/8 - Linux Distributions]].
     *[[linux03.html|Linux 3/8 - Linux Boot Loaders, Linux Build Systems, Linux Installers and Linux Implementors]].
@@ -157,6 +158,7 @@
     *[[linux06.html|Linux 6/8 - Linux with X-Terminals and Terminals]].
     *[[linux07.html|Linux 7/8 - Linux on X86, X64 and ARM Computers]].
     *[[linux08.html|Linux 8/8 - Useful Linux Commands & Linux Tricks]].
+    *[[gameapp.html|My first 3D VRML Android App, made with Unity]].
   *[[industrialdata.html|Industrial Data & Industrial Data Exchange]].
   *[[industry40.html|"Industry 4.0" & "Internet of Things" ( IOT ) & "Cyber-physical Systems"]].
   *[[mes.html|Manufacturing Execution System ( MES )]].
@@ -231,9 +233,11 @@
   *[[sis630chip2.html|SIS630 Computers 2/4 - Clevo 2700c Notebooks with RAM Problem]].
   *[[sis630chip3.html|SIS630 Computers 3/4 - Local brand names of Clevo Notebooks with SIS630S or SIS630ST Chipset]].
   *[[sis630chip4.html|SIS630 Computers 4/4 - Some other Computers with SIS630, SIS630S or SIS630ST Chipset]].
-  *[[smartblitzmerker.html|Smart Blitzmerker]].
-  *[[metering.html|Smart Metering]].
-  *[[smarttechnology.html|Smart Technology]].
+  *Smart Metering:
+    *[[smartblitzmerker.html|Smart Blitzmerker 1/2 - "Bring your own Device - Get your own Data" ( BYDD - GYOD  )]].
+    *[[smartblitzmerker02.html|Smart Blitzmerker 2/2 - Telekom Innovation Contest]].
+    *[[metering.html|Smart Metering]].
+    *[[smarttechnology.html|Smart Technology]].
   *[[ti68k.html|Texas Instruments' 68K powered Calculators "TI-89 Titanium", "TI Voyage 200"]].
   *[[msp430.html|Texas Instruments "MSP430" & "eZ430-Chronos"]].
   *[[xilinx.html|Xilinx "System on Chip" ( SoC )]].
@@ -389,13 +393,16 @@ My [[lectures.html| Lectures & Speeches]].
     *[[perl02.html|Perl 2/2]].
   *[[php.html|PHP]].
   *Python.
-    *[[python.html|Python 1/7]].
-    *[[python02.html|Python 2/7]].
-    *[[python03.html|Python 3/7 - Literature]].
-    *[[python04.html|Python 4/7 - Pro & Contra]].
-    *[[python05.html|Python 5/7]].
-    *[[python06.html|Python 6/7 - Education in Python]].
-    *[[python07.html|Python 7/7 - Organisations, Conferences, Barcamps & Events]].
+    *[[python.html|Python 1/10]].
+    *[[python02.html|Python 2/10]].
+    *[[python03.html|Python 3/10 - Literature]].
+    *[[python04.html|Python 4/10 - Pro & Contra]].
+    *[[python05.html|Python 5/10]].
+    *[[python06.html|Python 6/10 - Education in Python]].
+    *[[python07.html|Python 7/10 - Organisations, Conferences, Barcamps & Events]].
+    *[[python08.html|Python 8/10 - IDEs & GUI Designers]].
+    *[[python09.html|Python 9/10 - Modules & Frameworks]].
+    *[[python10.html|Python 10/10 - Web Application Frameworks]].
   *[[prglang.html|Programming Languages, Platforms and Runtimes]].
   *[[prototype.html|Rapid Software Application and GUI Prototyping]].
   *[[rest.html|Representational State Transfer ( REST )]].
@@ -422,14 +429,16 @@ My [[lectures.html| Lectures & Speeches]].
   *[[usability.html|Usability]].
   *[[rest.html|Representational State Transfer ( REST )]].
   *Web Technologies.
-    *[[webtech.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 1/4]].
-    *[[webtech02.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 2/4 - HTML & CSS]].
-    *[[webtech03.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 3/4 - Javascript]].
-    *[[webtech04.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 4/4 - Javascript Frameworks]].
+    *[[webtech.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 1/5]].
+    *[[webtech02.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 2/5 - HTML & CSS]].
+    *[[webtech03.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 3/5 - Javascript]].
+    *[[webtech04.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 4/5 - Javascript Development Tools]].
+    *[[webtech05.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 5/5 - Javascript Frameworks]].
   *[[windowsphone.html|Windows Phone]].
 ===== System Design, System Engineering, Requirements Engineering, Testing =====
   *[[alm.html|Application Lifecycle Management ( ALM ) 1/2]].
   *[[alm02.html|Application Lifecycle Management ( ALM ) 2/2]].
+  *[[crowdtesting.html|Crowdtesting]].
   *[[dhumanism.html|Samsung Managment: "Digital Humanism" ( 2009 ) and the "Frankfurt Declaration": "The New Management" ( 1993 )]].
   *[[sdl.html|ITU-T Specification and Description Language (SDL)]].
   *[[requirements.html|Requirements & Requirements Engineering]].
@@ -460,17 +469,16 @@ My [[lectures.html| Lectures & Speeches]].
   *[[virtualization.html|Virtual PCs, Virtualization, Virtual Computers, Computer Hardware Simulation]].
   *[[virtualbox.html|How to configure Oracle VirtualBox for W2k hosts]].
   *[[virtualpc.html|How to install and run Windows Virtual PC /  Microsoft Virtual PC]].
-
 ===== Tourism, Travelling, Cars, Cycling, Weather Reports =====
   *[[accommodation.html|Accommodation - Rooms & Beds]].
   *[[cars.html|Economy Cars]].
   *[[cycling.html|Cycling]].
-  *[[tourism.html|Tourism]].
-  *[[travel.html|Travelling, Rooms & Beds, Weather Reports]].
+  *[[table06|Göttingen - Bus Platform Table]].
   *[[maps.html|Maps & Route Planners]].
-  *[[table03.html|Transport of Bicycles by Tram, Bus and Train ( for Hannover Region )]].
   *[[table08.html|Telephone information services of the Deutsche Bahn AG]].
-
+  *[[tourism.html|Tourism]].
+  *[[table03.html|Transport of Bicycles by Tram, Bus and Train ( for Hannover Region )]].
+  *[[travel.html|Travelling, Rooms & Beds, Weather Reports]].
 ===== Internal Referers =====
 {{backlinks>.}}
 {{tag>"Table of Contents" Topics "List of Topics"}}

@@ -154,6 +154,7 @@ I want 'features'"</HTML>
 ===== BDD Tests written in Natural Text & Natural Text Parsing =====
 ==== Behave ====
 === JBehave for Java ===
+== The Tool ==
   *The OpenSource BDD development tool "JBehave" for Java.
     *[[http://www.jbehave.org/|JBehave]], [[http://www.github.com/jbehave|GitHub "jbehave"]] - no jars :-(.
     *[[http://www.grepcode.com/project/repo1.maven.org/maven2/org.jbehave/jbehave-core/|GrepCode "org.jbehave / jbehave-core"]] - "JBehave Core contains all the core functionality for running BDD stories".
@@ -162,15 +163,30 @@ I want 'features'"</HTML>
     *<del>[[http://www.java2s.com/Code/Jar/j/jbehave-core.htm|Java2 "jbehave core < j < Jar File Download"]]</del> - outdated jars :-(.
     *Tutorial [[http://www.github.com/jbehave/jbehave-tutorial|GitHub "jbehave/jbehave-tutorial"]].
       *"Behave Selenium Tutorials on the [[http://www.Etsy.com/|Etsy.com]] website".
-    *[[http://www.joecolantonio.com/2013/12/03/jbehave-bdd-how-to-get-started-using-the-eclipse-jbehave-plugin/|Joe Colantonio "JBehave BDD – How to get Started using the Eclipse jBehave Plugin"]] .
-      *To install the Eclipse JBehave Plug-In, select "http://jbehave.org/reference/eclipse/updates/" as address by the Eclipse installation assistant.
-    *[[http://www.stackoverflow.com/questions/20733703/very-simple-step-by-step-jbehave-setup-tutorial|StackOverflow "Very simple step by step JBehave setup tutorial?"]] - Example of a story class and a steps class.
-    *[[http://wiki.umn.edu/UmmCSci3601s10/SettingUpJBehaveInEclipse|University of Minnesota, UMWiki "To set up JBehave in a project in Eclipse"]].
-    *[[http://www.ontestautomation.com/up-and-running-with-jbehave/|On Test Automation "Up and running with: JBehave"]].
-    *[[http://blog.codecentric.de/en/2012/06/jbehave-configuration-tutorial/|Codecentric Blog, Andreas Ebbert-Karroum "JBehave Configuration Tutorial"]].
-    *[[http://www.github.com/ashrafuzzaman/Simple-jbehave-example|GitHub "ashrafuzzaman/Simple-jbehave-example"]].
-    *[[http://vard-lokkur.blogspot.de/2011/08/jbehave-quick-bdd-example.html|Warlock's Thoughts "JBehave - quick BDD example"]] with Spring Framework.
-    *[[http://www.ryangreenhall.com/articles/bdd-by-example.html|Ryan Greenhall "Behaviour Driven Development: By Example"]].
+== Demo Project "Shopping Cart" ==
+  *[[http://www.github.com/smartsquare/Jbehave_Examples|GitHub "smartsquare/Jbehave_Examples"]].
+  *[[http://www.slideshare.net/DanielRosowski/|SlideShare "DanielRosowski"]].
+    *[[http://www.slideshare.net/DanielRosowski/real-life-tdd|SlideShare, DanielRosowski "Real Life TDD"]].
+  *[[http://www.slideshare.net/srdk/|SlideShare "Sascha Rodekamp"]].
+    *[[http://www.slideshare.net/srdk/bdd-with-jbehave|SlideShare, Sascha Rodekamp "BDD with JBehave"]].
+  *[[http://en.wikipedia.org/wiki/Shopping_cart|EN.Wikipedia "Shopping cart"]], [[http://de.wikipedia.org/wiki/Einkaufswagen|DE.Wikipedia "Einkaufswagen"]], [[http://en.wikipedia.org/wiki/Shopping_cart_software|EN.Wikipedia "Shopping cart software"]].
+== Resources ==
+  *[[http://www.joecolantonio.com/2013/12/03/jbehave-bdd-how-to-get-started-using-the-eclipse-jbehave-plugin/|Joe Colantonio "JBehave BDD – How to get Started using the Eclipse jBehave Plugin"]].
+    *To install the Eclipse JBehave Plug-In, select "http://jbehave.org/reference/eclipse/updates/" as address by the Eclipse installation assistant.
+  *[[http://www.stackoverflow.com/questions/20733703/very-simple-step-by-step-jbehave-setup-tutorial|StackOverflow "Very simple step by step JBehave setup tutorial?"]] - Example of a story class and a steps class.
+  *[[http://wiki.umn.edu/UmmCSci3601s10/SettingUpJBehaveInEclipse|University of Minnesota, UMWiki "To set up JBehave in a project in Eclipse"]].
+  *[[http://www.ontestautomation.com/up-and-running-with-jbehave/|On Test Automation "Up and running with: JBehave"]].
+  *[[http://blog.codecentric.de/en/2012/06/jbehave-configuration-tutorial/|Codecentric Blog, Andreas Ebbert-Karroum "JBehave Configuration Tutorial"]].
+  *[[http://www.github.com/ashrafuzzaman/Simple-jbehave-example|GitHub "ashrafuzzaman/Simple-jbehave-example"]].
+  *[[http://vard-lokkur.blogspot.de/2011/08/jbehave-quick-bdd-example.html|Warlock's Thoughts "JBehave - quick BDD example"]] with Spring Framework.
+  *[[http://www.ryangreenhall.com/articles/bdd-by-example.html|Ryan Greenhall "Behaviour Driven Development: By Example"]].
+=== Jnario ===
+  *[[http://www.jnario.org/|Jnario]] - "Executable Specifications for Java".
+  *[[http://www.jnario.org/org/jnario/JnarioDocumentationSuite.html|Jnario "Jnario Documentation"]].
+  *[[http://www.github.com/sebastianbenz/Jnario|GitHub "sebastianbenz/Jnario"]].
+  *[[http://www.sebastianbenz.de/|Sebastian Benz]].
+    *[[http://www.sebastianbenz.de/introducing-jnario-executable-specifications-for-java|Sebastian Benz "Introducing Jnario - Executable Specifications for Java"]], 2012.
+    *[[http://www.sebastianbenz.de/testing-your-web-app-with-selenium-and-jnario|Sebastian Benz "Testing Web Apps with Selenium and Jnario"]], 2013.
 === Behave for .NET ===
   *The OpenSource BDD development tool [[http://www.specflow.org/|Specflow - Cucumber for .NET]], [[http://www.github.com/techtalk/SpecFlow|GitHub "techtalk/SpecFlow"]] for .NET, Silverlight, Windows Phone, Mono - "Binding business requirements to .NET code".
     *Wiki [[http://www.github.com/techtalk/SpecFlow/wiki|GitHub Wiki "SpecFlow"]].
@@ -453,13 +469,18 @@ I want 'features'"</HTML>
     *Book [[http://www.amazon.de/exec/obidos/ASIN/0321784154/hemmerling-21|Markus Gärtner "ATDD by Example: A Practical Guide to Acceptance Test-driven Development"]].
     *Book [[http://www.amazon.de/exec/obidos/ASIN/3864900468/hemmerling-21|Markus Gärtner "ATDD in der Praxis: Eine praktische Einführung in die Akzeptanztest-getriebene Softwareentwicklung mit Cucumber, Selenium und FitNesse"]].
     *[[http://www.dpunkt.de/buecher/4101/atdd-in-der-praxis.html|dpunkt.verlag GmbH "Markus Gärtner: ATDD in der Praxis"]].
+    *There are 2 throughout examples covered in the book:
+      - Airport parking lot ( "Parking calculator" ) -> in Ruby, using Cucumber.
+      - Traffic light software system -> in Java, using FitNesse, SLiM, JUnit.
 ==== Literature - Behaviour Driven Development ( BDD ) ====
-  *Book [[http://www.amazon.de/exec/obidos/ASIN/1934356808/hemmerling-21|Matt Wynne, Aslak Hellesoy: "The Cucumber Book: Behaviour-Driven Development for Testers and Developers"]].
-    *[[http://www.aslakhellesoy.com/|Aslak Hellesoy]].
-    *Blog [[http://blog.mattwynne.net/|Matt Wynne "Tea-Driven Development. Matt Wynne taking it one tea at a time"]].
-    *[[http://www.pragprog.com/book/hwcuc/the-cucumber-book|The Pragmatic Bookshelf "Matt Wynne, Aslak Hellesoy: The Cucumber Book: Behaviour-Driven Development for Testers and Developers"]].
-  *Book [[http://www.amazon.de/exec/obidos/ASIN/1937785017/hemmerling-21|Ian Dees, Matt Wynne, Aslak Hellesoy: "Cucumber Recipes: Automate Anything with BDD Tools and Techniques"]].
-    *[[http://pragprog.com/book/dhwcr/cucumber-recipes|The Pragmatic Bookshelf "Ian Dees, Matt Wynne, Aslak Hellesoy: Cucumber Recipes: Automate Anything with BDD Tools and Techniques"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/161729165X/hemmerling-21|John Ferguson Smart: "BDD in Action. Behavior-Driven Development for the whole software lifecycle"]] -> Ordered for TIB, not yet available in TIB.
+  *Matt Wynne.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1934356808/hemmerling-21|Matt Wynne, Aslak Hellesoy: "The Cucumber Book: Behaviour-Driven Development for Testers and Developers"]].
+      *[[http://www.aslakhellesoy.com/|Aslak Hellesoy]].
+      *Blog [[http://blog.mattwynne.net/|Matt Wynne "Tea-Driven Development. Matt Wynne taking it one tea at a time"]].
+      *[[http://www.pragprog.com/book/hwcuc/the-cucumber-book|The Pragmatic Bookshelf "Matt Wynne, Aslak Hellesoy: The Cucumber Book: Behaviour-Driven Development for Testers and Developers"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1937785017/hemmerling-21|Ian Dees, Matt Wynne, Aslak Hellesoy: "Cucumber Recipes: Automate Anything with BDD Tools and Techniques"]].
+      *[[http://pragprog.com/book/dhwcr/cucumber-recipes|The Pragmatic Bookshelf "Ian Dees, Matt Wynne, Aslak Hellesoy: Cucumber Recipes: Automate Anything with BDD Tools and Techniques"]].
   *Book [[http://www.amazon.de/exec/obidos/ASIN/1934356379/hemmerling-21|David Chelimsky, Dave Astels, Bryan Helmkamp, Dan North, Zach Dennis, Aslak Hellesoy: "The RSpec Book: Behaviour Driven Development with RSpec, Cucumber, and Friends"]].
     *[[http://pragprog.com/book/achbd/the-rspec-book|The Pragmatic Bookshelf "David Chelimsky, Dave Astels, Bryan Helmkamp, Dan North, Zach Dennis, Aslak Hellesoy: The RSpec Book: Behaviour Driven Development with RSpec, Cucumber, and Friends"]].
 ==== Literature - Domain-Driven Design ( DDD ) ====

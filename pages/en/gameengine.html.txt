@@ -4,6 +4,7 @@ Related page:
   *[[diagrams.html|Diagrams & Graph Visualization]].
   *[[dotnet.html|Microsoft .NET Framework 1/2]].
   *[[dotnet02.html|Microsoft .NET Framework 2/2]].
+  *[[gameapp.html|My first 3D VRML Android App, made with Unity]].
   *[[python.html|Python]].
   *[[virtualworld.html|The Virtual World]].
   *[[vrml.html|Virtual Reality & Graphics]].
@@ -44,8 +45,11 @@ Related page:
 ==== The Tool ====
   *[[http://unity3d.com/unity/download/|Unity - Download]] of current version.
   *[[http://unity3d.com/unity/download/archive|Unity download archive]] for legacy versions of Unity 3.0 and newer.
-    *Installers.
+    *Unity Editor.
     *Built-in shaders.
+    *Cache Server ( for Unity 4 and newer, needs a Pro or Team license ).
+    *Standard Assets ( for Unity 5 and newer ).
+    *Unity Installer ( for Unity 5 and newer ).
   *[[http://unity3d.com/webplayer|Unity Web Player]] - Unity Web Player for WinXP, Win7 with Internet Explorer, Firefox, Chrome, Safari, Opera.
   *[[http://answers.unity3d.com/questions/8531/download-link-for-previous-versions-of-unity3d.html|Unity Answers "Download link for previous versions of unity3d"]] -> Download URLs to the legacy version of Unity 2.6.1f3.
     *[[http://download.unity3d.com/download_unity/UnitySetup-2.6.1.exe|UnitySetup-2.6.1.exe]].
@@ -96,41 +100,14 @@ Related page:
 ==== Hardware and Software Requirements ====
 === Graphics Requirements ===
   *In case of an unsupported graphics card, or forcing unsupported graphics option ( in my case by calling Unity with command line parameter "-force-opengl" ), Unity displays the message "Unsupported graphics card. Unity Editor requires DX9 level graphics card (shader model 2.0). All graphics cards made since 2004 should be ok" and "Your graphics card is: GDI Generic".
-=== Graphics Card Driver / Lack of Memory,.. ===
-  *On my Win8 computer with [[asus_t101mt.html|ASUS Eee PC T101MT]], "Intel Atom CPU N455" CPU, "Intel Graphics Media Accelerator 3150" graphics card ( Unity regards it as "GDI Generic" ), Unity 4.2.0f4 crashes, when I load a 3D object into the scene, e.g. "GameObject / Create Other" / Cube". It does not crash if I load the Terrain object by "GameObject / Create Other" / Terrain" into the scene.
-    *[[http://forum.unity3d.com/threads/192437-Unity-4-2-Crashes-when-importing-Asset|Unity Forum "Unity 4.2 Crashes when importing Asset"]], 2013-07 -> 100% relevant, that's my case.
-    *[[http://forum.unity3d.com/threads/161496-Unity-crashing-on-asset-import|Unity forum "Unity crashing on asset import"]], 2012-06 - 2013-07.
-    *[[http://forum.unity3d.com/threads/166396-Unity-4-crashing-ALLLL-THE-time-on-mtn-lion-mac-pro|Unity Forum " Unity 4 crashing ALLLL THE time on mtn lion mac pro"]], 2013-01-15 - "crashes all the time.... When I try to import some assets from the asset store".
-    *[[http://forum.unity3d.com/threads/195577-Unity-4-2-Crash-on-Startup|Unity Forum "Unity 4.2 Crash on Startup"]].
-  *On my Win8 computer with [[asus_t101mt.html|ASUS Eee PC T101MT]], "Intel Atom CPU N455" CPU, "Intel Graphics Media Accelerator 3150" graphics card ( Unity regards it as "GDI Generic" ), Unity 4.1.5f1 and Unity 4.3.44f1 work fine.
-  *On my Win8 computer "Dell Vostro 1000", with "AMD Sempron" CPU, "ATI Xpress 1150" graphics card, both Unity 4.1.5f1, Unity 4.2.0f4 and Unity 4.3.44f1 works fine. 
 === Legacy Hardware ===
   *On my legacy Win7 computer with "Athlon XP2400" CPU, 3 GB RAM, "NVIDIA GeForce 6800 GS/XT" graphics card with 512 MBytes RAM:
     *Unity 3D version 2.6.1f3 works fine. 
       *After installation, Unity shows the snag screen "Unity v2.x. This version of Unity requires authorisation for use of it. Please press the 'Register' button to begin the authorization process. A <del>one time 30-days</del> free trial is available for everyone</del>".
       *Indeed, free operation of Unity is offered by registration anyhow ( "[x] Activate the free version of Unity" ).
-    *Unity 3D versions 4.2, 4.15,..3.0 install, but the Unity editor crashes immediately when called, by the error message published below:  :-(.
+    *Unity 3D versions 4.2, 4.15,..3.0 install, but the Unity editor crashes immediately when called, by an "APPCRASH" error message.
   *[[http://forum.unity3d.com/threads/185981-Can-t-Install-Unity|Unity Community Forums "Can't Install Unity"]].
   *[[http://answers.unity3d.com/questions/29805/why-does-unity-30-fail-to-start-on-windows.html|Unity Answers "Why does Unity 3.x fail to start on Windows?"]].
-
-^ ^ ^
-^ Problem signature: ^^
-^ Problem Event Name: | APPCRASH |
-^ Application Name: | Unity.exe |
-^ Application Version: | 4.2.0.11237 |
-^ Application Timestamp: | 51eaa01a |
-^ Fault Module Name: | Unity.exe |
-^ Fault Module Version: | 4.2.0.11237 |
-^ Fault Module Timestamp: | 51eaa01a |
-^ Exception Code: | c000001d |
-^ Exception Offset: | 00006201 |
-^ OS Version: | 6.1.7601.2.1.0.256.1 |
-^ Locale ID: | 1031 |
-^ Additional Information 1: | 0a9e |
-^ Additional Information 2: | 0a9e372d3b4ad19135b953a78882e789 |
-^ Additional Information 3: | 0a9e |
-^ Additional Information 4: | 0a9e372d3b4ad19135b953a78882e789 |
-^ | |
 
 ==== Boo ====
 === The Language ===
@@ -160,7 +137,8 @@ Related page:
   *The free [[http://vs2010boo.codeplex.com/|CodePlex "Boo syntax highlighting for Visual Studio 2010"]].
   *The free Unity Asset [[http://www.u3d.as/content/freakow/boo-inspector/|Unity "Freakow: Boo Inspector"]].
 === Resources ===
-  *[[http://booslack.blogspot.de/|A Boopository.. At the cutting-edge of irony and duck typing]]
+  *Unity is dedicated for newbies, though in general you need moderate programmer's skills to create real games. Complex action needs to be coded in C#.
+  *[[http://booslack.blogspot.de/|A Boopository.. At the cutting-edge of irony and duck typing]].
     *[[http://booslack.blogspot.de/2011/03/getting-started-with-boo-using-unity-3d.html|A Boopository.. At the cutting-edge of irony and duck typing "Getting started with Boo, using Unity 3D"]].
     *[[http://booslack.blogspot.de/2011/03/quick-unityboo-tip.html|A Boopository.. At the cutting-edge of irony and duck typing "A quick Unity/Boo tip"]].
   *[[http://spin.atomicobject.com/2012/12/29/game-programming-boo-unity-engine-part-1/|Atomic Spin "Game Programming in Boo with the Unity Engine, Part 1: Not All Who Wander Are Lost"]].
@@ -177,14 +155,31 @@ Related page:
   *[[http://www.youtube.com/user/mikbetk|YouTube "Mike Bethany"]] - Series of videos "Asteroids in Unity3D/Boo".
   *[[http://www.youtube.com/playlist?list=PLC967910E41BCEF93|YouTube Channel "totex1979"]] - "Unity boo scripting".
 ==== Resources ====
-  *[[http://www.hummelwalker.de/2011/01/05/unity3d-ki-ai-tutorial-serie/|Carsten Seifert, Hummelwalker "
-Unity3D KI / AI – Tutorial Serie"]], using C#.
+  *[[http://www.hummelwalker.de/2011/01/05/unity3d-ki-ai-tutorial-serie/|Carsten Seifert, Hummelwalker "Unity3D KI / AI – Tutorial Serie"]], using C#.
   *[[http://www.virtualgamelab.com/unity-resources.html|Game Engine Unity Learning Resources - Virtual Game Lab "Unity Resources, The Basics, Unity Books"]] #.
   *[[http://rockonflash.wordpress.com/2010/10/20/unity3d-development-actionscriptunityscript-to-c-tips/|John Grden "Coming from ActionScript / UnityScript to c#"]].
+  *[[http://www.talkingquickly.co.uk/2014/11/google-cardboard-unity-tutorial/|TalkingQuickly "Google Cardboard Unity Tutorial"]]
+    *[[http://www.youtube.com/watch?v=fRED_-LvJKQ&list=PLPV2KyIb3jR7F_B4p8X3YwHPaExh0R9Kk|YouTube "1. Unity Tutorial Basics - Create a Survival Game"]].
   *[[http://www.unityscript.com/|Terry Norton "UnityScript Lessons for Unity3D"]].
   *[[http://www.unitygems.com/|Unity Gems]] - "This web site is written and maintained by regular contributors to Unity Answers and the Unity Forums".
     *[[http://www.twitter.com/unitygems|Twitter "Unity Gems"]].
   *[[http://en.wikipedia.org/wiki/Unity_%28game_engine%29|EN.Wikipedia "Unity (game engine)"]], [[http://de.wikipedia.org/wiki/Unity_%28Spielengine%29|DE.Wikipedia "Unity (Spielengine)"]].
+===== Unreal Engine =====
+==== The Tool ====
+  *[[http://www.unrealengine.com/|Unreal Engine]] for Win7 and MacOSX - "Now FREE. FREE for game development. FREE for Virtual Reality. FREE for education. FREE for architecture. FREE for film. Pay a 5% royalty on games and applications you release. We succeed when you succeed".
+==== Blueprints Visual Scripting ====
+  *Unreal Engine is dedicated for more advanced users, though you may generate simple games by a graphical script language "Blueprints Visual Scripting", creating an "AI Node Blueprint" without any C/C++ coding. Just real complex action and games need to be coded in C/C++.
+  *[[http://www.google.de/search?q=Unreal+Blueprint|Google - Search for "Unreal Blueprint"]].
+  *[[http://docs.unrealengine.com/latest/INT/Engine/Blueprints/|Unreal Engine 4 Documentation "Blueprints Visual Scripting"]].
+  *[[http://www.unrealengine.com/blog/blueprint-basics|Unreal Engine Blog "Blueprint basics"]].
+==== Resources ====
+  *[[http://www.unrealtutorials.com/|UnRealTutorials.com - Unreal Engine 4, UDK, Blender, Unity 3D, GIMP, Adobe Flash, WordPress, HostGator, GoDaddy, Miscellaneous Tutorials, games and downloads!]].
+    *[[http://unrealtutorials.com/unreal-engine-tutorials/unreal-engine-4-tutorials/|UnRealTutorials.com "Unreal Engine 4 Tutorials"]].
+      *[[http://unrealtutorials.com/unreal-engine-tutorials/unreal-engine-4-tutorials/blueprints/|UnRealTutorials.com "Blueprints"]].
+  *[[http://www.raywenderlich.com/97058/unreal-engine-tutorial-for-beginners-part-1|Ray Wenderlich - 
+Ray Wenderlich - Tutorials for Developers & Gamers "Unreal Engine Tutorial for Beginners: Part 1"]].
+  *[[http://en.wikipedia.org/wiki/Unreal_Engine|EN.Wikipedia "Unreal Engine"]], [[http://de.wikipedia.org/wiki/Unreal_Engine|DE.Wikipedia "Unreal Engine"]].
+
 ===== Delta Engine =====
 ==== The Company ====
   *[[http://www.deltaengine.net/|Delta Engine GmbH]] - "Delta Engine - Open Source Multiplatform Game Development", "The Delta Engine allows to write games or apps in C#. It is free to use on the PC. Convert your apps to other platforms (Html5, Android, etc) via our cloud services.".
@@ -199,7 +194,6 @@ Unity3D KI / AI – Tutorial Serie"]], using C#.
     *[[http://plus.google.com/111406109896842033009/|Google+ "Delta Engine"]].
     *[[http://www.twitter.com/DeltaEngine|Twitter "Delta Engine"]].
     *[[http://www.youtube.com/exdreamduck|YouTube "Benjamin Nitschke"]].
-
 ==== The SDK Platforms ====
   *See [[3dframeworks.html|3D Graphics Frameworks]].
   *You may install the SDKs using [[http://www.nuget.org/|NuGet]].
@@ -210,8 +204,6 @@ Unity3D KI / AI – Tutorial Serie"]], using C#.
     *[[http://sharpdevelop.codeplex.com/|CodePlex "SharpDevelop - The Open Source IDE for .NET"]].
     *[[http://sharpdevelop.sourceforge.net/|SourceForge "SharpDevelop"]], [[http://www.sourceforge.net/projects/sharpdevelop/|SourceForge "SharpDevelop"]].
     *[[http://en.wikipedia.org/wiki/SharpDevelop|EN.Wikipedia "SharpDevelop"]], [[http://de.wikipedia.org/wiki/SharpDevelop|DE.Wikipedia "SharpDevelop"]].
-
-
 ===== 3D GameStudio ( formerly: "Game Studio 3D" ) =====
 ==== The Tool ====
   *[[http://www.3dgamestudio.net/|3D Gamestudio]].
@@ -268,16 +260,11 @@ Unity3D KI / AI – Tutorial Serie"]], using C#.
   *[[http://www.mycryengine.com/|CryENGINE 3]].
     *[[http://www.mycryengine.com/index.php?conid=70|CryENGINE 3 "CryENGINE Free Use"]].
     *[[http://en.wikipedia.org/wiki/CryEngine|EN.Wikipedia "CryEngine"]], [[http://de.wikipedia.org/wiki/CryEngine|DE.Wikipedia "CryEngine"]].
-  *[[http://www.unrealengine.com/|Unreal Engine]] for Win7 and MacOSX - "Now FREE. FREE for game development. FREE for Virtual Reality. FREE for education. FREE for architecture. FREE for film. Pay a 5% royalty on games and applications you release. We succeed when you succeed".
-    *[[http://en.wikipedia.org/wiki/Unreal_Engine|EN.Wikipedia "Unreal Engine"]], [[http://de.wikipedia.org/wiki/Unreal_Engine|DE.Wikipedia "Unreal Engine"]].
   *[[http://www.valvesoftware.com/|Valve Corporation]].
     *[[http://developer.valvesoftware.com/|Valve Developer Community]]
       *Wiki [[http://developer.valvesoftware.com/wiki/|Valve Developer Community Wiki]].
     *[[http://en.wikipedia.org/wiki/Source_%28game_engine%29|EN.Wikipedia "Source (game engine)"]] - "On March 3, 2015, Valve announced the Source 2 engine and that it will be free for developers".
     *[[http://de.wikipedia.org/wiki/Source_Engine|DE.Wikipedia "Source Engine"]] - "Die Website zur Source Engine ist nicht mehr verfügbar und die Source Engine kann nicht mehr lizenziert werden. Auf der Game Developers Conference 2015 wurde der Nachfolger der Source Engine, die Source 2 Engine angekündigt. Die Source 2 Engine ist komplett kostenlos, die Bedingung hierbei ist: Das Spiel muss auf Steam veröffentlicht werden. Noch ist die Source 2 Engine allerdings noch nicht öffentlich verfügbar, also ist es momentan nicht möglich sie zu verwenden".
-
-
-
 ===== Physical Engines =====
   *[[http://www.box2d.org/|Box2D]], [[http://code.google.com/p/box2d/|Google Code "box2d. A 2D Physics Engine for Games"]].
     *[[http://en.wikipedia.org/wiki/Box2D|EN.Wikipedia "Box2D"]].
@@ -315,6 +302,7 @@ Unity3D KI / AI – Tutorial Serie"]], using C#.
     *[[http://forum.unity3d.com/threads/83620-Asset-store-download-folder|Unity Community Forums "Asset store download folder?"]].
     *[[http://forum.unity3d.com/threads/18507-Boo-C-and-JavaScript-in-Unity-Experiences-and-Opinions|Unity Community Forums "     Boo, C# and JavaScript in Unity - Experiences and Opinions"]] with poll "Which Unity languages are you currently using?".
   *[[http://forums.unrealengine.com/|Unreal Engine Forums]].
+  *[[http://www.unrealengine4.de/|Unreal Engine 4 - Deutsches Forum & Community]] - "Das Unreal Engine 4 Forum ist die #1 deutsche Community zu Blueprint, C++ und generellen Unreal Engine 4 Fragen".
   *[[http://www.xing.com/net/unity-3d|XING "Unity3D"]].
-{{tag>vrml "game engine", "game engines", game, engine, engines, "virtual reality" virtual reality "3d graphics" 3d graphics}}
+{{tag>vrml "game engine", "game engines", game, engine, engines, "virtual reality" virtual reality "3d graphics" 3d graphics unity "unity 3d" unity3d unreal}}
 <footnote_navi_en>

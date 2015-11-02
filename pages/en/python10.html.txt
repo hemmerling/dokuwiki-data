@@ -1,0 +1,250 @@
+====== [hemmerling] Python 10/10 - Web Application Frameworks ======
+Related pages:
+  *[[python.html|Python 1/10]].
+  *[[python02.html|Python 2/10]].
+  *[[python03.html|Python 3/10 - Literature]].
+  *[[python04.html|Python 4/10 - Pro & Contra]].
+  *[[python05.html|Python 5/10]].
+  *[[python06.html|Python 6/10 - Education in Python]].
+  *[[python07.html|Python 7/10 - Organisations, Conferences, Barcamps & Events]].
+  *[[python08.html|Python 8/10 - IDEs & GUI Designers]].
+  *[[python09.html|Python 9/10 - Modules & Frameworks]].
+  *[[erp02.html|ERP 2/2 - The OpenSource ERP Systems "TinyERP" / "OpenERP" / "Odoo" and the Fork "Tryton"]].
+  *[[uscripting.html|Scripting Programming Languages for Unix / Linux and Windows]].
+===== How to design and create Web Applications with Web Frameworks & other Frameworks =====
+==== Comparison of Python Frameworks suitable for Web Services ====
+^ ^ ^ ^ ^ ^
+^ Framework | Webserver ^ User Interface ^ Object Relationa Model ( ORM ) ^ Database ^ Shipped with REST API functions ^ Comment ^
+^ Django | Yes | Yes | Yes | Yes | Yes, using "Django REST framework" | 
+^ Flask | Yes | No | No | No | Yes | | 
+^ Bottle | Yes | No | No | No | Yes | | 
+^ SQL Alchemy | No | No | Yes| Yes | No | Suitable for Web services, though no Web framework | 
+^ | | | | |
+==== Implementation Suggestions ====
+  *Experts suggested not to consider a self-implementation of a REST API, please use frameworks with REST support, or REST addons for frameworks :-).
+  *Experts considered:
+    *Flask and Bottle to be good to build a Web API ( with some business logic written in Python ), but no data storage is needed.
+    *Django to be good:
+      *for database-driven applications, where just a limited number of pages is provided by the application. No "new" pages are generated, but the data of existing pages is frequently updated.
+      *to do data collecting of instrumentation data of Internet-of-Thing devices, both with API ( with some business logic written in Python, making use of the data collected in the database ) and user interface. However, if the major data analysis application on the server / in the cloud is written in Java ( e.g. Opensource business intelligence software ), it should be considered to write the whole web application in Java ( e.g. with Tomcat Server ).
+==== Implementation Example =====
+  *Speech "Building data products with Flask and AngularJS" by Andy Goldschmidt on the Python Unconference Hamburg in Hamburg, 2015-09-05.
+    *[[http://www.github.com/andygoldschmidt|GitHub "Andy Goldschmidt, andygoldschmidt"]].
+      *[[http://www.github.com/andygoldschmidt/iris-webapp|GitHub "andygoldschmidt/iris-webapp"]].
+        *"Demo webapp that parses a CSV in the frontend and applies a ML algorithm on the parsed data in the backend".
+        *An AngularJS frontend in the browser -> RESTful JSON API -> Flask Web Application -> Pandas Scikit.
+        *In this special case, image processing is done in the browser, not by an OpenCV application on the server!
+        *2 Functions:
+          -Upload CVS file to classify your data.
+          -Upload images, get back numeric values.
+===== Web Servers & Web Frameworks =====
+==== AccessGrid ====
+  *[[http://www.accessgrid.org/|AccessGrid]] - Free "grid" webserver system, based on Python. "An ensemble of resources including multimedia large-format displays, presentation and interactive environments, and interfaces to Grid middleware and to visualization environments".
+==== ACME Systems ====
+  *[[http://www.acmesystems.it/python_httpserver|ACME Systems Italy "Write a simple HTTP server in Python"]].
+==== Authomatic ====
+  *[[http://peterhudec.github.io/authomatic/|GitHub.io "Authomatic"]], [[http://github.com/peterhudec/authomatic|GitHub "peterhudec/authomatic"]] - "A framework agnostic library, for Python web applications, with a minimalistic but powerful interface which simplifies authentication of users, by third party providers like Facebook or Twitter, through standards like OAuth and OpenID".
+==== Bokeh ====
+  *[[http://bokeh.pydata.org/|Bokeh]], [[http://www.github.com/bokeh/|GitHub "bokeh"]] - ""Bokeh is a Python interactive visualization library that targets modern web browsers for presentation", "Interactive Web Plotting for Python".
+==== Bottle: Python Web Framework ====
+  *[[http://www.bottlepy.org/|Bottle: Python Web Framework]], [[http://www.github.com/defnull/bottle|Github "defnull / bottle"]].
+    *[[http://www.twitter.com/bottlepy|Twitter "bottle.py"]].
+    *[[http://pypi.python.org/pypi/bottle|Python Packet Index "bottle"]].
+==== CherryPy - A Minimalist Python Web Framework ====
+  *The OpenSource [[http://www.cherrypy.org/|CherryPy - A Minimalist Python Web Framework]].
+==== Django ====
+=== The Framework ===
+  *[[http://www.djangoproject.com/|Django Software Foundation "Django"]] - "A high-level Python Web framework that encourages rapid development and clean, pragmatic design".
+  *[[http://docs.djangoproject.com/|Django Software Foundation "Django documentation"]].
+  *[[http://docs.djangoproject.com/en/1.8/faq/|Django Software Foundation "Django documentation" - "Django FAQ"]].
+  *[[http://www.readthedocs.org/projects/django/downloads/|ReadTheDocs "Django / Download"]] "Django Offline PDF Documentation" as PDF, Epub, zipped HTML,..
+  *[[http://www.github.com/django/django/archive/stable/1.7.x.zip|GitHub Archive "django/django/archive/stable/1.7.x.zip"]].
+=== Extensions and Code Snippets ===
+== Django Applications which provide functional Extensions for own Django Applications ==
+  *[[http://www.github.com/maraujop/django-crispy-forms|GitHub "maraujop/django-crispy-forms"]], [[http://django-crispy-forms.readthedocs.org/|ReadTheDocs "crispy-forms"]].
+  *[[http://www.github.com/django-extensions|GitHub "django-extensions"]], [[http://code.google.com/p/django-command-extensions/|Google Code "django-command-extensions. Django Custom Management Command Extensions"]], [[http://pypi.python.org/pypi/django-extensions|Python Package Index "django-extensions"]], [[http://django-extensions.readthedocs.org/|ReadTheDocs "django-extensions documentation"]] - "A collection of custom extensions for the Django Framework".
+== REST API ==
+  *[[http://www.django-rest-framework.org/|Django REST framework]], [[http://www.github.com/tomchristie/django-rest-framework|GitHub "tomchristie/django-rest-framework"]], [[http://pypi.python.org/pypi/djangorestframework|Python Package Index "djangorestframework"]].
+  *Examples: [[http://www.github.com/opendata-stuttgart/feinstaub-api|GitHub "opendata-stuttgart/feinstaub-api"]] - "Django project to store sensor pushed via REST api".
+== Code Snippets ==
+  *[[http://www.djangosnippets.org/|Djangosnippets]] - "A site for users of the Django web framework to come together and share useful 'snippets' of reusable code".
+== Package Resources ==
+  *[[http://www.djangopackages.com/|Django Packages]] - "A directory of reusable apps, sites, tools, and more for your Django projects".
+=== Object Relational Model ( ORM ) ===
+  *[[http://askawizard.blogspot.de/2008/10/designing-django-object-relational.html|Ask a Wizard "Designing Django's Object-Relational-Model - The Python Saga - Part 6"]].
+  *[[http://www.learn.geekinterview.com/it/data-modeling/object-relational-model.html|Geek Interview "Object-Relational Model"]].
+  *[[http://www.linuxjournal.com/article/9778|Linux Journal "At the Forge - Database Modeling with Django"]].
+  *[[http://www.jacquesmattheij.com/simple-way-store-and-retrieve-tree-based-information-django-object-relational-model-orm|Jacques Mattheij. Technology, Coding and Business "A simple way to store and retrieve tree based information in the Django object relational model (ORM)"]].
+  *[[http://www.ruddra.com/2015/09/18/make-a-blog-using-django-part-1-2/|Ruddra's Blog "Make a Blog using Django Part 1"]].
+=== How To Start with Django Development ===
+== How to proceed ==
+  -"django-admin startproject //your_projectname//".
+  -"manage.py syncdb".
+  -"manage.py pystartup //your_application//".
+  -In "//your_projectname///setup.py", disable "Debug = True" and "Template_Debug=True" for production use.
+  -Now there is the Django application available at [[http://localhost:8000/|http://localhost:8000/]], and an admin interface at [[http://localhost:8000/admin|http://localhost:8000/admin]].
+  -"manage.py admin_generator //your_application//".
+== How to setup the HTML5 Stuff for use with Django Applications ==
+  *[[http://django-marcador.keimlink.de/en/templates.html|django-Marcador. Basic Django Tutorial "9. Templates"]] "9.2. Create the base template".
+    -Click at the website [[http://www.initializr.com/|Initializr - Start an HTML5 Boilerplate project in 15 seconds!]] on "Bootstrap".
+    -In the section "H5BP Optional" check the "404 Page" option.
+=== Tutorials ===
+  *[[http://www.djangogirls.org/|Django Girls]].
+    *[[http://tutorial.djangogirls.org/|Django Girls "Django Girls Tutorial"]].
+  *[[http://django-marcador.keimlink.de/|django-marcador. Basic Django Tutorial]] - I participated in a workshop on 2015-09-04 and passed it :-) #.
+  *[[http://www.godjango.com/|GoDjango.com "Django Screencasts and Tutorials"]].
+  *[[http://www.ameerfazal.com/simple-silly-django-tutorial/|Ameer Fazal "Simple Silly Django Tutorial"]].
+  *[[http://www.github.com/fscherf/django_workshop|GitHub "fscherf/django_workshop"]] - "Slides and example project for my Django-Workshop at Hackover2014 (Hannover)".
+  *[[http://www.github.com/gauss1181/IntroDjango|GitHub "gauss1181/IntroDjango"]] - "IntroDjango. Repository for Django workshop".
+  *[[http://www.tangowithdjango.com/|Tango With Django 1.5.4]] - "A beginner's guide to web development with Django 1.5.4]].
+  *[[http://www.github.com/djangogirls/tutorial|GitHub "djangogirls/tutorial"]] - "This is a tutorial we are using for Django Girls workshops".
+=== Resources ===
+  *Experts told me: "Django" has 1000s of unactivated features. So almost everyting is already "there", so that you can use with without much own effort.
+  *"Py.test" ( See: [[unittest.html|Unit Test / Module Test]] ) is the defined as standard test framework with Django :-), there are many test application examples provided.
+  *"Django Runserver", the webserver provided with "Django", as most basic webservers provided by software frameworks, is **not** intended for production use. So you need a professional webserver ( See [[cms.html|Content Management Systems ( CMS )]] ), where you can deploy your Django web application.
+  *Structure of a website built with Django:
+    *A Django project provides a website. It is the collection of several Django apps.
+    *A Django app provides a single page ( CMS, newfeed, formular, weather report,..). The Django web application may provide an unlimited copy if the pages. But though the contents of the page is dynamic by the Python code which may include dynamic data by request, each page has a fixed task - fixed by the code at implementation time.
+    *A CMS system on the top of Django may provide a useful interface for applications, where new pages with new contents are generated frequently.
+  *[[http://ccbv.co.uk/|Classy Class-Based Views]] - "Detailed descriptions, with full methods and attributes, for each of Django's class-based generic views".
+  *Blog [[http://reinout.vanrees.org/weblog/|Reinout van Rees’ weblog]]- "I work a lot with Python (programming language) and Django (website framework)".
+  *[[http://en.wikipedia.org/wiki/Django_%28web_framework%29|EN.Wikipedia "Django (web framework)"]], [[http://de.wikipedia.org/wiki/Django_%28Framework%29|DE.Wikipedia "Django (Framework)"]].
+==== Genshi ====
+  *[[http://genshi.edgewall.org/|Genshi]] - "Python toolkit for generation of output for the web".
+    *[[http://genshi.edgewall.org/wiki/GenshiTutorial|Genshi Tutorial]] - "A simple Python web application based on [[http://www.cherrypy.org/|CherryPy - A Minimalist Python Web Framework]]".
+==== Gunicorn ====
+  *[[http://www.gunicorn.org/|Gunicorn]] - "Python WSGI HTTP Server for UNIX. It's a pre-fork worker model ported from Ruby's Unicorn project. The Gunicorn server is broadly compatible with various web frameworks, simply implemented, light on server resources, and fairly speedy".
+==== iix - a simple python webserver ====
+  *[[http://code.google.com/p/iix/|Google Code "iix - a simple python webserver"]].
+==== Flask ====
+  *[[http://www.pocoo.org/|Pocoo]].
+    *[[http://flask.pocoo.org/|Pocoo "Flask web development, one drop at a time"]] - "A microframework for Python based on Werkzeug, Jinja 2 and good intentions".
+      *[[http://flask.pocoo.org/docs/|Pocoo "Flask web development - Documentation"]].
+      *Experts told me: Flask has a minimalistic approach, you have to do everything by yourself.
+      *[[https://www.youtube.com/watch?v=M1IVwFAH9W|YouTube "Python Tutorial: Creating Web Sites using Python and Flask"]].
+      *Tuturial [[http://www.discoverflask.com/|Discover Flask]], [[http://www.github.com/realpython/discover-flask|GitHub "realpython/discover-flask"]] - "Discover Flask. Full Stack Web Development with Flask".
+      *[[http://en.wikipedia.org/wiki/Flask_%28programming%29|EN.Wikipedia "Flask (programming)"]], [[http://de.wikipedia.org/wiki/Flask|DE.Wikipedia "Flask"]].
+==== Pylons Project ====
+  *[[http://www.pylonsproject.org/|Pylons Project]].
+    *[[http://www.pylonsproject.org/projects/pyramid/|Pylons Project "Pyramid"]] - "A very general open source Python web framework. As a framework, its primary job is to make it easier for a developer to create an arbitrary web application. The type of application being created isn’t really important; it could be a spreadsheet, a corporate intranet, or a social networking platform".
+      *[[http://docs.pylonsproject.org/projects/pyramid_tutorials/|Pylons Project "Pyramid Tutorials"]].
+    *[[http://www.pylonsproject.org/projects/pylons-framework/|Pylons Project "Pylons Framework"]] - "A lightweight web framework emphasizing flexibility and rapid development".
+==== Python Paste ====
+  *The OpenSource [[http://www.pythonpaste.org/|Python Paste]].
+    *[[http://en.wikipedia.org/wiki/Python_Paste|EN.Wikipedia "Python Paste"]] - "A framework for web frameworks", "The Python Paste package contains Python modules that help in implementing WSGI middleware".
+  *The real-time web messaging framework [[http://www.bitbucket.org/terreon/mushroom|BitBucket "terreon/mushroom"]].
+  *The OpenSource web server [[http://www.tornadoweb.org/|Tornado]], [[http://github.com/facebook/tornado|Github "facebook / tornado"]].
+==== TurboGears Web Framework ====
+  *[[http://turbogears.org/|TurboGears Web Framework]].
+    *[[http://planet.turbogears.org/|Planet TurboGears]].
+    *[[http://en.wikipedia.org/wiki/TurboGears|EN.Wikipedia "TurboGears"]].
+==== Twisted ====
+  *[[http://www.twistedmatrix.com/trac/|Twisted Matrix Labs - Building the engine of your Internet "Twisted"]] - "An event-driven networking engine written in Python".
+  *[[http://en.wikipedia.org/wiki/Twisted_%28software%29|EN.Wikipedia "Twisted (software)"]].
+==== Mamba / BlackMamba ====
+  *[[http://www.pymamba.com/|BlackMamba]] ( Mamba ) - "Small and high level asynchronous web applications framework and WSGI web server", "Mamba is built on top of Twisted Web and uses Twisted as WSGI web server as well".
+==== webpy ====
+  *[[http://www.webpy.org/|webpy]] - "A web framework for Python that is as simple as it is powerful".
+==== web2py ====
+  *[[http://www.web2py.com/|web2py]].
+    *[[http://en.wikipedia.org/wiki/Web2py|EN.Wikipedia "Web2py"]], [[http://de.wikipedia.org/wiki/Web2py|DE.Wikipedia "Web2py"]].
+    *Installation on Windows, by executing "web2py.exe": 
+      *Server IP: "(x) Local (IPv4) ( 127.0.0.1 )".
+      *Server port: "8000".
+      *Choose Password: "xxxxxxxx".
+    *[[http://en.wikipedia.org/wiki/Web_Server_Gateway_Interface|EN.Wikipedia "Web Server Gateway Interface"]], [[http://de.wikipedia.org/wiki/Web_Server_Gateway_Interface|DE.Wikipedia "Web Server Gateway Interface"]].
+==== Resources ====
+  *[[http://wiki.python.org/moin/WebFrameworks|Python.org Wiki "Web Frameworks for Python"]].
+===== Web CMS =====
+==== Major Web CMS and other Applications based on Django & Python 3.x ====
+=== Django CMS ===
+  *The OpenSource [[http://www.django-cms.org/|Divio AG "Django CMS"]], [[http://www.github.com/divio/django-cms|GitHub "divio/django-cms"]], [[http://django-cms.readthedocs.org/|Read the Docs "django CMS documentation"]] - "The easy-to-use and developer-friendly CMS".
+  *Based on Python3.
+  *[[http://control.aldryn.com/demo/get-new/|Django CMS Demo Site]].
+  *[[http://en.wikipedia.org/wiki/Django-cms|EN.Wikipedia "Django CMS"]].
+=== FeinCMS ===
+  *[[http://www.feincms.org/|feinCMS]], [[http://www.github.com/feincms/|GitHub "FeinCMS"]], [[http://feincms-django-cms.readthedocs.org/|Read the Docs "FeinCMS - An extensible Django-based CMS"]] - "A Django-based CMS with a focus on extensibility and concise code". Based on Python3.
+=== Mezzanine ===
+  *The OpenSource [[http://mezzanine.jupo.org/|Mezzanine - The Best Django CMS]], [[http://www.github.com/stephenmcd/mezzanine|GitHub "stephenmcd/mezzanine"]], [[http://mezzanine.jupo.org/docs/|Mezzanine "Mezzanine documentation"]]. Based on Python3.
+=== Wagtail CMS ===
+  *The OpenSource [[http://www.wagtail.io/|Wagtail CMS]], [[http://www.github.com/torchbox/wagtail|GitHub "torchbox/wagtail"]] - "A Django content management system focused on flexibility and user experience". Based on Python3.
+==== Some other Web CMS and other Applications based on Django & Python 3.x ====
+=== Django page CMS ===
+  *[[http://www.github.com/batiste/django-page-cms|GitHub "batiste/django-page-cms"]], [[http://www.readthedocs.org/projects/django-page-cms/|Read the Docs "django-page-cms"]].
+==== Some other Web CMS and other Applications based on Django & Python 2.x ====
+=== Django Fiber ===
+  *[[http://www.ridethepony.org/|Ride The Pony "Django Fiber"]], [[http://www.github.com/ridethepony/django-fiber|GitHub "ridethepony/django-fiber"]], [[http://readthedocs.org/projects/django-fiber/|Read the Docs "Django Fiber"]] - "A simple, open-source, user-friendly CMS for all your django projects". Based on Python2.
+=== Ella ===
+  *[[http://www.github.com/ella/|GitHub "Ella"]], [[https://www.readthedocs.org/projects/ella/Read the Docs "Ella"]] - "A CMS based on Python web framework Django with a main focus on high-traffic news websites and Internet magazines". Based on Python2.
+=== Opps ===
+  *[[http://www.github.com/opps/|GitHub "Opps"]] - "A Django-based CMS for the magazines, newspappers websites and portals with high-traffic".
+=== Transifex - Web-based Translation Platform based on Django ===
+== The commercial Service ==
+  *The current commercial online service [[http://www.transifex.com/|Transifex]].
+== The OpenSource Tool ==
+  *The OpenSource ( but legacy ) web-based translation platform [[http://www.github.com/transifex/transifex|GitHub "transifex/transifex"]]. Based on Python2.
+== Resources ==
+  *[[http://www.readwrite.com/2011/09/09/the-github-of-software-transla|Read Write "The GitHub of Software Translation: Transifex Goes Freemium"]], 2011.
+  *Future.
+    *[[http://www.quora.com/Is-the-Transifex-open-source-project-dead|Quora "Is the Transifex open source project dead?"]].
+    *[[http://github.com/transifex/transifex/issues/206|GitHub Issues "transifex/transifex" - "Is this repo alive? #206 "]], 2013-03-20.
+  *[[http://en.wikipedia.org/wiki/Transifex|EN.Wikipedia "Transifex"]]
+=== Widgy ===
+  *[[http://www.wid.gy/|Widgy]], [[http://docs.wid.gy/|django-widgy Documentation]] - "The CMS for the particular needs of perfectionists".
+==== ZOPE & Web CMS based on ZOPE ====
+=== Plone ===
+  *[[http://www.plone.org/|Plone CMS]] - "Open Source Content Management", based on the Zope framework.
+    *[[http://www.plone.de/|plone.de - Deutschsprachige Plone Community]].
+    *[[http://en.wikipedia.org/wiki/Plone_%28software%29|EN.Wikipedia "Plone (software)"]], [[http://de.wikipedia.org/wiki/Plone|DE.Wikipedia "Plone"]].
+=== ZOPE ===
+== The Tool ==
+  *The OpenSource web application server [[http://www.zope.org/|Zope.ORG]], [[http://www.zope.de/|Zope.DE]] - "An open source web application server primarily written in the Python programming language. It features a transactional object database which can store not only content and custom data, but also dynamic HTML templates, scripts, a search engine, and relational database (RDBMS) connections and code".
+== Applications ==
+    *The OpenSource ZOPE application [[http://book.schooltool.org/|SchoolTool: the Global Student Information System]].
+    *The OpenSource ZOPE application [[http://www.launchpad.net/|Launchpad]].
+      *[[http://www.launchpad.net/capturemock|Launchpad "CaptureMock"]].
+== Resources ==
+    *[[http://en.wikipedia.org/wiki/Zope|EN.Wikipedia "Zope"]], [[http://de.wikipedia.org/wiki/Zope_%28Webanwendungsserver%29|DE.Wikipedia "Zope (Webanwendungsserver)"]].
+==== Resources ====
+  *[[http://www.djangopackages.com/grids/g/cms/|Django Packages "CMS"]].
+  *[[http://code.djangoproject.com/wiki/CMSAppsComparison|Django Project "Django CMS Apps Comparison"]].
+===== Business Applications ( Webshop, ERP,..) =====
+  *[[erp02.html|The OpenSource ERP Systems "TinyERP" / "OpenERP" / "Odoo" and the Fork "Tryton"]].
+  *[[http://www.satchmoproject.com/|Satchmo - The webshop for perfectionists with deadlines]] - "Satchmo's mission is to use Django to create an open source framework for creating unique and robust online stores".
+===== Commercial Application Servers =====
+  *The just-commercial [[http://www.lianja.com/|Liana App Builder - Develop Desktop, Cloud, and Mobile database Apps]].
+    *[[http://www.lianja.com/community/lianja-for-python-developers|Liana App Builder "Lianja for Python Developers"]].
+    *DBase III alike database.
+      *[[http://www.lianja.com/resources/the-lianja-vision|Liana App Builder "The Lianja Vision"]] - "The Visual FoxPro database and scripting language has been developed from the ground up and is at the core of Lianja. Existing Python, PHP and JavaScript engines have been embedded and integrated all together".
+      *[[http://www.lianja.com/community/showthread.php?2287-What-%28-OpenSource-%29-software-is-the-base-for-the-FoxPro-features&p=10668#post10668|Liana Forum "What ( OpenSource ? ) software is the base for the FoxPro features ?"]] - "Lianja (as stated on the website) has it's own built-in cross platform implementation of the Visual FoxPro scripting language and database engine. Yes, Visual FoxPro is Windows only and not supported anymore by Microsoft. Lianja runs on Windows, Linux and Mac. It is not open source. It was written by ourselves".
+    *Blog [[http://www.lianja.com/resources/blog|Lianja Blog]].
+    *[[http://www.twitter.com/LianjaInc|Twitter "The Lianja Team, @LianjaInc"]].
+    *[[http://plus.google.com/117540736390885388946/|Google+ "Barry Mavin"]].
+===== Resources =====
+==== Python Web Frameworks, which might be used to build RPC Services ====
+  *Twisted.
+  *Tornado
+  *Swamp Dragon ( Tornado +Django ).
+  *Django Crossbar ( Tornado +Django ).
+  *lymph.
+    *[[http://github.com/deliveryhero/lymph|GitHub "deliveryhero/lymph"]].
+  *nameko.
+    *[[http://github.com/onefinestay/nameko|GitHub "onefinestay/nameko"]].
+==== Python Web Frameworks, which might be used to build REST Services ====
+  *Flask.
+  *Pyramid.
+  *requests ??.
+  *CherryPy.
+  *eve - Python REST API Framework.
+    *[[http://www.python-eve.org/|eve - Python REST API Framework]].
+  *Django Rest Framework.
+===== Commercial Online Services for Python Web Applications =====
+  *[[http://www.newrelic.com/sp/python-monitoring|newrelic "Real Time Python Application Monitoring"]].
+    *"Python Profiling Tool".
+    *"Actionable insights to monitor & improve the performance of your Python applications", 
+    *Support of web application frameworks: django, Pylons, Bottle, CherryPy, Web2Py, Flask.
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Programming/Languages/Python/|OpenDirectory "Top: Computers: Programming: Languages: Python]].
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Programmieren/Sprachen/Python/|OpenDirectory "Top: World: Deutsch: Computer: Programmieren: Sprachen: Python"]].
+ {{tag>"Unix script language" "script language" Python}}
+<footnote_navi_en>

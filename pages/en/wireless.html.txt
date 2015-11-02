@@ -119,10 +119,35 @@ Related pages:
     *[[http://en.wikipedia.org/wiki/European_Installation_Bus|EN.Wikipedia "KNX (standard)"]], [[http://en.wikipedia.org/wiki/Instabus|EN.Wikipedia "Instabus"]] = "European Installation Bus" (EIB).
   *[[http://bugs.freebus.org/projects/fup/wiki/Technische_Einzelheiten_zu_KNX-RF|Freebus-RF "Technische Einzelheiten zu KNX-RF"]].
   *[[http://www.weinzierl.de/de/development/knx_stack_rf.html|Weinzierl Engineering GmbH "KNX Stack Funk (KNX-RF)"]] - "Atmel ATmega, Atmel ATxmega, Atmel ARM7 (z.B. SAM7), Silicon Labs Si100x single-chip (8051 & Transceiver), Texas Instruments MSP430".
-=== LoRa ===
+==== LoRaWAN ====
+=== Supporters & Organisations ===
+  *[[http://www.863.io/|863.io]] - "low power usage (autonomous nodes can last up to year), high ranges (5-15km), easy setup, json-protocol".
+  *[[http://www.link-labs.com/|Link Labs]] - "Wide Area, Low Power Networks for the Internet of Things".
+  *[[http://www.lora-alliance.org/|LoRa Alliance]] - "Wide Area Networks for IOT".
+  *[[http://www.loriot.io/|LORIOT - LoRaWAN Services and Software]] - "LORIOT is a Swiss start-up in the field of Internet of Things, founded in 2015".
+    *[[http://www.twitter.com/LORIOTio|Twitter "LORIOT.io, @LORIOTio"]].
+  *[[http://www.thingpark.com/|Actility - Making Things Smart "ThingPark"]] - "The ThingPark Wireless Network", "ThingPark Wireless, the Internet of Things network dedicated to long range low-power sensors", "A LoRaWAN long range bi-directional low power network".
   *[[http://www.semtech.com/|Semtech Corporation]].
-    *[[http://www.semtech.com/wireless-rf/iot.html|Semtech Internet of Things (IoT)]].
+    *[[http://www.semtech.com/wireless-rf/iot.html|Semtech "Internet of Things (IoT)"]].
+    *[[http://www.semtech.com/wireless-rf/rf-transceivers/|Semtech "RF Transceivers"]].
+    *[[http://www.convergedigest.com/2015/03/ibm-and-semtech-develop-long-range-wide.html|Converge! "IBM and Semtech Develop Long Range Wide-area Network for IoT"]], 2015-03.
+=== Software ===
+  *[[http://www.github.com/Lora-net|GitHub "Lora-net"]].
+  *[[http://www.github.com/JiapengLi/lorawan-parser/|GitHub "JiapengLi/lorawan-parser"]].
+    *[[http://www.github.com/JiapengLi/lorawan-parser/wiki/|GitHub Wiki "JiapengLi/lorawan-parser"]].
+  *[[http://www.github.com/matthijskooijman/arduino-lmic|GitHub "matthijskooijman/arduino-lmic"]] - "LoraWAN-in-C library, adapted to run under the Arduino environment".
+  *[[http://www.github.com/mirakonta/lmic|GitHub "mirakonta/lmic"]] - "LoRaMAC in C / LoRaWAN in C".
+  *[[http://www.research.ibm.com/labs/zurich/ics/lrsc/lmic.html|IBM Research "IBM Long-Range Signaling and Control (LRSC)"]] - "IBM 'LoRa WAN in C' is the LoRa WAN implementation of choice, and a perfect match to the IBM LRSC on the end device. It is provided as open source under the Eclipse Public License (EPL)".
+=== Hardware ===
+  *[[http://www.imst.de/|IMST GmbH]].
+    *[[http://www.wireless-solutions.de/products/radiomodules/im880a|Wireless Solutions by IMST GmbH "LoRa - Long Range Radio" - "M880A-L - Long Range Radio Module"]].
+  *[[http://www.microchip.com/pagehandler/en-us/technology/personalareanetworks/technology/lora.html|Microchip "Embedded Wireless. Low Power Wide Area Network"]].
+    *[[http://www.microchip.com/wwwproducts/Devices.aspx?product=RN2483|Microchip "RN2483 LoRa Technology Transceiver"]].
+  *[[http://actility.thingpark.com/thingpark-store/home/15-lora-thingpark-wireless-kit-for-var-partners-868mhz.html|Thingpark Store "LoRa – ThingPark Wireless Kit for VAR partners (868Mhz)"]].
+=== Resources ===
+  *[[http://en.wikipedia.org/wiki/LoRaWAN|EN.Wikipedia "LoRaWAN"]].
   *[[http://en.wikipedia.org/wiki/Semtech|EN.Wikipedia "Semtech"]].
+  *[[http://en.wikipedia.org/wiki/Institut_f%C3%BCr_Mobil-_und_Satellitenfunktechnik|EN.Wikipedia "Institut für Mobil- und Satellitenfunktechnik"]].
 ==== Qi ====
   *[[http://en.wikipedia.org/wiki/Qi_%28inductive_power_standard%29|EN.Wikipedia "Qi (inductive power standard)"]], [[http://de.wikipedia.org/wiki/Qi_%28induktive_Energie%C3%BCbertragung%29|DE.Wikipedia "Qi (induktive Energieübertragung)"]].
 ==== Wireless M-Bus ====
@@ -153,12 +178,12 @@ Related pages:
   *The commercial book [[http://www.steute.com/de/news/wireless/article/das-funkbuch-wissenswertes-zu-funktechnologien.html|.steute, Wolfgang Gebhardt, Jörg F. Wollert "Das Funkbuch: Wissenswertes zu Funktechnologien"]]. As participant of the "Funk-Roadshow 2011", I got an item for free :-).
   *Book [[http://www.amazon.de/exec/obidos/ASIN/013288836X/hemmerling-21|Robin Heydon: "Bluetooth Low Energy: The Developer's Handbook"]].
   *Book [[http://www.amazon.de/exec/obidos/ASIN/0521760690/hemmerling-21|Nick Hunn: "Essentials of Short-Range Wireless (The Cambridge Wireless Essentials Series)"]].
-
 ===== Resources =====
   *[[http://en.wikipedia.org/wiki/Comparison_of_wireless_data_standards|EN.Wikipedia "Comparison of wireless data standards"]].
 ===== Forums, Newsgroups =====
+  *[[http://community.arubanetworks.com/|aruba NETWORKS. an HP company "Airheads Community"]].
   *[[http://developer.bluetooth.org/Community/SitePages/Community%20Home.aspx|Bluetooth Community Forum]].
-
+  *[[http://www.facebook.com/LORIOT.io|Facebook "LORIOT.io"]].
 ===== Appropriate OpenDirectory Directory Pages =====
   *[[http://www.dmoz.org/Computers/Data_Communications/Wireless/|OpenDirectory "Top: Computers: Data Communications: Wireless"]].
   *[[http://www.dmoz.org/World/Deutsch/Computer/Netzwerk/Wireless/|OpenDirectory "Top: World: Deutsch: Computer: Netzwerk: Wireless"]].

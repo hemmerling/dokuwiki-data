@@ -1,0 +1,369 @@
+====== [hemmerling] IEC 61131 Process Logic Control Programming PLC - PLC Systems, PLC Hardware, PLC Software ======
+Related page:
+  *[[automation.html|Automation & Process Logic Control]].
+===== The IEC 61131-3 Languages and its Programming Concepts =====
+  *Function vs. function block ( Funktionsbaustein ), with PC WORX:
+    *A function has an input and output variable, but does not allocate memory. So it has no internal state.
+    *A function block has an input and output variable, and can allocate memory ( uses memory ). So it might have an internal state.
+  *Forcing and overwriting of values is useful during the project phase "Bringing into service".
+  *With "Structured Text" (ST), you don´t define PLC variables!
+  *[[http://en.wikipedia.org/wiki/IEC_61131-3|EN.Wikipedia "IEC 61131-3"]], [[http://de.wikipedia.org/wiki/EN_61131|DE.Wikipedia "EN 61131"]].
+  *[[http://en.wikipedia.org/wiki/Structured_text|EN.Wikipedia "Structured text"]], [[http://de.wikipedia.org/wiki/Strukturierter_Text|DE.Wikipedia "Strukturierter Text"]].
+===== IEC 61131-3 based PLCs =====
+==== ABB Control IT  AC 800F Software ( AC800F Builder ) ====
+  *[[http://new.abb.com/control-systems/essential-automation/freelance|ABB "Essential Automation - Freelance Distributed Control System (DCS)"]].
+  *The 100-days trial edition of the development system "Industrial IT Control Builder F" for Windows.
+    *[[http://new.abb.com/control-systems/essential-automation/freelance/additional-pages/freelance-quickstart-tutorial|ABB "Freelance Quickstart Tutorial"]] - "Free of charge. Order a DVD", "Freelance Quickstart Tutorial and Demo-Version (English)". By an online request, you may order for free the DVD "Freelance 800F Quickstart Tutorial & Demo", which contains a 100-days demo version of the development system "Industrial IT Control Builder F", with fieldcontroller simulator included. 
+    *It is suitable to design and simulate your own projects. 
+    *I was told by experts, that you may install, deinstall and reinstall the software each 100 days.
+  *[[http://www.abbplc.com/products/freelance/control_builder_f/|Gross Automation "Control Builder F"]].
+  *[[http://www.aotewell.com/abb/abb-dcs-abb-plc-ac-800f-the-field-controller.html|AOTEWELL "ABB DCS ABB PLC AC 800F - The Field Controller"]].
+  *[[http://de.wikipedia.org/wiki/Freelance|DE.Wikipedia "Freelance"]].
+==== CoDeSys Automation Alliance ====
+  *[[http://www.3s-software.com/|3S-Smart Software Solutions GmbH - CoDeSys Automation Alliance]].
+    *[[http://www.codesys.com/download/download-center.html|3S-Smart Software Solutions GmbH "Download Center"]] - Download of CoDeSys 2.3 & CoDeSys 3.5.
+    *[[http://store.codesys.com/|3S-Smart Software Solutions GmbH "Store"]] - Download of free CoDeSys 3.5 projects, commercial CoDeSys 3.5 software products ( e.g. "CODESYS Control RTE SL", "CODESYS Control Win SL",... ) and commercial CoDeSys 3.5 client libraries. No CoDeSys 2.3 resources!
+    *[[http://www.3s-software.com/index.shtml?en_opcserver|3S-Smart Software Solutions GmbH - CoDeSys Automation Alliance "CoDeSys OPC-Server"]].
+      *[[http://www05.abb.com/global/scot/scot209.nsf/veritydisplay/8589f307e0be08b2c125723300392640/$file/2cdc125023m0201.pdf|ABB "AC500 Scalable PLC for Individual Automation. OPC Server. OLE for Process Control"]] ( PDF ).
+      *[[http://forum-en.3s-software.com/viewtopic.php?t=1428|The official CoDeSys Forum, Thread "OPC server for CoDeSys v2.3"]] -> "C:\Program Files\3S Software\CoDeSysOPC\OPC_20_how_to_use_E.pdf", "C:\Program Files\3S Software\CoDeSysOPC\OPC_20_how_to_use_D.pdf".
+=== Conferences & User Meetings ===
+  *[[http://www.users-conference.com/|CoDeSys Users' Conference]] in Hamburg, Dortmund.
+=== CoDeSys 2.3 ===
+  *Version 2.3 running on Windows, with support for PLC / SPS with 8-bit CPUs. As of 2015-09, the latest editions are "CoDeSys 2.3.9.47", available at [[http://www.codesys.com/download/download-center.html|3S-Smart Software Solutions GmbH "Download"]]. 
+  *Simulation:
+    -The visualation within the CoDeSys IDE is available in simulation mode.
+    -The webbased visualisation is just available by the webserver running on the PLC hardware, not by the CoDeSys IDE on Windows. 
+    -You may not write on input variables during simulation.
+  *IDE tips:
+    *Even if there is no item selector ( e.g. a button "..." ) for an input field, in most cases pressing F2 opens the select window, when the cursor is in the input field.
+    *To edit a variable, address it with the mouse cursor, and press "SHIFT F2" to open the window "Declare Variable".
+  *Task configuration:
+    *Experts told me that it might be useful to let a Modbus protocol run as 2nd. task.
+    *You might use tasks for developent, to define and simulate the behaviour of external hardware: One task simulates the hardware, the other one - the later PLC application - may control the hardware simulation and react to behaviour of the simulation. Inter-task Communication might be done by global variables. But it might be tricky to let simulation and later PLC application run concurrently, so that they work properly together.
+  *Create a new program: "New block".
+    *Type of block: "Program".
+    *Language of block "FUP".
+    *Name of block "PLC_PRG" ( it's important to use this name for the first program which shall be executed ).
+  *Create a new visualisation: Name of visualisation "PLC_VISU" ( it's important to use this name for the first visualisation ).
+  *Function blocks - Use "VAR_INPUT" and "VAR_OUTPUT" as input and output variable types.
+    *[[http://www402.abbext.com/How-create-Function-Block-codesys-q25533.aspx|ABB Control Systems Application and Knowledge Store "How to create Function Block in codesys ?"]].
+=== CoDeSys 3.5 ===
+    *Version 3, running on Windows with .NET, no support for PLC / SPS with 8-bit CPUs. 
+    *Available at [[http://www.codesys.com/download/download-center.html|3S-Smart Software Solutions GmbH "Download"]].
+    *Supports object oriented development. In addition to the "IEC 61131-3" programming languages supported by V2.3, it also supports "Continuous Function Chart" ( CFC ).
+=== Web Server of CoDeSys 2.7 and CoDeSys 3.5 ===
+  *The CoDeSys 2.3 PLC web server requires Java on the client, i.e. a working Java 8 plugin installed in your browser.
+  *The CoDeSys 3.5 PLC web server is based on HTML5 and so doesn´t require Java on the browser client.
+=== Third-Party Tools & Applications ===
+  *[[http://www.wibu.com/de/codemeter.html|WIBU-SYSTEMS AG "CodeMeter"]].
+    *[[http://www.wibu.com/de/unternehmen/presse/pressmeldungen-details/article/premiere-auf-der-spsipcdrives-2011-automatisierungssoftware-codesys-jetzt-mit-codemeter-technolog.html|WIBU-SYSTEMS AG "Premiere auf der SPS/IPC/DRIVES 2011: Automatisierungssoftware CoDeSys jetzt mit CodeMeter-Technologie für den Schutz von Steuerungen"]].
+   *"OpCon" HMI.
+     *[[http://www.google.de/search?q=OpCon+Bosch|Google - Search results for "OpCon Bosch"]].
+     *[[http://www.boschpackaging.com/boschlabsystems/eng/Planning_Design_69227.asp|Bosch Lab Systems "Planning and Design"]] - "ATMO, lab robot, HTE, Virtual development, modular concept, Stand-alone units, BLS, simulation", "For planning and designing standard systems and customized solutions Bosch Lab Systems utilizes the expertise of Bosch Packaging, Bosch ATMO and Bosch Corporate Research".
+     *[[http://www.hi-tec-automation.com/index.php/software|HI-tec-automation GmbH "Software"]] - "HMI: OpCon Engineering System von Atmo (ein Bosch-Unternehmen), OpCon Window Editor, OpCon Studio (für CPS21)".
+     *[[http://www.sps-forum.de/beckhoff-codesys-iec61131/40261-opcon.html|SPS-Forum, Thread " opcon?"]] - "Nur, dass Opcon von der Firma ATMO entwickelt und genutzt wird und bei Bosch sozusagen als Standard eingesetzt wird. Dabei beruht das Ganze auf Codesys, liegt aber als Programmierkonzept sozusagen darüber".
+=== Resources ===
+  *There is a free educational editions of CoDeSys 2.3 & CoDeSys 3.5, for use without real PLC hardware, just on the PC.
+  *CoDeSys is task-based like PHOENIX CONTACT's PC WORX & KW-Software GmbH's MULTIPROG PRO+ ( in opposite to SIEMENS S7 ).
+==== Mitsubishi Electric, Factory Automation ====
+  *[[http://www.mitsubishi-automation.de/|Mitsubishi Electric, Factory Automation – Germany]].
+  *[[http://www.mitsubishielectric.com/fa/products/cnt/plceng/items/|Mitsubishi Electric "Engineering Software"]].
+    *In the past, there was the option to order free demo CDs. The difference between demo CD software and the full version of the software is: You can't transfer data from the PC to the Mitsubishi device !
+      *"ALPHA Demo-CD".
+      *"MELSOFT Demo-CD".
+      *"GX IEC Developer Demo-CD" - the structured IEC 1131 standard PLC programming package.
+    *[[http://www.mitsubishi-automation.de/kleinsteuerungen.html|Mitsubishi Electric, Factory Automation "Kleinsteuerungen"]] - "Alpha 2 (ALPHA XL)".
+==== PHOENIX-CONTACT / KW-Software GmbH ====
+=== PC WORX EXPRESS ===
+  *The free PLC development tool [[http://www.phoenixcontact.com/online/portal/de?1dmy&urile=wcm%3apath%3a/dede/web/main/products/subcategory_pages/programming_p-19-05/77cbcbb4-64e4-4bef-a4db-11d02fc215e2/77cbcbb4-64e4-4bef-a4db-11d02fc215e2|PHOENIX-CONTACT "PC WORX EXPRESS – der kostenfreie Einstieg in die Programmierung"]] for Windows, for the PLC devices:
+    *[[http://www.phoenixcontact.com/online/portal/de?1dmy&urile=wcm%3apath%3a/dede/web/main/products/subcategory_pages/modular_controllers_p-21-01/3798e4fd-4052-4abe-9f38-2cfd2845f1b9/3798e4fd-4052-4abe-9f38-2cfd2845f1b9|PHOENIX-CONTACT "Easy Automation – vielfältige Möglichkeiten mit den modularen Kleinsteuerungen der 100er-Klasse"]].
+    *[[http://www.phoenixcontact.com/online/portal/de?1dmy&urile=wcm%3apath%3a/dede/web/offcontext/insite_landing_pages/41679b67-09c8-46cb-9ef3-285fe4726027/41679b67-09c8-46cb-9ef3-285fe4726027|PHOENIX-CONTACT "Axiocontrol – zukunftsweisende Steuerungstechnik"]] - "AXC 1050".
+  *Supported IEC languages: "Strukturierter Text (ST), Kontaktplan (KOP), Funktionsbausteinsprache (FBS)".
+  *The file extension of PC WORX EXPRESS project files is ".mwe".
+  *There are some PC WORX libraries which may be used with PC WORX EXPRESS.
+  *PC WORX and PC WORX EXPRESS are task-based like CoDeSys ( in opposite to SIEMENS S7 ). PC WORX EXPRESS can handle one single Task.
+  *There is some free hands-on training for PC WORKX EXPRESS.
+=== PC WORX ===
+  *The commercial PLC development tool for Windows.
+    *[[http://www.phoenixcontact.com/online/portal/de?1dmy&urile=wcm:path:/dede/web/main/products/subcategory_pages/programming_p-19-05/8b777145-e7f2-4eaa-ae5e-4dacdce30223/8b777145-e7f2-4eaa-ae5e-4dacdce30223|PHOENIX-CONTACT "PC WORX – eine Programmiersoftware für alle Steuerungen"]].
+    *[[http://www.phoenixcontact.com/online/portal/us?1dmy&urile=wcm:path:/usen/web/main/products/subcategory_pages/programming_p-19-05/8b777145-e7f2-4eaa-ae5e-4dacdce30223/8b777145-e7f2-4eaa-ae5e-4dacdce30223|PHOENIX-CONTACT "PC Worx – one programming software solution for all controllers"]].
+  *Supported IEC languages: "AWL, FBS, KOP, FFLD, **AS**, ST".
+  *The file extension of PC WORX project files is ".mwt". PC WORX can load PC WORX EXPRESS project files.
+  *PC WORX and PC WORX EXPRESS are task-based like CoDeSys ( in opposite to SIEMENS S7 ). PC WORX EXPRESS can handle several tasks. A task is given a priority, and it is executed according to the priority relative to other tasks.
+  *There is a demo version of PC WORX, with the limit of 16 data I/O.
+  *Hands-on training for PC WORKX is always commercial.
+=== MULTIPROG PRO+ ===
+  *[[http://www.kw-software.com/|KW-Software]].
+  *[[http://www.kw-software.com/en/iec-61131-control/programming-systems/multiprog-pro|KW-Software GmbH "MULTIPROG PRO+"]].
+  *[[http://de.wikipedia.org/wiki/KW-Software|DE.Wikipedia "KW-Software"]].
+=== Webvisit ===
+  *The free [[http://www.phoenixcontact.com/online/portal/us?urile=pxc-oc-itemdetail:pid=2700954|PHOENIX-CONTACT "Software - WEBVISIT 6 EXPRESS"]], [[http://www.phoenixcontact.com/online/portal/de?urile=pxc-oc-itemdetail:pid=2700954|PHOENIX-CONTACT "Software - WEBVISIT 6 EXPRESS"]] for Windows - "WebVisit 6 is the engineering tool used to create web visualizations for all controllers with integrated web server. The Express version is available free of charge and enables the creation of up to 10 visualization pages as well as linking a maximum of 60 PPO variables".
+=== IP Assign ===
+  *The free [[http://www.phoenixcontact.com/online/portal/de?urile=pxc-oc-itemdetail:pid=2701094|PHOENIX-CONTACT "IP Assign"]] for Windows - "IPAssign is an easy to use tool for setting the IP address of devices which rely on BOOTP".
+  *BootP vs. DHCP.
+    *[[http://en.wikipedia.org/wiki/Bootstrap_Protocol|EN.Wikipedia "Bootstrap Protocol"]], [[http://de.wikipedia.org/wiki/Bootstrap_Protocol|DE.Wikipedia "Bootstrap Protocol"]].
+    *[[http://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol|EN.Wikipedia "Dynamic Host Configuration Protocol"]], [[http://de.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol|DE.Wikipedia "Dynamic Host Configuration Protocol"]].
+    *I was told by experts, that in a SIEMENS PCL network infrastructure, the BootP service is running permanently. Unfortunately, there the Highlander principle "There can be only one!" applies: There can be just one BootP server in a network segment :-(.
+=== Projekt+ ===
+  *[[http://www.phoenixcontact.com/online/portal/us?1dmy&urile=wcm%3apath%3a/usen/web/main/products/subcategory_pages/Planning_and_configuration_P-19-04/2f503ef0-5f6c-4dc3-9149-2307310ae480|PHOENIX-CONTACT "Planning and configuration"]] - The commercial planning tool "Projekt+"  ( with "k" like in the German word ).
+=== Datenloggers for Implementation of an Energy Management System ( EnMS ) - Standard PLC Hardware + "EMwise" Datalogging Software + "ACRON" Database ===
+  *[[http://www.phoenixcontact.com/online/portal/us?1dmy&urile=wcm%3apath%3a/usen/web/main/products/subcategory_pages/Complete_packages_for_data_logging_P-14-04-02/bcfc8319-5935-43e2-882f-098b66633ce5|PHOENIX-CONTACT "Data logger"]].
+  *PLC [[http://www.phoenixcontact.com/online/portal/us?urile=pxc-oc-itemdetail:pid=2700975|PHOENIX-CONTACT "Controller - ILC 171 ETH 2TX"]]
+    *Default server address: 192.168.100.100. Default password: "admin".
+    *Data export in the CSV format. 
+      *CSV export format: "Date_Time; Designation; Value".
+      *For export to a spreadsheet ( e.g. Microsoft Excel ), please use column-oriented ("zeilen-orientiert" ) export.
+      *For export to a database ( e.g. ACRON ), please use row-oriented ( "spalten-orientiert" ) export.
+    *With communication options and protocols for your EnMS:
+      *By Ethernet TCP/IP:
+        *Web server ( local visualisation ).
+        *FTP / DHCP / SNTP.
+        *OPC ( for communications with a SCADA system ).
+        *PROFINET.
+        *Modbus TCP.
+        *SQL-Client.
+        *ODP.
+        *IEC 60870-5-104.
+        *GSM / GPRS / UMTS.
+        *WLAN / Bluetooth.
+        *SHDSL.
+        *LWL.
+        *VPN ( IPsec ).
+        *RFC 1006.
+      *By IO extensions:
+        *Analog input / output.
+        *Digital input / output.
+        *via RS232/485.
+        *Modbus RTU.
+        *IEC 60870-5-101.
+        *CL0.
+        *M-Bus.
+        *CAN.
+        *Profibus.
+        *S0.
+        *IEC 62056-21.    
+  *Software "EMwise", distributed on an SD card for PLCs.
+    *[[http://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=2701747|PHOENIX-CONTACT "Memory - SD FLASH 2GB EMWISE EXTENDED"]].
+  *The historian "Acron".
+    *[[http://www.videc.info/de/produkte/acron-der-anlagenchronist|VIDEC Data Engineering GmbH "ACRON"]].
+    *[[http://www.dataforum.de/|DataForum Software GmbH]].
+    *[[http://www.acron8.com/|ACRON8]] - "Das Historian Paket für Langzeitarchivierung, Auswertung und Analyse historischer Daten, komfortable Protokollierung, dokumentenecht, werksweit, anlagenübergreifend".
+=== Download ===
+  *[[http://www.phoenixcontact.com/de/produkte/2985660|PHOENIX-CONTACT "Software - AX SW SUITE DEMO - 2985660"]].
+    *"Automation Software Suite ist eine umfassende Sammlung von aufeinander abgestimmten Software Tools für das Automatisierungssystem Automation Worx, bestehend aus PC WORX, PC WORX EXPRESS, DIAG+, DIAG+ NetScan, CONFIG+, VISU+, WEBVISIT, AX OPC SERVER".
+    *The installation of AUTOMATIONWORX Software Suite 2013 1.81" is refused on Win8.1 by the error message "Das vorhandene Betriebssystem wird nicht unterstützt. Das Setup wird abgebrochen" :-(. 
+    *The installation of AUTOMATIONWORX Software Suite 2013 1.82" fails on Win8.1 - The installation hangs during the installation message "Registering PC WORKX" and doesn`t complete.
+    *So I am waiting for 1.83 :-).
+    *Some of the PC WORX libraries may also be used with PC WORX Express, but according to PHOENIX CONTACT staff members, are not shipped with PC WORX Express. So PC WORX Express users, please think about additional temporary installation of the demo version of PC WORX to transfer some libraries to your PC WORX Express installation ( e.g. CAN-Bus, Modbus,.. ).
+=== Resources ===
+  *[[http://www.youtube.com/user/PhoenixContactDE|YouTube Channel "PhoenixContactDE"]].
+    *[[http://www.youtube.com/watch?v=Tgcmp679m0k|YouTube "PC Worx Software-Tutorial von PHOENIX CONTACT"]].
+  *[[http://www.phoenixcontact.com/online/myportal/de?1dmy&urile=wcm%3apath%3a/dede/web/main/service_and_support/subcategory_pages/E-learning/1acd86b9-a0e9-469c-9ab7-511f1ea50dd8|PHOENIX-CONTACT "E-Learning"]].
+    *[[http://www.phoenixcontact.com/online/myportal/de?1dmy&urile=wcm:path:/dede/web/main/products/subcategory_pages/controllers_p-21/7af5ebf5-b86e-41d0-824f-b94046d65440/7af5ebf5-b86e-41d0-824f-b94046d65440|PHOENIX-CONTACT "E-Learning zu PC WORX"]].
+  *[[http://www.phoenixcontact.net/edunet/236_662.htm|PHOENIX-CONTACT "E-Learning"]] in English language.
+    *[[http://www.phoenixcontact.com/global/automation/187_74069.htm|PHOENIX-CONTACT "PC Worx E-Learning"]] in English.
+  *[[http://www.phoenixcontact.com/online/portal/us?1dmy&urile=wcm:path:/usen/web/main/service_and_support/subcategory_pages/knowledgebase_and_faq/625c8b49-644f-4bc5-bb63-1ca2c48eb80e|PHOENIX-CONTACT "Knowledgebase & FAQ"]] in English.
+    *Hardware.
+    *"Software" -> FAQ about the IEC languages and its implementation at PHOENIX CONTACT:-).
+      *[[http://phoenixcontact.custhelp.com/app/answers/list2/kw/library/p/1178,1179|PHOENIX CONTACT FAQ "Function Blocks"]].
+      *[[http://phoenixcontact.custhelp.com/app/answers/list2/kw/CMD/p/1178,1184|PHOENIX CONTACT FAQ "Configuration Monitoring and Diagnostics"]].
+      *[[http://phoenixcontact.custhelp.com/app/answers/list2/kw/Diag+/p/1178,1186|PHOENIX CONTACT FAQ "Planning and Configuration"]].
+      *[[http://phoenixcontact.custhelp.com/app/answers/list2/kw/PC%20Worx/p/1178,1188|PHOENIX CONTACT FAQ "Programming"]].
+      *[[http://phoenixcontact.custhelp.com/app/answers/list2/kw/Clip%20Project/p/1178,1190|PHOENIX CONTACT FAQ "Marking Software"]].
+      *[[http://phoenixcontact.custhelp.com/app/answers/list2/kw/Visu+/p/1178,1194|PHOENIX CONTACT FAQ "Visualization"]].
+==== Rockwell Automation, Allen Bradley ====
+  *The free [[http://ab.rockwellautomation.com/Programmable-Controllers/Connected-Components-Workbench-Software|Connected Components Workbench Software]] for [[http://ab.rockwellautomation.com/Programmable-Controllers/Micro830|Micro830 Control System]] of [[http://ab.rockwellautomation.com/|Allen Bradley]].
+    *Supported IEC languages: Ladder ( KOP ), Function Plan ( FUP ) & Structured Text ( ST ).
+  *[[http://emea.rockwellautomation.com/au/de/special/session_content.aspx|Rockwell Automation, Automation University 2012 - Präsentationen und Arbeitsbücher]].
+==== Siemens Industry Automation and Drive Technologies ====
+  *[[http://www.automation.siemens.com|Siemens’ Totally Integrated Automation (TIA)]], formerly: "Siemens Automation and Drives Group" / Siemens Automation and Drive Technologies".
+=== TIA-Portal ===
+    *[[http://www.engineering-redefined.com/|SIEMENS AG "TIA-Portal"]].
+    *[[http://www.automation.siemens.com/mcms/topics/en/simatic/|Siemens SIEMATIC]].
+    *The free product selection, configuration and ordering tool [[http://w3.siemens.com/mcms/topics/en/simatic/tia-selection-tool/|SIEMENS AG "TIA Selection Tool"]] for Windows.
+    *The free standalone maintainance tool [[http://w3.siemens.com/mcms/simatic-controller-software/en/programming-options/simatic-automation-tool/|SIEMENS AG "SIMATIC Automation Tool"]] for Windows.
+    *The free Commissioning and diagnostics tool [[http://w3.siemens.com/mcms/automation/en/industrial-communications/profinet/productportfolio/proneta/pages/proneta.aspx|SIEMENS AG "PRONETA. Commissioning and diagnostics tool for PROFINET networks"]].
+      *[[https://support.industry.siemens.com/cs/document/67460624/proneta-2.2.0.14-commissioning-and-diagnostics-tool-for-profinet|Siemens Industry Online Support "PRONETA 2.2.0.14 Commissioning and Diagnostics Tool for PROFINET"]] - free download.
+=== PCS 7 ===
+    *[[http://www.automation.siemens.com/mcms/process-control-systems/de/simatic-pcs-7/|Siemens SIMATIC PCS 7]].
+      *[[http://w3.siemens.com/mcms/industrial-automation-systems-simatic/en/manual-overview/tech-doc-pcs7/Pages/Default.aspx|Siemens "SIMATIC Manual Overview / Manuals SIMATIC PCS 7 - "Technical documentation SIMATIC PCS 7 Process Control System & Migration"]].
+      *[[http://w3.siemens.com/mcms/industrial-automation-systems-simatic/de/handbuchuebersicht/tech-dok-pcs7/Seiten/Default.aspx|Siemens "SIMATIC Technische Dokumentation / Handbücher SIMATIC PCS 7 - "Technische Dokumentation SIMATIC PCS 7"]].
+      *[[http://support.automation.siemens.com/WW/view/de/63481413|Siemens Industry Online Support "SIMATIC PCS 7 Übersicht"]].
+      *PCS7 may be shipped with an "MPC block" ( Model based predictive control ).
+        *Book [[http://www.amazon.de/exec/obidos/ASIN/3486275232/hemmerling-21|Rainer Dittmar, Bernd-Markus Pfeiffer: "Modellbasierte prädiktive Regelung: Eine Einführung für Ingenieure"]].
+        *[[https://de.wikipedia.org/wiki/Nichtlineare_modellbasierte_pr%C3%A4diktive_Regelung|DE.Wikipedia "Nichtlineare modellbasierte prädiktive Regelung"]].
+=== SIEMENS LOGO! ===
+  *[[http://www.siemens.de/logo|SIEMENS "Logikmodul LOGO!"]].
+    *[[http://www.automation.siemens.com/mcms/programmable-logic-controller/de/logikmodul-logo/logo-starter-kit/|SIEMENS "LOGO! Starter Kit"]].
+=== Third Party Tools ===
+  *[[http://www.ibhsoftec-sps.de/|IBHsoftec GmbH]] "Alles für die S5 / S7 Welt".
+  *[[http://www.easycase.at/|EasyCode]] ( formerly: SIEMENS EasyCase ) - "EasyCode - Standard language programming for PLC in ST and SCL in compliance with IEC 61131-3".
+    *[[http://de.wikipedia.org/wiki/EasyCODE|DE.Wikipedia "EasyCODE"]].
+=== Siemens HMI ===
+== SIEMENS WinCC ==
+  *[[http://www.automation.siemens.com/MCMS/HUMAN-MACHINE-INTERFACE/DE/VISUALISIERUNGSSOFTWARE/|Siemens "HMI Software"]].
+    *[[http://www.automation.siemens.com/mcms/human-machine-interface/de/visualisierungssoftware/wincc-flexible/|Simens "HMI System SIMATIC WinCC flexible"]] - for low-end visualisation is a .NET 2.0 software. The data size is limited by RAM memory.
+      *[[http://www.automation.siemens.com/mcms/human-machine-interface/de/visualisierungssoftware/scada-wincc/|Siemens "SCADA System SIMATIC WinCC"]] - for high-end visualisation is a native Windows software. The data storage is file based, not memory based.
+  *[[http://en.wikipedia.org/wiki/WinCC|EN.Wikipedia "WinCC"]], [[http://de.wikipedia.org/wiki/WinCC|DE.Wikipedia "WinCC"]].
+    *"WinCC Sm@rt Server" ( formerly "Sm@rt Service", "Sm@rt Access" ) -> Access to SIEMENS PLCs with a browser.
+    *Be shure to terminate the WinCC ( server ) runtime application, on a WinCC device, by pressing a "shutdown" button on the screen, before switching off. If the WinCC application uses the CSV format to store logging data, there is the big danger that this logging file is lost, after poweroff without prior shutdown of the WinCC ( server ) runtime.
+    *I was told by experts, that the operation of WinCC applications on standard Windows computers often requires a Windows network with shared Windows network drives :-(.
+    *Default usernames and passwords:
+
+^ ^ ^ ^ 
+^WinCC version ^ Default username ^ Default password ^ Minimum password length ^
+^ WinCC 7 and earlier | admin | 100 | 3 |
+^ WinCC 11 | Administrator | administrator| 6 |
+^ | | |
+
+== PCS 7 ==
+  *See in other sections of the web page.
+== Hardware ==
+  *[[http://www.automation.siemens.com/mcms/human-machine-interface/en/operator-interfaces/touch-panel/|Siemens Automation "The SIMATIC HMI panel family"]].
+  *"Comfort Panel" and "Basic Panels" of 2014 follow different concepts:
+    *Both have a Flash memory, in which the current project runtime ist stored and executed.
+    *"Comfort Panel".
+      *Default IP: 192.168.2.x, default password: "100".
+      *Additionally, the "Comfort Panel" of 2014 have two SD card slots: 1 SD card for system data, 1 SD card with 2 GB data size for data logging. If there is a directory "SIMATIC.HMI" on the system SD card, it will be transfered to Flash during booting of the panel. Tip: You may keep different panel images on a single SD card, by renaming the directory ( but you can transfer just the panel image named "SIMATIC.HMI" to a panel ).
+      *2x SD cards slots for SD cards with a maximum datasize of 2 GBytes each. 
+        *1 SD card for system data. Default filename for the system data: SIMATIC.HMI.
+        *1 SD card for user data & data logging.
+    *"Basic Panel"
+      *Default IP: 192.168.4.x, default password: "100".
+      *In opposite, the "Basic Panels" just have an additional USB interface. You may both use it for data logging ( but just of up to 10 variables ). 
+      *You may copy the runtime data from the panel to a USB stick, for backup and transfer purposes. 
+      *Additionally, you may store the small project runtime ( not the large full WinCC project ) in the expensive RAM memory of a Siemens 1500 PCL.
+      *1x USB interface for data storage. Alternatively, the panel runtime can bei kept in the S1500 RAM memory.
+  *In the past, SIEMENS panels stored the full WinCC project. It was possible to restore the full WinCC project back to a Siemens WinCC developer computer. Now with the second panel generation of 2014, the full project is not stored anymore on the panel.
+  *SIEMENS users have often problems with keeping backups and ignore the needs for code version control... Siemens tries to help these users by new concepts like that of the second panel generation.
+== Siemens Motion Control Solutions ==
+  *SIMATIC Technologie CPU ( T-CPU ).
+    *[[http://www.automation.siemens.com/mcms/topics/de/simatic/simatic-technology|Siemens Automation "SIMATIC Techonology"]].
+    *[[http://www.siemens.com/T-CPU|Siemens Automation "Technology CPUs. S7-300 CPUs with integrated motion control functionality"]], [[http://www.automation.siemens.com/mcms/programmable-logic-controller/de/simatic-s7-controller/s7-300/cpu/technologie-cpus/|Siemens Automation "Technologie-CPUs. S7-300 Zentralbaugruppen mit integrierter Motion Control-Funktionalität"]].
+    *Control of a maximum of 3 axis ( freedoms ), not of a full-featured robot with 6 axis.
+    *Trigger mechanisms.
+      *"Execute" - Edge triggering.
+      *"Enable" - Level triggering.
+    *Support tools:
+      *"Kinematics Vision" by [[http://de.wikipedia.org/wiki/Hochschule_Amberg-Weiden|Hochschule Amberg-Weiden]].
+      *"Cartesian 3D" by [[http://www.automation.siemens.com/mcms/mc/de/motion-control/de/|Siemens Motion Control]].
+  *[[http://www.automation.siemens.com/mcms/simatic-controller-software/de/optionen-technologie/easy-motion-control/Seiten/Default.aspx|Siemens Automation "Easy Motion Control. Softwarebasierte Lösung für lagegeregelte Positionieraufgaben"]] - Technology base is an S300 PLC.
+  *[[http://www.automation.siemens.com/mcms/programmable-logic-controller/de/software-plc/simatic-winac-rtx/|Siemens Automation "SIMATIC WinAC RTX – die SIMATIC S7 als Software-Controller"]] - Technology base is a PC running a S300 Soft-PLC.
+  *[[http://www.automation.siemens.com/mcms/drives/|Siemens Drive Technology]] / [[http://www.automation.siemens.com/mcms/drives/de/|Siemens Antriebstechnik]].
+  *[[http://www.automation.siemens.com/mcms/mc/en/motion-control/|Siemens Motion Control]], [[http://www.automation.siemens.com/mcms/mc/de/motion-control/|Siemens Motion Control]].
+=== PLC Simulation  ===
+== Siemens SIMIT ==
+  *[[http://www.industry.siemens.com/verticals/global/en/chemical-industries/products-solutions-systems-services/pages/simit.aspx|SIEMENS "SIMIT - Simulation & Testing"]] in English, [[http://www.industry.siemens.com/verticals/global/de/chemical-industries/angebote/seiten/simit.aspx|SIEMENS "SIMIT - Simulation & Testing"]] in German.
+  *[[http://www.isilog.de/en/produkte/produkte/simit.html|iSILOG GmbH "SIMIT - Validated Automation Controls"]] - "iSILOG is a Siemens PLM Solution Partner and resells SIMIT with accompanying virtual commissioning packages for our customers".
+  *[[http://www.youtube.com/watch?v=cBcce3-w7As|YouTube "SIMIT Simulation-Framework: virtual commisionning"]], [[http://www.youtube.com/watch?v=UxJ0_43hcH4|YouTube "Virtuelle Inbetriebnahme mit SIMIT von Siemens"]].
+  *[[http://www.industry.siemens.com/topics/global/en/magazines/process-news/pages/process-news.aspx|SIEMENS process news]].
+    *[[http://www.industry.siemens.com/topics/global/en/magazines/process-news/process-automation/pages/simit-simulation-framework-v8.aspx|SIEMENS "process news", article "Even easier simulation"]] - "Simit V8.0".
+    *In the January 2014 issue, an other article is expected about SIEMENS SIMIT?!
+  *On 2014-11-13, at the event "Innovation Tour SIMATIC PC S 7 V8.1", I listened to the engineering student Sabina Hille, who presented the results of her bachelor thesis about the use of SIEMENS SIMIT for virtual commisionning of a powdered milk plant ( speech title "Trockenmilch" ).
+  *With SIMIT, you handle faults, not the process / the plant. 
+  *With SIMIT, you don´t write IEC language code. Indeed there is a C# script language to define setups of simulations.
+  *[[http://www.worldindustrialreporter.com/siemens-simit-simulation-platform-leap-forward-engineering-efficiency-operator-excellence/|WorldIndustrialReporter "Siemens’ Simit Simulation Platform: A Leap Forward in Engineering Efficiency and Operator Excellence"]].
+== WinMOD ==
+  *[[http://www.winmod.de/|WinMOD]].
+    *"Factory Acceptance Test, Virutal Commissioning - and more!", "Simulation, Visualization, Communication and Interaction in Real-Time".
+    *You have to define the behaviour of the simulated hardware target as "process unit" ( "Regelstrecke" ) by the means of control theory , e.g. "P", "PI", "PID".
+=== Support ===
+  *[[http://support.industry.siemens.com/|Siemens Industry Online Support]].
+    *[[http://support.industry.siemens.com/My/|Siemens Industry Online Support "mySupport"]] - By starting ( not sending !) a new support request, you get access to the SIEMENS knowledgebase :-):
+      -"Product/Order number. Please enter a product without a version specification (e.g. TIA Portal, STEP 7, S7-1500, PCS 7, ET 200SP, SIMOTION Scout, ...)"
+      -"Product range. Please select the appropriate product exactly".
+      -"Select an application case. When describing your application case, we will be able to give you targeted and direct advice. Select your situation".
+      -"There are already answers to several FAQs. Please have a look at them":
+        -FAQs.
+        -Manuals.
+        -Forum.
+        -Downloads.
+        -Product notes.
+=== Training ===
+  *[[http://www.sitrain.de/|SIEMENS AG "SITRAIN - das Training von Siemens für Automation and Industrial Solutions"]].
+=== Resources ===
+  *OB1.
+    *With the PCS7 development tool and "PCS7" PLC hardware targets, there may several OB1, which are executed as tasks concurrently.
+    *With the classical SIEMENS S7 development tool on "S7" PLC hardware targets, there may be just one OB1, which executed when the PLC is started.
+    *With the SIEMENS "TIA Portal", several OB1 objects on "S7" hardware targets may be created. One of the many OB1 objects may be executed - one at a time, but not concurrently, so there is always just 1 task running -, when PLC execution is started.
+  *With the TIA Portal, new PLC function elements are "Technology Objects" for drive control:
+    *Positioning.
+    *Revolution speed control.
+==== WAGO Kontakttechnik GmbH & Co. KG ====
+=== The Company & its Tools ===
+  *[[http://www.wago.com/|WAGO Kontakttechnik GmbH & Co. KG]].
+    *[[http://www.wago.com/cps/rde/xchg/SID-53EFFEF9-63960549/wago_gt/style.xsl/deu_14925.htm|WAGO StarterKit]]
+      *[[http://www.wago.com/cps/rde/xchg/SID-53EFFEF9-63960549/wago_gt/style.xsl/deu_15066.htm|WAGO Ethernet StarterKits]] - may communicate with OPC servers, by Modbus Over Ethernet.
+      *[[http://www.net-elektronik.de/catalog/product_info.php/products_id/438|net-elektronik.de "Wago Starter Kit mit 750-841 10/100 MBit Controller Starterpaket"]].
+  *[[http://www.wago.de/service/downloads/|WAGO "Downloads"]].
+    *[[http://www.wago.de/service/downloads/download-suche/index.jsp|WAGO "Download-Suche"]].
+      *In opposite to other websites, there are no static landing pages. So to find free application notes ( "Anwendungshinweise" ) and free software.
+      *So You must know what to search for, and enter the exact term. Global search engines like Google or Bing can´t crawl the database, so can´t help you with search.
+      *Especially the brief description displayed by search requests, is the only extra information available at all. With other websites, such information is available on static landing pages.
+    *[[http://www.wago.com/wagoweb/documentation/index_d.htm|WAGO "Technische Dokumentation"]].
+  *"Modbus TCP" and "Modbus UDP" are the standard protocols for WAGO PLCs.
+=== DIMA ===
+  *[[http://www.dima-process.com/|DIMA – Dezentrale Intelligenz für modulare Anlagen]].
+    *[[http://www.twitter.com/wagokontakttech/status/610434216879353856|Twitter "WAGO", Tweet "WAGO erhält für das Konzept DIMA – Prozessautomatisierung der Zukunft – den „atp award“ 2014!"]].
+=== "CoDeSys 2.3" on PLC "WAGO 750-880" ===
+== Ethernet Options: 2-Port Switch or 2 single Ethernet Ports ==
+  *For WAGO 750-800 and most other variants, there is a 2-port Ethernet switch.
+  *WAGO 750-885, however, has 2 single Ethernet ports which are dedicated to operate in 2 different sub nets ( for security reasons ).
+== Windows tools for use on PLC hands-on Workshop "Introductory CoDeSys workshop", in 2015-09 ==
+  *The commercial Windows software "CoDeSys 2.3.9.47".
+    *[[http://www.wago.com/wagoweb/documentation/navigate/nm9dp__e.htm|WAGO "WAGO Software 759"]].
+  *The free Windows software "Ethernetsettings", suitable for device configuration and setting-up operation.
+    *[[http://www.youtube.com/watch?v=OG7m05zq-aI|YouTube "WAGO Ethernet Settings Software 759-316"]].
+  *The commercial Windows software "IO-Check 3" ( is shipped with installer for "Ethernetsettings", too ).
+    *It is suitable not just for device configuration, setting-up operation, but primarily for clamp configuration. You might do the same with self-written SMTP scripts.
+    *[[http://global.wago.com/en/products/product-catalog/software/programs/overview/|WAGO Programs]] - "WAGO-I/O-CHECK 2".
+== Installation & Configuration ==
+  *For WAGO PLCs, there is a mode switch hidden under a cover:
+    -Top: Run mode. Necessary if you update and run PLC software, driven by the CoDeSys IDE.
+    -Middle: Stop mode. Necessary to run IO-Check in "Control Mode".
+    -Down: WAGO-internal use only.
+  *A red dip switch may be used to configure the last octal of the IP address of the PLC web server, i.e. 192.168.1.x -> 192.168.1.3. You may change the first 3 octals by the web interface, too.
+    *Webbased PLC management, login to the web server of a WAGO PLC - Username: "admin", password "wago".
+== Operation ==
+  *Boot process: "Bootp" is default.
+  *The BACnet PLC controller by WAGO forces a bootproject update. With all other WAGO PLC controllers, this update is optional.
+== Software Development ==
+  *There are 2 location for libraries, which may be imported and used in user-defined PLC software:
+    -Standard CoDeSys libraries ( "C:\Program Files\WAGO Software\CoDeSys V2.3\Library" )
+    -Target-specific libraries, created by the partner - the PLC hardware manufacturer - of CoDeSys ( "C:\Program Files\WAGO Software\CoDeSys V2.3\Targets\WAGO\Libraries" ). If a customer makes use of the special libraries, the application depends on this target and its PLC hardware manufacturer.
+=== WAGO "e!COCKPIT Engineering Software", based on "CoDeSys 3.5" ===
+  *The new IDE [[http://global.wago.com/en/products/new-items/overview/engineering-software.jsp|WAGO "e!COCKPIT Engineering Software — invitation to discover"]].
+=== Addon Packages ===
+== Access to SQL Databases ==
+  *[[http://www.wago.de/service/downloads/download-suche/index.jsp?q=sql|WAGO - Search for "sql"]].
+    *"Using library WagoLibMSSQL_03 for interface Microsoft SQL Server 200x".
+    *"SQL-Client for Microsoft SQL Server 200x (Bibliotheken/CoDeSys 2.3 Bibliothek ). Library 'WagoLibMSSQL_03.lib' provide functionblocks for accessing Microsoft databases".
+    *"Using WagoLibMySQL_03 to communicate with MySQL databases".
+    *"Connecting to a MySQL database (Bibliotheken/CoDeSys 2.3 Bibliothek ). The library 'WagoLibMySql_02.lib' provide function blocks to communicate with MySQL-Database-Servers version 4.1 and above".
+== "Solution Package Energy Network Monitoring" for Implementation of an Energy Management System ==
+  *[[http://www.wago.com/epa|WAGO "Energy and Process Automation"]].
+    *[[http://global.wago.com/en/solutions/power-process-technology/solution-package/|WAGO "WAGO Solution Package"]].
+      *"Solution Package Energy Network Monitoring" - The CoDeSys 2.3 project is shipped with the solution as "OpenSource", not just as a "black-box" PLC building block, so that it can be modified by the user.
+== Free Datenlogger & Dataplotter for Implementation of an Energy Management System ( EnMS ) ==
+  *[[http://global.wago.com/en/search/index.jsp?action=search&q=datalogger|WAGO - Search for "datalogger"]].
+  *Datalogger.
+    *[[http://www.wago.de/download.esm?file=\download\00306511_0.zip&name=Anwendungshinweis_WagoDatalogger_02.zip|Anwendungshinweis_WagoDatalogger_02.zip]] - "Anwendungshinweis Datenlogger", suitable for all controllers with smart memory card.
+    *[[http://www.wago.de/download.esm?file=\download\00306515_0.zip&name=WAGO_Datalogger_02.zip|WAGO_Datalogger_02.zip]] - The application, a code library.
+  *There is an additional free dataplotter application available, but just for the "PFC200" 750-820x controller:
+    *[[http://www.wago.de/download.esm?file=\download\00306509_0.zip&name=Anwendungshinweis_Dataplott_.zip|Anwendungshinweis_Dataplott_.zip]].
+    *The dataplotter is available e.g. at [[http://192.168.1.3/dataplotter/dataplotter.html|http://192.168.1.3/dataplotter/dataplotter.html]].
+===== Resources =====
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/Distributed_control_system|EN.Wikipedia "Distributed control system"]] ( DCS ), [[http://de.wikipedia.org/wiki/Leitsystem|DE.Wikipedia "Leitsystem"]].
+    *[[http://en.wikipedia.org/wiki/Programmable_logic_controller|EN.Wikipedia "Programmable logic controller"]], [[http://de.wikipedia.org/wiki/Speicherprogrammierbare_Steuerung|DE.Wikipedia "Speicherprogrammierbare Steuerung"]].
+    *[[http://en.wikipedia.org/wiki/IEC_61131|EN.Wikipedia "IEC 61131"]], [[http://en.wikipedia.org/wiki/IEC_61131-3|EN.Wikipedia "IEC 61131-3"]], [[http://de.wikipedia.org/wiki/EN_61131|DE.Wikipedia "EN 61131"]].
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Hardware/Systems/Industrial/|OpenDirectory "Top: Computers: Hardware: Systems: Industrial"]].
+  *[[http://www.dmoz.org/Computers/Software/Manufacturing/Automation/|OpenDirectory "Top: Computers: Software: Manufacturing: Automation"]].
+  *[[http://www.dmoz.org/Business/Electronics_and_Electrical/Control_Systems/|OpenDirectory "Top: Business: Electronics and Electrical: Control Systems"]].
+    *[[http://www.dmoz.org/Business/Electronics_and_Electrical/Control_Systems/Programmable_Logic_Controllers/|OpenDirectory "Top: Business: Electronics and Electrical: Control Systems: Programmable Logic Controllers"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wirtschaft/Industrieg%C3%BCter_und_-dienstleistungen/Automatisierungstechnik/|OpenDirectory "Top: World: Deutsch: Wirtschaft: Industriegüter und -dienstleistungen: Automatisierungstechnik"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wirtschaft/Industrieg%C3%BCter_und_-dienstleistungen/Automatisierungstechnik/Software/|OpenDirectory "Top: World: Deutsch: Wirtschaft: Industriegüter und -dienstleistungen: Automatisierungstechnik: Software"]].
+  *[[http://www.dmoz.org/World/Deutsch/Wirtschaft/Elektrotechnik_und_Elektronik/Kontroll-_und_Steuersysteme/|OpenDirectory "Top: World: Deutsch: Wirtschaft: Elektrotechnik und Elektronik: Kontroll- und Steuersysteme"]].
+{{tag>automation production "digital factory"}}
+<footnote_navi_en>

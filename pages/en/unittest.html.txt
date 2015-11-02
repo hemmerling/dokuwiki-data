@@ -253,10 +253,10 @@ Shalini .NET Blog "MS Unit Test vs NUnit Test"]].
   *[[http://www.sourceforge.net/projects/fortranxunit/|SourceForge "FORTRAN Unit Test Framework (FRUIT)"]].
   *[[http://nasarb.rubyforge.org/|NASA.rba home for NASA's open source Ruby software "funit - Fortran unit testing framework"]].
     *[[http://www.jblevins.org/log/funit|Jason Blevins "Fortran Unit Testing with fUnit"]].
-
 ==== Unit Test Tools for Javascript ====
 === Tools for Front-end, Client-side Debugging ===
   *[[http://www.casperjs.org/|CasperJS]].  - "A navigation scripting & testing utility for PhantomJS, written in Javascript".
+  *[[http://www.jsunit.net/|JsUnit]], [[http://jsunit.sourceforge.net/|SourceForge "JsUnit"]], [[http://www.sourceforge.net/projects/jsunit/|SourceForge "JsUnit"]] - "A Unit Testing framework for client-side (in-browser) JavaScript".
   *[[http://www.phantomjs.org/|Phantom JS]] - "PhantomJS is an optimal solution for Headless Website Testing. Run functional tests with frameworks such as Jasmine, QUnit, Mocha, Capybara, WebDriver, and many other".
   *[[http://zombie.labnotes.org/|Zombie.JS]], [[http://www.github.com/assaf/zombie|GitHub "assaf/zombie"]] - "Insanely fast, headless full-stack testing using Node.js".
 === Browser-based Web Application Testing ===
@@ -276,6 +276,7 @@ Shalini .NET Blog "MS Unit Test vs NUnit Test"]].
   *[[http://www.mochajs.org/|Mocha]], [[http://www.github.com/mochajs|GitHub "mochajs"]].
     *"A feature-rich JavaScript test framework running on node.js and the browser, making asynchronous testing simple and fun. Mocha tests run serially, allowing for flexible and accurate reporting, while mapping uncaught exceptions to the correct test cases" # Test Framework #.
     *Mocha makes use of [[http://github.com/visionmedia/should.js/|Github "should.js"]].
+    *[[https://groups.google.com/forum/#!topic/nodejs/V16D4D4FUWU|Google Groups "nodejs", Thread "describe is not defined"]] - "My understanding is that to run the tests with mocha, you must run 'mocha', because mocha creates the 'describe' function, among others. You cannot run the tests by running 'node'".
   *[[http://github.com/visionmedia/expresso|GitHub "visionmedia/expresso"]] - Discontinued.
   *[[http://github.com/visionmedia/should.js/|Github "should.js"]] - "BDD style assertions for node.js -- test framework agnostic".
 == npm ==
@@ -337,6 +338,7 @@ Shalini .NET Blog "MS Unit Test vs NUnit Test"]].
   *See [[wscripting02.html|Scripting Programming Languages for Windows 2/2 - Windows Powershell]].
 ==== Python ====
 === Testing Tools for & with Python ===
+  *[[http://www.github.com/DRMacIver/hypothesis|GitHub "DRMacIver/hypothesis"]], [[http://hypothesis.readthedocs.org/|ReadTheDocs "Hypothesis"]] - "A Python library for creating unit tests which are simpler to write and more powerful when run, finding edge cases in your code you wouldn’t have thought to look for".
   *[[http://docs.python.org/2/library/doctest.html|The Python Standard Library "25.2. doctest — Test interactive Python examples"]] #.
     *[[http://www.pythontesting.net/|PYTHON TESTING - Python Test Frameworks and Strategies]].
       *[[http://www.pythontesting.net/start-here/|PYTHON TESTING - Python Test Frameworks and Strategies "Start Here. Introduction to Python testing frameworks"]].
@@ -414,6 +416,10 @@ Books written and released before 2006 do not cover JUnit 4, but just JUnit 3. T
   *[[http://open.ncsu.edu/se/tutorials/junit/|Laurie Williams, Dright Ho, Ben Smith, Sarah Heckman: "Unit Testing in Jazz Using JUnit"]].
 ==== JUnit 3 ====
 === Books ===
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0321146530/hemmerling-21|Kent Beck: "Test Driven Development. By Example"]].
+    *There are 2 throughout examples covered in the book:
+      *Multi-Currency Money ( "WyCash", a bond portfolio management system ), in Java with JUnit.
+      *xUnit ( A tool for test-driven development ), in Python.
   *Book [[http://www.amazon.de/exec/obidos/ASIN/0596007434/hemmerling-21|Kent Beck: "JUnit Pocket Guide"]] -> JUnit 3 only.
   *Book [[http://www.amazon.de/exec/obidos/ASIN/3446228241/hemmerling-21|Andrew Hunt, David Thomas: "Pragmatisch programmieren - Unit-Tests mit JUnit"]] -> JUnit 3 only.
   *Book [[http://www.amazon.de/exec/obidos/ASIN/3898643255/hemmerling-21|Johannes Link: "Softwaretests mit JUnit"]] -> JUnit 3 only.

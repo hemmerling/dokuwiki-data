@@ -117,8 +117,25 @@ Related pages:
     *[[http://en.wikipedia.org/wiki/Trinux|EN.Wikipedia "Trinux"]].
     *[[http://www.bernd-roehling.de/trinux/index.shtml|Bernd Röhling "Trinux Learning Page"]].
 ===== Lightweight Linux =====
+  *[[http://alinux.pw/|aLinux OS & Fine Art Photography]] -> Download of [[http://alinux.pw/aLive-17.0b3.iso|aLinux ISO]] ( ISO ).
+    *[[http://en.wikipedia.org/wiki/ALinux|EN.Wikipedia "aLinux"]] ( formerly: "Peanut Linux" ).
+      *Requirements:
+        *486 SX/DX or higher processor (CPU).
+        *64 MB RAM (128 MB recommended).
+        *2 GB free hard disk drive space.
+        *CD-ROM drive (burner required to burn ISO).
   *[[http://www.archlinux.org/|Arch Linux]] - "A simple, lightweight distribution".
-  *[[http://www.voidlinux.eu/|Void Linux]], [[https://www.github.com/voidlinux|GitHub "voidlinux"]] - "The spirit of Void is such that we keep things default, necessary, and minimal as possible".
+  *[[http://www.freecode.com/projects/blueflops/|free(code) "blueflops"]].
+    *"A two-floppy Linux distribution with a graphical Web browser".
+    *"The kernel was upgraded to 2.6.12.3".
+  *[[http://www.damnsmalllinux.org/|Damn Small Linux]].
+    *"A very versatile 50MB mini desktop oriented Linux distribution".
+    *"Run light enough to power a 486DX with 16MB of Ram".
+  *[[http://www.mikelev.in/ux/|Mike Levin "LEVIN/UX - A Micro Linux Distribution for Education"]], [[http://www.github.com/miklevin|GitHub "miklevin (Mike Levin)"]] - "The micro Linux distribution known as Levinux (download ~25 MB) is a tiny virtual Linux server that runs from USB or Dropbox with a double-click (no install or admin rights required) on Macs, Windows or Linux PCs", "with an emphasis on an actual running Python/Flask web app".
+  *[[http://www.slitaz.org/|SliTaz GNU/Linux]].
+    *[[http://en.wikipedia.org/wiki/SliTaz_GNU/Linux|EN.Wikipedia "SliTaz GNU/Linux"]], [[http://en.wikipedia.org/wiki/TazLiTo|EN.Wikipedia "TazLiTo"]], [[http://de.wikipedia.org/wiki/SliTaz|DE.Wikipedia "SliTaz"]] - "SliTaz can even run in 16 MB of RAM and a little swap memory".
+  *[[http://www.tinycorelinux.net/|Tiny Core Linux]] - "It starts with a recent Linux kernel, vmlinuz, and our root filesystem and start-up scripts packaged with a basic set of kernel modules in core.gz. Core (10MB)".
+  *[[http://www.voidlinux.eu/|Void Linux]], [[http://www.github.com/voidlinux|GitHub "voidlinux"]] - "The spirit of Void is such that we keep things default, necessary, and minimal as possible".
 ===== Linux on USB Memory Stick =====
   *[[http://www.knoppix.org/|KNOPPIX]].
     *[[http://en.wikipedia.org/wiki/Knoppix|EN.Wikipedia "Knoppix"]], [[http://de.wikipedia.org/wiki/Knoppix|DE.Wikipedia "Knoppix"]].
@@ -137,6 +154,9 @@ Related pages:
         *Reboot the system.
 ===== Realtime Linux, Embedded Linux =====
 ==== Operating Systems ====
+  *[[http://www.angstrom-distribution.org/|The Ångström distribution]].
+    *[[http://en.wikipedia.org/wiki/%C3%85ngstr%C3%B6m_distribution|EN.Wikipedia "Ångström distribution"]].
+    *I was told by experts in 2015-10, that the Ångström distribution is now "Yocto compatible" :-).
   *The commercial [[http://www.embedded-platform.com/|Arrow Electronics Inc "ARROW Embedded Platform Concept"]] ( "Arrow EPC" ).
   *[[http://elks.sourceforge.net/|Sourceforge "ELKS, The Embeddable Linux Kernel System"]], [[http://www.sourceforge.net/projects/elks/|Sourceforge "ELKS, The Embeddable Linux Kernel System"]] - "16-bit Linux" for 8086, 8088.
    *[[http://en.wikipedia.org/wiki/LibeRTOS|EN.Wikipedia "LibeRTOS"]], [[http://de.wikipedia.org/wiki/LibeRTOS|DE.Wikipedia "LibeRTOS"]].
@@ -152,13 +172,20 @@ Related pages:
     *[[http://en.wikipedia.org/wiki/RTAI|EN.Wikipedia "RTAI"]], [[http://de.wikipedia.org/wiki/RTAI|DE.Wikipedia "RTAI"]].
     *[[http://en.wikipedia.org/wiki/Adaptive_Domain_Environment_for_Operating_Systems|EN.Wikipedia "Adaptive Domain Environment for Operating Systems"]].
   *[[http://www.xenomai.org/|Xenomai]] - "A real-time development framework cooperating with the Linux kernel, in order to provide a pervasive, interface-agnostic, hard real-time support to user-space applications, seamlessly integrated into the GNU/Linux environment".
+    *[[http://www.xenomai.org/documentation/xenomai-2.2/html/xenomai/|Xenomai "Xenomai - Implementing a RTOS emulation framework on GNU/Linux"]].
     *[[http://en.wikipedia.org/wiki/Xenomai|EN.Wikipedia "Xenomai"]].
 ==== Operating System Builder, Build Systems ====
   *[[http://www.yoctoproject.org/|Yocto Project]].
     *[[http://en.wikipedia.org/wiki/Yocto_Project|EN.Wikipedia "Yocto Project"]].
     *eCos, CentOS, FreeRTOS, Linux (Angstrom), Linux (Debian), Linux (Fedora), Linux (kernel.org), Linux (LinuxPPC), Linux (uCLinux), Linux (OSADL), Linux (Slackware), Linux (Yocto), RTEMS -> named by VDC Survey.
+===== SMP Linux =====
+==== Running Linux on SMP Computers ====
+  *[[http://www.tldp.org/|The Linux Documentation Project]].
+    *[[http://www.tldp.org/HOWTO/Parallel-Processing-HOWTO-2.html|The Linux Documentation Project "2. SMP Linux"]].
+  *[[http://www.freescale.com/tools/embedded-software-and-tools/run-time-software/linux-sdk/smp-linux:SMPLINUX|Freescale "SMPLINUX: SMP Linux"]].
+  *[[http://www.ibm.com/developerworks/library/l-linux-smp/|IBM developerWorks "Linux and symmetric multiprocessing. Unlock the power of Linux on SMP systems"]].
 ==== Resources ====
-  *Wiki [[http://www.elinux.org/|Embedded Linux Wiki]].
+  *[[http://en.wikipedia.org/wiki/Symmetric_multiprocessing|EN.Wikipedia "Symmetric multiprocessing"]], [[https://de.wikipedia.org/wiki/Symmetrisches_Multiprozessorsystem|DE.Wikipedia "Symmetrisches Multiprozessorsystem"]].
 ===== Linux in the Cloud =====
 ==== Jolicloud ====
   *[[http://www.jolicloud.com/|Jolicloud]].
@@ -168,9 +195,6 @@ Related pages:
     *[[http://twitter.com/jolicloud|Twitter "Jolicloud"]].
     *[[http://www.youtube.com/results?search_query=Jolicloud|YouTube - Search for "Jolicloud"]].
     *[[http://www.linkedin.com/company/jolicloud|LinkedIn - Companies "Jolicloud"]].
-==== Resources ====
-  *[[http://stadt-bremerhaven.de/betriebssystem-jolicloud-fuer-alle/|Caschys Blog - Web, Software, Hardware, Mobile Computing & co "Betriebssystem Jolicloud für alle"]], 2010.
-  *[[http://www.micmox.de/blog/2010/01/18/mein-netbook-lebt-wieder-jolicloud-teil-1/|Micmox Die Ansichten des MM "Mein Netbook lebt (wieder) – Jolicloud Teil 1"]], [[http://www.micmox.de/blog/2010/01/20/ich-greife-nach-den-wolken-jolicloud-teil-2/|Micmox Die Ansichten des MM "Ich greife nach den Wolken – Jolicloud Teil 2"]], 2010.
 ===== Unix / Linux on Windows Host =====
 ==== Wubi ( Ubuntu Installer ) ====
   *[[http://wiki.ubuntu.com/WubiGuide|Ubuntu Wiki|WubiGuide]].
@@ -182,6 +206,27 @@ Related pages:
   *Linux Kernel 3.8 does not support 80x386 / 80x486 CPUs anymore :-(. So Linux Kernel 3.7 ist the last kernel for 80x386 / 80x486 CPUs :-).
     *[[http://www.linux.com/news/software/linux-kernel/701695-linux-38-hello-2013-goodbye-386-chips|Linux.com "Linux 3.8: Hello 2013, Goodbye 386 Chips"]], 2013-02-20 - "The removal of support for Intel 386 chips".
   *Ubuntu 12.04 and newer are shipped and installed by default with a kernel wich require a CPU with [[http://de.wikipedia.org/wiki/Physical_Address_Extension|EN.Wikipedia "Physical Address Extension"]] :-(.
+===== Resources =====
+==== General Linux Distributions ====
+  *[[http://distrowatch.com/|DistroWatch: Put the fun back into computing. Use Linux, BSD]].
+    *[[http://www.distrowatch.com/search.php?pkg=Python&pkgver=3|DistroWatch - Search Distributions for "Python 2"]].
+    *[[http://www.distrowatch.com/search.php?pkg=Python&pkgver=3|DistroWatch - Search Distributions for "Python 3"]].
+  *[[http://www.lwn.net/Distributions/index.php3|LWN.net - Your Linux Info Source "The LWN.net Linux Distribution List"]].
+==== Embedded Linux ====
+  *Wiki [[http://www.elinux.org/|Embedded Linux Wiki]].
+  *[[https://en.wikipedia.org/wiki/List_of_Linux_distributions|EN.Wikipedia "List of Linux distributions"]], [[https://de.wikipedia.org/wiki/Liste_von_Linux-Distributionen|DE.Wikipedia "Liste von Linux-Distributionen"]].
+==== Lightweight Linux Distributions ====
+  *[[http://www.linux.com/news/enterprise/systems-management/846633-best-lightweight-linux-distros|Linux.org "Best Lightweight Linux Distros"]].
+  *[[https://www.linux.com/news/software/applications/780781-6-excellent-lightweight-linux-distros-for-x86-and-arm|Linux.org "6 Excellent Lightweight Linux Distros for x86 and ARM"]].
+  *[[http://loll.sourceforge.net/linux/links/Distributions/Mini/|SourceForege "Loads of Linux Links", "Top: Distributions: Mini"]].
+  *[[http://www.maketecheasier.com/best-lightweight-linux-distribution-for-older-computers/|maketecheasier "Best Lightweight Linux Distribution for Older Computers"]].
+  *[[http://www.techradar.com/news/software/operating-systems/8-of-the-best-tiny-linux-distros-683552|techradar.pro "8 of the best tiny Linux distros"]].
+  *[[http://www.techradar.com/news/software/operating-systems/10-of-the-most-popular-lightweight-linux-distros-1295034|techradar.pro "10 of the most popular lightweight Linux distros"]].
+  *[[http://ubuntuforums.org/showthread.php?t=676517&s=b0b21b54d96ed52980d9d1cc2bc4e0d8|Ubuntu Forums "What's the OLDEST computer you have installed linux on?"]].
+  *[[http://en.wikipedia.org/wiki/Lightweight_Linux_distribution|EN.Wikipedia "Lightweight Linux distribution"]].
+==== Linux in the Cloud ====
+  *[[http://stadt-bremerhaven.de/betriebssystem-jolicloud-fuer-alle/|Caschys Blog - Web, Software, Hardware, Mobile Computing & co "Betriebssystem Jolicloud für alle"]], 2010.
+  *[[http://www.micmox.de/blog/2010/01/18/mein-netbook-lebt-wieder-jolicloud-teil-1/|Micmox Die Ansichten des MM "Mein Netbook lebt (wieder) – Jolicloud Teil 1"]], [[http://www.micmox.de/blog/2010/01/20/ich-greife-nach-den-wolken-jolicloud-teil-2/|Micmox Die Ansichten des MM "Ich greife nach den Wolken – Jolicloud Teil 2"]], 2010.
 ===== Appropriate OpenDirectory Directory Pages =====
   *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Linux/|OpenDirectory "Top: Computers: Software: Operating Systems: Linux"]].
     *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Linux/Embedded/|OpenDirectory "Top: Computers: Software: Operating Systems: Linux: Embedded"]].

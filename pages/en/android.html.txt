@@ -1,16 +1,7 @@
-====== [hemmerling] Google Android ======
-===== Jailbreaking, Independant Operating System ===== 
-==== Android Community Operating System =====
-  *[[http://www.cyanogenmod.org/|CyanogenMod - Android Community Operating System]].
-  *[[http://download.cyanogenmod.org/|CyanogenMod "Download"]].
-  *Wiki [[http://wiki.cyanogenmod.org/|CyanogenMod Wiki]].
-==== How to root an Android Phone =====
-  *[[http://www.trueandroid.com/how-to-root-alcatel-one-touch-8008d-scribe-hd-running-on-android-4-2-jelly-bean/|True Android "How To Root Alcatel One Touch 8008D Scribe HD Running On Android 4.2 Jelly Bean"]].
-    *[[http://www.framaroot.net/|Framaroot]] - "Now you can root your android device without PC, just use framaroo" - As of 2015-05, it didn't work with my phone nor with my tablet :-(
-    *[[http://play.google.com/store/apps/details?id=com.joeykrim.rootcheck|Google Play "Root Checker"]].
-  *[[http://www.youtube.com/watch?v=-UmflyLoZLw|YouTube "How to root Alcatel One Touch Scribe HD 8008 in one step"]].
-==== Phone Liberation Workshops ====
-  *[[http://www.blit.org/2012/zeitplan/events/50.de.html|BLIT 2012 - Brandenburger Linux-Infotag 2012 "FreeYourAndroid"]] - "Phone Liberation Workshop".
+====== [hemmerling] Google Android 1/3 ======
+Related page:
+  *[[android02.html|Google Android 2/3 - Apps]].
+  *[[android03.html|Google Android 3/3 - App Development]].
 ===== Hardware =====
 ==== My Android Tablet "I-ONIK TabletPC TP7-1000DC light" ====
   *[[http://www.i-onik.de/|I-ONIK]].
@@ -24,8 +15,11 @@
   *[[http://www.alcatelonetouch.com/|Alcatel-Lucent "Alcatel One Touch]].
     *[[http://www.alcatelonetouch.com/de/produkte/smartphones.html|Alcatel-Lucent - Alcatel One Touch Smartphones]] - 
       *[[http://www.alcatelonetouch.com/de/produkte/smartphones/one_touch_scribehd.html|Alcatel-Lucent "One Touch Scribe HD Dual SIM]].
+  *Has no NFC, no BLE, no gyro :-(.
+  *Has FM radio :-).
 === Resources ===
   *[[http://www.fonearena.com/blog/64088/alcatel-one-touch-scribe-hd-hands-on.html|Fonearena "Alcatel One Touch Scribe HD Hands On"]].
+  *[[http://www.gsmarena.com/alcatel_one_touch_scribe_hd-5218.php|GSMArena "Alcatel One Touch Scribe HD"]] - no gyro :-(.
   *[[http://www.versus.com/en/alcatel-one-touch-scribe-hd-8008d-vs-nokia-808-pureview|Versus.com "Alcatel One Touch Scribe HD 8008D vs Nokia 808 Pureview. Top 32 Reasons for the Alcatel One Touch Scribe HD 8008D"]].
   *[[http://www.androidnext.de/tests/alcatel-one-touch-scribe-hd/|androidnext - Android-News, Apps, Tablets, Smartphones & mehr "Alcatel One Touch Scribe HD im Test: 5-Zoll-Smartphone mit Dual-SIM"]].
     *"Auf NFC oder gar LTE-Konnektivität muss man hingegen verzichten" :-(.
@@ -33,9 +27,36 @@
   *[[http://en.wikipedia.org/wiki/Alcatel_One_Touch|EN.Wikipedia "Alcatel One Touch"]].
   *The smartphone does not support external keyboards. In the "Setting" app, section "Language & input", there is no menu entry "External Keyboard" :-(.
     *[[http://play.google.com/store/apps/details?id=com.medion.android.keyboard|Android Apps on Google Play "External Keyboard"]].
-    *[[http://www.stackoverflow.com/questions/31827959/which-android-smartphones-support-external-usb-keyboards|StackOverflow "Which Android smartphones support external USB keyboards?"]].
+    *<del>[[http://www.stackoverflow.com/questions/31827959/which-android-smartphones-support-external-usb-keyboards|StackOverflow "Which Android smartphones support external USB keyboards?"]]</del>, [[http://www.superuser.com/questions/956527/which-android-smartphones-support-external-usb-keyboards|Super User "Which Android smartphones support external USB keyboards?"]].
   *The smartphone does not support the playing of "ringtones", i.e. in case of an incoming telephone call, the telephone can´t be configured to play a user-defined audiofile.
   *The device has the dual-SIMcard feature: The SIM1 slot is named "3G/2G", the SIM2 slot is named "2G".
+  *Hard reset:
+    *[[http://www.hardreset.info/devices/alcatel/alcatel-ot-8008d-one-touch-scribe-hd/|hardreset.info "Hard Reset ALCATEL OT-8008D One Touch Scribe HD"]]:
+      -First method:
+        -**Start by switching off the device by holding down the Power key for a short while**.
+        -**Then press and hold together Volume Up + Power button for a few seconds**.
+        -You can release the Power key when Alcatel logo appears on thes screen.
+        -Keep  holding the Volume Up button until the Recovery Mode shows up.
+        -In the next step use Volume buttons to select "wipe data/factory reset" and tap the Power key to confirm.
+        -Afterwards choose "yes" from the menu, and accept it with Power button.
+        -When a Recovery Mode appears again on the screen accept option "reboot system now" using Power rocker.
+      -Second Method.
+        -If the device is off, hold down the Power button to turn it back on.Reset ALCATEL OT-8008D One Touch Scribe HD.
+        -Afterawrds from Main Menu find and select Settings.
+        -Then open the Backup and Reset folder and select Factory Data Reset.
+        -Tap Reset Phone and read the warning when it pops up.
+        -Choose Erase Everything and the phone will begin restoring.
+    *[[http://www.hardreset.info/devices/alcatel/alcatel-ot-8008d-one-touch-scribe-hd/#softreset|hardreset.info "Soft Reset ALCATEL OT-8008D One Touch Scribe HD"]].
+      -First of all, press and hold the Power button. 
+      -From the options choose Power Off and then tap OK.
+      -Wait a couple of seconds. 
+      -Finally use the Power button again to turn the phone back on.
+    *[[http://www.hardreset.info/devices/alcatel/alcatel-ot-8008d-one-touch-scribe-hd/#recovery-mode|hardreset.info "Recovery Mode ALCATEL OT-8008D One Touch Scribe HD"]].
+      -The device must be switched off, so hold down the Power key for a short while.Reset ALCATEL OT-8008D One Touch Scribe HD.
+      -Afterwards press and hold Volume Up + Power button for about 5 seconds.Reset ALCATEL OT-8008D One Touch Scribe HD.
+      -You can release the Power key as soon as the Alcatel logo appears on thes screen.Reset ALCATEL OT-8008D One Touch Scribe HD.
+      -Keep  holding the Volume Up button until the Recovery Mode shows up. Great job! You are right now in the expected mode.
+      -You can navigate here by using the Volume buttons and confirm options by pressing the Power key.
 ==== Android Phones which can be operated with dual SIM Cards ====
 === Alcatel-Lucent ===
   *[[http://www.alcatelonetouch.com/de/produkte/smartphones.html|Alcatel-Lucent - Alcatel One Touch Smartphones]] - Smartphones with dual SIM card slots: "One Touch Idol DUal SIM", "One Touch Scribe HD Dual SIM", "One Touch Mpop Dual SIM", "One Touch Spop Dual SIM".
@@ -67,21 +88,22 @@
   *[[http://www.rapidnfc.com/nfc_enabled_phones|RapidNFC "NFC Enabled Phones And Tablets"]].
   *[[http://www.nfc-phones.org/summary-list-of-all-available-nfc-phones/|NFC-Phones.org "NFC Phones list, all available handsets worldwide"]] - Multi-page directory "Complete list with all mobile phones with nfc chip (too big for 1 page)"!
   *[[http://en.wikipedia.org/wiki/List_of_NFC-enabled_mobile_devices|EN.Wikipedia "List of NFC-enabled mobile devices"]].
-==== 2015-08: Current Mobilephones available for free or low Budget, with 1&1 Mobile Services ====
-  *Criteria: **LTE**, BLE, NFC, display resolution, internal/external memory.
+==== 2015-08: Current Mobilephones available for 10 EUR/m or low extra Budget, with 1&1 Mobile Services ====
+  *Criteria: **LTE**, BLE, NFC, gyro ( for interactive Cardboard VRML Apps ), display resolution, internal/external memory.
+  *Extra criteria, can just be confirmed by access to the physical device: May the camera photoshot function be mapped on the loundness key, to use "Selfie Sticks" / "Monopads" for taking photos?
   *For no extra costs, but 10 EUR/m for 2 years. 
     *SAMSUNG Galaxy S4 mini, with just 540 x 960 resolution :-(.
       *[[http://www.gsmarena.com/samsung_galaxy_s4_mini_i9195i-7468.php|GSMArena "Samsung Galaxy S4 mini I9195I"]].
       *[[http://mobile.1und1.de/samsung-galaxy-s4-mini|1&1 "SAMSUNG Galaxy S4 mini"]].
     *Sony Xperia T3, with "Non-removable battery"  :-(.
       *[[http://www.gsmarena.com/sony_xperia_t3-6408.php|GSMArena "Sony Xperia T3"]].
-    *Huawei P8 lite with Android 5.0, but "Non-removable ... battery" :-(.
+    *Huawei P8 lite with Android 5.0, but no gyro & "Non-removable ... battery" :-(.
       *[[http://www.gsmarena.com/huawei_p8lite-7201.php|GSMArena "Huawei P8lite"]].
-    *SAMSUNG Galaxy S3 Neo #.
+    *SAMSUNG Galaxy S3 Neo.
       *[[http://www.gsmarena.com/samsung_i9301i_galaxy_s3_neo-6433.php|GSMArena "Samsung I9301I Galaxy S3 Neo"]].
       *[[http://gadgets.ndtv.com/samsung-galaxy-s3-neo-1460|NDTV Gadgets "SAMSUNG Galaxy S3 Neo"]].
       *[[http://mobile.1und1.de/samsung-galaxy-s3-neo|1&1 "SAMSUNG Galaxy S3 Neo"]].
-    *LG G4c with Android 5.0 #.
+    *LG G4c with Android 5.0, no gyro :-(.
       *[[http://www.gsmarena.com/lg_g4c-7250.php|GSMArena "LG G4c"]].
       *[[http://mobile.1und1.de/lg-g4c|1&1 "LG G4c"]].
       *[[http://gadgets.ndtv.com/lg-g4c-2642|NDTV Gadgets "LG G4c"]].
@@ -91,191 +113,31 @@
       *[[http://www.gsmarena.com/samsung_i9505_galaxy_s4-5371.php|GSMArena "Samsung I9505 Galaxy S4"]].
     *SAMSUNG Galaxy S5 mini.
       *[[http://www.gsmarena.com/samsung_galaxy_s5_mini-6252.php|GSMArena "Samsung Galaxy S5 mini"]].
-
-===== Development Software =====
-==== Platform & Software Development Kit ( SDK )====
-=== The Platform ===
-  *[[http://www.android.com/|Google Android]].
-  *[[http://developer.android.com/|Google Android developer]].
-  *Supported Operating Systems for Android SDK: Linux and WinXP / Vista / Win7.
-  *[[http://code.google.com/android/|Google Code: Google Projects for Android]].
-=== Android Studio, based on IntelliJ ===
-  *[[http://developer.android.com/sdk/installing/studio.html|Google Android "Getting Started with Android Studio"]].
-    *Error message "Error launching Android Studio. No JVM installation found. Please install a 32-bit JDK. If you already have a JDK installed, define a JAVA_HOME variable in Computer > System Properties > System Settings > Environment Variables".
-    *[[http://en.wikipedia.org/wiki/Android_Studio|EN.Wikipedia "Android Studio"]], [[http://de.wikipedia.org/wiki/Android_Studio|DE.Wikipedia "Android Studio"]].
-=== Android SDK ===
-  *[[http://developer.android.com/sdk/installing/|Google Android "Installing the SDK"]].
-=== The legacy Android ADK, based on Eclipse ===
-  *[[http://web.archive.org/web/20141202044627/http://developer.android.com/sdk/index.html#download|Archive.org "Get the Android SDK"]], 2014-12-02
-    *"Download the ADT Bundle to quickly start developing apps. It includes the essential Android SDK components and a version of the Eclipse IDE with built-in ADT (Android Developer Tools) to streamline your Android app development".
-    *Click on "VIEW ALL DOWNLOADS AND SIZES" to see all downloads.
-  *Latest and last, now legacy editions:
-    *[[http://dl.google.com/android/adt/adt-bundle-linux-x86_64-20140702.zip|Android Developer Tools ( ADT ) for Linux 64bit]].
-    *[[http://dl.google.com/android/adt/adt-bundle-linux-x86-20140702.zip|Android Developer Tools ( ADT ) for Linux 32bit]].
-    *[[http://dl.google.com/android/adt/adt-bundle-windows-x86-20140702.zip|Android Developer Tools ( ADT ) for Win32]].
-    *[[http://dl.google.com/android/adt/adt-bundle-windows-x86_64-20140702.zip|Android Developer Tools ( ADT ) for Win64]].
-  *[[http://www.stackoverflow.com/questions/27449206/what-is-the-final-version-of-the-adt-bundle|StackOverflow "What is the final version of the ADT Bundle?"]].
-=== Free and commercial Android Emulators ===
-  *"Android Emulator".
-    *[[http://developer.android.com/guide/developing/tools/emulator.html|Android Developers: Android Emulator]].
-    *Video [[http://www.youtube.com/watch?v=JxUQhnRf1oQ|YouTube "How-To: Android SDK Emulator"]].
-    *[[http://www.android.encke.net/android-emulator-tutorial.html|Google Android Emulator Tutorial]].
-    *[[http://developer.android.com/tools/help/emulator.html|Android Developer Help "Android Emulator"]].
-    *Emulation of Android smartphones is ok, emulation of Android tablets is slow ( due to the higher performance level of these devices ).
-  *The Android emulator [[http://www.genymotion.com/|Genymobile "Genymotion"]], a Java application with free limited and full commercial editions.
-  *The generic OpenSource emulator [[http://www.qemu.org/|QEMU]] may emulate Android devices too :-). It is shipped with the Yocto project :-).
-    *[[http://en.wikipedia.org/wiki/QEMU|EN.Wikipedia "QEMU"]], [[http://de.wikipedia.org/wiki/QEMU|DE.Wikipedia "QEMU"]].
-  *The affordable ShareWare Android emulator [[http://www.youwave.com/|YouWave for Android]] for Windows, with 10-day trial - "Runs Android apps and app stores on your PC, no phone required. Download thousands of apps online via app stores within youwave".
-=== Installation ===
-  *[[http://docs.appcelerator.com/titanium/3.0/#!/guide/Installing_the_Android_SDK|Titanium 3.X - Appcelerator Docs "Installing the Android SDK"]].
-    *The following packages, and the respective versions shown, must be installed to be able to develop for Android, as of 2014-08: 
-      -Android SDK 22.
-      -Android SDK 19.
-      -Android SDK 14 ( I was told by experts, to match the largest number of possible customers ).
-      -Android SDK 10.
-    *[[http://en.wikipedia.org/wiki/Android_version_history|EN.Wikipedia "Android version history"]], [[http://de.wikipedia.org/wiki/Liste_von_Android-Versionen|DE.Wikipedia "Liste von Android-Versionen"]].
-==== GUI Designers & IDEs for Android Development ====
-=== IDEs ===
-  *[[http://www.eclipse.org|Eclipse]].
-  *[[http://www.jetbrains.com/idea/|JetBrains "IntelliJ IDEA"]], [[http://www.jetbrains.com/idea/free_java_ide.html|JetBrains "IntelliJ IDEA Community Edition"]].
-    *[[http://en.wikipedia.org/wiki/IntelliJ_IDEA|EN.Wikipedia "IntelliJ IDEA"]], [[http://de.wikipedia.org/wiki/IntelliJ_IDEA|DE.Wikipedia "IntelliJ IDEA"]].
-    *[[http://developer.android.com/sdk/installing/studio.html|Android Developers "Getting Started with Android Studio"]].
-=== GUI Designers ===
-  *[[http://code.google.com/p/andrdev-emf-gui-designer/|Google Code "andrdev-emf-gui-designer"]].
-==== Android Editions ====
-=== The OpenSource Framework "Android 2" for Smartphones ===
-=== The ClosedSource Framework "Android 3" for Tablets ===
-=== The OpenSource Framework "Android 4" for Smartphones & Tablets ===
-=== Free and OpenSource Applications and Operating Systems ===
-=== AppStores which offer free Android Apps ===
-  *[[http://www.apk4fun.com/|App4Fun]].
-  *[[http://www.f-droid.org/|F-Droid]].
-  *[[http://play.google.com/|Google Play]].
-== Operating Systems / Firmeware ===
-  *[[http://www.cyanogenmod.org/|CyanogenMod]] - "An aftermarket firmware for a number of cell phones based on the open-source Android operating system".
-  *[[http://www.replicant.us/|Replicant]].
-  *[[https://developer.mozilla.org/en/docs/Mozilla/Firefox_OS|Mozilla Developer "Firefox OS"]].
-=== Resources ==
-  *[[http://www.freeyourandroid.org/|FSFE "Free Your Android!]].
-==== JavaFX ====
-  *[[http://www.bitbucket.org/javafxports/android/|Bitbucket "JavaFX on Android Porting Community"]].
-==== Android Open Accessory Development Kit ( ADK ) ====
-=== The Framework ===
-  *[[http://developer.android.com/guide/topics/usb/adk.html|Android Developers "Android Open Accessory Development Kit"]] ( ADK ).
-    *[[http://developer.android.com/sdk/installing/bundle.html|Android Developers "Setting Up the ADT Bundle"]].
-      *[[http://developer.android.com/training/basics/firstapp/|Android Developers "Building Your First App"]].
-  *The ADK offers just Java6 support, i.e. no Java8 support.
-=== ATMega2560 ADK - Hardware I/O Device for Android ===
-  *See [[arduino.html|The Arduino / Freeduino Platform with Atmel ATmega, Microchip PIC, ARM, Freescale Coldfire]].
-=== IOIO - Hardware I/O Device for Android ===
-  *[[http://www.watterott.com/de/IOIO-for-Android|Watterott electronic GmbH "IOIO für Android"]].
-  *[[http://github.com/ytai/|GitHub "ytai / ioio"]].
-    *[[http://github.com/ytai/ioio/wiki|GitHub "ytai / ioio" - Wiki "IOIO Documentation"]].
-  *[[http://www.sparkfun.com/tutorials/280|SparkFun "OIO for Android Beginners Guide"]].
-  *[[http://ytai-mer.blogspot.de/|Blogspot Blog "Microcontrollers, Electronics & Robotics"]].
-    *[[http://ytai-mer.blogspot.de/2011/06/ioio-over-openaccessory-adk-available.html|Blogspot Blog "Microcontrollers, Electronics & Robotics" - "IOIO over OpenAccessory (ADK) Available"]], 2011-06-05.
-==== Resources ====
-  *Remember, while there is now Java8 for Desktop PCs, Android SDK is on the level of Java6!
-===== Tools =====
-  *[[http://www.droidsheep.de/|Droidsheep]] - "DroidSheep was developed as a tool for testing the security of your accounts and is based on my Bachelor thesis with title “Session Hijacking on Android Devices”".
 ===== Tips & Tricks =====
 ==== Handling of the Device ====
+=== Close Apps ===
   *[[http://www.wikihow.com/Close-Apps-on-Android|wikiHow to do anything "How to Close Apps on Android"]] :-).
-  *Contacts / Phone numbers
-    *[[http://www.wikihow.com/Add-an-Android-Contact|wikiHow to do anything "How to Add an Android Contact"]].
-    *[[http://www.dummies.com/how-to/content/how-to-use-to-your-android-tablets-address-book.html|For Dummies "How to Use to Your Android Tablet's Address Book"]].
-    *[[http://www.wikihow.com/Delete-an-Android-Contact|wikiHow to do anything "How to Delete an Android Contact"]].
-    *With Android 4.2.1, call the standard app "People"
-      *Though the "Groups" tab might have 0 entries, tab "All" might list additional "Contacts in <telephone provider>".
-        *There you can add your contacts.
-        *To delete a contact:
+=== Contacts / Phone numbers ===
+  *[[http://www.wikihow.com/Add-an-Android-Contact|wikiHow to do anything "How to Add an Android Contact"]].
+  *[[http://www.dummies.com/how-to/content/how-to-use-to-your-android-tablets-address-book.html|For Dummies "How to Use to Your droid Tablet's Address Book"]].
+  *[[http://www.wikihow.com/Delete-an-Android-Contact|wikiHow to do anything "How to Delete an Android Contact"]].
+  *With Android 4.2.1, call the standard app "People"
+    *Though the "Groups" tab might have 0 entries, tab "All" might list additional "Contacts in <telephone provider>".
+      *There you can add your contacts.
+       *To delete a contact:
          -Select the menu option "Delete contact".
          -Select one or more contacts.
          -Press the "Ok" button.
+=== Copy & Paste ===
+  *[[http://forums.androidcentral.com/sprint-epic-4g/41592-easiest-way-copy-paste-browser.html|Android Central Forums "Easiest way to copy and paste (in browser)"]] - "In general, in areas where you can type text, you can usually long-press in there, and a pop-up appears offering a paste option. But, that may be app-dependant, so it may not work all the time".
+    *This works with the standard browser shipped with Android 4.2.1, to copy a URL. It also works sometimes at HTML text elements without prior marking the text. Well as there is no mouse, you can´t mark a text easily...
+  *[[https://support.mozilla.org/en-US/kb/how-do-i-copy-and-paste-text-android|Mozilla Support "How do I copy and paste text on Android?"]].
+=== Download Storage Place in the File System ===
   *Download are stored "Phone storage / MyFavorite / Download". To access the file system, you need a standard app shipped with the operating system, e.g. "File Manager" ( Android 4.2.1 ), "My Pad" ( Android 4.1.1 ).
-
 ==== Tethering & Portable Hotspot ====
   *[[http://www.softwareok.com/?seite=faq-Samsung-Galaxy&faq=3|SoftwareOK "AndroidAP Password for Samsung Galaxy (forgot, to change, enter new)?"]].
   *Default SSID of Samsung smartphones: "AndroidAP".
   *If you activate the "Tethering & Portable Hotspot", you can´t use another WLAN hotspot for Internet access. So a smartphone is not suitable to extend the range of a given WLAN :-(.
-===== App Software =====
-==== Tools ====
-=== Free PDF Creation ===
-  *[[http://play.google.com/store/apps/details?id=com.intsig.camscanner|Google Play "CamScanner -Phone PDF Creator"]].
-  *[[https://play.google.com/store/apps/details?id=com.thegrizzlylabs.geniusscan.free|Google Play "Genius Scan - PDF Scanner"]].
-  *[[http://play.google.com/store/apps/details?id=never.slave.again.pdf|Google Play "MAKER FOR PDF"]].
-  *[[http://play.google.com/store/apps/details?id=com.fourpiller.pdfmaker|Google Play "Pdf Maker"]].
-  *[[http://play.google.com/store/apps/details?id=com.oic.scantopdf|Google Play "ScanToPDF Mobile Free"]].
-  *[[http://play.google.com/store/apps/details?id=com.investintech.com.pdfcreator|Google Play "Sonic PDF Creator"]].
-  *[[http://play.google.com/store/apps/developer?id=UCWeb+Inc.|Google Play Developer "UCWeb Inc."]].
-    *[[http://play.google.com/store/apps/details?id=com.uc.addon.web2pdf|Google Play "Web to PDF Converter"]], requires "UC Browser".
-    *The default save path for PDFs displayed by the application is e.g.
-      *"/storage/sdcard0/UCDownloads" ( incomplete display: "/storage/sdcard0/UCDown" ), but the files are visible with the Android 4.2.1 app "File Manager" at "/SD Card/UCDownloads".
-      *"/mnt/sdcard/UCDownloads", but the files are visible with the Android 4.1.1 app "My Pad" at "/Local/UCDownloads".
-    *[[http://play.google.com/store/apps/details?id=com.uc.browser.hd|Google Play "UC Browser HD"]] - "UC Browser HD is specially designed for your big screen. With a gesture controlled video player, gesture controlled browsing and more, UC Browser HD truly gives you the best browsing experience on tablets and phablets".
-    *[[http://play.google.com/store/apps/details?id=com.uc.browser.en|Google Play "UC Browser - Surf it Fast"]].
-    *[[http://play.google.com/store/apps/details?id=com.UCMobile.intl|Google Play "UC Browser Mini-Fast Download"]].
-  *[[http://play.google.com/store/apps/details?id=com.niu.web2book|Google Play "Web to PDF"]].
-=== Saving Files ===
-  *[[http://play.google.com/store/apps/details?id=ru.gelin.android.sendtosd|Google Play "Send to SD card"]].
-=== Bookmarking / Offline Reading ===
-  *[[https://www.getpocket.com/|Pocket]], [[http://play.google.com/store/apps/details?id=com.ideashower.readitlater.pro|Google Play "Pocket"]] - "Read It Later". "Save From Your Apps. While using any app, find the share button, then tap 'Add to Pocket'".
-    *[[http://forum.xda-developers.com/showthread.php?t=1823970|XDA Developers Forum "Chrome Browser - Save For Offline Reading"]] - "I just noticed that with Chrome being the stock browser, the feature 'Save For Offline Reading' is not present, like it is in the previous stock Browser".
-=== App Rating ===
-  *[[http://appgratis.com/|AppGratis - one free app a day. Daily free apps! Plus ridiculous discounts!]], [[http://play.google.com/store/apps/details?id=com.imediapp.appgratisv3|Google Play "AppGratis - Cool apps for free"]].
-    *[[http://www.twitter.com/appgratis|Twitter "AppGratis. @AppGratis"]].
-    *[[http://www.allthingsd.com/20130410/apples-ouster-of-appgratis-is-just-the-start-of-an-app-store-crackdown/|All Thing D "Apple’s Ouster of AppGratis Is Just the Start of an App Store Crackdown"]], 2013-04-10 - "Why Apple Pulled AppGratis From the App Store".
-    *[[http://www.techcrunch.com/2013/04/07/apple-pulls-ios-app-discovery-service-appgratis-from-app-store/| "Apple Pulls iOS App Discovery Service AppGratis From App Store"]], 2013-04-07.
-    *[[http://en.wikipedia.org/wiki/AppGratis|EN.Wikipedia "AppGratis"]].
-=== Resources ===
-  *[[http://www.appcrawlr.com/android-apps/best-apps-pdf-maker|AppCrawler "10 Best Apps for Pdf Maker (android)"]].
-  *[[http://pdf.wondershare.com/tutorial/android-pdf-creator.html|Wondershare - PDFElement "Top 5 Android PDF Creator Apps"]].
-  *[[http://www.stackoverflow.com/questions/20472262/how-to-do-a-screenshot-for-android|StackOverflow "How to do a screenshot for android?"]] - "On Samsung Galaxy Phones/Tabs there are gestures to do that".
-
-==== Business ====
-  *The free [[http://play.google.com/store/apps/details?id=com.farproc.wifi.analyzer|Google Play "Wifi Analyzer"]].
-  *The free Apps by [[http://play.google.com/store/apps/developer?id=Tecnoteca+srl|Googleplay "Tecnoteca srl"]].
-    *[[http://play.google.com/store/apps/details?id=org.cmdbuild.cmdbuildmobile.v1|Google Play "CMDBuildMobile v1"]].
-    *[[http://play.google.com/store/apps/details?id=org.cmdbuild.cmdbuildmobile.v2|Google Play "CMDBuildMobile v2"]].
-    *[[http://play.google.com/store/apps/details?id=org.openmaint.openmaintmobile.v2|Google Play "openMAINT v2"]].
-==== Software Platform ====
-    *The free [[http://play.google.com/store/apps/details?id=org.kivy.pygame|Google Play "Kivy Launcher"]].
-    *The free [[http://code.google.com/p/python-for-android/|Google Code "python-for-android, Py4A"]].
-    *The free [[http://play.google.com/store/apps/details?id=innovationlabs.python.com|Google Play "Python For Android"]].
-    *The free [[http://play.google.com/store/apps/details?id=com.hipipal.qpyplus|Google Play "QPython - Python for Android"]].
-    *The free [[http://play.google.com/store/apps/details?id=com.hipipal.qpy3|Google Play "QPython - Python 3 for Android"]].
-    *The free [[http://play.google.com/store/apps/details?id=org.androidideas.scriptlauncher|Google Play "SL4A Script Launcher"]].
-    *The free [[http://play.google.com/store/apps/details?id=org.androidideas.taskbomb|Google Play "TaskBomb task scheduler"]].
-==== General & Fun ====
-  *Labyrinth, Holz-Labyrinth ( German ), Kugel-Labyrinth ( German ), [[http://itunes.apple.com/de/app/wooden-labyrinth-3d-free/id305713066?mt=8|ITunes, Elias Pietilä "Wooden Labyrinth 3D Free"]] -> Good application idea :-).
-  *The free game [[http://play.google.com/store/apps/details?id=com.smarty.no2048tile|Google Play "2048 tile" by "Tran Duy Bien"]].
-  *The free [[http://play.google.com/store/apps/details?id=com.runtastic.android&hl=en|Google Play "Runtastic Running & Fitness"]].
-==== Calendars & Alarm Clocks ====
-=== Snoring Control ===
-  -[[http://play.google.com/store/apps/details?id=com.arcadexxi.dreamwatcherlite|Google Play "Dream Watcher Lite"]].
-=== Alarm Clocks ===
-  -[[http://play.google.com/store/apps/details?id=com.splunchy.android.alarmclock|Google Play "AlarmDroid (alarm clock)"]] by Fabian Lueghausen - My choice #.
-  -[[http://play.google.com/store/apps/details?id=ch.bitspin.timel|Google Play "Timely Alarm Clock"]].
-  -[[http://play.google.com/store/apps/details?id=com.heyde|Google Play "Alarm Droid"]] by "spke im".
-  -[[http://play.google.com/store/apps/details?id=com.CurioLogix.DAClock|Google Play "Digital Alarm Clock"]].
-  -[[http://play.google.com/store/apps/details?id=alarm.pro|Google Play "Alarm Clock Wake Up Free"]].
-  -[[http://play.google.com/store/apps/details?id=com.tatclock|Google Play "Alarm Clock"]] by SEHCIA.
-=== Calendars ===
-  -[[http://play.google.com/store/apps/details?id=com.google.android.calendar|Google Play "Google Calendar"]] - 30 minutes timestep as the original online Google Calendar :-(.
-  -[[http://play.google.com/store/apps/details?id=org.withouthat.acalendar|Google Play "aCalendar - Android Calendar"]].
-  -[[http://play.google.com/store/apps/details?id=jp.co.johospace.jorte|Google Play "Jorte Calendar & Organizer"]].
-  -[[http://play.google.com/store/apps/details?id=netgenius.bizcal|Google Play "Business Calendar"]], [[http://play.google.com/store/apps/details?id=com.appgenix.bizcal|Google Play "Business Calendar 2"]].
-  -[[http://play.google.com/store/apps/details?id=com.digibites.calendar|Google Play "DigiCal Calendar & Widgets"]] - My choice: Loudest ringtone, snooze function, comfortable analog clock UI for time setup #.
-  -<del>[[http://play.google.com/store/apps/details?id=com.greenbeansoft.CheckmarkCalendarLite|Google Play "Checkmark All in One Calendar"]]</del> - Not a true calendar? No own calendar!
-  -[[http://play.google.com/store/apps/details?id=uk.co.olilan.touchcalendar.trial|Google Play "Touch Calendar Free"]].
-  -[[http://play.google.com/store/apps/details?id=com.appxy.calenmobfree|Google Play "CalenMob - Google Calendar"]].
-  -[[http://play.google.com/store/apps/details?id=com.upto.android|Google Play "UpTo - Calendar and Widget"]].
-  -[[http://play.google.com/store/apps/details?id=net.daum.android.solcalendar|Google Play "SolCalendar - Calendar / To do"]] - Integration service, no own calendar.
-  -[[http://play.google.com/store/apps/details?id=am.sunrise.android.calendar|Google Play "Sunrise Calendar"]] - 5 minutes timesteps only :-(.
-=== Resources ===
-  *[[http://thenextweb.com/apps/2013/08/16/12-of-the-best-calendar-apps-available-for-your-android-smartphone-today/|TNW "12 of the best calendar apps available for your Android smartphone today"]].
-  *[[http://www.phonearena.com/news/Best-Android-and-iPhone-calendar-apps-and-widgets-2014-edition_id58097|Phone Arena "Best Android and iPhone calendar apps and widgets (2014 edition)"]].
-
 ===== Paper Magazines =====
   *Paper magazine [[http://www.mobilebusiness.de/|Mobile Business]], Germany.
   *[[http://www.nmg.de/|Neue Mediengesellschaft Ulm mbH]].
@@ -286,11 +148,6 @@
     *The "PIN" is the login password. Please remember it, you have just 3 tries to enter.
     *If you want to reset the phone to factory settings or delete the phonebook, you are asked for a "Password", which is not the "PIN". You were never forced to setup, so probably it is still the default 8-digit password "00000000" ( = 8 times zero ).
       *[[http://www.fixya.com/support/t9704176-remember_password_samsung|Fixya "Cant remember password for samsung ce0168 - Samsung Cell Phones"]].
-===== Literature =====
-  *Book [[http://www.amazon.de/exec/obidos/ASIN/3836216973/hemmerling-21|Thomas Künneth: "Android 3: Apps entwickeln mit dem Android SDK"]], for Java developers.
-  *The free PDF book [[http://www.enough.de/products/mobile-developers-guide/|Enough Software GmbH & Co.KG  "Mobile Developer's Guide To The Galaxy"]] #.
-===== Training Videos for Android Developers =====
-  *[[http://www.youtube.com/results?search_query=Developing+Android+Apps|YouTube Search for "Developing Android Apps"]].
 ===== Resources =====
   *[[http://www.androidpit.com/|AndroidPIT]], [[http://www.androidpit.de/|AndroidPIT.de]] - "Android Apps, Tests, Blog, News & Forum".
   *[[http://www.android.com/|Android]].
@@ -306,6 +163,7 @@
   *[[http://www.groovypost.com/howto/mobile/android-how-to-allow-install-apps-unknown-sources/|groovyPost "How To Allow And Install Apps From Unknown Sources On Android"]].
   *Hardware: The three Android buttons "Back", "Home", "Menu" :-).
   *[[http://www.heise.de/developer/artikel/Uebersicht-ueber-die-aktuelle-Situation-fuer-Mobile-Entwickler-1579250.html|heise Developer "Kay Glahn: Übersicht über die aktuelle Situation für Mobile-Entwickler"]], 2012-05-18.
+  *[[http://www.intellipaat.com/blog/android-interview-questions|intellipaat "Android Interview Questions"]].
   *[[http://www.openintents.org/en/libraries|OpenIntents "Android Libraries"]].
   *[[http://www.vdi-nachrichten.com/vdi-nachrichten/aktuelle_ausgabe/akt_ausg_detail.asp?cat=2&id=16180|VDI Nachrichten: "Googles Navi-Software für Handys macht Navigationsspezialisten keine Angst"]] ( 2009-11-06) - "Google hat die Navigationslösung für Europa noch nicht freigegeben".
   *[[http://www.warp.ly/mobile-marketing/push-notifications|Warply "Push Notifications"]].
@@ -317,6 +175,9 @@
   *[[http://www.androidpit.com/en/android/forum|AndroidPIT Forum]], [[http://www.androidpit.de/de/android/forum|AndroidPIT.de Forum]].
   *[[http://www.android-hilfe.de/|Android-Hilfe]].
   *[[http://forum.cyanogenmod.org/|CyanogenMod Forums]].
+  *[[http://www.durovis.com/board/|Durovis Dive Board]].
+     *"This board is for discussion of OpenDive and Durovis Dive". 
+     *"What is the name of the Goggles System ?" - "Dive".
   *[[http://www.facebook.com/appgratis|Facebook "AppGratis"]].
   *Google.
     *[[http://groups.google.com/group/android-scripting|Google Groups "android-scripting"]] ( SL4A support and discussion ).
@@ -324,4 +185,3 @@
 
 {{tag>"Google Android" Android}}
 <footnote_navi_en>
-

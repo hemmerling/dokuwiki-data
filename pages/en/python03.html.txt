@@ -1,11 +1,14 @@
-====== [hemmerling] Python 3/6 - Literature ======
+====== [hemmerling] Python 3/10 - Literature ======
 Related pages:
-  *[[python.html|Python 1/7]].
-  *[[python02.html|Python 2/7]].
-  *[[python04.html|Python 4/7 - Pro & Contra]].
-  *[[python05.html|Python 5/7]].
-  *[[python06.html|Python 6/7 - Education in Python]].
-  *[[python07.html|Python 7/7 - Organisations, Conferences, Barcamps & Events]].
+  *[[python.html|Python 1/10]].
+  *[[python02.html|Python 2/10]].
+  *[[python04.html|Python 4/10 - Pro & Contra]].
+  *[[python05.html|Python 5/10]].
+  *[[python06.html|Python 6/10 - Education in Python]].
+  *[[python07.html|Python 7/10 - Organisations, Conferences, Barcamps & Events]].
+  *[[python08.html|Python 8/10 - IDEs & GUI Designers]].
+  *[[python09.html|Python 9/10 - Modules & Frameworks]].
+  *[[python10.html|Python 10/10 - Web Application Frameworks]].
   *[[erp02.html|ERP 2/2 - The OpenSource ERP Systems "TinyERP" / "OpenERP" / "Odoo" and the Fork "Tryton"]].
   *[[uscripting.html|Scripting Programming Languages for Unix / Linux and Windows]].
 ===== Legacy Books just about Python 2.x =====
@@ -38,6 +41,7 @@ Related pages:
     *The companion website [[http://starship.python.net/crew/mhammond/ppw32/|Mark Hammond and Andy Robinson "Python Programming on Win32"]].
   *Book [[http://www.amazon.de/exec/obidos/ASIN/1506080944/hemmerling-21|Joseph Howse "OpenCV Computer Vision with Python"]] - not yet available in TIB.
   *Book [[http://www.amazon.de/exec/obidos/ASIN/0596809565/hemmerling-21|John M. Hughes: "Real World Instrumentation with Python: Automated Data Acquisition and Control Systems"]] ( 2010 ), for Python 2.6.
+  *The **free PDF and online HTML book** [[http://wiki.blender.org/index.php/User:Kilon/Python_book_of_magic|Kilon "Python book of magic"]]. Unfortunately, as of 2015-10, it is just a basic Python course, not about developing "Blender" artwork with Python :-(. No import of Blender modules :-(.
   *[[http://www.itmaybeahack.com/|Steven F. Lott]].
     *The **free HTML and PDF book** [[http://www.itmaybeahack.com/homepage/books/python.html|Steven F. Lott: "Building Skills in Python"]].
       *The free online HTML book [[http://www.itmaybeahack.com/homepage/books/nonprog/html/index.html|Steven F. Lott: "Building Skills in Python"]].
@@ -176,6 +180,22 @@ Related pages:
 The Hackers Guide to Python – Interview with Julien Danjou"]].
 ===== Special Python Books about Python Frameworks =====
 ==== Special Python Books about Python Platforms ====
+=== Django ===
+  *In 2015-09, while Django 1.8 is the current version, I was suggested by experts just to consider books, which cover Django 1.5 - relased in 2013-02 - or later.
+    *[[http://en.wikipedia.org/wiki/Django_%28web_framework%29#Version_history|EN.Wikipedia "Django (web framework)", Section "Version history"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1430258098/hemmerling-21|Jim McGaw: "Marty Alchin"]], 2013. This edition covers Django 1.5 and Python 3.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1430219386/hemmerling-21|James Bennett: "Practical Django Projects"]], 2010. 
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/067232959X/hemmerling-21|Brad Dayley: "Sams Teach Yourself Django in 24 Hours"]], 2008. 
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/149194594X/hemmerling-21|Julia Elman, Mark Lavin: "Lightweight Django"]], 2011.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1430225351/hemmerling-21|Jeff Forcier, Paul Bissex, Wesley J. Chun: "Python Web Development with Django"]], 2008. Covers Django 1.0.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0981467342/hemmerling-21|Daniel Greenfeld, Audrey Roy Greenfeld: "Two Scoops of Django: Best Practices For Django 1.8"]], 2015. Not yet available in TIB.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1849510342/hemmerling-21|Jonathan Hayward: "Django JavaScript Integration: AJAX and jQuery"]], 2014.
+  *Jacob Kaplan-Moss.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/143021936X/hemmerling-21|Adrian Holovaty, Jacob Kaplan-Moss: "The Definitive Guide to Django: Web Development Done Right, Second Edition"]], 2009. Covers Django 1.1.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1430258810/hemmerling-21|Jacob Kaplan-Moss, Adrian Holovaty, Katie Cunningham: "The Definitive Guide to Django: Web Development Done Right, Third Edition"]], 2014. Out of sale.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1430225351/hemmerling-21|Jim McGaw: "Beginning Django E-Commerce"]], 2009.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0470138092/hemmerling-21|Dana Moore, Raymond Budd, William Wright: "Professional Python Frameworks: Web 2.0 Programming with Django and Turbogears"]], 2007.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1847195709/hemmerling-21|Scott Newman: "Django 1.0 Template Development"]], 2008. 
 === Flask ===
   *Book [[http://www.amazon.de/exec/obidos/ASIN/1449372627/hemmerling-21|Miguel Grinberg "Flask Web Development: Developing Web Applications with Python"]], 78 pages only :-(.
   *Book [[http://www.amazon.de/exec/obidos/ASIN/1782169628/hemmerling-21|Ron DuPlain "Instant Flask Web Development"]].
@@ -187,6 +207,10 @@ The Hackers Guide to Python – Interview with Julien Danjou"]].
 === Kivy ===
   *Book [[http://www.amazon.de/exec/obidos/ASIN/1491946679/hemmerling-21|Dusty Phillips "Creating Apps in Kivy"]], 78 pages only :-(.
   *Book [[http://www.amazon.de/exec/obidos/ASIN/B00LLOVKCG/hemmerling-21|Roberto Ulloa Rodriguez "Kivy: Interactive Applications in Python"]].
+=== Pylons ===
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1590599349/hemmerling-21|James Gardner: "The Definitive Guide to Pylons"]], 2010.
+=== Turbogears ===
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0470138092/hemmerling-21|Dana Moore, Raymond Budd, William Wright: "Professional Python Frameworks: Web 2.0 Programming with Django and Turbogears"]], 2007.
 === web2py ===
   *Book [[http://www.amazon.de/exec/obidos/ASIN/0578120216/hemmerling-21|Massimo Di Pierro "web2py (5th Edition)"]].
     *The **free PDF edition** of the book is available at [[http://www.web2py.com/book|web2py. Complete Reference Manual, 6th Edition (pre-release). written by Massimo Di Pierro in English]].

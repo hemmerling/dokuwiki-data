@@ -1,21 +1,34 @@
-====== [hemmerling] Web Technologies ( HTML5, HTML, XML & Javascript ) 2/4 - HTML & CSS ======
+====== [hemmerling] Web Technologies ( HTML5, HTML, XML & Javascript ) 2/5 - HTML & CSS ======
 Related pages:
   *[[api.html|Application programming interface ( API )]].
   *[[databases.html|Databases, Webserver, Webservices, SQL, XML]] -> XML.
   *[[sframeworks.html|Software Frameworks]].
   *[[uscripting.html|Scripting Programming Languages for Unix / Linux and Windows]].
   *[[snetworks03.html|Social Networks 3/3 - IT / SystemEngineering Forums and IT / SystemEngineering Communities]].
-  *[[webtech.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 1/4]].
-  *[[webtech03.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 3/4 - Javascript]].
-  *[[webtech04.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 4/4 - Javascript Frameworks]].
+  *[[webtech.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 1/5]].
+  *[[webtech03.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 3/5 - Javascript Development Tools]].
+  *[[webtech04.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 4/5 - Javascript Technologies]].
+  *[[webtech05.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 5/5 - Javascript Frameworks]].
 ===== CSS =====
 ==== Frameworks, Tools ====
+=== LESS ===
+== The Stylesheet Language ==
   *[[http://www.lesscss.org/|LESS - The Dynamic Stylesheet language]].
-    *[[http://twitter.github.com/bootstrap/|Github "Bootstrap, from Twitter"]] for use with "Less" - "A toolkit from Twitter designed to kickstart development of webapps and sites. It includes base CSS and HTML for typography, forms, buttons, tables, grids, navigation, and more. Bootstrap is built with Less and was designed to work out of the gate with modern browsers in mind".
-    *[[http://www.templatemonster.com/infographics/bootstrap-interactive-infographics.php|TemplateMonster.com -  Devlivering the best Templates on the Net! "Shine Your Boots! Boostrap Hornbook"]].
+  *[[http://en.wikipedia.org/wiki/Less_%28stylesheet_language%29|EN.Wikipedia "Less (stylesheet language)"]], [[https://de.wikipedia.org/wiki/Less_%28Stylesheet-Sprache%29|DE.Wikipedia "Less (Stylesheet-Sprache)"]].
+== Bootstrap ==
+  *[[http://twitter.github.com/bootstrap/|Github "Bootstrap, from Twitter"]] for use with "Less" - "A toolkit from Twitter designed to kickstart development of webapps and sites. It includes base CSS and HTML for typography, forms, buttons, tables, grids, navigation, and more. Bootstrap is built with Less and was designed to work out of the gate with modern browsers in mind".
+  *[[http://www.templatemonster.com/infographics/bootstrap-interactive-infographics.php|TemplateMonster.com -  Devlivering the best Templates on the Net! "Shine Your Boots! Boostrap Hornbook"]].
+  *[[http://www.initializr.com/|Initializr - Start an HTML5 Boilerplate project in 15 seconds!]].
+    *[[http://django-marcador.keimlink.de/en/templates.html|django-Marcador. Basic Django Tutorial "9. Templates"]] "9.2. Create the base template".
+      -Click at the website [[http://www.initializr.com/|Initializr - Start an HTML5 Boilerplate project in 15 seconds!]] on "Bootstrap".
+      -In the section "H5BP Optional" check the "404 Page" option.
+== Resources ==
+  *[[http://en.wikipedia.org/wiki/Bootstrap_%28front-end_framework%29|EN.Wikipedia "Bootstrap (front-end framework)"]], [[http://de.wikipedia.org/wiki/Bootstrap_%28Framework%29|DE.Wikipedia "Bootstrap (Framework)"]]
+=== Sass ===
   *[[http://www.sass-lang.com/|Sass - Syntactically Awesome Stylesheets]].
     *[[http://www.compass-style.org/|Compass]] - "Open-source CSS Authoring Framework" for use with "Sass".
     *[[http://mhs.github.com/scout-app/|Github "Scout - Compass and Sass without all the hass(le)"]].
+=== AdminLTE Control Panel Template ===
   *[[http://www.almsaeedstudio.com/| Almsaeed Studio "AdminLTE Control Panel Template"]], [[http://www.github.com/almasaeed2010/AdminLTE|GitHub "almasaeed2010/AdminLTE"]].
     *[[http://www.bootstrapstage.com/admin-lte/|Bootstrap Stage "Admin LTE. Amazing Admin Starter"]] - "A full featured, free Bootstrap 3 admin dashboard theme".
 ==== Literature ====

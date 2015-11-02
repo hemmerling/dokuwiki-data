@@ -1,0 +1,105 @@
+====== [hemmerling] Google Android 3/3 - App Development ======
+Related page:
+  *[[android.html|Google Android 1/3]].
+  *[[android02.html|Google Android 2/3 - Apps]].
+  *[[gameapp.html|My first 3D VRML Android App, made with Unity]].
+==== Operating Systems / Firmeware ====
+=== Software ===
+  *[[http://www.cyanogenmod.org/|CyanogenMod]] - "An aftermarket firmware for a number of cell phones based on the open-source Android operating system".
+  *[[http://www.replicant.us/|Replicant]].
+  *[[http://developer.mozilla.org/en/docs/Mozilla/Firefox_OS|Mozilla Developer "Firefox OS"]].
+=== Resources ===
+  *[[http://www.freeyourandroid.org/|FSFE "Free Your Android!]].
+==== Development Software =====
+==== Platform & Software Development Kit ( SDK )====
+=== The Platform ===
+  *[[http://www.android.com/|Google Android]].
+  *[[http://developer.android.com/|Google Android developer]].
+  *Supported Operating Systems for Android SDK: Linux and WinXP / Vista / Win7.
+  *[[http://code.google.com/android/|Google Code: Google Projects for Android]].
+=== Android Studio, based on IntelliJ ===
+  *[[http://developer.android.com/sdk/installing/studio.html|Google Android "Getting Started with Android Studio"]].
+    *Android 4 SDK -> JDK6, Android 5.0 SDK and newer -> JDK7. "Before you set up Android Studio, be sure you have installed JDK 6 or higher (the JRE alone is not sufficient)—JDK 7 is required when developing for Android 5.0 and higher".
+    *Error message "Error launching Android Studio. No JVM installation found. Please install a 32-bit JDK. If you already have a JDK installed, define a JAVA_HOME variable in Computer > System Properties > System Settings > Environment Variables".
+    *[[http://en.wikipedia.org/wiki/Android_Studio|EN.Wikipedia "Android Studio"]], [[http://de.wikipedia.org/wiki/Android_Studio|DE.Wikipedia "Android Studio"]].
+=== Android SDK ===
+  *[[http://developer.android.com/sdk/installing/|Google Android "Installing the SDK"]].
+=== The legacy Android ADK, based on Eclipse ===
+  *[[http://web.archive.org/web/20141202044627/http://developer.android.com/sdk/index.html#download|Archive.org "Get the Android SDK"]], 2014-12-02
+    *"Download the ADT Bundle to quickly start developing apps. It includes the essential Android SDK components and a version of the Eclipse IDE with built-in ADT (Android Developer Tools) to streamline your Android app development".
+    *Click on "VIEW ALL DOWNLOADS AND SIZES" to see all downloads.
+  *Latest and last, now legacy editions:
+    *[[http://dl.google.com/android/adt/adt-bundle-linux-x86_64-20140702.zip|Android Developer Tools ( ADT ) for Linux 64bit]].
+    *[[http://dl.google.com/android/adt/adt-bundle-linux-x86-20140702.zip|Android Developer Tools ( ADT ) for Linux 32bit]].
+    *[[http://dl.google.com/android/adt/adt-bundle-windows-x86-20140702.zip|Android Developer Tools ( ADT ) for Win32]].
+    *[[http://dl.google.com/android/adt/adt-bundle-windows-x86_64-20140702.zip|Android Developer Tools ( ADT ) for Win64]].
+  *[[http://www.stackoverflow.com/questions/27449206/what-is-the-final-version-of-the-adt-bundle|StackOverflow "What is the final version of the ADT Bundle?"]].
+=== Free and commercial Android Emulators ===
+  *"Android Emulator".
+    *[[http://developer.android.com/guide/developing/tools/emulator.html|Android Developers: Android Emulator]].
+    *Video [[http://www.youtube.com/watch?v=JxUQhnRf1oQ|YouTube "How-To: Android SDK Emulator"]].
+    *[[http://www.android.encke.net/android-emulator-tutorial.html|Google Android Emulator Tutorial]].
+    *[[http://developer.android.com/tools/help/emulator.html|Android Developer Help "Android Emulator"]].
+    *Emulation of Android smartphones is ok, emulation of Android tablets is slow ( due to the higher performance level of these devices ).
+  *The Android emulator [[http://www.genymotion.com/|Genymobile "Genymotion"]], a Java application with free limited and full commercial editions.
+  *The generic OpenSource emulator [[http://www.qemu.org/|QEMU]] may emulate Android devices too :-). It is shipped with the Yocto project :-).
+    *[[http://en.wikipedia.org/wiki/QEMU|EN.Wikipedia "QEMU"]], [[http://de.wikipedia.org/wiki/QEMU|DE.Wikipedia "QEMU"]].
+  *The affordable ShareWare Android emulator [[http://www.youwave.com/|YouWave for Android]] for Windows, with 10-day trial - "Runs Android apps and app stores on your PC, no phone required. Download thousands of apps online via app stores within youwave".
+=== Installation ===
+  *[[http://docs.appcelerator.com/titanium/3.0/#!/guide/Installing_the_Android_SDK|Titanium 3.X - Appcelerator Docs "Installing the Android SDK"]].
+    *The following packages, and the respective versions shown, must be installed to be able to develop for Android, as of 2014-08: 
+      -Android SDK 22.
+      -Android SDK 19.
+      -Android SDK 14 ( I was told by experts, to match the largest number of possible customers ).
+      -Android SDK 10.
+    *[[http://en.wikipedia.org/wiki/Android_version_history|EN.Wikipedia "Android version history"]], [[http://de.wikipedia.org/wiki/Liste_von_Android-Versionen|DE.Wikipedia "Liste von Android-Versionen"]].
+==== GUI Designers & IDEs for Android Development ====
+=== IDEs ===
+  *[[http://www.eclipse.org|Eclipse]].
+  *[[http://www.jetbrains.com/idea/|JetBrains "IntelliJ IDEA"]], [[http://www.jetbrains.com/idea/free_java_ide.html|JetBrains "IntelliJ IDEA Community Edition"]].
+    *[[http://en.wikipedia.org/wiki/IntelliJ_IDEA|EN.Wikipedia "IntelliJ IDEA"]], [[http://de.wikipedia.org/wiki/IntelliJ_IDEA|DE.Wikipedia "IntelliJ IDEA"]].
+    *[[http://developer.android.com/sdk/installing/studio.html|Android Developers "Getting Started with Android Studio"]].
+=== GUI Designers ===
+  *[[http://code.google.com/p/andrdev-emf-gui-designer/|Google Code "andrdev-emf-gui-designer"]].
+==== Framworks ====
+=== Android Open Accessory Development Kit ( ADK ) ===
+== The Framework ==
+  *[[http://developer.android.com/guide/topics/usb/adk.html|Android Developers "Android Open Accessory Development Kit"]] ( ADK ).
+    *[[http://developer.android.com/sdk/installing/bundle.html|Android Developers "Setting Up the ADT Bundle"]].
+      *[[http://developer.android.com/training/basics/firstapp/|Android Developers "Building Your First App"]].
+  *The ADK offers just Java6 support, i.e. no Java8 support.
+== ATMega2560 ADK - Hardware I/O Device for Android ==
+  *See [[arduino.html|The Arduino / Freeduino Platform with Atmel ATmega, Microchip PIC, ARM, Freescale Coldfire]].
+== IOIO - Hardware I/O Device for Android ==
+  *[[http://www.watterott.com/de/IOIO-for-Android|Watterott electronic GmbH "IOIO für Android"]].
+  *[[http://github.com/ytai/|GitHub "ytai / ioio"]].
+    *[[http://github.com/ytai/ioio/wiki|GitHub "ytai / ioio" - Wiki "IOIO Documentation"]].
+  *[[http://www.sparkfun.com/tutorials/280|SparkFun "OIO for Android Beginners Guide"]].
+  *[[http://ytai-mer.blogspot.de/|Blogspot Blog "Microcontrollers, Electronics & Robotics"]].
+    *[[http://ytai-mer.blogspot.de/2011/06/ioio-over-openaccessory-adk-available.html|Blogspot Blog "Microcontrollers, Electronics & Robotics" - "IOIO over OpenAccessory (ADK) Available"]], 2011-06-05.
+=== Cardboard Apps ===
+  *See [[gameapp.html|My first 3D VRML Android App, made with Unity]].
+  *[[http://developers.google.com/cardboard/|Google Developers "Cardboard"]].
+=== JavaFX ===
+  *[[http://www.bitbucket.org/javafxports/android/|Bitbucket "JavaFX on Android Porting Community"]].
+==== Resources ====
+  *Remember, while there is now Java8 for Desktop PCs, Android SDK is on the level of Java6!
+===== Developer Training =====
+==== Literature ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3836216973/hemmerling-21|Thomas Künneth: "Android 3: Apps entwickeln mit dem Android SDK"]], for Java developers.
+  *The free PDF book [[http://www.enough.de/products/mobile-developers-guide/|Enough Software GmbH & Co.KG  "Mobile Developer's Guide To The Galaxy"]] #.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3816306705/hemmerling-21|VDMA Verlag GmbH "App-Entwicklung für die Industrie"]].
+    *[[http://www.vdmashop.de/Informatik-und-Technik/App-Entwicklung-fuer-die-Industrie.html|VDMA Verlag, ForumIT@Automation, Industriekreis Smart Devices "App-Entwicklung für die Industrie. Grundlagen und Entscheidungshilfen"]].
+==== Videos ====
+  *[[http://www.youtube.com/results?search_query=Developing+Android+Apps|YouTube Search for "Developing Android Apps"]].
+==== MOOC ====
+  *[[http://www.coursera.org/specializations/mobilecloudcomputing2|Coursera "Mobile Cloud Computing with Android Specialization"]].
+    -[[http://www.coursera.org/course/androidpart1|Coursera "Programming Mobile Applications for Android Handheld Systems: Part 1"]].
+    -[[http://www.coursera.org/course/androidpart2|Coursera "Programming Mobile Applications for Android Handheld Systems: Part 2"]].
+    -[[http://www.coursera.org/course/posaconcurrency|Coursera "Programming Mobile Services for Android Handheld Systems: Concurrency"]].
+    -[[http://www.coursera.org/course/posacommunication|Coursera "Programming Mobile Services for Android Handheld Systems: Communication"]].
+    -[[http://www.coursera.org/course/mobilecloudprogram|Coursera "Programming Cloud Services for Android Handheld Systems: Spring"]], 2016-04-04 - 2016-05-30.
+    -[[http://www.coursera.org/course/mobilecloudsecurity|Coursera "Programming Cloud Services for Android Handheld Systems: Security"]], 2016-06-06 - 2016-07-18.
+    -[[http://www.coursera.org/course/androidcapstone|Coursera "Android Capstone Project"]].
+{{tag>"Google Android" Android}}
+<footnote_navi_en>

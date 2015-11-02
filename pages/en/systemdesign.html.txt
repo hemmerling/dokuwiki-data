@@ -100,6 +100,9 @@ A Conversation with Bertrand Meyer, Part II"]], [[http://www.artima.com/intv/con
 
 ===== Design Patterns =====
 ==== Patterns ====
+  *[[http://facebook.github.io/flux/|Github.io "Flux - Application Architecture for Building User Interfaces"]], [[http://www.github.com/facebook/flux|GitHub "facebook/flux"]] for Javascript.
+    *[[http://www.fluxxor.com/what-is-flux.html|Fluxxor "What is Flux?"]].
+    *[[http://medium.com/@amix3k/flux-vs-mvc-design-patterns-57b28c0f71b7#.aqd8edhwx|Amir Salihefendic "Flux vs. MVC"]] - "A look at how Facebook’s Flux pattern solves things differently, especially in relation to the Model-View-Controller (MVC) pattern".
   *[[http://en.wikipedia.org/wiki/Model_View_ViewModel|EN.Wikipedia "Model View ViewModel"]], [[http://de.wikipedia.org/wiki/Model_View_ViewModel|DE.Wikipedia "Model View ViewModel"]].
     *The ViewModel is the controller of the traditional Model-View-Controller. The pattern is designed for automatic testing.
     *Requirements: A software framework which provides "DataBinding". Microsoft .NET 4.5 does!

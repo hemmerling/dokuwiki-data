@@ -16,6 +16,7 @@ Related pages:
 == The Tool ==
   *[[http://www.docker.com/|Docker]] - "An open platform for distributed applications for developers and sysadmins", "Build, Ship and Run Any App, Anywhere".
   *[[http://github.com/docker|GitHub "docker"]] - "The open-source application container engine".
+  *[[http://hub.docker.com/|Docker Hub]] - "Build, Ship, and Run Any App, Anywhere. Dev-test pipeline automation, 100,000+ free apps, public and private registries".
   *[[http://www.twitter.com/docker|Twitter "Docker, @docker. The Linux container engine"]].
   *Documentation:
     *[[http://docker.readthedocs.org/en/v0.7.3/installation/kernel/|Read The Docs "Docker" - "Kernel Requirements"]] - "Linux version 3.8 or above".
@@ -23,6 +24,12 @@ Related pages:
   *[[http://registry.hub.docker.com/|Docker Hub Registry]] - "Repositories of Docker Images".
   *[[http://www.coreos.com/docs/launching-containers/building/getting-started-with-docker/|Core OS "Getting Started with docker"]].
   *[[http://en.wikipedia.org/wiki/Docker_%28software%29|EN.Wikipedia "Docker (software)"]], [[http://de.wikipedia.org/wiki/Docker_%28Software%29|DE.Wikipedia "Docker (Software)"]].
+== Boot2docker ==
+  *[[http://www.boot2docker.io/|Boot2docker - Lightweight Linux for Docker]], [[http://www.github.com/boot2docker/|GitHub "boot2docker"]].
+  *[[http://www.ibm.com/developerworks/community/blogs/jfp/entry/running_ipython_notebooks_in_a_docker_container_on_windows|IBM DeveloperWorks "Installing Boot2Docker For Windows"]].
+  *[[http://blog.tutum.co/2014/11/05/how-to-use-docker-on-windows/|Tutum Blog "How to Use Docker on Windows"]].
+== Docker Compose ==
+  *[[http://docs.docker.com/compose/|Docker Docs "Overview of Docker Compose"]].
 == Fig ==
   *[[http://www.orchardup.com/blog/fig|Orchard Blog "Fig: Fast, isolated development environments using Docker"]].
   *[[https://www.github.com/docker/fig|GitHub "docker/fig"]].
@@ -66,10 +73,20 @@ Related pages:
     *Solution You must install the "VMware vCenter Converter Standalone" V5.01. An expert suggested to select "Client-Server Installation (advanced)".
 ==== VMLite ====
   *The free virtual machine [[http://www.vmlite.com/|VMLite Corporation "VMLite"]] for WinXP.
-==== Windows 8, Win2008 & Hyper-V ====
+==== Wind8.1Pro / Win10Pro, Win2012 & Hyper-V ====
+=== The Addon for Win8.1Pro / Win10Pro ===
+=== The (license-)free stand-alone Server "Hyper-V Server" ===
+  *[[http://www.microsoft.com/en-us/evalcenter/evaluate-hyper-v-server-2012-r2|Microsoft Evalcenter "
+Hyper-V Server 2012 R2"]] - "Evaluation Unlimited", "Hyper-V Server is a dedicated stand-alone product that contains the hypervisor, Windows Server driver model, virtualization capabilities, and supporting components such as failover clustering, but does not contain the robust set of features and roles as the Windows Server operating system. As a result, Hyper-V Server produces a small footprint and requires minimal overhead. Organizations consolidating servers where no new Windows Server licenses are required or where the servers being consolidated are running an alternative OS may want to consider Hyper-V Server".
+=== Resources ===
+== Hyper-V Server ==
+  *Hyper-V Server is shipped without the typical GUI known as "Windows GUI", but is dedicated for commandline operation.
+  *[[http://technet.microsoft.com/en-us/library/hh833684.aspx?f=255&MSPPError=-2147217396|Microsoft TechNet "Microsoft Hyper-V Server 2012 R2 and Hyper-V Server 2012"]].
+== Hyper-V for Win8.1Pro / Win10Pro ==
   *[[http://technet.microsoft.com/en-us/library/hh857623.aspx|Microsoft TechNet "Client Hyper-V"]].
   *[[http://www.winsupersite.com/article/windows8/windows-8-tip-virtualize-hyperv-143521|Paul Thurrott's Supersite for WINDOWS "Windows 8 Tip: Virtualize with Hyper-V"]], 2012-06-24.
-  *[[http://blogs.msdn.com/b/b8/archive/2011/09/07/bringing-hyper-v-to-windows-8.aspx|Microsoft MSDN, Blog "Building Windows", Article "Bringing Hyper-V to “Windows 8”"]], 2011-09-07.
+  *[[http://blogs.msdn.com/b/b8/archive/2011/09/07/bringing-hyper-v-to-windows-8.aspx|Microsoft MSDN, Blog "Building Windows", Article "Bringing Hyper-V to “Windows 8"]], 2011-09-07.
+  *[[http://en.wikipedia.org/wiki/Hyper-V|EN.Wikipedia "Hyper-V"]], [[http://de.wikipedia.org/wiki/Hyper-V|DE.Wikipedia "Hyper-V"]] - "Hyper-V Server: It is a freeware edition of Windows Server with limited functionality and Hyper-V component".
 ==== Windows Virtual PC / Microsoft VirtualPC ====
 === Windows 7 Native Boot of VHD - The "Shift F10" Experience ===
   *[[http://blogs.msdn.com/b/knom/archive/2009/04/07/windows-7-vhd-boot-setup-guideline.aspx|MSDN Blogs, knom's developer corner "Windows 7 – VHD Boot – Setup Guideline"]].

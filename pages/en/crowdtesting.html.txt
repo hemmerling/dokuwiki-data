@@ -1,0 +1,179 @@
+====== [hemmerling] Crowdtesting ======
+Related pages:
+  *[[testing.html|Testing]].
+===== PASS Group "Passbrains" =====
+  *[[http://www.passbrains.com/|PASS Group "Passbrains"]].
+    *[[http://www.mindapple.com/|InfoPins powered by MindApple]].
+    *Blog [[http://www.passbrains.com/blog/|Passbrains Blog]].
+    *[[http://www.facebook.com/passbrains|Facebook "passbrains.com"]].
+    *Relevant test automation tools:
+      *HP QuickTest Professional √.
+      *HTTP Test Tool -> See [[network.html|Network Tools 1/2]] √.
+      *IBM Rational Functional Tester √.
+      *LabVIEW √.
+      *Maveryx √.
+      *QF-Test √.
+      *Ranorex √.
+      *Rational Robot √.
+      *Selenium √.
+      *SilkTest √.
+      *SOATest -> See [[network.html|Network Tools 1/2]] √.
+      *TestComplete √.
+      *TestingAnywhere √.
+      *TestPartner √.
+      *TOSCA Testsuite √.
+      *TPT √.
+      *Visual Studio Test Professional √.
+      *WATIR √.
+      *WebUI Test Studio √.
+===== Userlutions GmbH "RapidUserTests" =====
+  *[[http://www.rapidusertests.com/|Userlutions GmbH "RapidUserTests"]] - "Webseiten testen und 6 EUR in 30min verdienen".
+    *[[http://www.rapidusertests.com/online_geld_verdienen.html|Userlutions GmbH "JETZT Tester werden"]].
+    *[[http://www.facebook.com/userlutions|Facebook "RapidUserTests"]].
+    *Test object in 2013-12 for the introductory test: [[http://www.bahn.de/|Bahn.de]].
+===== Testbirds GmbH =====
+  *[[http://www.testbirds.de/|Testbirds GmbH]], [[http://www.testbirds.com/|Testbirds GmbH]].
+    *[[http://nest.testbirds.com/de/faq|Testbirds FAQ]].
+    *Test object in 2013-11 for the introductory test: [[http://www.care.de/|CARE Deutschland-Luxemburg e.V.]].
+    *Test object in 2013-12 for the introductory test: [[http://www.monster.de/|Monster.de]].
+===== testCloud.de GmbH =====
+  *[[http://www.testcloud.de/|testCloud.de GmbH]].
+    *[[http://academy.testcloud.de/|testCloud Academy]].
+      *[[http://academy.testcloud.de/testlauf-essentials/standards-of-quality|testCloud Academy - Testlauf Essentials]].
+===== testhub GmbH =====
+  *testhub GmbH -> See [[de:testhub.html|Testhub]].
+===== Ubertesters Inc. =====
+==== The Community ====
+  *[[http://www.ubertesters.com/|Ubertesters Inc.]].
+    *[[http://www.ubertesters.com/become-tester/|Ubertesters Inc. "Join the Uber League of Testers!"]] - "How to become a tester". "All you need is a smartphone or tablet, some previous experience in QA, and some free time to do the testing".
+    *Blog [[http://blog.ubertesters.com/|Ubertesting BLog]] - "We'll keep you updated on all news around mobile app testing".
+    *[[http://www.ubertesters.com/download-sdk/|Ubertesters Inc. - SDK]].
+==== People ====
+    *Alex Wilson, [[http://www.linkedin.com/profile/view?id=261894239|LinkedIn "Alex Wilson"]], QA Manager at Ubertesters.
+==== Steps how to participate in the "Hire Testers" Program ====
+=== 1. Signup ===
+  *[[http://www.ubertesters.com/become-tester/|Ubertesters Inc. "Join the Uber League of Testers!"]] - "How to become a tester". "All you need is a smartphone or tablet, some previous experience in QA, and some free time to do the testing".
+=== 2. Connect Your Smartphone and Tablet Devices and install the Testing App ===
+  *[[http://beta.ubertesters.com/|Ubertesters Inc. Dashboard "Beta"]] / [[http://beta.ubertesters.com/m|Ubertesters Inc. Dashboard "Beta" for Mobile Devices]]- "Visit on your device". Login website for registered testers ( also ) with smartphone devices.
+  *My Experience:
+    *The "Uebertesters.apk" is not available by a public Android appstore, but just by the website. 
+      *Usually, calling [[http://beta.ubertesters.com/m|beta.ubertesters.com/m]] offers you the download. The download is stored at "Phone storage / MyFavorite / Download / Ubertesters.apk".
+      *With my Android 4.1.1 tablet, instead the iOS app was offered for download. I was able to install "Ubertesters.apk" by transfering the download from another smartphone for which the download was offered.
+=== 3. Instructions to confirm with your Skills ===
+  *"To join the Ubertesters global community of professional testers and start testing projects with us. you should confirm your skills".
+  *"The practical task requires to select 2 applications from the list that we provide you with. Within 24 hours, you need to find and report 3 bugs in total and send us back the bug reports. The 24 hour time starts from the moment we send you an e-mail with the details".
+  *"In order to evaluate the knowledge of each tester who applies through Ubertesters we developed a complete evaluation process. One of the steps is the Practical test. Please install 2 applications from the list below, find 3 bugs within 24 hours and provide us with the bug reports".
+  *Bug reports should be sent in **Excel file**. Report should include:
+    -App name.
+    -Device / OS.
+    -Bug Summary.
+    -ISTQB Priority.
+      -High.
+      -Medium.
+      -Low.
+    -ISTQB Severity ( [[http://www.istqbexamcertification.com/what-is-the-difference-between-severity-and-priority/|ISTQB Exam Certification "What is the difference between Severity and Priority?"]] ).
+      -Critical.
+      -Major.
+      -Moderate.
+      -Minor.
+      -Cosmetic.
+    -Description (steps to reproduce); actual result, expected result.
+    -Workarounds (if any).
+    -Screenshots.
+      *"As a tester you should also know that the majority of the Android devices get screenshots if you press Volume button+Power button. If it does not work you have to find this information in the internet".
+  *"Please note that we randomly selected real applications from the market, do not make any payments while testing".
+=== 4. Applications for the practical Test Tasks, in 2015-08 ===
+  -[[http://play.google.com/store/apps/details?id=com.spartoo.app|Google Play "Shoes and fashion Spartoo"]].
+  -[[http://play.google.com/store/apps/details?id=com.jott.android.jottmessenger|Google Play "Jott Messenger"]].
+  -[[http://play.google.com/store/apps/details?id=co.hinge.mobile.android|Google Play "Hinge"]].
+  -[[http://play.google.com/store/apps/details?id=com.moonlightingllc.Moonlighting|Google Play "Moonlighting"]].
+  -[[http://play.google.com/store/apps/details?id=com.alarmclock.xtreme.free&hl=en|Google Play "Alarm Clock Xtreme Free +Timer"]].
+===== UserTesting.com =====
+  *[[http://www.usertesting.com/|UserTesting.com - The fastest way to get feedback]].
+    *[[http://www.usertesting.com/be-a-user-tester|UserTesting.com - The fastest way to get feedback "Be a User Tester: Earn $10 per Website test and $15 per Mobile test"]].
+    *General testing instructions:
+      *Read the Scenario aloud - this is the mindset to keep during the test.
+      *Complete each task as best as you can before moving on to the next one.
+      *THINK ALOUD - share and explain your thoughts. This is the best thing you can do!
+    *Watch a 1-minute example of a good tester video -> [[http://www.youtube.com/user/usertestingdotcom|YouTube User "usertestingdotcom"]], [[http://www.youtube.com/watch?v=2-Np316YNkY|YouTube "Applicant sample video"]].
+    *[[support@usertesting.com]] - E-Mail address of the support.
+    *Test object in 2013-10 for the sample test: 
+      *[[http://www.kiva.org/|KIVA]].
+      *Background informations about the website: [[http://en.wikipedia.org/wiki/Kiva_%28organization%29|EN. Wikipedia "Kiva (organization)"]], [[http://de.wikipedia.org/wiki/Kiva_%28Organisation%29|DE.Wikipedia "Kiva (Organisation)"]].
+===== uTest =====
+  *[[http://www.utest.com/|uTest]] - "Software Testing Community".
+    *[[http://my.utest.com/|My uTest]].
+    *[[http://university.utest.com/|uTest - Software Testing Courses]].
+      *[[http://university.utest.com/invitations/#sandboxprogram|uTest - Invitations for Test Cycles]] - "The uTest Sandbox 101 is a program that provides newly registered (or currently unrated) uTesters with the opportunity to evaluate uTest, and likewise an opportunity for uTest to evaluate new uTesters. This involves participating in an unpaid 'audition' test cycle that closely mimics a regular, paid uTest test cycle". 
+    *[[http://www.facebook.com/uTest|Facebook "uTest"]].
+    *[[http://plus.google.com/u/0/+utest/posts|Google+ "uTest"]].
+    *[[http://www.linkedin.com/company/utest|LinkedIn "uTest"]].
+    *[[http://www.youtube.com/user/uTestInc|YouTube "uTest Inc"]].
+    *[[http://www.twitter.com/utest|Twitter "uTest, @utest"]].
+    *Relevant testing skills:
+      *Functional.
+        *API Testing.
+        *Manual - Exploratory.
+        *Manual - Test Case Execution.
+        *Manual - Test Case Writing.
+        *Test Automation - .Net.
+        *Test Automation - Asp.
+        *Test Automation - C#.
+        *Test Automation - C++.
+        *Test Automation - Flash.
+        *Test Automation - Java.
+        *Test Automation - JavaScript.
+        *Test Automation - Objective-C.
+        *Test Automation - Perl.
+        *Test Automation - PHP.
+        *Test Automation - Python.
+        *Test Automation - Ruby.
+        *Test Automation - VB.
+      *Load & Performance.
+        *.Net.
+        *AppLoader.
+        *Asp.
+        *BrowserMob.
+        *C#.
+        *C++.
+        *Flash.
+        *Java.
+        *JavaScript.
+        *Jmeter.
+        *LoadRunner.
+        *Objective-C.
+        *OpenSTA.
+        *Perl.
+        *PHP.
+        *Python.
+        *QTP.
+        *Rational.
+        *Ruby.
+        *Selenium.
+        *SilkPerformer.
+        *SLAMD.
+        *SOASTA.
+        *TestComplete.
+        *VB.
+        *Visual Studio Load Test.
+      *Usability.
+        *Expert Usability Review.
+        *Persona and use case script creation.
+        *Survey creation.
+        *Survey Data Analysis.
+        *Usability planning/project design.
+        *Usability report creation.
+      *Security.
+        *Dynamic security testing.
+        *Manual Penetration testing.
+        *Security Tools.
+        *Static security testing.
+      *Localization.
+        *I18n testing.
+        *L10n testing.
+        *Professional translator/linguist.
+===== Resources =====
+  *[[http://www.crowdtesting.biz/|Crowd Testing. Software Testing durch die Crowd. Informationen zum Thema Crowdtesting (Software-Tests durch Crowdsourcing)]].
+    *[[http://www.crowdtesting.biz/crowd-testing-anbieter-dienstleister-im-deutschsprachigen-raum/|Crowd Testing "Crowd Testing Anbieter / Dienstleister im deutschsprachigen Raum"]].
+{{tag>testing}}
+<footnote_navi_en>

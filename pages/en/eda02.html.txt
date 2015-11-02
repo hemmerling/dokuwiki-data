@@ -153,7 +153,16 @@ Related page:
     *The free [[http://www.designspark.com/pcb|DesignSpark PCB]].
   *EAGLE.
     *[[http://www.cadsoft.de/freeware.htm|CadSoft "EAGLE Light Edition"]] - free tool for designing printed circuit boards (PCBs).
-    *[[http://www.element-14.com/eagle-freemium|Element 14 "EAGLE  Freemium edition"]].
+    *[[http://www.element-14.com/eagle-freemium|Element 14 "EAGLE Freemium edition"]].
+    *[[http://eagle.software.informer.com/download/|Software Informer "EAGLE"]] - Software archive with download offer for legacy software editions.
+    *"EAGLE 6.6.0" is the latest edition which runs on Windows computers with PentiumIII CPU. Newer versions, e.g. "EAGLE 7.4.0" require a PentiumIV CPU. On Windows computers with PentiumIII CPUs :-(, the installation crashes by an APPCRASH.
+    *"EAGLE 7.4.0" asks on Win7 / Win8.1,.. to create the directory "C:\Users\<user>\Documents\eagle" if it doesn´t exist, to store data of user projects.
+    *The online PCB board manufacting shop [[http://www.wedirekt.de/index.php/jungle|Würth Elektronik GmbH & Co. KG "WEdirekt Leiterplatten-Shop" - "Jungle"]] - "EAGLE Nutzer aufgepasst: mit EAGLE erstellte Leiterplatten lassen sich einfach über den 'PCB Quote'-Button bei WEdirekt anfragen und bestellen", "Sie sind mit Ihrem Layout zufrieden? Klicken Sie auf " ( den grünen Button ) "'PCB-Quote' in EAGLE". The "PCB Quote" button is visible if the "Board" window is opened. You are tken to these websites:
+      *[[http://www.element14.com/community/community/pcb_prototyping|element14 "element14 PCB Prototyping"]].
+      *[[http://www.element14.com/community/community/pcb_prototyping/pcb_fabrication|element14 "element14 PCB Fabrication & Manufacturing"]].
+        *[[http://be.eurocircuits.com/shop/orders/configurator.aspx|Eurocircuits GmbH "PCB Orders Configurator"]].
+        *[[http://www.wedirekt.de/index.php/pcb/index/current|Würth Elektronik GmbH & Co. KG "WEdirekt - PCB Orders Configurator"]].
+    *[[http://www.heise.de/download/eagle.html|heise Download "Eagle 7.4.0"]] - "Mit Version 6 seiner Leiterplatten-Designsoftware Eagle hat der Hersteller CadSoft XML als grundlegendes Datenformat eingeführt, was das Bearbeiten von Projektdateien durch Skripte einfacher macht und die Grundlage für zukünftige Erweiterungen schafft".
   *The free schematic and PCB design software [[http://www.expresspcb.com/|ExpressPCB]] for Windows.
   *[[http://www.pad2pad.com/|Pad2Pad - Custom PCBs Online]] - Commercial PCB service, with free PCB design software for Windows.
   *[[http://www.ibfriedrich.com/|Ing.-Büro FRIEDRICH "Target 3001!"]] - free edition ( "Target 3001! discover" ) and commercial editions.
@@ -193,6 +202,12 @@ Related page:
   *[[http://www.ansys.com/Products/Simulation+Technology/Electronics/Signal+Integrity/ANSYS+SIwave|ANSYS, Inc. "ANSYS SIwave"]].
   *[[http://www.ansys.com/Support/Training+Center/Courses/Introduction+to+ANSYS+SIwave|ANSYS, Inc. "Introduction to ANSYS SIwave"]].
   *[[http://www.youtube.com/watch?v=0xJOMg5HGqY|YouTube "ANSYS SIwave"]].
+==== PCB Data Formats ====
+  *[[http://en.wikipedia.org/wiki/EDIF|EN.Wikipedia "EDIF"]], [[http://de.wikipedia.org/wiki/Electronic_Design_Interchange_Format|DE.Wikipedia "Electronic Design Interchange Format"]].
+  *[[http://en.wikipedia.org/wiki/Gerber_format|EN.Wikipedia "Gerber format"]], [[http://de.wikipedia.org/wiki/Gerber-Format|DE.Wikipedia "Gerber-Format"]].
+  *[[http://en.wikipedia.org/wiki/ODB%2B%2B|EN.Wikipedia "ODB++"]].
+==== Online Shops for Printed Circuit Board Production ====
+  *The online PCB board manufacting shop [[http://www.wedirekt.de/index.php/jungle|Würth Elektronik GmbH & Co. KG "WEdirekt Leiterplatten-Shop"]] - Online shop to order PCB boards individually designed by the customers, with focus on single units and small quantities.
 ===== Resources =====
   *The German EDA multi-vendor distributor [[http://www.flowcad.de/|FlowCAD]].
   *[[http://en.wikipedia.org/wiki/Electronic_design_automation|EN.Wikipedia "Electronic design automation"]], [[http://de.wikipedia.org/wiki/Electronic_Design_Automation|DE.Wikipedia "Electronic Design Automation"]].

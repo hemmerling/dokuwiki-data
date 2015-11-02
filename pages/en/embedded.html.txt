@@ -1,9 +1,10 @@
-======[hemmerling] Embedded Systems ======
+====== [hemmerling] Embedded Systems ======
 Related pages:
   *[[debugger.html|Hardware Debugger and Software Debugger]].
   *[[electronics02.html|Electric Units & Electronics 2/3 - Actors, Sensors, Embedded Systems Electronics and suitable Control Systems]].
   *[[fritzbox.html|FRITZ!Box]].
   *[[realtime.html|Realtime Operating Systems & Software for Embedded Systems]].
+  *[[robotics.html|Robotics ( Robots, Drones, Industry Automation, Remote Controlled Devices, Artificial Intelligence )]].
 ===== Free and affordable Multi-Platform Embedded Development Tools ======
 ==== Compiler & Assembler Tools ====
   *[[http://john.ccac.rwth-aachen.de:8000/as/|Alfred Arnold "The Macroassembler AS"]].
@@ -371,11 +372,6 @@ Related pages:
   *[[http://www.conrad.de/ce/de/FastSearch.html?search=usb+netzteil|Conrad "usb netzteil"]].
   *[[http://www.conrad.de/ce/de/FastSearch.html?search=usb+netzadapter|Conrad "usb netzadapter"]].
   *[[http://www.pearl.de/a-PX5308-5541.shtml|PEARL Agency "revolt Universal-Schaltnetzteil 1.000mA, umschaltbar 3-12V"]].
-==== Helicopters ====
-  *[[http://www.microdrones.com/|microdrones GmbH]] - helicopters.
-  *[[http://www.jamara.de/|JAMARA e.K. / Jamara Modelltechnik]]" - "RC-Modellbau vom Feinsten". Rremote controlled items ( airplanes, cars, helicopters, boats ), also as promotional items.
-  *Quadrokopter, X-Ufo, Brushless, Gyro - some other small helicopters.
-  *Sensor experts suggest just to buy helictopers which are advertised to be equiped with the "gyro" technology, because helicopters equipped with a "gyroscope" sensor have acceptable flight behaviour for rookies, those without not :-).
 ==== Toys of Washing Machines ====
   *[[http://www.my-klein-toys.de/|Theo Klein GmbH, "Klein Toys"]].
     *[[http://www.miele.co.uk/accessories/Details.aspx?rdid=12&aid=729|Miele & Cie. GmbH & Co "Toy Washing Machine"]], UK - "Part Number 98022260", "Made by Theo Klein Toys".
@@ -384,8 +380,8 @@ Related pages:
     *[[http://www.amazon.de/exec/obidos/ASIN/B0002H7TV4/hemmerling-21|Amazon.DE "Klein 6934 - MIELE Waschmaschine mit Geräuschen"]].
     *[[http://www.amazon.de/exec/obidos/ASIN/B000P36UZQ/hemmerling-21|Amazon.DE ""Waschmaschine Miele 24cm"]].
     *On the event "Smart Energy Forum" on 2011-10-25 in Hannover, [[http://www.freescale.com/|Freescale Semiconductor, Inc.]] presented a home automation showcase, where this toy was specially equipped with a Freescale [[http://en.wikipedia.org/wiki/ZigBee|Zigbee]] RF interface :-).
-
 ==== Resources ====
+  *Online shop [[http://www.agile-hardware.de/|Agile Hardware - Für agile Entwickler und Teams]].
   *[[http://www.spiegel.de/netzwelt/spielzeug/0,1518,456942,00.html|SPIEGEL "Drohne für jedermann. Mal sehen, was der Nachbar treibt"]], 2006-12-29.
 ===== List of Embedded Application Ideas & Code for such Applications =====
 ==== General ====
@@ -403,7 +399,7 @@ Related pages:
   *32-bit CPUs may be cheaper than 8-bit CPUs, as the chip manufacturer can produce more chips on the same space... due to the smaller structures of 32-bit chips and so the smaller dice size.
 ===== Literature =====
 ==== Paper Magazines ====
-  *[[http://www.heise.de/hardware-hacks/|c´t Hardware Hacks]].
+  *[[http://www.heise.de/make/|Heise "Make – Kreativ mit Technik"]] ( formerly: [[http://www.heise.de/hardware-hacks/|c´t Hardware Hacks]] ).
 ==== Books ====
   -Book [[http://www.amazon.de/exec/obidos/ASIN/382665949X/hemmerling-21|Friedrich Bollow, Matthias Homann,, Klaus-Peter Köhn: "C und C++ für Embedded Systems"]].
     *[[http://www.doulos.com/knowhow/arm/C_und_Cxx_fuer_Embedded_Systems/|Doulos - "C und C++ für Embedded Systems"]] - "Doulos contributes ARM Cortex-M3 content to popular embedded systems book".

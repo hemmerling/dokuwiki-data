@@ -1,27 +1,33 @@
-====== [hemmerling] Python 2/6 ======
+====== [hemmerling] Python 2/10 ======
 Related pages:
-  *[[python.html|Python 1/7]].
-  *[[python03.html|Python 3/7 - Literature]].
-  *[[python04.html|Python 4/7 - Pro & Contra]].
-  *[[python05.html|Python 5/7]].
-  *[[python06.html|Python 6/7 - Education in Python]].
-  *[[python07.html|Python 7/7 - Organisations, Conferences, Barcamps & Events]].
+  *[[python.html|Python 1/10]].
+  *[[python03.html|Python 3/10 - Literature]].
+  *[[python04.html|Python 4/10 - Pro & Contra]].
+  *[[python05.html|Python 5/10]].
+  *[[python06.html|Python 6/10 - Education in Python]].
+  *[[python07.html|Python 7/10 - Organisations, Conferences, Barcamps & Events]].
+  *[[python08.html|Python 8/10 - IDEs & GUI Designers]].
+  *[[python09.html|Python 9/10 - Modules & Frameworks]].
+  *[[python10.html|Python 10/10 - Web Application Frameworks]].
   *[[erp02.html|ERP 2/2 - The OpenSource ERP Systems "TinyERP" / "OpenERP" / "Odoo" and the Fork "Tryton"]].
   *[[uscripting.html|Scripting Programming Languages for Unix / Linux and Windows]].
-
 ===== Python - The Programming Language =====
 ==== Abstract methods, @classmethod, @staticmethod ====
   *[[http://www.stackoverflow.com/questions/12179271/python-classmethod-and-staticmethod-for-beginner|StackOverflow "Python @classmethod and @staticmethod for beginner?"]].
   *[[http://www.pythoncentral.io/difference-between-staticmethod-and-classmethod-in-python/|PythonCentral "Difference between @staticmethod and @classmethod in Python"]].
   *[[http://julien.danjou.info/blog/2013/guide-python-static-class-abstract-methods|Julien Danjou "The definitive guide on how to use static, class or abstract methods in Python"]].
-==== Decorators - @ - ====
-  *[[http://jasonmbaker.wordpress.com/2009/04/25/the-magic-of-python-decorators/|Jason in a Nutshell - All about programming and whatever else comes to mind "The magic of python decorators"]].
-==== Duck Typing ====
-  *[[http://en.wikipedia.org/wiki/Duck_typing|EN.Wikipedia "Duck typing"]], [[http://de.wikipedia.org/wiki/Duck-Typing|DE.Wikipedia "Duck-Typing"]].
 ==== Anonymous functions ====
   *See [[functional.html|Functional Programming]].
   *[[http://www.secnetix.de/olli/Python/lambda_functions.hawk|secnetix GmbH & Co. KG "Python: Lambda Functions"]].
   *[[http://en.wikipedia.org/wiki/Anonymous_function|EN.Wikipedia "Anonymous function"]], [[http://de.wikipedia.org/wiki/Anonyme_Funktion|DE.Wikipedia "Anonyme Funktion"]] - "Python supports anonymous functions through the lambda syntax, in which you can only use expressions (and not statements)".
+==== Decorators - @ - ====
+  *[[http://jasonmbaker.wordpress.com/2009/04/25/the-magic-of-python-decorators/|Jason in a Nutshell - All about programming and whatever else comes to mind "The magic of python decorators"]].
+==== Duck Typing ====
+  *[[http://en.wikipedia.org/wiki/Duck_typing|EN.Wikipedia "Duck typing"]], [[http://de.wikipedia.org/wiki/Duck-Typing|DE.Wikipedia "Duck-Typing"]].
+==== if not ====
+  *"if not myVariable" checks if the variable has a defined value, i.e. is initialized.
+  *[[http://www.stackoverflow.com/questions/16739555/python-if-not-syntax|Stack Overflow "Python 'If not' syntax [duplicate]"]].
+  *[[http://stackoverflow.com/questions/100732/why-is-if-not-someobj-better-than-if-someobj-none-in-python|Stack Overflow "Why is 'if not someobj:' better than 'if someobj == None:' in Python?"]].
 ==== Metaclass ====
   *[[http://eli.thegreenplace.net/2011/08/14/python-metaclasses-by-example|Eli Bendersky's website "Python metaclasses by example"]].
   *[[http://www.jeffknupp.com/blog/2013/12/28/improve-your-python-metaclasses-and-dynamic-classes-with-type/|Jeff Knupp - Everything I know about Python... "Improve Your Python: Metaclasses and Dynamic Classes With Type"]].

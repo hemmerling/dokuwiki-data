@@ -7,6 +7,7 @@ Related page:
     *[[http://plus.google.com/u/0/events/cmla671g4n9b2448at6nmlimef4|Google+ "12th European Tcl/Tk User Meeting"]] in Munich, 2014-07-12 - 2014-07-13.
     *I was one of the 26 participants of the "13th European Tcl/Tk User Meeting" in Cologne, 2014-06-20 - 2015-06-21 :-).
   *In 2015, the electronics distributor [[http://www.silica.com/events.html|Silica (An Avnet Company) ]] offered free [[http://www.silica.com/events.html|seminars]] in Germany about TCL/TK, like "Seminar VIVADO Tool Flow + TCL/TK" :-).
+  *[[http://wiki.tcl.tk/828|Tcler's Wiki "Tcl Conferences"]].
 ===== Videos =====
     *[[http://www.google.ca/search?tbm=vid&as_q=tcl/tk|Google - Search for "tcl/tk" videos]].
     *[[http://www.youtube.com/user/videotcltk|YouTube Channel "Tcl/Tk Video"]] - Videos of the US conference "Tcl/Tk Conferences" and of the European conferences "EuroTcl".
@@ -106,9 +107,30 @@ Output window INACTIVE.
 ==== Editors with some Tcl Support ( for Highlighting,..) ====
   *The OpenSource editor [[http://www.geany.org/|Geany]] for Linux and Windows.
     *[[http://en.wikipedia.org/wiki/Geany|EN.Wikipedia "Geany"]], [[http://de.wikipedia.org/wiki/Geany|DE.Wikipedia "Geany"]].
-==== GUI Building Tools ====
-  *The OpenSource GUI builder [[http://page.sourceforge.net/|SourceForge "PAGE - Python Automatic GUI Generator"]], [[http://www.sourceforge.net/projects/page|SourceForge "PAGE"]], written in Tcl/TK.
-    *"A drag-and-drop GUI generator for Python and Tkinter aimed at building Python modules which can display a relatively simple GUI constructed from Tk and ttk widget sets using the Place Geometry Manager".
+==== GUI Building Tools & Interactive application Development Environment ====
+  *The OpenSource GUI builders "SpecTcl and GUI Builder" -> See [[python08.html|Python 8/10 - IDEs & GUI Designers]]. "SpecTcl" may generate TCL code. In the "*.ui" files, you can select that by the statement "language tcl 8.4".
+  *[[http://web.archive.org/web/*/http://sawpit.iwarp.com/|Archive.org "Sawpit"]] ( - 2008-05-09 ) - The OpenSource GUI builder "tkBuilder" by Frank Schnekenburger.
+    *Fork: 
+      *The OpenSource GUI builder [[http://tkbuilder84.sourceforge.net/|SourceForge "tkBuilder for tcl 8.4"]], [[http://www.sourceforge.net/projects/tkbuilder84/|SourceForge "tkBuilder for tcl 8.4"]].
+  *The OpenSource GUI builder [[http://tkproe.sourceforge.net/|SourceForge "TCL/TK Programming Environment"]], [[http://www.sourceforge.net/projects/tkproe/|SourceForge "TCL/TK Programming Environment"]] - "TKproE is a Graphical User Interface (GUI) for building TCL/TK programs".
+  *The OpenSource GUI builder "Visual Tcl" by Stewart Allen.
+    *[[http://vtcl.sourceforge.net/|SourceForge "Visual Tcl"]], [[http://www.sourceforge.net/projects/vtcl|SourceForge "Visual Tcl"]], [[http://www.rkeene.org/projects/vtcl/|Roy Keene "vTcl (version 1.6.1a1) Starpacks for various platforms"]], [[http://code.google.com/p/vtcl-bin/|Google Code "vtcl-bin"]], [[http://wiki.tcl.tk/1932|Tcler's Wiki "Visual Tcl"]].
+    *High-quality application development environment... Visual Tcl is written entirely in Tcl/Tk and generates pure Tcl/Tk code.
+    *Fork:  
+      *The OpenSource GUI builder "PAGE - Python Automatic GUI Generator" is based on "Visual Tcl", ( still ) generates TCL code, but the TCL code is incomplete and can´t run -> See [[python08.html|Python 8/10 - IDEs & GUI Designers]].
+    *Documentation.
+      *[[http://vtcl.sourceforge.net/|SourceForge "Visual Tcl"]].
+        *[[http://vtcl.sourceforge.net/?x=doc_faq|SourceForge "Visual Tcl" - "Frequently Asked Questions"]].
+      *Starpacks ( for Windows ) are "just binary" editions ( for Windows ) and don´t contain demo code and demo projects, by definition.
+      *The latest source code archive "vtcl-1.6.1a1.tar.gz" contains 2 directories with demo code and demo projects:
+        -demo.
+        -sample.
+
+^ ^ ^ ^
+^ GUI Editor ^ Generated Code uses Namespace? ^ Namepace Name? ^
+^ SpecTcl and GUI Builder | yes | Basename of ".ui" File |
+^ Visual Tcl by Stewart Allen | no | - |
+^ | | |
 ==== Free Online IDE ====
   *The free online service [[http://www.codepad.org/|Steven Hazel "Codepad"]] - "Online compiler/interpreter ( for C, C++, D, Haskell, Lua, OCaml, PHP, Perl, Plain Text, Python, Ruby, Scheme, **Tcl** ) and a simple collaboration tool. Paste your code below, and codepad will run it and give you a short URL you can use to share it in chat or email".
 ==== Resources ====
@@ -134,6 +156,9 @@ Output window INACTIVE.
   *[[http://www.equi4.com/starkit/started.html|Equi4Software "So you want to use starkits, eh?"]].
   *[[http://www.equi4.com/papers/skpaper1.html|Equi4Software, Steve Landers "Beyond Tclkit - Starkits, Starpacks, and other *stuff"]].
   *[[http://www.equi4.com/starkit/views.html|Equi4Software "How Starkits are mapped to Metakit views"]].
+  *[[http://www.rkeene.org/projects/vtcl/|Roy Keene "vTcl"]] - "starpack-vtcl.sh is the shell script used to generate these starpacks from the unmodified vTcl source code".
+    *[[http://www.rkeene.org/viewer/projects/vtcl/starpack-vtcl.sh.htm|Roy Keene - HTML view of "starpack-vtcl.sh"]].
+    *[[http://www.rkeene.org/viewer/projects/vtcl/starpack-vtcl.sh|Roy Keene "starpack-vtcl.sh"]].
   *[[http://wiki.tcl.tk/3661|Tcler's Wiki "Starkit"]].
   *[[http://wiki.tcl.tk/10558|Tcler's Wiki "Build Your First Starkit"]].
   *[[http://wiki.tcl.tk/8186|Tcler's Wiki "Starkit - How To's"]].
@@ -205,6 +230,7 @@ Output window INACTIVE.
     *Slides [[http://www.slideshare.net/DonalFellows/adventures-in-tcloo|SlideShare, Donal Fellows "Adventures in TclOO"]].
     *[[http://www.tclcommunityassociation.org/wub/proceedings/Proceedings-2010.html|Tcl Community Association "Tcl/Tk Conference: 2010"]].
       *[[http://www.tclcommunityassociation.org/wub/proceedings/Proceedings-2010/GeorgePetasis/Itcl-TclOO-presentation.pdf|Tcl Community Association "Tcl/Tk Conference: 2010", Georgios Petasis "iTcl and TclOO. From the perspective of a simple user"]] ( PDF ).
+    *[[http://www.magicsplat.com/articles/oo.html|Magicsplat "Object Oriented Programming in Tcl"]].
     *As with Tcl/Tk 8.6, with object orient software based on TclOO, objects are not destroyed automatically after use as used from Java, C++ and C#. It is up to the application to destroy objects when they become invalid!
       *[[http://groups.google.com/forum/#!topic/comp.lang.tcl/95GSEzXDfAw|Google Groups "comp.lang.tcl", Thread "TclOO destructor"]].
   *The OpenSource [[http://simpledevlib.sourceforge.net/|SourceForge "The Simple Development Library. A collection of packages and utilities for Tcl development"]], [[http://www.sourceforge.net/projects/simpledevlib|SourceForge "The Simple Development Library"]].
@@ -227,15 +253,42 @@ Output window INACTIVE.
       *[[http://cawt.sourceforge.net/|SourceForge "CAWT. Com Automation With Tcl"]], [[http://www.sourceforge.net/projects/cawt/|SourceForge "CAWT. Com Automation With Tcl"]] - "Based on Twapi to script Microsoft Windows applications with Tcl. It provides high level procedures for automation via the COM interface".
       *[[http://wiki.tcl.tk/37468|Tcler's Wiki "TWAPI"]].
       *[[http://twapi.magicsplat.com/overview.html| "Tcl Windows API extension"]].
-==== Big Applications built with Tcl Interface ====
+==== Big Tcl Applications ====
   *Both the FPGA IDEs of Altera and Xilinx are driven by Tcl scripts :-).
     *See [[eda03.html|Electronic Design Automation ( EDA ) 3/5 - Design for Application-Specific Integrated Circuits ( ASIC ) - Design of digital Chips]].
     *See [[altera.html|Altera ( now merged with Intel ) "System on Chip" ( SoC )]].
     *See [[xilinx.html|Xilinx "System on Chip" ( SoC )]].
+  *The OpenSource GUI builder "PAGE - Python Automatic GUI Generator" is based on "Visual Tcl", ( still ) generates TCL code, but the TCL code is incomplete and can´t run -> See [[python08.html|Python 8/10 - IDEs & GUI Designers]]
+  *The legacy slide presentation software [[http://www.rpi.edu/dept/rcs/packages/ppres/1.10/|Perspecta Presents]].
+    *[[http://wiki.tcl.tk/1721|Tcler's Wiki "Tcl chronology"]] - 1993, Tcl 6.5: "Perspecta Software formed. Perspecta Presents, a presentation software package using Tcl commands, was the company's first, and only, product".
+    *[[http://wiki.tcl.tk/4191|Tcler's Wiki "Perspecta"]].
+  *"Visual Tcl - The SCO Toolkit".
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/013461674X/hemmerling-21|David H. Young: "The Visual Tcl Handbook"]].
+      *The accompanying CD is shipped with the "Visual Tcl" software framework for Tcl 7.3. 
+      *"The Visual Tcl language was expressly designed to be a powerful, easy-to-use GUI development tool for the system administrator" of a Unix / Linux system.
+  *"WebWiseTclTk".
+    *[[http://web.archive.org/web/*/http://www.cbl.ncsu.edu/software/|Archive.org "CBL Software Index "]] ( - 2003-11-04 ).
+      *[[http://web.archive.org/web/*/http://www.cbl.ncsu.edu/software/WebWiseTclTk/|Archive.org "The WebWiseTclTk Toolkit Home Page"]] ( - 2003-11-03 ) - Software download.
+        *"The WebWiseTclTk toolkit is an enhancement of the existing feature set of Safe-Tcl and Safe-Tk, without compromising security. The toolkit re-defines the functionality of the auto_load mechanism in Tcl such that it works for packages located anywhere on the World Wide Web. It also re-introduces several commands not available in Safe-Tk such as toplevel and menu to provide a much richer feature set of Tk commands. The toolkit is written entirely in Safe-Tcl/Tk and uses the home policy for running applications as Tcl-plugins".
+        *"The toolkit supports (1) creation of new Web-based Tcl applications with greatly enhanced functionality, and (2) migration of existing Tcl applications to the Web by merely writing an encapsulation script. We demonstrate the capabilities of the WebWiseTclTk toolkit by readily creating an encapsulation script for Web-based execution of the Tk Widget Demonstrations, distributed with the core Tcl/Tk". 
+    *[[http://www.usenix.org/legacy/publications/library/proceedings/tcl98/full_papers/lavana/lavana_html/lavana.html|USENIX Technical Program - Paper - Proceedings of the The Sixth Annual Tcl/Tk Workshop, 1998 "WebWiseTclTk: A Safe-Tcl/Tk-based Toolkit Enhanced for the World Wide Web"]].
+    *[[http://www.researchgate.net/publication/2707333_WebWiseTclTk_OmniDesk_and_OmniFlows_A_User-Configurable_Distributed_Design_Environment_inside_a_Web-Browser|ResearchGate "WebWiseTclTk, OmniDesk and OmniFlows: A User-Configurable Distributed Design Environment inside a Web-Browser"]].
+==== Big Applications with Tcl Interface ====
   *[[http://www.isystem.com/|iSYSTEM AG für Informatiksysteme]].
     *"Access winIDEA from a Tcl application": [[http://www.isystem.com/download/winidea-testidea-apis|iSYSTEM AG "SDKs - winIDEA"]] - There is an SDK, "isystem.connect SDK", for the commercial edition of the Windows IDE "winIDEA". "iSYSTEM.Tcl.SDK-9.12.68.zip" of 2014-06 is the latest edition.
+  *The commercial [[http://www.zealsoftstudio.com/|Zeal SoftStudio]].
+    *[[http://www.zealsoftstudio.com/ntport/download.html|Zeal SoftStudio "NTPort Library"]] - "Additional Samples", "TCL/TK Samples".
+      *"All these samples are tested under ActiveTCL for Windows 8.4.12. Németh József Gábor's DLL caller is used in these samples".
+    *[[http://en.pudn.com/downloads62/sourcecode/windows/internet/detail215737_en.html|Pudn "ntporttclexam - NTPort Library for ActiveTCL Samples"]].
+      *Some of the sample files were created using the GUI designer "Visual Tcl".
 ===== Tcl - The Language =====
+==== Bad Rating =====
+  *[[http://wiki.tcl.tk/4191|Tcler's Wiki "Perspecta"]], about Tcl 6.5 as of 1994 - "In Tcl, the programmer is forced to write such functions in C, negating some of the benefit of using Tcl in the first place. For example, the Perspecta Presents! slide-making program consists of ~29,000 lines of C code and only ~13,000 lines of Tcl code".
 ==== Special Topics ====
+  *append - concat - lappend.
+    *[[http://wiki.tcl.tk/1031|Tcler's Wiki "append"]].
+    *[[http://wiki.tcl.tk/1037|Tcler's Wiki "concat"]].
+    *[[http://wiki.tcl.tk/1479|Tcler's Wiki "lappend"]].
   *Auto-generated list of numbers.
     *[[http://docs.activestate.com/activetcl/8.5/tcllib/struct/struct_list.html|ActiveState Docs, ActiveTcl User Guide "struct::list(n) 1.8.3 'Tcl Data Structures'"]].
     *[[http://www.stackoverflow.com/questions/6926407/is-there-shorthand-in-tcl-to-get-a-sequential-array-of-numbers|StackOverflow "Is there shorthand in Tcl to get a sequential array of numbers?"]].
@@ -249,6 +302,8 @@ Output window INACTIVE.
     *[[http://www.wellho.net/mouth/3614_tcl-dicts-a-tutorial-and-examples.html|Well House Consultants LTD "Tcl - dicts - a tutorial and examples"]].
     *[[http://www.c2o.pro.br/en/automation/|Markos "Open Automation for Water. Monitoring and Controlling of Bioreactors with Tcl/Tk and Arduino"]].
       *[[http://www.c2o.pro.br/en/automation/a1065.html|Open Automation for Water "A. Dictionaries in Tcl"]].
+  *Namespaces.
+    *[[http://www.wjduquette.com/tcl/namespaces.html|Will's Tcl/Tk Page "Will's Guide To Success with Tcl 8.x Namespaces and Packages"]].
   *Printing.
     *[[http://www.tcl.tk/man/tcl8.6/TclCmd/format.htm|Tcl/Tk Documentation "Tcl Commands / format"]].
   *Comparison Tcl to other Programming Languages.
@@ -294,6 +349,7 @@ Output window INACTIVE.
   *[[http://wwwi.magicsplat.com/|Ashok P. Nadkarni, Magicsplat]].
     *The free online HTML book [[http://www.magicsplat.com/book/|Ashok P. Nadkarn "Tcl Programming for Windows"]] - "When Tcl is your hammer, even Windows is a nail".
     *[[http://www.magicsplat.com/tclwinfaq.html|Magicsplat "Tcl on Windows FAQ (2015-05-09)"]].
+    *[[http://www.magicsplat.com/articles/oo.html|Magicsplat "Object Oriented Programming in Tcl"]] #.
   *Book [[http://www.amazon.de/exec/obidos/ASIN/0072120045/hemmerling-21|Christopher Nelson: "Tcl/Tk Programmer's Reference "]] ( 1999 ).
   *John K. Ousterhout.
     *Book [[http://www.amazon.de/exec/obidos/ASIN/3893197931/hemmerling-21|John K. Ousterhout: "Tcl und Tk. Entwicklung grafischer Benutzerschnittstellen für X Window System"]] ( 1995 ).
@@ -309,6 +365,7 @@ Output window INACTIVE.
   *[[http://www.beedub.com/|Brent Welch]].
     *Book [[http://www.amazon.de/exec/obidos/ASIN/3827295297/hemmerling-21|Brent B. Welch: "Praktisches Programmieren in Tcl und Tk"]] ( 1996 ).
     *Book [[http://www.amazon.de/exec/obidos/ASIN/0130830666/hemmerling-21|Brent Welch: "Complete TCL and TK Training Course, Student Edition"]] ( 1998 ).
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/013461674X/hemmerling-21|David H. Young: "The Visual Tcl Handbook"]] ( 1996 ).
   *Book [[http://www.amazon.de/exec/obidos/ASIN/0818685158/hemmerling-21|J. Adrian Zimmer, Atrian J. Zimmer: "TCL/TK for Programmers with Solved Exercises That Work with Unix & Windows"]] ( 1998 ).
     *Book [[http://www.amazon.de/exec/obidos/ASIN/0130385603/hemmerling-21|Jeffrey Hobbs, Brent B. Welch: "Practical Programming in Tcl and Tk"]] ( 2003 ) - This book was suggested to me by experts on the "European Tcl/TK Users Meeting 2015" #.
       *The accompanying website [[http://www.beedub.com/book/|Brent Welch "Practical Programming in Tcl and Tk"]].
@@ -330,17 +387,26 @@ Output window INACTIVE.
   *[[http://parallel.fh-bielefeld.de/pv/studien/tcl+tk/inhalt.html|Fachhochschule Bielefeld, Laborbereich für Technische Informatik - Studienarbeit "Einführung in Tcl/Tk"]].
   *[[http://foster-johnson.com/|Eric Foster-Johnson]] - Tcl/Tk expert.
   *[[http://www.microemacs.de/tcltk.html|Detlef Groth "TclTk"]] by [[http://www.microemacs.de/|Detlef Groth]].
+  *[[http://wuhrr.wordpress.com/category/programming/tcl-programming/|Hai's Blog - Category Archives "Tcl"]].
+    *[[http://www.rkeene.org/|Roy Keene]].
+      *[[http://www.rkeene.org/viewer/projects/vtcl/tcl-tk-reference-guide.html.htm|Roy Keene "TCL/TK Command Reference Guide"]].
   *[[http://phaseit.net/claird/comp.lang.tcl/|Cameron Laird "Index to Cameron Laird's personal Tcl pages"]] ( no "www." ).
     *[[http://phaseit.net/claird/comp.lang.tcl/tcl.html|Cameron Laird "Tcl/Tk references of interest to Cameron Laird"]].
       *[[http://phaseit.net/claird/comp.lang.tcl/fmm.html|Cameron Laird "Frequently Made Mistakes in Tcl"]] #.
   *[[http://www.noucorp.com/|Noumena Corporation]].
     *[[http://noucorp.com/cgi-bin/noucorp/generic.tcl?dir=/var/www/html/tcl|Noumena Corporation "TCL/TK"]].
-  *[[http://web.archive.org/web/*/http://www.self-tcl.de/|Archive.org "Self-Tcl.de  - Tcl / Tk ( tickle )"]] ( - 2014-08-26 ).
+  *[[http://ww1.pragana.net/|Rildo Pragana - Adventures in Linux Programming]] - Tcl applications for Linux.
+    *[[http://ww1.pragana.net/tcltk.html|Rildo Pragana - Adventures in Linux Programming "Tcl/tk Programming for Linux"]].
+    *[[http://ww1.pragana.net/tdesk.html|Rildo Pragana - Adventures in Linux Programming "tdesk - A tcl/tk desktop environment"]].
+    *[[http://ww1.pragana.net/cobol.html|Rildo Pragana - Adventures in Linux Programming "Programming with TinyCobol"]].
+    *[[http://ww1.pragana.net/slidedraw.html|Rildo Pragana - Adventures in Linux Programming "Slidedraw and SlideWidget"]].
+  *[[http://web.archive.org/web/*/http://www.self-tcl.de/|Archive.org "Self-Tcl.de - Tcl / Tk ( tickle )"]] ( - 2014-08-26 ).
     *[[http://web.archive.org/web/*/http://www.self-tcl.de/buecher.php|Archive.org "Self-Tcl.de  - Tcl / Tk ( tickle ) 'Für Programmierer und Entwickler. Bücher zu Tcl/Tk (tickle)'"]] ( 1/2 ).
     *[[http://web.archive.org/web/*/http://www.self-tcl.de/buecher2a.php|Archive.org "Self-Tcl.de  - Tcl / Tk ( tickle ) 'Bücher zu Tcl/Tk (tickle)'"]] ( 2/2 ).
   *[[http://www.tclcommunityassociation.org/|Tcl Community Association]].
   *[[http://www.tcl.tk/|Tcl Developer Xchange]] - The #1 resource for Tcl/Tk.
     *The current [[http://wiki.tcl.tk/4207|Tcler's Wiki]] - The #1 resource for Tcl/Tk.
+      *[[http://wiki.tcl.tk/1721|Tcler's Wiki "Tcl chronology"]].
       *[[http://wiki.tcl.tk/31|Tcler's Wiki "Welcome Visitors"]].
         *[[http://wiki.tcl.tk/13|Tcler's Wiki "Tcl'ers"]] - People.
         *[[http://wiki.tcl.tk/3614|Tcler's Wiki "Category Person"]].
@@ -361,6 +427,7 @@ Output window INACTIVE.
     *[[http://www.tkdocs.com/tutorial/|TkDocs "Tk Tutorial"]] #.
   *[[http://www.tutorialspoint.com/tcl-tk/|Tutorialspoint "Tcl Tutorial"]].
   *[[http://en.wikipedia.org/wiki/Tcl|EN.Wikipedia "Tcl"]], [[http://de.wikipedia.org/wiki/Tcl|DE.Wikipedia "Tcl"]].
+  *[[http://www.wjduquette.com/|Will's Tcl/Tk Page]].
   *[[http://www.zetcode.com/|ZetCode Tutorial]].
     *GUI: "Tkinter tutorial", "Tcl/Tk tutorial".
     *Languages: "Tcl tutorial".
@@ -378,11 +445,14 @@ Output window INACTIVE.
     *[[http://www.linkedin.com/groups?gid=734207|LinkedIn "Tcl-Expect"]].
   *[[http://www.openacs.org/forums/|OpenACS Forums]].
   *[[http://web.archive.org/web/*/http://www.self-tcl.de/forum/|Archive.org "Self-Tcl.de - TCL/TK Forum"]].
+  *[[http://www.sourceforge.net/p/vtcl/mailman/|SourceForge Mailing Lists "Visual Tcl"]] ( - 2009-11 ).
+    *[[http://www.sourceforge.net/p/vtcl/mailman/message/2147020/|SourceForge Mailing List "Visual Tcl", Message "Re: [vtcl-user] scrolled frame widget sample"]] - "There is a project in the demo folder called combo.tcl It demonstrates the three geometry managers".1
   *[[http://www.stackoverflow.com/questions/tagged/tcl|Stack Overflow - Tagged Questions "[tcl]"]], [[http://www.stackoverflow.com/questions/tagged/tk|Stack Overflow - Tagged Questions "[tk]"]].
   *[[http://wiki.tcl.tk/4207|Tcler's Wiki]] - The #1 resource for Tcl/Tk.
     *[[http://wiki.tcl.tk/4207|Tcler's Wiki "Tcl User Groups"]].
       *[[http://www.tugm.de/|Tcl'ers User Group Munich]].
   *[[http://www.xing.com/net/tclug|XING "Tcl User Group"]].
+  *[[http://groups.yahoo.com/neo/groups/vtcl/|Yahoo Groups "VTCL"]].
 ===== Appropriate OpenDirectory Directory Pages =====
   *[[http://www.dmoz.org/Computers/Programming/Languages/Tcl-Tk/|OpenDirectory "Top: Computers: Programming: Languages: Tcl-Tk]].
   *[[http://www.dmoz.org/World/Deutsch/Computer/Programmieren/Sprachen/Tcl-Tk/|OpenDirectory "Top: World: Deutsch: Computer: Programmieren: Sprachen: Tcl-Tk"]].

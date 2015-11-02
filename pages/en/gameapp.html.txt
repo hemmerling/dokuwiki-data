@@ -1,0 +1,109 @@
+====== [hemmerling] My first 3D VRML Android App, made with Unity ======
+Related page:
+  *[[gameengine.html|Game Engines]].
+  *[[android03.html|Google Android 3/3 - App Development]].
+===== 1 Get the Hardware =====
+  -Host development system, e.g. a computer running Win7, Win8.1.
+  -Android smartphone, with Gyroscope feature -> See [[android.html|Google Android 1/3]].
+  -A Google Cardboard ( [[http://www.google.com/get/cardboard/|Google "Google Cardboard"]], [[http://en.wikipedia.org/wiki/Google_Cardboard|EN.Wikipedia "Google Cardboard"]], [[http://de.wikipedia.org/wiki/Google_Cardboard|DE.Wikipedia "Google Cardboard"]] ) e.g. [[http://www.durovis.com/product.html?id=11|Shoogee GmbH & Co. KG "Durovis Dive Cardboard 5 white"]].
+===== 2 Software Installation =====
+==== 2.1 Software Installation on the Host Development System ====
+  -Java SDK 8 -> [[java.html|Java & Java Platform Languages]].
+  -Android ADK, shipped with Android Studio -> [[android03.html|Google Android 3/3 - App Development]].
+  -Unity -> [[gameengine.html|Game Engines]].
+    -Unity IDE.
+    -Standard Assets ( a separate download for Unity5 and newer ).
+  -[[http://www.durovis.com/sdk.html|Shoogee GmbH & Co. KG "Durovis - SDK"]] for Unity.
+    *FAQ "Does Dive SDK support Unity 5? Yes, but when importing Dive SDK for the first time in a new project, you have to tell Unity which native library it has to use for what platform/architecture. For more information see" -> [[http://docs.unity3d.com/Manual/PluginInspector.html|Unity Manual "Plugin Inspector"]].
+    *Warning when installing "Dive Plugin 2.1.5" as Asset with Unity5: "This project contains scripts and/or assemblies that use obselete APIs. If you choose 'Go Ahead', Unity will automatically upgrade any scripts/assemblies in the Assets folder found using the old APIs You should make a backup before proceeding. (You can always run the API Updater manually via the 'Assets/Run API Updater' menu command.)".
+==== 2.1 Check if your Smartphone is equipped with a Gyroscope ====
+  *Install one of the Android Smartphone Apps:
+    *[[http://play.google.com/store/apps/details?id=com.divegames.launcher|Google Play "Dive"]] - "Your portal to Virtual Reality: The Dive App. Dive into the game and discover more. Play videos from your smartphone or the web with our brand new in-game filebrowser!".
+    *[[http://play.google.com/store/apps/details?id=com.divegames.diveDemo|Google Play "Dive Unity Demo"]].
+  *Open one of the  apps. 
+    *If the smartphone error message is displayed "NO GYRO ! Please use other phone for proper headtracking. Touch screen to continue", your smartphone is not equipped with a gyroscope sensor.
+    *Btw, most smartphones are equipped with an accelerometer sensor, sometimes called "G-Sensor". Though the "Dive" app version history claims "Version 1.2 - Added accelerometer fallback support for devices with no gyro, performance will not be the same without gyro", there is no indication that "Dive" or other smartphone apps using the "Dive SDK" work properly on smartphone devices without gyroscope.
+      *[[http://en.wikipedia.org/wiki/Gyroscope|EN.Wikipedia "Gyroscope"]], [[http://de.wikipedia.org/wiki/Gyrometer|DE.Wikipedia "Gyrometer"]].
+      *[[http://en.wikipedia.org/wiki/Accelerometer|EN.Wikipedia "Accelerometer"]], [[http://de.wikipedia.org/wiki/Beschleunigungssensor|DE.Wikipedia "Beschleunigungssensor"]].
+      *[[http://www.livescience.com/40103-accelerometer-vs-gyroscope.html|livescience "Accelerometer vs. Gyroscope: What's the Difference?"]] - "The main difference between the two devices is simple: one can sense rotation, whereas the other cannot".
+  *Or check a smartphone online database, e.g. [[http://www.gsmarena.com/alcatel_one_touch_scribe_hd-5218.php|GSMArena "Alcatel One Touch Scribe HD"]] -> no gyro :-(.
+===== 3 Configuration of Smartphone and Host Development System =====
+=== 3.1 Install Assets ===
+  *Install the "Standard Assets".
+    *Note that with 32-bit Windows computers, importing all Standard Assets cause a fatal error by the error message "Could not allocate memory: System out of memeory! Trying to allocate: 134217744B with 16 aignment. MemoryLabel: NewDelete. Allocation happened at Line:680 n C:/buildslave/unity/build/Runtime/Graphics/Image.cpp".
+  *Install the "Dive SDK".
+=== 3.2 Enable USB Debugging on Android Smartphone ===
+  *[[http://www.stackoverflow.com/questions/18103117/how-to-enable-usb-debugging-in-android|StackOverflow "How to enable USB debugging in Android?"]].
+    *"Toggle on 'USB Debugging' in the 'Developer Options' area of Settings". 
+    *"If you do not see "Developer Options", go into 'About device' in Settings and tap on the 'Build number' entry seven times, which will unlock 'Developer Options'".
+  *[[http://www.kingoapp.com/root-tutorials/how-to-enable-usb-debugging-mode-on-android.htm|Kingo Root "How to Enable USB Debugging Mode on Android"]].
+    *"When you are done, you'll see the message 'You are now a developer!'.".
+=== 3.3 Install Google USB Driver by Android SDK Manager ===
+  *[[http://developer.android.com/sdk/win-usb.html|Android Developers "Google USB Driver"]].
+  *On Windows, the Android SDK is at "C:\Users\<user>\AppData\Local\Android\sdk", e.g. at "C:\Users\Administrator\AppData\Local\Android\sdk".
+  *Either:
+     *Execute the "SDK Manager" in the main Android SDK directory "<sdk>". At "Extras", select the package "[x] Google USB Driver", uncheck all other checked packages and press the button "Install 1 package" to install the Google USB driver.
+     *Or execute "Android Studio", select "SDK Manager". A window "Appearance & Behavior / System Settings / Android SDK" is opened. 
+       *It displays the path of the Android SDK in the file system :-).
+       *Select the card tab "SDK Tools", select the package "[x] Google USB Driver" and press the "Ok" button.
+=== 3.4 Check that the Device is listed by the Android Debug Bridge ( adb ) ===
+  *[[http://developer.android.com/tools/help/adb.html|Android Developers "Android Debug Bridge"]].
+  *After installation of the "Google USB Driver"
+    *Connect your smartphone by USB cable to your development system. 
+    *Cpen a command shell at "<sdk>/platform-tools/".
+  *Execute the command line utility "Android Debug Bridge" ( adb ) with the parameter "devices": "adb devices". The output should list a single device - your smartphone device:<code>
+List of devices attached
+8TCIBETC4TVSY5MZ device</code>
+===== 4 Create a 3D VRML Scene with Unity =====
+==== 4.1 Recommended Tutorials ====
+  *I followed the 2 tutorials, but the instructions are for Unity4 and legacy version of the "Dive SDK":
+    -[[http://www.talkingquickly.co.uk/2014/11/google-cardboard-unity-tutorial/|TalkingQuickly "Google Cardboard Unity Tutorial"]]
+    -[[http://www.youtube.com/watch?v=fRED_-LvJKQ&list=PLPV2KyIb3jR7F_B4p8X3YwHPaExh0R9Kk|YouTube "1. Unity Tutorial Basics - Create a Survival Game"]].
+==== 4.2 Tips, Corrections and Comments how to proceed based on the recommended Tutorials ====
+  *To make a Google App compatible for Cardboards, please select as display orientation "Landscape Left" :-).
+  *Standard Assets:
+    *The "Standard Assets" supplied with Unity4 and Unity5 differ. You may import the Unity4 "Standard Assets" ( from the directory "Standard Assets" of Unity4 ) from Unity5. Please rename your Unity5 "Standard Assets2 folder first, from within Unity5, to avoid import conflicts and to keep the "Standard Assets" resources in different folders.
+    *Character Controller:
+      *Unity4 Pane "Project / Assets / Standard Assets / Character Controllers / First Person".
+      *Unity5 Menu "Component / Physics / Character Controller".
+  *If there is more than 1 camera, just one camera must have an activated "[x] Audio Listener" script.
+  *Though it is easy to add "Standard Assets" to a project, it is hard to delete it. After deletion in the Unity editor, some code and references are still kept in C# script files. You must delete such stuff manually, e.g. by editing the script files with the MonoDevelop IDE.
+===== 5 Publish the Unity Project on Android Phone =====
+==== 5.1 Enter Product Name, Company Name, Bundle Identifier ====
+  *Select "File / Build Settings".
+  *Select "Android".
+  *Press the button "Player Settings".
+  *Enter data for:
+    *"Player Settings".
+      *"Company Name" -> "hemmerling.com".
+      *"Product Name" -> "virtualweekend".
+    *"Other Settings"
+      *"Bundle Identifier" -> E.g. select your personal Java package path for your application, e.g. "com.hemmerling.virtualweekend".
+      *"Minimum API Level".
+==== 5.2 Tell Unity where to find JDK and ADK ====
+  *"Edit / Preferences / External Tools".
+    *JDK: e.g. on Windows "C:\Program Files\Java\jdk".
+    *SDK: e.g. on Windows "C:\Users\<user>\AppData\Local\Android\sdk", e.g. "C:\Users\Administrator\AppData\Local\Android\sdk".
+==== 5.3 Disable the Interception of Google when transfering an APK file ====
+  *[[http://www.stackoverflow.com/questions/19265820/how-to-disable-google-asking-permission-to-regularly-check-installed-apps-on-my|StackOverflow "How to disable Google asking permission to regularly check installed apps on my phone?"]].
+  *If you don´t uncheck the option "Security / Verify apps - Disallow or warn before installation of apps which may cause harm" in the "Setting" app of your Android smartphone, there will be an interception message by Google after each file transfer "Allow Google to regularly check device activity for security problems, and prevent or warn about potential harm. Learn more in the Google Settings app".
+==== 5.4 Compile an App, store it on the Development System & transfer it to the Smartphone ====
+  *Select "File / Build Settings", press the "Build and Run" button.
+  *Remember that each Transfer creates a new app item on your Android smartphone, and that even apps with the same name are not overwritten. So after x-times "Build and Run", you have x-copies of your app on your smartphone. You have to delete old apps manually.
+===== 6 Project Installation on another Host Development Computer =====
+==== 6.1 On the Source Development System =====
+  *Save the files "Assets/*.unity" and "Assets/*unity.meta".
+==== 6.2 On the Target Development System =====
+  -Install and import all needed "Standard Assets".
+  -Import all extra Assets, i.e. the "Dive SDK".
+  -Create an empty project.
+  -Transfer the saved files from the source development system.
+    -"*.sln" and "*.userprefs" ( MonoStudio solution files - The place where the Player Settings are stored, e.g. "Company Name", "Product Name", "Other Settings / Identification: Bundle identifier" )
+    -"Assets/*.unity" and "Assets/*unity.meta" ( Unity Project files )
+  -Load the empty project with Unity.
+  -Open a Unity Scene, i.e. one of the "Assets/*.unity" files.
+===== 7 Result =====
+  *I published the project on GitHub ( [[http://www.github.com/hemmerling/unity-virtualweekend|GitHub "hemmerling/unity-virtualweekend"]] ).
+{{tag>vrml "game engine", "game engines", game, engine, engines, "virtual reality" virtual reality "3d graphics" 3d 
+graphics android unity "unity 3d" unity3d}}
+<footnote_navi_en>

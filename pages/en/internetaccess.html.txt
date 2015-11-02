@@ -12,6 +12,24 @@
   *Telekom DSL, since 2013-05-02 or 2016: 75 GByte/m bandwidth-limit for full speed DSL download, beyond just 384 KBit/s download ?!.
     *[[http://blogs.telekom.com/2013/03/22/neue-spielregeln-fuer-dsl/|Deutsche Telekom Blog "Neue Spielregeln für DSL?"]], 2013-03-22.
     *[[http://www.netzwelt.de/news/95486-dsl-flatrate-telekom-erwaegt-drosselungen-bandbreite.html|Netzwelt "DSL-Flatrate: Telekom erwägt Drosselungen der Bandbreite"]]. 
+===== Remote Access to Telephone Mailboxes =====
+  *[[http://www.1und1.de/login|1&1 Control-Center Normales Kunden-Login]].
+  *[[http://control-center.1und1.de/dslAndPhone.html|1&1 Control-Center "DSL und Phone"]] -> Click on "vv Weitere Einstellungen und Services vv", select "Administration / Rufnummern verwalten".
+    *DSL / The Grid - FritzBox mailbox.
+      *The local FritzBox must be activated at the FritzBox Webserver, by providing a 4-digit pin.
+      *From remote telephones, call your own phone number, and if the answering machine starts, type "#" followed by your 4-digit pin.
+      *From local telephone, e.g. FRitzFon, type "* * 600".
+    *DSL / The Grid - 1&1 Mailbox.
+      *At [[http://www.1und1.de/login|1&1 Control Center]], you can setup your 1&1 mailbox and the 4-digit pin.
+      *From local telephone, call your own phone number e.g. "0511 2347019". Type in the 4-digit pin.
+      *From any other phone, dial the general 1&1 mailbox telephone number "0721-6090011". To select your message box, by request, enter your phone number ( with leading 0, e.g. "0511 2347019" ) followed by a "#". Enter your 4-digit pin followed by "#" by request.
+    *"E-Plus" Grid, as of 2015-10.
+      *[[http://hilfe-center.1und1.de/mobilfunk-c83940/mobil-telefonieren-c84077|1&1 Hilfe-Center "Mobil telefonieren"]].
+        *[[http://hilfe-center.1und1.de/mobilfunk-c83940/mobil-telefonieren-c84077/1und1-mailbox-e-netz-c85252/1und1-mailbox-abhoeren-e-netz-a794393.html|1&1 Hilfe Center "1&1 Mailbox abhören (E-Netz)"]].
+        *From the smartphone with the E-Plus contract, phonebook entry "Mailbox E-Plus", telephone number "9911". There is no password.
+        *For my telephone number "01522 8957694", from any other phone, I must dial "01522 55" followed by my telephone number "8957694", i.e. "01522 55 8957694". 
+          *Enter "*" and then by request your password You once setup for this phone number. Attention, it is not necessarily a 4-digit number, but can be a much longer alphanumeric password. 
+          *If you forgot your once-set password, enter instead "#" and the password is sent to your smartphone by SMS.
 ===== Mobile Internet Access =====
   *[[http://www.o2online.de/goto/prepaidsurfstick/|O2 Prepaid Surfstick]], [[http://www.o2online.de/nw/active/prepaid/prepaid-surfstick.html|O2 Prepaid Surfstick]].
     *[[http://www.o2online.de/microsite/o2-netz/netzabdeckung/|O2 Netzabdeckung]].
@@ -33,19 +51,7 @@
     *Sources: 
       *[[http://www.mobilfunk-talk.de/37376-o2-freikarte-wie-internet-pack-buchen.html|mobilfunk-talk.de - Kommunikation ist alles, Thread "o2 Freikarte Wie Internet Pack buchen ?"]].
       *[[http://www.prepaid-wiki.de/index.php5/Internet-Packs-S/M/L|Prepaid-wiki "Internet-Packs-S/M/L"]].
-  *[[http://www.base.de/tarife/laptop_internet-flatrates.jsf|BASE]].
-    *"BASE Laptop Tages-Flat" = 3 EUR / day.
-  *[[http://www.fonic.de/|FONIC Surf-Stick]].
-    *"FONIC Tagesflatrate" = 2.50 EUR / day.
-  *[[http://p5028688.profiseller.de/|1&1]].
-    *"Notebook-Flat".
 ===== Mobile Phoning =====
-==== Providers ====
-  *[[http://www.e-seller.de/shop/636146.html|BASE / E-Plus]] Shop.
-  *[[http://www.o2-online.de/|O2]].
-    *[[http://www.o2-freikarte.de/|O2 "Freikarte"]].
-    *[[http://www.o2-online.de/goto/besitzerwechsel|O2 - Besitzerwechsel]].
-    *[[http://www.o2online.de/nw/homepage/empfehlen/o2-empfehlen.html?o2_type=goto&o2_label=empfehlen|O2 Empfehlen]].
 ==== Resources ====
   *[[http://hilfe-center.1und1.de/mobilfunk-c83940/mobil-telefonieren-c84077|1&1 Hilfe-Center "Mobil telefonieren"]].
     *[[http://hilfe-center.1und1.de/mobilfunk-c83940/mobil-telefonieren-c84077/1und1-mailbox-e-netz-c85252|1&1 Hilfe-Center "Mobil telefonieren – 1&1 Mailbox E-Netz"]].

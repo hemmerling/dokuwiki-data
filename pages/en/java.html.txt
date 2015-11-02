@@ -5,6 +5,7 @@
     *[[http://www.oracle.com/us/sun/sun-products-map-075562.html|Oracle "Sun Software Product Map"]].
     *[[http://www.oracle.com/us/technologies/java/|Oracle "Java Technology"]].
       *[[http://www.oracle.com/technetwork/indexes/downloads/|Oracle Technology Network - Software Downloads]].
+      *[[http://www.oracle.com/technetwork/java/archive-139210.html|Oracle Technology Network "Oracle Java Archive"]] #.
       *[[http://www.oracle.com/us/sun/sun-products-map-075562.html|Oracle "Sun Software Product Map"]].
       *[[http://www.oracle.com/technetwork/java/javase/downloads/|Oracle "Java SE Downloads"]] #.
         *[[http://www.oracle.com/technetwork/java/javafx/downloads/index.html|Oracle "JavaFX"]].
@@ -119,32 +120,36 @@ Finish. //
   *[[http://www.dwheeler.com/java-imp.html|David K. Friedman, David A. Wheeler - "Java Implementations"]].
 ===== Java on Embedded Systems =====
 ==== Java CPUs ====
-=== ATMEL + STM ===
-  *[[http://en.wikipedia.org/wiki/Java_processor|EN.Wikipedia "Java processor"]], [[http://de.wikipedia.org/wiki/Java-Prozessor|DE.Wikipedia "Java-Prozessor"]].
-  *[[http://en.wikipedia.org/wiki/Embedded_Java|EN.Wikipedia "Embedded Java"]], [[http://de.wikipedia.org/wiki/Embedded_Java|DE.Wikipedia "Embedded Java"]] - "In January 2013, ST announced full Java support for STM32 F2 and F4-series chips".
+=== IS2T ===
+== The Company ==
   *[[http://www.is2t.com/en/products-avr32|IS2T]].
     *[[http://www.is2t.com/products/application-platforms/embedded-device/|IS2T  "A hardware-agnostic Java platform: high performance and ultra low latency"]].
-    *Atmel.
-      *[[http://web.archive.org/web/*/http://www.is2t.com/en/products-avr32|Archive.org "IS2T - COTS Java Platforms for AVR32 Architecture"]].
-      *[[http://www.atmel.com/devices/at32ap7000.aspx?tab=documents|Atmel Corporation "Documents for AT32AP7000"]] - PDF document "AVR32 Java Technical Reference Manual Complete". Obviously Java on AVR32 is "mature", from point of view of Atmel :-(.
-    *ST.
-      *[[http://www.st.com/web/en/press/t3365|STMicroelectronics N.V. "Innovative Development Platform from STMicroelectronics Brings Smartphone Style to Simple Appliances"]], 2013-01-21 - "STM32Java is priced at $2600 per seat per year".
-      *I was told by ST staff members: STM32 MCUs with a final "U" are intended for sampling and development, while the "J" types are for production.
-        *STM32F205VGT6J, STM32F205ZGT6J, STM32F207IGH6J, STM32F207VGT6J, STM32F207ZGT6J.
-        *STM32F405VGT6J, STM32F405ZGT6J, STM32F407IGH6J, STM32F407VGT6J, STM32F407ZGT6J.
-        *STM32F401CBU6, STM32F401CCU6, STM32F401CCU6U, STM32F401CCY6UTR, STM32F401CDU6, STM32F401CEU6, STM32F401RCT6U, STM32F401RET6U, STM32F401VCH6U, STM32F401VCT6U, STM32F401VET6U, STM32F405RGT6U, STM32F407IGH6U, STM32F407IGT6U STM32F407VGT6U, STM32F407ZGT6U, STM32F417IGH6U, STM32F427IIH6U, STM32F429IIH6U, STM32F429IIT6U, STM32F429VIT6U, STM32F429ZIT6U, STM32F437IIH6U, STM32F439IIH6U, STM32F439IIT6U, STM32F439NIH6U, STM32F439VIT6U, STM32F439ZIT6U.
-      *[[http://www.is2t.com/stm32-java-development-environment-for-stm32-microcontrollers/|IS2T "STM32Java development environment for STM32 microcontrollers"]].
-      *[[http://www.is2t.com/is2t-awarded-for-stm32-java-platform/|IS2T "IS2T awarded for STM32-Java platform"]].
-      *[[http://www.futurlec.com/News/ST/Java.shtml|Futurlec "New Java Design Platform for STM32 Microcontrollers"]].
-    *MicroEJ.
-      *[[http://micrium.com/rtos/microej/|Micrium "MicroEJ - Embedded Java for uc/OS]].
-      *[[http://www.is2t.com/products/|S2T "Embedded software development"]] - "MicroEJ Embedded Device edition".
-    *ST Evaluation kits.
-      *[[http://www.stm32java.com/|STM32Java - STM32 Embedded Java Website]] - "**3 months time limited evaluation version. No production rights**".
-      *[[http://www.st.com/web/en/catalog/tools/FM147/CL1794/SC961/SS1533/PF255416|STMicroelectronics N.V. "STM32-JAVA. STM32Java development environment for STM32"]].
-      *[[http://www.st.com/web/en/catalog/tools/FM147/CL1794/SC961/SS1533/PF252535|STMicroelectronics N.V. "STM3220G-JAVA. STM32 F2 series Java evaluation kit"]] with STM32F207IGH6 MCU.
-      *[[http://www.st.com/web/catalog/tools/FM147/CL1794/SC961/SS1533/PF252537|STMicroelectronics N.V. "STM3240G-JAVA. STM32 F4 series Java evaluation kit - with STM32F407IG MCU"]].
-      *[[http://de.mouser.com/new/stmicroelectronics/stm-stm32java/|Mauser "STMicroelectronics STM32 Series Java Evaluation Kits"]] - "The kit is composed of the STM3220G-EVAL evaluation board and a DVD ROM which contains an evaluation version of the STM32Java software development kit based on MicroEJ. MicroEJ is based on the Eclipse IDE and provides extended features for using Java in embedded systems to design and deploy embedded Java applications, simulate embedded Java applications on PCs and perform automated tests. **The main limitations of the evaluation version are 3 months of use from the first launch and 1 hour of runtime**".
+== MicroEJ ==
+  *[[http://micrium.com/rtos/microej/|Micrium "MicroEJ - Embedded Java for uc/OS]].
+  *[[http://www.is2t.com/products/|S2T "Embedded software development"]] - "MicroEJ Embedded Device edition".
+== Atmel Hardware for IS2T Runtimes ==
+  *[[http://web.archive.org/web/*/http://www.is2t.com/en/products-avr32|Archive.org "IS2T - COTS Java Platforms for AVR32 Architecture"]].
+  *[[http://www.atmel.com/devices/at32ap7000.aspx?tab=documents|Atmel Corporation "Documents for AT32AP7000"]] - PDF document "AVR32 Java Technical Reference Manual Complete". Obviously Java on AVR32 is "mature", from point of view of Atmel :-(.
+== ST Hardware for IS2T Runtimes ==
+  *[[http://www.st.com/web/en/press/t3365|STMicroelectronics N.V. "Innovative Development Platform from STMicroelectronics Brings Smartphone Style to Simple Appliances"]], 2013-01-21 - "STM32Java is priced at $2600 per seat per year".
+  *I was told by ST staff members: STM32 MCUs with a final "U" are intended for sampling and development, while the "J" types are for production.
+    *STM32F205VGT6J, STM32F205ZGT6J, STM32F207IGH6J, STM32F207VGT6J, STM32F207ZGT6J.
+    *STM32F405VGT6J, STM32F405ZGT6J, STM32F407IGH6J, STM32F407VGT6J, STM32F407ZGT6J.
+    *STM32F401CBU6, STM32F401CCU6, STM32F401CCU6U, STM32F401CCY6UTR, STM32F401CDU6, STM32F401CEU6, STM32F401RCT6U, STM32F401RET6U, STM32F401VCH6U, STM32F401VCT6U, STM32F401VET6U, STM32F405RGT6U, STM32F407IGH6U, STM32F407IGT6U STM32F407VGT6U, STM32F407ZGT6U, STM32F417IGH6U, STM32F427IIH6U, STM32F429IIH6U, STM32F429IIT6U, STM32F429VIT6U, STM32F429ZIT6U, STM32F437IIH6U, STM32F439IIH6U, STM32F439IIT6U, STM32F439NIH6U, STM32F439VIT6U, STM32F439ZIT6U.
+  *[[http://www.is2t.com/stm32-java-development-environment-for-stm32-microcontrollers/|IS2T "STM32Java development environment for STM32 microcontrollers"]].
+  *[[http://www.is2t.com/is2t-awarded-for-stm32-java-platform/|IS2T "IS2T awarded for STM32-Java platform"]].
+  *[[http://www.futurlec.com/News/ST/Java.shtml|Futurlec "New Java Design Platform for STM32 Microcontrollers"]].
+  *ST Evaluation Kits.
+    *[[http://www.stm32java.com/|STM32Java - STM32 Embedded Java Website]] - "**3 months time limited evaluation version. No production rights**".
+    *[[http://www.st.com/web/en/catalog/tools/FM147/CL1794/SC961/SS1533/PF255416|STMicroelectronics N.V. "STM32-JAVA. STM32Java development environment for STM32"]].
+    *[[http://www.st.com/web/en/catalog/tools/FM147/CL1794/SC961/SS1533/PF252535|STMicroelectronics N.V. "STM3220G-JAVA. STM32 F2 series Java evaluation kit"]] with STM32F207IGH6 MCU.
+    *[[http://www.st.com/web/catalog/tools/FM147/CL1794/SC961/SS1533/PF252537|STMicroelectronics N.V. "STM3240G-JAVA. STM32 F4 series Java evaluation kit - with STM32F407IG MCU"]].
+    *[[http://de.mouser.com/new/stmicroelectronics/stm-stm32java/|Mauser "STMicroelectronics STM32 Series Java Evaluation Kits"]] - "The kit is composed of the STM3220G-EVAL evaluation board and a DVD ROM which contains an evaluation version of the STM32Java software development kit based on MicroEJ. MicroEJ is based on the Eclipse IDE and provides extended features for using Java in embedded systems to design and deploy embedded Java applications, simulate embedded Java applications on PCs and perform automated tests. **The main limitations of the evaluation version are 3 months of use from the first launch and 1 hour of runtime**".
+== Freescale Hardware for IS2T Runtimes ==
+  *[[http://www.is2t.com/ebvelektronik/|IS2T "JAKARTA by EBV Elektronik"]].
+  *[[http://www.ebv.com/index.php?id=1083|EBV "JAKARTA" - Application Platform Ready for HMI Projects"]].
+    *"With JAKARTA you will able to evaluate various hardware technologies relevant to HMI, including the exciting IS2T MicroEJ Embedded User Interface, the first Java virtual machine for the Freescale Kinetis L (ARM Cortex-M0+). Lightweight and low cost!".
+    *"With around 28kB of non-volatile memory, IS2T MicroEJ for Freescale Kinetis L uses only 11% of the Freescale KL46 flash memory (and the MCU cost) for the huge advantage that Java can bring to your next project. JARKATA also provides various hardware technologies like OLED display, haptic feedback, sensors and many more".
 === Oracle ===
 == Oracle Platform ==
   *[[http://www.oracle.com/technetwork/java/embedded/javame/embed-me/downloads/java-embedded-java-me-download-2162242.html|Oracle "Oracle JAVA ME Embedded Downloads"]].
@@ -159,7 +164,8 @@ Finish. //
   *KEIL "MCBSTM32F200".
     *[[http://www.keil.com/mcbstm32f200/|KEIL "MCBSTM32F200"]].
     *[[http://www.element14.com/community/docs/DOC-67811|Element14 "Evaluation Board based on STMicroelectronics STM32F2xx Family"]].
-  *There is a "Java ME 8 JVM" by Orcacle for the ST32F4 Discovery board. Unfortunately there is no official download of the JVM anymore :-(.
+  *There is a "Java ME 8 JVM" by Orcacle for the ST32F4 Discovery board. Unfortunately there is no official download of the JVM anymore :-(. **Please [[imprint.html|tell me]], if you got the free software, still have it and are willing to share it with me:-)!**
+    *In 2015-10, I was told by the Oracle product management, that the binary release must be withdrawn "due to the license limitations of a partner" :-(. Oracle has no right to distribute the binary release anymore, to anybody, not even internally to staff members.
     *[[http://terrencebarr.wordpress.com/2013/09/21/java-me-8-early-access-released-try-it-out/|Terrence Barr - Across the Universe "Java ME 8 Early Access release: Try it out!"]], 2013-09-21 - "Java ME 8 Early Access is available now for the following developer boards: Raspberry Pi Model B (ARM11/Linux), ST Microelectronics STM32F4DISCOVERY (ARM Cortex-M4)".
     *[[http://www.eetimes.com/document.asp?doc_id=1319569|EE Times "Oracle Brews Java for the Internet of Things. Freescale Pours Java Into IoT Gateways"]], 2013-09-23.
     *[[http://community.oracle.com/message/11203156|Oracle Community "Java ME 8 Early Access release: Try it out!"]], 2013-09-23.
@@ -173,8 +179,11 @@ Finish. //
     *[[http://www.twitter.com/gemalto|Twitter "Gemalto, @Gemalto"]].
     *[[http://plus.google.com/114497004846049473353/posts/SCFHDqYMydE|Google+ "Gemalto M2M"]].
     *[[http://www.youtube.com/watch?v=iXgSM3sVOaY|YouTube, Gerrit Grunwald "Java ME embedded on Gemalto BubbleBoard"]].
-== Resources ==
+=== Resources ===
   *[[http://community.arm.com/community/arm-partner-directory/partner-oracle-corporation/blog/2014/05/07/an-ideal-platform-for-the-iot--java-me-8-is-now-generally-available|ARM Community "An ideal platform for the IoT - Java ME 8 is now Generally Available"]], 2014-07-14.
+  *[[http://en.wikipedia.org/wiki/Java_processor|EN.Wikipedia "Java processor"]], [[http://de.wikipedia.org/wiki/Java-Prozessor|DE.Wikipedia "Java-Prozessor"]].
+  *[[http://en.wikipedia.org/wiki/Embedded_Java|EN.Wikipedia "Embedded Java"]], [[http://de.wikipedia.org/wiki/Embedded_Java|DE.Wikipedia "Embedded Java"]] - "In January 2013, ST announced full Java support for STM32 F2 and F4-series chips".
+
 ==== Java Frameworks and IDEs for Embedded Systems ====
   *[[http://www.jcontrol.org/|jControl! - The Java-based Middleware for Measurement, Control and Automation]].
 ==== Java Native Interface ( JNI ) ====
@@ -230,6 +239,10 @@ Finish. //
   *[[http://www.twitter.com/glassfish|Twitter "GlassFish, @glassfish"]].
   *[[http://www.twitter.com/java_ee|Twitter "Java EE Platform, @Java_EE"]].
   *[[http://en.wikipedia.org/wiki/Java_Platform,_Enterprise_Edition|EN.Wikipedia "Java Platform, Enterprise Edition"]], [[http://de.wikipedia.org/wiki/Java_Platform,_Enterprise_Edition|DE.Wikipedia "Java Platform, Enterprise Edition"]].
+=== The Oracle Application Development Framework ( ADF ) ===
+  *The free [[http://www.oracle.com/technetwork/developer-tools/adf/overview/adfessentials-1719844.html|Oracle "Oracle ADF Essentials. Faster and Simpler Java-based Application Development - Now Free"]].
+  *The commercial [[http://www.oracle.com/technetwork/developer-tools/adf/overview/|Oracle "Oracle Application Development Framework - Oracle ADF. Faster and Simpler Java-based Application Development"]].
+  *[[http://en.wikipedia.org/wiki/Oracle_Application_Development_Framework|EN.Wikipedia "Oracle Application Development Framework"]], [[http://de.wikipedia.org/wiki/Oracle_ADF|DE.Wikipedia "Oracle ADF"]].
 === Spring ===
   *[[http://www.springsource.org/|SpringSource Community]], [[http://www.github.com/SpringSource/|Github "SpringSource"]].
     *[[http://www.github.com/SpringSource/rest-shell|Github "SpringSource / rest-shell"]].
@@ -245,7 +258,24 @@ Finish. //
 === Standard Widget Toolkit ===
   *[[http://en.wikipedia.org/wiki/Standard_Widget_Toolkit|EN.Wikipedia "Standard Widget Toolkit"]], [[http://de.wikipedia.org/wiki/Standard_Widget_Toolkit|DE.Wikipedia "Standard Widget Toolkit"]].
 === JavaFX ===
+== The Framework ==
+  *[[http://www.oracle.com/technetwork/java/javafx/downloads/index.html|Oracle "JavaFX"]].
+  *[[http://www.oracle.com/technetwork/java/javase/documentation/javafx-docs-2159875.html|Oracle "JavaFX Documentation"]].
+  *[[http://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase8-2177648.html|Oracle "Java SE 8 Archive Downloads"]] - "Java SE Development Kit 8", "Linux ARM v6/v7 Hard Float ABI", "jdk-8-linux-arm-vfp-hflt.tar.gz" is the latest edition shipped with JavaFX.
+== FXML ==
+  *Tutorial [[http://docs.oracle.com/javafx/2/fxml_get_started/jfxpub-fxml_get_started.htm|Oracle "JavaFX Documentation Home  / Mastering FXML"]].
+    *[[http://docs.oracle.com/javase/8/javafx/fxml-tutorial/why_use_fxml.htm|Oracle "JavaFX: Mastering FXML"]] - "1 Why Use FXML".
+  *[[http://docs.oracle.com/javafx/2/get_started/fxml_tutorial.htm|Oracle "Getting Started with JavaFX"]] - "4 Using FXML to Create a User Interface".
+  *[[http://code.makery.ch/library/javafx-8-tutorial/part1/| code.makery. Learning how to code "JavaFX 8 Tutorial - Part 1: Scene Builder"]] - "Create the FXML Layout File".
+  *[[http://en.wikipedia.org/wiki/FXML|EN.Wikipedia "FXML"]].
+== Java IDEs, with support to develop JavaFX applications ( as of 2015-10 ) ==
+  *Netbeans 8.02.
+  *JavaFX Scene Builder 2.0.
+  *e(fx)clipse.
+    *[[http://www.eclipse.org/efxclipse/|Eclipse "e(fx)clipse. JavaFX Tooling and Runtime for Eclipse and OSGi"]].
+  *Oracle JDeveloper.
 == Resources ==
+  *[[http://www.oracle.com/technetwork/java/javase/jdk-8u33-arm-relnotes-2406696.html|Oracle "Java Development Kit for ARM Release Notes 8 Update 33"]] - "Starting with JDK 8u33, JavaFX Embedded is removed from the ARM bundle and is not supported".
 == Experts ==
   *[[http://www.harmonic-code.org/|Gerrit Grunwald "harmonic-code.org"]], [[http://harmoniccode.blogspot.de/|Blogspot, Gerrit Grunwald - "Harmonic Code. The life of a geek that loves to code JavaFX, Swing and HTML5..."]], [[http://www.xing.com/profile/Gerrit_Grunwald|XING "Gerrit Grunwald"]], [[http://de.linkedin.com/in/harmoniccode|LinkedIn "Gerrit Grunwald"]], [[http://www.twitter.com/hansolo_|Twitter "Gerrit Grunwald, @hansolo"]].
 === GUIs according to the Naked Objects Pattern ===
@@ -328,7 +358,10 @@ Finish. //
   *[[http://code.google.com/intl/de/javadevtools/|Google Java Developer Tools]] "WindowBuilder Pro" - Free GUI builder for Swing, SWT, RCP, XWT and GWT.
     *[[http://wayback.archive.org/web/*/http://www.swt-designer.com|Archive.org "swt-designer.com"]].
     *[[http://wayback.archive.org/web/*/http://www.instantiations.com/windowbuilder/swtdesigner/|Archive.org "Instantiations - SWT Designer"]].
-  *The free GUI designer [[http://www.oracle.com/technetwork/java/javase/downloads/javafxscenebuilder-info-2157684.html|Oracle "JavaFX Scene Builder. A Visual Layout Tool for JavaFX Applications"]] for JavaFX.
+  *The OpenSource GUI designer "JavaFX Scene Builder" for JavaFX.
+    *[[http://www.oracle.com/technetwork/java/javase/downloads/javafxscenebuilder-info-2157684.html|Oracle "JavaFX Scene Builder. A Visual Layout Tool for JavaFX Applications"]].
+    *[[http://www.gluonhq.com/open-source/scene-builder/|Gluon "Scene Builder"]].
+      *[[http://gluonhq.com/gluon-supports-scene-builder/|Gluon "Gluon supports Scene Builder"]], 2015-03-04 - "Oracle recently announced that Scene Builder will not be released in build form – only as source code within the OpenJFX project. Gluon is a strong believer in the value of tools, and as such we are pleased to announce that we will be providing builds of Scene Builder from this website".
   *"JBuilder Foundation" & "JBuilder Personal" ( but not the Eclipse-based "Turbo JBuilder" ) by Borland / Inprise Corporation / Borland / CodeGear / Embarcadero Technologies - Free legacy Java IDEs with GUI builders for AWT + Swing.
   *The free [[http://www.cloudgarden.com/jigloo/|Cloud Garden "Jigloo GUI Builder (SWT and Swing) for Eclipse"]].
   *[[http://netbeans.org/|NetBeans]] - OpenSource Java IDEs with GUI builder for AWT, Swing and JavaFX.
@@ -461,10 +494,25 @@ Finish. //
   *[[http://www.faqs.org/docs/Linux-HOWTO/Java-Decompiler-HOWTO.html|faqs.org "Alavoor Vasudevan: Java Decompiler HOW-TO"]].
 ===== The Java Language and the JDK =====
 ==== The Java Language ====
-  *Hash Map.
-    *[[http://openbook.rheinwerk-verlag.de/javainsel/javainsel_13_004.html|Rheinwerk Computing, Christian Ullenboom "Java ist auch eine Insel"]] - "13.4.1 Die Klassen HashMap und TreeMap".
-    *[[http://schabby.de/hashmap/|Schabby's Blog "Java HashMap"]].
+=== MAP, Hash Map, Dictionary ===
+== API ==
+  *[[http://docs.oracle.com/javase/7/docs/api/java/util/Dictionary.html|Oracle "Java Platform, Standard Edition 7
+API Specification" - "Class Dictionary<K,V>"]] - "This class is obsolete. New implementations should implement the Map interface, rather than extending this class".
+== Literature ==
+  *[[http://openbook.rheinwerk-verlag.de/javainsel/javainsel_13_004.html|Rheinwerk Computing, Christian Ullenboom "Java ist auch eine Insel"]] - "13.4.1 Die Klassen HashMap und TreeMap".
+== Resources ==
+  *[[http://www.gamedev.net/topic/162718-hashmap-map-dictionary-whats-the-difference/|gamedev.net "HashMap, Map, Dictionary, what's the difference?"]].
+  *[[http://examples.javacodegeeks.com/java-basics/data-types/java-dictionary-example/|Java Code Geeks "Java Dictionary example"]].
+  *[[http://www.coderanch.com/t/581116/java/java/Map-Dictionary|JavaRanch "Map Vs Dictionary"]].
+  *[[http://docs.oracle.com/javase/7/docs/api/java/util/Dictionary.html|Oracle "Java Platform, Standard Edition 7
+API Specification" - "Class Dictionary<K,V>"]] - "This class is obsolete. New implementations should implement the Map interface, rather than extending this class".
+  *[[http://schabby.de/hashmap/|Schabby's Blog "Java HashMap"]].
+  *Stack Overflow.
+    *[[http://www.stackoverflow.com/questions/267312/difference-between-a-hashmap-and-a-dictionary-adt|Stack Overflow "Difference between a HashMap and a dictionary ADT"]].
+    *[[http://www.stackoverflow.com/questions/2884068/what-is-the-difference-between-a-map-and-a-dictionary|Stack Overflow "What is the difference between a Map and a Dictionary?"]].
   *[[http://www.technofundo.com/tech/java/equalhash.html|Technofundo "Equals and Hash Code"]] -> If you override the "equals()" and "hashcode()" functions of a class, you can manage that the comparison of 2 objects of the same class, though different objects, becomes "true".
+  *[[http://blog.udemy.com/java-dictionary/|Udemy Blog "Understanding the Java Dictionary Class"]].
+
 ==== The JDK ====
   *Selection of the active Java runtime / JDK for Windows, by the registry entry: key = "HKEY_LOCAL_MACHINE/SOFTWARE/JavaSoft/Java Development Kit/Current Version", value="1.3".
 ==== Communications with Java ====
@@ -520,7 +568,7 @@ Finish. //
     *[[http://www.java.de/ziele-und-satzung-verein-27|Java User Group Deutschland e. V. - Satzung]] - "3.4. Die Austrittserklärung ist schriftlich mit einer Frist von einem Monat zum Ende eins Kalenderjahres gegenüber dem Vorstand abzugeben. Der Austritt ist jeweils zum Ende eines Vereinsjahres möglich".
     *Event "Java Forum Nord / Source Talk Tage".
       *Ticket fee: "Freier Eintritt für Mitglieder der [[http://www.java.de/|JUG Deutschland]] ( while the annual membership fee for JUG is just 46 EUR for single members :-) ).
-      *[[http://www.javaforumnord.de/|Java Forum Nord]], 2015-10-06 in Hannover, Germany - "Die eintägige Java-Konferenz mit 21 Vorträgen in 3 parallelen Tracks findet am 06. Oktober 2015 in Hannover (Hotel Plaza, direkt am Hauptbahnhof) statt".
+      *[[http://www.javaforumnord.de/|Java Forum Nord]], 2015-10-06 in Hannover, Germany.
       *[[http://www.twitter.com/javaforumnord|Twitter "Java Forum Nord, @JavaForumNord"]].
     *[[http://www.sourcetalk.de/|Source Talk Tage]], 2014-08-26 - 2014-08-27 in Göttingen, Germany.
       *Ticket fee: "Freier Eintritt für Mitglieder der [[http://www.java.de/|JUG Deutschland]] ( while the annual membership fee for JUG is just 46 EUR for single members :-) ).
@@ -554,6 +602,7 @@ Finish. //
     *[[http://java-forum.byte-welt.de/forumdisplay.php?f=6|Byte-Welt Java Forum]].
   *[[http://forums.netbeans.org/|NetBeans Forums]].
     *[[http://forums.netbeans.org/viewtopic.php?p=160449#160449|NetBeans Forums "If I create a new project and try to select a project type with Netbeans ( on freshly installed Win 8.1 ), a dreadful little window "Search:" appears next and prevents me from selecting a project...Any help ?!"]].
+  *Mailing-list [[http://mail.openjdk.java.net/mailman/listinfo/openjfx-dev|openjfx-dev -- Technical discussion related to the OpenJFX Project]].
   *[[http://forum.springsource.org/|Spring Community Forums]].
   *[[http://www.stackoverflow.com/questions/tagged/java|Stack Overflow - Tagged Questions "[javal]"]].
   *XDEV.

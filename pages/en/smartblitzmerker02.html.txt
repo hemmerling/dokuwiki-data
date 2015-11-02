@@ -1,0 +1,65 @@
+====== [hemmerling] Smart Blitzmerker 2/2 - Telekom Innovation Contest ======
+Related page:
+  *[[metering.html|Smart Metering]].
+  *[[smarttechnology.html|Smart Technology]].
+  *[[smartblitzmerker.html|Smart Blitzmerker 1/2 - "Bring your own Device - Get your own Data" ( BYDD - GYOD  )]].
+Reason: I applied at the competition [[http://www.telekom-innovation-contest.com/|Telekom Innovation Contest]] 2015, 2015-09-10 - 2015-10-18, with this paper. Unfortunately, the project doesn´t yet fit the requirement "We are looking for innovators, startups and SMEs from all over the world with an innovative technology or product in one of our three categories **and at least a working prototype to present**".
+===== 1 Idea title =====
+Smart Blitzmerker: Bring your own Device - Get your own Data ( BYDD - GYOD ).
+===== 2 Teaser =====
+A smart device collects data from analog meters by taking a photo of the numeric display and pushes it as digital data to the Cloud.
+===== 3 Category =====
+Industry 4.0
+===== 4 Description of your idea =====
+==== 4.1 Which problems are you solving and how? ====
+Which problem solved: Our complete solution ( from sensor to cloud ) helps local companies and local institutions to collect energy data, which is the mandatory prerequisite to build an energy management system. Energy management systems may help to implement "power load management" (  German: "Lastmanagement" ), the only known working business model to make use of smart meters.
+==== 4.2 What technology are you using? ====
+Two alternative smart devices will be developed:
+  - SmartDevice: Embedded microcontroller board, on-board imageing module ( = camera ), image recognition, wireless data transfer or data transfer by fieldbus to a local facility server and/ or to the Cloud. The SmartDevice is used to be glued or assembled permanently to the meter, usually. So it must be "cheap" to be rolled-out in big numbers.
+  -SmartPhone: Standard smartphone with camera and wireless or mobile Internet access, maybe operated by a selfie sStick. The SmartPhone is just put temporarily in front of a meter for reading the data.
+There is the option to implement some extra wireless hardware for both devices, so that the data is transfered wireless by a 863 Mhz long-range wirless network for 5-10 km to a next datastation ( as aternative to transfer data by local Wifi or Bluetooth wireless networks, or cable ).
+==== 4.3 What is new about your idea? ====
+  -SmartDevice: Traditional smart metering solutions require to replace the analog meter by a new smart meter, this is very expensive. Our solution is just a small cheap device which is put in front of the analog data display, to read the data by making a photo. Traditional solutions which read the analog data by making a photo are too bulky, weighty and energy-intensive, as they usually implement the full image processing on the smart device. You need a full Linux computer ( a la Raspberry ) for that. With our solution, the hardware application might be a bare metal embedded board just with a realtime operating system, which has a reduced energy consumption as it can be put to sleep if needed.
+  -SmartPhone: The use of the smartphone for "everything", and to urge the human users to buy and operate it at own costs, is indeed not new. But it is a successfull business model.
+==== 4.4 What is your USP? ====
+  -Our smart device SmartDevice will need much less energy than traditional smart-metering solutions which read analog data by making a photo. It will be much cheaper than these competitors, and all such solutions including our competitors are much much cheaper than to exchange the analog meter by a digital meter.
+  -"Our" SmartPhone doesn´t cost anything, as it is expected to be supplied by the human operator and human staff. It is just running "our" SmartBlitzmerker App, when needed. Principle "Bring your own Device".
+==== 4.5 Do you have any IPR (patents, brands, etc.) ====
+No, it's vice-versa: We want to put all software and hardware developed as OpenSource freely available, to convince partners to trust us and order the paid consulting services and maybe even paid development and implementation services.
+===== 5 Business model & Market potential =====
+==== 5.1 What is your business model? ====
+Getting consulting contracts by institutions which want to implement the meter data collection as part of their energy management / energy saving politics.
+==== 5.2 Who is your target group? ====
+  -Local decision makers and authorities ( local government, local city council, companies with facilities and plants ) especially also in low-developed ( "Third World", "poor" ) countries.
+  -Local colleges especially also in low-developed  countries.
+  -Local software and application developers, especially those of the "maker" scene ( which can design, build and operate both electronics, mecancial hardware and software, which may be motivated to do local implementations for small business or their own business or even just their own fun.
+==== 5.3 Which market are you targeting? ====
+Cost-sensitive ocal institutions and cost-sensitive local companies, which have a need to do energy management and energy saving but need a cheap but also efficient solution.
+==== 5.4 How attractive is this market (size and growth), and what segments do you plan to address? ====
+Market attractivity: Energy saving is a bargain not just for rich companies in rich countries, but for anybody in the world: Especially poor countries lack of money to import energy or produce its own energy. The more expensive energy will be, the more energy management will count. The base for energy management is collecting energy (metering) data.
+==== 5.5 What is your go-to-market strategy? ====
+The software and hardware shall be created as OpenSource, to attract local colleges especially in low developed countries to invest time ( by bachelor thesis, coursework, practical project work and laboratory tasks ) to contribute to the application development. If the same colleges now can proudly present a working implementation, they can influence local institutions to decide for implementation. The implementation would be accompanied by the project leaders ( Rolf Hemmerling, local lecturer of the local college ) and many local contributors ( students, other OpenSource software developers and IT experts ), according to the principle "Think global, act local".
+==== 5.6 Who are your competitors and what separates you from them ====
+Technically, there are quite a number of existing both commercial and non-commercial implementations of the smart device ( see [[metering.html|http://www.hemmerling.com/doku.php/en/metering.html]] ), BUT most of them do not supply the complete signal chain from analog data to the cloud, OR just academic work or hobby work and not commercially available OR are too expensive, OR have a too expensive design ( a computer running with an operating system like Linux all the time, which has high power consumption ). Or solution must be - according to Michael Porter's ideas - a leader in costs. I.e. the software and application development must be cheap or almost at no costs, the smart device must be very unexpensive, have light weight and little costs. Same for the Cloud services - must be cheap to operate ( so the Cloud provider must be cheap ), easy to operate and maintain ( so the software must be both simple to create and to operate ). Our solution should run with a battery for 1 year.
+===== 6 Which of the following terms describes the status of your idea best? =====
+Prototype, Beta Product.
+===== 7 Status of idea =====
+There is a website page
+http://www.hemmerling.com/doku.php/en/smartblitzmerker.html
+, at which all already claimed resources like a GitHub account, are collected.
+==== 7.1 Have you founded a company already? ====
+A company is not yet founded for the project, but I - Rolf Hemmerling - have time to develop the software and the application ( as I am unemployed Dipl.-Ing.(FH) in Information Technology ). The application shall server as work sample, to be presented at job applications.
+==== 7.2 Do you have customers/revenue yet? ====
+I - Rolf Hemmerling - have a possible partner at a college in India, Ranjan Ganguli.
+==== 7.3 Have you won any awards with your idea already or have you applied for other awards? ====
+The project did not yet win any award. Rolf Hemmerling was member of the winner team of the "Campus Challenge Federal State Finale 'Lower Saxony'" of the case study competition “Accenture Campus Challenge 2008” by Accenture GmbH. 
+==== 7.4 Have you received any funding so far? ====
+The project didn´t get any funding. The only funding is that I - Rolf Hemmerling - reserved spare time for the future,  as long as I don´t have a paid job as IT expert.
+===== 8 Team =====
+  -Rolf Hemmerling, Dipl.-Ing(FH) in Information Technology ( http://www.xing.com/profile/Rolf_Hemmerling , http://www.hemmerling.com/ ), currently self-employed and looking for contracts & jobs.
+  -Ranjan Ganguli, Senior Lecturer at Dr. zakir hussain institute, Deoghar ( http://www.linkedin.com/pub/ranjan-ganguli/a1/265/824 ).
+===== 9 Link and Relevance to Deutsche Telekom =====
+Deutsche Telekom might be the Cloud hoster for the big data collected metering data. Especially as there will be also  implementations in Europe ( maybe not just in the "poor" European countries, but at least in Germany a test implementation too  ), it is important for the project to satsify the "safe harbour" data privacy law of Europe. Later for non-EU countries, the service might be duplicated to run in a Cloud which satisfies the legal needs of the non-EU countries, easily. Of course Deutsche Telekom might also help in the means of a business incubator, social network contact provider to possible German / European customers. And we would be pleased if Deutsche Telekom would fund the project :-).
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Hardware/Mikrocontroller/|OpenDirectory "Top: World: Deutsch: Computer: Hardware: Mikrocontroller"]].
+{{tag>"smart blitzmerker" smart blitzmerker smartblitzmerker "smart metering" metering "smart grid" grid "smart city" city "smart cities" cities "smart building" building "smart buildings" buildings "smart building managment" management "smart world" world "bring your own device" byod bring your own device "get your own data" gyod get your own data}}

@@ -8,14 +8,15 @@ Related Pages:
   *[[simulate.html|Simulation]].
 ===== Instrumentation Hardware =====
 ==== General ====
-  *[[http://www.aglilent.com/|Agilent Technologies]].    
-    *[[http://www.home.agilent.com/en/pc-1742042/fieldfox-handheld-rf-and-microwave-analyzers|Agilent Technologies "FieldFox Handheld RF and Microwave Analyzers"]].
   *[[http://www.brainchild.com.tw/|BrainChild - BRAINCHILD ELECTRONICS Co., LTD]] - "Largest controller maker in Taiwan".
     *Software "Data Acquisition Studio" for Windows - "PC based data logging software to be used with [[http://en.wikipedia.org/wiki/Modbus|Modbus]] based devices like I/O Modules".
     *"Data Acquisition Modules - Distributed IO Modules".
   *[[http://www.de.endress.com/|Endress+Hauser Messtechnik GmbH+Co. KG]] - "Messtechnik (Füllstand, Grenzstand, Durchfluss, Druck, Temperatur, messen)".
   *Distance meters.
     *[[http://www.checkline-europe.de/disto_laser_abstandsmessgeraete/Disto%20A8|Checkline Europe "Leica Disto A8 Laser Distance Meter"]].
+  *[[http://www.keysight.com/|Keysight Technologies]] ( formerly: [[http://www.aglilent.com/|Agilent Technologies]] ).
+    *[[http://www.keysight.com/de/pc-1940892/infiniivision-2000-x-series-oscilloscope|Keysight Technologies "InfiniiVision 2000 X-Series Oscilloscope"]] - InfiniiVision 2000..6000 with web interface!
+    *[[http://www.keysight.com/en/pc-1742042/fieldfox-handheld-rf-and-microwave-analyzers|Keysight Technologies "FieldFox Handheld RF and Microwave Analyzers"]].
   *[[http://www.lecroy.com/|LeCroy]] - affordable "WaveAce" oscilloscopes.
   *[[http://www.micro-epsilon.de/|MICRO-EPSILON MESSTECHNIK GmbH & Co. KG]] - "Hochpräzise Sensoren, Messgeräte und Systeme / Anlagen".
   *[[http://www.mtssensor.de/|MTS Sensor Technologie GmbH & Co. KG]], Lüdenscheid.
@@ -23,6 +24,13 @@ Related Pages:
     *[[http://en.wikipedia.org/wiki/MTS_Systems_Corporation|EN.Wikipedia "MTS Systems Corporation"]], [[http://de.wikipedia.org/wiki/MTS_Systems_Corporation|DE.Wikipedia "MTS Systems Corporation"]].
     *[[http://en.wikipedia.org/wiki/Magnetostriction|EN.Wikipedia "Magnetostriction"]], [[http://de.wikipedia.org/wiki/Magnetostriktion|DE.Wikipedia "Magnetostriktion"]].  
     *[[http://www.kem.de/home/-/article/16537493/26146621/|KEM - Informationsvorsprung für Konstrukteure "Wegmessung mit Köpfchen - Aufbau, Messprinzip und Anwendungen magnetostriktiver Positionssensoren"]].
+  *[[http://www.rohde-schwarz.com/|Rohde & Schwarz]] / [[http://www.hameg.com/|HAMEG Instruments GmbH]].
+    *[[http://www.rohde-schwarz.com/|Rohde & Schwarz]]
+      *[[http://value.rohde-schwarz.com/vi/value/oscilloscopes/hmo3000-digital-oscilloscope.html|Rohde & Schwarz "R&S HMO3000 Digital Oscilloscope"]] with web interface!
+      *[[http://www.rohde-schwarz.com/en/news-press/press-room/press-releases-detailpages/rohde-schwarz-and-hameg-offer-hmo3000-complete-bundle-at-a-bargain-price-press_releases_detailpage_229356-74881.html|Rohde & Schwarz "Rohde & Schwarz and HAMEG offer HMO3000 Complete bundle at a bargain price"]], 2014-02-10.
+    *[[http://www.hameg.com/|HAMEG Instruments GmbH]].
+      *Blog [[http://blog.hameg.com/|the blog from HAMEG Instruments]].
+      *[[http://www.hameg.com/h020_hmo3002.0.html|HAMEG Instruments GmbH "HMO3000 Series"]].
   *[[http://www.phoenixcontact.de/signalanpassung/|PHOENIX CONTACT "Signalkonverter INTERFACE"]].
   *[[http://www.prosensor.com/|Prosensor]], France.
   *The OpenSource instrumentation hardware "Red Pitaya" -> See [[xilinx.html|Xilinx "System on Chip" ( SoC )]].
@@ -37,13 +45,23 @@ Related Pages:
 === Low-Buget standalone Oscilloscopes ===
   *[[http://www.messgeraete-chemnitz.de/|Präzitronic ( messgeraete-chemnitz.de )]].
     *[[http://www.messgeraete-chemnitz.de/tisch-oszilloskope/|Präzitronic "OWON Oszilloskope"]].
-  *[[http://www.batronix.com/versand/oszilloskope/|Batronix Elektronik - Führende Programmier- und Messlösungen "Oszilloskope"]].
-    *[[http://www.batronix.com/versand/oszilloskope/low-cost-oscilloscope.html|Batronix Elektronik "Low-cost Oscilloscope"]].
-      *[[http://www.batronix.com/versand/oszilloskope/Rigol-DS1052E.html|Batronix Elektronik "Rigol DS1052E"]].
+  *[[http://www.rigol.com/|Rigol]], [[http://www.rigol.eu/|Rigol Europe]], [[http://www.rigolna.com/|Rigol USA]].
+    *[[http://www.batronix.com/versand/oszilloskope/|Batronix Elektronik - Führende Programmier- und Messlösungen "Oszilloskope"]].
+      *[[http://www.batronix.com/versand/oszilloskope/low-cost-oscilloscope.html|Batronix Elektronik "Low-cost Oscilloscope"]].
+        *[[http://www.batronix.com/versand/oszilloskope/Rigol-DS1052E.html|Batronix Elektronik "Rigol DS1052E"]] - 2 channels.
+        *[[http://www.batronix.com/versand/oszilloskope/Rigol-DS1054Z.html|Batronix Elektronik "Rigol DS1054Z"]] - 4 channels.
+        *[[http://www.batronix.com/versand/oszilloskope/Rigol-DS1074Z-S.html|Batronix Elektronik "Rigol DS1074Z-S"]] - 4 channels, 2-channel function generator.
+        *[[http://www.batronix.com/versand/oszilloskope/Rigol-MSO1074Z-S.html|Batronix Elektronik "Rigol MSO1074Z-S"]] - 4 channels, 2-channel function generator, 16-channel logic analyzer.
+    *[[http://sine.ni.com/apps/utf8/niid_web_display.download_page?p_id_guid=88AF154718E95366E04400144FB7D21D|National Instruments, Instrument Driver Network "RIGOL DS1000 Series Oscilloscope"]].
+    *[[http://www.eevblog.com/forum/testgear/new-rigol-ds1054z-oscilloscope/855/|EEV Blog Forum, Thread "New Rigol DS1054Z oscilloscope"]], 2014-12.
+      *[[http://www.google.de/search?q=riglol|Google - Search for "riglol"]].
+      *[[http://web.archive.org/web/*/http://riglol.3owl.com/|Archive.org "riglol.3owl.com"]].
+      *[[http://www.gotroot.ca/rigol/riglol/|GotRoot "rigol"]].
 === Low-Buget PC-based Oscilloscopes ===
   *[[http://www.picotech.com/oscilloscope.html|PicoScope USB Oscilloscope]].
     *The commercial oscilloscope software [[http://www.picotech.com/picoscope-oscilloscope-software.html|PicoScope]] for Windows.
     *[[http://www.reichelt.de/USB-Oszilloskope/0/16/index.html?GROUPID=4055&MANUFACTURER=pico|reichelt elektronik GmbH & Co. KG "USB-Oszilloskope"]] - "pico".
+  *I was told by experts in 2015, that low-buget standalone Oscilloscopes are better ( more features - e.g display -, more power, less price ) than most low-buget PC-based oscilloscopes :-).
 === Sophisticated PC-based Oscilloscopes ===
   *[[http://www.ni.com/virtualbench/|National Instruments "NI VirtualBench All-in-One Instrument"]], [[http://www.ni.com/virtualbench/d/?cid=Advertising-Measurements-Central_Germanic-metc=mt5584-none|National Instruments "Universalmessgerät NI VirtualBench"]].
     *"NI VirtualBench" uses proprietary drivers, not a DAQM driver. I.e. it is not integrated into National Instruments' "Measurement & Automation Explorer" :-(. This means that you just can access the device by special virtual instruments from within LabVIEW, and by the supplied Windows desktop application. You can´t access it neither by other National Instrument software tools ( e.g. National Instruments "Measurement Studio" ), nor by self-created Windows applications written in C#, C/C++,...
@@ -66,8 +84,18 @@ Related Pages:
     *[[http://www.ebay.com/sch/i.html?_nkw=Core-Develope-Board-Logic-Analyze-Module|eBay.com "Core-Develope-Board-Logic-Analyze-Module"]].
 
 ==== Communications ====
+=== IVI, LXI & SCPI ===
+  *[[http://www.ivifoundation.org/|IVI Foundation]].
+    *[[http://www.ivifoundation.org/scpi/|IVI Foundation "SCPI Consortium"]].
   *[[http://www.lxistandard.org/|LAN eXtensions for instrumentation]] - "LXI is the power of Ethernet and the Web applied to Test & Measurement (T&M) offering you new possibilities in test systems – local, remote, distributed, time-aware".
+    *[[http://www.lxistandard.org/About/IVI-Drivers-IVI-Foundation-for-LXI-Instruments.aspx|eXtensions for instrumentation "IVI Driver Support"]].
+=== Tools ===
+  *[[http://www.github.com/j123b567/scpi-parser|GitHub "j123b567/scpi-parser"]].
+  *[[http://de.mathworks.com/products/instrument/supported/scpi.html|Mathworks "Using SCPI Commands from MATLAB"]].
+=== Resources ===
+  *[[http://en.wikipedia.org/wiki/Instrument_Driver|EN.Wikipedia "Instrument Driver"]].
   *[[http://en.wikipedia.org/wiki/LAN_eXtensions_for_Instrumentation|EN.Wikipedia "LAN eXtensions for Instrumentation"]], [[http://de.wikipedia.org/wiki/LAN_eXtensions_for_Instrumentation|DE.Wikipedia "LAN eXtensions for Instrumentation"]].
+  *[[http://en.wikipedia.org/wiki/Standard_Commands_for_Programmable_Instruments|EN.Wikipedia "Standard Commands for Programmable Instruments"]] ( SCPI ).
 ==== Direct Digital Synthesis ( DDS ) ====
 === Hardware ===
   *[[http://www.elv.de/DDS-Funktionsgenerator-DDS-110,-10-MHz,-Komplettbausatz-inkl-Software/x.aspx/cid_74/detail_10/detail2_16755|ELV "DDS-Funktionsgenerator DDS 110, 10 MHz, Komplettbausatz inkl. Software. Artikel-Nr.: 68-07 37 56"]].
@@ -90,9 +118,9 @@ Related Pages:
 ==== Commercial ====
   *[[http://www.avl.com/puma-open|AVL "PUMA Open Test System Automation"]].
     *PUMA runs on Windows, using the realtime kernel "AVL Realtime Environment" ( ARTE ).
-  *[[http://www.aglilent.com/|Agilent Technologies]].
-    *[[http://www.agilent.com/find/vee|Agilent VEE Pro]] ( formerly: Hewlett Packard VEE Pro, HP VEE Pro ).
-      *[[http://www.agilent.com/find/adn|Agilent Developer Network]].
+  *[[http://www.keysight.com/|Keysight Technologies]] ( formerly: [[http://www.aglilent.com/|Agilent Technologies]] ).
+    *[[http://www.keysight.com/en/pc-1000003078%3Aepsg%3Apgr/agilent-vee|Keysight VEE]] & "Keysight VEE Pro" ( formerly: Agilent VEE Pro, Hewlett Packard VEE Pro, HP VEE Pro ).
+      *[[http://www.keysight.com/main/editorial.jspx?cc=DE&lc=ger&ckey=1527426|Keysight Technologies "Keysight Developer Network"]], [[http://www.keysight.com/upload/cmc_upload/All/ADNHome.htm|Keysight Technologies "Agilent Developer Network"]].
       *The german Agilent distributor [[http://www.datatec.de/|dataTec GmbH]].
       *The german Agilent distributor [[http://www.meilhaus.de/|Meilhaus Electronic GmbH]].
     *[[http://www.agilent.com/chem/openlab/|Agilent OpenLAB]].
@@ -177,20 +205,28 @@ Related Pages:
 ==== Resources ====
   *[[http://en.wikipedia.org/wiki/Test_execution_engine|EN.Wikipedia "Test execution engine"]].
 ===== Condition Monitoring =====
-==== Conferences ====
+==== Conferences & Speeches ====
+  *Conference [[http://www.solutions.hamburg/|solutions.hamburg - Kongress für Digitalisierung, Business und IT]] by [[http://www.silpion.de/|SILIPON]] in Hamburg, 2015-09-11: I listened to the speech "Präventive Wartung mit Python, R und ... Lego!" by Nicolaj Kirchhof, [[http://www.xing.com/profile/Nicolaj_Kirchhof|XING "Nicolaj Kirchhof"]], [[http://de.linkedin.com/pub/nicolaj-kirchhof/74/602/4b3/en|LinkedIn "Nicolaj Kirchhof"]] and Tim Speier, [[http://www.xing.com/profile/Tim_Speier|XING "Tim Speier"]]. They refered to the open data of:
+    *[[http://www.phmsociety.org/|PHM Society]].
+      *[[http://www.phmsociety.org/events/workshop/dx/10|PHM Society "21st International Workshop on the Principles of Diagnosis"]].
+    *[[http://www.imscenter.net/|Center for Intelligent Maintenance Systems]].
   *[[http://www.ifm-consulting.com/ifmcon/web/rtm_forum_2010.htm|5. Real-Time-Maintenance (RTM)-Forum]] in Stuttgart, 2010-09-28.
   *[[http://www.ifm-consulting.com/ifmcon/web/sap_infotag_2009.htm|SAP Infotag 2009: Aktuelle Instandhaltungsstrategien und ihre Umsetzung in SAP]], 2009-04-02.
   *[[http://www.ifm-consulting.com/ifmcon/web/rtm_forum_2009.htm|4. Real-Time-Maintenance (RTM)-Forum]] in Stuttgart, 2009-05-06.
   *[[http://www.ifm-consulting.com/ifmcon/web/rtm_forum_2008.htm|3. Real-Time-Maintenance (RTM)-Forum]] in Stuttgart, 2008-04-15.
   *[[http://www.ifm-consulting.com/ifmcon/web/rtm_forum_2007.htm|2. Real-Time-Maintenance (RTM)-Forum]] in Donaueschingen , 2007-03-20.
 ==== Resources ====
-  *[[http://en.wikipedia.org/wiki/Condition_Monitoring|EN.Wikipedia "Condition Monitoring"]], [[http://de.wikipedia.org/wiki/Condition-Monitoring|DE.Wikipedia "Condition-Monitoring"]].
-  *[[http://en.wikipedia.org/wiki/Data_stream_management_system|EN.Wikipedia "Data stream management system"]], [[http://de.wikipedia.org/wiki/Data_Stream_Management_System|DE.Wikipedia "Data Stream Management System"]].
+  *Experts told me, that you might map electrical signal data  on the stairs of a Markow model. State transition probabilities are important to consider!
   *[[http://www.ifm-consulting.com/|ifm consulting gmbh]].
     *[[http://www.ifm-consulting.com/ifmcon/web/workshops-seminare.htm|ifm consulting gmbh "Workshops / Seminare"]].
   *[[http://i-for-t.de/ifmiftde/|i-for-T GmbH]] - The condition monitoring software "CMSpro Software" for Java on W2k, WinXP, Win7. 
     *[[http://i-for-t.de/ifmiftde/web/cmspro-software-download.htm|i-for-T GmbH "Fordern Sie den Download-Link für die CMSpro Software an"]].
+  *[[http://www.imscenter.net/|Center for Intelligent Maintenance Systems]].
+  *[[http://www.phmsociety.org/|PHM Society]].
+    *[[http://www.phmsociety.org/events/workshop/dx/10|PHM Society "21st International Workshop on the Principles of Diagnosis"]].
   *[[http://www.inat.de/|Softing Industrial Networks GmbH]].
+  *[[http://en.wikipedia.org/wiki/Condition_Monitoring|EN.Wikipedia "Condition Monitoring"]], [[http://de.wikipedia.org/wiki/Condition-Monitoring|DE.Wikipedia "Condition-Monitoring"]].
+  *[[http://en.wikipedia.org/wiki/Data_stream_management_system|EN.Wikipedia "Data stream management system"]], [[http://de.wikipedia.org/wiki/Data_Stream_Management_System|DE.Wikipedia "Data Stream Management System"]].
 
 ===== Rental Services =====
   *[[http://www.livingston.com/|Livingston, The Leading Test &amp; Measurement Equipment Rental Company]].

@@ -42,8 +42,11 @@ Related pages:
   *WebSphere.
   *SAP NetWeaver.
 ==== Resources ====
+  *I was told by experts, that ODATA is useful for communicating from Web clients to cloud databases services, where direct communication between the Web client and SQL database servers is not possible ( e.g. Windows 8.1 Desktop Apps can´t communicate by SQL, firewalls, ... ) or useful. 
+    *The ODATA server communicates with the ODATA Web client.
+    *The ODATA server communicates by SQL with the local databases installed in the cloud data center.
   *[[http://www.codeproject.com/Articles/90365/An-overview-of-Open-Data-Protocol-OData|CodeProject. For those who code "An overview of Open Data Protocol (OData)"]].
-  *[[http://www.it-visions.de/glossar/alle/5905/Open%20Data%20Protocol.aspx|wwww.IT-Visions.de, Dr. Holger Schwichtenberg "Erklärung des Begriffs: Open Data Protocol (ODATA). Was ist Open Data Protocol (ODATA)?"]].
+  *[[http://www.it-visions.de/glossar/alle/5905/Open%20Data%20Protocol.aspx|IT-Visions.de, Dr. Holger Schwichtenberg "Erklärung des Begriffs: Open Data Protocol (ODATA). Was ist Open Data Protocol (ODATA)?"]].
   *Microsoft.
     *[[http://msdn.microsoft.com/en-us/data/ee720179.aspx|Microsoft Data Developer Center "Download and Install WCF Data Services and OData Libraries"]].
     *[[http://msdn.microsoft.com/en-us/library/ff478141.aspx|Microsoft MSDN "Open Data Protocol by Example"]].

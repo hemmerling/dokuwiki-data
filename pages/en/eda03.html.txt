@@ -8,13 +8,14 @@ Related pages:
   *[[electronics01.html|Electric Units & Electronics 1/3 - My Electronics, Electronics Workbench Equipment, Electronics Literature & Resources]].
   *[[electronics02.html|Electric Units & Electronics 2/3 - Actors, Sensors, Embedded Systems Electronics and suitable Control Systems]].
   *[[electronics03.html|Electric Units & Electronics 3/3 - Manufacturers, Distributors, Vendors & Datasheets]].
-
 ===== FPGA Chip Design Languages =====
-==== MyHDL =====
+==== Low-Level descriptive parallel Modelling ====
+Though the code looks like "Pascal" or "C", it is not executed in this way.
+=== MyHDL ====
   *[[http://www.myhdl.org/|MyHDL]].
   *[[http://www.twitter.com/MyHDL|Twitter "MyHDL"]].
   *[[http://en.wikipedia.org/wiki/MyHDL|EN.Wikipedia "MyHDL"]].
-==== PSHDL ( Plain Simple Hardware Description Language ) =====
+=== PSHDL ( Plain Simple Hardware Description Language ) ====
   *[[http://www.pshdl.org/|PSHDL Online]] - "Download library" -> "pshdl_pkg.vhd".
     *Blog [[http://blog.pshdl.org/|PSHDL Language. A blog about the development of PSHDL, the Plain & Simple Hardware Description Language and multiple rants about the shortcomings of VHDL and Verilog]].
     *[[http://www.pshdl.org/pshdltutorial.html|PSHDL Tutorial - Getting started with PSHDL]].
@@ -26,26 +27,66 @@ Related pages:
   *Main developer: Karsten Becker, [[http://www.xing.com/profiles/Karsten_Becker40|XING "Karsten Becker"]].
   *[[http://www.twitter.com/PSHDL|Twitter "PSHDL"]].
   *To work with PSHDL on the FPGA board [[http://www.xilinx.com/products/boards-and-kits/AES-S6MB-LX9.htm| Xilinx Inc "Avnet Spartan-6 LX9 MicroBoard"]], you need the free [[http://www.xilinx.com/products/design-tools/ise-design-suite/|Xilinx ISE Design Suite: WebPACK Edition]] and install the download library "pshdl_pkg.vhd".
-==== PSL ( Property Specification Language ) =====
+=== PSL ( Property Specification Language ) ====
   *[[http://en.wikipedia.org/wiki/Property_Specification_Language|EN.Wikipedia "Property Specification Language"]] ( PSL ).
-==== SystemC ====
-  *The free SystemC modeling IDE [[http://www.eda.ir/|Electronics Design Automation "SystemC_Win"]] for use with Borland C++ 5.5, on Windows. 
-    *[[http://web.archive.org/web/*/http://www.geocities.com/systemc_win/|Archive.org "Geocities 'SystemC_Win'"]] ( - 2009-10-25 ) - Download of the source code of the legacy version "SystemC_Win Version 1.0 Beta".
-  *[[http://www.systemc.org/|Open SystemC Initiative (OSCI)]].
-  *[[http://en.wikipedia.org/wiki/SystemC|EN.Wikipedia "SystemC"]], [[http://de.wikipedia.org/wiki/SystemC|DE.Wikipedia "SystemC"]].
-  *[[http://en.wikipedia.org/wiki/Accellera|EN.Wikipedia "Accellera"]] - "Open SystemC Initiative".
-
-==== Verilog ====
+=== Verilog ===
   *[[http://en.wikipedia.org/wiki/Verilog|EN.Wikipedia "Verilog"]], [[http://de.wikipedia.org/wiki/Verilog|DE.Wikipedia "Verilog"]].
   *[[http://en.wikipedia.org/wiki/SystemVerilog|EN.Wikipedia "SystemVerilog"]].
-==== VHDL ====
+=== VHDL ===
   *[[http://www.ashenden.com.au/|Peter Ashenden "Ashenden Designs"]] - Autor of books about VHDL design.
   *Book [[http://www.amazon.de/exec/obidos/ASIN/0970539428/hemmerling-21|Ben Cohen: "Real Chip Design and Verfication Using Verilog and VHDL"]] - The accompanying CD is filled with many free VHDL sources.
   *Book [[http://www.amazon.de/exec/obidos/ASIN/0471899720/hemmerling-21|Ulrich Heinkel, Martin Padeffke, Werner Haas, Thomas Buerner, Herbert Braisz, Thomas Gentner, Alexander Grassmann "The VHDL Reference: A Practical Guide to Computer-Aided Integrated Circuit Design including VHDL-AMS"]].
   *Book [[http://www.amazon.de/exec/obidos/ASIN/3486716778/hemmerling-21|Jürgen Reichardt, Bernd Schwarz: "VHDL-Synthese: Entwurf digitaler Schaltungen und Systeme"]].
     *The accompanying website [[http://users.etech.haw-hamburg.de/users/Reichardt/buch.html|Reichardt Schwarz VHDL Synthese Synthesis]] with a free HTML online book edition.
   *[[http://en.wikipedia.org/wiki/VHDL|EN.Wikipedia "VHDL"]], [[http://de.wikipedia.org/wiki/Very_High_Speed_Integrated_Circuit_Hardware_Description_Language|DE.Wikipedia "Very High Speed Integrated Circuit Hardware Description Language"]].
+==== High-level imperative sequential Modelling - "FPGA Accelleration for Software Programmers" ====
+The code looks like "C/C++" and is executed in this way.
+=== CUDA ===
+  *Experts told me what is OpenCL for ALTERA, is the software framework of CUDA for NVIDIA. You may create "CUDA Applications" for NVIDIA ( graphics card ) platforms.
+  *[[http://en.wikipedia.org/wiki/CUDA|EN.Wikipedia "CUDA"]], [[http://en.wikipedia.org/wiki/CUDA|EN.Wikipedia "CUDA"]].
+=== OpenCL ===
+== OpenCL by ALTERA ==
+  *[[http://www.altera.com/products/design-software/embedded-software-developers/opencl/overview.html|ALTERA "Altera SDK for OpenCL"]].
+    *[[http://www.altera.com/support/support-resources/design-examples/design-software/opencl.html|ALTERA "OpenCL Design Examples"]].
+      *[[http://www.altera.com/support/support-resources/design-examples/design-software/opencl/hello-world.html|ALTERA "Hello World Design Example"]].
+    *Webcast [[http://www.altera.com/webcasts/opencl-overview/presentation.html|ALTERA "Introduction to FPGA Accelleration for Software Programmers using OpenCL"]].
+  *[[http://dl.altera.com/opencl/|ALTERA Download Center "Altera SDK for OpenCL"]].
+== OpenCL by AMD ( formerly: ATI ) ==
+  *[[http://developer.amd.com/tools-and-sdks/opencl-zone/|AMD Developer Central "OpenCL Zone - Accelerate Your Applications]].
+    *[[http://developer.amd.com/tools-and-sdks/opencl-zone/opencl-resources/programming-in-opencl/porting-cuda-applications-to-opencl/|AMD Developer Central "OpenCL Zone - Accelerate Your Applications" - "Porting CUDA Applications to OpenCL"]].
+== Tutorials, Sample Code & Addon Frameworks ==
+  *[[http://developer.apple.com/library/mac/samplecode/OpenCL_Hello_World_Example/Listings/hello_c.html|Apple Developers, Mac Developer Library "OpenCL Hello World Example"]].
+  *[[http://blogger.ivanceras.com/2013/03/a-working-opencl-sample-for-nvidia.html|Digital Wizard Apprentice
+Aspirant little steps towards understanding the mystery of programming and digital "A working OpenCL sample for NVIDIA graphics card on Linux"]].
+  *[[http://www.dhruba.name/2012/08/21/opencl-cookbook-series-reference/|Dhruba Bandopadhyay. Maximum Zeal ~ Emphatic prose on indulged fascinations "OpenCL Cookbook: Series Reference"]].
+  *[[http://code.google.com/p/simple-opencl/|Google Code "simple-opencl. SimpleOpenCL is a library created to reduce the amount of host code needed to write an OpenCL program"]].
+  *[[http://www.computer-graphics.se/hello-world-for-cuda.html|Ingemar Ragnemalm, Computer Graphics.se "The real 'Hello World!' for CUDA, OpenCL and GLSL!"]] #.
+== Resources ==
+  *"FPGA Board Support Packages" ( BSP ) are an important aspect of the "business model" of the FPGA industry. BSPs are not "free" but usually require a license. Usually, a valid BSP license file must be attached to the OpenCL compiler chain, to enable its operation for a specific board target.
+  *[[http://www.alteraboards.com/|BittWare FPGA Platforms]].
+    *[[http://www.alteraboards.com/product/opencl-developers-bundle/|BittWare FPGA Platforms "OpenCL Developer’s Bundle. Arria 10 or Stratix V FPGA-based PCIe Board and Development Tools for OpenCL"]].
+    *[[http://www.alteraboards.com/product/opencl-board-support-packages-bsps/|BittWare FPGA Platforms "OpenCL Board Support Packages (BSPs)"]] - "FPGA Board Support Packages for the Altera OpenCL SDK".
+  *[[http://www.stackoverflow.com/questions/tagged/opencl|StackOverflow - Tagged Questions "opencl"]].
+=== SystemC ===
+  *The free SystemC modeling IDE [[http://www.eda.ir/|Electronics Design Automation "SystemC_Win"]] for use with Borland C++ 5.5, on Windows. 
+    *[[http://web.archive.org/web/*/http://www.geocities.com/systemc_win/|Archive.org "Geocities 'SystemC_Win'"]] ( - 2009-10-25 ) - Download of the source code of the legacy version "SystemC_Win Version 1.0 Beta".
+  *[[http://www.systemc.org/|Open SystemC Initiative (OSCI)]].
+  *[[http://en.wikipedia.org/wiki/SystemC|EN.Wikipedia "SystemC"]], [[http://de.wikipedia.org/wiki/SystemC|DE.Wikipedia "SystemC"]].
+  *[[http://en.wikipedia.org/wiki/Accellera|EN.Wikipedia "Accellera"]] - "Open SystemC Initiative".
+=== SystemRDL ===
+== Specification ==
+  *[[http://www.accellera.org/downloads/standards/systemrdl|Accellera Systems Initiative]] - "Download SystemRDL" ( specification ).
+== Resources ==
+  *[[http://www.agnisys.com/products/ids40/systemrdl/|Agnisys, Inc. "Nest Generation SystemRDL. Using IDesignSpec for register implementation"]].
+  *[[http://www.design-reuse.com/news/13462/denali-opens-register-description-language-systemrdl.html|Design & Reuse "
+Denali Opens Register Description Language, Announces SystemRDL"]], 2006-05-30.
+  *[[http://www.vmmcentral.org/vmartialarts/2011/07/the-one-stop-shop-get-done-with-everything-you-need-to-do-with-your-registers/index.html|VMM Central, Verification Martial Arts: A Verification Methodology Blog "The One stop shop: get done with everything you need to do with your registers"]] - "we use SystemRDL".
+  *[[http://en.wikipedia.org/wiki/SystemRDL|EN.Wikipedia "SystemRDL"]].
+  *[[http://en.wikipedia.org/wiki/Cadence_Design_Systems|EN.Wikipedia "Cadence Design Systems"]], [[http://de.wikipedia.org/wiki/Cadence_Design_Systems|DE.Wikipedia "Cadence Design Systems"]].
 ===== FPGA Chip Manufacturers & its free FPGA Design Tools =====
+==== Allwinner Technology ====
+  *[[http://fr.wikipedia.org/wiki/Allwinner_A80|FR.Wikipedia "Allwinner A80"]].
+  *[[http://en.wikipedia.org/wiki/Allwinner_Technology|EN.Wikipedia "Allwinner Technology"]], [[http://de.wikipedia.org/wiki/Allwinner_Technology|DE.Wikipedia "Allwinner Technology"]]. 
 ==== ALTERA ====
   *See [[altera.html|Altera "System on Chip" ( SoC )]].
 ==== Lattice Semiconductor ====

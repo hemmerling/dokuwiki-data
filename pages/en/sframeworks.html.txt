@@ -186,6 +186,8 @@ GEM : THE PROJECT"]].
   *[[http://www.kdab.com/porting-from-qt-4-to-qt-5/|KADAB - The Qt experts "Porting from Qt 4 to Qt 5"]].
   *[http://doc.qt.io/qt-5/portingguide.html|Qt Documentation for QT 5 "Porting Guide"]].
   *[[http://forum.qt.io/topic/29677/is-it-hard-to-move-project-from-qt3-to-qt5/3|Qt Forum "Is it hard to move project from Qt3 to Qt5?"]] - "If you take the two step way (first to Qt 4 then Qt 5) don't use the qt3support module. You'll have to port the code anyway to Qt 5".
+  *New license options, in comparison to QT4:
+    *[[http://doc.qt.io/qt-5/licensing.html|Qt "Qt Licensing"]] - "Qt is available under different licensing options designed to accommodate the needs of our various users.... Community license (GPL or LGPL versions 3 and 2.1). Note: Some specific parts (modules) of the Qt framework are not available under the GNU LGPL version 2.1".
 === Qt 4 ===
   *Qt libraries 4.8.6.1 for 
     *minGW 4.4 on Windows.
