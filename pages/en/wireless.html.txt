@@ -11,19 +11,16 @@ Related pages:
   *868 Mhz -> Wireless M-Bus :-), KNX PLC  = KNX RF :-), but mostly proprietary wireless communications :-(, often due to "all inclusive service" service models of service providers. Acceptable range in European ( "stone & armored concrete" ) houses, higher range than with 2.4 Ghz.
   *433 Mhz is "the future" from point of view of some technology experts.
 ===== Protocols =====
-==== IEEE 802.11 ====
-=== Tools ===
-  *InSSIDer for Windows XP with .NET Framework 4.0.
-    *The commercial [[http://www.inssider.com/|InSSIDer]].
-    *The free [[http://www.chip.de/downloads/inSSIDer-Home-letzte-Freeware-Version_41273737.html|CHIP "inSSIDer Home (letzte Freeware-Version)"]].
-=== Resources ===
-  *[[http://en.wikipedia.org/wiki/Wi-Fi|EN.Wikipedia "IEEE 802.11"]], [[http://de.wikipedia.org/wiki/IEEE_802.11|DE.Wikipedia "IEEE 802.11"]].
-  *[[http://en.wikipedia.org/wiki/Wi-Fi|EN.Wikipedia "Wi-Fi"]], [[http://de.wikipedia.org/wiki/Wi-Fi|DE.Wikipedia "Wi-Fi"]].
 ==== 6LoWPAN - IPv6 over Low Power Wireless Personal Area Network ====
   *[[http://datatracker.ietf.org/wg/6lowpan/charter/|IETF "IPv6 over Low power WPAN (6lowpan)"]].
   *[[http://www.6lowpan.net/|6LoWPAN - The Wireless Embedded Internet]].
   *[[http://en.wikipedia.org/wiki/6LoWPAN|EN.Wikipedia "6LoWPAN"]], [[http://de.wikipedia.org/wiki/6LoWPAN|DE.Wikipedia "6LoWPAN"]].
-
+==== ANT, ANT+ =====
+  *[[http://www.thisisant.com/|Dynastream Innovations "ANT - The Wireless Sensor Network Solution"]] ( Garmin daugther company of Garmin ).
+    *[[http://www.thisisant.com/developer/ant/|Dynastream Innovations "ANT Developer"]].
+  *I was told by experts in 2016-03, that ANT+ is now replaced by BLE, for development of new products.
+  *[[http://en.wikipedia.org/wiki/ANT_%28network%29|EN.Wikipedia "ANT (network)"]], [[http://de.wikipedia.org/wiki/ANT_%28Netzwerk%29|EN.Wikipedia "ANT (Netzwerk)"]].
+  *[[http://en.wikipedia.org/wiki/ANT%2B|EN.Wikipedia "ANT+"]].
 ==== Bluetooth, Bluetooth Low Energy, Bluetooth Smart Ready ====
 === Applie iBeacon ===
 == Events ==
@@ -68,6 +65,9 @@ Related pages:
     *[[http://processors.wiki.ti.com/index.php/Category:BluetoothLE|Texas Instruments Wiki "Category:BluetoothLE"]].
 === Linux ===
   *[[http://www.bluez.org/|BlueZ]] - "Official Linux Bluetooth protocol stack".
+=== Windows ===
+  *[[http://www.plugable.com/2013/11/11/easy-way-to-use-bluetooth-to-exchange-files-with-your-phone-in-windows-fsquirt-guide|Plugable "Easy Way to Use Bluetooth to Exchange Files with Your Phone in Windows – Fsquirt Guide"]].
+  *[[http://www.superuser.com/questions/677223/files-from-android-to-windows-8-1-pc|SuperUser "bluetooth - Files from Android to Windows 8.1 pc"]].
 === Events ===
   *[[http://www.nordicsemi.com/|Nordic Semiconductor ASA]].
     *[[http://www.nordicsemi.com/eng/News/News-releases/Product-Related-News/Nordic-Semiconductor-Global-Tech-Tour-to-help-embedded-systems-developers-build-connectable-wireless-Bluetooth-Smart-and-ANT-appcessories-in-a-day|Nordic Semiconductor Global Tech Tour]], 2013.
@@ -83,7 +83,6 @@ Related pages:
     *iPhone 4S, iPad2.
     *Windows 8, but just if there is hardware support, which is not standard with notebooks or even desktop PCs -> See [[win7.html|Windows Vista, Windows 7, Windows Server 2008 and 2012, Windows 8]], [[windowsphone.html|Windows Phone]].
   *[[http://en.wikipedia.org/wiki/Bluetooth|EN.Wikipedia "Bluetooth"]], [[http://de.wikipedia.org/wiki/Bluetooth|DE.Wikipedia "Bluetooth"]], [[metro.html|Flat Design]].
-
 ==== EnOcean ====
 === The EnOcean Allicance ===
   *[[http://www.enocean.com/|EnOcean GmbH]].
@@ -114,6 +113,18 @@ Related pages:
   *[[http://www.arroweurope.com/de/maerkte-loesungen/loesungen/energy-harvesting.html|Arrow Europe "Märkte & Lösungen / Lösungen / Energy Harvesting"]].
   *[[http://en.wikipedia.org/wiki/Energy_Harvesting|EN.Wikipedia "Energy Harvesting"]], [[http://de.wikipedia.org/wiki/Energy_Harvesting|DE.Wikipedia "Energy Harvesting"]].
   *[[http://en.wikipedia.org/wiki/Ecodesign|EN.Wikipedia "Ecodesign"]], [[http://de.wikipedia.org/wiki/Ecodesign|DE.Wikipedia "Ecodesign"]].
+==== IEEE 802.11 ====
+=== Wi-Fi HaLow ===
+  *[[http://www.wi-fi.org/discover-wi-fi/wi-fi-halow|Wi-Fi Alliance "Wi-Fi HaLow"]].
+  *[[http://www.wi-fi.org/news-events/newsroom/wi-fi-alliance-introduces-low-power-long-range-wi-fi-halow|Wi-Fi Alliance "Wi-Fi Alliance introduces low power, long range Wi-Fi HaLow"]], 2016-01-04.
+=== Tools ===
+  *InSSIDer for Windows XP with .NET Framework 4.0.
+    *The commercial [[http://www.inssider.com/|InSSIDer]].
+    *The free [[http://www.chip.de/downloads/inSSIDer-Home-letzte-Freeware-Version_41273737.html|CHIP "inSSIDer Home (letzte Freeware-Version)"]].
+=== Resources ===
+  *[[http://en.wikipedia.org/wiki/Wi-Fi|EN.Wikipedia "IEEE 802.11"]], [[http://de.wikipedia.org/wiki/IEEE_802.11|DE.Wikipedia "IEEE 802.11"]].
+  *[[http://en.wikipedia.org/wiki/Wi-Fi|EN.Wikipedia "Wi-Fi"]], [[http://de.wikipedia.org/wiki/Wi-Fi|DE.Wikipedia "Wi-Fi"]].
+  *[[http://en.wikipedia.org/wiki/IEEE_802.11ah|EN.Wikipedia "IEEE 802.11ah"]], [[http://en.wikipedia.org/wiki/IEEE_802.11ah|EN.Wikipedia "IEEE 802.11ah"]].
 ==== KNX-RF ====
   *[[http://www.knx.org/|KNX Association]].
     *[[http://en.wikipedia.org/wiki/European_Installation_Bus|EN.Wikipedia "KNX (standard)"]], [[http://en.wikipedia.org/wiki/Instabus|EN.Wikipedia "Instabus"]] = "European Installation Bus" (EIB).
@@ -169,6 +180,13 @@ Related pages:
   *[[http://www.z-wavealliance.org/|Z-Wave Alliance]].
     *[[http://www.z-wave.com/|Z-Wave.com - ZwaveStart]].
     *[[http://en.wikipedia.org/wiki/Z-Wave|EN.Wikipedia "Z-Wave"]], [[http://de.wikipedia.org/wiki/Z-Wave|DE.Wikipedia "Z-Wave"]].
+===== Important w-power wide-area-network protocols/networks according to VDC Research, 2016 =====
+  *Haystack.
+  *LoRaWAN (LoRa Alliance).
+  *NB-IoT (3GPP).
+  *Senet.
+  *SigFox.
+  *RPMA (Ingenu).
 ===== Experts and Expert Publications =====
   *[[http://www.imst.com/|IMST GmbH]] - Wireless, WiFi, Zigbee & Bluetooth experts.
   *Publication [[http://www.mdpi.com/2224-2708/2/3/589|Konstantin Mikhaylov, Nikolaos Plevritakis, Jouni Tervonen "Performance Analysis and Comparison of Bluetooth Low Energy with IEEE 802.15.4 and SimpliciTI"]].
@@ -179,11 +197,19 @@ Related pages:
   *Book [[http://www.amazon.de/exec/obidos/ASIN/013288836X/hemmerling-21|Robin Heydon: "Bluetooth Low Energy: The Developer's Handbook"]].
   *Book [[http://www.amazon.de/exec/obidos/ASIN/0521760690/hemmerling-21|Nick Hunn: "Essentials of Short-Range Wireless (The Cambridge Wireless Essentials Series)"]].
 ===== Resources =====
+  *Experts told me:
+    *With LoRa, you may spread the spectrum, so that you have both the option for high data volume ( with lower range ) and low data volume ( with maximum range), e.g. 20 messages/d.
+    *With Sigfox, you are limited to e.g. 20 messages/d.
+    *In comparison to LTE-Narrowband, LoRa and SigFox have very limited bandwidth.
   *[[http://en.wikipedia.org/wiki/Comparison_of_wireless_data_standards|EN.Wikipedia "Comparison of wireless data standards"]].
 ===== Forums, Newsgroups =====
+  *[[http://www.thisisant.com/forum/|ANT Forum]].
   *[[http://community.arubanetworks.com/|aruba NETWORKS. an HP company "Airheads Community"]].
   *[[http://developer.bluetooth.org/Community/SitePages/Community%20Home.aspx|Bluetooth Community Forum]].
   *[[http://www.facebook.com/LORIOT.io|Facebook "LORIOT.io"]].
+  *StackOverflow.
+    *[[http://www.stackoverflow.com/questions/tagged/bluetooth|StackOverflow - Questions tagged with "bluetooth"]].
+    *[[http://www.stackoverflow.com/questions/tagged/bluetooth-lowenergy|StackOverflow - Questions tagged with "bluetooth-lowenergy"]].
 ===== Appropriate OpenDirectory Directory Pages =====
   *[[http://www.dmoz.org/Computers/Data_Communications/Wireless/|OpenDirectory "Top: Computers: Data Communications: Wireless"]].
   *[[http://www.dmoz.org/World/Deutsch/Computer/Netzwerk/Wireless/|OpenDirectory "Top: World: Deutsch: Computer: Netzwerk: Wireless"]].

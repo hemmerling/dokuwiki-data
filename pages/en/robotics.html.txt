@@ -3,11 +3,30 @@ Related pages:
   *[[automation.html|Automation & Process Logic Control]].
   *[[electronics02.html|Electric Units & Electronics 2/3 - Actors, Sensors, Embedded Systems Electronics and suitable Control Systems]].
   *[[embedded.html|Embedded Systems]].
+  *[[input.html|Input Devices ( Keyboard, Mouse, Joystick, Scanner... )]].
   *[[webtech05.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 5/5 - Javascript Frameworks]].
 ===== Events =====
   *[[http://www.meetup.com/opentechschool-dortmund/|Meetup "OpenTechSchool Dortmund"]] - Affordable workshop [[http://www.meetup.com/opentechschool-dortmund/events/223268694/|Meetup "NodeCopter Workshop"]] on 2015-08-16 by the [[http://www.nodecopter.com/|NodeCopter Core Team]], as part of the conference [[http://www.otsconf.com/|OpenTechSchool Conference]] by [[http://www.opentechschool.org/|OpenTechSchool e.V.]], Verein "Open Tech Dortmund".
+===== 3D Printers =====
+==== Tools ====
+  *[[http://www.formlabs.com/|Formlabs]] - Solid objects = heavy weight.
+  *[[http://www.thingmaker.com/|Thingsmaker]].
+    *[[http://www.techcrunch.com/2016/02/15/mattel-unveils-thingmaker-a-300-3d-printer-that-lets-kids-make-their-own-toys/|Techcrunch "Mattel Unveils ThingMaker, A $300 3D Printer That Lets Kids Make Their Own Toys"]].
+    *[[http://www.computerworld.com/article/3033802/3d-printing/mattel-remakes-60s-thingmaker-toy-as-an-easy-to-use-300-3d-printer.html|Computerworld "Mattel remakes '60s ThingMaker toy as an easy-to-use $300 3D printer"]].
+    *[[http://www.theverge.com/2016/2/15/10995090/mattel-childrens-3d-printer-thingmaker|TheVerge "Mattel’s $300 3D printer lets you design and create your own toys"]].
+  *[[http://www.ultimaker.com/|Ultimaker]] - Objects might have an internal grid structure ( i.e. small holes ), to reduce weight and material consumption.
+    *[[http://en.wikipedia.org/wiki/Ultimaker|EN.Wikipedia "Ultimaker"]], [[http://de.wikipedia.org/wiki/Ultimaker|DE.Wikipedia "Ultimaker"]].
+  *[[http://www.zortrax.com/|Zortrax]].
+==== Sales ====
+  *[[http://www.iGo3D.com/|iGo3D GmbH]], Hannover.
+==== Resources ====
+  *Experts told and showed me, that mit most 3D printers, you can´t create objects with space, e.g. a box or canister, as the 3D printers are unable to create a top which is not connected to the bottom ( for printers which build objects from bottom to top, else it's vice-versa ). With some 3D printers, You might create a grid, i.e. a structure with small holes, in closed areas of the object.
 ===== Industrial Robotics =====
 ==== Robots - The Machines ====
+  *[[http://www.franka.de/|KBee AG "FRANKA EMIKA"]] by [[http://www.kbee.ag/|KBee AG]] - "Out-of-the-box package 9900 EUR:-), 2016-04.
+    *[[http://ec.europa.eu/digital-single-market/en/content/franka-emika|Digital Single Market. Digital Economy & Society "FRANKA EMIKA"]] - "KBee AG is a joint-venture of Kastanienbaum GmbH and KUKA AG".
+    *[[http://www.irt.uni-hannover.de/|University of Hannover, Institut für Regelungstechnik]] ( IRT ).
+    *[[http://www.irt.uni-hannover.de/haddadin.html|Prof. Dr.-Ing. Sami Haddadin]].
   *[[http://www.kuka-robotics.com/|KUKA Roboter GmbH]].
   *[[http://www.reisrobotics.de/|Reis GmbH & Co. KG Maschinenfabrik]].
     *[[http://www.reisrobotics.de/Service+_+Support/Download/Grundlagen+der+Robotik.html|Reis GmbH & Co. KG Maschinenfabrik "Grundlagen der Robotik"]].
@@ -35,9 +54,14 @@ Related pages:
     *[[http://www.plm.automation.siemens.com/de_de/products/tecnomatix/robotics_automation/robcad/|SIEMENS Robcad]].
     *[[http://www.plm.automation.siemens.com/de_de/products/tecnomatix/robotics_automation/process_simulate.shtml|SIEMENS Process Simulate]].
 ===== Educational Robotics & Fun Robotics =====
+==== Dobot ====
+  *[[http://www.dobot.cc/|Dobot]] - "Dobot Arm can write,draw,tape,text,a good assistant in your life".
+  *[[http://www.kickstarter.com/projects/dobot/dobot-robotic-arm-for-everyone-arduino-and-open-so|KickStarter "Dobot: Robotic Arm for Everyone！ Arduino & Open Source"]].
+  *[[http://www.indiegogo.com/projects/robotic-arm-store/|indiegogo "Robotic ARM Store. Robotic Arm for Everyone, Arduino-based & Open Source"]].
+  *[[http://www.robohub.org/dobots-robot-arm-industrial-precision-at-low-cost/|Robohub "Dobot’s robot arm: Industrial precision at low cost"]].
 ==== Romo for iPhone ====
   *[[http://www.romotive.com/|Romo - The Programmable, Telepresence Robot Toy for Kids and Adults]].
-  *[[https://www.kickstarter.com/projects/peterseid/romo-the-smartphone-robot-for-everyone|Kickstarter "Romo - The Smartphone Robot for Everyone"]].
+  *[[http://www.kickstarter.com/projects/peterseid/romo-the-smartphone-robot-for-everyone|Kickstarter "Romo - The Smartphone Robot for Everyone"]].
   *[[http://www.youtube.com/user/romotive|YouTube "Romotive"]].
 ==== Some other Educational Robotics ====
   *[[http://www.evolution.com/er1/|Evolution Robotics "ER1 - Personal Robot System, developer edition"]].
@@ -143,13 +167,16 @@ Related pages:
   *[[http://www.myphotonics.eu/|Universität Osnabrück, Fachbereich Physik "MyPhotonics"]] - "Schon vor über 15 Jahren haben Wissenschaftler optomechanische Instrumente mit LEGO ersetzt".
 ==== fischertechnik ====
   *See [[fischertechnik.html|The inofficial fischertechnik Files]].
+===== Services =====
+  *[[http://www.airinov.fr/|AIRINOV]] - "Pioneer and leader in drone-based farming applications".
 ===== Resources =====
   *[[http://www.robcad.de/|robcad.de - Infos, Tipps und News zum Thema Robotersimulation]].
   *[[https://en.wikipedia.org/wiki/Robotics|EN.Wikipedia "Robotics"]], [[http://de.wikipedia.org/wiki/Robotik|EN.Wikipedia "Robotik"]].
   *[[http://en.wikipedia.org/wiki/SCARA|DE.Wikipedia "SCARA"]], [[http://de.wikipedia.org/wiki/SCARA-Roboter|DE.Wikipedia "SCARA-Roboter"]].
 ===== Forums & Newsgroups =====
-  *[[http://forum.developer.parrot.com/|Parrot for Developers Forum]].
   *[[http://svn.ardrone.org/projects/ardrone-api/boards|ARDrone API Forums]].
+  *[[http://forum.dobot.cc/|Dobot Forum]].
+  *[[http://forum.developer.parrot.com/|Parrot for Developers Forum]].
 
 ===== Appropriate OpenDirectory Directory Pages =====
   *[[http://www.dmoz.org/Computers/Hardware/Systems/Industrial/|OpenDirectory "Top: Computers: Hardware: Systems: Industrial"]].

@@ -9,7 +9,7 @@ Related pages:
   *[[goodcoding.html|Good Coding ! - Software Coding, Coding Rules, Static Code Analysis, Code Reviews]].
   *[[requirements.html|Requirements]].
   *[[sdocumentation.html|Software Documentation]].
-  *[[specbyex.html|Specification by Example]].
+  *[[specbyex.html|Specification by Example, Modelling by Example]].
   *[[systemdesign.html|System Design]].
   *[[de:testhub.html|Testhub]].
   *[[unittest.html|Unit Test / Module Test]].  
@@ -37,6 +37,7 @@ Related pages:
     *Blog [[http://www.vivit-worldwide.org/blogpost/701724/Vivit-Blog|Vivit Blog]].
     *Events:
       *[[http://www.vivit-worldwide.org/events/event_list.asp?show=past&group=79943|Vivit "Community Calendar - Special Interest Group: Testing Quality"]].
+        *[[http://www.vivit-worldwide.org/events/EventDetails.aspx?id=838104|Vivit "User Group Treffen 'Testmanagement und agile Entwicklung mit HPE ALM.net / Quality Center und HPE ALM Octane'"]], 2016-09-01 in Hannover - I participated :-).
         *[[http://www.vivit-worldwide.org/events/event_details.asp?id=622360&group=79943|Vivit TQA, Germany "User Group Treffen 'Testen & Test-Management mit HP'"]], 2015-04-14.
         *[[http://www.vivit-worldwide.org/events/event_details.asp?id=527205&group=79943|Vivit TQA, Germany "User Group Treffen 'Testautomatisierung: Einführung, Ausweitung und Tool-Unterstützung'"]], 2014-12-09.
         *[[http://www.vivit-worldwide.org/events/event_details.asp?id=480896&group=79943|Vivit TQA, Germany "Vivit TQA beim Vivit Deutschland Treffen 2014"]], 2014-09-30 - 2014-10-01.
@@ -50,6 +51,8 @@ Related pages:
   *[[http://www.germantestingnight.de/|German Testing Night]], 2014-03-27, 2014-07-01.
     *[[http://www.germantestingnight.de/docs/2014/GTN-2014-03_APietschker_Test-als-Requirements.pdf|German Testing Night 2014-03-27 "Giesecke&Devrient, Andrej Pietschker: Tests als Requirements - Brücke zwischen Entwicklung und Systemtest bauen"]].
   *[[http://www.testing-expo.com/europe/german/|Automotive Testing Expo Europe]], Stuttgart.
+  *[[http://h22166.www2.hpe.com/calendar_hpe.aspx?COMPID=HPE&cc=de&lang=de|Hewlett Packard Enterprise "Veranstaltungskalender"]].
+    *[[http://h22166.www2.hpe.com/Event/EventPage.aspx?cc=de&lang=de&eventid=OQAxADAAMQA1AA==|Hewlett Packard Enterprise "HPE ALM Octane Launch Roadshow"]], 2016-06-08 in Berlin.
   *[[http://ucaat.etsi.org/|UCAAT - User Conference on Advanced Automated Testing]] in München, 2014-09-16 - 2014-09-18.
   *[[http://www.xpdays.de/|XP Days Germany - Mitmach-Konferenz für Exteme ProgrammiererInnen]], Hamburg ( 2012-11-29 - 2012-12-01 ).
   *[[http://www.softwerkskammer.org/activities/workshop_js_testautomatisierung|Softwerkskammer "Workshop: Javascript-Frameworks für Testautomatisierung"]] in Frankfurt, 2014-08-21.
@@ -62,7 +65,6 @@ Related pages:
     *Tools I used on the event:
       -[[http://www.nightwatchjs.org/|Nightwatch.js]], [[http://www.github.com/beatfactor/nightwatch|GitHub "beatfactor/nightwatch"]].
       -[[http://www.dalekjs.com/|DalekJS]], [[http://www.github.com/dalekjs|GitHub "DalekJS"]].
-
 ===== Certification =====
   *[[http://www.knowledge-department.de/|Knowledge Department GmbH & Co. KG.]].
     *[[http://www.certified-tester-pruefung.de/|Knowledge Department GmbH & Co. KG. "Certified Tester Probeprüfung"]] - free test of knowledge, usful before taking a paid test.
@@ -80,18 +82,7 @@ Related pages:
     -Resources ( RAM,.. ) are limited, in comparison to the well-known standard of deskop PCs.
     -Use of standard ( free, OpenSource, commercial )Test frameworks and especially Unit Test frameworks.
 ==== Mockup - Simulation of Objects ====
-=== Tools ===
-    *The OpenSource [[http://cmock.sourceforge.net/|SourceForge "CMock"]], [[http://www.sourceforge.net/projects/cmock|SourceForge "CMock"]] - "A module/object mocking framework for C projects. It generates dummy modules that conform to the interface specified in a header file. This allows APIs to be proven out and exercised before committing to an underlying implementation".
-  *The OpenSource EasyMock ( [[http://www.easymock.org/|EasyMock]], [[http://easymock.sourceforge.net/|Sourceforge: "EasyMock"]], [[http://www.sourceforge.net/projects/easymock/|Sourceforge: "EasyMock"]] ) for Java.
-  *The OpenSource [[http://www.jmock.org/|jMock]] for Java - "A library that supports test-driven development of Java code with mock objects".
-  *The OpenSource [[http://code.google.com/p/mockito/|Google Code "mockito. simpler & better mocking"]].
-    *[[http://en.wikipedia.org/wiki/Mockito|EN.Wikipedia "Mockito"]], [[http://de.wikipedia.org/wiki/Mockito|DE.Wikipedia "Mockito"]].
-  *The OpenSource [[http://www.nmock.org/|NMock]], [[http://nmock.sourceforge.net/|Sourceforge: "Mock"]], [[http://www.sourceforge.net/projects/nmock/|Sourceforge: "Mock"]] - "A Dynamic Mock Object Library for .NET". 
-  *[[http://www.voidspace.org.uk/python/mock/|Voidspace, Michael Foord "Mock - Mocking and Testing Library"]] for Python.
-=== Resources ===
-  *[[http://www.mockobjects.com/|Mock Objects]] - "About Mock Objects, a technique for improving the design of code within Test-Driven Development".
-    *The OpenSource [[http://www.sourceforge.net/projects/mockobjects/|SourceForge "Mock Objects"]], [[http://wayback.archive.org/web/*/http://mockobjects.sourceforge.net/|Archive.org "Mock Objects"]], [[http://wayback.archive.org/web/*/http://wiki.truemesh.com/mockobjects|Archive.org "MockObjects - Project Description and Goals"]] for Java - "Generic unit testing framework and methodology for testing any kind of code".
-  *[[http://en.wikipedia.org/wiki/Mock_object|EN.Wikipedia "Mock object"]], [[http://de.wikipedia.org/wiki/Mock-Objekt|DE.Wikipedia "Mock-Objekt"]].
+  *See [unittest.html|Unit Test / Module Test]].
 ===== Property-based Testing =====
 ==== Scala ( and Java ) ====
   *[[http://www.scalatest.org/|ScalaTest]] - "Property-based testing for Scala".
@@ -111,11 +102,13 @@ Related pages:
     *[[http://en.wikipedia.org/wiki/AddressSanitizer|EN.Wikipedia "AddressSanitizer"]] - "AddressSanitizer is currently implemented in Clang (starting from version 3.1) and GCC (starting from version 4.8)".
   *The OpenSource [[http://www.valgrind.org/|Valgrind]] - instrumentation framework for dynamic testing of applications written in C/C++ language, e.g. detection of memory leaks.
 ===== Test Mangement, Functional Test Tools, Automation Frameworks, GUI Testing Tools / Capture & Replay Tools =====
-==== Important Dynamic Code Analysis Tools, according to VDC Research in 2015 ====
+==== Important Dynamic Code Analysis Tools, according to VDC Research in 2015, 2016-08 ====
   *RapiTime/RapiCover (Rapita Systems).
   *LDRA Testbed (LDRA).
   *SilkTest (Borland / Micro Focus).
-  *HP Quality Center / ALM.
+  *HP.
+    *HP Quality Center / ALM.
+    *HP Security Fortify (HP).
   *Rational Test RealTime/Tau Tester (IBM Rational).
   *TestQuest (BSQUARE).
   *Cantata++ /AdaTEST (QA Systems).
@@ -125,6 +118,8 @@ Related pages:
   *MobileCloud (Perfecto Mobile).	
   *Coverity Quality Adviser (Coverity).
   *VectorCAST (Vector Software).
+  *Veracode (Veracode), 2016-08
+  *SW-Assure (Monroe Software), 2016-08.
 ==== Some other General Test Management Tools ====
   *The commercial [[http://www.casemaker.eu/|CASEMAKER]] - "If you are an “ISTQB Certified Tester” [[http://www.casemaker.eu/register.php|register now]] to receive a license for one month, free of charge, so you can see for yourself the advantage this tool will provide you in your daily application of the taught methods".
   *The free [[http://www.klaros-testmanagement.com/|klaros testmanagement Community Edition]] for Linux and Windows.
@@ -167,7 +162,7 @@ Related pages:
     *"QAliber Test Developer" - Visual Studio plug-in.
     *"QAliber Test Builder".
     *[[http://en.wikipedia.org/wiki/QAliber|EN.Wikipedia "QAliber"]].
-  *The OpenSource [[http://www.watin.org/|WatiN]], [[http://www.sourceforge.net/projects/watin/|SourceForge "WatiN"]], [[http://www.sourceforge.net/projects/watin/|SourceForge "WatiN"]] - "WatiN (pronounced "what-in") aims to bring you an easy way to automate Web Application Testing in .Net. Inspired by Watir".
+  *The OpenSource [[http://www.watin.org/|WatiN]], [[http://www.sourceforge.net/projects/watin/|SourceForge "WatiN"]], [[http://www.sourceforge.net/projects/watin/|SourceForge "WatiN"]] - "WatiN (pronounced 'what-in') aims to bring you an easy way to automate Web Application Testing in .Net. Inspired by Watir".
 === Java ===
   *Codehouse "FEST" -> See section "JUnit" on [[unittest.html|Unit Test / Module Test]].
   *"jfcUnit" -> See section "JUnit" on [[unittest.html|Unit Test / Module Test]].
@@ -202,10 +197,6 @@ Related pages:
 === Tcl/Tk ===
    *DejaGnu / Expect - See [[tickle.html|Tcl / Tk ( tickle) 2/2 - Debugging & Testing]].
 === Web / HTML Testing in Python, Java, Javascript, PHP ===
-== SoupUI ==
-  *The OpenSource web service testing application for service-oriented architectures (SOA) and representational state transfers (REST) [[http://www.soapui.org/|SoupUI]], [[http://soapui.sourceforge.net/|SourceForge "SoupUI"]], [[http://www.sourceforge.net/projects/soapui/|SourceForge "SoupUI"]] by [[http://smartbear.com|Smart Bear Software, Inc.]].
-  *[[http://www.soapui.org/Dojo/overview.html|SoapUI "API Testing Dojo"]]
-  *[[http://en.wikipedia.org/wiki/SoapUI|EN.Wikipedia "SoapUI"]], [[http://de.wikipedia.org/wiki/SoapUI|DE.Wikipedia "SoapUI"]].
 == Selenium ==
   *The "slow" OpenSource [[http://www.seleniumhq.org/|SeleniumHQ "Selenium" - Web application testing system]], [[http://code.google.com/p/selenium/|Google Code "selenium. Browser automation framework"]], [[http://selenium-release.storage.googleapis.com/index.html|GoogleAPIs - Download of "Selenium"]] #.
     *Experts feedback: Selenium is "slow", and no replacement for the "fast" Canoo WebTest :-(.
@@ -217,14 +208,17 @@ Related pages:
           *[[http://www.code.google.com/p/selenium/wiki/PythonBindings|Google Code Wiki "Selenium" - "PythonBindings. A guide to using the python bindings for Selenium/Webdriver"]].
         *[[http://docs.python.org/2/library/unittest.html|The Python Standard Library "25.3. unittest — Unit testing framework"]].
       *Java. 
-        *[[http://selenium.googlecode.com/git/docs/api/java/index.html|JavaDocs "com.thoughtworks.selenium"]].
+        *[[http://seleniumhq.github.io/selenium/docs/api/java/|Github.io "JavaDoc API"]].
+      *C#
+      *Ruby.
+      *Javascript (Node).
     *Resources for the legacy Selenium 1 RC:
       *[[http://docs.seleniumhq.org/|Selenium HQ Browser Automation "Documentation"]].
         *[[http://docs.seleniumhq.org/docs/05_selenium_rc.jsp|Selenium HQ Browser Automation "Documentation / Selenium 1 (Selenium RC)"]].
       *[[http://www.jimmyg.org/blog/2009/getting-started-with-selenium-and-python.html|James Gardner: "Getting Started with Selenium and Python"]].
       *[[http://www.coreygoldberg.blogspot.de/2009/09/selenium-rc-with-python-in-30-seconds.html|Corey Goldberg "Selenium RC with Python in 30 Seconds"]].
     *Resources for Selenium 2 WebDriver:
-      *[[https://code.google.com/p/selenium/wiki/FrequentlyAskedQuestions|Google Code Wiki "selenium" -  "FrequentlyAskedQuestions"]].
+      *[[http://code.google.com/p/selenium/wiki/FrequentlyAskedQuestions|Google Code Wiki "selenium" -  "FrequentlyAskedQuestions"]].
       *[[http://docs.seleniumhq.org/|Selenium HQ Browser Automation "Documentation"]].
         *[[http://docs.seleniumhq.org/docs/03_webdriver.jsp|Selenium HQ Browser Automation "Documentation / Selenium WebDriver"]].
         *[[http://docs.seleniumhq.org/docs/04_webdriver_advanced.jsp|Selenium HQ Browser Automation "Documentation / WebDriver: Advanced Usage"]].
@@ -248,6 +242,9 @@ Related pages:
       *See [[[databases.html|Databases, Webserver, Webservices, SQL, XML]].
     *Browser plugins:
       *The Firefox browser plugin [[http://seleniumhq.org/projects/ide/|SeleniumHQ "Selenium IDE"]].
+      *The Firefox browser plugin [[http://addons.mozilla.org/en-US/firefox/addon/selenium-ide-sel-blocks/|SelBlocks (for Selenium IDE)]].
+        *[[http://refactoror.wikia.com/wiki/Selblocks_Reference|Refactoror Wiki "Selblocks Reference"]].
+        *Selblocks may use blocks of data in Json or XML format, stored in files. However, the script export of "Selenium IDE" doesn´t work with recordings using "Selblocks" features :-(.
       *The MSIE browser plugin [[http://code.google.com/p/selenium/downloads/detail?name=IEDriverServer_Win32_2.39.0.zip|Google Code "InternetExplorerDriver standalone server for 32-bit IE"]].
       *With the browser plugin for Chrome, you may export recorded sessions in different target languages, e.g. "Python 2".
     *Cloud Services.
@@ -262,6 +259,21 @@ Related pages:
       *[[http://en.wikipedia.org/wiki/Tellurium_%28software%29|EN.Wikipedia "Tellurium (software)"]].
     *The OpenSouce [[http://cubictest.seleniumhq.org/|OpenQA "CubicTest"]] - "Functional web testing", "A graphical Eclipse plug-in for writing Selenium and Watir tests".
       *[[http://en.wikipedia.org/wiki/CubicTest|EN.Wikipedia "CubicTest"]].
+== Selenium with Geb ==
+  *[[http://www.gebish.org/|Geb]] - "(pronounced "jeb"). Very groovy browser automation… web testing, screen scraping and more".
+  *[[http://www.github.com/geb/|GitHub "Geb"]].
+    *[[http://www.github.com/geb/geb-example-gradle|GitHub "geb/geb-example-gradle"]] - "An example project for using Geb in a Gradle build (Spock and JUnit 4)".
+  *[[http://www.entwicklertag.de/karlsruhe/2015/spock-und-geb-bersichtlich-und-nachvollziehbar-testen-f-r-alle|Entwicklertag Karlsruhe "Spock und Geb: Übersichtlich und nachvollziehbar Testen für alle!"]].
+  *Experts told me, that the option "@stepwise" of "Geb" is important for Selenium debugging to process the tasks one after another in a forced and determined sequence.
+== Selenium with Codeception ==
+  *The OpenSource Selenium-based PHP framework [[http://www.codeception.com/|Codeception]], [[http://www.github.com/Codeception|GitHub "Codeception Testing Framework"]].
+== SOAPSonar ==
+  *[[http://www.crosschecknet.com/products/soapsonar.php|Crosscheck Networks "SOAPSonar"]] - "Global Leader in Service and API Testing.  HTML, XML, SOAP, REST, and JSON.  Test over HTTP/s FTP/s, SFTP, IBM MQ, Tibco EMS, Weblogic JMS. Functional, Automation, Performance, Compliance, and Security Testing. Comprehensive out-of-the box standards support for OASIS and W3C standards"]].
+    *The free [[http://www.crosschecknet.com/products/soapsonardetails_personal.php|Crosscheck Networks "SOAPSonar Personal Edition (Free)"]].
+== SoupUI ==
+  *The OpenSource web service testing application for service-oriented architectures (SOA) and representational state transfers (REST) [[http://www.soapui.org/|SoupUI]], [[http://soapui.sourceforge.net/|SourceForge "SoupUI"]], [[http://www.sourceforge.net/projects/soapui/|SourceForge "SoupUI"]] by [[http://smartbear.com|Smart Bear Software, Inc.]].
+  *[[http://www.soapui.org/Dojo/overview.html|SoapUI "API Testing Dojo"]].
+  *[[http://en.wikipedia.org/wiki/SoapUI|EN.Wikipedia "SoapUI"]], [[http://de.wikipedia.org/wiki/SoapUI|DE.Wikipedia "SoapUI"]].
 == Javascript Tools ==
   *[[http://www.galenframework.com/|Galen Framework]], [[http://www.github.com/galenframework/|GitHub "galenframework"]] - "Automated testing of look and feel for your responsive websites". A Selenium-based Javascript framework.
   *[[http://www.nightwatchjs.org/|Nightwatch.js]], [[http://www.github.com/beatfactor/nightwatch|GitHub "beatfactor/nightwatch"]].
@@ -320,6 +332,11 @@ require('./node_modules/nightwatch/bin/runner.js');</code>
   *The OpenSource [[http://www.watir.com/|Watir]] - "A family of Ruby libraries for automating web browsers", "They support Internet Explorer on Windows, Firefox and Chrome on Windows, Mac and Linux and Safari on Mac".
     *[[http://en.wikipedia.org/wiki/Watir|EN.Wikipedia "Watir"]].
   *The "fast" OpenSource [[http://webtest.canoo.com/|Canoo WebTest]] in Java.
+== Online Services ==
+  *[[http://www.browserstack.com/|BrowserStack]] - "Live, Web-Based Browser Testing. Instant access to all real mobile and desktop browsers. Say goodbye to your lab of devices and virtual machines".
+    *[[http://en.wikipedia.org/wiki/BrowserStack|EN.Wikipedia "BrowserStack"]].
+  *[[http://www.saucelabs.com/|Sauce Labs]].
+    *[[http://en.wikipedia.org/wiki/Sauce_Labs|EN.Wikipedia "Sauce Labs"]] - "Cloud-hosted, web and mobile application automated testing platform company".
 === Web Automation by direct HTTP Automation ===
   *[[http://twill.idyll.org/|twill: a simple scripting language for Web browsing]] - "twill supports automated Web testing and has a simple Python interface".
   *[[http://www.github.com/brynary/webrat|WebRat]] - "Webrat - Ruby Acceptance Testing for Web applications".
@@ -444,7 +461,9 @@ require('./node_modules/nightwatch/bin/runner.js');</code>
   *Oracle.
     *[[http://www.oracle.com/us/products/enterprise-manager/|Oracle Enterprise Manager]] ( formerly <del>Empirix e-TEST</del>, <del>RSW e-TEST</del>, Oracle Enterprise Manager ).
       *[[http://www.oracle.com/us/corporate/Acquisitions/empirix|Oracle and Empirix]] - "Oracle has aquired the e-TEST suite products from Empirix".
-  *[[http://www.ranorex.com/|Ranorex GmbH "Ranorex - Next Generation Automated Testing"]] for Windows - Also for GUI testing of Labview applications.
+  *[[http://www.ranorex.com/|Ranorex GmbH "Ranorex - Next Generation Automated Testing"]] for Windows.
+    *GUI Testing of .NET Application on Windows and of GUI testing of Labview applications.
+    *[[http://en.wikipedia.org/wiki/Ranorex|EN.Wikipedia "Ranorex"]].
 === Windows Macro Recorders ===
 == Basics ==
   *Many Windows macro recorders work on Vista / Win7 just with deacitivated UAC ( [[http://en.wikipedia.org/wiki/User_Account_Control|EN.Wikipedia "User Account Control"]], [[http://de.wikipedia.org/wiki/Benutzerkontensteuerung|DE.Wikipedia "Benutzerkontensteuerung"]] ).
@@ -492,6 +511,25 @@ require('./node_modules/nightwatch/bin/runner.js');</code>
 == The Macro Recorder in Microsoft Word ==
 === Addons ===
   *The free [[http://www.qatools.de/|QA-Tools GmbH "SmarTest Framework"]] for use with commercial capture & replay tools.
+==== OpenSource Software for End-to-End Testing of Databases ====
+=== ORAYLIS BI.Quality ==
+  *[[http://biquality.codeplex.com/|CodePlex "ORAYLIS BI.Quality"]].
+  *I was told that "ORAYLIS BI.Quality" was popular, until ist was superceded by "NBi".
+=== NBi ===
+== The Tool ==
+  *[[http://www.nbi.io|NBi]], [[http://www.github.com/Seddryck/NBi/|GitHub "Seddryck/NBi"]], [[http://nbi.codeplex.com/|CodePlex "NBi"]].
+    *[[http://www.nbi.io/automation/genbil/|NBi "Getting started with genbiL"]] - "GenbiL is a language to automate the generation of test suites through Genbi".
+    *"Genbi" generates the necessary XML from templates.
+  *[[http://www.twitter.com/seddryck|Twitter "Cédric L. Charlier, @Seddryck"]].
+  *[[http://www.seddryck.wordpress.com/|Ambiguity vs Information. A journey in a world made of data, information, knowledge and wisdom]].
+    *[[http://www.seddryck.wordpress.com/category/quality/testing/nbi/|Ambiguity vs Information. A journey in a world made of data, information, knowledge and wisdom: "Testing a Power BI Desktop solution with NBi"]].
+== Resources ==
+  *NBi makes use of NUnit as job runner.
+  *Experts suggested to use "Visual Studio Professional" with commercial "Integration Services" package. By that, you may call NBi by a "Control Flow" to provide workflow automation.
+  *[[http://blogs.adatis.co.uk/jonathon%20eveoconnor/post/Setup-Unit-Testing-with-NUnit-amp;-NBi|Jonathon Eve-O'Connor's Blog "Setup Unit Testing with NUnit & NBi"]].
+  *Slides [[http://www.slideshare.net/CdricCharlier1/automating-the-testing-of-your-bi-solution-with-n-bi|SlideShare "Automating the testing of your bi solution with NBi"]].
+=== Unit Test for Databases ==
+  *See [[unittest.html|Unit Test / Module Test]].
 ==== Just-Commercial Software for Testing & Test Management ====
   *[[http://www.cosmic-software.com/TestIt.php|COSMIC Software GmbH "C-TestIt!]] - "Cosmic Software UNIT TESTING product".
   *[[http://www.froglogic.com/|froglogic GmbH]] - "Squish GUI Testing", "Squish Central", "Squish Coco".
@@ -516,6 +554,7 @@ require('./node_modules/nightwatch/bin/runner.js');</code>
     *[[http://www.youtube.com/user/TRICENTIS|YouTube "Tricentis"]].
     *[[http://plus.google.com/100735323056219282911/|Google+ "Tricentis"]], [[http://plus.google.com/108151335013813449490/|Google+ "Tricentis"]]. 
     *[[http://www.twitter.com/Tricentis|Twitter "Tricentis"]].
+    *[[http://en.wikipedia.org/wiki/Tricentis|EN.Wikipedia "Tricentis"]].
     *[[http://en.wikipedia.org/wiki/Tosca_%28software%29|EN.Wikipedia "Tosca (software)"]], [[http://de.wikipedia.org/wiki/Tosca_%28Software%29|EN.Wikipedia "Tosca (Software)"]].
   *[[http://www.vectorcast.com/|Vector Software]] - "Reduce Time, Effort, and Cost for Validating Software".
     *[[http://www.vectorcast.com/software-testing-products/c++-unit-testinga.php|VectorCAST/C+]].
@@ -556,6 +595,8 @@ require('./node_modules/nightwatch/bin/runner.js');</code>
       -Test via INCA und CANape test and verification via INCA and CANape.
       -Test at HiL.
     *[[http://en.wikipedia.org/wiki/TPT_%28software%29|EN.Wikipedia "TPT (software)"]], [[http://de.wikipedia.org/wiki/TPT_%28Software%29|DE.Wikipedia "TPT (Software)"]].
+==== Resources ====
+  *[[http://en.wikipedia.org/wiki/Test_management_tools|EN.Wikipedia "Test management tools"]].
 ===== TTCN-3 =====
 ==== Commercial TTCN Testing Tools ====
   *[[http://www.elvior.com/testcast/ttcn-3|Elvior LLC "TTCN-3 Products"]].
@@ -595,6 +636,9 @@ require('./node_modules/nightwatch/bin/runner.js');</code>
     *[[http://kwalify.sourceforge.net/|Sourceforge "Kwalify"]], [[http://www.sourceforge.net/projects/kwalify/|Sourceforge "Kwalify"]] - implementation in Java.
   *[[http://jvyaml.dev.java.net/|java.net "JvYAML"]] - "A Java YAML 1.1 parser and emitter".
   *[[http://code.google.com/p/snakeyaml/|Google Code "snakeyaml"]] - "YAML parser and emitter for Java".
+==== Free YAML Online Services ====
+  *Swagger -> See [[rest.html|Representational State Transfer ( REST )]].
+
 ==== Dynamic Code Analysis ====
   *[[http://en.wikipedia.org/wiki/Dynamic_code_analysis|EN.Wikipedia "Dynamic program analysis"]].
 ===== Test Concept for Embedded Systems =====
@@ -720,6 +764,8 @@ Simplify Complex Testing Across APIs, Cloud, SOA, and Composite Apps"]] -> [[htt
   *[[http://www.grr.org/ParkCalc.php|Gerald R. Ford International Airport "Parking Calculator"]] - Original just-online implementation.
     *[[http://www.grr.org/ParkingRates.php|Gerald R. Ford International Airport "Parking Map & Rates"]].
     *[[http://www.grr.org/Includes/Calculator.inc|grr.org/Includes/Calculator.inc]] - Some of the PHP code.
+  *[[http://www.shino.de/parkcalc/|Markus Gärtner "PARKING COST CALCULATOR"]].
+    *[[http://www.github.com/mgaertne/airport-de|GitHub "mgaertne/airport-de"]] - "Parkkosten-Berechner Beispiele aus ATDD in der Praxis".
   *[[http://adam.goucher.ca/parkcalc/|Adam Goucher "Parking Calculator"]] - Another just-online implementation.
   *[[http://www.github.com/markfink/SelRunner|Github "markfink/SelRunner"]].
     *[[http://github.com/markfink/SelRunner/tree/master/test/fitnesse/FitNesseRoot/files/SelRunner|GitHub "SelRunner / test / fitnesse / FitNesseRoot / files / SelRunner"]] - "parkcalc", the sourcecode of an implementation in Javascript.
@@ -729,6 +775,7 @@ Simplify Complex Testing Across APIs, Cloud, SOA, and Composite Apps"]] -> [[htt
   *[[http://www.twitter.com/hashtag/parkcalc|Twitter - Search for #parkcalc]].
 === Resources ===
   *Markus Gärtner:
+    *[[http://www.shino.de/2010/06/20/parkcalc-automation-getting-started/|Markus Gärtner "ParkCalc automation – Getting started"]], 2010-06-20.
     *[[http://www.shino.de/2010/06/24/parkcalc-automation-refactoring-a-data-driven-test/|Markus Gärtner "Agile Testing, Testing, Weekend Testing. ParkCalc automation – Refactoring a data-driven test"]], 2010-06-24.    
     *[[http://www.shino.de/2010/07/05/parkcalc-automation-a-short-reflection/|Markus Gärtner "Agile Testing, Retrospectives, Testing, Weekend Testing. ParkCalc automation – A short reflection"]], 2010-07-05.
     *[[http://www.shino.de/2010/07/18/parkcalc-automation-keyword-driven-tests-in-fitnesse/|Markus Gärtner "Agile Testing, FitNesse, Testing, Weekend Testing. ParkCalc automation – Keyword-driven tests in FitNesse"]], 2010-07-18.
@@ -748,6 +795,8 @@ Simplify Complex Testing Across APIs, Cloud, SOA, and Composite Apps"]] -> [[htt
 ===== Testing Education & Certification Preparation =====
   *[[http://www.smartwebapps.de/|Prüfungsvorbereitung Softwaretest Datenbank mit Übungsfragen zum Thema Softwaretest]].
 
+===== Chat / IRC Communities =====
+  *Chat Slack community [[http://www.testers.io/|#testers. Software Testing Community Chat ( Testers.io )]].
 ===== Forums, Newsgroups, Communities =====
   *Advanced QTP Forums. 
     *[[http://www.advancedqtp.com/forums/|Advanced QTP Forums]]  - "Register For This Site. ERROR: The email address entered is not within an allowed domain" :-(. Just apply for a freebie ( e.g. [[http://www.advancedqtp.com/scripting-qtp/|Advanced QTP "Scripting QTP by Dani Vainstein"]] ), and you will have the chance to create an account even with a else rejected E-Mail address.
@@ -760,25 +809,27 @@ Simplify Complex Testing Across APIs, Cloud, SOA, and Composite Apps"]] -> [[htt
   *Facebook.
     *[[http://www.facebook.com/AutomationAnywhereSoftware|Facebook "Automation Anywhere"]].
     *[[http://www.facebook.com/AutomationAnywhereFans|Facebook "Automation Anywhere/Testing Anywhere Fans"]].
+    *[[http://www.facebook.com/btestr/|Betatestr]].
     *[[http://www.facebook.com/groups/168683186853/|Facebook "QTP -Testcomplete-Testing-Loadrunner-Selenium-Blog"]].
     *[[http://www.facebook.com/groups/358187634238232/|Facebook "TestComplete"]].
     *[[http://www.facebook.com/TRICENTIS|Facebook "Tricentis"]].
     *[[http://www.facebook.com/ubertesters|Facebook "Ubertesters"]].
   *Google Groups. 
     *[[http://groups.google.com/group/cpputest|Google Groups "cpputest"]].
+    *[[http://groups.google.com/group/mochajs|Google Groups "Mocha"]].
+    *[[http://groups.google.com/group/nightwatchjs|Google Groups "NightwatchJs"]].
     *[[http://groups.google.com/group/nsubstitute|Google Groups "NSubstitute"]].
-    *[[http://groups.google.com/group/testng-users|Google Groups "testng-users"]].
     *[[http://groups.google.com/group/comp.software.extreme-programming/|Google Groups "comp.software.extreme-programming"]].
     *[[http://groups.google.com/group/robotframework-users|Google Groups "robotframework-users"]].
     *[[http://groups.google.com/group/robotframework-devel|Google Groups "robotframework-devel"]].
-    *[[http://groups.google.com/group/nightwatchjs|Google Groups "NightwatchJs"]].
-    *[[http://groups.google.com/group/zombie-js|Google Groups "zombie.js"]].
+    *[[http://groups.google.com/group/testng-users|Google Groups "testng-users"]].
     *[[http://groups.google.com/group/throwtheswitch|Google Groups "ThrowTheSwitch Forums"]] / [[http://www.throwtheswitch.org/science-forums/|Throw The Switch! - Science Forums]].
       *[[http://groups.google.com/forum/#!categories/throwtheswitch/ceedling|Google Groups "ThrowTheSwitch / Ceedling"]].
       *[[http://groups.google.com/forum/#!categories/throwtheswitch/cmock|Google Groups "ThrowTheSwitch / CMock"]].
       *[[http://groups.google.com/forum/#!categories/throwtheswitch/unity|Google Groups "ThrowTheSwitch / Unity"]].
       *[[http://groups.google.com/forum/#!categories/throwtheswitch/cexception|Google Groups "ThrowTheSwitch / CException"]].
       *[[http://groups.google.com/forum/#!categories/throwtheswitch/testing-c|Google Groups "ThrowTheSwitch / Testing C"]].
+    *[[http://groups.google.com/group/zombie-js|Google Groups "zombie.js"]].
   *Google+.
     *[[http://plus.google.com/communities/112757416010738282943|Google+ "TestComplete"]].
   *[[http://h30499.www3.hp.com/t5/Products/ct-p/sws-ProductFamilies|HP Enterprise Business Community]].
@@ -804,6 +855,7 @@ Simplify Complex Testing Across APIs, Cloud, SOA, and Composite Apps"]] -> [[htt
   *[[http://www.linkedin.com/grp/home?gid=1784477|LinkedIn Group "HP Quality Center OTA Developer"]].
   *[[http://www.mjtnet.com/usergroup/|mjtnet - Macro Scheduler and Windows Automation Forum]].
   *[[http://www.modellzentriertestesten.de/index.php?id=87|Modellzentriertes Testen - Forum]].
+  *[[http://www.phptest.club/|PHP test club]] - "PHPTestClub is a discussion board where developers and test engineers share their experience on automated testing PHP projects. Here we talk about various approaches, frameworks, and best practices in testing. We use PHPUnit, Behat, Codeception, PhpSpec, atoum, and other frameworks, as well as Selenium, PhantomJS, Continuous Integration and delivery systems".
   *Quality Testing.
     *[[http://www.qualitytesting.info/forum|Quality Testing Discussion Forum]].
     *[[http://www.qualitytesting.info/groups|Quality Testing Groups]].

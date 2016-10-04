@@ -11,6 +11,8 @@ Related pages:
   *The affordable [[http://www.nagios-wiki.de/workshops/|Nagios Workshops]] in Germany.
   *Event [[http://www.opennms.eu/|OpenNMS Users Conference Europe]] by [[http://www.opennms.eu/|OpenNMS Foundation Europe e.V.]].
     *2015-09-28 - 2015-10-01 in Fulda.
+  *Event [[http://www.openstack-tage.de/|Deutsche OpenStack Tage ( DOST )]] in Köln ( 2016-06-21 - 2016-06-22 ) - "The German OpenStack Enterprise Event".
+  *Event [[http://www.osdc.de/|OSDC - Open Source Data Center Conference]], [[http://www.netways.de/en/events_trainings/osdc/overview/|Netways "OSDC - Open Source Data Center Conference"]] in Berlin, 2016-04-26 - 2016-04-28.
 ===== Network Operation =====
 ==== Free Webservers and Middleware Servers ====
 === Content Management Systems ( CMS ) ===
@@ -34,10 +36,22 @@ Related pages:
     *[[http://en.wikipedia.org/wiki/BEA_Systems|EN.Wikipedia "BEA Systems"]], [[http://de.wikipedia.org/wiki/BEA_Systems|DE.Wikipedia "BEA Systems"]].
   *[[http://planet.objectweb.org/|OW2 Consortium "JOnAS OpenSource Java EE Application Server"]] for Java.
   *The OpenSource application server [[http://www.caucho.com/|Caucho Technology, Inc. "Resin"]] for Java.
+=== Middleware Server for building Microservices ===
+== Tools ==
+  *[[http://www.wildfly.org/|WildFly]].
+    *[[http://www.github.com/wildfly-swarm|GitHub "wildfly-swarm"]].
+== Resources ==
+  *[[http://www.dzone.com/articles/wildfly-swarm-building-microservices-with-java-ee|DZone Integration "WildFly Swarm: Building Microservices with Java EE"]].
+  *[[http://www.thoughts-on-java.org/java-weekly-2015/|Thoughts on Java "Java Weekly 20/15: Microservice Premium, Wildfly Swarm, Hibernate OGM"]].
+  *[[http://blog.arungupta.me/wildfly-swarm-microservices-javaee/|Miles to go 3.0 … Arun Gupta is a technology enthusiast, avid runner, author of a best-selling book, globe trotter, a community guy, Java Champion, JavaOne Rockstar, JUG Leader, Minecraft Modder, NetBeans Dream Teamer, Devoxx4Kids-er, and a Couchbaser "WildFly Swarm: Building Microservices with Java EE"]].
+  *[[http://de.wikipedia.org/wiki/WildFly|EN.Wikipedia "WildFly"]], [[http://de.wikipedia.org/wiki/WildFly|DE.Wikipedia "WildFly"]].
 === Webshops ===
   *The free [[http://www.xt-commerce.com/|xt:Commerce "VEYTON 4 Community Edition"]] for PHP and MySQL.
 === Newsletter ===
   *The OpenSource [[http://www.tellmatic.org/|Tellmatic]] - "The newsletter machine", "Quality OpenSource Newsletter for your Business".
+=== Torrent ===
+  *[[http://www.webtorrent.io/|WebTorrent]], [[http://www.github.com/feross/webtorrent|Github "feross/webtorrent"]]
+    *[[http://www.torrentfreak.com/webtorrent-brings-bittorrent-to-the-web-impresses-netflix-151213/|TorrentFreak "WebTorrent Brings BitTorrent to the Web, Impresses Netflix"]].
 === Some other Webservers ===
   *See also [[cms.html|Content Management Systems ( CMS )]].
   *The free webserver [[http://www.janaserver.de/|JanaServer]] for Windows - "HTTP server, proxy server, e-mail server, FTP server, a DNS forewarder". It is not aRouter or NAT-(Network Address Translation) software.
@@ -207,8 +221,6 @@ Related pages:
       *There is also "tshark", a terminal oriented version of Wireshark :-).
     *[[http://www.ethereal.com/|Ethereal]] - free sniffer, for Windows, Linux.
       *[[http://wiki.ethereal.com/etherealwiki|Ethereal Wiki]].
-  *[[http://www.fiddler2.com/|Fiddler]] - free HTTP Debugging Proxy, for Windows with .NET 2.0.
-    *[[http://fiddler.wikidot.com/|Fiddler Wiki]].
   *The free "FL VIEW", surveillance limited to 16 devices.
     *[[http://www.phoenixcontact.com/global/news/194_82696.htm|PHOENIX CONTACT "FL VIEW"]].
     *[[http://catalog.phoenixcontact.net/phoenix/treeViewClick.do?action=assets&UID=2701744|2701744 FL VIEW 32 LITE]] - "FL_VIEW_V2.1.12.0.zip Demo version of FL VIEW (restriction: 16 devices maximum)".
@@ -254,6 +266,17 @@ Related pages:
     *[[http://en.wikipedia.org/wiki/Tcptrace|EN.Wikipedia "Tcptrace"]].
   *The free [[http://www.visualroute.com/download.html|VisualRoute Lite Edition]] for Windows and MacOSX.
   *The Opensource [[http://www.winpcap.org/|WinDump]] for Windows - "tcpdump for WIndows using ( the commercial ) WinPcap".
+=== HTTP Protocol Analysers ===
+== Tools ==
+  *[[http://www.charlesproxy.com/|Charles Web Debugging Proxy]] - HTTP Monitor / HTTP Proxy / HTTPS & SSL Proxy / Reverse Proxy for Windows, Linux, MacOSX.
+  *[[http://www.fiddler2.com/|Fiddler]] - free HTTP Debugging Proxy, for Windows with .NET 2.0.
+    *[[http://fiddler.wikidot.com/|Fiddler Wiki]].
+  *[[http://www.mitmproxy.org/|mitmproxy]], [[http://www.github.com/mitmproxy/|GitHub "mitmproxy"]] in Python - "An interactive console program that allows traffic flows to be intercepted, inspected, modified and replayed".
+  *[[http://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project|OWASP "OWASP Zed Attack Proxy Project"]].
+    *[[http://en.wikipedia.org/wiki/OWASP_ZAP|EN.Wikipedia "OWASP ZAP"]], [[http://zaproxy.sourceforge.net/|SourceForge ""OWASP Zed Attack Proxy]], [[http://www.sourceforge.net/projects/zaproxy/|SourceForge ""OWASP Zed Attack Proxy]].
+  *[[http://www.portswigger.net/burp/|PortSwigger Ltd. "Burp Suite"]].
+== Resources ==
+  *HTTP protocol analysers are similar to "Chrome DevTools" and the "Firefox Debugger" -> See [[remoteaccess.html|Remote Access Tools for Computers & Network Clients]].
 === Port Scanner ===
 == Port Scanner Tools ==
   *The free but slow [[http://www.nmap.org/|Nmap - Free Security Scanner For Network Exploration & Security Audits]] for Windows and Linux. 
@@ -270,6 +293,9 @@ Related pages:
   *[[http://www.traceroute.org/|traceroute.org]] - database of free "traceroute" online web services.
   *[[http://visualroute.visualware.com/|VisualRoute Live Demo]] - "VisualRoute helps determine if a connectivity problem is due to an ISP, the Internet, or the destination web site, and pinpoints the network where a problem occurs".
 === Load Tests ===
+  *[[http://www.iometer.org/|Iometer]], [[http://iometer.sourceforge.net/|SourceForge "Iometer"]], [[http://www.sourceforge.net/projects/iometer/|SourceForge "Iometer"]] - "I/O performance Analysis Tool".
+    *I was introduced to the tool at a Huawai datacenter workshop in 2016-08 :-).
+    *[[http://en.wikipedia.org/wiki/Iometer|EN.Wikipedia "Iometer"]].
   *[[http://jmeter.apache.org/|Apache JMeter]].
     *[[http://en.wikipedia.org/wiki/Apache_JMeter|EN.Wikipedia "Apache JMeter"]], [[http://de.wikipedia.org/wiki/Apache_JMeter|DE.Wikipedia "Apache JMeter"]].
 === Resources ===
@@ -333,6 +359,9 @@ Related pages:
       -"Simultaneously enable SNMP on multiple machines"
       -"Save time when deploying applications requiring SNMP".
     *The free [[http://www.solarwinds.com/products/freetools/ip-address-tracker/|Solarwinds "FREE IP Address Tracker"]] ( Download [[http://downloads.solarwinds.com/solarwinds/Release/FreeTool/SolarWinds-IPAddressTracker-v1.zip|SolarWinds-IPAddressTracker-v1.zip]].
+  *The OpenSource [[http://www.zabbix.com/|ZABBIX]], [[http://zabbix.sourceforge.net/|SourceForge "ZABBIX"]], [[http://www.sourceforge.net/projects/zabbix/|SourceForge "ZABBIX"]] - "The Enterprise-class Monitoring Solution for Everyone", "Enterprise-class, distributed monitoring solution for networks & apps".
+    *Wiki [[http://www.zabbix.org/|Zabbix community platform]].
+    *[[http://en.wikipedia.org/wiki/Zabbix|EN.Wikipedia "Zabbix"]], [[http://de.wikipedia.org/wiki/Zabbix|DE.Wikipedia "Zabbix"]].
 ===== Network Programming =====
   *[[http://cs.ecs.baylor.edu/~donahoo/practical/|The Practical Guide Series Web Resource ]] by Michael J. Donahoo.
   *[[http://unp.bit-oase.de/|Unix-Netzwerkprogrammierung mit Threads, Sockets und SSL]] by Markus Zahn.

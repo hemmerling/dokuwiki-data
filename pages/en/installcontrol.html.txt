@@ -1,0 +1,119 @@
+====== [hemmerling] Software Installation as well as Desired State Control & State Monitoring of Software ======
+Related page:
+  *[[ddl.html|Device Description Languages and Device Parameterization]].
+  *[[devops.html|Development and Operations ( DevOps )]].
+===== Software Installation by Installers ======
+Attention, many Installer projects are "not under active development anymore" since many years! So please check the date of the last release!
+==== Free Installers for MSDOS ====
+  *The OpenSource [[http://dosconf.sourceforge.net/|Sourceforge "DOSConf"]], [[http://www.sourceforge.net/projects/dosconf/|Sourceforge "DOSConf"]] for MSDOS.
+==== Free and commercial Installers for Windows ====
+  *The free [[http://www.bloodshed.net/quickins.html|Bloodshed Software "QuickInstall"]] for Windows.
+  *The free [[http://www.jeffc.org/projects/oldstuff/|Jeffrey Carlyle "StratoSetup"]] for Windows.
+  *The free [[http://www.clickteam.com/website/world/install-creator|Clickteam "Install Creator, freeware version"]] for Windows - "Each installer will contain an advertisement page for Clickteam when the installation is complete, with a button to connect to our web site".
+  *The free [[http://www.ethalone.com/download.html|Ethalone Solutions "Ghost Installer Free Edition"]] 4.8 of 2009-11-19 for Windows.
+    *[[http://www.ethalone.com/articles/62-the-installers-competition.html|Ethalone Solutions "The Installers competition"]] - comparison of Ghost Installer, Wise and InstallShield.
+    *As of 2015-03, the current free edition is still "Ghost Installer Free Edition 4.8".
+    *You need a free XML editor for editing the Ghost data files.
+  *The commercial [[http://www.flexerasoftware.com/products/installshield.htm|Flexera Software, Inc. "InstallShield"]].
+    *[[http://en.wikipedia.org/wiki/InstallShield|EN.Wikipedia "InstallShield"]], [[http://de.wikipedia.org/wiki/InstallShield|DE.Wikipedia "InstallShield"]].
+  *The free [[http://www.freebyte.com/hjinstall/|HJ-Install]] for Windows.
+  *The free [[http://www.installaware.com/|Installaware Free Edition]] - "The Freeware, .. editions are all contained inside the same free download. You choose the InstallAware edition ( e.g. 'Free Edition' ) to install directly in the setup wizard".
+  *The free "MSBuild" for Windows with .NET.
+    *[[http://msdn.microsoft.com/en-us/library/dd393574.aspx|Microsoft Developer Network "MSBuild"]].
+    *[[http://www.microsoft.com/en-us/download/details.aspx?id=40760|Microsoft Download Center "Microsoft Build Tools 2013"]] - "Build Tools 2013 provides the essential tools for building managed applications".
+    *[[http://en.wikipedia.org/wiki/MSBuild|EN.Wikipedia "MSBuild"]].
+  *The OpenSource [[http://izfree.sourceforge.net/|Sourceforge "izfree 1.1"]], [[http://www.sourceforge.net/projects/izfree/|Sourceforge "izfree Tools for Windows Installer"]] for Windows.
+  *The OpenSource [[http://www.chimpswithkeyboards.com/|Chimps with Keyboards]], [[http://chimpinstall.sourceforge.net/|Sourceforge "NInstall"]], [[http://www.sourceforge.net/projects/chimpinstall/|Sourceforge "NInstall"]] for Windows.
+  *The free [[http://www.jrsoftware.org/|jrsoftware.org - Jordan Russell's Software "Inno Setup"]] for Windows.
+  *[[http://rubyinstaller.org/|Rubyinstaller]], [[http://rubyinstaller.rubyforge.org/|RubyForge "Rubyinstaller"]] for Windows, making use of 'Ruby' / 'Ruby on Rails'.
+  *The OpenSource [[http://spoon-installer.sourceforge.net/|Sourceforge "Spoon Installer"]], [[http://www.sourceforge.net/projects/spoon-installer/|Sourceforge "Spoon Installer"]] for Windows.
+  *Windows Installer.
+    *The OpenSource [[http://wix.sourceforge.net/|Sourceforge "Windows Installer XML (WiX) toolset"]], [[http://www.sourceforge.net/projects/wix/|Sourceforge "Windows Installer XML (WiX) toolset"]], [[http://wix.codeplex.com/releases/view/60102|CodePlex "WiX Toolset"]] for "Microsoft Installer", on Windows.
+    *[[http://msdn.microsoft.com/en-us/library/Aa367449|MSDN Library "About Windows Installer"]].
+==== Free Installers for Linux ====
+  *The OpenSource [[http://ninstaller.sourceforge.net/|NoodleInstaller]], [[http://www.sourceforge.net/projects/ninstaller/|NoodleInstaller]].
+  *The OpenSource [[http://paco.sourceforge.net/|paco - a source code pacKAGE oRGANIZER for Unix/Linux]], [[http://www.sourceforge.net/projects/paco/|pacKAGE oRGANIZER]].
+==== Free and commercial Installers for Java ====
+  *The commercial [[http://www.ej-technologies.com/products/install4j/overview.html|install4j]] - "A powerful multi-platform Java installer builder that generates native installers and application launchers for Java applications".
+  *The OpenSource [[http://installguru.sourceforge.net/|Sourceforge "InstallGuru"]], [[http://www.sourceforge.net/projects/installguru/|Sourceforge "InstallGuru"]].
+  *The OpenSource [[http://launch4j.sourceforge.net/|Sourceforge "Launch4j - Cross-platform Java executable wrapper"]], [[http://www.sourceforge.net/projects/launch4j/|Sourceforge "Launch4j Executable Wrapper"]] - "Cross-platform Java executable wrapper for creating lightweight Windows native EXEs".
+  *The OpenSource [[http://liftoff.sourceforge.net/|Sourceforge "Lift-Off Java-Installer"]], [[http://www.sourceforge.net/projects/liftoff/|Sourceforge "Lift-Off Java-Installer"]].
+  *The OpenSource [[http://packlet.sourceforge.net/|Sourceforge "Packlet installer tool"]], [[http://www.sourceforge.net/projects/packlet/|Sourceforge "Packlet"]].
+==== Free Multi Platform Installers ====
+  *The OpenSource [[http://nsis.sourceforge.net/|Sourceforge "NSIS (Nullsoft Scriptable Install System)"]], [[http://www.sourceforge.net/projects/nsis/|Sourceforge "NSIS (Nullsoft Scriptable Install System)"]].
+    *[[http://en.wikipedia.org/wiki/Nullsoft_Scriptable_Install_System|EN.Wikipedia "Nullsoft Scriptable Install System"]], [[http://de.wikipedia.org/wiki/Nullsoft_Scriptable_Install_System|DE.Wikipedia "Nullsoft Scriptable Install System"]] ( NSIS ).
+  *The OpenSource [[http://www.installjammer.com/|InstallJammer]]( formerly: [[http://installbase.sourceforge.net/|Sourceforge "InstallBase MPI"]], [[http://www.sourceforge.net/projects/installbase/|Sourceforge "InstallBase"]] ), making use of Tcl/Tk.
+==== RunTime Packer ====
+  *The commercial [[http://www.boxedapp.com/|BoxedApp]].
+  *The commercial [[http://www.file-joiner.com/|File Joiner]].
+  *The commercial [[http://www.adontec.com/index.htm?GO=/runtimepacker_e.htm|Adontec Data Communication Company "RuntimePacker"]].
+==== Helper Tools ====
+  *The free Orca Tool – A MSI Creator and Package Viewer, for Windows.
+    *[[http://xldennis.wordpress.com/2007/02/17/the-orca-tool-a-msi-creator-and-package-viewer/|VST & .NET & Excel: "The Orca Tool - A MSI Creator and Package Viewer"]].
+    *[[http://www.klaus-hartnegg.de/gpo/orca.html|Klaus Hartnegg "Orca"]].
+      *"Orca is a tool to edit entries of MSI files".
+      *"A much smaller alternative is the 'Windows Installer Redistributable'. The Installer 4.5 SDK contains Orca version 4.5" ( [[http://download.microsoft.com/download/7/c/4/7c426dfc-46e2-4ded-bab4-3b33600ad7d1/msi45sdk.msi|msi45sdk.msi]] ).
+  *[[http://dotnetinstaller.codeplex.com/|dotNetInstaller]] - "A general-purpose setup bootstrapper for Microsoft Windows 95, 98, 2000, XP, 2003, Vista, 2008 and Windows 7".
+==== Resources ====
+  *According to experts, automation of installation, of installer generation and of installation processes works well with "MSI Installer" :-).
+  *[[http://www.sourceforge.net/search/?q=installer|Sourceforge - Software Search for "Installer"]].
+===== Desired State Control & State Monitoring ======
+==== Device Description Languages and Device Parameterization ====
+  *See [[ddl.html|Device Description Languages and Device Parameterization]].
+==== Desired State Configuration ( DSC ) of Windows ====
+  *See [[ddl.html|Device Description Languages and Device Parameterization]].
+==== Free Windows Registry Tools ====
+=== InCtrl5 for Win-32 ===
+  *The free [[http://www.pcmag.com/article2/0,2817,25126,00.asp|PC Magazine "InCtrl5"]] for Windows, 2000-12-05.
+    *[[http://www.pcmag.com/article2/0,2817,25198,00.asp|PC Magazine "Stay In Control"]].
+  *[[http://www.raymond.cc/blog/tracking-registry-and-files-changes-when-installing-software-in-windows/|Raymond.cc "8 Tools to Track Registry and File Changes by Comparing Before and After Snapshots"]], 2012.
+    *"First, unsurprisingly InCtrl5 will need to be run in compatibility mode for Windows Vista, 7 or 8".
+    *"Secondly, there is an issue with it’s output results for 64-bit users as it won’t display the Software\Wow6432Node registry keys as coming from there, but will instead show them as coming from simply Software, something to watch out for".
+  *[[http://en.wikipedia.org/wiki/InCtrl5|EN.Wikipedia "InCtrl5"]].
+=== InstallSpy ===
+  *The free "InstallSpy 2.00".
+    *[[http://www.majorgeeks.com/files/details/installspy.html|Major Geeks "InstallSpy 2.00"]], 2003-11-11.
+    *[[http://web.archive.org/web/*/http://www.2brightsparks.com/freeware/freeware-hub.html|2BrightSparks "Freeware"]] ( - 2010-06-02 ) - The free "InstallSpy v2.0" for Windows.
+=== "InstallWatch 2.5c" for Win-32 ===
+  *The free "InstallWatch 2.5c" of 2009-03.
+    *[[http://web.archive.org/web/*/http://www.epsilonsquared.com/installwatch.htm|Archive.org "Epsilon Squared 'InstallWatch 2.5']].
+    *[[http://installwatch-pro.en.lo4d.com/|LO4D "InstallWatch Pro 2.5"]].
+  *[[http://alt.windows7.general.narkive.com/uY6XLNIY/a-fully-compatible-64-bit-w7-installation-comparison-like-outdated-installwatch-pro-v2-5c|NARKIVE Newsgroup Archive "A fully compatible 64-bit W7+ installation comparison like outdated InstallWatch Pro v2.5c"]] - "The last version 2.5c of InstallWatch is dated back to March 2009 (and only supports 32-bitwise versions of Windows)".
+=== MJ Registry Watcher ===
+  *The free [[http://www.jacobsm.com/mjsoft.htm|Mark Jacobs' Free 32-bit Windows Software "MJ Registry Watcher"]], 2015-11-11.
+=== Process Monitor ===
+  *The free [[http://technet.microsoft.com/en-us/library/bb896645.aspx|Microsoft TechNet, Windows Sysinternals "Process Monitor"]] for Windows, 2016 - "Process Monitor is an advanced monitoring tool for Windows that shows real-time file system, Registry and process/thread activity. It combines the features of two legacy Sysinternals utilities, Filemon and Regmon".
+  *[[http://www.howtogeek.com/school/sysinternals-pro/lesson5/all/|How-To-Geek "SysInternals Pro: Using Process Monitor to Troubleshoot and Find Registry Hacks"]].
+=== RegFromAp ===
+  *The free [[http://www.nirsoft.net/utils/reg_file_from_application.html|NirSoft "RegFromAp"]] for Win-32 and Win-64.
+    *"RegFromApp monitors the Registry changes made by the application that you selected".
+    *"Works on Windows 2000, Windows XP, Windows Server 2003, Windows Vista, Windows Server 2008, Windows 7, and Windows 8. Older versions of Windows are not supported. There is a separated version for x64 applications".
+=== regshot ===
+  *The OpenSource [[http://regshot.sourceforge.net/|SourceForge "regshot"]], [[http://www.sourceforge.net/projects/regshot/|SourceForge "regshot"]] 1.9.0 for Windows, 2013-02-02.
+  *[[http://wayback.archive.org/web/*/http://regshot.ru/|Archive.org "regshot.ru"]] ( - 2010-09-24 ).
+    *[[http://www.mediafire.com/download/8r1ikb57217und5/Regshot-2.0.1.70.zip||MediaFire "Regshot 2.0.1.70"]].
+    *[[http://www.winpenpack.com/en/download.php?view.1170|winPenPack "X-Regshot-2 2.0.1.70 [rev4]"]].
+  *[[http://www.howtogeek.com/198679/how-to-use-regshot-to-monitor-your-registry/|How-To-Geek "How to Use Regshot To Monitor Your Registry"]].
+  *[[http://www.raymond.cc/blog/tracking-registry-and-files-changes-when-installing-software-in-windows/|Raymond.cc "8 Tools to Track Registry and File Changes by Comparing Before and After Snapshots"]], 2012 - "The original Regshot is still very slowly being developed and there is a recent beta with separate 32 / 64-bit and ANSI / Unicode versions that can be found at SourceForge".
+=== sobek-hids ===
+  *The free [[http://code.google.com/archive/p/sobek-hids/|Google Code Archive "sobek-hids"]] in Python - "A python based Host IDS system that is capable of monitor: Registry Changes,...".
+=== SpyMe Tools ===
+  *[[http://download.cnet.com/SpyMe-Tools/3000-2094_4-10499138.html|CNET "SpyMe Tools"]].
+  *[[http://web.archive.org/web/*/http://www.lcibrossolutions.com/|LC IBros Solutions SRL. "News"]] ( - 2013-04-12 ) - The free "SpyMe Tools" for Windows.
+=== TrackWinstall ===
+  *[[http://www.withopf.com/tools/trackwinstall/|Matthias Withopf "TrackWinstall"]] for Win-32 and Win-64.
+    *"Tracks the changes made to your system by program installers, including registry entries and file system alterations" -> You need to "load" the software installation software by this tool.
+    *On Win10-64, you must run it with VISTA compatibilty settings?!
+    *It takes several seconds before you see the start screen of the program, even on a state-of-the-art computer with HDD ( not SDD ). Indeed it takes so long, that you might assume that the program was crashed and won`t work.
+=== WhatChanged ===
+  *[[http://www.vtaskstudio.com/support.php|vTask Studio "Free Software Tools!"]] - The free "WhatChanged" for Windows.
+  *[[http://www.techsupportalert.com/content/snapshot-your-files-and-registry-discover-what-changed.htm|gizmoz's freeware "Snapshot Your Files And Registry To Discover What Changed"]].
+==== Commercial Windows Registry Tools ====
+  *The commercial [[http://www.blueproject.ro/systracer|Blue Project Software "SysTracer - Track file and registry changes in your computer"]].
+
+==== Resources =====
+  *[[http://www.makeuseof.com/tag/3-tools-to-monitor-examine-the-windows-registry/|Makeuseof "3 Tools To Monitor & Examine The Windows Registry"]].
+  *[[http://www.raymond.cc/blog/tracking-registry-and-files-changes-when-installing-software-in-windows/|Raymond.cc "8 Tools to Track Registry and File Changes by Comparing Before and After Snapshots" (1/2)]], [[http://www.raymond.cc/blog/tracking-registry-and-files-changes-when-installing-software-in-windows/2/|Raymond.cc "8 Tools to Track Registry and File Changes by Comparing Before and After Snapshots" (2/2)]], 2012.
+  *[[http://www.windowsreport.com/monitor-registry-changes-windows/|WindowsReport "Top 5 Tools for Monitoring Registry Changes in Windows"]], 2015-05-06.
+{{tag>windows linux "software installation" software installation "desired state control" "state monitoring"}}
+<footnote_navi_en>

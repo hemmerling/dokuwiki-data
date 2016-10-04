@@ -1,10 +1,11 @@
 ====== [hemmerling] Unit Test / Module Test ======
-Related page:
+Related pages:
   *[[codingdojo.html|Coding Dojo / Coding Kata / Randori / Code Retreat / Object Calisthenics / Hackathons / Hackfests /  / Programming Marathons / Elephant Carpaccio Exercise - Group-Awareness, Self-Awareness, Self-Training in Software Development as well as Developer Contests & Developer Challenges]].
   *[[fizzbuzz01.html|Coding Dojo / Coding Cutter: How to play Kata FizzBuzz with JUnit]].
   *[[fizzbuzz02.html|Coding Dojo / Coding Cutter: How to play Kata FizzBuzz with NUnit]].
-  *[[specbyex.html|Specification by Example]].
-  *[[tickle.html|Tcl / Tk ( tickle ) - Debugging & Testing]].
+  *[[android04.html|Google Android 4/4 - App Debugging & Testing]].
+  *[[specbyex.html|Specification by Example, Modelling by Example]].
+  *[[tickle02.html|Tcl / Tk ( tickle ) - Debugging & Testing]].
   *[[testing.html|Testing]].
   *[[wscripting03.html|Scripting Programming Languages for Windows 3/3 - Testing with Windows PowerShell]].
 ===== Testing Tools for Unit Test / Module Test =====
@@ -65,7 +66,12 @@ Related page:
   *[[http://cppunit.sourceforge.net/|Sourceforge "CppUnit"]], [[http://www.sourceforge.net/projects/cppunit/|Sourceforge "CppUnit"]] for C++.
     *[[http://wayback.archive.org/web/*/http://www.iunknown.com/Articles/fog0000000025.html|Archive.org "John Lam - Hello CppUnit, 2001-12-12"]].
   *[[http://www.cpputest.org/|CppUTest]], [[http://cpputest.sourceforge.net/|Sourceforge "CppUTest"]], [[http://www.sourceforge.net/projects/cpputest/|Sourceforge "CppUTest"]] for C++.
-  *[[http://code.google.com/p/googletest/|Google Code "googletest"]] for C++.
+  *Google Test & Google Mock, for C++ #.
+    *[[http://code.google.com/p/googletest/|Google Code "googletest"]], [[http://www.github.com/google/googletest|GitHub "google/googletest"]].
+    *[[http://www.github.com/google/googlemock|GitHub "google/googlemock"]] - "This project has been absorbed into the GoogleTest project. All open googlemock issues have been moved there.".
+    *[[http://www.github.com/google/googletest/blob/master/googlemock/README.md|GitHub "google/ googletest/googlemock/README.md
+"]] - "Google Mock" documentation.
+    *Google Mock was recommended to me by [[http://www.berg-solutions.de/|Roelof Berg, Berg Solutions]], in 2016-01.
   *[[http://unitmm.sourceforge.net/|Sourceforge "unit--"]], [[http://www.sourceforge.net/projects/unitmm/|Sourceforge "unit--"]] for C++.
   *[[http:///tut-framework.sourceforge.net/|Sourceforge "TUT: C++ Template Unit Test Framework"]], [[http://www.sourceforge.net/projects//tut-framework/|Sourceforge: "TUT: C++ Template Unit Test Framework"]] for C++.
   *[[http://fructose.sourceforge.net/|Sourceforge "Fructose"]], [[http://www.sourceforge.net/projects/fructose/|Sourceforge "Fructose"]] for C++.
@@ -240,8 +246,20 @@ Related page:
   *[[http://shalinidotnet.blogspot.de/2014/05/ms-unit-test-vs-nunit-test.html|
 Shalini .NET Blog "MS Unit Test vs NUnit Test"]].
 ==== Unit Test Tools for Databases ====
+=== DbUnit ===
   *The OpenSource [[http://dbunit.sourceforge.net/|Sourceforge "DbUnit"]], [[http://www.sourceforge.net/projects/dbunit|Sourceforge "DbUnit"]] - "A JUnit extension (also usable with [[http://ant.apache.org/|Ant]] targeted at database-driven projects that, among other things, puts your database into a known state between test runs".
+=== daleq ===
   *The OpenSource [[http://github.com/brands4friends/daleq|Github "brands4friends / daleq"]] - "A Test Data DSL for unit testing SQL Queries".
+=== tSQLt ===
+== The Tool ==
+  *The OpenSource [[http://www.tsqlt.org/|tSQLt – The Database Unit Testing Framework for SQL Server]], [[http://tsqlt.sourceforge.net/|SourceForge "tSQLt - DB Unit Testing for SQL Server"]], [[http://www.sourceforge.net/projects/tsqlt/|SourceForge "tSQLt - DB Unit Testing for SQL Server"]].
+== Resources ==
+  *[[http://www.simple-talk.com/sql/t-sql-programming/getting-started-testing-databases-with-tsqlt/|Simple Talk. A technical journal and community hub from Redgate "Getting Started Testing Databases with tSQLt"]].
+  *[[http://www.pluralsight.com/courses/unit-testing-t-sql-tsqlt|Pluralsight, Dave Green "Unit Testing T-SQL Code with tSQLt"]]. 
+  *[[http://www.datacentricity.net/tsqlt/|Greg M Lucas, data-centric solutions ltd. "Test Driven Database Development with tSQLt"]].
+=== End-to-End Testing of Databases ===
+  *See [[testing.html|Testing]].
+
 ==== Unit Test Tools for Delphi / Pascal ====
   *[[http://dunit.sourceforge.net/|Sourceforge "DUnit: An Xtreme testing framework for Borland Delphi programs"]], [[http://www.sourceforge.net/projects/dunit|Sourceforge "DUnit: Xtreme Unit Testing for Delphi"]].
 ==== Unit Test Tools for FORTH ====
@@ -268,17 +286,22 @@ Shalini .NET Blog "MS Unit Test vs NUnit Test"]].
 == Online Platforms for Unit Test ==
   *[[http://www.tddbin.com/|TDDbin]] - Online Javascript development platform with [[http://jasmine.github.io/|Jasmine]] and [[http://www.mochajs.org/|Mocha]].
     *[[http://www.github.com/uxebu|GitHub "uxebu"]] - OSS Repository of TDDbin.
-    *[[http://jasmine.github.io/|GitHub.io "Jasmine - BDD for your JavaScript"]], [[http://github.com/pivotal/jasmine|GitHub.io "Jasmine - DOM-less simple JavaScript testing framework"]].
-    *[[http://www.mochajs.org/|Mocha]], [[http://www.github.com/mochajs|GitHub "mochajs"]].
+    *[[http://jasmine.github.io/|GitHub.io "Jasmine - BDD for your JavaScript"]], [[http://github.com/pivotal/jasmine|GitHub.io "Jasmine - DOM-less simple JavaScript testing framework"]], [[http://www.github.com/jasmine/|GitHub "jasmine"]].
+    *[[http://www.mochajs.org/|Mocha]], [[http://www.github.com/mochajs|GitHub "mochajs"]]
+      *[[http://www.github.com/mochajs/mocha/wiki|GitHub Wiki "mochajs"]].
 == Unit Tests ==
-  *[[http://jasmine.github.io/|GitHub.io "Jasmine - BDD for your JavaScript"]], [[http://github.com/pivotal/jasmine|GitHub.io "Jasmine - DOM-less simple JavaScript testing framework"]] - "A behavior-driven development framework".
+  *[[http://jasmine.github.io/|GitHub.io "Jasmine - BDD for your JavaScript"]], [[http://github.com/pivotal/jasmine|GitHub.io "Jasmine - DOM-less simple JavaScript testing framework"]], [[http://www.github.com/jasmine/|GitHub "jasmine"]] - "A behavior-driven development framework".
   *[[http://www.github.com/caolan/nodeunit|GitHub "caolan/nodeunit"]].
   *[[http://www.mochajs.org/|Mocha]], [[http://www.github.com/mochajs|GitHub "mochajs"]].
+    *[[http://www.github.com/mochajs/mocha/wiki|GitHub Wiki "mochajs"]].
     *"A feature-rich JavaScript test framework running on node.js and the browser, making asynchronous testing simple and fun. Mocha tests run serially, allowing for flexible and accurate reporting, while mapping uncaught exceptions to the correct test cases" # Test Framework #.
     *Mocha makes use of [[http://github.com/visionmedia/should.js/|Github "should.js"]].
-    *[[https://groups.google.com/forum/#!topic/nodejs/V16D4D4FUWU|Google Groups "nodejs", Thread "describe is not defined"]] - "My understanding is that to run the tests with mocha, you must run 'mocha', because mocha creates the 'describe' function, among others. You cannot run the tests by running 'node'".
   *[[http://github.com/visionmedia/expresso|GitHub "visionmedia/expresso"]] - Discontinued.
   *[[http://github.com/visionmedia/should.js/|Github "should.js"]] - "BDD style assertions for node.js -- test framework agnostic".
+  *[[http://www.github.com/sindresorhus/ava|GitHub "sindresorhus/ava"]].
+    *In 2015-12 expert considered it to be the "ultimative successor of Mocha" :-). 
+    *"Futuristic test runner".
+    *"Even though JavaScript is single-threaded, IO in Node.js can happen in parallel due to its async nature. AVA takes advantage of this and runs your tests concurrently, which is especially beneficial for IO heavy tests. In addition, test files are run in parallel as separate processes, giving you even better performance and an isolated environment for each test file... Having tests run concurrently forces you to write atomic tests, meaning tests don't depend on global state or the state of other tests".com/forum/#!topic/nodejs/V16D4D4FUWU|Google Groups "nodejs", Thread "describe is not defined"]] - "My understanding is that to run the tests with mocha, you must run 'mocha', because mocha creates the 'describe' function, among others. You cannot run the tests by running 'node'".
 == npm ==
   *[[http://www.npmjs.org/|npm - Node Packaged Modules]], [[http://www.github.com/isaacs/npm|Github "npm"]].
     *[[http://en.wikipedia.org/wiki/Npm_%28software%29|EN.Wikipedia "npm (software)"]].
@@ -320,17 +343,22 @@ Shalini .NET Blog "MS Unit Test vs NUnit Test"]].
   *Wiki [[http://perl-qa.hexten.net/wiki/|Perl QA Wiki]].
   *[[http://www.stackoverflow.com/questions/502644/how-can-i-do-unit-testing-in-perl|Stack Overflow  "How can I do unit testing in Perl?"]].
 ==== Unit Test Tools for PHP ====
-=== Testing Frameworks ===
+=== PHPUnit Testing Frameworks ===
   *[[http://www.phpunit.de/|PHPUnit]], [[http://www.github.com/sebastianbergmann/phpunit/|Github "sebastianbergmann / phpunit"]], [[http://phpunit.sourceforge.net/|SourceForge "PhpUnit"]], [[http://www.sourceforge.net/projects/phpunit|SourceForge "PhpUnit"]].
   *[[http://www.phpunit.de/manual/current/en/|PHPUnit Manual]].
   *[[http://pear.phpunit.de/|PHPUnit PEAR Channel]], [[http://pear.php.net/package/PHPUnit/|PEAR "PHPUnit"]].
-=== Testcase-Runner ===
+=== PHPUnit Testcase-Runner ===
   *[[http://php-gtk.eu/apps/phpunit-test-runner|PHP-GTK Community : a community site for PHP-GTK "PHPUnit Test Runner"]].
   *[[http://typo3.org/extensions/repository/view/phpunit/current/|TYPO3 Extension Repository, "PHPUnit"]].
   *[[http://pear.php.net/package/PHPUnit/docs/1.3.2/PHPUnit/PHPUnit_GUI_HTML.html|PEAR "PHPUnit_GUI_HTML"]].
   *[[http://cool.sourceforge.net/|SourceForge "cool"]], [[http://www.sourceforge.net/projects/cool/|SourceForge "cool"]] - DE.Wikipedia claims "not compatible with PHPUnit 3.2.11" :-(.
   *[[http://www.defusion.org.uk/archives/2006/02/11/phpunit2-gui-html-runner/|DEfusion.org.uk "PHPUnit2 GUI HTML Runner"]].
 === Resources ===
+  *Sample error message "PHP Fatal error:  Class 'PHPUnit\Framework\TestCase' not found in MoneyTest.php on line 6".
+    *The LAMP distribution "XAMPP 5.6.23 / PHP 5.6.23" for Windows is shipped with PHPUnit 3.7.21.
+    *With PHPUnit 3.7.21, the class "TestCase" is not implemented.
+    *With PHPUnit 5.5.2, the class "TestCase" is implemented. The online documentation is just for software versions with implemented class "TestCase".
+    *With XAMPP, PHPUnit is shipped as file "phpunit" without file extension, e.g "C:\xampp/php/phpunit". When updating the installation by a PHAR archive, the updated file must be renamed so that there is no file extension ( e.g. "ren phpunit-5.5.2.phar phpunit" ).
   *[[http://pear.php.net/packages.php?catpid=43&catname=Testing|PEAR "Packages :: Tools and Utilities :: Testing"]].
   *[[http://www.sitepoint.com/tutorial-introduction-to-unit-testing-in-php-with-phpunit/|Sitepoint "Tutorial: Introduction to Unit Testing in PHP with PHPUnit"]].
   *[[http://en.wikipedia.org/wiki/PHPUnit|EN.Wikipedia "PHPUnit"]], [[http://de.wikipedia.org/wiki/PHPUnit|DE.Wikipedia "PHPUnit"]].
@@ -339,6 +367,10 @@ Shalini .NET Blog "MS Unit Test vs NUnit Test"]].
 ==== Python ====
 === Testing Tools for & with Python ===
   *[[http://www.github.com/DRMacIver/hypothesis|GitHub "DRMacIver/hypothesis"]], [[http://hypothesis.readthedocs.org/|ReadTheDocs "Hypothesis"]] - "A Python library for creating unit tests which are simpler to write and more powerful when run, finding edge cases in your code you wouldn’t have thought to look for".
+  *"doublex" / "pyDoubles".
+    *[[http://www.bitbucket.org/DavidVilla/python-doublex|BitBucket "David Villa Alises / python-doublex"]], [[http://pypi.python.org/pypi/doublex|Python Package Index "doublex"]], [[http://python-doublex.readthedocs.io/en/latest/pyDoubles.html|ReadTheDocs "doublex"]].
+    *[[http://pydoubles.readthedocs.io/|ReadTheDocs "pyDoubles"]].
+  *[[http://pypi.python.org/pypi/hypothesis|Python Package Index "hypothesis"]], [[http://www.github.com/DRMacIver/hypothesis|GitHub "DRMacIver/hypothesis"]] - "Hypothesis is a library for testing your Python code against a much larger range of examples than you would ever want to write by hand. It’s based on the Haskell library, Quickcheck, and is designed to integrate seamlessly into your existing Python unit testing work flow".
   *[[http://docs.python.org/2/library/doctest.html|The Python Standard Library "25.2. doctest — Test interactive Python examples"]] #.
     *[[http://www.pythontesting.net/|PYTHON TESTING - Python Test Frameworks and Strategies]].
       *[[http://www.pythontesting.net/start-here/|PYTHON TESTING - Python Test Frameworks and Strategies "Start Here. Introduction to Python testing frameworks"]].
@@ -347,9 +379,9 @@ Shalini .NET Blog "MS Unit Test vs NUnit Test"]].
   *The OpenSource [[http://www.tizmoi.net/watsup/intro.html|Dr Tim Couper "WATSUP - Windows Application Test System Using Python"]].
   *The OpenSource [[http://pythonhosted.org/nose/|PythonHosted "nose"]], [[http://www.github.com/nose-devs/|Github "nose-devs"]], [[http://pypi.python.org/pypi/nose|Python Package Index "nose"]], [[http://nose.readthedocs.org/|Read the Docs "nose"]] - "is nicer testing for python".
     *[[http://nose.readthedocs.org/en/latest/testing_tools.html|Read the Docs "nose documentation / Testing with nose / -Testing tools"]].
-  *[[http://www.voidspace.org.uk/python/mock/|Mock - Mocking and Testing Library]].
+  *[[http://www.voidspace.org.uk/python/mock/|Mock - Mocking and Testing Library]] - I told by experts in 2016-09, that "Mock" is included with Python 3.3 and newer :-).
   *[[http://code.google.com/p/pymox/|pymox / Mox]] - "An object-mocking framework for Python".
-  *[[http://www.pytest.org/|py.test]] - "A mature full-featured testing tool, provides no-boilerplate testing, upports functional testing and complex test setups".
+  *[[http://www.pytest.org/|Pytest]] ( formerly "py.test" ) - "A mature full-featured testing tool, provides no-boilerplate testing, upports functional testing and complex test setups".
     *As the name suggests, "py.test" is the commandline name to start the application, not "pytest" :-).
   *[[http://pyunit.sourceforge.net/|Sourceforge "PyUnit"]], [[http://www.sourceforge.net/projects/pyunit/|Sourceforge "PyUnit"]] - "The standard unit testing framework for Python" #.
     *[[http://pyunit.sourceforge.net/pyunit.html|Sourceforge "PyUnit" - Python Unit Testing Framework Manual]].
@@ -360,8 +392,13 @@ Shalini .NET Blog "MS Unit Test vs NUnit Test"]].
   *[[http://www.testrun.org/tox/|The tox automation project]].
     *[[http://pypi.python.org/pypi/tox|Python Package Index "tox 1.6.1 - virtualenv-based automation of test activities"]].
     *HTML Slides [[http://farmdev.com/talks/tox/|Kumar McMillan "Supporting All Versions of Python All The Time With Tox"]].
+    *TOX is generating a "Python Virtual Environment", for use with Pytest.
   *[[http://twill.idyll.org/|twill: a simple scripting language for Web browsing]] - "twill supports automated Web testing and has a simple Python interface".
   *[[http://www.getwindmill.com/|Windmill Testing Framework]] - "Windmill is a web testing tool designed to let you painlessly automate and debug your web application", "Interact with the browser and the windmill service from a python shell".
+=== Very special Helper Tools for Testing for & with Python ===
+  *[[http://github.com/spulec/freezegun|GitHub "spulec/freezegun"]], [[http://pypi.python.org/pypi/freezegun|Python Package Index "freezegun"]] - "Let your Python tests travel through time".
+    *[[http://www.developingandstuff.com/2013/12/freezegun-time-travel-for-python-tests.html|Developing and stuff. Random musings about software, programming, and related fields "Freezegun, time travel for Python tests"]].
+    *[[http://www.stackoverflow.com/questions/31296798/python-freezegun-giving-different-values-when-freezing-time-to-datetime-datetime|StackOverflow "Python Freezegun giving different values when freezing time to datetime.datetime.now()"]].
 === Testing Tools for HTTP Resources with Python ===
   *[[http://www.github.com/idealistdev/alfajor/|Github "idealistdev / alfajor"]] - "Tasty functional testing". "Alfajor provides a modern, object-oriented and browser-neutral interface to HTTP resources.  With Alfajor, your Python scripts and test code have a live, synchronized mirror of the browser's X/HTML DOM, even with DOM changes made on the client by JavaScript.".
   *[[http://splinter.cobrateam.info/|splinter - test framework for web applications]].
@@ -396,6 +433,19 @@ Shalini .NET Blog "MS Unit Test vs NUnit Test"]].
     -Test.
     -Post-Test.
 
+===== Mockup - Simulation of Objects =====
+==== Tools ====
+    *The OpenSource [[http://cmock.sourceforge.net/|SourceForge "CMock"]], [[http://www.sourceforge.net/projects/cmock|SourceForge "CMock"]] - "A module/object mocking framework for C projects. It generates dummy modules that conform to the interface specified in a header file. This allows APIs to be proven out and exercised before committing to an underlying implementation".
+  *The OpenSource EasyMock ( [[http://www.easymock.org/|EasyMock]], [[http://easymock.sourceforge.net/|Sourceforge: "EasyMock"]], [[http://www.sourceforge.net/projects/easymock/|Sourceforge: "EasyMock"]] ) for Java.
+  *The OpenSource [[http://www.jmock.org/|jMock]] for Java - "A library that supports test-driven development of Java code with mock objects".
+  *The OpenSource [[http://code.google.com/p/mockito/|Google Code "mockito. simpler & better mocking"]].
+    *[[http://en.wikipedia.org/wiki/Mockito|EN.Wikipedia "Mockito"]], [[http://de.wikipedia.org/wiki/Mockito|DE.Wikipedia "Mockito"]].
+  *The OpenSource [[http://www.nmock.org/|NMock]], [[http://nmock.sourceforge.net/|Sourceforge: "Mock"]], [[http://www.sourceforge.net/projects/nmock/|Sourceforge: "Mock"]] - "A Dynamic Mock Object Library for .NET". 
+  *[[http://www.voidspace.org.uk/python/mock/|Voidspace, Michael Foord "Mock - Mocking and Testing Library"]] for Python.
+==== Resources ====
+  *[[http://www.mockobjects.com/|Mock Objects]] - "About Mock Objects, a technique for improving the design of code within Test-Driven Development".
+    *The OpenSource [[http://www.sourceforge.net/projects/mockobjects/|SourceForge "Mock Objects"]], [[http://wayback.archive.org/web/*/http://mockobjects.sourceforge.net/|Archive.org "Mock Objects"]], [[http://wayback.archive.org/web/*/http://wiki.truemesh.com/mockobjects|Archive.org "MockObjects - Project Description and Goals"]] for Java - "Generic unit testing framework and methodology for testing any kind of code".
+  *[[http://en.wikipedia.org/wiki/Mock_object|EN.Wikipedia "Mock object"]], [[http://de.wikipedia.org/wiki/Mock-Objekt|DE.Wikipedia "Mock-Objekt"]].
 ===== Resources =====
 ==== JUnit 4 ( for Java 1.5 and newer ) ====
 Books written and released before 2006 do not cover JUnit 4, but just JUnit 3. Take care of new editions of old books, and of german translations of english books originally written and released before 2006, which still just deal with JUnit 3 !
@@ -431,14 +481,26 @@ Books written and released before 2006 do not cover JUnit 4, but just JUnit 3. T
     *[[http://www.torsten-horn.de/techdocs/java-junit.htm|Torsten Horn "JUnit"]] → JUnit 3 only.
     *[[http://www.torsten-horn.de/techdocs/java-fit.htm|Torsten Horn "Akzeptanztests mit Fit"]] ( Framework for Integrated Test ).
   *[[http://www.javaworld.com/javaworld/jw-12-2000/jw-1221-junit.html|InfoWorld / JavaWorld "JUnit best practices"]].
-==== Mock vs. Stub ====
+==== Test double ( Mock, Stub ) ====
+=== General ===
+  *[[http://www.martinfowler.com/bliki/TestDouble.html|Martin Fowler "TestDouble"]].
+  *[[http://www.adamcod.es/2014/05/15/test-doubles-mock-vs-stub.html|Adam Brett "Understanding Test Doubles (Mock vs Stub)"]].
+  *[[http://www.phpunit.de/manual/current/en/test-doubles.html|PHPUnit Manual "Chapter 9. Test Doubles"]].
+  *[[http://xunitpatterns.com/Test%20Double.html|xUnit Patterns. "Test Double"]].
+  *[[http://en.wikipedia.org/wiki/Test_double|EN.Wikipedia "Test double"]].
+    *Test stub ( used for providing the tested code with "indirect input" ).
+    *Mock object ( used for verifying "indirect output" of the tested code, by first defining the expectations before the tested code is executed ).
+    *Test spy ( used for verifying "indirect output" of the tested code, by asserting the expectations afterwards, without having defined the expectations before the tested code is executed ).
+    *Fake object ( used as a simpler implementation, e.g. using an in-memory database in the tests instead of doing real database access ).
+    *Dummy object ( used when a parameter is needed for the tested method but without actually needing to use the parameter ).
+=== Stub ===
+  *[[http://en.wikipedia.org/wiki/Method_stub|DE.Wikipedia "Method stub"]], [[http://de.wikipedia.org/wiki/Stub_%28Programmierung%29|DE.Wikipedia "Stub (Programmierung)"]].
+  *[[http://en.wikipedia.org/wiki/Wikipedia:Stub|DE.Wikipedia "Wikipedia:Stub"]], [[https://de.wikipedia.org/wiki/Wikipedia:Artikel#Umfang|DE.Wikipedia "Wikipedia:Artikel"]].
 === Mock ===
   *[[http://en.wikipedia.org/wiki/Mock_object|DE.Wikipedia "Mock object"]], [[http://de.wikipedia.org/wiki/Mock-Objekt|DE.Wikipedia "Mock-Objekt"]].
   *[[http://en.wikipedia.org/wiki/Mockup|DE.Wikipedia "Mockup"]], [[http://de.wikipedia.org/wiki/Mock-up|DE.Wikipedia "Mock-up"]].
   *[[http://en.wikipedia.org/wiki/Digital_mockup|DE.Wikipedia "Digital mockup"]], [[http://de.wikipedia.org/wiki/Digital_Mock-Up|DE.Wikipedia "Digital Mock-Up"]].
-=== Stub ===
-  *[[http://en.wikipedia.org/wiki/Method_stub|DE.Wikipedia "Method stub"]], [[http://de.wikipedia.org/wiki/Stub_%28Programmierung%29|DE.Wikipedia "Stub (Programmierung)"]].
-  *[[http://en.wikipedia.org/wiki/Wikipedia:Stub|DE.Wikipedia "Wikipedia:Stub"]], [[https://de.wikipedia.org/wiki/Wikipedia:Artikel#Umfang|DE.Wikipedia "Wikipedia:Artikel"]].
+
 ==== General Resources ====
   *[[http://www.c2.com/cgi/wiki?TestingFramework|C2 "Testing Framework"]] # - The legacy but rich list of testing frameworks :-).
   *[[http://www.unittestingtools.com/|unittestingtools.com - Unit Testing and Mocking Tools: C/C++, Java, JavaScript, .NET, PHP, Python, Ruby, Flex]].

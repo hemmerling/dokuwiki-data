@@ -1,0 +1,164 @@
+====== [hemmerling] Logfile Data Processing / Logfile Analysis / IT Operations Management ======
+Related page:
+  *[[mathengineering.html|Mathematical Engineering]].
+===== Events =====
+  *Online Hackathon [[http://splunkapptitude2.devpost.com/|Devpost "Splunk Apptitude App Challenge"]], 2015.
+===== Logstash =====
+  *The OpenSource [[http://www.elastic.co/products/logstash|Elasticsearch BV,  "Logstash"]] in Ruby - "Collect, Enrich, and Transport Data".
+    *[[http://www.elastic.co/downloads/logstash|Elasticsearch BV,  - Downloads "Logstash"]].
+    *[[http://www.elastic.co/community|Elasticsearch BV "Community"]].
+    *Blog [[http://www.elastic.co/blog|Elastic Blog]].
+  *[[http://www.github.com/elastic/logstash|GitHub "elastic/logstash"]] - "logstash - transport and process your logs, events, or other data".
+  *[[http://www.twitter.com/elastic|Twitter "elastic, @elastic"]].
+===== Rocana =====
+  *[[http://www.rocana.com/|Rocana]].
+    *Here you may order te free PDF e-book [[http://info.rocana.com/ebook-real-big-data-for-it-ops|Rocana "e-Book: Using R.E.A.L. Big Data for IT Operations"]].
+      *The free PDF e-book [[http://info.rocana.com/hubfs/Rocana_REALBigData_eBook.pdf|Using R.E.A.L. Big Data for IT Operations]] ( PDF ).
+  *Experts consider Rocana as more advanced alternative to Splunk.
+===== Splunk =====
+==== The Tool ====
+  *The Java application [[http://www.splunk.com/|Splunk]] - "Operational Intelligence, Log Management ...".
+    *[[http://www.splunk.com/de_de/solutions/solution-areas/log-management.html|Splunk "Log-Management-Lösungen: Auswertung von Logdaten für Einblicke in die Vorgänge im Unternehmen"]] - "Splunk bietet die branchenführende Software für die Konsolidierung und Indizierung von Log- und Maschinendaten, einschließlich strukturierter, unstrukturierter und komplexer, mehrzeiliger Anwendungslogdaten".
+  *The free [[http://www.splunk.com/en_us/download/universal-forwarder.html|Splunk "Splunk Universal Forwarder"]] for Windows, Linux, MacOSX,...
+  *[[http://www.github.com/splunk|GitHub "Splunk"]] - As Splunk is not OpenSource, there are just a few additional tools published here...
+  *[[http://www.splunk.com/en_us/community.html|Splunk Community]].
+    *[[http://dev.splunk.com/|Splunk Developer Portal]].
+    *[[http://splunkbase.splunk.com/|Splunkbase]] - Splunk's App store.
+  *Wiki [[http://wiki.splunk.com/|Splunk Wiki]].
+  *Blogs [[http://blogs.splunk.com/|Splunk Blogs]].
+     *Blog [[http://blogs.splunk.com/dev/|Splunk Blog - Category "Dev"]].
+  *[[http://www.twitter.com/splunkdev|Twitter "Splunk Dev, @splunkdev"]].
+  *Download and do not uncompress the [[http://docs.splunk.com/images/Tutorial/tutorialdata.zip|tutorial data file]]!
+==== The free local Splunk Platform ====
+  *The Splunk Web interface is at [[http://localhost:8000|http://localhost:8000]].
+    *username: "admin".
+    *password: "changeme".
+==== Literature ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1849693285/hemmerling-21|Vincent Bumgarner "Implementing Splunk: Big Data Reporting and Development for Operational Intelligence"]], 2013.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0982550677/hemmerling-21|David Carasso "Exploring Splunk"]], 2012.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1849697841/hemmerling-21|Josh Diakun, Paul R Johnson, Derek Mock "Splunk Operational Intelligence Cookbook"]], 2014.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1514615746/hemmerling-21|Grigori Melnik, Dominic Betts "Building Splunk Solutions (Second edition): Splunk Developer Guide"]], 2015.
+    *Accompanying website [[http://dev.splunk.com/view/dev-guide/SP-CAAAE2R|Splunk Developer Guidance]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1782173838/hemmerling-21|James Miller "Mastering Splunk"]], 2014.
+  *"Splunk Developer's Guide.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1784398381/hemmerling-21|Betsy Page Sigman "Splunk Essentials"]], 2015.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/B01AJST0TY/hemmerling-21|Erickson Delgado, Betsy Page Sigman "Splunk Essentials - Second Edition Kindle Edition"]], 2016.
+  *Kindle E-Book [[http://www.amazon.de/exec/obidos/ASIN/1785882376/hemmerling-21|Kyle Smith "Splunk Developer's Guide - Second Edition"]], 2016 ( no paper edition yet available or announced ).
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/143025761X/hemmerling-21|Peter Zadrozny, Raghu Kodali "Big Data Analytics Using Splunk: Deriving Operational Intelligence from Social Media, Machine Data, Existing Data Warehouses, and Other Real-Time Streaming Sources"]], 2013.
+=== Training & Tutorial & Tips & Tricks ===
+  *[[http://www.splunk.com/en_us/download/universal-forwarder/thank-you.html|Splunk "Let's get started"]].
+  *[[http://docs.splunk.com/Documentation/SplunkLight|Splunk Documentation, Manuals "Splunk Light"]] - "Splunk Light delivers full-featured log search and analysis for small businesses and workgroups".
+  *Documentation as online HTML website & PDF.
+    *[[http://docs.splunk.com/Documentation/Splunk/latest/SearchTutorial|Splunk Knowledgebase "Search Tutorial"]].
+      *[[http://docs.splunk.com/Documentation/Splunk/latest/Search/Identifyeventpatterns|Splunk Knowledgebase "Search Tutorial" / "Identify event patterns with the Patterns tab"]].
+      *[[http://docs.splunk.com/Documentation/Splunk/latest/Search/Usethesearchcommand|Splunk Knowledgebase "Search Tutorial" / "Search command primer"]].
+    *[[http://docs.splunk.com/Documentation/Splunk/latest/Data|Splunk Knowledgebase "Getting Data In"]].
+      *[[http://docs.splunk.com/Documentation/Splunk/latest/Data/Whysourcetypesmatter|Splunk Knowledgebase "Getting Data In" / "Why source types matter"]].
+      *[[http://docs.splunk.com/Documentation/Splunk/latest/Data/Listofpretrainedsourcetypes|Splunk Knowledgebase "Getting Data In" / "List of pretrained source types"]].
+      *[[http://docs.splunk.com/Documentation/Splunk/latest/Data/Createsourcetypes|Splunk Knowledgebase "Getting Data In" / "Create source types"]].
+      *[[http://docs.splunk.com/Documentation/Splunk/latest/Data/Managesourcetypes|Splunk Knowledgebase "Getting Data In" / "Manage source types"]].
+      *[[http://docs.splunk.com/Documentation/Splunk/latest/Data/Configuretimestamprecognition|Splunk Knowledgebase "Getting Data In" / "Configure timestamp recognition"]].
+      *[[http://docs.splunk.com/Documentation/Splunk/latest/Data/HowSplunkextractstimestamps|Splunk Knowledgebase "Getting Data In" / "How timestamp assignment works"]].
+      *[[http://docs.splunk.com/Documentation/Splunk/latest/Data/ConfigurePositionalTimestampExtraction|Splunk Knowledgebase "Getting Data In" / "Configure timestamp assignment for events with multiple timestamps"]].
+      *[[http://docs.splunk.com/Documentation/Splunk/latest/Data/Extractfieldsfromfileheadersatindextime|Splunk Knowledgebase "Getting Data In" / "Extract data from files with headers"]].
+    *[[http://docs.splunk.com/Documentation/Splunk/latest/Forwarding|Splunk Knowledgebase "Forwarding Data"]] -"Install the universal forwarder software".
+      *[[http://docs.splunk.com/Documentation/Splunk/latest/Forwarding/Theuniversalforwarder|Splunk Knowledgebase "Forwarding Data" / "The universal forwarder"]].
+    *[[http://docs.splunk.com/Documentation/Splunk/latest/Knowledge|Splunk Knowledgebase "Knowledge Manager Manual"]].
+      *[[http://docs.splunk.com/Documentation/Splunk/latest/Knowledge/Aboutfields|Splunk Knowledgebase "Knowledge Manager Manual" / "About fields"]].
+      *[[http://docs.splunk.com/Documentation/Splunk/latest/Indexer/|Splunk Knowledgebase "Managing Indexers and Clusters of Indexers"]].
+      *[[http://docs.splunk.com/Documentation/Splunk/latest/Knowledge/AboutSplunkregularexpressions|Splunk Knowledgebase "About Splunk Enterprise regular expressions"]].
+    *[[http://docs.splunk.com/Documentation/Splunk/latest/SearchReference|Splunk Knowledgebase "Search Reference"]].
+      *[[http://docs.splunk.com/Documentation/Splunk/latest/SearchReference/CommonEvalFunctions|Splunk Knowledgebase "Search Reference" / "Evaluation functions"]].
+      *[[http://docs.splunk.com/Documentation/Splunk/latest/SearchReference/Rex|Splunk Knowledgebase "Search Reference" / "rex"]].
+        *[[http://wiki.splunk.com/Community:RegexTestingTools|Splunk Wiki "Community:RegexTestingTools"]] - "Some helpful tools for writing regular expressions".
+    *[[http://docs.splunk.com/Documentation/Splunk/latest/admin|Splunk Knowledgebase "Admin Manual"]].
+      *[[http://docs.splunk.com/Documentation/Splunk/latest/admin/Propsconf|Splunk Knowledgebase "Admin Manual" / "props.conf"]].
+  *[[http://answers.splunk.com/|Splunk Answers]].
+    *[[http://answers.splunk.com/topics/max_days_ago.html|Splunk Answers - Search for "max_days_ago"]].
+    *[[http://answers.splunk.com/answers/833/how-does-splunk-determine-the-date-when-there-is-no-date-stamp-in-the-event.html|Splunk Answers "How does Splunk determine the date, when there is no date stamp in the event?"]].
+    *[[http://answers.splunk.com/answers/22968/exclude-events-with-specific-field-value-from-results.html|Splunk Answers "Exclude events with specific field value from results"]].
+    *[[http://answers.splunk.com/answers/41266/dateparserverbose-timestamp-match-is-outside-of-the-acceptable-time-window.html|Splunk Answers "DateParserVerbose - timestamp match is outside of the acceptable time window"]].
+    *[[http://answers.splunk.com/answers/52257/how-to-exclude-some-result.html|Splunk Answers "How to exclude some result"]].
+    *[[http://answers.splunk.com/answers/82116/ignoring-a-specific-portion-of-the-log-file-header-footer.html|Splunk Answers "Ignoring a specific portion of the log file (header/footer)"]].
+    *[[http://answers.splunk.com/answers/133285/whats-the-earliest-date-i-can-have-in-splunk.html|Splunk Answers "What's the earliest date I can have in Splunk?"]].
+      *Error message<code>"The TIME_FORMAT specified is matching timestamps (Sun Dec 31 00:00:00 2006) outside of the acceptable time window. If this timestamp is correct, consider adjusting MAX_DAYS_AGO and MAX_DAYS_HENCE.
+Failed to parse timestamps. Default to timestamps of previous event(Wed Dec 31 00:00:00 2014).</code>
+      *Answer: 1971-01-01 ( and not 1970-01-01 as you may expect reading [[http://en.wikipedia.org/wiki/Unix_time|EN.Wikipedia "Unix time"]], or 1970-12-31 ! ).
+    *[[http://answers.splunk.com/answers/134553/how-to-delete-data-index-reset-start-from-scratch.html|Splunk Answers "How to delete data / index (reset start from scratch)"]].
+==== Configuration Tips ====
+==== Where to configure? ====
+  *Configuration by:
+    *File "C:\Program Files\Splunk\etc\system\local\props.conf"
+    *At "Add Data / Set Sourcetype".
+==== How to configure? ====
+  *The ISO date format is easily recognized by the pattern<code>
+Section "Timestamp"
+Field: Timestamp format 
+Value: %Y-%m-%d
+</code>
+  *Question: "The largest setting I can make for MAX_DAYS_AGO according to the props.conf.spec is 10951 days. Is there anything I can do if I have data prior to 1984?".
+  *Answer #1: "You can just set it to -1".
+  *Example configurations of "props.conf" & "Add Data / Set Sourcetype / Timestamp" settings:<code>
+Timestamp format = %Y-%m-%d
+Timestamp fields = Datum, Uhrzeit
+</code>
+  *Example configurations of "props.conf", "Add Data / Set Sourcetype / Delimiter settings:<code>
+Field preamble = ^#.*
+Field names = Auto
+Field names on line number = (empty)
+</code>
+  *Example configurations of "props.conf", "Add Data / Set Sourcetype / Delimiter settings:<code>
+Field names on line number = 10
+Field names on line number = 2
+</code>
+  *Example configurations of "props.conf", "Add Data / Set Sourcetype / Advanced settings":<code>
+MAX_DAYS_AGO = -1
+</code>
+==== Sample Search Quests ====
+<code>
+sourcetype=vornamen Anzahl_Knaben!=Anzahl
+sourcetype="vornamen" Datum="2006-12-31" | top 4 Vornamenstatistik Haeufigkeiten
+sourcetype="vornamen" Datum="2007-12-31" | top 4 Vornamenstatistik Haeufigkeiten
+sourcetype = "vornamen" Datum != "#" | top 4 Vornamenstatistik Haeufigkeiten by Datum
+sourcetype = "vornamen" Datum != "#" | top 4 Haeufigkeiten by Vornamenstatistik, Datum
+</code>
+==== Resources ====
+  *Limit of the free Splunk edition: "The maximum file upload size is 500 Mb".
+  *Splunk expects CSV data with "," delimiter. By default, OpenOffice & LibreOffice save with space " " as delimiter.
+    *Check the "Edit Filter Settings" box in the save dialog, else the default delimiter is space, instead of ","!
+    *[[http://answers.launchpad.net/ubuntu/+source/openoffice.org/+question/194976|Ubuntu Answers "can't change delimiter when a file is already saved as csv"]].
+    **If the delimiter is the default "," , 
+      *At "Add Data", Splunk accepts data with fieldnames containing spaces ( e.g. "Number of Persons" ).
+      *At "Search & Reporting / Pivot", "Fields - Which fields would yo like to use as a Data Model", such data fields with fieldnames containing spaces may be selected for use as a Data Model.
+      *But at "New Pivot", "Add X-Axis" and "Add Y-Axis", such data fields with fieldnames containing spaces are not available as fields :-(.
+      *So far, I didn´t test if data values may not contain spaces ( e.g. "One Person" ), too.
+      *Statistical software as Splunk expects high data quality as available with computer-generated data. 
+        *If your data values are manually created, and then even have non-numeric data fields ( e.g. for the x-axis "One Person", "To Persons", "Three Persons, "More than three Persons" - the last one can´t even be transformed to numeric value ), typing mistakes cause different datasets. 
+        *So you must check such fields at the "Data Summary" infos of Splunk, if there are just the number of expected values ( e.g. in our example 4 values, and not 5 by a typing mistake like "One Persons" ) for this field.
+        *On the other hand, numeric data of numeric fields suitable for y-axis might have repeated values, which might cause a misleading counting at "Data Summary". Remember the difference between "Count" and "Distinct Count", with Splunk.
+  *Splunk expects: 
+    *Logfiles with a data stamp in each data row. The minimum data stamp is the full date of day, i.e. 2015-11-01. 
+       *So data which is stored in a single file for each date ( e.g. each day ) is not suitable for Splunk.
+       *So data which is not organized by a date stamp ( but e.g. by the zip code of a country ) is not suitable for Splunk. 
+       *Additionally Splunk offers the date of a file as field "_time". This doesn´t help much for building a timestamp for data processing, if the file was generated, downloaded or modified manually, or the date of the file is irrelevant due to other reasons.
+    *Decriptions of each data table row ( "Field" ), at the top of the file. 
+     *You may specify at the "Source Type" configuration, that the field names are on a certain line number.
+     *However, there is no option to define a final line. So data garbage at the end of the file might disturb the data processing. Especially it would be hard or impossible to put 2 different data sources in one physical file, defined by a single "Source Type".
+  *[[http://msdn.microsoft.com/en-us/library/ms235560%28v=vs.90%29.aspx|Microsoft Developers Network "C Run-Time Error R6034"]].
+    *Error message when installing Splunk on a Win8.1, 32-bit, where "Python X,Y" is already installed:<code>
+Microsoft Visual C++ Runtime Library
+Runtime Error!
+Program C:\Program Files\Splunk\bin\Python.EXE
+R6034
+An application has made an attempt to load the C runtime library incorrectly.
+Please contact the application's support team for more information.
+</code>
+    *[[http://answers.splunk.com/answers/60706/splunk-services-wont-start-after-install-error.html|Splunk Answers "Splunk services won't start after install error"]].
+    *[[http://answers.splunk.com/answers/312901/why-am-i-getting-error-r6034-an-application-has-ma.html|Splunk Answers "Why am I getting error "R6034 An application has made an attempt to load the C runtime library incorrectly." during a Splunk 6.3 installation?"]].
+    *[[http://answers.splunk.com/answers/4444/splunk-error-runtime-error-r6034.html|Splunk Answers "Splunk error - runtime error R6034"]] - "I uninstalled ActiveState's Python, and now splunkd starts right up".
+  *[[http://en.wikipedia.org/wiki/Unix_time|EN.Wikipedia "Unix time"]], [[http://de.wikipedia.org/wiki/Unixzeit|DE.Wikipedia "Unixzeit"]].
+  *[[http://en.wikipedia.org/wiki/Splunk|EN.Wikipedia "Splunk"]], [[http://de.wikipedia.org/wiki/Splunk|DE.Wikipedia "Splunk"]] - "The freeware version is limited to 500 MB of data a day, and lacks some features of the Enterprise license edition".
+===== Resources =====
+  *[[http://www.forbes.com/sites/jasonbloomberg/2015/11/25/rocana-vs-splunk-it-operations-management-battle-of-words/|Forbes Tech "Rocana Vs. Splunk: IT Operations Management Battle Of Words"]], 2015.
+{{tag>"mathematical engineering" "logfile data processing" logfile data processing "logfile analysis" logfile analysis "it operations management" it operations management}}
+<footnote_navi_en>

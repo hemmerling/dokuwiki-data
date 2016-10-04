@@ -1,4 +1,8 @@
 ====== [hemmerling] Device Description Languages and Device Parameterization ======
+Related page:
+  *[[devops.html|Development and Operations ( DevOps )]].
+  *[[installcontrol.html|Software Installation as well as Desired State Control & State Monitoring of Software]].
+
 ===== ARM Cortex Microcontroller Software Interface Standard ( CMSIS ) =====
   *See [[sframeworks.html|Software Frameworks]].
 ===== Desired State Configuration ( DSC ) =====
@@ -13,7 +17,6 @@
 ==== How to create custom DSC Resources ====
 === By MOF Schemes ( ... Powershell 4 ) ===
 === By Powershell Classes ( Powershell 5 ... ) ===
-
 ==== Server and Cloud Administration by PowerShell ====
   *[[http://www.twitter.com/jsnover|Twitter "jsnover"]] - "Microsoft Distinguished Engineer/ Lead Architect for Windows Server and System Center Datacenter/ PowerShell Architect / Science fan / Really bad speller".
     *[[http://www.twitter.com/jsnover/status/456972326601388032|Twitter, jsnover "PowerShell Desired State Config (DSC) is fast tracked for the next Common Engineering Criteria"]].
@@ -77,40 +80,101 @@
         *"With a new initiative called AutomationML we have come to a new phase".  
   *[[http://en.wikipedia.org/wiki/PLCopen|EN.Wikipedia "PLCopen"]], [[http://de.wikipedia.org/wiki/PLCopen|DE.Wikipedia "PLCopen"]].
 ==== Electric Device Description ( EDD ) & Electric Device Description Language ( EDDL ) ====
-=== SIEMENS Process Device Manager ( PDM ) ===
+=== Integrated Development Environments ( IDEs ) with EDDL Support ===
+== isEDD Workbench ==
+  *[[http://www.ifak-system.com/|ifak system GmbH]].
+  *[[http://www.ifak-system.com/en/industrial-automation/software/products/tools/isedd-workbench/|ifak system GmbH "isEDD Workbench"]].
+=== EDDL Applications ===
+== SIEMENS Process Device Manager ( PDM ) ==
   *[[http://www.automation.siemens.com/mcms/process-control-systems/de/simatic-pcs-7/simatic-pcs-7-systemkomponenten/process-device-manager-pdm/|SIEMENS Process Device Manager (PDM)]].
   *[[http://support.automation.siemens.com/WW/view/de/10806857/130000|Siemens Industry Online Support "SIMATIC PDM"]].
     *[[http://support.automation.siemens.com/WW/llisapi.dll/csfetch/57347315/PCS7_MaintenanceStation_de-DE_de-DE.pdf|SIMATIC Prozessleitsystem PCS 7 Maintenance Station Funktionshandbuch]] ( PDF ).
   *[[http://support.automation.siemens.com/WW/llisapi.dll?func=cslib.csinfo&objId=73247204|SIEMENS AG "Automation Technology > Process control systems > SIMATIC PCS 7 > System components > SIMATIC PDM > SIMATIC PDM V8.1 lieferbar"]], 2013-06-03.
 === Resources ===
+  *Experts told me about the incompatibility of EDD / EDDL parsers & interpreters of different vendors... though EDDLs are normed by "IEC 61804-3".
   *[[http://www.eddl.org/|Electronic Device Description Language (EDDL)]] by [[http://www.fdi-cooperation.com/|FDI Cooperation, LLC]].
   *[[http://en.wikipedia.org/wiki/Device_Description_Language|EN.Wikipedia "Device Description Language"]], [[http://de.wikipedia.org/wiki/Device_Description_Language|DE.Wikipedia "Device Description Language"]].
-==== FDT/DTM ====
+==== FDI ====
+=== Organisation ===
+  *[[http://www.fieldcommgroup.org/|Fieldcom Group]] is the successor of [[http://www.fdi-cooperation.com/|FDI Cooperation, LLC]] and some other organisations.
+    *"Formerly "FDI Cooperation, LLC" membership includes five major automation foundations: 
+      *[[http://www.fdtgroup.org/|FDT Group]], 
+      *[[http://www.fieldbus.org/|Fieldbus Foundation]], 
+      *[[http://www.hartcomm.org/|HART Communications Foundation]], 
+      *[[http://www.profibus.com/|PROFIBUS & PROFINET International]], and the 
+      *[[http://www.opcfoundation.org/|OPC Foundation]]".
+   *Fieldcom Group also superceeds [[http://www.eddl.org/about/basics/Pages/EDDLCooperationTeam.aspx|EDDL Cooperation Team (ECT)]].
+=== FDI - The new Standard for the Process Industry ( 2015 - ) ===
+  *The software architecture of FDI is based on:
+    *"Microsoft .NET Common Language Runtime (CLR) 4.0".
+      *[[http://msdn.microsoft.com/en-us/library/8bs2ecf4(v=vs.110).aspx|Microsoft Developer Network "Common Language Runtime (CLR)"]].
+      *[[http://en.wikipedia.org/wiki/.NET_Framework|EN.Wikipedia ".NET Framework"]], [[http://de.wikipedia.org/wiki/.NET_Framework|DE.Wikipedia ".NET Framework"]], [[http://en.wikipedia.org/wiki/.NET_Framework_version_history|DE.Wikipedia ".NET Framework version history"]].
+    *"Windows Presentation Foundation".
+     *[[http://msdn.microsoft.com/en-us/library/ms754130%28v=vs.110%29.aspx|Microsoft Developer Network "Windows Presentation Foundation"]].
+     *[[http://en.wikipedia.org/wiki/Windows_Presentation_Foundation|EN.Wikipedia "Windows Presentation Foundation"]], [[http://de.wikipedia.org/wiki/Windows_Presentation_Foundation|DE.Wikipedia "Windows Presentation Foundation"]].
+  *Just for the process industry, FDI shall reunite both FDI and EDDL. 
+  *Experts told me that:
+    *FDI is technically obselete and just a political compromise to include those ( big ) companies which favoured EDDL over FDI in the past.
+    *Technically FDT is sufficient for all purposes. As there are now a free FDI plugins for FDT frames, you may operate both FDT 1.2, FDT 2.0 and FDI from a single FDT 2.0 frame application.
+  *As of 2016-02, FDI is limited to the fieldbus standards [[http://www.hartcomm.org/|HART]], [[http://www.fieldbus.org/|Fieldbus Foundation]] and "[[http://www.profibus.com/|PROFIBUS]] PA". According to experts, there are currently no further plans to offer support of all the fieldbus protocols supported by FDT.
+=== Literature ===
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/380073513X/hemmerling-21|Daniel Großmann, Michael Braun, Benjamin Danzer, Matthias Riedl "FDI - Field Device Integration: Handbuch für die einheitliche Integrationstechnologie"]], 2013.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3800736306/hemmerling-21|D. Großmann, M. Braun, B. Danzer, A. Kaiser, M. Riedl  "FDI - Field Device Integration: Handbook for the unified Device Integration Technology"]], 2015.
+=== Free FDI Frame Tools ===
+== Field Information Manager ==
+  *The free [[http://new.abb.com/control-systems/fieldbus-solutions/fim|ABB "Field Information Manager"]].
+== iDTM-FDI ==
+  *[[http://www.devicepackage.com/|iDTM-FDI]] by [[http://www.codewrights.biz/|CodeWrights GmbH]], a free FDI plugin for FDT frame applications - "iDTM-FDI is the FDI adapter for every FDT Host. Try it out right now, with the Tech Preview".
+=== Integrated Development Environments ( IDEs ) with FDI Support ===
+== FDI Package IDE ==
+  *[[http://www.fieldcommgroup.org/tools/fdi_datasheet.html|FieldComm Group "FDI Package IDE"]].
+==== FDT / DTM ====
 === Organisation ===
   *[[http://www.fdtgroup.org/|FDT Group]].
     *[[http://www.fdtgroup.org/technical-documents|FDT Group "Technical documents"]].
     *[[http://www.youtube.com/user/fdtgroupna|YouTube "FDT Group"]].
     *[[http://de.wikipedia.org/w/Field_Device_Tool|DE.Wikipedia "Field Device Tool"]].
-  *[[http://www.fdi-cooperation.com/|FDI Cooperation, LLC]] - "FDI Cooperation, LLC membership includes five major automation foundations: FDT Group, Fieldbus Foundation, HART Communications Foundation, PROFIBUS & PROFINET International, and the OPC Foundation".
-===  FDT/DTM Development Tools ===
+=== FDT - The Standard for the Automation Industry & Process Industry ===
+  *FDT 1.0 / 2.0 is available for devices both used by the automation industry and the process industry. 
+  *Fieldbus support:
+    *For the process industry ( HART, Fieldbus Foundation, Profibus PA ).
+    *For the automation industry ( Profibus DP, ProfiNET, Ethernet IP, CanOpen, Sercos, Ethercat,..).
+=== FDT/DTM Software Houses and its FDT/DTM Development Tools ===
   *[[http://www.codewrights.biz/|CodeWrights GmbH]] - "DTM Studio" development software.
+  *[[http://www.icsgmbh.de/|ICS GmbH – Spezialist für anspruchsvolle Software-Tools in der Automation]].
+    *[[http://www.icsgmbh.de/deutsch/PACTware_download.htm|ICS GmbH "Download"]] - "Download and Test Device Type Manager".
+    *[[http://www.icsgmbh.com/english/sensorsoft/senssoft2.htm|ICS GmbH "Development of Individual Device Type Managers based on the DTM Master Concept"]].
   *[[http://www.ifak-system.com/|ifak system GmbH]].
     *Partner [[http://www.ifak.eu/|ifak - Institut für Automation und Kommunikation e. V. Magdeburg]].
     *[[http://www.ifak-system.com/kommunikation-automation/werkzeuge/|ifak system GmbH "Werkzeuge"]].
-      *[[http://www.ifak-system.com/kommunikation-automation/werkzeuge/produkte/isdtm-architect-fdt2/|ifak system GmbH " isDTM Architect FDT2"]].
+      *[[http://www.ifak-system.com/kommunikation-automation/werkzeuge/produkte/isdtm-architect-fdt2/|ifak system GmbH "isDTM Architect FDT2"]].
+      *[[http://www.ifak-system.com/en/industrial-automation/software/technologies/fdi/fdi-package/|ifak system GmbH "FDI Package"]] - "An FDI package can contain programmed user interfaces, so called **UIP**s – **User Interface Plugin**s that implement complex device commissioning and diagnostic functions".
   *[[http://www.mm-software.com/|M&M Software GmbH]].
     *[[http://www.mm-software.com/de/dtmmanager-development-suite|M&M "dtmMANAGER development suite"]] - The license limits the development of DTMs for in-house purposes of the customer. I.e. you can´t provide self-developed DTMs to third parties as your own customers.
     *[[http://mm-software.com/de/dtminspector|M&M "dtmINSPECTOR"]] - "The official certificate issued by the FDT Group gives your DTM the seal of approval. It confirms a DTM’s conformity to the FDT specification and therefore plays an important role in assuring your DTM’s quality... dtmINSPECTOR is the one and only DTM test and certification tool officially approved by the FDT Group".
-===  FDT Frame Application Software ===
+=== Literature ===
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3486630709/hemmerling-21|Rene Simon "Field Device Tool - FDT (Englisch)"]], 2005 ( in English ).
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3486270443/hemmerling-21|René Simon, Thomas Kleegrewe, Rolf Birkhofer, Jörg Jeske, Oliver Mergret "Field Device Tool - FDT"]], [[http://www.amazon.de/exec/obidos/ASIN/3835670441/hemmerling-21|Rene Simon "Field Device Tool - FDT"]], 2003.
+=== Free FDT Frame Application Software ===
 == PACTware ==
-  *Currently, PACTware is a free frame software for Windows with .NET 2.0. I was told by experts that it supports just FDT 1.2 and that the industry supposes and expects that there will be soon FDT 2.0 support.
+  *PACTware is a free frame software for Windows with .NET 2.0. 
+    *PACTware 4.1 and earlier support FDT 1.2, only.
+    *PACTware 5.0 supports FDT 2.0 and FDT 1.2.
+      *[[http://www.fdtgroup.org/press-releases/pactware-upgraded-fdt2|FDT Group "PACTware upgraded to FDT2"]], 2015-08-05.
+      *As of 2016-02, there is no free download yet of PACTware 5.0. The software is still in alpha / beta phase and so not yet released for the public.
   *[[http://www.pactware.com/|PACTware Consortium e.V.]].
     *[[http://www.pactware.com/downloads/pactware.html|PACTware Consortium e.V. - Kostenloser Download von PACTware]].
+  *[[http://www.burkert.com/en/sitesearch?search_term=pactware|Bürkert Fluid Control Systems - "Search results for: pactware"]].
+    *"PACTware 5.0 + DTM Collection 5.0"  - In 2016-04, this was the first official download offer of the new "PACTware 5.0".
+    *"PACTWARE4_1 SP1_.NET2_DTM Coll 4.1". 
   *[[http://www.vega.com/|VEGA Grieshaber KG]], [[http://www.vegacontrols.co.uk/|VEGA UK]].
     *[[http://www.vega.com/en/Software_DTM.htm|VEGA Grieshaber KG "DTM Collection + PACTware"]] - "Free downloadable software for setup, adjustment, diagnosis and documentation of VEGA instruments".
     *Blog [[http://blog.vegacontrols.co.uk/|VEGA UK Blog]].
       *[[http://blog.vegacontrols.co.uk/131/pactware-36-pactware-dtm-pactware-fdt-whats-it-all-about/|VEGA UK Blog "PACTware 3.6, PACTware DTM, PACTware FDT – What’s it all about?"]].
   *[[http://www.pepperl-fuchs.com/global/en/classid_163.htm?view=productdetails&prodid=45160|Pepperl+Fuchs "FDT Framework PACTware 4.X"]].
+== ABB Asset Vision ==
+  *[[http://new.abb.com/products/measurement-products/device-management-fieldbus-and-wireless/dat200-asset-vision-basic|ABB "DAT200 Asset Vision Basic"]] - "Asset Vision Basic is a FDT Frame Application with a graphic interface".
+  *[[http://www.abb.de/product/seitp330/f440bdc215489fe0c1257490003edc45.aspx|ABB "DAT200 Asset Vision Basic und DTM Download"]] - "Eine FDT-Rahmenanwendung mit moderner und anwenderfreundlicher grafischen Benutzeroberfläche. Sie stellt die Grundfunktionalitäten zur Konfiguration, Diagnose und Wartung ihrer intelligenten Feldgeräte bereit".
 == fdtcontainer ==
   *fdtcontainer is a free frame software for Windows with .NET. It supports both FDT 1.2 and FDT 2.0. 
   *[[http://www.mm-software.com/en/oem-fdtcontainer-application|M&M Software GmbH "OEM fdtCONTAINER application"]].
@@ -120,12 +184,19 @@
   *DeviceCare is a free frame software for Windows with .NET 3.5. Experts told me that it supports FDT 1.2 and FDT 2.0. 
   *[[http://www.de.endress.com/de/produkte-feldinstrumentierung/software-loesungen-process-automation/geraete-konfiguration-fieldcare-sfe500|Endress+Hauser Messtechnik GmbH+Co. KG "FieldCare SFE500 - Universelle Gerätekonfiguration"]] - "FieldCare ist Endress+Hausers universelles Tool für die Feldgeräte-Konfiguration mit vielen Funktionalitäten, von der Geräteparametrisierung bis hin zu Lösungen für die Zustandsüberwachung. Am schnellsten lassen sich Feldgeräte von Endress+Hauser mit dem dedizierten Tool DeviceCare konfigurieren".
   *[[http://portal.endress.com/webdownload/FieldCareDownloadGui/|Endress+Hauser Messtechnik GmbH+Co. KG "FieldCare Software Download"]].
+=== Commercial FDT Frame Application Software ===
+== ABB 8000xA ==
+  *[[http://www.abb.de/cawp/gad02181/c1256d71001e0037c1256c7e005f0f04.aspx|ABB "Open Engineering - die FDT/DTM Technologie"]].
+  *[[http://new.abb.com/control-systems/system-800xa|ABB "System 800xA"]].
+    *[[http://www02.abb.com/global/abbzh/abbzh251.nsf!OpenDatabase&db=/global/seitp/seitp334.nsf&c=B209D92DE295F3B0C12572B3004079B2|ABB "800xA PROFIBUS Device Integration"]] - "With Fieldbus Builder PROFIBUS the user has the capability to configure and diagnose PROFIBUS field devices supporting data access via DP-V1 from each System 800xA client using FDT/DTM technology".
+== ABB SMART VISION ==
+  *[[http://www.abb.de/|ABB]] - "Device Management Tool DSV4xx for smart field instruments ( "SMART VISION" ).
+== Field Device Manager ( FDM ) ==
+  *[[http://www.honeywellprocess.com/en-US/explore/products/control-monitoring-and-safety-systems/integrated-control-and-safety-systems/experion-pks/Pages/field-device-manager.aspx|Honeywell "Field Device Manager"]] ( FDM ).
 == FieldMate ==
   *FieldMate is a frame software for Windows. It supports FDT 1.2 and FDT 2.0. 
   *[[http://www.yokogawa.com/us/products/field-instruments/device-smart-communicators/fieldmate-device-management-wizard.htm|Yokogawa "FieldMate - Versatile Device Management Wizard"]].
   *[[http://www.yokogawa.com/us/technical-library/downloads/yokogawa-fieldmate-and-device-dtm-compliance-with-fdt2.htm|Yokogawa "Yokogawa FieldMate and Device DTM Compliance with FDT2"]].
-== SMART VISION ==
-  *[[http://www.abb.de/|ABB]] - "Device Management Tool DSV4xx for smart field instruments ( "SMART VISION" ).
 == Weidmüller Gruppe ==
   *[[http://www.weidmueller.com/133500/Corporate/Customer-Magazine-WIN/In-Brief/Configure-and-monitor-with-the-latest-FDT2-technology/cw_index_v2.aspx|Weidmüller Gruppe "Configure and monitor with the latest FDT2 technology"]], [[http://www.weidmueller.de/de/unternehmen/kundenmagazin-win-/im-moment/konfigurieren-und-ueberwachen-mit-der-neuesten-fdt2-technologie|Weidmüller Gruppe "Konfigurieren und Überwachen mit der neuesten FDT2-Technologie"]].
   *[[http://weidmulleruk.wordpress.com/tag/fdt2/|Weidmüller UK - Tag Archives: "FDT2"]].
@@ -139,12 +210,11 @@
   *FTD 1.2 is based on Microsoft's COM and ActiveX.
   *FTD 2.0 is based on Microsoft .NET 2.0, 3.5, 4.0...
   *A DTM is not a static, but consists both of ( 80x86 or .NET ) code. By this, - e.g. in opposite to a static XML file like with <AutomationML> - it can dynamically change data: If you change the unit of a device parameter, e.g. metric system to US inch / feet / miles system.
-  *FDT 1.0 / 2.0 is available for devices used by the process industry. The devices might be connected to a PC by fieldbus networks, e.g. HART, Profibus,..
   *There are 2 kinds of DTMs:
     -Communication or Gateway-DTMs", e.g. for USB-to-PROFIBUS devices.
     -Device DTMs, e.g. for PROFIBUS devices connected to a PROFIBUS.
   *The "FDT Common Components" make it easier to develop DTMs.
-  *I was told by experts, that "M&M" is able to generate a DTM from ProfibusDP device description, by a software generator. I was told by the same experts, that "Codewriter" is able to do fast DTM development by the help of a software interpreter. So the generation of DTMs is not an easy working business modell. Anyhow, there are a few freelancers who may be hired to generate a DTM for a device.
+  *I was told by experts, that "M&M" is able to generate a DTM from ProfibusDP device description, by a software generator. I was told by the same experts, that [[http://www.codewrights.biz/|CodeWrights GmbH]] is able to do fast DTM development by the help of a software interpreter. So the generation of DTMs is not an easy working business modell. Anyhow, there are a few freelancers who may be hired to generate a DTM for a device.
   *DTMs are loaded and executed in the frame software on a Windows computer. 
   *How to get DTMs?
     *In the case of Windows interface devices ( PEAK-System USB to CANBus device, Softing USB to PROFIBUS device,... ), the DTM is provided by the software developer of the windows device driver.
@@ -157,6 +227,9 @@
   *[[http://www.dima-process.com/|DIMA – Dezentrale Intelligenz für modulare Anlagen]].
     *[[http://www.dima-process.com/dima-konzept/modul-type-package-mtp/|DIMA "Module Type Package (MTP)"]] - "Zur Projektierung der gesamten Anlage benötigt der Anlagenprogrammierer die Informationen der möglichen Dienste für die Prozedur und Visualisierung vom Modulhersteller. Diese Informationen speichert der Modulhersteller bei der Programmierung seines Moduls in einer 'digitalen Visitenkarte', dem 'Modul Type Package' (MTP)".
     *[[http://www.twitter.com/wagokontakttech/status/610434216879353856|Twitter "WAGO", Tweet "WAGO erhält für das Konzept DIMA – Prozessautomatisierung der Zukunft – den „atp award“ 2014!"]].
+  *MTP is an adoption of the FDI / FDT concepts for module hardware, which is equipped with a user interface.
+    *The electronics of FDI/ FDT devices is so "small", that such devices don´t have a user interface or just a very limited user interface. Thats why FDI / FDT provide a user interface by the DTM module running in an FDI / FDT frame, on a computer used for configuration & maintainance.
+    *Module hardware is usually so "big" that it is shipped with a full-blown user interface, which is generated by the developer using the usual PLC IDE. The idea of MTP is to export this existing data from the developer IDE, as base for a FDI / FDT user interface in a frame application on computer used for configuation & maintainance.
 === Industry 4.0 Component ( "i4.0 Komponente" ) ===
   *[[http://www.plattform-i40.de/| Plattform Industrie 4.0]].
 === NAMUR NE 148 Initative for standardized Description of Process Industry Modules ( 2013 - 2015 ) ===
@@ -168,6 +241,13 @@
   *Experts told me in  2015-06, that the forthcoming standard might be based on:
     -Internal modules with I/O only -> FDI based interface.
     -External modules with a PLC -> OPC/UA based interface.
+==== PROFINET Device Description by GSD / GSDML ====
+  *[[http://www.profibus.com/products/gsd-files/| "GSD Files"]].
+    *"All about GSD files": 
+      *GSD files contain information about the basic capabilities of a device. All devices are shipped with a GSD file, or a file can be downloaded from this web site or the vendor's own web site.  With a GSD file, system integrators can determine basic data such as the communications options and the available diagnostics".
+    *"PROFINET GSDML Files":
+      *"GSDML are GSD files written in XML format. They describe the features of the PROFINET device model. GSDML editing can be accomplished with standard XML editors and should comply with ISO 15745, the base for device descriptions. The aim is to allow better integration of devices into an engineering tool".
+      *"It is not an objective of the GSDML format to describe technological functions or the graphical user interface of a device. For this purpose concepts such as TCI, FDT, EDD should be used".
 ==== Tool Calling Interface ( TCI ) ====
   *[[http://www.sps-magazin.de/?inc=artikel/article_show&nr=28312|SPS Magazin "Konkurrenz zu FDT? Aus SII wird TCI"]], 2006-01-26.
   *[[http://www.profibus.com/pi-organization/regional-pi-associations/germany/presse/single-view/article/tci-spezifikation-der-pno-verfuegbar/|PROFIBUS Nutzerorganisation e.V. ( PNO ) "TCI Spezifikation der PNO verfügbar"]].
@@ -181,7 +261,8 @@
   *Acyclic data acquistion:
     *Asset management by EDD / DD of SIEMENS, DTM of FDT.
     *EDDL is intended to become the successor of both EDD and DTM/FDT.
-===== Linux Device Tree / Flattened Device Tree ( FDT ) =====
+===== Linux  =====
+==== Linux Device Tree / Flattened Device Tree ( FDT ) ====
   *I was told by experts in 2015-10 "'Device Tree' is not for Linux only :-)", but also for e.g. FPGA board projects.
   *Wiki [[http://www.devicetree.org/|Devicetree.org]] - "The device tree is used both by Open Firmware, and in the standalone Flattened Device Tree (FDT) form".
     *Open Firmware -> See [[booting.html|Booting from Devices]].
@@ -196,6 +277,42 @@
   *[[http://www.xilinx-john.wikidot.com/|Xilinx Open Source Wiki]].
     *[[http://www.xilinx-john.wikidot.com/device-tree-generator|Xilinx Open Source Wiki "Device Tree Generator"]].
   *[[http://www.zedboard.org/content/how-generate-device-tree-dts-file|Zedboards Forum "How to generate Device Tree (dts) file?"]].
+==== NixOS - The Purely Functional Linux Distribution ====
+  *See [[linux02.html|Linux 2/8 - Linux Distributions]].
+===== Smart Device Modelling =====
+==== Proceedings ====
+=== Abstraction at API Layer ===
+  *Experts told me: The abstraction at API layer is far more important that the interoperability at protocol layer.
+=== Semantic Modeling Framework ===
+  *A model of the application may be created using a A "Semantic Modeling Framework". By this, a REST interface may be generated automatically.
+  *"Eclipse Vorto" and "Smart Device Template ( SDT )" provide such a semantic description for an application.
+  *[[http://en.wikipedia.org/wiki/Semantic_data_model|EN.Wikipedia "Semantic data model"]].
+==== Smart Device Template ( SDT ) ====
+  *[[http://blog.bosch-si.com/categories/technology/2015/07/standards-smart-home-mit-osgi/|Bosch ConnectedWorld Blog "Standards: smart home using OSGi"]].
+  *[[http://www.homegatewayinitiative.org/|Home Gateway Initiative]] ( HGI ).
+    *[[http://www.github.com/Homegateway/|GitHub "Homegateway"]].
+      *[[http://www.github.com/Homegateway/RWD050-public|GitHub "Homegateway/RWD050-public"]].
+        *"This repository contains public information and code for the Smart Device Template (SDT) 2.0 modeling tools".
+        *"The SDT is a formal representation of device characteristic that are comprehensive enough to base APIs and protocols upon them".
+  *realwire.
+    *[[http://www.realwire.com/releases/HGI-Publishes-New-Open-Source-Tool-for-Smart-Device-Modelling|realwire "HGI Publishes New Open Source Tool for Smart Device Modelling"]], 2015-01-19.
+    *[[http://www.realwire.com/releases/HGI-and-Broadband-Forum-discuss-Device-Template-Smart-Home-Interoperability|realwire "HGI and Broadband Forum to discuss Device Template for Smart Home Interoperability"]], 2014-03-14.
+  *[[http://www.slideshare.net/mfrancis/the-role-of-osgi-technology-in-the-home-gateway-initiative-hgi-and-end-to-end-connectivity-and-service-provisioning-paolo-pastorino-chief-technology-and-chief-business-officer-home-gateway-initiative-project-manager-telecom-italia|SlideShare "The Role of OSGi Technology in the Home Gateway Initiative (HGI) and End to End Connectivity and Service Provisioning"]].
+  *[[http://www.stackoverflow.com/questions/106222/what-does-osgi-solve|StackOverflow "What does OSGi solve?"]].
+  *[[http://en.wikipedia.org/wiki/Home_Gateway_Initiative|EN.Wikipedia "Home Gateway Initiative"]].
+  *[[http://en.wikipedia.org/wiki/OSGi|EN.Wikipedia "OSGi"]], [[http://de.wikipedia.org/wiki/OSGi|DE.Wikipedia "OSGi"]] - "Die Spezifikation der OSGi Service Platform definiert eine Java-basierte Laufzeitumgebung oberhalb der JVM und deren Basisdienste. Ein bedeutendes Merkmal der Service-Plattform ist die Möglichkeit, dynamisch und kontrolliert Service-Anwendungen (sogenannte Bundles) zur Laufzeit einzuspielen und – vor allem – auch zu aktualisieren und wieder zu entfernen".
+  *[[http://en.wikipedia.org/wiki/Equinox_%28OSGi%29|EN.Wikipedia "Equinox (OSGi)"]], [[http://de.wikipedia.org/wiki/Equinox_%28OSGi-Framework%29|DE.Wikipedia "Equinox (OSGi-Framework)"]] - "Entstanden ist das Projekt 2003, als Eclipse auf eine Plug-in-basierte Struktur umgestellt werden sollte. Um das zu ermöglichen entschied man sich, die OSGi-Plattform zu verwenden. 2004 wurde mit Eclipse 3.0 die erste auf Equinox basierende Version veröffentlicht".
+==== Eclipse Vorto ====
+=== The Project ===
+  *[[http://www.eclipse.org/vorto/|Eclipse Vorto]], [[http://www.github.com/eclipse/vorto|GitHub "eclipse/vorto"]].
+=== Resources ===
+  *The Vorto Language is C / Java style.
+  *Critical feedback: Afterall, Vorto just describes the language interface by a list of functions with its parameters and return values :-(. This is known as class diagramm... or C/C++ header file.
+  *The ThingWorx server may parse Vorto description files.
+  *[[http://blog.bosch-si.com/categories/technology/2014/10/your-feedback-eclipse-iot-open-source-standardization-project/|Bosch ConnectedWorld Blog "Your feedback: Eclipse IoT open source standardization project"]].
+  *[[http://www.eclipsecon.org/na2015/session/vorto-project-advanced-device-integration|EclipseCon 2015 "The Vorto Project - Advanced Device Integration"]].
+  *[[http://jaxenter.de/bosch-schlagt-eclipse-projekt-vor-vorto-483|JAXenter "Bosch schlägt Eclipse-Projekt vor: Vorto"]].
+  *[[http://www.slideshare.net/stefferber/20141015-eclipse-webinarinfomodels|SlideShare "Webinar: The Vorto project proposal for Eclipse Internet of Things (IoT)"]].
 ===== Forums, Newsgroups =====
   *[[http://www.linkedin.com/groups?gid=795847|LinkedIn "FDT/DTM"]] - "For professional with FDT/DTM background or experience. Automation engineers with fieldbus experience and FDT /DTM Technlogy know how to connect to each other and share ideas".
 {{tag>"Device Description Language" "Electric Device Description" EDD "Electric Device Description Language" electric device description language parameterisation EDDL "FDT/DTM" FDT DTM}}

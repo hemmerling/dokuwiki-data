@@ -22,7 +22,7 @@
   *[[virtualworld.html|The Virtual World]].
   *[[vrml.html|Virtual Reality & Graphics]].
 ===== Business =====
-  *[[brainbench.html|Brainbench & Elance Certifications]].
+  *[[brainbench.html| Brainbench, Elance & IBM Kexana Certifications]].
   *[[ads.html|Classified Ads]].
   *[[competitions.html|Competitions]].
   *[[consulting.html|Consulting]].
@@ -56,6 +56,7 @@
 ===== Instrumentation, Simulation, Data Aquisition, Mathematical Engineering =====
   *[[instrumentation.html|Instrumentation]].
   *[[imageprocess.html|Image Processing]].
+  *[[logfileprocessing.html|Logfile Data Processing / Logfile Analysis / IT Operations Management]].
   *[[mathengineering.html|Mathematical Engineering]].
   *[[mathworks.html|MathWorks ( MATLAB / Simulink )]].
   *[[ni.html|National Instruments ( Labview, DIAdem )]].
@@ -99,7 +100,7 @@
   *Windows Installations.
     *[[windowsinst01.html|The Sequence of Steps of a Windows 2000 ( W2k ) Installation]].
     *[[windowsinst02.html|Windows Installations by USB Stick]].
-
+    *[[windowsinst03.html|The Sequence of Steps of a Windows 10 Pro ( Win10 Pro ) Installation]].
 ===== Management, Project Management, Quality Management, Industrial Engineering =====
   *[[bprocess.html|Business Processes & Business Process Modeling]].
   *[[bok.html|Body of Knowledge ( BoK )]].
@@ -116,6 +117,7 @@
   *[[qmanagement.html|Quality Management]].
   *[[sla.html|Service Level Agreements ( SLA ), Customer Charter]].
   *[[groupware.html|Team Software, Collaboration Software, Groupware & Application Lifecycle Management]].
+  *[[visualcreativity.html|Visual Creativity, Visual Thinking, Visual Facilitating & Visual Design]].
   *[[workflow.html|Workflow Engines]].
 ===== News, Informations, Society, Countries, States, Towns, Places =====
   *[[bielefeld.html|Bielefeld]].
@@ -146,10 +148,15 @@
   *[[fieldbus.html|Fieldbuses and Automation Networks]].
   *[[fritzbox.html|FRITZ!Box]].
   *[[iec61131.html|IEC 61131 Process Logic Control Programming PLC - PLC Systems, PLC Hardware, PLC Software]].
-   *Linux, Android.
-    *[[android.html|Google Android 1/3]].
-    *[[android02.html|Google Android 2/3 - Apps]].
-    *[[android03.html|Google Android 3/3 - App Development]].
+  *[[iolink.html|IO-Link]].
+  *Linux, Android.
+    *[[android.html|Google Android 1/6]].
+    *[[android02.html|Google Android 2/7 - Apps]].
+    *[[android03.html|Google Android 3/7 - App Development]].
+    *[[android04.html|Google Android 4/7 - App Debugging & Testing]].
+    *[[android05.html|Google Android 5/7 - Simulators, Skins, Operating Systems, System Images]].
+    *[[android06.html|Google Android 6/7 - App Protoyping]].
+    *[[android07.html|Google Android 7/7 - App Publishing]].
     *[[linux01.html|Linux 1/8]].
     *[[linux02.html|Linux 2/8 - Linux Distributions]].
     *[[linux03.html|Linux 3/8 - Linux Boot Loaders, Linux Build Systems, Linux Installers and Linux Implementors]].
@@ -171,11 +178,13 @@
     *[[win9x.html|Windows 3.x , Windows 9.x, Windows ME ( WinME )]].
     *[[winxp.html|Windows 2000, Windows XP, Windows 2003 Server]].
     *[[win7.html|Windows Vista, Windows 7, Windows Server 2008 and 2012, Windows 8]].
+    *[[win10.html|Windows 10, Windows Server 2016 & Nano Server]].
     *[[winembedded.html|Windows Embedded, Windows Embedded CE]].
     *[[windowsphone.html|Windows Phone]].
     *[[metro.html|Flat Design]].
   *[[network.html|Network Tools 1/2]].
   *[[network02.html|Network Tools 2/2 - Communications Hardware, Communication Applications & Drivers]].
+  *[[opc.html|OPC UA and OPC ( OLE for Process Control )]].
   *[[realtime.html|Realtime Operating Systems, Operating Systems for Embedded Systems, Distributed Operating Systems]].
   *[[remoteaccess.html|Remote Access Tools for Computers & Network Clients]].
   *[[safety01.html|Safety 1/2]].
@@ -188,22 +197,23 @@
   *[[c166.html|80166 / 80C166 / 83C166 / C166 / C167 / XC167 / XE166 / ST10 Embedded Systems]].
   *[[classicmac.html|Apple Macintosh Performa 5200]].
   *[[arm.html|ARM Embedded Systems ( ARM7, ARM8, ARM9, ARM11, Cortex )]].
-    *[[atmelarm.html|Atmel ARM-based MCUs and MPUs]].
+    *[[atmelarm.html|Atmel ARM-based MCUs and MPUs ( by Microchip Technology Inc. )]].
     *[[stm32.html|STMicroelectronics ARM-based MPUs]].
     *[[tinkerforge.html|Tinkerforge]].
   *[[atarist.html|The ATARI-ST, the ATARI Falcon & the world of Digital Data Deike]].
-  *[[atmel.html|The Atmel AVR Family with Focus on AVR32, ATxmega, ATmega, ATtiny, AT90 and the Arduino / Freeduino Platform]].
-    *[[avrhowto.html|How to develop with Atmel AVR Microcontrollers]].
-    *[[atmega.html|Atmel ATmega, ATtiny, AT90 & ATmega on the Arduino / Freeduino Platform]].
+  *[[atmel.html|The Atmel AVR Family ( by Microchip Technology Inc. ) with Focus on AVR32, ATxmega, ATmega, ATtiny, AT90 and the Arduino / Freeduino Platform]].
+    *[[avrhowto.html|How to develop with Atmel AVR Microcontrollers ( by Microchip Technology Inc. )]].
+    *[[atmega.html|Atmel ATmega, ATtiny, AT90 & ATmega ( by Microchip Technology Inc. )on the Arduino / Freeduino Platform]].
     *[[arduino.html|The Arduino / Freeduino Platform with Atmel ATmega, Microchip PIC, ARM, Freescale Coldfire]].
-    *[[atxmega.html|Atmel ATxmega ( "XMEGA" )]].
-    *[[atmelavr32.html|Atmel AVR32]].
+    *[[atxmega.html|Atmel ATxmega "XMEGA" ( by Microchip Technology Inc. )]].
+    *[[atmelavr32.html|Atmel AVR32 ( by Microchip Technology Inc. )]].
     *[[avr01.html|AVR Microcontrollers Expertness 1/4 - Typcial Error Messages of the Atmel AVR Toolchain]].
     *[[avr02.html|AVR Microcontrollers Expertness 2/4 - Atmel Studio 4 / 5 / 6 HowTo]].
     *[[avr03.html|AVR Microcontrollers Expertness 3/4 - Software Design for the Atmel Platform]].
     *[[avr04.html|AVR Microcontrollers Expertness 4/4 - USB Communications Device Class ( USB CDC )]].
   *[[altera.html|Altera ( now merged with Intel ) "System-on-a-Chip" ( SoC )]].
   *[[blackfin.html|Analog Devices "Blackfin"]].
+  *[[brick_devices.html|Brick Devices with Brick Concepts for IoT Applications]].
   *[[brickfirmware.html|Brick Firmware]].
   *[[computer.html|Computer / PC Hardware - PC Technical Support]].
   *[[desktoppc.html|Desktop PC - Requirements and Market Research]].
@@ -226,6 +236,7 @@
   *[[pic.html|Microchip PIC Microcontrollers & dsPIC Digital Signal Controllers]]
   *[[notebook.html|Notebooks]].
   *[[renesas.html|Renesas Interactive]].
+  *[[lenovo_thinkcentre.html|The Desktop Computer "Lenovo ThinkCentre 58p"]].
   *[[asus_t101mt.html|The Notebook "ASUS Eee PC T101MT"]].
   *[[asus_k95vb.html|The Notebook "ASUS K95VB"]].
   *[[datastorage.html|Data Storage on CD, DVD, Blue-Ray, Harddisk, Floppy Disk, Zip Disk, Memory Cards, Memory Sticks, Tape...]].
@@ -234,7 +245,7 @@
   *[[sis630chip3.html|SIS630 Computers 3/4 - Local brand names of Clevo Notebooks with SIS630S or SIS630ST Chipset]].
   *[[sis630chip4.html|SIS630 Computers 4/4 - Some other Computers with SIS630, SIS630S or SIS630ST Chipset]].
   *Smart Metering:
-    *[[smartblitzmerker.html|Smart Blitzmerker 1/2 - "Bring your own Device - Get your own Data" ( BYDD - GYOD  )]].
+    *[[smartblitzmerker.html|Smart Blitzmerker 1/2 - "Bring your own Device - Get your own Data" ( BYOD - GYOD  )]].
     *[[smartblitzmerker02.html|Smart Blitzmerker 2/2 - Telekom Innovation Contest]].
     *[[metering.html|Smart Metering]].
     *[[smarttechnology.html|Smart Technology]].
@@ -256,6 +267,7 @@
 ===== Rolf Hemmerling, personally =====
   *[[imprint.html|Imprint]].
   *[[privacy.html|Privacy Policy]].
+  *[[privacy001.html|Privacy Policy for the App "Conference Selfie"]].
   *[[profile.html|Profile]].
   *[[greetings.html|Audio Greetings]].
   *[[portraits.html|In the View of other Artists (Portraits)]].
@@ -297,6 +309,7 @@
 
 ==== Events ====
   *My calendar of events - the detailed list of internships, work placements, advanced trainings and other activities.
+    *[[calendar14.html|Events, visited by Rolf Hemmerling, 2017]].
     *[[calendar13.html|Events, visited by Rolf Hemmerling, 2016]].
     *[[calendar12.html|Events, visited by Rolf Hemmerling, 2015]].
     *[[calendar11.html|Events, visited by Rolf Hemmerling, 2014]].
@@ -362,7 +375,7 @@ My [[lectures.html| Lectures & Speeches]].
   *[[api.html|Application programming interface ( API )]].
   *[[ci.html|Continuous Integration ( CI ) & Continuous Delivery ( CD )]].
   *[[cpp.html|C, C++ for Windows & MSDOS]].
-  *[[codingdojo.html|Coding Dojo / Coding Kata / Randori / Code Retreat / Object Calisthenics / Hackathons / Hackfests /  / Programming Marathons / Elephant Carpaccio Exercise - Group-Awareness, Self-Awareness, Self-Training in Software Development as well as Developer Contests & Developer Challenges]].
+  *[[codingdojo.html|Coding Dojo / Coding Kata / Randori / Code Retreat / Object Calisthenics / Elephant Carpaccio Exercise - Group-Awareness, Self-Awareness, Self-Training in Software Development as well as Developer Contests & Developer Challenges]].
   *[[fizzbuzz01.html|Coding Dojo / Coding Cutter: How to play Kata FizzBuzz with JUnit]].
   *[[fizzbuzz02.html|Coding Dojo / Coding Cutter: How to play Kata FizzBuzz with NUnit]].
   *[[infographics.html|Data Visualisation with Infographics]].
@@ -374,14 +387,15 @@ My [[lectures.html| Lectures & Speeches]].
     *[[dsignage.html|Digital Signage]].
     *[[smil.html|Synchronized Multimedia Integration Language ( SMIL ) for Digital Signage]].
   *[[distributed.html|Distributed Computing & Parallel Computing]].
-  *[[dotnet.html|Microsoft .NET Framework 1/2]].
-  *[[dotnet02.html|Microsoft .NET Framework 2/2]].
+  *[[dotnet.html|Microsoft .NET Framework 1/3]].
+  *[[dotnet02.html|Microsoft .NET Framework 2/3]].
   *[[dotnet03.html|Microsoft .NET Framework 3/3]].
   *[[elaneumel.html|ELAN ( Educational LANguage ) / EUMEL ( Extendable Multi User Microprocessor ELAN-System )]].
   *[[forth.html|FORTH]].
   *[[functional.html|Functional Programming]].
   *[[reputationhowto.html|How to achieve Reputation with a public Software Project - Criteria & Proceedings]].
   *[[goodcoding.html|Good Coding ! - Software Coding, Coding Rules, Static Code Analysis, Code Reviews]].
+  *[[hackathon.html|Hackathons / Hackfests / Codefests / Programming Marathons - Developer Contests & Developer Challenges]].
   *[[helpsystem.html|Help Systems]].
   *[[java.html|Java & Java Platform Languages]].
   *[[linkeddata.html|Linked Data & Linked Open Data ( LOD )]].
@@ -415,6 +429,7 @@ My [[lectures.html| Lectures & Speeches]].
   *[[uscripting.html|Scripting Programming Languages for Unix / Linux and Windows]].
   *[[vagrant.html|Software Development with Vagrant & Chef on VirtualBox]].
   *[[sdocumentation.html|Software Documentation]].
+  *[[installcontrol.html|Software Installation as well as Desired State Control & State Monitoring of Software]].
   *[[smalltalk.html|Smalltalk]].
   *[[sframeworks.html|Software Frameworks]].
   *[[sdevtools.html|Software Development Tools]].
@@ -428,6 +443,12 @@ My [[lectures.html| Lectures & Speeches]].
   *[[tapi.html|Telephony APIs and Telephony API Services (TAPI)]].
   *[[usability.html|Usability]].
   *[[rest.html|Representational State Transfer ( REST )]].
+  *[[vanityfinder.html|VanityFinder]].
+    *[[vanityfinder.html|VanityFinder]].
+    *[[vanityfinder_ns.html|"Native" Online Version, for use with Java Swing]].
+    *[[vanityfinder_na.html|"Native" Online Version, for use with Java AWT]].
+    *[[vanityfinder_ps.html|"Plugin" Online Version, for use with Java Swing]].
+    *[[vanityfinder_pa.html|"Plugin" Online Version, for use with Java AWT]].
   *Web Technologies.
     *[[webtech.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 1/5]].
     *[[webtech02.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 2/5 - HTML & CSS]].
@@ -443,7 +464,7 @@ My [[lectures.html| Lectures & Speeches]].
   *[[sdl.html|ITU-T Specification and Description Language (SDL)]].
   *[[requirements.html|Requirements & Requirements Engineering]].
   *[[rmsoftware.html|Requirements Software & Software used for Requirements Engineering]].
-  *[[specbyex.html|Specification by Example]].
+  *[[specbyex.html|Specification by Example, Modelling by Example]].
   *[[systemdesign.html|System Design]].
   *[[testing.html|Testing]].
   *[[uml.html|Unified Modeling Language ( UML ), Systems Modeling Language ( SysML )]].
@@ -473,7 +494,7 @@ My [[lectures.html| Lectures & Speeches]].
   *[[accommodation.html|Accommodation - Rooms & Beds]].
   *[[cars.html|Economy Cars]].
   *[[cycling.html|Cycling]].
-  *[[table06|Göttingen - Bus Platform Table]].
+  *[[table06.html|Göttingen - Bus Platform Table]].
   *[[maps.html|Maps & Route Planners]].
   *[[table08.html|Telephone information services of the Deutsche Bahn AG]].
   *[[tourism.html|Tourism]].

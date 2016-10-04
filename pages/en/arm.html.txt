@@ -25,6 +25,17 @@ Related page:
         *Set clock.
         *Set peripherals ( after clock is set ).
         *Free IRQs.
+==== BBC Micro Bit, based on Cortex-M0 ====
+  *[[http://www.microbit.co.uk/|BBC Micro Bit]].
+    *[[http://www.bbc.co.uk/programmes/articles/4hVG2Br1W1LKCmw8nSm9WnQ/the-bbc-micro-bit|BBC "Make It Digital - The BBC micro:bit"]].
+    *[[http://www.bbc.co.uk/mediacentre/mediapacks/makeitdigital/micro-bit|BBC "Media Center - Make it Digital. BBC launches flagship UK-wide initiative to inspire a new generation with digital technology"]].
+    *[[http://www.arm.com/innovation/products/microbit.php|ARM Innovation Hub "BBC micro:bit. Technology puts kids in control"]].
+  *IDEs and programming languages:
+    -"MicroPython" -> See [[python.html|Python 1/10]].
+    -"Javascript", IDE [[http://www.codekingdoms.com/|Code Kingdoms]].
+    -Microsoft.
+  *[[http://en.wikipedia.org/wiki/Micro_Bit|EN.Wikipedia "Micro Bit"]].
+
 ==== Electric Imp, based on Cortex-M3 ====
   *[[http://www.electricimp.com/|electric imp]].
   *Wiki [[http://devwiki.electricimp.com/|electric imp Development Wiki]].
@@ -114,8 +125,8 @@ Related page:
 ==== Teensy ====
   *[[http://www.pjrc.com/teensy/| "Teensy USB Development Board"]] - ARM based microcontroller board, in Arduino Nano board format.
   *The Teensy board is also designed to run [[http://www.micropython.org/|Micro Python: Python for microcontrollers]], "a lean and fast implementation of the Python 3 programming language that is optimised to run on a microcontroller" -> See [[python.html|Python]].
-==== Tessel, Tessel 2 ====
-  *[[http://tessel.io/|Tessel]] - "Build your product faster. Tessel 2 is a development platform you can embed in a product. Build fast with Node.js/io.js, then optimize the hardware and build thousands".
+==== Tessel, Tessel 2 =====
+  *See [[brick_devices.html|Brick Devices with Brick Concepts for IoT Applications]].
 ===== Semiconductor Manufacturers =====
 ==== Analog Devices, Inc. -> Analog Devices Precision Analog Microcontrollers, based on ARM7 ====
   *[[http://www.analog.com/en/processors-dsp/analog-microcontrollers/products/index.html|Analog Devices, Inc. "Analog Microcontrollers"]] - "Analog Devices Precision Analog Microcontrollers".
@@ -139,23 +150,60 @@ Related page:
 === Cypress Semiconductor Corporation -> PSoC 4 ( ARM Cortex M0 ), PSoC 5 ( ARM Cortex M3 ), PSoC 7 ( ARM Cortex M4 ) CPUs ===
   *[[http://www.cypress.com/|Cypress Semiconductor Corporation]].
     *[[http://www.cypress.com/?id=1353|Cypress Semiconductor Corporation "Programmable System-on-Chip"]].
-  *The virtual online conference [[http://www.psocworld.com/|PSoc WORLD - THe most comprehensive virtual conference for embedded designers]], 2012-12-12 - 2012-12-13.
+=== Cypress Education & Training ===
+  *The virtual online conference [[http://www.psocworld.com/|PSoc WORLD - The most comprehensive virtual conference for embedded designers]], 2012-12-12 - 2012-12-13.
+  *Worshop dates:
+    *[[http://www.cypress.com/workshops|Cypress Semiconductor Corporation "Workshops"]].
+  *Workshop contents:
+    *[[http://www.cypress.com/resource-types/workshops/hands-training-workshop-introduction-ble-system-design|Cypress Semiconductor Corporation "Hands-On Training Workshop: Introduction to BLE System Design"]].
+    *[[http://www.cypress.com/resource-types/workshops/hands-training-workshop-introduction-psoc-4-ble-demo|Cypress Semiconductor Corporation "Hands-On Training Workshop : Introduction to PSoC® 4 (with BLE demo)"]].
+  *[[http://www.cypress.com/products/free-online-video-training-and-tutorials-cypress|Cypress Semiconductor Corporation "Free Online Video Training and Tutorials from Cypress"]].
 === Cypress Evaluation Boards with "PSoC 4" CPU ===
   *[[http://www.cypress.com/?rID=92146|Cypress Semiconductor Corporation "PSoC 4 CY8CKIT-049 4xxx Prototyping Kits"]].
+  *Website: 
+    *Products / PSOC4.
+    *Products / BLE.
 == My "CY8CKIT-042 PSoC 4 Pioneer Kit" ==
   *I got the [[http://www.cypress.com/?rid=77780|Cypress Semiconductor Corporation "CY8CKIT-042 PSoC 4 Pioneer Kit"]].
 == My "CY8CKIT-042-BLE Bluetooth Low Energy Pioneer Development Kit" ==
   *I got the [[http://www.cypress.com/?rid=102636|Cypress Semiconductor Corporation "CY8CKIT-042-BLE Bluetooth Low Energy Pioneer Development Kit"]].
+    *With the Cypress IDE, select "PSoC 4200 BLE" as target.
+    *I also got some upgrade hardware:
+      *[[http://www.cypress.com/documentation/development-kitsboards/cy8ckit-143a-psoc-4-ble-256kb-module-bluetooth-42-radio|Cypress Semiconductor Corporation "CY8CKIT-143A PSoC® 4 BLE 256KB Module with Bluetooth 4.2 Radio"]].
+      *[[http://www.cypress.com/documentation/development-kitsboards/cy5677-cysmart-bluetooth-low-energy-ble-42-usb-dongle|Cypress Semiconductor Corporation "CY5677 CySmart Bluetooth® Low Energy (BLE) 4.2 USB Dongle"]].
+      *[[http://www.cypress.com/documentation/development-kitsboards/cy5676-proc-ble-256kb-module|Cypress Semiconductor Corporation "CY5676 : PRoC BLE 256KB Module"]].
     *[[http://www.cypress.com/?rid=102635|Cypress Semiconductor Corporation "CySmart – Bluetooth LE Host Emulation Tool"]].
+      *The free legacy board kit [[http://www.cypress.com/file/180796|CY8CKIT-042-BLE KIT ONLY PACKAGE (Kit Design Files, Documentation, Examples)]].
+      *The free board kit [[http://www.cypress.com/file/232811|CY8CKIT-042-BLE KIT ONLY PACKAGE (Kit Design Files, Documentation, Examples), 1.0 Rev *E]].
+      *The free legacy software [[http://www.cypress.com/file/178371|Cypress Semiconductor Corporation "CySmart 1.1"]].
+      *The free software [[http://www.cypress.com/file/232776|Cypress Semiconductor Corporation "CySmart 1.2"]].
     *[[http://www.makezine.com/2015/01/16/hands-on-with-new-board-the-psoc-4-ble-pioneer-kit/|Make "Hands-On with New Board: the PSoC 4 BLE Pioneer Kit"]] - Tombola with chance to win one of 50 boards. I won!
     *The free Android app.
       *[[http://play.google.com/store/apps/details?id=com.cypress.cysmart&hl=en|Google Play "CySmart"]].
       *[[http://www.cypress.com/?rID=105179|Cypress Semiconductor Corporation "CySmart – Mobile App"]].
+      *I was told by Cypress staff members: If you ask the Cypress online support, access to the smartphone app source code is granted, for free.
   *Expert [[http://in.linkedin.com/pub/uday-agarwal/38/849/49/en|LinkedIn "Uday Agarwal"]].
+== My "S6SAE101A00SA1002 Solar-Powered IoT Device Kit" ==
+  *[[http://www.cypress.com/documentation/development-kitsboards/s6sae101a00sa1002-solar-powered-iot-device-kit|Cypress Semiconductor Corporation "S6SAE101A00SA1002 Solar-Powered IoT Device Kit"]].
+== CY8CKIT-043 PSoC 4 M-Series Prototyping Kit ==
+  *[[http://www.cypress.com/documentation/development-kitsboards/cy8ckit-043-psoc-4-m-series-prototyping-kit|Cypress Semiconductor Corporation "CY8CKIT-043 PSoC 4 M-Series Prototyping Kit"]].
+== CY5672 PRoC BLE Remote Control Reference Design Kit (RDK) ==
+  *[[http://www.cypress.com/documentation/development-kitsboards/cy5672-proc-ble-remote-control-reference-design-kit-rdk|Cypress Semiconductor Corporation "CY5672 PRoC™ BLE Remote Control Reference Design Kit (RDK)"]].
+  *The kit is shipped with a programing kit [[http://www.cypress.com/documentation/development-kitsboards/cy8ckit-002-psoc-miniprog3-program-and-debug-kit|Cypress Semiconductor Corporation "CY8CKIT-002 PSoC MiniProg3 Program and Debug Kit"]], which is sold by Cypress for more money than the whole remote kit :-).
 === Cypress Evaluation Boards with "PSoC 5" CPU ===
   *I got the [[http://www.cypress.com/?rID=51577|CY8CKIT - 050 PSoC 5LP Development Kit]].
 === Cypress IDE ===
   *The free IDE [[http://www.cypress.com/?id=2494|Cypress Semiconductor Corporation "PSoC Creator"]] for Windows. The supplied GNU-C compiler is not artificially restricted, i.e. there is no codesize limit.
+  *The IDE supports FPGA code design by the FPGA design language "Verilog", but not by the FPGA design language "VHDL".
+  *The IDE is shipped with a state machine editor.
+  *The IDE is shipped with the software "Datapath" to program the UDB.
+    *[[http://www.cypress.com/documentation/application-notes/an82156-psoc-3-psoc-4-and-psoc-5lp-designing-psoc-creator-components|Cypress Semiconductor Corporation "AN82156 - PSoC 3, PSoC 4, and PSoC 5LP - Designing PSoC Creator Components with UDB Datapaths"]].
+    *[[http://www.cypress.com/blog/psoc-sensei-blog/learn-how-use-datapath|Cypress Semiconductor Corporation Blog "PSoC Sensei Blog" - "Learn How to use the Datapath"]].
+    *[[http://www.cypress.com/blog/psoc-insiders-blog/designing-psoc-creator-components-udb-datapaths|Cypress Semiconductor Corporation "PSoC Insiders Blog" - "Designing PSoC Creator Components With UDB Datapaths"]].
+  *The IDE is shipped with the utility software "Bridge Control Panel" ( BCP ). By this you may communicate as I2C master with I2C clients ( e.g. embedded boards with I2C interface ).
+  *Microcontroller programming:
+    *Upgrade Firmware - just for the microcontroller kit, e.g. C48KIT.
+    *File - Upload for the USB stick.
 === Spansion Inc. ( formerly: Fujitsu  ), now merged with Cypress Semiconductor Corporation -> FM3 – Cortex-M3 Microcontrollers ===
 == Fujitsu ( - 2013 ) ==
   *[[http://www.fme.fujitsu.com/|Fujitsu Semiconductor Europe GmbH]].
@@ -178,7 +226,13 @@ Related page:
 Business from Fujitsu"]].
   *[[http://www.elektronikpraxis.vogel.de/speicher/articles/403684/|Elektronikpraxis "Spansion kauft Mikrocontroller- und Analog-Geschäft von Fujitsu"]], 2013-05-02.
 === Resources ===
-  *[[http://www.element14.com/community/thread/23736/l/100-projects-in-100-days|Element 14 Community "100 Projects in 100 Days"]].
+  *"100 Projects in 100 Days".
+    *[[http://www.github.com/cypresssemiconductorco/|GitHub "cypresssemiconductorco"]].
+      *[[http://www.github.com/cypresssemiconductorco/PSoC-4-BLE/|GitHub "cypresssemiconductorco / PSoC-4-BLE"]].
+        *[[http://www.github.com/cypresssemiconductorco/PSoC-4-BLE/tree/master/100_Projects_in_100_Days|GitHub "cypresssemiconductorco / PSoC-4-BLE/ 100_Projects_in_100_Days"]].
+    *[[http://cypress.hackster.io/|Hackster "Cypress Developer Community"]].
+    *[[http://www.element14.com/community/thread/23736/l/100-projects-in-100-days|Element 14 Community "100 Projects in 100 Days"]].
+    *[[http://www.cypress.com/blog/100-projects-100-days|Cypress Blog "Finding PSoC and BLE Projects Now Easier"]], 2016-03-01.
   *[[http://en.wikipedia.org/wiki/PSoC|EN.Wikipedia "PSoC"]], [[http://de.wikipedia.org/wiki/PSoC|DE.Wikipedia "PSoC"]].
 ==== Infineon XMC1000 ( -> Cortex M0 ), XMC4500 ( -> Cortex M4 ) ====
 === The Company & its Products ===
@@ -497,8 +551,18 @@ Registering new target content products
     *[[http://tls.mbed.org/|mbed "mbed TLS"]] ( formerly known as PolarSSL ) - SSL library.
 === Unlimited free / Open Source Development Systems ===
   -[[http://www.bipom.com/products/us/319589.html|BiPOM Electronics, Inc. "ARM Development System. The ultimate ARM Development system for FREE"]], for Windows.
-  -Em::Blocks / Code::Blocks.
+  -[[http://www.coocox.org/|CooCox]], [[http://www1.coocox.org/|CooCox (Old Website)]], [[http://www.coocox.org/download/Tools/|CooCox "Download / Tools" Archive]].
+    *The free CooCox CoIDE.
+    *The free CooCox CoFlash - "An easy-to-use stand-alone online flash programmer for ARM Cortex-M microcontrollers".
+    *The free [[http://www1.coocox.org/CoCenter.htm|CooCox CoCenter]] - "A software management platform".
+    *The free [[http://www1.coocox.org/CoAssistant.htm|CooCox CoAssistant]].
+    *The free discontinued [[http://www1.coocox.org/CooCox_CoDebugger.htm|CooCox CoDebugger]] - "CoDebugger has been integrated in CoIDE now".
+    *The free discontinued [[http://www1.coocox.org/CooCox_Builder.htm|CooCox CoBuilder]] - "CoBuilder has been integrated in CoIDE now".
+    *According to experts, the CooCox toolchain has just the usual basic debugging features, i.e.g start, stop, break.
+    *I was told by experts, that the IDE and the compiler supports the STMicroelectronics F0 MPU, but some other CPUs not ?!
+  - "Em::Blocks" and successor "EmBitz", both based on Code::Blocks".
     *[[http://www.emblocks.org/|Em::Blocks]].
+      *Version: 2.30, Date: 07 October 2014 - "This will be the last Em::Blocks release" :-(. 
       *Wiki [[http://www.emblocks.org/wiki/|Em::Blocks Wiki]].
         *[[http://www.emblocks.org/wiki/tutorials/f401_f429_disco|Em::Blocks Wiki "Tutorial in using F401C and F429I Discovery boards in hard Real-Time Control"]].
       *[[http://www.youtube.com/user/EmBlocks|YouTube Channel "EmBlocks"]].
@@ -506,14 +570,28 @@ Registering new target content products
       *"Free C/C++ IDE... EmBlocks can use any debug probe... The integrated STlink GDB server also supports Live Data and Semihosting", shipped with "armGCC" (EmBlocks bare-metal) C/C++ compiler.
       *"It all started with the use of [[http://www.codeblocks.org/|Code::Blocks]] as an IDE for embedded software development as a replacement for other Java written tools (e.g. MplabX) which were too slow or unstable".
       *[[http://www.mbed.org/users/dreschpe/notebook/offline-nucleo-development-with-emblocks/|mbed Forum "Offline Nucleo development with EmBlocks"]] - "The Em::Blocks IDE come with STM32 support out of the box".
+      *[[http://www.emblocks.org/forum/viewtopic.php?t=595|Em::Blocks Forum "Release new EmBitz version 0.42"]].
     *[[http://www.codeblocks.org/|Code::Blocks]], [[http://codeblocks.sourceforge.net/|SourceForge "Code::Blocks. Free, open-source, cross-platform C/C++ IDE"]], [[http://www.sourceforge.net/projects/codeblocks/|SourceForge "Code::Blocks. Free, open-source, cross-platform C/C++ IDE"]].
       *Wiki [[http://wiki.codeblocks.org/|Code::Blocks Wiki]].
       *[[http://en.wikipedia.org/wiki/Code::Blocks|EN.Wikipedia "Code::Blocks"]], [[http://de.wikipedia.org/wiki/Code::Blocks|DE.Wikipedia "Code::Blocks"]].
   -[[http://www.gnuarm.com/|GNU ARM toolchain]] for Windows/Cygwin, Linux.
   -[[http://www.hitex.com/index.php?id=539|Hitex Development Tools GmbH "GNU Compiler Collection (GCC)"]] - "All ARM and Cortex development tools from Hitex are delivered with a GNU compiler edition built and tested by Hitex".
+  -The free [[http://www.isystem.com/downloads/winidea/winideaopen|iSYSTEM AG für Informatiksysteme "winIDEA Open - Free Cortex software development and test platform supporting different debug hardware and evaluation board"]] for Windows and .NET 4.0, made with Visual Studio Shell (Isolated mode) 2010. 
+    *Blog [[http://embedded.typepad.com/isystems-smpo/|iSYSTEM AG für Informatiksysteme "iSystem News and Technical Blog"]].
+    *The free edition is just free for "Cortex M" development and is based on the "winIDEA – Verified for all architectures" edition. Be aware that the just-commercial edition "Verified for TriCore, MPC5xxx/SPC5xxx, RH850 and RL78/78K architecture" is not suitable for "Cortex M" development.
+    *How to download and install the free SDK for Python, "isystem connect SDK", with the free "winIDEA Open":
+      *Failure: 
+        *On the "iSYSTEM" website, there is no download of SDK for "winIDEA Open" editions :-(. Especially it is not suitable to mix different versions of tool and SDK.
+        *At the end of the installation process of "winIDEA Open", there is the message "Please click on link below to install isystem.connect SDKs. [[http://www.isystem.com/index.php/download/winidea-testidea-apis|isystem.connect SDKs on the web]]". The link just points to the standard SDK download page :-(.
+        *The menu item "Help / SDK / Download Python SDK" in the "winIDEA Open" application just points to the standard SDK download page :-(.
+      *Success: The only option to download and install the free SDK for Python is at "Help / SDK / Download Python SDK" in the "winIDEA Open" application :-), by which the download of e.g. [[http://www.isystem.si/SWUpdates/SDK/iSYSTEM.Python.SDK.9_12_209.zip|iSYSTEM.Python.SDK.9_12_209.zip]], [[http://www.isystem.si/SWUpdates/SDK/iSYSTEM.Python.SDK.9_12_238.zip|iSYSTEM.Python.SDK.9_12_238.zip]] is started.
   -[[http://www.siwawi.arubi.uni-kl.de/avr_projects/arm_projects/|Martin THOMAS "ARM Projects"]] - "WinARM" for Windows.
   -[[http://www.modularcircuits.com/blog/projects/development-tools/gcc-for-arm-avr-and-blackfin/|Modular Circuits "GCC for ARM, AVR and BlackFin"]].
+  -[[http://www.raisonance.com/|Raisonance SAS]].
+    *The free IDE [[http://www.raisonance.com/~ride7__microcontrollers__tool~tool__T018:4cw36y8a5c39.html|Raisonance SAS "Ride7"]] for Windows - "A free software tool that is available with Raisonance RKit C toolsets, RLink debugger/programmer and related tools such as our Primers and REva evaluation platforms".
   -The free [[http://www.mentor.com/embedded-software/sourcery-tools/sourcery-codebench/editions/lite-edition/|Sourcery CodeBench Lite Edition]] - "Sourcery CodeBench Lite Edition is a free, unsupported version of Sourcery CodeBench, available for select processors".
+  -The free [[http://www.openstm32.org/System+Workbench+for+STM32|OpenSTM32 Community. The STM32 Systems Resource "System Workbench for STM32"]] for Windows ( and soon for Linux ). 
+    *[[http://www.openstm32.org/Downloading+the+System+Workbench+for+STM32+installer?structure=Documentation|OpenSTM32 Community. The STM32 Systems Resource "Downloading the System Workbench for STM32 installer"]] - Download offer.
   -The free [[http://www.ti.com/starterware|Texas Instruments StarterWare]] for Windows and Linux - Software development for targets powered by some ARM and DSP CPUs ( AM1808, OMAPL138, C6748, AM335X ), but operating without operating system or even operating a low-level operating system.
     *[[http://processors.wiki.ti.com/index.php/StarterWare|Texas Instruments Embedded Processors Wiki "StarterWare"]].
   -[[http://www.yagarto.de/|YAGARTO - Yet another GNU ARM toolchain]] for Windows.
@@ -561,24 +639,6 @@ Registering new target content products
     *"The same installer is used for both the 30-day time-limited and the Kickstart (size-limited) evaluation edition. You select which evaluation license type you want to use after the installation. When you start the product for the first time, you will be asked to register to get your evaluation license".
     *You must delete the .package files ( e.g. "Selected.package",.. ) of the directory "C:\ProgramData\IARSystems\LicenseManagement\LicensePackages\ARM\EW\1\"  before you can activate a new evaluation key for a new, repeated evaluation period.
   *The free [[http://www.mentor.com/embedded-software/sourcery-tools/sourcery-codebench/lite-edition|Mentor Graphics "Sourcery CodeBench Lite Edition"]] for Windows - "A complete development environment for embedded C/C++ development on ARM, Power, Coldfire and other architectures".
-=== Free IDEs for ARM Development ===
-  *[[http://www.coocox.org/|CooCox]].
-    *The free [[http://www.coocox.org/CooCox_CoIDE.htm|CooCox CoIDE]] for Windows.
-    *The free [[http://www.coocox.org/CooCox_CoDebugger.htm|CooCox CoDebugger]] for Windows.
-    *The free [[http://www.coocox.org/CooCox_Builder.htm|CooCox CoBuilder]] - "An internet-based component-oriented embedded development platform, specially for ARM Cortex M chipset".
-    *According to experts, the CooCox toolchain has just the usual basic debugging features, i.e.g start, stop, break.
-    *I was told by experts, that the IDE and the compiler supports the STMicroelectronics F0 MPU, but some other CPUs not ?!
-  *The free [[http://www.isystem.com/downloads/winidea/winideaopen|iSYSTEM AG für Informatiksysteme "winIDEA Open - Free Cortex software development and test platform supporting different debug hardware and evaluation board"]] for Windows and .NET 4.0, made with Visual Studio Shell (Isolated mode) 2010. 
-    *Blog [[http://embedded.typepad.com/isystems-smpo/|iSYSTEM AG für Informatiksysteme "iSystem News and Technical Blog"]].
-    *The free edition is just free for "Cortex M" development and is based on the "winIDEA – Verified for all architectures" edition. Be aware that the just-commercial edition "Verified for TriCore, MPC5xxx/SPC5xxx, RH850 and RL78/78K architecture" is not suitable for "Cortex M" development.
-    *How to download and install the free SDK for Python, "isystem connect SDK", with the free "winIDEA Open":
-      *Failure: 
-        *On the "iSYSTEM" website, there is no download of SDK for "winIDEA Open" editions :-(. Especially it is not suitable to mix different versions of tool and SDK.
-        *At the end of the installation process of "winIDEA Open", there is the message "Please click on link below to install isystem.connect SDKs. [[http://www.isystem.com/index.php/download/winidea-testidea-apis|isystem.connect SDKs on the web]]". The link just points to the standard SDK download page :-(.
-        *The menu item "Help / SDK / Download Python SDK" in the "winIDEA Open" application just points to the standard SDK download page :-(.
-      *Success: The only option to download and install the free SDK for Python is at "Help / SDK / Download Python SDK" in the "winIDEA Open" application :-), by which the download of e.g. [[http://www.isystem.si/SWUpdates/SDK/iSYSTEM.Python.SDK.9_12_209.zip|iSYSTEM.Python.SDK.9_12_209.zip]], [[http://www.isystem.si/SWUpdates/SDK/iSYSTEM.Python.SDK.9_12_238.zip|iSYSTEM.Python.SDK.9_12_238.zip]] is started.
-  *[[http://www.raisonance.com/|Raisonance SAS]].
-    *The free IDE [[http://www.raisonance.com/~ride7__microcontrollers__tool~tool__T018:4cw36y8a5c39.html|Raisonance SAS "Ride7"]] for Windows - "A free software tool that is available with Raisonance RKit C toolsets, RLink debugger/programmer and related tools such as our Primers and REva evaluation platforms".
 === Free Debugger for ARM cores ===
   *[[http://developer.berlios.de/projects/openocd/|BerliOS "Open On-Chip Debugger"]].
     *[[http://openocd.sourceforge.net/|Sourceforge "Open On-Chip Debugger"]], [[http://www.sourceforge.net/projects/openocd|Sourceforge "Open On-Chip Debugger"]]  - "Free and Open On-Chip Debugging, In-System Programming and Boundary-Scan Testing".
@@ -690,6 +750,7 @@ Registering new target content products
   *[[http://simplemachines.it/doc/|SIM.ONE Technical Library]] - "ARM processors".
     *"The ARM Instruction Set ARM University Program - V1.0" - A tutorial set of slides explaining the ARMv4 instruction set.
   *[[http://www.siwawi.arubi.uni-kl.de/avr_projects/arm_projects/|Martin THOMAS "ARM Projects"]].
+  *[[http://www.openstm32.org/|OpenSTM32 Community. The STM32 Systems Resource]].
   *[[http://www.tinkerunity.org/|Tinker Unity - The Tinkerforge Community]].
   *[[http://en.wikipedia.org/wiki/ARM_architecture|EN.Wikipedia "ARM architecture"]], [[http://de.wikipedia.org/wiki/ARM-Architektur|DE.Wikipedia "ARM-Architektur"]].
 ===== Forums, Newsgroups =====
@@ -726,6 +787,7 @@ Registering new target content products
   *Silicon Labs.
     *The legacy [[http://forum.energymicro.com/|The Lizard Lounge - EFM32 Forum by Energy Micro]].
     *The [[http://forum.silabs.com/|Silicon Labs User Community Support Forums]], [[http://www.silabs.com/support/forums/|Silicon Labs User Community Support Forums]].
+  *[[http://www.openstm32.org/forums|OpenSTM32 Community - Forums]].
   *[[http://www.tinkerunity.org/forum/|Tinker Unity - The Tinkerforge Community, Forum]].
   *[[http://forums.xilinx.com/|Xilinx User Community Forums]].
   *XING.

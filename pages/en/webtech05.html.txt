@@ -10,17 +10,45 @@ Related pages:
   *[[webtech02.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 2/5 - HTML & CSS]].
   *[[webtech03.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 3/5 - Javascript]].
   *[[webtech04.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 4/5 - Javascript Development Tools]].
+===== Server-side Javascript Frameworks =====
+==== Crosswalk ====
+  *[[http://www.crosswalk-project.org/|Crosswalk]].
+    *[[http://www.crosswalk-project.org/documentation/about/faq.html|Crosswalk "FAQ"]].
+    *[[http://www.crosswalk-project.org/documentation/getting_started.html|Crosswalk "Get started with the Crosswalk Project"]] on Windows, Linux, Android, iOS.
+  *"If you prefer to use a graphical integrated development environment (IDE), the free Intel XDK provides an alternative way to package applications for Crosswalk Android. See the [[http://xdk-software.intel.com/|Intel XDK website]] for more details".
+  *[[http://en.wikipedia.org/wiki/Crosswalk_Project|EN.Wikipedia "Crosswalk Project"]].
+
 ===== Server-side event-driven Javascript Frameworks =====
-==== Microcontrollers with Node.js alike Firmware ====
+==== Microcontrollers with Node.js alike Firmware and Node.js Firmware ====
 === Tessel ===
-  *See [[arm.html|ARM Embedded Systems ( ARM7, ARM8, ARM9, ARM11, Cortex )]]. 
+== Tessel 1 ==
+  *See [[brick_devices.html|Brick Devices with Brick Concepts for IoT Applications]].
+  *"Tessel 1" is a bare-metal board shipped with legacy Node.js Firmware "0.12".
+== Tessel 2 ==
+  *"Tessel 2" is a Linux board shipped with current Node.js Firmware.
+  *[[http://www.sparkfun.com/j5ik|Sparkfun "Johnny-Five Inventor's Kit Featuring The Tessel 2"]] - "The Johnny-Five Inventor's Kit: The only kit designed for getting started with Johnny-Five!".
 === Espruino ===
   *See [[arm.html|ARM Embedded Systems ( ARM7, ARM8, ARM9, ARM11, Cortex )]]. 
+  *Espruino is shipped with Node.js alike Firmware.
+=== Intel Galileo with "Intel XDK IoT Edition" ===
+== Hardware ==
+  *See [[embedded.html|Embedded Systems]].
+== Intel XDK for IOT ==
+  *[[http://software.intel.com/en-us/iot/software/ide/intel-xdk-iot-edition|Intel Developer Zone "IoT" - "Intel XDK IoT Edition"]] - "Node.js* is great for creating web interfaces. It works well with cloud connectivity to get your IoT devices communicating with one another quickly". Download offer.
+  *[[http://www.github.com/intel-iot-devkit/|Github "intel-iot-devkit"]].
+  *[[http://iotdk.intel.com/docs/master/mraa/|mraa  1.1.2. Low Level Skeleton Library for Communication on GNU/Linux platforms]] - "Libmraa is a C/C++ library with bindings to Python, Javascript and Java to interface with the I/O on Galileo, Edison & other platforms, with a structured and sane API where port names/numbering matches the board that you are on. Use of libmraa does not tie you to specific hardware with board detection done at runtime you can create portable code that will work across the supported platforms. The intent is to make it easier for developers and sensor manufacturers to map their sensors & actuators on top of supported hardware and to allow control of low level communication protocol by high level languages & constructs".
+== Resources ==
+  *[[http://software.intel.com/en-us/iot/software/ide|Intel Developer Zone "IoT" - "Intel IoT Developer Kit Integrated Development Environments"]] - "The Intel IoT Developer Kit is programmable using Arduino*, C/C++, JavaScript*, Node.js*, and Python*. Explore below to find the best solution for you".
+  *[[http://software.intel.com/en-us/getting-started-with-the-intel-xdk-iot-edition|Intel Developer Zone "IoT" - "Getting started with the Intel XDK IoT Edition"]].
+  *[[http://software.intel.com/en-us/intel-xdk-iot-edition-guide|Intel Developer Zone "IoT" - "Intel XDK IoT Edition User Guide"]].
+  *[[http://software.intel.com/en-us/iot/software/installers|Intel Developer Zone "IoT" - "Setup Tools and Installers"]].
+  *[[https://software.intel.com/en-us/xdk/docs/lp-xdk-iot-edition|Intel Developer Zone "IoT / Resources" - "Intel XDK IoT Edition "]].
+
 ==== Node.js ====
 === The Tool ===
   *[[http://www.nodejs.org/|Node.js]] - "A platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications".
     *Blog [[http://blog.nodejs.org/|NodeJS Blog]].
-    *[[http://www.nodejs.org/dist/v0.10.40/|Node.js v0.10.40]] for Windows is the latest stable edition which runs on my Athlon XP20400 computer ( = Pentium III CPU ). The latest edition [[http://www.nodejs.org/dist/v0.11.14/|Node.js v0.11.14]] for Windows with Pentium-IIE CPUs is unstable. Later editions requrire a Pentium-IV CPU.
+    *[[http://www.nodejs.org/dist/|NodeJS Archive]].
     *[[http://www.nodejs.org/api/all.html|Node.js Manual & Documentation - View on single page]].
     *The 48-hour online node.js hackathon [[http://www.nodeknockout.com/|node ko]], 2012-11.
     *[[http://www.npmjs.org/|npm]] - "Package manager. Installs, publishes and manages node programs".
@@ -28,6 +56,22 @@ Related pages:
     *[[http://blog.appfog.com/new-horizons-in-node-js-app-js-and-webrtc/|Appfog Blog, Luc Perkins "New horizons in Node.js: App.js and WebRTC"]], 2012-10-15.    
     *[[http://www.overapi.com/nodejs/|OverAPI.com "NodeJS Cheat Sheet"]] #.
     *[[http://ask.xmodulo.com/install-node-js-linux.html|Ask Xmodulo. Find answers to commonly asked Linux questions "How to install Node.js on Linux"]] #.
+  *[[http://www.iojs.org/|JavaScript I/O. Bringing ES6 to the Node Community!]].
+    *"io.js is an npm compatible platform originally based on Node.js".
+    *"io.js has merged with the Node.js project again. There won't be any further separate io.js releases (except for critical security fixes). All of the features in io.js are available in Node.js v4 and above".
+=== Major Editions ===
+  *[[http://www.nodejs.org/dist/|NodeJS Archive]].
+== 0.10.40 Legacy for W2K ==
+  *[[http://www.nodejs.org/dist/v0.10.40/|Node.js v0.10.40]] for Windows is the latest stable edition which runs on my Athlon XP20400 computer ( = Pentium III CPU ). The latest edition [[http://www.nodejs.org/dist/v0.11.14/|Node.js v0.11.14]] for Windows with Pentium-III CPUs is unstable. Later editions requrire a Pentium-IV CPU.
+== v0.12.10 Legacy for Tessel ==
+  *[[https://nodejs.org/dist/v0.12.10/|NodeJS v0.12.10]].
+== v4.x LTS ==
+  *[[http://nodejs.org/dist/v4.4.7/|NodeJS v4.4.7]] or newer.
+== v5.x, v6x, v7,... ==
+  *[[http://nodejs.org/dist/v6.2.2/|NodeJS v6.2.2]] or newer.
+== Resources ==
+  *[[http://www.github.com/nodejs/LTS/|Github "Nodejs/LTS" - "Node.js Long-term Support Working Group"]] - Infographic "Node.js Long Term Support Release Schedule".
+  *[[http://www.nativescript.org/blog/details/which-versions-of-node.js-should-you-use-today|NativeScript CLI "Which versions of Node.js should you use today"]], 2015-12-01 - "The 'which version should I use' question is easy too: the latest release in Long-term support branch, which at the time of writing is the 4.2 one".
 === Online Services with Node.JS Servers for Javascript Development ===
   *[[http://www.c9.io/|Cloud9]].
     *"Cloud 9 IDE is a different... It runs straight out of the browser. Cloud 9 IDE is a hosted service and it’s free for open source projects".
@@ -37,6 +81,12 @@ Related pages:
 === Javascript Frameworks & Tools built on Node.js ===
 == Bower ==
   *[[http://www.bower.io/|Bower]] - "A package manager for the web".
+== Cylon.js ( for Robotics & IOT ) ==
+  *[[http://www.cylonjs.com/|Cylon.js]] - "JavaScript framework for robotics, physical computing, and the Internet of Things using Node.js", "JavaScript Robotics, By Your Command Next generation robotics framework with support for 43 different platforms".
+    *[[http://www.github.com/hybridgroup/cylon|Github "hybridgroup/cylon"]] - "JavaScript framework for robotics, drones, and the Internet of Things (IoT)".
+    *[[http://www.npmjs.com/package/cylon|npm "cylon"]].
+    *[[http://www.twitter.com/cylonjs|Twitter "cylon.js, @CylonJS"]].
+  *[[http://www.postscapes.com/javascript-for-robots-a-iot-cylonjs/|Postscapes "Cylon.JS. JavaScript robotics, by your command"]].
 == Control software for Drones ==
   *"NodeCopter" & other Node.js based control software for drones / helicopters -> See [[robotics.html|Robotics ( Robots, Drones, Industry Automation, Remote Controlled Devices, Artificial Intelligence )]].
 == Express ==
@@ -49,7 +99,15 @@ Related pages:
   *[[http://www.npmjs.com/package/handlebars|npm "handlebars"]] - "It provides the power necessary to let you build semantic templates effectively with no frustration".
   *[[http://jade-lang.com/|Jade - Node Template Engine]], [[http://www.github.com/visionmedia/jade|Github "visionmedia/jade"]].
     *[[http://www.npmjs.com/package/mustache|npm "mustache - Logic-less {{mustache}} templates with JavaScript"]].
-=== Node-Inspector ===
+== Johnny-Five ( for Robotics & IOT ) ==
+  *Software:
+    *[[http://www.johnny-five.io/|Johnny-Five]] - "The JavaScript Robotics & IoT Platform".
+  *Hardware:
+    *See ""The Johnny-Five Inventor's Kit".
+== MQTT.JS ==
+  *[[http://www.github.com/mqttjs|Github "mqttjs"]].
+  *[[http://www.npmjs.com/package/mqtt|NPM "mqtt"]].
+== Node-Inspector ==
   *[[http://www.github.com/node-inspector/|GitHub "node-inspector/"]] - "Node.js debugger".
 == Node-RED ==
   *[[http://www.nodered.org/|Node-RED - A visual tool for wiring the Internet of Things]], [[http://www.github.com/node-red|GitHub "node-red"]].
@@ -61,6 +119,11 @@ Related pages:
       *Video [[http://www.youtube.com/watch?v=f5o4tIz2Zzc|YouTube "Node Red in 5 minutes"]].
 == Webkit ==
   *[[http://www.nwjs.io/|NW.js]], [[https://www.github.com/nwjs/|GitHub "nwjs"]] ( formerly: "node-webkit" ) - "Call all Node.js modules directly from DOM and enable a new way of writing applications with all Web technologies".
+== yargs ==
+  *[[http://yargs.js.org/|Yargs]] - "Helps you build interactive command line tools by parsing arguments and generating an elegant user interface".
+  *[[http://www.npmjs.com/package/yargs|NPM "yargs"]].
+  *[[http://www.ricostacruz.com/cheatsheets/yargs.html|The great cheatsheet for Yargs]].
+  *[[http://www.davidwalsh.name/nodejs-arguments-yargs|DWB "Get Node.js Command Line Arguments with yargs"]].
 === Tips & Tricks ===
   *Installation:
     -"sudo apt-get install npm".
@@ -200,6 +263,19 @@ Related pages:
   *[[http://www.createjs.org/|Createjs]] - "A comprehensive web editing interface for Content Management Systems. It is designed to provide a modern, fully browser-based HTML5 environment for managing content".
 ==== D3.js - Data-Driven Documents ====
   *[[http://www.d3js.org/|D3.js - Data-Driven Documents]], [[http://www.github.com/mbostock/d3|GitHub "mbostock/d3"]].
+==== DroidScript ====
+  *[[http://www.droidscript.org/|DroidScript]].
+  *[[http://play.google.com/store/apps/details?id=com.smartphoneremote.androidscriptfree|Google Play "DroidScript - JavaScript IDE"]].
+  *Wiki [[http://wiki.droidscript.me.uk/|DroidScript Wiki (formerly AndroidScript wiki)]] - "DroidScript (was AndroidScript) is a free Android app that allows us to write genuine Android apps in JavaScript".
+==== Eclipse Scout ====
+  *[[http://www.eclipse.org/scout/|Eclipse Scout - Future Proof Business Applications]].
+  *Wiki [[http://wiki.eclipse.org/Scout|Eclipse Wiki "Scout. Eclipse Scout - Future Proof Business Applications"]] - "Scout applications are based on Java/HTML5 and run on desktop, tablet, and mobile devices".
+  *IDE [[http://www.eclipse.org/downloads/packages/eclipse-scout-developers/neonr|Eclipse for Scout Developers]] for Win, Linux.
+==== Enyo ====
+  *[[http://www.enyojs.com/|Enyo]], [[http://www.github.com/enyojs/|GitHub "Enyo JavaScript framework"]].
+    *"A framework for building native-quality HTML5 apps that run everywhere".
+    *"Enyo has powered apps for Palm phones, the HP TouchPad and now the 2014 LG Smart TV".
+
 ==== greuler - graph theory visualizations ====
   *[[http://maurizzzio.github.io/greuler/|GitHub.io "greuler - graph theory visualizations"]], [[http://github.com/maurizzzio/greuler|GitHub "maurizzzio/greuler"]].
 ==== hopscotch ====
@@ -244,6 +320,14 @@ Related pages:
   *[[http://www.meteorhacks.com/|Meteorhacks]].
     *[[http://www.meteorhacks.com/meteor-js-web-framework-for-everyone.html|Meteorhacks "Meteor.js - A web framework for everyone"]].
     *[[http://en.wikipedia.org/wiki/Meteor_%28web_framework%29|EN.Wikipedia "Meteor (web framework)"]].
+==== Mithril ====
+  *[[http://mithril.js.org/|Mithril]], [[http://lhorie.github.io/mithril/|Github.IO "Mithril"]], [[http://www.github.com/lhorie/mithril|GitHub "lhorie/mithril"]] - "A Javascript Framework for Building Brilliant Applications".
+  *Wiki [[http://www.github.com/lhorie/mithril.js/wiki|Github Wiki "Mithril wiki"]].
+  *[[http://www.tutory.de/|tutory]] - "Killer application" for Mithril :-).
+  *Experts told me that "Mithril" is a very slim framework which just creates and handles a "Virtual DOM", similar to the "React" framework.
+    *[[http://conferences.oreilly.com/fluent/fluent2014/public/schedule/detail/32395|O'Reilly Fluent Conference "The Secrets of React's Virtual DOM: JavaScript, HTML5, CSS3"]].
+    *[[http://www.tonyfreed.com/blog/what_is_virtual_dom|Tony Freed "What is Virtual Dom"]].
+    *[[http://facebook.github.io/react/docs/glossary.html|Github.IO "Facebook React" - "React (Virtual) DOM Terminology"]].
 ==== Mousetrap ====
   *[[http://www.craig.is/killing/mice|Mousetrap]], [[http://www.github.com/ccampbell/mousetrap|Github "ccampbell/mousetrap"]] - "A simple library for handling keyboard shortcuts in Javascript".
 ==== Cordova / Phonegap ====
@@ -261,15 +345,22 @@ Related pages:
 ==== RAD.js ====
   *[[http://www.rad-js.com/|RAD.js]] - "Optimized for iOS, Android, also supports Chrome, Firefox, Opera, Safari, IE 10, Windows Phone 8" ##.
     *[[http://www.mobidev.biz/blog/radjs_%E2%80%93_a_breakthrough_in_cross-platform.html|MobiDev "RAD.js – A Breakthrough In Cross-Platform"]], 2013-09-24.
+==== React Native ====
+  *[[http://www.reactnative.com/|Use React Native]].
+  *[[http://facebook.github.io/react-native/|GitHub.io "React Native. A framework for building native apps using React"]], [[http://www.github.com/facebook/react-native|GitHub "facebook/react-native"]].
+  *I was told by experts that [[http://www.newstore.com/|NewStore]] is a reference user, in 2016 :-). 
 ==== REST-based Javascript Frameworks ====
   *See [[rest.html|Representational State Transfer ( REST )]].
 ==== Resumable.js ====
   *[[http://www.resumablejs.com/|Resumable.js]], [[http://www.github.com/23/resumable.js|Github "23/resumable.js"]] - "A JavaScript library for providing multiple simultaneous, stable, fault-tolerant and resumable/restartable uploads via the HTML5 File API.
 
 ==== Sencha Inc. ====
-  *[[http://www.sencha.com/products/touch/|Sencha Touch 2 - Build Mobile Web Apps with HTML5]].
-  *[[http://www.sencha.com/|Sencha Inc. "Ext JS"]].
+  *[[http://www.sencha.com/products/architect/|Sencha Architect]] - "Accelerate HTML5 application development using Sencha Architect".
+  *[[http://www.sencha.com/products/extjs/#overview|Sencha Ext JS]] - "Create feature-rich HTML5 applications using JavaScript".
     *[[http://en.wikipedia.org/wiki/Ext_JS|EN.Wikipedia "Ext JS"]], [[http://de.wikipedia.org/wiki/Ext_JS|DE.Wikipedia "Ext JS"]].
+  *[[http://www.sencha.com/products/gxt/#overview|Sencha GXT]].
+  *[[http://www.sencha.com/products/test/|Sencha Test]].
+  *[[http://www.sencha.com/products/touch/|Sencha Touch 2 - Build Mobile Web Apps with HTML5]].
   *[[http://fb.html5isready.com/|Fastbook]].
     *[[http://www.sencha.com/blog/the-making-of-fastbook-an-html5-love-story|Sencha Blog "The Making of Fastbook: An HTML5 Love Story"]], 2012-12-17.[[http://t3n.de/news/fastbook-startup-baut-433334/|t3n "Fastbook: Startup baut Facebook-App in HTML5 – Schneller als offizielle App"]], 2012-12-19.
 ==== Socket.IO ====

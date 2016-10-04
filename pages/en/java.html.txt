@@ -49,6 +49,11 @@
   *[[http://www.doppiojvm.org/|Doppio: A JVM in JavaScript]], [[http://int3.github.io/doppio/|GitHub "Doppio. Java on Coffeescript"]], [[https://github.com/int3/doppio|GitHub "int3/doppio - A JVM in TypeScript"]].
 === Java Plugin ===
   *Supplied with standard Java runtime, on Windows, MacOSX and Linux.
+  *[[http://www.java.com/en/download/help/jcp_security.xml|Java "How do I control when an untrusted applet or application runs in my web browser?"]].
+  *[[http://docs.oracle.com/javase/8/docs/technotes/guides/jweb/applet/using_tags.html|Oracle Java Documentation "Using applet, object and embed Tags"]].
+  *[[http://www.oracle.com/technetwork/java/javase/family-clsid-140615.html|Oracle Technology Network "Deploying Java Applets With Family JRE Versions in Java Plug-in for Internet Explorer"]].
+  *[[http://www.stackoverflow.com/questions/5947063/how-to-specify-correctly-codebase-and-archive-in-java-applet|StackOverflow "How to specify correctly codebase and archive in Java applet?"]].
+  
 ==== Some other Platforms ====
   *[[http://harmony.apache.org/|Apache Harmony]] - "Open Source Java SE".
     *[[http://en.wikipedia.org/wiki/Apache_Harmony|EN.Wikipedia "Apache Harmony"]], [[http://de.wikipedia.org/wiki/Apache_Harmony|DE.Wikipedia "Apache Harmony"]].
@@ -76,7 +81,14 @@
   *The OpenSource [[https://developer.mozilla.org/en-US/docs/Rhino|Mozilla "Rhino"]] - "An open-source implementation of JavaScript written entirely in Java".
   *The OpenSource [[http://jruby.org/|JRuby]].
   *The OpenSource [[http://www.jython.org/|Jython: Python for the Java Platform]].
-  *The free, maybe soon OpenSource [[http://www-01.ibm.com/software/awdtools/netrexx/library/netrexxo.html|IBM NetRexx]].
+  *The free, maybe soon OpenSource [[http://www.ibm.com/software/awdtools/netrexx/library/netrexxo.html|IBM NetRexx]].
+  *The OpenSource [[http://www.kotlinlang.org/|Kotlin]], [[https://github.com/JetBrains/kotlin|GitHub "JetBrains/kotlin"]] - "Statically typed programming language for the JVM, Android and the browser".
+    *Blog [[http://blog.jetbrains.com/kotlin/|Kotlin Blog]].
+    *[[http://en.wikipedia.org/wiki/Kotlin_%28programming_language%29|EN.Wikipedia "Kotlin (programming language)"]], [[http://de.wikipedia.org/wiki/Kotlin_%28Programmiersprache%29|DE.Wikipedia "Kotlin (Programmiersprache)"]].
+  *The OpenSource Javascript engine "Nashorn".
+    *[[http://www.oracle.com/technetwork/articles/java/jf14-nashorn-2126515.html|Oracle "Oracle Nashorn: A Next-Generation JavaScript Engine for the JVM"]].
+    *[[http://openjdk.java.net/projects/nashorn/|OpenJDK "Nashorn"]].
+    *[[http://en.wikipedia.org/wiki/Nashorn_%28JavaScript_engine%29|EN.Wikipedia "Nashorn (JavaScript engine)"]].
   *The OpenSource ( process ) visualisation builder [[http://processing.org/|Processing]]. 
     *[[http://www.processing.org/reference/|Language API]] for the "Processing Language". 
     *"The Processing Language has been designed to faciliate the creation of sophisticated visual and conceptual structures".
@@ -232,12 +244,26 @@ Finish. //
   *[[http://www.roseindia.net/jdotutorials/|Rose India Technologies PVT, LTD. "JDO - Java Data Objects Tutorials"]].
 ==== J2EE & Spring ====
 === J2EE ===
-  *[[http://www.glassfish.org/|Glassfisch]], the Java EE 7 sample implementation.
+== The Framework ==
   *[[http://javaee-spec.java.net/|Java.net "Java EE Platform Specification"]].
+== Glassfish ==
+  *[[http://www.glassfish.org/|Glassfisch]], the Java EE 7 sample implementation.
   *Blog [[http://blogs.oracle.com/theaquarium|The Aquarium. News from the GlassFish Community]].
   *[[http://wiki.netbeans.org/JavaEE7|Netbeans Wiki "JavaEE7"]].
   *[[http://www.twitter.com/glassfish|Twitter "GlassFish, @glassfish"]].
   *[[http://www.twitter.com/java_ee|Twitter "Java EE Platform, @Java_EE"]].
+== Resources ==
+  *How to start Glassfisch:
+    *The default domain called 'domain1' is installed and preconfigured.
+    *To start GlassFish, just go in the "bin" directory of the GlassFish installation is located and execute the shell command "asadmin start-domain".
+    *To start GlassFish, execute the shell command "asadmin stop-domain".
+    *After a few seconds, GlassFish will be up and ready to accept requests. The default 'domain1' domain is configured to listen on port 8080. In your browser, go to [[http://localhost:8080|http://localhost:8080]] to see the default landing page.
+    *To manage GlassFish, just go to web administration console: [[http://localhost:4848|http://localhost:4848]].
+  *[[http://www.stackoverflow.com/questions/18045897/how-to-run-glassfish-4-on-port-80-instead-of-8080-root-acess-is-not-an-issue|StackOverflow "How to run glassfish 4 on port 80 instead of 8080. root acess is not an issue.?"]].
+    *Web administration console [[http://localhost:4848|http://localhost:4848]]: "Configurations / Network Config / Network Listeners".
+      *"admin-listener" - port 4848.
+      *"http-listener1" - port 8080 -> Click on the link "http-listener1", modify "Port" from "8080" to "80".
+      *"http-listener2" - port 8181.
   *[[http://en.wikipedia.org/wiki/Java_Platform,_Enterprise_Edition|EN.Wikipedia "Java Platform, Enterprise Edition"]], [[http://de.wikipedia.org/wiki/Java_Platform,_Enterprise_Edition|DE.Wikipedia "Java Platform, Enterprise Edition"]].
 === The Oracle Application Development Framework ( ADF ) ===
   *The free [[http://www.oracle.com/technetwork/developer-tools/adf/overview/adfessentials-1719844.html|Oracle "Oracle ADF Essentials. Faster and Simpler Java-based Application Development - Now Free"]].
@@ -262,12 +288,24 @@ Finish. //
   *[[http://www.oracle.com/technetwork/java/javafx/downloads/index.html|Oracle "JavaFX"]].
   *[[http://www.oracle.com/technetwork/java/javase/documentation/javafx-docs-2159875.html|Oracle "JavaFX Documentation"]].
   *[[http://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase8-2177648.html|Oracle "Java SE 8 Archive Downloads"]] - "Java SE Development Kit 8", "Linux ARM v6/v7 Hard Float ABI", "jdk-8-linux-arm-vfp-hflt.tar.gz" is the latest edition shipped with JavaFX.
+  *JavaFX offers "Data Binding" ( [[http://en.wikipedia.org/wiki/Data_binding|EN.Wikipedia "Data binding"]] as .NET with Windows Presentation Foundation ( WPM ). In opposite, "Java Swing" and "Java AWT" don´t offer such.
+    *Application of "Data Binding": The GUI element offers properties, which can be linked by "Data Binding" with other properties of other GUI elements. You even may do mathematical or logical calculations to define the status of a GUI property, based on other GUI properties of other GUI elements.
+    *Example for "Data Binding": A GUI button is active just if some text is entered in a textfield.
 == FXML ==
   *Tutorial [[http://docs.oracle.com/javafx/2/fxml_get_started/jfxpub-fxml_get_started.htm|Oracle "JavaFX Documentation Home  / Mastering FXML"]].
     *[[http://docs.oracle.com/javase/8/javafx/fxml-tutorial/why_use_fxml.htm|Oracle "JavaFX: Mastering FXML"]] - "1 Why Use FXML".
   *[[http://docs.oracle.com/javafx/2/get_started/fxml_tutorial.htm|Oracle "Getting Started with JavaFX"]] - "4 Using FXML to Create a User Interface".
   *[[http://code.makery.ch/library/javafx-8-tutorial/part1/| code.makery. Learning how to code "JavaFX 8 Tutorial - Part 1: Scene Builder"]] - "Create the FXML Layout File".
   *[[http://en.wikipedia.org/wiki/FXML|EN.Wikipedia "FXML"]].
+== Model View ViewModel ( MVVM ) for JavaFX ==
+  *[[http://www.mvvmfx.de/|mvvmFX - The missing piece für MVVM mit JavaFX]], [[http://github.com/sialcasa/mvvmFX/|GitHub "sialcasa/mvvmFX"]] by [[http://www.lestard.eu/|Manuel Mauky]] and [[http://max-wielsch.blogspot.de/|Max Wielsch]].
+  *Wiki [[http://github.com/sialcasa/mvvmFX/wiki|GitHub Wiki "sialcasa/mvvmFX"]].
+  *MVVM is for "JavaFX", what "Model View Controller" ( MVC ) is for "Java Swing". Both are ok for object-oriented software, in general. With functional progamming, a different approach like [[https://www.flux.io/|FLUX]] would be advisable.
+  *[[http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel|EN.Wikipedia "Model–view–viewmodel"]], [[http://de.wikipedia.org/wiki/Model_View_ViewModel|DE.Wikipedia "Model View ViewModel"]].
+== ControlsFx for JavaFX ==
+  *[[ttp://www.controlsfx.org/|ControlsFX]], [[http://www.fxexperience.com/controlsfx/|FX Experience "ControlsFX"]], [[http://www.bitbucket.org/controlsfx/controlsfx/|Bitbucket "ControlsFX"]].
+  *Experts told me, that the "validation support" functions are suitable for MVC framework applications ( e.g. "Java Swing" ), but not for MVVM ( e.g. "JavaFX" ).
+  *[[http://controlsfx.bitbucket.org/|Bitbucket JavaDocs "controlsfx"]].
 == Java IDEs, with support to develop JavaFX applications ( as of 2015-10 ) ==
   *Netbeans 8.02.
   *JavaFX Scene Builder 2.0.
@@ -295,7 +333,6 @@ Finish. //
   *[[http://en.wikipedia.org/wiki/Naked_Objects|EN.Wikipedia "Naked Objects"]], [[http://de.wikipedia.org/wiki/Naked_Objects|DE.Wikipedia "Naked Objects"]].
   *[[http://en.wikipedia.org/wiki/Plain_Old_Java_Object|EN.Wikipedia "Plain Old Java Object"]], [[http://de.wikipedia.org/wiki/Plain_Old_Java_Object|DE.Wikipedia "Plain Old Java Object"]].
   *[[http://en.wikipedia.org/wiki/Bean_Validation|EN.Wikipedia "Bean Validation"]].
-
 ==== Some other Frameworks ====
   *[[http://www.jhotdraw.org/|JHotDraw]], [[http://jhotdraw.sourceforge.net/|SourceForge "JHotDraw"]], [[http://www.sourceforge.net/projects/jhotdraw|SourceForge "JHotDraw"]].
   *SPARK.
@@ -303,6 +340,7 @@ Finish. //
     *[[http://freemarker.sourceforge.net/|SourceForge "FreeMarker"]], [[http://www.sourceforge.net/projects/freemarker|SourceForge "FreeMarker"]] - "Java Template Engine Library".
   *OBRi.
     *[[http://en.wikipedia.org/wiki/OSGi|EN.Wikipedia "OSGi"]], [[http://de.wikipedia.org/wiki/OSGi|DE.Wikipedia "OSGi"]].
+  *[[http://www.sparkjava.com/|Spark - A tiny Sinatra inspired framework for creating web applications in Java 8 with minimal effort]], [[http://www.github.com/perwendel/spark|GitHub "perwendel/spark"]].
   *[[http://www.vaadin.com/|Vaadin]].
     *[[http://en.wikipedia.org/wiki/Vaadin|EN.Wikipedia "Vaadin"]], [[http://de.wikipedia.org/wiki/Vaadin|DE.Wikipedia "Vaadin"]] - "thinking of U and I. Vaadin is a Java framework for building modern web applications that look great, perform well and make you and your users happy".
   *[[http://wicket.apache.org/|Apache Wicket]] - "Lightweight component-based web application framework".
@@ -334,6 +372,7 @@ Finish. //
     *[[http://www.netbeans.info/downloads/dev.php|NetBeans "Release Archives & Development Downloads"]] - Download of old editions.
   -Oracle.
     *[[http://www.oracle.com/technetwork/developer-tools/jdev|Oracle JDeveloper]] - "a free integrated development environment that simplifies the development of Java-based SOA applications and user guiinterfaces with support for the full development life cycle".
+      *As of 2015-12, "Oracle JDeveloper 12c Studio Edition" doesn´t install properly on Win8.1. You may continue installation after the errror message "Unable to create an item in WIndows Start Menu or Desktop" :-(.
       *[[http://www.oracle.com/technetwork/developer-tools/jdev/index-099997.html|Oracle JDeveloper Extensions]].
         *[[http://www.oracle.com/ocom/groups/public/@otn/documents/webcontent/156082.xml|Oracle Fusion Middleware Products Update Center]].
         *[[http://www.oracle.com/ocom/groups/public/@otn/documents/webcontent/131167.xml|Oracle Extensions for Oracle JDeveloper Update Center]].
@@ -429,11 +468,14 @@ Finish. //
 ==== Just-Commercial Books ====
   *Book [[http://www.amazon.de/exec/obidos/ASIN/3827263131/hemmerling-21|Carl Albing, Michael Schwarz: "Java Application Development on Linux (Bruce Perens' Open Source)"]]. 
   *Book [[http://www.amazon.de/exec/obidos/ASIN/3827263131/hemmerling-21|Deepak Alur: "Core J2EE Patterns"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0321356683/hemmerling-21|Joshua Bloch: "Effective Java (2nd Edition): A Programming Language Guide"]], 2008 - Experts suggested the book as resource for explanation and implementation of "Immutability" with Java.
+    *[[http://en.wikipedia.org/wiki/Immutable_object|EN.Wikipedia "Immutable object"]].
   *Book [[http://www.amazon.de/exec/obidos/ASIN/0321127420/hemmerling-21|Martin Fowlser: "Patterns of Enterprise Application Architecture"]].
   *Book [[http://www.amazon.de/exec/obidos/ASIN/3939084190/hemmerling-21|Dirk Frischalowski, Ulrike Böttcher: "Java 6. Professionell einsteigen"]] #. 
     *buecherbillig.de 100% ( [[http://www.buecherbillig.de/java-einstieg-professioneller-einsatz-p-54515.html|Dirk Frischalowski, Ulrike Böttcher: "Java 6. Professionell einsteigen"]] ).
   *Book [[http://www.amazon.de/exec/obidos/ASIN/3827324823/hemmerling-21|Sharon Zakhour, Scott Hommel, Jacob Royal: "Das Java Tutorial. Eine Einführung in die Grundlagen, aktuell zur Version 6"]], Book [[http://www.amazon.de/exec/obidos/ASIN/3827326656/hemmerling-21|Sharon Zakhour, Scott Hommel, Jacob Royal: "Das Java Tutorial. Eine Einführung in die Grundlagen, aktuell zur Version 6"]] #.
     *buecherbillig.de ( [[http://www.buecherbillig.de/java-tutorial-aktuell-version-p-42337.html|Sharon Zakhour, Scott Hommel, Jacob Royal: "Das Java Tutorial. Eine Einführung in die Grundlagen, aktuell zur Version 6"]] ).
+
 ==== Free and Formerly-Commercial PDF / HTML Books ====
   *Book [[http://www.amazon.de/exec/obidos/ASIN/013143697X/hemmerling-21|Carl Albing, Michael Schwarz "Java Application Development on Linux (Bruce Perens' Open Source)"]].
     *Free PDF book [[http://technewsletters-whitepapers.tradepub.com/free/w_infk04/prgm.cgi|InformIT "Carl Albing, Michael Schwarz: Java Application Development on Linux"]].

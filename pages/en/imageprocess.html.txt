@@ -1,11 +1,11 @@
 ====== [hemmerling] Image Processing ======
 Related page:
   *[[geodata.html|Geographical Data / Spatial Data for Geographical Information Systems ( GIS )]].
-
-===== Organisations =====
+===== Organisations and Events =====
   *[[http://www.emva.org/|european Machine Vision Association]] ( EMVA ).
     *[[http://www.standard1288.org|EMVA Standard 1288 - "Standard for Measurement and Presentation of Specifications for Machine Vision Sensors and Cameras"]].
     *Member: [[http://www.viscom.de/|Viscom AG]].
+    *Speech events [[http://www.emva.org/events/other/control-vision-talks/|Control Vision Talks]] as part of the fair [[http://www.control-messe.de/|Control – Internationale Fachmesse für Qualitätssicherung]], at [[http://www.messe-stuttgart.de/|Messe Stuttgart]], in 2016.
 ===== Image Processing Software =====
 ==== Image Processing Software Tools ====
 === Free Image Processing Software Tools ===
@@ -120,6 +120,35 @@ Related page:
    *[[http://www.abbyy.com/sdk/|ABBYY Europe GmbH "Abby OCR and Document Conversion SDK"]].
    *[[http://www.nuance.com/for-business/by-product/omnipage/|Nuance "Omnipage"]] -"Omnipage Capture Software Developers Kit for Windows", "Omnipage" OCR application for Windows.
      *[[http://www.nuance.com/support/omnipage|Nuance - Support for Omnipage]], Version 10 or newer.
+==== Image Processing with Neural Networks & Deep Learning Methology ====
+=== Competitions ====
+  *[[http://www.image-net.org/|ImageNet]].
+    *[[http://www.image-net.org/challenges/LSVRC/|ImageNet Large Scale Visual Recognition Challenge (ILSVRC)]].
+=== Experts ===
+  *[[http://www.unbelievable-machine.com/|The unbelievable Machine Company GmbH]] - Speech on the Hannover Fair 2016 "Deep Learning für die Industrie 4.0 - Ein konkreter Use Case" by [[http://www.xing.com/profile/Christian_Nietner|Christian Nietner]].
+=== "GoogLeNet" and other Neuronal Networks ===
+  *Experts told me, that "GoogLeNet" is suitable for image recognition, i.e. it is well-trained for handling images.
+  *[[http://caffe.berkeleyvision.org/|Caffe - Deep learning framework by the BVLC]].
+    *[[http://caffe.berkeleyvision.org/model_zoo.html|Caffe "Caffe Model Zoo"]] - "BVLC GoogLeNet in models/bvlc_googlenet: GoogLeNet trained on ILSVRC 2012".
+      *[[http://arxiv.org/abs/1409.4842|Cornell University Library "Going Deeper with Convolutions"]] - "One particular incarnation used in our submission for ILSVRC 2014 is called GoogLeNet, a 22 layers deep network, the quality of which is assessed in the context of classification and detection".
+    *[[http://www.github.com/BVLC/|GitHub "BVLC/"]].
+      *[[http://www.github.com/BVLC/caffe/|GitHub "BVLC/caffe/"]].
+        *[[http://www.github.com/BVLC/caffe/wiki/Model-Zoo|GitHub "BVLC/caffe/wiki/Model-Zoo"]].
+  *[[http://www.deeplearning.net/|Deep Learning… moving beyond shallow machine learning since 2006!]].
+    *[[http://deeplearning.net/tag/googlenet/|Deep Learning "Google’s Entry to ImageNet 2014 Challenge"]] - "GoogLeNet".
+  *[[http://www.pyimagesearch.com/2015/08/03/deep-dream-visualizing-every-layer-of-googlenet/|pyimagesearch - be awsome building image search engines "Deep dream: Visualizing every layer of GoogLeNet"]].
+=== Resources ===
+  *See [[mathengineering.html|Mathematical Engineering]].
+  *See [[bintelligence.html|Data Processing 5/5 - Business Intelligence, Data Mining]].
+  *Use Case "Car type regcognition by photo"
+    *Proceedings: 
+      *Picture of a car - Feature vector - Classifier -> Lookup database, resulting "This is a VW Golf IV".
+      *Picture of a car - Feature Extraction - Classification - Convolutional and pooling layers.
+      *Convolution - Pooling - Softmax.
+    *The photocamera device ( the Smartphone ...) might communicate with the online services by a REST API.
+  *Experts told me, that You need much computing power for training neuronal networks. For execution of the trained neuronal network, you need relatively little computing power.
+  *Experts told me, that neuronal networks might be better suitable for image recognition than traditional image processing tools / frameworks like OpenCV, as the neuronal networks may have the advantage to consider "interrelations in space".
+  *[[https://en.wikipedia.org/wiki/Convolutional_neural_network|EN.Wikipedia "Convolutional neural network"]].
 ==== Resources ====
   *[[http://www.cs.cmu.edu/afs/cs/project/cil/ftp/html/v-source.html|Carnegie Mellon School of Computer Science "Computer Vision Software"]].
   *[[http://www.efg2.com/Lab/Library/ImageProcessing/SoftwarePackages.htm|efg's Computer Lab "Image Processing - Software Packages"]].
@@ -144,33 +173,7 @@ Related page:
   *[[http://en.wikiversity.org/wiki/Reed%E2%80%93Solomon_codes_for_coders|EN.Wikiversity "Reed–Solomon codes for coders"]].
   *[[http://en.wikipedia.org/wiki/QR_code|EN.Wikipedia "QR code"]], [[http://de.wikipedia.org/wiki/QR-Code|DE.Wikipedia "QR-Code"]].
   *[[http://de.wikipedia.org/wiki/2D-Code|DE.Wikipedia "2D-Code"]].
-
-===== Hardware for Image Processing =====
-  *[[http://www.keyence.de/|KEYENCE Deutschland GmbH]] - "Sensoren und Vision-Systeme für die Fabrikautomatisierung".
-===== Resources =====
-  *George Bebis.
-    *Course [[http://www.cse.unr.edu/~bebis/CS474/|George Bebis "CS474/674 Image Processing and Interpretation"]].
-    *Course [[http://www.cse.unr.edu/~bebis/CS791Y/|George Bebis "CS791Y: Topics in Computer Vision"]].
-  *[[http://www.compwisdom.com/|Comp Wisdom]].
-    *[[http://www.compwisdom.com/topics/Image-processing|Comp Wisdom "Topic: Image processing"]].
-  *Course [[http://cui.unige.ch/~aip/|CUI - University of Geneva, Computer Vision &  Multimedia Laboratory "Advanced Image Processing"]].
-  *Course [[http://www.fh-wedel.de/~eg/uebungen/bba/|Fachhochschule Wedel, Martin Egge "Praktikum Bildbearbeitung (FH)"]] - in 2006, VisiQuest was used as image processing tool.
-  *[[http://homepages.inf.ed.ac.uk/rbf/CVonline/|Robert B. Fisher, School of Informatics, University of Edinburgh "CVonline: The Evolving, Distributed, Non-Proprietary, On-Line Compendium of Computer Vision"]].
-  *Course [[http://www.icaen.uiowa.edu/~dip/|Mona K. Garvin "55:148 Digital Image Processing"]] - "Lecture Materials Input images and MATLAB m-scripts used during the interactive lecture (from 2008)".
-  *[[http://www.geogr.uni-jena.de/fileadmin/Fernerkundung/c2heso/|Sören Hese]].
-    *[[http://www.geogr.uni-jena.de/fileadmin/Fernerkundung/c2heso/GEO212.htm|Institut für Geographie, Friedrich-Schiller-Universität Jena - "Modul GEO212 (Fernerkundung I)"]].
-    *[[http://www.geogr.uni-jena.de/fileadmin/Fernerkundung/c2heso/Geomatica-Script-07112006.pdf|Sören Hese "Skript zur Übung Fernerkundung I ( Digitale Bildverarbeitung)"]] ( PDF ).
-  *[[http://mason.gmu.edu/~khintz/|Kenneth J. Hintz]].
-    *[[http://mason.gmu.edu/~khintz/courses.html|Kenneth J. Hintz - Courses taught]].
-      *Course [[http://zonkil.gmu.edu/~khintz/courses/ece_537/ece_537_home.html|Kenneth J. Hintz "ECE 537, Introduction to Digital Image Processing"]].
-  *Course [[http://www.ece.eps.hw.ac.uk/~ceeyrp/WWW/Teaching/B39SD2/B39SD2.html|Katia Lebart, Yvan Petillot "Image Processing 22.5SD2"]] - "MATLAB Practicals".
-  *Course [[http://pixel.cs.vt.edu/courses/cs5814.html|Qing Li "CS5814 Digital Picture Processing Course Materials"]].
-  *[[http://www.hal.t.u-tokyo.ac.jp/~pasqual/image.html|Ajith Pasqual: Collection of Web sites on Image Processing]].
-  *Course [[http://amath.colorado.edu/courses/5720/2000Spr/Labs/Worksheets/Matlab_tutorial/matlabimpr.html|Kristian Sandberg "Introduction to image processing in Matlab 1"]].
-  *[[http://www.prip.tuwien.ac.at/Tu Vienna, Institute of Computer Grapics and Algorithms, Pattern Recognition and Image Processing Group]].
-    *[[http://www.prip.tuwien.ac.at/teaching/ws/bildverstehen-image-understanding/image-understanding-links|Tu Vienna, Institute of Computer Grapics and Algorithms, Pattern Recognition and Image Processing Group "Image Understanding Links"]].
-    *[[http://www.prip.tuwien.ac.at/services/computer-vision-links|Tu Vienna, Institute of Computer Grapics and Algorithms, Pattern Recognition and Image Processing Group "Computer Vision Links "]].
-===== Books and E-Books =====
+===== Literature =====
   *Book [[http://www.amazon.de/exec/obidos/ASIN/3540210296/hemmerling-21|Henning Bässmann, Jutta Kreyss "Bildverarbeitung Ad Oculos"]].
     *[[http://www.theimagingsource.com/en_US/publications/newsletter/archive/20000620/|The Image Source, Technology based on Standards "Learn Image Analysis with Ad Oculos"]].
     *[[http://ebookee.org/Bildverarbeitung-Ad-Oculos_224142.html|Ebookee.org - eBooks Search Engine! "Bildverarbeitung Ad Oculos"]].
@@ -203,15 +206,47 @@ Related page:
       *[[http://www.ecs.soton.ac.uk/~msn/book/mcexp802.exe|Download "mcexp802.exe"]] ( exe ) - Official, but discontinued Mathcad Explorer for viewing Mathcad 8 files.
       *[[http://users.ecs.soton.ac.uk/msn/book/books.html|Mark S. Nixon and Alberto S. Aguado "Online and Homepages for Image Processing and Computer Vision Textbooks"]].
       *[[http://users.ecs.soton.ac.uk/msn/book/software.html|Mark S. Nixon and Alberto S. Aguado "Software for Image Processing and Computer Vision"]].
+  *[[http://www.stemmer-imaging.de/|STEMMER IMAGING GmbH]]
+    *German.
+      *The free paper book [[http://www.stemmer-imaging.de/de/handbuch-der-bildverarbeitung/|STEMMER IMAGING GmbH "Das Handbuch der Bildverarbeitung"]] ( German ).
+        *[[http://www.stemmer-imaging.de/de/apps-fur-desktop-computer-und-mobile-gerate/|STEMMER IMAGING GmbH "Apps für mobile Geräte"]] - "Vision Docs - Alle Dokumente auf einen Blick", "Über Vision Docs können Sie zum Beispiel die elektronische Version unseres rund 450 Seiten umfassenden Handbuchs der Bildverarbeitung beziehen".
+    *English.
+     *The free paper book [[http://www.stemmer-imaging.co.uk/en/the-imaging-vision-handbook/|STEMMER IMAGING GmbH "The Imaging & Vision Handbook"]] ( English ).
+      *[[http://www.stemmer-imaging.co.uk/en/apps-for-desktop-computers-and-mobile-devices/|STEMMER IMAGING GmbH "Apps for mobile devices"]] - "Vision Docs - All your documents in one place", "Using Vision Docs you can download the e-​version of our roughly 450-page "Imaging and Vision Handbook".
+        *[[http://play.google.com/store/apps/details?id=de.devisiondocs.publisher|Google Play "Vision Docs by STEMMER IMAGING"]].
+        *[[http://apps.microsoft.com/windows/en-us/app/vision-docs-by-stemmer-imaging/e4a43a1b-87f7-49a4-a6c9-8a1ca08fdfd5|Windows Apps on Microsoft Store "Vision Docs by STEMMER IMAGING"]].
   *Scott E. Umbaugh.
     *Book [[http://www.amazon.de/exec/obidos/ASIN/0849329191/hemmerling-21|Scott E. Umbaugh "Computer Imaging: Digital Image Analysis and Processing"]].
     *Book [[http://www.amazon.de/exec/obidos/ASIN/143980205X/hemmerling-21|Scott E. Umbaugh "Digital Image Processing and Analysis: Human and Computer Vision Applications with Cviptools, Second Edition]].
   *I.T. Young, J.J. Gerbrands, L.J. van Vliet: "Image Processing Fundamentals".
     *Free PDF book [[http://www.ph.tn.tudelft.nl/|TU Delft - Quantitative Imaging]] / "Education / "Education Literature" -> "I.T. Young, J.J. Gerbrands, L.J. van Vliet: Image Processing Fundamentals".
     *Free PDF Book [[http://www.ebook3000.com/Fundamentals-of-Image-Processing_60576.html|ebook3000.com "I.T. Young, J.J. Gerbrands, L.J. van Vliet: Image Processing Fundamentals"]].
-
-===== Hardware, Drivers & Software =====
+===== Hardware, Drivers & Software for Image Processing =====
+  *[[http://www.keyence.de/|KEYENCE Deutschland GmbH]] - "Sensoren und Vision-Systeme für die Fabrikautomatisierung".
   *[[http://www.theimagingsource.com/|The Imaging Source - Industrial Cameras, Frame Grabbers, Video Converters & Software]]
+===== Resources =====
+  *George Bebis.
+    *Course [[http://www.cse.unr.edu/~bebis/CS474/|George Bebis "CS474/674 Image Processing and Interpretation"]].
+    *Course [[http://www.cse.unr.edu/~bebis/CS791Y/|George Bebis "CS791Y: Topics in Computer Vision"]].
+  *[[http://www.compwisdom.com/|Comp Wisdom]].
+    *[[http://www.compwisdom.com/topics/Image-processing|Comp Wisdom "Topic: Image processing"]].
+  *Course [[http://cui.unige.ch/~aip/|CUI - University of Geneva, Computer Vision &  Multimedia Laboratory "Advanced Image Processing"]].
+  *Course [[http://www.fh-wedel.de/~eg/uebungen/bba/|Fachhochschule Wedel, Martin Egge "Praktikum Bildbearbeitung (FH)"]] - in 2006, VisiQuest was used as image processing tool.
+  *[[http://homepages.inf.ed.ac.uk/rbf/CVonline/|Robert B. Fisher, School of Informatics, University of Edinburgh "CVonline: The Evolving, Distributed, Non-Proprietary, On-Line Compendium of Computer Vision"]].
+  *Course [[http://www.icaen.uiowa.edu/~dip/|Mona K. Garvin "55:148 Digital Image Processing"]] - "Lecture Materials Input images and MATLAB m-scripts used during the interactive lecture (from 2008)".
+  *[[http://www.geogr.uni-jena.de/fileadmin/Fernerkundung/c2heso/|Sören Hese]].
+    *[[http://www.geogr.uni-jena.de/fileadmin/Fernerkundung/c2heso/GEO212.htm|Institut für Geographie, Friedrich-Schiller-Universität Jena - "Modul GEO212 (Fernerkundung I)"]].
+    *[[http://www.geogr.uni-jena.de/fileadmin/Fernerkundung/c2heso/Geomatica-Script-07112006.pdf|Sören Hese "Skript zur Übung Fernerkundung I ( Digitale Bildverarbeitung)"]] ( PDF ).
+  *[[http://mason.gmu.edu/~khintz/|Kenneth J. Hintz]].
+    *[[http://mason.gmu.edu/~khintz/courses.html|Kenneth J. Hintz - Courses taught]].
+      *Course [[http://zonkil.gmu.edu/~khintz/courses/ece_537/ece_537_home.html|Kenneth J. Hintz "ECE 537, Introduction to Digital Image Processing"]].
+  *Course [[http://www.ece.eps.hw.ac.uk/~ceeyrp/WWW/Teaching/B39SD2/B39SD2.html|Katia Lebart, Yvan Petillot "Image Processing 22.5SD2"]] - "MATLAB Practicals".
+  *Course [[http://pixel.cs.vt.edu/courses/cs5814.html|Qing Li "CS5814 Digital Picture Processing Course Materials"]].
+  *[[http://www.hal.t.u-tokyo.ac.jp/~pasqual/image.html|Ajith Pasqual: Collection of Web sites on Image Processing]].
+  *Course [[http://amath.colorado.edu/courses/5720/2000Spr/Labs/Worksheets/Matlab_tutorial/matlabimpr.html|Kristian Sandberg "Introduction to image processing in Matlab 1"]].
+  *[[http://www.prip.tuwien.ac.at/Tu Vienna, Institute of Computer Grapics and Algorithms, Pattern Recognition and Image Processing Group]].
+    *[[http://www.prip.tuwien.ac.at/teaching/ws/bildverstehen-image-understanding/image-understanding-links|Tu Vienna, Institute of Computer Grapics and Algorithms, Pattern Recognition and Image Processing Group "Image Understanding Links"]].
+    *[[http://www.prip.tuwien.ac.at/services/computer-vision-links|Tu Vienna, Institute of Computer Grapics and Algorithms, Pattern Recognition and Image Processing Group "Computer Vision Links "]].
 ===== Forums, Newsgroups =====
   *[[http://groups.google.com/group/sci.image.processing/|Google Groups "sci.image.processing"]], [[http://groups.google.com/group/comp.soft-sys.khoros/|Google Groups "comp.soft-sys.khoros"]].
     *[[http://www.faqs.org/faqs/by-newsgroup/sci/sci.image.processing.html|sci.image.processing Newsgroup FAQs]].

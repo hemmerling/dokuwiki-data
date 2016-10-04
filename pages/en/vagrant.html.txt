@@ -6,9 +6,10 @@ Related pages:
   *[[webtech.html|Web Technologies ( HTML5, HTML, XML & Javascript )]].
 ===== Oracle VirtualBox & Vagrant =====
 ==== Oracle VirtualBox ====
+=== The Tool ===
   *[[http://www.virtualbox.org/|Oracle VirtualBox]] - free OpenSource software, for Linux, WinXP, Vista, Win7. 
   *License:
-    *[[https://www.virtualbox.org/wiki/VirtualBox_PUEL|VirtualBox Personal Use and Evaluation License (PUEL)]] - "This license applies if you download the full VirtualBox binaries from the Downloads page. It does not apply to the VirtualBox Open Source Edition (OSE), which falls under the GPL instead;", "In summary, the VirtualBox PUEL allows you to use VirtualBox free of charge 1. for personal use or, alternatively, 2. for product evaluation" -> The commercial use of VirtualBox ( without VirtualBox Extension Pack ! ) is just free if you use and compile the OSE edition by yourself.
+    *[[http://www.virtualbox.org/wiki/VirtualBox_PUEL|VirtualBox Personal Use and Evaluation License (PUEL)]] - "This license applies if you download the full VirtualBox binaries from the Downloads page. It does not apply to the VirtualBox Open Source Edition (OSE), which falls under the GPL instead;", "In summary, the VirtualBox PUEL allows you to use VirtualBox free of charge 1. for personal use or, alternatively, 2. for product evaluation" -> The commercial use of VirtualBox ( without VirtualBox Extension Pack ! ) is just free if you use and compile the OSE edition by yourself.
     *[[http://www.virtualbox.org/wiki/Editions|VirtualBox and open source]] - "Before version 4.0, there were two editions of VirtualBox: a full binary containing all features and an 'Open Source Edition' (OSE) with source code. With version 4.0, there is only one version any more, which is open source, and the closed-source components have been moved to a separate extension pack" -> The commercial use of the "VirtualBox Extension Pack" requires a commercial license.
   *"VirtualBox 4.0.6 Oracle VM VirtualBox Extension Pack" - "Support for USB 2.0 devices...".
     *If your virtual computer supports USB, you may access a USB-2-Ethernet adapter connected to your physical computer, and so you may access a totally different ( sub- ) network by your virtual computer, than that of your physical computer.
@@ -23,6 +24,9 @@ Related pages:
     *[[http://virtualboximages.com/passwords|VirtualBoxImages "Passwords"]].
       *"Ubuntu/Debian based distributions - Most of the Ubuntu/Debian distributions do not have the "root" user enabled. It is the "sudo" command that will allow you to perform most functions you would do as root. Another option is to execute the "sudo su" command followed by the password: adminuser".
   *[[http://en.wikipedia.org/wiki/VirtualBox|EN.Wikipedia "VirtualBox"]], [[http://de.wikipedia.org/wiki/VirtualBox|DE.Wikipedia "VirtualBox"]].
+=== Resources ===
+  *On a virgin 64-bit Win10Pro after a default installation, just 64-bit Linux is not offered as guest operating system, just 32-bit Linux. If you try to install a 64-bit Linux as guest operating system, VirtualBox refuses by the error message<code>
+VT-x is not available (VERR_VMX_NO_VMX)</code>
 ==== Vagrant ====
   *[[http://www.vagrantup.com/|Vagrant - Virtualized development for the masses]].
   *[[http://www.github.com/mitchellh/vagrant|Github "mitchellh / vagrant"]].

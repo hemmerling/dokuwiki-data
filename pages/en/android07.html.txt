@@ -1,0 +1,84 @@
+====== [hemmerling] Google Android 7/7 - App Publishing ======
+Related pages:
+  *[[android.html|Google Android 1/7]].
+  *[[android02.html|Google Android 2/7 - Apps]].
+  *[[android03.html|Google Android 3/7 - App Development]].
+  *[[android04.html|Google Android 4/7 - App Debugging & Testing]].
+  *[[android05.html|Google Android 5/7 - Simulators, Skins, Operating Systems, System Images]].
+  *[[android06.html|Google Android 6/7 - App Protoyping]].
+===== My published and unpublished Apps =====
+==== My Apps published at Appstores ====
+==== My Apps just published at Code Repositories ====
+  *[[gameapp.html|My first 3D VRML Android App, made with Unity]].
+===== Google Play ======
+  *[[http://play.google.com/apps/publish/|Google Play Developer Console]].
+==== Google Play Developer Console - APK "Upload new APK to Production" ====
+  *"Upload error. You uploaded an APK that is signed with a different certificate to your previous APKs. You must use the same certificate. Your existing APKs are signed with the certificate(s) with fingerprint(s): [ SHA1: ... ] and the certificate(s) used to sign the APK you uploaded have fingerprint(s):[ SHA1: ... ]" :-(.
+==== Google Play Developer Console - Store Listing ====
+  *[[http://support.google.com/googleplay/android-developer/answer/1078870|Google Developer Console Help "Graphic assets, screenshots & video"]].
+=== Screenshot Photos ===
+  -Phone. 
+    -General photo:"You need to resize your screenshot. Min length for any side: 320px. Max length for any side: 3840px. Max aspect ratio: 2:1.
+    -Hi-res icon: "512 x 512, You need to reduce the size of your image to 1MB".
+    -Feature graphic: "1024 w x 500 h".
+    -Promo Graphic: "180 w x 120 h".
+    -TV Banner: "1280 w x 720 h".
+    -Promo Video: YouTube video URL.
+  -Tablet.
+    -7-inch tablet.
+    -10-inch tablet.
+  -Android TV.
+  -Android Wear.
+  -General photo.
+=== Privacy Policy ===
+  *"If you wish to provide a privacy policy URL for this application, please enter it below".
+  *Third-party privacy resources.
+    *[[http://www.iubenda.com/blog/privacy-policy-for-android-app/|iubenda blog "Privacy Policy for Android Apps"]].
+      *[[http://www.iubenda.com/en/mobile|iubenda "Mobile App Privacy & Cookie Policy Generator - iOS, Android, WP"]].
+        *"So, once you have registered, you can use our online generator which allows you to generate a customized privacy policy autonomously, starting from $27/year per site/app and per language. In order to get started, you just have to follow our 3-steps process".
+        *[[http://www.iubenda.com/en/help/posts/1177|iubenda "iubenda Cookie Solution – Introduction and Getting Started"]] - "We have recently launched an all-in-one cookie law solution to comply with the EU cookie policy (always required if you want to use Google products such as AdSense)"
+    *[[http://www.termsfeed.com/blog/privacy-policies-android-apps/|TermFeed "Privacy Policies for Android Apps"]].
+    *[[http://www.quora.com/What-are-some-examples-of-a-mobile-app-privacy-policy|Quora "What are some examples of a mobile app privacy policy?"]].
+    *[[http://www.freeprivacypolicy.com/|FREE PrivacyPolicy]].
+    *[[http://www.appprivacy.net/|App Privacy]].
+=== Android TV ===
+  *"Reimagine your app for the biggest screen in the house with Android TV. To submit your app for review, you need to include a 'Leanback launcher intent' in your app".
+  *[[http://developer.android.com/training/tv/start/start.html|Android Developers "Develop Training / Building Apps for TV / Building TV Apps / Get Started with TV Apps"]].
+  *[[http://developer.android.com/distribute/essentials/quality/tv.html|Android Developers "TV App Quality"]].
+  *[[http://developer.android.com/distribute/googleplay/tv.html|Android Developers "Distribute / Google Play / Distribute to Android TV"]].
+  *[[http://www.github.com/googlesamples/androidtv-Leanback|GitHub "googlesamples/androidtv-Leanback"]] - "Android TV Leanback Support Library sample app [[http://developer.android.com/training/tv/|http://developer.android.com/training/tv/]]".
+  *[[http://www.stackoverflow.com/questions/32493868/how-to-launch-leanback-launcher-in-android-tv|StackOverflow "How to launch leanback launcher in Android TV?"]].
+=== Android Auto ===
+  *[[http://developer.android.com/auto|Android Developers "Android Auto"]].
+  *[[http://play.google.com/about/auto/developer-distribution-agreement-addendum.html|Google Play "Google Play Android Auto Addendum" / "Android Auto-Zusatz zur Vereinbarung für den Entwicklervertrieb"]].
+  *"Upload your Auto-enabled apps to distribute them to Android Auto. To remove your app from the Android Auto program, please remove the 'Auto' manifest entry from your APK and re-upload". 
+=== Designed for Families ===
+  *[[http://support.google.com/googleplay/android-developer/answer/6231938|Google Developer Console Help "Designed for Families"]].
+  *[[http://play.google.com/about/privacy-and-security.html|Google Play Developer Policy Center "Privacy and Security"]].
+  *[[http://developer.android.com/distribute/googleplay/families/about.html|Android Developers "Designed for Families]].
+  *[[http://play.google.com/intl/ALL_us/about/families/developer-distribution-agreement-addendum.html|Google Play "Designed for Families Addendum"]].
+  *[[http://developer.android.com/distribute/googleplay/developer-console.html|Android Developers "Distribute / Google Play / Developer Console"]].
+  *[[http://play.google.com/about/storefront-promotional.html|Google Play "Developer Policy Center / Store Listing and Promotion"]] - "Metadata".
+  *[[http://support.google.com/googleplay/android-developer/answer/188189|Google Support "Google Developer Console Help "Content ratings for apps & games"]].
+  *[[http://play.google.com/about/developer-content-policy.html|Google Play "Developer Policy Center" - "Let's build the world's most trusted store for apps and games"]].
+  *[[http://play.google.com/about/spam.html#impersonation-intellectual-property|Google Play Developer Policy Center "Intellectual Property, Deception, and Spam"]].
+  *[[http://support.google.com/googleplay/android-developer/answer/113469|Google Developer Console Help "Upload an app"]].
+  *[[http://support.google.com/googleplay/android-developer/answer/2663268|Google Developer Console Help "View & diagnose Google Cloud Messaging (GCM) statistics"]]
+  *[[http://developers.google.com/mobile/add|Google Developers "Let's set up your mobile app with some of these Google services!"]] - "Pick a platform", "Enable Services for my Android App".
+  *[[http://developer.android.com/reference/android/speech/package-summary.html|Android Developers "android.speech"]].
+  *[[http://play.google.com/about/monetization.html|Google Play Developer Policy Center "Monetization and Ads"]].
+  *[[http://www.ftc.gov/tips-advice/business-center/privacy-and-security/children's-privacy|Federal Trade Commission (FTC) "Children's Privacy"]].
+  *"Target audience: Mixed Audience (targets children and older audiences)".
+=== Optimisation Tips ===
+  *Design your app for tablets.
+  *[[http://developer.android.com/distribute/essentials/quality/tablets.html|Tablet App Quality]] - "8. Target Android Versions Properly".
+    *"4. Use Assets Designed for Tablet Screens".
+    *"8. Target Android Versions Properly".
+    *"10. Declare Support for Tablet Screens".
+===== Certificates / Keys ======
+  *See [[android06.html|Google Android 6/7 - App Protoyping]].
+===== Resources ======
+  *Especially with "Android Inventor 2" apps, you should process the ".apk" file by the "AppToMarket" desktop application -> See [[android06.html|Google Android 6/6 - App Protoyping]].
+{{tag>"Google Android" Android}}
+<footnote_navi_en>
+

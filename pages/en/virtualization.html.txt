@@ -33,6 +33,8 @@ Related pages:
 == Fig ==
   *[[http://www.orchardup.com/blog/fig|Orchard Blog "Fig: Fast, isolated development environments using Docker"]].
   *[[https://www.github.com/docker/fig|GitHub "docker/fig"]].
+== Online Services ==
+  *The free online service [[http://www.sloppy.io/|Sloppy.io]] - "DOCKER HOSTING CLOUD. Container And Microservices The DevOps Way", "Hassle-free Docker Hosting for Devs".
 == Resources ==
   *[[http://www.xing.com/profile/Dirk_Slama|Uli Middelberg]].
     *[[http://www.github.com/umiddelb/armhf/wiki/Installing,-running,-using-docker-on-armhf-%28ARMv7%29-devices|GitHub "umiddelb/armhf"]] - "Installing, running, using docker on armhf (ARMv7) devices".
@@ -51,6 +53,7 @@ Related pages:
 === ESXi ===
   *The free [[http://www.vmware.com/de/products/datacenter-virtualization/vsphere-hypervisor/|VMware vSphere Hypervisor™ (ESXi)]].
 === VMware Server & VMware Player ===
+== Official Distribution ==
   *You can either install VMware Server or VMware Player on a host operating system, not both ( see [[http://www.ubuntuforums.org/showthread.php?t=386988|Ubuntu Forums]] ) !
   *[[http://www.vmware.com/|VMWare]] for Linux, Windows.
   *[[http://www.vmware.com/download/server/|VMware Server]], free edition.
@@ -67,10 +70,17 @@ Related pages:
     *VMware 2.5.5 Player has no USB support.
     *[[http://www.vmware.com/support/ws55/doc/ws_devices_usb.html|VMware, Inc. "VMware Workstation 5.5. Using USB Devices in a Virtual Machine"]].
     *If your virtual computer supports USB, you may access a USB-2-Ethernet adapter connected to your physical computer, and so you may access a totally different ( sub- ) network by your virtual computer, than that of your physical computer.
+== Current 64-bit VMware Players ==
+  *[[http://my.vmware.com/en/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/12_0|VMware "Download VMware Workstation Player"]], for Win-64bit and Linux-64bit only.
+== Latest legacy 32-bit VMware Players ==
+  *[[http://my.vmware.com/en/web/vmware/free#desktop_end_user_computing/vmware_player/6_0|VMWare "Download VMware Workstation Player"]].
+    *VMware Player for Win-32bit and Win-64bit 6.07 ( 2015-07-02 ), 5.04, 4.0.6, 3.16.
+    *VMware Player for Linux-32bit and Linux-64bit 5.04, 4.0.6, 3.16 for Linux-32bit.
 === Resources ===
   *[[http://communities.vmware.com/docs/DOC-17631|VMware Communities "Problem importing Windows XP - Mode on VMWare - Player 4.0"]].
     *Error message, when trying to import the "Windows XP - Mode VM" into VMWare Player: "This feature of VMware Player requires the VMware vCenter Converter Standalone product":-(.
     *Solution You must install the "VMware vCenter Converter Standalone" V5.01. An expert suggested to select "Client-Server Installation (advanced)".
+  *[[http://www.superuser.com/questions/873555/what-is-the-lastest-working-version-of-vmware-player-on-windows-7-32-bits|StackOverflow "StackExchange - Superuser "What is the lastest working version of VMWare Player on Windows 7 32 bits?"]] - "They further clarify that VM Player Plus 6 is the last version to support a 32-bit OS (and CPU)".
 ==== VMLite ====
   *The free virtual machine [[http://www.vmlite.com/|VMLite Corporation "VMLite"]] for WinXP.
 ==== Wind8.1Pro / Win10Pro, Win2012 & Hyper-V ====
@@ -129,6 +139,9 @@ Hyper-V Server 2012 R2"]] - "Evaluation Unlimited", "Hyper-V Server is a dedicat
     *[[http://en.wikipedia.org/wiki/DOSBox|EN.Wikipedia "DOSBox"]].
   *[[http://www.dosemu.org/|DOSEMU]], [[http://dosemu.sourceforge.net/|Sourceforge "DOSEMU for Linux"]], [[http://www.sourceforge.net/projects/dosemu/|Sourceforge "DOSEMU for Linux"]].
     *[[http://en.wikipedia.org/wiki/DOSEMU|EN.Wikipedia "DOSEMU"]].
+  *The generic OpenSource emulator [[http://www.qemu.org/|QEMU]] may emulate x86 and Android devices too :-). It is shipped with the Yocto project :-).
+    *[[http://en.wikipedia.org/wiki/QEMU|EN.Wikipedia "QEMU"]], [[http://de.wikipedia.org/wiki/QEMU|DE.Wikipedia "QEMU"]].
+
 ===== Virtualisation Technologies =====
 ==== Backup & Restore ====
   *The free backup tool [[http://www.veeam.com/virtual-machine-backup-solution-free.html|Veeam Backup Free Edition for VMware and Hyper-V]].
@@ -147,6 +160,7 @@ Hyper-V Server 2012 R2"]] - "Evaluation Unlimited", "Hyper-V Server is a dedicat
     *With VirtualPC, on 64bit Windows host computers and 32bit Windows targets running in the emulator using special 32-bit drivers, the host operating system needs extra 64 bit drivers, e.g. for USB communications just works if you have both an equivalent special driver on the target and the host :-(.
 ===== Literature =====
   *Book [[http://www.amazon.de/exec/obidos/ASIN/3836228114/hemmerling-21|Nicholas Dille,  Marc Grote, Nils Kaczenski, Jan Kappen: "Microsoft Hyper-V und System Center : das Handbuch für Administratoren"]], 2014.
+  *The free PDF book [[http://www2.atlantiscomputing.com/WB_WW_Ultimate-Desktop-Virtualization-Guide-Webinar-01_LP-Registration.html|ATLANTIS "Ultimate Desktop Virtualization and Application Remoting Best Practices"]]. The tips are in short-message style, i.e. like Twitter or SMS messages :-)
 ===== Resources =====
   *[[virtualpc.html|[Hemmerling] How to install and run Windows Virtual PC / Microsoft Virtual PC]].
   *[[virtualbox.html|[Hemmerling] How to patch Oracle VirtualBox for W2k hosts]].

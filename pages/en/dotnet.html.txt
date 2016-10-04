@@ -26,16 +26,47 @@ Related pages:
   *The project type "Portable Class Library" of Visual Studio 2012 Professional ( not available with Visual Studio 2012 Express ).
     *[[http://msdn.microsoft.com/en-us/library/gg597391.aspx|Micrsoft MSDN "Cross-Platform Development with the .NET Framework"]] - "The Portable Class Library project in Visual Studio 2012 supports the cross-platform development of .NET Framework apps".
 ===== mono, DotGNU Portable.NET, Xamarin =====
+==== mono ====
   *[[http://www.mono-project.com/|mono]] - "Cross platform, open source .NET development framework".
+  *[[http://en.wikipedia.org/wiki/Mono_%28software%29|EN.Wikipedia "Mono (software)"]], [[http://de.wikipedia.org/wiki/Mono-Projekt|DE.Wikipedia "Mono-Projekt"]].
+==== DotGNU Portable.NET ====
   *[[http://www.dotgnu.org/|DotGNU Portable.NET]].
-  *The commercial [[http://www.xamarin.com/|Xamarin]] - "Build apps with C# and .NET for iOS, Android, Mac and Windows".
-    *[[http://store.xamarin.com/|Xamarin Store]] - Pricing: There is a "Starter Free" version, with codesize limit.
+==== Xamarin ====
+=== The Commercial Framework ===
+  *The OpenSource and former commercial [[http://www.xamarin.com/|Xamarin]] - "Build apps with C# and .NET for iOS, Android, Mac and Windows".
+    *[[http://store.xamarin.com/|Xamarin Store]].
+    *The former free codesize-limited [[http://www.xamarin.com/starter|Xamarin Starter Edition]].
     *[[http://www.facebook.com/xamarinhq|Facebook "Xamarin"]].
     *[[http://plus.google.com/101300081691995092351/posts|Google+ "Xamarin"]].
     *[[http://www.twitter.com/xamarinhq|Twitter "Xamarin"]].
     *The "xamarininstaller" is just an installer, it downloads files to the directory "<TempDir>/Xamarin/downloads", e.g. "C:\temp\Xamarin\downloads".
+=== The OpenSource Framework ===
+    *[[http://open.xamarin.com/|Xamarin Open Source]] - "Xamarin SDK is now fully available under the MIT license".
+    *[[http://www.xamarin.com/licensing|Mono Licensing. Xamarin has relicensed the Mono runtime under the MIT license and has contributed the code for Mono, as well as the Xamarin SDKs for iOS and Android to the .NET Foundation]].
+    *[[http://www.github.com/xamarin|Github "Xamarin"]].
+    *[[http://blog.xamarin.com/xamarin-for-all/|Blog article "Xamarin for Everyone. By Nat Friedman March 31, 2016 Xamarin Insights, Xamarin Platform, Xamarin Test Cloud"]].
+=== Third-Party Frameworks ===
+  *[[http://www.github.com/XLabs/Xamarin-Forms-Labs|Github "XLabs/Xamarin-Forms-Labs"]] - "Xamarin Forms Labs is a open source project that aims to provide a powerful and cross platform set of controls and helpers tailored to work with Xamarin Forms".
+=== Literature ===
+  *The free Kindle E-Book [[http://www.amazon.de/exec/obidos/ASIN/B00VYSSNJW/hemmerling-21|Charles Petzold "Creating Mobile Apps with Xamarin.Forms Preview Edition 2"]].
+=== Education ===
+  *[[http://university.xamarin.com/|Xamarin University]].
+=== Codesize Limits of the former free Starter Edition ===
+  *2015-11 - Codesize limit 128K.
+    *[[http://www.xamarin.com/faq#q18|Xamarin FAQ]], 2015-11 - "Xamarin Starter is our free tier that allows developers to build and publish simple apps that contain no more than **128k** of compiled user code (IL), don't call out to native third party libraries (i.e., developers may not P/Invoke into C/C++/Objective-C/Java), and are built using Xamarin.iOS / Xamarin.Android (**not Xamarin.Forms**). Xamarin Starter installs automatically with Visual Studio 2015, and works with VS 2012, 2013, and 2015 (including Community Editions)".
+  *2015-02 - Codesize limit 64K.
+    *[[http://www.thinkgeo.com/forums/MapSuite/tabid/143/aft/12481/Default.aspx|ThinkGeo Forums "Supporting Xamarin Starter/Visual Studio Community Editions"]], 2015-02-19 - "For the Xamarin starter plan, I think we might not support it right now. Because Xamarin limits the size of the compiled user code (IL) to 64k (It is double size now. It is used to be 32k)".
+  *2013-02 - Codesize limit 32K.
+    *[[https://xamarin.uservoice.com/forums/234640-xamarin-suggestions/suggestions/3693346-increase-the-starter-binary-size-to-more-than-32k|Xamarin Suggestions - How can we improve Xamarin? "Increase the starter binary size to more than 32K"]], 2013-02-26.
+=== Resources ===
+  *[[http://www.reddit.com/r/csharp/comments/341v49/xamarin_is_it_worth_all_the_trouble/|Reddit "Xamarin - Is it worth all the trouble?"]].
+  *[[http://www.stackoverflow.com/questions/30313302/is-xamarin-free-in-visual-studio-2015|StackOverflow "Is Xamarin free in Visual Studio 2015?"]] - "Actually, we expanded our Starter edition to work now in Visual Studio for building smaller iOS and Android apps for free. **This does not include Xamarin.Forms** though, which is only available in the trial or any paid subscription".
+  *[[http://forums.xamarin.com/discussion/2912/xamarin-starter-edition-build-limits|Xamarin Forum "Tools and Libraries / Xamarin Studio / Xamarin Starter Edition - build limits?"]].
+    *Question: "Can you clarify if the build limit for Xamarin Studio Starter edition is" ?
+    *Answer: "It's per application. When you build an iOS or Android executable project, the build process scans the executable and finds the assemblies it uses in order to includes them in the app. The executable and the assemblies it references are all are all counted towards the size limit, with the exception of the assemblies that are part of the framework. Note that even if the linker is set to removed unused methods from user code, the size calculation is performed before this takes place".
+    *Comment: "You wouldn't be able to use even MonoGame for example in the starter edition".
   *[[http://en.wikipedia.org/wiki/Xamarin|EN.Wikipedia "Xamarin"]].
-  *[[http://en.wikipedia.org/wiki/Mono_%28software%29|EN.Wikipedia "Mono (software)"]], [[http://de.wikipedia.org/wiki/Mono-Projekt|DE.Wikipedia "Mono-Projekt"]].
+
 ===== XAML & XAML Tools =====
   *Visual-Studio and Expression-Blend may be used to generate and display XAML. 
     *See [[windowsphone.html|Windows Phone]] and See [[sdevtools.html|Software Development Tools]].
@@ -132,6 +163,8 @@ number sign, mesh, pound, carpet, sharp Nummer-Zeichen, Raute, Rhombe, 'Schweine
   *[[http://www.red-gate.com/messageboard/|redgate Forum]].
     *[[http://www.red-gate.com/messageboard/viewforum.php?f=85|redgate Forum ".Net Reflector and .NET Reflector Pro .Net Reflector and .NET Reflector Pro forum"]].
   *[[http://www.ncover.com/forum/|NCover Forum]].
+  *[[http://forums.xamarin.com/|Xamarin Forums]].
+
 ===== Appropriate OpenDirectory Directory Pages =====
   *[[http://www.dmoz.org/Computers/Programming/Component_Frameworks/NET/|OpenDirectory "Top: Computers: Programming: Component Frameworks: NET]].
   *[[http://www.dmoz.org/World/Fran%C3%A7ais/Informatique/Programmation/Frameworks/DotNet/http://www.dmoz.org/World/Deutsch/Computer/Programmieren/Komponentenframeworks/NET/|OpenDirectory "Top: World: Deutsch: Computer: Programmieren: Komponentenframeworks: NET"]].

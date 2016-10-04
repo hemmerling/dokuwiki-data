@@ -1,0 +1,307 @@
+====== [hemmerling] Google Android 5/7 - Simulators, Skins, Operating Systems, System Images ======
+Related pages:
+  *[[android.html|Google Android 1/7]].
+  *[[android02.html|Google Android 2/7 - Apps]].
+  *[[android03.html|Google Android 3/7 - App Development]].
+  *[[android04.html|Google Android 4/7 - App Debugging & Testing]].
+  *[[android06.html|Google Android 6/7 - App Protoyping]].
+  *[[android07.html|Google Android 7/7 - App Publishing]].
+===== Free Android Emulators =====
+==== Android Emulator ====
+  *[[http://developer.android.com/guide/developing/tools/emulator.html|Android Developers: Android Emulator]].
+  *Video [[http://www.youtube.com/watch?v=JxUQhnRf1oQ|YouTube "How-To: Android SDK Emulator"]].
+  *[[http://www.android.encke.net/android-emulator-tutorial.html|Google Android Emulator Tutorial]].
+  *[[http://developer.android.com/tools/help/emulator.html|Android Developer Help "Android Emulator"]].
+  *Emulation of Android smartphones is ok, emulation of Android tablets is slow ( due to the higher performance level of these devices ).
+  *Graphics Configuration:
+    *If your Win8 or Linux computer really provides OpenGL2 graphics, you may operate the simulator with default setting "Emulated Performance - [x] Use Host GPU".
+    *But if your Win8 or Linux computer just provides OpenGL1 graphics, as my Win8 PCs "ASUS Eee PC T101MT" and "Dell Vostro 1000" notebooks with standard Windows drivers by Microsoft, you are lost:
+      *If you try to operate the simulator with default setting "Emulated Performance - [x] Use Host GPU", the Android Simulator crashes by the error message "APPCRASH", "Fault Module name: libOpenglRender.dll".
+      *If you operate the Android simulator just with the setting "Emulated Performance - [ ] Use Host GPU", you may just run Android applications on "API 1" level.
+        *If you try Android applications with a higher API level, e.g. "API 15",
+          *The Android desktop screen is not displayed but just black screen with "android" in white letters.
+          *When executing "Run / Device Chooser / Choose a running device / Compatible" again, there is the error message "No, minSDK(API 15) > deviceSDK(API 1)”, if "minSDKVersion 15" is set in the project configuration file "app".
+    *[[http://www.stackoverflow.com/questions/33248119/debug-on-android-studio-gives-incompatible-minsdk-devicesdk|StackOverflow "Debug on android studio gives 'incompatible, minSdk > deviceSdk'"]].
+    *[[http://www.stackoverflow.com/questions/33028430/android-studio-no-minsdkapi-14-devicesdkapi-1-moto-g-ubuntu-15-04|StackOverflow "Android Studio, No, minSdk(API 14) > deviceSdk(API 1), moto G, Ubuntu 15.04"]].
+    *[[http://www.stackoverflow.com/questions/30633271/android-error-no-minsdkapi-19-devicesdkapi-1|StackOverflow "Android error No, minSdk(API 19) > deviceSdk(API 1)"]].
+  *For Win8-32-bit PCs with 2GB of physical RAM and another 2GB virtual memory, 
+    *With the default settings of "Nexus 5 API 23", the emulator stops by the error message "emulator: WARNING: Requested RAM size of 1536MB is too large for your environment, and is reduced to 1152MB. Cannot set up guest memory 'android_arm': Invalid argument".
+    *You may operate Android simulation with 343MB, 512MB or even 768MB simulated RAM.
+    *I still don´t know if is advisable to decrease the default simulated RAM of simulated devices with "big" RAM ( e.g. 1024MB, 1536MB RAM ), or instead to prefer a simlated image with "low" RAM ( e.g. 343MB RAM ).
+    *Error message:<code>
+Your emulator is out of date, please update by launching Android Studio:
+ - Start Android Studio
+ - Select menu "Tools > Android > SDK Manager"
+ - Click "SDK Tools" tab
+ - Check "Android SDK Tools" checkbox
+ - Click "OK"</code>
+    *It doesn´t help to increase the virtual memory of the Windows host computer...
+  *The simulator' camera doesn't work on Win8.1. Calling the camera is aborted by the error message "Unfortunately, camera has stopped".
+  *The user may check manually for Notifications ( as the simulator provides an unmodified desktop application as known from hardware smartphones, in opposite to some other Android simulators ).
+==== Andy Android Emulator -> Android 4.2.2 ====
+  *The free Android emulator [[http://www.andyroid.net/|Andy Android Emulator]] for Win-32bit, Win64-bit and MacOSX.
+    *If you load the website with a Win-32bit, you get a download offer of the Win-32bit edition of the software.
+      *On my notebook "Dell Vostro 1000" with AMD XP3600 CPU and standard Windows graphics drivers shipped with Win8.1, "Andy_v45.5_63" installs, but doesn´t start properly: The application never appears on the screen :-(.
+    *If you load the website with a Win-64bit, you get a download offer of the Win-32bit edition of the software.
+    *Easy access to "Google Play" by preinstalled GAPPS app.
+    *File sharing between simulator and host.
+      *[[http://www.youtube.com/watch?v=xSXpsoX_NBU|YouTube "How To Move Files Between Windows And Andy Emulator"]] - "The process of moving files between Windows and Andy has changed in Andy NEW Version .41".
+      *Please create the a directory "Shared" in the directory "C:\users\<user>\Andy\", e.g. C:\users\Administrator\Andy\". By this directory "C:\users\<user>\Andy\Shared", e.g. C:\users\Administrator\Andy\Shared", you may share files between the Windows computer and the Android smartphone at "/sdcard/Shared/Andy/Shared".
+  *[[http://forums.androidcentral.com/general-news-discussion/378245-android-emulator-you-can-now-run-any-android-app-directly-your-desktop.html|Android Central Forums "Android Emulator - You may now run any android app directly from your desktop"]] - "Unlike bluestack (if you know this product) it has access to any google play app and runs very smoothly".
+  *The simulator' camera is properly working on Win8.1.
+==== BlueStacks -> Android 4.4.2, SDK 19 ====
+=== The Tool ===
+  *The nagware Android emulator [[http://www.bluestacks.com/|BlueStacks]] for Windows.
+    *[[http://support.bluestacks.com/hc/en-us/articles/206273095|BlueStacks Support "How to check version number of app player?"]].
+=== Resources ===
+  *At installation, you may configure the datapath ( default: "C:\ProgramData" ), however even if you configure a user-specific datapath, the following directories are created, filled with data and used:
+    *"C:\ProgramDataBlueStacksSetup".
+    *"C:\ProgramDataBlueStacksGameManager".
+    *"C:\ProgramDataBlueStacksSetup".
+  * [[http://support.bluestacks.com/hc/en-us/articles/202122836-How-to-Find-BlueStacks-Version-Number-|BlueStacks Support "How to Find BlueStacks Version Number?"]] for Windows - "Hover the mouse over the BlueStacks icon in the Windows System Tray / Notification Area at the bottom right corner of your PC's screen".
+  *After some little time of use, the emulator refuses access to the PlayStore and displays a nag screen<code>
+To continue using BlueStacks
+Purchase App Player Premium <Buy Now>
+or
+Please help us find good apps <Try these apps></code>
+  *[[http://support.bluestacks.com/h|BlueStacks Support]].
+  *[[http://support.bluestacks.com/hc/en-us/articles/202122836-How-to-Find-BlueStacks-Version-Number-|BlueStacks Support "How to Find BlueStacks Version Number?"]] - "Hover the mouse over the BlueStacks icon in the Windows System Tray / Notification Area at the bottom right corner of your PC's screen".
+  *[[http://www.tomsguide.com/us/how-to-run-bluestacks,review-1912.html|tom's guide "How to Run Android Apps on a PC Using Bluestacks"]] for Windows and MacOSX.
+  *Easy access to "Google Play" by preinstalled GAPPS app.
+  *At installation, you may configure the datapath ( default: "C:\ProgramData" ).
+  *You may install APKs:
+    *By drag+drop from Windows desktop to Android desktop.
+    *By the button "APK" which opens a file selector for the Windows filesystem.
+    *By "Settings / Bluestack Settings / Import windows files".
+  *You may deinstall apps:
+    *By "Settings / Bluestacks Settings / Manage applications".
+  *"WSAD" Keyboard mapping to mouse movement :-) ( suggested at the window top ).
+    *The Windows clipboard may not be used to paste data to an Android terminal ( CTRL-V doesn't works at Android Linux shell ) :-).
+  *[[http://www.reddit.com/r/BlueStacks/comments/3x2usl/bluestacks_main_buttons_disappeared/|Reddit "/r/BlueStacks", Thread "bluestacks main buttons disappeared"]].
+  *<del>[[http://www.reddit.com/r/BlueStacks/comments/3z0avw/german_keyboard_settings_are_ignored/|Reddit "/r/BlueStacks", Thread "German keyboard settings are ignored"]]</del>.
+  *[[http://www.stackoverflow.com/questions/30188094/how-to-check-android-os-version-of-bluestacks-emulator|StackOverflow "How to check android OS version of bluestacks Emulator"]].
+    *[[http://play.google.com/store/apps/details?id=jackpal.androidterm|Google Play, Jack Palevich "Terminal Emulator for Android"]].
+      *"getprop ro.build.version.release"  -> 4.4.4 for KitKat.
+      *"getprop ro.build.version.sdk" -> 19.
+  *Notifications are played with sound at the moment of alarm, while the notification symbol ( Triangle with "!" is displayed in the Notification area. There is no storage or queuing of notifications. There is no silent alarm, about which the user may just be notified by checking the Notifications.
+  *The simulator' camera is properly working on Win8.1.
+  *The simulator has a built-in screenshot function, which may be executed by the "camera" button of the simulator's user interface ( not of the GUI of the Android operating system! ). 
+    *Screenshots must be processed manually directly after shooting:
+      *You may "send" the screenshot image to Windows( "Send to Windows" ), i.e. you are asked to save the image in the Windows filesystem, by a modale file selector window, of Windows.
+      *You may upload the screenshot image to some online services.
+      *But you may not store it on the Android filesystem.
+  *Images taken with the camera app shipped the operating system are visible at "/sdcard/DCIM/Camera/", e.g "/sdcard/DCIM/Camera/IMG_20160527_183924.jpg".
+  *[[http://support.bluestacks.com/hc/en-us/articles/206516786-How-To-Copy-Data-From-BlueStacks-To-PC-?|BlueStack Support "How To Copy Data From BlueStacks To PC?"]] - "BST shared folder on Bluestacks 2 is mapped to windows, and can be accessed at the following location on your PC"<code>
+/storage/sdcard/windows/BstSharedFolder</code> on Android and either<code>
+C:\ProgramData\BlueStacks\UserData\SharedFolder</code> or <code>
+<user-defined-installation-path>\BlueStacks\UserData\SharedFolder</code>
+==== Droid4X -> Android 4.2.2, SDK17 ====
+=== The Tool ===
+  *The free Android emulator [[http://www.droid4x.com/|Droid4X]] for Windows and MacOSX. Unfortunately, there is no full download, but just download of an installer.
+=== Resources ===
+  *You may install APKs:
+    *By drag+drop from Windows desktop to Android desktop.
+    *By "Settings / APK Install".
+  *Easy access to "Google Play" by preinstalled GAPPS app.
+  *The Windows clipboard may be used to paste data to an Android terminal ( CTRL-V works at Android Linux shell ) :-).
+  *"WSAD" Keyboard mapping to mouse movement :-) ( suggested at the help screens ).
+  *File sharing between simulator and host, by "Settings / Share folder".
+  *Warning: At each start of "Droid4X 0.8.7 beta", existing installations of "VirtualBox" ( e.g. necessary for "Xamarin Android Player" ) are uninstalled. 
+    *By this, the application aborts, at "80%" :-(. With next call, the application starts properly.
+      *[[http://www.droid4x.com/bbs/viewthread.php?tid=743529|Droid4X Forum "Unable to boot Droid4x"]].
+      *[[http://www.droid4x.com/bbs/viewthread.php?tid=743453&extra=page%3D2|Droid4X Forum "How to repair Droid4x stuck in 99%、80%、81%"]].
+    *If Xamarin Android Player is called next time, it fails to start and claims a network ( configuration ) error. As the VirtualBox Manager was deleted, the network settings of Xamarin Android Player may just be configured after re-installation of VirtualBox.
+    *On my notebook "Dell Vostro 1000" with AMD XP3600 CPU and standard Windows graphics drivers shipped with Win8.1, "Droid4X" hangs at start at "80% progress display". 
+  *The user may check manually for Notifications ( as the simulator provides an unmodified desktop application as known from hardware smartphones, in opposite to some other Android simulators ).
+  *The user interface of the simulator supports visual zooming by "CTRL" and Mouse-movement :-).
+  *The simulator' camera doesn't work on Win8.1. Calling the camera is aborted by the error message “Runtime error. No Activity found to handle Intent {act=android.media.action.IMAGE_CAPTURE(has extras)}” and a button labeled "End Application" :-(.
+==== Genymotion for personal use ====
+=== The Tool ===
+  *The Android emulator [[http://www.genymotion.com/|Genymobile "Genymotion"]], a Java application for Windows, Linux, MacOSX, shipped in a VirtualBox.
+    *Once, in 2014, there was a free limited "freemium" edition. Nowadays, in 2015, you may just download the software entititled to be the "premium" edition. But indeed, without applying special commercial licencse, the download is entitled to be the "freemium" edition, i.e. "Genymotion for personal use" :-).
+    *[[http://www.genymotion.com/#!/download|Genymobile "Get started with Genymotion. You're going to download the freemium version of Genymotion. Great start"]].
+    *[[http://www.genymotion.com/#!/developers/user-guide|Genymobile "DevZone - Users Guilde"]].
+=== Resources ===
+  *[[http://www.genymotion.com/faq/|Genymobile "Frequently Asked Questions"]].
+    *"What are the VirtualBox versions compatible with Genymotion? To run virtual devices, you must install Oracle VM VirtualBox 5.0.4 or above. Genymotion might run with older versions of Oracle VM VirtualBox but we cannot guarantee it".
+    *"Why does an error message state that VirtualBox is not installed whereas I have successfully downloaded and installed Genymotion?".
+      *"On Windows: the Oracle VM VirtualBox installer 5.0.4 is packaged within the ready-to-run Genymotion installer. Make sure you have downloaded and installed this package".
+    *"Why doesn't Genymotion run on Windows 10?".
+  *[[http://www.inthecheesefactory.com/blog/how-to-install-google-services-on-genymotion/|The Cheese Factory "How to install Google Play Services on Genymotion Step by Step"]].
+  *Genymotion insists on deinstalling existing VirtualBox installations, but installs VirtualBox 5.04 instead.
+  *Without software activation at each, the software is inoperable. At "Setting / Account", the status "Not authenticated" is displayed.
+  *To activate "Genymotion" by using the free personal licence, you must
+    *Create an account at [[http://www.genymotion.com/|Genymobile]].
+    *Login by "Setting / Account " - "Sign in". By this, the status at "Setting / Account" is modified to "Signed in as XXX" :-).
+  *Genymotion is shipped with a "droid4x" Android image. After all, I was not able to start it. The start is aborted by the error message "Unable to start the virtual device" :-(. Any help is appreciated.
+    *[[http://www.stackoverflow.com/questions/19922077/genymotion-unable-to-start-the-genymotion-virtual-device|StackOverflow "GenyMotion Unable to start the Genymotion virtual device"]].
+  *The user may check manually for Notifications ( as the simulator provides an unmodified desktop application as known from hardware smartphones, in opposite to some other Android simulators ).
+==== MEmu -> Android 4.2.2 ====
+=== The Tool ===
+  *The free Android emulator [[http://www.xyaz.cn/en/|MEmu]] for Windows for Windows, as of 2016-01 shipped with Android 4.2.2.
+=== Resources ===
+  *You may install APKs:
+    *By drag+drop from Windows desktop to Android desktop.
+    *By the button "APK" which opens a file selector for the Windows filesystem.
+  *Easy access to "Google Play" by preinstalled GAPPS app.
+  *The "MEmu Market" is in chinese language only :-(
+      *On my notebook "Dell Vostro 1000" with AMD XP3600 CPU and standard Windows graphics drivers shipped with Win8.1, "MEm" aborts by the error message "The version of OpenGL is too slow. Please upgrade the graphics driver and restart". 
+  *Notifications are played with sound at the moment of alarm, while the notification symbol ( Triangle with "!" is displayed in the Notification area. There is no storage or queuing of notifications. There is no silent alarm, about which the user may just be notified by checking the Notifications.
+  *The simulator' camera is properly working on Win8.1.
+  *Images taken with third-party cam Apps are visible:
+    *In the Android filesystem at "/mnt/sdcard/Pictures/", e.g "/mnt/sdcard/Pictures/app_inventor_1464345815996.jpg".
+    *In the Windows filesystem at "C:\Users\Administrator\Pictures\MEmu Photo", e.g. "C:\Users\Administrator\Pictures\MEmu Photo\app_inventor_1464345815996.jpg".
+  *Images taken with the camera app shipped the operating system are visible at "/mnt/sdcard/DCIM/Camera/", e.g "/sdcard/DCIM/Camera/IMG_20160106_230157.jpg".
+  *The simulator has a built-in screenshot function, which may be executed by the "camera" button of the simulator's user interface ( not of the GUI of the Android operating system! ). 
+    *Screenshots are visible:.
+      *In the Windows filesystem at "C:\Users\Administrator\Pictures\MEmu Photo\Screenshots", e.g. "C:\Users\Administrator\Pictures\MEmu Photo\Screenshots\Screenshot_2016-05-27-21-33-40.png".
+      *But not in the Android filesystem.
+==== MIT Android Inventor 2 -> Android 2.2 ====
+=== The Tool ===
+  *A free Android emulator is shipped with the "MIT Android Inventor 2" for Windows, Linux, MacOSX -> See [[android06.html|Google Android 6/6 - App Protoyping]].
+=== Resources ===
+  *[[http://developer.android.com/about/versions/android-2.2.html|Android Developers "Android 2.2 APIs"]] - "API Level: 8".
+  *[[http://en.wikipedia.org/wiki/Android_version_history|EN.Wikipedia "Android version history"]].
+  *The simulator' camera doesn't work on Win8.1. Calling the camera is aborted by the error message "Sorry! The application Camera (process com.android.camera) has stopped unexpectedly. Please try again" and a button labled "Force close" :-(.
+==== Visual Studio 2015 Community Edition ====
+  *[[http://blogs.msdn.com/b/visualstudioalm/archive/2015/02/23/the-visual-studio-emulator-for-android-in-vs2015-ctp6.aspx|Microsoft Application Lifecycle Management "The Visual Studio Emulator for Android in VS2015 CTP6"]], 2015-02-23.
+==== Windroye -> Android 4.4.2 ====
+=== The Tool ===
+  *The free Android emulator [[http://www.windroye.com/index_eng.html|Windroy "Windroye"]] for Windows, as of 2016-01 shipped with Android 4.4.2.
+=== Access to Google Appstore ===
+  *<del>"Google Play": No preinstalled GAPPS app, but GAPPS may be installed easily: Download the proper Google Play Services .zip file from [[http://www.opengapps.org/|Open GApps]]</del> ??.
+  *As of 2016-05, I failed to connect with "Windroye 2.9.0" to the Google App store, by the error message "There was a problem communicating with Google servers". Besides that, sometimes the modal error message appears "Unfortunately, the process com.google.process.gapps has stopped".
+    *[[http://www.google.de/search?q=gapps+stopped|Google - Search for "gapps stopped"]].
+=== Resources ===
+  *At installation, you may configure the datapath ( default: "C:\ProgramData" ).
+  *You may install APKs:
+    *By drag+drop from Windows desktop to Android desktop.
+    *By the menu item "Install APK".
+  *By default, Android is configured to operate in Chinese language :-(, but you may change the language and keyboard settings by "Settings". Remember the language settings are those with the symbol "A".
+  *On my notebook "Dell Vostro 1000" with AMD XP3600 CPU and standard Windows graphics drivers shipped with Win8.1, "Windroye" aborts the installation by the error message "OpenGL version must be 2.0 above!". 
+  *On my Win64 notebook, Windroye once installed and operated properly, but after a while it aborts at startup "Windroye fixed an error, please restart" :-(. Maybe because "Client Hyper-V" was enabled on the system?!
+  *The simulator has a built-in screenshot function, which may be executed by the "camera" button of the simulator's user interface ( not of the GUI of the Android operating system! ). 
+    *Screenshots are visible:.
+      *In the Android filesystem at "/mnt/Pictures/", e.g "/sdcard/Pictures/windroye-screensh" ( in the Android filemanager App "ESD", it looks as if all screenshots have the same name.
+      *In the Windows filesystem at "C:\Users\Administrator\Pictures", e.g. "C:\Users\Administrator\Pictures\windroye-screenshot-1464343570.png".
+==== Xamarin Android Player -> Various Android Images ====
+=== The Tool ===
+  *The free Android emulator [[http://developer.xamarin.com/guides/android/getting_started/installation/android-player/|Xamarin Android Player]] for Windows and MacOSX.
+=== Resources ===
+  *"The Xamarin Android Player utilizes VT-x and AMD-V hardware accelerated virtualization and OpenGL 2.0 to provide fast boot times and a snappy, smooth user interface".
+  *Requirements:
+    *"For OSX, Windows 7, Windows 8, and Windows 8.1, the Xamarin Android Player requires VirtualBox 4.3.18 or higher, which will be installed or updated as necessary. For Windows 10, you must upgrade VirtualBox to version 5.0.2 or higher".
+    *"A graphics card that supports OpenGL 2.0".
+  *The Xamarin Android Player is shipped with a VirtualBox. If you already got a VirtualBox installed, You may abort the installation of the shipped VirtualBox and finish the installation of the Xamarin Android Player successfully, anyhow.
+  *Though there is no visible link, Xamarin uses an installed VirtualBox. You must setup network access by VirtualBox, manually.
+  *[[http://forums.xamarin.com/discussion/47098/xamarin-android-player-could-not-configure-host-only-network-please-reboot-the-system-error|Xamarin Forums "Xamarin Android Player 'Could not configure host-only network. Please reboot the system...' Error"]].
+  *[[http://forums.xamarin.com/discussion/comment/119949#Comment_119949|Xamarin Forums "Xamarin Android Player doesn't load"]].
+  *You may install APKs by drag+drop from Windows desktop to Android desktop.
+  *"Google Play": No preinstalled GAPPS app, but link to GAPPS installation instructions: [[http://university.xamarin.com/resources/how-to-install-google-play-on-android-emulator|Xamarin University "Installing Google Play Services in XAP"]].
+    *Download the proper Google Play Services .zip file from [[http://www.opengapps.org/|Open GApps]].
+    *After installation and online update: "Now you can run applications that depend on Google Maps in the Xamarin Android Player".
+  *Operation on 32 bit hosts:
+    *On my notebook "Dell Vostro 1000" with AMD XP3600 CPU and standard Windows graphics drivers shipped with Win8.1, the 32bit edition of "Xamarin Android Player" aborts by the error message "OpenGL Error". 
+    *Btw, the available Android smartphones simulations are specified to have 2048 MB RAM, which is not useful for 32-bit hosts.
+  *XAMARIN refused to start when Hyper-V ( i.e. "Client Hyper-V" ) is enabled on your Win64 computer :-(.
+  *The simulator' camera doesn't work on Win8.1. Calling the camera is aborted by the error message "Camera error. Can´t connect to the camera".
+  *The simulator has a built-in screenshot function, which may be executed by the "camera" button of the simulator's user interface ( not of the GUI of the Android operating system! ). Screenshots are stored on the Windows desktop by names like "Nexus 4 (KitKat) API19 Screenshot 1.png".
+==== YouWave -> Android 4.0.4 ====
+=== The Tool ===
+  *The Android emulator [[http://www.youwave.com/|YouWave for Android]] for Windows - "Runs Android apps and app stores on your PC, no phone required. Download thousands of apps online via app stores within youwave".
+    *Free YouWave 3.3 edition ( Android 4.0.4 (ICS) ). 
+      *Please select "Custom Installation ( Advanced )" and deselect:
+        *"[ ] Install Ad-Aware Web Companion to block dangerous websites".
+        *"[ ] Set search powered by Bing(R) as my homepage, new tab, and default search engine on Firefox and Internet Explorer".
+        *"Tuneup Utillities" - Please change from
+          *"( ) I accept" to
+          *"(x) I do not accept".
+    *Commercial YouWave 5.4 edition ( Android 5.x ).
+ === Resources ===
+  *The installation is refused by the error message <code>YouWaveAndroidSetup.
+Warning: Previous Virtualbox installation detected. 
+If you have installed VirtualBox in your machine, 
+YouWave cannot be installed. 
+To install YouWave, you need to manually uninstall VirtualBox 
+and delete the directory 'C:\Users\<user>\.Virtualbox'</code>
+===== Commercial Android Emulators =====
+  *[[http://www.amiduos.com/|AMIDuOS]] - "Try AMIDuOS for free for 30 days, buy it for only 15 EUR (Lollipop) odr 10 EUR (Jellybean)".
+===== Commercial Android Emulators as Online Service =====
+==== Appetize.io ====
+  *[[http://www.appetize.io/|Appetize.io]] - "Stream iOS & Android Native Apps in the Browser".
+==== AWS Mobile Services & AWS Device Farm ====
+  *[[http://aws.amazon.com/mobile/|AWS Mobile Services - Develop highly scalable mobile apps]].
+  *[[http://aws.amazon.com/console/mobile/|AWS Console Mobile App]] - List of all AWS services for development, testing and distribution of mobile apps.
+  *[[http://aws.amazon.com/device-farm/|AWS Device Farm]] - "Improve the quality of your iOS, Android, and web applications by testing against real mobile devices in the AWS Cloud", "Start Testing Today. Your first 250 minutes are free".
+==== Manymo ====
+  *The Android emulator online service [[http://www.manymo.com/|Manymo]] - "Manymo in-browser emulators appear like local emulators".
+    *"Or sign up for our Free plan, which offers 10 time-limited emulator launches, one at a time, per month".
+==== Xamarin Test Cloud ====
+  *[[http://www.xamarin.com/test-cloud|Xamarin Test Cloud]] - "Mobile app testing made easy. Automate your app testing on 2,000 real devices in the cloud. Build quality mobile apps quickly and with confidence".
+    *[[http://testcloud.xamarin.com/devices|Xamarin Test Cloud "Devices"]].
+    *[[http://testcloud.xamarin.com/login|Xamarin Test Cloud "Login"]].
+    *[[http://developer.xamarin.com/guides/testcloud/introduction-to-test-cloud/|Xamarin Developers "Introduction to Xamarin Test Cloud"]].
+      *[[http://developer.xamarin.com/guides/testcloud/introduction-to-test-cloud/|Xamarin Developers "Xamarin.UITest. Automated Mobile Testing with C# and NUnit"]].
+    *[[http://web.archive.org/web/*/http://www.lesspainful.com/|Archive.org "LessPainful"]] ( - 2014-12-17 ).
+      *Blog [[http://web.archive.org/web/*/http://blog.lesspainful.com/|Archive.org "LessPainful Blog"]] ( - 2016-03-10 ), last blog entry "Test engineering for Cross-platform. One of the promises of Calabash is cross-platform testing" ( 2013-03-28 ).
+      *[[http://www.github.com/LessPainful|GitHub "LessPainful"]].
+      *[[http://twitter.com/lesspainful|Twitter "lesspainful, @lesspainful"]] ( - 2013-03-16 ).
+    *[[http://www.youtube.com/user/XamarinVideos/|YouTube "Xamarin"]].
+      *[[http://www.youtube.com/playlist?list=PLM75ZaNQS_FZrB3DVgO-cCHwCbVJwfZCO|YouTube Playlist "Xamarin Test Cloud"]].
+      *[[http://www.youtube.com/playlist?list=PLM75ZaNQS_FZjZgLlCywCv9Tqzv-TQUKu|YouTube Playlist "Intro to Xamarin Test Cloud with Calabash"]].
+==== Resources ====
+  *[[http://aws.amazon.com/about-aws/whats-new/2015/08/aws-device-farm-adds-support-for-ios-test-your-ios-android-and-fire-os-apps-against-real-devices-in-the-aws-cloud/|AWS News "AWS Device Farm adds support for iOS – Test your iOS, Android and Fire OS apps against real devices in the AWS Cloud"]], 2015.
+  *[[http://aws.amazon.com/blogs/aws/aws-device-farm-test-mobile-apps-on-real-devices/|AWS Blog "AWS Device Farm – Test Mobile Apps on Real Devices"]], 2015.
+  *[[http://www.techcrunch.com/2013/04/16/xamarin-launches-test-cloud-automated-mobile-ui-testing-platform-acquires-mobile-test-company-lesspainful/|TechCrunch "Xamarin Launches Test Cloud Automated Mobile UI Testing Platform, Acquires Mobile Test Company LessPainful"]], 2013.
+  *[[https://www.youtube.com/watch?v=fX4TLdf02L4|YouTube "LessPainful.com - Hosted & Automated Android and iOS testing"]].
+===== Android Smartphone Skins =====
+  *[[http://developer.samsung.com/technical-doc/view.do?v=T000000095|Samsung Developers "Using Samsung Emulator Skins for Android Application Development"]].
+===== Android Images =====
+==== Android Operating System Images for Android Emulators with HARM ====
+  *Intel.
+    *Windows Drivers for Hardware Accelerated Execution - [[http://software.intel.com/en-us/android/articles/intel-hardware-accelerated-execution-manager|Intel "Intel Hardware Accelerated Execution Manager"]].
+  *Images.
+    *[[http://software.intel.com/en-us/android/articles/android-44-kitkat-x86-emulator-system-image|Intel "Android* 4.4 (KitKat) x86 Emulator System Image"]].
+    *[[http://software.intel.com/en-us/android/articles/android-43-jelly-bean-x86-emulator-system-image|Intel "Android* 4.3 (Jelly Bean) x86 Emulator System Image"]].
+    *[[http://software.intel.com/en-us/android/articles/android-42-jelly-bean-x86-emulator-system-image|Intel "Android* 4.2 (Jelly Bean) x86 Emulator System Image"]].
+==== Android Operating System Images for standard ARM Android Emulators ====
+==== Third Party Firmware ====
+  *[[http://www.cyanogenmod.org/|CyanogenMod]] - "An aftermarket firmware for a number of cell phones based on the open-source Android operating system".
+  *[[http://www.replicant.us/|Replicant]].
+  *[[http://developer.mozilla.org/en/docs/Mozilla/Firefox_OS|Mozilla Developer "Firefox OS"]].
+==== Resources ====
+  *[[http://www.freeyourandroid.org/|FSFE "Free Your Android!]].
+===== OpenSource and Commercial Android Operating Systems for x86 Computers =====
+==== Android-IA ====
+  *[[http://www.01.org/android-ia|01.org - Intel Open Source "Android* on Intel Platforms"]] - Once in 2014 Intel announced to develop an operating system "Android-IA" also for standard x86 desktop PCS, but then canceled the project. Intel offers just an Android operating system for some special x86 hardware boards.
+==== Android-x86 ====
+  *The original OpenSource Android operating system [[http://www.android-x86.org/|Android-x86 - Porting Android to x86]].
+    *[[http://android-x86.sourceforge.net/|SourceForge "android-x86 - A project to bring Android to the x86 platform]], [[http://www.sourceforge.net/projects/android-x86/|SourceForge "android-x86 - A project to bring Android to the x86 platform]].
+    *[[http://en.wikipedia.org/wiki/Chih-Wei_Huang|EN.Wikipedia "Chih-Wei Huang"]].
+    *[[http://www.android-x86.org/download|Android-x86 - Porting Android to x86 "Download"]] of ISO images.
+       *[[http://www.visualgdb.com/tutorials/android/vmware/|VisualGDB "Using VMWare to replace the slow Android Emulator"]].
+==== Console OS ====
+  *[[http://console.com.co/|Console, Inc. "Console OS"]], [[http://consoleos.com/|Console, Inc. "Console OS"]].
+    *Wiki [[http://wiki.console.com.co/|Android-x86 Wiki]].
+    *Blog [[http://www.christopherprice.net/|Christopher Price]].
+    *[[http://ww.consoleos.com/console-os-comparison-chart/|Console, Inc. "console-os-comparison-chart"]] -> [[http://consoleos.com/wp-content/uploads/2014/06/console-os-comparison-chart.pdf|console-os-comparison-chart]] ( PDF ).
+    *[[http://www.kickstarter.com/projects/mmv/console-os-dual-boot-android-remastered-for-the-pc|Kickstarter "Console OS: Android, Remastered for The PC"]].
+    *[[http://www.github.com/iConsole|GitHub "Console, Inc. iConsole"]].
+    *[[http://groups.google.com/forum/#!msg/android-x86/qkWG2TwVBqs/tW1Rm9u9DAAJ|Google Groups "Android-x86", Thread "Console OS stole Android-x86"]], 2015-12-12 - "I decide to STOP development of lollipop-x86 entirely. We will focus on the marshmallow-x86 branch to make it stable as soon as possible".
+    *[[http://www.cnx-software.com/2015/12/13/is-console-os-just-a-scam-based-on-a-fork-of-android-x86-with-little-modifications/|CNXSoft - Embedded System News "Is Console OS just a Scam Based on a Fork of Android-x86 with Little Modifications?"]], 2015-12-13 - "Most notably, after our Kickstarter ended, Intel decided to abandon Android-IA for the PC. While we tried, and spent far more than raised via Kickstarter, to take on maintaining Android-IA… we realized Intel had simply cut back support too much"
+===== Resources =====
+  *Special characters like "@".
+    *With Android simulators on Windows, with German keyboard at the physical host, you can´t enter some characters which require special keypresses, e.g. "@" requires ALT-GR and "Q" to be pressed simulatiously. 
+    *But usually you may copy it on the Windows host from an editor by CTRL-C and paste it at the simulator in the Android application by CTRL-V.
+  *Smartphone apps which require multi-touch are hard to use with smartphone simulators operated by keyboard & mouse, as mouse input is just single-touch input. So how about keyboard shortcuts just for smartphone simulators :-)?
+    *Remember a car simulator with offers "gas" and "break" - if the screen distance is too big, you you can´t switch from "gas" to "break" by mouse operation immediately, as required.
+    *Remember a military flight simulator, with "target cross" and "fire button" as interactive screen inputs. With multi-touch, you may move the "target cross" with one finger, while you press the "fire button" on the screen with another finger. With single-input by mouse, you are lost. Really.
+  *[[http://www.apkmirror.com/apk/google-inc/google-play-store/google-play-store-6-0-5-android-apk-download/|APK Resources "Google Play Store 6.0.5"]].
+  *[[http://alternativeto.net/software/genymotion/|alternativeTo "Genymotion" for AllPlatforms]] on Windows, Linux, MacOSX.
+  *[[http://www.alternativeto.net/software/bluestacks/|alternativeTo "BlueStacks" for AllPlatforms]] on Windows, Linux, MacOSX.
+  *[[http://www.androidpit.com/how-to-install-the-play-store|AndroidPIT "How to download and install the Google Play Store"]].
+  *[[http://university.xamarin.com/resources/how-to-install-google-play-on-android-emulator|Xamarin University "Installing Google Play Services in XAP"]].
+  *[[http://www.opengapps.org/|Open GApps]].
+  *[[http://forum.xda-developers.com/showthread.php?t=1996995|XDA Developers Forum "[APK][01-DEC-2015] Google Play Store v6.0.5 ~ Newest version, unmodded"]], 2012-11-17.
+{{tag>"Google Android" Android}}
+<footnote_navi_en>

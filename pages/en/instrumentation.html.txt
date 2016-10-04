@@ -6,6 +6,8 @@ Related Pages:
   *[[ni.html|National Instruments ( Labview, DIAdem )]].
   *[[mathcad.html|PTC Mathcad]].
   *[[simulate.html|Simulation]].
+===== Education =====
+  *[[http://academy-online.krohne.com/|KROHNE Academy]] - Free online courses "Web Based Trainings für die Prozessindustrie".
 ===== Instrumentation Hardware =====
 ==== General ====
   *[[http://www.brainchild.com.tw/|BrainChild - BRAINCHILD ELECTRONICS Co., LTD]] - "Largest controller maker in Taiwan".
@@ -17,7 +19,7 @@ Related Pages:
   *[[http://www.keysight.com/|Keysight Technologies]] ( formerly: [[http://www.aglilent.com/|Agilent Technologies]] ).
     *[[http://www.keysight.com/de/pc-1940892/infiniivision-2000-x-series-oscilloscope|Keysight Technologies "InfiniiVision 2000 X-Series Oscilloscope"]] - InfiniiVision 2000..6000 with web interface!
     *[[http://www.keysight.com/en/pc-1742042/fieldfox-handheld-rf-and-microwave-analyzers|Keysight Technologies "FieldFox Handheld RF and Microwave Analyzers"]].
-  *[[http://www.lecroy.com/|LeCroy]] - affordable "WaveAce" oscilloscopes.
+  *[[http://www.kikusuiamerica.com/|Kikusui America, Inc.]], [[http://www.kikusui-europe.com/|Kikusui Europe Corporation]].
   *[[http://www.micro-epsilon.de/|MICRO-EPSILON MESSTECHNIK GmbH & Co. KG]] - "Hochpräzise Sensoren, Messgeräte und Systeme / Anlagen".
   *[[http://www.mtssensor.de/|MTS Sensor Technologie GmbH & Co. KG]], Lüdenscheid.
     *[[http://www.mtssensor.de/UEber-MTS.13.0.html?&L=0s|Über MTS]] - "Anfang 1970 hat MTS Sensors - ein Unternehmensbereich der MTS Systems Corporation - das magnetostriktive Messprinzip erfunden und machte es als Erster im Markt industriell in Form von linearen Positionssensoren und Füllstandsonden nutzbar".
@@ -40,12 +42,16 @@ Related Pages:
   *[[http://www.tektronix.com/|Tektronix, Inc.]].
     *[[http://www.tektronix.com/newmdo|Tektronix, Inc. "MDO4000 Series - The first instrument for time-correlated anaogue, digital and RF signals"]] -  Whitepaper  -> You need an access code, for example "username547".
       *[[http://www.tektronix-resources.com/1108mdo400/48W_26923_0_MR_Letter.pdf|Tektronix, Inc. "Fundamentals of the MDO4000 Series. Mixed Domain Oscilloscope. Application Note"]] ( PDF ) ->  Fundamentals guide to Mixed-Domain-Oscilloscopes.
+  *[[http://teledynelecroy.com/|Teledyne LeCroy]] - affordable "WaveAce" oscilloscopes.
+    *[[http://en.wikipedia.org/wiki/LeCroy_Corporation|EN.Wikipedia "LeCroy Corporation"]], [[http://de.wikipedia.org/wiki/Teledyne_LeCroy|DE.Wikipedia "Teledyne LeCroy"]].
   *[[http://www.yokogawa.com/de/|Yokogawa Deutschland GmbH]].
 ==== Low-Buget Oscilloscopes ====
 === Low-Buget standalone Oscilloscopes ===
-  *[[http://www.messgeraete-chemnitz.de/|Präzitronic ( messgeraete-chemnitz.de )]].
+  *German vendor [[http://www.messgeraete-chemnitz.de/|Präzitronic ( messgeraete-chemnitz.de )]].
     *[[http://www.messgeraete-chemnitz.de/tisch-oszilloskope/|Präzitronic "OWON Oszilloskope"]].
+    *OWON was **not** recommended ( = recommended not to buy ) by instrumentation experts :-(.
   *[[http://www.rigol.com/|Rigol]], [[http://www.rigol.eu/|Rigol Europe]], [[http://www.rigolna.com/|Rigol USA]].
+    *RIGOL was recommended by instrumentation experts :-).
     *[[http://www.batronix.com/versand/oszilloskope/|Batronix Elektronik - Führende Programmier- und Messlösungen "Oszilloskope"]].
       *[[http://www.batronix.com/versand/oszilloskope/low-cost-oscilloscope.html|Batronix Elektronik "Low-cost Oscilloscope"]].
         *[[http://www.batronix.com/versand/oszilloskope/Rigol-DS1052E.html|Batronix Elektronik "Rigol DS1052E"]] - 2 channels.
@@ -57,6 +63,10 @@ Related Pages:
       *[[http://www.google.de/search?q=riglol|Google - Search for "riglol"]].
       *[[http://web.archive.org/web/*/http://riglol.3owl.com/|Archive.org "riglol.3owl.com"]].
       *[[http://www.gotroot.ca/rigol/riglol/|GotRoot "rigol"]].
+  *[[http://www.uni-trend.com/|UNI-T Technology (China) Co., Ltd.]].
+    *UNI-T was **not** recommended ( = recommended not to buy ) by instrumentation experts :-(.
+    *[[http://www.uni-trend.com/en/product/list_245_1.html|UNI-T Technology (China) Co., Ltd. "UTD2000C Series"]] - "Digital Storage Oscilloscopes".
+      *German vendor [[http://www.distrelec.de/en/manufacturer/uni/man_unit|Distrelec "UNI-T"]].
 === Low-Buget PC-based Oscilloscopes ===
   *[[http://www.picotech.com/oscilloscope.html|PicoScope USB Oscilloscope]].
     *The commercial oscilloscope software [[http://www.picotech.com/picoscope-oscilloscope-software.html|PicoScope]] for Windows.
@@ -115,6 +125,18 @@ Related Pages:
   *The OpenSource [[http://www.openscada.org/|openSCADA]] for Linux, Windows, MacOSX.
   *[[http://www.vimms.org/|Visual Module Management System ( Vimms )]] - "The free OpenSource development system for measurement and automation with Linux", "Automation, Evaluation, Fitting, Report Generation".
   *The Opensource [[http://pvbrowser.de/|ProcessViewBrowser]] for Linux - "Process Visualization, HMI and SCADA as simple as browsing the internet".
+==== Commercial Data Acquisition Software for Mechanical Engineering, e.g. for windmill-powered Plant Developers ====
+  *MLab/MGraph.
+    *[[http://www.stiegele.eu/|STIEGELE Datensysteme GmbH]].
+      *[[http://www.stiegele.eu/en/software-overview/data-acquisition/|STIEGELE Datensysteme GmbH "MLab – Data acquisition and control system"]] - "A universal data acquisition and control system. It is capable of simultaneously logging measurement data from different data sources (analog, digital, CAN, Ethernet, etc.)".
+      *[[http://www.stiegele.eu/en/dokumentation/mgraph-datenblatt-intuitive-datenanalyse/|STIEGELE Datensysteme GmbH  "MGraph"]].
+  *Famos.
+    *[[http://www.imc-berlin.com/|imc Meßsysteme GmbH]].
+      *[[http://www.imc-berlin.com/products/measurement-software/imc-famos/|imc Meßsysteme GmbH "imc FAMOS"]].
+    *[[http://en.wikipedia.org/wiki/Imc_FAMOS|EN.Wikipedia "imc FAMOS"]], [[http://de.wikipedia.org/wiki/Imc_FAMOS|EN.Wikipedia "imc FAMOS"]].
+  *Catman. 
+    *[[http://www.hbm.com/|Hottinger Baldwin Messtechnik GmbH]].
+      *[[http://www.hbm.com/en/2290/catman-data-acquisition-software/|Hottinger Baldwin Messtechnik GmbH "catman Software: Simplifying Measurement"]].
 ==== Commercial ====
   *[[http://www.avl.com/puma-open|AVL "PUMA Open Test System Automation"]].
     *PUMA runs on Windows, using the realtime kernel "AVL Realtime Environment" ( ARTE ).
@@ -154,17 +176,19 @@ Related Pages:
     *Based on the test automation process EXAM ( EXtended Automation Method ).
     *"Als weltweit exklusiver EXAM-Distributor des Volkswagen Konzerns bieten wir Automobilherstellern und Zulieferern den kostenfreien Download von EXAM an".
     *Features.
-      *"Reporting with [[http://www.eclipse.org/birt|BIRT]]".
+      *EXAM 3.x: "Reporting with [[http://www.eclipse.org/birt|BIRT]]".
       *"[[http://www.ibm.com/software/awdtools/doors/|Doors]] Synchronizer".
       *"EXAM Scripting".
       *Interfaces / Scripting:
-        *Python ( see [[python.html|Python]] )
+        *Python 2.7 ( see [[python.html|Python]] )
         *[[http://groovy.codehaus.org/|Codehaus "Groovy"]], [[http://en.wikipedia.org/wiki/Groovy_%28programming_language%29|EN.Wikipedia "Groovy (programming language)"]], [[http://de.wikipedia.org/wiki/Groovy|DE.Wikipedia "Groovy"]].
-      *A database is needed for operation, but is not shipped even with the EXAM EA package. Supported databases:
-        *The OpenSource SQL database [[http://www.postgresql.org/|PostgreSQL]]. At the installation, you are asked to confirm the installation path ( e.g. "C:\Program Files\Postgre" ) and the database installation path ( e.g. "C:\Program Files\Postgre" ).
-        *The OpenSource SQL database [[http://www.mysql.com/|MySQL]].
-        *The SQL database [[http://www.oracle.com/us/products/database/|Oracle Database]] 10g - Free or commercial edition.
-      *Messaging: JBoss Application Server 4.2.X.
+      *A database is needed for operation. Supported databases:
+        *The OpenSource SQL database [[http://www.postgresql.org/|PostgreSQL]] 9.4. PostgreSQL 8.4 shipped with the EXAM EA package. At the installation, you are asked to confirm the installation path ( e.g. "C:\Program Files (x86)\Postgre" ) and the database installation path ( e.g. "C:\Program Files (x86)\Postgre" ).
+        *The OpenSource SQL database [[http://www.mysql.com/|MySQL]] 5.6, not shipped with the EXAM EA package.
+        *The SQL database [[http://www.oracle.com/us/products/database/|Oracle Database]] 10g/11g (SE/XE) - Free or commercial edition, not shipped with the EXAM EA package.
+      *For EXAM 4: 
+        *[[http://glassfish.java.net/|Java.net "GlassFish Server"]].
+      *For EXAM 3.x Messaging: JBoss Application Server 4.2.X.
         *[[http://www.jboss.org/jbossas/downloads/|JBOSS - Downloads]].
           *[[http://www.sourceforge.net/projects/jboss/files/JBoss/JBoss-4.2.3.GA/|SourceForge "JBoss-4.2.3.GA"]].
       *EXAM EA -> [[http://www.oracle.com/technetwork/java/|Java Platform Standard Edition]] 6, [[http://www.python.org/|Python]] 2.x runtime.
@@ -262,6 +286,7 @@ Related Pages:
 ===== Forums, Newsgroups =====
   *[[http://dangerousprototypes.com/forum/|Dangerous Prototypes. A new open source hardware project every month - Forum]].
   *[[http://www.ikalogic.com/forums/|IKALOGIC Forums]].
+  *[[http://www.imcdataworks.com/community/|imc DataWorks, LLC "Community"]].
   *[[http://www.ipemotion.com/forum/|IPEmotion - Measurement Simplified Forums]].
   *[[http://forums.labjack.com/|LabJack Forum]].
   *LinkedIn.

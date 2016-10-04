@@ -7,13 +7,12 @@ Relted page:
 ==== Netscape / Mozilla ====
 === Tools ===
   *[[http://www.mozilla.org/|Mozilla]] - Browser "Firefox" , E-Mail client "Thunderbird".
-  *The download archive [[http://releases.mozilla.org/pub/mozilla.org/|Mozilla Releases]].
-    *[[http://releases.mozilla.org/pub/mozilla.org/firefox/releases/|Mozilla Releases - Firefox]].
-      *[[http://download.cdn.mozilla.net/pub/mozilla.org/firefox/releases/12.0/|Mozilla Download - Firefox 12.0]] is the latest release for W2k.
-    *[[http://releases.mozilla.org/pub/mozilla.org/thunderbird/releases/|Mozilla Releases - Thunderbird]].
-      *[[http://download.cdn.mozilla.net/pub/mozilla.org/thunderbird/releases/12.0.1/|Mozilla Download - Thunderbird 12.01]] is the latest release for W2k.
-      *[[http://download.cdn.mozilla.net/pub/mozilla.org/thunderbird/releases/24.0.1/|Thunderbird 24.0.1]].
-      *[[http://download.cdn.mozilla.net/pub/mozilla.org/thunderbird/releases/17.0esr/|Thunderbird 17esr]] ( "Thunderbird Extended Support Releases (ESR)" ) - A very stable software, suitable for legacy "slow" PIII computers. 
+  *The download archive [[http://releases.mozilla.org/pub/|Mozilla Releases]].
+    *[[http://releases.mozilla.org/pub/firefox/releases/|Mozilla Releases - Firefox]].
+      *[[http://download.cdn.mozilla.net/pub/firefox/releases/12.0/|Mozilla Download - Firefox 12.0]] is the latest release for W2k.
+    *[[http://releases.mozilla.org/pub/thunderbird/releases/|Mozilla Releases - Thunderbird]].
+      *[[http://download.cdn.mozilla.net/pub//thunderbird/releases/12.0.1/|Mozilla Download - Thunderbird 12.01]] is the latest release for W2k.
+      *[[http://download.cdn.mozilla.net/pub/thunderbird/releases/17.0esr/|Thunderbird 17esr]] ( "Thunderbird Extended Support Releases (ESR)" ) - A very stable software, suitable for legacy "slow" PIII computers. 
   *[[http://wiki.mozilla.org/RapidRelease/Calendar|Mozilla Wiki - RapidRelease/Calendar]] -> Dates of new releases.
   *[[http://www.flock.com/|Flock]] - "Flock Browser - The Social Web Browser".
   *The free [[http://www.esker.com/downloads.asp|Esker ActiveX Plug-in]] for Netscape 4.x and 6.x browsers - "The Esker ActiveX Plug-in adds ActiveX control support to WIN32 Netscape Navigator".
@@ -40,6 +39,7 @@ Relted page:
     *[[http://addons.mozilla.org/de/firefox/addon/video-downloadhelper/|Firefox Addon "Video DownloadHelper"]].
     *[[http://www.primelife.eu/|PrimeLife]].
       *The OpenSource Firefox addon [[http://www.primelife.eu/results/opensource/76-dashboard|PrimeLife / OpenSource "Dashboard"]] - "Helps you track what information is collected by the websites you visit, together with a means to set your preferences on a site by site basis".
+    *[[http://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/|Firefox Addon "uBlock Origin"]] - "Finally, an efficient blocker. Easy on CPU and memory".
     *[[http://www.getfirebug.com/|Firebug - Web Development Evolved]] - "Firebug integrates with Firefox to put a wealth of web development tools at your fingertips while you browse. You can edit, debug, and monitor CSS, HTML, and JavaScript live in any web page".
 === Addons for Thunderbird ===
   *[[http://addons.mozilla.org/de/thunderbird/|Addons for Thunderbird]].
@@ -119,6 +119,9 @@ then try again</code>
   *Tip: If you switch back from Thunderbird 24.5 to 24.0.1, please compress all folder data by Thunderbird itself, to get rid of the bug.
 == Firefox - Disable Image Loading, for use with slow ( ISDN / Analog Modem ) Internet Connections ==
   *[[http://support.mozilla.org/en-US/questions/981640|Mozilla Support Forum "How to disable images in firefox"]] - "Go to about:config, search for this option "permissions.default.image" change to ..", "1 for enable images and 2 worked for disable images".
+== Firefox - Simulation of ( mobile ) Displays ==
+  *English: "Debugger / Responsive Design Mode".
+  *German: "Debugger / Bildschirmauflösung".
 == Resources ==
   *[[http://www.computerhope.com/issues/ch000973.htm|Computer Hope "Enable the missing File menu bar"]] for Firefox.
 ==== Opera ====
@@ -181,6 +184,9 @@ The specified module could not be found.
     *[[http://www.google.de/search?q=libappindicator1+is+not+configured+yet|Google - Search for "libappindicator1 is not configured yet"]].
   -Execute the application:
     *"google-chrome-stable".
+=== Tips & Tricks ===
+== Simulation of ( mobile ) Displays ==
+  *English: "Debugger / Toggle Device Mode".
 ==== Safari ====
   *[[http://www.apple.com/de/safari/|Apple Safari]].
   *[[http://www.heise.de/download/safari.html|heise Software Verzeichnis "Safari"]] - "Für Windows steht aktuell die Version 5.1.7 zum Download, da die Entwicklung eingestellt ist".

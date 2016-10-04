@@ -1,4 +1,4 @@
-====== [hemmerling] Specification by Example ======
+====== [hemmerling] Specification by Example, Modelling by Example ======
 Related page:
   *[[systemdesign.html|System Design]].
   *[[testing.html|Testing]].
@@ -10,6 +10,11 @@ Related page:
   *Speech "BBD Hands-on with Python".
     *Slides [[http://www.slideshare.net/hemmerling/rolf-hemmerling-handson-workshop|SlideShare "BBD Hands-on with Python. Practical Hands-on Workshop about 'Behaviour Driven Development', implementing the Game 'CodeBreaker' on Python 2.7 as Example"]] ( [[http://www.slideshare.net/slideshow/embed_code/36197836|SlideShare "BBD Hands-on with Python. Practical Hands-on Workshop about 'Behaviour Driven Development', implementing the Game 'CodeBreaker' on Python 2.7 as Example"]] ).
 ===== Process and Proceedings... =====
+==== Modelling by Example ====
+  *Stakeholder Whisperer / everzet "Modelling by Example".
+    *[[http://news.ycombinator.com/item?id=8405071|Hacker News "Introducing Modelling by Example (everzet.com)"]].
+    *[[http://www.stakeholderwhisperer.com/posts/2014/10/introducing-modelling-by-example|Stakeholder Whisperer "Introducing Modelling by Example]]  ( formerly the artcile was at [[http://www. everzet.com/|everzet's blog]] ).
+  *[[http://www.skillsmatter.com/skillscasts/5899-modelling-by-example|Skills Matter "Modelling by Example"]].
 ==== Specification by Example ====
   *Blog article [[http://www.red-badger.com/blog/2012/07/31/what-is-specification-by-example/|Red Badger "What is Specification by Example?"]] -> "What are the differences between Specification by example, Behaviour-Driven development (BDD) and Acceptance Testing-Driven Development (ATDD)?" #.
   *[[http://www.youtube.com/watch?v=ciPmha5f92A|YouTube "Christian Hassa: Specification By Example"]].
@@ -96,7 +101,7 @@ I want 'features'"</HTML>
   *[[http://en.wikipedia.org/wiki/Emergent_Design|EN.Wikipedia "Emergent Design"]].
 
 ===== Free Software for Keyword-Driven Testing / Table-Driven Testing / Action Word Based Testing =====
-==== FIT & Fitnesse ====
+==== FIT, SLIM & Fitnesse ====
 === Fitnesse for Java ===
   *The OpenSource [[http://www.fitnesse.org/|FitNesse]], [[http://github.com/unclebob/fitnesse|Github "unclebob/fitnesse"]], a Java 6 application. Support for C++, Python, Ruby, Delphi, C#,..
     *[[http://schuchert.wikispaces.com/FitNesse.Tutorials|Brett Schuchert "FitNesse.Tutorials"]].
@@ -130,6 +135,16 @@ I want 'features'"</HTML>
     *[[http://www.github.com/jediwhale/|Github "Mike Stockdale"]].
       *[[http://www.github.com/jediwhale/fitsharp|Github "jediwhale/fitsharp"]] for Windows with .NET 3.5 - "Functional testing tools for .NET".
   *[[http://www.fitnesse.org/FitNesse.DotNet|SourceForge "FitNesse.DotNet"]], [[http://fitnessedotnet.sourceforge.net/|SourceForge "FitNesse.DotNet"]], [[http://www.sourceforge.net/projects/fitnessedotnet/|SourceForge ".NET FIT, FitLibrary for FitNesse, HTML"]] for Windows with .NET 2.0.
+=== SliM ===
+== The Tool ==
+  *[[http://www.fitnesse.org/PlugIns|FitNesse "Extend FitNesse"]].
+    *Plugins:
+      *"SLiM servers for different languages/environments".
+      *"SLiM fixtures".
+== Resources ==
+  *[[http://butunclebob.com/FitNesse.UserGuide.SliM|butUncleBob.com "FitNesse UserGuide "SliM"]].
+  *[[http://www.fitnesse.org/FitNesse.UserGuide.WritingAcceptanceTests.SliM|FitNesse UserGuide "SliM" ]].
+  *[[http://www.fitnesse.org/FitNesse.UserGuide.WritingAcceptanceTests.SliM.SlimProtocol|FitNesse UserGuide "The Slim Protocol, version 0.4"]].
 ==== Robot Framework ====
 === The Tools ===
   *The OpenSource [[http://www.robotframework.org/|robotframework]], [[http://code.google.com/p/robotframework/|Google Code "robotframework. A generic test automation framework"]], [[http://www.github.com/robotframework|GitHub "robotframework"]] in Python - "A generic test automation framework for acceptance testing and acceptance test-driven development (ATDD). It has easy-to-use tabular test data syntax and utilizes the keyword-driven testing approach. Its testing capabilities can be extended by test libraries implemented either with Python or Java, and users can create new keywords from existing ones using the same syntax that is used for creating test cases".
@@ -163,6 +178,7 @@ I want 'features'"</HTML>
     *<del>[[http://www.java2s.com/Code/Jar/j/jbehave-core.htm|Java2 "jbehave core < j < Jar File Download"]]</del> - outdated jars :-(.
     *Tutorial [[http://www.github.com/jbehave/jbehave-tutorial|GitHub "jbehave/jbehave-tutorial"]].
       *"Behave Selenium Tutorials on the [[http://www.Etsy.com/|Etsy.com]] website".
+    *[[http://www.jbehave.org/reference/stable/locating-stories.html|JBehave "Locating Stories"]] - "JBehave supports OpenDocument Text format via the ODF Toolkit".
 == Demo Project "Shopping Cart" ==
   *[[http://www.github.com/smartsquare/Jbehave_Examples|GitHub "smartsquare/Jbehave_Examples"]].
   *[[http://www.slideshare.net/DanielRosowski/|SlideShare "DanielRosowski"]].
@@ -193,6 +209,11 @@ I want 'features'"</HTML>
     *[[http://www.linkedin.com/groups?home=&gid=3804529|LinkedIn "SpecFlow: Pragmatic BDD for .NET"]].
     *[[http://www.twitter.com/specflow|Twitter "SpecFlow, @specflow"]].
   *The OpenSource BDD development tool [[http://www.nbehave.org/|NBehave]], [[http://code.google.com/p/nbehave/|Google Code "nbBehave"]] for .NET.
+=== Bhat for PHP ===
+  *[[http://www.behat.org|Bhat]], [[http://www.github.com/Behat|GitHub "Behat"]] - "Open source Behavior Driven Development framework for PHP 5.3+".
+  *[[http://www.packagist.org/packages/behat/behat|Packagist - The PHP Package Repository "behat/behat. Scenario-oriented BDD framework for PHP 5.3"]].
+  *[[http://www.thinkshout.com/blog/2014/10/getting-started-with-behat/|ThingShout "Getting Started with Behat"]].
+  *[[http://code.tutsplus.com/tutorials/bdd-with-behat--net-36171|evenato tuts+ "BDD With Behat"]].
 === Python Behave ===
   *The OpenSource [[http://pythonhosted.org/behave/|PythonHosted "behave"]],  [[http://github.com/behave/behave|Github "behave / behave"]], [[http://www.github.com/jeamland/behave|Github "jeamland / behave"]] - "A behaviour-driven development, Python style" #.
     *[[http://pythonhosted.org/behave/comparison.html|PythonHosted "behave - Comparison With Other Tools"]] - Comparison of "Behave", "Cucumber", "Lettuce", "Freshen".
@@ -212,6 +233,29 @@ I want 'features'"</HTML>
     *[[http://github.com/behave/behave/blob/master/docs/parse_builtin_types.rst|GitHub "behave/behave/blob/master/docs/parse_builtin_types.rst"]] - "Predefined Data Types in parse".
     *[[http://docs.python.org/2/library/re.html|The Python Standard Library / 7. String Services / "7.2. re — Regular expression operations"]].
     *[[http://github.com/behave/behave/issues/216|GitHub Github "behave / behave" issues, ticket #216]] by Rolf Hemmerling.
+=== Spock, Gep ===
+== The Tools ==
+  *[[http://spockframework.github.io/spock/docs/|GitHub.io "Spock Framework Reference Documentation"]], [[http://www.github.com/spockframework|GitHub "Spock Framework"]].
+== Literature ==
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1617292532/hemmerling-21|Konstantinos Kapelonis "Java Testing with Spock"]].
+    *Accompanying Website [[https://www.manning.com/books/java-testing-with-spock|Manning Publications "Java Testing with Spock"]].
+== Selenim with Geb ==
+  *See [[testing.html|Testing]].
+== Mocking by Mock() ==
+  *[[http://www.objectpartners.com/2014/04/08/spock-mock-cheatsheet/|Objective Partners Blog "Spock Mock Cheatsheet"]].
+  *[[http://spockframework.github.io/spock/javadoc/1.0/spock/lang/MockingApi.html|GitHub.io GitHub.io "Spock Framework Reference Documentation" - "Class MockingApi"]].
+  *[[https://spockframework.github.io/spock/docs/1.0/interaction_based_testing.html|GitHub.io "Spock Framework Reference Documentation" - "Interaction Based Testing"]] - "How Are Mock Implementations Generated?".
+  *[[http://blog.andresteingress.com/2013/10/29/spock-mocking-and-stubbing/|Andre Steingress,  Blog JVM Stuff "Spock - Mocking and Stubbing"]].
+  *[[http://www.farenda.com/spock/spock-framework-mock/|Farenda "Spock Framework Mock"]].
+  *[[http://www.dzone.com/articles/mocking-static-methods-groovy|DZONE / Java Zone "Mocking Static Methods in Groovy"]].
+  *[[http://www.dzone.com/articles/spocklight-change-return-value|DZONE / Java Zone "Spocklight: Change Return Value of Mocked or Stubbed Service Based On Argument Value"]].
+  *[[http://stackoverflow.com/questions/27446102/grails-spock-how-to-mock-single-method-within-class-where-method-is-called-fr|StackOverflow "Grails / Spock: How to mock single method within class where method is called from within the class itself?"]].
+== Resources ==
+  *[[http://www.dzone.com/articles/testing-java-using-spock|DZONE / Java Zone "Testing Java using the Spock Framework"]].
+  *[[http://www.dzone.com/articles/introduction-spock|DZONE / Java Zone "An introduction to Spock"]].
+  *[[http://www.petrikainulainen.net/programming/testing/writing-unit-tests-with-spock-framework-creating-a-gradle-project/|Petri Kainulainen "Writing Unit Tests With Spock Framework: Creating a Gradle Project"]].
+  *[[http://www.zeroturnaround.com/rebellabs/using-spock-to-test-groovy-and-java-applications/|ZeroTurnaround "Using Spock to test Groovy AND Java applications"]].
+  *[[http://en.wikipedia.org/wiki/Spock_%28testing_framework%29|EN.Wikipedia "Spock (testing framework)"]].
 === Frameworks for writing Matcher Objects ===
   *[[http://pythonhosted.org/nose/|PythonHosted "nose"]], [[http://www.github.com/nose-devs/|Github "nose-devs"]], [[http://pypi.python.org/pypi/nose|Python Package Index "nose"]], [[http://nose.readthedocs.org/|Read the Docs "nose"]] - "is nicer testing for python".
     *[[http://nose.readthedocs.org/en/latest/testing_tools.html|Read the Docs "nose documentation / Testing with nose / -Testing tools"]].
@@ -268,6 +312,7 @@ I want 'features'"</HTML>
   *[[http://www.github.com/olegpidsadnyi/pytest-bdd|GitHub " olegpidsadnyi / pytest-bdd"]].
 ==== Resources ====
   *By the use of regular expressions, You may parameterize BBD script snippets, to help the reuse and recall of the same code, by several sentences.
+  *[[http://www.behaviourdriven.org/|BDDWiki: BehaviourDrivenDevelopment]].
   *Functional process testing with JBehave and Camunda BPM:
     *Event "Test-driven business process modeling with camunda BPM" by users of [[http://www.camunda.org/|camunda BPM platform]], by [[http://www.holisticon.de/|Holisticon AG]] and [[http://www.camunda.org/|camunda services GmbH]] in Hamburg, Germany ( 2013-11-26 ).
     *[[http://www.holisticon.de/2013/11/testgetriebene-geschaeftsprozessmodellierung-mit-camunda-bpm/|Holisticon AG Blog "Testgetriebene Geschäftsprozessmodellierung mit camunda BPM"]].

@@ -1,0 +1,66 @@
+====== [hemmerling] Brick Devices with Brick Concepts for IoT Applications ======
+Related pages:
+  *[[brickfirmware.html|Brick Firmware]].
+  *[[industry40.html|"Industry 4.0" & "Internet of Things" ( IOT ) & "Cyber-physical Systems"]].
+===== Arduino Platform =====
+  *See [[arduino.html|The Arduino / Freeduino Platform with Atmel ATmega, Microchip PIC, ARM, Freescale Coldfire]].
+===== Brick 'R' Knowledge =====
+  *See [[electronics01.html|Electric Units & Electronics 1/3 - My Electronics, Electronics Workbench Equipment, Electronics Literature & Resources]].
+===== Intel Edision =====
+  *See [[embedded.html|Embedded Systems]].
+===== Raspberry Pi =====
+  *See [[arm.html|ARM Embedded Systems ( ARM7, ARM8, ARM9, ARM11, Cortex )]].
+===== SenseBox =====
+  *[[http://sensebox.uni-muenster.de/|Universität Münster "SenseBox"]] by [[http://www.uni-muenster.de/Geoinformatics/|Institut für Geoinformatik der Universität Münster]].
+  *[[http://www.twitter.com/sensebox_de|Twitter "SenseBox, @SenseBox_De"]].
+  *The free online service [[http://www.opensensemap.org/|OpenSenseMap]].
+    *The OpenSource [[http://github.com/mpfeil/OpenSenseMap|GitHub "mpfeil/OpenSenseMap"]].
+  *"SenseBox" is dedicated for "Citizen Science" projects :-).
+===== Tessel, Tessel 2 =====
+  *[[http://tessel.io/|Tessel]] - "Build your product faster. Tessel 2 is a development platform you can embed in a product. Build fast with Node.js/io.js, then optimize the hardware and build thousands".
+    *[[http://github.com/tessel/|GitHub "tessel"]].
+      *[[http://github.com/tessel/t1-docs|GitHub "tessel/t1-docs"]] - "API documentation for the original Tessel".
+    *[[http://start.tessel.io/install|Tessel "Tessel Installation"]] for Tessel1.
+    *[[http://www.tessel.io/modules|Tessel "Modules"]].
+      *"Camera"
+        *"Note that the Camera Module will not work with Tessel 2. For camera on Tessel 2, use the USB Camera Module".
+        *The camera is recording the photos mirror-inverted, as the original CCD hardware does. With usual cams, the correction ( = mirroring back to a "normal" photo ) is done by internal camera firmware.
+      *"USB Camera" - "USB Camera Module for Tessel 2. Camera, webcam, video, audio, and still images all wrapped up and supported in one. Should work with any USB webcam and/or USB speakers".
+    *As of 2016-02:
+      *Tessel1 is incompatible to "NodeJS 4" and so requires to install [[http://www.nodejs.org/|NodeJS]] 0.12.10".
+      *There is still no sales of "Tessel USB Modules".
+      *There is no sales of Tessel in Germany, at all. 
+        *Amazon.CO.UK:
+          *[[http://www.amazon.co.uk/s/ref=nb_sb_noss?url=search-alias%3Dcomputers&field-keywords=tessel|Amazon.CO.UK - Search for "tessel" in the section "computers"]].
+          *[[http://www.amazon.co.uk/s/ref=nb_sb_noss?url=srs%3D9464950031%26search-alias%3Dspecialty-aps&field-keywords=tessel|Amazon.CO.UK Seller "CloudRack" - Search for "tessel"]].
+        *Amazon.COM:
+          *[[http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Dcomputers&field-keywords=tessel|Amazon.COM - Search for "tessel" in the section "computers"]].
+          *[[http://www.amazon.com/s/ref=nb_sb_noss?url=srs%3D13561140011%26search-alias%3Dspecialty-aps&field-keywords=tessel|Amazon.COM Seller "CloudRack" - Search for "tessel"]].
+        *[[http://www.gpio.com.au/product-category/tessel/tessel-starter-kits/|GPIO Australia "Tessel Starter Kits"]] - "Tessel Beginners Pack", "Tessel Hackathon Pack".
+        *Offical sales: [[http://www.seeedstudio.com/depot/Tessel-m-153.html|Seed Studio "Tessel"]].
+          *[[http://www.seeedstudio.com/depot/Tessel-Camera-Module-p-2229.html|Seed Studio "Tessel" - "Tessel Camera Module"]].
+  *[[http://www.nodejs.org/|Node.js]] 0.12.10" - Development software & firmware for Tessel.
+    *[[http://www.nodejs.org/en/download/releases/|Node.js "Previous Releases"]].
+      *[[http://nodejs.org/download/release/v0.12.10/|Node.js "Index of /download/release/v0.12.10/"]].
+    *[[http://nodejs.org/dist/v0.12.10/docs/api/|Node.js "Node.js v0.12.10 Manual & Documentation"]].
+===== Tinkerforge - Bricks / Bricklets =====
+  *The German company "Tinkerforge GmbH"  -> See [[tinkerforge.html|Tinkerforge]], [[brickfirmware.html|Brick Firmware]].
+===== WunderBar =====
+  *The German Company [[http://www.relayr.io/|iThings4U GmbH "relayr - bring things to life"]]
+    *[[http://www.relayr.io/wunderbar|iThings4U GmbH - relayr "WunderBar"]].
+    *[[http://developer.relayr.io/|relayr "Get started with Relayr app development"]].
+      *[[http://developer.relayr.io/documents/Python/Introduction|relayr "relayr for Pythonists"]] - "relayr Python Library Documentation".
+      *[[http://www.github.com/|GitHub "relayr"]].
+        *[[http://www.github.com/relayr/python-sdk|GitHub "relayr/python-sdk"]].
+      *[[http://pypi.python.org/pypi/relayr/|Python Package Index "relayr"]].
+      *The "relayr Python Library" can't be installed on Windows. The installation "pip install relayr" on Python 2.7 aborts by the error message "Pexpect is intened for UNIX-like operating systems" :-(.
+        *[[http://pypi.python.org/pypi/pexpect/|Python Package Index "pexpect"]] for Linux.
+        *[[http://pypi.python.org/pypi/winpexpect/|Python Package Index "winpexpect"]] for Windows.
+    *[[http://www.hackthehouse.io/|relayr Hack The House: With Bosch and Siemens Home Appliances]] by [[http://www.relayr.io/|iThings4U GmbH "relayr - bring things to life"]] and [[http://www.bsh-group.com/|BSH Hausgeräte GmbH]], 2015-02-27 - 2015-03-01.
+      *[[http://www.facebook.com/BoschHomeDeutschland/posts/10152548308606556|Facebook "Bosch Home Deutschland: relayr Hack The House"]].
+      *[[http://www.facebook.com/groups/455546924601515/|Facebook, Closed Group "relayr Hack The House"]].
+    *Business model of "relayr": The Wunderbar devices are communicating by MQTT with cloud services provided by "relayr".
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/World/Deutsch/Computer/Hardware/Mikrocontroller/|OpenDirectory "Top: World: Deutsch: Computer: Hardware: Mikrocontroller"]].
+{{tag>"brick devices" brick devices ARM Embedded Systems ARM "Cortex M3" Cortex M3}}
+<footnote_navi_en>

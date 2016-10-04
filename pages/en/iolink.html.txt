@@ -1,0 +1,68 @@
+====== [hemmerling] IO-Link ======
+Related page:
+  *[[fieldbus.html|Fieldbuses and Automation Networks]].
+===== Organisations, Norms and Events =====
+  *[[http://www.profibus.com/|PROFIBUS Nutzerorganisation e.V.]] ( PNO ).
+  *[[http://www.io-link.com/|IO-Link Consortium]].
+    *[[http://io-link.com/en/WirUeberUns/Manufacturer.php|IO-Link Consortium "Community / Members"]].
+    *[[http://www.io-link.com/en/Download/Download.php|IO-Link Consortium "Download"]].
+      *Specification.
+        *"IO-Link Interface and System Specification".
+        *"IO Device Description V1.1 Specification (with Schemas and Standard Definitions)".
+    *[[http://www.io-link.com/de/UserWorkshop/NaechsterWorkshop.php|IO-Link Consortium "User-Workshop / Nächster Workshop"]] - Free workshops about "I/O Link".
+===== IO-Link Device Description Specification ( IODD ) =====
+  *An IODD file is a ZIP file. Before import of the IODD informations, you must unzip the ZIP file!
+  *[[http://en.wikipedia.org/wiki/IODD|EN.Wikipedia "IODD"]], [[http://de.wikipedia.org/wiki/IODD|DE.Wikipedia "IODD"]] ( IO Device Description) .
+===== IO-Link Hardware & Software =====
+==== IODD interpreter ====
+  *[[http://www.google.de/search?q=iodt+io-link|Google - Search for "iodt io-link"]].
+  *[[http://www.ifm.com/ifmus/web/fdt_04.htm|ifm efector, inc. - "IODD Interpreter DTM"]].
+==== IO-Link Stacks, IT-Link 2 USB Interfaces ====
+  *[[http://www.iq2-development.de/|IQ2 Development GmbH]]"IO-Link Intelligent Components" for developers.
+    *The hardware tool [[http://www.iq2-development.com/products/iqinterface.html|IQ2 Development GmbH "iqInterface"]] for IO-Link development, with IO-LINK and USB interface - "A versatile development and production tool for IO-Link Master and IO-Link Device components".
+    *[[http://www.iq2-development.com/products/iqstacks.html|IQ2 Development GmbH "iqStacks. iqStack Device and Master – Your access to IO-Link technology"]].
+      *Wiki [[http://iq2dev.atlassian.net/wiki/|IQ2 Development GmbH's Knowledge Base]].
+      *You may get the source code of the IQ2 libaries for free" -> "Get your free download now for evaluation and testing". "I certify the 'widget iqStack Device' and 'iqStack Master" only for evaluation or testing and not to use them for commercial purposes".
+      *"Both, iqStack Master and iqStack Device, completely comply with the official IO-Link specifications regarding layer structure, service, and terminology. In the source code of every software module you will find detailed notes with cross references to the IO-Link specification chapters".
+    *Products with IQ2 stack, presented on the "IO-Link user workshop" in 2016:
+      *[[http://www.iq2-development.com/news/io-link-device-and-master-reference-designs-by-cypress-germany.html|IQ2 Development GmbH "IO-LINK Device and Master reference designs by Cypress Germany"]] -> Cypress.
+      *[[http://www.iq2-development.de/iqmaxrefdes23|IQ2 Development GmbH "Referenzdesign IO-Link Light Sensor (iqMAXREFDES23)"]] -> Maxim & Renesas.
+      *[[http://www.iq2-development.com/iqmaxrefdes42.html|IQ2 Development GmbH "Referenzdesign IO-Link digital temperature sensor (iqMAXREFDES42)"]].
+  *[[http://www.tmgte.de/|TMG Technologie Management Gruppe, Technologie und Engineering GmbH]].
+    *[[http://www.tmgte.de/en/products/io-link-products.html|Technologie und Engineering GmbH "IO-Link Products"]] - "IO-Link Device protocol stack", "IO-Link Master protocol stack", "Windows DLL for USB IO-Link Master",...
+
+==== IO-Link Chip Manufacturers ====
+  *Maxim
+  *Texas Instruments ( a "simple" chip )
+  *ZDMI
+==== IO-Link Automation Manufacturers & Products ====
+  *[[http://www.siemens.com/io-link|SIEMENS AG "IO-Link - The new communications standard"]].
+  *[[http://www.balluff.com/|Balluff GmbH - sensors worldwide]].
+    *[[http://www.balluff.com/Balluff/de/ProductsChannel/Overview/de/Networking+System-%C3%9Cbersicht.htm|Balluff GmbH "Networking System-Übersicht"]].
+    *[[http://www.pressebox.com/pressemeldungen/balluff-gmbh/boxid/102015|Pressebox "Balluff introduces IO-Link laser sensors at the Hanover Exhibition"]], 2007-04-16.
+  *[[http://www.phoenixcontact.de/automatisierung/187_25048.htm|PHOENIX CONTACT "I/O-Systeme – IO-Link"]].
+
+===== IO-Link & Industry 4.0 =====
+  *Vision of Peter K Wienzek, [[http://www.xing.com/profile/Peter_Wienzek|XING "Peter Wienzek"]], [[http://www.linkedin.com/in/peterwienzek|LinkedIn "Peter K Wienzek"]] in 2016:
+==== Concept for Low Data Throughput: PLC as IO-Master  ====
+  *If there is just little IOT data throughput, a PLC may process it and **push** the data to the cloud.
+  *[[http://www.festo-didactic.com/de-de/lernsysteme/trainingspakete/automatisierungstechnik-sps/festo-cecc-codesys-v3-kompaktsteuerung.htm|Festo Didactic SE "Festo CECC CODESYS® V3 Kompaktsteuerung"]] - An enty-level PLC with "4x IO Link Master, 1x IO Link Device".
+==== Concept for High Data Throughput: IO-Master as Gateway to the Cloud ====
+  *There is no need that PLCs process all the "IOT / Industry 4.0" data.  This is CPU power consuming ( makes the devices hot,..) and especially increases the PLC cycle time.
+  *Instead, an IOT Gateway ( e.g. a IO-Link Master ) should be used as data separator and as component of a Historian or even a simple MES system. A software agent on the IO gateway **pushes** data to the cloud.
+    *Sensor data needed by the PLC is sent to the PLC.
+    *While data just needed to be collected ( e.g. for energy management ) should be sent to the IT infrastructure ( local database, datacenter, cloud ).
+    *The Cloud services may get additional data by **pulling** data from the PLC, by the help of an agent installed on the PLC.
+===== Resources =====
+  *No bus, but a P2P network. You can change an IO-Link sensor device easily, as the configuration parameters are not stored on the device, but on the IO-Link controller.
+  *Experts told me:
+    *Cycle time calculation example: 
+      *COM2 ( 38.4 kBaud ), 1 Byte process data -> cycle time 2.3 ms, i.e. the data is updated all 2.3 ms.
+    *Unique selling proposition: 3 unshielded wires, 20 meters cable length.
+    *Sensors of IO-Link devices may generate events ( e.g. the sensor needs to be cleaned ), which are sent to the IO-Link master. The IO-Link master may sent to the master display in the control room.
+    *Developer's advices to avoid severe timing problems:
+      *16/32-bit microcontrollers provide enough computing power, while 8-bit microcontrollers might not be sufficient to follow the timing requirements of the IO-Link protocol when serving the IO-Link device functionality.
+      *The clock on IO-Link sensor boards must be generated by an external on-board quartz crystal, but you may not use the on-chip clock generated by microcontrollers. On-chip clocks don´t provide temperature stability!
+      *The Flash ROM of IO-Link boards must be implemented as "fully functional EPROM". Be warned that some micocontrollers have on-chip Flash ROM, which doesn´t satisfy this requirements.
+{{tag>IO-Link io link fieldbus network automation}}
+<footnote_navi_en>

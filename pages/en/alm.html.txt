@@ -15,7 +15,17 @@ Related page:
 Gewährleisten, dass Probleme während des gesamten Lebenszyklus ermittelt und behoben werden"]].
   *[[http://www8.hp.com/us/en/software-solutions/software.html?compURI=1172957|Hewlett-Packard "HP Unified Functional Testing software. Test early, test often, test continuously with automation testing"]].
   *Blogs [[http://h30499.www3.hp.com/t5/Application-Lifecycle-Management/ct-p/application-lifecycle-mgnt|Hewlett-Packard "HP Enterprise Business Community - Application Lifecycle Management Blogs"]].
-==== "Hewlett-Packard Quality Center" ( HPQC ) - Commercial Edition and free "HP Quality Center Community Edition" ====
+==== Hewlett-Packard "ALM Octane" ====
+=== The Tool ===
+  *[[http://saas.hpe.com/en-us/software/alm-octane|Hewlett-Packard  "ALM Octane"]].
+  *<del>[[http://www.nextgenalm.com/|Hewlett-Packard "Next Generation ALM"]]</del> - "Next Generation ALM is now in Beta mode. In order to get your own tenant, e-mail us" :-(.
+  *Video [[http://go.saas.hpe.com/e/28912/l-28912-2016-06-03-4x738k/58sfm9/197715500|Hewlett-Packard "Introducing the Next Generation of ALM"]].
+=== Resources ===
+  *It feature a "Behaviour Driven Development" process for the test definition, test generation and test execution. So you write "user stories" and descibe "scenarios" and "features" by such phrases "As a user, I want to..".
+  *There is no textual script language neither on the ALM host nor on the ALM client ( i.e. no Python, no PowerShell ), in opposite to ALM.NET with its VBScript automation option. "ALM Octane" is designed like a web service.
+    *The only chance for external test automation and excecution is by calling an URL by the "Call URL" option. By the HTML header, parameters may be passed. The called webserver my return some value to the ALM.
+    *There is a ( currently quite limited ) graphical workflow system for ALM automation on the ALM host.
+==== "ALM.NET" aka "Hewlett-Packard Quality Center" ( HPQC ) - Commercial Edition and free "HP Quality Center Community Edition" ====
 === The Tool ===
   *[[http://web.archive.org/web/*/http://www.mercury.com/us/products/|Archive.org "Hewlett Packard: Mercury Products"]].
     *[[http://web.archive.org/web/*/http://www.mercury.com/us/products/quality-center/|Archive.org "Hewlett Packard: Mercury Quality Center"]].
@@ -407,5 +417,5 @@ ALM/QC. You don´t have a valid license to connect to ALM/QC. The application wi
   *[[http://en.wikipedia.org/wiki/Application_lifecycle_management|EN.Wikipedia "Application lifecycle management"]], [[http://de.wikipedia.org/wiki/Application-Management|DN.Wikipedia "Application-Management"]].
 ===== Appropriate OpenDirectory Directory Pages =====
   *[[http://www.dmoz.org/Computers/Software/Configuration_Management/Bug_Tracking/|OpenDirectory "Top: Computers: Software: Configuration Management: Bug Tracking"]].
-{{tag>"application lifecycle management" "application lifecycle" application lifecycle management alm testing HP Hewlett Packard "Hewlett Packard" "Hewlett-Packard" "Hewlett-Packard quality center" "Hewlett Packard quality center" "HP quality center" "Hewlett-Packard quality center community edition" "Hewlett Packard quality center community edition" "HP quality center community edition" "Hewlett-Packard quality center ce" "Hewlett Packard quality center ce" "HP quality center ce" "free Hewlett-Packard quality center community edition" "free Hewlett Packard quality center community edition" "free HP quality center community edition" "free Hewlett-Packard quality center ce" "free Hewlett Packard quality center ce" "free HP quality center ce" "HPQC community edition" "HPQC quality center ce" "HPQC ce" "free HPQC community edition" "HPQC ce" "free HPQC ce" HPQC "community edition" "free community edition" free community edition }}
+{{tag>"application lifecycle management" "application lifecycle" application lifecycle management alm testing HP Hewlett Packard "Hewlett Packard" "Hewlett-Packard" "Hewlett-Packard quality center" "Hewlett Packard quality center" "HP quality center" "Hewlett-Packard quality center community edition" "Hewlett Packard quality center community edition" "HP quality center community edition" "Hewlett-Packard quality center ce" "Hewlett Packard quality center ce" "HP quality center ce" "free Hewlett-Packard quality center community edition" "free Hewlett Packard quality center community edition" "free HP quality center community edition" "free Hewlett-Packard quality center ce" "free Hewlett Packard quality center ce" "free HP quality center ce" "HPQC community edition" "HPQC quality center ce" "HPQC ce" "free HPQC community edition" "HPQC ce" "free HPQC ce" HPQC "community edition" "free community edition" free community edition ALM.NET}}
 <footnote_navi_en>

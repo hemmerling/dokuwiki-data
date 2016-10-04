@@ -5,7 +5,8 @@ Related pages:
   *[[nosql.html|Data Processing 3/5 - NoSQL Databases: Not Just SQL]].
   *[[dbadmin.html|Data Processing 4/5 - Database Managment Tools and Database Application Development Tools]].
   *[[infographics.html|Data Visualisation with Infographics]].
-
+  *[[mathengineering.html|Mathematical Engineering]].
+  *[[opendata.html|Open Data]].
 ===== Organizations =====
   *[[http://www.dgiq.de/|Deutsche Gesellschaft für Informations- und Datenqualität e.V. (DGIQ)]].
   *[[http://www.die-ding.de/|DING e.V. - Deutschsprachige Informatica Nutzer Gruppe]] ( formerly: "Deutschsprachige Informatica Nutzergruppe" ).
@@ -14,6 +15,7 @@ Related pages:
   *[[http://www.vtad.de/|Vereinigung Technischer Analysten Deutschlands e.V. ( VTAD )]].
     *Book [[http://www.amazon.de/exec/obidos/ASIN/0814408648/hemmerling-21|Robert D. Edwards, John Magee, W. H. C. Bassetti: "Technical Analysis of Stock Trends"]].
     *Book [[http://www.amazon.de/exec/obidos/ASIN/0071381937/hemmerling-21|Martin J. Pring: "Technical Analysis Explained. The Successful Investor's Guide to Spotting Investment Trends and Turning Points"]].
+  *[[http://www.meetup.com/SAP-Stammtisch-Hannover/|Meetup "SAP Stammtisch Hannover"]].
 ===== Conferences =====
   *[[http://www.datamodelingzone.eu/|Data Modeling Zone]] in Hannover ( 2013-09-23 - 2013-09-24 ).
 ===== Software =====
@@ -39,6 +41,9 @@ Related pages:
     *The fictive company of the sample database is "Classic Models Inc.".
     *[[http://www.actuate.com/products/birt-ihub-ftype/|Actuate Corporation - The BIRT Company "BIRT iHub F-Type. New Free BIRT Server"]].
     *Commercial competitors: [[http://www.ibm.com/software/de/data/cognos/|IBM Cognos]], [[http://crystalreports.com/|Crystal Reports]], [[http://www.qlikview.com/|QlikView]].
+  *The OpenSource plugin [[http://www.elastic.co/products/kibana|Elasticsearch Kibana]] - "Explore & Visualize Your Data".
+    *[[http://en.wikipedia.org/wiki/Kibana|EN.Wikipedia "Kibana"]].
+    *[[http://en.wikipedia.org/wiki/Elasticsearch|EN.Wikipedia "Elasticsearch"]], [[http://de.wikipedia.org/wiki/Elasticsearch|DE.Wikipedia "Elasticsearch"]].
   *The free [[http://www.jaspersoft.com/|Jaspersoft Business Intelligence Suite, Community Edition]].
     *[[http://www.jasperforge.org/|JasperForge]].
   *The free [[http://www.microstrategy.com/freereportingsoftware/learnmore/microsoft-analysis-services-ssas.asp|MicroStrategy Reporting Suite for Microsoft Analysis Services]].
@@ -52,8 +57,44 @@ Related pages:
     *The OWB is linked to a specific version of Oracle Database. So you can´t use OWB 11.2 with Oracle 12 database. As OWB is discontinued, there will be no newer version available for newer Oracle databases ( e.g. Oracle 12,.. ) :-(.
     *[[http://en.wikipedia.org/wiki/Oracle_Warehouse_Builder|EN.Wikipedia "Oracle Warehouse Builder"]].
   *[[http://www.ow2.org/|OW2 Consortium]] - "Leading open source middleware".
-  *[[http://www.qlikview.com/|QlikView]].
-    *[[http://www.qlikview.com/us/explore/experience/free-download|QlikView - Free Download]] - "QlikTech invites you to download QlikView—not a trial product, but a full version of our powerful analysis platform".
+  *[[http://www.qlikview.com/|QlikTech International AB "QlikView"]].
+    *Software:
+      *"QlikView".
+        *The free [[http://www.qlik.com/try-or-buy/download-qlikview|QlikTech International AB "Download QlikView Personal Edition. Experience the power of Qlik on your personal computer"]], [[http://global.qlik.com/de/explore/products/qlikview/free-download|QlikTech International AB "Seeing is Believing. Downloaden Sie QlikView noch heute!"]] for Win64 "Qlik lädt Sie dazu ein, sich die QlikView Personal Edition downzuloaden. Diese ist keine Testversion, sondern eine komplette Version unserer leistungsfähigen Business-Discovery-Software".
+        *"QlikView 12" is a local server application for Win64 computers, with a rich client applications for Win64. 
+        *"QlikView 11" was the latest edition with both Win64 and Win32 server and client applications.
+        *"QlikView" is more complex than "Qlik Sense", i.e. for domain experts with good software programming skills.
+        *Book [[http://www.amazon.de/exec/obidos/ASIN/1849686068/hemmerling-21|Barry Harmsen, Miguel Garcia "QlikView 11 for Developers"]].
+          *Accompanying website [[http://www.qlikviewfordevelopers.com/|QlikView 11 for Developers]]. 
+        *Application developers need both the "QlikView" application server and rich client. 
+        *Important commands:
+          *By "File / Edit Script" you may create and modify the query code to access and filter the data of the project.
+          *By "File / Table Viewer" you may view the table structure of the project.
+        *With "QlikView", you must import each single spreadsheet worksheet, e.g if a spreadsheet file consists of 3 worksheets, you must do 3 manual imports.
+      *"Qlik Sense".
+        *The free [[http://www.qlik.com/try-or-buy/download-qlik-sense|QlikTech International AB "Download Qlik Sense Desktop. Experience the power of Qlik on your personal computer"]], [[http://global.qlik.com/de/explore/products/sense/desktop|QlikTech International AB "Download von Qlik Sense Desktop. Kostenfreie Self-Service Datenvisualisierung und Discovery - vertrauen Sie Ihrer Intuition"]] for Win32 or Win64 - "Qlik Sense Desktop ist eine kostenfreie Windows Desktop Applikation, mit der Einzelpersonen über Drag-and-Drop interaktive Datenvisualierungen, Reports und Dashboards aus verschiedensten Datenquellen erstellen und teilen können. Gewinnen Sie in nur 5 Minuten mehr Einsichten in Ihre Daten!".
+        *"Qlik Sense" is a local server application for Win64 computers. You may operate with the desktop client "Qlik Sense Desktop" - which is a modified browser - or may use a standard Internet browser instead, by calling URLs:
+          *[[http://localhost:4848/hub|QlikSense HTML Client "http://localhost:4848/hub"]].
+          *[[http://localhost:4848/dev-hub|QlikSense Developer HTML Client "http://localhost:4848/dev-hub"]].
+        *Application developers just need the "Qlik Sense" (enterprise) application server, on which the application is published. 
+        *"Qlik Sense" is more simple than "QlikView", i.e. for domain experts without software programming skills.
+        *I was told by sales staff in 2016, that new customers prefer to order "Qlik Sense" prior to "QlikView".
+      *The online service [[http://www.qlik.com/try-or-buy/join-qlik-sense-cloud|QlikTech International AB "Join Qlik Sense Cloud. Experience the power of Qlik on your personal computer"]] with free entry-level account offer.
+        *With "Qlik Sense", you may import a spreadsheet at once, e.g if a spreadsheet file consists of 3 worksheets, you must just do one import.
+    *Experts told me about filtering:
+      *Filters work as associative logic in context.
+      *A number of filters may may be applied to an Qlik application.
+      *If you apply data filtering to the Qlik data model, it is applied to all Qlik applications which use it.
+      *If you apply data filtering to a Qlik application, it is applied to the single Qlik application.
+    *Design rules for dashboards:
+      *Simple rule:
+        *Left side = "Filter".
+        *Right side = "Information".
+      *Resources:
+        *[[http://www.google.de/search?q=qlik+design+rules+for+dashboards|Google - Search for "qlik design rules for dashboards"]].
+        *[[http://community.qlik.com/docs/DOC-7711|Qlik Community "Guide to Dashboard Design.pdf"]] 2014 -> PDF.
+        *[[http://community.qlik.com/thread/91796|Qlik Community "design guidelines for qlikview"]], 2013.
+        *[[http://community.qlikview.com/thread/29294|Qlik Community "Design Guidelines"]], 2012.
   *The commercial Java application [[http://www.pentaho.com/‎|Pentaho Corporation]], [[http://www.pentaho.de/‎|Pentaho Corporation - Germany]].
     *[[http://www.it-novum.com/|it-novum GmbH]] - German service partner.
     *[[http://community.pentaho.com/|Pentaho Community]].
@@ -76,9 +117,87 @@ Related pages:
     *[[http://EN.wikipedia.org/wiki/ROOT|EN.Wikipedia "ROOT"]], [[http://de.wikipedia.org/wiki/ROOT|DE.Wikipedia "ROOT"]].
     *ROOT software script can also be executed by the C++-Interpreter CINT.
   *The OpenSource Python library "pandas" -> See [[python.html|Python]].
-==== Commercial Microsoft BI Tools ====
-=== Microsoft SQL Server ===
+=== Data Cleanup ===
+  *The OpenSource [[http://www.openrefine.org/|OpenRefine]], [[https://www.github.com/OpenRefine|GitHub "OpenRefine"]] ( formerly: "Google Refine" ) - "A powerful tool for working with messy data: cleaning it; transforming it from one format into another; and extending it with web services and external data".
+  *[[http://en.wikipedia.org/wiki/OpenRefine|EN.Wikipedia "OpenRefine"]].
+=== Machine Learning ===
+== Important Machine Learning Tools according to "Developer Economics - National Trends Survey", 2016-04 ==
+  *IBM Watson	
+  *BigML	
+  *SAS Enterprise Miner	
+  *R platform	
+  *Python machine learning libraries	
+  *Google Prediction API	
+  *WEKA Machine Learning Workbench	
+  *Microsoft Azure Machine Learning	
+  *AWS Machine Learning	
+  *TensorFlow	
+  *PredictionIO	
+  *MATLAB or Octave	
+  *DMTK	
+  *IBM SPSS Modeler	
+  *Apache Spark	
+  *RapidMiner	
+== Tools ==
+  *The OpenSource library [[http://www.tensorflow.org/|Tensorflow]], [[http://www.github.com/tensorflow|GitHub "tensorflow"]] - "TensorFlow is an Open Source Software Library for Machine Intelligence", "Open source software library for numerical computation using data flow graphs".
+  *[[http://www.github.com/google/skflow|GitHub "google/skflow"]] - "Simplified interface for TensorFlow (mimicking Scikit Learn)".
+== Resources ==
+  *[[http://bgr.com/2015/11/09/google-tensorflow-machine-learning-system/|BGR "Google wants everyone to have access to its machine learning technology"]], 2015-11-09.
+  *[[http://www.kdnuggets.com/2015/11/google-tensorflow-deep-learning-disappoints.html|KDnuggets - Data Mining, Analytics, Big Data, and Data Science "TensorFlow Disappoints – Google Deep Learning falls shallow"]], 2015-11.
+  *[[http://www.lifehacker.com.au/2015/11/googles-tensorflow-could-be-a-game-changer-in-the-future-of-ai/|Lifehacker Australia "Google's TensorFlow Could Be A Game-Changer In The Future Of AI"]], 2015-11.
+  *[[http://www.techinsider.io/what-is-google-tensorflow-2015-11|Tech Insider "Google's new artificial intelligence tool has massive potential]], 2015-11-10.
+  *[[http://www.wired.com/2015/11/google-open-sourcing-tensorflow-shows-ais-future-is-data-not-code/|Wired "Google Open-Sourcing TensorFlow Shows AI’s Future Is Data"]], 2015-11-16.
+==== Microsoft BI Tools ====
+=== The free standalone Microsoft Power BI ===
+== The Tool ==
+  *[[http://www.powerbi.com/|Microsoft Power BI]], [[http://powerbi.microsoft.com/|Microsoft Power BI]].
+    *The free dashboard tool "Power BI Desktop for Windows" for Win7, Win8 - "Analytics tools at your fingertips".
+    *The publishing service "Power BI", just for users of the commercial "Office 365" service?! - "The easy way to see your important data in one place. With a few clicks, connect to data from applications you use and get started with pre-built dashboards from experts". 
+  *[[http://community.powerbi.com/|Microsoft Power BI Community]].
+    *Blog [[http://community.powerbi.com/t5/Community-Blog/bg-p/community_blog|Microsoft Community Blog]].
+    *[[http://powerbi.microsoft.com/en-gb/documentation/powerbi-service-get-started/|Microsoft Power BI "Power BI Support. Get help and support for Power BI"]].
+    *[[http://community.powerbi.com/t5/Desktop/I-fail-with-simple-two-row-data-visualisation-please-help/m-p/19177#M5750|Microsoft Power BI Community "I fail with simple two-row data visualisation - please help"]].
+== Downloads ==
+  *[[http://www.microsoft.com/en-us/download/details.aspx?id=45331|Microsoft Download Center "Microsoft Power BI Desktop"]].
+    *Just for users of the commercial "Office 365" service?! 
+  *[[http://www.microsoft.com/en-gb/store/apps/microsoft-power-bi/9nblgggzlxn1|Windows Store "Microsoft Power BI"]].
+  *[[http://play.google.com/store/apps/details?id=com.microsoft.powerbim|Google Play "Microsoft Power BI"]] for Android smartphones, "Requires Android 4.4 and up".
+    *Just for users of the commercial "Office 365" service?!
+    *But Google Play refuses installation "Your Device isn´t compatible with this version" on simulator Bluestacks with "Android 4.4.2".
+== Resources ==
+  *"Microsoft Power BI" is a dashboard tool, not a reporting tool!
+    *It is powered by "Microsoft SQL Server Analysis Services (SSAS)".
+    *It is now easy to catch data from HTML pages ( e.g. data tables of Wikipedia ).
+    *Data visualisation:
+      *Built-in graphics ( by a graphics engine similar / identical to that known from Micrsoft Excel, Microsoft SQL Server Reporting Services and Microsoft SQL Server Analysis Services ).
+      *There is an API by which third parties may offer own visualisations.
+    *Indeed with Microsoft Excel 2016, you may create the same dashboards, but you can´t publish it on the web.
+  *You may save "Microsoft Power BI Desktop" as in single ".pbix" files. Experts told me, that for saving a project, the software needs 3 times of the RAM memory as needed for the loaded data. So it might be that you may load big data, but are not able to save it. In general, this might not be a problem with the 32-bit edition ( on Windows PCs with 2 or 3 GByte of RAM ), but also with the 64-bit edition ( i.e. a project may be saved on a Win64 computer with 16 GB RAM, but not on a Win64 computer with 4 GB RAM ).
+  *You might create test cases ( e.g. at business intelligence trainings ) with "Microsoft Power BI", as alternative to NBI.
+    *[[http://www.nbi.io/|NBi]], [[http://github.com/Seddryck/NBi|GitHub "Seddryck/NBi"]], [[http://nbi.codeplex.com/|CodePlex "NBI"]] - "Testing framework for Microsoft Business Intelligence platform".
+  *"Microsoft Power BI Desktop" also supports the "M" and "DAX" query languages, by the "Advanced Editor" ( "Home / Edit Queries ( = Query Editor ) / Advanced Editor" ).
+  *If you install "Microsoft R" prior to "Microsoft Power BI Desktop", you may use "R" for data processing and graphical reporting -> See [[mathengineering.html|Mathematical Engineering]].
+  *I was told by experts, in 2016-03:
+      *Now legacy versions of "Microsoft Power BI Desktop" were able to process 10.000 datasets for visualisation.
+      *Current versions of "Microsoft Power BI Desktop" were able to process 10.0000 datasets for visualisation.
+      *With "R" called by "Microsoft Power BI Desktop", you may visualize 150.000 datasets.
+=== Commercial Editions of Microsoft SQL Server with BI Support ===
   *See also [[databases.html|Databases, Webserver, Webservices, SQL, XML]].
+=== Power BI Gateway - Personal ===
+== The Tool ==
+  *[[http://www.microsoft.com/en-us/download/details.aspx?id=47753&wa=wsignin1.0|Microsoft Download Center "Power BI Gateway – Personal"]].
+== Documentation ==
+  *[[http://powerbi.microsoft.com/en-us/documentation/powerbi-personal-gateway/|Microsoft Power BI "Power BI Documentation" - "Power BI Gateway - Personal"]].
+  *[[http://powerbi.microsoft.com/en-us/documentation/powerbi-admin-troubleshooting-power-bi-personal-gateway/|Microsoft Power BI "Power BI Documentation" - "Troubleshooting Power BI Gateway - Personal"]].
+== Concept ==
+  *To get a BI report, connect with a client ( Internet browser, smartphone app,..) to the "Microsoft Power BI" cloudservice. The basic "Power BI" account is free.
+  *By this, you may access any cloud document.
+  *The cloud servce may access a registered onpremise Windows server at your ( the datacenter of your ) company, if the computer runs a free "Power BI Gateway - Personal" service, by a VPN connection.
+    *Experts told me, that the free VPN service shipped with Windows is not under development for some time. Therefore it isn´t very advisable to use it in production environments.
+== Resources ==
+  *[[http://biinsight.com/power-bi-personal-gateway-five-things-you-must-know/|Business Intelligence Insight "Power BI Personal Gateway, Five Things You Must Know"]].
+  *[[http://www.radacad.com/definitive-guide-to-power-bi-personal-gateway|RADACAD Blog "Definitive Guide to Power BI Personal Gateway"]].
+  *[[http://www.sysctr.info/2016/01/installing-power-bi-personal-gateway-as.html|#sysctr.info "Installing the Power BI Personal Gateway as a Service Account - Revisited"]].
 === Free Addons for the commercial Microsoft Excel ===
 == Tools ==
   *[[http://www.powerpivot.com/|Microsoft PowerPivot]].
@@ -94,13 +213,27 @@ Related pages:
     *[[http://office.microsoft.com/en-us/excel-help/start-page-HA104003813.aspx|Microsoft Power Query for Excel Help]].
     *Blogs [[http://blogs.msdn.com/b/business-intelligence/|Microsoft MSDN "Business Intelligence Blogs"]]
       *Blog [[http://blogs.msdn.com/b/dataexplorer/|Microsoft MSDN "Power BI"]] ( formerly: Microsoft MSDN Blog "Data Explorer Microsoft 'Data Explorer' Preview for Excel" ).
-== "M" Language ==
+=== Query and Data Modeling Languages ===
+  *[[http://msdn.microsoft.com/en-us/library/mt244090.aspx|Microsoft MSDN Developer Network "Query and Data Modeling Languages"]].
+== Data Analysis Expressions ( DAX ) - Data Modeling Language ==
+  *[[http://msdn.microsoft.com/en-us/library/ee634217.aspx|Microsoft MSDN Developer Network "DAX Syntax Reference"]].
+== "M" Language ( "Power Query Formula Language" / Microsoft Power Query for Excel Formula Language" ) ==
   *[[http://msdn.microsoft.com/en-us/library/dd285271.aspx|Microsoft MSDN "The Microsoft code name "M" Modeling Language Specification - Introduction"]].
+  *[[http://pqreference.azurewebsites.net/|pqreference.azurewebsites.net]].
+    *[[http://pqreference.azurewebsites.net/PowerQueryFormulaReferenceAugust2015.pdf|PowerQuery Formula Reference, August 2015]] ( PDF ).
+    *[[http://pqreference.azurewebsites.net/PowerQueryFormulaLanguageSpecificationAugust2015.pdf|PowerQuery Formula Language Specification, August2015]] ( PDF ).
   *Blog [[http://blogs.msdn.com/b/mlanguage/|Microsoft MSDN Blog "Codename 'M' Language Team Blog"]].
   *Blog [[http://blogs.msdn.com/b/modelcitizen/|Microsoft MSDN Blog "Model Citizen"]].
     *[[http://blogs.msdn.com/b/modelcitizen/archive/2010/09/22/update-on-sql-server-modeling-ctp-repository-modeling-services-quot-quadrant-quot-and-quot-m-quot.aspx|Microsoft MSDN Blog "Model Citizen: Update on SQL Server Modeling CTP (Repository/Modeling Services, 'Quadrant' and 'M')"]].
   *[[http://www.infoq.com/presentations/Codename-M|InfoQ "Codename 'M': Language, Data, and Modeling, Oh My!"]].
   *[[http://en.wikipedia.org/wiki/M_%28programming_language%29|EN.Wikipedia "M (programming language)"]], [[http://en.wikipedia.org/wiki/Oslo_%28Microsoft%29|EN.Wikipedia "Oslo (Microsoft)"]].
+=== Datazen ===
+  *[[http://www.datazen.com/|Datazen -  Mobile BI and Data Analytics for Any Device]].
+    *"Microsoft Acquires Datazen", 2015-04-14. 
+    *The functionality of Datazen is included in "SSRS 2016" for
+      -Windows 10 Desktop ( but not Windows Phone! ).
+      -Android.
+      -iPhone.
 ==== Some other commercial BI Software ====
   *[[http://www.bissantz.de/Software|Bissantz & Company GmbH "DeltaMaster: Software für Analyse, Planung und Reporting"]].
   *[[http://www.informatica.com/|Informatica - The Data Integration Company]].
@@ -120,17 +253,68 @@ Related pages:
     *[[http://developer.tibco.com/|TIBCO Developer Network]].
     *[[http://www.it-production.com/index.php?seite=einzel_artikel_ansicht&id=593|it-production.com -Das Online-Magazin für erfolgreiche Produktion "Zwischen Top Floor und Shop Floor 'Die Zwei-Sekunden-Lücke nutzen'"]] - "Die Frage, ob sich Business Intelligence-Systeme für Auswertungen im Produktionsumfeld genauso eignen wie für Forecast-Aufgaben für das Management..".
     *[[http://de.wikipedia.org/wiki/TIBCO_Spotfire_Analytics|DE.Wikipedia "TIBCO Spotfire Analytics"]].
-
-
 ===== Services =====
+==== BigML ====
   *The online cloud based predictive analysis service [[http://www.bigml.com/|BigML]] - "Machine Learning for everyone. Easily add data-driven decisions and predictive power to your company", "NOW FREE. Unlimited tasks ( up to 16 MB/task )".
+==== SAP HANA ====
+=== The Service ===
+  *The online cloud based service [[http://hana.sap.com/|SAP HANA]], with free developer account.
+    *[[http://account.hanatrial.ondemand.com/|SAP HANA Cloud Platform]] - Login for the free developer account.
+      *[[http://account.hanatrial.ondemand.com/cockpit|SAP HANA Cloud Platform "Cockpit"]].
+    *[[http://help.hana.ondemand.com/|SAP HANA Cloud Platform Help]].
+      *[[http://help.hana.ondemand.com/help/frameset.htm?65d74d39cb3a4bf8910cd36ec54d2b99.html|SAP HANA Cloud Platform Help "Signing Up for a Developer Account"]] - "The name of your new developer account contains your user ID ( e.g. 'p0123456789' ) and the suffix trial ( e.g. 'p0123456789trial' )". However, you still have to login with your SAP ID or E-Mail address, not your developer ID.
+    *[[http://scn.sap.com/|SAP Community Network]].
+      *[[http://developers.sap.com/|SAP Developer Center]], [[http://scn.sap.com/community/developer-center/|SAP Community Network Developer Center]].
+        *[[http://scn.sap.com/community/developer-center/streaming|SAP Community Network "Smart Data Streaming"]].
+    *[[http://go.sap.com/developer/hana.html|SAP HANA Developer Center]] - Signup here for a free developer edition account of SAP HANA in the cloud :-).
+    *[[http://cal.sap.com/|SAP Cloud Appliance Library]].
+  *As of 2016-02, you may install developer editions on SAP HANA Cloud Platform, Microsoft Azure Cloud, Amazon Web Services only. Experts expect, that after 2016-05 there will be a downloadable developer edition and / or a entry-level commercial edition of SAP HANA.
+=== Education ===
+  *[[http://hcp.sap.com/developers/TutorialCatalog.html/|SAP HANA Cloud Platform "Tutorial Catalog"]].
+  *Webcasts.
+    *[[http://open.sap.com/courses/hanacloud1-2|openSAP "Introduction to SAP HANA Cloud Platform (Repeat)"]].
+    *[[http://open.sap.com/courses/hanacloud2-2|openSAP "Next Steps in SAP HANA Cloud Platform"]].
+    *[[http://open.sap.com/courses/iot1|openSAP "How the Internet of Things and Smart Services Will Change Society"]].
+  *[[http://www.youtube.com/user/saphanaacademy|YouTube Channel "SAP HANA Cloud Platform"]].
+    *[[http://www.youtube.com/playlist?list=PLkzo92owKnVyPLjYRWsjuFj0DFuPPI2qy|YouTube Playlist "SAP HANA Cloud Platform"]].
+=== Events ===
+  *[[http://scn.sap.com/community/events/codejam|SAP Codejam]].
+    *[[http://scn.sap.com/docs/DOC-37775|SAP Community Network "Hosting an SAP CodeJam Event"]].
+    *Software to install for the "[[http://scn.sap.com/community/events/codejam|SAP Codejam]] (SAP HANA with IoT)":
+      *Node.js.
+        *"[[http://www.nodejs.org/|Node.js]] 0.12.10", for use with "Tessel1" boards. See -> [[arm.html|ARM Embedded Systems ( ARM7, ARM8, ARM9, ARM11, Cortex )]].
+        *NodeJS for use with Texas Instruments Sensortag. See -> [[wireless.html|Wireless Networks]].
+      *Browser [[http://www.google.com/chrome/|Google Chrome]].
+      *[[http://www.getpostman.com/|Postman]], [[http://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop|Google Chrome Webstore "Postman"]].
+      *HTML/JavaScript editor.
+    *[[http://scn.sap.com/community/events/codejam/blog/2016/02/21/recap-iot-codejam-hannover-inwerken-ag|SAP Community Network, SAP CodeJam "Recap IoT CodeJam Hannover at inwerken AG"]].
+=== Resources ===
+  *[[http://en.wikipedia.org/wiki/SAP_HANA|EN.Wikpedia "SAP HANA"]], [[http://de.wikipedia.org/wiki/SAP_HANA|DE.Wikpedia "SAP HANA"]].
 ===== Complex event processing =====
   *[[http://en.wikipedia.org/wiki/Complex_event_processing|Complex event processing]].
 ===== Data Warehouse Modeling =====
-==== Dan Linstedt - Data Vault Modeling ====
+==== Dan Linstedt & Michael Olschimke - Data Vault Modeling 2.0 ====
+=== Dan Linstedt - Data Vault Modeling ===
   *[[http://danlinstedt.com/|Dan Linstedt]].
-    *[[http://danlinstedt.com/datavaultcat/datavault-model-and-understanding-back-to-basics/|Dan Linstedt "#datavault model and understanding, back to basics"]].
+    *[[http://www.linkedin.com/in/dlinstedt|LinkedIn "Dan Linstedt"]].
+    *[[http://www.danlinstedt.com/datavaultcat/datavault-model-and-understanding-back-to-basics/|Dan Linstedt "#datavault model and understanding, back to basics"]].
+    *[[http://www.learndatavault.com/|LearnDataVault]].
+    *[[http://learndatavault.com/|YouTube "learndatavault"]].
+    *[[http://www.linkedin.com/company/learn-data-vault|LinkedIn "Learn Data Vault"]].
+=== Michael Olschimke ===
+  *[[http://www.doerffler.com/|Dörffler & Partner GmbH]].
+    *[[http://www.xing.com/profile/Michael_Olschimke|XING "Michael Olschimke"]], [[https://de.linkedin.com/in/olschimke|LinkedIn "Michael Olschimke"]].
+=== Literature ===
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0128025107/hemmerling-21|Dan Linstedt, Michael Olschimke "Building a Scalable Data Warehouse with Data Vault 2.0"]], 2015.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/012802044X/hemmerling-21|W. H. Inmon, Daniel Linstedt "Data Architecture: A Primer for the Data Scientist: Big Data, Data Warehouse and Data Vault"]], 2014.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1463778686/hemmerling-21|Kent Graziano, Dan Linstedt "Super Charge Your Data Warehouse: Invaluable Data Modeling Rules to Implement Your Data Vault"]], 2011.
+=== Some other Data Vault Literature ===
+  *The bachelor thesis as printed book [[http://www.amazon.de/exec/obidos/ASIN/3842879741/hemmerling-21|Christian Garbsch, Dominik Kroner "Business Intelligence Automatisierung durch Data Vault: Umsetzungen mit Microsoft Sql Server Integration Services und Sas Base"]], 2014.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/061572308X/hemmerling-21|Hans Hultgren "Modeling the Agile Data Warehouse with Data Vault"]], 2012.
+=== Resources ===
+  *There are 3 entities: Hub, Link, Satellite ( of 57 originally selected entities ).
   *[[http://en.wikipedia.org/wiki/Data_Vault_Modeling|EN.Wikipedia "Data Vault Modeling"]].
+
 ==== Bill Inmon ====
   *[[http://en.wikipedia.org/wiki/Bill_Inmon|EN.Wikipedia "Bill Inmon"]], [[http://de.wikipedia.org/wiki/Bill_Inmon|DE.Wikipedia "Bill Inmon"]].
 ==== Len Silverston ====
@@ -170,11 +354,27 @@ Challenges and Solutions"]].
       *[[http://www.elastic.co/guide/en/kibana/current/dashboard.html|Elastic "Learn, Docs" - "Kibana Dashboard"]] - "A Kibana dashboard displays a set of saved visualizations in groups that you can arrange freely. You can save a dashboard to share or reload at a later time".
     *[[http://www.timroes.de/2015/02/07/kibana-4-tutorial-part-1-introduction/|Kibana 4 Tutorial]] - "A web frontend to analyze data held in an elasticsearch cluster".
     *[[http://en.wikipedia.org/wiki/Kibana|EN.Wikipedia "Kibana"]] - "Open source data visualization plugin for Elasticsearch".
+===== Full Text Search =====  
+  *Elitness.
+    *[[http://www.google.de/search?q=elitness+bm25|Google - Search for "elitness bm25"]].
+    *[[https://www.google.de/search?q=The+Probabilistic+Relevance+Framework%3A+BM25+and+Beyond+Contents|Google - Search for "The Probabilistic Relevance Framework BM25 and Beyond"]].
+    *[[http://en.wikipedia.org/wiki/Okapi_BM25|EN.Wikipedia "Okapi BM25"]].
+    *[[http://dl.acm.org/citation.cfm?id=1704810|ACM Digital Library "The Probabilistic Relevance Framework: BM25 and Beyond"]].
+    *[[http://www.staff.city.ac.uk/~sb317/papers/|Stephen Robertson - Papers]].
+      *[[http://www.staff.city.ac.uk/~sb317/papers/foundations_bm25_review.pdf|The Probabilistic Relevance Framework: BM25 and Beyond]] ( PDF ).
+        *"3.4 The Eliteness Model and BM25. We now re-introduce term frequencies into our model... We suppose that for any document-term pair, there is a hidden property which we refer to as eliteness. **This can be interpreted as a form of aboutness: if the term is elite in the document, in some sense the document is about the concept denoted by the term**. Now we assume that actual occurrences of the term in the document depend on eliteness, and that there may be an association between eliteness (to the term) and relevance (to the query)".
+      *[[http://en.wikipedia.org/wiki/Elasticsearch|EN.Wikipedia "Elasticsearch"]], [[http://de.wikipedia.org/wiki/Elasticsearch|DE.Wikipedia "Elasticsearch"]].
+  *[[http://en.wikipedia.org/wiki/Full_text_search|EN.Wikipedia "Full text search"]], [[http://de.wikipedia.org/wiki/Volltextrecherche|DE.Wikipedia "Volltextrecherche"]] - "Zur schnellen Informationsgewinnung und dem Auffinden aus bekannten wie auch nicht bekannten (aber auf den Medien vorhandenen) Dokumenten wird die Volltextrecherche genutzt. Die Volltextrecherche dient daher dem Auffinden, Entdecken und Extrahieren unbekannter, nicht trivialer und wichtiger Informationen aus großen Mengen von unstrukturierten Texten/Dateien und ist somit auch ein wichtiger Teilbereich des Text Mining. Sie ist eine Sofortlösung, um für eine konkrete Fragestellung auf Systeme wie Dokumentenmanagement und Data-Mining verzichten zu können".
+    *Document management -> See [[cms.html|Content Management Systems ( CMS )]].
+    *Data-Mining -> See "Business Intelligence" on this page.
+
 ===== Webcasts. Webinars =====  
   *[[http://www.evidanza.de/bi-webcast/|evidanza AG - BI-Webcast]].
   *[[http://www.compuware.com/en_us/changepoint/resources/on-demand-webcasts.html|Compuware "On-Demand Webcasts"]].
     *Webcast "Essentials of Business Analytics & Big Data: What Every Service Leader Needs to Know".
 ===== Resources =====
+  *While commercial editions of OpenSource BI software tools start with 10.000 EUR/a... 50.000 EUR/a for single customers, there are totally different costs, if the customer wants to integrate or bundle the commercial edition of the OpenSource BI software tool with the own software solution to end-customers, as OEM partner :-).
+  *I was told by experts, that some business intelligence software tools are not based on multidimensional databases, but SQL, NoSQL,...
   *The competition [[http://www.data-mining-cup.de/|Data Mining Cup]].
   *[[http://www.ea-world.de/|enterprise application world @ Hannnover Fair CEBIT]].
   *[[http://www.kdnuggets.com/|KDNuggets]] - "Data Mining Community's Top Resource".
@@ -182,6 +382,7 @@ Challenges and Solutions"]].
   *[[http://community.qlikview.com/wikis/|QlikCommunity, Wiki]].
   *[[http://www.speicherguide.de/news/big-data-heisst-loslassen-von-strukturierten-daten-15668.aspx|Speicherguide "Big Data heißt: Loslassen von strukturierten Daten"]] - "Polystrukturierte Daten ist ein neuer Begriff, der strukturierte und unstrukturierte Daten sowie die neuerdings massiv auftretenden maschinengenerierten Daten wie Sensor-Daten und Web-Logs mit einbezieht".
   *Wikipedia.
+    *[[https://en.wikipedia.org/wiki/Cross_Industry_Standard_Process_for_Data_Mining|EN.Wikipedia "Cross Industry Standard Process for Data Mining"]] ( CRISP-DM ).
     *[[http://en.wikipedia.org/wiki/Data_mining|EN.Wikipedia "Data Mining"]], [[http://de.wikipedia.org/wiki/Data-Mining|DE.Wikipedia "Data-Mining"]].
     *[[http://en.wikipedia.org/wiki/Star_schema|EN.Wikipedia "Star schema"]], [[http://de.wikipedia.org/wiki/Sternschema|DE.Wikipedia "Sternschema"]].
     *[[http://en.wikipedia.org/wiki/Data_integration|EN.Wikipedia "Data integration"]], [[http://de.wikipedia.org/wiki/Informationsintegration|DE.Wikipedia "Informationsintegration"]].
@@ -194,7 +395,9 @@ Challenges and Solutions"]].
   *[[http://www.apatarforge.org/forums/|ApatarForge Forums]].
   *[[http://www.birt-exchange.org/org/forum/|BIRT Exchange Forums]].
   *[[http://www.enzeecommunity.com/|ENZEE - The Netezza Community]].
-  *[[http://www.facebook.com/pentaho|Facebook "Pentaho"]], [[http://www.facebook.com/PentahoCe|Pentaho Business Intelligence - Joaçaba. Community Page about Business Intelligence Consultant]].
+  *Facebook.
+    *[[http://www.facebook.com/pentaho|Facebook "Pentaho"]], [[http://www.facebook.com/PentahoCe|Pentaho Business Intelligence - Joaçaba. Community Page about Business Intelligence Consultant]].
+    *[[http://www.facebook.com/sapdevelopers|Facebook "SAP Developers"]].
   *[[http://community.informatica.com/|Informatica Commmunities]].
     *[[http://community.informatica.com/community/user_groups|Informatica User Groups]].
       *[[http://community.informatica.com/community/user_groups?view=discussions|Informatica User Groups - Discussions]].
@@ -203,9 +406,20 @@ Challenges and Solutions"]].
     *[[http://www.linkedin.com/groups?gid=35222|LinkedIn "Advanced Business Analytics, Data Mining and Predictive Modeling"]].
     *[[http://www.linkedin.com/groups?gid=4316541|LinkedIn "Business Intelligence Elite"]].
     *[[http://www.linkedin.com/groups?gid=3028129|LinkedIn "MicroStrategy Business Intelligence"]].
+  *Microsoft
+    *[[http://community.powerbi.com/t5/Power-BI-User-Groups/ct-p/Groups|Microsoft Power BI Community "Power BI User Groups"]].
+      *[[http://community.powerbi.com/t5/Power-BI-User-Group-Hamburg/gp-p/PUGHamburg|Microsoft Power BI Community "Power BI User Groups", "Power BI User Group Hamburg"]].
+    *[[http://community.powerbi.com/t5/Forums/ct-p/Forums|Microsoft Power BI Community "Forums"]].
+    *[[http://social.technet.microsoft.com/forums/en-us/home?category=powerbi|Microsoft Technet Forums - Questions tagged with "powerbi"]] - "All Power BI related forums have been moved to [[http://community.powerbi.com/|http://community.powerbi.com/]]]. These forums are now locked and read-only. We sincerely apologize for the inconvenience this may have caused you", 2015-07-17:
+      *"Power BI Dashboard Preview".
+      *"Power BI for Office 365".
+      *"Power BI Mobile Apps".
+      *"Power BI Q&A".
   *[[http://resource.microstrategy.com/forum/|MicroStrategy Discussion Forums]].
   *[[http://forums.pentaho.com/forum.php|Pentaho Community Forums]].
-  *[[http://community.qlikview.com/groups/|QlikCommunity, Groups]].
+  *[[http://community.qlik.com/|Qlik Community]].
+    *[[http://community.qlik.com/community/qlikview|QlikView Forums & Resources]].
+    *[[http://community.qlik.com/community/qlik-sense|Qlik Sense Forums]].
   *[[http://forums.sdn.sap.com/|SAP Community Network Forums]].
   *[[http://wiki.sdn.sap.com/wiki/|SAP Wiki]].
   *[[http://www.talendforge.org/forum/|TalendForge - Talend community forum]].

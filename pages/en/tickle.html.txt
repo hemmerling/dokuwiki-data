@@ -5,7 +5,7 @@ Related page:
   *[[http://www.eurotcl.tcl3d.org/|European Tcl/Tk User Meeting]] by [[http://www.tugm.de/|Tcl'ers User Group Munich]].
     *[[http://plus.google.com/u/0/events/cdr30rtpprf2052g7pdck2ohrbs|Google+ "11th European Tcl/Tk User Meeting"]] in Munich, 2013-07-06.
     *[[http://plus.google.com/u/0/events/cmla671g4n9b2448at6nmlimef4|Google+ "12th European Tcl/Tk User Meeting"]] in Munich, 2014-07-12 - 2014-07-13.
-    *I was one of the 26 participants of the "13th European Tcl/Tk User Meeting" in Cologne, 2014-06-20 - 2015-06-21 :-).
+    *I was one of the 26 participants of the [[http://www.eurotcl.tcl3d.org/eurotcl-2015/|European Tcl/Tk User Meeting "13th European Tcl/Tk User Meeting"]] in Cologne, 2014-06-20 - 2015-06-21 :-).
   *In 2015, the electronics distributor [[http://www.silica.com/events.html|Silica (An Avnet Company) ]] offered free [[http://www.silica.com/events.html|seminars]] in Germany about TCL/TK, like "Seminar VIVADO Tool Flow + TCL/TK" :-).
   *[[http://wiki.tcl.tk/828|Tcler's Wiki "Tcl Conferences"]].
 ===== Videos =====
@@ -13,11 +13,25 @@ Related page:
     *[[http://www.youtube.com/user/videotcltk|YouTube Channel "Tcl/Tk Video"]] - Videos of the US conference "Tcl/Tk Conferences" and of the European conferences "EuroTcl".
 ===== Runtime =====
 ==== Installable Runtimes ====
+=== The Original Implementation for Linux and Windows ===
+== ActiveTcl ==
   *[[http://www.activestate.com/activetcl/|ActiveTcl Community Edition]] - Tcl for Windows.
     *[[http://docs.activestate.com/activetcl/|ActiveTcl User Guide]].
-    *ActiveTcl Community Edition 8.5.17 ( TCL 8.5, TK 8.5 ) is the latest edition for W2k.
+    *ActiveTcl Community Edition 8.5.18 ( TCL 8.5, TK 8.5 ) is the latest edition for W2k.
     *ActiveTcl Community Edition 8.6 is just for WinXP and newer.
-  *[[http://jim.tcl.tk/|The Jim Interpreter. A small footprint implementation of the Tcl programming language (jim.tcl.tk)]].
+== Pat Thoyts ==
+  *[[http://www.patthoyts.tk/|Pat Thoyts]].
+    *[[http://www.patthoyts.tk/tclkit/|Pat Thoyts "TclKit: bleeding-edge builds"]], in 2015 newest pre-builts:
+      *32-bit Windows: Tcl/Tk 8.5.13 and Tcl/Tk 8.6.4. 
+      *32-bit Linux: Tcl/Tk 8.5.10.
+      *64-bit Linux: Tcl/Tk 8.6.2.
+== Legacy installable Runtimes ==
+  *[[http://code.google.com/p/tclkit/|Google Code "tclkit. Self-contained runtime for Tcl/Tk"]] - Tcl/Tk 8.5.8 is the newest pre-built, in 2015.
+  *[[http://equi4.com/|Jean-Claude Wippler, Equi4Software]].
+    *[[http://equi4.com/tclkit/|Equi4Software "Tclkit application runtime"]].
+      *[[http://equi4.com/tclkit/download.html|Equi4Software "Tclkit downloads"]] - Tcl/Tk 8.5.2 is the newest pre-built in 2015.
+=== Re-Implementations & Ports to other Platforms ===
+== AndroWish ==
   *[[http://www.androwish.org/|AndroWish]].
     *[[http://www.ch-werner.de/|Christian Werner]].
       *[[http://www.ch-werner.de/sdltk/AndroWish/|Christian Werner "Tcl/Tk on Android: AndroWish"]].
@@ -33,19 +47,15 @@ Related page:
       *[[http://play.google.com/store/apps/details?id=net.superlinux.tclandrowishtutorialsfree&hl=en|Google Play "Tcl/AndroWish Tutorials Free"]].
     *[[http://members.shaw.ca/tnbaker/SDLTk/|Tim Baker "SDLTk"]] - "SDLTk is the Tk GUI drawn completely inside an SDL surface... Tk thinks it is running under X11.
       *[[http://www.libsdl.org/|Simple DirectMedia Layer ( SDL )]] - "A cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D".
-  *[[http://www.patthoyts.tk/|Pat Thoyts]].
-    *[[http://www.patthoyts.tk/tclkit/|Pat Thoyts "TclKit: bleeding-edge builds"]], in 2015 newest pre-builts:
-      *32-bit Windows: Tcl/Tk 8.5.13 and Tcl/Tk 8.6.4. 
-      *32-bit Linux: Tcl/Tk 8.5.10.
-      *64-bit Linux: Tcl/Tk 8.6.2.
+== Browser Plugins ==
+  *The legacy [[http://www.tcl.tk/software/plugin/|Tcl Developer Xchange "Tcl Plugin"]], [[http://tclplugin.sourceforge.net/|SourceForge "Tcl/Tk Plugin"]], [[http://www.sourceforge.net/projects/tclplugin|SourceForge "Tcl/Tk Plugin"]] for Firefox. Does not work with current Firefox versions ( e.g. Firefox 12, 13,..).
+== The Eagle Project ==
+  *[[http://www.eagle.to/|The Eagle Project]] for Windows with .NET 2.0 - "Eagle (Extensible Adaptable Generalized Logic Engine) is an implementation of the Tcl scripting language for the Common Language Runtime (CLR)".
+== Jim ==
+  *[[http://jim.tcl.tk/|The Jim Interpreter. A small footprint implementation of the Tcl programming language (jim.tcl.tk)]].
+== Tcl for Windows CE ==
   *[[http://tclce.sourceforge.net/|SourceForge "Tcl 8.3 for Windows CE"]], [[http://www.sourceforge.net/projects/tclce/|SourceForge "tclce"]] by Akos Polster.
     *[[http://wiki.tcl.tk/10103|Tcler's Wiki "How to build for WinCE"]].
-==== Legacy installable Runtimes ====
-  *[[http://code.google.com/p/tclkit/|Google Code "tclkit. Self-contained runtime for Tcl/Tk"]] - Tcl/Tk 8.5.8 is the newest pre-built, in 2015.
-  *[[http://equi4.com/|Jean-Claude Wippler, Equi4Software]].
-    *[[http://equi4.com/tclkit/|Equi4Software "Tclkit application runtime"]].
-      *[[http://equi4.com/tclkit/download.html|Equi4Software "Tclkit downloads"]] - Tcl/Tk 8.5.2 is the newest pre-built in 2015.
-  *The legacy [[http://www.tcl.tk/software/plugin/|Tcl Developer Xchange "Tcl Plugin"]], [[http://tclplugin.sourceforge.net/|SourceForge "Tcl/Tk Plugin"]], [[http://www.sourceforge.net/projects/tclplugin|SourceForge "Tcl/Tk Plugin"]] for Firefox. Does not work with current Firefox versions ( e.g. Firefox 12, 13,..).
 ==== Tcl Hosting ====
   *[[http://www.hosteurope.de/|Host Europe GmbH]].
     *[[http://faq.hosteurope.de/index.php?cpid=10971|Host Europe GmbH - FAQ "Skripte (cgi, perl, php, Webanwendungen)"]].
@@ -210,6 +220,14 @@ Output window INACTIVE.
   *[[http://wiki.tcl.tk/40649|Tcler's Wiki "Web framework"]] - "A list of web frameworks for Tcl".
   *[[http://wiki.tcl.tk/602|Tcler's Wiki "Web servers which provide native Tcl support"]].
 ==== Some other Frameworks, Libraries =====
+  *Database support.
+    *[[http://oratcl.sourceforge.net/|SourceForge "Oratcl"]], [[http://www.sourceforge.net/projects/oratcl|SourceForge "oratcl"]].
+      *[[http://wiki.tcl.tk/204|Tcler's Wiki "Oratcl"]], [[http://wiki.tcl.tk/12147|Tcler's Wiki "Oratcl Examples"]].
+      *[[http://docs.activestate.com/activetcl/8.6/oratcl/FAQ.html|ActiveState Docs "ActiveTcl User Guide - Oratcl Frequently Asked Questions"]].
+      *[[http://www.orafaq.com/wiki/Tcl|The Oracle FAQ "Tcl"]].
+    *[[http://sybtcl.sourceforge.net/|SourceForge "Sybtcl"]], [[http://www.sourceforge.net/projects/sybtcl|SourceForge "sybtcl"]].
+    *[[http://tdbc.tcl.tk/|TDBC]], [[http://www.github.com/tcltk/tdbc|GitHub "tcltk/tdbc"]], a new package introduced with Tcl 8.6.
+      *[[http://www.tcl.tk/man/tcl/TdbcCmd/contents.htm|Tcl/Tk Documentation > TDBC Package Commands]] - "Tcl Database Connectivity (TDBC) is a common interface for Tcl programs to access SQL databases" ( mysql, odbc, postgres, sqlite3 ).
   *[[http://chiselapp.com/user/andreas_kupries/repository/crimp/doc/tip/embedded/www/doc/files/crimp_installer.html|Andreas Kupries "CRIMP"]] - "The C Raster Image Manipulation Package, a set of extensions of Tcl for the handling and processing of images".
   *[[http://www.equi4.com/starkit/critcl.html|Equi4Software "Critcl - the easy way to use C in Tcl scripts"]].
   *Java & Tcl.
@@ -219,6 +237,10 @@ Output window INACTIVE.
     *[[http://en.wikipedia.org/wiki/Tcl/Java|EN.Wikipedia "Tcl/Java"]].
   *[[http://www.nemethi.de/tablelist/|Csaba Nemethi "The Multi-Column Listbox and Tree Widget Package Tablelist"]].
   *[[http://web.archive.org/web/*/http://noucorp.com/cgi-bin/noucorp/generic.tcl?dir=/var/www/html/tcl/utilities|Archive.org "Noumena Corporation - Free Packages"]].
+  *OLE support on Windows.
+    *[[http://www.cs.cornell.edu/Info/Projects/zeno/tocx/|Cornell University "Project Zero - TOCX! An ActiveX Extension to Tcl/tk"]].
+  *SOAP support.
+    *[[http://tclsoap.sourceforge.net/|SourceForge "Tcl SOAP Client Utility Packages"]], [[http://www.sourceforge.net/projects/tclsoap|SourceForge "TclSOAP"]].
   *[[http://tcl.sourceforge.net/|SourceForge "Tcl/Tk @ SF"]], [[http://www.sourceforge.net/projects/tcl|SourceForge "Tcl"]] - "The core development home for Tcl (Tool Command Language, pronounced tickle) and the Tk toolkit".
   *[[http://tcllib.sourceforge.net/|SourceForge "tcllib"]], [[http://www.sourceforge.net/projects/tcllib|SourceForge "tcllib"]] - "The core development home for the tcllib standardized Tcl library".
   *[[http://tcl-foundry.sourceforge.net/|SourceForge "Tcl Foundry"]], [[http://www.sourceforge.net/projects/tcl-foundry/|SourceForge "Tcl Foundry"]].
@@ -304,6 +326,10 @@ Output window INACTIVE.
       *[[http://www.c2o.pro.br/en/automation/a1065.html|Open Automation for Water "A. Dictionaries in Tcl"]].
   *Namespaces.
     *[[http://www.wjduquette.com/tcl/namespaces.html|Will's Tcl/Tk Page "Will's Guide To Success with Tcl 8.x Namespaces and Packages"]].
+    *[[http://www.amazon.de/exec/obidos/ASIN/0123847176/hemmerling-21|Cliff Flynt: "Tcl/Tk. A Developer's Guide"]], page 215:
+      *"Note that using namespaces to implement inheritance is implemented in the opposite way as C++ or Java-style inheritance. In C++ and Java, a child class inherits functionality down from a parent, whereas in Tcl a primary namespace can inherit functionality up from a nested namespace".
+      *"If two or more namespaces need functionality that exists in a third namespace, there are a couple of options. They can create a shared copy of the third namespace in the scope of the first two namespaces, or each can create a copy of the third namespace nested within its own namespace. One advantage of nesting the third namespace is that it creates a unique copy of the persistant data defined within the third namespace. If a namespace is shared, that data is also shared".
+      *"Note that whereas procedures can be imported from any namespace, regardless of his parent/child relationship, variables cannot be imported. If your design requires separate copies of data, you must have separate copies of the namespace, The namespace copies can be placed at any positon in the namespace hierarchy, but it is simplest to inherit the functionality from child namespaces".
   *Printing.
     *[[http://www.tcl.tk/man/tcl8.6/TclCmd/format.htm|Tcl/Tk Documentation "Tcl Commands / format"]].
   *Comparison Tcl to other Programming Languages.
@@ -435,6 +461,7 @@ Output window INACTIVE.
   *Activestate.
     *[[http://community.activestate.com/forum|Activestate Community, Forum]] - Perl, Python & Tcl/Tk forums.
     *[[http://forum.komodoide.com/|KomodoIDE Forum]].
+  *[[http://www.facebook.com/groups/tcltk/|Facebook "Tcl/Tk, The official group of the computer language"]].
   *Google.
     *[[http://groups.google.com/group/comp.lang.tcl|Google Groups "comp.lang.tcl"]], [[http://groups.google.com/group/comp.lang.perl.tk|Google Groups "comp.lang.perl.tk"]], [[http://groups.google.com/group/comp.lang.tcl.announce/|Google Groups "comp.lang.tcl.announce"]].
     *[[http://groups.google.com/group/wub-discussion|Google Groups "Wub Discussion"]].

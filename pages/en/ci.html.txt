@@ -96,9 +96,13 @@ Development Monitoring System, rewrite by Ken Estes"]].
 ==== Zed Community Edition ( for/in Java ) ====
   *The free [[http://www.zedbuildsandbugs.com/trial.html|Zed Community Edition]] - "Free For Small Teams, up to 5 Users".
   *[[http://qooxdoo.678.n2.nabble.com/Zed-Builds-And-Bugs-Management-Community-Edition-td2093080.html|qooxdoo-devel@lists.sourceforge.net "Zed Builds And Bugs Management Community Edition"]], 2008-12-30.
-==== Services ====
+===== Continuous Integration ( CI ) & Continous Delivery ( CD ) Services =====
+==== drone.io ====
   *The commercial online CI service [[http://www.drone.io/|drone.io]], with free account offer.
+==== GitLab ====
+  *The commercial online CI service [[https://about.gitlab.com/|GitLab]], with free account offer.
 ===== Build Tools / Build Automation Tools =====
+==== Build Tools / Build Automation Tools for Applications ====
   *[[http://en.wikipedia.org/wiki/Make_%28software%29|EN.Wikipedia "make (software)"]], [[http://de.wikipedia.org/wiki/make|DE.Wikipedia "make"]].
   *[[http://ant.apache.org/|The Apache ANT Project]].
     *[[http://en.wikipedia.org/wiki/Apache_Ant|EN.Wikipedia "Apache_Ant"]], [[http://de.wikipedia.org/wiki/Apache_Ant|DE.Wikipedia "Apache_Ant"]].
@@ -145,6 +149,15 @@ Development Monitoring System, rewrite by Ken Estes"]].
     *[[http://www.muquit.com/muquit/software/genmake/genmake.html|Muhammad A Muquit "genmake.pl. A Perl script to generate simple Makefile"]].
     *[[http://code.google.com/p/genmake/|Google Code "genmake. Makefile Generator"]].
   *[[http://nant.sourceforge.net/|Sourceforge "NAnt - A .NET Build Tool"]], [[http://www.sourceforge.net/projects/nant|Sourceforge "NAnt - A .NET Build Tool"]].
+==== Build Tools / Build Automation Tools for SQL Databases ====
+  *The OpenSource [[http://www.flywaydb.org/|Flyway]], [[http://www.github.com/flyway/|GitHub "flyway"]].
+    *With Flyway, you need 1 SQL script for each database of a different database manufacturer. But because of this, your scripts may use vendor-specific SQL database commands.
+    *Alternatively, you may write Java code.
+    *[[http://www.github.com/sparsick/flyway-talk|GitHub "sparsick/flyway-talk"]] - Slides & code for the talk "Auch SQL ist Source Code - Continuous Database Integration mit Flyway".
+    *[[http://en.wikipedia.org/wiki/Flyway_%28software%29|EN.Wikipedia "Flyway (software)"]].
+  *The OpenSource [[http://www.liquibase.org/|Liquibase]], [[http://www.github.com/liquibase|GitHub "liquibase"]].
+    *With Liquibase, you may write 1 script in the Liquibase SQL script language, to manage databases of different manufacturers.
+    *[[http://en.wikipedia.org/wiki/Liquibase|EN.Wikipedia "Liquibase"]].
 ===== Continuous Integration ( CI ) Online Services =====
   *[[http://app.shippable.com/|Shippable - "Continuous Integration with Docker"]].
     *"Shippable" may build GitHub and BitBucket projects.

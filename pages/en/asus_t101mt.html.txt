@@ -8,9 +8,16 @@ Related pages:
   *[[http://support.asus.com/Download.aspx?m=Eee%20PC%20T101MT&p=30|ASUStek Support "Eee PC T101MT"]] # - Software drivers for "WinXP" and "Windows 7".
   *[[http://www.xxl-sale.de/suche/?q=eee%20pc%20t101mt|XXL-Sale "eee pc t101mt"]].
   *The harddisk [[http://www.amazon.de/exec/obidos/ASIN/B009XDM5BC/hemmerling-21|Amazon.DE "ASUS Eee PC T101MT, Notebook-Festplatte 640GB, 5400rpm, 8MB"]].
+  *Power supply by "Mobilotec" - "Für beide Artikel liefern wir das Netzkabel mit!".
+    *[[http://www.amazon.de/exec/obidos/ASIN/B004TJR6SW/hemmerling-21|Amazon.DE "Netbooknetzteil kompatibel mit ASUS EEE PC T101MT mit 36W/ 12V/ 3A"]].
+    *[[http://www.amazon.de/exec/obidos/ASIN/B00IIJC6BQ/hemmerling-21|Amazon.DE "Netbooknetzteil kompatibel mit ASUS EEE PC T101MT-WHI006M mit 36W/ 12V/ 3A"]].
+
 ===== Boot Options =====
   *BIOS message "Press F2 to run setup" -> BIOS Setup Untility.
-  *BIOS message "Press ESC for BBS POPUP -> Select the boot device.
+  *BIOS message "Press ESC for BBS POPUP -> Select the boot device. 
+    *My experience:
+      *Though there is the option to set the boot priority ( harddisk, CD-ROM, USB device ), the computer always boots by harddisk ( is this a BIOS bug or bug by the operating system ?! ). 
+      *The only chance to boot by USB stick, is pressing ESC at boot time, and then to select the USB device.
   *BIOS message "Press F9 for image recovery" ( ASUS manual "F9-Recovery" in the ASUS manual ) -> Windows textmode menu "Windows Boot Manager", select "Windows Setup [EMS Enabled]" .
     *Menu options "Recovery" ( to start the system recovery ), "Backup" ( the factory default system files ).
   *Pressing F8 at startup of Windows -> Windows textmode menu "Advanced Boot Options".
@@ -122,6 +129,7 @@ Related pages:
         *Recover system to entire HD - This option deletes all partitions from your hard disk drive and creates a new system partition as drive “C” and a data partition as drive “D“.
       -Follow the onscreen instructions to complete the recovery process.
     *It's not a good idea to create a partition in the USB flash drive. You will lose all your data on the selected USB storage device upon creating a bootable disk . Future reference, if you are going to store files/documents on the USB device, the image of the OS wont work and is no longer usable. The USB flash drive that you will use to store the imageo f the OS will be intended for single use only..
+
 ===== Resources =====
   *Graphics screen hardware resolution: 1024x600. By hardware downscaling, 1024x768 or 1152x864.
   *My item is shipped with the wireless module "NE785H".

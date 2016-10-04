@@ -64,6 +64,9 @@ Related pages:
 ==== Resources ====
   *[[http://www.openpgp-schulungen.de/|Crypto für alle – kostenlose OpenPGP-Schulungen]].
 ===== Passwords =====
+==== Personal Unblocking Code ( PUC ) / Personal Unblocking Key ( PUK ) / SuperPIN vs. Personal Identification Number ( PIN ) ====
+  *[[http://en.wikipedia.org/wiki/Personal_identification_number|EN.Wikipedia "Personal identification number"]], [[http://de.wikipedia.org/wiki/Pers%C3%B6nliche_Identifikationsnummer|DE.Wikipedia "Persönliche Identifikationsnummer"]] ( PIN ).
+  *[[http://en.wikipedia.org/wiki/Personal_unblocking_code|EN.Wikipedia "Personal unblocking code"]], [[http://de.wikipedia.org/wiki/Personal_Unblocking_Key|DE.Wikipedia "Personal Unblocking Key"]] - "Cellular phone users are therefore advised by most providers to keep their PUC written down in a safe place separate from the device. The PUC (PUK) is a SIM-specific code assigned and provided by the service provider".
 ==== Windows Password Recovery Tools ====
   *The OpenSource [[http://ophcrack.sourceforge.net/|SourceForge "Ophcrack"]], [[http://www.sourceforge.net/projects/ophcrack|SourceForge "Ophcrack"]]. The software is booted from a CD/DVD. 
     *I run it successfully on a WinXP PC with Pentium-1, 256 MB RAM, IDE harddisk, IDE CD-ROM, by selecting the configuration "Ophcrack Graphics Mode - low RAM" :-).
@@ -77,6 +80,21 @@ Speichertabelle\\
 00000000 - 0008E00//
 
   *The OpenSource [[http://pogostick.net/~pnh/ntpasswd/|Offline NT Password & Registry Editor]]. The software is booted from a CD/DVD or a floppy disk. Operation failed on a WinXP PC with Pentium-1, 256 MB RAM, IDE harddisk, IDE CD-ROM by the error message: //"Boot failed: please change disks and press a key to continue"//.
+===== SSH =====
+==== Tools ====
+  *[[http://sshwindows.sourceforge.net/|SourceForge "OpenSSH for Windows"]], [[http://www.sourceforge.net/projects/sshwindows/|SourceForge "OpenSSH for Windows"]] - "Before starting the OpenSSH service you MUST edit the C:\Program Files (x86)\OpenSSH\etc\passwd file.  If you don't do this, you will not be able to log in through the SSH server.  Please read the readme.txt or quickstart.txt file for information regarding proper setup of the passwd file".
+==== Password Phrase ====
+  *[[http://support.asperasoft.com/hc/en-us/articles/216125458-Manipulating-ssh-keys-files-in-Linux-and-Windows-Environments|Aspera "Manipulating ssh keys files in Linux and Windows Environments"]].
+  *[[http://help.github.com/articles/working-with-ssh-key-passphrases/|GitHub Help "Working with SSH key passphrases"]].
+  *[[http://www.google.de/search?q=openssh+delete+password+phrase|Google - Search for "delete password phrase"]].
+  *[[http://learninglamp.wordpress.com/2012/06/26/remove-passphrase-from-ssh-key/|LAMPish tidbits "Remove Passphrase from SSH Key"]] - "openssl rsa -in private_key_with_pass_phrase -out private_key_without_pass_phrase".
+  *[[http://www.cyberciti.biz/faq/howto-ssh-changing-passphrase/|nixCraft. Linux and Unix tutorials for new and seasoned sysadmin "OpenSSH Change a Passphrase With ssh-keygen command"]].
+  *[[http://unix.stackexchange.com/questions/12195/how-to-avoid-being-asked-passphrase-each-time-i-push-to-bitbucket|]]
+  *[[http://www.thinkplexx.com/learn/howto/security/ssl/remove-passphrase-password-from-private-rsa-key|Thinkplexx "Remove passphrase (password) from private RSA key"]].
+  *[[http://unix.stackexchange.com/questions/12195/how-to-avoid-being-asked-passphrase-each-time-i-push-to-bitbucket|StackExchange "How to avoid being asked passphrase each time I push to Bitbucket"]].
+  *[[http://www.stackoverflow.com/questions/112396/how-do-i-remove-the-passphrase-for-the-ssh-key-without-having-to-create-a-new-ke|StackOverflow "How do I remove the passphrase for the SSH key without having to create a new key?"]].
+==== Resources ====
+  *[[http://en.wikipedia.org/wiki/Secure_Shell|EN.Wikipedia "Secure Shell"]], [[http://de.wikipedia.org/wiki/Secure_Shell|DE.Wikipedia "Secure Shell"]] ( SSH ).
 ===== Trust Services =====
   *[[http://www.cacert.org/|CAcert]] - "FREE digital certificates for everyone".
     *[[http://wiki.cacert.org/|CAcert Wiki]].

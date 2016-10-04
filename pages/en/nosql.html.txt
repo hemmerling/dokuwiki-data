@@ -4,15 +4,168 @@ Related pages:
   *[[databases02.html|Data Processing 2/5 - Descriptions of Data, Data Transfer and Data Protocols]].
   *[[dbadmin.html|Data Processing 4/5 - Database Managment Tools and Database Application Development Tools]].
   *[[bíntelligence.html|Data Processing 5/5 - Business Intelligence]].
+  *[[linkeddata.html|Linked Data & Linked Open Data ( LOD )]].
 
 ===== Events =====
+  *[[http://www.datastax.com/company/events|DataStax]].
+    *[[http://www.datastax.com/cassandra-days-world-tour-2015-MkgOrg|DataStax "Cassandra Days World Tour by DataStax"]] 2015/2016 in Berlin,...
+    *[[http://www.eventbrite.co.uk/e/cassandra-day-berlin-brought-to-you-by-datastax-tickets-20121771761|Eventbrite "Cassandra Day Berlin - brought to you by DataStax"]] by [[http://www.datastax.com/|DataStax]], [[http://www.trivadis.com/|Trivadis Holding AG]], [[http://www.codecentric.de/|codecentric AG]], [[http://www.nextevolution.de/|nextevolution AG]], [[https://www.unbelievable-machine.com/|The unbelievable Machine Company GmbH]] and [[http://www.metro.de/|Metro AG]] in Berlin, 2016-02-11 at 09:00-18:00.
   *[[http://day.couchdb.org/|CouchDB Day]] in Hamburg, 2015-02-07.
   *[[http://www.mongodb.com/events/|MongoDB Events]].
     *[[http://www.mongodb.com/events/mongodb-berlin-2013|MongoDB Events "MongoDB Berlin 2013"]], Berlin, 2013-02-26.
     *[[http://www.mongodb.com/events/mongodb-munich|MongoDB Events "MongoDB Munich 2012"]], München, 2012-10-16.
   *The commercial conference [[http://www.nosqlroadshow.com/|No SQL Roadshow]] in München, with free additional "GOTO Nights" events in München, Berlin.
-===== MongoDB =====
-==== The Database ====
+===== NoSQL Software Platforms with Databases ======
+==== MUMPS =====
+=== The Tool & Implementations ====
+  *[[http://mumps.sourceforge.net/|SourceForge "MUMPS"]], [[http://www.sourceforge.net/projects/mumps|SourceForge "MUMPS Database and Language. ANSI Standard MUMPS"]] - "We are dedicated to keeping the MUMPS language alive".
+  *[[http://www.minimdb.com/|MiniM Database Server]].
+  *[[http://www.esiobjects.org/|The EsiObjects project]] - "An Object Oriented (OO) application development environment. It is based on 1995 ANSI Standard MUMPS implementations (Cache and GTM). The MUMPS language is extended with OO language constructs that work in concert with an object structure that is built using the MUMPS persistent array structures (Globals)".
+  *[[http://ec2.mgateway.com/ewd/ws/|M/Gateway Developments]] - "M/DB An Open Source MUMPS-based API-compatible alternative to SimpleDB".
+=== Literature ===
+  *[[http://www.cs.uni.edu/~okane/|Kevin C. O'Kane, University of Northern Iowa "The Mumps Programming Language"]].
+=== Resources ====
+  *[[http://www.faqs.org/faqs/m-technology-faq/part1/|FAQ.org "M Technology and MUMPS Language FAQ, Part 1/2"]].
+  *[[http://www.hardhats.org/links/Mlinks.html|Hardhats.Org "M Links"]].
+  *[[http://www.idea.cz/technology|IDEA "Cutting edge technology"]].
+    *[[http://www.mumps.cz/|IDEA "MUMPS Technology Portal"]].
+  *[[http://71.174.62.16/|Jacquard Systems Research]].
+    *[[http://71.174.62.16/Demo/AnnoStd|Jacquard Systems Research "The Annotated M[UMPS] Standards"]].
+      *[[http://71.174.62.16/Demo/AnnoStd?Frame=Main&Page=a100006|Jacquard Systems Research "M[UMPS] by Example"]].
+    *[[http://71.174.62.16/MDC/|Jacquard Systems Research "MDC - MUMPS Development Committee"]].
+  *[[http://www.m21.uk.com/|M21 - the next generation e-DBMS]] - "M21 - a company providing an implementation of the M language/database for the 21st Century".
+  *[[http://www.mumps.org/|MUMPS User's Group]].
+    *Wiki [[http://www.vistapedia.com/|Vistapedia]] - The "MUMPS Wiki".
+  *[[http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2245220/|NCBI - PMC "Development and Operation of a MUMPS Laboratory Information System: A Decade's Experience"]].
+  *[[http://en.wikipedia.org/wiki/MUMPS|EN.Wikipedia "MUMPS"]], [[http://de.wikipedia.org/wiki/MUMPS|DE.Wikipedia "MUMPS"]].
+===== NoSQL Databases ======
+==== Cassandra ====
+=== Cassandra, the Tool ===
+  *The OpenSource NoSQL database [[http://cassandra.apache.org/|Apache Cassandra]].
+    *[[http://www.datastax.com/|DataStax]] - Download of "DataStax Enterprise" for Linux, MacOSX ( but not for Windows ) and as VMWare & Virtualbox sandbox.
+    *[[http://www.planetcassandra.org/|Planet Cassandra]].
+      *[[http://www.planetcassandra.org/cassandra/|Planet Cassandra - Download DataStax Community Edition]] for Windows, Linux.
+      *Download archive [[http://downloads.datastax.com/|downloads.datastax.com]].
+        *DataStax Community Editionv v3.1.1 and newer - Linux ( 32bit & 64bit ) and Windows ( 64bit ).
+          *[[http://downloads.datastax.com/datastax-ddc/|downloads.datastax.com/datastax-ddc]] - Download Archive for current "DataStax Community Edition" versions.
+        *DataStax Community Edition for Apache Cassandra v3.0.2 is the latest edition for 32-bit Windows.
+          *[[http://downloads.datastax.com/community/|downloads.datastax.com/community]] - Download Archive for legacy versions of "DataStax Community Edition" for Windows & Linux, especially the latest 32-bit Windows version of "DataStax Community Edition".
+  *The Visual IDE tools.
+    *[[http://www.planetcassandra.org/devcenter/|DataStax DevCenter for Apache Cassandra]] is shipped with "DataStax Community Edition for Apache Cassandra v3.x".
+      *For "DataStax Community Edition for Apache Cassandra v3.0.2", shipped with "DataStax DevCenter 1.5", the installation doesn´t crate a menu entry in the Windows start menu. 
+      *For "DataStax Community Edition for Apache Cassandra v3.1.1" and later, the installation doesn´t crate a menu entry in the Windows start menu. 
+    *The legacy [[http://www.planetcassandra.org/opscenter/|Planet Cassandra "DataStax OpsCenter Visual Monitoring for Apache Cassandra™ (v2.1.x or prior)"]].
+  *[[http://www.github.com/datastax/|GitHub "DataStax"]].
+    *[[http://www.github.com/datastax/java-driver|GitHub "datastax/java-driver"]] - "DataStax Java Driver for Apache Cassandra".
+    *[[http://github.com/datastax/python-driver|GitHub "datastax/python-driver"]] - "DataStax Python Driver for Apache Cassandra".
+      *[[http://datastax.github.io/python-driver/installation.html|GitHub.io "Cassandra Driver 3.0.0 documentation"]].
+  *Blogs.
+    *Blog [[http://www.datastax.com/blog|DataStax Blog]].
+    *Blog [[http://www.datastax.com/dev/blog/|DataStax Developer Blog]].
+=== Titan, an aquired Tool ===
+  *[[http://thinkaurelius.github.io/titan/|Github.io "Titan"]], [[http://wwww.github.com/thinkaurelius/titan|GitHub "thinkaurelius/titan"]], 
+  *Wiki [[http://www.github.com/thinkaurelius/titan/wiki|GitHub Wiki "thinkaurelius/titan"]].
+  *[[http://www.datastax.com/2015/02/datastax-graph-and-the-move-to-a-multi-model-database-platform|DataStax Blog "DataStax, Graph, and the Move to a Multi-Model Database Platform"]], 2015 - "We’re thrilled today to announce our acquisition of [[http://www.thinkaurelius.com/|Aurelius]], the company behind the distributed graph database Titan".
+  *[[http://s3.thinkaurelius.com/docs/titan/0.5.4/|Titan Documentation]].
+    *[[http://s3.thinkaurelius.com/docs/titan/0.5.4/cassandra.html|Titan Documentation "Storage Backends / Cassandra"]].
+=== Addons ===
+  *[[http://www.github.com/pcmanus/ccm|GitHub "CCM (Cassandra Cluster Manager)"]].
+  *[[http://kairosdb.github.io/|GitHub.io "KairosDB - Fast Time Series Database on Cassandra"]], [[http://www.github.com/kairosdb|GitHub "kairosdb"]].
+    *[[http://kairosdb.github.io/docs/build/html/|GitHub.io "KairosDB documentation"]].
+    *[[http://en.wikipedia.org/wiki/Time_series_database|EN.Wikipedia "Time series database"]].
+  *[[http://spotify.github.io/heroic/#!/index|GitHub.io "Heroic - The Heroic Time Series Database"]], [[http://www.github.com/spotify/heroic|GitHub "spotify/heroic"]] - "A scalable time series database based on Cassandra and Elasticsearch".
+=== Companion Tools ===
+  *[[http://spark.apache.org/|Apache Spark]] - "A fast and general engine for large-scale data processing" -> Machine learning.
+    *[[http://en.wikipedia.org/wiki/Apache_Spark|EN.Wikipedia "Apache Spark"]], [[http://de.wikipedia.org/wiki/Apache_Spark|DE.Wikipedia "Apache Spark"]].
+  *[[http://www.zeppelin-project.org/|Apache Zeppelin]] - "A web-based notebook that enables interactive data analytics".
+  *[[http://lucene.apache.org/solrd/|Apache Solr]].
+    *[[http://en.wikipedia.org/wiki/Apache_Solr|EN.Wikipedia "Apache Solr"]].
+  *[[http://kafka.apache.org/|Apache Kafka]].
+    *[[http://en.wikipedia.org/wiki/Apache_Kafka|EN.Wikipedia|Apache Kafka]].
+=== Documentation, Sample Applications and Tutorials ===
+== Cassandra Documentation ==
+  *[[http://docs.datastax.com/en/cql/x|DataStax 404 - Links to latest Documentations]].
+  *[[http://docs.datastax.com/en/|DataStax Documentation]].
+    *[[http://docs.datastax.com/en/latest-dse|DataStax Documentation "Latest DataStax Enterprise documentation"]].
+      *[[http://docs.datastax.com/en/latest-dsc/|DataStax Documentation "Latest Cassandra documentation (Linux)"]].
+      *[[http://docs.datastax.com/en/latest-win-dsc/|DataStax Documentation "Latest Cassandra documentation (Windows)"]].
+    *[[http://docs.datastax.com/en/latest-stable-com-for-dse|DataStax Documentation "Latest Version of Cassandra documentation used by DataStax Enterprise"]].
+    *[[http://docs.datastax.com/en/latest-opsc|DataStax Documentation "Latest OpsCenter documentation"]].
+    *[[http://docs.datastax.com/en/developer/driver-matrix/doc/common/driverMatrix.html|DataStax Documentation "Latest Driver documentation"]].
+    *[[http://docs.datastax.com/en/developer/devcenter/doc/devcenter/features.html|DataStax Documentation "Latest DevCenter documentation"]].
+    *[[http://docs.datastax.com/en/upgrade/doc/upgrade/upgradeAbout.html|DataStax Documentation "Upgrade documentation"]].
+    *[[http://docs.datastax.com/en/landing_page/doc/landing_page/archivedDocuments.html|DataStax Documentation "Earlier versions of all documents"]].
+  *[[http://www.datastax.com/2012/01/getting-started-with-apache-cassandra-on-windows-the-easy-way|DataStax Blog "Getting Started with Apache Cassandra on Windows the Easy Way"]].
+  *[[http://docs.datastax.com/en/cassandra_win/3.x/cassandra/cassandraAbout.html|DataStax Product Guides "DataStax Distribution of Apache Cassandra 3.x for Window"]].
+    *[[http://docs.datastax.com/en/cassandra_win/3.x/cassandra/install/installWin.html|DataStax Product Guides "DataStax Distribution of Apache Cassandra 3.x for Window" - "Installing DataStax Distribution of Apache Cassandra 3.x for Windows"]] - "Download the Windows MSI installer for your platform from Planet Cassandra. Note: 32-bit systems are for development only".
+==  Cassandra Query Language ( CQL ) ==
+  *[[http://cassandra.apache.org/doc/|Apache Cassandra Documentation]].
+    *[[http://cassandra.apache.org/doc/cql/CQL.html|Apache Cassandra Documentation "Cassandra Query Language (CQL) v2.0"]].
+  *[[http://docs.datastax.com/en/latest-stable-cql|DataStax Documentation "Latest Version of CQL documentation used by DataStax Enterprise"]] - "CQL for Cassandra 2.0 & 2.1".
+  *[[http://docs.datastax.com/en/latest-cql/|DataStax Documentation "Latest CQL documentation"]] - "CQL for Cassandra 2.2 & later".
+  *[[http://www.planetcassandra.org/blog/cql-cassandra-query-language/|Planet Cassandra "CQL : Cassandra Query Language"]].
+  *I was told by experts 
+    *About the difference of the CQL query language, in comparison to SQL:
+      *No joins.
+      *Limited aggregations.
+    *Cassandra is not scheme-free.
+  *CQL is not [[http://en.wikipedia.org/wiki/Contextual_Query_Language|EN.Wikipedia "Contextual Query Language"]], previously known as "Common Query Language" ( CQL ).
+== KillrVideo, the Cassandra "Killer" Application & some other Demo Applications ==
+  *[[http://www.datastax.com/resources/demo|DataStax "Sample Applications and Tutorials"]]
+  *[[http://www.killrvideo.com/|KillrVideo]].
+  *[[http://www.luketillman.com/tag/killrvideo/|Luke Tillman - Articles tagged with "KillrVideo"]].
+  *[[http://www.github.com/LukeTillman/killrvideo-csharp|GitHub "LukeTillman/killrvideo-csharp"]].
+  *[[http://www.datastax.com/dev/blog/exciting-changes-to-killrvideo-sample-application-and-website|DataStax Developer Blog "Exciting Changes to KillrVideo Sample Application and Website"]].
+== Training ==
+  *[[http://academy.datastax.com/|DataStax Academy]] - Tutorials.
+    *[[http://academy.datastax.com/demos/getting-started-apache-cassandra-and-python-part-i|DataStax Academy "Getting Started with Apache Cassandra and Python (Part I)"]].
+    *[[http://academy.datastax.com/demos/getting-started-apache-cassandra-and-java-part-i|DataStax Academy "Getting Started with Apache Cassandra and Java (Part I)"]].
+=== Installation of the Python Driver ===
+  *The installation of the Python driver for Cassandra by "pip install cassandra-driver" fails both on Win32 as well as Win64 by the error message<code>
+File "build\bdist.win32\egg\setuptools\command\easy_install.py", line 1118, in run_setup
+distutils.errors.DistutilsError: Setup script exited with error: Unable to find vcvarsall.bat
+----------------------------------------
+Command "python setup.py egg_info" failed with error code 1 in c:\temp\pip-build-cv4dx5\cassandra-driver
+</code>
+    *[[http://www.stackoverflow.com/questions/20952629/vcvarsall-bat-not-found-while-installing-python-cassandra-driver|StackOverflow "vcvarsall.bat not found while installing python Cassandra driver"]]
+      *"I just had to do this first:"<code>
+"C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin\vcvars64.bat"
+</code> 
+      *This didn´t work for me, even when adding "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC" to the environment variable "PATH": The installer still complains not to find "vcvarsall.bat" :-(.
+    *[[http://www.luketillman.com/intro-to-python-and-cassandra-presentation-on-windows/|Luke Tillman "Intro to Python and Cassandra Presentation on Windows"]] - "If you run into an error about vcvarsall.bat being missing, you have two options:
+      *If you've already got Visual Studio installed, you can trick Python into using compiler for the version you have installed by following [[http://wwww.stackoverflow.com/questions/2817869/error-unable-to-find-vcvarsall-bat|these instructions on StackOverflow]].
+        *[[http://www.stackoverflow.com/questions/2817869/error-unable-to-find-vcvarsall-bat|StackOverflow "error: Unable to find vcvarsall.bat"]].
+          *This solution didn´t work for me, neither on 32bit nor 64bit Windows: 
+            *Install [[http://www.microsoft.com/en-us/download/details.aspx?id=44266|Microsoft Download Center "Microsoft Visual C++ Compiler for Python 2.7"]].
+            *Set the environment variable "VS90COMNTOOLS" to "C:\Users\Administrator\AppData\Local\Programs\Common\Microsoft\Visual C++ for Python\9.0".
+      *You can grab the compiler for [[http://www.microsoft.com/en-us/download/details.aspx?id=44266|Python from Microsoft]]".
+        *[[http://www.microsoft.com/en-us/download/details.aspx?id=44266|Microsoft Download Center "Microsoft Visual C++ Compiler for Python 2.7"]].
+  *[[http://datastax.github.io/python-driver/installation.html|GitHub.io "Cassandra Driver 3.0.0 documentation"]].
+=== Resources ===
+  *[[http://tobert.github.io/pages/als-cassandra-21-tuning-guide.html|GitHub.io "Al's Cassandra 2.1 tuning guide"]], recommended by DataStax staff members.
+  *[[http://en.wikipedia.org/wiki/Apache_Cassandra|EN.Wikipedia "Apache Cassandra"]], [[http://de.wikipedia.org/wiki/Apache_Cassandra|DE.Wikipedia "Apache Cassandra"]].
+==== Apache CouchDB & Couchbase ====
+=== Apache CouchDB ===
+  *The OpenSource NoSQL database [[http://couchdb.apache.org/|Apache CouchDB]].
+    *[[http://en.wikipedia.org/wiki/CouchDB|EN.Wikipedia "Couchdb"]], [[http://de.wikipedia.org/wiki/CouchDB|DE.Wikipedia "CouchDB"]].
+  *As of 2016-09, with CouchDB it is easy to implement a replication of a set of local CouchDB databases ( e.g. on Raspberry Pi ) to a master database on a host or in the Cloud. It is an alternative to use a traditional SQL or NoSQL database and to implement asynchronous communications between clients and the host by a special asynchronous protocol, i.e. the MQTT protocol.
+  *CouchDB implements concurreny by versioning of data and by adding time stamps at data records, e.g. a data record is named 1-timestamp, 2-timestamp, i.e. "1-2016-08-01, 00:00:00", "2-2016-09-03, 12:01:05".
+=== Couchbase, a Fork of CouchDB ===
+  *The OpenSource NoSQL database [[http://www.couchbase.com/|Couchbase]].
+    *[[http://en.wikipedia.org/wiki/Couchbase_Server|DE.Wikipedia "Couchbase Server"]].
+      *[[http://www.phpmagazin.de/|PHP-Magazin]]
+        -issue 6/2014, article "Weltweites Shopping auf der Couch. Reimplementierung eines Onlineshops mit einer NoSQL-Datenbank in der Cloud" by "Goodgame Studios" - "Das Alleinstellungsmerkmal von Couchbase ist die Möglichkeit, die Daten aller Cluster in allen Regionen immer synchron zu halten - und das in Echtzeit. Diese produktbezogene Fähigkeit nennt sich Cross Data Center Replication ( XDCR ). Anderen Datenbanksystemen ( MongoDB, CouchDB, Riak, Cassandra ), die in die engere Auswahl fielen, fehlte allesamt diese Funktionalität".
+        -issue 1/2015, article "NoSQL mit großen Datenmengen" by "Goodgame Studios".
+  *[[http://www.sdtimes.com/couchdb-founder-follows-the-fork-to-couchbase/|SD Times "CouchDB founder follows the fork to Couchbase"]], 2012-01-13.
+==== Apache HBase ====
+  *The OpenSource NoSQL database [[http://hbase.apache.org/|Apache HBase]].
+    *[[http://en.wikipedia.org/wiki/Apache_Hadoop|EN.Wikipedia "Apache Hadoop"]], [[http://de.wikipedia.org/wiki/Apache_Hadoop|DE.Wikipedia "Apache Hadoop"]].
+    *[[http://en.wikipedia.org/wiki/HBase|EN.Wikipedia "HBase"]].
+==== Hypertable ====
+  *The OpenSource NoSQL database [[http://www.hypertable.org/|[Hypertable]], [[http://code.google.com/p/hypertable/|Google Code "hypertable. A high performance, scalable, distributed storage and processing system for structured and unstructured data"]].
+    *[[http://en.wikipedia.org/wiki/Hypertable|EN.Wikipedia "Hypertable"]].
+==== MongoDB ====
+=== The Database ===
   *The OpenSource NoSQL database [[http://www.mongodb.org/|MongoDB]], [[http://github.com/mongodb|Github "mongo"]] for WinXP, Linux.
   *MongoDB 2.02 is the latest edition for W2k.
   *[[http://dl.mongodb.org/dl/win32/i386|MongoDB - Download archive for Windows editions]].
@@ -24,7 +177,7 @@ Related pages:
     *Blog [[http://ed-blog.10gen.com/|10gen Education Blog]].
   *[[http://www.twitter.com/MongoDB|Twitter "MongoDB"]].
   *[[http://www.slideshare.net/mongodb|Slideshare "mongodb/10gen"]].
-==== Documentation ====
+=== Documentation ===
   *The online HTML manual [[http://docs.mongodb.org/manual/|The MongoDB Manual]].
     *[[http://docs.mongodb.org/manual/mongo/|The MongoDB Manual "Using the mongo Shell"]].
     *Dynamic queries.
@@ -53,8 +206,8 @@ Related pages:
        *[[http://docs.mongodb.org/manual/administration/replica-sets/|The MongoDB Manual "Replica Set Administration"]].
          *[[http://docs.mongodb.org/manual/tutorial/configure-secondary-only-replica-set-member/|The MongoDB Manual "Prevent Replica Set Member from Becoming Primary"]].
   *[[http://cookbook.mongodb.org/|The MongoDB Cookbook]], [[http://www.github.com/mongodb/cookbook|Github "mongodb / cookbook"]].
-==== Frameworks, Interfaces, Tools ====
-=== Language Interfaces ===
+=== Frameworks, Interfaces, Tools ===
+== Language Interfaces ==
   *[[http://api.mongodb.org/|MongoDB API]].
     *[[http://api.mongodb.org/python/|MongoDB API - Python]].
     *[[http://api.mongodb.org/java/|MongoDB API - Java]] -> get latest version number for installation by Maven :-).
@@ -62,7 +215,7 @@ Related pages:
     *[[http://docs.mongodb.org/ecosystem/drivers/python/|MongoDB - Python Language Center]].
       *[[http://api.mongodb.org/python/current/installation.html|PyMongo Documentation]].
   *[[http://pypi.python.org/pypi/pymongo/|Python Package Index "pymongo"]].
-=== Frameworks ===
+== Frameworks ==
   *[[http://www.mongoengine.org/|MongoEngine]] - "A Document-Object Mapper ( Think ORM, but for document databases ) for working with MongoDB from Python. It uses a simple-declarative API, similar to the Django ORM".
     *[[http://docs.mongoengine.org/|MongoEngine User Documentation]].
   *[[http://www.github.com/namlook/mongokit|Github "namlook / mongokit"]] for Python.
@@ -72,14 +225,14 @@ Related pages:
     *[[http://www.doctrine-project.org/projects/mongodb-odm.html|Doctrine "MongoDB ODM"]] - "Doctrine MongoDB Object Document Mapper is built for PHP and provides transparent persistence for PHP objects".
     *[[http://docs.doctrine-project.org/projects/doctrine-mongodb-odm/|Doctrine "Doctrine MongoDB ODM’s documentation!"]].
     *[[http://www.github.com/doctrine/mongodb-odm|Github "doctrine/mongodb-odm"]].
-=== Protocol Interfaces ===
+== Protocol Interfaces ==
   *The OpenSource [[http://github.com/fatiherikli/kule|Github "fatiherikli / kule"]] - "REST interface for MongoDB".
-=== Tools ( GUI Frontends,.. ) ===
+== Tools ( GUI Frontends,.. ) ==
   *[[http://github.com/Fiedzia/Fang-of-Mongo|Github "Fiedzia/Fang-of-Mongo"]] - "Web based GUI for mongodb created with pyhon, django and jquery".
-  *The OpenSource [[http://www.genghisapp.com/|Genghis - The single-file MongoDB admin app]], [[https://www.github.com/bobthecow/genghis|Github " bobthecow / genghis"]], a Ruby application for Ruby ( standalone ), Windows, LAMP.
+  *The OpenSource [[http://www.genghisapp.com/|Genghis - The single-file MongoDB admin app]], [[http://www.github.com/bobthecow/genghis|Github " bobthecow / genghis"]], a Ruby application for Ruby ( standalone ), Windows, LAMP.
     *[[http://www.youtube.com/watch?v=C1Nds7el06s|YouTube "MongoDB - Genghis"]].
-=== General ===
-==== Online Services ====
+== General ==
+=== Online Services ===
   *Online test installation [[http://try.mongodb.org/|10gen "Try mongodb"]] - "A Tiny MongoDB Browser Shell (mini tutorial included). Just enough to scratch the surface".
   *[[http://mms.10gen.com/|10gen "MongoDB Monitoring Service"]].
     *MongoDB Monitoring Service - " free, cloud-based service provided by 10gen for monitoring MongoDB deployments in real time".
@@ -90,12 +243,12 @@ Related pages:
     *Video [[http://www.youtube.com/watch?v=SLH6fujRYB8|YouTube "Get Started with a MongoHQ Database"]].
   *[[http://www.mongolab.com/|MongoLab: MongoDB-as-a-Service]] with free basic "sandbox" account.
   *[[http://www.objectrocket.com/|ObjectRocket - Industrial Strength MongoDB]].
-==== Meaning of the Brand Name in other Cultures ====
+=== Meaning of the Brand Name in other Cultures ===
   *[[http://www.szenesprachenwiki.de/definition/mongo/|Duden - Neues Wörterbuch der Szenesprachen "Mongo"]].
   *[[http://en.wikipedia.org/wiki/Down_syndrome|EN.Wikipedia "Down syndrome"]], [[http://de.wikipedia.org/wiki/Down-Syndrom|DE.Wikipedia "Down-Syndrom"]].
-==== Experts ====
+=== Experts ===
   *[[http://www.mongodb.org/about/community/masters/|MongoDB "MongoDB Masters"]].
-==== Resources ====
+=== Resources ===
   *Blog [[http://rbodkin.wordpress.com/|Ron Bodkin's Blog. About Big Data]].
     *[[http://rbodkin.wordpress.com/2010/10/15/foursquare%E2%80%99s-mongodb%C2%A0outage/|Ron Bodkin's Blog. About Big Data "Foursquare’s MongoDB Outage"]], 2010-10-15.
   *[[http://bit.ly/zips_json|bit.ly/zips_json]], [[http://media.mongodb.org/zips.json|media.mongodb.org/zips.json]] - The free "cities" database contents used in the book "MongoDB: Sag Ja zu NoSQL". Data import by <code>mongoimport -d cities -c cities zips.json</code>
@@ -125,29 +278,29 @@ Related pages:
     *[[http://www.stackoverflow.com/questions/8130529/storing-data-in-xml-or-mongodb|StackOverflow "Storing data in XML or MongoDB"]].
     *[[http://www.stackoverflow.com/questions/4588303/in-mongodb-how-do-you-remove-an-array-element-by-its-index|StackOverflow "In mongoDb, how do you remove an array element by it's index"]].
   *[[http://en.wikipedia.org/wiki/MongoDB|EN.Wikipedia "MongoDB"]], [[http://de.wikipedia.org/wiki/MongoDB|DE.Wikipedia "MongoDB"]].
-==== Events and Webinars, Webcasts, Videos on Demand ====
-=== Video Channels ===
+=== Events and Webinars, Webcasts, Videos on Demand ===
+== Video Channels ==
   *[[http://www.youtube.com/user/MongoDB|YouTube Channel "MongoDB"]].
-=== Videos of 2009 ===
+== Videos of 2009 ==
   *[[http://www.youtube.com/watch?v=aoj87p_FX7Y|YouTube "MongoDB"]], 2009-11-28.
-=== Videos of 2010 ===
+== Videos of 2010 ==
   *[[http://www.youtube.com/watch?v=iRDOGkFKBRw|YouTube "Introduction to MongoDb Database"]], 2010-02-27.
   *[[http://www.youtube.com/watch?v=IK80yYujO1A|YouTube "MongoDB Tutorial - Replica Sets"]], 2010-08-01.
   *[[http://www.youtube.com/watch?v=OKG_M5UQE9w|YouTube "MongoDB Tutorial - Sharding"]], 2010-08-03.
   *[[http://www.youtube.com/watch?v=b2F-DItXtZs|YouTube "Episode 1 - Mongo DB Is Web Scale"]], 2010-08-27 -> MongoDB vs. MySQL :-) #.
     *[[http://www.highscalability.com/|highscalability.com]].
   *[[http://www.youtube.com/watch?v=w5qr4sx5Vt0|YouTube "O'Reilly Webcast: Introduction to MongoDB"]], 2010-08-24.
-=== Videos of 2011 ===
-=== Videos of 2012 ===
+== Videos of 2011 ==
+== Videos of 2012 ==
   *[[http://www.youtube.com/watch?v=PIWVFUtBV1Q|YouTube "O'Reilly Webcast: MongoDB Schema Design: How to Think Non-Relational"]], 2012-03-11.
-=== Use Cases ===
+== Use Cases ==
   *[[http://docs.mongodb.org/manual/use-cases/|MongoDB Manual - Use Cases]].
   *[[http://wiki.10gen.com/pages/viewpage.action?pageId=54001714|MongoDB Manual - Use Cases ( old version )]].
     *[[http://blog.mongodb.org/post/171353301/using-mongodb-for-real-time-analytics|MongoDB Blog "Using MongoDB for Real-time Analytics"]], 2009-08-25.
-=== Resources ===
+== Resources ==
   *[[http://www.10gen.com/events|10gen - "Events and Webinars"]].
   *[[http://www.youtube.com/results?search_query=MongoDB|YouTube - Search for "MongoDB"]].
-==== Tips & Tricks ====
+=== Tips & Tricks ===
   *On Windows, please create the default database directory "C:\data\db", manually :-).
   *The comment operator is "<html>//</html>", e.g. <code>// This comment is ignored by MongoDB </code>
   *MongoDB sorts strings in order of UTF-8. Locals like German Umlaute ( "ÄÖÜäöüß" ) are not sorted as expected in natural language ( e.g. "A" or "Ae" is not follwed by "Ä" in the sort order, but by "B" ) :-(.
@@ -166,27 +319,14 @@ Related pages:
 ^ 5 | $limit | |
 ^ 6 | $unwind | |
 ^ | | 
-
-===== Some other NoSQL Databases ======
-  *The OpenSource NoSQL database [[http://cassandra.apache.org/|Apache Cassandra]].
-    *[[http://en.wikipedia.org/wiki/Apache_Cassandra|EN.Wikipedia "Apache Cassandra"]], [[http://de.wikipedia.org/wiki/Apache_Cassandra|DE.Wikipedia "Apache Cassandra"]].
+==== Riak ====
   *The OpenSource NoSQL database [[http://www.basho.com/riak/|Basho Technologies, Inc. "Riak"]], [[http://www.github.com/basho|GitHub "basho"]].
     *[[http://docs.basho.com/|Basho Technologies, Inc. "Riak Docs"]].
     *[[http://en.wikipedia.org/wiki/Riak|EN.Wikipedia "Riak"]], [[http://de.wikipedia.org/wiki/Riak|DE.Wikipedia "Riak"]].
-  *The OpenSource NoSQL database [[http://www.couchbase.com/|Couchbase]].
-    *[[http://en.wikipedia.org/wiki/Couchbase_Server|DE.Wikipedia "Couchbase Server"]].
-      *[[http://www.phpmagazin.de/|PHP-Magazin]]
-        -issue 6/2014, article "Weltweites Shopping auf der Couch. Reimplementierung eines Onlineshops mit einer NoSQL-Datenbank in der Cloud" by "Goodgame Studios" - "Das Alleinstellungsmerkmal von Couchbase ist die Möglichkeit, die Daten aller Cluster in allen Regionen immer synchron zu halten - und das in Echtzeit. Diese produktbezogene Fähigkeit nennt sich Cross Data Center Replication ( XDCR ). Anderen Daetnbanksystemen ( MongoDB, CouchDB, Riak, Cassandra ), die in die engere Auswahl fielen, fehlte allesamt diese Funktionalität".
-        -issue 1/2015, article "NoSQL mit großen Datenmengen" by "Goodgame Studios".
-  *The OpenSource NoSQL database [[http://couchdb.apache.org/|Apache CouchDB]].
-    *[[http://en.wikipedia.org/wiki/CouchDB|EN.Wikipedia "Couchdb"]], [[http://de.wikipedia.org/wiki/CouchDB|DE.Wikipedia "CouchDB"]].
-  *The OpenSource NoSQL database [[http://hbase.apache.org/|Apache HBase]].
-    *[[http://en.wikipedia.org/wiki/Apache_Hadoop|EN.Wikipedia "Apache Hadoop"]], [[http://de.wikipedia.org/wiki/Apache_Hadoop|DE.Wikipedia "Apache Hadoop"]].
-    *[[http://en.wikipedia.org/wiki/HBase|EN.Wikipedia "HBase"]].
-  *The OpenSource NoSQL database [[http://www.hypertable.org/|[Hypertable]], [[http://code.google.com/p/hypertable/|Google Code "hypertable. A high performance, scalable, distributed storage and processing system for structured and unstructured data"]].
-    *[[http://en.wikipedia.org/wiki/Hypertable|EN.Wikipedia "Hypertable"]].
-
 ===== Property Graph Databases - NoSQL Databases for Graph Processing ======
+==== ArrangoDB =====
+  *[[http://www.arangodb.com/|ArrangoDB -  The multi-model NoSQL DB]] - "Multi-ModelDocuments, graphs and key-value pairs — model your data as you see fit for your application".
+==== Neo4J =====
   *The OpenSource transactional property graph database [[http://www.neo4j.org/|Neo4j]].  
     *[[http://www.slideshare.net/peterneubauer/intro-to-neo4j-20|SlideShare "Peter Neubauer: Intro to NoSQL and Neo4j 2.0"]].
     *[[http://www.neotechnology.com/|Neo Technology - graphs are everywhere]].
@@ -194,11 +334,16 @@ Related pages:
     *The free PDF book [[http://info.neotechnology.com/Neo4j20_de.html|Neo Technology "Michael Hunger: Neo4j 2.0 Eine Graphdatenbank für alle"]].
   *[[http://en.wikipedia.org/wiki/Neo4j|EN.Wikipedia "Neo4j"]], [[http://de.wikipedia.org/wiki/Neo4j|DE.Wikipedia "Neo4j"]].
   *[[http://en.wikipedia.org/wiki/Cypher_Query_Language|EN.Wikipedia "Cypher Query Language"]].
+
 ===== Some other NoSQL Databases, but with Joins :-) ======
   *[[http://www.rethinkdb.com/|ReThinkDB]], [[https://www.github.com/rethinkdb|Github "ReThinkDB"]].
     *Blog [[http://www.rethinkdb.com/blog/|ReThinkDB Blog]].
     *[[http://www.facebook.com/pages/RethinkDB/155296331177555|Facebook "ReThinkDB"]].
     *[[http://www.twitter.com/rethinkdb|Twitter "ReThinkDB"]].
+===== Cloud-only NoSQL Databases ======
+  *[[http://azure.microsoft.com/en-us/services/documentdb/|Microsoft Azure "DocumentDB. Blazing fast, planet-scale NoSQL"]].
+    *[[https://en.wikipedia.org/wiki/DocumentDB|EN.Wikipedia "DocumentDB"]].
+
 ===== MongoDB Courses by 10gen Education =====  
 ==== The Courses ====
   *[[http://education.mongodb.com/|MongoDB University]] ( formerly: [[http://www.10gen.com/|10gen Education]] ).
@@ -300,6 +445,14 @@ And I was not aware that we have this high-level site.
 === Resources ===
   *[[http://www.10gen.com/books|10gen - The MongoDB Company "Books"]].
 ===== Resources =====
+  *Experts told me:
+    *With applications using relational SQL databases, you develop in the order:
+      -Datamodel.
+      -Application.
+    *With applications using relational NoSQL databases, you develop in the order, so that each data view gets exactly the data it needs ( and by this there is no data normalisation ):
+      -Application.
+      -Workflow.
+      -Data Model.
   *[[http://www.drdobbs.com/database/224900500|Ken North, Dr.Dobb's Journal "The NoSQL Alternative"]], 2010-05-21.
   *[[http://www.intellipaat.com/blog/hadoop-interview-questions/|intellipaat "Hadoop Interview Questions"]].
   *[[http://planet.mongodb.org/|Planet MongoDB]] - "an aggregator for blogs about the open source database MongoDB".
@@ -307,16 +460,20 @@ And I was not aware that we have this high-level site.
   *[[http://en.wikipedia.org/wiki/NoSQL|EN.Wikipedia "NoSQL"]], [[http://de.wikipedia.org/wiki/NoSQL|DE.Wikipedia "NoSQL"]].
 ===== Communities, Forums, Newsgroups =====
   *[[http://forums.couchbase.com/|Couchbase Forums]].
-  *[[http://www.facebook.com/mongodb|Facebook "MongoDB"]].
+  *[[http://academy.datastax.com/forums|DataStax Academy Forums]].
   *Facebook.
+    *[[http://www.facebook.com/DataStax|Facebook "DataStax"]] - "DataStax delivers Apache Cassandra as part of a database platform purpose built for IOT, Web and Mobile Apps".
     *[[http://www.facebook.com/mongodb|Facebook "MongoDB"]].
     *[[http://www.facebook.com/groups/mongodbgroup/|Facebook Groups "MongoDB Developers & DBAs (Worldwide)"]].
   *Google.
+    *[[http://groups.google.com/a/lists.datastax.com/forum/#!forum/java-driver-user|Google Groups "DataStax Java Driver for Apache Cassandra User Mailing List"]].
+    *[[https://groups.google.com/a/lists.datastax.com/forum/#!forum/spark-connector-user|Google Groups "DataStax Spark Connector for Apache Cassandra"]].
     *[[http://groups.google.com/group/mongodb-user|Google Groups "mongodb-user"]].
     *[[http://group.google.com/group/mongodb-dev|Google Groups "mongodb-dev"]].
     *[[http://groups.google.com/group/mongoengine-users|Google Groups "MongoEngine Users"]].
     *[[http://groups.google.com/group/doctrine-user|Google Groups "doctrine-user"]].
     *[[http://group.google.com/group/mongokit|Google Groups "mongokit"]].
+    *[[http://groups.google.com/group/kairosdb-group|Google Groups "KairosDB"]].
     *[[http://plus.google.com/communities/115421122548465808444|Google+ "mongoDB"]].
   *[[http://www.javaranch.com/|Java Ranch - a friendly place for Java greenhorns!]].
     *[[http://www.coderanch.com/|Java Ranch - Java Forums at the Big Moose Saloon ( coderanch.com )]].
@@ -327,11 +484,14 @@ And I was not aware that we have this high-level site.
     *[[http://www.linkedin.com/groups?gid=4773314|LinkedIn "MongoDB Professionals Worldwide"]].
     *[[http://www.linkedin.com/skills/skill/MongoDB|LinkedIn Skills&Expertise "MongoDB"]].
   *[[http://www.manning-sandbox.com/forum.jspa?forumID=677|Manning Publications Co. Forum "MongoDB in Action"]].
+  *[[http://www.mumpster.org/|Mumpster]] - MUMPS forum.
   *[[http://forum.samuris.com/forum/30-mongodb/|Samuris Community Forum "MongoDb"]].
-  *[[http://www.stackoverflow.com/questions/tagged/nosql|Stack Overflow - Tagged Questions "[nosql]"]].
+  *StackOverflow
+    *[[http://www.stackoverflow.com/questions/tagged/nosql|Stack Overflow - Tagged Questions "[nosql]"]].
+    *Official [[http://www.datastax.com/support-forums/|DataStax "Support Forums"]] ( = [[http://www.stackoverflow.com/search?q=datastax-enterprise+opscenter|StackOverflow - Search for "datastax-enterprise opscenter"]] ).
+    *[[http://www.stackoverflow.com/questions/tagged/cassandra|StackOverflow - Tagged Questions "cassandra"]].
   *[[http://www.xing.com/net/dbmongodb|XING "Deutsche Benutzergruppe MongoDB"]].
     *Event [[http://www.xing.com/events/cebit-2013-open-source-forum-mongodb-usergroup-treffen-1212914|XING "CeBIT 2013 - Open Source Forum und MongoDB Usergroup Treffen"]], 2013-03-06.
-
 ===== Appropriate OpenDirectory Directory Pages =====
   *[[http://www.dmoz.org/Computers/Software/Databases/|OpenDirectory "Top: Computers: Software: Databases"]].
   *[[http://www.dmoz.org/World/Deutsch/Computer/Software/Datenbanken/|OpenDirectory "Top: World: Deutsch: Computer: Software: Datenbanken"]].

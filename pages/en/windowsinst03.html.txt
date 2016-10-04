@@ -1,0 +1,36 @@
+====== [hemmerling] The Sequence of Steps of a Windows 10 Pro ( Win10 Pro ) Installation  ======
+===== Prerequisites ======
+  *Save the mail filter of Thunderbird E-mail client, especially if you move to a new location with a new E-Mail database ( it is stored in the mail folder, and is still available if you deinstall and reinstall Thunderbird on the same computer and same operating system ).
+===== The Process ======
+The Sequence of Steps of a typical Windows Installation, with Installation of Application Software, taking Win10-Pro as example:
+  -Activate the "Administrator" account.
+    -Login in the user account ( which you created at installation ) and open a "command.com" console with administrative privileges.
+      *Either:
+        *At the Windows appstarter of Win10, search for "command". Mouse-rightclick on the item "Run as Administrator". 
+      *Or:
+        *You can also open Command Prompt by clicking Mouse-rightclick when your mouse is over the Windows appstarter symbol. Execute the "run" menu option and enter "cmd" at the prompt. Win10 informs "This task will be created with administrative privileges".
+    -Execute at command.com prompt "net user administrator /active:yes".
+  -Configure PowerShell.
+    *Activate the execution of PowerShell scripts.
+     *Open a "command.com" console with administrative privileges.
+     *Execute at command.com promt "PowerShell Set-ExecutionPolicy -ExecutionPolicy Restricted".
+     *Create the directories "C:\users\Administrator\Documents\WindowsPowerShell" and "C:\users\Administrator\Documents\WindowsPowerShell\Modules".
+       *Copy the safed personal files "Microsoft.PowerShell_profile.ps1" and "Microsoft.PowerShellISE_profile.ps1" to directory "C:\users\Administrator\Documents\WindowsPowerShell".
+  -The Basic Desktop Applications.
+    -Unpacker ( e.g. WinRAR ).
+    -Adobe Reader.
+    -LibreOffice.
+    -Free PDF printer driver ( e.g. PDF24 ).
+    -Browser ( e.g. Firefox, Chrome )
+    -Free graphics software ( e.g. Gimp, Paint.Net,.. ), commercial graphics software ( Corel Draw 13 for W2k - Win8.1 but not for Win10 )
+    -Virtual machines ( VMware Player, VirtualBox ).
+    -DVD/CD recorder software ( Nero12 )
+    -Java Dependent Applications.
+      -Java Development Kit (JDK).
+      -Integrated Development Tool ( e.g. Eclipse ), based on Java.
+    -Micrsoft Windows development tools ( e.g. Visual Studio CE )
+===== Problems & Fixes ======
+===== Resources ======
+
+{{tag>windows 10 "windows 10" "windows 10 pro" win10 "win10 pro" win10pro}}
+<footnote_navi_en>

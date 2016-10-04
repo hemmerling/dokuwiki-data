@@ -41,6 +41,8 @@
     *[[http://www.briangoetz.com/|Brian Goetz]].
     *[[http://www.linkedin.com/in/briangoetz|LinkedIn "Brian Goetz"]].
     *[[http://www.twitter.com/BrianGoetz|Twitter "Brian Goetz"]].
+== Functional Frameworks & Libraries based on Java8 ==
+  *[[http://www.javaslang.com/|JavaSlang - Functional Library for Java 8+]], [[http://www.github.com/javaslang|GitHub "javaslang"]].
 == Resources ==
   *Language features:
     *Functional interfaces.
@@ -68,6 +70,15 @@ Blog for thejavatutorials "JavaOne 2013: Lambda Expressions"]].
     *[[http://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=3877|Stuart Marks "Jump-starting Lambda Programming"]].
   *[[http://www.oracle.com/technetwork/articles/java/lambda-1984522.html|Oracle, Deepak Vohra "Trying Out Lambda Expressions in the Eclipse IDE"]].
   *[[http://www.jugbremen.de/2013/09/aktueller-stand-java-8.html|JUG Bremen "Aktueller Stand Java 8"]], 2013-09-17.
+=== Frege ===
+== The Language and its Implementaton ==
+  *[[http://www.frege-lang.org/|Frege]].
+    *The free online Frede IDE [[http://try.frege-lang.org/|Frege REPL]].
+  *[[http://www.github.com/Frege/frege|GitHub "Frege"]] - "Frege is a Haskell for the JVM. It brings purely functional programing to the Java platform".
+  *Wiki [[http://github.com/Frege/frege/wiki|GitHub Wiki "Frege"]].
+== Resources ==
+  *[[http://news.ycombinator.com/item?id=10056038|ycombinator "Frege: A Haskell-Like Language for the JVM"]].
+  *[[http://en.wikipedia.org/wiki/Frege_%28programming_language%29|EN.Wikipedia "Frege (programming language)"]].
 === Scala ===
 == The Language & Runtime ==
   *[[http://www.scala-lang.org/|Scala]] - "The Scala Programming Language".
@@ -76,6 +87,7 @@ Blog for thejavatutorials "JavaOne 2013: Lambda Expressions"]].
   *See [[testing.html|Testing]].
 == E-Learning ==
   *[[http://www.coursera.org/course/progfun|Coursera "Martin Odersky: Functional Programming Principles in Scala"]].
+
 ===== Software Tools =====
 <WRAP tip>[[mathengineering.html#Mathcad|Mathematical Engineering]] - PTC Mathcad</WRAP>
 ===== Literature =====
@@ -90,6 +102,8 @@ Blog for thejavatutorials "JavaOne 2013: Lambda Expressions"]].
 ===== Resources =====
   *[[http://www.heise.de/developer/artikel/F-funktionales-Pendant-zu-C-1140553.html|heise Developer, Golo Roden "F# - funktionales Pendant zu C#"]].
   *[[http://research.microsoft.com/en-us/um/cambridge/projects/fsharp/|Microsoft Research "F# at Microsoft Research"]].
+  *[[http://en.wikipedia.org/wiki/Currying|EN.Wikipedia "Currying"]], [[http://de.wikipedia.org/wiki/Currying|DE.Wikipedia "Currying"]].
+  *[[https://en.wikipedia.org/wiki/Partial_application|EN.Wikipedia "Partial application"]].
   *[[http://en.wikipedia.org/wiki/Anonymous_function|EN.Wikipedia "Anonymous function"]], [[http://de.wikipedia.org/wiki/Anonyme_Funktion|DE.Wikipedia "Anonyme Funktion"]].
 
 ===== Forums, Newsgroups =====

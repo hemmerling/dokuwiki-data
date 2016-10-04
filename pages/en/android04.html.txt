@@ -1,0 +1,76 @@
+====== [hemmerling] Google Android 4/7 - App Debugging ======
+Related page:
+Related pages:
+  *[[android.html|Google Android 1/7]].
+  *[[android02.html|Google Android 2/7 - Apps]].
+  *[[android03.html|Google Android 3/7 - App Development]].
+  *[[android05.html|Google Android 5/7 - Simulators, Skins, Operating Systems, System Images]].
+  *[[android06.html|Google Android 6/7 - App Protoyping]].
+  *[[android07.html|Google Android 7/7 - App Publishing]].
+  *[[testing.html|Testing]].
+  *[[unittest.html|Unit Test / Module Test]].
+===== Android Debugging Frameworks =====
+==== Android WebDriver of ADT ====
+  *[[http://android-developers.blogspot.de/2011/10/introducing-android-webdriver.html|Android Developers Blog "Introducing Android WebDriver"]].
+==== Android Testing Support Library: ( Espresso, uiautomator,...) ====
+  *[[http://developer.android.com/intl/pt-br/tools/testing-support-library/|Android Developers "Testing Support Library"]].
+  *[[http://google.github.io/android-testing-support-library/|GitHub.io "Android Testing Support Library"]].
+  *[[http://www.github.com/google/android-testing-support-library/|GitHub.io "Android Testing Support Library"]].
+  *[[http://android.googlesource.com/platform/frameworks/testing/+/android-support-test|Googlesource "Android / platform / frameworks / testing / + / android-support-test"]].
+==== Appium ====
+  *[[http://www.appium.io/|Appium]] - "An open source test automation framework for use with native, hybrid and mobile web apps. It drives iOS and Android apps using the WebDriver protocol".
+==== Calabash ====
+  *[[http://calaba.sh/|Calabash]] - "Automated acceptance testing for mobile apps".
+==== Robotium ====
+  *[[http://wwww.robotium.com/|RobotiumTech]], [[http://www.github.com/RobotiumTech|GitHub "RobotiumTech"]].
+  *Robotium is included with Android Studio and the ADT bundle :-).
+  *[[http://www.testdroid.com/|Testdroid]].
+    *The free [[http://testdroid.com/products/testdroid-recorder|Testdroid Recorder]] - "An awesome recording tool built with Robotium for test script creation. By performing actual actions on your real device, it records every step or action you take and converts to Javascript for your further modification".
+      *[[http://marketplace.eclipse.org/content/testdroid-recorder|Eclipse Marketplace "Testdroid Recorder"]].
+      *[[http://help.testdroid.com/customer/portal/topics/315855-testdroid-recorder-tutorials/articles|Testdroid Help "Testdroid Recorder Tutorials"]].
+      *[[http://www.testdroid.com/news/testdroid-recorder-a-free-product|Testdroid Blog "Testdroid Recorder Is A Free Product Now"]] - "We’re announcing today a free of charge Testdroid Recorder. Starting from today, you don’t need to buy a license for Testdroid Recorder anymore but it is now available from the Eclipse Marketplace (and Testdroid update site) and requires no license for its use". 
+      *[[http://www.youtube.com/watch?v=gBf-94WMlGs|YouTube "Testdroid Recorder Advanced"]].
+      *[[http://www.youtube.com/results?search_query=Testdroid+Recorder|YouTube - Search for "Testdroid Recorder"]].
+    *[[http://docs.testdroid.com/_pages/extsolo.html|Testdroid "ExtSolo Library"]] - "In addition, you are also entitled to fully download and utilize our Extension Library – ExtSolo. It includes useful methods that have not been merged into Robotium, for instance:
+      *Automatic scaling of x,y clicks for any resolution.
+      *Multi-path drags.
+      *Automatic screenshots on test failure.
+      *Mock locations.
+      *Change device language.
+      *Control WiFi connection.
+    *[[http://en.wikipedia.org/wiki/Testdroid|EN.Wikipedia "Testdroid"]].
+  *[[http://www.3pillarglobal.com/insights/mobile-testing-automated-testing-for-android-with-robotium|3PillarGlobal "Mobile Testing: Automated Testing for Android with Robotium"]].
+  *[[http://www.andreas-schrade.de/android/2014/05/21/android-einfuehrung-in-robotium/|Andreas Schrade "Android: Automatisiertes Testing mit Robotium"]].
+  *[[http://www.softwaretestinghelp.com/robotium-tutorial-android-application-ui-testing-tool/|Software Testing Help "Getting Started with Robotium - The Most Popular Android Application UI Testing Tool"]].
+  *[[http://www.vogella.com/tutorials/Robotium/article.html|Lars Vogel "Android user interface testing with Robotium - Tutorial"]].
+  *[[http://en.wikipedia.org/wiki/Robotium|EN.Wikipedia "Robotium"]].
+===== Resources =====
+  *[[http://www.testdroid.com/tech/top-5-android-testing-frameworks-with-examples|Testdroid "Top 5 Android Testing Frameworks (with Examples)"]].
+  *[[http://blog.ubertesters.com/12-most-common-reasons-why-apps-are-rejected-by-app-store/|Ubertester Blog "12 Most Common Reasons Why Apps Are Rejected By App Store"]].
+    -Apple is not a fan of one-purpose apps created for few hundreds of users.
+    -Plagiarism. Don’t even try to steal someone’s app idea or functionality or 'get inspired' by it. Ensure that your concept is original or at least improves an existing one, otherwise you will be marked as a 'Copycat'.
+    -Violating Apple’s In-App purchase rules.
+    -Submitting a 'demo' or 'beta version' of your app.
+    -Violating the Human Interface Guidelines.
+    -Slow apps.
+    -Bad localization.
+    -Abuse the iOS file system. Since iOS 5.1, data that can be saved in the iCloud is not allowed to be saved on a device.
+    -Steal the dragon’s gold: use Apple’s images.
+    -Forget about privacy policy.
+    -Bad description.
+    -Don’t mind the bugs.
+
+===== Literature =====
+  *Diego Torres Milano.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1849513503/hemmerling-21/|Diego Torres Milano: "Android Application Testing Guide"]], 2011 => First edition.
+      *The accompanying website [[http://www.packtpub.com/books/content/support/8262|PACKT Publishing, Code Downloads & Errata "Android Application Testing Guide"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1784395331/hemmerling-21/|Paul Blundell, Diego Torres Milano: "Learning Android Application Testing"]], 2015 - "First published: June 2011. Second edition: March 2015" => Second edition.
+      *The accompanying website [[http://www.packtpub.com/books/content/support/20792|PACKT Publishing, Code Downloads & Errata "Learning Android Application Testing"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/178216801X/hemmerling-21/|Hrushikesh Zadgaonkar: "Robotium Automated Testing for Android"]].
+    *Accompanying website [[http://www.packtpub.com/application-development/robotium-automated-testing-android|PACKT Publishing "Robotium Automated Testing for Android"]].
+http://www.amazon.de/Learning-Android-Application-Testing-Blundell/dp//ref=sr_1_1?s=books-intl-de&ie=UTF8&qid=1461748021&sr=1-1&keywords=Learning+Android+Application+Testing
+
+{{tag>"Google Android" Android}}
+<footnote_navi_en>
+
+

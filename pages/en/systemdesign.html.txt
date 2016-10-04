@@ -2,7 +2,7 @@
 Related pages:
   *[[metro.html|Flat Design]].
   *[[requirements.html|Requirements]].
-  *[[specbyex.html|Specification by Example]].
+  *[[specbyex.html|Specification by Example, Modelling by Example]].
   *[[sdocumentation.html|Software Documentation]].
   *[[testing.html|Testing]].
   *[[usability.html|Usability]].
@@ -11,9 +11,26 @@ Related pages:
   *[[http://www.incose.org/|International Council on Systems Engineering ( INCOSE )]].
   *[[http://www.iasaglobal.org/|International Association of Software Architects]] ( IASA ).
   *[[http://www.oose.de/|oose Innovative Informatik GmbH]], Hamburg.
+===== Best Practices for "Maintainable Code" & "Good Software Development Structure & Tools =====
+  *SOLID.
+  *Clean Code.
+  *Design Pattern.
+  *Encapsulation.
+  *Code Review. 
+  *DRY ( Don´t Repeat Yourself ).
+  *MVC / MVVM.
+  *Law of Demeter.
+  *TDD.
+  *Refactoring.
+  *4 Rules of Simple Design.
+  *KISS.
+  *Diagnostic Exception Handling.
+  *BUS-Factor ( how many team members must leave to kill the project...).
 ===== Education =====
   *[[http://www.oose.de/abendvortraege.html|oose Innovative Informatik GmbH]], Hamburg.
     *[[http://www.oose.de/abendvortraege.html|OOSE Abendvorträge]].
+===== Agile Development - Procedure Models / Process Models =====
+  *[[http://www.agile-development-framework.net/|Agile Development Framework]] by [[http://www.goloroden.de/|Golo Roden]].
 ===== Arc42 =====
   *"arc42 contains a template for development, documentation and communication of software architectures".
   *Book [[http://www.amazon.de/exec/obidos/ASIN/B00A9T7758/hemmerling-21|Peter Hruschka, Gernot Starke: "Zertifizierung für Softwarearchitekten - Ihr Weg zur iSAQB-CPSA-F Prüfung [Kindle Edition]"]].
@@ -21,8 +38,6 @@ Related pages:
   *[[http://www.arc42.org/|arc42 - Ressources for software architects]].
   *[[http://www.arc42.de/|arc42 - Resourcen für Software-Architekten]] ( German ).
     *Wiki [[http://confluence.arc42.org/|arc42 Wiki]] - "arc42 Templates (international...)".
-===== Agile Development - Procedure Models / Process Models =====
-  *[[http://www.agile-development-framework.net/|Agile Development Framework]] by [[http://www.goloroden.de/|Golo Roden]].
 ===== Command Query Responsibility Segregation ( CQRS ) & Event Sourcing ( ES ) =====
 ==== CQRS and the CAP Theorem / CAP Triangle ====
   *[[http://en.wikipedia.org/wiki/CAP_theorem|EN.Wikipedia "CAP theorem"]], [[http://de.wikipedia.org/wiki/CAP-Theorem|DE.Wikipedia "CAP-Theorem"]]
@@ -99,7 +114,25 @@ A Conversation with Bertrand Meyer, Part II"]], [[http://www.artima.com/intv/con
   *[[http://en.wikipedia.org/wiki/Design_by_contract|EN.Wikipedia "Design by contract"]], [[http://de.wikipedia.org/wiki/Design_by_contract|DE.Wikipedia "Design by contract"]].
 
 ===== Design Patterns =====
+==== Microservices ====
+  *With web applications built by Microservices, each Microservice is running in its own process ( i.e. with a Java engine, consuming 256 MB RAM ) and not just as Java task within a single Java engine. 
+    *At start of a Java engine, you may set the RAM memory allocation.
+  *So a 64-bit computer with 4 Gbyte of RAM is suitable to run about 10-12 Microservices.
+  *Every Microservice of a web applicatoin may be deployed on a different physical or virtual machine.
+  *The developers are forced to respect interfaces.
+  *Each Microservice may be developed by a different team.
+  *For very-large web applications, it might be useful if several Microservices are responsible for a single Web page ( controlled by a major Webservice ). For normal-size web applications, it's best if a single Web page is controlled by a single Microservice.
 ==== Patterns ====
+=== Flexibilty by Patterns ( Patterns which enable to create flexible Software ) ===
+  *Factory and Dependency.
+    *[[http://en.wikipedia.org/wiki/Factory_method_pattern|EN.Wikipedia "Factory method pattern"]], [[http://de.wikipedia.org/wiki/Fabrikmethode|DE.Wikipedia "Fabrikmethode"]].
+    *[[http://en.wikipedia.org/wiki/Dependency_inversion_principle|EN.Wikipedia "Dependency inversion principle"]], [[http://de.wikipedia.org/wiki/Dependency-Inversion-Prinzip|DE.Wikipedia "Dependency-Inversion-Prinzip"]].
+    *[[http://de.wikipedia.org/wiki/Dependency_Injection|EN.Wikipedia "Dependency Injection"]], [[http://de.wikipedia.org/wiki/Dependency_Injection|DE.Wikipedia "Dependency Injection"]].
+  *Strategy Pattern (  Policy Pattern ).
+    *[[http://en.wikipedia.org/wiki/Strategy_pattern|EN.Wikipedia "Strategy pattern"]], [[http://de.wikipedia.org/wiki/Strategie_%28Entwurfsmuster%29|EN.Wikipedia "Strategie (Entwurfsmuster)"]] - "According to the strategy pattern, the behaviors of a class should not be inherited. Instead they should be encapsulated using interfaces".
+  *Decorator Pattern.
+    *[[http://en.wikipedia.org/wiki/Decorator_pattern|EN.Wikipedia "Decorator pattern"]], [[http://de.wikipedia.org/wiki/Decorator|DE.Wikipedia "Decorator"]].
+=== Some other important Patterns ===
   *[[http://facebook.github.io/flux/|Github.io "Flux - Application Architecture for Building User Interfaces"]], [[http://www.github.com/facebook/flux|GitHub "facebook/flux"]] for Javascript.
     *[[http://www.fluxxor.com/what-is-flux.html|Fluxxor "What is Flux?"]].
     *[[http://medium.com/@amix3k/flux-vs-mvc-design-patterns-57b28c0f71b7#.aqd8edhwx|Amir Salihefendic "Flux vs. MVC"]] - "A look at how Facebook’s Flux pattern solves things differently, especially in relation to the Model-View-Controller (MVC) pattern".
@@ -143,6 +176,16 @@ A Conversation with Bertrand Meyer, Part II"]], [[http://www.artima.com/intv/con
   *[[http://www.fmc-modeling.org/|FMC - Home of Fundamental Modeling Concepts]].
   *[[http://de.wikipedia.org/wiki/Siegfried_Wendt|DE.Wikipedia "Siegfried Wendt"]].
   *[[http://en.wikipedia.org/wiki/Fundamental_modeling_concepts|EN.Wikipedia "Fundamental modeling concepts"]], [[http://de.wikipedia.org/wiki/Fundamental_Modeling_Concepts|DE.Wikipedia "Fundamental Modeling Concepts"]].
+===== Embedded Systems - The Evolution of System Design for Embedded Systems =====
+  -Assembly language.
+  -C.
+  -C++.
+  -Objectoriented Software design
+  -Advanced
+    -Interfaces instead of inheritance.
+    -State machines.
+    -Mockup.
+    -Application wireing.
 ===== Fully Communication Oriented Information Modeling ( FCO-IM ) =====
   *FCO-IM does not model reality, but it models the communications about reality :-).
   *[[http://www.fco-im.nl/|FCO-IM - Fully Communication Oriented Information Modeling]].
@@ -152,6 +195,14 @@ A Conversation with Bertrand Meyer, Part II"]], [[http://www.artima.com/intv/con
   *[[http://en.wikipedia.org/wiki/Functional_flow_block_diagram|EN.Wikipedia "Functional flow block diagram"]].
   *[[http://www.graffletopia.com/stencils/146|Graffletopia "kustere: Functional Flow Block Diagram (FFBD)"]].
   *[[http://www.threesl.com/pages/webletter-November06/eFFBD_Reference_Functions.php|3SL Cradle - November 2006 [Cradle 5.4]  "eFFBD Reference Functions"]] - "The symbols provided in  extended Function Flow Block Diagrams (eFFBDs) in the Essential and Implementation domains have been extended to include  reference functions".
+===== SOLID ( S.O.L.I.D ) =====
+  *[[http://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29|EN.Wikipedia "SOLID (object-oriented design)"]], [[http://de.wikipedia.org/wiki/Prinzipien_objektorientierten_Designs#SOLID-Prinzipien|DE.Wikipedia "Prinzipien objektorientierten Designs"]].
+    -[[http://en.wikipedia.org/wiki/Single_responsibility_principle|EN.Wikipedia "Single responsibility principle"]], [[http://de.wikipedia.org/wiki/Single-Responsibility-Prinzip|EN.Wikipedia "Single-Responsibility-Prinzip"]].
+    -[[http://en.wikipedia.org/wiki/Liskov_substitution_principle|EN.Wikipedia "Liskov substitution principle"]], [[http://de.wikipedia.org/wiki/Liskovsches_Substitutionsprinzip|EN.Wikipedia "Liskovsches Substitutionsprinzip"]].
+    -[[http://en.wikipedia.org/wiki/Interface_segregation_principle|EN.Wikipedia "Interface segregation principle"]], [[http://de.wikipedia.org/wiki/Liskovsches_Substitutionsprinzip|EN.Wikipedia "Liskovsches Substitutionsprinzip"]].
+    -[[http://en.wikipedia.org/wiki/Dependency_inversion_principle|EN.Wikipedia "Dependency inversion principle"]], [[http://de.wikipedia.org/wiki/Dependency-Inversion-Prinzip|EN.Wikipedia "Dependency-Inversion-Prinzip"]].
+
+
 ===== "Imperative Programming" vs "Declarative Programming" =====
 ==== Old-fashioned "Structured Programming" aka "Imperative Programming" ====
   *The commercial CASE TOOL [[http://www.easycase.at/|EasyCode]] ( formerly: SIEMENS EasyCase ).
@@ -177,48 +228,63 @@ A Conversation with Bertrand Meyer, Part II"]], [[http://www.artima.com/intv/con
   *Book [[http://www.amazon.de/exec/obidos/ASIN/0932633110/hemmerling-21|Derek J. Hatley, Imtiaz A. Pirbhai: "Strategies for Real Time System Specification"]], [[http://www.amazon.de/exec/obidos/ASIN/0932633048/hemmerling-21|Derek J. Hatley, Imtiaz A. Pirbhai: "Strategien für die Echtzeit - Programmierung"]].
   *[[http://www.dorsethouse.com/authors/pirbhai.html|Dorset House Publishing "Imtiaz A. Pirbhai"]].
 =====  Object Oriented Design, Object Oriented Programming =====
-  *Ports and Adapters.
-    *[[http://alistair.cockburn.us/Hexagonal+architecture|Alistair Cockburn "Hexagonal architecture"]] - "The Pattern: Ports and Adapters ('Object Structural')"#.
-      *Communication between different layers: "Think in slices, not in layers ( Lasagna )"!
-    *Dependency inversion principle.
-      *[[http://www.martinfowler.com/articles/injection.html|Martin Fowler "Inversion of Control Containers and the Dependency Injection pattern"]].
-      *[[http://en.wikipedia.org/wiki/Dependency_inversion_principle|EN.Wikipedia "Dependency inversion principle"]], [[http://de.wikipedia.org/wiki/Dependency-Inversion-Prinzip|DE.Wikipedia "Dependency-Inversion-Prinzip"]].
-      *[[http://en.wikipedia.org/wiki/Protocol_%28object-oriented_programming%29|EN.Wikipedia "Protocol (object-oriented programming)"]], [[http://en.wikipedia.org/wiki/Interface_%28Java%29|EN.Wikipedia "Interface (Java)"]], [[http://de.wikipedia.org/wiki/Schnittstelle_%28Objektorientierung%29|DE.Wikipedia "Schnittstelle (Objektorientierung)"]].
-      *[[http://en.wikipedia.org/wiki/Inversion_of_control|EN.Wikipedia "Inversion of control"]], [[http://de.wikipedia.org/wiki/Inversion_of_Control|DE.Wikipedia "Inversion of Control"]], [[http://en.wikipedia.org/wiki/Hollywood_principle|EN.Wikipedia "Hollywood principle"]] - "Don't call us, we'll call you"
-      *[[http://de.wikipedia.org/wiki/Liste_von_Dependency_Injection_Frameworks|DE.Wikipedia "Liste von Dependency Injection Frameworks"]].
-      *"Tell, don´t ask".
-        *[[http://www.martinfowler.com/bliki/TellDontAsk.html|Martin Fowler "TellDontAsk"]], 2013-09-15.
-        *[[http://www.pragprog.com/articles/tell-dont-ask|The Pragmatic Bookshelf "Tell, Don't Ask"]].
-        *[[http://gist.github.com/janernsting/913b40698f0e21a808a0|Github "janernsting / game_of_life_test.py"]]
-      *If your favourite object oriented programming language does not have "Interfaces", you may alternatively also use an "Abstract Class".
-  *Concepts of Javascript ( [[http://en.wikipedia.org/wiki/JavaScript|EN.Wikipedia "JavaScript"]], [[http://de.wikipedia.org/wiki/JavaScript|DE.Wikipedia "JavaScript"]] ):
-    *Prototype-based - "JavaScript uses prototypes ( [[http://en.wikipedia.org/wiki/Prototype-based_programming.|EN.Wikipedia "Prototype-based programming"]], [[http://de.wikipedia.org/wiki/http://de.wikipedia.org/wiki/Prototypenbasierte_Programmierung|DE.Wikipedia "Prototypenbasierte Programmierung"]] ) where many other object oriented languages use classes for inheritance":
-      *Prototypes.
-      *Functions as object constructors.
-      *Functions as methods.
+==== Dependency inversion principle ====
+=== Application Wireing Frameworks ===
+  *[[http://code.google.com/p/pococapsule/|Google Code "pococapsule. An IoC and DSM framework for C/C++ applications"]] - "PocoCapsule is an Inversion of Control (IoC) container, a.k.a Dependency Injection (DI) framework (see article IoC vs DI), as well as a Domain Specific Modeling (DSM) engine (see article DSM in IoC)".
+    *[[http://www.pocomatic.com/|Pocomatic Software]].
+      *[[http://www.pocomatic.com/docs/whitepapers/pococapsule-cpp/|Pocomatic Software "PocoCapsule/C++ IoC and DSM container"]].
+    *Blog [[http://pococapsule.blogspot.de/|PocoCapsule: IoC container for C++]].
+    *[[http://stackoverflow.com/questions/2479611/what-is-pococapsule-current-status|StackOverflow "What is PocoCapsule current status?"]] - "I have been looking for this myself for some time now, and came realize that there are no good IoC Containers in C++. There are a lot of problems implementing this. Getting something like the C# IoC Containers (Castle Windsor, Unity, etc.) is out of reach".
+    *[[http://www.github.com/shdwshard/PocoCapsule|GitHub "shdwshard/PocoCapsule"]] - "Poco Capsule Git Clone ".
+  *[[http://springframework.net/|Spring.NET Application Framework]].
+    *[[http://www.springframework.net/doc-latest/reference/html/objects.html|Spring.NET Documentation "Chapter 5. The IoC container"]].
+    *[[http://springframework.net/doc-latest/reference/html/quickstarts.html|Spring.NET Documentation "Chapter 37. IoC Quickstarts"]].
+=== Resources ===
+  *[[http://www.martinfowler.com/articles/injection.html|Martin Fowler "Inversion of Control Containers and the Dependency Injection pattern"]].
+  *[[http://en.wikipedia.org/wiki/Dependency_inversion_principle|EN.Wikipedia "Dependency inversion principle"]], [[http://de.wikipedia.org/wiki/Dependency-Inversion-Prinzip|DE.Wikipedia "Dependency-Inversion-Prinzip"]].
+  *[[http://en.wikipedia.org/wiki/Protocol_%28object-oriented_programming%29|EN.Wikipedia "Protocol (object-oriented programming)"]], [[http://en.wikipedia.org/wiki/Interface_%28Java%29|EN.Wikipedia "Interface (Java)"]], [[http://de.wikipedia.org/wiki/Schnittstelle_%28Objektorientierung%29|DE.Wikipedia "Schnittstelle (Objektorientierung)"]].
+  *[[http://en.wikipedia.org/wiki/Inversion_of_control|EN.Wikipedia "Inversion of control"]], [[http://de.wikipedia.org/wiki/Inversion_of_Control|DE.Wikipedia "Inversion of Control"]], [[http://en.wikipedia.org/wiki/Hollywood_principle|EN.Wikipedia "Hollywood principle"]] - "Don't call us, we'll call you"
+  *[[http://de.wikipedia.org/wiki/Liste_von_Dependency_Injection_Frameworks|DE.Wikipedia "Liste von Dependency Injection Frameworks"]].
+  *"Tell, don´t ask".
+    *[[http://www.martinfowler.com/bliki/TellDontAsk.html|Martin Fowler "TellDontAsk"]], 2013-09-15.
+    *[[http://www.pragprog.com/articles/tell-dont-ask|The Pragmatic Bookshelf "Tell, Don't Ask"]].
+    *[[http://gist.github.com/janernsting/913b40698f0e21a808a0|Github "janernsting / game_of_life_test.py"]]
+  *If your favourite object oriented programming language does not have "Interfaces", you may alternatively also use an "Abstract Class".
+==== Javascript - Concepts of Javascript ====
+  *[[http://en.wikipedia.org/wiki/JavaScript|EN.Wikipedia "JavaScript"]], [[http://de.wikipedia.org/wiki/JavaScript|DE.Wikipedia "JavaScript"]].
+  *Prototype-based - "JavaScript uses prototypes ( [[http://en.wikipedia.org/wiki/Prototype-based_programming.|EN.Wikipedia "Prototype-based programming"]], [[http://de.wikipedia.org/wiki/http://de.wikipedia.org/wiki/Prototypenbasierte_Programmierung|DE.Wikipedia "Prototypenbasierte Programmierung"]] ) where many other object oriented languages use classes for inheritance":
+    *Prototypes.
+    *Functions as object constructors.
+    *Functions as methods.
     *Implicit and Explicit Delegation - JavaScript is a Delegation Language ( [[http://en.wikipedia.org/wiki/Delegation_%28programming%29|EN.Wikipedia "Delegation (programming)"]], [[http://de.wikipedia.org/wiki/Delegation_%28Softwareentwicklung%29|DE.Wikipedia "Delegation (Softwareentwicklung)"]] )
-      *Functions as Roles ( Traits and Mixins ).
-        *[[http://gist.github.com/petsel/7677638|GitHub "petsel / The many »Talents« of JavaScript"]].
-      *Type Composition and Inheritance.
+    *Functions as Roles ( Traits and Mixins ).
+      *[[http://gist.github.com/petsel/7677638|GitHub "petsel / The many »Talents« of JavaScript"]].
+==== Object Calisthenics ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/193435614X/hemmerling-21|ThoughtWorks Inc.: "The ThoughtWorks Anthology: Essays on Software Technology and Innovation"]].
+  *[[http://www.markhneedham.com/blog/2008/11/06/object-calisthenics-first-thoughts/|Mark Needham - Thoughts on Software Development "Object Calisthenics: First thoughts"]].
+  *Rules.
+    -Use only one level of indentation per method.
+    -Don’t use the else keyword.
+    -Wrap all primitives and strings.
+    -Use only one dot per line.
+    -Don’t abbreviate.
+    -Keep all entities small.
+    -Don’t use any classes with more than two instance variables.
+    -Use first-class collections.
+    -Don’t use any getters/setters/properties.
+==== Object-relational Mapping ====
+  *[[http://www.medium.com/@johnkevinmbasco/domain-models-that-are-100-ignorant-of-persistence-and-orm-unaware-d8f7a8253c7b|Medium, John Kevin M. Basco "Hexagonal Architecture: Domain Models that are 100% ignorant of persistence and ORM unaware"]].
+  *[[http://en.wikipedia.org/wiki/Object-relational_mapping|EN.Wikipedia "Object-relational mapping"]], [[http://de.wikipedia.org/wiki/Objektrelationale_Abbildung|DE.Wikipedia "Objektrelationale Abbildung"]].
+  *[[http://en.wikipedia.org/wiki/List_of_object-relational_mapping_software|EN.Wikipedia "List of object-relational mapping software"]].
+==== Type Composition and Inheritance ====
   *[[http://www.holub.com/|Allen I. Holub]].
     *[[http://www.holub.com/publications/notes_and_slides/|Allen I. Holub "Course Notes and Slides by Allen Holub"]].
       *[[http://www.holub.com/publications/other/bankofallen.html|Allen I. Holub "The Bank-of-Allen Project: The OO-Design Process from Conception to Modeling"]].
-  *Object Calisthenics.
-    *Book [[http://www.amazon.de/exec/obidos/ASIN/193435614X/hemmerling-21|ThoughtWorks Inc.: "The ThoughtWorks Anthology: Essays on Software Technology and Innovation"]].
-    *[[http://www.markhneedham.com/blog/2008/11/06/object-calisthenics-first-thoughts/|Mark Needham - Thoughts on Software Development "Object Calisthenics: First thoughts"]].
-    *Rules.
-      -Use only one level of indentation per method.
-      -Don’t use the else keyword.
-      -Wrap all primitives and strings.
-      -Use only one dot per line.
-      -Don’t abbreviate.
-      -Keep all entities small.
-      -Don’t use any classes with more than two instance variables.
-      -Use first-class collections.
-      -Don’t use any getters/setters/properties.
+==== Ports and Adapters ====
+  *[[http://alistair.cockburn.us/Hexagonal+architecture|Alistair Cockburn "Hexagonal architecture"]] - "The Pattern: Ports and Adapters ('Object Structural')"#.
+    *Communication between different layers: "Think in slices, not in layers ( Lasagna )"!
 ===== Resource-oriented Computing =====
   *[[http://en.wikipedia.org/wiki/Resource-oriented_computing|EN.Wikipedia "Resource-oriented computing"]].
-
 ===== Clean Software Installation =====
 ==== Sideloading ====
   *[[http://en.wikipedia.org/wiki/Sideloading|EN.Wikipedia "Sideloading"]].
@@ -229,6 +295,8 @@ A Conversation with Bertrand Meyer, Part II"]], [[http://www.artima.com/intv/con
   *[[http://www.techradar.com/news/software/operating-systems/microsoft-signature-is-shameful-1091514|TechRadar "Microsoft Signature is shameful. Signature is Windows 7 as it should be sold anyway"]].
 =====  ITU-T Specification and Description Language (SDL) =====
 <WRAP tip>[[sdl.html|ITU-T Specification and Description Language (SDL)]]</WRAP>
+===== Specification by Example =====
+<WRAP tip>[[specbyex.html|Specification by Example]]</WRAP>
 ===== Story Driven Modeling ( SDM ) =====
 ==== Example "Mensch-Ärgere-Dich-Nicht" ====
   -Textual use case description, of [[http://de.wikipedia.org/wiki/Mensch_%C3%A4rgere_Dich_nicht|DE.Wikipedia "Mensch ärgere Dich nicht"]].
@@ -248,8 +316,6 @@ A Conversation with Bertrand Meyer, Part II"]], [[http://www.artima.com/intv/con
     *The commercial [[http://www.yatta.de/| Yatta Solutions GmbH "UML LAB"]] - "Round-Trip-Engineering. Intuitive class diagram editor. Individual CodeStyles".
   *[[http://www.ifib.uni-oldenburg.de/35939.html|Prof. Dr. Ira Diethelm]].
   *Maybe there will be a book about this topic by Albert Zündow and [[http://www.ulno.net/|Ulrich Norbisrath]] in the future ?!
-===== Specification by Example =====
-<WRAP tip>[[specbyex.html|Specification by Example]]</WRAP>
 ===== Style Guides =====
 ==== Apple ====
   *[[http://developer.apple.com/resources/|Apple Developer "Resources for Apple Developers"]].
@@ -302,7 +368,7 @@ A Conversation with Bertrand Meyer, Part II"]], [[http://www.artima.com/intv/con
     *[[http://thedailywtf.com/Articles/The_Spider_of_Doom.aspx|The Daily WTF - Curious Perversions in Information Technology "Alex Papadimoulis: The Spider of Doom"]], 2006-03-28.
 ===== Forums, Newsgroups, Communities =====
   *[[http://groups.google.com/group/de.comp.objekt|Google Groups "de.comp.objekt"]].
-  *[[http://groups.google.com/group/dddcqrs|Google Groups "DDD/CQRS"]].
+  *[[http://groups.google.com/group/dddcqrs|Google Groups "DDD/CQRS"]], [[http://groups.google.com/group/pococapsule|Google Groups "pococapsule"]].
   *[[http://www.modeldrivensoftware.net/|The Model Driven Software Network]].
   *[[http://en.pudn.com/|PUDN - Programmers United Develop Art]] -"After registration, you should [upload] more than five source codes or program documents, then your account will be activated after the codes been checked by administrator".
   *[[http://forums.thedailywtf.com/Forums/|The Daily WTF - Curious Perversions in Information Technology, Forums]].

@@ -1,16 +1,17 @@
 ====== [hemmerling] Microsoft Windows ======
 Related pages:
   *[[dos.html|DOS, Microsoft MSDOS, Digital Research DR-DOS, OpenDOS]].
-  *[[win9x.html|Windows 3.x , Windows 9.x, Windows ME]].
-  *[[winxp.html|Windows 2000, Windows XP, Windows 2003 Server]].
-  *[[win7.html|Windows Vista, Windows 7, Windows 2008 Server, Windows 8]].
-  *[[winembedded.html|Windows Embedded, Windows Embedded CE]].
-  *[[windowsphone.html|Windows Phone]].
   *[[metro.html|Modern UI Design]].
   *[[windeveloper.html|Software Development for Windows]].
   *[[dotnet.html|Microsoft .NET Framework 1/2]].
   *[[dotnet02.html|Microsoft .NET Framework 2/2]].
   *[[software.html|Software]].
+  *[[installcontrol.html|Software Installation as well as Desired State Control & State Monitoring of Software]].
+  *[[win9x.html|Windows 3.x , Windows 9.x, Windows ME]].
+  *[[winxp.html|Windows 2000, Windows XP, Windows 2003 Server]].
+  *[[win7.html|Windows Vista, Windows 7, Windows 2008 Server, Windows 8]].
+  *[[winembedded.html|Windows Embedded, Windows Embedded CE]].
+  *[[windowsphone.html|Windows Phone]].
 ===== Microsoft - The Company =====
   *[[http://www.microsoft.com/|Microsoft]].
   *[[http://www.microsoft.de/|Microsoft Deutschland GmbH]], [[http://www.microsoft.com/de-de/|Microsoft Deutschland GmbH]].
@@ -36,13 +37,7 @@ Related pages:
         *[[http://support.microsoft.com/kb/896054/EN-US/|Microsoft Help and Support "You cannot open remote content by using the InfoTech protocol after you install security update 896358, security update 840315, or Windows Server 2003 Service Pack 1]].
         *[[http://support.microsoft.com/kb/896358/DE/|Microsoft Hilfe und Support "MS05-026: Sicherheitsanfälligkeit in HTML-Hilfe kann Remotecodeausführung ermöglichen"]].
   *[[http://www.nirsoft.net/|Nirsoft]] by Nir Sofer.
-  *Regshot for Windows.
-    *The OpenSource Windows Registry Management tool [[http://regshot.sourceforge.net/|SourceForge "regshot"]], [[http://www.sourceforge.net/projects/regshot/|SourceForge "regshot"]] 1.8.2.
-    *[[http://wayback.archive.org/web/*/http://regshot.ru/|Archive.org "regshot.ru"]] ( - 2010 ).
-      *[[http://www.mediafire.com/?8r1ikb57217und5||MediaFire "Regshot 2.0.1.70"]].
-      *[[http://www.winpenpack.com/en/download.php?view.1170|winPenPack "X-Regshot-2 2.0.1.70 [rev4]"]].
   *The free [[http://www.quest.com/spotlight-on-windows/|Quest "Spotlight on Windows"]], for Windows.
-  *The free Windows Registry Management tool [[http://www.vtaskstudio.com/support.php|Vista Software "WhatChanged"]] for Windows.
   *[[http://technet.microsoft.com/sysinternals/|Windows Systernals]].
     *[[http://technet.microsoft.com/en-us/sysinternals/bb897434.aspx|Windows Systernals "ZoomIt"]].
       *ZoomIt requires [[http://www.microsoft.com/download/en/details.aspx?DisplayLang=en&id=18909|GDI+]] ( must be installed separately on W2k, just copy "gdiplus.dll" to "C:\WINNT\system32\gdiplus.dll" ).
@@ -56,6 +51,7 @@ Related pages:
   *[[http://www.microsoft.com/downloads/en/details.aspx?familyid=9d467a69-57ff-4ae7-96ee-b18c4790cffd&displaylang=en|Microsoft Download Center "Windows Server 2003 Resource Kit Tools"]].
   *[[http://technet.microsoft.com/de-de/windowsserver/bb405955.aspx|Microsoft Technet, Windows Server "Windows Server 2003-Tools"]].
 ===== Windows Update / Patch Management =====
+  *[[http://support.microsoft.com/en-us/help/14162/windows-service-pack-and-update-center|Microsoft Support "Service Pack and Update Center"]] # for Win7, Win8.x, Win10,...
   *"Windows Server Update Services" ( WSUS ).
     *If you operate a Windows server at your home, you may let it load all updates for certain versions of Microsoft Product ( e.g. Windows operating systems ) at this central resource, and then to source updates from it for all other ( Windows ) devices.
     *[[http://technet.microsoft.com/en-us/windowsserver/bb332157.aspx|Microsoft TechNet "Windows Server Update Services"]].
@@ -154,6 +150,11 @@ Related pages:
   *<del>[[http://www.microsoft.com/betaexperience/|Microsoft Beta Experience]]</del>.
   *[[http://connect.microsoft.com/|Microsoft Connect - Ihr Feedback zur Verbesserung von Microsoft-Produkten]].
 ===== Sales =====
+==== Getting the Serial Key =====
+  *The free "Windows Product Key Viewer" by "[[http://forums.mydigitallife.info/members/204242-woot332|woot332]]" for WinXP, Win7, Win8, Win10.
+    *[[http://www.chip.de/downloads/Windows-Product-Key-Viewer_58663752.html|CHIP "Windows Product Key Viewer"]], version 1.5.0.
+    *[[http://www.wintotal.de/softwarearchiv/?id=7357|WIN Total - das Windows Portal "Windows 10 Product Key Viewer Version: 1.5.1"]].
+    *[[http://forums.mydigitallife.info/threads/30363-Windows-9-Product-Key-Viewer|My Digital Life Forum (MDL), Thread "Windows 9 Product Key Viewer"]], 2011-11-18.
 ==== Product Activation =====
   *[[http://support.microsoft.com/kb/950929/de#|Microsoft GmbH "Aktivieren von Microsoft Windows Hilfe"]].
   *[[http://www.microsoft.com/de-de/licensing/vertragskunden/activation-center.aspx|Microsoft "Volume Licensing für Unternehmen"]] - Windows activation, also for non-volume licenses, by phone +49 800 284 8283, press then the "1" key for private customers.
@@ -166,17 +167,17 @@ Related pages:
     *[[http://answers.microsoft.com/de-de/windows/forum/windows_8-windows_install/ich-m%C3%B6chte-eine-windows-8-pro-lizenz-gekauft/b6da91f0-2131-4e12-8e3b-f445008228c6?tm=1414772234864|Microsoft Community - Windows Support "Ich möchte eine 'WIndows 8 Pro' Lizenz, gekauft im Retail-Pappköfferchen ( Kein OEM ) auf einen anderen Computer übertragen - wie mache ich das ?"]] - "Eine normale Retail Version installierst du einfach auf dem neuen PC und wenn sie sich nicht online aktivieren lässt, aktivierst du sie telefonisch. Vermutlich wird dabei gefragt, auf wie vielen PCs sie installiert ist, wobei die Antwort da ja offiziell 'einer' lauten kann".
     *[[http://answers.microsoft.com/de-de/windows/forum/windows_8-windows_install/habe-ein-upgrade-key-der-nach-neuinstalation-nicht/46e1763f-5c41-43c2-acb7-4f970d692d77|Microsoft Community - Windows Support "habe ein Upgrade-Key der nach Neuinstalation nicht mehr gültig ist"]].
       *"'HKEY_LOCAL_MACHINE/Software/Microsoft/Windows/CurrentVersion/Setup/OOBE' - 'Setze dort den Wert von MediaBootInstall von 1 auf 0. Starte dann eine Eingabeaufforderung als Admin (Win+X drücken) und führe den Befehl 'slmgr.vbs -rearm' aus und starte dann neu'".
-
-.
-
+        *[[http://www.google.de/search?q=slmgr.vbs|Google - Search for "slmgr.vbs"]].
 ==== Large Account Reseller (LAR) for Germany ====
   *Bechtle, Cancom, COMPAREX, Computacenter, Datalog, Fritz & Macziol, PC-Ware.
 ==== Appstores ====
   *[[http://www.appup.com/|Intel AppUp Center]].
 ==== Resources ====
   *[[http://www.channelpartner.de/unternehmenundmaerkte/systemhaeuser/254409/|ChannelPartner "Zwei neue Large Account Reseller"]].
-===== Windows 10 =====
-  *[[http://insider.windows.com/|Windows Insider]].
+===== Literature =====
+  *[[http://blogs.technet.microsoft.com/austria/2016/06/30/viele-freie-ebooks-von-microsoft-press/|TechNet Team Blog Austria  "Viele freie eBooks von Microsoft Press"]], 2016-06-30.
+  *[[http://blogs.msdn.microsoft.com/mssmallbiz/2016/07/10/free-thats-right-im-giving-away-millions-of-free-microsoft-ebooks-again-including-windows-10-office-365-office-2016-power-bi-azure-windows-8-1-office-2013-sharepoint-2016-sha/|
+Microsoft Director of Sales Excellence - Eric Ligman. Eric Ligman, Microsoft Director of Sales Excellence Blog "FREE! That’s Right, I’m Giving Away MILLIONS of FREE Microsoft eBooks again! Including: Windows 10, Office 365, Office 2016, Power BI, Azure, Windows 8.1, Office 2013, SharePoint 2016, SharePoint 2013, Dynamics CRM, PowerShell, Exchange Server, System Center, Cloud, SQL Server and more!"]], 2016-07-10.
 ===== Resources =====
   *[[http://www.it-training-grote.de/nt_faq.php|IT Training-Grothe "Windows NT / 2K / 2K3 / / 2K8 / XP / Vista / 7 / MS-Windows Server System FAQ"]] - free PDF.
   *[[http://www.gregorybraun.com/MSWinErr.html|Gregory Braun "MS Windows Error Messages"]].
@@ -209,7 +210,6 @@ Related pages:
   *[[http://forums.wsusoffline.net/|Forums.WSUoffline.net - Forums for questions, problems and suggestions concerning WSUS Offline Update]].
     *[[http://forums.wsusoffline.net/viewtopic.php?f=6&t=3520&p=10585&hilit=w2k#p10585|Forums.WSUoffline.net - Forums for questions, problems and suggestions concerning WSUS Offline Update "Windows 2000 workaround?"]].
     *[[http://forums.wsusoffline.net/viewtopic.php?f=4&t=3683|Forums.WSUoffline.net - Forums for questions, problems and suggestions concerning WSUS Offline Update "Win7: WSUSOU legt Konto an, das aktiv bleibt"]] -> Solution if the temporary user account is not deleted by the update script: Just execute the script "C:\Program Files\wsusoffline\client\cmd\CleanupRecall.cmd" and reboot the computer afterwards :-).
-
 ===== Appropriate OpenDirectory Directory Pages =====
   *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Microsoft_Windows/|OpenDirectory "Top: Computers: Software: Operating Systems: Microsoft Windows"]].
 {{tag>Windows WinXP W2k "Windows 2000" Vista "Windows 7"}}

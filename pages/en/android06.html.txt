@@ -1,0 +1,661 @@
+====== [hemmerling] Google Android 6/7 - App Protoyping ======
+Related pages:
+  *[[android.html|Google Android 1/7]].
+  *[[android02.html|Google Android 2/7 - Apps]].
+  *[[android03.html|Google Android 3/7 - App Development]].
+  *[[android04.html|Google Android 4/7 - App Debugging & Testing]].
+  *[[android05.html|Google Android 5/7 - Simulators, Skins, Operating Systems, System Images]].
+  *[[android07.html|Google Android 7/7 - App Publishing]].
+  *[[linkeddata.html|Linked Data & Linked Open Data ( LOD )]].
+  *[[prototype.html|Rapid Software Application and GUI Prototyping]].
+===== MIT App Inventor ( for Android ) =====
+==== The Project ====
+  *The OpenSource [[http://appinventor.mit.edu/|MIT "MIT App Inventor"]], [[http://www.appinventor.org/|Appinventor.org]] for Internet browsers.
+      *To use App Inventor for Android, you must use a compatible browser. In 2016-04, the supported browsers are:
+        *Google Chrome 29+.
+        *Safari 5+. 
+        *Firefox 23+.
+      *Opera 20+ works somehow too ( not 100% properly display ), while MSIE is not supported.
+  *For developers:
+    *[[http://appinventor.mit.edu/appinventor-sources/|MIT App Inventor. MIT App Inventor Public Open Source]], [[http://www.github.com/mit-cml/appinventor-sources|GitHub "mit-cml/appinventor-sources"]].
+    *[[http://docs.google.com/document/d/1hIvAtbNx-eiIJcTA2LLPQOawctiGIpnnt0AvfgnKBok/pub|Google Docs "App Inventor Developer Overview"]].
+    *[[http://docs.google.com/document/d/1Xc9yt02x3BRoq5m1PJHBr81OOv69rEBy8LVG_84j9jc/pub|Google Docs "How to build App Inventor from the MIT sources"]].
+  *Blog [[http://appinventor.mit.edu/explore/news-events|MIT "MIT App Inventor News & Events"]].
+  *[[http://www.twitter.com/MITAppInventor|Twitter "MIT App Inventor, @MITAppInventor"]].
+==== IDE, implemented as Online Service ====
+  *The discontinued service [[http://beta.appinventor.mit.edu/|MIT "App Inventor 1"]] ( - 2015-07-15 ).
+  *The free online service [[http://ai2.appinventor.mit.edu/|MIT "App Inventor 2 Beta"]].
+  *The free online service [[http://extension-test.appinventor.mit.edu/|MIT "App Inventor 2 Extention Test Server"]].
+    *[[http://groups.google.com/forum/#!msg/mitappinventortest/Ip2AX036d0U/5NJlAEbFCgAJ|Google Groups "MIT App Inventor Forum", Thread "Announcing App Inventor Extension Components"]], 2015-08-04.
+  *[[http://ai2.appinventor.mit.edu/reference/other/backpack.html|MIT "Backpack: Copy and Paste Blocks to Different Screens and Projects"]].
+==== IDE, implemented as Android App ====
+  *[[http://play.google.com/store/apps/details?id=edu.mit.appinventor.ai2|Google Play, Solumony Team "App Inventor 2"]].
+==== The "Runtime" implemented as Android App ====
+  *[[http://play.google.com/store/apps/details?id=edu.mit.appinventor.aicompanion3|Google Play,  MIT Center for Mobile Learning Education "MIT AI2 Companion"]] - The official runtime.
+==== Online Cloud Services for Storage =====
+=== General ====
+  *[[http://ai2.appinventor.mit.edu/reference/components/storage.html|MIT App Inventor 2 "Storage - App Inventor for Android"]].
+=== Google Fusion Tables ====
+  *[[http://drive.google.com/|Google Drive]] - Login for "Google Fusion Tables".
+  *[[http://developers.google.com/fusiontables/|Google Developers "Fusion Tables REST API"]].
+  *[[http://www.google.com/fusiontables/data?dsrcid=implicit|Google Fusiontables "Import new table"]] to start your own application.
+  *[[http://support.google.com/fusiontables|Google Fusion Tables Help]].
+    *[[http://support.google.com/fusiontables/answer/184641|Google Fusion Tables Help "Create with Fusion Tables"]].
+    *[[http://www.google.com/fusiontables/|Google Fusiontables ( http://www.google.com/fusiontables )]], [[http://support.google.com/fusiontables/answer/2571232|Google Fusion Tables Help, Answers "About Fusion Tables"]].
+  *[[http://sites.google.com/site/fusiontablestalks/stories|Google Drive "Fusion Tables Example Gallery"]].
+  *[[http://en.wikipedia.org/wiki/Google_Fusion_Tables|EN.Wikipedia "Google Fusion Tables"]].
+=== TinyDB & The App Inventor Online Demo Service ( based on TinyDB ) ====
+  *[[http://appinvtinywebdb.appspot.com/|App Inventor for Android: Tiny WebDB Service]] - "This service is only a demo. The database will store at most 250 entries; adding entries beyond that will cause the oldest entries to be deleted. Also, individual data values are limited to at most 500 characters".
+  *[[http://appinventor.mit.edu/explore/content/custom-tinywebdb-service.html|MIT App Inventor "Custom TinyWebDB Service"]].
+  *Your tags are visible to all other global users, so you have to define tags with unique application-specific name for your own application. I.e. don´t use "demo", "test",.. :-).
+  *Derek Walter, Mark Sherman: "Any  data tha you put in a TinyWebDB - even if you create your own service -  can possibly be read by anyone... Additionally anyone can cal the erase command in TinyWebDB  bcause that comamnd doues not require a passwod, either".
+=== Resources ====
+  *[[http://www.smalldatajournalism.com/projects/one-offs/mapping-with-fusion-tables/|small datajournalism "Intro to Data Mashing and Mapping with Google Fusion Tables. How to turn spreadsheets into interactive maps"]].
+  *[[http://www.mulinblog.com/google-maps-tutorial-part-1-what-fusion-tables-is-and-does/|MulinBlog: A digital communication blog "Google maps tutorial (part 1/5): What Fusion Tables is and does"]].
+
+==== The legacy discontinued App Inventor 1 for Windows, Linux and MacOSX ====
+  *[[http://code.google.com/archive/p/app-inventor-for-android/|Google Code Archive "app-inventor-for-android"]], 2010.
+==== App Inventor 2 Setup on Windows, Linux and MacOSX ====
+  *[[http://appinventor.mit.edu/explore/ai2/windows.html|MIT "Installing App Inventor 2 Setup on Windows"]].
+  *[[http://appinventor.mit.edu/explore/ai2/linux.html|MIT "Installing App Inventor 2 Setup on GNU/Linux"]].
+  *[[http://appinventor.mit.edu/explore/ai2/mac.html|MIT "Installing App Inventor 2 Setup on Mac OS X "]].
+  *There is a free client on the client computer, "aiStarter", which enables the online service to upload applications to your local Android device or local Android simulator :-).
+    *"The local client server "aiStarter" which communicates with the Online Service & with the Android Simulator.
+    *The "ai2starter" webserver is running at [[http://127.0.0.1:8004/|127.0.0.1:8004]].
+    *The "App Inventor 2 Setup" is shipped with a complete ( slow ) Android device simulator.
+      *The Windows edition of Android device simulator is for Win32-bit and Win64-bit. 
+      *If you got some other ( faster ) Android device simulator installed, and if such is running, e.g. permanently as background task like BlueStacks on Windows, or in the foreground as standard Windows application, it is used automatically instead of the shipped Android device simulator.
+  *Utilities and components of AI2 ( to be started separately, e.g. by supplied batch files ) are at "C:\Program Files (x86)\AppInventor\commands-for-appinventor".
+  *[[http://appinventor.mit.edu/explore/content/windows-drivers.html|MIT "Windows Drivers for Android Phones"]].
+    *The "App Inventor Extras" were a former name for  bundle of necessary USB drivers and software to make your computer aware of and connect to the smartphone. Don´t look for it, it's outdated and legacy.
+    *[[http://developer.android.com/studio/run/oem-usb.html|Android Developers, Android Studio User Guide "Install OEM USB Drivers"]].
+    *[[http://stuff.mit.edu/afs/sipb/project/android/docs/tools/extras/oem-usb.html|MIT, Android Developers "OEM USB Drivers"]].
+    *[[http://www.google.de/search?q=android+developer+oem|Google - Search for "android developer oem"]].
+
+==== Literature about "App Inventor 1" ====
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1458379795/hemmerling-21|Eric Hamilton "Tech Empowerment: Android App 
+  *Inventor"]], 2011.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1430232439/hemmerling-21|Lucas Jordan "Practical Android Projects"]], 2011.
+  *Jörg H. Kloss.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0321812700/hemmerling-21|Jorg H. Kloss "Android Apps with App Inventor: The Fast and Easy Way to Build Android Apps"]], 2012.
+      *The accompanying website [[http://www.informit.com/title/9780321812704|PEARSON InformIT "Android Apps with App Inventor: The Fast and Easy Way to Build Android Apps"]], [[http://www.informit.com/store/android-apps-with-app-inventor-the-fast-and-easy-way-9780321812704|PEARSON InformIT "Android Apps with App Inventor: The Fast and Easy Way to Build Android Apps"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3827246997/hemmerling-21|Jorg H. Kloss "Android-Apps - Programmierung für Einsteiger: Mobile Anwendungen entwickeln mit App Inventor"]], 2012.
+      *The accompanying website [[http://web.archive.org/web/*/http://www.mut.de/24699|Archive.org "Markt&Technik 'Android-Apps - Programmierung für Einsteiger'"]]. No downloads anymore :-(.
+      *Major apps:
+        *Twitter ( page 540ff ).
+        *BarcodeScanner ( page 541ff ).
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1285733339/hemmerling-21|Lakshmi Prayaga, Jeffrey Hawthorne, Alex Whiteside "Android App Inventor for the Absolute Beginner"]], 2013.
+  *[[http://www.programmersinstitute.com/|Programmers Institute]].
+    *The free Kindle E-Book [[http://www.amazon.de/exec/obidos/ASIN/B00B3EG6W8/hemmerling-21|Programmers Institute "Android Programming with MIT App Inventor"]], 2013.
+    *[[http://www.youtube.com/user/ProgrammersInstitute|YouTube "Programmers Institute"]].
+      *[[http://www.youtube.com/playlist?list=PL70754D898A8F6FF4|Android Playlist "Android Programming for Absolute Beginners"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1849692122/hemmerling-21|Ralph Roberts "Google App Inventor"]], 2011.
+  *The Kindle E-Book [[http://www.amazon.de/exec/obidos/ASIN/B00B1VD9QO/hemmerling-21|James Sherar, Justin Pot, Angela Alcorn "Make Your Own Android App: Your Unofficial Intro To MIT App Inventor"]], 2013.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1119991331/hemmerling-21|Jason Tyler "App Inventor for Android: Build Your Own Apps - No Experience Required!"]], 2011.
+    *The accompanying website [[http://www.wiley.com/go/appinventorandroid|Wiley "App Inventor for Android: Build Your Own Apps - No Experience Required!"]], [[http://eu.wiley.com/WileyCDA/WileyTitle/productCd-1119991331.html|Wiley "App Inventor for Android: Build Your Own Apps - No Experience Required!"]].
+    *[[http://web.archive.org/web/*/http://android.jwtyler.com/Tutorials.html|Archive.org "J.W. Tyler Android Acccess"]] ( - 2014-02-11 ) - Video tutorials.
+    *[[http://www.youtube.com/user/jwtyler/|YouTube "Jason Tyler"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1449397484/hemmerling-21|David Wolber, Hal Abelson, Ellen Spertus, Liz Looney "App Inventor"]], 2011.
+    *The accompanying website and blog [[http://www.appinventorblog.com/|David Wolber "App Inventor Blog. Learn it. Teach in. Build Apps"]].
+    *The accompanying website [[http://www.appinventorapi.com/|David Wolber "App Inventor API"]].
+    *The accompanying download website [[http://examples.oreilly.com/0636920016632|O’Reilly Media, Inc. "David Wolber, Hal Abelson, Ellen Spertus, Liz Looney - App Inventor 2"]].
+==== Literature about "App Inventor 2" ====
+  *The Kindle E-Book [[http://www.amazon.de/exec/obidos/ASIN/B00TOWSW14/hemmerling-21|Hossein Amerkashi "Absolute App Inventor 2: Android Programming for all ages"]], 2015.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1617291439/hemmerling-21|Paula Beer, Carl Simmons "Hello! App Inventor: Android programming for kids and the rest of us"]] for "App Inventor 2", 2014 ( not available in TIB :-( ).
+  *Tony Gaddis, Rebecca Halsey.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0132955261/hemmerling-21|Tony Gaddis, Rebecca Halsey "Starting Out with App Inventor for Android"]] for "App Inventor 2", ISBN 0132955261, 671 pages, 2014-11.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1292080329/hemmerling-21|Tony Gaddis, Rebecca Halsey "Starting Out with App Inventor for Android"]] for "App Inventor 2", ISBN 1292080329, 696 pages, Global Edition 2015.
+      *The accompanying website [[http://www.pearsonglobaleditions.com/Gaddis|Pearson Higher Education Global Editions "Gaddis"]], [[http://www.pearsonglobaleditions.com/Sitemap/Gaddis/|Pearson Higher Education Global Editions "Gaddis"]] - "Your new textbook provides 12-month access to digital resources... This access code can only be used once... This prepaid subscription does not include acccess to [[http://www.MyProgrammingLab.com/|MyProgrammingLab]].
+  *The Kindle E-Book [[http://www.amazon.de/exec/obidos/ASIN/B01ASB6D2O/hemmerling-21|Magesh Jayakumar "Arduino and Android using MIT app inventor 2.0: Learn in a day (book for everyone from children to adults)"]], 2016.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1785281100/hemmerling-21|Felicia Kamriani, Krishnendu Roy "App Inventor 2 Essentials"]], 2016.
+    *The accompanying website [[http://www.packtpub.com/books/content/support/23714|PACKT Publishing, Code Downloads & Errata "App Inventor 2 Essentials"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1840786299/hemmerling-21|Mike McGrath "Building Android Apps in Easy Steps: Covers App Inventor 2"]], 2014.
+    *The accompanying website [[http://www.ineasysteps.com/|In Easy Steps Smart Learning with In Easy Steps]].
+      *[[http://www.ineasysteps.com/resource-centre/downloads/|In Easy Steps Smart Learning with In Easy Steps "Downloads"]]
+        *"Building Android Apps in easy steps, 2nd edition, 
+          *All code examples (batch 1).   
+          *All code examples (batch 2)".
+    *The most interesting ( minimal ) Apps are:
+      *in chapter 7 "Embracing media", page 117ff, sub-chapter "Animating Components", "Detecting Collisions".
+      *in chapter 8 "Sensing coditions", page 137ff.
+  *Edward Mitchell.
+    *The Kindle E-Book [[http://www.amazon.de/exec/obidos/ASIN/B00KCZ81I6/hemmerling-21|Edward Mitchell "App Inventor 2: Introduction: Step-by-step Guide to easy Android app programming (Pevest Guides to App Inventor Book 1)"]], 2014.
+    *The Kindle E-Book [[http://www.amazon.de/exec/obidos/ASIN/B010ITAXYU/hemmerling-21|Edward Mitchell "App Inventor 2: Advanced Concepts: Step-by-step - Advanced concepts including TinyDB (Pevest Guides to App Inventor)"]], 2014.
+    *The Kindle E-Book [[http://www.amazon.de/exec/obidos/ASIN/B014S06ERA/hemmerling-21|Edward Mitchell "App Inventor 2: Databases and Files: Step-by-step TinyDB, TinyWebDB, Fusion Tables and Files (Pevest Guides to App Inventor Book 3)"]], 2014.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0133798631/hemmerling-21|Derek Walter, Mark Sherman "Learning MIT App Inventor: A Hands-On Guide to Building Your Own Android Apps"]] for "App Inventor 2", 2014.
+    *Blog [[http://www.theapplanet.com/appinventor/|theapplanet]].
+      *The accompanying website [[http://www.theapplanet.com/appinventor/|theapplanet "Learning MIT App Inventor"]].
+    *Page 157, "Saving Location Data" -> In the codesnippet "Recall Location", read from TinyDB by setting the option "valueIfTagNotThere" to a value which is out of range for latitude & longitude ( "999" ).
+    *Notable Apps:
+      *The geolocation App "Pushpin" ( page 161 ff ).
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1491906847/hemmerling-21|David Wolber, Hal Abelson, Ellen Spertus, Liz Looney "App Inventor 2"]], 2014 - "The officiall App Inventor tutorial book".
+    *The accompanying website and blog [[http://www.appinventorblog.com/|David Wolber "App Inventor Blog. Learn it. Teach in. Build Apps"]].
+    *The accompanying website [[http://www.appinventor.org/|Appinventor.org]] - "Learn to build Android apps in hours. App building made easy. App Inventor is a visual, blocks language for building Android Apps".
+      *[[http://www.appinventor.org/bookFiles|Appinventor.org "App Inventor 2 Book, Supplementary Files"]].
+    *[[http://en.wikipedia.org/wiki/Hal_Abelson|EN.Wikipedia "Hal Abelson"]].
+==== The Language ====
+=== The App Inventor 2 Language ====
+  *[[http://developer.android.com/guide/topics/ui/declaring-layout.html#AdapterViews|Android Developers "Building Layouts with an Adapter"]] - "List View", "Grid View".
+  *[[http://appinventor.mit.edu/explore/library.html|MIT "The MIT App Inventor Library: Documentation & Support"]].
+    *[[http://appinventor.mit.edu/explore/ai2/colored-dots.html|MIT "Colored Dots for App Inventor 2. Colored Dots: Creating Apps with Multiple Screens"]].
+    *[[http://appinventor.mit.edu/explore/content/displaying-list.html|MIT "Displaying a List"]].
+    *[[http://appinventor.mit.edu/explore/ai2/google-play.html|MIT "Publishing Apps to Google Play (App Inventor 2). Uploading Apps to Google Play"]].
+    *[[http://appinventor.mit.edu/explore/ai2/support/concepts/lists.html|MIT "Making Lists (App Inventor 2)"]].
+  *[[http://appinventor.mit.edu/explore/resources.html|MIT "Resources"]].
+  *[[http://appinventor.mit.edu/explore/teach.html|MIT "Teaching with App Inventor"]].
+  *[[http://www.stackoverflow.com/questions/25493598/list-containing-images-in-app-inventor|StackOverflow "List containing images in App Inventor"]] - "using additionally an embedded HTML file and some jQuery Mobile code".
+    *[[http://www.puravidaapps.com/|Pura Vida Apps]] by "taifun".
+      *[[http://puravidaapps.sourceforge.net/|SourceForge "puravidaapps. code snippets, tutorials and extensions for App Inventor"]], [[http://www.sourceforge.net/projects/puravidaapps/|SourceForge "puravidaapps. code snippets, tutorials and extensions for App Inventor"]].
+      *[[http://www.puravidaapps.com/packagename.php|Pura Vida Apps "How to successfully rename the package name of an App Inventor app"]] with "APK Studio Version 1.0.02".
+        *The ( Java ) packagename of Android apps created by the IDE "Android Inventor 2" is "appinventor.ai_username.project_name".
+          *The user name "username", as part of "ai_username", is defined by IDE "Android Inventor 2" at the menu item "emailaddress" ( = "Profile" ) at the right top, by "Edit your profile. Your display name".
+          *"project_name" is the project name defined by the developer at "Android Inventor 2". It may contain spaces.
+      *[[http://www.puravidaapps.com/listview.php|Pura Vida Apps "App Inventor and HTML/JavaScript with Input Parameters"]].
+      *[[http://puravidaapps.com/tutorials.php|Pura Vida Apps - Tutorials]].
+        *[[http://puravidaapps.com/tutorials.php#html|Pura Vida Apps - Tutorials "App Inventor and embedded HTML/JavaScript"]].
+          *[[http://demos.jquerymobile.com/1.2.0/docs/lists/docs-lists.html|jQuery Mobile Docs "Listviews"]].
+        *[[http://www.puravidaapps.com/label.php|Pura Vida Apps - Tutorials "A powerful Label Alternative including touch gestures using the Webviewer, some HTML/jQuery and Hammer.js"]].
+  *[[http://appinventor.pevest.com/|App Inventor 2 – Learn to Code! Learn to code – The quick and easy way to create Android apps]].
+    *[[http://appinventor.pevest.com/?p=686|App Inventor 2 – Learn to Code! Learn to code – The quick and easy way to create Android apps "Can you build an App Inventor app for the Google Play store?"]].
+    *[[http://appinventor.pevest.com/?p=58|App Inventor 2 – Learn to Code! "Using TinyDB in App Inventor"]].
+    *[[http://appinventor.pevest.com/?p=107|App Inventor 2 – Learn to Code! "Using ListPicker for displaying and selecting from on screen lists"]].
+  *[[http://seblogapps.blogspot.de/|Seblog Android Apps. Appunti di programmazione, tutorial e guide per il mondo Android usando App Inventor]].
+    *[[http://seblogapps.blogspot.de/2014/10/tutorial-cambiare-il-packagename-della.html|Seblog Android Apps. Appunti di programmazione, tutorial e guide per il mondo Android usando App Inventor "Tutorial - Cambiare il PackageName della nostra app creata con App Inventor - Parte 1"]].
+    *[[http://seblogapps.blogspot.de/2014/10/tutorial-cambiare-il-packagename-della_10.html|Seblog Android Apps. Appunti di programmazione, tutorial e guide per il mondo Android usando App Inventor "Tutorial - Cambiare il PackageName della nostra app creata con App Inventor - Parte 2"]] by changing the package name in the Manifest.
+  *[[http://usabuzz.net/page/video/how-to-make-a-six-pack-menu-in-app-inventor|SocialBuzz "How to make a six pack menu in app inventor"]]
+    *SocialBuzz Videos.
+      *The search engine doesn't work properly, the pages below contain many links to AI2 videos. Maybe it helps sometimes to modify the URL "usabuzz.net/page/video/what-to-search-for" ?!
+        *Video [[http://www.usabuz.net/page/video/how-to-make-a-six-pack-menu-in-app-inventor|SocialBuzz "How to make a six pack menu in app inventor"]].
+        *Video [[http://www.usabuzz.net/page/video/app-inventor|SocialBuzz "App inventor"]].
+        *Video [[http://www.usabuzz.net/page/video/apptomarket|SocialBuzz "apptomarket"]].
+  *Using your own Manifest.
+    *[[http://groups.google.com/forum/#!msg/ai4a/vNLLYsqH4L4/siOE58iBeWMJ|Google Groups "App Inventor for All", Thread "V1.4.6"]].
+    *[[http://groups.google.com/forum/#!msg/ai4a/nRnYudHZt18/A2YZxdCbcuYJ|Google Groups "App Inventor for All", Thread "using your own manifest in V1.4.6 and later"]].
+  *How to link to a website:
+    *[[http://appinventor.mit.edu/explore/ai2/activity-starter.html|MIT "Using the Activity Starter (App Inventor 2)"]].
+      *Open the browser to a Web page. Use these activity starter properties to open a specific web page:
+        *Action: "android.intent.action.VIEW".
+        *DataUri: "http://news.google.com".
+      *[[http://www.youtube.com/watch?v=hZP--5OEGB4|YouTube "How To Link To Websites From A Button Using MIT App Inventor"]] ( for AI1 ).
+=== The App Inventor 2 Runtime ===
+  *Typechecking is performed at runtime. If you try to do the arithmetic "+" operation with a list and a numeric operator, you get the runtime error<code>
+Runtime Error. The operation + cannot accept the arguments: [()][1]
+</code>
+=== My personal Experience with the App Inventor 2 Platform - Limits and Specials ====
+  *The project name can´t contain spaces, but just underscores. However, the name of the app, as visible in the appstore, is defined in the settings of "Screen 1" at "AppName". This app name may contain spaces.
+  *According to my personal experience, what's missing with "App Inventor 2" or what can't be implemented?
+    *"ActionBar" :-(.
+    *Dynamic loading of images in a GUI List component.
+    *Creating of Notifications which can be viewed by the status bar :-(.
+      *With the discontinued "MIT Inventor 1", it was possible to create Notifications, which can be viewed by pulling down the status bar. See [[http://appinventor.mit.edu/explore/content/alertme.html|MIT "AlertMe: Texting in the background, when app is not running"]].
+      *With "MIT Inventor 2", you may just create Notifications, which are displayed immediately by modale windows :-(. The alarm notification even only works on the screen where the notification is implemented. Exiting the app cancels the alarms :-(. 
+  *The "MIT Inventor 2" offers to build apps with "List View" only. 
+    *Mostly there is some space put automatically between GUI components, both in the IDE and later at runtime.
+    *In opposite, with most GUI builders ( i.e. Visual Studio, QT Designer / QT Creator, Borland JBuilder, GUI builders for Python with Tkinter,.. ), you may create space-free GUI design. I.e. you must put a GUI label between 2 GUI components if you want to separate them by space.
+  *By the "Build" option, you may create executable Apps. 
+    *The name of the App later in the App launcher & desktop is defined by the project name of "Android Inventor 2", which can´t contain spaces. You need to apply the "AppToMarket" desktop application to transform the project name into a wanted name ( e.g. with campitalized letters and/or space (" ") between parts of the name.
+    *However, the Android emulator is shipped with the "MIT Android Inventor 2" is running "Android 2.2" ( API Level: 8 ). 
+    *I was told by experts, that for Google Play submission the "Version" must be a number higher than the previous APK.
+    *For preparing the publication of such generated Apps by [[http://play.google.com/apps/publish|Google Play Developer Console]]. 
+      *There is the optimisation tip, marked red-crossed "Your Production APK needs to meet the following criteria "The minimum Android version and target Android version need to support tablets (check targetSdkVersion and minSdkVersion)"
+        *[[http://developer.android.com/about/versions/android-2.2.html|Android Developers "Android 2.2 APIs"]] - "API Level: 8".
+        *[[http://en.wikipedia.org/wiki/Android_version_history|EN.Wikipedia "Android version history"]].
+        *[[http://developer.android.com/distribute/essentials/quality/tablets.html#android-versions|Google Developers "Tablet App Quality"]]
+          *"8. Target Android Versions Properly. To ensure the broadest possible distribution to tablets, make sure that your app properly targets the Android versions that support tablets. Initial support for tablets was added in Android 3.0 (API level 11). Unified UI framework support for tablets, phones, and other devices was introduced in Android 4.0".
+          *"At a minimum, check the <uses-sdk> element to make sure that:
+            *"targetSdkVersion is declared with value 11 or higher (14 or higher is recommended), OR".
+            *"minSdkVersion is declared with value 11 or higher".
+        *[[http://groups.google.com/forum/#!topic/programming-with-app-inventor/aTU38G5WPLE|Google Groups "Programming with App Inventor", Thread "How do I know which android:minSdkVersion setting AppInventor is communicating?"]].
+          *"I've had a user complain that privacy settings are an issue in my app, and it generally is a result of default settings on android:minSdkVersion = 1.0 if not specified by the .apk file. I need to set minSdkVersion to 4 in order to avoid the privacy issue I am seeing".
+        *Suggestions #1 to get listet as tablet-ready app at "Google Play" and to be compatible with [[http://www.google.com/admob/|Google AdMob]]:
+          *minSDK = 9 ( AdMob ).
+          *targetSDK = 11 ( tablet ).
+        *Suggestions #1 to get listet as tablet-ready app at "Google Play":
+          *minSDK = 11 ( tablet & AdMob).
+          *targetSDK = 0 ( legacy setting for compatibility, according to "AppToMarket" ).
+     *There is the optimisation tip, marked red-crossed "Your APK should support common tablet screen sizes (LARGE and XLARGE)".
+       *[[http://groups.google.com/forum/#!topic/app-inventor-open-source-dev/bMS4mXAemFk|Google Groups "App Inventor Open Source Development", Thread "How to support xLarge screens"]].
+         *"Google Play will still not see your apps as being tablet ready until you use fragments to build the UI. App Inventor doesn't currently support them".
+         *"I did make some headway on this.  I was able to publish my app yesterday to both Google Play and to Amazon and SUPPORT tablets. I have included a copy of the manifest to show how I did it". "After adding the xLargeScreens, bumping the minSdkVersion to 9,  I also needed to add the android uses-feature to enable tablets" -> So it is important to disable non-existing features on tablets by "<use-feature>" to convince Google Play that an app is tablet-ready :-)<code>
+  <uses-feature android:name="android.hardware.telephony" android:required="false" />
+  <uses-feature android:name="android.hardware.wifi" android:required="false" />
+  <uses-feature android:name="android.hardware.location" android:required="false" />
+  <uses-feature android:name="android.hardware.location.network" android:required="false" />
+  <uses-feature android:name="android.hardware.location.gps" android:required="false" />
+  <supports-screens android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:xlargeScreens="true" android:anyDensity="false" />
+</code>
+       *[[http://www.stackoverflow.com/questions/11691775/why-my-app-is-not-showing-up-on-tablets-in-google-play|StackOverflow "Why my App is not showing up on tablets in Google Play?"]].
+     *There is the optimisation tip, marked red-crossed "Your APK should include customised drawable assets for common tablet screen densities".
+       *[[http://developer.android.com/distribute/essentials/quality/tablets.html#use-tablet-icons|Android Developers "Tablet App Quality"]] - "4. Use Assets Designed for Tablet Screens".
+       *[[https://www.b4x.com/android/forum/threads/google-play-designed-for-tablet-screens.33949/|Anywhere Software "Google Play: 'Designed for tablet screens'"]] - "add a folder \Objects\res\drawable-hdpi to your project and place the icon.png (minimum size 72x72) of your app inside".
+       *[[http://groups.google.com/forum/#!topic/apptomarket/yyWLj5GgN3I|Google Groups "AppToMarket", Thread "Your APK should include custom drawables assets for common tablet screen densities"]].
+         *"Open your apk file and in the RES folder add all drawable folders that you need".
+           *"drawable-hdpi".
+           *"drawable-lhdpi".
+           *"drawable-xhdpi".
+        *"In every drawable folder, add your new assets.xml".
+   *[[http://groups.google.com/forum/#!msg/mitappinventortest/XSJDoXtNBBw/WaA_t7g6RgYJ|Google Groups "MIT App Inventor Forum", Thread "Make an app for a tablet"]].
+   *[[http://groups.google.com/forum/#!topic/apptomarket/Zve2pqasVxc|Google Groups "AppToMarket", Thread "Solution for tablets on Google Play"]].
+  *Where to store developer keys ( e.g. Twitter developer key and password "Consumer Key", "Consumer Secret" )?
+    *You shouldn´t store it in the "Android Inventor 2" project as visible data :-(, when you update the project by the "Gallery Update" function.
+      *You might have work during development with 2 copies of the software, one with development key and one without?
+    *You might offer an app compiled of a "Android Inventor 2" project, with or without encryption :-(.
+      *You might store the developer key in a file of the file system :-(.
+      *You might store the developer key in a TinyDB database :-(.
+      *You might get the key from your own remote server, like toe communications service [[http://www.twilio.com/|Twillo]]. 
+        *But of course you must identify yourself at the server... e.g. by your phone number, or the user must register at the website so that this username & password is stored at runtime on your smartphone ( in the TInyDB database, in a file, or temporary in a global list / global variable ).
+        *And the developer key communication than runs by the server, not by the smartphone app...
+=== The App Inventor 1 Language ====
+  *[[http://beta.appinventor.mit.edu/learn/reference/|MIT "Reference Documentation"]] for "App Inventor 1".
+    *[[http://beta.appinventor.mit.edu/learn/reference/other/appstoplay.html|MIT "Uploading Apps to Google Play"]].
+  *[[http://appinventor.mit.edu/explore/support.html|MIT "Support for Using MIT App Inventor Classic"]].
+==== Live Development, Testing and Debugging ====
+=== MIT App Inventor 1 ===
+  *[[http://appinventor.mit.edu/explore/learn/live-development-testing-and-debugging.html|MIT App Inventor "Live Development, Testing and Debugging"]].
+    *"Watching variables: If you click Do It on a block that shows the value of a variable, you'll get a result balloon showing that value of the variable at the time you clicked. But sometimes, especially in debugging, what you really want to see is how the value changes as your program runs. Clicking "Watch" opens a baloon whose result constantly monitors the value of the variable, so you can see if your program is changing it as anticipated". 
+=== MIT App Inventor 2 ===
+  *[[http://ai2.appinventor.mit.edu/reference/other/testing.html|MIT App Inventor 2 "Live Development, Testing and Debugging Tools"]].
+  *As of 2016-05, "Watch" is not implemented with "MIT App Inventor 2" :-(.
+    *[[http://groups.google.com/forum/#!topic/app-inventor-instructors/UNPWr_E8NC0|Google Groups "App Inventor in Education", Thread "Does 'variable-watching' work in App Inventor II?"]].
+==== Projects ====
+=== Gallery ===
+== Gallery  for "MIT App Inventor 1" ==
+  *[[http://classic-gallery.appinventor.mit.edu/|MIT App Inventor Community Gallery]], <del>[[http://gallery.appinventor.mit.edu/|MIT "App Inventor Community Gallery"]]</del> - "MIT plans to retire the old Classic Gallery before September 1, 2015".
+== Gallery  for "MIT App Inventor 2" ==
+  *The Gallery is just accessable from inside the "MIT App Inventor 2" IDE ( [[http://ai2.appinventor.mit.edu/|MIT "App Inventor 2 Beta"]] ).
+  *[[http://www.creativecommons.org/licenses/by/4.0/|Creative Commons — Attribution 4.0 International — CC BY 4.0]] is the proper license to publish "MIT App Inventor 2" projects to the Gallery!
+  *[[http://appinventor.mit.edu/explore/app-month-gallery.html|MIT App Inventor 2 "App of the Month Winners"]].
+  *Some published applications: 
+    *[[http://ai2.appinventor.mit.edu/?galleryId=5841532695609344|MIT App Inventor 2 - Gallery "Conference Selfie"]]. 
+      *At the "MIT App Inventor 2", search the Gallery for the project. On the resulting project page, click on the "SHARE" link at the bottom, next to " DECRIPTION SHARE REPORT". A message is displayed "Copy and share link: [[http://ai2.appinventor.mit.edu/?galleryId=5841532695609344|http://ai2.appinventor.mit.edu/?galleryId=5841532695609344]]".
+      *You may not derive this URL from your local project URL displayed by "MIT App Inventor 2" browser application  ( e.g. "[[http://ai2.appinventor.mit.edu/#6230609622204416|ai2.appinventor.mit.edu/#6230609622204416]]" ). The unique Gallery hash value "5841532695609344" is not identical to the local project hash value "6230609622204416".
+=== Stories ===
+  *[[http://appinventor.mit.edu/explore/stories.html|MIT App Inventor - Stories]].
+    *[[http://appinventor.mit.edu/explore/stories/voice-controlled-arduino-beginners.html|MIT App Inventor - Stories "Voice-Controlled Arduino for Beginners"]].
+      *[[http://forum.arduino.cc/index.php/topic,148853.msg1118346.html|Arduino Forum "Using android mobile to control arduino"]], 2013-02-16.
+      *[[http://www.hackaday.com/2013/02/15/beginners-androidarduino-example-shows-the-power-of-app-inventor/|Hackaday "Beginner’s Android/Arduino example shows the power of App Inventor Beginner’s Android/Arduino example shows the power of App Inventor"]], 2013-02-15.
+=== Tutorials ===
+== Tutorials for "MIT App Inventor 1" ==
+  *[[http://appinventor.mit.edu/explore/hour-of-code.html|MIT "Making Mobile Apps with App Inventor"]] -  Beginner Tutorials.
+    *TalkToMe Text-to-Speech App.
+    *Extended TalkToMe App: Shake.
+  *[[http://appinventor.mit.edu/explore/tutorials263f.html|MIT "Tutorials"]] - You may filter the Apps suitable for: 
+    *App Inventor 1.
+    *App Inventor 2.
+  *[[http://beta.appinventor.mit.edu/learn/tutorials/|MIT "Tutorials"]].
+    *[[http://beta.appinventor.mit.edu/learn/tutorials/broadcasterhub.html|MIT "Broadcast Hub"]].
+== Tutorials for "MIT App Inventor 2" ==
+  *[[http://appinventor.mit.edu/explore/tutorial-version/app-inventor-2.html|MIT Tutorials "App Inventor 2"]].
+    *[[http://appinventor.mit.edu/explore/ai2/hellopurr.html|MIT "Hello Purr for App Inventor 2. Building your first app: HelloPurr"]].
+    *[[http://appinventor.mit.edu/explore/ai2/photo-booth-app.html|MIT "Photo Booth App"]].
+    *[[http://appinventor.mit.edu/explore/ai2/quizme.html|MIT "QuizMe for App Inventor 2"]].
+  *[[http://www.puravidaapps.com/|Pura Vida Apps]].
+    *[[http://puravidaapps.com/tutorials.php|Pura Vida Apps - Tutorials]].
+=== Android Apps with Tutorials ===
+  *[[http://play.google.com/store/apps/details?id=appinventor.ai_mletsch80.AppInvActivityStarter|Google Play "App Inventor ActivityStarter"]] - "This app is for all developers who are developing a app using App Inventor and want to learn more about the activity starter component. App Inventor ActivityStarter lets you play with intent activities and has more than 150 example demo activities. This app is actually a kind of Activity Starter component. You can make your own activity with all the fields you have in the Activity Starter component in App Inventor and execute the activity".
+  *[[http://play.google.com/store/apps/details?id=training.computing.apptutslite|Google Play, David Phillips "App Inventor 2 Tutorials FREE"]].
+==== Resources ====
+=== Android Inventor 1 only ===
+  *[[http://sites.google.com/site/appinventorextender/|Google Sites "AppInventor Extender"]] - "An application for Android-based devices that allows apps created in Google AppInventor access to additional features. The app can be thought of as a library that can be called using the Activity Starter block in the AppInventor block editor".
+    *[[http://play.google.com/store/apps/details?id=com.ImR.AppInventorExtender|Google Play "AppInventor Extender"]].
+  *[[http://web.archive.org/web/20140901020957/http://www.tair.info/|Archive.org "tAIR - The App Inventor Repository"]] ( - 2014-09-01 ).
+=== General & Android Inventor 2 ===
+  *SD Cards.
+    *Jörg H. Kloss "Android Apps with App Inventor: The Fast and Easy Way to Build Android Apps", 2012, page 37: "SD Card: A Requirement for App Inventor. To use your smartphone with the current AI development environment, the device must have an SD memory card in it".
+    *[[http://ai2.appinventor.mit.edu/reference/components/storage.html|MIT App Inventor 2 "Storage - App Inventor for Android"]] 
+      *"Saves text to a file. If the filename begins with a slash (/) the file is written to the sdcard (for example, writing to /myFile.txt will write the file to /sdcard/myFile.txt). If the filename does not start with a slash, it will be written in the program's private data directory where it will not be accessible to other programs on the phone. There is a special exception for the AI Companion where these files are written to /sdcard/AppInventor/data to facilitate debugging. Note that this block will overwrite a file if it already exists. If you want to add content to a file use the append block".
+      *"MIT Inventor 2" stores photos at "/root/sdcard/Pictures/" or "/root/sdcard0/Pictures/" ( if there is an SD card in the smartphone, so the path is not 100% the same on different smartphones ), with the file format "app_inventor_1234567890123.jpg". The hash value number has 13 digits.
+        *Reference  from an Android file manager: <code>
+/root/sdcard/Pictures/app_inventor_1234567890123.jpg
+/root/sdcard0/Pictures/app_inventor_1234567890123.jpg</code>
+        *Reference from within MIT Android Inventor 2, for use as filepath for the "Image" component: <code>
+file:///storage/sdcard/Pictures/app_inventor_1234567890123.jpg
+file:///storage/sdcard0/Pictures/app_inventor_1234567890123.jpg
+file:///mnt/sdcard/Pictures/app_inventor_1234567890123.jpg</code>
+  *[[http://appinventor.mit.edu/explore/books.html|MIT "Books"]].
+  *[[http://play.google.com/store/search?q=App%20Inventor&c=apps|Google Play - Search for "App Inventor"]].
+  *History:
+    *[[http://googleresearch.blogspot.de/2009/07/app-inventor-for-android.html|Google Research "App Inventor for Android"]], 2009-07-31.
+    *[[http://googleblog.blogspot.de/2010/07/app-inventor-for-android.html|Official Google Blog "App Inventor for Android"]], 2010-07-12.
+    *[[http://www.i-programmer.info/news/83-mobliephone/1066-easy-android-apps.html|i-programmer "Easy Android Apps"]], 2010-07-15.
+    *[[http://news.mit.edu/2010/android-abelson-0819|MIT News "The MIT roots of Google’s new software. Google’s App Inventor, which lets people with no previous programming experience build applications for mobile phones, draws on decades of MIT research"]], 2010-08-19.
+    *[[http://www.theinquirer.net/inquirer/news/2140726/google-mit-source-app-inventor-android|The Inquirer "Google and MIT open source App Inventor for Android"]], 2012-01-23.
+    *[[http://www.androidcentral.com/mit-and-google-open-source-app-inventor-code-public-release-mits-version-track-april|AndroidCentral "MIT and Google open-source App Inventor code, public release of MIT's version on track for April"]], 2012-01-24.
+  *[[http://www.androidapptraining.com/|Create Your Own Android Apps. No Coding Required]] - Commercial online App Inventor courses ( "Android App Training", "Android App Courses" ).
+    *Blog [[http://androidapptraining.com/wp/app-inventor-tutorials/|Create Your Own Android Apps. No Coding Required "Tutorials & Blog"]].
+  *[[http://ice-dl.cc.gatech.edu/?q=node/855|ICE Distance Learning Site "APP INVENTOR 2"]].
+    *[[http://coweb.cc.gatech.edu/ice-gt/2342|STEM conference App Inventor - July 18, 2014]].
+  *StackOverflow.
+    *[[http://wwww.stackoverflow.com/questions/tagged/app-inventor|StackOverflow - Tagged Questions "app-inventor"]].
+    *[[http://wwww.stackoverflow.com/questions/31931961/how-can-i-make-my-app-display-a-notification-in-the-window-shade-using-mit-app-i|StackOverflow "How can I make my app display a notification in the window shade using MIT App Inventor 2?"]] - "Push messaging is only available in the Punya framework".
+    *[[http://www.stackoverflow.com/questions/36965603/mit-app-inventor-2-may-i-how-to-place-alarms-in-the-android-notification-area|StackOverflow "MIT App Inventor 2: May I / How to place alarms in the Android notification area?"]].
+  *[[http://www.youtube.com/user/appinventor|YouTube "appinventor"]].
+  *[[http://en.wikipedia.org/wiki/App_Inventor_for_Android|EN.Wikipedia "App Inventor for Android"]], [[http://de.wikipedia.org/wiki/App_Inventor|DE.Wikipedia "App Inventor"]].
+===== App Inventor 2 Ultimate, based on MIT App Inventor =====
+==== The Tool ====
+  *The free offline server [[http://ai2u.sourceforge.net/|SourceForge "App Inventor 2 Ultimate"]], [[http://www.sourceforge.net/projects/ai2u/|SourceForge "App Inventor 2 Ultimate"]].
+  *Wiki [[http://sourceforge.net/p/ai2u/wiki/|SourceForge Wiki "App Inventor 2 Ultimate"]].
+  *[[http://www.krupong.com/|krupong.com - OpenSource Desktop. OpenSuSE linux and OpenSource software]].
+  *[[http://www.youtube.com/channel/UCUsugoEjcQG7ycfPOhCIRzQ|YouTube Channel "kroopong"]], [[http://www.youtube.com/user/kroopong|YouTube User "kroopong"]].
+    *[[http://www.youtube.com/watch?v=IQ_sOpNLIYU|YouTube "portable AI2U"]].
+    *[[http://www.youtube.com/watch?v=BYWBNu82t48|YouTube "App Inventor 2 Offline server installation"]].
+==== The local Web Servers ====
+  *The "Ai2 Starter Portable, App Inventor 2 Ultimate Edition" webserver is running at [[http://127.0.0.1:8004/|127.0.0.1:8004]].
+  *The "App Inventor 2 Ultimate" web server is running e.g. at [[http://192.168.178.130:9990|192.168.178.130:9990]].
+  *The web application - the HTML GUI interface - is available at [[http://localhost:8888/|localhost:8888]].
+    *[[http://localhost:8888/ode/feedback|App Inventor 2 Ultimate Edition "Feedback"]].
+==== Resources ====
+  *Experts claim that the software is a 1:1 copy of the MIT version without additional features. The main advantage is, that you do not need internet connection and you can build larger projects (> 5 MB ).
+  *[[http://groups.google.com/forum/#!topic/app-inventor-developers-library/H8bnmLhKUmo|Google Groups "New AI2 personal server! AI2U (App Inventor 2 Ultimate)"]], with some tips and installation instructions.
+===== Apk Modder ( formerly: TabletSolution ) =====
+==== The just-commercial but affordable Tool ====
+  *Download.
+    *The just-commercial but affordable [[http://drive.google.com/file/d/0Bx4PAAZ3SNMdd2M1TXlCeHpCa1U/|Google Drive "ApkModder2 setup.zip"]] of 2016-03-12.
+      *[[http://groups.google.com/forum/#!topic/gwayapps/J_xmR6huq2o|Google Groups "gwayapps", Thread "Finally... Apk Modder 2!"]].
+    *[[http://drive.google.com/file/d/0Bx4PAAZ3SNMdLTFmdGNmWElFd00/view|Google Drive "update.zip"]] of 2016-06-25.
+      *[[http://groups.google.com/forum/#!topic/gwayapps/fGJvHuoTv0o|Google Groups "gwayapps", Thread "Apk Modder Changelog"]].
+  *[[http://www.pledgie.com/campaigns/28753|Pledgie "Apk Modder for App Inventor 2 (was Tablet Solution)"]] by Gabriele Cozzolino.
+  *[[http://plus.google.com/101334193502316739832|Google+ "Gabriele Cozzolino"]].
+  *[[http://www.youtube.com/channel/UC_AhPNsPC07i9pPnqnFqKWg|YouTube Channel "G-way Apps"]].
+    *[[http://www.youtube.com/watch?v=VK_HVak_tvQ|YouTube "Apk Modder Use"]].
+  *Apps maybe processed with "APK Modder"?!
+    *[[http://play.google.com/store/apps/developer?id=G-way+Apps|Google Play Developer "G-way Apps"]].
+      *[[http://play.google.com/store/apps/details?id=it.gwayapps.dicechat|Google Play "Dice chat"]].
+    *[[http://apk4ios.com/productlist_bydev.G-way+Apps_1|APK4IOS "Apps of 'G-way Apps' Download Android APK GAMES & APPS for iOS"]].
+    *[[http://m.downloadatoz.com/apps/it.gwayapps.dicechat,3060256/download.html|All-in-One Downloader. DownloadAtoZ "Dice chat APK Download"]].
+  *There is no real project homepage. Therefore, support only by:
+    *Google Groups "gwayapps".
+    *Facebook "G-way Android Apps".
+==== Resources ====
+  *Setup
+    *You must load the keystore file created by "Android Inventor 2" or "AppToMarket", naming the key alias ( "Certificate Alias" ) and the password.
+      *"WARNING! On the first use, after you selected your keystore file, you better verify if the .ks file has been copied under the installation path (default 'C:\Program Files (x86)\G-Way Android Apps\Apk Modder'). If the file there isn't just manually copy it in there".
+    *You have to create and name 3 directories:
+      *Decompile dir.
+      *Apk output dir.
+      *Manifest Backup dir.
+  *"APK options"
+    *"[x] This APK was made with AI v. nb149 or greater".
+    *You may change the default package name given by "MIT Android Inventor 2" to your own name, e.g. "mycompanydomain.com".
+  *"APK Modder" requires a license to generated a modifed APK. It isn't Shareware nor Crippleware: "Apk Modder requires a lot of effort and time spend on programming it... To help me improving and focussing on this project, please consider to donate something to the cause. Anything will do... but: you will receive the activation key with a minimum donation of 5EUR/$".
+  *Google Groups messages:
+    *[[http://groups.google.com/forum/#!topic/ai4a/R93ZbhIBP8U|Google Groups "App Inventor for All", Thread "Apk Modder"]].
+    *[[http://groups.google.com/forum/#!topic/mitappinventortest/8FKlkDAurvo|Google Groups "MIT App Inventor Forum", Thread "Tablet Solution"]].
+  *[[http://www.youtube.com/user/azaotl|YouTube Channel "azaotl"]].
+    *[[http://www.youtube.com/watch?v=rRK2AdawnCk|YouTube "Tutorial - MIT App inventor 2 Designing android apps for tablets"]] - "How to desgin for tablets MIT appinventor 2. Using APPTOMARKET 4.0 and TabletSolution".
+    *[[http://www.youtube.com/watch?v=uM2GbyfvduE|YouTube "How to design for tablets your app inventor app"]].
+===== AppyBuilder / aiLive / AiLiveComplete!, based on MIT App Inventor 2 =====
+==== The Project ====
+  *[[http://www.appybuilder.com/|AppyBuilder]].
+  *[[http://www.youtube.com/user/kkashi01|YouTube Channel "M. Hossein Amerkashi"]].
+  *[[http://Amerkashi.Wordpress.com/|Hossein Amerkashi's Blog]].
+==== IDE, implemented as Online Service ====
+  *The commercial online service [[http://silver.appybuilder.com/|Appy Builder Silver]].
+  *The free online service [[http://free.appybuilder.com/|Appy Builder Free]].
+==== Offline Tools ( IDE, AppToMarket ) & "Runtime" implemented as Android App ==== 
+=== AiLiveComplete! ===
+  *The free offline server [[http://ailivecomplete.sourceforge.net/|SourceForge "AiLiveComplete! The AiLiveComplete is originated from App Inventor and has been update"]], [[http://www.sourceforge.net/projects/ailivecomplete/|SourceForge "AiLiveComplete! The AiLiveComplete is originated from App Inventor and has been update"]] for Java7.
+   *README.txt: "Interested in Full Version of AiLiveComplete?"- So somehow the downloadable version must be limited, not-extended or even crippled?!.
+   *Experts claim that the software is a 1:1 copy of the MIT version without additional features?! 
+   *The main advantage is, that you do not need internet connection and you can build larger projects (> 5 MB ).
+   *Installation tips:
+      *"Make sure you are using Java 7.
+      *To connect to your device via WiFi, you will need to install the provided companion .apk in the root folder onto your device.
+      *You may need to uninstall the MIT Companion first".
+=== AppToMarket ===
+== The Tool ==
+  *"AppToMarket" for Windows is a Java application.
+  *[[http://drive.google.com/folderview?id=0B5b44rWoeEG8V3N6SXNpOXdyX0U|GoogleDrive "AppToMarket"]] - Download of the current "AppToMarket 4.0" and "AppToMarket 4.1 Update" version.
+  *[[http://code.google.com/p/apptomarket/|Google Code "AppToMarket"]] ( empty ), [[http://web.archive.org/web/*/http://code.google.com/p/apptomarket/|Archive.org "Google Code - AppToMarket"]] ( - 2015-02-23 ).
+  *AppToMarket & sdkBridger - App Inventor Java Bridge
+    -AppToMarket
+      *One-Click Feature to convert your AI ".apk" to Android Market Compatible ".apk".
+      *Fully automated and allows you to convert your AI app to Andorid Market Compatible app.
+      *Generates certificates for signing your ".apk".
+      *Auto sign your app using your certificate.
+      *Generate Zip Align file for ultimate performance. 
+    -sdkBridger - App Inventor Java Bridge library.
+      *A Java Bridge between App Inventor and Android SDK.
+      *Simplifies creating Android apps.
+      *Uses App Inventor components.
+      *Stand-alone library that eliminates use of Kawa library.
+      *For details, see wiki here: [[http://web.archive.org/web/*/http://code.google.com/p/apptomarket/wiki/sdkBridgerIntro|Archive.org "Google Code - sdkBridgerIntro. sdkBridger - Introduction"]]. 
+      *APIs:
+        *The API for the sdkBridger can be found here: [[http://web.archive.org/web/*/http://www.3nportal.com/BridgeAPI/overview-summary.html|Archive.org "3N Portal LLC - BridgeAPI"]].
+        *The API for Original App Inventor bridge can be found here [[http://3nportal.com/AIBridge/API/overview-summary.html|3N Portal LLC "AIBridge/API"]].
+      *Tutorials / Examples:
+        *[[http://web.archive.org/web/*/http://code.google.com/p/apptomarket/w/list|Archive.org "Google Code Wiki - apptomarket"]].
+        *[[http://web.archive.org/web/*/http://code.google.com/p/apptomarket/downloads/list|Archive.org "Google Code Downloads - apptomarket"]].
+  *[[http://amerkashi.wordpress.com/2011/02/14/automating-conversion-of-app-inventor-apk-to-google-market/|Hossein Amerkashi's Blog "Automating conversion of App Inventor apk to Android Market"]].
+  *[[https://groups.google.com/forum/#!topic/apptomarket/4XjNUSgh42Q|Google Groups "AppToMarket", Thread "AppToMarket version 4.1"]], 2016-06-24 - "Please note that it should be unzipped into your existing AppToMarket root folder".
+== Keystore file ==
+  *The default "Keystore file" filepath of "AppToMarket v4.1" is set to "C:\tools\AppToMarket_v32\myKeystores\myks.ks", even if the software is installed at a different place ( e.g. C:\Program Files\AppToMarket\" ).
+  *You may set the filepath to a keystore file exported from "Android Inventor 2", though it has a different file extension, e.g. "C:\tools\AppToMarket_v32\myKeystores\android.keystore"
+==  Key Alias & Keystore Password ==
+  *At "1> Certificate Details", set:
+    *Key Size: "2048".
+    *Alias: "androidkey".
+    *Key pwd: "android".
+  *If you fail, you get the error message: <code>
+BUTTON CLICKED: 4> Sign
+Signing the application...
+jarsigner error: java.lang.RuntimeException: keystore load: Keystore was tampered with, or password was incorrect
+ERROR: There was error in signing your app</code>
+  *Resources:
+    *[[http://developer.android.com/studio/publish/app-signing.html|Android Developer "Sign Your App"]].
+    *[[http://groups.google.com/forum/#!msg/apptomarket/_XsixyOP3Ns/-AaOMRJ-TocJ|Google Groups "AppToMarket", Thread "keystore problem"]], 2012-06-02 - "You have to use the below  password and alias. Copy the AI keystore into a known folder, then in tab1 of AppToMarket, point to that path and put in the below password and alias. Then goto tab 2 and follow from there".
+      *Alias: "<del>androiddebugkey</del>".
+      *Key pwd: "android".
+    *[[http://www.hackedit.de/71/|Google Groups "AppToMarket workaround"]], 2016-05-31 - "Nun müsst ihr noch euren alias eintragen (meiner lautet 'androidkey' und diesen müsst ihr ersetzen)".
+        *Alias: "androidkey".
+
+==== The Language ====
+  *[[http://groups.google.com/forum/#!topic/apptomarket/L5wwVwpCNcY|Google Groups "AppToMarket", Thread "Ai2LiveComplete - New offline version available"]], 2014-01-12.
+    *New components:
+      *AdMob.
+      *AdAmazon.
+      *SQL Lite.
+      *Near Field Communication (NFC).
+      *File Manager.
+      *Gallery View.
+      *Spinner Picker (drop-down).
+      *Toggle Button.
+      *Light Sensor.
+      *Pressure Sensor.
+      *Temperature Sensor.
+      *Proximity Sensor.
+      *Pedometer.
+      *Date Picker.
+      *Time Picker.
+      *Chronometer.
+      *PhoneStatus.
+      *Pedometer.
+      *XY Chart.
+      *Kitchen Sink - adhoc utility blocks (e.g. KeepScreenOn, Hide/Show notification bar, check to see if device has network signal or is a GPS enabled device).
+      *@ Dynamic Custom Menus.
+  *Hmmm... Experts claim that the software is a 1:1 copy of the MIT version without additional features?!
+===== FTC App Inventor, based on MIT App Inventor 2 =====
+  *[[http://frc-events.firstinspires.org/FTCImages/2015|FTC App Inventor Download Page]].
+===== MIT Punya, based on MIT App Inventor 2 =====
+==== The Project ====
+  *The OpenSource [[http://punya.mit.edu/|Punya - Mobile innovation for humanitarian relief]], [[http://www.github.com/mit-dig/punya|GitHub "mit-dig/punya"]].
+    *[[http://punya.mit.edu/getting-started|Punya "Getting Started"]].
+      *Punya suggests to become familar with the tutorials of "MIT App Inventor 2", so that we may assum that it it built on that code of "MIT App Inventor 2", and not the code of "MIT App Inventor 1".
+      *Sample "The number of potholes in Boston".
+        *2 Android apps.
+        *[[http://www.dydra.com/punya/potholes-in-boston/@query|Dydra - SPARQL browser for punya/potholes-in-boston]].
+          *[[http://www.dydra.com/punya/potholes-in-boston/@query#number-of-potholes-near-boston-city-center|Dydra - SPARQL browser for punya/potholes-in-boston "number of potholes near boston city"]].
+==== IDE, implemented as Online Service ====
+  *The free online service [[http://punya.appinventor.mit.edu/|Punya Framework Beta]]
+==== The Language ====
+    *[[http://air.csail.mit.edu/punya/tutorials/|Punya Tutorials]] - "We have extended the MIT App Inventor framework to enable rapid mobile application development in the humanitarian domain using Linked Data Technologies".
+==== Projects ====
+  *[[http://air.csail.mit.edu/punya/tutorials/|Punya Tutorials]].
+==== Resources ====
+  *Linked Data, especially the tutorials of "linkeddata.org" -> See [[linkeddata.html|Linked Data & Linked Open Data ( LOD )]]."
+  *[[http://blogs.icrc.org/gphi2/2014/12/16/mobile-apps/|ICRC Blog "How to Enable the Development of Apps by Field Teams"]], 2014 - "What are the key advantages of using the new PUNYA framework?".
+===== The Mad Robots, based on MIT App Inventor 2 =====
+==== The Project ====
+  *[[http://madrobots.wix.com/themadrobot|The Mad Robots]], [[http://themadrobot.sourceforge.net/|SourceForge "The Mad Robot"]], [[http://www.sourceforge.net/projects/themadrobot/|SourceForge "The Mad Robot"]], 2013-12-09.
+==== IDE, implemented as Online Service ====
+  *The free online service [[http://mad-robots-ai.appspot.com/|Mad Robots AI 0.2 alpha]] - "If you have any projects you want to keep please make sure you download them by 25th July 2015 as a change not in my control means they may be deleted. Just be aware Mad Robots AI is still in development and can be used but may change without warning causing previously made project not to load. Please note: At the moment you can't build a final APK".
+==== Resources ====
+===== Thunkable, based on MIT App Inventor 2 ( for Android, soon for iOS too ) =====
+==== The Project ====
+  *[[http://www.thunkable.com/|Thunkable]].
+    *"Drag and Drop to Create Native, Fast, Reliable Apps. Anyone can build powerful native apps with Thunkable. Simple to design. Simple to code".
+    *"iOS (Coming Soon) We're working hard to support iOS (including iPhones and iPads). Start building for Android today, and migrate when Thunkable for iOS launches".
+  *[[http://www.thunkable.com/explore/|Thunkable "The Thunkable Library: Documentation & Support"]].
+==== IDE, implemented as Online Service ====
+  *The free online service [[http://app.thunkable.com/|Thunkable]].
+
+==== Resources ====
+  *[[http://www.i-programmer.info/news/98-languages/9509-thunkable-forks-mit-app-inventor-.html|i-programmer "Thunkable Forks MIT App Inventor"]], 2016-03-06.
+  *[[http://www.techcrunch.com/2016/03/05/mit-spin-out-thunkable-hopes-its-drag-and-drop-app-builder-can-be-a-money-spinner-too/|TechCrunch "MIT spin-out Thunkable hopes its drag-and-drop app builder can be a money-spinner too"]], 2016-03-05.
+===== Some other Tools =====
+  *[[http://ai4a-configs.sourceforge.net/|SourceForge "ai4a configurations. configurations for App Inventor"]], [[http://www.sourceforge.net/projects/ai4a-configs/|SourceForge "ai4a configurations. configurations for App Inventor"]], 2013-06-19.
+===== Resources =====
+==== Activity Starter ====
+  *See [[android03.html|Google Android 3/7 - App Development]].
+  *[[http://www.androidapptraining.com/|Create Your Own Android Apps. No Coding Required]].
+    *[[http://www.androidapptraining.com/wp/tag/activity-starter-2/|Create Your Own Android Apps. No Coding Required "Tag Archive for activity starter"]].
+  *[[http://appinventor.mit.edu/explore/ai2/activity-starter.html|MIT "Using the Activity Starter (App Inventor 2)"]].
+  *[[http://www.openintents.org/|OpenIntents – Where applications unite]].
+    *[[http://www.github.com/openintents|GitHub "openintents"]], [[http://openintents.github.io/|GitHub.io "OpenIntents"]].
+    *[[http://www.openintents.org/intentsregistry/|OpenIntents – Where applications unite "Intents Registry. See All Intents"]].
+    *[[http://www.openintents.org/download/| "OI Apps. Explore and Download"]].
+==== Google Maps ====
+  *[[http://web.archive.org/web/20110902130436/http://mapki.com/wiki/Main_Page|Archive.org "Google Mapki]] ( - 2011-09-03 ).
+    *[[http://web.archive.org/web/*/http://mapki.com/wiki/Google_Map_Parameters|Archive.org "Google Mapki: Google Map Parameters"]] ( - 2011-09-03 ).
+  *[[http://developers.google.com/maps/documentation/android-api/intents|Android Developers "Google Maps Intents"]].
+  *[[http://developers.google.com/maps/documentation/static-maps/intro|Android Developers "Google Static Maps Developer Guide "]].
+  *AI2 configuration:
+    *Action "android.intent.action.VIEW".
+    *ActivityClass "com.google.android.maps.MapsActivity".
+    *ActivityPackage "com.google.android.apps.maps".
+    *DataURI "http://maps.googleapis.com/maps/api/staticmap?center=Henckellweg%202,Hannover,Germany&zoom=13&size=600x300" ?
+==== Common Intents ==== 
+  *[[http://developer.android.com/guide/components/intents-common.html|Android Developers "Common Intents"]].
+==== GPS ====
+  *Experts told me, that smartphones built for the German market might supply GPS coordinates with decimal comma ( "," ) as separator, while a smartphone built for the USA market might supply a dot ( "." ).
+  *[[http://en.wikipedia.org/wiki/Decimal_mark|EN.Wikipedia "Decimal mark"]], [[http://de.wikipedia.org/wiki/Dezimaltrennzeichen|DE.Wikipedia "Dezimaltrennzeichen"]].
+  *[[http://en.wikipedia.org/wiki/Global_Positioning_System|EN.Wikipedia "Global Positioning System"]], [[http://de.wikipedia.org/wiki/Global_Positioning_System|DE.Wikipedia "Global Positioning System"]].
+  *[[http://en.wikipedia.org/wiki/Great-circle_distance|EN.Wikipedia "Great-circle distance"]], [[http://de.wikipedia.org/wiki/Orthodrome|DE.Wikipedia "Orthodrome"]].
+==== Java Console for AI2 Application Debugging ====
+  *[[http://www.java.com/de/download/help/javaconsole.xml|Oracle "Wie aktiviere ich die Java-Konsole und zeige diese an?"]].
+==== Projects ====
+  *[[http://www.internetofhomethings.com/|Internet of Home Things]].
+    *[[http://www.internetofhomethings.com/homethings/?p=1317|Internet of Home Things "MQTT For App Inventor"]].
+==== Sprites ====
+  *[[http://en.wikipedia.org/wiki/Sprite_%28computer_graphics%29|EN.Wikipedia "Sprite (computer graphics)"]], [[http://de.wikipedia.org/wiki/Sprite_%28Computergrafik%29|DE.Wikipedia "Sprite (Computergrafik)"]].
+==== Tips & Tricks ====
+  *Sometimes during editing with MIT Inventor e.g. at the block "When <Screen1> .initialize", there is an error message. Solution: Reload the HTML page of the MIT Android Inventor IDE ( by pressing the browser's reload button) :-):<code>
+Error from Companion: java.lang.RuntimeException: invalid syntax in eval form:<string>:1:142: call to 'set-and-coerce-property!' has too few arguments (3; must be 4)
+</code>
+  *Though the "MIT Inventor 2" is a simple web page to be loaded by an Internet browser, and though the "MIT AI2 Companion" properly installs and runs on Win-32bit systems, the whole system just works properly on Win64-bit :-(. 
+    *On Win-32bit with 2GB RAM, there is no display of the visualisation of the app prototype. On Win-32bit with 3GB RAM, the visualisation of the app prototype is displayed properly.
+    *On Win-32bit with 2GB RAM, there are often error messages by the browser about time delays. On Win-32bit with 3GB RAM this doesn´t happen.
+    *With "App Inventor 2 Ultimate" on Win-32bit with 2GB RAM, there is even the Windows error message<code>
+Error message:
+Close programs to prevent information loss.
+Your computer is low on memory. Save your files and close these programs:
+Java(TM) Platform SE binary
+</code>
+    *But even on On Win-32bit with 3GB RAM, where the Android device simulator properly loads, the Android device simulator and especially the transfer process of the created app, is too slow for practical work :-(. I even didn´t manage to transfer and start a simple Android app :-(, even after accepting many time delays.
+==== Webservices, URI & URL ====
+  *[[http://www.w3schools.com/TAGS/ref_urlencode.asp|W3School.org "HTML URL Encoding Reference"]].
+  *[[http://en.wikipedia.org/wiki/Uniform_Resource_Identifier|EN.Wikipedia "Uniform Resource Identifier"]], [[http://de.wikipedia.org/wiki/Uniform_Resource_Identifier|DE.Wikipedia "Uniform Resource Identifier"]].
+  *[[http://en.wikipedia.org/wiki/Uniform_Resource_Locator|EN.Wikipedia "Uniform Resource Locator"]], [[http://en.wikipedia.org/wiki/Uniform_Resource_Locator|DE.Wikipedia "Uniform Resource Locator"]].
+==== General ====
+  *Blog [[http://ai2inventor.blogspot.de/|AI2 Inventor Forum News]].
+  *[[http://www.constructingkids.com/2013/05/15/vpl/|Constructing Kids. Learning, Playing and Constructing with children "Visual Programming Language – Infograph and Introduction"]], 2013.
+===== AI2 on 32-bit Windows =====
+==== 2GB RAM ====
+=== Android Inventor 2 ( online ) ===
+== 1. Modale window ==
+<code>
+Warning: Unresponsive script.
+A script on this page may be busy, or it may have stopped responding. You can stop the script now, open the script in the debugger, or let the script continue.
+
+Script: http://ai2.appinventor.mit.edu/:99
+</code>
+== 2. Modale window ==
+<code>
+An internal error has occurred. Report a bug?
+</code>
+== 3. Popup window ==
+[[http://ai2.appinventor.mit.edu/ode/feedback?notes=Browser%3A%20Mozilla%2F5.0%20%28Windows%20NT%206.3%3B%20rv%3A36.0%29%20Gecko%2F20100101%20Firefox%2F36.0&foundIn=nb149&projectId=-1&faultData=com.google.gwt.core.client.JavaScriptException:%20%28TypeError%29%20:%20a%20is%20null|http://ai2.appinventor.mit.edu/ode/feedback]].
+<code>
+Ooops! We tripped on a Bug!
+
+Please help us by telling us what you were doing at the time this happend. We have already included some technical data with this report. If you do not submit this report, nothing will be reported to us. If you do submit a report, your comments along with the technical data will be sent to us.
+
+Thank you for your help in making MIT App Inventor better!
+
+Technical Data to be Submitted:
+
+notes = Browser: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0
+foundIn = nb149
+faultData = com.google.gwt.core.client.JavaScriptException: (TypeError) : a is null
+projectId = -1
+</code>
+=== AiLiveComplete! ===
+== 1. Modale window ==
+<code>
+Warning: Unresponsive script.
+A script on this page may be busy, or it may have stopped responding. You can stop the script now, open the script in the debugger, or let the script continue.
+Script: http://localhost:8888/ode/F43EF693BA67AA296555432EDEB184F3.cache.js:3444
+</code>
+== 2. Modale window ==
+<code>
+An internal error has occurred. Report a bug?
+</code>
+== 3. Popup window ==
+[[http://localhost:8888/ode/feedback?notes=Browser%3A%20Mozilla%2F5.0%20%28Windows%20NT%206.3%3B%20rv%3A36.0%29%20Gecko%2F20100101%20Firefox%2F36.0&foundIn=nls-883-g581d9c9&projectId=-1&faultData=com.google.gwt.core.client.JavaScriptException:%20%28TypeError%29%20:%20this$static%20is%20null|http://localhost:8888/ode/feedback]].
+<code>
+Ooops! We tripped on a Bug!
+Please help us by telling us what you were doing at the time this happend. We have already included some technical data with this report. If you do not submit this report, nothing will be reported to us. If you do submit a report, your comments along with the technical data will be sent to us.
+Thank you for your help in making MIT App Inventor better!
+Technical Data to be Submitted:
+notes = Browser: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0
+foundIn = nls-883-g581d9c9
+faultData = com.google.gwt.core.client.JavaScriptException: (TypeError) : this$static is null
+projectId = -1
+</code>
+==== 3GB RAM ====
+===== Forums, Newsgroups =====
+  *Appspot.
+    *[[http://css-cs4hs.appspot.com/CS4HS2013/forum|CS4HS App Inventor Forum]].
+    *[[http://ram8647.appspot.com/mobileCSP/forum|Mobile CSP Forum]].
+  *The read-only forum [[http://ftcforum.usfirst.org/forumdisplay.php?160-MIT-App-Inventor|FTC Forum "FTC Technology / MIT App Inventor"]]. Accounts require a "FTC team number" :-(.
+  *Facebook.
+    *[[http://www.facebook.com/MITAppInventor/|Facebook "MITAppInventor"]].
+    *[[http://www.facebook.com/gabrykapps/|Facebook "G-way Android Apps, @gabrykapps"]].
+  *Google.
+    *[[http://groups.google.com/group/appinventor|Google Groups "App Inventor Coffee Shop"]] ( - 2014-05-28 ) & [[http://groups.google.com/group/programming-with-app-inventor|Google Groups Forum "Programming with App Inventor"]] ( - 2014-05-28 ) & [[http://groups.google.com/group/mitappinventortest|Google Groups "MIT App Inventor Forum"]]. 
+      *[[http://groups.google.com/forum/#!msg/mitappinventortest/WkBSg01e4Q8/srRFiwBzhY4J|Google Groups "MIT App Inventor Forum", Thread "AI2 vs AI2Livecomplete vs Punya Framework"]], 2015-06-14.
+        *"I know AI2 and AI2Livecomplete but just found out about Punya Framework in another post. How do they all relate to each other? Is Punya Framework up to date with AI2? Punya Framework has a lot of sensors and other stuff that AI2 doesn't have. Is more better? Does Punya Framework use the latest AI2 source?".
+        *"Once you create a project using another server, which uses other blocks, you will not be able to import your project back in MIT App Inventor anymore".
+      *[[http://groups.google.com/forum/#!category-topic/mitappinventortest/specific-programming-issue/windows-8/firefox/emulator/home-network/mit-appinventor-2/5QYEFW_olGM|Google Groups "MIT App Inventor Forum", Thread "MIT App Inventor 2: May I / How to place alarms in the Android notification area?"]].
+      *[[http://groups.google.com/forum/#!category-topic/mitappinventortest/specific-programming-issue/wbL-4dd8EtU|Google Groups "MIT App Inventor Forum", Thread "How to set a device-independant path to an image file on SDCard, for the Image?"]] - > Use the generic path:<code>
+file:///storage/sdcard/Pictures/app_inventor_1234567890123.jpg
+file:///storage/sdcard0/Pictures/app_inventor_1234567890123.jpg
+file:///mnt/sdcard/Pictures/app_inventor_1234567890123.jpg</code>
+      *[[http://groups.google.com/forum/#!category-topic/mitappinventortest/specific-programming-issue/Kd8j2e29dTo|Google Groups "MIT App Inventor Forum", Thread "Red-lined box around TextBox components when running . apk ?!"]].
+      *[[http://groups.google.com/forum/#!category-topic/mitappinventortest/specific-programming-issue/L_FNkOkkNb8|Google Groups "MIT App Inventor Forum", Thread "White space at top of each App screen?"]].
+    *[[http://groups.google.com/group/app-inventor-open-source-dev|Google Groups "App Inventor Open Source Development"]].
+    *[[http://groups.google.com/group/ai4a|Google Groups "App Inventor for All"]].
+      *[[http://groups.google.com/forum/#!topic/ai4a/ajG4Q6UrRR8|Google Groups "App Inventor for All", Thread "Overview: Different App Inventor Distributions and Versions"]]#.
+    *[[http://groups.google.com/group//app-inventor-instructors|Google Groups "App Inventor in Education"]].
+    *[[http://groups.google.com/group/apptomarket/|Google Groups "AppToMarket"]] - "Use this forum to discuss App Inventor, AppToMarket and sdkBridger".
+    *[[http://groups.google.com/group/ailivecomplete|Google Groups "AppyBuilder"]].
+    *[[http://groups.google.com/group/mad-robots-forum|Google Groups "The Mad Robots  Forum"]].
+    *[[http://groups.google.com/group/cs4hs-css-2013|Google Groups "cs4hs-css-2013"]].
+    *[[http://groups.google.com/group/gwayapps|Google Groups "gwayapps"]].
+    *[[http://groups.google.com/group/mobile-csp-online|Google Groups "mobile-csp-online"]].
+    *[[http://groups.google.com/group/app-inventor-instructors|Google Groups Forum "App Inventor in Education"]]. 
+    *[[http://plus.googleapis.com/communities/105947935635530476764|Google+ "App Inventors Germany. App Inventors aus Deutschland"]].
+  *[[http://web.archive.org/web/*/http://www.tair.info/?post_type=forum|Archive.org "tAIR Forums"]] ( - 2014-08-12 ).
+  *[[http://bbs.windroye.com/|windroye Forum]], [[http://web.archive.org/web/*/http://bbs.windroye.com/|Archive.org "bbs.windroye.com"]] in Chinese language only :-( - "Discuz! Database Error" :-(.
+{{tag>"Google Android" Android}}
+<footnote_navi_en>

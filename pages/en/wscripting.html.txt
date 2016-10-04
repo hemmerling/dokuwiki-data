@@ -6,14 +6,18 @@ Related page:
   *"PowerShell User Group Hannover", Germany.
     *[[http://www.powershell-group.eu/|PowerShell Community]].
       *[[http://www.powershell-group.eu/events/|PowerShell Community "PowerShell User Group Hannover - Veranstaltungen"]].
-    *[[http://www.netz-weise.de/user-groups/powershell-user-group.html|Netz-Weise * IT-Training und Beratung "PowerShell User Group Hannover - Es ist Zeit!"]].
+    *[[http://www.netz-weise.de/user-groups/powershell-user-group.html|Netz-Weise * IT-Training und Beratung "PowerShell User Group Hannover - Es ist Zeit!"]] - Announcments of new meeting dates.
     *[[http://www.xing.com/communities/groups/powershell-usergroup-hannover-973d-1050146|XING "PowerShell Usergroup Hannover"]].
     *Starting with 2015-02-20, there will be a meeting on every 3rd. Friday in a month :-).
   *[[http://www.powershell.de/Powershell/Konferenz/|powershell.de "PowerShell Community Konferenz"]].
-    *in Oberhausen, Germany ( 2013-04-09 - 2014-09-11, 2014-05-06 - 2014-05-08 ). 
-    *in Essen, Germany ( 2015-04-21 - 2015-04-23 ).
-    *[[http://www.powertheshell.com/psconf2015/|PowerTheShell - Home of the ISESteroids for PowerShell "German PowerShell Conference 2015"]].
-    *[[http://www.powertheshell.com/psconf2015/wpk2015materials/|PowerTheShell - Home of the ISESteroids for PowerShell "Conference Materials & Impressions"]].
+    *[[http://www.powershell.de/Powershell/Konferenz/|powershell.de "PowerShell Community Konferenz"]].
+      *in Oberhausen, Germany ( 2013-04-09 - 2014-09-11, 2014-05-06 - 2014-05-08 ). 
+      *in Essen, Germany ( 2015-04-21 - 2015-04-23 ).
+      *[[http://www.powertheshell.com/psconf2015/|PowerTheShell - Home of the ISESteroids for PowerShell "German PowerShell Conference 2015"]].
+      *[[http://www.powertheshell.com/psconf2015/wpk2015materials/|PowerTheShell - Home of the ISESteroids for PowerShell "Conference Materials & Impressions"]].
+    *[[http://www.psconf.eu/|PowerShell Conference EU 2016]] ( PSConfEU ) in Hannover, 2016-04-20 - 2016-04-22.
+    *[[http://www.zazzle.de/powershell+kleidung|Zassel "Powershell Kleidung"]].
+
 ===== COMMAND.COM, 4DOS =====
   *[[http://www.jpsoft.com/| JP Software]]
      *4DOS - free command shell for MSDOS, Win95, Win98, Win98SE, WinME.
@@ -32,7 +36,9 @@ Related page:
 ==== Development Tools ====
   *Commercial Tools.
     -The commercial [[http://www.sapien.com/software/primalscript|SAPIEN Technologies, Inc "PrimalScript"]].
-    -The commercial [[http://www.scriptinternals.com/|ScriptInternals "SystemScripter"]] by Tobias Weltner.
+    -The formerly commercial, now free free [[http://www.scriptinternals.com/|ScriptInternals "SystemScripter"]] by Tobias Weltner.
+      *[[http://www.powertheshell.com/systemscripter-support/|powertheshell.com - Home of the ISEStereoids for PowerShell "SystemScripter Support - Continue to use SystemScripter without Activation"]]  - "For many years, we provided a sophisticated editor experience for VBScript called 'SystemScripter'. Now, 14 years after Microsoft stopped active VBScript development, we, too, finally retire the SystemScripter software. Effective immediately, SystemScripter software is no longer available for purchase, and no new activations are supported. In this article, you find the steps to bypass activation and use the software for as long as you may find it useful".
+At the same time, SystemScripter can now be used freely by anyone"
     -The commercial [[http://www.onscript.com/|XL.now "OnScript"]].
     -The commercial [[http://www.adminscripteditor.com/|Admin Script Editor (ASE)]].
     -The commercial [[http://www.vbsedit.com/|VbsEdit]].
@@ -66,6 +72,10 @@ Related page:
   *IDispatch.
     *[[http://en.wikipedia.org/wiki/IDispatch|EN.Wikipedia: "IDispatch"]].
     *[[http://technet.microsoft.com/en-gb/library/ee198909.aspx|Microsoft TechNet: Microsoft Windows 2000 Scripting Guide - COM Objects]] - "As noted previously in this chapter, VBScript works with a subset of objects known as Automation objects. All COM objects must support one or more interfaces, which are simply the avenues by which a COM client can access the COM server. Any object that supports the IDispatch interface is known as an Automation object. Because not all COM objects support the IDispatch interface, VBScript cannot access all of the COM objects on your computer".
+  *Blog [[http://blogs.technet.microsoft.com/sebastianklenk/|Microsoft Technet "Sebastian Klenk's Blog"]].
+    *[[http://blogs.technet.microsoft.com/sebastianklenk/2016/05/04/powershell-playground-automatisierung-von-system-center-configuration-manager-teil-1von3/|Microsoft Technet, Sebastian Klenk's Blog "PowerShell Playground – Automatisierung von System Center Configuration Manager (Teil 1/3)"]].
+    *[[http://blogs.technet.microsoft.com/sebastianklenk/2016/05/04/powershell-playground-repository-server-zur-verwaltung-und-pflege-von-powershell-skripten-teil-2von3/|Microsoft Technet, Sebastian Klenk's Blog "PowerShell Playground – Repository Server zur Verwaltung und Pflege von PowerShell-Skripten (Teil 2/3)"]].
+    *[[http://blogs.technet.microsoft.com/sebastianklenk/2016/05/04/powershell-playground-grafische-benutzeroberflachen-fur-powershell-skripte-teil-3von3/|Microsoft Technet, Sebastian Klenk's Blog "PowerShell Playground – Grafische Benutzeroberflächen für PowerShell-Skripte (Teil 3/3)"]].
   *Microsoft TechNet Script Center.
     *[[http://technet.microsoft.com/en-gb/scriptcenter/|Microsoft TechNet "Script Center"]] / [[http://gallery.technet.microsoft.com/ScriptCenter/en-us/|Microsoft TechNet Script Center Gallery]].
   *Microsoft Download Center: [[http://www.microsoft.com/downloads/details.aspx?familyid=B4CB2678-DAFB-4E30-B2DA-B8814FE2DA5A&displaylang=en|TechNet Script Center Sample Scripts]].
@@ -111,6 +121,19 @@ Related page:
   *[[http://en.wikipedia.org/wiki/Component_object_model|EN.Wikipedia: "Component Object Model"]].
   *[[http://en.wikipedia.org/wiki/Windows_Management_Instrumentation|EN.Wikipedia: "Windows Management Instrumentation"]].
 ===== Experts =====
+==== Bruce Payette ====
+  *"Windows PowerShell in Action".
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1935182137/hemmerling-21|Bruce Payette "Windows PowerShell in Action, Second Edition"]] - "This updated edition covers the latest changes in PowerShell 2.0, due in October 2009, with full chapters on remoting".
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1633430294/hemmerling-21|Bruce Payette "Windows PowerShell in Action, Third Edition"]], 2016-10.
+    *Accompanying websites:
+      *[[http://www.manning.com/payette/|Manning "Windows PowerShell in Action"]] for 1st. edition.
+      *[[http://www.manning.com/books/windows-powershell-in-action-second-edition|Manning "Windows PowerShell in Action, Second Edition"]].
+      *[[http://www.manning.com/books/windows-powershell-in-action-third-edition|Manning "Windows PowerShell in Action, Third Edition"]].
+        *"Manning Early Access Program (MEAP) Read chapters as they are written, get the finished eBook as soon as it’s ready, and receive the pBook long before it's in bookstores".
+        *"Publication in Spring 2016 (estimated)".
+  *[[http://www.twitter.com/BrucePayette|Twitter "Bruce Payette, @BrucePayette"]].
+  *[[http://blogs.msdn.com/b/powershell/archive/2006/04/28/586260.aspx|Windows PowerShell Blog. Automating the world one-liner at a time… "Bruce Payette is writing a book: PowerShell in Action"]], 2006-04-28.
+  *[[http://blogs.technet.com/b/heyscriptingguy/archive/2014/06/07/weekend-scripter-cool-powershell-profile-functions-from-bruce-payette.aspx|Hey, Scripting Guy! Blog. Learn about Windows PowerShell "Weekend Scripter: Cool PowerShell Profile Functions from Bruce Payette"]], 2014-06-07.
 ==== Alan Renouf @ VMware ====
   *[[http://www.virtu-al.net/|Virtu-Al.Net - Virtually everything is POSHable]].
   *[[http://blogs.vmware.com/PowerCLI/|VMware, Alan Renouf "VMware PowerCLI Blog"]].
@@ -175,6 +198,11 @@ Related page:
   *[[http://www.youtube.com/user/GermanPowerShell|YouTube Channel "Peter Kriegel"]].
   *[[http://www.github.com/Kriegel|GitHub "Kriegel"]].
   *[[http://www.twitter.com/PeterKriegel|Twitter "Peter Kriegel"]].
+==== Podcasts ====
+  *[[http://www.powershell.org/wp/powerscripting-podcast/|PowerScripting Podcast]].
+    *[[http://www.youtube.com/user/PowerScriptingLive|YouTube "PowerScripting Podcast"]].
+  *[[http://powerscripting.libsyn.com/|PowerScripting Podcast. A Podcast for people learning and using Windows PowerShell]].
+
 ==== Free Books about PowerShell ====
 === E-Books ===
   *The free PDF book [[http://go.veeam.com/powershell-study-guide|Veeam, Jeffrey Hicks "POWERSHELL FOR NEWBIES. Getting started with PowerShell 4.0"]].
@@ -298,6 +326,7 @@ Related page:
     -"Introduction to NuGet by John V. Petersen".
 ===== Forums, Newsgroups =====
   *[[http://www.adminscripteditor.com/forum/|Admin Script Editor]] Forum.
+  *[[http://www.facebook.com/powerscripting|Facebook "PowerScripting Podcast"]].
   *Google Groups:
     *[[http://groups.google.com/group/pester|Google Groups "Pester"]].
     *[[http://groups.google.com/group/chocolatey|Google Groups "chocolatey"]].

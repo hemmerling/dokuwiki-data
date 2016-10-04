@@ -3,8 +3,13 @@ Related pages:
   *[[requirements.html|Requirements]].
   *[[sdocumentation.html|Software Documentation]].
   *[[testing.html|Testing]].
+  *[[security.html|Security]].
   *[[systemdesign.html|System Design]].
 ===== The Movement =====
+==== Norms & Methologies ====
+  *"ISO/IEC 25010:2011".
+  *The legacy norm [[http://en.wikipedia.org/wiki/ISO/IEC_9126|EN.Wikipedia "ISO/IEC 9126"]], [[http://de.wikipedia.org/wiki/ISO/IEC_9126|DE.Wikipedia "ISO/IEC 9126"]] - "It has been replaced by ISO/IEC 25010:2011", "ISO/IEC then started work on SQuaRE (Software product Quality Requirements and Evaluation), a more extensive series of standards to replace ISO/IEC 9126, with numbers of the form ISO/IEC 250mn".
+  *[[http://en.wikipedia.org/wiki/SQALE|EN.Wikipedia "SQALE"]].
 ==== Manifesto of Software Craftsmanship ====
   *[[http://www.softwarecraftsmanship.org/|Software Craftsmanship North America]].
     *[[http://manifesto.softwarecraftsmanship.org/|Manifesto of Software Craftsmanship]].
@@ -26,7 +31,12 @@ Related pages:
     -[[http://en.wikipedia.org/wiki/Liskov_substitution_principle|EN.Wikipedia "Liskov substitution principle"]], [[http://de.wikipedia.org/wiki/Liskovsches_Substitutionsprinzip|DE.Wikipedia "Liskovsches Substitutionsprinzip"]].
     -[[http://en.wikipedia.org/wiki/Interface_segregation_principle|EN.Wikipedia "Interface segregation principle"]], [[http://de.wikipedia.org/wiki/Interface-Segregation-Prinzip|DE.Wikipedia "Interface-Segregation-Prinzip"]].
     -[[http://en.wikipedia.org/wiki/Dependency_inversion_principle|EN.Wikipedia "Dependency inversion principle"]], [[http://de.wikipedia.org/wiki/Dependency-Inversion-Prinzip|DE.Wikipedia "Dependency-Inversion-Prinzip"]] -> [[http://en.wikipedia.org/wiki/Dependency_injection|EN.Wikipedia "Dependency injection"]], [[http://de.wikipedia.org/wiki/Dependency_Injection|DE.Wikipedia "Dependency Injection"]] is one method of following this principle.
-====  Simple Design ====
+   *Communication by interfaces.
+     *[[http://en.wikipedia.org/wiki/Interface_segregation_principle|EN.Wikipedia "Interface segregation principle"]], [[http://de.wikipedia.org/wiki/Interface-Segregation-Prinzip|DE.Wikipedia "Interface-Segregation-Prinzip"]].
+     *Diamond structure of interfaces: There is just one-way calling direction, e.g. every class has an interface. 
+       *So the calling class calls the called class by the interface of the called card.
+       *But the calling class also has its own interface for getting answers by the called class.
+==== Simple Design ====
   *[[http://c2.com/xp/XpSimplicityRules.html|Xp Simplicity Rules]].
     *Simple code:
       -Runs all the tests.
@@ -38,126 +48,143 @@ Related pages:
   *[[http://en.wikipedia.org/wiki/Cargo_cult_programming|EN.Wikipedia "Cargo cult programming"]].
   *[[http://en.wikipedia.org/wiki/Copy_and_paste_programming|EN.Wikipedia "Copy and paste programming"]].
   *[[http://en.wikipedia.org/wiki/Magic_%28programming%29|EN.Wikipedia "Magic (programming)"]].
-
-===== Important Static Code Analysis Tools, according to VDC Research in 2015 =====
-  *Veracode (Veracode).
-  *SofCheck Inspector (AdaCore).
-  *Codan (Eclipse).
-  *CodeSonar, CodeSurfer (GrammaTech).
+===== Important Static Code Analysis Tools, according to VDC Research in 2015, 2016, 2016-08 =====
+  *Abraxas (CodeCheck).
+  *AdaCore.
+    *AdaCore (CodePeer), 2016.
+    *AdaCore (GNATcheck), 2016.
+    *SofCheck Inspector (AdaCore).
+  *Checkmarx (Checkmarx CxSAST).
+  *Cleanscape (Cleanscape LintPlus for C/C++ Lint, FortranLint).
+  *Coverity / Synopsys (Coverity Static Analysis Verification Engine).
   *Cppcheck (Sourceforge).
-  *PC-Lint/ FlexeLint (Gimpel Software).
-  *McCabe IQ (McCabe).
-  *HP Fortify Static Code Analyzer (HP).
-  *Cleanscape LintPlus for C/C++ Lint, FortranLint (Cleanscape).
-  *Klocwork Insight (Klocwork/Rogue Wave).
-  *CodeCheck (Abraxas).
-  *QA-C/C++ (Programming Research/PRQA).
-  *Polyspace (MathWorks).	
-  *Rational Appscan (IBM).
-  *Coverity Static Analysis Verification Engine SAVE (Coverity).
-  *Parasoft C++test/Jtest/dotTEST (Parasoft).
-  *Checkmarx CxSAST (Checkmarx).
-  *LDRA Testbed (LDRA).
-===== Multi-Language Static Code Analysis Tools =====
+  *Eclipse (Codan).
+  *Gimpel Software (PC-Lint/FlexeLint).
+  *GrammaTech (CodeSonar, CodeSurfer).
+  *HP (HP Fortify Static Code Analyzer).
+  *IBM (Rational Appscan).
+  *Klocwork / Rogue Wave (Insight) / Klocwork Insight.
+  *LDRA (LDRA Testbed).
+  *MathWorks (Polyspace).
+  *McCabe (McCabe IQ).
+  *Monroe Software (Quicktest), 2016-08.
+  *Parasoft (Parasoft C++test/Jtest/dotTEST).
+  *Programming Research / PRQA (QA-C/C++).
+  *Sourceforge (CPPcheck), 2016.
+  *Veracode (Veracode).
+===== Multi-Language Static Code Analysis Rules & Tools =====
+==== Rules ====
+=== CERT ===
+  *[[http://www.cert.org/|CERT, Software Engineering Institute (SEI), Carnegie Mellon University]].
+    *[[http://www.securecoding.cert.org/confluence/display/seccode/|CERT "CERT Secure Coding Standards"]].
+      *[[http://www.securecoding.cert.org/confluence/x/HQE|CERT "CERT C Secure Coding Standard"]].
+      *[[http://www.securecoding.cert.org/confluence/x/fQI|CERT C++ Secure Coding Standard]].
+      *[[http://www.securecoding.cert.org/confluence/x/Ux|The CERT Oracle Secure Coding Standard for Java]].
+      *[[http://www.informit.com/articles/article.aspx?p=2088511&WT.mc_id=Author_Seacord_SecureCRules|Informit "Robert C. Seacord: C Secure Coding Rules: Past, Present, and Future"]], 2013-06-26.
+    *[[http://www.cert.org/secure-coding/|CERT "Secure Coding"]].
+    *[[http://www.cert.org/tech_tips/|CERT "Tech Tips - Historical CERT Documents"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/0321822137/hemmerling-21|Robert Seacord: "The CERT C Secure Coding Standard (2nd Edition)"]].
+      *[[http://www.informit.com/store/secure-coding-in-c-and-c-plus-plus-9780321822130|Informit - Secure Coding in C and C++, 2nd Edition]] - extra material, by the publishing house.
+      *[[http://www.cert.org/books/secure-coding/first-edition/|CERT: C Secure Coding Standard]] - extra material, by the publishing house.
+      *[[http://www.cert.org/books/secure-coding/|CERT - "Robert C. Seacord: Secure Coding in C and C++ (2nd Edition)"]].
+=== Help to avoid Top Critical Errors / Vulnerabilities / Software Weakness ===
+== Common Weakness Enumeration ( CWE ) ==
+  *"A Community-Developed Dictionary of Software Weakness Types" - See [[security.html|Security]].
+== OWASP ==
+  *"OWASP Top Ten" -> See [[security.html|Security]].
+== SANS Institute ==
+  *See [[security.html|Security]].
+=== IPA/SEC ESCR Coding Standard ===
+  *[[http://www.ipa.go.jp/index-e.html|IPA]].
+    *[[http://www.ipa.go.jp/english/sec/reports/|IPA "Software Reliability EnhancementIPA:Software Engineering:Working to Improve Software Development Capabilities"]].
+      *The free PDF document [[http://www.ipa.go.jp/english/sec/reports/20140724.html|IPA "ESCR (Embedded System development Coding Reference) [C language edition] Ver. 2.0"]].
+      *The free PDF document [[http://www.ipa.go.jp/english/sec/reports/20130401f.html|IPA "IPA:Software Engineering:ESCR C++(Embedded System development Coding Reference)[C++ language edition]"]].
+  *[[http://www.ldra.com/|LDRA]].
+    *[[http://www.ldra.com/en/software-quality-test-tools/group/by-coding-standard/ipa-sec-c|LDRA "IPA/SEC ESCR Coding Standard Compliance"]].
+==== Tools ====
+=== Coala ===
+  *[[http://www.coala.io/|Coala - Linting and Fixing Code for All Languages]], [[http://www.github.com/coala-analyzer/|GitHub "coala development group"]], [[https://coala.readthedocs.io/|ReadTheDocs "coala: Language Independent Code Analysis"]] - "coala provides a unified command-line interface for linting and fixing all your code, regardless of the programming languages you use"
+=== PHP_CodeSniffer ===
   *The OpenSource [[http://www.github.com/squizlabs/PHP_CodeSniffer|GitHub "squizlabs / PHP_CodeSniffer"]] - "It tokenises PHP, JavaScript and CSS files and detects violations of a defined set of coding standards".
-  *The OpenSource [[http://pmd.sourceforge.net/|SourceForge "PMD"]], [[http://www.sourceforge.net/projects/pmd|SourceForge "PMD"]] - "A source code analyzer. It finds common programming flaws like unused variables, empty catch blocks, unnecessary object creation, and so forth. It supports Java, JavaScript, XML, XSL. Additionally it includes CPD, the copy-paste-detector. CPD finds duplicated code in Java, C, C++, C#, PHP, Ruby, Fortran, JavaScript".
-  *The OpenSoure [[http://www.sonarqube.org/|SonarQube]], [[http://sonar.codehaus.org/|Codehaus SonarQube]] - "A code quality management platform, dedicated to continuously analyze and measure technical quality, from the projects portfolio to the class method". 
-    *[[http://www.sonarqube.org/features/|SonarQube - Features]] - "Languages Support - More than 20 languages".
-    *[[http://docs.codehaus.org/|Codehaus Dashboard]].
-      *[[http://docs.codehaus.org/display/SONAR/Plugin+Library|Codehaus Dashboard "SonarQube Plugin Library"]].
-        *[[http://docs.codehaus.org/display/SONAR/Java+Ecosystem|Codehaus Dashboard "Java Ecosystem"]].
-        *[[http://docs.codehaus.org/display/SONAR/Python+Plugin|Codehaus Dashboard "SonarQube Python Plugin"]].
-    *[[http://www.codehaus.org/|Codehaus]].
-    *[[http://www.codehaus.org/featured/sonar.html|Codehaus "Featured Project - SonarQube"]].
-===== Static Code Analysis Tools for Java =====
-  *"Java -Xlint".
-    *[[http://www.javaworld.com/article/2073587/javac-s--xlint-options.html|Java World "javac's -Xlint Options"]].
-  *[[http://www.crap4j.org/|Crap4j]], [[http://code.google.com/p/crap4j/|Google Code " crap4j. A tool for assessing Java project quality"]].
-    *"Change Risk Analysis and Predictions" ( CRAP, C.R.A.P. ).
-      *[[http://www.artima.com/weblogs/viewpost.jsp?thread=210575|artima "Alberto Savoia: Agitating Thoughts & Ideas
-Pardon My French, But This Code Is C.R.A.P."]].
-      *[[http://www.francodacosta.com/development/your-code-is-crap|Nuno Franco Da Costa "Your code is CRAP"]] -> PHPUnit.
-      *[[http://jacobsantos.com/blog/2007/general/what-is-your-crap-index|Santos Jacob "What is your C.R.A.P. Index?"]] - "The upcoming 3.2 release" of PHPUnit "will include software metrics, one of which is Cyclomatic Complexity. Cyclomatic Complexity is used in finding the C.R.A.P. index of a method".
-      *[[http://www.levihackwith.com/how-to-read-and-improve-the-c-r-a-p-index-of-your-code/|Levi Hackwith "How to Read and Improve the C.R.A.P Index of your code"]].
-      *[[http://wiki.oxidforge.org/Certification/Modules|OXIDwiki "Certification/Modules"]].
-      *[[http://semantic-mediawiki.org/wiki/Help:Code_coverage_in_a_nutshell|Semantic MediaWiki "Help:Code coverage in a nutshell"]].
-      *[[http://en.wikipedia.org/wiki/Software_metric|EN.Wikipedia "Software metric"]], [[http://de.wikipedia.org/wiki/Softwaremetrik|DE.Wikipedia "Softwaremetrik"]] - " C.R.A.P. ( Change Risk Analysis and Predictions )"
-  *[[http://checkstyle.sourceforge.net/|Sourceforge "Checkstyle"]], [[http://www.sourceforge.net/projects/checkstyle/|Sourceforge "Checkstyle"]] - "A development tool to help programmers write Java code that adheres to a coding standard. It automates the process of checking Java code to spare humans of this boring (but important) task".
-    *[[http://eclipse-cs.sourceforge.net/|Sourceforge "Eclipse Checkstyle Plug-in"]], [[http://www.sourceforge.net/projects/eclipse-cs/|Sourceforge "Eclipse Checkstyle Plug-in"]] - Eclipse plugin for Checkstyle.
-    *Checkstyle is dedicated to check programming style guidelines :-).
-    *Checkstyle uses an ANTLR grammar for Java "com/puppycrawl/tools/checkstyle/grammars/java.g".
-    *[[http://en.wikipedia.org/wiki/ANTLR|EN.Wikipedia "ANTLR"]], [[http://de.wikipedia.org/wiki/ANTLR|DE.Wikipedia "ANTLR"]].
-    *[[http://en.wikipedia.org/wiki/Abstract_syntax_tree|EN.Wikipedia "Abstract syntax tree"]], [[http://de.wikipedia.org/wiki/Abstrakter_Syntaxbaum|DE.Wikipedia "Abstrakter Syntaxbaum"]] ( AST ).
-  *[[http://code.google.com/intl/de/javadevtools/|Google Java Developer Tools]] "CodePro AnalytiX" - "A free powerful software code quality, testing and static analysis tool".
-  *[[http://findbugs.sourceforge.net/|Sourceforge "FindBugs - Find Bugs in Java Programs"]], [[http://www.sourceforge.net/projects/findbugs/|Sourceforge "FindBugs - A static analysis tool to find bugs in Java programs"]].
-    *The [[http://findbugs.cs.umd.edu/eclipse/|FindBugs Eclipse plugin update site]].
-    *[[http://fb-contrib.sourceforge.net/|SourceForge "fb-contrib: A FindBugs auxiliary detector plugin"]], [[http://www.sourceforge.net/projects/fb-contrib|SourceForge "fb-contrib"]].
-    *[[http://www.ibm.com/developerworks/java/library/j-findbug1/|IBM DeveloperWorks, Chris Grindstaff "FindBugs, Part 1: Improve the quality of your code.Why and how to use FindBugs"]].
-    *[[http://www.ibm.com/developerworks/library/j-findbug2/|IBM DeveloperWorks, Chris Grindstaff "FindBugs, Part 2: Writing custom detectors. How to write custom detectors to find application-specific problems"]].
-    *Findbugs analysis Java bytecode ( so is suitlable to analyse .JAR libraries and .JAR executables too ) and focusses on correctness bugs :-).
-  *The commercial [[http://www.parasoft.com/|Parasoft]] Jtest - Java Testing, Static Analysis, Code Review".
-  *The commercial [[http://www.xanitizer.net/|Xanitizer]] - "Web Application Security mit Statischer Code Analyse", "Analysiert den Programmcode der Applikation und sucht darin systematisch nach Sicherheitslücken für Angriffsmethoden, wie z.B. SQL Injection, Cross-Site Scripting oder Command Injection", "unterstützt insbesondere die Analyse von Java Webapplikationen inklusive Web-Frameworks"
-
-===== Static Code Analysis Tools for Javascript =====
-  *The OpenSource [[http://www.javascriptlint.com/|JavaScript Lint]], [[http://javascriptlint.sourceforge.net/|SourceForge "JavaScript Lint"]], [[http://www.sourceforge.net/projects/javascriptlint|SourceForge "JavaScript Lint"]].
-    *The free online service [[http://www.javascriptlint.com/online_lint.php|JavaScript Lint - Online Lint]].
-  *[[http://www.jslint.com/|JSLint]], [[http://www.github.com/douglascrockford/JSLint/|GitHub "douglascrockford/JSLint"]] - "The JavaScript Code Quality Tool".
-    *[[http://www.stackoverflow.com/questions/17770048/why-does-jslint-give-strict-violation-error-on-this-function|StackOverflow "Why does JSLint give strict violation error on this function?"]] - "This is because JSLint doesn't recognize your function as a constructor. By convention, you must use uppercase letters".
-    *[[http://en.wikipedia.org/wiki/JSLint|EN.Wikipedia "JSLint"]], [[http://de.wikipedia.org/wiki/JSLint|DE.Wikipedia "JSLint"]].
-  *[[http://www.jshint.com/|JSHint]] - "A JavaScript Code Quality Tool".
-    *[[http://en.wikipedia.org/wiki/JSHint|EN.Wikipedia "JSHint"]], [[http://de.wikipedia.org/wiki/JSHint|DE.Wikipedia "JSHint"]].
-  *[[http://github.com/reid/node-jslint|Github "reid / node-jslint"]] - "The JavaScript Code Quality Tool — for Node.js".
-
-===== Static Code Analysis Tools for .NET =====
-==== C# ====
-  *The commercial [[http://www.parasoft.com/|Parasoft]] doTEST - ".NET Static Analysis, Code Review, Unit Testing".
-==== Powershell ====
-  *"ScriptCop" - See [[wscripting02.html|Scripting Languages for Windows 2/2 - Windows Powershell]].
-===== Rules & Tools for PHP =====
-==== Pear Coding Standards ====
-  *[[http://pear.php.net/manual/en/standards.php|The PHP Group - pear "Coding Standards"]].
-==== PHP Standard Requirements ( PSR ) ====
-  *[[http://www.php-fig.org/|PHP-FIG — PHP Framework Interop Group]].
-  *[[http://www.github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md|GitHub "php-fig / fig-standards", "PSR-2-coding-style-guide.md"]] - "Coding Style Guide".
-  *[[http://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md|GitHub "php-fig / fig-standards", "PSR-1-basic-coding-standard.md"]] - "Basic Coding Standard".
-==== Static Code Analysis Tools ====
-  *Sebastian Bergmann.
-    *[[http://www.github.com/sebastianbergmann/phploc/|GitHub "sebastianbergmann / phploc"]] - "A tool for quickly measuring the size and analyzing the structure of a PHP project".
-    *[[http://www.github.com/sebastianbergmann/phpcpd|GitHub "sebastianbergmann / phpcpd"]] - "Copy/Paste Detector (CPD) for PHP code".
-  *[[http://www.github.com/fabpot/PHP-CS-Fixer|GitHub "fabpot/PHP-CS-Fixer"]].
-  *[[http://www.pdepend.org/|PHP Depend]] - "Software Metrics for PHP".
-  *[[http://www.phpmd.org/|PHPMD - PHP Mess Detector]] - "It is a spin-off project of [[http://www.pdepend.org/|PHP Depend]] and aims to be a PHP equivalent of the well known Java tool PMD".
-  *[[http://cs.sensiolabs.org/|Sensio Labs "PHP Coding Standards Fixer. The PSR-1 and PSR-2 Coding Standards fixer for your code"]].
-==== Resources ====
-  *[[http://jason.pureconcepts.net/2012/11/php-coding-standards/|Jason McCreary. A PHP and iOS developer. A thinker "Be a Better PHP Developer: Coding Standards"]].
-===== Static Code Analysis Tools for Python =====
-  *See [[python04.html|Python 4/6 - Pro & Contra]].
-===== Static Code Analysis Tools for Tcl / Tk =====
-  *See [[tickle.html|Tcl / Tk ( tickle ) 2/2 - Debugging & Testing]].
-===== ConQAT - Toolkit for rapid Development and Execution of Software Quality Analyses =====
-  *The OpenSource toolkit for rapid development and execution of software quality analyses [[http://www.conqat.org/|CQSE GmbH "ConQAT"]] in Java and .NET 2.0, for Java, C#, C/C++,...
-  *Blog [[http://www.cqse.eu/en/blog/|CQSE GmbH "Software Quality Blog"]].
-  *[[http://de.wikipedia.org/wiki/ConQAT|DE.Wikipedia "ConQAT"]], [[http://en.wikipedia.org/wiki/ConQAT|EN.Wikipedia "ConQAT"]].
-===== MISRA-C, MISRA C++ =====
-==== MISRA - MISRA-C:1998, MISRA-C:2004, MISRA-C++:2008, MISRA-C:2012 ====
-=== The Norm ===
+=== SonarQube ===
+== The Tool ==
+  *The OpenSoure [[http://www.sonarqube.org/|SonarQube]], [[http://www.sonarsource.com/|SonarSource]] - "A code quality management platform, dedicated to continuously analyze and measure technical quality, from the projects portfolio to the class method". 
+    *[[http://www.sonarsource.com/products/editions/|SonarSource "Editions"]].
+      *[[http://www.sonarsource.com/products/editions/community-edition/|SonarSource "Community Edition"]].
+    *[[http://www.sonarqube.org/features/|SonarQube "Features"]] - "Languages Support - More than 20 languages".
+    *[[http://docs.sonarqube.org/display/SONAR/Documentation|SonarQube "Documentation"]].
+      *[[http://docs.sonarqube.org/display/PLUG/Plugin+Library|SonarQube "Plugin Library"]].
+        *[[http://docs.sonarqube.org/display/PLUG/Java+Ecosystem|SonarQube "Java Ecosystem"]].
+        *[[http://docs.sonarqube.org/display/PLUG/Python+Plugin|SonarQube "SonarQube Python Plugin"]].
+    *SonarQube plugins for other host software.
+      *[[https://wiki.jenkins-ci.org/display/JENKINS/SonarQube+plugin|Jenkins "SonarQube plugin"]] - I was told by experts, that you may break a built, using SonarQube with Jenkins by such a plugin...
+    *The Codehaus.
+      *[[http://web.archive.org/web/*/http://www.codehaus.org/|The Codehaus]] - "The platform was to be terminated at the end of February 2015".
+      *[[http://www.github.com/codehaus/|GitHub "The Codehaus"]].
+== Components ==
+  *The OpenSource [[http://pmd.github.io/|GitHub.io "PMD"]], [[https://www.github.com/pmd|GitHub "PMD"]], [[http://pmd.sourceforge.net/|SourceForge "PMD"]], [[http://www.sourceforge.net/projects/pmd|SourceForge "PMD"]] - "A source code analyzer. It finds common programming flaws like unused variables, empty catch blocks, unnecessary object creation, and so forth. It supports Java, JavaScript, XML, XSL. Additionally it includes CPD, the copy-paste-detector. CPD finds duplicated code in Java, C, C++, C#, PHP, Ruby, Fortran, JavaScript".
+    *[[http://pmd.sourceforge.net/pmd-4.3/integrations.html|SourceForge "PMD" - "Integrations with IDEs"]].
+    *[[http://en.wikipedia.org/wiki/PMD_%28software%29|EN.Wikipedia "PMD (software)"]], [[http://de.wikipedia.org/wiki/PMD_%28Software%29|DE.Wikipedia "PMD (Software)"]].
+  *[[http://github.com/findbugsproject/|GitHub "The FindBugs project. Project working on the FindBugs project, a static analysis tool for Java"]], [[http://findbugs.sourceforge.net/|SourceForge "FindBugs - Find Bugs in Java Programs"]], [[http://www.sourceforge.net/projects/findbugs|SourceForge "FindBugs"]].
+    *[[http://marketplace.eclipse.org/content/findbugs-eclipse-plugin|Eclipse Marketplace "FindBugs Eclipse Plugin"]].
+    *[[http://en.wikipedia.org/wiki/FindBugs|EN.Wikipedia "FindBugs"]], [[http://de.wikipedia.org/wiki/FindBugs|DE.Wikipedia "FindBugs"]].
+  *[[http://www.github.com/checkstyle/|GitHub "Checkstyle"]], [[http://checkstyle.sourceforge.net/|SourceForge "checkstyle"]], [[http://www.sourceforge.net/projects/checkstyle|SourceForge "checkstyle - static code analysis tool for Java"]].
+    *[[http://en.wikipedia.org/wiki/Checkstyle|EN.Wikipedia "Checkstyle"]], [[http://de.wikipedia.org/wiki/Checkstyle|DE.Wikipedia "Checkstyle"]].
+== SonarLint ==
+  *[[http://www.sonarlint.org/|SonarLint]].
+    *[[http://www.sonarlint.org/eclipse/|SonarLint for Eclipse]].
+    *[[http://www.sonarlint.org/visualstudio/|SonarLint for Visual Studio]].
+  *[[http://www.github.com/SonarSource/sonarlint-eclipse|GitHub "SonarSource/sonarlint-eclipse"]].
+  *[[http://marketplace.eclipse.org/content/sonarlint|Eclipse Marketplace "SonarLint"]].
+  *[[http://www.twitter.com/sonarlint|Twitter "SonarLint, @SonarLint"]].
+== Resources ==
+  *Experts told me in 2016-08, that with new releases, there might be not just new features, but some features might be discontinued too, unexpectedly...
+  *[[http://en.wikipedia.org/wiki/SonarQube|EN.Wikipedia "SonarQube"]], [[http://de.wikipedia.org/wiki/SonarQube|DE.Wikipedia "SonarQube"]].
+===== Static Code Analysis Rules & Tools for C/C++ =====
+==== Rules ====
+=== High Integrity C++ Coding Standard ( HIC++ ) ===
+  *[[http://www.codingstandard.com/|High Integrity C++ Coding Standard Version]] - "Request High Integrity C++ Coding Standard. Complete this form to receive your PDF of the coding standard promptly by email".
+    *[[http://en.wikipedia.org/wiki/High_Integrity_C%2B%2B|EN.Wikipedia "High Integrity C++"]].
+=== Joint Strike Fighter ( JSF ) ===
+  *[[http://www.jsf.mil/downloads/down_documentation.htm|Joint Strike Fighter (JSF) Program - Downloads]] - "[[http://www.jsf.mil/downloads/documents/JSF_AV_C%2B%2B_Coding_Standards_Rev_C.doc|JSF Air Vehicle - C++ Coding Standards (Revision C)]]" ( DOC ).
+=== Netrino C ===
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1442164824/hemmerling-21|Michael Barr "Embedded C Coding Standard"]], 2009 - The official "Barr Group / Netrino" coding rules.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0596009836/hemmerling-21|Michael Barr "Programming Embedded Systems.: With C and GNU Development Tools"]], 2006.
+  *[[http://www.ldra.com/|LDRA]].
+    *[[http://www.ldra.com/en/software-quality-test-tools/group/by-coding-standard/netrino-c|LDRA "Netrino C – The Embedded C Coding Standard by the Barr Group"]].
+  *[[http://www.barrgroup.com/|Barr Group]].
+    *[[http://www.barrgroup.com/Embedded-Systems/Books/Embedded-C-Coding-Standard|Barr Group "Barr Group's Embedded C Coding Standard"]].
+    *[[http://www.barrgroup.com/Embedded-Systems/How-To/Bug-Killing-Standards-for-Embedded-C|Barr Group "Bug-Killing Coding Standard Rules for Embedded C"]].
+      *[[http://www.slideshare.net/TmThanh/standard-embedded-c|SlideShare "Embedded C Coding Standard"]].
+    *[[http://www.netrino.com/taxonomy/term/3|Barr Group "Embedded C/C++. Articles relating to C or C++ programming techniques used by embedded software developers"]].
+    *The free quiz [[http://www.barrgroup.com/Embedded-Systems/Embedded-C-Quiz|Barr Group "Embedded C Quiz"]].
+  *[[http://www.netrino.com/| Netrino, LLC. - The Embedded System Experts]].
+    *The free quiz [[http://www.netrino.com/Embedded-Systems/Embedded-C%20%20-Quiz|Netrino "Embedded C++ Quiz"]].
+=== quEST ===
+  *[[http://www.phaedsys.demon.co.uk/|Phaedrus Systems "quEST"]].
+    *[[http://www.phaedsys.demon.co.uk/chris/quest/|Chris A Hills, Phaedrus Systems "Quality Embedded Software Techniques"]].
+    *[[http://www.phaedsys.demon.co.uk/chris/misra-c/misrac.htm|Chris A Hills, Phaedrus Systems "MISRA-C [1] A Standard for Embedded and Real-time C"]].
+    *[[http://www.phaedsys.demon.co.uk/chris/sweng/lint.htm|Chris A Hills, Phaedrus Systems "PC Lint"]].
+==== MISRA-C, MISRA C++ ( Rules & Tools ) ====
+=== MISRA - MISRA-C:1998, MISRA-C:2004, MISRA-C++:2008, MISRA-C:2012 ===
+== The Norm ==
   *[[http://en.wikipedia.org/wiki/MISRA-C|EN Wikipedia "MISRA-C"]], [[http://de.wikipedia.org/wiki/MISRA-C|DE.Wikipedia "MISRA-C"]].
   *[[http://www.misra-c.com/|MISRA C]], [[http://www.misra-cpp.com/|MISRA C++]].
   *[[http://www.misra-day.de/|MISRA DAY]].
-=== Official Literature ===
+== Official Literature ==
   *[[http://read.pudn.com/downloads89/ebook/341027/rules1998.pdf|Guidelines For The Use Of The C Language In Vehicle Based Software]], 1998.
   *[[http://netstorage.iar.com/SuppDB/Public/UPDINFO/006220/EW_MisraC1998Reference.pdf|IAR Embedded Workbench MISRA C:1998 Reference Guide]] ( PDF ).
   *[[http://caxapa.ru/thumbs/468328/misra-c-2004.pdf|MISRA-C:2004. Guidelines for the use of the C language in critical systems]] ( PDF ). 
   *[[http://home.sogang.ac.kr/sites/gsinfotech/study/study021/Lists/b7/Attachments/91/Chap%207.%20MISRA-C%20rules.pdf|MISRA C Rules]] ( PDF ) - The PDF extraction of chapter 7 of the MISRA-C:2004 book.
   *[[http://frey.notk.org/books/MISRA-Cpp-2008.pdf|MISRA-C++:2008. Guidelines for the use of the C++ language in critical systems]] ( PDF ).
-==== Herstellerinitiative Software ( HIS ) / Hersteller Initiative Software ( HIS ) ====
+=== Herstellerinitiative Software ( HIS ) / Hersteller Initiative Software ( HIS ) ===
   *[[http://www.automotive-his.de/|Herstellerinitiative Software]] ( HIS ).
   *[[http://portal.automotive-his.de/index.php?option=com_content&task=view&id=21&Itemid=30|Herstellerinitiative Software "Software Test"]].
     *[[http://portal.automotive-his.de/images/pdf/SoftwareTest/his_subset_misra_c_1.0.3.pdf|Gemeinsames Subset der MISRA C Guidelines 1.0.3]] ( PDF ), 2004-04-20 - Definition of a subset of the "MISRA Guidelines Version 1998".
       *The MISRA-C rules 3, 4, 6, 12, 15, 28, 44, 49, 82, 92, 110, 111 are no HIS rules.
     *[[http://portal.automotive-his.de/images/pdf/SoftwareTest/his_subset_misra_c_2.0.pdf|Gemeinsames Subset der MISRA C Guidelines 2.0]] ( PDF ), 2006-02-14 - Definition of "MISRA Guidelines Version 2004" as standard, no subset. 
   *"HIS Source Code Metrics" :-).
-==== Tools ====
+=== Tools ===
   *[[http://www.gimpel.com/|Gimpel Software]].
     *[[http://www.gimpel.com/html/misra.htm|Gimpel Software "MISRA C checking provided by PC-lint/FlexeLint"]].
     *PC-lint for C/C++ on Windows.
@@ -211,34 +238,12 @@ Pardon My French, But This Code Is C.R.A.P."]].
     *With CCS 5.5.0.
       *"C:\<ccs installation directory>\msp430\MSP430ware\eclipse\plugins\com.ti.ccstudio.buildDefinitions.MSP430_5.5.0.201308270800\resources\buildDefinitions\native\metadata" contains two XML files ( "CHECK_MISRA__MSP430_3.3.xml", "CHECK_MISRA__MSP430_3.4.xml") with the incomplete (!) text of the MISRA-C rules - some rules are missing.
       *If you installed CCS with support for either C2000 or ARM, you can find the file with a list of all implemented MISRA-C:2004 rules in "<ccs installation directory>\ccsv5\tools\compiler\arm_5.1.1\misra.txt" or "<ccs installation directory>\ccsv5\tools\compiler\c2000_6.2.0\misra.txt". The file is not shipped with the MSP430 C compiler.
-
-==== Tools with Target Runtimes ====
-  *IBM Rational Rhapsody ( see [[uml.html|Unified Modeling Language ( UML ), Systems Modeling Language ( SysML )]] ) with "Simplified C++ Execution Framework" ( SXF C++​ ).
-    *[[http://www.ibm.com/support/docview.wss?uid=swg27021396|IBM "IBM Rational Rhapsody Software Version 7.6 and Rhapsody Design Manager Version 3.0: New Features and Enhancements"]] - "MISRA C++ 2008 compliance with modeling checks​".
-    *[[http://publib.boulder.ibm.com/infocenter/rhaphlp/v7r6/index.jsp?topic=%2Fcom.ibm.rhp.frameworks.doc%2Ftopics%2Frhp_c_fw_sxf_framework.html|IBM Rational Rhapsody 7.6 Help "Simplified C++ execution framework (SXF)"]].
-    *[[http://publib.boulder.ibm.com/infocenter/rhaphlp/v7r6/index.jsp?topic=%2Fcom.ibm.rhp.overview.doc%2Ftopics%2Frhp_r_ref_projectsettings.html|IBM Rational Rhapsody 7.6 Help "Project settings"]].
-
-^ ^ ^ ^ 
-^# ^ Simplified (SXF) ^ Standard C++ Execution Framework (OXF) ^
-^ 1 | Static architecture | Dynamic allocation​ |
-^ 2 | MISRA C++ 2008 compliance with modeling checks​ | Not validated for MISRA |
-^ 3 | No animation, tracing | Animation, tracing​ |
-^ 4 | Only Real Time mode​ | Real Time, Simulated Time modes​ |
-^ 5 | No containers (can be added) | Containers |
-^ 6 | Static memory manager ​(only BasedNumberOfInstances)​ | Static memory manager |
-^ 7 | Flat state charts​ | Flat, reusable state charts​ |
-^ 8 | No multicore​ | Multicore​ |
-^ 9 | No interfaces | Interface-based​ |
-^ 9 | No ports | Ports |
-^ 9 | Windriver Workbench 653 Adapter or Microsoft Visual Studio 2008 or 2010 (for host) support | Multiple operating systems support​ |
-^ | | |​	
-​ ​	
-===== Some other Static Code Analysis Tools for C/C++ =====
-==== Embedded Systems ====
+==== Some other Static Code Analysis Tools for C/C++ ====
+=== Embedded Systems ===
   *[[http://www.github.com/saaadhu/naggy|GitHub "saaadhu/naggy"]] for the IDE "Atmel Studio 6" & Atmel "C/C++" compiler chain.
     *Installation is integrated into the IDE "Atmel Studio 6".
     *"A live compiler diagnostics extension for Atmel Studio", "An Atmel Studio extension that uses the Clang frontend from the LLVM project to show errors/warnings on the fly, and to lowlight code excluded by preprocessor directives".
-==== General ====
+=== General ===
   *Microsoft PREfast - A "C++" static code checker.
     *PREfast is integrated in Visual Studio.NET Team Edition and is also included in the "Windows Server 2003 SP1 DDK" and the "Windows Driver Kit (WDK)".
     *[[http://www.microsoft.com/whdc/devtools/tools/PREfast.mspx|Windows Hardware Developer Central "PREfast for Drivers"]].
@@ -263,12 +268,111 @@ Pardon My French, But This Code Is C.R.A.P."]].
   *[[http://en.wikipedia.org/wiki/Static_code_analysis|EN.Wikipedia "Static code analysis"]].
   *[[http://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis|EN.Wikipedia "List of tools for static code analysis"]].
   *[[http://en.wikipedia.org/wiki/Automated_code_review|EN.Wikipedia "Automated code review"]] - list of free tools.
-===== Additional Tools which play with PC-Lint =====
+==== Additional Tools which play with PC-Lint ====
   *[[http://www.riverblade.co.uk/products/visual_lint/|Riverblade "Visual Lint"]] for Windows.
      *"To use Visual Lint, you must have access to licenced installations of [[http://www.gimpel.com/|PC-lint]] and Microsoft Visual Studio 2003 Pro, 2005 Pro, 2008 Pro, 2010 Pro". 
      *"Support for Eclipse is under development" ( 2010-12 ).
   *[[http://www.xoreax.com/case_study_riverblade.htm|Xoreax Software "IncrediBuild"]] - A 30 days trial version is available for download..
     *[[http://www.xoreax.com/case_study_riverblade.htm|Xoreax Software "Accelerating PC-Lint C++ Code Analysis"]].
+===== Static Code Analysis Rules & Tools and dynamic Code Analysis Tools for Java =====
+==== Static Code Analysis Rules ====
+  *[[http://www.oracle.com/technetwork/java/javase/documentation/codeconvtoc-136057.html|Oracle "Code Conventions for the Java TM Programming Language"]], 1999-04-20.
+  *[[http://wiki.gnome.org/Apps/Dia/CodingGuidelines|Gnome "Dia" - Coding Guidelines]] - "The base of the coding guidelines are Sun's guidelines for Java, even though Dia is written in C".
+==== Static Code Analysis Tools ====
+  *"Java -Xlint".
+    *[[http://www.javaworld.com/article/2073587/javac-s--xlint-options.html|Java World "javac's -Xlint Options"]].
+  *[[http://www.crap4j.org/|Crap4j]], [[http://code.google.com/p/crap4j/|Google Code " crap4j. A tool for assessing Java project quality"]].
+    *"Change Risk Analysis and Predictions" ( CRAP, C.R.A.P. ).
+      *[[http://www.artima.com/weblogs/viewpost.jsp?thread=210575|artima "Alberto Savoia: Agitating Thoughts & Ideas
+Pardon My French, But This Code Is C.R.A.P."]].
+      *[[http://www.francodacosta.com/development/your-code-is-crap|Nuno Franco Da Costa "Your code is CRAP"]] -> PHPUnit.
+      *[[http://jacobsantos.com/blog/2007/general/what-is-your-crap-index|Santos Jacob "What is your C.R.A.P. Index?"]] - "The upcoming 3.2 release" of PHPUnit "will include software metrics, one of which is Cyclomatic Complexity. Cyclomatic Complexity is used in finding the C.R.A.P. index of a method".
+      *[[http://www.levihackwith.com/how-to-read-and-improve-the-c-r-a-p-index-of-your-code/|Levi Hackwith "How to Read and Improve the C.R.A.P Index of your code"]].
+      *[[http://wiki.oxidforge.org/Certification/Modules|OXIDwiki "Certification/Modules"]].
+      *[[http://semantic-mediawiki.org/wiki/Help:Code_coverage_in_a_nutshell|Semantic MediaWiki "Help:Code coverage in a nutshell"]].
+      *[[http://en.wikipedia.org/wiki/Software_metric|EN.Wikipedia "Software metric"]], [[http://de.wikipedia.org/wiki/Softwaremetrik|DE.Wikipedia "Softwaremetrik"]] - " C.R.A.P. ( Change Risk Analysis and Predictions )"
+  *[[http://checkstyle.sourceforge.net/|Sourceforge "Checkstyle"]], [[http://www.sourceforge.net/projects/checkstyle/|Sourceforge "Checkstyle"]] - "A development tool to help programmers write Java code that adheres to a coding standard. It automates the process of checking Java code to spare humans of this boring (but important) task".
+    *[[http://eclipse-cs.sourceforge.net/|Sourceforge "Eclipse Checkstyle Plug-in"]], [[http://www.sourceforge.net/projects/eclipse-cs/|Sourceforge "Eclipse Checkstyle Plug-in"]] - Eclipse plugin for Checkstyle.
+    *Checkstyle is dedicated to check programming style guidelines :-).
+    *Checkstyle uses an ANTLR grammar for Java "com/puppycrawl/tools/checkstyle/grammars/java.g".
+    *[[http://en.wikipedia.org/wiki/ANTLR|EN.Wikipedia "ANTLR"]], [[http://de.wikipedia.org/wiki/ANTLR|DE.Wikipedia "ANTLR"]].
+    *[[http://en.wikipedia.org/wiki/Abstract_syntax_tree|EN.Wikipedia "Abstract syntax tree"]], [[http://de.wikipedia.org/wiki/Abstrakter_Syntaxbaum|DE.Wikipedia "Abstrakter Syntaxbaum"]] ( AST ).
+  *[[http://code.google.com/intl/de/javadevtools/|Google Java Developer Tools]] "CodePro AnalytiX" - "A free powerful software code quality, testing and static analysis tool".
+  *[[http://findbugs.sourceforge.net/|Sourceforge "FindBugs - Find Bugs in Java Programs"]], [[http://www.sourceforge.net/projects/findbugs/|Sourceforge "FindBugs - A static analysis tool to find bugs in Java programs"]].
+    *The [[http://findbugs.cs.umd.edu/eclipse/|FindBugs Eclipse plugin update site]].
+    *[[http://fb-contrib.sourceforge.net/|SourceForge "fb-contrib: A FindBugs auxiliary detector plugin"]], [[http://www.sourceforge.net/projects/fb-contrib|SourceForge "fb-contrib"]].
+    *[[http://www.ibm.com/developerworks/java/library/j-findbug1/|IBM DeveloperWorks, Chris Grindstaff "FindBugs, Part 1: Improve the quality of your code.Why and how to use FindBugs"]].
+    *[[http://www.ibm.com/developerworks/library/j-findbug2/|IBM DeveloperWorks, Chris Grindstaff "FindBugs, Part 2: Writing custom detectors. How to write custom detectors to find application-specific problems"]].
+    *Findbugs analysis Java bytecode ( so is suitlable to analyse .JAR libraries and .JAR executables too ) and focusses on correctness bugs :-).
+  *The commercial [[http://www.parasoft.com/|Parasoft]] Jtest - Java Testing, Static Analysis, Code Review".
+  *The commercial [[http://www.xanitizer.net/|Xanitizer]] - "Web Application Security mit Statischer Code Analyse", "Analysiert den Programmcode der Applikation und sucht darin systematisch nach Sicherheitslücken für Angriffsmethoden, wie z.B. SQL Injection, Cross-Site Scripting oder Command Injection", "unterstützt insbesondere die Analyse von Java Webapplikationen inklusive Web-Frameworks"
+==== Code Coverage Tools for Java ====
+  *[[http://wwww.eclemma.org/|ECLEmma]].
+  *[[http://emma.sourceforge.net/|SourceForge "EMMA"]], [[http://www.sourceforge.net/projects/emma|SourceForge "EMMA"]]
+  *[[http://de.wikipedia.org/wiki/Emma_%28Software%29|DE.Wikipedia "Emma (Software)"]].
+  *[[http://en.wikipedia.org/wiki/Java_Code_Coverage_Tools|EN.Wikipedia "Java Code Coverage Tools"]].
+  *[[http://en.wikipedia.org/wiki/Code_coverage|EN.Wikipedia "Code coverage"]], [[http://de.wikipedia.org/wiki/Testabdeckung|DE.Wikipedia "Testabdeckung"]].
+===== Static Code Analysis Tools for Javascript =====
+  *The OpenSource [[http://www.javascriptlint.com/|JavaScript Lint]], [[http://javascriptlint.sourceforge.net/|SourceForge "JavaScript Lint"]], [[http://www.sourceforge.net/projects/javascriptlint|SourceForge "JavaScript Lint"]].
+    *The free online service [[http://www.javascriptlint.com/online_lint.php|JavaScript Lint - Online Lint]].
+  *[[http://www.jslint.com/|JSLint]], [[http://www.github.com/douglascrockford/JSLint/|GitHub "douglascrockford/JSLint"]] - "The JavaScript Code Quality Tool".
+    *[[http://www.stackoverflow.com/questions/17770048/why-does-jslint-give-strict-violation-error-on-this-function|StackOverflow "Why does JSLint give strict violation error on this function?"]] - "This is because JSLint doesn't recognize your function as a constructor. By convention, you must use uppercase letters".
+    *[[http://en.wikipedia.org/wiki/JSLint|EN.Wikipedia "JSLint"]], [[http://de.wikipedia.org/wiki/JSLint|DE.Wikipedia "JSLint"]].
+  *[[http://www.jshint.com/|JSHint]] - "A JavaScript Code Quality Tool".
+    *[[http://en.wikipedia.org/wiki/JSHint|EN.Wikipedia "JSHint"]], [[http://de.wikipedia.org/wiki/JSHint|DE.Wikipedia "JSHint"]].
+  *[[http://github.com/reid/node-jslint|Github "reid / node-jslint"]] - "The JavaScript Code Quality Tool — for Node.js".
+===== Static Code Analysis Tools for .NET =====
+==== C# ====
+  *The commercial [[http://www.parasoft.com/|Parasoft]] doTEST - ".NET Static Analysis, Code Review, Unit Testing".
+==== Powershell ====
+  *"ScriptCop" - See [[wscripting02.html|Scripting Languages for Windows 2/2 - Windows Powershell]].
+===== Rules & Tools for PHP =====
+==== Pear Coding Standards ====
+  *[[http://pear.php.net/manual/en/standards.php|The PHP Group - pear "Coding Standards"]].
+==== PHP Standard Requirements ( PSR ) ====
+  *[[http://www.php-fig.org/|PHP-FIG — PHP Framework Interop Group]].
+  *[[http://www.github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md|GitHub "php-fig / fig-standards", "PSR-2-coding-style-guide.md"]] - "Coding Style Guide".
+  *[[http://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md|GitHub "php-fig / fig-standards", "PSR-1-basic-coding-standard.md"]] - "Basic Coding Standard".
+==== Static Code Analysis Tools ====
+  *Sebastian Bergmann.
+    *[[http://www.github.com/sebastianbergmann/phploc/|GitHub "sebastianbergmann / phploc"]] - "A tool for quickly measuring the size and analyzing the structure of a PHP project".
+    *[[http://www.github.com/sebastianbergmann/phpcpd|GitHub "sebastianbergmann / phpcpd"]] - "Copy/Paste Detector (CPD) for PHP code".
+  *[[http://www.github.com/fabpot/PHP-CS-Fixer|GitHub "fabpot/PHP-CS-Fixer"]].
+  *[[http://www.pdepend.org/|PHP Depend]] - "Software Metrics for PHP".
+  *[[http://www.phpmd.org/|PHPMD - PHP Mess Detector]] - "It is a spin-off project of [[http://www.pdepend.org/|PHP Depend]] and aims to be a PHP equivalent of the well known Java tool PMD".
+  *[[http://cs.sensiolabs.org/|Sensio Labs "PHP Coding Standards Fixer. The PSR-1 and PSR-2 Coding Standards fixer for your code"]].
+==== Resources ====
+  *[[http://jason.pureconcepts.net/2012/11/php-coding-standards/|Jason McCreary. A PHP and iOS developer. A thinker "Be a Better PHP Developer: Coding Standards"]].
+===== Static Code Analysis Tools for Python =====
+  *See [[python04.html|Python 4/6 - Pro & Contra]].
+===== Static Code Analysis Tools for Tcl / Tk =====
+  *See [[tickle.html|Tcl / Tk ( tickle ) 2/2 - Debugging & Testing]].
+===== Integrated Development Tools =====
+==== ConQAT - Toolkit for rapid Development and Execution of Software Quality Analyses ====
+  *The OpenSource toolkit for rapid development and execution of software quality analyses [[http://www.conqat.org/|CQSE GmbH "ConQAT"]] in Java and .NET 2.0, for Java, C#, C/C++,...
+  *Blog [[http://www.cqse.eu/en/blog/|CQSE GmbH "Software Quality Blog"]].
+  *[[http://de.wikipedia.org/wiki/ConQAT|DE.Wikipedia "ConQAT"]], [[http://en.wikipedia.org/wiki/ConQAT|EN.Wikipedia "ConQAT"]].
+==== Tools with Target Runtimes ====
+  *IBM Rational Rhapsody ( see [[uml.html|Unified Modeling Language ( UML ), Systems Modeling Language ( SysML )]] ) with "Simplified C++ Execution Framework" ( SXF C++​ ).
+    *[[http://www.ibm.com/support/docview.wss?uid=swg27021396|IBM "IBM Rational Rhapsody Software Version 7.6 and Rhapsody Design Manager Version 3.0: New Features and Enhancements"]] - "MISRA C++ 2008 compliance with modeling checks​".
+    *[[http://publib.boulder.ibm.com/infocenter/rhaphlp/v7r6/index.jsp?topic=%2Fcom.ibm.rhp.frameworks.doc%2Ftopics%2Frhp_c_fw_sxf_framework.html|IBM Rational Rhapsody 7.6 Help "Simplified C++ execution framework (SXF)"]].
+    *[[http://publib.boulder.ibm.com/infocenter/rhaphlp/v7r6/index.jsp?topic=%2Fcom.ibm.rhp.overview.doc%2Ftopics%2Frhp_r_ref_projectsettings.html|IBM Rational Rhapsody 7.6 Help "Project settings"]].
+
+^ ^ ^ ^ 
+^# ^ Simplified (SXF) ^ Standard C++ Execution Framework (OXF) ^
+^ 1 | Static architecture | Dynamic allocation​ |
+^ 2 | MISRA C++ 2008 compliance with modeling checks​ | Not validated for MISRA |
+^ 3 | No animation, tracing | Animation, tracing​ |
+^ 4 | Only Real Time mode​ | Real Time, Simulated Time modes​ |
+^ 5 | No containers (can be added) | Containers |
+^ 6 | Static memory manager ​(only BasedNumberOfInstances)​ | Static memory manager |
+^ 7 | Flat state charts​ | Flat, reusable state charts​ |
+^ 8 | No multicore​ | Multicore​ |
+^ 9 | No interfaces | Interface-based​ |
+^ 9 | No ports | Ports |
+^ 9 | Windriver Workbench 653 Adapter or Microsoft Visual Studio 2008 or 2010 (for host) support | Multiple operating systems support​ |
+^ | | |​	
+​​	
 ===== Control Algorithm Modeling Guidelines =====
   *[[http://www.e-guidelines.de/|e-Guidelines. Guidelines for Model Based Development]] by [[http://www.model-engineers.com/|Dr.-Ing. Ingo Stürmer, Model Engineering Solutions]].
   *[[http://www.mathworks.de/automotive/|MathWorks Deutschland "Automobilindustrie"]].
@@ -277,38 +381,18 @@ Pardon My French, But This Code Is C.R.A.P."]].
     *[[http://www.mathworks.de/automotive/standards/misra-c.html|MathWorks Deutschland "MISRA C Support in MATLAB and Simulink"]].
   *[[http://www.mathworks.de/company/newsletters/digest/july03/checking_code.html|MathWorks, MATLAB Digest - July 2003 "Checking Code and Models in Production Environments"]].
 ===== Some other Catalogues of Code Rules =====
+==== Germany ( Eisenbahn-Bundesamt, Bundesanstalt für Arbeitsschutz und Arbeitsmedizin ) ====
   *[[http://www.eba.bund.de/|Eisenbahn-Bundesamt]].
     *"Eisenbahn-Bundesamt, München. Technische Grundsätze für die Zulassung von Sicherungsanlagen (Mü 8004)".
     *[[http://home.vrweb.de/~martin.lottermoser/index-de.html|Martin Lottermoser]] - "Mängel der Programmierregeln des Eisenbahn-Bundesamtes".
   *[[http://www.baua.de/|Bundesanstalt für Arbeitsschutz und Arbeitsmedizin]].
     *[[http://www.baua.de/cln_135/de/Publikationen/Forschungsberichte/1998/Fb812.html?nn=917410|Bundesanstalt für Arbeitsschutz und Arbeitsmedizin "Programmierregeln für die Erstellung von Software für Steuerungen mit Sicherheitsaufgaben. Schriftreihe der Bundesanstalt für Arbeitsschutzund Arbeitsmedizin Fb 812"]].
-  *[[http://www.cert.org/|CERT, Software Engineering Institute (SEI), Carnegie Mellon University]].
-    *[[http://www.securecoding.cert.org/confluence/display/seccode/|CERT "CERT Secure Coding Standards"]].
-      *[[http://www.securecoding.cert.org/confluence/x/HQE|CERT "CERT C Secure Coding Standard"]].
-      *[[http://www.securecoding.cert.org/confluence/x/fQI|CERT C++ Secure Coding Standard]].
-      *[[http://www.securecoding.cert.org/confluence/x/Ux|The CERT Oracle Secure Coding Standard for Java]].
-      *[[http://www.informit.com/articles/article.aspx?p=2088511&WT.mc_id=Author_Seacord_SecureCRules|Informit "Robert C. Seacord: C Secure Coding Rules: Past, Present, and Future"]], 2013-06-26.
-    *[[http://www.cert.org/secure-coding/|CERT "Secure Coding"]].
-    *[[http://www.cert.org/tech_tips/|CERT "Tech Tips - Historical CERT Documents"]].
-    *Book [[http://www.amazon.de/exec/obidos/ASIN/0321822137/hemmerling-21|Robert Seacord: "The CERT C Secure Coding Standard (2nd Edition)"]].
-      *[[http://www.informit.com/store/secure-coding-in-c-and-c-plus-plus-9780321822130|Informit - Secure Coding in C and C++, 2nd Edition]] - extra material, by the publishing house.
-      *[[http://www.cert.org/books/secure-coding/first-edition/|CERT: C Secure Coding Standard]] - extra material, by the publishing house.
-      *[[http://www.cert.org/books/secure-coding/|CERT - "Robert C. Seacord: Secure Coding in C and C++ (2nd Edition)"]].
+==== EN 50128 ====
   *[[http://www.cenelec.eu/|European Committee for Electrotechnical Standardization  ( CENELEC )]] - European norm "EN 50128".
     *[[http://de.wikipedia.org/wiki/EN_50128|DE.Wikipedia "EN 50128"]].
-  *[[http://www.codingstandard.com/|High Integrity C++ Coding Standard Version]] - "Request High Integrity C++ Coding Standard. Complete this form to receive your PDF of the coding standard promptly by email".
-    *[[http://en.wikipedia.org/wiki/High_Integrity_C%2B%2B|EN.Wikipedia "High Integrity C++"]].
-  *Java.
-    *[[http://www.oracle.com/technetwork/java/javase/documentation/codeconvtoc-136057.html|Oracle "Code Conventions for the Java TM Programming Language"]], 1999-04-20.
-    *[[http://wiki.gnome.org/Apps/Dia/CodingGuidelines|Gnome "Dia" - Coding Guidelines]] - "The base of the coding guidelines are Sun's guidelines for Java, even though Dia is written in C".
-  *[[http://www.jsf.mil/downloads/down_documentation.htm|Joint Strike Fighter (JSF) Program - Downloads]] - "[[http://www.jsf.mil/downloads/documents/JSF_AV_C%2B%2B_Coding_Standards_Rev_C.doc|JSF Air Vehicle - C++ Coding Standards (Revision C)]]" ( DOC ).
-  *[[http://www.phaedsys.demon.co.uk/|Phaedrus Systems "quEST"]].
-    *[[http://www.phaedsys.demon.co.uk/chris/quest/|Chris A Hills, Phaedrus Systems "Quality Embedded Software Techniques"]].
-    *[[http://www.phaedsys.demon.co.uk/chris/misra-c/misrac.htm|Chris A Hills, Phaedrus Systems "MISRA-C [1] A Standard for Embedded and Real-time C"]].
-    *[[http://www.phaedsys.demon.co.uk/chris/sweng/lint.htm|Chris A Hills, Phaedrus Systems "PC Lint"]].
+==== Hungarian Notation ====
   *Charles Simonyi "Apps Hungarian". "<del>Systems Hungarian</del>".
     *[[http://en.wikipedia.org/wiki/Hungarian_notation|EN.Wikipedia "Hungarian notation"]], [[http://de.wikipedia.org/wiki/Ungarische_Notation|DE.Wikipedia "Ungarische Notation"]].
-
 ===== Some other Books with Code Rules and Best Pracices =====
   *Book [[http://www.amazon.de/exec/obidos/ASIN/1856177076/hemmerling-21|Bruce Powel Douglass "Design Patterns for Embedded Systems in C: An Embedded Software Engineering Toolkit"]].
   *Les Hatton.
@@ -347,6 +431,11 @@ Pardon My French, But This Code Is C.R.A.P."]].
 ===== Power Efficient Software Coding =====
   *[[http://www.techques.com/question/1-61882/Power-Efficient-Software-Coding|TechQues "Power Efficient Software Coding"]].
 ===== Code Review Tools =====
+==== Atlassian ====
+  *The commercial [[http://www.atlassian.com/software/crucible|Atlassian "Crucible"]] - "Code review tool for SVN, Git, Perforce and more".
+    *[[http://en.wikipedia.org/wiki/Crucible_%28software%29|EN.Wikipedia "Crucible"]].
+  *The commercial [[http://www.atlassian.com/software/fisheye|Atlassian "FishEye"]] - "Code search and diff tool for SVN, Git and more".
+    *[[http://en.wikipedia.org/wiki/FishEye_%28software%29|EN.Wikipedia "FishEye (software)"]].
 ==== Gerrit ====
   *[[http://code.google.com/p/gerrit/|Google Code "gerrit. Gerrit Code Review"]].
   *[[http://en.wikipedia.org/wiki/Gerrit_%28software%29|EN.Wikipedia "Gerrit (software)"]], [[http://de.wikipedia.org/wiki/Gerrit_%28Software%29|DE.Wikipedia "Gerrit (Software)"]].
@@ -359,6 +448,11 @@ Pardon My French, But This Code Is C.R.A.P."]].
   *[[http://en.wikipedia.org/wiki/Rietveld_%28software%29|EN.Wikipedia "Rietveld (software)"]] in Python.
 ==== Resources ====
   *[[http://en.wikipedia.org/wiki/List_of_tools_for_code_review|EN.Wikipedia "List of tools for code review"]].
+===== Literature =====
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/1680500384/hemmerling-21|Adam Tornhill "Your Code As a Crime Scene: Use Forensic Techniques to Arrest Defects, Bottlenecks, and Bad Design in Your Programs]].
+      *The accompanying  website [[http://www.pragprog.com/book/atcrime/your-code-as-a-crime-scene|The Pragmatic Bookshelf | Your Code as a Crime Scene]].
+      *[[http://www.youtube.com/watch?v=qJ_hplxTYJw|YouTube "Code, Crime, Complexity: Analyzing software with forensic psychology | Adam Tornhill | TEDxTrondheim"]].
+      *[[http://www.scanlibs.com/your-code-as-a-crime-scene/|ScanLibs "Your Code as a Crime Scene: Use Forensic Techniques to Arrest Defects, Bottlenecks, and Bad Design in Your Programs"]].
 ===== Resources =====
 ==== Most Dangerous Software Errors ====
   *[[http://www.sans.org/|SANS Institute]].
@@ -389,7 +483,6 @@ aArray[aIndex] = aIndex++;
   *[[http://smartbear.com|Smart Bear Software, Inc.]].
     *The free PDF book [[http://www2.smartbear.com/Best-Kept-Secrets-Code-Review.html|Smart Bear Software, Inc. "Best Kept Secrets of Peer Code Review"]].
     *Blog [[http://blog.smartbear.com/|Code Review and More - The Smart Bear Blog]].
-
 ==== General Resources ====
   *[[http://www.bezem.de/en/whitepapers/|Johan Bezem - White Papers]].
     *[[http://www.bezem.de/pdf/htwpl.pdf|Johan Bezem "How to wield PC Lint"]] (PDF).

@@ -2,6 +2,7 @@
 Related pages:
   *[[electronics01.html|Electric Units & Electronics 1/3 - My Electronics, Electronics Workbench Equipment, Electronics Literature & Resources]].
   *[[electronics03.html|Electric Units & Electronics 3/3 - Manufacturers, Distributors, Vendors & Datasheets]].
+  *[[input.html|Input Devices ( Keyboard, Mouse, Joystick, Scanner... )]].
 ===== Actors & Output Devices =====
 ==== FTDI Eve ====
 === The Graphics Chip ===
@@ -115,11 +116,16 @@ Related pages:
   *[[http://www.pollin.de/shop/dt/ODIyOTUzOTk-/HiFi_Car_HiFi_Video_TV/Mikrofone_Schallwandler/Schallwandler/Magnetischer_Schallwandler_AC_1205G.html|Pollin Electronic GmbH "Magnetischer Schallwandler AC-1205G"]] #MSP430-Workshop.
 ===== Sensors =====
 ==== Cameras ====
+=== CAMIF ( Camera Interface ) ===
+  *[[http://www.quicklogic.com/|QuickLogic Corp.]].
+    *[[http://www.quicklogic.com/solutions/catalog-cssps/cam-if/|QuickLogic Corp. "CAM I/F - Easy Connection to the TI Sitara Platform"]].
+  *[[http://en.wikipedia.org/wiki/Camera_interface|EN.Wikipedia "Camera interface"]] ( "CAMIF" ).
 === Image Sensors ===
   *[[http://www.onsemi.com/|ON Semiconductor]] ( [[http://www.aptina.com/|Aptina]] ).
     *[[http://en.wikipedia.org/wiki/Aptina|EN.Wikipedia "Aptina"]].
     *[[http://en.wikipedia.org/wiki/ON_Semiconductor|EN.Wikipedia "ON Semiconductor"]], [[http://de.wikipedia.org/wiki/ON_Semiconductor|DN.Wikipedia "ON Semiconductor"]].
     *[[http://www.onsemi.com/PowerSolutions/parametrics.do?id=101682|ON Semiconductor "Image Sensors"]] -> Search for "Image Sensors" to find image sensors and not camera utilities.
+    *[[http://www.onsemi.com/PowerSolutions/newsItem.do?article=2489|ON Semiconductor "ON Semiconductor Completes Acquisition of CMOS Image Sensor Business Unit from Cypress"]], 2011.
   *[[http://www.st.com/|STMicroelectronics]].
     *[[http://www.st.com/web/en/catalog/mmc/FM132/SC1062|STMicroelectronics "CMOS Image Sensors"]].
     *[[http://www.stmicroelectronics.com.cn/web/en/catalog/mmc/FM132|STMicroelectronics "Imaging ICs and Modules"]].
@@ -128,6 +134,12 @@ Related pages:
     *[[http://www.atmel.com/tools/SAM4S-WPIR-RD.aspx|Atmel Corporation "SAM4S Wireless PIR Camera Reference Design"]] - "This reference design kit provides everything you need to get a quick start designing a low-cost yet powerful passive **infrared** motion detector camera solution, as found in building or home alarm and monitoring systems".
     *[[http://www.atmel.com/applications/mobile_electronics/cameras/|Atmel Corporation "Cameras"]].
     *[[http://www.atmel.com/products/microcontrollers/arm/sama5.aspx|Atmel Corporation "SMART SAMA5 ARM Cortex Based MPUs"]].
+=== MIPI Camera Serial Interface ===
+  *[[http://www.cypress.com/products/ez-usb-cx3-programmable-mipi-csi-2-usb-30-camera-controller|Cypress "EZ-USB CX3 Programmable MIPI CSI-2 to USB 3.0 Camera Controller"]].
+  *[[http://www.mipi.org/|MPI Alliance]].
+    *[[http://www.mipi.org/specifications/camera-interface|MPI Alliance "Camera Interface Specifications"]].
+  *[[http://en.wikipedia.org/wiki/Camera_Serial_Interface|EN.Wikipedia "Camera Serial Interface"]].
+  *[[https://en.wikipedia.org/w/index.php?title=MIPI_Alliance|EN.Wikipedia "MIPI Alliance"]].
 ==== Gyroscope, Accelerometers, Magnetometer ====
 === Kalman Software ===
   *[[http://www.bosch-sensortec.com/|Bosch Sensortec]].
@@ -164,6 +176,8 @@ Related pages:
   *[[http://de.farnell.com/vishay/tsop2238/ir-receiver-38khz/dp/4913073|Farnell GmbH, element14 "VISHAY - TSOP2238 - IR RECEIVER 38KHZ"]] #MSP430-Workshop.
   *[[http://uk.farnell.com/excelitas-tech/vt90n2/ldr-series-vt900/dp/1652637|Farnell GmbH, element14 "XCELITAS TECH - VT90N2 - LDR, SERIES VT900 "]] -> VT91N1 #MSP430-Workshop.
 ===== Network Chips =====
+==== 20mA / HART ====
+  *[[http://www.ti.com/product/DAC161S997|Texas Instruments Incorporated "DAC161S997 (ACTIVE). SPI 16-bit Precision DAC for 4-20mA Loops"]].
 ==== USB ====
 === USB Chips ===
   *[[http://www.cypress.com/fx3/|Cypress Semiconductor Corporation "EZ-USB FX3 SuperSpeed USB 3.0 peripheral controller"]].

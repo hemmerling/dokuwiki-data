@@ -1,12 +1,15 @@
 ====== [hemmerling] Fieldbuses and Automation Networks ======
 Related pages:
+  *[[asi.html|AS-Interface ( Actuator Sensor Interface, AS-i, AS-i Safety, ASI, ASI-Bus )]].
   *[[automation.html|Automation & Process Logic Control]].
   *[[bautomation.html|Building Automation & Home Automation]].
   *[[ddl.html|Device Description Languages and Device Parameterization]].
   *[[carnetworks.html|Distributed Computing on Automotive Networks, Car Electronics and Automotive Data Formats]].
   *[[industrialdata.html|Industrial Data & Industrial Data Exchange]].
   *[[industry40.html|"Industry 4.0" & "Internet of Things" ( IOT ) & "Cyber-physical Systems"]].
+  *[[iolink.html|IO-Link]].
   *[[network.html|Network Tools]].
+  *[[opc.html|OPC UA and OPC ( OLE for Process Control )]].
   *[[wireless.html|Wireless Networks]].
 ===== Automotive Networks and Data Formats ===== 
   *See [[carnetworks.html|Automotive Networks, Car Electronics and Automotive Data Formats]].
@@ -14,11 +17,19 @@ Related pages:
   *<WRAP tip>[[asi.html|AS-Interface ( Actuator Sensor Interface, AS-i, AS-i Safety, ASI, ASI-Bus )]]</WRAP>
   *The OpenSource [[http://www.biss-interface.com/|BiSS Interface]] by [[http://www.ichaus.de/|iC-Haus GmbH]].
     *[[http://de.wikipedia.org/wiki/BiSS_Interface|DE.Wikipedia "BiSS Interface"]].
+  *CC-Link.
+    *[[http://www.cc-link.org/|CC-Link Partner Association ( CLPA )]].
+    *[[http://www.clpa-europe.com/|CC-Link Partner Association ( CLPA ) - CLPA Europe]] - "CC-Link", "CC-Link IE". "CLPA and PI to cooperate for a transparent network structure. Interoperability between CC-Link IE and PROFINET planned for end of 2016 with 2 solutions ( Coupler and Link )".
+    *[[http://en.wikipedia.org/wiki/CC-Link_Industrial_Networks|EN.Wikipedia "CC-Link Industrial Networks"]].
   *Common Industrial Protocol (CIP).
     *[[http://en.wikipedia.org/wiki/Common_Industrial_Protocol|EN.Wikipedia "Common Industrial Protocol"]] - "The Common Industrial Protocol (CIP) is used in EtherNet/IP, DeviceNet, CompoNet and ControlNet".
     *DeviceNet.
       *[[http://www.odva.org/|Open DeviceNet Vendors Association ( ODVA )]].
-      *[[http://www.odva.org/default.aspx?tabid=54|ODVA "The CIP Advantage"]].
+        *[[http://www.odva.org/default.aspx?tabid=54|ODVA "The CIP Advantage"]].
+        *[[http://www.odva.org/Happenings/Events|ODVA "Events"]].
+          *[[http://www.odva.org/Happenings/Focus-Germany|ODVA "Fokus: Deutschland"]].
+            *[[http://www.odva.org/Happenings/Events/ModuleID/502/ItemID/29/mctl/EventDetails|ODVA "EtherNet/IP: The Future-Proof Industrial Ethernet Technology for Industry 4.0 (Frankfurt, Germany)"]], 2016-01-27.
+            *[[http://www.odva.org/Happenings/Events/ModuleID/502/ItemID/36/mctl/EventDetails|ODVA "EtherNet/IP Quick Start for Vendors"]], 2016-03-16.
       *[[http://en.wikipedia.org/wiki/Open_DeviceNet_Vendors_Association|EN.Wikipedia "Open DeviceNet Vendors Association"]].
     *EtherNet/IP.
       *[[http://ab.rockwellautomation.com/networks-and-communications/ethernet-ip-network|Rockwell Automation "EtherNet/IP Network"]].
@@ -28,19 +39,18 @@ Related pages:
     *[[http://www.ethercat.org/|EtherCAT Technology Group]].
   *The "Geysitech (Bayern-Hessen) Protocol" ( "Geysitech Protokoll" / "Bayern-Hessen Datenprotokoll" ) for climate telemetry systems, used by the IT infrastructure of the german trade and industrial inspectorates ( "Gewerbeaufsichtsamt" ) in Germany.
     *Data processing systems of [[http://www.thermoscientific.com/|Thermo Scientific]] are known to support this protocol!
-  *[[http://www.io-link.com/|IO-Link]].
-    *No bus, but a P2P network. You can change an IO-Link sensor device easily, as the configuration parameters are not stored on the device, but on the IO-Link controller.
-    *[[http://www.phoenixcontact.de/automatisierung/187_25048.htm|PHOENIX CONTACT "I/O-Systeme – IO-Link"]].
-    *[[http://www.balluff.com/|Balluff GmbH - sensors worldwide]].
-      *[[http://www.balluff.com/Balluff/de/ProductsChannel/Overview/de/Networking+System-%C3%9Cbersicht.htm|Balluff GmbH "Networking System-Übersicht"]].
-      *[[http://www.pressebox.com/pressemeldungen/balluff-gmbh/boxid/102015|Pressebox "Balluff introduces IO-Link laser sensors at the Hanover Exhibition"]], 2007-04-16.
+  *<WRAP tip>[[iolink.html|IO-Link]]</WRAP>
   *PROFIBUS / PROFINET.
     *[[http://www.profibus.com/|PROFIBUS Nutzerorganisation e.V.]] - PROFIBUS, PROFINET.
     *"PROFIBUS DP", "PROFIBUS PA".
+      *PROFIBUS is based on a 2-wire RS485 physical connection. By this, there may be multiple masters ( "Multi Master" ).
       *[[http://en.wikipedia.org/wiki/Profibus|EN.Wikipedia "Profibus"]], [[http://de.wikipedia.org/wiki/Profibus|DE.Wikipedia "Profibus"]].
       *Profibus PA - network topologies "ring", "star", "line", "bus". Power supply of devices by the network cable. It is quiet [[http://en.wikipedia.org/wiki/Electromagnetic_compatibility|EMC]] / [[http://de.wikipedia.org/wiki/Elektromagnetische_Vertr%C3%A4glichkeit|EMV]] safe. Option "ProfiSAFE" ( [[http://en.wikipedia.org/wiki/PROFIsafe|EN.Wikipedia  "PROFIsafe"]], [[http://de.wikipedia.org/wiki/PROFIsafe|DE.Wikipedia "PROFIsafe"]] ) for use with safety controls.
       *Profibus DP - just bus topology "line", no power over line.
-    *PROFINET.
+    *PROFINET may not work over routers.
+      *In opposite to with PROFIBUS, with PROFINET there is no "Master-Slave" communications structure.
+      *PROFINET allowe communications of network participants which are situated in different physical lines of a  PROFINET network.
+      *However, PROFINET's network can´t be spread over routers, i.e. PROFINET is not routing-enabled.
       *[[http://en.wikipedia.org/wiki/Profinet|EN.Wikipedia "Profinet"]], [[http://de.wikipedia.org/wiki/Profinet|DE.Wikipedia "Profinet"]]
       *[[http://www.automation.siemens.com/mcms/automation/en/industrial-communications/profinet/Documents/articles/de/profienergy-tia.html|SIEMENS AG "Energie sparen mit PROFINET: PROFIenergy für Totally Integrated Automation"]].
       *PROFINET technologies.
@@ -72,7 +82,7 @@ Related pages:
      *[[http://cache.automation.siemens.com/dnl/DU0MjczAAAA_24178253_HB/uss_24178253_spec_76.pdf|SIEMENS Universal Serial Interface Protocol - USS Protocol. Specification]] ( PDF ).
      *[[http://www.siemens.de/industry/automation/mitte/downloads/Documents/Forum_2010_M%C3%A4rz_RM.pdf|SIEMENS AG "Automatisierungsforum März 2010. S7 1200 aktuell"]].
      *[[http://support.automation.siemens.com/WW/view/de/37604154|SIEMENS AG, Application & Tools "Einfache Vernetzung und Kaskadierung von Antrieben (CE-X8)"]].
-===== Internet 4.0 M2M Networks and Protocols =====
+===== Internet-of-Things & Industry 4.0 M2M Networks and Protocols =====
 ==== <AutomationML> ====
   *See [[ddl.html|Device Description Languages and Device Parameterization]].
 ==== Constrained Application Protocol ( CoAP ) ====
@@ -90,11 +100,15 @@ Related pages:
 
 ==== IoT Middleware ====
 === Data Distribution Services ( DDS ) ===
+  *[[http://www.omg.org/spec/DDS/|Object Management Group "Data Distribution Service™ (DDS)"]].
+    *[[http://portals.omg.org/dds/|DDS Portal – Data Distribution Services]].
+  *The OpenSource [[http://www.opendds.org/|OpenDDS]], [[http://www.github.com/objectcomputing/OpenDDS|GitHub "objectcomputing/OpenDDS"]] - "An open source C++ implementation of the Object Management Group (OMG) Data Distribution Service (DDS). Java applications can use OpenDDS through JNI bindings".
   *[[http://www.fortiss.org/|fortiss GmbH]].
     *The OpenSource project [[http://www.fortiss.org/forschung/projekte/chromosome/|fortiss GmbH Projekte "CHROMOSOME. Eine modulare Middlewarearchitektur für Cyber-Physical Systems"]] - a DDS implementation / based on DDS.
     *[[http://www.xing.com/profile/Josef_Viehhauser3|XING "Josef Viehhauser"]], marketing research specialist.
+  *I was told by experts that DDS would be an alternative to OPC UA -> See [[opc.html|OPC UA and OPC ( OLE for Process Control )]].
   *[[http://en.wikipedia.org/wiki/Data_Distribution_Service|EN.Wikipedia "Data Distribution Service"]], [[http://de.wikipedia.org/wiki/Data_Distribution_Service|DE.Wikipedia "Data Distribution Service"]].
-=== Some other important IoT Middleware, according to VDC Research in 2014, 2015 ===
+=== Some other important IoT Middleware, according to VDC Research in 2014, 2015, 2016 ===
   *AllJoyn.
   *CORBA.		
   *DeviceHive.
@@ -105,6 +119,7 @@ Related pages:
   *Eclipse SmartHome.
   *Eurotech Everywhere Software Framework (ESF).
   *Intel Common Connectivity Framework (CCF).
+  *IoTivity (OCF) -> new in 2016.
   *IPSO Alliance Web Objects.
   *Java ME Embedded.
   *Java SE Embedded.
@@ -117,8 +132,9 @@ Related pages:
   *Samsung SAMI framework.
 === Some other IoT Middleware ===
   *The OpenSource [[http://code.google.com/p/iotsys/|Google Code "iotsys. IoTSyS - Internet of Things integration middleware"]].
-=== Some other important IoT/M2M Protocols, according to VDC Research in 2014, 2015 ===
+=== Some other important IoT/M2M Protocols, according to VDC Research in 2014, 2015, 2016 ===
   *AllJoyn.
+  *Apple HomeKit -> New in 2016.
   *AMQP ( Advanced Message Queuing Protocol ).
     *[[http://www.amqp.org/|AMQP]].
     *[[http://activemq.apache.org/|ActiveMQ]].
@@ -132,9 +148,12 @@ Related pages:
   *DDS ( Data Distribution Service ).
   *ETSI.
   *IFTTT.
+  *JSON -> New in 2016.
   *MQTT.
   *OMA LWM2M ( Lightweight M2M ).
+  *Thread -> New in 2016.
   *UDP/TCP ( User Datagram Protocol/Transmission Control Protocol ).
+  *Weave ->  New in 2016.
   *XDMF.
   *XMPP/REST ( Extensible Messaging and Presence Protocol/Representational State Transfer ).
 === Some other "Libraries" for Embbbed Systems, according to VDC Research in 2014 ===
@@ -183,13 +202,15 @@ Related pages:
     *See [[esb.html|Enterprise Service Bus ( ESB ) / Enterprise Service Architecture ( ESA )]].
     *The free "IBM Integration Bus for Developers" includes "IBM WebSphere MQ" and is by this a valuable free GUI tool for developers to play with MQTT Protocol. E.g. to explore how "Last Will and Testament" messaging works.
 == MQTT Broker ==
+  *[[http://www.hivemq.com/|HiveMQ]] - "Enterprise MQTT Broker".
   *[[http://www.mosca.io/|Mosca. MQTT broker as a module]], [[http://www.github.com/mcollina/mosca|GitHub "mcollina/mosca"]] - "MQTT broker as a module" for Node.JS.
+  *[[http://www.mosquitto.org/|Mosquitto]] - "An Open Source MQTT v3.1/v3.1.1 Broker".
+  *[[http://www.vernemq.com/|VerneMQ]] - "The Most Scalable Open Source MQTT Message Broker".
 === Online Services ===
   *IBM Bluemix - See [[saas.html|Software As A Service ( SAAS ) 1/2]].
   *Xively - See [[saas.html|Software As A Service ( SAAS ) 1/2]]. 
 === Resources ===
   *MQTT helps to decouple systems, e.g. by the feature Feature "Last Will and Testament".
-
 ==== NetDACS ====
   *The legendary but discontinued "NetDACS" Java-based M2M protocol, by [[http://web.archive.org/web/*/http://www.gyro-net.de/|Gyro Informatec GmbH]], Hannover ( - 2004-03-29 ).
     *[[http://web.archive.org/web/*/http://www.gyro-net.de/index_1.html|Gyro Informatec GmbH "Historie / Unternehmensentwicklung"]], [[http://web.archive.org/web/*/http://www.gyro-net.de/content/01_b_story.html|Gyro Informatec GmbH "Historie / Unternehmensentwicklung"]] - History of company 1997 - 2003.
@@ -197,6 +218,23 @@ Related pages:
   *[[http://www.xing.com/profile/Fritjof_Flechsig|XING "Fritjof Flechsig"]].
 ==== OData ====
   *See [[rest.html|Representational State Transfer ( REST )]].
+==== SIEMENS ====
+=== Open user communication ( OUC ) ===
+  *Open user communication ( OUC ) = " TCP, UDP, ISO on TCP (RFC1006)".
+  *[[http://support.industry.siemens.com/cs/document/108740380/open-user-communication-to-3rd-party-control-system-%28clxglx-controller%29?dti=0&lc=en-WW|SIEMENS AG "Open user communication to 3rd party control system (CLX/GLX controller)"]].
+  *[[http://support.industry.siemens.com/cs/document/58875807/how-do-you-program-the-tcon-communication-instruction-to-establish-a-connection-for-the-open-user-communication-between-two-s7-1500-cpus|SIEMENS AG "How do you program the TCON communication instruction to establish a connection for the Open User Communication between two S7-1500 CPUs?"]].
+  *[[http://support.industry.siemens.com/cs/document/98278624/plant-communication-concept-for-tia-in-the-food-beverage-industry-–-based-on-omac|SIEMENS AG - Product Support "Plant Communication Concept for TIA in the Food & Beverage Industry – based on OMAC"]] -> "Plant Communication Concept for the Food and Beverage Industry- Interface description based on Open IE Communication" ( PDF ), Chapter 2 "Open User Communication".
+=== SIEMENS S7 Protocol ===
+  *[[http://snap7.sourceforge.net/|SourceForge "Snap7 - Step7 Ethernet Communication Suite"]], [[http://www.sourceforge.net/projects/snap7|SourceForge "Snap7 - 32/64 bit multi-platform Ethernet S7 PLC communication suite"]].
+    *[[http://snap7.sourceforge.net/siemens_comm.html|SourceForge "SNAP 7" - "Siemens communications overview"]]
+=== Modbus TCP, OPC, Open Source Drivers ===
+  *[[http://www.mesta-automation.com/plc-pc-communication-with-c-a-quick-resume-about-data-exchange-libraries/|MESTA AUTOMATION - a blog about WPF, C# and PLC software development "PLC-PC communication with C#: a quick resume about data exchange libraries PLC-PC communication with C#: a quick resume about data exchange libraries"]], using
+  *Modbus TCP (or RTU).
+  *OPC.
+  *Open source drivers (gpl or lgpl licensed).
+  *Third-party libraries (activex, dlls and so on).
+=== Basic TCP/IP Communication Siemens PLC S7-1200 with Windows PC - without any ModBus, OPC, CapServer, or other HMI component ===
+  *[[http://www.youtube.com/watch?v=F2YU0F1yqrU|YouTube "Basic TCP/IP Communication with Visual Basic 2010 and Siemens PLC S7-1200"]] without any ModBus, OPC, CapServer, or other HMI component. VB.Net 2010 Programming for TCP/IP Communication.
 ==== SIGFOX ====
 === The Service ===
   *[[http://www.sigfox.com/|SIGFOX]].
@@ -214,13 +252,23 @@ Related pages:
     *Twitter -> See [[internet02.html|Internet Services 2/2]]. 
     *Slack -> See [[iphones.html|Internet Messenger, IP Telephony, Video Conferencing, Voice Over IP, Unified Messaging, Unified Communicationsiphones.html]]. 
 ==== Time-Sensitive Networking ====
+=== The Protocol & the Organisations ===
   *[[http://www.ieee802.org/1/pages/tsn.html|IEEE "Time-Sensitive Networking Task Group"]].
+  *[[http://www.avnu.org/|AVnu Allance]] - "A community creating an interoperable ecosystem servicing the precise timing and low latency requirements of diverse applications using open standards through certification".
+=== Resources ===
   *Experts told me that they consider it as an alternative to MQTT and OPC-UA.
+  *[[http://www.controlgeek.net/blog/2015/1/9/a-new-direction-for-avb|Control Geek "A New Direction for AVB: Time Sensitive Networking (TSN) for Industrial Control"]], 2015-01-09.
   *[[http://en.wikipedia.org/wiki/Time-Sensitive_Networking|EN.Wikipedia "Time-Sensitive Networking"]], [[http://de.wikipedia.org/wiki/Time-Sensitive_Networking|DE.Wikipedia "Time-Sensitive Networking"]].
 ==== Thread ====
   *[[http://www.threadgroup.org/|Thread Group "Thread"]].
   *[[http://www.theregister.co.uk/2014/07/15/google_nest_thread_protocol/|The Register "Google Nest, ARM, Samsung pull out Thread to strangle ZigBee"]], 2014-07-14 - "But there's a flaw in Google's IP-based IoT system".
   *[[http://www.techtimes.com/articles/10492/20140718/nest-samsung-arm-form-thread-a-networking-protocol-for-your-smart-home.htm|Tech Times "Nest, Samsung, ARM form Thread, a networking protocol for your smart home"]], 2014-07-18.
+==== WebService ( WS ) / WebSocket ( WSS, WS ), WebSocket Protocol ( WSP ) ====
+  *[[http://www.stackoverflow.com/questions/9239466/what-are-the-protocol-differences-between-websockets-versions|StackOverflow "What are the protocol differences between WebSockets versions?"]].
+  *[[http://www.stackoverflow.com/questions/16945345/differences-between-tcp-sockets-and-web-sockets-one-more-time|StackOverflow "Differences between TCP sockets and web sockets, one more time"]].
+    *[[http://www.stackoverflow.com/questions/2681267/what-is-the-fundamental-difference-between-websockets-and-pure-tcp|StackOverflow "What is the fundamental difference between WebSockets and pure TCP?"]].
+    *[[http://www.stackoverflow.com/questions/8051516/how-to-establish-a-tcp-socket-connection-from-a-web-browser-client-side|StackOverflow "How to establish a TCP Socket connection from a web browser (client side)?"]].
+  *[[http://en.wikipedia.org/wiki/WebSocket|EN.Wikipedia "WebSocket"]], [[http://de.wikipedia.org/wiki/WebSocket|DE.Wikipedia "WebSocket"]].
 ==== XMPP/REST ( Extensible Messaging and Presence Protocol/Representational State Transfer ) ====
   *[[http://www.xmpp.org/|The XMPP Standards Foundation]].
     *[[http://xmpp.org/xmpp-software/clients/|The XMPP Standards Foundation "Clients"]] - "An XMPP client is any software or application that enables you to connect to an XMPP for instant messaging with other people over the Internet".
@@ -267,6 +315,7 @@ Related pages:
     *[[http://bugs.freebus.org/|Freebus Projects]].
   *"Modbus" #.
     *[[http://www.modbus.org/|Modbus Organization, Inc]].
+    *Modbus is based on a 4-wire RS485 physical connection. By this it is a "Master-Slave" architecture, i.e. there is just one master.
     *Modbus TCP is a standard instrumentation interface bus, while it is not a standard for SIEMENS PLCs ( with Profibus as interface bus standard ).
     *Modbus is considered by experts to be "simple", "outdated" and "weak", especially as there is no time-stamp transfered with the data, automatically.
     *The OpenSource [[http://www.plcsimulator.org/|Modbus PLC Simulator]], [[http://modrssim.sourceforge.net/|SourceForge "Modbus simulator"]], [[http://www.sourceforge.net/projects/modrssim/|SourceForge "Modbus simulator"]] for Windows.
@@ -310,6 +359,9 @@ Related pages:
     *The OpenSource Java library [[http://www.openmuc.org/index.php?id=19|openMUC "jMBus"]].
     *[[http://www.relay.de/|RELAY GmbH]].
     *[[http://en.wikipedia.org/wiki/Meter-Bus|EN.Wikipedia "Meter-Bus"]], [[http://de.wikipedia.org/wiki/M-Bus_%28Feldbus%29|DE.Wikipedia "M-Bus (Feldbus)"]].
+    *[[http://www.mbs-software.de/|MBS GmbH]] - The M-Bus specialist.
+      *[[http://www.mbs-software.de/en/products/opc/m-bus-opc-server/|MBS GmbH "M-Bus OPC-Server"]].
+      *[[http://www.mbs-ugw.de/|MBS GmbH |"MBS gateways"]].
   *"Wireless M-Bus" -> see [[wireless.html|Wireless Networks]].
   *Modbus.
   *"Smart Message Language" ( SML ).
@@ -321,8 +373,10 @@ Related pages:
     *[[http://wiki.wireshark.org/SML|Wireshark "Smart Message Language (SML)"]].
   *"S0" pulse counter interface / protocol.
     *[[http://www.hw-group.com/products/HWg-PWR/hwg-pwr_en.html|HW group "HWg-PWR: M-Bus IP energy meter (SNMP, WEB)"]] - "M-Bus or S0 pulse counter? The M-Bus is a standard in energy metering. **As opposed to pulse counters (S0)**, it works with absolute values (acquired data can be used as an argument against the utility bill). At the same time allows working with additional values (quantities), such as voltage, current, flow, drift, etc.". 
-    *[[http://www.saia-pcd.com/en/products/energymeter/Pages/cc.aspx|Saia-Burgess Controls AG "Energy management
-S-Energy – capture, display and log consumption values"]] - "Bus-compatible electricity meters.. The product range includes AC power meters and three-phase meters with measuring ranges up to 6000 A, each with **S0 output or serial bus interface (S-Bus, M-Bus and Modbus)**.
+    *[[http://www.saia-pcd.com/en/products/energymeter/Pages/cc.aspx|Saia-Burgess Controls AG "Energy management S-Energy – capture, display and log consumption values"]] - "Bus-compatible electricity meters.. The product range includes AC power meters and three-phase meters with measuring ranges up to 6000 A, each with **S0 output or serial bus interface (S-Bus, M-Bus and Modbus)**.
+  *"Smart Meters Equipment Tech Spec Version 2 (SMETS2)".
+    *[[http://www.gov.uk/government/consultations/smart-metering-equipment-technical-specifications-second-version|GOV.UK "Smart metering equipment technical specifications: second version"]].
+    *[[http://www.jack-kelly.com/smart_meters_equipment_tech_spec_version_2_smets2|Jack Kelly "Smart Meters Equipment Tech Spec Version 2 (SMETS2)"]].
 === Data Formats & Data Protocols for Electric Meters ===
   *[[http://www.metersandmore.eu/|Meters and More]].
   *[[http://en.wikipedia.org/wiki/IEC_62056|EN.Wikipedia "IEC 62056"]] - "DLMS/COSEM" electric meter data format.
@@ -352,7 +406,7 @@ S-Energy – capture, display and log consumption values"]] - "Bus-compatible el
   *Blog [[http://blog.iec61850.com/|News on IEC 61850 and related Standards]].
   *[[http://www.control.com/thread/1026226776#1026226805|nerd in control - Forum, Thread "IEC 61850 source code"]].
   *[[http://en.wikipedia.org/wiki/IEC_61850|EN.Wikipedia "IEC 61850"]], [[http://de.wikipedia.org/wiki/IEC_61850|DE.Wikipedia "IEC 61850"]], relevant for process industry.
-  *[[http://en.wikipedia.org/wiki/IEC_61400-25|EN.Wikipedia "IEC 61400-25"]], relevant for wind energy industry.
+  *[[http://en.wikipedia.org/wiki/IEC_61400-25|EN.Wikipedia "IEC 61400-25"]], relevant for wind energy industry ( the offshore power transmission line head units, not the wind mills ).
   *IEC 61850 MMS - simplified IEC 61850 protocol.
 === Tools and Servers ====
   *[[http://www.ase-systems.com/iec-61850/visual-scl.asp|Applied Systems Engineering, Inc "Visual SCL for IEC 61850-6"]].

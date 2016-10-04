@@ -10,11 +10,11 @@ Related pages:
     *[[http://support.asus.com/download.aspx?m=K95VM|ASUS Support "K95VM"]] - Some of the software drivers for "Windows 7" are suitable for the notebook "ASUS K95VB", too :-).
   *DVD Writer & BlueRay player "Matshita UJ160 SATA Blu-Ray Combo Drive".
     *[[http://www.netcomdirect.com/pamamaujsabl.html|Netcom Direct "Panasonic / Matsushita / Matshita UJ160 SATA Blu-Ray Combo Drive (UJ-160 / UJ-160A / UJ160A)"]].
-  *Hard disk "ST3000DM001-1CH166".
-  *Hard disk "Hitachi HTS727575A9E364".
+  *Large storage hard disk "ST3000DM001-1CH166".
+  *Smaller system hard disk "Hitachi HTS727575A9E364".
   *My notebook "ASUS K95VB-YZ075H" is shipped with a [[http://ark.intel.com/products/71459/Intel-Core-i7-3630QM-Processor-6M-Cache-up-to-3_40-GHz|Intel Core i7-3630QM Processor]] and 32 GB RAM.
   *Some vendors in Germany offer ASUS K95VB-YZ075H, a few offer ASUS K95VB-YZ075D - please [[imprint.html|tell me]] if you know the difference!
-  *There is no dedicate battery pack with removal mechanism on the back of the computer. I.e. you can´t remove the battery pack from the computer :-(, as user. There are some offers [[https://www.google.de/search?q=Replacement+battery+for+ASUS+K95VB+K95VJ+K95VM+P45+P45A+P45V+P45VA+notebook|Google - Search for "Replacement battery for ASUS K95VB K95VJ K95VM P45 P45A P45V P45VA notebook"]], but I am unshure if these offers really fit.
+  *There is no dedicate battery pack with removal mechanism on the back of the computer. I.e. you can´t remove the battery pack from the computer :-(, as user. There are some offers [[http://www.google.de/search?q=Replacement+battery+for+ASUS+K95VB+K95VJ+K95VM+P45+P45A+P45V+P45VA+notebook|Google - Search for "Replacement battery for ASUS K95VB K95VJ K95VM P45 P45A P45V P45VA notebook"]], but I am unshure if these offers really fit.
 ==== The Graphics Card "nVIDIA GeForce GT740M" ====
   *[[http://www.geforce.com/hardware/notebook-gpus/geforce-gt-740m|Geforce "GeForce GT 740M"]].
   *[[http://www.nvidia.de/object/geforce-gt-700m-graphics-cards-de.html|Nvidia Deutschland "Grafikkartenserie GeForce GT 700M"]].
@@ -33,7 +33,7 @@ Related pages:
   *The size of the notebook is 44x29 cm.
   *Some local vendors told me, that once - about 2010 - there were bags for notebooks with 18 inch displays, but now this kind of product disappeared from the local stores.
   *Bags for 17 inch notebooks might be suitable for the notebook, but you must test it! So you need test every "17 inch bag" if it fits, manually.
-  *I got a free complimentary backpack by [[http://www.apc.com/|APC]] on a Hannover CeBIT fair in the early 2000th, which is suitable to transport the notebook. However, my free backpack is not one of the once commercially available backpacks and messenger bags of APC ( [[https://web.archive.org/web/*/http://www.apc.com/products/family/index.cfm?id=355|Archive.org "APC: Backpacks and Messenger Bags"]] ).
+  *I got a free complimentary backpack by [[http://www.apc.com/|APC]] on a Hannover CeBIT fair in the early 2000th, which is suitable to transport the notebook. However, my free backpack is not one of the once commercially available backpacks and messenger bags of APC ( [[http://web.archive.org/web/*/http://www.apc.com/products/family/index.cfm?id=355|Archive.org "APC: Backpacks and Messenger Bags"]] ).
 ===== Howtos & Tips =====
 ==== Special Keys for Emergency Shutdown and BIOS Entry ====
   *ASUS K95VB user manual:
@@ -47,9 +47,11 @@ Related pages:
   *"Advanced / Network Stack [Enabled]".
     *"Ipv4 PXE Support [Enabled]".
   *"Boot".
-    *"Boot Configuration".
+    *"Boot Configuration" for Win7, Win8, Win10.
       *"Launch CSM [Enabled]".
         *"Lauch PXE OpROM [Disabled]".
+    *"Boot Configuration" for Linux, Win10.
+      *"Launch CSM [Disabled]".
     *Boot Option Priorities".
       *"Boot Option #1 [Windows Boot Manager (P0: ST3000DM001-1CH166)]" -> The preinstalled "Windows 8".
       *"Boot Option #2 [UEFI: MATSHITABD-CMB UJ160]" -> just if a media is placed in the BD drive only.
@@ -61,6 +63,8 @@ Related pages:
   -Do an emergency shutdown.
   -Enter the BIOS while rebooting.
   -Select the BIOS item "Save & Exit / Boot Override / UEFI: MATSHITABD-CMB UJ160" and press enter.
+==== Linux =====
+  *The bootloader "Grub" of "Ubuntu Linux 16.04" fails, if CSM is enabled :-(.
 ==== Windows =====
 === "Windows 7" needs CSM ====
   *You may install and run any edition of "Windows 7" ( "Windows 7 Pro", "Windows 7 Home Premium", ,.. ). During installation, you are asked for a proper serial number, as usual.
@@ -119,6 +123,9 @@ Related pages:
   *If you install first "Windows 8" and then "Windows 7", you get the classical "Windows 7 Boot Manager" ( in text mode, with black background screen and white letters ) at startup.
   *If you then update from "Windows 8" to "Windows 8.1" by the Windows appstore, you get the "Windows 8 Boot Manager" ( in graphics mode, with blue background screen and white letters ) at startup.
 ==== How I setup my System with ( German ) Windows 8 to boot from Harddisk 1 ====
+=== Hardware ===
+  *Drive 0 is the large storage media ( HDD ).
+  *Drive 1 is the smaller system drive ( HDD or SSD ).
 === Preparation ===
   -Boot a Linux from DVD and delete all partitions ) - Just to be shure to start from scratch.
   -Boot a "Windows 8" or "Windows 8 Pro" installation DVD.
@@ -171,7 +178,6 @@ Related pages:
   *[[http://www.amazon.de/exec/obidos/ASIN/B00HLKB61O/hemmerling-21|Amazon.de "ASUS K95VB-YZ075H"]].
   *[[http://www.geizhals.at/de/asus-k95vb-yz075h-90nb0391-m01050-a1055406.html|Geizhals.AT "ASUS K95VB-YZ075H (90NB0391-M01050)"]].
   *[[http://www.computerbase.de/preisvergleich/asus-k95vb-yz075h-90nb0391-m01050-a1055406.html|ComputerBase "ASUS K95VB-YZ075H (90NB0391-M01050)"]].
-
 ===== Resources =====
 ==== Reviews ====
   *[[http://notebookplanet.blogspot.de/2013/08/asus-k95vb-specs.html|Notebookplanet Blog "Asus K95VB Specs"]] - "This big laptop supports dual storage system. Overall, you can get up to 2 TB HDDs, consists of two 2.5'' 1 TB HDD. If you choose this product with i3/i5 processor, the maximum memory is 16 GB. If you go with i7 model, maximum memory increased to 32 GB".
@@ -185,7 +191,6 @@ Related pages:
     *[[http://www.youtube.com/watch?v=990443Awrqg|YouTube "Laptop Asus K95VM Video Review 1080p by digitalmag.net"]], 2012-11-01.
     *[[http://www.youtube.com/watch?v=wg7V4tID4Lw|YouTube "Asus K95 A95 32Gb Ram Memory upgrade K95VJ K95VM K95V A95VJ A95VM A95V 18.4"]], 2013-09-06 #.
     *[[http://www.youtube.com/watch?v=LvmzckXnXho|YouTube "ASUS K95VB Windows 7 Boot"]], 2013-11-30.
-
 ==== General ====
   *[[http://rog.asus.com/forum/showthread.php?27177-Only-1-boot-option|ASUS Republic of Gamers [ROG], Thread "Only 1 boot option?"]].
   *[[http://www.computerforum.de/threads/56738-Windows-7-auf-ASUS-K95VB-Notebook|Computerforum "Windows 7 auf ASUS K95VB Notebook"]] #.

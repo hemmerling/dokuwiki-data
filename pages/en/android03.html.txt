@@ -1,67 +1,174 @@
-====== [hemmerling] Google Android 3/3 - App Development ======
-Related page:
-  *[[android.html|Google Android 1/3]].
-  *[[android02.html|Google Android 2/3 - Apps]].
+====== [hemmerling] Google Android 3/7 - App Development ======
+Related pages:
+  *[[android.html|Google Android 1/7]].
+  *[[android02.html|Google Android 2/7 - Apps]].
+  *[[android04.html|Google Android 4/7 - App Debugging & Testing]].
+  *[[android05.html|Google Android 5/7 - Simulators, Skins, Operating Systems, System Images]].
+  *[[android06.html|Google Android 6/7 - App Protoyping]].
+  *[[android07.html|Google Android 7/7 - App Publishing]].
+  *[[java.html|Java & Java Platform Languages]].
+  *[[dotnet.html|Microsoft .NET Framework 1/3]].
   *[[gameapp.html|My first 3D VRML Android App, made with Unity]].
-==== Operating Systems / Firmeware ====
-=== Software ===
-  *[[http://www.cyanogenmod.org/|CyanogenMod]] - "An aftermarket firmware for a number of cell phones based on the open-source Android operating system".
-  *[[http://www.replicant.us/|Replicant]].
-  *[[http://developer.mozilla.org/en/docs/Mozilla/Firefox_OS|Mozilla Developer "Firefox OS"]].
-=== Resources ===
-  *[[http://www.freeyourandroid.org/|FSFE "Free Your Android!]].
-==== Development Software =====
-==== Platform & Software Development Kit ( SDK )====
+  *[[privacy001.html|Privacy Policy for the App "Conference Selfie"]].
+  *[[python09.html|Python 9/10 - Modules & Frameworks]].
+  *[[prototype.html|Rapid Software Application and GUI Prototyping]].
+  *[[webtech05.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 5/5 - Javascript Frameworks]].
+===== Development Software ======
+==== Platform & Software Development Kit ( SDK ) ====
 === The Platform ===
   *[[http://www.android.com/|Google Android]].
-  *[[http://developer.android.com/|Google Android developer]].
+  *[[http://developer.android.com/|Google Android Developer]].
   *Supported Operating Systems for Android SDK: Linux and WinXP / Vista / Win7.
   *[[http://code.google.com/android/|Google Code: Google Projects for Android]].
-=== Android Studio, based on IntelliJ ===
+  *[[http://developer.android.com/sdk/installing/|Google Android "Installing the SDK"]].
+=== IDEs ===
+== Android Studio, based on IntelliJ ==
   *[[http://developer.android.com/sdk/installing/studio.html|Google Android "Getting Started with Android Studio"]].
     *Android 4 SDK -> JDK6, Android 5.0 SDK and newer -> JDK7. "Before you set up Android Studio, be sure you have installed JDK 6 or higher (the JRE alone is not sufficient)—JDK 7 is required when developing for Android 5.0 and higher".
     *Error message "Error launching Android Studio. No JVM installation found. Please install a 32-bit JDK. If you already have a JDK installed, define a JAVA_HOME variable in Computer > System Properties > System Settings > Environment Variables".
     *[[http://en.wikipedia.org/wiki/Android_Studio|EN.Wikipedia "Android Studio"]], [[http://de.wikipedia.org/wiki/Android_Studio|DE.Wikipedia "Android Studio"]].
-=== Android SDK ===
-  *[[http://developer.android.com/sdk/installing/|Google Android "Installing the SDK"]].
-=== The legacy Android ADK, based on Eclipse ===
+  *[[http://www.jetbrains.com/idea/|JetBrains "IntelliJ IDEA"]], [[http://www.jetbrains.com/idea/free_java_ide.html|JetBrains "IntelliJ IDEA Community Edition"]].
+  *[[http://en.wikipedia.org/wiki/IntelliJ_IDEA|EN.Wikipedia "IntelliJ IDEA"]], [[http://de.wikipedia.org/wiki/IntelliJ_IDEA|DE.Wikipedia "IntelliJ IDEA"]].
+== The legacy Android ADT, based on Eclipse ==
   *[[http://web.archive.org/web/20141202044627/http://developer.android.com/sdk/index.html#download|Archive.org "Get the Android SDK"]], 2014-12-02
     *"Download the ADT Bundle to quickly start developing apps. It includes the essential Android SDK components and a version of the Eclipse IDE with built-in ADT (Android Developer Tools) to streamline your Android app development".
     *Click on "VIEW ALL DOWNLOADS AND SIZES" to see all downloads.
-  *Latest and last, now legacy editions:
+  *Latest and last, now legacy editions ( Android SDK Platform 4.4W, API 20 ):
     *[[http://dl.google.com/android/adt/adt-bundle-linux-x86_64-20140702.zip|Android Developer Tools ( ADT ) for Linux 64bit]].
     *[[http://dl.google.com/android/adt/adt-bundle-linux-x86-20140702.zip|Android Developer Tools ( ADT ) for Linux 32bit]].
     *[[http://dl.google.com/android/adt/adt-bundle-windows-x86-20140702.zip|Android Developer Tools ( ADT ) for Win32]].
     *[[http://dl.google.com/android/adt/adt-bundle-windows-x86_64-20140702.zip|Android Developer Tools ( ADT ) for Win64]].
   *[[http://www.stackoverflow.com/questions/27449206/what-is-the-final-version-of-the-adt-bundle|StackOverflow "What is the final version of the ADT Bundle?"]].
-=== Free and commercial Android Emulators ===
-  *"Android Emulator".
-    *[[http://developer.android.com/guide/developing/tools/emulator.html|Android Developers: Android Emulator]].
-    *Video [[http://www.youtube.com/watch?v=JxUQhnRf1oQ|YouTube "How-To: Android SDK Emulator"]].
-    *[[http://www.android.encke.net/android-emulator-tutorial.html|Google Android Emulator Tutorial]].
-    *[[http://developer.android.com/tools/help/emulator.html|Android Developer Help "Android Emulator"]].
-    *Emulation of Android smartphones is ok, emulation of Android tablets is slow ( due to the higher performance level of these devices ).
-  *The Android emulator [[http://www.genymotion.com/|Genymobile "Genymotion"]], a Java application with free limited and full commercial editions.
-  *The generic OpenSource emulator [[http://www.qemu.org/|QEMU]] may emulate Android devices too :-). It is shipped with the Yocto project :-).
-    *[[http://en.wikipedia.org/wiki/QEMU|EN.Wikipedia "QEMU"]], [[http://de.wikipedia.org/wiki/QEMU|DE.Wikipedia "QEMU"]].
-  *The affordable ShareWare Android emulator [[http://www.youwave.com/|YouWave for Android]] for Windows, with 10-day trial - "Runs Android apps and app stores on your PC, no phone required. Download thousands of apps online via app stores within youwave".
-=== Installation ===
+== NVIDIA CodeWorks for Android ==
+  *The free [[http://developer.nvidia.com/codeworks-android|NVIDIA CodeWorks for Android]] for Win7-64bit, Linux-32bit, Linux-64bit, MacOSX
+  *[[http://developer.nvidia.com/gameworksdownload|NVIDIA GameWorks "Downloads"]].
+=== Some other Tools ===
+  *APK Studio.
+    *[[http://www.vaibhavpandey.com/apkstudio/|APK Studio. Cross-platform Qt5 based IDE for reverse-engineering android applications]], [[https://apkstudio.codeplex.com/|CodePlex "APK Studio | Android Reverse-Engineering"]], [[http://github.com/vaibhavpandeyvpz/apkstudio|GitHub "vaibhavpandeyvpz/apkstudio"]], [[http://apkstudio.sourceforge.net/|SourceForge "APK Studio. Android reverse-engineering tool"]], [[http://www.sourceforge.net/projects/apkstudio/|SourceForge "APK Studio. Android reverse-engineering tool"]].
+    *"APK Studio Version 1.0.02".
+      *I was told by experts, that the legacy "APK Studio Version 1.0.02" may decompile Java sources, while this feature is missing with later editions.
+      *[[http://sourceforge.net/projects/puravidaapps/files/|SourceForge "puravidaapps. code snippets, tutorials and extensions for App Inventor" - Files]] -  Download "vpz-apkstudio-net-4.0.zip".
+      *According to my experience, it doesn't decompile APKs made with "Android Inventor 2 v. nb149" of 2016-06-15 or greater, it hangs during decompilation :-(.
+  *[[http://ibotpeaches.github.io/Apktool/|Github.io "Apktool - A tool for reverse engineering Android apk files"]], [[http://www.github.com/iBotPeaches/Apktool|Github "iBotPeaches/Apktool"]].
+  *Jarsigner.
+    *[[http://docs.oracle.com/javase/8/docs/technotes/tools/windows/jarsigner.html|Oracle Java Platform, Standard Edition Tools Reference "jarsigner"]].
+    *[[http://appopus.wordpress.com/2012/07/11/how-to-install-jdk-java-development-kit-and-jarsigner-on-windows/|app[opus] Blog "How to Install JDK (Java Development Kit) and JarSigner on Window"]].
+    *[[http://www.stackoverflow.com/questions/12135699/where-is-jarsigner|StackOverflow "Where is jarsigner?"]] - "It's in the bin folder of your java JDK install (Java SE)".
+=== Resources ===
+== Android Studio ==
+  *Android SDK Manager, default installation by Android Studio 1.4 installation, as of 2015-12:
+    *Tools.
+      *[x] Android SDK Tools.
+      *[x] Android SDK Build-tools 23.0.2.
+      *[x] Android SDK Build-tools 23.0.1.
+    *Android 6.0 (API23).
+      *[x] Documentation for Android SDK.
+      *[x] SDK Platform.
+      *[x] Google APIs.
+      *[X] Google APIs ARM EABI v7 System Image -> Manually addded by myself.
+      *[x] Google APIs Intel x86 Atom System Image.
+      *[x] Sources for Android SDK.
+    *Extras.
+      *[x] Android SDK Platform-tools.
+      *[x] Android Support Repository.
+      *[x] Google Repository.
+      *[x] Google Web Driver -> Manually addded by myself.
+        *[[http://android-developers.blogspot.de/2011/10/introducing-android-webdriver.html|Android Developers Blog "Introducing Android WebDriver"]].
+      *[x] Intel x86 Emulator Accelerator ( HAXM installer ) -> Manually addded by myself.
+  *If you open an Android Studio project, and see the following error message, you must install all SDK components for SDK API 21<code>
+Error:Cause: failed to find target with hash string 'android-21' in: C:\Users\Administrator\AppData\Local\Android\sdk
+Open Android SDK Manager</code>
+  *Installation of USB drivers for Windows.
+    *[[http://universal-adb-driver.en.malavida.com/|Malavida "Universal ADB Driver"]].
+      *[[http://www.stackoverflow.com/questions/16596877/android-studio-doesnt-see-device|StackOverflow "Android Studio doesn't see device"]].
+    *Android SDK Manager "Extras / [x] Google USB Driver".
+      *[[http://developer.android.com/sdk/win-usb.html|Google Android Developer "Google USB Driver"]] - "The Google USB Driver is required for Windows only in order to perform adb debugging with any of the Google Nexus devices".
+    *[[http://developer.android.com/tools/extras/oem-usb.html|Google Android Developer "OEM USB Drivers"]].
+      *[[http://alcatelonetouch.com/global-en/support/faq/usbdriver.html|ALCATEL onetouch "Faq - Android USB Driver Download"]] ( no "www." ) - "If your phone is MTK platform, please check here to download the Android USB Driver".
+  *How to install Android images:
+    *In Android Studio, select "System Settings / Android SDK". There is no Android image offer :-(.
+    *Click on "Launch Standalone SDK Manager". There are Android image offers :-):
+  *In case of re-installation of "Android Studio".
+    *Be shure to delete the directory "C:\Users\<user>\AppData\Local\Android\sdk", e.g. "C:\Users\Administrator\AppData\Local\Android\sdk". 
+    *If necessary, reboot the PC. If you are ever asked by Android Studio about the path of your Android SDK, refer to this URL.
+    *Be aware that "any" files in that "C:\Users\<user>\AppData\Local\Android" are parsed by Android Studio :-(, so you can´t keep there renamed files or renamed directories...
+  *Android Images with hardware acceleration:
+    *Intel.
+      *[[http://software.intel.com/en-us/android/articles/installing-the-intel-atom-x86-system-image-for-android-emulator-add-on-from-the-android-sdk-manager|Intel "Intel Atom x86 Image for Android* Gingerbread Installation Instructions - Recommended"]].
+      *[[http://software.intel.com/en-us/android/articles/installation-instructions-for-intel-hardware-accelerated-execution-manager-windows|Intel "Installation Instructions for Intel Hardware Accelerated Execution Manager - Microsoft Windows*"]] - "The SDK Manager will download the installer to the "extras" directory, under the main SDK directory. Even though the SDK manager says "Installed" it actually means that the Intel HAXM executable was downloaded. You will still need to run the installer from the "extras" directory to get it installed".
+        *Path "C:\Users\<user>\AppData\Local\Android\sdk\extras\intel\Hardware_Accelerated_Execution_Manager".
+      *[[http://www.stackoverflow.com/questions/31053803/haxm-virtualisation-install|StackOverflow "HAXM Virtualisation Install"]] for Windows.
+        *CMD. Right-Click, select Run As Administrator (must do this even if on Admin account).
+        *"bcdedit /set hypervisorlaunchtype off".
+        *2GB of RAM are suggested by default to reserve for HAXM. On my 32GB computer, I reserve 4GB of RAM for HAXM.
+      *[[http://www.stackoverflow.com/questions/34535705/hardware-acceleration-issue-with-emulator-on-android-studio|StackOverflow "Hardware Acceleration issue with emulator on Android Studio"]] - "emulator: ERROR: x86 emulation currently requires hardware acceleration! Please ensure Intel HAXM is properly installed and usable. CPU acceleration status: HAXM must be updated (version 1.1.5 < 6.0.1)".
+    *[[http://developer.xamarin.com/guides/android/getting_started/installatio/accelerating_android_emulators/|Xamarin Developers "Accelerating Android Emulators with HAXM"]].
+  *Android Images without hardware acceleration:
+    *[[http://www.programmierenlernenhq.de/app-auf-android-virtual-device-avd-im-android-emulator-ohne-intel-haxm-ausfuehren/|ProgrammierenLernenHQ "App auf Android Virtual Device im Android Emulator ohne Intel HAXM ausführen"]].
+== Android ADT ==
+  *The original SDK is provided in the "sdk" directory of "Android ADT".
+  *To use the latest SDK supplied by "Android studio":
+    *Rename the original directory "sdk" and start Eclipse provided by "Android ADT". 
+    *You are then asked to configure a new SDK. Select "C:\Users\<user>\AppData\Local\Android\sdk", e.g. "C:\Users\Administrator\AppData\Local\Android\sdk". 
+== Import of Android Projects for Eclipse to "Eclipse ( ADT )" ==
+  *To import existing Android projects for Eclipse ( ADT ) into the current workspace, at "File / Import", "Select an import source":
+    *Select "Android / Existing Android Code into Workspace". 
+    *Don´t select "General / Existing Projects into Workspace".
+  *With "Eclipse", it is standard to have both the application and the test application in one project ( and so project directory ). 
+== Import of Android Projects for Eclipse to "Android Studio" ==
+  *To import existing Android projects for Eclipse ( ADT ) to "Android Studio":
+    *Import the application project only.
+    *At least with the projects from Coursera, the application test project is included in application project, i.e. there is the directory structure:
+      *"<Root directory of the Android Studio project> / app / src / main".
+      *"<Root directory of the Android Studio project> / app / src / androidTest".
+        *You may run all single test files supplied at "<Root directory of the Android Studio project> / app / src / androidTest / java" directly - The simulator is started and the test is processed.
+    *At least with the projects from Coursera, there is no need to import the application test project supplied in the Eclipse project. If you do, you are asked to name the directory of the Eclipse project. Hmm... ( I didn´t succeed by this approach ).
+== General ==
   *[[http://docs.appcelerator.com/titanium/3.0/#!/guide/Installing_the_Android_SDK|Titanium 3.X - Appcelerator Docs "Installing the Android SDK"]].
     *The following packages, and the respective versions shown, must be installed to be able to develop for Android, as of 2014-08: 
-      -Android SDK 22.
-      -Android SDK 19.
-      -Android SDK 14 ( I was told by experts, to match the largest number of possible customers ).
-      -Android SDK 10.
-    *[[http://en.wikipedia.org/wiki/Android_version_history|EN.Wikipedia "Android version history"]], [[http://de.wikipedia.org/wiki/Liste_von_Android-Versionen|DE.Wikipedia "Liste von Android-Versionen"]].
+      -Android SDK API 22.
+      -Android SDK API 19.
+      -Android SDK API 14 ( I was told by experts, to match the largest number of possible customers ).
+      -Android SDK API 10.
+    *By my own experience of 2015-12, I now realize that there is a "compatibility gap" between API 18 ( maybe 19 or 20 ) and API 23 ( probably 21.. ). API 21 is the first for Android5. 
+      *[[http://en.wikipedia.org/wiki/Android_version_history|EN.Wikipedia "Android version history"]], [[http://de.wikipedia.org/wiki/Liste_von_Android-Versionen|DE.Wikipedia "Liste von Android-Versionen"]].
+  *[[http://en.wikipedia.org/wiki/Android_version_history|EN.Wikipedia "Android version history"]], [[http://de.wikipedia.org/wiki/Liste_von_Android-Versionen|DE.Wikipedia "Liste von Android-Versionen"]].
+== How to prepare Android projects for Publication as OpenSource ==
+ -In Android Studio, execute the menu item "Build / Clean Project".
+ -In the project directory, delete the directory "app / build".
+== How to generate unsigned and signed APKs ==
+  *Signed Release APK.
+    *[[http://developer.android.com/intl/pt-br/tools/publishing/preparing.html|Android Developers "Preparing for Release"]].
+    *[[http://www.stackoverflow.com/questions/16622843/how-do-i-export-a-project-in-the-android-studio|StackOverflow "How do I export a project in the Android studio?"]].
+  *Unsigned Debug APK.
+    *[[http://www.stackoverflow.com/questions/22269048/export-unsigned-apk-from-a-gradle-project-in-android-studio|StackOverflow "Export unsigned apk from a Gradle Project in Android Studio"]].
+    *As of Android Studio 1.5 you can now generate an APK using "Build > Build APK". Which you can then find under "$YOUR_PROJECT/$YOUR_MODULE/build/apk".
+    *Use 'Run > Run "YourProject"' to build the code and create the unsigned apk. You can find your apk file under "$YOUR_PROJECT/$YOUR_MODULE/build/outputs/apk".
+    *Open Gradle panel, open the tasks list of your project and double click on BUILD task, then under " -> build -> outputs -> apk" you will find your unsigned APK with "name -release-unsigned.apk".
+== Screencasts, Screen Recordings ==
+  *Using a smartphone simulator for screencast recordings is prefered.
+    *A screencast made on a desktop computer, recording the window of a smartphone simulator usually provides a visible cursor. By this cursor, the user interaction is properly visualized.
+    *A screencast made on a real hardware doesn´t show a "cursor". The user interaction is not visualized.
 ==== GUI Designers & IDEs for Android Development ====
-=== IDEs ===
-  *[[http://www.eclipse.org|Eclipse]].
-  *[[http://www.jetbrains.com/idea/|JetBrains "IntelliJ IDEA"]], [[http://www.jetbrains.com/idea/free_java_ide.html|JetBrains "IntelliJ IDEA Community Edition"]].
-    *[[http://en.wikipedia.org/wiki/IntelliJ_IDEA|EN.Wikipedia "IntelliJ IDEA"]], [[http://de.wikipedia.org/wiki/IntelliJ_IDEA|DE.Wikipedia "IntelliJ IDEA"]].
-    *[[http://developer.android.com/sdk/installing/studio.html|Android Developers "Getting Started with Android Studio"]].
+=== Online Application Generators ===
+  *"App Inventor" -> See [[prototype.html|Rapid Software Application and GUI Prototyping]].
+=== Application Generators ===
+  *[[http://www.buzztouch.com/|Buzztouch]].
+    *"The best iOS and Android app maker", "FREE iOS and Android App Maker".
+    *"You're welcome to look around, use BtCentral to create an app, download some source code and participate in the forums until your trial subscription expires".
+  *[[http://www.smapone.com/|smapOne]] - "Deine eigene Business App in 30 Minuten".
+    *"BlueStacks" simulator with Android OS 4.4.2 is not suitable for this app: "Your device isn't compatible with this version".
 === GUI Designers ===
   *[[http://code.google.com/p/andrdev-emf-gui-designer/|Google Code "andrdev-emf-gui-designer"]].
 ==== Framworks ====
+=== Android Native Development Kit ( NDK ) ===
+  *[[http://developer.android.com/ndk|Android Developers "Android NDK"]].
+  *[[http://developer.android.com/intl/pt-br/tools/sdk/ndk/|Android Developers "Android NDK"]].
+  *[[http://developer.android.com/intl/pt-br/ndk/|Android Developers "Android NDK"]] -  "A toolset that lets you implement parts of your app using native-code languages such as C and C++. For certain types of apps, this can help you reuse existing code libraries written in those languages".
+    *[[http://developer.android.com/intl/pt-br/ndk/downloads/index.html|Android Developers "NDK Downloads"]].
+  *[[http://developer.android.com/intl/pt-br/ndk/guides/|Android Developers Guides "Getting Started with the NDK"]].
+  *[[http://www.github.com/googlesamples/android-ndk|GitHub "googlesamples/android-ndk"]].
+  *[[http://www.ntu.edu.sg/home/ehchua/programming/android/android_ndk.html|yet another insignificant... programming notes "Android Native Development Kit (NDK)"]].
 === Android Open Accessory Development Kit ( ADK ) ===
 == The Framework ==
   *[[http://developer.android.com/guide/topics/usb/adk.html|Android Developers "Android Open Accessory Development Kit"]] ( ADK ).
@@ -82,24 +189,120 @@ Related page:
   *[[http://developers.google.com/cardboard/|Google Developers "Cardboard"]].
 === JavaFX ===
   *[[http://www.bitbucket.org/javafxports/android/|Bitbucket "JavaFX on Android Porting Community"]].
+=== Vuforia ===
+  *[[http://www.vuforia.com/|Vuforia]] by PTC.
+  *[[https://www.qualcomm.com/products/vuforia|Qualcomm "Vuforia. A PTC Business"]] - "On November 3, Qualcomm completed the sale of Vuforia to PTC Inc.".
+  *[[http://developer.vuforia.com/|Vuforia Developer Portal]].
+    *[[http://developer.vuforia.com/downloads/sdk|Vuforia Developer Portal - Downloads "Vuforia 5 SDK"]] - "Use the Vuforia SDK to build Android and iOS applications for mobile devices and digital eyewear. Apps may be built with Eclipse (Java/C++), XCode (C++), and Unity, the cross-platform game engine".
+  *[[http://www.twitter.com/vuforia|Twitter "Vuforia, @vuforia"]].
+  *[[http://www.youtube.com/user/vuforia|YouTube "Powered by Vuforia"]].
+  *The business chance of Vuforia vs. QR codes: "QR codes are ugly", sales ( of customers ) says.
+  *A former augmented reality competitor was "Metaio".
+    *[[http://www.heise.de/mac-and-i/meldung/Augmented-Reality-Apple-kauft-Muenchner-Software-Startup-Metaio-2670697.html|heise online "Augmented Reality: Apple kauft Münchner Software-Startup Metaio"]], 2015-05-29.
+    *[[http://techcrunch.com/2015/05/28/apple-metaio/#.949tz2q:GWup|TechCrunch "Apple Acquires Augmented Reality Company Metaio"]], 2015-05-28.
+==== Cross-Plattform or Non-Native Language Programming ====
+  *Android Inventor -> [[android06.html|Google Android 6/6 - App Protoyping]]
+  *C# -> [[dotnet.html|Microsoft .NET Framework 1/3]].
+  *Javascript -> [[webtech05.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 5/5 - Javascript Frameworks]].
+  *Python -> [[python09.html|Python 9/10 - Modules & Frameworks]].
 ==== Resources ====
   *Remember, while there is now Java8 for Desktop PCs, Android SDK is on the level of Java6!
+  *[[http://software.intel.com/en-us/android/blogs/2012/03/13/game-engines-for-android|Intel "Intel Developer Zone - Android* "Game Engines for Android*"]], 2013-09-18.
+  *[[http://moblearn.blogspot.de/2011/07/best-tools-for-cross-platform-app.html|moblearn: an agent for change "Best tools for cross platform app developmen"]], 2011.
+==== Commercial Development Systems ====
+  *The OpenSource [[http://www.adobe.com/de/products/flex.html|Adobe "Flex"]].
+    *The commercial "Flash Builder 4.7 Premium".
+    *The free [[https://www.adobe.com/devnet/flex/flex-sdk-download.html|Adobe "Download Adobe Flex SDK"]] - "Adobe Flex Software Development Kit (SDK) includes the Flex framework (component class library) and Flex compiler, enabling you to freely develop and deploy Flex applications using an IDE of your choice".
 ===== Developer Training =====
 ==== Literature ====
   *Book [[http://www.amazon.de/exec/obidos/ASIN/3836216973/hemmerling-21|Thomas Künneth: "Android 3: Apps entwickeln mit dem Android SDK"]], for Java developers.
   *The free PDF book [[http://www.enough.de/products/mobile-developers-guide/|Enough Software GmbH & Co.KG  "Mobile Developer's Guide To The Galaxy"]] #.
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1519722087/hemmerling-21|Neil Smyth: "Android Studio Development Essentials - Android 6 Edition"]], 2015.
   *Book [[http://www.amazon.de/exec/obidos/ASIN/3816306705/hemmerling-21|VDMA Verlag GmbH "App-Entwicklung für die Industrie"]].
     *[[http://www.vdmashop.de/Informatik-und-Technik/App-Entwicklung-fuer-die-Industrie.html|VDMA Verlag, ForumIT@Automation, Industriekreis Smart Devices "App-Entwicklung für die Industrie. Grundlagen und Entscheidungshilfen"]].
 ==== Videos ====
   *[[http://www.youtube.com/results?search_query=Developing+Android+Apps|YouTube Search for "Developing Android Apps"]].
-==== MOOC ====
-  *[[http://www.coursera.org/specializations/mobilecloudcomputing2|Coursera "Mobile Cloud Computing with Android Specialization"]].
-    -[[http://www.coursera.org/course/androidpart1|Coursera "Programming Mobile Applications for Android Handheld Systems: Part 1"]].
-    -[[http://www.coursera.org/course/androidpart2|Coursera "Programming Mobile Applications for Android Handheld Systems: Part 2"]].
-    -[[http://www.coursera.org/course/posaconcurrency|Coursera "Programming Mobile Services for Android Handheld Systems: Concurrency"]].
-    -[[http://www.coursera.org/course/posacommunication|Coursera "Programming Mobile Services for Android Handheld Systems: Communication"]].
-    -[[http://www.coursera.org/course/mobilecloudprogram|Coursera "Programming Cloud Services for Android Handheld Systems: Spring"]], 2016-04-04 - 2016-05-30.
-    -[[http://www.coursera.org/course/mobilecloudsecurity|Coursera "Programming Cloud Services for Android Handheld Systems: Security"]], 2016-06-06 - 2016-07-18.
-    -[[http://www.coursera.org/course/androidcapstone|Coursera "Android Capstone Project"]].
+==== Training Courses ====
+=== Commercial Training - MIT Android Inventor ( AI ) ===
+  *Course [[http://professional.mit.edu/programs/short-programs/educational-mobile-computing|MIT Professional Education "MIT Master Trainers Program in Educational Mobile Computing"]].
+    *3 parts:
+      -edX "Mobile Computing with App Inventor – CS Principles" -> See on this page.
+      -The 10-weeks self-paced online training is required preparation for the on-campus workshop and is not a separate class.
+      -2-days On-campus workshop.
+    *[[http://www.informationweek.com/mobile/mobile-applications/mobile-apps-shape-future-of-it-education/a/d-id/1323111|InformationWeek "Mobile Apps Shape Future Of IT Education"]], 2015.
+=== MOOC - MIT Android Inventor ( AI ) ===
+  *Course [[http://www.edx.org/course/mobile-computing-app-inventor-cs-trinityx-t002x|edX "Mobile Computing with App Inventor – CS Principles"]], 2015.
+  *Course "Mobile CSP".
+    *[[http://www.mobile-csp.org/|Mobile CSP]] - "An AP Computer Science Principles Course Endorsed by the College Board".
+      *[[http://www.mobile-csp.org/?q=node/44|Mobile CSP "Mobile CSP @ ISTE 2015"]].
+        *[[http://www.youtube.com/watch?v=g90GbBY9c94|YouTube "Emergency Messenger"]].
+        *[[http://ram8647.appspot.com/mobileCSP/unit?unit=25&lesson=111|Mobile CSP "Unit 7 - Communication Through The Internet. Socially Aware App: Broadcast Hub Tutorial"]].
+    *[[http://ram8647.appspot.com/mobileCSP/|Mobile CSP]] - "Mobile CS Principles".
+    *[[http://www.twitter.com/mobilecsp|Twitter " Mobile CSP, @mobilecsp"]], [[https://twitter.com/hashtag/MobileCSPOrientation|Twitter #MobileCSPOrientation]].
+  *Course [[http://css-cs4hs.appspot.com/CS4HS2013/|teachIT "CS4HS App Inventor"]], 2013.
+    *[[http://css-cs4hs.appspot.com/CS4HS2013/assessment?name=47|teachIT "CS4HS App Inventor" - "Assignments"]]:
+      *[[http://www.youtube.com/watch?v=5ERlbCXAkDg|YouTube "Course Builder v1.4 -- Peer Review Feature"]].
+      *[[http://docs.google.com/document/d/1cEnYJcRFtpYUAi-GSUNgIccKQOVy76TnHZpVSX7JVAo/edit|Google Docs "Promising Practices Action Plan"]].
+      *[[http://www.youtube.com/watch?v=P__zMq8jxbk|YouTube "Sharing Google Documents"]].
+      *[[http://docs.google.com/document/d/1WeVqCmNjKrVmw21Y778JOtbKUF7-71QhYL1KXB_457M/edit|Google Docs "CS4HS.Summer.2013.Unit. Template"]] - "CS4HS at CSS: App Inventor Lesson/Unit Template. Curriculum Design for Computational Thinking".
+      *[[http://docs.google.com/document/d/10sxyWa-O5CdrRw5Hp-l2-dGi9vgmXiB1FcDlRVlgh1s/edit|Google Docs "CS4HS@CSS Curriculum Plan Rubric"]] -  "Participants will create a curriculum unit that incorporates a K-12 Computer Science Standards (CSTA K-12 standards) and other state or regional curriculum standards as appropriate to the individual’s subject area".
+=== MOOC - Java ===
+  *[[http://www.coursera.org/course/androidapps101|Coursera "Creative, Serious and Playful Science of Android Apps"]].
+  *[[http://www.coursera.org/specializations/mobile-cloud-computing|Coursera "Mobile Cloud Computing with Android Specialization"]].
+    -[[http://www.coursera.org/learn/androidpart1|Coursera "Programming Mobile Applications for Android Handheld Systems: Part 1"]].
+      *[[http://www.github.com/aporter/coursera-android|GitHub "aporter/coursera-android"]] - Lecture examples.
+      *[[http://www.github.com/aporter/coursera-android-labs|GitHub "aporter/coursera-android-labs"]] - Homework exercises.
+      *[[http://share.coursera.org/wiki/index.php/Android-001:Additional_Course_Resources|Coursera Wiki "Android-001:Additional Course Resources"]].
+      *Extras:
+        *[[http://developer.amazon.com/studentvideos|Amazon Developer "STUDENTVIDEOS"]], [[http://www.youtube.com/playlist?list=PL93Q4ZD_4z4q2RofU4a3tItyj8ZSOgrOl|YouTube Playlist "The Indie Dev's Guide to Promoting Apps and Making Money"]].
+          *[[http://www.youtube.com/watch?v=tKiUtewEv8I&index=3&list=PL93Q4ZD_4z4q2RofU4a3tItyj8ZSOgrOl|YouTube "App Monetization for Beginners"]].
+        *[[http://www.techbeacon.com/develop-mobile-game-easy-way-use-framework|Tech Beakon "Develop a mobile game the easy way: Use a framework"]].
+        *[[http://blog.applovin.com/guest-post-whats-working-in-app-monetization/|Learn what's new at AppLovin "Guest Post: What’s Working in App Monetization"]].
+        *[[http://www.chartboost.com/blog/2015/11/when-do-players-purchase-in-mobile-games/|Chartboost "When Do Players Purchase in Mobile Games?"]].
+      *[[http://www.twitter.com/adam_a_porter|Twitter "Adam Porter, @adam_a_porter"]] - " I’ll continue to share interesting articles and posts as I come across them through my Twitter feed (... with #UMDLearnAndroid)"
+      *Twitter #UMDLearnAndroid.
+      *[[http://www.youtube.com/channel/UCJoy0SWCSewI3gP8231kxLQ|YouTube "Online Courses"]].
+        *[[http://www.youtube.com/playlist?list=PLkHsKoi6eZnwilGXUc95CqS7Vw4uLLDLG|YouTube Playlist "Programming Mobile Applications for Android Handheld Systems"]].
+          *[[http://www.youtube.com/watch?v=qFCbv3r5Dk0&list=PLkHsKoi6eZnwilGXUc95CqS7Vw4uLLDLG|YouTube "Programming Mobile Applications for Android - Introduction to the Android Platform"]] - 1/42 videos.
+    -[[http://www.coursera.org/learn/androidpart2|Coursera "Programming Mobile Applications for Android Handheld Systems: Part 2"]].
+      *[[http://www.github.com/mgolokhov/dodroid|GitHub "mgolokhov/dodroid"]] - Android quiz for programmers. "Let's create a supplementary open-source app to the course".
+    -[[http://www.coursera.org/learn/posaconcurrency|Coursera "Programming Mobile Services for Android Handheld Systems: Concurrency"]].
+      *[[http://www.dre.vanderbilt.edu/~schmidt/|Vanderbilt University "Douglas C. Schmidt"]].
+      *[[http://github.com/douglascraigschmidt/POSA-15|GitHub "douglascraigschmidt/POSA-15"]].
+      *[[http://www.github.com/douglascraigschmidt/POSA-15/wiki/Hyperlinks-in-the-lectures|GitHub Gist  "douglascraigschmidt/POSA-15" - "Hyperlinks in the lectures"]].
+      *[[http://android.googlesource.com/|Google Git "Git repositories on android"]].
+      *[[http://www.mkyong.com/java/where-to-download-jdk-source-code/|Mkyong "Where to download Java JDK source code ?"]].
+    -[[http://www.coursera.org/learn/posacommunication|Coursera "Programming Mobile Services for Android Handheld Systems: Communication"]], ( Until 2016-02-01: [[http://www.coursera.org/course/posacommunication|Coursera "Programming Mobile Services for Android Handheld Systems: Communication"]] ).
+    -[[http://www.coursera.org/learn/posacontent|Coursera "Programming Mobile Services for Android Handheld Systems: Content"]].
+    -[[http://www.coursera.org/learn/mobilecloudprogram|Coursera "Programming Cloud Services for Android Handheld Systems: Spring"]].
+      *[[http://github.com/juleswhite/mobilecloud-15|GitHub "juleswhite/mobilecloud-15"]] - "Programming Cloud Services for Android Handheld Systems: Spring".
+      *[[http://github.com/juleswhite/mobilecloud-14|GitHub "juleswhite/mobilecloud-14"]] - "Source code and assignments for the Programming Cloud Services for Android Handheld Systems Course".
+    -[[http://www.coursera.org/learn/mobilecloudsecurity|Coursera "Programming Cloud Services for Android Handheld Systems: Security"]].
+       *[[http://github.com/juleswhite/mobilecloudsecurity-15|GitHub "jjuleswhite/mobilecloudsecurity-15"]].
+    -<del>[[http://www.coursera.org/learn/androidcapstone|Coursera "Android Capstone Project"]]</del>.
+      *"It's  mandatory for students in the Signature Track to successfully achieve a Verified Certificate in order for them to undertake the Capstone project at the end of the MoCCA Specialization".
+      *"For students who passed all previous MOOCs in the MoCCA Specialization 'with Distinction'".
+      *[[http://www.gradschoolhub.com/faqs/what-is-a-capstone-project-in-graduate-school/|Grad School Hub "What is a Capstone Project in Graduate School?"]].
+      *[[http://edglossary.org/capstone-project/|The Glossary of Education Reform "Capstone Project Definition"]] - "Also called a capstone experience, culminating project, or senior exhibition, among many other terms, a capstone project is a multifaceted assignment that serves as a culminating academic and intellectual experience for students, typically during their final year of high school or middle school, or at the end of an academic program or learning-pathway experience." 
+  *[[http://www.coursera.org/specializations/androidapp|Coursera "Android App Development Specialization"]].
+    -[[http://www.coursera.org/learn/java4android|Coursera "Java for Android"]].
+    -[[http://www.coursera.org/learn/androidapps|"Android App Components and Data Persistence"]].
+    -[[http://www.coursera.org/learn/badaap|Coursera "Building and Deploying Android App Projects"]].
+    -[[http://www.coursera.org/learn/engineeringandroidapps|Coursera "Engineering Maintainable Android Apps"]].
+    -[[http://www.coursera.org/learn/aadcapstone|Coursera "Capstone MOOC for 'Android App Development'"]].
+  *[[http://www.udacity.com/|Udacity]].
+    *[[http://www.udacity.com/course/ud853|Udacity "Developing Android Apps. Android Fundamentals"]], 10 weeks.
+      *[[http://www.udacity.com/course/viewer#!/c-ud853/l-1395568821/m-1601259306|Udacity "Developing Android Apps"]].
+      *[[http://www.github.com/udacity/Sunshine-Version-2|GitHub "udacity/Sunshine-Version-2"]].
+    *The free course [[http://www.udemy.com/android-tutorial/|Udacity "Learn Android 4.0 Programming in Java"]].
+    *I was told by participants, that the local meetings of [[http://www.meetup.com/womentechmakershamburg/|Meetup "Women Techmakers Hamburg (Hamburg)"]] in Hamburg, in 2016, titled "Android Study Jam ", dealed with one of these Android courses at Udacity :-).
+=== MOOC - C# ===
+  *[[http://university.xamarin.com/|Xamarin University]].
+  *[[http://mva.microsoft.com/en-us/training-courses/xamarin-for-absolute-beginners-16182?l=fPHWqptJC_5705846048|Microsoft Virtual Academy "Xamarin for Absolute Beginners"]].
+=== MOOC ===
+  *[[http://www.edx.org/course/mobile-application-experiences-part-1-mitx-21w-789x|edX "Mobile Application Experiences Part 1: From a Domain to an App Idea. Learn how to create your own mobile app using HCI principles"]].
+    *[[http://www.scholarship-positions.com/blog/mit-online-course-mobile-app/201601/|Blog Scholarships for International Students "MIT Online Course For Creating Mobile App"]].
+=== Resources ===
+  *[[http://www.diygenius.com/how-to-learn-android-app-development-online/|DiyGenius "How To Rapidly Learn Android App Development Online"]].
 {{tag>"Google Android" Android}}
 <footnote_navi_en>

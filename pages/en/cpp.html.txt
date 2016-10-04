@@ -1,14 +1,38 @@
 ====== [hemmerling] C, C++ for Windows & MSDOS ======
-===== Borland C++, Turbo C++, Turbo C =====
-==== Conferences, Organisations ====
-  *The commercial conference [[http://cppnow.org/|C++Now]], USA.
+===== Conferences, Organisations =====
+==== ACCU, ACCU Conference ====
+  *[[http://accu.org/|ACCU. Professionalism in programming]] ( formerly: "Association of C and C++ Users" ).
+    *The free PDF magazine [[http://www.accu.org/index.php/journals/c78/|ACCU. Professionalism in programming "The ACCU Overload journals"]].
+      *[[http://en.wikipedia.org/wiki/Overload_%28magazine%29|EN.Wikipedia "Overload (magazine)"]] - The successor of "C/C++ Users Journal, C++ Report, and to a lesser extent, Dr Dobb's Journal" :-).
+    *[[http://accu.org/index.php/conferences|ACCU. Professionalism in programming "Conferences"]].
+      *[[http://www.youtube.com/channel/UCJhay24LTpO1s4bIZxuIqKw|YouTube "ACCU Conference"]].
+      *[[http://en.wikipedia.org/wiki/ACCU_%28organisation%29|EN.Wikipedia "ACCU (organisation)"]].
+==== ADC++ Conference ====
+  *The German conference [[http://adcpp.de/|ADC++]] - "Advanced Developers Conference C++. Development for Professionals!".
+    *[[http://adcpp.de/2016/|ADC++ 2016]] in Erding, 2016-04-25 - 2016-04-27.
+  *Videos:
+    *[[http://www.youtube.com/watch?v=YZoGf0DyPfM|YouTube "Konferenz-Video. Advanced Developers Conference zu native C++
+3.-4. Mai 2012 in den bayerischen Alpen"]].
+==== C++Now Conference ====
+  *The conference "C++Now" ( formerly BoostCon ).
+    * The conference [[http://www.cppnow.org/|C++Now]], USA.
+      *[[http://www.github.com/boostcon|Github "boostcon"]].
+      *[[http://www.youtube.com/user/CppCon|YouTube "CppCon"]].
+==== CppCon Conference ====
+  *The conference [[http://www.cppcon.org/|CppCon]], USA.
+==== Meeting C++ Conference ====
   *[[http://www.meetingcpp.com/|Meeting C++]].
-    *Conference [[http://www.meetingcpp.com/index.php/mcpp2013.html|Meeting C++ 2013]] in Düsseldorf, 2013-11-08 - 2013-11-09.
+    *Conference [[http://www.meetingcpp.com/index.php/mcpp2013.html|Meeting C++ 2013]] in Düsseldorf.
     *Conference [[http://www.meetingcpp.com/index.php/mcpp2014.html|Meeting C++ 2014]] in Berlin.
-  *C++ User Groups.
-    *[[http://www.meetingcpp.com/index.php/MeetingCpp.html|Meeting C++ - Kommende C++ Events & Treffen]] -> C++ User Gruppe Hamburg.
-    *[[http://www.xing.com/net/moderncpp|XING "Modern C++"]] -> C++ User Gruppe Hamburg.
-    *[[https://wiki.attraktor.org/C%2B%2BUserGroup|Attraktor e.V. "C++UserGroup"]].
+    *Conference [[http://www.meetingcpp.com/index.php/mcpp2015.html|Meeting C++ 2015]] in Berlin.
+    *Conference [[http://www.meetingcpp.com/index.php/mcpp2016.html|Meeting C++ 2016]] in Berlin.
+    *[[https://www.youtube.com/user/MeetingCPP|YouTube "Meeting C++ YT Kanalseite"]].
+==== C++ User Groups ====
+  *[[http://www.meetingcpp.com/index.php/MeetingCpp.html|Meeting C++ - Kommende C++ Events & Treffen]] -> C++ User Gruppe Hamburg.
+  *[[http://www.xing.com/net/moderncpp|XING "Modern C++"]] -> C++ User Gruppe Hamburg.
+  *[[http://wiki.attraktor.org/C%2B%2BUserGroup|Attraktor e.V. "C++UserGroup"]].
+  *[[http://www.meetup.com/C-User-Group-Hannover/|Meetup "C++ User Group Hannover"]].
+===== Borland C++, Turbo C++, Turbo C =====
 ==== Compilers ====
   *Borland C++ Builder.
     *[[http://www.amazon.de/exec/obidos/ASIN/382668642X/hemmerling-21|Hans-Georg Schumann: "C++ für Kids. Objektorientierte Programmierung für Einsteiger"]] ( expensive book ) - is shipped with a full version of "Borland C++ Builder 1" for Windows on CD.
@@ -18,6 +42,7 @@
       *[[http://www.embarcadero.com/products/cbuilder/free-compiler|Embarcadero "Free C++ Compiler"]].
       *[[http://edn.embarcadero.com/article/20633|Embarcadero "Borland C++ Compiler version 5.5 Free Download Is Here !!!"]] -  *The free commandline tools of Borland C++ 5.5, for Windows.
       *[[http://edn.embarcadero.com/article/21205|Embarcadero "Borland C++ 5.5 Free Command-line Tools Supplementary Information"]] - "Provides explicit instructions for setting up and using the free command-line compiler.".
+    *Experts told me in 2016, that the current Embarcadero C/C++ compiler is still more-or-less on the C++ language level of "Borland C/C++" of 1998, or so...., i.e. not on C++ language level C11 or even C17.
   *Some other download offers.
     *[[http://www.borlandc.org/|BorlandC.org]].
       *[[http://www.borlandc.org/download-borland-c-3-1/|BorlandC.org "Download Borland C++ 3.1"]].
@@ -139,6 +164,8 @@
   *[[http://support.microsoft.com/default.aspx?scid=kb;en-us;q138400|Microsoft Help and Support, Article ID: 138400 "Troubleshooting LNK2001 or L2029 Unresolved External Errors"]] -> Microsoft Linker.
   *[[http://msdn.microsoft.com/en-us/library/aa367091%28v=VS.85%29.aspx|MSDN "Microsoft Interface Definition Language"]] (MIDL) - "The Microsoft Interface Definition Language (MIDL) defines interfaces between client and server programs. Microsoft includes the MIDL compiler with the Platform Software Development Kit (SDK)".
     *[[http://msdn.microsoft.com/en-us/library/aa367300%28v=VS.85%29.aspx|MSDN "Using the MIDL Compiler"]].
+==== Resources ====
+  *Experts told me in 2016-07, that Microsoft C/C++ 2013 and C/C++ 2015 still doesn´t implement C11 completely.
 
 ===== Open Watcom C/C++ =====
   *[[http://www.openwatcom.org|Open Watcom]] for Windows, OS/2, DOS32, DOS.
@@ -159,6 +186,7 @@
   *The free HTML and online HTML book [[http://openbook.galileocomputing.de/c_von_a_bis_z/|Jürgen Wolf "C von A bis Z"]].
   *[[http://www.stackoverflow.com/questions/8949382/is-it-possible-to-compile-pre-ansi-kr-style-c-code-with-visual-c|StackOverflow "Is it possible to compile pre-ANSI (K&R-style) C code with Visual C++?"]] - "In order to get this to compile put the code in a .c file vs. a .cpp. This instructs Visual Studio to compile the code as C instead of C++".
 ==== C++ Language Resources ====
+  *Experts told me in 2016-07, that C++ is a "different language" since C11.
   *[[http://www.parashift.com/c++-faq-lite/|Marshall Cline "C++ FAQ — Frequently Asked Questions"]].
     *[[http://www.parashift.com/c++-faq-lite/mixing-c-and-cpp.html|Marshall Cline "How to mix C and C++]].
   *[[http://www.semantics.org/|Semantics Consulting, Inc./Steve Dewhurst]].
@@ -173,8 +201,32 @@
   *The free HTML and online HTML books [[http://www.highscore.de/|Boris Schäling "Programmieren in C++: Einführung"]], [[http://www.highscore.de/|Boris Schäling "Programmieren in C++: Aufbau"]] and [[http://www.highscore.de/|Boris Schäling "Die Boost C++ Bibliotheken"]]. 
   *Wikipedia.
     *[[http://en.wikipedia.org/wiki/Compatibility_of_C_and_C%2B%2B|EN.Wikipedia "Compatibility of C and C++"]].
+==== Modern C++ Language Resources ====
+  *Experts told me in 2016-07, that C++ is a "different language" since C11.
+  *Modern C++ Features:
+    *Smart Pointers.
+==== Embeddded C++ Language Resources ====
+  *Alex Robenko.
+    *[[http://www.gitbook.com/book/arobenko/bare_metal_cpp/details|GitBook "Alex Robenko: Practical Guide to Bare Metal C++"]], [[http://bare-metal-cpp.blogspot.de/|Blogspot "Practical Guide to Bare Metal C++"]].
+    *[[http://developer.openmono.com/en/latest/articles/bare_metal_cpp.html|ReadTheDocs "3. Bare Metal C++: A Practical Guide"]].
+    *[[http://www.reddit.com/r/cpp/comments/4bqdry/practical_guide_to_bare_metal_c/?|Reddit "Practical Guide to Bare Metal C++"]].
+  *[[http://www.bell0bytes.eu/kvasir/|Kvasir]], [[http://www.github.com/kvasir-io|Github "kvasir-io"]] - "Kvasir. C++ Metaprogramming library enabling better static checking and register abstraction in embedded software". 
+  *[[http://parallella.org/forums/viewtopic.php?f=49&t=2327|Parallella Community "How to shrink your C++ code to fit on an Epiphany core"]].
+  *[[http://www.raspberrypi.org/forums/viewtopic.php?t=114357&p=809669|Raspberry Pi "C++ bare metal coding"]].
+  *[[http://stackoverflow.com/questions/35421328/high-performance-bare-metal-abstraction|StackOverflow "High Performance Bare Metal Abstraction [closed]"]].
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/0750687061/hemmerling-21|Miro Samek "Practical UML Statecharts in C/C++: Event-Driven Programming for Embedded Systems"]].
 ===== Questionnaires, Quizzes =====
   *[[http://www.cppquiz.org/quiz/about/|Anders Schau Knatten "C++ Quiz"]].
+===== Literature for "Modern C++" =====
+==== Literature for "Modern C++" ====
+  *[[http://www.aristeia.com/|Scott Meyers. Software Development Consultant]].
+    *[[http://www.aristeia.com/books.html|Scott Meyers. Software Development Consultant "Scott Meyers. Books, etc."]].
+    *[[http://en.wikipedia.org/wiki/Scott_Meyers|EN.Wikipedia "Scott Meyers"]].
+    *Blog [[http://scottmeyers.blogspot.de/|The View from Aristeia. Scott Meyers' Professional Activities and Interests]].
+    *[[http://www.amazon.de/Scott-Meyers/e/B004BBEYYW/hemmerling-21|Amazon.DE Autorenseite "Scott Meyers"]].
+==== Literature for "Classical C++" ====
+==== Resources ====
+  *[[http://accu.org/index.php?module=bookreviews&func=browse|ACCU. Professionalism in programming  "Browse all ACCU Book Reviews"]].
 ===== Resources =====
   *[[http://javatux.de/C/|Oliver Böhm "Oli's C/C++-Links"]].
   *[[http://www.fz-juelich.de/jsc/cv/lang/cplusplus/cplusplus_ext|Jülich Supercomputing Centre ( JSC) "WWW C++ Information"]] - link directory.
@@ -194,10 +246,14 @@
   *[[http://sources.redhat.com/ml/cygwin/|RedHat "The Cygwin Project mailing list archives"]].
   *[[http://www.digitalmars.com/NewsGroup.html|Digital Mars - News Groups]].
   *[[http://community.embarcadero.com/|Embarcadero Community]].
+  *Facebook:
+    *[[http://www.facebook.com/accuorg/|Facebook "ACCU"]].
+    *[[http://www.facebook.com/AdvancedDevelopersConference/|Facebook "ADC. @AdvancedDevelopersConference"]].
   *[[http://groups.google.com/group/borland.public.cppbuilder.commandlinetools|Google Groups "borland.public.cppbuilder.commandlinetools"]], [[http://groups.google.com/group/borland.public.cppbuilder.graphics|Google Groups "borland.public.cppbuilder.graphics"]], [[http://groups.google.com/group/borland.public.cppbuilder.language.cpp|Google Groups "borland.public.cppbuilder.language.cpp"]], [[http://groups.google.com/group/borland.public.cppbuilder.nativeapi|Google Groups "borland.public.cppbuilder.nativeapi"]], [[http://groups.google.com/group/borland.public.cppbuilder.non-technical|Google Groups "borland.public.cppbuilder.non-technical"]], [[http://groups.google.com/group/borland.public.cppbuilder.oodesign|Google Groups "borland.public.cppbuilder.oodesign"]], [[http://groups.google.com/group/borland.public.cppbuilder.oodesign|Google Groups "borland.public.cppbuilder.oodesign"]], [[http://groups.google.com/group/borland.public.cppbuilder.students|Google Groups "borland.public.cppbuilder.students"]], [[http://groups.google.com/group/borland.public.cppbuilder.thirdpartytools|Google Groups "borland.public.cppbuilder.thirdpartytools"]], [[http://groups.google.com/group/borland.public.cppbuilder.vcl.components.using|Google Groups "borland.public.cppbuilder.vcl.components.using"]], [[http://groups.google.com/group/borland.public.cppbuilder.vcl.components.writing|Google Groups "borland.public.cppbuilder.vcl.components.writing"]].
   *[[http://groups.google.com/group/comp.lang.c++|Google Groups "comp.lang.c++"]], [[http://groups.google.com/group/comp.lang.c++.moderated|Google Groups "comp.lang.c++.moderated"]], [[http://groups.google.com/group/comp.lang.c++.leda|Google Groups "comp.lang.c++.leda"]], [[http://groups.google.com/group/de.comp.lang.c++|Google Groups "de.comp.lang.c++"]], [[http://groups.google.com/group/de.comp.lang.iso-c++|Google Groups "de.comp.lang.iso-c++"]].
   *[[http://groups.google.com/group/openwatcom.users.c_cpp|Google Groups "openwatcom.users.c_cpp"]]. [[http://groups.google.com/group/openwatcom.users.fortran|Google Groups "openwatcom.users.fortran"]], [[http://groups.google.com/group/openwatcom.contributors|Google Groups "openwatcom.contributors"]], [[http://groups.google.com/group/openwatcom.bugzilla|Google Groups "openwatcom.bugzilla"]], [[http://groups.google.com/group/powersoft.public.watcom_c_c++.general|Google Groups "powersoft.public.watcom_c_c++.general"]].
   *[[http://groups.google.com/group/comp.os.msdos.djgpp|Google Groups "comp.os.msdos.djgpp"]].
+  *[[https://plus.google.com/107985477330768591190/|Google+ "Meeting C++"]].
   *[[http://www.stackoverflow.com/questions/tagged/c|Stack Overflow - Tagged Questions "[c]"]], [[http://www.stackoverflow.com/questions/tagged/c++|Stack Overflow - Tagged Questions "[c++]"]].
   *[[http://www.xing.com/net/moderncpp|XING "Modern C++"]].
 ===== Appropriate OpenDirectory Directory Pages =====

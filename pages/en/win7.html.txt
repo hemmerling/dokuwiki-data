@@ -11,6 +11,7 @@ Related pages:
       *Right-click on “Command Prompt” and select “Run As Administrator“. If you are prompted to enter password, enter the password and continue. 
       *You can also open Command Prompt in Administrator mode by typing “cmd” in Startmenu Search box and press "Ctrl+Shift+Enter".
     -Now provide following command: //net user administrator /active:yes//
+  *Warning: If you do a typing mistake, e.g. forget the "/" of "/active:yes", you might change the ( by default unset ) password of the Administrator, e.g. "net user administrator passwort" sets the password to "passwort" :-(.
 ==== Hardware Drivers ====
 === Gameport ===
   *[[http://www.computerbase.de/forum/showthread.php?t=316915|ComputerBase "Nicht unterstützter Standardgameport"]] - "Ich hab den Standardgameport-Treiber für WinXP extrahiert , dieser lässt sich im Vista 32bit Gerätemanager manuell installieren über die Auswahl -> Auf dem Computer nach Treibersoftware suchen -> Aus einer Liste von Gerätetreibern auf dem Computer auswählen -> Durchsuchen -> den Ordner meiner entpackten ZIP angeben. Den Standardgameport auswählen und Treiberinstallation mit Ja ich will den Treiber installieren fortsetzen" :-).
@@ -30,8 +31,9 @@ Related pages:
       *[[http://www.weyland.be/wrdprss/index.php/2011/02/15/windows-7-usb-download-tool-says-the-selected-file-is-not-a-valid-iso-file/|Weyland.be "Windows 7 USB Download tool says “the selected file is not a valid iso file”]] - "Select 'UDF' and save your ISO" #.
       *[[http://blog.sbsfaq.de/post/2011/08/29/Fehlermeldung-des-Windows-7-USBDVD-Download-Tool-e2809cunable-to-copy-your-files-e280a6e2809d-beheben.aspx|blog.sbsfaq.de "Fehlermeldung des Windows 7 USB/DVD Download Tool 'unable to copy your files. …' beheben"]].
   *[[http://www.unawave.de/windows-7/downloads.html|Unawave "Downloads von Windows 7 ISO-Image-Dateien"]].
-==== Budget Offers ====
-  *[[http://www.pcfritz.de/software/betriebssystem/windows-7-professional|PC-Fritz "Windows 7 Professional"]] for 29.90 EUR/license.
+==== Updates ====
+  *[[http://support.microsoft.com/en-us/help/14162/windows-service-pack-and-update-center|Microsoft Support "Service Pack and Update Center"]] # for Win7, Win8, Win10 -> "Win7,SP1".
+  *[[http://support.microsoft.com/en-us/kb/3125574|Microsoft " Convenience rollup update for Windows 7 SP1 and Windows Server 2008 R2 SP1"]] = inofficial "Win7,SP2".
 ==== Resources ====
   *[[http://www.helpdeskgeek.com/windows-7/windows-7-how-to-delete-files-protected-by-trustedinstaller/|Help Desk Geek "Windows 7 – How to Delete Files Protected by TrustedInstaller"]].
   *[[http://www.howtohaven.com/system/change-disk-signature.shtml|howtohaven.com "How to Change the Disk Signature of a Drive Without Losing Existing Data or Reformatting"]].
@@ -68,6 +70,10 @@ Related pages:
   *Windows 8 RC is enabled to run until 2013-01-31, so for upgrade, please adjust the time in the computer BIOS to be prior 2013-01-31.
   *[[http://www.urtech.ca/2012/05/windows-8-release-candidate-available-now-windows-2012-server-too/|Up & Running Technologies Calgary "Windows 8 Release Candidate Available Now, Windows 2012 Server Too!"]] - "The CD key for this is TK8TP-9JN6P-7X7WW-RFFTV-B7QPF".
   *[[http://arifpowerpc.blogspot.de/2012/11/windows-8-rc-product-key-free-download.html|software for PC - "Windows 8 RC Product Key Free Download"]] - "TK8TP-9JN6P-7X7WW-RFFTV-B7QPF".
+=== Win8 Media Center - Discontinued time-limited free Upgrade Offer ===
+  *[[http://www.drwindows.de/windows-8-allgemein/70789-windows-8-1-produktschluessel-installation-wmc-ungueltig.html|Dr. Windows "Windows 8.1 Produktschlüssel nach Installation von WMC ungültig"]] :-(.
+=== How to create a bootable USB stick for Booting Win8 ===
+  *[[http://technet.microsoft.com/en-us/library/jj200124%28v=ws.11%29.aspx?f=255&MSPPError=-2147217396|Microsoft TechNet "Create a Bootable USB Flash Drive"]].
 === Upgrades ===
   *[[http://ask.adaptec.com/app/answers/detail/a_id/17243/~/what-adaptec-products-are-supported-in-windows-8-and-server-2012%3F|Adaptec "What Adaptec products are supported in Windows 8 and Server 2012?"]].
     *There are no Win8 drivers for Adaptec AH294x / AIC-78XX PCI SCSI controllers :-(.
@@ -96,8 +102,7 @@ DISM.exe /Online /Cleanup-image /Restorehealth
   *[[http://www.makeuseof.com/|makeuseof]].
     *The free PDF document [[http://technewsletters-whitepapers.tradepub.com/free/w_make100/|makeuseof "The Ultimate Windows 8 Kit"]] - "[[http://cmcawley.co.uk/|Christian Cawley]]: 'Getting Started: your guide to Windows 8'" ( PDF ).
 
-===== Windows 10 =====
-  *[[http://blogs.technet.com/b/austria/archive/2015/10/18/windows-10-iso-build-10565-als-download.aspx|Microsoft Technet Blogs "TechNet Team Blog Austria. Informationen und News abseits der offiziellen TechNet vom TechNet Team Blog Austria "Windows 10 ISO Build 10565 als Download"]], 2015-10-18.
+
 ===== Resources =====
   *With "Windows 8" and "Windows 8 Pro", you may add and change languages. With the prior generation of Windows editions, just "Windows 7 Ultimate" had this feature.
   *Win7Pro-32bit and Win8Pro-32bit are able to execute 16-bit Windows applications, while Win7Pro-64bit and Win8Pro-64bit can´t. For Win7Pro-64bit you may run WinXP on the built-in VirtualPC, as for Win7Pro Microsoft provides a free license of WinXP. Proof: Type "edit" in a COMMAND.COM window. Just on Win7-32bit and Win8-32bit, DOS-EDIT is executed.
@@ -105,6 +110,15 @@ DISM.exe /Online /Cleanup-image /Restorehealth
   *[[http://www.daniel-mitchell.com/blog/reset-windows-7-rearm-count/|Daniel Mitchell's Blog - Things I fixed this week "Reset Windows 7 Rearm Count"]] - "c:\windows\system32\slmgr /rearm", "c:\windows\system32\slmgr /dlv".
   *[[http://social.technet.microsoft.com/Forums/windows/en-US/3bdc0d84-fbc9-40a8-91a2-cbfd85888458/|Microsoft TechNet, Thread "Change Windows 8 Product Key to activate"]] - "Start 'run' and type SLUI 3, and then you get the activation screen".
   *[[https://en.wikipedia.org/wiki/Windows_Master_Control_Panel_shortcut|EN.Wikipedia "Windows Master Control Panel shortcut"]] - Creaete a folder on the Desktop "GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}" to be in "Windows God Mode" by the by this offered Windows control functions.
+  *[[http://support.microsoft.com/en-us/kb/958056|Microsoft Support "You receive a "0x80246002" error code when you use the Windows Update or Microsoft Update Web sites to install updates"]].<code>
+net stop wuauserv
+c:
+cd %systemroot%\SoftwareDistribution
+ren Download Download.old
+net start wuauserv
+</code>
+  *[[http://www.google.de/search?q=windows+sie+m%C3%BCssen+ihre+sprachen+in+windows+8+erneut+hinzuf%C3%BCgen|Google - Search for "sie müssen ihre sprachen in windows 8 erneut hinzufügen"]].
+    *[[http://answers.microsoft.com/de-de/windows/forum/windows_8-windows_install/upgrade-stop-sie-m%C3%BCssen-ihre-sprachen-in/835bda91-0041-4cb9-9a4b-6f82733bfae1|Microsoft Community "Upgrade Stop: Sie müssen Ihre Sprachen in Windows 8 erneut hinzufügen"]].
 ===== Appropriate OpenDirectory Directory Pages =====
   *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Microsoft_Windows/|OpenDirectory "Top: Computers: Software: Operating Systems: Microsoft Windows"]].
 {{tag>Windows "Windows Vista" Vista "Windows 7" Win7 "Windows 2008 Server" "Windows 2008" Win2008 2008 "Windows 8" Win8}}

@@ -1,7 +1,9 @@
 ====== [hemmerling] Mathematical Engineering ======
 Related Pages:
+  *[[bintelligence.html|Data Processing 5/5 - Business Intelligence, Data Mining]].
   *[[infographics.html|Data Visualisation with Infographics]].
   *[[instrumentation.html|Instrumentation]].
+  *[[logfileprocessing.html|Logfile Data Processing / Logfile Analysis / IT Operations Management]].
   *[[mathworks.html|MathWorks ( MATLAB / Simulink )]].
   *[[ni.html|National Instruments ( Labview, DIAdem )]].
   *[[mathcad.html|PTC Mathcad]].
@@ -23,7 +25,6 @@ Related Pages:
   *[[http://www.julialang.org/|The Julia Language]].
   *The free IDE [[http://www.forio.com/products/julia-studio/| Julia Studio]] - "An integrated development environment for the Julia language".
     *[[http://en.wikipedia.org/wiki/Julia_%28programming_language%29|EN.Wikipedia "Julia (programming language)"]], [[http://de.wikipedia.org/wiki/Julia_%28Programmiersprache%29|DE.Wikipedia "Julia (Programmiersprache)"]].
-
 ===== Labview =====
 <WRAP tip>[[ni.html|National Instruments ( Labview, DIAdem )]]</WRAP>
 ===== Mathcad =====
@@ -32,23 +33,46 @@ Related Pages:
 <WRAP tip>[[mathworks.html|MathWorks ( MATLAB / Simulink )]]</WRAP>
 ===== MathML =====
   *[[http://en.wikipedia.org/wiki/MathML|EN.Wikipedia "MathML"]], [[http://de.wikipedia.org/wiki/MathML|DE.Wikipedia "MathML"]].
+===== Logfile Data Processing / Logfile Analysis / IT Operations Management =====
+  *[[logfileprocessing.html|Logfile Data Processing / Logfile Analysis / IT Operations Management]].
 ===== Python, with its Scientific Computing Packages ( NumPy,... ) =====
   *See [[python.html|Python]].
 ===== R =====
 ==== Tools ====
+=== OpenSource ===
   *[[http://www.r-project.org/|The R Project for Statistical Computing]].
     *[[http://cran.r-project.org/|The Comprehensive R Archive Network]].
-  *The free IDE [[http://www.rstudio.com/ide/|RStudio IDE]] for Windows, Linux, MacOSX.
-  *The commercial [[http://www.revolutionanalytics.com/|Revolution Analytics "R"]].
+      *[[http://cran.rstudio.com/bin/windows/|The Comprehensive R Archive Network "R for Windows"]].
+    *[[http://cran.r-project.org/doc/FAQ/R-FAQ.html|The Comprehensive R Archive Network "R FAQ"]].
+=== Microsoft ===
+  *The once-commercial [[http://www.revolutionanalytics.com/|Revolution Analytics "R"]].
     *[[http://www.revolutionanalytics.com/r-community|Revolution Analytics "The R Community"]]
     *[[http://blog.revolutionanalytics.com/local-r-groups.html|Revolution Analytics Blog "Local R User Group Directory"]].
+  *The free [[http://www.microsoft.com/en/server-cloud/products/r-server/|Microsoft R Server]] for Win-64bit, Linux-64bit.
+    *[[http://msdn.microsoft.com/en-us/library/mt674634.aspx|Microsoft Developer Network "Microsoft R Server"]].
+  *The free [[http://mran.microsoft.com/download/mro-for-mrs/|Microsoft MRAN "Microsoft R Open for Microsoft R Server 2016"]].
+  *Blog [[http://blog.revolutionanalytics.com/|Revolutions. Daily news about using open source R for big data analysis, predictive modeling, data science and visualization, since 2008]].
+    *[[http://blog.revolutionanalytics.com/2016/01/microsoft-r-open.html|Revolutions "Revolution R renamed Microsoft R, available free to developers and students"]].
+  *Experts told me that ( in opposite to the OpenSource "R" ) the once-commercial edition is using "Intel Math Kernel Library".
+    *[[http://software.intel.com/en-us/intel-mkl|Intel Developer Zone "Intel Math Kernel Library (Intel MKL)"]].
+    *[[http://software.intel.com/en-us/articles/free-mkl|Intel Developer Zone "No Cost Options for Intel Math Kernel Library (Intel MKL), Support Yourself, Royalty-Free"]].
+    *[[http://en.wikipedia.org/wiki/Math_Kernel_Library|EN.Wikipedia "Math Kernel Library"]].
+==== IDEs ====
+  *The OpenSource IDE [[http://www.rstudio.com/|RStudio]]. "RStudio requires R", i.e.g RStudio isn't shipped with an "R" runtime.
+    *The OpenSource [[http://www.rstudio.com/products/rstudio-desktop/|RStudio Desktop]] for Windows, Linux, MacOSX.
+    *The OpenSource [[http://www.rstudio.com/products/rstudio/download-server/|RStudio Server]] for Linux.
+    *[[http://cran.rstudio.com/bin/windows/base/rw-FAQ.html|RStudio "R for Windows FAQ"]].
+==== Data Processing with "R" ====
+  *[[http://www.rdatamining.com/examples/decision-tree|RDataMining.com: R and Data MiningRDataMining.com: R and Data Mining "Decision Trees"]].
+  *[[http://trevorstephens.com/post/72916401642/titanic-getting-started-with-r|Trevor Stephens "Titanic: Getting Started With R"]].
+    *[[http://www.trevorstephens.com/post/72923766261/titanic-getting-started-with-r-part-3-decision|Trevor Stephens "Titanic: Getting Started With R - Part 3: Decision Trees"]].
+  *[[http://www.tutorialspoint.com/r/r_decision_tree.htm|Tutorialspoint "R - Decision Tree"]].
 ==== Resources ====
+  *[[http://blogs.technet.microsoft.com/machinelearning/2016/01/12/making-r-the-enterprise-standard-for-cross-platform-analytics-both-on-premises-and-in-the-cloud/|Cortana Intelligence and Machine Learning Blog "Making R the Enterprise Standard for Cross-Platform Analytics, Both On-Premises and in the Cloud"]], 2016.
   *[[http://www.kdnuggets.com/polls/2011/r-gui-used.html|KDnuggets. Data Mining Community's Top Resource "R GUIs you use frequently"]].
   *[[http://www.theusrus.de/blog/r-guis-which-one-fits-you/|Statistical Graphics and more. Statistical Graphics, Data Visualization, Visual Analytics, Data Analysis, Data Mining, User Interfaces – you name it "R GUIs: Which one fits you?"]], 2011-03-27.
   *[[http://en.wikipedia.org/wiki/R_%28programming_language%29|EN.Wikipedia "R (programming language)"]], [[http://de.wikipedia.org/wiki/R_%28Programmiersprache%29|DE.Wikipedia "R (Programmiersprache)"]].
   *[[http://en.wikipedia.org/wiki/S_%28programming_language%29|EN.Wikipedia "S (programming language)"]], [[http://de.wikipedia.org/wiki/S_%28Programmiersprache%29|DE.Wikipedia "S (Programmiersprache)"]].
-
-
 ===== Scilab / SciCos =====
 ==== Tools ====
   *[[http://www.scilab.org/|Scilab]], [[http://scilabsoft.inria.fr/|INRIA "Scilab"]].
@@ -81,13 +105,30 @@ Related Pages:
     *Wiki [[http://wiki.octave.org/|Octave Wiki]].
     *[[http://octave.sourceforge.net/|SourceForge "Octave-Forge - Extra packages for GNU Octave"]], [[http://www.sourceforge.net/projects/octave|SourceForge "Octave-Forge - Extra packages for GNU Octave"]].
   *[[http://www.gnuplot.info/|gnuplot]], [[http://gnuplot.sourceforge.net/|Sourceforge "gnuplot"]], [[http://www.sourceforge.net/projects/gnuplot/|Sourceforge "gnuplot"]] - portable command-line driven graphing utility.
-  *[[http://maxima.sourceforge.net/|Sourceforge "Maxima"]], [[http://www.sourceforge.net/projects/maxima/|Sourceforge "Maxima"]].
-    *[[http://en.wikipedia.org/wiki/Maxima_%28software%29|EN.Wikipedia "Maxima (software)"]], [[http://de.wikipedia.org/wiki/Maxima_%28Computeralgebrasystem%29|DE.Wikipedia "Maxima (Computeralgebrasystem)"]]. 
+  *Maxima & wxMaxima.
+    *[[http://maxima.sourceforge.net/|Sourceforge "Maxima"]], [[http://www.sourceforge.net/projects/maxima/|Sourceforge "Maxima"]].
+      *[[http://en.wikipedia.org/wiki/Maxima_%28software%29|EN.Wikipedia "Maxima (software)"]], [[http://de.wikipedia.org/wiki/Maxima_%28Computeralgebrasystem%29|DE.Wikipedia "Maxima (Computeralgebrasystem)"]]. 
+    *[[http://andrejv.github.io/wxmaxima/|GitHub.io "wxMaxima"]], [[http://www.github.com/andrejv/wxmaxima|GitHub "andrejv/wxmaxima"]], [[http://wxmaxima.sourceforge.net/|SourceForge "wxMaxima. Cross platform GUI for Maxima"]], [[http://www.sourceforge.net/projects/wxmaxima/|SourceForge "wxMaxima. Cross platform GUI for Maxima"]].
+      *"A document based interface for the computer algebra system Maxima".
+      *"A gui for the computer algebra system Maxima built with wxWidget".
+
   *[[http://www.sagemath.org/|Sage]] - "A free open-source mathematics software system".
   *[[http://www.math4u2.de/|Fachhochschule Augsburg "math4u2"]].
 ==== Services ====
   *[[http://www.random.org/|RANDOM.ORG - True Random Number Service]].
     *[[http://www.random.org/integers/|RANDOM.ORG "Random Integer Generator"]].
+===== Some important Tools for Data Acquisition, according National Instruments in 2016-01 =====
+  *ADLINK Technology.				
+  *Gantner Technologies.
+  *HBM.			
+  *DEWESoft.				
+  *Advantech.			
+  *imc DataWorks.
+  *National Instruments.
+  *Keyence Corporation.		
+  *Keysight / Agilent Technologies.
+  *Yokogawa.				
+  *Dewetron.
 ===== Some other commercial Mathematical Engineering Tools =====
   *[[http://pilot.maplesoft.com/|Maplesoft "Maple"]].
     *[[http://pilot.maplesoft.com/|Maplesoft Pilot Test Website]].
@@ -129,18 +170,25 @@ Related Pages:
   *[[http://www.wolffdata.se/|Wolf, Wolffdata "Applications with Scilab and Maxima"]] - "A selection of sites for Free Math Tools".
   *[[http://mathworld.wolfram.com/|Wolfram MathWorld]] - "The Web's Most Extensive Mathematics Resource".
 
-===== Books =====
+===== Literature =====
+==== Statistics ====
+  *Moroney, Michael Joseph "Einführung in die Statistik" ( "Facts from figures" ), 1970.
+    *"Einführung in die Statistik. Teil 1. Grundlagen und allgemeiner Teil", 1970.
+    *"Einführung in die Statistik. Teil 2. Besondere Verfahren und Techniken, mit 163 Tabellen", 1971.
+==== Numerical Engineering ====
   *Free online book [[http://www.nr.com/|Numerical Recipes - The Art of Scientific Computing]].
   *Free HTML and PDF book [[http://www.dspguide.com/|Steven W. Smith "The Scientist and Engineer's Guide to Digital Signal Processing"]].
-
 ===== Commercial Education =====
   *[[http://www.additive-academy.de/|Additive Academy]].
-
 ===== Forums, Newsgroups =====
   *[[http://www.abacal.com/component/option,com_joomlaboard/|abaCal Forum]].
+  *[[http://discuss.elastic.co/|Elastic Discussion Forums]].
   *[[http://www.exelisvis.com/Support/Forums.aspx|Exelis Forums]].
-  *[[http://groups.google.com/group/comp.soft-sys.math.scilab/|Google Groups "comp.soft-sys.math.scilab"]].
-  *[[http://groups.google.com/group/comp.dsp/|Google Groups "comp.dsp"]], [[http://groups.google.com/group/comp.compression/|Google Groups "comp.compression"]], [[http://groups.google.com/group/comp.speech.research/|Google Groups "comp.speech.research"]].
+  *[[http://www.facebook.com/elastic.co|Facebook "Elastic"]].
+  *Google.
+    *[[http://groups.google.com/group/comp.soft-sys.math.scilab/|Google Groups "comp.soft-sys.math.scilab"]].
+    *[[http://groups.google.com/group/comp.dsp/|Google Groups "comp.dsp"]], [[http://groups.google.com/group/comp.compression/|Google Groups "comp.compression"]], [[http://groups.google.com/group/comp.speech.research/|Google Groups "comp.speech.research"]].
+    *[[http://groups.google.com/group/splunkdev|Google Groups "splunkdev"]].
   *[[http://www.faqs.org/faqs/dsp-faq/|DSP FAQ Index]], [[http://www.bdti.com/faq/dsp_faq.htm|FAQs (Frequently asked questions with answers) on Digital Signal Processing]].
   *[[http://math.stackexchange.com/|Mathematics Stack Exchange]].
   *[[http://www.mathoverflow.net/|MathOverflow]].
@@ -148,7 +196,6 @@ Related Pages:
   *[[http://www.meetup.com/Kassel-useR-Group/|Meetup "Kasseler useR Group (R Programming Language)"]].
   *[[http://www.nr.com/forum|Numerical Recipes - The Art of Scientific Computing]].
   *[[http://communities.ptc.com/|PlanetPTC Community]].
- 
 ===== Appropriate OpenDirectory Directory Pages =====
   *[[http://www.dmoz.org/Science/Math/Software/MATLAB/|OpenDirectory "Top: Science: Math: Software: MATLAB"]].
   *[[http://www.dmoz.org/World/Deutsch/Wissenschaft/Mathematik/Software/MATLAB/|OpenDirectory "Top: World: Deutsch: Wissenschaft: Mathematik: Software: MATLAB"]].
@@ -161,7 +208,3 @@ Related Pages:
   *[[http://www.dmoz.org/World/Deutsch/Wirtschaft/Gesundheitswesen/Produkte_und_Dienstleistungen/Diagnostik/|OpenDirectory "Top: World: Deutsch: Wirtschaft: Gesundheitswesen: Produkte und Dienstleistungen: Diagnostik "]].
 {{tag>"Mathematical Engineering"}}
 <footnote_navi_en>
-
-
-
-

@@ -4,7 +4,7 @@ Related page:
 
 ===== Tips & Tricks =====
 ==== Testing ====
-  *You may just write XUnit-alike testcases for moudles ( "myclass.pm" ), not for applications ( "myclass pl" ).
+  *You may just write XUnit-alike testcases for modules ( "myclass.pm" ), not for applications ( "myclass pl" ).
 ==== Checking Input Values if it is a Number ====
 <code>
 die "Error - Program is terminated" if $result = ~/\D/;

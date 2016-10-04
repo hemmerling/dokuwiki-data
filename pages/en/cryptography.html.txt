@@ -6,6 +6,9 @@ Related pages:
   *[[dataprivacy.html|Data Privacy - Encryption, Passwords, Trust]].
   *[[legalmatters.html|Legal Matters]].
   *[[security.html|Security]].
+===== Cryptography by USB Hardware =====
+  *[[http://www.yubico.com/|Yubico]].
+    *[[http://www.yubico.com/products/yubikey-hardware/yubikey4/|Yubico "YubiKey 4 & YubiKey 4 Nano"]] - I got the "YubiKey 4".
 ===== Embedded Cryptography =====
 ==== Atmel ====
 === Resources ===
@@ -17,12 +20,28 @@ Related pages:
 === My "Atmel CryptoAuthXplained" Kit ===
   *[[http://www.atmel.com/tools/CryptoAuthXplained.aspx|Atmel "CryptoAuthXplained"]].
 ==== NXP ====
+=== Security & Authentication Chips ===
   *[[http://www.nxp.com/products/identification_and_security/|NXP "Identification and security"]].
-  *[[http://www.architechboards.org/product/babylon-board|ArchiTech Boards "Babylon Board"]] - "ArchiTech Babylon, developed by ArchiTech and NXP, is a development board based on NXP Turnkey Security IC A70CM".
-  *[[http://www.yubico.com/products/yubikey-hardware/yubikey-neo/|Yubico "YubiKey NEO and YubiKey NEO-n | Premium Strong Two-Factor Authentication for Secure Logins | U2F, OTP, PIV, USB, NFC"]].
-    *[[http://www.hexview.com/~scl/neo/|HexView "Inside Yubikey Neo"]] - The device is equipped with an NXP Turnkey Security IC A7005 :-).
+  *[[http://www.nxp.com/products/identification-and-security/authentication|NXP "Authentication"]].
+  *"NXP A1006":
+    *[[http://www.youtube.com/channel/UC8DVBqX6TE7GaSh3daEXurw|YouTube Channel "Interface Chips"]] - "NXP Secure Interfaces & Power".
+      *[[http://www.youtube.com/watch?v=1kGaU18k0Ds|YouTube "NXP A1006 Secure Authenticator Demo"]].
+  *"NXP A700x", "NXP A710X":
+    *[[http://www.nxp.com/products/identification-and-security/authentication|NXP "Authentication"]].
+      *[[http://www.nxp.com/products/identification-and-security/authentication/secure-authentication-microcontroller:A700X_FAMILY|NXP "A700x family: Secure authentication microcontroller"]].
+    *[[http://www.yubico.com/products/yubikey-hardware/yubikey-neo/|Yubico "YubiKey NEO and YubiKey NEO-n | Premium Strong Two-Factor Authentication for Secure Logins | U2F, OTP, PIV, USB, NFC"]].
+     *[[http://www.hexview.com/~scl/neo/|HexView "Inside Yubikey Neo"]] - The device is equipped with an NXP Turnkey Security IC A7005 :-).
+  *"NXP A70CCM":
+    *[[http://www.architechboards.org/product/babylon-board|ArchiTech Boards "Babylon Board"]] - "ArchiTech Babylon, developed by ArchiTech and NXP, is a development board based on NXP Turnkey Security IC A70CM".
   *[[http://www.docstore.nxp.com/|NXP DocStore]].
     *[[https://www.youtube.com/watch?v=r5T_J7Y_HFY|YouTube "Docstore tutorial part 1: User Registration"]], [[https://www.youtube.com/watch?v=q8LHXO2FNs4|YouTube "Docstore tutorial part 2: portal usage"]].
+  *"NXP A80SM":
+    *[[http://www.telekom.com/medien/loesungen-fuer-unternehmen/266292|Deutsche Telekom AG "Erstes Sicherheitsmodul für Smart Meter Gateways vollständig nach Schutzprofil zertifiziert"]] - "Das Bundesamt für Sicherheit in der Informationstechnik (BSI) hat das Sicherheitsmodul A80SM von NXP mit dem Betriebssystem TCOS der Deutschen Telekom zertifiziert".
+    *[[http://www.smarterworld.de/smart-energy/smart-meter/artikel/117243/|smarterworld.de - Solutions for a Smarter World "Deutsche Telekom und NXP: Erstes Sicherheitsmodul für Smart Meter Gateways BSI-zertifiziert"]], 2015.
+    *[[http://www.recknagel-online.de/aktuell/produkte/20-02-2015-smart-meter-erstes-sicherheitsmodul-nach-bsi-schutzprofil-zertifiziert/|DIV Deutscher Industrieverlag GmbH, RECKNAGEL Online "Smart Meter: Erstes Sicherheitsmodul nach BSI-Schutzprofil zertifiziert"]], 2015.
+=== Resources ===
+  *To get access to chips & documentation, you have to sign a "Non Disclosure Agreement".
+  *With the NXP authentification chips for production use, the secure protocol may selected one time. For development purposes, NXP has special items, where the selection of the secure protocol may be reset.
 
 ===== Resources =====
   *[[http://en.wikipedia.org/wiki/Cryptography|EN.Wikipedia "Cryptography"]], [[http://de.wikipedia.org/wiki/Kryptographie|DE.Wikipedia "Kryptographie"]].

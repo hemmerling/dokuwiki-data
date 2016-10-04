@@ -2,6 +2,7 @@
 Related Topics:
   *[[ci.html|Continuous Integration ( CI ) & Continous Delivery ( CD )]].
   *[[groupware.html|Team Software, Collaboration Software, Groupware & Application Lifecycle Management]].
+  *[[installcontrol.html|Software Installation as well as Desired State Control & State Monitoring of Software]].
 ===== Platform Strategies =====
 ==== Apple, since 2007 ====
   *Operating system: MacOS, Apple iOS.
@@ -16,6 +17,8 @@ Related Topics:
   *Development tool & development IDE: [[http://www.microsoft.com/lightswitch|Visual Studio LightSwitch]].
   *Marketplace: [[http://create.msdn.com/|Microsoft "App Hub"]] for Windows 7 Phone & XBOX360, for Windows 8.
 ===== Eclipse IDE =====
+==== Events ====
+  *[[http://www.eclipsecon.org/europe2015/|EclipseCon Europe 2015]].
 ==== Tools ====
   *[[http://www.eclipse.org/|Eclipse]].
   *[[http://wiki.eclipse.org/|Eclipse Wiki]].
@@ -74,6 +77,13 @@ Related Topics:
 ===== Microsoft Visual Studio IDE =====
 ==== Microsoft Visual Studio IDE 2005-2013, Free Editions ====
   *[[http://en.wikipedia.org/wiki/Microsoft_Visual_Studio|EN.Wikipedia "Microsoft Visual Studio"]], [[http://de.wikipedia.org/wiki/Microsoft_Visual_Studio|EN.Wikipedia "Microsoft Visual Studio"]].
+    *Target & host compatibility:
+      *VisualStudio 2005 installs on W2k.
+      *Visual Studio 2008 installs on WinXP, but not on W2k. EN.Wikipedia: "Visual Studio 2008 is the last version to support targeting Windows 2000 for C++ applications".
+      *Visual Studio 2010 installs on WinXP.
+      *Visual Studio 2012 installs on Vista & Win7, but not on WinXP. 
+        *EN.Wikipedia: "'Visual Studio 2012 Update 1' (Visual Studio 2012.1) was released in November 2012. This update added support for Windows XP targets and also added other new tools and features (e.g. improved diagnostics and testing support for Windows Store apps". However, there is no indication that there was ever such a release of a "Visual Studio Express 2012 Update 1" or later... e.g. [[http://www.microsoft.com/en-us/download/details.aspx?id=34673|Microsoft Download "Microsoft Visual Studio Express 2012 for Windows Desktop"]] is of "9/7/2012" and not of November 2012 or later.
+        *[[http://www.visualstudio.com/downloads/download-visual-studio-vs#d-visual-studio-2012-update|Microsoft Visual Studio "Visual Studio 2012 Update 5 (Visual Studio 2012.5)"]] - ISO image download. However, probably this is no update for "Visual Studio 2012 Express"...
     *"Visual Basic 2005 Express", "Visual C# 2005 Express", "Visual C++ 2005 Express", "Visual Web Developer 2005 Express", "Visual J# 2005 Express".
       *[[http://www.microsoft.com/download/en/details.aspx?displaylang=en&id=23072|Microsoft Download Center "Visual Studio 2005 extensions for .NET Framework 3.0 (Windows Workflow Foundation)"]].
     *[[http://www.microsoft.com/express/Downloads/|Microsoft Express Downloads - Visual Studio Express and SQL Server Express]].
@@ -231,7 +241,6 @@ A debugger dll, msdbg2.dll, is not correctly installed. Plese repair your Visual
   *[[http://www.gnu.org/s/gdb/|GDB: The GNU Project Debugger]].
     *The OpenSource [[http://www.gnu.org/software/ddd/|DDD - Data Display Debugger]].
     *The OpenSource [[http://sources.redhat.com/insight/|RedHat Insight - The GDB GUI]].
-
 ==== Resources ====
   *[[http://www.codeguru.com/|Codeguru]] - "The number one developer site!".
     *[[http://www.codeguru.com/Cpp/V-S/debug/article.php/c1249/|Codeguru "Write debug output to console window"]].
@@ -243,60 +252,8 @@ A debugger dll, msdbg2.dll, is not correctly installed. Plese repair your Visual
   *[[http://www.google.com/search?q=compuware+driverstudio|Google: "compuware+driverstudio"]].
   *[[http://wayback.archive.org/web/*/http://www.compuware.com/pressroom/news/2004/2978_ENG_HTML.htm|Archive.org "Compuware Enhances Device Driver Development Suite"]] ( - 2007-10-17 ).
   *[[http://www.google.com/search?q=w32dasm|Google "w32dasm"]].
-===== Installers =====
-Attention, many Installer projects are "not under active development anymore" since many years! So please check the date of the last release!
-==== Free Installers for MSDOS ====
-  *The OpenSource [[http://dosconf.sourceforge.net/|Sourceforge "DOSConf"]], [[http://www.sourceforge.net/projects/dosconf/|Sourceforge "DOSConf"]] for MSDOS.
-==== Free and commercial Installers for Windows ====
-  *The free [[http://www.bloodshed.net/quickins.html|Bloodshed Software "QuickInstall"]] for Windows.
-  *The free [[http://www.jeffc.org/projects/oldstuff/|Jeffrey Carlyle "StratoSetup"]] for Windows.
-  *The free [[http://www.clickteam.com/website/world/install-creator|Clickteam "Install Creator, freeware version"]] for Windows - "Each installer will contain an advertisement page for Clickteam when the installation is complete, with a button to connect to our web site".
-  *The free [[http://www.ethalone.com/download.html|Ethalone Solutions "Ghost Installer Free Edition"]] 4.8 of 2009-11-19 for Windows.
-    *[[http://www.ethalone.com/articles/62-the-installers-competition.html|Ethalone Solutions "The Installers competition"]] - comparison of Ghost Installer, Wise and InstallShield.
-    *As of 2015-03, the current free edition is still "Ghost Installer Free Edition 4.8".
-    *You need a free XML editor for editing the Ghost data files.
-  *The commercial [[http://www.flexerasoftware.com/products/installshield.htm|Flexera Software, Inc. "InstallShield"]].
-    *[[http://en.wikipedia.org/wiki/InstallShield|EN.Wikipedia "InstallShield"]], [[http://de.wikipedia.org/wiki/InstallShield|DE.Wikipedia "InstallShield"]].
-  *The free [[http://www.freebyte.com/hjinstall/|HJ-Install]] for Windows.
-  *The free [[http://www.installaware.com/|Installaware Free Edition]] - "The Freeware, .. editions are all contained inside the same free download. You choose the InstallAware edition ( e.g. 'Free Edition' ) to install directly in the setup wizard".
-  *The free "MSBuild" for Windows with .NET.
-    *[[https://msdn.microsoft.com/en-us/library/dd393574.aspx|Microsoft Developer Network "MSBuild"]].
-    *[[http://www.microsoft.com/en-us/download/details.aspx?id=40760|Microsoft Download Center "Microsoft Build Tools 2013"]] - "Build Tools 2013 provides the essential tools for building managed applications".
-    *[[http://en.wikipedia.org/wiki/MSBuild|EN.Wikipedia "MSBuild"]].
-  *The OpenSource [[http://izfree.sourceforge.net/|Sourceforge "izfree 1.1"]], [[http://www.sourceforge.net/projects/izfree/|Sourceforge "izfree Tools for Windows Installer"]] for Windows.
-  *The OpenSource [[http://www.chimpswithkeyboards.com/|Chimps with Keyboards]], [[http://chimpinstall.sourceforge.net/|Sourceforge "NInstall"]], [[http://www.sourceforge.net/projects/chimpinstall/|Sourceforge "NInstall"]] for Windows.
-  *The free [[http://www.jrsoftware.org/|jrsoftware.org - Jordan Russell's Software "Inno Setup"]] for Windows.
-  *[[http://rubyinstaller.org/|Rubyinstaller]], [[http://rubyinstaller.rubyforge.org/|RubyForge "Rubyinstaller"]] for Windows, making use of 'Ruby' / 'Ruby on Rails'.
-  *The OpenSource [[http://spoon-installer.sourceforge.net/|Sourceforge "Spoon Installer"]], [[http://www.sourceforge.net/projects/spoon-installer/|Sourceforge "Spoon Installer"]] for Windows.
-  *Windows Installer.
-    *The OpenSource [[http://wix.sourceforge.net/|Sourceforge "Windows Installer XML (WiX) toolset"]], [[http://www.sourceforge.net/projects/wix/|Sourceforge "Windows Installer XML (WiX) toolset"]], [[http://wix.codeplex.com/releases/view/60102|CodePlex "WiX Toolset"]] for "Microsoft Installer", on Windows.
-    *[[http://msdn.microsoft.com/en-us/library/Aa367449|MSDN Library "About Windows Installer"]].
-==== Free Installers for Linux ====
-  *The OpenSource [[http://ninstaller.sourceforge.net/|NoodleInstaller]], [[http://www.sourceforge.net/projects/ninstaller/|NoodleInstaller]].
-  *The OpenSource [[http://paco.sourceforge.net/|paco - a source code pacKAGE oRGANIZER for Unix/Linux]], [[http://www.sourceforge.net/projects/paco/|pacKAGE oRGANIZER]].
-==== Free and commercial Installers for Java ====
-  *The commercial [[http://www.ej-technologies.com/products/install4j/overview.html|install4j]] - "A powerful multi-platform Java installer builder that generates native installers and application launchers for Java applications".
-  *The OpenSource [[http://installguru.sourceforge.net/|Sourceforge "InstallGuru"]], [[http://www.sourceforge.net/projects/installguru/|Sourceforge "InstallGuru"]].
-  *The OpenSource [[http://launch4j.sourceforge.net/|Sourceforge "Launch4j - Cross-platform Java executable wrapper"]], [[http://www.sourceforge.net/projects/launch4j/|Sourceforge "Launch4j Executable Wrapper"]] - "Cross-platform Java executable wrapper for creating lightweight Windows native EXEs".
-  *The OpenSource [[http://liftoff.sourceforge.net/|Sourceforge "Lift-Off Java-Installer"]], [[http://www.sourceforge.net/projects/liftoff/|Sourceforge "Lift-Off Java-Installer"]].
-  *The OpenSource [[http://packlet.sourceforge.net/|Sourceforge "Packlet installer tool"]], [[http://www.sourceforge.net/projects/packlet/|Sourceforge "Packlet"]].
-==== Free Multi Platform Installers ====
-  *The OpenSource [[http://nsis.sourceforge.net/|Sourceforge "NSIS (Nullsoft Scriptable Install System)"]], [[http://www.sourceforge.net/projects/nsis/|Sourceforge "NSIS (Nullsoft Scriptable Install System)"]].
-    *[[http://en.wikipedia.org/wiki/Nullsoft_Scriptable_Install_System|EN.Wikipedia "Nullsoft Scriptable Install System"]], [[http://de.wikipedia.org/wiki/Nullsoft_Scriptable_Install_System|DE.Wikipedia "Nullsoft Scriptable Install System"]] ( NSIS ).
-  *The OpenSource [[http://www.installjammer.com/|InstallJammer]]( formerly: [[http://installbase.sourceforge.net/|Sourceforge "InstallBase MPI"]], [[http://www.sourceforge.net/projects/installbase/|Sourceforge "InstallBase"]] ), making use of Tcl/Tk.
-==== RunTime Packer ====
-  *The commercial [[http://www.boxedapp.com/|BoxedApp]].
-  *The commercial [[http://www.file-joiner.com/|File Joiner]].
-  *The commercial [[http://www.adontec.com/index.htm?GO=/runtimepacker_e.htm|Adontec Data Communication Company "RuntimePacker"]].
-
-==== Helper Tools ====
-  *The free Orca Tool – A MSI Creator and Package Viewer, for Windows.
-    *[[http://xldennis.wordpress.com/2007/02/17/the-orca-tool-a-msi-creator-and-package-viewer/|VST & .NET & Excel: "The Orca Tool - A MSI Creator and Package Viewer"]].
-    *[[http://www.xldennis.com/dloads/orca.msi|XL-Dennis "orca.msi"]] ( Orca 4.0.6001.0 ).
-  *[[http://dotnetinstaller.codeplex.com/|dotNetInstaller]] - "A general-purpose setup bootstrapper for Microsoft Windows 95, 98, 2000, XP, 2003, Vista, 2008 and Windows 7".
-==== Resources ====
-  *According to experts, automation of installation, of installer generation and of installation processes works well with "MSI Installer" :-).
-  *[[http://www.sourceforge.net/search/?q=installer|Sourceforge - Software Search for "Installer"]].
+===== Software Installation by Installers ======
+  *See [[installcontrol.html|Software Installation and Desired State Control]].
 ===== Some other Development Tools =====
   *[[http://www.swig.org/|Simplified Wrapper and Interface Generator (SWIG)]], [[http://swig.sourceforge.net/|Sourceforge "SWIG"]], [[http://www.sourceforge.net/projects/swig/|Sourceforge "SWIG"]] - "A software development tool that reads C/C++ header files and generates wrapper code to make C/C++ code accessible from other languages including Perl, Python, Tcl, Ruby, PHP, Java, Ocaml, Lua, C#, Modula-3, R, Octave and Scheme & Lisp variants".
 ===== Webcasts, Webinars =====
@@ -373,7 +330,6 @@ Attention, many Installer projects are "not under active development anymore" si
   *openArchitectureWare.
   *subversion.
   *valgrind.
-
 ===== Forums, Newsgroups, Communities =====
   *[[http://community.clickteam.com/forum.php|Clickteam Forum]].
   *[[http://www.eclipse.org/forums/|Eclipse Community Forums]].

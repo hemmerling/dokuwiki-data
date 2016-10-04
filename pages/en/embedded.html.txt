@@ -5,6 +5,8 @@ Related pages:
   *[[fritzbox.html|FRITZ!Box]].
   *[[realtime.html|Realtime Operating Systems & Software for Embedded Systems]].
   *[[robotics.html|Robotics ( Robots, Drones, Industry Automation, Remote Controlled Devices, Artificial Intelligence )]].
+===== Design of Embedded Systems =====
+  *[[http://www.eclipse.org/etrice/|Eclipse eTrice - Real-Time Modeling Tools]].
 ===== Free and affordable Multi-Platform Embedded Development Tools ======
 ==== Compiler & Assembler Tools ====
   *[[http://john.ccac.rwth-aachen.de:8000/as/|Alfred Arnold "The Macroassembler AS"]].
@@ -77,6 +79,24 @@ Related pages:
   *[[http://www.arduino.cc/en/ArduinoCertified/IntelGalileo|Arduino "Intel Galileo"]].
 === Where to buy ===
   *[[http://www.newegg.com/Product/Product.aspx?Item=N82E16813121810&cm_re=intel_edison-_-13-121-810-_-Product|Newegg.com "Intel Edison Compute Module (IoT, On-Board Antenna) Model EDI1.SPON.AL.S"]].
+=== Simatic IOT2000, SIEMENS MindConnect Nano & SIEMENS MindSphere ===
+== Simatic IOT2000 ==
+  *[[http://www.siemens.com/mcms/pc-based-automation/en/industrial-iot/|SIEMENS "Industrial IoT / SIMATIC IOT2000 - The intelligent gateway for industrial IoT solutions"]], [[http://w3.siemens.com/mcms/pc-based-automation/de/industrial-iot/|SIEMENS "Industrial IoT / SIMATIC IOT2000 - Das intelligente Gateway für industrielle IoT Lösungen"]].
+  *[[http://www.siemens.com/press/en/pressrelease/?press=/en/pressrelease/2016/digitalfactory/pr2016030168dfen.htm&content[]=DF|SIEMENS Press Releases "Digital Factory. Gateway between cloud, in-company IT and production"]], [[http://www.siemens.com/press/de/pressemitteilungen/?press=/de/pressemitteilungen/2016/digitalfactory/pr2016030168dfde.htm&content[]=DF|SIEMENS Presseinformationen "Digital Factory. Gateway zwischen Cloud, firmeneigener IT und Produktion"]], 2016-03-01.
+  *[[http://www.smarterworld.de/smart-automation-iot/iot-industrie-40/artikel/129265/2/|Smarterworld "Siemens: Mit neuen Industrie-4.0-Techniken auf der Hannover Messe"]], 2016-04-12.
+  *[[http://www.google.de/search?q=siemens+gateway+simatic+iot+2000|Google - Search for "siemens gateway simatic iot 2000"]].
+  *[[http://www.computerwoche.de/a/iot-produkte-und-strategien-der-hersteller,3212897|Computerwoche "Internet of Things bei Google, SAP oder Siemens. IoT-Produkte und -Strategien der Hersteller"]].
+    *[[http://www.computerwoche.de/a/iot-produkte-und-strategien-der-hersteller,3212897,10|Computerwoche "IoT-Strategie von Siemens"]].
+  *[[http://www.plantengineering.com/home/single-article/gateway-between-cloud-in-company-it-and-production/93eaf1ba39dd8f371da93c35799ecde9.html|Planet Engineering "Gateway between cloud, in-company IT and production
+Siemens is launching a gateway based on the Intel Quark chip family onto the market which links cloud, in-company IT and production. The Simatic IOT2000 is designed for industrial IT solutions that acquire, process and transfer data directly in the production environment"]] - "The Simatic IOT2000 is designed for industrial IT solutions that acquire, process and transfer data directly in the production environment. For example, it can be used to connect the production to a cloud-based analysis of machine and production data. This gateway can also be retrofitted in existing plants, where it then harmonizes communication between different data sources, analyzes the data, and passes it on for evaluation in, for example, a cloud. The Simatic IOT2000 complements the MindConnect Nano cloud gateway from Siemens. This is already on the market, and is specifically designed for MindSphere and SAP Hana. The hardware of the new Simatic IOT2000 gateway is based on rugged, reliable and long-lasting industrial technology and has a compact design. The device is suitable for mounting on a standard rail, and is equipped with a powersaving Intel Quark processor x1020 (+Secure Boot), 1 gigabyte RAM, battery-backed real time clock (RTC) and a large number of interfaces, including two x Ethernet and two x RS 232/485 ports. Simatic IOT2000 can be easily expanded for tailor-made solutions with Arduino Shields and miniPCIe Cards. It also supports Yocto Linux and many other options for programming in  high-level languages".
+== SIEMENS MindConnect Nano & SIEMENS MindSphere ==
+  *[[https://www.siemens.com/customer-magazine/en/home/industry/the-digital-enterprise/data-platform-digital-enterprise.html|SIEMENS The Magazine "The digital enterprise. Data platform for the digital enterprise"]] - "MindSphere – Siemens Cloud for Industry brings real production into the virtual world".
+  *[[http://www.siemens.com/press/en/pressrelease/?press=/en/pressrelease/2016/digitalfactory/pr2016030171dfen.htm&content[]=DF|SIEMENS Press Releases "Digital Factory. Siemens launches MindSphere open industry cloud"]], 2016-03-01.
+  *[[https://blogs.siemens.com/competitive-industries/stories/tags/mindconnect+nano/|SIEMENS Global Weblogs - English Postings tagged with: "Mindconnect Nano"]], [[http://blogs.siemens.com/wettbewerbsfaehige-industrie/stories/tags/mindconnect+nano/|SIEMENS Global Weblogs - German Postings tagged with: "Mindconnect Nano"]].
+  *[[http://www.openautomation.de/detailseite/innovationen-vom-engineering-bis-in-die-cloud.html|OpenAutomation "Industrie 4.0. Innovationen vom Engineering bis in die Cloud"]], 2016-04-12.
+  *[[http://www.pac-online.com/blog|PAC Blog  - A CPX Group Company]].
+    *[[http://www.pac-online.com/web-systems-und-sinalytics-siemens-antwort-auf-iot-und-smart-data|PAC Blog "'Web of Systems' und Sinalytics: Siemens’ Antwort auf IoT und Smart Data]], 2015-12-15.
+    *[[http://www.pac-online.com/mindsphere-siemens-cloud-industry-what-it-all-about|PAC Blog "MindSphere – Siemens cloud for industry: What is it all about?"]], 2016-05-09.
 === Resources ===
   *[[http://www.bit-tech.net/news/hardware/2014/01/07/intel-edison/1|bit-tech "Intel unveils Quark-based Edison microcomputer"]], 2014-01-17.
   *[[http://www.eetimes.com/document.asp?doc_id=1319726|EE Times "Intel Tackles SoC With Quark"]], 2013-10-07.
@@ -94,9 +114,6 @@ Related pages:
   *"Analog Devices Precision Analog Microcontrollers ( ADUCxx ) - see [[arm.html|ARM Embedded Systems ( ARM7, ARM8, ARM9, ARM11, Cortex )]].
 ===== ARM Platform =====
   *[[arm.html|ARM Embedded Systems ( ARM7, ARM9, Cortex )]].
-=====  Atmel Platform =====
-  *[[atmel.html|The Atmel AVR Family with Focus on AVR32, ATxmega, ATmega, ATtiny, AT90 and the Arduino / Freeduino Platform]].
-  *[[atmelarm.html|Atmel ARM-based MCUs and eMPUs]].
 ===== BASIC Stamp & Propeller Platforms =====
 ==== Software & Hardware ====
   *[[http://www.parallax.com/|Parallax Inc.]].
@@ -113,7 +130,7 @@ Related pages:
 === PSoC 4 ( ARM Cortex M0 ), PSoC 5 ( ARM Cortex M3 ), PSoC 7 ( ARM Cortex M4 ) CPUs ===
   *See [[arm.html|ARM Embedded Systems ( ARM7, ARM8, ARM9, ARM11, Cortex )]].
 =====  Freescale / Motorola Platform =====
-====  Freescale Semiconductor Inc. ====
+====  Freescale Semiconductor Inc. ( now merged with NXP ) ====
   *[[http://www.freescale.com/|Freescale Semiconductor Inc.]].
     *[[http://www.freescale.com/microselector|Freescale Semiconductor Inc. -  Microselector]].
     *[[http://www.freescale.com/kinetisboardoffer|Freescale "Register today for your free development board coupon"]]. You need a promo code !
@@ -151,7 +168,11 @@ Related pages:
 ==== Pressure Sensors ====
   *[[http://www.freescale.com/pressure|Freescale Semiconductor Inc "Pressure Sensors"]].
   *I got the Freescale pressor sensor demo board "DS2276" :-).
-===== Microchip Platform - PIC Microcontrollers & dsPIC Digital Signal Controllers =====
+=====  Microchip Technology Inc. =====
+====  Atmel Platform ( by Microchip Technology Inc. )====
+  *[[atmel.html|The Atmel AVR Family ( by Microchip Technology Inc. ) with Focus on AVR32, ATxmega, ATmega, ATtiny, AT90 and the Arduino / Freeduino Platform]].
+  *[[atmelarm.html|Atmel ARM-based MCUs and eMPUs ( by Microchip Technology Inc. )]].
+==== Microchip Platform - PIC Microcontrollers & dsPIC Digital Signal Controllers ====
   *See [[pic.html|Microchip PIC Microcontrollers & dsPIC Digital Signal Controllers]].
 ===== Renesas Technology Platform =====
   *See [[renesas.html|Renesas Interactive]].
@@ -397,10 +418,11 @@ Related pages:
   *8-bit CPUs have little "residual current" / "cut-off" due to its crude dice, while 32-bit CPUs have much more "residual current" / "cut-off" due to its little structures.
   *Experts acknowledge the work of "Silicon Labs" ( formerly: "Energy Micro" ) to create 32-bit ARM CPUs with litte "residual current" / "cut-off", little in comparison to the standard with 32-bit CPUs and especially ARM CPUs. Some new ARM CPU derivates of STMicroelectronics ( i.e.  STML053R8T6, based on Cortex M0+ ) are also known to fulfill that criteria.
   *32-bit CPUs may be cheaper than 8-bit CPUs, as the chip manufacturer can produce more chips on the same space... due to the smaller structures of 32-bit chips and so the smaller dice size.
-===== Literature =====
-==== Paper Magazines ====
+===== Developer Training =====
+==== Literature ====
+=== Paper Magazines ===
   *[[http://www.heise.de/make/|Heise "Make – Kreativ mit Technik"]] ( formerly: [[http://www.heise.de/hardware-hacks/|c´t Hardware Hacks]] ).
-==== Books ====
+=== Books ===
   -Book [[http://www.amazon.de/exec/obidos/ASIN/382665949X/hemmerling-21|Friedrich Bollow, Matthias Homann,, Klaus-Peter Köhn: "C und C++ für Embedded Systems"]].
     *[[http://www.doulos.com/knowhow/arm/C_und_Cxx_fuer_Embedded_Systems/|Doulos - "C und C++ für Embedded Systems"]] - "Doulos contributes ARM Cortex-M3 content to popular embedded systems book".
     *Chapter 4.3 "ARM und ARM Cortex-M3-Prozessor".
@@ -410,6 +432,8 @@ Related pages:
   -[[http://www.ebookaktiv.de/eBook_ST5/eBook_ST5.htm|eBookAkdiv "Mikrocontroller Programmierung mit Visual Five"]].
   -[[http://www.amazon.de/exec/obidos/ASIN/389576129X/hemmerling-21|Elektor Schaltungspraxis "I/O-Projekte für den PC. Mit CD-ROM. Selbstbau-Schaltungen für die Standard-Ports"]].
   -[[http://www.amazon.de/exec/obidos/ASIN/3772358780/hemmerling-21|Burkhard Kainka: "Messen, Steuern und Regeln mit USB (Franzis PC und Elektronik)"]].
+==== MOOC ====
+  *[[http://www.coursera.org/specializations/iot|Coursera "An Introduction to Programming the Internet of Things (IOT) Specialization"]].
 ===== Resources =====
   *[[http://www.8051projects.net/microcontroller-tutorials/|Rickey's World - World of Microcontrollers and Microprocessors ( 8051projects ) "Tutorials for Microcontrollers"]].
   *[[http://www.analog.com/blackfin-is-everywhere/|Analog Devices "Blackfin-is-Everywhere"]] - application ideas.
@@ -428,6 +452,8 @@ Related pages:
   *[[http://www.elektronikpraxis.vogel.de/|Elektronik Praxis]] - "Elektronikportal für Entwicklung, Einkauf. Fertigung & Management".
   *[[http://www.embedded-control-europe.com/|ICC Media GmbH "Embedded Control Europe"]].
   *The portal [[http://www.embedded-know-how.com/|Embedded know-how]], the video portal [[http://www.embedded-news.tv/|Embedded News.tv]].
+  *Blog [[http://embedded-software-architecture.com/|Embedded Software Architecture Blog. Software architecture for large embedded systems]] by [[http://www.xing.com/profile/Roelof_Berg|XING "Roelof Berg"]], [[http://www.berg-solutions.de/|Roelof Berg, Berg Solutions]].
+    *Speech "OO-Muster für Embedded- und Echtzeitsysteme" ( "OO patterns for embedded- and realtime systems" ) at [[http://www.oose.de/|oose Innovative Informatik GmbH]] in Hamburg, 2016-01-20.
   *[[http://aboutmicrocontroller.blogspot.com/|Google Blogger "About Microcontroller. Everything related to microcontroller and electronics project"]].
   *[[http://www.letsmakerobots.com/|Let's Make Robots!]].
   *The Wiki [[http://www.lowlevel.eu/|Lowlevel]] - "Hier können angehende und fortgeschrittene Betriebssystementwickler Informationen finden, die sie unterstützen".
@@ -464,6 +490,8 @@ Related pages:
   *Fair [[http://www.embedded-world.de/|Embedded World]], Nürnberg.
   *Conference [[http://www.ese-kongress.de/|Embedded Software Engineering Kongress]], Sindelfingen ( 2014-12-01 - 2014-12-05 ).
   *[[http://www.iccmedia-vcon.com/|ICC Media Virtual Conferences]] - Free "Virtual Conferences for Embedded Engineers".
+  *The free conference [[http://www.piandmore.de/|Pi and More. The big Summer Edition]] in Trier, 2016-06-11.
+
 ==== Event Idea "Embedded Software Boot Camp" ====
   *[[http://www.barrgroup.com/boot-camp|BARR Group "Embedded Software Boot Camp"]].
   *[[http://am.renesas.com/products/tools/introductory_evaluation_tools/renesas_demo_kits/yrdkrx63n/training/bootcamp.jsp|Renesas "Embedded Software Boot Camp (in a Box)"]].

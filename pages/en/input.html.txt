@@ -60,11 +60,9 @@
   *The OpenSource [[http://ppjoylib.sourceforge.net/|SourceForge "PPJoy Wrapper Library"]], [[http://www.sourceforge.net/projects/ppjoylib/|SourceForge "PPJoy Wrapper Library"]] in C#.
   *The OpenSource [[http://vjoystick.sourceforge.net/|SourceForge "vJoy"]], [[http://www.sourceforge.net/projects/vjoystick/|SourceForge "vJoy"]] - "This project was originally designed to provide an open-source replacement for PPJoy".
 ===== 2D / 3D Input Devices =====
-==== Kinect ====
-  *[[http://en.wikipedia.org/wiki/Kinect|EN.Wikipedia "Kinect"]], [[http://de.wikipedia.org/wiki/Kinect|DE.Wikipedia "Kinect"]].
-  *Lighting is not needed.
-  *The Windows device is equipped with advanced features, in comparison to the original X-Box device.
-  *The device might be used for low-budget motion capture :-).
+==== Duo ====
+  *[[http://www.duo3d.com/|Code Laboratories, Inc. "Duo"]].
+  *Similar hardware & software concept as "Leap Motion", but different marketing concept and different vendor's vision.
 ==== Leap Motion ====
   *[[http://www.leapmotion.com/|Leap Motion]].
   *[[http://developer.leapmotion.com/|Leap Motion - Developer Portal]].
@@ -76,9 +74,17 @@
   *Lighting is mandatory.
   *High usage of CPU power, not suitable for devices with limited CPU power ( like webbooks ).
   *The device driver for Win and MacOSX ( but not available for Linux ) is proprietary and just provides raw data. Data processing must be processed by the applications.
-==== Duo ====
-  *[[http://www.duo3d.com/|Code Laboratories, Inc. "Duo"]].
-  *Similar hardware & software concept as "Leap Motion", but different marketing concept and different vendor's vision.
+==== Microsoft ====
+=== Microsoft Hololens ===
+  *[[http://www.microsoft.com/microsoft-hololens/|Microsoft Hololens]].
+  *[[http://www.itpro.co.uk/mobile/24780/microsoft-hololens-release-date-rumours-specs-pricing-3|ITPRO - IT Analysis. Business Insight "Microsoft HoloLens release date, rumours, specs & pricing: Microsoft announces HoloLens emulator for devs"]] - "Developers can create HoloLens apps without needing a $3,000 dev kit".
+  *[[http://www.techradar.com/reviews/wearables/microsoft-hololens-1281834/review|techradar "Hands on: Microsoft HoloLens review"]].
+  *[[http://en.wikipedia.org/wiki/Windows_Holographic|EN.Wikipedia "Windows Holographic"]], [[http://de.wikipedia.org/wiki/Windows_Holographic|EN.Wikipedia "Windows Holographic"]].
+=== Microsoft Kinect ===
+  *[[http://en.wikipedia.org/wiki/Kinect|EN.Wikipedia "Kinect"]], [[http://de.wikipedia.org/wiki/Kinect|DE.Wikipedia "Kinect"]].
+  *Lighting is not needed.
+  *The Windows device is equipped with advanced features, in comparison to the original X-Box device.
+  *The device might be used for low-budget motion capture :-).
 ==== Resources ====
   *[[http://www.reddit.com/r/oculus/comments/17mutc/the_leap_developer_unit_why_i_doubt_it_will_be/|Reddit "The Leap Developer Unit - why I doubt it will be useful with the Rift"]].
   *Some other optical input devices:

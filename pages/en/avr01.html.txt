@@ -1,9 +1,9 @@
 ====== [hemmerling] AVR Microcontrollers Expertness 1/4 - Typcial Error Messages of the Atmel AVR Toolchain ======
 Related pages:
-  *[[atmel.html|The Atmel AVR Family with Focus on ATxmega, ATmega, ATtiny and the Arduino / Freeduino Platform]].
+  *[[atmel.html|The Atmel AVR Family ( by Microchip Technology Inc. ) with Focus on ATxmega, ATmega, ATtiny and the Arduino / Freeduino Platform]].
   *[[arduino.html|The Arduino / Freeduino Platform with Atmel ATmega, Microchip PIC, ARM, Freescale Coldfire]].
-  *[[atmega.html|Atmel ATmega, ATtiny, AT90 & ATmega on the Arduino / Freeduino Platform]].
-  *[[atxmega.html|Atmel ATxmega ( "XMEGA" )]] - This page deals with software tools which are suitable both for ATxmega and for ATmega, ATtiny.
+  *[[atmega.html|Atmel ATmega, ATtiny, AT90 & ATmega ( by Microchip Technology Inc. ) on the Arduino / Freeduino Platform]].
+  *[[atxmega.html|Atmel ATxmega "XMEGA" ( by Microchip Technology Inc. )]] - This page deals with software tools which are suitable both for ATxmega and for ATmega, ATtiny.
 ===== 1 "New Hardware Found" =====
   *Issue: Each time when booting of a host PC with ( german ) Vista operating system and “Atmel AVR XMEGA-A3BU Xplained kit” and the hardware debugger [[http://www.atmel.com/dyn/products/tools_card.asp?tool_id=17213&category_id=163&family_id=682&subfamily_id=2138|JTAGICE 3]] attached, there is the ( german ) message "Neue Hardware gefunden", and two new devices are named ( in german language ) in the Windows device manager "Basiseingabegerät" and "Netzwerkcontroller", though all necessary drivers are properly installed.
   *Suggestion: Deinstall the two new devices from the Windows device manager, after each booting of Vista.

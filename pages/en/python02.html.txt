@@ -23,6 +23,7 @@ Related pages:
 ==== Decorators - @ - ====
   *[[http://jasonmbaker.wordpress.com/2009/04/25/the-magic-of-python-decorators/|Jason in a Nutshell - All about programming and whatever else comes to mind "The magic of python decorators"]].
 ==== Duck Typing ====
+  *Python experts told me, that they consider "Duck Typing" as option to implement "Dependancy Inversion" and/or "Dependancy Injection"...
   *[[http://en.wikipedia.org/wiki/Duck_typing|EN.Wikipedia "Duck typing"]], [[http://de.wikipedia.org/wiki/Duck-Typing|DE.Wikipedia "Duck-Typing"]].
 ==== if not ====
   *"if not myVariable" checks if the variable has a defined value, i.e. is initialized.
@@ -36,6 +37,20 @@ Related pages:
   *[[http://lgiordani.com/blog/2014/10/14/decorators-and-metaclasses/|The Digital Cat "Advanced use of Python decorators and metaclasses"]].
   *[[http://en.wikibooks.org/wiki/Python_Programming/Metaclasses|WikiBooks "Python Programming/Metaclasses"]].
 
+==== Regular Expressions ====
+=== Example 1 - Extract ===
+<code>
+import re
+filename = "file2016.txt"
+match = re.search(r"[0-9{4}",filename)
+match.group(0)
+</code>
+=== Example 2 - Replace ===
+<code>
+re.sub(r"[0-9{4}","2011",filename)
+</code>
+=== Resources ===
+  *[[http://www.danielfett.de/de/tutorials/tutorial-regulare-ausdrucke/|Daniel Fett "Tutorial Reguläre Ausdrücke"]].
 ==== *vargs & **kwargs ====
   *[[http://www.stackoverflow.com/questions/36901/what-does-double-star-and-star-do-for-python-parameters|Stack Overflow "What does ** (double star) and * (star) do for Python parameters?"]].
   *[[http://www.stackoverflow.com/questions/1098549/proper-way-to-use-kwargs-in-python|Stack Overflow "Proper way to use **kwargs in Python"]].

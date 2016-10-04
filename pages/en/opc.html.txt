@@ -1,0 +1,147 @@
+====== [hemmerling] OPC UA and OPC ( OLE for Process Control ) ======
+Related pages:
+  *[[automation.html|Automation & Process Logic Control]].
+  *[[ddl.html|Device Description Languages and Device Parameterization]].
+  *[[fieldbus.html|Fieldbuses and Automation Networks]].
+  *[[iec61131.html|IEC 61131 Process Logic Control Programming PLC - PLC Systems, PLC Hardware, PLC Software]].
+  *[[industrialdata.html|Industrial Data & Industrial Data Exchange]].  
+  *[[industry40.html|"Industry 4.0" & "Internet of Things" ( IOT ) & "Cyber-physical Systems"]].
+  *[[mes02.html|Manufacturing Execution Systems ( MES ) 2/5 - Software Systems]].
+  *[[mes03.html|Manufacturing Execution Systems ( MES ) 3/5 - Norms & Design]].
+===== Organisations =====
+  *[[http://www.opcfoundation.org/|OPC Foundation]].
+  *[[http://www.opceurope.org/|OPC Foundation Europe]].
+  *[[http://opcfoundation.org/events/|OPC Foundation - Events]].
+    *[[http://www.opcfoundation.org/event-details/?ee=55|OPC Day Europe 2015]] in Paris, 2015-05-19 - 2015-05-20 - "Hear how Microsoft is positioning Azure with OPC UA extensions".
+  *[[http://www.opcfoundation.org/news/opc-foundation-news/bridging-the-gap-between-communication-and-semantics-for-industrie-4-0-companion-specification-automationml-for-opc-ua/|OPC Foundation "Bridging the gap between communication and semantics for Industrie 4.0 – Companion Specification 'AutomationML for OPC UA'"]].
+    *[[http://www.opcfoundation.org/developer-tools/specifications-unified-architecture/opc-unified-architecture-for-automationml/|OPC Foundation "OPC Unified Architecture for AutomationML"]] - PDF download.
+  *[[http://www.opcfoundation.org/opc-connect/2015/06/opc-ua-in-the-reference-architecture-model-rami-4-0/|OPC Foundation "OPC UA in the Reference Architecture Model RAMI 4.0"]] - "The RAMI4.0 paper is currently a 100+ page paper in German language. Find a short 2 page English version and visit the ZVEI RAMI 4.0 webpage".
+    *[[http://www.zvei.org/en/subjects/Industry-40/Pages/The-Reference-Architectural-Model-RAMI-40-and-the-Industrie-40-Component.aspx|ZVEI "The Reference Architectural Model RAMI 4.0 and the Industrie 4.0 Component"]].
+    *[[http://www.zvei.org/Themen/Industrie40/Seiten/Das-Referenzarchitekturmodell-RAMI-40-und-die-Industrie-40-Komponente.aspx|ZVEI "Das Referenzarchitekturmodell RAMI 4.0 und die Industrie 4.0-Komponente"]].
+===== Traditional OPC Server Tools =====
+  *[[http://www.integrationobjects.com/|Integration Objects]].
+    *The free [[http://www.integrationobjects.com/OPC-connectivity-product-25-63.html|Integration Objects "OPC Server Simulators"]] for Windows.
+  *The OpenSource [[http://openopc.sourceforge.net/|Sourceforge "openOPC"]], [[http://www.sourceforge.net/projects/openopc/|Sourceforge "openOPC"]] - "A free, open source OPC (OLE for Process Control) toolkit".
+  *The OpenSource [[http://www.openscada.org/|openSCADA ( openscada.org )]], [[http://git.openscada.org/|openSCADA ( openscada.org ) Git]].
+    *[[http://www.openscada.org/2012/06/06/thinking-about-opc-ua/|openSCADA ( openscada.org ) "Thinking about OPC UA"]], 2012.
+  *[[http://www.ipi.ac.ru/lab43/lopc-en.html|Light OPC]] - "The Free OPC Server Toolkit".
+  *[[http://code.google.com/p/frl/|Google Code "frl"]] - "FatRat Library is a toolkit for speed up development OPC servers on C++".
+  *[[http://www.schoop-automation.de/|Ingenieurbüro Dr.-Ing.Schoop GmbH]].
+    *The commercial [[http://www.schoop-automation.de/index.php?option=com_content&view=category&id=146|Ingenieurbüro Dr.-Ing.Schoop GmbH "Schoop OPC-Server"]]. Demo version is available for download.
+  *[[http://www.softing.com/|Softing AG]].
+    *[[http://www.softing.com/home/de/industrial-automation/services/opc/client.php|Softing AG "OPC-Client-Entwicklung"]].
+    *"[[ftp://ftp.softing.com/pub/outgoing/opc/tbx422/OPCDemoClient.exe|Softing AG "OPC Demo Client and OPC Demo Server"]]" (installer download ).
+  *The commercial [[http://www.commsvr.com/|CommServer]].
+    *[[http://www.commsvr.com/DownloadCenter/tabid/182/language/en-US/Default.aspx|CommServer - DownloadCenter]] - free "OPC Viewer" for Windows.
+===== Traditional OPC Client Tools =====
+  *[[http://www.hilscher.com/|Hilscher Gesellschaft für Systemautomation mbH]].
+    *[[http://eng1.jcu.edu.au/subjects/|James Cook University "Engineering Subjects - EE4600:03 Automatic Control 3"]].
+      *[[http://eng1.jcu.edu.au/subjects/ee4600/EE4600%20MPS/CD%20for%20students/Software/Software/Tools/SyCon/UTIL/OpcExplorer/|James Cook University - Download Directoy of Hilscher's "OPC Explorer"]].
+  *[[http://www.integrationobjects.com/|Integration Objects]].
+    *The free [[http://www.integrationobjects.com/OPC-connectivity-product-25-61.html|Integration Objects "OPC DA Explorer"]] for Windows.
+    *The free [[http://www.integrationobjects.com/OPC-connectivity-product-25-62.html|Integration Objects "OPC AE Explorer"]].
+  *The free [[http://www.dopc.kassl.de/explorer.shtml|Kassl GmbH "dOPC Explorer"]] for Windows.
+  *The free "Kepware OPC Quick Client", part of the commercial [[http://www.kepware.com/kepserverex/|KEPServerEX]] package. Free download.
+    *I was told in 2014-03, that the commercial [[http://www.kepware.com/kepserverex/|KEPServerEX]] also provided full OPC UA features :-).
+  *The free [[http://www.matrikonopc.com/products/opc-desktop-tools/opc-explorer.aspx|MatrikonOPC Explorer]] - "A free utility used to view OPC server items and test OPC network connections".
+  *The free [[http://www.poweropc.com/downloads.html|PowerOPC "OPC Data Access Client"]].
+  *[[http://wayback.archive.org/web/*/http://www.mmiopc.com/|Archive.org "Progea Srl.: MMI OPC - The easiest way to human interface"]].
+    *The free [[http://wayback.archive.org/web/*/http://www.mmiopc.com/download.htm|Archive.org "Progea Srl. - OPC Explorer"]] for Windows. Please [[imprint.html|tell me]] if you know a download offer for this free software!
+===== Commercial OPC-UA Client / Server Tools =====
+  *As OPC member, you have access to an OPC-UA C++ stack and an OPC-UA .NET stack. According to experts, such a stack isn't a complete application and especially the C++ needs much improvements and upgrades to be used for production purposes.
+  *[[http://www.matrikonopc.com/opc-ua/|MatrixOPC "OPC UA (Unified Architecture)"]].
+    *[[http://www.matrikonopc.com/opc-ua/embedded/|MatrixOPC "MatrikonOPC OPC UA Embedded Suite"]].
+      *The hardware kit [[http://www.matrikonopc.com/opc-ua/embedded/evaluation-kit.aspx|MatrikonOPC OPC UA Embedded Server SDK Evaluation Kit]] - ARM Cortex M4 evaluation board ( 64 KBytes RAM ) with "MatrikonOPC OPC UA Embedded Server SDK".
+      *I was told, a typical ARM-based OPC-UA server with 4 services fits into 10 KBytes Flash ROM and needs about 5 KBytes RAM.
+  *[[http://www.hy-line.de/?id=5707|HY-LINE Systems GmbH "groov: Neues browser-basiertes HMI-System von OPTO22"]].
+    *[[http://www.hy-line.de/fileadmin/hy-line/automation/hersteller/opto22/pdf/flyer_groov_Browser_basiertes_HMI_System_mit_OPC-UA.pdf|HY-LINE Systems GmbH "Flyer: Browserbasiertes HMI-System mit OPC-UA"]] ( PDF ).
+    *".. basiert komplett auf Internet-Technologien wie HTML5, CSS3, SVG (Scalable Vector Graphics) und kommt ohne Plug-Ins aus. Flash, Silverlight oder ähnliches wird nicht benötigt. Die mit groov erstellten Anwendungen lassen sich mit jedem Betriebssystem und aktuellen Webbrowser ausführen".
+    *"... Kommunikation zu den bekannten industriellen Steuerungssystemen möglich. Dazu zählen Siemens Simatic, Schneider Electric Modicon und GE PAC-Systems. Der Datenaustausch läuft hier via OPC-UA-Standardprotokoll".
+  *The non-free OPC-UA client&server [[http://www.openopcua.org/|OpenOpcUa]] - "An opensource and multi-platform C/C++ project", "First remember that Open is different than Free", "The access to the OpenOpcUa codebase require a onetime fee".
+===== Free and commercial OPC UA Clients ====
+==== Free OPC UA Clients for Desktop ====
+  *The free OPC UA client [[http://www.unified-automation.com/products/development-tools/uaexpert.html|Unified Automation "UaExpert—A Full-Featured OPC UA Client"]] for Windows and Linux.
+==== Free and Commercial OPC UA Clients for Android ====
+  *See [[android02.html|Google Android 2/5 - App Software]].
+===== OpenSource OPC-UA Client / Server Tools =====
+==== Official OpenSource Tools & Documentation ====
+  *[[http://opcfoundation.org/developer-tools/developer-kits-unified-architecture/java-stack-and-sample-applications|OPC Foundation "Unified Architecture"]].
+  *[[http://opcfoundation.github.io/UA-Java/|GitHub.io "OPC UA Java"]].
+  *[[http://www.github.com/OPCFoundation/UA-Java|GitHub "OPCFoundation/UA-Java"]] - "The official OPC Foundation Unified Architecture Java Stack Implementation".
+  *The OpenSource implementation is based on non-free [[http://www.opcfoundation.org/developer-tools/specifications-unified-architecture/part-4-services/|OPC Foundation "Unified Architecture, Part 4: Services"]], just available to OPC members :-(.
+==== Project & Tools ====
+  *The OPC-UA client&server [[http://www.open62541.org/|open62541]], [[https://github.com/open62541/open62541|GitHub "open62541/open62541"]] by RWTH Aachen #.
+  *The OpenSource OPC-UA client&server [[http://node-opcua.github.io/|GitHub.io "node-opcua"]], [[https://www.github.com/node-opcua|GitHub "node-opcua"]] - "NodeOPCUA is a OPC UA stack fully written in javascript and NodeJS".
+  *The OpenSource OPC-UA client&server [[http://freeopcua.github.io/|GitHub.io "FreeOPCUA: An Open Source C++ OPC-UA Server and Client Library"]], [[http://www.github.com/FreeOpcUa|GitHub "Free OPC-UA Library. Open Source C++ and Python OPC-UA Libraries"]].
+  *The OpenSource OPC-UA server [[http://oscada.org/|OpenSCADA (oscada.org)]], [[http://www.oscada.org/websvn/|OpenSCADA (oscada.org) Subversion Repository]].
+  *[[http://www.github.com/digitalpetri/|GitHub "digitalpetri"]].
+    *The OpenSource OPC-UA client&server [[http://www.github.com/digitalpetri/opc-ua-stack|GitHub "digitalpetri/opc-ua-stack"]] - "High-performance OPC-UA stack for Java".
+    *The OpenSource OPC-UA client&server SDK [[http://www.github.com/digitalpetri/opc-ua-sdk|GitHub "digitalpetri/opc-ua-sdk"]].
+      *[[http://discourse.digitalpetri.com/|Discourse "digitalpetri"]] - "Welcome to digitalpetri OPC-UA SDK support".
+  *The OpenSource OPC-UA server [[http://code.google.com/p/opcua4j/|Google Code "opcua4j.open source implementation of an opc ua server in java"]] ( formerly: [[http://code.google.com/p/open-opc-ua-server/|Google Code "open-opc-ua-server. open source implementation of an opc ua server in java"]] ) - It depends on redistributable jar-files from the OPC Foundation.
+==== Resources ====
+  *Feedback:
+    *I learned from several different experts about the low code quality of the OPC UA refererence implementations ( those in C/C++, Java... just available for OPC members, and so no reason to think that it is different to the OpenSource implementation in Java ).
+    *Experts suggested that OPC members should reimplement their OPC UA server and client applications from the scratch, i.e. by reading the specifications. 
+    *I was told that in a few cases where an OPC member company try / tried to develop their own products based on the reference implementation code instead of developing it from the scratch by the OPC UA specifications only, they got stuck due to bugs in the reference implementation. 
+    *In a special case, the reference implementation of the OPC UA client doesn´t register properly at the OPC UA server but got access to the server in contradiction to the specification rules. The OPC UA server-side registration process was not implemented ( properly ), but this was covered by the improper behaviour of the  OPC UA client. Now one day a customer of a OPC member company with well-designed OPC UA registration process complaimed that it was impossible to connect with the improperly designed reference OPC UA client to the properly designed OPC UA server developed by the OPC member company... finally the properly designed OPC UA server had to be fixed to communicate properly with the improperly designed reference OPC UA client :-(.
+  *[[http://www.all-electronics.de/texte/anzeigen/60731/OPC-UA-wird-Open-Source|all-electronics "OPC UA wird Open Source"]], 2015-05-22 - "Das Ganze funktioniert nur, wenn OPC UA in möglichst vielen Geräten, Komponenten und Tools implementiert ist – auch außerhalb der klassischen Industrieautomation. Deshalb hat die OPC Foundation eine strategische Entscheidung getroffen: Spezifikationen und Stack werden auch Nicht-Mitgliedern als Open Source zur Verfügung gestellt. 'Derzeit arbeiten wir an einer Open-Shared-Source-Strategie', erklärte Hoppe. Die freie Verwendung des Stacks ermöglicht Entwicklern einen schnellen Einstieg in die Technologie und kurze Implementierungszeiten bei Prototypen. Die Foundation nutzt dazu für den größten Teil der Software die MIT License. Der Software-Stack steht Nicht-Mitgliedern dagegen als GPL (GNU General Public License) zur Verfügung".
+  *[[https://www.github.com/acplt/open62541/wiki/List-of-Open-Source-OPC-UA-Implementations|GitHub Wiki "acplt/open62541", Article "List of Open Source OPC UA Implementations"]].
+===== German Books =====
+  -Book [[http://www.amazon.de/exec/obidos/ASIN/3800724383/hemmerling-21|Dieter Barelmann, Christof Bürger, Steffen Himstedt: "OPC in der Praxis"]].
+  -Book [[http://www.amazon.de/exec/obidos/ASIN/3816921035/hemmerling-21|Thomas Bettermann: "Anwendung von Microsoft Softwarestandards in der Automatisierungstechnik. OPC, OLE und ActiveX"]].
+  -The free PDF document [[http://edok01.tib.uni-hannover.de/edoks/e01fn11/633077852.pdf|M. Daubner; V. Krieger: "Betriebsmessdatenvisualisierung und -erfassung mit OPAL (OPC-Panel Livegraph)"]] ( PDF ).
+  -Jürgen Lange.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3800732173/hemmerling-21|Jürgen Lange, Frank Iwanitz: "OPC: Von Data Access bis Unified Architecture"]] = current 4.th edition.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/377852903X/hemmerling-21|Jürgen Lange, Frank Iwanitz: "OPC: Grundlagen, Implementierung und Anwendung"]] = legacy 3.th edition.
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/3778527983/hemmerling-21|Jürgen Lange, Frank Iwanitz: "OLE for Process Control: Grundlagen, Implementierung und Anwendung"]] = legacy 1.st edition.
+  -Series of publiciations "Praxis Profiline".
+    *[[http://wayback.archive.org/web/*/http://www.praxis-profiline.com|Archive.org "Praxis Profiline"]].
+    *[[http://www.vogel-buchverlag.de/index.php/cat/c86_Praxis-Profiline.html|Vogel Buchverlag "Praxis Profiline"]].
+    *Book [[http://www.amazon.de/exec/obidos/ASIN/382591917X/hemmerling-21|Praxis Profiline, Tom Burke: "OPC: Das bietet ein offener Standard für die Automatisierung, Volume D/E"]] /[[http://books.google.de/books/about/OPC.html?id=6yOitwAACAAJ&redir_esc=y|Vogel Vogel Buchverlag "Praxis Profiline - OPC. Der Standard für die Automatisierung - Volume D/E"]], ISBN 382591917X, 2003 //-> Available in FHH, TIB//.
+    *Book  "OPC. Der Weg zur globalen Interoperabilität. Der Standard für die Automatisierung, Volume D/E", 2004 //-> Available in TIB//.
+===== English Books =====
+  -Book [[http://www.amazon.de/exec/obidos/ASIN/3778527983/hemmerling-21|Jürgen Lange, Frank Iwanitz: "OLE for Process Control: Fundamentals, Implementation, and Application"]].
+  -Book [[http://www.amazon.de/exec/obidos/ASIN/3540688986/hemmerling-21|Wolfgang Mahnke, Stefan-Helmut Leitner, Matthias Damm: "OPC Unified Architecture"]].
+===== Resources =====
+==== OPC-UA ====
+  *[[http://www.iosb.fraunhofer.de/?opcuaaml|Fraunhofer IOSB "Gemeinsame Arbeitsgruppe OPC UA und Automation ML"]].
+  *[[http://www.sps-magazin.de/|SPS-MAGAZIN]] - Series of Articles in SPS-MAGAZIN:
+
+^ ^ ^ ^ 
+^ [[http://www.sps-magazin.de/|SPS-MAGAZIN]] Issue ^Date of Publication ^ Topic ^
+^ 3 | 2012-02-24 | OPC UA Status |
+^ 4 | 2012-03-16 | OPC UA: Origin, Development and Objectives |
+^ HMI Special | 2012-04-13 | Ten Reasons for OPC UA |
+^ 5 | 2012-05-10 | OPC UA Specifications |
+^ 6 | 2012-06-01 | OPC UA Companion Standards |
+^ 7 | 2012-06-30 | OPC UA Compliance Test |
+^ 8 | 2012-07-27 | OPC UA Toolkits |
+^ 9 | 2012-08-31 | OPC UA Outlook |
+=== OPC & OPC-UA ===
+  *Experts told me about a weakness of OPC servers: All the data an OPC server gets is provided / pushed to process visualisation systems. It is one of the major tasks of a process visualisation system, to filter the incoming information ( by checking the OPC tags ), to reduce the data to an amout 
+    -which can be handled by the process visualisation display.
+    -which is useful to display to the operators.
+  *Communication protocols used with OPC.
+    *[[http://www.modbus.org/|Modbus Organization "Modbus"]].
+      *[[http://en.wikipedia.org/wiki/Modbus|DE.Wikipedia "Modbus"]], [[http://de.wikipedia.org/wiki/Modbus|DE.Wikipedia "Modbus"]] #.
+  *[[http://www.controlglobal.com/voices/opc_connection.html|ControlGlobal.com "Voices: OPC Connection"]].
+  *[[http://www.commsvr.com/|CommServer]].
+    *[[http://www.commsvr.com/Howitworks/OPC/OPCManual/tabid/302/language/en-US/Default.aspx|CommServer - "OPC guide"]].
+    *[[http://www.commsvr.com/UAModelDesigner/Index.aspx|CommServer - "OPC Unified Architecture e-book"]].
+  *[[http://www.matrikonopc.com/resources/opc-tutorials.aspx|Matrikon Inc. "Learn OPC in 5 Easy Steps. Interactive tutorials that will make you an OPC Expert"]].
+  *[[http://www.commsvr.com/UAModelDesigner/html/e34055b2-23e0-4f1a-9e00-52d75becaeec.htm|OPC Unified Architecture e-book]].
+  *[[http://www.softing.com/|Softing]] - "Your connection to excellence".
+    *[[http://www.softing.com/home/de/pdf/ia/professional-article/opc/2005/0508_opc.pdf|Softing "Zehn Jahre OPC: Von Data Access zu Unified Architecture"]] (PDF).
+  *[[http://www.opcconnect.com/|OPC Programmers' Connection - OLE for Process Control]] - "An independent site dedicated to the needs of the software/solutions developer working with OPC (formerly OLE for Process Control)".
+    *[[http://www.opcconnect.com/freestuf.php|OPC Programmers' Connection "Free OPC Software"]] #.
+    *[[http://www.opcconnect.com/ua.php|OPC Programmers' Connection "OPC Unified Architecture"]].
+==== General ====
+  *[[http://www.opcti.com/ResourceListing.aspx?type=3|OPC Training Center "OPC Download Center / OPC Products / Free OPC Products"]].
+  *Wikipedia.
+    *[[http://en.wikipedia.org/wiki/OPC_Unified_Architecture|EN.Wikipedia "OPC Unified Architecture"]], [[http://de.wikipedia.org/wiki/OPC_Unified_Architecture|DE.Wikipedia "OPC Unified Architecture"]] ( = OPC UA ).
+    *[[http://en.wikipedia.org/wiki/Distributed_Component_Object_Model|EN.Wikipedia "Distributed Component Object Model"]], [[http://de.wikipedia.org/wiki/Distributed_Component_Object_Model|DE.Wikipedia "Distributed Component Object Model"]].
+    *[[http://en.wikipedia.org/wiki/Object_Linking_and_Embedding|EN.Wikipedia "Object Linking and Embedding"]], [[http://de.wikipedia.org/wiki/Object_Linking_and_Embedding|DE.Wikipedia "Object Linking and Embedding"]].
+    *[[http://en.wikipedia.org/wiki/OLE_for_process_control|EN.Wikipedia "OLE for process control"]], [[http://en.wikipedia.org/wiki/OPC_Foundation|EN.Wikipedia "OPC Foundation"]], [[http://de.wikipedia.org/wiki/OLE_for_Process_Control|DE.Wikipedia "OLE for Process Control"]].
+{{tag>opc "opc ua" "ole for process control" ole "process control" process control}}
+<footnote_navi_en>

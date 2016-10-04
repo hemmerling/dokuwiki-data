@@ -27,6 +27,11 @@ Related pages:
     *Django to be good:
       *for database-driven applications, where just a limited number of pages is provided by the application. No "new" pages are generated, but the data of existing pages is frequently updated.
       *to do data collecting of instrumentation data of Internet-of-Thing devices, both with API ( with some business logic written in Python, making use of the data collected in the database ) and user interface. However, if the major data analysis application on the server / in the cloud is written in Java ( e.g. Opensource business intelligence software ), it should be considered to write the whole web application in Java ( e.g. with Tomcat Server ).
+      *Front-end for database, e.g. IOT database, Industry 4.0 database. 
+        *But it mustn´t be the right choice to receive the IOT data from the IOT devices. The requirements for such a webservice depend on
+          *How many sources send data ( push ) or must be polled ?
+          *Are just small data packages sent, or big data ( BLOBs, e.g. photos ) ?
+          *Does the data transfer happen in "normal" speed, or does it take a minute or longer to receive even a small data package with a "minimum" transfer speed ?!
 ==== Implementation Example =====
   *Speech "Building data products with Flask and AngularJS" by Andy Goldschmidt on the Python Unconference Hamburg in Hamburg, 2015-09-05.
     *[[http://www.github.com/andygoldschmidt|GitHub "Andy Goldschmidt, andygoldschmidt"]].
@@ -91,7 +96,7 @@ Related pages:
 === Tutorials ===
   *[[http://www.djangogirls.org/|Django Girls]].
     *[[http://tutorial.djangogirls.org/|Django Girls "Django Girls Tutorial"]].
-  *[[http://django-marcador.keimlink.de/|django-marcador. Basic Django Tutorial]] - I participated in a workshop on 2015-09-04 and passed it :-) #.
+  *[[http://django-marcador.keimlink.de/|django-marcador. Basic Django Tutorial]], [[http://www.bitbucket.org/keimlink/django-marcador|BitBucket "keimlink/django-marcador"]] - I participated in a workshop on 2015-09-04 and passed it :-) #.
   *[[http://www.godjango.com/|GoDjango.com "Django Screencasts and Tutorials"]].
   *[[http://www.ameerfazal.com/simple-silly-django-tutorial/|Ameer Fazal "Simple Silly Django Tutorial"]].
   *[[http://www.github.com/fscherf/django_workshop|GitHub "fscherf/django_workshop"]] - "Slides and example project for my Django-Workshop at Hackover2014 (Hannover)".
@@ -124,6 +129,7 @@ Related pages:
       *[[https://www.youtube.com/watch?v=M1IVwFAH9W|YouTube "Python Tutorial: Creating Web Sites using Python and Flask"]].
       *Tuturial [[http://www.discoverflask.com/|Discover Flask]], [[http://www.github.com/realpython/discover-flask|GitHub "realpython/discover-flask"]] - "Discover Flask. Full Stack Web Development with Flask".
       *[[http://en.wikipedia.org/wiki/Flask_%28programming%29|EN.Wikipedia "Flask (programming)"]], [[http://de.wikipedia.org/wiki/Flask|DE.Wikipedia "Flask"]].
+  *[[http://flask.zeef.com/stefane.fermigier|Flask by Stefane Fermigier]].
 ==== Pylons Project ====
   *[[http://www.pylonsproject.org/|Pylons Project]].
     *[[http://www.pylonsproject.org/projects/pyramid/|Pylons Project "Pyramid"]] - "A very general open source Python web framework. As a framework, its primary job is to make it easier for a developer to create an arbitrary web application. The type of application being created isn’t really important; it could be a spreadsheet, a corporate intranet, or a social networking platform".
@@ -162,12 +168,16 @@ Related pages:
   *Based on Python3.
   *[[http://control.aldryn.com/demo/get-new/|Django CMS Demo Site]].
   *[[http://en.wikipedia.org/wiki/Django-cms|EN.Wikipedia "Django CMS"]].
+=== Django-Neon ===
+  *[[https://www.django-neon.com/|Django-Neon]] - "The CMS-Application for Django-Projects".
 === FeinCMS ===
   *[[http://www.feincms.org/|feinCMS]], [[http://www.github.com/feincms/|GitHub "FeinCMS"]], [[http://feincms-django-cms.readthedocs.org/|Read the Docs "FeinCMS - An extensible Django-based CMS"]] - "A Django-based CMS with a focus on extensibility and concise code". Based on Python3.
 === Mezzanine ===
   *The OpenSource [[http://mezzanine.jupo.org/|Mezzanine - The Best Django CMS]], [[http://www.github.com/stephenmcd/mezzanine|GitHub "stephenmcd/mezzanine"]], [[http://mezzanine.jupo.org/docs/|Mezzanine "Mezzanine documentation"]]. Based on Python3.
 === Wagtail CMS ===
-  *The OpenSource [[http://www.wagtail.io/|Wagtail CMS]], [[http://www.github.com/torchbox/wagtail|GitHub "torchbox/wagtail"]] - "A Django content management system focused on flexibility and user experience". Based on Python3.
+  *The OpenSource [[http://www.wagtail.io/|Wagtail CMS]], [[http://www.github.com/torchbox/wagtail|GitHub "torchbox/wagtail"]] 
+    *"A Django content management system focused on flexibility and user experience". Based on Python3.
+    *It is a framework to build a CMS, not a ready-to-use CMS.
 ==== Some other Web CMS and other Applications based on Django & Python 3.x ====
 === Django page CMS ===
   *[[http://www.github.com/batiste/django-page-cms|GitHub "batiste/django-page-cms"]], [[http://www.readthedocs.org/projects/django-page-cms/|Read the Docs "django-page-cms"]].
@@ -198,13 +208,14 @@ Related pages:
     *[[http://en.wikipedia.org/wiki/Plone_%28software%29|EN.Wikipedia "Plone (software)"]], [[http://de.wikipedia.org/wiki/Plone|DE.Wikipedia "Plone"]].
 === ZOPE ===
 == The Tool ==
-  *The OpenSource web application server [[http://www.zope.org/|Zope.ORG]], [[http://www.zope.de/|Zope.DE]] - "An open source web application server primarily written in the Python programming language. It features a transactional object database which can store not only content and custom data, but also dynamic HTML templates, scripts, a search engine, and relational database (RDBMS) connections and code".
+  *The OpenSource web application server [[http://www.zope.org/|Zope.ORG]] - "An open source web application server primarily written in the Python programming language. It features a transactional object database which can store not only content and custom data, but also dynamic HTML templates, scripts, a search engine, and relational database (RDBMS) connections and code".
 == Applications ==
     *The OpenSource ZOPE application [[http://book.schooltool.org/|SchoolTool: the Global Student Information System]].
     *The OpenSource ZOPE application [[http://www.launchpad.net/|Launchpad]].
       *[[http://www.launchpad.net/capturemock|Launchpad "CaptureMock"]].
 == Resources ==
-    *[[http://en.wikipedia.org/wiki/Zope|EN.Wikipedia "Zope"]], [[http://de.wikipedia.org/wiki/Zope_%28Webanwendungsserver%29|DE.Wikipedia "Zope (Webanwendungsserver)"]].
+  *[[http://web.archive.org/web/*/http://www.zope.de/|Archive.org "Zope.DE by DZUG e.V. — Deutschsprachige Zope User Group"]] ( - 2014-10-21 ).
+  *[[http://en.wikipedia.org/wiki/Zope|EN.Wikipedia "Zope"]], [[http://de.wikipedia.org/wiki/Zope_%28Webanwendungsserver%29|DE.Wikipedia "Zope (Webanwendungsserver)"]].
 ==== Resources ====
   *[[http://www.djangopackages.com/grids/g/cms/|Django Packages "CMS"]].
   *[[http://code.djangoproject.com/wiki/CMSAppsComparison|Django Project "Django CMS Apps Comparison"]].

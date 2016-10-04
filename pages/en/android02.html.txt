@@ -1,12 +1,28 @@
-====== [hemmerling] Google Android 2/3 - App Software ======
-Related page:
-  *[[android.html|Google Android 1/3]].
-  *[[android03.html|Google Android 3/3 - App Development]].
+====== [hemmerling] Google Android 2/7 - App Software ======
+Related pages:
+  *[[android.html|Google Android 1/7]].
+  *[[android03.html|Google Android 3/7 - App Development]].
+  *[[android04.html|Google Android 4/7 - App Debugging & Testing]].
+  *[[android05.html|Google Android 5/7 - Simulators, Skins, Operating Systems, System Images]].
+  *[[android06.html|Google Android 6/7 - App Protoyping]].
+  *[[android07.html|Google Android 6/7 - App Publishing]].
+===== Accessibilty =====
+  *[[http://play.google.com/store/apps/details?id=com.google.android.marvin.talkback|Google Play "Google Talkback"]].
+    *[[http://support.google.com/accessibility/android/answer/6007100|Google "Android Accessibility Help / Turn on TalkBack"]].
+    *[[http://www.androidcentral.com/what-google-talk-back|Android Central "What is Google TalkBack?"]].
+    *[[http://praxistipps.chip.de/android-5-0-google-talkback-deaktivieren_36313|CHIP Praxistipps "Android / Android 5.0: Google TalkBack deaktivieren"]].
+  *"eSpeak TTS" / "Pico tts". 
+    *[[http://play.google.com/store/apps/details?id=com.googlecode.eyesfree.espeak|Google Play "eSpeak TTS"]].
+    *[[http://code.google.com/p/eyes-free/|Google Code "eyes-free. Speech Enabled Eyes-Free Android Applications"]].
 ===== Automation of Functions =====
   *If This Then That (IFTTT).
     *[[http://www.ifttt.com/|IFTTT]].
     *[[http://play.google.com/store/apps/details?id=com.ifttt.ifttt|Google Play "IF by IFTTT"]].
-===== App Rating =====
+===== App Stores & App Rating =====
+==== GApps ====
+  *[[http://www.opengapps.org/|Open GApps]] - Up to date tools :-).
+  *[[http://www.teamandroid.com/gapps/|Team Android "Google Gapps – Download Gapps for Android"]] - Legacy tools :-(.
+==== App Rating ====
   *[[http://appgratis.com/|AppGratis - one free app a day. Daily free apps! Plus ridiculous discounts!]], [[http://play.google.com/store/apps/details?id=com.imediapp.appgratisv3|Google Play "AppGratis - Cool apps for free"]].
     *[[http://www.twitter.com/appgratis|Twitter "AppGratis. @AppGratis"]].
     *[[http://www.allthingsd.com/20130410/apples-ouster-of-appgratis-is-just-the-start-of-an-app-store-crackdown/|All Thing D "Apple’s Ouster of AppGratis Is Just the Start of an App Store Crackdown"]], 2013-04-10 - "Why Apple Pulled AppGratis From the App Store".
@@ -18,6 +34,14 @@ Related page:
     *[[http://play.google.com/store/apps/details?id=org.cmdbuild.cmdbuildmobile.v1|Google Play "CMDBuildMobile v1"]].
     *[[http://play.google.com/store/apps/details?id=org.cmdbuild.cmdbuildmobile.v2|Google Play "CMDBuildMobile v2"]].
     *[[http://play.google.com/store/apps/details?id=org.openmaint.openmaintmobile.v2|Google Play "openMAINT v2"]].
+  *Nielsen, [[androidsupport.uk@nielsen.com]].
+    *[[http://play.google.com/store/apps/details?id=com.nielsen.odm|Google Play "Nielsen Mobile App"]].
+      *For Android simulator "BlueStacks", GooglePlay displays the error message "This item isn't available in your country or on your carrier" :-(.
+      *"Unsere App unterstützt derzeit Android OS-Versionen 2.3 bis 5.1.1".
+      *( [[http://itunes.apple.com/de/app/nielsen-mobile-app/id913229909?l|Apple iTunes "Nielsen Mobile App"]], [[http://www.amazon.de/The-Nielsen-Company-Mobile-App/dp/B00C2DH6M8|Amazon App Store "Nielsen Mobile App"]] ).
+      *[[http://www.nielsenmobilerewards.com/|Nielsen Mobile Rewards]].
+        *[[http://www.nielsenmobilerewards.com/store/control/login|Nielsen Mobile Rewards "Login"]].
+    *[[http://play.google.com/store/apps/details?id=com.nielsen.odm.monitor|Google Play "Nielsen Mobile App Manager"]] - "This is a companion application for the Nielsen Mobile App. The Nielsen Mobile App will prompt you to install this application".
 ===== Calendars & Alarm Clocks =====
 ==== Snoring Control ====
   -[[http://play.google.com/store/apps/details?id=com.arcadexxi.dreamwatcherlite|Google Play "Dream Watcher Lite"]].
@@ -57,11 +81,9 @@ Related page:
   *[[http://play.google.com/store/apps/collection/promotion_collections_cardboard|Google Play - Promotion Collections for Cardboard "Featured Apps + Games"]].
   *[[http://www.wareable.com/google/the-best-google-cardboard-apps|Warable "Best Google Cardboard apps: Top games and demos for your mobile VR headset. Your dose of homemade virtual reality with these top games and apps"]].
 ==== Developer's Resources ====
-Related
   *[[gameapp.html|My first 3D VRML Android App, made with Unity]].
   *To make a Google App compatible for Cardboards, please select as display orientation "Landscape Left" :-).
-  *[[gameapp.html|My first 3D VRML Android App, made with Unity]].
-[[http://developers.google.com/cardboard/|Google Developers "Cardboard"]].
+  *[[http://developers.google.com/cardboard/|Google Developers "Cardboard"]].
 ===== Communications =====
   *[[http://www.securechat.com/|G Data Secure Chat]], [[http://www.secure.gd/sc-download|G-Data "G Data Secure Chat"]], [[http://play.google.com/store/apps/details?id=de.gdata.securechat|Google Play "G Data Secure Chat"]] for Android.
     *[[http://www.gdata.de/pressecenter/artikel/mwc-2015-g-data-macht-mobile-messaging-abhoersicher|G-Data "MWC 2015: G DATA macht Mobile Messaging abhörsicher"]] - "Die G DATA App SECURE CHAT bietet hochsichere, mehrfach verschlüsselte SMS- und Chat-Kommunikation".
@@ -81,14 +103,50 @@ Related
          -"Unsichere SMS".
            *"Wenn der Empfänger Secure Chat nicht verwendet, können mit dieser Einstellung ungeschützte SMS verschickt werden. Denn für die Verschlüsselung von Nachrichten müssen sowohl der Sender als auch der Empfänger die Möglichkeit zur Ver- bzw. Entschlüsselung haben. Für den herkömmlichen SMS Versand fallen ebenso die vertraglich geregelten Kosten an".
 
+===== Events & News =====
+  *[[http://www.my-hannover.de/|MyHannover]].
+    *[[http://play.google.com/store/apps/details?id=de.hafas.android.hannover|Google Play "MyHannover"]].
+===== Learning & Education =====
+  *The free language course platform [[http://www.duolingo.com/|Duolingo]].
+    *[[http://play.google.com/store/apps/details?id=com.duolingo|Google Play "Learn English with Duolingo"]].
+  *The free language course platform [[http://www.memrise.com/|Memrise]].
+    *[[http://play.google.com/store/apps/details?id=com.memrise.android.memrisecompanion|Google Play "Memrise Learn Languages Free"]].
 ===== General & Fun =====
   *Labyrinth, Holz-Labyrinth ( German ), Kugel-Labyrinth ( German ), [[http://itunes.apple.com/de/app/wooden-labyrinth-3d-free/id305713066?mt=8|ITunes, Elias Pietilä "Wooden Labyrinth 3D Free"]] -> Good application idea :-).
   *The free game [[http://play.google.com/store/apps/details?id=com.smarty.no2048tile|Google Play "2048 tile" by "Tran Duy Bien"]].
   *The free [[http://play.google.com/store/apps/details?id=com.runtastic.android&hl=en|Google Play "Runtastic Running & Fitness"]].
+===== Launchers / Desktops / File Managers =====
+  *[[http://play.google.com/store/apps/details?id=lysesoft.andexplorer&hl=en|Google Play "AndExplorer"]] - E.g. for use with Android simulators like "BlueStacks", which Android operating systems not shipped with a file manager tool..
+  *[[http://play.google.com/store/apps/details?id=com.anddoes.launcher|Google Play "Apex Launcher"]].
+    *Suggested by experts at [[http://android.stackexchange.com/questions/105383/bluestacks-home-screen|StackExchange - Android Enthusiasts "Bluestacks Home Screen"]] as launcher / desktop for use with [[http://www.bluestacks.com/|BlueStacks]].
+  *[[http://play.google.com/store/apps/details?id=com.asus.filemanager|Google Play, ASUS Computer Inc. Tools "File Manager"]] - E.g. for use with Android simulators like "BlueStacks", which Android operating systems not shipped with a file manager tool.
 ===== Mobility / Travelling =====
   *[[http://play.google.com/store/apps/details?id=de.hafas.android.dbzugradarpv|Google Play, DB Bahn "DB Zugradar"]].
+  *[[http://play.google.com/store/apps/details?id=com.nunav.play|Google Play "NUNAV Navigation"]].
+    *[[http://www.graphmasters.net/|Graphmasters GmbH]].
+  *[[http://www.osmand.net/|OsmAnd - Offline mobile maps & navigation]], [[http://www.osmand.de/|OsmAnd.de - Open Street Maps Automated Navigation Directions]], [[http://play.google.com/store/apps/details?id=net.osmand|Google Play "Maps & Navigation — OsmAnd"]].
+    *"This free OsmAnd version is limited to 7 downloads and does not support offline Wikipedia articles".
+    *[[http://download.osmand.net/rawindexes/|OsmAnd "Osmand Local Indexes"]]:
+      *German_wiki_2.obf.zip.
+      *Germany_baden-wuerttemberg_europe_2.obf.zip, Germany_bayern_europe_2.obf.zip, Germany_berlin_europe_2.obf.zip, Germany_brandenburg_europe_2.obf.zip, Germany_bremen_europe_2.obf.zip, Germany_hamburg_europe_2.obf.zip, Germany_hessen_europe_2.obf.zip, Germany_mecklenburg-vorpommern_europe_2.obf.zip, Germany_niedersachsen_europe_2.obf.zip, Germany_nordrhein-westfalen_europe_2.obf.zip, Germany_rheinland-pfalz_europe_2.obf.zip, Germany_saarland_europe_2.obf.zip, Germany_sachsen-anhalt_europe_2.obf.zip, Germany_sachsen_europe_2.obf.zip, Germany_schleswig-holstein_europe_2.obf.zip, Germany_thueringen_europe_2.obf.zip.
+    *[[http://wiki.openstreetmap.org/wiki/OsmAnd|Open StreetMap Wiki "OsmAnd"]].
 ===== Remote Control of external Hardware =====
   *The free [[http://play.google.com/store/apps/details?id=com.parrot.freeflight|Google Play "AR.FreeFlight 2.4.10"]].
+===== Sketching, Visual Facilitating, Painting =====
+==== Tools ====
+  *[[http://play.google.com/store/apps/dev?id=6418760394979464117|Autodesk Inc.]].
+    *[[http://play.google.com/store/apps/details?id=com.adsk.sketchbook|Google Play "SketchBook - draw and paint"]].
+    *[[http://play.google.com/store/apps/details?id=com.adsk.sketchbookhdexpress|Google Play "SketchBook Express"]].
+  *[[http://www.fiftythree.com/|FiftyThree, Inc. "Paper53"]] for iPhone & iPad.
+    *[[http://support.fiftythree.com/hc/en-us/articles/201592532-Paper-for-Android-and-Windows|FiftyThree, Inc. "Support / Paper / Other Platforms / Paper for Android, and Windows"]] - "Our team is currently not large enough to focus on more than one platform, but we do appreciate knowing that the demand is out there. We certainly would love to expand Paper to other platforms and devices when we have the resources to do so".
+  *[[http://play.google.com/store/apps/developer?id=Wacom+Co.+Ltd.|Google Play "Wacom Co. Ltd."]].
+    *[[http://play.google.com/store/apps/details?id=com.wacom.bamboopapertab|Google Play "Bamboo Paper"]].
+==== Resources ====
+  *[[http://forums.androidcentral.com/tablet-apps/191592-sketching-app-something-elegant-paper-53-a.html|Android Central Forums "sketching app - something as elegant as Paper 53"]].
+  *[[http://www.android-hilfe.de/thema/alternative-fuer-android-von-paper-53-von-ios.358722/|Android Hilfe "Alternative für Android von "Paper 53" von iOS"]].
+  *[[http://www.appcrawlr.com/app/uberGrid/267645|APPCRAWLR - App Discovery by Softonic "Paper by FiftyThree Alternatives comparison chart"]].
+  *[[http://voltmagonline.com/paper-53-vs-bamboo-paper/|VOLT "Paper 53 VS Bamboo Paper"]].
+  *[[http://play.google.com/store/search?q=+Sketchbook|Google Play - Search for "Sketchbook"]].
 ===== Screenshot / Capture / PDF Maker & Bookmark Tools =====
 ==== Bookmarking / Offline Reading ====
   *[[http://www.getpocket.com/|Pocket]], [[http://play.google.com/store/apps/details?id=com.ideashower.readitlater.pro|Google Play "Pocket"]] - "Read It Later". "Save From Your Apps. While using any app, find the share button, then tap 'Add to Pocket'".
@@ -115,7 +173,7 @@ Related
       *[[http://www.google.de/?q=android++shutter+button+camera+site:stackoverflow.com|Google - Search for "android shutter button camera site:stackoverflow.com"]].
 === Resources ===
   *[[http://www.gottabemobile.com/2015/01/16/best-selfie-sticks-for-android/|GottaBe Mobile "5 Best Selfie Sticks for Android Smartphones"]].
-  *[[https://en.wikipedia.org/wiki/Selfie_stick|EN.Wikipedia "Selfie stick"]], [[http://de.wikipedia.org/wiki/Selfie-Stange|DE.Wikipedia "Selfie-Stange"]].
+  *[[http://en.wikipedia.org/wiki/Selfie_stick|EN.Wikipedia "Selfie stick"]], [[http://de.wikipedia.org/wiki/Selfie-Stange|DE.Wikipedia "Selfie-Stange"]].
 ==== Free PDF Creation ====
 === Scanner & PDF Creator ===
   *[[http://play.google.com/store/apps/details?id=com.intsig.camscanner|Google Play "CamScanner -Phone PDF Creator"]].
@@ -198,9 +256,49 @@ Related
   *[[http://play.google.com/store/search?q=screenshot&c=apps|Google Play - Search for "screenshot"]].
   *[[http://www.stackoverflow.com/questions/20472262/how-to-do-a-screenshot-for-android|StackOverflow "How to do a screenshot for android?"]] - "On Samsung Galaxy Phones/Tabs there are gestures to do that".
   *[[http://www.freeware-android.net/alcatel-one-touch-scribe-hd-ot-8008d-tcl-y900-device-screenshots-download-3057-all-1-date.html|freeware4Android "Alcatel / Alcatel One Touch Scribe HD OT-8008D (TCL Y900) / System Utilities / Screenshots"]].
+==== Screencasts, Screen Recordings ====
+=== Screencasts for unrooted Devices, with Android 5 ===
+  *[[http://play.google.com/store/apps/details?id=com.hecorat.screenrecorder.free|Google Play, Hecorat "AZ Screen Recorder"]] for Android 5.
+  *[[http://play.google.com/store/apps/details?id=com.rivulus.screenrecording|Google Play, Rivulus Studios "Lollipop Screen Recorder"]] for Android 5 - "a simple and easy to use screen recorder for devices running Android 5.0+. It uses official APIs added in Android Lollipop+ so it requires no rooting".  *Notifications are played with sound at the moment of alarm, while the notification symbol ( Triangle with "!" is displayed in the Notification area. There is no storage or queuing of notifications. There is no silent alarm, about which the user may just be notified by checking the Notifications.
+  *[[http://play.google.com/store/apps/details?id=com.nll.screenrecorder&hl=en|Google Play, NLL "Screen Recorder"]] for Android 5 - "A free unlimited screen capture app for recording your device's screen to video. Create promotional videos, make tutorials or record help videos complete with audio!".
+=== Screencasts for unrooted Devices, with Android 4.2.1 ===
+  *[[http://www.mobizen.com/|Mobizen - The Life Hub]] - "Your Android, Anywhere. Use your Android from a web browser or desktop".
+    *The free and unlimited [[http://play.google.com/store/apps/details?id=com.rsupport.mvagent|Google Play, RSUPPORT Co., Ltd. "Mobizen- Game, Screen Recorder"]].
+    *The free PC software claims that "Boost Mode is not enabled" :-(, and so refused to enable screen recording and screen snapshots. All other functions ( i.e. access to the smartphone file system ) works, though...
+  *<del>[[http://play.google.com/store/apps/details?id=us.screen.record|Google Play, Android Screen Recorders "Screen Recorder No-Root"]] ( in-App name "Best Screen Recorder" )</del> with limited recording duration. 
+    *The duration limit is not mentioned in the App...
+    *The use of the application is interrupted by full-screen commercial advertising :-(.
+    *As of 2015-12-31, it doesn´t work at all - no recordings.
+=== Resources ===
+  *[[http://www.androidauthority.com/best-screen-recording-apps-600838/|Android Authority "7 best Android apps for screen recording and other ways too!"]].
+    *"Android apps that work on Lollipop and later".
+    *"Android apps that work before Lollipop".
+  *Google
+    *[[http://play.google.com/store/search?q=screencast|Google Play - Search for "screencast"]].
+    *[[http://play.google.com/store/search?q=screen%20recorder|Google Play - Search for "screen recorder"]].
 ===== Security, Antivirus =====
   *[[http://play.google.com/store/apps/details?id=de.gdata.mobilesecurity&hl=de|Google Play "G Data Internet Security Light"]] ( formerly: "G Data AntiVirus Free" ).
-===== Software Platform =====
+===== Software (Developer ) Platform =====
+==== Terminal ====
+  *The free [[http://play.google.com/store/apps/details?id=jackpal.androidterm|Google Play, Jack Palevich "Terminal Emulator for Android"]].
+==== Crosswalk Project =====
+  *[[http://play.google.com/store/apps/details?id=org.xwalk.core|Google Play "Crosswalk Project Runtime"]].
+==== DOS =====
+  *The free [[http://play.google.com/store/apps/details?id=com.fishstix.dosbox|Google Play "DosBox Turbo"]].
+  *[[http://play.google.com/store/apps/details?id=com.smartphoneremote.androidscriptfree|Google Play "DroidScript - JavaScript IDE"]].
+==== Javascript ====
+  *DroidScript -> See [[webtech05.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 5/5 - Javascript Frameworks]].
+==== OPC UA ====
+=== Free OPC UA Clients ===
+  *[[http://www.unified-automation.com/de/downloads/opc-ua-clients.html|Unified Automation "OPC UA Clients – Downloads"]] - The free OPC UA client "UaExpertMobile for Android".
+  *[[http://play.google.com/store/apps/details?id=com.prosysopc.ua.android|Google Play "Prosys OPC UA Client Lite"]].
+    *[[http://www.prosysopc.com/products/opc-ua-client-for-android/|Prosys PMS Ltd "OPC UA client for Android"]].
+      *[[http://www.prosysopc.com/news/prosys-opc-ua-client-for-android-2-0-released/|Prosys PMS Ltd "Prosys OPC UA Client for Android Lite 2.0 released"]], 2014-09-02.
+=== Commercial OPC UA Clients with Evaluation Version ===
+  *[[http://www-teslascada.com/|LLC TESLA,]].
+    *[[http://www.teslascada.com/publ/teslascada/1-1-0-1|LLC TESLA, "TeslaSCADA"]] - "Evaluation version has some restrictions - you can't use over 16 tags in your project, you can't import projects and you can't use your project after evaluation period - 60 days".
+    *[[http://play.google.com/store/apps/details?id=opc.tesla.scada|Google Play "TeslaSCADA"]] - "Simple SCADA solution based on OPC UA for Android.Our idea is to do a quick visualization between an android device and industrial automation applications and equipment based on OPC UA".
+==== Python ====
   *The free [[http://play.google.com/store/apps/details?id=org.kivy.pygame|Google Play "Kivy Launcher"]].
   *The free [[http://code.google.com/p/python-for-android/|Google Code "python-for-android, Py4A"]].
   *The free [[http://play.google.com/store/apps/details?id=innovationlabs.python.com|Google Play "Python For Android"]].
@@ -208,9 +306,32 @@ Related
   *The free [[http://play.google.com/store/apps/details?id=com.hipipal.qpy3|Google Play "QPython - Python 3 for Android"]].
   *The free [[http://play.google.com/store/apps/details?id=org.androidideas.scriptlauncher|Google Play "SL4A Script Launcher"]].
   *The free [[http://play.google.com/store/apps/details?id=org.androidideas.taskbomb|Google Play "TaskBomb task scheduler"]].
+===== Recommended Games =====
+  *[[http://play.google.com/store/apps/developer?id=GoBit+Games|Google Play "GoBit Games"]] - "Burger Shop", "Burger Shop FREE".
+===== Writing / Text Processing / Office Software =====
+  *[[http://www.evernote.com/|Evernote]] - "Remember Everything Modern life can be complicated. Simplify it with Evernote, the app to manage it all".
+    *[[http://play.google.com/store/apps/details?id=com.evernote|Google Play "Evernote - stay organized"]].
+    *[[http://en.wikipedia.org/wiki/Evernote|EN.Wikipedia "Evernote"]], [[http://de.wikipedia.org/wiki/Evernote|DE.Wikipedia "Evernote"]].
+  *[[http://www.kingsoftstore.com/|Kingsoft Software "WPS Office Suite: WPS Office 10 Free and WPS Office 10 Business"]].
+    *[[http://play.google.com/store/apps/details?id=cn.wps.moffice_eng&hl=en|Google Play "WPS Office + PDF"]] - "Kingsoft Office Software Corporation Limited Business".
 ===== Resources =====
+==== General ====
+  *[[http://www.stackoverflow.com/questions/12175904/where-can-i-find-the-apk-file-on-my-device-when-i-download-any-app-and-install|StackOverflow "where can i find the .apk file on my device, when i download any app and install?"]].
+    *[[http://play.google.com/store/apps/details?id=com.yschi.MyAppSharer|GooglePlay "MyAppSharer"]] - "By using the feature to export APK to SD card, you could backup your app to your SD card". Works with un-rooted devices!
+    *"All user installed apks are located in /data/app/, but you can only access this if you are rooted".
+==== Appstores ====
+  *Appstore [[http://market.1mobile.com/|1Mobile Market]].
+  *Appstore [[http://www.apkmirror.com/|APKMirror]].
+    *[[http://www.apkmirror.com/?s=amazon+underground&post_type=app_release&searchtype=apk|APKMirror - Search for "amazon underground"]].
+  *Appstore [[http://www.amazon.com/underground|Amazon.com "Amazon Underground"]], [[http://www.amazon.co.uk/underground|Amazon.co.uk "Amazon Underground"]], [[http://www.amazon.de/underground|Amazon.de "Amazon Underground"]].
+    *[[http://www.amazon.de/gp/mas/your-account/myapps/|Amazon.DE "Meine Apps und Geräte"]] - "Sie können Ihre Apps und Android-Geräte, die in Ihrem Amazon.de-Kundenkonto angemeldet sind, über 'Meine Apps & Geräte' verwalten".
   *AppStore [[http://www.apk4fun.com/|App4Fun]].
+  *AppStore [[http://www.appslib.com/|AppsLib]].
   *AppStore [[http://www.f-droid.org/|F-Droid]].
+  *AppStore [[http://www.getjar.com/|Get Jar]].
   *Official AppStore [[http://play.google.com/|Google Play]].
+    *[[http://www.teamandroid.com/gapps/|Team Android "Google Gapps – Download Gapps for Android"]] - Archive of Gapps for Android 2.2.0 ( ARM ) and newer.
+    *[[http://www.opengapps.org/|The Open GApps Project]] - Download of Gapps for Android ( ARM, ARM-64, x86, x86-64 ).
+  *AppStore [[http://en.uptodown.com/android|Uptodown "Android"]].
 {{tag>"Google Android" Android appstore app apps}}
 <footnote_navi_en>

@@ -55,6 +55,8 @@ Related pages:
 ==== Alternative Platform Runtimes ====
 === Alternative Desktop Platform Runtimes ===
   *The free online service [[http://www.codepad.org/|Steven Hazel "Codepad"]] - "Online compiler/interpreter ( for C, C++, D, Haskell, Lua, OCaml, PHP, Perl, Plain Text, **Python**, Ruby, Scheme, Tcl ) and a simple collaboration tool. Paste your code below, and codepad will run it and give you a short URL you can use to share it in chat or email".
+  *[[http://www.ipython.org/|IP[y]: IPython Interactive Computing]].
+    *[[http://www.jupyter.org/|Project Jupyter]], [[http://www.github.com/jupyter|GitHub "Project Jupyte"]], [[http://jupyter.readthedocs.org/|ReadTheDocs "Project Jupyter"]] - "The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text".
   *[[http://www.ironpython.net/|IronPython]], [[http://ironpython.codeplex.com/|CodePlex "IronPython"]], [[http://www.github.com/IronLanguages/main|Github "IronLanguages/main"]] - "An open-source implementation of the Python programming language which is tightly integrated with the .NET Framework", "Implementations of Python and Ruby programming languages for .NET Framework that are built on top of the Dynamic Language Runtime".
   *[[http://www.jython.org/|Jython: Python for the Java Platform]], [[http://jython.sourceforge.net/|Sourceforge "Jython"]], [[http://www.sourceforge.net/projects/jython/|Sourceforge "Jython"]].
   *The discontinued OpenSource LLVM project.
@@ -63,12 +65,17 @@ Related pages:
   *Kivy - see section "Graphical Frameworks".
   *[[http://www.micropython.org/|Micro Python: Python for microcontrollers]].
     *"Micro Python is a lean and fast implementation of the Python 3 programming language that is optimised to run on a microcontroller".
-    *"The Micro Python board (the pyboard) has been manufactured...".
+    *Hardware: 
+      *"The Micro Python board (the pyboard) has been manufactured...".
+      *"BBC Micro Bit" -> See [[arm.html|ARM Embedded Systems ( ARM7, ARM8, ARM9, ARM11, Cortex )]].
     *[[http://www.github.com/micropython/|GitHub "micropython"]].
+    *[[http://www.github.com/bbcmicrobit/micropython|GitHub "bbcmicrobit/micropython"]].
+    *[[http://microbit-micropython.readthedocs.org/|ReadTheDocs "BBC micro:bit MicroPython documentation"]].
     *[[http://www.facebook.com/micropython|Facebook "Micro Python"]].
     *[[http://www.twitter.com/micropython|Twitter "Micro Python"]].
     *[[http://www.kickstarter.com/projects/214379695/micro-python-python-for-microcontrollers|Kickstarter "Damien George: Micro Python: Python for microcontrollers"]].
     *[[http://www.heise.de/hardware-hacks/meldung/Micro-Python-Ein-Python-fuer-Microcontroller-2217095.html|heise online "Micro Python: Ein Python für Microcontroller"]], 2014-06-06 - "Derzeit richtet sich die Sprache an Geräte mit 32-Bit-ARM-Prozessoren, die den Thumb-v2-Befehlssatz verwenden. Der Schöpfer der Sprache... hat mittlerweile ein Board mit STM32F405-Prozessor ( [[http://www.st.com/web/catalog/mmc/FM141/SC1169/SS1577/LN1035|STMicroeletronics "STM32F405/415"]] ) geschaffen".
+    *[[http://www.ntoll.org/article/story-micropython-on-microbit|ntoll "The Story of MicroPython on the BBC micro:bit"]].
   *[[http://www.portablepython.com/|Portable Python]].
     *[[http://www.portablepython.com/wiki/PortablePython2.7.3.1|Portable Python 2.7.3.1 Package - Supplied applications/libraries]].
     *[[http://www.portablepython.com/wiki/PortablePython3.2.1.1|Portable Python 3.2.1.1 Package - Supplied applications/libraries]].
@@ -134,10 +141,11 @@ David Vassallo's Blog "Nugget Post : Running Kivy + SL4A’s Python for Android 
 === Resources ===
   *[[http://appcrawlr.com/android-apps/best-apps-python-code|AppCrawlr "10 Best Apps for Python Code (android)"]].
   *[[http://www.reddit.com/r/Python/comments/1le5xo/best_python_interpreter_for_android_tablet/|Reddit "Best Python interpreter for Android tablet?"]].
+  *[[http://wiki.python.org/moin/PythonDistributions|Python Wiki "Python Distributions"]].
 ==== Distributions ====
 === OpenSource Distributions ===
   *Google Code "Python(x,y)".
-    *[[http://code.google.com/p/pythonxy/|Google Code "pythonxy. Scientific-oriented Python Distribution based on Qt and Spyder"]] for Windows.
+    *[[http://python-xy.github.io/|GitHub.io "Python(x,y) - the scientific Python distribution"]], [[http://github.com/python-xy|GitHub "Python(x, y). A free scientific and engineering development software based on the Python programming language"]], <del>[[http://code.google.com/p/pythonxy/|Google Code "pythonxy. Scientific-oriented Python Distribution based on Qt and Spyder"]]</del> for Windows.
     *[[http://code.google.com/p/pythonxy-linux/|Google Code "pythonxy-linux. Scientific-oriented Python Distribution for GNU/Linux based on Qt and Eclipse"]] for Linux.
     *[[http://code.google.com/p/spyderlib/|spyderlib. Spyder is the Scientific PYthon Development EnviRonment]].
     *As of 2015-07, "Python(x,y)" is just shipped with Python 2.x.
@@ -251,6 +259,11 @@ please install pbs 0.110 (http://pypi.python.org/pypi/pbs) for windows support.<
           *[[http://pypi.python.org/pypi/pbs|Python Package Index "pbs"]] - "Python subprocess wrapper. PBS has now become sh. PBS will no longer be supported".
           *[[http://pypi.python.org/pypi/sh|Python Package Index "sh"]] - "Python subprocess interface".
 ==== Project Distribution with "Python Distribution Utilities" ("Distutils"), "setup.py", "Easy Install"... ====
+  *The cross-platform [[http://www.github.com/conda|GitHub "Conda"]], not limited to Python project distribution - "An OS-agnostic, system-level binary package manager".
+    *[[http://conda.pydata.org/docs/|Conda "Documentation"]].
+      *[[http://conda.pydata.org/docs/custom-channels.html|Conda "Documentation / Custom channels"]] - "Channels are the path that conda takes to look for packages, and the easiest way to use and manage custom channels is to use a private or public repository on [[http://www.anaconda.org/|Anaconda.org]], formerly known as Binstar.org".
+      *[[http://www.anaconda.org/|Anaconda Cloud]].
+    *The most easy way to start with Conda, is to install the Python distribution "Miniconda".
   *[[http://docs.python.org/2/distutils/|Python Documentation "Distributing Python Modules"]].
     *[[http://docs.python.org/2/distutils/setupscript.html|Python Documentation "Distributing Python Modules. 2. Writing the Setup Script"]].
     *[[http://docutils.sourceforge.net/|SourceForge "Docutils: Documentation Utilities. Written in Python, for General- and Special-Purpose Use"]], [[http://www.sourceforge.net/projects/docutils|SourceForge "Docutils"]].
@@ -267,6 +280,7 @@ please install pbs 0.110 (http://pypi.python.org/pypi/pbs) for windows support.<
   *[[http://www.github.com/matthew-brett/myscripter|GitHub "matthew-brett/myscripter"]] - "A trivial repo for playing with python script installation on windows".
   *[[http://www.pythonhosted.org/setuptools/|PythonHosted "Setuptools documentation"]].
     *[[http://www.pythonhosted.org/setuptools/easy_install.html|PythonHosted "Setuptools / Easy Install"]].
+  *As of 2016-04, Python experts agree that the "Wheel format" is now ideal for distribution of Python software.
 ==== Packaging / Testing / Release ====
   *[[http://pypi.python.org/pypi/devpi|Python Package Index "devpi"]]-
     *[[http://doc.devpi.net/|devpi]] - "PyPI server and packaging/testing/release tool".
@@ -338,6 +352,9 @@ error: Could not find suitable distribution for Requirement.parse('test')
   *The free Python launcher [[http://bitbucket.org/vinay.sajip/pylauncher/|vinay.sajip "pylauncher" / "PEP 397"]].
     *[[http://blog-de.python.org/2011/08/ein-python-starter-fur-windows.html|Python Insider DE - Neuigkeiten und Informationen zur Python Kern-Entwicklung "Ein Python-Starter für Windows"]].
 ==== Interfacing ====
+=== Compiler Tools ===
+  *[[http://www.microsoft.com/en-us/download/details.aspx?id=44266|Microsoft Download Center "Microsoft Visual C++ Compiler for Python 2.7"]].
+=== Tools & Frameworks ===
   *The OpenSource [[http://www.cython.org/|Cython - C-Extensions for Python]] - "A language that makes writing C extensions for the Python language as easy as Python itself. It is based on the well-known [[http://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/|Pyrex]], but supports more cutting edge functionality and optimizations".
     *[[http://en.wikipedia.org/wiki/Cython|EN.Wikipedia "Cython"]], [[http://de.wikipedia.org/wiki/Cython|DE.Wikipedia "Cython"]].
   *The OpenSource [[http://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/|Pyrex]] - "Lets you write code that mixes Python and C data types any way you want, and compiles it into a C extension for Python".
@@ -366,6 +383,10 @@ error: Could not find suitable distribution for Requirement.parse('test')
     *[[http://www.airbnb.io/projects/|Airbnb Open Source Projects]].
       *[[http://www.airbnb.io/projects/airflow/|Airbnb Open Source Projects "Airflow"]] - "Use Airflow to author workflows as directed acyclic graphs (DAGs) of tasks".
         *[[http://www.github.com/airbnb/airflow|GitHub "airbnb/airflow"]].
+=== NVDA Screen Reader ===
+  *NVDA Screen Reader -> See [[accessibility.html|Accessibility]].
+=== Odoo ===
+  *The just-commercial, but "OpenSource" business software [[http://www.odoo.com/|Odoo]]. You get the sourcecode just as paying customer.
 === OpenStack ===
   *OpenStack - "Open-source software cloud computing platform. It is primarily deployed as an infrastructure as a service (IaaS) solution".
     *The OpenSource [[http://www.openstack.org/|Open Stack]], written in Python.
@@ -390,6 +411,8 @@ error: Could not find suitable distribution for Requirement.parse('test')
     *[[https://download.blender.org/release/Blender2.49b/|Blender - Download of "Blender2.49b"]].
   *Blender 2.5 is using Python 3.x.
   *[[http://en.wikipedia.org/wiki/Blender_%28software%29|EN.Wikipedia "Blender (software)"]], [[http://de.wikipedia.org/wiki/Blender_%28Software%29|DE.Wikipedia "Blender (Software)"]].
+=== CoDeSys Automation Alliance ===
+  *[[http://www.3s-software.com/|3S-Smart Software Solutions GmbH - CoDeSys Automation Alliance]] - "Skriptsprache Python in CODESYS V3. Ab CODESYS V3.4 SP3 können Sie Abläufe innerhalb von CODESYS automatisieren. Dazu wurde ein Runtime sowie eine Systembibliothek für Python integriert. In diesem [[http://forum-de.codesys.com/|Forum]] finden Sie allgemeine Hinweise und Beispiele, auf die Sie bei der Erstellung von Python-Skripts zugreifen können".
 === OriginPro ===
   *[[http://www.originlab.com/|OriginLab "Origin", "OriginPro"]] - "Data Analysis and Graphing Software".
     *[[http://www.originlab.com/doc/LabTalk/guide/work-with-python|OriginLab "LabTalk Programming / Expand LabTalk Programming / LabTalk Scripting Guide / Expand LabTalk Scripting Guide "2.16 Working with Python"]].

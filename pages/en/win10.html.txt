@@ -1,0 +1,64 @@
+====== [hemmerling] Windows 10, Windows Server 2016 & Nano Server ======
+Related pages:
+  *[[windows.html|Microsoft Windows]].
+  *[[wscripting02.html|Scripting Languages for Windows 2/3 - Windows PowerShell]].
+  *[[winembedded.html|Windows Embedded, Windows Embedded CE]].
+  *[[win7.html|Windows Vista, Windows 7, Windows Server 2008 and 2012, Windows 8]].
+===== Windows 10 =====
+==== General ====
+  *See also [[win7.html|Windows Vista, Windows 7, Windows Server 2008 and 2012, Windows 8]].
+==== Download ====
+  *[[http://blogs.technet.com/b/austria/archive/2015/10/18/windows-10-iso-build-10565-als-download.aspx|Microsoft Technet Blogs "TechNet Team Blog Austria. Informationen und News abseits der offiziellen TechNet vom TechNet Team Blog Austria "Windows 10 ISO Build 10565 als Download"]], 2015-10-18.
+==== Updater ====
+  *[[https://www.microsoft.com/en-us/windows/windows-10-upgrade|Microsoft "Windows 10 free upgrade offer ends July 29"]] - Win10 updater "Windows10Upgrade9194.exe" ( 5 MBytes ) for Win7, Win8.x.
+=== Resources ===
+  *[[http://www.google.de/search?q=8024402c+windows+update|Google - Search for "8024402c windows update"]].
+    *[[http://answers.microsoft.com/en-us/windows/forum/windows_8-update/windows-update-error-8024402c/6984ecb8-7462-44b8-93e1-f1a2d8c308ba|Microsoft Answers "Windows Update Error 8024402C"]].
+      *"This error might be caused by a program running on your computer that's preventing Windows Update Services (SVCHOST) from accessing the Internet. Programs that might do this include firewalls, antispyware software, web accelerators, Internet security or antivirus programs and proxy servers".
+      *My experience: The error message might also appear with computers connected to a network switch, which itself is connected to a ( DSL ) router, even with permanent local IP address ) :-(.
+    *[[http://www.sevenforums.com/windows-updates-activation/218303-windows-wont-update-error-8024402c.html|Windows Seven Forums "Windows 7: Windows wont update error-8024402C"]].
+    *[[http://www.sevenforums.com/windows-updates-activation/264840-windows-update-posting-instructions.html|Windows Seven Forums  "Windows Update Posting Instructions"]] ( for Win10 ).
+  *[[http://www.google.de/search?q=80070004-3000+windows|Google - Search for "80070004-3000+windows"]].
+    *[[http://support.microsoft.com/en-us/kb/2876597|Microsoft Community "error 80070004-3000D when trying to install windows 10"]].
+  *[[http://www.google.de/search?q=0xc7700100+windows|Google - Search for "0xc7700100 windows"]].
+    *[[http://answers.microsoft.com/en-us/windows/forum/windows_10-windows_install/getting-error-code-0xc7700100-when-upgrading-81/326c34a8-752b-4221-a073-71c1684c9c01|Microsoft Community "getting error code 0xc7700100 when upgrading 8.1 pro with media center to Windows 10 pro?"]].
+    *[[http://answers.microsoft.com/en-us/windows/forum/windows_10-windows_install/installing-windows-10-to-a-new-ssd/6117c0c8-7397-4062-b711-fb2a804dd77f|Microsoft Community "Installing Windows 10 to a new SSD"]].
+    *[[http://answers.microsoft.com/en-us/insider/wiki/insider_wintp-insider_install/how-to-troubleshoot-common-setup-and-stop-errors/324d5a5f-d658-456c-bb82-b1201f735683|Microsoft Community "How to: Troubleshoot common Setup and Stop Errors during Windows 10 Installation"]].
+    *[[https://support.microsoft.com/en-us/help/10587/windows-10-get-help-with-upgrade-and-installation-errors|Microsoft Support "Get help with Windows 10 upgrade and installation errors"]].
+  *[[http://www.google.de/search?q=80200056+windows|Google - Search for "80200056 windows"]].
+  *[[http://www.google.de/search?q=0xc1900200+windows|Google - Search for "0xc1900200 windows"]] -> Maybe the installation of Win7SP2 helps to avoid this error?!
+
+===== Resources =====
+  *[[http://insider.windows.com/|Windows Insider]] about Win10, for Win10 users.
+===== Windows 2016 Server =====
+  *See also [[win7.html|Windows Vista, Windows 7, Windows Server 2008 and 2012, Windows 8]].
+===== Windows 2016 Nanoserver =====
+==== The Tool ====
+  *[[http://msdn.microsoft.com/en-us/virtualization/|Microsoft Hyper-V]].
+    *[[http://msdn.microsoft.com/en-us/virtualization/windowscontainers/|Microsoft Windows Container]].
+      *[[http://msdn.microsoft.com/en-us/virtualization/windowscontainers/nano_eula|Microsoft Windows Container "Nano Server installation option of Windows Server Technical Preview 4 for Developers"]] - Download of a VHD virtual image.
+==== My Test Installation ====
+  *Username: "Administrator", Password: "node2".
+
+==== Microsoft ====
+  *[[http://technet.microsoft.com/en-us/library/mt126167.aspx|Windows Server "Getting Started with Nano Server"]].
+  *Blog [[http://blogs.technet.com/b/nanoserver/|Microsoft TechNet Blogs "Nano Server"]].
+    *[[http://blogs.technet.com/b/nanoserver/archive/2016/01/07/download-just-nano-server-in-a-vhd-windows-server-2016-technical-preview-4.aspx|Microsoft TechNet Blogs "Nano Server", "Download just Nano Server in a VHD (Windows Server 2016 Technical Preview 4)"]].
+==== Setup ====
+=== Setup for Hyper-V ===
+  *[[http://blogs.msdn.com/b/virtual_pc_guy/archive/2015/09/14/running-nano-from-windows-server-2016-tp3-on-hyper-v.aspx|Windows Server & Management Blogs - Ben Armstrong’s Virtualization Blog, Hyper-V Program Manager "Running Nano from Windows Server 2016 TP3 on Hyper-V"]].
+=== Setup for VMWare ===
+=== Setup for VirtualBox ===
+  *[[http://www.hurryupandwait.io/blog/a-packer-template-for-windows-nano-server-weighing-300mb|Matt Wrock "
+A Packer template for Windows Nano server weighing 300MB"]], 2015-09-28 - "If you are on Windows and want to create Virtualbox VMs, the instructions for creating the nano image are nearly identical. The key change is to specify -OEMDrivers instead of -GuestDrivers in the New-NanoServerImage command".
+==== Powershell ====
+  *[[http://www.howtogeek.com/117192/how-to-run-powershell-commands-on-remote-computers/|How-To-Geek "How to Run PowerShell Commands on Remote Computers"]].
+  *[[http://www.windowsnetworking.com/articles-tutorials/windows-server-2012/remote-management-powershell-part1.html|WindowsNetworking.com "Remote Management with PowerShell (Part 1)"]].
+==== Resources ====
+  *[[http://www.redmondmag.com/articles/2015/09/01/windows-server-2016-with-no-gui.aspx|Redmond MAGAZINE "First Look: Windows Nano Server"]], 2015-09-02.
+  *[[http://blogs.technet.com/b/windowsserver/archive/2015/04/08/microsoft-announces-nano-server-for-modern-apps-and-cloud.aspx|Windows Server Blog. Your Guide to the Latest Windows Server Product Information "Microsoft Announces Nano Server for Modern Apps and Cloud"]], 2015-04-08.
+  *[[http://en.wikipedia.org/wiki/Windows_Server_2016|EN.Wikipedia "Windows Server 2016"]] - "Microsoft announced a new installation option, Nano Server, a minimal footprint installation option of Windows Server. It excludes the graphical user interface, WoW64 (support for 32-bit software) and Windows Installer. It does not support console logon, neither locally nor via Remote Desktop Connection. All management is performed remotely via Windows Management Instrumentation (WMI) and PowerShell. Microsoft engineer Jeffrey Snover claims that Nano Server had 93 percent lower VHD size, 92 percent fewer critical security advisories, and 80 percent fewer reboots than Windows Server".
+===== Appropriate OpenDirectory Directory Pages =====
+  *[[http://www.dmoz.org/Computers/Software/Operating_Systems/Microsoft_Windows/|OpenDirectory "Top: Computers: Software: Operating Systems: Microsoft Windows"]].
+{{tag>Windows "Windows 10" "Windows 2016 Server" 2016 Win10 Nanoserver}}
+<footnote_navi_en>

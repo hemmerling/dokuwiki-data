@@ -43,6 +43,9 @@ Related pages:
   *[[http://www.twitter.com/atomeditor|Twitter "Atom Editor, @AtomEditor"]].
 == Resources ==
   *The editor offers the "Code Completion" feature with choice suggestions :-).
+  *Windows desktop icon:
+    *Target "C:\Users\Administrator\AppData\Local\atom\Update.exe --processStart atom.exe".
+    *Start in "C:\Users\Administrator\AppData\Local\atom\app-1.0.7".
   *[[http://www.codeforgeek.com/2014/09/5-must-have-packages-atom-editor/|Code for geek "5 Must Have Packages for Atom Editor"]].
   *[[http://www.gentlenode.com/journal/atom-2-our-favorite-packages-and-themes/11|Gentlenode, A Meteor & Growth Hacking Studio "Atom #2: Our Favorite Packages and Themes"]].
   *[[http://www.gnuu.org/2014/03/10/my-week-with-githubs-atom-editor/|Gnuu. my word against yours... fight "My Week With GitHub’s Atom Editor"]].
@@ -199,6 +202,9 @@ console.log("Hi there");
       -'When node leaks memory you don't know why unless you can do this: [[http://blog.nodejs.org/2012/04/25/profiling-node-js/|NodeJS Blog "Profiling Node.js"]]'.
       -'Even after intensive profiling, you don't really know what exactly is wrong. You could only gather ideas. your debugging still largely remains as guess work'.
   *[[http://en.wikipedia.org/wiki/Koding|EN.Wikipedia "Koding"]].
+==== Free Online Compiler for Javascript ====
+  *[[http://www.babeljs.io/|Babel.JS]] - "Babel is a JavaScript compiler. Use next generation JavaScript, today".
+    *[[http://www.babeljs.io/docs/learn-es2015/|Babel.JS "Learn ES2015. A detailed overview of ECMAScript 2015 features"]].
 ===== Javascript Sandboxes =====
   *[[http://alternativeto.net/software/js-bin/|alternativeTo "JS BIN"]] - "JS Bin Alternatives and Similar Software".
   *[[http://www.codepen.io/|CodePen - Pens picked by the Editors of CodePen]].
@@ -212,8 +218,11 @@ console.log("Hi there");
   *[[http://www.jsbin.com/|JS Bin - Collaborative JavaScript Debugging]].
   *[[http://www.jsdo.it/|jsdo.it - Share JavaScript, HTML5 and CSS]].
   *[[http://www.liveweave.com/|Liveweave - HTML, CSS3, Javascript]].
+  *[[http://www.rnplay.org/|React Native Playground]] - "Share and test your React Native code in the browser".
   *[[http://www.tinker.io/|Tinker - Social Code Collaboration]].
   *[[http://www.tinkerbin.com/|Tinkerbin]] - "Lets you play around with HTML, JavaScript and CSS without creating files or uploading to servers".
+  *[[http://www.webpackbin.com/|WebpackBin]] - With support for loading NPM packages.
+    *[[http://www.youtube.com/watch?v=yf3Jhjw5Btc|YouTube "webpackbin - beta2"]].
 ===== Resources =====
   *A Javascript IDE is a tool, which supports editing of Javascript code ( by syntax highlighting, code completion,.. ) and which may execute Javascript by a built-in or external Javascript engine ( without leaving the tool, optional built-in Javascript debugger, console window ). IDEs for some targets like "Windows Desktop" and smartphones ( "Android", "iOS", "Windows Phone" ) support the generation of complete applications ready for installation or upload to the appstores.
   *A Javascript editor is a tool, which supports editing of Javascript code by syntax highlighting, code completion,.. ) only. You must have a shell ( e.g. COMMAND.COM, Bash ) or your browser open to execute the javascript code.

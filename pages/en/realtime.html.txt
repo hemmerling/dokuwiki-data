@@ -123,6 +123,9 @@ Related pages:
     *[[http://developer.mbed.org/|ARM "ARM mbed Developer Site"]].
       *The OpenSource operating system [[http://www.mbed.com/technology/os/|ARM "Technology / mbed OS"]].
   *[[http://en.wikipedia.org/wiki/Mbed|EN.Wikipedia "mbed"]].
+=== CMSIS-RTOS - An RTOS API defined by ARM Cortex Microcontroller Software Interface Standard ( CMSIS ) ===
+  *[[http://www.arm.com/products/processors/cortex-m/cortex-microcontroller-software-interface-standard.php|ARM "CMSIS - Cortex Microcontroller Software Interface Standard"]] - "The CMSIS consists of the following components: ... CMSIS-RTOS API: Common API for Real-Time operating systems. It provides a standardized programming interface that is portable to many RTOS and enables therefore software templates, middleware, libraries, and other components that can work across supported the RTOS systems".
+  *[[http://developer.mbed.org/handbook/CMSIS-RTOS|ARM "ARM mbed Developer Site / CMSIS-RTOS"]] - "The CMSIS-RTOS is a common API for Real-Time operating systems. It provides a standardized programming interface that is portable to many RTOS and enables therefore software templates, middleware, libraries, and other components that can work across supported the RTOS systems".
 === Resources ===
   *[[http://www.infoworld.com/article/2690775/internet-of-things/arm-builds-an-os-for-the-internet-of-things.html|InfoWorld "ARM builds an OS for the Internet of things. ARM's Mbed OS will be free for use on ARM chips when it's released next year"]], 2014.
   *[[http://www.infoworld.com/article/2691100/open-source-software/arms-mbed-falls-short-of-true-open-source.html|InfoWorld "ARM's Mbed falls short of true open source"]], 2014.
@@ -219,6 +222,10 @@ Related pages:
   *[[http://www.menuetos.net/|MenuetOS]].
     *"A pre-emptive, real-time and multiprocessor Operating System in development for the PC written entirely in 32/64 bit assembly language. Menuet64 is released under License and Menuet32 under GPL".
     *"Fits on a single floppy, boots also from CD and USB drives". 
+  *"HUAWEI LiteOS".
+    *[[http://pr.huawei.com/en/news/hw-432402-agilenetwork3.0.htm|HUAWEI "Huawei’s Agile Network 3.0 Architecture Launched at Huawei Network Congress 2015"]], 2015-05-20 - "As part of HNC, Huawei will also launch its Agile IoT Solution, which consists of three core components: Agile IoT gateway, Agile Controller and LiteOS, a lightweight IoT operating system (OS). 'Huawei believes that standardizing ICT infrastructure will foster the development of Internet applications, including IoT applications. To address this, Huawei is launching our IoT OS, LiteOS'".
+    *[[http://www.theverge.com/2015/5/20/8628905/huawei-internet-of-things-operating-system-lite-os|The Verge "Huawei launches 10KB LiteOS to power the internet of things"]].
+    *According to staff members in 2016-03, "HUAWEI LiteOS" focusses on beeing a hardware-independant layer ( API ) for applications and on power managment of the MCU and other components ( for energy saving). It was not confirmed that it contains a task scheduler.
 ===== Resources =====
   *[[http://www.epanorama.net/links/embedded.html|ePanorama.net "Embedded systems links"]].
   *[[http://www.elmicro.com/|Elektronikladen]].

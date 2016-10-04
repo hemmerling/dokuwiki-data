@@ -10,6 +10,54 @@ Related pages:
   *[[webtech04.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 4/5 - Javascript Technologies]].
   *[[webtech05.html|Web Technologies ( HTML5, HTML, XML & Javascript ) 5/5 - Javascript Frameworks]].
 ===== CSS =====
+==== The Language ====
+=== CSS3 ===
+  *[[http://webdesign.about.com/od/css3tutorials/|about tech "CSS3 Tutorials"]].
+  *[[http://www.caniuse.com/|Can I use... Support tables for HTML5, CSS3, SVG, JS API]].
+  *[[http://www.devdocs.io/|DevDocs]].
+    *[[http://www.devdocs.io/css/|DevDocs "CSS"]].
+    *[[http://www.devdocs.io/html/|DevDocs "HTML"]].
+  *[[http://www.gridbyexample.com/|Grid by Example. A collection of usage examples for the CSS Grid Layout specification]].
+  *[[http://www.hood.ie/|Hoodie – A generic backend with a client API for Offline First applications]] - Example of CSS3 use.
+  *[[http://www.w3.org/TR/html5/|W3C "HTML5. A vocabulary and associated APIs for HTML and XHTML"]].
+    *[[http://www.w3.org/standards/techs/css#w3c_all|W3C "CSS Current Status"]].
+  *[[http://www.learnlayout.com/|Learn CSS Layout]].
+  *[[http://developer.mozilla.org/en-US/docs/Web/CSS|Mozilla Developer Network "CSS"]].
+    *[[http://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries|Mozilla Developer Network "Using media queries"]].
+  *[[http://www.modernizr.com/|Modernizr: the feature detection library for HTML5/CSS3]] - "Respond to your user’s browser features. Modernizr tells you what HTML, CSS and JavaScript features the user’s browser has to offer".
+  *OpenTechSchools
+    *[[http://www.meetup.com/opentechschool-hamburg/events/229290647/|Meetup.com "OpenTechSchool Hamburg", "CSSclasses Hamburg"]], 2016-05-28.
+    *[[http://cssclasses.cssconf.eu/materials/|OpenTechSchool "CSSclasses - Learning Materials"]].
+=== CSS3 Flexbox ===
+  *[[http://www.scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties|Scotch "A Visual Guide to CSS3 Flexbox Properties"]].
+  *[[http://www.css-tricks.com/|CSS-Tricks]].
+    *[[http://www.css-tricks.com/snippets/css/a-guide-to-flexbox/|CSS-Tricks "A Complete Guide to Flexbox"]].
+  *[[http://www.flexboxdefense.com/|Flexbox Defense]] - "Your job is to stop the incoming enemies from getting past your defenses. Unlike other tower defense games, you must position your towers using CSS!".
+  *[[http://www.flexboxfroggy.com/|Flexbox Froggy - A game for learning CSS flexbox]].
+  *[[http://www.flexbox.io/|What The FlexBox?! - A free 20 video course to learn CSS Flexbox]].
+=== CSS Transitions ===
+  *[[http://leaverou.github.io/animatable/|GitHub, Lea Verou "Animatable. One property, two values, endless possibilities"]] - A gallery of transitions.
+  *[[http://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions|Mozilla Developer Network "Using CSS transitions"]].
+=== CSS Transform ===
+  *[[http://www.westciv.com/tools|western civilisation pty. ltd. "tools & resources for web professionals" - "Cool Tools and Toys for Web Developers"]].
+    *[[http://www.westciv.com/tools/transforms/|western civilisation pty. ltd. "tools & resources for web professionals" - "CSS Transforms"]] - Transform live playground. A nice way to try out the most common transform functions.
+  *[[http://developer.mozilla.org/en-US/docs/Web/CSS/transform|Mozilla Developer Network "transform"]].
+=== CSS Animation ===
+  *[[http://www.alexberg.in/keyframer/|Alex Berg "Keyframer"]] - A tool to produce animation keyframes.
+  *Video [[http://www.vimeo.com/125335964|Vimeo "Putting Your UI in Motion with CSS by Val Head—An Event Apart Video"]].
+=== CSS Pseudo Classes ===
+  *[[http://www.css-tricks.com/pseudo-class-selectors/|CSS-Tricks "Meet the Pseudo Class Selectors"]].
+=== CSS Typography ===
+  *[[http://www.alistapart.com/article/howtosizetextincss/|A List Apart "How to Size Text in CSS"]].
+  *[[http://www.snook.ca/archives/html_and_css/font-size-with-rem|Snook.ca. TIPS, TRICKS & BOOKMARKS on WEB DEVELOPMENT "Font sizing with rem"]].
+  *[[http://www.smashingmagazine.com/2014/09/balancing-line-length-font-size-responsive-web-design/|Smashing Magazine, Laura Franz "Size Matters: Balancing Line Length And Font Size In Responsive Web Design"]].
+=== CSS Responsive Web Design ===
+  *[[http://www.alistapart.com/article/responsive-web-design|A List Apart "Responsive Web Design"]].
+=== CSS Architecture ===
+  *[[http://www.cssguidelin.es/|CSS { guide: lines; }]] - "High-level advice and guidelines for writing sane, manageable, scalable CSS".
+  *[[http://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048|EnvatoTuts+ "The 30 CSS Selectors You Must Memorize"]].
+  *[[http://www.stackoverflow.com/questions/5797014/why-do-browsers-match-css-selectors-from-right-to-left|StackOverflow "Why do browsers match CSS selectors from right to left?"]].
+
 ==== Frameworks, Tools ====
 === LESS ===
 == The Stylesheet Language ==
@@ -36,6 +84,7 @@ Related pages:
   *Book [[http://www.buecherbillig.de/html-design-patterns-cssrezepte-p-49484.html|buecherbillig.de "CSS und HTML Design Patterns. 350 CSS-Rezepte"]].
   *Book [[http://www.buecherbillig.de/praxisbuch-kompendium-p-49468.html|buecherbillig.de "CSS - Praxisbuch Kompendium"]].
 ==== Resources ====
+  *[[http://www.codepen.io/|CodePen]] - "CodePen is a playground for the front end web".
   *[[http://www.css-tricks.com/|CSS-Tricks]].
     *[[http://css-tricks.com/sass-vs-less/|CSS-Tricks "Sass vs. LESS"]].
   *[[http://overapi.com/css/|OverAPI.com "CSS Cheat Sheet"]] #.
@@ -127,6 +176,8 @@ Related pages:
 ===== (x)HTML / CSS Frameworks =====
   *[[http://www.960.gs/|960 Grid System]] - "The 960 Grid System is an effort to streamline web development workflow by providing commonly used dimensions, based on a width of 960 pixels. There are two variants: 12 and 16 columns, which can be used separately or in tandem".
   *[[http://www.yaml.de/|YAML - Yet Another Multicolumn Layout]].
+===== Resources ====
+  *[[http://www.caniuse.com/|Can I use... Support tables for HTML5, CSS3, SVG, JS API]].
 ===== Appropriate OpenDirectory Directory Pages =====
   *[[http://www.dmoz.org/Computers/Programming/Languages/JavaScript/|OpenDirectory "Top: Computers: Programming: Languages: JavaScript]].
   *[[http://www.dmoz.org/Computers/Programming/Languages/HTML/|OpenDirectory "Top: Computers: Programming: Languages: HTML]].

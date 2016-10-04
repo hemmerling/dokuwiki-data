@@ -1,6 +1,11 @@
-====== [hvdemmerling] Safety 2/2 - Design of safe Automation Systems & safe Embedded Systems ======
+====== [hemmerling] Safety 2/2 - Design of safe Automation Systems & safe Embedded Systems ======
 Related page:
   *[[safety01.html|Safety 1/2]].
+===== Basic Design Rules =====
+  *Always ask and answer the 2 questions, properly:
+    -What are the real risks?
+    -How may I pass the electromechanical system into a safe state? 
+  *If you don´t succeeed with that, forget about classical "safety design" by "Safety Integrity Levels" ( SIL ) for the protective gears of "( Process ) Control Systems" ... as there will be no safety.
 ===== EC Directives =====
   *EC EMC Directive.
   *EC ATEX Directive.
@@ -48,6 +53,16 @@ Related page:
     -The software developers of the application.
     -Maybe japanese Designers of the MCU manufacturer..
   *The design and development process both of hardware ( MCU, board,.. ) and software ( compiler, application code ) must be  of superior quality and must be verifiable, according to IE 61508 ( [[http://en.wikipedia.org/wiki/IEC_61508|EN.Wikipedia "IEC 61508"]], [[http://de.wikipedia.org/wiki/IEC_61508|DE.Wikipedia "IEC 61508"]] ).
+  *Safety concept. 
+    *Using Class-B Safety Software ( "Class B" libraries ) for Home Appliance
+      *Free [[http://www.hitex.com/classb|Hitex GmbH "Selftest Libraries (Safety Libs)– IEC 60335 Class B"]].
+        *Videos [[http://www2.hitex.com/webinarvideo-safety|Hitex GmbH "Functional Safety Webinars"]].
+      *Free by microcontroller manufacturers, but usually just if you have an NDA :-(.
+        *[[http://www.microchip.com/design-centers/home-appliance/class-b-safety-software|Microchip "Home Appliance. Class-B Safety Software"]].
+        *STM.
+          *[[http://www.st.com/content/st_com/en/products/embedded-software/mcus-embedded-software/stm32-embedded-software/stm32-standard-peripheral-libraries-expansions/stm32-classb-spl.html|STMicroelectronics "STM32-CLASSB-SPL. Functional safety package based on Standard Peripheral libraries to achieve IEC 60730 Class B certification with the STM32"]].
+          *[[http://www.prnewswire.com/news-releases/stmicroelectronics-introduces-free-self-test-software-for-stm32-mcu-to-simplify-end-product-safety-compliance-59892057.html|PR Newswire "STMicroelectronics Introduces Free Self-Test Software for STM32 MCU to Simplify End-Product Safety Compliance"]], 2007-11-08 - "Use of latest 32-bit microcontroller in household appliances is supported by the first self-test routines for a 32-bit platform".
+      *[[http://www.emcu.it/STM32ClassB/STM32ClassB.html|EMCU.IT "STM32 Class B - IEC60335. Self Test Library"]].
 ===== Safety Norms =====
 ==== IEC 61508 / IEC 26262 ====
 === Calculation Methods & Results ===
@@ -83,6 +98,8 @@ Related page:
   *Webshop of [[http://www.vda-qmc.de/|VDA QMC Qualitäts Mangement Center im Verband der Automobilindustrie]].
     *[[http://webshop.vda.de/QMC/product_info.php?cPath=23_25&products_id=185|VDA "Band 4 Ringbuch 2. Auflage, ergänzt 2011"]].
     *[[http://webshop.vda.de/QMC/product_info.php?cPath=23_25&products_id=189|VDA "Band 4 Kapitel: Produkt- und Prozess-FMEA"]] -> It is industry-standard to do software-supported FMEA analyis according to this document!
+  *[[http://marketing.rockwellautomation.com/foodbev/de/machine-safety-book|Rockwell Automation "Safebook. Umfassende Informationen und Empfehlungen zu Rechtsvorschriften im Bereich der Sicherheit stehen in Form von zwei nützlichen Publikationen von Rockwell Automation zum Download bereit"]].
+    *The free PDF and free paper book [[http://www.marketing.rockwellautomation.com/safety/de/process_safebook1_form|Rockwell Automation "Process Safebook 1 - Funktionale Sicherheit in der Prozessindustrie. Grundsätze, Normen und Realisierung"]] - "Ein ... Handbuch, das eine Einführung in die funktionale Sicherheit für Prozessanwendungen und eine Anleitung zur Anwendung der IEC61511 bietet. Dies ist die prozessindustriespezifische Implementierung der Norm IEC61508".
 === Resources ===
   *[[http://www.61508.org/|The 61508 Association]].
   *[[http://www.mathworks.de/automotive/standards/iec-61508.html|MathWorks Deutschland "Automotive Industry Standards" - "IEC 61508 Support in MATLAB and Simulink"]].
@@ -101,11 +118,10 @@ Related page:
   *[[http://devel-rok.informatik.hu-berlin.de/svn/srsem2007/web/spitzner.pdf|Ralf Spitzner: "Verlässlichkeitsbewertung komplexer Systeme"]] ( PDF ).
   *[[http://www.mikrocontroller.net/topic/131296|mikrocontroller.net, Thread "woher bekomme ich die sn29500 Norm?"]], 2009-12-08.
 === Reliability of Electronic Devices ( FIT Values ) and Facilities ===
+== Reliability of Electronic Devices ( FIT Values ) ==
   -[[http://www.everyspec.com/MIL-HDBK/MIL-HDBK+(0200+-+0299)/MIL-HDBK-217F_14591/|EverySpec - Free specifications, standards, handbooks, documents, and publications "MIL-HDBK-217 F"]].
   -Book [[http://www.amazon.de/exec/obidos/ASIN/3642149510/hemmerling-21|Alessandro Birolini: "Reliability Engineering: Theory and Practice"]].
     *Google Books [[http://books.google.com/books/about/Reliability_engineering.html?id=xPIW3AI9tdAC|Alessandro Birolini: "Reliability Engineering: Theory and Practice"]].
-  -Book & PDF document [[http://doris.bfs.de/jspui/handle/urn:nbn:de:0221-201011243838|DORIS - Digitales Online Repositorium und Informations-System "Bundesamt für Strahlenschutz (BfS), Facharbeitskreis Probabilistische Sicherheitsanalyse für Kernkraftwerke: Daten zur probabilistischen Sicherheitsanalyse für Kernkraftwerke"]].
-  -Book & PDF document [[http://doris.bfs.de/jspui/handle/urn:nbn:de:0221-201011243824|DORIS - Digitales Online Repositorium und Informations-System "Bundesamt für Strahlenschutz (BfS), Facharbeitskreis Probabilistische Sicherheitsanalyse für Kernkraftwerke: Methoden zur probabilistischen Sicherheitsanalyse für Kernkraftwerke"]].
   -Norm "Siemens SN29500". 
     *Publisher & order address, as of 2012-01-01:<code>Siemens AG
 Corporate Technology
@@ -137,7 +153,38 @@ E-Mail: anton.oliv ( AT ) siemens.com</code>
 ^ SN 29500-15 | Ausfallraten Bauelemente; Teil 15: Erwartungswerte für elektromechanische Schutzgeräte in Niederspannungsnetzen | 07.2009 | 54.50 | 
 ^ SN 29500-16 | Ausfallraten Bauelemente; Teil 16; Erwartungswerte für elektromechanische Befehls- und Meldegeräte und Positionsschalter in Niederspannungsnetzen | 08.2010 | 49.70 | 
 ^ | | | | 
-
+== Reliability of  Atomic Power Industry Facilities ==
+  -Book & PDF document [[http://doris.bfs.de/jspui/handle/urn:nbn:de:0221-201011243838|DORIS - Digitales Online Repositorium und Informations-System "Bundesamt für Strahlenschutz (BfS), Facharbeitskreis Probabilistische Sicherheitsanalyse für Kernkraftwerke: Daten zur probabilistischen Sicherheitsanalyse für Kernkraftwerke"]].
+  -Book & PDF document [[http://doris.bfs.de/jspui/handle/urn:nbn:de:0221-201011243824|DORIS - Digitales Online Repositorium und Informations-System "Bundesamt für Strahlenschutz (BfS), Facharbeitskreis Probabilistische Sicherheitsanalyse für Kernkraftwerke: Methoden zur probabilistischen Sicherheitsanalyse für Kernkraftwerke"]].
+== Reliability of Electronic Devices ( FIT Values ) and Facilities  for the Process Industry ==
+  -NAMUR NE130, based on VDI/VDE 2180 and NE79.
+    *[[http://www.namur.net/en/recommendations-and-worksheets/current-nena.html|NAMUR "Current NAMUR Recommendations (NE) and Worksheets (NA)"]].
+    *[[http://www.namur.net/publikationen/news-archiv/detail/article/die-namur-empfehlung-130-ist-neu-erschienen.html|NAMUR "Die NE 130 ist neu erschienen"]], 2009.
+  -VDI/VDE 2180.
+    *[[http://www.vdi.de/technik/fachthemen/mess-und-automatisierungstechnik/fachbereiche/engineering-und-betrieb-automatisierter-anlagen/gma-fa-613-engineering-von-sicherheitsgerichteten-systemen/vdivde-2180-sicherung-von-anlagen-der-verfahrenstechnik-mit-mitteln-der-prozessleittechnik-plt/|VDI "Richtlinie VDI/VDE 2180 Blatt „Sicherung von Anlagen der Verfahrenstechnik mit Mitteln der Prozessleittechnik (PLT)"]].
+  -SINTEF.
+    *[[http://www.sintef.no/PDS|SINTEF "PDS Method and Handbooks"]] - 2 different books.
+    *[[http://www.sintefbok.no/Product.aspx?sectionId=127&productId=566&categoryId=28|SINTEF Bokhandel "PDS Handbooks. Reliability of computerbased safety systems (PDS)"]].
+  -exida.
+    *[[http://www.exida.com/Book|exida "Books"]].
+      *[[http://www.exida.com/Books/Safety-Equipment-Reliability-Handbook-4th-Edition|exida "Safety Equipment Reliability Handbook"]] - "The SERH provides a collection of failure rate data that is applicable for use in Safety Instrumented System (SIS) conceptual design verification in the process industry", "The book set is a hard copy of exida’s SERH database that contains a vast amount of equipment item reliability data".
+        -Volume 01: Sensors ( includes Fire and Gas, Flame Monitoring, Flow, Level, Pressure, Proximity, and Temperature measurements ).
+        -Volume 02: Logic Solvers and Interface Modules ( includes Barriers, Surge protection devices, Relays, logic solvers, Fire and Gas Systems, and solenoid drivers ).
+        -Volume 03: Final Elements ( includes Final Element interfaces such as solenoids and digital valve positioners, Pneumatic interfaces such as Quick Exhaust valves, Actuators, Valves such as ball, butterfly, gate, etc. valves, and Gas Pressure Regulating Valves ).
+==== IEC 61511 ====
+=== The Norm ===
+  *[[http://en.wikipedia.org/wiki/IEC_61511|EN.Wikipedia "IEC 61511"]].
+=== Resources ===
+  *Experts told me: "IEC 61511" supports  Fixed Program Languages ( FPL ) or Limited Variability Languages ( LVL ), but not  Full Variability Languages ( FVL ) and doesn´t deal with SIL4 application software!
+  *[[http://www.cs.york.ac.uk/hise/safety-critical-archive/2003/0231.html|High Integrity Systems Engineering, Safety Critical Mailing List "IEC61511 language definitions"]], 2003 - "Here are the relevant full definitions from IEC 61511-1:
+    *3.2.81.1.1 fixed program language (FPL).
+    *3.2.81.1.2 limited variability language (LVL).
+    *3.2.81.1.3 full variability language (FVL).
+  *[[http://www.exida.com/|exida]].
+    *[[http://www.exida.com/Resources/Term/full_variability_language_fvl|exida "Full variability language (FVL)"]] - "FVL examples include: Ada, C, Pascal, **Instruction List**, assembler languages, C++, Java, and SQL".
+      *[[http://en.wikipedia.org/wiki/Instruction_list|EN.Wikipedia "Instruction list"]], [[http://de.wikipedia.org/wiki/Anweisungsliste|DE.Wikipedia "Anweisungsliste"]].
+    *[[http://www.exida.com/Resources/Term/limited_variability_language_lvl|exida "Limited variability language (LVL)"]] - "Typical examples of LVL are ladder diagram, function block diagram and sequential function chart".
+    *[[http://www.exida.com/Resources/Term/fixed_program_language_fpl|exida "Fixed program language (FPL)"]] - "This type of language limits the user to adjusting a few parameters (for example, range of the pressure transmitter, alarm levels, network addresses). Typical examples of devices with FPL are: smart sensors (for example, pressure transmitter), smart valves, sequence of events controllers, dedicated smart alarm boxes, and small data logging systems".
 ==== Maschinenrichtlinie 2006/42/EG, DIN EN ISO 13849, ( DIN EN 954-1 ) ====
 === Calculation Methods & Results ===
   *Performance Level ( PL ).
@@ -171,6 +218,11 @@ E-Mail: anton.oliv ( AT ) siemens.com</code>
   *62061.
     *Norm [[http://www.beuth.de/langanzeige/DIN-EN-62061-VDE-0113-50-2005-10/de/83367784.html|Beuth Verlag "DIN EN 62061; VDE 0113-50:2005-10:2005-10 - Sicherheit von Maschinen - Funktionale Sicherheit sicherheitsbezogener elektrischer, elektronischer und programmierbarer elektronischer Steuerungssysteme (IEC 62061:2005); Deutsche Fassung EN 62061:2005"]].
   *[[http://en.wikipedia.org/wiki/Kill_switch|EN.Wikipedia "Kill switch"]], [[http://de.wikipedia.org/wiki/Notausschalter|DE.Wikipedia "Notausschalter"]].
+=== Literature ===
+  *[[http://marketing.rockwellautomation.com/foodbev/de/machine-safety-book|Rockwell Automation "Safebook. Umfassende Informationen und Empfehlungen zu Rechtsvorschriften im Bereich der Sicherheit stehen in Form von zwei nützlichen Publikationen von Rockwell Automation zum Download bereit"]].
+    *The free PDF and free paper book [[http://marketing.rockwellautomation.com/safety/de/safebook4_Form|Rockwell Automation "Process Safebook 4 - Sicherheitsbezogene Steuersysteme für Maschinen. Grundsätze, Normen und Realisierung"]] - "Dieser aktualisierte Leitfaden, der durch zusätzliche Informationen über EN ISO 13849·1 sowie Anwendungsbeispiele mit Performance Level-Berechnungen erweitert wurde, erläutert die Grundlagen der Maschinensicherheit, relevante Standards und Methoden zur Implementierung von Sicherheitslösungen".
+  *[[http://www.smc.eu/portal_ssl/webpages/00_local/de/solutions/machine_safety/maschinensicherheit.jsp|SMC "Lösungen / Maschinensicherheit / Sicherheit im Fokus"]].
+    *The free PDF document "Sicherheit im Fokus - Maschinenrichtlinie und ISO 13849 in der Praxis".
 === Resources ===
   *[[http://www.dguv.de/ifa/Publikationen/Reports-Download/BGIA-Reports-2007-bis-2008/BGIA-Report-2-2008/|IFA Institut für Arbeitsschutz der Deutschen Gesetzlichen Unfallversicherung "Funktionale Sicherheit von Maschinensteuerungen - Anwendung der DIN EN ISO 13849 (BGIA-Report 2/2008)"]] - free PDF report + PDF errata #.
   *[[http://safety.wieland-electric.de/public/|Wieland Electric GmbH "Wieland safety Spezial: Infos und Lösungen zu EU-Maschinenrichtlinie"]].
@@ -198,10 +250,17 @@ E-Mail: anton.oliv ( AT ) siemens.com</code>
 ==== Resources ====
   *[[http://www.siemens.com/safety-integrated/|SIEMENS Safety Integrated]].
   *[[http://www.automation.siemens.com/mcms/safety-integrated/de/Seiten/funktionale-sicherheit.aspx|SIEMENS Safety Integrated - Funktionale Sicherheit]].
+==== Popular Hardware ====
+  *[[http://www.pilz.com/de-DE/eshop/A0200B0230/Sicherheitsrelais-Sicherheitsschaltgeraete|Pilz GmbH & Co. KG "Sicherheitsrelais / Sicherheitsschaltgeräte PNOZ"]].
+  *[[http://www.pilz.com/de-DE/eshop/A0300B0320/Konfigurierbare-Kompaktsteuerungen|Pilz GmbH & Co. KG "Konfigurierbare Kompaktsteuerung PNOZmulti Mini"]].
 ==== Software Tools ====
   *The commercial "Safety Matrix" for Windows.
     *[[http://www.automation.siemens.com/mcms/simatic-controller-software/de/optionen-programmierung/s7-f-fh-systems/safety-matrix/|SIEMENS "Automatisierungstechnik / Automatisierungssysteme / Industrie-Automatisierungssysteme SIMATIC / Software für SIMATIC Controller / Optionen für Programmierung und Design / S7 F/FH Systems  S7-F SystemeSafety Matrix / Safety Matrix"]] - "Safety Lifecycle Tool".
     *[[http://www.automation.siemens.com/microsite/safety/process_safety/html-de/index.htm|SIEMENS "SIMATIC Safety Matrix"]] ( MSIE only ).
+  *The free [[http://www.marketing.rockwellautomation.com/safety-solutions/en/MachineSafety/ToolsAndDownloads/Safety_Automation_Builder|Rockwell Automation "Safety Automation Builder"]].
+  *The free "Safety Accelerator Toolkit for GuardLogix and SmartGuard 600 Systems".
+    *[[http://www.rockwellautomation.com/global/products-technologies/integrated-architecture/tools/develop.page?#tab2|Rockwell Automation "Integrated Architecture Tools & Resources" - "Systems - Accelerator Toolkits"]] -> "Safety Accelerator Toolkit for GuardLogix and SmartGuard 600 Systems".
+    *The toolkits also contains a spreasheet "Safety Estimator" to determine the PLC cycle time.
 ==== Resources ====
   *[[http://www.asresearch.com/|Associated Research, Inc.]].
     *[[http://www.clonica.net/usuario/img_usuario/wavecontrol-emc.com/Noticias_Doc_1/120.Associated_Research_catalog2012_wavecontrol.pdf|Associated Research, Inc. "Instruments for Electrical Safety Compliance Testing"]] - "Common Safety Standard Reference Chart" #.
@@ -211,6 +270,10 @@ E-Mail: anton.oliv ( AT ) siemens.com</code>
   *[[http://www.sick.com/|SICK AG]].
     *[[http://www.sick.com/group/DE/home/service/safemachinery/safety_know_how/Seiten/safety_know_how.aspx|SICK AG "In 6 Schritten zur sicheren Maschine!"]].
 ===== Resources =====
+  *Experts suggested to configure the input points of safe Rockwell PLCs as "Songle Safety Input" ( and not "Equivalent" and not "Complimentary" ).
+    *The testing if the input points are antivalent or equivalent should be done by PLC software, instead of the hardware.
+    *The discrepancy timeout should be done by PLC software, instead of the hardware.
+  *Experts told me, if you modify an old machine in Germany, there is no need for CE conformity :-), but the machine must conform to the German  Operational Safety Ordinance ( "Betriebssicherheitsverordnung" ):-(.
   *[[http://www.vde.com/de/Technik/fs/|VDE "Funktionale Sicherheit"]].
     *[[http://www.vde.com/de/Technik/fs/Seiten/2AusgabeIEC61511.aspx|VDE "Überarbeitung der IEC 61511/DIN EN 61511 (VDE 0810)"]], 2013-04-19.
 ===== Forums, Newsgroups =====

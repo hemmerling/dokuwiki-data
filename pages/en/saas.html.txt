@@ -37,6 +37,8 @@ Related pages:
   *[[http://de.slideshare.net/AWSAktuell/aws-summit-berlin-2013-keynote-werner-vogels|SlideShare "AWS Summit Berlin 2013 - Keynote Werner Vogels"]].
   *[[http://de.slideshare.net/AWSAktuell/aws-summit-berlin-2013-keynote-steve-schmidt|SlideShare "AWS Summit Berlin 2013 - Keynote Steve Schmidt"]].
   *[[http://de.slideshare.net/AWSAktuell/presentations|SlideShare Author "Steffen Krause"]].
+=== Software ===
+  *[[http://docs.aws.amazon.com/AmazonS3/latest/dev/UsingObjects.html|AWS Documentation "Amazon Simple Storage Service (S3) / Developer Guide / Working with Amazon S3 Objects"]].
 === Resources ===
   *Blog [[http://aws.typepad.com/|Amazon Web Services Blog. Amazon Web Services, Products, Tools, and Developer Information...]].
     *[[http://aws.typepad.com/aws/2013/04/aws-summit-2013-update.html|Amazon Web Services Blog. Amazon Web Services, Products, Tools, and Developer Information... "AWS Summit 2013 Update"]].
@@ -45,6 +47,7 @@ Related pages:
   *[[http://www.youtube.com/user/AmazonWebServices|YouTube Channel "Amazon Web Services"]].
   *[[http://www.slideshare.net/AmazonWebServices|SlideShare "Amazon Web Services"]].
   *Amazon webservices Partner Network - Authorized Training Partner [[http://www.tecracer.de/?CLOUD%20COMPUTING|tecRacer GmbH & Co. KG]], Hannover.
+  *[[http://en.wikipedia.org/wiki/Amazon_S3|EN.Wikipedia "Amazon S3"]], [[https://de.wikipedia.org/wiki/Amazon_Web_Services#Amazon_Simple_Storage_Service_.28S3.29|DE.Wikipedia "Amazon Web Services"]].
 ==== Some other Webservices with public API ====
   *[[http://docs.amazonwebservices.com/AWSECommerceService/latest/DG/Welcome.html|Amazon Product Advertising API]].
 ==== Cloud Services ====
@@ -61,7 +64,8 @@ Related pages:
   -Pironet NDH AG (Pironet).
   -Salesforce.com Inc. (Salesforce).
   -T-Systems International GmbH (T-Systems).
-=== Cloud Connectivity Platforms which might become important for IoT, according to VDC Research in 2014, 2015 ===
+=== Cloud Connectivity Platforms which might become important for IoT, according to VDC Research in 2014, 2015, 2016 ===
+  -AWS IoT -> New in 2016.
   -[[http://www.arrayent.com/|Arrayent]].
   -[[http://www.axeda.com/|Axeda]].
   -[[http://www.cloudera.com|Cloudera]] - "The Platform for Big Data and the Leading Solution for Apache Hadoop in the Enterprise".
@@ -92,16 +96,61 @@ Related pages:
       *[[http://www.eurotech.com/en/products/software+services/everyware+software+framework|EUROTECH S.p.A. "Everyware Software Framework (ESF)"]].
       *[[http://esf.eurotech.com/|EUROTECH S.p.A. "Everyware Software Framework Registration"]] - "Welcome to the ESF registration page! Please fill in the information below for a free registration that will give you access to the ESF software".
       *[[http://esf.eurotech.com/doc/ESFDevGuide/|EUROTECH S.p.A. "Everyware Software Framework Developer’s Guide"]].
+  -Google Cloud Platform IoT -> New in 2016.
+  -IBM.
+    *IBM Bluemix -> New in 2016.
+    *IBM Watson IoT -> New in 2016.
   -Microsoft Azure.
   -OpenStack.	
+  -Oracle IoT Cloud -> New in 2016.
+  -SAP HANA -> New in 2016.
   -[[http://www.sierrawireless.com/productsandservices/airvantage_m2m_cloud|Sierra Wireless AirVantage]] - "The AirVantage Enterprise Platform offers advanced REST APIs along with powerful device and data management dashboards".
     *[[http://developer.sierrawireless.com/|Sierra Wireless Developer Zone]].
   -[[http://www.thingworx.com/|ThingWorx]] - "Internet of Things and M2M Application Platform".
+    *[[http://www.thingworx.com/developer|ThingWorx "Developer"]].
+    *[[http://www.bit.ly/ptcliveworxeurope|PTC LiveWorx Europe 2015 Presentations]], [[http://docs.google.com/document/d/12FO2nObSolHxr-Mw2fCHKTw5SQ83hzI9ZygEXQmA_H4/|Google Docs "PTC LiveWorx Europe 2015 Presentations"]].
+      *[[http://support.ptc.com/view?im_dbkey=168861|Breakout session Presentations "Business"]].
+      *[[http://support.ptc.com/view?im_dbkey=168865|Breakout session Presentations "IOT"]].
+      *[[http://support.ptc.com/view?im_dbkey=168872|Breakout session Presentations "Solution Providers"]].
+    *Webinar [[http://www.thingevent.com/|A Fresh Look at Things]], 2016-01-28 ( 14:00 -16:00 GMT, 20:00 - 22:00 GMT ) - "On January 28, PTC's vision to bridge the digital and physical worlds becomes reality, introducing entirely new ways to experience the 'things' in the Internet of Things".
+    *Market:
+      *The ThingWorks server is targeting to be an addon to existing MES systems ( -> see[[mes.html|Manufacturing Execution Systems ( MES )]], in the means of "Brilliant Manufacturing" / "Industry 4.0" to enable a "Machine Visibility Application", not as replacement for existing MES systems. Sort of "MES Next Level" :-).
+    *Implementation:
+      *There is a commercial online service, with limited free account.
+      *You can buy the software for installation in your own datacenter.
+    *Technology:
+      *Communications by Websockets.
+      *Java application, to be deployed on a Apache Tomcat Server.
+      *Database. Neo4J ist the default database and was the only one for longtime, but now other databases like Cassandra or Postgres are supported.
+      *There is a Javascript engine with JS framework on eye-level with NodeJS installed on the server. You may write user-specific code to collect data, to generate reports by a database query. By user-defined Javascript scripts, the system may also do event handling. Some users agree that concerning this aspect, the system is similar to SalesForge.
+    *Creation of a simple demo application.
+      *Steps:
+        *Define / select the "Properties".
+        *Define the behaviour of your application by a "Service". You may create services by your own JS scripts.
+        *Create an "Application", a dashboard ( a mashup of data visualisations on a canvas ).
+     *A "Stream" is a time series of values, which can be handled by your own JS scripts. The report may be a table filled with data, with your "Properties" as table headers.
+     *At [[http://marketplace.thingworx.com/|ThingWorx Marketplace]], there are offers
+       *Templates
+       *Constoum Graphic Controls, for the mashup.
+    *Jobs: ThingWorx has an office in Ratingen, Germany, but no vacancies /  job openings are offered :-(.
   -[[http://www.xively.com/|Xively by LogMein]] - "Xively provides the platform, tools, services and support needed to create and manage compelling connected products and services on the Internet of Things". Free developer account.
     *[[http://personal.xively.com/|Xively personal]].
       *[[http://personal.xively.com/dev|Xively Developer Center]].
       *[[http://personal.xively.com/dev/docs/api/communicating/mqtts/|Xively Developer Center "Using MQTT"]].
     *Xively supports the MQTT protocol -> See [[fieldbus.html|Fieldbuses and Automation Networks]].
+    *Zatar -> New in 2016.
+=== IoT application development and deployment platforms, which might become important for IoT, according to VDC Research in 2016 ===
+  *Arrayent.
+  *Bosch IoT Suite.
+  *Carriots.
+  *Cloudera.
+  *Electric Imp.
+  *Etherios Device Cloud (formerly iDigi).
+  *GE Predix.
+  *Siemens MindSphere.
+  *Telit.
+  *ThingWorx.
+  *Xively (LogMeIn).
 === The Texas Instruments Cloud Ecosystem ===
   -[[http://www.2lemetry.com/|2lemetry]] - "IoT Platform, Middleware and Solutions".
     *[[http://ti-act.2lemetry.com/#/devices/cards|2lemetry "Texas Instruments"]].
@@ -164,7 +213,7 @@ Related pages:
     *Its a complex matter to start a virtual machine on FIWARE, in comparison to other cloud services ( AWS, Azure,..), or on your own PC ( VirtualBox, VirtualPC, VMWare...).
   *[[http://www.nirvanix.com/products-services/hybrid-cloud-storage/|Nirvanix hNode]] - "Hybrid Cloud Storage as a Service".
   *IBM.
-    *[[http://ace.ng.bluemix.net/|IBM® Bluemix - A cloud platform for the world's ideas]].
+    *[[http://ace.ng.bluemix.net/|IBM Bluemix - A cloud platform for the world's ideas]].
       *Free trial for 30 days.
       *"Free" account.
         *"Confirm Your Free Account. Are you ready to go beyond the free allowances of the trial account? Confirm your free account by adding a credit card, or by creating a subscription account. Don't worry! You are charged only if your usage exceeds the free allowances each month".
@@ -176,7 +225,11 @@ Related pages:
           -[[http://www.ibm.com/developerworks/cloud/library/cl-bluemix-arduino-iot2/|IBM Developerworks "Build a cloud-ready temperature sensor with the Arduino Uno and the IBM IoT Foundation, Part 2: Write the sketch and connect to the IBM IoT Foundation Quickstart"]].
           -[[http://www.ibm.com/developerworks/cloud/library/cl-arduino-iot3-app/|IBM Developerworks "Build a cloud-ready temperature sensor with the Arduino Uno and the IBM IoT Foundation, Part 3: Build a custom application with Node-RED"]].
           -[[http://www.ibm.com/developerworks/cloud/library/cl-arduino-iot4-app/|IBM Developerworks "Build a cloud-ready temperature sensor with the Arduino Uno and the IBM IoT Foundation, Part 4: Deploy a query GUI"]].
+        *Series:
+          -[[http://www.ibm.com/developerworks/cloud/library/cl-microservice-architecture-bluemix-cloud-foundry-apps-trs-1/|IBM Developerworks "Implement a microservice-based architecture in Bluemix, Part 1: Build and deploy with CF Apps"]].
+          -[[http://www.ibm.com/developerworks/cloud/library/cl-microservice-architecture-bluemix-containers-trs-2/index.html|IBM Developerworks "Implement a microservice-based architecture in Bluemix, Part 2: Build and deploy with IBM Containers"]].
       *[[http://blog.4loeser.net/2015/07/bluemix-simple-cron-like-service-for-my.html|Data Henrik: IT, Life, DB2, and more "Bluemix: Simple cron-like service for my Python code"]].
+        *[[https://www.ibm.com/devops/method/|IBM "IBM Bluemix Garage Method"]].
     *[[http://internetofthings.ibmcloud.com/|IBM Internet of Things Foundation]].
       *Blog [[http://developer.ibm.com/iotfoundation/blog/category/iot/|IBM Developer Blog "IoT Foundation"]].
       *Python client libraries and samples -> See [[python09.html|Python 9/10 - Modules & Frameworks]].
@@ -192,18 +245,54 @@ Related pages:
   *[[http://www.sscaleupcloud.com/|ScaleUp Technologies]].
   * The free online service [[http://www.opensensemap.org/|OpenSenseMap]].
     *The OpenSource [[http://github.com/mpfeil/OpenSenseMap|GitHub "mpfeil/OpenSenseMap"]].
+=== Some very-very special Cloud Services / Web Services ===
+  *[[http://varahitechnologies.com/|Varahi Technologies]].
+    *[[http://www.xing.com/profile/parth_pandya4|XING "parth pandya"]], [[http://in.linkedin.com/in/parthrpandya|LinkedIn "parth pandya"]], [[https://www.facebook.com/parthpandya|Facebook "Parth R Pandya"]] - "initiator at varahi technologies".
+    *Blog [[http://varahitechnologies.com/blog/|Varahi Technologies Blog]].
+    *[[http://www.twitter.com/varahi_tech|Twitter "Varahi Technologies, @varahi_tech"]].
+    *[[http://plus.google.com/116690240791284167116/about|Google + "Varahi Technologies"]].
+    *[[http://www.facebook.com/varahitechnologies/?fref=nf|Facebook "Varahi Technologies"]].
+    *[[http://www.linkedin.com/company/varahi-technologies|LinkedIn "Varahi Technologies"]].
+    *Varahi Technologies is using Microsoft server technologies ( i.e. Microsoft IIS ), software start of company was based on .NET / C# technologies and now also NodeJS ( using Azure and AWS services too ).
 === Resources ===
   *[[http://www.postscapes.com/|Postscapes - Tracking the Internet of Things]].
     *[[http://www.postscapes.com/internet-of-things-cloud|Postscapes - Tracking the Internet of Things "Internet of Things Ecosystems"]].
 
+==== Ericsson ====
+=== The Online IOT Marketplace ===
+  *[[http://iot-marketplace.ericsson.net/|Ericsson "Ericsson IoT Marketplace"]] - "Only offical Ericsson emails (name.surname@ericsson.com) are allowed" :-(, though I was told on the Hannover Fair 2016, that the platform is open to any third-party developer.
+=== Software ===
+  *[[http://www.github.com/EricssonResearch/iot-framework-engine|GitHub "iot-framework-engine"]].
+=== Resources ===
+  *[[http://www.ericsson.com/research-blog/internet-of-things/computational-engine-internet-things/|Ericsson Blog "A computational engine for the Internet of Things"]], 2014-02-14.
+  *[[http://www.ericsson.com/spotlight/industries/our-industries/iot-accelerator|Ericsson "IoT Accelerator. IoT made easier"]].
+  *[[http://www.ericsson.com/spotlight/transformative-it|Ericsson "Transformative IT – Enabling the Power of Yes"]].
+    *[[http://www.ericsson.com/spotlight/transformative-it/blog/iot-marketplace-looking-beyond-connected-devices/|Ericsson "The OSS/BSS and IT Blog" - "The IoT Marketplace: Looking Beyond Connected Devices"]], 2015-03-17.
+    *[[http://www.ericsson.com/spotlight/transformative-it/blog/software-and-transformative-it-saying-yes-internet-things/|Ericsson "The OSS/BSS and IT Blog" - "Software and Transformative IT: Saying “Yes” to the Internet of Things"]], 2015-12-16.
+  *[[http://www.ericsson.com/news/2006738|Ericsson "Press Releases" - "Ericsson IoT Accelerator enables industries to put data to work"]], 2016-04-26.
+  *[[http://www.ericsson.com/spotlight/industries/hannover-messe-2016|Ericsson "Ericsson at Hannover Messe 2016. April 25 - 29, 2016 IoT Accelerator >"]].
 ==== Etelos ====
   *[[http://www.etelos.com/|Etelos]].
     *[[http://www3.etelos.com/etelos/support/|Etelos - Developer Kits & Virtual Server Environments]].
     *"Move Your App to the Cloud... Unlike rivals such as Amazon.com, Salesforce.com and Google, Etelos is offering developers a way to move... to the cloud with little modification  needed. Etelos also has services for helping developers sell, license and scale Web applications... Etelos is a **PAAS (Platform as a Service)** provider with a familiar twist.  Where other frameworks require developers to code parts of their applications to work with the cloud service in question, Etelos' development environments enable software makers to bring their standard [[http://en.wikipedia.org/wiki/LAMP_%28software_bundle%29|LAMP]]-type applications to the cloud with little or no modification required."
-==== Heroku ====
-=== The Twelve-Factor App ===
+==== Salesforce / Heroku ====
+=== Salesforce / Force.com & developerforce ===
+  *[[http://www.salesforce.com/|Salesforce / Force.com]] - "Führend bei CRM und Cloud Computing".
+    *[[http://www.salesforce.com/de/chatter/|Salesforce - Chatter]].
+      *[[http://www.salesforce.com/chatter/editions-pricing.jsp|Salesforce - Chatter Free]].
+      *"Chatter is included in the Salesforce licenses you’ve already purchased. Now, extend Chatter to the rest of your company!".
+    *[[http://appexchange.salesforce.com/|Salesforce AppExchange]] - Directory of addon applications.
+  *[[http://www.developerforce.com|developerforce]].
+    *Wiki [[http://wiki.developerforce.com/|developerforce - Technical Library]].
+    *[[http://ideas.salesforce.com/popular/force.com_platform?skin=adn|developerforce - Ideas]].
+    *[[http://wiki.developerforce.com/index.php/An_Introduction_to_Salesforce_Chatter|developerforce "An Introduction to Salesforce Chatter"]].
+  *[[http://www.database.com/|Salseforce - Database.com]].
+  *[[http://www.salesforce.com/remedyforce/|Salseforce - RemedyForce]].
+  *[[http://www.heroku.com/|Heroku]] - "Ruby Cloud Platform as a Service".
+=== Heroku, a SalesForce Daughter Company ===
+== The Twelve-Factor App ==
   *See [[systemdesign.html|System Design]].
-=== The Service & Tools ===
+== The Service & Tools ==
   *[[http://www.heroku.com/|Heroku]] - "Cloud Application Platform". "Write apps in your language – we support Ruby, Node.js, Clojure, Java, Python and Scala".
   *[[http://devcenter.heroku.com/|Heroku Dev Center]]
     *[[http://devcenter.heroku.com/categories/support|Heroku Dev Center - Support]].
@@ -229,26 +318,19 @@ Related pages:
   *[[http://www.slideshare.net/heroku|SlideShare "Heroku"]].
     *Slides [[http://www.slideshare.net/heroku/heroku-webcastdeck20130828|SlideShare "Introduction to Heroku"]], 2013-09-13.
 === Literature ===
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/1625174918/hemmerling-21|Phil Choi "Force.com Platform Fundamentals: An Introduction to Custom Application Development in the Cloud"]], 2013.
   *Book [[http://www.amazon.de/exec/obidos/ASIN/1118508998/hemmerling-21|Kemp Chris, Brad Gyger "Professional Heroku Programming"]].
   *Kindle e-book [[http://www.amazon.de/exec/obidos/ASIN/B00NJYUA22/hemmerling-21|George Duckett "Heroku: Questions and Answers"
 "]].
   *Book [[http://www.amazon.de/exec/obidos/ASIN/178355097X/hemmerling-21|Anubhav Hanjura: "Heroku Cloud Application Development"]].
   *Book [[http://www.amazon.de/exec/obidos/ASIN/144934139X/hemmerling-21|Neil Middleton, Richard Schneeman "Heroku: Up and Running"]].
+=== Resources ===
+  *Heroku is suitable for IOT mass data processing and storage. The condensed data might be transfered to SalesForge.
+  *SalesForce uses Oracle databases for storage, and therefore not intended for IOT mass data. You may easly store metadata at Salesforge and implement a metadata-driven workflow without coding software.
 
-
-==== Salesforce / Force.com & developerforce ====
-  *[[http://www.salesforce.com/|Salesforce / Force.com]] - "Führend bei CRM und Cloud Computing".
-    *[[http://www.salesforce.com/de/chatter/|Salesforce - Chatter]].
-      *[[http://www.salesforce.com/chatter/editions-pricing.jsp|Salesforce - Chatter Free]].
-      *"Chatter is included in the Salesforce licenses you’ve already purchased. Now, extend Chatter to the rest of your company!".
-    *[[http://appexchange.salesforce.com/|Salesforce AppExchange]] - Directory of addon applications.
-  *[[http://www.developerforce.com|developerforce]].
-    *Wiki [[http://wiki.developerforce.com/|developerforce - Technical Library]].
-    *[[http://ideas.salesforce.com/popular/force.com_platform?skin=adn|developerforce - Ideas]].
-    *[[http://wiki.developerforce.com/index.php/An_Introduction_to_Salesforce_Chatter|developerforce "An Introduction to Salesforce Chatter"]].
-  *[[http://www.database.com/|Salseforce - Database.com]].
-  *[[http://www.salesforce.com/remedyforce/|Salseforce - RemedyForce]].
-  *[[http://www.heroku.com/|Heroku]] - "Ruby Cloud Platform as a Service".
+==== Software Development Stack ====
+=== Cloudogu ===
+  *[[https://www.cloudogu.com/|Cloudogu]] - "Cloudogu is not just another software development stack - it is an open platform, which lets you choose how and where your team creates great software. Each service or tool is delivered as a Dōgu, a Docker container, that can be easily integrated in your environment just by pulling it from our registry. We have a growing number of ready-to-use Dōgus, e.g. SCM-Manager, Jenkins, Nexus, SonarQube, Redmine and many more. Every Dōgu can be tailored to your specific needs. You can even bring along your own Dōgus! Take advantage of a central authentication service, a dynamic navigation, that lets you easily switch between the web UIs and a smart configuration magic, which automatically detects and responds to dependencies between Dōgus. "
 ==== Telekom Developer Garden ====
   *[[http://www.developergarden.com/|Telekom Developer Garden]].
   *Blog [[http://blog.interactive-tv-award.de/|Interactive TV Award - Blog zum Interactive TV Award der Deutschen Telekom]].

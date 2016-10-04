@@ -15,6 +15,35 @@ Related page:
 ==== EBoot ====
   *[[http://www.keith-koep.com/service/doku.php/service/wince/appnotepub/tr4conxs_usingeboot|Keith & Koep GmbH "Using Eboot"]] - "Eboot is a Microsoft-specific implementation of a bootloader for Windows Embedded CE. It features image download, store and boot capabilities with an integration in the Platform-Builder IDE".
   *[[http://msdn.microsoft.com/en-us/library/aa446908.aspx|Microsoft MSDN Library "Flashing a Windows CE 5.0 Device Without Using Platform Builder"]].
+===== Microsoft Windows IOT =====
+==== Software running on the Device ====
+  *[[http://developer.microsoft.com/en-us/windows/iot|Microsoft Developer resources "Windows 10 IoT Core. The operating system built for the Internet of Things"]]
+    *[[http://developer.microsoft.com/en-us/windows/iot/downloads|Microsoft Developer resources "Windows IOT" - "Downloads and Tools. Get the tools you need to build with Windows 10 IoT Core"]].
+    *[[http://developer.microsoft.com/en-us/windows/iot/docs/setupwifi|Microsoft Developer resources "Using WiFi on your Windows 10 IoT Core device"]].
+  *[[http://developer.microsoft.com/en-us/windows/iot/docs/adafruitmakerkit|Microsfot Developer resources "Starter Pack for Windows 10 IoT Core on Raspberry Pi 2 or Pi 3"]].
+  *[[http://www.github.com/ms-iot|GitHub "ms-iot"]].
+    *[[http://ms-iot.github.io/content/en-US/win10/SetupRPI.htm|GitHub.io "SetupRPI"]].
+==== Services and Software running in the Cloud ====
+  *[[http://azure.microsoft.com/en-us/services/iot-hub/|Microsoft Azure "Azure IoT Hub. Connect, monitor, and manage millions of IoT assets"]].
+  *[[http://azure.microsoft.com/en-us/services/stream-analytics/|Microsoft Azure "Stream Analytics. Real-time stream processing in the cloud"]].
+    *[[http://azure.microsoft.com/en-us/documentation/services/stream-analytics/|Microsoft Azure "Stream Analytics documentation"]].
+  *[[http://azure.microsoft.com/en-us/services/sql-database/||Microsoft Azure "SQL Database. A cloud database for app developers"]].
+    *[[http://azure.microsoft.com/en-us/documentation/services/sql-database/|Microsoft Azure "SQL Database documentation"]].
+    *[[http://en.wikipedia.org/wiki/SQL_Azure|EN.Wikipedia "SQL Azure"]].
+==== Resources ====
+  *You need at least an 8GB SDCard as storage media.
+  *You may access to your "Windows IOT" devide by:
+    *Web interface of a small server running on the device, by Internet browser.
+    *Win10 Remote Client.
+    *Windows IOT Dasboard.
+      *[[http://developer.microsoft.com/en-us/windows/iot/docs/iotdashboard|Microsoft Developer resources "Windows 10 IoT Core Dashboard"]].
+      *[[http://developer.microsoft.com/en-us/windows/iot/docs/iotdashboardtroubleshooting|Microsoft Developer resources "Windows 10 IoT Core Dashboard" - "Troubleshooting"]].
+  *[[http://www.hackster.io/|Hackster.io]].
+    *[[http://microsoft.hackster.io/en-US|Microsoft Projects powered by Hackster.io]].
+    *[[http://www.hackster.io/AnuragVasanwala/windows-10-iot-core-setting-startup-app-887ed0|Hackster.io "Windows 10 IoT Core : Setting Startup App"]].
+  *Blog [[http://blogs.windows.com/buildingapps/|Microsoft Windows Blog "Building Apps for Windows"]].
+    *[[http://blogs.windows.com/buildingapps/2015/08/10/hello-windows-10-iot-core/#AXMvIXg71FDC5wbF.97|Microsoft Windows Blog "Hello, Windows 10 IoT Core"]], 2015-08-10.
+    *[[http://blogs.windows.com/buildingapps/2016/02/29/windows-10-iot-core-support-for-raspberry-pi-3/#3wIgzyOaF4EC5Hib.97|Microsoft Windows Blog "Windows 10 IoT Core support for Raspberry Pi 3"]], 2016-02-29.
 ===== Competitions =====
   *[[http://www.imaginecup.com/|ImagineCup]].
     *[[http://www.imaginecup.com/competitions/Embedded%20Development|ImagineCup "Embedded Development"]].

@@ -1,6 +1,7 @@
 ====== [hemmerling] Linked Data & Linked Open Data ( LOD ) ======
 Related pages:
   *[[api.html|Application programming interface ( API )]].
+  *[[nosql.html|Data Processing 3/5 - NoSQL Databases: Not Just SQL]].
   *[[mashup.html|Enterprise Mashups & Web 2.0]].
   *[[geodata.html|Geographical Data / Spatial Data for Geographical Information Systems ( GIS )]].
   *[[rest.html|Representational State Transfer ( REST )]].
@@ -65,6 +66,11 @@ Related pages:
   *RDF lets you define classes as subclasses of other ones, and unlike object-oriented systems, properties of subproperties of other ones. E.g: If xy:Driver is a subclass of foaf:Person, a query for the phone numbers of all foaf:Person instances, the result include Rolf's phone number, because beeing in the class of drivers Rolf is also in the class of persons.
 === Object-Oriented System ===
   *I have to declare a instance of a class ( e.g of the class "driver" ) and then assign it all the details about "Rolf"
+==== Topic Maps vs. RDF ====
+  *[[http://www.ontopia.net/topicmaps/materials/rdf.html|Ontopia "Ten Theses on Topic Maps and RDF"]].
+  *[[http://www.communitywiki.org/en/TopicMapsVsRDF|Community Wiki "TopicMapsVsRDF - A good paper comparing and contrasting RDF and TopicMaps (and two other formats)"]].
+  *[[http://en.wikipedia.org/wiki/Topic_Maps|EN.Wikipedia "Topic Maps"]], [[http://de.wikipedia.org/wiki/Topic_Maps|DE.Wikipedia "Topic Maps"]].
+
 ===== Suggestion for Proceeding in your own Project =====
 ==== Simple approach to use ARQ in own Project, Prototyping Stage ====
   -Perfom SPARQL queries with ARQ. Execute ARQ by batch ( script ) language.
@@ -607,6 +613,8 @@ Reference"]] - "A common data model for sharing and linking knowledge organizati
     *[[http://www.linkeddata.org/faq|Linked Data: Evolving the Web into a Global Data Space "Frequently Asked Questions (FAQs)"]].
     *[[http://www.linkeddata.org/glossary|Linked Data: Evolving the Web into a Global Data Space "Glossary"]].
     *Blog [[http://wayback.archive.org/web/*/http://planet.linkeddata.org/|Archive.org "Planet Linked Data - Aggregator of Linked Data-related Blogs - Linked Data Blog Aggregator"]].
+  *[[http://www.linkeddata.org/|Linked Data - Connect Distributed Data across the Web]].
+    *[[http://www.linkeddata.org/guides-and-tutorials|Linked Data - Connect Distributed Data across the Web "Guides and Tutorials"]]#.
   *[[http://linkeddata.deri.ie/|Linked Data Research Centre]].
     *Video [[http://linkeddata.deri.ie/node/58|Linked Data Research Centre "The Web, one huge database ..."]].
     *[[http://linkeddata.deri.ie/resources|Linked Data Research Centre - Publications]].

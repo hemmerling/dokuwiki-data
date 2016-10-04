@@ -10,10 +10,14 @@ Related pages:
   *[[industrialdata.html|Industrial Data & Industrial Data Exchange]].  
   *[[industry40.html|"Industry 4.0" & "Internet of Things" ( IOT ) & "Cyber-physical Systems"]].
   *[[mes.html|Manufacturing Execution System ( MES )]].
+  *[[opc.html|OPC UA and OPC ( OLE for Process Control )]].
   *[[robotics.html|Robotics ( Robots, Drones, Industry Automation, Remote Controlled Devices, Artificial Intelligence )]].
+
 ===== Organizations, Fairs, Events =====
 ==== Organizations ====
   *[[http://www.plcopen.org/|PLCopen]].
+  *[[http://www.iiconsortium.org/|Industrial Internet Consortium]].
+    *The free document [[http://www.iiconsortium.org/IIRA.htm|Industrial Internet Consortium "THE INDUSTRIAL INTERNET REFERENCE ARCHITECTURE TECHNICAL Report"]].
 ==== Fairs, Events ====
   *Fair [[http://www.achema.de/|ACHEMA]] in Frankfurt, Germany ( 2015-06-15 - 2015-06-19 ).
     *[[http://www.productpilot.com/|Productpilot – the business portal of Messe Frankfurt]].
@@ -27,9 +31,10 @@ Related pages:
     *<del>[[http://www.hannovermesse.de/event/forum-industrial-it/FOR/56121|Hannover Fair "Industrial IT Forum", 2014]]</del>.
     *<del>[[http://www.hannovermesse.de/product/process-automation-place/422072/F270687|Hannover Fair "Process Automation Place" 2014]]</del>.
   *Hannover Fair 2015.
-    *[[http://www.hannovermesse.de/de/info/fuer-aussteller/leitmessen/industrial-automation/themen-programm/forum-industrial-automation.xhtml|Hannover Fair "Forum Industrial Automation", 2015]].
-    *[[http://www.hannovermesse.de/veranstaltung/forum-industrie-4.0/FOR/60511|Hannover Fair "Forum Industrie 4.0", 2015]].
-    *[[http://www.hannovermesse.de/veranstaltung/mda-forum/FOR/60849|Hannover Fair "MDA Forum", 2015]] ( Motion, Drive & Automation ).
+    *[[http://www.hannovermesse.de/veranstaltung/forum-industrial-automation/FOR/68133|Hannover Fair "Forum Industrial Automation", 2016]].
+    *[[http://www.hannovermesse.de/aussteller/forum-industrie-4.0/L346148|Hannover Fair "Forum Industrie 4.0", 2016]] / [[http://www.hannovermesse.de/veranstaltung/forum-industrie-4.0-meets-the-industrial-internet/FOR/68018|Hannover Fair "Forum Industrie 4.0 meets the Industrial Internet", 2016]].
+    *[[http://www.hannovermesse.de/de/messe/leitmessen/motion-drive-automation/ausstellen-motion-drive-automation/zusatzformate/|Hannover Fair "MDA Forum", 2016]] ( Motion, Drive & Automation ).
+    *[[http://www.hannovermesse.de/veranstaltung/bitkom-innovation-forum/FOR/69045|Hannover Fair "Bitkom Innovation Forum", 2016]].
   *[[http://www.meorga.de/|MEORGA - MSR-Spezialmessen. Regionale Spezialmessen für Prozessleitsysteme, Messtechnik, Regeltechnik, Steuerungstechnik]] ( Hamburg, 2015-06-10. Braunschweig, 2015-10-14 ) - Free entry!
   *[[http://www.easyfairs.com/maintenance-dortmund2015|maintenance Dortmund 2015]] - "Fachveranstaltung zum Thema industrielle Instandhaltung".
   *[[http://www.nuernbergmesse.de/|Nürnberg Messe]] / [[http://www.mesago.de/|Mesago]].
@@ -128,7 +133,6 @@ HMI/SCADA"]].
 ==== Software for Design & Documentation of Process Facilities ====
   *[[http://www.innotec.com/|Comos Industry Solutions]], a Siemens daughter ( formerly: "innotec") - "COMOS software".
 ==== Some other Companies in the Automation / PLC Industry ====
-  *[[http://www.br-automation.com|B&R]], Austria.
   *[[http://www.honeywellprocess.com/|Honeywell]].
     *[[http://www.honeywellprocess.com/en-US/explore/products/control-monitoring-and-safety-systems/integrated-control-and-safety-systems/experion-pks/Pages/experionpks.aspx|Honeywell "Experion PKS Orion – Process Control Beyond Distributed Control Systems"]].
       *[[http://www.honeywellprocess.com/en-US/explore/products/control-monitoring-and-safety-systems/integrated-control-and-safety-systems/experion-pks/controllers/Pages/c300.aspx|Honeywell "C300 Controller"]].
@@ -161,6 +165,25 @@ HMI/SCADA"]].
   *[[http://www.forum-fts.com/|Forum-FTS - Die Europäische FTS-Community]].
   *"Kleinskaliges Autonomes Redundants Intralogistik-System" ( KARIS ) by Heinrich Hippenmeyer, [[http://www.intralogistik-bw.de/|Intralogistik-Netzwerk in Baden-Württemberg e.V.]]. 
     *[[http://www.intralogistik-bw.de/2_aktivitaeten/mat/KARIS_HF0609_304-309.pdf|Intralogistik-Netzwerk in Baden-Württemberg e.V. "KARIS - dezentral gesteuert. Ein neuartiges Element für zukünftige Materialflusssysteme"]] ( PDF ).
+===== Motor & Transformator Protection - How to build Control Cabinets / Control Boxes according according to IEC & UL =====
+==== Motorschutzschalter, Motorschutzrelais, Trafoschutzschalter ====
+  *Experts told me, that a major reason for implementation of a motor/trafo protection switch is to achieve a galvanic separation, e.g. in case of maintenance. Especially in the past, electronic frequency converter didn´t provide galvanic separation.
+  *[[http://www.elektricks.com/motorschutzschalter-motorschutzrelais/|ElekTricks "Motorschutzschalter, Motorschutzrelais"]].
+  *[[http://forum.electronicwerkstatt.de/phpBB/Bauteile/unterschied_zwischen_motorschutzschalter_und_motorschutzrelais-t65289f30_bs0.html|Elektronikforum "Unterschied zwischen Motorschutzschalter und Motorschutzrelais??"]].
+  *[[http://www.gutefrage.net/frage/was-ist-der-wesentliche-unterschied-zwischen-motorschutzrelais-und-motorschutzschalter-|GuteFrage "Was ist der wesentliche Unterschied zwischen Motorschutzrelais und Motorschutzschalter?"]].
+  *[[http://wiki.induux.de/Motorschutzschalter|induux Wiki "Motorschutzschalter"]].
+  *[[http://www.techniker-forum.de/thema/unterschied-zwischen-motorschutzschalter-und-trafoschutzschalter.64759/|Techniker-Forum "Unterschied zwischen Motorschutzschalter und Trafoschutzschalter"]].
+  *[[http://en.wikipedia.org/wiki/Magnetic_starter|EN.Wikipedia "Magnetic starter"]], [[http://de.wikipedia.org/wiki/Motorschutz_%28Elektrotechnik%29|DE.Wikipedia "Motorschutz (Elektrotechnik)"]] - "Der Motorschutz (zum Beispiel ein Motorschutzschalter) schützt Elektromotoren ...vor thermischer Überlastung aufgrund mechanischer Überlastung oder bei Ausfall eines einzelnen oder zweier Außenleiter".
+  *[[http://de.wikipedia.org/wiki/Schutzschalter|DE.Wikipedia "Schutzschalter"]].
+==== Motor & Transformator Protection - How to build Control Cabinets / Control Boxes according according to IEC ====
+  *It is possible to use transformer-protective switches ( "Trafoschutzschalter" ) on the primary electric power side according to IEC.
+==== Motor Protection - How to build Control Cabinets / Control Boxes according according to UL ====
+  *There is no transformer-protective switches ( "Trafoschutzschalter" ) on the primary electric power side allowed, according to UL.
+==== Control Cabinet / Control Box Manufacturer ====
+  *[[http://www.rittal.com/|Rittal GmbH & Co. KG]].
+  *[[http://www.hoffman-panduit.com/|Hoffman - Panduit]], [[http://www.pentairprotect.com/hoffman|PENTAIR - Hoffmann]].
+==== Resources ====
+  *[[https://en.wikipedia.org/wiki/Arc_flash|EN.Wikipedia "Arc flash"]], [[https://de.wikipedia.org/wiki/St%C3%B6rlichtbogen|DE.Wikipedia "Störlichtbogen"]].
 ===== Some other important Players in the German Automation Industry =====
 ==== Companies ===
   *[[http://www.abb.de/|ABB Deutschland]].
@@ -203,14 +226,17 @@ HMI/SCADA"]].
   *[[http://www.di-verlag.de/|Deutscher Industrieverlag GmbH]].
     *[[http://www.di-verlag.de/de/atp-edition|Deutscher Industrieverlag GmbH "atp edition - Automatisierungstechnische Praxis"]], [[http://www.atpinfo.de/|atp!info]].
     *[[http://www.di-verlag.de/de/GWF-Wasser-Abwasser|gwf - Wasser/Abwasser]].
-    *[[https://www.di-verlag.de/de/GWF-Gas-Erdgas|GWF - Gas/Erdgas]].
+    *[[http://www.di-verlag.de/de/GWF-Gas-Erdgas|GWF - Gas/Erdgas]].
   *[[http://www.dvgw.de/angebote-leistungen/publikationen/energie-wasser-praxis/|DVGW Deutscher Verein des Gas- und Wasserfaches e.V. "DVGW energie | wasser-praxis"]].
     *[[http://www.energie-wasser-praxis.de/|energie | wasser-praxis]].
   *[[http://www.etz.de/|ETZ - Elektrotechnik & Automation]].
   *[[http://www.fachwelt-verlag.de/|Fachwelt Verlag]].
     *[[http://www.prozesstechnik-portal.com/|Prozesstechnik - Fachmagazin für die gesamte Prozessindustrie]].
   *[[http://www.gitverlag.com/de/global/medien_und_maerkte/chemie_pharma_food/citplus/|GIT Verlag - A Wiley Brand "CITplus. Das Praxismagazin für Verfahrens- und Chemieingenieure"]].
-  *[[http://www.henrich-mediacenter.de/fachzeitschriften/uebersicht/artikel/energiespektrum-512244.html|Henrich Publikationen MEDIACENTER "energiespektrum"]].
+  *[[http://www.verlag-henrich.de/|Henrich Publikationen GmbH]].
+    *[[http://www.automationnet.de/|automation]].
+      *[[http://de.wikipedia.org/wiki/Automation_%28Zeitschrift%29|DE.Wikipedia "Automation (Zeitschrift)"]].
+    *[[http://www.henrich-mediacenter.de/fachzeitschriften/uebersicht/artikel/energiespektrum-512244.html|Henrich Publikationen MEDIACENTER "energiespektrum"]].
     *[[http://www.energiespektrum.de/|energiespektrum]].
   *[[http://www.huethig.de/|Hüthig GmbH]].
     *[[http://www.chemietechnik.de/|CHEMIE TECHNIK ONLINE - Fachinformationen für Entscheider]].
@@ -306,7 +332,7 @@ HMI/SCADA"]].
 ===== Forums, Newsgroups, Communities =====
   *[[http://www402.abbext.com/|ABB "Control Systems Application and Knowledge Store. Ask questions, find answers and share applications"]].
   *[[http://www.automationml.org/forum/|<AutomationML> Forum]].
-  *[[http://forum.3s-software.com/|CoDeSys - das IEC 61131-3 Programmiersystem. Offizielles CoDeSys- Forum von 3S-Smart Software Solutions]].
+  *[[http://forum-de.codesys.com/|CoDeSys - das IEC 61131-3 Programmiersystem. Offizielles CoDeSys- Forum von 3S-Smart Software Solutions]].
   *[[http://www.control.com/|control.com - the global community of automation professionals]].
     *[[http://www.control.com/thread/1252697981|Control.com, Thread "open-source implementation of a PLC"]] #.
   *[[http://community.controlglobal.com/|ControlGlobal Community]].

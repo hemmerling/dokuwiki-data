@@ -11,6 +11,24 @@ Related pages:
   *[[http://de.wikipedia.org/wiki/Milit%C3%A4rische_Lastenklasse|DE.Wikipedia: "Militärische Lastenklasse"]].
 ===== Software Documentation =====
 ==== Generators for creating Software Documentation ====
+=== AsciiDoc ===
+  *[[http://www.asciidoc.org/|AsciiDoc - Text based document generation]], [[http://www.methods.co.nz/asciidoc/|AsciiDoc - Text based document generation]], [[http://www.github.com/asciidoc/|GitHub "asciidoc"]] - "Text based document generation. AsciiDoc is a text document format for writing notes, documentation, articles, books, ebooks, slideshows, web pages, man pages and blogs. AsciiDoc files can be translated to many formats including HTML, PDF, EPUB, man page".
+  *The OpenSource software tool [[http://www.asciidoctor.org/|Asciidoctor]],  - "A fast text processor & publishing toolchain for converting AsciiDoc to HTML5, DocBook & more".
+    *[[http://www.asciidoctor.org/docs/what-is-asciidoc/|Asciidoctor "What is AsciiDoc? Why do we need it?"]].
+    *[[http://www.asciidoctor.org/docs/asciidoc-writers-guide/|Asciidoctor "AsciiDoc Writer’s Guide"]].
+    *[[http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/|Asciidoctor "AsciiDoc Writer’s Guide"]].
+  *[[http://www.powerman.name/doc/asciidoc|Alex Efros, POWERMAN "AsciiDoc cheatsheet"]].
+  *AciiDoctor is integrated in:
+    *Gradle:
+      *[[http://plugins.gradle.org/plugin/org.asciidoctor.gradle.asciidoctor|Gradle - Plugin "org.asciidoctor.gradle.asciidoctor"]].
+      *[[http://www.github.com/asciidoctor/asciidoctor-gradle-plugin|GitHub "asciidoctor/asciidoctor-gradle-plugin"]].
+      *[[http://danhyun.github.io/asciidoctor-gradle-examples/|GitHub.io, Rob Winch and Dan Hyun "Asciidoctor Gradle Examples"]].
+    *Maven:
+      *[[http://www.github.com/asciidoctor/asciidoctor-maven-plugin|GitHub "asciidoctor/asciidoctor-maven-plugin"]].
+      *[[http://www.asciidoctor.org/docs/asciidoctor-maven-plugin/|Asciidoctor "Installing and Using the Asciidoctor Maven Plugin"]].
+      *[[http://mvnrepository.com/artifact/org.asciidoctor|MVN Repository "Group: org.asciidoctor"]].
+  *Experts told me, that AsciiDoc is primarily intended to document Java and Javascript projects.
+  *[[http://en.wikipedia.org/wiki/AsciiDoc|EN.Wikipedia "AsciiDoc"]], [[http://de.wikipedia.org/wiki/AsciiDoc|DE.Wikipedia "AsciiDoc"]].
 === "Atom" Editor Package "docblockr" ===
   *[[http://www.atom.io/packages/docblockr|Atom "Docblockr Package"]] - Code documentation for "ActionScript, C, C++,, Cuda-C++, CoffeeScript, Groovy, Haxe, Java, JavaScript, ObjC, ObjC++, Php, Rust, TypeScript".
 === CppDoc ===

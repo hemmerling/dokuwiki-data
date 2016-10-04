@@ -4,6 +4,8 @@ Related pages:
   *[[nosql.html|Data Processing 3/5 - NoSQL Databases: Not Just SQL]].
   *[[dbadmin.html|Data Processing 4/5 - Database Managment Tools and Database Application Development Tools]].
   *[[bíntelligence.html|Data Processing 5/5 - Business Intelligence]].
+  *[[testing.html|Testing]].
+  *[[unittest.html|Unit Test / Module Test]].
 ===== Organizations, Events =====
 ==== Organizations ====
   *[[http://www.doag.org/|Deutsche ORACLE-Anwendergruppe e.V.]] ( DOAG ).
@@ -28,6 +30,10 @@ Related pages:
   *The series of online conferences [[http://www.sqlpass.org/events/24hoursofpass.aspx|Professional Association for SQL Server "24 Hours of PASS"]] ( 24HOP ) by [[http://www.sqlpass.org/|Professional Association for SQL Server ( PASS )]].
     *[[http://www.sqlpass.org/24hours/2014/ba/|24 Hours of PASS: Business Analytics Edition 2014]], 2014-02-05.
     *[[http://www.twitter.com/pass24hop|Twitter "24HOP"]].
+  *[[http://www.sqlkonferenz.de/|SQL Konferenz]] in Darmstadt.
+    *2015-02-03 - 2015-02-05 in Darmstadt.
+    *2016-02-23 - 2016-02-25 in Darmstadt.
+    *2017-02-14 - 2017-02-17 in Darmstadt.
   *[[http://www.sqlsaturday.com/|SQL Saturday]] by [[http://www.sqlpass.de/|PASS Deutschland e.V.]].
     *[[http://www.sqlpass.de/Events/SQLSaturday.aspx|Pass e.V. "SQLSaturday"]].
     *[[http://www.sqlsaturday.com/230/|SQL Saturday #230]], 2013-07-13 in St.Augustin, Germany - I participated :-).
@@ -50,6 +56,10 @@ Related pages:
   *[[http://www.postgresql.org/docs/9.0/static/app-psql.html|PostgreSQL Documentation]].
   *"postgresql-8.4.13-1-windows.exe" and "postgresql-9.0.8-1-windows.exe" are the latest editions for W2k ( Download: [[http://www.oldapps.com/postgresql.php|OldApps "PostgreSQL"]] ).
   *The installation of "postgresql-9.0.8-1-windows.exe" on W2k causes a warning at the end of installation "A non-fatal error occured during cluster initalisation. Please check the installation log in C:\Temp for details".
+  *Installation of Postgres 9.4:
+    *Password for the database superuser (postgres) -> e.g "admin".
+    *Port number -> default port number is "5432".
+    *Locale to be used by the new database cluster -> Locale "[Default locale]".
 === Tips&Tricks ===
   *Configuration suggestions:
     *Standard user: "postgres". The password may be set during installation.
@@ -102,6 +112,13 @@ Related pages:
   *[[http://www.mariadb.org/|MariaDB.org]].
   *[[http://www.skysql.com/|SkySQL, The MariaDB Company For Database Management]], [[https://www.mariadb.com/|MariaDB.com]].
   *[[http://en.wikipedia.org/wiki/MariaDB|EN.Wikipedia "MariaDB"]], [[http://de.wikipedia.org/wiki/MariaDB|DE.Wikipedia "MariaDB"]].
+=== Scalable Solutions for MySQL & MariaDB ===
+  *[[http://www.galeracluster.com/|Galera Cluster for MySQL]].
+  *[[http://www.mariadb.com/kb/en/mariadb/what-is-mariadb-galera-cluster/|MariaDB "What is MariaDB Galera Cluster?"]].
+=== Third-Party Scalable Solutions ===
+  *[[http://www.crate.io/|Crate.IO]].
+    *[[http://www.crate.io/overview/crate-vs-mysql|Crate.IO "Crate vs MySQL"]] - "Over MySQL Crate gives you...".
+    *[[http://www.crate.io/docs/reference/best_practice/migrating_from_mysql.html|Crate.IO "Migrating from MySQL"]].
 === Resources ===
   *The OpenSource backup software [[http://www.mysqldumper.de/|MySQLDumper]] for MySQL, written in PHP und Perl.
 === Resources ===
@@ -168,7 +185,7 @@ Related pages:
     *[[http://www.linkedin.com/groups/Launch-Open-on-Informix-Free-25049.S.46026741|LinkedIn "Informix - IIUG supported user group", message "Launch of Open on Informix"]].
     *As business gift on the CEBIT 2011, [[http://www.83degreessouth.com/|83 Degrees South]] granted me IBM field glasses :-).
 ==== Microsoft SQL Server ====
-=== Resources ===
+=== Microsoft ===
   *[[http://en.wikipedia.org/wiki/Microsoft_SQL_Server|EN.Wikipedia "Microsoft SQL Server"]], [[http://de.wikipedia.org/wiki/Microsoft_SQL_Server|DE.Wikipedia "Microsoft SQL Server"]].
   *[[http://www.microsoft.com/sql|Microsoft SLQ Server]].
   *[[http://www.microsoft.com/express|Microsoft SLQ Server Express]].
@@ -180,41 +197,37 @@ Related pages:
   *[[http://www.microsoft.com/sqlserver/2008/en/us/editions.aspx|Microsoft Server 2008 "Editions"]].
 === Microsoft SQL Server 2000 Desktop Engine (MSDE 2000) ===
   *[[http://www.microsoft.com/downloads/de-de/details.aspx?FamilyID=413744D1-A0BC-479F-BAFA-E4B278EB9147|Microsoft SQL Server 2000 Desktop Engine (MSDE 2000) Version A]], for Win98, Win98SE, WinME, W2k, WinXP.
-=== Microsoft SQL Server 2005 ===
+=== Microsoft SQL Server 2005 SP4 ===
   *Maximum database size: 4 GB.
-  *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=220549B5-0B07-4448-8848-DCC397514B41|Microsoft Download Center "Microsoft SQL Server 2005 Express Edition"]].
-  *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=3181842A-4090-4431-ACDD-9A1C832E65A6|Microsoft Download Center "Microsoft SQL Server 2005 Express Edition Service Pack 3"]].
-  *[[http://www.microsoft.com/downloads/de-de/details.aspx?FamilyID=b448b0d0-ee79-48f6-b50a-7c4f028c2e3d&DisplayLang=de|Microsoft Download Center "Microsoft SQL Server 2005 Express Edition with Advanced Services Service Pack 3"]].
-  *[[http://www.microsoft.com/downloads/en/details.aspx?familyid=C243A5AE-4BD1-4E3D-94B8-5A0F62BF7796|Microsoft Download Center "Microsoft SQL Server Management Studio Express"]] for SQL Server Express 2005 on Windows.
-  *[[http://www.microsoft.com/downloads/de-de/details.aspx?FamilyID=3C856B93-369F-4C6F-9357-C35384179543|Microsoft Download Center "Toolkit für Microsoft SQL Server 2005 Express Edition"]].
-    *"Business Intelligence Development Studio (BIDS) – Create and edit reports for SQL Server 2005 Reporting Services (SSRS). BIDS provides the ability to create and edit Reporting Services projects that are reporting on local relational data in local SQL Server Express databases".
-    *[[http://msdn.microsoft.com/en-us/library/ms365251%28v=sql.100%29.aspx|Microsoft Library "SQL Server Express Toolkit"]].
-  *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=5d76230d-580d-4874-8c7d-93491a29db15|Microsoft Download Center "Microsoft SQL Server Management Studio Express Service Pack 3"]].
-  *[[http://www.microsoft.com/downloads/en/details.aspx?familyid=50B97994-8453-4998-8226-FA42EC403D17|Microsoft Download Center "Feature Pack for Microsoft SQL Server 2005 - February 2007"]].
-  *[[http://www.microsoft.com/downloads/details.aspx?displaylang=de&FamilyID=ae7387c3-348c-4faa-8ae5-949fdfbe59c4|Microsoft Download Center "Microsoft SQL Server 2005 Service Pack 3"]].
-  *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyId=BE6A2C5D-00DF-4220-B133-29C1E0B6585F|Microsoft Download Center "SQL Server 2005 Books Online (November 2008)"]].
-  *[[http://www.microsoft.com/downloads/en/details.aspx?familyid=6C050FE3-C795-4B7D-B037-185D0506396C&displaylang=en|Microsoft Download Center "Microsoft Data Access Components (MDAC) 2.8"]].
-=== Microsoft SQL Server 2008 ===
+  *SQL Server Express.
+    *[[http://www.microsoft.com/en-US/download/details.aspx?id=21844|Microsoft Download Center "Microsoft SQL Server 2005 Express Edition"]].
+      *There is a "SQL Server 2005 Express Edition Service Pack 4" 
+    *[[http://www.microsoft.com/en-US/download/details.aspx?id=12980|Microsoft Download Center "Microsoft SQL Server 2005 Express Edition with Advanced Services Service Pack 2"]].
+  *SQL Server Management Studio Express. 
+    *[[http://www.microsoft.com/en-US/download/details.aspx?id=19413|Microsoft Download Center "Microsoft SQL Server 2005 Express Edition Toolkit"]] - "It contains SQL Server 2005 Management Studio Express, a graphical management tool, and Business Intelligence Development Studio, a creation and editing environment for reports using SQL Server Reporting Services".
+    *[[http://www.microsoft.com/en-US/download/details.aspx?id=14630|Microsoft Download Center "Microsoft SQL Server Management Studio Express Service Pack 3"]].
+    *There is a "SQL Server Management Studio Express Service Pack 4"
+  *[[http://www.microsoft.com/en-us/download/details.aspx?id=24793|Microsoft Download Center "Feature Pack for Microsoft SQL Server 2005 - February 2007"]] - " A collection of standalone install packages that provide additional value for SQL Server 2005".
+  *[[https://support.microsoft.com/en-us/kb/913089|Microsoft Support "How to obtain the latest service pack for SQL Server 2005"]] - "Extended support for SQL Server 2005 ends on April 12, 2016".
+=== Microsoft SQL Server 2008 R2 SP2 ===
   *Maximum database size: 10 GB.
-  *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=58ce885d-508b-45c8-9fd3-118edd8e6fff|Microsoft Download Center "Microsoft® SQL Server 2008 Express"]].
-  *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=b5d1b8c3-fda5-4508-b0d0-1311d670e336|Microsoft Download Center "Microsoft SQL Server 2008 Express with Advanced Services"]].
-  *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=01AF61E6-2F63-4291-BCAD-FD500F6027FF|Microsoft Download Center "Microsoft SQL Server 2008 Express Edition Service Pack 1"]].
-  *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=40ACF55F-0715-4BB0-9735-D02FC2C8A7AF|Microsoft Download Center "Microsoft SQL Server 2008 SP2 Express Edition Service Pack 2"]].
-  *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=08E52AC2-1D62-45F6-9A4A-4B76A8564A2B|Microsoft Download Center "Microsoft SQL Server 2008 Management Studio Express"]].
-  *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=e1109aef-1aa2-408d-aa0f-9df094f993bf|Microsoft Download Center "Microsoft Visual Studio 2005 Service Pack 1 Update for Microsoft SQL Server 2008 Support"]].
-=== Microsoft SQL Server 2008 R2 RTM ===
- *Maximum database size: 10 GB.
-    *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=8b3695d9-415e-41f0-a079-25ab0412424b|Microsoft Download Center "Microsoft SQL Server 2008 R2 RTM - Express"]].
-    *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=e08766ce-fc9d-448f-9e98-fe84ad61f135|Microsoft Download Center "Microsoft SQL Server2008 R2 RTM - Express with Advanced Services"]].
-    *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=967225eb-207b-4950-91df-eeb5f35a80ee|Microsoft Download Center "Microsoft SQL Server 2008 R2 RTM - Express with Management Tools"]].
-  *[[http://www.microsoft.com/downloads/en/details.aspx?FamilyID=e1109aef-1aa2-408d-aa0f-9df094f993bf|Microsoft Download Center "Microsoft Visual Studio 2005 Service Pack 1 Update for Microsoft SQL Server 2008 Support"]].
-    *[[http://www.microsoft.com/express/Database/InstallOptions.aspx|Microsoft /Express Database, "SQL Server 2008 R2 Express - Installation Options"]] -> Download of "Management Tools".
-=== Microsoft SQL Server 2012 SP1 ===
-  *[[http://msdn.microsoft.com/en-us/evalcenter/hh230763|MSDN Evaluation Center "Download SQL Server 2012 Express with SP1"]].
-  *[[http://msdn.microsoft.com/en-us/library/cc645993.aspx|Microsoft Developer Network "Features Supported by the Editions of SQL Server 2012"]].
+  *[[https://www.microsoft.com/en-us/download/details.aspx?id=30438|Microsoft Download Center "Microsoft SQL Server 2008 R2 SP2 - Express Edition"]] for WinXP.
+=== Microsoft SQL Server 2012 ===
+  *Maximum database size: 10 GB.
+  *[[http://www.microsoft.com/en-us/download/details.aspx?id=29062|Microsoft Download Center "Microsoft SQL Server 2012 Express"]] for Windows Vista.
 === Microsoft SQL Server 2014 ===
-  *[[http://www.microsoft.com/en-us/server-cloud/products/sql-server-editions/sql-server-express.aspx|Microsoft SQL Server Editions]].
-  *[[http://msdn.microsoft.com/en-us/evalcenter/dn434042.aspx|MSDN Evaluation Center "Download Microsoft SQL Server 2014 Express]].
+  *Maximum database size: 10 GB.
+  *[[http://www.microsoft.com/en-US/download/details.aspx?id=42299|Microsoft Download Center "Microsoft SQL Server 2014 Express"]] for Win7.
+  *[[http://www.microsoft.com/en-us/download/details.aspx?id=46697|Microsoft Download Center "Microsoft SQL Server 2014 Service Pack 1 (SP1) Express"]] for Win7.
+  *[[http://www.microsoft.com/en-us/download/details.aspx?id=53167|Microsoft Download Center "Microsoft SQL Server 2014 Service Pack 2 (SP2) Express"]] for Win8.1.
+=== Microsoft SQL Server 2016 ===
+  *Maximum database size: 10 GB.
+  *[[http://www.microsoft.com/en-us/download/details.aspx?id=52679|Microsoft Download Center "Microsoft SQL Server 2016 Express"]] for Win8.
+=== Additional Tools ===
+  *"Replay Markup Language (RML) Utilities for SQL Server".
+    *[[http://support.microsoft.com/en-us/kb/944837|Microsoft Support "Description of the Replay Markup Language (RML) Utilities for SQL Server"]].
+    *[[http://www.microsoft.com/en-us/download/details.aspx?id=8161|Microsoft Support "RML Utilities for SQL Server (x86) "]].
+    *[[http://www.microsoft.com/en-us/download/details.aspx?id=4511|Microsoft Support "RML Utilities for SQL Server (x64) CU4"]].
 === Integration Services / Data Transformation Services ===
 == The Service ==
   *[[http://msdn.microsoft.com/en-us/ms141026.aspx|Microsoft MSDN "SQL Server Integration Services"]].
@@ -265,6 +278,26 @@ Foren:
 === Additional Tools ===
   *[[http://sqlserversamples.codeplex.com/|Codeplex - Open Source Community "Microsoft SQL Server Community Projects & Samples"]].
   *The free [[http://www.microsoft.com/downloads/en/details.aspx?familyid=9a8b005b-84e4-4f24-8d65-cb53442d9e19&displaylang=en|Microsoft Download Center "SQLIO Disk Subsystem Benchmark Tool"]] for Windows - may be used to test SAN.
+=== Experts & Books & Tools ===
+  *Book [[http://www.amazon.de/exec/obidos/ASIN/3866456565/hemmerling-21|Kalen Delaney, Paul S. Randal, Kimberly L. Tripp "Microsoft SQL Server 2008 Internals"]].
+    *Blog [[http://sqlblog.com/blogs/kalen_delaney/|Kalen Delaney "SQLBLOG.COM - THE SQL Server Blog Spot on the Web]].
+    *Blog [[http://www.sqlskills.com/blogs/paul/|SQLSkills "Paul S. Randal - In Recovery..."]].
+    *Blog [[http://www.sqlskills.com/blogs/kimberly/|SQLSkills "Kimberly L. Tripp - Improving my SQL skills through your questions!"]].
+  *[[http://ola.hallengren.com/|Ola Hallengren, SQL Server Maintenance Solution]].
+    *[[http://ola.hallengren.com/sql-server-backup.html|Ola Hallengren, SQL Server Maintenance Solution "SQL Server Backup"]] - Script "MaintenanceSolution.sql". 
+      *You have to configure the script at the settings "SET @BackupDirectory" and "SET @CleanupTime".
+  *[[http://www.brentozar.com/|Brent Ozar]].
+    *[[http://www.firstresponderkit.org/|SQL Server First Responder Kit. sp_Blitz, sp_BlitzCache, sp_BlitzIndex, and other SQL Server scripts for health checks and performance tuning]].
+    *[[http://www.brentozar.com/blitz/|Brent Ozar "sp_Blitz – Free SQL Server Health Check Script"]].
+      *[[http://www.brentozar.com/first-aid/sql-server-downloads/|Brent Ozar "Free SQL Server Download Pack: Our Scripts and eBooks"]].
+    *[[http://www.github.com/BrentOzarULTD/|GitHub "BrentOzarULTD"]].
+      *[[http://www.github.com/BrentOzarULTD/SQL-Server-First-Responder-Kit|GitHub "BrentOzarULTD/SQL-Server-First-Responder-Kit"]]
+    *[[http://www.youtube.com/user/BrentOzar|YouTube "Brent Ozar Unlimited"]].
+      *[[http://www.youtube.com/watch?v=coNGYR6t84g|YouTube "How to Use sp_Blitz for a Free SQL Server Health Check"]].
+  *[[http://www.red-gate.com/community/books/|Redgate eBook And Print Book Store]] - Free E-Books about Microsoft SQL Server.
+  *[[http://www.xing.com/profile/Uwe_Ricken|Uwe Ricken]], [[http://www.db-berater.de/|db Berater GmbH]].
+    *Blog [[http://db-berater.blogspot.de/|SQL Server Intern]] ( - 2015-05-30 ).
+    *Blog [[http://www.db-berater.de/sql-server-blog/|db Berater GmbH "SQL Server Blog"]] ( 2015-06-14 ).
 === Resources ===
   *[[http://support.webecs.com/kb/a867/what-is-the-default-password-for-the-sa-login.aspx|Webecs "What is the default password for the sa login?"]].
 
@@ -342,6 +375,19 @@ Downloads"]].
     *[[http://www.microtool.de/case40/|microTOOL case/4/0]] - "A tool for software analysis and design, data modeling and data warehousing. It supports modeling the functions, data and behavior of an application system through the use of function structures, information flows, state diagrams, ER models, data structures, data elements, relational models, module structures and type structures".
     *The free limited "case/4/0 Personal Edition".
 ===== Database Technologies =====
+==== Database Drivers ( ODBC, OLE-DB, ADO-NET Data Provider... ) ====
+=== Tools ===
+  *[[http://www.microsoft.com/en-US/download/details.aspx?id=5793|Microsoft Download Center "Microsoft Data Access Components (MDAC) 2.8 SP1"]] - It contains core Data Access components such as the Microsoft SQL Server OLE DB provider and ODBC driver.
+  *[[http://www.microsoft.com/en-us/download/details.aspx?id=20065|Microsoft Download Center "64-Bit OLEDB Provider for ODBC (MSDASQL)"]].
+=== Resources ===
+  *Experts told me in 2016-08: Once OLE-DB was popular, then ODBC, but now OLE-DB again...
+  *[[http://msdn.microsoft.com/en-us/library/ms675326%28v=vs.85%29.aspx|Microsoft Developer Network "Microsoft OLE DB Provider for ODBC"]].
+  *[[http://technet.microsoft.com/en-us/library/ms175866%28v=sql.105%29.aspx|Microsoft TechNet "OLE DB Provider for Jet"]].
+  *[[http://msdn.microsoft.com/en-us/library/ms677227%28v=vs.85%29.aspx|Microsoft Developer Network "Microsoft OLE DB Provider for SQL Server"]].
+  *[[http://www.stackoverflow.com/questions/103167/what-is-the-difference-between-ole-db-and-odbc-data-sources|StackOverflow "what is the difference between OLE DB and ODBC data sources?"]].
+  *[[http://en.wikipedia.org/wiki/OLE_DB_provider|EN.Wikipedia "OLE DB provider"]].
+  *[[http://en.wikipedia.org/wiki/Open_Database_Connectivity#Drivers|EN.Wikipedia "Open Database Connectivity"]] - "ODBC".
+  *[[http://en.wikipedia.org/wiki/ADO.NET_data_provider|EN.Wikipedia "ADO.NET data provider"]]
 ==== Memory-mapped Files ====
   *[[http://en.wikipedia.org/wiki/Memory-mapped_file|EN.Wikipedia "Memory-mapped file"]].
     *Microsoft Office does not make use of the "memory-mapped file" technology.
@@ -644,6 +690,7 @@ Fourth Normal Form. Reasoning About FD’s + MVD’s"]] ( PDF ).
   *Google.
     *[[http://groups.google.com/groups/dir?sel=usenet%3Dcomp.databases|Google Groups "comp.databases.*"]].
     *[[http://groups.google.com/groups/dir?sel=usenet%3Dsybase.public.ase|Google Groups "sybase.public.ase.*"]], [[http://groups.google.com/group/sybase.public.ase.linux/|Google Groups "sybase.public.ase.linux"]].
+  *[[http://community.idera.com/|IDERA Community]].
   *[[http://www.informix-zone.com/|Informix Software. The Informix Zone]].
   *[[http://www.javaranch.com/|Java Ranch - a friendly place for Java greenhorns!]].
     *[[http://www.coderanch.com/|Java Ranch - Java Forums at the Big Moose Saloon ( coderanch.com )]].

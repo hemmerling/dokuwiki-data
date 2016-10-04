@@ -2,10 +2,10 @@
 Related page:
   *[[metering.html|Smart Metering]].
   *[[smarttechnology.html|Smart Technology]].
-  *[[smartblitzmerker.html|Smart Blitzmerker 1/2 - "Bring your own Device - Get your own Data" ( BYDD - GYOD  )]].
+  *[[smartblitzmerker.html|Smart Blitzmerker 1/2 - "Bring your own Device - Get your own Data" ( BYOD - GYOD  )]].
 Reason: I applied at the competition [[http://www.telekom-innovation-contest.com/|Telekom Innovation Contest]] 2015, 2015-09-10 - 2015-10-18, with this paper. Unfortunately, the project doesn´t yet fit the requirement "We are looking for innovators, startups and SMEs from all over the world with an innovative technology or product in one of our three categories **and at least a working prototype to present**".
 ===== 1 Idea title =====
-Smart Blitzmerker: Bring your own Device - Get your own Data ( BYDD - GYOD ).
+Smart Blitzmerker: Bring your own Device - Get your own Data ( BYOD - GYOD ).
 ===== 2 Teaser =====
 A smart device collects data from analog meters by taking a photo of the numeric display and pushes it as digital data to the Cloud.
 ===== 3 Category =====
@@ -15,12 +15,25 @@ Industry 4.0
 Which problem solved: Our complete solution ( from sensor to cloud ) helps local companies and local institutions to collect energy data, which is the mandatory prerequisite to build an energy management system. Energy management systems may help to implement "power load management" (  German: "Lastmanagement" ), the only known working business model to make use of smart meters.
 ==== 4.2 What technology are you using? ====
 Two alternative smart devices will be developed:
-  - SmartDevice: Embedded microcontroller board, on-board imageing module ( = camera ), image recognition, wireless data transfer or data transfer by fieldbus to a local facility server and/ or to the Cloud. The SmartDevice is used to be glued or assembled permanently to the meter, usually. So it must be "cheap" to be rolled-out in big numbers.
+  - SmartDevice: Embedded microcontroller board, on-board imageing module ( = camera ), optional image recognition firmware, wireless data transfer or data transfer by fieldbus to a local facility server and/ or to the Cloud. The SmartDevice is used to be glued or assembled permanently to the meter, usually. So it must be "cheap" to be rolled-out in big numbers.
   -SmartPhone: Standard smartphone with camera and wireless or mobile Internet access, maybe operated by a selfie sStick. The SmartPhone is just put temporarily in front of a meter for reading the data.
 There is the option to implement some extra wireless hardware for both devices, so that the data is transfered wireless by a 863 Mhz long-range wirless network for 5-10 km to a next datastation ( as aternative to transfer data by local Wifi or Bluetooth wireless networks, or cable ).
 ==== 4.3 What is new about your idea? ====
-  -SmartDevice: Traditional smart metering solutions require to replace the analog meter by a new smart meter, this is very expensive. Our solution is just a small cheap device which is put in front of the analog data display, to read the data by making a photo. Traditional solutions which read the analog data by making a photo are too bulky, weighty and energy-intensive, as they usually implement the full image processing on the smart device. You need a full Linux computer ( a la Raspberry ) for that. With our solution, the hardware application might be a bare metal embedded board just with a realtime operating system, which has a reduced energy consumption as it can be put to sleep if needed.
-  -SmartPhone: The use of the smartphone for "everything", and to urge the human users to buy and operate it at own costs, is indeed not new. But it is a successfull business model.
+  *2 alternative hardware platforms:
+    -SmartDevice: Traditional smart metering solutions require to replace the analog meter by a new smart meter, this is very expensive. Our solution is just a small cheap device which is put in front of the analog data display, to read the data by making a photo. 
+    -SmartPhone: The use of the smartphone for "everything", and to urge the human users to buy and operate it at own costs, is indeed not new. But it is a successfull business model.
+  *3 solutions to process the data:
+    -Complete image processing on the device.
+      *Traditional solutions which read the analog data by making a photo are too bulky, weighty and energy-intensive, as they usually implement the full image processing on the smart device. You need a full Linux or Windows computer ( a la Raspberry ) or a smartphone for that. The resulting data is sent to the data acquisition system.
+    -Some image processing on the device:
+      *Transformation of the meter numbers displayed by the digital image- into vectors by some limited on-device image processing software. The resulting vector data is sent to a ( cloud ) server, where the ink recognition software detects the meter number from the vectors. The resulting data is sent to the data acquisition system.
+    -No image processing on the device:
+      *The SmartDevice or SmartPhone just takes the photo. The photo is sent to a remote ( cloud ) server. Full image processing on the ( cloud ) server. The resulting data is sent back to the device and/or to the data acquisition system.
+  *3 solutions to do the image recognition:
+    -Traditional image recognition, e.g. by OpenCV.
+    -Use of ink recognition software on a ( cloud ) server, after transformation of the image into vectors by some limited on-device software.
+    -Use of neuronal networks. Experts told me, that You need much computing power for training neuronal networks. For execution of the trained neuronal network, you need relatively little computing power.
+  *All communications with servers should be preferably implemented by HTTP / REST communications.
 ==== 4.4 What is your USP? ====
   -Our smart device SmartDevice will need much less energy than traditional smart-metering solutions which read analog data by making a photo. It will be much cheaper than these competitors, and all such solutions including our competitors are much much cheaper than to exchange the analog meter by a digital meter.
   -"Our" SmartPhone doesn´t cost anything, as it is expected to be supplied by the human operator and human staff. It is just running "our" SmartBlitzmerker App, when needed. Principle "Bring your own Device".

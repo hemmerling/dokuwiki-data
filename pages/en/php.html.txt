@@ -1,12 +1,16 @@
 ====== [hemmerling] PHP ======
 Related pages:
   *[[uscripting.html|Scripting Programming Languages for Unix / Linux and Windows]].
-===== Conferences =====
+===== Conferences and Workshops =====
+==== Conferences ====
+  *The commercial [[http://www.phpconference.com/en/|International PHP Conference 2016]] in Berlin ( 2016-05-31 - 2016-06-02 ).
   *[[http://www.phpuceu.org/|2nd PHP Unconference]] (  #PHPucEU ) in Berlin, 2013-05-04 - 2013-05-05.
   *The affordable unconference [[http://www.php-unconference.de/|PHP Unconference Hamburg]] by by [[http://www.bootev.org/|BOOT - Best of Open Technologies e.V.]].
     *[[http://www.github.com/bootev|GitHub "bootev"]].
-    *[[http://www.php-unconference.de/php-unconference-2013/|PHP Unconference Hamburg 2013]] in Hamburg, 2013-09-21 - 2013-09-22.
-    *[[http://www.php-unconference.de/php-unconference-2013/|PHP Unconference Hamburg 2014]] in Hamburg, 2014-09-20 - 2014-09-21.
+    *[[http://www.php-unconference.de/|PHP Unconference Hamburg 2016]] in Hamburg, 2016-09-17 - 2015-09-18.
+    *[[http://www.php-unconference.de/archiv/2015/|PHP Unconference Hamburg 2015]] in Hamburg, 2015-09-19 - 2015-09-20.
+    *[[http://www.php-unconference.de/archiv/2014/|PHP Unconference Hamburg 2014]] in Hamburg, 2014-09-20 - 2014-09-21.
+    *[[http://www.php-unconference.de/archiv/2013/|PHP Unconference Hamburg 2013]] in Hamburg, 2013-09-21 - 2013-09-22. I participated :-).
     *[[http://www.php-unconference.org/voteyourtalk/index.php/default/index/|PHP Unconference Hamburg - Themenliste, Interessen und Vortrags-Angebote (Vorschläge)]].
     *[[http://www.php-unconference.de/anfahrt-unterkunft/|PHP Unconference Hamburg - Anfahrt]].
     *<del>[[http://www.php-unconference.de/2010/09/15/hinweise-f%C3%BCr-teilnehmer/|PHP Unconference Hamburg 2010 "Hinweise für Teilnehmer"]]</del>, as of 2010.
@@ -28,7 +32,25 @@ Related pages:
         *10:00 Opening of the second day of the unconference.
         *11:00 First session starts.
         *17:30 Unconference ends.
-  
+  *[[http://www,php.ruhr/|PHP.RUHR]] in Dortmund - 2016-11-10.
+==== Workshops ====
+  *[[http://www.nevercodealone.de/|Roland Golla]] - "Never Code Alone".
+    *[[http://www.facebook.com/nevercodealone/|Facebook "Never Code Alone, @nevercodealone"]].
+    *[[http://plus.google.com/110472147669354156019|Google+ "Never Code Alone"]].
+    *[[http://www.twitter.com/nevercodealone|Twitter "Never Code Alone, @nevercodealone"]] - "PHP-Workshops kostenlos in NRW - Initiative für Software-Qualität".
+    *Blog [[http://blog.nevercodealone.de/|Roland Golla, "Never Code Alone" – Blog Für Webdeveloper und Unternehmer]].
+    *Hand-on coding event 2016-08-20.
+      *[[http://blog.nevercodealone.de/gelungener-start-fuer-duisburger-webdevelopment-projekt/|Never Code Alone – Blog Für Webdeveloper und Unternehmer "Gelungener Start für Duisburger Webdevelopment-Projekt Never Code Alone Event"]], [[http://blog.nevercodealone.de/ablaufplan-kostenlosen-live-coding-workshops-php-webdevelopment/|Never Code Alone – Blog Für Webdeveloper und Unternehmer "Ablaufplan Live Coding Workshop 1. Event in Duisburg mit PHP-Workshop"]], 2016-08-20.
+      *[[http://www.xing.com/events/kostenloser-php-workshop-never-code-alone-catering-1711690|XING "Kostenloser PHP-Workshop Never Code Alone mit Catering"]].
+      *Suggested software installation:
+        *XAMPP ( for Windows fans :-) ).
+        *"Codeception" framework for browser-based website testing, using "Selenium".
+        *PHPUnit.
+        *PHP Editor, e.g. Sublime2.
+        *Project: [[http://www.github.com/Entwicklungshilfe-NRW/magentoModulRefactoringBox|GitHub "Entwicklungshilfe-NRW/magentoModulRefactoringBox"]] with Magento webshop, PHP Framework "Flow" - the base for the "Neos" -.
+      *Proceedings:
+        *"Teilnahme ist kostenlos und idealerweise verbindlich Planungssicherheit und Fairness sind wichtig – gerade bei einer limitierten Anzahl an Teilnehmern. Daher sollte die Zusage zum Event möglichst verbindlich sein. Sich einfach nur 'blind' einzutragen und dann am Ende nicht kommen zu können, ist also eher suboptimal für alle Beteiligten. Deshalb nutzt Never Code Alone den Dienst Eventbrite. Hier zahlt jeder Teilnehmer den symbolischen Ticketpreis von 10,00 Euro zzgl. 1,40 Euro für den Dienst, bekommt die 10,00 Euro jedoch am Event-Tag selbst gegen Vorlage des ausgedruckten Tickets zurückerstattet". 
+        *"Wir werden zusammen coden mit einer Funktastatur und uns viel austauschen. Du kannst dir schon mal [[http://www.github.com/Entwicklungshilfe-NRW/magentoModulRefactoringBox|GitHub "Entwicklungshilfe-NRW/magentoModulRefactoringBox"]] und schauen, ob du auf der Maschine einen Unit-Test ausführen kannst. Ansonsten werden wir an dem Tag ja Live-Coding Sessions haben, wo alle mitmachen und sich einbringen können. Die vierte Session werden wir auch alle coden. Die Tastatur geht rum und da muß jeder mal ran".
 ===== Runtime =====
   *[[http://www.php.net/| The PHP Group "php.net"]].
     *"PHP 5.2 Windows Binaries" are the latest version with W2k support, compiled with legacy Visual Studio 6 compiler.
@@ -36,12 +58,13 @@ Related pages:
     *[[http://www.php.net/manual/|PHP Manual]].
       *[[http://www.php.net/manual/en/class.pdo.php|PHP Manual - The PDO class]] - "Represents a connection between PHP and a database server".
       *[[http://php.net/manual/en/ref.pdo-dblib.php|PHP Manual - PDO Drivers "Microsoft SQL Server and Sybase Functions (PDO_DBLIB)"]] - "PDO_DBLIB is a driver that implements the PHP Data Objects (PDO) interface to enable access from PHP to Microsoft SQL Server and Sybase databases through the FreeTDS libary".
-  *Experts claim that "PHP 6" is - similar to "Perl 6" and "Typo3 6" - of academic interest, but probably will never get in focus of application designers.
-===== Free PHP IDEs =====
+  *As of 2016-08, there are 2 versions of PHP:
+    -PHP 5.6 stable.
+    -PHP 7 with new features ( similar to JS 4,5,..).
+===== PHP IDEs =====
+==== Free PHP IDEs ====
   -[[http://www.codelobster.com/|Code Lobster PHP Edition]] - "Free Portable PHP IDE (HTML, PHP, CSS, JavaScript code editor)", "Free portable IDE for PHP/HTML/CSS/JavaScript development", "PHP/HTML/CSS/JavaScript highlighting; advanced PHP/HTML/CSS/JavaScript autocomplete; a powerful PHP debugger; context and dynamic Help; a code validator; a SQL manager".
   -[[http://www.eclipse.org|Eclipse]] - "Eclipse for PHP Developers".
-  -[[http://www.jetbrains.com/idea/|JetBrains "IntelliJ IDEA"]], [[http://www.jetbrains.com/idea/free_java_ide.html|JetBrains "IntelliJ IDEA Community Edition"]].
-    *[[http://en.wikipedia.org/wiki/IntelliJ_IDEA|EN.Wikipedia "IntelliJ IDEA"]], [[http://de.wikipedia.org/wiki/IntelliJ_IDEA|DE.Wikipedia "IntelliJ IDEA"]].
   -[[http://www.netbeans.org/features/php/|NetBeans IDE - PHP Development]].
   -[[http://www.phpide.com/phpcoder.htm|phpIDE "PHP Coder"]] - "A free IDE developed for PHP programmers. Through tight integration of the PHP interpreter and the PHP documentation, PHP Coder gives you a time-saving Development Interface".
     *For W2k, you might have to install the DLL "[[http://www.dll-files.com/dllindex/dll-files.shtml?libmysql|libmysql.dll]]" in "C:\winnt\system32".
@@ -57,8 +80,12 @@ Related pages:
     *[[http://www.shareup.com/Software_Studio-download-19103.html|ShareUp "Software Studio 0.4.BF1"]], 2004-01-22.
     *[[http://www.topshareware.com/Software-Studio-download-12244.htm|TopShareware "Software Studio"]], 2004-02-20.
     *latest version 2004-05-28.
-  *The free [[http://www.microsoft.com/web/webmatrix/|Microsoft/web "WebMatrix"]] - "A free, lightweight, cloud-connected web development tool"
+  *The free [[http://www.microsoft.com/web/webmatrix|Microsoft/web "WebMatrix"]] - "A free, lightweight, cloud-connected web development tool"
     *[[http://en.wikipedia.org/wiki/Microsoft_WebMatrix|EN.Wikipedia "Microsoft WebMatrix"]], [[http://de.wikipedia.org/wiki/Microsoft_WebMatrix|DE.Wikipedia "Microsoft WebMatrix"]] - "with full support for ASP.NET, PHP, Node.js and HTML 5".
+==== Just-commercial PHP IDEs ====
+  *[[http://www.jetbrains.com/phpstorm/|JetBrains "PhpStorm"]].
+    *[[http://en.wikipedia.org/wiki/IntelliJ_IDEA|EN.Wikipedia "IntelliJ IDEA"]], [[http://de.wikipedia.org/wiki/IntelliJ_IDEA|DE.Wikipedia "IntelliJ IDEA"]].
+    *[[http://en.wikipedia.org/wiki/PhpStorm|EN.Wikipedia "PhpStorm"]], [[http://de.wikipedia.org/wiki/PhpStorm|DE.Wikipedia "PhpStorm"]].
 
 ===== Free PHP Debuggers =====
   -[[http://gubed.mccabe.nu/|Gubed PHP Debugger]].
@@ -70,6 +97,12 @@ Related pages:
   -[[http://pecl.php.net/package/apd|George Schlossnagle "PECL" / "apd"]] - "A full-featured engine-level profiler/debugger".
 ===== Free PHP Tools =====
   *[[http://www.sharewareconnection.com/php-cleaner.htm|PHP Cleaner]] - "This little script removes the PHP line brakes you find in a lot of PHP source codes".
+===== Packages =====
+==== Composer - Dependency Manager for PHP  ====
+  *[[http://www.getcomposer.org/|Composer - Dependency Manager for PHP]].
+==== Packagist - The PHP Package Repository ====
+  *[[http://www.packagist.org/|Packagist - The PHP Package Repository]].
+
 ===== Application Execution in Taint Mode =====
   *[[http://pecl.php.net/package/taint|php PECL - Package "taint"]].
   *[[http://www.php.net/manual/en/book.taint.php|php Documentation "Taint"]] - "Taint is an extension, which is used for detecting XSS codes(tainted string). And also can be used to spot sql injection vulnerabilities, and shell inject, etc".
@@ -77,17 +110,38 @@ Related pages:
 ===== Testing =====
   *See [[testing.html|Testing]].
 ===== Free PHP Frameworks / PHP Extensions =====
+==== Neos & Flow ====
+=== The Frameworks ===
+  *The OpenSource [[http://www.neos.io/|Neos]], [[http://www.github.com/neos/|GitHub "neos"]].
+    *"Content Application Platform based on its own PHP framework Flow. The content management features are resting within a larger context that allows you to build a perfectly customized experience".
+    *"An open source Content Application Platform based on Flow. A set of core Content Management features is resting within a larger context that allows you to build a perfectly customized experience for your users".
+  *[[http://flow.neos.io/|Neos "The Flow framework"]], [[http://www.github.com/neos/flow|GitHub "neos/flow"]].
+    *[[https://flowframework.readthedocs.io|ReadTheDocs "Flow dev-master Documentation"]]
+    *"A PHP web application framework focussed on Domain-Driven Design and clean code. Based on strong conventions and best practices, it allows you to rapidly create powerful web applications".
+    *"Flow Application Framework, provides MVC, DI, AOP, Security, …".
+=== Resources ===
+  *t3n.
+    *[[http://www.t3n.de/magazin/php-framework-typo3-flow-232730/|t3n "Einstieg in TYPO3 Flow: Erste Schritte mit dem PHP-Framework"]], 2015.
+    *[[http://www.t3n.de/news/php-framework-flow-version-30-630430/|t3n "PHP-Framework Flow in Version 3.0 erschienen – Das ist neu"]], 2015.
+  *[[http://en.wikipedia.org/wiki/TYPO3_Flow|EN.Wikipedia "TYPO3 Flow", [[http://de.wikipedia.org/wiki/TYPO3_Flow|DE.Wikipedia "TYPO3 Flow"]]
+==== Kohana: The Swift PHP Framework ====
   *[[http://www.kohanaframework.org/|Kohana: The Swift PHP Framework]] - "An elegant HMVC PHP5 framework that provides a rich set of components for building web applications".
+==== LampLighter ====
   *[[http://www.lamplighterphp.org/|LampLighter]] - "OpenSource rapid application development framework for PHP based on a Model-View-Controller (MVC) architecture.
     *The predecessor [[http://www.phpfuse.net/|FUSE]] - "A Model View Controller framework for PHP".
+==== PECL ====
   *[[http://pecl.php.net/|George Schlossnagle "PECL"]] - "A repository for PHP Extensions, providing a directory of all known extensions and hosting facilities for downloading and development of PHP extensions".
+==== PEAR - PHP Extension and Application Repository ====
   *[[http://pear.php.net/|PEAR - PHP Extension and Application Repository]] - "A framework and distribution system for reusable PHP components".
+==== PHPforFB ====
   *The OpenSource PHP Web Framework [[http://www.phpforfb.com/|PHPforFB]] - "welches das Entwickeln und Betreiben von Facebook Anwendungen und Page-Apps vereinfacht".
+==== Symfony ====
   *The Open-Source PHP Web Framework "Symfony".
     *The outdated [[http://www.symfony-project.org/|Symfony]].
     *The current [[http://symfony.com/|Symfony]] 2.
     *Wiki [[http://trac.symfony-project.org/wiki/|Symfony Wiki]].
     *[[http://en.wikipedia.org/wiki/Symfony|EN.Wikipedia "Symfony"]], [[http://de.wikipedia.org/wiki/Symfony|DE.Wikipedia "Symfony"]].
+==== Zend ====
   *[[http://www.zend.com/en/products/server-ce/|Zend Server Community Edition]] - "A fast and reliable free PHP application stack".
     *[[http://www.zend.com/de/community/|Zend Community]].
     *[[http://devzone.zend.com/|Zend Developer Zone (DevZone)]].
@@ -224,7 +278,8 @@ Related pages:
   *[[http://www.phpedit.net/|PHPEdit.net Community]] - community for the commercial PHP editor [[http://www.phpedit.com/|PHPEdit]].
   *[[http://www.phpforum.de/forum/|PHP Forum - phpforum.de]].
   *[[http://www.php-resource.de/forum/|php RESOURCE "PHP Forum"]].
-  *[[http://php-gtk.eu/|PHP-GTK Community : a community site for PHP-GTK]].
+  *[[http://www.phptest.club/|PHP test club]] - "PHPTestClub is a discussion board where developers and test engineers share their experience on automated testing PHP projects. Here we talk about various approaches, frameworks, and best practices in testing. We use PHPUnit, Behat, Codeception, PhpSpec, atoum, and other frameworks, as well as Selenium, PhantomJS, Continuous Integration and delivery systems".
+  *[[http://www.php-gtk.eu/|PHP-GTK Community : a community site for PHP-GTK]].
   *[[http://www.selfphp.info/forum/index.php?styleid=7|SELFPHP Forum]].
   *[[http://forum.symfony-project.org/|Symfony Framework Forum]].
   *[[http://www.xing.com/net/phpgroupd/|XING "PHP Usergroup D/DU/KR"]].

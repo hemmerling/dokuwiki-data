@@ -2,13 +2,16 @@
 Related pages:
   *[[api.html|Application programming interface ( API )]].
   *[[linkeddata.html|Linked Data & Linked Open Data ( LOD )]].
+  *[[testing.html|]Testing].
   *[[webtech.html|Web Technologies ( HTML5, HTML, XML & Javascript )]] -> "JSON, JSONP", "JSON and REST".
 ===== Browser Tools =====
+  *[[http://www.getpostman.com/|Postman]], [[http://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop|Google Chrome Webstore "Postman"]].
   *[[http://addons.mozilla.org/en-US/firefox/addon/poster/|Mozilla Firefox Addons "Poster"]] by [[http://www.milowski.com/|Alex Milowski]].
   *[[http://addons.mozilla.org/en-us/firefox/addon/httprequester/|Mozilla Firefox Addons "HttpRequester"]] by [[http://www.reminderfox.org/|Tom Mutdosch]].
   *[[http://github.com/zklinger/firefox-extension-posterplus|GitHub "zklinger / firefox-extension-posterplus" ( "Poster+" )]] by [[https://github.com/zklinger|Zoltan Klinger]].
 ===== HTTP Protocol clients =====
   *The OpenSource [[http://curl.haxx.se/|cURL and libcurl]] for Windows, MSDOS and Linux.
+    *"curl.exe" is in the directory "src" of binary distributions :-).
   *The OpenSource [[http://www.gnu.org/software/wget/|GNU Wget]].
     *The OpenSource [[http://www.sourceforge.net/projects/gnuwin32/|SourceForge "GnuWin"]], [[http://www.sourceforge.net/projects/gnuwin32/|SourceForge "GnuWin"]].
     *The OpenSource [[http://gnuwin32.sourceforge.net/packages/wget.htm|SourceForge "GnuWin" - "Wget for Windows"]], [[http://www.sourceforge.net/projects/gnuwin32/files/wget/|SourceForge "GnuWin" - "Wget for Windows"]].
@@ -58,7 +61,43 @@ Related pages:
   *[[http://www.sourcetalk.de/2012/files/2012/09/JavaOData280812.pdf|SourceTalk 2012 "Klaus Rohe, Microsoft Deutschland GmbH: "Java und das Open Data Protocol (OData)"]] ( PDF ).
   *[[http://en.wikipedia.org/wiki/Open_Data_Protocol|EN.Wikipedia "Open Data Protocol"]], [[http://de.wikipedia.org/wiki/Open_Data_Protocol|DE.Wikipedia "Open Data Protocol"]].
   *[[http://www.zdnet.com/blog/microsoft/why-microsofts-open-data-protocol-matters/12700|ZDNet "Why Microsoft’s Open Data Protocol matters"]], 2012.
-===== Software Frameworks based on REST =====
+===== Software Frameworks for Hosts, based on REST =====
+  *Many application server frameworks support REST for communications.
+    *Python host frameworks with REST support: Pyramid, Flask, Bottle,...
+===== Software Frameworks for Clients, based on REST =====
+==== HATEOAS ( Hypermedia as the Engine of Application State ) ====
+  *[[http://www.spring.io/understanding/HATEOAS|Spring Framework "Understanding HATEOAS"]] - "HATEOAS ( Hypermedia as the Engine of Application State ) is a constraint of the REST application architecture".
+  *[[http://www.restcookbook.com/|restcookbook.com - How to do stuff RESTful]].
+    *[[http://www.restcookbook.com/Basics/hateoas/|restcookbook.com - How to do stuff RESTful "What is HATEOAS and why is it important for my REST API?"]].
+  *[[http://www.jeffknupp.com/blog/2014/06/03/why-i-hate-hateoas/|Jeff Knupp, Everything I Know About Python... The personal blog of author, speaker, tutor, and professional software engineer Jeff Knupp "Why I Hate HATEOAS"]].
+  *[[http://en.wikipedia.org/wiki/HATEOAS|EN.Wikipedia "HATEOAS"]].
+==== OpenAPI / Swagger ====
+=== The API Swagger ===
+  *[[http://www.swagger.io/|Swagger – The World's Most Popular Framework for APIs]].
+    *"Starting January 1st 2016 the Swagger Specification has been donated to the Open API Initiative (OAI) and has been renamed to the OpenAPI Specification".
+    *"A simple yet powerful representation of your RESTful API".
+    *The free online Service "Swagger Editor" ( [[http://editor.swagger.io/|http://editor.swagger.io/#/?import=url_of_yaml_file]] ).
+      *Examples:
+        *[[http://editor.swagger.io/#/?import=http://data.deutschebahn.com/apis/adam/SSTBT_REST-API_ADAM_1_0.yaml|Swagger Editor "ADAM API"]]
+        *[[http://editor.swagger.io/#/?import=http://data.deutschebahn.com/apis/fahrplan/db-fahrplan-api-specification.yaml|Swagger Editor "DB Fahrplan API"]].
+  *[[http://www.openapis.org/|Open API Initiative (OAI)]].
+  *[[http://www.github.com/OAI/|GitHub "OAI"]]
+    *[[http://www.github.com/OAI/OpenAPI-Specification/|GitHub "OAI/OpenAPI-Specification"]] - "The OpenAPI Specification Repository [[http://openapis.org|http://openapis.org]]".
+    *[[http://www.github.com/OAI/OpenAPI-Specification/wiki|GitHub Wiki "What is Swagger?"]]
+=== Frameworks ===
+== Bravado - Python Library for Swagger 2.0 ==
+  *[[http://www.github.com/Yelp/|GitHub "Yelp"]].
+    *[[http://www.github.com/Yelp/bravado|GitHub "Yelp/bravado"]], [[http://bravado.readthedocs.io/en/latest/|ReadTheDocs "bravado"]] - "Bravado is a python client library for Swagger 2.0 services".
+  *Experts told me in 2016-09, that there is still no support for Swagger 2.0 with the Python application framework "Django" :-(.
+  *For calling network functions, the code implementation makes use of Python Decorators.
+== The old Python Library for Swagger 1.2 ==
+== Swagger UI ==
+  *[[http://swagger.io/swagger-ui/|Swagger UI]] - "A dependency-free collection of HTML, Javascript, and CSS assets that dynamically generate beautiful documentation and sandbox from a Swagger-compliant API". 
+=== Resources ===
+  *I was told by experts that Swagger is driven by YAML & JSON.
+  *[[http://ep2016.europython.eu/conference/talks/building-service-interfaces-using-OpenAPI|EuroPython 2016 "Building Service interfaces with OpenAPI / Swagger"]].
+    *Video [[http://www.youtube.com/watch?v=QWF3GNWV4_w|YouTube "Stephan Jaensch - Building Service interfaces with OpenAPI / Swagger"]].
+  *[[http://en.wikipedia.org/wiki/OpenAPI_Specification|EN.Wikipedia "OpenAPI Specification"]].
 ==== RAML - RESTful API Modeling Language ====
   *[[http://www.raml.org/|RAML - RESTful API Modeling Language]].
     *[[http://www.realpython.com/blog/python/create-a-rest-api-in-minutes-with-pyramid-and-ramses/|RealPython Blog "Create a REST API in Minutes With Pyramid and Ramses"]] - "We wanted to get rid of all boilerplate though, including the database queries that would normally need to be written for views".

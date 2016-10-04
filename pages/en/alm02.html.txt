@@ -94,6 +94,10 @@ MsgBox("Connection Established.")
 QCConnection.login "sa", "123456789012"
 MsgBox("Login Authenticated.")
 </code>
+=== Debugging ===
+  *[[http://www.makingofsoftware.com/2010/quality-center-workflow-debugging|The Making of Software. software engineering applied "Quality Center Workflow Debugging"]].
+    *"Users of HP Quality Center (HP QC) who do workflow programming often suffer from the very limited – not to say: lacking – support that HP QC offers for debugging of workflow code. It can easily happen that programmers spend hours in search of a tiny but nasty defect".
+    *"But there is help that greatly improves workflow programming and debugging in HP QC: You may use Microsoft Visual Studio (MVS) as a debugging environment for HP QC workflow programs. You can then add breakpoints, inspect variables, step through programs, and much more".
 === Resources ===
 == C# ==
   *[[http://www.codeproject.com/Articles/161794/QC-DATA-PULLER-using-C|Code Project "QC DATA PULLER using C#"]].
@@ -233,12 +237,13 @@ MsgBox("Login Authenticated.")
   *[[http://www.softwaretestinghelp.com/qtp-quicktest-professional-tutorial-1/|Software Testing Help "QTP Tutorials – 25+ HP Quick Test Professional (QTP) Training Tutorials"]].
   *[[http://www.guru99.com/quick-test-professional-qtp-tutorial.html|Guru99 "Free QTP (Quick Test Professional) Tutorials"]] - Free training videos #.
 == Resources ==
+  *Experts told me, that "Unified Functional Testing" (UFT) may be used for automation of "HP Quality Center" actions executed by the graphical user interface.
   *[[http://en.wikipedia.org/wiki/HP_QuickTest_Professional|EN.Wikipedia "HP QuickTest Professional"]].
   *[[http://www.learnqtp.com/|Learn QTP... for those with a zest to test]].
   *Blog [[http://qtp.blogspot.de/|QTP Tutorials & Interview Questions]].
 ===== Resources =====
   *[[http://en.wikipedia.org/wiki/Stress_testing_%28software%29|EN.Wikipedia "Stress testing (software)"]], [[http://de.wikipedia.org/wiki/Lasttest_%28Computer%29|DE.Wikipedia "Lasttest (Computer)"]].
 
-{{tag>"application lifecycle management" "application lifecycle" application lifecycle management alm testing HP Hewlett Packard "Hewlett Packard" "Hewlett-Packard" "open test architecture" ota  "Hewlett-Packard alm rest api" "hp alm rest api" rest api "Hewlett-Packard loadrunner" "Hewlett-Packard loadrunner community edition" "loadrunner community edition" loadrunner "community edition" "free community edition" free community edition }}
+{{tag>"application lifecycle management" "application lifecycle" application lifecycle management alm testing HP Hewlett Packard "Hewlett Packard" "Hewlett-Packard" "open test architecture" ota  "Hewlett-Packard alm rest api" "hp alm rest api" rest api "Hewlett-Packard loadrunner" "Hewlett-Packard loadrunner community edition" "loadrunner community edition" loadrunner "community edition" "free community edition" free community edition ALM.NET }}
 <footnote_navi_en>
 
